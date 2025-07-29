@@ -1,0 +1,2 @@
+[console_scripts]
+run-tk-sql = tk_sql_tls.main:run
