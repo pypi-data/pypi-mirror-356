@@ -1,0 +1,13 @@
+[project]
+name = "skyportal"
+authors = [
+    {name = "Stéfan van der Walt", email = "stefanv@berkeley.edu"},
+]
+version = "0.0.0"
+description = "PyPi version coming soon; see GH for existing releases"
+
+[project.urls]
+Homepage = "https://skyportal.io/"
+Documentation = "https://skyportal.io/docs"
+Repository = "https://github.com/skyportal/skyportal"
+Issues = "https://github.com/skyportal/skyportal/issues"
