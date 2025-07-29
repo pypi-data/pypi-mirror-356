@@ -1,0 +1,13 @@
+sphinx_cmd/__init__.py,sha256=jWGEVly-RCaTHa2gvI-4QZts-8wwPX4W2KZnh34qYNc,106
+sphinx_cmd/cli.py,sha256=O2-7Wb6MDWENbVOzjqrBmxhM8BiYeSNQjRsvYH1dW3M,3254
+sphinx_cmd/config.py,sha256=mkMVR7RhQtlGqMjgjRdvEcrOn458Kkn_vVnlBe44LMo,4876
+sphinx_cmd/py.typed,sha256=Z1NT10vEwXGlu11pohpVrJs-oJCePmP_tPRaOTBFrdE,87
+sphinx_cmd/commands/__init__.py,sha256=cEagAkhLadXxPhpyrqoCg12B6Ic7cdvs7D1C4RFmWFM,44
+sphinx_cmd/commands/mv.py,sha256=ftnAueXk_cJXM_c_LwSvinTzFz2A0bJEYc9h_dl1k9s,13768
+sphinx_cmd/commands/rm.py,sha256=slGDjMFcYaFwQjgBS4ysyC_bmncGWJZVz96VATlOvgM,18290
+sphinx_cmd-0.4.3.dist-info/licenses/LICENSE,sha256=eSTM6yTvO8WDoSP6D3JQniBg3S0p_Tes_bIApYUR36I,1070
+sphinx_cmd-0.4.3.dist-info/METADATA,sha256=OZIMlgUDJ3d9TK84wTDw9iEFp4w-8NBfdrK6bGJbhzc,4778
+sphinx_cmd-0.4.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+sphinx_cmd-0.4.3.dist-info/entry_points.txt,sha256=S9t73xfMqsZesy60xMfdsiXmtTAJF04ypCgu20Q9pqM,51
+sphinx_cmd-0.4.3.dist-info/top_level.txt,sha256=2Lre69zMwzGKaKa9YqzRAgEajeWuv7eTNvPjeXWnsNc,11
+sphinx_cmd-0.4.3.dist-info/RECORD,,
