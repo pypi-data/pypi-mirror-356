@@ -1,0 +1,17 @@
+tldr/__init__.py,sha256=mQwS_TORbQ7MnJzuVVk1rsH4bp7HlRsoSa1LV3d6JcU,496
+tldr/github_adapter.py,sha256=ltLAw33qUUdzTmP9OsFDyWpAgbnuzq9i0oDIA1L0zsQ,10300
+tldr/logging_setup.py,sha256=j3qS2ekt5-HQ28h3TJCgpLxTSdMQ_ecXCeUjfCDpdMM,187
+tldr/signature_extractor_pygments.py,sha256=5igueHbGMRCkgfp0mNgOEDWNwed79fo__r8CJahD-T4,3080
+tldr/tldr_file_creator.py,sha256=S197QCcD7FJNn_q8KUx2kmXAH-6xsIaymDSKOk6tm_o,19244
+tldr/llm_providers/__init__.py,sha256=6qNlIoLjWDQl2IEAoShJbOEq-8LJRhblh57nap5PUik,392
+tldr/llm_providers/claude_provider.py,sha256=iGAD_3gDQteHfUfr2A0prfSB8K31R00RTRJqBTR6W4o,2042
+tldr/llm_providers/grok_provider.py,sha256=ry6SoBoJlf5QX6N_WyqZT3uPvgApDBriHVsMk9bVWaI,5595
+tldr/llm_providers/llm_config.py,sha256=twr1OZfty4m856CB4mT-NgTRyWUEXB6JdWVb6HmbsM0,4238
+tldr/llm_providers/llm_factory.py,sha256=cUPO6w0Afd2hm5Ukdp0Kx7DWX49cbev-X_L5Z_7_IAQ,3222
+tldr/llm_providers/llm_provider.py,sha256=XkuJzZ17lWt3YLbz6MSU7z8ozzbOoR-gk8m_OB5akaw,1747
+tldr_code-0.1.0.dist-info/licenses/LICENSE,sha256=pyqT5C8dxVSR2jAcyn0lTfMZMShjLhtGhD0eFyFG6o8,1083
+tldr_code-0.1.0.dist-info/METADATA,sha256=gQFY9CoWTZ7SMitGPLaDn0pk8HkQLIy8Md-oDU_YCzM,5638
+tldr_code-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+tldr_code-0.1.0.dist-info/entry_points.txt,sha256=RBSFWTfUzvd8lIH5G5ZUgJX8PCe2o7UvwexCzlIo4pQ,45
+tldr_code-0.1.0.dist-info/top_level.txt,sha256=xHSI9WD6Y-_hONbi2b_9RIn9oiO7RBGHU3A8geJq3mI,5
+tldr_code-0.1.0.dist-info/RECORD,,
