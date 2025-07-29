@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+bible/__init__.py
+bible/cli.py
+jc_bible.egg-info/PKG-INFO
+jc_bible.egg-info/SOURCES.txt
+jc_bible.egg-info/dependency_links.txt
+jc_bible.egg-info/entry_points.txt
+jc_bible.egg-info/requires.txt
+jc_bible.egg-info/top_level.txt

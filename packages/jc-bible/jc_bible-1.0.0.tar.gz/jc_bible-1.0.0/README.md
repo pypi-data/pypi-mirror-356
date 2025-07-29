@@ -1,0 +1,23 @@
+# Bible
+
+## Description
+Access any of several versions of the Christian Bible via the command line.
+
+## Usage
+Use `bible versions` for information on the many versions available.
+
+Use `bible config ...` to set, e.g., a default bible version.
+
+Use `bible read -v en-fbv genisis 1 1-4` to get Genisis 1:1-4 from the Free Bible Version.
+
+See `bible --all-help` for full usage details.
+
+## Installation
+If you don't have pipx installed either run `pip3 install pipx`, or if that gives you an "externally-managed-environment" complaint, use whatever package manager is right for your operating system.
+
+* [Debian](https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html): `apt-get install pipx`
+* [Red Hat](https://www.redhat.com/en/blog/how-manage-packages): `yum install pipx`
+* [HomeBrew](https://brew.sh): `brew install pipx`
+
+Once pipx is installed, run `pipx install jc-bible` to install it to your `~/.local` directory. (Or run `pipx --global install jc-bible` to install it for all users on your system.)
+

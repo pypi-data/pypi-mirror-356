@@ -1,0 +1,35 @@
+[project]
+name = "jc-bible"
+version = "1.0.0"
+description = "A simple bible utility."
+authors = [
+    { name = "Jeff Clough", email = "jeff@cloughcottage.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["bible", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+    "jc-debug",
+    "jc-handy-helpers",
+    "requests",
+    "tomlkit",
+]
+
+[project.urls]
+Homepage = "https://github.com/jeffclough/bible"
+Repository = "https://github.com/jeffclough/bible.git"
+"Bug Tracker" = "https://github.com/jeffclough/bible/issues"
+
+[project.scripts]
+bible = "bible.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
