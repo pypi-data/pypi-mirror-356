@@ -1,0 +1,9 @@
+haruka_fs/provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haruka_fs/provider/auto_provider.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haruka_fs/provider/basic_provider.py,sha256=cPv17UpY7qErQWoU8rGzUoOADFO7bBHgPNzb8zlCUuE,2051
+haruka_fs/provider/oss_provider.py,sha256=chM3GAqmTWBK4vaOF_Bxsp1UvkOwO09Gan2mcusQABc,16593
+haruka_fs/provider/tos_provider.py,sha256=RLtFyMAv8GUBC1ysc_NAEQ2EVuGS2qdhkgxMTDzFDqc,18712
+haruka_fs/utils/load_env.py,sha256=FMR_x5bqlAaW1l2zsBrYF_7gvhxC8sWaYL2yzI4oq0g,121
+haruka_fs-0.1.6.dist-info/METADATA,sha256=h7gLvXrVaBh56UI4cNrwWEN_YEPvgs-dqInrNSsjfu8,328
+haruka_fs-0.1.6.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+haruka_fs-0.1.6.dist-info/RECORD,,
