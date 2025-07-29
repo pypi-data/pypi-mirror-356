@@ -1,0 +1,2 @@
+[console_scripts]
+cliente-dato = cliente_dato_publico.main:menu
