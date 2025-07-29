@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: crosslang-wrapper-test
+Version: 1.0.1
+Summary: Python SDK for Wrapper via REST API
+Author: insanely_tamojit
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Cross-language-Wrapper-Test
+Cross language Wrapper Test for JS/TS &amp; Python
