@@ -1,0 +1,35 @@
+.bumpversion.cfg
+.gitignore
+LICENSE.txt
+MANIFEST.in
+README.md
+REVISION
+conditional_demo.png
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/test.yml
+.github/workflows/wheels.yml
+examples/Convergence Testing.ipynb
+examples/Plotting.ipynb
+examples/conditional_demo.png
+examples/fastKDE - Berkely Lab Logo.ipynb
+examples/fastKDE and xarray.ipynb
+examples/readme_test.ipynb
+src/fastkde/__init__.py
+src/fastkde/convergence_tests.py
+src/fastkde/empiricalCharacteristicFunction.py
+src/fastkde/fastKDE.py
+src/fastkde/floodFillSearch.c
+src/fastkde/floodFillSearch.pyx
+src/fastkde/nufft.c
+src/fastkde/nufft.pyx
+src/fastkde/plot.py
+src/fastkde.egg-info/PKG-INFO
+src/fastkde.egg-info/SOURCES.txt
+src/fastkde.egg-info/dependency_links.txt
+src/fastkde.egg-info/requires.txt
+src/fastkde.egg-info/top_level.txt
+tests/test_convergence.py
+tests/test_execution.py

@@ -1,0 +1,12 @@
+numpy>=1.26.4
+scipy
+xarray
+
+[all]
+pytest
+
+[dev]
+pytest
+
+[test]
+pytest
