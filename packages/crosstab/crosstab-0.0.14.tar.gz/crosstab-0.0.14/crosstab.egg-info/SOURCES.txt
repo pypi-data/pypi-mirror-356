@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+crosstab/__init__.py
+crosstab/crosstab.py
+crosstab.egg-info/PKG-INFO
+crosstab.egg-info/SOURCES.txt
+crosstab.egg-info/dependency_links.txt
+crosstab.egg-info/entry_points.txt
+crosstab.egg-info/requires.txt
+crosstab.egg-info/top_level.txt
+tests/test_crosstab.py
