@@ -1,0 +1,13 @@
+LICENSE.rst
+README.rst
+pyproject.toml
+src/qgispluginreleaser/__init__.py
+src/qgispluginreleaser/entry_point.py
+src/qgispluginreleaser/test_entry_point.py
+src/qgispluginreleaser/test_installation.py
+src/qgispluginreleaser.egg-info/PKG-INFO
+src/qgispluginreleaser.egg-info/SOURCES.txt
+src/qgispluginreleaser.egg-info/dependency_links.txt
+src/qgispluginreleaser.egg-info/entry_points.txt
+src/qgispluginreleaser.egg-info/requires.txt
+src/qgispluginreleaser.egg-info/top_level.txt
