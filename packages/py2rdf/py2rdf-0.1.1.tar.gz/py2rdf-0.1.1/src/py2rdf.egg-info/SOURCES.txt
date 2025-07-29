@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/py2rdf/__init__.py
+src/py2rdf/rdf_model.py
+src/py2rdf.egg-info/PKG-INFO
+src/py2rdf.egg-info/SOURCES.txt
+src/py2rdf.egg-info/dependency_links.txt
+src/py2rdf.egg-info/requires.txt
+src/py2rdf.egg-info/top_level.txt
