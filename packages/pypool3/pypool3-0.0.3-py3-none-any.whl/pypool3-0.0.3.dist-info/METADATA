@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pypool3
+Version: 0.0.3
+Summary: An extensive python resource pool implementation
+Home-page: https://github.com/imgurbot12/pypool
+Author: Andrew Scott
+Author-email: imgurbot12@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses
+Requires-Dist: typing-extensions
+
+pypool
+-------
+An extensive python resource pool implementation
+
+### Installation
+
+```
+pip install pypool3
+```
+
+### Examples
+
+```python
+from pypool import Pool
+
+numbers = iter(range(0, 1000))
+factory = lambda: next(numbers)
+
+pool = Pool(factory, max_size=100)
+for _ in range(0, 10):
+    with pool.reserve() as number:
+        print(number)
+```
