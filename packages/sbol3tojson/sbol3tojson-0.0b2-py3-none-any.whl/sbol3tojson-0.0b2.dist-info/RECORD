@@ -1,0 +1,14 @@
+sbol3tojson/__init__.py,sha256=KtjZ5mlvZ3FJ32ImCnUA7NYB9F1jGtDrCD0DZk3dAsU,240
+sbol3tojson/clean_json.py,sha256=WKYO8vngB9F5gO8vPqJ5Hiy2H_6JGKmJsfeByyRyYTE,1499
+sbol3tojson/constitutive_detection.py,sha256=m2vtNKNVxYySAA9Bi7BUHmjBBUVuH6zhJIFb8o7QBrk,2999
+sbol3tojson/hierarchy.py,sha256=MJy-0h7AHP4YLXgILOS9nvPnQzbnoaNzVjv1X2iXdXM,4066
+sbol3tojson/main.py,sha256=XoEZSyHuIviDCNqQyqg0ab-zMxM32SM3tOO4KIoeZo8,640
+sbol3tojson/mappings.py,sha256=skHc3UymN2HJd_aRD5I3PGRUp-z7CZzagVc34gUjDKU,1809
+sbol3tojson/process_sbol.py,sha256=lut2k00N2-OOhuwTJ4zk0_T9c7C-ZRGJoOlqZ8QX_DA,760
+sbol3tojson/rdf_parser.py,sha256=eK6XNHe2-vQdgFmm5_taHfJeQKzwD0VP9uByLElcsl0,11597
+sbol3tojson/upload_sbol_file.py,sha256=hzUV_tU3ciRbfQ6rYHDnUPECZNA4ng0i-lMV_nIUcQg,448
+sbol3tojson/utils.py,sha256=zS5u-rnshD_FBomiq055uEcLZ-71L3EQ-z0pVrAHui4,5093
+sbol3tojson-0.0b2.dist-info/METADATA,sha256=LZaSDu9iM3JFqvp57ZVbD_EJ32UjyfD2a8TQ27Vu-6s,1027
+sbol3tojson-0.0b2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+sbol3tojson-0.0b2.dist-info/top_level.txt,sha256=Jg_x8tp1k9s7lRcCU88W1c83oQIGupMSmqTgyEN1ns0,12
+sbol3tojson-0.0b2.dist-info/RECORD,,
