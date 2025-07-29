@@ -1,0 +1,13 @@
+[project]
+name = "baselayer"
+authors = [
+    {name = "Stéfan van der Walt", email = "stefanv@berkeley.edu"},
+]
+version = "0.0.0"
+description = "PyPi version coming soon; see GH for existing releases"
+
+[project.urls]
+Homepage = "https://cesium-ml.org/baselayer/"
+Documentation = "https://cesium-ml.org/baselayer/"
+Repository = "https://github.com/cesium-ml/baselayer"
+Issues = "https://github.com/cesium-ml/baselayer/issues"
