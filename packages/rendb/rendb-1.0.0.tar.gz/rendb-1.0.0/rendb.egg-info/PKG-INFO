@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: rendb
+Version: 1.0.0
+Summary: doubao
+Author-email: rxy <1302553960@qq.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: volcengine-python-sdk[ark]
+Dynamic: license-file
