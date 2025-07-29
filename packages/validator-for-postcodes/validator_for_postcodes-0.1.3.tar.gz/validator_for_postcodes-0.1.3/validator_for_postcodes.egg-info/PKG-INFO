@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: validator-for-postcodes
+Version: 0.1.3
+Summary: Library for postcodes validation
+Author-email: Volodymyr Dubrovskyi <martiniden0@gmail.com>
+License: MIT
+Project-URL: Repository, https://github.com/dubrovskyi/validate-postcode
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# my-package
+
+A lightweight Python library
+to [brief description of what your package does, e.g., "validate structured strings", "simplify data formatting", etc.].
+
+---
+
+## 🚀 Installation
+
+You can install the latest version using `pip`:
+
+```bash
+pip install validator-for-postcodes
+
+
+## 🚀 Usage
+
+from validator_for_postcodes import parse_postcode, postcode_factory
+from validator_for_postcodes.countries.uk.postcode import UKPostcode
+
+
+if __name__ == '__main__':
+    parse_postcode("ASDKJF", country="uk")
+
+    postcode_class = postcode_factory("uk")
+    obj = postcode_class("KLAJSOID")
+    print(obj.postcode)
+    print(obj.validate())
+
+    postcode_obj = UKPostcode("QK23AC")
+    print(postcode_obj.postcode)
+    print(postcode_obj.validate())
