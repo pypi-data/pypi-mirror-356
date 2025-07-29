@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: pharia-inference-sdk
+Version: 0.1.4
+Project-URL: repository, https://github.com/Aleph-Alpha/pharia-inference-sdk.git
+Author-email: Max Hammer <max.hammer@aleph-alpha.com>
+License-File: LICENSE
+License-File: NOTICE.md
+Requires-Python: <3.13,>=3.12
+Requires-Dist: aleph-alpha-client<11.0.0,>=10.2.2
+Requires-Dist: ipykernel<7,>=6.29.5
+Requires-Dist: lingua-language-detector>=2.0.0
+Requires-Dist: opentelemetry-api<2,>=1.29.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-http==1.34.1
+Requires-Dist: opentelemetry-sdk<2,>=1.29.0
+Requires-Dist: pycountry<25,>=24.6.1
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: python-liquid==1.9.4
+Requires-Dist: rich<15,>=14.0.0
+Requires-Dist: semantic-text-splitter>=0.5.0
+Description-Content-Type: text/markdown
+
+# pharia-inference-sdk
+
+Formerly the `intelligence_layer/core` package.
+
+## Overview
+
+The pharia-inference-sdk provides essential functionality for the intelligence layer.
+
+## Installation
+The SDK is published on [PyPI](https://pypi.org/project/pharia-inference-sdk/).
+
+To add the SDK as a dependency to an existing project managed, run
+```bash
+pip install pharia-inference-sdk
+```
+
+## Usage
+
+```python
+from pharia_inference_sdk.core.tracer import InMemoryTracer
+from pharia_inference_sdk.core.model import Llama3InstructModel
+from pharia_inference_sdk.connectors import LimitedConcurrencyClient
+
+client = LimitedConcurrencyClient()
+model = Llama3InstructModel(client=client)
+tracer = InMemoryTracer()
+
+prompt = "Hello, world!"
+
+model.generate(prompt, tracer)
+```
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](https://github.com/Aleph-Alpha/pharia-inference-sdk/blob/main/CONTRIBUTING.md) for details on how to set up the development environment and submit changes.
