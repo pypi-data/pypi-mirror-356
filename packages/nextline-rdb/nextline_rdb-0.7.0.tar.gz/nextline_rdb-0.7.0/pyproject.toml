@@ -1,0 +1,124 @@
+[build-system]
+requires = ["hatchling", "hatch-regex-commit"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nextline-rdb"
+description = "A plugin of nextline-graphql. A relational database for nextline"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Simons Observatory", email = "so_software@simonsobservatory.org" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "nextline>=0.7.14",
+  "nextline-graphql>=0.7.9",
+  "alembic>=1.9",
+  "SQLAlchemy[asyncio]>=2.0.31",
+  "aiosqlite>=0.16",
+  "hypothesis>=6.88",
+  "tomli>=2.0",
+  "tomli-w>=1.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+tests = [
+  "nextline-test-utils>=0.1",
+  "async-asgi-testclient>=1.4.10",
+  "pytest-asyncio>=0.18",
+  "pytest-cov>=3.0",
+  "pytest-timeout>=2.1",
+  "pytest>=7.0",
+]
+
+
+[project.urls]
+Documentation = "https://github.com/simonsobs/nextline-rdb#readme"
+Issues = "https://github.com/simonsobs/nextline-rdb/issues"
+Source = "https://github.com/simonsobs/nextline-rdb"
+
+[project.entry-points."nextline_graphql"]
+rdb = "nextline_rdb:Plugin"
+
+[tool.hatch.version]
+source = "regex_commit"
+path = "src/nextline_rdb/__about__.py"
+tag_sign = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+timeout = 300
+addopts = "--doctest-modules --durations=10"
+# doctest_optionflags = ["ELLIPSIS", "NORMALIZE_WHITESPACE",]
+doctest_optionflags = ["ELLIPSIS"]
+filterwarnings = ["ignore::hypothesis.errors.NonInteractiveExampleWarning"]
+log_cli = false
+log_cli_level = "INFO"
+
+[tool.ruff]
+line-length = 88
+extend-exclude = ["src/nextline_rdb/alembic/versions", "example_script"]
+
+[tool.ruff.format]
+quote-style = "preserve"
+
+[tool.ruff.lint]
+select = [
+  "E", # pycodestyle errors
+  "W", # pycodestyle warnings
+  "F", # pyflakes
+  "I", # isort
+]
+ignore = [
+  "E203", # Whitespace before '{symbol}'
+  "E265", # Block comment should start with #
+  "E266", # Too many leading # before block comment
+  "E501", # Line too long ({width} > {limit})
+  "E741", # Ambiguous variable name '{name}'
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 20
+
+[tool.ruff.lint.isort]
+known-first-party = ["nextline", "nextlinegraphql", "nextline_test_utils"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+source = ["src/nextline_rdb", "tests"]
+omit = ["tests/example_script/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+  "^ *\\.\\.\\.$",
+]
+
+[tool.mypy]
+plugins = "strawberry.ext.mypy_plugin"
+exclude = '''(?x)(
+    src/nextline_rdb/alembic/versions/.*\.py$
+    | example_script/.*\.py$
+)'''
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["dynaconf.*", "async_asgi_testclient.*", "apluggy.*"]
+ignore_missing_imports = true

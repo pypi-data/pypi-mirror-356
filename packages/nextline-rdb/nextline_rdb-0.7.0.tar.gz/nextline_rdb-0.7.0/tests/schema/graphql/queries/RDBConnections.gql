@@ -1,0 +1,116 @@
+query RDBConnections {
+  rdb {
+    runs {
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+      edges {
+        cursor
+        node {
+          id
+          runNo
+          state
+          startedAt
+          endedAt
+          script
+          exception
+        }
+      }
+    }
+    traces {
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+      edges {
+        cursor
+        node {
+          id
+          runNo
+          traceNo
+          threadNo
+          taskNo
+          startedAt
+          endedAt
+          state
+        }
+      }
+    }
+    traceCalls {
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+      edges {
+        cursor
+        node {
+          id
+          runNo
+          traceNo
+          threadNo
+          taskNo
+          traceCallNo
+          startedAt
+          endedAt
+          fileName
+          lineNo
+          event
+        }
+      }
+    }
+    prompts {
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+      edges {
+        cursor
+        node {
+          id
+          runNo
+          traceNo
+          promptNo
+          startedAt
+          endedAt
+          fileName
+          lineNo
+          event
+          open
+          command
+        }
+      }
+    }
+    stdouts {
+      pageInfo {
+        hasNextPage
+        hasPreviousPage
+        startCursor
+        endCursor
+      }
+      totalCount
+      edges {
+        cursor
+        node {
+          id
+          runNo
+          traceNo
+          text
+          writtenAt
+        }
+      }
+    }
+  }
+}
