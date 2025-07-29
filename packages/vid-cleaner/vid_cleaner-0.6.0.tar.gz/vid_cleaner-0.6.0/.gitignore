@@ -1,0 +1,67 @@
+# Scratch folder for temporary files
+scratch/
+tmp/
+dev-config.toml
+
+# video files maybe used during development
+*.mkv
+*.mp4
+*.avi
+*.mov
+*.m4v
+*.m4a
+
+# Caches
+*_cache/
+__pycache__/
+.cache/
+.tmp/
+.development/
+
+# Coverage.py
+htmlcov/
+reports/
+.reports/
+
+# cruft
+*.rej
+
+# Data
+*.csv*
+*.dat*
+*.pickle*
+*.xls*
+*.zip*
+
+.envrc
+.env
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+notebooks/
+
+# macOS
+.DS_Store
+
+# mypy
+.dmypy.json
+
+# Node.js
+node_modules/
+
+# python specific
+.venv/
+dist/
+
+# PyCharm
+.idea/
+
+# pyenv
+.python-version
+
+# Python
+*.py[cdo]
+
+# act run workflows locally
+bin/act
