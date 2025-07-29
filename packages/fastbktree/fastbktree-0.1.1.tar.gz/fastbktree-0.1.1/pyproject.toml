@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "fastbktree"
+description = "A Rust BK-tree implementation for fast fuzzy string matching in Python"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: General",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dynamic = ["version"]
+authors = [
+    {name = "Amrit Rau", email = "amritrau@users.noreply.github.com"}
+]
+license = "MIT"
+readme = "README.md"
+keywords = ["bktree", "levenshtein", "fuzzy-matching", "string-matching", "rust"]
+repository = "https://github.com/amritrau/fastbktree"
+documentation = "https://github.com/amritrau/fastbktree#readme"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
