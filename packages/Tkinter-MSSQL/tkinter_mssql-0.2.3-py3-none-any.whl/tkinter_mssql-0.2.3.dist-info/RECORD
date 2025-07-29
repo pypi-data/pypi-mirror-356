@@ -1,0 +1,13 @@
+MSSQL/__init__.py,sha256=rqUtJyMLicobcyhmr74TepjmUQAEmlazKT3vjV_n3aA,6
+MSSQL/__main__.py,sha256=SbtsPtUSFlFQHOJgkKitMQX1xT1_-oPvA-MHyEvw8Nw,18582
+MSSQL/test_connection.py,sha256=77vXuCNg1SrqrTS-zz2Uzh2oQfwmTxgKJ6whguHLek8,563
+MSSQL/test_cursor.py,sha256=y8ttwobIGk5TNQaMV6PJnTNGU0KDSIre6qYZ5Cztl6U,782
+MSSQL/test_execute.py,sha256=rHY3eVwitroAYlo-LsnMoqNxPYYtjGFcVE8hzQqKjVE,905
+MSSQL/test_row.py,sha256=SU0OvESKh0TY3qHeT6sWG2cIlyqpYIPnO0Fj2YzNoUg,804
+MSSQL/test_types.py,sha256=Gm_KD9l6zhaX1v5UpRVaKY9NIBMUQ2f1xTtVqStMfk4,800
+tkinter_mssql-0.2.3.dist-info/licenses/LICENSE,sha256=fge9ymLXhMo-75QrxMn0qb6BggO6W2AXWkXPJFcTOJw,1086
+tkinter_mssql-0.2.3.dist-info/METADATA,sha256=wXauD0EcWK0sc9MJNrQP3gepnDZa9jVq0LQHr0wGEfk,644
+tkinter_mssql-0.2.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+tkinter_mssql-0.2.3.dist-info/entry_points.txt,sha256=nCBEzZelHSguq7jV6D3YeIGaue_jl24sYUeAvM1MnLs,42
+tkinter_mssql-0.2.3.dist-info/top_level.txt,sha256=pRf0SknTau7lBpVNsb25daUBN6G_48fCzGH61dhqNIU,6
+tkinter_mssql-0.2.3.dist-info/RECORD,,
