@@ -1,0 +1,2 @@
+[console_scripts]
+dinotool = dinotool.cli:cli
