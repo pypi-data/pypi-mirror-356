@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: cloudsecgpt
+Version: 0.0.1
+Summary: CloudSecGPT: an upcoming Python library that enriches cloud-security findings with LLM-powered risk scoring, human-readable summaries, and actionable remediation steps.
+Author-email: "Sergio Garcia @MrCloudSec" <hello@mistercloudsec.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/cloudsecgpt/cloudsecgpt
+Project-URL: Issues, https://github.com/cloudsecgpt/cloudsecgpt/issues
+Keywords: cloud-security,AI,LLM,OCSF,triage,prowler
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# CloudSecGPT
+
+**CloudSecGPT** – Upcoming AI-powered analysis library for cloud security findings.
+This 0.0.1 release only reserves the package name on PyPI.

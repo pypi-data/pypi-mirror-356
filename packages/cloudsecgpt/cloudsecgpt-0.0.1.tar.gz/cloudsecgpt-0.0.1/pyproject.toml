@@ -1,0 +1,20 @@
+[project]
+name = "cloudsecgpt"
+version = "0.0.1"
+description = "CloudSecGPT: an upcoming Python library that enriches cloud-security findings with LLM-powered risk scoring, human-readable summaries, and actionable remediation steps."
+readme = "README.md"
+keywords = ["cloud-security", "AI", "LLM", "OCSF", "triage", "prowler"]
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Sergio Garcia @MrCloudSec", email = "hello@mistercloudsec.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/cloudsecgpt/cloudsecgpt"
+Issues   = "https://github.com/cloudsecgpt/cloudsecgpt/issues"
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
