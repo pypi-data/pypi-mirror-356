@@ -1,0 +1,4 @@
+ovos-plugin-manager<2.0.0,>=1.0.0
+SpeechRecognition>=3.8.1
+ovos-stt-plugin-fasterwhisper<1.0.0,>=0.0.1
+requests

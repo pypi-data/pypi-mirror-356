@@ -1,0 +1,2 @@
+[mycroft.plugin.stt]
+ovos-stt-plugin-fasterwhisper-zuazo = ovos_stt_plugin_faster_whisper_zuazo:ZuazoFasterWhisperSTT
