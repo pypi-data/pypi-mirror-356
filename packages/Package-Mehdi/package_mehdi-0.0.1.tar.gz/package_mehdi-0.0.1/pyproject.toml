@@ -1,0 +1,11 @@
+[project]
+name = "Package_Mehdi"
+version = "0.0.1"
+description = "A small example package"
+requires-python = ">=3.9"
+
+[distutils]
+index-servers ="pypi"
+[pypi]
+  username = "__token__"
+  password = "pypi-AgEIcHlwaS5vcmcCJGY0ZDI0ZWIzLTgzODktNDk0MC1iZmZiLWE2ZDY4YjM0NGIzZgACKlszLCJlOTlkNWI4MS1iYTc0LTQxNmEtOGQxOC1iMDMwYWRhZTMyMzAiXQAABiB7LmWhI_3-lO2hc5FzLdkhTruDrDFi_g9qt40EUlhXVQ"
