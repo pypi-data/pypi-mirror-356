@@ -1,0 +1,46 @@
+{
+	"benchmarks": [
+		{
+			"name": "bzip2",
+			"path": "bzip2.wasm",
+			"args": "{path}/assets/chicken.jpg 30",
+			"output-validator": "Uncompressed data compared correctly"
+		},
+		{
+                        "name": "mcf",
+                        "path": "mcf.wasm",
+                        "args": "{path}/assets/inp.in",
+                        "output-validator": "900463229"
+                },
+		{
+                        "name": "milc",
+                        "path": "milc.wasm",
+                        "args": "{path}/assets/su3imp.in",
+                        "output-validator": "RUNNING COMPLETED"
+                },
+		{
+                        "name": "namd",
+                        "path": "namd.wasm",
+                        "args": "--input {path}/assets/namd.input",
+                        "output-validator": "SUCCESSFUL"
+                },
+		{
+                        "name": "libquantum",
+                        "path": "libquantum.wasm",
+                        "args": "1397 8",
+                        "output-validator": "N = 1397"
+                },
+		{
+                        "name": "lbm",
+                        "path": "lbm.wasm",
+                        "args": "3000 /dev/null 0 0 {path}/assets/100_100_130_ldc.of",
+                        "output-validator": "nObstacleCells:  112539"
+                },
+		{
+                        "name": "astar",
+                        "path": "astar.wasm",
+                        "args": "{path}/assets/rivers.cfg",
+                        "output-validator": "Total way length"
+                }
+	]
+}
