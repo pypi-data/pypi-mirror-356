@@ -1,0 +1,14 @@
+pycodestyle==2.13.0
+coveralls==4.0.1
+python-semantic-release==10.1.0
+packaging==25.0
+wheel==0.46.1
+twine==6.1.0
+requests==2.32.4
+requests-mock==1.12.1
+types-requests==2.32.4.20250611
+setuptools==80.9.0
+mypy==1.16.1
+paho-mqtt==2.1.0
+pymodbus==3.9.2
+sentry-sdk==2.30.0
