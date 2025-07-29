@@ -1,0 +1,77 @@
+# MyABCM Corporate Python Admin API
+
+
+## Overview
+
+MyABCM Corporate (v12 or newer) provides a simple and extensive REST API for end users to connect and control MyABCM from other languages.
+
+The purpose of this package is to simplify the usage of MyABCM Corporate REST API by wrapping the most common calls in a simple to use Python class for Administrator Access
+
+
+## How does it work?
+
+This package implements a single class named **CorporateAdmin** that implements multiple methods to control MyABCM Corporate Administrator. 
+
+Here is a simple example of a Python script to connect to MyABCM and create an Organization:
+
+```python
+from myabcm_corporate_admin_api import CorporateAdmin
+
+# Create a new instance of CorporateAdmin class with the provided servername and credentials
+corporate_admin = CorporateAdmin("https://corporate.my-company.com/proxy", "user123", "myabcm123")
+
+# Logon to MyABCM Corporate Admin
+corporate_admin.logon()
+
+# Create an Organization
+corporate_admin.create_organization("Organization")
+
+# Logoff from MyABCM Corporate Admin
+corporate_admin.logoff()
+```
+
+&nbsp;
+&nbsp;
+
+> This python package is designed to connect to the version **v2** of the server API, so when you inform the API URL, you must not inform the API version (as it is already embedded inside the Python code). If just for example, the "API URL" returned by **Abm.Server.WEB.Shell.exe LIST_PARAMETERS** returns ***myabcm.mycompany.com/v2***, you should use ***myabcm,mycompany.com*** without the ***v2***   
+
+&nbsp;
+&nbsp;
+
+## Methods provided by the CorporateAdmin class
+
+Here are all methods exposed by the CorporateAdmin class. Additional details on the parameters required for each method can be obtained directly from most Python code editors as the source code of the package is fully documented using *Docstrings*.
+
+&nbsp;  
+&nbsp;  
+
+**Logon/logoff methods**
+
+Method | Description
+--- |---
+logon | Logon to the Corporate server informed in the class constructor
+logoff | Logoff from the server
+
+&nbsp;  
+&nbsp;  
+
+**Organization related methods**
+
+Method | Description
+--- |---
+create_organization | Create a new organization
+delete_organization | Remove an organization
+
+&nbsp;  
+&nbsp;  
+
+**Users related methods**
+
+Method | Description
+--- |---
+create_user | Create a new user
+reset_user_password | Reset the password of a specific user
+update_user | Update the user with the desired fields
+delete_user | Remove user
+
+&nbsp;
