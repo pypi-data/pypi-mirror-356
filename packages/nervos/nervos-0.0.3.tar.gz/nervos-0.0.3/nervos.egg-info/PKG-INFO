@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: nervos
+Version: 0.0.3
+Summary: Tool to simulate Spiking Neural Networks
+Author: Jaskirat Singh Maskeen
+Author-email: <jsmaskeen@gmail.com>
+Keywords: python,spiking neural network,simulation,stdp,snn,neuromorphic computing,mnist,iris
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: keras
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tensorflow
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+
+# Nervos
+## A tool to simulate simple Spiking Neural Networks 
+### Developed by Jaskirat Singh Maskeen, for the purpose of project course under Prof. Sandip Lashkare at IIT Gandhinagar
+---
+
+### Installing
+The simplest way is to install using `pip`. 
+> `pip install nervos`
+
+### Features:
+1. Fully customizable, you can modify neuron models, STDP rules etc.
+2. Tracking weights and spikes, and plotting them.
+3. Svae model state at every epoch.
+
+### Examples:
+
+Stored at [lib_examples](./lib_examples/).
+
+1. Neuron Spiking
+2. Iris
+3. MNIST 
+4. Circles 
+
+### Project poster
+Will be updated soon
+
+### Paper
+Will be updated soon
+
+---
+Feel free to fork and update.
