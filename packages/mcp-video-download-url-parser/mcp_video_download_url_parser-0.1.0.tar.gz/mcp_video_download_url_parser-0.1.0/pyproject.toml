@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-video-download-url-parser"
+version = "0.1.0"
+description = "从抖音、TikTok等平台下载无水印视频的MCP服务"
+readme = "README.md"
+authors = [
+    {name = "tansunyj"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastmcp>=1.0.0",
+    "requests>=2.26.0",
+    "beautifulsoup4>=4.9.3",
+    "httpx>=0.24.0",
+    "aiofiles>=23.1.0",
+    "asyncio>=3.4.3",
+    "playwright>=1.40.0",
+    "build>=1.2.2.post1",
+    "twine>=6.1.0",
+]
+
+[project.scripts]
+mcp_video_download_url_parser = "mcp_video_download_url_parser:main"
+
+[project.urls]
+"Homepage" = "https://github.com/tansunyj/mcp_video_download_url_parser"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_video_download_url_parser"]

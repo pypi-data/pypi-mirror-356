@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'uv', args: ['run', 'main.py'], env: { API_BASE_URL: config.apiBaseUrl || 'http://localhost:8000' } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties:
+      apiBaseUrl:
+        type: string
+        title: API Base URL
+        description: Evil0ctal API的基础URL，默认为http://localhost:8000
+        default: http://localhost:8000
+  exampleConfig:
+    apiBaseUrl: http://localhost:8000

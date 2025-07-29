@@ -1,0 +1,12 @@
+{
+    "video-url-parser": {
+        "command": "uv",
+        "args": [
+            "run",
+            "--index-url",
+            "https://mirrors.aliyun.com/pypi/simple/",
+            "D:/project/test/mcp_video_download_url_parser/main.py"
+        ],
+        "env": {}
+    }
+} 
