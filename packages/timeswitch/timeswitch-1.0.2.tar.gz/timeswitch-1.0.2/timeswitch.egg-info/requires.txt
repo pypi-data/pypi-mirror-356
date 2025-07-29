@@ -1,0 +1,13 @@
+enum34~=1.0
+
+[:python_version < "3.9"]
+pyparsing~=2.1
+
+[:python_version >= "3.9"]
+pyparsing~=3.2
+
+[test]
+coverage
+mock
+nose2
+testfixtures
