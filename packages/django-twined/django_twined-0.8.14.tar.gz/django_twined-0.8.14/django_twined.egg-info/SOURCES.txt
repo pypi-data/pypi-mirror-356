@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+django_twined/__init__.py
+django_twined/apps.py
+django_twined/exceptions.py
+django_twined/fields.py
+django_twined/urls.py
+django_twined/views.py
+django_twined.egg-info/PKG-INFO
+django_twined.egg-info/SOURCES.txt
+django_twined.egg-info/dependency_links.txt
+django_twined.egg-info/requires.txt
+django_twined.egg-info/top_level.txt
+tests/test_migrations.py
+tests/test_views.py
