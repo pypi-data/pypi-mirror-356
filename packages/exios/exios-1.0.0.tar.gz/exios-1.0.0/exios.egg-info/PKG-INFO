@@ -1,0 +1,99 @@
+Metadata-Version: 2.4
+Name: exios
+Version: 1.0.0
+Summary: Async FastAPI-style wrapper
+Home-page: https://github.com/nitrix4ly/exios
+Author: Nitrix
+Author-email: nitrixexe@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# exios
+
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=flat-square&logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/fastaio.svg?style=flat-square&logo=pypi)](https://pypi.org/project/fastaio/)
+
+Ultra-fast, dependency-free async HTTP client for Python. A drop-in alternative to aiohttp with minimal footprint.
+
+## Features
+
+- Fully async with asyncio
+- HTTP methods: GET, POST, PUT, DELETE
+- SQLite response caching
+- Zero external dependencies
+- Clean, simple API
+
+## Installation
+
+```bash
+pip install exios
+```
+
+## Quick Start
+
+```python
+import asyncio
+import exios
+
+async def main():
+    session = exios.ClientSession()
+    response = await session.get("https://catfact.ninja/fact")
+    print(response.json())
+    await session.close()
+
+asyncio.run(main())
+```
+
+## Usage
+
+```python
+import asyncio
+import exios
+
+async def example():
+    async with exios.ClientSession() as session:
+        # GET request
+        response = await session.get("https://api.github.com/users/octocat")
+        
+        # POST with JSON
+        post_response = await session.post(
+            "https://httpbin.org/post",
+            json={"key": "value"}
+        )
+        
+        print(f"Status: {response.status_code}")
+        print(f"Data: {response.json()}")
+
+asyncio.run(example())
+```
+
+## API
+
+### Methods
+- `session.get(url, headers=None, params=None)`
+- `session.post(url, headers=None, json=None, data=None)`
+- `session.put(url, headers=None, json=None, data=None)`
+- `session.delete(url, headers=None)`
+
+### Response
+- `response.status_code` - HTTP status code
+- `response.json()` - Parse JSON response
+- `response.text()` - Get response as text
+- `response.headers` - Response headers
+
+## License
+
+MIT License
