@@ -1,0 +1,3 @@
+mypy industrial_model_client_generator tests
+ruff check industrial_model_client_generator tests
+ruff format industrial_model_client_generator tests --check
