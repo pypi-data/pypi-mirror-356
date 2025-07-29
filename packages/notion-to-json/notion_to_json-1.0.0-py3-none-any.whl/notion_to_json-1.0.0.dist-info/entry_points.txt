@@ -1,0 +1,2 @@
+[console_scripts]
+notion-to-json = notion_to_json.cli:main
