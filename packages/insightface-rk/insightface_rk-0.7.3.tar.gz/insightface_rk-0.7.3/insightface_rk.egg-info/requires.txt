@@ -1,0 +1,9 @@
+numpy
+onnx
+onnxruntime
+tqdm
+requests
+matplotlib
+opencv-python
+scikit-image
+albumentations
