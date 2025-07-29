@@ -1,0 +1,7 @@
+# MANIFEST.in
+recursive-include data_filtering/config *.yaml
+recursive-include data_filtering/templates *.html
+include README.md
+include LICENSE
+
+prune tests

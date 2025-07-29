@@ -1,0 +1,114 @@
+# config/default_settings.yaml
+
+# --- 입력 설정 ---
+# input_csv_path: null # 입력 CSV 파일 경로는 실행 시 인자로 받는 것이 일반적입니다.
+q_col: "질문" # CSV 파일 내 질문 컬럼명
+a_col: "답변" # CSV 파일 내 답변 컬럼명
+qa_col: "QA통합" # 질문+답변 통합 컬럼명 (q_col, a_col 대신 사용)
+encoding: "utf-8" # 파일 인코딩
+
+# --- 출력 설정 ---
+output_dir: "filtered_results" # 필터링된 결과가 저장될 기본 디렉토리
+
+# --- 중복 제거 설정 ---
+# 중복 제거는 내부적으로 생성된 'processed_text_minimal' (기본 공백 정리 등 최소 전처리된 텍스트)을 기준으로 동작합니다.
+deduplication:
+  enable_exact: true # 정확한 중복 제거 활성화 여부
+  enable_semantic: true # 의미론적 유사 중복 제거 활성화 여부
+  semantic_threshold: 0.80 # 의미론적 유사도 임계값 (0.0 ~ 1.0)
+  keep_criterion: "first" # 중복 그룹 내에서 남길 데이터 기준 ('first': 먼저 나온 데이터, 'longest': 가장 긴 데이터)
+
+  # 임베딩 백엔드 설정
+  embedding:
+    # 사용할 임베딩 백엔드 선택 ('sentence_transformers' 또는 'openai' 또는 'gemini')
+    backend: "sentence_transformers"
+
+    # Sentence Transformers 백엔드 설정 (backend가 'sentence_transformers'일 때 사용)
+    sentence_transformers:
+      # Hugging Face 모델명 또는 로컬 경로
+      # 예: "Qwen/Qwen3-Embedding-0.6B" 또는 "/path/to/local/model"
+      model_name: "model/Qwen3-Embedding-0.6B"
+
+      # 추가 파라미터 (선택사항)
+      # 'cuda', 'mps', 'cpu' 중 명시적으로 지정 가능
+      device: "cuda" # 'cuda', 'mps', 'cpu' 중 선택
+
+    # OpenAI 백엔드 설정 (backend가 'openai'일 때 사용)
+    openai:
+      # OpenAI API 키 (선택사항, 환경변수 OPENAI_API_KEY로도 설정 가능)
+      api_key: "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"
+
+      # 사용할 모델 (예: 'text-embedding-3-small', 'text-embedding-3-large')
+      model_name: "text-embedding-3-small"
+
+      # 배치 크기 (한 번의 API 호출에 처리할 텍스트 수)
+      batch_size: 32
+
+      # API 타임아웃 (초)
+      timeout: 30
+
+      # 최대 재시도 횟수
+      max_retries: 3
+
+    # Google Gemini 백엔드 설정 (backend가 'gemini'일 때 사용)
+    gemini:
+      # Google AI Studio API 키 (https://aistudio.google.com/app/apikey)
+      api_key: "AIzaSyBMK90psXzHtJ8XNKyWduLVr32BrJA_vf4"
+
+      # 사용할 모델 (기본값: 'gemini-embedding-exp-03-07')
+      model_name: "gemini-embedding-exp-03-07"
+
+      # API 베이스 URL (일반적으로 변경할 필요 없음)
+      base_url: "https://generativelanguage.googleapis.com/v1beta/"
+
+      # 배치 크기 (한 번의 API 호출에 처리할 텍스트 수)
+      batch_size: 32
+
+      # API 타임아웃 (초)
+      timeout: 30
+
+      # 최대 재시도 횟수
+      max_retries: 3
+
+# --- 품질 필터 설정 ---
+# 품질 필터는 내부적으로 생성된 'processed_text_minimal' (기본 공백 정리 등 최소 전처리된 텍스트)을 기준으로 동작합니다.
+# 사용자가 복잡한 전처리(예: 특정 문자 제거, 형태소 분석 등)를 원할 경우,
+# 이 라이브러리를 사용하기 전에 외부에서 데이터를 전처리한 후 입력해야 합니다.
+quality_filters:
+  # 길이 필터 (글자 수 기준)
+  length:
+    enable: false # 길이 필터 활성화 여부 (true/false)
+    min: 10 # 최소 길이 (enable이 true일 때 적용)
+    max: 150 # 최대 길이 (enable이 true일 때 적용) -> 이전 테스트 값으로 되돌림 (샘플 데이터에 맞게)
+  # 언어 필터 (선택적)
+  # enable이 true일 경우, langdetect 라이브러리가 필요합니다. (예: pip install langdetect)
+  language:
+    enable: false # 언어 필터 활성화 여부
+    target: "ko" # 목표 언어 코드 (예: 'ko', 'en')
+    confidence_threshold: 0.7 # 언어 감지 신뢰도 임계값
+
+# --- 리포트 설정 ---
+report:
+  format: "html" # 리포트 형식 ('html', 'txt')
+  filename: "filtering_report" # 리포트 파일명 (확장자는 format에 따라 자동 추가)
+  include_rejected_samples: 10 # 리포트에 포함할 제외된 샘플 데이터 수
+
+# --- 출력 CSV 설정 ---
+output_csv:
+  filename: "selected_qna_data.csv" # 선별된 데이터 CSV 파일명
+  # 최종 CSV 파일에 포함될 컬럼 목록
+  # 사용 가능한 플레이스홀더:
+  # original_question: 원본 CSV의 질문 컬럼 내용
+  # original_answer: 원본 CSV의 답변 컬럼 내용
+  # original_text_combined: 원본 질문+답변 또는 QA통합 컬럼 내용
+  # processed_text_minimal: 라이브러리 내부에서 기본 공백 정리 등 최소한의 처리를 거친 텍스트 (필터링 및 중복제거 기준)
+  # source_file: 원본 파일명 (여러 파일 처리 시 유용)
+  # id: 라이브러리가 내부적으로 생성한 고유 ID
+  # rejection_reason: 데이터가 선별되지 않은 경우, 그 이유 (선별된 데이터에는 이 컬럼 값이 비어있음)
+  columns:
+    - "id"
+    - "original_question"
+    - "original_answer"
+    - "processed_text_minimal" # 필터링/중복제거에 사용된 텍스트 확인용으로 포함 권장
+    # - "original_text_combined" # 필요 시 주석 해제
+    # - "rejection_reason" # 제외된 데이터를 별도로 저장하지 않을 경우, 여기에 이유를 포함시켜 모든 데이터를 한 파일로 받을 때 유용

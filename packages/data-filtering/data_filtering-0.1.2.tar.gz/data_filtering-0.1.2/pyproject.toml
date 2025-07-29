@@ -1,0 +1,43 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+# backend-path = ["."]
+
+[project]
+name = "data-filtering"
+version = "0.1.2"
+description = "A library to filter and deduplicate Q&A text datasets from CSV files."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+    { name = "JunNyeong Jeong", email = "junnyeong.jeong@selectstar.ai" },
+]
+keywords = ["data filtering", "nlp", "deduplication", "text processing", "csv"] # 키워드 수정
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Filters",
+]
+
+dependencies = [
+    "pandas>=1.5",
+    "PyYAML>=6.0",
+    "langdetect>=1.0.9",
+    "scikit-learn>=1.0",
+    "sentence-transformers>=2.2.2",
+    "Jinja2>=3.0",
+]
+
+[project.scripts]
+data-filtering-cli = "data_filtering.main_processor:main_cli"

@@ -1,0 +1,6 @@
+pandas>=1.5
+PyYAML>=6.0
+langdetect>=1.0.9
+scikit-learn>=1.0
+sentence-transformers>=2.2.2
+Jinja2>=3.0

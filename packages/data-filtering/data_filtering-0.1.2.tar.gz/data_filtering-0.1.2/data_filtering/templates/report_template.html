@@ -1,0 +1,102 @@
+<!-- qa_filter/templates/report_template.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>QA 데이터 필터링 리포트</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; line-height: 1.6; }
+        h1, h2, h3 { color: #333; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .summary { background-color: #eef; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        .rejected-samples td, .selected-samples td { word-break: break-all; } /* 긴 텍스트 줄바꿈 */
+        .code { background-color: #f8f8f8; padding: 2px 4px; border-radius: 3px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>QA 데이터 필터링 리포트</h1>
+    <p><strong>리포트 생성 시간:</strong> {{ report_time }}</p>
+    <p><strong>입력 파일:</strong> {{ input_file_info.name | default('N/A') }}</p>
+
+    <h2>요약</h2>
+    <div class="summary">
+        <p><strong>총 로드된 아이템 수:</strong> {{ summary.total_loaded }}</p>
+        <p><strong>최종 선택된 아이템 수:</strong> {{ summary.total_selected }}</p>
+        <p><strong>총 거부된 아이템 수:</strong> {{ summary.total_rejected }}</p>
+    </div>
+
+    <h2>거부 사유별 통계</h2>
+    {% if rejection_stats %}
+        <table>
+            <thead>
+                <tr>
+                    <th>거부 사유</th>
+                    <th>개수</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for reason, count in rejection_stats.items() %}
+                <tr>
+                    <td>{{ reason }}</td>
+                    <td>{{ count }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>거부된 아이템이 없습니다.</p>
+    {% endif %}
+
+    {% if selected_samples and selected_samples.data %}
+    <h2>선택된 데이터 샘플 (최대 {{ selected_samples.count }}개)</h2>
+    <table>
+        <thead>
+            <tr>
+                {% for header in selected_samples.headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in selected_samples.data %}
+            <tr>
+                {% for cell in row %}
+                    <td>{{ cell | e }}</td> {# e 필터는 HTML 이스케이프를 위해 중요 #}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+    {% if rejected_samples and rejected_samples.data %}
+    <h2>거부된 데이터 샘플 (최대 {{ rejected_samples.count }}개)</h2>
+    <table class="rejected-samples">
+        <thead>
+            <tr>
+                {% for header in rejected_samples.headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rejected_samples.data %}
+            <tr>
+                {% for cell in row %}
+                    <td>{{ cell | e }}</td> {# e 필터는 HTML 이스케이프를 위해 중요 #}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+        <p>표시할 거부된 샘플 데이터가 없습니다 (설정에 따라 거부된 아이템이 없거나 샘플 수가 0일 수 있습니다).</p>
+    {% endif %}
+
+    <h2>설정 정보 (일부)</h2>
+    <pre class="code">{{ config_overview | tojson(indent=2) }}</pre> {# tojson 필터는 딕셔너리를 예쁘게 출력 #}
+
+</body>
+</html>
