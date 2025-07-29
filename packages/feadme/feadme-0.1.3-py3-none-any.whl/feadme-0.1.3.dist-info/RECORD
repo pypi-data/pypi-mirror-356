@@ -1,0 +1,17 @@
+feadme/__init__.py,sha256=deiknTZ9D-hVvrB_xdcBXOzZn2fibu5i7pXvisdHWvc,902
+feadme/cli.py,sha256=AQD3JTqU_mlcz_yL68u885YsHMXdz4rsygBZXJfHAE8,8512
+feadme/compose.py,sha256=jMEGSKIpFyEQ9DAUHk1pRJQcfX3drEKZPYu-H5V4wL0,25237
+feadme/parser.py,sha256=NIc6p6Y63qHPQ83erH8IvcigRsEimbon5ZFwFI8UJm0,9977
+feadme/plotting.py,sha256=MxT8aI59JcPA3Q1zir2SFGYJ8l4Ozr2j2-tE7RTVyNU,7551
+feadme/utils.py,sha256=6ecLd8sYw86HS82g8pnQxgeHn1taKJKJeEfo8YkOO2c,8114
+feadme/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feadme/models/disk.py,sha256=f69Hibuya2KVyPXT4O4XRfOyk-4CfumVc98Nz3uww9E,4978
+feadme/models/hung.py,sha256=64A6bMyQdF7qcEc8ca2bct9tUChK84lOYRdXpcfz21c,6674
+feadme/models/lsq.py,sha256=3X8p4y9QacQ79Rfzeciq87tjgcf2AST7zi5hONk97zs,10486
+feadme/samplers/base_sampler.py,sha256=ZrbuUsmFrvACHCvTFFX4XkZoAinoqJYnk-V4iBdNyac,9109
+feadme/samplers/nuts_sampler.py,sha256=1BN9COEkBgkvza-X2V0X2B6Blpy5o698fV2Ium4krbk,1262
+feadme-0.1.3.dist-info/METADATA,sha256=M9XvHV-B9IAQ0XSZvaOKKEXEsXp-Tj2m8Sff6GAh-cg,10303
+feadme-0.1.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+feadme-0.1.3.dist-info/entry_points.txt,sha256=jdo856aNdKntNbI8dlgxOiNjdqIrLFvcPJ22mawVrfo,42
+feadme-0.1.3.dist-info/licenses/LICENSE,sha256=l7wNipFiRqCWbYMZ-cb--fwCThbYRcb8tIa8kL-2FW4,1070
+feadme-0.1.3.dist-info/RECORD,,
