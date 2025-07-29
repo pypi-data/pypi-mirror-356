@@ -1,0 +1,2 @@
+[console_scripts]
+incli = incli.incli:main
