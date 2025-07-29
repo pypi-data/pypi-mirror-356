@@ -1,0 +1,74 @@
+[build-system]
+# Specify the required build system.
+requires = ["setuptools >= 61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emanate"
+dynamic = ["version"]
+authors = [
+    {name = "Ellen Marie Dash", email = "me@duckie.co"},
+]
+description = "Symlink files from one directory to another, similary to Effuse and Stow."
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+requires-python = ">= 3.9"
+
+[project.urls]
+repository = "https://github.com/duckinator/emanate"
+documentation = "https://emanate-docs.netlify.app/cli.html"
+
+[project.optional-dependencies]
+lint = [
+    "bork",
+    "ruff"
+]
+
+test = [
+    "bork",
+    "pytest~=7.4",
+    "mypy~=1.6.1",
+    "pytest-mypy~=0.10.3",
+]
+
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-argparse",
+]
+
+[project.scripts]
+emanate = "emanate.cli:main"
+
+[tool.setuptools]
+packages = ["emanate"]
+
+[tool.setuptools.dynamic]
+version = {attr = "emanate.__version__"}
+
+[tool.bork.zipapp]
+enabled = true
+main = "emanate.cli:main"
+
+[tool.bork.release]
+pypi = true
+github = true
+github_repository = "duckinator/emanate"
+strip_zipapp_version = true
+
+[tool.bork.aliases]
+lint = "ruff check"
+test = "python -m pytest --verbose"
+#docs = "env PYTHONPATH=./ pdoc3 --html --output-dir ./html --force emanate"
+docs = "sphinx-build -b html -d build/doctrees docs/source/ docs/build/"
+docs-clean = "rm -rf docs/build/"

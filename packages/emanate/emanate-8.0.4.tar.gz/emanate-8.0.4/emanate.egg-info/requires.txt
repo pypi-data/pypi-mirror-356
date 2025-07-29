@@ -1,0 +1,15 @@
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-argparse
+
+[lint]
+bork
+ruff
+
+[test]
+bork
+pytest~=7.4
+mypy~=1.6.1
+pytest-mypy~=0.10.3

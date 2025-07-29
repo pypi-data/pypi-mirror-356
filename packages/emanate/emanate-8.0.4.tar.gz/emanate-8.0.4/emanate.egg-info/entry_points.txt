@@ -1,0 +1,2 @@
+[console_scripts]
+emanate = emanate.cli:main
