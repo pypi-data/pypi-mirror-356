@@ -1,0 +1,181 @@
+Metadata-Version: 2.1
+Name: norm-tree
+Version: 0.0.0
+Summary: A systematic format checker and normalizer for tree-structured objects
+Home-page: https://github.co.jp/
+Author: bib_inf
+Author-email: contact.bibinf@gmail.com
+License: CC0 v1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
+
+English description follows Japanese.
+
+---
+
+## 概要
+
+`norm-tree` は、**木構造データの正規化と構文チェック**を数学的に美しく、簡潔に記述できる Python ライブラリです。
+このツールは、次のような目的で使用されます：
+
+* ネストされた構造や再帰的な構造を含むデータの「受理／拒否」判定
+* データを標準化（正規化）した形式に変換
+* 自作関数による動的な検証・変換ルールの構築
+
+## 特徴
+
+* **再帰的チェック・正規化**：構造の各ノードに対し、指定したルール（型、値、関数など）で再帰的にチェック・正規化処理を実行
+* **型と構造の混在対応**：単なる型の一致にとどまらず、リスト・辞書の構造や中身の値にも柔軟に対応
+* **正規化関数の指定**：チェックと同時に変換も行える（例：小数→整数への丸め）
+* **自己参照・文法的構造対応**：再帰的な文法や自己言及的構造も簡潔に記述可能
+
+---
+
+## 使い方
+
+### 基本構文チェックと正規化
+
+```python
+checker = nt([int, [8, str]])
+checker([9, [8, "hello"]])  # OK → [9, [8, "hello"]]
+checker([9, [8, 77]])       # 例外が発生
+```
+
+* `checker` は `[整数, [8, 文字列]]` の形式を受理します。
+* 入力がこの形式に一致すれば通過し、そうでなければ例外が投げられます。
+
+---
+
+### 独自関数による正規化（例：四捨五入）
+
+```python
+def round_int(x):
+	return math.floor(x + 0.5)
+
+checker1 = nt({
+	"command": [nt.OR("goto", "run"), str],
+	"num_list": nt.list(round_int),
+	"info": nt.OR(nt.list(...), None)
+})
+
+res = checker1({"command": ["goto", "home"], "num_list": [1.2, 8], "info": [True]})
+# -> {"command": ["goto", "home"], "num_list": [1, 8], "info": [True]}
+```
+
+* `round_int` によって `num_list` 内の数値が正規化されます。
+* `nt.OR` により複数の選択肢が許可されます。
+
+---
+
+### True/False を返す形式チェック関数
+
+```python
+checker2 = nt.tf([24, str])
+checker2([24, "hoge"])  # True
+checker2([24, 4])       # False
+```
+
+* `nt.tf(...)` を使うと例外を投げずに真偽値を返します。
+
+---
+
+### 自己参照構造のチェック
+
+```python
+or_nodes = [int, ...]
+checker3 = nt.listed_OR(or_nodes)
+or_nodes[1] = nt.list(checker3)
+
+checker3([1, 2, [3]])  # OK
+checker3([[1, [2, [3]]]])  # OK
+checker3([1, 2, [3, "NG"]])  # 例外
+checker3([[9, 8, [[[], [7, 8]]]], 7, [9, 0]])	# OK
+```
+
+* 自己参照的な文法（たとえば式のネスト）を自然に定義できます。
+
+---
+
+## Overview
+
+`norm-tree` is a Python library for **systematic validation and normalization** of tree-like (nested) data structures in a mathematically elegant and composable way.
+
+It is useful for:
+
+* Accepting or rejecting deeply nested structured data
+* Transforming (normalizing) values to a canonical format
+* Defining grammar-like recursive rules with minimal boilerplate
+
+## Features
+
+* **Recursive validation & normalization**: Each part of the structure is validated and possibly transformed based on recursive rules
+* **Hybrid structure checking**: Works with a mix of types, literal values, lists, and dictionaries
+* **Custom normalization functions**: You can define how data should be cleaned or coerced if acceptable
+* **Self-referential grammar support**: Easily express recursive grammar-like formats
+
+---
+
+## Usage
+
+### Basic pattern matching
+
+```python
+checker = nt([int, [8, str]])
+checker([9, [8, "hello"]])  # OK
+checker([9, [8, 77]])       # raises exception
+```
+
+* Accepts a list structured as `[int, [8, str]]`.
+* If input matches the structure, it is accepted; otherwise, an exception is raised.
+
+---
+
+### Custom normalization (e.g., rounding)
+
+```python
+def round_int(x):
+	return math.floor(x + 0.5)
+
+checker1 = nt({
+	"command": [nt.OR("goto", "run"), str],
+	"num_list": nt.list(round_int),
+	"info": nt.OR(nt.list(...), None)
+})
+
+res = checker1({"command": ["goto", "home"], "num_list": [1.2, 8], "info": [True]})
+# -> {"command": ["goto", "home"], "num_list": [1, 8], "info": [True]}
+```
+
+* `round_int` is applied to elements in `"num_list"`.
+* `nt.OR(...)` accepts multiple allowed alternatives.
+
+---
+
+### Format check returning boolean
+
+```python
+checker2 = nt.tf([24, str])
+checker2([24, "hoge"])  # True
+checker2([24, 4])       # False
+```
+
+* Use `nt.tf(...)` to create format checkers that return a boolean instead of raising.
+
+---
+
+### Recursive structure (grammar-like)
+
+```python
+or_nodes = [int, ...]
+checker3 = nt.listed_OR(or_nodes)
+or_nodes[1] = nt.list(checker3)
+
+checker3([1, 2, [3]])  # OK
+checker3([[1, [2, [3]]]])  # OK
+checker3([1, 2, [3, "NG"]])  # raises exception
+checker3([[9, 8, [[[], [7, 8]]]], 7, [9, 0]])	# OK
+```
+
+* Easily defines recursive structures like nested expressions or grammar trees.
