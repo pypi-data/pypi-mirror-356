@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fonderlib
+Version: 1.0.35
+Summary: Fonder common lib
+Author: Fonder LLC
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: boto3 (==1.37.28)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: pandas (==2.2.3)
+Requires-Dist: psycopg2 (>=2.9.10,<3.0.0)
+Requires-Dist: pydantic (>=2.10.4,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.36,<3.0.0)
