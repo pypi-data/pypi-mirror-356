@@ -1,0 +1,2 @@
+[console_scripts]
+vf-vllm = verifiers.inference.vllm_server:cli_main
