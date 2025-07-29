@@ -1,0 +1,2 @@
+[console_scripts]
+compoolctl = pycompool.cli:main
