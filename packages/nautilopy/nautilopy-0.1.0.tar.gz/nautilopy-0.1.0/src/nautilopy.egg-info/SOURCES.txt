@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/nautilopy/__init__.py
+src/nautilopy/core.py
+src/nautilopy.egg-info/PKG-INFO
+src/nautilopy.egg-info/SOURCES.txt
+src/nautilopy.egg-info/dependency_links.txt
+src/nautilopy.egg-info/requires.txt
+src/nautilopy.egg-info/top_level.txt
