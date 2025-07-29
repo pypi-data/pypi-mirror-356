@@ -1,0 +1,5 @@
+grpcio
+protobuf
+grpcio-tools
+protoc_gen_openapiv2
+pyjwt
