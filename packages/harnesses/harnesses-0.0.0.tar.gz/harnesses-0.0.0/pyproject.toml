@@ -1,0 +1,13 @@
+[project]
+name = "harnesses"
+version = "0.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Will Brown", email = "williambrown97@gmail.com"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/willccbb/harnesses"
+
