@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "common-fsm"
+version = "0.1.3"
+authors = [
+    { name = "Helge Modén", email = "helgemod@gmail.com" },
+]
+description = "A simple and flexible Finite State Machine implementation in Python"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["fsm", "state-machine", "finite-state-machine", "async", "python"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/commonai/python-fsm"
+"Bug Tracker" = "https://github.com/commonai/python-fsm/issues"
+"Source Code" = "https://github.com/commonai/python-fsm"
+
+[project.optional-dependencies]
+dev = ["pytest>=6.0", "black", "flake8", "mypy"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/common_fsm"] 
