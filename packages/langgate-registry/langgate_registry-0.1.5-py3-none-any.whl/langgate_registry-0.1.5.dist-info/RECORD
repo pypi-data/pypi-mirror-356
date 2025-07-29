@@ -1,0 +1,11 @@
+langgate/registry/__init__.py,sha256=uQyzLXYwnoEOrsIn_Yoo6Ewq21THjeR7MxPiXfZAQC4,290
+langgate/registry/config.py,sha256=H6NmiK__AjVNSkO2G5HjjTmdxGlPF4c1WdqYRLBoyaA,5486
+langgate/registry/local.py,sha256=BCFO4-hJzNsQXgOWigGSh2ixVgdS3e0OgPMy8kcvl3A,4190
+langgate/registry/models.py,sha256=2CJU5xigmboNWQGxBpEHG45eYZyi1SYZXl6YekYY2SM,8569
+langgate/registry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langgate/registry/data/default_models.json,sha256=r_4pPOG2-Xue5oOqPX_S3MTTsQYIz6T0BkwkdMWNs0Q,63224
+langgate/registry/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langgate/registry/scripts/update_model_costs.py,sha256=hlkqMdk3vLimtUjNUO2ZUHJsDHUfqrFxfvoR_Ydzn04,22377
+langgate_registry-0.1.5.dist-info/METADATA,sha256=g0Y9Q9CTWkalwYigImk55W0qZuu_DpC8A7p2sqVIhQM,1147
+langgate_registry-0.1.5.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+langgate_registry-0.1.5.dist-info/RECORD,,
