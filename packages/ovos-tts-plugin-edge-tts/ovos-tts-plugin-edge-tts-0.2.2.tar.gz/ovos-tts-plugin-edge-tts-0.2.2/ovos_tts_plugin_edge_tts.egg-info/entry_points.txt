@@ -1,0 +1,2 @@
+[mycroft.plugin.tts]
+ovos-tts-plugin-edge-tts = ovos_tts_plugin_edge_tts:EdgeTTSPlugin
