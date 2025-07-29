@@ -1,0 +1,149 @@
+# VocaBraille
+
+[![PyPI version](https://img.shields.io/pypi/v/vocabraille.svg)](https://pypi.org/project/vocabraille)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python Versions](https://img.shields.io/pypi/pyversions/vocabraille)
+
+_A unified Python wrapper for the UniversalSpeech library providing text-to-speech (TTS) and braille display support on Windows._
+
+Official UniversalSpeech repo: https://github.com/qtnc/UniversalSpeech
+
+---
+
+
+
+## Table of Contents
+- [VocaBraille](#vocabraille)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Supported Engines](#supported-engines)
+  - [Installation](#installation)
+    - [Requirements](#requirements)
+  - [Quick Start](#quick-start)
+  - [API Reference](#api-reference)
+    - [Class: VocaBraille](#class-vocabraille)
+      - [Properties](#properties)
+      - [Methods](#methods)
+    - [Enum: ErrorsMode](#enum-errorsmode)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Features
+
+- 🗣️ **Multiple TTS engines**: SAPI5, Screen Readers (NVDA, JFW), Speech Dispatcher, and more.
+- 🎚️ **Parameter control**: Volume, Rate, Pitch, Inflexion.
+- 🔄 **Engine fallback**: Automatic or manual engine selection and reset.
+- ⏱️ **Speech queue**: Interruptible or queued speech with `wait()` support.
+- ⏲️ **Braille display**: Send text to braille devices alongside speech.
+- ⚠️ **Error handling modes**: Choose between `IGNORE`, `WARN`, or `RAISE`.
+
+### Supported Engines
+
+- SAPI5
+- Narrator
+- NVDA
+- JAWS
+- Other engines
+
+## Installation
+
+Install from PyPI:
+
+```bash
+pip install vocabraille
+```
+
+Or install from source:
+
+```bash
+git clone https://github.com/yourusername/VocaBraille.git
+cd VocaBraille
+pip install .
+```
+
+### Requirements
+
+- Python 3.10+
+- Windows 10/11
+- No external dependencies (UniversalSpeech binaries included)
+
+## Quick Start
+
+```python
+from vocabraille import VocaBraille, ErrorsMode
+
+# Initialize with warning on errors
+vb = VocaBraille(errors=ErrorsMode.WARN)
+
+# List available engines and select one
+print(vb.available_engines)
+vb.engine = "SAPI5"
+
+# List voices and choose one
+print(vb.available_voices)
+vb.voice = "Natalia"
+
+# Configure speech parameters
+vb.rate = vb.max_rate   # set to maximum rate
+vb.volume = 100         # full volume
+
+# Speak and wait
+vb.say("Hello, VocaBraille world!")
+vb.wait()
+
+# Reset engine to default
+vb.reset_engine()
+```
+
+## API Reference
+
+### Class: VocaBraille
+
+```python
+class VocaBraille(errors: ErrorsMode = ErrorsMode.RAISE)
+```
+
+#### Properties
+
+- `available_engines: list[str]` — Names of all detected TTS engines.
+- `engine: str` — Current engine name (get/set).
+- `available_voices: list[str]` — All voices for the selected engine.
+- `voice: str` — Current voice name (get/set).
+- `rate: int` — Speech rate (get/set).
+- `min_rate: int`, `max_rate: int` — Allowed rate range.
+- `volume: int` — Volume level (0–100).
+- `min_volume: int`, `max_volume: int` — Allowed volume range.
+- `pitch: int`, `min_pitch: int`, `max_pitch: int` — Pitch controls (if supported).
+- `inflexion: int`, `min_inflexion: int`, `max_inflexion: int` — Inflexion controls (if supported).
+
+#### Methods
+
+- `say(msg: str | bytes, interrupt: bool = True) -> int` — Speak text immediately or queue.
+- `braille(msg: str | bytes) -> int` — Send text to braille display.
+- `say_and_braille(msg: str | bytes, interrupt: bool = True) -> None` — Combine speech and braille.
+- `wait(milliseconds: int = 0) -> None` — Block until speech finishes (if milliseconds = 0) or timeout.
+- `reset_engine() -> None` — Restore automatic engine selection.
+
+### Enum: ErrorsMode
+
+```python
+class ErrorsMode(StrEnum):
+    IGNORE = "ignore"
+    WARN   = "warn"
+    RAISE  = "raise"
+```
+
+Controls library error reporting behavior.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes
+4. Open a pull request
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
