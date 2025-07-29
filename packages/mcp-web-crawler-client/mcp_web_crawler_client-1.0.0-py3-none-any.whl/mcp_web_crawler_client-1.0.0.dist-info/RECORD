@@ -1,0 +1,12 @@
+src/.gitignore,sha256=ezJOipz_7G__rO-30envKhkR-BFgVJYOJhlv_Y8A4Ck,256
+src/__init__.py,sha256=K1ZpPJsR7Pvomn1uUzzONgxJN2_nNwqlh1MvUTr-vHg,567
+src/tools/__init__.py,sha256=kGqC3Hvn7zMcrOQXEvx8TmQg6O2YQn1UxFeUr3w4bno,439
+src/tools/web_crawler/.dockerignore,sha256=ikM-S5JilMOX0D7OcG1B2t-LSALeK542-Up28yqDxMA,933
+src/tools/web_crawler/__init__.py,sha256=83jY7eZIlfNfFy88_C9sf3q9lAUpDB8vt512_l3-a8s,701
+src/tools/web_crawler/mcp_client.py,sha256=qqLK08gEsHmIIVR1568UnleHBBHtKrQLNsU2G-uHDCo,14511
+src/tools/web_crawler/mcp_client_cli.py,sha256=mKuK3nm8-rogrTkpjolg6VMlAaxTpNBviVo7GF8NjCQ,8090
+src/tools/web_crawler/standalone_mcp_client.py,sha256=EUgMS2a-KauXW7OnBeZmCBuBhhc55IFXNJ3b_4IKaaA,15554
+mcp_web_crawler_client-1.0.0.dist-info/METADATA,sha256=Prb9i2jzyHx0_nHQBqW-ChgR62-Bo_SjO06GtAVcKSM,8385
+mcp_web_crawler_client-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_web_crawler_client-1.0.0.dist-info/entry_points.txt,sha256=12x4vcGKW7kttqIeB65iHDR1VmO6lmua8RMrgbKHUjE,73
+mcp_web_crawler_client-1.0.0.dist-info/RECORD,,

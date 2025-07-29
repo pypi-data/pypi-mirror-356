@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-client = src.tools.web_crawler.mcp_client_cli:main
