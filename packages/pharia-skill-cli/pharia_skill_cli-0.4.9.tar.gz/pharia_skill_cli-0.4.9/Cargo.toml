@@ -1,0 +1,48 @@
+[package]
+name = "pharia-skill-cli"
+version = "0.4.9"
+edition = "2024"
+repository = "https://github.com/Aleph-Alpha/pharia-skill-cli"
+description = "A simple CLI that helps you publish skills on Pharia Kernel."
+license = "Apache-2.0"
+keywords = ["cli", "pharia", "skill"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.5.40", features = ["env", "derive"] }
+oci-client = { version = "0.15.0", default-features = false, features = [
+    "rustls-tls-native-roots",
+] }
+oci-wasm = { version = "0.3.0", default-features = false, features = [
+    "rustls-tls",
+] }
+tokio = { version = "1.45.1", features = [
+    "macros",
+    "rt-multi-thread",
+    "signal",
+] }
+
+[dev-dependencies]
+assert_cmd = "2.0.17"
+dotenvy = "0.15.7"
+wat = "1.235.0"
+
+[lints.rust]
+future-incompatible = "warn"
+keyword-idents = "warn"
+let-underscore = "warn"
+nonstandard-style = "warn"
+refining-impl-trait = "warn"
+rust-2018-idioms = "warn"
+rust-2024-compatibility = "warn"
+unused = { level = "warn", priority = -1 }
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+module-name-repetitions = "allow"
+needless-pass-by-value = "allow"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
