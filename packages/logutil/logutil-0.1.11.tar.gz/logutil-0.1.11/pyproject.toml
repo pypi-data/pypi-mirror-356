@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "logutil"
+version = "0.1.11"
+description = "Easy initialization of standard python logging and loguru"
+authors = ["Mysterious Ben <datascience@tuta.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = { version = ">=0.7", optional = true }
+notifiers = { version = "^1.2", optional = true }
+sentry-sdk = { version = "^1.3", optional = true }
+
+[tool.poetry.extras]
+loguru = ["loguru"]
+notifiers = ["notifiers", "sentry-sdk"]
+all = ["loguru", "notifiers", "sentry-sdk"]
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.12"
+mypy = ">=0.910"
+pylint = "^3.1"
+pytest = "^8"
+pre-commit = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 99
+target-version = "py39"
+
+# Optional: restrict what files are included
+include = ["*.py", "*.pyi"]
+
+# Equivalent to your Black exclude
+exclude = [
+  ".eggs",
+  ".git",
+  ".github",
+  ".hg",
+  ".mypy_cache",
+  ".tox",
+  ".venv",
+  "notebooks",
+  ".ipynb_checkpoints",
+  "__pycache__",
+  "data",
+  "logs",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "snapshots",
+]
+
+[tool.ruff.format]
+# Enables Ruff’s Black-compatible formatter
+quote-style = "preserve"  # default, or "double"/"single"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: integration testing (tests require valid credentials and can be slow)",
+]
+testpaths = [
+    "tests",
+]
