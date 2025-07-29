@@ -1,0 +1,11 @@
+discord.py[voice]>=2.5
+
+[extras]
+SpeechRecognition
+pyaudio
+
+[extras_local]
+pyaudio
+
+[extras_speech]
+SpeechRecognition
