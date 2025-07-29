@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ollama-run-async
+Version: 0.2.1
+Summary: Async Ollama helpers for analysis of documents stored in a datafrae.
+Author: Quido Haškovec
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: ollama
+Requires-Dist: nest_asyncio
+Dynamic: license-file
