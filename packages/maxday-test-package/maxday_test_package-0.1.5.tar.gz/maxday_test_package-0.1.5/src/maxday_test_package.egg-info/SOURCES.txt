@@ -1,0 +1,8 @@
+pyproject.toml
+src/dummy_package/__init__.py
+src/dummy_package/main.py
+src/maxday_test_package.egg-info/PKG-INFO
+src/maxday_test_package.egg-info/SOURCES.txt
+src/maxday_test_package.egg-info/dependency_links.txt
+src/maxday_test_package.egg-info/top_level.txt
+tests/test_main.py
