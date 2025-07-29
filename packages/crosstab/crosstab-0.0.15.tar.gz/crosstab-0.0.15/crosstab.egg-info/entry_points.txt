@@ -1,0 +1,2 @@
+[console_scripts]
+crosstab = crosstab.crosstab:cli
