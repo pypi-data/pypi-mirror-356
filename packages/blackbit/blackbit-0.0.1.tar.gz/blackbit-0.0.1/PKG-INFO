@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: blackbit
+Version: 0.0.1
+Summary: CLI tool for file encryption/decryption
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography>=40.0.0
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: google-auth
+Requires-Dist: google-api-python-client
+Requires-Dist: tk
+
+README.md

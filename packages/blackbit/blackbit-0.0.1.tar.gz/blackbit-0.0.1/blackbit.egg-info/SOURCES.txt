@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+blackbit/__init__.py
+blackbit/main.py
+blackbit.egg-info/PKG-INFO
+blackbit.egg-info/SOURCES.txt
+blackbit.egg-info/dependency_links.txt
+blackbit.egg-info/entry_points.txt
+blackbit.egg-info/requires.txt
+blackbit.egg-info/top_level.txt

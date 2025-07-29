@@ -1,0 +1,6 @@
+cryptography>=40.0.0
+tqdm
+psutil
+google-auth
+google-api-python-client
+tk
