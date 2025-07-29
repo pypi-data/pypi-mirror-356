@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wai-spectralio
+Version: 0.0.2
+Summary: Python library for reading/writing various NIR, MIR, XRF spectroscopy data formats.
+Home-page: https://github.com/waikato-datamining/wai-spectralio
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Python library for reading/writing various NIR, MIR, XRF spectroscopy data formats. 
+
+Changelog
+=========
+
+0.0.2 (2025-06-18)
+------------------
+
+- fixed access of `output_sampledata` flag of ADAMS Writer
+- added setter for sample data in `Spectrum` class
+- the NIR Reader no longer skips the reference values
+- serialization of constituents in FOSS NIR header is now more robust
+
+
+0.0.1 (2025-04-14)
+------------------
+
+- initial release
+
