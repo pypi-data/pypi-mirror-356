@@ -1,0 +1,14 @@
+opencv-python>=4.6.0
+numpy>=1.22.2
+onnxruntime-gpu
+huggingface_hub
+imagehash
+pillow
+norfair
+Motpy
+lap
+filterpy
+
+[docs]
+sphinx
+sphinx-rtd-theme
