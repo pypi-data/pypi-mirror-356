@@ -1,0 +1,23 @@
+[CDF-24957] Support for 'labels' in Agent resource (#1642)
+
+# Description
+
+When Agents are created through the Agent CRUD API [alpha], they need to
+have the (undocumented) property `labels: ['published']`. This PR adds
+the ability to add labels to the resource.
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Added
+
+- [alpha] Agent resource now has `labels` property
+
+## templates
+
+No changes.
