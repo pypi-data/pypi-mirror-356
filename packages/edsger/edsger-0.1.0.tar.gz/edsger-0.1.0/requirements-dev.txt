@@ -1,0 +1,17 @@
+# Runtime requirements
+--requirement requirements.txt
+
+# Testing
+scipy
+pytest
+
+# Scripts
+loguru
+pyarrow
+
+# Linting/Tooling
+
+# Documentation
+sphinx
+sphinx_design
+furo
