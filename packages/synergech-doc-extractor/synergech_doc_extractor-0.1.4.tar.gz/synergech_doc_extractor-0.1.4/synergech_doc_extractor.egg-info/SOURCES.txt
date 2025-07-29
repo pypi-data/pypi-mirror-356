@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+synergech_doc_extractor/__init__.py
+synergech_doc_extractor/base.py
+synergech_doc_extractor/exception_handling.py
+synergech_doc_extractor/extractor_type.py
+synergech_doc_extractor/extractors.py
+synergech_doc_extractor/main.py
+synergech_doc_extractor/test.py
+synergech_doc_extractor/utils.py
+synergech_doc_extractor.egg-info/PKG-INFO
+synergech_doc_extractor.egg-info/SOURCES.txt
+synergech_doc_extractor.egg-info/dependency_links.txt
+synergech_doc_extractor.egg-info/requires.txt
+synergech_doc_extractor.egg-info/top_level.txt

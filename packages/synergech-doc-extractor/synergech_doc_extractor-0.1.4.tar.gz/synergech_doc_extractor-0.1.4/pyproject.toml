@@ -1,0 +1,22 @@
+[project]
+name = "synergech-doc-extractor"
+version = "0.1.4"
+description = "A simple package to extract text from various documents."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  {name = "synergech.ai", email = "synergechtech@gmail.com"}
+]
+dependencies = [
+  "pdfplumber==0.10.3",
+  "python-docx==1.1.0",
+  "Pillow==10.3.0",
+  "openpyxl==3.1.2",
+  "pytesseract==0.3.10",
+  "oletools>=0.60",
+  "pdf2image"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
