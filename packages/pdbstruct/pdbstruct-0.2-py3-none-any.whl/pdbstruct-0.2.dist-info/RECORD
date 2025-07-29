@@ -1,0 +1,17 @@
+pdbstruct/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdbstruct/asa.py,sha256=rkS0u5_Ni1ZA0jD9zW7GBda0WCCBhsrQjSHLxz7FsTY,9475
+pdbstruct/bgrid.py,sha256=E1_yGeD8zr5Fy98mNn5eWYky-UYnWnH6JuiLucboATY,5825
+pdbstruct/cli.py,sha256=KX6kbbOtJZ098G9ZMLq4h7Q0dJuWT-J0Nbg3GkXygf0,5908
+pdbstruct/hollow.defaults.txt,sha256=_XvpwJ6CZbNYCxl444jlf8LqXyOiFpFECP2XxH0-MMw,206
+pdbstruct/hollow.py,sha256=uqxjS4vtomi3aWEvCq1Y9jsbO_PipbwMvHaYsJc9MgU,20605
+pdbstruct/parse.py,sha256=dk_JUOaaK7dniSF_6Qe1y18ttfK8aj78Kgmz5O7GsRA,27394
+pdbstruct/soup.py,sha256=ex6cUQbQ2vVB_xmN1ebnvmRk_BR3GZ_NcARm250ZOeM,21666
+pdbstruct/spacehash.py,sha256=Za8mH-3HsjVcREkLPCw5idDX4XliQEaOHuQHajVjhbM,8586
+pdbstruct/store.py,sha256=ysxf7nGObXWc7SZ6Ax3tCx5P8OrphAT-697no6y8EmQ,8417
+pdbstruct/util.py,sha256=8Aj5eqB3pPFKYhC3A8MX6lihHHRKEOa5GFMWkKtGVf4,1068
+pdbstruct/vector3d.py,sha256=X1VbknvyPZzAytBsn3hvV49ej5_bXZ8V9Ekd81IMdKc,13545
+pdbstruct/volume.py,sha256=q_B8iqTcs32QV_qVSlyNU55aPhLkw1HXbLWw65GoLOc,10151
+pdbstruct-0.2.dist-info/METADATA,sha256=gyUhNrJ-p1c39IodBcX6CqlN-LZfJazW4anIdaKG41E,9161
+pdbstruct-0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+pdbstruct-0.2.dist-info/entry_points.txt,sha256=aeo_zaxMSsLVS6PQFMbwxZVZt8b2v1pxulXzcKjio78,79
+pdbstruct-0.2.dist-info/RECORD,,
