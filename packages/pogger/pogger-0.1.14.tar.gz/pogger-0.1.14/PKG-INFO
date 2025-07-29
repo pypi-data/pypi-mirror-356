@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: pogger
+Version: 0.1.14
+Summary: A decorator to simply log/archive results of scientific python code.
+License: 3-clause BSD
+Author: Alexander Tritt Monash
+Author-email: alexander.tritt@monash.edu
+Requires-Python: >=3
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy

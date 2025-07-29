@@ -1,0 +1,19 @@
+[project]
+name = "pogger"
+version = "0.1.14"
+description = "A decorator to simply log/archive results of scientific python code."
+authors = [
+    {name = "Alexander Tritt Monash",email = "alexander.tritt@monash.edu"}
+]
+license = {text = "3-clause BSD"}
+requires-python = ">=3"
+dependencies = [
+	"h5py",
+	"numpy",
+	"matplotlib"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
