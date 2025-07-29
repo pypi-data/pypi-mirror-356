@@ -1,0 +1,3 @@
+[submodule "betaflight/betaflight"]
+	path = betaflight/firmware
+	url = https://github.com/rl-tools/betaflight-python-firmware.git

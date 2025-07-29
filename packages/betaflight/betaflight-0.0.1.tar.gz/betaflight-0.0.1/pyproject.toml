@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "betaflight"
+version = "0.0.1"
+description = "Python wrapper for the Betaflight SITL"
+readme = "README.md"
+authors = [{name = "Jonas Eschmann", email = "jonas.eschmann@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["betaflight"]
+
+[tool.hatch.build.hooks.custom]
+path = "hatch_config.py"
