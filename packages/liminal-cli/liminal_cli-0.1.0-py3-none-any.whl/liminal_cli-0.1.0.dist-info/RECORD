@@ -1,0 +1,13 @@
+liminal/__init__.py,sha256=6Ly1jepc9MYhnq_xGUr29PyoKH9jY1xqZQMCl-s6xBU,24
+liminal/atuin-installer.sh,sha256=dDDWy-mCmr3JACmBaLyXQfAjDCv5SFiFUVqtyElx6QY,46746
+liminal/cli.py,sha256=dJouGih1n2qfqEDidaE2_hvnd0QWccc73MEYAyDYxhs,434
+liminal/config.py,sha256=oMDtXR775Xocc6YrzHvzPRizDVRxhCdnPsJkgt8cw1k,414
+liminal/env.py,sha256=cF8UwVzCnJpEPu3wDgXDvQyC4HT9BcPsH8xEosvU_zA,9593
+liminal/hack.py,sha256=rE-FKliiL0Zxmwh-E8dbvXzbZiSjrBHwd25hn5hRz3E,1150
+liminal/installer.py,sha256=cXl_eVajrScScfRTpFDmmptkklHx4PfPYcYpoA67ZJw,13811
+liminal/standalone_install_wrapper.py,sha256=4pJ6wnTxETImQnujJyshnfz_hhvLoTbvj04DGBBJFrY,8696
+liminal_cli-0.1.0.dist-info/METADATA,sha256=S5ooy9CHu4OVHbEjX1q54zU7JGoFRY06m9c1H-xHw38,302
+liminal_cli-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+liminal_cli-0.1.0.dist-info/entry_points.txt,sha256=IDb1A_flFbA_2ujap9y6viZCUmsYfxmz1xiDn4e6uiQ,47
+liminal_cli-0.1.0.dist-info/top_level.txt,sha256=IjhkLfMU-5pBJ4-q9PaV3AScEb1_ep01xI2qa9P1Hsk,8
+liminal_cli-0.1.0.dist-info/RECORD,,
