@@ -1,0 +1,181 @@
+[project]
+name = "pyprojectx"
+version = "3.2.4b2"
+description = "Execute scripts from pyproject.toml, installing tools on-the-fly"
+authors = [
+    { name = "Houbie", email = "ivo@houbrechts-it.be" },
+]
+readme = "README.md"
+keywords = [
+    "build",
+    "dependency",
+    "pyprojectx",
+]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "userpath>=1.9",
+    "tomlkit>=0.13",
+    "uv==0.7.3",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/pyprojectx/pyprojectx"
+documentation = "https://pyprojectx.github.io"
+
+[project.optional-dependencies]
+locked = [
+    "uv==0.7.3",
+    "tomlkit==0.13.2",
+    "userpath==1.9.2",
+    "click==8.1.7",
+    "colorama==0.4.6; platform_system == \"Windows\"",
+]
+
+[project.scripts]
+pyprojectx = "pyprojectx.cli:main"
+
+[tool.pdm]
+plugins = [
+    "pdm-build-locked",
+]
+
+[tool.pdm.build]
+locked = true
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.3",
+    "pytest-mock>=3.12.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "ALL",
+]
+fixable = [
+    "ALL",
+]
+ignore = [
+    "ISC001",
+    "ANN",
+    "FA",
+    "FBT",
+    "D100",
+    "D102",
+    "D103",
+    "D104",
+    "D105",
+    "D213",
+    "D203",
+    "T201",
+    "TRY003",
+    "EM102",
+    "COM812",
+    "S602",
+    "S603",
+    "S604",
+    "S605",
+    "S607",
+    "S324",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "S101",
+    "I001",
+    "INP001",
+    "YTT204",
+    "PLR2004",
+]
+"bin/*" = [
+    "INP001",
+]
+
+[tool.pyprojectx]
+lock-python-version = "3.8"
+
+[tool.pyprojectx.main]
+requirements = [
+    "pdm",
+    "pdm-build-locked",
+    "ruff",
+    "pre-commit<3.6",
+    "px-utils",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]<0.28",
+    "markdown-include",
+]
+post-install = "pre-commit install"
+
+[tool.pyprojectx.aliases]
+install = "pdm install"
+run = "pdm run pyprojectx -t pyproject.toml "
+update = "pdm update"
+outdated = "pdm update --outdated"
+clean = "pxrm .venv .pytest_cache dist .pdm-build .ruff_cache"
+full-clean = [
+    "@clean",
+    "pxrm .pyprojectx .pdm-python",
+]
+format = [
+    "ruff format",
+    "ruff check --select I --fix",
+]
+lint = [
+    "ruff check",
+]
+unit-test = "pdm run pytest tests/unit"
+integration-test = "pdm run pytest tests/integration"
+test = [
+    "@unit-test",
+    "@integration-test",
+]
+check = [
+    "@lint",
+    "@test",
+]
+build = [
+    "@install",
+    "@check",
+    "pdm build",
+]
+publish = "pdm publish --no-build --username __token__"
+generate-usage = "pdm run python -m pyprojectx.wrapper.pw --help > docs/docs/usage.txt"
+
+[tool.pyprojectx.aliases.serve-docs]
+cmd = "mkdocs serve"
+cwd = "docs"
+
+[tool.pyprojectx.aliases.generate-docs]
+cmd = [
+    "@install",
+    "@generate-usage && mkdocs build",
+]
+cwd = "docs"
+
+[tool.pyprojectx.aliases.deploy-docs]
+cmd = "mkdocs gh-deploy"
+cwd = "docs"
+
+[build-system]
+requires = [
+    "pdm-backend",
+    "pdm-build-locked",
+]
+build-backend = "pdm.backend"
