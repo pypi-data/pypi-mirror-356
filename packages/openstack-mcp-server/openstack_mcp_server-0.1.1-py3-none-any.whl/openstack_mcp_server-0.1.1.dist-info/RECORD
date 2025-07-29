@@ -1,0 +1,16 @@
+mcp_openstack_http/__init__.py,sha256=zaNUlVsN3_6gWpXz_4DbSncpEKrGmiykYWZPhusly4s,1518
+mcp_openstack_http/__main__.py,sha256=XM1dN9PIK9KNaugy8JIGU_EU9KQoWAdhf2KP7p9rQa0,44
+mcp_openstack_http/os_compute_service.py,sha256=LiRmZAsoDa9XdRgAZn-mCjVgk8WmJMgEMc5XU8MlCno,6278
+mcp_openstack_http/os_image.py,sha256=vVP7KwzdxDp40bu62zzXiKMlrtBwrB8Bn_ob-3xhOdg,6971
+mcp_openstack_http/os_network.py,sha256=cGDerhz29wkRU3QZwut7J8oP-YPPMgUHklZXuOJEyHo,7270
+mcp_openstack_http/os_network_agent.py,sha256=bzTcDquJYaOLTbXRgGbYHo3Rnja4gHKljg4N1BDBdu0,6420
+mcp_openstack_http/os_server.py,sha256=4AF2oLXktLFycmBs1--83XfIMTqo37bXdi1K2yQkf34,5700
+mcp_openstack_http/os_service.py,sha256=Sf64rYRPHbTmkOrWe6W5t78CsZDqyY3ZFOyJb-zhNSM,6494
+mcp_openstack_http/os_volume.py,sha256=2EH4tj6tnH-utpNk4tmutlDAQcp0HIkOVNW3_C6cdwE,6145
+mcp_openstack_http/os_volume_service.py,sha256=1Tcb1xGpad2Nxn7cQb09fq5FFAg5cTsLkamaQXN5fYA,6147
+mcp_openstack_http/server.py,sha256=T0MBltD8lMfbnmxqgGlMSdhQLSUwqtWMzOo1fJEDzzk,20446
+openstack_mcp_server-0.1.1.dist-info/METADATA,sha256=0O3ANcJKA1Z05aXm43R-qUOwhORuUMWBNQiInZXMvwk,4843
+openstack_mcp_server-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+openstack_mcp_server-0.1.1.dist-info/entry_points.txt,sha256=a0R5V8rLsyPt7bm1bO2ydHQMcTUPcxd_5tu4KSlJI9g,72
+openstack_mcp_server-0.1.1.dist-info/top_level.txt,sha256=pinCgt8oiMtGZnwoms9yONNCURi6-BIDEDbnSxmzGKw,19
+openstack_mcp_server-0.1.1.dist-info/RECORD,,
