@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/basicParallelize/__init__.py
+src/basicParallelize/_helpers.py
+src/basicParallelize/_parallelize.py
+src/basicParallelize/_parallelizeTQDM.py
+src/basicParallelize.egg-info/PKG-INFO
+src/basicParallelize.egg-info/SOURCES.txt
+src/basicParallelize.egg-info/dependency_links.txt
+src/basicParallelize.egg-info/requires.txt
+src/basicParallelize.egg-info/top_level.txt
+tests/testParallelize.py
