@@ -1,0 +1,2 @@
+[console_scripts]
+graph-validate = graph_orchestrator.cli:main
