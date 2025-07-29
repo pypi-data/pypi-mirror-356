@@ -1,0 +1,294 @@
+# QA 데이터 필터링 및 중복 제거 라이브러리 (data_filtering)
+
+이 라이브러리는 질문(Q)과 답변(A) 쌍으로 구성된 텍스트 데이터셋(CSV 파일)에서 중복을 확인하고, 품질 기준에 따라 데이터를 선별하는 기능을 제공합니다.
+
+## 주요 기능
+
+- **다양한 CSV 입력 형식 지원**:
+  - 질문 컬럼과 답변 컬럼이 분리된 경우
+  - 질문과 답변이 합쳐진 단일 컬럼인 경우
+  - 일반 텍스트 데이터 처리 (단일 컬럼)
+- **품질 필터링**:
+  - 텍스트 길이 (최소/최대 길이 지정 가능, 활성화/비활성화 가능)
+  - 언어 감지 (특정 언어 및 신뢰도 임계값 설정 가능, 활성화/비활성화 가능)
+- **중복 제거**:
+  - **정확한 중복**: 완전히 동일한 텍스트 제거
+  - **의미론적 중복**: **다양한 임베딩 백엔드를 지원**하여 의미적으로 유사한 텍스트를 제거합니다.
+    - **Sentence-Transformers**: 로컬 또는 허깅페이스에 호스팅된 모델 사용 (예: `Qwen/Qwen3-Embedding-0.6B`)
+    - **OpenAI API**: `text-embedding-3-small` 등 OpenAI의 모델 사용
+    - **Google Gemini API**: `gemini-embedding-exp-03-07` 등 Google의 모델 사용
+    - 유사도 임계값(기본값: 0.80) 및 중복 시 보존 기준('first', 'longest') 설정 가능
+    - 배치 처리 및 자동 재시도 메커니즘 내장
+- **결과 출력**:
+  - 선별된 데이터를 새로운 CSV 파일로 저장
+  - 처리 과정 및 통계를 담은 리포트 생성 (HTML 또는 TXT 형식)
+- **설정**: `config/default_settings.yaml` 파일을 통해 대부분의 동작을 상세하게 설정 가능하며, CLI 인자 또는 함수 호출 시 오버라이드 가능.
+
+## 설치 및 환경 설정
+
+### 1. 환경 준비 (Conda 권장)
+
+새로운 가상 환경을 생성하는 것을 권장합니다. Conda를 사용하는 경우:
+
+```bash
+conda create --name data-filtering-env python=3.11 # 예시 환경 이름 및 Python 버전
+conda activate data-filtering-env
+```
+
+Python 3.11 이상을 권장합니다.
+
+### 2. 라이브러리 설치
+
+**방법 A: PyPI에서 설치 (배포된 경우)**
+
+```bash
+pip install data-filtering
+```
+
+(이 명령어는 라이브러리가 PyPI에 정식 배포된 후에 사용 가능합니다.)
+
+**방법 B: 소스에서 직접 빌드 및 설치 (현재 개발/테스트 단계)**
+
+1.  **소스 코드 다운로드 또는 클론:**
+
+    ```bash
+    git clone https://github.com/yourusername/data-filtering.git # 실제 저장소 URL로 변경
+    cd data-filtering
+    ```
+
+2.  **필수 빌드 도구 설치:**
+
+    ```bash
+    pip install build
+    ```
+
+3.  **패키지 빌드:**
+    프로젝트 루트 디렉토리에서 다음 명령을 실행합니다.
+
+    ```bash
+    python -m build
+    ```
+
+    이 명령은 `dist` 디렉토리에 `.whl` 파일과 `.tar.gz` 파일을 생성합니다.
+
+4.  **빌드된 패키지 설치:**
+    생성된 `.whl` 파일을 사용하여 설치합니다.
+    ```bash
+    pip install dist/data_filtering-0.1.0-py3-none-any.whl # 실제 생성된 파일명으로 변경
+    ```
+    또는, 개발 중에는 editable 모드로 설치할 수 있습니다:
+    ```bash
+    pip install -e .
+    ```
+
+### 3. 의존성 패키지 확인 및 설치
+
+`data-filtering` 패키지는 필요한 의존성을 자동으로 함께 설치하려고 시도합니다. 주요 의존성은 `pyproject.toml` 파일의 `dependencies` 섹션에 명시되어 있습니다.
+
+**의미론적 중복 제거** 기능을 사용하려면, 선택한 백엔드에 맞는 추가 패키지를 설치해야 합니다.
+
+- **Sentence-Transformers 백엔드 사용 시:**
+  ```bash
+  pip install sentence-transformers scipy
+  ```
+  - CPU 전용 환경에서는 추가로 PyTorch CPU 버전을 설치하는 것이 좋습니다:
+  ```bash
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+  ```
+
+- **OpenAI 또는 Gemini API 백엔드 사용 시:**
+  ```bash
+  pip install openai instructor scipy
+  ```
+
+- **API 키 설정 (OpenAI/Gemini 사용 시):**
+  API 기반 백엔드를 사용하려면 API 키를 설정해야 합니다.
+
+  ```bash
+  # OpenAI API 키 설정
+  export OPENAI_API_KEY="your_openai_api_key"
+  
+  # 또는 Google API 키 설정 (Gemini 사용 시)
+  export GOOGLE_API_KEY="your_google_api_key"
+  ```
+  
+  또는 `config` 파일에 직접 키를 명시할 수도 있습니다 (보안상 권장되지 않음).
+
+- **선택적 의존성:**
+  - `scipy`: 의미론적 중복 탐지 시 계층적 클러스터링에 사용됩니다. `sentence-transformers` 또는 API 백엔드 사용 시 함께 설치됩니다.
+  - `instructor`: OpenAI/Gemini API와의 상호작용을 단순화합니다.
+
+## 사용 방법
+
+라이브러리는 두 가지 주요 방식으로 사용할 수 있습니다: 명령줄 인터페이스(CLI) 또는 Python 코드 내에서 직접 호출.
+
+### 1. 명령줄 인터페이스 (CLI) 사용
+
+패키지가 올바르게 설치되었다면, 터미널에서 `data-filtering-cli` 명령어를 사용할 수 있습니다.
+
+**기본 사용법:**
+
+```bash
+data-filtering-cli <입력_CSV_파일_경로>
+```
+
+예시:
+
+```bash
+data-filtering-cli examples/sample_data.csv
+```
+
+**주요 옵션:**
+
+- `--config <설정_파일_경로>`: 사용자 정의 YAML 설정 파일을 지정합니다. (기본값: `config/default_settings.yaml`)
+- `--q_col <컬럼명>`: CSV 파일 내 질문 컬럼명을 지정합니다. (설정 파일 값 오버라이드)
+- `--a_col <컬럼명>`: CSV 파일 내 답변 컬럼명을 지정합니다. (설정 파일 값 오버라이드)
+- `--qa_col <컬럼명>`: CSV 파일 내 질문+답변 통합 컬럼명을 지정합니다. (`q_col`, `a_col` 대신 사용)
+- `--encoding <인코딩>`: 입력 CSV 파일의 인코딩을 지정합니다. (예: `utf-8`, `cp949`)
+- `--output_dir <경로>`: 결과 파일(선별된 CSV, 리포트)이 저장될 디렉토리를 지정합니다.
+
+**CLI 예시:**
+
+```bash
+# 사용자 설정 파일과 함께 실행
+data-filtering-cli data/my_qna_data.csv --config config/my_custom_settings.yaml
+
+# 질문/답변 컬럼명 직접 지정 및 출력 디렉토리 변경
+data-filtering-cli data/another_data.csv --q_col "Question" --a_col "Answer" --output_dir processed_results
+```
+
+(만약 `data-filtering-cli` 명령어가 인식되지 않는다면, Python 환경의 `bin` 또는 `Scripts` 디렉토리가 시스템 PATH에 올바르게 추가되었는지, 또는 `python -m data_filtering.main_processor <입력_CSV_파일_경로>` 형태로 직접 모듈을 실행해야 할 수 있습니다.)
+
+### 2. Python 코드에서 라이브러리로 사용
+
+`data_filtering` 모듈의 `run` 함수를 사용하여 Python 스크립트 내에서 필터링 프로세스를 실행할 수 있습니다.
+
+```python
+from data_filtering import run
+
+# 기본 설정 사용 (패키지 내부의 default_settings.yaml 사용)
+run(input_csv_path="examples/sample_data.csv")
+
+# 사용자 정의 설정 파일 및 일부 옵션 kwargs로 오버라이드
+run(
+    input_csv_path="data/my_qna_data.csv",
+    config_path="path/to/my_custom_settings.yaml", # 사용자 YAML 파일 경로
+    output_dir="custom_output", # kwargs로 최상위 설정 오버라이드
+    deduplication={"semantic_threshold": 0.88} # kwargs로 중첩된 설정 오버라이드
+)
+
+# 컬럼명 직접 지정 (config 파일 설정보다 우선)
+run(
+    input_csv_path="data/other_format.csv",
+    q_col="Inquiry",
+    a_col="Response"
+)
+```
+
+## 설정 (`data_filtering/config/default_settings.yaml`)
+
+라이브러리의 세부 동작은 `data_filtering/config/default_settings.yaml` 파일을 통해 제어됩니다. 이 파일은 패키지 내부에 포함되어 있으며, 사용자 정의 설정을 위해 이 파일을 복사하여 수정한 후 사용할 수 있습니다.
+
+### 주요 설정 항목
+
+- **입력/출력 설정**:
+  - `input_csv`: 입력 CSV 파일 경로
+  - `output_dir`: 결과 파일이 저장될 디렉토리 (기본값: `./output`)
+  - `q_col`, `a_col`: 질문/답변 컬럼명 (QA 데이터셋인 경우)
+  - `qa_col`: 질문과 답변이 결합된 컬럼명 (단일 컬럼 데이터셋인 경우)
+  - `encoding`: 입력 파일 인코딩 (기본값: `utf-8`)
+
+- **중복 제거 설정 (`deduplication`)**:
+  - `enable_exact`: 정확한 중복 제거 활성화 (기본값: `true`)
+  - `enable_semantic`: 의미론적 중복 제거 활성화 (기본값: `false`)
+  - `backend`: 임베딩 백엔드 (`sentence-transformers`, `openai`, `gemini`)
+  - `model`: 사용할 모델 이름 (예: `Qwen/Qwen3-Embedding-0.6B`, `text-embedding-3-small`)
+  - `semantic_threshold`: 의미적 유사도 임계값 (0.0 ~ 1.0, 기본값: 0.80)
+  - `keep_criterion`: 중복 시 보존 기준 (`first`: 첫 번째 항목, `longest`: 가장 긴 텍스트)
+  - `batch_size`: 배치 처리 크기 (API 백엔드 사용 시, 기본값: 32)
+  - `max_retries`: API 호출 실패 시 최대 재시도 횟수 (기본값: 3)
+
+- **품질 필터 설정 (`quality_filters`)**:
+  - `length`: 텍스트 길이 필터
+    - `enable`: 활성화 여부
+    - `min`: 최소 길이 (기본값: 10)
+    - `max`: 최대 길이 (기본값: 1000)
+  - `language`: 언어 필터
+    - `enable`: 활성화 여부
+    - `target`: 목표 언어 코드 (예: `ko`, `en`)
+    - `confidence_threshold`: 언어 감지 신뢰도 임계값 (0.0 ~ 1.0)
+
+- **리포트 설정 (`report`)**:
+  - `format`: 출력 형식 (`html` 또는 `txt`)
+  - `filename`: 리포트 파일명 (확장자 제외)
+  - `include_rejected_samples`: 거부된 샘플 포함 여부
+  - `num_rejected_samples`: 포함할 거부 샘플 수 (상위 N개)
+
+- **API 설정 (`api_settings`)**:
+  - `openai`: OpenAI API 관련 설정
+    - `api_key`: API 키 (보안상 환경 변수 사용 권장)
+    - `base_url`: 커스텀 엔드포인트 URL (선택사항)
+  - `gemini`: Google Gemini API 관련 설정
+    - `api_key`: API 키 (보안상 환경 변수 사용 권장)
+    - `base_url`: 기본값은 Google API 엔드포인트 사용
+- **품질 필터 설정 (`quality_filters`)**:
+  - 길이 필터 (`length`): 활성화 여부 (`enable`), 최소/최대 길이 (`min`, `max`)
+  - 언어 필터 (`language`): 활성화 여부 (`enable`), 목표 언어 (`target`), 신뢰도 임계값 (`confidence_threshold`)
+- **리포트 설정 (`report`)**:
+  - 리포트 형식 (`format`: `html` 또는 `txt`)
+  - 리포트 파일명 (`filename`)
+  - 리포트에 포함할 거부된 샘플 수 (`include_rejected_samples`)
+- **출력 CSV 설정 (`output_csv`)**:
+  - 선별된 데이터 CSV 파일명 (`filename`)
+  - 최종 CSV에 포함될 컬럼 목록 (`columns`)
+
+사용자 정의 설정을 원할 경우, `default_settings.yaml` 파일을 복사하여 수정 후 `--config` 옵션이나 `run` 함수의 `config_path` 인자로 지정하여 사용하십시오.
+
+## 디렉토리 구조
+
+```
+.
+├── data_filtering/          # 라이브러리 소스 코드 패키지
+│   ├── config/              # 기본 설정 파일 디렉토리
+│   │   └── default_settings.yaml
+│   ├── templates/           # HTML 리포트 템플릿
+│   │   └── report_template.html
+│   ├── __init__.py
+│   ├── data_handler.py
+│   ├── duplication_handler.py
+│   ├── main_processor.py    # CLI 진입점 및 핵심 로직
+│   ├── quality_checker.py
+│   └── report_generator.py
+├── examples/                # 예제 스크립트 및 데이터
+│   ├── run_example.py       # 라이브러리 사용 예시 Python 스크립트
+│   └── sample_data.csv
+├── tests/                   # 테스트 코드
+│   ├── pytest.ini           # Pytest 설정 (PYTHONPATH 등)
+│   └── ... (각 모듈별 테스트 파일) ...
+├── MANIFEST.in              # 패키지에 포함할 비-Python 파일 목록
+├── pyproject.toml           # 빌드 시스템, 프로젝트 메타데이터, 의존성 명시
+├── README.md                # 현재 파일
+├── requirements.txt         # 개발 환경용 의존성 목록 (선택적)
+└── setup.py                 # Setuptools 설정 파일
+```
+
+## 테스트 실행
+
+프로젝트의 기능을 검증하기 위해 `pytest`를 사용합니다.
+
+1.  Conda 환경(`data_filtering-env`)을 활성화합니다.
+2.  프로젝트 루트 디렉토리에서 다음 명령을 실행합니다:
+
+    ```bash
+    pytest
+    ```
+
+## 주요 업데이트 사항
+
+- **v0.1.2 (최신)**:
+  - `duplication_handler.py` 리팩토링
+  - `EmbeddingProvider` 추상 클래스 도입으로 임베딩 백엔드 구조 개선
+  - `SentenceTransformerProvider`, `OpenAIEmbeddingProvider`, `GeminiEmbeddingProvider` 구현체 추가
+  - 배치 처리 및 재시도 메커니즘 내장
+  - API 키 관리를 위한 환경 변수 지원
+  - 설정 파일 구조 개선 및 문서화
