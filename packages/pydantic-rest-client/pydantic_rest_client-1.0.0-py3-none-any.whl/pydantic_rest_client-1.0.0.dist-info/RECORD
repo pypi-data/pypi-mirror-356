@@ -1,0 +1,9 @@
+pydantic_rest_client-1.0.0.dist-info/licenses/LICENSE.md,sha256=XfLsRVEUP0xkqFg18cncbWjl3IWkAhGzpbioE_r_hHw,1074
+rest_client/__init__.py,sha256=QEz58T-_sfQIME6AwAIoeFAHQcRwMo9Bt9iByicLVJ4,659
+rest_client/aiohttp_rest_client.py,sha256=Qj5EjSC56AJaU295tpyFkGAfTdaSdnJw19A2WBClycQ,4442
+rest_client/base_rest_client.py,sha256=UZMiNm9kXDXHuzOpAj9vngXOIsGtKBHE6OAuVPSIr5A,3224
+rest_client/exceptions.py,sha256=lqIBFlRakuznrj2L0AMp3_nL1SHlIzv3pem8pSMv9vs,866
+pydantic_rest_client-1.0.0.dist-info/METADATA,sha256=AiDCuVxGcWzB6vgT_LOUr_56OgNFYGJR6_jbItuMhyQ,6929
+pydantic_rest_client-1.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+pydantic_rest_client-1.0.0.dist-info/top_level.txt,sha256=Xtt7a6hxIYqhODURaKH0LlQhRJ4VXsrKocFdkzTKfKg,12
+pydantic_rest_client-1.0.0.dist-info/RECORD,,
