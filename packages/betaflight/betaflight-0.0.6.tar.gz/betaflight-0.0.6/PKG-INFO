@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: betaflight
+Version: 0.0.6
+Summary: Python wrapper for the Betaflight SITL
+Project-URL: Homepage, https://github.com/rl-tools/betaflight-python
+Author-email: Jonas Eschmann <jonas.eschmann@gmail.com>
+License: MIT
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# Python Wrapper for the Betaflight SITL
