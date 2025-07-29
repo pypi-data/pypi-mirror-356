@@ -1,0 +1,2 @@
+ruff check industrial_model_client_generator tests --fix
+ruff format industrial_model_client_generator tests
