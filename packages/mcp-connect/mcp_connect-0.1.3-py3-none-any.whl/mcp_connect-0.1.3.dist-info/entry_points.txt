@@ -1,0 +1,2 @@
+[console_scripts]
+mcp_connect_coze = mcp_connect_coze.connect_coze:main
