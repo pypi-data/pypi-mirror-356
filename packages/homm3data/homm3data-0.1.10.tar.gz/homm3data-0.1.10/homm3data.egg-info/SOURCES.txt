@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+homm3data/__init__.py
+homm3data/deffile.py
+homm3data/lodfile.py
+homm3data/pakfile.py
+homm3data/pcxfile.py
+homm3data.egg-info/PKG-INFO
+homm3data.egg-info/SOURCES.txt
+homm3data.egg-info/dependency_links.txt
+homm3data.egg-info/requires.txt
+homm3data.egg-info/top_level.txt
+tests/test_deffile.py
+tests/test_pakfile.py
+tests/test_pcxfile.py
