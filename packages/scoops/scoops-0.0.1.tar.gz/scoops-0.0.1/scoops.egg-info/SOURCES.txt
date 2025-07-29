@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+scoops/__init__.py
+scoops.egg-info/PKG-INFO
+scoops.egg-info/SOURCES.txt
+scoops.egg-info/dependency_links.txt
+scoops.egg-info/requires.txt
+scoops.egg-info/top_level.txt
