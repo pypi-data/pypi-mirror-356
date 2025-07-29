@@ -1,0 +1,2 @@
+[console_scripts]
+hk_health_mcp_server = hkopenai.hk_health_mcp_server.app:main
