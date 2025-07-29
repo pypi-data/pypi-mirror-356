@@ -1,0 +1,17 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+test/test_store.py
+test/test_utils.py
+xcube_gedidb/__init__.py
+xcube_gedidb/constant.py
+xcube_gedidb/plugin.py
+xcube_gedidb/store.py
+xcube_gedidb/utils.py
+xcube_gedidb/version.py
+xcube_gedidb.egg-info/PKG-INFO
+xcube_gedidb.egg-info/SOURCES.txt
+xcube_gedidb.egg-info/dependency_links.txt
+xcube_gedidb.egg-info/requires.txt
+xcube_gedidb.egg-info/top_level.txt

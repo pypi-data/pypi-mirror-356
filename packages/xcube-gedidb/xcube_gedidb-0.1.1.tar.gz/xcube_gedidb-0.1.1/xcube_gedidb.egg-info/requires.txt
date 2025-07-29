@@ -1,0 +1,9 @@
+xarray
+xcube-core
+gedidb
+
+[dev]
+pytest
+pytest-cov
+pytest-recording
+flake8
