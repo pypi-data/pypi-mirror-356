@@ -1,0 +1,11 @@
+groups:
+- neurodata_type_def: FinalTestParameters
+  neurodata_type_inc: LabMetaData
+  doc: A final demonstration task.
+  attributes:
+  - name: is_active
+    dtype: bool
+    doc: Activation status
+  - name: notes
+    dtype: text
+    doc: General notes

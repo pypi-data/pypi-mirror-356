@@ -1,0 +1,12 @@
+namespaces:
+- doc: Extension for use in the Cone Lab
+  name: conelab
+  schema:
+  - namespace: core
+  - source: conelab.extensions.yaml
+  - source: ../extensions/UnitTestTaskParameters.extensions.yaml
+  - source: ../extensions/DemoTaskParameters.extensions.yaml
+  - source: ../extensions/V2TESTParameters.extensions.yaml
+  - source: ../extensions/SAMPLETASK1.extensions.yaml
+  - source: ../extensions/FinalTestParameters.extensions.yaml
+  version: 0.1.0
