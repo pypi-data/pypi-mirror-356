@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: amass
+Version: 0.4.0
+Summary: Vendor libraries from cdnjs
+Author: James Meakin
+License: Apache-2.0
+Project-URL: repository, https://github.com/jmsmkn/amass
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: aiohttp
+Requires-Dist: packaging
+Requires-Dist: tomlkit
+Requires-Dist: beautifulsoup4
+Dynamic: license-file
+
+# amass
+Vendor libraries from cdnjs

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+amass/__init__.py
+amass/cli.py
+amass.egg-info/PKG-INFO
+amass.egg-info/SOURCES.txt
+amass.egg-info/dependency_links.txt
+amass.egg-info/entry_points.txt
+amass.egg-info/requires.txt
+amass.egg-info/top_level.txt
+tests/test_amass.py
