@@ -1,0 +1,3 @@
+[console_scripts]
+binance-s3-trades=binance_s3_trades.cli:app
+
