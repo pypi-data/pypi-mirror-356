@@ -1,0 +1,1 @@
+recursive-include django_fast/templates/project_template *.py
