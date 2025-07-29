@@ -1,0 +1,33 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "pyjubjub"
+description = "Python interface to the Jubjub elliptic curve used in Zcash Protocol"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+classifiers = [
+    "Topic :: Security :: Cryptography",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+#dynamic = ["version"]
+version = "0.0.1"
+license = "GPL-3.0-or-later"
+keywords = ["jubjub", "zcash", "elliptic", "curve"]
+authors = [
+  {name = "Duke Leto"},
+]
+
+[project.urls]
+Homepage = "https://hush.is"
+#Documentation = "https://readthedocs.org"
+Repository = "https://git.hush.is/hush/pyjubjub"
+Issues = "https://git.hush.is/hush/pyjubjub/issues"
+#Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+sdist-include = ["LICENSE", "README.md", "test.py", "__version__.py", "__init__.py"]

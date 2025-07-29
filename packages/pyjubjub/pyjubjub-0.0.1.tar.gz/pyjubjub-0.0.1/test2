@@ -1,0 +1,17 @@
+import os
+from sapling import *
+import pyjubjub
+from pyjubjub import *
+
+privkey1 = new_privkey()
+print("privkey1=", privkey1.hex())
+pubkey1 = get_pubkey(privkey1)
+print("pubkey1=", pubkey1.hex())
+
+# generate 11 byte diversifier
+diversifier = os.urandom(11)
+
+address = SaplingAddress(diversifier,pubkey1)
+
+print("diversifier=", diversifier.hex())
+print("address=", address.encode())
