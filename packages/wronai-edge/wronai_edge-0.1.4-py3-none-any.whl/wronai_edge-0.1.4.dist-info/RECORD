@@ -1,0 +1,12 @@
+edge_ai/README.md,sha256=QE7_l7P7HAI8vzDxd6fhJiOG1FJOmPH06jY0Rg0HUTQ,1711
+edge_ai/__init__.py,sha256=lGrNKd-H2YgY2zDJWdwHgdaaC1n4trzdzXXFv2K4MKk,311
+edge_ai/benchmark.py,sha256=fcovDcbtj9N7QZVGthDp17iEDgnGVO-B3d6pQlVd-bY,4876
+edge_ai/cli/__init__.py,sha256=EpjK47c-E_IJ-XaBdDEJ6O6NsvxPQLLdqCLFOIymhjs,174
+edge_ai/cli/benchmark.py,sha256=g-wxBAV3iC2fiUVbgWwDV5aOK_dO2oJJ03BrHVpj2bg,2979
+edge_ai/cli/main.py,sha256=CRg2bdZVQwJgfV-z1fQnirTpP8HyzNZR6-dK3yRBQt4,3965
+edge_ai/cli.py,sha256=QSOW-IJyhLCHMi6yZDoZZCkugx_HdRgj-oK1hDRB_Ts,9790
+edge_ai/converters/__init__.py,sha256=rJb7BWF8ZsULzWZ50hWRnis8yG6VYmRTL9SAz6lB95o,3511
+wronai_edge-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wronai_edge-0.1.4.dist-info/METADATA,sha256=T4hImgxJtOGjbeSaGcgsJVxffzSX80X1kWoi3G25Yvg,28893
+wronai_edge-0.1.4.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+wronai_edge-0.1.4.dist-info/RECORD,,
