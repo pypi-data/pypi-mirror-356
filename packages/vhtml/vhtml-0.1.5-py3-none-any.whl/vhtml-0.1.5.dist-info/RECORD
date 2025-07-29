@@ -1,0 +1,12 @@
+vhtml/core/html_generator.py,sha256=y04vTyfPx0HMY72VwFZfB-fUMZ46UQGMy3O-XHaJNXM,27
+vhtml/core/layout_analyzer.py,sha256=kWXyRdozuyfS4163dclVhATonNKqFj7-_PRtPx1IoEM,23025
+vhtml/core/ocr_engine.py,sha256=Dcy1RxV-VOHMqpNSaC-VO3HZ_ueGq2OnAY9xFcMtjMk,23
+vhtml/core/pdf_processor.py,sha256=kYoA32xua9OdPu793NKUdqyYejjo3n3o1M2Vp5Fuk6Q,26
+vhtml/models/document_classifier.py,sha256=1_SuTk7rqLS3QG1PjckYfzB114LDFuliwNx9ChfqLTI,32
+vhtml/templates/form_template.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhtml/templates/universal_template.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhtml/utils/image_utils.py,sha256=gh_nORkchvJUj0XhNDIpjvXvOm7re6p4ieoBUAtmCgQ,24
+vhtml/utils/text_utils.py,sha256=9xeHybEGDcPXek1OGuWWYO1skN8w0GsVf6JdQo9dPDo,23
+vhtml-0.1.5.dist-info/METADATA,sha256=yHadijp0LqYHAl8MhKASd3e87g2uqAv9ykbVzaQaN94,5754
+vhtml-0.1.5.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+vhtml-0.1.5.dist-info/RECORD,,
