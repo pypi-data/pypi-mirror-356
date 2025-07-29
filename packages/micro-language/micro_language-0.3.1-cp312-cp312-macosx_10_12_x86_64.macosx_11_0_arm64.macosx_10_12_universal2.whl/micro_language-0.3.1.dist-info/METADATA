@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: micro_language
+Version: 0.3.1
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Python Binding of MicroLanguage
+
+Please read tests in [tests](tests) to get usage examples.
+
+NB: stream usage is not production ready.
