@@ -1,0 +1,2 @@
+[console_scripts]
+orchestra-cli = orchestra_cli.src.cli:app
