@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: vmware-sddc-manager
+Version: 9.0.0.0
+Summary: Client library for vmware-sddc-manager Automation APIs
+Author: Broadcom
+License: License :: OSI Approved :: Apache Software License
+Project-URL: Homepage, https://github.com/vmware/vcf-sdk-python
+Keywords: Broadcom,VCF,vSphere,vCenter Server
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vmware_vapi_common_client==2.61.2
+Requires-Dist: vmware_vapi_runtime==2.61.2
+Dynamic: license-file
+
+VMware SDDC Manager library contains client bindings for VMware SDDC Manager Automation APIs for managing software-defined data center (SDDC) infrastructure components. This library is part of VMware Cloud Foundation SDK for Python.
+
+
+[Source code](https://github.com/vmware/vmware-cloud-foundation-sdk-python)
+
+## Getting started
+
+### Prerequisites
+
+- Supported Python versions: 3.9, 3.10, 3.11, 3.12 and 3.13
+
+### Install the package
+
+```bash
+pip install vmware-sddc-manager
+```
+###### Connect to a SDDC Manager Server
+```python
+import requests
+import urllib3
+from vmware.vapi.sddc_manager.client import create_sddc_manager_client
+
+session = requests.session()
+# Disable cert verification for demo purpose.
+# This is not recommended in a production environment.
+session.verify = False
+# Connect to a SDDC Manager Server using username and password
+sddc_client = create_sddc_manager_client(server='<sddc_manager_ip>', username='<username>', password='<password>', session=session)
+# Get Domains
+sddc_client.v1.Domains.get_domains()
+```
+
+Output in a Python Interpreter:
+
+```shell
+(venv) het-m03:vsphere-automation-sdk-python het$ python
+Python 3.9.8 (main, Nov 10 2021, 06:03:50)
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> import urllib3
+>>> from vmware.vapi.sddc_manager.client import create_sddc_manager_client
+>>> session = requests.session()
+>>> session.verify = False
+>>> urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+>>> sddc_client = create_sddc_manager_client(server='<sddc_manager_ip>', username='<username>', password='<password>', session=session)
+>>> sddc_client.v1.Domains.get_domains()
+Domains Info :
+{elements : [Domain(id='7277ed7e-3239-438b-b7c7-a735f1293c08', name='sddcId-1001', org_name='COM', status='ACTIVE', upgrade_state='AVAILABLE', upgrade_status=UpgradeStatus(status='UP_TO_DATE', completed_resources=None, total_resources=None), type='MANAGEMENT', vra_integration_status=None, vrops_integration_status=None
+...}
+```
+
+**NOTE:** If you are using Bash, be sure to use single quote for username and password to preserve the values. If you use double quote, you will have to escape special characters, such as "$". See [Bash manual](http://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html)
