@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "python-code-validator"
+version = "0.1.1"
+authors = [{ name = "Qu1nel", email = "covach.qn@gmail.com" }]
+description = "A flexible framework for static validation of Python code based on JSON rules."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+keywords = ["validation", "linter", "static analysis", "testing", "education"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/Qu1nel/PythonCodeValidator"
+"Bug Tracker" = "https://github.com/Qu1nel/PythonCodeValidator/issues"
+
+
+[project.scripts]
+validate-code = "code_validator.cli:run_from_cli"
+
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4.0",
+    "flake8>=7.0.0",
+    "build",
+    "twine",
+    "coverage>=7.5.0",
+]
+docs = [
+    "sphinx>=7.0.0",
+    "furo",
+    "myst-parser",
+    "sphinx-design",
+]
+
+
+[tool.ruff]
+line-length = 120
+exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "C", "B"]
+ignore = []
+mccabe.max-complexity = 15
+
+
+[tool.ruff.format]
+quote-style = "double"
