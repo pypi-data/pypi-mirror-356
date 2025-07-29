@@ -1,0 +1,37 @@
+env*/
+_build/
+build/
+dist/
+*.pyc
+.coverage
+.ipynb_checkpoints
+# This will remove our ability to add CI in the .github dir
+#.*
+.DS_Store
+.idea/
+*.egg-info/
+*.egg/
+docs/_build/
+test.ini
+src/stravalib/_version_generated.py
+#*~
+examples/strava-oauth/settings.cfg
+# Code cov
+.coverage
+.nox
+.vscode/*
+docs/_build/*
+.env
+
+
+# So people don't mistakenly delete and submit a pr with these
+stravalib/tests/test.ini-example
+stravalib/tests/test.ini
+stravalib/docs/api
+.vscode/
+stravalib-2023/
+.nox/*
+
+# Ignore Sphinx auto-generated API stubs #
+docs/reference/api
+coverage.xml
