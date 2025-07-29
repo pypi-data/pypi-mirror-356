@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "mission-control-ai"
+version = "0.1.1"
+description = "AI Development Workflow Orchestration System"
+authors = ["BlueArch <contact@bluearch.io>"]
+readme = "README.md"
+homepage = "https://github.com/bluearchio/mission-control"
+repository = "https://github.com/bluearchio/mission-control"
+documentation = "https://github.com/bluearchio/mission-control/wiki"
+keywords = ["ai", "agents", "development", "orchestration", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+packages = [{include = "mission_control"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+asyncio_mode = "auto"
