@@ -1,0 +1,30 @@
+[project]
+name = "exampleserverrepository"
+version = "1.0.11"
+description = "Generated REST & MQTT clients"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "httpx>=0.23.0,<0.29.0",
+  "attrs>=22.2.0",
+  "paho-mqtt>=1.6.0"
+]
+
+[tool]
+
+  [tool.setuptools]
+  packages = [
+    "rest_client",
+    "mqtt_client"
+  ]
+
+    [tool.setuptools.package-dir]
+    rest_client = "python_client/todo_api_client"
+    mqtt_client = "python_mqtt_client"
+
+[build-system]
+requires = [
+  "setuptools>=42",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
