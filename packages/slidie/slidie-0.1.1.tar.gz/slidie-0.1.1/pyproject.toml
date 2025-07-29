@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slidie"
+description = "An Inkscape-centered slide preparation tool"
+readme = "README.md"
+dependencies = ["pikepdf"]
+dynamic = ["version"]
+license = {file = "LICENCE"}
+
+[tool.setuptools.dynamic]
+version = {attr = "slidie.__version__"}
+
+[project.scripts]
+slidie = "slidie.scripts.slidie_cmd:main"
+slidie-mv = "slidie.scripts.slidie_mv_cmd:main"
+slidie-video-stills = "slidie.scripts.slidie_video_stills_cmd:main"

@@ -1,0 +1,82 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+  <head>
+    <meta charset="utf-8"/>
+    <title>Slidie</title>
+    <link rel="stylesheet" href="common.css"/>
+    <link rel="stylesheet" href="base.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body>
+    <script>
+      // Detect if this file was correctly loaded as XHTML.
+      //
+      // NB: XHTML files never use quirks mode, but if loaded as HTML won't
+      // have the necessary doctype.
+      if (document. compatMode == "CSS1Compat") {
+        document.body.classList.add("is-xhtml")
+      }
+    </script>
+    <div id="not-xhtml-warning" open="true">
+      <h1>Slidie files must be loaded as XHTML with Javascript enabled</h1>
+      <p>
+        <strong>Hint:</strong> Make sure the filename ends with <code>.xhtml</code>.
+      </p>
+      <p>
+        <strong>Hint:</strong> If using a web server, make sure it is setting
+        the mimetype to <code>application/xhtml+xml</code>.
+      </p>
+      <p>
+        <strong>Hint:</strong> Make sure Javascript is enabled.
+      </p>
+    </div>
+    <nav id="toolbar">
+      <div id="slide-selector">
+        <input class="slide-number" type="text" list="slide-list" />
+        of <span class="slide-count">?</span>
+        <datalist id="slide-list" />
+      </div>
+      
+      <div id="title" />
+      
+      <button id="show-help" aria-label="Help">Help</button>
+      <button id="presenter-view">Presenter View</button>
+      <button id="hide-ui">Hide UI</button>
+      <button id="full-screen">Full screen</button>
+    </nav>
+    
+    <div id="slides" />
+    
+    <div id="notes" />
+    
+    <div id="thumbnails" />
+    
+    <dialog id="help">
+      <h1>Slidie Keyboard Shortcuts</h1>
+      <form method="dialog"><button id="close-help" aria-label="Close" /></form>
+      <dl id="help-keyboard-shortcuts" />
+    </dialog>
+    
+    <template id="slide-thumbnails">
+      <div class="thumbnail-group">
+        <div class="slide-number-column">
+          <div class="slide-number" />
+        </div>
+        <div class="step-thumbnails" />
+      </div>
+    </template>
+    
+    <template id="step-thumbnail">
+      <a class="thumbnail">
+        <img />
+      </a>
+    </template>
+    
+    <template id="note">
+      <div class="note" />
+    </template>
+    
+    <template src="presenter_view.xhtml" id="presenter-view-template" />
+    
+    <script src="viewer/index.js" />
+  </body>
+</html>
