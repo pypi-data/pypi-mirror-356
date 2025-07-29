@@ -1,0 +1,2 @@
+[console_scripts]
+scodakit = scodakit.main:main
