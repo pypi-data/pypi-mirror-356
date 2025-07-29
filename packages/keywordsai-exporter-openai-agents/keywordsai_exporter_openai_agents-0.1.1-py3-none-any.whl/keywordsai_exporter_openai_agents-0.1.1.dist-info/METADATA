@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: keywordsai-exporter-openai-agents
+Version: 0.1.1
+Summary: Exporter for Keywords AI openai Agents SDK
+License: Apache 2.0
+Author: Raymond Huang
+Author-email: raymond@keywordsai.co
+Requires-Python: >3.10,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: keywordsai-sdk (>=0.4.39,<0.5.0)
+Requires-Dist: openai-agents (>=0.0.18,<0.0.19)
+Description-Content-Type: text/markdown
+
+# Exporter for open-agents telemetry
