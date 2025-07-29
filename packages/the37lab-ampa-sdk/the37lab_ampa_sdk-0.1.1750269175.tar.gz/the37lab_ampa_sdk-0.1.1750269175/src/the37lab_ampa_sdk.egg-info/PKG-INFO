@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: the37lab_ampa_sdk
+Version: 0.1.1750269175
+Summary: Python SDK for the AMPA API
+Author-email: the37lab <info@the37lab.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# AMPA SDK
+
+The AMPA SDK is a Python library that provides a convenient, high-level interface for interacting with the AMPA API. It is designed to simplify agent management, versioning, and execution from any Python application, script, or notebook.
+
+## Overview
+
+- **Easy integration**: Manage agents and their versions with simple Python calls
+- **Handles authentication**: Securely connect to the AMPA API with username/password or environment variables
+- **Request/response abstraction**: No need to manually format HTTP requests
+- **Extensible**: Add custom methods or extend for new API endpoints
+
+## Features
+
+- Create, update, delete, and run agents from Python
+- List and manage agent versions
+- Automatic handling of API authentication and errors
+- Works with both local and remote AMPA API deployments
+
+## Installation
+
+To install the AMPA SDK, use pip:
+
+```bash
+pip install the37lab_ampa_sdk
+```
+
+## Configuration
+
+You can configure the SDK via parameters or environment variables:
+
+- `ampa_url`: The base URL of the AMPA API (default: https://ampa.the37lab.com:13002/)
+- `username`: API username
+- `password`: API password
+
+Environment variables:
+- `AMPA_API_URL`
+- `AMPA_API_USERNAME`
+- `AMPA_API_PASSWORD`
+
+## Usage Example
+
+```python
+from the37lab_ampa_sdk import AgentAPI
+
+# Initialize the client (parameters or env vars)
+client = AgentAPI(
+    ampa_url="http://localhost:8000",
+    username="your_username",
+    password="your_password",
+)
+
+# Create an agent
+data = {
+    "agent_name": "My Agent",
+    "description": "A helpful assistant",
+    "purpose": "You are a helpful assistant",
+    "instruction": "Tell a story about Sweden"
+}
+agent = client.create_agent(data)
+
+# Run the agent
+response = client.call_agent(
+    "My Agent",
+    variables={"name": "John"},
+    prompt="Tell me a story"
+)
+
+# List agent versions
+versions = client.list_agent_versions(agent["id"])
+```
+
+## Use Cases
+
+- Integrate agent management into Python apps, scripts, or notebooks
+- Automate agent creation and execution in pipelines
+- Rapid prototyping and experimentation with LLM agents
+
+## Extensibility
+
+- Add new methods for custom API endpoints
+- Subclass `AgentAPI` to add custom logic or error handling
+
+## Troubleshooting
+
+- Ensure the AMPA API is running and accessible
+- Check credentials and API URL
+- Review exception messages for error details
+
+## License
+
+This project is proprietary software. All rights reserved.
+
