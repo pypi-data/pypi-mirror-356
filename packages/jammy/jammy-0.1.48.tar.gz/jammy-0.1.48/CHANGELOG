@@ -1,0 +1,39 @@
+
+# Changelog
+
+## [0.1.45] - 2024-12-13
+
+### Changed
+- Migrated from Poetry to uv for package management and dependency resolution
+- Updated `pyproject.toml` to use PEP 621 format with hatchling build backend
+- Restructured dependency groups to use standard Python packaging format
+- Updated GitLab CI/CD pipeline to use uv instead of Poetry
+- Switched from poetry-core to hatchling for build system
+- Transitioned publish workflow from Poetry/Twine to uv publish
+
+### Dependencies
+- No changes to core dependencies versions
+- Retained all existing optional dependency groups: torch, web, storage, pro, viz
+- Maintained development tool versions (black, isort, pylint, etc.)
+
+### CI/CD
+- Updated GitLab CI configuration to use uv installation and build process
+- Added uv-specific package publishing configuration for both PyPI and GitLab registry
+- Optimized CI cache configuration for uv virtual environments
+
+### Developer Experience
+- Added instructions for using uv in local development
+- Simplified dependency installation with uv's improved resolver
+- Faster dependency resolution and installation through uv
+
+### Infrastructure
+- Added GitLab package registry configuration in `pyproject.toml`
+- Updated build system requirements to use hatchling
+- Maintained identical package distribution structure
+
+### Documentation
+- Updated installation and development setup instructions for uv
+- Added configuration information for alternative package registries
+- Updated contribution guidelines with uv-specific instructions
+
+For the full list of changes, refer to the [comparison between versions](link-to-comparison).

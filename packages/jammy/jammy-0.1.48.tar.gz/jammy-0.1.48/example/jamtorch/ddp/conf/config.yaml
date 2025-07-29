@@ -1,0 +1,49 @@
+data:
+  datasets:
+    _target_: datasets.cifar.get_dataset
+  dataloader:
+    _target_: jamtorch.ddp.ddp_utils.ddp_dataset
+    batch_size: 8
+    num_workers: 0
+
+optimizer:
+ _target_: torch.optim.Adam
+ lr: 1e-3
+
+model:
+  _target_: model.toy.ToyModel
+
+trainer:
+  rank: 
+  gpu: 
+  cwd: 
+  world_size: 
+  dist:
+    master_addr: 'localhost'
+    master_port: '12354'
+    mode: 'nccl'
+    syncBN: false
+
+  resume: false
+  ckpt: /home/qzhang419/jam/example/jamtorch/ddp/outputs/2021-02-25/20-25-32/ckpt-6250
+  ckpt_dir:
+  epochs: 3
+  ratio_forback: 1
+  fp16: false
+  enable_ema: true
+  ema: 
+    _target_: jamtorch.io.EMA
+    beta: 0.5
+    num_warm: 5
+    num_every: 7
+
+  wandb:
+    log: false
+    project: "jammy"
+    name: "ddp"
+    tags:
+      - "jamtorch"
+      - "ddp_trainer"
+    notes:
+      "test the performance of ddp"
+    entity: "qinsheng"

@@ -1,0 +1,54 @@
+variables:
+    PIP_DOWNLOAD_DIR: ".pip"
+
+cache:
+  key: "${CI_JOB_NAME}"
+  paths:
+    - .cache/pip
+    - .venv
+
+stages:
+  - pubs
+  - pypi-pub
+
+# Jobs templates ------------------
+
+.install-deps-template: &install-deps
+  before_script:
+    - sed -i "/^version/s/\(.*\)/version = \"$CI_COMMIT_REF_NAME\"/" pyproject.toml
+    - cat pyproject.toml
+    # Install uv and set up PATH
+    - curl -sSL https://astral.sh/uv/install.sh | sh
+    - export PATH="/root/.local/bin:$PATH"
+    - source /root/.local/bin/env
+    # Create and activate venv
+    - uv venv
+    - . .venv/bin/activate
+    - uv pip install -e .
+
+.pub-template: &pub
+  <<: *install-deps
+  stage: pubs
+  script:
+      - env
+      - uv build
+      - uv publish --index gitlab --username "$GITLAB_PYPI_NAME" --password "$GITLAB_PYPI_PWD"
+  only:
+    - tags
+
+.pypi-template: &pypi
+  <<: *install-deps
+  stage: pypi-pub
+  script:
+      - uv build
+      - uv publish --token "$PYPI_TOKEN"
+  only:
+      - /^[0-9]+[.][0-9]+([.][0-9]+)?$/
+
+py-pub:
+  <<: *pypi
+  image: python:3.8
+
+python-pub:
+  <<: *pub
+  image: python:3.8
