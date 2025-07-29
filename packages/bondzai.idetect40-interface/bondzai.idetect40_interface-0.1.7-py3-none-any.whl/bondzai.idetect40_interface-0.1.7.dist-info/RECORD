@@ -1,0 +1,14 @@
+bondzai.idetect40_interface-0.1.7-py3.10-nspkg.pth,sha256=GaUdUWunJyFVhGgJl0Nf0QYV1Zlch9NCqd-3J3CkhTo,544
+bondzai/idetect40_interface/__init__.py,sha256=YpKDcdV7CqL8n45u267wKtyloM13FSVbOdrqgNZnSLM,22
+bondzai/idetect40_interface/exchange_table.py,sha256=-CFlT9Y81Iul1rKBiVdelIABkUUYtCUdpOcTyPdbAkk,19986
+bondzai/idetect40_interface/socket.py,sha256=-AyVgFFZ9qGXD2VweRCtzSLhxf-joucawtS0vcNHc0c,13030
+tests/__init__.py,sha256=pHF_aRq-19mAsde6wOpIJgAPHR5wxxHQ7gl50H5yQ6E,106
+tests/test_exchange_table.py,sha256=7N-DJG5fHaNTn4lxEQmHMrUZR4-QnzJbpkOpOBYmdjU,6615
+tests/test_socket.py,sha256=7yj87Wdw0dLCX9dw3a2a7tjfCz3Fs2neiZOIkD57Ieg,5990
+bondzai.idetect40_interface-0.1.7.dist-info/METADATA,sha256=xUeHyE5Gj29EWGI4kh8Af9ls1Jnh5WGFBAnFTBkRrJo,869
+bondzai.idetect40_interface-0.1.7.dist-info/NOTICE,sha256=q3CdcSfXg878kQj9Br6aDZOeE6nCnmTpJOeg-RmkFfU,547
+bondzai.idetect40_interface-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bondzai.idetect40_interface-0.1.7.dist-info/namespace_packages.txt,sha256=MnOdBENZHj1WBT4-FWCMGpbukfxq9cc0OjvfBXZDWI4,8
+bondzai.idetect40_interface-0.1.7.dist-info/top_level.txt,sha256=c7wf3a57dWk7gjd-WMDAFqhXcg2w4L4KNKjl6Mp83DQ,14
+bondzai.idetect40_interface-0.1.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bondzai.idetect40_interface-0.1.7.dist-info/RECORD,,
