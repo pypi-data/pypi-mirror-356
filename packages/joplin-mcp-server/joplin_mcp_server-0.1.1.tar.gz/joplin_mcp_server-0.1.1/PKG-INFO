@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: joplin-mcp-server
+Version: 0.1.1
+Summary: A Model Context Protocol (MCP) stdio server for Joplin, exposing Joplin's local REST API as MCP tools. Built with Python, uv, httpx, and FastMCP.
+Author-email: Zeyang Lin <4020306+linzeyang@users.noreply.github.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/linzeyang/joplin-mcp-server
+Project-URL: Documentation, https://github.com/linzeyang/joplin-mcp-server#readme
+Keywords: joplin,mcp,server,rest api,notes,python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: fastmcp==2.8.1
+Requires-Dist: httpx==0.28.1
+Dynamic: license-file
+
+# joplin-mcp-server
+
+A Model Context Protocol (MCP) stdio server for Joplin, exposing Joplin's local REST API as MCP tools.
+
+- **Tech stack:** Python, uv, httpx, FastMCP
+- **License:** MIT
+
+## Features
+- Bridges Joplin's REST API to MCP tools
+- Designed for extensibility and integration
+
+## Quick Start
+1. Clone this repository
+2. Set up a Python 3.10+ environment (recommended: `uv`)
+3. Install dependencies: `uv pip install -r pyproject.toml`
+4. Run the server: `uvx joplin-mcp-server`
+
+## Project Structure
+- `src/joplin_mcp_server/` — Main package code
+- `specs/` — API documentation and references
+
+## License
+MIT

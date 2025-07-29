@@ -1,0 +1,82 @@
+[project]
+name = "joplin-mcp-server"
+version = "0.1.1"
+description = "A Model Context Protocol (MCP) stdio server for Joplin, exposing Joplin's local REST API as MCP tools. Built with Python, uv, httpx, and FastMCP."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fastmcp==2.8.1", "httpx==0.28.1"]
+license = "MIT"
+authors = [
+    { name = "Zeyang Lin", email = "4020306+linzeyang@users.noreply.github.com" },
+]
+keywords = ["joplin", "mcp", "server", "rest api", "notes", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Development Status :: 3 - Alpha",
+]
+
+[project.urls]
+Homepage = "https://github.com/linzeyang/joplin-mcp-server"
+Documentation = "https://github.com/linzeyang/joplin-mcp-server#readme"
+
+[project.scripts]
+joplin-mcp-server = "joplin_mcp_server.entry:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+# Add uv-specific configuration here if needed
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.isort]
+py_version = 312
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = "88"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["./tests/"]
+python_files = ["test_*.py"]
+console_output_style = "count"
+
+[tool.ruff]
+src = ["src"]
+line-length = 88
+target-version = "py312"
+output-format = "full"
+
+[tool.ruff.lint]
+select = ["B", "C", "E", "F", "I", "Q", "S", "W"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"tests/*.py" = ["S"]
+
+[tool.ty.environment]
+python-version = "3.12"
+
+[tool.ty.rules]
+missing-argument = "ignore"
+
+[tool.ty.src]
+root = "./src"
+
+[tool.ty.terminal]
+output-format = "full"
