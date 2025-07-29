@@ -1,0 +1,6 @@
+
+[postgres]
+cloaca-postgres==0.2.0
+
+[sqlite]
+cloaca-sqlite==0.2.0

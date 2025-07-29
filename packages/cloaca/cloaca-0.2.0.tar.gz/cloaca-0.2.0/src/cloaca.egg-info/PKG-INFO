@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: cloaca
+Version: 0.2.0
+Summary: Python bindings for Cloacina - a robust workflow orchestration engine
+Author-email: Cloacina Team <team@cloacina.dev>
+License: MIT OR Apache-2.0
+Project-URL: Homepage, https://github.com/dstorey/cloacina
+Project-URL: Repository, https://github.com/dstorey/cloacina
+Project-URL: Documentation, https://cloacina.dev
+Project-URL: Issues, https://github.com/dstorey/cloacina/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: postgres
+Requires-Dist: cloaca-postgres==0.2.0; extra == "postgres"
+Provides-Extra: sqlite
+Requires-Dist: cloaca-sqlite==0.2.0; extra == "sqlite"
+
+# Cloaca
+
+Python bindings for Cloacina - a robust workflow orchestration engine.
+
+This is the dispatcher package that automatically selects and loads the appropriate backend (PostgreSQL or SQLite) based on availability.
+
+## Installation
+
+```bash
+# For PostgreSQL backend
+pip install cloaca[postgres]
+
+# For SQLite backend
+pip install cloaca[sqlite]
+```
+
+## Usage
+
+```python
+import cloaca
+
+# The backend is automatically detected
+print(f"Using backend: {cloaca.get_backend()}")
+print(cloaca.hello_world())
+```
