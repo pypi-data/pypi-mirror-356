@@ -1,0 +1,26 @@
+2025-05-30 21:33:33,827 - DEBUG - ------------------ Iteration 1 ---------------------------
+2025-05-30 21:34:17,383 - DEBUG - Execution output: 
+2025-05-30 21:34:17,383 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/house-prices-advanced-regression-techniques_tmp.ipynb to notebook
+[NbConvertApp] Writing 385963 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/op/house-prices-advanced-regression-techniques_run_0.ipynb
+
+2025-05-30 21:34:17,383 - DEBUG - ------------------ Iteration 2 ---------------------------
+2025-05-30 21:35:00,017 - DEBUG - Execution output: 
+2025-05-30 21:35:00,017 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/house-prices-advanced-regression-techniques_tmp.ipynb to notebook
+[NbConvertApp] Writing 397812 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/op/house-prices-advanced-regression-techniques_run_1.ipynb
+
+2025-05-30 21:35:00,017 - DEBUG - ------------------ Iteration 3 ---------------------------
+2025-05-30 21:35:41,588 - DEBUG - Execution output: 
+2025-05-30 21:35:41,588 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/house-prices-advanced-regression-techniques_tmp.ipynb to notebook
+[NbConvertApp] Writing 384008 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/op/house-prices-advanced-regression-techniques_run_2.ipynb
+
+2025-05-30 21:35:41,588 - DEBUG - ------------------ Iteration 4 ---------------------------
+2025-05-30 21:36:22,318 - DEBUG - Execution output: 
+2025-05-30 21:36:22,318 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/house-prices-advanced-regression-techniques_tmp.ipynb to notebook
+[NbConvertApp] Writing 386624 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/op/house-prices-advanced-regression-techniques_run_3.ipynb
+
+2025-05-30 21:36:22,318 - DEBUG - ------------------ Iteration 5 ---------------------------
+2025-05-30 21:37:03,224 - DEBUG - Execution output: 
+2025-05-30 21:37:03,224 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/house-prices-advanced-regression-techniques_tmp.ipynb to notebook
+[NbConvertApp] Writing 397600 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/nbtest_demo/op/house-prices-advanced-regression-techniques_run_4.ipynb
+
+2025-05-30 21:37:03,224 - INFO - self.notebook_fname: {self.notebook_fname}
