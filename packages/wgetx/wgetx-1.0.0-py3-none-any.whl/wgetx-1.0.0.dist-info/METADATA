@@ -1,0 +1,128 @@
+Metadata-Version: 2.4
+Name: wgetx
+Version: 1.0.0
+Summary: A modern CLI tool for downloading files with progress bars
+Author-email: CELESTIFYX Team <celestifyx@gmail.com>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://gitlab.com/celestifyx/wgetx
+Project-URL: Repository, https://gitlab.com/celestifyx/wgetx
+Project-URL: Issues, https://gitlab.com/celestifyx/wgetx/-/issues
+Keywords: download,wget,cli,progress,http
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# wgetx
+A modern CLI tool for downloading files with customizable progress bars and advanced features.
+
+## Features
+- **Fast Downloads**: Efficient file downloading with resume capability
+- **Progress Visualization**: Customizable progress bars with colors and icons
+- **Batch Downloads**: Download multiple files from a URL list
+- **Resume Support**: Continue interrupted downloads
+- **Flexible Output**: Control verbosity and output formatting
+- **Cross-Platform**: Works on Windows, macOS, and Linux
+
+## Installation
+```bash
+pip install wgetx
+```
+
+## Usage
+
+### Basic Download
+```bash
+wgetx https://example.com/file.zip
+```
+
+### Download to Specific Directory
+```bash
+wgetx https://example.com/file.zip /path/to/save/
+```
+
+### Resume Interrupted Download
+```bash
+wgetx --resume https://example.com/large-file.zip
+```
+
+### Batch Download from File
+```bash
+wgetx --batch urls.txt
+```
+
+### Force Overwrite Existing Files
+```bash
+wgetx --force https://example.com/file.zip
+```
+
+## Command Line Options
+
+### Basic Options
+- `URL` - URL to download or path to file containing URLs (with --batch)
+- `DESTINATION` - Destination path (file or directory)
+
+### Behavior Options
+- `-f, --force` - Overwrite existing files
+- `-c, --resume` - Resume interrupted downloads
+
+### Output Options
+- `-e, --echo` - Print file path to stdout after download
+- `-q, --quiet` - Suppress progress information
+- `-b, --batch` - Download multiple URLs from a file
+
+### UI Customization
+- `--done` - Icon for completed progress (default: ▓)
+- `--left` - Icon for remaining progress (default: ░)
+- `--current` - Icon for current progress position (default: ▓)
+- `--border` - Border characters for progress bar (default: |)
+
+### Color Options
+- `--color-done` - Color for completed progress icon
+- `--color-left` - Color for remaining progress icon
+- `--color-current` - Color for current progress icon
+
+## Examples
+
+### Custom Progress Bar
+```bash
+wgetx --done "█" --left "─" --current ">" --border "[]" https://example.com/file.zip
+```
+
+### Colored Progress Bar
+```bash
+wgetx --color-done green --color-current yellow --color-left red https://example.com/file.zip
+```
+
+### Quiet Download with Echo
+```bash
+wgetx --quiet --echo https://example.com/file.zip
+```
+
+### Batch Download
+Create a file `urls.txt` with URLs:
+```
+https://example.com/file1.zip
+https://example.com/file2.tar.gz
+https://example.com/file3.pdf
+```
+
+Then run:
+```bash
+wgetx --batch urls.txt
+```
+
+## Supported Colors
+You can use the following color names:
+- `black`, `red`, `green`, `yellow`
+- `blue`, `magenta`, `cyan`, `white`
+- Custom ANSI escape sequences
+
+## License
+This project is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later).
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+If you encounter any issues or have questions, please open an issue in the project repository.
