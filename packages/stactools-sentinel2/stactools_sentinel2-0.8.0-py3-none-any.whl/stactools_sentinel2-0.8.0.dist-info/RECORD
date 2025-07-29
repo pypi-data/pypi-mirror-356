@@ -1,0 +1,16 @@
+stactools/sentinel2/__init__.py,sha256=yuthmqRBAQVvLNXqEPLJbN8pJh16u73oWko2QRnE63A,250
+stactools/sentinel2/cog.py,sha256=uTEcm-V1f-kJmhWBmBfuzGaDlV5Y-e9ZUvWHlqiwoQM,1931
+stactools/sentinel2/commands.py,sha256=4YY0mJLSfawFaROMiWzl3BiKHKnfZQZlyavlVVZIyME,1985
+stactools/sentinel2/constants.py,sha256=ILrzfAdrjcsvIsHM_xVo3m5sGhwB2wsVB_b7aMMfHz0,5461
+stactools/sentinel2/granule_metadata.py,sha256=2qxStokE7PBVCOknmlrtICETstrHo4GwyZDpwLNulJs,11129
+stactools/sentinel2/mgrs.py,sha256=ZQG2vhDu454xEahED85u81yGUax6oRp0lFRbRW-JWRE,6485
+stactools/sentinel2/product_metadata.py,sha256=wZtAiL9GWoX_L2vR4sFr-i0qmvECTC6bEBHSM4T2_tQ,8911
+stactools/sentinel2/safe_manifest.py,sha256=Bcmrat9pZMP-ufaqTmhvpQko-V5VvEHzcgB1oL1KUo4,2740
+stactools/sentinel2/stac.py,sha256=bvoSt8qio2i0v9gVHTRLnWA19P6JFCf3mDjklYPyhco,29415
+stactools/sentinel2/tileinfo_metadata.py,sha256=0xutg7iEVVgRe5UHbnKoAFisHjb_ES3_mR93KAcmshM,1869
+stactools/sentinel2/utils.py,sha256=sAk5p-ebBJdsFghEheGKsj8IPtNXUE0u3FWWo8dTWxU,2870
+stactools_sentinel2-0.8.0.dist-info/licenses/LICENSE,sha256=kGshx52lEVXCvfof1klIqE0XMDNNK05-b3xtn6rH8E4,641
+stactools_sentinel2-0.8.0.dist-info/METADATA,sha256=5UDspYLpoSiRKeziPx5XMIudwZA2Lm_8da2m_O4ON08,3472
+stactools_sentinel2-0.8.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+stactools_sentinel2-0.8.0.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_sentinel2-0.8.0.dist-info/RECORD,,
