@@ -1,0 +1,15 @@
+easy_acumatica/__init__.py,sha256=mh3EVvN9KIv0R58vP1AJl-LRBePOO8Kn40SV8nPqVRo,118
+easy_acumatica/client.py,sha256=H1mPfmvbgp2lK9uJVqX1NIoxuhWBpe0JuzZ-xM90Qv0,6711
+easy_acumatica/helpers.py,sha256=Z4OBPpH_osQKfmFi7fk9BPMZPsiWIfZvh1HZ1CuDSqY,1378
+easy_acumatica/models/contact_builder.py,sha256=a6PqMExRm0by6t8Amf8azQcUPTro7ivHt-ue7fwRK8s,9292
+easy_acumatica/models/filter_builder.py,sha256=kzdlfEDHRAThcxGUp_TAjTL-jSM3ojSuUVh58JvrB5M,6238
+easy_acumatica/models/inquiry_builder.py,sha256=aGuJ7rq_ZqLXxBugcQ-W-8gQ5Z-g0XjMcwg-DKeYQ4s,2711
+easy_acumatica/models/record_builder.py,sha256=HnfztmPPHNs0UvnHYdg4eSTPfyVS32qd1BOkcWkOQxA,5045
+easy_acumatica/sub_services/contacts.py,sha256=TB8KXAbY5UlcWDNhkHeIcRmj5YnuF9hzqCWuiDYF-BY,9724
+easy_acumatica/sub_services/inquiries.py,sha256=vib5qSSOk-mOmKqpfnKObsmtTOFlkvw8pjou-34iM1g,4107
+easy_acumatica/sub_services/records.py,sha256=49cmiH1EuAlNWD1bjL9UvxgO3en1JXW76kEReF7XZbE,12542
+easy_acumatica-0.2.0.dist-info/licenses/LICENSE,sha256=YRemO7BYuDSk_ICm8_54RaUal8cRy6YNs12segdf6Q4,1094
+easy_acumatica-0.2.0.dist-info/METADATA,sha256=b_nKM3qyeYe2yfLABv0Ldxg88vcR-oWFlCuNDDqDOLo,1180
+easy_acumatica-0.2.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+easy_acumatica-0.2.0.dist-info/top_level.txt,sha256=E6pFZxJhL7sC3wEjqvFqrnF1aUKl3cWSs_1jwU78pNU,15
+easy_acumatica-0.2.0.dist-info/RECORD,,
