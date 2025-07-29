@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: vmware-vsan-data-protection
+Version: 9.0.0.0
+Summary: Client library for vmware-vsan-data-protection Automation APIs
+Author: Broadcom
+License: License :: OSI Approved :: Apache Software License
+Project-URL: Homepage, https://github.com/vmware/vcf-sdk-python
+Keywords: Broadcom,VCF,vSphere,vCenter Server
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vmware_vapi_common_client==2.61.2
+Requires-Dist: vmware_vapi_runtime==2.61.2
+Dynamic: license-file
+
+VMware VSAN Data Protection library contains client bindings for VMware VSAN Data Protection Automation APIs for managing Snapservice. This library is part of VMware Cloud Foundation SDK for Python.
+
+[Source code](https://github.com/vmware/vmware-cloud-foundation-sdk-python)
+
+## Getting started
+
+### Prerequisites
+
+- Supported Python versions: 3.9, 3.10, 3.11, 3.12 and 3.13
+
+### Install the package
+
+```bash
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install pyvmomi
+pip install vmware-vsan-data-protection
+```
+
+### Connect to a Snapservice Server and List Protection Groups
+### create_snapservice_client is available at
+### https://github.com/vmware/vsphere-automation-sdk-python/blob/master/samples/vsan/snapservice/vsan_snapservice_client.py
+```python
+import requests
+from snapservice_client import create_snapservice_client
+
+session = requests.session()
+# Disable cert verification for demo purpose.
+# This is not recommended in a production environment.
+session.verify = False
+requests.packages.urllib3.disable_warnings()
+
+# Connect to a snapservice using username and password
+ss_client = create_snapservice_client(snapservice='<snapservice_host>',
+                                      server='<vcenter_host>',
+                                      username='<username>',
+                                      password='<password>',
+                                      session=session,
+                                      skip_verification=True)
+# List protection groups
+pgs = ss_client.clusters.ProtectionGroups.list('<cluster_moref_id>')
+for pg in pgs.items:
+    print(pg)
+```
+
+#### Output in a Python Interpreter:
+```bash
+➜  vmware-vsan-data-protection-sdk git:(main) ✗ python
+Python 3.9.16 (main, Aug  7 2023, 15:36:37)
+[Clang 14.0.3 (clang-1403.0.22.14.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> from snapservice_client import create_snapservice_client
+>>>
+>>> session = requests.session()
+>>> session.verify = False
+>>> requests.packages.urllib3.disable_warnings()
+>>> ss_client = create_snapservice_client(snapservice='<snapservice_host>',
+...                                       server='<vcenter_host',
+...                                       username='<username>',
+...                                       password='<password>',
+...                                       session=session,
+...                                       skip_verification=True)
+>>> pgs = ss_client.clusters.ProtectionGroups.list('<cluster_moref_id>')
+>>> for pg in pgs.items:
+...     print(pg)
+...
+{pg : c5522438-008a-4596-b049-a13a43bf11fe, info : {name : test-pg1, status : ACTIVE, target_entities : {vm_name_patterns : [], vms : {'vm-47'}}, snapshot_policies : [SnapshotPolicy(name='Every 1/2 hour, keep for 1 day', schedule=SnapshotSchedule(unit=TimeUnit(string='MINUTE'), interval=30), retention=RetentionPeriod(unit=TimeUnit(string='DAY'), duration=1))], last_snapshot_time : 2024-12-06 05:35:43.076000, oldest_snapshot_time : 2024-12-05 06:05:40.680000, vms : {'vm-47'}, snapshots : {'c7416f7f-0281-4561-a049-10ea0df43e71', '436ec69a-a3d8-47b9-885f-d66fadddd285', '1b6dac3c-742e-42e3-9fcc-21e70ac30151', 'd3b611fc-a008-4f1f-9095-934a46156c88', '69df29c6-40bc-44d7-a23a-34219ce76206', '0468c164-83c3-4d32-a535-5ea4ed7aa1e7', 'da4632e3-e9e0-4c50-9572-8a9a2e03826f', '4a054e10-efb6-44c8-ad01-08685f16e097', '847b7e77-834e-4041-9ea3-61a68728ee79', 'a8820b4c-f537-4c8d-bc33-24664f3f8421', 'ff8b0995-e0e8-403e-bc50-7cc225c622df', '83246655-1ce6-442b-97bf-3e77e3451985', '38c29810-9a13-4be8-b023-129f3df88c5b', '9e5c7a38-7095-4c9c-81b0-6ba1d39abb58', '4af760c8-2204-4f1e-af10-c2a6833b9186', '8d7790fd-8bd5-425a-97c4-5b10eff80f56', 'bd5c241d-242d-4146-9a48-1e370bcd3888', '2c1685b2-44e5-4876-ab9a-bd081a641d06', '4bde39fa-365a-4910-9f30-421bfc1316bc', '4260978b-563d-4f52-a2dd-c058efcd2fad', '6b0dc65c-d613-4a1b-bf19-4f4aecabd190', '61fb4a09-20d6-45fc-8aa3-4c1c9662cb6e', 'e6ac3171-808d-4624-879b-9d2fc48eafe5', '9a2f02fa-058e-419f-af4d-3e9754f24a83', '6d007031-6c92-47e9-ac58-5d2486d355f7', 'a4d871bb-80ae-4396-82ff-d6f8f153268f', '8662f1c4-276a-43f7-8d1b-64bc846ba274', '529f6866-c14c-4551-90bb-df543571a01e', '6c03da3d-035f-4cc8-91bf-496f452a5639', '895c9edc-0e80-4b84-8ba2-942b413b0ccc', '766f7b86-9830-4006-b915-124b051bc5fb', 'c3c5a26a-2f25-46b6-8b82-cb3d0d9bc684', '4c5a315d-6467-409d-8000-658866d424f8', 'f3bc6f8b-2be3-4f63-a290-59b969b2f76d', '64e918df-89c3-4919-9004-455604f4f319', '38de031f-1934-49ce-a50c-8710dff2f509', '7f86a378-a4c8-463d-ad8a-a4563bfe11cb', 'f313f5a8-387a-484b-8f9c-70c0b68e6a52', 'ce5b9dc7-9491-4e82-b8bb-d804beb9d546', '97f22e81-3a8f-4b3b-a17f-869208b565ba', 'fc928950-f4f1-4c04-b5db-099ce752527f', '893debbb-2000-437e-abce-8732334bba9b', '581caaf9-58eb-4afb-a243-604c649701a1', '03ada17f-40af-4d49-ae6a-ef061d522abb', 'c3a22893-21fb-415a-bc59-affcab847663', 'c62043f1-3a18-4a42-b856-b036003de2b5', '93d75cbd-2256-4aca-8bb8-6342656bf8ee', '806c594f-bf22-4e31-ae4f-619b8d12cd62'}, locked : False}}
+>>>
+>>>
+```
+
+NOTE: If you are using Bash, be sure to use single quote for username and password to preserve the values. If you use double quote, you will have to escape special characters, such as "$". See [Bash manual](http://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html)
