@@ -1,0 +1,26 @@
+[project]
+name = "marc21"
+version = "0.5.2"
+authors = [
+    { name = "John van der Vuurst", email = "jwvdvuurst@gmail.com"},
+]
+description = "A python library for creating MARC21 records with an extendible and mutable dictionary of allowed MARC21 tags and subfields."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/jwvdvuurst/marc21"
+Issues = "https://github.com/jwvdvuurst/marc21/issues"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
