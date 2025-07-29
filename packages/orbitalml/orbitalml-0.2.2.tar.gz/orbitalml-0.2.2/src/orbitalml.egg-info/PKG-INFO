@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: orbitalml
+Version: 0.2.2
+Summary: Machine Learning pipeline to SQL converter (proxy for orbital)
+Author: Posit Software PBC
+Author-email: Alessandro Molina <alessandro.molina@posit.co>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/posit-dev/orbital
+Project-URL: Repository, https://github.com/posit-dev/orbital
+Project-URL: Documentation, https://posit-dev.github.io/orbital/
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: orbital==0.2.2
+Dynamic: license-file
+
+# OrbitalML
+
+**Machine Learning pipeline to SQL converter**
+
+⚠️ **Migration Notice**: OrbitalML is a transitional proxy package for users upgrading from legacy versions. **New projects should use the [orbital](https://github.com/posit-dev/orbital) package directly**. We recommend migrating existing code to use `import orbital` instead of `import orbitalml as orbital` when convenient.
+
+OrbitalML provides the same functionality as the [orbital](https://github.com/posit-dev/orbital) library with backward-compatible import names. 
