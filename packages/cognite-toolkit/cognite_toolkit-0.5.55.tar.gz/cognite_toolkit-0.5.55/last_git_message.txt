@@ -1,0 +1,26 @@
+[CDF-24874, CDF-24773] 🐞 Pull workflow trigger/transformation (#1638)
+
+# Description
+
+<del>Stacked on #1637</del>
+
+Implementation of fix for pulling transformations and workflow triggers.
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Fixed
+
+- The `cdf modules pull` command now only requires resources to be
+defined with their identifiers. For example, you can now define a
+transformation configuration with only `externalId` and then pull the
+rest of the definition from CDF.
+
+## templates
+
+No changes.
