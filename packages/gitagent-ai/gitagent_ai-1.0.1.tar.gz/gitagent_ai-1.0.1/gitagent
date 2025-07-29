@@ -1,0 +1,84 @@
+#!/bin/bash
+
+# GitAgent - Unified AI-powered Git Assistant with Persistent Context
+
+# Determine script directory
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Check if we're in a git repository
+if [ ! -d ".git" ]; then
+    echo "Error: Not in a Git repository. Please run this command from a Git repository root."
+    exit 1
+fi
+
+# Parse arguments
+AUTO_APPROVE=false
+QUERY=""
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --auto-approve|-y)
+            AUTO_APPROVE=true
+            shift
+            ;;
+        --advanced|-a)
+            # Legacy flag - now ignored since we have unified implementation
+            echo "ℹ️  Note: Advanced mode is now the default. All features are unified."
+            shift
+            ;;
+        --workflow|-w)
+            # Legacy flag - now ignored since workflow is built-in
+            echo "ℹ️  Note: Workflow mode is now built-in. All operations support multi-step workflows."
+            shift
+            ;;
+        --help|-h)
+            echo "Usage: gitagent [OPTIONS] [QUERY]"
+            echo ""
+            echo "GitAgent is a unified AI-powered Git assistant with persistent context management."
+            echo ""
+            echo "Options:"
+            echo "  --auto-approve, -y   Automatically approve all recommended commands"
+            echo "  --help, -h           Show this help message"
+            echo ""
+            echo "Features:"
+            echo "  • Persistent workflow sessions across multiple invocations"
+            echo "  • Automatic command verification and success tracking"
+            echo "  • Context-aware multi-step Git operations"
+            echo "  • Intelligent error recovery and workflow resumption"
+            echo "  • Session management stored in .git/gitagent_sessions/"
+            echo ""
+            echo "Examples:"
+            echo "  gitagent \"What's the status of my branch?\""
+            echo "  gitagent \"Delete current branch and create a new feature branch\""
+            echo "  gitagent -y \"Stage all changes, commit, and push to origin\""
+            echo "  gitagent \"continue\"  # Resume interrupted workflow"
+            echo ""
+            echo "Session Management:"
+            echo "  • Sessions are automatically created for multi-step operations"
+            echo "  • Interrupted workflows can be resumed by running gitagent again"
+            echo "  • Session history is preserved for context and verification"
+            exit 0
+            ;;
+        *)
+            if [ -z "$QUERY" ]; then
+                QUERY="$1"
+            else
+                QUERY="$QUERY $1"
+            fi
+            shift
+            ;;
+    esac
+done
+
+# If no query provided, get from user input
+if [ -z "$QUERY" ]; then
+    echo -n "What would you like to do with your Git repository? "
+    read QUERY
+fi
+
+# Run the unified GitAgent implementation
+if [ "$AUTO_APPROVE" = true ]; then
+    python "$SCRIPT_DIR/git_agent_langgraph.py" --auto-approve "$QUERY"
+else
+    python "$SCRIPT_DIR/git_agent_langgraph.py" "$QUERY"
+fi 
