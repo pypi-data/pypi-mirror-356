@@ -1,0 +1,12 @@
+numpy>=2.3.0
+onnx>=1.18.0
+onnxruntime>=1.22.0
+tqdm>=4.67.1
+requests>=2.32.3
+matplotlib>=3.10.3
+opencv-python>=4.11.0.86
+scikit-image>=0.25.2
+easydict
+cython>=3.1.2
+albumentations>=2.0.8
+prettytable
