@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: ecdysys
+Version: 0.1.1
+Summary: Python CLI to update your system packages
+Project-URL: Homepage, https://github.com/claymorwan/ecdysys
+Project-URL: Issues, https://github.com/claymorwan/ecdysys/issues
+Author-email: claymorwan <claymorwan@fembois.dev>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Requires-Dist: build>=1.2.2.post1
+Requires-Dist: colorama==0.4.6
+Requires-Dist: hatchling>=1.27.0
+Requires-Dist: toml==0.10.2
+Requires-Dist: twine>=6.1.0
+Description-Content-Type: text/markdown
+
+# Ecdysys
+
+Little CLI tool to print and update system
+Currently supported package managers are:
+- `pacman`
+- `yay` and `paru` (aur support)
+- `flatpak`
+## Installation
+```shell
+# With pip
+pip install ecdysys
+# for Arch Linux users
+paru -S python-ecdysys
+```
+2. Create a `config.toml` file, these are the following entry available
+
+| Entry                 | Usage                                    | Example                   |
+|-----------------------|------------------------------------------|---------------------------|
+| `pkg_managers`*       | package manager to use                   | `[ "pacman", "flatpak" ]` |
+| `aur_helper`          | aur helper to use                        | `"paru"`                  |
+| `post_install_script` | path to script ot run after installation | `path/to/script`          |
+*Must be set
+
+## Usage
+```shell
+usage: ecdysys [-h] [-l] [-u]
+
+Python CLI to update your system packages
+
+options:
+  -h, --help    show this help message and exit
+  -l, --list    List available updates
+  -u, --update  Update package
+```
