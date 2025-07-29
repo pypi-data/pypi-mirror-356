@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: modstablib
+Version: 0.1.0
+Summary: A library for evaluating and improving model stability.
+Author-email: Farid Rodriguez <faridrodriguez.dev@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/faridrodriguez/model-stability
+Project-URL: Repository, https://github.com/faridrodriguez/model-stability
+Project-URL: Issues, https://github.com/faridrodriguez/model-stability/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Dynamic: license-file
+
+<!-- [![PyPi]()]() -->
+[![GitHub issues](https://img.shields.io/badge/issue_tracking-github-blue.svg)](https://github.com/faridrodriguez/model-stability/issues)
+![model-stability logo](assets/logo.svg)
