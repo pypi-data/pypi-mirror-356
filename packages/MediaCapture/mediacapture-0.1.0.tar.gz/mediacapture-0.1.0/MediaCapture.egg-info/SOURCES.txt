@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+MediaCapture/MediaCapture.py
+MediaCapture/__init__.py
+MediaCapture.egg-info/PKG-INFO
+MediaCapture.egg-info/SOURCES.txt
+MediaCapture.egg-info/dependency_links.txt
+MediaCapture.egg-info/requires.txt
+MediaCapture.egg-info/top_level.txt
