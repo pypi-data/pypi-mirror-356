@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: FPT-Diffusion
+Version: 0.0.1
+Summary: Free Particle Tracking (for) Diffusion. SPT, MPT, image processing, and other tools for research scientists around the world. 
+Author: martinj
+Author-email: Martin Jasinski <martinj1@student.ubc.ca>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/sinuose/FPT-Diffusion
+Project-URL: Issues, https://github.com/sinuose/FPT-Diffusion/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
+
+# FPT-Diffusion
+Free Particle Tracking (for) Diffusion
+
