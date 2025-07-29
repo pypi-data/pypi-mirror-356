@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cfm_package/__init__.py
+cfm_package/__main__.py
+cfm_package/cli.py
+cfm_package/main.py
+cfm_package/py.typed
+context_file_manager.egg-info/PKG-INFO
+context_file_manager.egg-info/SOURCES.txt
+context_file_manager.egg-info/dependency_links.txt
+context_file_manager.egg-info/entry_points.txt
+context_file_manager.egg-info/top_level.txt
