@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+README_zh.md
+pyproject.toml
+requirements.txt
+setup.py
+localflare/__init__.py
+localflare.egg-info/PKG-INFO
+localflare.egg-info/SOURCES.txt
+localflare.egg-info/dependency_links.txt
+localflare.egg-info/requires.txt
+localflare.egg-info/top_level.txt
