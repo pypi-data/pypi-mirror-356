@@ -1,0 +1,97 @@
+Metadata-Version: 2.4
+Name: metabase-mcp-server
+Version: 0.1.0
+Summary: A Model Context Protocol server that enables interaction with Metabase via LLMs
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastmcp>=2.3.4
+Provides-Extra: test
+Requires-Dist: mypy>=1.15.0; extra == "test"
+Requires-Dist: pytest>=8.3.5; extra == "test"
+Requires-Dist: pytest-anyio>=0.0.0; extra == "test"
+Requires-Dist: pytest-cov>=6.1.1; extra == "test"
+Requires-Dist: pytest-vcr>=1.0.2; extra == "test"
+Requires-Dist: ruff>=0.11.10; extra == "test"
+Dynamic: license-file
+
+# Metabase MCP Server
+
+This project implements an MCP server to interact with the [Metabase API](https://www.metabase.com/), exposing key functionality via a MCP interface.
+
+## Features
+
+- 🔍 List Metabase cards
+- 🗄️ List available databases
+- 📊 Execute queries on cards
+- 🧾 Run arbitrary queries
+- 📝 Create new cards
+- 🔖 Create bookmark
+- 📁 List collections
+
+## Requirements
+
+- Python 3.12+
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/cuenca-mx/metabase-mcp-server.git
+cd metabase-mcp-server
+```
+
+2. Configure your AI assistant client ([Claude](https://modelcontextprotocol.io/quickstart/user), [Cursor](https://docs.cursor.com/context/model-context-protocol), etc.) by adding the following configuration:
+
+```json
+{
+    "mcpServers": {
+        "metabase": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/metabase_mcp_server",
+                "run",
+                "app.py"
+            ],
+            "env": {
+                "METABASE_URL": "https://metabase.domain.com/",
+                "METABASE_API_KEY": "your-secret-api-key"
+            }
+        }
+    }
+}
+```
+
+## Development Setup
+
+This project uses a Makefile to simplify development tasks:
+
+```bash
+make install
+```
+
+### Environment Variables
+
+Configure required environment variables:
+
+```bash
+export $(<env.template)
+```
+
+### Running Tests
+
+The project uses `pytest` for unit testing:
+
+```bash
+uv run pytest
+```
+
+### Debugging with MCP Inspector
+
+Use the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) for testing and debugging:
+
+```bash
+make dev
+```
