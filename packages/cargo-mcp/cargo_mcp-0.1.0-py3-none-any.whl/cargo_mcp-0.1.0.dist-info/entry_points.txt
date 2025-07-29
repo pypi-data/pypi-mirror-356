@@ -1,0 +1,2 @@
+[console_scripts]
+cargo-mcp = cargo_mcp.server:cli_main
