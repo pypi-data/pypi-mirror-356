@@ -1,0 +1,2 @@
+[console_scripts]
+eve2cml = eve2cml.main:main
