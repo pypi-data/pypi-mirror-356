@@ -1,0 +1,239 @@
+Metadata-Version: 2.4
+Name: rithmetic
+Version: 0.0.13
+Summary: Simple arithmetic lib for students
+Home-page: https://github.com/Prashant-Aswal/rithmetic
+Author: PrashantAswal
+Author-email: prashant.aswal89@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+**\__rithmetic__**
+
+“rithmetic” is a budding python package which aims to provide arithmetic and math assistance to students using python to build math related functionality or apps.
+
+**How to Install:**
+
+Run the following command in Terminal/CLI –
+
+- pip install rithmetic
+
+After installation completes, run the following command in Terminal/CLI to see the welcome message –
+
+- rith
+
+To check for the version of rithmetic run the following command in Terminal/CLI –
+
+- rith-version
+
+**License and terms of use:**
+
+rithmetic comes with the MIT license which means that anyone, anywhere can use it for any open source or even closed source application.
+
+**Current functionality:**
+
+1. Convert a positive integer from one base to another (Converters)
+2. Check/Verify if a positive integer is from a specified base (Verifiers)
+
+**Best way to import:**
+
+Import all the functions from rithmetic at once
+
+from rithmetic import \*
+
+**Functions:**
+
+Converters
+
+**base(num, fromB, toB)**
+
+Converts any positive integer from one base to another. (supported bases are base-2 to base-16)
+
+num – any positive integer | can be both **int** and **str** type
+
+fromB – base of ‘num’ | can be both **int** and **str** type
+
+toB – ‘num’ gets converted to this base | can be both **int** and **str** type
+
+Returns – The converted Integer OR ‘Invalid number’ OR ‘Invalid base value’
+
+Example:
+
+from rithmetic import \*  
+<br/>number = base(1111,2,16)  
+print(number)
+
+This will print ‘F’. As 1111 which is a binary number gets converted to F in hexadecimal.
+
+**dectosub(num, toB)**
+
+Converts any positive integer from Decimal to any other sub-decimal base. (supported bases are base-2 to base-9)
+
+num – any positive integer | can be both **int** and **str** type
+
+toB – ‘num’ gets converted to this base | can be both **int** and **str** type
+
+Returns – The converted Integer OR ‘Invalid number’ OR ‘Invalid base value’
+
+Example:
+
+from rithmetic import \*  
+<br/>number = dectosub(23,5)  
+print(number)
+
+This will print 43. As 23 which is a decimal number gets converted to 43 in base-5.
+
+**subtodec(num, fromB)**
+
+Converts any positive integer from any sub-decimal base to Decimal. (supported bases are base-2 to base-9)
+
+num – any positive integer | can be both **int** and **str** type
+
+fromB – base of ‘num’ | can be both **int** and **str** type
+
+Returns – The converted Integer OR ‘Invalid number’ OR ‘Invalid base value’
+
+Example:
+
+from rithmetic import \*  
+<br/>number = subtodec(25,6)  
+print(number)
+
+This will print 17. As 25 in base-6 gets converted to 17 in decimal.
+
+Quick single parameter converters
+
+- **_Decimal to another base:_**
+
+**dectob2(num)**
+
+**dectob3(num)**
+
+**dectob4(num)**
+
+**dectob5(num)**
+
+**dectob6(num)**
+
+**dectob7(num)**
+
+**dectob8(num)**
+
+**dectob9(num)**
+
+**dectob11(num)**
+
+**dectob12(num)**
+
+**dectob13(num)**
+
+**dectob14(num)**
+
+**dectob15(num)**
+
+**dectob16(num)**
+
+num – any positive integer | can be both **int** and **str** type
+
+Return – The converted Integer OR ‘Invalid number’
+
+- **_Any base to Decimal_**
+
+**b2todec(num)**
+
+**b3todec(num)**
+
+**b4todec(num)**
+
+**b5todec(num)**
+
+**b6todec(num)**
+
+**b7todec(num)**
+
+**b8todec(num)**
+
+**b9todec(num)**
+
+**b11todec(num)**
+
+**b12todec(num)**
+
+**b13todec(num)**
+
+**b14todec(num)**
+
+**b15todec(num)**
+
+**b16todec(num)**
+
+num – any positive integer | can be both **int** and **str** type
+
+Return – The converted Integer OR ‘Invalid number’
+
+Verifiers
+
+**chkbase(num, base)**
+
+Checks if a positive integer is from a specified base. (supported bases are base-2 to base-16)
+
+num – any positive integer | can be both **int** and **str** type
+
+base – base of ‘num’ to be checked | can be both **int** and **str** type
+
+Returns – True OR False OR ‘Invalid base value’ OR 'Invalid number'
+
+Example:
+
+from rithmetic import \*  
+<br/>check = chkbase('23F',16)  
+print(check)
+
+This will print True. As 23F is from base-16.
+
+Quick single parameter verifiers
+
+**chk2(num)**
+
+**chk3(num)**
+
+**chk4(num)**
+
+**chk5(num)**
+
+**chk6(num)**
+
+**chk7(num)**
+
+**chk8(num)**
+
+**chk9(num)**
+
+**chk10(num)**
+
+**chk11(num)**
+
+**chk12(num)**
+
+**chk13(num)**
+
+**chk14(num)**
+
+**chk15(num)**
+
+**chk16(num)**
+
+num – any positive integer | can be both **int** and **str** type
+
+Return – True OR False OR 'Invalid number'
