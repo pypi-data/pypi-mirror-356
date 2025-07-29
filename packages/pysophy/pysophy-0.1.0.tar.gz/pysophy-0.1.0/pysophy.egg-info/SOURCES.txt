@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+pysophy/__init__.py
+pysophy/core.py
+pysophy.egg-info/PKG-INFO
+pysophy.egg-info/SOURCES.txt
+pysophy.egg-info/dependency_links.txt
+pysophy.egg-info/top_level.txt
+tests/test_core.py

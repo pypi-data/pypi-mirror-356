@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysophy"
+version = "0.1.0"
+description = "A knowledge processing library"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+license = {text = "MIT"}
+readme = "README.md"
