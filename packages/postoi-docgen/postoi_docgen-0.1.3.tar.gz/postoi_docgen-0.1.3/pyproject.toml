@@ -1,0 +1,26 @@
+[project]
+name = "postoi-docgen"
+version = "0.1.3"
+description = "Generate documents from templates"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "babel<2.10.1",
+    "docxcompose==1.4.0",
+    "docxtpl==0.16.6",
+    "jinja2==3.1.2",
+    "lxml==4.9.2",
+    "markupsafe==2.1.2",
+    "python-docx==0.8.11",
+    "six==1.16.0",
+]
+
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,8 @@
+babel<2.10.1
+docxcompose==1.4.0
+docxtpl==0.16.6
+jinja2==3.1.2
+lxml==4.9.2
+markupsafe==2.1.2
+python-docx==0.8.11
+six==1.16.0
