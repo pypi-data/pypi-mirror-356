@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+anuvaad_rev/__init__.py
+anuvaad_rev/constants.py
+anuvaad_rev/translator.py
+anuvaad_rev/user_agents.py
+anuvaad_rev.egg-info/PKG-INFO
+anuvaad_rev.egg-info/SOURCES.txt
+anuvaad_rev.egg-info/dependency_links.txt
+anuvaad_rev.egg-info/requires.txt
+anuvaad_rev.egg-info/top_level.txt
+examples/basic_translation.py
+examples/batch_translation.py
+examples/language_detection.py
