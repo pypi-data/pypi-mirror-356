@@ -1,0 +1,20 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkdocs"
+version = "0.0.6"
+description = "Download and parse parliamentary documents from the Dutch Lower House website" 
+readme = "README.md"
+authors = [{ name = "dirkmjk", email = "info@dirkmjk.nl" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = ['python-dateutil', 'pandas', 'requests', 'bs4']
+
+
+[project.urls]
+Homepage = "https://github.com/DIRKMJK/tkdocs"

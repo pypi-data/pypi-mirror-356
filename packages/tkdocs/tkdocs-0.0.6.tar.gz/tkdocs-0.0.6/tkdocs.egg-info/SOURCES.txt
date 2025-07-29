@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tkdocs/__init__.py
+tkdocs/tkdocs.py
+tkdocs.egg-info/PKG-INFO
+tkdocs.egg-info/SOURCES.txt
+tkdocs.egg-info/dependency_links.txt
+tkdocs.egg-info/requires.txt
+tkdocs.egg-info/top_level.txt
