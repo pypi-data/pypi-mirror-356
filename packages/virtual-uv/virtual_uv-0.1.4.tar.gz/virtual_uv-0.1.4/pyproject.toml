@@ -1,0 +1,20 @@
+[project]
+name = "virtual-uv"
+version = "0.1.4"
+description = "A wrapper script for uv enabling automatic virtual environment detection and configuration."
+readme = "README.md"
+authors = [
+    { name = "MilkClouds", email = "milkclouds00@gmail.com" }
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+vuv = "vuv:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vuv"]
