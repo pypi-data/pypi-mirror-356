@@ -1,0 +1,9 @@
+mcp_web_crawler_client/.dockerignore,sha256=ikM-S5JilMOX0D7OcG1B2t-LSALeK542-Up28yqDxMA,933
+mcp_web_crawler_client/__init__.py,sha256=xMGpc7UlyMSR-VaBeZIbp8iJyWE2uS93pQ3BQ_7MO9A,701
+mcp_web_crawler_client/mcp_client.py,sha256=qqLK08gEsHmIIVR1568UnleHBBHtKrQLNsU2G-uHDCo,14511
+mcp_web_crawler_client/mcp_client_cli.py,sha256=mKuK3nm8-rogrTkpjolg6VMlAaxTpNBviVo7GF8NjCQ,8090
+mcp_web_crawler_client/standalone_mcp_client.py,sha256=EUgMS2a-KauXW7OnBeZmCBuBhhc55IFXNJ3b_4IKaaA,15554
+mcp_web_crawler_client-1.0.1.dist-info/METADATA,sha256=__wiWytacuPcJGFTeZUk8ijt_Vtgu61qiHb02D9uEBE,8053
+mcp_web_crawler_client-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mcp_web_crawler_client-1.0.1.dist-info/entry_points.txt,sha256=d-2Z7z0C0xgkm4Qa4LeZQY9lae1GsrtwFAxs5XZPXKM,74
+mcp_web_crawler_client-1.0.1.dist-info/RECORD,,
