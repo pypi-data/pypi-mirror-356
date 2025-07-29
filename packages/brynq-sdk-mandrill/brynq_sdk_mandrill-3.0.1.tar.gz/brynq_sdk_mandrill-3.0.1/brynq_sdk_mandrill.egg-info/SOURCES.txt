@@ -1,0 +1,10 @@
+setup.py
+brynq_sdk_mandrill/__init__.py
+brynq_sdk_mandrill/mail_client.py
+brynq_sdk_mandrill.egg-info/PKG-INFO
+brynq_sdk_mandrill.egg-info/SOURCES.txt
+brynq_sdk_mandrill.egg-info/dependency_links.txt
+brynq_sdk_mandrill.egg-info/not-zip-safe
+brynq_sdk_mandrill.egg-info/requires.txt
+brynq_sdk_mandrill.egg-info/top_level.txt
+brynq_sdk_mandrill/templates/mail_brynq.html
