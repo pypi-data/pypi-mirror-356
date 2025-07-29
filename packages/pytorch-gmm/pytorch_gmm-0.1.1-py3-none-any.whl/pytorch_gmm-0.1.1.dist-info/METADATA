@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: pytorch-gmm
+Version: 0.1.1
+Summary: Fast PyTorch implementation of Gaussian mixture model (GMM)
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: tqdm>=4.4.1
+Dynamic: license-file
+
+# pytorch-gmm
+
+## Usage
+
+```py
+import torch
+from torch_gmm import GMM
+
+x = torch.randn(50000, 16)
+gmm, llh = GMM.init_and_train(x, 64, verbose=True)
+```
