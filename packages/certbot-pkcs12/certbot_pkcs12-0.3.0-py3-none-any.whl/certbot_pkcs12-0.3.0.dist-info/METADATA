@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: certbot-pkcs12
+Version: 0.3.0
+Summary: PKCS#12 installer plugin for Certbot and Let's Encrypt
+Author-email: Leo Singer <leo.singer@ligo.org>
+License-Expression: Apache-2.0
+Project-URL: source, https://github.com/nasa-gcn/certbot-pkcs12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: certbot>=1.19.0
+Requires-Dist: cryptography>=42.0.8
+
+# Certbot PKCS#12 plugin
+
+This is an installer plugin for [certbot](https://certbot.eff.org). Whenever
+you generate a certificate with Let's Encrypt, it will save the certificate
+in a [PKCS#12](https://en.wikipedia.org/wiki/PKCS_12) archive.
