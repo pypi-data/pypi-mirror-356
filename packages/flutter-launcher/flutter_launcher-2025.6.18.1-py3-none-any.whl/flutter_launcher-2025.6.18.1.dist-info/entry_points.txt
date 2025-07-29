@@ -1,0 +1,4 @@
+[console_scripts]
+dart = flutter_launcher.dart:main
+flutter = flutter_launcher.flutter:main
+flutter-dev = flutter_launcher.flutter_dev:main
