@@ -1,0 +1,242 @@
+{
+  "_metadata": {
+    "version": "2.0",
+    "description": "Template cấu hình hệ thống trích xuất bảng",
+    "created": "2025-06-18",
+    "author": "AI Assistant"
+  },
+  
+  "table_extraction": {
+    "_description": "Cấu hình phát hiện và trích xuất bảng",
+    "adaptive_threshold": {
+      "max_value": 255,
+      "adaptive_method": "ADAPTIVE_THRESH_GAUSSIAN_C",
+      "threshold_type": "THRESH_BINARY_INV", 
+      "block_size": 15,
+      "c": 3
+    },
+    "morphology": {
+      "horizontal_kernel_ratio": 45,
+      "vertical_kernel_ratio": 45,
+      "iterations": 1,
+      "operation": "MORPH_OPEN"
+    },
+    "filtering": {
+      "min_area_ratio": 0.003,
+      "max_area_ratio": 0.25,
+      "min_width_ratio": 0.12,
+      "max_width_ratio": 0.90,
+      "min_height_ratio": 0.015,
+      "max_height_ratio": 0.45,
+      "min_aspect_ratio": 1.0,
+      "max_aspect_ratio": 15.0
+    },
+    "overlap_removal": {
+      "overlap_threshold": 0.3,
+      "preferred_aspect_ratio": 3.0,
+      "aspect_ratio_tolerance": 3.0
+    }
+  },
+  
+  "column_extraction": {
+    "_description": "Cấu hình trích xuất cột",
+    "detection": {
+      "min_column_width": 20,
+      "min_line_length_ratio": 0.4,
+      "min_length_threshold_ratio": 0.8,
+      "histogram_threshold_ratio": 0.4
+    },
+    "filtering": {
+      "overlap_threshold": 0.3,
+      "min_column_spacing": 5,
+      "merge_close_lines": true,
+      "merge_distance_threshold": 10
+    },
+    "morphology": {
+      "vertical_kernel_height_ratio": 45,
+      "vertical_kernel_width": 1,
+      "iterations": 1
+    }
+  },
+  
+  "row_extraction": {
+    "_description": "Cấu hình trích xuất hàng",
+    "detection": {
+      "min_row_height": 20,
+      "min_line_length_ratio": 0.4,
+      "horizontal_line_threshold": 0.4
+    },
+    "filtering": {
+      "overlap_threshold": 0.3,
+      "min_row_spacing": 5,
+      "merge_close_lines": true
+    },
+    "morphology": {
+      "horizontal_kernel_width_ratio": 45,
+      "horizontal_kernel_height": 1,
+      "iterations": 1
+    }
+  },
+  
+  "image_processing": {
+    "_description": "Cấu hình xử lý ảnh",
+    "preprocessing": {
+      "resize_max_dimension": 2000,
+      "maintain_aspect_ratio": true,
+      "gaussian_blur_kernel": 3,
+      "median_blur_kernel": 3,
+      "noise_reduction": true
+    },
+    "edge_detection": {
+      "canny_low_threshold": 50,
+      "canny_high_threshold": 150,
+      "aperture_size": 3
+    },
+    "line_detection": {
+      "hough_rho": 1,
+      "hough_theta_divisor": 180,
+      "hough_threshold_ratio": 0.3
+    }
+  },
+  
+  "performance": {
+    "_description": "Cấu hình hiệu suất",
+    "gpu": {
+      "enabled": true,
+      "device_id": 0,
+      "memory_fraction": 0.8,
+      "allow_growth": true
+    },
+    "cpu": {
+      "num_workers": 4,
+      "batch_size": 8,
+      "use_multiprocessing": true
+    },
+    "memory": {
+      "max_memory_gb": 4,
+      "cleanup_interval": 10,
+      "gc_threshold": 80,
+      "use_memory_mapping": false
+    }
+  },
+  
+  "output": {
+    "_description": "Cấu hình đầu ra",
+    "paths": {
+      "base_output_dir": "output",
+      "tables_subdir": "tables",
+      "columns_subdir": "columns", 
+      "rows_subdir": "rows",
+      "debug_subdir": "debug"
+    },
+    "files": {
+      "save_debug": true,
+      "save_individual_columns": true,
+      "save_merged_columns": true,
+      "save_individual_rows": false,
+      "image_format": "jpg",
+      "image_quality": 95
+    },
+    "naming": {
+      "table_prefix": "table",
+      "column_prefix": "column",
+      "row_prefix": "row",
+      "use_timestamps": false,
+      "include_dimensions": true
+    }
+  },
+  
+  "logging": {
+    "_description": "Cấu hình logging",
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "handlers": {
+      "console": {
+        "enabled": true,
+        "level": "INFO"
+      },
+      "file": {
+        "enabled": true,
+        "level": "DEBUG",
+        "filename": "extraction.log",
+        "max_bytes": 10485760,
+        "backup_count": 5
+      }
+    }
+  },
+  
+  "column_groups": {
+    "_description": "Cấu hình nhóm cột mặc định",
+    "default_groups": {
+      "cols_1_2": [1, 2],
+      "col_3": [3],
+      "col_4": [4],
+      "cols_1_2_3": [1, 2, 3],
+      "cols_1_2_4": [1, 2, 4],
+      "col_5": [5],
+      "col_6": [6]
+    },
+    "templates": {
+      "basic": {
+        "description": "Nhóm cột cơ bản",
+        "groups": {
+          "cols_1_2": [1, 2],
+          "col_3": [3],
+          "col_4": [4]
+        }
+      },
+      "document_structure": {
+        "description": "Cấu trúc tài liệu Việt Nam",
+        "groups": {
+          "stt": [1],
+          "ho_ten": [2],
+          "dong_y": [3],
+          "khong_dong_y": [4],
+          "thong_tin_ca_nhan": [1, 2],
+          "ket_qua_binh_chon": [3, 4],
+          "toan_bo": [1, 2, 3, 4]
+        }
+      },
+      "comprehensive": {
+        "description": "Toàn diện các combination",
+        "groups": {
+          "header": [1],
+          "content": [2, 3],
+          "footer": [4],
+          "left_side": [1, 2],
+          "right_side": [3, 4],
+          "full_table": [1, 2, 3, 4],
+          "main_content": [2, 3, 4]
+        }
+      }
+    }
+  },
+  
+  "validation": {
+    "_description": "Cấu hình validation",
+    "input": {
+      "max_file_size_mb": 50,
+      "supported_formats": ["jpg", "jpeg", "png", "bmp", "tiff", "tif"],
+      "min_image_dimension": 100,
+      "max_image_dimension": 5000
+    },
+    "output": {
+      "min_table_count": 1,
+      "max_table_count": 10,
+      "min_column_count": 2,
+      "max_column_count": 20
+    }
+  },
+  
+  "debug": {
+    "_description": "Cấu hình debug",
+    "save_intermediate": true,
+    "save_binary_images": true,
+    "save_structure_images": true,
+    "save_line_detection": true,
+    "save_contours": true,
+    "save_histograms": true,
+    "verbose_logging": false,
+    "create_summary_images": true
+  }
+} 
