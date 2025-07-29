@@ -1,0 +1,13 @@
+haproxy/__init__.py,sha256=FsqQ5Zrt1Z10dS6zBPlw1_5TWQ5ESy4K85HUAg-i69c,90
+haproxy/cmds.py,sha256=FWhBa08PdORdCt2oZuI21GTiT3dXCYWROd-5-ADMTO8,13745
+haproxy/conn.py,sha256=eAtljT06yadLjuvKtzAvngqywcTItE9sRAJ1MSNiRuc,2697
+haproxy/const.py,sha256=BcVoMiCboeqmRCFmqS_ZDWNtnR-KYo9c5hhXInZ82n8,154
+haproxy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haproxy/tests/test_cmds.py,sha256=wAiWIzo8QKvP-ekMlML1WQzvuV3z2VkTzPas71EUPRo,16118
+haproxy/tests/test_conn.py,sha256=G8xawhOEqNKnFjABVEu8yoraW-nQM_L2f5_Qex-0OBY,2244
+haproxy_cli-0.7.1.data/scripts/haproxy-cli,sha256=ltwQWXwBRPpSuprQWSBRi_8yZ1DfBZq6h_AEIYwu-Bw,4292
+haproxy_cli-0.7.1.dist-info/licenses/LICENSE,sha256=IvZfC6ZbP7CLjytoHVzvpDZpD-Z3R_qa1GdMdWlWQ6Q,35157
+haproxy_cli-0.7.1.dist-info/METADATA,sha256=JtF5C8yPhyq1T-K_2oh_Rrc0GwNrJYt_2AAcwgs5hxk,5019
+haproxy_cli-0.7.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+haproxy_cli-0.7.1.dist-info/top_level.txt,sha256=wqA2CwUm2VrHHmE_uhC2pM7vbRhVSadHdYJ4wVujh5U,8
+haproxy_cli-0.7.1.dist-info/RECORD,,
