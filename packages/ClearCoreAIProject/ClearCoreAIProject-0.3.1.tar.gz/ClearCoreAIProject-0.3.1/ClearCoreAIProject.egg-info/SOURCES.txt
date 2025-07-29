@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ClearCoreAIProject.egg-info/PKG-INFO
+ClearCoreAIProject.egg-info/SOURCES.txt
+ClearCoreAIProject.egg-info/dependency_links.txt
+ClearCoreAIProject.egg-info/top_level.txt
+clearcoreai/__init__.py
+clearcoreai/orchestrator/__init__.py
+clearcoreai/orchestrator/agent_manager.py
+clearcoreai/orchestrator/license_manager.py
+clearcoreai/orchestrator/main.py
+clearcoreai/orchestrator/resource_manager.py
