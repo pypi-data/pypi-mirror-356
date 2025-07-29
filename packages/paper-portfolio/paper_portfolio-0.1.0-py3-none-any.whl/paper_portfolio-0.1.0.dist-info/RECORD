@@ -1,0 +1,12 @@
+paper_portfolio/__init__.py,sha256=iBOiLmKHq004q5wDRh6i87IDy_Bh9PxW5zpU708oq4A,248
+paper_portfolio/config_parser.py,sha256=k6u44Pl4_02fHyjs5FRll47u0l_WgBFHBIGBGMzw3NQ,4003
+paper_portfolio/manager.py,sha256=ByrtArT6pEacMcj6Oi8zJ_onIHSGkHelQY9BP-JSRRM,17347
+paper_portfolio/run_pipeline.py,sha256=778l1DAIcSK0502UvdTyvqAjIRtTq3lipaIRPioZVpE,4058
+paper_portfolio/evaluation/__init__.py,sha256=g7Tq94tYUyd9H-rXVctsyG9YsyrL3WwbyRmLauWC4Pg,370
+paper_portfolio/evaluation/metrics.py,sha256=Kv8-5KPAp8maUYbtrf2lHpUa7M7hTSOZ2dDx4I3tKC0,3080
+paper_portfolio/evaluation/reporter.py,sha256=XB8ybblHry8tQiV80oLdL7v8Eh_XQeQKHnNTvx_suqA,7160
+paper_portfolio-0.1.0.dist-info/METADATA,sha256=FExTvdKaDibG8acu9qD6p7_rgY-8YvjpaT8Q0u7y9vk,9680
+paper_portfolio-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+paper_portfolio-0.1.0.dist-info/entry_points.txt,sha256=g0IjKBlDn-CaFMHDVh7qapOctOIzCAdeElb97ZavfR8,70
+paper_portfolio-0.1.0.dist-info/licenses/LICENSE,sha256=777I256NGnj_ikg0PUw3fzCyBg5zVCBtr021KtrmnXA,1071
+paper_portfolio-0.1.0.dist-info/RECORD,,
