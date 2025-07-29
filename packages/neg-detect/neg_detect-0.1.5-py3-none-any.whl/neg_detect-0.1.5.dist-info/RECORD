@@ -1,0 +1,14 @@
+neg_detect/__init__.py,sha256=rMqeCa5l9-BhRTTGpDr0GyZKWs-uWGpBvVdOuoBO5K8,145
+neg_detect/download_udpipe_model.py,sha256=HCS5Byhk7nhMElPCUPVhYSBg8Z4O_niDtTQlNaUkOT4,1535
+neg_detect/gat_model.py,sha256=NpOLTdNBNTDL7mZClgswLXcrWyuvepQs8Sw3BtQTER0,10756
+neg_detect/inference.py,sha256=sMP5Enn0LccBVC5h5G50nVvAKfFkK6UrqPnSR9SeONM,30930
+neg_detect/pipeline_utils.py,sha256=ya0opFxNKUK6wz0sRIhRchwkS6S0xipK1YluAMSUVg8,2531
+neg_detect/preprocessing.py,sha256=lyYZV6uMrhxAl31hZDb8RTrucdgfMvb6_U72Q7enInc,2544
+neg_detect/spacy_utils.py,sha256=ZL0PpL6YnnQCf7g-y7NOUMJe5HCdn75EDGsSjZLURqo,12906
+neg_detect/test.py,sha256=H8Y1pfeI7c54H5yZTVuP8e7fhttvg0pWh2eFvt4fSnU,7701
+neg_detect/ud_pipe.py,sha256=M5OAak0H-SoDBj1ohqF9_yMIdukQv2-Bfyx8OgMzmYo,2599
+neg_detect-0.1.5.dist-info/licenses/LICENSE,sha256=OSSadE8qdxaYyUKwhG-Zwg4-uPiuLf_CojL11os-FY8,1070
+neg_detect-0.1.5.dist-info/METADATA,sha256=bwhJvDfXjJtt0xkunoxeEUEuaPfKDQ47eAIgKeQxXLc,7155
+neg_detect-0.1.5.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+neg_detect-0.1.5.dist-info/top_level.txt,sha256=S8h_WqE4Z67TjUaDaRRk0yIcXCcy3keXEWjy73idiSA,11
+neg_detect-0.1.5.dist-info/RECORD,,
