@@ -1,0 +1,5 @@
+cryptography==43.0.1
+scapy==2.6.0
+pandas==2.2.3
+dns-unbound-cache-reader
+profile-translator-blocklist
