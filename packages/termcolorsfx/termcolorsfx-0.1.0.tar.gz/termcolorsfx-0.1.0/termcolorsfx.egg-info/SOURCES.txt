@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+termcolors/__init__.py
+termcolors/base.py
+termcolors/color.py
+termcolors/formatter.py
+termcolors/logger.py
+termcolors/style.py
+termcolorsfx.egg-info/PKG-INFO
+termcolorsfx.egg-info/SOURCES.txt
+termcolorsfx.egg-info/dependency_links.txt
+termcolorsfx.egg-info/top_level.txt
+tests/test_formatter.py
