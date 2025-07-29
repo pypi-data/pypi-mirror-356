@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: sbol3tojson
+Version: 0.0b3
+Summary: This package converts sbol3 to json
+Author-email: Catalina Lorca <catalina.lorca_b@mail.udp.cl>, Fernanda Lorca <fernanda.lorca_b@mail.udp.cl>
+Maintainer-email: Catalina Lorca <catalina.lorca_b@mail.udp.cl>, Fernanda Lorca <fernanda.lorca_b@mail.udp.cl>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/frnvnd4/sbol3tojson/
+Project-URL: Bug Tracker, https://github.com/frnvnd4/sbol3tojson/issues
+Keywords: SBOL,GRO,converter,JSON,synthetic biology
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sbol3
+Requires-Dist: xmltodict
+Requires-Dist: lxml
+Requires-Dist: jsonschema
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: ipywidgets
+Provides-Extra: test
+Requires-Dist: pytest<5.0.0; extra == "test"
+Requires-Dist: pytest-cov[all]; extra == "test"
+
+This package converts sbol3 to json
