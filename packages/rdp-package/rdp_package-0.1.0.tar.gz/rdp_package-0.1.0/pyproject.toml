@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rdp-package"
+version = "0.1.0"
+authors = []
+description = ""
+packages = [
+    { include = "rdp.pyx" },
+    { include = "*.so", format = "wheel" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cython = "3.0.12"
+numpy = "1.21.1"
+wheel = "0.41.0"
+
+
+[build-system]
+requires = ["poetry-core", "setuptools>=42", "wheel", "cython", "numpy"]
+build-backend = "setuptools.build_meta"
