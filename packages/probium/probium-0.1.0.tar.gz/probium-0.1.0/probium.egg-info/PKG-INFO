@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: probium
+Version: 0.1.0
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2.7
+Requires-Dist: cachetools>=5.3
+Requires-Dist: platformdirs>=4.2
+Requires-Dist: olefile>=0.46
