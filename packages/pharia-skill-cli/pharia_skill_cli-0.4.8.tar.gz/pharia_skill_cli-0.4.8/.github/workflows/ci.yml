@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  id-token: write
+  packages: write
+
+env:
+  CARGO_TERM_COLOR: always
+  SKILL_REGISTRY: ghcr.io
+  SKILL_REPOSITORY: aleph-alpha/pharia-skill-cli/skills
+  SKILL_REGISTRY_USER: ${{ github.actor }}
+  SKILL_REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PHARIA_AI_TOKEN: ${{ secrets.PHARIA_AI_TOKEN }}
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@b3b07ba8b418998c39fb20f53e8b695cdcc8de1b
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6
+      - name: Run cargo test
+        run: cargo test --all-features
+
+  lints:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@b3b07ba8b418998c39fb20f53e8b695cdcc8de1b
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6
+      - run: cargo fmt -- --check
+      - run: cargo clippy --all-features --all-targets
