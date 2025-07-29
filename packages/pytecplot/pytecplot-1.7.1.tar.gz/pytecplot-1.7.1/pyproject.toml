@@ -1,0 +1,81 @@
+[build-system]
+requires = ['setuptools>=64.0']
+build-backend = 'setuptools.build_meta'
+
+[tool.blue]
+line-length = 88
+
+[project]
+name = 'pytecplot'
+authors = [{ name = 'Tecplot, Inc.', email = 'support@tecplot.com' }]
+description = 'A Python interface to Tecplot 360'
+readme = 'README.rst'
+requires-python = '>=3.8'
+keywords = [
+    'tecplot',
+    'cfd',
+    'data analysis',
+    'scientific',
+    'scientific computing',
+    'statistics',
+    'visualization',
+    'numerical simulation',
+    'aerospace',
+]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Education',
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Science/Research',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Topic :: Education',
+    'Topic :: Multimedia :: Graphics :: 3D Rendering',
+    'Topic :: Multimedia :: Graphics :: Presentation',
+    'Topic :: Multimedia :: Graphics :: Viewers',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Topic :: Scientific/Engineering :: Mathematics',
+    'Topic :: Scientific/Engineering :: Physics',
+    'Topic :: Scientific/Engineering :: Visualization',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'License :: Other/Proprietary License',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+]
+dependencies = ['protobuf>=3.20.0', 'pyzmq']
+dynamic = ['version']
+
+[project.optional-dependencies]
+extras = ['ipython', 'numpy', 'pillow']
+doc = ['sphinx', 'pyyaml']
+test = ['ipython', 'numpy', 'pillow', 'coverage', 'scipy', 'tox', 'filetype']
+all = [
+    'ipython',
+    'numpy',
+    'pillow',
+    'sphinx',
+    'pyyaml',
+    'coverage',
+    'scipy',
+    'tox',
+]
+
+[project.urls]
+homepage = 'https://www.tecplot.com/docs/pytecplot'
+
+[tool.setuptools]
+license-files = ['LICENSE.html']
+
+[tool.setuptools.dynamic]
+version = { attr = 'tecplot.__version__' }
+
+[tool.setuptools.packages.find]
+exclude = ['test', 'test*']
+namespaces = false

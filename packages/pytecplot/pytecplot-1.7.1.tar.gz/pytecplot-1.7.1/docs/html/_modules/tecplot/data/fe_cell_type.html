@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tecplot.data.fe_cell_type &#8212; PyTecplot 1.7.1 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=649a27d8" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pydoctheme.css?v=331e5ccf" />
+    <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../../../_static/pygments_dark.css?v=b20cc3f5" />
+    
+    <script src="../../../_static/documentation_options.js?v=a77542ef"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <script src="../../../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /><link rel="stylesheet" href="../../../_static/pydoctheme_dark.css" media="(prefers-color-scheme: dark)" id="pydoctheme_dark_css">
+    <link rel="shortcut icon" type="image/png" href="../../../_static/favicon.gif" />
+            <script type="text/javascript" src="../../../_static/copybutton.js"></script>
+            <script type="text/javascript" src="../../../_static/menu.js"></script>
+            <script type="text/javascript" src="../../../_static/themetoggle.js"></script> 
+  </head>
+<body>
+<div class="mobile-nav">
+    <input type="checkbox" id="menuToggler" class="toggler__input" aria-controls="navigation"
+           aria-pressed="false" aria-expanded="false" role="button" aria-label="Menu" />
+    <nav class="nav-content" role="navigation">
+        <label for="menuToggler" class="toggler__label">
+            <span></span>
+        </label>
+        <span class="nav-items-wrapper">
+            <a href="https://www.tecplot.com/docs/pytecplot/" class="nav-logo">
+                <img src="../../../_static/py.svg" alt="Logo"/>
+            </a>
+            <span class="version_switcher_placeholder"></span>
+            <form role="search" class="search" action="../../../search.html" method="get">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="search-icon">
+                    <path fill-rule="nonzero" fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+                <input type="submit" value="Go"/>
+            </form>
+        </span>
+    </nav>
+    <div class="menu-wrapper">
+        <nav class="menu" role="navigation" aria-label="main navigation">
+            <div class="language_switcher_placeholder"></div>
+            
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="../../../index.html">Table of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reference.html">Reference</a></li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+          <li><img src="../../../_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="../../../index.html">PyTecplot-1.7.1</a> &#187;
+              
+          </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tecplot.data.fe_cell_type</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="../../../search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for tecplot.data.fe_cell_type</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">..constant</span> <span class="kn">import</span> <span class="n">FECellShape</span><span class="p">,</span> <span class="n">FECellBasisFunction</span>
+
+
+<div class="viewcode-block" id="FECellType">
+<a class="viewcode-back" href="../../../api/tecplot.data.html#tecplot.data.FECellType">[docs]</a>
+<span class="k">class</span> <span class="nc">FECellType</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cell_shape</span><span class="p">,</span> <span class="n">grid_order</span><span class="p">,</span> <span class="n">basis_func</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_num_corners</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="n">cell_shape</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">=</span> <span class="n">grid_order</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">basis_func</span> <span class="o">=</span> <span class="n">basis_func</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">shape</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`FECellShape`: Geometric shape of the cell.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_shape</span>
+
+    <span class="nd">@shape</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">shape</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">FECellShape</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">!=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_shape&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_corners</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_shape</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">grid_order</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`int`: Grid order of the nodes in the cell (order 1 is the linear case).&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_grid_order</span>
+
+    <span class="nd">@grid_order</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">grid_order</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">!=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_grid_order&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_grid_order</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">basis_func</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`FECellBasisFunction`: The basis function used for this cell.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_basis_func</span>
+
+    <span class="nd">@basis_func</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">basis_func</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">FECellBasisFunction</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">!=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_basis_func&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_basis_func</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_corners</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`int`: Number of nodes at the corners of the cell.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_corners</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_corners</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Bar</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Triangle</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Quadrilateral</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Tetrahedron</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Pyramid</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Prism</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Hexahedron</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+            <span class="p">}[</span><span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">]</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_corners</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_nodes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`int`: Total number of nodes for the cell including corners and high-order nodes.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">basis_func</span> <span class="o">==</span> <span class="n">FECellBasisFunction</span><span class="o">.</span><span class="n">Lagrangian</span>
+            <span class="p">),</span> <span class="s1">&#39;Non-Lagrangian basis functions are not yet supported.&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Bar</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Triangle</span><span class="p">:</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Quadrilateral</span><span class="p">:</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Tetrahedron</span><span class="p">:</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">//</span> <span class="mi">6</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Pyramid</span><span class="p">:</span>
+                    <span class="p">(</span>    <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span>    <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">//</span> <span class="mi">6</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Prism</span><span class="p">:</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span><span class="p">,</span>
+                <span class="n">FECellShape</span><span class="o">.</span><span class="n">Hexahedron</span><span class="p">:</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span>
+                    <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">grid_order</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span>
+            <span class="p">}[</span><span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">]</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_nodes</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_high_order_nodes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`int`: Number of high-order nodes for the cell (not the corners).&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_corners</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_num_high_order_nodes</span></div>
+
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../index.html">
+              <img class="logo" src="../../../_static/powered_by_tecplot.png" alt="Logo"/>
+            </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="../../../index.html">Table of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reference.html">Reference</a></li>
+</ul>
+
+        </div>
+<div id="sidebarbutton" title="Collapse sidebar">
+<span>«</span>
+</div>
+
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+          <li><img src="../../../_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="../../../index.html">PyTecplot-1.7.1</a> &#187;
+              
+          </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tecplot.data.fe_cell_type</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="../../../search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; Copyright 2025, Tecplot, Inc..
+    <br />
+    
+    <br />
+
+    Last updated on Jun 18, 2025.
+    
+    <br />
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+
+  </body>
+</html>

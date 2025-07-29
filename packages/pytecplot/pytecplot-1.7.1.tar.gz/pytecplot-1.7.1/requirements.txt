@@ -1,0 +1,11 @@
+# PyTecplot Requirements for Python 3.7+
+coverage
+ipython
+numpy
+pillow
+protobuf>=3.20.0
+pyyaml
+pyzmq
+scipy
+tox
+filetype

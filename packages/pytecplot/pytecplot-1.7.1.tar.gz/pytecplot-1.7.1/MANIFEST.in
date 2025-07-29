@@ -1,0 +1,10 @@
+include README.rst INSTALL.rst LICENSE.html
+include requirements.txt tox.ini
+recursive-include test *.py
+recursive-include examples *.py *.ipynb *.md
+recursive-include docs *
+
+prune */.*
+global-exclude .*
+
+include .manifest
