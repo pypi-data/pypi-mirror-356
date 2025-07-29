@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: contextualbandits
+Version: 0.3.28
+Summary: Python Implementations of Algorithms for Contextual Bandits
+Home-page: https://github.com/david-cortes/contextualbandits
+Author: David Cortes
+Author-email: david.cortes.rivera@gmail.com
+Keywords: contextual bandits offset tree doubly robust policy linucb thompson sampling
+License-File: LICENSE
+Requires-Dist: numpy>=1.17
+Requires-Dist: scipy
+Requires-Dist: pandas>=0.25.0
+Requires-Dist: scikit-learn>=0.22
+Requires-Dist: joblib>=0.13
+Requires-Dist: cython
