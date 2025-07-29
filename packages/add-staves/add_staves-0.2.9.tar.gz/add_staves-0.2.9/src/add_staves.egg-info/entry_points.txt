@@ -1,0 +1,2 @@
+[console_scripts]
+add-staves = add_staves.cli:main
