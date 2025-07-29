@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: commit2jira
+Version: 0.1.6
+Summary: Commit to Jira Hook
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# commit2jira – Build Instructions
+
+To build the Python package:
+
+```bash
+# Install required tools
+pip install --upgrade setuptools wheel
+
+# Build the package
+python setup.py sdist bdist_wheel
+```
+
+The built package files will be in the `dist/` directory.
