@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/main.py
+tests/test_main.py
+timecopilot.egg-info/PKG-INFO
+timecopilot.egg-info/SOURCES.txt
+timecopilot.egg-info/dependency_links.txt
+timecopilot.egg-info/requires.txt
+timecopilot.egg-info/top_level.txt
