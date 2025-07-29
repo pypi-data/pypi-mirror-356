@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: funpayparsers
+Version: 0.1.0.dev1
+Summary: Set of parsers for FunPay website.
+Author-email: Qvvonk <qvvonk@gmail.com>
+Maintainer-email: Qvvonk <qvvonk@gmail.com>
+License-Expression: MIT
+Project-URL: Telegram Channel, https://t.me/funpay_hub
+Project-URL: Repository, https://github.com/funpayhub/funpayparsers
+Project-URL: Issues, https://github.com/funpyahub/funpayparsers/issues
+Keywords: funpay,parser,bot,api,funpayapi,funpayparser,funpaybot
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: 3.15
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
