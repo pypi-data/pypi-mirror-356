@@ -1,0 +1,15 @@
+gaspype/__init__.py,sha256=jxcukHLtyDntNr_wxPvalj2vybuaTZRjjagnADNiC2Q,713
+gaspype/_main.py,sha256=jvPGGzL8rRvYiiO22KgdrJ8gk3KQ6q_tHqKAVI39CpM,34433
+gaspype/_operations.py,sha256=-7CiiS9NuxbXXhdQyICCZcQ-mwjGuw2wAiMQ3bLAOtA,11985
+gaspype/_phys_data.py,sha256=gVk4X2O72Q-yZFWub1MKtroz4CaTgVJEF78BXZNyw3I,6419
+gaspype/constants.py,sha256=I4TwOriWOD66IYhjcZ5obSrn2ceJeGGxUyO8RRzj02M,563
+gaspype/gas_systems.py,sha256=hkI4pDf5IfkpOzUh5tXUDipSjav918k4jFjtAxgKwNM,4136
+gaspype/membrane.py,sha256=nGM586G7nNRXNzDlxZSpCL7j4IrRKi3WWBvX52_6Axw,494
+gaspype/typing.py,sha256=yg2TGFdXEaSGKhIjLywvpJ0VlazeE1WTMKBRBdVSN9I,132
+gaspype/units.py,sha256=lAADU4OQ6QYN5RV6XCodGJ1aFuZFFk4dmDB7NvIMqyI,213
+gaspype/data/therm_data.bin,sha256=sXWM88FMMNUejusslVyg1BEOqSnv299BC0F1GLxfL8Q,151835
+gaspype-1.1.1.dist-info/licenses/LICENSE,sha256=c38vGhu03niDMTUlrzOiTFMbBKf821l4KijfQWf5Z0U,1100
+gaspype-1.1.1.dist-info/METADATA,sha256=jXP1eHOBO0Emjq-UK-f-_Webjdg-yph7bjuMo0ooRiI,8545
+gaspype-1.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+gaspype-1.1.1.dist-info/top_level.txt,sha256=o4INzqytKrZTbtISQH4YVEB_5k6E9rfURCAQQFWqLdU,8
+gaspype-1.1.1.dist-info/RECORD,,
