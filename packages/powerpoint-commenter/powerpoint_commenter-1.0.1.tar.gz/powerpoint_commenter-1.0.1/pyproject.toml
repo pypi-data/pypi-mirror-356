@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powerpoint-commenter"
+version = "1.0.1"
+authors = [
+    {name = "Munish Kumar", email = "munishkumar19042002@gmail.com"},
+]
+description = "A Python package for adding comments to PowerPoint presentations using OpenXML SDK"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Office Suites",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup",
+]
+keywords = ["powerpoint", "comments", "openxml", "office", "presentation", "pptx", "offline"]
+
+[project.urls]
+"Homepage" = "https://github.com/munish0838/powerpoint-commenter"
+"Bug Reports" = "https://github.com/munish0838/powerpoint-commenter/issues"
+"Source" = "https://github.com/munish0838/powerpoint-commenter"
+"Documentation" = "https://github.com/munish0838/powerpoint-commenter#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["powerpoint_commenter*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+powerpoint_commenter = ["bin/*"] 

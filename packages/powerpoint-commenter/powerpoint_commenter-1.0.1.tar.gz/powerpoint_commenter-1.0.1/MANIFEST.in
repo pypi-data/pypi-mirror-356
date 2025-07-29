@@ -1,0 +1,9 @@
+include README.md
+include requirements.txt
+recursive-include powerpoint_commenter/bin *
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.so
+prune obj
+prune bin/Debug 
