@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wuFoil"
+version = "0.1.0"
+description = "An all in one airfoil modelling, meshing, analysis, and optimization tool with built in support for gmsh, SU2, and xfoil"
+authors = [
+    {name = "Mike Kiely", email = "k.mike@wustl.edu"}
+]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "gmsh"
+]
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+lite = ["numpy", "scipy", "matplotlib", "pandas"]
+
+[tool.setuptools]
+packages = ["wuFoil"]

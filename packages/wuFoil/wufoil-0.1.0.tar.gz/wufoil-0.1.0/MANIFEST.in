@@ -1,0 +1,12 @@
+include README.md
+
+recursive-include wuFoil *.py *.cfg
+
+prune outputs
+prune Docs
+prune PyAero
+prune Scripts
+prune Tutorials
+
+global-exclude *.pyc
+global-exclude __pycache__/

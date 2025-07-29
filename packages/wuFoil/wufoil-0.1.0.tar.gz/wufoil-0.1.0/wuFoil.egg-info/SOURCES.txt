@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+wuFoil/__init__.py
+wuFoil/airfoil.py
+wuFoil/analysis.py
+wuFoil/base.cfg
+wuFoil/flight_conditions.py
+wuFoil/meshing.py
+wuFoil/parallel_computing.py
+wuFoil/runner.py
+wuFoil.egg-info/PKG-INFO
+wuFoil.egg-info/SOURCES.txt
+wuFoil.egg-info/dependency_links.txt
+wuFoil.egg-info/requires.txt
+wuFoil.egg-info/top_level.txt
