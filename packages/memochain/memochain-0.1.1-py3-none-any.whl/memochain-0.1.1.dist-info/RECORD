@@ -1,0 +1,12 @@
+memochain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memochain/client.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memochain/groq_client.py,sha256=EtY6QQ9RHoPEvQEsBKWlo2bdQuJgN3O0DqGd7nI8-EI,972
+memochain/list_sessions.py,sha256=hq3o1XJejL7bbO4MSbPj7V7oJxXzQNOoVMW0SGI5uY4,650
+memochain/memory_store.py,sha256=-6CI3cgFTJ4sZhGnPw_xnUW5eo3pxQPOPXC2YljTbT4,1815
+memochain/session.py,sha256=VYXGF6Hq8S5yCaMkU5tQLMZCiQs6Nc6uHZvySKjsgeU,877
+memochain/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memochain-0.1.1.dist-info/METADATA,sha256=5jiajOR_Iri4lQukUVfp-ChGyon0yI0DhfElz0rrQAo,2428
+memochain-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+memochain-0.1.1.dist-info/entry_points.txt,sha256=1_r-Um49SHwwDkB7nZ-krMs1OC213U-jPk9_M4moMjc,80
+memochain-0.1.1.dist-info/top_level.txt,sha256=ZnU2s-aAcNDWH4dyb2fYzuEyGm9DbzswE8ibOmO_fOc,10
+memochain-0.1.1.dist-info/RECORD,,
