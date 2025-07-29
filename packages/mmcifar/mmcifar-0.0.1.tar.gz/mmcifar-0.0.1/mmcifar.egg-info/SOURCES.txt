@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+cifar_rgb/__init__.py
+cifar_rgb/datasets.py
+cifar_rgb/transforms.py
+mmcifar.egg-info/PKG-INFO
+mmcifar.egg-info/SOURCES.txt
+mmcifar.egg-info/dependency_links.txt
+mmcifar.egg-info/requires.txt
+mmcifar.egg-info/top_level.txt
+tests/test_dataset.py

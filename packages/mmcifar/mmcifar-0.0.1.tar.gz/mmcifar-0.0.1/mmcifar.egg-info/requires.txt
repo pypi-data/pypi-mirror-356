@@ -1,0 +1,6 @@
+torch
+torchvision
+matplotlib
+
+[dev]
+pytest>=6.0

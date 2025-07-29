@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmcifar"
+version = "0.0.1"
+description = "A dataset wrapper that performs CIFAR-10 multimodal loading"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Michigan Synthetic Biology Team"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/umsynbio/MM_CIFAR"
+Repository = "https://github.com/umsynbio/MM_CIFAR"
+Documentation = "https://github.com/umsynbio/MM_CIFAR#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cifar_rgb*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
