@@ -1,0 +1,141 @@
+stages:
+  - prepare
+  - test
+  - finalize
+  - release
+
+variables:
+  # Change cache dirs to be inside the project (can only cache local items)
+  PRE_COMMIT_HOME: $CI_PROJECT_DIR/.cache/pre-commit
+  UV_CACHE_DIR: $CI_PROJECT_DIR/.cache/uv
+  UV_VERSION: "0.7.4"
+  PYTHON_VERSION: "3.13"
+  BASE_LAYER: bookworm-slim
+  # GitLab CI creates a separate mountpoint for the build directory,
+  # so we need to copy instead of using hard links.
+  UV_LINK_MODE: copy
+
+workflow:
+  rules:
+    # Restrict the number of times the pipeline runs to save resources/limits
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+      variables:
+        # Specific merge request configurations for coveralls
+        CI_BRANCH: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+        CI_PULL_REQUEST: $CI_MERGE_REQUEST_IID
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS && $CI_PIPELINE_SOURCE == 'push'
+      when: never  # Avoid running the pipeline twice (push + merge request)
+    - if: $CI_COMMIT_BRANCH || $CI_COMMIT_TAG
+
+cache:
+  key: uv-pre-commit-$CI_JOB_IMAGE
+  paths:
+    - .cache/uv
+    - .cache/pre-commit
+
+default:
+  before_script:
+    - python --version  # useful for debugging
+    - apt update -y
+    - apt install git -y
+    - uv sync
+
+check:
+  stage: prepare
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER"
+  script:
+    - uv run poe pre_commit
+
+build:
+  stage: prepare
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER"
+  script:
+    - uv build
+  variables:
+    GIT_DEPTH: "0"  # deep-clone
+  artifacts:
+    expire_in: 1 day
+    paths: [dist]
+
+.test_script: &test_script
+  dependencies: [build]
+  script:
+    - uv run poe test --junit-xml=$TEST_PYTHON_VERSION_junit.xml
+    - uv cache prune --ci
+  artifacts:
+    when: always
+    paths:
+      - $TEST_PYTHON_VERSION_junit.xml
+    reports:
+      junit: $TEST_PYTHON_VERSION_junit.xml
+
+py38:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.8"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+py39:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.9"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+py310:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.10"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+py311:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.11"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+py312:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.12"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+py313:
+  stage: test
+  variables:
+    TEST_PYTHON_VERSION: "3.13"
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$TEST_PYTHON_VERSION-$BASE_LAYER"
+  <<: *test_script
+
+static_tests:
+  stage: test
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER"
+  script:
+    - uv run poe pre_commit
+
+pages:
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER"
+  script:
+    - uv run poe docs
+    - cp -r docs/_build/html public
+  artifacts:
+    paths:
+      - public
+
+publish:
+  stage: release
+  dependencies: [build]
+  image: "ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER"
+  rules: [if: $CI_COMMIT_TAG]
+  variables:
+    # See: https://pypi.org/help/#apitoken
+    # Needs a PYPI_TOKEN protected variable to be configured for `v*` tags, see:
+    # https://docs.gitlab.com/ee/ci/variables/#add-a-cicd-variable-to-a-project
+    # https://docs.gitlab.com/ee/user/project/protected_tags.html
+    UV_PUBLISH_TOKEN: $PYPI_TOKEN
+  script:
+    - uv publish
