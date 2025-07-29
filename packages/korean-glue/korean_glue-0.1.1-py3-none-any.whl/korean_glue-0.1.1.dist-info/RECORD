@@ -1,0 +1,15 @@
+korean_glue/__init__.py,sha256=H5FEOtFh30XuGfu1XhWkmF1IElT_rfM-_H7vQ5yTKuw,454
+korean_glue/__main__.py,sha256=s-gfpng-lBgsB_qy1MYm2FIVlyf3t0SLH5W7V5ptvII,883
+korean_glue/dictionary.py,sha256=ZVS7PArWypn0qvW23OfABFx-TrPACzKAbDx8cSs3nzA,925
+korean_glue/engine.py,sha256=YsDjoTJ8v3IW8864-FlDu4Zr_AHv1wyH06_A0CkWsDo,538
+korean_glue/exceptions.py,sha256=tHPttQxN5_xjikewATpEsZ7koH_FdJ1F1bP87uLglvM,211
+korean_glue/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+korean_glue/rules.py,sha256=Cd5uozMP9uMjSTDxhH_jEscC6luY9q4B2qbPHRzHgk8,2032
+korean_glue/integrations/__init__.py,sha256=uVzt3thPRXt2hGeZasioIwyC2lhVVooNfaqOe6h9Frw,132
+korean_glue/integrations/django_tags.py,sha256=1Yv7VEtejBMaEsn_Iu6RU6vkxcjHOYJ5YGvpHTdSSc0,287
+korean_glue/integrations/jinja_filters.py,sha256=XVIbTMy8mlC4nsl8UDnnuP8marErNO3PcPQY7EdCXHE,300
+korean_glue-0.1.1.dist-info/METADATA,sha256=O-ZC0ym46y451AgK-NZ2mgMlFcpWRTHFTz6Y3onIc34,3163
+korean_glue-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+korean_glue-0.1.1.dist-info/entry_points.txt,sha256=hWEttU14K5440CtQKvZZkNaF3DMbSRcvsbiiKXLWdm8,52
+korean_glue-0.1.1.dist-info/licenses/LICENSE,sha256=Oq8r3ByegcTQfK7GLArppeWoByp02PxMPJy2Y8Waw4g,1071
+korean_glue-0.1.1.dist-info/RECORD,,

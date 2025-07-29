@@ -1,0 +1,2 @@
+[console_scripts]
+kglue = korean_glue.__main__:main
