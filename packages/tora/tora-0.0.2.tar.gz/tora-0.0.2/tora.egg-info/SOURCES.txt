@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+tora/__init__.py
+tora/tora.py
+tora.egg-info/PKG-INFO
+tora.egg-info/SOURCES.txt
+tora.egg-info/dependency_links.txt
+tora.egg-info/requires.txt
+tora.egg-info/top_level.txt
