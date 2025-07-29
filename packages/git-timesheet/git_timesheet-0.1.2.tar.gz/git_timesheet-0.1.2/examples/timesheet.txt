@@ -1,0 +1,39 @@
+
+Week of 2025-06-02
+================================================================================
+
+Friday, 2025-06-06 - Total: 1.51 hours
+--------------------------------------------------------------------------------
+
+  timesheets - 1.51 hours
+    17:08 EDT - 0.04h - Initial commit and first version of script (fa855fe) - Michael McGarrah
+    17:11 EDT - 0.02h - Filter for author contributions only (5dbc029) - Michael McGarrah
+    17:12 EDT - 0.71h - Add generation of text, csv, and md outputs. Add work week M (4c378f2) - Michael McGarrah
+    17:54 EDT - 0.75h - Adding requirements.txt and a setup document (9280a74) - Michael McGarrah
+
+Saturday, 2025-06-07 - Total: 0.50 hours
+--------------------------------------------------------------------------------
+
+  timesheets - 0.50 hours
+    14:35 EDT - 0.25h - update to documentation (313dd0f) - Michael McGarrah
+    14:56 EDT - 0.25h - Session timeout is now configurable and defaults to 60 minut (76240a6) - Michael McGarrah
+
+Week Total: 2.01 hours
+
+================================================================================
+
+Week of 2025-06-09
+================================================================================
+
+Tuesday, 2025-06-10 - Total: 0.69 hours
+--------------------------------------------------------------------------------
+
+  timesheets - 0.69 hours
+    14:57 EDT - 0.19h - Add common US aliases handling for timezones (ed3e67b) - Michael McGarrah
+    15:09 EDT - 0.05h - Add timezone aliases and improve markdown output format (fa05395) - Michael McGarrah
+    15:12 EDT - 0.20h - Examples of usage with outputs (6155162) - Michael McGarrah
+    15:24 EDT - 0.25h - Enhance timezone handling and output formats (e127c6b) - Michael McGarrah
+
+Week Total: 0.69 hours
+
+================================================================================
