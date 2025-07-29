@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json2gro"
+version = "0.0.b1"
+description = "This package converts json to gro"
+readme = "README.md"
+dependencies = [
+    "sbol3",
+    "xmltodict",
+    "lxml",
+    "jsonschema",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "ipywidgets"
+]
+requires-python = ">=3.7"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["SBOL", "GRO", "converter", "JSON", "synthetic biology"]
+authors = [
+  { name="Catalina Lorca", email="catalina.lorca_b@mail.udp.cl" },
+  { name="Fernanda Lorca", email="fernanda.lorca_b@mail.udp.cl" }
+]
+maintainers = [
+  { name="Catalina Lorca", email="catalina.lorca_b@mail.udp.cl" },
+  { name="Fernanda Lorca", email="fernanda.lorca_b@mail.udp.cl" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+
+
+[project.optional-dependencies]
+test = [
+  "pytest < 5.0.0",
+  "pytest-cov[all]"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/frnvnd4/json2gro/"
+"Bug Tracker" = "https://github.com/frnvnd4/json2gro/issues"
