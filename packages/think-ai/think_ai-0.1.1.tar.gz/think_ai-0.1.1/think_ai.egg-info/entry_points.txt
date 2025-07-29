@@ -1,0 +1,5 @@
+[console_scripts]
+think-ai = think_ai.cli:main
+think-ai-chat = think_ai.cli:chat
+think-ai-server = think_ai.server:run
+think-ai-tui = think_ai.ui.app:run_ui
