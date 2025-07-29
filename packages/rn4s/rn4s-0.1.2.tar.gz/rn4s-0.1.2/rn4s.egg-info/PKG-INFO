@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: rn4s
+Version: 0.1.2
+Summary: Advanced agent framework with reasoning and evaluation
+Author-email: samjtro <hi@samjtro.com>
+License: GPL-2.0-only
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: smolagents>=1.13.0
+Requires-Dist: dspy>=2.6.17
+Requires-Dist: huggingface-hub>=0.30.2
+Requires-Dist: firecrawl-py>=1.16.0
+Provides-Extra: litellm
+Requires-Dist: litellm>=1.28.0; extra == "litellm"
+Dynamic: license-file
+
+# rn4s
+
+self-reinforcing code agent framework.
+
+### example
+
+[dev](https://github.com/rizome-dev/dev)
+
