@@ -1,0 +1,3 @@
+[console_scripts]
+greenfish = greenfish.main:main
+greenfish-cli = greenfish.main:main

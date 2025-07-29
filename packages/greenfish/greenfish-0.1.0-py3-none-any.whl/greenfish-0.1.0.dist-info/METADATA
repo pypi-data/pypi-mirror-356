@@ -1,0 +1,168 @@
+Metadata-Version: 2.4
+Name: greenfish
+Version: 0.1.0
+Summary: A Redfish and IPMI desktop client for out-of-band server management
+Home-page: https://github.com/mexyusef/greenfish
+Author: Yusef Ulum
+Author-email: yusef314159@gmail.com
+Project-URL: Bug Tracker, https://github.com/mexyusef/greenfish/issues
+Project-URL: Source Code, https://github.com/mexyusef/greenfish
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt6>=6.4.0
+Requires-Dist: redfish>=3.1.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: jsonpatch>=1.32
+Requires-Dist: jsonpath-rw>=1.4.0
+Requires-Dist: jsonpointer>=2.3
+Requires-Dist: requests-toolbelt>=0.9.1
+Requires-Dist: requests-unixsocket>=0.2.0
+Requires-Dist: urllib3>=2.0.0
+Requires-Dist: colorama>=0.4.6
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: sphinx>=6.0.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.2.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Greenfish
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/pypi/pyversions/greenfish.svg)](https://pypi.org/project/greenfish/)
+
+Greenfish is a desktop application for out-of-band server management using Redfish and IPMI protocols.
+
+![Main Application](images/app.png)
+
+It provides a unified interface for managing server hardware, regardless of vendor, with powerful monitoring and configuration capabilities.
+
+## Features
+
+### Core Functionality
+- **Redfish & IPMI Support**: Unified interface for both protocols
+- **System Management**: Comprehensive system information and health monitoring
+- **Resource Management**: View and configure server components
+- **User Account Management**: Create and manage user accounts on managed systems
+- **Secure Boot Configuration**: Configure secure boot settings
+- **Event Subscription**: Subscribe to and monitor system events
+- **Log Management**: View and analyze system logs
+- **Configuration Management**: Save, load, and apply system configurations
+
+### Out-of-Band Management
+- **IPMI Integration**: Full IPMI protocol support
+- **Bare Metal Provisioning**: OS deployment via iPXE
+- **Virtual Media Management**: Mount and manage virtual media
+- **Remote Console**: KVM and serial console support
+- **Hardware Monitoring**: Comprehensive sensor management
+
+### User Interface
+- **Modern Design**: Clean, responsive interface with dark/light theme support
+- **Dashboard**: System health overview and resource utilization displays
+- **Navigation**: Intuitive resource navigation
+- **Property Panels**: Detailed resource information with editable properties
+
+## Installation
+
+### From PyPI
+```bash
+pip install greenfish
+```
+
+### From Source
+```bash
+git clone https://github.com/mexyusef/greenfish.git
+cd greenfish
+pip install -e .
+```
+
+## Quick Start
+
+```bash
+# Launch the application
+greenfish
+
+# Or with command line options
+greenfish --config /path/to/config
+```
+
+## Documentation
+
+Comprehensive documentation is available at [https://greenfish.readthedocs.io](https://greenfish.readthedocs.io)
+
+## Requirements
+
+- Python 3.8+
+- PyQt5 or PySide2
+- Additional dependencies listed in requirements.txt
+
+## Development
+
+### Setup Development Environment
+
+```bash
+# Clone the repository
+git clone https://github.com/mexyusef/greenfish.git
+cd greenfish
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install development dependencies
+pip install -e ".[dev]"
+```
+
+### Running Tests
+
+```bash
+pytest
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- The Redfish Forum for the Redfish API specification
+- The IPMI Forum for the IPMI specification
+- All contributors who have helped with the project
