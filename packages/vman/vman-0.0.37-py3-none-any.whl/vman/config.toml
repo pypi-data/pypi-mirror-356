@@ -1,0 +1,8 @@
+# Small config File
+# CLI options have higher precedency than config.
+media_player = "xdg-open"
+author = "distrotube"
+
+[custom-urls]
+enabled = false
+path = ""
