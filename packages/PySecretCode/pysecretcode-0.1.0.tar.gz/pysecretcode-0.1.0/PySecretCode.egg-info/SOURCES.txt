@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+PySecretCode.egg-info/PKG-INFO
+PySecretCode.egg-info/SOURCES.txt
+PySecretCode.egg-info/dependency_links.txt
+PySecretCode.egg-info/requires.txt
+PySecretCode.egg-info/top_level.txt
+pysecretcode/__init__.py
+pysecretcode/core.py

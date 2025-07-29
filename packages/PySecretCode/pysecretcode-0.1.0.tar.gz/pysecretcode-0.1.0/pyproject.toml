@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PySecretCode"
+version = "0.1.0"
+description = "A Python package for various encryption and hashing algorithms"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Eden Simamora", email = "aeden6877@gmail.com"}
+]
+dependencies = [
+    "cryptography",
+    "pycryptodome",
+    "colorama",
+    "rich",
+    "pyperclip",
+    "pyfiglet",
+    "termcolor",
+    "pyinstaller",
+    "wheel",
+    "setuptools",
+    "build",
+    "pycryptodomex",
+    "crcmod",
+    "argon2-cffi",
+    "mmh3",
+    "bcrypt",
+]
+
