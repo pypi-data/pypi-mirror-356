@@ -1,0 +1,233 @@
+Metadata-Version: 2.4
+Name: synthera
+Version: 0.2.6
+Summary: Python client for Synthera AI API
+Author: Synthera AI
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.1.2
+Requires-Dist: pyarrow>=15.0.2
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: tenacity>=9.0.0
+Description-Content-Type: text/markdown
+
+# Synthera AI SDK
+
+A Python SDK for accessing the Synthera AI API.
+
+## Installation
+
+The package is compatible with Python `3.9`-`3.13`.
+
+```bash
+pip install synthera
+```
+
+## API Key
+
+You are required to use an API key to access the Synthera AI API.
+
+For ease of use, set as an environment variable: `SYNTHERA_API_KEY`:
+
+```
+export SYNTHERA_API_KEY=<api_key>
+```
+
+Or you can pass directly to the client.
+
+## Getting Started
+
+**Import the Synthera client**:
+```python
+from synthera import SyntheraClient
+```
+
+**Create a client**:
+```python
+client = SyntheraClient()
+```
+
+**Check the connection works**:
+```python
+client.healthy()
+# Output: True
+```
+
+**For more advanced connection options, pass arguments to the client**:
+```python
+SyntheraClient(api_key="<api_key>", host="<host>", port=<port>, timeout_secs=<timeout>)
+# Output: <SyntheraClient>
+```
+
+## Fixed Income
+
+To run Fixed Income Yield Curve simulations.
+
+### View Available Models
+
+**View the model labels**:
+
+```python
+client.fixed_income.model_labels()
+# Example output: ['YieldGAN-Augur-15days-v0.1-Q42019', 'YieldGAN-Augur-15days-v0.1-Q42024']
+```
+
+| Name | Description |
+|------|-------------|
+| YieldGAN | Model name |
+| Augur | Dataset used for training & inference |
+| 15days | Simulation days |
+| v0.1-Q42019 | Version (including training end period) |
+
+### View Model Metadata
+
+**View the metadata for a model label**:
+
+```python
+client.fixed_income.model_metadata(model_label="YieldGAN-Augur-10days-v0.1-Q42024")
+# Example output: ModelMetadata(model_label='YieldGAN-Augur-10days-v0.1-Q42024', dataset='Augur', universe='g3_par_curves', curve_labels=['USA', 'GBR', 'DEU'], start_date_training='2000-01-01', end_date_training='2025-01-01', simulation_steps=15, conditional_steps=15, tenors=[0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0, 25.0, 30.0])
+```
+
+| Name | Description |
+|------|-------------|
+| model_label | Unique identifier for the model |
+| dataset | Dataset model is trained on (e.g. Augur Labs) |
+| universe | Data universe used for training (e.g., g3_par_curves) |
+| curve_labels | List of yield curve identifiers included in the model |
+| start_date_training | Start date of the training data period (YYYY-MM-DD) (inclusive) |
+| end_date_training | End date of the training data period (YYYY-MM-DD) (exclusive) |
+| simulation_steps | Number of forward simulation steps |
+| conditional_steps | Number of conditional simulation steps |
+| tenors | List of tenors (in years) for which yields are simulated |
+
+
+### Run Simulations
+
+**Prepare input parameters.**
+
+| Parameter | Type | Description | Values                                                    |
+|-----------|------|-------------|-----------------------------------------------------------|
+| model_label | string | Version of the model to use | Valid model label: "YieldGAN-\<dataset\>-\<simulation days\>-v\<version\>" |
+| curve_labels | list[string] | List of yield curves labels to simulate, using ISO 3166-1 alpha-3 country codes | List of curve names (e.g., ["USA", "GBR", "DEU"])         |
+| no_of_days | integer | Number of days to simulate forward from the reference date | > 0 (e.g., 3, 30, 60, 120)                                |
+| no_of_samples | integer | Number of simulation paths to generate | > 0 (e.g., 100, 1024, 5000)                              |
+| reference_date | string | Reference date for the simulation (in the past) | YYYY-MM-DD format                                         |
+
+For example:
+```python
+params = {
+    "model_label": "YieldGAN-Augur-10days-v0.1-Q42024",
+    "curve_labels": ["USA", "GBR"],
+    "no_of_days": 15,
+    "no_of_samples": 100,
+    "reference_date": "2010-01-01"
+}
+```
+
+**Run simulations directly**:
+
+```python
+results = client.fixed_income.simulation_past_date(params=params)
+# Output: SimulationPastDateResults
+```
+
+**View yield curves labels**:
+```python
+results.names
+# Example output: ['USA', 'GBR']
+```
+
+**View yield curve dataframe column names**:
+```python
+results.column_names
+# Output: ['IDX', 'SAMPLE', 'YC_0', 'YC_1', ...]
+```
+
+**View a specific yield curve dataframe, e.g. for `USA`**:
+```python
+results.dataframes["USA"]
+# Output: pandas.DataFrame
+```
+
+**View all yield curves in a single `numpy` ndarray (order is same as `names`)**:
+```python
+results.ndarray
+# Output: ndarray of shape (samples, countries, days, columns)
+```
+
+**View simulation request metadata**:
+```python
+results.metadata
+# Output: dict
+```
+
+## Simulation Results
+
+The `SimulationPastDateResults` object provides several utility and plotting methods for analyzing and visualizing simulation output.
+
+### Utility Methods
+
+**Get simulation dates:**
+```python
+results.get_simulation_dates()
+# Output: [Timestamp('2010-01-01 00:00:00'), ...]
+```
+
+**Get yield curve column indices:**
+```python
+results.get_yc_indices()
+# Output: [2, 3, 4, ...]
+```
+
+**Get all yield curve samples (as ndarray):**
+```python
+results.get_yc_samples()
+# Output: ndarray of shape (samples, countries, days, maturities)
+```
+
+**Get all samples for a specific country:**
+```python
+results.get_country_yc_samples("USA")
+# Output: ndarray of shape (samples, days, maturities)
+```
+
+**Get a single sample for a country:**
+```python
+results.get_yc_sample("USA", sample_num=0)
+# Output: ndarray of shape (days, maturities)
+```
+
+**Get a single sample at a specific time index:**
+```python
+results.get_country_sample_at_t("USA", time_idx=0, sample_num=0)
+# Output: ndarray of shape (maturities,)
+```
+
+### Plotting Methods
+
+All plotting methods return a matplotlib Figure. Set `show_plot=True` to display immediately (non-Jupyter environments).
+
+**Plot a single sample for a country at a specific time:**
+```python
+results.plot_country_sample_at_time("USA", time_idx=0, sample_num=0, show_plot=True)
+# Output: matplotlib.figure.Figure
+```
+
+**Plot all samples for a country at a specific time:**
+```python
+results.plot_country_all_samples_at_time("USA", time_idx=0, show_plot=True)
+# Output: matplotlib.figure.Figure
+```
+
+**Plot a single sample's yield curve evolution over time (3D):**
+```python
+results.plot_country_sample_yield_curve_over_time("USA", sample_num=0, show_plot=True)
+# Output: matplotlib.figure.Figure
+```
