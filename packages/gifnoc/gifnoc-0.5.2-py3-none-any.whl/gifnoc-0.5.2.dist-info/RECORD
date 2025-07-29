@@ -1,0 +1,13 @@
+gifnoc/__init__.py,sha256=ofoQsswNS7LKJs3CTK0r2lTWwS5mmvs7tX2X72EVI_g,1364
+gifnoc/__main__.py,sha256=XyQMPMNNJOtEi2xlfFw-Ny2KW39wXBVwJJQjXAm51n0,3588
+gifnoc/proxy.py,sha256=cHuGH4O6MpelyujJvVYik0p5h4eKkyexSrRu8GSn-rI,1749
+gifnoc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gifnoc/registry.py,sha256=Qqdp1EBgLBeoGFkNvm-8oMvgFuEk4pBm6_LbPM3k7cY,7136
+gifnoc/version.py,sha256=YUgdImohovAQbcamZFL93mcjgrhKmp5a7KzIT8IGgwg,18
+gifnoc/std/__init__.py,sha256=Y2_EPq-Zw-yci3rlj_RCVX5E2Gv4WO0Z_tAe-EcTo3A,313
+gifnoc/std/_random.py,sha256=HjxNaMVFzcyGZLsb_Nr2Ho9_nSIN46THvTShhbfdiVM,850
+gifnoc/std/_time.py,sha256=f3iTj6kMIKazTt9lmt0etWvoSQmRlouq5mjMGQ-qA5E,958
+gifnoc-0.5.2.dist-info/METADATA,sha256=187QueTDSJR8eF2hCfD6_wIZk6CAytk4fIjC8Wg7kNs,3170
+gifnoc-0.5.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gifnoc-0.5.2.dist-info/entry_points.txt,sha256=URMDjACPzXBS5FGYrcEVSjB2aZwvOn39XfODafQk8uo,48
+gifnoc-0.5.2.dist-info/RECORD,,
