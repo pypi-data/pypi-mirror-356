@@ -1,0 +1,26 @@
+[project]
+name = "graph-based-task-orchestrator"
+version = "0.1.1"
+description = "A simple yet powerful task orchestration library based on graph data structure"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pydantic>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.0.0",
+    "mypy>=1.5.0"
+]
+
+[project.scripts]
+graph-validate = "gbto.cli:main"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.4.0",
+    "black>=23.0.0",
+    "mypy>=1.5.0"
+]
