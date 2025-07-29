@@ -1,0 +1,39 @@
+# [1.0.0-beta.32](https://github.com/phantomcyber/splunk-soar-sdk/compare/1.0.0-beta.31...1.0.0-beta.32) (2025-06-17)
+
+
+### Bug Fixes
+
+* on poll ([692403b](https://github.com/phantomcyber/splunk-soar-sdk/commit/692403b889b36269355bb5d16d3bcec936ce079a))
+* pass soar client to webhooks handler ([3272a23](https://github.com/phantomcyber/splunk-soar-sdk/commit/3272a23fc8f024eadfbbd96cbb987f2aa50e705f))
+* tests after refactor ([09296a5](https://github.com/phantomcyber/splunk-soar-sdk/commit/09296a5c68610517995a8b96b2467fa2a7c5838f))
+* type checking error ([b8097dd](https://github.com/phantomcyber/splunk-soar-sdk/commit/b8097dd48fffc9bf0875c00da3d0aa6021120114))
+* webhook app tests ([f5feb3c](https://github.com/phantomcyber/splunk-soar-sdk/commit/f5feb3c21f7df6183ceb1ad3ad91675af4885c2b))
+
+
+### Features
+
+* refactor appconnector and actionsprovider ([aa3bfde](https://github.com/phantomcyber/splunk-soar-sdk/commit/aa3bfdee9518e8018356b2c59783c18ab310f160))
+
+
+
+
+
+# [1.0.0-beta.32](https://github.com/phantomcyber/splunk-soar-sdk/compare/1.0.0-beta.31...1.0.0-beta.32) (2025-06-17)
+
+
+### Bug Fixes
+
+* on poll ([692403b](https://github.com/phantomcyber/splunk-soar-sdk/commit/692403b889b36269355bb5d16d3bcec936ce079a))
+* pass soar client to webhooks handler ([3272a23](https://github.com/phantomcyber/splunk-soar-sdk/commit/3272a23fc8f024eadfbbd96cbb987f2aa50e705f))
+* tests after refactor ([09296a5](https://github.com/phantomcyber/splunk-soar-sdk/commit/09296a5c68610517995a8b96b2467fa2a7c5838f))
+* type checking error ([b8097dd](https://github.com/phantomcyber/splunk-soar-sdk/commit/b8097dd48fffc9bf0875c00da3d0aa6021120114))
+* webhook app tests ([f5feb3c](https://github.com/phantomcyber/splunk-soar-sdk/commit/f5feb3c21f7df6183ceb1ad3ad91675af4885c2b))
+
+
+### Features
+
+* refactor appconnector and actionsprovider ([aa3bfde](https://github.com/phantomcyber/splunk-soar-sdk/commit/aa3bfdee9518e8018356b2c59783c18ab310f160))
+
+
+
+
