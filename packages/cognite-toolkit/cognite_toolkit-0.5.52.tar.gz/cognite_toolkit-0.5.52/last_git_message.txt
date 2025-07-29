@@ -1,0 +1,26 @@
+[CDF-24920]➡Transformation targets (#1616)
+
+# Description
+
+<del>Stacked on #1614</del>
+
+
+![image](https://github.com/user-attachments/assets/379c137d-24ed-4c99-bbce-739cf16c8b8a)
+
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Added
+
+- [alpha] The `cdf profile asset-centric` now shows the number of
+transformations that writes to each resource type.
+
+## templates
+
+No changes.
