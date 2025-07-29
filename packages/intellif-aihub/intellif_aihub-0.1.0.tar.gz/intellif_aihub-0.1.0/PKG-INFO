@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: intellif-aihub
+Version: 0.1.0
+Summary: Graceful stop helper based on file sentinel
+Author-email: Platform Team <aihub@example.com>
+Requires-Python: >=3.7

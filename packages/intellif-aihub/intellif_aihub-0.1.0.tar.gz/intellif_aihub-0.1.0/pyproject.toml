@@ -1,0 +1,10 @@
+[project]
+name = "intellif-aihub"
+version = "0.1.0"
+requires-python = ">=3.7"
+authors = [{name="Platform Team", email="aihub@example.com"}]
+description = "Graceful stop helper based on file sentinel"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
