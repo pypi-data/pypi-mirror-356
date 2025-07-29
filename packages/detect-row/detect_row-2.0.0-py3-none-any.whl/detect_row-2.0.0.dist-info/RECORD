@@ -1,0 +1,14 @@
+detect_row/__init__.py,sha256=fy5JkuD7A9EjJSAPB6L6Cry4GfHyH5FGepQsy6UbPyI,1074
+detect_row/advanced_column_extractor.py,sha256=gsiNQcLVy0CRWv9DtKdZJ36W3ZKdEA6BN_wfdXIHmrA,28471
+detect_row/advanced_row_extractor.py,sha256=AbrWPu0ARxWFmvWUU2PGrEiSfQmRtRCm2NH-oRSgvY4,34685
+detect_row/advanced_table_extractor.py,sha256=Wfko2b362ZxQ2SdXvZrvSDXHRcyUY0xgC4owyVV0aAE,24512
+detect_row/base.py,sha256=am_YvgdCzmAI2feejfgug-2ydyk2DgReOiKBkwScuCM,17526
+detect_row/basic_row_extractor.py,sha256=b29KKYm7v6nJG2k6RyffkSsB29GemLIk4ma4E8WBXv8,19348
+detect_row/gpu_support.py,sha256=wRnjzSdVhSPudia-rEnZ9bsnni1ccx9_tjnDkshSwow,8494
+detect_row/tesseract_ocr_extractor.py,sha256=5BDHjTwXrEaxUWyU9n44Krqhq92SbegNf-oSv6DNEIg,9051
+detect_row-2.0.0.dist-info/licenses/LICENSE,sha256=Kdeh093qknm4CMVRNADpB73lYipXhuyaQXW2o-zh_HM,1095
+detect_row-2.0.0.dist-info/METADATA,sha256=eyRA3qXlzPEi28u6_1U4dqezQVgIPTeSjss71rqgDd0,13076
+detect_row-2.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+detect_row-2.0.0.dist-info/entry_points.txt,sha256=mJEhkFTEbJGQ0ySOl3CoRxJcFvt3Y-q6vlu-ftRnlNw,623
+detect_row-2.0.0.dist-info/top_level.txt,sha256=EjRkfKFsJeQyRJELs-ItSfzE2yvh0nLdOSwFwKIIIMk,11
+detect_row-2.0.0.dist-info/RECORD,,
