@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+settings.ini
+setup.py
+rainebow/__init__.py
+rainebow/_modidx.py
+rainebow/core.py
+rainebow.egg-info/PKG-INFO
+rainebow.egg-info/SOURCES.txt
+rainebow.egg-info/dependency_links.txt
+rainebow.egg-info/entry_points.txt
+rainebow.egg-info/not-zip-safe
+rainebow.egg-info/requires.txt
+rainebow.egg-info/top_level.txt
