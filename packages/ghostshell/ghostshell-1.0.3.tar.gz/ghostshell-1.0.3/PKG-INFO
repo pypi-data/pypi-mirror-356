@@ -1,0 +1,100 @@
+Metadata-Version: 2.4
+Name: ghostshell
+Version: 1.0.3
+Summary: Netcat-style remote command execution using Python socket.
+Author: Santhosh Murugesan
+Author-email: santhoshm.murugesan@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+# ghostshell
+
+A Netcat-style remote command execution tool using raw Python sockets.
+
+## Features
+
+- Raw socket client/server
+- CLI and importable API
+- Supports multiple requests per session
+
+## Installation 
+### From PIP
+```bash
+pip install ghostshell
+```
+
+### Manual Installation using setup.py
+- Clone this git repo
+- cd `ghostshell`
+- Run
+```bash
+pip install .
+```
+
+## CLI Usage
+
+### For Code/module CLI:
+```bash
+ python -m ghostshell.cli.main serve --host 0.0.0.0 --port 9999
+ python -m ghostshell.cli.main connect --host 127.0.0.1 --port 9999
+```
+
+### For Installed CLI package:
+```bash
+ghostshell serve --host 0.0.0.0 --port 9999
+ghostshell connect --host 127.0.0.1 --port 9999
+```
+
+## Python Usage
+
+```python
+from ghostshell.core.server import RemoteServer
+from ghostshell.core.client import RemoteClient
+
+server = RemoteServer("0.0.0.0", 9999)
+server.start()
+
+client = RemoteClient("127.0.0.1", 9999)
+client.connect()
+
+print(client.send_command("whoami"))
+client.close()
+```
+
+## License
+
+MIT
+
+
+## ⚠️ Disclaimer
+
+This tool is intended **strictly for educational and authorized use only**.
+
+By installing or using this package, you agree that:
+
+- You will **only use it in environments where you have explicit permission**.
+- You understand that this tool can be used for **remote command execution**, and improper use may violate laws or system security.
+- The author **is not responsible for any damage, unauthorized access, or misuse** of this software.
+
+Use responsibly and at your own risk.

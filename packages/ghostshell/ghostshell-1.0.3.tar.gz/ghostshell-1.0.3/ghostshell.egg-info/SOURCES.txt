@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ghostshell.egg-info/PKG-INFO
+ghostshell.egg-info/SOURCES.txt
+ghostshell.egg-info/dependency_links.txt
+ghostshell.egg-info/entry_points.txt
+ghostshell.egg-info/requires.txt
+ghostshell.egg-info/top_level.txt
