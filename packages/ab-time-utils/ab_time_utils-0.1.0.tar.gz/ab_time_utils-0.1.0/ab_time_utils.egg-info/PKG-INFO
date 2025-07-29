@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: ab_time_utils
+Version: 0.1.0
+Summary: 常用时间库
+Author: ab
+Author-email: 17317591878@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
