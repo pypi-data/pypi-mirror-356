@@ -1,0 +1,2 @@
+[console_scripts]
+clai-ai = cli.main:app
