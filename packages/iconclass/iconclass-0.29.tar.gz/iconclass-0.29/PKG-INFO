@@ -1,0 +1,49 @@
+Metadata-Version: 2.3
+Name: iconclass
+Version: 0.29
+Summary: This package provides a Python interface to using ICONCLASS.
+License: MIT
+Author: Etienne Posthumus
+Author-email: ep@epoz.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://iconclass.org/
+Description-Content-Type: text/markdown
+
+# ICONCLASS
+
+A multilingual subject classification system for cultural content
+For more information see: https://iconclass.org/
+
+Made by Hans Brandhorst <jpjbrand@xs4all.nl> & Etienne Posthumus <eposthumus@gmail.com>
+
+    ...with lots of support from a global cast of many, many people since 1972.
+
+## Example usage:
+
+```python
+from iconclass import init
+
+ic = init()
+a = ic["53A2"]
+
+print(a)
+print(repr(a))
+print(a())
+print(a('de'))
+
+for child in a:
+    print(child('it'))
+
+for p in a.path():
+    print(repr(p))
+```
+
