@@ -1,0 +1,5 @@
+[console_scripts]
+server = job_analyzer_support:main
+
+[mcp.servers]
+job-analyzer-support = job_analyzer_support:main
