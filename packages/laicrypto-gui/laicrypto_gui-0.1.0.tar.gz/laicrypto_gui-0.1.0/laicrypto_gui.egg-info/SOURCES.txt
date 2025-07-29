@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+laicrypto_gui.egg-info/PKG-INFO
+laicrypto_gui.egg-info/SOURCES.txt
+laicrypto_gui.egg-info/dependency_links.txt
+laicrypto_gui.egg-info/requires.txt
+laicrypto_gui.egg-info/top_level.txt
+laigui/gui.py

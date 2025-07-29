@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: laicrypto-gui
+Version: 0.1.0
+Summary: A PyQt5 GUI frontend for LAICrypto encryption
+Author-email: GALIH RIDHO UTOMO <4211421036@students.unnes.ac.id>
+License-Expression: MIT
+Project-URL: Homepage, https://4211421036.github.io/pqcrypto/
+Project-URL: Repository, https://github.com/4211421036/SimulationCrypto/
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5>=5.15
+Requires-Dist: laicrypto>=0.1.0
+Dynamic: license-file
+
+# LAICrypto GUI
+
+Graphical frontend (PyQt5) for the LAICrypto post-quantum encryption library.  
+Supports encryption/decryption simulation using lemniscate-AGM isogeny schemes.
+
+## Installation
+
+```bash
+pip install .
+# or for development
+pip install -r requirements.txt
