@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pageql"
+version = "0.2.1"
+description = "A template language for embedding SQL inside HTML directly"
+readme = "README.md"
+authors = [
+    {name = "adamritter"}
+]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "uvicorn[standard]",
+    "watchfiles",
+    "sqlglot",
+    "joserfc",
+    "httpx",
+    "authlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.scripts]
+pageql = "pageql.cli:main"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "examples/**"]
+exclude = ["dist", "build", "*.egg-info"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pageql"]
+include = ["src/pageql/static/**"]
+
+[project.urls]
+Homepage = "https://pageql.dev/"
+"GitHub Repository" = "https://github.com/adamritter/pageql"
+Issues = "https://github.com/adamritter/pageql/issues"
+
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --ignore=examples"
+doctest_optionflags = "ELLIPSIS NORMALIZE_WHITESPACE"
