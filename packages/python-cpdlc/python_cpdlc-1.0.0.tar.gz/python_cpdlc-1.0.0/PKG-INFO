@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: python-cpdlc
+Version: 1.0.0
+Summary: A python lib for easier use of cpdlc
+Author-email: Half_nothing <Half_nothing@163.com>
+License: GPL-3.0-or-later
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: requests>=2.32.4
+Requires-Dist: beautifulsoup4>=4.13.4
+Requires-Dist: lxml>=5.4.0
+Dynamic: license-file
+
+# python-cpdlc
