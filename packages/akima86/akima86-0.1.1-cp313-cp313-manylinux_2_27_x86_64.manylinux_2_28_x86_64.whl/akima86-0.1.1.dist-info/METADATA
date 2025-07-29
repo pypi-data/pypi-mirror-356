@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: akima86
+Version: 0.1.1
+Summary: Improved Akima 1-D Interpolation Method
+Author-Email: David Ryglicki <david.ryglicki@gmail.com>
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
