@@ -1,0 +1,73 @@
+---
+'on':
+  push:
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    paths-ignore:
+      - '**.md'
+  workflow_dispatch:
+
+# https://github.com/softprops/action-gh-release/issues/236
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        runs-on:
+          - macos-latest
+          - windows-latest
+    runs-on: ${{matrix.runs-on}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xmake-io/github-action-setup-xmake@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+          registry-url: https://registry.npmjs.org
+          cache: 'npm'
+      - name: Build
+        run: |
+          npm install
+          npm pack
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artifact-${{matrix.runs-on}}
+          path: |
+            prebuilds/*
+
+  publish:
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    needs:
+      - build
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xmake-io/github-action-setup-xmake@v1
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: artifact-*
+          merge-multiple: true
+          path: prebuilds
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+          registry-url: https://registry.npmjs.org
+          cache: 'npm'
+      - name: Build
+        run: |
+          chmod +x prebuilds/*/bin/*
+          npm install
+          npm pack
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: '*.tgz'
+      - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+          NODE_ENV: production
+        run: |
+          npm publish
