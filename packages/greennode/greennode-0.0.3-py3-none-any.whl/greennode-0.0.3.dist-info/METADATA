@@ -1,0 +1,156 @@
+Metadata-Version: 2.3
+Name: greennode
+Version: 0.0.3
+Summary: Python client for GreenNode's Cloud Platform!
+License: Apache-2.0
+Author: GreenNode AI
+Author-email: support@greennode.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: datasets (>=3.0.0)
+Requires-Dist: pydantic (>=2.11.7,<3.0.0)
+Requires-Dist: pytest (>=8.4.0,<9.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Project-URL: Bug Tracker, https://github.com/greennode-ai/greennode-python/issues
+Project-URL: Homepage, https://github.com/greennode-ai/greennode-python
+Project-URL: Repository, https://github.com/greennode-ai/greennode-python
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://greennode.ai/">
+    <img alt="greennode.ai" height="100px" src="https://pbs.twimg.com/profile_images/1727961919955607552/erF8KIN1_400x400.jpg">
+  </a>
+</div>
+
+
+# GreenNode Python Library
+[![Discord](https://dcbadge.vercel.app/api/server/KGrKFVdBqZ?style=flat&compact=true)](https://discord.gg/KGrKFVdBqZ)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/greennode23.svg?style=social&label=Follow%20%40greennode23)](https://x.com/greennode23)
+[![PyPI version](https://img.shields.io/pypi/v/greennode.svg)](https://pypi.org/project/greennode/)
+
+
+One-stop Python library for seamless AI model training, deployment and infrastructure management.
+
+## Installation
+To install GreenNode Python Library, simply run:
+```sh
+pip install greennode
+```
+
+## Usage
+
+## TODO
+
+- Write documentation for image_gen, speech_to_text, text_to_speech, rerank, etc.
+
+
+### Chat Completions
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+response = client.chat.completions.create(
+    model="meta/llama-3.1-8b-instruct",
+    messages=[{"role": "user", "content": "tell me about new york"}],
+)
+print(response.choices[0].message.content)
+```
+
+#### Streaming
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+stream = client.chat.completions.create(
+    model="meta/llama-3.1-8b-instruct",
+    messages=[{"role": "user", "content": "tell me about new york"}],
+    stream=True,
+)
+
+for chunk in stream:
+    print(chunk.choices[0].delta.content or "", end="", flush=True)
+```
+
+### Completions
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+response = client.completions.create(
+    model="Qwen/Qwen2.5-1.5B",
+    prompt="New York City is",
+    stream=False,
+)
+
+print(response.choices[0].text)
+```
+
+#### Streaming
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+stream = client.completions.create(
+    model="Qwen/Qwen2.5-1.5B",
+    prompt="New York City is",
+    stream=True,
+)
+
+for chunk in stream:
+    print(chunk.choices[0].text or "", end="", flush=True)
+```
+
+### Embeddings
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+response = client.embeddings.create(
+      model="BAAI/bge-m3",
+      input=["Hello world", "Thank you"],
+      encoding_format="float"
+)
+
+print(response)
+```
+
+### List supported Models
+
+```python
+import os
+from greennode import GreenNode
+
+client = GreenNode(api_key=os.environ.get("GREENNODE_API_KEY"),
+                   base_url=os.environ.get("GREENNODE_BASE_URL"))
+
+response = client.models.list()
+
+print(response)
+```
