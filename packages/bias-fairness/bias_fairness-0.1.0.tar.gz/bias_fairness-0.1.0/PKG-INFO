@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: bias-fairness
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aif360>=0.6.1
+Requires-Dist: fairlearn>=0.12.0
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: lime>=0.2.0.1
+Requires-Dist: matplotlib>=3.10.3
+Requires-Dist: plotly>=6.1.2
+Requires-Dist: scikit-learn>=1.7.0
+Requires-Dist: scipy>=1.15.3
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: shap>=0.48.0
+Dynamic: license-file
+
+# bias-fairness
+Tools, explanations, and code for understanding and mitigating bias in AI models. Focused on fairness evaluation, detection, and responsible AI development.

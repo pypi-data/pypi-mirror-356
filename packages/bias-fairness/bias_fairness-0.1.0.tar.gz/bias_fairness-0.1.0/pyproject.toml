@@ -1,0 +1,18 @@
+[project]
+name = "bias-fairness"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aif360>=0.6.1",
+    "fairlearn>=0.12.0",
+    "ipykernel>=6.29.5",
+    "lime>=0.2.0.1",
+    "matplotlib>=3.10.3",
+    "plotly>=6.1.2",
+    "scikit-learn>=1.7.0",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "shap>=0.48.0",
+]
