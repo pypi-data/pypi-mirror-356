@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: agentic-profile-auth
+Version: 0.1.6
+Summary: Agentic Profile Authentication Library
+Home-page: UNKNOWN
+Author: Mike Prince, Isabella Farley
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: cryptography>=42.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: python-jose>=3.3.0
+Requires-Dist: loguru>=0.7.0
+Requires-Dist: aiohttp>=3.9.0
+
+UNKNOWN
+
