@@ -1,0 +1,5 @@
+Django>=4.2
+redis>=4.0.2
+
+[hiredis]
+redis[hiredis]>=4.0.2
