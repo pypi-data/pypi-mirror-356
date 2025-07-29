@@ -1,0 +1,2 @@
+[pygments.lexers]
+rdllexer = rdl_pygments.rdllexer:SystemRDLLexer
