@@ -1,0 +1,92 @@
+[project]
+name = "volumentations"
+version = "0.1.9"
+description = "Point augmentations library as hard-fork of albu-team/albumentations"
+readme = "README.md"
+requires-python = ">=3.8.1"
+license = {text = "MIT"}
+authors = [
+    {name = "kumuji", email = "alexey@nekrasov.dev"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+]
+
+dependencies = [
+    "numpy>=1.22.0",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "uv>=0.5.4",
+    "pytest>=8.3.5",
+    "flake8>=7.1.2",
+    "flake8-docstrings>=1.7.0",
+    "flake8-isort>=6.1.1",
+    "flake8-bandit>=4.1.1",
+    "flake8-black>=0.3.6",
+    "flake8-bugbear>=24.12.12",
+    "isort>=5.13.2",
+    "mypy>=1.14.1",
+    "pre-commit>=3.5.0",
+    "nox==2025.5.1",
+    "coverage[toml]>=7.6.1",
+    "pytest-cov>=5.0.0",
+    "pytest-mock>=3.14.0",
+    "xdoctest>=1.1.5",
+    "sphinx>=6.2.1,<7.0.0",
+    "sphinx-autodoc-typehints>=1.17.0",
+    "sphinx-rtd-theme>=2.0.0,<3.0.0",
+    "black>=24.8.0"
+]
+
+[project.urls]
+homepage = "https://github.com/kumuji/volumentations"
+repository = "https://github.com/kumuji/volumentations"
+documentation = "https://volumentations.readthedocs.io/en/latest/"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["volumentations"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 50
+
+[tool.black]
+target-version = ['py311']
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
