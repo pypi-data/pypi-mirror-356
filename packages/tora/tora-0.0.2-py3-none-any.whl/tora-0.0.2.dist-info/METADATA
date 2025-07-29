@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: tora
+Version: 0.0.2
+License-File: LICENSE
+Requires-Dist: httpx
+Dynamic: license-file
