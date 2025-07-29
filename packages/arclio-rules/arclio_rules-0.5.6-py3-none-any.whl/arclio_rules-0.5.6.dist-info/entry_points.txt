@@ -1,0 +1,2 @@
+[console_scripts]
+arclio-rules = arclio_rules.main:main
