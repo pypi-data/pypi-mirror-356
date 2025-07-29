@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "docsend2pdf-mcp"
+version = "0.1.0"
+description = "MCP server for converting DocSend documents to PDF via docsend2pdf.com"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Docsend2PDF", email = "docsend2pdf@proton.me" }]
+requires-python = ">=3.8"
+dependencies = ["mcp>=0.1.0", "httpx>=0.25.0", "aiofiles>=23.0.0"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.scripts]
+docsend2pdf-mcp = "docsend2pdf_mcp.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docsend2pdf_mcp"]

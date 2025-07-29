@@ -1,0 +1,62 @@
+Metadata-Version: 2.4
+Name: docsend2pdf-mcp
+Version: 0.1.0
+Summary: MCP server for converting DocSend documents to PDF via docsend2pdf.com
+Author-email: Docsend2PDF <docsend2pdf@proton.me>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: aiofiles>=23.0.0
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: mcp>=0.1.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: mypy>=1.0.0; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.21.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# docsend2pdf-mcp
+
+MCP server for converting DocSend documents to PDF via docsend2pdf.com
+
+## Installation
+
+```bash
+pip install docsend2pdf-mcp
+```
+
+## Configuration
+
+```json
+{
+    "mcpServers": {
+        "docsend2pdf": {
+            "command": "python",
+            "args": ["-m", "docsend2pdf_mcp"],
+            "env": {
+                "DOCSEND2PDF_DOWNLOAD_DIR": "~/Downloads/docsend_pdfs"
+            }
+        }
+    }
+}
+```
+
+## Usage
+
+- Convert: `"Convert this DocSend to PDF: https://docsend.com/view/abc123"`
+- With password: `"Convert https://docsend.com/view/xyz789 (password: mypass)"`
+- With email: `"Convert https://docsend.com/view/doc456 (email: user@example.com)"`
+- Custom filename: `"Save https://docsend.com/view/doc789 as report.pdf"`
+
+## Features
+
+- Password-protected documents
+- Email-verification support
+- OCR for searchable PDFs
+- Custom filenames
+- Rate limiting (5 req/sec)
+
+## License
+
+MIT
