@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: python-wayland
+Version: 1.0.0
+Summary: An implementation of the Wayland protocol built from the ground up with no runtime dependencies - no libwayland, no C libraries, just Python.
+Project-URL: Homepage, https://sr.ht/~gk/python-wayland/
+Project-URL: Documentation, https://python-wayland.org
+Project-URL: Issues, https://todo.sr.ht/~gk/python-wayland
+Project-URL: Source, https://git.sr.ht/~gk/python-wayland
+Project-URL: Changelog, https://python-wayland.org/changelog/
+Author-email: Graham King <grking.email@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024-2025 Graham R King.
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice (including the
+        next paragraph) shall be included in all copies or substantial
+        portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+        BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+        ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: libwayland,wayland
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: opencv-python; extra == 'dev'
+Requires-Dist: textual; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# python-wayland
+
+[![PyPI - Version](https://img.shields.io/pypi/v/python-wayland.svg)](https://pypi.org/project/python-wayland) [![builds.sr.ht status](https://builds.sr.ht/~gk/python-wayland.svg)](https://builds.sr.ht/~gk/python-wayland?) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-wayland.svg)](https://pypi.org/project/python-wayland) [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://python-wayland.org)
+
+An implementation of the Wayland protocol from scratch, with no external dependencies, just Python. Aimed at building clients rather than compositors.
+
+## Features
+
+* Includes support for all standard Wayland protocols and extensions from Hyprland and wlroots.
+* No external dependencies, no other Wayland libraries are required. This is not a wrapper for libwayland.
+* Maintains the original Wayland naming conventions to ensure Wayland API documentation remains relevant and easy to use.
+* Supports updating protocol definitions from either the local system or the latest official protocol repositories. Latest versions of all protocol definitions are built-in.
+* Supports code completion, type hinting and documentation for Wayland objects. _(tested in vscode and helix)_
+
+## Documentation
+
+For documentation on how to use `python-wayland` see the [online documentation](https://python-wayland.org)
+
+## Thanks
+
+Thanks to Philippe Gaultier, whose article [Wayland From Scratch](https://gaultier.github.io/blog/wayland_from_scratch.html) inspired this project.
+
+Thanks also to Drew DeVault for his [freely available Wayland book](https://wayland-book.com/). This project would not have been developed if not for Drew's book.
+
+Thanks to the [`mkdocstrings` project](https://github.com/mkdocstrings/mkdocstrings), not only for the `mkdocstrings` plugin to [MkDocs](https://www.mkdocs.org/) but also because the configuration of the `python-wayland` documentation is almost entirely copied from the excellent work done by the `mkdocstrings` project in [their own documentation](https://mkdocstrings.github.io/).
