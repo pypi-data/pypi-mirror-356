@@ -1,0 +1,12 @@
+
+[Serial]
+pyserial
+
+[keithley]
+pyVISA
+
+[numpy]
+numpy
+
+[prompt]
+pyreadline
