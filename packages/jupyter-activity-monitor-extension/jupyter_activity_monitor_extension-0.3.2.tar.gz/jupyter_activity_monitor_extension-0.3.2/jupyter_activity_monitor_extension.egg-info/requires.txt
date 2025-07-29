@@ -1,0 +1,11 @@
+jupyter_server>=2.0.0
+pyzmq<=26.4.0
+tornado
+jmespath
+requests
+
+[dev]
+pytest>=6
+pytest-cov
+black
+pytest_jupyter
