@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/scorecard_mcp/__init__.py
+src/scorecard_mcp.egg-info/PKG-INFO
+src/scorecard_mcp.egg-info/SOURCES.txt
+src/scorecard_mcp.egg-info/dependency_links.txt
+src/scorecard_mcp.egg-info/entry_points.txt
+src/scorecard_mcp.egg-info/requires.txt
+src/scorecard_mcp.egg-info/top_level.txt
