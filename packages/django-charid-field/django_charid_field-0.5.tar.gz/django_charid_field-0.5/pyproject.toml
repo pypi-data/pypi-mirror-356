@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "django-charid-field"
+version = "0.5"
+description = "Provides a char-based, prefixable ID field for your Django models. Supports cuid, ksuid, ulid, et al."
+license = "MIT"
+authors = ["YunoJuno <code@yunojuno.com>"]
+maintainers = ["YunoJuno <code@yunojuno.com>"]
+readme = "README"
+repository = "https://github.com/yunojuno/django-charid-field"
+documentation = "https://github.com/yunojuno/django-charid-field/blob/master/README"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.2",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+packages = [{ include = "charidfield" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2 || ^5.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+tox = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+mypy = "*"
+pre-commit = "*"
+ruff = "*"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
