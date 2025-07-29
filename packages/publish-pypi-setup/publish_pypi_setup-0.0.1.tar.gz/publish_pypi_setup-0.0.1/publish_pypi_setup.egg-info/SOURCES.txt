@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mypackage/__init__.py
+publish_pypi_setup.egg-info/PKG-INFO
+publish_pypi_setup.egg-info/SOURCES.txt
+publish_pypi_setup.egg-info/dependency_links.txt
+publish_pypi_setup.egg-info/not-zip-safe
+publish_pypi_setup.egg-info/requires.txt
+publish_pypi_setup.egg-info/top_level.txt

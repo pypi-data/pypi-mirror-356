@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: publish_pypi_setup
+Version: 0.0.1
+Summary: publish_pypi_setup
+Home-page: https://github.com/Tkuiang/publish_pyqi_setup
+Author: tk
+Author-email: kui-tang@foxmail.com
+License: Apache-2.0 license
+Project-URL: Bug Tracker, https://github.com/Tkuiang/publish_pyqi_setup/issues
+Project-URL: Documentation, https://github.com/Tkuiang/publish_pyqi_setup
+Project-URL: Source Code, https://github.com/Tkuiang/publish_pyqi_setup
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
