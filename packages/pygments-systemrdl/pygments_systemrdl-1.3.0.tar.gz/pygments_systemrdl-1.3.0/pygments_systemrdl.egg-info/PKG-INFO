@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: pygments-systemrdl
+Version: 1.3.0
+Summary: SystemRDL 2.0 lexer extension for Pygments
+Author: Alex Mykyta
+License: LGPLv3
+Project-URL: Source, https://github.com/SystemRDL/systemrdl-pygments
+Project-URL: Tracker, https://github.com/SystemRDL/systemrdl-pygments/issues
+Project-URL: Changelog, https://github.com/SystemRDL/systemrdl-pygments/releases
+Keywords: SystemRDL,pygments
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygments
+Dynamic: license-file
+
+![.github/workflows/build.yml](https://github.com/SystemRDL/pygments-systemrdl/workflows/.github/workflows/build.yml/badge.svg)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pygments-systemrdl.svg)](https://pypi.org/project/pygments-systemrdl)
+
+# pygments-systemrdl
+
+This module implements a [SystemRDL 2.0](http://accellera.org/downloads/standards/systemrdl)
+language lexer for [Pygments](https://pygments.org).
+The lexer is published as an entry point and, once installed, Pygments will
+pick it up automatically.
+
+The language is registered under the alias: `systemrdl`
+
+## Installation
+
+Install from [PyPi](https://pypi.org/project/pygments-systemrdl) using pip:
+
+    python3 -m pip install pygments-systemrdl

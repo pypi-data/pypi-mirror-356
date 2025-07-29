@@ -1,0 +1,15 @@
+.gitignore
+.pylint.rc
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/build.yml
+pygments_systemrdl.egg-info/PKG-INFO
+pygments_systemrdl.egg-info/SOURCES.txt
+pygments_systemrdl.egg-info/dependency_links.txt
+pygments_systemrdl.egg-info/entry_points.txt
+pygments_systemrdl.egg-info/requires.txt
+pygments_systemrdl.egg-info/top_level.txt
+rdl_pygments/__about__.py
+rdl_pygments/__init__.py
+rdl_pygments/rdllexer.py
