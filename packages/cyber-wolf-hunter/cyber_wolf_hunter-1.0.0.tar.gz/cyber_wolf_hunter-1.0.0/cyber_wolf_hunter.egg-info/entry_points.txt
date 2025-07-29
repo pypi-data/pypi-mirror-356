@@ -1,0 +1,2 @@
+[console_scripts]
+cyber-wolf-hunter = cyber_wolf_hunter.cli:main
