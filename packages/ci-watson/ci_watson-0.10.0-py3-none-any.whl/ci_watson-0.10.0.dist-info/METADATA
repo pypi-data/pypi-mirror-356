@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: ci_watson
+Version: 0.10.0
+Summary: CI helper for STScI regression testing
+Author-email: STScI <help@stsci.edu>
+Project-URL: Homepage, https://github.com/spacetelescope/ci_watson
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: crds
+Requires-Dist: colorama>=0.4.1
+Requires-Dist: pytest>=6
+Requires-Dist: readchar>=3.0
+Requires-Dist: requests
+Provides-Extra: all
+Requires-Dist: astropy>=6; extra == "all"
+Provides-Extra: test
+Requires-Dist: pytest-astropy-header; extra == "test"
+Provides-Extra: docs
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+Requires-Dist: sphinx_design; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: sphinx-automodapi; extra == "docs"
+Dynamic: license-file
+
+# ci_watson
+
+[![DOI](https://zenodo.org/badge/143923649.svg)](https://zenodo.org/doi/10.5281/zenodo.12699836)
+[![CI Status](https://github.com/spacetelescope/ci_watson/workflows/CI/badge.svg)](https://github.com/spacetelescope/ci_watson/actions)
+[![Documentation Status](https://readthedocs.org/projects/ci-watson/badge/?version=latest)](https://ci-watson.readthedocs.io/en/latest/?badge=latest)
+
+CI helper for STScI regression tests.
+If you ask nicely, it might also help you solve crimes.
+
+Nightly regression test results are available only from within the STScI
+network at this time.
+
+Full documentation: https://ci-watson.readthedocs.io/en/latest
