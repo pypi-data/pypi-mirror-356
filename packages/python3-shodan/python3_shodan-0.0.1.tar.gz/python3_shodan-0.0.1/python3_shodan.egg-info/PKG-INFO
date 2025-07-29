@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: python3-shodan
+Version: 0.0.1
+Summary: Shodan Python3 client
+Author: sl4x0
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary
