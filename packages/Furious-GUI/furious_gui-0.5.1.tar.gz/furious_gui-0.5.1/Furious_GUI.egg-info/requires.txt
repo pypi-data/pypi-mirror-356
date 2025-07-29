@@ -1,0 +1,18 @@
+PySide6-Essentials
+qdarkstyle
+ujson
+pybase64
+pyqrcode
+pypng
+icmplib
+
+[:sys_platform != "darwin"]
+darkdetect
+
+[:sys_platform == "darwin"]
+darkdetect[macos-listener]
+pyobjc-core
+pyobjc-framework-Cocoa
+
+[:sys_platform == "win32"]
+sysproxy
