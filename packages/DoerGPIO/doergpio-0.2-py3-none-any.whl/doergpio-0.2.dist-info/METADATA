@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: DoerGPIO
+Version: 0.2
+Summary: USB GPIO interface for Python
+Home-page: 
+Author: Pasco Tang
+Author-email: jacobhere@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# DoerGPIO
+
+An Arduino-based GPIO interface for Python, providing a simple way to interact with GPIO pins through serial communication.
+
+## Installation
+
+```bash
+pip install DoerGPIO
+```
+
+## Usage
+
+```python
+from DoerGPIO import GPIO
+
+# Set up a pin
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(18, GPIO.OUT)
+
+# Control the pin
+GPIO.output(18, GPIO.HIGH)
+```
+
+## Features
+
+- Arduino-based GPIO control
+- Simple and intuitive API
+- Support for both input and output modes
+- Pull-up/pull-down resistor configuration
+- Compatible with Python 3.9+
+
+## Requirements
+
+- Python 3.9 or higher
+- pyserial package
+- Arduino board with compatible firmware
+
+## License
+
+[Add your license information here] 
