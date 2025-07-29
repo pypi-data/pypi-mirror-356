@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: codn
+Version: 0.1.0
+Summary: A tiny, modular library for common coding tasks.
+Author-email: askender <askender43@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/dweb-lab/codn
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer
+Dynamic: license-file
+
+# codn
+**Codn** is a tiny, modular library for common coding tasks.
+
+## Features
+
+* ⚡ **Lightweight** — minimal footprint, no external dependencies
+* 🔧 **Practical** — packed with useful, reusable utility functions
+* 🧩 **Modular** — import only what you need
+* 🚀 **Fast to integrate** — plug-and-play for rapid development
+* 🌱 **Extensible** — easy to grow with your project
