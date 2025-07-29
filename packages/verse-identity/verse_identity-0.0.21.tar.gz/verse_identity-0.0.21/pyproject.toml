@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "verse-identity"
+version = "0.0.21"
+description = "Verse Identity Components"
+authors = ["Verse <admin@rapidverse.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rapidverse/verse"
+repository = "https://github.com/rapidverse/verse"
+documentation = "https://github.com/rapidverse/verse"
+keywords = ["verse", "identity", "components"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pyjwt = { version = "*", optional = true }
+httpx = { version = "*", optional = true }
+
+[tool.poetry.extras]
+authentication-auth0 = ["pyjwt", "httpx"]
+all = ["pyjwt", "httpx"]
+
+[[tool.poetry.packages]]
+include = "verse"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
