@@ -1,0 +1,11 @@
+include README.md
+include requirements.txt
+include LICENSE
+include MANIFEST.in
+recursive-include face_detection_sdk *.py
+recursive-include face_detection_sdk *.pt
+recursive-include face_detection_sdk *.pkl
+recursive-include face_detection_sdk *.json
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store 
