@@ -1,0 +1,72 @@
+Metadata-Version: 2.4
+Name: localflare
+Version: 0.1.0
+Summary: A lightweight desktop application development framework
+Home-page: https://github.com/TianmuTNT/localflare
+Author: TianmuTNT
+Author-email: admin@astrarails.org
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask>=2.0.0
+Requires-Dist: pywebview>=3.0.0
+Requires-Dist: requests>=2.25.0
+Requires-Dist: werkzeug>=2.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# LocalFlare
+
+[中文版本](README_zh.md)
+
+LocalFlare is a lightweight desktop application development framework that combines Flask's simplicity with the power of local browser functionality.
+
+## Features
+
+- Flask-like simple API
+- Built-in browser window
+- Local service process
+- Lightweight and high performance
+- Easy to use and extend
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+
+```python
+from localflare import LocalFlare
+
+app = LocalFlare(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello, LocalFlare!'
+
+if __name__ == '__main__':
+    app.run()
+```
+
+## License
+
+Apache-2.0
