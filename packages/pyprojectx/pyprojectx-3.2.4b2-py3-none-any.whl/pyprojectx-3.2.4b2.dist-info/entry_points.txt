@@ -1,0 +1,5 @@
+[console_scripts]
+pyprojectx = pyprojectx.cli:main
+
+[gui_scripts]
+
