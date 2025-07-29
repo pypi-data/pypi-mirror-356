@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: max
+Author: Modular Inc
+Author-email: hello@modular.com
+Home-page: https://modular.com
+License: LicenseRef-MAX-Platform-Software-License
+Description-Content-Type: text/markdown
+Summary: The Modular Accelerated Xecution (MAX) framework
+Requires-Python: >=3.9,<3.14
+Requires-Dist: click>=8.0.0
+Requires-Dist: numpy>=1.18
+Requires-Dist: tqdm>=4.67.1
+Provides-Extra: pipelines
+Requires-Dist: aiohttp>=3.11.12; extra == 'pipelines'
+Requires-Dist: gguf>=0.14.0; extra == 'pipelines'
+Requires-Dist: hf-transfer>=0.1.9; extra == 'pipelines'
+Requires-Dist: huggingface-hub>=0.28.0; extra == 'pipelines'
+Requires-Dist: pillow>=11.0.0; extra == 'pipelines'
+Requires-Dist: psutil>=6.1.1; extra == 'pipelines'
+Requires-Dist: requests>=2.32.3; extra == 'pipelines'
+Requires-Dist: safetensors>=0.5.2; extra == 'pipelines'
+Requires-Dist: soundfile>=0.12.1; extra == 'pipelines'
+Requires-Dist: torch<=2.7.0,>=2.5.0; extra == 'pipelines'
+Requires-Dist: transformers!=4.51.0,>=4.49.0; extra == 'pipelines'
+Requires-Dist: uvicorn>=0.34.0; extra == 'pipelines'
+Requires-Dist: uvloop>=0.21.0; extra == 'pipelines'
+Requires-Dist: xgrammar>=0.1.18; extra == 'pipelines'
+Provides-Extra: serve
+Requires-Dist: aiohttp>=3.11.12; extra == 'serve'
+Requires-Dist: gguf>=0.14.0; extra == 'serve'
+Requires-Dist: hf-transfer>=0.1.9; extra == 'serve'
+Requires-Dist: huggingface-hub>=0.28.0; extra == 'serve'
+Requires-Dist: pillow>=11.0.0; extra == 'serve'
+Requires-Dist: psutil>=6.1.1; extra == 'serve'
+Requires-Dist: requests>=2.32.3; extra == 'serve'
+Requires-Dist: safetensors>=0.5.2; extra == 'serve'
+Requires-Dist: soundfile>=0.12.1; extra == 'serve'
+Requires-Dist: torch<=2.7.0,>=2.5.0; extra == 'serve'
+Requires-Dist: transformers!=4.51.0,>=4.49.0; extra == 'serve'
+Requires-Dist: uvicorn>=0.34.0; extra == 'serve'
+Requires-Dist: uvloop>=0.21.0; extra == 'serve'
+Requires-Dist: xgrammar>=0.1.18; extra == 'serve'
+Requires-Dist: asgiref>=3.8.1; extra == 'serve'
+Requires-Dist: fastapi<0.116,>=0.115.3; extra == 'serve'
+Requires-Dist: grpcio>=1.68.0; extra == 'serve'
+Requires-Dist: grpcio-tools>=1.68.0; extra == 'serve'
+Requires-Dist: grpcio-reflection>=1.68.0; extra == 'serve'
+Requires-Dist: httpx<0.29,>=0.28.1; extra == 'serve'
+Requires-Dist: msgspec>=0.19.0; extra == 'serve'
+Requires-Dist: opentelemetry-api>=1.29.0; extra == 'serve'
+Requires-Dist: opentelemetry-exporter-otlp-proto-http<1.31.1,>=1.27.0; extra == 'serve'
+Requires-Dist: opentelemetry-exporter-prometheus<1.1.12.0rc1,>=0.50b0; extra == 'serve'
+Requires-Dist: opentelemetry-sdk<2.0,>=1.29.0; extra == 'serve'
+Requires-Dist: prometheus-async>=22.2.0; extra == 'serve'
+Requires-Dist: prometheus-client>=0.21.0; extra == 'serve'
+Requires-Dist: protobuf<=5.30.0,>=5.29.1; extra == 'serve'
+Requires-Dist: pydantic-settings>=2.7.1; extra == 'serve'
+Requires-Dist: pydantic; extra == 'serve'
+Requires-Dist: pyinstrument>=5.0.1; extra == 'serve'
+Requires-Dist: python-json-logger>=2.0.7; extra == 'serve'
+Requires-Dist: pyzmq>=26.3.0; extra == 'serve'
+Requires-Dist: scipy>=1.13.0; extra == 'serve'
+Requires-Dist: sentinel>=0.3.0; extra == 'serve'
+Requires-Dist: sse-starlette>=2.1.2; extra == 'serve'
+Requires-Dist: starlette<0.41.3,>=0.40.0; extra == 'serve'
+Requires-Dist: taskgroup>=0.2.2; extra == 'serve'
+Requires-Dist: tokenizers>=0.19.0; extra == 'serve'
+Version: 25.4.0
+
+# MAX
+
+The `max` package is a major component of [Modular
+Platform](https://www.modular.com/), which is an open and fully-integrated
+suite of AI libraries and tools that accelerates model serving and scales GenAI
+deployments.
+
+Instead of installing this `max` package, we recommend installing
+the [`modular` package](https://pypi.org/project/modular/).
+
