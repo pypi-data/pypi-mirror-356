@@ -1,0 +1,16 @@
+ai_api_unified/__init__.py,sha256=iy2CL2k95HEhOKsIcVnMpeOu-xW5ta3Wt-wiyiaQ84s,1767
+ai_api_unified/__version__.py,sha256=LjE6U2gqhiTADQui0keAPw3VJ1LJ5854PXO8-X_8CW0,250
+ai_api_unified/ai_base.py,sha256=LVxbMckmeVoWieDZgedds_3vMlQC6GKRZRnP5e0cteQ,8894
+ai_api_unified/ai_factory.py,sha256=2jCffPwPubLX-bznpLtpw43DzwKe_6bMS1EOQ9-StnE,6501
+ai_api_unified/completions/__init__.py,sha256=gXIkLXj-PAYY3t4WtdSFbKadu9xN8yIEM2c1sxm6r6Q,242
+ai_api_unified/completions/ai_bedrock_completions.py,sha256=DBPTLoYlhh9vtVYSNBqkgP8MAdX2dfbfBBHReiT4F48,10787
+ai_api_unified/completions/ai_openai_completions.py,sha256=yLNF2wJ86ymtpU80I3RdxU8oQUBh5TEKVpCK5G-2_kc,7136
+ai_api_unified/embeddings/__init__.py,sha256=aUr4i3ccG6m77hhmB1H0Dye7_g92poQOAwK1tjtt3cI,227
+ai_api_unified/embeddings/ai_openai_embeddings.py,sha256=TmuyfXF46RbvK5jRp2BBy10JKaUkG5uvPRZlmPt1vew,7854
+ai_api_unified/embeddings/ai_titan_embeddings.py,sha256=DlDVNuEmhURAskSd176BaOM0RPE71i4pLHHjHtCE8UE,7168
+ai_api_unified/util/__init__.py,sha256=lGTLJsUwCV5QgwPw9jiVcZi6gnEj-Upi8ukEEHi79II,146
+ai_api_unified/util/env_settings.py,sha256=_uBY6mQrDXICMDJqUDHu0EoKoBqa0Dq5zpl-VMoBTKs,1300
+ai_api_unified-0.1.5.dist-info/LICENSE,sha256=NlgxYgs3mz244L62mrg3tH69yuvTuaLK26mL8Thy2J0,1085
+ai_api_unified-0.1.5.dist-info/METADATA,sha256=3SjH2i7xEXqVuJuHXiCLNbP7PtKRKcHY6BqiQgdC0qE,11067
+ai_api_unified-0.1.5.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+ai_api_unified-0.1.5.dist-info/RECORD,,
