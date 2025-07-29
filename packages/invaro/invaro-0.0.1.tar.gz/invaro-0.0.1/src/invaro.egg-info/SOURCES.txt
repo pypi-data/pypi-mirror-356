@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/invaro/__init__.py
+src/invaro.egg-info/PKG-INFO
+src/invaro.egg-info/SOURCES.txt
+src/invaro.egg-info/dependency_links.txt
+src/invaro.egg-info/requires.txt
+src/invaro.egg-info/top_level.txt
+src/invaro/accounting/__init__.py
+src/invaro/common/__init__.py
+src/invaro/parser/__init__.py
