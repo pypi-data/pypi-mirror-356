@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+NLEParser/NLEParser.egg-info/PKG-INFO
+NLEParser/NLEParser.egg-info/SOURCES.txt
+NLEParser/NLEParser.egg-info/dependency_links.txt
+NLEParser/NLEParser.egg-info/top_level.txt
+NLEParser/src/__init__.py
+NLEParser/src/parser.py
