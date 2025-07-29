@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: caf-analysis
+Version: 1.42
+Summary: TOF peak finding for CaF data analysis
+Author: Archie Baldock
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
