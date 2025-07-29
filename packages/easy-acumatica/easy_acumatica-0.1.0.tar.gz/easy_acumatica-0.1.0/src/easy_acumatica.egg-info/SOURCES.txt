@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/easy_acumatica/__init__.py
+src/easy_acumatica/client.py
+src/easy_acumatica/contacts.py
+src/easy_acumatica.egg-info/PKG-INFO
+src/easy_acumatica.egg-info/SOURCES.txt
+src/easy_acumatica.egg-info/dependency_links.txt
+src/easy_acumatica.egg-info/requires.txt
+src/easy_acumatica.egg-info/top_level.txt
+tests/test_core.py
