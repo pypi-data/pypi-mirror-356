@@ -1,0 +1,19 @@
+[project]
+name = "memochain"
+version = "0.1.0"
+description = "A lightweight library to add memory to stateless LLM APIs"
+authors = [
+  { name = "Yash Thapliyal", email = "yash.thapliyal@berkeley.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "requests"
+]
+
+[project.scripts]
+memochain-sessions = "memochain.list_sessions:load_session_ids"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
