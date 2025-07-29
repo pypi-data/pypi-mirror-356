@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+portalsmp/__init__.py
+portalsmp/collections_ids.py
+portalsmp/portalsapi.py
+portalsmp.egg-info/PKG-INFO
+portalsmp.egg-info/SOURCES.txt
+portalsmp.egg-info/dependency_links.txt
+portalsmp.egg-info/requires.txt
+portalsmp.egg-info/top_level.txt
