@@ -1,0 +1,8 @@
+tqdm
+httpx
+fastsdk>=00.02.00
+media-toolkit[VideoFile]>=00.02.03
+singleton_decorator==1.0.0
+
+[dev]
+pytest
