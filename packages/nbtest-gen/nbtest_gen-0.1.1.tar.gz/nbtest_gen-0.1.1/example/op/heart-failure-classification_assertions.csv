@@ -1,0 +1,56 @@
+Assertion_id,Assertion,Assertion_type
+0,"nbtest.assert_shape(df, (299, 13))",DATASET__read_csv
+1,"nbtest.assert_column_names(df, ['DEATH_EVENT', 'age', 'anaemia', 'creatinine_phosphokinase', 'diabetes', 'ejection_fraction', 'high_blood_pressure', 'platelets', 'serum_creatinine', 'serum_sodium', 'sex', 'smoking', 'time'])",DATASET__read_csv
+2,"nbtest.assert_column_types(df, ['int64', 'float64', 'int64', 'int64', 'int64', 'int64', 'int64', 'float64', 'float64', 'int64', 'int64', 'int64', 'int64'])",DATASET__read_csv
+3,"nbtest.assert_df_mean(df, 20331.504464625676, atol=0.0)",DATASET__read_csv
+4,"nbtest.assert_df_var(df, 5655280085.135918, atol=0.0)",DATASET__read_csv
+5,"nbtest.assert_shape(nbtest_tmpvar_0, (10, 13))",DATASET__head
+6,"nbtest.assert_column_names(nbtest_tmpvar_0, ['DEATH_EVENT', 'age', 'anaemia', 'creatinine_phosphokinase', 'diabetes', 'ejection_fraction', 'high_blood_pressure', 'platelets', 'serum_creatinine', 'serum_sodium', 'sex', 'smoking', 'time'])",DATASET__head
+7,"nbtest.assert_column_types(nbtest_tmpvar_0, ['int64', 'float64', 'int64', 'int64', 'int64', 'int64', 'int64', 'float64', 'float64', 'int64', 'int64', 'int64', 'int64'])",DATASET__head
+8,"nbtest.assert_df_mean(nbtest_tmpvar_0, 20584.102, atol=0.0)",DATASET__head
+9,"nbtest.assert_df_var(nbtest_tmpvar_0, 5735375787.815456, atol=0.0)",DATASET__head
+10,"nbtest.assert_allclose(nbtest_tmpvar_2.sum(), 0.0, atol=0.0)",DATASET__any
+11,"nbtest.assert_shape(df, (299, 13))",DATASET__ATTRIBUTE_ACCESS
+12,"nbtest.assert_shape(nbtest_tmpvar_3, (8, 13))",DATASET__describe
+13,"nbtest.assert_column_names(nbtest_tmpvar_3, ['DEATH_EVENT', 'age', 'anaemia', 'creatinine_phosphokinase', 'diabetes', 'ejection_fraction', 'high_blood_pressure', 'platelets', 'serum_creatinine', 'serum_sodium', 'sex', 'smoking', 'time'])",DATASET__describe
+14,"nbtest.assert_column_types(nbtest_tmpvar_3, ['float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64', 'float64'])",DATASET__describe
+15,"nbtest.assert_df_mean(nbtest_tmpvar_3, 19528.024571370242, atol=0.0)",DATASET__describe
+16,"nbtest.assert_df_var(nbtest_tmpvar_3, 9311258132.272377, atol=0.0)",DATASET__describe
+17,"nbtest.assert_plot_equal(nbtest_tmpvar_4, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_4.png, tol=0.0)",PLOT__show
+18,"nbtest.assert_plot_equal(nbtest_tmpvar_6, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_6.png, tol=0.0)",PLOT__show
+19,"nbtest.assert_sklearn_model(nbtest_tmpvar_7, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_19.pkl)",MODEL_ARCH__fit
+20,"nbtest.assert_plot_equal(nbtest_tmpvar_8, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_8.png, tol=22.879555345561432)",PLOT__show
+21,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.8266666666666668, atol=0.29287843515318385)",MODEL_PERF__accuracy_score
+22,"nbtest.assert_allclose(roc_auc, 0.8674270018480545, atol=0.28750827339982776)",MODEL_PERF__auc
+23,"nbtest.assert_plot_equal(nbtest_tmpvar_9, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_9.png, tol=0.6532214195025082)",PLOT__show
+24,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.810173539910382, atol=0.29269272197038404)",MODEL_PERF__roc_auc_score
+25,"nbtest.assert_sklearn_model(nbtest_tmpvar_10, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_25.pkl)",MODEL_ARCH__fit
+26,"nbtest.assert_plot_equal(nbtest_tmpvar_11, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_11.png, tol=29.955032484330612)",PLOT__show
+27,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.7966666666666666, atol=0.29962940072325644)",MODEL_PERF__accuracy_score
+28,"nbtest.assert_allclose(roc_auc, 0.8486903068909648, atol=0.3258471661094631)",MODEL_PERF__auc
+29,"nbtest.assert_plot_equal(nbtest_tmpvar_12, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_12.png, tol=2.464720081286026)",PLOT__show
+30,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.7826717361585782, atol=0.3096991242461878)",MODEL_PERF__roc_auc_score
+31,"nbtest.assert_sklearn_model(nbtest_tmpvar_13, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_31.pkl)",MODEL_ARCH__fit
+32,"nbtest.assert_plot_equal(nbtest_tmpvar_14, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_14.png, tol=30.288301825703325)",PLOT__show
+33,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.7833333333333334, atol=0.31972210155418135)",MODEL_PERF__accuracy_score
+34,"nbtest.assert_allclose(roc_auc, 0.8534918071694388, atol=0.3497786312782621)",MODEL_PERF__auc
+35,"nbtest.assert_plot_equal(nbtest_tmpvar_15, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_15.png, tol=0.9483862808689512)",PLOT__show
+36,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.7755074238626871, atol=0.29779334332832824)",MODEL_PERF__roc_auc_score
+37,"nbtest.assert_sklearn_model(nbtest_tmpvar_16, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_37.pkl)",MODEL_ARCH__fit
+38,"nbtest.assert_plot_equal(nbtest_tmpvar_17, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_17.png, tol=17.260492858074375)",PLOT__show
+39,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.8099999999999999, atol=0.08944271909999145)",MODEL_PERF__accuracy_score
+40,"nbtest.assert_allclose(roc_auc, 0.8392267869800765, atol=0.20856929210932415)",MODEL_PERF__auc
+41,"nbtest.assert_plot_equal(nbtest_tmpvar_18, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_18.png, tol=1.4747673034099207)",PLOT__show
+42,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.7580974215842637, atol=0.09938234537853743)",MODEL_PERF__roc_auc_score
+43,"nbtest.assert_sklearn_model(nbtest_tmpvar_19, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_43.pkl)",MODEL_ARCH__fit
+44,"nbtest.assert_plot_equal(nbtest_tmpvar_20, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_20.png, tol=23.318500904392362)",PLOT__show
+45,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.76, atol=0.16733200530681513)",MODEL_PERF__accuracy_score
+46,"nbtest.assert_allclose(roc_auc, 0.734294922913344, atol=0.11849631924549342)",MODEL_PERF__auc
+47,"nbtest.assert_plot_equal(nbtest_tmpvar_21, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_21.png, tol=9.974209443813443)",PLOT__show
+48,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.734294922913344, atol=0.11849631924549342)",MODEL_PERF__roc_auc_score
+49,"nbtest.assert_sklearn_model(nbtest_tmpvar_22, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/sklearn_model_49.pkl)",MODEL_ARCH__fit
+50,"nbtest.assert_plot_equal(nbtest_tmpvar_23, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_23.png, tol=27.44728481568448)",PLOT__show
+51,"nbtest.assert_allclose(accuracy_score(y_test, y_pred), 0.7833333333333334, atol=0.24944382578492927)",MODEL_PERF__accuracy_score
+52,"nbtest.assert_allclose(roc_auc, 0.8649053679020783, atol=0.2886294155083467)",MODEL_PERF__auc
+53,"nbtest.assert_plot_equal(nbtest_tmpvar_24, /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/reference_plot_nbtest_tmpvar_24.png, tol=3.2038784193697003)",PLOT__show
+54,"nbtest.assert_allclose(sklearn.metrics.roc_auc_score(y_test, y_pred), 0.7656695716564138, atol=0.2053773449540554)",MODEL_PERF__roc_auc_score
