@@ -1,0 +1,255 @@
+Metadata-Version: 2.4
+Name: jvm
+Version: 0.6.0b6
+Summary: Python bridge for the Java Virtual Machine.
+Author: Adam Karpierz
+Author-email: adam@karpierz.net
+Maintainer: Adam Karpierz
+Maintainer-email: adam@karpierz.net
+License-Expression: CC-BY-NC-ND-4.0 OR LicenseRef-Proprietary
+Project-URL: Homepage, https://pypi.org/project/jvm/
+Project-URL: Documentation, https://jvm.readthedocs.io/
+Project-URL: Download, https://pypi.org/project/jvm/
+Project-URL: Source, https://github.com/karpierz/jvm
+Project-URL: Issues, https://github.com/karpierz/jvm/issues
+Keywords: jni,jvm,jtypes,jt,jpype,jep,pyjnius,jpy,javabridge,pyjava,jcc,py4j,jython,java,pythonjava,rubicon-java
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Polish
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Java
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Java Libraries
+Requires-Python: <4.0.0,>=3.10.0
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: pkg-about>=1.3.6
+Requires-Dist: memorybuffer>=0.7.0b1
+Requires-Dist: cffi>=1.17.1
+Requires-Dist: jni>=1.2.0b1
+Provides-Extra: cffi
+Requires-Dist: jni[cffi]>=1.2.0b1; extra == "cffi"
+Provides-Extra: cython
+Requires-Dist: jni[cython]>=1.2.0b1; extra == "cython"
+Provides-Extra: doc
+Requires-Dist: Sphinx>=8.1.3; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints>=3.0.1; extra == "doc"
+Requires-Dist: sphinx-toolbox>=4.0.0; extra == "doc"
+Requires-Dist: sphinx-tabs>=3.4.5; extra == "doc"
+Requires-Dist: sphinx-copybutton>=0.5.2; extra == "doc"
+Requires-Dist: sphinxcontrib-spelling>=8.0.1; extra == "doc"
+Requires-Dist: sphinx-lint>=1.0.0; extra == "doc"
+Requires-Dist: restructuredtext-lint>=1.4.0; extra == "doc"
+Requires-Dist: nbsphinx>=0.9.7; extra == "doc"
+Provides-Extra: test
+Requires-Dist: deepdiff>=8.5.0; extra == "test"
+Requires-Dist: rich>=14.0.0; extra == "test"
+Dynamic: license-file
+
+jvm
+===
+
+Python bridge for the Java Virtual Machine.
+
+Overview
+========
+
+| |package_bold| is a bridge between Python and JVM, allowing these to intercommunicate.
+| It is an effort to allow Python programs full access to Java class libraries.
+
+`PyPI record`_.
+
+`Documentation`_.
+
+| |package_bold| package is closely based on the `jni`_ Python package.
+
+What is |package|:
+------------------
+
+| |package_bold| is an effort to allow Python programs full access to Java class libraries.
+| This is achieved not through re-implementing Python, as Jython has done, but rather
+  through interfacing at the native level in both virtual machines.
+
+Eventually, it should be possible to replace Java with python in many, though not all,
+situations. JSP, Servlets, RMI servers and IDE plugins are good candidates.
+
+Once this integration is achieved, a second phase will be started to separate the Java
+logic from the Python logic, eventually allowing the bridging technology to be used
+in other environments, I.E. Ruby, Perl, COM, etc ...
+
+Known Bugs/Limitations :
+  * Java classes outside of a package (in the <default>) cannot be imported.
+  * Because of lack of JVM support, you cannot shutdown the JVM and then restart it.
+  * Some methods rely on the "current" class/caller. Since calls coming directly from
+    python code do not have a current class, these methods do not work. The User Manual
+    lists all the known methods like that.
+
+Installation
+============
+
+Prerequisites:
+
++ Python 3.10 or higher
+
+  * https://www.python.org/
+  * Java 17 is a primary test environment.
+
++ pip and setuptools
+
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
+
+To install run:
+
+  .. parsed-literal::
+
+    python -m pip install --upgrade |package|
+
+Development
+===========
+
+Prerequisites:
+
++ Development is strictly based on *tox*. To install it run::
+
+    python -m pip install --upgrade tox
+
+Visit `Development page`_.
+
+Installation from sources:
+
+clone the sources:
+
+  .. parsed-literal::
+
+    git clone |respository| |package|
+
+and run:
+
+  .. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+  .. parsed-literal::
+
+    python -m pip install --editable ./|package|
+
+License
+=======
+
+  | |copyright|
+  | Licensed under CC BY-NC-ND 4.0
+  | Licensed under proprietary License
+  | Please refer to the accompanying LICENSE file.
+
+Authors
+=======
+
+* Adam Karpierz <adam@karpierz.net>
+
+.. |package| replace:: jvm
+.. |package_bold| replace:: **jvm**
+.. |copyright| replace:: Copyright (c) 2004-2025 Adam Karpierz
+.. |respository| replace:: https://github.com/karpierz/jvm.git
+.. _Development page: https://github.com/karpierz/jvm
+.. _PyPI record: https://pypi.org/project/jvm/
+.. _Documentation: https://jvm.readthedocs.io/
+.. _jni: https://pypi.org/project/jni/
+
+Changelog
+=========
+
+0.6.0b6 (2025-06-17)
+--------------------
+- Add support for Python 3.14
+- Add support for PyPy 3.11
+- Drop support for Python 3.9 (due to compatibility issues).
+- Drop support for PyPy 3.9
+- | Drop support for Oracle Java 1.8 (jdk, jre) due to licensing issues
+  | and the end of support from Oracle.
+- Update readthedocs's python to version 3.13
+- Update tox's base_python to version 3.13
+- Added utilities: dll_path(), python_dll_path()
+- pvm.h has been moved to jni (v.1.2.0b1) as pvm.c.
+- Tox configuration is now in native (toml) format.
+- Setup (dependencies) update.
+
+0.6.0b5 (2024-11-08)
+--------------------
+- Add support for Python 3.10, 3.11, 3.12 and 3.13
+- Drop support for Python 3.7 and 3.8
+- Add support for PyPy 3.9 and 3.10
+- pvm.h has been included for further development.
+- Tox configuration has been moved to pyproject.toml
+- Setup update (now based on tox >= 4.0).
+- Fix the bug in lib/classproperty.
+- Fixes for bugs in JVMFinder's.
+- Copyright year update.
+- Unittest have been performed for much more JVMs.
+- Setup fixes.
+- Setup (dependencies) update.
+
+0.5.0b7 (2022-01-29)
+--------------------
+- Drop support for Python 3.6
+- Setup update.
+
+0.5.0b5 (2021-10-16)
+--------------------
+- dll_path argument of JVM() can also be type os.PathLike.
+- Copyright year update.
+- Setup update.
+
+0.5.0b3 (2020-12-13)
+--------------------
+- Add support for Python 3.9
+- General update, improvements and cleanup.
+- Setup update.
+- Elimination of dependence on _testcapi.
+
+0.4.0b3 (2020-03-08)
+--------------------
+- Drop support for Python2
+- Update of Mozilla Rhino.
+- Update of license info.
+- Setup update.
+
+0.3.0b2 (2019-07-10)
+--------------------
+- Last release for Python2
+
+0.3.0b1 (2018-11-08)
+--------------------
+- Bug fixes and improvements.
+- Add Java 10 support.
+- Update of the required setuptools version.
+- Setup and tests improvements.
+
+0.2.0b3 (2018-05-29)
+--------------------
+- Bug fixes and improvements in Java 9 support.
+- Improved support for Cygwin.
+- Update of Mozilla Rhino.
+- Update of the required setuptools version.
+
+0.2.0b1 (2018-02-26)
+--------------------
+- Improvement and simplification of setup and packaging.
+
+0.1.1 (2005-10-05)
+------------------
+- Initial version.
