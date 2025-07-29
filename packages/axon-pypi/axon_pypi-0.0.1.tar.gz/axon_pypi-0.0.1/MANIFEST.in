@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+recursive-include axon/lib *.so *.dll *.dylib
+recursive-include axon/csrc *
+recursive-include axon/inc *
+recursive-include axon/_internal *.py

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axon-pypi"
+version = "0.0.1"
+description = "Multi-dimensional tensor library with custom C/C++ backend and Python frontend"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Shivendra S", email = "shivharsh44@gmail.com"}
+]
+requires-python = ">=3.11"
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: C",
+  "Programming Language :: C++",
+  "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"src" = ["lib/*.so", "lib/*.dll", "lib/*.dylib", "csrc/**/*", "inc/*"]
+
+[tool.setuptools.exclude-package-data]
+"src" = ["*.pyc", "__pycache__"]
+
+[tool.setuptools.dynamic]
+# This picks up README.md automatically
+readme = {file = ["README.md"]}
