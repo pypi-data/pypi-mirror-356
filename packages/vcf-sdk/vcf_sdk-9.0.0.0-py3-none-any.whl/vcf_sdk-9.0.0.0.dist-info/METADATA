@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: vcf-sdk
+Version: 9.0.0.0
+Summary: VCF SDK library is a wrapper package to install client libraries for VMware Cloud Foundation Automation APIs.
+Author: Broadcom
+License: License :: OSI Approved :: Apache Software License
+Project-URL: Homepage, https://github.com/vmware/vcf-sdk-python
+Keywords: Broadcom,VCF,VCF SDK,vSphere,vCenter Server,SDDC Manager,VCF Installer,VSAN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vmware_vcenter==9.0.0.0
+Requires-Dist: pyvmomi==9.0.0.0
+Requires-Dist: vmware_vsan_data_protection==9.0.0.0
+Requires-Dist: vcf_installer==9.0.0.0
+Requires-Dist: vmware_sddc_manager==9.0.0.0
+Dynamic: license-file
+
+# VCF SDK
+
+VMware Cloud Foundation SDK (vcf-sdk) library is a wrapper package to install:
+- vmware_vcenter
+- pyvmomi (includes vsan)
+- vmware_vsan_data_protection
+- vmware_sddc_manager
+- vcf_installer
+
+[Package (PyPI)](https://pypi.org/project/vcf-sdk/) | [Source](https://github.com/vmware/vcf-sdk-python)
+
+## Getting started
+
+### Prerequisites
+
+- Supported Python versions: 3.9, 3.10, 3.11, 3.12 and 3.13
+
+### Install the package
+
+```bash
+pip install vcf-sdk
+```
