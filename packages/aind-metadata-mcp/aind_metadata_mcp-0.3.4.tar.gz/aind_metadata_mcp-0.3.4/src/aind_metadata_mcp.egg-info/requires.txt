@@ -1,0 +1,14 @@
+aind-data-access-api
+fastmcp
+langchain-core>=0.3.60
+pydantic>=2.11.4
+sentence-transformers>=4.1.0
+
+[dev]
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+furo
