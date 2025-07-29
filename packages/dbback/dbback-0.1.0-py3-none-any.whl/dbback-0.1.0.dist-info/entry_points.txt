@@ -1,0 +1,2 @@
+[console_scripts]
+dbback = dbback.cli:cli
