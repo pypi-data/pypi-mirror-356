@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+yt_transcriptor/__init__.py
+yt_transcriptor/cli.py
+yt_transcriptor.egg-info/PKG-INFO
+yt_transcriptor.egg-info/SOURCES.txt
+yt_transcriptor.egg-info/dependency_links.txt
+yt_transcriptor.egg-info/entry_points.txt
+yt_transcriptor.egg-info/requires.txt
+yt_transcriptor.egg-info/top_level.txt
