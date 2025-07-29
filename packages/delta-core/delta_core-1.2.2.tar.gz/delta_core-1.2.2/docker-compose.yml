@@ -1,0 +1,72 @@
+volumes:
+  delta-run-db: {}
+
+services:
+  db:
+    container_name: delta-run-db
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - delta-run-db:/var/lib/postgresql/data/
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${DB_USERNAME} -d ${DB_DATABASE}'" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  redis-adapter:
+    container_name: delta-redis-adapter
+    image: redis:7.2.5
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli ping | grep PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  delta-run:
+    container_name: delta-run
+    depends_on:
+      db:
+        condition: service_healthy
+      redis-adapter:
+        condition: service_healthy
+    build:
+      context: .
+      args:
+        GIT_USERNAME: ${GIT_USR}
+        GIT_PASSWORD: ${GIT_PWD}
+    image: "registry.gael.fr/gael10/delta/software/delta-core/delta-run:dev"
+    environment:
+      DELTA_GSS_API_URL: ${DELTA_GSS_API_URL}
+      DELTA_RUN_LIMIT: ${DELTA_RUN_LIMIT}
+      DELTA_EVICTION_ACTIVE: ${DELTA_EVICTION_ACTIVE}
+      DELTA_EVICTION_KEEP_PERIOD: ${DELTA_EVICTION_KEEP_PERIOD}
+      DELTA_SOCKETIO_ADAPTER_URL: ${DELTA_SOCKETIO_ADAPTER_URL:-redis://redis-adapter:6379}
+      DELTA_DATABASE_URL: postgresql+${DB_DRIVER}://${DB_USERNAME}:${DB_PASSWORD}@db/${DB_DATABASE}
+      DELTA_DATABASE_SHOW_SQL: ${DELTA_DATABASE_SHOW_SQL}
+      DELTA_IMAGE_REPO_HOSTNAME: ${DELTA_IMAGE_REPO_HOSTNAME}
+      DELTA_IMAGE_REPO_USERNAME: ${DELTA_IMAGE_REPO_USERNAME}
+      DELTA_IMAGE_REPO_PASSWORD: ${DELTA_IMAGE_REPO_PASSWORD}
+      DELTA_KEYCLOAK_JWKS_URL: ${DELTA_KEYCLOAK_JWKS_URL}
+      DELTA_S3_ENDPOINT: ${DELTA_S3_ENDPOINT}
+      DELTA_S3_REGION: ${DELTA_S3_REGION}
+      DELTA_S3_ACCESS_KEY: ${DELTA_S3_ACCESS_KEY}
+      DELTA_S3_SECRET_ACCESS_KEY: ${DELTA_S3_SECRET_ACCESS_KEY}
+      DELTA_S3_BUCKET: ${DELTA_S3_BUCKET}
+      DELTA_K8S_CONTEXT: ${DELTA_K8S_CONTEXT}
+      DELTA_K8S_NAMESPACE: ${DELTA_K8S_NAMESPACE}
+      DELTA_K8S_CLUSTER_NAME: ${DELTA_K8S_CLUSTER_NAME}
+      DELTA_K8S_CLUSTER_CERT_AUTH: ${DELTA_K8S_CLUSTER_CERT_AUTH}
+      DELTA_K8S_CLUSTER_SERVER: ${DELTA_K8S_CLUSTER_SERVER}
+      DELTA_K8S_USER_NAME: ${DELTA_K8S_USER_NAME}
+      DELTA_K8S_USER_CLI_CERT: ${DELTA_K8S_USER_CLI_CERT}
+      DELTA_K8S_USER_CLI_KEY: ${DELTA_K8S_USER_CLI_KEY}
+      DELTA_PUBLIC_KEY: ${DELTA_PUBLIC_KEY}
+      DELTA_PRIVATE_KEY: ${DELTA_PRIVATE_KEY}
+    ports:
+      - "8000:8000"
