@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: verse-content
+Version: 0.0.21
+Summary: Verse Content Components
+License: MIT
+Keywords: verse,content,components
+Author: Verse
+Author-email: admin@rapidverse.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: all
+Provides-Extra: audio-av
+Provides-Extra: audio-default
+Provides-Extra: image-default
+Provides-Extra: image-pillow
+Provides-Extra: live-stream-av
+Provides-Extra: live-stream-default
+Provides-Extra: video-av
+Provides-Extra: video-default
+Requires-Dist: av ; extra == "audio-av" or extra == "audio-default" or extra == "video-av" or extra == "video-default" or extra == "live-stream-av" or extra == "live-stream-default" or extra == "all"
+Requires-Dist: httpx ; extra == "image-pillow" or extra == "image-default" or extra == "all"
+Requires-Dist: m3u8 ; extra == "live-stream-av" or extra == "live-stream-default" or extra == "all"
+Requires-Dist: pillow ; extra == "image-pillow" or extra == "image-default" or extra == "video-av" or extra == "video-default" or extra == "all"
+Project-URL: Documentation, https://github.com/rapidverse/verse
+Project-URL: Homepage, https://github.com/rapidverse/verse
+Project-URL: Repository, https://github.com/rapidverse/verse
+Description-Content-Type: text/markdown
+
+# AI-Verse
+
+
+

@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "verse-content"
+version = "0.0.21"
+description = "Verse Content Components"
+authors = ["Verse <admin@rapidverse.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rapidverse/verse"
+repository = "https://github.com/rapidverse/verse"
+documentation = "https://github.com/rapidverse/verse"
+keywords = ["verse", "content", "components"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pillow = { version = "*", optional = true }
+httpx = { version = "*", optional = true }
+av = { version = "*", optional = true }
+m3u8 = { version = "*", optional = true }
+
+[tool.poetry.extras]
+image-pillow = ["pillow", "httpx"]
+image-default = ["pillow", "httpx"]
+
+audio-av = ["av"]
+audio-default = ["av"]
+
+video-av = ["av", "pillow"]
+video-default = ["av", "pillow"]
+
+live-stream-av = ["av", "m3u8"]
+live-stream-default = ["av", "m3u8"]
+
+all = ["pillow", "httpx", "av", "m3u8"]
+
+[[tool.poetry.packages]]
+include = "verse"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
