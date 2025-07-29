@@ -1,0 +1,4 @@
+[console_scripts]
+data-dashboard = qua_dashboards.data_dashboard.data_dashboard_app:main
+qua-dashboard = qua_dashboards.app:main
+qua-dashboard-cli = qua_dashboards.cli:main
