@@ -1,0 +1,10 @@
+novapipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novapipe/cli.py,sha256=pHI9PK8hlacsqfv-CVeKokQLgQs0XvCKvj2pls_mfUU,23710
+novapipe/logging_conf.py,sha256=pTh1nfLLS6V6pb2TLLXBTNRJj_DmN101wvj3fsd8GIQ,762
+novapipe/models.py,sha256=c8D3BGu85-f1PFDnyqktJdHqzDekeoDSwhWr2NYEXAE,3336
+novapipe/runner.py,sha256=soHhVncVHT3ha1wksh4wGNvAn-M6iCk5sqN9laidb1I,29984
+novapipe/tasks.py,sha256=81EvlUHuWuGlihgphi51rEmCLWPPX6yx8QFt-PnDIY8,7680
+novapipe-1.0.0.dist-info/entry_points.txt,sha256=b1eN2Rvn61EIDYtVLXEMiEj6l_UtYfTHyu0ifZmchAo,45
+novapipe-1.0.0.dist-info/METADATA,sha256=ugwEhhHEp1rLlTnBEjZ_ULgK1ocdibSTtL10UvL4esQ,3772
+novapipe-1.0.0.dist-info/WHEEL,sha256=Nq82e9rUAnEjt98J6MlVmMCZb-t9cYE2Ir1kpBmnWfs,88
+novapipe-1.0.0.dist-info/RECORD,,
