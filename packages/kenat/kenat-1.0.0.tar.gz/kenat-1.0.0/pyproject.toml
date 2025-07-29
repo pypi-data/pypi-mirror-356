@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kenat"
+version = "1.0.0"
+authors = [
+  { name="Melaku Demeke", email="melaku.demeke789@gmail.com" },
+]
+description = "A comprehensive Python library for the Ethiopian calendar, handling conversions, holidays (Bahire Hasab), and date arithmetic."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+keywords = ["ethiopian", "calendar", "kenat", "ethiopia", "bahire hasab", "date conversion", "amharic"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://www.kenat.systems/"
+"Bug Tracker" = "https://github.com/MelakuDemeke/kenat/issues"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-mock",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kenat"]
