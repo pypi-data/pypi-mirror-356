@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: django_fast
+Version: 0.1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Requires-Python: >=3.8
+Requires-Dist: django<5.0,>=4.2
+Requires-Dist: uvicorn<1.0,>=0.22
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
