@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: funciones_pokemon
+Version: 0.5
+Summary: Libreria de pokemon
+Home-page: https://github.com/
+Author: Cristian Lorca Brenes
+Author-email: cristian@gmail.com
+License: MIT
+Download-URL: https://github.com/
+Description: UNKNOWN
+Keywords: pokemon,csv,pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
