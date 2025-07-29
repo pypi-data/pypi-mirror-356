@@ -1,0 +1,2 @@
+[console_scripts]
+prism_embedder = prism_embedder.main:run
