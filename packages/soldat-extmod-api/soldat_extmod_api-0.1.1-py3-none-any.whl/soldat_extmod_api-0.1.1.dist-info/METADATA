@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: soldat-extmod-api
+Version: 0.1.1
+Requires-Dist: keystone-engine >=0.9.2
+Requires-Dist: pefile >=2023.2.7
+Requires-Dist: pynput >=1.7.6
+Requires-Dist: pywin32 >=306
+
