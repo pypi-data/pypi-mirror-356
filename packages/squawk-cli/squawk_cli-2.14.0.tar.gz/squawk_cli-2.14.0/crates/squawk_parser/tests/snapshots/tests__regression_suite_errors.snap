@@ -1,0 +1,5 @@
+---
+source: crates/squawk_parser/tests/tests.rs
+expression: "out.join(\"\\n\")"
+---
+
