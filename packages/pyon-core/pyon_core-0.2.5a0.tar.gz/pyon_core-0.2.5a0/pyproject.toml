@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyon-core"
+version = "0.2.5-alpha"
+description = "Python Object Notation: Extended JSON for complex Python types"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "Eduardo Rodrigues", email = "ietsira@eonflux.ai" }
+]
+keywords = ["serialization", "deserialization", "JSON", "Python", "AI", "ML"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13"
+]
+dependencies = [
+  "bitarray>=3.0.0,<4.0",
+  "numpy>=2.2.0,<3.0",
+  "pandas>=2.2.0,<3.0",
+  "python-magic-bin>=0.4.14,<0.5"
+]
+
+[project.urls]
+Homepage = "https://github.com/eonflux-ai/pyon"
+Documentation = "https://github.com/eonflux-ai/pyon#readme"
+Source = "https://github.com/eonflux-ai/pyon"
+Tracker = "https://github.com/eonflux-ai/pyon/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "black",
+  "pylint"
+]
+
+[tool.setuptools]
+packages = { find = { where = ["."] } }
+include-package-data = true
