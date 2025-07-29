@@ -1,0 +1,118 @@
+Metadata-Version: 2.4
+Name: eBase32
+Version: 0.0.1
+Summary: A human-friendly Base32 encoding without ambiguous characters
+Author-email: Endkind <endkind.ender@endkind.net>
+License: MIT License
+        
+        Copyright (c) 2025 Endkind
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Source, https://github.com/Endkind/eBase32
+Project-URL: Specification, https://github.com/Endkind/eBase32/blob/main/docs/standard.md
+Keywords: base32,encoding,id,url,friendly,no-confusion
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# eBase32
+
+`eBase32` is a custom Base32 encoding standard designed to be fully URL-safe and free from ambiguous characters. The goal is to provide a human-friendly, robust, and deterministic alternative to classical Base32 schemes such as Crockford or RFC 4648.
+
+## Features
+
+- ✅ No ambiguous characters (`0`, `O`, `I`, `l`, `1`, `S`, `B`, `Z`, etc.)
+- ✅ Fully alphanumeric – no symbols
+- ✅ Ideal for IDs, tokens, URLs, QR codes, or human-readable values
+- ✅ No padding, no special rules
+
+The character set consists of the following 32 characters:
+
+```
+ACEFHKLMNPRTWXYadeghknrtwxy34679
+```
+
+## Installation
+
+```bash
+pip install eBase32
+```
+
+## Usage
+
+### Functional API
+
+```python
+from eBase32 import encode, decode
+
+data = b"hello world"
+encoded = encode(data)
+decoded = decode(encoded)
+
+assert decoded == data
+```
+
+### Object-Oriented API
+
+```python
+from eBase32 import EBase32
+
+id = EBase32(b"hello")
+print(str(id))         # eBase32 string
+print(id.bytes)        # original bytes
+print(id.string)       # eBase32 string (same as str())
+print(bytes(id))       # original bytes
+```
+
+### Comparison & Equality
+
+```python
+a = EBase32(b"data")
+b = EBase32(str(a))
+
+assert a == b
+assert a == b.bytes
+assert a == b.string
+```
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+## Author
+
+Endkind ([@Endkind](https://github.com/Endkind))
+
+---
+
+## Technical Specification
+
+For implementation and specification details, see [STANDARD.md](./docs/standard.md).
+
+- Bit packing
+- Character set origin
+- Comparison to other standards
+- Performance considerations
