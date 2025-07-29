@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: h3-toolkit
+Version: 0.3.12
+Summary: 
+Author: Huang SyuanBo
+Author-email: godspeed88168@gmail.com
+Requires-Python: >=3.10.12,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.11.14,<4.0.0)
+Requires-Dist: geopandas (>=1.0.1,<2.0.0)
+Requires-Dist: h3ronpy (>=0.21.0,<0.22.0)
+Requires-Dist: polars (==1.2.1)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+[![pypi](https://img.shields.io/pypi/v/h3_toolkit.svg)](https://pypi.python.org/pypi/h3_toolkit/)
+
+# h3_toolkit
+----------------
+
+python tool for easily aggregating h3 data.
+
+Documentation is available at [https://h3-toolkit.readthedocs.io/en/latest/](https://h3-toolkit.readthedocs.io/en/latest/).
