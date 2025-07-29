@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: RecruitmentCurveFitting
+Version: 1.2.7
+Summary: A package for fitting sigmoid and bell-shaped functions to EMG recruitment-curve measurements
+Author: Jeremy Hill
+Author-email: jezhill@gmail.com
+License: CC0
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, <4
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+This package provides classes `Sigmoid` and `HillCurve` for fitting, plotting and
+interpolating EMG recruitment curves. These might be suitable for the M-wave and H-reflex
+components, respectively, of the EMG responses to electrical peripheral nerve stimulation.
+Feed in a sequence of stimulation intensities and corresponding sequence of response
+magnitudes. These can be used from the command-line, outside of python.
+
+The package also provides a higher-level class `RecruitmentCurve` which takes in EMG
+waveforms, together with information on the start and end times of the response components
+of interest, and performs either or both of the above fits, optionally rendering the results
+on an interactive plot.
+
+To get started::
+
+    python -m pip install RecruitmentCurveFitting
+    python -m RecruitmentCurveFitting --unpack-examples
+    python -m RecruitmentCurveFitting example-data1.txt example-data2.txt --plot
+    python -m RecruitmentCurveFitting --help
+    python -m RecruitmentCurveFitting --help-module
+    
+
+
+If you use this software in your research, your report should cite the article
+in which this approach was introduced, as follows:
+
+- McKinnon ML, Hill NJ, Carp JS, Dellenbach B & Thompson AK (2023).
+  Methods for automated delineation and assessment of EMG responses evoked by
+  peripheral nerve stimulation in diagnostic and closed-loop therapeutic
+  applications.  Journal of Neural Engineering 20(4):046012.
+  https://doi.org/10.1088/1741-2552/ace6fb
+
+The corresponding BibTeX entry is::
+
+    @article{mckinnonhill2023,
+      author  = {McKinnon, Michael L. and Hill, N. Jeremy and Carp, Jonathan S.
+                 and Dellenbach, Blair and Thompson, Aiko K.},
+      title   = {Methods for Automated Delineation and Assessment of {EMG}
+                 Responses Evoked by Peripheral Nerve Stimulation in Diagnostic
+                 and Closed-Loop Therapeutic Applications},
+      journal = {Journal of Neural Engineering},
+      year    = {2023},
+      month   = {July},
+      date    = {2023-07-21},
+      volume  = {20},
+      number  = {4},
+      pages   = {046012},
+      doi     = {10.1088/1741-2552/ace6fb},
+      url     = {https://doi.org/10.1088/1741-2552/ace6fb},
+    }
+
+
+Development was supported by the NIH, NYS SCIRB, Veterans Affairs RRD,
+and the Stratton VA Medical Center.
+
