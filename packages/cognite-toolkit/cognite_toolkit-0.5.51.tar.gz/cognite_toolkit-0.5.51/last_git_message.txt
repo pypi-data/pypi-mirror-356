@@ -1,0 +1,48 @@
+[CDF-24919] 👷 Fix transformations.preview (#1615)
+
+# Description
+The Python-SDK implementation of the `/transformations/run/query` has a
+few issues:
+1. It is retried. By default up to ten times.
+2. It has a client timeout typically set to 30 seconds. That means that
+even though you pass in a `timeout=240` in the request body, the client
+will timeout before the server timeout.
+
+In the `cdf profile asset-centric` we (mis)use this endpoint to
+calculate how many unique metadata keys each asset-centric resource have
+(unfortunately `assets/aggregate` cannot do this as it 'standardizes the
+metadata keys and thus lose the actual count). In addition, we use it
+for doing relationships and label count. These calculation are longer
+running calculations for larger projects. What happens for a large
+project, as shown below, is that the PySDK tries starts the
+calculations, waits 30 seconds (client-side timeout), fails it and does
+a retry. This ends up with 10 attempts each 30 seconds long to do this
+computations.
+
+This PR overwrites the `transformations.preview(...)` method (the one
+that implements `/transformations/run/query`), and forces it to not
+retry and sets the client-side timeout to server-side + 60 seconds to
+ensure it is the server side that will be the limiting factor. This
+enables the profiling of larger projects such as shown below.
+
+
+
+![image](https://github.com/user-attachments/assets/1865c1e0-edbd-498a-ae92-102915441085)
+
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Fixed
+
+- [alpha] The `cdf profile asset-centric` is much less likely to
+time-out when calculating metadata key usage.
+
+## templates
+
+No changes.
