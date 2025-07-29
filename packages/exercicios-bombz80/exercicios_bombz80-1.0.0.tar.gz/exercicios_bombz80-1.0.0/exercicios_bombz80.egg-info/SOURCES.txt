@@ -1,0 +1,9 @@
+README.md
+setup.py
+cursofiap/__init__.py
+cursofiap/core.py
+exercicios_bombz80.egg-info/PKG-INFO
+exercicios_bombz80.egg-info/SOURCES.txt
+exercicios_bombz80.egg-info/dependency_links.txt
+exercicios_bombz80.egg-info/top_level.txt
+tests/test_core.py
