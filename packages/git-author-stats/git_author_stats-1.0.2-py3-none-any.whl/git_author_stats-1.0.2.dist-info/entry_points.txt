@@ -1,0 +1,2 @@
+[console_scripts]
+git-author-stats = git_author_stats.__main__:main
