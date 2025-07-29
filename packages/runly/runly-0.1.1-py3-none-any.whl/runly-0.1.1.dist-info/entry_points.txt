@@ -1,0 +1,2 @@
+[console_scripts]
+runly = runly.cli:main
