@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: odoo_addon_energy_selfconsumption
+Version: 16.0.0.4.6.1
+Summary: Module for energetic self-consumption projects.
+Home-page: https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce
+Author: Coopdevs Treball SCCL & Som Energia SCCL
+License: AGPL-3
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: odoo-addon-contract<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-contract_mandate<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-contract_queue_job<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-contract_variable_quantity<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-energy_communities<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-energy_communities_cooperator<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-energy_communities_service_invoicing<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-energy_project<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-report_csv<16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-web_m2x_options<16.1dev,>=16.0dev
+Requires-Dist: odoo<16.1dev,>=16.0a
+Requires-Dist: openupgradelib>=3.6.1
+Requires-Dist: pandas>=2.0.3
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+        Module for energetic self-consumption projects.
+    
