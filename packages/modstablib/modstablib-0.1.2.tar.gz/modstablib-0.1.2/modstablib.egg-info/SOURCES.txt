@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+modstablib/__init__.py
+modstablib.egg-info/PKG-INFO
+modstablib.egg-info/SOURCES.txt
+modstablib.egg-info/dependency_links.txt
+modstablib.egg-info/requires.txt
+modstablib.egg-info/top_level.txt
+modstablib/metrics/__init__.py
+modstablib/metrics/_performance.py
