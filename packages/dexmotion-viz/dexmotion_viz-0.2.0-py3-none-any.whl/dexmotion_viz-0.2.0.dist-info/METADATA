@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: dexmotion-viz
+Version: 0.2.0
+Dynamic: Summary
+Author-email: Dexmate <contact@dexmate.ai>
+Keywords: python,robot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: jaxtyping
+Requires-Dist: pyyaml
+Requires-Dist: ruckig
+Requires-Dist: sapien==3.0.0b1
+Requires-Dist: scipy
+Requires-Dist: six
