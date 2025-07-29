@@ -1,0 +1,129 @@
+Metadata-Version: 2.4
+Name: cehuibaibaoxiang
+Version: 0.1.0
+Summary: （自用）同济大学测绘学院专业课代码合集
+Home-page: https://github.com/your_username/your_project
+Author: 徐若朴
+Author-email: 2253959@tongji.edu.cn
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: gdal
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 测绘百宝箱
+
+测绘百宝箱是一个功能强大的测绘工具库，集成了多种测绘计算、地理信息处理、图像处理等功能，旨在为测绘、地理信息科学及相关领域的专业人员提供便捷高效的工具支持。
+
+## 主要功能
+
+### 测绘计算
+
+- **高斯投影**：实现高斯正算和反算，支持将经纬度坐标转换为高斯平面坐标，以及将高斯平面坐标转换回经纬度坐标。
+- **交会测量**：包含测边交会、测角交会和边角交会等多种交会测量方法，用于确定未知点的平面位置。
+- **坐标变换**：支持大地坐标、平面坐标等多种坐标系统的变换，满足不同应用场景下的坐标转换需求。
+
+
+### 地理信息处理
+
+- **断面计算**：提供纵断面和横断面的计算功能，能够根据给定的高程点数据生成断面图并计算面积。
+- **图幅编号**：实现图幅编号的计算和生成，支持多种比例尺的图幅编号。
+- **泰森多边形**：基于给定的点数据生成泰森多边形，可用于空间分析和区域划分。
+
+
+### 图像处理
+
+- **点云去噪**：采用统计方法对点云数据进行去噪处理，提高数据质量。
+- **后方交会**：利用像片控制点进行后方交会计算，确定像片的外方位元素。
+- **图像配准**：提供图像配准功能，能够将不同来源的图像进行精确配准。
+
+
+## 使用指南
+
+### 安装
+
+您可以通过以下命令安装本库：
+
+```bash
+pip install 测绘百宝箱
+```
+
+
+### 示例代码
+
+#### 高斯正算
+
+```python
+from 测绘百宝箱 import GaussForward
+
+# 创建高斯正算对象
+gauss_forward = GaussForward(B1=30.0, L1=110.0, s12=1000.0, A12=90.0)
+
+# 执行高斯正算
+x, y = gauss_forward.forward_gauss()
+
+print(f"高斯平面坐标: x = {x}, y = {y}")
+```
+
+
+#### 测边交会
+
+```python
+from 测绘百宝箱 import SideIntersection
+
+# 创建测边交会对象
+side_intersection = SideIntersection(x1=100.0, y1=200.0, x2=300.0, y2=400.0, sa=250.0, sb=300.0)
+
+# 执行测边交会计算
+xp, yp = side_intersection.calculate()
+
+print(f"未知点坐标: xp = {xp}, yp = {yp}")
+```
+
+
+## 项目依赖
+
+本项目依赖以下库：
+
+- NumPy
+- Matplotlib
+- GDAL
+- SciPy
+- Pandas
+- OpenCV-Python
+
+
+## 贡献指南
+
+欢迎广大开发者参与本项目的开发和改进。如需贡献代码，请按照以下步骤进行：
+
+1. 叉取本项目仓库。
+2. 在本地克隆叉取的仓库。
+3. 创建新的分支进行开发。
+4. 提交代码并发起 Pull Request。
+
+## 许可证
+
+本项目采用 MIT License 许可证，具体内容详见 [LICENSE](LICENSE) 文件。
+
