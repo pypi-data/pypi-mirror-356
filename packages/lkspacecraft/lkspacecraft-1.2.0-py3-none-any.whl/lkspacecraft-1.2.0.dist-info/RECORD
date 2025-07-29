@@ -1,0 +1,14 @@
+lkspacecraft/__init__.py,sha256=kua6T8d1n6lXsP-Tn8jqZj4IindqhXsiMwKVELnP8fw,917
+lkspacecraft/data/kernels/testkernels/earth_sun_moon_kepler.bsp,sha256=3KeB5x5O5adibXoDwLRgGboKMNqHMIQSZEb7UGt4oTs,196608
+lkspacecraft/data/kernels/testkernels/earth_sun_moon_tess.bsp,sha256=OfWv4esiEwd2BAmbribV4SMd-PnSA-8qnCj6P6XS8iw,196608
+lkspacecraft/data/kernels/testkernels/kplr2012299191755.tsc,sha256=wvvgFi26PmIqaffNAKcm7TjgSas4acd7ONKLOL-DFgA,4767
+lkspacecraft/data/kernels/testkernels/kplr2013205175543.tsc,sha256=Riz4HkuSwU3WPA4hWnS3a394EqaZ9LlS0sMabsGAcKo,4971
+lkspacecraft/data/kernels/testkernels/kplr2018134232543.tsc,sha256=yUnDCYr7g0O3uCnu6Z-gPabnj8fFP2qa1vqWHgz7we0,6935
+lkspacecraft/data/kernels/testkernels/naif0012.tls,sha256=lSNCWtzceg7Iv7CkaqdITuogirsBgv2sz43tEtWVMmA,5256
+lkspacecraft/data/kernels/testkernels/tess2018236164754-41096_sclk.tsc,sha256=tceH0AwAppIp4Od7uFH6352E65sjF-JkLaAsY8vBnMA,7536
+lkspacecraft/spacecraft.py,sha256=HQhG1ZNo2zWcAiP1ha23A-TgMj6_CSOQTlaj5y3SHTY,17625
+lkspacecraft/utils.py,sha256=Cw81nG3gjRwWkcvul7CL_6VEbzPusmF4XAHIag-bY10,13176
+lkspacecraft-1.2.0.dist-info/LICENSE,sha256=sT8L3mb5rRpgIgSRJxpqcvzaN9nMet6lnLfMdFX-hZY,1090
+lkspacecraft-1.2.0.dist-info/METADATA,sha256=RLTE8kEBYJdjjZqltvgxfXtCeheqPRWM7bpKZq66bGQ,13026
+lkspacecraft-1.2.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+lkspacecraft-1.2.0.dist-info/RECORD,,
