@@ -1,0 +1,2 @@
+[console_scripts]
+debbuild = debbuild.__main__:main

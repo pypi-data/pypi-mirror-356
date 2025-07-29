@@ -1,0 +1,97 @@
+Metadata-Version: 2.4
+Name: debbuild
+Version: 0.2.2
+Summary: Command line utility to build Deb package without Debian
+Author-email: "IKUS Software inc." <support@ikus-soft.com>
+License: Copyright (c) 2014 Alastair Houghton
+        Copyright (c) 2017 The Qt Company Ltd.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+Project-URL: Homepage, https://gitlab.com/ikus-soft/debbuild
+Project-URL: source, https://gitlab.com/ikus-soft/debbuild
+Project-URL: bug_tracker, https://gitlab.com/ikus-soft/debbuild/-/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Desktop Environment
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2<4,>=2.10
+Requires-Dist: unix_ar
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+<p align="center">
+<a href="LICENSE"><img alt="License" src="https://img.shields.io/pypi/l/debbuild"></a>
+<a href="https://gitlab.com/ikus-soft/debbuild/pipelines"><img alt="Build" src="https://gitlab.com/ikus-soft/debbuild/badges/main/pipeline.svg"></a>
+<a href="https://sonar.ikus-soft.com/dashboard?id=debbuild"><img alt="Quality Gate Minarca Client" src="https://sonar.ikus-soft.com/api/project_badges/measure?project=debbuild&metric=alert_status"></a>
+<a href="https://sonar.ikus-soft.com/dashboard?id=debbuild"><img alt="Coverage" src="https://sonar.ikus-soft.com/api/project_badges/measure?project=debbuild&metric=coverage"></a>
+</p>
+
+# Debbuild
+
+Command line utility to build Deb package without Debian.
+
+## Description
+
+This project allows to create archives for Debian (.deb) using only Python technologies. It is inspired by the [Fpm project](https://fpm.readthedocs.io/) and [jdeb project](https://github.com/tcurdt/jdeb) which allows to create different types of archives on any platform.
+
+I decided to create the Debbuild project, because it is a better way to create a Debian package on any platform. Previsouly, creating packages for Debian required the creation of a `debian` directory, the creation of several configuration files and tools like `dpkg` to build the package. With Debbuild it is possible to build the package without Debian by using a python script. This makes the creation of packages easier and the process simpler and more understandable.
+
+A good usage scenario is the creation of a package containing the binary version of your project created from [PyInstaller](https://pyinstaller.org/en/stable/).
+
+## Installation
+
+Install Debbuild from pypi.
+
+```sh
+pip install debbuild
+```
+
+## Usage
+
+A simple example how to use Debbuild to quickly create a Debian package.
+
+```sh
+debbuild --name mypackage --version 1.0.1 --data-src /opt/mypackage=<path-to-dir>
+```
+
+## Support
+
+If you need help or experience problem while using Debuild, open a ticket in [Gitlab](https://gitlab.com/ikus-soft/debbuild/-/issues/new) or Github.
+
+## Roadmap
+
+More specialized feature could be added:
+
+* Service Unit creation
+* Support more compression type like `zstd`
+
+## License
+
+This project is release under the MIT License.
