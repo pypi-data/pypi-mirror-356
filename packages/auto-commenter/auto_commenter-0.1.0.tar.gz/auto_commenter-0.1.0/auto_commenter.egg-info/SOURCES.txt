@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+auto_commenter/__init__.py
+auto_commenter/__main__.py
+auto_commenter/code_analyzer.py
+auto_commenter/comment_generator.py
+auto_commenter/docstring_formatters.py
+auto_commenter/utils.py
+auto_commenter.egg-info/PKG-INFO
+auto_commenter.egg-info/SOURCES.txt
+auto_commenter.egg-info/dependency_links.txt
+auto_commenter.egg-info/requires.txt
+auto_commenter.egg-info/top_level.txt
+tests/test_comment_generator.py
