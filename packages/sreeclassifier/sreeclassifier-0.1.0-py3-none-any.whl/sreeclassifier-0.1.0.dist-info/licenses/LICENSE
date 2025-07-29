@@ -1,0 +1,14 @@
+
+
+## ✅ `LICENSE`
+
+
+
+## ✅ `tests/test_core.py` (optional test)
+
+from sreeclassifier import ImageClassifier
+
+def test_prediction():
+    clf = ImageClassifier()
+    result = clf.predict("tests/sample.jpg", topk=1)
+    assert isinstance(result, list)

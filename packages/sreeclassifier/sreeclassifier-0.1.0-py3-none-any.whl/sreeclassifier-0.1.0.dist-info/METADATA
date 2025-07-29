@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: sreeclassifier
+Version: 0.1.0
+Summary: Image classification using Vision Transformer (ViT)
+Author: Manchala Sreekanth
+Author-email: manchalasreekanth999@gmail.com
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision>=0.15.0
+Requires-Dist: Pillow>=9.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
