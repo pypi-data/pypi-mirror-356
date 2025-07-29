@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+promoai/__init__.py
+promoai/main.py
+promoai.egg-info/PKG-INFO
+promoai.egg-info/SOURCES.txt
+promoai.egg-info/dependency_links.txt
+promoai.egg-info/top_level.txt
