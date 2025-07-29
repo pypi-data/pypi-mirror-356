@@ -1,0 +1,39 @@
+[project]
+name = "testando_pypi_www"
+version = "0.0.1"
+description = "A test package for PyPI publishing"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+authors = [
+    {name = "Rafael Padilla", email = "eng.rafaelpadilla@gmail.com"},
+]
+keywords = ["3Wtoolkit", "pypi", "example"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=2.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/rafaelpadilla/test-pypi-www"
+Repository = "https://github.com/rafaelpadilla/test-pypi-www"
+Issues = "https://github.com/rafaelpadilla/test-pypi-www/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["nossa_v2/testando_pypi_www"]
+
