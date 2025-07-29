@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: assistmodeloregre
+Version: 0.1
+Summary: Clase personalizada ExtraTrees con confianza
+Author: Arnold Sandoval
+Requires-Python: >=3.8
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
