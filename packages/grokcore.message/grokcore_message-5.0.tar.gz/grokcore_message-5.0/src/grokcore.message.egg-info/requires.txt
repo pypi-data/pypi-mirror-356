@@ -1,0 +1,10 @@
+setuptools
+grokcore.component>=2.5
+z3c.flashmessage
+zope.component
+
+[test]
+zope.publisher
+zope.security
+zope.session>=5.1
+zope.testrunner>=6.4
