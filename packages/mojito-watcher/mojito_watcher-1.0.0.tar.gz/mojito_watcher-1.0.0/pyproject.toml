@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mojito-watcher"
+version = "1.0.0"
+description = "A beautifully simple, zero dependency, fresh file monitoring tool. Monitor file changes in real time with ease using Mojito🍹!"
+authors = [{name = "cockasian22	", email = "126391442+cockasian22@users.noreply.github.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+mojito = "mojito:main"
