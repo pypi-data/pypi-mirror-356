@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+make.conf
+setup.py
+fetchcommandwrapper/__init__.py
+fetchcommandwrapper/__main__.py
+fetchcommandwrapper/version.py
+fetchcommandwrapper.egg-info/PKG-INFO
+fetchcommandwrapper.egg-info/SOURCES.txt
+fetchcommandwrapper.egg-info/dependency_links.txt
+fetchcommandwrapper.egg-info/entry_points.txt
+fetchcommandwrapper.egg-info/top_level.txt
