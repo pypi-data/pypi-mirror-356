@@ -1,0 +1,12 @@
+bdown/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+bdown/block.py,sha256=DdRROpW08dN7e2AJgvDFGaNlFVgvbkcI4bUHiGGBvmw,11033
+bdown/block_fiddler.py,sha256=mz14zsrOjgVGO-6qNEg9ozrOFVKxHKjIlxcokV68-jA,10219
+bdown/check.py,sha256=tgBXnLAqRoR2uGFil8-HjOfOkVlEs15hBiSgvuOYl9I,7539
+bdown/download.py,sha256=L4cqr6dPuoIZH0-pKEGJmDogPCu0GwLbDxSrfXsSBM0,13069
+bdown/download_cmd.py,sha256=6HlfoopKS7AMGGyNhHqB_-9B81BY9f2WtXGq2AqblQw,5772
+bdown/filesplitter.py,sha256=z_rIjKbchXHF8hK-pNHRBzBXAfCL8nywNRJ-MM22P0Q,2042
+blockdownload-0.1.0.dist-info/METADATA,sha256=faWfaEfcvkikzOdMCfpDBotwj773AxGfxiUeY1hNivI,10037
+blockdownload-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+blockdownload-0.1.0.dist-info/entry_points.txt,sha256=7s10KRYvPsSr7yIJDzFTWBCmlZhALS10-P9le8cU1Wo,84
+blockdownload-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+blockdownload-0.1.0.dist-info/RECORD,,
