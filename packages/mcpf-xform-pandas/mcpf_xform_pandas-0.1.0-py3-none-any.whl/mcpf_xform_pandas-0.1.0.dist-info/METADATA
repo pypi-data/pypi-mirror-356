@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mcpf-xform-pandas
+Version: 0.1.0
+Summary: Minimalist Configurable Pipelineing Framework -- Pandas Dataframe based Transformation Functions
+License: MIT
+Author: Karoly Bosa
+Author-email: karoly.bosa@risc-software.at
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mcpf-core (>=0.1.0,<0.2.0)
+Requires-Dist: pandas (>=1.4.0)
