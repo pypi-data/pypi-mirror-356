@@ -1,0 +1,2 @@
+[console_scripts]
+joplin-mcp-server = joplin_mcp_server.entry:main
