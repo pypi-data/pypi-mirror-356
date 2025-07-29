@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imgmarker"
+readme = "README.rst"
+dynamic = [
+  "version",
+]
+
+dependencies = [
+  "astropy>=5.2.2",
+  "pillow>=10.4.0",
+  "PyQt6>=6.7.1",
+  "scipy>=1.10.1",
+]
+
+authors = [
+  {name = "Andi Kisare", email = "akisare@outlook.com"},
+  {name = "Ryan Walker", email = "astrorya@umich.edu"}
+]
+
+description = "A package for marking objects in a series of images"
+
+license = {file = "LICENSE"}
+
+[tool.setuptools.dynamic]
+version = { attr = "imgmarker.__version__" }
+
+[project.urls]
+Homepage = "https://github.com/andikisare/imgmarker"
+Issues = "https://github.com/andikisare/imgmarker/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["imgmarker","imgmarker.coordinates","imgmarker.gui","imgmarker.image","imgmarker.tests"]
+
+[tool.setuptools.package-data]
+imgmarker = ["*.ico"]
+
+[project.scripts]
+imgmarker = "imgmarker.__main__:run"
+
+
