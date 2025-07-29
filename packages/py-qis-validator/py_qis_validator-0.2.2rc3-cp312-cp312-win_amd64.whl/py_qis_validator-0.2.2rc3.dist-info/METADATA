@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: py_qis_validator
+Version: 0.2.2rc3
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Python Binding of SchemaValidator
+
+Please read tests in [tests](tests) to get usage examples.
