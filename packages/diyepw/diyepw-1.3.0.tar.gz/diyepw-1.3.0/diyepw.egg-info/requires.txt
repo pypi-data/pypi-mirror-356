@@ -1,0 +1,15 @@
+click<9.0.0,>=8.0.1
+numpy<3.0.0,>=2.0.0
+pandas<3.0.0,>=2.2.0
+pvlib<1.0.0,>=0.13.0
+xarray<2026.0.0,>=2024.0.0
+importlib_resources<7.0.0,>=6.0.0
+
+[dev]
+build>=0.5.1
+pytest>=6.2.4
+twine>=3.4.1
+recommonmark~=0.7.1
+setuptools>=58.0.0
+sphinx~=3.5.1
+sphinx-rtd-theme~=0.5.1
