@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: worldhello
+Version: 1.0.0
+Summary: PoC for dependency confusion
+Author: sl4x0
+Author-email: attacker@oob.sl4x0.xyz
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
