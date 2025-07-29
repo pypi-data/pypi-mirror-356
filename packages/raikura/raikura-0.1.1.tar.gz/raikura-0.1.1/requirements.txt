@@ -1,0 +1,35 @@
+# Core scientific stack
+numpy
+pandas
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# Deep learning
+torch
+
+# NLP
+transformers
+
+# Gradient boosting
+xgboost
+lightgbm
+
+# Interpretability
+shap
+
+# FastAPI-based model deployment
+fastapi
+uvicorn
+
+# YAML config
+pyyaml
+
+# Time series modeling
+prophet
+
+# System introspection
+psutil

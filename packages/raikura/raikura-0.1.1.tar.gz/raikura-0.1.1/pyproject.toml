@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raikura"
+version = "0.1.1"
+description = "The most advanced modular machine learning library in Python"
+readme = "README.md"
+authors = [
+  { name = "Naitik Gupta", email = "hylendust@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "torch",
+  "transformers",
+  "joblib",
+  "shap",
+  "fastapi",
+  "uvicorn",
+  "pyyaml",
+  "matplotlib",
+  "xgboost",
+  "lightgbm",
+  "prophet",
+  "psutil"
+]
+
+[project.urls]
+Homepage = "https://github.com/RaykenAI/raikura"
+Documentation = "https://github.com/RaykenAI/raikura#readme"
+Source = "https://github.com/RaykenAI/raikura"
