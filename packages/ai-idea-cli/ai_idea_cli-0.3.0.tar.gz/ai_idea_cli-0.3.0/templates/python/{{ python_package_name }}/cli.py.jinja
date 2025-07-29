@@ -1,0 +1,19 @@
+"""CLI module for {{ project_name }}."""
+
+import typer
+from rich.console import Console
+
+app = typer.Typer(help="{{ one_liner }}")
+console = Console()
+
+@app.command()
+def hello(name: str = typer.Option("World", help="Name to greet")):
+    """Say hello to someone."""
+    console.print(f"Hello, {name}! 👋")
+
+def main():
+    """Entry point for the CLI."""
+    app()
+
+if __name__ == "__main__":
+    main()

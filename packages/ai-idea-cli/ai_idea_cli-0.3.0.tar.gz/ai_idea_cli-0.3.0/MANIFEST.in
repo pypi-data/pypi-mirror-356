@@ -1,0 +1,32 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+include pyproject.toml
+
+# Include configuration files
+recursive-include config *.json
+
+# Include template files
+recursive-include templates *.jinja *.yaml *.yml *.json *.md
+
+# Include idea package
+recursive-include idea *.py
+
+# Exclude backend and development files
+exclude Dockerfile
+exclude docker-compose.yml
+exclude requirements.txt
+recursive-exclude backend *
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude scripts *
+recursive-exclude lessons *
+recursive-exclude .venv *
+recursive-exclude __pycache__ *
+recursive-exclude test-* *
+recursive-exclude *-venv *
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude .DS_Store
+global-exclude .git*

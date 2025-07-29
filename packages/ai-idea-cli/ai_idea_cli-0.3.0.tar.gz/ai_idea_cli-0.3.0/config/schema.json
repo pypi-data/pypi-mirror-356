@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["validator", "models", "scaffold"],
+  "properties": {
+    "validator": {
+      "type": "object",
+      "required": ["endpoint", "apiKeyEnv"],
+      "properties": {
+        "endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "API endpoint for idea validation service"
+        },
+        "apiKeyEnv": {
+          "type": "string",
+          "description": "Environment variable name containing API key"
+        },
+        "acceptField": {
+          "type": "string",
+          "default": "accepted"
+        },
+        "scoreField": {
+          "type": "string",
+          "default": "score"
+        },
+        "minScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.7
+        }
+      }
+    },
+    "scaffoldEndpoint": {
+      "type": "string",
+      "format": "uri",
+      "description": "API endpoint for project scaffolding service"
+    },
+    "models": {
+      "type": "object",
+      "required": ["plan", "queue", "summarise"],
+      "properties": {
+        "plan": {
+          "type": "string",
+          "description": "Model ID for planning tasks"
+        },
+        "queue": {
+          "type": "string",
+          "description": "Model ID for queue processing"
+        },
+        "summarise": {
+          "type": "string",
+          "description": "Model ID for experience summarization"
+        },
+        "apiKeyEnv": {
+          "type": "string",
+          "description": "Environment variable name for LLM API key"
+        }
+      }
+    },
+    "scaffold": {
+      "type": "object",
+      "properties": {
+        "templateVersion": {
+          "type": "string",
+          "default": "main"
+        }
+      }
+    },
+    "retentionDays": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 30,
+      "description": "Number of days to retain logs and experiences"
+    },
+    "demoMode": {
+      "type": "boolean",
+      "default": false,
+      "description": "Enable demo mode with limited functionality"
+    },
+    "backend": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "default": "https://api.idea-cli.com",
+          "description": "Backend service base URL"
+        },
+        "apiKeyEnv": {
+          "type": "string",
+          "default": "IDEA_CLI_API_KEY",
+          "description": "Environment variable containing backend API key"
+        }
+      }
+    }
+  }
+}

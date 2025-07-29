@@ -1,0 +1,50 @@
+# {{ project_name }}
+
+{{ one_liner }}
+
+## Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   pip install -e ".[dev]"
+   ```
+   ✅ Success check: `python -c "import {{ python_package_name }}; print('OK')"`
+
+2. **Run the CLI:**
+   ```bash
+   {{ project_name }} --help
+   ```
+   ✅ Success check: You should see help text
+
+3. **Run tests:**
+   ```bash
+   pytest
+   ```
+   ✅ Success check: All tests pass
+
+4. **Run pre-commit hooks:**
+   ```bash
+   pre-commit install
+   pre-commit run --all-files
+   ```
+   ✅ Success check: No formatting issues
+
+## Development
+
+- Format code: `black .`
+- Lint: `ruff check .`
+- Type check: `mypy .`
+- Test: `pytest`
+
+## Troubleshooting
+
+**Error: "Module not found"**
+- Fix: Ensure you're in the virtual environment: `source .venv/bin/activate`
+
+**Error: "Command not found"**
+- Fix: Install in development mode: `pip install -e .`
+
+**Error: "Pre-commit hook failed"**
+- Fix: Run `black .` and `ruff check . --fix` then commit again

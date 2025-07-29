@@ -1,0 +1,20 @@
+"""Tests for {{ project_name }} CLI."""
+
+import pytest
+from typer.testing import CliRunner
+
+from {{ python_package_name }}.cli import app
+
+runner = CliRunner()
+
+def test_hello_default():
+    """Test hello command with default name."""
+    result = runner.invoke(app, ["hello"])
+    assert result.exit_code == 0
+    assert "Hello, World!" in result.stdout
+
+def test_hello_custom_name():
+    """Test hello command with custom name."""
+    result = runner.invoke(app, ["hello", "--name", "Alice"])
+    assert result.exit_code == 0
+    assert "Hello, Alice!" in result.stdout

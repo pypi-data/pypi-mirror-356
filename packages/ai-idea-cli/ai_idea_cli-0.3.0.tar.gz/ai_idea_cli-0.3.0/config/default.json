@@ -1,0 +1,20 @@
+{
+  "validator": {
+    "endpoint": "https://api.example.com/validate",
+    "apiKeyEnv": "VALIDATOR_API_KEY",
+    "acceptField": "accepted",
+    "scoreField": "score",
+    "minScore": 0.7
+  },
+  "models": {
+    "plan": "claude-3-5-sonnet-20241022",
+    "queue": "claude-3-5-sonnet-20241022",
+    "summarise": "claude-3-5-sonnet-20241022",
+    "apiKeyEnv": "ANTHROPIC_API_KEY"
+  },
+  "scaffold": {
+    "templateVersion": "main"
+  },
+  "retentionDays": 30,
+  "demoMode": true
+}

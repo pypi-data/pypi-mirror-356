@@ -1,0 +1,26 @@
+_templates_suffix: .jinja
+_envops:
+  block_start_string: "{%"
+  block_end_string: "%}"
+  variable_start_string: "{{"
+  variable_end_string: "}}"
+
+project_name:
+  type: str
+  help: Project name (slug)
+
+python_package_name:
+  type: str
+  help: Python package name (underscores)
+
+one_liner:
+  type: str
+  help: One-line description
+
+category:
+  type: str
+  help: Project category (personal/product)
+
+language:
+  type: str
+  help: Programming language
