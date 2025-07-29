@@ -1,0 +1,107 @@
+# web2json
+
+`web2json` converts web content into structured JSON using a local [Ollama](https://ollama.com/) server. It exposes a simple command line interface.
+
+This repository began from code by [abdo-Mansour](https://huggingface.co/abdo-Mansour) and was adapted for use at the NOAA Global Systems Laboratory.
+
+## Installation
+
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Optionally set `OLLAMA_HOST` and `OLLAMA_MODEL` to point to your Ollama instance and model.
+
+## Command line usage
+
+Run the CLI module with the content to process and your schema definition. The tool can also crawl multiple pages from a starting URL:
+
+```bash
+python -m web2json.cli --schema SCHEMA [--url] [--crawl] [--max_pages N] [--output FILE] CONTENT
+```
+
+- `CONTENT` can be a URL or raw text.
+- `--url` tells the tool to treat `CONTENT` as a URL.
+- `--schema` accepts the schema definition directly or the path to a file containing it. Schemas may be defined using simple field definitions, JSON Schema, or a Python `BaseModel`.
+- `--crawl` treats the content as a starting URL and processes each discovered page.
+- `--max_pages` limits how many pages are crawled when using `--crawl` (default: 10).
+- `--debug` prints the preprocessed content and other intermediate information to stderr.
+- `--output` writes the resulting JSON to `FILE` instead of only printing to stdout.
+- When a URL is provided, relative links in the page are converted to absolute URLs so they can be extracted correctly. The page URL itself is assigned to the `url` field if that key exists in the schema. Missing URLs may be filled automatically using regex patterns in the post-processor (default patterns handle download and preview links).
+- Character encoding is determined automatically when downloading pages so accented characters are preserved correctly.
+- If your schema defines a `content` field, the CLI removes common header and footer sections so that field only contains the main page body.
+
+Example:
+
+```bash
+python -m web2json.cli https://example.com --url --schema "title: str = Page title"
+```
+
+To crawl and process multiple pages under `https://example.com/docs/`:
+
+```bash
+python -m web2json.cli https://example.com/docs/ --crawl --schema "title: str"
+```
+
+The extracted JSON is printed to standard output. Unicode characters are
+preserved so accent marks appear correctly. Any schema validation errors are
+reported to standard error. When `--debug` is used, intermediate output such as the cleaned HTML is also sent to standard error.
+
+
+## Library usage
+
+The pipeline components are exposed as Python classes so you can build custom workflows.
+
+```python
+from web2json.cli import parse_schema_input
+from web2json.preprocessor import BasicPreprocessor
+from web2json.postprocessor import PostProcessor
+from web2json.pipeline import Pipeline
+from web2json.ai_extractor import OllamaLLMClient
+
+schema = parse_schema_input("title: str\ncontent: str")
+# Exclude header and footer markup when cleaning HTML
+pre = BasicPreprocessor(config={"remove_boilerplate": True})
+llm = OllamaLLMClient()
+post = PostProcessor(link_patterns={"preview": r"(https?://[^\s]+\.mp4)"})
+pipe = Pipeline(pre, llm, post)
+result = pipe.run("<h1>Title</h1>", False, schema)
+```
+
+The `link_patterns` option helps recover URLs when the LLM omits them from the output JSON.
+
+## Code overview
+
+1. **Preprocessor** - cleans and normalizes HTML or text input.
+   When `remove_boilerplate` is enabled, common header and footer elements are
+   stripped before text extraction. The CLI turns this setting on automatically
+   if your schema includes a `content` field.
+2. **AIExtractor** - sends a prompt to the LLM and returns the raw JSON text.
+3. **PostProcessor** - repairs malformed JSON and adds missing URLs.
+
+These pieces are wired together by the `Pipeline` class and driven by the CLI script.
+
+
+
+## Running tests
+
+Install `pytest` and run the suite:
+
+```bash
+pip install -r requirements.txt
+pip install pytest
+pytest
+```
+
+Tests also run automatically through GitHub Actions on every push and pull request.
+
+## Additional tests
+
+The test suite now covers the CLI utilities as well as core components.
+Additional tests live under `tests/` and exercise:
+- The `AIExtractor` prompt formatting logic.
+- Error handling in `PostProcessor.process` when invalid JSON is returned.
+- The `_fetch_content` method in `BasicPreprocessor`.
+- run_pipeline success and error scenarios.
+- Pipeline operation with a mocked LLM.
