@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: scenaripy_api
+Version: 6.3.15
+Summary: A Scenari client API
+Requires-Python: >=3.10
+License-File: LICENSE

@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.9,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+version = "6.3.15"
+name = "scenaripy_api"
+description = "A Scenari client API"
+requires-python = ">=3.10"
+#license = "MPL-1.1 OR GPL-2.0 OR LGPL-2.1 OR CECILL-2.0"
+#license-files = ["LICENSE"]
