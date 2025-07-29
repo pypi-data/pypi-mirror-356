@@ -1,0 +1,7 @@
+pyyaml
+uncertainties
+skl2onnx==1.16.0
+onnx==1.16.1
+onnxruntime==1.16.3
+pybaselines==1.1.0
+emzed>=3.0.0a16
