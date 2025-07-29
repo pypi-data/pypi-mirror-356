@@ -1,0 +1,3 @@
+[console_scripts]
+file-manager=file_manager.main:app
+
