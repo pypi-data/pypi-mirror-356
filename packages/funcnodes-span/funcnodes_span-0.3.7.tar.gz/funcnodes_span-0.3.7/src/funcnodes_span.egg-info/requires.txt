@@ -1,0 +1,9 @@
+scipy
+lmfit
+funcnodes
+funcnodes_numpy
+funcnodes_pandas
+funcnodes_plotly
+pybaselines
+funcnodes-lmfit>=0.2.0
+numba<1.0.0,>=0.61.0
