@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: runmcp_in_e2b
+Version: 0.1.1
+Summary: Add your description here
+License-File: LICENSE.txt
+Requires-Python: >=3.13
+Requires-Dist: click>=8.2.1
+Requires-Dist: mcp>=1.9.4
+Requires-Dist: starlette==0.45.3
+Requires-Dist: uvicorn>=0.34.3
+Description-Content-Type: text/markdown
+
+Run MCP Server in E2B Sandbox
