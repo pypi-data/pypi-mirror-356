@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s - %(levelname)s - %(name)s - %(funcName)s - %(message)s"
+        },
+
+        "simple": {
+            "format": "%(message)s"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+            "level": "ERROR"
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "vman.log",
+            "formatter": "standard",
+            "level": "DEBUG"
+        }
+    },
+    "loggers": {
+        "": {
+            "handlers": ["console", "file"],
+            "level": "DEBUG"
+        }
+    }
+}
