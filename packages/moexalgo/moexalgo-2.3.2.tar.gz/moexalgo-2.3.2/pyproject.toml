@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["moex*"]
+namespaces = true
+
+[tool.setuptools_scm]
+write_to = "moexalgo/__version__.py"
+
+[project]
+name = "moexalgo"
+description = "Python lib for MOEX AlgoPack data"
+readme = "README.md"
+requires-python = ">=3.10"
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "License :: OSI Approved :: Apache Software License",
+  "Intended Audience :: Financial and Insurance Industry"
+]
+
+dynamic = ["version"]
+dependencies = [
+    "httpx",
+]
+
+
+[project.optional-dependencies]
+pandas = [
+    "pandas>=1.4.1",
+    "numpy>=1.26.4"
+]
+
+issplus = [
+    "websockets",
+    "stomp.py"
+]
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
