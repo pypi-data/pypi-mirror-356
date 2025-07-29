@@ -1,0 +1,440 @@
+## 📘 Introduction
+
+**DevPayr Python SDK** is the official framework-agnostic client for integrating with [DevPayr](https://devpayr.com) — a modern licensing, domain enforcement, and injectable delivery system for SaaS and software products.
+
+This SDK enables Python developers to:
+
+- ✅ Validate license keys securely (with or without payment enforcement)
+- 🔐 Stream and decrypt encrypted **injectables** from the DevPayr backend
+- 🌍 Enforce domain/subdomain access using DevPayr's project-bound policies
+- ⚙️ Manage **projects**, **licenses**, **domains**, **API keys**, and more
+- 🔁 Handle automatic revalidation or failover behavior for expired or revoked licenses
+
+It is designed to work with **any Python environment**, including:
+
+- 🐍 Flask, Django, FastAPI, or any other Python web framework
+- 🧩 CLI scripts, background jobs, or system-level services
+- 🎯 Desktop software or headless backend processors
+
+> You remain fully in control of what happens when a license is invalid — show a modal, redirect users, log silently, or define a custom error handler.
+
+Get started in minutes and enforce your license policies with confidence.
+
+## 📦 Installation
+
+You can install the **DevPayr Python SDK** using either **`pip`** or by cloning the repository.
+
+### ✅ Option 1: Install via `pip` (recommended)
+
+If you're using PyPi (when published):
+
+```bash
+pip install devpayr-python-sdk
+```
+
+### 🔧 Option 2: Install via source (for local development)
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/xultech/devpayr-python-sdk.git
+cd devpayr-python-sdk
+```
+
+2. **Install in editable mode:**
+
+```bash
+pip install -e .
+```
+>This allows you to edit the SDK source locally and test changes instantly without reinstalling.
+
+### 📁 Optional Dependencies
+If you want to enable encryption or validation features, the SDK automatically includes:
+- `requests`
+- `cryptography`
+
+To install these manually (if needed):
+
+```bash
+pip install requests cryptography
+```
+> You're now ready to initialize `DevPayr.bootstrap()` and begin validating license keys or streaming injectables.
+
+## 🚀 Getting Started
+
+This section walks you through how to quickly set up and use the DevPayr SDK in your Python application.
+
+### 🔐 Basic Usage
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({
+    "license": "your-test-license-key",   # Required if using license mode
+    "api_key": "your-api-key",            # Optional if using API key mode
+    "base_url": "https://api.devpayr.com/v1/",  # Or your custom/self-hosted URL
+    "secret": "your-shared-secret",       # For decrypting injectables
+    "injectables": True,
+    "handleInjectables": True,
+    "injectablesVerify": True,
+    "injectablesPath": "./dev_injectables",
+    "invalidBehavior": "modal",           # Can be: modal, redirect, log, silent
+    "redirectUrl": "https://yourdomain.com/upgrade",
+    "customInvalidMessage": "License check failed. Please contact support.",
+    "onReady": lambda data: print("✅ Validated:", data)
+})
+```
+> ⚠️ Note: If using injectables, you must specify `secret` and `injectablesPath`. In fact, secret is always required
+
+### 🧪 Validate License Before Execution
+
+When using license validation (`license` key), the SDK will automatically:
+- Contact DevPayr’s API
+- Validate payment or subscription
+- Optionally fetch and decrypt injectables
+- Trigger a failure behavior (modal, redirect, log, or silent)
+
+#### 🛠 Behavior on Invalid License
+
+You can control what happens when the license is invalid via:
+
+| Mode       | Description                                              |
+| ---------- | -------------------------------------------------------- |
+| `modal`    | Displays a styled HTML page to block app usage (default) |
+| `redirect` | Opens a browser tab to a custom upgrade/payment URL      |
+| `log`      | Prints an error message to stderr                        |
+| `silent`   | Does nothing (silent failure — use with caution)         |
+
+
+### 📁 Injectables Handling
+If `injectables = True`, the SDK will:
+- Stream encrypted files for that license
+- Decrypt and verify using `secret`
+- Write them to `injectablesPath`
+- Support modes like `append, prepend, replace`
+
+You can also override the default handler via a custom `InjectableProcessor`.
+
+---
+Now that you're set up, you can start accessing DevPayr's API through built-in service classes like:
+```python
+from devpayr import DevPayr
+
+DevPayr.projects().create({...})
+DevPayr.licenses().list(project_id)
+DevPayr.injectables().stream()
+```
+
+## ⚙️ Usage Examples
+
+Here are some common examples of how to use the DevPayr Python SDK:
+
+---
+
+### ✅ Basic License Validation
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "injectables": True,
+    "onReady": lambda data: print("✅ License valid:", data),
+    "invalidBehavior": "modal",  # Options: modal, redirect, log, silent
+})
+
+```
+Alternatively, if you want more control:
+
+```python
+from devpayr import Config, RuntimeValidator
+
+config = Config({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "injectables": True
+})
+
+validator = RuntimeValidator(config)
+result = validator.validate()
+print("✅ License valid:", result)
+
+```
+
+### 🚀 Project Creation
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({ "api_key": "your-api-key" })
+
+project = DevPayr.projects().create({
+    "name": "My App",
+    "description": "A sample project",
+    "is_active": True
+})
+
+print("📁 Project created:", project)
+```
+Or manually:
+
+```python
+from devpayr import Config, ProjectService
+
+config = Config({ "api_key": "your-api-key" })
+project_service = ProjectService(config)
+
+project = project_service.create({
+    "name": "My App",
+    "description": "A sample project",
+    "is_active": True
+})
+
+print("📁 Project created:", project)
+```
+
+### 🔑 License Management
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({ "api_key": "your-api-key" })
+
+licenses = DevPayr.licenses().list(project_id=1)
+print("🔐 Licenses:", licenses)
+```
+
+Or:
+
+```python
+from devpayr import Config, LicenseService
+
+config = Config({ "api_key": "your-api-key" })
+license_service = LicenseService(config)
+
+licenses = license_service.list(project_id=1)
+```
+
+### 🌐 Domain Management
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({ "api_key": "your-api-key" })
+
+domain = DevPayr.domains().create(project_id=1, data={
+    "domain": "example.com"
+})
+```
+
+### 📦 Injectable Streaming
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "injectables": True
+})
+
+# Injectables are automatically processed and written to file.
+```
+You can also fetch them manually:
+
+```python
+from devpayr import Config, InjectableService
+
+config = Config({
+    "license": "your-license-key",
+    "secret": "your-shared-secret"
+})
+
+service = InjectableService(config)
+injectables = service.stream()
+print("📦 Injectables:", injectables)
+```
+
+## 🔐 Runtime Validation & Injectables
+
+The DevPayr Python SDK supports **runtime license validation** and **secure injectable management**. When configured, the SDK automatically validates your license and handles injectables securely.
+
+### 🧪 How It Works
+
+1. **License Validation**  
+   When `DevPayr.bootstrap()` is called with a `license` and `secret`, the SDK makes a call to the DevPayr backend to validate the license using your `secret`.
+
+2. **Injectable Fetching**  
+   If `injectables=True`, the SDK will request the encrypted injectables associated with your license.
+
+3. **Decryption & Signature Verification**  
+   Each injectable is:
+   - Decrypted using AES-256-CBC with the `secret`
+   - Verified using HMAC-SHA256 signature
+
+4. **Writing Injectables**  
+   If `handleInjectables=True`, verified injectables are written to your filesystem using the `target_path` and `mode` (`append`, `prepend`, `replace`).
+
+---
+
+### 🔒 Example Configuration
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "injectables": True,
+    "handleInjectables": True,
+    "injectablesVerify": True,
+    "injectablesPath": "runtime/",
+    "onReady": lambda data: print("✅ All good:", data)
+})
+```
+### 💡 Notes
+
+- All written files are placed in `injectablesPath` (defaults to current directory).
+- Signature verification ensures content has not been tampered with.
+- You can set `injectablesVerify=False` to skip HMAC verification (**not recommended**).
+
+## 🧰 Custom Injectable Processor
+
+You can define your own custom injectable processor by implementing the `InjectableProcessorInterface`. This allows you to take full control of how injectables are decrypted, verified, and saved (e.g., storing in a DB, writing to disk, or injecting into memory).
+
+To use a custom processor, simply pass it via the `injectablesProcessor` key in the `DevPayr.bootstrap()` config.
+
+### 🔧 Example: Custom Processor Implementation
+
+```python
+from devpayr.contracts.injectable_processor import InjectableProcessorInterface
+from devpayr.crypto.crypto_helper import CryptoHelper
+from devpayr.crypto.hash_helper import  HashHelper
+import os
+
+class MyInjectableProcessor(InjectableProcessorInterface):
+    @staticmethod
+    def handle(injectable: dict, secret: str, base_path: str, verify_signature: bool = True) -> str:
+        encrypted = injectable.get("encrypted_content")
+        signature = injectable.get("signature")
+
+        if verify_signature:
+            expected = HashHelper.signature(encrypted, secret)
+            if signature != expected:
+                raise Exception("Invalid injectable signature")
+
+        decrypted = CryptoHelper.decrypt(encrypted, secret)
+        target_path = os.path.join(base_path, injectable.get("target_path"))
+        os.makedirs(os.path.dirname(target_path), exist_ok=True)
+
+        with open(target_path, "w", encoding="utf-8") as f:
+            f.write(decrypted)
+
+        return target_path
+```
+
+#### ⚙️ Using the Processor
+
+```python
+from devpayr import DevPayr
+
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "injectables": True,
+    "handleInjectables": True,
+    "injectablesProcessor": MyInjectableProcessor,
+})
+```
+
+>✅ With this setup, your injectables will be processed using your custom logic instead of the default built-in handler.
+
+## ❌ Failure Modes & Behavior
+
+When the SDK fails to validate a license (e.g., expired, revoked, or invalid), the `invalidBehavior` config key determines how the SDK should respond. This is useful for preventing unauthorized access while offering flexible handling strategies.
+
+---
+
+### 🛠️ Supported `invalidBehavior` Options
+
+| Mode     | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| `modal`  | Prints a styled HTML message to the screen (for CLI or frontend display). This is the **default** behavior. |
+| `redirect` | Opens the provided `redirectUrl` in the browser and exits. Useful in desktop or GUI apps. |
+| `log`    | Logs the error message to `stderr` without exiting the program. |
+| `silent` | Suppresses all error output and continues execution (not recommended). |
+
+---
+
+### 🧾 Example
+
+```python
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "invalidBehavior": "redirect",
+    "redirectUrl": "https://yourapp.com/license-error"
+})
+```
+### 🧩 Custom Error Message or View
+
+You can customize the modal output by using:
+- `customInvalidMessage`: A string to override the default error message.
+- `customInvalidView`: A path to your own .html file to render instead of the default modal.
+
+```python
+DevPayr.bootstrap({
+    "license": "your-license-key",
+    "secret": "your-shared-secret",
+    "invalidBehavior": "modal",
+    "customInvalidMessage": "Your license is no longer valid. Please contact support.",
+    "customInvalidView": "/path/to/custom_error.html"
+})
+```
+> 📌 Note: If using modal, the SDK will attempt to render a default HTML view (resources/unlicensed.html) if no custom view is provided.
+
+## 🧪 Testing
+
+The DevPayr Python SDK includes direct test scripts within the `tests/` directory for validating various components such as license validation, injectables handling, encryption, and service APIs.
+
+These tests can be run individually without any test runner like `pytest` — just using standard Python.
+
+---
+
+### ✅ Running Tests
+
+To run a test file, use:
+
+```bash
+python tests/test_runtime_validator.py
+```
+Or any other test file in the tests/ folder, for example:
+
+```bash
+python tests/test_crypto_and_hash.py
+python tests/test_config.py
+```
+
+## 🙌 Credits / Acknowledgments
+
+The **DevPayr Python SDK** was developed by the team at **XulTech** as part of the broader **DevPayr** ecosystem.
+
+### 👨‍💻 Lead Developer
+
+- **[Erastus U. (XulTech)](https://github.com/michaelerastus)** – Conceptualized and led development of the SDK.
+
+### 🔧 Built With
+
+- `requests` – HTTP communication
+- `cryptography` – AES-256-CBC encryption
+- `unittest.mock` – Testing utilities
+
+### 💙 Inspired By
+
+- Common SDK patterns in the open-source community.
+- Feedback from real developers who wanted license protection without complexity.
+
+---
+
+Thank you for supporting **DevPayr**.  
+Together, we’re building a safer world for developers and digital product creators.
