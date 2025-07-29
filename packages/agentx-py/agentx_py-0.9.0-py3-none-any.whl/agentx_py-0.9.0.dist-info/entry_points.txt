@@ -1,0 +1,6 @@
+[console_scripts]
+agentx = agentx.cli.main:app
+dev = agentx.run:dev
+monitor = agentx.run:monitor
+start = agentx.run:start
+test = agentx.run:test
