@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: machine-learn
+Version: 0.1.0
+Summary: machine-learn
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: imageio (>=2.33.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.10.1,<4.0.0)
+Requires-Dist: nltk (>=3.9.1,<4.0.0)
+Requires-Dist: numpy (>=2.0.2,<3.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pyfiglet (>=1.0.2,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: scikit-image (>=0.25.0,<0.26.0)
+Requires-Dist: scikit-learn (>=1.6.1,<2.0.0)
+Requires-Dist: scipy (>=1.13.0,<2.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: wordcloud (>=1.9.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+
