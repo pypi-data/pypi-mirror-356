@@ -1,0 +1,27 @@
+[project]
+name = "incli"
+version = "0.1.2"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+authors = [{email = "unaior@gmail.com"},{name = "Unaior"}]
+description = "CLI utilities for ..."
+readme = "README.md"
+dependencies = ["simplejson","requests >= 2.28.1, <2.28.2","urllib3 >=1.26.15, <1.26.16","colorama","ansi2html"]
+
+# Remove license-expression and license-file
+#license-files = ["LICENSE.txt"]  # Use license-files for the file location
+
+[build-system]
+#requires = ['setuptools>=61.0']
+requires = ["setuptools >= 77.0.3"]
+build-backend = 'setuptools.build_meta'
+
+[project.scripts]
+incli = "incli.incli:main"
+
+[project.urls]
+repository = "https://github.com/unaior/InCli"
+
+[tool.setuptools.packages.find]
+include = ["incli", "incli.*"]
+where = ["."]
