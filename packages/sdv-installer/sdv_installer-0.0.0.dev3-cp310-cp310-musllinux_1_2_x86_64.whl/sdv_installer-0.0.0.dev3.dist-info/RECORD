@@ -1,0 +1,13 @@
+sdv_installer/__init__.cpython-310-x86_64-linux-gnu.so,sha256=vlK93wR4zINg52zvLbI3EKiIKXH5c3Y4Pm2qf_W8dhU,52928
+sdv_installer/cli/__init__.cpython-310-x86_64-linux-gnu.so,sha256=szvu3qlE_y1wOkYBLypHQNcbfzqoUVBqc9y9PPiwSk0,52928
+sdv_installer/cli/__main__.cpython-310-x86_64-linux-gnu.so,sha256=LFIPh5_XJTwbdweIyxa7vi6b-X7Re1O2OPP8qbasUVs,295904
+sdv_installer/installation/__init__.cpython-310-x86_64-linux-gnu.so,sha256=MLOYq3dQXaHrm32a4NMhsQsMKG1vpYq7AbADs8NvPdU,59384
+sdv_installer/installation/installer.cpython-310-x86_64-linux-gnu.so,sha256=Ps9DEaAr-ID3ooOJF3pIqjhiLXSHzCUY_BjWI2Cdn54,643560
+sdv_installer/licensing/__init__.cpython-310-x86_64-linux-gnu.so,sha256=RyMFHeFffXxkg4EzNVTOwqf9isj4BQLfspun3peT2Ls,64272
+sdv_installer/licensing/authentication.cpython-310-x86_64-linux-gnu.so,sha256=Qavzl26fLX_G_5lu5HTJd7QUs1leRMOHMo6pcLulbSQ,596088
+sdv_installer-0.0.0.dev3.dist-info/METADATA,sha256=9c7fjcP_AWoQaq6hkm6sw94avXF-N1NuI7fO7O0hHmg,2807
+sdv_installer-0.0.0.dev3.dist-info/WHEEL,sha256=YJPq7zroHSsdctrb_KymZ4ss41PkmaA9SD9TZzqKSX8,112
+sdv_installer-0.0.0.dev3.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev3.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev3.dist-info/RECORD,,
+sdv_installer-0.0.0.dev3.dist-info/licenses/LICENSE,sha256=yvPXLYJjZGdrkpah9WFuFg_V6kdZuwgyGkDLrJMMTV0,1065
