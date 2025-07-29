@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling>=1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "newpyter"
+description = "New jupyter"
+requires-python = ">=3.10"
+
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = [
+    # useful for grammars
+    "parsimonious",
+    # read/write jupyter format
+    "nbformat",
+    # download/upload. You can add gcsfs / s3fs / r2_fsspec to support clouds or sshfs
+    "fsspec",
+    # for exception types, but it should be already installed by jupyter
+    "tornado",
+    # overwriting LargeFileServer from jupyter_server, so should be installed
+    "jupyter_server",
+]
+dynamic = ["version"]
+authors = [{ name = "Alex Rogozhnikov" }]
+
+[project.optional-dependencies]
+viewer = ["fastapi~=0.85.1", "nbconvert~=7.2.2"]
+
+[tool.setuptools]
+packages = ["newpyter", "newpyter.storage", "newpyter.newpyviewer"]
+
+[tool.hatch.version]
+path = "newpyter/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["/newpyter"]
+
+[tool.hatch.build.targets.wheel]
+# should use packages from main section
+
+[project.scripts]
+newpyter = "newpyter.__main__:main"
+
+[tool.ruff]
+line-length = 120
