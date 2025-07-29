@@ -1,0 +1,5 @@
+my_test/
+*.bed
+*.ipynb
+QuantNado.egg-info/
+*__pycache__/
