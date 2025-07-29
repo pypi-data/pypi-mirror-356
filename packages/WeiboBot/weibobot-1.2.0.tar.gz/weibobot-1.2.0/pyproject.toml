@@ -1,0 +1,38 @@
+[project]
+name = "WeiboBot"
+version = "v1.2.0"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pydantic>=2.11.5",
+    "tortoise-orm>=0.25.1",
+    "aiosqlite>=0.21.0",
+    "qrcode>=8.2",
+    "loguru>=0.7.3",
+    "pyqrcode>=1.2.1",
+    "pillow>=11.2.1",
+    "socksio>=1.0.0",
+    "bs4>=0.0.2",
+]
+description = "基于微博H5 API开发的机器人框架"
+readme = "README.md"
+authors = [
+    {name = "Merlin", email = "merlin@merlinblog.cn"},
+]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["weibo", "bot", "weibo-bot", "weibo-api", "weibo-sdk"]
+
+[project.urls]
+Homepage = "https://github.com/MerlinCN/WeiboBot"
+
+[project.optional-dependencies]
+screenshot = [
+    "playwright>=1.52.0",
+]
+
