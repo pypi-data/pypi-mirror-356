@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: cliente-dato-publico
+Version: 0.1.0
+Summary: Datos de prueba SENEPA
+Home-page: https://github.com/cgamon/cliente_dato_publico.git
+Author: Christian Gamon
+Author-email: Christian.gamon@fpuna.edu.py
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: simplekml
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Datos de prueba SENEPA
