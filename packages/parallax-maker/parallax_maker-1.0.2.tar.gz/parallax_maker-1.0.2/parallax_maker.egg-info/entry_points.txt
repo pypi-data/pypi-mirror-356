@@ -1,0 +1,3 @@
+[console_scripts]
+parallax-gltf-cli = parallax_maker.gltf_cli:main
+parallax-maker = parallax_maker.webui:main
