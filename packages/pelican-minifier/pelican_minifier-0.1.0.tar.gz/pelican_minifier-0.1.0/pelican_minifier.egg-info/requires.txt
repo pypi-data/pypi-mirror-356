@@ -1,0 +1,5 @@
+pelican>=4.5
+htmlmin
+csscompressor
+rjsmin
+beautifulsoup4

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pelican/plugins/minifier/__init__.py
+pelican/plugins/minifier/plugin.py
+pelican_minifier.egg-info/PKG-INFO
+pelican_minifier.egg-info/SOURCES.txt
+pelican_minifier.egg-info/dependency_links.txt
+pelican_minifier.egg-info/entry_points.txt
+pelican_minifier.egg-info/requires.txt
+pelican_minifier.egg-info/top_level.txt

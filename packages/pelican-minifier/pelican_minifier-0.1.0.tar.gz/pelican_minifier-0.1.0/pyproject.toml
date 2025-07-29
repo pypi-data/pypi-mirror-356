@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/layoutshub/pelican-minifier"
+Documentation = "https://layoutshub.github.io/pelican-minifier-plugin.html"
+
+[project]
+name = "pelican-minifier"
+version = "0.1.0"
+description = "Minifies HTML, CSS, JS, and JSON in Pelican's output folder"
+authors = [{ name="Vishal Chopra", email="digital.bill85@protonmail.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+dependencies = [
+    "pelican>=4.5",
+    "htmlmin",
+    "csscompressor",
+    "rjsmin",
+    "beautifulsoup4"
+]
+
+[project.entry-points."pelican.plugins"]
+minifier = "pelican.plugins.minifier"
