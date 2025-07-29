@@ -1,0 +1,13 @@
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+
+jobs:
+  publish:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/publish_pure_python.yml@d83bb11581e517f1e786ae76f146781fdd21cd2f  # v2.0.0
+    secrets:
+      pypi_token: ${{ secrets.pypi_token }}
