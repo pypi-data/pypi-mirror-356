@@ -1,0 +1,2 @@
+[console_scripts]
+gameInvasion3 = invasion_game_demo.main:main
