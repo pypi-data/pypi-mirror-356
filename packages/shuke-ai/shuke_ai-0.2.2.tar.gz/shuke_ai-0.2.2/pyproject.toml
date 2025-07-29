@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shuke-ai"
+version = "0.2.2"
+description = "舒克AI工具集 - AI工具箱"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "Chaiyapeng", email = "your.email@example.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "PyQt6>=6.6.1",
+    "requests==2.31.0",
+    "urllib3==2.2.1",
+    "python-dotenv>=0.19.0",
+    "opencv-python>=4.6.0",
+    "pillow>=9.0.0",
+    "numpy>=1.21.0",
+    "setuptools>=45"
+]
+
+[project.scripts]
+shuke-ai = "shuke_ai.main:main"
+
+[tool.setuptools]
+packages = ["shuke_ai", "shuke_ai.utils", "shuke_ai.view", "shuke_ai.assets", "shuke_ai.workflows"]
+
+[tool.setuptools.package-data]
+"shuke_ai" = ["assets/*", "workflows/*"] 
