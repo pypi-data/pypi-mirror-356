@@ -1,0 +1,16 @@
+vocabraille/__init__.py,sha256=lzdjPIvG0hSABsDUvZVE-wVF4a1waJBkTEQVdT6-Hz4,90
+vocabraille/vocabraille.py,sha256=mJO_7c5MKmqcSm9WQfl9Z0Ux--H5azWAhJ7wIkauXyo,27392
+vocabraille/bin/32/SAAPI32.dll,sha256=zsne_SnSLtLq3jic1jomNduZ9uDMPSFhaVSrekekXw8,7680
+vocabraille/bin/32/UniversalSpeech.dll,sha256=E2NACH4BCvyj-MMu_WAI9JN3LGLU52wey0idMgNiE4U,93184
+vocabraille/bin/32/UniversalSpeech.tlb,sha256=s5RFc-ZNhSERS55VUJqW5ZcmS0fgOkAWEQdPiwJSgIg,2400
+vocabraille/bin/32/ZDSRAPI.dll,sha256=GwqRJl_pfewI_Z91gvIFgG70AFZwII2KUe37oLs_j14,229720
+vocabraille/bin/32/dolapi.dll,sha256=mB0DgXwg2DrPmROOPStRXLoZkuW7HPqybUXft90FfAg,144632
+vocabraille/bin/32/jfwapi.dll,sha256=kxIs3ItoYEC5f8VyLy79PfkS93kHe-5C8Yd73Z8hNxs,27192
+vocabraille/bin/32/nvdaControllerClient.dll,sha256=oNGTiD3Pvq5uaaoAoMWqUqGUsaJlYXuPkg0MfUFkxYc,132608
+vocabraille/bin/64/UniversalSpeech.dll,sha256=D6agQYFGdyrNjFqHYe8GYawFzh6sX8tZ22TwQZ9sRmA,89088
+vocabraille/bin/64/ZDSRAPI.dll,sha256=uUyYBDCrBM5Y7iSsa0-kVZe-ugKqAGZTjEyEG-syyN8,264536
+vocabraille/bin/64/nvdaControllerClient.dll,sha256=QcH131mX55j8-_fI8lid6BHnaLBppgcQYAz1fLI6Cwk,153600
+vocabraille-0.1.0.dist-info/METADATA,sha256=aqGa_ov48DjZPhUHHM3izXjq1arFazxS2rZ0MU5dBBw,5028
+vocabraille-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+vocabraille-0.1.0.dist-info/licenses/LICENSE,sha256=N0oU6ujDLTgLRXq8GM46m6OzpqUPqkSOaMYMs4SwCkA,1078
+vocabraille-0.1.0.dist-info/RECORD,,
