@@ -1,0 +1,2 @@
+[console_scripts]
+openstack-mcp-server = mcp_openstack_http.server:main
