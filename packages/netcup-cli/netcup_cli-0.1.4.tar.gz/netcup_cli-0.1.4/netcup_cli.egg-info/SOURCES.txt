@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+netcup_cli/__init__.py
+netcup_cli/main.py
+netcup_cli/project_manager.py
+netcup_cli.egg-info/PKG-INFO
+netcup_cli.egg-info/SOURCES.txt
+netcup_cli.egg-info/dependency_links.txt
+netcup_cli.egg-info/entry_points.txt
+netcup_cli.egg-info/requires.txt
+netcup_cli.egg-info/top_level.txt
