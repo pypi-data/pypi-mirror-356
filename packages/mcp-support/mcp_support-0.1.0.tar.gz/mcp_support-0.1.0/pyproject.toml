@@ -1,0 +1,80 @@
+[project]
+name = "mcp-support"
+version = "0.1.0"
+description = "MCP Server for Job Analysis and Support - CloudWatch logs and Zendesk integration"
+readme = "README.md"
+authors = [
+    {name = "Simetrik Team", email = "dev@simetrik.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["mcp", "job-analyzer", "support", "simetrik", "cloudwatch", "zendesk"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+]
+
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.3", 
+    "boto3>=1.35.0",
+    "requests>=2.31.0",
+    "pandas>=2.1.0",
+    "openpyxl>=3.1.2",
+]
+
+[project.scripts]
+server = "job_analyzer_support:main"
+
+[project.entry-points."mcp.servers"]
+job-analyzer-support = "job_analyzer_support:main"
+
+[project.urls]
+Homepage = "https://github.com/simetrik/job-analyzer-support"
+Repository = "https://github.com/simetrik/job-analyzer-support"
+Issues = "https://github.com/simetrik/job-analyzer-support/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "job_analyzer_support.py",
+    "read_log_messages.py", 
+    "read_zd_tickets.py"
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+    "build>=1.0.0",
+    "twine>=4.0.0",
+]
+
+[tool.uv.sources]
+
+[tool.black]
+line-length = 88
+target-version = ['py313']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.13"
+warn_return_any = true
+warn_unused_configs = true

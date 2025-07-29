@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "SimetrikDatabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://productuser:5K05WlsDghQYb4QXbqrC@rds-ro-ur.simetrik.com:5432/product_db"
+      ]
+    },
+    "JobAnalyzerSupport": {
+      "command": "uvx",
+      "args": [
+        "--from", "mcp-support", "server",
+        "--log-group-name", "TU_LOG_GROUP_NAME",
+        "--aws-access-key-id", "TU_AWS_ACCESS_KEY_ID",
+        "--aws-secret-access-key", "TU_AWS_SECRET_ACCESS_KEY",
+        "--region-name", "us-east-1"
+      ]
+    },
+    "JobAnalyzerSupportWithEnv": {
+      "command": "uvx",
+      "args": ["--from", "mcp-support", "server"],
+      "env": {
+        "AWS_LOG_GROUP_NAME": "TU_LOG_GROUP_NAME",
+        "AWS_ACCESS_KEY_ID": "TU_AWS_ACCESS_KEY_ID",
+        "AWS_SECRET_ACCESS_KEY": "TU_AWS_SECRET_ACCESS_KEY",
+        "AWS_REGION_NAME": "us-east-1"
+      }
+    }
+  }
+}
