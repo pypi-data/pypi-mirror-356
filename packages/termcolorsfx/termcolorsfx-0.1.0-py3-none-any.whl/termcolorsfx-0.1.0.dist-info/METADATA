@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: termcolorsfx
+Version: 0.1.0
+Summary: Advanced terminal color formatting and logging
+Author: Vignesh Selvaraj
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# termcolors
+
+Advanced terminal formatting library with class-based structure and logger integration.
+
+## Example
+
+```python
+from termcolors import TerminalFormatter, ColorLogger
+
+fmt = TerminalFormatter(color="green", style="bold")
+print(fmt.format("Success"))
+
+logger = ColorLogger()
+logger.info("Info message")
+logger.warning("Warning!")
+logger.error("Something went wrong")
