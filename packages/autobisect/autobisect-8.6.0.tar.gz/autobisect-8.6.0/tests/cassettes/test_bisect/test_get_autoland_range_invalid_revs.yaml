@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://hg.mozilla.org/mozilla-central/json-pushes?fromchange=foo&tochange=bar
+  response:
+    body:
+      string: ''
+    headers:
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html
+      Date:
+      - Wed, 18 Jun 2025 15:39:13 GMT
+      Location:
+      - https://hg-edge.mozilla.org/mozilla-central/json-pushes?fromchange=foo&tochange=bar
+      access-control-allow-origin:
+      - '*'
+      connection:
+      - close
+    status:
+      code: 302
+      message: Found
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://hg-edge.mozilla.org/mozilla-central/json-pushes?fromchange=foo&tochange=bar
+  response:
+    body:
+      string: '{
+
+        "error": "unknown revision ''foo''"
+
+        }'
+    headers:
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 18 Jun 2025 15:39:14 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Served-By:
+      - cache-pdk-kfty8610038-PDK, cache-pdk-kfty8610038-PDK
+      X-Timer:
+      - S1750261154.267841,VS0,VE164
+      accept-ranges:
+      - bytes
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - no-cache
+      content-security-policy:
+      - 'default-src ''none''; connect-src ''self'' https://bugzilla.mozilla.org/;
+        img-src ''self''; script-src https://hg.mozilla.org/static/ https://hg-edge.mozilla.org/static/
+        ''nonce-i0tbUnuDQsSxSiM6RGpAcA''; style-src ''self'' ''unsafe-inline''; upgrade-insecure-requests;
+        frame-ancestors https:'
+      content-type:
+      - application/json
+      server:
+      - Apache
+      strict-transport-security:
+      - max-age=31536000
+      transfer-encoding:
+      - chunked
+      via:
+      - 1.1 varnish, 1.1 varnish
+      x-cache-info:
+      - 'not cacheable; response specified "Cache-Control: no-cache"'
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 404
+      message: Not Found
+version: 1
