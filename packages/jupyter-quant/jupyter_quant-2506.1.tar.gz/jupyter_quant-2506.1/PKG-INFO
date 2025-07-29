@@ -1,0 +1,533 @@
+Metadata-Version: 2.4
+Name: jupyter-quant
+Version: 2506.1
+Summary: Jupyter quant research environment. 
+Author: gnzsnz
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright 2023 Gonzalo Sáenz
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Project-URL: Homepage, https://github.com/quantbelt/jupyter-quant
+Project-URL: Bug Tracker, https://github.com/quantbelt/jupyter-quant/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: alphalens-reloaded==0.4.6
+Requires-Dist: arch==7.2.0
+Requires-Dist: black==25.1.0
+Requires-Dist: bottleneck==1.5.0
+Requires-Dist: dask[dataframe,distributed]==2025.5.1
+Requires-Dist: empyrical-reloaded==0.5.12
+Requires-Dist: exchange_calendars==4.10.1
+Requires-Dist: h5py==3.14.0
+Requires-Dist: hurst==0.0.5
+Requires-Dist: ib-fundamental==0.0.5
+Requires-Dist: ib_async==1.0.3
+Requires-Dist: ipympl==0.9.7
+Requires-Dist: ipywidgets==8.1.7
+Requires-Dist: isort==6.0.1
+Requires-Dist: jedi-language-server==0.45.1
+Requires-Dist: jupyterlab==4.4.3
+Requires-Dist: jupyterlab-lsp==5.1.1
+Requires-Dist: jupyterlab_code_formatter==3.0.2
+Requires-Dist: jupyterlab_widgets==3.0.15
+Requires-Dist: lightgbm==4.6.0
+Requires-Dist: matplotlib==3.10.3
+Requires-Dist: numba==0.61.2
+Requires-Dist: numexpr==2.11.0
+Requires-Dist: numpy==2.2.6
+Requires-Dist: optuna==4.4.0
+Requires-Dist: pandas==2.3.0
+Requires-Dist: patsy==1.0.1
+Requires-Dist: pip==25.1.1
+Requires-Dist: py_vollib==1.0.1
+Requires-Dist: py_vollib_vectorized==0.1.1
+Requires-Dist: pyarrow==20.0.0
+Requires-Dist: pyfolio-reloaded==0.9.9
+Requires-Dist: pykalman==0.10.1
+Requires-Dist: PyPortfolioOpt==1.5.6
+Requires-Dist: quantstats-lumi==1.0.1
+Requires-Dist: scikit-learn==1.7.0
+Requires-Dist: scipy==1.15.3
+Requires-Dist: sdepy==1.2.0
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: shap==0.48.0
+Requires-Dist: statsmodels==0.14.4
+Requires-Dist: TA-Lib==0.6.4
+Requires-Dist: tzdata==2025.2
+Requires-Dist: yellowbrick==1.5
+Requires-Dist: yfinance==0.2.63
+Requires-Dist: zipline-reloaded==3.1
+Provides-Extra: sk-util
+Requires-Dist: skfolio==0.10.1; extra == "sk-util"
+Requires-Dist: sktime==0.37.0; extra == "sk-util"
+Provides-Extra: bayes
+Requires-Dist: arviz==0.21.0; extra == "bayes"
+Requires-Dist: bambi==0.15.0; extra == "bayes"
+Requires-Dist: pymc==5.23.0; extra == "bayes"
+Requires-Dist: formulae==0.5.4; extra == "bayes"
+Requires-Dist: graphviz==0.21; extra == "bayes"
+Provides-Extra: dev
+Requires-Dist: pre-commit>=3.7.1; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Dynamic: license-file
+
+# Jupyter Quant
+
+A dockerized Jupyter quant research environment.
+
+## Highlights
+
+- It can be used as a docker image or pypi package.
+- Includes tools for quant analysis, statsmodels, pymc, arch, py_vollib,
+  zipline-reloaded, PyPortfolioOpt, etc.
+- The usual suspects are included, numpy, pandas, sci-py, scikit-learn,
+  yellowbricks, shap, optuna.
+- [ib_async](https://github.com/ib-api-reloaded/ib_async) for Interactive Broker
+  connectivity. Works well with
+  [IB Gateway](https://github.com/gnzsnz/ib-gateway-docker) docker image.
+  [ib_insync](https://github.com/erdewit/ib_insync/) has been invaluable all
+  this time, RIP Ewald.
+- Includes all major Python packages for statistical and time series analysis,
+  see [requirements](https://github.com/gnzsnz/jupyter-quant/blob/master/requirements.txt).
+  For an extensive list check
+  [list installed packages](#list-installed-packages) section.
+- [Zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded/),
+  [pyfolio-reloaded](https://github.com/stefan-jansen/pyfolio-reloaded)
+  and [alphalens-reloaded](https://github.com/stefan-jansen/alphalens-reloaded).
+- [ib_fundamental](https://github.com/quantbelt/ib_fundamental) for IBKR
+  fundamental data.
+- You can install it as a python package, just `pip install -U jupyter-quant`
+- Designed for [ephemeral](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#create-ephemeral-containers)
+  containers. Relevant data for your environment will survive your container.
+- Optimized for size, it's a 2GB image vs 4GB for jupyter/scipy-notebook
+- Includes jedi language server, jupyterlab-lsp, black and isort.
+- It does NOT include conda/mamba. All packages are installed with pip under
+  `~/.local/lib/python`. Which should be mounted in a dedicated volume to
+  preserve your environment.
+- Includes Cython, Numba, bottleneck and numexpr to speed up things
+- sudo, so you can install new packages if needed.
+- bash and stow, so you can [BYODF](#install-your-dotfiles) (bring your
+  dotfiles). Plus common command line utilities like git, less, nano (tiny), jq,
+  [ssh](#install-your-ssh-keys), curl, bash completion and others.
+- Support for [apt cache](https://github.com/gnzsnz/apt-cacher-ng). If you have
+  other Linux boxes using it can leverage your package cache.
+- It does not include a built environment. If you need to install a package
+  that does not provide wheels you can build your wheels, as explained
+  in [common tasks](#build-wheels-outside-the-container)
+
+## Quick Start
+
+To use `jupyter-quant` as a [pypi package](https://pypi.org/project/jupyter-quant/)
+see [install quant package](#install-jupyter-quant-package).
+
+Create a `docker-compose.yml` file with this content
+
+```yml
+services:
+  jupyter-quant:
+    image: gnzsnz/jupyter-quant:${IMAGE_VERSION}
+    environment:
+      APT_PROXY: ${APT_PROXY:-}
+      BYODF: ${BYODF:-}
+      SSH_KEYDIR: ${SSH_KEYDIR:-}
+      START_SCRIPTS: ${START_SCRIPTS:-}
+      TZ: ${QUANT_TZ:-}
+    restart: unless-stopped
+    ports:
+      - ${LISTEN_PORT}:8888
+    volumes:
+      - quant_conf:/home/gordon/.config
+      - quant_data:/home/gordon/.local
+      - ${PWD}/Notebooks:/home/gordon/Notebooks
+
+volumes:
+  quant_conf:
+  quant_data:
+```
+
+You can use `.env-dist` as your starting point.
+
+```bash
+cp .env-dist .env
+# verify everything looks good
+docker compose config
+docker compose up
+```
+
+## Volumes
+
+The image is designed to work with 3 volumes:
+
+1. `quant_data` - volume for ~/.local folder. It contains caches and all Python
+   packages. This enables to install additional packages through pip.
+2. `quant_conf` - volume for ~/.config, all config goes here. This includes
+   jupyter, ipython, matplotlib, etc
+3. Bind mount (but you could use a named volume) - volume for all notebooks,
+   under `~/Notebooks`.
+
+This allows to have ephemeral containers and to keep your notebooks (3), your
+config (2) and your additional packages (1). Eventually, you would need to
+update the image, in this case, your notebooks (3) can move without issues,
+your config (2) should still work but no warranty and your packages in
+`quant_data` could still be used but you should refresh it with a new image.
+Eventually, you would need to refresh (1) and less frequently (2)
+
+## Common tasks
+
+### Get running server URL
+
+```bash
+docker exec -it jupyterquant jupyter-server list
+Currently running servers:
+http://40798f7a604a:8888/?token=
+ebf9e870d2aa0ed877590eb83b4d3bbbdfbd55467422a167 :: /home/gordon/Notebooks
+```
+
+or
+
+```bash
+docker logs -t jupyter-quant 2>&1 | grep '127.0.0.1:8888/lab?token='
+```
+
+You will need to change hostname (40798f7a604a in this case) or 127.0.0.1 by
+your docker host ip.
+
+### Show jupyter config
+
+```bash
+docker exec -it jupyter-quant jupyter-server --show-config
+```
+
+### Set password
+
+```bash
+docker exec -it jupyter-quant jupyter-server password
+```
+
+### Get command line help
+
+```bash
+docker exec -it jupyter-quant jupyter-server --help
+docker exec -it jupyter-quant jupyter-lab --help
+```
+
+### List installed packages
+
+```bash
+docker exec -it jupyter-quant pip list
+# outdated packages
+docker exec -it jupyter-quant pip list -o
+```
+
+### Pass parameters to jupyter-lab
+
+```bash
+docker run -it --rm gnzsnz/jupyter-quant --core-mode
+docker run -it --rm gnzsnz/jupyter-quant --show-config-json
+```
+
+### Run a command in the container
+
+```bash
+docker run -it --rm gnzsnz/jupyter-quant bash
+```
+
+### Build wheels outside the container
+
+Build wheels outside the container and import wheels into the container
+
+```bash
+# make sure python version match .env-dist
+docker run -it --rm -v $PWD/wheels:/wheels python:3.11 bash
+pip wheel --no-cache-dir --wheel-dir /wheels numpy
+```
+
+This will build wheels for numpy (or any other package that you need) and save
+the file in `$PWD/wheels`. Then you can copy the wheels in your notebook mount
+(3 above) and install it within the container. You can even drag and drop into
+Jupyter.
+
+### Install your dotfiles
+
+`git clone` your dotfiles to `Notebook/etc/dotfiles`, set environment variable
+`BYODF=/home/gordon/Notebook/etc/dotfiles` in your `docker-compose.yml` When
+the container starts up stow will create links like `/home/gordon/.bashrc`
+
+### Install your SSH keys
+
+You need to define environment variable `SSH_KEY_DIR` which should point to a
+location with your keys. The suggested place is
+`SSH_KEYDIR=/home/gordon/Notebooks/etc/ssh`, make sure the director has the
+right permissions. Something like `chmod 700 Notebooks/etc/ssh` should work.
+
+The `entrypoint.sh` script will create a symbolic link pointing to
+`$SSH_KEYDIR` on `/home/gordon/.ssh`.
+
+Within Jupyter's terminal, you can then:
+
+```shell
+# start agent
+eval $(ssh-agent)
+# add keys to agent
+ssh-add
+# open a tunnel
+ssh -fNL 4001:localhost:4001 gordon@bastion-ssh
+```
+
+### Run scripts at start up
+
+If you define `START_SCRIPTS` env variable with a path, all scripts on that
+directory will be executed at start up. The sample `.env-dist` file contains
+a commented line with `START_SCRIPTS=/home/gordon/Notebooks/etc/start_scripts`
+as an example and recommended location.
+
+Files should have a `.sh` suffix and should run under `bash`. in directory
+[start_scripts](https://github.com/quantbelt/jupyter-quant/tree/master/start_scripts)
+you will find example scripts to load ssh keys and install python packages.
+
+### Install jupyter-quant package
+
+Jupyter-quant is available as a package in [pypi](https://pypi.org/project/jupyter-quant/).
+It's a meta-package that pulls all dependencies in it's highest possible version.
+
+Dependencies:
+
+- hdf5 (see below)
+- TA-lib see [instructions](https://pypi.org/project/TA-Lib/)
+
+```bash
+# ubuntu/debian, see install instructions above for TA-lib
+sudo apt-get install libhdf5-dev
+
+# osx
+brew install hdf5 ta-lib
+```
+
+Install [pypi package](https://pypi.org/project/jupyter-quant/).
+
+```bash
+pip install -U jupyter-quant
+```
+
+Additional options supported are
+
+```bash
+pip install -U jupyter-quant[bayes] # to install pymc & arviz/graphviz
+
+pip install -U jupyter-quant[sk-util] # to install skfolio & sktime
+```
+
+`jupyter-quant` it's a meta-package that pins all it's dependencies versions.
+If you need/want to upgrade a dependency you can uninstall `jupyter-quant`,
+although this can break interdependencies. Or install from git, where it's
+updated regularly.
+
+```bash
+# git install
+pip install -U git+https://github.com/quantbelt/jupyter-quant.git
+```
