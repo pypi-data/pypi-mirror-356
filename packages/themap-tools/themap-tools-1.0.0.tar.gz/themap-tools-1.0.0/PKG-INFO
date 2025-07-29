@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: themap-tools
+Version: 1.0.0
+Summary: Tools for THEmap
+Home-page: https://github.com/caokai1073/themap-tools
+Author: Kai Cao
+Author-email: caokai1073@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<<<<<<< HEAD
+# themap-tools
+=======
+# themap-tools
+
+Utility tools for THEmap.
+
+## Installation
+
+```bash
+pip install themap-tools
+>>>>>>> 04af31f (Initial commit: add themap-tools project)
+
+
