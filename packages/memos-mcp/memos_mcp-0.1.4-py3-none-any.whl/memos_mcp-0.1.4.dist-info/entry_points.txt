@@ -1,0 +1,2 @@
+[console_scripts]
+memos-mcp = memos_cmp.server:start_server
