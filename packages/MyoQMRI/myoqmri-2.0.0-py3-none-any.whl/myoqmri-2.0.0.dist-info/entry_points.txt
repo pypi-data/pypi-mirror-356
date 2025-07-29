@@ -1,0 +1,5 @@
+[console_scripts]
+fatwater = MyoQMRI.bin.fatwater:main
+raw2nii_pulseq_mese_leg = MyoQMRI.bin.raw2nii_pulseq_mese_leg:main
+waterT2 = MyoQMRI.bin.waterT2:main
+write_pulseq_mese_leg = MyoQMRI.bin.write_pulseq_mese_leg:main
