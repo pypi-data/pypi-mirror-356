@@ -1,0 +1,2 @@
+[console_scripts]
+metabase-mcp = metabase_mcp_server.app:main
