@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: synergech-doc-extractor
+Version: 0.1.3
+Summary: A simple package to extract text from various documents.
+Author-email: "synergech.ai" <synergechtech@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pdfplumber==0.10.3
+Requires-Dist: python-docx==1.1.0
+Requires-Dist: Pillow==10.3.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: pytesseract==0.3.10
+Requires-Dist: oletools>=0.60
+Requires-Dist: pdf2image
