@@ -1,0 +1,4 @@
+keystone_engine>=0.9.2
+pefile>=2023.2.7
+pynput>=1.7.6
+pywin32>=306
