@@ -1,0 +1,3 @@
+[console_scripts]
+apmm=apmm.apmmcore:cli
+apmcp=apmm.apmcp:cli
