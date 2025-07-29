@@ -1,0 +1,391 @@
+o_code,d_code,o_name,d_name,year,item,weight
+214,9,"China, Taiwan Province of",Argentina,1999,feed_additives,1.0
+131,9,Malaysia,Argentina,1996,feed_additives,4.0
+171,10,Philippines,Australia,1994,feed_additives,33.0
+171,10,Philippines,Australia,1995,feed_additives,23.0
+171,10,Philippines,Australia,1996,feed_additives,113.0
+171,10,Philippines,Australia,2000,feed_additives,14.0
+214,10,"China, Taiwan Province of",Australia,1994,feed_additives,31.0
+214,10,"China, Taiwan Province of",Australia,1995,feed_additives,24.0
+214,10,"China, Taiwan Province of",Australia,1996,feed_additives,32.0
+214,10,"China, Taiwan Province of",Australia,1997,feed_additives,23.0
+214,10,"China, Taiwan Province of",Australia,1998,feed_additives,34.0
+214,10,"China, Taiwan Province of",Australia,1999,feed_additives,35.0
+214,10,"China, Taiwan Province of",Australia,2001,feed_additives,46.0
+214,10,"China, Taiwan Province of",Australia,2002,feed_additives,58.0
+214,10,"China, Taiwan Province of",Australia,2003,feed_additives,60.0
+214,10,"China, Taiwan Province of",Australia,2004,feed_additives,70.0
+214,10,"China, Taiwan Province of",Australia,2005,feed_additives,44.0
+117,10,Republic of Korea,Australia,1989,feed_additives,2.0
+117,10,Republic of Korea,Australia,1991,feed_additives,4.0
+131,10,Malaysia,Australia,1988,feed_additives,9.0
+131,10,Malaysia,Australia,1989,feed_additives,23.0
+131,10,Malaysia,Australia,1990,feed_additives,19.0
+131,10,Malaysia,Australia,1991,feed_additives,22.0
+131,10,Malaysia,Australia,1992,feed_additives,2.0
+131,10,Malaysia,Australia,1993,feed_additives,2.0
+131,10,Malaysia,Australia,1994,feed_additives,13.0
+131,10,Malaysia,Australia,1996,feed_additives,8.0
+214,16,"China, Taiwan Province of",Bangladesh,1995,feed_additives,12.0
+214,16,"China, Taiwan Province of",Bangladesh,1997,feed_additives,2.0
+214,16,"China, Taiwan Province of",Bangladesh,1998,feed_additives,10.0
+214,16,"China, Taiwan Province of",Bangladesh,1999,feed_additives,1.0
+214,16,"China, Taiwan Province of",Bangladesh,2001,feed_additives,5.0
+131,11,Malaysia,Austria,1996,feed_additives,1.0
+171,26,Philippines,Brunei Darussalam,2000,feed_additives,5.0
+117,15,Republic of Korea,Belgium-Luxembourg,1990,feed_additives,64.0
+131,16,Malaysia,Bangladesh,1996,feed_additives,19.0
+171,33,Philippines,Canada,1996,feed_additives,5.0
+171,40,Philippines,Chile,1997,feed_additives,1.0
+214,115,"China, Taiwan Province of",Cambodia,1999,feed_additives,1.0
+214,115,"China, Taiwan Province of",Cambodia,2004,feed_additives,25.0
+171,96,Philippines,"China, Hong Kong SAR",1994,feed_additives,22.0
+171,96,Philippines,"China, Hong Kong SAR",1995,feed_additives,68.0
+171,96,Philippines,"China, Hong Kong SAR",1996,feed_additives,239.0
+171,96,Philippines,"China, Hong Kong SAR",1997,feed_additives,134.0
+171,96,Philippines,"China, Hong Kong SAR",1999,feed_additives,140.0
+171,96,Philippines,"China, Hong Kong SAR",2000,feed_additives,270.0
+214,33,"China, Taiwan Province of",Canada,1997,feed_additives,11.0
+214,33,"China, Taiwan Province of",Canada,1998,feed_additives,10.0
+214,33,"China, Taiwan Province of",Canada,1999,feed_additives,12.0
+214,33,"China, Taiwan Province of",Canada,2002,feed_additives,3.0
+214,33,"China, Taiwan Province of",Canada,2003,feed_additives,5.0
+131,26,Malaysia,Brunei Darussalam,1988,feed_additives,80.0
+131,26,Malaysia,Brunei Darussalam,1989,feed_additives,71.0
+131,26,Malaysia,Brunei Darussalam,1990,feed_additives,3.0
+131,26,Malaysia,Brunei Darussalam,1991,feed_additives,14.0
+131,26,Malaysia,Brunei Darussalam,1992,feed_additives,31.0
+131,26,Malaysia,Brunei Darussalam,1993,feed_additives,188.0
+131,26,Malaysia,Brunei Darussalam,1994,feed_additives,2.0
+131,26,Malaysia,Brunei Darussalam,1996,feed_additives,69.0
+171,41,Philippines,"China, mainland",1992,feed_additives,88.0
+171,41,Philippines,"China, mainland",1994,feed_additives,102.0
+171,41,Philippines,"China, mainland",1995,feed_additives,31.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1988,feed_additives,18.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1994,feed_additives,301.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1995,feed_additives,55.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1996,feed_additives,64.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1997,feed_additives,63.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1998,feed_additives,59.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1999,feed_additives,32.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2001,feed_additives,6.0
+171,214,Philippines,"China, Taiwan Province of",1991,feed_additives,125.0
+171,214,Philippines,"China, Taiwan Province of",1992,feed_additives,67.0
+171,214,Philippines,"China, Taiwan Province of",1993,feed_additives,244.0
+171,214,Philippines,"China, Taiwan Province of",1994,feed_additives,111.0
+171,214,Philippines,"China, Taiwan Province of",1995,feed_additives,96.0
+171,214,Philippines,"China, Taiwan Province of",1996,feed_additives,20.0
+171,214,Philippines,"China, Taiwan Province of",1999,feed_additives,114.0
+170,58,Peru,Ecuador,1989,feed_additives,19.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1997,feed_additives,9.0
+131,96,Malaysia,"China, Hong Kong SAR",1988,feed_additives,90.0
+131,96,Malaysia,"China, Hong Kong SAR",1989,feed_additives,24.0
+131,96,Malaysia,"China, Hong Kong SAR",1990,feed_additives,56.0
+131,96,Malaysia,"China, Hong Kong SAR",1991,feed_additives,72.0
+131,96,Malaysia,"China, Hong Kong SAR",1992,feed_additives,51.0
+131,96,Malaysia,"China, Hong Kong SAR",1993,feed_additives,62.0
+131,96,Malaysia,"China, Hong Kong SAR",1994,feed_additives,93.0
+131,96,Malaysia,"China, Hong Kong SAR",1996,feed_additives,692.0
+214,41,"China, Taiwan Province of","China, mainland",1999,feed_additives,5.0
+214,41,"China, Taiwan Province of","China, mainland",2001,feed_additives,50.0
+214,41,"China, Taiwan Province of","China, mainland",2002,feed_additives,82.0
+214,41,"China, Taiwan Province of","China, mainland",2005,feed_additives,1.0
+117,214,Republic of Korea,"China, Taiwan Province of",1986,feed_additives,1.0
+117,214,Republic of Korea,"China, Taiwan Province of",1987,feed_additives,6.0
+117,214,Republic of Korea,"China, Taiwan Province of",1990,feed_additives,23.0
+117,214,Republic of Korea,"China, Taiwan Province of",1993,feed_additives,24.0
+131,41,Malaysia,"China, mainland",1991,feed_additives,2.0
+131,41,Malaysia,"China, mainland",1992,feed_additives,29.0
+131,41,Malaysia,"China, mainland",1993,feed_additives,18.0
+131,41,Malaysia,"China, mainland",1996,feed_additives,16.0
+171,100,Philippines,India,1994,feed_additives,324.0
+171,100,Philippines,India,1995,feed_additives,261.0
+171,100,Philippines,India,1996,feed_additives,452.0
+171,100,Philippines,India,1997,feed_additives,304.0
+171,100,Philippines,India,1999,feed_additives,40.0
+171,100,Philippines,India,2000,feed_additives,162.0
+214,58,"China, Taiwan Province of",Ecuador,1998,feed_additives,2.0
+171,101,Philippines,Indonesia,1993,feed_additives,3.0
+171,101,Philippines,Indonesia,1994,feed_additives,10.0
+171,101,Philippines,Indonesia,1995,feed_additives,4.0
+171,101,Philippines,Indonesia,1996,feed_additives,8.0
+214,68,"China, Taiwan Province of",France,1996,feed_additives,2.0
+131,214,Malaysia,"China, Taiwan Province of",1988,feed_additives,31.0
+131,214,Malaysia,"China, Taiwan Province of",1990,feed_additives,109.0
+131,214,Malaysia,"China, Taiwan Province of",1992,feed_additives,13.0
+131,214,Malaysia,"China, Taiwan Province of",1996,feed_additives,501.0
+171,106,Philippines,Italy,1995,feed_additives,13.0
+214,79,"China, Taiwan Province of",Germany,1994,feed_additives,11.0
+214,79,"China, Taiwan Province of",Germany,1995,feed_additives,8.0
+214,79,"China, Taiwan Province of",Germany,1997,feed_additives,9.0
+214,79,"China, Taiwan Province of",Germany,1999,feed_additives,8.0
+214,79,"China, Taiwan Province of",Germany,2001,feed_additives,8.0
+214,79,"China, Taiwan Province of",Germany,2003,feed_additives,11.0
+171,110,Philippines,Japan,1992,feed_additives,238.0
+171,110,Philippines,Japan,1993,feed_additives,431.0
+171,110,Philippines,Japan,1994,feed_additives,276.0
+171,110,Philippines,Japan,1995,feed_additives,202.0
+171,110,Philippines,Japan,1996,feed_additives,259.0
+171,110,Philippines,Japan,1997,feed_additives,5.0
+171,110,Philippines,Japan,1999,feed_additives,36.0
+171,110,Philippines,Japan,2000,feed_additives,72.0
+214,95,"China, Taiwan Province of",Honduras,1994,feed_additives,1.0
+214,95,"China, Taiwan Province of",Honduras,1997,feed_additives,1.0
+214,95,"China, Taiwan Province of",Honduras,1998,feed_additives,1.0
+214,95,"China, Taiwan Province of",Honduras,1999,feed_additives,1.0
+214,95,"China, Taiwan Province of",Honduras,2001,feed_additives,1.0
+214,95,"China, Taiwan Province of",Honduras,2002,feed_additives,1.0
+214,100,"China, Taiwan Province of",India,1994,feed_additives,47.0
+214,100,"China, Taiwan Province of",India,1995,feed_additives,104.0
+214,100,"China, Taiwan Province of",India,1996,feed_additives,19.0
+214,100,"China, Taiwan Province of",India,2001,feed_additives,2.0
+214,100,"China, Taiwan Province of",India,2002,feed_additives,15.0
+214,100,"China, Taiwan Province of",India,2004,feed_additives,20.0
+214,100,"China, Taiwan Province of",India,2005,feed_additives,37.0
+131,58,Malaysia,Ecuador,1996,feed_additives,552.0
+214,101,"China, Taiwan Province of",Indonesia,1994,feed_additives,887.0
+214,101,"China, Taiwan Province of",Indonesia,1995,feed_additives,1362.0
+214,101,"China, Taiwan Province of",Indonesia,1996,feed_additives,2267.0
+214,101,"China, Taiwan Province of",Indonesia,1997,feed_additives,2302.0
+214,101,"China, Taiwan Province of",Indonesia,1998,feed_additives,212.0
+214,101,"China, Taiwan Province of",Indonesia,1999,feed_additives,678.0
+214,101,"China, Taiwan Province of",Indonesia,2001,feed_additives,1217.0
+214,101,"China, Taiwan Province of",Indonesia,2002,feed_additives,1069.0
+214,101,"China, Taiwan Province of",Indonesia,2003,feed_additives,1372.0
+214,101,"China, Taiwan Province of",Indonesia,2004,feed_additives,1755.0
+214,101,"China, Taiwan Province of",Indonesia,2005,feed_additives,2787.0
+131,66,Malaysia,Fiji,1996,feed_additives,1.0
+171,131,Philippines,Malaysia,1991,feed_additives,63.0
+171,131,Philippines,Malaysia,1992,feed_additives,406.0
+171,131,Philippines,Malaysia,1993,feed_additives,167.0
+171,131,Philippines,Malaysia,1994,feed_additives,213.0
+171,131,Philippines,Malaysia,1995,feed_additives,88.0
+171,131,Philippines,Malaysia,1996,feed_additives,36.0
+171,131,Philippines,Malaysia,1997,feed_additives,15.0
+171,131,Philippines,Malaysia,1999,feed_additives,17.0
+171,131,Philippines,Malaysia,2000,feed_additives,20.0
+117,101,Republic of Korea,Indonesia,1988,feed_additives,2.0
+117,101,Republic of Korea,Indonesia,1992,feed_additives,4.0
+117,101,Republic of Korea,Indonesia,1993,feed_additives,15.0
+131,79,Malaysia,Germany,1994,feed_additives,17.0
+214,110,"China, Taiwan Province of",Japan,1994,feed_additives,209.0
+214,110,"China, Taiwan Province of",Japan,1995,feed_additives,788.0
+214,110,"China, Taiwan Province of",Japan,1996,feed_additives,615.0
+214,110,"China, Taiwan Province of",Japan,1997,feed_additives,250.0
+214,110,"China, Taiwan Province of",Japan,1998,feed_additives,304.0
+214,110,"China, Taiwan Province of",Japan,1999,feed_additives,151.0
+214,110,"China, Taiwan Province of",Japan,2001,feed_additives,286.0
+214,110,"China, Taiwan Province of",Japan,2005,feed_additives,3.0
+131,84,Malaysia,Greece,1990,feed_additives,2.0
+117,110,Republic of Korea,Japan,1986,feed_additives,110.0
+117,110,Republic of Korea,Japan,1987,feed_additives,381.0
+117,110,Republic of Korea,Japan,1988,feed_additives,195.0
+117,110,Republic of Korea,Japan,1989,feed_additives,4.0
+117,110,Republic of Korea,Japan,1990,feed_additives,18.0
+117,110,Republic of Korea,Japan,1991,feed_additives,23.0
+117,110,Republic of Korea,Japan,1992,feed_additives,27.0
+117,110,Republic of Korea,Japan,1993,feed_additives,32.0
+171,168,Philippines,Papua New Guinea,1996,feed_additives,2.0
+131,100,Malaysia,India,1990,feed_additives,150.0
+131,100,Malaysia,India,1991,feed_additives,10.0
+131,100,Malaysia,India,1992,feed_additives,342.0
+131,100,Malaysia,India,1993,feed_additives,239.0
+131,100,Malaysia,India,1994,feed_additives,302.0
+131,100,Malaysia,India,1996,feed_additives,585.0
+171,117,Philippines,Republic of Korea,1992,feed_additives,33.0
+171,117,Philippines,Republic of Korea,1993,feed_additives,75.0
+171,117,Philippines,Republic of Korea,1994,feed_additives,100.0
+171,117,Philippines,Republic of Korea,1995,feed_additives,61.0
+171,117,Philippines,Republic of Korea,1997,feed_additives,3.0
+171,117,Philippines,Republic of Korea,2000,feed_additives,69.0
+214,131,"China, Taiwan Province of",Malaysia,1994,feed_additives,15.0
+214,131,"China, Taiwan Province of",Malaysia,1995,feed_additives,74.0
+214,131,"China, Taiwan Province of",Malaysia,1996,feed_additives,134.0
+214,131,"China, Taiwan Province of",Malaysia,1997,feed_additives,236.0
+214,131,"China, Taiwan Province of",Malaysia,1998,feed_additives,173.0
+214,131,"China, Taiwan Province of",Malaysia,1999,feed_additives,250.0
+214,131,"China, Taiwan Province of",Malaysia,2001,feed_additives,253.0
+214,131,"China, Taiwan Province of",Malaysia,2002,feed_additives,470.0
+214,131,"China, Taiwan Province of",Malaysia,2003,feed_additives,347.0
+214,131,"China, Taiwan Province of",Malaysia,2004,feed_additives,241.0
+214,131,"China, Taiwan Province of",Malaysia,2005,feed_additives,156.0
+131,101,Malaysia,Indonesia,1988,feed_additives,215.0
+131,101,Malaysia,Indonesia,1989,feed_additives,634.0
+131,101,Malaysia,Indonesia,1990,feed_additives,277.0
+131,101,Malaysia,Indonesia,1991,feed_additives,473.0
+131,101,Malaysia,Indonesia,1992,feed_additives,746.0
+131,101,Malaysia,Indonesia,1993,feed_additives,417.0
+131,101,Malaysia,Indonesia,1994,feed_additives,4830.0
+131,101,Malaysia,Indonesia,1996,feed_additives,1505.0
+171,200,Philippines,Singapore,1994,feed_additives,7.0
+171,200,Philippines,Singapore,1999,feed_additives,2.0
+214,137,"China, Taiwan Province of",Mauritius,1994,feed_additives,12.0
+117,131,Republic of Korea,Malaysia,1986,feed_additives,2.0
+117,131,Republic of Korea,Malaysia,1987,feed_additives,24.0
+117,131,Republic of Korea,Malaysia,1988,feed_additives,7.0
+117,131,Republic of Korea,Malaysia,1989,feed_additives,1.0
+117,131,Republic of Korea,Malaysia,1990,feed_additives,2.0
+117,131,Republic of Korea,Malaysia,1993,feed_additives,1.0
+131,102,Malaysia,Iran (Islamic Republic of),1993,feed_additives,1.0
+131,102,Malaysia,Iran (Islamic Republic of),1996,feed_additives,3396.0
+131,106,Malaysia,Italy,1992,feed_additives,1.0
+171,38,Philippines,Sri Lanka,2000,feed_additives,1.0
+171,210,Philippines,Sweden,1996,feed_additives,1.0
+131,110,Malaysia,Japan,1988,feed_additives,15.0
+131,110,Malaysia,Japan,1991,feed_additives,38.0
+131,110,Malaysia,Japan,1994,feed_additives,13.0
+131,110,Malaysia,Japan,1996,feed_additives,12.0
+171,216,Philippines,Thailand,1991,feed_additives,1.0
+171,216,Philippines,Thailand,1992,feed_additives,69.0
+171,216,Philippines,Thailand,1993,feed_additives,118.0
+171,216,Philippines,Thailand,1994,feed_additives,96.0
+171,216,Philippines,Thailand,1995,feed_additives,24.0
+171,216,Philippines,Thailand,1996,feed_additives,21.0
+171,216,Philippines,Thailand,1997,feed_additives,620.0
+171,216,Philippines,Thailand,2000,feed_additives,1.0
+117,156,Republic of Korea,New Zealand,1989,feed_additives,2.0
+117,156,Republic of Korea,New Zealand,1990,feed_additives,12.0
+214,169,"China, Taiwan Province of",Paraguay,2001,feed_additives,1.0
+171,225,Philippines,United Arab Emirates,2000,feed_additives,1.0
+214,171,"China, Taiwan Province of",Philippines,1994,feed_additives,55.0
+214,171,"China, Taiwan Province of",Philippines,1995,feed_additives,71.0
+214,171,"China, Taiwan Province of",Philippines,1996,feed_additives,217.0
+214,171,"China, Taiwan Province of",Philippines,1997,feed_additives,1.0
+214,171,"China, Taiwan Province of",Philippines,1998,feed_additives,252.0
+214,171,"China, Taiwan Province of",Philippines,1999,feed_additives,331.0
+214,171,"China, Taiwan Province of",Philippines,2001,feed_additives,45.0
+214,171,"China, Taiwan Province of",Philippines,2002,feed_additives,92.0
+214,171,"China, Taiwan Province of",Philippines,2003,feed_additives,30.0
+214,171,"China, Taiwan Province of",Philippines,2004,feed_additives,45.0
+117,162,Republic of Korea,Norway,1987,feed_additives,4.0
+131,129,Malaysia,Madagascar,1996,feed_additives,2830.0
+171,231,Philippines,United States of America,1997,feed_additives,1.0
+214,117,"China, Taiwan Province of",Republic of Korea,1994,feed_additives,12.0
+214,117,"China, Taiwan Province of",Republic of Korea,1995,feed_additives,20.0
+214,117,"China, Taiwan Province of",Republic of Korea,1996,feed_additives,10.0
+214,117,"China, Taiwan Province of",Republic of Korea,1997,feed_additives,11.0
+214,117,"China, Taiwan Province of",Republic of Korea,1998,feed_additives,4.0
+214,117,"China, Taiwan Province of",Republic of Korea,1999,feed_additives,42.0
+214,117,"China, Taiwan Province of",Republic of Korea,2001,feed_additives,1.0
+117,171,Republic of Korea,Philippines,1987,feed_additives,2.0
+117,171,Republic of Korea,Philippines,1988,feed_additives,2.0
+117,171,Republic of Korea,Philippines,1989,feed_additives,13.0
+117,171,Republic of Korea,Philippines,1990,feed_additives,16.0
+117,171,Republic of Korea,Philippines,1991,feed_additives,19.0
+117,171,Republic of Korea,Philippines,1992,feed_additives,30.0
+117,171,Republic of Korea,Philippines,1993,feed_additives,18.0
+131,137,Malaysia,Mauritius,1991,feed_additives,2.0
+131,137,Malaysia,Mauritius,1993,feed_additives,2.0
+131,138,Malaysia,Mexico,1996,feed_additives,6.0
+214,194,"China, Taiwan Province of",Saudi Arabia,1999,feed_additives,60.0
+131,28,Malaysia,Myanmar,1996,feed_additives,17.0
+171,237,Philippines,Viet Nam,1992,feed_additives,1.0
+171,237,Philippines,Viet Nam,1999,feed_additives,7.0
+171,237,Philippines,Viet Nam,2000,feed_additives,4.0
+214,200,"China, Taiwan Province of",Singapore,1994,feed_additives,3.0
+214,200,"China, Taiwan Province of",Singapore,1995,feed_additives,3.0
+214,200,"China, Taiwan Province of",Singapore,1998,feed_additives,5.0
+214,200,"China, Taiwan Province of",Singapore,1999,feed_additives,78.0
+214,200,"China, Taiwan Province of",Singapore,2001,feed_additives,4.0
+214,200,"China, Taiwan Province of",Singapore,2002,feed_additives,34.0
+214,200,"China, Taiwan Province of",Singapore,2003,feed_additives,3.0
+214,200,"China, Taiwan Province of",Singapore,2004,feed_additives,21.0
+214,200,"China, Taiwan Province of",Singapore,2005,feed_additives,4.0
+131,147,Malaysia,Namibia,1994,feed_additives,5.0
+131,147,Malaysia,Namibia,1996,feed_additives,58.0
+131,150,Malaysia,Netherlands (Kingdom of the),1990,feed_additives,52.0
+131,150,Malaysia,Netherlands (Kingdom of the),1991,feed_additives,4.0
+214,202,"China, Taiwan Province of",South Africa,2001,feed_additives,24.0
+214,202,"China, Taiwan Province of",South Africa,2002,feed_additives,23.0
+214,202,"China, Taiwan Province of",South Africa,2003,feed_additives,12.0
+214,202,"China, Taiwan Province of",South Africa,2004,feed_additives,22.0
+214,202,"China, Taiwan Province of",South Africa,2005,feed_additives,22.0
+214,203,"China, Taiwan Province of",Spain,2003,feed_additives,1.0
+214,38,"China, Taiwan Province of",Sri Lanka,1997,feed_additives,25.0
+214,38,"China, Taiwan Province of",Sri Lanka,1998,feed_additives,24.0
+214,38,"China, Taiwan Province of",Sri Lanka,1999,feed_additives,26.0
+214,38,"China, Taiwan Province of",Sri Lanka,2004,feed_additives,79.0
+117,203,Republic of Korea,Spain,1990,feed_additives,16.0
+131,221,Malaysia,Oman,1993,feed_additives,2.0
+131,165,Malaysia,Pakistan,1990,feed_additives,3.0
+131,165,Malaysia,Pakistan,1991,feed_additives,2.0
+131,165,Malaysia,Pakistan,1992,feed_additives,1.0
+131,165,Malaysia,Pakistan,1993,feed_additives,6.0
+131,165,Malaysia,Pakistan,1994,feed_additives,4.0
+214,216,"China, Taiwan Province of",Thailand,1994,feed_additives,226.0
+214,216,"China, Taiwan Province of",Thailand,1995,feed_additives,6.0
+214,216,"China, Taiwan Province of",Thailand,1997,feed_additives,12.0
+214,216,"China, Taiwan Province of",Thailand,1998,feed_additives,5.0
+214,216,"China, Taiwan Province of",Thailand,1999,feed_additives,10.0
+214,216,"China, Taiwan Province of",Thailand,2001,feed_additives,19.0
+214,216,"China, Taiwan Province of",Thailand,2002,feed_additives,1.0
+117,216,Republic of Korea,Thailand,1987,feed_additives,6.0
+131,171,Malaysia,Philippines,1989,feed_additives,10.0
+131,171,Malaysia,Philippines,1990,feed_additives,35.0
+131,171,Malaysia,Philippines,1991,feed_additives,43.0
+131,171,Malaysia,Philippines,1992,feed_additives,160.0
+131,171,Malaysia,Philippines,1994,feed_additives,24.0
+131,171,Malaysia,Philippines,1996,feed_additives,43.0
+131,117,Malaysia,Republic of Korea,1992,feed_additives,7.0
+214,231,"China, Taiwan Province of",United States of America,1994,feed_additives,4.0
+214,231,"China, Taiwan Province of",United States of America,1995,feed_additives,41.0
+214,231,"China, Taiwan Province of",United States of America,1996,feed_additives,22.0
+214,231,"China, Taiwan Province of",United States of America,1997,feed_additives,3.0
+214,231,"China, Taiwan Province of",United States of America,1998,feed_additives,14.0
+214,231,"China, Taiwan Province of",United States of America,1999,feed_additives,21.0
+214,231,"China, Taiwan Province of",United States of America,2001,feed_additives,65.0
+214,231,"China, Taiwan Province of",United States of America,2002,feed_additives,151.0
+214,231,"China, Taiwan Province of",United States of America,2003,feed_additives,28.0
+214,231,"China, Taiwan Province of",United States of America,2004,feed_additives,45.0
+131,194,Malaysia,Saudi Arabia,1996,feed_additives,6.0
+117,231,Republic of Korea,United States of America,1988,feed_additives,5.0
+117,231,Republic of Korea,United States of America,1989,feed_additives,8.0
+117,231,Republic of Korea,United States of America,1990,feed_additives,17.0
+131,196,Malaysia,Seychelles,1992,feed_additives,36.0
+131,196,Malaysia,Seychelles,1993,feed_additives,69.0
+214,237,"China, Taiwan Province of",Viet Nam,1999,feed_additives,253.0
+214,237,"China, Taiwan Province of",Viet Nam,2002,feed_additives,85.0
+214,237,"China, Taiwan Province of",Viet Nam,2003,feed_additives,18.0
+214,237,"China, Taiwan Province of",Viet Nam,2004,feed_additives,418.0
+214,237,"China, Taiwan Province of",Viet Nam,2005,feed_additives,15.0
+131,200,Malaysia,Singapore,1986,feed_additives,105.0
+131,200,Malaysia,Singapore,1987,feed_additives,56.0
+131,200,Malaysia,Singapore,1988,feed_additives,1942.0
+131,200,Malaysia,Singapore,1989,feed_additives,773.0
+131,200,Malaysia,Singapore,1990,feed_additives,2636.0
+131,200,Malaysia,Singapore,1991,feed_additives,3035.0
+131,200,Malaysia,Singapore,1992,feed_additives,2488.0
+131,200,Malaysia,Singapore,1993,feed_additives,1777.0
+131,200,Malaysia,Singapore,1994,feed_additives,1320.0
+131,200,Malaysia,Singapore,1996,feed_additives,1430.0
+131,202,Malaysia,South Africa,1993,feed_additives,3.0
+131,38,Malaysia,Sri Lanka,1988,feed_additives,23.0
+131,38,Malaysia,Sri Lanka,1989,feed_additives,61.0
+131,38,Malaysia,Sri Lanka,1990,feed_additives,22.0
+131,38,Malaysia,Sri Lanka,1991,feed_additives,707.0
+131,38,Malaysia,Sri Lanka,1992,feed_additives,539.0
+131,38,Malaysia,Sri Lanka,1993,feed_additives,162.0
+131,38,Malaysia,Sri Lanka,1994,feed_additives,152.0
+131,38,Malaysia,Sri Lanka,1996,feed_additives,2288.0
+131,211,Malaysia,Switzerland,1986,feed_additives,8.0
+131,211,Malaysia,Switzerland,1987,feed_additives,7.0
+131,216,Malaysia,Thailand,1986,feed_additives,4.0
+131,216,Malaysia,Thailand,1988,feed_additives,147.0
+131,216,Malaysia,Thailand,1989,feed_additives,228.0
+131,216,Malaysia,Thailand,1990,feed_additives,145.0
+131,216,Malaysia,Thailand,1992,feed_additives,930.0
+131,216,Malaysia,Thailand,1993,feed_additives,1636.0
+131,216,Malaysia,Thailand,1994,feed_additives,2083.0
+131,216,Malaysia,Thailand,1996,feed_additives,1159.0
+131,223,Malaysia,Türkiye,1988,feed_additives,5.0
+131,223,Malaysia,Türkiye,1994,feed_additives,1.0
+131,223,Malaysia,Türkiye,1996,feed_additives,5.0
+131,225,Malaysia,United Arab Emirates,1990,feed_additives,3.0
+131,225,Malaysia,United Arab Emirates,1992,feed_additives,6.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1988,feed_additives,9.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1990,feed_additives,2.0
+131,231,Malaysia,United States of America,1989,feed_additives,15.0
+131,231,Malaysia,United States of America,1990,feed_additives,7.0
+131,231,Malaysia,United States of America,1991,feed_additives,16.0
+131,231,Malaysia,United States of America,1993,feed_additives,5.0
+131,237,Malaysia,Viet Nam,1994,feed_additives,20.0

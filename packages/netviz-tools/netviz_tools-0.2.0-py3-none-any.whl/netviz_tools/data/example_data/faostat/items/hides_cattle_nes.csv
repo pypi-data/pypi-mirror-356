@@ -1,0 +1,680 @@
+o_code,d_code,o_name,d_name,year,item,weight
+37,15,Central African Republic,Belgium-Luxembourg,1993,hides_cattle_nes,17.0
+37,15,Central African Republic,Belgium-Luxembourg,1997,hides_cattle_nes,5.0
+37,53,Central African Republic,Benin,1996,hides_cattle_nes,6.0
+37,32,Central African Republic,Cameroon,1997,hides_cattle_nes,16.0
+37,32,Central African Republic,Cameroon,1999,hides_cattle_nes,24.0
+37,32,Central African Republic,Cameroon,2001,hides_cattle_nes,10.0
+37,32,Central African Republic,Cameroon,2002,hides_cattle_nes,47.0
+37,32,Central African Republic,Cameroon,2003,hides_cattle_nes,65.0
+37,32,Central African Republic,Cameroon,2004,hides_cattle_nes,84.0
+10,9,Australia,Argentina,1993,hides_cattle_nes,5.0
+37,37,Central African Republic,Central African Republic,2007,hides_cattle_nes,7.0
+158,53,Niger,Benin,2017,hides_cattle_nes,60.0
+56,80,Dominican Republic,Bosnia and Herzegovina,2017,hides_cattle_nes,107.97
+56,80,Dominican Republic,Bosnia and Herzegovina,2018,hides_cattle_nes,787.79
+56,80,Dominican Republic,Bosnia and Herzegovina,2019,hides_cattle_nes,538.12
+56,80,Dominican Republic,Bosnia and Herzegovina,2020,hides_cattle_nes,50.2
+56,21,Dominican Republic,Brazil,2018,hides_cattle_nes,7.37
+56,21,Dominican Republic,Brazil,2019,hides_cattle_nes,0.01
+66,10,Fiji,Australia,2002,hides_cattle_nes,30.0
+37,68,Central African Republic,France,1993,hides_cattle_nes,52.0
+37,68,Central African Republic,France,1994,hides_cattle_nes,25.0
+37,68,Central African Republic,France,1995,hides_cattle_nes,39.0
+53,41,Benin,"China, mainland",2019,hides_cattle_nes,188.0
+53,41,Benin,"China, mainland",2020,hides_cattle_nes,335.63
+53,41,Benin,"China, mainland",2021,hides_cattle_nes,257.49
+53,41,Benin,"China, mainland",2022,hides_cattle_nes,226.02
+53,41,Benin,"China, mainland",2023,hides_cattle_nes,120.04
+56,33,Dominican Republic,Canada,2013,hides_cattle_nes,40.0
+158,233,Niger,Burkina Faso,2016,hides_cattle_nes,0.59
+158,233,Niger,Burkina Faso,2017,hides_cattle_nes,992.0
+210,10,Sweden,Australia,2020,hides_cattle_nes,0.01
+129,96,Madagascar,"China, Hong Kong SAR",2003,hides_cattle_nes,2321.0
+37,106,Central African Republic,Italy,1993,hides_cattle_nes,30.0
+37,106,Central African Republic,Italy,1994,hides_cattle_nes,13.0
+37,106,Central African Republic,Italy,1995,hides_cattle_nes,35.0
+184,96,Rwanda,"China, Hong Kong SAR",2007,hides_cattle_nes,21.0
+37,110,Central African Republic,Japan,2001,hides_cattle_nes,5.0
+214,10,"China, Taiwan Province of",Australia,1994,hides_cattle_nes,1.0
+214,10,"China, Taiwan Province of",Australia,1995,hides_cattle_nes,1.0
+56,40,Dominican Republic,Chile,2013,hides_cattle_nes,26.0
+37,136,Central African Republic,Mauritania,1993,hides_cattle_nes,5.0
+37,136,Central African Republic,Mauritania,1998,hides_cattle_nes,5.0
+158,39,Niger,Chad,2018,hides_cattle_nes,319.1
+158,39,Niger,Chad,2019,hides_cattle_nes,25.49
+184,41,Rwanda,"China, mainland",2007,hides_cattle_nes,69.0
+56,96,Dominican Republic,"China, Hong Kong SAR",2012,hides_cattle_nes,20.0
+56,96,Dominican Republic,"China, Hong Kong SAR",2013,hides_cattle_nes,119.0
+56,96,Dominican Republic,"China, Hong Kong SAR",2014,hides_cattle_nes,23.0
+129,41,Madagascar,"China, mainland",2003,hides_cattle_nes,192.0
+37,159,Central African Republic,Nigeria,1993,hides_cattle_nes,56.0
+37,159,Central African Republic,Nigeria,1994,hides_cattle_nes,193.0
+37,159,Central African Republic,Nigeria,1995,hides_cattle_nes,81.0
+37,159,Central African Republic,Nigeria,1996,hides_cattle_nes,50.0
+37,159,Central African Republic,Nigeria,1997,hides_cattle_nes,38.0
+37,159,Central African Republic,Nigeria,1998,hides_cattle_nes,34.0
+37,159,Central African Republic,Nigeria,1999,hides_cattle_nes,38.0
+37,159,Central African Republic,Nigeria,2000,hides_cattle_nes,57.0
+37,159,Central African Republic,Nigeria,2001,hides_cattle_nes,46.0
+37,159,Central African Republic,Nigeria,2002,hides_cattle_nes,12.0
+37,159,Central African Republic,Nigeria,2003,hides_cattle_nes,7.0
+37,159,Central African Republic,Nigeria,2004,hides_cattle_nes,3.0
+37,159,Central African Republic,Nigeria,2007,hides_cattle_nes,62.0
+37,174,Central African Republic,Portugal,1994,hides_cattle_nes,25.0
+37,174,Central African Republic,Portugal,1995,hides_cattle_nes,17.0
+37,174,Central African Republic,Portugal,1997,hides_cattle_nes,22.0
+56,41,Dominican Republic,"China, mainland",2012,hides_cattle_nes,68.0
+56,41,Dominican Republic,"China, mainland",2013,hides_cattle_nes,408.0
+37,206,Central African Republic,Sudan (former),1993,hides_cattle_nes,8.0
+210,11,Sweden,Austria,2020,hides_cattle_nes,23.46
+210,11,Sweden,Austria,2021,hides_cattle_nes,94.49
+222,96,Tunisia,"China, Hong Kong SAR",2011,hides_cattle_nes,21.0
+222,96,Tunisia,"China, Hong Kong SAR",2015,hides_cattle_nes,23.0
+222,96,Tunisia,"China, Hong Kong SAR",2018,hides_cattle_nes,18.75
+222,96,Tunisia,"China, Hong Kong SAR",2021,hides_cattle_nes,6.0
+222,41,Tunisia,"China, mainland",2015,hides_cattle_nes,39.0
+222,41,Tunisia,"China, mainland",2019,hides_cattle_nes,77.89
+222,41,Tunisia,"China, mainland",2020,hides_cattle_nes,23.94
+222,41,Tunisia,"China, mainland",2021,hides_cattle_nes,67.35
+222,41,Tunisia,"China, mainland",2022,hides_cattle_nes,31.96
+128,96,"China, Macao SAR","China, Hong Kong SAR",1990,hides_cattle_nes,9.0
+128,96,"China, Macao SAR","China, Hong Kong SAR",1991,hides_cattle_nes,10.0
+29,226,Burundi,Uganda,1999,hides_cattle_nes,1.0
+222,214,Tunisia,"China, Taiwan Province of",2018,hides_cattle_nes,18.24
+222,214,Tunisia,"China, Taiwan Province of",2019,hides_cattle_nes,9.2
+4,68,Algeria,France,2002,hides_cattle_nes,301.0
+4,68,Algeria,France,2004,hides_cattle_nes,37.0
+4,68,Algeria,France,2006,hides_cattle_nes,20.0
+214,16,"China, Taiwan Province of",Bangladesh,1997,hides_cattle_nes,2.0
+214,16,"China, Taiwan Province of",Bangladesh,1998,hides_cattle_nes,4.0
+214,16,"China, Taiwan Province of",Bangladesh,1999,hides_cattle_nes,2.0
+214,16,"China, Taiwan Province of",Bangladesh,2012,hides_cattle_nes,2.0
+56,79,Dominican Republic,Germany,2023,hides_cattle_nes,94.63
+10,15,Australia,Belgium-Luxembourg,1990,hides_cattle_nes,1.0
+10,15,Australia,Belgium-Luxembourg,1997,hides_cattle_nes,22.0
+222,67,Tunisia,Finland,2015,hides_cattle_nes,123.5
+184,114,Rwanda,Kenya,2002,hides_cattle_nes,10.0
+214,23,"China, Taiwan Province of",Belize,2004,hides_cattle_nes,25.0
+56,93,Dominican Republic,Haiti,2013,hides_cattle_nes,6.0
+56,93,Dominican Republic,Haiti,2014,hides_cattle_nes,92.06
+56,93,Dominican Republic,Haiti,2015,hides_cattle_nes,56.0
+56,93,Dominican Republic,Haiti,2016,hides_cattle_nes,20.0
+56,93,Dominican Republic,Haiti,2017,hides_cattle_nes,11.47
+210,255,Sweden,Belgium,2019,hides_cattle_nes,62.88
+56,100,Dominican Republic,India,2018,hides_cattle_nes,26.25
+214,21,"China, Taiwan Province of",Brazil,1996,hides_cattle_nes,11.0
+158,133,Niger,Mali,2010,hides_cattle_nes,2.0
+158,133,Niger,Mali,2012,hides_cattle_nes,2.0
+158,133,Niger,Mali,2013,hides_cattle_nes,2.0
+158,133,Niger,Mali,2016,hides_cattle_nes,480.81
+158,133,Niger,Mali,2017,hides_cattle_nes,369.9
+158,133,Niger,Mali,2018,hides_cattle_nes,888.36
+56,101,Dominican Republic,Indonesia,2013,hides_cattle_nes,51.0
+56,101,Dominican Republic,Indonesia,2019,hides_cattle_nes,195.12
+4,106,Algeria,Italy,2001,hides_cattle_nes,28.0
+4,106,Algeria,Italy,2002,hides_cattle_nes,59.0
+4,106,Algeria,Italy,2003,hides_cattle_nes,42.0
+4,106,Algeria,Italy,2007,hides_cattle_nes,14.0
+56,106,Dominican Republic,Italy,2012,hides_cattle_nes,21.0
+56,106,Dominican Republic,Italy,2013,hides_cattle_nes,24.0
+56,106,Dominican Republic,Italy,2014,hides_cattle_nes,92.0
+56,106,Dominican Republic,Italy,2016,hides_cattle_nes,11.71
+56,106,Dominican Republic,Italy,2020,hides_cattle_nes,109.64
+184,165,Rwanda,Pakistan,2003,hides_cattle_nes,10.0
+184,165,Rwanda,Pakistan,2007,hides_cattle_nes,15.0
+56,110,Dominican Republic,Japan,2023,hides_cattle_nes,20.3
+158,159,Niger,Nigeria,2005,hides_cattle_nes,1.0
+158,159,Niger,Nigeria,2006,hides_cattle_nes,2.0
+158,159,Niger,Nigeria,2008,hides_cattle_nes,10.0
+158,159,Niger,Nigeria,2012,hides_cattle_nes,1.0
+158,159,Niger,Nigeria,2014,hides_cattle_nes,2.3
+158,159,Niger,Nigeria,2015,hides_cattle_nes,9.0
+158,159,Niger,Nigeria,2016,hides_cattle_nes,21.5
+158,159,Niger,Nigeria,2017,hides_cattle_nes,8.5
+158,159,Niger,Nigeria,2018,hides_cattle_nes,225.66
+158,159,Niger,Nigeria,2019,hides_cattle_nes,4897.61
+158,159,Niger,Nigeria,2020,hides_cattle_nes,2839.84
+158,159,Niger,Nigeria,2021,hides_cattle_nes,3.5
+158,159,Niger,Nigeria,2022,hides_cattle_nes,4.0
+158,159,Niger,Nigeria,2023,hides_cattle_nes,16.0
+56,121,Dominican Republic,Lebanon,2019,hides_cattle_nes,24.5
+214,115,"China, Taiwan Province of",Cambodia,1999,hides_cattle_nes,2.0
+214,115,"China, Taiwan Province of",Cambodia,2001,hides_cattle_nes,10.0
+214,115,"China, Taiwan Province of",Cambodia,2002,hides_cattle_nes,3.0
+214,115,"China, Taiwan Province of",Cambodia,2003,hides_cattle_nes,6.0
+214,115,"China, Taiwan Province of",Cambodia,2011,hides_cattle_nes,1.0
+214,115,"China, Taiwan Province of",Cambodia,2013,hides_cattle_nes,2.0
+56,138,Dominican Republic,Mexico,2015,hides_cattle_nes,196.34
+184,226,Rwanda,Uganda,2001,hides_cattle_nes,4.0
+184,226,Rwanda,Uganda,2007,hides_cattle_nes,55.0
+222,81,Tunisia,Ghana,2022,hides_cattle_nes,20.0
+56,159,Dominican Republic,Nigeria,2020,hides_cattle_nes,74.21
+4,158,Algeria,Niger,2007,hides_cattle_nes,100.0
+56,165,Dominican Republic,Pakistan,2014,hides_cattle_nes,23.94
+10,33,Australia,Canada,1991,hides_cattle_nes,11.0
+10,33,Australia,Canada,1992,hides_cattle_nes,11.0
+10,33,Australia,Canada,1993,hides_cattle_nes,2.0
+56,174,Dominican Republic,Portugal,2012,hides_cattle_nes,22.0
+56,174,Dominican Republic,Portugal,2013,hides_cattle_nes,19.0
+56,174,Dominican Republic,Portugal,2014,hides_cattle_nes,28.09
+56,174,Dominican Republic,Portugal,2015,hides_cattle_nes,21.45
+56,174,Dominican Republic,Portugal,2018,hides_cattle_nes,25.93
+143,68,Morocco,France,1993,hides_cattle_nes,13.0
+222,106,Tunisia,Italy,2007,hides_cattle_nes,1.0
+222,106,Tunisia,Italy,2011,hides_cattle_nes,50.0
+222,106,Tunisia,Italy,2018,hides_cattle_nes,29.26
+222,106,Tunisia,Italy,2022,hides_cattle_nes,6.4
+56,203,Dominican Republic,Spain,2023,hides_cattle_nes,82.01
+179,106,Qatar,Italy,2019,hides_cattle_nes,0.05
+210,33,Sweden,Canada,2018,hides_cattle_nes,0.01
+4,203,Algeria,Spain,1996,hides_cattle_nes,7.0
+4,203,Algeria,Spain,2002,hides_cattle_nes,91.0
+56,216,Dominican Republic,Thailand,2012,hides_cattle_nes,1054.0
+56,216,Dominican Republic,Thailand,2013,hides_cattle_nes,1102.0
+56,216,Dominican Republic,Thailand,2014,hides_cattle_nes,238.9
+56,216,Dominican Republic,Thailand,2015,hides_cattle_nes,52.0
+56,217,Dominican Republic,Togo,2019,hides_cattle_nes,25.0
+56,223,Dominican Republic,Türkiye,2012,hides_cattle_nes,20.0
+56,223,Dominican Republic,Türkiye,2014,hides_cattle_nes,102.76
+56,223,Dominican Republic,Türkiye,2015,hides_cattle_nes,104.83
+56,223,Dominican Republic,Türkiye,2017,hides_cattle_nes,218.04
+56,223,Dominican Republic,Türkiye,2018,hides_cattle_nes,566.68
+56,223,Dominican Republic,Türkiye,2019,hides_cattle_nes,821.39
+56,223,Dominican Republic,Türkiye,2020,hides_cattle_nes,230.54
+56,223,Dominican Republic,Türkiye,2022,hides_cattle_nes,175.01
+56,223,Dominican Republic,Türkiye,2023,hides_cattle_nes,18.5
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1989,hides_cattle_nes,1635.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1990,hides_cattle_nes,522.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1991,hides_cattle_nes,747.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1992,hides_cattle_nes,339.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1993,hides_cattle_nes,218.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1994,hides_cattle_nes,363.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1995,hides_cattle_nes,1055.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1996,hides_cattle_nes,1389.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1997,hides_cattle_nes,1454.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1998,hides_cattle_nes,1126.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1999,hides_cattle_nes,605.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2000,hides_cattle_nes,643.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2001,hides_cattle_nes,452.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2002,hides_cattle_nes,336.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2003,hides_cattle_nes,239.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2004,hides_cattle_nes,791.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2005,hides_cattle_nes,357.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2009,hides_cattle_nes,459.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2010,hides_cattle_nes,64.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2011,hides_cattle_nes,48.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2012,hides_cattle_nes,30.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2013,hides_cattle_nes,13.0
+10,96,Australia,"China, Hong Kong SAR",1987,hides_cattle_nes,13.0
+10,96,Australia,"China, Hong Kong SAR",1988,hides_cattle_nes,50.0
+10,96,Australia,"China, Hong Kong SAR",1989,hides_cattle_nes,50.0
+10,96,Australia,"China, Hong Kong SAR",1990,hides_cattle_nes,307.0
+10,96,Australia,"China, Hong Kong SAR",1991,hides_cattle_nes,272.0
+10,96,Australia,"China, Hong Kong SAR",1992,hides_cattle_nes,113.0
+10,96,Australia,"China, Hong Kong SAR",1993,hides_cattle_nes,10.0
+10,96,Australia,"China, Hong Kong SAR",1994,hides_cattle_nes,23.0
+10,96,Australia,"China, Hong Kong SAR",1995,hides_cattle_nes,85.0
+10,96,Australia,"China, Hong Kong SAR",1996,hides_cattle_nes,13.0
+10,96,Australia,"China, Hong Kong SAR",1997,hides_cattle_nes,496.0
+4,222,Algeria,Tunisia,1998,hides_cattle_nes,26.0
+4,222,Algeria,Tunisia,2000,hides_cattle_nes,37.0
+4,222,Algeria,Tunisia,2002,hides_cattle_nes,350.0
+4,222,Algeria,Tunisia,2003,hides_cattle_nes,1210.0
+4,222,Algeria,Tunisia,2004,hides_cattle_nes,680.0
+4,222,Algeria,Tunisia,2006,hides_cattle_nes,40.0
+210,96,Sweden,"China, Hong Kong SAR",2003,hides_cattle_nes,300.0
+4,223,Algeria,Türkiye,2003,hides_cattle_nes,218.0
+4,223,Algeria,Türkiye,2004,hides_cattle_nes,9.0
+4,223,Algeria,Türkiye,2005,hides_cattle_nes,101.0
+4,223,Algeria,Türkiye,2006,hides_cattle_nes,1268.0
+4,223,Algeria,Türkiye,2007,hides_cattle_nes,505.0
+4,223,Algeria,Türkiye,2008,hides_cattle_nes,332.0
+4,223,Algeria,Türkiye,2009,hides_cattle_nes,59.0
+56,231,Dominican Republic,United States of America,2012,hides_cattle_nes,18.0
+56,231,Dominican Republic,United States of America,2013,hides_cattle_nes,55.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1995,hides_cattle_nes,35.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1996,hides_cattle_nes,12.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1997,hides_cattle_nes,6.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1998,hides_cattle_nes,4.0
+214,128,"China, Taiwan Province of","China, Macao SAR",1999,hides_cattle_nes,1.0
+214,128,"China, Taiwan Province of","China, Macao SAR",2002,hides_cattle_nes,1.0
+214,128,"China, Taiwan Province of","China, Macao SAR",2003,hides_cattle_nes,9.0
+214,128,"China, Taiwan Province of","China, Macao SAR",2004,hides_cattle_nes,32.0
+56,237,Dominican Republic,Viet Nam,2012,hides_cattle_nes,73.0
+56,237,Dominican Republic,Viet Nam,2013,hides_cattle_nes,684.0
+210,214,Sweden,"China, Taiwan Province of",2005,hides_cattle_nes,41.0
+214,41,"China, Taiwan Province of","China, mainland",1996,hides_cattle_nes,1.0
+214,41,"China, Taiwan Province of","China, mainland",1997,hides_cattle_nes,1.0
+214,41,"China, Taiwan Province of","China, mainland",1999,hides_cattle_nes,1.0
+214,41,"China, Taiwan Province of","China, mainland",2000,hides_cattle_nes,6.0
+214,41,"China, Taiwan Province of","China, mainland",2001,hides_cattle_nes,14.0
+214,41,"China, Taiwan Province of","China, mainland",2002,hides_cattle_nes,70.0
+214,41,"China, Taiwan Province of","China, mainland",2003,hides_cattle_nes,48.0
+214,41,"China, Taiwan Province of","China, mainland",2004,hides_cattle_nes,85.0
+214,41,"China, Taiwan Province of","China, mainland",2005,hides_cattle_nes,197.0
+214,41,"China, Taiwan Province of","China, mainland",2009,hides_cattle_nes,67.0
+214,41,"China, Taiwan Province of","China, mainland",2010,hides_cattle_nes,53.0
+214,41,"China, Taiwan Province of","China, mainland",2011,hides_cattle_nes,15.0
+214,41,"China, Taiwan Province of","China, mainland",2012,hides_cattle_nes,4.0
+214,41,"China, Taiwan Province of","China, mainland",2013,hides_cattle_nes,3.0
+10,41,Australia,"China, mainland",1986,hides_cattle_nes,16.0
+10,41,Australia,"China, mainland",1987,hides_cattle_nes,16.0
+10,41,Australia,"China, mainland",1990,hides_cattle_nes,59.0
+10,41,Australia,"China, mainland",1993,hides_cattle_nes,419.0
+10,41,Australia,"China, mainland",1994,hides_cattle_nes,758.0
+10,41,Australia,"China, mainland",1995,hides_cattle_nes,1922.0
+10,41,Australia,"China, mainland",1996,hides_cattle_nes,150.0
+10,41,Australia,"China, mainland",1997,hides_cattle_nes,598.0
+38,101,Sri Lanka,Indonesia,1999,hides_cattle_nes,2.0
+143,106,Morocco,Italy,2010,hides_cattle_nes,13.0
+210,98,Sweden,Croatia,2018,hides_cattle_nes,403.9
+210,98,Sweden,Croatia,2019,hides_cattle_nes,591.74
+210,98,Sweden,Croatia,2020,hides_cattle_nes,113.4
+214,44,"China, Taiwan Province of",Colombia,1998,hides_cattle_nes,76.0
+214,44,"China, Taiwan Province of",Colombia,1999,hides_cattle_nes,218.0
+214,44,"China, Taiwan Province of",Colombia,2001,hides_cattle_nes,79.0
+214,44,"China, Taiwan Province of",Colombia,2002,hides_cattle_nes,253.0
+214,44,"China, Taiwan Province of",Colombia,2003,hides_cattle_nes,21.0
+214,44,"China, Taiwan Province of",Colombia,2004,hides_cattle_nes,52.0
+216,96,Thailand,"China, Hong Kong SAR",2012,hides_cattle_nes,1.0
+216,96,Thailand,"China, Hong Kong SAR",2014,hides_cattle_nes,0.72
+216,96,Thailand,"China, Hong Kong SAR",2018,hides_cattle_nes,0.01
+222,203,Tunisia,Spain,2010,hides_cattle_nes,22.0
+222,203,Tunisia,Spain,2015,hides_cattle_nes,9.0
+210,167,Sweden,Czechia,2010,hides_cattle_nes,25.0
+10,214,Australia,"China, Taiwan Province of",1986,hides_cattle_nes,620.0
+10,214,Australia,"China, Taiwan Province of",1987,hides_cattle_nes,46.0
+10,214,Australia,"China, Taiwan Province of",1988,hides_cattle_nes,41.0
+10,214,Australia,"China, Taiwan Province of",1989,hides_cattle_nes,121.0
+10,214,Australia,"China, Taiwan Province of",1990,hides_cattle_nes,181.0
+10,214,Australia,"China, Taiwan Province of",1991,hides_cattle_nes,121.0
+10,214,Australia,"China, Taiwan Province of",1994,hides_cattle_nes,21.0
+10,214,Australia,"China, Taiwan Province of",1997,hides_cattle_nes,1644.0
+214,55,"China, Taiwan Province of",Dominica,2004,hides_cattle_nes,3.0
+222,223,Tunisia,Türkiye,2010,hides_cattle_nes,118.0
+222,223,Tunisia,Türkiye,2011,hides_cattle_nes,46.0
+10,44,Australia,Colombia,1994,hides_cattle_nes,20.0
+214,68,"China, Taiwan Province of",France,2004,hides_cattle_nes,1.0
+216,41,Thailand,"China, mainland",2011,hides_cattle_nes,1.0
+210,54,Sweden,Denmark,1992,hides_cattle_nes,28.0
+210,54,Sweden,Denmark,1993,hides_cattle_nes,793.0
+210,54,Sweden,Denmark,1994,hides_cattle_nes,970.0
+210,54,Sweden,Denmark,1995,hides_cattle_nes,843.0
+210,54,Sweden,Denmark,1996,hides_cattle_nes,508.0
+210,54,Sweden,Denmark,1997,hides_cattle_nes,251.0
+210,54,Sweden,Denmark,1998,hides_cattle_nes,46.0
+210,54,Sweden,Denmark,1999,hides_cattle_nes,517.0
+210,54,Sweden,Denmark,2000,hides_cattle_nes,132.0
+210,54,Sweden,Denmark,2001,hides_cattle_nes,1259.0
+210,54,Sweden,Denmark,2002,hides_cattle_nes,35.0
+210,54,Sweden,Denmark,2003,hides_cattle_nes,3.0
+210,54,Sweden,Denmark,2017,hides_cattle_nes,0.49
+210,54,Sweden,Denmark,2019,hides_cattle_nes,28.6
+10,51,Australia,Czechoslovakia,1987,hides_cattle_nes,6.0
+10,116,Australia,Democratic People's Republic of Korea,1988,hides_cattle_nes,19.0
+10,116,Australia,Democratic People's Republic of Korea,1989,hides_cattle_nes,19.0
+222,237,Tunisia,Viet Nam,2017,hides_cattle_nes,11.5
+222,237,Tunisia,Viet Nam,2018,hides_cattle_nes,19.44
+222,237,Tunisia,Viet Nam,2019,hides_cattle_nes,5.28
+214,79,"China, Taiwan Province of",Germany,2000,hides_cattle_nes,200.0
+214,79,"China, Taiwan Province of",Germany,2001,hides_cattle_nes,1.0
+179,223,Qatar,Türkiye,2000,hides_cattle_nes,70.0
+179,223,Qatar,Türkiye,2004,hides_cattle_nes,10.0
+179,223,Qatar,Türkiye,2017,hides_cattle_nes,24.78
+179,223,Qatar,Türkiye,2019,hides_cattle_nes,24.78
+10,66,Australia,Fiji,1990,hides_cattle_nes,9.0
+10,66,Australia,Fiji,1992,hides_cattle_nes,12.0
+179,225,Qatar,United Arab Emirates,2004,hides_cattle_nes,1.0
+216,44,Thailand,Colombia,2014,hides_cattle_nes,46.0
+121,106,Lebanon,Italy,1998,hides_cattle_nes,173.0
+121,106,Lebanon,Italy,1999,hides_cattle_nes,144.0
+121,106,Lebanon,Italy,2000,hides_cattle_nes,95.0
+121,106,Lebanon,Italy,2001,hides_cattle_nes,1.0
+10,67,Australia,Finland,1986,hides_cattle_nes,15.0
+214,101,"China, Taiwan Province of",Indonesia,1994,hides_cattle_nes,4.0
+214,101,"China, Taiwan Province of",Indonesia,1995,hides_cattle_nes,5.0
+214,101,"China, Taiwan Province of",Indonesia,1996,hides_cattle_nes,7.0
+214,101,"China, Taiwan Province of",Indonesia,1997,hides_cattle_nes,28.0
+214,101,"China, Taiwan Province of",Indonesia,1998,hides_cattle_nes,27.0
+214,101,"China, Taiwan Province of",Indonesia,1999,hides_cattle_nes,14.0
+214,101,"China, Taiwan Province of",Indonesia,2000,hides_cattle_nes,8.0
+214,101,"China, Taiwan Province of",Indonesia,2001,hides_cattle_nes,2.0
+214,101,"China, Taiwan Province of",Indonesia,2002,hides_cattle_nes,2.0
+214,101,"China, Taiwan Province of",Indonesia,2003,hides_cattle_nes,1.0
+214,101,"China, Taiwan Province of",Indonesia,2004,hides_cattle_nes,10.0
+214,101,"China, Taiwan Province of",Indonesia,2005,hides_cattle_nes,6.0
+214,101,"China, Taiwan Province of",Indonesia,2009,hides_cattle_nes,1.0
+214,101,"China, Taiwan Province of",Indonesia,2011,hides_cattle_nes,7.0
+10,68,Australia,France,1986,hides_cattle_nes,47.0
+10,68,Australia,France,1987,hides_cattle_nes,2.0
+10,68,Australia,France,1990,hides_cattle_nes,21.0
+10,68,Australia,France,1996,hides_cattle_nes,370.0
+10,68,Australia,France,1997,hides_cattle_nes,480.0
+210,63,Sweden,Estonia,1997,hides_cattle_nes,1.0
+214,106,"China, Taiwan Province of",Italy,1995,hides_cattle_nes,1.0
+214,110,"China, Taiwan Province of",Japan,1989,hides_cattle_nes,2.0
+214,110,"China, Taiwan Province of",Japan,1995,hides_cattle_nes,1.0
+214,110,"China, Taiwan Province of",Japan,1996,hides_cattle_nes,53.0
+214,110,"China, Taiwan Province of",Japan,2002,hides_cattle_nes,1.0
+210,67,Sweden,Finland,1987,hides_cattle_nes,9.0
+210,67,Sweden,Finland,1991,hides_cattle_nes,3.0
+210,67,Sweden,Finland,1992,hides_cattle_nes,1.0
+210,67,Sweden,Finland,1993,hides_cattle_nes,305.0
+210,67,Sweden,Finland,1994,hides_cattle_nes,321.0
+210,67,Sweden,Finland,1995,hides_cattle_nes,8.0
+210,67,Sweden,Finland,1996,hides_cattle_nes,173.0
+210,67,Sweden,Finland,1997,hides_cattle_nes,88.0
+210,67,Sweden,Finland,1998,hides_cattle_nes,238.0
+210,67,Sweden,Finland,1999,hides_cattle_nes,45.0
+210,67,Sweden,Finland,2000,hides_cattle_nes,136.0
+210,67,Sweden,Finland,2001,hides_cattle_nes,57.0
+210,67,Sweden,Finland,2002,hides_cattle_nes,332.0
+210,67,Sweden,Finland,2003,hides_cattle_nes,411.0
+210,67,Sweden,Finland,2004,hides_cattle_nes,503.0
+210,67,Sweden,Finland,2005,hides_cattle_nes,19.0
+210,67,Sweden,Finland,2007,hides_cattle_nes,147.0
+210,67,Sweden,Finland,2008,hides_cattle_nes,23.0
+210,67,Sweden,Finland,2020,hides_cattle_nes,23.88
+210,67,Sweden,Finland,2021,hides_cattle_nes,22.52
+10,84,Australia,Greece,1986,hides_cattle_nes,206.0
+10,84,Australia,Greece,1987,hides_cattle_nes,3.0
+10,84,Australia,Greece,1988,hides_cattle_nes,18.0
+10,84,Australia,Greece,1989,hides_cattle_nes,18.0
+10,84,Australia,Greece,1990,hides_cattle_nes,19.0
+10,84,Australia,Greece,1994,hides_cattle_nes,20.0
+121,143,Lebanon,Morocco,1998,hides_cattle_nes,19.0
+10,100,Australia,India,1994,hides_cattle_nes,45.0
+10,100,Australia,India,1995,hides_cattle_nes,1.0
+10,100,Australia,India,1996,hides_cattle_nes,1.0
+214,124,"China, Taiwan Province of",Libya,1997,hides_cattle_nes,2.0
+214,131,"China, Taiwan Province of",Malaysia,1995,hides_cattle_nes,26.0
+214,131,"China, Taiwan Province of",Malaysia,1998,hides_cattle_nes,1.0
+214,131,"China, Taiwan Province of",Malaysia,1999,hides_cattle_nes,1.0
+214,131,"China, Taiwan Province of",Malaysia,2004,hides_cattle_nes,52.0
+214,131,"China, Taiwan Province of",Malaysia,2005,hides_cattle_nes,76.0
+210,68,Sweden,France,2014,hides_cattle_nes,0.1
+10,101,Australia,Indonesia,1990,hides_cattle_nes,21.0
+10,101,Australia,Indonesia,1992,hides_cattle_nes,21.0
+10,101,Australia,Indonesia,1995,hides_cattle_nes,6.0
+10,101,Australia,Indonesia,1996,hides_cattle_nes,1.0
+10,104,Australia,Ireland,1990,hides_cattle_nes,19.0
+214,150,"China, Taiwan Province of",Netherlands (Kingdom of the),1989,hides_cattle_nes,3.0
+10,105,Australia,Israel,1990,hides_cattle_nes,4.0
+210,79,Sweden,Germany,1995,hides_cattle_nes,25.0
+210,79,Sweden,Germany,1996,hides_cattle_nes,73.0
+210,79,Sweden,Germany,2000,hides_cattle_nes,326.0
+210,79,Sweden,Germany,2001,hides_cattle_nes,713.0
+210,79,Sweden,Germany,2002,hides_cattle_nes,53.0
+210,79,Sweden,Germany,2003,hides_cattle_nes,245.0
+210,79,Sweden,Germany,2005,hides_cattle_nes,46.0
+210,79,Sweden,Germany,2018,hides_cattle_nes,43.98
+210,79,Sweden,Germany,2021,hides_cattle_nes,43.88
+10,106,Australia,Italy,1986,hides_cattle_nes,2290.0
+10,106,Australia,Italy,1987,hides_cattle_nes,164.0
+10,106,Australia,Italy,1988,hides_cattle_nes,451.0
+10,106,Australia,Italy,1989,hides_cattle_nes,51.0
+10,106,Australia,Italy,1990,hides_cattle_nes,4095.0
+10,106,Australia,Italy,1992,hides_cattle_nes,244.0
+10,106,Australia,Italy,1994,hides_cattle_nes,77.0
+10,106,Australia,Italy,1995,hides_cattle_nes,88.0
+10,106,Australia,Italy,1996,hides_cattle_nes,870.0
+10,106,Australia,Italy,1997,hides_cattle_nes,5136.0
+216,100,Thailand,India,2011,hides_cattle_nes,40.0
+216,100,Thailand,India,2019,hides_cattle_nes,0.43
+10,110,Australia,Japan,1986,hides_cattle_nes,1460.0
+10,110,Australia,Japan,1987,hides_cattle_nes,451.0
+10,110,Australia,Japan,1988,hides_cattle_nes,4915.0
+10,110,Australia,Japan,1989,hides_cattle_nes,3220.0
+10,110,Australia,Japan,1990,hides_cattle_nes,2301.0
+10,110,Australia,Japan,1991,hides_cattle_nes,162.0
+10,110,Australia,Japan,1992,hides_cattle_nes,10.0
+10,110,Australia,Japan,1993,hides_cattle_nes,167.0
+10,110,Australia,Japan,1994,hides_cattle_nes,3.0
+10,110,Australia,Japan,1995,hides_cattle_nes,3294.0
+10,110,Australia,Japan,1997,hides_cattle_nes,1652.0
+216,101,Thailand,Indonesia,2007,hides_cattle_nes,38.0
+216,101,Thailand,Indonesia,2008,hides_cattle_nes,26.0
+216,101,Thailand,Indonesia,2011,hides_cattle_nes,10.0
+216,101,Thailand,Indonesia,2022,hides_cattle_nes,50.0
+214,171,"China, Taiwan Province of",Philippines,1989,hides_cattle_nes,74.0
+214,171,"China, Taiwan Province of",Philippines,1990,hides_cattle_nes,97.0
+214,171,"China, Taiwan Province of",Philippines,1991,hides_cattle_nes,190.0
+214,171,"China, Taiwan Province of",Philippines,1992,hides_cattle_nes,5.0
+214,171,"China, Taiwan Province of",Philippines,1993,hides_cattle_nes,1.0
+214,171,"China, Taiwan Province of",Philippines,1994,hides_cattle_nes,4.0
+214,171,"China, Taiwan Province of",Philippines,1995,hides_cattle_nes,13.0
+214,171,"China, Taiwan Province of",Philippines,1996,hides_cattle_nes,4.0
+214,171,"China, Taiwan Province of",Philippines,1998,hides_cattle_nes,1.0
+214,171,"China, Taiwan Province of",Philippines,2000,hides_cattle_nes,5.0
+214,171,"China, Taiwan Province of",Philippines,2003,hides_cattle_nes,1.0
+121,203,Lebanon,Spain,2000,hides_cattle_nes,58.0
+121,203,Lebanon,Spain,2001,hides_cattle_nes,20.0
+214,117,"China, Taiwan Province of",Republic of Korea,1989,hides_cattle_nes,8.0
+214,117,"China, Taiwan Province of",Republic of Korea,1997,hides_cattle_nes,1.0
+214,117,"China, Taiwan Province of",Republic of Korea,1999,hides_cattle_nes,3.0
+214,117,"China, Taiwan Province of",Republic of Korea,2000,hides_cattle_nes,1.0
+214,117,"China, Taiwan Province of",Republic of Korea,2004,hides_cattle_nes,1.0
+214,117,"China, Taiwan Province of",Republic of Korea,2005,hides_cattle_nes,1.0
+10,121,Australia,Lebanon,1987,hides_cattle_nes,13.0
+210,101,Sweden,Indonesia,2002,hides_cattle_nes,15.0
+214,200,"China, Taiwan Province of",Singapore,1995,hides_cattle_nes,1.0
+214,200,"China, Taiwan Province of",Singapore,1997,hides_cattle_nes,1.0
+214,200,"China, Taiwan Province of",Singapore,2004,hides_cattle_nes,2.0
+10,131,Australia,Malaysia,1986,hides_cattle_nes,17.0
+10,131,Australia,Malaysia,1995,hides_cattle_nes,4.0
+10,131,Australia,Malaysia,1997,hides_cattle_nes,82.0
+121,223,Lebanon,Türkiye,1998,hides_cattle_nes,44.0
+121,223,Lebanon,Türkiye,2000,hides_cattle_nes,21.0
+121,223,Lebanon,Türkiye,2001,hides_cattle_nes,20.0
+216,110,Thailand,Japan,2007,hides_cattle_nes,3.0
+216,110,Thailand,Japan,2011,hides_cattle_nes,348.0
+216,110,Thailand,Japan,2012,hides_cattle_nes,323.0
+216,110,Thailand,Japan,2017,hides_cattle_nes,71.8
+214,202,"China, Taiwan Province of",South Africa,1996,hides_cattle_nes,3.0
+214,202,"China, Taiwan Province of",South Africa,1997,hides_cattle_nes,18.0
+214,202,"China, Taiwan Province of",South Africa,1998,hides_cattle_nes,225.0
+210,106,Sweden,Italy,1988,hides_cattle_nes,46.0
+210,106,Sweden,Italy,1990,hides_cattle_nes,22.0
+210,106,Sweden,Italy,1991,hides_cattle_nes,21.0
+210,106,Sweden,Italy,1993,hides_cattle_nes,35.0
+210,106,Sweden,Italy,1994,hides_cattle_nes,8.0
+210,106,Sweden,Italy,2007,hides_cattle_nes,302.0
+210,106,Sweden,Italy,2008,hides_cattle_nes,522.0
+210,106,Sweden,Italy,2009,hides_cattle_nes,467.0
+210,106,Sweden,Italy,2010,hides_cattle_nes,434.0
+210,106,Sweden,Italy,2011,hides_cattle_nes,55.0
+210,106,Sweden,Italy,2013,hides_cattle_nes,1.0
+210,106,Sweden,Italy,2014,hides_cattle_nes,54.8
+210,106,Sweden,Italy,2016,hides_cattle_nes,1388.02
+210,106,Sweden,Italy,2017,hides_cattle_nes,6688.27
+210,106,Sweden,Italy,2018,hides_cattle_nes,6788.82
+210,106,Sweden,Italy,2019,hides_cattle_nes,6478.72
+210,106,Sweden,Italy,2020,hides_cattle_nes,8179.3
+210,106,Sweden,Italy,2021,hides_cattle_nes,7015.14
+210,106,Sweden,Italy,2022,hides_cattle_nes,198.69
+210,106,Sweden,Italy,2023,hides_cattle_nes,123.9
+214,203,"China, Taiwan Province of",Spain,1996,hides_cattle_nes,1.0
+214,203,"China, Taiwan Province of",Spain,1997,hides_cattle_nes,1.0
+214,38,"China, Taiwan Province of",Sri Lanka,1996,hides_cattle_nes,1.0
+210,110,Sweden,Japan,2013,hides_cattle_nes,1.0
+210,110,Sweden,Japan,2021,hides_cattle_nes,0.01
+214,216,"China, Taiwan Province of",Thailand,1989,hides_cattle_nes,3.0
+214,216,"China, Taiwan Province of",Thailand,1992,hides_cattle_nes,1.0
+214,216,"China, Taiwan Province of",Thailand,1993,hides_cattle_nes,4.0
+214,216,"China, Taiwan Province of",Thailand,1994,hides_cattle_nes,4.0
+214,216,"China, Taiwan Province of",Thailand,1995,hides_cattle_nes,16.0
+214,216,"China, Taiwan Province of",Thailand,1996,hides_cattle_nes,4.0
+214,216,"China, Taiwan Province of",Thailand,1998,hides_cattle_nes,6.0
+214,216,"China, Taiwan Province of",Thailand,1999,hides_cattle_nes,12.0
+214,216,"China, Taiwan Province of",Thailand,2000,hides_cattle_nes,9.0
+214,216,"China, Taiwan Province of",Thailand,2001,hides_cattle_nes,19.0
+214,216,"China, Taiwan Province of",Thailand,2002,hides_cattle_nes,27.0
+214,216,"China, Taiwan Province of",Thailand,2003,hides_cattle_nes,5.0
+214,216,"China, Taiwan Province of",Thailand,2004,hides_cattle_nes,1.0
+216,120,Thailand,Lao People's Democratic Republic,2014,hides_cattle_nes,142.0
+216,120,Thailand,Lao People's Democratic Republic,2015,hides_cattle_nes,331.7
+216,120,Thailand,Lao People's Democratic Republic,2016,hides_cattle_nes,220.0
+10,150,Australia,Netherlands (Kingdom of the),1986,hides_cattle_nes,70.0
+10,150,Australia,Netherlands (Kingdom of the),1987,hides_cattle_nes,7.0
+10,150,Australia,Netherlands (Kingdom of the),1990,hides_cattle_nes,224.0
+214,223,"China, Taiwan Province of",Türkiye,2000,hides_cattle_nes,13.0
+214,223,"China, Taiwan Province of",Türkiye,2001,hides_cattle_nes,1.0
+210,121,Sweden,Lebanon,2016,hides_cattle_nes,4.0
+214,225,"China, Taiwan Province of",United Arab Emirates,1999,hides_cattle_nes,3.0
+214,229,"China, Taiwan Province of",United Kingdom of Great Britain and Northern Ireland,2001,hides_cattle_nes,1.0
+214,229,"China, Taiwan Province of",United Kingdom of Great Britain and Northern Ireland,2002,hides_cattle_nes,4.0
+216,131,Thailand,Malaysia,2008,hides_cattle_nes,15.0
+216,131,Thailand,Malaysia,2013,hides_cattle_nes,2.0
+214,231,"China, Taiwan Province of",United States of America,1989,hides_cattle_nes,1.0
+214,231,"China, Taiwan Province of",United States of America,1994,hides_cattle_nes,1.0
+214,231,"China, Taiwan Province of",United States of America,1995,hides_cattle_nes,3.0
+214,231,"China, Taiwan Province of",United States of America,1996,hides_cattle_nes,2.0
+214,231,"China, Taiwan Province of",United States of America,1997,hides_cattle_nes,8.0
+214,231,"China, Taiwan Province of",United States of America,2000,hides_cattle_nes,3.0
+214,231,"China, Taiwan Province of",United States of America,2001,hides_cattle_nes,1.0
+214,231,"China, Taiwan Province of",United States of America,2002,hides_cattle_nes,4.0
+10,156,Australia,New Zealand,1986,hides_cattle_nes,69.0
+10,156,Australia,New Zealand,1988,hides_cattle_nes,6.0
+10,156,Australia,New Zealand,1991,hides_cattle_nes,5.0
+10,156,Australia,New Zealand,1992,hides_cattle_nes,27.0
+10,156,Australia,New Zealand,1993,hides_cattle_nes,14.0
+10,156,Australia,New Zealand,1995,hides_cattle_nes,4.0
+10,156,Australia,New Zealand,1996,hides_cattle_nes,4.0
+10,156,Australia,New Zealand,1997,hides_cattle_nes,2.0
+214,234,"China, Taiwan Province of",Uruguay,1994,hides_cattle_nes,22.0
+214,234,"China, Taiwan Province of",Uruguay,1995,hides_cattle_nes,122.0
+210,150,Sweden,Netherlands (Kingdom of the),1989,hides_cattle_nes,1.0
+210,150,Sweden,Netherlands (Kingdom of the),1991,hides_cattle_nes,4.0
+214,237,"China, Taiwan Province of",Viet Nam,1996,hides_cattle_nes,233.0
+214,237,"China, Taiwan Province of",Viet Nam,1997,hides_cattle_nes,76.0
+214,237,"China, Taiwan Province of",Viet Nam,1998,hides_cattle_nes,25.0
+214,237,"China, Taiwan Province of",Viet Nam,1999,hides_cattle_nes,133.0
+214,237,"China, Taiwan Province of",Viet Nam,2000,hides_cattle_nes,139.0
+214,237,"China, Taiwan Province of",Viet Nam,2001,hides_cattle_nes,158.0
+214,237,"China, Taiwan Province of",Viet Nam,2002,hides_cattle_nes,167.0
+214,237,"China, Taiwan Province of",Viet Nam,2003,hides_cattle_nes,63.0
+214,237,"China, Taiwan Province of",Viet Nam,2004,hides_cattle_nes,771.0
+214,237,"China, Taiwan Province of",Viet Nam,2005,hides_cattle_nes,696.0
+214,237,"China, Taiwan Province of",Viet Nam,2009,hides_cattle_nes,292.0
+214,237,"China, Taiwan Province of",Viet Nam,2010,hides_cattle_nes,38.0
+214,237,"China, Taiwan Province of",Viet Nam,2011,hides_cattle_nes,62.0
+214,237,"China, Taiwan Province of",Viet Nam,2013,hides_cattle_nes,5.0
+216,28,Thailand,Myanmar,2009,hides_cattle_nes,15.0
+10,169,Australia,Paraguay,1987,hides_cattle_nes,2.0
+210,162,Sweden,Norway,1992,hides_cattle_nes,101.0
+210,162,Sweden,Norway,2002,hides_cattle_nes,87.0
+210,162,Sweden,Norway,2003,hides_cattle_nes,295.0
+210,162,Sweden,Norway,2004,hides_cattle_nes,294.0
+210,162,Sweden,Norway,2005,hides_cattle_nes,59.0
+210,162,Sweden,Norway,2007,hides_cattle_nes,4.0
+210,162,Sweden,Norway,2011,hides_cattle_nes,29.0
+210,162,Sweden,Norway,2012,hides_cattle_nes,3.0
+210,162,Sweden,Norway,2014,hides_cattle_nes,0.18
+210,162,Sweden,Norway,2015,hides_cattle_nes,0.17
+210,162,Sweden,Norway,2018,hides_cattle_nes,0.04
+210,162,Sweden,Norway,2019,hides_cattle_nes,0.01
+210,162,Sweden,Norway,2021,hides_cattle_nes,0.02
+210,162,Sweden,Norway,2023,hides_cattle_nes,0.02
+10,171,Australia,Philippines,1989,hides_cattle_nes,16.0
+10,171,Australia,Philippines,1991,hides_cattle_nes,7.0
+10,171,Australia,Philippines,1994,hides_cattle_nes,18.0
+10,173,Australia,Poland,1986,hides_cattle_nes,86.0
+10,173,Australia,Poland,1987,hides_cattle_nes,83.0
+10,173,Australia,Poland,1990,hides_cattle_nes,1571.0
+10,174,Australia,Portugal,1987,hides_cattle_nes,1.0
+210,169,Sweden,Paraguay,2002,hides_cattle_nes,379.0
+10,117,Australia,Republic of Korea,1986,hides_cattle_nes,631.0
+10,117,Australia,Republic of Korea,1987,hides_cattle_nes,75.0
+10,117,Australia,Republic of Korea,1988,hides_cattle_nes,5.0
+10,117,Australia,Republic of Korea,1989,hides_cattle_nes,21.0
+10,117,Australia,Republic of Korea,1990,hides_cattle_nes,2036.0
+10,117,Australia,Republic of Korea,1992,hides_cattle_nes,40.0
+10,117,Australia,Republic of Korea,1993,hides_cattle_nes,39.0
+10,117,Australia,Republic of Korea,1994,hides_cattle_nes,40.0
+10,117,Australia,Republic of Korea,1995,hides_cattle_nes,79.0
+10,117,Australia,Republic of Korea,1997,hides_cattle_nes,41.0
+10,183,Australia,Romania,1987,hides_cattle_nes,1.0
+210,173,Sweden,Poland,2004,hides_cattle_nes,144.0
+210,173,Sweden,Poland,2019,hides_cattle_nes,23.48
+216,173,Thailand,Poland,2016,hides_cattle_nes,0.01
+210,185,Sweden,Russian Federation,1998,hides_cattle_nes,20.0
+216,117,Thailand,Republic of Korea,2009,hides_cattle_nes,25.0
+10,200,Australia,Singapore,1990,hides_cattle_nes,5.0
+10,200,Australia,Singapore,1993,hides_cattle_nes,2.0
+10,200,Australia,Singapore,1995,hides_cattle_nes,42.0
+210,194,Sweden,Saudi Arabia,2015,hides_cattle_nes,0.01
+10,202,Australia,South Africa,1992,hides_cattle_nes,1.0
+10,202,Australia,South Africa,1995,hides_cattle_nes,17.0
+10,202,Australia,South Africa,1997,hides_cattle_nes,146.0
+216,200,Thailand,Singapore,2020,hides_cattle_nes,0.01
+210,203,Sweden,Spain,2016,hides_cattle_nes,7.06
+210,203,Sweden,Spain,2017,hides_cattle_nes,100.68
+210,203,Sweden,Spain,2018,hides_cattle_nes,113.96
+210,203,Sweden,Spain,2019,hides_cattle_nes,338.82
+210,203,Sweden,Spain,2020,hides_cattle_nes,474.45
+210,203,Sweden,Spain,2021,hides_cattle_nes,269.13
+10,203,Australia,Spain,1987,hides_cattle_nes,3.0
+10,203,Australia,Spain,1994,hides_cattle_nes,142.0
+10,203,Australia,Spain,1997,hides_cattle_nes,62.0
+10,38,Australia,Sri Lanka,1991,hides_cattle_nes,54.0
+216,202,Thailand,South Africa,2012,hides_cattle_nes,17.0
+216,202,Thailand,South Africa,2013,hides_cattle_nes,57.0
+10,210,Australia,Sweden,1987,hides_cattle_nes,1.0
+210,211,Sweden,Switzerland,2015,hides_cattle_nes,0.07
+10,211,Australia,Switzerland,1986,hides_cattle_nes,17.0
+210,212,Sweden,Syrian Arab Republic,2016,hides_cattle_nes,3.68
+210,212,Sweden,Syrian Arab Republic,2017,hides_cattle_nes,3.68
+10,216,Australia,Thailand,1986,hides_cattle_nes,18.0
+10,216,Australia,Thailand,1987,hides_cattle_nes,15.0
+10,216,Australia,Thailand,1988,hides_cattle_nes,230.0
+10,216,Australia,Thailand,1989,hides_cattle_nes,183.0
+10,216,Australia,Thailand,1990,hides_cattle_nes,142.0
+10,216,Australia,Thailand,1991,hides_cattle_nes,27.0
+10,216,Australia,Thailand,1992,hides_cattle_nes,716.0
+10,216,Australia,Thailand,1993,hides_cattle_nes,450.0
+10,216,Australia,Thailand,1994,hides_cattle_nes,552.0
+10,216,Australia,Thailand,1995,hides_cattle_nes,1752.0
+10,216,Australia,Thailand,1996,hides_cattle_nes,515.0
+10,216,Australia,Thailand,1997,hides_cattle_nes,1050.0
+10,223,Australia,Türkiye,1986,hides_cattle_nes,20.0
+10,223,Australia,Türkiye,1991,hides_cattle_nes,128.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,1997,hides_cattle_nes,21.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,1998,hides_cattle_nes,144.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,1999,hides_cattle_nes,531.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2000,hides_cattle_nes,841.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2001,hides_cattle_nes,869.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2020,hides_cattle_nes,28.29
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2023,hides_cattle_nes,0.03
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1986,hides_cattle_nes,17.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1987,hides_cattle_nes,3.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1988,hides_cattle_nes,20.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1991,hides_cattle_nes,4.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1992,hides_cattle_nes,13.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1993,hides_cattle_nes,4.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2016,hides_cattle_nes,0.71
+210,231,Sweden,United States of America,1993,hides_cattle_nes,3.0
+210,231,Sweden,United States of America,2002,hides_cattle_nes,128.0
+210,231,Sweden,United States of America,2008,hides_cattle_nes,890.0
+210,231,Sweden,United States of America,2017,hides_cattle_nes,0.01
+210,231,Sweden,United States of America,2018,hides_cattle_nes,0.01
+210,231,Sweden,United States of America,2019,hides_cattle_nes,0.04
+210,231,Sweden,United States of America,2020,hides_cattle_nes,0.04
+210,231,Sweden,United States of America,2021,hides_cattle_nes,0.02
+10,231,Australia,United States of America,1986,hides_cattle_nes,69.0
+10,231,Australia,United States of America,1987,hides_cattle_nes,13.0
+10,231,Australia,United States of America,1988,hides_cattle_nes,23.0
+10,231,Australia,United States of America,1989,hides_cattle_nes,24.0
+10,231,Australia,United States of America,1990,hides_cattle_nes,46.0
+10,231,Australia,United States of America,1991,hides_cattle_nes,36.0
+10,231,Australia,United States of America,1992,hides_cattle_nes,92.0
+10,231,Australia,United States of America,1993,hides_cattle_nes,23.0
+10,231,Australia,United States of America,1995,hides_cattle_nes,3.0
+216,231,Thailand,United States of America,2011,hides_cattle_nes,1.0
+216,231,Thailand,United States of America,2014,hides_cattle_nes,0.01
+216,231,Thailand,United States of America,2015,hides_cattle_nes,0.01
+216,231,Thailand,United States of America,2016,hides_cattle_nes,1.23
+10,237,Australia,Viet Nam,1995,hides_cattle_nes,40.0
+216,237,Thailand,Viet Nam,2007,hides_cattle_nes,11.0
+216,237,Thailand,Viet Nam,2012,hides_cattle_nes,30.0
+216,237,Thailand,Viet Nam,2013,hides_cattle_nes,100.0

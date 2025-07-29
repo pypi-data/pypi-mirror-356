@@ -1,0 +1,3163 @@
+o_code,d_code,o_name,d_name,year,item,weight
+150,2,Netherlands (Kingdom of the),Afghanistan,1996,fat_of_poultry,26.0
+203,3,Spain,Albania,2023,fat_of_poultry,0.35
+147,7,Namibia,Angola,2013,fat_of_poultry,1.0
+147,7,Namibia,Angola,2014,fat_of_poultry,0.98
+147,7,Namibia,Angola,2015,fat_of_poultry,0.03
+165,2,Pakistan,Afghanistan,2012,fat_of_poultry,1.0
+165,2,Pakistan,Afghanistan,2017,fat_of_poultry,40.0
+165,2,Pakistan,Afghanistan,2018,fat_of_poultry,43.3
+144,96,Mozambique,"China, Hong Kong SAR",2020,fat_of_poultry,0.03
+84,3,Greece,Albania,1998,fat_of_poultry,1.0
+84,3,Greece,Albania,2002,fat_of_poultry,18.0
+84,3,Greece,Albania,2011,fat_of_poultry,9.0
+84,3,Greece,Albania,2012,fat_of_poultry,8.0
+84,3,Greece,Albania,2013,fat_of_poultry,5.0
+84,3,Greece,Albania,2014,fat_of_poultry,2.8
+84,3,Greece,Albania,2015,fat_of_poultry,6.2
+84,3,Greece,Albania,2019,fat_of_poultry,5.72
+84,3,Greece,Albania,2020,fat_of_poultry,2.06
+106,3,Italy,Albania,2002,fat_of_poultry,11.0
+106,3,Italy,Albania,2009,fat_of_poultry,16.0
+106,3,Italy,Albania,2012,fat_of_poultry,16.0
+106,3,Italy,Albania,2013,fat_of_poultry,9.0
+106,3,Italy,Albania,2014,fat_of_poultry,47.6
+202,7,South Africa,Angola,2012,fat_of_poultry,24.0
+202,7,South Africa,Angola,2013,fat_of_poultry,57.0
+202,7,South Africa,Angola,2015,fat_of_poultry,22.43
+107,255,Côte d'Ivoire,Belgium,2022,fat_of_poultry,1.7
+107,255,Côte d'Ivoire,Belgium,2023,fat_of_poultry,4.0
+171,10,Philippines,Australia,2021,fat_of_poultry,0.03
+171,10,Philippines,Australia,2023,fat_of_poultry,43.55
+28,41,Myanmar,"China, mainland",2019,fat_of_poultry,13.0
+174,7,Portugal,Angola,2014,fat_of_poultry,0.5
+174,7,Portugal,Angola,2015,fat_of_poultry,0.3
+174,7,Portugal,Angola,2023,fat_of_poultry,8.83
+68,4,France,Algeria,2020,fat_of_poultry,0.2
+244,156,Samoa,New Zealand,2021,fat_of_poultry,24.18
+144,54,Mozambique,Denmark,2020,fat_of_poultry,0.02
+199,11,Slovakia,Austria,2014,fat_of_poultry,38.9
+199,11,Slovakia,Austria,2015,fat_of_poultry,31.3
+199,11,Slovakia,Austria,2016,fat_of_poultry,58.3
+199,11,Slovakia,Austria,2017,fat_of_poultry,47.0
+199,11,Slovakia,Austria,2018,fat_of_poultry,45.21
+199,11,Slovakia,Austria,2019,fat_of_poultry,1.29
+273,80,Montenegro,Bosnia and Herzegovina,2012,fat_of_poultry,2.0
+28,214,Myanmar,"China, Taiwan Province of",2019,fat_of_poultry,4.71
+209,144,Eswatini,Mozambique,2015,fat_of_poultry,0.1
+209,144,Eswatini,Mozambique,2016,fat_of_poultry,0.22
+209,144,Eswatini,Mozambique,2017,fat_of_poultry,0.08
+209,144,Eswatini,Mozambique,2019,fat_of_poultry,0.16
+183,11,Romania,Austria,2011,fat_of_poultry,20.0
+183,11,Romania,Austria,2017,fat_of_poultry,20.01
+183,11,Romania,Austria,2018,fat_of_poultry,6.48
+183,11,Romania,Austria,2022,fat_of_poultry,0.02
+73,52,Georgia,Azerbaijan,2022,fat_of_poultry,15.68
+144,84,Mozambique,Greece,2020,fat_of_poultry,0.02
+244,218,Samoa,Tokelau,2018,fat_of_poultry,0.1
+244,218,Samoa,Tokelau,2021,fat_of_poultry,0.75
+216,10,Thailand,Australia,2019,fat_of_poultry,0.03
+147,20,Namibia,Botswana,2016,fat_of_poultry,32.0
+150,7,Netherlands (Kingdom of the),Angola,2014,fat_of_poultry,0.07
+150,7,Netherlands (Kingdom of the),Angola,2015,fat_of_poultry,0.21
+251,250,Zambia,Democratic Republic of the Congo,2014,fat_of_poultry,5.74
+83,227,Kiribati,Tuvalu,2016,fat_of_poultry,0.01
+276,225,Sudan,United Arab Emirates,2016,fat_of_poultry,61.6
+184,250,Rwanda,Democratic Republic of the Congo,2018,fat_of_poultry,0.32
+97,11,Hungary,Austria,1986,fat_of_poultry,42.0
+97,11,Hungary,Austria,1987,fat_of_poultry,7.0
+97,11,Hungary,Austria,1988,fat_of_poultry,7.0
+97,11,Hungary,Austria,2004,fat_of_poultry,5.0
+97,11,Hungary,Austria,2005,fat_of_poultry,67.0
+97,11,Hungary,Austria,2006,fat_of_poultry,42.0
+97,11,Hungary,Austria,2007,fat_of_poultry,4.0
+97,11,Hungary,Austria,2008,fat_of_poultry,63.0
+97,11,Hungary,Austria,2009,fat_of_poultry,31.0
+97,11,Hungary,Austria,2010,fat_of_poultry,26.0
+97,11,Hungary,Austria,2011,fat_of_poultry,3.0
+97,11,Hungary,Austria,2012,fat_of_poultry,4.0
+97,11,Hungary,Austria,2013,fat_of_poultry,4.0
+97,11,Hungary,Austria,2014,fat_of_poultry,4.9
+97,11,Hungary,Austria,2015,fat_of_poultry,10.9
+97,11,Hungary,Austria,2016,fat_of_poultry,8.98
+97,11,Hungary,Austria,2017,fat_of_poultry,4.84
+97,11,Hungary,Austria,2018,fat_of_poultry,2.56
+97,11,Hungary,Austria,2019,fat_of_poultry,1.49
+97,11,Hungary,Austria,2020,fat_of_poultry,1.72
+97,11,Hungary,Austria,2021,fat_of_poultry,7.39
+97,11,Hungary,Austria,2022,fat_of_poultry,4.84
+97,11,Hungary,Austria,2023,fat_of_poultry,39.16
+20,147,Botswana,Namibia,2014,fat_of_poultry,0.03
+20,147,Botswana,Namibia,2015,fat_of_poultry,0.08
+173,11,Poland,Austria,2018,fat_of_poultry,20.4
+173,11,Poland,Austria,2019,fat_of_poultry,0.1
+173,11,Poland,Austria,2020,fat_of_poultry,30.6
+173,11,Poland,Austria,2021,fat_of_poultry,12.99
+173,11,Poland,Austria,2023,fat_of_poultry,261.54
+171,13,Philippines,Bahrain,2021,fat_of_poultry,0.02
+21,9,Brazil,Argentina,1996,fat_of_poultry,136.0
+15,27,Belgium-Luxembourg,Bulgaria,1994,fat_of_poultry,103.0
+9,19,Argentina,Bolivia (Plurinational State of),1997,fat_of_poultry,2766.0
+231,9,United States of America,Argentina,2022,fat_of_poultry,22.33
+256,255,Luxembourg,Belgium,2012,fat_of_poultry,2.0
+256,255,Luxembourg,Belgium,2016,fat_of_poultry,0.01
+256,255,Luxembourg,Belgium,2020,fat_of_poultry,0.03
+256,255,Luxembourg,Belgium,2021,fat_of_poultry,0.02
+256,255,Luxembourg,Belgium,2022,fat_of_poultry,0.01
+256,255,Luxembourg,Belgium,2023,fat_of_poultry,0.02
+104,255,Ireland,Belgium,2017,fat_of_poultry,3168.63
+50,27,Cyprus,Bulgaria,2000,fat_of_poultry,8.0
+50,27,Cyprus,Bulgaria,2010,fat_of_poultry,12.0
+68,8,France,Antigua and Barbuda,2023,fat_of_poultry,0.01
+199,255,Slovakia,Belgium,2013,fat_of_poultry,2.0
+126,255,Lithuania,Belgium,2020,fat_of_poultry,0.03
+26,131,Brunei Darussalam,Malaysia,2021,fat_of_poultry,0.01
+137,214,Mauritius,"China, Taiwan Province of",2014,fat_of_poultry,0.6
+11,255,Austria,Belgium,2000,fat_of_poultry,1.0
+183,255,Romania,Belgium,2015,fat_of_poultry,20.0
+183,255,Romania,Belgium,2016,fat_of_poultry,10.13
+183,255,Romania,Belgium,2017,fat_of_poultry,1.03
+183,255,Romania,Belgium,2018,fat_of_poultry,0.44
+183,255,Romania,Belgium,2019,fat_of_poultry,7.13
+183,255,Romania,Belgium,2020,fat_of_poultry,0.63
+27,255,Bulgaria,Belgium,2007,fat_of_poultry,6.0
+27,255,Bulgaria,Belgium,2009,fat_of_poultry,3.0
+27,255,Bulgaria,Belgium,2011,fat_of_poultry,3.0
+27,255,Bulgaria,Belgium,2012,fat_of_poultry,1.0
+27,255,Bulgaria,Belgium,2013,fat_of_poultry,2.0
+27,255,Bulgaria,Belgium,2014,fat_of_poultry,1.1
+203,1,Spain,Armenia,2013,fat_of_poultry,99.0
+27,255,Bulgaria,Belgium,2015,fat_of_poultry,97.3
+203,1,Spain,Armenia,2014,fat_of_poultry,50.0
+27,255,Bulgaria,Belgium,2017,fat_of_poultry,0.89
+27,255,Bulgaria,Belgium,2022,fat_of_poultry,0.15
+27,255,Bulgaria,Belgium,2023,fat_of_poultry,2.81
+66,47,Fiji,Cook Islands,2020,fat_of_poultry,0.05
+231,1,United States of America,Armenia,2016,fat_of_poultry,25.0
+104,53,Ireland,Benin,2003,fat_of_poultry,52.0
+106,1,Italy,Armenia,2014,fat_of_poultry,25.0
+106,1,Italy,Armenia,2015,fat_of_poultry,20.0
+106,1,Italy,Armenia,2016,fat_of_poultry,100.51
+171,33,Philippines,Canada,2023,fat_of_poultry,106.66
+20,202,Botswana,South Africa,2013,fat_of_poultry,3.0
+20,202,Botswana,South Africa,2014,fat_of_poultry,2.35
+20,202,Botswana,South Africa,2016,fat_of_poultry,1.44
+20,202,Botswana,South Africa,2017,fat_of_poultry,45.45
+20,202,Botswana,South Africa,2018,fat_of_poultry,10.5
+185,57,Russian Federation,Belarus,2013,fat_of_poultry,10.0
+185,57,Russian Federation,Belarus,2021,fat_of_poultry,17.99
+98,80,Croatia,Bosnia and Herzegovina,2010,fat_of_poultry,21.0
+98,80,Croatia,Bosnia and Herzegovina,2011,fat_of_poultry,8.0
+98,80,Croatia,Bosnia and Herzegovina,2012,fat_of_poultry,4.0
+98,80,Croatia,Bosnia and Herzegovina,2015,fat_of_poultry,27.6
+98,80,Croatia,Bosnia and Herzegovina,2016,fat_of_poultry,40.95
+98,80,Croatia,Bosnia and Herzegovina,2017,fat_of_poultry,16.45
+174,255,Portugal,Belgium,2020,fat_of_poultry,6.71
+174,255,Portugal,Belgium,2023,fat_of_poultry,8.85
+150,10,Netherlands (Kingdom of the),Australia,2022,fat_of_poultry,22.31
+68,10,France,Australia,2009,fat_of_poultry,2.0
+68,10,France,Australia,2010,fat_of_poultry,5.0
+68,10,France,Australia,2011,fat_of_poultry,1.0
+68,10,France,Australia,2014,fat_of_poultry,9.0
+68,10,France,Australia,2018,fat_of_poultry,14.37
+68,10,France,Australia,2019,fat_of_poultry,9.38
+104,115,Ireland,Cambodia,2021,fat_of_poultry,8.45
+144,223,Mozambique,Türkiye,2023,fat_of_poultry,0.07
+223,52,Türkiye,Azerbaijan,2005,fat_of_poultry,22.0
+97,255,Hungary,Belgium,2010,fat_of_poultry,4.0
+97,255,Hungary,Belgium,2011,fat_of_poultry,1.0
+97,255,Hungary,Belgium,2012,fat_of_poultry,1.0
+97,255,Hungary,Belgium,2013,fat_of_poultry,1.0
+97,255,Hungary,Belgium,2014,fat_of_poultry,0.4
+97,255,Hungary,Belgium,2015,fat_of_poultry,2.3
+97,255,Hungary,Belgium,2016,fat_of_poultry,1.5
+97,255,Hungary,Belgium,2017,fat_of_poultry,24.51
+97,255,Hungary,Belgium,2018,fat_of_poultry,82.69
+97,255,Hungary,Belgium,2019,fat_of_poultry,133.04
+97,255,Hungary,Belgium,2020,fat_of_poultry,70.39
+97,255,Hungary,Belgium,2021,fat_of_poultry,46.18
+97,255,Hungary,Belgium,2022,fat_of_poultry,1.07
+97,255,Hungary,Belgium,2023,fat_of_poultry,0.1
+60,89,El Salvador,Guatemala,2018,fat_of_poultry,4.85
+119,54,Latvia,Denmark,2021,fat_of_poultry,0.05
+119,54,Latvia,Denmark,2022,fat_of_poultry,0.02
+198,80,Slovenia,Bosnia and Herzegovina,2009,fat_of_poultry,31.0
+198,80,Slovenia,Bosnia and Herzegovina,2010,fat_of_poultry,100.0
+198,80,Slovenia,Bosnia and Herzegovina,2011,fat_of_poultry,153.0
+198,80,Slovenia,Bosnia and Herzegovina,2012,fat_of_poultry,99.0
+198,80,Slovenia,Bosnia and Herzegovina,2013,fat_of_poultry,15.0
+198,80,Slovenia,Bosnia and Herzegovina,2014,fat_of_poultry,7.6
+198,80,Slovenia,Bosnia and Herzegovina,2015,fat_of_poultry,11.8
+198,80,Slovenia,Bosnia and Herzegovina,2016,fat_of_poultry,142.33
+198,80,Slovenia,Bosnia and Herzegovina,2017,fat_of_poultry,68.54
+84,255,Greece,Belgium,2003,fat_of_poultry,2.0
+84,255,Greece,Belgium,2004,fat_of_poultry,2.0
+84,255,Greece,Belgium,2005,fat_of_poultry,1.0
+66,83,Fiji,Kiribati,2020,fat_of_poultry,4.03
+66,83,Fiji,Kiribati,2022,fat_of_poultry,0.9
+144,215,Mozambique,United Republic of Tanzania,2019,fat_of_poultry,0.2
+183,27,Romania,Bulgaria,2013,fat_of_poultry,21.0
+183,27,Romania,Bulgaria,2014,fat_of_poultry,60.0
+183,27,Romania,Bulgaria,2015,fat_of_poultry,200.0
+183,27,Romania,Bulgaria,2016,fat_of_poultry,184.67
+183,27,Romania,Bulgaria,2017,fat_of_poultry,812.88
+183,27,Romania,Bulgaria,2018,fat_of_poultry,985.08
+183,27,Romania,Bulgaria,2019,fat_of_poultry,567.27
+183,27,Romania,Bulgaria,2020,fat_of_poultry,168.09
+183,27,Romania,Bulgaria,2021,fat_of_poultry,333.44
+183,27,Romania,Bulgaria,2022,fat_of_poultry,256.7
+183,27,Romania,Bulgaria,2023,fat_of_poultry,474.56
+216,255,Thailand,Belgium,2021,fat_of_poultry,0.01
+33,14,Canada,Barbados,2020,fat_of_poultry,1.42
+194,59,Saudi Arabia,Egypt,2007,fat_of_poultry,5.0
+104,96,Ireland,"China, Hong Kong SAR",2000,fat_of_poultry,24.0
+53,217,Benin,Togo,2015,fat_of_poultry,1.5
+173,255,Poland,Belgium,2005,fat_of_poultry,8.0
+173,255,Poland,Belgium,2006,fat_of_poultry,2.0
+173,255,Poland,Belgium,2007,fat_of_poultry,8.0
+173,255,Poland,Belgium,2012,fat_of_poultry,131.0
+173,255,Poland,Belgium,2014,fat_of_poultry,0.7
+173,255,Poland,Belgium,2015,fat_of_poultry,0.06
+173,255,Poland,Belgium,2016,fat_of_poultry,225.26
+173,255,Poland,Belgium,2017,fat_of_poultry,0.02
+173,255,Poland,Belgium,2018,fat_of_poultry,0.13
+173,255,Poland,Belgium,2019,fat_of_poultry,0.26
+173,255,Poland,Belgium,2020,fat_of_poultry,0.1
+173,255,Poland,Belgium,2021,fat_of_poultry,0.09
+173,255,Poland,Belgium,2022,fat_of_poultry,1774.11
+173,255,Poland,Belgium,2023,fat_of_poultry,6487.4
+97,15,Hungary,Belgium-Luxembourg,1986,fat_of_poultry,49.0
+97,15,Hungary,Belgium-Luxembourg,1987,fat_of_poultry,61.0
+97,15,Hungary,Belgium-Luxembourg,1988,fat_of_poultry,69.0
+255,80,Belgium,Bosnia and Herzegovina,2000,fat_of_poultry,22.0
+255,80,Belgium,Bosnia and Herzegovina,2001,fat_of_poultry,44.0
+255,80,Belgium,Bosnia and Herzegovina,2002,fat_of_poultry,66.0
+157,89,Nicaragua,Guatemala,2006,fat_of_poultry,13.0
+15,54,Belgium-Luxembourg,Denmark,1999,fat_of_poultry,1.0
+255,21,Belgium,Brazil,2017,fat_of_poultry,1.08
+203,52,Spain,Azerbaijan,2012,fat_of_poultry,100.0
+203,52,Spain,Azerbaijan,2018,fat_of_poultry,5.25
+66,148,Fiji,Nauru,2017,fat_of_poultry,0.93
+79,11,Germany,Austria,2013,fat_of_poultry,1.0
+79,11,Germany,Austria,2014,fat_of_poultry,0.5
+79,11,Germany,Austria,2015,fat_of_poultry,0.9
+79,11,Germany,Austria,2016,fat_of_poultry,1.04
+79,11,Germany,Austria,2017,fat_of_poultry,1.25
+79,11,Germany,Austria,2018,fat_of_poultry,0.76
+79,11,Germany,Austria,2019,fat_of_poultry,0.86
+79,11,Germany,Austria,2020,fat_of_poultry,0.37
+79,11,Germany,Austria,2022,fat_of_poultry,0.01
+9,40,Argentina,Chile,1997,fat_of_poultry,747.0
+119,63,Latvia,Estonia,2021,fat_of_poultry,1.51
+119,63,Latvia,Estonia,2022,fat_of_poultry,1.08
+119,63,Latvia,Estonia,2023,fat_of_poultry,1.13
+68,11,France,Austria,1997,fat_of_poultry,55.0
+68,11,France,Austria,1998,fat_of_poultry,109.0
+68,11,France,Austria,2014,fat_of_poultry,0.03
+216,18,Thailand,Bhutan,2017,fat_of_poultry,0.11
+202,20,South Africa,Botswana,2013,fat_of_poultry,37.0
+202,20,South Africa,Botswana,2014,fat_of_poultry,11.96
+202,20,South Africa,Botswana,2015,fat_of_poultry,7.41
+202,20,South Africa,Botswana,2016,fat_of_poultry,49.2
+202,20,South Africa,Botswana,2017,fat_of_poultry,17.89
+202,20,South Africa,Botswana,2018,fat_of_poultry,2.68
+202,20,South Africa,Botswana,2019,fat_of_poultry,1.43
+202,20,South Africa,Botswana,2020,fat_of_poultry,1.83
+202,20,South Africa,Botswana,2021,fat_of_poultry,0.41
+202,20,South Africa,Botswana,2022,fat_of_poultry,13.02
+202,20,South Africa,Botswana,2023,fat_of_poultry,0.1
+150,11,Netherlands (Kingdom of the),Austria,2015,fat_of_poultry,145.9
+150,11,Netherlands (Kingdom of the),Austria,2017,fat_of_poultry,76.71
+150,11,Netherlands (Kingdom of the),Austria,2018,fat_of_poultry,42.09
+150,11,Netherlands (Kingdom of the),Austria,2019,fat_of_poultry,0.66
+150,11,Netherlands (Kingdom of the),Austria,2020,fat_of_poultry,0.3
+150,11,Netherlands (Kingdom of the),Austria,2022,fat_of_poultry,0.22
+150,11,Netherlands (Kingdom of the),Austria,2023,fat_of_poultry,0.01
+11,27,Austria,Bulgaria,2015,fat_of_poultry,0.01
+20,251,Botswana,Zambia,2017,fat_of_poultry,1.3
+238,159,Ethiopia,Nigeria,2018,fat_of_poultry,58.0
+238,159,Ethiopia,Nigeria,2019,fat_of_poultry,40.0
+171,41,Philippines,"China, mainland",2023,fat_of_poultry,108.22
+106,11,Italy,Austria,1987,fat_of_poultry,6.0
+106,11,Italy,Austria,2005,fat_of_poultry,1.0
+106,11,Italy,Austria,2014,fat_of_poultry,0.8
+106,11,Italy,Austria,2015,fat_of_poultry,0.8
+106,11,Italy,Austria,2016,fat_of_poultry,0.29
+106,11,Italy,Austria,2017,fat_of_poultry,0.29
+106,11,Italy,Austria,2018,fat_of_poultry,0.07
+106,11,Italy,Austria,2019,fat_of_poultry,0.08
+106,11,Italy,Austria,2020,fat_of_poultry,0.02
+106,11,Italy,Austria,2021,fat_of_poultry,0.06
+106,11,Italy,Austria,2022,fat_of_poultry,0.07
+106,11,Italy,Austria,2023,fat_of_poultry,0.1
+199,167,Slovakia,Czechia,2008,fat_of_poultry,1.0
+199,167,Slovakia,Czechia,2011,fat_of_poultry,48.0
+199,167,Slovakia,Czechia,2012,fat_of_poultry,14.0
+199,167,Slovakia,Czechia,2013,fat_of_poultry,7.0
+199,167,Slovakia,Czechia,2014,fat_of_poultry,17.1
+199,167,Slovakia,Czechia,2015,fat_of_poultry,13.9
+199,167,Slovakia,Czechia,2016,fat_of_poultry,9.73
+199,167,Slovakia,Czechia,2017,fat_of_poultry,3.83
+199,167,Slovakia,Czechia,2018,fat_of_poultry,3.48
+199,167,Slovakia,Czechia,2019,fat_of_poultry,0.6
+199,167,Slovakia,Czechia,2020,fat_of_poultry,4.03
+40,41,Chile,"China, mainland",2012,fat_of_poultry,120.0
+147,202,Namibia,South Africa,2012,fat_of_poultry,29.0
+147,202,Namibia,South Africa,2013,fat_of_poultry,29.0
+147,202,Namibia,South Africa,2014,fat_of_poultry,0.01
+256,68,Luxembourg,France,2014,fat_of_poultry,0.01
+256,68,Luxembourg,France,2015,fat_of_poultry,0.02
+256,68,Luxembourg,France,2016,fat_of_poultry,0.03
+256,68,Luxembourg,France,2017,fat_of_poultry,0.03
+256,68,Luxembourg,France,2018,fat_of_poultry,0.01
+256,68,Luxembourg,France,2019,fat_of_poultry,0.01
+256,68,Luxembourg,France,2022,fat_of_poultry,0.01
+256,68,Luxembourg,France,2023,fat_of_poultry,0.01
+105,68,Israel,France,1986,fat_of_poultry,200.0
+105,68,Israel,France,1987,fat_of_poultry,200.0
+202,21,South Africa,Brazil,2017,fat_of_poultry,7.72
+97,27,Hungary,Bulgaria,2021,fat_of_poultry,2.52
+97,27,Hungary,Bulgaria,2022,fat_of_poultry,10.13
+173,80,Poland,Bosnia and Herzegovina,2013,fat_of_poultry,2.0
+231,52,United States of America,Azerbaijan,2016,fat_of_poultry,26.71
+183,41,Romania,"China, mainland",2016,fat_of_poultry,19.12
+183,41,Romania,"China, mainland",2017,fat_of_poultry,37.14
+113,235,Kyrgyzstan,Uzbekistan,2012,fat_of_poultry,2.0
+226,184,Uganda,Rwanda,2015,fat_of_poultry,0.5
+100,18,India,Bhutan,2015,fat_of_poultry,14.0
+225,96,United Arab Emirates,"China, Hong Kong SAR",2021,fat_of_poultry,0.05
+225,96,United Arab Emirates,"China, Hong Kong SAR",2022,fat_of_poultry,0.55
+174,27,Portugal,Bulgaria,2021,fat_of_poultry,1.12
+1,185,Armenia,Russian Federation,2020,fat_of_poultry,0.01
+15,68,Belgium-Luxembourg,France,1986,fat_of_poultry,3.0
+15,68,Belgium-Luxembourg,France,1987,fat_of_poultry,5.0
+15,68,Belgium-Luxembourg,France,1988,fat_of_poultry,47.0
+15,68,Belgium-Luxembourg,France,1989,fat_of_poultry,42.0
+15,68,Belgium-Luxembourg,France,1990,fat_of_poultry,1.0
+15,68,Belgium-Luxembourg,France,1991,fat_of_poultry,7.0
+15,68,Belgium-Luxembourg,France,1992,fat_of_poultry,24.0
+15,68,Belgium-Luxembourg,France,1993,fat_of_poultry,102.0
+15,68,Belgium-Luxembourg,France,1994,fat_of_poultry,58.0
+15,68,Belgium-Luxembourg,France,1995,fat_of_poultry,46.0
+15,68,Belgium-Luxembourg,France,1997,fat_of_poultry,5.0
+15,68,Belgium-Luxembourg,France,1998,fat_of_poultry,68.0
+203,255,Spain,Belgium,2014,fat_of_poultry,85.5
+203,255,Spain,Belgium,2022,fat_of_poultry,0.34
+183,98,Romania,Croatia,2023,fat_of_poultry,128.23
+173,27,Poland,Bulgaria,2010,fat_of_poultry,31.0
+173,27,Poland,Bulgaria,2012,fat_of_poultry,21.0
+173,27,Poland,Bulgaria,2014,fat_of_poultry,20.2
+173,27,Poland,Bulgaria,2015,fat_of_poultry,232.8
+173,27,Poland,Bulgaria,2016,fat_of_poultry,210.8
+173,27,Poland,Bulgaria,2017,fat_of_poultry,6.19
+173,27,Poland,Bulgaria,2019,fat_of_poultry,32.04
+173,27,Poland,Bulgaria,2020,fat_of_poultry,20.92
+126,63,Lithuania,Estonia,2015,fat_of_poultry,2.0
+126,63,Lithuania,Estonia,2020,fat_of_poultry,0.99
+126,63,Lithuania,Estonia,2022,fat_of_poultry,5.8
+126,63,Lithuania,Estonia,2023,fat_of_poultry,0.97
+40,44,Chile,Colombia,2012,fat_of_poultry,48.0
+97,33,Hungary,Canada,2010,fat_of_poultry,13.0
+97,33,Hungary,Canada,2011,fat_of_poultry,4.0
+97,33,Hungary,Canada,2012,fat_of_poultry,4.0
+97,33,Hungary,Canada,2013,fat_of_poultry,1.0
+97,33,Hungary,Canada,2014,fat_of_poultry,2.8
+97,33,Hungary,Canada,2016,fat_of_poultry,6.22
+97,33,Hungary,Canada,2017,fat_of_poultry,7.09
+97,33,Hungary,Canada,2019,fat_of_poultry,4.0
+97,33,Hungary,Canada,2021,fat_of_poultry,9.47
+97,33,Hungary,Canada,2023,fat_of_poultry,1.88
+84,27,Greece,Bulgaria,1998,fat_of_poultry,9.0
+84,27,Greece,Bulgaria,2001,fat_of_poultry,145.0
+84,27,Greece,Bulgaria,2002,fat_of_poultry,140.0
+84,27,Greece,Bulgaria,2007,fat_of_poultry,7.0
+84,27,Greece,Bulgaria,2011,fat_of_poultry,15.0
+84,27,Greece,Bulgaria,2012,fat_of_poultry,57.0
+84,27,Greece,Bulgaria,2013,fat_of_poultry,310.0
+84,27,Greece,Bulgaria,2014,fat_of_poultry,338.4
+84,27,Greece,Bulgaria,2015,fat_of_poultry,83.6
+84,27,Greece,Bulgaria,2016,fat_of_poultry,75.15
+84,27,Greece,Bulgaria,2017,fat_of_poultry,82.18
+84,27,Greece,Bulgaria,2018,fat_of_poultry,74.19
+84,27,Greece,Bulgaria,2019,fat_of_poultry,153.88
+84,27,Greece,Bulgaria,2020,fat_of_poultry,82.31
+84,27,Greece,Bulgaria,2021,fat_of_poultry,83.94
+84,27,Greece,Bulgaria,2022,fat_of_poultry,43.36
+84,27,Greece,Bulgaria,2023,fat_of_poultry,120.56
+27,54,Bulgaria,Denmark,2020,fat_of_poultry,3.71
+216,115,Thailand,Cambodia,2017,fat_of_poultry,0.03
+216,115,Thailand,Cambodia,2018,fat_of_poultry,0.1
+50,84,Cyprus,Greece,1993,fat_of_poultry,29.0
+50,84,Cyprus,Greece,1994,fat_of_poultry,15.0
+174,35,Portugal,Cabo Verde,2017,fat_of_poultry,0.06
+174,35,Portugal,Cabo Verde,2018,fat_of_poultry,1.16
+174,35,Portugal,Cabo Verde,2019,fat_of_poultry,0.86
+174,35,Portugal,Cabo Verde,2020,fat_of_poultry,0.35
+223,80,Türkiye,Bosnia and Herzegovina,2010,fat_of_poultry,27.0
+223,80,Türkiye,Bosnia and Herzegovina,2011,fat_of_poultry,3.0
+162,54,Norway,Denmark,2015,fat_of_poultry,1.01
+68,52,France,Azerbaijan,2001,fat_of_poultry,25.0
+68,52,France,Azerbaijan,2015,fat_of_poultry,24.8
+183,50,Romania,Cyprus,2015,fat_of_poultry,0.37
+183,50,Romania,Cyprus,2016,fat_of_poultry,2.0
+183,50,Romania,Cyprus,2017,fat_of_poultry,26.41
+183,50,Romania,Cyprus,2018,fat_of_poultry,2.29
+183,50,Romania,Cyprus,2019,fat_of_poultry,0.15
+67,63,Finland,Estonia,2012,fat_of_poultry,5.0
+150,52,Netherlands (Kingdom of the),Azerbaijan,2017,fat_of_poultry,50.48
+198,98,Slovenia,Croatia,2012,fat_of_poultry,7.0
+198,98,Slovenia,Croatia,2013,fat_of_poultry,1.0
+41,32,"China, mainland",Cameroon,2015,fat_of_poultry,0.2
+66,244,Fiji,Samoa,2020,fat_of_poultry,9.58
+66,244,Fiji,Samoa,2022,fat_of_poultry,37.3
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2000,fat_of_poultry,3.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2003,fat_of_poultry,71.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2004,fat_of_poultry,184.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2005,fat_of_poultry,45.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2006,fat_of_poultry,15.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2014,fat_of_poultry,0.01
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2017,fat_of_poultry,3615.71
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2018,fat_of_poultry,5581.19
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2019,fat_of_poultry,1244.61
+231,13,United States of America,Bahrain,2014,fat_of_poultry,61.79
+137,131,Mauritius,Malaysia,2014,fat_of_poultry,0.51
+60,157,El Salvador,Nicaragua,2015,fat_of_poultry,0.03
+255,33,Belgium,Canada,2014,fat_of_poultry,6.4
+216,33,Thailand,Canada,2017,fat_of_poultry,0.01
+131,96,Malaysia,"China, Hong Kong SAR",2022,fat_of_poultry,31.53
+131,96,Malaysia,"China, Hong Kong SAR",2023,fat_of_poultry,51.4
+147,251,Namibia,Zambia,2021,fat_of_poultry,10.5
+11,41,Austria,"China, mainland",2018,fat_of_poultry,0.66
+27,68,Bulgaria,France,2007,fat_of_poultry,7.0
+27,68,Bulgaria,France,2008,fat_of_poultry,3.0
+27,68,Bulgaria,France,2009,fat_of_poultry,4.0
+27,68,Bulgaria,France,2010,fat_of_poultry,24.0
+27,68,Bulgaria,France,2011,fat_of_poultry,20.0
+27,68,Bulgaria,France,2014,fat_of_poultry,6.8
+27,68,Bulgaria,France,2015,fat_of_poultry,0.8
+27,68,Bulgaria,France,2016,fat_of_poultry,0.48
+27,68,Bulgaria,France,2017,fat_of_poultry,5.98
+27,68,Bulgaria,France,2018,fat_of_poultry,23.54
+27,68,Bulgaria,France,2019,fat_of_poultry,0.49
+27,68,Bulgaria,France,2021,fat_of_poultry,13.42
+27,68,Bulgaria,France,2022,fat_of_poultry,52.48
+27,68,Bulgaria,France,2023,fat_of_poultry,40.08
+150,13,Netherlands (Kingdom of the),Bahrain,2009,fat_of_poultry,3.0
+174,33,Portugal,Canada,2020,fat_of_poultry,0.84
+223,27,Türkiye,Bulgaria,2001,fat_of_poultry,2.0
+199,68,Slovakia,France,2022,fat_of_poultry,0.01
+15,79,Belgium-Luxembourg,Germany,1991,fat_of_poultry,17.0
+15,79,Belgium-Luxembourg,Germany,1992,fat_of_poultry,8.0
+15,79,Belgium-Luxembourg,Germany,1993,fat_of_poultry,2.0
+15,79,Belgium-Luxembourg,Germany,1994,fat_of_poultry,14.0
+15,79,Belgium-Luxembourg,Germany,1995,fat_of_poultry,82.0
+15,79,Belgium-Luxembourg,Germany,1996,fat_of_poultry,8.0
+15,79,Belgium-Luxembourg,Germany,1997,fat_of_poultry,22.0
+15,79,Belgium-Luxembourg,Germany,1998,fat_of_poultry,7.0
+15,79,Belgium-Luxembourg,Germany,1999,fat_of_poultry,17.0
+173,96,Poland,"China, Hong Kong SAR",2018,fat_of_poultry,14.04
+238,225,Ethiopia,United Arab Emirates,2020,fat_of_poultry,1.93
+238,225,Ethiopia,United Arab Emirates,2021,fat_of_poultry,0.39
+60,166,El Salvador,Panama,2014,fat_of_poultry,0.03
+60,166,El Salvador,Panama,2018,fat_of_poultry,0.03
+202,96,South Africa,"China, Hong Kong SAR",2014,fat_of_poultry,0.22
+97,98,Hungary,Croatia,2019,fat_of_poultry,0.12
+97,98,Hungary,Croatia,2020,fat_of_poultry,0.4
+97,98,Hungary,Croatia,2021,fat_of_poultry,0.1
+114,166,Kenya,Panama,2016,fat_of_poultry,0.33
+40,58,Chile,Ecuador,2012,fat_of_poultry,24.0
+66,219,Fiji,Tonga,2022,fat_of_poultry,2.42
+66,219,Fiji,Tonga,2023,fat_of_poultry,0.12
+126,68,Lithuania,France,2018,fat_of_poultry,0.22
+126,68,Lithuania,France,2019,fat_of_poultry,0.03
+126,68,Lithuania,France,2020,fat_of_poultry,0.02
+131,128,Malaysia,"China, Macao SAR",2023,fat_of_poultry,1.3
+59,112,Egypt,Jordan,2011,fat_of_poultry,82.0
+255,96,Belgium,"China, Hong Kong SAR",2007,fat_of_poultry,27.0
+99,110,Iceland,Japan,2017,fat_of_poultry,5.45
+114,184,Kenya,Rwanda,2016,fat_of_poultry,0.27
+174,128,Portugal,"China, Macao SAR",2017,fat_of_poultry,0.21
+174,128,Portugal,"China, Macao SAR",2018,fat_of_poultry,0.08
+33,40,Canada,Chile,2013,fat_of_poultry,94.0
+216,96,Thailand,"China, Hong Kong SAR",2018,fat_of_poultry,0.08
+216,96,Thailand,"China, Hong Kong SAR",2021,fat_of_poultry,0.14
+216,96,Thailand,"China, Hong Kong SAR",2022,fat_of_poultry,0.01
+108,185,Kazakhstan,Russian Federation,2014,fat_of_poultry,4.26
+108,185,Kazakhstan,Russian Federation,2015,fat_of_poultry,0.04
+108,185,Kazakhstan,Russian Federation,2018,fat_of_poultry,1.96
+108,185,Kazakhstan,Russian Federation,2022,fat_of_poultry,2.0
+68,255,France,Belgium,2000,fat_of_poultry,310.0
+68,255,France,Belgium,2001,fat_of_poultry,283.0
+68,255,France,Belgium,2002,fat_of_poultry,63.0
+68,255,France,Belgium,2003,fat_of_poultry,3.0
+68,255,France,Belgium,2004,fat_of_poultry,51.0
+68,255,France,Belgium,2005,fat_of_poultry,62.0
+68,255,France,Belgium,2006,fat_of_poultry,1.0
+68,255,France,Belgium,2007,fat_of_poultry,5.0
+68,255,France,Belgium,2008,fat_of_poultry,68.0
+68,255,France,Belgium,2009,fat_of_poultry,1.0
+68,255,France,Belgium,2010,fat_of_poultry,2.0
+68,255,France,Belgium,2011,fat_of_poultry,11.0
+68,255,France,Belgium,2012,fat_of_poultry,25.0
+68,255,France,Belgium,2013,fat_of_poultry,31.0
+68,255,France,Belgium,2014,fat_of_poultry,42.4
+68,255,France,Belgium,2015,fat_of_poultry,33.0
+68,255,France,Belgium,2016,fat_of_poultry,46.07
+68,255,France,Belgium,2017,fat_of_poultry,90.15
+68,255,France,Belgium,2018,fat_of_poultry,7.9
+68,255,France,Belgium,2019,fat_of_poultry,11.69
+68,255,France,Belgium,2020,fat_of_poultry,3.56
+68,255,France,Belgium,2021,fat_of_poultry,1.62
+68,255,France,Belgium,2022,fat_of_poultry,1002.61
+68,255,France,Belgium,2023,fat_of_poultry,600.89
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1999,fat_of_poultry,5.0
+199,79,Slovakia,Germany,2014,fat_of_poultry,0.4
+21,96,Brazil,"China, Hong Kong SAR",2018,fat_of_poultry,0.05
+21,96,Brazil,"China, Hong Kong SAR",2020,fat_of_poultry,0.03
+131,41,Malaysia,"China, mainland",2016,fat_of_poultry,0.38
+11,98,Austria,Croatia,2012,fat_of_poultry,89.0
+11,98,Austria,Croatia,2013,fat_of_poultry,45.0
+57,185,Belarus,Russian Federation,2012,fat_of_poultry,4.0
+57,185,Belarus,Russian Federation,2014,fat_of_poultry,50.98
+57,185,Belarus,Russian Federation,2015,fat_of_poultry,19.5
+57,185,Belarus,Russian Federation,2016,fat_of_poultry,0.32
+57,185,Belarus,Russian Federation,2017,fat_of_poultry,49.26
+57,185,Belarus,Russian Federation,2018,fat_of_poultry,82.57
+57,185,Belarus,Russian Federation,2019,fat_of_poultry,122.94
+143,118,Morocco,Kuwait,2018,fat_of_poultry,0.13
+114,272,Kenya,Serbia,2013,fat_of_poultry,3.0
+194,118,Saudi Arabia,Kuwait,2007,fat_of_poultry,24.0
+106,255,Italy,Belgium,2014,fat_of_poultry,0.23
+106,255,Italy,Belgium,2015,fat_of_poultry,0.31
+106,255,Italy,Belgium,2016,fat_of_poultry,0.18
+106,255,Italy,Belgium,2017,fat_of_poultry,0.26
+106,255,Italy,Belgium,2018,fat_of_poultry,0.36
+106,255,Italy,Belgium,2019,fat_of_poultry,39.55
+106,255,Italy,Belgium,2020,fat_of_poultry,0.32
+106,255,Italy,Belgium,2021,fat_of_poultry,0.11
+106,255,Italy,Belgium,2022,fat_of_poultry,0.16
+106,255,Italy,Belgium,2023,fat_of_poultry,0.16
+183,68,Romania,France,2017,fat_of_poultry,1.23
+183,68,Romania,France,2018,fat_of_poultry,0.63
+183,68,Romania,France,2019,fat_of_poultry,0.04
+21,41,Brazil,"China, mainland",2019,fat_of_poultry,0.41
+97,167,Hungary,Czechia,2009,fat_of_poultry,1.0
+97,167,Hungary,Czechia,2010,fat_of_poultry,1.0
+97,167,Hungary,Czechia,2015,fat_of_poultry,0.1
+97,167,Hungary,Czechia,2016,fat_of_poultry,1.19
+97,167,Hungary,Czechia,2017,fat_of_poultry,21.51
+97,167,Hungary,Czechia,2018,fat_of_poultry,65.8
+97,167,Hungary,Czechia,2019,fat_of_poultry,30.73
+97,167,Hungary,Czechia,2020,fat_of_poultry,15.74
+97,167,Hungary,Czechia,2021,fat_of_poultry,20.5
+97,167,Hungary,Czechia,2022,fat_of_poultry,4.35
+97,167,Hungary,Czechia,2023,fat_of_poultry,5.45
+63,113,Estonia,Kyrgyzstan,2017,fat_of_poultry,1928.89
+126,79,Lithuania,Germany,2005,fat_of_poultry,7.0
+126,79,Lithuania,Germany,2006,fat_of_poultry,7.0
+73,213,Georgia,Turkmenistan,2013,fat_of_poultry,25.0
+33,96,Canada,"China, Hong Kong SAR",2012,fat_of_poultry,25.0
+272,273,Serbia,Montenegro,2017,fat_of_poultry,0.25
+150,255,Netherlands (Kingdom of the),Belgium,2002,fat_of_poultry,7.0
+150,255,Netherlands (Kingdom of the),Belgium,2003,fat_of_poultry,49.0
+150,255,Netherlands (Kingdom of the),Belgium,2004,fat_of_poultry,313.0
+150,255,Netherlands (Kingdom of the),Belgium,2005,fat_of_poultry,86.0
+150,255,Netherlands (Kingdom of the),Belgium,2006,fat_of_poultry,110.0
+150,255,Netherlands (Kingdom of the),Belgium,2007,fat_of_poultry,74.0
+150,255,Netherlands (Kingdom of the),Belgium,2008,fat_of_poultry,18.0
+150,255,Netherlands (Kingdom of the),Belgium,2009,fat_of_poultry,44.0
+150,255,Netherlands (Kingdom of the),Belgium,2010,fat_of_poultry,7.0
+150,255,Netherlands (Kingdom of the),Belgium,2011,fat_of_poultry,4.0
+150,255,Netherlands (Kingdom of the),Belgium,2012,fat_of_poultry,5.0
+150,255,Netherlands (Kingdom of the),Belgium,2013,fat_of_poultry,118.0
+150,255,Netherlands (Kingdom of the),Belgium,2015,fat_of_poultry,117.0
+150,255,Netherlands (Kingdom of the),Belgium,2016,fat_of_poultry,20.74
+150,255,Netherlands (Kingdom of the),Belgium,2017,fat_of_poultry,203.56
+150,255,Netherlands (Kingdom of the),Belgium,2018,fat_of_poultry,441.33
+150,255,Netherlands (Kingdom of the),Belgium,2019,fat_of_poultry,354.16
+150,255,Netherlands (Kingdom of the),Belgium,2020,fat_of_poultry,0.31
+150,255,Netherlands (Kingdom of the),Belgium,2021,fat_of_poultry,0.5
+150,255,Netherlands (Kingdom of the),Belgium,2022,fat_of_poultry,6.63
+150,255,Netherlands (Kingdom of the),Belgium,2023,fat_of_poultry,1.02
+9,79,Argentina,Germany,1997,fat_of_poultry,26.0
+79,255,Germany,Belgium,2005,fat_of_poultry,6.0
+79,255,Germany,Belgium,2014,fat_of_poultry,0.07
+79,255,Germany,Belgium,2015,fat_of_poultry,0.02
+27,84,Bulgaria,Greece,2015,fat_of_poultry,1.2
+27,84,Bulgaria,Greece,2021,fat_of_poultry,2.56
+84,50,Greece,Cyprus,2014,fat_of_poultry,1.0
+84,50,Greece,Cyprus,2017,fat_of_poultry,0.02
+84,50,Greece,Cyprus,2019,fat_of_poultry,0.45
+84,50,Greece,Cyprus,2021,fat_of_poultry,0.03
+104,79,Ireland,Germany,1993,fat_of_poultry,24.0
+119,104,Latvia,Ireland,2022,fat_of_poultry,0.03
+50,121,Cyprus,Lebanon,1993,fat_of_poultry,10.0
+50,121,Cyprus,Lebanon,1996,fat_of_poultry,1.0
+202,45,South Africa,Comoros,2019,fat_of_poultry,0.34
+216,41,Thailand,"China, mainland",2017,fat_of_poultry,4.97
+203,27,Spain,Bulgaria,2012,fat_of_poultry,24.0
+203,27,Spain,Bulgaria,2013,fat_of_poultry,94.0
+203,27,Spain,Bulgaria,2014,fat_of_poultry,155.5
+203,27,Spain,Bulgaria,2015,fat_of_poultry,37.4
+203,27,Spain,Bulgaria,2016,fat_of_poultry,169.61
+203,27,Spain,Bulgaria,2017,fat_of_poultry,7.57
+203,27,Spain,Bulgaria,2018,fat_of_poultry,27.1
+203,27,Spain,Bulgaria,2019,fat_of_poultry,32.53
+203,27,Spain,Bulgaria,2020,fat_of_poultry,51.22
+203,27,Spain,Bulgaria,2021,fat_of_poultry,1.53
+203,27,Spain,Bulgaria,2022,fat_of_poultry,2.21
+203,27,Spain,Bulgaria,2023,fat_of_poultry,9.17
+202,46,South Africa,Congo,2018,fat_of_poultry,0.03
+202,46,South Africa,Congo,2020,fat_of_poultry,0.07
+202,46,South Africa,Congo,2021,fat_of_poultry,0.01
+173,167,Poland,Czechia,2006,fat_of_poultry,22.0
+173,167,Poland,Czechia,2007,fat_of_poultry,1.0
+173,167,Poland,Czechia,2010,fat_of_poultry,22.0
+173,167,Poland,Czechia,2012,fat_of_poultry,163.0
+173,167,Poland,Czechia,2013,fat_of_poultry,83.0
+173,167,Poland,Czechia,2014,fat_of_poultry,205.0
+173,167,Poland,Czechia,2015,fat_of_poultry,2.7
+173,167,Poland,Czechia,2016,fat_of_poultry,472.0
+173,167,Poland,Czechia,2017,fat_of_poultry,490.17
+173,167,Poland,Czechia,2018,fat_of_poultry,0.08
+173,167,Poland,Czechia,2019,fat_of_poultry,15.53
+173,167,Poland,Czechia,2020,fat_of_poultry,32.95
+173,167,Poland,Czechia,2021,fat_of_poultry,21.06
+173,167,Poland,Czechia,2022,fat_of_poultry,420.44
+173,167,Poland,Czechia,2023,fat_of_poultry,94.62
+97,54,Hungary,Denmark,2018,fat_of_poultry,0.72
+199,97,Slovakia,Hungary,2010,fat_of_poultry,70.0
+199,97,Slovakia,Hungary,2012,fat_of_poultry,3.0
+199,97,Slovakia,Hungary,2014,fat_of_poultry,1.1
+199,97,Slovakia,Hungary,2016,fat_of_poultry,10.94
+199,97,Slovakia,Hungary,2023,fat_of_poultry,0.02
+255,107,Belgium,Côte d'Ivoire,2022,fat_of_poultry,25.2
+11,167,Austria,Czechia,2003,fat_of_poultry,2.0
+183,79,Romania,Germany,2018,fat_of_poultry,21.0
+183,79,Romania,Germany,2019,fat_of_poultry,0.15
+183,79,Romania,Germany,2023,fat_of_poultry,105.36
+68,15,France,Belgium-Luxembourg,1987,fat_of_poultry,5.0
+68,15,France,Belgium-Luxembourg,1988,fat_of_poultry,5.0
+68,15,France,Belgium-Luxembourg,1989,fat_of_poultry,2.0
+68,15,France,Belgium-Luxembourg,1990,fat_of_poultry,4.0
+68,15,France,Belgium-Luxembourg,1991,fat_of_poultry,1.0
+68,15,France,Belgium-Luxembourg,1992,fat_of_poultry,8.0
+68,15,France,Belgium-Luxembourg,1993,fat_of_poultry,10.0
+68,15,France,Belgium-Luxembourg,1994,fat_of_poultry,3.0
+68,15,France,Belgium-Luxembourg,1995,fat_of_poultry,12.0
+68,15,France,Belgium-Luxembourg,1996,fat_of_poultry,22.0
+68,15,France,Belgium-Luxembourg,1997,fat_of_poultry,7.0
+68,15,France,Belgium-Luxembourg,1998,fat_of_poultry,42.0
+68,15,France,Belgium-Luxembourg,1999,fat_of_poultry,83.0
+106,15,Italy,Belgium-Luxembourg,1996,fat_of_poultry,1.0
+174,54,Portugal,Denmark,2021,fat_of_poultry,22.01
+162,79,Norway,Germany,2016,fat_of_poultry,0.72
+33,41,Canada,"China, mainland",2017,fat_of_poultry,26.98
+33,41,Canada,"China, mainland",2019,fat_of_poultry,25.98
+33,41,Canada,"China, mainland",2020,fat_of_poultry,0.59
+203,35,Spain,Cabo Verde,2018,fat_of_poultry,1.34
+38,132,Sri Lanka,Maldives,2015,fat_of_poultry,0.15
+38,132,Sri Lanka,Maldives,2017,fat_of_poultry,0.1
+229,27,United Kingdom of Great Britain and Northern Ireland,Bulgaria,2018,fat_of_poultry,40.73
+229,27,United Kingdom of Great Britain and Northern Ireland,Bulgaria,2021,fat_of_poultry,0.07
+27,97,Bulgaria,Hungary,2011,fat_of_poultry,12.0
+27,97,Bulgaria,Hungary,2020,fat_of_poultry,6.01
+27,97,Bulgaria,Hungary,2022,fat_of_poultry,3.62
+27,97,Bulgaria,Hungary,2023,fat_of_poultry,12.92
+79,15,Germany,Belgium-Luxembourg,1991,fat_of_poultry,2.0
+126,104,Lithuania,Ireland,2012,fat_of_poultry,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,fat_of_poultry,6.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,fat_of_poultry,11.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,fat_of_poultry,20.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,fat_of_poultry,25.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,fat_of_poultry,21.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,fat_of_poultry,8.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,fat_of_poultry,181.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,fat_of_poultry,5.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1997,fat_of_poultry,42.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1999,fat_of_poultry,5.0
+202,250,South Africa,Democratic Republic of the Congo,2012,fat_of_poultry,1.0
+202,250,South Africa,Democratic Republic of the Congo,2013,fat_of_poultry,7.0
+202,250,South Africa,Democratic Republic of the Congo,2014,fat_of_poultry,1.32
+202,250,South Africa,Democratic Republic of the Congo,2015,fat_of_poultry,2.38
+202,250,South Africa,Democratic Republic of the Congo,2016,fat_of_poultry,0.99
+202,250,South Africa,Democratic Republic of the Congo,2017,fat_of_poultry,0.35
+202,250,South Africa,Democratic Republic of the Congo,2018,fat_of_poultry,2.29
+202,250,South Africa,Democratic Republic of the Congo,2020,fat_of_poultry,15.62
+202,250,South Africa,Democratic Republic of the Congo,2022,fat_of_poultry,0.75
+173,54,Poland,Denmark,2008,fat_of_poultry,2.0
+173,54,Poland,Denmark,2012,fat_of_poultry,63.0
+173,54,Poland,Denmark,2013,fat_of_poultry,22.0
+173,54,Poland,Denmark,2016,fat_of_poultry,20.0
+173,54,Poland,Denmark,2019,fat_of_poultry,94.99
+173,54,Poland,Denmark,2020,fat_of_poultry,84.0
+173,54,Poland,Denmark,2021,fat_of_poultry,21.18
+173,54,Poland,Denmark,2023,fat_of_poultry,20.9
+84,54,Greece,Denmark,2019,fat_of_poultry,21.48
+98,106,Croatia,Italy,2017,fat_of_poultry,14.0
+119,126,Latvia,Lithuania,2014,fat_of_poultry,0.4
+119,126,Latvia,Lithuania,2018,fat_of_poultry,0.01
+119,126,Latvia,Lithuania,2020,fat_of_poultry,0.01
+119,126,Latvia,Lithuania,2023,fat_of_poultry,0.03
+54,64,Denmark,Faroe Islands,2014,fat_of_poultry,2.5
+54,64,Denmark,Faroe Islands,2018,fat_of_poultry,0.01
+54,64,Denmark,Faroe Islands,2019,fat_of_poultry,0.01
+54,64,Denmark,Faroe Islands,2020,fat_of_poultry,0.02
+54,64,Denmark,Faroe Islands,2021,fat_of_poultry,0.06
+223,50,Türkiye,Cyprus,2023,fat_of_poultry,6.25
+174,238,Portugal,Ethiopia,2021,fat_of_poultry,2.23
+97,68,Hungary,France,1986,fat_of_poultry,361.0
+97,68,Hungary,France,1987,fat_of_poultry,121.0
+97,68,Hungary,France,1988,fat_of_poultry,105.0
+97,68,Hungary,France,2004,fat_of_poultry,21.0
+97,68,Hungary,France,2005,fat_of_poultry,2.0
+97,68,Hungary,France,2007,fat_of_poultry,35.0
+97,68,Hungary,France,2008,fat_of_poultry,149.0
+97,68,Hungary,France,2009,fat_of_poultry,307.0
+97,68,Hungary,France,2010,fat_of_poultry,308.0
+97,68,Hungary,France,2011,fat_of_poultry,187.0
+97,68,Hungary,France,2012,fat_of_poultry,48.0
+97,68,Hungary,France,2013,fat_of_poultry,43.0
+97,68,Hungary,France,2014,fat_of_poultry,87.7
+97,68,Hungary,France,2015,fat_of_poultry,16.5
+97,68,Hungary,France,2016,fat_of_poultry,82.25
+97,68,Hungary,France,2017,fat_of_poultry,90.99
+97,68,Hungary,France,2018,fat_of_poultry,171.37
+97,68,Hungary,France,2019,fat_of_poultry,42.89
+97,68,Hungary,France,2020,fat_of_poultry,5.11
+97,68,Hungary,France,2021,fat_of_poultry,228.34
+97,68,Hungary,France,2022,fat_of_poultry,34.51
+97,68,Hungary,France,2023,fat_of_poultry,28.17
+231,21,United States of America,Brazil,2022,fat_of_poultry,144.08
+255,167,Belgium,Czechia,2013,fat_of_poultry,15.0
+255,167,Belgium,Czechia,2014,fat_of_poultry,68.3
+255,167,Belgium,Czechia,2015,fat_of_poultry,26.5
+255,167,Belgium,Czechia,2016,fat_of_poultry,32.4
+255,167,Belgium,Czechia,2022,fat_of_poultry,1.09
+183,84,Romania,Greece,2012,fat_of_poultry,6.0
+183,84,Romania,Greece,2013,fat_of_poultry,9.0
+183,84,Romania,Greece,2014,fat_of_poultry,4.1
+183,84,Romania,Greece,2015,fat_of_poultry,1.1
+183,84,Romania,Greece,2017,fat_of_poultry,127.37
+183,84,Romania,Greece,2018,fat_of_poultry,6.34
+183,84,Romania,Greece,2019,fat_of_poultry,63.8
+183,84,Romania,Greece,2020,fat_of_poultry,0.69
+183,84,Romania,Greece,2022,fat_of_poultry,0.6
+33,214,Canada,"China, Taiwan Province of",2012,fat_of_poultry,25.0
+131,238,Malaysia,Ethiopia,2017,fat_of_poultry,1.1
+171,131,Philippines,Malaysia,2023,fat_of_poultry,20.0
+15,135,Belgium-Luxembourg,Martinique,1995,fat_of_poultry,2.0
+167,79,Czechia,Germany,2020,fat_of_poultry,0.1
+167,79,Czechia,Germany,2021,fat_of_poultry,0.01
+167,79,Czechia,Germany,2022,fat_of_poultry,0.01
+223,167,Türkiye,Czechia,2003,fat_of_poultry,68.0
+223,167,Türkiye,Czechia,2004,fat_of_poultry,300.0
+99,210,Iceland,Sweden,2019,fat_of_poultry,0.01
+256,117,Luxembourg,Republic of Korea,2000,fat_of_poultry,1.0
+174,68,Portugal,France,2018,fat_of_poultry,0.02
+174,68,Portugal,France,2019,fat_of_poultry,0.25
+174,68,Portugal,France,2020,fat_of_poultry,0.01
+174,68,Portugal,France,2021,fat_of_poultry,0.01
+174,68,Portugal,France,2022,fat_of_poultry,14.44
+174,68,Portugal,France,2023,fat_of_poultry,11.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,1999,fat_of_poultry,11.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2000,fat_of_poultry,120.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2001,fat_of_poultry,238.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2002,fat_of_poultry,110.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2007,fat_of_poultry,21.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2008,fat_of_poultry,382.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2009,fat_of_poultry,41.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2010,fat_of_poultry,43.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2011,fat_of_poultry,104.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2012,fat_of_poultry,186.0
+150,80,Netherlands (Kingdom of the),Bosnia and Herzegovina,2013,fat_of_poultry,110.0
+173,63,Poland,Estonia,2012,fat_of_poultry,23.0
+173,63,Poland,Estonia,2020,fat_of_poultry,129.24
+173,63,Poland,Estonia,2021,fat_of_poultry,1.62
+173,63,Poland,Estonia,2023,fat_of_poultry,21.29
+203,96,Spain,"China, Hong Kong SAR",2013,fat_of_poultry,99.0
+203,96,Spain,"China, Hong Kong SAR",2014,fat_of_poultry,48.8
+203,96,Spain,"China, Hong Kong SAR",2016,fat_of_poultry,96.91
+203,96,Spain,"China, Hong Kong SAR",2017,fat_of_poultry,25.02
+203,96,Spain,"China, Hong Kong SAR",2021,fat_of_poultry,9.52
+202,178,South Africa,Eritrea,2014,fat_of_poultry,0.01
+50,194,Cyprus,Saudi Arabia,1993,fat_of_poultry,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1986,fat_of_poultry,32.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1987,fat_of_poultry,22.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,fat_of_poultry,10.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,fat_of_poultry,3.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,fat_of_poultry,37.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1993,fat_of_poultry,44.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1994,fat_of_poultry,89.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1995,fat_of_poultry,65.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1996,fat_of_poultry,91.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,fat_of_poultry,46.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1998,fat_of_poultry,107.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1999,fat_of_poultry,34.0
+33,44,Canada,Colombia,2013,fat_of_poultry,50.0
+33,44,Canada,Colombia,2018,fat_of_poultry,23.05
+216,54,Thailand,Denmark,2016,fat_of_poultry,0.42
+216,54,Thailand,Denmark,2021,fat_of_poultry,0.17
+126,113,Lithuania,Kyrgyzstan,2017,fat_of_poultry,731.53
+202,209,South Africa,Eswatini,2017,fat_of_poultry,4.0
+202,209,South Africa,Eswatini,2022,fat_of_poultry,7.0
+202,209,South Africa,Eswatini,2023,fat_of_poultry,2.03
+183,97,Romania,Hungary,2009,fat_of_poultry,129.0
+183,97,Romania,Hungary,2012,fat_of_poultry,40.0
+183,97,Romania,Hungary,2013,fat_of_poultry,104.0
+183,97,Romania,Hungary,2015,fat_of_poultry,34.2
+183,97,Romania,Hungary,2016,fat_of_poultry,222.79
+183,97,Romania,Hungary,2017,fat_of_poultry,63.0
+183,97,Romania,Hungary,2018,fat_of_poultry,146.0
+183,97,Romania,Hungary,2019,fat_of_poultry,40.0
+183,97,Romania,Hungary,2021,fat_of_poultry,7.72
+183,97,Romania,Hungary,2022,fat_of_poultry,14.92
+183,97,Romania,Hungary,2023,fat_of_poultry,5.27
+106,27,Italy,Bulgaria,2004,fat_of_poultry,47.0
+106,27,Italy,Bulgaria,2014,fat_of_poultry,0.01
+106,27,Italy,Bulgaria,2015,fat_of_poultry,0.06
+106,27,Italy,Bulgaria,2016,fat_of_poultry,0.02
+106,27,Italy,Bulgaria,2017,fat_of_poultry,0.03
+106,27,Italy,Bulgaria,2018,fat_of_poultry,0.05
+106,27,Italy,Bulgaria,2020,fat_of_poultry,0.01
+106,27,Italy,Bulgaria,2021,fat_of_poultry,0.83
+106,27,Italy,Bulgaria,2022,fat_of_poultry,60.58
+106,27,Italy,Bulgaria,2023,fat_of_poultry,54.69
+97,79,Hungary,Germany,2004,fat_of_poultry,167.0
+97,79,Hungary,Germany,2005,fat_of_poultry,17.0
+97,79,Hungary,Germany,2006,fat_of_poultry,161.0
+97,79,Hungary,Germany,2007,fat_of_poultry,192.0
+97,79,Hungary,Germany,2008,fat_of_poultry,55.0
+97,79,Hungary,Germany,2009,fat_of_poultry,205.0
+97,79,Hungary,Germany,2010,fat_of_poultry,171.0
+97,79,Hungary,Germany,2011,fat_of_poultry,187.0
+97,79,Hungary,Germany,2012,fat_of_poultry,43.0
+97,79,Hungary,Germany,2013,fat_of_poultry,85.0
+97,79,Hungary,Germany,2014,fat_of_poultry,42.7
+97,79,Hungary,Germany,2015,fat_of_poultry,44.8
+97,79,Hungary,Germany,2016,fat_of_poultry,49.29
+97,79,Hungary,Germany,2017,fat_of_poultry,31.58
+97,79,Hungary,Germany,2018,fat_of_poultry,14.63
+97,79,Hungary,Germany,2019,fat_of_poultry,20.11
+97,79,Hungary,Germany,2020,fat_of_poultry,12.42
+97,79,Hungary,Germany,2021,fat_of_poultry,52.83
+97,79,Hungary,Germany,2022,fat_of_poultry,52.16
+97,79,Hungary,Germany,2023,fat_of_poultry,9.0
+104,109,Ireland,Jamaica,2003,fat_of_poultry,13.0
+119,150,Latvia,Netherlands (Kingdom of the),2015,fat_of_poultry,0.06
+119,150,Latvia,Netherlands (Kingdom of the),2022,fat_of_poultry,0.02
+119,150,Latvia,Netherlands (Kingdom of the),2023,fat_of_poultry,0.05
+255,54,Belgium,Denmark,2000,fat_of_poultry,1.0
+255,54,Belgium,Denmark,2001,fat_of_poultry,1.0
+203,41,Spain,"China, mainland",2013,fat_of_poultry,3232.0
+203,41,Spain,"China, mainland",2014,fat_of_poultry,451.6
+203,41,Spain,"China, mainland",2015,fat_of_poultry,248.0
+203,41,Spain,"China, mainland",2016,fat_of_poultry,417.4
+203,41,Spain,"China, mainland",2017,fat_of_poultry,77.16
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",2008,fat_of_poultry,75.0
+126,119,Lithuania,Latvia,2013,fat_of_poultry,5.0
+126,119,Lithuania,Latvia,2014,fat_of_poultry,60.4
+126,119,Lithuania,Latvia,2015,fat_of_poultry,9.2
+126,119,Lithuania,Latvia,2016,fat_of_poultry,20.84
+126,119,Lithuania,Latvia,2017,fat_of_poultry,33.53
+126,119,Lithuania,Latvia,2018,fat_of_poultry,2.79
+126,119,Lithuania,Latvia,2019,fat_of_poultry,2.95
+126,119,Lithuania,Latvia,2020,fat_of_poultry,6.79
+126,119,Lithuania,Latvia,2021,fat_of_poultry,3.19
+126,119,Lithuania,Latvia,2022,fat_of_poultry,13.98
+126,119,Lithuania,Latvia,2023,fat_of_poultry,8.01
+202,238,South Africa,Ethiopia,2013,fat_of_poultry,5.0
+202,238,South Africa,Ethiopia,2020,fat_of_poultry,0.02
+84,68,Greece,France,1993,fat_of_poultry,5.0
+84,68,Greece,France,1994,fat_of_poultry,2.0
+167,84,Czechia,Greece,2013,fat_of_poultry,92.0
+198,105,Slovenia,Israel,2020,fat_of_poultry,0.96
+67,126,Finland,Lithuania,2012,fat_of_poultry,23.0
+173,68,Poland,France,2004,fat_of_poultry,175.0
+173,68,Poland,France,2005,fat_of_poultry,52.0
+173,68,Poland,France,2006,fat_of_poultry,145.0
+173,68,Poland,France,2007,fat_of_poultry,70.0
+173,68,Poland,France,2008,fat_of_poultry,19.0
+173,68,Poland,France,2009,fat_of_poultry,23.0
+173,68,Poland,France,2010,fat_of_poultry,116.0
+173,68,Poland,France,2011,fat_of_poultry,10.0
+173,68,Poland,France,2012,fat_of_poultry,195.0
+173,68,Poland,France,2013,fat_of_poultry,79.0
+173,68,Poland,France,2014,fat_of_poultry,91.0
+173,68,Poland,France,2015,fat_of_poultry,10.8
+173,68,Poland,France,2016,fat_of_poultry,19.69
+173,68,Poland,France,2017,fat_of_poultry,8.9
+173,68,Poland,France,2020,fat_of_poultry,44.02
+173,68,Poland,France,2021,fat_of_poultry,184.16
+173,68,Poland,France,2022,fat_of_poultry,313.18
+173,68,Poland,France,2023,fat_of_poultry,410.78
+54,68,Denmark,France,1986,fat_of_poultry,23.0
+54,68,Denmark,France,1987,fat_of_poultry,13.0
+203,214,Spain,"China, Taiwan Province of",2017,fat_of_poultry,25.67
+11,68,Austria,France,2000,fat_of_poultry,3.0
+11,68,Austria,France,2001,fat_of_poultry,2.0
+11,68,Austria,France,2002,fat_of_poultry,13.0
+143,222,Morocco,Tunisia,2017,fat_of_poultry,0.24
+143,222,Morocco,Tunisia,2019,fat_of_poultry,0.04
+150,27,Netherlands (Kingdom of the),Bulgaria,2016,fat_of_poultry,77.63
+150,27,Netherlands (Kingdom of the),Bulgaria,2022,fat_of_poultry,0.04
+97,84,Hungary,Greece,2011,fat_of_poultry,20.0
+97,84,Hungary,Greece,2017,fat_of_poultry,0.05
+97,84,Hungary,Greece,2018,fat_of_poultry,0.03
+97,84,Hungary,Greece,2019,fat_of_poultry,0.12
+97,84,Hungary,Greece,2020,fat_of_poultry,0.1
+198,106,Slovenia,Italy,2014,fat_of_poultry,1.0
+231,33,United States of America,Canada,2016,fat_of_poultry,77.4
+231,33,United States of America,Canada,2019,fat_of_poultry,174.16
+231,33,United States of America,Canada,2021,fat_of_poultry,47.39
+231,33,United States of America,Canada,2022,fat_of_poultry,24.36
+225,112,United Arab Emirates,Jordan,2017,fat_of_poultry,0.01
+225,112,United Arab Emirates,Jordan,2018,fat_of_poultry,0.17
+203,44,Spain,Colombia,2013,fat_of_poultry,25.0
+203,44,Spain,Colombia,2014,fat_of_poultry,7.8
+171,179,Philippines,Qatar,2023,fat_of_poultry,0.02
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2019,fat_of_poultry,143.24
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2020,fat_of_poultry,72.16
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2021,fat_of_poultry,0.2
+119,173,Latvia,Poland,2013,fat_of_poultry,20.0
+106,33,Italy,Canada,2019,fat_of_poultry,1.52
+106,33,Italy,Canada,2020,fat_of_poultry,2.14
+174,79,Portugal,Germany,2014,fat_of_poultry,0.1
+174,79,Portugal,Germany,2015,fat_of_poultry,0.1
+174,79,Portugal,Germany,2016,fat_of_poultry,0.06
+174,79,Portugal,Germany,2017,fat_of_poultry,0.07
+174,79,Portugal,Germany,2018,fat_of_poultry,0.04
+174,79,Portugal,Germany,2019,fat_of_poultry,0.07
+174,79,Portugal,Germany,2020,fat_of_poultry,0.04
+199,173,Slovakia,Poland,2013,fat_of_poultry,4.0
+199,173,Slovakia,Poland,2014,fat_of_poultry,20.1
+199,173,Slovakia,Poland,2015,fat_of_poultry,26.9
+199,173,Slovakia,Poland,2016,fat_of_poultry,13.0
+199,173,Slovakia,Poland,2017,fat_of_poultry,28.82
+199,173,Slovakia,Poland,2018,fat_of_poultry,15.81
+199,173,Slovakia,Poland,2019,fat_of_poultry,14.95
+199,173,Slovakia,Poland,2020,fat_of_poultry,12.47
+199,173,Slovakia,Poland,2022,fat_of_poultry,0.02
+202,74,South Africa,Gabon,2017,fat_of_poultry,0.01
+50,225,Cyprus,United Arab Emirates,1993,fat_of_poultry,6.0
+21,84,Brazil,Greece,2021,fat_of_poultry,0.04
+63,185,Estonia,Russian Federation,2021,fat_of_poultry,0.02
+185,108,Russian Federation,Kazakhstan,2012,fat_of_poultry,3.0
+185,108,Russian Federation,Kazakhstan,2013,fat_of_poultry,19.0
+185,108,Russian Federation,Kazakhstan,2014,fat_of_poultry,37.98
+185,108,Russian Federation,Kazakhstan,2018,fat_of_poultry,6.14
+185,108,Russian Federation,Kazakhstan,2019,fat_of_poultry,11.67
+185,108,Russian Federation,Kazakhstan,2020,fat_of_poultry,17.85
+185,108,Russian Federation,Kazakhstan,2021,fat_of_poultry,19.9
+225,114,United Arab Emirates,Kenya,2019,fat_of_poultry,0.03
+68,32,France,Cameroon,2014,fat_of_poultry,0.1
+68,32,France,Cameroon,2017,fat_of_poultry,0.13
+84,79,Greece,Germany,1999,fat_of_poultry,2.0
+84,79,Greece,Germany,2000,fat_of_poultry,8.0
+84,79,Greece,Germany,2001,fat_of_poultry,5.0
+84,79,Greece,Germany,2002,fat_of_poultry,7.0
+84,79,Greece,Germany,2005,fat_of_poultry,25.0
+97,104,Hungary,Ireland,2017,fat_of_poultry,20.34
+97,104,Hungary,Ireland,2021,fat_of_poultry,0.15
+183,106,Romania,Italy,2015,fat_of_poultry,0.1
+183,106,Romania,Italy,2016,fat_of_poultry,0.75
+183,106,Romania,Italy,2017,fat_of_poultry,40.78
+183,106,Romania,Italy,2018,fat_of_poultry,84.0
+183,106,Romania,Italy,2019,fat_of_poultry,0.66
+104,150,Ireland,Netherlands (Kingdom of the),1986,fat_of_poultry,37.0
+104,150,Ireland,Netherlands (Kingdom of the),1987,fat_of_poultry,29.0
+104,150,Ireland,Netherlands (Kingdom of the),1988,fat_of_poultry,24.0
+104,150,Ireland,Netherlands (Kingdom of the),1989,fat_of_poultry,2.0
+97,105,Hungary,Israel,2008,fat_of_poultry,8.0
+97,105,Hungary,Israel,2009,fat_of_poultry,21.0
+97,105,Hungary,Israel,2015,fat_of_poultry,7.9
+97,105,Hungary,Israel,2016,fat_of_poultry,23.61
+97,105,Hungary,Israel,2017,fat_of_poultry,106.52
+97,105,Hungary,Israel,2018,fat_of_poultry,126.13
+97,105,Hungary,Israel,2019,fat_of_poultry,65.47
+97,105,Hungary,Israel,2020,fat_of_poultry,80.09
+97,105,Hungary,Israel,2021,fat_of_poultry,99.81
+97,105,Hungary,Israel,2022,fat_of_poultry,45.7
+97,105,Hungary,Israel,2023,fat_of_poultry,66.8
+173,79,Poland,Germany,1995,fat_of_poultry,2.0
+173,79,Poland,Germany,2002,fat_of_poultry,134.0
+173,79,Poland,Germany,2004,fat_of_poultry,48.0
+173,79,Poland,Germany,2005,fat_of_poultry,6.0
+173,79,Poland,Germany,2006,fat_of_poultry,26.0
+173,79,Poland,Germany,2007,fat_of_poultry,28.0
+173,79,Poland,Germany,2008,fat_of_poultry,175.0
+173,79,Poland,Germany,2009,fat_of_poultry,169.0
+173,79,Poland,Germany,2010,fat_of_poultry,148.0
+173,79,Poland,Germany,2011,fat_of_poultry,276.0
+173,79,Poland,Germany,2012,fat_of_poultry,281.0
+173,79,Poland,Germany,2013,fat_of_poultry,1333.0
+173,79,Poland,Germany,2014,fat_of_poultry,323.4
+173,79,Poland,Germany,2015,fat_of_poultry,309.8
+173,79,Poland,Germany,2016,fat_of_poultry,796.61
+173,79,Poland,Germany,2017,fat_of_poultry,1770.79
+173,79,Poland,Germany,2018,fat_of_poultry,3261.76
+173,79,Poland,Germany,2019,fat_of_poultry,3068.62
+173,79,Poland,Germany,2020,fat_of_poultry,1723.93
+173,79,Poland,Germany,2021,fat_of_poultry,167.77
+173,79,Poland,Germany,2022,fat_of_poultry,2475.69
+173,79,Poland,Germany,2023,fat_of_poultry,3216.38
+211,68,Switzerland,France,2016,fat_of_poultry,0.16
+211,68,Switzerland,France,2017,fat_of_poultry,0.09
+211,68,Switzerland,France,2018,fat_of_poultry,0.07
+214,127,"China, Taiwan Province of",Marshall Islands,2014,fat_of_poultry,0.1
+216,79,Thailand,Germany,2015,fat_of_poultry,0.75
+165,229,Pakistan,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,0.5
+171,200,Philippines,Singapore,2023,fat_of_poultry,27.72
+106,96,Italy,"China, Hong Kong SAR",2012,fat_of_poultry,10.0
+106,96,Italy,"China, Hong Kong SAR",2021,fat_of_poultry,0.92
+203,98,Spain,Croatia,2022,fat_of_poultry,16.46
+185,113,Russian Federation,Kyrgyzstan,2021,fat_of_poultry,7.35
+54,79,Denmark,Germany,1998,fat_of_poultry,24.0
+54,79,Denmark,Germany,1999,fat_of_poultry,43.0
+54,79,Denmark,Germany,2016,fat_of_poultry,5.0
+68,33,France,Canada,2011,fat_of_poultry,1.0
+68,33,France,Canada,2013,fat_of_poultry,5.0
+68,33,France,Canada,2014,fat_of_poultry,35.3
+68,33,France,Canada,2015,fat_of_poultry,5.4
+68,33,France,Canada,2016,fat_of_poultry,31.3
+68,33,France,Canada,2017,fat_of_poultry,9.6
+68,33,France,Canada,2018,fat_of_poultry,3.0
+68,33,France,Canada,2020,fat_of_poultry,0.89
+9,117,Argentina,Republic of Korea,1997,fat_of_poultry,15.0
+33,58,Canada,Ecuador,2013,fat_of_poultry,46.0
+97,106,Hungary,Italy,2004,fat_of_poultry,1.0
+97,106,Hungary,Italy,2007,fat_of_poultry,2.0
+97,106,Hungary,Italy,2010,fat_of_poultry,1.0
+97,106,Hungary,Italy,2015,fat_of_poultry,0.7
+97,106,Hungary,Italy,2016,fat_of_poultry,0.3
+97,106,Hungary,Italy,2017,fat_of_poultry,1.16
+97,106,Hungary,Italy,2018,fat_of_poultry,1.29
+97,106,Hungary,Italy,2019,fat_of_poultry,2.69
+97,106,Hungary,Italy,2020,fat_of_poultry,2.02
+97,106,Hungary,Italy,2021,fat_of_poultry,2.71
+97,106,Hungary,Italy,2022,fat_of_poultry,2.56
+97,106,Hungary,Italy,2023,fat_of_poultry,1.32
+202,81,South Africa,Ghana,2012,fat_of_poultry,17.0
+202,81,South Africa,Ghana,2013,fat_of_poultry,18.0
+202,81,South Africa,Ghana,2014,fat_of_poultry,0.65
+15,203,Belgium-Luxembourg,Spain,1998,fat_of_poultry,23.0
+203,49,Spain,Cuba,2014,fat_of_poultry,47.5
+203,49,Spain,Cuba,2015,fat_of_poultry,42.6
+203,49,Spain,Cuba,2016,fat_of_poultry,9.43
+203,49,Spain,Cuba,2018,fat_of_poultry,0.3
+203,49,Spain,Cuba,2020,fat_of_poultry,17.14
+203,49,Spain,Cuba,2021,fat_of_poultry,14.34
+203,49,Spain,Cuba,2022,fat_of_poultry,20.88
+11,79,Austria,Germany,1995,fat_of_poultry,2.0
+11,79,Austria,Germany,1996,fat_of_poultry,4.0
+11,79,Austria,Germany,1997,fat_of_poultry,6.0
+11,79,Austria,Germany,1998,fat_of_poultry,4.0
+11,79,Austria,Germany,1999,fat_of_poultry,4.0
+11,79,Austria,Germany,2000,fat_of_poultry,9.0
+11,79,Austria,Germany,2001,fat_of_poultry,4.0
+11,79,Austria,Germany,2002,fat_of_poultry,5.0
+11,79,Austria,Germany,2003,fat_of_poultry,3.0
+11,79,Austria,Germany,2009,fat_of_poultry,8.0
+11,79,Austria,Germany,2012,fat_of_poultry,3.0
+11,79,Austria,Germany,2013,fat_of_poultry,4.0
+11,79,Austria,Germany,2014,fat_of_poultry,2.2
+11,79,Austria,Germany,2015,fat_of_poultry,10.2
+11,79,Austria,Germany,2016,fat_of_poultry,17.94
+11,79,Austria,Germany,2017,fat_of_poultry,20.6
+11,79,Austria,Germany,2018,fat_of_poultry,7.7
+11,79,Austria,Germany,2019,fat_of_poultry,3.84
+11,79,Austria,Germany,2020,fat_of_poultry,5.29
+11,79,Austria,Germany,2021,fat_of_poultry,6.13
+11,79,Austria,Germany,2022,fat_of_poultry,3.71
+198,273,Slovenia,Montenegro,2017,fat_of_poultry,0.04
+198,273,Slovenia,Montenegro,2019,fat_of_poultry,0.02
+198,273,Slovenia,Montenegro,2020,fat_of_poultry,0.02
+198,273,Slovenia,Montenegro,2021,fat_of_poultry,0.02
+198,273,Slovenia,Montenegro,2022,fat_of_poultry,0.01
+126,173,Lithuania,Poland,2014,fat_of_poultry,1.1
+126,173,Lithuania,Poland,2017,fat_of_poultry,2.23
+126,173,Lithuania,Poland,2018,fat_of_poultry,955.33
+126,173,Lithuania,Poland,2020,fat_of_poultry,7.31
+126,173,Lithuania,Poland,2021,fat_of_poultry,8.29
+126,173,Lithuania,Poland,2022,fat_of_poultry,6.63
+126,173,Lithuania,Poland,2023,fat_of_poultry,24.44
+106,41,Italy,"China, mainland",2016,fat_of_poultry,25.0
+106,41,Italy,"China, mainland",2019,fat_of_poultry,25.0
+106,41,Italy,"China, mainland",2020,fat_of_poultry,95.17
+231,40,United States of America,Chile,2012,fat_of_poultry,55.0
+231,40,United States of America,Chile,2014,fat_of_poultry,283.74
+231,40,United States of America,Chile,2018,fat_of_poultry,24.95
+203,50,Spain,Cyprus,2012,fat_of_poultry,21.0
+203,50,Spain,Cyprus,2016,fat_of_poultry,64.25
+225,131,United Arab Emirates,Malaysia,2016,fat_of_poultry,0.04
+255,68,Belgium,France,2001,fat_of_poultry,2.0
+255,68,Belgium,France,2003,fat_of_poultry,1.0
+255,68,Belgium,France,2004,fat_of_poultry,1.0
+255,68,Belgium,France,2008,fat_of_poultry,2.0
+255,68,Belgium,France,2012,fat_of_poultry,22.0
+255,68,Belgium,France,2014,fat_of_poultry,23.0
+255,68,Belgium,France,2015,fat_of_poultry,30.4
+255,68,Belgium,France,2016,fat_of_poultry,19.8
+255,68,Belgium,France,2017,fat_of_poultry,22.54
+255,68,Belgium,France,2018,fat_of_poultry,18.4
+255,68,Belgium,France,2019,fat_of_poultry,15.93
+255,68,Belgium,France,2020,fat_of_poultry,14.39
+255,68,Belgium,France,2021,fat_of_poultry,3.05
+255,68,Belgium,France,2022,fat_of_poultry,0.8
+79,96,Germany,"China, Hong Kong SAR",2011,fat_of_poultry,47.0
+119,210,Latvia,Sweden,2021,fat_of_poultry,0.03
+119,210,Latvia,Sweden,2022,fat_of_poultry,0.06
+119,210,Latvia,Sweden,2023,fat_of_poultry,0.04
+97,110,Hungary,Japan,2014,fat_of_poultry,0.2
+97,110,Hungary,Japan,2015,fat_of_poultry,0.03
+97,110,Hungary,Japan,2016,fat_of_poultry,0.3
+97,110,Hungary,Japan,2017,fat_of_poultry,1.25
+97,110,Hungary,Japan,2018,fat_of_poultry,3.51
+97,110,Hungary,Japan,2019,fat_of_poultry,1.05
+97,110,Hungary,Japan,2020,fat_of_poultry,1.96
+97,110,Hungary,Japan,2021,fat_of_poultry,1.93
+97,110,Hungary,Japan,2022,fat_of_poultry,1.3
+97,110,Hungary,Japan,2023,fat_of_poultry,0.25
+173,84,Poland,Greece,2015,fat_of_poultry,0.1
+173,84,Poland,Greece,2022,fat_of_poultry,1.87
+203,167,Spain,Czechia,2012,fat_of_poultry,23.0
+203,167,Spain,Czechia,2015,fat_of_poultry,11.7
+203,167,Spain,Czechia,2016,fat_of_poultry,12.26
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2016,fat_of_poultry,1.68
+183,134,Romania,Malta,2018,fat_of_poultry,21.0
+183,134,Romania,Malta,2019,fat_of_poultry,0.07
+27,183,Bulgaria,Romania,2015,fat_of_poultry,5.8
+27,183,Bulgaria,Romania,2016,fat_of_poultry,1.2
+27,183,Bulgaria,Romania,2022,fat_of_poultry,0.52
+27,183,Bulgaria,Romania,2023,fat_of_poultry,0.21
+59,249,Egypt,Yemen,2003,fat_of_poultry,9.0
+216,100,Thailand,India,2017,fat_of_poultry,2.02
+216,100,Thailand,India,2020,fat_of_poultry,0.03
+104,171,Ireland,Philippines,2019,fat_of_poultry,5.05
+104,171,Ireland,Philippines,2021,fat_of_poultry,6.52
+104,171,Ireland,Philippines,2022,fat_of_poultry,28.17
+104,171,Ireland,Philippines,2023,fat_of_poultry,11.34
+98,198,Croatia,Slovenia,2016,fat_of_poultry,0.72
+98,198,Croatia,Slovenia,2017,fat_of_poultry,0.85
+98,198,Croatia,Slovenia,2018,fat_of_poultry,0.02
+97,119,Hungary,Latvia,2021,fat_of_poultry,1.14
+231,96,United States of America,"China, Hong Kong SAR",2015,fat_of_poultry,104.68
+231,96,United States of America,"China, Hong Kong SAR",2018,fat_of_poultry,0.86
+10,110,Australia,Japan,2020,fat_of_poultry,25.6
+211,79,Switzerland,Germany,2014,fat_of_poultry,0.29
+211,79,Switzerland,Germany,2021,fat_of_poultry,0.04
+150,96,Netherlands (Kingdom of the),"China, Hong Kong SAR",2014,fat_of_poultry,0.03
+150,96,Netherlands (Kingdom of the),"China, Hong Kong SAR",2018,fat_of_poultry,0.01
+21,110,Brazil,Japan,2016,fat_of_poultry,2.97
+21,110,Brazil,Japan,2017,fat_of_poultry,27.0
+126,185,Lithuania,Russian Federation,2004,fat_of_poultry,60.0
+126,185,Lithuania,Russian Federation,2005,fat_of_poultry,200.0
+173,97,Poland,Hungary,2012,fat_of_poultry,124.0
+173,97,Poland,Hungary,2014,fat_of_poultry,83.1
+173,97,Poland,Hungary,2015,fat_of_poultry,0.1
+173,97,Poland,Hungary,2016,fat_of_poultry,33.89
+173,97,Poland,Hungary,2017,fat_of_poultry,240.16
+173,97,Poland,Hungary,2020,fat_of_poultry,57.18
+173,97,Poland,Hungary,2021,fat_of_poultry,0.3
+173,97,Poland,Hungary,2022,fat_of_poultry,23.9
+173,97,Poland,Hungary,2023,fat_of_poultry,323.39
+68,96,France,"China, Hong Kong SAR",2014,fat_of_poultry,0.2
+68,96,France,"China, Hong Kong SAR",2016,fat_of_poultry,0.01
+68,96,France,"China, Hong Kong SAR",2018,fat_of_poultry,0.1
+68,96,France,"China, Hong Kong SAR",2019,fat_of_poultry,0.03
+68,96,France,"China, Hong Kong SAR",2020,fat_of_poultry,50.0
+68,96,France,"China, Hong Kong SAR",2021,fat_of_poultry,25.76
+33,68,Canada,France,2021,fat_of_poultry,0.09
+174,106,Portugal,Italy,2019,fat_of_poultry,1.1
+174,106,Portugal,Italy,2020,fat_of_poultry,48.34
+174,106,Portugal,Italy,2021,fat_of_poultry,129.84
+174,106,Portugal,Italy,2022,fat_of_poultry,222.78
+174,106,Portugal,Italy,2023,fat_of_poultry,251.5
+104,174,Ireland,Portugal,2017,fat_of_poultry,316.86
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2021,fat_of_poultry,0.16
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1992,fat_of_poultry,11.0
+203,54,Spain,Denmark,1994,fat_of_poultry,20.0
+203,54,Spain,Denmark,2012,fat_of_poultry,917.0
+203,54,Spain,Denmark,2013,fat_of_poultry,764.0
+203,54,Spain,Denmark,2014,fat_of_poultry,821.3
+203,54,Spain,Denmark,2015,fat_of_poultry,968.1
+203,54,Spain,Denmark,2016,fat_of_poultry,564.69
+203,54,Spain,Denmark,2023,fat_of_poultry,24.72
+106,107,Italy,Côte d'Ivoire,2020,fat_of_poultry,43.23
+21,112,Brazil,Jordan,2023,fat_of_poultry,75.24
+97,134,Hungary,Malta,2014,fat_of_poultry,1.3
+97,134,Hungary,Malta,2015,fat_of_poultry,0.6
+97,134,Hungary,Malta,2016,fat_of_poultry,1.57
+84,106,Greece,Italy,2015,fat_of_poultry,0.2
+84,106,Greece,Italy,2021,fat_of_poultry,0.14
+171,229,Philippines,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,49.36
+255,73,Belgium,Georgia,2007,fat_of_poultry,425.0
+255,73,Belgium,Georgia,2008,fat_of_poultry,75.0
+131,123,Malaysia,Liberia,2015,fat_of_poultry,0.53
+131,123,Malaysia,Liberia,2017,fat_of_poultry,1.77
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,0.01
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,0.44
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,0.92
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.64
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,0.41
+167,126,Czechia,Lithuania,2011,fat_of_poultry,25.0
+150,41,Netherlands (Kingdom of the),"China, mainland",2017,fat_of_poultry,24.97
+150,41,Netherlands (Kingdom of the),"China, mainland",2020,fat_of_poultry,82.07
+150,41,Netherlands (Kingdom of the),"China, mainland",2021,fat_of_poultry,72.56
+150,41,Netherlands (Kingdom of the),"China, mainland",2022,fat_of_poultry,26.74
+150,41,Netherlands (Kingdom of the),"China, mainland",2023,fat_of_poultry,27.0
+106,98,Italy,Croatia,2014,fat_of_poultry,0.11
+106,98,Italy,Croatia,2015,fat_of_poultry,0.2
+106,98,Italy,Croatia,2016,fat_of_poultry,0.02
+106,98,Italy,Croatia,2019,fat_of_poultry,0.01
+10,83,Australia,Kiribati,2012,fat_of_poultry,9.0
+68,41,France,"China, mainland",2012,fat_of_poultry,24.0
+68,41,France,"China, mainland",2014,fat_of_poultry,23.8
+68,41,France,"China, mainland",2015,fat_of_poultry,23.9
+68,41,France,"China, mainland",2016,fat_of_poultry,25.0
+68,41,France,"China, mainland",2019,fat_of_poultry,25.0
+104,194,Ireland,Saudi Arabia,1990,fat_of_poultry,5.0
+21,123,Brazil,Liberia,2019,fat_of_poultry,0.04
+21,123,Brazil,Liberia,2021,fat_of_poultry,0.04
+171,231,Philippines,United States of America,2023,fat_of_poultry,321.7
+255,79,Belgium,Germany,2003,fat_of_poultry,1.0
+255,79,Belgium,Germany,2014,fat_of_poultry,11.2
+255,79,Belgium,Germany,2015,fat_of_poultry,120.8
+255,79,Belgium,Germany,2016,fat_of_poultry,112.0
+255,79,Belgium,Germany,2017,fat_of_poultry,99.08
+255,79,Belgium,Germany,2018,fat_of_poultry,70.56
+255,79,Belgium,Germany,2019,fat_of_poultry,116.53
+255,79,Belgium,Germany,2020,fat_of_poultry,156.38
+255,79,Belgium,Germany,2021,fat_of_poultry,4.16
+255,79,Belgium,Germany,2022,fat_of_poultry,5.51
+255,79,Belgium,Germany,2023,fat_of_poultry,11.32
+225,221,United Arab Emirates,Oman,2015,fat_of_poultry,5.13
+225,221,United Arab Emirates,Oman,2016,fat_of_poultry,0.49
+225,221,United Arab Emirates,Oman,2017,fat_of_poultry,0.01
+225,221,United Arab Emirates,Oman,2018,fat_of_poultry,0.06
+225,221,United Arab Emirates,Oman,2021,fat_of_poultry,1.61
+97,150,Hungary,Netherlands (Kingdom of the),2004,fat_of_poultry,19.0
+231,41,United States of America,"China, mainland",2013,fat_of_poultry,609.0
+231,41,United States of America,"China, mainland",2014,fat_of_poultry,355.91
+231,41,United States of America,"China, mainland",2023,fat_of_poultry,79.48
+183,173,Romania,Poland,2011,fat_of_poultry,24.0
+183,173,Romania,Poland,2023,fat_of_poultry,5.02
+11,97,Austria,Hungary,2003,fat_of_poultry,12.0
+11,97,Austria,Hungary,2004,fat_of_poultry,62.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1993,fat_of_poultry,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1994,fat_of_poultry,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1996,fat_of_poultry,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1997,fat_of_poultry,93.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1998,fat_of_poultry,3.0
+216,106,Thailand,Italy,2018,fat_of_poultry,0.02
+40,234,Chile,Uruguay,2013,fat_of_poultry,23.0
+173,104,Poland,Ireland,2012,fat_of_poultry,1.0
+173,104,Poland,Ireland,2013,fat_of_poultry,2.0
+173,104,Poland,Ireland,2014,fat_of_poultry,0.2
+173,104,Poland,Ireland,2015,fat_of_poultry,1.8
+173,104,Poland,Ireland,2016,fat_of_poultry,0.91
+173,104,Poland,Ireland,2017,fat_of_poultry,1.72
+173,104,Poland,Ireland,2018,fat_of_poultry,1.88
+173,104,Poland,Ireland,2019,fat_of_poultry,1.44
+173,104,Poland,Ireland,2020,fat_of_poultry,1.65
+173,104,Poland,Ireland,2021,fat_of_poultry,1.03
+173,104,Poland,Ireland,2022,fat_of_poultry,0.89
+173,104,Poland,Ireland,2023,fat_of_poultry,0.85
+225,165,United Arab Emirates,Pakistan,2017,fat_of_poultry,0.41
+225,165,United Arab Emirates,Pakistan,2018,fat_of_poultry,0.33
+225,165,United Arab Emirates,Pakistan,2019,fat_of_poultry,0.06
+198,272,Slovenia,Serbia,2023,fat_of_poultry,20.91
+27,203,Bulgaria,Spain,2017,fat_of_poultry,0.48
+27,203,Bulgaria,Spain,2018,fat_of_poultry,1.36
+27,203,Bulgaria,Spain,2019,fat_of_poultry,0.65
+27,203,Bulgaria,Spain,2020,fat_of_poultry,5.17
+27,203,Bulgaria,Spain,2021,fat_of_poultry,29.15
+27,203,Bulgaria,Spain,2022,fat_of_poultry,16.84
+27,203,Bulgaria,Spain,2023,fat_of_poultry,13.07
+68,214,France,"China, Taiwan Province of",2011,fat_of_poultry,2.0
+21,127,Brazil,Marshall Islands,2019,fat_of_poultry,0.09
+21,127,Brazil,Marshall Islands,2020,fat_of_poultry,0.01
+41,103,"China, mainland",Iraq,2012,fat_of_poultry,2.0
+97,162,Hungary,Norway,2018,fat_of_poultry,0.41
+216,110,Thailand,Japan,2014,fat_of_poultry,0.98
+216,110,Thailand,Japan,2016,fat_of_poultry,47.94
+216,110,Thailand,Japan,2017,fat_of_poultry,24.29
+216,110,Thailand,Japan,2018,fat_of_poultry,1.0
+216,110,Thailand,Japan,2019,fat_of_poultry,0.29
+216,110,Thailand,Japan,2020,fat_of_poultry,2.19
+216,110,Thailand,Japan,2022,fat_of_poultry,194.27
+216,110,Thailand,Japan,2023,fat_of_poultry,418.96
+255,81,Belgium,Ghana,2021,fat_of_poultry,4.65
+126,230,Lithuania,Ukraine,2020,fat_of_poultry,102.0
+150,46,Netherlands (Kingdom of the),Congo,2016,fat_of_poultry,0.04
+173,106,Poland,Italy,2010,fat_of_poultry,1.0
+173,106,Poland,Italy,2012,fat_of_poultry,13.0
+173,106,Poland,Italy,2015,fat_of_poultry,86.0
+173,106,Poland,Italy,2017,fat_of_poultry,49.26
+173,106,Poland,Italy,2018,fat_of_poultry,308.3
+173,106,Poland,Italy,2020,fat_of_poultry,91.89
+173,106,Poland,Italy,2021,fat_of_poultry,33.2
+173,106,Poland,Italy,2022,fat_of_poultry,39.62
+173,106,Poland,Italy,2023,fat_of_poultry,1.62
+203,61,Spain,Equatorial Guinea,2017,fat_of_poultry,0.36
+231,214,United States of America,"China, Taiwan Province of",2013,fat_of_poultry,236.0
+231,214,United States of America,"China, Taiwan Province of",2015,fat_of_poultry,26.0
+231,214,United States of America,"China, Taiwan Province of",2016,fat_of_poultry,143.7
+106,167,Italy,Czechia,2014,fat_of_poultry,0.08
+106,167,Italy,Czechia,2016,fat_of_poultry,21.31
+106,167,Italy,Czechia,2021,fat_of_poultry,92.43
+106,167,Italy,Czechia,2022,fat_of_poultry,57.64
+106,167,Italy,Czechia,2023,fat_of_poultry,20.8
+174,144,Portugal,Mozambique,2014,fat_of_poultry,0.2
+225,179,United Arab Emirates,Qatar,2014,fat_of_poultry,2.27
+27,223,Bulgaria,Türkiye,2020,fat_of_poultry,3.07
+97,173,Hungary,Poland,2008,fat_of_poultry,21.0
+97,173,Hungary,Poland,2018,fat_of_poultry,25.52
+97,173,Hungary,Poland,2019,fat_of_poultry,11.36
+97,173,Hungary,Poland,2020,fat_of_poultry,16.61
+97,173,Hungary,Poland,2021,fat_of_poultry,68.43
+97,173,Hungary,Poland,2022,fat_of_poultry,131.15
+97,173,Hungary,Poland,2023,fat_of_poultry,354.1
+68,46,France,Congo,2015,fat_of_poultry,0.1
+68,46,France,Congo,2016,fat_of_poultry,0.24
+68,46,France,Congo,2017,fat_of_poultry,0.21
+68,46,France,Congo,2021,fat_of_poultry,0.26
+104,211,Ireland,Switzerland,1996,fat_of_poultry,7.0
+104,211,Ireland,Switzerland,1997,fat_of_poultry,5.0
+10,132,Australia,Maldives,2023,fat_of_poultry,0.02
+126,229,Lithuania,United Kingdom of Great Britain and Northern Ireland,2012,fat_of_poultry,2.0
+126,229,Lithuania,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,1.0
+126,229,Lithuania,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.01
+126,229,Lithuania,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,0.05
+126,229,Lithuania,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,0.02
+203,63,Spain,Estonia,2014,fat_of_poultry,5.0
+203,63,Spain,Estonia,2016,fat_of_poultry,67.36
+202,122,South Africa,Lesotho,2013,fat_of_poultry,4.0
+202,122,South Africa,Lesotho,2014,fat_of_poultry,103.34
+202,122,South Africa,Lesotho,2015,fat_of_poultry,6.1
+202,122,South Africa,Lesotho,2016,fat_of_poultry,2.4
+202,122,South Africa,Lesotho,2017,fat_of_poultry,1.89
+202,122,South Africa,Lesotho,2019,fat_of_poultry,6.0
+202,122,South Africa,Lesotho,2020,fat_of_poultry,31.46
+202,122,South Africa,Lesotho,2023,fat_of_poultry,1.8
+203,67,Spain,Finland,2012,fat_of_poultry,28.0
+173,108,Poland,Kazakhstan,2007,fat_of_poultry,77.0
+173,108,Poland,Kazakhstan,2013,fat_of_poultry,40.0
+225,194,United Arab Emirates,Saudi Arabia,2017,fat_of_poultry,0.05
+225,194,United Arab Emirates,Saudi Arabia,2018,fat_of_poultry,0.06
+225,194,United Arab Emirates,Saudi Arabia,2022,fat_of_poultry,0.1
+150,98,Netherlands (Kingdom of the),Croatia,2012,fat_of_poultry,108.0
+150,98,Netherlands (Kingdom of the),Croatia,2016,fat_of_poultry,36.87
+150,98,Netherlands (Kingdom of the),Croatia,2017,fat_of_poultry,82.85
+150,98,Netherlands (Kingdom of the),Croatia,2018,fat_of_poultry,84.56
+150,98,Netherlands (Kingdom of the),Croatia,2019,fat_of_poultry,13.9
+150,98,Netherlands (Kingdom of the),Croatia,2022,fat_of_poultry,0.04
+150,98,Netherlands (Kingdom of the),Croatia,2023,fat_of_poultry,0.01
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2009,fat_of_poultry,13.0
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.07
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,0.27
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,0.45
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.71
+27,229,Bulgaria,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,0.79
+126,235,Lithuania,Uzbekistan,2011,fat_of_poultry,135.0
+183,198,Romania,Slovenia,2023,fat_of_poultry,62.67
+97,146,Hungary,Republic of Moldova,2013,fat_of_poultry,44.0
+104,225,Ireland,United Arab Emirates,2017,fat_of_poultry,25.01
+21,162,Brazil,Norway,2022,fat_of_poultry,0.01
+231,44,United States of America,Colombia,2012,fat_of_poultry,79.0
+231,44,United States of America,Colombia,2016,fat_of_poultry,160.38
+231,44,United States of America,Colombia,2017,fat_of_poultry,231.75
+231,44,United States of America,Colombia,2018,fat_of_poultry,9.71
+231,44,United States of America,Colombia,2020,fat_of_poultry,73.5
+106,54,Italy,Denmark,2016,fat_of_poultry,0.01
+216,120,Thailand,Lao People's Democratic Republic,2014,fat_of_poultry,0.02
+216,120,Thailand,Lao People's Democratic Republic,2017,fat_of_poultry,1.06
+216,120,Thailand,Lao People's Democratic Republic,2018,fat_of_poultry,0.01
+84,150,Greece,Netherlands (Kingdom of the),1999,fat_of_poultry,42.0
+84,150,Greece,Netherlands (Kingdom of the),2000,fat_of_poultry,43.0
+84,150,Greece,Netherlands (Kingdom of the),2001,fat_of_poultry,93.0
+84,150,Greece,Netherlands (Kingdom of the),2002,fat_of_poultry,58.0
+84,150,Greece,Netherlands (Kingdom of the),2003,fat_of_poultry,188.0
+84,150,Greece,Netherlands (Kingdom of the),2004,fat_of_poultry,107.0
+84,150,Greece,Netherlands (Kingdom of the),2005,fat_of_poultry,89.0
+167,173,Czechia,Poland,2023,fat_of_poultry,0.02
+10,148,Australia,Nauru,2018,fat_of_poultry,6.0
+173,119,Poland,Latvia,2014,fat_of_poultry,13.8
+173,119,Poland,Latvia,2015,fat_of_poultry,16.5
+173,119,Poland,Latvia,2021,fat_of_poultry,0.01
+183,203,Romania,Spain,2012,fat_of_poultry,1.0
+183,203,Romania,Spain,2013,fat_of_poultry,2.0
+183,203,Romania,Spain,2014,fat_of_poultry,1.9
+183,203,Romania,Spain,2015,fat_of_poultry,1.4
+183,203,Romania,Spain,2016,fat_of_poultry,13.98
+183,203,Romania,Spain,2017,fat_of_poultry,20.28
+183,203,Romania,Spain,2018,fat_of_poultry,15.46
+183,203,Romania,Spain,2019,fat_of_poultry,0.44
+183,203,Romania,Spain,2020,fat_of_poultry,0.01
+202,130,South Africa,Malawi,2015,fat_of_poultry,0.22
+202,130,South Africa,Malawi,2016,fat_of_poultry,10.08
+202,130,South Africa,Malawi,2017,fat_of_poultry,0.79
+97,183,Hungary,Romania,2005,fat_of_poultry,2.0
+97,183,Hungary,Romania,2006,fat_of_poultry,20.0
+97,183,Hungary,Romania,2007,fat_of_poultry,22.0
+97,183,Hungary,Romania,2008,fat_of_poultry,88.0
+97,183,Hungary,Romania,2009,fat_of_poultry,8.0
+97,183,Hungary,Romania,2010,fat_of_poultry,9.0
+97,183,Hungary,Romania,2011,fat_of_poultry,6.0
+97,183,Hungary,Romania,2012,fat_of_poultry,7.0
+97,183,Hungary,Romania,2013,fat_of_poultry,7.0
+97,183,Hungary,Romania,2014,fat_of_poultry,6.3
+97,183,Hungary,Romania,2015,fat_of_poultry,12.2
+97,183,Hungary,Romania,2016,fat_of_poultry,12.49
+97,183,Hungary,Romania,2017,fat_of_poultry,11.84
+97,183,Hungary,Romania,2018,fat_of_poultry,18.48
+97,183,Hungary,Romania,2019,fat_of_poultry,18.55
+97,183,Hungary,Romania,2020,fat_of_poultry,18.28
+97,183,Hungary,Romania,2021,fat_of_poultry,23.29
+97,183,Hungary,Romania,2022,fat_of_poultry,13.38
+97,183,Hungary,Romania,2023,fat_of_poultry,11.56
+21,166,Brazil,Panama,2018,fat_of_poultry,0.08
+21,166,Brazil,Panama,2019,fat_of_poultry,0.11
+21,166,Brazil,Panama,2020,fat_of_poultry,0.09
+131,166,Malaysia,Panama,2017,fat_of_poultry,0.46
+225,196,United Arab Emirates,Seychelles,2017,fat_of_poultry,1.09
+225,196,United Arab Emirates,Seychelles,2019,fat_of_poultry,0.35
+225,196,United Arab Emirates,Seychelles,2020,fat_of_poultry,0.32
+225,196,United Arab Emirates,Seychelles,2021,fat_of_poultry,0.72
+225,196,United Arab Emirates,Seychelles,2023,fat_of_poultry,0.25
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2015,fat_of_poultry,0.02
+11,106,Austria,Italy,2014,fat_of_poultry,0.08
+11,106,Austria,Italy,2015,fat_of_poultry,0.02
+11,106,Austria,Italy,2016,fat_of_poultry,0.12
+11,106,Austria,Italy,2017,fat_of_poultry,0.01
+11,106,Austria,Italy,2018,fat_of_poultry,0.02
+11,106,Austria,Italy,2019,fat_of_poultry,0.07
+11,106,Austria,Italy,2020,fat_of_poultry,0.17
+11,106,Austria,Italy,2022,fat_of_poultry,0.01
+185,208,Russian Federation,Tajikistan,2012,fat_of_poultry,6.0
+185,208,Russian Federation,Tajikistan,2013,fat_of_poultry,1.0
+68,98,France,Croatia,2014,fat_of_poultry,0.1
+68,98,France,Croatia,2015,fat_of_poultry,0.03
+68,98,France,Croatia,2016,fat_of_poultry,0.09
+68,98,France,Croatia,2017,fat_of_poultry,30.04
+68,98,France,Croatia,2018,fat_of_poultry,0.09
+68,98,France,Croatia,2019,fat_of_poultry,0.01
+68,98,France,Croatia,2020,fat_of_poultry,0.03
+68,98,France,Croatia,2021,fat_of_poultry,3.23
+68,98,France,Croatia,2022,fat_of_poultry,21.75
+68,98,France,Croatia,2023,fat_of_poultry,0.27
+203,68,Spain,France,1987,fat_of_poultry,3.0
+203,68,Spain,France,1989,fat_of_poultry,1.0
+203,68,Spain,France,1990,fat_of_poultry,13.0
+203,68,Spain,France,1991,fat_of_poultry,5.0
+203,68,Spain,France,1997,fat_of_poultry,40.0
+203,68,Spain,France,1998,fat_of_poultry,18.0
+203,68,Spain,France,2001,fat_of_poultry,1.0
+203,68,Spain,France,2004,fat_of_poultry,98.0
+203,68,Spain,France,2012,fat_of_poultry,4653.0
+203,68,Spain,France,2013,fat_of_poultry,5588.0
+203,68,Spain,France,2014,fat_of_poultry,6774.5
+203,68,Spain,France,2015,fat_of_poultry,3420.4
+203,68,Spain,France,2016,fat_of_poultry,2423.62
+203,68,Spain,France,2017,fat_of_poultry,0.07
+203,68,Spain,France,2018,fat_of_poultry,0.99
+203,68,Spain,France,2019,fat_of_poultry,46.12
+203,68,Spain,France,2020,fat_of_poultry,8.95
+203,68,Spain,France,2021,fat_of_poultry,15.14
+203,68,Spain,France,2022,fat_of_poultry,8.95
+203,68,Spain,France,2023,fat_of_poultry,13.34
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,fat_of_poultry,30.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1992,fat_of_poultry,42.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1993,fat_of_poultry,13.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1994,fat_of_poultry,9.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1998,fat_of_poultry,3.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2000,fat_of_poultry,2.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2001,fat_of_poultry,4.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2011,fat_of_poultry,1.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,1.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,0.05
+255,100,Belgium,India,2016,fat_of_poultry,0.3
+225,201,United Arab Emirates,Somalia,2014,fat_of_poultry,4.74
+225,201,United Arab Emirates,Somalia,2015,fat_of_poultry,6.24
+150,50,Netherlands (Kingdom of the),Cyprus,2017,fat_of_poultry,0.01
+150,50,Netherlands (Kingdom of the),Cyprus,2018,fat_of_poultry,0.05
+150,50,Netherlands (Kingdom of the),Cyprus,2019,fat_of_poultry,0.06
+150,50,Netherlands (Kingdom of the),Cyprus,2022,fat_of_poultry,0.02
+150,50,Netherlands (Kingdom of the),Cyprus,2023,fat_of_poultry,0.01
+183,210,Romania,Sweden,2017,fat_of_poultry,0.61
+183,210,Romania,Sweden,2018,fat_of_poultry,0.02
+183,210,Romania,Sweden,2023,fat_of_poultry,21.03
+211,106,Switzerland,Italy,2016,fat_of_poultry,0.11
+231,48,United States of America,Costa Rica,2016,fat_of_poultry,20.71
+231,48,United States of America,Costa Rica,2018,fat_of_poultry,101.75
+231,48,United States of America,Costa Rica,2019,fat_of_poultry,20.94
+97,185,Hungary,Russian Federation,2012,fat_of_poultry,21.0
+97,185,Hungary,Russian Federation,2013,fat_of_poultry,1.0
+202,132,South Africa,Maldives,2017,fat_of_poultry,0.01
+173,126,Poland,Lithuania,2012,fat_of_poultry,143.0
+173,126,Poland,Lithuania,2013,fat_of_poultry,242.0
+173,126,Poland,Lithuania,2014,fat_of_poultry,22.0
+173,126,Poland,Lithuania,2015,fat_of_poultry,54.2
+173,126,Poland,Lithuania,2016,fat_of_poultry,8.37
+173,126,Poland,Lithuania,2017,fat_of_poultry,0.04
+173,126,Poland,Lithuania,2018,fat_of_poultry,1.17
+173,126,Poland,Lithuania,2020,fat_of_poultry,42.28
+173,126,Poland,Lithuania,2021,fat_of_poultry,4.27
+173,126,Poland,Lithuania,2022,fat_of_poultry,6.38
+173,126,Poland,Lithuania,2023,fat_of_poultry,0.3
+68,50,France,Cyprus,2021,fat_of_poultry,0.01
+174,173,Portugal,Poland,2023,fat_of_poultry,0.15
+185,223,Russian Federation,Türkiye,2021,fat_of_poultry,0.02
+223,118,Türkiye,Kuwait,2014,fat_of_poultry,1.0
+223,118,Türkiye,Kuwait,2015,fat_of_poultry,1.84
+202,133,South Africa,Mali,2017,fat_of_poultry,0.04
+202,133,South Africa,Mali,2018,fat_of_poultry,0.01
+216,131,Thailand,Malaysia,2020,fat_of_poultry,56.01
+216,131,Thailand,Malaysia,2022,fat_of_poultry,78.04
+216,131,Thailand,Malaysia,2023,fat_of_poultry,133.8
+84,154,Greece,North Macedonia,2003,fat_of_poultry,13.0
+84,154,Greece,North Macedonia,2005,fat_of_poultry,13.0
+84,154,Greece,North Macedonia,2006,fat_of_poultry,4.0
+84,154,Greece,North Macedonia,2007,fat_of_poultry,5.0
+84,154,Greece,North Macedonia,2008,fat_of_poultry,10.0
+84,154,Greece,North Macedonia,2009,fat_of_poultry,47.0
+84,154,Greece,North Macedonia,2010,fat_of_poultry,48.0
+84,154,Greece,North Macedonia,2011,fat_of_poultry,18.0
+84,154,Greece,North Macedonia,2012,fat_of_poultry,13.0
+21,171,Brazil,Philippines,2016,fat_of_poultry,162.0
+21,171,Brazil,Philippines,2017,fat_of_poultry,405.0
+21,171,Brazil,Philippines,2020,fat_of_poultry,104.76
+21,171,Brazil,Philippines,2021,fat_of_poultry,272.97
+21,171,Brazil,Philippines,2022,fat_of_poultry,54.0
+21,171,Brazil,Philippines,2023,fat_of_poultry,6642.1
+97,272,Hungary,Serbia,2012,fat_of_poultry,1.0
+97,272,Hungary,Serbia,2014,fat_of_poultry,3.6
+97,272,Hungary,Serbia,2019,fat_of_poultry,2.02
+97,272,Hungary,Serbia,2020,fat_of_poultry,1.1
+97,272,Hungary,Serbia,2021,fat_of_poultry,0.6
+97,272,Hungary,Serbia,2022,fat_of_poultry,0.05
+97,272,Hungary,Serbia,2023,fat_of_poultry,2.62
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1986,fat_of_poultry,21.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1987,fat_of_poultry,25.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1988,fat_of_poultry,15.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1990,fat_of_poultry,47.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1991,fat_of_poultry,18.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1992,fat_of_poultry,52.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1993,fat_of_poultry,14.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1999,fat_of_poultry,21.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2000,fat_of_poultry,103.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2001,fat_of_poultry,6.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2002,fat_of_poultry,63.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2004,fat_of_poultry,12.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2005,fat_of_poultry,26.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2017,fat_of_poultry,1333.57
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2018,fat_of_poultry,1459.01
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2019,fat_of_poultry,180.31
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2022,fat_of_poultry,0.06
+210,131,Sweden,Malaysia,2019,fat_of_poultry,19.8
+68,167,France,Czechia,2002,fat_of_poultry,84.0
+68,167,France,Czechia,2003,fat_of_poultry,41.0
+68,167,France,Czechia,2007,fat_of_poultry,22.0
+68,167,France,Czechia,2008,fat_of_poultry,32.0
+68,167,France,Czechia,2009,fat_of_poultry,22.0
+68,167,France,Czechia,2012,fat_of_poultry,1.0
+68,167,France,Czechia,2013,fat_of_poultry,7.0
+68,167,France,Czechia,2014,fat_of_poultry,1.7
+68,167,France,Czechia,2015,fat_of_poultry,0.5
+68,167,France,Czechia,2016,fat_of_poultry,0.44
+68,167,France,Czechia,2017,fat_of_poultry,0.34
+68,167,France,Czechia,2018,fat_of_poultry,0.07
+68,167,France,Czechia,2023,fat_of_poultry,12.06
+79,54,Germany,Denmark,1991,fat_of_poultry,4.0
+150,167,Netherlands (Kingdom of the),Czechia,1996,fat_of_poultry,20.0
+150,167,Netherlands (Kingdom of the),Czechia,2012,fat_of_poultry,96.0
+150,167,Netherlands (Kingdom of the),Czechia,2013,fat_of_poultry,105.0
+150,167,Netherlands (Kingdom of the),Czechia,2014,fat_of_poultry,86.9
+150,167,Netherlands (Kingdom of the),Czechia,2015,fat_of_poultry,147.2
+150,167,Netherlands (Kingdom of the),Czechia,2016,fat_of_poultry,109.89
+150,167,Netherlands (Kingdom of the),Czechia,2017,fat_of_poultry,166.38
+150,167,Netherlands (Kingdom of the),Czechia,2018,fat_of_poultry,124.38
+150,167,Netherlands (Kingdom of the),Czechia,2019,fat_of_poultry,63.83
+150,167,Netherlands (Kingdom of the),Czechia,2020,fat_of_poultry,21.66
+150,167,Netherlands (Kingdom of the),Czechia,2021,fat_of_poultry,0.01
+150,167,Netherlands (Kingdom of the),Czechia,2022,fat_of_poultry,1.36
+150,167,Netherlands (Kingdom of the),Czechia,2023,fat_of_poultry,0.71
+97,186,Hungary,Serbia and Montenegro,2005,fat_of_poultry,6.0
+174,193,Portugal,Sao Tome and Principe,2015,fat_of_poultry,0.04
+174,193,Portugal,Sao Tome and Principe,2016,fat_of_poultry,0.06
+174,193,Portugal,Sao Tome and Principe,2020,fat_of_poultry,0.01
+21,174,Brazil,Portugal,2019,fat_of_poultry,0.05
+185,230,Russian Federation,Ukraine,2015,fat_of_poultry,1.06
+185,230,Russian Federation,Ukraine,2016,fat_of_poultry,32.39
+185,230,Russian Federation,Ukraine,2017,fat_of_poultry,63.97
+185,230,Russian Federation,Ukraine,2018,fat_of_poultry,138.49
+185,230,Russian Federation,Ukraine,2019,fat_of_poultry,39.61
+185,230,Russian Federation,Ukraine,2020,fat_of_poultry,9.83
+185,230,Russian Federation,Ukraine,2021,fat_of_poultry,7.93
+10,156,Australia,New Zealand,2023,fat_of_poultry,0.3
+173,134,Poland,Malta,2015,fat_of_poultry,1.4
+106,63,Italy,Estonia,2018,fat_of_poultry,0.04
+106,63,Italy,Estonia,2019,fat_of_poultry,0.11
+106,63,Italy,Estonia,2023,fat_of_poultry,0.01
+97,199,Hungary,Slovakia,2004,fat_of_poultry,447.0
+97,199,Hungary,Slovakia,2005,fat_of_poultry,31.0
+97,199,Hungary,Slovakia,2006,fat_of_poultry,81.0
+97,199,Hungary,Slovakia,2007,fat_of_poultry,82.0
+97,199,Hungary,Slovakia,2008,fat_of_poultry,27.0
+97,199,Hungary,Slovakia,2009,fat_of_poultry,1.0
+97,199,Hungary,Slovakia,2010,fat_of_poultry,1.0
+97,199,Hungary,Slovakia,2011,fat_of_poultry,4.0
+97,199,Hungary,Slovakia,2012,fat_of_poultry,40.0
+97,199,Hungary,Slovakia,2013,fat_of_poultry,22.0
+97,199,Hungary,Slovakia,2014,fat_of_poultry,30.6
+97,199,Hungary,Slovakia,2015,fat_of_poultry,56.3
+97,199,Hungary,Slovakia,2016,fat_of_poultry,156.44
+97,199,Hungary,Slovakia,2017,fat_of_poultry,169.07
+97,199,Hungary,Slovakia,2018,fat_of_poultry,154.68
+97,199,Hungary,Slovakia,2019,fat_of_poultry,147.54
+97,199,Hungary,Slovakia,2020,fat_of_poultry,55.28
+97,199,Hungary,Slovakia,2021,fat_of_poultry,70.35
+97,199,Hungary,Slovakia,2022,fat_of_poultry,31.95
+97,199,Hungary,Slovakia,2023,fat_of_poultry,33.85
+104,231,Ireland,United States of America,2002,fat_of_poultry,19.0
+104,231,Ireland,United States of America,2013,fat_of_poultry,2.0
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,2.6
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,1.19
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,1.65
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.6
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,1.68
+183,229,Romania,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,1.42
+21,117,Brazil,Republic of Korea,2023,fat_of_poultry,4.62
+202,144,South Africa,Mozambique,2012,fat_of_poultry,5.0
+202,144,South Africa,Mozambique,2013,fat_of_poultry,4.0
+202,144,South Africa,Mozambique,2014,fat_of_poultry,10.01
+202,144,South Africa,Mozambique,2016,fat_of_poultry,2.76
+202,144,South Africa,Mozambique,2017,fat_of_poultry,3.55
+202,144,South Africa,Mozambique,2018,fat_of_poultry,4.14
+202,144,South Africa,Mozambique,2019,fat_of_poultry,9.0
+202,144,South Africa,Mozambique,2020,fat_of_poultry,6.02
+202,144,South Africa,Mozambique,2021,fat_of_poultry,97.02
+202,144,South Africa,Mozambique,2022,fat_of_poultry,6.43
+202,144,South Africa,Mozambique,2023,fat_of_poultry,14.15
+203,73,Spain,Georgia,2013,fat_of_poultry,25.0
+203,73,Spain,Georgia,2014,fat_of_poultry,24.9
+150,116,Netherlands (Kingdom of the),Democratic People's Republic of Korea,2003,fat_of_poultry,91.0
+106,67,Italy,Finland,2012,fat_of_poultry,1.0
+41,131,"China, mainland",Malaysia,2014,fat_of_poultry,7.01
+84,174,Greece,Portugal,2019,fat_of_poultry,0.62
+68,54,France,Denmark,1998,fat_of_poultry,5.0
+68,54,France,Denmark,1999,fat_of_poultry,6.0
+68,54,France,Denmark,2000,fat_of_poultry,90.0
+68,54,France,Denmark,2001,fat_of_poultry,16.0
+68,54,France,Denmark,2002,fat_of_poultry,3.0
+68,54,France,Denmark,2003,fat_of_poultry,2.0
+68,54,France,Denmark,2004,fat_of_poultry,1.0
+68,54,France,Denmark,2005,fat_of_poultry,1.0
+68,54,France,Denmark,2006,fat_of_poultry,3.0
+68,54,France,Denmark,2007,fat_of_poultry,4.0
+68,54,France,Denmark,2008,fat_of_poultry,5.0
+68,54,France,Denmark,2009,fat_of_poultry,5.0
+68,54,France,Denmark,2010,fat_of_poultry,6.0
+68,54,France,Denmark,2011,fat_of_poultry,8.0
+68,54,France,Denmark,2012,fat_of_poultry,6.0
+68,54,France,Denmark,2013,fat_of_poultry,6.0
+68,54,France,Denmark,2014,fat_of_poultry,8.8
+68,54,France,Denmark,2015,fat_of_poultry,9.2
+68,54,France,Denmark,2016,fat_of_poultry,12.99
+68,54,France,Denmark,2017,fat_of_poultry,15.46
+68,54,France,Denmark,2018,fat_of_poultry,4.32
+68,54,France,Denmark,2019,fat_of_poultry,7.51
+68,54,France,Denmark,2020,fat_of_poultry,4.61
+68,54,France,Denmark,2021,fat_of_poultry,0.75
+68,54,France,Denmark,2022,fat_of_poultry,1.28
+68,54,France,Denmark,2023,fat_of_poultry,10.08
+216,28,Thailand,Myanmar,2017,fat_of_poultry,0.02
+173,150,Poland,Netherlands (Kingdom of the),2009,fat_of_poultry,28.0
+173,150,Poland,Netherlands (Kingdom of the),2010,fat_of_poultry,26.0
+173,150,Poland,Netherlands (Kingdom of the),2011,fat_of_poultry,18.0
+173,150,Poland,Netherlands (Kingdom of the),2012,fat_of_poultry,139.0
+173,150,Poland,Netherlands (Kingdom of the),2013,fat_of_poultry,360.0
+173,150,Poland,Netherlands (Kingdom of the),2014,fat_of_poultry,1.0
+173,150,Poland,Netherlands (Kingdom of the),2016,fat_of_poultry,47.46
+173,150,Poland,Netherlands (Kingdom of the),2017,fat_of_poultry,25.0
+173,150,Poland,Netherlands (Kingdom of the),2018,fat_of_poultry,28.01
+173,150,Poland,Netherlands (Kingdom of the),2019,fat_of_poultry,321.39
+173,150,Poland,Netherlands (Kingdom of the),2020,fat_of_poultry,592.82
+173,150,Poland,Netherlands (Kingdom of the),2021,fat_of_poultry,743.33
+173,150,Poland,Netherlands (Kingdom of the),2022,fat_of_poultry,84.65
+173,150,Poland,Netherlands (Kingdom of the),2023,fat_of_poultry,1861.23
+203,79,Spain,Germany,2012,fat_of_poultry,1453.0
+203,79,Spain,Germany,2013,fat_of_poultry,1579.0
+203,79,Spain,Germany,2014,fat_of_poultry,1168.4
+203,79,Spain,Germany,2015,fat_of_poultry,766.7
+203,79,Spain,Germany,2016,fat_of_poultry,598.35
+203,79,Spain,Germany,2017,fat_of_poultry,0.1
+203,79,Spain,Germany,2018,fat_of_poultry,0.11
+203,79,Spain,Germany,2020,fat_of_poultry,3.56
+203,79,Spain,Germany,2021,fat_of_poultry,12.44
+203,79,Spain,Germany,2022,fat_of_poultry,11.64
+203,79,Spain,Germany,2023,fat_of_poultry,6.97
+33,109,Canada,Jamaica,2018,fat_of_poultry,56.5
+33,109,Canada,Jamaica,2019,fat_of_poultry,45.98
+33,109,Canada,Jamaica,2020,fat_of_poultry,47.92
+33,109,Canada,Jamaica,2021,fat_of_poultry,134.97
+33,109,Canada,Jamaica,2022,fat_of_poultry,25.0
+33,109,Canada,Jamaica,2023,fat_of_poultry,132.4
+97,198,Hungary,Slovenia,2018,fat_of_poultry,4.31
+97,198,Hungary,Slovenia,2022,fat_of_poultry,0.01
+202,147,South Africa,Namibia,2013,fat_of_poultry,80.0
+202,147,South Africa,Namibia,2014,fat_of_poultry,9.29
+202,147,South Africa,Namibia,2017,fat_of_poultry,35.86
+202,147,South Africa,Namibia,2018,fat_of_poultry,1.25
+202,147,South Africa,Namibia,2019,fat_of_poultry,58.15
+202,147,South Africa,Namibia,2020,fat_of_poultry,12.5
+202,147,South Africa,Namibia,2021,fat_of_poultry,11.65
+167,199,Czechia,Slovakia,1996,fat_of_poultry,5.0
+167,199,Czechia,Slovakia,1997,fat_of_poultry,4.0
+167,199,Czechia,Slovakia,1998,fat_of_poultry,2.0
+167,199,Czechia,Slovakia,2012,fat_of_poultry,4.0
+167,199,Czechia,Slovakia,2013,fat_of_poultry,8.0
+167,199,Czechia,Slovakia,2021,fat_of_poultry,0.29
+167,199,Czechia,Slovakia,2022,fat_of_poultry,0.15
+167,199,Czechia,Slovakia,2023,fat_of_poultry,0.14
+21,200,Brazil,Singapore,2019,fat_of_poultry,0.02
+21,200,Brazil,Singapore,2020,fat_of_poultry,0.01
+21,200,Brazil,Singapore,2023,fat_of_poultry,26.4
+150,54,Netherlands (Kingdom of the),Denmark,1990,fat_of_poultry,20.0
+150,54,Netherlands (Kingdom of the),Denmark,1995,fat_of_poultry,5.0
+150,54,Netherlands (Kingdom of the),Denmark,1996,fat_of_poultry,36.0
+150,54,Netherlands (Kingdom of the),Denmark,2012,fat_of_poultry,42.0
+150,54,Netherlands (Kingdom of the),Denmark,2013,fat_of_poultry,883.0
+150,54,Netherlands (Kingdom of the),Denmark,2014,fat_of_poultry,203.2
+150,54,Netherlands (Kingdom of the),Denmark,2015,fat_of_poultry,135.7
+150,54,Netherlands (Kingdom of the),Denmark,2017,fat_of_poultry,29.41
+150,54,Netherlands (Kingdom of the),Denmark,2018,fat_of_poultry,23.38
+150,54,Netherlands (Kingdom of the),Denmark,2019,fat_of_poultry,144.49
+150,54,Netherlands (Kingdom of the),Denmark,2020,fat_of_poultry,12.72
+150,54,Netherlands (Kingdom of the),Denmark,2021,fat_of_poultry,2.44
+150,54,Netherlands (Kingdom of the),Denmark,2022,fat_of_poultry,6.23
+150,54,Netherlands (Kingdom of the),Denmark,2023,fat_of_poultry,6.78
+174,203,Portugal,Spain,2010,fat_of_poultry,1.0
+174,203,Portugal,Spain,2011,fat_of_poultry,1.0
+174,203,Portugal,Spain,2017,fat_of_poultry,0.98
+174,203,Portugal,Spain,2018,fat_of_poultry,5.81
+174,203,Portugal,Spain,2019,fat_of_poultry,170.9
+174,203,Portugal,Spain,2020,fat_of_poultry,26.0
+174,203,Portugal,Spain,2021,fat_of_poultry,26.22
+174,203,Portugal,Spain,2022,fat_of_poultry,76.47
+174,203,Portugal,Spain,2023,fat_of_poultry,67.02
+84,183,Greece,Romania,2004,fat_of_poultry,5.0
+84,183,Greece,Romania,2005,fat_of_poultry,2.0
+84,183,Greece,Romania,2017,fat_of_poultry,10.25
+84,183,Greece,Romania,2018,fat_of_poultry,3.97
+84,183,Greece,Romania,2019,fat_of_poultry,10.98
+84,183,Greece,Romania,2020,fat_of_poultry,13.2
+84,183,Greece,Romania,2021,fat_of_poultry,2.42
+84,183,Greece,Romania,2022,fat_of_poultry,2.75
+84,183,Greece,Romania,2023,fat_of_poultry,24.69
+231,56,United States of America,Dominican Republic,2012,fat_of_poultry,448.0
+231,56,United States of America,Dominican Republic,2013,fat_of_poultry,56.0
+231,56,United States of America,Dominican Republic,2014,fat_of_poultry,4.89
+231,56,United States of America,Dominican Republic,2015,fat_of_poultry,1.1
+231,56,United States of America,Dominican Republic,2016,fat_of_poultry,321.27
+231,56,United States of America,Dominican Republic,2017,fat_of_poultry,116.2
+231,56,United States of America,Dominican Republic,2018,fat_of_poultry,39.95
+10,168,Australia,Papua New Guinea,2020,fat_of_poultry,15.0
+11,134,Austria,Malta,2016,fat_of_poultry,0.3
+33,110,Canada,Japan,2012,fat_of_poultry,48.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1991,fat_of_poultry,3.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2018,fat_of_poultry,22.45
+255,110,Belgium,Japan,2012,fat_of_poultry,10.0
+216,150,Thailand,Netherlands (Kingdom of the),2021,fat_of_poultry,6.64
+97,203,Hungary,Spain,2014,fat_of_poultry,0.7
+97,203,Hungary,Spain,2016,fat_of_poultry,2.0
+97,203,Hungary,Spain,2017,fat_of_poultry,12.3
+97,203,Hungary,Spain,2018,fat_of_poultry,75.2
+97,203,Hungary,Spain,2019,fat_of_poultry,4.83
+97,203,Hungary,Spain,2020,fat_of_poultry,0.01
+97,203,Hungary,Spain,2021,fat_of_poultry,4.82
+106,68,Italy,France,1989,fat_of_poultry,22.0
+106,68,Italy,France,1990,fat_of_poultry,53.0
+106,68,Italy,France,1991,fat_of_poultry,28.0
+106,68,Italy,France,2004,fat_of_poultry,6.0
+106,68,Italy,France,2005,fat_of_poultry,1.0
+106,68,Italy,France,2014,fat_of_poultry,0.1
+106,68,Italy,France,2015,fat_of_poultry,4.7
+106,68,Italy,France,2016,fat_of_poultry,0.02
+106,68,Italy,France,2017,fat_of_poultry,0.01
+106,68,Italy,France,2018,fat_of_poultry,0.01
+106,68,Italy,France,2019,fat_of_poultry,0.02
+106,68,Italy,France,2020,fat_of_poultry,0.26
+106,68,Italy,France,2021,fat_of_poultry,0.04
+106,68,Italy,France,2022,fat_of_poultry,21.18
+106,68,Italy,France,2023,fat_of_poultry,0.11
+54,150,Denmark,Netherlands (Kingdom of the),1986,fat_of_poultry,21.0
+54,150,Denmark,Netherlands (Kingdom of the),1995,fat_of_poultry,1.0
+54,150,Denmark,Netherlands (Kingdom of the),2007,fat_of_poultry,7.0
+54,150,Denmark,Netherlands (Kingdom of the),2020,fat_of_poultry,3.97
+210,162,Sweden,Norway,1997,fat_of_poultry,47.0
+210,162,Sweden,Norway,1998,fat_of_poultry,37.0
+210,162,Sweden,Norway,1999,fat_of_poultry,1.0
+210,162,Sweden,Norway,2005,fat_of_poultry,1.0
+210,162,Sweden,Norway,2007,fat_of_poultry,1.0
+210,162,Sweden,Norway,2008,fat_of_poultry,4.0
+210,162,Sweden,Norway,2023,fat_of_poultry,0.01
+97,210,Hungary,Sweden,2015,fat_of_poultry,0.01
+97,210,Hungary,Sweden,2021,fat_of_poultry,0.02
+79,63,Germany,Estonia,2014,fat_of_poultry,0.1
+79,63,Germany,Estonia,2015,fat_of_poultry,0.02
+79,63,Germany,Estonia,2016,fat_of_poultry,0.02
+10,171,Australia,Philippines,2023,fat_of_poultry,25.2
+84,272,Greece,Serbia,2023,fat_of_poultry,94.77
+231,58,United States of America,Ecuador,2015,fat_of_poultry,143.6
+203,84,Spain,Greece,2012,fat_of_poultry,1.0
+203,84,Spain,Greece,2013,fat_of_poultry,33.0
+203,84,Spain,Greece,2014,fat_of_poultry,280.4
+203,84,Spain,Greece,2018,fat_of_poultry,5.04
+97,211,Hungary,Switzerland,2004,fat_of_poultry,6.0
+97,211,Hungary,Switzerland,2005,fat_of_poultry,26.0
+97,211,Hungary,Switzerland,2006,fat_of_poultry,27.0
+97,211,Hungary,Switzerland,2007,fat_of_poultry,31.0
+97,211,Hungary,Switzerland,2008,fat_of_poultry,28.0
+97,211,Hungary,Switzerland,2009,fat_of_poultry,49.0
+97,211,Hungary,Switzerland,2010,fat_of_poultry,39.0
+97,211,Hungary,Switzerland,2011,fat_of_poultry,4.0
+97,211,Hungary,Switzerland,2012,fat_of_poultry,4.0
+97,211,Hungary,Switzerland,2013,fat_of_poultry,5.0
+97,211,Hungary,Switzerland,2014,fat_of_poultry,4.4
+97,211,Hungary,Switzerland,2015,fat_of_poultry,6.8
+97,211,Hungary,Switzerland,2016,fat_of_poultry,7.58
+97,211,Hungary,Switzerland,2017,fat_of_poultry,4.11
+97,211,Hungary,Switzerland,2018,fat_of_poultry,4.75
+97,211,Hungary,Switzerland,2019,fat_of_poultry,2.06
+97,211,Hungary,Switzerland,2020,fat_of_poultry,1.54
+97,211,Hungary,Switzerland,2021,fat_of_poultry,4.09
+97,211,Hungary,Switzerland,2022,fat_of_poultry,1.32
+97,211,Hungary,Switzerland,2023,fat_of_poultry,4.84
+202,159,South Africa,Nigeria,2012,fat_of_poultry,1.0
+202,159,South Africa,Nigeria,2013,fat_of_poultry,1.0
+202,159,South Africa,Nigeria,2018,fat_of_poultry,0.18
+202,159,South Africa,Nigeria,2019,fat_of_poultry,0.32
+202,159,South Africa,Nigeria,2020,fat_of_poultry,0.58
+202,159,South Africa,Nigeria,2021,fat_of_poultry,0.29
+202,159,South Africa,Nigeria,2022,fat_of_poultry,0.24
+84,186,Greece,Serbia and Montenegro,2003,fat_of_poultry,38.0
+84,186,Greece,Serbia and Montenegro,2004,fat_of_poultry,22.0
+68,59,France,Egypt,2012,fat_of_poultry,12.0
+216,162,Thailand,Norway,2015,fat_of_poultry,0.15
+216,162,Thailand,Norway,2016,fat_of_poultry,0.27
+216,162,Thailand,Norway,2017,fat_of_poultry,0.35
+216,162,Thailand,Norway,2018,fat_of_poultry,0.4
+216,162,Thailand,Norway,2019,fat_of_poultry,0.23
+216,162,Thailand,Norway,2020,fat_of_poultry,0.36
+216,162,Thailand,Norway,2021,fat_of_poultry,0.14
+174,211,Portugal,Switzerland,2017,fat_of_poultry,0.05
+174,211,Portugal,Switzerland,2018,fat_of_poultry,0.05
+174,211,Portugal,Switzerland,2019,fat_of_poultry,0.08
+174,211,Portugal,Switzerland,2020,fat_of_poultry,0.22
+174,211,Portugal,Switzerland,2021,fat_of_poultry,0.03
+174,211,Portugal,Switzerland,2022,fat_of_poultry,0.06
+174,211,Portugal,Switzerland,2023,fat_of_poultry,0.08
+203,89,Spain,Guatemala,2011,fat_of_poultry,2.0
+173,146,Poland,Republic of Moldova,2009,fat_of_poultry,20.0
+173,146,Poland,Republic of Moldova,2020,fat_of_poultry,8.48
+223,154,Türkiye,North Macedonia,2002,fat_of_poultry,220.0
+223,154,Türkiye,North Macedonia,2003,fat_of_poultry,150.0
+223,154,Türkiye,North Macedonia,2004,fat_of_poultry,55.0
+106,73,Italy,Georgia,2016,fat_of_poultry,175.28
+106,73,Italy,Georgia,2018,fat_of_poultry,25.0
+210,171,Sweden,Philippines,2021,fat_of_poultry,26.93
+210,171,Sweden,Philippines,2022,fat_of_poultry,50.12
+173,183,Poland,Romania,2006,fat_of_poultry,10.0
+173,183,Poland,Romania,2012,fat_of_poultry,174.0
+173,183,Poland,Romania,2016,fat_of_poultry,40.81
+173,183,Poland,Romania,2017,fat_of_poultry,29.94
+173,183,Poland,Romania,2018,fat_of_poultry,3.0
+173,183,Poland,Romania,2020,fat_of_poultry,46.26
+173,183,Poland,Romania,2021,fat_of_poultry,6.86
+173,183,Poland,Romania,2022,fat_of_poultry,0.72
+173,183,Poland,Romania,2023,fat_of_poultry,10.91
+231,60,United States of America,El Salvador,2015,fat_of_poultry,1.44
+97,230,Hungary,Ukraine,2013,fat_of_poultry,21.0
+68,63,France,Estonia,2008,fat_of_poultry,1.0
+68,63,France,Estonia,2009,fat_of_poultry,1.0
+68,63,France,Estonia,2016,fat_of_poultry,0.36
+68,63,France,Estonia,2017,fat_of_poultry,0.72
+54,162,Denmark,Norway,2003,fat_of_poultry,4.0
+54,162,Denmark,Norway,2004,fat_of_poultry,7.0
+54,162,Denmark,Norway,2005,fat_of_poultry,18.0
+54,162,Denmark,Norway,2006,fat_of_poultry,15.0
+54,162,Denmark,Norway,2007,fat_of_poultry,3.0
+54,162,Denmark,Norway,2008,fat_of_poultry,69.0
+54,162,Denmark,Norway,2009,fat_of_poultry,110.0
+54,162,Denmark,Norway,2010,fat_of_poultry,1.0
+54,162,Denmark,Norway,2011,fat_of_poultry,16.0
+54,162,Denmark,Norway,2014,fat_of_poultry,10.0
+54,162,Denmark,Norway,2015,fat_of_poultry,0.2
+54,162,Denmark,Norway,2017,fat_of_poultry,21.94
+54,162,Denmark,Norway,2019,fat_of_poultry,0.01
+54,162,Denmark,Norway,2020,fat_of_poultry,0.01
+54,162,Denmark,Norway,2023,fat_of_poultry,0.02
+21,225,Brazil,United Arab Emirates,2014,fat_of_poultry,20.3
+21,225,Brazil,United Arab Emirates,2015,fat_of_poultry,394.8
+21,225,Brazil,United Arab Emirates,2016,fat_of_poultry,207.2
+167,211,Czechia,Switzerland,2017,fat_of_poultry,0.01
+11,154,Austria,North Macedonia,2012,fat_of_poultry,7.0
+216,171,Thailand,Philippines,2015,fat_of_poultry,0.01
+216,171,Thailand,Philippines,2016,fat_of_poultry,0.01
+203,97,Spain,Hungary,2012,fat_of_poultry,20.0
+203,97,Spain,Hungary,2013,fat_of_poultry,2.0
+255,256,Belgium,Luxembourg,2014,fat_of_poultry,0.9
+255,256,Belgium,Luxembourg,2015,fat_of_poultry,0.06
+255,256,Belgium,Luxembourg,2019,fat_of_poultry,0.02
+255,256,Belgium,Luxembourg,2020,fat_of_poultry,0.03
+255,256,Belgium,Luxembourg,2021,fat_of_poultry,0.01
+173,185,Poland,Russian Federation,2006,fat_of_poultry,41.0
+33,138,Canada,Mexico,2012,fat_of_poultry,100.0
+33,138,Canada,Mexico,2016,fat_of_poultry,37.02
+33,138,Canada,Mexico,2019,fat_of_poultry,18.3
+106,79,Italy,Germany,1992,fat_of_poultry,22.0
+106,79,Italy,Germany,2001,fat_of_poultry,22.0
+106,79,Italy,Germany,2004,fat_of_poultry,1.0
+106,79,Italy,Germany,2012,fat_of_poultry,2.0
+106,79,Italy,Germany,2013,fat_of_poultry,2.0
+106,79,Italy,Germany,2014,fat_of_poultry,48.6
+106,79,Italy,Germany,2015,fat_of_poultry,143.9
+106,79,Italy,Germany,2016,fat_of_poultry,135.13
+106,79,Italy,Germany,2017,fat_of_poultry,128.31
+106,79,Italy,Germany,2018,fat_of_poultry,90.24
+106,79,Italy,Germany,2019,fat_of_poultry,26.18
+106,79,Italy,Germany,2020,fat_of_poultry,61.95
+106,79,Italy,Germany,2021,fat_of_poultry,53.22
+106,79,Italy,Germany,2022,fat_of_poultry,2.56
+106,79,Italy,Germany,2023,fat_of_poultry,0.56
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,9.0
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,19.8
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,0.1
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.01
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,1.21
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,2.23
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.01
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,0.01
+150,63,Netherlands (Kingdom of the),Estonia,2018,fat_of_poultry,0.06
+150,63,Netherlands (Kingdom of the),Estonia,2019,fat_of_poultry,0.2
+150,63,Netherlands (Kingdom of the),Estonia,2020,fat_of_poultry,0.06
+150,63,Netherlands (Kingdom of the),Estonia,2022,fat_of_poultry,0.99
+150,63,Netherlands (Kingdom of the),Estonia,2023,fat_of_poultry,10.19
+68,67,France,Finland,2014,fat_of_poultry,0.1
+68,67,France,Finland,2015,fat_of_poultry,0.04
+68,67,France,Finland,2023,fat_of_poultry,1.26
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,0.01
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.65
+79,68,Germany,France,2002,fat_of_poultry,26.0
+79,68,Germany,France,2004,fat_of_poultry,6.0
+79,68,Germany,France,2021,fat_of_poultry,21.6
+79,68,Germany,France,2022,fat_of_poultry,0.81
+79,68,Germany,France,2023,fat_of_poultry,1.88
+203,100,Spain,India,2010,fat_of_poultry,10.0
+84,211,Greece,Switzerland,2003,fat_of_poultry,4.0
+202,193,South Africa,Sao Tome and Principe,2017,fat_of_poultry,0.6
+54,171,Denmark,Philippines,2023,fat_of_poultry,53.99
+84,216,Greece,Thailand,2003,fat_of_poultry,21.0
+231,68,United States of America,France,2014,fat_of_poultry,22.75
+231,68,United States of America,France,2018,fat_of_poultry,34.2
+68,70,France,French Polynesia,2015,fat_of_poultry,1.8
+68,70,France,French Polynesia,2016,fat_of_poultry,0.5
+68,70,France,French Polynesia,2017,fat_of_poultry,1.3
+68,70,France,French Polynesia,2018,fat_of_poultry,0.01
+68,70,France,French Polynesia,2019,fat_of_poultry,0.07
+68,70,France,French Polynesia,2020,fat_of_poultry,0.71
+68,70,France,French Polynesia,2022,fat_of_poultry,12.9
+173,199,Poland,Slovakia,2005,fat_of_poultry,1.0
+173,199,Poland,Slovakia,2012,fat_of_poultry,235.0
+173,199,Poland,Slovakia,2013,fat_of_poultry,385.0
+173,199,Poland,Slovakia,2014,fat_of_poultry,32.9
+173,199,Poland,Slovakia,2015,fat_of_poultry,662.9
+173,199,Poland,Slovakia,2016,fat_of_poultry,614.41
+173,199,Poland,Slovakia,2017,fat_of_poultry,546.78
+173,199,Poland,Slovakia,2018,fat_of_poultry,112.19
+173,199,Poland,Slovakia,2019,fat_of_poultry,55.17
+173,199,Poland,Slovakia,2020,fat_of_poultry,60.79
+173,199,Poland,Slovakia,2021,fat_of_poultry,174.31
+173,199,Poland,Slovakia,2022,fat_of_poultry,54.42
+173,199,Poland,Slovakia,2023,fat_of_poultry,54.71
+54,173,Denmark,Poland,2015,fat_of_poultry,0.6
+54,173,Denmark,Poland,2016,fat_of_poultry,0.8
+202,196,South Africa,Seychelles,2017,fat_of_poultry,0.07
+202,196,South Africa,Seychelles,2018,fat_of_poultry,0.37
+202,196,South Africa,Seychelles,2020,fat_of_poultry,0.02
+150,67,Netherlands (Kingdom of the),Finland,2014,fat_of_poultry,0.04
+150,67,Netherlands (Kingdom of the),Finland,2015,fat_of_poultry,0.05
+150,67,Netherlands (Kingdom of the),Finland,2022,fat_of_poultry,0.19
+68,74,France,Gabon,2014,fat_of_poultry,0.2
+68,74,France,Gabon,2015,fat_of_poultry,0.3
+68,74,France,Gabon,2016,fat_of_poultry,0.3
+68,74,France,Gabon,2017,fat_of_poultry,0.46
+68,74,France,Gabon,2018,fat_of_poultry,0.3
+68,74,France,Gabon,2019,fat_of_poultry,0.15
+68,74,France,Gabon,2021,fat_of_poultry,0.67
+106,84,Italy,Greece,2006,fat_of_poultry,2.0
+106,84,Italy,Greece,2007,fat_of_poultry,1.0
+106,84,Italy,Greece,2008,fat_of_poultry,1.0
+106,84,Italy,Greece,2012,fat_of_poultry,17.0
+106,84,Italy,Greece,2013,fat_of_poultry,31.0
+106,84,Italy,Greece,2015,fat_of_poultry,0.1
+106,84,Italy,Greece,2016,fat_of_poultry,13.92
+106,84,Italy,Greece,2019,fat_of_poultry,14.53
+106,84,Italy,Greece,2022,fat_of_poultry,3.09
+231,70,United States of America,French Polynesia,2018,fat_of_poultry,44.49
+231,70,United States of America,French Polynesia,2019,fat_of_poultry,45.51
+68,73,France,Georgia,2018,fat_of_poultry,0.11
+255,147,Belgium,Namibia,2016,fat_of_poultry,10.1
+255,147,Belgium,Namibia,2018,fat_of_poultry,12.98
+216,200,Thailand,Singapore,2012,fat_of_poultry,5.0
+216,200,Thailand,Singapore,2013,fat_of_poultry,4.0
+216,200,Thailand,Singapore,2019,fat_of_poultry,0.05
+216,200,Thailand,Singapore,2022,fat_of_poultry,0.15
+216,200,Thailand,Singapore,2023,fat_of_poultry,0.62
+173,203,Poland,Spain,2011,fat_of_poultry,177.0
+173,203,Poland,Spain,2012,fat_of_poultry,47.0
+173,203,Poland,Spain,2013,fat_of_poultry,258.0
+173,203,Poland,Spain,2014,fat_of_poultry,131.7
+173,203,Poland,Spain,2015,fat_of_poultry,184.4
+173,203,Poland,Spain,2016,fat_of_poultry,131.49
+173,203,Poland,Spain,2017,fat_of_poultry,210.03
+173,203,Poland,Spain,2018,fat_of_poultry,104.44
+173,203,Poland,Spain,2019,fat_of_poultry,154.22
+173,203,Poland,Spain,2020,fat_of_poultry,253.11
+173,203,Poland,Spain,2021,fat_of_poultry,26.4
+173,203,Poland,Spain,2022,fat_of_poultry,82.94
+173,203,Poland,Spain,2023,fat_of_poultry,71.8
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,1.1
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.07
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.08
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,0.1
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,5.58
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,6.08
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,8.94
+21,237,Brazil,Viet Nam,2020,fat_of_poultry,27.0
+21,237,Brazil,Viet Nam,2023,fat_of_poultry,112.29
+231,79,United States of America,Germany,2017,fat_of_poultry,16540.0
+231,79,United States of America,Germany,2018,fat_of_poultry,6310.42
+255,150,Belgium,Netherlands (Kingdom of the),2002,fat_of_poultry,2.0
+255,150,Belgium,Netherlands (Kingdom of the),2003,fat_of_poultry,15.0
+255,150,Belgium,Netherlands (Kingdom of the),2004,fat_of_poultry,34.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,fat_of_poultry,102.0
+255,150,Belgium,Netherlands (Kingdom of the),2014,fat_of_poultry,0.5
+255,150,Belgium,Netherlands (Kingdom of the),2015,fat_of_poultry,218.6
+255,150,Belgium,Netherlands (Kingdom of the),2016,fat_of_poultry,206.3
+255,150,Belgium,Netherlands (Kingdom of the),2017,fat_of_poultry,43.11
+255,150,Belgium,Netherlands (Kingdom of the),2018,fat_of_poultry,15.01
+255,150,Belgium,Netherlands (Kingdom of the),2019,fat_of_poultry,12.56
+255,150,Belgium,Netherlands (Kingdom of the),2020,fat_of_poultry,119.6
+255,150,Belgium,Netherlands (Kingdom of the),2021,fat_of_poultry,223.25
+255,150,Belgium,Netherlands (Kingdom of the),2022,fat_of_poultry,68.87
+255,150,Belgium,Netherlands (Kingdom of the),2023,fat_of_poultry,407.29
+54,185,Denmark,Russian Federation,2012,fat_of_poultry,20.0
+203,106,Spain,Italy,2012,fat_of_poultry,3042.0
+203,106,Spain,Italy,2013,fat_of_poultry,1476.0
+203,106,Spain,Italy,2014,fat_of_poultry,377.9
+203,106,Spain,Italy,2015,fat_of_poultry,1173.7
+203,106,Spain,Italy,2016,fat_of_poultry,500.06
+203,106,Spain,Italy,2017,fat_of_poultry,0.01
+203,106,Spain,Italy,2018,fat_of_poultry,0.54
+203,106,Spain,Italy,2019,fat_of_poultry,15.91
+203,106,Spain,Italy,2020,fat_of_poultry,16.36
+203,106,Spain,Italy,2022,fat_of_poultry,1.79
+203,106,Spain,Italy,2023,fat_of_poultry,34.72
+79,84,Germany,Greece,2023,fat_of_poultry,0.44
+202,276,South Africa,Sudan,2014,fat_of_poultry,0.01
+202,276,South Africa,Sudan,2016,fat_of_poultry,0.01
+202,276,South Africa,Sudan,2018,fat_of_poultry,0.01
+202,276,South Africa,Sudan,2019,fat_of_poultry,0.01
+202,276,South Africa,Sudan,2021,fat_of_poultry,0.05
+150,68,Netherlands (Kingdom of the),France,1986,fat_of_poultry,7.0
+150,68,Netherlands (Kingdom of the),France,1987,fat_of_poultry,11.0
+150,68,Netherlands (Kingdom of the),France,1988,fat_of_poultry,20.0
+150,68,Netherlands (Kingdom of the),France,1989,fat_of_poultry,203.0
+150,68,Netherlands (Kingdom of the),France,1990,fat_of_poultry,161.0
+150,68,Netherlands (Kingdom of the),France,1991,fat_of_poultry,69.0
+150,68,Netherlands (Kingdom of the),France,1993,fat_of_poultry,11.0
+150,68,Netherlands (Kingdom of the),France,2006,fat_of_poultry,2.0
+150,68,Netherlands (Kingdom of the),France,2007,fat_of_poultry,8.0
+150,68,Netherlands (Kingdom of the),France,2008,fat_of_poultry,41.0
+150,68,Netherlands (Kingdom of the),France,2012,fat_of_poultry,6.0
+150,68,Netherlands (Kingdom of the),France,2018,fat_of_poultry,0.12
+150,68,Netherlands (Kingdom of the),France,2019,fat_of_poultry,40.95
+150,68,Netherlands (Kingdom of the),France,2021,fat_of_poultry,0.59
+150,68,Netherlands (Kingdom of the),France,2022,fat_of_poultry,19.93
+150,68,Netherlands (Kingdom of the),France,2023,fat_of_poultry,5.41
+68,79,France,Germany,1993,fat_of_poultry,7.0
+68,79,France,Germany,1994,fat_of_poultry,7.0
+68,79,France,Germany,1995,fat_of_poultry,2.0
+68,79,France,Germany,1996,fat_of_poultry,70.0
+68,79,France,Germany,1997,fat_of_poultry,16.0
+68,79,France,Germany,1998,fat_of_poultry,57.0
+68,79,France,Germany,1999,fat_of_poultry,18.0
+68,79,France,Germany,2000,fat_of_poultry,18.0
+68,79,France,Germany,2001,fat_of_poultry,73.0
+68,79,France,Germany,2002,fat_of_poultry,7.0
+68,79,France,Germany,2003,fat_of_poultry,21.0
+68,79,France,Germany,2004,fat_of_poultry,13.0
+68,79,France,Germany,2005,fat_of_poultry,4.0
+68,79,France,Germany,2006,fat_of_poultry,2.0
+68,79,France,Germany,2007,fat_of_poultry,1.0
+68,79,France,Germany,2008,fat_of_poultry,5.0
+68,79,France,Germany,2009,fat_of_poultry,4.0
+68,79,France,Germany,2010,fat_of_poultry,3.0
+68,79,France,Germany,2011,fat_of_poultry,2.0
+68,79,France,Germany,2012,fat_of_poultry,7.0
+68,79,France,Germany,2013,fat_of_poultry,3.0
+68,79,France,Germany,2014,fat_of_poultry,1.4
+68,79,France,Germany,2015,fat_of_poultry,1.1
+68,79,France,Germany,2016,fat_of_poultry,0.88
+68,79,France,Germany,2017,fat_of_poultry,94.69
+68,79,France,Germany,2018,fat_of_poultry,334.13
+68,79,France,Germany,2019,fat_of_poultry,123.34
+68,79,France,Germany,2020,fat_of_poultry,199.76
+68,79,France,Germany,2021,fat_of_poultry,132.81
+68,79,France,Germany,2022,fat_of_poultry,6324.37
+68,79,France,Germany,2023,fat_of_poultry,3864.23
+211,185,Switzerland,Russian Federation,2015,fat_of_poultry,55.27
+173,210,Poland,Sweden,2012,fat_of_poultry,21.0
+106,93,Italy,Haiti,2022,fat_of_poultry,25.0
+211,191,Switzerland,Saint Vincent and the Grenadines,2017,fat_of_poultry,0.02
+33,166,Canada,Panama,2012,fat_of_poultry,46.0
+33,166,Canada,Panama,2013,fat_of_poultry,91.0
+33,166,Canada,Panama,2014,fat_of_poultry,57.0
+33,166,Canada,Panama,2015,fat_of_poultry,96.5
+33,166,Canada,Panama,2017,fat_of_poultry,25.14
+33,166,Canada,Panama,2018,fat_of_poultry,50.0
+106,97,Italy,Hungary,2003,fat_of_poultry,24.0
+173,211,Poland,Switzerland,2023,fat_of_poultry,0.53
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1987,fat_of_poultry,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,fat_of_poultry,8.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1991,fat_of_poultry,8.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1992,fat_of_poultry,41.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1993,fat_of_poultry,44.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1994,fat_of_poultry,55.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1995,fat_of_poultry,20.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1996,fat_of_poultry,25.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1997,fat_of_poultry,47.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1998,fat_of_poultry,40.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1999,fat_of_poultry,22.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2000,fat_of_poultry,9.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2008,fat_of_poultry,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2009,fat_of_poultry,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2013,fat_of_poultry,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2014,fat_of_poultry,0.2
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2015,fat_of_poultry,0.3
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2016,fat_of_poultry,0.28
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2017,fat_of_poultry,0.23
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,fat_of_poultry,9.16
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2019,fat_of_poultry,0.32
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2020,fat_of_poultry,0.34
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2021,fat_of_poultry,0.13
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2022,fat_of_poultry,0.96
+33,171,Canada,Philippines,2012,fat_of_poultry,514.0
+33,171,Canada,Philippines,2013,fat_of_poultry,135.0
+33,171,Canada,Philippines,2014,fat_of_poultry,75.96
+33,171,Canada,Philippines,2016,fat_of_poultry,25.0
+33,171,Canada,Philippines,2017,fat_of_poultry,27.0
+33,171,Canada,Philippines,2019,fat_of_poultry,26.7
+33,171,Canada,Philippines,2022,fat_of_poultry,27.81
+216,210,Thailand,Sweden,2015,fat_of_poultry,2.63
+216,210,Thailand,Sweden,2016,fat_of_poultry,3.23
+216,210,Thailand,Sweden,2017,fat_of_poultry,2.54
+216,210,Thailand,Sweden,2018,fat_of_poultry,3.55
+216,210,Thailand,Sweden,2019,fat_of_poultry,6.4
+216,210,Thailand,Sweden,2020,fat_of_poultry,7.17
+216,210,Thailand,Sweden,2021,fat_of_poultry,9.33
+216,210,Thailand,Sweden,2022,fat_of_poultry,0.08
+203,110,Spain,Japan,2014,fat_of_poultry,24.0
+231,86,United States of America,Grenada,2012,fat_of_poultry,48.0
+202,226,South Africa,Uganda,2016,fat_of_poultry,0.01
+11,199,Austria,Slovakia,2014,fat_of_poultry,0.1
+11,199,Austria,Slovakia,2015,fat_of_poultry,0.4
+11,199,Austria,Slovakia,2016,fat_of_poultry,0.16
+11,199,Austria,Slovakia,2017,fat_of_poultry,0.19
+11,199,Austria,Slovakia,2018,fat_of_poultry,0.26
+11,199,Austria,Slovakia,2019,fat_of_poultry,0.74
+11,199,Austria,Slovakia,2020,fat_of_poultry,0.18
+11,199,Austria,Slovakia,2021,fat_of_poultry,0.57
+11,199,Austria,Slovakia,2022,fat_of_poultry,0.38
+11,199,Austria,Slovakia,2023,fat_of_poultry,0.01
+68,81,France,Ghana,2022,fat_of_poultry,1.64
+54,203,Denmark,Spain,2017,fat_of_poultry,0.01
+173,230,Poland,Ukraine,2013,fat_of_poultry,20.0
+173,230,Poland,Ukraine,2014,fat_of_poultry,21.8
+173,230,Poland,Ukraine,2015,fat_of_poultry,11.2
+173,230,Poland,Ukraine,2016,fat_of_poultry,49.6
+173,230,Poland,Ukraine,2017,fat_of_poultry,23.53
+173,230,Poland,Ukraine,2018,fat_of_poultry,161.1
+173,230,Poland,Ukraine,2019,fat_of_poultry,65.53
+173,230,Poland,Ukraine,2020,fat_of_poultry,5.27
+173,230,Poland,Ukraine,2021,fat_of_poultry,45.1
+173,230,Poland,Ukraine,2022,fat_of_poultry,552.67
+173,230,Poland,Ukraine,2023,fat_of_poultry,678.06
+210,230,Sweden,Ukraine,2017,fat_of_poultry,19.99
+231,89,United States of America,Guatemala,2012,fat_of_poultry,68.0
+231,89,United States of America,Guatemala,2015,fat_of_poultry,228.54
+231,89,United States of America,Guatemala,2016,fat_of_poultry,20.78
+231,89,United States of America,Guatemala,2019,fat_of_poultry,21.69
+231,89,United States of America,Guatemala,2021,fat_of_poultry,1.63
+231,89,United States of America,Guatemala,2022,fat_of_poultry,3.27
+202,225,South Africa,United Arab Emirates,2015,fat_of_poultry,0.04
+68,84,France,Greece,1993,fat_of_poultry,20.0
+68,84,France,Greece,2014,fat_of_poultry,0.01
+68,84,France,Greece,2016,fat_of_poultry,0.01
+68,84,France,Greece,2023,fat_of_poultry,0.09
+203,114,Spain,Kenya,2017,fat_of_poultry,24.93
+150,73,Netherlands (Kingdom of the),Georgia,2017,fat_of_poultry,38.39
+33,117,Canada,Republic of Korea,2012,fat_of_poultry,344.0
+11,198,Austria,Slovenia,2015,fat_of_poultry,0.05
+11,198,Austria,Slovenia,2016,fat_of_poultry,0.04
+11,198,Austria,Slovenia,2017,fat_of_poultry,0.05
+11,198,Austria,Slovenia,2018,fat_of_poultry,0.08
+11,198,Austria,Slovenia,2019,fat_of_poultry,0.11
+11,198,Austria,Slovenia,2020,fat_of_poultry,0.02
+11,198,Austria,Slovenia,2021,fat_of_poultry,0.04
+255,171,Belgium,Philippines,2012,fat_of_poultry,27.0
+255,171,Belgium,Philippines,2014,fat_of_poultry,108.0
+255,171,Belgium,Philippines,2015,fat_of_poultry,79.5
+255,171,Belgium,Philippines,2017,fat_of_poultry,184.81
+255,171,Belgium,Philippines,2021,fat_of_poultry,23.53
+255,171,Belgium,Philippines,2022,fat_of_poultry,24.84
+255,171,Belgium,Philippines,2023,fat_of_poultry,123.7
+203,119,Spain,Latvia,2021,fat_of_poultry,3.52
+203,119,Spain,Latvia,2022,fat_of_poultry,22.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2007,fat_of_poultry,43.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2008,fat_of_poultry,59.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2009,fat_of_poultry,41.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2010,fat_of_poultry,61.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2011,fat_of_poultry,32.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2012,fat_of_poultry,2.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,2.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,4.9
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,9.3
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,52.17
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,14.88
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,72.95
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,29.36
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,39.26
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,53.37
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,26.22
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,49.0
+106,104,Italy,Ireland,2020,fat_of_poultry,0.16
+150,79,Netherlands (Kingdom of the),Germany,1991,fat_of_poultry,54.0
+150,79,Netherlands (Kingdom of the),Germany,1992,fat_of_poultry,52.0
+150,79,Netherlands (Kingdom of the),Germany,1993,fat_of_poultry,63.0
+150,79,Netherlands (Kingdom of the),Germany,1994,fat_of_poultry,5.0
+150,79,Netherlands (Kingdom of the),Germany,1995,fat_of_poultry,28.0
+150,79,Netherlands (Kingdom of the),Germany,1996,fat_of_poultry,1.0
+150,79,Netherlands (Kingdom of the),Germany,1997,fat_of_poultry,3.0
+150,79,Netherlands (Kingdom of the),Germany,2002,fat_of_poultry,9.0
+150,79,Netherlands (Kingdom of the),Germany,2003,fat_of_poultry,3.0
+150,79,Netherlands (Kingdom of the),Germany,2004,fat_of_poultry,1.0
+150,79,Netherlands (Kingdom of the),Germany,2008,fat_of_poultry,2.0
+150,79,Netherlands (Kingdom of the),Germany,2009,fat_of_poultry,2.0
+150,79,Netherlands (Kingdom of the),Germany,2010,fat_of_poultry,53.0
+150,79,Netherlands (Kingdom of the),Germany,2011,fat_of_poultry,3.0
+150,79,Netherlands (Kingdom of the),Germany,2012,fat_of_poultry,23.0
+150,79,Netherlands (Kingdom of the),Germany,2013,fat_of_poultry,201.0
+150,79,Netherlands (Kingdom of the),Germany,2014,fat_of_poultry,1001.2
+150,79,Netherlands (Kingdom of the),Germany,2015,fat_of_poultry,972.3
+150,79,Netherlands (Kingdom of the),Germany,2016,fat_of_poultry,102.74
+150,79,Netherlands (Kingdom of the),Germany,2017,fat_of_poultry,339.26
+150,79,Netherlands (Kingdom of the),Germany,2018,fat_of_poultry,315.31
+150,79,Netherlands (Kingdom of the),Germany,2019,fat_of_poultry,281.22
+150,79,Netherlands (Kingdom of the),Germany,2021,fat_of_poultry,4.31
+150,79,Netherlands (Kingdom of the),Germany,2022,fat_of_poultry,3.35
+150,79,Netherlands (Kingdom of the),Germany,2023,fat_of_poultry,1.67
+33,185,Canada,Russian Federation,2012,fat_of_poultry,512.0
+33,185,Canada,Russian Federation,2014,fat_of_poultry,101.5
+231,93,United States of America,Haiti,2012,fat_of_poultry,12.0
+231,93,United States of America,Haiti,2015,fat_of_poultry,21.51
+231,93,United States of America,Haiti,2016,fat_of_poultry,21.51
+54,210,Denmark,Sweden,2014,fat_of_poultry,1.9
+54,210,Denmark,Sweden,2021,fat_of_poultry,0.12
+54,210,Denmark,Sweden,2022,fat_of_poultry,0.05
+54,210,Denmark,Sweden,2023,fat_of_poultry,0.01
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.04
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.01
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,0.02
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2005,fat_of_poultry,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2017,fat_of_poultry,1510.44
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2018,fat_of_poultry,875.95
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2019,fat_of_poultry,77.43
+202,215,South Africa,United Republic of Tanzania,2019,fat_of_poultry,0.1
+203,126,Spain,Lithuania,2012,fat_of_poultry,23.0
+203,126,Spain,Lithuania,2013,fat_of_poultry,203.0
+203,126,Spain,Lithuania,2014,fat_of_poultry,34.3
+203,126,Spain,Lithuania,2022,fat_of_poultry,108.5
+106,105,Italy,Israel,1993,fat_of_poultry,20.0
+173,231,Poland,United States of America,2017,fat_of_poultry,2.54
+223,212,Türkiye,Syrian Arab Republic,2009,fat_of_poultry,22.0
+68,91,France,Guyana,2023,fat_of_poultry,0.2
+231,95,United States of America,Honduras,2012,fat_of_poultry,124.0
+231,95,United States of America,Honduras,2016,fat_of_poultry,1317.05
+231,95,United States of America,Honduras,2017,fat_of_poultry,208.49
+231,95,United States of America,Honduras,2019,fat_of_poultry,16.13
+223,208,Türkiye,Tajikistan,2009,fat_of_poultry,8.0
+106,110,Italy,Japan,2016,fat_of_poultry,0.39
+106,110,Italy,Japan,2019,fat_of_poultry,0.33
+216,231,Thailand,United States of America,2013,fat_of_poultry,2.0
+216,231,Thailand,United States of America,2014,fat_of_poultry,2.41
+216,231,Thailand,United States of America,2023,fat_of_poultry,0.04
+173,237,Poland,Viet Nam,2022,fat_of_poultry,25.0
+68,97,France,Hungary,2008,fat_of_poultry,15.0
+68,97,France,Hungary,2014,fat_of_poultry,0.02
+68,97,France,Hungary,2017,fat_of_poultry,0.08
+68,97,France,Hungary,2021,fat_of_poultry,6.6
+255,146,Belgium,Republic of Moldova,2013,fat_of_poultry,40.0
+202,237,South Africa,Viet Nam,2023,fat_of_poultry,27.0
+79,104,Germany,Ireland,2001,fat_of_poultry,1.0
+79,104,Germany,Ireland,2002,fat_of_poultry,4.0
+33,202,Canada,South Africa,2022,fat_of_poultry,35.86
+202,251,South Africa,Zambia,2012,fat_of_poultry,4.0
+202,251,South Africa,Zambia,2014,fat_of_poultry,0.25
+202,251,South Africa,Zambia,2016,fat_of_poultry,2.99
+202,251,South Africa,Zambia,2017,fat_of_poultry,0.04
+202,251,South Africa,Zambia,2018,fat_of_poultry,0.11
+202,251,South Africa,Zambia,2019,fat_of_poultry,0.04
+202,251,South Africa,Zambia,2020,fat_of_poultry,0.01
+255,185,Belgium,Russian Federation,2001,fat_of_poultry,2.0
+203,136,Spain,Mauritania,2014,fat_of_poultry,0.5
+203,136,Spain,Mauritania,2015,fat_of_poultry,0.3
+150,84,Netherlands (Kingdom of the),Greece,2014,fat_of_poultry,0.1
+150,84,Netherlands (Kingdom of the),Greece,2018,fat_of_poultry,0.01
+150,84,Netherlands (Kingdom of the),Greece,2022,fat_of_poultry,0.07
+216,237,Thailand,Viet Nam,2018,fat_of_poultry,0.06
+11,211,Austria,Switzerland,2021,fat_of_poultry,0.34
+11,211,Austria,Switzerland,2022,fat_of_poultry,0.03
+11,211,Austria,Switzerland,2023,fat_of_poultry,0.29
+106,120,Italy,Lao People's Democratic Republic,2012,fat_of_poultry,15.0
+106,119,Italy,Latvia,2023,fat_of_poultry,0.01
+203,138,Spain,Mexico,2017,fat_of_poultry,0.29
+202,181,South Africa,Zimbabwe,2013,fat_of_poultry,1.0
+202,181,South Africa,Zimbabwe,2015,fat_of_poultry,0.24
+202,181,South Africa,Zimbabwe,2016,fat_of_poultry,0.25
+202,181,South Africa,Zimbabwe,2023,fat_of_poultry,1.25
+231,101,United States of America,Indonesia,2013,fat_of_poultry,6.0
+231,101,United States of America,Indonesia,2020,fat_of_poultry,56.32
+255,200,Belgium,Singapore,2023,fat_of_poultry,24.37
+68,104,France,Ireland,2001,fat_of_poultry,1.0
+68,104,France,Ireland,2002,fat_of_poultry,4.0
+68,104,France,Ireland,2003,fat_of_poultry,3.0
+68,104,France,Ireland,2004,fat_of_poultry,2.0
+68,104,France,Ireland,2005,fat_of_poultry,3.0
+68,104,France,Ireland,2006,fat_of_poultry,4.0
+68,104,France,Ireland,2007,fat_of_poultry,5.0
+68,104,France,Ireland,2008,fat_of_poultry,4.0
+68,104,France,Ireland,2009,fat_of_poultry,2.0
+68,104,France,Ireland,2010,fat_of_poultry,5.0
+68,104,France,Ireland,2011,fat_of_poultry,7.0
+68,104,France,Ireland,2012,fat_of_poultry,3.0
+68,104,France,Ireland,2013,fat_of_poultry,5.0
+68,104,France,Ireland,2014,fat_of_poultry,4.1
+68,104,France,Ireland,2015,fat_of_poultry,0.2
+68,104,France,Ireland,2016,fat_of_poultry,0.49
+68,104,France,Ireland,2017,fat_of_poultry,0.38
+68,104,France,Ireland,2018,fat_of_poultry,0.04
+68,104,France,Ireland,2022,fat_of_poultry,0.35
+68,104,France,Ireland,2023,fat_of_poultry,31.24
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1987,fat_of_poultry,21.0
+255,199,Belgium,Slovakia,2015,fat_of_poultry,32.5
+106,256,Italy,Luxembourg,2020,fat_of_poultry,0.02
+106,256,Italy,Luxembourg,2021,fat_of_poultry,0.01
+106,256,Italy,Luxembourg,2022,fat_of_poultry,0.06
+106,256,Italy,Luxembourg,2023,fat_of_poultry,0.13
+223,235,Türkiye,Uzbekistan,2005,fat_of_poultry,60.0
+231,105,United States of America,Israel,2018,fat_of_poultry,8.91
+203,150,Spain,Netherlands (Kingdom of the),1996,fat_of_poultry,112.0
+203,150,Spain,Netherlands (Kingdom of the),1997,fat_of_poultry,30.0
+203,150,Spain,Netherlands (Kingdom of the),1998,fat_of_poultry,17.0
+203,150,Spain,Netherlands (Kingdom of the),2012,fat_of_poultry,472.0
+203,150,Spain,Netherlands (Kingdom of the),2013,fat_of_poultry,79.0
+203,150,Spain,Netherlands (Kingdom of the),2014,fat_of_poultry,43.5
+203,150,Spain,Netherlands (Kingdom of the),2015,fat_of_poultry,25.9
+203,150,Spain,Netherlands (Kingdom of the),2016,fat_of_poultry,42.0
+203,150,Spain,Netherlands (Kingdom of the),2020,fat_of_poultry,2.59
+203,150,Spain,Netherlands (Kingdom of the),2021,fat_of_poultry,29.94
+203,150,Spain,Netherlands (Kingdom of the),2022,fat_of_poultry,6.43
+150,97,Netherlands (Kingdom of the),Hungary,2013,fat_of_poultry,42.0
+150,97,Netherlands (Kingdom of the),Hungary,2015,fat_of_poultry,23.1
+150,97,Netherlands (Kingdom of the),Hungary,2018,fat_of_poultry,0.01
+150,97,Netherlands (Kingdom of the),Hungary,2022,fat_of_poultry,0.56
+150,97,Netherlands (Kingdom of the),Hungary,2023,fat_of_poultry,0.19
+68,105,France,Israel,2019,fat_of_poultry,0.42
+229,126,United Kingdom of Great Britain and Northern Ireland,Lithuania,2020,fat_of_poultry,0.01
+33,220,Canada,Trinidad and Tobago,2013,fat_of_poultry,6.0
+33,220,Canada,Trinidad and Tobago,2019,fat_of_poultry,26.0
+255,203,Belgium,Spain,2015,fat_of_poultry,29.6
+255,203,Belgium,Spain,2016,fat_of_poultry,54.8
+255,203,Belgium,Spain,2017,fat_of_poultry,93.3
+255,203,Belgium,Spain,2018,fat_of_poultry,87.65
+255,203,Belgium,Spain,2019,fat_of_poultry,101.53
+255,203,Belgium,Spain,2020,fat_of_poultry,120.94
+255,203,Belgium,Spain,2021,fat_of_poultry,97.52
+255,203,Belgium,Spain,2022,fat_of_poultry,81.61
+255,203,Belgium,Spain,2023,fat_of_poultry,79.97
+231,106,United States of America,Italy,2014,fat_of_poultry,4.77
+231,106,United States of America,Italy,2015,fat_of_poultry,8.6
+106,134,Italy,Malta,2014,fat_of_poultry,0.1
+106,134,Italy,Malta,2015,fat_of_poultry,0.1
+106,134,Italy,Malta,2016,fat_of_poultry,0.23
+106,134,Italy,Malta,2017,fat_of_poultry,0.34
+106,134,Italy,Malta,2018,fat_of_poultry,0.17
+106,134,Italy,Malta,2020,fat_of_poultry,0.09
+106,134,Italy,Malta,2021,fat_of_poultry,0.09
+106,134,Italy,Malta,2022,fat_of_poultry,0.03
+68,106,France,Italy,1993,fat_of_poultry,14.0
+68,106,France,Italy,1995,fat_of_poultry,21.0
+68,106,France,Italy,1997,fat_of_poultry,53.0
+68,106,France,Italy,2001,fat_of_poultry,50.0
+68,106,France,Italy,2002,fat_of_poultry,11.0
+68,106,France,Italy,2006,fat_of_poultry,2.0
+68,106,France,Italy,2007,fat_of_poultry,4.0
+68,106,France,Italy,2008,fat_of_poultry,2.0
+68,106,France,Italy,2009,fat_of_poultry,4.0
+68,106,France,Italy,2010,fat_of_poultry,5.0
+68,106,France,Italy,2011,fat_of_poultry,7.0
+68,106,France,Italy,2012,fat_of_poultry,4.0
+68,106,France,Italy,2013,fat_of_poultry,14.0
+68,106,France,Italy,2014,fat_of_poultry,4.1
+68,106,France,Italy,2015,fat_of_poultry,3.0
+68,106,France,Italy,2016,fat_of_poultry,0.85
+68,106,France,Italy,2017,fat_of_poultry,0.99
+68,106,France,Italy,2018,fat_of_poultry,2.0
+68,106,France,Italy,2019,fat_of_poultry,1.26
+68,106,France,Italy,2020,fat_of_poultry,0.06
+68,106,France,Italy,2021,fat_of_poultry,0.11
+68,106,France,Italy,2022,fat_of_poultry,0.16
+68,106,France,Italy,2023,fat_of_poultry,0.39
+231,109,United States of America,Jamaica,2018,fat_of_poultry,10.38
+231,109,United States of America,Jamaica,2019,fat_of_poultry,13.75
+203,154,Spain,North Macedonia,2012,fat_of_poultry,4.0
+203,154,Spain,North Macedonia,2015,fat_of_poultry,21.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,2021,fat_of_poultry,0.03
+231,110,United States of America,Japan,2012,fat_of_poultry,780.0
+231,110,United States of America,Japan,2013,fat_of_poultry,8.0
+231,110,United States of America,Japan,2016,fat_of_poultry,8.18
+79,119,Germany,Latvia,2012,fat_of_poultry,1.0
+79,119,Germany,Latvia,2014,fat_of_poultry,0.6
+79,119,Germany,Latvia,2015,fat_of_poultry,0.7
+79,119,Germany,Latvia,2016,fat_of_poultry,0.57
+79,119,Germany,Latvia,2017,fat_of_poultry,0.52
+79,119,Germany,Latvia,2018,fat_of_poultry,0.53
+79,119,Germany,Latvia,2019,fat_of_poultry,0.64
+79,119,Germany,Latvia,2020,fat_of_poultry,0.15
+79,119,Germany,Latvia,2021,fat_of_poultry,0.12
+79,119,Germany,Latvia,2022,fat_of_poultry,0.14
+79,119,Germany,Latvia,2023,fat_of_poultry,0.03
+150,103,Netherlands (Kingdom of the),Iraq,2021,fat_of_poultry,5.93
+68,110,France,Japan,1990,fat_of_poultry,1.0
+68,110,France,Japan,2000,fat_of_poultry,1.0
+68,110,France,Japan,2012,fat_of_poultry,3.0
+68,110,France,Japan,2013,fat_of_poultry,1.0
+68,110,France,Japan,2014,fat_of_poultry,152.0
+68,110,France,Japan,2015,fat_of_poultry,2.0
+68,110,France,Japan,2016,fat_of_poultry,32.9
+68,110,France,Japan,2017,fat_of_poultry,47.38
+68,110,France,Japan,2019,fat_of_poultry,1.61
+68,110,France,Japan,2020,fat_of_poultry,0.23
+68,110,France,Japan,2021,fat_of_poultry,21.02
+255,216,Belgium,Thailand,2013,fat_of_poultry,77.0
+106,150,Italy,Netherlands (Kingdom of the),1991,fat_of_poultry,19.0
+106,150,Italy,Netherlands (Kingdom of the),2014,fat_of_poultry,0.17
+106,150,Italy,Netherlands (Kingdom of the),2015,fat_of_poultry,0.01
+106,150,Italy,Netherlands (Kingdom of the),2016,fat_of_poultry,0.02
+106,150,Italy,Netherlands (Kingdom of the),2023,fat_of_poultry,0.83
+33,231,Canada,United States of America,2012,fat_of_poultry,630.0
+33,231,Canada,United States of America,2013,fat_of_poultry,77.0
+33,231,Canada,United States of America,2014,fat_of_poultry,46.98
+33,231,Canada,United States of America,2015,fat_of_poultry,70.47
+33,231,Canada,United States of America,2016,fat_of_poultry,394.97
+33,231,Canada,United States of America,2017,fat_of_poultry,424.45
+33,231,Canada,United States of America,2018,fat_of_poultry,521.27
+33,231,Canada,United States of America,2019,fat_of_poultry,369.26
+33,231,Canada,United States of America,2020,fat_of_poultry,350.24
+33,231,Canada,United States of America,2021,fat_of_poultry,296.55
+33,231,Canada,United States of America,2022,fat_of_poultry,588.43
+33,231,Canada,United States of America,2023,fat_of_poultry,393.62
+203,171,Spain,Philippines,2013,fat_of_poultry,150.0
+203,171,Spain,Philippines,2014,fat_of_poultry,198.6
+203,171,Spain,Philippines,2015,fat_of_poultry,100.0
+203,171,Spain,Philippines,2016,fat_of_poultry,24.91
+203,171,Spain,Philippines,2017,fat_of_poultry,75.0
+150,104,Netherlands (Kingdom of the),Ireland,2001,fat_of_poultry,13.0
+150,104,Netherlands (Kingdom of the),Ireland,2022,fat_of_poultry,0.28
+150,104,Netherlands (Kingdom of the),Ireland,2023,fat_of_poultry,0.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1986,fat_of_poultry,58.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1987,fat_of_poultry,8.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1989,fat_of_poultry,26.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1992,fat_of_poultry,27.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1993,fat_of_poultry,169.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1994,fat_of_poultry,119.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1995,fat_of_poultry,83.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1996,fat_of_poultry,26.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1997,fat_of_poultry,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1998,fat_of_poultry,65.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1999,fat_of_poultry,76.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2000,fat_of_poultry,383.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2001,fat_of_poultry,495.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2002,fat_of_poultry,76.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2003,fat_of_poultry,1697.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2004,fat_of_poultry,1045.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2005,fat_of_poultry,226.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2006,fat_of_poultry,128.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2007,fat_of_poultry,81.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2008,fat_of_poultry,32.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2009,fat_of_poultry,4.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2011,fat_of_poultry,8.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2012,fat_of_poultry,93.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2013,fat_of_poultry,21.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2014,fat_of_poultry,36.3
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2015,fat_of_poultry,130.5
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2016,fat_of_poultry,144.21
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2017,fat_of_poultry,580.53
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2018,fat_of_poultry,1167.91
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2019,fat_of_poultry,280.35
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2020,fat_of_poultry,10.58
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2021,fat_of_poultry,0.19
+203,173,Spain,Poland,2008,fat_of_poultry,22.0
+203,173,Spain,Poland,2009,fat_of_poultry,22.0
+203,173,Spain,Poland,2012,fat_of_poultry,2283.0
+203,173,Spain,Poland,2013,fat_of_poultry,1859.0
+203,173,Spain,Poland,2014,fat_of_poultry,1196.5
+203,173,Spain,Poland,2015,fat_of_poultry,644.2
+203,173,Spain,Poland,2016,fat_of_poultry,528.9
+203,173,Spain,Poland,2021,fat_of_poultry,20.83
+203,173,Spain,Poland,2022,fat_of_poultry,126.0
+203,173,Spain,Poland,2023,fat_of_poultry,25.8
+79,126,Germany,Lithuania,2014,fat_of_poultry,0.02
+79,126,Germany,Lithuania,2015,fat_of_poultry,0.1
+79,126,Germany,Lithuania,2016,fat_of_poultry,0.06
+79,126,Germany,Lithuania,2017,fat_of_poultry,0.17
+79,126,Germany,Lithuania,2018,fat_of_poultry,0.05
+231,118,United States of America,Kuwait,2015,fat_of_poultry,1.6
+231,118,United States of America,Kuwait,2019,fat_of_poultry,13.43
+231,118,United States of America,Kuwait,2020,fat_of_poultry,21.23
+68,118,France,Kuwait,2019,fat_of_poultry,0.3
+255,230,Belgium,Ukraine,2001,fat_of_poultry,21.0
+255,230,Belgium,Ukraine,2012,fat_of_poultry,15.0
+68,119,France,Latvia,2011,fat_of_poultry,1.0
+68,119,France,Latvia,2013,fat_of_poultry,1.0
+68,119,France,Latvia,2014,fat_of_poultry,1.1
+68,119,France,Latvia,2015,fat_of_poultry,1.4
+68,119,France,Latvia,2016,fat_of_poultry,1.41
+68,119,France,Latvia,2017,fat_of_poultry,0.01
+203,174,Spain,Portugal,2008,fat_of_poultry,4.0
+203,174,Spain,Portugal,2009,fat_of_poultry,5.0
+203,174,Spain,Portugal,2010,fat_of_poultry,5.0
+203,174,Spain,Portugal,2011,fat_of_poultry,12.0
+203,174,Spain,Portugal,2012,fat_of_poultry,88.0
+203,174,Spain,Portugal,2013,fat_of_poultry,205.0
+203,174,Spain,Portugal,2014,fat_of_poultry,43.7
+203,174,Spain,Portugal,2015,fat_of_poultry,561.6
+203,174,Spain,Portugal,2016,fat_of_poultry,891.17
+203,174,Spain,Portugal,2017,fat_of_poultry,1.45
+203,174,Spain,Portugal,2018,fat_of_poultry,1.86
+203,174,Spain,Portugal,2019,fat_of_poultry,10.28
+203,174,Spain,Portugal,2020,fat_of_poultry,12.09
+203,174,Spain,Portugal,2021,fat_of_poultry,28.91
+203,174,Spain,Portugal,2022,fat_of_poultry,60.78
+203,174,Spain,Portugal,2023,fat_of_poultry,59.6
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,5.1
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,3.3
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,3.5
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,4.96
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,3.88
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,2.92
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,4.59
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,2.88
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.96
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,1.6
+68,121,France,Lebanon,2022,fat_of_poultry,0.01
+150,106,Netherlands (Kingdom of the),Italy,2015,fat_of_poultry,0.16
+150,106,Netherlands (Kingdom of the),Italy,2018,fat_of_poultry,0.01
+150,106,Netherlands (Kingdom of the),Italy,2019,fat_of_poultry,54.0
+150,106,Netherlands (Kingdom of the),Italy,2022,fat_of_poultry,0.77
+150,106,Netherlands (Kingdom of the),Italy,2023,fat_of_poultry,0.04
+79,132,Germany,Maldives,2019,fat_of_poultry,0.07
+231,127,United States of America,Marshall Islands,2012,fat_of_poultry,2.0
+231,127,United States of America,Marshall Islands,2017,fat_of_poultry,2.15
+231,127,United States of America,Marshall Islands,2019,fat_of_poultry,1.63
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,1997,fat_of_poultry,1.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2001,fat_of_poultry,1.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2002,fat_of_poultry,2.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2003,fat_of_poultry,5.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2018,fat_of_poultry,0.15
+203,117,Spain,Republic of Korea,2013,fat_of_poultry,8.0
+203,117,Spain,Republic of Korea,2014,fat_of_poultry,29.0
+203,117,Spain,Republic of Korea,2015,fat_of_poultry,5.5
+203,117,Spain,Republic of Korea,2017,fat_of_poultry,68.76
+203,117,Spain,Republic of Korea,2018,fat_of_poultry,91.62
+68,256,France,Luxembourg,2000,fat_of_poultry,6.0
+68,256,France,Luxembourg,2001,fat_of_poultry,10.0
+68,256,France,Luxembourg,2002,fat_of_poultry,11.0
+68,256,France,Luxembourg,2003,fat_of_poultry,27.0
+68,256,France,Luxembourg,2004,fat_of_poultry,12.0
+68,256,France,Luxembourg,2005,fat_of_poultry,12.0
+68,256,France,Luxembourg,2006,fat_of_poultry,12.0
+68,256,France,Luxembourg,2007,fat_of_poultry,13.0
+68,256,France,Luxembourg,2008,fat_of_poultry,13.0
+68,256,France,Luxembourg,2009,fat_of_poultry,16.0
+68,256,France,Luxembourg,2010,fat_of_poultry,8.0
+68,256,France,Luxembourg,2011,fat_of_poultry,1.0
+68,256,France,Luxembourg,2013,fat_of_poultry,4.0
+68,256,France,Luxembourg,2014,fat_of_poultry,7.8
+68,256,France,Luxembourg,2015,fat_of_poultry,12.9
+68,256,France,Luxembourg,2016,fat_of_poultry,16.25
+68,256,France,Luxembourg,2017,fat_of_poultry,5.96
+68,256,France,Luxembourg,2018,fat_of_poultry,12.53
+68,256,France,Luxembourg,2019,fat_of_poultry,14.54
+68,256,France,Luxembourg,2020,fat_of_poultry,16.09
+68,256,France,Luxembourg,2021,fat_of_poultry,2.69
+68,256,France,Luxembourg,2022,fat_of_poultry,0.33
+68,256,France,Luxembourg,2023,fat_of_poultry,2.25
+255,237,Belgium,Viet Nam,2007,fat_of_poultry,26.0
+255,237,Belgium,Viet Nam,2023,fat_of_poultry,74.37
+203,183,Spain,Romania,2014,fat_of_poultry,15.0
+203,183,Spain,Romania,2022,fat_of_poultry,0.01
+203,183,Spain,Romania,2023,fat_of_poultry,5.93
+231,138,United States of America,Mexico,2012,fat_of_poultry,11385.0
+231,138,United States of America,Mexico,2013,fat_of_poultry,4071.0
+231,138,United States of America,Mexico,2014,fat_of_poultry,2756.85
+231,138,United States of America,Mexico,2015,fat_of_poultry,2538.01
+231,138,United States of America,Mexico,2016,fat_of_poultry,265.44
+231,138,United States of America,Mexico,2017,fat_of_poultry,54.86
+231,138,United States of America,Mexico,2018,fat_of_poultry,105.01
+231,138,United States of America,Mexico,2020,fat_of_poultry,768.39
+231,138,United States of America,Mexico,2021,fat_of_poultry,76.0
+231,138,United States of America,Mexico,2022,fat_of_poultry,8.48
+231,138,United States of America,Mexico,2023,fat_of_poultry,190.37
+150,110,Netherlands (Kingdom of the),Japan,2015,fat_of_poultry,24.2
+150,110,Netherlands (Kingdom of the),Japan,2018,fat_of_poultry,23.44
+150,110,Netherlands (Kingdom of the),Japan,2020,fat_of_poultry,0.04
+106,173,Italy,Poland,2017,fat_of_poultry,0.4
+106,173,Italy,Poland,2018,fat_of_poultry,1.79
+106,173,Italy,Poland,2019,fat_of_poultry,0.12
+106,173,Italy,Poland,2020,fat_of_poultry,0.05
+106,173,Italy,Poland,2021,fat_of_poultry,0.05
+106,173,Italy,Poland,2022,fat_of_poultry,59.49
+106,173,Italy,Poland,2023,fat_of_poultry,267.86
+203,185,Spain,Russian Federation,2013,fat_of_poultry,21.0
+203,185,Spain,Russian Federation,2014,fat_of_poultry,23.3
+68,129,France,Madagascar,2023,fat_of_poultry,0.1
+229,171,United Kingdom of Great Britain and Northern Ireland,Philippines,2021,fat_of_poultry,24.76
+106,174,Italy,Portugal,2022,fat_of_poultry,0.05
+106,174,Italy,Portugal,2023,fat_of_poultry,0.02
+68,132,France,Maldives,2021,fat_of_poultry,0.03
+203,272,Spain,Serbia,2016,fat_of_poultry,22.4
+203,272,Spain,Serbia,2017,fat_of_poultry,14.95
+68,133,France,Mali,2022,fat_of_poultry,0.03
+203,200,Spain,Singapore,2012,fat_of_poultry,209.0
+203,200,Spain,Singapore,2013,fat_of_poultry,70.0
+203,200,Spain,Singapore,2014,fat_of_poultry,44.7
+203,200,Spain,Singapore,2016,fat_of_poultry,84.14
+79,150,Germany,Netherlands (Kingdom of the),1991,fat_of_poultry,119.0
+79,150,Germany,Netherlands (Kingdom of the),1992,fat_of_poultry,99.0
+79,150,Germany,Netherlands (Kingdom of the),1995,fat_of_poultry,27.0
+79,150,Germany,Netherlands (Kingdom of the),1996,fat_of_poultry,79.0
+79,150,Germany,Netherlands (Kingdom of the),1997,fat_of_poultry,29.0
+79,150,Germany,Netherlands (Kingdom of the),1998,fat_of_poultry,1.0
+79,150,Germany,Netherlands (Kingdom of the),2003,fat_of_poultry,2.0
+79,150,Germany,Netherlands (Kingdom of the),2014,fat_of_poultry,0.1
+79,150,Germany,Netherlands (Kingdom of the),2021,fat_of_poultry,0.92
+79,150,Germany,Netherlands (Kingdom of the),2022,fat_of_poultry,41.09
+79,150,Germany,Netherlands (Kingdom of the),2023,fat_of_poultry,40.29
+68,134,France,Malta,2016,fat_of_poultry,0.07
+68,134,France,Malta,2023,fat_of_poultry,0.13
+203,199,Spain,Slovakia,2012,fat_of_poultry,22.0
+203,199,Spain,Slovakia,2014,fat_of_poultry,2.0
+203,199,Spain,Slovakia,2016,fat_of_poultry,17.81
+231,150,United States of America,Netherlands (Kingdom of the),2013,fat_of_poultry,4.0
+231,150,United States of America,Netherlands (Kingdom of the),2017,fat_of_poultry,1500.0
+231,150,United States of America,Netherlands (Kingdom of the),2020,fat_of_poultry,7.58
+150,119,Netherlands (Kingdom of the),Latvia,1995,fat_of_poultry,4.0
+150,119,Netherlands (Kingdom of the),Latvia,2022,fat_of_poultry,0.02
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1990,fat_of_poultry,2.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2008,fat_of_poultry,12.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2017,fat_of_poultry,22.47
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2019,fat_of_poultry,1.92
+203,198,Spain,Slovenia,2013,fat_of_poultry,22.0
+106,183,Italy,Romania,2004,fat_of_poultry,41.0
+106,183,Italy,Romania,2012,fat_of_poultry,3.0
+106,183,Italy,Romania,2021,fat_of_poultry,138.41
+106,183,Italy,Romania,2022,fat_of_poultry,62.2
+106,183,Italy,Romania,2023,fat_of_poultry,209.28
+203,202,Spain,South Africa,2012,fat_of_poultry,25.0
+68,137,France,Mauritius,2005,fat_of_poultry,17.0
+68,137,France,Mauritius,2006,fat_of_poultry,17.0
+68,137,France,Mauritius,2021,fat_of_poultry,0.01
+229,179,United Kingdom of Great Britain and Northern Ireland,Qatar,2015,fat_of_poultry,16.0
+231,156,United States of America,New Zealand,2023,fat_of_poultry,14.1
+106,185,Italy,Russian Federation,2004,fat_of_poultry,20.0
+203,210,Spain,Sweden,2022,fat_of_poultry,0.02
+203,210,Spain,Sweden,2023,fat_of_poultry,0.48
+150,126,Netherlands (Kingdom of the),Lithuania,2022,fat_of_poultry,0.03
+68,143,France,Morocco,2023,fat_of_poultry,2.0
+79,154,Germany,North Macedonia,2011,fat_of_poultry,1.0
+203,211,Spain,Switzerland,2013,fat_of_poultry,2.0
+203,211,Spain,Switzerland,2014,fat_of_poultry,1.5
+203,211,Spain,Switzerland,2015,fat_of_poultry,3.0
+203,211,Spain,Switzerland,2016,fat_of_poultry,2.96
+203,211,Spain,Switzerland,2017,fat_of_poultry,2.22
+203,211,Spain,Switzerland,2018,fat_of_poultry,1.85
+203,211,Spain,Switzerland,2019,fat_of_poultry,2.22
+203,211,Spain,Switzerland,2020,fat_of_poultry,2.22
+106,272,Italy,Serbia,2010,fat_of_poultry,47.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2018,fat_of_poultry,0.01
+150,256,Netherlands (Kingdom of the),Luxembourg,2019,fat_of_poultry,0.02
+150,256,Netherlands (Kingdom of the),Luxembourg,2022,fat_of_poultry,0.31
+150,256,Netherlands (Kingdom of the),Luxembourg,2023,fat_of_poultry,0.24
+68,150,France,Netherlands (Kingdom of the),1986,fat_of_poultry,15.0
+68,150,France,Netherlands (Kingdom of the),1997,fat_of_poultry,19.0
+68,150,France,Netherlands (Kingdom of the),1999,fat_of_poultry,41.0
+68,150,France,Netherlands (Kingdom of the),2000,fat_of_poultry,75.0
+68,150,France,Netherlands (Kingdom of the),2001,fat_of_poultry,19.0
+68,150,France,Netherlands (Kingdom of the),2002,fat_of_poultry,9.0
+68,150,France,Netherlands (Kingdom of the),2003,fat_of_poultry,6.0
+68,150,France,Netherlands (Kingdom of the),2004,fat_of_poultry,43.0
+68,150,France,Netherlands (Kingdom of the),2005,fat_of_poultry,2.0
+68,150,France,Netherlands (Kingdom of the),2006,fat_of_poultry,1.0
+68,150,France,Netherlands (Kingdom of the),2007,fat_of_poultry,1.0
+68,150,France,Netherlands (Kingdom of the),2008,fat_of_poultry,25.0
+68,150,France,Netherlands (Kingdom of the),2009,fat_of_poultry,3.0
+68,150,France,Netherlands (Kingdom of the),2010,fat_of_poultry,2.0
+68,150,France,Netherlands (Kingdom of the),2011,fat_of_poultry,2.0
+68,150,France,Netherlands (Kingdom of the),2012,fat_of_poultry,1.0
+68,150,France,Netherlands (Kingdom of the),2013,fat_of_poultry,2.0
+68,150,France,Netherlands (Kingdom of the),2014,fat_of_poultry,107.2
+68,150,France,Netherlands (Kingdom of the),2015,fat_of_poultry,2.2
+68,150,France,Netherlands (Kingdom of the),2016,fat_of_poultry,2.14
+68,150,France,Netherlands (Kingdom of the),2017,fat_of_poultry,2.56
+68,150,France,Netherlands (Kingdom of the),2018,fat_of_poultry,26.12
+68,150,France,Netherlands (Kingdom of the),2019,fat_of_poultry,67.52
+68,150,France,Netherlands (Kingdom of the),2020,fat_of_poultry,25.53
+68,150,France,Netherlands (Kingdom of the),2021,fat_of_poultry,88.5
+68,150,France,Netherlands (Kingdom of the),2022,fat_of_poultry,1436.38
+68,150,France,Netherlands (Kingdom of the),2023,fat_of_poultry,2902.48
+150,131,Netherlands (Kingdom of the),Malaysia,2017,fat_of_poultry,103.36
+106,199,Italy,Slovakia,2014,fat_of_poultry,0.03
+106,199,Italy,Slovakia,2022,fat_of_poultry,126.32
+106,199,Italy,Slovakia,2023,fat_of_poultry,184.79
+231,166,United States of America,Panama,2012,fat_of_poultry,1.0
+231,166,United States of America,Panama,2016,fat_of_poultry,21.82
+231,166,United States of America,Panama,2018,fat_of_poultry,124.27
+231,166,United States of America,Panama,2019,fat_of_poultry,53.51
+231,166,United States of America,Panama,2022,fat_of_poultry,6.83
+229,200,United Kingdom of Great Britain and Northern Ireland,Singapore,2005,fat_of_poultry,26.0
+203,213,Spain,Turkmenistan,2017,fat_of_poultry,21.97
+106,198,Italy,Slovenia,2000,fat_of_poultry,4.0
+106,198,Italy,Slovenia,2001,fat_of_poultry,7.0
+106,198,Italy,Slovenia,2002,fat_of_poultry,20.0
+106,198,Italy,Slovenia,2003,fat_of_poultry,12.0
+106,198,Italy,Slovenia,2004,fat_of_poultry,4.0
+106,198,Italy,Slovenia,2012,fat_of_poultry,2.0
+106,198,Italy,Slovenia,2013,fat_of_poultry,6.0
+106,198,Italy,Slovenia,2014,fat_of_poultry,0.5
+106,198,Italy,Slovenia,2015,fat_of_poultry,0.8
+106,198,Italy,Slovenia,2016,fat_of_poultry,0.54
+106,198,Italy,Slovenia,2017,fat_of_poultry,0.09
+106,198,Italy,Slovenia,2018,fat_of_poultry,0.16
+106,198,Italy,Slovenia,2019,fat_of_poultry,0.12
+106,198,Italy,Slovenia,2020,fat_of_poultry,0.06
+106,198,Italy,Slovenia,2021,fat_of_poultry,0.02
+106,198,Italy,Slovenia,2022,fat_of_poultry,28.95
+106,198,Italy,Slovenia,2023,fat_of_poultry,22.85
+150,134,Netherlands (Kingdom of the),Malta,2014,fat_of_poultry,0.01
+150,134,Netherlands (Kingdom of the),Malta,2016,fat_of_poultry,0.1
+150,134,Netherlands (Kingdom of the),Malta,2017,fat_of_poultry,0.02
+150,134,Netherlands (Kingdom of the),Malta,2018,fat_of_poultry,0.01
+150,134,Netherlands (Kingdom of the),Malta,2019,fat_of_poultry,0.02
+150,134,Netherlands (Kingdom of the),Malta,2020,fat_of_poultry,0.08
+150,134,Netherlands (Kingdom of the),Malta,2021,fat_of_poultry,0.02
+150,134,Netherlands (Kingdom of the),Malta,2022,fat_of_poultry,0.03
+150,134,Netherlands (Kingdom of the),Malta,2023,fat_of_poultry,0.09
+231,169,United States of America,Paraguay,2015,fat_of_poultry,32.23
+231,169,United States of America,Paraguay,2016,fat_of_poultry,65.94
+231,170,United States of America,Peru,2012,fat_of_poultry,4.0
+231,170,United States of America,Peru,2013,fat_of_poultry,131.0
+231,170,United States of America,Peru,2014,fat_of_poultry,183.86
+231,170,United States of America,Peru,2015,fat_of_poultry,39.84
+231,170,United States of America,Peru,2019,fat_of_poultry,38.53
+68,153,France,New Caledonia,2010,fat_of_poultry,4.0
+68,153,France,New Caledonia,2013,fat_of_poultry,38.0
+68,153,France,New Caledonia,2015,fat_of_poultry,13.4
+68,153,France,New Caledonia,2022,fat_of_poultry,0.32
+79,173,Germany,Poland,2014,fat_of_poultry,0.2
+79,173,Germany,Poland,2015,fat_of_poultry,0.2
+79,173,Germany,Poland,2016,fat_of_poultry,0.25
+79,173,Germany,Poland,2017,fat_of_poultry,0.16
+79,173,Germany,Poland,2018,fat_of_poultry,0.19
+79,173,Germany,Poland,2019,fat_of_poultry,0.07
+79,173,Germany,Poland,2020,fat_of_poultry,0.06
+79,173,Germany,Poland,2021,fat_of_poultry,0.04
+79,173,Germany,Poland,2022,fat_of_poultry,0.03
+79,173,Germany,Poland,2023,fat_of_poultry,0.04
+68,156,France,New Zealand,2011,fat_of_poultry,1.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2012,fat_of_poultry,338.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,418.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,505.9
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,330.7
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,272.09
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,3.88
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.16
+231,171,United States of America,Philippines,2012,fat_of_poultry,361.0
+231,171,United States of America,Philippines,2014,fat_of_poultry,3.56
+231,171,United States of America,Philippines,2019,fat_of_poultry,7.36
+231,171,United States of America,Philippines,2021,fat_of_poultry,67.63
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2000,fat_of_poultry,45.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2001,fat_of_poultry,399.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2003,fat_of_poultry,227.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2004,fat_of_poultry,40.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2012,fat_of_poultry,22.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2021,fat_of_poultry,0.08
+106,203,Italy,Spain,2012,fat_of_poultry,223.0
+106,203,Italy,Spain,2013,fat_of_poultry,717.0
+106,203,Italy,Spain,2015,fat_of_poultry,52.3
+106,203,Italy,Spain,2016,fat_of_poultry,596.93
+106,203,Italy,Spain,2017,fat_of_poultry,184.12
+106,203,Italy,Spain,2018,fat_of_poultry,4.99
+106,203,Italy,Spain,2019,fat_of_poultry,133.45
+106,203,Italy,Spain,2022,fat_of_poultry,26.79
+203,234,Spain,Uruguay,2015,fat_of_poultry,12.6
+203,234,Spain,Uruguay,2016,fat_of_poultry,48.84
+203,234,Spain,Uruguay,2019,fat_of_poultry,74.55
+203,234,Spain,Uruguay,2020,fat_of_poultry,24.69
+203,234,Spain,Uruguay,2021,fat_of_poultry,99.76
+203,234,Spain,Uruguay,2022,fat_of_poultry,24.63
+231,117,United States of America,Republic of Korea,2012,fat_of_poultry,429.0
+231,117,United States of America,Republic of Korea,2014,fat_of_poultry,271.99
+231,117,United States of America,Republic of Korea,2018,fat_of_poultry,5.62
+231,117,United States of America,Republic of Korea,2020,fat_of_poultry,703.86
+231,117,United States of America,Republic of Korea,2021,fat_of_poultry,471.51
+231,117,United States of America,Republic of Korea,2022,fat_of_poultry,564.56
+231,117,United States of America,Republic of Korea,2023,fat_of_poultry,442.44
+68,171,France,Philippines,2013,fat_of_poultry,25.0
+68,171,France,Philippines,2014,fat_of_poultry,99.6
+68,171,France,Philippines,2015,fat_of_poultry,123.7
+68,171,France,Philippines,2016,fat_of_poultry,174.69
+68,171,France,Philippines,2018,fat_of_poultry,25.0
+68,171,France,Philippines,2019,fat_of_poultry,258.52
+68,171,France,Philippines,2020,fat_of_poultry,319.99
+68,171,France,Philippines,2021,fat_of_poultry,451.89
+68,171,France,Philippines,2022,fat_of_poultry,50.41
+68,171,France,Philippines,2023,fat_of_poultry,49.17
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1987,fat_of_poultry,2.0
+203,237,Spain,Viet Nam,2013,fat_of_poultry,49.0
+203,237,Spain,Viet Nam,2017,fat_of_poultry,46.0
+203,237,Spain,Viet Nam,2018,fat_of_poultry,25.0
+203,237,Spain,Viet Nam,2019,fat_of_poultry,50.0
+150,162,Netherlands (Kingdom of the),Norway,2012,fat_of_poultry,2.0
+150,162,Netherlands (Kingdom of the),Norway,2019,fat_of_poultry,1.3
+150,162,Netherlands (Kingdom of the),Norway,2020,fat_of_poultry,0.91
+150,162,Netherlands (Kingdom of the),Norway,2021,fat_of_poultry,0.46
+150,162,Netherlands (Kingdom of the),Norway,2022,fat_of_poultry,1.96
+150,162,Netherlands (Kingdom of the),Norway,2023,fat_of_poultry,2.4
+68,173,France,Poland,1995,fat_of_poultry,1.0
+68,173,France,Poland,1996,fat_of_poultry,2.0
+68,173,France,Poland,1999,fat_of_poultry,22.0
+68,173,France,Poland,2004,fat_of_poultry,22.0
+68,173,France,Poland,2007,fat_of_poultry,4.0
+68,173,France,Poland,2008,fat_of_poultry,5.0
+68,173,France,Poland,2009,fat_of_poultry,225.0
+68,173,France,Poland,2010,fat_of_poultry,9.0
+68,173,France,Poland,2011,fat_of_poultry,1.0
+68,173,France,Poland,2012,fat_of_poultry,1.0
+68,173,France,Poland,2013,fat_of_poultry,1.0
+68,173,France,Poland,2014,fat_of_poultry,0.3
+68,173,France,Poland,2015,fat_of_poultry,0.2
+68,173,France,Poland,2016,fat_of_poultry,1.39
+68,173,France,Poland,2017,fat_of_poultry,4.45
+68,173,France,Poland,2018,fat_of_poultry,0.91
+68,173,France,Poland,2022,fat_of_poultry,4.22
+68,173,France,Poland,2023,fat_of_poultry,5.36
+106,211,Italy,Switzerland,2004,fat_of_poultry,24.0
+106,211,Italy,Switzerland,2009,fat_of_poultry,123.0
+106,211,Italy,Switzerland,2010,fat_of_poultry,381.0
+106,211,Italy,Switzerland,2011,fat_of_poultry,256.0
+106,211,Italy,Switzerland,2012,fat_of_poultry,1.0
+106,211,Italy,Switzerland,2013,fat_of_poultry,1.0
+106,211,Italy,Switzerland,2014,fat_of_poultry,0.6
+106,211,Italy,Switzerland,2015,fat_of_poultry,0.4
+106,211,Italy,Switzerland,2016,fat_of_poultry,0.61
+106,211,Italy,Switzerland,2017,fat_of_poultry,1.65
+106,211,Italy,Switzerland,2018,fat_of_poultry,0.79
+106,211,Italy,Switzerland,2019,fat_of_poultry,0.13
+106,211,Italy,Switzerland,2020,fat_of_poultry,0.75
+106,211,Italy,Switzerland,2021,fat_of_poultry,0.71
+106,211,Italy,Switzerland,2022,fat_of_poultry,0.63
+106,211,Italy,Switzerland,2023,fat_of_poultry,0.83
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2016,fat_of_poultry,0.7
+68,174,France,Portugal,1999,fat_of_poultry,1120.0
+68,174,France,Portugal,2000,fat_of_poultry,507.0
+68,174,France,Portugal,2002,fat_of_poultry,1.0
+68,174,France,Portugal,2004,fat_of_poultry,73.0
+68,174,France,Portugal,2018,fat_of_poultry,0.06
+68,174,France,Portugal,2022,fat_of_poultry,0.03
+231,244,United States of America,Samoa,2015,fat_of_poultry,49.68
+106,216,Italy,Thailand,2016,fat_of_poultry,25.0
+106,216,Italy,Thailand,2018,fat_of_poultry,50.0
+106,216,Italy,Thailand,2021,fat_of_poultry,25.0
+150,171,Netherlands (Kingdom of the),Philippines,2013,fat_of_poultry,52.0
+150,171,Netherlands (Kingdom of the),Philippines,2017,fat_of_poultry,154.03
+150,171,Netherlands (Kingdom of the),Philippines,2018,fat_of_poultry,108.0
+150,171,Netherlands (Kingdom of the),Philippines,2021,fat_of_poultry,156.13
+150,171,Netherlands (Kingdom of the),Philippines,2022,fat_of_poultry,132.71
+150,171,Netherlands (Kingdom of the),Philippines,2023,fat_of_poultry,264.69
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2006,fat_of_poultry,1.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2014,fat_of_poultry,70.5
+68,179,France,Qatar,2014,fat_of_poultry,1.0
+150,173,Netherlands (Kingdom of the),Poland,1996,fat_of_poultry,19.0
+150,173,Netherlands (Kingdom of the),Poland,2009,fat_of_poultry,295.0
+150,173,Netherlands (Kingdom of the),Poland,2010,fat_of_poultry,170.0
+150,173,Netherlands (Kingdom of the),Poland,2015,fat_of_poultry,26.2
+150,173,Netherlands (Kingdom of the),Poland,2016,fat_of_poultry,239.99
+150,173,Netherlands (Kingdom of the),Poland,2017,fat_of_poultry,292.15
+150,173,Netherlands (Kingdom of the),Poland,2018,fat_of_poultry,66.78
+150,173,Netherlands (Kingdom of the),Poland,2019,fat_of_poultry,160.4
+150,173,Netherlands (Kingdom of the),Poland,2021,fat_of_poultry,0.59
+150,173,Netherlands (Kingdom of the),Poland,2022,fat_of_poultry,0.38
+150,173,Netherlands (Kingdom of the),Poland,2023,fat_of_poultry,0.07
+68,117,France,Republic of Korea,2015,fat_of_poultry,22.0
+68,117,France,Republic of Korea,2020,fat_of_poultry,8.98
+231,200,United States of America,Singapore,2013,fat_of_poultry,19.0
+231,200,United States of America,Singapore,2016,fat_of_poultry,989.0
+231,200,United States of America,Singapore,2017,fat_of_poultry,4389.99
+231,200,United States of America,Singapore,2023,fat_of_poultry,77.81
+68,183,France,Romania,2017,fat_of_poultry,0.03
+150,174,Netherlands (Kingdom of the),Portugal,2018,fat_of_poultry,0.05
+150,174,Netherlands (Kingdom of the),Portugal,2019,fat_of_poultry,0.01
+150,174,Netherlands (Kingdom of the),Portugal,2022,fat_of_poultry,0.05
+231,202,United States of America,South Africa,2018,fat_of_poultry,3.98
+79,198,Germany,Slovenia,2011,fat_of_poultry,2.0
+68,185,France,Russian Federation,1997,fat_of_poultry,11.0
+68,185,France,Russian Federation,2002,fat_of_poultry,22.0
+68,185,France,Russian Federation,2013,fat_of_poultry,36.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,2.1
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,0.04
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,0.15
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.14
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,0.05
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,0.01
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.51
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,0.3
+68,189,France,Saint Lucia,2023,fat_of_poultry,0.04
+150,117,Netherlands (Kingdom of the),Republic of Korea,2003,fat_of_poultry,36.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2004,fat_of_poultry,13.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2020,fat_of_poultry,0.01
+68,195,France,Senegal,2016,fat_of_poultry,0.22
+68,195,France,Senegal,2017,fat_of_poultry,0.22
+68,195,France,Senegal,2022,fat_of_poultry,0.21
+150,146,Netherlands (Kingdom of the),Republic of Moldova,2014,fat_of_poultry,4.6
+150,146,Netherlands (Kingdom of the),Republic of Moldova,2015,fat_of_poultry,2.7
+79,203,Germany,Spain,2014,fat_of_poultry,0.01
+79,203,Germany,Spain,2015,fat_of_poultry,0.6
+79,203,Germany,Spain,2016,fat_of_poultry,0.34
+79,203,Germany,Spain,2017,fat_of_poultry,0.06
+79,203,Germany,Spain,2018,fat_of_poultry,0.02
+79,203,Germany,Spain,2019,fat_of_poultry,0.02
+79,203,Germany,Spain,2020,fat_of_poultry,0.02
+150,183,Netherlands (Kingdom of the),Romania,2004,fat_of_poultry,40.0
+150,183,Netherlands (Kingdom of the),Romania,2016,fat_of_poultry,41.6
+150,183,Netherlands (Kingdom of the),Romania,2017,fat_of_poultry,6.35
+150,183,Netherlands (Kingdom of the),Romania,2018,fat_of_poultry,9.95
+150,183,Netherlands (Kingdom of the),Romania,2022,fat_of_poultry,0.06
+68,200,France,Singapore,2011,fat_of_poultry,2.0
+68,200,France,Singapore,2015,fat_of_poultry,0.2
+68,200,France,Singapore,2016,fat_of_poultry,0.82
+68,200,France,Singapore,2017,fat_of_poultry,0.08
+68,200,France,Singapore,2018,fat_of_poultry,0.31
+68,200,France,Singapore,2019,fat_of_poultry,0.23
+68,200,France,Singapore,2020,fat_of_poultry,0.51
+68,200,France,Singapore,2022,fat_of_poultry,0.03
+68,200,France,Singapore,2023,fat_of_poultry,0.01
+150,185,Netherlands (Kingdom of the),Russian Federation,2003,fat_of_poultry,1236.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2004,fat_of_poultry,5672.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2005,fat_of_poultry,60.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2014,fat_of_poultry,8.0
+68,199,France,Slovakia,2021,fat_of_poultry,0.01
+231,216,United States of America,Thailand,2012,fat_of_poultry,33.0
+106,237,Italy,Viet Nam,2020,fat_of_poultry,50.0
+106,237,Italy,Viet Nam,2022,fat_of_poultry,25.1
+68,202,France,South Africa,2023,fat_of_poultry,25.0
+231,220,United States of America,Trinidad and Tobago,2012,fat_of_poultry,54.0
+231,220,United States of America,Trinidad and Tobago,2013,fat_of_poultry,26.0
+231,220,United States of America,Trinidad and Tobago,2015,fat_of_poultry,12.0
+79,211,Germany,Switzerland,2007,fat_of_poultry,13.0
+79,211,Germany,Switzerland,2008,fat_of_poultry,7.0
+79,211,Germany,Switzerland,2014,fat_of_poultry,0.01
+79,211,Germany,Switzerland,2017,fat_of_poultry,0.3
+68,203,France,Spain,1988,fat_of_poultry,20.0
+68,203,France,Spain,1989,fat_of_poultry,2.0
+68,203,France,Spain,1990,fat_of_poultry,1.0
+68,203,France,Spain,1993,fat_of_poultry,4.0
+68,203,France,Spain,1995,fat_of_poultry,120.0
+68,203,France,Spain,1996,fat_of_poultry,192.0
+68,203,France,Spain,1997,fat_of_poultry,78.0
+68,203,France,Spain,1998,fat_of_poultry,128.0
+68,203,France,Spain,1999,fat_of_poultry,623.0
+68,203,France,Spain,2000,fat_of_poultry,321.0
+68,203,France,Spain,2001,fat_of_poultry,157.0
+68,203,France,Spain,2002,fat_of_poultry,1451.0
+68,203,France,Spain,2003,fat_of_poultry,3366.0
+68,203,France,Spain,2004,fat_of_poultry,551.0
+68,203,France,Spain,2005,fat_of_poultry,230.0
+68,203,France,Spain,2006,fat_of_poultry,298.0
+68,203,France,Spain,2007,fat_of_poultry,317.0
+68,203,France,Spain,2008,fat_of_poultry,631.0
+68,203,France,Spain,2009,fat_of_poultry,729.0
+68,203,France,Spain,2010,fat_of_poultry,868.0
+68,203,France,Spain,2011,fat_of_poultry,330.0
+68,203,France,Spain,2012,fat_of_poultry,224.0
+68,203,France,Spain,2013,fat_of_poultry,147.0
+68,203,France,Spain,2014,fat_of_poultry,365.0
+68,203,France,Spain,2015,fat_of_poultry,119.8
+68,203,France,Spain,2016,fat_of_poultry,88.28
+68,203,France,Spain,2017,fat_of_poultry,62.93
+68,203,France,Spain,2018,fat_of_poultry,230.99
+68,203,France,Spain,2019,fat_of_poultry,131.53
+68,203,France,Spain,2020,fat_of_poultry,463.94
+68,203,France,Spain,2021,fat_of_poultry,820.73
+68,203,France,Spain,2022,fat_of_poultry,439.53
+68,203,France,Spain,2023,fat_of_poultry,107.16
+150,200,Netherlands (Kingdom of the),Singapore,2013,fat_of_poultry,19.0
+150,200,Netherlands (Kingdom of the),Singapore,2022,fat_of_poultry,80.86
+150,200,Netherlands (Kingdom of the),Singapore,2023,fat_of_poultry,162.24
+231,225,United States of America,United Arab Emirates,2017,fat_of_poultry,15.34
+150,199,Netherlands (Kingdom of the),Slovakia,2017,fat_of_poultry,0.05
+150,199,Netherlands (Kingdom of the),Slovakia,2022,fat_of_poultry,0.04
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,6072.68
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,36031.1
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,3000.0
+150,198,Netherlands (Kingdom of the),Slovenia,2019,fat_of_poultry,21.14
+150,198,Netherlands (Kingdom of the),Slovenia,2022,fat_of_poultry,0.03
+68,210,France,Sweden,2016,fat_of_poultry,0.08
+68,210,France,Sweden,2017,fat_of_poultry,0.34
+68,210,France,Sweden,2018,fat_of_poultry,0.18
+68,210,France,Sweden,2019,fat_of_poultry,0.37
+68,210,France,Sweden,2020,fat_of_poultry,25.5
+68,211,France,Switzerland,1990,fat_of_poultry,1.0
+68,211,France,Switzerland,1995,fat_of_poultry,79.0
+68,211,France,Switzerland,1996,fat_of_poultry,33.0
+68,211,France,Switzerland,2005,fat_of_poultry,3.0
+68,211,France,Switzerland,2006,fat_of_poultry,1.0
+68,211,France,Switzerland,2007,fat_of_poultry,1.0
+68,211,France,Switzerland,2009,fat_of_poultry,1.0
+68,211,France,Switzerland,2011,fat_of_poultry,3.0
+68,211,France,Switzerland,2012,fat_of_poultry,1.0
+68,211,France,Switzerland,2014,fat_of_poultry,0.2
+68,211,France,Switzerland,2015,fat_of_poultry,0.4
+68,211,France,Switzerland,2016,fat_of_poultry,0.21
+68,211,France,Switzerland,2017,fat_of_poultry,0.27
+68,211,France,Switzerland,2018,fat_of_poultry,0.28
+68,211,France,Switzerland,2019,fat_of_poultry,0.29
+68,211,France,Switzerland,2020,fat_of_poultry,0.57
+68,211,France,Switzerland,2021,fat_of_poultry,0.22
+68,211,France,Switzerland,2022,fat_of_poultry,0.3
+68,211,France,Switzerland,2023,fat_of_poultry,0.25
+150,203,Netherlands (Kingdom of the),Spain,1990,fat_of_poultry,25.0
+150,203,Netherlands (Kingdom of the),Spain,1991,fat_of_poultry,4.0
+150,203,Netherlands (Kingdom of the),Spain,2002,fat_of_poultry,5.0
+150,203,Netherlands (Kingdom of the),Spain,2005,fat_of_poultry,23.0
+150,203,Netherlands (Kingdom of the),Spain,2007,fat_of_poultry,138.0
+150,203,Netherlands (Kingdom of the),Spain,2008,fat_of_poultry,511.0
+150,203,Netherlands (Kingdom of the),Spain,2009,fat_of_poultry,7390.0
+150,203,Netherlands (Kingdom of the),Spain,2010,fat_of_poultry,1686.0
+150,203,Netherlands (Kingdom of the),Spain,2012,fat_of_poultry,39.0
+150,203,Netherlands (Kingdom of the),Spain,2013,fat_of_poultry,1258.0
+150,203,Netherlands (Kingdom of the),Spain,2015,fat_of_poultry,1599.9
+150,203,Netherlands (Kingdom of the),Spain,2016,fat_of_poultry,0.07
+150,203,Netherlands (Kingdom of the),Spain,2017,fat_of_poultry,1.61
+150,203,Netherlands (Kingdom of the),Spain,2018,fat_of_poultry,7.28
+150,203,Netherlands (Kingdom of the),Spain,2019,fat_of_poultry,19.41
+150,203,Netherlands (Kingdom of the),Spain,2020,fat_of_poultry,1.71
+150,203,Netherlands (Kingdom of the),Spain,2021,fat_of_poultry,4.69
+150,203,Netherlands (Kingdom of the),Spain,2022,fat_of_poultry,156.46
+150,203,Netherlands (Kingdom of the),Spain,2023,fat_of_poultry,0.02
+231,237,United States of America,Viet Nam,2013,fat_of_poultry,788.0
+231,237,United States of America,Viet Nam,2014,fat_of_poultry,25.0
+231,237,United States of America,Viet Nam,2016,fat_of_poultry,102.21
+231,237,United States of America,Viet Nam,2019,fat_of_poultry,94.8
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1998,fat_of_poultry,9.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1999,fat_of_poultry,6.0
+68,216,France,Thailand,2014,fat_of_poultry,7.8
+68,222,France,Tunisia,1991,fat_of_poultry,15.0
+150,210,Netherlands (Kingdom of the),Sweden,2014,fat_of_poultry,0.13
+150,210,Netherlands (Kingdom of the),Sweden,2015,fat_of_poultry,0.3
+150,210,Netherlands (Kingdom of the),Sweden,2016,fat_of_poultry,0.21
+150,210,Netherlands (Kingdom of the),Sweden,2017,fat_of_poultry,0.22
+150,210,Netherlands (Kingdom of the),Sweden,2018,fat_of_poultry,0.05
+150,210,Netherlands (Kingdom of the),Sweden,2019,fat_of_poultry,0.66
+150,210,Netherlands (Kingdom of the),Sweden,2021,fat_of_poultry,0.23
+150,210,Netherlands (Kingdom of the),Sweden,2022,fat_of_poultry,0.61
+150,210,Netherlands (Kingdom of the),Sweden,2023,fat_of_poultry,0.2
+68,230,France,Ukraine,2012,fat_of_poultry,6.0
+68,230,France,Ukraine,2018,fat_of_poultry,1.54
+68,225,France,United Arab Emirates,2006,fat_of_poultry,1.0
+68,225,France,United Arab Emirates,2016,fat_of_poultry,0.02
+68,225,France,United Arab Emirates,2019,fat_of_poultry,1.39
+150,216,Netherlands (Kingdom of the),Thailand,2012,fat_of_poultry,125.0
+150,216,Netherlands (Kingdom of the),Thailand,2022,fat_of_poultry,81.22
+150,216,Netherlands (Kingdom of the),Thailand,2023,fat_of_poultry,156.92
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1992,fat_of_poultry,4.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1993,fat_of_poultry,21.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1995,fat_of_poultry,10.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1996,fat_of_poultry,61.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1997,fat_of_poultry,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1998,fat_of_poultry,7.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1999,fat_of_poultry,23.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2000,fat_of_poultry,12.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2001,fat_of_poultry,11.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2002,fat_of_poultry,13.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2003,fat_of_poultry,31.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2004,fat_of_poultry,36.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2005,fat_of_poultry,31.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2006,fat_of_poultry,35.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2007,fat_of_poultry,66.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2008,fat_of_poultry,110.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2009,fat_of_poultry,134.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2010,fat_of_poultry,196.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2011,fat_of_poultry,165.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2012,fat_of_poultry,279.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,221.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,214.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,196.1
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2016,fat_of_poultry,141.63
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,115.16
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,20.88
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,1.56
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,1.6
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,2.08
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.21
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2023,fat_of_poultry,8.51
+68,231,France,United States of America,2019,fat_of_poultry,0.04
+68,231,France,United States of America,2020,fat_of_poultry,3.87
+150,230,Netherlands (Kingdom of the),Ukraine,2003,fat_of_poultry,20.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2016,fat_of_poultry,0.7
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2017,fat_of_poultry,5.25
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2018,fat_of_poultry,3.56
+68,237,France,Viet Nam,2014,fat_of_poultry,50.0
+68,237,France,Viet Nam,2015,fat_of_poultry,2.7
+68,237,France,Viet Nam,2020,fat_of_poultry,0.11
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1989,fat_of_poultry,232.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,fat_of_poultry,8.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1991,fat_of_poultry,5.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2008,fat_of_poultry,147.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2013,fat_of_poultry,37.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2014,fat_of_poultry,61.4
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2015,fat_of_poultry,75.5
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2017,fat_of_poultry,40.36
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2018,fat_of_poultry,0.06
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2019,fat_of_poultry,32.91
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2020,fat_of_poultry,2.73
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2021,fat_of_poultry,2.25
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2022,fat_of_poultry,0.27
+150,231,Netherlands (Kingdom of the),United States of America,1988,fat_of_poultry,1.0
+150,235,Netherlands (Kingdom of the),Uzbekistan,2013,fat_of_poultry,1584.0
+150,235,Netherlands (Kingdom of the),Uzbekistan,2014,fat_of_poultry,899.7
+150,237,Netherlands (Kingdom of the),Viet Nam,2020,fat_of_poultry,25.03
+150,237,Netherlands (Kingdom of the),Viet Nam,2023,fat_of_poultry,27.96

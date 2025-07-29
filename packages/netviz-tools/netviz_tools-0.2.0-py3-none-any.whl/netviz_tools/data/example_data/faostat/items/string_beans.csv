@@ -1,0 +1,530 @@
+o_code,d_code,o_name,d_name,year,item,weight
+59,2,Egypt,Afghanistan,2009,string_beans,2.0
+91,8,Guyana,Antigua and Barbuda,2015,string_beans,1.0
+59,4,Egypt,Algeria,2009,string_beans,1253.0
+59,4,Egypt,Algeria,2011,string_beans,240.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1989,string_beans,1.0
+59,9,Egypt,Argentina,2011,string_beans,31.0
+91,14,Guyana,Barbados,2003,string_beans,65.0
+91,14,Guyana,Barbados,2004,string_beans,42.0
+91,14,Guyana,Barbados,2005,string_beans,61.0
+91,14,Guyana,Barbados,2006,string_beans,11.0
+91,14,Guyana,Barbados,2008,string_beans,32.0
+91,14,Guyana,Barbados,2010,string_beans,83.0
+91,14,Guyana,Barbados,2011,string_beans,91.0
+91,14,Guyana,Barbados,2012,string_beans,68.0
+91,14,Guyana,Barbados,2013,string_beans,33.0
+91,14,Guyana,Barbados,2014,string_beans,0.8
+91,14,Guyana,Barbados,2015,string_beans,2.0
+91,14,Guyana,Barbados,2016,string_beans,9.5
+91,14,Guyana,Barbados,2017,string_beans,8.0
+59,10,Egypt,Australia,2009,string_beans,1.0
+59,10,Egypt,Australia,2011,string_beans,3.0
+91,23,Guyana,Belize,2019,string_beans,0.05
+59,11,Egypt,Austria,1993,string_beans,5.0
+59,11,Egypt,Austria,1994,string_beans,2.0
+59,11,Egypt,Austria,2003,string_beans,3.0
+59,11,Egypt,Austria,2004,string_beans,1.0
+59,11,Egypt,Austria,2005,string_beans,1.0
+59,11,Egypt,Austria,2009,string_beans,287.0
+59,11,Egypt,Austria,2011,string_beans,173.0
+223,4,Türkiye,Algeria,1997,string_beans,100.0
+234,9,Uruguay,Argentina,2001,string_beans,5.0
+59,13,Egypt,Bahrain,1993,string_beans,11.0
+59,13,Egypt,Bahrain,1994,string_beans,50.0
+59,13,Egypt,Bahrain,1995,string_beans,17.0
+59,13,Egypt,Bahrain,2009,string_beans,144.0
+59,13,Egypt,Bahrain,2011,string_beans,81.0
+143,15,Morocco,Belgium-Luxembourg,1993,string_beans,4.0
+143,15,Morocco,Belgium-Luxembourg,1994,string_beans,5.0
+143,15,Morocco,Belgium-Luxembourg,1995,string_beans,5.0
+143,15,Morocco,Belgium-Luxembourg,1996,string_beans,39.0
+143,15,Morocco,Belgium-Luxembourg,1997,string_beans,4.0
+91,33,Guyana,Canada,2003,string_beans,125.0
+91,33,Guyana,Canada,2004,string_beans,159.0
+91,33,Guyana,Canada,2005,string_beans,146.0
+91,33,Guyana,Canada,2006,string_beans,144.0
+91,33,Guyana,Canada,2007,string_beans,2.0
+91,33,Guyana,Canada,2008,string_beans,116.0
+91,33,Guyana,Canada,2010,string_beans,111.0
+91,33,Guyana,Canada,2011,string_beans,76.0
+91,33,Guyana,Canada,2012,string_beans,69.0
+91,33,Guyana,Canada,2013,string_beans,77.0
+91,33,Guyana,Canada,2014,string_beans,81.28
+91,33,Guyana,Canada,2015,string_beans,78.6
+91,33,Guyana,Canada,2016,string_beans,102.35
+91,33,Guyana,Canada,2017,string_beans,117.14
+91,33,Guyana,Canada,2018,string_beans,70.2
+91,33,Guyana,Canada,2019,string_beans,51.17
+91,33,Guyana,Canada,2020,string_beans,17.59
+91,33,Guyana,Canada,2021,string_beans,10.61
+91,33,Guyana,Canada,2022,string_beans,22.5
+91,33,Guyana,Canada,2023,string_beans,27.08
+59,255,Egypt,Belgium,2002,string_beans,2.0
+59,255,Egypt,Belgium,2003,string_beans,31.0
+59,255,Egypt,Belgium,2005,string_beans,5.0
+59,255,Egypt,Belgium,2007,string_beans,7.0
+59,255,Egypt,Belgium,2009,string_beans,6456.0
+59,255,Egypt,Belgium,2011,string_beans,4004.0
+91,41,Guyana,"China, mainland",2004,string_beans,1.0
+91,41,Guyana,"China, mainland",2017,string_beans,0.2
+59,27,Egypt,Bulgaria,2009,string_beans,256.0
+59,27,Egypt,Bulgaria,2011,string_beans,2.0
+223,10,Türkiye,Australia,1993,string_beans,10.0
+143,33,Morocco,Canada,1999,string_beans,26.0
+23,231,Belize,United States of America,1996,string_beans,1.0
+220,33,Trinidad and Tobago,Canada,1988,string_beans,2.0
+220,33,Trinidad and Tobago,Canada,1990,string_beans,1.0
+220,33,Trinidad and Tobago,Canada,1993,string_beans,2.0
+220,33,Trinidad and Tobago,Canada,1998,string_beans,3.0
+44,33,Colombia,Canada,2004,string_beans,1.0
+59,33,Egypt,Canada,2009,string_beans,15.0
+59,33,Egypt,Canada,2011,string_beans,57.0
+91,86,Guyana,Grenada,2006,string_beans,1.0
+59,39,Egypt,Chad,2003,string_beans,1.0
+234,21,Uruguay,Brazil,1995,string_beans,21.0
+234,21,Uruguay,Brazil,1998,string_beans,2.0
+91,109,Guyana,Jamaica,2017,string_beans,2.0
+91,109,Guyana,Jamaica,2019,string_beans,0.76
+59,41,Egypt,"China, mainland",2009,string_beans,1.0
+223,11,Türkiye,Austria,1986,string_beans,24.0
+223,11,Türkiye,Austria,1987,string_beans,68.0
+223,11,Türkiye,Austria,1988,string_beans,26.0
+223,11,Türkiye,Austria,1989,string_beans,73.0
+223,11,Türkiye,Austria,1990,string_beans,68.0
+223,11,Türkiye,Austria,1991,string_beans,95.0
+223,11,Türkiye,Austria,1992,string_beans,56.0
+223,11,Türkiye,Austria,1993,string_beans,51.0
+223,11,Türkiye,Austria,1994,string_beans,77.0
+223,11,Türkiye,Austria,1995,string_beans,107.0
+223,11,Türkiye,Austria,1996,string_beans,33.0
+223,11,Türkiye,Austria,1997,string_beans,44.0
+223,11,Türkiye,Austria,1998,string_beans,65.0
+223,11,Türkiye,Austria,1999,string_beans,99.0
+59,214,Egypt,"China, Taiwan Province of",2011,string_beans,1.0
+59,98,Egypt,Croatia,2009,string_beans,312.0
+59,50,Egypt,Cyprus,2009,string_beans,54.0
+59,50,Egypt,Cyprus,2011,string_beans,44.0
+91,188,Guyana,Saint Kitts and Nevis,2017,string_beans,0.23
+59,54,Egypt,Denmark,1993,string_beans,2.0
+59,54,Egypt,Denmark,1994,string_beans,2.0
+59,54,Egypt,Denmark,1998,string_beans,1.0
+59,54,Egypt,Denmark,2001,string_beans,1.0
+59,54,Egypt,Denmark,2003,string_beans,1.0
+59,54,Egypt,Denmark,2009,string_beans,8.0
+59,54,Egypt,Denmark,2011,string_beans,17.0
+91,207,Guyana,Suriname,2012,string_beans,1.0
+59,67,Egypt,Finland,2011,string_beans,3.0
+44,56,Colombia,Dominican Republic,2005,string_beans,1.0
+91,220,Guyana,Trinidad and Tobago,2003,string_beans,1.0
+91,220,Guyana,Trinidad and Tobago,2014,string_beans,0.6
+91,220,Guyana,Trinidad and Tobago,2018,string_beans,0.25
+59,68,Egypt,France,1993,string_beans,8.0
+59,68,Egypt,France,1998,string_beans,11.0
+59,68,Egypt,France,2002,string_beans,2.0
+59,68,Egypt,France,2005,string_beans,5.0
+59,68,Egypt,France,2006,string_beans,20.0
+59,68,Egypt,France,2007,string_beans,66.0
+59,68,Egypt,France,2009,string_beans,1755.0
+59,68,Egypt,France,2011,string_beans,2766.0
+91,229,Guyana,United Kingdom of Great Britain and Northern Ireland,2004,string_beans,1.0
+91,229,Guyana,United Kingdom of Great Britain and Northern Ireland,2014,string_beans,0.01
+44,58,Colombia,Ecuador,1998,string_beans,9.0
+59,79,Egypt,Germany,1993,string_beans,4.0
+59,79,Egypt,Germany,2003,string_beans,29.0
+59,79,Egypt,Germany,2004,string_beans,19.0
+59,79,Egypt,Germany,2005,string_beans,32.0
+59,79,Egypt,Germany,2007,string_beans,7.0
+59,79,Egypt,Germany,2009,string_beans,4571.0
+59,79,Egypt,Germany,2011,string_beans,2524.0
+59,81,Egypt,Ghana,2009,string_beans,1.0
+143,68,Morocco,France,1993,string_beans,1736.0
+143,68,Morocco,France,1994,string_beans,636.0
+143,68,Morocco,France,1995,string_beans,3165.0
+143,68,Morocco,France,1996,string_beans,4183.0
+143,68,Morocco,France,1997,string_beans,6695.0
+143,68,Morocco,France,1998,string_beans,9008.0
+143,68,Morocco,France,1999,string_beans,12267.0
+223,15,Türkiye,Belgium-Luxembourg,1986,string_beans,1.0
+223,15,Türkiye,Belgium-Luxembourg,1987,string_beans,5.0
+223,15,Türkiye,Belgium-Luxembourg,1988,string_beans,5.0
+223,15,Türkiye,Belgium-Luxembourg,1989,string_beans,4.0
+223,15,Türkiye,Belgium-Luxembourg,1990,string_beans,1.0
+223,15,Türkiye,Belgium-Luxembourg,1991,string_beans,2.0
+223,15,Türkiye,Belgium-Luxembourg,1994,string_beans,2.0
+223,15,Türkiye,Belgium-Luxembourg,1996,string_beans,1.0
+223,15,Türkiye,Belgium-Luxembourg,1997,string_beans,1.0
+223,15,Türkiye,Belgium-Luxembourg,1998,string_beans,1.0
+59,84,Egypt,Greece,1993,string_beans,5.0
+59,84,Egypt,Greece,1994,string_beans,2.0
+59,84,Egypt,Greece,1995,string_beans,4.0
+59,84,Egypt,Greece,2001,string_beans,5.0
+59,84,Egypt,Greece,2009,string_beans,14.0
+59,84,Egypt,Greece,2011,string_beans,25.0
+91,231,Guyana,United States of America,2003,string_beans,27.0
+91,231,Guyana,United States of America,2004,string_beans,23.0
+91,231,Guyana,United States of America,2005,string_beans,9.0
+91,231,Guyana,United States of America,2006,string_beans,10.0
+91,231,Guyana,United States of America,2008,string_beans,1.0
+91,231,Guyana,United States of America,2011,string_beans,7.0
+91,231,Guyana,United States of America,2012,string_beans,13.0
+91,231,Guyana,United States of America,2013,string_beans,13.0
+91,231,Guyana,United States of America,2014,string_beans,8.41
+91,231,Guyana,United States of America,2015,string_beans,5.3
+91,231,Guyana,United States of America,2016,string_beans,2.35
+91,231,Guyana,United States of America,2017,string_beans,7.2
+91,231,Guyana,United States of America,2018,string_beans,9.13
+91,231,Guyana,United States of America,2019,string_beans,4.91
+91,231,Guyana,United States of America,2021,string_beans,0.06
+91,231,Guyana,United States of America,2023,string_beans,0.75
+59,97,Egypt,Hungary,2009,string_beans,2.0
+14,189,Barbados,Saint Lucia,2013,string_beans,2.0
+59,100,Egypt,India,2000,string_beans,9.0
+59,100,Egypt,India,2011,string_beans,5.0
+109,231,Jamaica,United States of America,1986,string_beans,1.0
+234,106,Uruguay,Italy,2001,string_beans,3.0
+223,80,Türkiye,Bosnia and Herzegovina,1996,string_beans,1.0
+223,80,Türkiye,Bosnia and Herzegovina,1998,string_beans,5.0
+223,80,Türkiye,Bosnia and Herzegovina,1999,string_beans,3.0
+143,79,Morocco,Germany,1994,string_beans,15.0
+143,79,Morocco,Germany,1996,string_beans,1.0
+59,103,Egypt,Iraq,2009,string_beans,841.0
+59,103,Egypt,Iraq,2011,string_beans,1043.0
+59,104,Egypt,Ireland,2011,string_beans,2.0
+59,105,Egypt,Israel,2011,string_beans,145.0
+59,106,Egypt,Italy,1999,string_beans,15.0
+59,106,Egypt,Italy,2004,string_beans,33.0
+59,106,Egypt,Italy,2005,string_beans,24.0
+59,106,Egypt,Italy,2006,string_beans,34.0
+59,106,Egypt,Italy,2007,string_beans,56.0
+59,106,Egypt,Italy,2009,string_beans,7666.0
+59,106,Egypt,Italy,2011,string_beans,6467.0
+223,27,Türkiye,Bulgaria,1997,string_beans,30.0
+59,110,Egypt,Japan,2009,string_beans,4.0
+234,169,Uruguay,Paraguay,1998,string_beans,1.0
+59,112,Egypt,Jordan,1999,string_beans,8.0
+59,112,Egypt,Jordan,2000,string_beans,2.0
+59,112,Egypt,Jordan,2001,string_beans,5.0
+59,112,Egypt,Jordan,2002,string_beans,5.0
+59,112,Egypt,Jordan,2009,string_beans,483.0
+59,112,Egypt,Jordan,2011,string_beans,200.0
+143,106,Morocco,Italy,1993,string_beans,7.0
+143,106,Morocco,Italy,1994,string_beans,23.0
+143,106,Morocco,Italy,1995,string_beans,18.0
+143,106,Morocco,Italy,1996,string_beans,11.0
+143,106,Morocco,Italy,1998,string_beans,7.0
+143,106,Morocco,Italy,1999,string_beans,17.0
+59,114,Egypt,Kenya,2011,string_beans,10.0
+59,118,Egypt,Kuwait,1993,string_beans,330.0
+59,118,Egypt,Kuwait,1994,string_beans,55.0
+59,118,Egypt,Kuwait,1995,string_beans,30.0
+59,118,Egypt,Kuwait,1998,string_beans,48.0
+59,118,Egypt,Kuwait,1999,string_beans,13.0
+59,118,Egypt,Kuwait,2000,string_beans,29.0
+59,118,Egypt,Kuwait,2001,string_beans,33.0
+59,118,Egypt,Kuwait,2002,string_beans,1.0
+59,118,Egypt,Kuwait,2005,string_beans,1.0
+59,118,Egypt,Kuwait,2007,string_beans,14.0
+59,118,Egypt,Kuwait,2009,string_beans,343.0
+59,118,Egypt,Kuwait,2011,string_beans,157.0
+143,126,Morocco,Lithuania,1999,string_beans,15.0
+59,121,Egypt,Lebanon,1993,string_beans,94.0
+59,121,Egypt,Lebanon,1994,string_beans,10.0
+59,121,Egypt,Lebanon,1995,string_beans,91.0
+59,121,Egypt,Lebanon,2002,string_beans,1.0
+59,121,Egypt,Lebanon,2003,string_beans,34.0
+59,121,Egypt,Lebanon,2004,string_beans,2.0
+59,121,Egypt,Lebanon,2005,string_beans,46.0
+59,121,Egypt,Lebanon,2007,string_beans,27.0
+59,121,Egypt,Lebanon,2009,string_beans,14.0
+59,121,Egypt,Lebanon,2011,string_beans,32.0
+59,123,Egypt,Liberia,2009,string_beans,3.0
+59,124,Egypt,Libya,2009,string_beans,948.0
+59,124,Egypt,Libya,2011,string_beans,330.0
+59,256,Egypt,Luxembourg,2009,string_beans,44.0
+59,256,Egypt,Luxembourg,2011,string_beans,36.0
+59,129,Egypt,Madagascar,2009,string_beans,1.0
+59,129,Egypt,Madagascar,2011,string_beans,1.0
+59,131,Egypt,Malaysia,2009,string_beans,2.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,2017,string_beans,0.01
+44,166,Colombia,Panama,2004,string_beans,2.0
+59,134,Egypt,Malta,2009,string_beans,4.0
+59,137,Egypt,Mauritius,2009,string_beans,1.0
+143,150,Morocco,Netherlands (Kingdom of the),1993,string_beans,1.0
+143,150,Morocco,Netherlands (Kingdom of the),1996,string_beans,16.0
+59,273,Egypt,Montenegro,2009,string_beans,1.0
+59,143,Egypt,Morocco,2009,string_beans,295.0
+59,150,Egypt,Netherlands (Kingdom of the),1994,string_beans,2.0
+59,150,Egypt,Netherlands (Kingdom of the),2002,string_beans,5.0
+59,150,Egypt,Netherlands (Kingdom of the),2003,string_beans,9.0
+59,150,Egypt,Netherlands (Kingdom of the),2004,string_beans,1.0
+59,150,Egypt,Netherlands (Kingdom of the),2005,string_beans,5.0
+59,150,Egypt,Netherlands (Kingdom of the),2009,string_beans,1686.0
+59,150,Egypt,Netherlands (Kingdom of the),2011,string_beans,1817.0
+220,231,Trinidad and Tobago,United States of America,1990,string_beans,2.0
+143,173,Morocco,Poland,1997,string_beans,1.0
+143,173,Morocco,Poland,1998,string_beans,4.0
+59,156,Egypt,New Zealand,2011,string_beans,28.0
+223,98,Türkiye,Croatia,1993,string_beans,1.0
+223,98,Türkiye,Croatia,1996,string_beans,24.0
+59,162,Egypt,Norway,2009,string_beans,12.0
+59,221,Egypt,Oman,1994,string_beans,77.0
+59,221,Egypt,Oman,1995,string_beans,84.0
+59,221,Egypt,Oman,1998,string_beans,11.0
+59,221,Egypt,Oman,1999,string_beans,3.0
+59,221,Egypt,Oman,2000,string_beans,6.0
+59,221,Egypt,Oman,2003,string_beans,1.0
+59,221,Egypt,Oman,2007,string_beans,3.0
+59,221,Egypt,Oman,2009,string_beans,180.0
+59,221,Egypt,Oman,2011,string_beans,142.0
+59,299,Egypt,Palestine,2009,string_beans,32.0
+223,50,Türkiye,Cyprus,1986,string_beans,5.0
+223,50,Türkiye,Cyprus,1994,string_beans,13.0
+223,50,Türkiye,Cyprus,1995,string_beans,16.0
+223,50,Türkiye,Cyprus,1996,string_beans,17.0
+223,50,Türkiye,Cyprus,1997,string_beans,23.0
+223,50,Türkiye,Cyprus,1998,string_beans,27.0
+223,50,Türkiye,Cyprus,1999,string_beans,28.0
+59,174,Egypt,Portugal,2011,string_beans,92.0
+143,199,Morocco,Slovakia,1998,string_beans,2.0
+59,179,Egypt,Qatar,1993,string_beans,8.0
+59,179,Egypt,Qatar,1994,string_beans,19.0
+59,179,Egypt,Qatar,1995,string_beans,1.0
+59,179,Egypt,Qatar,1999,string_beans,1.0
+59,179,Egypt,Qatar,2000,string_beans,2.0
+59,179,Egypt,Qatar,2002,string_beans,45.0
+59,179,Egypt,Qatar,2009,string_beans,165.0
+59,179,Egypt,Qatar,2011,string_beans,246.0
+59,183,Egypt,Romania,2003,string_beans,2.0
+59,183,Egypt,Romania,2009,string_beans,889.0
+59,183,Egypt,Romania,2011,string_beans,88.0
+59,185,Egypt,Russian Federation,2009,string_beans,95.0
+59,185,Egypt,Russian Federation,2011,string_beans,5.0
+223,54,Türkiye,Denmark,1986,string_beans,4.0
+223,54,Türkiye,Denmark,1987,string_beans,3.0
+223,54,Türkiye,Denmark,1988,string_beans,1.0
+223,54,Türkiye,Denmark,1990,string_beans,3.0
+223,54,Türkiye,Denmark,1991,string_beans,9.0
+223,54,Türkiye,Denmark,1992,string_beans,10.0
+223,54,Türkiye,Denmark,1993,string_beans,1.0
+223,54,Türkiye,Denmark,1994,string_beans,7.0
+223,54,Türkiye,Denmark,1995,string_beans,1.0
+223,54,Türkiye,Denmark,1996,string_beans,2.0
+223,54,Türkiye,Denmark,1997,string_beans,1.0
+223,54,Türkiye,Denmark,1999,string_beans,1.0
+143,203,Morocco,Spain,1993,string_beans,46.0
+143,203,Morocco,Spain,1994,string_beans,375.0
+143,203,Morocco,Spain,1996,string_beans,15.0
+143,203,Morocco,Spain,1997,string_beans,145.0
+143,203,Morocco,Spain,1998,string_beans,1222.0
+143,203,Morocco,Spain,1999,string_beans,1505.0
+59,194,Egypt,Saudi Arabia,1993,string_beans,91.0
+59,194,Egypt,Saudi Arabia,1994,string_beans,102.0
+59,194,Egypt,Saudi Arabia,1995,string_beans,65.0
+59,194,Egypt,Saudi Arabia,1998,string_beans,49.0
+59,194,Egypt,Saudi Arabia,1999,string_beans,44.0
+59,194,Egypt,Saudi Arabia,2000,string_beans,51.0
+59,194,Egypt,Saudi Arabia,2001,string_beans,29.0
+59,194,Egypt,Saudi Arabia,2002,string_beans,28.0
+59,194,Egypt,Saudi Arabia,2003,string_beans,30.0
+59,194,Egypt,Saudi Arabia,2005,string_beans,8.0
+59,194,Egypt,Saudi Arabia,2007,string_beans,1.0
+59,194,Egypt,Saudi Arabia,2009,string_beans,1680.0
+59,194,Egypt,Saudi Arabia,2011,string_beans,736.0
+59,196,Egypt,Seychelles,2009,string_beans,1.0
+59,196,Egypt,Seychelles,2011,string_beans,2.0
+59,200,Egypt,Singapore,2009,string_beans,14.0
+143,211,Morocco,Switzerland,1995,string_beans,2.0
+143,211,Morocco,Switzerland,1996,string_beans,1.0
+143,211,Morocco,Switzerland,1997,string_beans,2.0
+143,211,Morocco,Switzerland,1998,string_beans,5.0
+143,211,Morocco,Switzerland,1999,string_beans,15.0
+59,202,Egypt,South Africa,2009,string_beans,1.0
+59,202,Egypt,South Africa,2011,string_beans,24.0
+59,203,Egypt,Spain,2009,string_beans,60.0
+59,203,Egypt,Spain,2011,string_beans,2.0
+44,231,Colombia,United States of America,2004,string_beans,1.0
+59,206,Egypt,Sudan (former),2009,string_beans,519.0
+59,206,Egypt,Sudan (former),2011,string_beans,22.0
+223,67,Türkiye,Finland,1996,string_beans,4.0
+59,210,Egypt,Sweden,1993,string_beans,1.0
+59,210,Egypt,Sweden,1994,string_beans,2.0
+59,210,Egypt,Sweden,1995,string_beans,1.0
+59,210,Egypt,Sweden,2001,string_beans,1.0
+59,210,Egypt,Sweden,2009,string_beans,11.0
+59,210,Egypt,Sweden,2011,string_beans,11.0
+59,211,Egypt,Switzerland,1993,string_beans,11.0
+59,211,Egypt,Switzerland,1994,string_beans,2.0
+59,211,Egypt,Switzerland,2001,string_beans,1.0
+59,211,Egypt,Switzerland,2003,string_beans,1.0
+59,211,Egypt,Switzerland,2004,string_beans,4.0
+59,211,Egypt,Switzerland,2005,string_beans,5.0
+59,211,Egypt,Switzerland,2009,string_beans,1165.0
+59,211,Egypt,Switzerland,2011,string_beans,553.0
+44,236,Colombia,Venezuela (Bolivarian Republic of),1991,string_beans,68.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1993,string_beans,14.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1995,string_beans,4.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1996,string_beans,2.0
+59,212,Egypt,Syrian Arab Republic,2007,string_beans,21.0
+59,212,Egypt,Syrian Arab Republic,2009,string_beans,1092.0
+59,212,Egypt,Syrian Arab Republic,2011,string_beans,287.0
+59,222,Egypt,Tunisia,2009,string_beans,744.0
+59,222,Egypt,Tunisia,2011,string_beans,206.0
+223,68,Türkiye,France,1988,string_beans,5.0
+223,68,Türkiye,France,1989,string_beans,3.0
+223,68,Türkiye,France,1990,string_beans,1.0
+223,68,Türkiye,France,1991,string_beans,1.0
+223,68,Türkiye,France,1995,string_beans,4.0
+223,68,Türkiye,France,1998,string_beans,1.0
+223,68,Türkiye,France,1999,string_beans,1.0
+59,223,Egypt,Türkiye,2002,string_beans,54.0
+59,223,Egypt,Türkiye,2009,string_beans,216.0
+59,223,Egypt,Türkiye,2011,string_beans,667.0
+59,225,Egypt,United Arab Emirates,1993,string_beans,364.0
+59,225,Egypt,United Arab Emirates,2001,string_beans,2.0
+59,225,Egypt,United Arab Emirates,2002,string_beans,3.0
+59,225,Egypt,United Arab Emirates,2005,string_beans,1.0
+59,225,Egypt,United Arab Emirates,2007,string_beans,8.0
+59,225,Egypt,United Arab Emirates,2009,string_beans,2719.0
+59,225,Egypt,United Arab Emirates,2011,string_beans,2375.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1993,string_beans,11.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1994,string_beans,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1995,string_beans,5.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2002,string_beans,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2004,string_beans,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2005,string_beans,5.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2007,string_beans,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2009,string_beans,7952.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2011,string_beans,6122.0
+59,215,Egypt,United Republic of Tanzania,2011,string_beans,1.0
+211,68,Switzerland,France,1998,string_beans,1.0
+211,68,Switzerland,France,2007,string_beans,1.0
+211,68,Switzerland,France,2008,string_beans,1.0
+211,68,Switzerland,France,2011,string_beans,1.0
+59,231,Egypt,United States of America,2001,string_beans,1.0
+59,231,Egypt,United States of America,2002,string_beans,1.0
+59,231,Egypt,United States of America,2003,string_beans,3.0
+59,231,Egypt,United States of America,2009,string_beans,47.0
+59,231,Egypt,United States of America,2011,string_beans,295.0
+223,79,Türkiye,Germany,1991,string_beans,515.0
+223,79,Türkiye,Germany,1992,string_beans,400.0
+223,79,Türkiye,Germany,1993,string_beans,243.0
+223,79,Türkiye,Germany,1994,string_beans,270.0
+223,79,Türkiye,Germany,1995,string_beans,348.0
+223,79,Türkiye,Germany,1996,string_beans,243.0
+223,79,Türkiye,Germany,1997,string_beans,141.0
+223,79,Türkiye,Germany,1998,string_beans,295.0
+223,79,Türkiye,Germany,1999,string_beans,177.0
+59,249,Egypt,Yemen,2001,string_beans,25.0
+223,84,Türkiye,Greece,1988,string_beans,24.0
+223,84,Türkiye,Greece,1992,string_beans,7.0
+223,84,Türkiye,Greece,1995,string_beans,18.0
+223,84,Türkiye,Greece,1996,string_beans,7.0
+223,84,Türkiye,Greece,1998,string_beans,1.0
+223,84,Türkiye,Greece,1999,string_beans,22.0
+223,103,Türkiye,Iraq,1986,string_beans,17.0
+223,103,Türkiye,Iraq,1987,string_beans,4.0
+223,103,Türkiye,Iraq,1988,string_beans,39.0
+223,103,Türkiye,Iraq,1989,string_beans,15.0
+223,103,Türkiye,Iraq,1990,string_beans,5.0
+223,103,Türkiye,Iraq,1996,string_beans,113.0
+223,104,Türkiye,Ireland,1997,string_beans,1.0
+223,106,Türkiye,Italy,1986,string_beans,1.0
+223,118,Türkiye,Kuwait,1986,string_beans,370.0
+223,118,Türkiye,Kuwait,1987,string_beans,145.0
+223,118,Türkiye,Kuwait,1988,string_beans,98.0
+223,118,Türkiye,Kuwait,1989,string_beans,72.0
+223,118,Türkiye,Kuwait,1990,string_beans,73.0
+223,118,Türkiye,Kuwait,1991,string_beans,1.0
+223,118,Türkiye,Kuwait,1992,string_beans,5.0
+223,118,Türkiye,Kuwait,1993,string_beans,2.0
+223,121,Türkiye,Lebanon,1988,string_beans,9.0
+223,124,Türkiye,Libya,1986,string_beans,3.0
+223,124,Türkiye,Libya,1987,string_beans,2.0
+223,124,Türkiye,Libya,1989,string_beans,20.0
+223,124,Türkiye,Libya,1996,string_beans,2.0
+223,124,Türkiye,Libya,1998,string_beans,6.0
+223,150,Türkiye,Netherlands (Kingdom of the),1986,string_beans,4.0
+223,150,Türkiye,Netherlands (Kingdom of the),1987,string_beans,8.0
+223,150,Türkiye,Netherlands (Kingdom of the),1988,string_beans,27.0
+223,150,Türkiye,Netherlands (Kingdom of the),1989,string_beans,10.0
+223,150,Türkiye,Netherlands (Kingdom of the),1991,string_beans,6.0
+223,150,Türkiye,Netherlands (Kingdom of the),1992,string_beans,7.0
+223,150,Türkiye,Netherlands (Kingdom of the),1993,string_beans,1.0
+223,150,Türkiye,Netherlands (Kingdom of the),1994,string_beans,2.0
+223,150,Türkiye,Netherlands (Kingdom of the),1995,string_beans,1.0
+223,150,Türkiye,Netherlands (Kingdom of the),1996,string_beans,24.0
+223,150,Türkiye,Netherlands (Kingdom of the),1997,string_beans,7.0
+223,150,Türkiye,Netherlands (Kingdom of the),1998,string_beans,3.0
+223,150,Türkiye,Netherlands (Kingdom of the),1999,string_beans,4.0
+223,154,Türkiye,North Macedonia,1998,string_beans,1.0
+223,162,Türkiye,Norway,1986,string_beans,2.0
+223,162,Türkiye,Norway,1987,string_beans,4.0
+223,162,Türkiye,Norway,1988,string_beans,10.0
+223,162,Türkiye,Norway,1989,string_beans,5.0
+223,162,Türkiye,Norway,1990,string_beans,3.0
+223,162,Türkiye,Norway,1991,string_beans,4.0
+223,162,Türkiye,Norway,1992,string_beans,2.0
+223,162,Türkiye,Norway,1994,string_beans,2.0
+223,162,Türkiye,Norway,1995,string_beans,1.0
+223,162,Türkiye,Norway,1996,string_beans,1.0
+223,173,Türkiye,Poland,1991,string_beans,6.0
+223,177,Türkiye,Puerto Rico,1993,string_beans,5.0
+223,177,Türkiye,Puerto Rico,1997,string_beans,1.0
+223,183,Türkiye,Romania,1995,string_beans,13.0
+223,185,Türkiye,Russian Federation,1994,string_beans,5.0
+223,185,Türkiye,Russian Federation,1995,string_beans,4.0
+223,194,Türkiye,Saudi Arabia,1988,string_beans,7.0
+223,194,Türkiye,Saudi Arabia,1991,string_beans,7.0
+223,186,Türkiye,Serbia and Montenegro,1998,string_beans,1.0
+223,186,Türkiye,Serbia and Montenegro,1999,string_beans,1.0
+223,199,Türkiye,Slovakia,1997,string_beans,1.0
+223,198,Türkiye,Slovenia,1995,string_beans,2.0
+223,198,Türkiye,Slovenia,1996,string_beans,6.0
+223,198,Türkiye,Slovenia,1997,string_beans,1.0
+223,198,Türkiye,Slovenia,1998,string_beans,6.0
+223,198,Türkiye,Slovenia,1999,string_beans,5.0
+223,210,Türkiye,Sweden,1986,string_beans,3.0
+223,210,Türkiye,Sweden,1987,string_beans,9.0
+223,210,Türkiye,Sweden,1988,string_beans,11.0
+223,210,Türkiye,Sweden,1989,string_beans,15.0
+223,210,Türkiye,Sweden,1990,string_beans,9.0
+223,210,Türkiye,Sweden,1991,string_beans,11.0
+223,210,Türkiye,Sweden,1992,string_beans,7.0
+223,210,Türkiye,Sweden,1993,string_beans,2.0
+223,210,Türkiye,Sweden,1994,string_beans,1.0
+223,210,Türkiye,Sweden,1995,string_beans,4.0
+223,210,Türkiye,Sweden,1996,string_beans,6.0
+223,210,Türkiye,Sweden,1997,string_beans,8.0
+223,210,Türkiye,Sweden,1998,string_beans,14.0
+223,210,Türkiye,Sweden,1999,string_beans,6.0
+223,211,Türkiye,Switzerland,1986,string_beans,42.0
+223,211,Türkiye,Switzerland,1987,string_beans,4.0
+223,211,Türkiye,Switzerland,1988,string_beans,4.0
+223,211,Türkiye,Switzerland,1989,string_beans,2.0
+223,211,Türkiye,Switzerland,1990,string_beans,3.0
+223,211,Türkiye,Switzerland,1991,string_beans,6.0
+223,211,Türkiye,Switzerland,1992,string_beans,2.0
+223,211,Türkiye,Switzerland,1994,string_beans,2.0
+223,211,Türkiye,Switzerland,1996,string_beans,5.0
+223,211,Türkiye,Switzerland,1998,string_beans,1.0
+223,211,Türkiye,Switzerland,1999,string_beans,3.0
+223,213,Türkiye,Turkmenistan,1996,string_beans,6.0
+223,213,Türkiye,Turkmenistan,1997,string_beans,2.0
+223,213,Türkiye,Turkmenistan,1998,string_beans,7.0
+223,213,Türkiye,Turkmenistan,1999,string_beans,4.0
+223,230,Türkiye,Ukraine,1995,string_beans,1.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1986,string_beans,6.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1987,string_beans,9.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1988,string_beans,9.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1989,string_beans,10.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1990,string_beans,9.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1991,string_beans,8.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1992,string_beans,4.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1994,string_beans,4.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1995,string_beans,1.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1996,string_beans,6.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1997,string_beans,1.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1998,string_beans,2.0
+223,228,Türkiye,USSR,1991,string_beans,2.0
+223,248,Türkiye,Yugoslav SFR,1991,string_beans,7.0

@@ -1,0 +1,92 @@
+o_code,d_code,o_name,d_name,year,item,weight
+10,9,Australia,Argentina,1992,hay_for_forage_from_legumes,120.0
+156,10,New Zealand,Australia,1987,hay_for_forage_from_legumes,5.0
+10,26,Australia,Brunei Darussalam,1990,hay_for_forage_from_legumes,10.0
+10,33,Australia,Canada,1994,hay_for_forage_from_legumes,200.0
+10,96,Australia,"China, Hong Kong SAR",1988,hay_for_forage_from_legumes,57.0
+10,96,Australia,"China, Hong Kong SAR",1989,hay_for_forage_from_legumes,52.0
+10,96,Australia,"China, Hong Kong SAR",1990,hay_for_forage_from_legumes,24.0
+10,96,Australia,"China, Hong Kong SAR",1991,hay_for_forage_from_legumes,217.0
+10,96,Australia,"China, Hong Kong SAR",1992,hay_for_forage_from_legumes,162.0
+10,96,Australia,"China, Hong Kong SAR",1993,hay_for_forage_from_legumes,77.0
+10,96,Australia,"China, Hong Kong SAR",1994,hay_for_forage_from_legumes,253.0
+10,96,Australia,"China, Hong Kong SAR",1996,hay_for_forage_from_legumes,387.0
+10,128,Australia,"China, Macao SAR",1993,hay_for_forage_from_legumes,50.0
+10,214,Australia,"China, Taiwan Province of",1988,hay_for_forage_from_legumes,46.0
+10,214,Australia,"China, Taiwan Province of",1994,hay_for_forage_from_legumes,318.0
+156,70,New Zealand,French Polynesia,1987,hay_for_forage_from_legumes,4.0
+10,101,Australia,Indonesia,1988,hay_for_forage_from_legumes,328.0
+10,101,Australia,Indonesia,1989,hay_for_forage_from_legumes,164.0
+10,101,Australia,Indonesia,1992,hay_for_forage_from_legumes,39.0
+10,101,Australia,Indonesia,1993,hay_for_forage_from_legumes,97.0
+10,101,Australia,Indonesia,1994,hay_for_forage_from_legumes,67.0
+10,101,Australia,Indonesia,1996,hay_for_forage_from_legumes,258.0
+156,110,New Zealand,Japan,1987,hay_for_forage_from_legumes,47.0
+10,110,Australia,Japan,1988,hay_for_forage_from_legumes,9886.0
+10,110,Australia,Japan,1989,hay_for_forage_from_legumes,4823.0
+10,110,Australia,Japan,1990,hay_for_forage_from_legumes,14240.0
+10,110,Australia,Japan,1991,hay_for_forage_from_legumes,10592.0
+10,110,Australia,Japan,1992,hay_for_forage_from_legumes,10291.0
+10,110,Australia,Japan,1993,hay_for_forage_from_legumes,5831.0
+10,110,Australia,Japan,1994,hay_for_forage_from_legumes,10124.0
+10,110,Australia,Japan,1996,hay_for_forage_from_legumes,2322.0
+156,137,New Zealand,Mauritius,1987,hay_for_forage_from_legumes,40.0
+10,131,Australia,Malaysia,1988,hay_for_forage_from_legumes,596.0
+10,131,Australia,Malaysia,1989,hay_for_forage_from_legumes,420.0
+10,131,Australia,Malaysia,1990,hay_for_forage_from_legumes,5149.0
+10,131,Australia,Malaysia,1991,hay_for_forage_from_legumes,233.0
+10,131,Australia,Malaysia,1992,hay_for_forage_from_legumes,80.0
+10,131,Australia,Malaysia,1993,hay_for_forage_from_legumes,99.0
+10,131,Australia,Malaysia,1996,hay_for_forage_from_legumes,174.0
+10,137,Australia,Mauritius,1992,hay_for_forage_from_legumes,33.0
+10,137,Australia,Mauritius,1993,hay_for_forage_from_legumes,18.0
+10,137,Australia,Mauritius,1996,hay_for_forage_from_legumes,109.0
+10,153,Australia,New Caledonia,1988,hay_for_forage_from_legumes,79.0
+10,153,Australia,New Caledonia,1989,hay_for_forage_from_legumes,20.0
+10,153,Australia,New Caledonia,1990,hay_for_forage_from_legumes,5.0
+10,153,Australia,New Caledonia,1991,hay_for_forage_from_legumes,27.0
+10,153,Australia,New Caledonia,1992,hay_for_forage_from_legumes,24.0
+10,153,Australia,New Caledonia,1993,hay_for_forage_from_legumes,116.0
+10,153,Australia,New Caledonia,1994,hay_for_forage_from_legumes,65.0
+10,153,Australia,New Caledonia,1996,hay_for_forage_from_legumes,110.0
+10,156,Australia,New Zealand,1996,hay_for_forage_from_legumes,18.0
+10,168,Australia,Papua New Guinea,1988,hay_for_forage_from_legumes,6.0
+10,168,Australia,Papua New Guinea,1989,hay_for_forage_from_legumes,6.0
+10,168,Australia,Papua New Guinea,1990,hay_for_forage_from_legumes,15.0
+10,168,Australia,Papua New Guinea,1991,hay_for_forage_from_legumes,2.0
+10,171,Australia,Philippines,1988,hay_for_forage_from_legumes,204.0
+10,171,Australia,Philippines,1989,hay_for_forage_from_legumes,34.0
+10,171,Australia,Philippines,1990,hay_for_forage_from_legumes,49.0
+10,171,Australia,Philippines,1991,hay_for_forage_from_legumes,101.0
+10,171,Australia,Philippines,1992,hay_for_forage_from_legumes,132.0
+10,171,Australia,Philippines,1993,hay_for_forage_from_legumes,88.0
+10,171,Australia,Philippines,1994,hay_for_forage_from_legumes,209.0
+10,171,Australia,Philippines,1996,hay_for_forage_from_legumes,398.0
+10,179,Australia,Qatar,1993,hay_for_forage_from_legumes,19.0
+10,117,Australia,Republic of Korea,1988,hay_for_forage_from_legumes,15.0
+10,117,Australia,Republic of Korea,1989,hay_for_forage_from_legumes,15.0
+10,117,Australia,Republic of Korea,1990,hay_for_forage_from_legumes,24.0
+10,117,Australia,Republic of Korea,1994,hay_for_forage_from_legumes,90.0
+10,117,Australia,Republic of Korea,1996,hay_for_forage_from_legumes,60.0
+10,194,Australia,Saudi Arabia,1993,hay_for_forage_from_legumes,125.0
+10,194,Australia,Saudi Arabia,1996,hay_for_forage_from_legumes,30.0
+10,200,Australia,Singapore,1988,hay_for_forage_from_legumes,618.0
+10,200,Australia,Singapore,1989,hay_for_forage_from_legumes,486.0
+10,200,Australia,Singapore,1990,hay_for_forage_from_legumes,956.0
+10,200,Australia,Singapore,1991,hay_for_forage_from_legumes,1051.0
+10,200,Australia,Singapore,1992,hay_for_forage_from_legumes,1178.0
+10,200,Australia,Singapore,1993,hay_for_forage_from_legumes,1279.0
+10,200,Australia,Singapore,1994,hay_for_forage_from_legumes,1376.0
+10,200,Australia,Singapore,1996,hay_for_forage_from_legumes,2563.0
+10,216,Australia,Thailand,1988,hay_for_forage_from_legumes,10.0
+10,216,Australia,Thailand,1989,hay_for_forage_from_legumes,10.0
+10,216,Australia,Thailand,1996,hay_for_forage_from_legumes,198.0
+10,225,Australia,United Arab Emirates,1988,hay_for_forage_from_legumes,17.0
+10,225,Australia,United Arab Emirates,1989,hay_for_forage_from_legumes,17.0
+10,225,Australia,United Arab Emirates,1991,hay_for_forage_from_legumes,113.0
+10,225,Australia,United Arab Emirates,1992,hay_for_forage_from_legumes,501.0
+10,225,Australia,United Arab Emirates,1993,hay_for_forage_from_legumes,181.0
+10,225,Australia,United Arab Emirates,1994,hay_for_forage_from_legumes,445.0
+10,225,Australia,United Arab Emirates,1996,hay_for_forage_from_legumes,312.0
+10,236,Australia,Venezuela (Bolivarian Republic of),1988,hay_for_forage_from_legumes,70.0
+10,236,Australia,Venezuela (Bolivarian Republic of),1989,hay_for_forage_from_legumes,70.0

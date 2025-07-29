@@ -1,0 +1,1833 @@
+o_code,d_code,o_name,d_name,year,item,weight
+59,4,Egypt,Algeria,2020,feed_compound_cattle,0.02
+220,8,Trinidad and Tobago,Antigua and Barbuda,1989,feed_compound_cattle,5.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1990,feed_compound_cattle,6.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1991,feed_compound_cattle,8.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1992,feed_compound_cattle,2.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1997,feed_compound_cattle,457.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1998,feed_compound_cattle,72.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1999,feed_compound_cattle,230.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2000,feed_compound_cattle,310.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2001,feed_compound_cattle,216.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2002,feed_compound_cattle,233.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2003,feed_compound_cattle,637.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2004,feed_compound_cattle,665.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2005,feed_compound_cattle,313.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2006,feed_compound_cattle,341.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2007,feed_compound_cattle,459.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2010,feed_compound_cattle,11.0
+4,11,Algeria,Austria,2016,feed_compound_cattle,0.01
+59,7,Egypt,Angola,2021,feed_compound_cattle,71.43
+59,7,Egypt,Angola,2022,feed_compound_cattle,541.63
+59,7,Egypt,Angola,2023,feed_compound_cattle,327.04
+231,3,United States of America,Albania,2004,feed_compound_cattle,33.0
+231,3,United States of America,Albania,2008,feed_compound_cattle,17.0
+33,7,Canada,Angola,2010,feed_compound_cattle,2.0
+33,7,Canada,Angola,2013,feed_compound_cattle,480.0
+220,14,Trinidad and Tobago,Barbados,1994,feed_compound_cattle,52.0
+220,14,Trinidad and Tobago,Barbados,1995,feed_compound_cattle,81.0
+220,14,Trinidad and Tobago,Barbados,1996,feed_compound_cattle,18.0
+220,14,Trinidad and Tobago,Barbados,1997,feed_compound_cattle,122.0
+220,14,Trinidad and Tobago,Barbados,1999,feed_compound_cattle,114.0
+220,14,Trinidad and Tobago,Barbados,2000,feed_compound_cattle,362.0
+220,14,Trinidad and Tobago,Barbados,2001,feed_compound_cattle,456.0
+220,14,Trinidad and Tobago,Barbados,2002,feed_compound_cattle,836.0
+220,14,Trinidad and Tobago,Barbados,2003,feed_compound_cattle,1248.0
+220,14,Trinidad and Tobago,Barbados,2004,feed_compound_cattle,762.0
+220,14,Trinidad and Tobago,Barbados,2005,feed_compound_cattle,766.0
+220,14,Trinidad and Tobago,Barbados,2006,feed_compound_cattle,664.0
+220,14,Trinidad and Tobago,Barbados,2007,feed_compound_cattle,238.0
+220,14,Trinidad and Tobago,Barbados,2009,feed_compound_cattle,8.0
+220,14,Trinidad and Tobago,Barbados,2010,feed_compound_cattle,21.0
+231,8,United States of America,Antigua and Barbuda,2023,feed_compound_cattle,5.0
+59,13,Egypt,Bahrain,2020,feed_compound_cattle,38.49
+59,13,Egypt,Bahrain,2022,feed_compound_cattle,11.93
+59,13,Egypt,Bahrain,2023,feed_compound_cattle,8.68
+59,16,Egypt,Bangladesh,2020,feed_compound_cattle,1431.98
+59,16,Egypt,Bangladesh,2021,feed_compound_cattle,8379.73
+59,16,Egypt,Bangladesh,2022,feed_compound_cattle,2450.88
+59,16,Egypt,Bangladesh,2023,feed_compound_cattle,485.43
+29,184,Burundi,Rwanda,2013,feed_compound_cattle,95.0
+220,23,Trinidad and Tobago,Belize,1988,feed_compound_cattle,15.0
+59,255,Egypt,Belgium,2009,feed_compound_cattle,73.0
+59,255,Egypt,Belgium,2021,feed_compound_cattle,33.71
+59,255,Egypt,Belgium,2022,feed_compound_cattle,84.82
+231,9,United States of America,Argentina,1986,feed_compound_cattle,93.0
+231,9,United States of America,Argentina,1987,feed_compound_cattle,34.0
+231,9,United States of America,Argentina,1988,feed_compound_cattle,33.0
+231,9,United States of America,Argentina,1989,feed_compound_cattle,15.0
+231,9,United States of America,Argentina,1998,feed_compound_cattle,20.0
+231,9,United States of America,Argentina,2017,feed_compound_cattle,134.0
+231,9,United States of America,Argentina,2018,feed_compound_cattle,39.0
+231,9,United States of America,Argentina,2019,feed_compound_cattle,19.0
+231,9,United States of America,Argentina,2020,feed_compound_cattle,44.0
+231,9,United States of America,Argentina,2021,feed_compound_cattle,122.0
+231,9,United States of America,Argentina,2022,feed_compound_cattle,160.0
+231,9,United States of America,Argentina,2023,feed_compound_cattle,238.0
+59,53,Egypt,Benin,2019,feed_compound_cattle,25.95
+59,53,Egypt,Benin,2020,feed_compound_cattle,164.82
+59,53,Egypt,Benin,2021,feed_compound_cattle,92.02
+59,53,Egypt,Benin,2022,feed_compound_cattle,158.23
+59,53,Egypt,Benin,2023,feed_compound_cattle,20.02
+4,68,Algeria,France,2016,feed_compound_cattle,0.03
+138,23,Mexico,Belize,2003,feed_compound_cattle,4.0
+138,23,Mexico,Belize,2004,feed_compound_cattle,10.0
+138,23,Mexico,Belize,2008,feed_compound_cattle,74.0
+138,23,Mexico,Belize,2009,feed_compound_cattle,101.0
+138,23,Mexico,Belize,2012,feed_compound_cattle,7.0
+138,23,Mexico,Belize,2014,feed_compound_cattle,10.75
+138,23,Mexico,Belize,2015,feed_compound_cattle,9.2
+33,10,Canada,Australia,1999,feed_compound_cattle,5.0
+33,10,Canada,Australia,2000,feed_compound_cattle,8.0
+33,10,Canada,Australia,2003,feed_compound_cattle,18.0
+33,10,Canada,Australia,2006,feed_compound_cattle,45.0
+33,10,Canada,Australia,2007,feed_compound_cattle,36.0
+33,10,Canada,Australia,2008,feed_compound_cattle,24.0
+33,10,Canada,Australia,2009,feed_compound_cattle,104.0
+33,10,Canada,Australia,2010,feed_compound_cattle,39.0
+33,10,Canada,Australia,2011,feed_compound_cattle,52.0
+33,10,Canada,Australia,2012,feed_compound_cattle,13.0
+33,10,Canada,Australia,2013,feed_compound_cattle,14.0
+33,10,Canada,Australia,2014,feed_compound_cattle,4.67
+33,10,Canada,Australia,2016,feed_compound_cattle,6.3
+33,10,Canada,Australia,2017,feed_compound_cattle,5.34
+59,233,Egypt,Burkina Faso,2022,feed_compound_cattle,13.18
+59,32,Egypt,Cameroon,2021,feed_compound_cattle,98.2
+59,32,Egypt,Cameroon,2022,feed_compound_cattle,27.3
+59,32,Egypt,Cameroon,2023,feed_compound_cattle,29.69
+14,55,Barbados,Dominica,1991,feed_compound_cattle,39.0
+14,55,Barbados,Dominica,1992,feed_compound_cattle,5.0
+14,55,Barbados,Dominica,1993,feed_compound_cattle,13.0
+14,55,Barbados,Dominica,1994,feed_compound_cattle,20.0
+14,55,Barbados,Dominica,1995,feed_compound_cattle,29.0
+14,55,Barbados,Dominica,1996,feed_compound_cattle,21.0
+33,11,Canada,Austria,1996,feed_compound_cattle,21.0
+14,86,Barbados,Grenada,2016,feed_compound_cattle,3.2
+14,86,Barbados,Grenada,2018,feed_compound_cattle,1.65
+4,106,Algeria,Italy,2000,feed_compound_cattle,1629.0
+4,106,Algeria,Italy,2001,feed_compound_cattle,729.0
+4,106,Algeria,Italy,2003,feed_compound_cattle,1301.0
+59,46,Egypt,Congo,2019,feed_compound_cattle,26.5
+59,46,Egypt,Congo,2021,feed_compound_cattle,53.72
+59,46,Egypt,Congo,2023,feed_compound_cattle,18.52
+59,107,Egypt,Côte d'Ivoire,2018,feed_compound_cattle,30.81
+59,107,Egypt,Côte d'Ivoire,2019,feed_compound_cattle,181.41
+59,107,Egypt,Côte d'Ivoire,2020,feed_compound_cattle,702.88
+59,107,Egypt,Côte d'Ivoire,2021,feed_compound_cattle,132.24
+59,107,Egypt,Côte d'Ivoire,2022,feed_compound_cattle,90.03
+59,107,Egypt,Côte d'Ivoire,2023,feed_compound_cattle,45.35
+231,10,United States of America,Australia,1989,feed_compound_cattle,49.0
+231,10,United States of America,Australia,1990,feed_compound_cattle,20.0
+231,10,United States of America,Australia,1992,feed_compound_cattle,2.0
+231,10,United States of America,Australia,1994,feed_compound_cattle,33.0
+231,10,United States of America,Australia,1995,feed_compound_cattle,5.0
+231,10,United States of America,Australia,1996,feed_compound_cattle,1.0
+231,10,United States of America,Australia,1999,feed_compound_cattle,663.0
+231,10,United States of America,Australia,2000,feed_compound_cattle,216.0
+231,10,United States of America,Australia,2001,feed_compound_cattle,14.0
+231,10,United States of America,Australia,2002,feed_compound_cattle,227.0
+231,10,United States of America,Australia,2003,feed_compound_cattle,25.0
+231,10,United States of America,Australia,2004,feed_compound_cattle,319.0
+231,10,United States of America,Australia,2005,feed_compound_cattle,13.0
+231,10,United States of America,Australia,2006,feed_compound_cattle,23.0
+231,10,United States of America,Australia,2007,feed_compound_cattle,19.0
+231,10,United States of America,Australia,2008,feed_compound_cattle,174.0
+231,10,United States of America,Australia,2009,feed_compound_cattle,115.0
+231,10,United States of America,Australia,2010,feed_compound_cattle,135.0
+231,10,United States of America,Australia,2012,feed_compound_cattle,198.0
+231,10,United States of America,Australia,2013,feed_compound_cattle,249.0
+231,10,United States of America,Australia,2014,feed_compound_cattle,2053.0
+231,10,United States of America,Australia,2015,feed_compound_cattle,318.0
+231,10,United States of America,Australia,2016,feed_compound_cattle,881.0
+231,10,United States of America,Australia,2017,feed_compound_cattle,660.0
+231,10,United States of America,Australia,2018,feed_compound_cattle,402.0
+231,10,United States of America,Australia,2019,feed_compound_cattle,237.0
+231,10,United States of America,Australia,2020,feed_compound_cattle,182.0
+231,10,United States of America,Australia,2021,feed_compound_cattle,235.0
+231,10,United States of America,Australia,2022,feed_compound_cattle,196.0
+231,10,United States of America,Australia,2023,feed_compound_cattle,225.0
+59,50,Egypt,Cyprus,2013,feed_compound_cattle,24.0
+59,50,Egypt,Cyprus,2019,feed_compound_cattle,144.0
+59,50,Egypt,Cyprus,2020,feed_compound_cattle,118.7
+59,50,Egypt,Cyprus,2021,feed_compound_cattle,161.57
+59,50,Egypt,Cyprus,2022,feed_compound_cattle,182.98
+59,50,Egypt,Cyprus,2023,feed_compound_cattle,105.16
+33,13,Canada,Bahrain,2007,feed_compound_cattle,12.0
+33,13,Canada,Bahrain,2009,feed_compound_cattle,36.0
+220,55,Trinidad and Tobago,Dominica,1989,feed_compound_cattle,13.0
+220,55,Trinidad and Tobago,Dominica,1993,feed_compound_cattle,47.0
+220,55,Trinidad and Tobago,Dominica,2009,feed_compound_cattle,89.0
+33,16,Canada,Bangladesh,1989,feed_compound_cattle,9.0
+33,16,Canada,Bangladesh,2006,feed_compound_cattle,853.0
+33,16,Canada,Bangladesh,2007,feed_compound_cattle,264.0
+59,116,Egypt,Democratic People's Republic of Korea,2009,feed_compound_cattle,3.0
+59,250,Egypt,Democratic Republic of the Congo,2019,feed_compound_cattle,13.0
+59,250,Egypt,Democratic Republic of the Congo,2021,feed_compound_cattle,23.93
+220,56,Trinidad and Tobago,Dominican Republic,1994,feed_compound_cattle,179.0
+220,56,Trinidad and Tobago,Dominican Republic,1995,feed_compound_cattle,182.0
+220,56,Trinidad and Tobago,Dominican Republic,1996,feed_compound_cattle,151.0
+220,56,Trinidad and Tobago,Dominican Republic,1997,feed_compound_cattle,348.0
+220,56,Trinidad and Tobago,Dominican Republic,1998,feed_compound_cattle,128.0
+220,56,Trinidad and Tobago,Dominican Republic,1999,feed_compound_cattle,152.0
+220,56,Trinidad and Tobago,Dominican Republic,2000,feed_compound_cattle,379.0
+220,56,Trinidad and Tobago,Dominican Republic,2001,feed_compound_cattle,812.0
+220,56,Trinidad and Tobago,Dominican Republic,2002,feed_compound_cattle,903.0
+220,56,Trinidad and Tobago,Dominican Republic,2003,feed_compound_cattle,1036.0
+220,56,Trinidad and Tobago,Dominican Republic,2004,feed_compound_cattle,817.0
+220,56,Trinidad and Tobago,Dominican Republic,2005,feed_compound_cattle,726.0
+220,56,Trinidad and Tobago,Dominican Republic,2006,feed_compound_cattle,550.0
+220,56,Trinidad and Tobago,Dominican Republic,2007,feed_compound_cattle,934.0
+220,56,Trinidad and Tobago,Dominican Republic,2010,feed_compound_cattle,76.0
+4,136,Algeria,Mauritania,2005,feed_compound_cattle,4.0
+4,143,Algeria,Morocco,1992,feed_compound_cattle,80.0
+4,143,Algeria,Morocco,1993,feed_compound_cattle,101.0
+4,143,Algeria,Morocco,1994,feed_compound_cattle,120.0
+4,143,Algeria,Morocco,1996,feed_compound_cattle,62.0
+4,143,Algeria,Morocco,1997,feed_compound_cattle,120.0
+4,143,Algeria,Morocco,1998,feed_compound_cattle,36.0
+33,14,Canada,Barbados,1988,feed_compound_cattle,29.0
+33,14,Canada,Barbados,1989,feed_compound_cattle,5.0
+33,14,Canada,Barbados,1990,feed_compound_cattle,4.0
+33,14,Canada,Barbados,1991,feed_compound_cattle,18.0
+33,14,Canada,Barbados,1994,feed_compound_cattle,36.0
+33,14,Canada,Barbados,1995,feed_compound_cattle,15.0
+33,14,Canada,Barbados,1999,feed_compound_cattle,60.0
+59,178,Egypt,Eritrea,2017,feed_compound_cattle,11.82
+59,178,Egypt,Eritrea,2019,feed_compound_cattle,291.0
+59,178,Egypt,Eritrea,2020,feed_compound_cattle,31.44
+220,86,Trinidad and Tobago,Grenada,1996,feed_compound_cattle,15.0
+220,86,Trinidad and Tobago,Grenada,1997,feed_compound_cattle,2.0
+220,86,Trinidad and Tobago,Grenada,1999,feed_compound_cattle,5.0
+220,86,Trinidad and Tobago,Grenada,2000,feed_compound_cattle,221.0
+220,86,Trinidad and Tobago,Grenada,2001,feed_compound_cattle,11.0
+220,86,Trinidad and Tobago,Grenada,2003,feed_compound_cattle,4.0
+220,86,Trinidad and Tobago,Grenada,2004,feed_compound_cattle,5.0
+220,86,Trinidad and Tobago,Grenada,2005,feed_compound_cattle,2.0
+220,86,Trinidad and Tobago,Grenada,2006,feed_compound_cattle,1.0
+220,86,Trinidad and Tobago,Grenada,2007,feed_compound_cattle,7.0
+33,255,Canada,Belgium,2001,feed_compound_cattle,30.0
+33,255,Canada,Belgium,2018,feed_compound_cattle,47.94
+59,74,Egypt,Gabon,2019,feed_compound_cattle,26.5
+59,74,Egypt,Gabon,2022,feed_compound_cattle,19.12
+59,73,Egypt,Georgia,2019,feed_compound_cattle,76.0
+59,73,Egypt,Georgia,2020,feed_compound_cattle,206.15
+59,73,Egypt,Georgia,2021,feed_compound_cattle,381.27
+59,73,Egypt,Georgia,2022,feed_compound_cattle,206.96
+59,79,Egypt,Germany,2021,feed_compound_cattle,184.39
+4,203,Algeria,Spain,1998,feed_compound_cattle,1650.0
+4,203,Algeria,Spain,1999,feed_compound_cattle,1669.0
+4,203,Algeria,Spain,2002,feed_compound_cattle,1324.0
+33,15,Canada,Belgium-Luxembourg,1995,feed_compound_cattle,70.0
+220,91,Trinidad and Tobago,Guyana,1988,feed_compound_cattle,3.0
+220,91,Trinidad and Tobago,Guyana,1994,feed_compound_cattle,665.0
+220,91,Trinidad and Tobago,Guyana,1995,feed_compound_cattle,9439.0
+220,91,Trinidad and Tobago,Guyana,1996,feed_compound_cattle,6556.0
+220,91,Trinidad and Tobago,Guyana,1997,feed_compound_cattle,7797.0
+220,91,Trinidad and Tobago,Guyana,1998,feed_compound_cattle,8431.0
+220,91,Trinidad and Tobago,Guyana,1999,feed_compound_cattle,5172.0
+220,91,Trinidad and Tobago,Guyana,2000,feed_compound_cattle,1762.0
+220,91,Trinidad and Tobago,Guyana,2001,feed_compound_cattle,2363.0
+220,91,Trinidad and Tobago,Guyana,2002,feed_compound_cattle,819.0
+220,91,Trinidad and Tobago,Guyana,2003,feed_compound_cattle,27.0
+220,91,Trinidad and Tobago,Guyana,2005,feed_compound_cattle,12.0
+220,91,Trinidad and Tobago,Guyana,2006,feed_compound_cattle,193.0
+220,91,Trinidad and Tobago,Guyana,2007,feed_compound_cattle,40.0
+220,91,Trinidad and Tobago,Guyana,2009,feed_compound_cattle,2782.0
+220,91,Trinidad and Tobago,Guyana,2010,feed_compound_cattle,2681.0
+33,23,Canada,Belize,1990,feed_compound_cattle,1.0
+59,81,Egypt,Ghana,2018,feed_compound_cattle,123.61
+59,81,Egypt,Ghana,2020,feed_compound_cattle,26.11
+59,81,Egypt,Ghana,2022,feed_compound_cattle,110.58
+108,113,Kazakhstan,Kyrgyzstan,1999,feed_compound_cattle,23.0
+33,53,Canada,Benin,2000,feed_compound_cattle,12.0
+59,84,Egypt,Greece,2023,feed_compound_cattle,57.22
+231,12,United States of America,Bahamas,1988,feed_compound_cattle,7.0
+231,12,United States of America,Bahamas,1990,feed_compound_cattle,62.0
+231,12,United States of America,Bahamas,1991,feed_compound_cattle,77.0
+231,12,United States of America,Bahamas,1992,feed_compound_cattle,1302.0
+231,12,United States of America,Bahamas,1993,feed_compound_cattle,18.0
+231,12,United States of America,Bahamas,1994,feed_compound_cattle,34.0
+231,12,United States of America,Bahamas,1998,feed_compound_cattle,19.0
+231,12,United States of America,Bahamas,2001,feed_compound_cattle,58.0
+231,12,United States of America,Bahamas,2002,feed_compound_cattle,112.0
+231,12,United States of America,Bahamas,2008,feed_compound_cattle,41.0
+231,12,United States of America,Bahamas,2020,feed_compound_cattle,5.0
+4,222,Algeria,Tunisia,1988,feed_compound_cattle,10.0
+4,222,Algeria,Tunisia,1992,feed_compound_cattle,200.0
+4,222,Algeria,Tunisia,1993,feed_compound_cattle,40.0
+4,222,Algeria,Tunisia,1994,feed_compound_cattle,50.0
+4,222,Algeria,Tunisia,1996,feed_compound_cattle,5.0
+4,222,Algeria,Tunisia,2015,feed_compound_cattle,20.0
+59,90,Egypt,Guinea,2022,feed_compound_cattle,87.64
+59,90,Egypt,Guinea,2023,feed_compound_cattle,41.87
+220,109,Trinidad and Tobago,Jamaica,1998,feed_compound_cattle,24.0
+220,109,Trinidad and Tobago,Jamaica,2000,feed_compound_cattle,47.0
+220,109,Trinidad and Tobago,Jamaica,2001,feed_compound_cattle,18.0
+33,21,Canada,Brazil,2014,feed_compound_cattle,291.48
+33,21,Canada,Brazil,2015,feed_compound_cattle,26.15
+33,21,Canada,Brazil,2020,feed_compound_cattle,794.92
+33,21,Canada,Brazil,2021,feed_compound_cattle,632.51
+33,21,Canada,Brazil,2023,feed_compound_cattle,37.39
+59,100,Egypt,India,2023,feed_compound_cattle,59.83
+117,41,Republic of Korea,"China, mainland",1993,feed_compound_cattle,10.0
+4,229,Algeria,United Kingdom of Great Britain and Northern Ireland,1996,feed_compound_cattle,1012.0
+4,229,Algeria,United Kingdom of Great Britain and Northern Ireland,1998,feed_compound_cattle,1311.0
+4,229,Algeria,United Kingdom of Great Britain and Northern Ireland,2001,feed_compound_cattle,1048.0
+138,48,Mexico,Costa Rica,2002,feed_compound_cattle,4.0
+138,48,Mexico,Costa Rica,2009,feed_compound_cattle,39.0
+138,48,Mexico,Costa Rica,2012,feed_compound_cattle,39.0
+138,48,Mexico,Costa Rica,2014,feed_compound_cattle,19.5
+59,103,Egypt,Iraq,2018,feed_compound_cattle,62.35
+59,103,Egypt,Iraq,2019,feed_compound_cattle,538.97
+59,103,Egypt,Iraq,2021,feed_compound_cattle,36.03
+59,103,Egypt,Iraq,2022,feed_compound_cattle,527.58
+59,103,Egypt,Iraq,2023,feed_compound_cattle,444.65
+231,13,United States of America,Bahrain,2015,feed_compound_cattle,19.0
+33,27,Canada,Bulgaria,2011,feed_compound_cattle,43.0
+33,27,Canada,Bulgaria,2012,feed_compound_cattle,13.0
+33,27,Canada,Bulgaria,2013,feed_compound_cattle,16.0
+33,27,Canada,Bulgaria,2014,feed_compound_cattle,7.97
+33,27,Canada,Bulgaria,2015,feed_compound_cattle,12.43
+59,105,Egypt,Israel,2019,feed_compound_cattle,782.77
+59,105,Egypt,Israel,2020,feed_compound_cattle,889.2
+59,105,Egypt,Israel,2021,feed_compound_cattle,1901.8
+59,105,Egypt,Israel,2022,feed_compound_cattle,3126.36
+59,105,Egypt,Israel,2023,feed_compound_cattle,713.36
+138,49,Mexico,Cuba,2009,feed_compound_cattle,4.0
+138,49,Mexico,Cuba,2012,feed_compound_cattle,250.0
+59,106,Egypt,Italy,2009,feed_compound_cattle,27.0
+59,106,Egypt,Italy,2011,feed_compound_cattle,20.0
+59,106,Egypt,Italy,2019,feed_compound_cattle,24.0
+59,106,Egypt,Italy,2021,feed_compound_cattle,260.44
+231,16,United States of America,Bangladesh,2001,feed_compound_cattle,2268.0
+231,16,United States of America,Bangladesh,2009,feed_compound_cattle,17.0
+231,16,United States of America,Bangladesh,2013,feed_compound_cattle,30.0
+33,115,Canada,Cambodia,1989,feed_compound_cattle,17.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1993,feed_compound_cattle,419.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1994,feed_compound_cattle,869.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1995,feed_compound_cattle,455.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1996,feed_compound_cattle,1179.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1997,feed_compound_cattle,581.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1998,feed_compound_cattle,243.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,1999,feed_compound_cattle,51.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2000,feed_compound_cattle,78.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2001,feed_compound_cattle,55.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2002,feed_compound_cattle,9.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2003,feed_compound_cattle,7.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2004,feed_compound_cattle,34.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2005,feed_compound_cattle,23.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2006,feed_compound_cattle,3.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2009,feed_compound_cattle,11.0
+220,188,Trinidad and Tobago,Saint Kitts and Nevis,2010,feed_compound_cattle,71.0
+138,56,Mexico,Dominican Republic,2002,feed_compound_cattle,20.0
+231,14,United States of America,Barbados,1989,feed_compound_cattle,21.0
+231,14,United States of America,Barbados,1990,feed_compound_cattle,110.0
+231,14,United States of America,Barbados,1991,feed_compound_cattle,119.0
+231,14,United States of America,Barbados,1992,feed_compound_cattle,37.0
+231,14,United States of America,Barbados,1994,feed_compound_cattle,48.0
+231,14,United States of America,Barbados,1995,feed_compound_cattle,502.0
+231,14,United States of America,Barbados,1996,feed_compound_cattle,1.0
+231,14,United States of America,Barbados,2008,feed_compound_cattle,249.0
+231,14,United States of America,Barbados,2015,feed_compound_cattle,20.0
+231,14,United States of America,Barbados,2016,feed_compound_cattle,13.0
+231,14,United States of America,Barbados,2017,feed_compound_cattle,18.0
+231,14,United States of America,Barbados,2018,feed_compound_cattle,24.0
+231,14,United States of America,Barbados,2019,feed_compound_cattle,37.0
+231,14,United States of America,Barbados,2020,feed_compound_cattle,14.0
+231,14,United States of America,Barbados,2021,feed_compound_cattle,18.0
+231,14,United States of America,Barbados,2022,feed_compound_cattle,9.0
+59,112,Egypt,Jordan,2009,feed_compound_cattle,477.0
+59,112,Egypt,Jordan,2013,feed_compound_cattle,48.0
+59,112,Egypt,Jordan,2017,feed_compound_cattle,1701.47
+59,112,Egypt,Jordan,2019,feed_compound_cattle,220.0
+59,112,Egypt,Jordan,2020,feed_compound_cattle,348.74
+59,112,Egypt,Jordan,2021,feed_compound_cattle,14.45
+59,112,Egypt,Jordan,2022,feed_compound_cattle,421.69
+59,112,Egypt,Jordan,2023,feed_compound_cattle,160.61
+220,189,Trinidad and Tobago,Saint Lucia,1986,feed_compound_cattle,52.0
+220,189,Trinidad and Tobago,Saint Lucia,1987,feed_compound_cattle,53.0
+220,189,Trinidad and Tobago,Saint Lucia,1988,feed_compound_cattle,55.0
+220,189,Trinidad and Tobago,Saint Lucia,1989,feed_compound_cattle,64.0
+220,189,Trinidad and Tobago,Saint Lucia,1990,feed_compound_cattle,43.0
+220,189,Trinidad and Tobago,Saint Lucia,1991,feed_compound_cattle,2.0
+220,189,Trinidad and Tobago,Saint Lucia,1992,feed_compound_cattle,124.0
+220,189,Trinidad and Tobago,Saint Lucia,1993,feed_compound_cattle,571.0
+220,189,Trinidad and Tobago,Saint Lucia,1994,feed_compound_cattle,686.0
+220,189,Trinidad and Tobago,Saint Lucia,1995,feed_compound_cattle,1137.0
+220,189,Trinidad and Tobago,Saint Lucia,1996,feed_compound_cattle,1668.0
+220,189,Trinidad and Tobago,Saint Lucia,1997,feed_compound_cattle,2267.0
+220,189,Trinidad and Tobago,Saint Lucia,1998,feed_compound_cattle,1930.0
+220,189,Trinidad and Tobago,Saint Lucia,1999,feed_compound_cattle,2970.0
+220,189,Trinidad and Tobago,Saint Lucia,2000,feed_compound_cattle,2043.0
+220,189,Trinidad and Tobago,Saint Lucia,2001,feed_compound_cattle,2974.0
+220,189,Trinidad and Tobago,Saint Lucia,2002,feed_compound_cattle,1907.0
+220,189,Trinidad and Tobago,Saint Lucia,2003,feed_compound_cattle,2950.0
+220,189,Trinidad and Tobago,Saint Lucia,2004,feed_compound_cattle,3892.0
+220,189,Trinidad and Tobago,Saint Lucia,2005,feed_compound_cattle,4059.0
+220,189,Trinidad and Tobago,Saint Lucia,2006,feed_compound_cattle,2258.0
+220,189,Trinidad and Tobago,Saint Lucia,2007,feed_compound_cattle,2734.0
+220,189,Trinidad and Tobago,Saint Lucia,2009,feed_compound_cattle,1428.0
+220,189,Trinidad and Tobago,Saint Lucia,2010,feed_compound_cattle,803.0
+33,40,Canada,Chile,2010,feed_compound_cattle,38.0
+33,40,Canada,Chile,2017,feed_compound_cattle,11.1
+108,185,Kazakhstan,Russian Federation,1998,feed_compound_cattle,7676.0
+108,185,Kazakhstan,Russian Federation,1999,feed_compound_cattle,384.0
+59,114,Egypt,Kenya,2017,feed_compound_cattle,216.11
+59,114,Egypt,Kenya,2018,feed_compound_cattle,540.71
+59,114,Egypt,Kenya,2019,feed_compound_cattle,5884.77
+59,114,Egypt,Kenya,2020,feed_compound_cattle,7636.99
+59,114,Egypt,Kenya,2021,feed_compound_cattle,7776.2
+59,114,Egypt,Kenya,2022,feed_compound_cattle,11104.28
+59,114,Egypt,Kenya,2023,feed_compound_cattle,4081.85
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,1988,feed_compound_cattle,2.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,1990,feed_compound_cattle,2.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,1998,feed_compound_cattle,80.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,1999,feed_compound_cattle,164.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2000,feed_compound_cattle,157.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2001,feed_compound_cattle,779.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2002,feed_compound_cattle,650.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2003,feed_compound_cattle,255.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2004,feed_compound_cattle,130.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2005,feed_compound_cattle,9.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2006,feed_compound_cattle,27.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2007,feed_compound_cattle,29.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2009,feed_compound_cattle,25.0
+220,191,Trinidad and Tobago,Saint Vincent and the Grenadines,2010,feed_compound_cattle,7.0
+59,118,Egypt,Kuwait,2009,feed_compound_cattle,133.0
+59,118,Egypt,Kuwait,2011,feed_compound_cattle,20.0
+59,118,Egypt,Kuwait,2017,feed_compound_cattle,54.27
+59,118,Egypt,Kuwait,2019,feed_compound_cattle,24.0
+59,118,Egypt,Kuwait,2020,feed_compound_cattle,88.46
+59,118,Egypt,Kuwait,2021,feed_compound_cattle,136.44
+59,118,Egypt,Kuwait,2022,feed_compound_cattle,207.18
+59,118,Egypt,Kuwait,2023,feed_compound_cattle,66.75
+231,255,United States of America,Belgium,2001,feed_compound_cattle,62.0
+231,255,United States of America,Belgium,2006,feed_compound_cattle,19.0
+231,255,United States of America,Belgium,2015,feed_compound_cattle,228.0
+231,255,United States of America,Belgium,2016,feed_compound_cattle,10.0
+231,255,United States of America,Belgium,2020,feed_compound_cattle,20.0
+231,255,United States of America,Belgium,2022,feed_compound_cattle,6.0
+220,207,Trinidad and Tobago,Suriname,1996,feed_compound_cattle,642.0
+220,207,Trinidad and Tobago,Suriname,1997,feed_compound_cattle,54.0
+220,207,Trinidad and Tobago,Suriname,2006,feed_compound_cattle,428.0
+220,207,Trinidad and Tobago,Suriname,2007,feed_compound_cattle,612.0
+220,207,Trinidad and Tobago,Suriname,2009,feed_compound_cattle,396.0
+220,207,Trinidad and Tobago,Suriname,2010,feed_compound_cattle,1038.0
+59,121,Egypt,Lebanon,2011,feed_compound_cattle,17.0
+59,121,Egypt,Lebanon,2013,feed_compound_cattle,24.0
+59,121,Egypt,Lebanon,2018,feed_compound_cattle,14.94
+59,121,Egypt,Lebanon,2019,feed_compound_cattle,257.0
+59,121,Egypt,Lebanon,2020,feed_compound_cattle,502.91
+59,121,Egypt,Lebanon,2021,feed_compound_cattle,161.82
+59,121,Egypt,Lebanon,2022,feed_compound_cattle,1050.3
+59,121,Egypt,Lebanon,2023,feed_compound_cattle,773.5
+33,96,Canada,"China, Hong Kong SAR",1986,feed_compound_cattle,315.0
+33,96,Canada,"China, Hong Kong SAR",1987,feed_compound_cattle,216.0
+33,96,Canada,"China, Hong Kong SAR",1988,feed_compound_cattle,2689.0
+33,96,Canada,"China, Hong Kong SAR",1989,feed_compound_cattle,1952.0
+33,96,Canada,"China, Hong Kong SAR",1990,feed_compound_cattle,1621.0
+33,96,Canada,"China, Hong Kong SAR",1991,feed_compound_cattle,1942.0
+33,96,Canada,"China, Hong Kong SAR",1992,feed_compound_cattle,1308.0
+33,96,Canada,"China, Hong Kong SAR",1993,feed_compound_cattle,809.0
+33,96,Canada,"China, Hong Kong SAR",1994,feed_compound_cattle,94.0
+33,96,Canada,"China, Hong Kong SAR",1995,feed_compound_cattle,246.0
+33,96,Canada,"China, Hong Kong SAR",1998,feed_compound_cattle,15.0
+33,96,Canada,"China, Hong Kong SAR",2004,feed_compound_cattle,8.0
+33,96,Canada,"China, Hong Kong SAR",2011,feed_compound_cattle,138.0
+33,96,Canada,"China, Hong Kong SAR",2013,feed_compound_cattle,1.0
+220,220,Trinidad and Tobago,Trinidad and Tobago,1997,feed_compound_cattle,37.0
+220,220,Trinidad and Tobago,Trinidad and Tobago,2001,feed_compound_cattle,20.0
+14,231,Barbados,United States of America,2009,feed_compound_cattle,4.0
+59,124,Egypt,Libya,2011,feed_compound_cattle,4000.0
+59,124,Egypt,Libya,2013,feed_compound_cattle,80.0
+59,124,Egypt,Libya,2018,feed_compound_cattle,13214.91
+59,124,Egypt,Libya,2019,feed_compound_cattle,23614.56
+59,124,Egypt,Libya,2020,feed_compound_cattle,13825.8
+59,124,Egypt,Libya,2021,feed_compound_cattle,2931.34
+59,124,Egypt,Libya,2022,feed_compound_cattle,5872.7
+59,124,Egypt,Libya,2023,feed_compound_cattle,3734.66
+231,15,United States of America,Belgium-Luxembourg,1988,feed_compound_cattle,70.0
+231,15,United States of America,Belgium-Luxembourg,1989,feed_compound_cattle,49.0
+231,15,United States of America,Belgium-Luxembourg,1991,feed_compound_cattle,46.0
+231,15,United States of America,Belgium-Luxembourg,1992,feed_compound_cattle,24.0
+231,15,United States of America,Belgium-Luxembourg,1993,feed_compound_cattle,149.0
+231,15,United States of America,Belgium-Luxembourg,1994,feed_compound_cattle,154.0
+231,15,United States of America,Belgium-Luxembourg,1995,feed_compound_cattle,16.0
+231,15,United States of America,Belgium-Luxembourg,1998,feed_compound_cattle,20.0
+59,129,Egypt,Madagascar,2020,feed_compound_cattle,220.14
+59,129,Egypt,Madagascar,2021,feed_compound_cattle,128.98
+59,129,Egypt,Madagascar,2022,feed_compound_cattle,226.19
+59,129,Egypt,Madagascar,2023,feed_compound_cattle,177.77
+59,131,Egypt,Malaysia,2023,feed_compound_cattle,19.7
+108,208,Kazakhstan,Tajikistan,1998,feed_compound_cattle,123.0
+59,133,Egypt,Mali,2018,feed_compound_cattle,21.22
+59,133,Egypt,Mali,2019,feed_compound_cattle,66.5
+59,133,Egypt,Mali,2020,feed_compound_cattle,155.81
+59,133,Egypt,Mali,2021,feed_compound_cattle,47.29
+59,133,Egypt,Mali,2022,feed_compound_cattle,101.0
+59,136,Egypt,Mauritania,2021,feed_compound_cattle,0.25
+59,136,Egypt,Mauritania,2022,feed_compound_cattle,22.51
+231,23,United States of America,Belize,1986,feed_compound_cattle,22.0
+231,23,United States of America,Belize,1990,feed_compound_cattle,37.0
+231,23,United States of America,Belize,1991,feed_compound_cattle,56.0
+231,23,United States of America,Belize,1992,feed_compound_cattle,16.0
+231,23,United States of America,Belize,1993,feed_compound_cattle,17.0
+231,23,United States of America,Belize,2022,feed_compound_cattle,375.0
+220,231,Trinidad and Tobago,United States of America,1997,feed_compound_cattle,37.0
+220,231,Trinidad and Tobago,United States of America,2005,feed_compound_cattle,2.0
+59,143,Egypt,Morocco,2019,feed_compound_cattle,22.0
+59,144,Egypt,Mozambique,2011,feed_compound_cattle,44.0
+33,41,Canada,"China, mainland",1990,feed_compound_cattle,1.0
+33,41,Canada,"China, mainland",1991,feed_compound_cattle,15.0
+33,41,Canada,"China, mainland",1993,feed_compound_cattle,20.0
+33,41,Canada,"China, mainland",1995,feed_compound_cattle,18.0
+33,41,Canada,"China, mainland",1999,feed_compound_cattle,521.0
+138,89,Mexico,Guatemala,2009,feed_compound_cattle,13.0
+138,89,Mexico,Guatemala,2012,feed_compound_cattle,39.0
+138,89,Mexico,Guatemala,2014,feed_compound_cattle,10.0
+138,89,Mexico,Guatemala,2015,feed_compound_cattle,15.0
+231,18,United States of America,Bhutan,2010,feed_compound_cattle,15.0
+59,150,Egypt,Netherlands (Kingdom of the),2021,feed_compound_cattle,0.02
+59,150,Egypt,Netherlands (Kingdom of the),2022,feed_compound_cattle,0.1
+59,150,Egypt,Netherlands (Kingdom of the),2023,feed_compound_cattle,0.03
+59,159,Egypt,Nigeria,2017,feed_compound_cattle,154.59
+59,159,Egypt,Nigeria,2019,feed_compound_cattle,166.0
+59,159,Egypt,Nigeria,2020,feed_compound_cattle,83.05
+59,159,Egypt,Nigeria,2021,feed_compound_cattle,143.42
+59,159,Egypt,Nigeria,2023,feed_compound_cattle,207.11
+59,162,Egypt,Norway,2023,feed_compound_cattle,0.01
+59,221,Egypt,Oman,2019,feed_compound_cattle,35.0
+59,221,Egypt,Oman,2020,feed_compound_cattle,32.26
+59,221,Egypt,Oman,2021,feed_compound_cattle,1.33
+59,221,Egypt,Oman,2022,feed_compound_cattle,21.55
+59,221,Egypt,Oman,2023,feed_compound_cattle,26.13
+59,165,Egypt,Pakistan,2021,feed_compound_cattle,392.07
+59,165,Egypt,Pakistan,2023,feed_compound_cattle,63.74
+231,21,United States of America,Brazil,1988,feed_compound_cattle,15.0
+231,21,United States of America,Brazil,1990,feed_compound_cattle,247.0
+231,21,United States of America,Brazil,1995,feed_compound_cattle,21.0
+231,21,United States of America,Brazil,1996,feed_compound_cattle,769.0
+231,21,United States of America,Brazil,1997,feed_compound_cattle,62.0
+231,21,United States of America,Brazil,2004,feed_compound_cattle,9.0
+231,21,United States of America,Brazil,2007,feed_compound_cattle,1359.0
+231,21,United States of America,Brazil,2012,feed_compound_cattle,1.0
+231,21,United States of America,Brazil,2014,feed_compound_cattle,1009.0
+231,21,United States of America,Brazil,2019,feed_compound_cattle,330.0
+231,21,United States of America,Brazil,2020,feed_compound_cattle,504.0
+231,21,United States of America,Brazil,2021,feed_compound_cattle,1034.0
+231,21,United States of America,Brazil,2022,feed_compound_cattle,1422.0
+231,21,United States of America,Brazil,2023,feed_compound_cattle,343.0
+59,299,Egypt,Palestine,2018,feed_compound_cattle,60.82
+59,299,Egypt,Palestine,2019,feed_compound_cattle,375.65
+59,299,Egypt,Palestine,2020,feed_compound_cattle,27.86
+59,299,Egypt,Palestine,2021,feed_compound_cattle,3109.94
+59,299,Egypt,Palestine,2022,feed_compound_cattle,3477.68
+33,214,Canada,"China, Taiwan Province of",1992,feed_compound_cattle,186.0
+33,214,Canada,"China, Taiwan Province of",1994,feed_compound_cattle,92.0
+33,214,Canada,"China, Taiwan Province of",2001,feed_compound_cattle,40.0
+33,214,Canada,"China, Taiwan Province of",2002,feed_compound_cattle,2.0
+33,214,Canada,"China, Taiwan Province of",2004,feed_compound_cattle,99.0
+33,214,Canada,"China, Taiwan Province of",2009,feed_compound_cattle,75.0
+33,214,Canada,"China, Taiwan Province of",2010,feed_compound_cattle,546.0
+33,214,Canada,"China, Taiwan Province of",2011,feed_compound_cattle,65.0
+33,214,Canada,"China, Taiwan Province of",2012,feed_compound_cattle,9.0
+59,184,Egypt,Rwanda,2021,feed_compound_cattle,82.73
+59,184,Egypt,Rwanda,2022,feed_compound_cattle,47.69
+59,184,Egypt,Rwanda,2023,feed_compound_cattle,59.18
+33,44,Canada,Colombia,2015,feed_compound_cattle,78.6
+33,44,Canada,Colombia,2017,feed_compound_cattle,53.54
+33,44,Canada,Colombia,2019,feed_compound_cattle,56.98
+59,194,Egypt,Saudi Arabia,2009,feed_compound_cattle,377.0
+59,194,Egypt,Saudi Arabia,2011,feed_compound_cattle,374.0
+59,194,Egypt,Saudi Arabia,2013,feed_compound_cattle,144.0
+59,194,Egypt,Saudi Arabia,2018,feed_compound_cattle,407.96
+59,194,Egypt,Saudi Arabia,2019,feed_compound_cattle,234.03
+59,194,Egypt,Saudi Arabia,2020,feed_compound_cattle,1891.77
+59,194,Egypt,Saudi Arabia,2021,feed_compound_cattle,790.85
+59,194,Egypt,Saudi Arabia,2022,feed_compound_cattle,1908.51
+59,194,Egypt,Saudi Arabia,2023,feed_compound_cattle,744.19
+33,48,Canada,Costa Rica,2010,feed_compound_cattle,36.0
+59,272,Egypt,Serbia,2021,feed_compound_cattle,32.44
+59,201,Egypt,Somalia,2017,feed_compound_cattle,4.53
+59,201,Egypt,Somalia,2023,feed_compound_cattle,34.64
+59,203,Egypt,Spain,2021,feed_compound_cattle,60.1
+59,203,Egypt,Spain,2022,feed_compound_cattle,63.81
+59,38,Egypt,Sri Lanka,2023,feed_compound_cattle,37.2
+59,276,Egypt,Sudan,2013,feed_compound_cattle,233.0
+59,276,Egypt,Sudan,2022,feed_compound_cattle,110.56
+59,276,Egypt,Sudan,2023,feed_compound_cattle,337.47
+231,33,United States of America,Canada,1986,feed_compound_cattle,2496.0
+231,33,United States of America,Canada,1987,feed_compound_cattle,3003.0
+231,33,United States of America,Canada,1988,feed_compound_cattle,3719.0
+231,33,United States of America,Canada,1989,feed_compound_cattle,4795.0
+231,33,United States of America,Canada,1990,feed_compound_cattle,2471.0
+231,33,United States of America,Canada,1991,feed_compound_cattle,3562.0
+231,33,United States of America,Canada,1992,feed_compound_cattle,3268.0
+231,33,United States of America,Canada,1993,feed_compound_cattle,2178.0
+231,33,United States of America,Canada,1994,feed_compound_cattle,2423.0
+231,33,United States of America,Canada,1995,feed_compound_cattle,2254.0
+231,33,United States of America,Canada,1996,feed_compound_cattle,1884.0
+231,33,United States of America,Canada,1997,feed_compound_cattle,2357.0
+231,33,United States of America,Canada,1998,feed_compound_cattle,1952.0
+231,33,United States of America,Canada,1999,feed_compound_cattle,2415.0
+231,33,United States of America,Canada,2000,feed_compound_cattle,2531.0
+231,33,United States of America,Canada,2001,feed_compound_cattle,4765.0
+231,33,United States of America,Canada,2002,feed_compound_cattle,4831.0
+231,33,United States of America,Canada,2003,feed_compound_cattle,3046.0
+231,33,United States of America,Canada,2004,feed_compound_cattle,2919.0
+231,33,United States of America,Canada,2005,feed_compound_cattle,3292.0
+231,33,United States of America,Canada,2006,feed_compound_cattle,4307.0
+231,33,United States of America,Canada,2007,feed_compound_cattle,5166.0
+231,33,United States of America,Canada,2008,feed_compound_cattle,3827.0
+231,33,United States of America,Canada,2009,feed_compound_cattle,2917.0
+231,33,United States of America,Canada,2010,feed_compound_cattle,2423.0
+231,33,United States of America,Canada,2011,feed_compound_cattle,3053.0
+231,33,United States of America,Canada,2012,feed_compound_cattle,1467.0
+231,33,United States of America,Canada,2013,feed_compound_cattle,1307.0
+231,33,United States of America,Canada,2014,feed_compound_cattle,1855.0
+231,33,United States of America,Canada,2015,feed_compound_cattle,2087.0
+231,33,United States of America,Canada,2016,feed_compound_cattle,1744.0
+59,207,Egypt,Suriname,2023,feed_compound_cattle,15.84
+33,50,Canada,Cyprus,2008,feed_compound_cattle,12.0
+33,167,Canada,Czechia,1994,feed_compound_cattle,22.0
+33,250,Canada,Democratic Republic of the Congo,1988,feed_compound_cattle,1.0
+59,212,Egypt,Syrian Arab Republic,2009,feed_compound_cattle,11.0
+33,54,Canada,Denmark,1989,feed_compound_cattle,1.0
+33,54,Canada,Denmark,1993,feed_compound_cattle,40.0
+59,217,Egypt,Togo,2020,feed_compound_cattle,16.69
+138,166,Mexico,Panama,2008,feed_compound_cattle,2.0
+138,166,Mexico,Panama,2009,feed_compound_cattle,1.0
+138,166,Mexico,Panama,2012,feed_compound_cattle,39.0
+138,166,Mexico,Panama,2014,feed_compound_cattle,40.08
+138,166,Mexico,Panama,2015,feed_compound_cattle,21.33
+59,222,Egypt,Tunisia,2022,feed_compound_cattle,599.38
+59,222,Egypt,Tunisia,2023,feed_compound_cattle,3383.52
+59,223,Egypt,Türkiye,2023,feed_compound_cattle,301.25
+33,56,Canada,Dominican Republic,1986,feed_compound_cattle,16.0
+33,56,Canada,Dominican Republic,1993,feed_compound_cattle,19.0
+59,226,Egypt,Uganda,2017,feed_compound_cattle,85.39
+59,226,Egypt,Uganda,2018,feed_compound_cattle,41.54
+59,226,Egypt,Uganda,2019,feed_compound_cattle,1203.13
+59,226,Egypt,Uganda,2020,feed_compound_cattle,3251.9
+59,226,Egypt,Uganda,2021,feed_compound_cattle,3805.77
+59,226,Egypt,Uganda,2022,feed_compound_cattle,13370.6
+59,226,Egypt,Uganda,2023,feed_compound_cattle,1419.2
+59,230,Egypt,Ukraine,2020,feed_compound_cattle,86.75
+59,225,Egypt,United Arab Emirates,2009,feed_compound_cattle,23.0
+59,225,Egypt,United Arab Emirates,2011,feed_compound_cattle,138.0
+59,225,Egypt,United Arab Emirates,2013,feed_compound_cattle,66.0
+59,225,Egypt,United Arab Emirates,2017,feed_compound_cattle,42.51
+59,225,Egypt,United Arab Emirates,2018,feed_compound_cattle,24.35
+59,225,Egypt,United Arab Emirates,2019,feed_compound_cattle,52.19
+59,225,Egypt,United Arab Emirates,2020,feed_compound_cattle,154.58
+59,225,Egypt,United Arab Emirates,2021,feed_compound_cattle,76.42
+59,225,Egypt,United Arab Emirates,2022,feed_compound_cattle,652.26
+59,225,Egypt,United Arab Emirates,2023,feed_compound_cattle,633.56
+33,59,Canada,Egypt,2010,feed_compound_cattle,19.0
+231,40,United States of America,Chile,1995,feed_compound_cattle,22.0
+231,40,United States of America,Chile,1997,feed_compound_cattle,21.0
+231,40,United States of America,Chile,2005,feed_compound_cattle,58.0
+231,40,United States of America,Chile,2012,feed_compound_cattle,19.0
+231,40,United States of America,Chile,2013,feed_compound_cattle,152.0
+231,40,United States of America,Chile,2014,feed_compound_cattle,749.0
+231,40,United States of America,Chile,2015,feed_compound_cattle,456.0
+231,40,United States of America,Chile,2016,feed_compound_cattle,558.0
+231,40,United States of America,Chile,2017,feed_compound_cattle,619.0
+231,40,United States of America,Chile,2018,feed_compound_cattle,268.0
+231,40,United States of America,Chile,2019,feed_compound_cattle,484.0
+231,40,United States of America,Chile,2020,feed_compound_cattle,446.0
+231,40,United States of America,Chile,2021,feed_compound_cattle,672.0
+231,40,United States of America,Chile,2022,feed_compound_cattle,627.0
+231,40,United States of America,Chile,2023,feed_compound_cattle,514.0
+59,215,Egypt,United Republic of Tanzania,2017,feed_compound_cattle,17.09
+59,215,Egypt,United Republic of Tanzania,2018,feed_compound_cattle,150.4
+59,215,Egypt,United Republic of Tanzania,2019,feed_compound_cattle,40.0
+59,215,Egypt,United Republic of Tanzania,2020,feed_compound_cattle,106.72
+59,215,Egypt,United Republic of Tanzania,2021,feed_compound_cattle,96.94
+59,215,Egypt,United Republic of Tanzania,2022,feed_compound_cattle,576.52
+59,215,Egypt,United Republic of Tanzania,2023,feed_compound_cattle,470.41
+59,237,Egypt,Viet Nam,2021,feed_compound_cattle,156.02
+59,237,Egypt,Viet Nam,2022,feed_compound_cattle,257.84
+59,249,Egypt,Yemen,2009,feed_compound_cattle,77.0
+59,249,Egypt,Yemen,2019,feed_compound_cattle,160.0
+59,249,Egypt,Yemen,2020,feed_compound_cattle,349.67
+59,249,Egypt,Yemen,2021,feed_compound_cattle,740.71
+59,249,Egypt,Yemen,2022,feed_compound_cattle,695.61
+59,249,Egypt,Yemen,2023,feed_compound_cattle,854.53
+231,96,United States of America,"China, Hong Kong SAR",1987,feed_compound_cattle,17.0
+231,96,United States of America,"China, Hong Kong SAR",1988,feed_compound_cattle,104.0
+231,96,United States of America,"China, Hong Kong SAR",1989,feed_compound_cattle,130.0
+231,96,United States of America,"China, Hong Kong SAR",1990,feed_compound_cattle,153.0
+231,96,United States of America,"China, Hong Kong SAR",1993,feed_compound_cattle,1024.0
+231,96,United States of America,"China, Hong Kong SAR",1994,feed_compound_cattle,56.0
+231,96,United States of America,"China, Hong Kong SAR",1995,feed_compound_cattle,3475.0
+231,96,United States of America,"China, Hong Kong SAR",1996,feed_compound_cattle,23.0
+231,96,United States of America,"China, Hong Kong SAR",1997,feed_compound_cattle,123.0
+231,96,United States of America,"China, Hong Kong SAR",1998,feed_compound_cattle,862.0
+231,96,United States of America,"China, Hong Kong SAR",2008,feed_compound_cattle,78.0
+231,96,United States of America,"China, Hong Kong SAR",2010,feed_compound_cattle,317.0
+231,96,United States of America,"China, Hong Kong SAR",2020,feed_compound_cattle,28.0
+231,96,United States of America,"China, Hong Kong SAR",2021,feed_compound_cattle,105.0
+231,96,United States of America,"China, Hong Kong SAR",2022,feed_compound_cattle,8.0
+33,68,Canada,France,1988,feed_compound_cattle,19.0
+33,68,Canada,France,1991,feed_compound_cattle,17.0
+33,68,Canada,France,1993,feed_compound_cattle,17.0
+33,68,Canada,France,1994,feed_compound_cattle,7.0
+33,68,Canada,France,2001,feed_compound_cattle,2.0
+33,68,Canada,France,2008,feed_compound_cattle,6.0
+33,68,Canada,France,2010,feed_compound_cattle,6.0
+33,68,Canada,France,2011,feed_compound_cattle,1.0
+33,68,Canada,France,2012,feed_compound_cattle,3.0
+33,68,Canada,France,2013,feed_compound_cattle,1.0
+33,68,Canada,France,2014,feed_compound_cattle,260.92
+33,68,Canada,France,2018,feed_compound_cattle,0.13
+33,68,Canada,France,2019,feed_compound_cattle,0.13
+33,68,Canada,France,2021,feed_compound_cattle,233.71
+33,68,Canada,France,2023,feed_compound_cattle,3425.42
+231,41,United States of America,"China, mainland",1994,feed_compound_cattle,784.0
+231,41,United States of America,"China, mainland",1995,feed_compound_cattle,16368.0
+231,41,United States of America,"China, mainland",1996,feed_compound_cattle,11671.0
+231,41,United States of America,"China, mainland",1997,feed_compound_cattle,10996.0
+231,41,United States of America,"China, mainland",1998,feed_compound_cattle,3059.0
+231,41,United States of America,"China, mainland",1999,feed_compound_cattle,3381.0
+231,41,United States of America,"China, mainland",2000,feed_compound_cattle,1829.0
+231,41,United States of America,"China, mainland",2001,feed_compound_cattle,389.0
+231,41,United States of America,"China, mainland",2002,feed_compound_cattle,89.0
+231,41,United States of America,"China, mainland",2003,feed_compound_cattle,803.0
+231,41,United States of America,"China, mainland",2004,feed_compound_cattle,1401.0
+231,41,United States of America,"China, mainland",2005,feed_compound_cattle,34.0
+231,41,United States of America,"China, mainland",2006,feed_compound_cattle,17.0
+231,41,United States of America,"China, mainland",2007,feed_compound_cattle,20.0
+231,41,United States of America,"China, mainland",2010,feed_compound_cattle,133.0
+231,41,United States of America,"China, mainland",2011,feed_compound_cattle,1168.0
+231,41,United States of America,"China, mainland",2012,feed_compound_cattle,754.0
+231,41,United States of America,"China, mainland",2013,feed_compound_cattle,92.0
+231,41,United States of America,"China, mainland",2014,feed_compound_cattle,9607.0
+231,41,United States of America,"China, mainland",2015,feed_compound_cattle,9540.0
+231,41,United States of America,"China, mainland",2016,feed_compound_cattle,6694.0
+231,41,United States of America,"China, mainland",2017,feed_compound_cattle,13246.0
+231,41,United States of America,"China, mainland",2018,feed_compound_cattle,9206.0
+231,41,United States of America,"China, mainland",2019,feed_compound_cattle,7024.0
+231,41,United States of America,"China, mainland",2020,feed_compound_cattle,6167.0
+231,41,United States of America,"China, mainland",2021,feed_compound_cattle,845.0
+231,41,United States of America,"China, mainland",2022,feed_compound_cattle,2041.0
+231,41,United States of America,"China, mainland",2023,feed_compound_cattle,1237.0
+117,171,Republic of Korea,Philippines,1993,feed_compound_cattle,54.0
+33,79,Canada,Germany,1999,feed_compound_cattle,3.0
+33,79,Canada,Germany,2000,feed_compound_cattle,19.0
+33,79,Canada,Germany,2001,feed_compound_cattle,6.0
+33,79,Canada,Germany,2004,feed_compound_cattle,2.0
+33,79,Canada,Germany,2008,feed_compound_cattle,6.0
+33,79,Canada,Germany,2012,feed_compound_cattle,112.0
+33,79,Canada,Germany,2013,feed_compound_cattle,193.0
+33,79,Canada,Germany,2014,feed_compound_cattle,501.89
+138,231,Mexico,United States of America,2004,feed_compound_cattle,180.0
+33,81,Canada,Ghana,2003,feed_compound_cattle,101.0
+33,84,Canada,Greece,1991,feed_compound_cattle,25.0
+231,214,United States of America,"China, Taiwan Province of",1986,feed_compound_cattle,28.0
+231,214,United States of America,"China, Taiwan Province of",1987,feed_compound_cattle,46.0
+231,214,United States of America,"China, Taiwan Province of",1988,feed_compound_cattle,211.0
+231,214,United States of America,"China, Taiwan Province of",1989,feed_compound_cattle,307.0
+231,214,United States of America,"China, Taiwan Province of",1990,feed_compound_cattle,278.0
+231,214,United States of America,"China, Taiwan Province of",1991,feed_compound_cattle,43.0
+231,214,United States of America,"China, Taiwan Province of",1992,feed_compound_cattle,975.0
+231,214,United States of America,"China, Taiwan Province of",1993,feed_compound_cattle,359.0
+231,214,United States of America,"China, Taiwan Province of",1994,feed_compound_cattle,40.0
+231,214,United States of America,"China, Taiwan Province of",1995,feed_compound_cattle,113.0
+231,214,United States of America,"China, Taiwan Province of",1996,feed_compound_cattle,19.0
+231,214,United States of America,"China, Taiwan Province of",1997,feed_compound_cattle,2.0
+231,214,United States of America,"China, Taiwan Province of",1998,feed_compound_cattle,697.0
+231,214,United States of America,"China, Taiwan Province of",1999,feed_compound_cattle,1850.0
+231,214,United States of America,"China, Taiwan Province of",2000,feed_compound_cattle,668.0
+231,214,United States of America,"China, Taiwan Province of",2002,feed_compound_cattle,18.0
+231,214,United States of America,"China, Taiwan Province of",2003,feed_compound_cattle,35.0
+231,214,United States of America,"China, Taiwan Province of",2004,feed_compound_cattle,78.0
+231,214,United States of America,"China, Taiwan Province of",2005,feed_compound_cattle,104.0
+231,214,United States of America,"China, Taiwan Province of",2006,feed_compound_cattle,203.0
+231,214,United States of America,"China, Taiwan Province of",2008,feed_compound_cattle,59.0
+231,214,United States of America,"China, Taiwan Province of",2009,feed_compound_cattle,71.0
+231,214,United States of America,"China, Taiwan Province of",2010,feed_compound_cattle,1.0
+231,214,United States of America,"China, Taiwan Province of",2011,feed_compound_cattle,9.0
+231,214,United States of America,"China, Taiwan Province of",2012,feed_compound_cattle,3.0
+231,214,United States of America,"China, Taiwan Province of",2013,feed_compound_cattle,19.0
+231,214,United States of America,"China, Taiwan Province of",2014,feed_compound_cattle,1464.0
+231,214,United States of America,"China, Taiwan Province of",2015,feed_compound_cattle,3046.0
+231,214,United States of America,"China, Taiwan Province of",2016,feed_compound_cattle,2915.0
+231,214,United States of America,"China, Taiwan Province of",2017,feed_compound_cattle,531.0
+231,214,United States of America,"China, Taiwan Province of",2018,feed_compound_cattle,40.0
+231,214,United States of America,"China, Taiwan Province of",2019,feed_compound_cattle,356.0
+231,214,United States of America,"China, Taiwan Province of",2020,feed_compound_cattle,188.0
+231,214,United States of America,"China, Taiwan Province of",2021,feed_compound_cattle,77.0
+231,214,United States of America,"China, Taiwan Province of",2022,feed_compound_cattle,8.0
+231,214,United States of America,"China, Taiwan Province of",2023,feed_compound_cattle,589.0
+33,91,Canada,Guyana,1991,feed_compound_cattle,19.0
+33,93,Canada,Haiti,1989,feed_compound_cattle,1.0
+33,95,Canada,Honduras,2005,feed_compound_cattle,295.0
+231,44,United States of America,Colombia,1988,feed_compound_cattle,18.0
+231,44,United States of America,Colombia,1995,feed_compound_cattle,19.0
+231,44,United States of America,Colombia,1996,feed_compound_cattle,18.0
+231,44,United States of America,Colombia,1997,feed_compound_cattle,38.0
+231,44,United States of America,Colombia,2006,feed_compound_cattle,20.0
+231,44,United States of America,Colombia,2007,feed_compound_cattle,32.0
+231,44,United States of America,Colombia,2014,feed_compound_cattle,133.0
+231,44,United States of America,Colombia,2016,feed_compound_cattle,40.0
+231,44,United States of America,Colombia,2017,feed_compound_cattle,40.0
+231,44,United States of America,Colombia,2020,feed_compound_cattle,43.0
+231,44,United States of America,Colombia,2021,feed_compound_cattle,10.0
+231,44,United States of America,Colombia,2022,feed_compound_cattle,47.0
+33,97,Canada,Hungary,2018,feed_compound_cattle,59.22
+33,100,Canada,India,2006,feed_compound_cattle,17.0
+33,100,Canada,India,2013,feed_compound_cattle,1.0
+33,100,Canada,India,2017,feed_compound_cattle,27.45
+33,100,Canada,India,2022,feed_compound_cattle,15.34
+231,48,United States of America,Costa Rica,1990,feed_compound_cattle,50.0
+231,48,United States of America,Costa Rica,1991,feed_compound_cattle,68.0
+231,48,United States of America,Costa Rica,1992,feed_compound_cattle,54.0
+231,48,United States of America,Costa Rica,1993,feed_compound_cattle,75.0
+231,48,United States of America,Costa Rica,1994,feed_compound_cattle,307.0
+231,48,United States of America,Costa Rica,1996,feed_compound_cattle,146.0
+231,48,United States of America,Costa Rica,2012,feed_compound_cattle,48.0
+231,48,United States of America,Costa Rica,2013,feed_compound_cattle,82.0
+231,48,United States of America,Costa Rica,2014,feed_compound_cattle,58.0
+231,48,United States of America,Costa Rica,2015,feed_compound_cattle,95.0
+231,48,United States of America,Costa Rica,2016,feed_compound_cattle,836.0
+231,48,United States of America,Costa Rica,2017,feed_compound_cattle,265.0
+231,48,United States of America,Costa Rica,2018,feed_compound_cattle,355.0
+231,48,United States of America,Costa Rica,2019,feed_compound_cattle,202.0
+231,48,United States of America,Costa Rica,2020,feed_compound_cattle,167.0
+231,48,United States of America,Costa Rica,2021,feed_compound_cattle,208.0
+231,48,United States of America,Costa Rica,2022,feed_compound_cattle,76.0
+231,48,United States of America,Costa Rica,2023,feed_compound_cattle,103.0
+33,101,Canada,Indonesia,2007,feed_compound_cattle,395.0
+33,101,Canada,Indonesia,2008,feed_compound_cattle,6993.0
+33,101,Canada,Indonesia,2009,feed_compound_cattle,13012.0
+33,101,Canada,Indonesia,2010,feed_compound_cattle,34619.0
+33,101,Canada,Indonesia,2011,feed_compound_cattle,9880.0
+33,101,Canada,Indonesia,2012,feed_compound_cattle,5578.0
+33,101,Canada,Indonesia,2013,feed_compound_cattle,3085.0
+33,102,Canada,Iran (Islamic Republic of),2000,feed_compound_cattle,5.0
+231,107,United States of America,Côte d'Ivoire,2004,feed_compound_cattle,6.0
+33,104,Canada,Ireland,2003,feed_compound_cattle,3.0
+33,105,Canada,Israel,1995,feed_compound_cattle,22.0
+33,105,Canada,Israel,2011,feed_compound_cattle,41.0
+33,105,Canada,Israel,2015,feed_compound_cattle,23.76
+33,105,Canada,Israel,2018,feed_compound_cattle,96.05
+33,105,Canada,Israel,2019,feed_compound_cattle,51.99
+231,50,United States of America,Cyprus,2000,feed_compound_cattle,12.0
+231,167,United States of America,Czechia,2010,feed_compound_cattle,8.0
+231,167,United States of America,Czechia,2016,feed_compound_cattle,42.0
+231,167,United States of America,Czechia,2017,feed_compound_cattle,87.0
+231,167,United States of America,Czechia,2018,feed_compound_cattle,84.0
+231,167,United States of America,Czechia,2019,feed_compound_cattle,97.0
+231,167,United States of America,Czechia,2023,feed_compound_cattle,567.0
+33,106,Canada,Italy,1998,feed_compound_cattle,1.0
+33,106,Canada,Italy,2000,feed_compound_cattle,141.0
+33,106,Canada,Italy,2004,feed_compound_cattle,77.0
+33,106,Canada,Italy,2006,feed_compound_cattle,8.0
+33,106,Canada,Italy,2007,feed_compound_cattle,27.0
+33,106,Canada,Italy,2008,feed_compound_cattle,348.0
+33,106,Canada,Italy,2009,feed_compound_cattle,268.0
+33,106,Canada,Italy,2010,feed_compound_cattle,230.0
+33,106,Canada,Italy,2011,feed_compound_cattle,127.0
+33,106,Canada,Italy,2012,feed_compound_cattle,154.0
+33,106,Canada,Italy,2017,feed_compound_cattle,201.72
+33,106,Canada,Italy,2018,feed_compound_cattle,225.65
+231,54,United States of America,Denmark,1986,feed_compound_cattle,447.0
+231,54,United States of America,Denmark,1987,feed_compound_cattle,25.0
+231,54,United States of America,Denmark,1992,feed_compound_cattle,16.0
+231,54,United States of America,Denmark,1996,feed_compound_cattle,810.0
+231,54,United States of America,Denmark,2005,feed_compound_cattle,40.0
+231,54,United States of America,Denmark,2009,feed_compound_cattle,3.0
+231,54,United States of America,Denmark,2010,feed_compound_cattle,1.0
+231,54,United States of America,Denmark,2011,feed_compound_cattle,1.0
+231,54,United States of America,Denmark,2012,feed_compound_cattle,26.0
+231,54,United States of America,Denmark,2013,feed_compound_cattle,6.0
+231,54,United States of America,Denmark,2014,feed_compound_cattle,59.0
+231,54,United States of America,Denmark,2015,feed_compound_cattle,1.0
+231,54,United States of America,Denmark,2022,feed_compound_cattle,33.0
+33,109,Canada,Jamaica,1996,feed_compound_cattle,13.0
+33,109,Canada,Jamaica,1998,feed_compound_cattle,4.0
+33,109,Canada,Jamaica,2011,feed_compound_cattle,34.0
+33,109,Canada,Jamaica,2012,feed_compound_cattle,25.0
+33,109,Canada,Jamaica,2013,feed_compound_cattle,62.0
+33,109,Canada,Jamaica,2021,feed_compound_cattle,5.3
+231,55,United States of America,Dominica,2010,feed_compound_cattle,8.0
+231,55,United States of America,Dominica,2022,feed_compound_cattle,3.0
+231,56,United States of America,Dominican Republic,1993,feed_compound_cattle,18.0
+231,56,United States of America,Dominican Republic,1996,feed_compound_cattle,25.0
+231,56,United States of America,Dominican Republic,1997,feed_compound_cattle,13.0
+231,56,United States of America,Dominican Republic,1999,feed_compound_cattle,24.0
+231,56,United States of America,Dominican Republic,2011,feed_compound_cattle,10.0
+231,56,United States of America,Dominican Republic,2016,feed_compound_cattle,19.0
+231,56,United States of America,Dominican Republic,2022,feed_compound_cattle,21.0
+231,56,United States of America,Dominican Republic,2023,feed_compound_cattle,1.0
+33,110,Canada,Japan,1986,feed_compound_cattle,996.0
+33,110,Canada,Japan,1987,feed_compound_cattle,24.0
+33,110,Canada,Japan,1988,feed_compound_cattle,168.0
+33,110,Canada,Japan,1989,feed_compound_cattle,431.0
+33,110,Canada,Japan,1990,feed_compound_cattle,151.0
+33,110,Canada,Japan,1991,feed_compound_cattle,90.0
+33,110,Canada,Japan,1992,feed_compound_cattle,106.0
+33,110,Canada,Japan,1993,feed_compound_cattle,36.0
+33,110,Canada,Japan,1994,feed_compound_cattle,171.0
+33,110,Canada,Japan,1995,feed_compound_cattle,120.0
+33,110,Canada,Japan,1996,feed_compound_cattle,161.0
+33,110,Canada,Japan,1997,feed_compound_cattle,42.0
+33,110,Canada,Japan,1999,feed_compound_cattle,5.0
+33,110,Canada,Japan,2001,feed_compound_cattle,406.0
+33,110,Canada,Japan,2002,feed_compound_cattle,348.0
+33,110,Canada,Japan,2003,feed_compound_cattle,10.0
+33,110,Canada,Japan,2004,feed_compound_cattle,116.0
+33,110,Canada,Japan,2005,feed_compound_cattle,5.0
+33,110,Canada,Japan,2009,feed_compound_cattle,87.0
+33,110,Canada,Japan,2010,feed_compound_cattle,69.0
+33,110,Canada,Japan,2011,feed_compound_cattle,70.0
+33,110,Canada,Japan,2012,feed_compound_cattle,73.0
+33,110,Canada,Japan,2014,feed_compound_cattle,819.25
+33,110,Canada,Japan,2016,feed_compound_cattle,22.99
+33,110,Canada,Japan,2017,feed_compound_cattle,385.07
+33,110,Canada,Japan,2018,feed_compound_cattle,405.48
+33,110,Canada,Japan,2021,feed_compound_cattle,134.97
+33,110,Canada,Japan,2023,feed_compound_cattle,153.12
+33,112,Canada,Jordan,1988,feed_compound_cattle,5.0
+231,58,United States of America,Ecuador,1986,feed_compound_cattle,33.0
+231,58,United States of America,Ecuador,1988,feed_compound_cattle,65.0
+231,58,United States of America,Ecuador,1990,feed_compound_cattle,134.0
+231,58,United States of America,Ecuador,1991,feed_compound_cattle,72.0
+231,58,United States of America,Ecuador,1994,feed_compound_cattle,54.0
+231,58,United States of America,Ecuador,1995,feed_compound_cattle,20.0
+231,58,United States of America,Ecuador,1997,feed_compound_cattle,40.0
+231,58,United States of America,Ecuador,1998,feed_compound_cattle,65.0
+231,58,United States of America,Ecuador,1999,feed_compound_cattle,35.0
+231,58,United States of America,Ecuador,2002,feed_compound_cattle,34.0
+231,58,United States of America,Ecuador,2003,feed_compound_cattle,33.0
+231,58,United States of America,Ecuador,2008,feed_compound_cattle,30.0
+231,58,United States of America,Ecuador,2012,feed_compound_cattle,20.0
+231,58,United States of America,Ecuador,2016,feed_compound_cattle,40.0
+231,58,United States of America,Ecuador,2017,feed_compound_cattle,60.0
+231,58,United States of America,Ecuador,2018,feed_compound_cattle,40.0
+231,58,United States of America,Ecuador,2020,feed_compound_cattle,19.0
+231,58,United States of America,Ecuador,2021,feed_compound_cattle,57.0
+231,58,United States of America,Ecuador,2022,feed_compound_cattle,18.0
+231,58,United States of America,Ecuador,2023,feed_compound_cattle,87.0
+33,118,Canada,Kuwait,2003,feed_compound_cattle,50.0
+33,118,Canada,Kuwait,2007,feed_compound_cattle,13.0
+33,118,Canada,Kuwait,2009,feed_compound_cattle,32.0
+33,118,Canada,Kuwait,2010,feed_compound_cattle,3.0
+33,118,Canada,Kuwait,2011,feed_compound_cattle,12.0
+33,118,Canada,Kuwait,2012,feed_compound_cattle,18.0
+33,118,Canada,Kuwait,2014,feed_compound_cattle,13.18
+33,118,Canada,Kuwait,2015,feed_compound_cattle,54.02
+33,120,Canada,Lao People's Democratic Republic,2013,feed_compound_cattle,26.0
+231,59,United States of America,Egypt,1999,feed_compound_cattle,500.0
+231,59,United States of America,Egypt,2000,feed_compound_cattle,5751.0
+231,59,United States of America,Egypt,2001,feed_compound_cattle,1050.0
+231,59,United States of America,Egypt,2010,feed_compound_cattle,1.0
+231,59,United States of America,Egypt,2011,feed_compound_cattle,20.0
+231,59,United States of America,Egypt,2013,feed_compound_cattle,38.0
+231,59,United States of America,Egypt,2014,feed_compound_cattle,251.0
+231,59,United States of America,Egypt,2015,feed_compound_cattle,332.0
+231,59,United States of America,Egypt,2016,feed_compound_cattle,489.0
+231,59,United States of America,Egypt,2018,feed_compound_cattle,26.0
+231,59,United States of America,Egypt,2019,feed_compound_cattle,39.0
+231,59,United States of America,Egypt,2020,feed_compound_cattle,28.0
+231,59,United States of America,Egypt,2021,feed_compound_cattle,27.0
+33,126,Canada,Lithuania,2006,feed_compound_cattle,400.0
+33,126,Canada,Lithuania,2007,feed_compound_cattle,750.0
+33,129,Canada,Madagascar,2021,feed_compound_cattle,5330.34
+33,129,Canada,Madagascar,2022,feed_compound_cattle,2266.45
+33,129,Canada,Madagascar,2023,feed_compound_cattle,631.92
+33,131,Canada,Malaysia,2007,feed_compound_cattle,91.0
+33,131,Canada,Malaysia,2012,feed_compound_cattle,76.0
+33,131,Canada,Malaysia,2014,feed_compound_cattle,45.8
+231,60,United States of America,El Salvador,1986,feed_compound_cattle,454.0
+231,60,United States of America,El Salvador,1992,feed_compound_cattle,33.0
+231,60,United States of America,El Salvador,1998,feed_compound_cattle,15.0
+231,60,United States of America,El Salvador,2009,feed_compound_cattle,10.0
+231,60,United States of America,El Salvador,2016,feed_compound_cattle,1.0
+231,60,United States of America,El Salvador,2017,feed_compound_cattle,19.0
+231,60,United States of America,El Salvador,2018,feed_compound_cattle,19.0
+231,60,United States of America,El Salvador,2023,feed_compound_cattle,17.0
+33,134,Canada,Malta,2005,feed_compound_cattle,23.0
+33,134,Canada,Malta,2006,feed_compound_cattle,31.0
+33,134,Canada,Malta,2007,feed_compound_cattle,48.0
+33,134,Canada,Malta,2008,feed_compound_cattle,45.0
+33,134,Canada,Malta,2009,feed_compound_cattle,88.0
+33,134,Canada,Malta,2010,feed_compound_cattle,34.0
+33,134,Canada,Malta,2011,feed_compound_cattle,143.0
+33,134,Canada,Malta,2012,feed_compound_cattle,136.0
+33,138,Canada,Mexico,1987,feed_compound_cattle,1.0
+33,138,Canada,Mexico,2013,feed_compound_cattle,644.0
+33,138,Canada,Mexico,2014,feed_compound_cattle,230.27
+33,138,Canada,Mexico,2017,feed_compound_cattle,111.42
+33,138,Canada,Mexico,2020,feed_compound_cattle,1.0
+231,64,United States of America,Faroe Islands,1988,feed_compound_cattle,52.0
+33,141,Canada,Mongolia,2007,feed_compound_cattle,14.0
+231,67,United States of America,Finland,1988,feed_compound_cattle,211.0
+231,67,United States of America,Finland,1989,feed_compound_cattle,400.0
+231,67,United States of America,Finland,1990,feed_compound_cattle,120.0
+231,67,United States of America,Finland,1991,feed_compound_cattle,224.0
+231,67,United States of America,Finland,1992,feed_compound_cattle,239.0
+231,67,United States of America,Finland,1993,feed_compound_cattle,164.0
+231,67,United States of America,Finland,1994,feed_compound_cattle,144.0
+231,67,United States of America,Finland,1995,feed_compound_cattle,6.0
+231,67,United States of America,Finland,2001,feed_compound_cattle,1.0
+33,149,Canada,Nepal,2016,feed_compound_cattle,14.05
+33,149,Canada,Nepal,2017,feed_compound_cattle,12.65
+231,68,United States of America,France,1986,feed_compound_cattle,637.0
+231,68,United States of America,France,1987,feed_compound_cattle,214.0
+231,68,United States of America,France,1988,feed_compound_cattle,261.0
+231,68,United States of America,France,1989,feed_compound_cattle,351.0
+231,68,United States of America,France,1991,feed_compound_cattle,2.0
+231,68,United States of America,France,1992,feed_compound_cattle,199.0
+231,68,United States of America,France,1993,feed_compound_cattle,5.0
+231,68,United States of America,France,1995,feed_compound_cattle,6.0
+231,68,United States of America,France,2009,feed_compound_cattle,1.0
+231,68,United States of America,France,2010,feed_compound_cattle,62.0
+231,68,United States of America,France,2011,feed_compound_cattle,1.0
+231,68,United States of America,France,2012,feed_compound_cattle,5.0
+231,68,United States of America,France,2014,feed_compound_cattle,18.0
+231,68,United States of America,France,2017,feed_compound_cattle,9.0
+231,68,United States of America,France,2018,feed_compound_cattle,20.0
+231,68,United States of America,France,2020,feed_compound_cattle,22.0
+231,68,United States of America,France,2021,feed_compound_cattle,45.0
+231,68,United States of America,France,2022,feed_compound_cattle,190.0
+231,68,United States of America,France,2023,feed_compound_cattle,2397.0
+33,150,Canada,Netherlands (Kingdom of the),2005,feed_compound_cattle,8.0
+33,150,Canada,Netherlands (Kingdom of the),2006,feed_compound_cattle,8.0
+33,150,Canada,Netherlands (Kingdom of the),2007,feed_compound_cattle,27.0
+33,150,Canada,Netherlands (Kingdom of the),2008,feed_compound_cattle,15.0
+33,150,Canada,Netherlands (Kingdom of the),2009,feed_compound_cattle,63.0
+33,150,Canada,Netherlands (Kingdom of the),2010,feed_compound_cattle,54.0
+33,150,Canada,Netherlands (Kingdom of the),2012,feed_compound_cattle,2.0
+33,150,Canada,Netherlands (Kingdom of the),2018,feed_compound_cattle,87.1
+33,150,Canada,Netherlands (Kingdom of the),2020,feed_compound_cattle,136.0
+33,150,Canada,Netherlands (Kingdom of the),2021,feed_compound_cattle,132.75
+33,156,Canada,New Zealand,2003,feed_compound_cattle,13.0
+33,156,Canada,New Zealand,2009,feed_compound_cattle,5.0
+33,156,Canada,New Zealand,2010,feed_compound_cattle,100.0
+231,70,United States of America,French Polynesia,1992,feed_compound_cattle,49.0
+231,70,United States of America,French Polynesia,1993,feed_compound_cattle,1289.0
+231,70,United States of America,French Polynesia,1994,feed_compound_cattle,536.0
+231,70,United States of America,French Polynesia,1995,feed_compound_cattle,218.0
+231,70,United States of America,French Polynesia,1996,feed_compound_cattle,272.0
+231,70,United States of America,French Polynesia,1997,feed_compound_cattle,80.0
+231,70,United States of America,French Polynesia,1998,feed_compound_cattle,16.0
+231,70,United States of America,French Polynesia,1999,feed_compound_cattle,10.0
+231,70,United States of America,French Polynesia,2000,feed_compound_cattle,27.0
+231,70,United States of America,French Polynesia,2001,feed_compound_cattle,194.0
+231,70,United States of America,French Polynesia,2002,feed_compound_cattle,2.0
+33,159,Canada,Nigeria,1991,feed_compound_cattle,24.0
+231,73,United States of America,Georgia,2001,feed_compound_cattle,81.0
+231,73,United States of America,Georgia,2014,feed_compound_cattle,15.0
+33,162,Canada,Norway,1994,feed_compound_cattle,48.0
+231,79,United States of America,Germany,1994,feed_compound_cattle,120.0
+231,79,United States of America,Germany,1996,feed_compound_cattle,57.0
+231,79,United States of America,Germany,1998,feed_compound_cattle,287.0
+231,79,United States of America,Germany,1999,feed_compound_cattle,1.0
+231,79,United States of America,Germany,2002,feed_compound_cattle,63.0
+231,79,United States of America,Germany,2004,feed_compound_cattle,7.0
+231,79,United States of America,Germany,2007,feed_compound_cattle,12.0
+231,79,United States of America,Germany,2009,feed_compound_cattle,190.0
+231,79,United States of America,Germany,2011,feed_compound_cattle,23.0
+231,79,United States of America,Germany,2012,feed_compound_cattle,98.0
+231,79,United States of America,Germany,2013,feed_compound_cattle,133.0
+231,79,United States of America,Germany,2014,feed_compound_cattle,444.0
+231,79,United States of America,Germany,2015,feed_compound_cattle,534.0
+231,79,United States of America,Germany,2016,feed_compound_cattle,569.0
+231,79,United States of America,Germany,2017,feed_compound_cattle,595.0
+231,79,United States of America,Germany,2018,feed_compound_cattle,374.0
+231,79,United States of America,Germany,2019,feed_compound_cattle,353.0
+231,79,United States of America,Germany,2020,feed_compound_cattle,574.0
+231,79,United States of America,Germany,2021,feed_compound_cattle,396.0
+231,79,United States of America,Germany,2022,feed_compound_cattle,230.0
+231,79,United States of America,Germany,2023,feed_compound_cattle,19.0
+33,165,Canada,Pakistan,2000,feed_compound_cattle,20.0
+33,170,Canada,Peru,1992,feed_compound_cattle,34.0
+33,170,Canada,Peru,1993,feed_compound_cattle,34.0
+33,170,Canada,Peru,2000,feed_compound_cattle,18.0
+231,84,United States of America,Greece,1986,feed_compound_cattle,38.0
+231,84,United States of America,Greece,1989,feed_compound_cattle,22.0
+33,171,Canada,Philippines,1995,feed_compound_cattle,436.0
+33,171,Canada,Philippines,1996,feed_compound_cattle,243.0
+33,171,Canada,Philippines,1997,feed_compound_cattle,79.0
+33,171,Canada,Philippines,2001,feed_compound_cattle,21.0
+33,171,Canada,Philippines,2006,feed_compound_cattle,500.0
+33,171,Canada,Philippines,2011,feed_compound_cattle,205.0
+33,171,Canada,Philippines,2012,feed_compound_cattle,614.0
+33,171,Canada,Philippines,2017,feed_compound_cattle,123.66
+231,86,United States of America,Grenada,1994,feed_compound_cattle,76.0
+231,86,United States of America,Grenada,1995,feed_compound_cattle,44.0
+231,89,United States of America,Guatemala,1986,feed_compound_cattle,17.0
+231,89,United States of America,Guatemala,1988,feed_compound_cattle,19.0
+231,89,United States of America,Guatemala,1989,feed_compound_cattle,18.0
+231,89,United States of America,Guatemala,2001,feed_compound_cattle,12.0
+231,89,United States of America,Guatemala,2002,feed_compound_cattle,9.0
+231,89,United States of America,Guatemala,2003,feed_compound_cattle,12.0
+231,89,United States of America,Guatemala,2004,feed_compound_cattle,11.0
+231,89,United States of America,Guatemala,2007,feed_compound_cattle,19.0
+231,89,United States of America,Guatemala,2008,feed_compound_cattle,1.0
+231,89,United States of America,Guatemala,2011,feed_compound_cattle,37.0
+231,89,United States of America,Guatemala,2016,feed_compound_cattle,57.0
+231,89,United States of America,Guatemala,2017,feed_compound_cattle,23.0
+231,89,United States of America,Guatemala,2018,feed_compound_cattle,14.0
+231,89,United States of America,Guatemala,2019,feed_compound_cattle,19.0
+231,89,United States of America,Guatemala,2020,feed_compound_cattle,75.0
+231,89,United States of America,Guatemala,2021,feed_compound_cattle,15.0
+231,89,United States of America,Guatemala,2023,feed_compound_cattle,30.0
+33,174,Canada,Portugal,2014,feed_compound_cattle,4.52
+33,177,Canada,Puerto Rico,1988,feed_compound_cattle,25.0
+33,179,Canada,Qatar,2001,feed_compound_cattle,20.0
+33,179,Canada,Qatar,2006,feed_compound_cattle,9.0
+33,179,Canada,Qatar,2007,feed_compound_cattle,120.0
+33,179,Canada,Qatar,2008,feed_compound_cattle,90.0
+33,179,Canada,Qatar,2009,feed_compound_cattle,192.0
+33,179,Canada,Qatar,2010,feed_compound_cattle,190.0
+33,179,Canada,Qatar,2011,feed_compound_cattle,102.0
+33,179,Canada,Qatar,2012,feed_compound_cattle,138.0
+33,179,Canada,Qatar,2013,feed_compound_cattle,124.0
+33,179,Canada,Qatar,2014,feed_compound_cattle,16.09
+33,179,Canada,Qatar,2015,feed_compound_cattle,65.0
+33,179,Canada,Qatar,2016,feed_compound_cattle,16.68
+33,179,Canada,Qatar,2017,feed_compound_cattle,39.5
+33,179,Canada,Qatar,2018,feed_compound_cattle,9.42
+33,117,Canada,Republic of Korea,1988,feed_compound_cattle,48.0
+33,117,Canada,Republic of Korea,1991,feed_compound_cattle,55.0
+33,117,Canada,Republic of Korea,1992,feed_compound_cattle,20.0
+33,117,Canada,Republic of Korea,1994,feed_compound_cattle,19.0
+33,117,Canada,Republic of Korea,1996,feed_compound_cattle,37.0
+33,117,Canada,Republic of Korea,1997,feed_compound_cattle,183.0
+33,117,Canada,Republic of Korea,1999,feed_compound_cattle,77.0
+33,117,Canada,Republic of Korea,2000,feed_compound_cattle,146.0
+33,117,Canada,Republic of Korea,2001,feed_compound_cattle,18.0
+33,117,Canada,Republic of Korea,2004,feed_compound_cattle,10.0
+33,117,Canada,Republic of Korea,2009,feed_compound_cattle,58.0
+33,117,Canada,Republic of Korea,2010,feed_compound_cattle,31.0
+33,117,Canada,Republic of Korea,2011,feed_compound_cattle,190.0
+33,117,Canada,Republic of Korea,2014,feed_compound_cattle,37.79
+33,117,Canada,Republic of Korea,2016,feed_compound_cattle,70.85
+33,117,Canada,Republic of Korea,2017,feed_compound_cattle,193.17
+33,117,Canada,Republic of Korea,2018,feed_compound_cattle,130.8
+33,117,Canada,Republic of Korea,2019,feed_compound_cattle,177.88
+33,117,Canada,Republic of Korea,2020,feed_compound_cattle,268.49
+33,117,Canada,Republic of Korea,2021,feed_compound_cattle,738.43
+33,117,Canada,Republic of Korea,2022,feed_compound_cattle,108.22
+33,117,Canada,Republic of Korea,2023,feed_compound_cattle,1152.79
+231,91,United States of America,Guyana,1987,feed_compound_cattle,136.0
+231,91,United States of America,Guyana,1988,feed_compound_cattle,18.0
+231,91,United States of America,Guyana,1989,feed_compound_cattle,51.0
+231,91,United States of America,Guyana,1990,feed_compound_cattle,15.0
+231,91,United States of America,Guyana,1991,feed_compound_cattle,52.0
+231,91,United States of America,Guyana,1995,feed_compound_cattle,44.0
+231,91,United States of America,Guyana,1996,feed_compound_cattle,81.0
+231,91,United States of America,Guyana,2017,feed_compound_cattle,2.0
+231,91,United States of America,Guyana,2018,feed_compound_cattle,3.0
+33,185,Canada,Russian Federation,2016,feed_compound_cattle,201.8
+33,185,Canada,Russian Federation,2017,feed_compound_cattle,269.87
+33,188,Canada,Saint Kitts and Nevis,1999,feed_compound_cattle,59.0
+33,189,Canada,Saint Lucia,1988,feed_compound_cattle,17.0
+33,191,Canada,Saint Vincent and the Grenadines,1988,feed_compound_cattle,5.0
+33,191,Canada,Saint Vincent and the Grenadines,1989,feed_compound_cattle,1.0
+33,191,Canada,Saint Vincent and the Grenadines,1991,feed_compound_cattle,13.0
+33,191,Canada,Saint Vincent and the Grenadines,1992,feed_compound_cattle,18.0
+33,191,Canada,Saint Vincent and the Grenadines,1996,feed_compound_cattle,8.0
+33,191,Canada,Saint Vincent and the Grenadines,2000,feed_compound_cattle,6.0
+231,95,United States of America,Honduras,1986,feed_compound_cattle,15.0
+231,95,United States of America,Honduras,1987,feed_compound_cattle,82.0
+231,95,United States of America,Honduras,1988,feed_compound_cattle,73.0
+231,95,United States of America,Honduras,1990,feed_compound_cattle,57.0
+231,95,United States of America,Honduras,1991,feed_compound_cattle,32.0
+231,95,United States of America,Honduras,1992,feed_compound_cattle,196.0
+231,95,United States of America,Honduras,1993,feed_compound_cattle,48.0
+231,95,United States of America,Honduras,2006,feed_compound_cattle,38.0
+231,95,United States of America,Honduras,2007,feed_compound_cattle,137.0
+231,95,United States of America,Honduras,2021,feed_compound_cattle,3.0
+231,95,United States of America,Honduras,2023,feed_compound_cattle,20.0
+33,194,Canada,Saudi Arabia,2000,feed_compound_cattle,18.0
+33,194,Canada,Saudi Arabia,2006,feed_compound_cattle,20.0
+33,194,Canada,Saudi Arabia,2007,feed_compound_cattle,11.0
+33,194,Canada,Saudi Arabia,2008,feed_compound_cattle,44.0
+33,194,Canada,Saudi Arabia,2009,feed_compound_cattle,242.0
+33,195,Canada,Senegal,2019,feed_compound_cattle,0.3
+231,97,United States of America,Hungary,2003,feed_compound_cattle,74.0
+231,97,United States of America,Hungary,2004,feed_compound_cattle,10.0
+231,97,United States of America,Hungary,2005,feed_compound_cattle,19.0
+231,97,United States of America,Hungary,2006,feed_compound_cattle,9.0
+231,97,United States of America,Hungary,2007,feed_compound_cattle,9.0
+231,97,United States of America,Hungary,2008,feed_compound_cattle,24.0
+231,97,United States of America,Hungary,2009,feed_compound_cattle,8.0
+231,97,United States of America,Hungary,2017,feed_compound_cattle,19.0
+33,200,Canada,Singapore,1996,feed_compound_cattle,19.0
+33,200,Canada,Singapore,2006,feed_compound_cattle,74.0
+33,200,Canada,Singapore,2007,feed_compound_cattle,165.0
+33,200,Canada,Singapore,2008,feed_compound_cattle,107.0
+33,200,Canada,Singapore,2009,feed_compound_cattle,598.0
+33,200,Canada,Singapore,2010,feed_compound_cattle,84.0
+33,200,Canada,Singapore,2011,feed_compound_cattle,82.0
+33,200,Canada,Singapore,2012,feed_compound_cattle,93.0
+33,200,Canada,Singapore,2013,feed_compound_cattle,40.0
+33,200,Canada,Singapore,2014,feed_compound_cattle,8.99
+33,200,Canada,Singapore,2015,feed_compound_cattle,13.82
+33,200,Canada,Singapore,2016,feed_compound_cattle,5.22
+33,200,Canada,Singapore,2017,feed_compound_cattle,14.71
+33,200,Canada,Singapore,2018,feed_compound_cattle,4.76
+33,200,Canada,Singapore,2019,feed_compound_cattle,6.34
+33,200,Canada,Singapore,2020,feed_compound_cattle,4.79
+231,99,United States of America,Iceland,1995,feed_compound_cattle,10.0
+231,99,United States of America,Iceland,1996,feed_compound_cattle,10.0
+33,199,Canada,Slovakia,2020,feed_compound_cattle,321.49
+231,100,United States of America,India,1989,feed_compound_cattle,6.0
+231,100,United States of America,India,1995,feed_compound_cattle,20.0
+231,100,United States of America,India,2000,feed_compound_cattle,1.0
+231,100,United States of America,India,2001,feed_compound_cattle,103.0
+231,100,United States of America,India,2002,feed_compound_cattle,56.0
+231,100,United States of America,India,2007,feed_compound_cattle,38.0
+231,100,United States of America,India,2008,feed_compound_cattle,57.0
+231,100,United States of America,India,2009,feed_compound_cattle,228.0
+231,100,United States of America,India,2010,feed_compound_cattle,209.0
+231,100,United States of America,India,2013,feed_compound_cattle,19.0
+231,100,United States of America,India,2014,feed_compound_cattle,72.0
+231,100,United States of America,India,2016,feed_compound_cattle,10.0
+231,100,United States of America,India,2017,feed_compound_cattle,19.0
+231,100,United States of America,India,2018,feed_compound_cattle,2.0
+231,100,United States of America,India,2020,feed_compound_cattle,76.0
+33,203,Canada,Spain,1995,feed_compound_cattle,360.0
+33,203,Canada,Spain,2006,feed_compound_cattle,18.0
+33,203,Canada,Spain,2023,feed_compound_cattle,220.19
+231,101,United States of America,Indonesia,1989,feed_compound_cattle,5.0
+231,101,United States of America,Indonesia,2000,feed_compound_cattle,2092.0
+231,101,United States of America,Indonesia,2001,feed_compound_cattle,55.0
+231,101,United States of America,Indonesia,2005,feed_compound_cattle,6.0
+231,101,United States of America,Indonesia,2012,feed_compound_cattle,115.0
+231,101,United States of America,Indonesia,2013,feed_compound_cattle,38.0
+231,101,United States of America,Indonesia,2014,feed_compound_cattle,68.0
+231,101,United States of America,Indonesia,2015,feed_compound_cattle,19.0
+231,101,United States of America,Indonesia,2022,feed_compound_cattle,2.0
+231,101,United States of America,Indonesia,2023,feed_compound_cattle,312.0
+231,102,United States of America,Iran (Islamic Republic of),2004,feed_compound_cattle,1.0
+231,102,United States of America,Iran (Islamic Republic of),2010,feed_compound_cattle,18.0
+231,102,United States of America,Iran (Islamic Republic of),2011,feed_compound_cattle,96.0
+231,102,United States of America,Iran (Islamic Republic of),2012,feed_compound_cattle,122.0
+231,102,United States of America,Iran (Islamic Republic of),2013,feed_compound_cattle,160.0
+231,102,United States of America,Iran (Islamic Republic of),2014,feed_compound_cattle,352.0
+231,102,United States of America,Iran (Islamic Republic of),2015,feed_compound_cattle,19.0
+33,211,Canada,Switzerland,2000,feed_compound_cattle,25.0
+33,211,Canada,Switzerland,2010,feed_compound_cattle,11.0
+33,211,Canada,Switzerland,2012,feed_compound_cattle,12.0
+33,211,Canada,Switzerland,2013,feed_compound_cattle,13.0
+231,104,United States of America,Ireland,1986,feed_compound_cattle,5.0
+231,104,United States of America,Ireland,1987,feed_compound_cattle,5436.0
+231,104,United States of America,Ireland,1990,feed_compound_cattle,24399.0
+231,104,United States of America,Ireland,1991,feed_compound_cattle,33594.0
+231,104,United States of America,Ireland,1994,feed_compound_cattle,21.0
+231,104,United States of America,Ireland,1995,feed_compound_cattle,64.0
+231,104,United States of America,Ireland,2002,feed_compound_cattle,192.0
+231,104,United States of America,Ireland,2008,feed_compound_cattle,19.0
+231,104,United States of America,Ireland,2011,feed_compound_cattle,6.0
+231,104,United States of America,Ireland,2012,feed_compound_cattle,435.0
+231,104,United States of America,Ireland,2013,feed_compound_cattle,865.0
+231,104,United States of America,Ireland,2014,feed_compound_cattle,1633.0
+231,104,United States of America,Ireland,2015,feed_compound_cattle,119.0
+231,104,United States of America,Ireland,2016,feed_compound_cattle,1.0
+231,104,United States of America,Ireland,2017,feed_compound_cattle,3.0
+231,104,United States of America,Ireland,2018,feed_compound_cattle,91.0
+231,104,United States of America,Ireland,2019,feed_compound_cattle,735.0
+231,104,United States of America,Ireland,2020,feed_compound_cattle,95.0
+231,104,United States of America,Ireland,2021,feed_compound_cattle,349.0
+231,104,United States of America,Ireland,2022,feed_compound_cattle,344.0
+231,104,United States of America,Ireland,2023,feed_compound_cattle,684.0
+231,105,United States of America,Israel,2003,feed_compound_cattle,1.0
+231,105,United States of America,Israel,2016,feed_compound_cattle,10.0
+231,105,United States of America,Israel,2017,feed_compound_cattle,97.0
+231,105,United States of America,Israel,2019,feed_compound_cattle,32.0
+231,105,United States of America,Israel,2020,feed_compound_cattle,75.0
+231,105,United States of America,Israel,2021,feed_compound_cattle,125.0
+231,105,United States of America,Israel,2022,feed_compound_cattle,102.0
+231,105,United States of America,Israel,2023,feed_compound_cattle,95.0
+33,216,Canada,Thailand,1992,feed_compound_cattle,20.0
+33,216,Canada,Thailand,1995,feed_compound_cattle,36.0
+33,216,Canada,Thailand,2001,feed_compound_cattle,178.0
+33,216,Canada,Thailand,2010,feed_compound_cattle,141.0
+33,216,Canada,Thailand,2014,feed_compound_cattle,110.52
+33,216,Canada,Thailand,2023,feed_compound_cattle,122.96
+33,220,Canada,Trinidad and Tobago,1986,feed_compound_cattle,2.0
+33,220,Canada,Trinidad and Tobago,1987,feed_compound_cattle,15.0
+33,220,Canada,Trinidad and Tobago,1989,feed_compound_cattle,25.0
+33,220,Canada,Trinidad and Tobago,1990,feed_compound_cattle,20.0
+33,220,Canada,Trinidad and Tobago,1991,feed_compound_cattle,40.0
+33,220,Canada,Trinidad and Tobago,1992,feed_compound_cattle,19.0
+33,220,Canada,Trinidad and Tobago,1993,feed_compound_cattle,43.0
+33,220,Canada,Trinidad and Tobago,1994,feed_compound_cattle,11.0
+33,220,Canada,Trinidad and Tobago,2007,feed_compound_cattle,14.0
+33,220,Canada,Trinidad and Tobago,2008,feed_compound_cattle,31.0
+231,106,United States of America,Italy,1988,feed_compound_cattle,895.0
+231,106,United States of America,Italy,1989,feed_compound_cattle,119.0
+231,106,United States of America,Italy,1990,feed_compound_cattle,143.0
+231,106,United States of America,Italy,1991,feed_compound_cattle,14439.0
+231,106,United States of America,Italy,1993,feed_compound_cattle,35.0
+231,106,United States of America,Italy,1994,feed_compound_cattle,17.0
+231,106,United States of America,Italy,1997,feed_compound_cattle,28.0
+231,106,United States of America,Italy,2009,feed_compound_cattle,38.0
+231,106,United States of America,Italy,2013,feed_compound_cattle,11.0
+231,106,United States of America,Italy,2015,feed_compound_cattle,48.0
+231,106,United States of America,Italy,2016,feed_compound_cattle,140.0
+231,106,United States of America,Italy,2017,feed_compound_cattle,84.0
+231,106,United States of America,Italy,2018,feed_compound_cattle,43.0
+231,106,United States of America,Italy,2019,feed_compound_cattle,18.0
+231,106,United States of America,Italy,2020,feed_compound_cattle,169.0
+231,106,United States of America,Italy,2021,feed_compound_cattle,20.0
+231,106,United States of America,Italy,2022,feed_compound_cattle,19.0
+33,230,Canada,Ukraine,2019,feed_compound_cattle,592.5
+231,109,United States of America,Jamaica,1989,feed_compound_cattle,34.0
+231,109,United States of America,Jamaica,1990,feed_compound_cattle,29.0
+231,109,United States of America,Jamaica,1994,feed_compound_cattle,115.0
+231,109,United States of America,Jamaica,1995,feed_compound_cattle,4.0
+231,109,United States of America,Jamaica,2000,feed_compound_cattle,17.0
+231,109,United States of America,Jamaica,2001,feed_compound_cattle,153.0
+231,109,United States of America,Jamaica,2002,feed_compound_cattle,190.0
+231,109,United States of America,Jamaica,2008,feed_compound_cattle,20.0
+231,109,United States of America,Jamaica,2014,feed_compound_cattle,19.0
+231,109,United States of America,Jamaica,2015,feed_compound_cattle,19.0
+33,225,Canada,United Arab Emirates,1988,feed_compound_cattle,57.0
+33,225,Canada,United Arab Emirates,2007,feed_compound_cattle,25.0
+33,225,Canada,United Arab Emirates,2008,feed_compound_cattle,27.0
+33,225,Canada,United Arab Emirates,2018,feed_compound_cattle,26.26
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1988,feed_compound_cattle,160.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1991,feed_compound_cattle,20.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1993,feed_compound_cattle,29.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2006,feed_compound_cattle,1.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2007,feed_compound_cattle,4.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2013,feed_compound_cattle,1.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2016,feed_compound_cattle,361.64
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2017,feed_compound_cattle,147.25
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2018,feed_compound_cattle,1281.14
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2019,feed_compound_cattle,560.45
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2020,feed_compound_cattle,19.39
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2021,feed_compound_cattle,83.22
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2022,feed_compound_cattle,23.71
+231,110,United States of America,Japan,1986,feed_compound_cattle,504.0
+231,110,United States of America,Japan,1987,feed_compound_cattle,25903.0
+231,110,United States of America,Japan,1988,feed_compound_cattle,3245.0
+231,110,United States of America,Japan,1989,feed_compound_cattle,399.0
+231,110,United States of America,Japan,1990,feed_compound_cattle,331.0
+231,110,United States of America,Japan,1991,feed_compound_cattle,302.0
+231,110,United States of America,Japan,1992,feed_compound_cattle,2514.0
+231,110,United States of America,Japan,1993,feed_compound_cattle,2703.0
+231,110,United States of America,Japan,1994,feed_compound_cattle,950.0
+231,110,United States of America,Japan,1995,feed_compound_cattle,7165.0
+231,110,United States of America,Japan,1996,feed_compound_cattle,13430.0
+231,110,United States of America,Japan,1997,feed_compound_cattle,7795.0
+231,110,United States of America,Japan,1998,feed_compound_cattle,6806.0
+231,110,United States of America,Japan,1999,feed_compound_cattle,2882.0
+231,110,United States of America,Japan,2000,feed_compound_cattle,729.0
+231,110,United States of America,Japan,2001,feed_compound_cattle,154.0
+231,110,United States of America,Japan,2002,feed_compound_cattle,301.0
+231,110,United States of America,Japan,2003,feed_compound_cattle,1364.0
+231,110,United States of America,Japan,2004,feed_compound_cattle,1460.0
+231,110,United States of America,Japan,2005,feed_compound_cattle,1454.0
+231,110,United States of America,Japan,2006,feed_compound_cattle,2180.0
+231,110,United States of America,Japan,2007,feed_compound_cattle,6460.0
+231,110,United States of America,Japan,2008,feed_compound_cattle,8940.0
+231,110,United States of America,Japan,2009,feed_compound_cattle,693.0
+231,110,United States of America,Japan,2010,feed_compound_cattle,1103.0
+231,110,United States of America,Japan,2011,feed_compound_cattle,1838.0
+231,110,United States of America,Japan,2012,feed_compound_cattle,2303.0
+231,110,United States of America,Japan,2013,feed_compound_cattle,1295.0
+231,110,United States of America,Japan,2014,feed_compound_cattle,1795.0
+231,110,United States of America,Japan,2015,feed_compound_cattle,3067.0
+231,110,United States of America,Japan,2016,feed_compound_cattle,2803.0
+231,110,United States of America,Japan,2017,feed_compound_cattle,3581.0
+231,110,United States of America,Japan,2018,feed_compound_cattle,4015.0
+231,110,United States of America,Japan,2019,feed_compound_cattle,3603.0
+231,110,United States of America,Japan,2020,feed_compound_cattle,2988.0
+231,110,United States of America,Japan,2021,feed_compound_cattle,2698.0
+231,110,United States of America,Japan,2022,feed_compound_cattle,1926.0
+231,110,United States of America,Japan,2023,feed_compound_cattle,1554.0
+231,112,United States of America,Jordan,2005,feed_compound_cattle,19.0
+231,112,United States of America,Jordan,2015,feed_compound_cattle,4.0
+231,112,United States of America,Jordan,2016,feed_compound_cattle,4.0
+231,112,United States of America,Jordan,2020,feed_compound_cattle,18.0
+231,112,United States of America,Jordan,2021,feed_compound_cattle,73.0
+231,112,United States of America,Jordan,2022,feed_compound_cattle,55.0
+231,112,United States of America,Jordan,2023,feed_compound_cattle,90.0
+33,231,Canada,United States of America,1986,feed_compound_cattle,105631.0
+33,231,Canada,United States of America,1987,feed_compound_cattle,105622.0
+33,231,Canada,United States of America,1988,feed_compound_cattle,86531.0
+33,231,Canada,United States of America,1989,feed_compound_cattle,82867.0
+33,231,Canada,United States of America,1990,feed_compound_cattle,112785.0
+33,231,Canada,United States of America,1991,feed_compound_cattle,98240.0
+33,231,Canada,United States of America,1992,feed_compound_cattle,99738.0
+33,231,Canada,United States of America,1993,feed_compound_cattle,109975.0
+33,231,Canada,United States of America,1994,feed_compound_cattle,156933.0
+33,231,Canada,United States of America,1995,feed_compound_cattle,183071.0
+33,231,Canada,United States of America,1996,feed_compound_cattle,270812.0
+33,231,Canada,United States of America,1997,feed_compound_cattle,234863.0
+33,231,Canada,United States of America,1998,feed_compound_cattle,193733.0
+33,231,Canada,United States of America,1999,feed_compound_cattle,184992.0
+33,231,Canada,United States of America,2000,feed_compound_cattle,183523.0
+33,231,Canada,United States of America,2001,feed_compound_cattle,186170.0
+33,231,Canada,United States of America,2002,feed_compound_cattle,190056.0
+33,231,Canada,United States of America,2003,feed_compound_cattle,157787.0
+33,231,Canada,United States of America,2004,feed_compound_cattle,112080.0
+33,231,Canada,United States of America,2005,feed_compound_cattle,92313.0
+33,231,Canada,United States of America,2006,feed_compound_cattle,92660.0
+33,231,Canada,United States of America,2007,feed_compound_cattle,97431.0
+33,231,Canada,United States of America,2008,feed_compound_cattle,93393.0
+33,231,Canada,United States of America,2009,feed_compound_cattle,72531.0
+33,231,Canada,United States of America,2010,feed_compound_cattle,52604.0
+33,231,Canada,United States of America,2011,feed_compound_cattle,51749.0
+33,231,Canada,United States of America,2012,feed_compound_cattle,52140.0
+33,231,Canada,United States of America,2013,feed_compound_cattle,49834.0
+33,231,Canada,United States of America,2014,feed_compound_cattle,36647.0
+33,231,Canada,United States of America,2015,feed_compound_cattle,37724.0
+33,231,Canada,United States of America,2016,feed_compound_cattle,32666.0
+33,231,Canada,United States of America,2017,feed_compound_cattle,38042.0
+33,231,Canada,United States of America,2018,feed_compound_cattle,35088.0
+33,231,Canada,United States of America,2019,feed_compound_cattle,25350.0
+33,231,Canada,United States of America,2020,feed_compound_cattle,20853.0
+33,231,Canada,United States of America,2021,feed_compound_cattle,23304.0
+33,231,Canada,United States of America,2022,feed_compound_cattle,24504.0
+33,231,Canada,United States of America,2023,feed_compound_cattle,23440.0
+231,118,United States of America,Kuwait,2009,feed_compound_cattle,1.0
+231,118,United States of America,Kuwait,2014,feed_compound_cattle,625.0
+231,118,United States of America,Kuwait,2015,feed_compound_cattle,6.0
+231,118,United States of America,Kuwait,2016,feed_compound_cattle,74.0
+231,118,United States of America,Kuwait,2017,feed_compound_cattle,43.0
+231,118,United States of America,Kuwait,2018,feed_compound_cattle,55.0
+231,118,United States of America,Kuwait,2019,feed_compound_cattle,20.0
+231,118,United States of America,Kuwait,2020,feed_compound_cattle,93.0
+231,118,United States of America,Kuwait,2021,feed_compound_cattle,38.0
+231,118,United States of America,Kuwait,2022,feed_compound_cattle,159.0
+231,118,United States of America,Kuwait,2023,feed_compound_cattle,338.0
+231,119,United States of America,Latvia,2014,feed_compound_cattle,4.0
+231,121,United States of America,Lebanon,1986,feed_compound_cattle,18.0
+231,121,United States of America,Lebanon,2013,feed_compound_cattle,20.0
+231,121,United States of America,Lebanon,2019,feed_compound_cattle,18.0
+231,121,United States of America,Lebanon,2020,feed_compound_cattle,174.0
+231,121,United States of America,Lebanon,2021,feed_compound_cattle,123.0
+231,121,United States of America,Lebanon,2022,feed_compound_cattle,94.0
+33,234,Canada,Uruguay,1998,feed_compound_cattle,24.0
+33,236,Canada,Venezuela (Bolivarian Republic of),1992,feed_compound_cattle,20.0
+231,124,United States of America,Libya,2006,feed_compound_cattle,12.0
+231,131,United States of America,Malaysia,1989,feed_compound_cattle,63.0
+231,131,United States of America,Malaysia,1998,feed_compound_cattle,141.0
+231,131,United States of America,Malaysia,2002,feed_compound_cattle,313.0
+231,131,United States of America,Malaysia,2004,feed_compound_cattle,1.0
+231,131,United States of America,Malaysia,2009,feed_compound_cattle,29.0
+231,131,United States of America,Malaysia,2015,feed_compound_cattle,111.0
+231,131,United States of America,Malaysia,2017,feed_compound_cattle,1068.0
+231,131,United States of America,Malaysia,2018,feed_compound_cattle,5654.0
+231,131,United States of America,Malaysia,2019,feed_compound_cattle,19.0
+231,131,United States of America,Malaysia,2020,feed_compound_cattle,2.0
+231,131,United States of America,Malaysia,2022,feed_compound_cattle,14.0
+231,138,United States of America,Mexico,1986,feed_compound_cattle,3472.0
+231,138,United States of America,Mexico,1987,feed_compound_cattle,539.0
+231,138,United States of America,Mexico,1988,feed_compound_cattle,2350.0
+231,138,United States of America,Mexico,1989,feed_compound_cattle,7786.0
+231,138,United States of America,Mexico,1990,feed_compound_cattle,12097.0
+231,138,United States of America,Mexico,1991,feed_compound_cattle,30333.0
+231,138,United States of America,Mexico,1992,feed_compound_cattle,37609.0
+231,138,United States of America,Mexico,1993,feed_compound_cattle,47309.0
+231,138,United States of America,Mexico,1994,feed_compound_cattle,58071.0
+231,138,United States of America,Mexico,1995,feed_compound_cattle,20087.0
+231,138,United States of America,Mexico,1996,feed_compound_cattle,27807.0
+231,138,United States of America,Mexico,1997,feed_compound_cattle,33531.0
+231,138,United States of America,Mexico,1998,feed_compound_cattle,48447.0
+231,138,United States of America,Mexico,1999,feed_compound_cattle,38411.0
+231,138,United States of America,Mexico,2000,feed_compound_cattle,46133.0
+231,138,United States of America,Mexico,2001,feed_compound_cattle,36355.0
+231,138,United States of America,Mexico,2002,feed_compound_cattle,27337.0
+231,138,United States of America,Mexico,2003,feed_compound_cattle,21852.0
+231,138,United States of America,Mexico,2004,feed_compound_cattle,37971.0
+231,138,United States of America,Mexico,2005,feed_compound_cattle,22257.0
+231,138,United States of America,Mexico,2006,feed_compound_cattle,14929.0
+231,138,United States of America,Mexico,2007,feed_compound_cattle,21301.0
+231,138,United States of America,Mexico,2008,feed_compound_cattle,23689.0
+231,138,United States of America,Mexico,2009,feed_compound_cattle,15982.0
+231,138,United States of America,Mexico,2010,feed_compound_cattle,9076.0
+231,138,United States of America,Mexico,2011,feed_compound_cattle,6235.0
+231,138,United States of America,Mexico,2012,feed_compound_cattle,7277.0
+231,138,United States of America,Mexico,2013,feed_compound_cattle,7033.0
+231,138,United States of America,Mexico,2014,feed_compound_cattle,5608.0
+231,138,United States of America,Mexico,2015,feed_compound_cattle,2899.0
+231,138,United States of America,Mexico,2016,feed_compound_cattle,2570.0
+231,138,United States of America,Mexico,2017,feed_compound_cattle,1340.0
+231,138,United States of America,Mexico,2018,feed_compound_cattle,4365.0
+231,138,United States of America,Mexico,2019,feed_compound_cattle,6441.0
+231,138,United States of America,Mexico,2020,feed_compound_cattle,13293.0
+231,138,United States of America,Mexico,2021,feed_compound_cattle,3699.0
+231,138,United States of America,Mexico,2022,feed_compound_cattle,5783.0
+231,138,United States of America,Mexico,2023,feed_compound_cattle,1365.0
+231,149,United States of America,Nepal,2019,feed_compound_cattle,9.0
+231,150,United States of America,Netherlands (Kingdom of the),1986,feed_compound_cattle,327.0
+231,150,United States of America,Netherlands (Kingdom of the),1987,feed_compound_cattle,147.0
+231,150,United States of America,Netherlands (Kingdom of the),1988,feed_compound_cattle,191.0
+231,150,United States of America,Netherlands (Kingdom of the),1989,feed_compound_cattle,129.0
+231,150,United States of America,Netherlands (Kingdom of the),1990,feed_compound_cattle,15103.0
+231,150,United States of America,Netherlands (Kingdom of the),1991,feed_compound_cattle,17888.0
+231,150,United States of America,Netherlands (Kingdom of the),1993,feed_compound_cattle,72.0
+231,150,United States of America,Netherlands (Kingdom of the),2001,feed_compound_cattle,1.0
+231,150,United States of America,Netherlands (Kingdom of the),2002,feed_compound_cattle,1.0
+231,150,United States of America,Netherlands (Kingdom of the),2005,feed_compound_cattle,1.0
+231,150,United States of America,Netherlands (Kingdom of the),2009,feed_compound_cattle,1.0
+231,150,United States of America,Netherlands (Kingdom of the),2010,feed_compound_cattle,38.0
+231,150,United States of America,Netherlands (Kingdom of the),2011,feed_compound_cattle,1.0
+231,150,United States of America,Netherlands (Kingdom of the),2012,feed_compound_cattle,15.0
+231,150,United States of America,Netherlands (Kingdom of the),2017,feed_compound_cattle,180.0
+231,150,United States of America,Netherlands (Kingdom of the),2018,feed_compound_cattle,84.0
+231,150,United States of America,Netherlands (Kingdom of the),2019,feed_compound_cattle,157.0
+231,150,United States of America,Netherlands (Kingdom of the),2020,feed_compound_cattle,216.0
+231,150,United States of America,Netherlands (Kingdom of the),2021,feed_compound_cattle,1487.0
+231,150,United States of America,Netherlands (Kingdom of the),2022,feed_compound_cattle,4195.0
+231,150,United States of America,Netherlands (Kingdom of the),2023,feed_compound_cattle,9983.0
+231,153,United States of America,New Caledonia,2012,feed_compound_cattle,1.0
+231,156,United States of America,New Zealand,1989,feed_compound_cattle,17.0
+231,156,United States of America,New Zealand,1994,feed_compound_cattle,74.0
+231,156,United States of America,New Zealand,1995,feed_compound_cattle,38.0
+231,156,United States of America,New Zealand,1996,feed_compound_cattle,38.0
+231,156,United States of America,New Zealand,1998,feed_compound_cattle,67.0
+231,156,United States of America,New Zealand,1999,feed_compound_cattle,19.0
+231,156,United States of America,New Zealand,2009,feed_compound_cattle,132.0
+231,156,United States of America,New Zealand,2010,feed_compound_cattle,117.0
+231,156,United States of America,New Zealand,2011,feed_compound_cattle,134.0
+231,156,United States of America,New Zealand,2012,feed_compound_cattle,40.0
+231,156,United States of America,New Zealand,2013,feed_compound_cattle,21.0
+231,156,United States of America,New Zealand,2014,feed_compound_cattle,578.0
+231,156,United States of America,New Zealand,2015,feed_compound_cattle,345.0
+231,156,United States of America,New Zealand,2016,feed_compound_cattle,419.0
+231,156,United States of America,New Zealand,2017,feed_compound_cattle,459.0
+231,156,United States of America,New Zealand,2018,feed_compound_cattle,544.0
+231,156,United States of America,New Zealand,2019,feed_compound_cattle,757.0
+231,156,United States of America,New Zealand,2020,feed_compound_cattle,777.0
+231,156,United States of America,New Zealand,2021,feed_compound_cattle,311.0
+231,156,United States of America,New Zealand,2022,feed_compound_cattle,235.0
+231,156,United States of America,New Zealand,2023,feed_compound_cattle,283.0
+231,157,United States of America,Nicaragua,1994,feed_compound_cattle,38.0
+231,157,United States of America,Nicaragua,1999,feed_compound_cattle,9.0
+231,157,United States of America,Nicaragua,2004,feed_compound_cattle,7.0
+231,159,United States of America,Nigeria,1989,feed_compound_cattle,7.0
+231,162,United States of America,Norway,1996,feed_compound_cattle,66.0
+231,162,United States of America,Norway,1997,feed_compound_cattle,1072.0
+231,221,United States of America,Oman,2019,feed_compound_cattle,147.0
+231,221,United States of America,Oman,2021,feed_compound_cattle,19.0
+231,221,United States of America,Oman,2023,feed_compound_cattle,146.0
+231,165,United States of America,Pakistan,2011,feed_compound_cattle,11.0
+231,165,United States of America,Pakistan,2013,feed_compound_cattle,40.0
+231,165,United States of America,Pakistan,2014,feed_compound_cattle,130.0
+231,165,United States of America,Pakistan,2015,feed_compound_cattle,222.0
+231,165,United States of America,Pakistan,2016,feed_compound_cattle,10.0
+231,165,United States of America,Pakistan,2017,feed_compound_cattle,34.0
+231,165,United States of America,Pakistan,2018,feed_compound_cattle,7.0
+231,165,United States of America,Pakistan,2019,feed_compound_cattle,5.0
+231,165,United States of America,Pakistan,2020,feed_compound_cattle,5.0
+231,165,United States of America,Pakistan,2021,feed_compound_cattle,21.0
+231,165,United States of America,Pakistan,2022,feed_compound_cattle,2.0
+231,166,United States of America,Panama,1987,feed_compound_cattle,17.0
+231,166,United States of America,Panama,1989,feed_compound_cattle,18.0
+231,166,United States of America,Panama,1990,feed_compound_cattle,232.0
+231,166,United States of America,Panama,1991,feed_compound_cattle,115.0
+231,166,United States of America,Panama,1992,feed_compound_cattle,199.0
+231,166,United States of America,Panama,1993,feed_compound_cattle,122.0
+231,166,United States of America,Panama,1994,feed_compound_cattle,18.0
+231,166,United States of America,Panama,1995,feed_compound_cattle,21.0
+231,166,United States of America,Panama,2001,feed_compound_cattle,2.0
+231,166,United States of America,Panama,2003,feed_compound_cattle,4.0
+231,166,United States of America,Panama,2014,feed_compound_cattle,59.0
+231,166,United States of America,Panama,2015,feed_compound_cattle,195.0
+231,166,United States of America,Panama,2016,feed_compound_cattle,676.0
+231,166,United States of America,Panama,2017,feed_compound_cattle,879.0
+231,166,United States of America,Panama,2018,feed_compound_cattle,218.0
+231,166,United States of America,Panama,2019,feed_compound_cattle,229.0
+231,166,United States of America,Panama,2020,feed_compound_cattle,129.0
+231,166,United States of America,Panama,2021,feed_compound_cattle,322.0
+231,166,United States of America,Panama,2022,feed_compound_cattle,75.0
+231,166,United States of America,Panama,2023,feed_compound_cattle,206.0
+231,169,United States of America,Paraguay,2017,feed_compound_cattle,20.0
+231,170,United States of America,Peru,1990,feed_compound_cattle,24.0
+231,170,United States of America,Peru,1991,feed_compound_cattle,120.0
+231,170,United States of America,Peru,1992,feed_compound_cattle,66.0
+231,170,United States of America,Peru,1994,feed_compound_cattle,525.0
+231,170,United States of America,Peru,1995,feed_compound_cattle,1000.0
+231,170,United States of America,Peru,2000,feed_compound_cattle,360.0
+231,170,United States of America,Peru,2008,feed_compound_cattle,194.0
+231,170,United States of America,Peru,2013,feed_compound_cattle,5.0
+231,170,United States of America,Peru,2015,feed_compound_cattle,38.0
+231,170,United States of America,Peru,2016,feed_compound_cattle,144.0
+231,170,United States of America,Peru,2017,feed_compound_cattle,115.0
+231,170,United States of America,Peru,2018,feed_compound_cattle,134.0
+231,170,United States of America,Peru,2019,feed_compound_cattle,135.0
+231,170,United States of America,Peru,2020,feed_compound_cattle,95.0
+231,170,United States of America,Peru,2021,feed_compound_cattle,113.0
+231,170,United States of America,Peru,2022,feed_compound_cattle,38.0
+231,170,United States of America,Peru,2023,feed_compound_cattle,40.0
+231,171,United States of America,Philippines,1986,feed_compound_cattle,20.0
+231,171,United States of America,Philippines,1989,feed_compound_cattle,242.0
+231,171,United States of America,Philippines,1990,feed_compound_cattle,96.0
+231,171,United States of America,Philippines,1991,feed_compound_cattle,119.0
+231,171,United States of America,Philippines,1992,feed_compound_cattle,245.0
+231,171,United States of America,Philippines,1993,feed_compound_cattle,660.0
+231,171,United States of America,Philippines,1994,feed_compound_cattle,177.0
+231,171,United States of America,Philippines,1997,feed_compound_cattle,1.0
+231,171,United States of America,Philippines,2000,feed_compound_cattle,307.0
+231,171,United States of America,Philippines,2001,feed_compound_cattle,441.0
+231,171,United States of America,Philippines,2004,feed_compound_cattle,3.0
+231,171,United States of America,Philippines,2005,feed_compound_cattle,1104.0
+231,171,United States of America,Philippines,2007,feed_compound_cattle,406.0
+231,171,United States of America,Philippines,2009,feed_compound_cattle,20.0
+231,171,United States of America,Philippines,2014,feed_compound_cattle,76.0
+231,171,United States of America,Philippines,2015,feed_compound_cattle,306.0
+231,173,United States of America,Poland,2009,feed_compound_cattle,57.0
+231,173,United States of America,Poland,2012,feed_compound_cattle,2.0
+231,173,United States of America,Poland,2018,feed_compound_cattle,100.0
+231,173,United States of America,Poland,2019,feed_compound_cattle,78.0
+231,173,United States of America,Poland,2022,feed_compound_cattle,77.0
+231,173,United States of America,Poland,2023,feed_compound_cattle,93.0
+231,174,United States of America,Portugal,1990,feed_compound_cattle,32453.0
+231,174,United States of America,Portugal,1991,feed_compound_cattle,50821.0
+231,174,United States of America,Portugal,1992,feed_compound_cattle,48.0
+231,174,United States of America,Portugal,1993,feed_compound_cattle,40.0
+231,174,United States of America,Portugal,1994,feed_compound_cattle,4260.0
+231,179,United States of America,Qatar,2018,feed_compound_cattle,94.0
+231,179,United States of America,Qatar,2019,feed_compound_cattle,862.0
+231,179,United States of America,Qatar,2020,feed_compound_cattle,255.0
+231,179,United States of America,Qatar,2023,feed_compound_cattle,228.0
+231,117,United States of America,Republic of Korea,1988,feed_compound_cattle,469.0
+231,117,United States of America,Republic of Korea,1989,feed_compound_cattle,411.0
+231,117,United States of America,Republic of Korea,1990,feed_compound_cattle,293.0
+231,117,United States of America,Republic of Korea,1991,feed_compound_cattle,168.0
+231,117,United States of America,Republic of Korea,1992,feed_compound_cattle,172.0
+231,117,United States of America,Republic of Korea,1993,feed_compound_cattle,70.0
+231,117,United States of America,Republic of Korea,1994,feed_compound_cattle,98.0
+231,117,United States of America,Republic of Korea,1995,feed_compound_cattle,11.0
+231,117,United States of America,Republic of Korea,1996,feed_compound_cattle,250.0
+231,117,United States of America,Republic of Korea,1997,feed_compound_cattle,273.0
+231,117,United States of America,Republic of Korea,1998,feed_compound_cattle,7677.0
+231,117,United States of America,Republic of Korea,1999,feed_compound_cattle,22018.0
+231,117,United States of America,Republic of Korea,2000,feed_compound_cattle,14405.0
+231,117,United States of America,Republic of Korea,2001,feed_compound_cattle,1691.0
+231,117,United States of America,Republic of Korea,2003,feed_compound_cattle,77.0
+231,117,United States of America,Republic of Korea,2004,feed_compound_cattle,412.0
+231,117,United States of America,Republic of Korea,2005,feed_compound_cattle,4998.0
+231,117,United States of America,Republic of Korea,2006,feed_compound_cattle,7520.0
+231,117,United States of America,Republic of Korea,2007,feed_compound_cattle,2937.0
+231,117,United States of America,Republic of Korea,2008,feed_compound_cattle,20613.0
+231,117,United States of America,Republic of Korea,2009,feed_compound_cattle,8995.0
+231,117,United States of America,Republic of Korea,2010,feed_compound_cattle,7304.0
+231,117,United States of America,Republic of Korea,2011,feed_compound_cattle,12252.0
+231,117,United States of America,Republic of Korea,2012,feed_compound_cattle,9952.0
+231,117,United States of America,Republic of Korea,2013,feed_compound_cattle,5189.0
+231,117,United States of America,Republic of Korea,2014,feed_compound_cattle,7682.0
+231,117,United States of America,Republic of Korea,2015,feed_compound_cattle,5573.0
+231,117,United States of America,Republic of Korea,2016,feed_compound_cattle,8895.0
+231,117,United States of America,Republic of Korea,2017,feed_compound_cattle,5850.0
+231,117,United States of America,Republic of Korea,2018,feed_compound_cattle,6175.0
+231,117,United States of America,Republic of Korea,2019,feed_compound_cattle,4822.0
+231,117,United States of America,Republic of Korea,2020,feed_compound_cattle,6752.0
+231,117,United States of America,Republic of Korea,2021,feed_compound_cattle,4650.0
+231,117,United States of America,Republic of Korea,2022,feed_compound_cattle,2554.0
+231,117,United States of America,Republic of Korea,2023,feed_compound_cattle,2386.0
+231,185,United States of America,Russian Federation,2014,feed_compound_cattle,20.0
+231,188,United States of America,Saint Kitts and Nevis,2019,feed_compound_cattle,19.0
+231,188,United States of America,Saint Kitts and Nevis,2020,feed_compound_cattle,20.0
+231,189,United States of America,Saint Lucia,2016,feed_compound_cattle,19.0
+231,189,United States of America,Saint Lucia,2017,feed_compound_cattle,19.0
+231,194,United States of America,Saudi Arabia,1993,feed_compound_cattle,10.0
+231,194,United States of America,Saudi Arabia,1999,feed_compound_cattle,582.0
+231,194,United States of America,Saudi Arabia,2004,feed_compound_cattle,2586.0
+231,194,United States of America,Saudi Arabia,2005,feed_compound_cattle,441.0
+231,194,United States of America,Saudi Arabia,2012,feed_compound_cattle,152.0
+231,194,United States of America,Saudi Arabia,2013,feed_compound_cattle,228.0
+231,194,United States of America,Saudi Arabia,2014,feed_compound_cattle,460.0
+231,194,United States of America,Saudi Arabia,2015,feed_compound_cattle,900.0
+231,194,United States of America,Saudi Arabia,2016,feed_compound_cattle,880.0
+231,194,United States of America,Saudi Arabia,2017,feed_compound_cattle,942.0
+231,194,United States of America,Saudi Arabia,2018,feed_compound_cattle,1589.0
+231,194,United States of America,Saudi Arabia,2019,feed_compound_cattle,3762.0
+231,194,United States of America,Saudi Arabia,2020,feed_compound_cattle,6104.0
+231,194,United States of America,Saudi Arabia,2021,feed_compound_cattle,3831.0
+231,194,United States of America,Saudi Arabia,2022,feed_compound_cattle,589.0
+231,194,United States of America,Saudi Arabia,2023,feed_compound_cattle,375.0
+231,196,United States of America,Seychelles,2001,feed_compound_cattle,12.0
+231,200,United States of America,Singapore,1989,feed_compound_cattle,24.0
+231,200,United States of America,Singapore,1990,feed_compound_cattle,49.0
+231,200,United States of America,Singapore,1991,feed_compound_cattle,38.0
+231,200,United States of America,Singapore,1992,feed_compound_cattle,483.0
+231,200,United States of America,Singapore,1993,feed_compound_cattle,8.0
+231,200,United States of America,Singapore,1994,feed_compound_cattle,84.0
+231,200,United States of America,Singapore,1995,feed_compound_cattle,35.0
+231,200,United States of America,Singapore,2006,feed_compound_cattle,9.0
+231,200,United States of America,Singapore,2009,feed_compound_cattle,29.0
+231,200,United States of America,Singapore,2014,feed_compound_cattle,1.0
+231,200,United States of America,Singapore,2016,feed_compound_cattle,3.0
+231,200,United States of America,Singapore,2017,feed_compound_cattle,1.0
+231,200,United States of America,Singapore,2018,feed_compound_cattle,2.0
+231,200,United States of America,Singapore,2020,feed_compound_cattle,1.0
+231,200,United States of America,Singapore,2021,feed_compound_cattle,2.0
+231,202,United States of America,South Africa,2000,feed_compound_cattle,103.0
+231,202,United States of America,South Africa,2004,feed_compound_cattle,1.0
+231,202,United States of America,South Africa,2007,feed_compound_cattle,91.0
+231,202,United States of America,South Africa,2008,feed_compound_cattle,213.0
+231,202,United States of America,South Africa,2010,feed_compound_cattle,38.0
+231,202,United States of America,South Africa,2014,feed_compound_cattle,270.0
+231,202,United States of America,South Africa,2015,feed_compound_cattle,184.0
+231,202,United States of America,South Africa,2016,feed_compound_cattle,115.0
+231,202,United States of America,South Africa,2017,feed_compound_cattle,77.0
+231,202,United States of America,South Africa,2018,feed_compound_cattle,115.0
+231,202,United States of America,South Africa,2019,feed_compound_cattle,103.0
+231,202,United States of America,South Africa,2020,feed_compound_cattle,139.0
+231,202,United States of America,South Africa,2021,feed_compound_cattle,115.0
+231,202,United States of America,South Africa,2022,feed_compound_cattle,36.0
+231,202,United States of America,South Africa,2023,feed_compound_cattle,1.0
+231,203,United States of America,Spain,1989,feed_compound_cattle,22.0
+231,203,United States of America,Spain,1990,feed_compound_cattle,27708.0
+231,203,United States of America,Spain,1991,feed_compound_cattle,28170.0
+231,203,United States of America,Spain,1992,feed_compound_cattle,200.0
+231,203,United States of America,Spain,1993,feed_compound_cattle,516.0
+231,203,United States of America,Spain,1994,feed_compound_cattle,49.0
+231,203,United States of America,Spain,1995,feed_compound_cattle,1.0
+231,203,United States of America,Spain,1998,feed_compound_cattle,214.0
+231,203,United States of America,Spain,2000,feed_compound_cattle,5.0
+231,203,United States of America,Spain,2008,feed_compound_cattle,39.0
+231,203,United States of America,Spain,2012,feed_compound_cattle,13.0
+231,203,United States of America,Spain,2013,feed_compound_cattle,19.0
+231,203,United States of America,Spain,2014,feed_compound_cattle,45.0
+231,203,United States of America,Spain,2015,feed_compound_cattle,91.0
+231,203,United States of America,Spain,2016,feed_compound_cattle,168.0
+231,203,United States of America,Spain,2017,feed_compound_cattle,111.0
+231,203,United States of America,Spain,2018,feed_compound_cattle,36.0
+231,203,United States of America,Spain,2019,feed_compound_cattle,19.0
+231,203,United States of America,Spain,2021,feed_compound_cattle,1340.0
+231,203,United States of America,Spain,2022,feed_compound_cattle,1340.0
+231,38,United States of America,Sri Lanka,2001,feed_compound_cattle,2.0
+231,38,United States of America,Sri Lanka,2014,feed_compound_cattle,30.0
+231,38,United States of America,Sri Lanka,2015,feed_compound_cattle,10.0
+231,207,United States of America,Suriname,1988,feed_compound_cattle,3.0
+231,207,United States of America,Suriname,1989,feed_compound_cattle,6.0
+231,207,United States of America,Suriname,1991,feed_compound_cattle,35.0
+231,207,United States of America,Suriname,2017,feed_compound_cattle,99.0
+231,210,United States of America,Sweden,2015,feed_compound_cattle,42.0
+231,210,United States of America,Sweden,2016,feed_compound_cattle,60.0
+231,210,United States of America,Sweden,2017,feed_compound_cattle,80.0
+231,210,United States of America,Sweden,2018,feed_compound_cattle,20.0
+231,211,United States of America,Switzerland,1989,feed_compound_cattle,73.0
+231,211,United States of America,Switzerland,1998,feed_compound_cattle,32.0
+231,211,United States of America,Switzerland,1999,feed_compound_cattle,69.0
+231,211,United States of America,Switzerland,2009,feed_compound_cattle,1.0
+231,216,United States of America,Thailand,1989,feed_compound_cattle,75.0
+231,216,United States of America,Thailand,1990,feed_compound_cattle,111.0
+231,216,United States of America,Thailand,1993,feed_compound_cattle,6.0
+231,216,United States of America,Thailand,1994,feed_compound_cattle,23.0
+231,216,United States of America,Thailand,1995,feed_compound_cattle,100.0
+231,216,United States of America,Thailand,1996,feed_compound_cattle,2105.0
+231,216,United States of America,Thailand,1997,feed_compound_cattle,2046.0
+231,216,United States of America,Thailand,1999,feed_compound_cattle,159.0
+231,216,United States of America,Thailand,2008,feed_compound_cattle,58.0
+231,216,United States of America,Thailand,2009,feed_compound_cattle,437.0
+231,216,United States of America,Thailand,2015,feed_compound_cattle,1153.0
+231,216,United States of America,Thailand,2021,feed_compound_cattle,391.0
+231,220,United States of America,Trinidad and Tobago,1986,feed_compound_cattle,2618.0
+231,220,United States of America,Trinidad and Tobago,1987,feed_compound_cattle,652.0
+231,220,United States of America,Trinidad and Tobago,1988,feed_compound_cattle,156.0
+231,220,United States of America,Trinidad and Tobago,1989,feed_compound_cattle,409.0
+231,220,United States of America,Trinidad and Tobago,1990,feed_compound_cattle,265.0
+231,220,United States of America,Trinidad and Tobago,1991,feed_compound_cattle,174.0
+231,220,United States of America,Trinidad and Tobago,1992,feed_compound_cattle,103.0
+231,220,United States of America,Trinidad and Tobago,1994,feed_compound_cattle,39.0
+231,220,United States of America,Trinidad and Tobago,1995,feed_compound_cattle,299.0
+231,220,United States of America,Trinidad and Tobago,2008,feed_compound_cattle,19.0
+231,220,United States of America,Trinidad and Tobago,2013,feed_compound_cattle,4.0
+231,222,United States of America,Tunisia,2023,feed_compound_cattle,2.0
+231,223,United States of America,Türkiye,2007,feed_compound_cattle,39.0
+231,223,United States of America,Türkiye,2008,feed_compound_cattle,20.0
+231,223,United States of America,Türkiye,2009,feed_compound_cattle,20.0
+231,223,United States of America,Türkiye,2010,feed_compound_cattle,40.0
+231,223,United States of America,Türkiye,2011,feed_compound_cattle,143.0
+231,223,United States of America,Türkiye,2015,feed_compound_cattle,625.0
+231,223,United States of America,Türkiye,2016,feed_compound_cattle,260.0
+231,223,United States of America,Türkiye,2017,feed_compound_cattle,37.0
+231,223,United States of America,Türkiye,2018,feed_compound_cattle,77.0
+231,223,United States of America,Türkiye,2020,feed_compound_cattle,268.0
+231,223,United States of America,Türkiye,2021,feed_compound_cattle,30.0
+231,223,United States of America,Türkiye,2022,feed_compound_cattle,38.0
+231,223,United States of America,Türkiye,2023,feed_compound_cattle,1104.0
+231,225,United States of America,United Arab Emirates,1999,feed_compound_cattle,19.0
+231,225,United States of America,United Arab Emirates,2003,feed_compound_cattle,2792.0
+231,225,United States of America,United Arab Emirates,2004,feed_compound_cattle,1267.0
+231,225,United States of America,United Arab Emirates,2006,feed_compound_cattle,1244.0
+231,225,United States of America,United Arab Emirates,2007,feed_compound_cattle,1639.0
+231,225,United States of America,United Arab Emirates,2008,feed_compound_cattle,114.0
+231,225,United States of America,United Arab Emirates,2009,feed_compound_cattle,33.0
+231,225,United States of America,United Arab Emirates,2011,feed_compound_cattle,19.0
+231,225,United States of America,United Arab Emirates,2012,feed_compound_cattle,192.0
+231,225,United States of America,United Arab Emirates,2013,feed_compound_cattle,482.0
+231,225,United States of America,United Arab Emirates,2014,feed_compound_cattle,184.0
+231,225,United States of America,United Arab Emirates,2017,feed_compound_cattle,210.0
+231,225,United States of America,United Arab Emirates,2018,feed_compound_cattle,63.0
+231,225,United States of America,United Arab Emirates,2019,feed_compound_cattle,10.0
+231,225,United States of America,United Arab Emirates,2021,feed_compound_cattle,1.0
+231,225,United States of America,United Arab Emirates,2022,feed_compound_cattle,91.0
+231,225,United States of America,United Arab Emirates,2023,feed_compound_cattle,228.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1987,feed_compound_cattle,30.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1988,feed_compound_cattle,56.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1989,feed_compound_cattle,89.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1990,feed_compound_cattle,15324.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1991,feed_compound_cattle,4984.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1992,feed_compound_cattle,713.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1993,feed_compound_cattle,340.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1994,feed_compound_cattle,45.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1995,feed_compound_cattle,295.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1996,feed_compound_cattle,70.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1997,feed_compound_cattle,49.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1998,feed_compound_cattle,7.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2005,feed_compound_cattle,19.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2006,feed_compound_cattle,678.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2007,feed_compound_cattle,163.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2008,feed_compound_cattle,3864.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2009,feed_compound_cattle,3301.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2010,feed_compound_cattle,19.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2011,feed_compound_cattle,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2012,feed_compound_cattle,77.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2013,feed_compound_cattle,408.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2014,feed_compound_cattle,192.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2015,feed_compound_cattle,174.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2016,feed_compound_cattle,172.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2017,feed_compound_cattle,275.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2018,feed_compound_cattle,455.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2019,feed_compound_cattle,392.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2020,feed_compound_cattle,196.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2021,feed_compound_cattle,115.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2022,feed_compound_cattle,126.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2023,feed_compound_cattle,257.0
+231,234,United States of America,Uruguay,1989,feed_compound_cattle,1.0
+231,234,United States of America,Uruguay,1996,feed_compound_cattle,20.0
+231,234,United States of America,Uruguay,1998,feed_compound_cattle,1.0
+231,234,United States of America,Uruguay,2014,feed_compound_cattle,38.0
+231,228,United States of America,USSR,1991,feed_compound_cattle,3.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1986,feed_compound_cattle,468.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1987,feed_compound_cattle,516.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1990,feed_compound_cattle,15.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1991,feed_compound_cattle,61.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1999,feed_compound_cattle,20.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2000,feed_compound_cattle,249.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2001,feed_compound_cattle,1528.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2007,feed_compound_cattle,77.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2008,feed_compound_cattle,268.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2009,feed_compound_cattle,19.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2012,feed_compound_cattle,1.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2014,feed_compound_cattle,18.0
+231,237,United States of America,Viet Nam,1998,feed_compound_cattle,85.0
+231,237,United States of America,Viet Nam,2003,feed_compound_cattle,870.0
+231,237,United States of America,Viet Nam,2004,feed_compound_cattle,16.0
+231,237,United States of America,Viet Nam,2007,feed_compound_cattle,19.0
+231,237,United States of America,Viet Nam,2008,feed_compound_cattle,99.0
+231,237,United States of America,Viet Nam,2009,feed_compound_cattle,214.0
+231,237,United States of America,Viet Nam,2012,feed_compound_cattle,57.0
+231,237,United States of America,Viet Nam,2013,feed_compound_cattle,7.0
+231,237,United States of America,Viet Nam,2019,feed_compound_cattle,9.0
+231,237,United States of America,Viet Nam,2021,feed_compound_cattle,20.0
+231,237,United States of America,Viet Nam,2022,feed_compound_cattle,32.0
+231,237,United States of America,Viet Nam,2023,feed_compound_cattle,5.0
+231,248,United States of America,Yugoslav SFR,1990,feed_compound_cattle,3.0
+231,248,United States of America,Yugoslav SFR,1991,feed_compound_cattle,45.0
+231,251,United States of America,Zambia,2020,feed_compound_cattle,20.0
+231,251,United States of America,Zambia,2021,feed_compound_cattle,1.0

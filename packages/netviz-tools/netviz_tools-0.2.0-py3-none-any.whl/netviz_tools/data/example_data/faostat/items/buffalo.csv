@@ -1,0 +1,875 @@
+o_code,d_code,o_name,d_name,year,item,weight
+100,2,India,Afghanistan,2014,buffalo,1.0
+154,3,North Macedonia,Albania,2013,buffalo,83.0
+165,2,Pakistan,Afghanistan,2000,buffalo,66.0
+165,2,Pakistan,Afghanistan,2001,buffalo,14.0
+165,2,Pakistan,Afghanistan,2002,buffalo,1084.0
+165,2,Pakistan,Afghanistan,2003,buffalo,30198.0
+165,2,Pakistan,Afghanistan,2004,buffalo,5881.0
+165,2,Pakistan,Afghanistan,2012,buffalo,336.0
+165,2,Pakistan,Afghanistan,2013,buffalo,5691.0
+165,2,Pakistan,Afghanistan,2017,buffalo,717.0
+120,41,Lao People's Democratic Republic,"China, mainland",2018,buffalo,1229.0
+120,41,Lao People's Democratic Republic,"China, mainland",2019,buffalo,13923.0
+120,41,Lao People's Democratic Republic,"China, mainland",2020,buffalo,4632.0
+120,41,Lao People's Democratic Republic,"China, mainland",2019,buffalo,3821.67
+120,41,Lao People's Democratic Republic,"China, mainland",2020,buffalo,1271.31
+20,32,Botswana,Cameroon,2014,buffalo,3.0
+7,21,Angola,Brazil,2022,buffalo,0.04
+21,7,Brazil,Angola,2012,buffalo,1800.0
+21,7,Brazil,Angola,2013,buffalo,1507.0
+21,7,Brazil,Angola,2014,buffalo,50.0
+21,7,Brazil,Angola,2014,buffalo,22.5
+21,7,Brazil,Angola,2019,buffalo,0.02
+149,33,Nepal,Canada,2009,buffalo,2.0
+20,250,Botswana,Democratic Republic of the Congo,2017,buffalo,74.0
+20,250,Botswana,Democratic Republic of the Congo,2017,buffalo,5.5
+28,41,Myanmar,"China, mainland",2018,buffalo,18425.0
+28,41,Myanmar,"China, mainland",2019,buffalo,8947.0
+28,41,Myanmar,"China, mainland",2019,buffalo,88.0
+120,147,Lao People's Democratic Republic,Namibia,2021,buffalo,139.0
+120,147,Lao People's Democratic Republic,Namibia,2021,buffalo,38.1
+20,79,Botswana,Germany,2016,buffalo,1.0
+20,79,Botswana,Germany,2016,buffalo,0.01
+209,144,Eswatini,Mozambique,2015,buffalo,0.6
+98,11,Croatia,Austria,2018,buffalo,7.0
+98,11,Croatia,Austria,2018,buffalo,5.85
+20,106,Botswana,Italy,2016,buffalo,2.0
+20,106,Botswana,Italy,2016,buffalo,0.07
+120,237,Lao People's Democratic Republic,Viet Nam,2018,buffalo,7894.0
+120,237,Lao People's Democratic Republic,Viet Nam,2019,buffalo,54042.0
+120,237,Lao People's Democratic Republic,Viet Nam,2020,buffalo,53487.0
+120,237,Lao People's Democratic Republic,Viet Nam,2021,buffalo,66001.0
+120,237,Lao People's Democratic Republic,Viet Nam,2019,buffalo,14834.06
+120,237,Lao People's Democratic Republic,Viet Nam,2020,buffalo,14681.77
+120,237,Lao People's Democratic Republic,Viet Nam,2021,buffalo,18116.7
+20,114,Botswana,Kenya,2015,buffalo,1.0
+20,114,Botswana,Kenya,2016,buffalo,2.0
+20,114,Botswana,Kenya,2015,buffalo,0.03
+20,114,Botswana,Kenya,2016,buffalo,0.03
+168,156,Papua New Guinea,New Zealand,2021,buffalo,1.0
+256,255,Luxembourg,Belgium,2012,buffalo,728.0
+256,255,Luxembourg,Belgium,2013,buffalo,644.0
+21,9,Brazil,Argentina,1990,buffalo,234.0
+21,9,Brazil,Argentina,1991,buffalo,984.0
+21,9,Brazil,Argentina,1992,buffalo,1427.0
+21,9,Brazil,Argentina,1993,buffalo,1313.0
+226,250,Uganda,Democratic Republic of the Congo,2015,buffalo,14.0
+226,250,Uganda,Democratic Republic of the Congo,2015,buffalo,0.31
+226,250,Uganda,Democratic Republic of the Congo,2020,buffalo,1.04
+20,147,Botswana,Namibia,2012,buffalo,23.0
+149,100,Nepal,India,2009,buffalo,10494.0
+149,100,Nepal,India,2010,buffalo,14009.0
+149,100,Nepal,India,2011,buffalo,19678.0
+149,100,Nepal,India,2012,buffalo,40660.0
+149,100,Nepal,India,2014,buffalo,36796.0
+149,100,Nepal,India,2015,buffalo,59620.0
+149,100,Nepal,India,2016,buffalo,47278.0
+149,100,Nepal,India,2017,buffalo,28334.0
+149,100,Nepal,India,2018,buffalo,37201.0
+149,100,Nepal,India,2019,buffalo,1740.0
+209,202,Eswatini,South Africa,2016,buffalo,33.0
+209,202,Eswatini,South Africa,2017,buffalo,232.0
+209,202,Eswatini,South Africa,2015,buffalo,203.74
+209,202,Eswatini,South Africa,2016,buffalo,4.95
+209,202,Eswatini,South Africa,2017,buffalo,26.24
+170,19,Peru,Bolivia (Plurinational State of),2013,buffalo,10.0
+231,9,United States of America,Argentina,2023,buffalo,19.0
+157,48,Nicaragua,Costa Rica,2014,buffalo,2.0
+157,48,Nicaragua,Costa Rica,2015,buffalo,31.0
+157,48,Nicaragua,Costa Rica,2019,buffalo,55.0
+157,48,Nicaragua,Costa Rica,2014,buffalo,0.77
+157,48,Nicaragua,Costa Rica,2015,buffalo,15.45
+157,48,Nicaragua,Costa Rica,2019,buffalo,27.35
+165,13,Pakistan,Bahrain,2000,buffalo,15.0
+165,13,Pakistan,Bahrain,2001,buffalo,130.0
+33,10,Canada,Australia,2020,buffalo,1.0
+211,11,Switzerland,Austria,2012,buffalo,1.0
+211,11,Switzerland,Austria,2015,buffalo,5.0
+211,11,Switzerland,Austria,2017,buffalo,19.0
+211,11,Switzerland,Austria,2019,buffalo,48.0
+211,11,Switzerland,Austria,2020,buffalo,120.0
+211,11,Switzerland,Austria,2022,buffalo,75.0
+211,11,Switzerland,Austria,2023,buffalo,7.0
+211,11,Switzerland,Austria,2015,buffalo,0.65
+211,11,Switzerland,Austria,2017,buffalo,5.29
+211,11,Switzerland,Austria,2019,buffalo,2.1
+211,11,Switzerland,Austria,2020,buffalo,2.38
+211,11,Switzerland,Austria,2022,buffalo,2.1
+211,11,Switzerland,Austria,2023,buffalo,0.25
+165,16,Pakistan,Bangladesh,1994,buffalo,5.0
+115,131,Cambodia,Malaysia,2001,buffalo,3603.0
+115,131,Cambodia,Malaysia,2003,buffalo,1950.0
+100,11,India,Austria,2014,buffalo,1.0
+131,11,Malaysia,Austria,2017,buffalo,2.0
+20,194,Botswana,Saudi Arabia,2016,buffalo,1.0
+20,194,Botswana,Saudi Arabia,2016,buffalo,0.02
+20,202,Botswana,South Africa,2012,buffalo,55.0
+20,202,Botswana,South Africa,2013,buffalo,9.0
+20,202,Botswana,South Africa,2014,buffalo,1.0
+20,202,Botswana,South Africa,2016,buffalo,52.0
+20,202,Botswana,South Africa,2017,buffalo,3.0
+20,202,Botswana,South Africa,2016,buffalo,0.14
+20,202,Botswana,South Africa,2017,buffalo,4.0
+20,202,Botswana,South Africa,2022,buffalo,27.0
+89,48,Guatemala,Costa Rica,2012,buffalo,194.0
+100,13,India,Bahrain,2016,buffalo,1.0
+98,80,Croatia,Bosnia and Herzegovina,2013,buffalo,28.0
+28,216,Myanmar,Thailand,2022,buffalo,10.0
+185,57,Russian Federation,Belarus,2018,buffalo,1.0
+185,57,Russian Federation,Belarus,2018,buffalo,0.35
+97,52,Hungary,Azerbaijan,2018,buffalo,125.0
+97,52,Hungary,Azerbaijan,2018,buffalo,67.58
+157,60,Nicaragua,El Salvador,2015,buffalo,1.0
+157,60,Nicaragua,El Salvador,2015,buffalo,0.4
+173,57,Poland,Belarus,2023,buffalo,5.0
+173,57,Poland,Belarus,2023,buffalo,1.5
+231,10,United States of America,Australia,2016,buffalo,7.0
+231,10,United States of America,Australia,2018,buffalo,8.0
+231,10,United States of America,Australia,2019,buffalo,7.0
+10,26,Australia,Brunei Darussalam,2012,buffalo,521.0
+10,26,Australia,Brunei Darussalam,2013,buffalo,400.0
+10,26,Australia,Brunei Darussalam,2014,buffalo,515.0
+10,26,Australia,Brunei Darussalam,2015,buffalo,625.0
+10,26,Australia,Brunei Darussalam,2016,buffalo,600.0
+10,26,Australia,Brunei Darussalam,2017,buffalo,380.0
+10,26,Australia,Brunei Darussalam,2018,buffalo,417.0
+10,26,Australia,Brunei Darussalam,2019,buffalo,578.0
+10,26,Australia,Brunei Darussalam,2022,buffalo,300.0
+10,26,Australia,Brunei Darussalam,2023,buffalo,150.0
+10,26,Australia,Brunei Darussalam,2014,buffalo,191.41
+10,26,Australia,Brunei Darussalam,2015,buffalo,266.87
+10,26,Australia,Brunei Darussalam,2016,buffalo,225.99
+131,255,Malaysia,Belgium,2017,buffalo,22.0
+158,159,Niger,Nigeria,2015,buffalo,11.3
+158,159,Niger,Nigeria,2016,buffalo,13.98
+158,159,Niger,Nigeria,2017,buffalo,4.6
+158,159,Niger,Nigeria,2018,buffalo,1.2
+158,159,Niger,Nigeria,2020,buffalo,0.4
+100,16,India,Bangladesh,2018,buffalo,128.0
+199,98,Slovakia,Croatia,2023,buffalo,37.0
+199,98,Slovakia,Croatia,2023,buffalo,18.29
+131,26,Malaysia,Brunei Darussalam,1989,buffalo,16.0
+131,26,Malaysia,Brunei Darussalam,1990,buffalo,6.0
+131,26,Malaysia,Brunei Darussalam,1991,buffalo,1.0
+131,26,Malaysia,Brunei Darussalam,1992,buffalo,2.0
+131,26,Malaysia,Brunei Darussalam,1993,buffalo,5.0
+131,26,Malaysia,Brunei Darussalam,2005,buffalo,53.0
+131,26,Malaysia,Brunei Darussalam,2006,buffalo,3.0
+131,26,Malaysia,Brunei Darussalam,2007,buffalo,20.0
+131,26,Malaysia,Brunei Darussalam,2013,buffalo,116.0
+131,26,Malaysia,Brunei Darussalam,2014,buffalo,196.0
+131,26,Malaysia,Brunei Darussalam,2015,buffalo,254.0
+131,26,Malaysia,Brunei Darussalam,2016,buffalo,179.0
+131,26,Malaysia,Brunei Darussalam,2017,buffalo,162.0
+131,26,Malaysia,Brunei Darussalam,2018,buffalo,69.0
+131,26,Malaysia,Brunei Darussalam,2019,buffalo,520.0
+131,26,Malaysia,Brunei Darussalam,2020,buffalo,692.0
+131,26,Malaysia,Brunei Darussalam,2021,buffalo,301.0
+131,26,Malaysia,Brunei Darussalam,2022,buffalo,571.0
+131,26,Malaysia,Brunei Darussalam,2023,buffalo,217.0
+131,26,Malaysia,Brunei Darussalam,2022,buffalo,0.59
+106,11,Italy,Austria,2017,buffalo,3.0
+106,11,Italy,Austria,2017,buffalo,1.0
+115,237,Cambodia,Viet Nam,2000,buffalo,85.0
+115,237,Cambodia,Viet Nam,2001,buffalo,36.0
+211,255,Switzerland,Belgium,2012,buffalo,2.0
+211,255,Switzerland,Belgium,2015,buffalo,4.0
+211,255,Switzerland,Belgium,2016,buffalo,11.0
+211,255,Switzerland,Belgium,2017,buffalo,2.0
+211,255,Switzerland,Belgium,2015,buffalo,1.0
+211,255,Switzerland,Belgium,2016,buffalo,7.13
+211,255,Switzerland,Belgium,2017,buffalo,0.5
+100,255,India,Belgium,2014,buffalo,5.0
+20,231,Botswana,United States of America,2015,buffalo,1.0
+20,231,Botswana,United States of America,2016,buffalo,4.0
+20,231,Botswana,United States of America,2015,buffalo,0.01
+20,231,Botswana,United States of America,2016,buffalo,0.03
+256,68,Luxembourg,France,2012,buffalo,40.0
+147,202,Namibia,South Africa,2013,buffalo,20.0
+147,202,Namibia,South Africa,2014,buffalo,273.0
+147,202,Namibia,South Africa,2014,buffalo,18.01
+20,251,Botswana,Zambia,2014,buffalo,17.0
+20,251,Botswana,Zambia,2015,buffalo,2.0
+20,251,Botswana,Zambia,2016,buffalo,2.0
+20,251,Botswana,Zambia,2015,buffalo,0.05
+20,251,Botswana,Zambia,2016,buffalo,0.02
+20,181,Botswana,Zimbabwe,2015,buffalo,1.0
+20,181,Botswana,Zimbabwe,2017,buffalo,6.0
+20,181,Botswana,Zimbabwe,2015,buffalo,0.01
+20,181,Botswana,Zimbabwe,2017,buffalo,24.0
+226,184,Uganda,Rwanda,2013,buffalo,6.0
+183,98,Romania,Croatia,2015,buffalo,345.0
+183,98,Romania,Croatia,2015,buffalo,59.5
+216,115,Thailand,Cambodia,2012,buffalo,120.0
+216,115,Thailand,Cambodia,2019,buffalo,51.0
+216,115,Thailand,Cambodia,2020,buffalo,23.0
+216,115,Thailand,Cambodia,2020,buffalo,6.4
+48,89,Costa Rica,Guatemala,2012,buffalo,1.0
+100,21,India,Brazil,2016,buffalo,1.0
+131,96,Malaysia,"China, Hong Kong SAR",2017,buffalo,381.0
+183,167,Romania,Czechia,2018,buffalo,5.0
+183,167,Romania,Czechia,2019,buffalo,5.0
+183,167,Romania,Czechia,2020,buffalo,1.0
+183,167,Romania,Czechia,2018,buffalo,3.75
+183,167,Romania,Czechia,2019,buffalo,3.3
+79,52,Germany,Azerbaijan,2020,buffalo,5.0
+79,52,Germany,Azerbaijan,2021,buffalo,7.0
+79,52,Germany,Azerbaijan,2020,buffalo,2.25
+79,52,Germany,Azerbaijan,2021,buffalo,1.4
+147,251,Namibia,Zambia,2020,buffalo,15.0
+147,251,Namibia,Zambia,2021,buffalo,40.0
+256,79,Luxembourg,Germany,2012,buffalo,11.0
+211,27,Switzerland,Bulgaria,2018,buffalo,17.0
+211,27,Switzerland,Bulgaria,2018,buffalo,1.2
+100,33,India,Canada,2013,buffalo,6.0
+100,33,India,Canada,2014,buffalo,7.0
+100,33,India,Canada,2015,buffalo,12.0
+100,33,India,Canada,2016,buffalo,7.0
+165,102,Pakistan,Iran (Islamic Republic of),2001,buffalo,6903.0
+165,102,Pakistan,Iran (Islamic Republic of),2002,buffalo,13243.0
+221,171,Oman,Philippines,2016,buffalo,0.01
+108,185,Kazakhstan,Russian Federation,2014,buffalo,57.0
+108,185,Kazakhstan,Russian Federation,2019,buffalo,134.0
+108,185,Kazakhstan,Russian Federation,2014,buffalo,18.0
+108,185,Kazakhstan,Russian Federation,2019,buffalo,42.55
+131,41,Malaysia,"China, mainland",2017,buffalo,60.0
+21,96,Brazil,"China, Hong Kong SAR",2020,buffalo,0.07
+21,96,Brazil,"China, Hong Kong SAR",2022,buffalo,0.01
+100,96,India,"China, Hong Kong SAR",2014,buffalo,2.0
+100,96,India,"China, Hong Kong SAR",2015,buffalo,1.0
+100,96,India,"China, Hong Kong SAR",2016,buffalo,13.0
+59,118,Egypt,Kuwait,2005,buffalo,7.0
+231,255,United States of America,Belgium,2017,buffalo,18.0
+231,255,United States of America,Belgium,2019,buffalo,3.0
+231,255,United States of America,Belgium,2022,buffalo,7.0
+231,255,United States of America,Belgium,2023,buffalo,191.0
+150,255,Netherlands (Kingdom of the),Belgium,2012,buffalo,519.0
+150,255,Netherlands (Kingdom of the),Belgium,2013,buffalo,100.0
+150,255,Netherlands (Kingdom of the),Belgium,2015,buffalo,12.0
+150,255,Netherlands (Kingdom of the),Belgium,2019,buffalo,4.0
+150,255,Netherlands (Kingdom of the),Belgium,2022,buffalo,7.0
+150,255,Netherlands (Kingdom of the),Belgium,2015,buffalo,1692.8
+150,255,Netherlands (Kingdom of the),Belgium,2019,buffalo,1.96
+150,255,Netherlands (Kingdom of the),Belgium,2022,buffalo,0.44
+179,194,Qatar,Saudi Arabia,2015,buffalo,147.0
+179,194,Qatar,Saudi Arabia,2015,buffalo,57.3
+211,96,Switzerland,"China, Hong Kong SAR",2017,buffalo,1.0
+211,96,Switzerland,"China, Hong Kong SAR",2017,buffalo,0.48
+100,41,India,"China, mainland",2015,buffalo,6.0
+100,41,India,"China, mainland",2016,buffalo,1.0
+272,273,Serbia,Montenegro,2013,buffalo,355.0
+272,273,Serbia,Montenegro,2014,buffalo,34.0
+272,273,Serbia,Montenegro,2015,buffalo,9.0
+272,273,Serbia,Montenegro,2016,buffalo,1.0
+272,273,Serbia,Montenegro,2014,buffalo,26.57
+272,273,Serbia,Montenegro,2015,buffalo,15.05
+272,273,Serbia,Montenegro,2016,buffalo,0.75
+27,84,Bulgaria,Greece,2012,buffalo,2.0
+104,79,Ireland,Germany,2021,buffalo,150.0
+104,79,Ireland,Germany,2021,buffalo,51.0
+216,41,Thailand,"China, mainland",2012,buffalo,700.0
+216,41,Thailand,"China, mainland",2014,buffalo,130.0
+256,106,Luxembourg,Italy,2012,buffalo,5.0
+98,97,Croatia,Hungary,2017,buffalo,29.0
+98,97,Croatia,Hungary,2017,buffalo,19.43
+131,214,Malaysia,"China, Taiwan Province of",2017,buffalo,63.0
+199,97,Slovakia,Hungary,2017,buffalo,11.0
+199,97,Slovakia,Hungary,2017,buffalo,3.49
+48,157,Costa Rica,Nicaragua,2020,buffalo,11.14
+183,79,Romania,Germany,2021,buffalo,85.0
+183,79,Romania,Germany,2022,buffalo,8.0
+183,79,Romania,Germany,2021,buffalo,31.35
+183,79,Romania,Germany,2022,buffalo,4.08
+231,23,United States of America,Belize,2021,buffalo,6.0
+231,23,United States of America,Belize,2022,buffalo,7.0
+118,194,Kuwait,Saudi Arabia,2015,buffalo,97.0
+118,194,Kuwait,Saudi Arabia,2017,buffalo,45.0
+118,194,Kuwait,Saudi Arabia,2018,buffalo,14.0
+118,194,Kuwait,Saudi Arabia,2015,buffalo,4.95
+118,194,Kuwait,Saudi Arabia,2017,buffalo,2.25
+118,194,Kuwait,Saudi Arabia,2018,buffalo,6.2
+57,208,Belarus,Tajikistan,2018,buffalo,10.0
+57,208,Belarus,Tajikistan,2018,buffalo,3.8
+256,150,Luxembourg,Netherlands (Kingdom of the),2012,buffalo,103.0
+131,98,Malaysia,Croatia,2017,buffalo,4.0
+48,166,Costa Rica,Panama,2012,buffalo,8.0
+48,166,Costa Rica,Panama,2016,buffalo,7.5
+48,166,Costa Rica,Panama,2018,buffalo,6.34
+100,49,India,Cuba,2015,buffalo,1.0
+104,97,Ireland,Hungary,2012,buffalo,283.0
+98,106,Croatia,Italy,2018,buffalo,37.0
+98,106,Croatia,Italy,2020,buffalo,28.0
+98,106,Croatia,Italy,2021,buffalo,46.0
+98,106,Croatia,Italy,2022,buffalo,38.0
+98,106,Croatia,Italy,2018,buffalo,29.93
+98,106,Croatia,Italy,2020,buffalo,20.15
+98,106,Croatia,Italy,2021,buffalo,27.48
+98,106,Croatia,Italy,2022,buffalo,18.73
+21,250,Brazil,Democratic Republic of the Congo,2013,buffalo,405.0
+231,21,United States of America,Brazil,2018,buffalo,4.0
+231,21,United States of America,Brazil,2020,buffalo,9.0
+231,21,United States of America,Brazil,2022,buffalo,34.0
+231,21,United States of America,Brazil,2023,buffalo,1.0
+179,225,Qatar,United Arab Emirates,2015,buffalo,82.0
+179,225,Qatar,United Arab Emirates,2015,buffalo,32.04
+100,54,India,Denmark,2016,buffalo,1.0
+179,229,Qatar,United Kingdom of Great Britain and Northern Ireland,2015,buffalo,0.06
+131,67,Malaysia,Finland,2017,buffalo,15.0
+131,68,Malaysia,France,2017,buffalo,34.0
+183,97,Romania,Hungary,2013,buffalo,3.0
+183,97,Romania,Hungary,2014,buffalo,23.0
+183,97,Romania,Hungary,2015,buffalo,1196.0
+183,97,Romania,Hungary,2016,buffalo,1.0
+183,97,Romania,Hungary,2017,buffalo,9.0
+183,97,Romania,Hungary,2018,buffalo,4.0
+183,97,Romania,Hungary,2014,buffalo,6.9
+183,97,Romania,Hungary,2015,buffalo,56.2
+183,97,Romania,Hungary,2016,buffalo,0.62
+183,97,Romania,Hungary,2017,buffalo,0.47
+183,97,Romania,Hungary,2018,buffalo,1.33
+97,79,Hungary,Germany,2012,buffalo,562.0
+97,79,Hungary,Germany,2013,buffalo,239.0
+59,194,Egypt,Saudi Arabia,1990,buffalo,14.0
+59,194,Egypt,Saudi Arabia,2005,buffalo,230.0
+118,225,Kuwait,United Arab Emirates,2015,buffalo,100.0
+118,225,Kuwait,United Arab Emirates,2015,buffalo,2.0
+131,79,Malaysia,Germany,2017,buffalo,33.0
+98,273,Croatia,Montenegro,2023,buffalo,8.0
+98,273,Croatia,Montenegro,2023,buffalo,5.8
+100,68,India,France,2013,buffalo,4.0
+100,68,India,France,2014,buffalo,1.0
+100,68,India,France,2015,buffalo,2.0
+100,68,India,France,2016,buffalo,1.0
+131,81,Malaysia,Ghana,2017,buffalo,8.0
+165,38,Pakistan,Sri Lanka,1992,buffalo,90.0
+131,84,Malaysia,Greece,2017,buffalo,3.0
+231,33,United States of America,Canada,2012,buffalo,300.0
+231,33,United States of America,Canada,2013,buffalo,106.0
+231,33,United States of America,Canada,2016,buffalo,27.0
+231,33,United States of America,Canada,2017,buffalo,24.0
+231,33,United States of America,Canada,2018,buffalo,12.0
+231,33,United States of America,Canada,2019,buffalo,2.0
+231,33,United States of America,Canada,2021,buffalo,9.0
+131,97,Malaysia,Hungary,2017,buffalo,3.0
+131,100,Malaysia,India,2017,buffalo,65.0
+97,84,Hungary,Greece,2013,buffalo,166.0
+199,173,Slovakia,Poland,2012,buffalo,1.0
+100,79,India,Germany,2013,buffalo,2.0
+100,79,India,Germany,2014,buffalo,1.0
+100,79,India,Germany,2015,buffalo,2.0
+100,79,India,Germany,2016,buffalo,5.0
+185,108,Russian Federation,Kazakhstan,2013,buffalo,30.0
+185,108,Russian Federation,Kazakhstan,2014,buffalo,374.0
+185,108,Russian Federation,Kazakhstan,2015,buffalo,770.0
+185,108,Russian Federation,Kazakhstan,2016,buffalo,604.0
+185,108,Russian Federation,Kazakhstan,2017,buffalo,324.0
+185,108,Russian Federation,Kazakhstan,2018,buffalo,1568.0
+185,108,Russian Federation,Kazakhstan,2019,buffalo,1423.0
+185,108,Russian Federation,Kazakhstan,2020,buffalo,747.0
+185,108,Russian Federation,Kazakhstan,2021,buffalo,754.0
+185,108,Russian Federation,Kazakhstan,2014,buffalo,178.06
+185,108,Russian Federation,Kazakhstan,2015,buffalo,299.34
+185,108,Russian Federation,Kazakhstan,2016,buffalo,274.93
+185,108,Russian Federation,Kazakhstan,2017,buffalo,79.15
+185,108,Russian Federation,Kazakhstan,2018,buffalo,611.33
+185,108,Russian Federation,Kazakhstan,2019,buffalo,608.93
+185,108,Russian Federation,Kazakhstan,2020,buffalo,319.68
+185,108,Russian Federation,Kazakhstan,2021,buffalo,322.85
+183,106,Romania,Italy,2016,buffalo,9.0
+183,106,Romania,Italy,2016,buffalo,5.85
+165,225,Pakistan,United Arab Emirates,1990,buffalo,130.0
+165,225,Pakistan,United Arab Emirates,1992,buffalo,75.0
+165,225,Pakistan,United Arab Emirates,1994,buffalo,90.0
+165,225,Pakistan,United Arab Emirates,2000,buffalo,1412.0
+165,225,Pakistan,United Arab Emirates,2003,buffalo,243.0
+131,101,Malaysia,Indonesia,1991,buffalo,3.0
+131,101,Malaysia,Indonesia,2017,buffalo,1.0
+211,68,Switzerland,France,2016,buffalo,9.0
+211,68,Switzerland,France,2021,buffalo,433.0
+211,68,Switzerland,France,2022,buffalo,413.0
+211,68,Switzerland,France,2023,buffalo,748.0
+211,68,Switzerland,France,2016,buffalo,4.95
+211,68,Switzerland,France,2021,buffalo,5.0
+211,68,Switzerland,France,2022,buffalo,9.27
+211,68,Switzerland,France,2023,buffalo,7.0
+104,150,Ireland,Netherlands (Kingdom of the),2013,buffalo,100.0
+10,101,Australia,Indonesia,2015,buffalo,4.0
+10,101,Australia,Indonesia,2016,buffalo,12952.0
+10,101,Australia,Indonesia,2017,buffalo,4594.0
+10,101,Australia,Indonesia,2018,buffalo,3724.0
+10,101,Australia,Indonesia,2019,buffalo,3227.0
+10,101,Australia,Indonesia,2021,buffalo,1003.0
+10,101,Australia,Indonesia,2022,buffalo,4782.0
+10,101,Australia,Indonesia,2023,buffalo,2278.0
+10,101,Australia,Indonesia,2015,buffalo,2.0
+10,101,Australia,Indonesia,2016,buffalo,4533.2
+100,81,India,Ghana,2014,buffalo,2.0
+185,113,Russian Federation,Kyrgyzstan,2021,buffalo,82.0
+185,113,Russian Federation,Kyrgyzstan,2021,buffalo,35.1
+199,183,Slovakia,Romania,2022,buffalo,5.0
+199,183,Slovakia,Romania,2023,buffalo,6.0
+199,183,Slovakia,Romania,2022,buffalo,2.25
+199,183,Slovakia,Romania,2023,buffalo,2.4
+97,106,Hungary,Italy,2020,buffalo,84.0
+97,106,Hungary,Italy,2021,buffalo,566.0
+97,106,Hungary,Italy,2020,buffalo,30.42
+97,106,Hungary,Italy,2021,buffalo,204.99
+100,89,India,Guatemala,2016,buffalo,1.0
+100,97,India,Hungary,2015,buffalo,1.0
+231,40,United States of America,Chile,2016,buffalo,4.0
+131,103,Malaysia,Iraq,2017,buffalo,6.0
+100,101,India,Indonesia,2014,buffalo,1.0
+100,101,India,Indonesia,2015,buffalo,1.0
+100,101,India,Indonesia,2016,buffalo,2.0
+131,106,Malaysia,Italy,2017,buffalo,30.0
+131,110,Malaysia,Japan,2017,buffalo,3.0
+100,103,India,Iraq,2015,buffalo,1.0
+100,104,India,Ireland,2016,buffalo,1.0
+211,79,Switzerland,Germany,2014,buffalo,1.0
+211,79,Switzerland,Germany,2016,buffalo,18.0
+211,79,Switzerland,Germany,2017,buffalo,7.0
+211,79,Switzerland,Germany,2020,buffalo,18.0
+211,79,Switzerland,Germany,2021,buffalo,1.0
+211,79,Switzerland,Germany,2022,buffalo,1.0
+211,79,Switzerland,Germany,2023,buffalo,3.0
+211,79,Switzerland,Germany,2014,buffalo,0.5
+211,79,Switzerland,Germany,2016,buffalo,2.35
+211,79,Switzerland,Germany,2017,buffalo,0.53
+211,79,Switzerland,Germany,2020,buffalo,0.4
+211,79,Switzerland,Germany,2021,buffalo,0.53
+211,79,Switzerland,Germany,2022,buffalo,0.98
+211,79,Switzerland,Germany,2023,buffalo,0.33
+231,96,United States of America,"China, Hong Kong SAR",2016,buffalo,108.0
+231,96,United States of America,"China, Hong Kong SAR",2019,buffalo,1.0
+231,96,United States of America,"China, Hong Kong SAR",2022,buffalo,39.0
+119,223,Latvia,Türkiye,2012,buffalo,68.0
+10,110,Australia,Japan,2015,buffalo,4.0
+10,110,Australia,Japan,2018,buffalo,10.0
+10,110,Australia,Japan,2019,buffalo,521.0
+10,110,Australia,Japan,2015,buffalo,1.5
+183,150,Romania,Netherlands (Kingdom of the),2022,buffalo,21.0
+183,150,Romania,Netherlands (Kingdom of the),2022,buffalo,4.59
+100,106,India,Italy,2015,buffalo,1.0
+131,108,Malaysia,Kazakhstan,2017,buffalo,7.0
+131,119,Malaysia,Latvia,2017,buffalo,50.0
+27,272,Bulgaria,Serbia,2012,buffalo,83.0
+104,183,Ireland,Romania,2021,buffalo,55.0
+104,183,Ireland,Romania,2021,buffalo,11.0
+100,110,India,Japan,2012,buffalo,100.0
+100,110,India,Japan,2014,buffalo,1.0
+100,110,India,Japan,2015,buffalo,2.0
+100,110,India,Japan,2016,buffalo,2.0
+21,121,Brazil,Lebanon,2012,buffalo,2002.0
+21,121,Brazil,Lebanon,2013,buffalo,790.0
+21,121,Brazil,Lebanon,2014,buffalo,854.0
+21,121,Brazil,Lebanon,2019,buffalo,12.0
+21,121,Brazil,Lebanon,2014,buffalo,303.24
+21,121,Brazil,Lebanon,2019,buffalo,5.5
+131,126,Malaysia,Lithuania,2017,buffalo,8.0
+131,256,Malaysia,Luxembourg,2017,buffalo,2.0
+255,79,Belgium,Germany,2012,buffalo,1.0
+231,41,United States of America,"China, mainland",2016,buffalo,6.0
+231,41,United States of America,"China, mainland",2017,buffalo,13.0
+231,41,United States of America,"China, mainland",2019,buffalo,23.0
+100,112,India,Jordan,2015,buffalo,2.0
+100,114,India,Kenya,2013,buffalo,1.0
+100,114,India,Kenya,2016,buffalo,2.0
+21,134,Brazil,Malta,2020,buffalo,0.01
+21,134,Brazil,Malta,2021,buffalo,0.01
+104,203,Ireland,Spain,2015,buffalo,16.0
+104,203,Ireland,Spain,2016,buffalo,36.0
+104,203,Ireland,Spain,2015,buffalo,6.3
+21,127,Brazil,Marshall Islands,2020,buffalo,0.02
+21,127,Brazil,Marshall Islands,2022,buffalo,0.01
+10,131,Australia,Malaysia,2015,buffalo,2400.0
+10,131,Australia,Malaysia,2016,buffalo,6242.0
+10,131,Australia,Malaysia,2017,buffalo,239.0
+10,131,Australia,Malaysia,2018,buffalo,150.0
+10,131,Australia,Malaysia,2019,buffalo,657.0
+10,131,Australia,Malaysia,2015,buffalo,840.0
+10,131,Australia,Malaysia,2016,buffalo,2244.3
+183,146,Romania,Republic of Moldova,2019,buffalo,197.0
+183,146,Romania,Republic of Moldova,2019,buffalo,77.4
+216,110,Thailand,Japan,2014,buffalo,1.0
+231,214,United States of America,"China, Taiwan Province of",2017,buffalo,4.0
+231,214,United States of America,"China, Taiwan Province of",2019,buffalo,96.0
+231,214,United States of America,"China, Taiwan Province of",2020,buffalo,341.0
+131,150,Malaysia,Netherlands (Kingdom of the),2017,buffalo,17.0
+183,272,Romania,Serbia,2012,buffalo,29.0
+202,122,South Africa,Lesotho,2013,buffalo,39.0
+100,131,India,Malaysia,2013,buffalo,2.0
+100,131,India,Malaysia,2014,buffalo,1.0
+100,131,India,Malaysia,2015,buffalo,4.0
+100,131,India,Malaysia,2016,buffalo,3.0
+216,114,Thailand,Kenya,1993,buffalo,4.0
+97,179,Hungary,Qatar,2021,buffalo,245.0
+97,179,Hungary,Qatar,2021,buffalo,107.72
+231,44,United States of America,Colombia,2017,buffalo,39.0
+131,154,Malaysia,North Macedonia,2017,buffalo,57.0
+131,162,Malaysia,Norway,2017,buffalo,2.0
+21,162,Brazil,Norway,2022,buffalo,0.03
+216,120,Thailand,Lao People's Democratic Republic,2006,buffalo,404.0
+216,120,Thailand,Lao People's Democratic Republic,2012,buffalo,18129.0
+216,120,Thailand,Lao People's Democratic Republic,2013,buffalo,21578.0
+216,120,Thailand,Lao People's Democratic Republic,2014,buffalo,70902.0
+216,120,Thailand,Lao People's Democratic Republic,2015,buffalo,43065.0
+216,120,Thailand,Lao People's Democratic Republic,2016,buffalo,122130.0
+216,120,Thailand,Lao People's Democratic Republic,2017,buffalo,60571.0
+216,120,Thailand,Lao People's Democratic Republic,2018,buffalo,76809.0
+216,120,Thailand,Lao People's Democratic Republic,2019,buffalo,81637.0
+216,120,Thailand,Lao People's Democratic Republic,2020,buffalo,49423.0
+216,120,Thailand,Lao People's Democratic Republic,2021,buffalo,45372.0
+216,120,Thailand,Lao People's Democratic Republic,2022,buffalo,2747.0
+216,120,Thailand,Lao People's Democratic Republic,2023,buffalo,29412.0
+216,120,Thailand,Lao People's Democratic Republic,2018,buffalo,20184.13
+216,120,Thailand,Lao People's Democratic Republic,2020,buffalo,13566.15
+216,120,Thailand,Lao People's Democratic Republic,2022,buffalo,3.25
+216,120,Thailand,Lao People's Democratic Republic,2023,buffalo,8073.27
+21,166,Brazil,Panama,2020,buffalo,0.02
+21,166,Brazil,Panama,2023,buffalo,0.04
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2012,buffalo,187.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2013,buffalo,10.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,1.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2019,buffalo,4.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,0.16
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2019,buffalo,0.48
+200,131,Singapore,Malaysia,2019,buffalo,5600.0
+21,169,Brazil,Paraguay,1996,buffalo,20.0
+131,171,Malaysia,Philippines,2017,buffalo,31.0
+100,137,India,Mauritius,2016,buffalo,1.0
+100,138,India,Mexico,2016,buffalo,1.0
+97,185,Hungary,Russian Federation,2022,buffalo,74.0
+97,185,Hungary,Russian Federation,2023,buffalo,32.0
+97,185,Hungary,Russian Federation,2022,buffalo,33.2
+97,185,Hungary,Russian Federation,2023,buffalo,8.0
+255,101,Belgium,Indonesia,2016,buffalo,4.0
+255,101,Belgium,Indonesia,2016,buffalo,2.4
+216,131,Thailand,Malaysia,1987,buffalo,426.0
+216,131,Thailand,Malaysia,1988,buffalo,456.0
+216,131,Thailand,Malaysia,1989,buffalo,338.0
+216,131,Thailand,Malaysia,1990,buffalo,300.0
+216,131,Thailand,Malaysia,1991,buffalo,63.0
+216,131,Thailand,Malaysia,1992,buffalo,702.0
+216,131,Thailand,Malaysia,1993,buffalo,2684.0
+216,131,Thailand,Malaysia,1994,buffalo,3148.0
+216,131,Thailand,Malaysia,1995,buffalo,3883.0
+216,131,Thailand,Malaysia,1996,buffalo,4456.0
+216,131,Thailand,Malaysia,1997,buffalo,3898.0
+216,131,Thailand,Malaysia,1998,buffalo,418.0
+216,131,Thailand,Malaysia,1999,buffalo,337.0
+216,131,Thailand,Malaysia,2000,buffalo,347.0
+216,131,Thailand,Malaysia,2001,buffalo,632.0
+216,131,Thailand,Malaysia,2002,buffalo,323.0
+216,131,Thailand,Malaysia,2003,buffalo,335.0
+216,131,Thailand,Malaysia,2012,buffalo,4210.0
+216,131,Thailand,Malaysia,2013,buffalo,1829.0
+216,131,Thailand,Malaysia,2014,buffalo,1116.0
+216,131,Thailand,Malaysia,2015,buffalo,553.0
+216,131,Thailand,Malaysia,2016,buffalo,372.0
+216,131,Thailand,Malaysia,2017,buffalo,1320.0
+216,131,Thailand,Malaysia,2018,buffalo,494.0
+216,131,Thailand,Malaysia,2019,buffalo,48.0
+216,131,Thailand,Malaysia,2020,buffalo,60.0
+216,131,Thailand,Malaysia,2022,buffalo,99.0
+216,131,Thailand,Malaysia,2023,buffalo,59.0
+216,131,Thailand,Malaysia,2018,buffalo,144.1
+216,131,Thailand,Malaysia,2020,buffalo,16.5
+216,131,Thailand,Malaysia,2022,buffalo,0.12
+216,131,Thailand,Malaysia,2023,buffalo,16.25
+131,173,Malaysia,Poland,2017,buffalo,19.0
+21,170,Brazil,Peru,1990,buffalo,420.0
+21,170,Brazil,Peru,1992,buffalo,312.0
+131,174,Malaysia,Portugal,2017,buffalo,1.0
+131,117,Malaysia,Republic of Korea,2017,buffalo,29.0
+100,28,India,Myanmar,2015,buffalo,1.0
+162,229,Norway,United Kingdom of Great Britain and Northern Ireland,2015,buffalo,2.0
+162,229,Norway,United Kingdom of Great Britain and Northern Ireland,2015,buffalo,1.8
+231,107,United States of America,Côte d'Ivoire,2016,buffalo,10.0
+10,156,Australia,New Zealand,2012,buffalo,5.0
+10,156,Australia,New Zealand,2013,buffalo,1.0
+100,149,India,Nepal,2014,buffalo,41.0
+100,149,India,Nepal,2016,buffalo,175.0
+100,149,India,Nepal,2017,buffalo,149.0
+131,183,Malaysia,Romania,2017,buffalo,7.0
+41,120,"China, mainland",Lao People's Democratic Republic,2015,buffalo,9.0
+41,120,"China, mainland",Lao People's Democratic Republic,2015,buffalo,2.4
+131,185,Malaysia,Russian Federation,2017,buffalo,162.0
+97,199,Hungary,Slovakia,2013,buffalo,93.0
+97,199,Hungary,Slovakia,2014,buffalo,62.0
+97,199,Hungary,Slovakia,2014,buffalo,22.5
+202,144,South Africa,Mozambique,2012,buffalo,120.0
+202,144,South Africa,Mozambique,2013,buffalo,744.0
+216,138,Thailand,Mexico,1993,buffalo,40.0
+100,150,India,Netherlands (Kingdom of the),2015,buffalo,1.0
+100,150,India,Netherlands (Kingdom of the),2016,buffalo,1.0
+131,200,Malaysia,Singapore,1987,buffalo,1.0
+131,200,Malaysia,Singapore,1992,buffalo,1.0
+131,200,Malaysia,Singapore,2017,buffalo,44.0
+216,28,Thailand,Myanmar,2012,buffalo,55.0
+216,28,Thailand,Myanmar,2020,buffalo,9918.0
+216,28,Thailand,Myanmar,2021,buffalo,503.0
+216,28,Thailand,Myanmar,2022,buffalo,55.0
+216,28,Thailand,Myanmar,2023,buffalo,741.0
+216,28,Thailand,Myanmar,2020,buffalo,2722.45
+216,28,Thailand,Myanmar,2022,buffalo,0.06
+216,28,Thailand,Myanmar,2023,buffalo,203.4
+21,195,Brazil,Senegal,2016,buffalo,39.0
+21,195,Brazil,Senegal,2016,buffalo,15.6
+21,200,Brazil,Singapore,2020,buffalo,0.02
+21,200,Brazil,Singapore,2022,buffalo,0.02
+106,68,Italy,France,2014,buffalo,80.0
+106,68,Italy,France,2014,buffalo,20.1
+231,56,United States of America,Dominican Republic,2021,buffalo,158.0
+231,56,United States of America,Dominican Republic,2023,buffalo,19.0
+100,159,India,Nigeria,2016,buffalo,1.0
+54,150,Denmark,Netherlands (Kingdom of the),2013,buffalo,48.0
+100,162,India,Norway,2014,buffalo,1.0
+131,198,Malaysia,Slovenia,2017,buffalo,1.0
+131,202,Malaysia,South Africa,2017,buffalo,24.0
+100,221,India,Oman,2013,buffalo,32.0
+100,221,India,Oman,2015,buffalo,1.0
+100,221,India,Oman,2016,buffalo,1.0
+131,203,Malaysia,Spain,2017,buffalo,27.0
+10,171,Australia,Philippines,2018,buffalo,2300.0
+131,210,Malaysia,Sweden,2017,buffalo,9.0
+211,150,Switzerland,Netherlands (Kingdom of the),2023,buffalo,89.0
+211,150,Switzerland,Netherlands (Kingdom of the),2023,buffalo,2.63
+100,171,India,Philippines,2014,buffalo,2.0
+100,171,India,Philippines,2015,buffalo,2.0
+100,171,India,Philippines,2016,buffalo,1.0
+97,208,Hungary,Tajikistan,2022,buffalo,63.0
+97,208,Hungary,Tajikistan,2023,buffalo,17.0
+97,208,Hungary,Tajikistan,2022,buffalo,21.0
+97,208,Hungary,Tajikistan,2023,buffalo,8.0
+131,216,Malaysia,Thailand,2017,buffalo,34.0
+216,221,Thailand,Oman,2015,buffalo,10.0
+100,174,India,Portugal,2013,buffalo,2.0
+231,60,United States of America,El Salvador,2016,buffalo,3.0
+106,73,Italy,Georgia,2019,buffalo,32.0
+106,73,Italy,Georgia,2019,buffalo,12.9
+100,179,India,Qatar,2013,buffalo,2.0
+100,179,India,Qatar,2014,buffalo,3.0
+100,179,India,Qatar,2016,buffalo,3.0
+97,230,Hungary,Ukraine,2023,buffalo,32.0
+97,230,Hungary,Ukraine,2023,buffalo,14.9
+106,79,Italy,Germany,2013,buffalo,1.0
+100,117,India,Republic of Korea,2016,buffalo,2.0
+173,185,Poland,Russian Federation,2020,buffalo,28.0
+173,185,Poland,Russian Federation,2020,buffalo,11.99
+131,223,Malaysia,Türkiye,2007,buffalo,29.0
+100,185,India,Russian Federation,2013,buffalo,4.0
+100,185,India,Russian Federation,2014,buffalo,1.0
+100,185,India,Russian Federation,2016,buffalo,23.0
+131,230,Malaysia,Ukraine,2017,buffalo,1.0
+131,225,Malaysia,United Arab Emirates,2017,buffalo,32.0
+100,194,India,Saudi Arabia,2016,buffalo,1.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,17.0
+156,237,New Zealand,Viet Nam,2017,buffalo,5.0
+150,67,Netherlands (Kingdom of the),Finland,2022,buffalo,2.0
+150,67,Netherlands (Kingdom of the),Finland,2022,buffalo,0.54
+211,173,Switzerland,Poland,2012,buffalo,3.0
+21,234,Brazil,Uruguay,1987,buffalo,15.0
+131,231,Malaysia,United States of America,2017,buffalo,510.0
+100,200,India,Singapore,2013,buffalo,1.0
+100,200,India,Singapore,2014,buffalo,9.0
+100,200,India,Singapore,2015,buffalo,5.0
+100,200,India,Singapore,2016,buffalo,2.0
+106,84,Italy,Greece,2016,buffalo,5.0
+106,84,Italy,Greece,2016,buffalo,3.0
+216,195,Thailand,Senegal,1987,buffalo,20.0
+216,200,Thailand,Singapore,2012,buffalo,3.0
+216,200,Thailand,Singapore,2013,buffalo,1.0
+216,200,Thailand,Singapore,2014,buffalo,2.0
+21,236,Brazil,Venezuela (Bolivarian Republic of),2012,buffalo,4427.0
+21,236,Brazil,Venezuela (Bolivarian Republic of),2013,buffalo,2000.0
+21,236,Brazil,Venezuela (Bolivarian Republic of),2014,buffalo,1523.0
+21,236,Brazil,Venezuela (Bolivarian Republic of),2014,buffalo,619.92
+100,202,India,South Africa,2015,buffalo,4.0
+100,202,India,South Africa,2016,buffalo,5.0
+255,150,Belgium,Netherlands (Kingdom of the),2012,buffalo,8655.0
+255,150,Belgium,Netherlands (Kingdom of the),2013,buffalo,10430.0
+255,150,Belgium,Netherlands (Kingdom of the),2014,buffalo,9536.0
+255,150,Belgium,Netherlands (Kingdom of the),2019,buffalo,777.0
+255,150,Belgium,Netherlands (Kingdom of the),2020,buffalo,2088.0
+255,150,Belgium,Netherlands (Kingdom of the),2019,buffalo,0.78
+255,150,Belgium,Netherlands (Kingdom of the),2020,buffalo,2.09
+203,106,Spain,Italy,2013,buffalo,360.0
+203,106,Spain,Italy,2014,buffalo,360.0
+203,106,Spain,Italy,2014,buffalo,46.4
+131,237,Malaysia,Viet Nam,2017,buffalo,5.0
+231,79,United States of America,Germany,2017,buffalo,15.0
+211,183,Switzerland,Romania,2023,buffalo,2.0
+211,183,Switzerland,Romania,2023,buffalo,0.82
+100,203,India,Spain,2013,buffalo,3.0
+100,203,India,Spain,2015,buffalo,1.0
+100,203,India,Spain,2016,buffalo,1.0
+100,38,India,Sri Lanka,2013,buffalo,4.0
+100,38,India,Sri Lanka,2014,buffalo,1.0
+106,97,Italy,Hungary,2016,buffalo,58.0
+106,97,Italy,Hungary,2018,buffalo,1.0
+106,97,Italy,Hungary,2022,buffalo,99.0
+106,97,Italy,Hungary,2016,buffalo,32.7
+106,97,Italy,Hungary,2018,buffalo,0.6
+106,97,Italy,Hungary,2022,buffalo,24.69
+231,81,United States of America,Ghana,2020,buffalo,9.0
+231,81,United States of America,Ghana,2022,buffalo,8.0
+10,216,Australia,Thailand,2018,buffalo,40.0
+10,216,Australia,Thailand,2019,buffalo,40.0
+202,216,South Africa,Thailand,2013,buffalo,50.0
+231,84,United States of America,Greece,2017,buffalo,6.0
+100,210,India,Sweden,2014,buffalo,3.0
+100,210,India,Sweden,2015,buffalo,4.0
+100,211,India,Switzerland,2016,buffalo,5.0
+54,203,Denmark,Spain,2019,buffalo,2.0
+54,203,Denmark,Spain,2019,buffalo,1.5
+231,89,United States of America,Guatemala,2017,buffalo,4.0
+231,89,United States of America,Guatemala,2020,buffalo,30.0
+100,216,India,Thailand,2014,buffalo,1.0
+10,225,Australia,United Arab Emirates,2015,buffalo,11.0
+10,225,Australia,United Arab Emirates,2015,buffalo,5.78
+150,79,Netherlands (Kingdom of the),Germany,2022,buffalo,3.0
+150,79,Netherlands (Kingdom of the),Germany,2022,buffalo,0.02
+100,223,India,Türkiye,2013,buffalo,1.0
+216,225,Thailand,United Arab Emirates,2012,buffalo,2.0
+100,226,India,Uganda,2016,buffalo,1.0
+231,93,United States of America,Haiti,2020,buffalo,73.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2012,buffalo,1.0
+33,185,Canada,Russian Federation,2013,buffalo,2.0
+100,225,India,United Arab Emirates,2012,buffalo,10.0
+100,225,India,United Arab Emirates,2013,buffalo,6.0
+100,225,India,United Arab Emirates,2014,buffalo,20.0
+100,225,India,United Arab Emirates,2015,buffalo,58.0
+100,225,India,United Arab Emirates,2016,buffalo,13.0
+79,101,Germany,Indonesia,2014,buffalo,2.0
+79,101,Germany,Indonesia,2014,buffalo,0.8
+203,256,Spain,Luxembourg,2023,buffalo,30.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2013,buffalo,12.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2014,buffalo,32.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2015,buffalo,27.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2016,buffalo,14.0
+202,251,South Africa,Zambia,2012,buffalo,116.0
+202,251,South Africa,Zambia,2013,buffalo,91.0
+10,237,Australia,Viet Nam,2014,buffalo,3791.0
+10,237,Australia,Viet Nam,2015,buffalo,1271.0
+10,237,Australia,Viet Nam,2016,buffalo,2175.0
+10,237,Australia,Viet Nam,2017,buffalo,3840.0
+10,237,Australia,Viet Nam,2018,buffalo,5760.0
+10,237,Australia,Viet Nam,2019,buffalo,1797.0
+10,237,Australia,Viet Nam,2014,buffalo,1666.54
+10,237,Australia,Viet Nam,2015,buffalo,525.84
+10,237,Australia,Viet Nam,2016,buffalo,917.15
+100,215,India,United Republic of Tanzania,2013,buffalo,1.0
+216,237,Thailand,Viet Nam,2014,buffalo,23.0
+216,237,Thailand,Viet Nam,2015,buffalo,2.0
+216,237,Thailand,Viet Nam,2016,buffalo,61.0
+216,237,Thailand,Viet Nam,2018,buffalo,384.0
+216,237,Thailand,Viet Nam,2019,buffalo,574.0
+216,237,Thailand,Viet Nam,2020,buffalo,4086.0
+216,237,Thailand,Viet Nam,2021,buffalo,13621.0
+216,237,Thailand,Viet Nam,2022,buffalo,10133.0
+216,237,Thailand,Viet Nam,2023,buffalo,419.0
+216,237,Thailand,Viet Nam,2018,buffalo,101.23
+216,237,Thailand,Viet Nam,2020,buffalo,1121.45
+216,237,Thailand,Viet Nam,2022,buffalo,10.39
+216,237,Thailand,Viet Nam,2023,buffalo,114.9
+100,231,India,United States of America,2013,buffalo,17.0
+100,231,India,United States of America,2014,buffalo,26.0
+100,231,India,United States of America,2015,buffalo,44.0
+100,231,India,United States of America,2016,buffalo,46.0
+100,231,India,United States of America,2017,buffalo,3.0
+231,104,United States of America,Ireland,2021,buffalo,50.0
+100,251,India,Zambia,2016,buffalo,1.0
+231,106,United States of America,Italy,2020,buffalo,9.0
+231,110,United States of America,Japan,2014,buffalo,5.0
+231,110,United States of America,Japan,2017,buffalo,26.0
+231,110,United States of America,Japan,2018,buffalo,210.0
+106,150,Italy,Netherlands (Kingdom of the),2019,buffalo,240.0
+106,150,Italy,Netherlands (Kingdom of the),2022,buffalo,234.0
+106,150,Italy,Netherlands (Kingdom of the),2019,buffalo,115.46
+106,150,Italy,Netherlands (Kingdom of the),2022,buffalo,151.01
+33,231,Canada,United States of America,2012,buffalo,15520.0
+33,231,Canada,United States of America,2013,buffalo,18189.0
+33,231,Canada,United States of America,2014,buffalo,21627.0
+33,231,Canada,United States of America,2015,buffalo,28622.0
+33,231,Canada,United States of America,2016,buffalo,22992.0
+33,231,Canada,United States of America,2017,buffalo,21746.0
+33,231,Canada,United States of America,2018,buffalo,19101.0
+33,231,Canada,United States of America,2019,buffalo,21354.0
+33,231,Canada,United States of America,2020,buffalo,25733.0
+33,231,Canada,United States of America,2021,buffalo,28501.0
+33,231,Canada,United States of America,2022,buffalo,32790.0
+33,231,Canada,United States of America,2023,buffalo,40206.0
+231,126,United States of America,Lithuania,2021,buffalo,2.0
+231,131,United States of America,Malaysia,2019,buffalo,3.0
+106,171,Italy,Philippines,2013,buffalo,1309.0
+106,171,Italy,Philippines,2014,buffalo,1259.0
+106,171,Italy,Philippines,2014,buffalo,379.1
+231,138,United States of America,Mexico,2013,buffalo,71.0
+231,138,United States of America,Mexico,2014,buffalo,13.0
+231,138,United States of America,Mexico,2016,buffalo,132.0
+231,138,United States of America,Mexico,2017,buffalo,1082.0
+231,138,United States of America,Mexico,2018,buffalo,696.0
+231,138,United States of America,Mexico,2019,buffalo,550.0
+231,138,United States of America,Mexico,2020,buffalo,1162.0
+231,138,United States of America,Mexico,2021,buffalo,1541.0
+231,138,United States of America,Mexico,2022,buffalo,1150.0
+231,138,United States of America,Mexico,2023,buffalo,951.0
+106,173,Italy,Poland,2022,buffalo,49.0
+106,173,Italy,Poland,2022,buffalo,10.43
+106,146,Italy,Republic of Moldova,2022,buffalo,32.0
+106,146,Italy,Republic of Moldova,2022,buffalo,16.0
+231,156,United States of America,New Zealand,2017,buffalo,5.0
+231,159,United States of America,Nigeria,2017,buffalo,23.0
+231,159,United States of America,Nigeria,2022,buffalo,1.0
+231,165,United States of America,Pakistan,2019,buffalo,9.0
+106,199,Italy,Slovakia,2018,buffalo,88.0
+106,199,Italy,Slovakia,2018,buffalo,40.0
+231,166,United States of America,Panama,2017,buffalo,20.0
+231,166,United States of America,Panama,2021,buffalo,5.0
+231,170,United States of America,Peru,2012,buffalo,8.0
+231,171,United States of America,Philippines,2020,buffalo,5.0
+231,171,United States of America,Philippines,2022,buffalo,9.0
+106,203,Italy,Spain,2018,buffalo,30.0
+106,203,Italy,Spain,2019,buffalo,1.0
+106,203,Italy,Spain,2018,buffalo,7.5
+106,203,Italy,Spain,2019,buffalo,0.5
+231,173,United States of America,Poland,2020,buffalo,23.0
+231,117,United States of America,Republic of Korea,2017,buffalo,39.0
+231,117,United States of America,Republic of Korea,2022,buffalo,11.0
+231,185,United States of America,Russian Federation,2018,buffalo,12.0
+106,223,Italy,Türkiye,2014,buffalo,414.0
+106,223,Italy,Türkiye,2015,buffalo,323.0
+106,223,Italy,Türkiye,2014,buffalo,224.1
+106,223,Italy,Türkiye,2015,buffalo,174.8
+231,200,United States of America,Singapore,2016,buffalo,37.0
+231,200,United States of America,Singapore,2021,buffalo,147.0
+231,202,United States of America,South Africa,2013,buffalo,19.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2016,buffalo,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,10.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2018,buffalo,11.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2019,buffalo,11.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2020,buffalo,2.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2016,buffalo,0.18
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,2.18
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2018,buffalo,0.87
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2019,buffalo,2.29
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2020,buffalo,0.11
+150,185,Netherlands (Kingdom of the),Russian Federation,2021,buffalo,31.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2021,buffalo,11.23
+231,216,United States of America,Thailand,2015,buffalo,31.0
+231,223,United States of America,Türkiye,2017,buffalo,62.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2017,buffalo,35.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2018,buffalo,1.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2016,buffalo,15.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2017,buffalo,6.0
+231,237,United States of America,Viet Nam,2021,buffalo,89.0
+150,230,Netherlands (Kingdom of the),Ukraine,2019,buffalo,31.0
+150,230,Netherlands (Kingdom of the),Ukraine,2019,buffalo,15.18
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2013,buffalo,30.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2022,buffalo,40.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2023,buffalo,34.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2022,buffalo,15.94
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2023,buffalo,13.55
+150,237,Netherlands (Kingdom of the),Viet Nam,2016,buffalo,5.0
+150,237,Netherlands (Kingdom of the),Viet Nam,2016,buffalo,1.66

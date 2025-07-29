@@ -1,0 +1,554 @@
+o_code,d_code,o_name,d_name,year,item,weight
+165,2,Pakistan,Afghanistan,2012,bees,40.0
+165,2,Pakistan,Afghanistan,2013,bees,37.0
+165,2,Pakistan,Afghanistan,2014,bees,1286880.0
+165,2,Pakistan,Afghanistan,2015,bees,138067.0
+165,2,Pakistan,Afghanistan,2016,bees,1184862.0
+165,2,Pakistan,Afghanistan,2017,bees,235892.0
+165,2,Pakistan,Afghanistan,2018,bees,783553.0
+165,2,Pakistan,Afghanistan,2019,bees,1498543.0
+165,2,Pakistan,Afghanistan,2020,bees,864985.0
+165,2,Pakistan,Afghanistan,2021,bees,1809190.0
+165,2,Pakistan,Afghanistan,2022,bees,2045100.0
+165,2,Pakistan,Afghanistan,2023,bees,793280.0
+59,4,Egypt,Algeria,1990,bees,1.0
+73,1,Georgia,Armenia,2009,bees,6.0
+73,1,Georgia,Armenia,2014,bees,8.0
+235,52,Uzbekistan,Azerbaijan,2023,bees,1800.0
+166,23,Panama,Belize,1987,bees,1.0
+113,33,Kyrgyzstan,Canada,2017,bees,28.0
+185,1,Russian Federation,Armenia,2015,bees,1920.0
+185,1,Russian Federation,Armenia,2016,bees,5440.0
+185,1,Russian Federation,Armenia,2017,bees,1053.0
+185,1,Russian Federation,Armenia,2018,bees,932.0
+113,41,Kyrgyzstan,"China, mainland",2016,bees,1.0
+166,33,Panama,Canada,2005,bees,1.0
+118,13,Kuwait,Bahrain,2009,bees,15.0
+73,52,Georgia,Azerbaijan,2011,bees,4.0
+59,13,Egypt,Bahrain,1991,bees,1.0
+9,255,Argentina,Belgium,2014,bees,936.0
+149,79,Nepal,Germany,2018,bees,17.0
+113,79,Kyrgyzstan,Germany,2018,bees,1.0
+235,108,Uzbekistan,Kazakhstan,2017,bees,74682.0
+235,108,Uzbekistan,Kazakhstan,2018,bees,119133.0
+235,108,Uzbekistan,Kazakhstan,2019,bees,205679.0
+235,108,Uzbekistan,Kazakhstan,2020,bees,168009.0
+235,108,Uzbekistan,Kazakhstan,2022,bees,200065.0
+235,108,Uzbekistan,Kazakhstan,2023,bees,138354.0
+235,113,Uzbekistan,Kyrgyzstan,2017,bees,46658.0
+235,113,Uzbekistan,Kyrgyzstan,2018,bees,38034.0
+235,113,Uzbekistan,Kyrgyzstan,2019,bees,28180.0
+235,113,Uzbekistan,Kyrgyzstan,2020,bees,29770.0
+235,113,Uzbekistan,Kyrgyzstan,2022,bees,10558.0
+235,113,Uzbekistan,Kyrgyzstan,2023,bees,99486.0
+113,101,Kyrgyzstan,Indonesia,2018,bees,1.0
+113,102,Kyrgyzstan,Iran (Islamic Republic of),2017,bees,1.0
+272,80,Serbia,Bosnia and Herzegovina,2009,bees,8.0
+166,44,Panama,Colombia,1986,bees,41.0
+166,44,Panama,Colombia,1987,bees,29.0
+115,110,Cambodia,Japan,2016,bees,2989.0
+113,108,Kyrgyzstan,Kazakhstan,2015,bees,1440.0
+185,52,Russian Federation,Azerbaijan,2016,bees,12.0
+59,115,Egypt,Cambodia,2004,bees,1.0
+235,185,Uzbekistan,Russian Federation,2017,bees,92567.0
+235,185,Uzbekistan,Russian Federation,2018,bees,50413.0
+235,185,Uzbekistan,Russian Federation,2019,bees,12376.0
+235,185,Uzbekistan,Russian Federation,2020,bees,45282.0
+235,185,Uzbekistan,Russian Federation,2022,bees,55318.0
+235,185,Uzbekistan,Russian Federation,2023,bees,16558.0
+56,93,Dominican Republic,Haiti,2012,bees,1.0
+235,208,Uzbekistan,Tajikistan,2023,bees,800.0
+113,118,Kyrgyzstan,Kuwait,2018,bees,1.0
+59,41,Egypt,"China, mainland",2001,bees,6.0
+59,41,Egypt,"China, mainland",2002,bees,1.0
+113,131,Kyrgyzstan,Malaysia,2018,bees,6.0
+115,117,Cambodia,Republic of Korea,2016,bees,142.0
+185,57,Russian Federation,Belarus,2017,bees,282.0
+185,57,Russian Federation,Belarus,2018,bees,938.0
+113,165,Kyrgyzstan,Pakistan,2008,bees,12.0
+113,165,Kyrgyzstan,Pakistan,2017,bees,12.0
+113,165,Kyrgyzstan,Pakistan,2018,bees,17.0
+166,58,Panama,Ecuador,1986,bees,87.0
+166,58,Panama,Ecuador,1987,bees,11.0
+60,89,El Salvador,Guatemala,2003,bees,2.0
+202,16,South Africa,Bangladesh,2021,bees,285.0
+113,185,Kyrgyzstan,Russian Federation,2008,bees,20.0
+113,185,Kyrgyzstan,Russian Federation,2018,bees,21521.0
+59,116,Egypt,Democratic People's Republic of Korea,1995,bees,1.0
+165,41,Pakistan,"China, mainland",2016,bees,2811.0
+234,41,Uruguay,"China, mainland",2010,bees,2.0
+115,231,Cambodia,United States of America,2016,bees,3610.0
+40,33,Chile,Canada,2012,bees,8476.0
+40,33,Chile,Canada,2013,bees,13180.0
+40,33,Chile,Canada,2014,bees,6000.0
+40,33,Chile,Canada,2015,bees,5605.0
+40,33,Chile,Canada,2016,bees,5005.0
+40,33,Chile,Canada,2017,bees,14138.0
+40,33,Chile,Canada,2018,bees,14377.0
+40,33,Chile,Canada,2019,bees,5862407.0
+40,33,Chile,Canada,2020,bees,7568.0
+40,33,Chile,Canada,2021,bees,10602.0
+40,33,Chile,Canada,2022,bees,10998.0
+150,11,Netherlands (Kingdom of the),Austria,2012,bees,1.0
+10,33,Australia,Canada,2012,bees,46.0
+10,33,Australia,Canada,2013,bees,111.0
+10,33,Australia,Canada,2014,bees,25906.0
+10,33,Australia,Canada,2015,bees,18330.0
+10,33,Australia,Canada,2016,bees,19208.0
+10,33,Australia,Canada,2017,bees,6495.0
+10,33,Australia,Canada,2018,bees,16608.0
+10,33,Australia,Canada,2019,bees,14754.0
+10,33,Australia,Canada,2020,bees,2934.0
+10,33,Australia,Canada,2021,bees,10507.0
+10,33,Australia,Canada,2022,bees,18077.0
+10,33,Australia,Canada,2023,bees,29469.0
+59,68,Egypt,France,1990,bees,247.0
+59,68,Egypt,France,1998,bees,1.0
+59,68,Egypt,France,2004,bees,2.0
+59,68,Egypt,France,2005,bees,2.0
+59,68,Egypt,France,2006,bees,1.0
+105,54,Israel,Denmark,2014,bees,278.0
+113,208,Kyrgyzstan,Tajikistan,2017,bees,620.0
+113,208,Kyrgyzstan,Tajikistan,2018,bees,5900.0
+113,223,Kyrgyzstan,Türkiye,2017,bees,1.0
+156,33,New Zealand,Canada,2012,bees,567.0
+156,33,New Zealand,Canada,2013,bees,527.0
+156,33,New Zealand,Canada,2014,bees,196483761.0
+156,33,New Zealand,Canada,2015,bees,187654538.0
+156,33,New Zealand,Canada,2016,bees,145755000.0
+156,33,New Zealand,Canada,2017,bees,63378153.0
+156,33,New Zealand,Canada,2018,bees,82387973.0
+156,33,New Zealand,Canada,2019,bees,88725944.0
+156,33,New Zealand,Canada,2020,bees,19029247.0
+156,33,New Zealand,Canada,2021,bees,38032178.0
+156,33,New Zealand,Canada,2022,bees,25362841.0
+156,33,New Zealand,Canada,2023,bees,103325397.0
+101,96,Indonesia,"China, Hong Kong SAR",1987,bees,14.0
+210,33,Sweden,Canada,1987,bees,2.0
+113,225,Kyrgyzstan,United Arab Emirates,2008,bees,50.0
+113,225,Kyrgyzstan,United Arab Emirates,2017,bees,1.0
+113,231,Kyrgyzstan,United States of America,2017,bees,5.0
+113,231,Kyrgyzstan,United States of America,2018,bees,11.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1986,bees,5.0
+226,185,Uganda,Russian Federation,2008,bees,100.0
+108,113,Kazakhstan,Kyrgyzstan,2012,bees,1.0
+108,113,Kazakhstan,Kyrgyzstan,2013,bees,1.0
+113,235,Kyrgyzstan,Uzbekistan,2015,bees,310.0
+113,235,Kyrgyzstan,Uzbekistan,2016,bees,950.0
+113,235,Kyrgyzstan,Uzbekistan,2017,bees,50.0
+113,235,Kyrgyzstan,Uzbekistan,2018,bees,1860.0
+118,102,Kuwait,Iran (Islamic Republic of),2009,bees,1.0
+273,272,Montenegro,Serbia,2012,bees,1.0
+131,33,Malaysia,Canada,2019,bees,477.0
+131,33,Malaysia,Canada,2020,bees,313.0
+57,121,Belarus,Lebanon,2015,bees,98.0
+57,121,Belarus,Lebanon,2016,bees,74.0
+57,121,Belarus,Lebanon,2017,bees,52.0
+57,121,Belarus,Lebanon,2018,bees,125.0
+216,115,Thailand,Cambodia,2021,bees,460.0
+166,203,Panama,Spain,2006,bees,1.0
+210,41,Sweden,"China, mainland",1987,bees,25.0
+150,52,Netherlands (Kingdom of the),Azerbaijan,2013,bees,1.0
+59,103,Egypt,Iraq,1990,bees,2.0
+131,96,Malaysia,"China, Hong Kong SAR",2020,bees,295.0
+118,112,Kuwait,Jordan,2009,bees,3.0
+234,138,Uruguay,Mexico,2010,bees,9.0
+234,138,Uruguay,Mexico,2011,bees,9.0
+59,105,Egypt,Israel,1998,bees,2.0
+166,231,Panama,United States of America,1986,bees,7.0
+166,231,Panama,United States of America,1987,bees,18.0
+166,231,Panama,United States of America,2003,bees,1.0
+166,231,Panama,United States of America,2004,bees,4.0
+166,231,Panama,United States of America,2005,bees,5.0
+166,231,Panama,United States of America,2006,bees,4.0
+166,231,Panama,United States of America,2007,bees,3.0
+166,231,Panama,United States of America,2008,bees,1.0
+272,97,Serbia,Hungary,2009,bees,4.0
+59,106,Egypt,Italy,1990,bees,27.0
+101,214,Indonesia,"China, Taiwan Province of",1987,bees,9.0
+9,54,Argentina,Denmark,2016,bees,1400.0
+9,54,Argentina,Denmark,2017,bees,4200.0
+59,112,Egypt,Jordan,1992,bees,7.0
+59,112,Egypt,Jordan,1993,bees,10.0
+59,112,Egypt,Jordan,1994,bees,6.0
+59,112,Egypt,Jordan,1995,bees,2.0
+59,112,Egypt,Jordan,1998,bees,2.0
+59,112,Egypt,Jordan,1999,bees,1.0
+59,112,Egypt,Jordan,2002,bees,1.0
+59,112,Egypt,Jordan,2003,bees,6.0
+59,112,Egypt,Jordan,2004,bees,6.0
+59,112,Egypt,Jordan,2005,bees,20.0
+59,112,Egypt,Jordan,2006,bees,1.0
+59,112,Egypt,Jordan,2007,bees,25.0
+216,96,Thailand,"China, Hong Kong SAR",2017,bees,1.0
+150,57,Netherlands (Kingdom of the),Belarus,2013,bees,3.0
+57,185,Belarus,Russian Federation,2012,bees,5.0
+57,185,Belarus,Russian Federation,2013,bees,5.0
+57,185,Belarus,Russian Federation,2015,bees,4015.0
+57,185,Belarus,Russian Federation,2016,bees,1900.0
+57,185,Belarus,Russian Federation,2017,bees,320.0
+100,96,India,"China, Hong Kong SAR",2015,bees,1.0
+59,118,Egypt,Kuwait,1990,bees,4.0
+59,118,Egypt,Kuwait,1992,bees,8.0
+59,118,Egypt,Kuwait,1993,bees,6.0
+59,118,Egypt,Kuwait,1994,bees,15.0
+59,118,Egypt,Kuwait,1995,bees,15.0
+59,118,Egypt,Kuwait,1998,bees,23.0
+59,118,Egypt,Kuwait,1999,bees,18.0
+59,118,Egypt,Kuwait,2000,bees,11.0
+59,118,Egypt,Kuwait,2001,bees,19.0
+59,118,Egypt,Kuwait,2002,bees,24.0
+59,118,Egypt,Kuwait,2003,bees,16.0
+59,118,Egypt,Kuwait,2004,bees,27.0
+59,118,Egypt,Kuwait,2005,bees,32.0
+59,118,Egypt,Kuwait,2006,bees,38.0
+59,118,Egypt,Kuwait,2007,bees,31.0
+41,96,"China, mainland","China, Hong Kong SAR",2010,bees,922.0
+41,96,"China, mainland","China, Hong Kong SAR",2011,bees,736.0
+40,68,Chile,France,2012,bees,5996.0
+40,68,Chile,France,2013,bees,5701.0
+40,68,Chile,France,2014,bees,4300.0
+40,68,Chile,France,2015,bees,5100.0
+40,68,Chile,France,2016,bees,5250.0
+40,68,Chile,France,2017,bees,5700.0
+40,68,Chile,France,2018,bees,2812.0
+40,68,Chile,France,2019,bees,1700.0
+40,68,Chile,France,2020,bees,600.0
+40,68,Chile,France,2021,bees,1200.0
+40,68,Chile,France,2022,bees,600.0
+9,68,Argentina,France,2012,bees,37.0
+9,68,Argentina,France,2013,bees,38.0
+9,68,Argentina,France,2014,bees,45376.0
+9,68,Argentina,France,2015,bees,65990.0
+9,68,Argentina,France,2016,bees,47129.0
+9,68,Argentina,France,2017,bees,69605.0
+9,68,Argentina,France,2018,bees,50158.0
+150,255,Netherlands (Kingdom of the),Belgium,2012,bees,11.0
+165,118,Pakistan,Kuwait,1996,bees,7.0
+165,118,Pakistan,Kuwait,1999,bees,10000.0
+59,121,Egypt,Lebanon,2004,bees,4.0
+59,121,Egypt,Lebanon,2005,bees,3.0
+59,121,Egypt,Lebanon,2006,bees,5.0
+59,121,Egypt,Lebanon,2007,bees,16.0
+40,79,Chile,Germany,2013,bees,924.0
+40,79,Chile,Germany,2014,bees,600.0
+9,79,Argentina,Germany,2012,bees,11.0
+9,79,Argentina,Germany,2013,bees,5.0
+9,79,Argentina,Germany,2014,bees,6520.0
+9,79,Argentina,Germany,2015,bees,2052.0
+9,79,Argentina,Germany,2016,bees,4680.0
+9,79,Argentina,Germany,2017,bees,6154.0
+59,124,Egypt,Libya,2002,bees,1.0
+131,214,Malaysia,"China, Taiwan Province of",2020,bees,256.0
+131,214,Malaysia,"China, Taiwan Province of",2021,bees,229.0
+101,68,Indonesia,France,1987,bees,2.0
+154,186,North Macedonia,Serbia and Montenegro,2002,bees,130.0
+118,179,Kuwait,Qatar,2009,bees,113.0
+118,179,Kuwait,Qatar,2018,bees,9640.0
+143,150,Morocco,Netherlands (Kingdom of the),1994,bees,2.0
+185,73,Russian Federation,Georgia,2018,bees,87.0
+162,79,Norway,Germany,2014,bees,29.0
+41,128,"China, mainland","China, Macao SAR",2010,bees,689.0
+41,128,"China, mainland","China, Macao SAR",2011,bees,701.0
+118,194,Kuwait,Saudi Arabia,2009,bees,1060.0
+118,194,Kuwait,Saudi Arabia,2014,bees,560.0
+9,95,Argentina,Honduras,2015,bees,1872.0
+138,89,Mexico,Guatemala,2008,bees,1.0
+138,89,Mexico,Guatemala,2009,bees,2.0
+138,89,Mexico,Guatemala,2012,bees,2.0
+10,59,Australia,Egypt,2022,bees,1.0
+48,166,Costa Rica,Panama,2011,bees,1.0
+9,103,Argentina,Iraq,2015,bees,4680.0
+131,167,Malaysia,Czechia,2019,bees,1196.0
+10,66,Australia,Fiji,2022,bees,20.0
+118,202,Kuwait,South Africa,2009,bees,1.0
+40,106,Chile,Italy,2014,bees,630.0
+40,106,Chile,Italy,2016,bees,250.0
+40,106,Chile,Italy,2017,bees,600.0
+40,106,Chile,Italy,2018,bees,300.0
+40,106,Chile,Italy,2019,bees,587.0
+40,106,Chile,Italy,2020,bees,500.0
+40,106,Chile,Italy,2021,bees,1100.0
+40,106,Chile,Italy,2022,bees,1600.0
+165,221,Pakistan,Oman,1995,bees,20.0
+59,221,Egypt,Oman,1990,bees,18.0
+59,221,Egypt,Oman,1991,bees,165.0
+59,221,Egypt,Oman,1992,bees,27.0
+59,221,Egypt,Oman,1993,bees,2.0
+59,221,Egypt,Oman,1994,bees,72.0
+59,221,Egypt,Oman,1995,bees,141.0
+59,221,Egypt,Oman,1998,bees,229.0
+59,221,Egypt,Oman,1999,bees,259.0
+59,221,Egypt,Oman,2000,bees,170.0
+59,221,Egypt,Oman,2007,bees,1.0
+9,106,Argentina,Italy,2012,bees,30.0
+9,106,Argentina,Italy,2013,bees,17.0
+9,106,Argentina,Italy,2014,bees,20000.0
+9,106,Argentina,Italy,2015,bees,10400.0
+9,106,Argentina,Italy,2016,bees,16168.0
+9,106,Argentina,Italy,2017,bees,9800.0
+41,214,"China, mainland","China, Taiwan Province of",2010,bees,87.0
+41,214,"China, mainland","China, Taiwan Province of",2011,bees,124.0
+118,212,Kuwait,Syrian Arab Republic,2009,bees,5.0
+59,179,Egypt,Qatar,1991,bees,3.0
+59,179,Egypt,Qatar,1992,bees,1.0
+59,179,Egypt,Qatar,1993,bees,4.0
+59,179,Egypt,Qatar,1994,bees,2.0
+59,179,Egypt,Qatar,1995,bees,1.0
+59,179,Egypt,Qatar,1998,bees,3.0
+59,179,Egypt,Qatar,1999,bees,3.0
+59,179,Egypt,Qatar,2000,bees,5.0
+59,179,Egypt,Qatar,2001,bees,2.0
+59,179,Egypt,Qatar,2002,bees,3.0
+59,179,Egypt,Qatar,2003,bees,1.0
+59,179,Egypt,Qatar,2004,bees,6.0
+59,179,Egypt,Qatar,2005,bees,11.0
+59,179,Egypt,Qatar,2006,bees,29.0
+59,179,Egypt,Qatar,2007,bees,9.0
+131,68,Malaysia,France,2019,bees,1179.0
+9,112,Argentina,Jordan,2012,bees,1.0
+9,112,Argentina,Jordan,2014,bees,208.0
+9,112,Argentina,Jordan,2015,bees,3276.0
+9,112,Argentina,Jordan,2016,bees,2340.0
+165,194,Pakistan,Saudi Arabia,1995,bees,29.0
+165,194,Pakistan,Saudi Arabia,1999,bees,147279.0
+9,121,Argentina,Lebanon,2012,bees,17.0
+9,121,Argentina,Lebanon,2013,bees,17.0
+9,121,Argentina,Lebanon,2014,bees,17600.0
+9,121,Argentina,Lebanon,2015,bees,20800.0
+9,121,Argentina,Lebanon,2016,bees,20000.0
+9,121,Argentina,Lebanon,2017,bees,23050.0
+40,138,Chile,Mexico,2013,bees,50.0
+40,138,Chile,Mexico,2014,bees,405.0
+9,124,Argentina,Libya,2014,bees,1040.0
+9,124,Argentina,Libya,2017,bees,4672.0
+59,194,Egypt,Saudi Arabia,1990,bees,70.0
+59,194,Egypt,Saudi Arabia,1991,bees,5.0
+59,194,Egypt,Saudi Arabia,1992,bees,69.0
+59,194,Egypt,Saudi Arabia,1993,bees,70.0
+59,194,Egypt,Saudi Arabia,1994,bees,59.0
+59,194,Egypt,Saudi Arabia,1995,bees,82.0
+59,194,Egypt,Saudi Arabia,1998,bees,60.0
+59,194,Egypt,Saudi Arabia,1999,bees,50.0
+59,194,Egypt,Saudi Arabia,2000,bees,25.0
+59,194,Egypt,Saudi Arabia,2001,bees,48.0
+59,194,Egypt,Saudi Arabia,2002,bees,81.0
+59,194,Egypt,Saudi Arabia,2003,bees,75.0
+59,194,Egypt,Saudi Arabia,2004,bees,182.0
+59,194,Egypt,Saudi Arabia,2005,bees,268.0
+59,194,Egypt,Saudi Arabia,2006,bees,80.0
+59,194,Egypt,Saudi Arabia,2007,bees,95.0
+118,225,Kuwait,United Arab Emirates,2009,bees,127.0
+131,79,Malaysia,Germany,2019,bees,1034.0
+131,79,Malaysia,Germany,2020,bees,3104.0
+9,138,Argentina,Mexico,2017,bees,3800.0
+210,67,Sweden,Finland,1987,bees,5.0
+210,67,Sweden,Finland,2012,bees,1.0
+210,67,Sweden,Finland,2013,bees,1.0
+101,110,Indonesia,Japan,1987,bees,3.0
+214,110,"China, Taiwan Province of",Japan,1986,bees,14.0
+199,150,Slovakia,Netherlands (Kingdom of the),2013,bees,919.0
+118,231,Kuwait,United States of America,2009,bees,1.0
+165,211,Pakistan,Switzerland,1997,bees,4.0
+59,206,Egypt,Sudan (former),1995,bees,1.0
+59,206,Egypt,Sudan (former),1998,bees,4.0
+59,206,Egypt,Sudan (former),1999,bees,2.0
+59,206,Egypt,Sudan (former),2000,bees,1.0
+59,206,Egypt,Sudan (former),2001,bees,1.0
+59,206,Egypt,Sudan (former),2002,bees,10.0
+59,206,Egypt,Sudan (former),2003,bees,7.0
+59,206,Egypt,Sudan (former),2004,bees,12.0
+59,206,Egypt,Sudan (former),2005,bees,10.0
+59,206,Egypt,Sudan (former),2006,bees,2.0
+59,206,Egypt,Sudan (former),2007,bees,11.0
+41,54,"China, mainland",Denmark,2010,bees,2.0
+41,54,"China, mainland",Denmark,2011,bees,1.0
+185,112,Russian Federation,Jordan,2016,bees,530.0
+185,112,Russian Federation,Jordan,2017,bees,200.0
+185,112,Russian Federation,Jordan,2018,bees,900.0
+185,108,Russian Federation,Kazakhstan,2014,bees,50.0
+185,108,Russian Federation,Kazakhstan,2015,bees,11400.0
+185,108,Russian Federation,Kazakhstan,2016,bees,15720.0
+185,108,Russian Federation,Kazakhstan,2017,bees,9.0
+185,108,Russian Federation,Kazakhstan,2018,bees,4170.0
+59,211,Egypt,Switzerland,1990,bees,81.0
+165,225,Pakistan,United Arab Emirates,1999,bees,293000.0
+165,225,Pakistan,United Arab Emirates,2022,bees,200.0
+165,229,Pakistan,United Kingdom of Great Britain and Northern Ireland,1999,bees,2500.0
+9,174,Argentina,Portugal,2014,bees,104.0
+9,174,Argentina,Portugal,2015,bees,936.0
+9,174,Argentina,Portugal,2016,bees,2628.0
+59,225,Egypt,United Arab Emirates,1993,bees,51.0
+59,225,Egypt,United Arab Emirates,2001,bees,304.0
+59,225,Egypt,United Arab Emirates,2002,bees,376.0
+59,225,Egypt,United Arab Emirates,2003,bees,389.0
+59,225,Egypt,United Arab Emirates,2004,bees,384.0
+59,225,Egypt,United Arab Emirates,2005,bees,419.0
+59,225,Egypt,United Arab Emirates,2006,bees,455.0
+59,225,Egypt,United Arab Emirates,2007,bees,479.0
+165,231,Pakistan,United States of America,2022,bees,2500.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1990,bees,2.0
+10,103,Australia,Iraq,2014,bees,400.0
+10,103,Australia,Iraq,2016,bees,400.0
+40,203,Chile,Spain,2018,bees,400.0
+185,121,Russian Federation,Lebanon,2016,bees,300.0
+185,121,Russian Federation,Lebanon,2018,bees,900.0
+59,231,Egypt,United States of America,2000,bees,2.0
+59,231,Egypt,United States of America,2003,bees,1.0
+40,210,Chile,Sweden,2012,bees,700.0
+9,203,Argentina,Spain,2012,bees,1.0
+9,203,Argentina,Spain,2014,bees,2808.0
+9,203,Argentina,Spain,2015,bees,6400.0
+9,203,Argentina,Spain,2016,bees,35400.0
+9,203,Argentina,Spain,2017,bees,42790.0
+150,40,Netherlands (Kingdom of the),Chile,2013,bees,3.0
+131,110,Malaysia,Japan,2015,bees,622.0
+131,110,Malaysia,Japan,2018,bees,746.0
+131,110,Malaysia,Japan,2020,bees,2673.0
+131,110,Malaysia,Japan,2021,bees,460.0
+41,79,"China, mainland",Germany,2010,bees,34.0
+41,79,"China, mainland",Germany,2011,bees,45.0
+185,141,Russian Federation,Mongolia,2013,bees,1.0
+185,141,Russian Federation,Mongolia,2014,bees,1213.0
+185,141,Russian Federation,Mongolia,2015,bees,760.0
+185,141,Russian Federation,Mongolia,2016,bees,789.0
+185,141,Russian Federation,Mongolia,2017,bees,485.0
+185,141,Russian Federation,Mongolia,2018,bees,705.0
+10,110,Australia,Japan,2012,bees,3.0
+10,110,Australia,Japan,2013,bees,6.0
+10,110,Australia,Japan,2014,bees,4550.0
+10,110,Australia,Japan,2015,bees,2150.0
+10,110,Australia,Japan,2016,bees,3720.0
+10,110,Australia,Japan,2017,bees,2617.0
+10,110,Australia,Japan,2018,bees,1538.0
+10,110,Australia,Japan,2019,bees,1457.0
+10,110,Australia,Japan,2020,bees,2050.0
+10,110,Australia,Japan,2021,bees,900.0
+10,110,Australia,Japan,2023,bees,850.0
+9,210,Argentina,Sweden,2014,bees,936.0
+156,132,New Zealand,Maldives,2018,bees,1500.0
+156,132,New Zealand,Maldives,2019,bees,3030.0
+156,132,New Zealand,Maldives,2020,bees,1200.0
+10,112,Australia,Jordan,2012,bees,1.0
+10,112,Australia,Jordan,2013,bees,2.0
+10,112,Australia,Jordan,2014,bees,500.0
+10,112,Australia,Jordan,2016,bees,200.0
+10,112,Australia,Jordan,2017,bees,200.0
+10,112,Australia,Jordan,2018,bees,600.0
+10,112,Australia,Jordan,2019,bees,700.0
+10,112,Australia,Jordan,2020,bees,550.0
+10,112,Australia,Jordan,2022,bees,650.0
+10,112,Australia,Jordan,2023,bees,507.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,2015,bees,4680.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,2016,bees,4158.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,2017,bees,4680.0
+41,100,"China, mainland",India,2010,bees,1.0
+41,100,"China, mainland",India,2011,bees,1.0
+156,150,New Zealand,Netherlands (Kingdom of the),2014,bees,75.0
+10,118,Australia,Kuwait,2014,bees,2000.0
+10,121,Australia,Lebanon,2012,bees,1.0
+10,121,Australia,Lebanon,2014,bees,200.0
+10,121,Australia,Lebanon,2015,bees,922.0
+10,121,Australia,Lebanon,2016,bees,947.0
+10,121,Australia,Lebanon,2017,bees,100.0
+10,121,Australia,Lebanon,2018,bees,659.0
+10,121,Australia,Lebanon,2019,bees,600.0
+10,124,Australia,Libya,2013,bees,2.0
+10,124,Australia,Libya,2014,bees,1000.0
+214,194,"China, Taiwan Province of",Saudi Arabia,1986,bees,2.0
+10,131,Australia,Malaysia,2014,bees,60.0
+10,131,Australia,Malaysia,2015,bees,234.0
+10,131,Australia,Malaysia,2018,bees,286.0
+110,117,Japan,Republic of Korea,2017,bees,4000.0
+131,150,Malaysia,Netherlands (Kingdom of the),2017,bees,1014.0
+41,106,"China, mainland",Italy,2010,bees,128.0
+41,106,"China, mainland",Italy,2011,bees,203.0
+101,200,Indonesia,Singapore,1987,bees,178.0
+202,122,South Africa,Lesotho,2022,bees,8.0
+41,110,"China, mainland",Japan,2010,bees,71.0
+41,110,"China, mainland",Japan,2011,bees,73.0
+100,132,India,Maldives,2021,bees,10000.0
+101,216,Indonesia,Thailand,1987,bees,1.0
+100,149,India,Nepal,2018,bees,38652.0
+202,144,South Africa,Mozambique,2017,bees,3905.0
+41,131,"China, mainland",Malaysia,2010,bees,11.0
+41,131,"China, mainland",Malaysia,2011,bees,1.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,1987,bees,2.0
+150,54,Netherlands (Kingdom of the),Denmark,2012,bees,1.0
+202,147,South Africa,Namibia,2018,bees,110.0
+101,231,Indonesia,United States of America,1987,bees,41.0
+185,235,Russian Federation,Uzbekistan,2013,bees,4.0
+106,68,Italy,France,2012,bees,1.0
+106,68,Italy,France,2013,bees,3.0
+10,168,Australia,Papua New Guinea,2023,bees,20.0
+202,150,South Africa,Netherlands (Kingdom of the),2012,bees,1.0
+210,162,Sweden,Norway,1987,bees,7.0
+41,141,"China, mainland",Mongolia,2017,bees,30000000.0
+10,171,Australia,Philippines,2012,bees,1.0
+10,171,Australia,Philippines,2019,bees,28.0
+97,211,Hungary,Switzerland,2013,bees,5.0
+101,248,Indonesia,Yugoslav SFR,1987,bees,1.0
+131,216,Malaysia,Thailand,2018,bees,2143.0
+131,216,Malaysia,Thailand,2019,bees,2931.0
+156,229,New Zealand,United Kingdom of Great Britain and Northern Ireland,2012,bees,8.0
+156,229,New Zealand,United Kingdom of Great Britain and Northern Ireland,2013,bees,12.0
+156,229,New Zealand,United Kingdom of Great Britain and Northern Ireland,2014,bees,1620.0
+106,79,Italy,Germany,2012,bees,2.0
+106,79,Italy,Germany,2013,bees,1.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2017,bees,1400.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2018,bees,1866.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2019,bees,2293.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2020,bees,1291.0
+150,67,Netherlands (Kingdom of the),Finland,2012,bees,2.0
+131,231,Malaysia,United States of America,2019,bees,1454.0
+131,231,Malaysia,United States of America,2020,bees,758.0
+131,231,Malaysia,United States of America,2021,bees,1662.0
+10,25,Australia,Solomon Islands,2014,bees,1.0
+10,25,Australia,Solomon Islands,2015,bees,9.0
+255,143,Belgium,Morocco,2012,bees,5.0
+41,117,"China, mainland",Republic of Korea,2010,bees,93.0
+41,117,"China, mainland",Republic of Korea,2011,bees,88.0
+150,68,Netherlands (Kingdom of the),France,2012,bees,8.0
+255,150,Belgium,Netherlands (Kingdom of the),2013,bees,7.0
+41,185,"China, mainland",Russian Federation,2011,bees,73.0
+41,200,"China, mainland",Singapore,2010,bees,14.0
+41,200,"China, mainland",Singapore,2011,bees,66.0
+100,216,India,Thailand,2015,bees,1.0
+100,216,India,Thailand,2016,bees,2.0
+10,225,Australia,United Arab Emirates,2015,bees,260.0
+150,79,Netherlands (Kingdom of the),Germany,2012,bees,3.0
+41,203,"China, mainland",Spain,2010,bees,2.0
+41,203,"China, mainland",Spain,2011,bees,5.0
+41,216,"China, mainland",Thailand,2010,bees,11.0
+41,216,"China, mainland",Thailand,2011,bees,20.0
+150,84,Netherlands (Kingdom of the),Greece,2012,bees,3.0
+41,225,"China, mainland",United Arab Emirates,2011,bees,1.0
+41,231,"China, mainland",United States of America,2010,bees,61.0
+41,231,"China, mainland",United States of America,2011,bees,40.0
+150,97,Netherlands (Kingdom of the),Hungary,2012,bees,1.0
+150,99,Netherlands (Kingdom of the),Iceland,2012,bees,1.0
+150,99,Netherlands (Kingdom of the),Iceland,2013,bees,1.0
+255,211,Belgium,Switzerland,2013,bees,240.0
+150,104,Netherlands (Kingdom of the),Ireland,2012,bees,1.0
+150,106,Netherlands (Kingdom of the),Italy,2012,bees,14.0
+255,231,Belgium,United States of America,2013,bees,1.0
+150,112,Netherlands (Kingdom of the),Jordan,2013,bees,2.0
+150,114,Netherlands (Kingdom of the),Kenya,2012,bees,1.0
+150,143,Netherlands (Kingdom of the),Morocco,2013,bees,1.0
+106,211,Italy,Switzerland,2012,bees,2.0
+106,211,Italy,Switzerland,2013,bees,3.0
+150,173,Netherlands (Kingdom of the),Poland,2012,bees,5.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2012,bees,2.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2013,bees,2.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,2013,bees,2.0
+150,195,Netherlands (Kingdom of the),Senegal,2012,bees,1.0
+150,195,Netherlands (Kingdom of the),Senegal,2013,bees,5.0
+150,199,Netherlands (Kingdom of the),Slovakia,2012,bees,93.0
+150,199,Netherlands (Kingdom of the),Slovakia,2013,bees,253.0
+68,211,France,Switzerland,2012,bees,2.0
+150,203,Netherlands (Kingdom of the),Spain,2012,bees,2.0
+150,211,Netherlands (Kingdom of the),Switzerland,2012,bees,2.0
+150,211,Netherlands (Kingdom of the),Switzerland,2013,bees,1.0
+150,222,Netherlands (Kingdom of the),Tunisia,2013,bees,5.0
+150,223,Netherlands (Kingdom of the),Türkiye,2012,bees,1.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2013,bees,1.0

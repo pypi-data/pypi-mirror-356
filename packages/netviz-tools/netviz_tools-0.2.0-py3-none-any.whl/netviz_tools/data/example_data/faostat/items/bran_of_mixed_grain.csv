@@ -1,0 +1,755 @@
+o_code,d_code,o_name,d_name,year,item,weight
+272,80,Serbia,Bosnia and Herzegovina,2006,bran_of_mixed_grain,130.0
+272,80,Serbia,Bosnia and Herzegovina,2008,bran_of_mixed_grain,486.0
+211,11,Switzerland,Austria,2014,bran_of_mixed_grain,0.01
+119,27,Latvia,Bulgaria,2019,bran_of_mixed_grain,0.01
+119,98,Latvia,Croatia,2017,bran_of_mixed_grain,0.6
+119,98,Latvia,Croatia,2018,bran_of_mixed_grain,0.3
+119,50,Latvia,Cyprus,2007,bran_of_mixed_grain,468.0
+119,167,Latvia,Czechia,2009,bran_of_mixed_grain,1.0
+68,10,France,Australia,2019,bran_of_mixed_grain,0.65
+223,52,Türkiye,Azerbaijan,2008,bran_of_mixed_grain,3.0
+272,98,Serbia,Croatia,2006,bran_of_mixed_grain,28.0
+68,11,France,Austria,2005,bran_of_mixed_grain,6.0
+68,11,France,Austria,2014,bran_of_mixed_grain,0.6
+68,11,France,Austria,2017,bran_of_mixed_grain,21.56
+68,11,France,Austria,2018,bran_of_mixed_grain,1.62
+68,11,France,Austria,2019,bran_of_mixed_grain,2.04
+68,11,France,Austria,2020,bran_of_mixed_grain,38.29
+68,11,France,Austria,2021,bran_of_mixed_grain,30.59
+68,11,France,Austria,2022,bran_of_mixed_grain,26.64
+68,11,France,Austria,2023,bran_of_mixed_grain,21.19
+119,63,Latvia,Estonia,2005,bran_of_mixed_grain,151.0
+119,63,Latvia,Estonia,2009,bran_of_mixed_grain,3.0
+119,63,Latvia,Estonia,2010,bran_of_mixed_grain,4.0
+119,63,Latvia,Estonia,2011,bran_of_mixed_grain,2.0
+119,63,Latvia,Estonia,2013,bran_of_mixed_grain,146.0
+119,63,Latvia,Estonia,2015,bran_of_mixed_grain,1569.7
+119,63,Latvia,Estonia,2016,bran_of_mixed_grain,3141.77
+119,63,Latvia,Estonia,2017,bran_of_mixed_grain,2595.22
+119,63,Latvia,Estonia,2018,bran_of_mixed_grain,2000.13
+119,63,Latvia,Estonia,2019,bran_of_mixed_grain,4309.38
+119,63,Latvia,Estonia,2020,bran_of_mixed_grain,3886.48
+119,63,Latvia,Estonia,2021,bran_of_mixed_grain,1637.02
+119,63,Latvia,Estonia,2022,bran_of_mixed_grain,3260.91
+119,63,Latvia,Estonia,2023,bran_of_mixed_grain,483.08
+211,255,Switzerland,Belgium,2006,bran_of_mixed_grain,10.0
+211,255,Switzerland,Belgium,2022,bran_of_mixed_grain,0.01
+211,15,Switzerland,Belgium-Luxembourg,1996,bran_of_mixed_grain,1.0
+223,80,Türkiye,Bosnia and Herzegovina,1999,bran_of_mixed_grain,1.0
+68,13,France,Bahrain,2015,bran_of_mixed_grain,0.6
+119,68,Latvia,France,2018,bran_of_mixed_grain,0.01
+119,68,Latvia,France,2019,bran_of_mixed_grain,0.07
+119,79,Latvia,Germany,2018,bran_of_mixed_grain,0.98
+119,79,Latvia,Germany,2019,bran_of_mixed_grain,0.62
+119,79,Latvia,Germany,2020,bran_of_mixed_grain,0.28
+119,79,Latvia,Germany,2021,bran_of_mixed_grain,0.02
+119,79,Latvia,Germany,2022,bran_of_mixed_grain,0.01
+68,255,France,Belgium,2000,bran_of_mixed_grain,10076.0
+68,255,France,Belgium,2001,bran_of_mixed_grain,8461.0
+68,255,France,Belgium,2002,bran_of_mixed_grain,5396.0
+68,255,France,Belgium,2003,bran_of_mixed_grain,4599.0
+68,255,France,Belgium,2004,bran_of_mixed_grain,4753.0
+68,255,France,Belgium,2005,bran_of_mixed_grain,1175.0
+68,255,France,Belgium,2006,bran_of_mixed_grain,2323.0
+68,255,France,Belgium,2007,bran_of_mixed_grain,2714.0
+68,255,France,Belgium,2008,bran_of_mixed_grain,1687.0
+68,255,France,Belgium,2009,bran_of_mixed_grain,4843.0
+68,255,France,Belgium,2010,bran_of_mixed_grain,4997.0
+68,255,France,Belgium,2011,bran_of_mixed_grain,6057.0
+68,255,France,Belgium,2012,bran_of_mixed_grain,4110.0
+68,255,France,Belgium,2013,bran_of_mixed_grain,14799.0
+68,255,France,Belgium,2014,bran_of_mixed_grain,16240.0
+68,255,France,Belgium,2015,bran_of_mixed_grain,17532.2
+68,255,France,Belgium,2016,bran_of_mixed_grain,15919.72
+68,255,France,Belgium,2017,bran_of_mixed_grain,25823.06
+68,255,France,Belgium,2018,bran_of_mixed_grain,16428.93
+68,255,France,Belgium,2019,bran_of_mixed_grain,14062.01
+68,255,France,Belgium,2020,bran_of_mixed_grain,13855.03
+68,255,France,Belgium,2021,bran_of_mixed_grain,9891.06
+68,255,France,Belgium,2022,bran_of_mixed_grain,12063.38
+68,255,France,Belgium,2023,bran_of_mixed_grain,8411.87
+211,33,Switzerland,Canada,1990,bran_of_mixed_grain,15.0
+119,84,Latvia,Greece,2015,bran_of_mixed_grain,1.1
+119,84,Latvia,Greece,2016,bran_of_mixed_grain,0.5
+119,84,Latvia,Greece,2017,bran_of_mixed_grain,1.3
+119,84,Latvia,Greece,2018,bran_of_mixed_grain,0.8
+119,97,Latvia,Hungary,2016,bran_of_mixed_grain,0.75
+211,96,Switzerland,"China, Hong Kong SAR",2018,bran_of_mixed_grain,0.38
+211,96,Switzerland,"China, Hong Kong SAR",2019,bran_of_mixed_grain,0.01
+119,106,Latvia,Italy,2015,bran_of_mixed_grain,9.8
+119,106,Latvia,Italy,2016,bran_of_mixed_grain,23.38
+119,106,Latvia,Italy,2017,bran_of_mixed_grain,39.0
+119,106,Latvia,Italy,2018,bran_of_mixed_grain,139.66
+119,106,Latvia,Italy,2019,bran_of_mixed_grain,36.97
+119,106,Latvia,Italy,2020,bran_of_mixed_grain,94.65
+119,106,Latvia,Italy,2021,bran_of_mixed_grain,85.7
+119,106,Latvia,Italy,2022,bran_of_mixed_grain,47.25
+119,106,Latvia,Italy,2023,bran_of_mixed_grain,9.0
+68,15,France,Belgium-Luxembourg,1993,bran_of_mixed_grain,13608.0
+68,15,France,Belgium-Luxembourg,1994,bran_of_mixed_grain,12890.0
+68,15,France,Belgium-Luxembourg,1995,bran_of_mixed_grain,8263.0
+68,15,France,Belgium-Luxembourg,1996,bran_of_mixed_grain,10669.0
+68,15,France,Belgium-Luxembourg,1997,bran_of_mixed_grain,13725.0
+68,15,France,Belgium-Luxembourg,1998,bran_of_mixed_grain,11837.0
+68,15,France,Belgium-Luxembourg,1999,bran_of_mixed_grain,7974.0
+272,154,Serbia,North Macedonia,2006,bran_of_mixed_grain,1846.0
+272,154,Serbia,North Macedonia,2008,bran_of_mixed_grain,426.0
+223,98,Türkiye,Croatia,1996,bran_of_mixed_grain,81.0
+119,126,Latvia,Lithuania,2005,bran_of_mixed_grain,488.0
+119,126,Latvia,Lithuania,2006,bran_of_mixed_grain,1015.0
+119,126,Latvia,Lithuania,2007,bran_of_mixed_grain,5207.0
+119,126,Latvia,Lithuania,2008,bran_of_mixed_grain,2374.0
+119,126,Latvia,Lithuania,2009,bran_of_mixed_grain,889.0
+119,126,Latvia,Lithuania,2010,bran_of_mixed_grain,654.0
+119,126,Latvia,Lithuania,2011,bran_of_mixed_grain,667.0
+119,126,Latvia,Lithuania,2012,bran_of_mixed_grain,270.0
+119,126,Latvia,Lithuania,2013,bran_of_mixed_grain,2195.0
+119,126,Latvia,Lithuania,2014,bran_of_mixed_grain,895.2
+119,126,Latvia,Lithuania,2015,bran_of_mixed_grain,54.2
+119,126,Latvia,Lithuania,2016,bran_of_mixed_grain,1111.71
+119,126,Latvia,Lithuania,2017,bran_of_mixed_grain,4461.24
+119,126,Latvia,Lithuania,2018,bran_of_mixed_grain,2519.63
+119,126,Latvia,Lithuania,2019,bran_of_mixed_grain,1387.52
+119,126,Latvia,Lithuania,2020,bran_of_mixed_grain,987.04
+119,126,Latvia,Lithuania,2021,bran_of_mixed_grain,50.7
+119,126,Latvia,Lithuania,2022,bran_of_mixed_grain,172.17
+119,126,Latvia,Lithuania,2023,bran_of_mixed_grain,112.24
+167,79,Czechia,Germany,2004,bran_of_mixed_grain,711.0
+167,79,Czechia,Germany,2005,bran_of_mixed_grain,2316.0
+68,21,France,Brazil,2018,bran_of_mixed_grain,0.31
+68,21,France,Brazil,2019,bran_of_mixed_grain,0.14
+68,21,France,Brazil,2020,bran_of_mixed_grain,0.32
+68,21,France,Brazil,2021,bran_of_mixed_grain,0.21
+68,21,France,Brazil,2022,bran_of_mixed_grain,0.21
+119,131,Latvia,Malaysia,2023,bran_of_mixed_grain,4.0
+68,27,France,Bulgaria,2007,bran_of_mixed_grain,9.0
+68,27,France,Bulgaria,2008,bran_of_mixed_grain,8.0
+68,27,France,Bulgaria,2014,bran_of_mixed_grain,0.5
+68,27,France,Bulgaria,2015,bran_of_mixed_grain,0.7
+68,27,France,Bulgaria,2016,bran_of_mixed_grain,0.12
+68,27,France,Bulgaria,2018,bran_of_mixed_grain,0.05
+68,27,France,Bulgaria,2022,bran_of_mixed_grain,0.4
+119,162,Latvia,Norway,2019,bran_of_mixed_grain,1068.26
+119,162,Latvia,Norway,2020,bran_of_mixed_grain,2294.09
+119,162,Latvia,Norway,2022,bran_of_mixed_grain,560.5
+119,162,Latvia,Norway,2023,bran_of_mixed_grain,0.5
+119,173,Latvia,Poland,2009,bran_of_mixed_grain,353.0
+119,173,Latvia,Poland,2010,bran_of_mixed_grain,485.0
+119,173,Latvia,Poland,2011,bran_of_mixed_grain,1362.0
+119,173,Latvia,Poland,2012,bran_of_mixed_grain,272.0
+119,173,Latvia,Poland,2013,bran_of_mixed_grain,12.0
+119,173,Latvia,Poland,2014,bran_of_mixed_grain,481.6
+119,173,Latvia,Poland,2015,bran_of_mixed_grain,1583.2
+119,173,Latvia,Poland,2016,bran_of_mixed_grain,804.62
+119,173,Latvia,Poland,2017,bran_of_mixed_grain,406.68
+119,173,Latvia,Poland,2018,bran_of_mixed_grain,717.14
+119,173,Latvia,Poland,2019,bran_of_mixed_grain,561.74
+119,173,Latvia,Poland,2020,bran_of_mixed_grain,1201.42
+119,173,Latvia,Poland,2021,bran_of_mixed_grain,864.74
+119,173,Latvia,Poland,2022,bran_of_mixed_grain,921.04
+119,173,Latvia,Poland,2023,bran_of_mixed_grain,438.1
+211,67,Switzerland,Finland,1995,bran_of_mixed_grain,1.0
+211,67,Switzerland,Finland,2009,bran_of_mixed_grain,1.0
+68,32,France,Cameroon,2014,bran_of_mixed_grain,0.1
+68,32,France,Cameroon,2015,bran_of_mixed_grain,0.1
+211,68,Switzerland,France,1990,bran_of_mixed_grain,3.0
+211,68,Switzerland,France,1991,bran_of_mixed_grain,1.0
+211,68,Switzerland,France,1992,bran_of_mixed_grain,6.0
+211,68,Switzerland,France,1993,bran_of_mixed_grain,2.0
+211,68,Switzerland,France,2010,bran_of_mixed_grain,3.0
+211,68,Switzerland,France,2011,bran_of_mixed_grain,116.0
+211,68,Switzerland,France,2012,bran_of_mixed_grain,25.0
+68,33,France,Canada,2015,bran_of_mixed_grain,0.1
+68,33,France,Canada,2016,bran_of_mixed_grain,0.09
+68,33,France,Canada,2017,bran_of_mixed_grain,0.08
+119,199,Latvia,Slovakia,2019,bran_of_mixed_grain,0.02
+119,203,Latvia,Spain,2019,bran_of_mixed_grain,0.03
+119,203,Latvia,Spain,2020,bran_of_mixed_grain,0.01
+167,106,Czechia,Italy,2005,bran_of_mixed_grain,524.0
+68,37,France,Central African Republic,2017,bran_of_mixed_grain,0.04
+211,79,Switzerland,Germany,1992,bran_of_mixed_grain,2.0
+211,79,Switzerland,Germany,1993,bran_of_mixed_grain,5.0
+211,79,Switzerland,Germany,1995,bran_of_mixed_grain,2.0
+211,79,Switzerland,Germany,1998,bran_of_mixed_grain,3.0
+211,79,Switzerland,Germany,2000,bran_of_mixed_grain,2.0
+211,79,Switzerland,Germany,2006,bran_of_mixed_grain,8.0
+211,79,Switzerland,Germany,2007,bran_of_mixed_grain,1.0
+211,79,Switzerland,Germany,2008,bran_of_mixed_grain,22.0
+211,79,Switzerland,Germany,2009,bran_of_mixed_grain,2.0
+211,79,Switzerland,Germany,2010,bran_of_mixed_grain,7.0
+211,79,Switzerland,Germany,2011,bran_of_mixed_grain,1.0
+211,79,Switzerland,Germany,2012,bran_of_mixed_grain,1.0
+211,79,Switzerland,Germany,2015,bran_of_mixed_grain,3.73
+211,79,Switzerland,Germany,2016,bran_of_mixed_grain,43.61
+211,79,Switzerland,Germany,2017,bran_of_mixed_grain,54.45
+211,79,Switzerland,Germany,2018,bran_of_mixed_grain,46.09
+211,79,Switzerland,Germany,2019,bran_of_mixed_grain,44.8
+211,79,Switzerland,Germany,2020,bran_of_mixed_grain,15.85
+211,79,Switzerland,Germany,2021,bran_of_mixed_grain,0.4
+211,79,Switzerland,Germany,2022,bran_of_mixed_grain,0.23
+211,79,Switzerland,Germany,2023,bran_of_mixed_grain,0.49
+119,230,Latvia,Ukraine,2017,bran_of_mixed_grain,0.01
+68,96,France,"China, Hong Kong SAR",1994,bran_of_mixed_grain,12.0
+68,96,France,"China, Hong Kong SAR",1996,bran_of_mixed_grain,40.0
+68,96,France,"China, Hong Kong SAR",2019,bran_of_mixed_grain,0.2
+68,96,France,"China, Hong Kong SAR",2020,bran_of_mixed_grain,0.19
+68,96,France,"China, Hong Kong SAR",2021,bran_of_mixed_grain,0.01
+68,96,France,"China, Hong Kong SAR",2023,bran_of_mixed_grain,0.01
+119,225,Latvia,United Arab Emirates,2016,bran_of_mixed_grain,0.14
+119,229,Latvia,United Kingdom of Great Britain and Northern Ireland,2017,bran_of_mixed_grain,1.04
+119,229,Latvia,United Kingdom of Great Britain and Northern Ireland,2019,bran_of_mixed_grain,0.1
+119,229,Latvia,United Kingdom of Great Britain and Northern Ireland,2022,bran_of_mixed_grain,508.2
+68,41,France,"China, mainland",1996,bran_of_mixed_grain,20.0
+68,41,France,"China, mainland",2015,bran_of_mixed_grain,0.18
+68,41,France,"China, mainland",2017,bran_of_mixed_grain,0.12
+68,41,France,"China, mainland",2018,bran_of_mixed_grain,2.5
+68,41,France,"China, mainland",2019,bran_of_mixed_grain,5.53
+68,41,France,"China, mainland",2020,bran_of_mixed_grain,1.03
+68,214,France,"China, Taiwan Province of",1995,bran_of_mixed_grain,80.0
+68,214,France,"China, Taiwan Province of",1996,bran_of_mixed_grain,80.0
+68,214,France,"China, Taiwan Province of",2018,bran_of_mixed_grain,0.56
+68,214,France,"China, Taiwan Province of",2019,bran_of_mixed_grain,2.54
+68,214,France,"China, Taiwan Province of",2020,bran_of_mixed_grain,0.56
+211,97,Switzerland,Hungary,2015,bran_of_mixed_grain,0.01
+211,97,Switzerland,Hungary,2020,bran_of_mixed_grain,1.15
+211,97,Switzerland,Hungary,2022,bran_of_mixed_grain,0.11
+68,46,France,Congo,2014,bran_of_mixed_grain,0.2
+211,102,Switzerland,Iran (Islamic Republic of),2018,bran_of_mixed_grain,0.54
+211,102,Switzerland,Iran (Islamic Republic of),2019,bran_of_mixed_grain,0.96
+211,102,Switzerland,Iran (Islamic Republic of),2021,bran_of_mixed_grain,0.58
+68,107,France,Côte d'Ivoire,1993,bran_of_mixed_grain,3.0
+68,107,France,Côte d'Ivoire,1994,bran_of_mixed_grain,2.0
+167,173,Czechia,Poland,2004,bran_of_mixed_grain,11078.0
+167,173,Czechia,Poland,2005,bran_of_mixed_grain,5433.0
+211,105,Switzerland,Israel,2006,bran_of_mixed_grain,50.0
+211,105,Switzerland,Israel,2007,bran_of_mixed_grain,18.0
+211,105,Switzerland,Israel,2018,bran_of_mixed_grain,0.01
+68,98,France,Croatia,2014,bran_of_mixed_grain,0.2
+68,98,France,Croatia,2015,bran_of_mixed_grain,0.06
+68,98,France,Croatia,2018,bran_of_mixed_grain,0.22
+68,98,France,Croatia,2019,bran_of_mixed_grain,0.71
+68,98,France,Croatia,2020,bran_of_mixed_grain,1.72
+68,98,France,Croatia,2021,bran_of_mixed_grain,1.75
+68,98,France,Croatia,2022,bran_of_mixed_grain,3.03
+68,98,France,Croatia,2023,bran_of_mixed_grain,2.68
+211,106,Switzerland,Italy,1990,bran_of_mixed_grain,1.0
+211,106,Switzerland,Italy,1992,bran_of_mixed_grain,1.0
+211,106,Switzerland,Italy,1995,bran_of_mixed_grain,1.0
+211,106,Switzerland,Italy,1996,bran_of_mixed_grain,1.0
+211,106,Switzerland,Italy,2000,bran_of_mixed_grain,1.0
+211,106,Switzerland,Italy,2002,bran_of_mixed_grain,1.0
+223,108,Türkiye,Kazakhstan,1995,bran_of_mixed_grain,1.0
+68,167,France,Czechia,2005,bran_of_mixed_grain,6.0
+68,167,France,Czechia,2006,bran_of_mixed_grain,8.0
+68,167,France,Czechia,2007,bran_of_mixed_grain,13.0
+68,167,France,Czechia,2008,bran_of_mixed_grain,4.0
+68,167,France,Czechia,2009,bran_of_mixed_grain,5.0
+68,167,France,Czechia,2013,bran_of_mixed_grain,1.0
+68,167,France,Czechia,2014,bran_of_mixed_grain,1.1
+68,167,France,Czechia,2015,bran_of_mixed_grain,0.7
+68,167,France,Czechia,2016,bran_of_mixed_grain,1.11
+68,167,France,Czechia,2017,bran_of_mixed_grain,0.3
+68,167,France,Czechia,2018,bran_of_mixed_grain,0.81
+68,167,France,Czechia,2019,bran_of_mixed_grain,2.24
+68,167,France,Czechia,2022,bran_of_mixed_grain,3.59
+68,167,France,Czechia,2023,bran_of_mixed_grain,2.65
+223,121,Türkiye,Lebanon,1995,bran_of_mixed_grain,1.0
+211,118,Switzerland,Kuwait,2015,bran_of_mixed_grain,0.01
+68,54,France,Denmark,2001,bran_of_mixed_grain,9.0
+68,54,France,Denmark,2003,bran_of_mixed_grain,7.0
+68,54,France,Denmark,2004,bran_of_mixed_grain,9.0
+68,54,France,Denmark,2005,bran_of_mixed_grain,3.0
+68,54,France,Denmark,2006,bran_of_mixed_grain,60.0
+68,54,France,Denmark,2007,bran_of_mixed_grain,301.0
+68,54,France,Denmark,2008,bran_of_mixed_grain,334.0
+68,54,France,Denmark,2009,bran_of_mixed_grain,58.0
+68,54,France,Denmark,2014,bran_of_mixed_grain,0.3
+68,54,France,Denmark,2019,bran_of_mixed_grain,0.02
+167,199,Czechia,Slovakia,2004,bran_of_mixed_grain,1557.0
+167,199,Czechia,Slovakia,2005,bran_of_mixed_grain,7995.0
+68,72,France,Djibouti,2018,bran_of_mixed_grain,0.38
+211,150,Switzerland,Netherlands (Kingdom of the),1994,bran_of_mixed_grain,2.0
+211,150,Switzerland,Netherlands (Kingdom of the),2020,bran_of_mixed_grain,0.29
+223,154,Türkiye,North Macedonia,1998,bran_of_mixed_grain,5.0
+68,63,France,Estonia,2014,bran_of_mixed_grain,0.05
+68,63,France,Estonia,2015,bran_of_mixed_grain,0.06
+68,63,France,Estonia,2019,bran_of_mixed_grain,0.01
+68,63,France,Estonia,2022,bran_of_mixed_grain,0.01
+68,67,France,Finland,2009,bran_of_mixed_grain,1.0
+68,67,France,Finland,2019,bran_of_mixed_grain,0.03
+68,69,France,French Guiana,1996,bran_of_mixed_grain,18.0
+68,70,France,French Polynesia,2002,bran_of_mixed_grain,20.0
+68,70,France,French Polynesia,2006,bran_of_mixed_grain,1.0
+68,70,France,French Polynesia,2012,bran_of_mixed_grain,1.0
+68,70,France,French Polynesia,2014,bran_of_mixed_grain,0.7
+68,70,France,French Polynesia,2015,bran_of_mixed_grain,0.36
+68,70,France,French Polynesia,2016,bran_of_mixed_grain,0.03
+68,74,France,Gabon,2014,bran_of_mixed_grain,0.05
+68,74,France,Gabon,2016,bran_of_mixed_grain,0.03
+211,174,Switzerland,Portugal,2002,bran_of_mixed_grain,2.0
+211,174,Switzerland,Portugal,2009,bran_of_mixed_grain,12.0
+68,79,France,Germany,1993,bran_of_mixed_grain,2535.0
+68,79,France,Germany,1994,bran_of_mixed_grain,1693.0
+68,79,France,Germany,1995,bran_of_mixed_grain,1650.0
+68,79,France,Germany,1996,bran_of_mixed_grain,764.0
+68,79,France,Germany,1997,bran_of_mixed_grain,264.0
+68,79,France,Germany,1998,bran_of_mixed_grain,4135.0
+68,79,France,Germany,1999,bran_of_mixed_grain,991.0
+68,79,France,Germany,2000,bran_of_mixed_grain,472.0
+68,79,France,Germany,2001,bran_of_mixed_grain,421.0
+68,79,France,Germany,2002,bran_of_mixed_grain,61.0
+68,79,France,Germany,2003,bran_of_mixed_grain,347.0
+68,79,France,Germany,2004,bran_of_mixed_grain,2144.0
+68,79,France,Germany,2005,bran_of_mixed_grain,1383.0
+68,79,France,Germany,2006,bran_of_mixed_grain,1733.0
+68,79,France,Germany,2007,bran_of_mixed_grain,2232.0
+68,79,France,Germany,2008,bran_of_mixed_grain,1393.0
+68,79,France,Germany,2009,bran_of_mixed_grain,54.0
+68,79,France,Germany,2010,bran_of_mixed_grain,55.0
+68,79,France,Germany,2011,bran_of_mixed_grain,7.0
+68,79,France,Germany,2012,bran_of_mixed_grain,419.0
+68,79,France,Germany,2013,bran_of_mixed_grain,121.0
+68,79,France,Germany,2014,bran_of_mixed_grain,245.6
+68,79,France,Germany,2015,bran_of_mixed_grain,288.52
+68,79,France,Germany,2016,bran_of_mixed_grain,1683.08
+68,79,France,Germany,2017,bran_of_mixed_grain,1257.46
+68,79,France,Germany,2018,bran_of_mixed_grain,1014.22
+68,79,France,Germany,2019,bran_of_mixed_grain,3190.52
+68,79,France,Germany,2020,bran_of_mixed_grain,2633.44
+68,79,France,Germany,2021,bran_of_mixed_grain,2206.07
+68,79,France,Germany,2022,bran_of_mixed_grain,1269.13
+68,79,France,Germany,2023,bran_of_mixed_grain,894.3
+223,198,Türkiye,Slovenia,1996,bran_of_mixed_grain,22.0
+68,84,France,Greece,1998,bran_of_mixed_grain,1.0
+68,84,France,Greece,2005,bran_of_mixed_grain,4.0
+68,84,France,Greece,2006,bran_of_mixed_grain,5.0
+68,84,France,Greece,2007,bran_of_mixed_grain,7.0
+68,84,France,Greece,2008,bran_of_mixed_grain,12.0
+68,84,France,Greece,2009,bran_of_mixed_grain,5.0
+68,84,France,Greece,2010,bran_of_mixed_grain,2.0
+68,84,France,Greece,2011,bran_of_mixed_grain,2.0
+68,84,France,Greece,2012,bran_of_mixed_grain,4.0
+68,84,France,Greece,2013,bran_of_mixed_grain,11.0
+68,84,France,Greece,2014,bran_of_mixed_grain,4.2
+68,84,France,Greece,2015,bran_of_mixed_grain,0.56
+68,84,France,Greece,2016,bran_of_mixed_grain,0.63
+68,84,France,Greece,2017,bran_of_mixed_grain,16.79
+68,84,France,Greece,2022,bran_of_mixed_grain,0.15
+211,203,Switzerland,Spain,1994,bran_of_mixed_grain,1.0
+211,203,Switzerland,Spain,2022,bran_of_mixed_grain,11.45
+68,87,France,Guadeloupe,1993,bran_of_mixed_grain,15.0
+223,211,Türkiye,Switzerland,1998,bran_of_mixed_grain,77.0
+211,210,Switzerland,Sweden,1989,bran_of_mixed_grain,3.0
+68,90,France,Guinea,2017,bran_of_mixed_grain,0.02
+68,97,France,Hungary,2005,bran_of_mixed_grain,10.0
+68,97,France,Hungary,2006,bran_of_mixed_grain,9.0
+68,97,France,Hungary,2007,bran_of_mixed_grain,2.0
+68,97,France,Hungary,2014,bran_of_mixed_grain,2.4
+68,97,France,Hungary,2015,bran_of_mixed_grain,1.16
+68,97,France,Hungary,2016,bran_of_mixed_grain,0.58
+68,97,France,Hungary,2017,bran_of_mixed_grain,0.55
+68,97,France,Hungary,2018,bran_of_mixed_grain,2.76
+68,97,France,Hungary,2019,bran_of_mixed_grain,0.89
+68,97,France,Hungary,2020,bran_of_mixed_grain,0.78
+68,97,France,Hungary,2021,bran_of_mixed_grain,2.54
+68,97,France,Hungary,2022,bran_of_mixed_grain,10.83
+68,97,France,Hungary,2023,bran_of_mixed_grain,9.23
+68,100,France,India,2019,bran_of_mixed_grain,0.06
+68,100,France,India,2021,bran_of_mixed_grain,1.21
+223,225,Türkiye,United Arab Emirates,1988,bran_of_mixed_grain,50.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,2018,bran_of_mixed_grain,0.01
+68,101,France,Indonesia,1995,bran_of_mixed_grain,120.0
+68,101,France,Indonesia,1996,bran_of_mixed_grain,120.0
+68,101,France,Indonesia,2017,bran_of_mixed_grain,0.08
+68,101,France,Indonesia,2018,bran_of_mixed_grain,0.43
+68,101,France,Indonesia,2019,bran_of_mixed_grain,0.62
+68,101,France,Indonesia,2020,bran_of_mixed_grain,0.41
+68,101,France,Indonesia,2021,bran_of_mixed_grain,0.78
+68,101,France,Indonesia,2022,bran_of_mixed_grain,5.67
+68,101,France,Indonesia,2023,bran_of_mixed_grain,1.26
+68,104,France,Ireland,1999,bran_of_mixed_grain,521.0
+68,104,France,Ireland,2015,bran_of_mixed_grain,2.6
+211,231,Switzerland,United States of America,1988,bran_of_mixed_grain,70.0
+211,231,Switzerland,United States of America,1989,bran_of_mixed_grain,90.0
+211,231,Switzerland,United States of America,2003,bran_of_mixed_grain,2.0
+211,231,Switzerland,United States of America,2021,bran_of_mixed_grain,0.02
+68,105,France,Israel,2013,bran_of_mixed_grain,19.0
+68,106,France,Italy,1993,bran_of_mixed_grain,12685.0
+68,106,France,Italy,1994,bran_of_mixed_grain,2196.0
+68,106,France,Italy,1995,bran_of_mixed_grain,2396.0
+68,106,France,Italy,1996,bran_of_mixed_grain,2594.0
+68,106,France,Italy,1997,bran_of_mixed_grain,1314.0
+68,106,France,Italy,1998,bran_of_mixed_grain,1747.0
+68,106,France,Italy,1999,bran_of_mixed_grain,994.0
+68,106,France,Italy,2000,bran_of_mixed_grain,1229.0
+68,106,France,Italy,2001,bran_of_mixed_grain,534.0
+68,106,France,Italy,2002,bran_of_mixed_grain,1108.0
+68,106,France,Italy,2003,bran_of_mixed_grain,1249.0
+68,106,France,Italy,2004,bran_of_mixed_grain,1244.0
+68,106,France,Italy,2006,bran_of_mixed_grain,29.0
+68,106,France,Italy,2007,bran_of_mixed_grain,27.0
+68,106,France,Italy,2008,bran_of_mixed_grain,52.0
+68,106,France,Italy,2009,bran_of_mixed_grain,357.0
+68,106,France,Italy,2010,bran_of_mixed_grain,5.0
+68,106,France,Italy,2011,bran_of_mixed_grain,3.0
+68,106,France,Italy,2012,bran_of_mixed_grain,22.0
+68,106,France,Italy,2013,bran_of_mixed_grain,2344.0
+68,106,France,Italy,2014,bran_of_mixed_grain,399.3
+68,106,France,Italy,2015,bran_of_mixed_grain,257.5
+68,106,France,Italy,2016,bran_of_mixed_grain,336.77
+68,106,France,Italy,2017,bran_of_mixed_grain,311.1
+68,106,France,Italy,2018,bran_of_mixed_grain,276.08
+68,106,France,Italy,2019,bran_of_mixed_grain,242.36
+68,106,France,Italy,2020,bran_of_mixed_grain,238.12
+68,106,France,Italy,2021,bran_of_mixed_grain,295.93
+68,106,France,Italy,2022,bran_of_mixed_grain,269.51
+68,106,France,Italy,2023,bran_of_mixed_grain,193.83
+68,110,France,Japan,2016,bran_of_mixed_grain,0.02
+68,110,France,Japan,2021,bran_of_mixed_grain,0.07
+68,112,France,Jordan,2014,bran_of_mixed_grain,0.84
+68,114,France,Kenya,2019,bran_of_mixed_grain,1.0
+68,118,France,Kuwait,2014,bran_of_mixed_grain,0.5
+68,119,France,Latvia,2022,bran_of_mixed_grain,0.17
+68,121,France,Lebanon,2010,bran_of_mixed_grain,1.0
+68,121,France,Lebanon,2011,bran_of_mixed_grain,3.0
+68,121,France,Lebanon,2012,bran_of_mixed_grain,4.0
+68,121,France,Lebanon,2013,bran_of_mixed_grain,2.0
+68,121,France,Lebanon,2014,bran_of_mixed_grain,1.2
+68,121,France,Lebanon,2015,bran_of_mixed_grain,0.7
+68,124,France,Libya,2014,bran_of_mixed_grain,74.6
+68,124,France,Libya,2015,bran_of_mixed_grain,50.2
+68,126,France,Lithuania,2016,bran_of_mixed_grain,0.06
+68,126,France,Lithuania,2022,bran_of_mixed_grain,0.08
+68,256,France,Luxembourg,2002,bran_of_mixed_grain,27.0
+68,256,France,Luxembourg,2005,bran_of_mixed_grain,11.0
+68,256,France,Luxembourg,2006,bran_of_mixed_grain,15.0
+68,256,France,Luxembourg,2007,bran_of_mixed_grain,17.0
+68,256,France,Luxembourg,2008,bran_of_mixed_grain,28.0
+68,256,France,Luxembourg,2009,bran_of_mixed_grain,1.0
+68,256,France,Luxembourg,2010,bran_of_mixed_grain,73.0
+68,256,France,Luxembourg,2011,bran_of_mixed_grain,181.0
+68,256,France,Luxembourg,2012,bran_of_mixed_grain,116.0
+68,256,France,Luxembourg,2013,bran_of_mixed_grain,8.0
+68,256,France,Luxembourg,2014,bran_of_mixed_grain,5.5
+68,256,France,Luxembourg,2015,bran_of_mixed_grain,66.76
+68,256,France,Luxembourg,2016,bran_of_mixed_grain,8.11
+68,256,France,Luxembourg,2017,bran_of_mixed_grain,9.35
+68,256,France,Luxembourg,2018,bran_of_mixed_grain,148.33
+68,256,France,Luxembourg,2019,bran_of_mixed_grain,56.52
+68,256,France,Luxembourg,2020,bran_of_mixed_grain,28.51
+68,256,France,Luxembourg,2021,bran_of_mixed_grain,14.43
+68,256,France,Luxembourg,2022,bran_of_mixed_grain,3.82
+68,256,France,Luxembourg,2023,bran_of_mixed_grain,1.5
+68,129,France,Madagascar,2016,bran_of_mixed_grain,0.11
+68,129,France,Madagascar,2017,bran_of_mixed_grain,0.04
+68,133,France,Mali,2018,bran_of_mixed_grain,1.24
+68,134,France,Malta,2019,bran_of_mixed_grain,0.39
+68,134,France,Malta,2020,bran_of_mixed_grain,0.23
+68,137,France,Mauritius,2014,bran_of_mixed_grain,0.15
+68,137,France,Mauritius,2015,bran_of_mixed_grain,0.1
+68,137,France,Mauritius,2016,bran_of_mixed_grain,0.04
+68,143,France,Morocco,1993,bran_of_mixed_grain,2940.0
+68,143,France,Morocco,1995,bran_of_mixed_grain,2162.0
+68,143,France,Morocco,1996,bran_of_mixed_grain,2463.0
+68,143,France,Morocco,1997,bran_of_mixed_grain,9260.0
+68,143,France,Morocco,1998,bran_of_mixed_grain,22717.0
+68,143,France,Morocco,1999,bran_of_mixed_grain,11905.0
+68,143,France,Morocco,2000,bran_of_mixed_grain,12329.0
+68,143,France,Morocco,2001,bran_of_mixed_grain,6699.0
+68,143,France,Morocco,2002,bran_of_mixed_grain,8970.0
+68,143,France,Morocco,2003,bran_of_mixed_grain,4021.0
+68,143,France,Morocco,2007,bran_of_mixed_grain,4.0
+68,143,France,Morocco,2009,bran_of_mixed_grain,3300.0
+68,143,France,Morocco,2013,bran_of_mixed_grain,2.0
+68,143,France,Morocco,2014,bran_of_mixed_grain,3069.1
+68,143,France,Morocco,2015,bran_of_mixed_grain,6323.9
+68,143,France,Morocco,2016,bran_of_mixed_grain,2000.07
+68,143,France,Morocco,2017,bran_of_mixed_grain,20.05
+68,143,France,Morocco,2018,bran_of_mixed_grain,1.38
+68,143,France,Morocco,2019,bran_of_mixed_grain,8.99
+68,143,France,Morocco,2020,bran_of_mixed_grain,16.77
+68,143,France,Morocco,2021,bran_of_mixed_grain,0.9
+68,143,France,Morocco,2022,bran_of_mixed_grain,0.83
+68,143,France,Morocco,2023,bran_of_mixed_grain,2.05
+68,150,France,Netherlands (Kingdom of the),1993,bran_of_mixed_grain,6420.0
+68,150,France,Netherlands (Kingdom of the),1994,bran_of_mixed_grain,9452.0
+68,150,France,Netherlands (Kingdom of the),1995,bran_of_mixed_grain,7818.0
+68,150,France,Netherlands (Kingdom of the),1996,bran_of_mixed_grain,9639.0
+68,150,France,Netherlands (Kingdom of the),1997,bran_of_mixed_grain,11881.0
+68,150,France,Netherlands (Kingdom of the),1998,bran_of_mixed_grain,15082.0
+68,150,France,Netherlands (Kingdom of the),1999,bran_of_mixed_grain,4903.0
+68,150,France,Netherlands (Kingdom of the),2000,bran_of_mixed_grain,4623.0
+68,150,France,Netherlands (Kingdom of the),2001,bran_of_mixed_grain,3080.0
+68,150,France,Netherlands (Kingdom of the),2002,bran_of_mixed_grain,2856.0
+68,150,France,Netherlands (Kingdom of the),2003,bran_of_mixed_grain,3468.0
+68,150,France,Netherlands (Kingdom of the),2004,bran_of_mixed_grain,3671.0
+68,150,France,Netherlands (Kingdom of the),2005,bran_of_mixed_grain,3012.0
+68,150,France,Netherlands (Kingdom of the),2006,bran_of_mixed_grain,1733.0
+68,150,France,Netherlands (Kingdom of the),2007,bran_of_mixed_grain,1449.0
+68,150,France,Netherlands (Kingdom of the),2008,bran_of_mixed_grain,987.0
+68,150,France,Netherlands (Kingdom of the),2009,bran_of_mixed_grain,3213.0
+68,150,France,Netherlands (Kingdom of the),2010,bran_of_mixed_grain,2054.0
+68,150,France,Netherlands (Kingdom of the),2011,bran_of_mixed_grain,1232.0
+68,150,France,Netherlands (Kingdom of the),2012,bran_of_mixed_grain,87.0
+68,150,France,Netherlands (Kingdom of the),2013,bran_of_mixed_grain,718.0
+68,150,France,Netherlands (Kingdom of the),2014,bran_of_mixed_grain,317.7
+68,150,France,Netherlands (Kingdom of the),2015,bran_of_mixed_grain,539.76
+68,150,France,Netherlands (Kingdom of the),2016,bran_of_mixed_grain,1450.14
+68,150,France,Netherlands (Kingdom of the),2017,bran_of_mixed_grain,936.72
+68,150,France,Netherlands (Kingdom of the),2018,bran_of_mixed_grain,1626.99
+68,150,France,Netherlands (Kingdom of the),2019,bran_of_mixed_grain,1758.62
+68,150,France,Netherlands (Kingdom of the),2020,bran_of_mixed_grain,6794.39
+68,150,France,Netherlands (Kingdom of the),2021,bran_of_mixed_grain,8044.5
+68,150,France,Netherlands (Kingdom of the),2022,bran_of_mixed_grain,7339.75
+68,150,France,Netherlands (Kingdom of the),2023,bran_of_mixed_grain,3198.39
+68,153,France,New Caledonia,2010,bran_of_mixed_grain,6.0
+68,153,France,New Caledonia,2011,bran_of_mixed_grain,1.0
+68,153,France,New Caledonia,2017,bran_of_mixed_grain,0.04
+68,153,France,New Caledonia,2018,bran_of_mixed_grain,5.26
+68,153,France,New Caledonia,2019,bran_of_mixed_grain,3.75
+68,153,France,New Caledonia,2020,bran_of_mixed_grain,10.77
+68,153,France,New Caledonia,2021,bran_of_mixed_grain,13.57
+68,153,France,New Caledonia,2023,bran_of_mixed_grain,4.14
+68,156,France,New Zealand,2018,bran_of_mixed_grain,0.18
+68,158,France,Niger,2018,bran_of_mixed_grain,0.75
+68,171,France,Philippines,1995,bran_of_mixed_grain,120.0
+68,173,France,Poland,2001,bran_of_mixed_grain,2.0
+68,173,France,Poland,2003,bran_of_mixed_grain,2.0
+68,173,France,Poland,2004,bran_of_mixed_grain,11.0
+68,173,France,Poland,2005,bran_of_mixed_grain,3.0
+68,173,France,Poland,2006,bran_of_mixed_grain,7.0
+68,173,France,Poland,2008,bran_of_mixed_grain,2.0
+68,173,France,Poland,2011,bran_of_mixed_grain,7.0
+68,173,France,Poland,2012,bran_of_mixed_grain,8.0
+68,173,France,Poland,2013,bran_of_mixed_grain,4.0
+68,173,France,Poland,2014,bran_of_mixed_grain,14.2
+68,173,France,Poland,2015,bran_of_mixed_grain,13.9
+68,173,France,Poland,2016,bran_of_mixed_grain,2.98
+68,173,France,Poland,2017,bran_of_mixed_grain,2.6
+68,173,France,Poland,2018,bran_of_mixed_grain,9.16
+68,173,France,Poland,2019,bran_of_mixed_grain,11.51
+68,173,France,Poland,2020,bran_of_mixed_grain,18.04
+68,173,France,Poland,2021,bran_of_mixed_grain,16.94
+68,173,France,Poland,2022,bran_of_mixed_grain,39.82
+68,173,France,Poland,2023,bran_of_mixed_grain,21.19
+68,174,France,Portugal,1995,bran_of_mixed_grain,11.0
+68,174,France,Portugal,2000,bran_of_mixed_grain,280.0
+68,174,France,Portugal,2001,bran_of_mixed_grain,257.0
+68,174,France,Portugal,2002,bran_of_mixed_grain,250.0
+68,174,France,Portugal,2003,bran_of_mixed_grain,83.0
+68,174,France,Portugal,2004,bran_of_mixed_grain,16.0
+68,174,France,Portugal,2005,bran_of_mixed_grain,1207.0
+68,174,France,Portugal,2006,bran_of_mixed_grain,35.0
+68,174,France,Portugal,2007,bran_of_mixed_grain,8.0
+68,174,France,Portugal,2008,bran_of_mixed_grain,30.0
+68,174,France,Portugal,2009,bran_of_mixed_grain,53.0
+68,174,France,Portugal,2010,bran_of_mixed_grain,27.0
+68,174,France,Portugal,2011,bran_of_mixed_grain,16.0
+68,174,France,Portugal,2012,bran_of_mixed_grain,27.0
+68,174,France,Portugal,2013,bran_of_mixed_grain,26.0
+68,174,France,Portugal,2014,bran_of_mixed_grain,11.4
+68,174,France,Portugal,2015,bran_of_mixed_grain,4.0
+68,174,France,Portugal,2016,bran_of_mixed_grain,3.14
+68,174,France,Portugal,2017,bran_of_mixed_grain,3.1
+68,174,France,Portugal,2018,bran_of_mixed_grain,3.4
+68,174,France,Portugal,2019,bran_of_mixed_grain,3.18
+68,174,France,Portugal,2020,bran_of_mixed_grain,2.26
+68,174,France,Portugal,2021,bran_of_mixed_grain,3.18
+68,174,France,Portugal,2022,bran_of_mixed_grain,4.07
+68,174,France,Portugal,2023,bran_of_mixed_grain,28.35
+68,117,France,Republic of Korea,2018,bran_of_mixed_grain,0.7
+68,117,France,Republic of Korea,2019,bran_of_mixed_grain,1.51
+68,182,France,Réunion,1996,bran_of_mixed_grain,16.0
+68,183,France,Romania,2007,bran_of_mixed_grain,190.0
+68,183,France,Romania,2008,bran_of_mixed_grain,469.0
+68,183,France,Romania,2009,bran_of_mixed_grain,10.0
+68,183,France,Romania,2010,bran_of_mixed_grain,2.0
+68,183,France,Romania,2011,bran_of_mixed_grain,34.0
+68,183,France,Romania,2012,bran_of_mixed_grain,47.0
+68,183,France,Romania,2013,bran_of_mixed_grain,54.0
+68,183,France,Romania,2014,bran_of_mixed_grain,18.1
+68,183,France,Romania,2015,bran_of_mixed_grain,0.7
+68,183,France,Romania,2016,bran_of_mixed_grain,0.72
+68,183,France,Romania,2017,bran_of_mixed_grain,2.07
+68,183,France,Romania,2018,bran_of_mixed_grain,2.45
+68,183,France,Romania,2019,bran_of_mixed_grain,2.02
+68,183,France,Romania,2020,bran_of_mixed_grain,0.18
+68,183,France,Romania,2021,bran_of_mixed_grain,0.65
+68,183,France,Romania,2022,bran_of_mixed_grain,11.4
+68,183,France,Romania,2023,bran_of_mixed_grain,12.71
+68,185,France,Russian Federation,2015,bran_of_mixed_grain,1.2
+68,185,France,Russian Federation,2016,bran_of_mixed_grain,2.03
+68,185,France,Russian Federation,2021,bran_of_mixed_grain,11.88
+68,194,France,Saudi Arabia,2013,bran_of_mixed_grain,2.0
+68,194,France,Saudi Arabia,2014,bran_of_mixed_grain,4.4
+68,194,France,Saudi Arabia,2015,bran_of_mixed_grain,0.7
+68,194,France,Saudi Arabia,2017,bran_of_mixed_grain,0.65
+68,194,France,Saudi Arabia,2019,bran_of_mixed_grain,0.08
+68,195,France,Senegal,2014,bran_of_mixed_grain,0.1
+68,195,France,Senegal,2016,bran_of_mixed_grain,0.04
+68,195,France,Senegal,2021,bran_of_mixed_grain,5.31
+68,200,France,Singapore,2001,bran_of_mixed_grain,3.0
+68,200,France,Singapore,2017,bran_of_mixed_grain,0.05
+68,200,France,Singapore,2018,bran_of_mixed_grain,0.58
+68,200,France,Singapore,2019,bran_of_mixed_grain,0.56
+68,200,France,Singapore,2020,bran_of_mixed_grain,0.57
+68,199,France,Slovakia,2008,bran_of_mixed_grain,7.0
+68,199,France,Slovakia,2018,bran_of_mixed_grain,0.53
+68,199,France,Slovakia,2019,bran_of_mixed_grain,0.01
+68,199,France,Slovakia,2022,bran_of_mixed_grain,1.8
+68,199,France,Slovakia,2023,bran_of_mixed_grain,0.69
+68,198,France,Slovenia,1994,bran_of_mixed_grain,6.0
+68,198,France,Slovenia,2002,bran_of_mixed_grain,1.0
+68,198,France,Slovenia,2003,bran_of_mixed_grain,1.0
+68,198,France,Slovenia,2008,bran_of_mixed_grain,1.0
+68,198,France,Slovenia,2010,bran_of_mixed_grain,6.0
+68,198,France,Slovenia,2013,bran_of_mixed_grain,3.0
+68,198,France,Slovenia,2014,bran_of_mixed_grain,1.1
+68,198,France,Slovenia,2015,bran_of_mixed_grain,0.56
+68,198,France,Slovenia,2016,bran_of_mixed_grain,0.2
+68,198,France,Slovenia,2017,bran_of_mixed_grain,0.7
+68,198,France,Slovenia,2018,bran_of_mixed_grain,1.04
+68,198,France,Slovenia,2019,bran_of_mixed_grain,0.5
+68,198,France,Slovenia,2020,bran_of_mixed_grain,0.26
+68,198,France,Slovenia,2022,bran_of_mixed_grain,0.36
+68,198,France,Slovenia,2023,bran_of_mixed_grain,0.45
+68,202,France,South Africa,2021,bran_of_mixed_grain,0.8
+68,202,France,South Africa,2022,bran_of_mixed_grain,0.5
+68,202,France,South Africa,2023,bran_of_mixed_grain,0.15
+68,203,France,Spain,1993,bran_of_mixed_grain,2175.0
+68,203,France,Spain,1994,bran_of_mixed_grain,134.0
+68,203,France,Spain,1995,bran_of_mixed_grain,300.0
+68,203,France,Spain,1996,bran_of_mixed_grain,223.0
+68,203,France,Spain,1997,bran_of_mixed_grain,383.0
+68,203,France,Spain,1998,bran_of_mixed_grain,545.0
+68,203,France,Spain,1999,bran_of_mixed_grain,795.0
+68,203,France,Spain,2000,bran_of_mixed_grain,3881.0
+68,203,France,Spain,2001,bran_of_mixed_grain,5913.0
+68,203,France,Spain,2002,bran_of_mixed_grain,5301.0
+68,203,France,Spain,2003,bran_of_mixed_grain,3537.0
+68,203,France,Spain,2004,bran_of_mixed_grain,5966.0
+68,203,France,Spain,2005,bran_of_mixed_grain,4078.0
+68,203,France,Spain,2006,bran_of_mixed_grain,96.0
+68,203,France,Spain,2007,bran_of_mixed_grain,64.0
+68,203,France,Spain,2008,bran_of_mixed_grain,84.0
+68,203,France,Spain,2009,bran_of_mixed_grain,575.0
+68,203,France,Spain,2010,bran_of_mixed_grain,3133.0
+68,203,France,Spain,2011,bran_of_mixed_grain,1061.0
+68,203,France,Spain,2012,bran_of_mixed_grain,283.0
+68,203,France,Spain,2013,bran_of_mixed_grain,999.0
+68,203,France,Spain,2014,bran_of_mixed_grain,618.9
+68,203,France,Spain,2015,bran_of_mixed_grain,560.0
+68,203,France,Spain,2016,bran_of_mixed_grain,1575.85
+68,203,France,Spain,2017,bran_of_mixed_grain,2976.26
+68,203,France,Spain,2018,bran_of_mixed_grain,3165.31
+68,203,France,Spain,2019,bran_of_mixed_grain,3706.59
+68,203,France,Spain,2020,bran_of_mixed_grain,4612.61
+68,203,France,Spain,2021,bran_of_mixed_grain,6784.68
+68,203,France,Spain,2022,bran_of_mixed_grain,6948.99
+68,203,France,Spain,2023,bran_of_mixed_grain,6803.71
+68,210,France,Sweden,1993,bran_of_mixed_grain,9.0
+68,210,France,Sweden,1996,bran_of_mixed_grain,7.0
+68,210,France,Sweden,1999,bran_of_mixed_grain,20.0
+68,210,France,Sweden,2000,bran_of_mixed_grain,6.0
+68,210,France,Sweden,2001,bran_of_mixed_grain,4.0
+68,210,France,Sweden,2002,bran_of_mixed_grain,3.0
+68,210,France,Sweden,2005,bran_of_mixed_grain,4.0
+68,210,France,Sweden,2006,bran_of_mixed_grain,2.0
+68,210,France,Sweden,2007,bran_of_mixed_grain,7.0
+68,210,France,Sweden,2008,bran_of_mixed_grain,6.0
+68,210,France,Sweden,2013,bran_of_mixed_grain,1.0
+68,210,France,Sweden,2014,bran_of_mixed_grain,0.2
+68,210,France,Sweden,2015,bran_of_mixed_grain,0.06
+68,210,France,Sweden,2017,bran_of_mixed_grain,0.06
+68,210,France,Sweden,2018,bran_of_mixed_grain,0.02
+68,210,France,Sweden,2019,bran_of_mixed_grain,2.23
+68,210,France,Sweden,2020,bran_of_mixed_grain,4.77
+68,210,France,Sweden,2023,bran_of_mixed_grain,4.43
+68,211,France,Switzerland,1993,bran_of_mixed_grain,8.0
+68,211,France,Switzerland,1994,bran_of_mixed_grain,7.0
+68,211,France,Switzerland,1995,bran_of_mixed_grain,7.0
+68,211,France,Switzerland,1996,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,1997,bran_of_mixed_grain,3.0
+68,211,France,Switzerland,1998,bran_of_mixed_grain,4.0
+68,211,France,Switzerland,1999,bran_of_mixed_grain,2.0
+68,211,France,Switzerland,2000,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,2002,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,2005,bran_of_mixed_grain,31.0
+68,211,France,Switzerland,2006,bran_of_mixed_grain,31.0
+68,211,France,Switzerland,2007,bran_of_mixed_grain,21.0
+68,211,France,Switzerland,2008,bran_of_mixed_grain,25.0
+68,211,France,Switzerland,2009,bran_of_mixed_grain,9.0
+68,211,France,Switzerland,2010,bran_of_mixed_grain,132.0
+68,211,France,Switzerland,2011,bran_of_mixed_grain,8.0
+68,211,France,Switzerland,2013,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,2014,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,2015,bran_of_mixed_grain,1.0
+68,211,France,Switzerland,2016,bran_of_mixed_grain,791.6
+68,211,France,Switzerland,2017,bran_of_mixed_grain,3014.55
+68,211,France,Switzerland,2018,bran_of_mixed_grain,831.58
+68,211,France,Switzerland,2019,bran_of_mixed_grain,82.67
+68,211,France,Switzerland,2020,bran_of_mixed_grain,1632.97
+68,211,France,Switzerland,2021,bran_of_mixed_grain,1063.39
+68,211,France,Switzerland,2022,bran_of_mixed_grain,1336.0
+68,211,France,Switzerland,2023,bran_of_mixed_grain,1105.63
+68,216,France,Thailand,1995,bran_of_mixed_grain,720.0
+68,216,France,Thailand,1996,bran_of_mixed_grain,660.0
+68,216,France,Thailand,1997,bran_of_mixed_grain,20.0
+68,216,France,Thailand,2020,bran_of_mixed_grain,0.05
+68,216,France,Thailand,2022,bran_of_mixed_grain,0.13
+68,216,France,Thailand,2023,bran_of_mixed_grain,0.24
+68,217,France,Togo,2004,bran_of_mixed_grain,2.0
+68,222,France,Tunisia,2005,bran_of_mixed_grain,1.0
+68,222,France,Tunisia,2011,bran_of_mixed_grain,1.0
+68,222,France,Tunisia,2015,bran_of_mixed_grain,4.1
+68,222,France,Tunisia,2016,bran_of_mixed_grain,1.13
+68,222,France,Tunisia,2017,bran_of_mixed_grain,28.54
+68,222,France,Tunisia,2019,bran_of_mixed_grain,2.02
+68,222,France,Tunisia,2020,bran_of_mixed_grain,4.51
+68,222,France,Tunisia,2021,bran_of_mixed_grain,1.65
+68,222,France,Tunisia,2022,bran_of_mixed_grain,0.48
+68,222,France,Tunisia,2023,bran_of_mixed_grain,0.51
+68,223,France,Türkiye,2016,bran_of_mixed_grain,21.0
+68,223,France,Türkiye,2019,bran_of_mixed_grain,0.4
+68,223,France,Türkiye,2020,bran_of_mixed_grain,0.62
+68,223,France,Türkiye,2021,bran_of_mixed_grain,3.14
+68,223,France,Türkiye,2022,bran_of_mixed_grain,2.0
+68,230,France,Ukraine,2021,bran_of_mixed_grain,0.01
+68,225,France,United Arab Emirates,2001,bran_of_mixed_grain,1.0
+68,225,France,United Arab Emirates,2014,bran_of_mixed_grain,0.1
+68,225,France,United Arab Emirates,2018,bran_of_mixed_grain,0.01
+68,225,France,United Arab Emirates,2020,bran_of_mixed_grain,0.07
+68,225,France,United Arab Emirates,2023,bran_of_mixed_grain,0.15
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1993,bran_of_mixed_grain,17918.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1994,bran_of_mixed_grain,11648.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1995,bran_of_mixed_grain,605.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1996,bran_of_mixed_grain,560.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1997,bran_of_mixed_grain,338.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1998,bran_of_mixed_grain,92.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1999,bran_of_mixed_grain,91.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2000,bran_of_mixed_grain,72.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2001,bran_of_mixed_grain,72.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2003,bran_of_mixed_grain,6.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2004,bran_of_mixed_grain,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2005,bran_of_mixed_grain,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2006,bran_of_mixed_grain,7.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2007,bran_of_mixed_grain,30.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2008,bran_of_mixed_grain,214.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2009,bran_of_mixed_grain,52.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2013,bran_of_mixed_grain,2.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2014,bran_of_mixed_grain,4.2
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2015,bran_of_mixed_grain,8.7
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2016,bran_of_mixed_grain,10.45
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2017,bran_of_mixed_grain,22.86
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2018,bran_of_mixed_grain,4.71
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2019,bran_of_mixed_grain,8.65
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2020,bran_of_mixed_grain,6.59
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,bran_of_mixed_grain,0.07
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2022,bran_of_mixed_grain,2.24
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2023,bran_of_mixed_grain,9.6
+68,231,France,United States of America,2017,bran_of_mixed_grain,0.17
+68,231,France,United States of America,2018,bran_of_mixed_grain,44.76
+68,231,France,United States of America,2020,bran_of_mixed_grain,0.2
+68,231,France,United States of America,2023,bran_of_mixed_grain,30.35
+68,237,France,Viet Nam,2019,bran_of_mixed_grain,0.08

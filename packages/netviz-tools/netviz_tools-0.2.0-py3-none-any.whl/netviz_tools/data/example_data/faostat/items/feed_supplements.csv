@@ -1,0 +1,2792 @@
+o_code,d_code,o_name,d_name,year,item,weight
+200,2,Singapore,Afghanistan,2020,feed_supplements,20.07
+200,3,Singapore,Albania,2001,feed_supplements,30.0
+9,4,Argentina,Algeria,2013,feed_supplements,30628.0
+9,7,Argentina,Angola,2012,feed_supplements,110.0
+9,7,Argentina,Angola,2013,feed_supplements,220.0
+9,7,Argentina,Angola,2015,feed_supplements,22.0
+10,9,Australia,Argentina,1994,feed_supplements,25.0
+200,9,Singapore,Argentina,2007,feed_supplements,2.0
+200,9,Singapore,Argentina,2008,feed_supplements,3.0
+200,9,Singapore,Argentina,2009,feed_supplements,20.0
+200,9,Singapore,Argentina,2010,feed_supplements,20.0
+200,9,Singapore,Argentina,2011,feed_supplements,21.0
+200,9,Singapore,Argentina,2012,feed_supplements,20.0
+200,9,Singapore,Argentina,2015,feed_supplements,0.16
+200,9,Singapore,Argentina,2016,feed_supplements,3.33
+200,9,Singapore,Argentina,2018,feed_supplements,0.03
+200,9,Singapore,Argentina,2021,feed_supplements,0.01
+9,10,Argentina,Australia,2012,feed_supplements,143.0
+9,10,Argentina,Australia,2013,feed_supplements,1081.0
+9,10,Argentina,Australia,2014,feed_supplements,1081.2
+9,10,Argentina,Australia,2015,feed_supplements,2570.4
+9,10,Argentina,Australia,2016,feed_supplements,693.6
+9,10,Argentina,Australia,2017,feed_supplements,287.12
+4,32,Algeria,Cameroon,1991,feed_supplements,3.0
+9,13,Argentina,Bahrain,2014,feed_supplements,0.18
+9,13,Argentina,Bahrain,2015,feed_supplements,0.06
+9,13,Argentina,Bahrain,2016,feed_supplements,0.08
+231,8,United States of America,Antigua and Barbuda,1988,feed_supplements,26.0
+9,16,Argentina,Bangladesh,2010,feed_supplements,10.0
+9,16,Argentina,Bangladesh,2011,feed_supplements,72.0
+9,16,Argentina,Bangladesh,2012,feed_supplements,451.0
+9,16,Argentina,Bangladesh,2013,feed_supplements,2095.0
+9,16,Argentina,Bangladesh,2015,feed_supplements,0.1
+101,10,Indonesia,Australia,1996,feed_supplements,192.0
+101,10,Indonesia,Australia,1997,feed_supplements,57.0
+101,10,Indonesia,Australia,1998,feed_supplements,326.0
+101,10,Indonesia,Australia,1999,feed_supplements,842.0
+101,10,Indonesia,Australia,2000,feed_supplements,458.0
+101,10,Indonesia,Australia,2001,feed_supplements,895.0
+101,10,Indonesia,Australia,2002,feed_supplements,882.0
+101,10,Indonesia,Australia,2003,feed_supplements,1387.0
+101,10,Indonesia,Australia,2004,feed_supplements,3755.0
+101,10,Indonesia,Australia,2005,feed_supplements,4812.0
+101,10,Indonesia,Australia,2006,feed_supplements,1351.0
+101,10,Indonesia,Australia,2008,feed_supplements,7.0
+101,10,Indonesia,Australia,2009,feed_supplements,169.0
+200,10,Singapore,Australia,1988,feed_supplements,47.0
+200,10,Singapore,Australia,1989,feed_supplements,45.0
+200,10,Singapore,Australia,1990,feed_supplements,49.0
+200,10,Singapore,Australia,1991,feed_supplements,103.0
+200,10,Singapore,Australia,1992,feed_supplements,541.0
+200,10,Singapore,Australia,1993,feed_supplements,279.0
+200,10,Singapore,Australia,1994,feed_supplements,271.0
+200,10,Singapore,Australia,1995,feed_supplements,282.0
+200,10,Singapore,Australia,1996,feed_supplements,520.0
+200,10,Singapore,Australia,1997,feed_supplements,1195.0
+200,10,Singapore,Australia,1998,feed_supplements,891.0
+200,10,Singapore,Australia,1999,feed_supplements,907.0
+200,10,Singapore,Australia,2000,feed_supplements,840.0
+200,10,Singapore,Australia,2001,feed_supplements,799.0
+200,10,Singapore,Australia,2002,feed_supplements,1121.0
+200,10,Singapore,Australia,2003,feed_supplements,844.0
+200,10,Singapore,Australia,2004,feed_supplements,777.0
+200,10,Singapore,Australia,2005,feed_supplements,1039.0
+200,10,Singapore,Australia,2006,feed_supplements,825.0
+200,10,Singapore,Australia,2007,feed_supplements,1122.0
+200,10,Singapore,Australia,2008,feed_supplements,981.0
+200,10,Singapore,Australia,2009,feed_supplements,1077.0
+200,10,Singapore,Australia,2010,feed_supplements,1025.0
+200,10,Singapore,Australia,2011,feed_supplements,1962.0
+200,10,Singapore,Australia,2012,feed_supplements,1633.0
+200,10,Singapore,Australia,2013,feed_supplements,1695.0
+200,10,Singapore,Australia,2014,feed_supplements,1468.85
+200,10,Singapore,Australia,2015,feed_supplements,1657.27
+200,10,Singapore,Australia,2016,feed_supplements,2152.89
+200,10,Singapore,Australia,2017,feed_supplements,1892.47
+200,10,Singapore,Australia,2018,feed_supplements,2555.14
+200,10,Singapore,Australia,2019,feed_supplements,2691.8
+200,10,Singapore,Australia,2020,feed_supplements,1847.65
+200,10,Singapore,Australia,2021,feed_supplements,2721.31
+200,10,Singapore,Australia,2022,feed_supplements,3120.61
+200,10,Singapore,Australia,2023,feed_supplements,3265.96
+9,255,Argentina,Belgium,2000,feed_supplements,31.0
+9,255,Argentina,Belgium,2001,feed_supplements,15.0
+9,255,Argentina,Belgium,2008,feed_supplements,1.0
+9,255,Argentina,Belgium,2016,feed_supplements,0.01
+10,13,Australia,Bahrain,1987,feed_supplements,324.0
+10,13,Australia,Bahrain,1994,feed_supplements,2.0
+9,15,Argentina,Belgium-Luxembourg,1991,feed_supplements,68.0
+10,16,Australia,Bangladesh,1993,feed_supplements,76.0
+10,16,Australia,Bangladesh,1994,feed_supplements,26.0
+10,16,Australia,Bangladesh,1996,feed_supplements,1.0
+9,19,Argentina,Bolivia (Plurinational State of),1987,feed_supplements,30.0
+9,19,Argentina,Bolivia (Plurinational State of),1989,feed_supplements,2.0
+9,19,Argentina,Bolivia (Plurinational State of),1991,feed_supplements,14.0
+9,19,Argentina,Bolivia (Plurinational State of),1992,feed_supplements,101.0
+9,19,Argentina,Bolivia (Plurinational State of),1994,feed_supplements,45.0
+9,19,Argentina,Bolivia (Plurinational State of),1995,feed_supplements,119.0
+9,19,Argentina,Bolivia (Plurinational State of),1996,feed_supplements,78.0
+9,19,Argentina,Bolivia (Plurinational State of),1997,feed_supplements,176.0
+9,19,Argentina,Bolivia (Plurinational State of),1998,feed_supplements,226.0
+9,19,Argentina,Bolivia (Plurinational State of),2000,feed_supplements,100.0
+9,19,Argentina,Bolivia (Plurinational State of),2001,feed_supplements,125.0
+9,19,Argentina,Bolivia (Plurinational State of),2002,feed_supplements,86.0
+9,19,Argentina,Bolivia (Plurinational State of),2003,feed_supplements,84.0
+9,19,Argentina,Bolivia (Plurinational State of),2004,feed_supplements,55.0
+9,19,Argentina,Bolivia (Plurinational State of),2005,feed_supplements,8.0
+9,19,Argentina,Bolivia (Plurinational State of),2006,feed_supplements,10.0
+9,19,Argentina,Bolivia (Plurinational State of),2007,feed_supplements,68.0
+9,19,Argentina,Bolivia (Plurinational State of),2008,feed_supplements,258.0
+9,19,Argentina,Bolivia (Plurinational State of),2009,feed_supplements,762.0
+9,19,Argentina,Bolivia (Plurinational State of),2010,feed_supplements,872.0
+9,19,Argentina,Bolivia (Plurinational State of),2011,feed_supplements,668.0
+9,19,Argentina,Bolivia (Plurinational State of),2012,feed_supplements,941.0
+9,19,Argentina,Bolivia (Plurinational State of),2013,feed_supplements,1039.0
+9,19,Argentina,Bolivia (Plurinational State of),2014,feed_supplements,1128.77
+9,19,Argentina,Bolivia (Plurinational State of),2015,feed_supplements,1387.94
+9,19,Argentina,Bolivia (Plurinational State of),2016,feed_supplements,1130.69
+9,19,Argentina,Bolivia (Plurinational State of),2017,feed_supplements,1703.17
+231,9,United States of America,Argentina,1986,feed_supplements,231.0
+231,9,United States of America,Argentina,1987,feed_supplements,411.0
+231,9,United States of America,Argentina,1988,feed_supplements,1427.0
+157,48,Nicaragua,Costa Rica,2017,feed_supplements,0.01
+157,48,Nicaragua,Costa Rica,2019,feed_supplements,0.23
+157,48,Nicaragua,Costa Rica,2020,feed_supplements,0.06
+157,48,Nicaragua,Costa Rica,2021,feed_supplements,12.25
+157,48,Nicaragua,Costa Rica,2022,feed_supplements,4.96
+157,48,Nicaragua,Costa Rica,2023,feed_supplements,1.75
+166,48,Panama,Costa Rica,1991,feed_supplements,241.0
+166,48,Panama,Costa Rica,1993,feed_supplements,120.0
+166,48,Panama,Costa Rica,1994,feed_supplements,80.0
+10,15,Australia,Belgium-Luxembourg,1992,feed_supplements,43.0
+10,15,Australia,Belgium-Luxembourg,1993,feed_supplements,86.0
+10,15,Australia,Belgium-Luxembourg,1996,feed_supplements,4.0
+101,16,Indonesia,Bangladesh,1989,feed_supplements,3.0
+101,16,Indonesia,Bangladesh,1991,feed_supplements,1.0
+101,16,Indonesia,Bangladesh,1993,feed_supplements,54.0
+101,16,Indonesia,Bangladesh,1995,feed_supplements,18.0
+101,16,Indonesia,Bangladesh,1996,feed_supplements,126.0
+101,16,Indonesia,Bangladesh,2001,feed_supplements,220.0
+101,16,Indonesia,Bangladesh,2003,feed_supplements,210.0
+101,16,Indonesia,Bangladesh,2004,feed_supplements,2945.0
+101,16,Indonesia,Bangladesh,2005,feed_supplements,1480.0
+101,16,Indonesia,Bangladesh,2006,feed_supplements,738.0
+101,16,Indonesia,Bangladesh,2007,feed_supplements,903.0
+101,16,Indonesia,Bangladesh,2008,feed_supplements,20.0
+101,16,Indonesia,Bangladesh,2009,feed_supplements,241.0
+101,16,Indonesia,Bangladesh,2011,feed_supplements,2681.0
+101,16,Indonesia,Bangladesh,2012,feed_supplements,6662.0
+101,16,Indonesia,Bangladesh,2013,feed_supplements,6841.0
+200,11,Singapore,Austria,1987,feed_supplements,18.0
+200,11,Singapore,Austria,2012,feed_supplements,20.0
+200,11,Singapore,Austria,2019,feed_supplements,0.12
+9,21,Argentina,Brazil,1990,feed_supplements,23.0
+9,21,Argentina,Brazil,1991,feed_supplements,91.0
+9,21,Argentina,Brazil,1992,feed_supplements,80.0
+9,21,Argentina,Brazil,1994,feed_supplements,65.0
+9,21,Argentina,Brazil,1995,feed_supplements,218.0
+9,21,Argentina,Brazil,1996,feed_supplements,776.0
+9,21,Argentina,Brazil,1997,feed_supplements,969.0
+9,21,Argentina,Brazil,1998,feed_supplements,451.0
+9,21,Argentina,Brazil,2000,feed_supplements,664.0
+9,21,Argentina,Brazil,2001,feed_supplements,2258.0
+9,21,Argentina,Brazil,2002,feed_supplements,2550.0
+9,21,Argentina,Brazil,2003,feed_supplements,2250.0
+9,21,Argentina,Brazil,2004,feed_supplements,3142.0
+9,21,Argentina,Brazil,2005,feed_supplements,902.0
+9,21,Argentina,Brazil,2006,feed_supplements,175.0
+9,21,Argentina,Brazil,2007,feed_supplements,386.0
+9,21,Argentina,Brazil,2008,feed_supplements,273.0
+9,21,Argentina,Brazil,2009,feed_supplements,371.0
+9,21,Argentina,Brazil,2010,feed_supplements,575.0
+9,21,Argentina,Brazil,2011,feed_supplements,898.0
+9,21,Argentina,Brazil,2012,feed_supplements,1051.0
+9,21,Argentina,Brazil,2013,feed_supplements,992.0
+9,21,Argentina,Brazil,2014,feed_supplements,766.99
+9,21,Argentina,Brazil,2015,feed_supplements,550.58
+9,21,Argentina,Brazil,2016,feed_supplements,763.67
+9,21,Argentina,Brazil,2017,feed_supplements,1387.85
+200,13,Singapore,Bahrain,2007,feed_supplements,1.0
+200,13,Singapore,Bahrain,2008,feed_supplements,3.0
+200,13,Singapore,Bahrain,2009,feed_supplements,1.0
+200,13,Singapore,Bahrain,2010,feed_supplements,4.0
+200,13,Singapore,Bahrain,2012,feed_supplements,32.0
+200,13,Singapore,Bahrain,2013,feed_supplements,2.0
+200,13,Singapore,Bahrain,2016,feed_supplements,0.57
+10,21,Australia,Brazil,1994,feed_supplements,19.0
+157,60,Nicaragua,El Salvador,2019,feed_supplements,25.2
+200,16,Singapore,Bangladesh,1987,feed_supplements,6.0
+200,16,Singapore,Bangladesh,1992,feed_supplements,50.0
+200,16,Singapore,Bangladesh,1993,feed_supplements,34.0
+200,16,Singapore,Bangladesh,1994,feed_supplements,1.0
+200,16,Singapore,Bangladesh,1995,feed_supplements,15.0
+200,16,Singapore,Bangladesh,1996,feed_supplements,6.0
+200,16,Singapore,Bangladesh,1997,feed_supplements,5.0
+200,16,Singapore,Bangladesh,1998,feed_supplements,2.0
+200,16,Singapore,Bangladesh,1999,feed_supplements,15.0
+200,16,Singapore,Bangladesh,2000,feed_supplements,99.0
+200,16,Singapore,Bangladesh,2001,feed_supplements,152.0
+200,16,Singapore,Bangladesh,2002,feed_supplements,131.0
+200,16,Singapore,Bangladesh,2003,feed_supplements,299.0
+200,16,Singapore,Bangladesh,2004,feed_supplements,386.0
+200,16,Singapore,Bangladesh,2005,feed_supplements,386.0
+200,16,Singapore,Bangladesh,2006,feed_supplements,740.0
+200,16,Singapore,Bangladesh,2007,feed_supplements,792.0
+200,16,Singapore,Bangladesh,2008,feed_supplements,791.0
+200,16,Singapore,Bangladesh,2009,feed_supplements,1223.0
+200,16,Singapore,Bangladesh,2010,feed_supplements,1577.0
+200,16,Singapore,Bangladesh,2011,feed_supplements,8738.0
+200,16,Singapore,Bangladesh,2012,feed_supplements,8915.0
+200,16,Singapore,Bangladesh,2013,feed_supplements,15357.0
+200,16,Singapore,Bangladesh,2014,feed_supplements,4026.92
+200,16,Singapore,Bangladesh,2015,feed_supplements,4684.19
+200,16,Singapore,Bangladesh,2016,feed_supplements,7046.48
+200,16,Singapore,Bangladesh,2017,feed_supplements,5453.87
+200,16,Singapore,Bangladesh,2018,feed_supplements,2266.58
+200,16,Singapore,Bangladesh,2019,feed_supplements,2350.8
+200,16,Singapore,Bangladesh,2020,feed_supplements,1598.01
+200,16,Singapore,Bangladesh,2021,feed_supplements,2895.53
+200,16,Singapore,Bangladesh,2022,feed_supplements,3112.3
+200,16,Singapore,Bangladesh,2023,feed_supplements,2735.25
+10,26,Australia,Brunei Darussalam,1987,feed_supplements,222.0
+10,26,Australia,Brunei Darussalam,1988,feed_supplements,250.0
+10,26,Australia,Brunei Darussalam,1989,feed_supplements,190.0
+10,26,Australia,Brunei Darussalam,1990,feed_supplements,58.0
+10,26,Australia,Brunei Darussalam,1991,feed_supplements,183.0
+10,26,Australia,Brunei Darussalam,1992,feed_supplements,496.0
+10,26,Australia,Brunei Darussalam,1993,feed_supplements,342.0
+10,26,Australia,Brunei Darussalam,1994,feed_supplements,318.0
+101,21,Indonesia,Brazil,2006,feed_supplements,4.0
+231,10,United States of America,Australia,1986,feed_supplements,934.0
+231,10,United States of America,Australia,1987,feed_supplements,1230.0
+231,10,United States of America,Australia,1988,feed_supplements,638.0
+101,26,Indonesia,Brunei Darussalam,1993,feed_supplements,17.0
+101,26,Indonesia,Brunei Darussalam,1994,feed_supplements,19.0
+101,26,Indonesia,Brunei Darussalam,1996,feed_supplements,120.0
+101,26,Indonesia,Brunei Darussalam,1997,feed_supplements,20.0
+101,26,Indonesia,Brunei Darussalam,1999,feed_supplements,1.0
+101,26,Indonesia,Brunei Darussalam,2000,feed_supplements,6.0
+101,26,Indonesia,Brunei Darussalam,2001,feed_supplements,92.0
+101,26,Indonesia,Brunei Darussalam,2005,feed_supplements,1.0
+101,26,Indonesia,Brunei Darussalam,2006,feed_supplements,1.0
+9,27,Argentina,Bulgaria,2015,feed_supplements,0.01
+48,56,Costa Rica,Dominican Republic,2003,feed_supplements,81.0
+9,33,Argentina,Canada,2009,feed_supplements,65.0
+9,33,Argentina,Canada,2010,feed_supplements,467.0
+9,33,Argentina,Canada,2011,feed_supplements,1077.0
+9,33,Argentina,Canada,2012,feed_supplements,552.0
+9,33,Argentina,Canada,2013,feed_supplements,1068.0
+9,33,Argentina,Canada,2014,feed_supplements,857.3
+9,33,Argentina,Canada,2015,feed_supplements,1261.7
+9,33,Argentina,Canada,2016,feed_supplements,37.9
+4,143,Algeria,Morocco,1991,feed_supplements,60.0
+101,115,Indonesia,Cambodia,2005,feed_supplements,2.0
+131,21,Malaysia,Brazil,1990,feed_supplements,1.0
+101,32,Indonesia,Cameroon,2012,feed_supplements,3.0
+200,255,Singapore,Belgium,2000,feed_supplements,109.0
+200,255,Singapore,Belgium,2001,feed_supplements,45.0
+200,255,Singapore,Belgium,2002,feed_supplements,213.0
+200,255,Singapore,Belgium,2003,feed_supplements,268.0
+200,255,Singapore,Belgium,2004,feed_supplements,203.0
+200,255,Singapore,Belgium,2005,feed_supplements,360.0
+200,255,Singapore,Belgium,2006,feed_supplements,187.0
+200,255,Singapore,Belgium,2007,feed_supplements,47.0
+200,255,Singapore,Belgium,2008,feed_supplements,34.0
+200,255,Singapore,Belgium,2009,feed_supplements,27.0
+200,255,Singapore,Belgium,2010,feed_supplements,13.0
+200,255,Singapore,Belgium,2011,feed_supplements,40.0
+200,255,Singapore,Belgium,2016,feed_supplements,1.0
+200,255,Singapore,Belgium,2020,feed_supplements,3.63
+157,89,Nicaragua,Guatemala,2021,feed_supplements,0.42
+157,89,Nicaragua,Guatemala,2023,feed_supplements,1.5
+101,33,Indonesia,Canada,1996,feed_supplements,3.0
+101,33,Indonesia,Canada,2002,feed_supplements,511.0
+10,33,Australia,Canada,1986,feed_supplements,18.0
+10,33,Australia,Canada,1990,feed_supplements,20.0
+48,60,Costa Rica,El Salvador,2003,feed_supplements,389.0
+131,26,Malaysia,Brunei Darussalam,1986,feed_supplements,2.0
+131,26,Malaysia,Brunei Darussalam,1988,feed_supplements,4.0
+131,26,Malaysia,Brunei Darussalam,1989,feed_supplements,11.0
+131,26,Malaysia,Brunei Darussalam,1991,feed_supplements,29.0
+131,26,Malaysia,Brunei Darussalam,1992,feed_supplements,25.0
+131,26,Malaysia,Brunei Darussalam,1993,feed_supplements,3.0
+131,26,Malaysia,Brunei Darussalam,1994,feed_supplements,12.0
+131,26,Malaysia,Brunei Darussalam,1995,feed_supplements,1.0
+131,26,Malaysia,Brunei Darussalam,1996,feed_supplements,25.0
+131,26,Malaysia,Brunei Darussalam,2004,feed_supplements,18974.0
+131,26,Malaysia,Brunei Darussalam,2005,feed_supplements,2023.0
+131,26,Malaysia,Brunei Darussalam,2006,feed_supplements,1854.0
+131,26,Malaysia,Brunei Darussalam,2007,feed_supplements,994.0
+200,15,Singapore,Belgium-Luxembourg,1990,feed_supplements,16.0
+200,15,Singapore,Belgium-Luxembourg,1993,feed_supplements,15.0
+200,15,Singapore,Belgium-Luxembourg,1994,feed_supplements,10.0
+200,15,Singapore,Belgium-Luxembourg,1998,feed_supplements,19.0
+200,15,Singapore,Belgium-Luxembourg,1999,feed_supplements,52.0
+9,40,Argentina,Chile,1986,feed_supplements,2140.0
+9,40,Argentina,Chile,1987,feed_supplements,9396.0
+9,40,Argentina,Chile,1988,feed_supplements,17033.0
+9,40,Argentina,Chile,1989,feed_supplements,9860.0
+9,40,Argentina,Chile,1990,feed_supplements,14039.0
+9,40,Argentina,Chile,1991,feed_supplements,3911.0
+9,40,Argentina,Chile,1992,feed_supplements,59.0
+9,40,Argentina,Chile,1994,feed_supplements,1538.0
+9,40,Argentina,Chile,1995,feed_supplements,216.0
+9,40,Argentina,Chile,1996,feed_supplements,348.0
+9,40,Argentina,Chile,1997,feed_supplements,406.0
+9,40,Argentina,Chile,1998,feed_supplements,437.0
+9,40,Argentina,Chile,2000,feed_supplements,362.0
+9,40,Argentina,Chile,2001,feed_supplements,1564.0
+9,40,Argentina,Chile,2002,feed_supplements,318.0
+9,40,Argentina,Chile,2003,feed_supplements,443.0
+9,40,Argentina,Chile,2004,feed_supplements,11078.0
+9,40,Argentina,Chile,2005,feed_supplements,39925.0
+9,40,Argentina,Chile,2006,feed_supplements,45136.0
+9,40,Argentina,Chile,2007,feed_supplements,117402.0
+9,40,Argentina,Chile,2008,feed_supplements,225674.0
+9,40,Argentina,Chile,2009,feed_supplements,374092.0
+9,40,Argentina,Chile,2010,feed_supplements,445539.0
+9,40,Argentina,Chile,2011,feed_supplements,322423.0
+9,40,Argentina,Chile,2012,feed_supplements,485835.0
+9,40,Argentina,Chile,2013,feed_supplements,501411.0
+9,40,Argentina,Chile,2014,feed_supplements,134889.19
+9,40,Argentina,Chile,2015,feed_supplements,19120.18
+9,40,Argentina,Chile,2016,feed_supplements,63536.66
+9,40,Argentina,Chile,2017,feed_supplements,90501.56
+41,15,"China, mainland",Belgium-Luxembourg,1992,feed_supplements,70.0
+200,18,Singapore,Bhutan,2022,feed_supplements,0.15
+200,19,Singapore,Bolivia (Plurinational State of),2011,feed_supplements,4.0
+200,19,Singapore,Bolivia (Plurinational State of),2012,feed_supplements,5.0
+200,19,Singapore,Bolivia (Plurinational State of),2013,feed_supplements,8.0
+200,19,Singapore,Bolivia (Plurinational State of),2014,feed_supplements,9.0
+200,19,Singapore,Bolivia (Plurinational State of),2015,feed_supplements,2.5
+200,19,Singapore,Bolivia (Plurinational State of),2016,feed_supplements,2.5
+200,19,Singapore,Bolivia (Plurinational State of),2017,feed_supplements,1.25
+231,11,United States of America,Austria,1986,feed_supplements,762.0
+231,11,United States of America,Austria,1987,feed_supplements,283.0
+231,11,United States of America,Austria,1988,feed_supplements,1816.0
+200,21,Singapore,Brazil,2007,feed_supplements,1.0
+200,21,Singapore,Brazil,2009,feed_supplements,4.0
+200,21,Singapore,Brazil,2010,feed_supplements,29.0
+200,21,Singapore,Brazil,2011,feed_supplements,7.0
+200,21,Singapore,Brazil,2012,feed_supplements,14.0
+200,21,Singapore,Brazil,2013,feed_supplements,39.0
+200,21,Singapore,Brazil,2014,feed_supplements,86.32
+200,21,Singapore,Brazil,2015,feed_supplements,29.63
+200,21,Singapore,Brazil,2020,feed_supplements,17.11
+200,21,Singapore,Brazil,2021,feed_supplements,155.6
+200,21,Singapore,Brazil,2023,feed_supplements,0.3
+157,95,Nicaragua,Honduras,2017,feed_supplements,8.9
+157,95,Nicaragua,Honduras,2018,feed_supplements,2.55
+157,95,Nicaragua,Honduras,2019,feed_supplements,59.59
+157,95,Nicaragua,Honduras,2020,feed_supplements,2.33
+157,95,Nicaragua,Honduras,2021,feed_supplements,4.0
+157,95,Nicaragua,Honduras,2022,feed_supplements,6.97
+157,95,Nicaragua,Honduras,2023,feed_supplements,5.4
+101,96,Indonesia,"China, Hong Kong SAR",1999,feed_supplements,8.0
+101,96,Indonesia,"China, Hong Kong SAR",2008,feed_supplements,70.0
+9,96,Argentina,"China, Hong Kong SAR",2013,feed_supplements,500.0
+200,26,Singapore,Brunei Darussalam,1986,feed_supplements,25.0
+200,26,Singapore,Brunei Darussalam,1987,feed_supplements,41.0
+200,26,Singapore,Brunei Darussalam,1988,feed_supplements,58.0
+200,26,Singapore,Brunei Darussalam,1989,feed_supplements,131.0
+200,26,Singapore,Brunei Darussalam,1990,feed_supplements,84.0
+200,26,Singapore,Brunei Darussalam,1991,feed_supplements,64.0
+200,26,Singapore,Brunei Darussalam,1992,feed_supplements,60.0
+200,26,Singapore,Brunei Darussalam,1993,feed_supplements,64.0
+200,26,Singapore,Brunei Darussalam,1994,feed_supplements,56.0
+200,26,Singapore,Brunei Darussalam,1995,feed_supplements,1151.0
+200,26,Singapore,Brunei Darussalam,1996,feed_supplements,1378.0
+200,26,Singapore,Brunei Darussalam,1997,feed_supplements,845.0
+200,26,Singapore,Brunei Darussalam,1998,feed_supplements,680.0
+200,26,Singapore,Brunei Darussalam,1999,feed_supplements,476.0
+200,26,Singapore,Brunei Darussalam,2000,feed_supplements,116.0
+200,26,Singapore,Brunei Darussalam,2001,feed_supplements,103.0
+200,26,Singapore,Brunei Darussalam,2002,feed_supplements,30.0
+200,26,Singapore,Brunei Darussalam,2003,feed_supplements,30.0
+200,26,Singapore,Brunei Darussalam,2004,feed_supplements,31.0
+200,26,Singapore,Brunei Darussalam,2005,feed_supplements,75.0
+200,26,Singapore,Brunei Darussalam,2006,feed_supplements,48.0
+200,26,Singapore,Brunei Darussalam,2007,feed_supplements,22.0
+200,26,Singapore,Brunei Darussalam,2008,feed_supplements,106.0
+200,26,Singapore,Brunei Darussalam,2009,feed_supplements,43.0
+200,26,Singapore,Brunei Darussalam,2010,feed_supplements,35.0
+200,26,Singapore,Brunei Darussalam,2011,feed_supplements,18.0
+200,26,Singapore,Brunei Darussalam,2012,feed_supplements,14.0
+200,26,Singapore,Brunei Darussalam,2013,feed_supplements,17.0
+200,26,Singapore,Brunei Darussalam,2014,feed_supplements,60.42
+200,26,Singapore,Brunei Darussalam,2015,feed_supplements,45.96
+200,26,Singapore,Brunei Darussalam,2016,feed_supplements,40.99
+200,26,Singapore,Brunei Darussalam,2017,feed_supplements,45.45
+200,26,Singapore,Brunei Darussalam,2018,feed_supplements,52.55
+200,26,Singapore,Brunei Darussalam,2019,feed_supplements,40.86
+200,26,Singapore,Brunei Darussalam,2020,feed_supplements,20.28
+200,26,Singapore,Brunei Darussalam,2021,feed_supplements,44.99
+200,26,Singapore,Brunei Darussalam,2022,feed_supplements,69.29
+200,26,Singapore,Brunei Darussalam,2023,feed_supplements,39.77
+10,96,Australia,"China, Hong Kong SAR",1986,feed_supplements,4.0
+10,96,Australia,"China, Hong Kong SAR",1987,feed_supplements,12.0
+10,96,Australia,"China, Hong Kong SAR",1988,feed_supplements,6.0
+10,96,Australia,"China, Hong Kong SAR",1989,feed_supplements,23.0
+10,96,Australia,"China, Hong Kong SAR",1990,feed_supplements,203.0
+10,96,Australia,"China, Hong Kong SAR",1991,feed_supplements,205.0
+10,96,Australia,"China, Hong Kong SAR",1992,feed_supplements,280.0
+10,96,Australia,"China, Hong Kong SAR",1993,feed_supplements,258.0
+10,96,Australia,"China, Hong Kong SAR",1994,feed_supplements,12.0
+231,12,United States of America,Bahamas,1986,feed_supplements,20608.0
+231,12,United States of America,Bahamas,1987,feed_supplements,15360.0
+231,12,United States of America,Bahamas,1988,feed_supplements,9500.0
+9,41,Argentina,"China, mainland",2005,feed_supplements,75.0
+4,222,Algeria,Tunisia,1989,feed_supplements,10.0
+131,33,Malaysia,Canada,1994,feed_supplements,3.0
+48,89,Costa Rica,Guatemala,2003,feed_supplements,360.0
+9,214,Argentina,"China, Taiwan Province of",2004,feed_supplements,2.0
+9,214,Argentina,"China, Taiwan Province of",2005,feed_supplements,5.0
+9,214,Argentina,"China, Taiwan Province of",2006,feed_supplements,31.0
+9,214,Argentina,"China, Taiwan Province of",2007,feed_supplements,48.0
+9,214,Argentina,"China, Taiwan Province of",2008,feed_supplements,311.0
+9,214,Argentina,"China, Taiwan Province of",2009,feed_supplements,1392.0
+9,214,Argentina,"China, Taiwan Province of",2010,feed_supplements,9190.0
+9,214,Argentina,"China, Taiwan Province of",2011,feed_supplements,14081.0
+9,214,Argentina,"China, Taiwan Province of",2012,feed_supplements,25638.0
+9,214,Argentina,"China, Taiwan Province of",2013,feed_supplements,8886.0
+101,41,Indonesia,"China, mainland",1995,feed_supplements,35.0
+101,41,Indonesia,"China, mainland",1998,feed_supplements,691.0
+101,41,Indonesia,"China, mainland",2005,feed_supplements,2.0
+101,41,Indonesia,"China, mainland",2006,feed_supplements,5.0
+101,41,Indonesia,"China, mainland",2007,feed_supplements,5.0
+101,41,Indonesia,"China, mainland",2008,feed_supplements,9.0
+101,41,Indonesia,"China, mainland",2013,feed_supplements,3.0
+9,44,Argentina,Colombia,1992,feed_supplements,4.0
+9,44,Argentina,Colombia,1994,feed_supplements,8.0
+9,44,Argentina,Colombia,1995,feed_supplements,2.0
+9,44,Argentina,Colombia,1996,feed_supplements,25.0
+9,44,Argentina,Colombia,1997,feed_supplements,150.0
+9,44,Argentina,Colombia,1998,feed_supplements,200.0
+9,44,Argentina,Colombia,2000,feed_supplements,200.0
+9,44,Argentina,Colombia,2001,feed_supplements,223.0
+9,44,Argentina,Colombia,2002,feed_supplements,314.0
+9,44,Argentina,Colombia,2003,feed_supplements,193.0
+9,44,Argentina,Colombia,2004,feed_supplements,251.0
+9,44,Argentina,Colombia,2005,feed_supplements,56.0
+9,44,Argentina,Colombia,2006,feed_supplements,68.0
+9,44,Argentina,Colombia,2007,feed_supplements,529.0
+9,44,Argentina,Colombia,2008,feed_supplements,2075.0
+9,44,Argentina,Colombia,2009,feed_supplements,1861.0
+9,44,Argentina,Colombia,2010,feed_supplements,1207.0
+9,44,Argentina,Colombia,2011,feed_supplements,977.0
+9,44,Argentina,Colombia,2012,feed_supplements,1042.0
+9,44,Argentina,Colombia,2013,feed_supplements,13071.0
+9,44,Argentina,Colombia,2014,feed_supplements,1415.85
+9,44,Argentina,Colombia,2015,feed_supplements,1382.14
+9,44,Argentina,Colombia,2016,feed_supplements,1609.49
+9,44,Argentina,Colombia,2017,feed_supplements,1439.42
+10,128,Australia,"China, Macao SAR",1993,feed_supplements,45.0
+10,128,Australia,"China, Macao SAR",1994,feed_supplements,65.0
+10,128,Australia,"China, Macao SAR",1996,feed_supplements,21.0
+200,115,Singapore,Cambodia,1994,feed_supplements,1.0
+200,115,Singapore,Cambodia,2005,feed_supplements,2.0
+200,115,Singapore,Cambodia,2008,feed_supplements,3.0
+200,115,Singapore,Cambodia,2009,feed_supplements,91.0
+200,115,Singapore,Cambodia,2010,feed_supplements,71.0
+200,115,Singapore,Cambodia,2011,feed_supplements,98.0
+200,115,Singapore,Cambodia,2012,feed_supplements,120.0
+200,115,Singapore,Cambodia,2013,feed_supplements,186.0
+200,115,Singapore,Cambodia,2014,feed_supplements,220.35
+200,115,Singapore,Cambodia,2015,feed_supplements,102.1
+200,115,Singapore,Cambodia,2016,feed_supplements,201.6
+200,115,Singapore,Cambodia,2017,feed_supplements,323.58
+200,115,Singapore,Cambodia,2018,feed_supplements,453.71
+200,115,Singapore,Cambodia,2019,feed_supplements,630.9
+200,115,Singapore,Cambodia,2020,feed_supplements,425.69
+200,115,Singapore,Cambodia,2021,feed_supplements,1187.95
+200,115,Singapore,Cambodia,2022,feed_supplements,1312.62
+200,115,Singapore,Cambodia,2023,feed_supplements,1617.16
+157,166,Nicaragua,Panama,2020,feed_supplements,1.1
+157,166,Nicaragua,Panama,2021,feed_supplements,0.28
+157,166,Nicaragua,Panama,2022,feed_supplements,0.02
+157,166,Nicaragua,Panama,2023,feed_supplements,6.84
+9,48,Argentina,Costa Rica,1991,feed_supplements,12.0
+9,48,Argentina,Costa Rica,2003,feed_supplements,1.0
+9,48,Argentina,Costa Rica,2004,feed_supplements,4.0
+9,48,Argentina,Costa Rica,2005,feed_supplements,6.0
+9,48,Argentina,Costa Rica,2006,feed_supplements,6.0
+9,48,Argentina,Costa Rica,2007,feed_supplements,20.0
+9,48,Argentina,Costa Rica,2008,feed_supplements,33.0
+9,48,Argentina,Costa Rica,2009,feed_supplements,62.0
+9,48,Argentina,Costa Rica,2010,feed_supplements,91.0
+9,48,Argentina,Costa Rica,2011,feed_supplements,118.0
+9,48,Argentina,Costa Rica,2012,feed_supplements,201.0
+9,48,Argentina,Costa Rica,2013,feed_supplements,188.0
+9,48,Argentina,Costa Rica,2014,feed_supplements,177.07
+9,48,Argentina,Costa Rica,2015,feed_supplements,20.78
+9,48,Argentina,Costa Rica,2016,feed_supplements,12.05
+9,48,Argentina,Costa Rica,2017,feed_supplements,15.88
+131,96,Malaysia,"China, Hong Kong SAR",1988,feed_supplements,78.0
+131,96,Malaysia,"China, Hong Kong SAR",1989,feed_supplements,43.0
+131,96,Malaysia,"China, Hong Kong SAR",1990,feed_supplements,69.0
+131,96,Malaysia,"China, Hong Kong SAR",1991,feed_supplements,69.0
+131,96,Malaysia,"China, Hong Kong SAR",1992,feed_supplements,94.0
+131,96,Malaysia,"China, Hong Kong SAR",1993,feed_supplements,204.0
+131,96,Malaysia,"China, Hong Kong SAR",1994,feed_supplements,207.0
+131,96,Malaysia,"China, Hong Kong SAR",1995,feed_supplements,309.0
+131,96,Malaysia,"China, Hong Kong SAR",1996,feed_supplements,198.0
+157,170,Nicaragua,Peru,2021,feed_supplements,0.72
+41,33,"China, mainland",Canada,1992,feed_supplements,54.0
+48,95,Costa Rica,Honduras,2003,feed_supplements,197.0
+9,49,Argentina,Cuba,2013,feed_supplements,87548.0
+9,49,Argentina,Cuba,2014,feed_supplements,85500.0
+9,49,Argentina,Cuba,2017,feed_supplements,83678.6
+10,41,Australia,"China, mainland",1993,feed_supplements,5.0
+200,32,Singapore,Cameroon,2009,feed_supplements,20.0
+101,214,Indonesia,"China, Taiwan Province of",1987,feed_supplements,1.0
+101,214,Indonesia,"China, Taiwan Province of",1989,feed_supplements,4200.0
+101,214,Indonesia,"China, Taiwan Province of",1990,feed_supplements,101.0
+101,214,Indonesia,"China, Taiwan Province of",1993,feed_supplements,46.0
+101,214,Indonesia,"China, Taiwan Province of",1995,feed_supplements,7.0
+101,214,Indonesia,"China, Taiwan Province of",1996,feed_supplements,13.0
+101,214,Indonesia,"China, Taiwan Province of",1998,feed_supplements,289.0
+101,214,Indonesia,"China, Taiwan Province of",2003,feed_supplements,12.0
+101,214,Indonesia,"China, Taiwan Province of",2004,feed_supplements,34.0
+101,214,Indonesia,"China, Taiwan Province of",2006,feed_supplements,272.0
+101,214,Indonesia,"China, Taiwan Province of",2007,feed_supplements,252.0
+101,214,Indonesia,"China, Taiwan Province of",2008,feed_supplements,210.0
+101,214,Indonesia,"China, Taiwan Province of",2009,feed_supplements,418.0
+9,54,Argentina,Denmark,1991,feed_supplements,22.0
+9,54,Argentina,Denmark,2010,feed_supplements,1.0
+200,33,Singapore,Canada,1989,feed_supplements,1.0
+200,33,Singapore,Canada,2003,feed_supplements,81.0
+200,33,Singapore,Canada,2004,feed_supplements,122.0
+200,33,Singapore,Canada,2005,feed_supplements,60.0
+200,33,Singapore,Canada,2006,feed_supplements,40.0
+200,33,Singapore,Canada,2007,feed_supplements,373.0
+200,33,Singapore,Canada,2008,feed_supplements,112.0
+200,33,Singapore,Canada,2009,feed_supplements,50.0
+200,33,Singapore,Canada,2012,feed_supplements,100.0
+9,56,Argentina,Dominican Republic,1991,feed_supplements,8.0
+9,56,Argentina,Dominican Republic,2000,feed_supplements,56.0
+9,56,Argentina,Dominican Republic,2002,feed_supplements,1.0
+9,56,Argentina,Dominican Republic,2004,feed_supplements,137.0
+9,56,Argentina,Dominican Republic,2005,feed_supplements,272.0
+9,56,Argentina,Dominican Republic,2006,feed_supplements,389.0
+9,56,Argentina,Dominican Republic,2007,feed_supplements,442.0
+9,56,Argentina,Dominican Republic,2008,feed_supplements,179.0
+9,56,Argentina,Dominican Republic,2009,feed_supplements,7.0
+9,56,Argentina,Dominican Republic,2010,feed_supplements,84.0
+9,56,Argentina,Dominican Republic,2011,feed_supplements,65.0
+9,56,Argentina,Dominican Republic,2012,feed_supplements,46.0
+9,56,Argentina,Dominican Republic,2013,feed_supplements,57.0
+9,56,Argentina,Dominican Republic,2014,feed_supplements,102.67
+9,56,Argentina,Dominican Republic,2015,feed_supplements,127.06
+9,56,Argentina,Dominican Republic,2016,feed_supplements,76.51
+9,56,Argentina,Dominican Republic,2017,feed_supplements,72.6
+231,14,United States of America,Barbados,1986,feed_supplements,1972.0
+231,14,United States of America,Barbados,1987,feed_supplements,1335.0
+231,14,United States of America,Barbados,1988,feed_supplements,6233.0
+9,58,Argentina,Ecuador,1994,feed_supplements,3.0
+9,58,Argentina,Ecuador,1996,feed_supplements,5.0
+9,58,Argentina,Ecuador,2002,feed_supplements,3.0
+9,58,Argentina,Ecuador,2003,feed_supplements,9.0
+9,58,Argentina,Ecuador,2004,feed_supplements,37.0
+9,58,Argentina,Ecuador,2005,feed_supplements,40.0
+9,58,Argentina,Ecuador,2006,feed_supplements,102.0
+9,58,Argentina,Ecuador,2007,feed_supplements,166.0
+9,58,Argentina,Ecuador,2008,feed_supplements,113.0
+9,58,Argentina,Ecuador,2009,feed_supplements,118.0
+9,58,Argentina,Ecuador,2010,feed_supplements,78.0
+9,58,Argentina,Ecuador,2011,feed_supplements,92.0
+9,58,Argentina,Ecuador,2012,feed_supplements,55.0
+9,58,Argentina,Ecuador,2013,feed_supplements,54.0
+9,58,Argentina,Ecuador,2014,feed_supplements,118.19
+9,58,Argentina,Ecuador,2015,feed_supplements,167.81
+9,58,Argentina,Ecuador,2016,feed_supplements,516.05
+9,58,Argentina,Ecuador,2017,feed_supplements,1021.58
+200,40,Singapore,Chile,2015,feed_supplements,40.5
+200,40,Singapore,Chile,2017,feed_supplements,0.07
+9,59,Argentina,Egypt,2005,feed_supplements,24.0
+9,59,Argentina,Egypt,2006,feed_supplements,1806.0
+9,59,Argentina,Egypt,2007,feed_supplements,1553.0
+9,59,Argentina,Egypt,2008,feed_supplements,24.0
+9,59,Argentina,Egypt,2009,feed_supplements,34.0
+9,59,Argentina,Egypt,2010,feed_supplements,19.0
+9,59,Argentina,Egypt,2011,feed_supplements,18.0
+9,59,Argentina,Egypt,2012,feed_supplements,24.0
+9,59,Argentina,Egypt,2014,feed_supplements,1.01
+9,59,Argentina,Egypt,2015,feed_supplements,84.9
+9,59,Argentina,Egypt,2016,feed_supplements,2.0
+9,59,Argentina,Egypt,2017,feed_supplements,34.0
+9,60,Argentina,El Salvador,2005,feed_supplements,35.0
+9,60,Argentina,El Salvador,2006,feed_supplements,32.0
+9,60,Argentina,El Salvador,2007,feed_supplements,6.0
+157,231,Nicaragua,United States of America,2020,feed_supplements,0.1
+157,231,Nicaragua,United States of America,2021,feed_supplements,0.11
+157,231,Nicaragua,United States of America,2022,feed_supplements,0.2
+157,231,Nicaragua,United States of America,2023,feed_supplements,0.07
+131,41,Malaysia,"China, mainland",1992,feed_supplements,1.0
+131,41,Malaysia,"China, mainland",1994,feed_supplements,17.0
+9,67,Argentina,Finland,1995,feed_supplements,22.0
+9,67,Argentina,Finland,1996,feed_supplements,8.0
+9,67,Argentina,Finland,1997,feed_supplements,20.0
+9,67,Argentina,Finland,1998,feed_supplements,10.0
+10,214,Australia,"China, Taiwan Province of",1986,feed_supplements,23.0
+10,214,Australia,"China, Taiwan Province of",1987,feed_supplements,1.0
+10,214,Australia,"China, Taiwan Province of",1988,feed_supplements,10.0
+10,214,Australia,"China, Taiwan Province of",1989,feed_supplements,15.0
+10,214,Australia,"China, Taiwan Province of",1991,feed_supplements,8.0
+10,214,Australia,"China, Taiwan Province of",1992,feed_supplements,15.0
+10,214,Australia,"China, Taiwan Province of",1993,feed_supplements,20.0
+10,214,Australia,"China, Taiwan Province of",1994,feed_supplements,269.0
+10,214,Australia,"China, Taiwan Province of",1996,feed_supplements,52.0
+9,68,Argentina,France,2000,feed_supplements,158.0
+9,68,Argentina,France,2005,feed_supplements,61.0
+9,68,Argentina,France,2006,feed_supplements,199.0
+9,68,Argentina,France,2007,feed_supplements,332.0
+9,68,Argentina,France,2008,feed_supplements,229.0
+9,68,Argentina,France,2009,feed_supplements,235.0
+9,68,Argentina,France,2010,feed_supplements,274.0
+9,68,Argentina,France,2011,feed_supplements,320.0
+9,68,Argentina,France,2012,feed_supplements,81.0
+200,96,Singapore,"China, Hong Kong SAR",1986,feed_supplements,582.0
+200,96,Singapore,"China, Hong Kong SAR",1987,feed_supplements,656.0
+200,96,Singapore,"China, Hong Kong SAR",1988,feed_supplements,806.0
+200,96,Singapore,"China, Hong Kong SAR",1989,feed_supplements,604.0
+200,96,Singapore,"China, Hong Kong SAR",1990,feed_supplements,766.0
+200,96,Singapore,"China, Hong Kong SAR",1991,feed_supplements,540.0
+200,96,Singapore,"China, Hong Kong SAR",1992,feed_supplements,1051.0
+200,96,Singapore,"China, Hong Kong SAR",1993,feed_supplements,309.0
+200,96,Singapore,"China, Hong Kong SAR",1994,feed_supplements,298.0
+200,96,Singapore,"China, Hong Kong SAR",1995,feed_supplements,548.0
+200,96,Singapore,"China, Hong Kong SAR",1996,feed_supplements,133.0
+200,96,Singapore,"China, Hong Kong SAR",1997,feed_supplements,173.0
+200,96,Singapore,"China, Hong Kong SAR",1998,feed_supplements,100.0
+200,96,Singapore,"China, Hong Kong SAR",1999,feed_supplements,83.0
+200,96,Singapore,"China, Hong Kong SAR",2000,feed_supplements,111.0
+200,96,Singapore,"China, Hong Kong SAR",2001,feed_supplements,611.0
+200,96,Singapore,"China, Hong Kong SAR",2002,feed_supplements,464.0
+200,96,Singapore,"China, Hong Kong SAR",2003,feed_supplements,118.0
+200,96,Singapore,"China, Hong Kong SAR",2004,feed_supplements,69.0
+200,96,Singapore,"China, Hong Kong SAR",2005,feed_supplements,139.0
+200,96,Singapore,"China, Hong Kong SAR",2006,feed_supplements,94.0
+200,96,Singapore,"China, Hong Kong SAR",2007,feed_supplements,133.0
+200,96,Singapore,"China, Hong Kong SAR",2008,feed_supplements,120.0
+200,96,Singapore,"China, Hong Kong SAR",2009,feed_supplements,185.0
+200,96,Singapore,"China, Hong Kong SAR",2010,feed_supplements,158.0
+200,96,Singapore,"China, Hong Kong SAR",2011,feed_supplements,169.0
+200,96,Singapore,"China, Hong Kong SAR",2012,feed_supplements,10.0
+200,96,Singapore,"China, Hong Kong SAR",2013,feed_supplements,98.0
+200,96,Singapore,"China, Hong Kong SAR",2014,feed_supplements,57.19
+200,96,Singapore,"China, Hong Kong SAR",2015,feed_supplements,42.95
+200,96,Singapore,"China, Hong Kong SAR",2016,feed_supplements,26.9
+200,96,Singapore,"China, Hong Kong SAR",2017,feed_supplements,28.65
+200,96,Singapore,"China, Hong Kong SAR",2018,feed_supplements,21.95
+200,96,Singapore,"China, Hong Kong SAR",2019,feed_supplements,62.35
+200,96,Singapore,"China, Hong Kong SAR",2020,feed_supplements,56.03
+200,96,Singapore,"China, Hong Kong SAR",2021,feed_supplements,40.89
+200,96,Singapore,"China, Hong Kong SAR",2022,feed_supplements,18.59
+200,96,Singapore,"China, Hong Kong SAR",2023,feed_supplements,6.21
+41,96,"China, mainland","China, Hong Kong SAR",1992,feed_supplements,4200.0
+101,59,Indonesia,Egypt,2005,feed_supplements,102.0
+101,59,Indonesia,Egypt,2006,feed_supplements,511.0
+9,73,Argentina,Georgia,2012,feed_supplements,516.0
+9,73,Argentina,Georgia,2013,feed_supplements,657.0
+9,79,Argentina,Germany,1995,feed_supplements,1.0
+9,79,Argentina,Germany,1996,feed_supplements,19.0
+9,79,Argentina,Germany,1998,feed_supplements,9.0
+9,79,Argentina,Germany,2009,feed_supplements,1007.0
+9,79,Argentina,Germany,2010,feed_supplements,210.0
+9,79,Argentina,Germany,2014,feed_supplements,63718.26
+9,79,Argentina,Germany,2015,feed_supplements,1000.0
+231,15,United States of America,Belgium-Luxembourg,1986,feed_supplements,92.0
+231,15,United States of America,Belgium-Luxembourg,1987,feed_supplements,728.0
+231,15,United States of America,Belgium-Luxembourg,1988,feed_supplements,5086.0
+131,214,Malaysia,"China, Taiwan Province of",1988,feed_supplements,15.0
+131,214,Malaysia,"China, Taiwan Province of",1990,feed_supplements,21.0
+131,214,Malaysia,"China, Taiwan Province of",1991,feed_supplements,25.0
+131,214,Malaysia,"China, Taiwan Province of",1992,feed_supplements,54.0
+131,214,Malaysia,"China, Taiwan Province of",1995,feed_supplements,29.0
+131,214,Malaysia,"China, Taiwan Province of",1996,feed_supplements,17.0
+200,128,Singapore,"China, Macao SAR",2001,feed_supplements,31.0
+200,128,Singapore,"China, Macao SAR",2002,feed_supplements,216.0
+200,128,Singapore,"China, Macao SAR",2003,feed_supplements,1.0
+200,128,Singapore,"China, Macao SAR",2008,feed_supplements,3.0
+200,128,Singapore,"China, Macao SAR",2010,feed_supplements,3.0
+200,128,Singapore,"China, Macao SAR",2011,feed_supplements,1.0
+200,128,Singapore,"China, Macao SAR",2012,feed_supplements,1.0
+200,128,Singapore,"China, Macao SAR",2013,feed_supplements,3.0
+200,128,Singapore,"China, Macao SAR",2014,feed_supplements,2.3
+200,128,Singapore,"China, Macao SAR",2015,feed_supplements,3.4
+200,128,Singapore,"China, Macao SAR",2016,feed_supplements,0.78
+10,49,Australia,Cuba,1986,feed_supplements,565.0
+10,49,Australia,Cuba,1989,feed_supplements,386.0
+10,167,Australia,Czechia,1996,feed_supplements,1.0
+231,23,United States of America,Belize,1986,feed_supplements,16.0
+231,23,United States of America,Belize,1987,feed_supplements,657.0
+231,23,United States of America,Belize,1988,feed_supplements,4369.0
+48,157,Costa Rica,Nicaragua,2003,feed_supplements,2017.0
+9,89,Argentina,Guatemala,2004,feed_supplements,3.0
+9,89,Argentina,Guatemala,2006,feed_supplements,2.0
+9,89,Argentina,Guatemala,2008,feed_supplements,1.0
+9,89,Argentina,Guatemala,2009,feed_supplements,19.0
+9,89,Argentina,Guatemala,2010,feed_supplements,12.0
+9,89,Argentina,Guatemala,2011,feed_supplements,34.0
+9,89,Argentina,Guatemala,2012,feed_supplements,84.0
+9,89,Argentina,Guatemala,2013,feed_supplements,62.0
+9,89,Argentina,Guatemala,2014,feed_supplements,117.23
+9,89,Argentina,Guatemala,2015,feed_supplements,179.3
+9,89,Argentina,Guatemala,2016,feed_supplements,134.36
+9,89,Argentina,Guatemala,2017,feed_supplements,124.73
+9,95,Argentina,Honduras,1996,feed_supplements,11.0
+9,95,Argentina,Honduras,2009,feed_supplements,6.0
+9,95,Argentina,Honduras,2010,feed_supplements,10.0
+9,95,Argentina,Honduras,2013,feed_supplements,8.0
+9,95,Argentina,Honduras,2015,feed_supplements,0.85
+9,95,Argentina,Honduras,2017,feed_supplements,0.9
+200,41,Singapore,"China, mainland",1986,feed_supplements,18.0
+200,41,Singapore,"China, mainland",1987,feed_supplements,9.0
+200,41,Singapore,"China, mainland",1988,feed_supplements,71.0
+200,41,Singapore,"China, mainland",1989,feed_supplements,53.0
+200,41,Singapore,"China, mainland",1990,feed_supplements,177.0
+200,41,Singapore,"China, mainland",1991,feed_supplements,743.0
+200,41,Singapore,"China, mainland",1992,feed_supplements,5637.0
+200,41,Singapore,"China, mainland",1993,feed_supplements,3602.0
+200,41,Singapore,"China, mainland",1994,feed_supplements,4450.0
+200,41,Singapore,"China, mainland",1995,feed_supplements,6223.0
+200,41,Singapore,"China, mainland",1996,feed_supplements,8610.0
+200,41,Singapore,"China, mainland",1997,feed_supplements,1531.0
+200,41,Singapore,"China, mainland",1998,feed_supplements,1103.0
+200,41,Singapore,"China, mainland",1999,feed_supplements,1349.0
+200,41,Singapore,"China, mainland",2000,feed_supplements,1842.0
+200,41,Singapore,"China, mainland",2001,feed_supplements,665.0
+200,41,Singapore,"China, mainland",2002,feed_supplements,3541.0
+200,41,Singapore,"China, mainland",2003,feed_supplements,605.0
+200,41,Singapore,"China, mainland",2004,feed_supplements,431.0
+200,41,Singapore,"China, mainland",2005,feed_supplements,479.0
+200,41,Singapore,"China, mainland",2006,feed_supplements,425.0
+200,41,Singapore,"China, mainland",2007,feed_supplements,817.0
+200,41,Singapore,"China, mainland",2008,feed_supplements,721.0
+200,41,Singapore,"China, mainland",2009,feed_supplements,1025.0
+200,41,Singapore,"China, mainland",2010,feed_supplements,587.0
+200,41,Singapore,"China, mainland",2011,feed_supplements,1736.0
+200,41,Singapore,"China, mainland",2012,feed_supplements,2400.0
+200,41,Singapore,"China, mainland",2013,feed_supplements,2326.0
+200,41,Singapore,"China, mainland",2014,feed_supplements,2134.83
+200,41,Singapore,"China, mainland",2015,feed_supplements,2361.57
+200,41,Singapore,"China, mainland",2016,feed_supplements,3454.69
+200,41,Singapore,"China, mainland",2017,feed_supplements,3023.76
+200,41,Singapore,"China, mainland",2018,feed_supplements,2340.61
+200,41,Singapore,"China, mainland",2019,feed_supplements,1993.52
+200,41,Singapore,"China, mainland",2020,feed_supplements,362.78
+200,41,Singapore,"China, mainland",2021,feed_supplements,287.22
+200,41,Singapore,"China, mainland",2022,feed_supplements,308.06
+200,41,Singapore,"China, mainland",2023,feed_supplements,308.49
+9,97,Argentina,Hungary,2016,feed_supplements,0.11
+9,100,Argentina,India,2014,feed_supplements,1.0
+101,79,Indonesia,Germany,2001,feed_supplements,2.0
+101,79,Indonesia,Germany,2003,feed_supplements,2.0
+9,101,Argentina,Indonesia,2004,feed_supplements,1.0
+9,101,Argentina,Indonesia,2009,feed_supplements,28588.0
+9,101,Argentina,Indonesia,2010,feed_supplements,298.0
+9,101,Argentina,Indonesia,2011,feed_supplements,7120.0
+9,101,Argentina,Indonesia,2012,feed_supplements,22549.0
+9,101,Argentina,Indonesia,2013,feed_supplements,16033.0
+9,101,Argentina,Indonesia,2014,feed_supplements,1993.77
+9,101,Argentina,Indonesia,2015,feed_supplements,796.22
+231,19,United States of America,Bolivia (Plurinational State of),1986,feed_supplements,85.0
+231,19,United States of America,Bolivia (Plurinational State of),1988,feed_supplements,15.0
+9,103,Argentina,Iraq,2008,feed_supplements,1.0
+9,103,Argentina,Iraq,2009,feed_supplements,1.0
+9,103,Argentina,Iraq,2010,feed_supplements,1.0
+9,103,Argentina,Iraq,2012,feed_supplements,6.0
+9,103,Argentina,Iraq,2016,feed_supplements,23.8
+9,103,Argentina,Iraq,2017,feed_supplements,26.35
+9,104,Argentina,Ireland,2007,feed_supplements,24.0
+131,116,Malaysia,Democratic People's Republic of Korea,1988,feed_supplements,1.0
+9,105,Argentina,Israel,2011,feed_supplements,11.0
+9,105,Argentina,Israel,2012,feed_supplements,35.0
+9,105,Argentina,Israel,2013,feed_supplements,67.0
+48,166,Costa Rica,Panama,2003,feed_supplements,1005.0
+101,81,Indonesia,Ghana,2007,feed_supplements,141.0
+101,81,Indonesia,Ghana,2008,feed_supplements,240.0
+101,84,Indonesia,Greece,1996,feed_supplements,1.0
+10,66,Australia,Fiji,1986,feed_supplements,118.0
+10,66,Australia,Fiji,1990,feed_supplements,58.0
+10,66,Australia,Fiji,1991,feed_supplements,4.0
+10,66,Australia,Fiji,1992,feed_supplements,57.0
+10,66,Australia,Fiji,1993,feed_supplements,52.0
+10,66,Australia,Fiji,1994,feed_supplements,32.0
+10,66,Australia,Fiji,1996,feed_supplements,33.0
+9,106,Argentina,Italy,1989,feed_supplements,1.0
+9,106,Argentina,Italy,1990,feed_supplements,6.0
+9,106,Argentina,Italy,1991,feed_supplements,38.0
+9,106,Argentina,Italy,2001,feed_supplements,80.0
+9,106,Argentina,Italy,2002,feed_supplements,80.0
+9,106,Argentina,Italy,2003,feed_supplements,60.0
+9,106,Argentina,Italy,2009,feed_supplements,1.0
+231,21,United States of America,Brazil,1986,feed_supplements,17.0
+231,21,United States of America,Brazil,1987,feed_supplements,22.0
+231,21,United States of America,Brazil,1988,feed_supplements,26.0
+41,214,"China, mainland","China, Taiwan Province of",1992,feed_supplements,37.0
+200,214,Singapore,"China, Taiwan Province of",1986,feed_supplements,215.0
+200,214,Singapore,"China, Taiwan Province of",1987,feed_supplements,310.0
+200,214,Singapore,"China, Taiwan Province of",1988,feed_supplements,367.0
+200,214,Singapore,"China, Taiwan Province of",1989,feed_supplements,288.0
+200,214,Singapore,"China, Taiwan Province of",1990,feed_supplements,1439.0
+200,214,Singapore,"China, Taiwan Province of",1991,feed_supplements,899.0
+200,214,Singapore,"China, Taiwan Province of",1992,feed_supplements,3593.0
+200,214,Singapore,"China, Taiwan Province of",1993,feed_supplements,1414.0
+200,214,Singapore,"China, Taiwan Province of",1994,feed_supplements,1556.0
+200,214,Singapore,"China, Taiwan Province of",1995,feed_supplements,1647.0
+200,214,Singapore,"China, Taiwan Province of",1996,feed_supplements,5413.0
+200,214,Singapore,"China, Taiwan Province of",1997,feed_supplements,971.0
+200,214,Singapore,"China, Taiwan Province of",1998,feed_supplements,1119.0
+200,214,Singapore,"China, Taiwan Province of",1999,feed_supplements,1781.0
+200,214,Singapore,"China, Taiwan Province of",2000,feed_supplements,1604.0
+200,214,Singapore,"China, Taiwan Province of",2001,feed_supplements,1474.0
+200,214,Singapore,"China, Taiwan Province of",2002,feed_supplements,2080.0
+200,214,Singapore,"China, Taiwan Province of",2003,feed_supplements,2197.0
+200,214,Singapore,"China, Taiwan Province of",2004,feed_supplements,1590.0
+200,214,Singapore,"China, Taiwan Province of",2005,feed_supplements,1790.0
+200,214,Singapore,"China, Taiwan Province of",2006,feed_supplements,2055.0
+200,214,Singapore,"China, Taiwan Province of",2007,feed_supplements,2210.0
+200,214,Singapore,"China, Taiwan Province of",2008,feed_supplements,1795.0
+200,214,Singapore,"China, Taiwan Province of",2009,feed_supplements,2635.0
+200,214,Singapore,"China, Taiwan Province of",2010,feed_supplements,2554.0
+200,214,Singapore,"China, Taiwan Province of",2011,feed_supplements,2810.0
+200,214,Singapore,"China, Taiwan Province of",2012,feed_supplements,2613.0
+200,214,Singapore,"China, Taiwan Province of",2013,feed_supplements,2414.0
+200,214,Singapore,"China, Taiwan Province of",2014,feed_supplements,2674.25
+200,214,Singapore,"China, Taiwan Province of",2015,feed_supplements,2895.35
+200,214,Singapore,"China, Taiwan Province of",2016,feed_supplements,3344.89
+200,214,Singapore,"China, Taiwan Province of",2017,feed_supplements,3678.81
+200,214,Singapore,"China, Taiwan Province of",2018,feed_supplements,3540.3
+200,214,Singapore,"China, Taiwan Province of",2019,feed_supplements,4081.18
+101,100,Indonesia,India,1992,feed_supplements,55.0
+200,214,Singapore,"China, Taiwan Province of",2020,feed_supplements,1787.1
+101,100,Indonesia,India,1993,feed_supplements,176.0
+200,214,Singapore,"China, Taiwan Province of",2021,feed_supplements,4183.74
+101,100,Indonesia,India,1995,feed_supplements,270.0
+200,214,Singapore,"China, Taiwan Province of",2022,feed_supplements,4489.83
+101,100,Indonesia,India,1996,feed_supplements,14962.0
+200,214,Singapore,"China, Taiwan Province of",2023,feed_supplements,4261.26
+101,100,Indonesia,India,1997,feed_supplements,138.0
+101,100,Indonesia,India,1998,feed_supplements,757.0
+101,100,Indonesia,India,1999,feed_supplements,2501.0
+101,100,Indonesia,India,2000,feed_supplements,4015.0
+101,100,Indonesia,India,2001,feed_supplements,5083.0
+101,100,Indonesia,India,2002,feed_supplements,3655.0
+101,100,Indonesia,India,2003,feed_supplements,2356.0
+101,100,Indonesia,India,2004,feed_supplements,256.0
+101,100,Indonesia,India,2006,feed_supplements,12.0
+101,100,Indonesia,India,2007,feed_supplements,379.0
+101,100,Indonesia,India,2008,feed_supplements,17.0
+101,100,Indonesia,India,2009,feed_supplements,1018.0
+131,66,Malaysia,Fiji,1995,feed_supplements,1.0
+9,110,Argentina,Japan,1994,feed_supplements,156.0
+9,110,Argentina,Japan,1995,feed_supplements,112.0
+9,110,Argentina,Japan,1996,feed_supplements,48.0
+9,110,Argentina,Japan,1997,feed_supplements,35.0
+9,110,Argentina,Japan,1998,feed_supplements,1.0
+9,110,Argentina,Japan,2017,feed_supplements,0.22
+9,112,Argentina,Jordan,2002,feed_supplements,1.0
+9,112,Argentina,Jordan,2003,feed_supplements,9.0
+9,112,Argentina,Jordan,2006,feed_supplements,1.0
+9,112,Argentina,Jordan,2007,feed_supplements,48.0
+9,112,Argentina,Jordan,2009,feed_supplements,105.0
+9,112,Argentina,Jordan,2010,feed_supplements,44.0
+9,112,Argentina,Jordan,2011,feed_supplements,26.0
+9,112,Argentina,Jordan,2012,feed_supplements,2.0
+9,112,Argentina,Jordan,2013,feed_supplements,4.0
+9,112,Argentina,Jordan,2014,feed_supplements,1.81
+9,112,Argentina,Jordan,2015,feed_supplements,2.63
+9,112,Argentina,Jordan,2016,feed_supplements,8.44
+9,112,Argentina,Jordan,2017,feed_supplements,0.72
+9,118,Argentina,Kuwait,2014,feed_supplements,0.31
+9,118,Argentina,Kuwait,2015,feed_supplements,0.25
+9,118,Argentina,Kuwait,2016,feed_supplements,1.32
+9,118,Argentina,Kuwait,2017,feed_supplements,0.15
+9,121,Argentina,Lebanon,2011,feed_supplements,12.0
+9,121,Argentina,Lebanon,2012,feed_supplements,1.0
+9,121,Argentina,Lebanon,2015,feed_supplements,1.2
+9,121,Argentina,Lebanon,2016,feed_supplements,1.2
+9,121,Argentina,Lebanon,2017,feed_supplements,48.6
+200,44,Singapore,Colombia,2003,feed_supplements,78.0
+200,44,Singapore,Colombia,2004,feed_supplements,1.0
+200,44,Singapore,Colombia,2009,feed_supplements,1.0
+200,44,Singapore,Colombia,2011,feed_supplements,20.0
+200,44,Singapore,Colombia,2012,feed_supplements,4.0
+200,44,Singapore,Colombia,2013,feed_supplements,7.0
+200,44,Singapore,Colombia,2015,feed_supplements,11.2
+200,44,Singapore,Colombia,2021,feed_supplements,24.0
+9,124,Argentina,Libya,2014,feed_supplements,2.08
+9,124,Argentina,Libya,2017,feed_supplements,0.5
+9,129,Argentina,Madagascar,2010,feed_supplements,39.0
+200,48,Singapore,Costa Rica,2016,feed_supplements,0.53
+200,48,Singapore,Costa Rica,2019,feed_supplements,0.17
+10,70,Australia,French Polynesia,1987,feed_supplements,2.0
+10,70,Australia,French Polynesia,1990,feed_supplements,7.0
+10,70,Australia,French Polynesia,1991,feed_supplements,33.0
+10,70,Australia,French Polynesia,1992,feed_supplements,199.0
+10,70,Australia,French Polynesia,1993,feed_supplements,83.0
+10,70,Australia,French Polynesia,1994,feed_supplements,180.0
+9,131,Argentina,Malaysia,2003,feed_supplements,2.0
+9,131,Argentina,Malaysia,2004,feed_supplements,4.0
+9,131,Argentina,Malaysia,2005,feed_supplements,8.0
+9,131,Argentina,Malaysia,2006,feed_supplements,11.0
+9,131,Argentina,Malaysia,2007,feed_supplements,17.0
+9,131,Argentina,Malaysia,2008,feed_supplements,13.0
+9,131,Argentina,Malaysia,2009,feed_supplements,13.0
+9,131,Argentina,Malaysia,2010,feed_supplements,346.0
+9,131,Argentina,Malaysia,2011,feed_supplements,1637.0
+9,131,Argentina,Malaysia,2012,feed_supplements,2989.0
+9,131,Argentina,Malaysia,2013,feed_supplements,13690.0
+9,131,Argentina,Malaysia,2014,feed_supplements,2482.11
+9,131,Argentina,Malaysia,2015,feed_supplements,15.54
+9,131,Argentina,Malaysia,2016,feed_supplements,16.26
+9,131,Argentina,Malaysia,2017,feed_supplements,23.76
+231,27,United States of America,Bulgaria,1986,feed_supplements,245.0
+231,27,United States of America,Bulgaria,1987,feed_supplements,136.0
+231,27,United States of America,Bulgaria,1988,feed_supplements,100.0
+200,49,Singapore,Cuba,2016,feed_supplements,1.75
+200,50,Singapore,Cyprus,2007,feed_supplements,8.0
+200,167,Singapore,Czechia,2014,feed_supplements,0.04
+9,138,Argentina,Mexico,1990,feed_supplements,2.0
+9,138,Argentina,Mexico,2002,feed_supplements,2.0
+9,138,Argentina,Mexico,2008,feed_supplements,9.0
+9,138,Argentina,Mexico,2009,feed_supplements,8.0
+9,138,Argentina,Mexico,2010,feed_supplements,16.0
+9,138,Argentina,Mexico,2011,feed_supplements,2.0
+9,138,Argentina,Mexico,2012,feed_supplements,531.0
+9,138,Argentina,Mexico,2013,feed_supplements,44.0
+9,138,Argentina,Mexico,2014,feed_supplements,24.64
+9,138,Argentina,Mexico,2015,feed_supplements,184.84
+9,138,Argentina,Mexico,2016,feed_supplements,289.99
+9,138,Argentina,Mexico,2017,feed_supplements,385.78
+200,116,Singapore,Democratic People's Republic of Korea,1991,feed_supplements,17.0
+200,116,Singapore,Democratic People's Republic of Korea,2006,feed_supplements,7.0
+41,49,"China, mainland",Cuba,1992,feed_supplements,252.0
+200,54,Singapore,Denmark,1987,feed_supplements,9.0
+200,54,Singapore,Denmark,2007,feed_supplements,1.0
+200,54,Singapore,Denmark,2008,feed_supplements,2.0
+101,110,Indonesia,Japan,1989,feed_supplements,92.0
+101,110,Indonesia,Japan,1991,feed_supplements,293.0
+101,110,Indonesia,Japan,1992,feed_supplements,1023.0
+101,110,Indonesia,Japan,1993,feed_supplements,121.0
+101,110,Indonesia,Japan,1994,feed_supplements,475.0
+101,110,Indonesia,Japan,1995,feed_supplements,34.0
+101,110,Indonesia,Japan,1998,feed_supplements,409.0
+101,110,Indonesia,Japan,1999,feed_supplements,265.0
+101,110,Indonesia,Japan,2000,feed_supplements,10.0
+101,110,Indonesia,Japan,2003,feed_supplements,32.0
+101,110,Indonesia,Japan,2004,feed_supplements,290.0
+101,110,Indonesia,Japan,2005,feed_supplements,1464.0
+101,110,Indonesia,Japan,2006,feed_supplements,3429.0
+101,110,Indonesia,Japan,2007,feed_supplements,3542.0
+101,110,Indonesia,Japan,2008,feed_supplements,3755.0
+101,110,Indonesia,Japan,2009,feed_supplements,3392.0
+101,110,Indonesia,Japan,2012,feed_supplements,3.0
+101,110,Indonesia,Japan,2013,feed_supplements,5.0
+9,143,Argentina,Morocco,2013,feed_supplements,32200.0
+9,143,Argentina,Morocco,2016,feed_supplements,29639.01
+9,144,Argentina,Mozambique,2010,feed_supplements,968.0
+9,144,Argentina,Mozambique,2011,feed_supplements,1905.0
+9,144,Argentina,Mozambique,2012,feed_supplements,284.0
+9,144,Argentina,Mozambique,2013,feed_supplements,239.0
+9,28,Argentina,Myanmar,2013,feed_supplements,1649.0
+9,28,Argentina,Myanmar,2014,feed_supplements,4327.74
+9,28,Argentina,Myanmar,2015,feed_supplements,2227.94
+9,28,Argentina,Myanmar,2016,feed_supplements,1168.07
+9,150,Argentina,Netherlands (Kingdom of the),1986,feed_supplements,1040.0
+9,150,Argentina,Netherlands (Kingdom of the),1987,feed_supplements,8129.0
+9,150,Argentina,Netherlands (Kingdom of the),1988,feed_supplements,10264.0
+9,150,Argentina,Netherlands (Kingdom of the),1989,feed_supplements,7009.0
+9,150,Argentina,Netherlands (Kingdom of the),1990,feed_supplements,7508.0
+9,150,Argentina,Netherlands (Kingdom of the),1991,feed_supplements,5802.0
+9,150,Argentina,Netherlands (Kingdom of the),1992,feed_supplements,7199.0
+9,150,Argentina,Netherlands (Kingdom of the),1994,feed_supplements,3633.0
+9,150,Argentina,Netherlands (Kingdom of the),1995,feed_supplements,921.0
+9,150,Argentina,Netherlands (Kingdom of the),1998,feed_supplements,10.0
+9,150,Argentina,Netherlands (Kingdom of the),2009,feed_supplements,8447.0
+9,150,Argentina,Netherlands (Kingdom of the),2010,feed_supplements,17548.0
+9,150,Argentina,Netherlands (Kingdom of the),2011,feed_supplements,21893.0
+9,150,Argentina,Netherlands (Kingdom of the),2012,feed_supplements,36121.0
+9,150,Argentina,Netherlands (Kingdom of the),2013,feed_supplements,165114.0
+9,150,Argentina,Netherlands (Kingdom of the),2014,feed_supplements,155088.3
+200,56,Singapore,Dominican Republic,2015,feed_supplements,0.05
+200,56,Singapore,Dominican Republic,2016,feed_supplements,0.08
+200,56,Singapore,Dominican Republic,2017,feed_supplements,34.05
+200,56,Singapore,Dominican Republic,2018,feed_supplements,0.1
+200,56,Singapore,Dominican Republic,2019,feed_supplements,0.47
+200,56,Singapore,Dominican Republic,2020,feed_supplements,0.31
+200,56,Singapore,Dominican Republic,2021,feed_supplements,0.39
+200,56,Singapore,Dominican Republic,2022,feed_supplements,0.14
+200,56,Singapore,Dominican Republic,2023,feed_supplements,0.24
+200,58,Singapore,Ecuador,1995,feed_supplements,16.0
+200,58,Singapore,Ecuador,2001,feed_supplements,13.0
+200,58,Singapore,Ecuador,2008,feed_supplements,8.0
+200,58,Singapore,Ecuador,2009,feed_supplements,5.0
+200,58,Singapore,Ecuador,2010,feed_supplements,15.0
+200,58,Singapore,Ecuador,2011,feed_supplements,16.0
+200,58,Singapore,Ecuador,2012,feed_supplements,7.0
+200,58,Singapore,Ecuador,2013,feed_supplements,40.0
+200,58,Singapore,Ecuador,2014,feed_supplements,5.05
+200,58,Singapore,Ecuador,2015,feed_supplements,3.7
+200,58,Singapore,Ecuador,2016,feed_supplements,31.1
+200,58,Singapore,Ecuador,2017,feed_supplements,114.0
+200,58,Singapore,Ecuador,2018,feed_supplements,61.0
+200,58,Singapore,Ecuador,2019,feed_supplements,80.0
+200,58,Singapore,Ecuador,2020,feed_supplements,28.95
+200,58,Singapore,Ecuador,2021,feed_supplements,80.0
+200,58,Singapore,Ecuador,2023,feed_supplements,16.5
+200,59,Singapore,Egypt,1998,feed_supplements,1.0
+200,59,Singapore,Egypt,2002,feed_supplements,2.0
+200,59,Singapore,Egypt,2003,feed_supplements,5.0
+200,59,Singapore,Egypt,2005,feed_supplements,10.0
+200,59,Singapore,Egypt,2007,feed_supplements,11.0
+200,59,Singapore,Egypt,2008,feed_supplements,134.0
+200,59,Singapore,Egypt,2009,feed_supplements,25.0
+200,59,Singapore,Egypt,2010,feed_supplements,83.0
+200,59,Singapore,Egypt,2011,feed_supplements,84.0
+200,59,Singapore,Egypt,2012,feed_supplements,234.0
+200,59,Singapore,Egypt,2013,feed_supplements,46.0
+200,59,Singapore,Egypt,2014,feed_supplements,62.01
+200,59,Singapore,Egypt,2015,feed_supplements,58.0
+200,59,Singapore,Egypt,2016,feed_supplements,51.54
+200,59,Singapore,Egypt,2017,feed_supplements,39.25
+200,59,Singapore,Egypt,2018,feed_supplements,25.44
+200,59,Singapore,Egypt,2019,feed_supplements,211.27
+200,59,Singapore,Egypt,2020,feed_supplements,189.17
+200,59,Singapore,Egypt,2021,feed_supplements,346.79
+200,59,Singapore,Egypt,2022,feed_supplements,751.71
+200,59,Singapore,Egypt,2023,feed_supplements,510.73
+200,60,Singapore,El Salvador,2013,feed_supplements,6.0
+200,60,Singapore,El Salvador,2014,feed_supplements,4.0
+200,60,Singapore,El Salvador,2015,feed_supplements,8.0
+200,60,Singapore,El Salvador,2016,feed_supplements,8.0
+200,60,Singapore,El Salvador,2017,feed_supplements,2.0
+9,156,Argentina,New Zealand,2006,feed_supplements,2.0
+9,156,Argentina,New Zealand,2007,feed_supplements,2.0
+9,156,Argentina,New Zealand,2008,feed_supplements,44.0
+9,156,Argentina,New Zealand,2009,feed_supplements,231.0
+9,156,Argentina,New Zealand,2010,feed_supplements,42.0
+9,156,Argentina,New Zealand,2011,feed_supplements,16955.0
+9,156,Argentina,New Zealand,2012,feed_supplements,63051.0
+9,156,Argentina,New Zealand,2013,feed_supplements,46816.0
+9,156,Argentina,New Zealand,2015,feed_supplements,0.09
+101,112,Indonesia,Jordan,2003,feed_supplements,21.0
+101,112,Indonesia,Jordan,2004,feed_supplements,60.0
+200,66,Singapore,Fiji,1997,feed_supplements,2.0
+200,66,Singapore,Fiji,2000,feed_supplements,3.0
+200,66,Singapore,Fiji,2008,feed_supplements,10.0
+200,66,Singapore,Fiji,2010,feed_supplements,2.0
+200,66,Singapore,Fiji,2011,feed_supplements,1.0
+200,66,Singapore,Fiji,2012,feed_supplements,11.0
+200,66,Singapore,Fiji,2013,feed_supplements,2.0
+9,221,Argentina,Oman,2014,feed_supplements,0.18
+9,221,Argentina,Oman,2015,feed_supplements,0.06
+9,221,Argentina,Oman,2016,feed_supplements,0.06
+9,221,Argentina,Oman,2017,feed_supplements,0.48
+131,100,Malaysia,India,1990,feed_supplements,19.0
+131,100,Malaysia,India,1991,feed_supplements,1.0
+131,100,Malaysia,India,1992,feed_supplements,124.0
+131,100,Malaysia,India,1993,feed_supplements,15.0
+131,100,Malaysia,India,1995,feed_supplements,39.0
+231,33,United States of America,Canada,1986,feed_supplements,68329.0
+231,33,United States of America,Canada,1987,feed_supplements,63399.0
+231,33,United States of America,Canada,1988,feed_supplements,87449.0
+101,118,Indonesia,Kuwait,2002,feed_supplements,1.0
+231,33,United States of America,Canada,1989,feed_supplements,584.0
+231,33,United States of America,Canada,1990,feed_supplements,954.0
+9,165,Argentina,Pakistan,2007,feed_supplements,6.0
+9,165,Argentina,Pakistan,2010,feed_supplements,1027.0
+9,165,Argentina,Pakistan,2011,feed_supplements,650.0
+9,165,Argentina,Pakistan,2012,feed_supplements,10.0
+9,165,Argentina,Pakistan,2013,feed_supplements,106.0
+9,165,Argentina,Pakistan,2014,feed_supplements,15.0
+9,166,Argentina,Panama,1991,feed_supplements,12.0
+9,166,Argentina,Panama,1992,feed_supplements,51.0
+9,166,Argentina,Panama,2003,feed_supplements,5.0
+9,166,Argentina,Panama,2004,feed_supplements,10.0
+9,166,Argentina,Panama,2005,feed_supplements,10.0
+9,166,Argentina,Panama,2006,feed_supplements,11.0
+9,166,Argentina,Panama,2007,feed_supplements,51.0
+9,166,Argentina,Panama,2008,feed_supplements,66.0
+9,166,Argentina,Panama,2009,feed_supplements,155.0
+9,166,Argentina,Panama,2010,feed_supplements,144.0
+9,166,Argentina,Panama,2011,feed_supplements,95.0
+9,166,Argentina,Panama,2012,feed_supplements,94.0
+9,166,Argentina,Panama,2013,feed_supplements,95.0
+9,166,Argentina,Panama,2014,feed_supplements,72.3
+9,166,Argentina,Panama,2015,feed_supplements,75.26
+9,166,Argentina,Panama,2016,feed_supplements,136.18
+9,166,Argentina,Panama,2017,feed_supplements,104.29
+10,100,Australia,India,1996,feed_supplements,3.0
+101,129,Indonesia,Madagascar,1997,feed_supplements,100.0
+9,169,Argentina,Paraguay,1986,feed_supplements,35.0
+9,169,Argentina,Paraguay,1988,feed_supplements,25.0
+9,169,Argentina,Paraguay,1990,feed_supplements,213.0
+9,169,Argentina,Paraguay,1991,feed_supplements,302.0
+9,169,Argentina,Paraguay,1992,feed_supplements,164.0
+9,169,Argentina,Paraguay,1994,feed_supplements,264.0
+9,169,Argentina,Paraguay,1995,feed_supplements,248.0
+9,169,Argentina,Paraguay,1996,feed_supplements,83.0
+9,169,Argentina,Paraguay,1997,feed_supplements,79.0
+9,169,Argentina,Paraguay,1998,feed_supplements,45.0
+9,169,Argentina,Paraguay,2000,feed_supplements,56.0
+9,169,Argentina,Paraguay,2001,feed_supplements,69.0
+9,169,Argentina,Paraguay,2002,feed_supplements,21.0
+9,169,Argentina,Paraguay,2003,feed_supplements,31.0
+9,169,Argentina,Paraguay,2004,feed_supplements,60.0
+9,169,Argentina,Paraguay,2005,feed_supplements,91.0
+9,169,Argentina,Paraguay,2006,feed_supplements,195.0
+9,169,Argentina,Paraguay,2007,feed_supplements,371.0
+9,169,Argentina,Paraguay,2008,feed_supplements,285.0
+9,169,Argentina,Paraguay,2009,feed_supplements,343.0
+9,169,Argentina,Paraguay,2010,feed_supplements,491.0
+9,169,Argentina,Paraguay,2011,feed_supplements,460.0
+9,169,Argentina,Paraguay,2012,feed_supplements,494.0
+9,169,Argentina,Paraguay,2013,feed_supplements,620.0
+9,169,Argentina,Paraguay,2014,feed_supplements,914.84
+9,169,Argentina,Paraguay,2015,feed_supplements,1103.64
+9,169,Argentina,Paraguay,2016,feed_supplements,1830.58
+9,169,Argentina,Paraguay,2017,feed_supplements,820.12
+48,234,Costa Rica,Uruguay,2003,feed_supplements,10.0
+200,68,Singapore,France,2004,feed_supplements,1.0
+200,68,Singapore,France,2015,feed_supplements,5.13
+200,68,Singapore,France,2017,feed_supplements,0.15
+200,68,Singapore,France,2018,feed_supplements,0.16
+41,55,"China, mainland",Dominica,1992,feed_supplements,51.0
+101,131,Indonesia,Malaysia,1991,feed_supplements,68.0
+101,131,Indonesia,Malaysia,1992,feed_supplements,45.0
+101,131,Indonesia,Malaysia,1993,feed_supplements,36.0
+101,131,Indonesia,Malaysia,1994,feed_supplements,10.0
+101,131,Indonesia,Malaysia,1995,feed_supplements,90.0
+101,131,Indonesia,Malaysia,1996,feed_supplements,10693.0
+101,131,Indonesia,Malaysia,1997,feed_supplements,5754.0
+101,131,Indonesia,Malaysia,1998,feed_supplements,14945.0
+101,131,Indonesia,Malaysia,1999,feed_supplements,10544.0
+101,131,Indonesia,Malaysia,2000,feed_supplements,11332.0
+101,131,Indonesia,Malaysia,2001,feed_supplements,6616.0
+101,131,Indonesia,Malaysia,2002,feed_supplements,2071.0
+101,131,Indonesia,Malaysia,2003,feed_supplements,1427.0
+101,131,Indonesia,Malaysia,2004,feed_supplements,374.0
+101,131,Indonesia,Malaysia,2005,feed_supplements,412.0
+101,131,Indonesia,Malaysia,2006,feed_supplements,221.0
+101,131,Indonesia,Malaysia,2007,feed_supplements,2419.0
+101,131,Indonesia,Malaysia,2008,feed_supplements,391.0
+101,131,Indonesia,Malaysia,2009,feed_supplements,389.0
+101,131,Indonesia,Malaysia,2011,feed_supplements,2.0
+101,131,Indonesia,Malaysia,2013,feed_supplements,20.0
+101,131,Indonesia,Malaysia,2015,feed_supplements,0.23
+9,170,Argentina,Peru,1992,feed_supplements,1.0
+9,170,Argentina,Peru,1994,feed_supplements,6.0
+9,170,Argentina,Peru,1996,feed_supplements,3.0
+9,170,Argentina,Peru,1997,feed_supplements,3.0
+9,170,Argentina,Peru,1998,feed_supplements,13.0
+9,170,Argentina,Peru,2000,feed_supplements,8.0
+9,170,Argentina,Peru,2003,feed_supplements,7.0
+9,170,Argentina,Peru,2004,feed_supplements,18.0
+9,170,Argentina,Peru,2005,feed_supplements,21.0
+9,170,Argentina,Peru,2006,feed_supplements,32.0
+9,170,Argentina,Peru,2007,feed_supplements,207.0
+9,170,Argentina,Peru,2008,feed_supplements,649.0
+9,170,Argentina,Peru,2009,feed_supplements,3750.0
+9,170,Argentina,Peru,2010,feed_supplements,17568.0
+9,170,Argentina,Peru,2011,feed_supplements,26795.0
+9,170,Argentina,Peru,2012,feed_supplements,25045.0
+9,170,Argentina,Peru,2013,feed_supplements,9959.0
+9,170,Argentina,Peru,2014,feed_supplements,769.84
+9,170,Argentina,Peru,2015,feed_supplements,839.64
+9,170,Argentina,Peru,2016,feed_supplements,962.51
+9,170,Argentina,Peru,2017,feed_supplements,999.74
+131,101,Malaysia,Indonesia,1988,feed_supplements,49.0
+131,101,Malaysia,Indonesia,1989,feed_supplements,51.0
+131,101,Malaysia,Indonesia,1990,feed_supplements,192.0
+131,101,Malaysia,Indonesia,1991,feed_supplements,40.0
+131,101,Malaysia,Indonesia,1992,feed_supplements,658.0
+131,101,Malaysia,Indonesia,1994,feed_supplements,2.0
+131,101,Malaysia,Indonesia,1995,feed_supplements,153.0
+131,101,Malaysia,Indonesia,1996,feed_supplements,127.0
+131,101,Malaysia,Indonesia,2004,feed_supplements,5536.0
+131,101,Malaysia,Indonesia,2005,feed_supplements,3153.0
+131,101,Malaysia,Indonesia,2006,feed_supplements,6908.0
+131,101,Malaysia,Indonesia,2007,feed_supplements,6217.0
+10,101,Australia,Indonesia,1990,feed_supplements,1056.0
+10,101,Australia,Indonesia,1991,feed_supplements,350.0
+10,101,Australia,Indonesia,1993,feed_supplements,1.0
+10,101,Australia,Indonesia,1994,feed_supplements,542.0
+10,101,Australia,Indonesia,1996,feed_supplements,210.0
+200,70,Singapore,French Polynesia,2014,feed_supplements,0.11
+9,171,Argentina,Philippines,2003,feed_supplements,2.0
+9,171,Argentina,Philippines,2004,feed_supplements,7.0
+9,171,Argentina,Philippines,2005,feed_supplements,75.0
+9,171,Argentina,Philippines,2007,feed_supplements,9.0
+9,171,Argentina,Philippines,2008,feed_supplements,37.0
+9,171,Argentina,Philippines,2009,feed_supplements,39.0
+9,171,Argentina,Philippines,2010,feed_supplements,98.0
+9,171,Argentina,Philippines,2011,feed_supplements,9724.0
+9,171,Argentina,Philippines,2012,feed_supplements,21268.0
+9,171,Argentina,Philippines,2013,feed_supplements,10207.0
+9,171,Argentina,Philippines,2014,feed_supplements,15.6
+9,171,Argentina,Philippines,2015,feed_supplements,1617.46
+9,171,Argentina,Philippines,2016,feed_supplements,417.22
+9,171,Argentina,Philippines,2017,feed_supplements,35.4
+200,75,Singapore,Gambia,2021,feed_supplements,3.0
+9,173,Argentina,Poland,2004,feed_supplements,3.0
+9,174,Argentina,Portugal,2015,feed_supplements,50.0
+200,79,Singapore,Germany,1998,feed_supplements,20.0
+200,79,Singapore,Germany,2000,feed_supplements,2.0
+200,79,Singapore,Germany,2010,feed_supplements,133.0
+200,79,Singapore,Germany,2012,feed_supplements,24.0
+200,79,Singapore,Germany,2017,feed_supplements,0.15
+200,79,Singapore,Germany,2018,feed_supplements,30.11
+200,79,Singapore,Germany,2019,feed_supplements,0.04
+200,79,Singapore,Germany,2020,feed_supplements,0.3
+200,79,Singapore,Germany,2023,feed_supplements,0.03
+9,177,Argentina,Puerto Rico,1991,feed_supplements,190.0
+9,179,Argentina,Qatar,2014,feed_supplements,0.02
+9,179,Argentina,Qatar,2016,feed_supplements,0.12
+9,179,Argentina,Qatar,2017,feed_supplements,1167.42
+101,132,Indonesia,Maldives,2011,feed_supplements,2.0
+9,117,Argentina,Republic of Korea,1995,feed_supplements,46.0
+9,117,Argentina,Republic of Korea,1996,feed_supplements,98.0
+9,117,Argentina,Republic of Korea,1997,feed_supplements,72.0
+9,117,Argentina,Republic of Korea,1998,feed_supplements,48.0
+9,117,Argentina,Republic of Korea,2000,feed_supplements,68.0
+9,117,Argentina,Republic of Korea,2001,feed_supplements,46.0
+9,117,Argentina,Republic of Korea,2010,feed_supplements,101.0
+9,117,Argentina,Republic of Korea,2012,feed_supplements,1.0
+9,117,Argentina,Republic of Korea,2013,feed_supplements,75.0
+101,134,Indonesia,Malta,1999,feed_supplements,36.0
+9,183,Argentina,Romania,2005,feed_supplements,1.0
+10,102,Australia,Iran (Islamic Republic of),1993,feed_supplements,53.0
+9,194,Argentina,Saudi Arabia,2002,feed_supplements,6.0
+9,194,Argentina,Saudi Arabia,2004,feed_supplements,1.0
+9,194,Argentina,Saudi Arabia,2009,feed_supplements,5.0
+9,194,Argentina,Saudi Arabia,2015,feed_supplements,3.12
+9,194,Argentina,Saudi Arabia,2017,feed_supplements,7.0
+10,104,Australia,Ireland,1992,feed_supplements,1.0
+10,104,Australia,Ireland,1993,feed_supplements,2.0
+10,104,Australia,Ireland,1994,feed_supplements,2.0
+101,143,Indonesia,Morocco,1999,feed_supplements,20.0
+200,84,Singapore,Greece,2010,feed_supplements,1.0
+200,84,Singapore,Greece,2015,feed_supplements,7.0
+200,84,Singapore,Greece,2018,feed_supplements,2.35
+231,40,United States of America,Chile,1986,feed_supplements,40.0
+231,40,United States of America,Chile,1987,feed_supplements,29.0
+231,40,United States of America,Chile,1988,feed_supplements,253.0
+9,200,Argentina,Singapore,2013,feed_supplements,1776.0
+9,200,Argentina,Singapore,2014,feed_supplements,916.85
+9,200,Argentina,Singapore,2015,feed_supplements,6771.84
+9,200,Argentina,Singapore,2017,feed_supplements,2.0
+101,28,Indonesia,Myanmar,1999,feed_supplements,19.0
+101,28,Indonesia,Myanmar,2000,feed_supplements,327.0
+101,28,Indonesia,Myanmar,2001,feed_supplements,242.0
+101,28,Indonesia,Myanmar,2002,feed_supplements,648.0
+101,28,Indonesia,Myanmar,2003,feed_supplements,169.0
+101,28,Indonesia,Myanmar,2005,feed_supplements,51.0
+101,28,Indonesia,Myanmar,2006,feed_supplements,68.0
+101,28,Indonesia,Myanmar,2007,feed_supplements,34.0
+101,28,Indonesia,Myanmar,2008,feed_supplements,41.0
+200,89,Singapore,Guatemala,2008,feed_supplements,5.0
+200,89,Singapore,Guatemala,2009,feed_supplements,10.0
+200,89,Singapore,Guatemala,2010,feed_supplements,10.0
+200,89,Singapore,Guatemala,2011,feed_supplements,10.0
+200,89,Singapore,Guatemala,2013,feed_supplements,10.0
+200,89,Singapore,Guatemala,2014,feed_supplements,119.0
+200,89,Singapore,Guatemala,2015,feed_supplements,34.0
+200,89,Singapore,Guatemala,2018,feed_supplements,0.54
+200,89,Singapore,Guatemala,2019,feed_supplements,2.25
+101,149,Indonesia,Nepal,2011,feed_supplements,2.0
+9,202,Argentina,South Africa,1995,feed_supplements,5.0
+9,202,Argentina,South Africa,1996,feed_supplements,14.0
+9,202,Argentina,South Africa,1997,feed_supplements,6.0
+9,202,Argentina,South Africa,1998,feed_supplements,3.0
+9,202,Argentina,South Africa,2000,feed_supplements,221.0
+9,202,Argentina,South Africa,2001,feed_supplements,113.0
+9,202,Argentina,South Africa,2002,feed_supplements,55.0
+9,202,Argentina,South Africa,2003,feed_supplements,118.0
+9,202,Argentina,South Africa,2005,feed_supplements,468.0
+9,202,Argentina,South Africa,2006,feed_supplements,606.0
+9,202,Argentina,South Africa,2007,feed_supplements,1163.0
+9,202,Argentina,South Africa,2008,feed_supplements,6118.0
+9,202,Argentina,South Africa,2009,feed_supplements,922.0
+9,202,Argentina,South Africa,2010,feed_supplements,924.0
+9,202,Argentina,South Africa,2011,feed_supplements,1946.0
+9,202,Argentina,South Africa,2012,feed_supplements,1264.0
+9,202,Argentina,South Africa,2013,feed_supplements,393.0
+9,202,Argentina,South Africa,2014,feed_supplements,48.12
+9,202,Argentina,South Africa,2015,feed_supplements,25.2
+9,202,Argentina,South Africa,2016,feed_supplements,3.06
+9,202,Argentina,South Africa,2017,feed_supplements,14.7
+10,106,Australia,Italy,1987,feed_supplements,4.0
+101,150,Indonesia,Netherlands (Kingdom of the),1995,feed_supplements,38.0
+101,150,Indonesia,Netherlands (Kingdom of the),1998,feed_supplements,10.0
+9,203,Argentina,Spain,1991,feed_supplements,62.0
+9,203,Argentina,Spain,1992,feed_supplements,60.0
+9,203,Argentina,Spain,1995,feed_supplements,5.0
+9,203,Argentina,Spain,1998,feed_supplements,100.0
+9,203,Argentina,Spain,2000,feed_supplements,273.0
+9,203,Argentina,Spain,2001,feed_supplements,497.0
+9,203,Argentina,Spain,2002,feed_supplements,380.0
+9,203,Argentina,Spain,2003,feed_supplements,486.0
+9,203,Argentina,Spain,2004,feed_supplements,340.0
+9,203,Argentina,Spain,2005,feed_supplements,673.0
+9,203,Argentina,Spain,2006,feed_supplements,582.0
+9,203,Argentina,Spain,2007,feed_supplements,541.0
+9,203,Argentina,Spain,2008,feed_supplements,381.0
+9,203,Argentina,Spain,2009,feed_supplements,683.0
+9,203,Argentina,Spain,2010,feed_supplements,384.0
+9,203,Argentina,Spain,2011,feed_supplements,340.0
+9,203,Argentina,Spain,2012,feed_supplements,100.0
+9,203,Argentina,Spain,2015,feed_supplements,9564.29
+200,100,Singapore,India,1987,feed_supplements,3.0
+200,100,Singapore,India,1989,feed_supplements,1.0
+200,100,Singapore,India,1992,feed_supplements,17.0
+200,100,Singapore,India,1993,feed_supplements,341.0
+200,100,Singapore,India,1994,feed_supplements,1101.0
+200,100,Singapore,India,1995,feed_supplements,1042.0
+200,100,Singapore,India,1996,feed_supplements,946.0
+200,100,Singapore,India,1997,feed_supplements,92.0
+200,100,Singapore,India,1998,feed_supplements,192.0
+200,100,Singapore,India,1999,feed_supplements,137.0
+200,100,Singapore,India,2000,feed_supplements,279.0
+200,100,Singapore,India,2001,feed_supplements,619.0
+200,100,Singapore,India,2002,feed_supplements,152.0
+200,100,Singapore,India,2003,feed_supplements,243.0
+200,100,Singapore,India,2004,feed_supplements,168.0
+200,100,Singapore,India,2005,feed_supplements,198.0
+200,100,Singapore,India,2006,feed_supplements,608.0
+200,100,Singapore,India,2007,feed_supplements,1622.0
+200,100,Singapore,India,2008,feed_supplements,848.0
+200,100,Singapore,India,2009,feed_supplements,1125.0
+200,100,Singapore,India,2010,feed_supplements,2473.0
+200,100,Singapore,India,2011,feed_supplements,2937.0
+200,100,Singapore,India,2012,feed_supplements,1685.0
+200,100,Singapore,India,2013,feed_supplements,3522.0
+200,100,Singapore,India,2014,feed_supplements,3985.68
+200,100,Singapore,India,2015,feed_supplements,3430.52
+200,100,Singapore,India,2016,feed_supplements,3476.06
+200,100,Singapore,India,2017,feed_supplements,3363.75
+200,100,Singapore,India,2018,feed_supplements,2281.29
+200,100,Singapore,India,2019,feed_supplements,2502.76
+200,100,Singapore,India,2020,feed_supplements,1125.35
+200,100,Singapore,India,2021,feed_supplements,2169.48
+200,100,Singapore,India,2022,feed_supplements,2748.07
+200,100,Singapore,India,2023,feed_supplements,3233.73
+131,110,Malaysia,Japan,1989,feed_supplements,10.0
+131,110,Malaysia,Japan,1990,feed_supplements,13.0
+9,38,Argentina,Sri Lanka,2007,feed_supplements,1.0
+9,38,Argentina,Sri Lanka,2008,feed_supplements,3.0
+9,38,Argentina,Sri Lanka,2009,feed_supplements,17.0
+9,38,Argentina,Sri Lanka,2010,feed_supplements,19.0
+9,38,Argentina,Sri Lanka,2011,feed_supplements,26.0
+9,38,Argentina,Sri Lanka,2015,feed_supplements,3.0
+9,38,Argentina,Sri Lanka,2017,feed_supplements,1.62
+231,96,United States of America,"China, Hong Kong SAR",1986,feed_supplements,4054.0
+231,96,United States of America,"China, Hong Kong SAR",1987,feed_supplements,6358.0
+231,96,United States of America,"China, Hong Kong SAR",1988,feed_supplements,7309.0
+101,156,Indonesia,New Zealand,1996,feed_supplements,18.0
+10,110,Australia,Japan,1986,feed_supplements,1634.0
+10,110,Australia,Japan,1987,feed_supplements,2152.0
+10,110,Australia,Japan,1988,feed_supplements,504.0
+10,110,Australia,Japan,1989,feed_supplements,1623.0
+10,110,Australia,Japan,1990,feed_supplements,3520.0
+10,110,Australia,Japan,1991,feed_supplements,2189.0
+10,110,Australia,Japan,1992,feed_supplements,2161.0
+10,110,Australia,Japan,1993,feed_supplements,7156.0
+10,110,Australia,Japan,1994,feed_supplements,2776.0
+10,110,Australia,Japan,1996,feed_supplements,441.0
+9,211,Argentina,Switzerland,1991,feed_supplements,11.0
+9,212,Argentina,Syrian Arab Republic,2009,feed_supplements,47.0
+9,212,Argentina,Syrian Arab Republic,2010,feed_supplements,30.0
+9,212,Argentina,Syrian Arab Republic,2011,feed_supplements,59.0
+9,212,Argentina,Syrian Arab Republic,2012,feed_supplements,15.0
+9,212,Argentina,Syrian Arab Republic,2014,feed_supplements,7.83
+9,212,Argentina,Syrian Arab Republic,2015,feed_supplements,8.06
+9,212,Argentina,Syrian Arab Republic,2016,feed_supplements,5.2
+9,212,Argentina,Syrian Arab Republic,2017,feed_supplements,5.2
+9,216,Argentina,Thailand,2000,feed_supplements,85.0
+9,216,Argentina,Thailand,2001,feed_supplements,100.0
+9,216,Argentina,Thailand,2002,feed_supplements,96.0
+9,216,Argentina,Thailand,2003,feed_supplements,96.0
+9,216,Argentina,Thailand,2004,feed_supplements,147.0
+9,216,Argentina,Thailand,2005,feed_supplements,101.0
+9,216,Argentina,Thailand,2006,feed_supplements,90.0
+9,216,Argentina,Thailand,2007,feed_supplements,101.0
+9,216,Argentina,Thailand,2008,feed_supplements,151.0
+9,216,Argentina,Thailand,2009,feed_supplements,213.0
+9,216,Argentina,Thailand,2010,feed_supplements,168.0
+9,216,Argentina,Thailand,2011,feed_supplements,224.0
+9,216,Argentina,Thailand,2012,feed_supplements,120.0
+9,216,Argentina,Thailand,2013,feed_supplements,174.0
+9,216,Argentina,Thailand,2014,feed_supplements,489.52
+9,216,Argentina,Thailand,2015,feed_supplements,548.08
+9,216,Argentina,Thailand,2016,feed_supplements,549.8
+9,216,Argentina,Thailand,2017,feed_supplements,822.9
+101,159,Indonesia,Nigeria,2004,feed_supplements,290.0
+101,159,Indonesia,Nigeria,2005,feed_supplements,1146.0
+101,159,Indonesia,Nigeria,2006,feed_supplements,1660.0
+101,159,Indonesia,Nigeria,2007,feed_supplements,1320.0
+101,159,Indonesia,Nigeria,2008,feed_supplements,1380.0
+101,159,Indonesia,Nigeria,2009,feed_supplements,600.0
+101,159,Indonesia,Nigeria,2011,feed_supplements,100.0
+9,220,Argentina,Trinidad and Tobago,2014,feed_supplements,0.02
+9,220,Argentina,Trinidad and Tobago,2016,feed_supplements,0.83
+9,223,Argentina,Türkiye,1991,feed_supplements,1.0
+9,223,Argentina,Türkiye,2006,feed_supplements,72.0
+9,223,Argentina,Türkiye,2010,feed_supplements,48.0
+9,223,Argentina,Türkiye,2011,feed_supplements,48.0
+9,223,Argentina,Türkiye,2012,feed_supplements,5.0
+9,223,Argentina,Türkiye,2013,feed_supplements,19091.0
+9,223,Argentina,Türkiye,2014,feed_supplements,15146.14
+9,223,Argentina,Türkiye,2015,feed_supplements,28.5
+9,223,Argentina,Türkiye,2016,feed_supplements,24481.02
+9,223,Argentina,Türkiye,2017,feed_supplements,24.0
+200,101,Singapore,Indonesia,2005,feed_supplements,31040.0
+200,101,Singapore,Indonesia,2006,feed_supplements,29753.0
+200,101,Singapore,Indonesia,2007,feed_supplements,30414.0
+200,101,Singapore,Indonesia,2008,feed_supplements,58216.0
+200,101,Singapore,Indonesia,2009,feed_supplements,52360.0
+200,101,Singapore,Indonesia,2010,feed_supplements,57608.0
+200,101,Singapore,Indonesia,2011,feed_supplements,62742.0
+200,101,Singapore,Indonesia,2012,feed_supplements,64711.0
+200,101,Singapore,Indonesia,2013,feed_supplements,59372.0
+200,101,Singapore,Indonesia,2014,feed_supplements,51096.06
+200,101,Singapore,Indonesia,2015,feed_supplements,54441.77
+200,101,Singapore,Indonesia,2016,feed_supplements,47338.44
+200,101,Singapore,Indonesia,2017,feed_supplements,7606.09
+200,101,Singapore,Indonesia,2018,feed_supplements,7966.85
+200,101,Singapore,Indonesia,2019,feed_supplements,8590.44
+200,101,Singapore,Indonesia,2020,feed_supplements,11624.68
+200,101,Singapore,Indonesia,2021,feed_supplements,20411.21
+200,101,Singapore,Indonesia,2022,feed_supplements,128981.35
+200,101,Singapore,Indonesia,2023,feed_supplements,48104.2
+101,165,Indonesia,Pakistan,1996,feed_supplements,108.0
+101,165,Indonesia,Pakistan,1999,feed_supplements,20.0
+101,165,Indonesia,Pakistan,2005,feed_supplements,7.0
+101,165,Indonesia,Pakistan,2006,feed_supplements,1.0
+101,165,Indonesia,Pakistan,2007,feed_supplements,3.0
+101,165,Indonesia,Pakistan,2008,feed_supplements,7.0
+9,225,Argentina,United Arab Emirates,2006,feed_supplements,1.0
+9,225,Argentina,United Arab Emirates,2013,feed_supplements,5.0
+9,225,Argentina,United Arab Emirates,2014,feed_supplements,4.08
+9,225,Argentina,United Arab Emirates,2016,feed_supplements,1.08
+9,225,Argentina,United Arab Emirates,2017,feed_supplements,4.32
+10,112,Australia,Jordan,1987,feed_supplements,3.0
+10,112,Australia,Jordan,1994,feed_supplements,3020.0
+101,166,Indonesia,Panama,1995,feed_supplements,10.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,2017,feed_supplements,0.6
+131,129,Malaysia,Madagascar,1996,feed_supplements,140.0
+10,83,Australia,Kiribati,1986,feed_supplements,480.0
+101,171,Indonesia,Philippines,1991,feed_supplements,1.0
+101,171,Indonesia,Philippines,1993,feed_supplements,18.0
+101,171,Indonesia,Philippines,1995,feed_supplements,29.0
+101,171,Indonesia,Philippines,1996,feed_supplements,20.0
+101,171,Indonesia,Philippines,1997,feed_supplements,1.0
+101,171,Indonesia,Philippines,1998,feed_supplements,431.0
+101,171,Indonesia,Philippines,2001,feed_supplements,109.0
+101,171,Indonesia,Philippines,2002,feed_supplements,102.0
+101,171,Indonesia,Philippines,2004,feed_supplements,528.0
+101,171,Indonesia,Philippines,2005,feed_supplements,311.0
+101,171,Indonesia,Philippines,2006,feed_supplements,893.0
+101,171,Indonesia,Philippines,2007,feed_supplements,1.0
+200,102,Singapore,Iran (Islamic Republic of),2010,feed_supplements,409.0
+200,102,Singapore,Iran (Islamic Republic of),2016,feed_supplements,1.55
+200,102,Singapore,Iran (Islamic Republic of),2017,feed_supplements,7.74
+200,102,Singapore,Iran (Islamic Republic of),2018,feed_supplements,2.49
+200,102,Singapore,Iran (Islamic Republic of),2022,feed_supplements,2.37
+10,118,Australia,Kuwait,1986,feed_supplements,1600.0
+10,118,Australia,Kuwait,1987,feed_supplements,6085.0
+10,118,Australia,Kuwait,1988,feed_supplements,11866.0
+10,118,Australia,Kuwait,1989,feed_supplements,6121.0
+10,118,Australia,Kuwait,1992,feed_supplements,2.0
+9,231,Argentina,United States of America,1991,feed_supplements,6.0
+9,231,Argentina,United States of America,1994,feed_supplements,6.0
+9,231,Argentina,United States of America,1998,feed_supplements,1.0
+9,231,Argentina,United States of America,2002,feed_supplements,885.0
+9,231,Argentina,United States of America,2003,feed_supplements,3585.0
+9,231,Argentina,United States of America,2004,feed_supplements,2.0
+9,231,Argentina,United States of America,2007,feed_supplements,29.0
+9,231,Argentina,United States of America,2009,feed_supplements,58.0
+9,231,Argentina,United States of America,2010,feed_supplements,95.0
+9,231,Argentina,United States of America,2011,feed_supplements,97.0
+9,231,Argentina,United States of America,2012,feed_supplements,78.0
+9,231,Argentina,United States of America,2013,feed_supplements,293.0
+9,231,Argentina,United States of America,2014,feed_supplements,557.8
+9,231,Argentina,United States of America,2015,feed_supplements,234.06
+9,231,Argentina,United States of America,2016,feed_supplements,58.57
+9,231,Argentina,United States of America,2017,feed_supplements,49.51
+200,104,Singapore,Ireland,1993,feed_supplements,27.0
+200,104,Singapore,Ireland,1994,feed_supplements,30.0
+200,104,Singapore,Ireland,2004,feed_supplements,1.0
+200,104,Singapore,Ireland,2016,feed_supplements,2.63
+200,104,Singapore,Ireland,2017,feed_supplements,2.08
+200,104,Singapore,Ireland,2019,feed_supplements,1.59
+231,41,United States of America,"China, mainland",1987,feed_supplements,88.0
+231,41,United States of America,"China, mainland",1988,feed_supplements,191.0
+101,174,Indonesia,Portugal,2000,feed_supplements,42.0
+200,105,Singapore,Israel,2004,feed_supplements,1.0
+200,105,Singapore,Israel,2006,feed_supplements,11.0
+10,123,Australia,Liberia,1994,feed_supplements,268.0
+101,117,Indonesia,Republic of Korea,1994,feed_supplements,5.0
+101,117,Indonesia,Republic of Korea,1997,feed_supplements,126.0
+101,117,Indonesia,Republic of Korea,1999,feed_supplements,1.0
+101,117,Indonesia,Republic of Korea,2004,feed_supplements,178.0
+101,117,Indonesia,Republic of Korea,2005,feed_supplements,708.0
+101,117,Indonesia,Republic of Korea,2006,feed_supplements,1204.0
+101,117,Indonesia,Republic of Korea,2007,feed_supplements,1224.0
+101,117,Indonesia,Republic of Korea,2008,feed_supplements,534.0
+101,117,Indonesia,Republic of Korea,2009,feed_supplements,164.0
+101,117,Indonesia,Republic of Korea,2010,feed_supplements,150.0
+101,117,Indonesia,Republic of Korea,2011,feed_supplements,14.0
+101,117,Indonesia,Republic of Korea,2012,feed_supplements,23.0
+101,117,Indonesia,Republic of Korea,2013,feed_supplements,2.0
+200,106,Singapore,Italy,1988,feed_supplements,1.0
+200,106,Singapore,Italy,2023,feed_supplements,0.01
+131,28,Malaysia,Myanmar,1990,feed_supplements,5.0
+131,28,Malaysia,Myanmar,1991,feed_supplements,16.0
+131,28,Malaysia,Myanmar,1992,feed_supplements,12.0
+131,28,Malaysia,Myanmar,1994,feed_supplements,16.0
+131,28,Malaysia,Myanmar,1995,feed_supplements,37.0
+131,28,Malaysia,Myanmar,2004,feed_supplements,16.0
+131,28,Malaysia,Myanmar,2005,feed_supplements,50.0
+131,28,Malaysia,Myanmar,2006,feed_supplements,74.0
+131,28,Malaysia,Myanmar,2007,feed_supplements,52.0
+9,234,Argentina,Uruguay,1988,feed_supplements,20.0
+9,234,Argentina,Uruguay,1989,feed_supplements,155.0
+9,234,Argentina,Uruguay,1990,feed_supplements,33.0
+9,234,Argentina,Uruguay,1991,feed_supplements,110.0
+9,234,Argentina,Uruguay,1992,feed_supplements,152.0
+9,234,Argentina,Uruguay,1994,feed_supplements,451.0
+9,234,Argentina,Uruguay,1995,feed_supplements,1386.0
+9,234,Argentina,Uruguay,1996,feed_supplements,438.0
+9,234,Argentina,Uruguay,1997,feed_supplements,281.0
+9,234,Argentina,Uruguay,1998,feed_supplements,227.0
+9,234,Argentina,Uruguay,2000,feed_supplements,379.0
+9,234,Argentina,Uruguay,2001,feed_supplements,212.0
+9,234,Argentina,Uruguay,2002,feed_supplements,45.0
+9,234,Argentina,Uruguay,2003,feed_supplements,181.0
+9,234,Argentina,Uruguay,2004,feed_supplements,458.0
+9,234,Argentina,Uruguay,2005,feed_supplements,709.0
+9,234,Argentina,Uruguay,2006,feed_supplements,1101.0
+9,234,Argentina,Uruguay,2007,feed_supplements,1632.0
+9,234,Argentina,Uruguay,2008,feed_supplements,2118.0
+9,234,Argentina,Uruguay,2009,feed_supplements,8632.0
+9,234,Argentina,Uruguay,2010,feed_supplements,10041.0
+9,234,Argentina,Uruguay,2011,feed_supplements,16582.0
+9,234,Argentina,Uruguay,2012,feed_supplements,23368.0
+9,234,Argentina,Uruguay,2013,feed_supplements,24595.0
+9,234,Argentina,Uruguay,2014,feed_supplements,7826.45
+9,234,Argentina,Uruguay,2015,feed_supplements,1319.2
+9,234,Argentina,Uruguay,2016,feed_supplements,1434.42
+9,234,Argentina,Uruguay,2017,feed_supplements,1344.88
+10,131,Australia,Malaysia,1986,feed_supplements,92.0
+10,131,Australia,Malaysia,1987,feed_supplements,113.0
+10,131,Australia,Malaysia,1988,feed_supplements,499.0
+10,131,Australia,Malaysia,1989,feed_supplements,491.0
+10,131,Australia,Malaysia,1990,feed_supplements,405.0
+10,131,Australia,Malaysia,1991,feed_supplements,128.0
+10,131,Australia,Malaysia,1992,feed_supplements,1453.0
+10,131,Australia,Malaysia,1993,feed_supplements,788.0
+10,131,Australia,Malaysia,1994,feed_supplements,1617.0
+10,131,Australia,Malaysia,1996,feed_supplements,35.0
+101,185,Indonesia,Russian Federation,2007,feed_supplements,120.0
+101,185,Indonesia,Russian Federation,2008,feed_supplements,600.0
+200,110,Singapore,Japan,1986,feed_supplements,23.0
+200,110,Singapore,Japan,1987,feed_supplements,12.0
+200,110,Singapore,Japan,1988,feed_supplements,40.0
+200,110,Singapore,Japan,1989,feed_supplements,23.0
+200,110,Singapore,Japan,1990,feed_supplements,46.0
+200,110,Singapore,Japan,1991,feed_supplements,74.0
+200,110,Singapore,Japan,1992,feed_supplements,223.0
+200,110,Singapore,Japan,1993,feed_supplements,266.0
+200,110,Singapore,Japan,1994,feed_supplements,136.0
+200,110,Singapore,Japan,1995,feed_supplements,205.0
+200,110,Singapore,Japan,1996,feed_supplements,252.0
+200,110,Singapore,Japan,1997,feed_supplements,158.0
+200,110,Singapore,Japan,1998,feed_supplements,75.0
+200,110,Singapore,Japan,1999,feed_supplements,109.0
+200,110,Singapore,Japan,2000,feed_supplements,91.0
+200,110,Singapore,Japan,2001,feed_supplements,87.0
+200,110,Singapore,Japan,2002,feed_supplements,304.0
+200,110,Singapore,Japan,2003,feed_supplements,507.0
+200,110,Singapore,Japan,2004,feed_supplements,468.0
+200,110,Singapore,Japan,2005,feed_supplements,732.0
+200,110,Singapore,Japan,2006,feed_supplements,943.0
+200,110,Singapore,Japan,2007,feed_supplements,1300.0
+200,110,Singapore,Japan,2008,feed_supplements,1303.0
+200,110,Singapore,Japan,2009,feed_supplements,1493.0
+200,110,Singapore,Japan,2010,feed_supplements,1443.0
+200,110,Singapore,Japan,2011,feed_supplements,1767.0
+200,110,Singapore,Japan,2012,feed_supplements,2189.0
+200,110,Singapore,Japan,2013,feed_supplements,1547.0
+200,110,Singapore,Japan,2014,feed_supplements,1473.28
+200,110,Singapore,Japan,2015,feed_supplements,1701.27
+200,110,Singapore,Japan,2016,feed_supplements,1728.16
+200,110,Singapore,Japan,2017,feed_supplements,1964.89
+200,110,Singapore,Japan,2018,feed_supplements,2047.84
+200,110,Singapore,Japan,2019,feed_supplements,2142.95
+200,110,Singapore,Japan,2020,feed_supplements,1527.21
+200,110,Singapore,Japan,2021,feed_supplements,2227.36
+200,110,Singapore,Japan,2022,feed_supplements,2082.93
+200,110,Singapore,Japan,2023,feed_supplements,2092.85
+131,150,Malaysia,Netherlands (Kingdom of the),1991,feed_supplements,2.0
+101,194,Indonesia,Saudi Arabia,2004,feed_supplements,1.0
+101,194,Indonesia,Saudi Arabia,2005,feed_supplements,1.0
+101,194,Indonesia,Saudi Arabia,2006,feed_supplements,1.0
+101,194,Indonesia,Saudi Arabia,2009,feed_supplements,96.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),1996,feed_supplements,55.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),1997,feed_supplements,98.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),1998,feed_supplements,99.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2000,feed_supplements,240.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2001,feed_supplements,458.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2002,feed_supplements,399.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2003,feed_supplements,496.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2004,feed_supplements,343.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2005,feed_supplements,171.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2006,feed_supplements,240.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2007,feed_supplements,292.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2008,feed_supplements,231.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2009,feed_supplements,79.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2010,feed_supplements,1389.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2011,feed_supplements,269.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2012,feed_supplements,117.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2013,feed_supplements,47.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2014,feed_supplements,28.98
+9,236,Argentina,Venezuela (Bolivarian Republic of),2015,feed_supplements,298.3
+9,236,Argentina,Venezuela (Bolivarian Republic of),2016,feed_supplements,563.2
+9,236,Argentina,Venezuela (Bolivarian Republic of),2017,feed_supplements,411.1
+231,214,United States of America,"China, Taiwan Province of",1986,feed_supplements,7317.0
+231,214,United States of America,"China, Taiwan Province of",1987,feed_supplements,9118.0
+231,214,United States of America,"China, Taiwan Province of",1988,feed_supplements,10311.0
+231,214,United States of America,"China, Taiwan Province of",1990,feed_supplements,18.0
+9,237,Argentina,Viet Nam,2008,feed_supplements,237.0
+9,237,Argentina,Viet Nam,2009,feed_supplements,3100.0
+9,237,Argentina,Viet Nam,2010,feed_supplements,5812.0
+9,237,Argentina,Viet Nam,2011,feed_supplements,14600.0
+9,237,Argentina,Viet Nam,2012,feed_supplements,161712.0
+9,237,Argentina,Viet Nam,2013,feed_supplements,309920.0
+9,237,Argentina,Viet Nam,2014,feed_supplements,23668.42
+9,237,Argentina,Viet Nam,2015,feed_supplements,3472.29
+9,237,Argentina,Viet Nam,2016,feed_supplements,1696.04
+9,237,Argentina,Viet Nam,2017,feed_supplements,3299.21
+9,249,Argentina,Yemen,2003,feed_supplements,1.0
+131,156,Malaysia,New Zealand,1992,feed_supplements,15.0
+131,156,Malaysia,New Zealand,1993,feed_supplements,2.0
+10,137,Australia,Mauritius,1987,feed_supplements,4.0
+10,137,Australia,Mauritius,1991,feed_supplements,16.0
+10,137,Australia,Mauritius,1994,feed_supplements,2.0
+10,137,Australia,Mauritius,1996,feed_supplements,17.0
+101,200,Indonesia,Singapore,1989,feed_supplements,2.0
+101,200,Indonesia,Singapore,1992,feed_supplements,242.0
+101,200,Indonesia,Singapore,1993,feed_supplements,119.0
+101,200,Indonesia,Singapore,1996,feed_supplements,43.0
+101,200,Indonesia,Singapore,1997,feed_supplements,19.0
+101,200,Indonesia,Singapore,1999,feed_supplements,6.0
+101,200,Indonesia,Singapore,2000,feed_supplements,27.0
+101,200,Indonesia,Singapore,2001,feed_supplements,131.0
+101,200,Indonesia,Singapore,2002,feed_supplements,34.0
+101,200,Indonesia,Singapore,2003,feed_supplements,7312.0
+101,200,Indonesia,Singapore,2004,feed_supplements,176.0
+101,200,Indonesia,Singapore,2005,feed_supplements,28.0
+101,200,Indonesia,Singapore,2007,feed_supplements,310.0
+101,200,Indonesia,Singapore,2008,feed_supplements,19.0
+101,200,Indonesia,Singapore,2009,feed_supplements,223.0
+101,200,Indonesia,Singapore,2011,feed_supplements,198.0
+101,200,Indonesia,Singapore,2012,feed_supplements,148.0
+101,200,Indonesia,Singapore,2013,feed_supplements,729.0
+200,112,Singapore,Jordan,1987,feed_supplements,2.0
+200,112,Singapore,Jordan,2012,feed_supplements,125.0
+200,112,Singapore,Jordan,2013,feed_supplements,3.0
+200,112,Singapore,Jordan,2014,feed_supplements,8.33
+200,112,Singapore,Jordan,2015,feed_supplements,10.07
+200,112,Singapore,Jordan,2017,feed_supplements,10.18
+200,112,Singapore,Jordan,2018,feed_supplements,9.93
+200,112,Singapore,Jordan,2019,feed_supplements,9.97
+200,112,Singapore,Jordan,2021,feed_supplements,9.97
+200,114,Singapore,Kenya,2005,feed_supplements,3.0
+200,114,Singapore,Kenya,2006,feed_supplements,3.0
+200,114,Singapore,Kenya,2007,feed_supplements,5.0
+200,114,Singapore,Kenya,2008,feed_supplements,9.0
+200,114,Singapore,Kenya,2009,feed_supplements,14.0
+200,114,Singapore,Kenya,2010,feed_supplements,16.0
+200,114,Singapore,Kenya,2011,feed_supplements,39.0
+200,114,Singapore,Kenya,2012,feed_supplements,52.0
+200,114,Singapore,Kenya,2013,feed_supplements,40.0
+200,114,Singapore,Kenya,2014,feed_supplements,133.27
+200,114,Singapore,Kenya,2015,feed_supplements,163.68
+200,114,Singapore,Kenya,2016,feed_supplements,35.02
+200,114,Singapore,Kenya,2017,feed_supplements,39.71
+200,114,Singapore,Kenya,2018,feed_supplements,17.06
+200,114,Singapore,Kenya,2019,feed_supplements,25.61
+200,114,Singapore,Kenya,2020,feed_supplements,19.22
+200,114,Singapore,Kenya,2021,feed_supplements,12.59
+200,114,Singapore,Kenya,2022,feed_supplements,6.34
+200,114,Singapore,Kenya,2023,feed_supplements,4.46
+10,138,Australia,Mexico,1994,feed_supplements,2.0
+10,138,Australia,Mexico,1996,feed_supplements,2.0
+200,118,Singapore,Kuwait,1988,feed_supplements,1.0
+200,118,Singapore,Kuwait,2004,feed_supplements,4.0
+200,118,Singapore,Kuwait,2007,feed_supplements,18.0
+200,118,Singapore,Kuwait,2008,feed_supplements,1.0
+200,118,Singapore,Kuwait,2009,feed_supplements,3.0
+200,118,Singapore,Kuwait,2012,feed_supplements,48.0
+200,118,Singapore,Kuwait,2015,feed_supplements,0.27
+200,118,Singapore,Kuwait,2017,feed_supplements,2.05
+200,118,Singapore,Kuwait,2018,feed_supplements,0.55
+200,118,Singapore,Kuwait,2020,feed_supplements,2.12
+200,118,Singapore,Kuwait,2021,feed_supplements,9.0
+200,118,Singapore,Kuwait,2022,feed_supplements,36.59
+200,118,Singapore,Kuwait,2023,feed_supplements,21.0
+200,120,Singapore,Lao People's Democratic Republic,1998,feed_supplements,26.0
+200,119,Singapore,Latvia,2018,feed_supplements,19.14
+200,119,Singapore,Latvia,2023,feed_supplements,360.0
+200,121,Singapore,Lebanon,2011,feed_supplements,1.0
+200,121,Singapore,Lebanon,2015,feed_supplements,0.05
+231,44,United States of America,Colombia,1986,feed_supplements,205.0
+231,44,United States of America,Colombia,1987,feed_supplements,109.0
+231,44,United States of America,Colombia,1988,feed_supplements,632.0
+200,124,Singapore,Libya,2010,feed_supplements,5.0
+200,124,Singapore,Libya,2014,feed_supplements,20.0
+200,124,Singapore,Libya,2016,feed_supplements,2.0
+41,110,"China, mainland",Japan,1992,feed_supplements,473.0
+200,129,Singapore,Madagascar,1995,feed_supplements,20.0
+200,129,Singapore,Madagascar,2012,feed_supplements,57.0
+10,148,Australia,Nauru,1987,feed_supplements,24.0
+101,198,Indonesia,Slovenia,1998,feed_supplements,80.0
+101,25,Indonesia,Solomon Islands,1998,feed_supplements,17.0
+101,25,Indonesia,Solomon Islands,1999,feed_supplements,35.0
+101,202,Indonesia,South Africa,1998,feed_supplements,214.0
+101,202,Indonesia,South Africa,1999,feed_supplements,144.0
+10,150,Australia,Netherlands (Kingdom of the),1992,feed_supplements,178.0
+10,150,Australia,Netherlands (Kingdom of the),1993,feed_supplements,3.0
+200,131,Singapore,Malaysia,1986,feed_supplements,3929.0
+200,131,Singapore,Malaysia,1987,feed_supplements,3192.0
+200,131,Singapore,Malaysia,1988,feed_supplements,4053.0
+200,131,Singapore,Malaysia,1989,feed_supplements,2225.0
+200,131,Singapore,Malaysia,1990,feed_supplements,1532.0
+200,131,Singapore,Malaysia,1991,feed_supplements,997.0
+200,131,Singapore,Malaysia,1992,feed_supplements,1532.0
+200,131,Singapore,Malaysia,1993,feed_supplements,1846.0
+200,131,Singapore,Malaysia,1994,feed_supplements,2387.0
+200,131,Singapore,Malaysia,1995,feed_supplements,18348.0
+200,131,Singapore,Malaysia,1996,feed_supplements,35070.0
+200,131,Singapore,Malaysia,1997,feed_supplements,32229.0
+200,131,Singapore,Malaysia,1998,feed_supplements,14812.0
+200,131,Singapore,Malaysia,1999,feed_supplements,11450.0
+200,131,Singapore,Malaysia,2000,feed_supplements,12799.0
+200,131,Singapore,Malaysia,2001,feed_supplements,6135.0
+200,131,Singapore,Malaysia,2002,feed_supplements,7879.0
+200,131,Singapore,Malaysia,2003,feed_supplements,10329.0
+200,131,Singapore,Malaysia,2004,feed_supplements,7395.0
+200,131,Singapore,Malaysia,2005,feed_supplements,6804.0
+200,131,Singapore,Malaysia,2006,feed_supplements,8721.0
+200,131,Singapore,Malaysia,2007,feed_supplements,18823.0
+200,131,Singapore,Malaysia,2008,feed_supplements,35105.0
+200,131,Singapore,Malaysia,2009,feed_supplements,22793.0
+200,131,Singapore,Malaysia,2010,feed_supplements,20312.0
+200,131,Singapore,Malaysia,2011,feed_supplements,12321.0
+200,131,Singapore,Malaysia,2012,feed_supplements,7281.0
+200,131,Singapore,Malaysia,2013,feed_supplements,8735.0
+200,131,Singapore,Malaysia,2014,feed_supplements,8724.36
+200,131,Singapore,Malaysia,2015,feed_supplements,8144.04
+200,131,Singapore,Malaysia,2016,feed_supplements,8722.71
+200,131,Singapore,Malaysia,2017,feed_supplements,8455.76
+200,131,Singapore,Malaysia,2018,feed_supplements,7635.82
+200,131,Singapore,Malaysia,2019,feed_supplements,7256.26
+200,131,Singapore,Malaysia,2020,feed_supplements,2835.47
+200,131,Singapore,Malaysia,2021,feed_supplements,10741.26
+200,131,Singapore,Malaysia,2022,feed_supplements,9194.83
+200,131,Singapore,Malaysia,2023,feed_supplements,17663.6
+131,171,Malaysia,Philippines,1988,feed_supplements,69.0
+131,171,Malaysia,Philippines,1992,feed_supplements,64.0
+131,171,Malaysia,Philippines,1994,feed_supplements,99.0
+131,171,Malaysia,Philippines,1995,feed_supplements,21.0
+131,171,Malaysia,Philippines,2004,feed_supplements,2791.0
+131,171,Malaysia,Philippines,2005,feed_supplements,1127.0
+131,171,Malaysia,Philippines,2006,feed_supplements,440.0
+131,171,Malaysia,Philippines,2007,feed_supplements,301.0
+101,38,Indonesia,Sri Lanka,1994,feed_supplements,38.0
+101,38,Indonesia,Sri Lanka,1995,feed_supplements,36.0
+101,38,Indonesia,Sri Lanka,1996,feed_supplements,1274.0
+101,38,Indonesia,Sri Lanka,1997,feed_supplements,442.0
+101,38,Indonesia,Sri Lanka,1998,feed_supplements,671.0
+101,38,Indonesia,Sri Lanka,1999,feed_supplements,170.0
+101,38,Indonesia,Sri Lanka,2000,feed_supplements,369.0
+101,38,Indonesia,Sri Lanka,2001,feed_supplements,538.0
+101,38,Indonesia,Sri Lanka,2002,feed_supplements,700.0
+101,38,Indonesia,Sri Lanka,2003,feed_supplements,585.0
+101,38,Indonesia,Sri Lanka,2004,feed_supplements,20.0
+231,48,United States of America,Costa Rica,1986,feed_supplements,522.0
+231,48,United States of America,Costa Rica,1987,feed_supplements,423.0
+231,48,United States of America,Costa Rica,1988,feed_supplements,463.0
+10,153,Australia,New Caledonia,1986,feed_supplements,85.0
+10,153,Australia,New Caledonia,1987,feed_supplements,278.0
+10,153,Australia,New Caledonia,1988,feed_supplements,173.0
+10,153,Australia,New Caledonia,1989,feed_supplements,52.0
+10,153,Australia,New Caledonia,1990,feed_supplements,24.0
+10,153,Australia,New Caledonia,1991,feed_supplements,55.0
+10,153,Australia,New Caledonia,1992,feed_supplements,281.0
+10,153,Australia,New Caledonia,1993,feed_supplements,327.0
+10,153,Australia,New Caledonia,1994,feed_supplements,220.0
+10,153,Australia,New Caledonia,1996,feed_supplements,56.0
+101,216,Indonesia,Thailand,1991,feed_supplements,1327.0
+101,216,Indonesia,Thailand,1994,feed_supplements,1.0
+101,216,Indonesia,Thailand,1997,feed_supplements,114.0
+101,216,Indonesia,Thailand,1998,feed_supplements,897.0
+101,216,Indonesia,Thailand,1999,feed_supplements,283.0
+101,216,Indonesia,Thailand,2000,feed_supplements,100.0
+101,216,Indonesia,Thailand,2004,feed_supplements,228.0
+101,216,Indonesia,Thailand,2005,feed_supplements,4012.0
+101,216,Indonesia,Thailand,2006,feed_supplements,3106.0
+101,216,Indonesia,Thailand,2007,feed_supplements,7138.0
+101,216,Indonesia,Thailand,2008,feed_supplements,7262.0
+101,216,Indonesia,Thailand,2009,feed_supplements,4443.0
+101,216,Indonesia,Thailand,2012,feed_supplements,4.0
+101,216,Indonesia,Thailand,2015,feed_supplements,12.5
+101,216,Indonesia,Thailand,2016,feed_supplements,10.0
+101,176,Indonesia,Timor-Leste,2002,feed_supplements,52.0
+101,176,Indonesia,Timor-Leste,2011,feed_supplements,3.0
+101,176,Indonesia,Timor-Leste,2012,feed_supplements,12.0
+101,176,Indonesia,Timor-Leste,2013,feed_supplements,7.0
+10,156,Australia,New Zealand,1986,feed_supplements,392.0
+10,156,Australia,New Zealand,1987,feed_supplements,235.0
+10,156,Australia,New Zealand,1988,feed_supplements,180.0
+10,156,Australia,New Zealand,1989,feed_supplements,147.0
+10,156,Australia,New Zealand,1990,feed_supplements,1350.0
+10,156,Australia,New Zealand,1991,feed_supplements,304.0
+10,156,Australia,New Zealand,1992,feed_supplements,125.0
+10,156,Australia,New Zealand,1993,feed_supplements,125.0
+10,156,Australia,New Zealand,1994,feed_supplements,232.0
+10,156,Australia,New Zealand,1996,feed_supplements,321.0
+200,132,Singapore,Maldives,1995,feed_supplements,1.0
+200,132,Singapore,Maldives,2001,feed_supplements,2.0
+200,132,Singapore,Maldives,2008,feed_supplements,2.0
+200,132,Singapore,Maldives,2009,feed_supplements,1.0
+200,132,Singapore,Maldives,2014,feed_supplements,0.05
+200,132,Singapore,Maldives,2016,feed_supplements,0.5
+200,132,Singapore,Maldives,2017,feed_supplements,1.0
+200,132,Singapore,Maldives,2019,feed_supplements,0.34
+200,132,Singapore,Maldives,2020,feed_supplements,1.68
+200,132,Singapore,Maldives,2021,feed_supplements,0.74
+200,132,Singapore,Maldives,2022,feed_supplements,0.33
+200,132,Singapore,Maldives,2023,feed_supplements,0.31
+101,223,Indonesia,Türkiye,2012,feed_supplements,40.0
+200,134,Singapore,Malta,2014,feed_supplements,0.08
+200,137,Singapore,Mauritius,1993,feed_supplements,1.0
+200,137,Singapore,Mauritius,1995,feed_supplements,7.0
+200,137,Singapore,Mauritius,1996,feed_supplements,15.0
+200,137,Singapore,Mauritius,1997,feed_supplements,2.0
+200,137,Singapore,Mauritius,1998,feed_supplements,2.0
+200,137,Singapore,Mauritius,1999,feed_supplements,2.0
+200,137,Singapore,Mauritius,2001,feed_supplements,1.0
+200,137,Singapore,Mauritius,2003,feed_supplements,2.0
+200,137,Singapore,Mauritius,2004,feed_supplements,1.0
+200,137,Singapore,Mauritius,2005,feed_supplements,7.0
+200,137,Singapore,Mauritius,2006,feed_supplements,23.0
+200,137,Singapore,Mauritius,2007,feed_supplements,34.0
+200,137,Singapore,Mauritius,2008,feed_supplements,8.0
+200,137,Singapore,Mauritius,2009,feed_supplements,12.0
+200,137,Singapore,Mauritius,2010,feed_supplements,7.0
+200,137,Singapore,Mauritius,2011,feed_supplements,12.0
+200,137,Singapore,Mauritius,2012,feed_supplements,5.0
+200,137,Singapore,Mauritius,2013,feed_supplements,16.0
+200,137,Singapore,Mauritius,2014,feed_supplements,4.32
+200,137,Singapore,Mauritius,2015,feed_supplements,3.49
+200,137,Singapore,Mauritius,2016,feed_supplements,2.11
+200,137,Singapore,Mauritius,2017,feed_supplements,2.47
+200,137,Singapore,Mauritius,2018,feed_supplements,2.24
+200,137,Singapore,Mauritius,2019,feed_supplements,2.21
+200,137,Singapore,Mauritius,2020,feed_supplements,1.06
+200,137,Singapore,Mauritius,2021,feed_supplements,1.65
+200,137,Singapore,Mauritius,2022,feed_supplements,2.22
+200,137,Singapore,Mauritius,2023,feed_supplements,2.25
+101,225,Indonesia,United Arab Emirates,1990,feed_supplements,613.0
+101,225,Indonesia,United Arab Emirates,1991,feed_supplements,585.0
+231,54,United States of America,Denmark,1986,feed_supplements,2414.0
+231,54,United States of America,Denmark,1987,feed_supplements,29.0
+231,54,United States of America,Denmark,1988,feed_supplements,24.0
+200,138,Singapore,Mexico,2001,feed_supplements,19.0
+200,138,Singapore,Mexico,2009,feed_supplements,15.0
+200,138,Singapore,Mexico,2011,feed_supplements,15.0
+200,138,Singapore,Mexico,2017,feed_supplements,0.04
+200,138,Singapore,Mexico,2018,feed_supplements,0.86
+200,138,Singapore,Mexico,2019,feed_supplements,2.32
+200,138,Singapore,Mexico,2020,feed_supplements,1.68
+200,138,Singapore,Mexico,2021,feed_supplements,7.55
+200,138,Singapore,Mexico,2022,feed_supplements,50.0
+200,138,Singapore,Mexico,2023,feed_supplements,200.11
+41,131,"China, mainland",Malaysia,1992,feed_supplements,488.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,1996,feed_supplements,10.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2002,feed_supplements,6.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2003,feed_supplements,6.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2004,feed_supplements,6.0
+131,200,Malaysia,Singapore,1986,feed_supplements,735.0
+131,200,Malaysia,Singapore,1987,feed_supplements,173.0
+131,200,Malaysia,Singapore,1988,feed_supplements,358.0
+131,200,Malaysia,Singapore,1989,feed_supplements,272.0
+131,200,Malaysia,Singapore,1990,feed_supplements,77.0
+131,200,Malaysia,Singapore,1991,feed_supplements,1379.0
+131,200,Malaysia,Singapore,1992,feed_supplements,118.0
+131,200,Malaysia,Singapore,1993,feed_supplements,2710.0
+131,200,Malaysia,Singapore,1994,feed_supplements,178.0
+131,200,Malaysia,Singapore,1995,feed_supplements,2235.0
+131,200,Malaysia,Singapore,1996,feed_supplements,503.0
+131,200,Malaysia,Singapore,2004,feed_supplements,1032.0
+131,200,Malaysia,Singapore,2005,feed_supplements,390.0
+131,200,Malaysia,Singapore,2006,feed_supplements,503.0
+131,200,Malaysia,Singapore,2007,feed_supplements,690.0
+200,141,Singapore,Mongolia,2000,feed_supplements,7.0
+200,141,Singapore,Mongolia,2020,feed_supplements,0.23
+200,143,Singapore,Morocco,2007,feed_supplements,35.0
+200,143,Singapore,Morocco,2008,feed_supplements,10.0
+200,143,Singapore,Morocco,2009,feed_supplements,36.0
+200,143,Singapore,Morocco,2010,feed_supplements,31.0
+200,143,Singapore,Morocco,2011,feed_supplements,20.0
+200,143,Singapore,Morocco,2012,feed_supplements,20.0
+200,143,Singapore,Morocco,2013,feed_supplements,20.0
+200,143,Singapore,Morocco,2014,feed_supplements,30.0
+200,143,Singapore,Morocco,2015,feed_supplements,20.0
+200,143,Singapore,Morocco,2016,feed_supplements,10.0
+10,221,Australia,Oman,1992,feed_supplements,2210.0
+101,215,Indonesia,United Republic of Tanzania,2001,feed_supplements,67.0
+200,28,Singapore,Myanmar,1987,feed_supplements,5.0
+200,28,Singapore,Myanmar,1988,feed_supplements,3.0
+200,28,Singapore,Myanmar,1989,feed_supplements,5.0
+200,28,Singapore,Myanmar,1992,feed_supplements,20.0
+200,28,Singapore,Myanmar,1995,feed_supplements,49.0
+200,28,Singapore,Myanmar,1996,feed_supplements,16.0
+200,28,Singapore,Myanmar,1997,feed_supplements,26.0
+200,28,Singapore,Myanmar,1998,feed_supplements,35.0
+200,28,Singapore,Myanmar,1999,feed_supplements,58.0
+200,28,Singapore,Myanmar,2000,feed_supplements,92.0
+200,28,Singapore,Myanmar,2001,feed_supplements,183.0
+200,28,Singapore,Myanmar,2002,feed_supplements,72.0
+200,28,Singapore,Myanmar,2003,feed_supplements,366.0
+200,28,Singapore,Myanmar,2004,feed_supplements,92.0
+200,28,Singapore,Myanmar,2005,feed_supplements,90.0
+200,28,Singapore,Myanmar,2006,feed_supplements,157.0
+200,28,Singapore,Myanmar,2007,feed_supplements,177.0
+200,28,Singapore,Myanmar,2008,feed_supplements,184.0
+200,28,Singapore,Myanmar,2009,feed_supplements,210.0
+200,28,Singapore,Myanmar,2010,feed_supplements,341.0
+200,28,Singapore,Myanmar,2011,feed_supplements,413.0
+200,28,Singapore,Myanmar,2012,feed_supplements,417.0
+200,28,Singapore,Myanmar,2013,feed_supplements,472.0
+200,28,Singapore,Myanmar,2014,feed_supplements,763.45
+200,28,Singapore,Myanmar,2015,feed_supplements,614.42
+200,28,Singapore,Myanmar,2016,feed_supplements,460.15
+200,28,Singapore,Myanmar,2017,feed_supplements,710.25
+200,28,Singapore,Myanmar,2018,feed_supplements,812.92
+200,28,Singapore,Myanmar,2019,feed_supplements,1016.47
+200,28,Singapore,Myanmar,2020,feed_supplements,462.01
+200,28,Singapore,Myanmar,2021,feed_supplements,1349.07
+200,28,Singapore,Myanmar,2022,feed_supplements,1102.78
+200,28,Singapore,Myanmar,2023,feed_supplements,1143.95
+10,165,Australia,Pakistan,1987,feed_supplements,1.0
+10,165,Australia,Pakistan,1993,feed_supplements,1.0
+10,165,Australia,Pakistan,1994,feed_supplements,6.0
+10,165,Australia,Pakistan,1996,feed_supplements,4.0
+101,231,Indonesia,United States of America,1999,feed_supplements,11.0
+101,231,Indonesia,United States of America,2000,feed_supplements,1.0
+101,231,Indonesia,United States of America,2003,feed_supplements,29.0
+101,231,Indonesia,United States of America,2004,feed_supplements,3.0
+101,231,Indonesia,United States of America,2007,feed_supplements,1.0
+101,231,Indonesia,United States of America,2009,feed_supplements,17.0
+101,231,Indonesia,United States of America,2012,feed_supplements,10.0
+101,231,Indonesia,United States of America,2013,feed_supplements,1454.0
+231,56,United States of America,Dominican Republic,1986,feed_supplements,787.0
+231,56,United States of America,Dominican Republic,1987,feed_supplements,982.0
+231,56,United States of America,Dominican Republic,1988,feed_supplements,6542.0
+10,168,Australia,Papua New Guinea,1986,feed_supplements,2055.0
+10,168,Australia,Papua New Guinea,1987,feed_supplements,2350.0
+10,168,Australia,Papua New Guinea,1988,feed_supplements,89.0
+10,168,Australia,Papua New Guinea,1989,feed_supplements,73.0
+10,168,Australia,Papua New Guinea,1990,feed_supplements,85.0
+10,168,Australia,Papua New Guinea,1991,feed_supplements,99.0
+10,168,Australia,Papua New Guinea,1992,feed_supplements,126.0
+10,168,Australia,Papua New Guinea,1993,feed_supplements,86.0
+10,168,Australia,Papua New Guinea,1994,feed_supplements,187.0
+10,168,Australia,Papua New Guinea,1996,feed_supplements,562.0
+200,149,Singapore,Nepal,1998,feed_supplements,11.0
+200,149,Singapore,Nepal,1999,feed_supplements,9.0
+200,149,Singapore,Nepal,2000,feed_supplements,1.0
+200,149,Singapore,Nepal,2001,feed_supplements,22.0
+200,149,Singapore,Nepal,2002,feed_supplements,1.0
+200,149,Singapore,Nepal,2003,feed_supplements,22.0
+200,149,Singapore,Nepal,2004,feed_supplements,16.0
+200,149,Singapore,Nepal,2005,feed_supplements,1.0
+200,149,Singapore,Nepal,2011,feed_supplements,29.0
+200,149,Singapore,Nepal,2012,feed_supplements,10.0
+200,149,Singapore,Nepal,2014,feed_supplements,70.4
+200,149,Singapore,Nepal,2015,feed_supplements,36.0
+200,149,Singapore,Nepal,2016,feed_supplements,21.26
+200,149,Singapore,Nepal,2017,feed_supplements,129.9
+200,149,Singapore,Nepal,2018,feed_supplements,168.15
+200,149,Singapore,Nepal,2019,feed_supplements,64.81
+200,149,Singapore,Nepal,2020,feed_supplements,45.39
+200,149,Singapore,Nepal,2021,feed_supplements,239.95
+200,149,Singapore,Nepal,2022,feed_supplements,235.78
+200,149,Singapore,Nepal,2023,feed_supplements,328.61
+41,138,"China, mainland",Mexico,1992,feed_supplements,95.0
+41,141,"China, mainland",Mongolia,1992,feed_supplements,1.0
+200,150,Singapore,Netherlands (Kingdom of the),1988,feed_supplements,10.0
+200,150,Singapore,Netherlands (Kingdom of the),1993,feed_supplements,1.0
+200,150,Singapore,Netherlands (Kingdom of the),1994,feed_supplements,2.0
+200,150,Singapore,Netherlands (Kingdom of the),1995,feed_supplements,2.0
+200,150,Singapore,Netherlands (Kingdom of the),1997,feed_supplements,38.0
+200,150,Singapore,Netherlands (Kingdom of the),2012,feed_supplements,2.0
+200,150,Singapore,Netherlands (Kingdom of the),2014,feed_supplements,0.02
+200,150,Singapore,Netherlands (Kingdom of the),2015,feed_supplements,0.1
+200,150,Singapore,Netherlands (Kingdom of the),2020,feed_supplements,9.49
+200,150,Singapore,Netherlands (Kingdom of the),2021,feed_supplements,5.0
+101,237,Indonesia,Viet Nam,1997,feed_supplements,195.0
+101,237,Indonesia,Viet Nam,1998,feed_supplements,1381.0
+101,237,Indonesia,Viet Nam,1999,feed_supplements,2310.0
+101,237,Indonesia,Viet Nam,2001,feed_supplements,7.0
+101,237,Indonesia,Viet Nam,2004,feed_supplements,3348.0
+101,237,Indonesia,Viet Nam,2005,feed_supplements,3317.0
+101,237,Indonesia,Viet Nam,2006,feed_supplements,2427.0
+101,237,Indonesia,Viet Nam,2007,feed_supplements,2178.0
+101,237,Indonesia,Viet Nam,2008,feed_supplements,3272.0
+101,237,Indonesia,Viet Nam,2009,feed_supplements,3617.0
+101,237,Indonesia,Viet Nam,2016,feed_supplements,20.0
+131,38,Malaysia,Sri Lanka,1990,feed_supplements,6.0
+131,38,Malaysia,Sri Lanka,1991,feed_supplements,1.0
+131,38,Malaysia,Sri Lanka,1992,feed_supplements,18.0
+131,38,Malaysia,Sri Lanka,1993,feed_supplements,40.0
+131,38,Malaysia,Sri Lanka,1994,feed_supplements,1.0
+131,38,Malaysia,Sri Lanka,1995,feed_supplements,21.0
+131,38,Malaysia,Sri Lanka,1996,feed_supplements,20.0
+10,171,Australia,Philippines,1986,feed_supplements,16.0
+10,171,Australia,Philippines,1987,feed_supplements,1.0
+10,171,Australia,Philippines,1988,feed_supplements,56.0
+10,171,Australia,Philippines,1989,feed_supplements,503.0
+10,171,Australia,Philippines,1990,feed_supplements,967.0
+10,171,Australia,Philippines,1991,feed_supplements,331.0
+10,171,Australia,Philippines,1993,feed_supplements,17.0
+10,171,Australia,Philippines,1994,feed_supplements,945.0
+10,171,Australia,Philippines,1996,feed_supplements,74.0
+231,58,United States of America,Ecuador,1986,feed_supplements,514.0
+231,58,United States of America,Ecuador,1987,feed_supplements,1115.0
+231,58,United States of America,Ecuador,1988,feed_supplements,2432.0
+41,28,"China, mainland",Myanmar,1992,feed_supplements,21.0
+200,153,Singapore,New Caledonia,1995,feed_supplements,1.0
+200,153,Singapore,New Caledonia,2004,feed_supplements,1.0
+200,153,Singapore,New Caledonia,2006,feed_supplements,18.0
+200,153,Singapore,New Caledonia,2007,feed_supplements,34.0
+200,153,Singapore,New Caledonia,2008,feed_supplements,13.0
+200,153,Singapore,New Caledonia,2009,feed_supplements,11.0
+200,153,Singapore,New Caledonia,2010,feed_supplements,20.0
+200,153,Singapore,New Caledonia,2011,feed_supplements,40.0
+200,153,Singapore,New Caledonia,2012,feed_supplements,28.0
+200,153,Singapore,New Caledonia,2013,feed_supplements,22.0
+200,153,Singapore,New Caledonia,2014,feed_supplements,2.0
+200,153,Singapore,New Caledonia,2019,feed_supplements,0.65
+200,153,Singapore,New Caledonia,2021,feed_supplements,3.83
+200,153,Singapore,New Caledonia,2022,feed_supplements,2.05
+200,153,Singapore,New Caledonia,2023,feed_supplements,1.34
+131,211,Malaysia,Switzerland,1996,feed_supplements,12.0
+10,173,Australia,Poland,1992,feed_supplements,1.0
+200,156,Singapore,New Zealand,1989,feed_supplements,15.0
+200,156,Singapore,New Zealand,1990,feed_supplements,43.0
+200,156,Singapore,New Zealand,1991,feed_supplements,84.0
+200,156,Singapore,New Zealand,1992,feed_supplements,311.0
+200,156,Singapore,New Zealand,1993,feed_supplements,387.0
+200,156,Singapore,New Zealand,1994,feed_supplements,302.0
+200,156,Singapore,New Zealand,1995,feed_supplements,211.0
+200,156,Singapore,New Zealand,1996,feed_supplements,231.0
+200,156,Singapore,New Zealand,1997,feed_supplements,345.0
+200,156,Singapore,New Zealand,1998,feed_supplements,289.0
+200,156,Singapore,New Zealand,1999,feed_supplements,258.0
+200,156,Singapore,New Zealand,2000,feed_supplements,261.0
+200,156,Singapore,New Zealand,2001,feed_supplements,219.0
+200,156,Singapore,New Zealand,2002,feed_supplements,371.0
+200,156,Singapore,New Zealand,2003,feed_supplements,323.0
+200,156,Singapore,New Zealand,2004,feed_supplements,346.0
+200,156,Singapore,New Zealand,2005,feed_supplements,324.0
+200,156,Singapore,New Zealand,2006,feed_supplements,286.0
+200,156,Singapore,New Zealand,2007,feed_supplements,356.0
+200,156,Singapore,New Zealand,2008,feed_supplements,405.0
+200,156,Singapore,New Zealand,2009,feed_supplements,318.0
+200,156,Singapore,New Zealand,2010,feed_supplements,331.0
+200,156,Singapore,New Zealand,2011,feed_supplements,381.0
+200,156,Singapore,New Zealand,2012,feed_supplements,279.0
+200,156,Singapore,New Zealand,2013,feed_supplements,412.0
+200,156,Singapore,New Zealand,2014,feed_supplements,557.46
+200,156,Singapore,New Zealand,2015,feed_supplements,455.73
+200,156,Singapore,New Zealand,2016,feed_supplements,425.22
+200,156,Singapore,New Zealand,2017,feed_supplements,505.49
+200,156,Singapore,New Zealand,2018,feed_supplements,586.49
+200,156,Singapore,New Zealand,2019,feed_supplements,762.09
+200,156,Singapore,New Zealand,2020,feed_supplements,410.67
+200,156,Singapore,New Zealand,2021,feed_supplements,854.52
+200,156,Singapore,New Zealand,2022,feed_supplements,880.1
+200,156,Singapore,New Zealand,2023,feed_supplements,619.72
+231,59,United States of America,Egypt,1987,feed_supplements,62.0
+10,179,Australia,Qatar,1991,feed_supplements,700.0
+10,179,Australia,Qatar,1992,feed_supplements,63.0
+10,179,Australia,Qatar,1993,feed_supplements,34.0
+10,179,Australia,Qatar,1994,feed_supplements,6.0
+10,179,Australia,Qatar,1996,feed_supplements,9.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1992,feed_supplements,146.0
+200,157,Singapore,Nicaragua,2018,feed_supplements,3.52
+200,157,Singapore,Nicaragua,2019,feed_supplements,2.5
+131,216,Malaysia,Thailand,1988,feed_supplements,42.0
+131,216,Malaysia,Thailand,1989,feed_supplements,401.0
+131,216,Malaysia,Thailand,1990,feed_supplements,390.0
+131,216,Malaysia,Thailand,1991,feed_supplements,409.0
+131,216,Malaysia,Thailand,1992,feed_supplements,650.0
+131,216,Malaysia,Thailand,1993,feed_supplements,798.0
+131,216,Malaysia,Thailand,1994,feed_supplements,534.0
+131,216,Malaysia,Thailand,1995,feed_supplements,1548.0
+131,216,Malaysia,Thailand,1996,feed_supplements,116.0
+131,216,Malaysia,Thailand,2004,feed_supplements,1753.0
+131,216,Malaysia,Thailand,2005,feed_supplements,2293.0
+131,216,Malaysia,Thailand,2006,feed_supplements,4093.0
+131,216,Malaysia,Thailand,2007,feed_supplements,3240.0
+200,159,Singapore,Nigeria,1988,feed_supplements,25.0
+200,159,Singapore,Nigeria,1989,feed_supplements,26.0
+200,159,Singapore,Nigeria,1990,feed_supplements,26.0
+200,159,Singapore,Nigeria,1991,feed_supplements,52.0
+200,159,Singapore,Nigeria,2001,feed_supplements,1.0
+200,159,Singapore,Nigeria,2010,feed_supplements,20.0
+200,159,Singapore,Nigeria,2011,feed_supplements,21.0
+200,159,Singapore,Nigeria,2012,feed_supplements,20.0
+200,159,Singapore,Nigeria,2018,feed_supplements,66.7
+200,159,Singapore,Nigeria,2019,feed_supplements,81.9
+200,159,Singapore,Nigeria,2020,feed_supplements,61.88
+200,159,Singapore,Nigeria,2021,feed_supplements,122.56
+200,159,Singapore,Nigeria,2022,feed_supplements,222.2
+200,159,Singapore,Nigeria,2023,feed_supplements,282.85
+10,117,Australia,Republic of Korea,1991,feed_supplements,33.0
+10,117,Australia,Republic of Korea,1994,feed_supplements,341.0
+10,117,Australia,Republic of Korea,1996,feed_supplements,18.0
+200,162,Singapore,Norway,2008,feed_supplements,1.0
+200,221,Singapore,Oman,2011,feed_supplements,32.0
+200,221,Singapore,Oman,2012,feed_supplements,150.0
+200,221,Singapore,Oman,2015,feed_supplements,5.0
+200,221,Singapore,Oman,2023,feed_supplements,1.0
+231,60,United States of America,El Salvador,1986,feed_supplements,608.0
+231,60,United States of America,El Salvador,1988,feed_supplements,64.0
+200,165,Singapore,Pakistan,1989,feed_supplements,2.0
+200,165,Singapore,Pakistan,1992,feed_supplements,33.0
+200,165,Singapore,Pakistan,1993,feed_supplements,28.0
+200,165,Singapore,Pakistan,1994,feed_supplements,45.0
+200,165,Singapore,Pakistan,1997,feed_supplements,10.0
+200,165,Singapore,Pakistan,1998,feed_supplements,30.0
+200,165,Singapore,Pakistan,2000,feed_supplements,10.0
+200,165,Singapore,Pakistan,2001,feed_supplements,4.0
+200,165,Singapore,Pakistan,2002,feed_supplements,160.0
+200,165,Singapore,Pakistan,2003,feed_supplements,16.0
+200,165,Singapore,Pakistan,2004,feed_supplements,41.0
+200,165,Singapore,Pakistan,2005,feed_supplements,75.0
+200,165,Singapore,Pakistan,2006,feed_supplements,92.0
+200,165,Singapore,Pakistan,2007,feed_supplements,194.0
+200,165,Singapore,Pakistan,2008,feed_supplements,412.0
+200,165,Singapore,Pakistan,2009,feed_supplements,306.0
+200,165,Singapore,Pakistan,2010,feed_supplements,432.0
+200,165,Singapore,Pakistan,2011,feed_supplements,698.0
+200,165,Singapore,Pakistan,2012,feed_supplements,655.0
+200,165,Singapore,Pakistan,2013,feed_supplements,770.0
+200,165,Singapore,Pakistan,2014,feed_supplements,838.67
+200,165,Singapore,Pakistan,2015,feed_supplements,837.0
+200,165,Singapore,Pakistan,2016,feed_supplements,799.87
+200,165,Singapore,Pakistan,2017,feed_supplements,1107.53
+200,165,Singapore,Pakistan,2018,feed_supplements,563.67
+200,165,Singapore,Pakistan,2019,feed_supplements,713.44
+200,165,Singapore,Pakistan,2020,feed_supplements,377.83
+200,165,Singapore,Pakistan,2021,feed_supplements,973.25
+200,165,Singapore,Pakistan,2022,feed_supplements,797.43
+200,165,Singapore,Pakistan,2023,feed_supplements,558.02
+200,166,Singapore,Panama,2013,feed_supplements,17.0
+200,166,Singapore,Panama,2014,feed_supplements,85.68
+200,166,Singapore,Panama,2015,feed_supplements,2.73
+200,166,Singapore,Panama,2017,feed_supplements,0.82
+200,166,Singapore,Panama,2018,feed_supplements,0.43
+200,168,Singapore,Papua New Guinea,1987,feed_supplements,2.0
+200,168,Singapore,Papua New Guinea,1988,feed_supplements,4.0
+200,168,Singapore,Papua New Guinea,1989,feed_supplements,2.0
+200,168,Singapore,Papua New Guinea,1992,feed_supplements,47.0
+200,168,Singapore,Papua New Guinea,2004,feed_supplements,1.0
+200,168,Singapore,Papua New Guinea,2011,feed_supplements,20.0
+200,168,Singapore,Papua New Guinea,2017,feed_supplements,0.02
+200,168,Singapore,Papua New Guinea,2018,feed_supplements,20.34
+200,168,Singapore,Papua New Guinea,2019,feed_supplements,40.0
+200,168,Singapore,Papua New Guinea,2020,feed_supplements,0.15
+200,168,Singapore,Papua New Guinea,2021,feed_supplements,20.0
+200,168,Singapore,Papua New Guinea,2022,feed_supplements,0.42
+10,244,Australia,Samoa,1986,feed_supplements,61.0
+10,244,Australia,Samoa,1987,feed_supplements,339.0
+10,244,Australia,Samoa,1988,feed_supplements,26.0
+10,244,Australia,Samoa,1989,feed_supplements,2.0
+131,223,Malaysia,Türkiye,1993,feed_supplements,1.0
+200,169,Singapore,Paraguay,2019,feed_supplements,20.01
+200,169,Singapore,Paraguay,2020,feed_supplements,11.05
+200,170,Singapore,Peru,2010,feed_supplements,1.0
+200,170,Singapore,Peru,2013,feed_supplements,238.0
+200,170,Singapore,Peru,2014,feed_supplements,34.35
+200,170,Singapore,Peru,2015,feed_supplements,60.4
+200,170,Singapore,Peru,2017,feed_supplements,10.0
+200,170,Singapore,Peru,2018,feed_supplements,39.92
+200,170,Singapore,Peru,2019,feed_supplements,19.9
+200,170,Singapore,Peru,2020,feed_supplements,8.49
+200,170,Singapore,Peru,2022,feed_supplements,13.67
+10,194,Australia,Saudi Arabia,1986,feed_supplements,19729.0
+10,194,Australia,Saudi Arabia,1987,feed_supplements,11679.0
+10,194,Australia,Saudi Arabia,1988,feed_supplements,564.0
+10,194,Australia,Saudi Arabia,1990,feed_supplements,6.0
+10,194,Australia,Saudi Arabia,1991,feed_supplements,450.0
+10,194,Australia,Saudi Arabia,1992,feed_supplements,31413.0
+10,194,Australia,Saudi Arabia,1993,feed_supplements,14144.0
+10,194,Australia,Saudi Arabia,1994,feed_supplements,3500.0
+231,66,United States of America,Fiji,1988,feed_supplements,35.0
+200,171,Singapore,Philippines,1986,feed_supplements,191.0
+200,171,Singapore,Philippines,1987,feed_supplements,200.0
+200,171,Singapore,Philippines,1988,feed_supplements,229.0
+200,171,Singapore,Philippines,1989,feed_supplements,495.0
+200,171,Singapore,Philippines,1990,feed_supplements,374.0
+200,171,Singapore,Philippines,1991,feed_supplements,535.0
+200,171,Singapore,Philippines,1992,feed_supplements,2352.0
+200,171,Singapore,Philippines,1993,feed_supplements,1420.0
+200,171,Singapore,Philippines,1994,feed_supplements,1328.0
+200,171,Singapore,Philippines,1995,feed_supplements,1686.0
+200,171,Singapore,Philippines,1996,feed_supplements,2108.0
+200,171,Singapore,Philippines,1997,feed_supplements,1548.0
+200,171,Singapore,Philippines,1998,feed_supplements,1010.0
+200,171,Singapore,Philippines,1999,feed_supplements,1867.0
+200,171,Singapore,Philippines,2000,feed_supplements,2241.0
+200,171,Singapore,Philippines,2001,feed_supplements,2476.0
+200,171,Singapore,Philippines,2002,feed_supplements,3210.0
+200,171,Singapore,Philippines,2003,feed_supplements,2121.0
+200,171,Singapore,Philippines,2004,feed_supplements,2604.0
+200,171,Singapore,Philippines,2005,feed_supplements,2750.0
+200,171,Singapore,Philippines,2006,feed_supplements,3280.0
+200,171,Singapore,Philippines,2007,feed_supplements,3412.0
+200,171,Singapore,Philippines,2008,feed_supplements,3630.0
+200,171,Singapore,Philippines,2009,feed_supplements,3879.0
+200,171,Singapore,Philippines,2010,feed_supplements,14597.0
+200,171,Singapore,Philippines,2011,feed_supplements,8689.0
+200,171,Singapore,Philippines,2012,feed_supplements,7220.0
+200,171,Singapore,Philippines,2013,feed_supplements,6777.0
+200,171,Singapore,Philippines,2014,feed_supplements,8093.28
+200,171,Singapore,Philippines,2015,feed_supplements,6286.58
+200,171,Singapore,Philippines,2016,feed_supplements,10048.15
+200,171,Singapore,Philippines,2017,feed_supplements,8241.87
+200,171,Singapore,Philippines,2018,feed_supplements,9742.12
+200,171,Singapore,Philippines,2019,feed_supplements,9895.38
+200,171,Singapore,Philippines,2020,feed_supplements,3649.68
+200,171,Singapore,Philippines,2021,feed_supplements,10194.96
+200,171,Singapore,Philippines,2022,feed_supplements,9427.47
+200,171,Singapore,Philippines,2023,feed_supplements,10178.5
+41,165,"China, mainland",Pakistan,1992,feed_supplements,81.0
+10,200,Australia,Singapore,1986,feed_supplements,312.0
+10,200,Australia,Singapore,1987,feed_supplements,712.0
+10,200,Australia,Singapore,1988,feed_supplements,237.0
+10,200,Australia,Singapore,1989,feed_supplements,142.0
+10,200,Australia,Singapore,1990,feed_supplements,72.0
+10,200,Australia,Singapore,1991,feed_supplements,140.0
+10,200,Australia,Singapore,1992,feed_supplements,184.0
+10,200,Australia,Singapore,1993,feed_supplements,183.0
+10,200,Australia,Singapore,1994,feed_supplements,75.0
+10,200,Australia,Singapore,1996,feed_supplements,6.0
+200,173,Singapore,Poland,2018,feed_supplements,0.04
+200,173,Singapore,Poland,2019,feed_supplements,0.02
+200,174,Singapore,Portugal,2014,feed_supplements,0.25
+200,174,Singapore,Portugal,2015,feed_supplements,0.8
+200,174,Singapore,Portugal,2021,feed_supplements,0.23
+231,68,United States of America,France,1986,feed_supplements,6280.0
+231,68,United States of America,France,1987,feed_supplements,1851.0
+231,68,United States of America,France,1988,feed_supplements,2260.0
+200,179,Singapore,Qatar,1991,feed_supplements,1.0
+200,179,Singapore,Qatar,2007,feed_supplements,6.0
+200,179,Singapore,Qatar,2011,feed_supplements,180.0
+200,179,Singapore,Qatar,2012,feed_supplements,303.0
+200,179,Singapore,Qatar,2013,feed_supplements,2.0
+200,179,Singapore,Qatar,2014,feed_supplements,2.15
+200,179,Singapore,Qatar,2016,feed_supplements,0.42
+200,179,Singapore,Qatar,2017,feed_supplements,0.11
+200,179,Singapore,Qatar,2019,feed_supplements,0.31
+200,179,Singapore,Qatar,2021,feed_supplements,3.0
+200,179,Singapore,Qatar,2023,feed_supplements,0.29
+200,117,Singapore,Republic of Korea,1986,feed_supplements,12.0
+200,117,Singapore,Republic of Korea,1987,feed_supplements,115.0
+200,117,Singapore,Republic of Korea,1988,feed_supplements,203.0
+200,117,Singapore,Republic of Korea,1989,feed_supplements,362.0
+200,117,Singapore,Republic of Korea,1990,feed_supplements,638.0
+200,117,Singapore,Republic of Korea,1991,feed_supplements,23201.0
+200,117,Singapore,Republic of Korea,1992,feed_supplements,1381.0
+200,117,Singapore,Republic of Korea,1993,feed_supplements,1229.0
+200,117,Singapore,Republic of Korea,1994,feed_supplements,1475.0
+200,117,Singapore,Republic of Korea,1995,feed_supplements,1349.0
+200,117,Singapore,Republic of Korea,1996,feed_supplements,1499.0
+200,117,Singapore,Republic of Korea,1997,feed_supplements,1210.0
+200,117,Singapore,Republic of Korea,1998,feed_supplements,649.0
+200,117,Singapore,Republic of Korea,1999,feed_supplements,1046.0
+200,117,Singapore,Republic of Korea,2000,feed_supplements,902.0
+200,117,Singapore,Republic of Korea,2001,feed_supplements,429.0
+200,117,Singapore,Republic of Korea,2002,feed_supplements,708.0
+200,117,Singapore,Republic of Korea,2003,feed_supplements,577.0
+200,117,Singapore,Republic of Korea,2004,feed_supplements,862.0
+200,117,Singapore,Republic of Korea,2005,feed_supplements,1568.0
+200,117,Singapore,Republic of Korea,2006,feed_supplements,1236.0
+200,117,Singapore,Republic of Korea,2007,feed_supplements,1583.0
+200,117,Singapore,Republic of Korea,2008,feed_supplements,1727.0
+200,117,Singapore,Republic of Korea,2009,feed_supplements,1940.0
+200,117,Singapore,Republic of Korea,2010,feed_supplements,2410.0
+200,117,Singapore,Republic of Korea,2011,feed_supplements,1363.0
+200,117,Singapore,Republic of Korea,2012,feed_supplements,2770.0
+200,117,Singapore,Republic of Korea,2013,feed_supplements,2994.0
+200,117,Singapore,Republic of Korea,2014,feed_supplements,3618.67
+200,117,Singapore,Republic of Korea,2015,feed_supplements,5565.96
+200,117,Singapore,Republic of Korea,2016,feed_supplements,5306.56
+200,117,Singapore,Republic of Korea,2017,feed_supplements,6222.93
+200,117,Singapore,Republic of Korea,2018,feed_supplements,6500.04
+200,117,Singapore,Republic of Korea,2019,feed_supplements,6977.12
+200,117,Singapore,Republic of Korea,2020,feed_supplements,2229.64
+200,117,Singapore,Republic of Korea,2021,feed_supplements,7788.76
+200,117,Singapore,Republic of Korea,2022,feed_supplements,8414.41
+200,117,Singapore,Republic of Korea,2023,feed_supplements,8643.29
+41,171,"China, mainland",Philippines,1992,feed_supplements,52.0
+10,25,Australia,Solomon Islands,1986,feed_supplements,40.0
+10,25,Australia,Solomon Islands,1987,feed_supplements,448.0
+10,25,Australia,Solomon Islands,1988,feed_supplements,131.0
+10,25,Australia,Solomon Islands,1989,feed_supplements,8.0
+10,25,Australia,Solomon Islands,1992,feed_supplements,6.0
+10,25,Australia,Solomon Islands,1993,feed_supplements,4.0
+10,25,Australia,Solomon Islands,1994,feed_supplements,20.0
+10,25,Australia,Solomon Islands,1996,feed_supplements,1.0
+200,183,Singapore,Romania,2008,feed_supplements,4.0
+200,183,Singapore,Romania,2009,feed_supplements,1.0
+200,183,Singapore,Romania,2010,feed_supplements,1.0
+200,183,Singapore,Romania,2016,feed_supplements,0.01
+200,183,Singapore,Romania,2017,feed_supplements,0.04
+10,202,Australia,South Africa,1987,feed_supplements,3855.0
+10,202,Australia,South Africa,1993,feed_supplements,11.0
+10,202,Australia,South Africa,1994,feed_supplements,3.0
+200,194,Singapore,Saudi Arabia,1991,feed_supplements,2.0
+200,194,Singapore,Saudi Arabia,2000,feed_supplements,1.0
+200,194,Singapore,Saudi Arabia,2011,feed_supplements,414.0
+200,194,Singapore,Saudi Arabia,2012,feed_supplements,100.0
+200,194,Singapore,Saudi Arabia,2013,feed_supplements,21.0
+200,194,Singapore,Saudi Arabia,2014,feed_supplements,37.13
+200,194,Singapore,Saudi Arabia,2015,feed_supplements,23.16
+200,194,Singapore,Saudi Arabia,2016,feed_supplements,44.98
+200,194,Singapore,Saudi Arabia,2017,feed_supplements,15.0
+200,194,Singapore,Saudi Arabia,2018,feed_supplements,11.44
+200,194,Singapore,Saudi Arabia,2019,feed_supplements,0.03
+200,194,Singapore,Saudi Arabia,2020,feed_supplements,12.09
+200,194,Singapore,Saudi Arabia,2021,feed_supplements,6.5
+200,194,Singapore,Saudi Arabia,2022,feed_supplements,25.36
+200,194,Singapore,Saudi Arabia,2023,feed_supplements,13.95
+200,195,Singapore,Senegal,2011,feed_supplements,175.0
+200,195,Singapore,Senegal,2012,feed_supplements,50.0
+200,272,Singapore,Serbia,2020,feed_supplements,0.1
+200,196,Singapore,Seychelles,1995,feed_supplements,147.0
+200,196,Singapore,Seychelles,1996,feed_supplements,76.0
+200,196,Singapore,Seychelles,1997,feed_supplements,290.0
+200,196,Singapore,Seychelles,1998,feed_supplements,26.0
+200,196,Singapore,Seychelles,1999,feed_supplements,1.0
+200,196,Singapore,Seychelles,2000,feed_supplements,3.0
+200,196,Singapore,Seychelles,2001,feed_supplements,1.0
+200,196,Singapore,Seychelles,2002,feed_supplements,1.0
+200,196,Singapore,Seychelles,2003,feed_supplements,2.0
+200,196,Singapore,Seychelles,2009,feed_supplements,1.0
+200,196,Singapore,Seychelles,2014,feed_supplements,0.23
+200,196,Singapore,Seychelles,2015,feed_supplements,3.41
+200,196,Singapore,Seychelles,2016,feed_supplements,6.25
+200,196,Singapore,Seychelles,2017,feed_supplements,0.11
+200,196,Singapore,Seychelles,2018,feed_supplements,5.93
+200,196,Singapore,Seychelles,2019,feed_supplements,2.67
+200,196,Singapore,Seychelles,2020,feed_supplements,1.48
+200,196,Singapore,Seychelles,2021,feed_supplements,4.76
+200,196,Singapore,Seychelles,2022,feed_supplements,8.58
+200,196,Singapore,Seychelles,2023,feed_supplements,6.53
+41,117,"China, mainland",Republic of Korea,1992,feed_supplements,34.0
+131,237,Malaysia,Viet Nam,1992,feed_supplements,6.0
+131,237,Malaysia,Viet Nam,1993,feed_supplements,32.0
+131,237,Malaysia,Viet Nam,1994,feed_supplements,18.0
+131,237,Malaysia,Viet Nam,2004,feed_supplements,2116.0
+131,237,Malaysia,Viet Nam,2005,feed_supplements,5361.0
+131,237,Malaysia,Viet Nam,2006,feed_supplements,6029.0
+131,237,Malaysia,Viet Nam,2007,feed_supplements,3998.0
+200,199,Singapore,Slovakia,2009,feed_supplements,40.0
+10,38,Australia,Sri Lanka,1992,feed_supplements,20.0
+200,25,Singapore,Solomon Islands,2018,feed_supplements,0.6
+200,25,Singapore,Solomon Islands,2019,feed_supplements,0.8
+200,25,Singapore,Solomon Islands,2021,feed_supplements,0.73
+200,25,Singapore,Solomon Islands,2022,feed_supplements,0.75
+200,25,Singapore,Solomon Islands,2023,feed_supplements,0.75
+200,202,Singapore,South Africa,1995,feed_supplements,29.0
+200,202,Singapore,South Africa,1998,feed_supplements,34.0
+200,202,Singapore,South Africa,2008,feed_supplements,1.0
+200,202,Singapore,South Africa,2010,feed_supplements,1.0
+200,202,Singapore,South Africa,2012,feed_supplements,1.0
+200,202,Singapore,South Africa,2016,feed_supplements,0.2
+200,202,Singapore,South Africa,2018,feed_supplements,43.4
+200,202,Singapore,South Africa,2022,feed_supplements,2.0
+200,202,Singapore,South Africa,2023,feed_supplements,501.0
+10,210,Australia,Sweden,1989,feed_supplements,1.0
+10,210,Australia,Sweden,1990,feed_supplements,24.0
+10,210,Australia,Sweden,1991,feed_supplements,13.0
+10,210,Australia,Sweden,1992,feed_supplements,5.0
+10,210,Australia,Sweden,1994,feed_supplements,18.0
+10,210,Australia,Sweden,1996,feed_supplements,1.0
+200,203,Singapore,Spain,2007,feed_supplements,38.0
+200,203,Singapore,Spain,2008,feed_supplements,1.0
+200,203,Singapore,Spain,2011,feed_supplements,123.0
+200,203,Singapore,Spain,2012,feed_supplements,12.0
+200,203,Singapore,Spain,2016,feed_supplements,2.16
+200,38,Singapore,Sri Lanka,1986,feed_supplements,135.0
+200,38,Singapore,Sri Lanka,1987,feed_supplements,120.0
+200,38,Singapore,Sri Lanka,1988,feed_supplements,118.0
+200,38,Singapore,Sri Lanka,1989,feed_supplements,70.0
+200,38,Singapore,Sri Lanka,1990,feed_supplements,81.0
+200,38,Singapore,Sri Lanka,1991,feed_supplements,160.0
+200,38,Singapore,Sri Lanka,1992,feed_supplements,98.0
+200,38,Singapore,Sri Lanka,1993,feed_supplements,211.0
+200,38,Singapore,Sri Lanka,1994,feed_supplements,399.0
+200,38,Singapore,Sri Lanka,1995,feed_supplements,449.0
+200,38,Singapore,Sri Lanka,1996,feed_supplements,1426.0
+200,38,Singapore,Sri Lanka,1997,feed_supplements,167.0
+200,38,Singapore,Sri Lanka,1998,feed_supplements,228.0
+200,38,Singapore,Sri Lanka,1999,feed_supplements,222.0
+200,38,Singapore,Sri Lanka,2000,feed_supplements,511.0
+200,38,Singapore,Sri Lanka,2001,feed_supplements,323.0
+200,38,Singapore,Sri Lanka,2002,feed_supplements,361.0
+200,38,Singapore,Sri Lanka,2003,feed_supplements,371.0
+200,38,Singapore,Sri Lanka,2004,feed_supplements,447.0
+200,38,Singapore,Sri Lanka,2005,feed_supplements,604.0
+200,38,Singapore,Sri Lanka,2006,feed_supplements,729.0
+200,38,Singapore,Sri Lanka,2007,feed_supplements,1059.0
+200,38,Singapore,Sri Lanka,2008,feed_supplements,638.0
+200,38,Singapore,Sri Lanka,2009,feed_supplements,652.0
+200,38,Singapore,Sri Lanka,2010,feed_supplements,691.0
+200,38,Singapore,Sri Lanka,2011,feed_supplements,902.0
+200,38,Singapore,Sri Lanka,2012,feed_supplements,1074.0
+200,38,Singapore,Sri Lanka,2013,feed_supplements,1084.0
+200,38,Singapore,Sri Lanka,2014,feed_supplements,1000.87
+200,38,Singapore,Sri Lanka,2015,feed_supplements,1092.96
+200,38,Singapore,Sri Lanka,2016,feed_supplements,1252.44
+200,38,Singapore,Sri Lanka,2017,feed_supplements,1343.24
+200,38,Singapore,Sri Lanka,2018,feed_supplements,1444.4
+200,38,Singapore,Sri Lanka,2019,feed_supplements,1175.72
+200,38,Singapore,Sri Lanka,2020,feed_supplements,810.41
+200,38,Singapore,Sri Lanka,2021,feed_supplements,1470.5
+200,38,Singapore,Sri Lanka,2022,feed_supplements,492.55
+200,38,Singapore,Sri Lanka,2023,feed_supplements,884.74
+10,216,Australia,Thailand,1987,feed_supplements,13.0
+10,216,Australia,Thailand,1988,feed_supplements,5.0
+10,216,Australia,Thailand,1990,feed_supplements,5.0
+10,216,Australia,Thailand,1992,feed_supplements,1.0
+10,216,Australia,Thailand,1993,feed_supplements,71.0
+10,216,Australia,Thailand,1994,feed_supplements,126.0
+10,216,Australia,Thailand,1996,feed_supplements,8.0
+231,84,United States of America,Greece,1986,feed_supplements,172.0
+231,84,United States of America,Greece,1987,feed_supplements,214.0
+231,84,United States of America,Greece,1988,feed_supplements,204.0
+200,276,Singapore,Sudan,2015,feed_supplements,19.95
+41,200,"China, mainland",Singapore,1992,feed_supplements,648.0
+200,212,Singapore,Syrian Arab Republic,2012,feed_supplements,250.0
+231,89,United States of America,Guatemala,1986,feed_supplements,1100.0
+231,89,United States of America,Guatemala,1987,feed_supplements,791.0
+231,89,United States of America,Guatemala,1988,feed_supplements,1432.0
+200,216,Singapore,Thailand,1986,feed_supplements,1221.0
+200,216,Singapore,Thailand,1987,feed_supplements,1079.0
+200,216,Singapore,Thailand,1988,feed_supplements,880.0
+200,216,Singapore,Thailand,1989,feed_supplements,814.0
+200,216,Singapore,Thailand,1990,feed_supplements,915.0
+200,216,Singapore,Thailand,1991,feed_supplements,1191.0
+200,216,Singapore,Thailand,1992,feed_supplements,3640.0
+200,216,Singapore,Thailand,1993,feed_supplements,3535.0
+200,216,Singapore,Thailand,1994,feed_supplements,3357.0
+200,216,Singapore,Thailand,1995,feed_supplements,4984.0
+200,216,Singapore,Thailand,1996,feed_supplements,6001.0
+200,216,Singapore,Thailand,1997,feed_supplements,3466.0
+200,216,Singapore,Thailand,1998,feed_supplements,1736.0
+200,216,Singapore,Thailand,1999,feed_supplements,2359.0
+200,216,Singapore,Thailand,2000,feed_supplements,2261.0
+200,216,Singapore,Thailand,2001,feed_supplements,2315.0
+200,216,Singapore,Thailand,2002,feed_supplements,2554.0
+200,216,Singapore,Thailand,2003,feed_supplements,5100.0
+200,216,Singapore,Thailand,2004,feed_supplements,3802.0
+200,216,Singapore,Thailand,2005,feed_supplements,3070.0
+200,216,Singapore,Thailand,2006,feed_supplements,3159.0
+200,216,Singapore,Thailand,2007,feed_supplements,2956.0
+200,216,Singapore,Thailand,2008,feed_supplements,2777.0
+200,216,Singapore,Thailand,2009,feed_supplements,3192.0
+200,216,Singapore,Thailand,2010,feed_supplements,4419.0
+200,216,Singapore,Thailand,2011,feed_supplements,4667.0
+200,216,Singapore,Thailand,2012,feed_supplements,5058.0
+200,216,Singapore,Thailand,2013,feed_supplements,4930.0
+200,216,Singapore,Thailand,2014,feed_supplements,6121.88
+200,216,Singapore,Thailand,2015,feed_supplements,5585.18
+200,216,Singapore,Thailand,2016,feed_supplements,6822.09
+200,216,Singapore,Thailand,2017,feed_supplements,6871.79
+200,216,Singapore,Thailand,2018,feed_supplements,7314.68
+200,216,Singapore,Thailand,2019,feed_supplements,7711.04
+200,216,Singapore,Thailand,2020,feed_supplements,3941.76
+200,216,Singapore,Thailand,2021,feed_supplements,9290.04
+200,216,Singapore,Thailand,2022,feed_supplements,8493.96
+200,216,Singapore,Thailand,2023,feed_supplements,9403.49
+10,225,Australia,United Arab Emirates,1986,feed_supplements,1852.0
+10,225,Australia,United Arab Emirates,1987,feed_supplements,2376.0
+10,225,Australia,United Arab Emirates,1988,feed_supplements,3124.0
+10,225,Australia,United Arab Emirates,1989,feed_supplements,3331.0
+10,225,Australia,United Arab Emirates,1990,feed_supplements,1694.0
+10,225,Australia,United Arab Emirates,1992,feed_supplements,70.0
+10,225,Australia,United Arab Emirates,1994,feed_supplements,313.0
+10,225,Australia,United Arab Emirates,1996,feed_supplements,14.0
+231,91,United States of America,Guyana,1986,feed_supplements,4906.0
+231,91,United States of America,Guyana,1987,feed_supplements,3866.0
+231,91,United States of America,Guyana,1988,feed_supplements,2504.0
+200,176,Singapore,Timor-Leste,2016,feed_supplements,0.02
+200,176,Singapore,Timor-Leste,2017,feed_supplements,0.06
+200,176,Singapore,Timor-Leste,2020,feed_supplements,0.01
+41,203,"China, mainland",Spain,1992,feed_supplements,95.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1986,feed_supplements,46.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1987,feed_supplements,41.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1989,feed_supplements,21.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1990,feed_supplements,37.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1991,feed_supplements,110.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1992,feed_supplements,7.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1993,feed_supplements,14.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1994,feed_supplements,48.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1996,feed_supplements,9.0
+231,93,United States of America,Haiti,1986,feed_supplements,819.0
+231,93,United States of America,Haiti,1987,feed_supplements,463.0
+231,93,United States of America,Haiti,1988,feed_supplements,2195.0
+200,223,Singapore,Türkiye,2006,feed_supplements,3.0
+200,223,Singapore,Türkiye,2007,feed_supplements,8.0
+200,223,Singapore,Türkiye,2009,feed_supplements,8.0
+200,223,Singapore,Türkiye,2013,feed_supplements,109.0
+200,223,Singapore,Türkiye,2014,feed_supplements,111.75
+200,223,Singapore,Türkiye,2015,feed_supplements,0.12
+200,223,Singapore,Türkiye,2020,feed_supplements,16.93
+200,226,Singapore,Uganda,2011,feed_supplements,13.0
+200,226,Singapore,Uganda,2013,feed_supplements,9.0
+200,226,Singapore,Uganda,2015,feed_supplements,6.02
+200,226,Singapore,Uganda,2016,feed_supplements,11.62
+200,226,Singapore,Uganda,2017,feed_supplements,5.16
+200,226,Singapore,Uganda,2018,feed_supplements,4.98
+200,226,Singapore,Uganda,2019,feed_supplements,18.22
+200,226,Singapore,Uganda,2020,feed_supplements,15.04
+200,226,Singapore,Uganda,2021,feed_supplements,14.73
+200,226,Singapore,Uganda,2022,feed_supplements,12.13
+200,226,Singapore,Uganda,2023,feed_supplements,17.91
+200,230,Singapore,Ukraine,2009,feed_supplements,20.0
+200,230,Singapore,Ukraine,2011,feed_supplements,11.0
+200,230,Singapore,Ukraine,2012,feed_supplements,20.0
+200,230,Singapore,Ukraine,2013,feed_supplements,10.0
+200,230,Singapore,Ukraine,2014,feed_supplements,20.0
+200,230,Singapore,Ukraine,2015,feed_supplements,10.0
+200,230,Singapore,Ukraine,2017,feed_supplements,5.0
+200,225,Singapore,United Arab Emirates,1991,feed_supplements,4.0
+200,225,Singapore,United Arab Emirates,2003,feed_supplements,1.0
+200,225,Singapore,United Arab Emirates,2004,feed_supplements,1.0
+200,225,Singapore,United Arab Emirates,2005,feed_supplements,3.0
+200,225,Singapore,United Arab Emirates,2008,feed_supplements,1.0
+200,225,Singapore,United Arab Emirates,2009,feed_supplements,2.0
+200,225,Singapore,United Arab Emirates,2010,feed_supplements,13.0
+200,225,Singapore,United Arab Emirates,2011,feed_supplements,231.0
+200,225,Singapore,United Arab Emirates,2012,feed_supplements,278.0
+200,225,Singapore,United Arab Emirates,2013,feed_supplements,10.0
+200,225,Singapore,United Arab Emirates,2014,feed_supplements,12.49
+200,225,Singapore,United Arab Emirates,2015,feed_supplements,22.67
+200,225,Singapore,United Arab Emirates,2016,feed_supplements,18.46
+200,225,Singapore,United Arab Emirates,2017,feed_supplements,13.13
+200,225,Singapore,United Arab Emirates,2018,feed_supplements,9.09
+200,225,Singapore,United Arab Emirates,2019,feed_supplements,15.69
+200,225,Singapore,United Arab Emirates,2020,feed_supplements,23.41
+200,225,Singapore,United Arab Emirates,2021,feed_supplements,20.39
+200,225,Singapore,United Arab Emirates,2022,feed_supplements,3.18
+200,225,Singapore,United Arab Emirates,2023,feed_supplements,2.42
+231,95,United States of America,Honduras,1986,feed_supplements,1211.0
+231,95,United States of America,Honduras,1987,feed_supplements,186.0
+231,95,United States of America,Honduras,1988,feed_supplements,398.0
+10,231,Australia,United States of America,1986,feed_supplements,2.0
+10,231,Australia,United States of America,1987,feed_supplements,13.0
+10,231,Australia,United States of America,1990,feed_supplements,18.0
+10,231,Australia,United States of America,1991,feed_supplements,9.0
+10,231,Australia,United States of America,1992,feed_supplements,15.0
+10,231,Australia,United States of America,1993,feed_supplements,16.0
+10,231,Australia,United States of America,1994,feed_supplements,3.0
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2013,feed_supplements,2.0
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2014,feed_supplements,2.98
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2015,feed_supplements,34.74
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2019,feed_supplements,0.03
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2020,feed_supplements,31.71
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2021,feed_supplements,0.04
+200,229,Singapore,United Kingdom of Great Britain and Northern Ireland,2023,feed_supplements,0.07
+41,216,"China, mainland",Thailand,1992,feed_supplements,586.0
+10,155,Australia,Vanuatu,1986,feed_supplements,18.0
+10,155,Australia,Vanuatu,1987,feed_supplements,254.0
+10,155,Australia,Vanuatu,1988,feed_supplements,32.0
+10,155,Australia,Vanuatu,1989,feed_supplements,32.0
+10,155,Australia,Vanuatu,1992,feed_supplements,3.0
+10,155,Australia,Vanuatu,1994,feed_supplements,21.0
+200,215,Singapore,United Republic of Tanzania,2000,feed_supplements,1.0
+200,215,Singapore,United Republic of Tanzania,2010,feed_supplements,29.0
+200,215,Singapore,United Republic of Tanzania,2011,feed_supplements,18.0
+200,215,Singapore,United Republic of Tanzania,2012,feed_supplements,5.0
+200,215,Singapore,United Republic of Tanzania,2013,feed_supplements,32.0
+200,215,Singapore,United Republic of Tanzania,2014,feed_supplements,26.57
+200,215,Singapore,United Republic of Tanzania,2015,feed_supplements,34.87
+200,215,Singapore,United Republic of Tanzania,2016,feed_supplements,26.58
+200,215,Singapore,United Republic of Tanzania,2017,feed_supplements,12.67
+200,215,Singapore,United Republic of Tanzania,2018,feed_supplements,19.09
+200,215,Singapore,United Republic of Tanzania,2019,feed_supplements,8.2
+200,215,Singapore,United Republic of Tanzania,2020,feed_supplements,11.04
+200,215,Singapore,United Republic of Tanzania,2021,feed_supplements,6.56
+200,215,Singapore,United Republic of Tanzania,2022,feed_supplements,6.99
+200,231,Singapore,United States of America,1989,feed_supplements,21.0
+200,231,Singapore,United States of America,2000,feed_supplements,3.0
+200,231,Singapore,United States of America,2001,feed_supplements,30.0
+200,231,Singapore,United States of America,2002,feed_supplements,113.0
+200,231,Singapore,United States of America,2003,feed_supplements,1558.0
+200,231,Singapore,United States of America,2004,feed_supplements,5158.0
+200,231,Singapore,United States of America,2005,feed_supplements,6744.0
+200,231,Singapore,United States of America,2006,feed_supplements,6729.0
+200,231,Singapore,United States of America,2007,feed_supplements,4856.0
+200,231,Singapore,United States of America,2008,feed_supplements,4887.0
+200,231,Singapore,United States of America,2010,feed_supplements,185.0
+200,231,Singapore,United States of America,2011,feed_supplements,1.0
+200,231,Singapore,United States of America,2012,feed_supplements,290.0
+200,231,Singapore,United States of America,2013,feed_supplements,1.0
+200,231,Singapore,United States of America,2014,feed_supplements,1.23
+200,231,Singapore,United States of America,2015,feed_supplements,2.5
+200,231,Singapore,United States of America,2016,feed_supplements,17.2
+200,231,Singapore,United States of America,2017,feed_supplements,0.11
+200,231,Singapore,United States of America,2018,feed_supplements,0.01
+200,231,Singapore,United States of America,2019,feed_supplements,1198.07
+200,231,Singapore,United States of America,2020,feed_supplements,1888.79
+200,231,Singapore,United States of America,2021,feed_supplements,2757.01
+200,231,Singapore,United States of America,2022,feed_supplements,452.13
+200,231,Singapore,United States of America,2023,feed_supplements,0.03
+231,100,United States of America,India,1986,feed_supplements,242.0
+231,100,United States of America,India,1987,feed_supplements,329.0
+231,100,United States of America,India,1988,feed_supplements,665.0
+231,101,United States of America,Indonesia,1986,feed_supplements,717.0
+231,101,United States of America,Indonesia,1987,feed_supplements,745.0
+231,101,United States of America,Indonesia,1988,feed_supplements,723.0
+231,101,United States of America,Indonesia,1990,feed_supplements,15.0
+200,236,Singapore,Venezuela (Bolivarian Republic of),2007,feed_supplements,1.0
+200,237,Singapore,Viet Nam,1994,feed_supplements,86.0
+200,237,Singapore,Viet Nam,1995,feed_supplements,327.0
+200,237,Singapore,Viet Nam,1996,feed_supplements,472.0
+200,237,Singapore,Viet Nam,1997,feed_supplements,580.0
+200,237,Singapore,Viet Nam,1998,feed_supplements,537.0
+200,237,Singapore,Viet Nam,1999,feed_supplements,1074.0
+200,237,Singapore,Viet Nam,2000,feed_supplements,1059.0
+200,237,Singapore,Viet Nam,2001,feed_supplements,1272.0
+200,237,Singapore,Viet Nam,2002,feed_supplements,2195.0
+200,237,Singapore,Viet Nam,2003,feed_supplements,2420.0
+200,237,Singapore,Viet Nam,2004,feed_supplements,2289.0
+200,237,Singapore,Viet Nam,2005,feed_supplements,2822.0
+200,237,Singapore,Viet Nam,2006,feed_supplements,3565.0
+200,237,Singapore,Viet Nam,2007,feed_supplements,4451.0
+200,237,Singapore,Viet Nam,2008,feed_supplements,4247.0
+200,237,Singapore,Viet Nam,2009,feed_supplements,4783.0
+200,237,Singapore,Viet Nam,2010,feed_supplements,6324.0
+200,237,Singapore,Viet Nam,2011,feed_supplements,8081.0
+200,237,Singapore,Viet Nam,2012,feed_supplements,7524.0
+200,237,Singapore,Viet Nam,2013,feed_supplements,8657.0
+200,237,Singapore,Viet Nam,2014,feed_supplements,9729.54
+200,237,Singapore,Viet Nam,2015,feed_supplements,11650.89
+200,237,Singapore,Viet Nam,2016,feed_supplements,15588.1
+200,237,Singapore,Viet Nam,2017,feed_supplements,11951.69
+200,237,Singapore,Viet Nam,2018,feed_supplements,12645.84
+200,237,Singapore,Viet Nam,2019,feed_supplements,13667.4
+200,237,Singapore,Viet Nam,2020,feed_supplements,7371.54
+200,237,Singapore,Viet Nam,2021,feed_supplements,16886.52
+200,237,Singapore,Viet Nam,2022,feed_supplements,14928.46
+200,237,Singapore,Viet Nam,2023,feed_supplements,13383.2
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1992,feed_supplements,1028.0
+200,249,Singapore,Yemen,2011,feed_supplements,25.0
+200,249,Singapore,Yemen,2020,feed_supplements,32.68
+200,249,Singapore,Yemen,2021,feed_supplements,11.78
+200,249,Singapore,Yemen,2022,feed_supplements,35.6
+200,249,Singapore,Yemen,2023,feed_supplements,7.56
+231,104,United States of America,Ireland,1986,feed_supplements,52.0
+231,104,United States of America,Ireland,1987,feed_supplements,329.0
+231,104,United States of America,Ireland,1988,feed_supplements,55.0
+200,251,Singapore,Zambia,2013,feed_supplements,11.0
+200,251,Singapore,Zambia,2015,feed_supplements,0.27
+200,251,Singapore,Zambia,2018,feed_supplements,11.01
+200,251,Singapore,Zambia,2019,feed_supplements,24.94
+200,251,Singapore,Zambia,2020,feed_supplements,7.42
+200,251,Singapore,Zambia,2021,feed_supplements,12.24
+200,251,Singapore,Zambia,2022,feed_supplements,13.06
+200,251,Singapore,Zambia,2023,feed_supplements,19.39
+200,181,Singapore,Zimbabwe,1997,feed_supplements,3.0
+200,181,Singapore,Zimbabwe,1998,feed_supplements,3.0
+200,181,Singapore,Zimbabwe,1999,feed_supplements,3.0
+200,181,Singapore,Zimbabwe,2000,feed_supplements,2.0
+231,105,United States of America,Israel,1986,feed_supplements,46.0
+231,105,United States of America,Israel,1987,feed_supplements,251.0
+231,105,United States of America,Israel,1988,feed_supplements,162.0
+41,231,"China, mainland",United States of America,1992,feed_supplements,71.0
+231,106,United States of America,Italy,1986,feed_supplements,8003.0
+231,106,United States of America,Italy,1987,feed_supplements,10239.0
+231,106,United States of America,Italy,1988,feed_supplements,9710.0
+231,106,United States of America,Italy,1989,feed_supplements,14133.0
+231,106,United States of America,Italy,1990,feed_supplements,30439.0
+231,109,United States of America,Jamaica,1986,feed_supplements,455.0
+231,109,United States of America,Jamaica,1987,feed_supplements,881.0
+231,109,United States of America,Jamaica,1988,feed_supplements,4051.0
+231,110,United States of America,Japan,1986,feed_supplements,12779.0
+231,110,United States of America,Japan,1987,feed_supplements,26941.0
+231,110,United States of America,Japan,1988,feed_supplements,46836.0
+231,112,United States of America,Jordan,1988,feed_supplements,5.0
+231,118,United States of America,Kuwait,1986,feed_supplements,17.0
+231,131,United States of America,Malaysia,1986,feed_supplements,153.0
+231,131,United States of America,Malaysia,1987,feed_supplements,244.0
+231,131,United States of America,Malaysia,1988,feed_supplements,379.0
+231,135,United States of America,Martinique,1988,feed_supplements,65.0
+231,138,United States of America,Mexico,1986,feed_supplements,5997.0
+231,138,United States of America,Mexico,1987,feed_supplements,3851.0
+231,138,United States of America,Mexico,1988,feed_supplements,12039.0
+231,28,United States of America,Myanmar,1988,feed_supplements,235.0
+231,150,United States of America,Netherlands (Kingdom of the),1986,feed_supplements,871.0
+231,150,United States of America,Netherlands (Kingdom of the),1987,feed_supplements,35201.0
+231,150,United States of America,Netherlands (Kingdom of the),1988,feed_supplements,23264.0
+231,150,United States of America,Netherlands (Kingdom of the),1989,feed_supplements,155361.0
+231,150,United States of America,Netherlands (Kingdom of the),1990,feed_supplements,188609.0
+231,153,United States of America,New Caledonia,1988,feed_supplements,224.0
+231,156,United States of America,New Zealand,1987,feed_supplements,190.0
+231,156,United States of America,New Zealand,1988,feed_supplements,70.0
+231,165,United States of America,Pakistan,1988,feed_supplements,203.0
+231,166,United States of America,Panama,1986,feed_supplements,1303.0
+231,166,United States of America,Panama,1987,feed_supplements,1433.0
+231,166,United States of America,Panama,1988,feed_supplements,1190.0
+231,169,United States of America,Paraguay,1986,feed_supplements,16.0
+231,169,United States of America,Paraguay,1987,feed_supplements,49.0
+231,169,United States of America,Paraguay,1988,feed_supplements,16.0
+231,170,United States of America,Peru,1986,feed_supplements,183.0
+231,170,United States of America,Peru,1987,feed_supplements,805.0
+231,170,United States of America,Peru,1988,feed_supplements,1823.0
+231,171,United States of America,Philippines,1986,feed_supplements,2735.0
+231,171,United States of America,Philippines,1987,feed_supplements,2314.0
+231,171,United States of America,Philippines,1988,feed_supplements,2124.0
+231,174,United States of America,Portugal,1986,feed_supplements,27.0
+231,174,United States of America,Portugal,1987,feed_supplements,11610.0
+231,174,United States of America,Portugal,1989,feed_supplements,7805.0
+231,174,United States of America,Portugal,1990,feed_supplements,26193.0
+231,117,United States of America,Republic of Korea,1986,feed_supplements,2302.0
+231,117,United States of America,Republic of Korea,1987,feed_supplements,4188.0
+231,117,United States of America,Republic of Korea,1988,feed_supplements,4011.0
+231,188,United States of America,Saint Kitts and Nevis,1988,feed_supplements,199.0
+231,194,United States of America,Saudi Arabia,1986,feed_supplements,10.0
+231,194,United States of America,Saudi Arabia,1988,feed_supplements,518.0
+231,200,United States of America,Singapore,1986,feed_supplements,60.0
+231,200,United States of America,Singapore,1987,feed_supplements,125.0
+231,200,United States of America,Singapore,1988,feed_supplements,151.0
+231,202,United States of America,South Africa,1986,feed_supplements,145.0
+231,202,United States of America,South Africa,1987,feed_supplements,823.0
+231,202,United States of America,South Africa,1988,feed_supplements,126.0
+231,203,United States of America,Spain,1986,feed_supplements,993.0
+231,203,United States of America,Spain,1987,feed_supplements,990.0
+231,203,United States of America,Spain,1988,feed_supplements,1343.0
+231,203,United States of America,Spain,1989,feed_supplements,14.0
+231,38,United States of America,Sri Lanka,1986,feed_supplements,40.0
+231,38,United States of America,Sri Lanka,1987,feed_supplements,48.0
+231,38,United States of America,Sri Lanka,1988,feed_supplements,25.0
+231,207,United States of America,Suriname,1986,feed_supplements,90.0
+231,210,United States of America,Sweden,1986,feed_supplements,735.0
+231,210,United States of America,Sweden,1987,feed_supplements,686.0
+231,210,United States of America,Sweden,1988,feed_supplements,441.0
+231,211,United States of America,Switzerland,1986,feed_supplements,699.0
+231,211,United States of America,Switzerland,1987,feed_supplements,25.0
+231,211,United States of America,Switzerland,1988,feed_supplements,44.0
+231,216,United States of America,Thailand,1986,feed_supplements,84.0
+231,216,United States of America,Thailand,1987,feed_supplements,514.0
+231,216,United States of America,Thailand,1988,feed_supplements,956.0
+231,220,United States of America,Trinidad and Tobago,1986,feed_supplements,4113.0
+231,220,United States of America,Trinidad and Tobago,1987,feed_supplements,6098.0
+231,220,United States of America,Trinidad and Tobago,1988,feed_supplements,7867.0
+231,220,United States of America,Trinidad and Tobago,1990,feed_supplements,73.0
+231,223,United States of America,Türkiye,1986,feed_supplements,57.0
+231,223,United States of America,Türkiye,1987,feed_supplements,44.0
+231,223,United States of America,Türkiye,1988,feed_supplements,35.0
+231,225,United States of America,United Arab Emirates,1988,feed_supplements,89.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1986,feed_supplements,7082.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1987,feed_supplements,3137.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1988,feed_supplements,3475.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1989,feed_supplements,8998.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1986,feed_supplements,2075.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1987,feed_supplements,1843.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1988,feed_supplements,2921.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1989,feed_supplements,42.0
+231,248,United States of America,Yugoslav SFR,1986,feed_supplements,108.0
+231,248,United States of America,Yugoslav SFR,1987,feed_supplements,139.0

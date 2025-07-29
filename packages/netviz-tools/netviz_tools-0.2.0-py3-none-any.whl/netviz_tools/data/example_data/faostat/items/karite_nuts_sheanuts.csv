@@ -1,0 +1,664 @@
+o_code,d_code,o_name,d_name,year,item,weight
+28,4,Myanmar,Algeria,2018,karite_nuts_sheanuts,92.5
+28,4,Myanmar,Algeria,2020,karite_nuts_sheanuts,57.0
+53,7,Benin,Angola,2018,karite_nuts_sheanuts,0.97
+81,8,Ghana,Antigua and Barbuda,2003,karite_nuts_sheanuts,1900.0
+53,255,Benin,Belgium,2022,karite_nuts_sheanuts,51.0
+53,255,Benin,Belgium,2023,karite_nuts_sheanuts,95.0
+233,15,Burkina Faso,Belgium-Luxembourg,1994,karite_nuts_sheanuts,71.0
+133,233,Mali,Burkina Faso,2002,karite_nuts_sheanuts,1454.0
+133,233,Mali,Burkina Faso,2003,karite_nuts_sheanuts,2142.0
+133,233,Mali,Burkina Faso,2004,karite_nuts_sheanuts,190.0
+133,233,Mali,Burkina Faso,2005,karite_nuts_sheanuts,104.0
+159,54,Nigeria,Denmark,1986,karite_nuts_sheanuts,4556.0
+233,53,Burkina Faso,Benin,1999,karite_nuts_sheanuts,134.0
+233,53,Burkina Faso,Benin,2000,karite_nuts_sheanuts,94.0
+233,53,Burkina Faso,Benin,2009,karite_nuts_sheanuts,1.0
+233,53,Burkina Faso,Benin,2010,karite_nuts_sheanuts,46.0
+233,53,Burkina Faso,Benin,2019,karite_nuts_sheanuts,39.0
+28,255,Myanmar,Belgium,2016,karite_nuts_sheanuts,57.0
+28,255,Myanmar,Belgium,2017,karite_nuts_sheanuts,38.0
+28,255,Myanmar,Belgium,2018,karite_nuts_sheanuts,38.0
+28,255,Myanmar,Belgium,2019,karite_nuts_sheanuts,133.0
+28,255,Myanmar,Belgium,2020,karite_nuts_sheanuts,551.0
+28,255,Myanmar,Belgium,2022,karite_nuts_sheanuts,266.0
+28,255,Myanmar,Belgium,2023,karite_nuts_sheanuts,437.0
+53,15,Benin,Belgium-Luxembourg,1992,karite_nuts_sheanuts,218.0
+53,15,Benin,Belgium-Luxembourg,1993,karite_nuts_sheanuts,500.0
+53,15,Benin,Belgium-Luxembourg,1994,karite_nuts_sheanuts,942.0
+217,15,Togo,Belgium-Luxembourg,1998,karite_nuts_sheanuts,2068.0
+133,96,Mali,"China, Hong Kong SAR",2003,karite_nuts_sheanuts,142.0
+53,21,Benin,Brazil,2018,karite_nuts_sheanuts,0.1
+233,233,Burkina Faso,Burkina Faso,2003,karite_nuts_sheanuts,29.0
+133,41,Mali,"China, mainland",2003,karite_nuts_sheanuts,10.0
+81,12,Ghana,Bahamas,2003,karite_nuts_sheanuts,3918.0
+53,233,Benin,Burkina Faso,2019,karite_nuts_sheanuts,70.5
+53,233,Benin,Burkina Faso,2022,karite_nuts_sheanuts,96.12
+53,233,Benin,Burkina Faso,2023,karite_nuts_sheanuts,5.63
+53,29,Benin,Burundi,2018,karite_nuts_sheanuts,0.1
+233,96,Burkina Faso,"China, Hong Kong SAR",2001,karite_nuts_sheanuts,864.0
+233,96,Burkina Faso,"China, Hong Kong SAR",2002,karite_nuts_sheanuts,72.0
+233,96,Burkina Faso,"China, Hong Kong SAR",2009,karite_nuts_sheanuts,32.0
+53,32,Benin,Cameroon,2016,karite_nuts_sheanuts,0.73
+217,53,Togo,Benin,2001,karite_nuts_sheanuts,92.0
+53,37,Benin,Central African Republic,2014,karite_nuts_sheanuts,0.06
+53,37,Benin,Central African Republic,2016,karite_nuts_sheanuts,0.2
+53,37,Benin,Central African Republic,2018,karite_nuts_sheanuts,0.34
+133,107,Mali,Côte d'Ivoire,2002,karite_nuts_sheanuts,1253.0
+133,107,Mali,Côte d'Ivoire,2003,karite_nuts_sheanuts,70.0
+133,107,Mali,Côte d'Ivoire,2004,karite_nuts_sheanuts,860.0
+15,10,Belgium-Luxembourg,Australia,1988,karite_nuts_sheanuts,1.0
+15,10,Belgium-Luxembourg,Australia,1989,karite_nuts_sheanuts,3.0
+15,10,Belgium-Luxembourg,Australia,1990,karite_nuts_sheanuts,1.0
+28,41,Myanmar,"China, mainland",2016,karite_nuts_sheanuts,19.0
+28,41,Myanmar,"China, mainland",2018,karite_nuts_sheanuts,52.6
+28,41,Myanmar,"China, mainland",2019,karite_nuts_sheanuts,13.0
+28,41,Myanmar,"China, mainland",2020,karite_nuts_sheanuts,119.0
+28,41,Myanmar,"China, mainland",2021,karite_nuts_sheanuts,541.88
+28,41,Myanmar,"China, mainland",2022,karite_nuts_sheanuts,376.86
+28,41,Myanmar,"China, mainland",2023,karite_nuts_sheanuts,374.32
+159,25,Nigeria,Solomon Islands,1986,karite_nuts_sheanuts,1000.0
+133,54,Mali,Denmark,2002,karite_nuts_sheanuts,540.0
+133,54,Mali,Denmark,2004,karite_nuts_sheanuts,814.0
+133,54,Mali,Denmark,2005,karite_nuts_sheanuts,230.0
+81,255,Ghana,Belgium,2000,karite_nuts_sheanuts,1.0
+81,255,Ghana,Belgium,2008,karite_nuts_sheanuts,56.0
+81,255,Ghana,Belgium,2010,karite_nuts_sheanuts,1.0
+53,41,Benin,"China, mainland",2016,karite_nuts_sheanuts,33.6
+217,233,Togo,Burkina Faso,2022,karite_nuts_sheanuts,45.0
+159,229,Nigeria,United Kingdom of Great Britain and Northern Ireland,1986,karite_nuts_sheanuts,450.0
+7,68,Angola,France,2020,karite_nuts_sheanuts,0.05
+28,214,Myanmar,"China, Taiwan Province of",2020,karite_nuts_sheanuts,13.0
+28,214,Myanmar,"China, Taiwan Province of",2021,karite_nuts_sheanuts,0.81
+28,214,Myanmar,"China, Taiwan Province of",2022,karite_nuts_sheanuts,1.02
+28,214,Myanmar,"China, Taiwan Province of",2023,karite_nuts_sheanuts,1.1
+53,44,Benin,Colombia,2016,karite_nuts_sheanuts,0.05
+53,44,Benin,Colombia,2019,karite_nuts_sheanuts,0.01
+215,33,United Republic of Tanzania,Canada,2001,karite_nuts_sheanuts,340.0
+15,11,Belgium-Luxembourg,Austria,1986,karite_nuts_sheanuts,1.0
+15,11,Belgium-Luxembourg,Austria,1987,karite_nuts_sheanuts,4.0
+53,107,Benin,Côte d'Ivoire,1998,karite_nuts_sheanuts,2270.0
+53,107,Benin,Côte d'Ivoire,2016,karite_nuts_sheanuts,0.16
+53,107,Benin,Côte d'Ivoire,2019,karite_nuts_sheanuts,0.02
+233,107,Burkina Faso,Côte d'Ivoire,1994,karite_nuts_sheanuts,4795.0
+233,107,Burkina Faso,Côte d'Ivoire,1995,karite_nuts_sheanuts,1293.0
+233,107,Burkina Faso,Côte d'Ivoire,1996,karite_nuts_sheanuts,2244.0
+233,107,Burkina Faso,Côte d'Ivoire,1997,karite_nuts_sheanuts,1471.0
+233,107,Burkina Faso,Côte d'Ivoire,1999,karite_nuts_sheanuts,4994.0
+233,107,Burkina Faso,Côte d'Ivoire,2000,karite_nuts_sheanuts,5623.0
+233,107,Burkina Faso,Côte d'Ivoire,2001,karite_nuts_sheanuts,7752.0
+233,107,Burkina Faso,Côte d'Ivoire,2002,karite_nuts_sheanuts,3870.0
+233,107,Burkina Faso,Côte d'Ivoire,2003,karite_nuts_sheanuts,144.0
+233,107,Burkina Faso,Côte d'Ivoire,2009,karite_nuts_sheanuts,25.0
+233,107,Burkina Faso,Côte d'Ivoire,2010,karite_nuts_sheanuts,300.0
+233,107,Burkina Faso,Côte d'Ivoire,2011,karite_nuts_sheanuts,30.0
+233,107,Burkina Faso,Côte d'Ivoire,2019,karite_nuts_sheanuts,292.0
+233,107,Burkina Faso,Côte d'Ivoire,2021,karite_nuts_sheanuts,40.0
+233,107,Burkina Faso,Côte d'Ivoire,2023,karite_nuts_sheanuts,2001.86
+81,15,Ghana,Belgium-Luxembourg,1999,karite_nuts_sheanuts,100.0
+53,50,Benin,Cyprus,2021,karite_nuts_sheanuts,17.38
+189,55,Saint Lucia,Dominica,2020,karite_nuts_sheanuts,0.01
+28,209,Myanmar,Eswatini,2019,karite_nuts_sheanuts,38.0
+53,250,Benin,Democratic Republic of the Congo,2015,karite_nuts_sheanuts,0.01
+53,250,Benin,Democratic Republic of the Congo,2016,karite_nuts_sheanuts,0.01
+53,250,Benin,Democratic Republic of the Congo,2018,karite_nuts_sheanuts,2.2
+53,250,Benin,Democratic Republic of the Congo,2019,karite_nuts_sheanuts,0.61
+53,54,Benin,Denmark,1992,karite_nuts_sheanuts,6933.0
+53,54,Benin,Denmark,1993,karite_nuts_sheanuts,3300.0
+53,54,Benin,Denmark,1994,karite_nuts_sheanuts,6324.0
+53,54,Benin,Denmark,1995,karite_nuts_sheanuts,3200.0
+53,54,Benin,Denmark,1996,karite_nuts_sheanuts,2801.0
+53,54,Benin,Denmark,1998,karite_nuts_sheanuts,12104.0
+53,54,Benin,Denmark,1999,karite_nuts_sheanuts,4413.0
+53,54,Benin,Denmark,2000,karite_nuts_sheanuts,5000.0
+53,54,Benin,Denmark,2001,karite_nuts_sheanuts,4197.0
+53,54,Benin,Denmark,2002,karite_nuts_sheanuts,1253.0
+53,54,Benin,Denmark,2004,karite_nuts_sheanuts,5912.0
+53,54,Benin,Denmark,2005,karite_nuts_sheanuts,259.0
+53,54,Benin,Denmark,2007,karite_nuts_sheanuts,13190.0
+53,54,Benin,Denmark,2017,karite_nuts_sheanuts,39145.0
+53,54,Benin,Denmark,2018,karite_nuts_sheanuts,67421.47
+53,54,Benin,Denmark,2019,karite_nuts_sheanuts,58347.53
+53,54,Benin,Denmark,2020,karite_nuts_sheanuts,59548.75
+53,54,Benin,Denmark,2021,karite_nuts_sheanuts,63920.0
+28,68,Myanmar,France,2022,karite_nuts_sheanuts,38.0
+53,54,Benin,Denmark,2022,karite_nuts_sheanuts,19300.3
+53,54,Benin,Denmark,2023,karite_nuts_sheanuts,12368.9
+124,150,Libya,Netherlands (Kingdom of the),2019,karite_nuts_sheanuts,8.0
+217,41,Togo,"China, mainland",2008,karite_nuts_sheanuts,25.0
+217,41,Togo,"China, mainland",2019,karite_nuts_sheanuts,18.0
+28,79,Myanmar,Germany,2017,karite_nuts_sheanuts,38.0
+28,79,Myanmar,Germany,2019,karite_nuts_sheanuts,19.0
+28,79,Myanmar,Germany,2020,karite_nuts_sheanuts,37.0
+133,81,Mali,Ghana,2002,karite_nuts_sheanuts,583.0
+133,81,Mali,Ghana,2003,karite_nuts_sheanuts,382.0
+133,81,Mali,Ghana,2004,karite_nuts_sheanuts,43.0
+28,84,Myanmar,Greece,2022,karite_nuts_sheanuts,19.0
+28,84,Myanmar,Greece,2023,karite_nuts_sheanuts,19.0
+28,97,Myanmar,Hungary,2019,karite_nuts_sheanuts,19.0
+28,97,Myanmar,Hungary,2020,karite_nuts_sheanuts,19.0
+133,100,Mali,India,2003,karite_nuts_sheanuts,40.0
+233,54,Burkina Faso,Denmark,1995,karite_nuts_sheanuts,1900.0
+233,54,Burkina Faso,Denmark,1996,karite_nuts_sheanuts,2060.0
+233,54,Burkina Faso,Denmark,1997,karite_nuts_sheanuts,2000.0
+233,54,Burkina Faso,Denmark,1999,karite_nuts_sheanuts,997.0
+233,54,Burkina Faso,Denmark,2000,karite_nuts_sheanuts,1199.0
+233,54,Burkina Faso,Denmark,2001,karite_nuts_sheanuts,80.0
+233,54,Burkina Faso,Denmark,2002,karite_nuts_sheanuts,4748.0
+233,54,Burkina Faso,Denmark,2009,karite_nuts_sheanuts,1182.0
+233,54,Burkina Faso,Denmark,2010,karite_nuts_sheanuts,11656.0
+233,54,Burkina Faso,Denmark,2011,karite_nuts_sheanuts,33461.0
+233,54,Burkina Faso,Denmark,2017,karite_nuts_sheanuts,93749.48
+233,54,Burkina Faso,Denmark,2018,karite_nuts_sheanuts,53280.0
+233,54,Burkina Faso,Denmark,2019,karite_nuts_sheanuts,56464.6
+233,54,Burkina Faso,Denmark,2020,karite_nuts_sheanuts,49700.0
+233,54,Burkina Faso,Denmark,2021,karite_nuts_sheanuts,34200.0
+233,54,Burkina Faso,Denmark,2022,karite_nuts_sheanuts,43000.0
+233,54,Burkina Faso,Denmark,2023,karite_nuts_sheanuts,63688.52
+28,100,Myanmar,India,2016,karite_nuts_sheanuts,3352.06
+28,100,Myanmar,India,2017,karite_nuts_sheanuts,1004.0
+28,100,Myanmar,India,2018,karite_nuts_sheanuts,394.0
+28,100,Myanmar,India,2019,karite_nuts_sheanuts,228.0
+28,100,Myanmar,India,2020,karite_nuts_sheanuts,5358.0
+28,100,Myanmar,India,2021,karite_nuts_sheanuts,3469.0
+28,100,Myanmar,India,2022,karite_nuts_sheanuts,1976.0
+28,100,Myanmar,India,2023,karite_nuts_sheanuts,970.0
+7,147,Angola,Namibia,2019,karite_nuts_sheanuts,0.61
+7,147,Angola,Namibia,2021,karite_nuts_sheanuts,0.03
+217,54,Togo,Denmark,1994,karite_nuts_sheanuts,3116.0
+217,54,Togo,Denmark,1995,karite_nuts_sheanuts,240.0
+217,54,Togo,Denmark,1996,karite_nuts_sheanuts,6280.0
+217,54,Togo,Denmark,1997,karite_nuts_sheanuts,2582.0
+217,54,Togo,Denmark,1998,karite_nuts_sheanuts,2795.0
+217,54,Togo,Denmark,2000,karite_nuts_sheanuts,3514.0
+217,54,Togo,Denmark,2001,karite_nuts_sheanuts,180.0
+217,54,Togo,Denmark,2002,karite_nuts_sheanuts,250.0
+28,101,Myanmar,Indonesia,2016,karite_nuts_sheanuts,247.0
+28,101,Myanmar,Indonesia,2017,karite_nuts_sheanuts,683.0
+28,101,Myanmar,Indonesia,2018,karite_nuts_sheanuts,38.0
+28,101,Myanmar,Indonesia,2020,karite_nuts_sheanuts,209.0
+28,101,Myanmar,Indonesia,2021,karite_nuts_sheanuts,513.0
+28,101,Myanmar,Indonesia,2022,karite_nuts_sheanuts,28.5
+28,101,Myanmar,Indonesia,2023,karite_nuts_sheanuts,144.0
+53,68,Benin,France,1992,karite_nuts_sheanuts,65.0
+53,68,Benin,France,1994,karite_nuts_sheanuts,67.0
+53,68,Benin,France,1995,karite_nuts_sheanuts,124.0
+53,68,Benin,France,1997,karite_nuts_sheanuts,50.0
+53,68,Benin,France,1998,karite_nuts_sheanuts,162.0
+53,68,Benin,France,1999,karite_nuts_sheanuts,320.0
+53,68,Benin,France,2001,karite_nuts_sheanuts,83.0
+53,68,Benin,France,2002,karite_nuts_sheanuts,334.0
+53,68,Benin,France,2004,karite_nuts_sheanuts,182.0
+53,68,Benin,France,2005,karite_nuts_sheanuts,97.0
+53,68,Benin,France,2008,karite_nuts_sheanuts,208.0
+53,68,Benin,France,2009,karite_nuts_sheanuts,155.0
+53,68,Benin,France,2018,karite_nuts_sheanuts,0.28
+53,68,Benin,France,2019,karite_nuts_sheanuts,0.19
+28,104,Myanmar,Ireland,2019,karite_nuts_sheanuts,19.0
+28,104,Myanmar,Ireland,2020,karite_nuts_sheanuts,38.0
+28,104,Myanmar,Ireland,2022,karite_nuts_sheanuts,19.0
+28,104,Myanmar,Ireland,2023,karite_nuts_sheanuts,76.0
+28,105,Myanmar,Israel,2019,karite_nuts_sheanuts,38.0
+28,106,Myanmar,Italy,2016,karite_nuts_sheanuts,19.0
+28,106,Myanmar,Italy,2019,karite_nuts_sheanuts,57.0
+28,106,Myanmar,Italy,2020,karite_nuts_sheanuts,323.0
+28,106,Myanmar,Italy,2022,karite_nuts_sheanuts,3.5
+28,106,Myanmar,Italy,2023,karite_nuts_sheanuts,152.0
+233,68,Burkina Faso,France,1994,karite_nuts_sheanuts,574.0
+233,68,Burkina Faso,France,1995,karite_nuts_sheanuts,523.0
+233,68,Burkina Faso,France,1996,karite_nuts_sheanuts,226.0
+233,68,Burkina Faso,France,2010,karite_nuts_sheanuts,34.0
+233,68,Burkina Faso,France,2020,karite_nuts_sheanuts,3.0
+233,68,Burkina Faso,France,2021,karite_nuts_sheanuts,0.94
+81,33,Ghana,Canada,2003,karite_nuts_sheanuts,1.0
+133,150,Mali,Netherlands (Kingdom of the),2002,karite_nuts_sheanuts,35.0
+28,110,Myanmar,Japan,2018,karite_nuts_sheanuts,0.12
+28,110,Myanmar,Japan,2020,karite_nuts_sheanuts,0.15
+133,158,Mali,Niger,2004,karite_nuts_sheanuts,40.0
+7,174,Angola,Portugal,2022,karite_nuts_sheanuts,0.11
+217,68,Togo,France,2004,karite_nuts_sheanuts,80.0
+217,68,Togo,France,2019,karite_nuts_sheanuts,2.86
+28,121,Myanmar,Lebanon,2020,karite_nuts_sheanuts,38.0
+28,131,Myanmar,Malaysia,2016,karite_nuts_sheanuts,247.0
+28,131,Myanmar,Malaysia,2017,karite_nuts_sheanuts,19.5
+28,131,Myanmar,Malaysia,2018,karite_nuts_sheanuts,95.0
+28,131,Myanmar,Malaysia,2020,karite_nuts_sheanuts,38.0
+53,74,Benin,Gabon,2016,karite_nuts_sheanuts,4.27
+53,74,Benin,Gabon,2018,karite_nuts_sheanuts,0.01
+53,74,Benin,Gabon,2019,karite_nuts_sheanuts,0.01
+81,96,Ghana,"China, Hong Kong SAR",2010,karite_nuts_sheanuts,11.0
+53,79,Benin,Germany,1994,karite_nuts_sheanuts,2000.0
+53,79,Benin,Germany,2000,karite_nuts_sheanuts,81.0
+233,79,Burkina Faso,Germany,2009,karite_nuts_sheanuts,363.0
+233,79,Burkina Faso,Germany,2020,karite_nuts_sheanuts,1.0
+133,200,Mali,Singapore,2002,karite_nuts_sheanuts,115.0
+133,200,Mali,Singapore,2003,karite_nuts_sheanuts,946.0
+28,138,Myanmar,Mexico,2022,karite_nuts_sheanuts,38.0
+28,138,Myanmar,Mexico,2023,karite_nuts_sheanuts,38.0
+28,150,Myanmar,Netherlands (Kingdom of the),2016,karite_nuts_sheanuts,38.0
+28,150,Myanmar,Netherlands (Kingdom of the),2017,karite_nuts_sheanuts,76.0
+28,150,Myanmar,Netherlands (Kingdom of the),2018,karite_nuts_sheanuts,57.0
+28,150,Myanmar,Netherlands (Kingdom of the),2019,karite_nuts_sheanuts,57.0
+28,150,Myanmar,Netherlands (Kingdom of the),2020,karite_nuts_sheanuts,266.0
+28,150,Myanmar,Netherlands (Kingdom of the),2022,karite_nuts_sheanuts,57.0
+28,150,Myanmar,Netherlands (Kingdom of the),2023,karite_nuts_sheanuts,76.0
+53,81,Benin,Ghana,2007,karite_nuts_sheanuts,170.0
+53,81,Benin,Ghana,2008,karite_nuts_sheanuts,73.0
+53,81,Benin,Ghana,2015,karite_nuts_sheanuts,0.97
+53,81,Benin,Ghana,2016,karite_nuts_sheanuts,0.2
+53,81,Benin,Ghana,2018,karite_nuts_sheanuts,0.86
+53,81,Benin,Ghana,2021,karite_nuts_sheanuts,89.88
+53,90,Benin,Guinea,2016,karite_nuts_sheanuts,0.29
+53,90,Benin,Guinea,2018,karite_nuts_sheanuts,0.05
+81,41,Ghana,"China, mainland",2008,karite_nuts_sheanuts,1887.0
+81,41,Ghana,"China, mainland",2009,karite_nuts_sheanuts,575.0
+81,41,Ghana,"China, mainland",2010,karite_nuts_sheanuts,53.0
+28,165,Myanmar,Pakistan,2021,karite_nuts_sheanuts,39.0
+28,165,Myanmar,Pakistan,2022,karite_nuts_sheanuts,139.0
+28,165,Myanmar,Pakistan,2023,karite_nuts_sheanuts,15.0
+133,217,Mali,Togo,2002,karite_nuts_sheanuts,35.0
+133,217,Mali,Togo,2004,karite_nuts_sheanuts,485.0
+233,81,Burkina Faso,Ghana,1994,karite_nuts_sheanuts,20.0
+233,81,Burkina Faso,Ghana,1996,karite_nuts_sheanuts,83.0
+233,81,Burkina Faso,Ghana,1997,karite_nuts_sheanuts,284.0
+233,81,Burkina Faso,Ghana,1999,karite_nuts_sheanuts,300.0
+233,81,Burkina Faso,Ghana,2000,karite_nuts_sheanuts,4660.0
+233,81,Burkina Faso,Ghana,2001,karite_nuts_sheanuts,3481.0
+233,81,Burkina Faso,Ghana,2002,karite_nuts_sheanuts,14525.0
+233,81,Burkina Faso,Ghana,2003,karite_nuts_sheanuts,23808.0
+233,81,Burkina Faso,Ghana,2004,karite_nuts_sheanuts,2000.0
+233,81,Burkina Faso,Ghana,2009,karite_nuts_sheanuts,3769.0
+233,81,Burkina Faso,Ghana,2010,karite_nuts_sheanuts,39985.0
+233,81,Burkina Faso,Ghana,2011,karite_nuts_sheanuts,39297.0
+233,81,Burkina Faso,Ghana,2017,karite_nuts_sheanuts,31942.5
+233,81,Burkina Faso,Ghana,2018,karite_nuts_sheanuts,42335.34
+233,81,Burkina Faso,Ghana,2019,karite_nuts_sheanuts,69632.0
+233,81,Burkina Faso,Ghana,2020,karite_nuts_sheanuts,48566.3
+233,81,Burkina Faso,Ghana,2021,karite_nuts_sheanuts,47336.26
+233,81,Burkina Faso,Ghana,2022,karite_nuts_sheanuts,66949.29
+233,81,Burkina Faso,Ghana,2023,karite_nuts_sheanuts,123801.5
+217,79,Togo,Germany,1997,karite_nuts_sheanuts,700.0
+53,100,Benin,India,2005,karite_nuts_sheanuts,80.0
+53,100,Benin,India,2007,karite_nuts_sheanuts,1104.0
+53,100,Benin,India,2008,karite_nuts_sheanuts,487.0
+53,100,Benin,India,2009,karite_nuts_sheanuts,454.0
+53,100,Benin,India,2012,karite_nuts_sheanuts,1965.0
+53,100,Benin,India,2013,karite_nuts_sheanuts,4853.0
+53,100,Benin,India,2014,karite_nuts_sheanuts,2584.54
+53,100,Benin,India,2015,karite_nuts_sheanuts,4270.96
+53,100,Benin,India,2016,karite_nuts_sheanuts,4227.8
+53,100,Benin,India,2017,karite_nuts_sheanuts,3457.4
+53,100,Benin,India,2018,karite_nuts_sheanuts,1366.12
+53,100,Benin,India,2019,karite_nuts_sheanuts,501.12
+53,100,Benin,India,2020,karite_nuts_sheanuts,2777.51
+53,100,Benin,India,2021,karite_nuts_sheanuts,1129.9
+53,100,Benin,India,2022,karite_nuts_sheanuts,1279.06
+53,100,Benin,India,2023,karite_nuts_sheanuts,6999.87
+28,173,Myanmar,Poland,2020,karite_nuts_sheanuts,76.0
+28,173,Myanmar,Poland,2022,karite_nuts_sheanuts,19.0
+28,173,Myanmar,Poland,2023,karite_nuts_sheanuts,57.0
+28,174,Myanmar,Portugal,2019,karite_nuts_sheanuts,19.0
+28,174,Myanmar,Portugal,2020,karite_nuts_sheanuts,19.0
+28,174,Myanmar,Portugal,2022,karite_nuts_sheanuts,19.0
+53,101,Benin,Indonesia,1999,karite_nuts_sheanuts,830.0
+28,117,Myanmar,Republic of Korea,2016,karite_nuts_sheanuts,205.2
+28,117,Myanmar,Republic of Korea,2017,karite_nuts_sheanuts,280.98
+28,117,Myanmar,Republic of Korea,2018,karite_nuts_sheanuts,282.75
+28,117,Myanmar,Republic of Korea,2019,karite_nuts_sheanuts,570.21
+28,117,Myanmar,Republic of Korea,2020,karite_nuts_sheanuts,1444.53
+28,117,Myanmar,Republic of Korea,2021,karite_nuts_sheanuts,1877.19
+28,117,Myanmar,Republic of Korea,2022,karite_nuts_sheanuts,1874.88
+28,117,Myanmar,Republic of Korea,2023,karite_nuts_sheanuts,378.81
+217,81,Togo,Ghana,2001,karite_nuts_sheanuts,96.0
+217,81,Togo,Ghana,2007,karite_nuts_sheanuts,5.0
+217,81,Togo,Ghana,2011,karite_nuts_sheanuts,114.0
+217,81,Togo,Ghana,2014,karite_nuts_sheanuts,91.0
+217,81,Togo,Ghana,2020,karite_nuts_sheanuts,1396.44
+217,81,Togo,Ghana,2021,karite_nuts_sheanuts,2066.0
+217,81,Togo,Ghana,2022,karite_nuts_sheanuts,1455.5
+217,81,Togo,Ghana,2023,karite_nuts_sheanuts,659.8
+53,106,Benin,Italy,2019,karite_nuts_sheanuts,16.9
+233,100,Burkina Faso,India,2001,karite_nuts_sheanuts,144.0
+233,100,Burkina Faso,India,2018,karite_nuts_sheanuts,3742.0
+233,100,Burkina Faso,India,2019,karite_nuts_sheanuts,1000.0
+233,100,Burkina Faso,India,2020,karite_nuts_sheanuts,970.0
+233,100,Burkina Faso,India,2021,karite_nuts_sheanuts,8370.0
+233,100,Burkina Faso,India,2022,karite_nuts_sheanuts,9905.0
+233,100,Burkina Faso,India,2023,karite_nuts_sheanuts,8605.0
+81,107,Ghana,Côte d'Ivoire,1999,karite_nuts_sheanuts,9.0
+28,200,Myanmar,Singapore,2016,karite_nuts_sheanuts,1323.0
+28,200,Myanmar,Singapore,2017,karite_nuts_sheanuts,548.0
+28,200,Myanmar,Singapore,2018,karite_nuts_sheanuts,719.0
+28,200,Myanmar,Singapore,2019,karite_nuts_sheanuts,152.0
+28,200,Myanmar,Singapore,2020,karite_nuts_sheanuts,1308.4
+28,200,Myanmar,Singapore,2023,karite_nuts_sheanuts,988.0
+217,100,Togo,India,2020,karite_nuts_sheanuts,374.0
+217,100,Togo,India,2021,karite_nuts_sheanuts,368.06
+217,100,Togo,India,2022,karite_nuts_sheanuts,352.8
+217,100,Togo,India,2023,karite_nuts_sheanuts,520.0
+53,123,Benin,Liberia,2016,karite_nuts_sheanuts,0.02
+53,123,Benin,Liberia,2019,karite_nuts_sheanuts,0.13
+81,54,Ghana,Denmark,1998,karite_nuts_sheanuts,984.0
+81,54,Ghana,Denmark,1999,karite_nuts_sheanuts,3124.0
+81,54,Ghana,Denmark,2000,karite_nuts_sheanuts,10600.0
+81,54,Ghana,Denmark,2001,karite_nuts_sheanuts,1273.0
+81,54,Ghana,Denmark,2003,karite_nuts_sheanuts,19698.0
+81,54,Ghana,Denmark,2008,karite_nuts_sheanuts,21442.0
+81,54,Ghana,Denmark,2009,karite_nuts_sheanuts,20564.0
+81,54,Ghana,Denmark,2010,karite_nuts_sheanuts,11732.0
+53,131,Benin,Malaysia,2008,karite_nuts_sheanuts,1021.0
+53,131,Benin,Malaysia,2013,karite_nuts_sheanuts,456.0
+53,131,Benin,Malaysia,2014,karite_nuts_sheanuts,163.99
+28,203,Myanmar,Spain,2017,karite_nuts_sheanuts,19.0
+28,203,Myanmar,Spain,2018,karite_nuts_sheanuts,57.0
+28,203,Myanmar,Spain,2019,karite_nuts_sheanuts,114.0
+28,203,Myanmar,Spain,2020,karite_nuts_sheanuts,285.0
+28,203,Myanmar,Spain,2021,karite_nuts_sheanuts,76.0
+28,203,Myanmar,Spain,2022,karite_nuts_sheanuts,38.0
+28,203,Myanmar,Spain,2023,karite_nuts_sheanuts,114.0
+233,131,Burkina Faso,Malaysia,2010,karite_nuts_sheanuts,18.0
+233,131,Burkina Faso,Malaysia,2011,karite_nuts_sheanuts,1449.0
+217,106,Togo,Italy,1998,karite_nuts_sheanuts,1.0
+28,210,Myanmar,Sweden,2016,karite_nuts_sheanuts,190.0
+233,133,Burkina Faso,Mali,2002,karite_nuts_sheanuts,231.0
+233,133,Burkina Faso,Mali,2003,karite_nuts_sheanuts,94.0
+233,133,Burkina Faso,Mali,2004,karite_nuts_sheanuts,9891.0
+53,150,Benin,Netherlands (Kingdom of the),1992,karite_nuts_sheanuts,777.0
+53,150,Benin,Netherlands (Kingdom of the),1993,karite_nuts_sheanuts,970.0
+53,150,Benin,Netherlands (Kingdom of the),1994,karite_nuts_sheanuts,2184.0
+53,150,Benin,Netherlands (Kingdom of the),1997,karite_nuts_sheanuts,2900.0
+53,150,Benin,Netherlands (Kingdom of the),1998,karite_nuts_sheanuts,129.0
+53,150,Benin,Netherlands (Kingdom of the),1999,karite_nuts_sheanuts,3000.0
+53,150,Benin,Netherlands (Kingdom of the),2013,karite_nuts_sheanuts,50.0
+53,150,Benin,Netherlands (Kingdom of the),2014,karite_nuts_sheanuts,67.59
+53,150,Benin,Netherlands (Kingdom of the),2018,karite_nuts_sheanuts,213.85
+53,150,Benin,Netherlands (Kingdom of the),2019,karite_nuts_sheanuts,31.69
+28,216,Myanmar,Thailand,2016,karite_nuts_sheanuts,10.0
+28,216,Myanmar,Thailand,2021,karite_nuts_sheanuts,17.0
+28,216,Myanmar,Thailand,2022,karite_nuts_sheanuts,63.06
+28,216,Myanmar,Thailand,2023,karite_nuts_sheanuts,135.5
+107,54,Côte d'Ivoire,Denmark,1997,karite_nuts_sheanuts,1126.0
+107,54,Côte d'Ivoire,Denmark,1998,karite_nuts_sheanuts,802.0
+233,137,Burkina Faso,Mauritius,2001,karite_nuts_sheanuts,3060.0
+233,137,Burkina Faso,Mauritius,2002,karite_nuts_sheanuts,920.0
+53,158,Benin,Niger,2016,karite_nuts_sheanuts,379.6
+233,143,Burkina Faso,Morocco,1999,karite_nuts_sheanuts,37.0
+233,143,Burkina Faso,Morocco,2019,karite_nuts_sheanuts,25.72
+233,143,Burkina Faso,Morocco,2020,karite_nuts_sheanuts,100.0
+233,150,Burkina Faso,Netherlands (Kingdom of the),1994,karite_nuts_sheanuts,228.0
+233,150,Burkina Faso,Netherlands (Kingdom of the),2001,karite_nuts_sheanuts,340.0
+233,150,Burkina Faso,Netherlands (Kingdom of the),2018,karite_nuts_sheanuts,36.0
+28,223,Myanmar,Türkiye,2019,karite_nuts_sheanuts,19.0
+53,159,Benin,Nigeria,2001,karite_nuts_sheanuts,210.0
+53,159,Benin,Nigeria,2002,karite_nuts_sheanuts,143.0
+53,159,Benin,Nigeria,2016,karite_nuts_sheanuts,6.15
+53,159,Benin,Nigeria,2018,karite_nuts_sheanuts,4.84
+53,159,Benin,Nigeria,2019,karite_nuts_sheanuts,0.15
+53,159,Benin,Nigeria,2023,karite_nuts_sheanuts,72.4
+217,150,Togo,Netherlands (Kingdom of the),1998,karite_nuts_sheanuts,900.0
+217,150,Togo,Netherlands (Kingdom of the),2004,karite_nuts_sheanuts,2900.0
+217,150,Togo,Netherlands (Kingdom of the),2017,karite_nuts_sheanuts,868.15
+81,68,Ghana,France,2010,karite_nuts_sheanuts,42.0
+157,60,Nicaragua,El Salvador,1998,karite_nuts_sheanuts,47.0
+28,225,Myanmar,United Arab Emirates,2016,karite_nuts_sheanuts,95.0
+233,158,Burkina Faso,Niger,1995,karite_nuts_sheanuts,30.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2016,karite_nuts_sheanuts,152.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2017,karite_nuts_sheanuts,114.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2019,karite_nuts_sheanuts,247.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2020,karite_nuts_sheanuts,1045.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2022,karite_nuts_sheanuts,38.0
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2023,karite_nuts_sheanuts,304.0
+53,165,Benin,Pakistan,2014,karite_nuts_sheanuts,80.69
+28,231,Myanmar,United States of America,2017,karite_nuts_sheanuts,38.96
+28,231,Myanmar,United States of America,2020,karite_nuts_sheanuts,57.0
+233,159,Burkina Faso,Nigeria,1999,karite_nuts_sheanuts,40.0
+53,185,Benin,Russian Federation,2021,karite_nuts_sheanuts,646.45
+53,185,Benin,Russian Federation,2022,karite_nuts_sheanuts,3541.35
+53,185,Benin,Russian Federation,2023,karite_nuts_sheanuts,485.39
+28,236,Myanmar,Venezuela (Bolivarian Republic of),2019,karite_nuts_sheanuts,19.0
+233,179,Burkina Faso,Qatar,2020,karite_nuts_sheanuts,200.0
+28,237,Myanmar,Viet Nam,2017,karite_nuts_sheanuts,160.0
+53,197,Benin,Sierra Leone,2016,karite_nuts_sheanuts,1.37
+53,200,Benin,Singapore,2002,karite_nuts_sheanuts,518.0
+53,200,Benin,Singapore,2014,karite_nuts_sheanuts,287.15
+53,200,Benin,Singapore,2015,karite_nuts_sheanuts,544.01
+233,200,Burkina Faso,Singapore,1996,karite_nuts_sheanuts,561.0
+233,200,Burkina Faso,Singapore,1997,karite_nuts_sheanuts,2698.0
+233,200,Burkina Faso,Singapore,1999,karite_nuts_sheanuts,756.0
+233,200,Burkina Faso,Singapore,2001,karite_nuts_sheanuts,1106.0
+233,200,Burkina Faso,Singapore,2002,karite_nuts_sheanuts,6612.0
+233,200,Burkina Faso,Singapore,2010,karite_nuts_sheanuts,7578.0
+233,200,Burkina Faso,Singapore,2011,karite_nuts_sheanuts,13130.0
+233,200,Burkina Faso,Singapore,2021,karite_nuts_sheanuts,1000.0
+101,26,Indonesia,Brunei Darussalam,2002,karite_nuts_sheanuts,91.0
+217,200,Togo,Singapore,2008,karite_nuts_sheanuts,12.0
+109,159,Jamaica,Nigeria,2017,karite_nuts_sheanuts,0.44
+53,203,Benin,Spain,2014,karite_nuts_sheanuts,646.0
+53,203,Benin,Spain,2016,karite_nuts_sheanuts,1877.04
+53,203,Benin,Spain,2018,karite_nuts_sheanuts,257.76
+53,203,Benin,Spain,2019,karite_nuts_sheanuts,722.0
+81,79,Ghana,Germany,2003,karite_nuts_sheanuts,133.0
+81,79,Ghana,Germany,2010,karite_nuts_sheanuts,21.0
+217,203,Togo,Spain,2004,karite_nuts_sheanuts,18.0
+53,38,Benin,Sri Lanka,2018,karite_nuts_sheanuts,18.0
+233,211,Burkina Faso,Switzerland,1994,karite_nuts_sheanuts,1653.0
+233,211,Burkina Faso,Switzerland,1996,karite_nuts_sheanuts,1700.0
+233,211,Burkina Faso,Switzerland,1997,karite_nuts_sheanuts,1980.0
+233,211,Burkina Faso,Switzerland,1999,karite_nuts_sheanuts,324.0
+53,210,Benin,Sweden,1993,karite_nuts_sheanuts,3100.0
+53,210,Benin,Sweden,1996,karite_nuts_sheanuts,1600.0
+53,210,Benin,Sweden,1998,karite_nuts_sheanuts,5200.0
+53,210,Benin,Sweden,2001,karite_nuts_sheanuts,5250.0
+53,210,Benin,Sweden,2002,karite_nuts_sheanuts,245.0
+53,210,Benin,Sweden,2004,karite_nuts_sheanuts,9625.0
+53,210,Benin,Sweden,2019,karite_nuts_sheanuts,2385.13
+53,211,Benin,Switzerland,1994,karite_nuts_sheanuts,706.0
+53,211,Benin,Switzerland,1995,karite_nuts_sheanuts,250.0
+53,211,Benin,Switzerland,1996,karite_nuts_sheanuts,400.0
+217,210,Togo,Sweden,1994,karite_nuts_sheanuts,1575.0
+217,210,Togo,Sweden,1996,karite_nuts_sheanuts,1200.0
+217,210,Togo,Sweden,2002,karite_nuts_sheanuts,916.0
+217,211,Togo,Switzerland,1994,karite_nuts_sheanuts,1298.0
+217,211,Togo,Switzerland,1995,karite_nuts_sheanuts,4366.0
+217,211,Togo,Switzerland,1996,karite_nuts_sheanuts,850.0
+217,211,Togo,Switzerland,1997,karite_nuts_sheanuts,2000.0
+217,211,Togo,Switzerland,1998,karite_nuts_sheanuts,1000.0
+217,211,Togo,Switzerland,2000,karite_nuts_sheanuts,1250.0
+53,216,Benin,Thailand,2014,karite_nuts_sheanuts,129.91
+53,216,Benin,Thailand,2016,karite_nuts_sheanuts,3.08
+53,216,Benin,Thailand,2018,karite_nuts_sheanuts,0.11
+3,154,Albania,North Macedonia,1996,karite_nuts_sheanuts,8.0
+233,217,Burkina Faso,Togo,1994,karite_nuts_sheanuts,5775.0
+233,217,Burkina Faso,Togo,1995,karite_nuts_sheanuts,2605.0
+233,217,Burkina Faso,Togo,1996,karite_nuts_sheanuts,2716.0
+233,217,Burkina Faso,Togo,1997,karite_nuts_sheanuts,1461.0
+233,217,Burkina Faso,Togo,1999,karite_nuts_sheanuts,348.0
+233,217,Burkina Faso,Togo,2001,karite_nuts_sheanuts,1154.0
+233,217,Burkina Faso,Togo,2002,karite_nuts_sheanuts,3739.0
+233,217,Burkina Faso,Togo,2003,karite_nuts_sheanuts,2611.0
+233,217,Burkina Faso,Togo,2009,karite_nuts_sheanuts,908.0
+233,217,Burkina Faso,Togo,2010,karite_nuts_sheanuts,9180.0
+233,217,Burkina Faso,Togo,2011,karite_nuts_sheanuts,12889.0
+233,217,Burkina Faso,Togo,2017,karite_nuts_sheanuts,9310.0
+233,217,Burkina Faso,Togo,2018,karite_nuts_sheanuts,15540.0
+233,217,Burkina Faso,Togo,2019,karite_nuts_sheanuts,23029.0
+233,217,Burkina Faso,Togo,2020,karite_nuts_sheanuts,5200.0
+233,217,Burkina Faso,Togo,2021,karite_nuts_sheanuts,7500.0
+233,217,Burkina Faso,Togo,2022,karite_nuts_sheanuts,9270.0
+233,217,Burkina Faso,Togo,2023,karite_nuts_sheanuts,14511.18
+217,223,Togo,Türkiye,1998,karite_nuts_sheanuts,100.0
+53,217,Benin,Togo,1995,karite_nuts_sheanuts,550.0
+53,217,Benin,Togo,2001,karite_nuts_sheanuts,1059.0
+53,217,Benin,Togo,2002,karite_nuts_sheanuts,67.0
+53,217,Benin,Togo,2007,karite_nuts_sheanuts,270.0
+53,217,Benin,Togo,2008,karite_nuts_sheanuts,55.0
+53,217,Benin,Togo,2015,karite_nuts_sheanuts,3.0
+53,217,Benin,Togo,2016,karite_nuts_sheanuts,120.0
+53,217,Benin,Togo,2017,karite_nuts_sheanuts,1279.71
+53,217,Benin,Togo,2018,karite_nuts_sheanuts,256.78
+53,217,Benin,Togo,2019,karite_nuts_sheanuts,2.12
+53,217,Benin,Togo,2022,karite_nuts_sheanuts,93.11
+53,217,Benin,Togo,2023,karite_nuts_sheanuts,644.97
+233,223,Burkina Faso,Türkiye,2021,karite_nuts_sheanuts,16.8
+217,229,Togo,United Kingdom of Great Britain and Northern Ireland,1994,karite_nuts_sheanuts,573.0
+217,229,Togo,United Kingdom of Great Britain and Northern Ireland,1997,karite_nuts_sheanuts,2.0
+81,100,Ghana,India,2003,karite_nuts_sheanuts,32385.0
+81,100,Ghana,India,2008,karite_nuts_sheanuts,14854.0
+81,100,Ghana,India,2009,karite_nuts_sheanuts,15437.0
+81,100,Ghana,India,2010,karite_nuts_sheanuts,8400.0
+217,231,Togo,United States of America,2004,karite_nuts_sheanuts,23.0
+217,231,Togo,United States of America,2005,karite_nuts_sheanuts,2.0
+233,229,Burkina Faso,United Kingdom of Great Britain and Northern Ireland,1994,karite_nuts_sheanuts,1542.0
+233,229,Burkina Faso,United Kingdom of Great Britain and Northern Ireland,1995,karite_nuts_sheanuts,911.0
+233,229,Burkina Faso,United Kingdom of Great Britain and Northern Ireland,1996,karite_nuts_sheanuts,414.0
+233,229,Burkina Faso,United Kingdom of Great Britain and Northern Ireland,1997,karite_nuts_sheanuts,70.0
+233,229,Burkina Faso,United Kingdom of Great Britain and Northern Ireland,2002,karite_nuts_sheanuts,257.0
+53,223,Benin,Türkiye,2014,karite_nuts_sheanuts,10.0
+53,223,Benin,Türkiye,2015,karite_nuts_sheanuts,10.0
+53,226,Benin,Uganda,2019,karite_nuts_sheanuts,0.47
+53,230,Benin,Ukraine,1994,karite_nuts_sheanuts,700.0
+53,230,Benin,Ukraine,2000,karite_nuts_sheanuts,3400.0
+81,101,Ghana,Indonesia,2003,karite_nuts_sheanuts,938.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1992,karite_nuts_sheanuts,2571.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1994,karite_nuts_sheanuts,2343.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1995,karite_nuts_sheanuts,900.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1996,karite_nuts_sheanuts,1500.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1997,karite_nuts_sheanuts,3315.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,1999,karite_nuts_sheanuts,3133.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,2000,karite_nuts_sheanuts,50.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,2001,karite_nuts_sheanuts,2500.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,2002,karite_nuts_sheanuts,3000.0
+53,229,Benin,United Kingdom of Great Britain and Northern Ireland,2008,karite_nuts_sheanuts,210.0
+53,231,Benin,United States of America,2016,karite_nuts_sheanuts,2.4
+53,231,Benin,United States of America,2019,karite_nuts_sheanuts,17000.0
+53,251,Benin,Zambia,2016,karite_nuts_sheanuts,0.08
+215,114,United Republic of Tanzania,Kenya,2000,karite_nuts_sheanuts,57.0
+81,110,Ghana,Japan,1998,karite_nuts_sheanuts,109.0
+81,110,Ghana,Japan,2000,karite_nuts_sheanuts,120.0
+81,110,Ghana,Japan,2003,karite_nuts_sheanuts,1.0
+101,96,Indonesia,"China, Hong Kong SAR",1989,karite_nuts_sheanuts,2.0
+101,96,Indonesia,"China, Hong Kong SAR",1990,karite_nuts_sheanuts,4.0
+101,96,Indonesia,"China, Hong Kong SAR",1991,karite_nuts_sheanuts,7.0
+101,96,Indonesia,"China, Hong Kong SAR",1992,karite_nuts_sheanuts,3.0
+81,123,Ghana,Liberia,1999,karite_nuts_sheanuts,272.0
+81,123,Ghana,Liberia,2003,karite_nuts_sheanuts,21.0
+81,131,Ghana,Malaysia,2008,karite_nuts_sheanuts,830.0
+81,131,Ghana,Malaysia,2009,karite_nuts_sheanuts,1510.0
+81,131,Ghana,Malaysia,2010,karite_nuts_sheanuts,797.0
+81,134,Ghana,Malta,2000,karite_nuts_sheanuts,320.0
+81,134,Ghana,Malta,2003,karite_nuts_sheanuts,480.0
+15,68,Belgium-Luxembourg,France,1986,karite_nuts_sheanuts,5.0
+15,68,Belgium-Luxembourg,France,1987,karite_nuts_sheanuts,2.0
+15,68,Belgium-Luxembourg,France,1988,karite_nuts_sheanuts,1.0
+15,68,Belgium-Luxembourg,France,1989,karite_nuts_sheanuts,3.0
+81,150,Ghana,Netherlands (Kingdom of the),1998,karite_nuts_sheanuts,8002.0
+81,150,Ghana,Netherlands (Kingdom of the),1999,karite_nuts_sheanuts,1500.0
+81,150,Ghana,Netherlands (Kingdom of the),2000,karite_nuts_sheanuts,7286.0
+81,150,Ghana,Netherlands (Kingdom of the),2003,karite_nuts_sheanuts,1320.0
+81,150,Ghana,Netherlands (Kingdom of the),2008,karite_nuts_sheanuts,2611.0
+81,150,Ghana,Netherlands (Kingdom of the),2009,karite_nuts_sheanuts,6387.0
+81,150,Ghana,Netherlands (Kingdom of the),2010,karite_nuts_sheanuts,2368.0
+81,159,Ghana,Nigeria,2009,karite_nuts_sheanuts,45.0
+215,165,United Republic of Tanzania,Pakistan,2000,karite_nuts_sheanuts,32.0
+81,166,Ghana,Panama,1999,karite_nuts_sheanuts,85.0
+81,173,Ghana,Poland,2003,karite_nuts_sheanuts,3100.0
+81,200,Ghana,Singapore,1999,karite_nuts_sheanuts,250.0
+81,200,Ghana,Singapore,2009,karite_nuts_sheanuts,340.0
+81,202,Ghana,South Africa,2003,karite_nuts_sheanuts,1.0
+215,202,United Republic of Tanzania,South Africa,2000,karite_nuts_sheanuts,476.0
+215,202,United Republic of Tanzania,South Africa,2001,karite_nuts_sheanuts,510.0
+81,203,Ghana,Spain,2003,karite_nuts_sheanuts,3.0
+81,211,Ghana,Switzerland,2008,karite_nuts_sheanuts,102.0
+107,150,Côte d'Ivoire,Netherlands (Kingdom of the),1998,karite_nuts_sheanuts,634.0
+81,216,Ghana,Thailand,2008,karite_nuts_sheanuts,595.0
+81,217,Ghana,Togo,1999,karite_nuts_sheanuts,10.0
+81,217,Ghana,Togo,2000,karite_nuts_sheanuts,181.0
+81,217,Ghana,Togo,2003,karite_nuts_sheanuts,2037.0
+81,230,Ghana,Ukraine,2003,karite_nuts_sheanuts,60.0
+81,225,Ghana,United Arab Emirates,2009,karite_nuts_sheanuts,1833.0
+81,225,Ghana,United Arab Emirates,2010,karite_nuts_sheanuts,310.0
+15,105,Belgium-Luxembourg,Israel,1989,karite_nuts_sheanuts,1.0
+118,179,Kuwait,Qatar,2019,karite_nuts_sheanuts,0.29
+118,179,Kuwait,Qatar,2020,karite_nuts_sheanuts,0.21
+81,229,Ghana,United Kingdom of Great Britain and Northern Ireland,1998,karite_nuts_sheanuts,41.0
+81,229,Ghana,United Kingdom of Great Britain and Northern Ireland,1999,karite_nuts_sheanuts,57.0
+81,229,Ghana,United Kingdom of Great Britain and Northern Ireland,2000,karite_nuts_sheanuts,37349.0
+81,229,Ghana,United Kingdom of Great Britain and Northern Ireland,2001,karite_nuts_sheanuts,1771.0
+81,229,Ghana,United Kingdom of Great Britain and Northern Ireland,2010,karite_nuts_sheanuts,33.0
+15,106,Belgium-Luxembourg,Italy,1987,karite_nuts_sheanuts,2.0
+15,106,Belgium-Luxembourg,Italy,1988,karite_nuts_sheanuts,2.0
+15,106,Belgium-Luxembourg,Italy,1989,karite_nuts_sheanuts,1.0
+68,15,France,Belgium-Luxembourg,1991,karite_nuts_sheanuts,4.0
+81,231,Ghana,United States of America,1998,karite_nuts_sheanuts,1.0
+81,231,Ghana,United States of America,1999,karite_nuts_sheanuts,115.0
+81,231,Ghana,United States of America,2000,karite_nuts_sheanuts,2.0
+81,231,Ghana,United States of America,2001,karite_nuts_sheanuts,2013.0
+81,231,Ghana,United States of America,2003,karite_nuts_sheanuts,33.0
+81,231,Ghana,United States of America,2008,karite_nuts_sheanuts,47.0
+81,231,Ghana,United States of America,2009,karite_nuts_sheanuts,55.0
+81,231,Ghana,United States of America,2010,karite_nuts_sheanuts,79.0
+171,110,Philippines,Japan,2022,karite_nuts_sheanuts,0.29
+81,181,Ghana,Zimbabwe,1999,karite_nuts_sheanuts,1.0
+215,231,United Republic of Tanzania,United States of America,2001,karite_nuts_sheanuts,510.0
+101,100,Indonesia,India,1998,karite_nuts_sheanuts,603.0
+41,214,"China, mainland","China, Taiwan Province of",1998,karite_nuts_sheanuts,11.0
+41,214,"China, mainland","China, Taiwan Province of",1999,karite_nuts_sheanuts,23.0
+48,177,Costa Rica,Puerto Rico,1997,karite_nuts_sheanuts,51.0
+48,177,Costa Rica,Puerto Rico,1998,karite_nuts_sheanuts,25.0
+171,131,Philippines,Malaysia,2021,karite_nuts_sheanuts,20.16
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1987,karite_nuts_sheanuts,8.0
+171,156,Philippines,New Zealand,2021,karite_nuts_sheanuts,0.06
+15,156,Belgium-Luxembourg,New Zealand,1988,karite_nuts_sheanuts,2.0
+15,156,Belgium-Luxembourg,New Zealand,1989,karite_nuts_sheanuts,5.0
+15,156,Belgium-Luxembourg,New Zealand,1990,karite_nuts_sheanuts,1.0
+231,33,United States of America,Canada,1998,karite_nuts_sheanuts,8.0
+231,33,United States of America,Canada,1999,karite_nuts_sheanuts,36.0
+231,33,United States of America,Canada,2000,karite_nuts_sheanuts,15.0
+231,33,United States of America,Canada,2001,karite_nuts_sheanuts,6.0
+101,131,Indonesia,Malaysia,2001,karite_nuts_sheanuts,6.0
+183,106,Romania,Italy,1996,karite_nuts_sheanuts,2.0
+131,101,Malaysia,Indonesia,1991,karite_nuts_sheanuts,3.0
+15,202,Belgium-Luxembourg,South Africa,1988,karite_nuts_sheanuts,2.0
+15,202,Belgium-Luxembourg,South Africa,1989,karite_nuts_sheanuts,8.0
+150,33,Netherlands (Kingdom of the),Canada,1989,karite_nuts_sheanuts,5.0
+231,40,United States of America,Chile,2000,karite_nuts_sheanuts,22.0
+15,211,Belgium-Luxembourg,Switzerland,1987,karite_nuts_sheanuts,1.0
+101,150,Indonesia,Netherlands (Kingdom of the),2002,karite_nuts_sheanuts,3.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1988,karite_nuts_sheanuts,5.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1989,karite_nuts_sheanuts,4.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1990,karite_nuts_sheanuts,1.0
+15,231,Belgium-Luxembourg,United States of America,1989,karite_nuts_sheanuts,2.0
+54,99,Denmark,Iceland,1989,karite_nuts_sheanuts,1.0
+100,121,India,Lebanon,2001,karite_nuts_sheanuts,10.0
+101,200,Indonesia,Singapore,1999,karite_nuts_sheanuts,8.0
+101,200,Indonesia,Singapore,2004,karite_nuts_sheanuts,4.0
+167,173,Czechia,Poland,2000,karite_nuts_sheanuts,48.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1994,karite_nuts_sheanuts,215.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1995,karite_nuts_sheanuts,182.0
+167,185,Czechia,Russian Federation,1996,karite_nuts_sheanuts,11.0
+223,150,Türkiye,Netherlands (Kingdom of the),1995,karite_nuts_sheanuts,18.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2000,karite_nuts_sheanuts,64.0
+54,162,Denmark,Norway,1994,karite_nuts_sheanuts,10.0
+223,177,Türkiye,Puerto Rico,1989,karite_nuts_sheanuts,14.0
+223,177,Türkiye,Puerto Rico,1991,karite_nuts_sheanuts,32.0
+223,183,Türkiye,Romania,2000,karite_nuts_sheanuts,3.0
+41,117,"China, mainland",Republic of Korea,1997,karite_nuts_sheanuts,13.0
+223,198,Türkiye,Slovenia,1997,karite_nuts_sheanuts,3.0
+106,105,Italy,Israel,1989,karite_nuts_sheanuts,36.0
+200,225,Singapore,United Arab Emirates,1995,karite_nuts_sheanuts,16.0
+223,230,Türkiye,Ukraine,1997,karite_nuts_sheanuts,2.0
+229,114,United Kingdom of Great Britain and Northern Ireland,Kenya,1998,karite_nuts_sheanuts,6.0
+79,106,Germany,Italy,1998,karite_nuts_sheanuts,1.0
+79,106,Germany,Italy,1999,karite_nuts_sheanuts,1.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1998,karite_nuts_sheanuts,17.0
+54,231,Denmark,United States of America,1998,karite_nuts_sheanuts,6.0
+106,143,Italy,Morocco,1991,karite_nuts_sheanuts,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1989,karite_nuts_sheanuts,841.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1996,karite_nuts_sheanuts,28.0
+106,174,Italy,Portugal,1990,karite_nuts_sheanuts,5.0
+68,117,France,Republic of Korea,2001,karite_nuts_sheanuts,1.0
+68,182,France,Réunion,1989,karite_nuts_sheanuts,34.0
+68,211,France,Switzerland,1988,karite_nuts_sheanuts,1.0
+68,211,France,Switzerland,1990,karite_nuts_sheanuts,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1991,karite_nuts_sheanuts,22.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,karite_nuts_sheanuts,950.0

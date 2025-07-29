@@ -1,0 +1,1299 @@
+o_code,d_code,o_name,d_name,year,item,weight
+231,2,United States of America,Afghanistan,1992,cake_of_maize,18.0
+106,3,Italy,Albania,2004,cake_of_maize,51.0
+21,7,Brazil,Angola,2000,cake_of_maize,2.0
+33,8,Canada,Antigua and Barbuda,2005,cake_of_maize,5.0
+231,8,United States of America,Antigua and Barbuda,1988,cake_of_maize,278.0
+231,8,United States of America,Antigua and Barbuda,1989,cake_of_maize,150.0
+231,8,United States of America,Antigua and Barbuda,1990,cake_of_maize,640.0
+231,8,United States of America,Antigua and Barbuda,1991,cake_of_maize,353.0
+231,8,United States of America,Antigua and Barbuda,1992,cake_of_maize,23.0
+231,8,United States of America,Antigua and Barbuda,1993,cake_of_maize,20.0
+102,52,Iran (Islamic Republic of),Azerbaijan,2002,cake_of_maize,239.0
+229,9,United Kingdom of Great Britain and Northern Ireland,Argentina,2011,cake_of_maize,3.0
+9,255,Argentina,Belgium,2000,cake_of_maize,13908.0
+9,255,Argentina,Belgium,2001,cake_of_maize,2300.0
+9,255,Argentina,Belgium,2002,cake_of_maize,19400.0
+9,255,Argentina,Belgium,2003,cake_of_maize,5124.0
+21,9,Brazil,Argentina,2019,cake_of_maize,0.02
+209,202,Eswatini,South Africa,2001,cake_of_maize,5.0
+231,9,United States of America,Argentina,1988,cake_of_maize,160.0
+231,9,United States of America,Argentina,1989,cake_of_maize,223.0
+231,9,United States of America,Argentina,1990,cake_of_maize,186.0
+231,9,United States of America,Argentina,1991,cake_of_maize,528.0
+231,9,United States of America,Argentina,1992,cake_of_maize,885.0
+231,9,United States of America,Argentina,1993,cake_of_maize,245.0
+231,9,United States of America,Argentina,2000,cake_of_maize,181.0
+231,9,United States of America,Argentina,2006,cake_of_maize,153.0
+9,19,Argentina,Bolivia (Plurinational State of),2011,cake_of_maize,112.0
+133,195,Mali,Senegal,2005,cake_of_maize,115.0
+255,11,Belgium,Austria,2011,cake_of_maize,26.0
+212,223,Syrian Arab Republic,Türkiye,2004,cake_of_maize,3551.0
+212,223,Syrian Arab Republic,Türkiye,2006,cake_of_maize,670.0
+230,57,Ukraine,Belarus,2008,cake_of_maize,2614.0
+230,57,Ukraine,Belarus,2009,cake_of_maize,2321.0
+230,57,Ukraine,Belarus,2010,cake_of_maize,3329.0
+230,57,Ukraine,Belarus,2011,cake_of_maize,426.0
+236,44,Venezuela (Bolivarian Republic of),Colombia,1997,cake_of_maize,120.0
+20,202,Botswana,South Africa,2007,cake_of_maize,23.0
+114,59,Kenya,Egypt,1993,cake_of_maize,500.0
+157,60,Nicaragua,El Salvador,2002,cake_of_maize,23.0
+231,10,United States of America,Australia,1987,cake_of_maize,9.0
+231,10,United States of America,Australia,1988,cake_of_maize,102.0
+231,10,United States of America,Australia,1989,cake_of_maize,221.0
+231,10,United States of America,Australia,1990,cake_of_maize,315.0
+231,10,United States of America,Australia,1991,cake_of_maize,534.0
+231,10,United States of America,Australia,1992,cake_of_maize,114.0
+231,10,United States of America,Australia,1993,cake_of_maize,118.0
+231,10,United States of America,Australia,1996,cake_of_maize,327.0
+231,10,United States of America,Australia,1997,cake_of_maize,331.0
+231,10,United States of America,Australia,1998,cake_of_maize,35.0
+231,10,United States of America,Australia,1999,cake_of_maize,252.0
+231,10,United States of America,Australia,2001,cake_of_maize,81.0
+231,10,United States of America,Australia,2006,cake_of_maize,256.0
+14,86,Barbados,Grenada,2007,cake_of_maize,250.0
+14,86,Barbados,Grenada,2014,cake_of_maize,39.0
+14,86,Barbados,Grenada,2015,cake_of_maize,20.0
+226,114,Uganda,Kenya,2005,cake_of_maize,65.0
+226,114,Uganda,Kenya,2006,cake_of_maize,30.0
+226,114,Uganda,Kenya,2007,cake_of_maize,24.0
+14,91,Barbados,Guyana,2001,cake_of_maize,223.0
+100,16,India,Bangladesh,1996,cake_of_maize,70.0
+100,16,India,Bangladesh,2003,cake_of_maize,288.0
+100,16,India,Bangladesh,2006,cake_of_maize,3999.0
+157,89,Nicaragua,Guatemala,2005,cake_of_maize,42.0
+157,89,Nicaragua,Guatemala,2006,cake_of_maize,14.0
+15,54,Belgium-Luxembourg,Denmark,1993,cake_of_maize,4.0
+48,60,Costa Rica,El Salvador,2003,cake_of_maize,120.0
+130,251,Malawi,Zambia,2010,cake_of_maize,8.0
+9,40,Argentina,Chile,1995,cake_of_maize,17.0
+9,40,Argentina,Chile,2003,cake_of_maize,500.0
+9,40,Argentina,Chile,2004,cake_of_maize,401.0
+9,40,Argentina,Chile,2011,cake_of_maize,1284.0
+9,40,Argentina,Chile,2022,cake_of_maize,7847.44
+9,40,Argentina,Chile,2023,cake_of_maize,7711.81
+106,11,Italy,Austria,2007,cake_of_maize,200.0
+231,11,United States of America,Austria,1989,cake_of_maize,52.0
+231,11,United States of America,Austria,1990,cake_of_maize,388.0
+231,11,United States of America,Austria,1991,cake_of_maize,77.0
+231,11,United States of America,Austria,1993,cake_of_maize,83.0
+21,15,Brazil,Belgium-Luxembourg,1990,cake_of_maize,2500.0
+21,15,Brazil,Belgium-Luxembourg,1993,cake_of_maize,6000.0
+21,15,Brazil,Belgium-Luxembourg,1994,cake_of_maize,6350.0
+21,15,Brazil,Belgium-Luxembourg,1995,cake_of_maize,7602.0
+21,15,Brazil,Belgium-Luxembourg,1996,cake_of_maize,4621.0
+215,114,United Republic of Tanzania,Kenya,2001,cake_of_maize,3.0
+215,114,United Republic of Tanzania,Kenya,2002,cake_of_maize,23.0
+147,202,Namibia,South Africa,1997,cake_of_maize,38.0
+147,202,Namibia,South Africa,1998,cake_of_maize,38.0
+101,96,Indonesia,"China, Hong Kong SAR",1999,cake_of_maize,136.0
+101,96,Indonesia,"China, Hong Kong SAR",2000,cake_of_maize,68.0
+33,23,Canada,Belize,2006,cake_of_maize,5.0
+231,12,United States of America,Bahamas,1986,cake_of_maize,62.0
+231,12,United States of America,Bahamas,1987,cake_of_maize,18.0
+231,12,United States of America,Bahamas,1989,cake_of_maize,1857.0
+231,12,United States of America,Bahamas,1990,cake_of_maize,558.0
+231,12,United States of America,Bahamas,1991,cake_of_maize,110.0
+231,12,United States of America,Bahamas,1992,cake_of_maize,33.0
+231,12,United States of America,Bahamas,1993,cake_of_maize,278.0
+231,12,United States of America,Bahamas,2001,cake_of_maize,6.0
+231,12,United States of America,Bahamas,2003,cake_of_maize,56.0
+231,12,United States of America,Bahamas,2004,cake_of_maize,238.0
+231,12,United States of America,Bahamas,2005,cake_of_maize,404.0
+15,68,Belgium-Luxembourg,France,1986,cake_of_maize,5690.0
+15,68,Belgium-Luxembourg,France,1987,cake_of_maize,7922.0
+15,68,Belgium-Luxembourg,France,1988,cake_of_maize,9413.0
+15,68,Belgium-Luxembourg,France,1989,cake_of_maize,8051.0
+15,68,Belgium-Luxembourg,France,1990,cake_of_maize,3873.0
+15,68,Belgium-Luxembourg,France,1991,cake_of_maize,6681.0
+15,68,Belgium-Luxembourg,France,1992,cake_of_maize,17479.0
+15,68,Belgium-Luxembourg,France,1993,cake_of_maize,17098.0
+15,68,Belgium-Luxembourg,France,1994,cake_of_maize,34480.0
+15,68,Belgium-Luxembourg,France,1995,cake_of_maize,45134.0
+15,68,Belgium-Luxembourg,France,1996,cake_of_maize,12932.0
+15,68,Belgium-Luxembourg,France,1997,cake_of_maize,38023.0
+15,68,Belgium-Luxembourg,France,1998,cake_of_maize,28116.0
+15,68,Belgium-Luxembourg,France,1999,cake_of_maize,25309.0
+21,27,Brazil,Bulgaria,1987,cake_of_maize,36300.0
+21,27,Brazil,Bulgaria,1988,cake_of_maize,2500.0
+157,138,Nicaragua,Mexico,2002,cake_of_maize,5.0
+58,170,Ecuador,Peru,2016,cake_of_maize,2.38
+58,170,Ecuador,Peru,2017,cake_of_maize,12.74
+58,170,Ecuador,Peru,2018,cake_of_maize,0.48
+58,170,Ecuador,Peru,2021,cake_of_maize,12.43
+231,13,United States of America,Bahrain,1993,cake_of_maize,14.0
+9,48,Argentina,Costa Rica,2011,cake_of_maize,40.0
+230,63,Ukraine,Estonia,2004,cake_of_maize,121.0
+230,63,Ukraine,Estonia,2008,cake_of_maize,879.0
+100,33,India,Canada,2000,cake_of_maize,6.0
+100,33,India,Canada,2005,cake_of_maize,10.0
+15,79,Belgium-Luxembourg,Germany,1992,cake_of_maize,130.0
+15,79,Belgium-Luxembourg,Germany,1994,cake_of_maize,500.0
+15,79,Belgium-Luxembourg,Germany,1995,cake_of_maize,500.0
+15,79,Belgium-Luxembourg,Germany,1996,cake_of_maize,340.0
+15,79,Belgium-Luxembourg,Germany,1999,cake_of_maize,83.0
+101,214,Indonesia,"China, Taiwan Province of",1996,cake_of_maize,140.0
+9,54,Argentina,Denmark,1995,cake_of_maize,860.0
+231,14,United States of America,Barbados,1986,cake_of_maize,100.0
+231,14,United States of America,Barbados,1987,cake_of_maize,9.0
+231,14,United States of America,Barbados,1988,cake_of_maize,162.0
+231,14,United States of America,Barbados,1989,cake_of_maize,2584.0
+231,14,United States of America,Barbados,1990,cake_of_maize,166.0
+231,14,United States of America,Barbados,1991,cake_of_maize,164.0
+231,14,United States of America,Barbados,1992,cake_of_maize,126.0
+231,14,United States of America,Barbados,1993,cake_of_maize,54.0
+231,14,United States of America,Barbados,1997,cake_of_maize,279.0
+231,14,United States of America,Barbados,2001,cake_of_maize,35.0
+231,14,United States of America,Barbados,2004,cake_of_maize,169.0
+9,56,Argentina,Dominican Republic,2011,cake_of_maize,24.0
+68,255,France,Belgium,2000,cake_of_maize,1198.0
+68,255,France,Belgium,2001,cake_of_maize,1196.0
+68,255,France,Belgium,2002,cake_of_maize,1293.0
+68,255,France,Belgium,2003,cake_of_maize,1858.0
+68,255,France,Belgium,2004,cake_of_maize,2788.0
+68,255,France,Belgium,2005,cake_of_maize,1851.0
+68,255,France,Belgium,2006,cake_of_maize,5584.0
+68,255,France,Belgium,2007,cake_of_maize,9110.0
+68,255,France,Belgium,2008,cake_of_maize,5713.0
+68,255,France,Belgium,2009,cake_of_maize,5642.0
+68,255,France,Belgium,2010,cake_of_maize,5216.0
+68,255,France,Belgium,2011,cake_of_maize,6167.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1991,cake_of_maize,24.0
+110,214,Japan,"China, Taiwan Province of",2001,cake_of_maize,40.0
+106,255,Italy,Belgium,2000,cake_of_maize,81.0
+238,249,Ethiopia,Yemen,2002,cake_of_maize,10.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,cake_of_maize,10.0
+137,196,Mauritius,Seychelles,2001,cake_of_maize,1.0
+137,196,Mauritius,Seychelles,2003,cake_of_maize,2.0
+137,196,Mauritius,Seychelles,2004,cake_of_maize,2.0
+150,255,Netherlands (Kingdom of the),Belgium,2001,cake_of_maize,33272.0
+150,255,Netherlands (Kingdom of the),Belgium,2002,cake_of_maize,6250.0
+150,255,Netherlands (Kingdom of the),Belgium,2003,cake_of_maize,2989.0
+27,84,Bulgaria,Greece,2005,cake_of_maize,97.0
+27,84,Bulgaria,Greece,2007,cake_of_maize,110.0
+27,84,Bulgaria,Greece,2008,cake_of_maize,618.0
+27,84,Bulgaria,Greece,2009,cake_of_maize,122.0
+84,50,Greece,Cyprus,1987,cake_of_maize,40.0
+231,15,United States of America,Belgium-Luxembourg,1987,cake_of_maize,9824.0
+231,15,United States of America,Belgium-Luxembourg,1988,cake_of_maize,192.0
+231,15,United States of America,Belgium-Luxembourg,1989,cake_of_maize,368.0
+231,15,United States of America,Belgium-Luxembourg,1990,cake_of_maize,674.0
+231,15,United States of America,Belgium-Luxembourg,1991,cake_of_maize,759.0
+231,15,United States of America,Belgium-Luxembourg,1992,cake_of_maize,879.0
+231,15,United States of America,Belgium-Luxembourg,1993,cake_of_maize,201.0
+203,27,Spain,Bulgaria,2016,cake_of_maize,0.01
+173,167,Poland,Czechia,2022,cake_of_maize,0.01
+173,167,Poland,Czechia,2023,cake_of_maize,0.02
+100,214,India,"China, Taiwan Province of",2004,cake_of_maize,129.0
+100,214,India,"China, Taiwan Province of",2007,cake_of_maize,596.0
+183,79,Romania,Germany,2010,cake_of_maize,818.0
+231,23,United States of America,Belize,1987,cake_of_maize,29.0
+231,23,United States of America,Belize,1988,cake_of_maize,20.0
+231,23,United States of America,Belize,1989,cake_of_maize,147.0
+231,23,United States of America,Belize,1990,cake_of_maize,126.0
+231,23,United States of America,Belize,1991,cake_of_maize,1075.0
+231,23,United States of America,Belize,1992,cake_of_maize,132.0
+231,23,United States of America,Belize,1993,cake_of_maize,97.0
+68,15,France,Belgium-Luxembourg,1986,cake_of_maize,5617.0
+68,15,France,Belgium-Luxembourg,1987,cake_of_maize,8978.0
+68,15,France,Belgium-Luxembourg,1988,cake_of_maize,6550.0
+68,15,France,Belgium-Luxembourg,1989,cake_of_maize,7689.0
+68,15,France,Belgium-Luxembourg,1990,cake_of_maize,6638.0
+68,15,France,Belgium-Luxembourg,1991,cake_of_maize,3800.0
+68,15,France,Belgium-Luxembourg,1992,cake_of_maize,2445.0
+68,15,France,Belgium-Luxembourg,1993,cake_of_maize,1307.0
+68,15,France,Belgium-Luxembourg,1994,cake_of_maize,1935.0
+68,15,France,Belgium-Luxembourg,1995,cake_of_maize,1943.0
+68,15,France,Belgium-Luxembourg,1996,cake_of_maize,1931.0
+68,15,France,Belgium-Luxembourg,1997,cake_of_maize,2729.0
+68,15,France,Belgium-Luxembourg,1998,cake_of_maize,352.0
+68,15,France,Belgium-Luxembourg,1999,cake_of_maize,404.0
+106,15,Italy,Belgium-Luxembourg,1995,cake_of_maize,24.0
+106,15,Italy,Belgium-Luxembourg,1996,cake_of_maize,26.0
+106,15,Italy,Belgium-Luxembourg,1997,cake_of_maize,42.0
+106,15,Italy,Belgium-Luxembourg,1998,cake_of_maize,50.0
+229,27,United Kingdom of Great Britain and Northern Ireland,Bulgaria,2017,cake_of_maize,0.01
+229,27,United Kingdom of Great Britain and Northern Ireland,Bulgaria,2018,cake_of_maize,0.78
+229,27,United Kingdom of Great Britain and Northern Ireland,Bulgaria,2019,cake_of_maize,1.36
+231,19,United States of America,Bolivia (Plurinational State of),1989,cake_of_maize,5.0
+231,19,United States of America,Bolivia (Plurinational State of),1990,cake_of_maize,10.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,cake_of_maize,35479.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,cake_of_maize,48222.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,cake_of_maize,38859.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,cake_of_maize,114411.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,cake_of_maize,47426.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,cake_of_maize,9558.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,cake_of_maize,7442.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1993,cake_of_maize,34027.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1994,cake_of_maize,13497.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,cake_of_maize,5498.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,cake_of_maize,18460.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1997,cake_of_maize,7860.0
+9,105,Argentina,Israel,2011,cake_of_maize,54.0
+21,54,Brazil,Denmark,1994,cake_of_maize,27595.0
+21,54,Brazil,Denmark,1996,cake_of_maize,1075.0
+21,54,Brazil,Denmark,1997,cake_of_maize,4300.0
+21,54,Brazil,Denmark,2000,cake_of_maize,215.0
+9,106,Argentina,Italy,1986,cake_of_maize,2020.0
+9,106,Argentina,Italy,2001,cake_of_maize,10250.0
+9,106,Argentina,Italy,2002,cake_of_maize,8210.0
+231,21,United States of America,Brazil,1990,cake_of_maize,12.0
+231,21,United States of America,Brazil,1991,cake_of_maize,522.0
+231,21,United States of America,Brazil,1992,cake_of_maize,913.0
+231,21,United States of America,Brazil,1993,cake_of_maize,359.0
+231,21,United States of America,Brazil,2000,cake_of_maize,258.0
+231,21,United States of America,Brazil,2006,cake_of_maize,5.0
+223,50,Türkiye,Cyprus,2005,cake_of_maize,50.0
+223,50,Türkiye,Cyprus,2006,cake_of_maize,10.0
+255,167,Belgium,Czechia,2010,cake_of_maize,374.0
+255,167,Belgium,Czechia,2011,cake_of_maize,429.0
+101,100,Indonesia,India,1996,cake_of_maize,18.0
+106,21,Italy,Brazil,2002,cake_of_maize,70.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,cake_of_maize,2021.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,cake_of_maize,123.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,cake_of_maize,3761.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,cake_of_maize,7985.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,cake_of_maize,191.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1993,cake_of_maize,40.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1995,cake_of_maize,1378.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1996,cake_of_maize,5909.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,cake_of_maize,6141.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1998,cake_of_maize,28.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1999,cake_of_maize,12.0
+183,97,Romania,Hungary,2007,cake_of_maize,23.0
+183,97,Romania,Hungary,2008,cake_of_maize,143.0
+183,97,Romania,Hungary,2010,cake_of_maize,69.0
+183,97,Romania,Hungary,2011,cake_of_maize,4092.0
+21,68,Brazil,France,1988,cake_of_maize,3250.0
+21,68,Brazil,France,1989,cake_of_maize,4400.0
+21,68,Brazil,France,1992,cake_of_maize,2000.0
+21,68,Brazil,France,1994,cake_of_maize,10950.0
+21,68,Brazil,France,1995,cake_of_maize,4277.0
+21,68,Brazil,France,1996,cake_of_maize,4065.0
+21,68,Brazil,France,1997,cake_of_maize,8972.0
+121,118,Lebanon,Kuwait,2003,cake_of_maize,122.0
+150,21,Netherlands (Kingdom of the),Brazil,1996,cake_of_maize,6.0
+126,119,Lithuania,Latvia,2004,cake_of_maize,838.0
+126,119,Lithuania,Latvia,2005,cake_of_maize,1033.0
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",2013,cake_of_maize,1.0
+101,110,Indonesia,Japan,1996,cake_of_maize,458.0
+101,110,Indonesia,Japan,1997,cake_of_maize,17.0
+101,110,Indonesia,Japan,2007,cake_of_maize,750.0
+101,110,Indonesia,Japan,2008,cake_of_maize,664.0
+101,110,Indonesia,Japan,2009,cake_of_maize,160.0
+101,110,Indonesia,Japan,2011,cake_of_maize,25.0
+101,110,Indonesia,Japan,2012,cake_of_maize,98.0
+214,110,"China, Taiwan Province of",Japan,2003,cake_of_maize,10.0
+214,110,"China, Taiwan Province of",Japan,2004,cake_of_maize,1.0
+100,68,India,France,2001,cake_of_maize,2.0
+230,126,Ukraine,Lithuania,2008,cake_of_maize,706.0
+230,126,Ukraine,Lithuania,2009,cake_of_maize,1462.0
+230,126,Ukraine,Lithuania,2010,cake_of_maize,1896.0
+230,126,Ukraine,Lithuania,2011,cake_of_maize,59.0
+21,69,Brazil,French Guiana,1998,cake_of_maize,17.0
+9,150,Argentina,Netherlands (Kingdom of the),1986,cake_of_maize,19758.0
+9,150,Argentina,Netherlands (Kingdom of the),1987,cake_of_maize,35498.0
+9,150,Argentina,Netherlands (Kingdom of the),1988,cake_of_maize,39635.0
+9,150,Argentina,Netherlands (Kingdom of the),1989,cake_of_maize,32721.0
+9,150,Argentina,Netherlands (Kingdom of the),1990,cake_of_maize,33006.0
+9,150,Argentina,Netherlands (Kingdom of the),1991,cake_of_maize,36272.0
+9,150,Argentina,Netherlands (Kingdom of the),1994,cake_of_maize,46163.0
+9,150,Argentina,Netherlands (Kingdom of the),1995,cake_of_maize,48000.0
+9,150,Argentina,Netherlands (Kingdom of the),1996,cake_of_maize,29222.0
+9,150,Argentina,Netherlands (Kingdom of the),1997,cake_of_maize,49207.0
+9,150,Argentina,Netherlands (Kingdom of the),1998,cake_of_maize,47514.0
+9,150,Argentina,Netherlands (Kingdom of the),2000,cake_of_maize,23211.0
+9,150,Argentina,Netherlands (Kingdom of the),2001,cake_of_maize,26276.0
+9,150,Argentina,Netherlands (Kingdom of the),2002,cake_of_maize,6141.0
+9,150,Argentina,Netherlands (Kingdom of the),2003,cake_of_maize,3050.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1997,cake_of_maize,55.0
+231,33,United States of America,Canada,1986,cake_of_maize,6739.0
+231,33,United States of America,Canada,1987,cake_of_maize,4593.0
+231,33,United States of America,Canada,1988,cake_of_maize,9596.0
+231,33,United States of America,Canada,1989,cake_of_maize,67963.0
+231,33,United States of America,Canada,1990,cake_of_maize,93903.0
+231,33,United States of America,Canada,1991,cake_of_maize,115707.0
+231,33,United States of America,Canada,1992,cake_of_maize,120999.0
+231,33,United States of America,Canada,1993,cake_of_maize,99916.0
+231,33,United States of America,Canada,1995,cake_of_maize,52.0
+231,33,United States of America,Canada,1996,cake_of_maize,1472.0
+231,33,United States of America,Canada,1997,cake_of_maize,356.0
+231,33,United States of America,Canada,1998,cake_of_maize,5979.0
+231,33,United States of America,Canada,1999,cake_of_maize,1547.0
+231,33,United States of America,Canada,2000,cake_of_maize,203.0
+231,33,United States of America,Canada,2001,cake_of_maize,9233.0
+231,33,United States of America,Canada,2002,cake_of_maize,6512.0
+231,33,United States of America,Canada,2003,cake_of_maize,586.0
+231,33,United States of America,Canada,2004,cake_of_maize,364.0
+231,33,United States of America,Canada,2005,cake_of_maize,171.0
+231,33,United States of America,Canada,2006,cake_of_maize,1163.0
+21,79,Brazil,Germany,1993,cake_of_maize,11007.0
+21,79,Brazil,Germany,1994,cake_of_maize,11750.0
+21,79,Brazil,Germany,1995,cake_of_maize,14721.0
+21,79,Brazil,Germany,1996,cake_of_maize,17095.0
+21,79,Brazil,Germany,1997,cake_of_maize,16700.0
+9,156,Argentina,New Zealand,2011,cake_of_maize,22.0
+171,117,Philippines,Republic of Korea,2007,cake_of_maize,118.0
+21,84,Brazil,Greece,1992,cake_of_maize,20.0
+110,106,Japan,Italy,1997,cake_of_maize,1.0
+101,131,Indonesia,Malaysia,2012,cake_of_maize,20.0
+183,106,Romania,Italy,2008,cake_of_maize,802.0
+183,106,Romania,Italy,2009,cake_of_maize,455.0
+183,106,Romania,Italy,2010,cake_of_maize,327.0
+183,106,Romania,Italy,2011,cake_of_maize,350.0
+9,170,Argentina,Peru,2011,cake_of_maize,72.0
+173,79,Poland,Germany,2021,cake_of_maize,15558.64
+27,154,Bulgaria,North Macedonia,2002,cake_of_maize,24.0
+27,154,Bulgaria,North Macedonia,2006,cake_of_maize,89.0
+27,154,Bulgaria,North Macedonia,2007,cake_of_maize,269.0
+27,154,Bulgaria,North Macedonia,2009,cake_of_maize,179.0
+27,154,Bulgaria,North Macedonia,2010,cake_of_maize,343.0
+27,154,Bulgaria,North Macedonia,2011,cake_of_maize,415.0
+33,55,Canada,Dominica,2004,cake_of_maize,4.0
+255,67,Belgium,Finland,2007,cake_of_maize,1155.0
+15,203,Belgium-Luxembourg,Spain,1992,cake_of_maize,22.0
+230,173,Ukraine,Poland,2010,cake_of_maize,19.0
+255,68,Belgium,France,2000,cake_of_maize,28845.0
+255,68,Belgium,France,2001,cake_of_maize,28139.0
+255,68,Belgium,France,2002,cake_of_maize,29934.0
+255,68,Belgium,France,2003,cake_of_maize,27161.0
+255,68,Belgium,France,2004,cake_of_maize,22211.0
+255,68,Belgium,France,2005,cake_of_maize,21575.0
+255,68,Belgium,France,2006,cake_of_maize,14615.0
+255,68,Belgium,France,2007,cake_of_maize,12813.0
+255,68,Belgium,France,2008,cake_of_maize,25393.0
+255,68,Belgium,France,2009,cake_of_maize,16080.0
+255,68,Belgium,France,2010,cake_of_maize,11330.0
+255,68,Belgium,France,2011,cake_of_maize,20080.0
+21,104,Brazil,Ireland,1994,cake_of_maize,3000.0
+21,104,Brazil,Ireland,1995,cake_of_maize,8419.0
+21,104,Brazil,Ireland,1996,cake_of_maize,4500.0
+21,104,Brazil,Ireland,1997,cake_of_maize,3260.0
+231,40,United States of America,Chile,1989,cake_of_maize,1152.0
+231,40,United States of America,Chile,1990,cake_of_maize,175.0
+231,40,United States of America,Chile,1991,cake_of_maize,281.0
+231,40,United States of America,Chile,1992,cake_of_maize,451.0
+231,40,United States of America,Chile,1993,cake_of_maize,267.0
+231,40,United States of America,Chile,1996,cake_of_maize,40.0
+231,40,United States of America,Chile,2005,cake_of_maize,255.0
+100,101,India,Indonesia,2003,cake_of_maize,98.0
+100,101,India,Indonesia,2007,cake_of_maize,274.0
+9,200,Argentina,Singapore,2005,cake_of_maize,1.0
+9,200,Argentina,Singapore,2006,cake_of_maize,1.0
+21,106,Brazil,Italy,1987,cake_of_maize,16805.0
+21,106,Brazil,Italy,1988,cake_of_maize,59027.0
+21,106,Brazil,Italy,1989,cake_of_maize,88477.0
+21,106,Brazil,Italy,1990,cake_of_maize,72253.0
+21,106,Brazil,Italy,1991,cake_of_maize,136383.0
+21,106,Brazil,Italy,1992,cake_of_maize,154566.0
+21,106,Brazil,Italy,1993,cake_of_maize,81791.0
+21,106,Brazil,Italy,1994,cake_of_maize,11630.0
+21,106,Brazil,Italy,1995,cake_of_maize,62784.0
+21,106,Brazil,Italy,1996,cake_of_maize,49494.0
+21,106,Brazil,Italy,1997,cake_of_maize,8410.0
+101,150,Indonesia,Netherlands (Kingdom of the),2005,cake_of_maize,2238.0
+100,102,India,Iran (Islamic Republic of),2007,cake_of_maize,85.0
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2017,cake_of_maize,0.02
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2018,cake_of_maize,0.04
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2019,cake_of_maize,0.03
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2020,cake_of_maize,0.12
+231,96,United States of America,"China, Hong Kong SAR",1986,cake_of_maize,142.0
+231,96,United States of America,"China, Hong Kong SAR",1988,cake_of_maize,148.0
+231,96,United States of America,"China, Hong Kong SAR",1989,cake_of_maize,2575.0
+231,96,United States of America,"China, Hong Kong SAR",1990,cake_of_maize,391.0
+231,96,United States of America,"China, Hong Kong SAR",1991,cake_of_maize,571.0
+231,96,United States of America,"China, Hong Kong SAR",1992,cake_of_maize,893.0
+231,96,United States of America,"China, Hong Kong SAR",1993,cake_of_maize,316.0
+231,96,United States of America,"China, Hong Kong SAR",1999,cake_of_maize,866.0
+173,97,Poland,Hungary,2020,cake_of_maize,25.02
+100,106,India,Italy,2003,cake_of_maize,176.0
+203,54,Spain,Denmark,2015,cake_of_maize,2.28
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2017,cake_of_maize,2.54
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2018,cake_of_maize,0.52
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2019,cake_of_maize,1.62
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2020,cake_of_maize,2.8
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1994,cake_of_maize,1279.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1995,cake_of_maize,3149.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1996,cake_of_maize,835.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1997,cake_of_maize,3694.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1998,cake_of_maize,678.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1999,cake_of_maize,3260.0
+200,101,Singapore,Indonesia,2006,cake_of_maize,989.0
+101,165,Indonesia,Pakistan,1996,cake_of_maize,37.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1995,cake_of_maize,3600.0
+100,110,India,Japan,2005,cake_of_maize,157.0
+100,110,India,Japan,2006,cake_of_maize,263.0
+100,110,India,Japan,2007,cake_of_maize,91.0
+255,79,Belgium,Germany,2000,cake_of_maize,259.0
+231,41,United States of America,"China, mainland",1989,cake_of_maize,75.0
+231,41,United States of America,"China, mainland",1990,cake_of_maize,254.0
+231,41,United States of America,"China, mainland",1991,cake_of_maize,372.0
+231,41,United States of America,"China, mainland",1992,cake_of_maize,599.0
+231,41,United States of America,"China, mainland",1993,cake_of_maize,188.0
+231,41,United States of America,"China, mainland",2002,cake_of_maize,152.0
+231,41,United States of America,"China, mainland",2004,cake_of_maize,8.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1990,cake_of_maize,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1992,cake_of_maize,10.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2017,cake_of_maize,0.64
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2018,cake_of_maize,0.82
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2019,cake_of_maize,0.76
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2020,cake_of_maize,0.03
+9,231,Argentina,United States of America,2011,cake_of_maize,1.0
+225,221,United Arab Emirates,Oman,2007,cake_of_maize,1.0
+21,131,Brazil,Malaysia,1997,cake_of_maize,5000.0
+101,117,Indonesia,Republic of Korea,2003,cake_of_maize,170.0
+101,117,Indonesia,Republic of Korea,2004,cake_of_maize,261.0
+9,234,Argentina,Uruguay,2000,cake_of_maize,3003.0
+9,234,Argentina,Uruguay,2001,cake_of_maize,2058.0
+9,234,Argentina,Uruguay,2002,cake_of_maize,2357.0
+9,234,Argentina,Uruguay,2003,cake_of_maize,15344.0
+9,234,Argentina,Uruguay,2004,cake_of_maize,26916.0
+9,234,Argentina,Uruguay,2005,cake_of_maize,31948.0
+9,234,Argentina,Uruguay,2006,cake_of_maize,34163.0
+9,234,Argentina,Uruguay,2018,cake_of_maize,20956.0
+171,237,Philippines,Viet Nam,2010,cake_of_maize,63.0
+21,137,Brazil,Mauritius,1990,cake_of_maize,4000.0
+100,118,India,Kuwait,2005,cake_of_maize,10.0
+216,110,Thailand,Japan,2001,cake_of_maize,35.0
+216,110,Thailand,Japan,2002,cake_of_maize,1203.0
+216,110,Thailand,Japan,2003,cake_of_maize,160.0
+216,110,Thailand,Japan,2006,cake_of_maize,4025.0
+231,214,United States of America,"China, Taiwan Province of",1987,cake_of_maize,45.0
+231,214,United States of America,"China, Taiwan Province of",1988,cake_of_maize,1415.0
+231,214,United States of America,"China, Taiwan Province of",1989,cake_of_maize,4509.0
+231,214,United States of America,"China, Taiwan Province of",1990,cake_of_maize,2578.0
+231,214,United States of America,"China, Taiwan Province of",1991,cake_of_maize,4479.0
+231,214,United States of America,"China, Taiwan Province of",1992,cake_of_maize,4051.0
+231,214,United States of America,"China, Taiwan Province of",1993,cake_of_maize,6816.0
+231,214,United States of America,"China, Taiwan Province of",1996,cake_of_maize,66.0
+231,214,United States of America,"China, Taiwan Province of",1998,cake_of_maize,489.0
+231,214,United States of America,"China, Taiwan Province of",1999,cake_of_maize,429.0
+231,214,United States of America,"China, Taiwan Province of",2005,cake_of_maize,620.0
+231,214,United States of America,"China, Taiwan Province of",2006,cake_of_maize,1195.0
+84,124,Greece,Libya,1986,cake_of_maize,2144.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),2011,cake_of_maize,240.0
+33,86,Canada,Grenada,2004,cake_of_maize,21.0
+27,223,Bulgaria,Türkiye,2002,cake_of_maize,2677.0
+27,223,Bulgaria,Türkiye,2003,cake_of_maize,4490.0
+27,223,Bulgaria,Türkiye,2004,cake_of_maize,7929.0
+27,223,Bulgaria,Türkiye,2005,cake_of_maize,8161.0
+27,223,Bulgaria,Türkiye,2006,cake_of_maize,13868.0
+27,223,Bulgaria,Türkiye,2007,cake_of_maize,3392.0
+27,223,Bulgaria,Türkiye,2008,cake_of_maize,1286.0
+27,223,Bulgaria,Türkiye,2009,cake_of_maize,948.0
+21,150,Brazil,Netherlands (Kingdom of the),1987,cake_of_maize,207215.0
+21,150,Brazil,Netherlands (Kingdom of the),1988,cake_of_maize,290344.0
+21,150,Brazil,Netherlands (Kingdom of the),1989,cake_of_maize,295323.0
+21,150,Brazil,Netherlands (Kingdom of the),1990,cake_of_maize,235760.0
+21,150,Brazil,Netherlands (Kingdom of the),1991,cake_of_maize,152339.0
+21,150,Brazil,Netherlands (Kingdom of the),1992,cake_of_maize,174920.0
+21,150,Brazil,Netherlands (Kingdom of the),1993,cake_of_maize,183382.0
+21,150,Brazil,Netherlands (Kingdom of the),1994,cake_of_maize,246318.0
+21,150,Brazil,Netherlands (Kingdom of the),1995,cake_of_maize,202345.0
+21,150,Brazil,Netherlands (Kingdom of the),1996,cake_of_maize,220265.0
+21,150,Brazil,Netherlands (Kingdom of the),1997,cake_of_maize,81323.0
+21,150,Brazil,Netherlands (Kingdom of the),1998,cake_of_maize,2308.0
+21,150,Brazil,Netherlands (Kingdom of the),2001,cake_of_maize,14029.0
+104,211,Ireland,Switzerland,2002,cake_of_maize,19.0
+41,106,"China, mainland",Italy,2000,cake_of_maize,10471.0
+100,131,India,Malaysia,2004,cake_of_maize,4413.0
+100,131,India,Malaysia,2006,cake_of_maize,4124.0
+100,131,India,Malaysia,2007,cake_of_maize,1860.0
+231,44,United States of America,Colombia,1989,cake_of_maize,84.0
+231,44,United States of America,Colombia,1990,cake_of_maize,142.0
+231,44,United States of America,Colombia,1991,cake_of_maize,315.0
+231,44,United States of America,Colombia,1992,cake_of_maize,598.0
+231,44,United States of America,Colombia,1993,cake_of_maize,696.0
+231,44,United States of America,Colombia,2002,cake_of_maize,8.0
+231,44,United States of America,Colombia,2003,cake_of_maize,115.0
+231,44,United States of America,Colombia,2004,cake_of_maize,41.0
+231,44,United States of America,Colombia,2005,cake_of_maize,12.0
+41,110,"China, mainland",Japan,2002,cake_of_maize,330.0
+41,110,"China, mainland",Japan,2003,cake_of_maize,180.0
+202,130,South Africa,Malawi,2002,cake_of_maize,140.0
+203,68,Spain,France,1986,cake_of_maize,4538.0
+203,68,Spain,France,1987,cake_of_maize,2471.0
+203,68,Spain,France,1988,cake_of_maize,2683.0
+203,68,Spain,France,1989,cake_of_maize,3365.0
+203,68,Spain,France,1990,cake_of_maize,2687.0
+203,68,Spain,France,1991,cake_of_maize,4478.0
+203,68,Spain,France,1992,cake_of_maize,3518.0
+203,68,Spain,France,1993,cake_of_maize,4162.0
+203,68,Spain,France,1994,cake_of_maize,4276.0
+203,68,Spain,France,1995,cake_of_maize,4232.0
+203,68,Spain,France,1996,cake_of_maize,3079.0
+203,68,Spain,France,1997,cake_of_maize,3331.0
+203,68,Spain,France,1998,cake_of_maize,3309.0
+203,68,Spain,France,1999,cake_of_maize,3597.0
+203,68,Spain,France,2000,cake_of_maize,6030.0
+203,68,Spain,France,2001,cake_of_maize,2666.0
+203,68,Spain,France,2002,cake_of_maize,4049.0
+203,68,Spain,France,2003,cake_of_maize,1954.0
+203,68,Spain,France,2004,cake_of_maize,1848.0
+203,68,Spain,France,2005,cake_of_maize,1324.0
+203,68,Spain,France,2006,cake_of_maize,2193.0
+203,68,Spain,France,2007,cake_of_maize,1682.0
+203,68,Spain,France,2008,cake_of_maize,1001.0
+203,68,Spain,France,2009,cake_of_maize,761.0
+203,68,Spain,France,2010,cake_of_maize,1174.0
+203,68,Spain,France,2011,cake_of_maize,1077.0
+203,68,Spain,France,2012,cake_of_maize,1387.0
+203,68,Spain,France,2013,cake_of_maize,1226.0
+203,68,Spain,France,2014,cake_of_maize,1108.6
+203,68,Spain,France,2015,cake_of_maize,1308.0
+203,68,Spain,France,2016,cake_of_maize,1859.92
+203,68,Spain,France,2017,cake_of_maize,1103.5
+203,68,Spain,France,2018,cake_of_maize,936.89
+203,68,Spain,France,2019,cake_of_maize,706.58
+203,68,Spain,France,2021,cake_of_maize,178.15
+203,68,Spain,France,2022,cake_of_maize,581.46
+203,68,Spain,France,2023,cake_of_maize,390.82
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1986,cake_of_maize,24.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1987,cake_of_maize,687.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1988,cake_of_maize,1024.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1989,cake_of_maize,1493.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1990,cake_of_maize,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,cake_of_maize,21.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1994,cake_of_maize,250.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1996,cake_of_maize,23.0
+200,131,Singapore,Malaysia,1998,cake_of_maize,16.0
+200,131,Singapore,Malaysia,1999,cake_of_maize,25.0
+200,131,Singapore,Malaysia,2000,cake_of_maize,40.0
+200,131,Singapore,Malaysia,2001,cake_of_maize,10.0
+200,131,Singapore,Malaysia,2002,cake_of_maize,292.0
+200,131,Singapore,Malaysia,2003,cake_of_maize,435.0
+200,131,Singapore,Malaysia,2004,cake_of_maize,118.0
+200,131,Singapore,Malaysia,2005,cake_of_maize,313.0
+200,131,Singapore,Malaysia,2006,cake_of_maize,166.0
+231,48,United States of America,Costa Rica,1987,cake_of_maize,251.0
+231,48,United States of America,Costa Rica,1988,cake_of_maize,249.0
+231,48,United States of America,Costa Rica,1989,cake_of_maize,113.0
+231,48,United States of America,Costa Rica,1990,cake_of_maize,424.0
+231,48,United States of America,Costa Rica,1991,cake_of_maize,486.0
+231,48,United States of America,Costa Rica,1992,cake_of_maize,388.0
+231,48,United States of America,Costa Rica,1993,cake_of_maize,439.0
+231,48,United States of America,Costa Rica,1995,cake_of_maize,39.0
+231,48,United States of America,Costa Rica,1996,cake_of_maize,173.0
+231,48,United States of America,Costa Rica,1999,cake_of_maize,215.0
+231,48,United States of America,Costa Rica,2002,cake_of_maize,194.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2017,cake_of_maize,0.03
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2018,cake_of_maize,0.04
+79,54,Germany,Denmark,1991,cake_of_maize,449.0
+79,54,Germany,Denmark,1992,cake_of_maize,24.0
+79,54,Germany,Denmark,1994,cake_of_maize,600.0
+79,54,Germany,Denmark,1998,cake_of_maize,356.0
+183,223,Romania,Türkiye,2011,cake_of_maize,7376.0
+100,149,India,Nepal,2004,cake_of_maize,5.0
+21,174,Brazil,Portugal,1989,cake_of_maize,5794.0
+21,174,Brazil,Portugal,1993,cake_of_maize,11000.0
+21,174,Brazil,Portugal,1994,cake_of_maize,20808.0
+21,174,Brazil,Portugal,1995,cake_of_maize,11075.0
+21,174,Brazil,Portugal,1996,cake_of_maize,15000.0
+21,174,Brazil,Portugal,1997,cake_of_maize,10047.0
+101,176,Indonesia,Timor-Leste,2011,cake_of_maize,1.0
+100,150,India,Netherlands (Kingdom of the),2005,cake_of_maize,40.0
+100,150,India,Netherlands (Kingdom of the),2007,cake_of_maize,372.0
+231,250,United States of America,Democratic Republic of the Congo,1989,cake_of_maize,248.0
+231,250,United States of America,Democratic Republic of the Congo,1991,cake_of_maize,17.0
+255,106,Belgium,Italy,2009,cake_of_maize,104.0
+255,106,Belgium,Italy,2010,cake_of_maize,24.0
+255,106,Belgium,Italy,2011,cake_of_maize,1993.0
+131,200,Malaysia,Singapore,1999,cake_of_maize,19.0
+231,54,United States of America,Denmark,1986,cake_of_maize,15.0
+231,54,United States of America,Denmark,1987,cake_of_maize,35.0
+231,54,United States of America,Denmark,1989,cake_of_maize,18.0
+231,54,United States of America,Denmark,1990,cake_of_maize,4.0
+231,54,United States of America,Denmark,1991,cake_of_maize,1104.0
+231,54,United States of America,Denmark,1992,cake_of_maize,12.0
+231,54,United States of America,Denmark,1993,cake_of_maize,29.0
+100,156,India,New Zealand,2006,cake_of_maize,1098.0
+150,54,Netherlands (Kingdom of the),Denmark,1989,cake_of_maize,10750.0
+150,54,Netherlands (Kingdom of the),Denmark,1990,cake_of_maize,5627.0
+150,54,Netherlands (Kingdom of the),Denmark,1992,cake_of_maize,52.0
+150,54,Netherlands (Kingdom of the),Denmark,1994,cake_of_maize,2105.0
+231,55,United States of America,Dominica,1988,cake_of_maize,146.0
+231,55,United States of America,Dominica,1989,cake_of_maize,126.0
+231,55,United States of America,Dominica,1990,cake_of_maize,84.0
+231,55,United States of America,Dominica,1991,cake_of_maize,23.0
+231,55,United States of America,Dominica,1992,cake_of_maize,96.0
+231,55,United States of America,Dominica,1993,cake_of_maize,9.0
+225,213,United Arab Emirates,Turkmenistan,2002,cake_of_maize,52.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2017,cake_of_maize,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2018,cake_of_maize,0.61
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2019,cake_of_maize,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2020,cake_of_maize,0.33
+106,68,Italy,France,1989,cake_of_maize,28.0
+106,68,Italy,France,2001,cake_of_maize,77.0
+106,68,Italy,France,2006,cake_of_maize,335.0
+231,56,United States of America,Dominican Republic,1987,cake_of_maize,180.0
+231,56,United States of America,Dominican Republic,1988,cake_of_maize,1098.0
+231,56,United States of America,Dominican Republic,1989,cake_of_maize,1276.0
+231,56,United States of America,Dominican Republic,1990,cake_of_maize,134.0
+231,56,United States of America,Dominican Republic,1991,cake_of_maize,622.0
+231,56,United States of America,Dominican Republic,1992,cake_of_maize,2746.0
+231,56,United States of America,Dominican Republic,1993,cake_of_maize,1617.0
+231,56,United States of America,Dominican Republic,2000,cake_of_maize,129.0
+231,56,United States of America,Dominican Republic,2001,cake_of_maize,33.0
+33,110,Canada,Japan,2002,cake_of_maize,73.0
+54,150,Denmark,Netherlands (Kingdom of the),1990,cake_of_maize,1.0
+21,203,Brazil,Spain,1986,cake_of_maize,3936.0
+21,203,Brazil,Spain,1987,cake_of_maize,12500.0
+21,203,Brazil,Spain,1988,cake_of_maize,2100.0
+21,203,Brazil,Spain,1989,cake_of_maize,6280.0
+21,203,Brazil,Spain,1990,cake_of_maize,13774.0
+21,203,Brazil,Spain,1991,cake_of_maize,29295.0
+21,203,Brazil,Spain,1992,cake_of_maize,42201.0
+21,203,Brazil,Spain,1993,cake_of_maize,95659.0
+21,203,Brazil,Spain,1994,cake_of_maize,55190.0
+21,203,Brazil,Spain,1995,cake_of_maize,43079.0
+21,203,Brazil,Spain,1996,cake_of_maize,15528.0
+21,203,Brazil,Spain,1997,cake_of_maize,76453.0
+21,203,Brazil,Spain,1998,cake_of_maize,55056.0
+21,203,Brazil,Spain,1999,cake_of_maize,46388.0
+21,203,Brazil,Spain,2001,cake_of_maize,8529.0
+100,221,India,Oman,2006,cake_of_maize,2465.0
+210,162,Sweden,Norway,1996,cake_of_maize,7.0
+231,58,United States of America,Ecuador,1987,cake_of_maize,22.0
+231,58,United States of America,Ecuador,1988,cake_of_maize,73.0
+231,58,United States of America,Ecuador,1989,cake_of_maize,436.0
+231,58,United States of America,Ecuador,1990,cake_of_maize,368.0
+231,58,United States of America,Ecuador,1991,cake_of_maize,1374.0
+231,58,United States of America,Ecuador,1992,cake_of_maize,503.0
+231,58,United States of America,Ecuador,1993,cake_of_maize,644.0
+231,58,United States of America,Ecuador,1999,cake_of_maize,268.0
+231,58,United States of America,Ecuador,2000,cake_of_maize,20.0
+150,58,Netherlands (Kingdom of the),Ecuador,1988,cake_of_maize,30.0
+231,59,United States of America,Egypt,1989,cake_of_maize,368.0
+131,216,Malaysia,Thailand,2006,cake_of_maize,190.0
+131,216,Malaysia,Thailand,2007,cake_of_maize,119.0
+231,60,United States of America,El Salvador,1987,cake_of_maize,364.0
+231,60,United States of America,El Salvador,1989,cake_of_maize,6.0
+231,60,United States of America,El Salvador,1990,cake_of_maize,1.0
+231,60,United States of America,El Salvador,1991,cake_of_maize,61.0
+231,60,United States of America,El Salvador,1992,cake_of_maize,64.0
+231,60,United States of America,El Salvador,1993,cake_of_maize,56.0
+231,60,United States of America,El Salvador,2003,cake_of_maize,37.0
+231,60,United States of America,El Salvador,2005,cake_of_maize,3.0
+203,93,Spain,Haiti,2005,cake_of_maize,1.0
+255,256,Belgium,Luxembourg,2001,cake_of_maize,1.0
+255,256,Belgium,Luxembourg,2002,cake_of_maize,2.0
+255,256,Belgium,Luxembourg,2007,cake_of_maize,232.0
+255,256,Belgium,Luxembourg,2008,cake_of_maize,473.0
+255,256,Belgium,Luxembourg,2009,cake_of_maize,332.0
+255,256,Belgium,Luxembourg,2010,cake_of_maize,480.0
+255,256,Belgium,Luxembourg,2011,cake_of_maize,376.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1999,cake_of_maize,4000.0
+231,66,United States of America,Fiji,1989,cake_of_maize,18.0
+21,231,Brazil,United States of America,1993,cake_of_maize,3000.0
+21,231,Brazil,United States of America,1994,cake_of_maize,3000.0
+21,231,Brazil,United States of America,1995,cake_of_maize,12095.0
+21,231,Brazil,United States of America,1996,cake_of_maize,5978.0
+231,67,United States of America,Finland,1989,cake_of_maize,38.0
+231,67,United States of America,Finland,1990,cake_of_maize,40.0
+231,67,United States of America,Finland,1991,cake_of_maize,11.0
+231,67,United States of America,Finland,1992,cake_of_maize,18.0
+231,67,United States of America,Finland,1993,cake_of_maize,137.0
+231,68,United States of America,France,1987,cake_of_maize,5257.0
+231,68,United States of America,France,1988,cake_of_maize,41245.0
+231,68,United States of America,France,1989,cake_of_maize,79580.0
+231,68,United States of America,France,1990,cake_of_maize,40318.0
+231,68,United States of America,France,1991,cake_of_maize,116058.0
+231,68,United States of America,France,1992,cake_of_maize,75986.0
+231,68,United States of America,France,1993,cake_of_maize,102645.0
+231,68,United States of America,France,1994,cake_of_maize,30527.0
+231,68,United States of America,France,1995,cake_of_maize,32077.0
+231,68,United States of America,France,1996,cake_of_maize,25637.0
+231,68,United States of America,France,1997,cake_of_maize,60190.0
+231,68,United States of America,France,1998,cake_of_maize,3301.0
+231,68,United States of America,France,2001,cake_of_maize,662.0
+231,68,United States of America,France,2002,cake_of_maize,341.0
+231,68,United States of America,France,2006,cake_of_maize,486.0
+173,199,Poland,Slovakia,2021,cake_of_maize,0.01
+100,196,India,Seychelles,2007,cake_of_maize,325.0
+41,171,"China, mainland",Philippines,2005,cake_of_maize,28.0
+21,234,Brazil,Uruguay,2006,cake_of_maize,2460.0
+21,234,Brazil,Uruguay,2007,cake_of_maize,504.0
+100,200,India,Singapore,2004,cake_of_maize,2225.0
+100,200,India,Singapore,2006,cake_of_maize,257.0
+231,69,United States of America,French Guiana,1988,cake_of_maize,44.0
+203,105,Spain,Israel,2018,cake_of_maize,107.4
+203,105,Spain,Israel,2019,cake_of_maize,43.74
+231,70,United States of America,French Polynesia,1988,cake_of_maize,2212.0
+231,70,United States of America,French Polynesia,1989,cake_of_maize,1297.0
+231,70,United States of America,French Polynesia,1990,cake_of_maize,1747.0
+231,70,United States of America,French Polynesia,1991,cake_of_maize,1028.0
+231,70,United States of America,French Polynesia,1996,cake_of_maize,32.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,1986,cake_of_maize,3258.0
+41,117,"China, mainland",Republic of Korea,2000,cake_of_maize,970.0
+41,117,"China, mainland",Republic of Korea,2001,cake_of_maize,3565.0
+41,117,"China, mainland",Republic of Korea,2006,cake_of_maize,1540.0
+255,150,Belgium,Netherlands (Kingdom of the),2001,cake_of_maize,1182.0
+255,150,Belgium,Netherlands (Kingdom of the),2002,cake_of_maize,6.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,cake_of_maize,41.0
+255,150,Belgium,Netherlands (Kingdom of the),2006,cake_of_maize,47.0
+255,150,Belgium,Netherlands (Kingdom of the),2007,cake_of_maize,244.0
+255,150,Belgium,Netherlands (Kingdom of the),2008,cake_of_maize,446.0
+255,150,Belgium,Netherlands (Kingdom of the),2009,cake_of_maize,1511.0
+255,150,Belgium,Netherlands (Kingdom of the),2010,cake_of_maize,1020.0
+255,150,Belgium,Netherlands (Kingdom of the),2011,cake_of_maize,357.0
+150,68,Netherlands (Kingdom of the),France,1986,cake_of_maize,75.0
+150,68,Netherlands (Kingdom of the),France,1987,cake_of_maize,185.0
+150,68,Netherlands (Kingdom of the),France,1988,cake_of_maize,489.0
+150,68,Netherlands (Kingdom of the),France,1989,cake_of_maize,7066.0
+150,68,Netherlands (Kingdom of the),France,1990,cake_of_maize,3047.0
+150,68,Netherlands (Kingdom of the),France,1991,cake_of_maize,465.0
+150,68,Netherlands (Kingdom of the),France,1992,cake_of_maize,53.0
+203,106,Spain,Italy,2023,cake_of_maize,95.48
+68,79,France,Germany,1991,cake_of_maize,74.0
+68,79,France,Germany,1994,cake_of_maize,24.0
+68,79,France,Germany,1995,cake_of_maize,34.0
+68,79,France,Germany,1999,cake_of_maize,155.0
+68,79,France,Germany,2001,cake_of_maize,1.0
+231,79,United States of America,Germany,1992,cake_of_maize,4771.0
+231,79,United States of America,Germany,1993,cake_of_maize,3688.0
+229,102,United Kingdom of Great Britain and Northern Ireland,Iran (Islamic Republic of),1988,cake_of_maize,24.0
+100,38,India,Sri Lanka,2006,cake_of_maize,1120.0
+100,38,India,Sri Lanka,2007,cake_of_maize,12797.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1986,cake_of_maize,4.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1987,cake_of_maize,1425.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1988,cake_of_maize,2881.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1989,cake_of_maize,6250.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,cake_of_maize,188.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1991,cake_of_maize,234.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1992,cake_of_maize,113.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1994,cake_of_maize,4169.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1995,cake_of_maize,7825.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1996,cake_of_maize,2042.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1997,cake_of_maize,73.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2004,cake_of_maize,26.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2008,cake_of_maize,114.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2016,cake_of_maize,52.89
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2017,cake_of_maize,106.21
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,cake_of_maize,9.77
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2021,cake_of_maize,0.14
+106,97,Italy,Hungary,2011,cake_of_maize,34.0
+84,248,Greece,Yugoslav SFR,1986,cake_of_maize,498.0
+231,84,United States of America,Greece,1990,cake_of_maize,49.0
+231,84,United States of America,Greece,1991,cake_of_maize,73.0
+231,84,United States of America,Greece,1992,cake_of_maize,62.0
+231,84,United States of America,Greece,1993,cake_of_maize,24.0
+231,86,United States of America,Grenada,1992,cake_of_maize,19.0
+231,86,United States of America,Grenada,1993,cake_of_maize,1.0
+231,87,United States of America,Guadeloupe,1988,cake_of_maize,42.0
+231,87,United States of America,Guadeloupe,1989,cake_of_maize,27.0
+231,87,United States of America,Guadeloupe,1990,cake_of_maize,21.0
+231,87,United States of America,Guadeloupe,1991,cake_of_maize,25.0
+231,87,United States of America,Guadeloupe,1992,cake_of_maize,23.0
+231,87,United States of America,Guadeloupe,1993,cake_of_maize,48.0
+231,89,United States of America,Guatemala,1987,cake_of_maize,13.0
+231,89,United States of America,Guatemala,1988,cake_of_maize,40.0
+231,89,United States of America,Guatemala,1989,cake_of_maize,1410.0
+231,89,United States of America,Guatemala,1990,cake_of_maize,908.0
+231,89,United States of America,Guatemala,1991,cake_of_maize,2370.0
+231,89,United States of America,Guatemala,1992,cake_of_maize,3758.0
+231,89,United States of America,Guatemala,1993,cake_of_maize,2335.0
+100,216,India,Thailand,2006,cake_of_maize,1242.0
+100,216,India,Thailand,2007,cake_of_maize,1164.0
+150,79,Netherlands (Kingdom of the),Germany,1991,cake_of_maize,3388.0
+150,79,Netherlands (Kingdom of the),Germany,1992,cake_of_maize,5067.0
+150,79,Netherlands (Kingdom of the),Germany,1993,cake_of_maize,61091.0
+150,79,Netherlands (Kingdom of the),Germany,1994,cake_of_maize,56969.0
+150,79,Netherlands (Kingdom of the),Germany,1995,cake_of_maize,38772.0
+150,79,Netherlands (Kingdom of the),Germany,1996,cake_of_maize,37121.0
+150,79,Netherlands (Kingdom of the),Germany,1997,cake_of_maize,25991.0
+150,79,Netherlands (Kingdom of the),Germany,1998,cake_of_maize,3618.0
+150,79,Netherlands (Kingdom of the),Germany,2001,cake_of_maize,7212.0
+231,90,United States of America,Guinea,1987,cake_of_maize,10.0
+231,91,United States of America,Guyana,1989,cake_of_maize,2709.0
+231,91,United States of America,Guyana,1990,cake_of_maize,2064.0
+231,91,United States of America,Guyana,1991,cake_of_maize,314.0
+231,91,United States of America,Guyana,1992,cake_of_maize,1043.0
+231,91,United States of America,Guyana,1993,cake_of_maize,855.0
+231,91,United States of America,Guyana,1998,cake_of_maize,116.0
+54,210,Denmark,Sweden,2004,cake_of_maize,2462.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2017,cake_of_maize,0.01
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2018,cake_of_maize,0.03
+231,93,United States of America,Haiti,1987,cake_of_maize,37.0
+231,93,United States of America,Haiti,1988,cake_of_maize,1315.0
+231,93,United States of America,Haiti,1989,cake_of_maize,198.0
+231,93,United States of America,Haiti,1990,cake_of_maize,167.0
+231,93,United States of America,Haiti,1993,cake_of_maize,17.0
+231,93,United States of America,Haiti,1997,cake_of_maize,166.0
+100,225,India,United Arab Emirates,1998,cake_of_maize,43.0
+100,225,India,United Arab Emirates,2003,cake_of_maize,13000.0
+100,225,India,United Arab Emirates,2007,cake_of_maize,4045.0
+231,95,United States of America,Honduras,1989,cake_of_maize,307.0
+231,95,United States of America,Honduras,1990,cake_of_maize,328.0
+231,95,United States of America,Honduras,1991,cake_of_maize,1021.0
+231,95,United States of America,Honduras,1992,cake_of_maize,268.0
+231,95,United States of America,Honduras,1993,cake_of_maize,866.0
+231,95,United States of America,Honduras,1995,cake_of_maize,34.0
+231,95,United States of America,Honduras,2000,cake_of_maize,365.0
+231,95,United States of America,Honduras,2001,cake_of_maize,209.0
+231,95,United States of America,Honduras,2004,cake_of_maize,4.0
+231,95,United States of America,Honduras,2006,cake_of_maize,157.0
+33,191,Canada,Saint Vincent and the Grenadines,2004,cake_of_maize,9.0
+33,191,Canada,Saint Vincent and the Grenadines,2005,cake_of_maize,12.0
+231,97,United States of America,Hungary,2001,cake_of_maize,18.0
+231,97,United States of America,Hungary,2002,cake_of_maize,505.0
+41,216,"China, mainland",Thailand,2003,cake_of_maize,236.0
+231,99,United States of America,Iceland,1988,cake_of_maize,18.0
+231,99,United States of America,Iceland,2001,cake_of_maize,113.0
+202,251,South Africa,Zambia,2002,cake_of_maize,58.0
+231,100,United States of America,India,1990,cake_of_maize,2.0
+231,100,United States of America,India,1991,cake_of_maize,3.0
+231,100,United States of America,India,1992,cake_of_maize,84.0
+231,100,United States of America,India,1993,cake_of_maize,5.0
+100,231,India,United States of America,2001,cake_of_maize,6.0
+100,231,India,United States of America,2006,cake_of_maize,6.0
+229,112,United Kingdom of Great Britain and Northern Ireland,Jordan,1998,cake_of_maize,17.0
+229,112,United Kingdom of Great Britain and Northern Ireland,Jordan,1999,cake_of_maize,5.0
+202,181,South Africa,Zimbabwe,2002,cake_of_maize,14.0
+202,181,South Africa,Zimbabwe,2003,cake_of_maize,5.0
+231,101,United States of America,Indonesia,1989,cake_of_maize,184.0
+231,101,United States of America,Indonesia,1990,cake_of_maize,57.0
+231,101,United States of America,Indonesia,1991,cake_of_maize,288.0
+231,101,United States of America,Indonesia,1992,cake_of_maize,349.0
+231,101,United States of America,Indonesia,1993,cake_of_maize,96.0
+203,143,Spain,Morocco,2015,cake_of_maize,0.03
+203,143,Spain,Morocco,2018,cake_of_maize,164.81
+203,143,Spain,Morocco,2019,cake_of_maize,1017.73
+203,143,Spain,Morocco,2020,cake_of_maize,223.43
+203,143,Spain,Morocco,2021,cake_of_maize,185.79
+203,143,Spain,Morocco,2022,cake_of_maize,130.79
+203,143,Spain,Morocco,2023,cake_of_maize,157.4
+231,102,United States of America,Iran (Islamic Republic of),1993,cake_of_maize,60.0
+100,237,India,Viet Nam,2006,cake_of_maize,1106.0
+100,237,India,Viet Nam,2007,cake_of_maize,4463.0
+231,104,United States of America,Ireland,1986,cake_of_maize,57.0
+231,104,United States of America,Ireland,1987,cake_of_maize,35432.0
+231,104,United States of America,Ireland,1988,cake_of_maize,15866.0
+231,104,United States of America,Ireland,1989,cake_of_maize,29563.0
+231,104,United States of America,Ireland,1990,cake_of_maize,2.0
+231,104,United States of America,Ireland,1991,cake_of_maize,9922.0
+231,104,United States of America,Ireland,1992,cake_of_maize,28.0
+231,104,United States of America,Ireland,1993,cake_of_maize,15613.0
+231,104,United States of America,Ireland,1994,cake_of_maize,4370.0
+231,104,United States of America,Ireland,1995,cake_of_maize,15397.0
+231,104,United States of America,Ireland,1996,cake_of_maize,6350.0
+100,249,India,Yemen,2007,cake_of_maize,142.0
+255,199,Belgium,Slovakia,2010,cake_of_maize,1276.0
+255,199,Belgium,Slovakia,2011,cake_of_maize,1460.0
+231,105,United States of America,Israel,1988,cake_of_maize,583.0
+231,105,United States of America,Israel,1989,cake_of_maize,117.0
+231,105,United States of America,Israel,1998,cake_of_maize,2999.0
+231,105,United States of America,Israel,1999,cake_of_maize,6219.0
+231,106,United States of America,Italy,1986,cake_of_maize,1364.0
+231,106,United States of America,Italy,1987,cake_of_maize,20635.0
+231,106,United States of America,Italy,1988,cake_of_maize,21069.0
+231,106,United States of America,Italy,1989,cake_of_maize,2439.0
+231,106,United States of America,Italy,1990,cake_of_maize,27259.0
+231,106,United States of America,Italy,1991,cake_of_maize,51168.0
+231,106,United States of America,Italy,1992,cake_of_maize,16923.0
+231,106,United States of America,Italy,1993,cake_of_maize,22862.0
+231,106,United States of America,Italy,1995,cake_of_maize,14108.0
+231,106,United States of America,Italy,1997,cake_of_maize,7259.0
+231,106,United States of America,Italy,1999,cake_of_maize,4814.0
+79,110,Germany,Japan,1991,cake_of_maize,11.0
+68,106,France,Italy,1988,cake_of_maize,31.0
+68,106,France,Italy,1992,cake_of_maize,24.0
+68,106,France,Italy,1999,cake_of_maize,5.0
+231,109,United States of America,Jamaica,1987,cake_of_maize,125.0
+231,109,United States of America,Jamaica,1988,cake_of_maize,128.0
+231,109,United States of America,Jamaica,1989,cake_of_maize,424.0
+231,109,United States of America,Jamaica,1990,cake_of_maize,170.0
+231,109,United States of America,Jamaica,1991,cake_of_maize,69.0
+231,109,United States of America,Jamaica,1992,cake_of_maize,154.0
+231,109,United States of America,Jamaica,1993,cake_of_maize,550.0
+231,109,United States of America,Jamaica,1996,cake_of_maize,3.0
+231,109,United States of America,Jamaica,2000,cake_of_maize,194.0
+231,109,United States of America,Jamaica,2003,cake_of_maize,560.0
+231,109,United States of America,Jamaica,2004,cake_of_maize,69.0
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2017,cake_of_maize,0.15
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2018,cake_of_maize,0.27
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2019,cake_of_maize,0.04
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2020,cake_of_maize,0.04
+203,162,Spain,Norway,2021,cake_of_maize,19.39
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2004,cake_of_maize,51.0
+231,110,United States of America,Japan,1986,cake_of_maize,684.0
+231,110,United States of America,Japan,1987,cake_of_maize,1556.0
+231,110,United States of America,Japan,1988,cake_of_maize,15730.0
+231,110,United States of America,Japan,1989,cake_of_maize,17115.0
+231,110,United States of America,Japan,1990,cake_of_maize,4866.0
+231,110,United States of America,Japan,1991,cake_of_maize,8414.0
+231,110,United States of America,Japan,1992,cake_of_maize,10184.0
+231,110,United States of America,Japan,1993,cake_of_maize,19741.0
+231,110,United States of America,Japan,1995,cake_of_maize,18.0
+231,110,United States of America,Japan,1996,cake_of_maize,5123.0
+231,110,United States of America,Japan,1997,cake_of_maize,885.0
+231,110,United States of America,Japan,1998,cake_of_maize,511.0
+231,110,United States of America,Japan,2004,cake_of_maize,18.0
+231,110,United States of America,Japan,2006,cake_of_maize,59.0
+33,231,Canada,United States of America,2000,cake_of_maize,26.0
+33,231,Canada,United States of America,2001,cake_of_maize,9.0
+33,231,Canada,United States of America,2002,cake_of_maize,62.0
+231,112,United States of America,Jordan,1990,cake_of_maize,2931.0
+150,104,Netherlands (Kingdom of the),Ireland,1986,cake_of_maize,11553.0
+150,104,Netherlands (Kingdom of the),Ireland,1987,cake_of_maize,29157.0
+150,104,Netherlands (Kingdom of the),Ireland,1988,cake_of_maize,7510.0
+150,104,Netherlands (Kingdom of the),Ireland,1989,cake_of_maize,17758.0
+150,104,Netherlands (Kingdom of the),Ireland,1990,cake_of_maize,5177.0
+150,104,Netherlands (Kingdom of the),Ireland,1991,cake_of_maize,750.0
+150,104,Netherlands (Kingdom of the),Ireland,1995,cake_of_maize,1984.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1990,cake_of_maize,3.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1995,cake_of_maize,97.0
+231,108,United States of America,Kazakhstan,1993,cake_of_maize,33.0
+231,114,United States of America,Kenya,2003,cake_of_maize,121.0
+231,121,United States of America,Lebanon,1989,cake_of_maize,4.0
+231,121,United States of America,Lebanon,1991,cake_of_maize,8.0
+231,121,United States of America,Lebanon,1992,cake_of_maize,37.0
+231,121,United States of America,Lebanon,1993,cake_of_maize,6.0
+231,121,United States of America,Lebanon,2002,cake_of_maize,177.0
+203,174,Spain,Portugal,2006,cake_of_maize,44.0
+203,174,Spain,Portugal,2007,cake_of_maize,128.0
+203,174,Spain,Portugal,2008,cake_of_maize,127.0
+203,174,Spain,Portugal,2009,cake_of_maize,51.0
+203,174,Spain,Portugal,2014,cake_of_maize,0.2
+203,174,Spain,Portugal,2015,cake_of_maize,0.2
+203,174,Spain,Portugal,2016,cake_of_maize,2.59
+203,174,Spain,Portugal,2017,cake_of_maize,0.58
+203,174,Spain,Portugal,2018,cake_of_maize,2.24
+203,174,Spain,Portugal,2022,cake_of_maize,567.26
+203,174,Spain,Portugal,2023,cake_of_maize,753.52
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2000,cake_of_maize,1328.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2001,cake_of_maize,2927.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2002,cake_of_maize,1641.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2003,cake_of_maize,2167.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2004,cake_of_maize,5083.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2005,cake_of_maize,3599.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2006,cake_of_maize,5554.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2007,cake_of_maize,6881.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2008,cake_of_maize,4345.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2009,cake_of_maize,6399.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2010,cake_of_maize,7257.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2011,cake_of_maize,4144.0
+68,121,France,Lebanon,2007,cake_of_maize,2.0
+231,131,United States of America,Malaysia,1989,cake_of_maize,3.0
+231,131,United States of America,Malaysia,1990,cake_of_maize,70.0
+231,131,United States of America,Malaysia,1991,cake_of_maize,687.0
+231,131,United States of America,Malaysia,1992,cake_of_maize,369.0
+231,131,United States of America,Malaysia,1993,cake_of_maize,575.0
+231,131,United States of America,Malaysia,1999,cake_of_maize,263.0
+231,131,United States of America,Malaysia,2000,cake_of_maize,50.0
+231,135,United States of America,Martinique,1988,cake_of_maize,34.0
+231,135,United States of America,Martinique,1989,cake_of_maize,8.0
+203,117,Spain,Republic of Korea,2015,cake_of_maize,3.8
+231,138,United States of America,Mexico,1986,cake_of_maize,1008.0
+231,138,United States of America,Mexico,1987,cake_of_maize,3465.0
+231,138,United States of America,Mexico,1988,cake_of_maize,4467.0
+231,138,United States of America,Mexico,1989,cake_of_maize,32542.0
+231,138,United States of America,Mexico,1990,cake_of_maize,32695.0
+231,138,United States of America,Mexico,1991,cake_of_maize,32601.0
+231,138,United States of America,Mexico,1992,cake_of_maize,183537.0
+231,138,United States of America,Mexico,1993,cake_of_maize,71869.0
+231,138,United States of America,Mexico,1994,cake_of_maize,9593.0
+231,138,United States of America,Mexico,1996,cake_of_maize,7220.0
+231,138,United States of America,Mexico,1997,cake_of_maize,35.0
+231,138,United States of America,Mexico,1998,cake_of_maize,1483.0
+231,138,United States of America,Mexico,1999,cake_of_maize,409.0
+231,138,United States of America,Mexico,2000,cake_of_maize,13772.0
+231,138,United States of America,Mexico,2001,cake_of_maize,5662.0
+231,138,United States of America,Mexico,2002,cake_of_maize,339.0
+231,138,United States of America,Mexico,2003,cake_of_maize,47.0
+231,138,United States of America,Mexico,2004,cake_of_maize,2156.0
+231,138,United States of America,Mexico,2005,cake_of_maize,1412.0
+231,138,United States of America,Mexico,2006,cake_of_maize,4985.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2019,cake_of_maize,3162.64
+79,150,Germany,Netherlands (Kingdom of the),1991,cake_of_maize,15191.0
+79,150,Germany,Netherlands (Kingdom of the),1992,cake_of_maize,15774.0
+79,150,Germany,Netherlands (Kingdom of the),1994,cake_of_maize,2146.0
+79,150,Germany,Netherlands (Kingdom of the),1995,cake_of_maize,32.0
+79,150,Germany,Netherlands (Kingdom of the),2005,cake_of_maize,79.0
+79,150,Germany,Netherlands (Kingdom of the),2006,cake_of_maize,50.0
+231,148,United States of America,Nauru,1991,cake_of_maize,94.0
+231,148,United States of America,Nauru,1992,cake_of_maize,18.0
+231,150,United States of America,Netherlands (Kingdom of the),1986,cake_of_maize,750011.0
+231,150,United States of America,Netherlands (Kingdom of the),1987,cake_of_maize,887235.0
+231,150,United States of America,Netherlands (Kingdom of the),1988,cake_of_maize,989753.0
+231,150,United States of America,Netherlands (Kingdom of the),1989,cake_of_maize,1047065.0
+231,150,United States of America,Netherlands (Kingdom of the),1990,cake_of_maize,714178.0
+231,150,United States of America,Netherlands (Kingdom of the),1991,cake_of_maize,361487.0
+231,150,United States of America,Netherlands (Kingdom of the),1992,cake_of_maize,304604.0
+231,150,United States of America,Netherlands (Kingdom of the),1993,cake_of_maize,273764.0
+231,150,United States of America,Netherlands (Kingdom of the),1994,cake_of_maize,133393.0
+231,150,United States of America,Netherlands (Kingdom of the),1995,cake_of_maize,116199.0
+231,150,United States of America,Netherlands (Kingdom of the),1996,cake_of_maize,34868.0
+231,150,United States of America,Netherlands (Kingdom of the),1997,cake_of_maize,43610.0
+231,150,United States of America,Netherlands (Kingdom of the),1998,cake_of_maize,12484.0
+231,150,United States of America,Netherlands (Kingdom of the),1999,cake_of_maize,22314.0
+231,150,United States of America,Netherlands (Kingdom of the),2000,cake_of_maize,124.0
+231,150,United States of America,Netherlands (Kingdom of the),2003,cake_of_maize,149.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1988,cake_of_maize,13.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2016,cake_of_maize,0.08
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2017,cake_of_maize,0.36
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2018,cake_of_maize,0.39
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2019,cake_of_maize,0.27
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2020,cake_of_maize,2.56
+68,135,France,Martinique,1992,cake_of_maize,133.0
+231,153,United States of America,New Caledonia,1989,cake_of_maize,35.0
+229,179,United Kingdom of Great Britain and Northern Ireland,Qatar,1999,cake_of_maize,12.0
+231,156,United States of America,New Zealand,1986,cake_of_maize,39.0
+231,156,United States of America,New Zealand,1987,cake_of_maize,40.0
+231,156,United States of America,New Zealand,1988,cake_of_maize,97.0
+231,156,United States of America,New Zealand,1989,cake_of_maize,181.0
+231,156,United States of America,New Zealand,1990,cake_of_maize,198.0
+231,156,United States of America,New Zealand,1991,cake_of_maize,371.0
+231,156,United States of America,New Zealand,1992,cake_of_maize,100.0
+231,156,United States of America,New Zealand,1993,cake_of_maize,83.0
+231,156,United States of America,New Zealand,2002,cake_of_maize,157.0
+231,157,United States of America,Nicaragua,1991,cake_of_maize,76.0
+231,157,United States of America,Nicaragua,1992,cake_of_maize,72.0
+231,157,United States of America,Nicaragua,1993,cake_of_maize,110.0
+231,162,United States of America,Norway,1986,cake_of_maize,17.0
+231,162,United States of America,Norway,1987,cake_of_maize,17.0
+231,162,United States of America,Norway,1988,cake_of_maize,117.0
+231,162,United States of America,Norway,1991,cake_of_maize,230.0
+231,162,United States of America,Norway,1992,cake_of_maize,507.0
+231,162,United States of America,Norway,1993,cake_of_maize,168.0
+231,162,United States of America,Norway,1996,cake_of_maize,124.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1997,cake_of_maize,14.0
+68,150,France,Netherlands (Kingdom of the),1991,cake_of_maize,214.0
+68,150,France,Netherlands (Kingdom of the),1994,cake_of_maize,103.0
+68,150,France,Netherlands (Kingdom of the),1995,cake_of_maize,69.0
+68,150,France,Netherlands (Kingdom of the),1998,cake_of_maize,28.0
+68,150,France,Netherlands (Kingdom of the),2000,cake_of_maize,25.0
+68,150,France,Netherlands (Kingdom of the),2006,cake_of_maize,202.0
+231,165,United States of America,Pakistan,1989,cake_of_maize,36.0
+231,165,United States of America,Pakistan,1990,cake_of_maize,2.0
+231,165,United States of America,Pakistan,1991,cake_of_maize,1.0
+231,165,United States of America,Pakistan,1993,cake_of_maize,73.0
+203,222,Spain,Tunisia,2015,cake_of_maize,0.03
+231,166,United States of America,Panama,1988,cake_of_maize,338.0
+231,166,United States of America,Panama,1989,cake_of_maize,308.0
+231,166,United States of America,Panama,1990,cake_of_maize,937.0
+231,166,United States of America,Panama,1991,cake_of_maize,705.0
+231,166,United States of America,Panama,1992,cake_of_maize,339.0
+231,166,United States of America,Panama,1993,cake_of_maize,211.0
+231,166,United States of America,Panama,1998,cake_of_maize,92.0
+231,166,United States of America,Panama,2005,cake_of_maize,2.0
+203,223,Spain,Türkiye,2017,cake_of_maize,495.0
+106,198,Italy,Slovenia,1993,cake_of_maize,12.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2017,cake_of_maize,0.16
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2018,cake_of_maize,0.3
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2019,cake_of_maize,0.21
+231,169,United States of America,Paraguay,1991,cake_of_maize,1.0
+79,173,Germany,Poland,1991,cake_of_maize,3.0
+79,173,Germany,Poland,1996,cake_of_maize,579.0
+231,170,United States of America,Peru,1987,cake_of_maize,53.0
+231,170,United States of America,Peru,1988,cake_of_maize,12.0
+231,170,United States of America,Peru,1989,cake_of_maize,290.0
+231,170,United States of America,Peru,1990,cake_of_maize,504.0
+231,170,United States of America,Peru,1991,cake_of_maize,1343.0
+231,170,United States of America,Peru,1992,cake_of_maize,1092.0
+231,170,United States of America,Peru,1993,cake_of_maize,588.0
+231,170,United States of America,Peru,2000,cake_of_maize,1935.0
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2017,cake_of_maize,0.31
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2018,cake_of_maize,0.11
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2019,cake_of_maize,0.19
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2020,cake_of_maize,1.01
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2007,cake_of_maize,36.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2013,cake_of_maize,11.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2014,cake_of_maize,47.5
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2015,cake_of_maize,39.3
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2016,cake_of_maize,16.39
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2017,cake_of_maize,20.35
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2018,cake_of_maize,20.3
+231,171,United States of America,Philippines,1989,cake_of_maize,573.0
+231,171,United States of America,Philippines,1990,cake_of_maize,652.0
+231,171,United States of America,Philippines,1991,cake_of_maize,1075.0
+231,171,United States of America,Philippines,1992,cake_of_maize,954.0
+231,171,United States of America,Philippines,1993,cake_of_maize,482.0
+106,203,Italy,Spain,1986,cake_of_maize,21.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2015,cake_of_maize,0.47
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2016,cake_of_maize,1.03
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2017,cake_of_maize,1.72
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2018,cake_of_maize,1.58
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2019,cake_of_maize,0.95
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2020,cake_of_maize,7.86
+231,173,United States of America,Poland,1990,cake_of_maize,9.0
+231,173,United States of America,Poland,1992,cake_of_maize,30.0
+231,173,United States of America,Poland,1993,cake_of_maize,20.0
+231,173,United States of America,Poland,1999,cake_of_maize,263.0
+231,174,United States of America,Portugal,1986,cake_of_maize,30684.0
+231,174,United States of America,Portugal,1987,cake_of_maize,50825.0
+231,174,United States of America,Portugal,1988,cake_of_maize,63733.0
+231,174,United States of America,Portugal,1991,cake_of_maize,3514.0
+231,179,United States of America,Qatar,1993,cake_of_maize,25.0
+231,117,United States of America,Republic of Korea,1986,cake_of_maize,59.0
+231,117,United States of America,Republic of Korea,1987,cake_of_maize,162.0
+231,117,United States of America,Republic of Korea,1988,cake_of_maize,12273.0
+231,117,United States of America,Republic of Korea,1989,cake_of_maize,3226.0
+231,117,United States of America,Republic of Korea,1990,cake_of_maize,2649.0
+231,117,United States of America,Republic of Korea,1991,cake_of_maize,2475.0
+231,117,United States of America,Republic of Korea,1992,cake_of_maize,1560.0
+231,117,United States of America,Republic of Korea,1993,cake_of_maize,2096.0
+231,117,United States of America,Republic of Korea,1995,cake_of_maize,1507.0
+231,117,United States of America,Republic of Korea,1996,cake_of_maize,394.0
+231,117,United States of America,Republic of Korea,2000,cake_of_maize,539.0
+231,117,United States of America,Republic of Korea,2001,cake_of_maize,1305.0
+231,117,United States of America,Republic of Korea,2004,cake_of_maize,34.0
+229,206,United Kingdom of Great Britain and Northern Ireland,Sudan (former),1992,cake_of_maize,6.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2017,cake_of_maize,0.34
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2018,cake_of_maize,0.06
+231,146,United States of America,Republic of Moldova,1993,cake_of_maize,57.0
+231,185,United States of America,Russian Federation,1995,cake_of_maize,155.0
+231,185,United States of America,Russian Federation,1996,cake_of_maize,744.0
+231,188,United States of America,Saint Kitts and Nevis,1988,cake_of_maize,483.0
+231,188,United States of America,Saint Kitts and Nevis,1989,cake_of_maize,125.0
+231,188,United States of America,Saint Kitts and Nevis,1990,cake_of_maize,797.0
+231,188,United States of America,Saint Kitts and Nevis,1991,cake_of_maize,1727.0
+231,188,United States of America,Saint Kitts and Nevis,1992,cake_of_maize,715.0
+231,188,United States of America,Saint Kitts and Nevis,1993,cake_of_maize,277.0
+231,189,United States of America,Saint Lucia,1989,cake_of_maize,55.0
+231,189,United States of America,Saint Lucia,1991,cake_of_maize,13.0
+231,189,United States of America,Saint Lucia,1992,cake_of_maize,12.0
+231,189,United States of America,Saint Lucia,2000,cake_of_maize,39.0
+231,189,United States of America,Saint Lucia,2001,cake_of_maize,20.0
+231,191,United States of America,Saint Vincent and the Grenadines,1989,cake_of_maize,231.0
+231,191,United States of America,Saint Vincent and the Grenadines,1990,cake_of_maize,11.0
+231,191,United States of America,Saint Vincent and the Grenadines,1993,cake_of_maize,3.0
+231,194,United States of America,Saudi Arabia,1989,cake_of_maize,280.0
+231,194,United States of America,Saudi Arabia,1990,cake_of_maize,197.0
+231,194,United States of America,Saudi Arabia,1991,cake_of_maize,69.0
+231,194,United States of America,Saudi Arabia,1992,cake_of_maize,63.0
+231,194,United States of America,Saudi Arabia,1993,cake_of_maize,263.0
+231,194,United States of America,Saudi Arabia,1996,cake_of_maize,252.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2014,cake_of_maize,5000.0
+231,200,United States of America,Singapore,1987,cake_of_maize,49.0
+231,200,United States of America,Singapore,1988,cake_of_maize,164.0
+231,200,United States of America,Singapore,1989,cake_of_maize,553.0
+231,200,United States of America,Singapore,1990,cake_of_maize,337.0
+231,200,United States of America,Singapore,1991,cake_of_maize,6658.0
+231,200,United States of America,Singapore,1992,cake_of_maize,789.0
+231,200,United States of America,Singapore,1993,cake_of_maize,684.0
+231,200,United States of America,Singapore,1997,cake_of_maize,55.0
+106,230,Italy,Ukraine,2006,cake_of_maize,7.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,1990,cake_of_maize,2.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2017,cake_of_maize,0.05
+231,201,United States of America,Somalia,1986,cake_of_maize,201.0
+231,202,United States of America,South Africa,1989,cake_of_maize,3534.0
+231,202,United States of America,South Africa,1990,cake_of_maize,66.0
+231,202,United States of America,South Africa,1991,cake_of_maize,45.0
+231,202,United States of America,South Africa,1992,cake_of_maize,499.0
+231,202,United States of America,South Africa,1993,cake_of_maize,206.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1993,cake_of_maize,2650.0
+231,203,United States of America,Spain,1986,cake_of_maize,2239.0
+231,203,United States of America,Spain,1987,cake_of_maize,71819.0
+231,203,United States of America,Spain,1988,cake_of_maize,77766.0
+231,203,United States of America,Spain,1989,cake_of_maize,121620.0
+231,203,United States of America,Spain,1990,cake_of_maize,93512.0
+231,203,United States of America,Spain,1991,cake_of_maize,165194.0
+231,203,United States of America,Spain,1992,cake_of_maize,255880.0
+231,203,United States of America,Spain,1993,cake_of_maize,145112.0
+231,203,United States of America,Spain,1994,cake_of_maize,142782.0
+231,203,United States of America,Spain,1995,cake_of_maize,77165.0
+231,203,United States of America,Spain,1997,cake_of_maize,15907.0
+231,203,United States of America,Spain,1999,cake_of_maize,17640.0
+231,203,United States of America,Spain,2000,cake_of_maize,21369.0
+231,38,United States of America,Sri Lanka,1989,cake_of_maize,4.0
+231,38,United States of America,Sri Lanka,1990,cake_of_maize,6.0
+231,38,United States of America,Sri Lanka,1991,cake_of_maize,8.0
+231,38,United States of America,Sri Lanka,1992,cake_of_maize,8.0
+231,38,United States of America,Sri Lanka,1993,cake_of_maize,403.0
+79,203,Germany,Spain,1994,cake_of_maize,1557.0
+231,206,United States of America,Sudan (former),1990,cake_of_maize,135.0
+231,207,United States of America,Suriname,1991,cake_of_maize,79.0
+231,207,United States of America,Suriname,1992,cake_of_maize,259.0
+231,207,United States of America,Suriname,1993,cake_of_maize,1221.0
+231,207,United States of America,Suriname,1999,cake_of_maize,1553.0
+231,210,United States of America,Sweden,1987,cake_of_maize,35.0
+231,210,United States of America,Sweden,1988,cake_of_maize,140.0
+231,210,United States of America,Sweden,1989,cake_of_maize,416.0
+231,210,United States of America,Sweden,1990,cake_of_maize,309.0
+231,210,United States of America,Sweden,1991,cake_of_maize,879.0
+231,210,United States of America,Sweden,1992,cake_of_maize,1299.0
+231,210,United States of America,Sweden,1993,cake_of_maize,1471.0
+231,210,United States of America,Sweden,1996,cake_of_maize,213.0
+231,211,United States of America,Switzerland,1989,cake_of_maize,67.0
+231,211,United States of America,Switzerland,1990,cake_of_maize,390.0
+231,211,United States of America,Switzerland,1991,cake_of_maize,413.0
+231,211,United States of America,Switzerland,1992,cake_of_maize,102.0
+231,211,United States of America,Switzerland,1993,cake_of_maize,157.0
+231,211,United States of America,Switzerland,2001,cake_of_maize,1552.0
+231,216,United States of America,Thailand,1988,cake_of_maize,21.0
+231,216,United States of America,Thailand,1989,cake_of_maize,348.0
+231,216,United States of America,Thailand,1990,cake_of_maize,343.0
+231,216,United States of America,Thailand,1991,cake_of_maize,421.0
+231,216,United States of America,Thailand,1992,cake_of_maize,1924.0
+231,216,United States of America,Thailand,1993,cake_of_maize,700.0
+231,220,United States of America,Trinidad and Tobago,1986,cake_of_maize,37.0
+231,220,United States of America,Trinidad and Tobago,1987,cake_of_maize,97.0
+231,220,United States of America,Trinidad and Tobago,1988,cake_of_maize,518.0
+231,220,United States of America,Trinidad and Tobago,1989,cake_of_maize,2920.0
+231,220,United States of America,Trinidad and Tobago,1990,cake_of_maize,972.0
+231,220,United States of America,Trinidad and Tobago,1991,cake_of_maize,2322.0
+231,220,United States of America,Trinidad and Tobago,1992,cake_of_maize,1470.0
+231,220,United States of America,Trinidad and Tobago,1993,cake_of_maize,1006.0
+231,220,United States of America,Trinidad and Tobago,1999,cake_of_maize,231.0
+231,222,United States of America,Tunisia,1990,cake_of_maize,1.0
+68,203,France,Spain,1995,cake_of_maize,4.0
+68,203,France,Spain,2000,cake_of_maize,5.0
+68,203,France,Spain,2001,cake_of_maize,4.0
+231,223,United States of America,Türkiye,1989,cake_of_maize,1329.0
+231,223,United States of America,Türkiye,1992,cake_of_maize,5.0
+231,223,United States of America,Türkiye,1993,cake_of_maize,78.0
+231,223,United States of America,Türkiye,2006,cake_of_maize,1500.0
+231,225,United States of America,United Arab Emirates,1989,cake_of_maize,63.0
+231,225,United States of America,United Arab Emirates,1991,cake_of_maize,10.0
+231,225,United States of America,United Arab Emirates,1992,cake_of_maize,10.0
+231,225,United States of America,United Arab Emirates,1993,cake_of_maize,11.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1986,cake_of_maize,1456.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1987,cake_of_maize,1959.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1988,cake_of_maize,459.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1989,cake_of_maize,1448.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1990,cake_of_maize,1891.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1991,cake_of_maize,7877.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1992,cake_of_maize,5058.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1993,cake_of_maize,749.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1994,cake_of_maize,7782.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1995,cake_of_maize,16206.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1996,cake_of_maize,4767.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1997,cake_of_maize,47.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1999,cake_of_maize,56.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2001,cake_of_maize,774.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2006,cake_of_maize,350.0
+231,215,United States of America,United Republic of Tanzania,1987,cake_of_maize,104.0
+231,234,United States of America,Uruguay,1989,cake_of_maize,5.0
+231,234,United States of America,Uruguay,1990,cake_of_maize,6.0
+231,234,United States of America,Uruguay,1991,cake_of_maize,132.0
+231,234,United States of America,Uruguay,1992,cake_of_maize,104.0
+231,234,United States of America,Uruguay,1993,cake_of_maize,10.0
+68,211,France,Switzerland,1996,cake_of_maize,4.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1987,cake_of_maize,18.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1989,cake_of_maize,225.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1990,cake_of_maize,239.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1991,cake_of_maize,1583.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1992,cake_of_maize,1154.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1993,cake_of_maize,761.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1996,cake_of_maize,11.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1998,cake_of_maize,851.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1999,cake_of_maize,2271.0
+150,203,Netherlands (Kingdom of the),Spain,1996,cake_of_maize,1081.0
+150,203,Netherlands (Kingdom of the),Spain,1997,cake_of_maize,1400.0
+150,203,Netherlands (Kingdom of the),Spain,2000,cake_of_maize,6006.0
+150,203,Netherlands (Kingdom of the),Spain,2001,cake_of_maize,2250.0
+231,248,United States of America,Yugoslav SFR,1989,cake_of_maize,365.0
+231,248,United States of America,Yugoslav SFR,1990,cake_of_maize,37.0
+231,248,United States of America,Yugoslav SFR,1991,cake_of_maize,66.0
+150,210,Netherlands (Kingdom of the),Sweden,1992,cake_of_maize,1400.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2002,cake_of_maize,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2009,cake_of_maize,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2010,cake_of_maize,3.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1986,cake_of_maize,9351.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1987,cake_of_maize,13238.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1988,cake_of_maize,4337.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1989,cake_of_maize,10117.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,cake_of_maize,3140.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1994,cake_of_maize,2150.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1995,cake_of_maize,2234.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1996,cake_of_maize,3087.0

@@ -1,0 +1,3086 @@
+o_code,d_code,o_name,d_name,year,item,weight
+101,2,Indonesia,Afghanistan,2020,copra,23.25
+237,4,Viet Nam,Algeria,2014,copra,64.13
+237,4,Viet Nam,Algeria,2015,copra,86.65
+237,4,Viet Nam,Algeria,2016,copra,29.01
+237,4,Viet Nam,Algeria,2017,copra,95.73
+237,4,Viet Nam,Algeria,2018,copra,70.37
+237,4,Viet Nam,Algeria,2019,copra,72.06
+193,7,Sao Tome and Principe,Angola,2009,copra,2.0
+193,7,Sao Tome and Principe,Angola,2012,copra,10.0
+91,8,Guyana,Antigua and Barbuda,1999,copra,55.0
+91,8,Guyana,Antigua and Barbuda,2012,copra,56.0
+91,8,Guyana,Antigua and Barbuda,2019,copra,5.63
+80,3,Bosnia and Herzegovina,Albania,2019,copra,0.01
+80,3,Bosnia and Herzegovina,Albania,2020,copra,0.01
+80,3,Bosnia and Herzegovina,Albania,2021,copra,0.02
+80,3,Bosnia and Herzegovina,Albania,2022,copra,0.01
+80,3,Bosnia and Herzegovina,Albania,2023,copra,0.01
+244,10,Samoa,Australia,2015,copra,1728.0
+244,10,Samoa,Australia,2016,copra,232.95
+244,10,Samoa,Australia,2017,copra,160.0
+237,7,Viet Nam,Angola,2017,copra,21.62
+237,7,Viet Nam,Angola,2019,copra,8.87
+237,7,Viet Nam,Angola,2020,copra,99.42
+237,7,Viet Nam,Angola,2021,copra,12.27
+102,2,Iran (Islamic Republic of),Afghanistan,2016,copra,0.5
+83,10,Kiribati,Australia,2005,copra,392.0
+193,255,Sao Tome and Principe,Belgium,2020,copra,1.02
+100,2,India,Afghanistan,2018,copra,2.0
+100,2,India,Afghanistan,2019,copra,91.0
+100,2,India,Afghanistan,2020,copra,8.0
+100,2,India,Afghanistan,2021,copra,877.0
+100,2,India,Afghanistan,2022,copra,4252.15
+100,2,India,Afghanistan,2023,copra,4114.4
+25,10,Solomon Islands,Australia,2004,copra,1859.0
+237,9,Viet Nam,Argentina,2015,copra,64.94
+59,4,Egypt,Algeria,1995,copra,17.0
+59,4,Egypt,Algeria,1996,copra,17.0
+59,4,Egypt,Algeria,1999,copra,23.0
+59,4,Egypt,Algeria,2009,copra,81.0
+59,4,Egypt,Algeria,2019,copra,27.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,2020,copra,0.01
+168,10,Papua New Guinea,Australia,1986,copra,2.0
+168,10,Papua New Guinea,Australia,1993,copra,950.0
+225,2,United Arab Emirates,Afghanistan,2019,copra,24.0
+227,66,Tuvalu,Fiji,2002,copra,107.0
+129,16,Madagascar,Bangladesh,1992,copra,1461.0
+200,9,Singapore,Argentina,1986,copra,24.0
+165,2,Pakistan,Afghanistan,2011,copra,13.0
+28,16,Myanmar,Bangladesh,2018,copra,550.0
+237,10,Viet Nam,Australia,2018,copra,1.0
+237,10,Viet Nam,Australia,2020,copra,1.86
+155,16,Vanuatu,Bangladesh,2006,copra,38.0
+155,255,Vanuatu,Belgium,2006,copra,3761.0
+53,21,Benin,Brazil,1993,copra,3.0
+53,21,Benin,Brazil,1994,copra,10.0
+53,21,Benin,Brazil,1995,copra,5.0
+53,21,Benin,Brazil,1996,copra,8.0
+53,21,Benin,Brazil,1997,copra,1.0
+83,16,Kiribati,Bangladesh,1992,copra,9907.0
+83,16,Kiribati,Bangladesh,2005,copra,471.0
+83,16,Kiribati,Bangladesh,2017,copra,0.41
+91,14,Guyana,Barbados,2012,copra,117.0
+91,14,Guyana,Barbados,2013,copra,60.0
+91,14,Guyana,Barbados,2014,copra,27.7
+91,14,Guyana,Barbados,2016,copra,8.8
+91,14,Guyana,Barbados,2021,copra,8.72
+66,10,Fiji,Australia,2012,copra,3.0
+25,16,Solomon Islands,Bangladesh,2004,copra,1989.0
+25,16,Solomon Islands,Bangladesh,2005,copra,742.0
+25,16,Solomon Islands,Bangladesh,2006,copra,3057.0
+25,16,Solomon Islands,Bangladesh,2007,copra,1292.0
+25,16,Solomon Islands,Bangladesh,2013,copra,535.0
+25,16,Solomon Islands,Bangladesh,2017,copra,170.2
+25,16,Solomon Islands,Bangladesh,2018,copra,3243.28
+25,255,Solomon Islands,Belgium,2004,copra,5606.0
+25,255,Solomon Islands,Belgium,2005,copra,5302.0
+25,255,Solomon Islands,Belgium,2006,copra,5775.0
+38,10,Sri Lanka,Australia,2023,copra,0.45
+168,16,Papua New Guinea,Bangladesh,2001,copra,51.0
+168,16,Papua New Guinea,Bangladesh,2020,copra,3407.36
+168,16,Papua New Guinea,Bangladesh,2021,copra,20984.61
+181,20,Zimbabwe,Botswana,1990,copra,4.0
+155,214,Vanuatu,"China, Taiwan Province of",2011,copra,11.0
+176,101,Timor-Leste,Indonesia,2017,copra,326.33
+176,101,Timor-Leste,Indonesia,2019,copra,103.33
+176,101,Timor-Leste,Indonesia,2020,copra,562.22
+176,101,Timor-Leste,Indonesia,2021,copra,1718.59
+176,101,Timor-Leste,Indonesia,2022,copra,2684.68
+59,10,Egypt,Australia,1994,copra,5.0
+59,10,Egypt,Australia,1995,copra,9.0
+59,10,Egypt,Australia,1996,copra,11.0
+59,10,Egypt,Australia,1998,copra,14.0
+59,10,Egypt,Australia,1999,copra,11.0
+59,10,Egypt,Australia,2000,copra,78.0
+59,10,Egypt,Australia,2001,copra,26.0
+59,10,Egypt,Australia,2002,copra,40.0
+59,10,Egypt,Australia,2003,copra,6.0
+59,10,Egypt,Australia,2004,copra,14.0
+59,10,Egypt,Australia,2005,copra,43.0
+59,10,Egypt,Australia,2006,copra,32.0
+59,10,Egypt,Australia,2007,copra,25.0
+59,10,Egypt,Australia,2009,copra,6.0
+59,10,Egypt,Australia,2011,copra,12.0
+59,10,Egypt,Australia,2017,copra,6.3
+59,10,Egypt,Australia,2018,copra,0.23
+59,10,Egypt,Australia,2020,copra,5.64
+59,10,Egypt,Australia,2021,copra,8.91
+59,10,Egypt,Australia,2022,copra,0.12
+168,96,Papua New Guinea,"China, Hong Kong SAR",1990,copra,500.0
+107,255,Côte d'Ivoire,Belgium,2005,copra,6900.0
+107,255,Côte d'Ivoire,Belgium,2007,copra,230.0
+107,255,Côte d'Ivoire,Belgium,2011,copra,905.0
+83,214,Kiribati,"China, Taiwan Province of",2017,copra,0.36
+83,214,Kiribati,"China, Taiwan Province of",2018,copra,0.78
+7,49,Angola,Cuba,2021,copra,0.5
+25,41,Solomon Islands,"China, mainland",2003,copra,2084.0
+28,41,Myanmar,"China, mainland",2016,copra,23.5
+28,41,Myanmar,"China, mainland",2023,copra,35.0
+168,41,Papua New Guinea,"China, mainland",1986,copra,603.0
+244,131,Samoa,Malaysia,2015,copra,240.0
+244,131,Samoa,Malaysia,2016,copra,570.06
+237,13,Viet Nam,Bahrain,2016,copra,9.86
+237,16,Viet Nam,Bangladesh,2016,copra,3.03
+237,16,Viet Nam,Bangladesh,2020,copra,10.31
+68,4,France,Algeria,1989,copra,12.0
+83,66,Kiribati,Fiji,2005,copra,1255.0
+83,66,Kiribati,Fiji,2016,copra,272.09
+83,66,Kiribati,Fiji,2017,copra,1.42
+83,66,Kiribati,Fiji,2018,copra,0.33
+83,66,Kiribati,Fiji,2020,copra,92.11
+83,66,Kiribati,Fiji,2021,copra,1310.1
+184,29,Rwanda,Burundi,2006,copra,1143.0
+100,7,India,Angola,2021,copra,0.02
+100,7,India,Angola,2023,copra,0.19
+168,214,Papua New Guinea,"China, Taiwan Province of",1986,copra,750.0
+168,214,Papua New Guinea,"China, Taiwan Province of",1987,copra,3350.0
+168,214,Papua New Guinea,"China, Taiwan Province of",1989,copra,1190.0
+168,214,Papua New Guinea,"China, Taiwan Province of",1990,copra,1900.0
+168,214,Papua New Guinea,"China, Taiwan Province of",1991,copra,1000.0
+168,214,Papua New Guinea,"China, Taiwan Province of",1992,copra,1354.0
+155,79,Vanuatu,Germany,2006,copra,1396.0
+149,41,Nepal,"China, mainland",2016,copra,0.15
+193,150,Sao Tome and Principe,Netherlands (Kingdom of the),2013,copra,75.0
+193,159,Sao Tome and Principe,Nigeria,2012,copra,31.0
+193,159,Sao Tome and Principe,Nigeria,2013,copra,5.0
+193,159,Sao Tome and Principe,Nigeria,2014,copra,1.02
+193,159,Sao Tome and Principe,Nigeria,2015,copra,3.75
+25,214,Solomon Islands,"China, Taiwan Province of",2017,copra,6.0
+244,156,Samoa,New Zealand,2018,copra,162.66
+244,156,Samoa,New Zealand,2019,copra,60.07
+244,156,Samoa,New Zealand,2021,copra,711.31
+214,10,"China, Taiwan Province of",Australia,2010,copra,1.0
+214,10,"China, Taiwan Province of",Australia,2015,copra,0.74
+214,10,"China, Taiwan Province of",Australia,2023,copra,0.17
+238,33,Ethiopia,Canada,2016,copra,0.01
+215,29,United Republic of Tanzania,Burundi,2005,copra,2.0
+215,29,United Republic of Tanzania,Burundi,2006,copra,62.0
+215,29,United Republic of Tanzania,Burundi,2007,copra,202.0
+215,29,United Republic of Tanzania,Burundi,2008,copra,112.0
+237,255,Viet Nam,Belgium,2014,copra,26.16
+75,54,Gambia,Denmark,2008,copra,90.0
+59,11,Egypt,Austria,1993,copra,3.0
+59,11,Egypt,Austria,2004,copra,9.0
+59,11,Egypt,Austria,2022,copra,0.45
+155,131,Vanuatu,Malaysia,2007,copra,1003.0
+155,131,Vanuatu,Malaysia,2008,copra,3205.0
+155,131,Vanuatu,Malaysia,2009,copra,1667.0
+72,249,Djibouti,Yemen,2023,copra,0.26
+155,150,Vanuatu,Netherlands (Kingdom of the),2006,copra,1052.0
+25,79,Solomon Islands,Germany,2005,copra,236.0
+155,153,Vanuatu,New Caledonia,2009,copra,596.0
+155,153,Vanuatu,New Caledonia,2010,copra,10.0
+129,96,Madagascar,"China, Hong Kong SAR",2019,copra,0.6
+102,52,Iran (Islamic Republic of),Azerbaijan,1998,copra,1.0
+168,101,Papua New Guinea,Indonesia,2020,copra,261.0
+25,101,Solomon Islands,Indonesia,2003,copra,5226.0
+53,44,Benin,Colombia,1995,copra,3.0
+53,44,Benin,Colombia,1996,copra,1.0
+53,44,Benin,Colombia,1997,copra,4.0
+237,21,Viet Nam,Brazil,2014,copra,273.25
+237,21,Viet Nam,Brazil,2016,copra,9.88
+101,10,Indonesia,Australia,2011,copra,5.0
+101,10,Indonesia,Australia,2015,copra,0.04
+25,110,Solomon Islands,Japan,1986,copra,10618.0
+25,110,Solomon Islands,Japan,1987,copra,10940.0
+83,83,Kiribati,Kiribati,2005,copra,399.0
+168,110,Papua New Guinea,Japan,1986,copra,48591.0
+168,110,Papua New Guinea,Japan,1987,copra,43077.0
+168,110,Papua New Guinea,Japan,1988,copra,37014.0
+168,110,Papua New Guinea,Japan,1989,copra,36105.0
+168,110,Papua New Guinea,Japan,1990,copra,28653.0
+168,110,Papua New Guinea,Japan,1991,copra,22663.0
+168,110,Papua New Guinea,Japan,1992,copra,25111.0
+168,110,Papua New Guinea,Japan,1993,copra,25448.0
+168,110,Papua New Guinea,Japan,1996,copra,4.0
+168,110,Papua New Guinea,Japan,2001,copra,2.0
+83,131,Kiribati,Malaysia,2014,copra,1550.56
+83,131,Kiribati,Malaysia,2016,copra,1440.04
+83,131,Kiribati,Malaysia,2017,copra,4.71
+83,131,Kiribati,Malaysia,2018,copra,0.21
+83,131,Kiribati,Malaysia,2020,copra,530.65
+83,131,Kiribati,Malaysia,2021,copra,555.64
+89,19,Guatemala,Bolivia (Plurinational State of),2007,copra,3.0
+173,10,Poland,Australia,2023,copra,0.01
+56,40,Dominican Republic,Chile,2018,copra,0.22
+25,131,Solomon Islands,Malaysia,2007,copra,1024.0
+168,112,Papua New Guinea,Jordan,1988,copra,4961.0
+189,55,Saint Lucia,Dominica,1998,copra,71.0
+189,55,Saint Lucia,Dominica,1999,copra,200.0
+83,150,Kiribati,Netherlands (Kingdom of the),1986,copra,1480.0
+83,150,Kiribati,Netherlands (Kingdom of the),1987,copra,3785.0
+83,150,Kiribati,Netherlands (Kingdom of the),1989,copra,8607.0
+83,150,Kiribati,Netherlands (Kingdom of the),1990,copra,3572.0
+129,41,Madagascar,"China, mainland",2007,copra,1.0
+168,131,Papua New Guinea,Malaysia,2020,copra,200.0
+168,131,Papua New Guinea,Malaysia,2021,copra,243.09
+194,13,Saudi Arabia,Bahrain,2020,copra,1.4
+194,13,Saudi Arabia,Bahrain,2021,copra,3.29
+216,10,Thailand,Australia,2016,copra,21.05
+216,10,Thailand,Australia,2020,copra,0.7
+216,10,Thailand,Australia,2021,copra,1.19
+216,10,Thailand,Australia,2022,copra,1.25
+216,10,Thailand,Australia,2023,copra,0.45
+59,13,Egypt,Bahrain,1995,copra,1.0
+59,13,Egypt,Bahrain,1996,copra,3.0
+59,13,Egypt,Bahrain,1998,copra,28.0
+59,13,Egypt,Bahrain,2002,copra,31.0
+59,13,Egypt,Bahrain,2003,copra,11.0
+59,13,Egypt,Bahrain,2004,copra,34.0
+59,13,Egypt,Bahrain,2005,copra,5.0
+59,13,Egypt,Bahrain,2006,copra,14.0
+59,13,Egypt,Bahrain,2007,copra,8.0
+59,13,Egypt,Bahrain,2009,copra,2.0
+59,13,Egypt,Bahrain,2011,copra,3.0
+59,13,Egypt,Bahrain,2018,copra,2.11
+59,13,Egypt,Bahrain,2019,copra,0.95
+59,13,Egypt,Bahrain,2022,copra,25.6
+59,13,Egypt,Bahrain,2023,copra,0.04
+155,168,Vanuatu,Papua New Guinea,2010,copra,80.0
+155,168,Vanuatu,Papua New Guinea,2011,copra,249.0
+131,10,Malaysia,Australia,1989,copra,110.0
+155,171,Vanuatu,Philippines,2006,copra,3211.0
+155,171,Vanuatu,Philippines,2007,copra,9519.0
+155,171,Vanuatu,Philippines,2008,copra,15491.0
+155,171,Vanuatu,Philippines,2009,copra,12573.0
+155,171,Vanuatu,Philippines,2010,copra,12043.0
+155,171,Vanuatu,Philippines,2011,copra,13336.0
+25,150,Solomon Islands,Netherlands (Kingdom of the),1986,copra,6404.0
+25,150,Solomon Islands,Netherlands (Kingdom of the),1987,copra,2137.0
+198,11,Slovenia,Austria,2012,copra,124.0
+168,150,Papua New Guinea,Netherlands (Kingdom of the),1986,copra,14217.0
+168,150,Papua New Guinea,Netherlands (Kingdom of the),1987,copra,17158.0
+168,150,Papua New Guinea,Netherlands (Kingdom of the),1988,copra,20940.0
+168,150,Papua New Guinea,Netherlands (Kingdom of the),1989,copra,6740.0
+189,68,Saint Lucia,France,2019,copra,0.45
+81,21,Ghana,Brazil,1999,copra,356.0
+81,21,Ghana,Brazil,2000,copra,325.0
+48,21,Costa Rica,Brazil,1994,copra,1.0
+83,171,Kiribati,Philippines,2017,copra,0.35
+217,214,Togo,"China, Taiwan Province of",2002,copra,100.0
+244,231,Samoa,United States of America,2018,copra,0.01
+155,200,Vanuatu,Singapore,2006,copra,1696.0
+155,200,Vanuatu,Singapore,2009,copra,270.0
+126,57,Lithuania,Belarus,1997,copra,3.0
+226,46,Uganda,Congo,2000,copra,8.0
+83,210,Kiribati,Sweden,1986,copra,1798.0
+237,33,Viet Nam,Canada,2014,copra,0.27
+237,33,Viet Nam,Canada,2015,copra,5.95
+237,33,Viet Nam,Canada,2016,copra,12.37
+237,33,Viet Nam,Canada,2017,copra,2.57
+237,33,Viet Nam,Canada,2018,copra,23.97
+237,33,Viet Nam,Canada,2019,copra,0.9
+237,33,Viet Nam,Canada,2020,copra,15.33
+237,33,Viet Nam,Canada,2021,copra,17.37
+25,168,Solomon Islands,Papua New Guinea,2002,copra,109.0
+168,168,Papua New Guinea,Papua New Guinea,2001,copra,1466.0
+97,11,Hungary,Austria,1992,copra,15.0
+168,171,Papua New Guinea,Philippines,2020,copra,18203.89
+168,171,Papua New Guinea,Philippines,2021,copra,21308.39
+83,219,Kiribati,Tonga,1987,copra,622.0
+25,171,Solomon Islands,Philippines,2005,copra,274.0
+25,171,Solomon Islands,Philippines,2006,copra,2384.0
+25,171,Solomon Islands,Philippines,2007,copra,15279.0
+25,171,Solomon Islands,Philippines,2011,copra,20230.0
+25,171,Solomon Islands,Philippines,2012,copra,36609.0
+25,171,Solomon Islands,Philippines,2013,copra,8664.0
+25,171,Solomon Islands,Philippines,2017,copra,18808.36
+25,171,Solomon Islands,Philippines,2018,copra,8655.34
+86,189,Grenada,Saint Lucia,1991,copra,40.0
+168,174,Papua New Guinea,Portugal,1988,copra,1270.0
+83,231,Kiribati,United States of America,1987,copra,30.0
+168,117,Papua New Guinea,Republic of Korea,1989,copra,601.0
+168,117,Papua New Guinea,Republic of Korea,1992,copra,1500.0
+66,16,Fiji,Bangladesh,2000,copra,2909.0
+66,16,Fiji,Bangladesh,2021,copra,210.44
+25,200,Solomon Islands,Singapore,1986,copra,2331.0
+25,200,Solomon Islands,Singapore,1987,copra,1452.0
+25,200,Solomon Islands,Singapore,2003,copra,320.0
+25,200,Solomon Islands,Singapore,2004,copra,1179.0
+25,200,Solomon Islands,Singapore,2006,copra,2560.0
+25,200,Solomon Islands,Singapore,2007,copra,3407.0
+226,250,Uganda,Democratic Republic of the Congo,1997,copra,28.0
+226,250,Uganda,Democratic Republic of the Congo,2000,copra,729.0
+100,10,India,Australia,1998,copra,1.0
+129,45,Madagascar,Comoros,2003,copra,5.0
+100,10,India,Australia,2012,copra,1.0
+100,10,India,Australia,2013,copra,12.0
+100,10,India,Australia,2014,copra,0.34
+100,10,India,Australia,2015,copra,8.1
+100,10,India,Australia,2016,copra,1.7
+100,10,India,Australia,2017,copra,2.52
+100,10,India,Australia,2018,copra,4.99
+100,10,India,Australia,2019,copra,9.91
+100,10,India,Australia,2020,copra,3.97
+100,10,India,Australia,2021,copra,7.69
+100,10,India,Australia,2022,copra,11.79
+100,10,India,Australia,2023,copra,12.44
+168,200,Papua New Guinea,Singapore,1986,copra,4846.0
+168,200,Papua New Guinea,Singapore,1987,copra,615.0
+168,200,Papua New Guinea,Singapore,1988,copra,1472.0
+168,200,Papua New Guinea,Singapore,1989,copra,1876.0
+168,200,Papua New Guinea,Singapore,1990,copra,1724.0
+168,200,Papua New Guinea,Singapore,1991,copra,4117.0
+168,200,Papua New Guinea,Singapore,1992,copra,6528.0
+168,200,Papua New Guinea,Singapore,1993,copra,11331.0
+168,200,Papua New Guinea,Singapore,1996,copra,4.0
+168,200,Papua New Guinea,Singapore,2001,copra,1.0
+59,255,Egypt,Belgium,2004,copra,16.0
+59,255,Egypt,Belgium,2006,copra,22.0
+59,255,Egypt,Belgium,2009,copra,71.0
+59,255,Egypt,Belgium,2011,copra,84.0
+59,255,Egypt,Belgium,2013,copra,44.0
+59,255,Egypt,Belgium,2017,copra,0.16
+107,233,Côte d'Ivoire,Burkina Faso,2000,copra,248.0
+107,233,Côte d'Ivoire,Burkina Faso,2007,copra,308.0
+107,233,Côte d'Ivoire,Burkina Faso,2010,copra,190.0
+107,233,Côte d'Ivoire,Burkina Faso,2019,copra,1.4
+107,233,Côte d'Ivoire,Burkina Faso,2020,copra,38.85
+107,233,Côte d'Ivoire,Burkina Faso,2021,copra,121.97
+107,233,Côte d'Ivoire,Burkina Faso,2022,copra,83.85
+107,233,Côte d'Ivoire,Burkina Faso,2023,copra,35.65
+219,229,Tonga,United Kingdom of Great Britain and Northern Ireland,1986,copra,1000.0
+237,40,Viet Nam,Chile,2014,copra,25.63
+237,40,Viet Nam,Chile,2015,copra,24.68
+237,40,Viet Nam,Chile,2020,copra,12.47
+237,40,Viet Nam,Chile,2021,copra,14.73
+48,33,Costa Rica,Canada,2022,copra,1.07
+81,33,Ghana,Canada,2007,copra,2.0
+25,210,Solomon Islands,Sweden,1986,copra,7627.0
+25,210,Solomon Islands,Sweden,1987,copra,4158.0
+25,211,Solomon Islands,Switzerland,2007,copra,350.0
+32,41,Cameroon,"China, mainland",2014,copra,89.3
+38,13,Sri Lanka,Bahrain,2000,copra,88.0
+38,13,Sri Lanka,Bahrain,2001,copra,11.0
+25,216,Solomon Islands,Thailand,2004,copra,60.0
+237,96,Viet Nam,"China, Hong Kong SAR",2014,copra,465.21
+237,96,Viet Nam,"China, Hong Kong SAR",2015,copra,476.62
+237,96,Viet Nam,"China, Hong Kong SAR",2016,copra,30.36
+237,96,Viet Nam,"China, Hong Kong SAR",2018,copra,0.7
+237,96,Viet Nam,"China, Hong Kong SAR",2019,copra,1.08
+237,96,Viet Nam,"China, Hong Kong SAR",2020,copra,2.3
+25,229,Solomon Islands,United Kingdom of Great Britain and Northern Ireland,1986,copra,5451.0
+25,229,Solomon Islands,United Kingdom of Great Britain and Northern Ireland,1987,copra,9216.0
+168,210,Papua New Guinea,Sweden,1986,copra,330.0
+25,231,Solomon Islands,United States of America,2003,copra,299.0
+181,68,Zimbabwe,France,1991,copra,10.0
+25,155,Solomon Islands,Vanuatu,2004,copra,1885.0
+25,155,Solomon Islands,Vanuatu,2005,copra,1035.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1986,copra,23629.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1987,copra,19838.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1988,copra,10036.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1989,copra,4772.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1990,copra,27922.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1991,copra,17561.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1992,copra,11147.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,1993,copra,20732.0
+168,229,Papua New Guinea,United Kingdom of Great Britain and Northern Ireland,2001,copra,2.0
+165,13,Pakistan,Bahrain,2011,copra,5.0
+209,202,Eswatini,South Africa,1997,copra,71.0
+209,202,Eswatini,South Africa,2001,copra,54.0
+209,202,Eswatini,South Africa,2002,copra,25.0
+209,202,Eswatini,South Africa,2003,copra,200.0
+209,202,Eswatini,South Africa,2015,copra,0.05
+38,16,Sri Lanka,Bangladesh,1989,copra,840.0
+38,16,Sri Lanka,Bangladesh,1992,copra,186.0
+38,16,Sri Lanka,Bangladesh,1993,copra,54.0
+38,16,Sri Lanka,Bangladesh,1994,copra,110.0
+38,16,Sri Lanka,Bangladesh,1995,copra,1653.0
+38,16,Sri Lanka,Bangladesh,1997,copra,250.0
+38,16,Sri Lanka,Bangladesh,1999,copra,196.0
+38,16,Sri Lanka,Bangladesh,2000,copra,154.0
+38,16,Sri Lanka,Bangladesh,2004,copra,408.0
+38,16,Sri Lanka,Bangladesh,2005,copra,776.0
+38,16,Sri Lanka,Bangladesh,2008,copra,725.0
+38,16,Sri Lanka,Bangladesh,2009,copra,326.0
+38,16,Sri Lanka,Bangladesh,2011,copra,129.0
+38,16,Sri Lanka,Bangladesh,2014,copra,2319.43
+38,16,Sri Lanka,Bangladesh,2022,copra,46.18
+168,231,Papua New Guinea,United States of America,2001,copra,1.0
+171,16,Philippines,Bangladesh,1988,copra,1111.0
+171,16,Philippines,Bangladesh,1990,copra,3150.0
+171,16,Philippines,Bangladesh,1991,copra,16765.0
+171,16,Philippines,Bangladesh,1994,copra,7000.0
+171,16,Philippines,Bangladesh,1995,copra,4200.0
+171,16,Philippines,Bangladesh,1997,copra,4000.0
+237,41,Viet Nam,"China, mainland",2014,copra,25.86
+237,41,Viet Nam,"China, mainland",2015,copra,46.96
+237,41,Viet Nam,"China, mainland",2016,copra,28.16
+237,41,Viet Nam,"China, mainland",2017,copra,16.45
+237,41,Viet Nam,"China, mainland",2018,copra,67.0
+237,41,Viet Nam,"China, mainland",2019,copra,58.36
+237,41,Viet Nam,"China, mainland",2020,copra,208.12
+157,48,Nicaragua,Costa Rica,2005,copra,20.0
+157,48,Nicaragua,Costa Rica,2006,copra,1.0
+157,48,Nicaragua,Costa Rica,2007,copra,35.0
+138,23,Mexico,Belize,2013,copra,50.0
+138,23,Mexico,Belize,2014,copra,15.0
+3,84,Albania,Greece,1997,copra,12.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,2018,copra,2.24
+59,21,Egypt,Brazil,2009,copra,11.0
+212,210,Syrian Arab Republic,Sweden,1986,copra,16.0
+107,33,Côte d'Ivoire,Canada,2017,copra,175.0
+56,68,Dominican Republic,France,2016,copra,0.01
+56,68,Dominican Republic,France,2018,copra,0.42
+56,68,Dominican Republic,France,2022,copra,0.27
+7,202,Angola,South Africa,2021,copra,0.5
+38,255,Sri Lanka,Belgium,2009,copra,11.0
+215,250,United Republic of Tanzania,Democratic Republic of the Congo,2005,copra,10.0
+215,250,United Republic of Tanzania,Democratic Republic of the Congo,2006,copra,61.0
+215,250,United Republic of Tanzania,Democratic Republic of the Congo,2008,copra,10.0
+144,165,Mozambique,Pakistan,2015,copra,6.0
+91,55,Guyana,Dominica,2000,copra,200.0
+91,56,Guyana,Dominican Republic,2000,copra,200.0
+91,56,Guyana,Dominican Republic,2013,copra,31.0
+237,214,Viet Nam,"China, Taiwan Province of",2014,copra,0.7
+237,214,Viet Nam,"China, Taiwan Province of",2016,copra,14.52
+237,214,Viet Nam,"China, Taiwan Province of",2017,copra,6.45
+237,214,Viet Nam,"China, Taiwan Province of",2018,copra,6.45
+237,214,Viet Nam,"China, Taiwan Province of",2019,copra,9.22
+237,214,Viet Nam,"China, Taiwan Province of",2020,copra,36.84
+237,214,Viet Nam,"China, Taiwan Province of",2021,copra,17.92
+129,68,Madagascar,France,2003,copra,4.0
+129,68,Madagascar,France,2004,copra,5.0
+106,9,Italy,Argentina,1999,copra,27.0
+171,15,Philippines,Belgium-Luxembourg,1996,copra,52.0
+236,44,Venezuela (Bolivarian Republic of),Colombia,1991,copra,13.0
+56,79,Dominican Republic,Germany,2016,copra,0.41
+56,79,Dominican Republic,Germany,2017,copra,0.17
+53,101,Benin,Indonesia,1994,copra,1.0
+53,101,Benin,Indonesia,1995,copra,1.0
+53,101,Benin,Indonesia,1996,copra,9.0
+53,101,Benin,Indonesia,1997,copra,10.0
+189,220,Saint Lucia,Trinidad and Tobago,2014,copra,418.51
+189,220,Saint Lucia,Trinidad and Tobago,2016,copra,28.32
+189,220,Saint Lucia,Trinidad and Tobago,2017,copra,58.09
+189,220,Saint Lucia,Trinidad and Tobago,2018,copra,27.86
+59,33,Egypt,Canada,1998,copra,12.0
+59,33,Egypt,Canada,2000,copra,26.0
+59,33,Egypt,Canada,2001,copra,3.0
+59,33,Egypt,Canada,2003,copra,2.0
+59,33,Egypt,Canada,2004,copra,18.0
+59,33,Egypt,Canada,2009,copra,4.0
+59,33,Egypt,Canada,2011,copra,6.0
+59,33,Egypt,Canada,2013,copra,16.0
+59,33,Egypt,Canada,2019,copra,0.4
+59,33,Egypt,Canada,2020,copra,1.79
+59,33,Egypt,Canada,2021,copra,0.06
+59,33,Egypt,Canada,2022,copra,3.45
+53,106,Benin,Italy,2005,copra,2.0
+89,44,Guatemala,Colombia,2007,copra,8.0
+216,11,Thailand,Austria,2022,copra,0.01
+216,11,Thailand,Austria,2023,copra,0.02
+91,84,Guyana,Greece,2004,copra,26.0
+237,48,Viet Nam,Costa Rica,2014,copra,88.4
+225,13,United Arab Emirates,Bahrain,2020,copra,0.09
+225,13,United Arab Emirates,Bahrain,2022,copra,1.3
+225,13,United Arab Emirates,Bahrain,2023,copra,0.17
+9,21,Argentina,Brazil,1991,copra,100.0
+101,16,Indonesia,Bangladesh,1992,copra,5454.0
+101,16,Indonesia,Bangladesh,1997,copra,7000.0
+101,16,Indonesia,Bangladesh,1998,copra,9872.0
+101,16,Indonesia,Bangladesh,2000,copra,6787.0
+101,16,Indonesia,Bangladesh,2005,copra,19.0
+101,16,Indonesia,Bangladesh,2008,copra,120.0
+101,16,Indonesia,Bangladesh,2009,copra,973.0
+101,16,Indonesia,Bangladesh,2010,copra,5315.0
+101,16,Indonesia,Bangladesh,2011,copra,5429.0
+101,16,Indonesia,Bangladesh,2012,copra,6739.0
+101,16,Indonesia,Bangladesh,2013,copra,2542.0
+101,16,Indonesia,Bangladesh,2014,copra,12658.07
+101,16,Indonesia,Bangladesh,2015,copra,16934.4
+101,16,Indonesia,Bangladesh,2016,copra,5507.82
+101,16,Indonesia,Bangladesh,2017,copra,16937.99
+101,16,Indonesia,Bangladesh,2018,copra,20113.14
+101,16,Indonesia,Bangladesh,2019,copra,16210.52
+101,16,Indonesia,Bangladesh,2020,copra,87317.67
+101,16,Indonesia,Bangladesh,2021,copra,23573.79
+101,16,Indonesia,Bangladesh,2022,copra,30712.95
+101,16,Indonesia,Bangladesh,2023,copra,36028.04
+38,33,Sri Lanka,Canada,2017,copra,0.3
+130,202,Malawi,South Africa,1992,copra,26.0
+237,167,Viet Nam,Czechia,2014,copra,29.89
+215,68,United Republic of Tanzania,France,2002,copra,2.0
+101,57,Indonesia,Belarus,2000,copra,10.0
+216,52,Thailand,Azerbaijan,2022,copra,0.5
+237,59,Viet Nam,Egypt,2014,copra,1178.79
+237,59,Viet Nam,Egypt,2015,copra,1263.48
+237,59,Viet Nam,Egypt,2016,copra,329.46
+237,59,Viet Nam,Egypt,2017,copra,260.55
+237,59,Viet Nam,Egypt,2018,copra,1060.91
+237,59,Viet Nam,Egypt,2019,copra,249.11
+237,59,Viet Nam,Egypt,2020,copra,278.94
+237,59,Viet Nam,Egypt,2021,copra,68.54
+144,202,Mozambique,South Africa,2014,copra,50.0
+59,41,Egypt,"China, mainland",2007,copra,13.0
+59,41,Egypt,"China, mainland",2021,copra,0.07
+100,13,India,Bahrain,2007,copra,76.0
+100,13,India,Bahrain,2008,copra,7.0
+100,13,India,Bahrain,2018,copra,0.5
+100,13,India,Bahrain,2019,copra,0.13
+100,13,India,Bahrain,2020,copra,0.11
+100,13,India,Bahrain,2021,copra,2.15
+100,13,India,Bahrain,2022,copra,7.25
+100,13,India,Bahrain,2023,copra,21.02
+20,202,Botswana,South Africa,1993,copra,30.0
+20,202,Botswana,South Africa,2001,copra,30.0
+20,202,Botswana,South Africa,2003,copra,77.0
+216,13,Thailand,Bahrain,2019,copra,19.91
+216,13,Thailand,Bahrain,2020,copra,1.74
+216,13,Thailand,Bahrain,2021,copra,2.36
+216,13,Thailand,Bahrain,2022,copra,0.13
+131,16,Malaysia,Bangladesh,1988,copra,2285.0
+131,16,Malaysia,Bangladesh,1989,copra,8984.0
+131,16,Malaysia,Bangladesh,1990,copra,28792.0
+131,16,Malaysia,Bangladesh,1991,copra,20113.0
+131,16,Malaysia,Bangladesh,1992,copra,29512.0
+131,16,Malaysia,Bangladesh,1993,copra,16114.0
+131,16,Malaysia,Bangladesh,1994,copra,17450.0
+131,16,Malaysia,Bangladesh,1995,copra,4920.0
+131,16,Malaysia,Bangladesh,1996,copra,2300.0
+131,16,Malaysia,Bangladesh,1999,copra,3656.0
+131,16,Malaysia,Bangladesh,2000,copra,3932.0
+131,16,Malaysia,Bangladesh,2001,copra,2096.0
+131,16,Malaysia,Bangladesh,2002,copra,314.0
+131,16,Malaysia,Bangladesh,2003,copra,274.0
+131,16,Malaysia,Bangladesh,2012,copra,440.0
+131,16,Malaysia,Bangladesh,2019,copra,520.0
+98,80,Croatia,Bosnia and Herzegovina,2015,copra,0.1
+98,80,Croatia,Bosnia and Herzegovina,2016,copra,0.05
+98,80,Croatia,Bosnia and Herzegovina,2017,copra,0.03
+185,57,Russian Federation,Belarus,2019,copra,0.02
+53,157,Benin,Nicaragua,1992,copra,1.0
+101,15,Indonesia,Belgium-Luxembourg,1997,copra,2.0
+157,60,Nicaragua,El Salvador,1993,copra,4.0
+59,214,Egypt,"China, Taiwan Province of",2009,copra,24.0
+38,96,Sri Lanka,"China, Hong Kong SAR",2005,copra,11.0
+59,44,Egypt,Colombia,2009,copra,7.0
+118,59,Kuwait,Egypt,2014,copra,67.35
+237,73,Viet Nam,Georgia,2014,copra,14.34
+237,73,Viet Nam,Georgia,2015,copra,15.48
+237,73,Viet Nam,Georgia,2016,copra,13.79
+237,73,Viet Nam,Georgia,2017,copra,15.38
+41,12,"China, mainland",Bahamas,2017,copra,0.35
+41,12,"China, mainland",Bahamas,2018,copra,1.3
+41,12,"China, mainland",Bahamas,2019,copra,0.23
+59,46,Egypt,Congo,2006,copra,1.0
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2014,copra,0.1
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2015,copra,0.1
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2016,copra,0.03
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2017,copra,0.02
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2019,copra,0.01
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2020,copra,0.03
+200,16,Singapore,Bangladesh,1988,copra,2429.0
+200,16,Singapore,Bangladesh,1989,copra,4229.0
+200,16,Singapore,Bangladesh,1990,copra,7261.0
+200,16,Singapore,Bangladesh,1991,copra,8303.0
+200,16,Singapore,Bangladesh,1992,copra,13563.0
+200,16,Singapore,Bangladesh,1993,copra,8280.0
+200,16,Singapore,Bangladesh,1994,copra,10205.0
+200,16,Singapore,Bangladesh,1995,copra,9454.0
+200,16,Singapore,Bangladesh,1996,copra,5990.0
+200,16,Singapore,Bangladesh,1997,copra,909.0
+200,16,Singapore,Bangladesh,1998,copra,416.0
+200,16,Singapore,Bangladesh,2000,copra,373.0
+200,16,Singapore,Bangladesh,2011,copra,300.0
+200,16,Singapore,Bangladesh,2022,copra,45.0
+200,16,Singapore,Bangladesh,2023,copra,131.16
+237,79,Viet Nam,Germany,2014,copra,56.18
+237,79,Viet Nam,Germany,2015,copra,148.32
+237,79,Viet Nam,Germany,2016,copra,80.15
+237,79,Viet Nam,Germany,2019,copra,82.41
+237,79,Viet Nam,Germany,2020,copra,5.74
+231,10,United States of America,Australia,2002,copra,1.0
+68,10,France,Australia,2020,copra,0.51
+59,98,Egypt,Croatia,2009,copra,5.0
+75,229,Gambia,United Kingdom of Great Britain and Northern Ireland,2015,copra,36.43
+216,16,Thailand,Bangladesh,2001,copra,36.0
+216,16,Thailand,Bangladesh,2014,copra,27.0
+216,16,Thailand,Bangladesh,2015,copra,18.75
+216,16,Thailand,Bangladesh,2016,copra,11.9
+216,16,Thailand,Bangladesh,2017,copra,78.0
+216,16,Thailand,Bangladesh,2018,copra,156.0
+216,16,Thailand,Bangladesh,2019,copra,58.57
+216,16,Thailand,Bangladesh,2020,copra,13.5
+59,50,Egypt,Cyprus,2009,copra,19.0
+91,173,Guyana,Poland,1998,copra,97.0
+60,89,El Salvador,Guatemala,1993,copra,774.0
+60,89,El Salvador,Guatemala,1994,copra,595.0
+226,114,Uganda,Kenya,1999,copra,21.0
+226,114,Uganda,Kenya,2000,copra,14.0
+226,114,Uganda,Kenya,2004,copra,10.0
+226,114,Uganda,Kenya,2019,copra,76.3
+226,114,Uganda,Kenya,2020,copra,526.85
+226,114,Uganda,Kenya,2021,copra,653.5
+91,189,Guyana,Saint Lucia,2002,copra,10.0
+91,189,Guyana,Saint Lucia,2004,copra,56.0
+91,189,Guyana,Saint Lucia,2005,copra,7.0
+91,189,Guyana,Saint Lucia,2006,copra,173.0
+91,189,Guyana,Saint Lucia,2007,copra,203.0
+53,200,Benin,Singapore,1993,copra,3.0
+91,189,Guyana,Saint Lucia,2008,copra,199.0
+53,200,Benin,Singapore,1994,copra,2.0
+53,200,Benin,Singapore,1995,copra,1.0
+53,200,Benin,Singapore,1996,copra,10.0
+53,200,Benin,Singapore,1997,copra,20.0
+96,33,"China, Hong Kong SAR",Canada,2013,copra,3.0
+96,33,"China, Hong Kong SAR",Canada,2014,copra,0.4
+96,33,"China, Hong Kong SAR",Canada,2017,copra,1.85
+96,33,"China, Hong Kong SAR",Canada,2019,copra,0.9
+96,33,"China, Hong Kong SAR",Canada,2021,copra,0.68
+100,16,India,Bangladesh,2007,copra,121.0
+100,16,India,Bangladesh,2008,copra,12110.0
+100,16,India,Bangladesh,2009,copra,20128.0
+100,16,India,Bangladesh,2010,copra,15620.0
+100,16,India,Bangladesh,2011,copra,16698.0
+100,16,India,Bangladesh,2012,copra,18198.0
+100,16,India,Bangladesh,2013,copra,13312.0
+100,16,India,Bangladesh,2014,copra,7246.57
+100,16,India,Bangladesh,2016,copra,13367.41
+100,16,India,Bangladesh,2017,copra,3529.0
+100,16,India,Bangladesh,2018,copra,50.0
+100,16,India,Bangladesh,2021,copra,279.64
+100,16,India,Bangladesh,2022,copra,3303.32
+100,16,India,Bangladesh,2023,copra,25.0
+107,68,Côte d'Ivoire,France,2019,copra,0.07
+107,68,Côte d'Ivoire,France,2023,copra,3.07
+237,100,Viet Nam,India,2014,copra,15.37
+237,100,Viet Nam,India,2021,copra,40.06
+66,83,Fiji,Kiribati,2016,copra,2.03
+215,101,United Republic of Tanzania,Indonesia,2002,copra,19.0
+171,96,Philippines,"China, Hong Kong SAR",1989,copra,99.0
+171,96,Philippines,"China, Hong Kong SAR",2006,copra,6.0
+105,50,Israel,Cyprus,1989,copra,13.0
+101,233,Indonesia,Burkina Faso,2021,copra,23.8
+237,103,Viet Nam,Iraq,2019,copra,26.15
+237,103,Viet Nam,Iraq,2021,copra,32.44
+38,214,Sri Lanka,"China, Taiwan Province of",1986,copra,17.0
+38,214,Sri Lanka,"China, Taiwan Province of",1987,copra,36.0
+214,33,"China, Taiwan Province of",Canada,2006,copra,1.0
+214,33,"China, Taiwan Province of",Canada,2013,copra,2.0
+214,33,"China, Taiwan Province of",Canada,2014,copra,5.0
+214,33,"China, Taiwan Province of",Canada,2016,copra,0.16
+214,33,"China, Taiwan Province of",Canada,2020,copra,0.19
+194,59,Saudi Arabia,Egypt,2001,copra,1.0
+173,255,Poland,Belgium,2014,copra,0.01
+237,105,Viet Nam,Israel,2014,copra,27.46
+237,105,Viet Nam,Israel,2015,copra,34.43
+237,105,Viet Nam,Israel,2018,copra,7.17
+237,105,Viet Nam,Israel,2019,copra,3.38
+91,220,Guyana,Trinidad and Tobago,1997,copra,203.0
+91,220,Guyana,Trinidad and Tobago,1998,copra,620.0
+91,220,Guyana,Trinidad and Tobago,1999,copra,1293.0
+91,220,Guyana,Trinidad and Tobago,2000,copra,1162.0
+91,220,Guyana,Trinidad and Tobago,2001,copra,313.0
+91,220,Guyana,Trinidad and Tobago,2002,copra,355.0
+91,220,Guyana,Trinidad and Tobago,2003,copra,230.0
+91,220,Guyana,Trinidad and Tobago,2004,copra,595.0
+91,220,Guyana,Trinidad and Tobago,2005,copra,464.0
+91,220,Guyana,Trinidad and Tobago,2006,copra,257.0
+91,220,Guyana,Trinidad and Tobago,2007,copra,94.0
+91,220,Guyana,Trinidad and Tobago,2008,copra,1098.0
+91,220,Guyana,Trinidad and Tobago,2010,copra,1191.0
+91,220,Guyana,Trinidad and Tobago,2011,copra,601.0
+91,220,Guyana,Trinidad and Tobago,2012,copra,878.0
+91,220,Guyana,Trinidad and Tobago,2013,copra,724.0
+91,220,Guyana,Trinidad and Tobago,2014,copra,263.63
+91,220,Guyana,Trinidad and Tobago,2015,copra,409.97
+91,220,Guyana,Trinidad and Tobago,2016,copra,27.5
+91,220,Guyana,Trinidad and Tobago,2017,copra,0.3
+91,220,Guyana,Trinidad and Tobago,2021,copra,9.09
+91,220,Guyana,Trinidad and Tobago,2023,copra,28.0
+59,68,Egypt,France,1995,copra,1.0
+59,68,Egypt,France,1996,copra,3.0
+59,68,Egypt,France,2011,copra,12.0
+59,68,Egypt,France,2017,copra,0.05
+59,68,Egypt,France,2018,copra,0.3
+79,11,Germany,Austria,2020,copra,0.18
+79,11,Germany,Austria,2023,copra,0.01
+130,251,Malawi,Zambia,2003,copra,3.0
+237,110,Viet Nam,Japan,2016,copra,0.98
+131,26,Malaysia,Brunei Darussalam,1998,copra,17.0
+97,80,Hungary,Bosnia and Herzegovina,2000,copra,190.0
+251,202,Zambia,South Africa,2007,copra,96.0
+251,202,Zambia,South Africa,2014,copra,27.0
+196,165,Seychelles,Pakistan,1990,copra,883.0
+196,165,Seychelles,Pakistan,1991,copra,446.0
+196,165,Seychelles,Pakistan,1992,copra,217.0
+196,165,Seychelles,Pakistan,2001,copra,21.0
+196,165,Seychelles,Pakistan,2002,copra,11.0
+100,255,India,Belgium,2020,copra,0.06
+100,255,India,Belgium,2023,copra,0.08
+220,86,Trinidad and Tobago,Grenada,2004,copra,1.0
+215,110,United Republic of Tanzania,Japan,2000,copra,207.0
+215,110,United Republic of Tanzania,Japan,2004,copra,240.0
+150,11,Netherlands (Kingdom of the),Austria,1990,copra,1.0
+162,214,Norway,"China, Taiwan Province of",2006,copra,1.0
+237,112,Viet Nam,Jordan,2014,copra,177.81
+237,112,Viet Nam,Jordan,2015,copra,13.44
+237,112,Viet Nam,Jordan,2016,copra,14.97
+237,108,Viet Nam,Kazakhstan,2018,copra,0.5
+237,108,Viet Nam,Kazakhstan,2019,copra,3.04
+38,54,Sri Lanka,Denmark,1986,copra,500.0
+102,165,Iran (Islamic Republic of),Pakistan,2017,copra,25.5
+102,165,Iran (Islamic Republic of),Pakistan,2018,copra,23.74
+237,118,Viet Nam,Kuwait,2014,copra,231.02
+237,118,Viet Nam,Kuwait,2015,copra,304.02
+237,118,Viet Nam,Kuwait,2016,copra,33.4
+237,118,Viet Nam,Kuwait,2018,copra,136.73
+237,118,Viet Nam,Kuwait,2019,copra,8.54
+237,118,Viet Nam,Kuwait,2020,copra,43.52
+91,229,Guyana,United Kingdom of Great Britain and Northern Ireland,2002,copra,191.0
+106,11,Italy,Austria,1989,copra,13.0
+106,11,Italy,Austria,1990,copra,10.0
+171,41,Philippines,"China, mainland",1990,copra,2100.0
+171,41,Philippines,"China, mainland",1991,copra,3000.0
+171,41,Philippines,"China, mainland",1997,copra,2200.0
+171,41,Philippines,"China, mainland",2004,copra,38.0
+171,41,Philippines,"China, mainland",2011,copra,3.0
+237,121,Viet Nam,Lebanon,2014,copra,70.97
+237,121,Viet Nam,Lebanon,2015,copra,14.1
+107,79,Côte d'Ivoire,Germany,2005,copra,53.0
+107,79,Côte d'Ivoire,Germany,2011,copra,136.0
+215,114,United Republic of Tanzania,Kenya,2002,copra,5.0
+215,114,United Republic of Tanzania,Kenya,2008,copra,29.0
+237,124,Viet Nam,Libya,2014,copra,107.81
+59,79,Egypt,Germany,1993,copra,1.0
+59,79,Egypt,Germany,1999,copra,1.0
+59,79,Egypt,Germany,2000,copra,6.0
+59,79,Egypt,Germany,2001,copra,8.0
+237,126,Viet Nam,Lithuania,2014,copra,24.44
+59,79,Egypt,Germany,2002,copra,23.0
+237,126,Viet Nam,Lithuania,2015,copra,53.75
+59,79,Egypt,Germany,2005,copra,5.0
+237,126,Viet Nam,Lithuania,2016,copra,26.13
+59,79,Egypt,Germany,2006,copra,1.0
+237,126,Viet Nam,Lithuania,2017,copra,31.1
+59,79,Egypt,Germany,2007,copra,26.0
+237,126,Viet Nam,Lithuania,2018,copra,12.62
+59,79,Egypt,Germany,2009,copra,123.0
+59,79,Egypt,Germany,2017,copra,0.7
+59,79,Egypt,Germany,2022,copra,0.73
+147,202,Namibia,South Africa,1997,copra,35.0
+147,202,Namibia,South Africa,1998,copra,35.0
+101,96,Indonesia,"China, Hong Kong SAR",2003,copra,13.0
+237,131,Viet Nam,Malaysia,2018,copra,12.19
+66,156,Fiji,New Zealand,2005,copra,18.0
+66,156,Fiji,New Zealand,2006,copra,4.0
+66,156,Fiji,New Zealand,2007,copra,1.0
+66,156,Fiji,New Zealand,2015,copra,0.1
+105,68,Israel,France,1989,copra,25.0
+91,231,Guyana,United States of America,2015,copra,27.25
+216,26,Thailand,Brunei Darussalam,1998,copra,1.0
+107,81,Côte d'Ivoire,Ghana,1997,copra,342.0
+107,81,Côte d'Ivoire,Ghana,1998,copra,285.0
+107,81,Côte d'Ivoire,Ghana,1999,copra,1433.0
+107,81,Côte d'Ivoire,Ghana,2000,copra,4427.0
+107,81,Côte d'Ivoire,Ghana,2001,copra,6490.0
+107,81,Côte d'Ivoire,Ghana,2002,copra,4451.0
+107,81,Côte d'Ivoire,Ghana,2003,copra,5030.0
+107,81,Côte d'Ivoire,Ghana,2004,copra,1460.0
+107,81,Côte d'Ivoire,Ghana,2005,copra,1855.0
+107,81,Côte d'Ivoire,Ghana,2006,copra,1604.0
+107,81,Côte d'Ivoire,Ghana,2007,copra,897.0
+107,81,Côte d'Ivoire,Ghana,2008,copra,287.0
+107,81,Côte d'Ivoire,Ghana,2011,copra,120.0
+107,81,Côte d'Ivoire,Ghana,2014,copra,15.0
+196,202,Seychelles,South Africa,1994,copra,101.0
+196,202,Seychelles,South Africa,1995,copra,157.0
+38,68,Sri Lanka,France,2000,copra,11.0
+38,68,Sri Lanka,France,2001,copra,11.0
+38,68,Sri Lanka,France,2019,copra,2.7
+237,143,Viet Nam,Morocco,2018,copra,81.15
+237,143,Viet Nam,Morocco,2019,copra,133.52
+237,143,Viet Nam,Morocco,2020,copra,67.54
+237,143,Viet Nam,Morocco,2021,copra,252.01
+100,18,India,Bhutan,2020,copra,9.69
+100,18,India,Bhutan,2021,copra,23.99
+100,18,India,Bhutan,2022,copra,35.88
+100,18,India,Bhutan,2023,copra,36.86
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2015,copra,0.02
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2019,copra,0.11
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2021,copra,4.14
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2022,copra,11.14
+237,28,Viet Nam,Myanmar,2019,copra,0.35
+200,26,Singapore,Brunei Darussalam,1992,copra,5.0
+59,84,Egypt,Greece,1995,copra,2.0
+59,84,Egypt,Greece,2000,copra,10.0
+59,84,Egypt,Greece,2003,copra,9.0
+59,84,Egypt,Greece,2017,copra,0.07
+237,150,Viet Nam,Netherlands (Kingdom of the),2016,copra,0.49
+56,220,Dominican Republic,Trinidad and Tobago,2017,copra,0.13
+56,220,Dominican Republic,Trinidad and Tobago,2018,copra,0.59
+15,68,Belgium-Luxembourg,France,1990,copra,26.0
+15,68,Belgium-Luxembourg,France,1991,copra,4.0
+15,68,Belgium-Luxembourg,France,1993,copra,5.0
+129,182,Madagascar,Réunion,1999,copra,6.0
+225,41,United Arab Emirates,"China, mainland",2017,copra,0.25
+81,124,Ghana,Libya,2000,copra,9.0
+237,156,Viet Nam,New Zealand,2021,copra,2.97
+171,214,Philippines,"China, Taiwan Province of",1986,copra,4991.0
+171,214,Philippines,"China, Taiwan Province of",1987,copra,8566.0
+171,214,Philippines,"China, Taiwan Province of",1988,copra,8578.0
+171,214,Philippines,"China, Taiwan Province of",1989,copra,4320.0
+171,214,Philippines,"China, Taiwan Province of",1990,copra,1962.0
+171,214,Philippines,"China, Taiwan Province of",1995,copra,54.0
+171,214,Philippines,"China, Taiwan Province of",1996,copra,161.0
+171,214,Philippines,"China, Taiwan Province of",2001,copra,12.0
+171,214,Philippines,"China, Taiwan Province of",2012,copra,121.0
+237,159,Viet Nam,Nigeria,2018,copra,27.18
+118,103,Kuwait,Iraq,2013,copra,1.0
+216,115,Thailand,Cambodia,2014,copra,1.4
+216,115,Thailand,Cambodia,2015,copra,0.3
+216,115,Thailand,Cambodia,2020,copra,0.05
+48,89,Costa Rica,Guatemala,1994,copra,5.0
+56,231,Dominican Republic,United States of America,2017,copra,0.31
+237,165,Viet Nam,Pakistan,2018,copra,31.93
+237,165,Viet Nam,Pakistan,2019,copra,12.62
+59,100,Egypt,India,2007,copra,11.0
+59,100,Egypt,India,2011,copra,252.0
+101,41,Indonesia,"China, mainland",2001,copra,25.0
+101,41,Indonesia,"China, mainland",2005,copra,897.0
+101,41,Indonesia,"China, mainland",2006,copra,2756.0
+101,41,Indonesia,"China, mainland",2007,copra,1430.0
+101,41,Indonesia,"China, mainland",2008,copra,1433.0
+101,41,Indonesia,"China, mainland",2009,copra,832.0
+101,41,Indonesia,"China, mainland",2011,copra,25.0
+101,41,Indonesia,"China, mainland",2012,copra,90.0
+101,41,Indonesia,"China, mainland",2018,copra,0.05
+101,41,Indonesia,"China, mainland",2021,copra,50.01
+101,41,Indonesia,"China, mainland",2023,copra,28.0
+215,144,United Republic of Tanzania,Mozambique,2008,copra,40.0
+81,150,Ghana,Netherlands (Kingdom of the),2000,copra,38.0
+100,26,India,Brunei Darussalam,2021,copra,0.33
+100,26,India,Brunei Darussalam,2022,copra,0.15
+100,26,India,Brunei Darussalam,2023,copra,0.28
+215,150,United Republic of Tanzania,Netherlands (Kingdom of the),2011,copra,882.0
+237,173,Viet Nam,Poland,2014,copra,159.81
+237,173,Viet Nam,Poland,2015,copra,147.39
+237,173,Viet Nam,Poland,2016,copra,26.05
+237,173,Viet Nam,Poland,2018,copra,19.33
+165,84,Pakistan,Greece,2020,copra,0.1
+165,84,Pakistan,Greece,2023,copra,0.05
+226,277,Uganda,South Sudan,2014,copra,3.25
+66,117,Fiji,Republic of Korea,2009,copra,165.0
+66,117,Fiji,Republic of Korea,2010,copra,145.0
+66,117,Fiji,Republic of Korea,2011,copra,37.0
+157,150,Nicaragua,Netherlands (Kingdom of the),1993,copra,33.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2001,copra,3.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2014,copra,0.2
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2015,copra,0.4
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2016,copra,0.71
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2017,copra,0.59
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2018,copra,0.08
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2019,copra,0.21
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2020,copra,0.72
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2023,copra,4.0
+237,179,Viet Nam,Qatar,2018,copra,12.8
+59,103,Egypt,Iraq,2000,copra,30.0
+59,103,Egypt,Iraq,2007,copra,40.0
+59,103,Egypt,Iraq,2009,copra,30.0
+59,103,Egypt,Iraq,2011,copra,354.0
+59,103,Egypt,Iraq,2013,copra,41.0
+59,103,Egypt,Iraq,2017,copra,5.56
+59,103,Egypt,Iraq,2020,copra,40.53
+216,32,Thailand,Cameroon,2017,copra,20.52
+237,117,Viet Nam,Republic of Korea,2016,copra,7.19
+237,117,Viet Nam,Republic of Korea,2017,copra,20.12
+237,117,Viet Nam,Republic of Korea,2018,copra,1.94
+237,117,Viet Nam,Republic of Korea,2019,copra,8.71
+237,117,Viet Nam,Republic of Korea,2020,copra,4.35
+237,117,Viet Nam,Republic of Korea,2021,copra,0.65
+66,244,Fiji,Samoa,1994,copra,76.0
+89,95,Guatemala,Honduras,1999,copra,17.0
+89,95,Guatemala,Honduras,2001,copra,5.0
+100,233,India,Burkina Faso,2023,copra,0.01
+96,41,"China, Hong Kong SAR","China, mainland",1995,copra,65.0
+96,41,"China, Hong Kong SAR","China, mainland",1997,copra,23.0
+96,41,"China, Hong Kong SAR","China, mainland",1998,copra,15.0
+96,41,"China, Hong Kong SAR","China, mainland",1999,copra,5.0
+96,41,"China, Hong Kong SAR","China, mainland",2000,copra,4.0
+96,41,"China, Hong Kong SAR","China, mainland",2001,copra,19.0
+96,41,"China, Hong Kong SAR","China, mainland",2002,copra,8.0
+96,41,"China, Hong Kong SAR","China, mainland",2003,copra,5.0
+96,41,"China, Hong Kong SAR","China, mainland",2004,copra,5.0
+96,41,"China, Hong Kong SAR","China, mainland",2006,copra,1.0
+96,41,"China, Hong Kong SAR","China, mainland",2017,copra,19.71
+38,97,Sri Lanka,Hungary,2019,copra,3.35
+38,97,Sri Lanka,Hungary,2020,copra,1.1
+81,158,Ghana,Niger,2000,copra,90.0
+80,273,Bosnia and Herzegovina,Montenegro,2019,copra,0.01
+80,273,Bosnia and Herzegovina,Montenegro,2021,copra,0.01
+100,115,India,Cambodia,2019,copra,0.05
+100,115,India,Cambodia,2022,copra,0.04
+216,33,Thailand,Canada,2015,copra,0.4
+216,33,Thailand,Canada,2016,copra,151.85
+216,33,Thailand,Canada,2017,copra,143.64
+216,33,Thailand,Canada,2018,copra,510.22
+216,33,Thailand,Canada,2019,copra,167.59
+216,33,Thailand,Canada,2020,copra,84.39
+216,33,Thailand,Canada,2022,copra,0.4
+237,183,Viet Nam,Romania,2018,copra,10.05
+59,105,Egypt,Israel,1995,copra,120.0
+59,105,Egypt,Israel,1996,copra,9.0
+59,105,Egypt,Israel,1999,copra,1.0
+59,105,Egypt,Israel,2003,copra,68.0
+59,105,Egypt,Israel,2005,copra,25.0
+59,105,Egypt,Israel,2006,copra,16.0
+59,105,Egypt,Israel,2009,copra,31.0
+59,105,Egypt,Israel,2011,copra,12.0
+59,105,Egypt,Israel,2013,copra,13.0
+59,105,Egypt,Israel,2018,copra,10.35
+237,185,Viet Nam,Russian Federation,2014,copra,91.89
+237,185,Viet Nam,Russian Federation,2015,copra,28.17
+66,200,Fiji,Singapore,2001,copra,111.0
+66,200,Fiji,Singapore,2006,copra,158.0
+38,100,Sri Lanka,India,1988,copra,400.0
+38,100,Sri Lanka,India,1989,copra,200.0
+38,100,Sri Lanka,India,1990,copra,10.0
+38,100,Sri Lanka,India,1993,copra,83.0
+38,100,Sri Lanka,India,1994,copra,10.0
+38,100,Sri Lanka,India,2000,copra,101.0
+38,100,Sri Lanka,India,2001,copra,11.0
+38,100,Sri Lanka,India,2003,copra,162.0
+38,100,Sri Lanka,India,2004,copra,1080.0
+38,100,Sri Lanka,India,2005,copra,660.0
+38,100,Sri Lanka,India,2008,copra,11.0
+38,100,Sri Lanka,India,2011,copra,11.0
+48,95,Costa Rica,Honduras,2011,copra,1.0
+237,194,Viet Nam,Saudi Arabia,2014,copra,319.15
+237,194,Viet Nam,Saudi Arabia,2015,copra,560.77
+237,194,Viet Nam,Saudi Arabia,2016,copra,22.66
+237,194,Viet Nam,Saudi Arabia,2017,copra,246.43
+237,194,Viet Nam,Saudi Arabia,2018,copra,135.69
+237,194,Viet Nam,Saudi Arabia,2019,copra,42.29
+237,194,Viet Nam,Saudi Arabia,2020,copra,40.05
+237,194,Viet Nam,Saudi Arabia,2021,copra,39.69
+236,220,Venezuela (Bolivarian Republic of),Trinidad and Tobago,1996,copra,624.0
+236,220,Venezuela (Bolivarian Republic of),Trinidad and Tobago,1997,copra,690.0
+214,41,"China, Taiwan Province of","China, mainland",2012,copra,10.0
+214,41,"China, Taiwan Province of","China, mainland",2013,copra,20.0
+214,41,"China, Taiwan Province of","China, mainland",2014,copra,1.0
+214,41,"China, Taiwan Province of","China, mainland",2015,copra,0.64
+81,165,Ghana,Pakistan,2009,copra,16.0
+237,195,Viet Nam,Senegal,2018,copra,1.2
+237,195,Viet Nam,Senegal,2019,copra,39.42
+59,106,Egypt,Italy,1995,copra,2.0
+59,106,Egypt,Italy,1999,copra,4.0
+59,106,Egypt,Italy,2000,copra,2.0
+59,106,Egypt,Italy,2005,copra,35.0
+59,106,Egypt,Italy,2007,copra,2.0
+59,106,Egypt,Italy,2009,copra,42.0
+59,106,Egypt,Italy,2011,copra,5.0
+59,106,Egypt,Italy,2013,copra,1.0
+59,106,Egypt,Italy,2017,copra,0.09
+59,106,Egypt,Italy,2020,copra,4.59
+237,200,Viet Nam,Singapore,2018,copra,17.0
+237,200,Viet Nam,Singapore,2021,copra,16.77
+15,79,Belgium-Luxembourg,Germany,1995,copra,12391.0
+15,79,Belgium-Luxembourg,Germany,1996,copra,21315.0
+15,79,Belgium-Luxembourg,Germany,1997,copra,46571.0
+15,79,Belgium-Luxembourg,Germany,1998,copra,54532.0
+100,33,India,Canada,2001,copra,2.0
+100,33,India,Canada,2008,copra,1.0
+100,33,India,Canada,2009,copra,3.0
+100,33,India,Canada,2011,copra,2.0
+100,33,India,Canada,2012,copra,3.0
+100,33,India,Canada,2013,copra,3.0
+100,33,India,Canada,2014,copra,1.45
+100,33,India,Canada,2016,copra,0.6
+100,33,India,Canada,2017,copra,11.64
+100,33,India,Canada,2018,copra,10.49
+100,33,India,Canada,2019,copra,23.32
+100,33,India,Canada,2020,copra,19.2
+100,33,India,Canada,2021,copra,22.25
+100,33,India,Canada,2022,copra,23.49
+100,33,India,Canada,2023,copra,27.45
+101,214,Indonesia,"China, Taiwan Province of",1990,copra,50.0
+101,214,Indonesia,"China, Taiwan Province of",1992,copra,109.0
+101,214,Indonesia,"China, Taiwan Province of",2001,copra,17.0
+101,214,Indonesia,"China, Taiwan Province of",2002,copra,18.0
+101,214,Indonesia,"China, Taiwan Province of",2003,copra,2028.0
+101,214,Indonesia,"China, Taiwan Province of",2004,copra,884.0
+101,214,Indonesia,"China, Taiwan Province of",2005,copra,4656.0
+101,214,Indonesia,"China, Taiwan Province of",2006,copra,8167.0
+101,214,Indonesia,"China, Taiwan Province of",2007,copra,13048.0
+101,214,Indonesia,"China, Taiwan Province of",2008,copra,5681.0
+101,214,Indonesia,"China, Taiwan Province of",2009,copra,2951.0
+101,214,Indonesia,"China, Taiwan Province of",2010,copra,26.0
+101,214,Indonesia,"China, Taiwan Province of",2011,copra,260.0
+101,214,Indonesia,"China, Taiwan Province of",2012,copra,2392.0
+101,214,Indonesia,"China, Taiwan Province of",2013,copra,156.0
+237,202,Viet Nam,South Africa,2014,copra,1410.36
+237,202,Viet Nam,South Africa,2015,copra,1215.75
+237,202,Viet Nam,South Africa,2016,copra,325.11
+237,202,Viet Nam,South Africa,2018,copra,37.69
+237,202,Viet Nam,South Africa,2019,copra,29.38
+237,202,Viet Nam,South Africa,2020,copra,19.78
+237,202,Viet Nam,South Africa,2021,copra,4.57
+114,165,Kenya,Pakistan,1987,copra,8.0
+114,165,Kenya,Pakistan,1988,copra,8.0
+221,165,Oman,Pakistan,2019,copra,8.6
+95,231,Honduras,United States of America,1996,copra,8.0
+95,231,Honduras,United States of America,1997,copra,7.0
+95,231,Honduras,United States of America,1998,copra,1.0
+95,231,Honduras,United States of America,1999,copra,1.0
+95,231,Honduras,United States of America,2000,copra,1.0
+95,231,Honduras,United States of America,2001,copra,1.0
+95,231,Honduras,United States of America,2002,copra,2.0
+215,184,United Republic of Tanzania,Rwanda,2003,copra,1.0
+215,184,United Republic of Tanzania,Rwanda,2010,copra,6.0
+237,203,Viet Nam,Spain,2021,copra,29.31
+59,110,Egypt,Japan,2006,copra,1.0
+104,68,Ireland,France,1992,copra,1.0
+237,38,Viet Nam,Sri Lanka,2018,copra,306.44
+81,195,Ghana,Senegal,2000,copra,17.0
+107,126,Côte d'Ivoire,Lithuania,2014,copra,10.39
+107,126,Côte d'Ivoire,Lithuania,2017,copra,36.63
+107,126,Côte d'Ivoire,Lithuania,2018,copra,29.0
+107,131,Côte d'Ivoire,Malaysia,2013,copra,15.0
+59,112,Egypt,Jordan,1994,copra,6.0
+59,112,Egypt,Jordan,1996,copra,12.0
+59,112,Egypt,Jordan,1998,copra,72.0
+59,112,Egypt,Jordan,1999,copra,25.0
+59,112,Egypt,Jordan,2000,copra,6.0
+59,112,Egypt,Jordan,2001,copra,5.0
+59,112,Egypt,Jordan,2002,copra,5.0
+59,112,Egypt,Jordan,2003,copra,39.0
+59,112,Egypt,Jordan,2004,copra,87.0
+59,112,Egypt,Jordan,2007,copra,1.0
+59,112,Egypt,Jordan,2009,copra,135.0
+59,112,Egypt,Jordan,2011,copra,872.0
+59,112,Egypt,Jordan,2013,copra,493.0
+59,112,Egypt,Jordan,2017,copra,417.49
+59,112,Egypt,Jordan,2018,copra,55.51
+59,112,Egypt,Jordan,2019,copra,52.3
+59,112,Egypt,Jordan,2020,copra,157.1
+59,112,Egypt,Jordan,2021,copra,1.23
+59,112,Egypt,Jordan,2022,copra,19.24
+59,112,Egypt,Jordan,2023,copra,8.77
+237,212,Viet Nam,Syrian Arab Republic,2014,copra,177.39
+237,212,Viet Nam,Syrian Arab Republic,2015,copra,311.81
+237,212,Viet Nam,Syrian Arab Republic,2016,copra,90.9
+237,212,Viet Nam,Syrian Arab Republic,2017,copra,16.63
+38,102,Sri Lanka,Iran (Islamic Republic of),1995,copra,94.0
+38,102,Sri Lanka,Iran (Islamic Republic of),1996,copra,40.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2001,copra,11.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2004,copra,15.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2005,copra,19.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2010,copra,9.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2011,copra,18.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2012,copra,18.0
+38,102,Sri Lanka,Iran (Islamic Republic of),2014,copra,18.3
+38,102,Sri Lanka,Iran (Islamic Republic of),2015,copra,21.0
+107,133,Côte d'Ivoire,Mali,2000,copra,100.0
+107,133,Côte d'Ivoire,Mali,2007,copra,38.0
+255,96,Belgium,"China, Hong Kong SAR",2016,copra,5.8
+38,103,Sri Lanka,Iraq,2010,copra,11.0
+171,79,Philippines,Germany,1999,copra,1.0
+68,255,France,Belgium,2000,copra,2.0
+68,255,France,Belgium,2002,copra,1.0
+68,255,France,Belgium,2007,copra,92.0
+68,255,France,Belgium,2008,copra,9.0
+68,255,France,Belgium,2013,copra,1.0
+68,255,France,Belgium,2018,copra,0.09
+105,106,Israel,Italy,1989,copra,19.0
+238,231,Ethiopia,United States of America,2008,copra,54.0
+238,231,Ethiopia,United States of America,2017,copra,0.01
+100,40,India,Chile,2019,copra,0.04
+221,179,Oman,Qatar,2019,copra,0.81
+221,179,Oman,Qatar,2020,copra,0.72
+216,96,Thailand,"China, Hong Kong SAR",2012,copra,49.0
+216,96,Thailand,"China, Hong Kong SAR",2013,copra,81.0
+216,96,Thailand,"China, Hong Kong SAR",2014,copra,0.05
+216,96,Thailand,"China, Hong Kong SAR",2015,copra,0.07
+216,96,Thailand,"China, Hong Kong SAR",2016,copra,314.28
+216,96,Thailand,"China, Hong Kong SAR",2018,copra,61.95
+216,96,Thailand,"China, Hong Kong SAR",2019,copra,340.43
+216,96,Thailand,"China, Hong Kong SAR",2020,copra,981.67
+216,96,Thailand,"China, Hong Kong SAR",2021,copra,20.61
+216,96,Thailand,"China, Hong Kong SAR",2023,copra,0.02
+237,222,Viet Nam,Tunisia,2015,copra,12.73
+237,222,Viet Nam,Tunisia,2016,copra,30.77
+237,223,Viet Nam,Türkiye,2014,copra,31.06
+237,223,Viet Nam,Türkiye,2018,copra,155.04
+131,41,Malaysia,"China, mainland",1995,copra,1250.0
+131,41,Malaysia,"China, mainland",1996,copra,1243.0
+131,41,Malaysia,"China, mainland",1998,copra,8.0
+131,41,Malaysia,"China, mainland",2006,copra,4.0
+131,41,Malaysia,"China, mainland",2019,copra,130.0
+131,41,Malaysia,"China, mainland",2022,copra,133.39
+131,41,Malaysia,"China, mainland",2023,copra,35.16
+38,106,Sri Lanka,Italy,2020,copra,0.03
+237,230,Viet Nam,Ukraine,2014,copra,106.21
+237,230,Viet Nam,Ukraine,2018,copra,12.95
+66,229,Fiji,United Kingdom of Great Britain and Northern Ireland,1986,copra,495.0
+237,225,Viet Nam,United Arab Emirates,2014,copra,1270.59
+237,225,Viet Nam,United Arab Emirates,2015,copra,1241.22
+237,225,Viet Nam,United Arab Emirates,2016,copra,110.15
+237,225,Viet Nam,United Arab Emirates,2017,copra,159.02
+237,225,Viet Nam,United Arab Emirates,2018,copra,405.4
+237,225,Viet Nam,United Arab Emirates,2019,copra,235.69
+237,225,Viet Nam,United Arab Emirates,2020,copra,223.59
+237,225,Viet Nam,United Arab Emirates,2021,copra,109.49
+100,96,India,"China, Hong Kong SAR",2013,copra,1.0
+100,96,India,"China, Hong Kong SAR",2015,copra,120.9
+100,96,India,"China, Hong Kong SAR",2016,copra,243.68
+100,96,India,"China, Hong Kong SAR",2017,copra,131.23
+100,96,India,"China, Hong Kong SAR",2018,copra,75.7
+100,96,India,"China, Hong Kong SAR",2019,copra,71.48
+100,96,India,"China, Hong Kong SAR",2020,copra,85.23
+100,96,India,"China, Hong Kong SAR",2021,copra,83.05
+100,96,India,"China, Hong Kong SAR",2022,copra,109.55
+100,96,India,"China, Hong Kong SAR",2023,copra,122.46
+59,118,Egypt,Kuwait,1993,copra,5.0
+59,118,Egypt,Kuwait,1994,copra,26.0
+59,118,Egypt,Kuwait,1995,copra,50.0
+59,118,Egypt,Kuwait,1996,copra,507.0
+59,118,Egypt,Kuwait,1998,copra,213.0
+59,118,Egypt,Kuwait,1999,copra,213.0
+59,118,Egypt,Kuwait,2000,copra,163.0
+59,118,Egypt,Kuwait,2001,copra,63.0
+59,118,Egypt,Kuwait,2002,copra,89.0
+59,118,Egypt,Kuwait,2003,copra,92.0
+59,118,Egypt,Kuwait,2004,copra,31.0
+59,118,Egypt,Kuwait,2005,copra,95.0
+59,118,Egypt,Kuwait,2006,copra,58.0
+59,118,Egypt,Kuwait,2007,copra,35.0
+59,118,Egypt,Kuwait,2009,copra,397.0
+59,118,Egypt,Kuwait,2011,copra,490.0
+59,118,Egypt,Kuwait,2013,copra,276.0
+59,118,Egypt,Kuwait,2017,copra,163.09
+59,118,Egypt,Kuwait,2018,copra,189.58
+59,118,Egypt,Kuwait,2019,copra,69.75
+59,118,Egypt,Kuwait,2020,copra,66.36
+59,118,Egypt,Kuwait,2021,copra,19.73
+59,118,Egypt,Kuwait,2022,copra,0.45
+59,118,Egypt,Kuwait,2023,copra,0.05
+237,229,Viet Nam,United Kingdom of Great Britain and Northern Ireland,2016,copra,1.29
+237,229,Viet Nam,United Kingdom of Great Britain and Northern Ireland,2017,copra,0.14
+95,236,Honduras,Venezuela (Bolivarian Republic of),1995,copra,1.0
+95,236,Honduras,Venezuela (Bolivarian Republic of),1997,copra,1.0
+200,96,Singapore,"China, Hong Kong SAR",1992,copra,19.0
+101,250,Indonesia,Democratic Republic of the Congo,2018,copra,24.43
+41,96,"China, mainland","China, Hong Kong SAR",1987,copra,3.0
+41,96,"China, mainland","China, Hong Kong SAR",1991,copra,1.0
+41,96,"China, mainland","China, Hong Kong SAR",1993,copra,1.0
+41,96,"China, mainland","China, Hong Kong SAR",1994,copra,1.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,copra,6.0
+41,96,"China, mainland","China, Hong Kong SAR",1999,copra,7.0
+41,96,"China, mainland","China, Hong Kong SAR",2000,copra,2.0
+41,96,"China, mainland","China, Hong Kong SAR",2001,copra,11.0
+41,96,"China, mainland","China, Hong Kong SAR",2002,copra,7.0
+41,96,"China, mainland","China, Hong Kong SAR",2003,copra,5.0
+41,96,"China, mainland","China, Hong Kong SAR",2004,copra,2.0
+41,96,"China, mainland","China, Hong Kong SAR",2005,copra,2.0
+171,100,Philippines,India,1997,copra,800.0
+171,100,Philippines,India,1998,copra,100.0
+171,100,Philippines,India,2002,copra,344.0
+107,150,Côte d'Ivoire,Netherlands (Kingdom of the),2006,copra,332.0
+231,255,United States of America,Belgium,2005,copra,4.0
+237,231,Viet Nam,United States of America,2014,copra,2.03
+237,231,Viet Nam,United States of America,2016,copra,28.8
+237,231,Viet Nam,United States of America,2017,copra,1.55
+237,231,Viet Nam,United States of America,2018,copra,3.0
+214,56,"China, Taiwan Province of",Dominican Republic,2018,copra,0.22
+38,110,Sri Lanka,Japan,2020,copra,0.2
+38,110,Sri Lanka,Japan,2021,copra,1.1
+59,121,Egypt,Lebanon,1999,copra,26.0
+59,121,Egypt,Lebanon,2001,copra,15.0
+59,121,Egypt,Lebanon,2002,copra,30.0
+59,121,Egypt,Lebanon,2003,copra,19.0
+59,121,Egypt,Lebanon,2004,copra,37.0
+59,121,Egypt,Lebanon,2005,copra,155.0
+59,121,Egypt,Lebanon,2006,copra,114.0
+59,121,Egypt,Lebanon,2007,copra,151.0
+59,121,Egypt,Lebanon,2009,copra,1057.0
+59,121,Egypt,Lebanon,2011,copra,1687.0
+59,121,Egypt,Lebanon,2013,copra,211.0
+59,121,Egypt,Lebanon,2017,copra,255.81
+59,121,Egypt,Lebanon,2018,copra,23.73
+59,121,Egypt,Lebanon,2019,copra,28.0
+59,121,Egypt,Lebanon,2020,copra,131.66
+59,121,Egypt,Lebanon,2021,copra,93.57
+59,121,Egypt,Lebanon,2022,copra,10.19
+59,121,Egypt,Lebanon,2023,copra,7.34
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1986,copra,5724.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1987,copra,364.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1988,copra,944.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1989,copra,430.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2008,copra,9.0
+101,59,Indonesia,Egypt,1999,copra,75.0
+101,59,Indonesia,Egypt,2011,copra,12.0
+150,255,Netherlands (Kingdom of the),Belgium,2017,copra,0.05
+150,255,Netherlands (Kingdom of the),Belgium,2018,copra,0.06
+150,255,Netherlands (Kingdom of the),Belgium,2019,copra,0.02
+150,255,Netherlands (Kingdom of the),Belgium,2020,copra,0.1
+150,255,Netherlands (Kingdom of the),Belgium,2021,copra,0.01
+150,255,Netherlands (Kingdom of the),Belgium,2022,copra,0.01
+237,249,Viet Nam,Yemen,2015,copra,59.22
+100,41,India,"China, mainland",2022,copra,0.02
+171,101,Philippines,Indonesia,1986,copra,36024.0
+171,101,Philippines,Indonesia,1987,copra,26357.0
+171,101,Philippines,Indonesia,1989,copra,7727.0
+38,112,Sri Lanka,Jordan,1991,copra,34.0
+38,112,Sri Lanka,Jordan,1992,copra,42.0
+38,112,Sri Lanka,Jordan,2003,copra,10.0
+38,112,Sri Lanka,Jordan,2004,copra,15.0
+38,112,Sri Lanka,Jordan,2005,copra,22.0
+79,255,Germany,Belgium,2007,copra,57.0
+79,255,Germany,Belgium,2008,copra,10.0
+79,255,Germany,Belgium,2009,copra,8.0
+79,255,Germany,Belgium,2010,copra,17.0
+107,159,Côte d'Ivoire,Nigeria,2002,copra,25.0
+107,159,Côte d'Ivoire,Nigeria,2006,copra,27.0
+101,64,Indonesia,Faroe Islands,2005,copra,21.0
+59,124,Egypt,Libya,1995,copra,19.0
+59,124,Egypt,Libya,2009,copra,153.0
+59,124,Egypt,Libya,2011,copra,178.0
+59,124,Egypt,Libya,2013,copra,69.0
+59,124,Egypt,Libya,2017,copra,0.13
+59,124,Egypt,Libya,2018,copra,16.8
+59,124,Egypt,Libya,2019,copra,109.0
+59,124,Egypt,Libya,2020,copra,16.18
+59,124,Egypt,Libya,2021,copra,6.24
+59,124,Egypt,Libya,2022,copra,67.96
+59,124,Egypt,Libya,2023,copra,103.3
+107,165,Côte d'Ivoire,Pakistan,2018,copra,25.0
+107,165,Côte d'Ivoire,Pakistan,2019,copra,47.0
+107,165,Côte d'Ivoire,Pakistan,2020,copra,115.0
+107,165,Côte d'Ivoire,Pakistan,2021,copra,17.5
+38,118,Sri Lanka,Kuwait,1986,copra,2.0
+38,118,Sri Lanka,Kuwait,1989,copra,2.0
+210,54,Sweden,Denmark,2014,copra,0.08
+210,54,Sweden,Denmark,2019,copra,0.03
+210,54,Sweden,Denmark,2020,copra,0.05
+210,54,Sweden,Denmark,2021,copra,0.03
+165,131,Pakistan,Malaysia,2015,copra,0.85
+231,15,United States of America,Belgium-Luxembourg,1996,copra,17.0
+216,41,Thailand,"China, mainland",2007,copra,17.0
+216,41,Thailand,"China, mainland",2008,copra,648.0
+216,41,Thailand,"China, mainland",2009,copra,46.0
+216,41,Thailand,"China, mainland",2014,copra,136.8
+216,41,Thailand,"China, mainland",2015,copra,6844.12
+216,41,Thailand,"China, mainland",2016,copra,22621.4
+216,41,Thailand,"China, mainland",2017,copra,33501.84
+216,41,Thailand,"China, mainland",2018,copra,69594.23
+216,41,Thailand,"China, mainland",2019,copra,94579.0
+216,41,Thailand,"China, mainland",2020,copra,41730.23
+216,41,Thailand,"China, mainland",2021,copra,4687.26
+216,41,Thailand,"China, mainland",2022,copra,2503.82
+216,41,Thailand,"China, mainland",2023,copra,888.26
+215,226,United Republic of Tanzania,Uganda,2005,copra,102.0
+215,226,United Republic of Tanzania,Uganda,2006,copra,30.0
+215,226,United Republic of Tanzania,Uganda,2007,copra,55.0
+215,226,United Republic of Tanzania,Uganda,2011,copra,130.0
+131,214,Malaysia,"China, Taiwan Province of",1988,copra,100.0
+131,214,Malaysia,"China, Taiwan Province of",1989,copra,9.0
+131,214,Malaysia,"China, Taiwan Province of",2001,copra,20.0
+101,68,Indonesia,France,1998,copra,8222.0
+38,121,Sri Lanka,Lebanon,1986,copra,15.0
+38,121,Sri Lanka,Lebanon,1992,copra,22.0
+38,121,Sri Lanka,Lebanon,1998,copra,22.0
+38,121,Sri Lanka,Lebanon,2000,copra,21.0
+38,121,Sri Lanka,Lebanon,2005,copra,32.0
+38,121,Sri Lanka,Lebanon,2008,copra,11.0
+105,150,Israel,Netherlands (Kingdom of the),1989,copra,25.0
+107,185,Côte d'Ivoire,Russian Federation,2011,copra,147.0
+59,133,Egypt,Mali,2023,copra,0.12
+38,131,Sri Lanka,Malaysia,1999,copra,11.0
+38,131,Sri Lanka,Malaysia,2000,copra,11.0
+38,131,Sri Lanka,Malaysia,2002,copra,21.0
+48,157,Costa Rica,Nicaragua,2017,copra,3.62
+11,167,Austria,Czechia,1995,copra,3.0
+107,195,Côte d'Ivoire,Senegal,2023,copra,39.2
+68,15,France,Belgium-Luxembourg,1987,copra,1.0
+68,15,France,Belgium-Luxembourg,1988,copra,45.0
+68,15,France,Belgium-Luxembourg,1989,copra,27.0
+68,15,France,Belgium-Luxembourg,1990,copra,2.0
+68,15,France,Belgium-Luxembourg,1991,copra,2.0
+68,15,France,Belgium-Luxembourg,1992,copra,2.0
+68,15,France,Belgium-Luxembourg,1995,copra,1225.0
+68,15,France,Belgium-Luxembourg,1996,copra,1225.0
+68,15,France,Belgium-Luxembourg,1997,copra,13.0
+68,15,France,Belgium-Luxembourg,1999,copra,4.0
+200,41,Singapore,"China, mainland",2021,copra,63.81
+59,143,Egypt,Morocco,2011,copra,123.0
+59,143,Egypt,Morocco,2017,copra,0.14
+118,194,Kuwait,Saudi Arabia,2017,copra,0.5
+100,44,India,Colombia,2011,copra,21.0
+100,44,India,Colombia,2014,copra,20.5
+38,132,Sri Lanka,Maldives,1990,copra,19.0
+100,46,India,Congo,2021,copra,0.01
+101,79,Indonesia,Germany,1994,copra,13000.0
+101,79,Indonesia,Germany,1997,copra,7.0
+59,150,Egypt,Netherlands (Kingdom of the),1994,copra,1.0
+59,150,Egypt,Netherlands (Kingdom of the),1996,copra,1.0
+59,150,Egypt,Netherlands (Kingdom of the),2004,copra,10.0
+59,150,Egypt,Netherlands (Kingdom of the),2006,copra,51.0
+59,150,Egypt,Netherlands (Kingdom of the),2017,copra,35.16
+59,150,Egypt,Netherlands (Kingdom of the),2020,copra,17.25
+59,150,Egypt,Netherlands (Kingdom of the),2021,copra,31.7
+59,150,Egypt,Netherlands (Kingdom of the),2022,copra,8.32
+81,231,Ghana,United States of America,2000,copra,35.0
+171,110,Philippines,Japan,1986,copra,18433.0
+171,110,Philippines,Japan,1987,copra,28813.0
+171,110,Philippines,Japan,1988,copra,31312.0
+171,110,Philippines,Japan,1989,copra,5866.0
+171,110,Philippines,Japan,1990,copra,2000.0
+171,110,Philippines,Japan,1991,copra,6034.0
+171,110,Philippines,Japan,1994,copra,100.0
+171,110,Philippines,Japan,1995,copra,50.0
+171,110,Philippines,Japan,1998,copra,3500.0
+171,110,Philippines,Japan,2000,copra,2650.0
+171,110,Philippines,Japan,2001,copra,14575.0
+171,110,Philippines,Japan,2002,copra,1600.0
+171,110,Philippines,Japan,2011,copra,24.0
+104,84,Ireland,Greece,2001,copra,21.0
+107,203,Côte d'Ivoire,Spain,1997,copra,329.0
+107,203,Côte d'Ivoire,Spain,1999,copra,300.0
+216,214,Thailand,"China, Taiwan Province of",2005,copra,1.0
+216,214,Thailand,"China, Taiwan Province of",2008,copra,2.0
+216,214,Thailand,"China, Taiwan Province of",2012,copra,2.0
+216,214,Thailand,"China, Taiwan Province of",2019,copra,35.64
+216,214,Thailand,"China, Taiwan Province of",2020,copra,80.83
+216,214,Thailand,"China, Taiwan Province of",2022,copra,0.03
+215,229,United Republic of Tanzania,United Kingdom of Great Britain and Northern Ireland,2002,copra,124.0
+59,156,Egypt,New Zealand,2009,copra,1.0
+100,50,India,Cyprus,2016,copra,0.01
+100,50,India,Cyprus,2019,copra,0.17
+100,50,India,Cyprus,2023,copra,0.26
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,copra,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,copra,25.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1999,copra,1.0
+202,250,South Africa,Democratic Republic of the Congo,2012,copra,2.0
+38,137,Sri Lanka,Mauritius,1999,copra,11.0
+59,221,Egypt,Oman,1994,copra,132.0
+59,221,Egypt,Oman,1995,copra,180.0
+59,221,Egypt,Oman,1996,copra,187.0
+59,221,Egypt,Oman,1998,copra,137.0
+59,221,Egypt,Oman,1999,copra,43.0
+59,221,Egypt,Oman,2000,copra,117.0
+59,221,Egypt,Oman,2019,copra,56.0
+179,225,Qatar,United Arab Emirates,2007,copra,3.0
+54,64,Denmark,Faroe Islands,2019,copra,4.71
+54,64,Denmark,Faroe Islands,2020,copra,43.83
+54,64,Denmark,Faroe Islands,2021,copra,52.18
+54,64,Denmark,Faroe Islands,2022,copra,30.84
+54,64,Denmark,Faroe Islands,2023,copra,30.12
+38,149,Sri Lanka,Nepal,1999,copra,236.0
+38,149,Sri Lanka,Nepal,2000,copra,252.0
+38,149,Sri Lanka,Nepal,2004,copra,21.0
+38,149,Sri Lanka,Nepal,2005,copra,32.0
+221,225,Oman,United Arab Emirates,2017,copra,103.1
+221,225,Oman,United Arab Emirates,2018,copra,22.32
+221,225,Oman,United Arab Emirates,2019,copra,2.5
+231,21,United States of America,Brazil,1998,copra,5.0
+231,21,United States of America,Brazil,2000,copra,2.0
+225,100,United Arab Emirates,India,2017,copra,0.15
+225,100,United Arab Emirates,India,2021,copra,36.72
+225,100,United Arab Emirates,India,2022,copra,25.5
+100,250,India,Democratic Republic of the Congo,2017,copra,0.1
+100,250,India,Democratic Republic of the Congo,2018,copra,0.06
+100,250,India,Democratic Republic of the Congo,2019,copra,0.14
+100,250,India,Democratic Republic of the Congo,2020,copra,0.06
+38,150,Sri Lanka,Netherlands (Kingdom of the),2001,copra,3.0
+59,165,Egypt,Pakistan,2004,copra,1.0
+59,165,Egypt,Pakistan,2006,copra,3.0
+131,59,Malaysia,Egypt,2009,copra,59.0
+200,214,Singapore,"China, Taiwan Province of",1986,copra,2200.0
+200,214,Singapore,"China, Taiwan Province of",1987,copra,982.0
+200,214,Singapore,"China, Taiwan Province of",1988,copra,410.0
+200,214,Singapore,"China, Taiwan Province of",1989,copra,1519.0
+200,214,Singapore,"China, Taiwan Province of",1990,copra,200.0
+200,214,Singapore,"China, Taiwan Province of",2008,copra,50.0
+59,299,Egypt,Palestine,2005,copra,51.0
+59,299,Egypt,Palestine,2006,copra,30.0
+59,299,Egypt,Palestine,2007,copra,71.0
+59,299,Egypt,Palestine,2009,copra,43.0
+59,299,Egypt,Palestine,2020,copra,36.15
+59,299,Egypt,Palestine,2021,copra,1.15
+59,299,Egypt,Palestine,2022,copra,16.5
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2012,copra,1.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2013,copra,12.0
+107,217,Côte d'Ivoire,Togo,1997,copra,9870.0
+107,217,Côte d'Ivoire,Togo,2010,copra,47.0
+101,100,Indonesia,India,1992,copra,4500.0
+101,100,Indonesia,India,1999,copra,475.0
+101,100,Indonesia,India,2000,copra,293.0
+101,100,Indonesia,India,2001,copra,52.0
+101,100,Indonesia,India,2002,copra,13.0
+101,100,Indonesia,India,2003,copra,826.0
+101,100,Indonesia,India,2004,copra,377.0
+101,100,Indonesia,India,2005,copra,81.0
+101,100,Indonesia,India,2006,copra,1194.0
+101,100,Indonesia,India,2014,copra,85.0
+101,100,Indonesia,India,2015,copra,444.53
+101,100,Indonesia,India,2017,copra,1740.46
+101,100,Indonesia,India,2018,copra,13270.28
+101,100,Indonesia,India,2019,copra,10855.57
+101,100,Indonesia,India,2020,copra,13162.69
+101,100,Indonesia,India,2021,copra,10601.47
+101,100,Indonesia,India,2022,copra,347.83
+101,100,Indonesia,India,2023,copra,7821.17
+146,230,Republic of Moldova,Ukraine,1995,copra,3.0
+100,54,India,Denmark,2023,copra,0.14
+214,101,"China, Taiwan Province of",Indonesia,2012,copra,3.0
+59,171,Egypt,Philippines,2007,copra,1.0
+216,48,Thailand,Costa Rica,2003,copra,1.0
+216,48,Thailand,Costa Rica,2018,copra,19.0
+106,21,Italy,Brazil,1998,copra,2.0
+59,179,Egypt,Qatar,1993,copra,16.0
+59,179,Egypt,Qatar,1994,copra,5.0
+59,179,Egypt,Qatar,1995,copra,7.0
+59,179,Egypt,Qatar,1996,copra,17.0
+59,179,Egypt,Qatar,1998,copra,22.0
+59,179,Egypt,Qatar,1999,copra,23.0
+59,179,Egypt,Qatar,2000,copra,2.0
+59,179,Egypt,Qatar,2001,copra,2.0
+59,179,Egypt,Qatar,2002,copra,1.0
+59,179,Egypt,Qatar,2003,copra,5.0
+59,179,Egypt,Qatar,2005,copra,3.0
+59,179,Egypt,Qatar,2006,copra,1.0
+59,179,Egypt,Qatar,2007,copra,5.0
+59,179,Egypt,Qatar,2009,copra,12.0
+59,179,Egypt,Qatar,2011,copra,16.0
+59,179,Egypt,Qatar,2013,copra,9.0
+59,179,Egypt,Qatar,2017,copra,1.78
+59,179,Egypt,Qatar,2023,copra,0.34
+101,102,Indonesia,Iran (Islamic Republic of),2015,copra,28.82
+101,102,Indonesia,Iran (Islamic Republic of),2020,copra,208.0
+101,102,Indonesia,Iran (Islamic Republic of),2021,copra,10.1
+216,167,Thailand,Czechia,2023,copra,0.01
+59,117,Egypt,Republic of Korea,1996,copra,20.0
+101,103,Indonesia,Iraq,2020,copra,26.05
+107,229,Côte d'Ivoire,United Kingdom of Great Britain and Northern Ireland,1997,copra,2802.0
+107,229,Côte d'Ivoire,United Kingdom of Great Britain and Northern Ireland,1998,copra,1373.0
+171,127,Philippines,Marshall Islands,2011,copra,10.0
+171,127,Philippines,Marshall Islands,2012,copra,19.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2003,copra,8.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2016,copra,229.5
+225,102,United Arab Emirates,Iran (Islamic Republic of),2019,copra,21.7
+225,102,United Arab Emirates,Iran (Islamic Republic of),2020,copra,25.5
+225,102,United Arab Emirates,Iran (Islamic Republic of),2022,copra,25.5
+225,102,United Arab Emirates,Iran (Islamic Republic of),2023,copra,26.33
+121,112,Lebanon,Jordan,2004,copra,50.0
+173,63,Poland,Estonia,2013,copra,1.0
+38,221,Sri Lanka,Oman,1995,copra,41.0
+38,221,Sri Lanka,Oman,1996,copra,12.0
+38,221,Sri Lanka,Oman,2004,copra,22.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,copra,93.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,copra,28.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,copra,44.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,copra,14.0
+101,106,Indonesia,Italy,1999,copra,15.0
+101,106,Indonesia,Italy,2004,copra,1.0
+216,54,Thailand,Denmark,2013,copra,10.0
+216,54,Thailand,Denmark,2015,copra,0.99
+38,165,Sri Lanka,Pakistan,1986,copra,9425.0
+38,165,Sri Lanka,Pakistan,1987,copra,8941.0
+38,165,Sri Lanka,Pakistan,1988,copra,5412.0
+38,165,Sri Lanka,Pakistan,1989,copra,7078.0
+38,165,Sri Lanka,Pakistan,1990,copra,7187.0
+38,165,Sri Lanka,Pakistan,1991,copra,9586.0
+38,165,Sri Lanka,Pakistan,1992,copra,5498.0
+38,165,Sri Lanka,Pakistan,1993,copra,2949.0
+38,165,Sri Lanka,Pakistan,1994,copra,3123.0
+38,165,Sri Lanka,Pakistan,1995,copra,6394.0
+38,165,Sri Lanka,Pakistan,1996,copra,6946.0
+38,165,Sri Lanka,Pakistan,1997,copra,8377.0
+38,165,Sri Lanka,Pakistan,1998,copra,8870.0
+38,165,Sri Lanka,Pakistan,1999,copra,10692.0
+38,165,Sri Lanka,Pakistan,2000,copra,13884.0
+38,165,Sri Lanka,Pakistan,2001,copra,14916.0
+38,165,Sri Lanka,Pakistan,2002,copra,13221.0
+38,165,Sri Lanka,Pakistan,2003,copra,17301.0
+38,165,Sri Lanka,Pakistan,2004,copra,13405.0
+38,165,Sri Lanka,Pakistan,2005,copra,15256.0
+38,165,Sri Lanka,Pakistan,2008,copra,12501.0
+38,165,Sri Lanka,Pakistan,2009,copra,4453.0
+38,165,Sri Lanka,Pakistan,2010,copra,490.0
+38,165,Sri Lanka,Pakistan,2011,copra,1946.0
+38,165,Sri Lanka,Pakistan,2012,copra,538.0
+38,165,Sri Lanka,Pakistan,2013,copra,57.0
+38,165,Sri Lanka,Pakistan,2014,copra,1854.1
+38,165,Sri Lanka,Pakistan,2015,copra,457.0
+38,165,Sri Lanka,Pakistan,2016,copra,1184.0
+38,165,Sri Lanka,Pakistan,2017,copra,498.75
+38,165,Sri Lanka,Pakistan,2019,copra,3901.7
+38,165,Sri Lanka,Pakistan,2020,copra,1100.69
+38,165,Sri Lanka,Pakistan,2021,copra,826.75
+38,165,Sri Lanka,Pakistan,2022,copra,2030.5
+38,165,Sri Lanka,Pakistan,2023,copra,978.55
+107,231,Côte d'Ivoire,United States of America,2002,copra,1.0
+171,149,Philippines,Nepal,2001,copra,600.0
+171,149,Philippines,Nepal,2002,copra,800.0
+89,231,Guatemala,United States of America,1994,copra,192.0
+89,231,Guatemala,United States of America,2004,copra,5.0
+202,209,South Africa,Eswatini,2023,copra,0.01
+59,194,Egypt,Saudi Arabia,1993,copra,518.0
+59,194,Egypt,Saudi Arabia,1994,copra,1927.0
+59,194,Egypt,Saudi Arabia,1995,copra,2417.0
+59,194,Egypt,Saudi Arabia,1996,copra,2374.0
+59,194,Egypt,Saudi Arabia,1998,copra,1074.0
+59,194,Egypt,Saudi Arabia,1999,copra,963.0
+59,194,Egypt,Saudi Arabia,2000,copra,1306.0
+59,194,Egypt,Saudi Arabia,2001,copra,1165.0
+59,194,Egypt,Saudi Arabia,2002,copra,557.0
+59,194,Egypt,Saudi Arabia,2003,copra,475.0
+59,194,Egypt,Saudi Arabia,2004,copra,452.0
+59,194,Egypt,Saudi Arabia,2005,copra,991.0
+59,194,Egypt,Saudi Arabia,2006,copra,476.0
+59,194,Egypt,Saudi Arabia,2007,copra,391.0
+59,194,Egypt,Saudi Arabia,2009,copra,2176.0
+59,194,Egypt,Saudi Arabia,2011,copra,1892.0
+59,194,Egypt,Saudi Arabia,2013,copra,298.0
+59,194,Egypt,Saudi Arabia,2017,copra,112.48
+59,194,Egypt,Saudi Arabia,2018,copra,1025.56
+59,194,Egypt,Saudi Arabia,2019,copra,1144.58
+59,194,Egypt,Saudi Arabia,2020,copra,129.65
+59,194,Egypt,Saudi Arabia,2021,copra,154.14
+59,194,Egypt,Saudi Arabia,2022,copra,131.4
+59,194,Egypt,Saudi Arabia,2023,copra,131.55
+171,150,Philippines,Netherlands (Kingdom of the),1986,copra,14000.0
+171,150,Philippines,Netherlands (Kingdom of the),1987,copra,13768.0
+171,150,Philippines,Netherlands (Kingdom of the),1988,copra,2000.0
+171,150,Philippines,Netherlands (Kingdom of the),1989,copra,11550.0
+171,150,Philippines,Netherlands (Kingdom of the),1990,copra,20575.0
+171,150,Philippines,Netherlands (Kingdom of the),1992,copra,3500.0
+171,150,Philippines,Netherlands (Kingdom of the),1993,copra,6224.0
+171,150,Philippines,Netherlands (Kingdom of the),1994,copra,1500.0
+171,150,Philippines,Netherlands (Kingdom of the),1995,copra,15048.0
+171,150,Philippines,Netherlands (Kingdom of the),1996,copra,2879.0
+171,150,Philippines,Netherlands (Kingdom of the),2003,copra,300.0
+38,171,Sri Lanka,Philippines,1998,copra,22.0
+131,79,Malaysia,Germany,2001,copra,1.0
+98,273,Croatia,Montenegro,2016,copra,0.01
+98,273,Croatia,Montenegro,2017,copra,0.01
+98,273,Croatia,Montenegro,2018,copra,0.01
+98,273,Croatia,Montenegro,2020,copra,0.01
+98,273,Croatia,Montenegro,2021,copra,0.01
+114,215,Kenya,United Republic of Tanzania,2001,copra,5.0
+38,174,Sri Lanka,Portugal,2017,copra,1.84
+38,174,Sri Lanka,Portugal,2019,copra,1.43
+38,174,Sri Lanka,Portugal,2020,copra,0.24
+38,174,Sri Lanka,Portugal,2021,copra,0.08
+100,67,India,Finland,2020,copra,0.6
+101,110,Indonesia,Japan,1988,copra,100.0
+101,110,Indonesia,Japan,2003,copra,125.0
+101,110,Indonesia,Japan,2006,copra,6.0
+101,110,Indonesia,Japan,2008,copra,73.0
+101,110,Indonesia,Japan,2010,copra,25.0
+96,100,"China, Hong Kong SAR",India,2020,copra,0.5
+210,67,Sweden,Finland,1991,copra,5.0
+214,110,"China, Taiwan Province of",Japan,1993,copra,32.0
+100,68,India,France,2023,copra,0.2
+59,198,Egypt,Slovenia,2004,copra,2.0
+171,159,Philippines,Nigeria,1990,copra,6491.0
+48,231,Costa Rica,United States of America,1999,copra,23.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2022,copra,1.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2023,copra,1.0
+38,194,Sri Lanka,Saudi Arabia,1986,copra,15.0
+38,194,Sri Lanka,Saudi Arabia,1992,copra,9.0
+38,194,Sri Lanka,Saudi Arabia,1994,copra,1.0
+38,194,Sri Lanka,Saudi Arabia,1997,copra,5.0
+38,194,Sri Lanka,Saudi Arabia,2003,copra,12.0
+38,194,Sri Lanka,Saudi Arabia,2004,copra,2.0
+38,194,Sri Lanka,Saudi Arabia,2005,copra,4.0
+38,194,Sri Lanka,Saudi Arabia,2008,copra,53.0
+38,194,Sri Lanka,Saudi Arabia,2009,copra,5.0
+38,194,Sri Lanka,Saudi Arabia,2011,copra,3.0
+38,194,Sri Lanka,Saudi Arabia,2012,copra,15.0
+38,194,Sri Lanka,Saudi Arabia,2019,copra,5.0
+38,194,Sri Lanka,Saudi Arabia,2022,copra,3.3
+59,203,Egypt,Spain,2009,copra,59.0
+59,203,Egypt,Spain,2013,copra,2.0
+117,110,Republic of Korea,Japan,1990,copra,77.0
+101,112,Indonesia,Jordan,2012,copra,16.0
+231,33,United States of America,Canada,1995,copra,48.0
+231,33,United States of America,Canada,2005,copra,132.0
+231,33,United States of America,Canada,2013,copra,41.0
+100,75,India,Gambia,2018,copra,0.05
+59,276,Egypt,Sudan,2017,copra,0.22
+131,100,Malaysia,India,1986,copra,1059.0
+131,100,Malaysia,India,1988,copra,50.0
+131,100,Malaysia,India,1992,copra,127.0
+131,100,Malaysia,India,1993,copra,11.0
+131,100,Malaysia,India,2000,copra,45.0
+131,100,Malaysia,India,2003,copra,25.0
+131,100,Malaysia,India,2009,copra,209.0
+171,174,Philippines,Portugal,1986,copra,14035.0
+171,174,Philippines,Portugal,1987,copra,2000.0
+171,174,Philippines,Portugal,1988,copra,1900.0
+171,174,Philippines,Portugal,1990,copra,6408.0
+171,174,Philippines,Portugal,1991,copra,5900.0
+100,73,India,Georgia,2019,copra,0.05
+100,73,India,Georgia,2020,copra,0.03
+101,118,Indonesia,Kuwait,2020,copra,0.34
+225,112,United Arab Emirates,Jordan,2023,copra,1.27
+59,206,Egypt,Sudan (former),1995,copra,2.0
+59,206,Egypt,Sudan (former),1998,copra,2.0
+59,206,Egypt,Sudan (former),1999,copra,1.0
+59,206,Egypt,Sudan (former),2007,copra,1.0
+59,206,Egypt,Sudan (former),2009,copra,1.0
+59,206,Egypt,Sudan (former),2011,copra,4.0
+38,200,Sri Lanka,Singapore,1986,copra,36.0
+38,200,Sri Lanka,Singapore,1989,copra,75.0
+38,200,Sri Lanka,Singapore,1991,copra,85.0
+38,200,Sri Lanka,Singapore,2004,copra,11.0
+216,68,Thailand,France,2018,copra,0.03
+59,210,Egypt,Sweden,1994,copra,1.0
+59,210,Egypt,Sweden,1998,copra,2.0
+59,210,Egypt,Sweden,2001,copra,25.0
+59,210,Egypt,Sweden,2002,copra,8.0
+59,210,Egypt,Sweden,2003,copra,14.0
+59,210,Egypt,Sweden,2004,copra,11.0
+59,210,Egypt,Sweden,2005,copra,2.0
+59,210,Egypt,Sweden,2006,copra,7.0
+59,210,Egypt,Sweden,2007,copra,11.0
+59,210,Egypt,Sweden,2009,copra,1.0
+59,210,Egypt,Sweden,2020,copra,0.43
+44,236,Colombia,Venezuela (Bolivarian Republic of),1992,copra,5.0
+100,79,India,Germany,1993,copra,15.0
+100,79,India,Germany,2000,copra,1.0
+100,79,India,Germany,2018,copra,0.27
+100,79,India,Germany,2019,copra,0.8
+100,79,India,Germany,2020,copra,1.23
+100,79,India,Germany,2021,copra,1.61
+100,79,India,Germany,2022,copra,1.16
+100,79,India,Germany,2023,copra,1.87
+171,117,Philippines,Republic of Korea,1986,copra,22149.0
+171,117,Philippines,Republic of Korea,1987,copra,34950.0
+171,117,Philippines,Republic of Korea,1988,copra,32464.0
+171,117,Philippines,Republic of Korea,1989,copra,49913.0
+171,117,Philippines,Republic of Korea,1990,copra,54572.0
+171,117,Philippines,Republic of Korea,1991,copra,43602.0
+171,117,Philippines,Republic of Korea,1992,copra,20700.0
+171,117,Philippines,Republic of Korea,1993,copra,18750.0
+171,117,Philippines,Republic of Korea,1994,copra,15200.0
+171,117,Philippines,Republic of Korea,1995,copra,10900.0
+171,117,Philippines,Republic of Korea,2009,copra,84.0
+171,117,Philippines,Republic of Korea,2010,copra,304.0
+171,117,Philippines,Republic of Korea,2011,copra,237.0
+171,117,Philippines,Republic of Korea,2012,copra,393.0
+171,117,Philippines,Republic of Korea,2013,copra,263.0
+171,117,Philippines,Republic of Korea,2014,copra,554.97
+171,117,Philippines,Republic of Korea,2015,copra,480.76
+171,117,Philippines,Republic of Korea,2016,copra,58.97
+171,117,Philippines,Republic of Korea,2017,copra,111.27
+171,117,Philippines,Republic of Korea,2018,copra,88.11
+101,126,Indonesia,Lithuania,2014,copra,24.0
+59,211,Egypt,Switzerland,1999,copra,1.0
+59,211,Egypt,Switzerland,2001,copra,22.0
+200,68,Singapore,France,2021,copra,0.01
+185,108,Russian Federation,Kazakhstan,2019,copra,0.02
+59,212,Egypt,Syrian Arab Republic,2005,copra,77.0
+59,212,Egypt,Syrian Arab Republic,2006,copra,69.0
+59,212,Egypt,Syrian Arab Republic,2007,copra,17.0
+59,212,Egypt,Syrian Arab Republic,2009,copra,673.0
+59,212,Egypt,Syrian Arab Republic,2011,copra,2871.0
+59,212,Egypt,Syrian Arab Republic,2013,copra,120.0
+68,32,France,Cameroon,2022,copra,46.07
+41,58,"China, mainland",Ecuador,2022,copra,2.0
+41,58,"China, mainland",Ecuador,2023,copra,3.0
+38,202,Sri Lanka,South Africa,2001,copra,4.0
+101,131,Indonesia,Malaysia,1991,copra,257.0
+101,131,Indonesia,Malaysia,1992,copra,136.0
+101,131,Indonesia,Malaysia,1993,copra,18.0
+101,131,Indonesia,Malaysia,1994,copra,82.0
+101,131,Indonesia,Malaysia,1995,copra,58.0
+101,131,Indonesia,Malaysia,1997,copra,173.0
+101,131,Indonesia,Malaysia,1998,copra,5988.0
+101,131,Indonesia,Malaysia,1999,copra,30742.0
+101,131,Indonesia,Malaysia,2000,copra,26480.0
+101,131,Indonesia,Malaysia,2001,copra,22577.0
+101,131,Indonesia,Malaysia,2002,copra,17294.0
+101,131,Indonesia,Malaysia,2003,copra,11960.0
+101,131,Indonesia,Malaysia,2004,copra,14161.0
+101,131,Indonesia,Malaysia,2005,copra,15834.0
+101,131,Indonesia,Malaysia,2006,copra,16978.0
+101,131,Indonesia,Malaysia,2007,copra,14481.0
+101,131,Indonesia,Malaysia,2008,copra,10737.0
+101,131,Indonesia,Malaysia,2009,copra,13724.0
+101,131,Indonesia,Malaysia,2010,copra,6207.0
+101,131,Indonesia,Malaysia,2011,copra,2993.0
+101,131,Indonesia,Malaysia,2012,copra,2145.0
+101,131,Indonesia,Malaysia,2013,copra,743.0
+101,131,Indonesia,Malaysia,2014,copra,522.43
+101,131,Indonesia,Malaysia,2015,copra,231.0
+101,131,Indonesia,Malaysia,2016,copra,30.0
+101,131,Indonesia,Malaysia,2017,copra,8.69
+101,131,Indonesia,Malaysia,2018,copra,77.62
+101,131,Indonesia,Malaysia,2019,copra,103.21
+101,131,Indonesia,Malaysia,2020,copra,95.2
+101,131,Indonesia,Malaysia,2021,copra,23.0
+101,131,Indonesia,Malaysia,2022,copra,208.0
+101,131,Indonesia,Malaysia,2023,copra,354.28
+131,101,Malaysia,Indonesia,1986,copra,335.0
+131,101,Malaysia,Indonesia,1987,copra,279.0
+131,101,Malaysia,Indonesia,2003,copra,500.0
+131,101,Malaysia,Indonesia,2007,copra,2271.0
+131,101,Malaysia,Indonesia,2008,copra,2.0
+131,101,Malaysia,Indonesia,2014,copra,2.74
+59,222,Egypt,Tunisia,2009,copra,1.0
+59,222,Egypt,Tunisia,2011,copra,15.0
+59,222,Egypt,Tunisia,2013,copra,37.0
+59,222,Egypt,Tunisia,2017,copra,2.71
+59,222,Egypt,Tunisia,2023,copra,17.14
+225,118,United Arab Emirates,Kuwait,2021,copra,7.2
+225,118,United Arab Emirates,Kuwait,2022,copra,0.1
+100,81,India,Ghana,2014,copra,0.02
+100,81,India,Ghana,2016,copra,0.02
+100,81,India,Ghana,2021,copra,0.03
+100,81,India,Ghana,2022,copra,0.05
+104,150,Ireland,Netherlands (Kingdom of the),2006,copra,1.0
+59,223,Egypt,Türkiye,2006,copra,7.0
+59,223,Egypt,Türkiye,2009,copra,422.0
+59,223,Egypt,Türkiye,2011,copra,149.0
+59,223,Egypt,Türkiye,2013,copra,226.0
+59,223,Egypt,Türkiye,2018,copra,311.21
+59,223,Egypt,Türkiye,2019,copra,26.0
+59,223,Egypt,Türkiye,2020,copra,35.38
+59,223,Egypt,Türkiye,2021,copra,20.62
+59,223,Egypt,Türkiye,2022,copra,90.59
+59,223,Egypt,Türkiye,2023,copra,17.17
+38,211,Sri Lanka,Switzerland,2004,copra,32.0
+216,79,Thailand,Germany,1997,copra,13.0
+216,79,Thailand,Germany,2015,copra,0.06
+216,79,Thailand,Germany,2016,copra,0.04
+216,79,Thailand,Germany,2017,copra,0.04
+216,79,Thailand,Germany,2018,copra,0.04
+216,79,Thailand,Germany,2019,copra,0.42
+214,127,"China, Taiwan Province of",Marshall Islands,2023,copra,0.02
+106,96,Italy,"China, Hong Kong SAR",2014,copra,0.3
+100,84,India,Greece,2009,copra,1.0
+100,84,India,Greece,2021,copra,0.15
+100,84,India,Greece,2023,copra,0.05
+171,200,Philippines,Singapore,1986,copra,6700.0
+171,200,Philippines,Singapore,1987,copra,12000.0
+171,200,Philippines,Singapore,1988,copra,400.0
+171,200,Philippines,Singapore,1993,copra,1815.0
+171,200,Philippines,Singapore,2000,copra,100.0
+171,200,Philippines,Singapore,2001,copra,500.0
+54,79,Denmark,Germany,1991,copra,15.0
+59,230,Egypt,Ukraine,2023,copra,0.32
+68,33,France,Canada,2020,copra,0.53
+38,216,Sri Lanka,Thailand,1999,copra,11.0
+38,216,Sri Lanka,Thailand,2001,copra,21.0
+59,225,Egypt,United Arab Emirates,1993,copra,37.0
+59,225,Egypt,United Arab Emirates,2001,copra,116.0
+59,225,Egypt,United Arab Emirates,2002,copra,108.0
+59,225,Egypt,United Arab Emirates,2003,copra,217.0
+59,225,Egypt,United Arab Emirates,2004,copra,120.0
+59,225,Egypt,United Arab Emirates,2005,copra,125.0
+59,225,Egypt,United Arab Emirates,2006,copra,127.0
+59,225,Egypt,United Arab Emirates,2007,copra,115.0
+59,225,Egypt,United Arab Emirates,2009,copra,394.0
+59,225,Egypt,United Arab Emirates,2011,copra,439.0
+59,225,Egypt,United Arab Emirates,2013,copra,490.0
+59,225,Egypt,United Arab Emirates,2017,copra,210.49
+59,225,Egypt,United Arab Emirates,2018,copra,128.21
+59,225,Egypt,United Arab Emirates,2019,copra,271.0
+59,225,Egypt,United Arab Emirates,2020,copra,305.39
+59,225,Egypt,United Arab Emirates,2021,copra,17.03
+59,225,Egypt,United Arab Emirates,2022,copra,61.73
+11,79,Austria,Germany,2000,copra,319.0
+100,90,India,Guinea,2023,copra,0.04
+150,33,Netherlands (Kingdom of the),Canada,2017,copra,3.64
+174,175,Portugal,Guinea-Bissau,2005,copra,1.0
+101,134,Indonesia,Malta,1999,copra,2.0
+101,134,Indonesia,Malta,2001,copra,23.0
+101,134,Indonesia,Malta,2003,copra,10.0
+101,137,Indonesia,Mauritius,2000,copra,8.0
+38,223,Sri Lanka,Türkiye,2019,copra,0.56
+38,223,Sri Lanka,Türkiye,2020,copra,0.2
+101,138,Indonesia,Mexico,1999,copra,31.0
+101,138,Indonesia,Mexico,2003,copra,64.0
+101,138,Indonesia,Mexico,2004,copra,35.0
+100,97,India,Hungary,2022,copra,0.02
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1994,copra,20.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2001,copra,1.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2003,copra,33.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2004,copra,6.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2005,copra,32.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2006,copra,24.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2009,copra,50.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2011,copra,7.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2013,copra,1.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2017,copra,0.14
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2018,copra,0.23
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2020,copra,0.86
+165,231,Pakistan,United States of America,2009,copra,3.0
+165,231,Pakistan,United States of America,2010,copra,1.0
+165,231,Pakistan,United States of America,2015,copra,35.49
+165,231,Pakistan,United States of America,2016,copra,6.26
+165,231,Pakistan,United States of America,2017,copra,0.55
+223,79,Türkiye,Germany,1996,copra,1.0
+255,68,Belgium,France,2015,copra,0.8
+255,68,Belgium,France,2016,copra,2.8
+255,68,Belgium,France,2017,copra,4.13
+38,225,Sri Lanka,United Arab Emirates,1986,copra,4.0
+38,225,Sri Lanka,United Arab Emirates,1991,copra,6.0
+38,225,Sri Lanka,United Arab Emirates,1992,copra,42.0
+38,225,Sri Lanka,United Arab Emirates,1994,copra,6.0
+38,225,Sri Lanka,United Arab Emirates,1996,copra,22.0
+38,225,Sri Lanka,United Arab Emirates,1998,copra,25.0
+38,225,Sri Lanka,United Arab Emirates,2001,copra,21.0
+38,225,Sri Lanka,United Arab Emirates,2002,copra,1.0
+38,225,Sri Lanka,United Arab Emirates,2003,copra,17.0
+38,225,Sri Lanka,United Arab Emirates,2005,copra,14.0
+38,225,Sri Lanka,United Arab Emirates,2011,copra,39.0
+38,225,Sri Lanka,United Arab Emirates,2012,copra,29.0
+38,225,Sri Lanka,United Arab Emirates,2013,copra,14.0
+38,225,Sri Lanka,United Arab Emirates,2014,copra,30.5
+10,105,Australia,Israel,1996,copra,54.0
+101,28,Indonesia,Myanmar,2020,copra,167.71
+101,28,Indonesia,Myanmar,2021,copra,121.18
+101,28,Indonesia,Myanmar,2022,copra,68.53
+101,28,Indonesia,Myanmar,2023,copra,70.04
+96,131,"China, Hong Kong SAR",Malaysia,2022,copra,10.69
+101,149,Indonesia,Nepal,2000,copra,279.0
+101,149,Indonesia,Nepal,2001,copra,20.0
+101,149,Indonesia,Nepal,2004,copra,375.0
+101,149,Indonesia,Nepal,2019,copra,12.2
+59,231,Egypt,United States of America,1994,copra,86.0
+59,231,Egypt,United States of America,1995,copra,101.0
+59,231,Egypt,United States of America,1996,copra,60.0
+59,231,Egypt,United States of America,1998,copra,16.0
+59,231,Egypt,United States of America,1999,copra,3.0
+59,231,Egypt,United States of America,2000,copra,44.0
+59,231,Egypt,United States of America,2001,copra,44.0
+59,231,Egypt,United States of America,2003,copra,28.0
+59,231,Egypt,United States of America,2004,copra,21.0
+59,231,Egypt,United States of America,2005,copra,20.0
+59,231,Egypt,United States of America,2009,copra,128.0
+59,231,Egypt,United States of America,2011,copra,28.0
+59,231,Egypt,United States of America,2013,copra,96.0
+59,231,Egypt,United States of America,2017,copra,26.78
+59,231,Egypt,United States of America,2018,copra,34.13
+59,231,Egypt,United States of America,2020,copra,17.01
+59,231,Egypt,United States of America,2021,copra,1.53
+59,231,Egypt,United States of America,2022,copra,0.28
+59,231,Egypt,United States of America,2023,copra,0.83
+171,210,Philippines,Sweden,1991,copra,2385.0
+171,210,Philippines,Sweden,1992,copra,10000.0
+100,102,India,Iran (Islamic Republic of),1994,copra,10.0
+100,102,India,Iran (Islamic Republic of),1996,copra,175.0
+100,102,India,Iran (Islamic Republic of),1998,copra,23.0
+100,102,India,Iran (Islamic Republic of),2015,copra,23.0
+100,102,India,Iran (Islamic Republic of),2016,copra,1806.0
+100,102,India,Iran (Islamic Republic of),2017,copra,310.02
+100,102,India,Iran (Islamic Republic of),2018,copra,50.0
+100,102,India,Iran (Islamic Republic of),2021,copra,75.0
+100,102,India,Iran (Islamic Republic of),2022,copra,200.0
+100,102,India,Iran (Islamic Republic of),2023,copra,3217.5
+194,249,Saudi Arabia,Yemen,2018,copra,3.85
+194,249,Saudi Arabia,Yemen,2020,copra,2.5
+194,249,Saudi Arabia,Yemen,2021,copra,4.2
+101,150,Indonesia,Netherlands (Kingdom of the),1993,copra,8703.0
+101,150,Indonesia,Netherlands (Kingdom of the),1994,copra,18377.0
+101,150,Indonesia,Netherlands (Kingdom of the),1995,copra,100.0
+101,150,Indonesia,Netherlands (Kingdom of the),1997,copra,15500.0
+101,150,Indonesia,Netherlands (Kingdom of the),1998,copra,21426.0
+101,150,Indonesia,Netherlands (Kingdom of the),1999,copra,4862.0
+101,150,Indonesia,Netherlands (Kingdom of the),2000,copra,685.0
+101,150,Indonesia,Netherlands (Kingdom of the),2002,copra,15826.0
+101,150,Indonesia,Netherlands (Kingdom of the),2003,copra,6576.0
+101,150,Indonesia,Netherlands (Kingdom of the),2007,copra,5260.0
+101,150,Indonesia,Netherlands (Kingdom of the),2008,copra,4636.0
+101,150,Indonesia,Netherlands (Kingdom of the),2009,copra,11491.0
+101,150,Indonesia,Netherlands (Kingdom of the),2010,copra,7595.0
+101,150,Indonesia,Netherlands (Kingdom of the),2011,copra,4650.0
+101,150,Indonesia,Netherlands (Kingdom of the),2012,copra,9500.0
+101,150,Indonesia,Netherlands (Kingdom of the),2013,copra,1650.0
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2014,copra,0.01
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2015,copra,0.01
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2016,copra,0.01
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2017,copra,0.09
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2018,copra,0.02
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2019,copra,0.06
+229,50,United Kingdom of Great Britain and Northern Ireland,Cyprus,2020,copra,0.1
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1986,copra,66.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1987,copra,28.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1988,copra,35.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1989,copra,54.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1990,copra,36.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1992,copra,52.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1993,copra,23.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1994,copra,20.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1995,copra,45.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1996,copra,24.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1997,copra,35.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1998,copra,56.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,1999,copra,36.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2000,copra,43.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2001,copra,31.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2002,copra,38.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2003,copra,45.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2004,copra,39.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2005,copra,28.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2008,copra,13.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2012,copra,21.0
+200,100,Singapore,India,1986,copra,136.0
+200,100,Singapore,India,1988,copra,4384.0
+200,100,Singapore,India,1989,copra,25.0
+200,100,Singapore,India,1990,copra,718.0
+200,100,Singapore,India,1992,copra,83.0
+200,100,Singapore,India,1993,copra,325.0
+200,100,Singapore,India,2020,copra,38.16
+59,236,Egypt,Venezuela (Bolivarian Republic of),2005,copra,5.0
+131,110,Malaysia,Japan,1986,copra,7902.0
+131,110,Malaysia,Japan,1991,copra,550.0
+131,110,Malaysia,Japan,1992,copra,2200.0
+131,110,Malaysia,Japan,1994,copra,700.0
+216,100,Thailand,India,2018,copra,0.3
+216,100,Thailand,India,2019,copra,0.5
+59,249,Egypt,Yemen,2007,copra,15.0
+59,249,Egypt,Yemen,2009,copra,31.0
+59,249,Egypt,Yemen,2011,copra,312.0
+59,249,Egypt,Yemen,2013,copra,119.0
+59,249,Egypt,Yemen,2017,copra,65.19
+100,104,India,Ireland,2021,copra,0.84
+100,105,India,Israel,2004,copra,2.0
+100,105,India,Israel,2016,copra,8.9
+100,105,India,Israel,2022,copra,0.3
+211,79,Switzerland,Germany,2005,copra,1.0
+211,79,Switzerland,Germany,2017,copra,16.77
+211,79,Switzerland,Germany,2021,copra,0.01
+211,79,Switzerland,Germany,2023,copra,0.01
+101,156,Indonesia,New Zealand,2007,copra,2686.0
+38,231,Sri Lanka,United States of America,1999,copra,21.0
+38,231,Sri Lanka,United States of America,2005,copra,5.0
+38,231,Sri Lanka,United States of America,2011,copra,1.0
+100,106,India,Italy,2004,copra,2.0
+100,106,India,Italy,2020,copra,0.63
+100,106,India,Italy,2021,copra,4.41
+100,106,India,Italy,2022,copra,0.17
+100,106,India,Italy,2023,copra,1.43
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2020,copra,0.04
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2021,copra,8.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1993,copra,921.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1996,copra,45.0
+84,106,Greece,Italy,2011,copra,35.0
+214,171,"China, Taiwan Province of",Philippines,2023,copra,4.0
+101,165,Indonesia,Pakistan,1993,copra,23.0
+101,165,Indonesia,Pakistan,1999,copra,20.0
+101,165,Indonesia,Pakistan,2000,copra,37.0
+101,165,Indonesia,Pakistan,2001,copra,15.0
+101,165,Indonesia,Pakistan,2002,copra,335.0
+101,165,Indonesia,Pakistan,2003,copra,122.0
+101,165,Indonesia,Pakistan,2004,copra,50.0
+101,165,Indonesia,Pakistan,2006,copra,11.0
+101,165,Indonesia,Pakistan,2009,copra,12.0
+101,165,Indonesia,Pakistan,2011,copra,44.0
+101,165,Indonesia,Pakistan,2012,copra,50.0
+101,165,Indonesia,Pakistan,2013,copra,4.0
+101,165,Indonesia,Pakistan,2014,copra,21.82
+101,165,Indonesia,Pakistan,2015,copra,234.69
+101,165,Indonesia,Pakistan,2016,copra,10.33
+101,165,Indonesia,Pakistan,2017,copra,47.56
+101,165,Indonesia,Pakistan,2018,copra,2344.43
+101,165,Indonesia,Pakistan,2019,copra,2240.6
+101,165,Indonesia,Pakistan,2020,copra,6338.74
+101,165,Indonesia,Pakistan,2021,copra,4713.06
+101,165,Indonesia,Pakistan,2022,copra,716.61
+101,165,Indonesia,Pakistan,2023,copra,1367.11
+171,229,Philippines,United Kingdom of Great Britain and Northern Ireland,1986,copra,3000.0
+171,229,Philippines,United Kingdom of Great Britain and Northern Ireland,1991,copra,3000.0
+171,229,Philippines,United Kingdom of Great Britain and Northern Ireland,1995,copra,3500.0
+100,109,India,Jamaica,2019,copra,0.02
+100,109,India,Jamaica,2020,copra,0.04
+100,109,India,Jamaica,2021,copra,0.04
+100,109,India,Jamaica,2023,copra,0.04
+100,110,India,Japan,2006,copra,2.0
+100,110,India,Japan,2017,copra,0.04
+100,110,India,Japan,2018,copra,0.51
+100,110,India,Japan,2019,copra,1.11
+100,110,India,Japan,2020,copra,2.95
+100,110,India,Japan,2021,copra,1.03
+100,110,India,Japan,2022,copra,0.69
+100,110,India,Japan,2023,copra,1.1
+101,171,Indonesia,Philippines,1999,copra,5336.0
+101,171,Indonesia,Philippines,2002,copra,6363.0
+101,171,Indonesia,Philippines,2003,copra,3300.0
+101,171,Indonesia,Philippines,2004,copra,20200.0
+101,171,Indonesia,Philippines,2005,copra,35308.0
+101,171,Indonesia,Philippines,2006,copra,9251.0
+101,171,Indonesia,Philippines,2007,copra,9130.0
+101,171,Indonesia,Philippines,2008,copra,2369.0
+101,171,Indonesia,Philippines,2009,copra,8904.0
+101,171,Indonesia,Philippines,2010,copra,18419.0
+101,171,Indonesia,Philippines,2011,copra,20614.0
+101,171,Indonesia,Philippines,2012,copra,26390.0
+101,171,Indonesia,Philippines,2013,copra,23793.0
+101,171,Indonesia,Philippines,2014,copra,40244.32
+101,171,Indonesia,Philippines,2015,copra,29962.1
+101,171,Indonesia,Philippines,2016,copra,6950.4
+101,171,Indonesia,Philippines,2017,copra,6057.81
+101,171,Indonesia,Philippines,2018,copra,5556.28
+101,171,Indonesia,Philippines,2019,copra,3066.5
+101,171,Indonesia,Philippines,2022,copra,5482.44
+255,79,Belgium,Germany,2000,copra,62091.0
+255,79,Belgium,Germany,2001,copra,18.0
+255,79,Belgium,Germany,2003,copra,14626.0
+255,79,Belgium,Germany,2004,copra,2538.0
+255,79,Belgium,Germany,2006,copra,23131.0
+255,79,Belgium,Germany,2007,copra,10406.0
+255,79,Belgium,Germany,2016,copra,0.04
+255,79,Belgium,Germany,2021,copra,0.01
+171,231,Philippines,United States of America,2013,copra,23.0
+216,105,Thailand,Israel,2014,copra,0.75
+216,105,Thailand,Israel,2015,copra,3.7
+216,105,Thailand,Israel,2016,copra,3.5
+231,41,United States of America,"China, mainland",1998,copra,40.0
+54,99,Denmark,Iceland,1999,copra,1.0
+54,99,Denmark,Iceland,2022,copra,0.12
+225,221,United Arab Emirates,Oman,2007,copra,1.0
+225,221,United Arab Emirates,Oman,2014,copra,4.8
+225,221,United Arab Emirates,Oman,2015,copra,3.2
+225,221,United Arab Emirates,Oman,2017,copra,0.75
+225,221,United Arab Emirates,Oman,2018,copra,5.74
+225,221,United Arab Emirates,Oman,2019,copra,3.07
+225,221,United Arab Emirates,Oman,2020,copra,1.34
+225,221,United Arab Emirates,Oman,2021,copra,0.57
+225,221,United Arab Emirates,Oman,2022,copra,0.49
+214,117,"China, Taiwan Province of",Republic of Korea,2014,copra,0.69
+214,117,"China, Taiwan Province of",Republic of Korea,2015,copra,0.66
+214,117,"China, Taiwan Province of",Republic of Korea,2016,copra,1.0
+214,117,"China, Taiwan Province of",Republic of Korea,2017,copra,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2014,copra,0.04
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2015,copra,0.02
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2016,copra,0.01
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2017,copra,0.14
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2019,copra,0.13
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2020,copra,0.11
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2023,copra,1.32
+138,231,Mexico,United States of America,1987,copra,51.0
+138,231,Mexico,United States of America,1989,copra,12.0
+138,231,Mexico,United States of America,2002,copra,78.0
+138,231,Mexico,United States of America,2006,copra,4.0
+138,231,Mexico,United States of America,2012,copra,98.0
+138,231,Mexico,United States of America,2013,copra,5.0
+225,165,United Arab Emirates,Pakistan,2008,copra,1388.0
+225,165,United Arab Emirates,Pakistan,2016,copra,433.5
+225,165,United Arab Emirates,Pakistan,2017,copra,51.0
+225,165,United Arab Emirates,Pakistan,2020,copra,25.5
+225,165,United Arab Emirates,Pakistan,2021,copra,535.5
+225,165,United Arab Emirates,Pakistan,2022,copra,3314.89
+225,165,United Arab Emirates,Pakistan,2023,copra,1113.21
+100,114,India,Kenya,2007,copra,2.0
+100,114,India,Kenya,2012,copra,8.0
+100,114,India,Kenya,2015,copra,0.15
+100,114,India,Kenya,2020,copra,0.18
+100,114,India,Kenya,2021,copra,0.92
+100,114,India,Kenya,2022,copra,0.54
+100,114,India,Kenya,2023,copra,0.19
+101,117,Indonesia,Republic of Korea,1994,copra,1500.0
+101,117,Indonesia,Republic of Korea,2004,copra,57.0
+101,117,Indonesia,Republic of Korea,2007,copra,16.0
+101,117,Indonesia,Republic of Korea,2008,copra,169.0
+101,117,Indonesia,Republic of Korea,2009,copra,469.0
+101,117,Indonesia,Republic of Korea,2010,copra,435.0
+101,117,Indonesia,Republic of Korea,2011,copra,423.0
+101,117,Indonesia,Republic of Korea,2012,copra,771.0
+101,117,Indonesia,Republic of Korea,2013,copra,506.0
+101,117,Indonesia,Republic of Korea,2014,copra,233.3
+101,117,Indonesia,Republic of Korea,2015,copra,514.0
+101,117,Indonesia,Republic of Korea,2019,copra,50.97
+131,28,Malaysia,Myanmar,1999,copra,11.0
+216,109,Thailand,Jamaica,2014,copra,0.09
+171,237,Philippines,Viet Nam,2014,copra,140.0
+214,200,"China, Taiwan Province of",Singapore,2019,copra,0.08
+100,118,India,Kuwait,2003,copra,1.0
+100,118,India,Kuwait,2014,copra,1.26
+100,118,India,Kuwait,2015,copra,0.16
+100,118,India,Kuwait,2018,copra,2.56
+100,118,India,Kuwait,2019,copra,0.7
+100,118,India,Kuwait,2020,copra,3.4
+100,118,India,Kuwait,2021,copra,3.13
+100,118,India,Kuwait,2022,copra,12.87
+100,118,India,Kuwait,2023,copra,4.43
+183,146,Romania,Republic of Moldova,2008,copra,5.0
+183,146,Romania,Republic of Moldova,2014,copra,0.01
+101,182,Indonesia,Réunion,1998,copra,700.0
+68,44,France,Colombia,2020,copra,0.5
+216,110,Thailand,Japan,1989,copra,2.0
+216,110,Thailand,Japan,1994,copra,2.0
+216,110,Thailand,Japan,1997,copra,14.0
+216,110,Thailand,Japan,2000,copra,3.0
+216,110,Thailand,Japan,2001,copra,1.0
+216,110,Thailand,Japan,2004,copra,18.0
+216,110,Thailand,Japan,2005,copra,1.0
+216,110,Thailand,Japan,2007,copra,6.0
+216,110,Thailand,Japan,2013,copra,30.0
+216,110,Thailand,Japan,2014,copra,2.61
+216,110,Thailand,Japan,2015,copra,6.26
+216,110,Thailand,Japan,2016,copra,1.45
+131,149,Malaysia,Nepal,1989,copra,20.0
+131,149,Malaysia,Nepal,1991,copra,10.0
+200,110,Singapore,Japan,2002,copra,1.0
+131,150,Malaysia,Netherlands (Kingdom of the),1986,copra,1000.0
+131,150,Malaysia,Netherlands (Kingdom of the),1987,copra,427.0
+131,150,Malaysia,Netherlands (Kingdom of the),1988,copra,84.0
+131,150,Malaysia,Netherlands (Kingdom of the),1991,copra,64.0
+101,194,Indonesia,Saudi Arabia,2012,copra,16.0
+101,194,Indonesia,Saudi Arabia,2020,copra,10.0
+231,214,United States of America,"China, Taiwan Province of",1990,copra,9.0
+231,214,United States of America,"China, Taiwan Province of",1999,copra,83.0
+225,179,United Arab Emirates,Qatar,2022,copra,0.2
+225,179,United Arab Emirates,Qatar,2023,copra,0.69
+100,123,India,Liberia,2023,copra,0.08
+100,129,India,Madagascar,2019,copra,0.02
+100,129,India,Madagascar,2022,copra,0.12
+101,200,Indonesia,Singapore,1992,copra,4.0
+101,200,Indonesia,Singapore,1994,copra,4000.0
+101,200,Indonesia,Singapore,1999,copra,29.0
+101,200,Indonesia,Singapore,2001,copra,17.0
+101,200,Indonesia,Singapore,2002,copra,36.0
+101,200,Indonesia,Singapore,2003,copra,30.0
+101,200,Indonesia,Singapore,2005,copra,68.0
+101,200,Indonesia,Singapore,2007,copra,826.0
+101,200,Indonesia,Singapore,2008,copra,881.0
+101,200,Indonesia,Singapore,2009,copra,40.0
+101,200,Indonesia,Singapore,2010,copra,20.0
+101,200,Indonesia,Singapore,2019,copra,0.01
+101,200,Indonesia,Singapore,2020,copra,0.01
+101,200,Indonesia,Singapore,2023,copra,0.02
+100,130,India,Malawi,2014,copra,0.15
+100,130,India,Malawi,2018,copra,0.09
+100,130,India,Malawi,2019,copra,0.11
+100,130,India,Malawi,2020,copra,0.34
+100,130,India,Malawi,2021,copra,0.36
+100,130,India,Malawi,2023,copra,1.0
+100,131,India,Malaysia,1998,copra,20.0
+100,131,India,Malaysia,2014,copra,0.02
+100,131,India,Malaysia,2015,copra,0.03
+100,131,India,Malaysia,2016,copra,50.0
+100,131,India,Malaysia,2018,copra,36.24
+100,131,India,Malaysia,2020,copra,1.05
+100,131,India,Malaysia,2021,copra,0.98
+100,131,India,Malaysia,2022,copra,35.93
+100,131,India,Malaysia,2023,copra,0.03
+225,194,United Arab Emirates,Saudi Arabia,2022,copra,0.4
+216,118,Thailand,Kuwait,2019,copra,0.78
+216,118,Thailand,Kuwait,2020,copra,2.17
+216,118,Thailand,Kuwait,2021,copra,0.6
+231,44,United States of America,Colombia,1994,copra,2.0
+106,54,Italy,Denmark,1997,copra,5.0
+214,216,"China, Taiwan Province of",Thailand,2014,copra,0.01
+214,216,"China, Taiwan Province of",Thailand,2016,copra,0.32
+131,165,Malaysia,Pakistan,1986,copra,2358.0
+131,165,Malaysia,Pakistan,1987,copra,2620.0
+131,165,Malaysia,Pakistan,1988,copra,3509.0
+131,165,Malaysia,Pakistan,1989,copra,5348.0
+131,165,Malaysia,Pakistan,1990,copra,4150.0
+131,165,Malaysia,Pakistan,1991,copra,364.0
+131,165,Malaysia,Pakistan,1992,copra,706.0
+131,165,Malaysia,Pakistan,1993,copra,989.0
+131,165,Malaysia,Pakistan,1994,copra,2401.0
+131,165,Malaysia,Pakistan,1995,copra,635.0
+131,165,Malaysia,Pakistan,1996,copra,693.0
+131,165,Malaysia,Pakistan,1998,copra,444.0
+131,165,Malaysia,Pakistan,1999,copra,108.0
+131,165,Malaysia,Pakistan,2000,copra,125.0
+131,165,Malaysia,Pakistan,2001,copra,10.0
+131,165,Malaysia,Pakistan,2017,copra,238.13
+131,165,Malaysia,Pakistan,2018,copra,575.3
+131,165,Malaysia,Pakistan,2019,copra,1250.0
+131,165,Malaysia,Pakistan,2021,copra,90.0
+216,120,Thailand,Lao People's Democratic Republic,2002,copra,1.0
+216,120,Thailand,Lao People's Democratic Republic,2003,copra,3.0
+216,120,Thailand,Lao People's Democratic Republic,2006,copra,3.0
+216,120,Thailand,Lao People's Democratic Republic,2007,copra,1.0
+216,120,Thailand,Lao People's Democratic Republic,2010,copra,1.0
+216,120,Thailand,Lao People's Democratic Republic,2015,copra,0.05
+216,120,Thailand,Lao People's Democratic Republic,2016,copra,5.5
+216,120,Thailand,Lao People's Democratic Republic,2017,copra,0.02
+216,120,Thailand,Lao People's Democratic Republic,2018,copra,5.65
+216,120,Thailand,Lao People's Democratic Republic,2019,copra,15.53
+216,120,Thailand,Lao People's Democratic Republic,2020,copra,9.17
+216,120,Thailand,Lao People's Democratic Republic,2021,copra,6.11
+216,120,Thailand,Lao People's Democratic Republic,2022,copra,4.58
+202,130,South Africa,Malawi,2022,copra,0.02
+97,183,Hungary,Romania,2000,copra,33.0
+97,183,Hungary,Romania,2010,copra,20.0
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2015,copra,0.03
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2016,copra,0.03
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2017,copra,0.01
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2019,copra,0.01
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2023,copra,2.0
+11,106,Austria,Italy,1999,copra,50.0
+101,203,Indonesia,Spain,2007,copra,43.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1990,copra,20.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,copra,45.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1993,copra,1.0
+200,131,Singapore,Malaysia,1986,copra,657.0
+200,131,Singapore,Malaysia,1987,copra,286.0
+200,131,Singapore,Malaysia,1988,copra,558.0
+200,131,Singapore,Malaysia,1989,copra,164.0
+200,131,Singapore,Malaysia,1990,copra,77.0
+200,131,Singapore,Malaysia,1991,copra,672.0
+200,131,Singapore,Malaysia,1992,copra,2.0
+200,131,Singapore,Malaysia,1993,copra,25.0
+200,131,Singapore,Malaysia,1994,copra,173.0
+200,131,Singapore,Malaysia,1998,copra,25.0
+200,131,Singapore,Malaysia,1999,copra,30.0
+200,131,Singapore,Malaysia,2018,copra,50.01
+200,131,Singapore,Malaysia,2019,copra,70.61
+200,131,Singapore,Malaysia,2020,copra,83.06
+200,131,Singapore,Malaysia,2021,copra,45.93
+131,171,Malaysia,Philippines,1994,copra,637.0
+131,171,Malaysia,Philippines,1996,copra,1587.0
+131,171,Malaysia,Philippines,1998,copra,230.0
+131,171,Malaysia,Philippines,2005,copra,2.0
+131,171,Malaysia,Philippines,2006,copra,2.0
+131,171,Malaysia,Philippines,2007,copra,674.0
+131,171,Malaysia,Philippines,2008,copra,1474.0
+131,171,Malaysia,Philippines,2009,copra,425.0
+131,171,Malaysia,Philippines,2010,copra,716.0
+131,171,Malaysia,Philippines,2011,copra,747.0
+131,171,Malaysia,Philippines,2012,copra,1161.0
+131,171,Malaysia,Philippines,2013,copra,709.0
+131,171,Malaysia,Philippines,2014,copra,681.0
+131,171,Malaysia,Philippines,2015,copra,621.5
+131,171,Malaysia,Philippines,2016,copra,70.0
+101,38,Indonesia,Sri Lanka,1998,copra,1000.0
+101,38,Indonesia,Sri Lanka,1999,copra,970.0
+101,38,Indonesia,Sri Lanka,2001,copra,1139.0
+101,38,Indonesia,Sri Lanka,2002,copra,160.0
+101,38,Indonesia,Sri Lanka,2003,copra,53.0
+101,38,Indonesia,Sri Lanka,2008,copra,10.0
+101,38,Indonesia,Sri Lanka,2018,copra,12.0
+150,50,Netherlands (Kingdom of the),Cyprus,2018,copra,0.01
+150,50,Netherlands (Kingdom of the),Cyprus,2020,copra,0.01
+231,48,United States of America,Costa Rica,2002,copra,28.0
+173,126,Poland,Lithuania,2011,copra,1.0
+216,131,Thailand,Malaysia,1997,copra,679.0
+216,131,Thailand,Malaysia,1998,copra,314.0
+131,174,Malaysia,Portugal,1986,copra,2000.0
+225,277,United Arab Emirates,South Sudan,2021,copra,1.08
+100,144,India,Mozambique,2022,copra,0.15
+100,144,India,Mozambique,2023,copra,0.08
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2002,copra,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2003,copra,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2006,copra,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2014,copra,0.6
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2015,copra,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2016,copra,0.25
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2017,copra,1.04
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2018,copra,0.44
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2019,copra,0.34
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2020,copra,0.74
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2021,copra,9.78
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2022,copra,10.67
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2023,copra,7.65
+101,216,Indonesia,Thailand,2009,copra,88.0
+101,216,Indonesia,Thailand,2020,copra,135.88
+101,216,Indonesia,Thailand,2021,copra,23.77
+100,28,India,Myanmar,2019,copra,0.2
+131,117,Malaysia,Republic of Korea,1986,copra,2800.0
+131,117,Malaysia,Republic of Korea,1994,copra,2347.0
+214,231,"China, Taiwan Province of",United States of America,2009,copra,5.0
+214,231,"China, Taiwan Province of",United States of America,2013,copra,3.0
+214,231,"China, Taiwan Province of",United States of America,2014,copra,2.04
+150,167,Netherlands (Kingdom of the),Czechia,2019,copra,0.01
+100,149,India,Nepal,1987,copra,88.0
+100,149,India,Nepal,2002,copra,31.0
+100,149,India,Nepal,2003,copra,83.0
+100,149,India,Nepal,2004,copra,647.0
+100,149,India,Nepal,2005,copra,1254.0
+100,149,India,Nepal,2006,copra,1332.0
+100,149,India,Nepal,2007,copra,1362.0
+100,149,India,Nepal,2008,copra,1273.0
+100,149,India,Nepal,2009,copra,1342.0
+100,149,India,Nepal,2010,copra,989.0
+100,149,India,Nepal,2011,copra,1058.0
+100,149,India,Nepal,2012,copra,864.0
+100,149,India,Nepal,2013,copra,563.0
+100,149,India,Nepal,2014,copra,1188.06
+100,149,India,Nepal,2015,copra,603.47
+100,149,India,Nepal,2016,copra,701.68
+100,149,India,Nepal,2017,copra,1220.64
+100,149,India,Nepal,2018,copra,1715.68
+100,149,India,Nepal,2019,copra,1744.5
+100,149,India,Nepal,2020,copra,1996.75
+100,149,India,Nepal,2021,copra,1738.93
+100,149,India,Nepal,2022,copra,1423.01
+100,149,India,Nepal,2023,copra,1455.85
+117,231,Republic of Korea,United States of America,1992,copra,2.0
+202,144,South Africa,Mozambique,2000,copra,78.0
+202,144,South Africa,Mozambique,2001,copra,21.0
+202,144,South Africa,Mozambique,2022,copra,0.1
+100,150,India,Netherlands (Kingdom of the),2018,copra,0.03
+100,150,India,Netherlands (Kingdom of the),2020,copra,0.1
+100,150,India,Netherlands (Kingdom of the),2021,copra,0.31
+100,150,India,Netherlands (Kingdom of the),2022,copra,0.22
+100,150,India,Netherlands (Kingdom of the),2023,copra,13.33
+101,225,Indonesia,United Arab Emirates,2011,copra,110.0
+101,225,Indonesia,United Arab Emirates,2012,copra,194.0
+101,225,Indonesia,United Arab Emirates,2018,copra,0.1
+101,225,Indonesia,United Arab Emirates,2019,copra,36.04
+101,225,Indonesia,United Arab Emirates,2021,copra,25.0
+231,54,United States of America,Denmark,2017,copra,6.05
+131,200,Malaysia,Singapore,1986,copra,23249.0
+131,200,Malaysia,Singapore,1987,copra,12707.0
+131,200,Malaysia,Singapore,1988,copra,12037.0
+131,200,Malaysia,Singapore,1989,copra,18078.0
+131,200,Malaysia,Singapore,1990,copra,11334.0
+131,200,Malaysia,Singapore,1991,copra,4910.0
+131,200,Malaysia,Singapore,1992,copra,4900.0
+131,200,Malaysia,Singapore,1993,copra,3527.0
+131,200,Malaysia,Singapore,1994,copra,411.0
+131,200,Malaysia,Singapore,1995,copra,563.0
+131,200,Malaysia,Singapore,1996,copra,158.0
+131,200,Malaysia,Singapore,1998,copra,235.0
+131,200,Malaysia,Singapore,1999,copra,746.0
+131,200,Malaysia,Singapore,2000,copra,396.0
+131,200,Malaysia,Singapore,2001,copra,15.0
+131,200,Malaysia,Singapore,2004,copra,93.0
+131,200,Malaysia,Singapore,2005,copra,354.0
+131,200,Malaysia,Singapore,2006,copra,443.0
+131,200,Malaysia,Singapore,2007,copra,60.0
+131,200,Malaysia,Singapore,2011,copra,250.0
+131,200,Malaysia,Singapore,2012,copra,280.0
+131,200,Malaysia,Singapore,2018,copra,265.1
+68,54,France,Denmark,1995,copra,1038.0
+68,54,France,Denmark,1996,copra,250.0
+68,54,France,Denmark,1997,copra,5.0
+173,150,Poland,Netherlands (Kingdom of the),2021,copra,0.09
+216,28,Thailand,Myanmar,2003,copra,89.0
+216,28,Thailand,Myanmar,2006,copra,40.0
+216,28,Thailand,Myanmar,2008,copra,393.0
+216,28,Thailand,Myanmar,2009,copra,285.0
+216,28,Thailand,Myanmar,2011,copra,46.0
+216,28,Thailand,Myanmar,2015,copra,14.69
+216,28,Thailand,Myanmar,2016,copra,24.52
+216,28,Thailand,Myanmar,2017,copra,54.16
+216,28,Thailand,Myanmar,2018,copra,25.19
+216,28,Thailand,Myanmar,2020,copra,66.2
+97,198,Hungary,Slovenia,2013,copra,1.0
+97,198,Hungary,Slovenia,2015,copra,0.4
+100,156,India,New Zealand,2017,copra,1.7
+100,156,India,New Zealand,2018,copra,1.68
+100,156,India,New Zealand,2019,copra,2.88
+100,156,India,New Zealand,2020,copra,2.28
+100,156,India,New Zealand,2021,copra,3.66
+100,156,India,New Zealand,2022,copra,3.66
+100,156,India,New Zealand,2023,copra,3.08
+202,147,South Africa,Namibia,2016,copra,0.05
+202,147,South Africa,Namibia,2017,copra,0.02
+174,203,Portugal,Spain,2000,copra,11.0
+101,231,Indonesia,United States of America,2009,copra,32.0
+216,149,Thailand,Nepal,2002,copra,145.0
+100,159,India,Nigeria,2018,copra,0.03
+100,159,India,Nigeria,2019,copra,0.03
+100,159,India,Nigeria,2020,copra,0.14
+100,159,India,Nigeria,2021,copra,0.16
+100,159,India,Nigeria,2022,copra,0.2
+100,159,India,Nigeria,2023,copra,0.04
+231,56,United States of America,Dominican Republic,1990,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1997,copra,21.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1998,copra,35.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1999,copra,7.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2000,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2001,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2002,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2003,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2004,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2007,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2008,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2009,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2012,copra,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2014,copra,1.1
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2015,copra,1.3
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2016,copra,1.74
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2017,copra,2.45
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2018,copra,1.15
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2019,copra,2.13
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2020,copra,2.96
+96,231,"China, Hong Kong SAR",United States of America,2015,copra,0.29
+96,231,"China, Hong Kong SAR",United States of America,2017,copra,0.12
+96,231,"China, Hong Kong SAR",United States of America,2019,copra,0.8
+96,231,"China, Hong Kong SAR",United States of America,2020,copra,2.73
+96,231,"China, Hong Kong SAR",United States of America,2021,copra,1.85
+96,231,"China, Hong Kong SAR",United States of America,2022,copra,0.38
+96,231,"China, Hong Kong SAR",United States of America,2023,copra,0.15
+106,68,Italy,France,1988,copra,1.0
+216,150,Thailand,Netherlands (Kingdom of the),2008,copra,11.0
+216,150,Thailand,Netherlands (Kingdom of the),2009,copra,8.0
+216,150,Thailand,Netherlands (Kingdom of the),2013,copra,2.0
+216,150,Thailand,Netherlands (Kingdom of the),2014,copra,3.83
+216,150,Thailand,Netherlands (Kingdom of the),2015,copra,2.5
+216,150,Thailand,Netherlands (Kingdom of the),2016,copra,1.76
+216,150,Thailand,Netherlands (Kingdom of the),2020,copra,0.07
+216,150,Thailand,Netherlands (Kingdom of the),2021,copra,0.03
+216,150,Thailand,Netherlands (Kingdom of the),2022,copra,0.06
+216,150,Thailand,Netherlands (Kingdom of the),2023,copra,0.05
+200,149,Singapore,Nepal,1987,copra,995.0
+200,149,Singapore,Nepal,1988,copra,155.0
+200,149,Singapore,Nepal,1989,copra,170.0
+200,149,Singapore,Nepal,1991,copra,22.0
+200,149,Singapore,Nepal,1992,copra,153.0
+200,149,Singapore,Nepal,1993,copra,15.0
+100,162,India,Norway,2018,copra,0.07
+100,221,India,Oman,1995,copra,1.0
+100,221,India,Oman,1997,copra,1.0
+100,221,India,Oman,2012,copra,28.0
+100,221,India,Oman,2017,copra,0.51
+100,221,India,Oman,2018,copra,0.54
+100,221,India,Oman,2019,copra,0.3
+100,221,India,Oman,2020,copra,0.24
+100,221,India,Oman,2021,copra,0.2
+100,221,India,Oman,2022,copra,11.18
+100,221,India,Oman,2023,copra,76.24
+200,150,Singapore,Netherlands (Kingdom of the),1986,copra,1524.0
+210,162,Sweden,Norway,1986,copra,30.0
+210,162,Sweden,Norway,1990,copra,1.0
+210,162,Sweden,Norway,2004,copra,3.0
+210,162,Sweden,Norway,2009,copra,79.0
+210,162,Sweden,Norway,2020,copra,0.72
+210,162,Sweden,Norway,2022,copra,0.05
+210,162,Sweden,Norway,2023,copra,0.04
+101,237,Indonesia,Viet Nam,2009,copra,2.0
+101,237,Indonesia,Viet Nam,2014,copra,13.0
+101,237,Indonesia,Viet Nam,2016,copra,13.1
+101,237,Indonesia,Viet Nam,2019,copra,1.41
+225,231,United Arab Emirates,United States of America,2023,copra,0.01
+131,38,Malaysia,Sri Lanka,1993,copra,499.0
+131,38,Malaysia,Sri Lanka,1994,copra,251.0
+156,219,New Zealand,Tonga,2006,copra,2.0
+216,156,Thailand,New Zealand,2002,copra,10.0
+216,156,Thailand,New Zealand,2012,copra,2.0
+216,156,Thailand,New Zealand,2016,copra,0.04
+100,165,India,Pakistan,1996,copra,21.0
+100,165,India,Pakistan,2007,copra,34.0
+100,165,India,Pakistan,2008,copra,22.0
+100,165,India,Pakistan,2009,copra,834.0
+100,165,India,Pakistan,2010,copra,712.0
+100,165,India,Pakistan,2011,copra,243.0
+100,165,India,Pakistan,2012,copra,125.0
+100,165,India,Pakistan,2013,copra,303.0
+100,165,India,Pakistan,2014,copra,350.0
+100,165,India,Pakistan,2015,copra,425.0
+100,165,India,Pakistan,2016,copra,165.0
+100,165,India,Pakistan,2017,copra,194.0
+100,165,India,Pakistan,2018,copra,100.0
+100,165,India,Pakistan,2022,copra,75.0
+100,165,India,Pakistan,2023,copra,272.0
+96,237,"China, Hong Kong SAR",Viet Nam,2010,copra,23.0
+96,237,"China, Hong Kong SAR",Viet Nam,2020,copra,18.0
+211,150,Switzerland,Netherlands (Kingdom of the),2001,copra,1.0
+100,171,India,Philippines,2004,copra,95.0
+100,171,India,Philippines,2017,copra,0.16
+100,171,India,Philippines,2018,copra,0.2
+100,171,India,Philippines,2019,copra,0.37
+100,171,India,Philippines,2020,copra,0.14
+100,171,India,Philippines,2021,copra,0.28
+100,171,India,Philippines,2022,copra,0.19
+100,171,India,Philippines,2023,copra,0.48
+225,249,United Arab Emirates,Yemen,2005,copra,3.0
+225,249,United Arab Emirates,Yemen,2008,copra,1.0
+225,249,United Arab Emirates,Yemen,2019,copra,1.29
+225,249,United Arab Emirates,Yemen,2020,copra,0.72
+225,249,United Arab Emirates,Yemen,2021,copra,57.8
+216,162,Thailand,Norway,2023,copra,0.01
+100,173,India,Poland,2022,copra,0.02
+100,173,India,Poland,2023,copra,0.04
+79,67,Germany,Finland,2020,copra,0.14
+131,216,Malaysia,Thailand,1986,copra,470.0
+131,216,Malaysia,Thailand,1991,copra,17.0
+131,216,Malaysia,Thailand,1999,copra,956.0
+131,216,Malaysia,Thailand,2003,copra,20.0
+131,216,Malaysia,Thailand,2006,copra,1866.0
+131,216,Malaysia,Thailand,2007,copra,292.0
+131,216,Malaysia,Thailand,2008,copra,103.0
+131,216,Malaysia,Thailand,2009,copra,1844.0
+131,216,Malaysia,Thailand,2010,copra,14.0
+131,216,Malaysia,Thailand,2011,copra,119.0
+131,216,Malaysia,Thailand,2012,copra,65.0
+131,216,Malaysia,Thailand,2013,copra,2.0
+216,221,Thailand,Oman,2019,copra,4.44
+216,221,Thailand,Oman,2020,copra,4.35
+216,221,Thailand,Oman,2021,copra,0.53
+216,221,Thailand,Oman,2022,copra,3.13
+100,174,India,Portugal,2022,copra,0.13
+216,165,Thailand,Pakistan,1998,copra,12.0
+100,179,India,Qatar,2012,copra,1.0
+100,179,India,Qatar,2014,copra,1.0
+100,179,India,Qatar,2015,copra,3.0
+100,179,India,Qatar,2016,copra,0.63
+100,179,India,Qatar,2018,copra,1.33
+100,179,India,Qatar,2019,copra,1.91
+100,179,India,Qatar,2020,copra,4.26
+100,179,India,Qatar,2021,copra,3.94
+100,179,India,Qatar,2022,copra,2.11
+100,179,India,Qatar,2023,copra,3.84
+173,183,Poland,Romania,2021,copra,0.08
+54,162,Denmark,Norway,2018,copra,163.16
+54,162,Denmark,Norway,2019,copra,166.39
+54,162,Denmark,Norway,2022,copra,12.47
+200,165,Singapore,Pakistan,1986,copra,1988.0
+200,165,Singapore,Pakistan,1987,copra,451.0
+200,165,Singapore,Pakistan,1988,copra,2302.0
+200,165,Singapore,Pakistan,1989,copra,767.0
+200,165,Singapore,Pakistan,1990,copra,857.0
+200,165,Singapore,Pakistan,1991,copra,3095.0
+200,165,Singapore,Pakistan,1992,copra,6826.0
+200,165,Singapore,Pakistan,1993,copra,4048.0
+200,165,Singapore,Pakistan,1994,copra,659.0
+200,165,Singapore,Pakistan,1995,copra,798.0
+200,165,Singapore,Pakistan,1996,copra,432.0
+200,165,Singapore,Pakistan,1997,copra,812.0
+200,165,Singapore,Pakistan,1998,copra,616.0
+200,165,Singapore,Pakistan,1999,copra,443.0
+200,165,Singapore,Pakistan,2006,copra,20.0
+200,165,Singapore,Pakistan,2018,copra,100.0
+200,165,Singapore,Pakistan,2019,copra,50.0
+200,165,Singapore,Pakistan,2020,copra,73.13
+106,79,Italy,Germany,2017,copra,0.01
+106,79,Italy,Germany,2022,copra,0.14
+100,184,India,Rwanda,2019,copra,0.13
+100,184,India,Rwanda,2020,copra,0.14
+100,184,India,Rwanda,2021,copra,0.11
+231,67,United States of America,Finland,1999,copra,53.0
+216,179,Thailand,Qatar,2019,copra,20.35
+216,179,Thailand,Qatar,2020,copra,1.56
+216,179,Thailand,Qatar,2021,copra,6.24
+216,179,Thailand,Qatar,2022,copra,2.38
+21,231,Brazil,United States of America,2013,copra,3.0
+100,194,India,Saudi Arabia,1998,copra,5.0
+100,194,India,Saudi Arabia,2000,copra,12.0
+100,194,India,Saudi Arabia,2008,copra,1.0
+100,194,India,Saudi Arabia,2023,copra,19.46
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2015,copra,0.02
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2016,copra,0.07
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2017,copra,0.01
+216,117,Thailand,Republic of Korea,2012,copra,6.0
+216,117,Thailand,Republic of Korea,2013,copra,2.0
+216,117,Thailand,Republic of Korea,2014,copra,0.18
+216,117,Thailand,Republic of Korea,2015,copra,8.77
+216,117,Thailand,Republic of Korea,2016,copra,1.69
+216,117,Thailand,Republic of Korea,2019,copra,21.39
+216,117,Thailand,Republic of Korea,2020,copra,16.8
+68,69,France,French Guiana,1987,copra,2.0
+68,69,France,French Guiana,1989,copra,15.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1986,copra,20.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1988,copra,1.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1989,copra,3.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,1991,copra,1.0
+231,68,United States of America,France,1998,copra,33.0
+231,68,United States of America,France,2002,copra,16.0
+231,68,United States of America,France,2017,copra,31.21
+200,174,Singapore,Portugal,1986,copra,1100.0
+68,70,France,French Polynesia,1998,copra,1.0
+100,195,India,Senegal,2020,copra,0.02
+173,199,Poland,Slovakia,2013,copra,1.0
+33,150,Canada,Netherlands (Kingdom of the),2005,copra,8.0
+100,196,India,Seychelles,2018,copra,0.01
+200,117,Singapore,Republic of Korea,1986,copra,3150.0
+200,117,Singapore,Republic of Korea,1989,copra,2121.0
+216,185,Thailand,Russian Federation,2014,copra,0.27
+150,67,Netherlands (Kingdom of the),Finland,2020,copra,0.02
+150,67,Netherlands (Kingdom of the),Finland,2022,copra,0.15
+100,197,India,Sierra Leone,2020,copra,0.05
+100,197,India,Sierra Leone,2021,copra,0.03
+100,197,India,Sierra Leone,2022,copra,0.03
+10,198,Australia,Slovenia,2010,copra,4.0
+10,198,Australia,Slovenia,2011,copra,4.0
+10,198,Australia,Slovenia,2012,copra,4.0
+10,198,Australia,Slovenia,2013,copra,4.0
+216,194,Thailand,Saudi Arabia,2013,copra,8.0
+216,194,Thailand,Saudi Arabia,2014,copra,0.74
+216,194,Thailand,Saudi Arabia,2015,copra,2.03
+216,194,Thailand,Saudi Arabia,2023,copra,0.01
+131,231,Malaysia,United States of America,1990,copra,4.0
+100,200,India,Singapore,2001,copra,1.0
+100,200,India,Singapore,2007,copra,17.0
+100,200,India,Singapore,2009,copra,1.0
+100,200,India,Singapore,2014,copra,0.02
+100,200,India,Singapore,2015,copra,0.75
+100,200,India,Singapore,2016,copra,25.25
+100,200,India,Singapore,2017,copra,76.88
+100,200,India,Singapore,2018,copra,5.7
+100,200,India,Singapore,2019,copra,6.09
+100,200,India,Singapore,2020,copra,7.73
+100,200,India,Singapore,2021,copra,9.48
+100,200,India,Singapore,2022,copra,4.75
+100,200,India,Singapore,2023,copra,8.75
+106,84,Italy,Greece,2001,copra,10.0
+216,200,Thailand,Singapore,2012,copra,5.0
+216,200,Thailand,Singapore,2014,copra,0.08
+216,200,Thailand,Singapore,2015,copra,0.03
+216,200,Thailand,Singapore,2018,copra,0.2
+216,200,Thailand,Singapore,2021,copra,0.01
+216,200,Thailand,Singapore,2022,copra,0.01
+100,202,India,South Africa,2006,copra,1.0
+100,202,India,South Africa,2011,copra,1.0
+100,202,India,South Africa,2012,copra,1.0
+100,202,India,South Africa,2014,copra,0.3
+100,202,India,South Africa,2015,copra,1.0
+100,202,India,South Africa,2017,copra,0.2
+100,202,India,South Africa,2018,copra,0.37
+100,202,India,South Africa,2019,copra,2.48
+100,202,India,South Africa,2020,copra,3.4
+100,202,India,South Africa,2021,copra,0.85
+100,202,India,South Africa,2022,copra,2.17
+100,202,India,South Africa,2023,copra,3.15
+131,237,Malaysia,Viet Nam,2002,copra,35.0
+131,237,Malaysia,Viet Nam,2011,copra,25.0
+255,150,Belgium,Netherlands (Kingdom of the),2016,copra,0.01
+10,38,Australia,Sri Lanka,2023,copra,20.99
+231,79,United States of America,Germany,1995,copra,12.0
+150,68,Netherlands (Kingdom of the),France,1986,copra,28.0
+68,79,France,Germany,1997,copra,600.0
+68,79,France,Germany,1999,copra,5.0
+68,79,France,Germany,2002,copra,357.0
+68,79,France,Germany,2013,copra,3.0
+100,203,India,Spain,2020,copra,1.65
+100,203,India,Spain,2021,copra,1.25
+100,203,India,Spain,2022,copra,0.03
+100,203,India,Spain,2023,copra,0.5
+202,211,South Africa,Switzerland,2002,copra,7.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1989,copra,2195.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,copra,161.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2014,copra,0.4
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2015,copra,0.3
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2016,copra,0.94
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2017,copra,1.01
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,copra,0.22
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2019,copra,0.22
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2020,copra,0.31
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2021,copra,6.85
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2022,copra,16.51
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2023,copra,8.0
+200,38,Singapore,Sri Lanka,1993,copra,993.0
+200,38,Singapore,Sri Lanka,1994,copra,988.0
+200,38,Singapore,Sri Lanka,1996,copra,416.0
+100,206,India,Sudan (former),2004,copra,1.0
+100,210,India,Sweden,2020,copra,0.08
+100,210,India,Sweden,2023,copra,0.14
+216,210,Thailand,Sweden,2015,copra,0.24
+216,210,Thailand,Sweden,2016,copra,0.1
+216,210,Thailand,Sweden,2017,copra,0.3
+216,210,Thailand,Sweden,2018,copra,0.1
+216,210,Thailand,Sweden,2019,copra,3.78
+216,210,Thailand,Sweden,2020,copra,0.56
+216,210,Thailand,Sweden,2021,copra,0.71
+216,210,Thailand,Sweden,2022,copra,0.47
+216,210,Thailand,Sweden,2023,copra,0.3
+100,211,India,Switzerland,2018,copra,0.06
+100,211,India,Switzerland,2019,copra,0.21
+100,211,India,Switzerland,2023,copra,0.08
+173,223,Poland,Türkiye,2023,copra,1.2
+216,211,Thailand,Switzerland,2020,copra,0.22
+173,230,Poland,Ukraine,2008,copra,1.0
+100,216,India,Thailand,2021,copra,17.68
+100,216,India,Thailand,2022,copra,0.25
+100,216,India,Thailand,2023,copra,0.1
+68,84,France,Greece,2013,copra,1.0
+68,84,France,Greece,2014,copra,0.3
+216,223,Thailand,Türkiye,2023,copra,0.5
+100,217,India,Togo,2020,copra,0.03
+100,217,India,Togo,2022,copra,0.04
+100,217,India,Togo,2023,copra,0.02
+100,220,India,Trinidad and Tobago,2020,copra,0.05
+202,229,South Africa,United Kingdom of Great Britain and Northern Ireland,2007,copra,26.0
+100,223,India,Türkiye,2021,copra,49.69
+216,225,Thailand,United Arab Emirates,2011,copra,18.0
+216,225,Thailand,United Arab Emirates,2014,copra,0.01
+216,225,Thailand,United Arab Emirates,2017,copra,2.35
+216,225,Thailand,United Arab Emirates,2018,copra,0.32
+216,225,Thailand,United Arab Emirates,2019,copra,23.28
+216,225,Thailand,United Arab Emirates,2020,copra,24.25
+216,225,Thailand,United Arab Emirates,2021,copra,2.49
+216,225,Thailand,United Arab Emirates,2022,copra,1.28
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2021,copra,0.01
+150,79,Netherlands (Kingdom of the),Germany,1991,copra,2.0
+150,79,Netherlands (Kingdom of the),Germany,1998,copra,311.0
+150,79,Netherlands (Kingdom of the),Germany,1999,copra,20936.0
+150,79,Netherlands (Kingdom of the),Germany,2000,copra,13519.0
+150,79,Netherlands (Kingdom of the),Germany,2001,copra,4041.0
+150,79,Netherlands (Kingdom of the),Germany,2002,copra,5386.0
+150,79,Netherlands (Kingdom of the),Germany,2004,copra,5554.0
+150,79,Netherlands (Kingdom of the),Germany,2005,copra,50.0
+150,79,Netherlands (Kingdom of the),Germany,2017,copra,0.05
+150,79,Netherlands (Kingdom of the),Germany,2018,copra,0.01
+150,79,Netherlands (Kingdom of the),Germany,2020,copra,0.09
+150,79,Netherlands (Kingdom of the),Germany,2021,copra,1.29
+150,79,Netherlands (Kingdom of the),Germany,2022,copra,0.19
+68,87,France,Guadeloupe,1987,copra,2.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2003,copra,22.0
+100,226,India,Uganda,2018,copra,0.01
+100,226,India,Uganda,2019,copra,0.05
+100,226,India,Uganda,2020,copra,0.07
+100,226,India,Uganda,2021,copra,0.34
+100,226,India,Uganda,2022,copra,0.08
+100,226,India,Uganda,2023,copra,0.21
+54,210,Denmark,Sweden,1989,copra,345.0
+79,100,Germany,India,2014,copra,0.47
+231,93,United States of America,Haiti,2002,copra,2.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,1997,copra,6.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2015,copra,5.13
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2016,copra,7.01
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2017,copra,1.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2019,copra,2.5
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2021,copra,0.5
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2022,copra,0.14
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2001,copra,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2002,copra,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2003,copra,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2004,copra,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2005,copra,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2006,copra,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2007,copra,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2008,copra,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2009,copra,3.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2010,copra,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2011,copra,3.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2012,copra,3.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2013,copra,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2014,copra,2.4
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2015,copra,2.8
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2016,copra,7.21
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2017,copra,6.02
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2018,copra,2.5
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2019,copra,5.59
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2020,copra,6.34
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2021,copra,13.41
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2022,copra,0.5
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2023,copra,0.17
+100,225,India,United Arab Emirates,1993,copra,1.0
+100,225,India,United Arab Emirates,1996,copra,1.0
+100,225,India,United Arab Emirates,1997,copra,1.0
+100,225,India,United Arab Emirates,2000,copra,785.0
+100,225,India,United Arab Emirates,2001,copra,1.0
+100,225,India,United Arab Emirates,2004,copra,11.0
+100,225,India,United Arab Emirates,2007,copra,54.0
+100,225,India,United Arab Emirates,2008,copra,153.0
+100,225,India,United Arab Emirates,2009,copra,420.0
+100,225,India,United Arab Emirates,2010,copra,6.0
+100,225,India,United Arab Emirates,2011,copra,17.0
+100,225,India,United Arab Emirates,2012,copra,11.0
+100,225,India,United Arab Emirates,2013,copra,57.0
+100,225,India,United Arab Emirates,2014,copra,197.35
+100,225,India,United Arab Emirates,2015,copra,27.25
+100,225,India,United Arab Emirates,2016,copra,22.0
+100,225,India,United Arab Emirates,2017,copra,110.93
+100,225,India,United Arab Emirates,2018,copra,22.51
+100,225,India,United Arab Emirates,2019,copra,54.46
+100,225,India,United Arab Emirates,2020,copra,27.07
+100,225,India,United Arab Emirates,2021,copra,4137.37
+100,225,India,United Arab Emirates,2022,copra,7724.99
+100,225,India,United Arab Emirates,2023,copra,10980.6
+231,95,United States of America,Honduras,2000,copra,5.0
+106,110,Italy,Japan,1988,copra,2.0
+106,110,Italy,Japan,1994,copra,3.0
+216,231,Thailand,United States of America,1992,copra,1.0
+216,231,Thailand,United States of America,1998,copra,1.0
+216,231,Thailand,United States of America,2011,copra,2.0
+216,231,Thailand,United States of America,2012,copra,42.0
+216,231,Thailand,United States of America,2013,copra,9.0
+216,231,Thailand,United States of America,2014,copra,1.55
+216,231,Thailand,United States of America,2015,copra,2.88
+216,231,Thailand,United States of America,2016,copra,3.59
+216,231,Thailand,United States of America,2017,copra,161.27
+216,231,Thailand,United States of America,2018,copra,105.38
+216,231,Thailand,United States of America,2019,copra,39.57
+216,231,Thailand,United States of America,2021,copra,0.46
+100,229,India,United Kingdom of Great Britain and Northern Ireland,1999,copra,20.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2001,copra,3.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2005,copra,23.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2006,copra,10.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2007,copra,1.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2008,copra,6.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2010,copra,20.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2011,copra,11.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2012,copra,5.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2013,copra,1.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2014,copra,0.7
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2016,copra,3.8
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2017,copra,8.54
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2018,copra,19.02
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2019,copra,19.71
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2020,copra,14.6
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2021,copra,28.87
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2022,copra,9.96
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2023,copra,35.94
+54,211,Denmark,Switzerland,2012,copra,1.0
+54,211,Denmark,Switzerland,2013,copra,1.0
+54,211,Denmark,Switzerland,2014,copra,0.2
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,1999,copra,3.0
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,2018,copra,0.46
+202,251,South Africa,Zambia,2016,copra,0.17
+100,215,India,United Republic of Tanzania,2014,copra,0.03
+100,215,India,United Republic of Tanzania,2020,copra,0.02
+100,215,India,United Republic of Tanzania,2021,copra,0.23
+100,215,India,United Republic of Tanzania,2022,copra,0.05
+100,215,India,United Republic of Tanzania,2023,copra,0.38
+10,237,Australia,Viet Nam,2022,copra,0.16
+10,237,Australia,Viet Nam,2023,copra,0.04
+68,100,France,India,2019,copra,1.5
+216,237,Thailand,Viet Nam,2010,copra,3.0
+216,237,Thailand,Viet Nam,2012,copra,2.0
+216,237,Thailand,Viet Nam,2013,copra,5.0
+216,237,Thailand,Viet Nam,2014,copra,161.0
+216,237,Thailand,Viet Nam,2015,copra,138.17
+216,237,Thailand,Viet Nam,2016,copra,43.09
+216,237,Thailand,Viet Nam,2017,copra,208.56
+216,237,Thailand,Viet Nam,2019,copra,58.46
+100,231,India,United States of America,1996,copra,3.0
+100,231,India,United States of America,2000,copra,2.0
+100,231,India,United States of America,2001,copra,5.0
+100,231,India,United States of America,2003,copra,11.0
+100,231,India,United States of America,2004,copra,3.0
+100,231,India,United States of America,2005,copra,6.0
+100,231,India,United States of America,2006,copra,12.0
+100,231,India,United States of America,2007,copra,3.0
+100,231,India,United States of America,2008,copra,4.0
+100,231,India,United States of America,2009,copra,6.0
+100,231,India,United States of America,2010,copra,13.0
+100,231,India,United States of America,2011,copra,18.0
+100,231,India,United States of America,2012,copra,34.0
+100,231,India,United States of America,2013,copra,21.0
+100,231,India,United States of America,2014,copra,8.96
+100,231,India,United States of America,2015,copra,14.93
+100,231,India,United States of America,2016,copra,8.11
+100,231,India,United States of America,2017,copra,16.94
+100,231,India,United States of America,2018,copra,34.48
+100,231,India,United States of America,2019,copra,50.88
+100,231,India,United States of America,2020,copra,39.44
+100,231,India,United States of America,2021,copra,101.61
+100,231,India,United States of America,2022,copra,91.02
+100,231,India,United States of America,2023,copra,45.13
+54,223,Denmark,Türkiye,2018,copra,17.99
+202,181,South Africa,Zimbabwe,2019,copra,0.03
+255,195,Belgium,Senegal,2016,copra,0.3
+68,102,France,Iran (Islamic Republic of),1995,copra,3.0
+68,102,France,Iran (Islamic Republic of),1996,copra,5.0
+100,228,India,USSR,1987,copra,3.0
+100,228,India,USSR,1990,copra,225.0
+100,237,India,Viet Nam,2016,copra,103.25
+100,237,India,Viet Nam,2017,copra,377.25
+100,237,India,Viet Nam,2018,copra,48.5
+100,237,India,Viet Nam,2019,copra,190.38
+100,237,India,Viet Nam,2020,copra,52.65
+100,237,India,Viet Nam,2022,copra,81.66
+100,237,India,Viet Nam,2023,copra,177.74
+229,119,United Kingdom of Great Britain and Northern Ireland,Latvia,2020,copra,0.01
+100,251,India,Zambia,2017,copra,0.08
+100,251,India,Zambia,2018,copra,0.2
+100,251,India,Zambia,2019,copra,0.05
+100,251,India,Zambia,2020,copra,0.09
+100,251,India,Zambia,2021,copra,0.29
+100,251,India,Zambia,2022,copra,0.07
+100,251,India,Zambia,2023,copra,0.05
+68,105,France,Israel,2012,copra,1.0
+231,106,United States of America,Italy,1990,copra,4.0
+106,134,Italy,Malta,1995,copra,1.0
+150,99,Netherlands (Kingdom of the),Iceland,2022,copra,0.06
+68,106,France,Italy,1989,copra,1.0
+68,106,France,Italy,1991,copra,25.0
+68,106,France,Italy,1993,copra,1.0
+68,106,France,Italy,1998,copra,1.0
+68,106,France,Italy,2022,copra,0.5
+41,237,"China, mainland",Viet Nam,1994,copra,5.0
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2002,copra,4.0
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2015,copra,0.02
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2016,copra,0.02
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2020,copra,0.03
+231,110,United States of America,Japan,1991,copra,20.0
+231,110,United States of America,Japan,1997,copra,39.0
+231,110,United States of America,Japan,1999,copra,93.0
+231,110,United States of America,Japan,2000,copra,19.0
+33,231,Canada,United States of America,1994,copra,690.0
+150,104,Netherlands (Kingdom of the),Ireland,2017,copra,0.02
+150,104,Netherlands (Kingdom of the),Ireland,2018,copra,0.01
+150,104,Netherlands (Kingdom of the),Ireland,2022,copra,0.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2003,copra,2.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2014,copra,0.6
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2015,copra,0.6
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2016,copra,0.56
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2017,copra,0.57
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2018,copra,0.33
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2019,copra,0.61
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2020,copra,1.22
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2021,copra,38.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2022,copra,79.14
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2023,copra,77.36
+203,174,Spain,Portugal,2018,copra,0.02
+203,174,Spain,Portugal,2021,copra,0.17
+150,106,Netherlands (Kingdom of the),Italy,1990,copra,1.0
+255,231,Belgium,United States of America,2005,copra,32.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2018,copra,0.97
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2019,copra,2.04
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2020,copra,5.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2021,copra,5.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2022,copra,2.03
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2023,copra,4.0
+231,127,United States of America,Marshall Islands,2003,copra,7.0
+231,127,United States of America,Marshall Islands,2004,copra,7.0
+106,170,Italy,Peru,1992,copra,4.0
+231,138,United States of America,Mexico,1992,copra,5.0
+231,138,United States of America,Mexico,1993,copra,4.0
+231,138,United States of America,Mexico,1994,copra,24.0
+231,138,United States of America,Mexico,1999,copra,615.0
+231,138,United States of America,Mexico,2003,copra,98.0
+231,138,United States of America,Mexico,2008,copra,9.0
+231,138,United States of America,Mexico,2009,copra,1652.0
+231,138,United States of America,Mexico,2010,copra,4030.0
+231,138,United States of America,Mexico,2011,copra,4975.0
+231,138,United States of America,Mexico,2012,copra,577.0
+231,138,United States of America,Mexico,2016,copra,70.0
+68,131,France,Malaysia,2018,copra,8.1
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2014,copra,0.02
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2015,copra,0.04
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2016,copra,0.01
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2017,copra,0.04
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2019,copra,0.06
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2020,copra,0.09
+79,150,Germany,Netherlands (Kingdom of the),1991,copra,13.0
+231,150,United States of America,Netherlands (Kingdom of the),1991,copra,45.0
+231,150,United States of America,Netherlands (Kingdom of the),1992,copra,70.0
+231,150,United States of America,Netherlands (Kingdom of the),1997,copra,19.0
+231,150,United States of America,Netherlands (Kingdom of the),1999,copra,21.0
+231,150,United States of America,Netherlands (Kingdom of the),2000,copra,18.0
+231,150,United States of America,Netherlands (Kingdom of the),2003,copra,30.0
+68,135,France,Martinique,1986,copra,3.0
+68,135,France,Martinique,1988,copra,37.0
+68,135,France,Martinique,1994,copra,8.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2014,copra,0.04
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2015,copra,0.1
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2016,copra,0.35
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2017,copra,0.13
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2018,copra,0.56
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2019,copra,1.02
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2020,copra,0.82
+231,156,United States of America,New Zealand,2000,copra,5.0
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2016,copra,0.03
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2017,copra,0.02
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2020,copra,0.01
+68,143,France,Morocco,1994,copra,9.0
+68,143,France,Morocco,2006,copra,9.0
+231,157,United States of America,Nicaragua,2010,copra,5.0
+68,150,France,Netherlands (Kingdom of the),1988,copra,54.0
+68,150,France,Netherlands (Kingdom of the),1992,copra,1.0
+68,150,France,Netherlands (Kingdom of the),1995,copra,210.0
+68,150,France,Netherlands (Kingdom of the),1996,copra,347.0
+68,150,France,Netherlands (Kingdom of the),1999,copra,12.0
+68,150,France,Netherlands (Kingdom of the),2004,copra,1.0
+68,150,France,Netherlands (Kingdom of the),2007,copra,328.0
+68,150,France,Netherlands (Kingdom of the),2008,copra,106.0
+106,199,Italy,Slovakia,1993,copra,1.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2016,copra,0.01
+150,134,Netherlands (Kingdom of the),Malta,2020,copra,0.01
+79,173,Germany,Poland,2019,copra,0.28
+79,173,Germany,Poland,2020,copra,1.55
+231,171,United States of America,Philippines,1996,copra,11.0
+231,171,United States of America,Philippines,1998,copra,737.0
+68,158,France,Niger,1988,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2003,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2005,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2006,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2007,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2008,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2009,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2010,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2012,copra,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2014,copra,0.9
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2015,copra,0.5
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2016,copra,0.62
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2017,copra,0.95
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2018,copra,0.25
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2019,copra,0.34
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2020,copra,0.57
+106,203,Italy,Spain,2001,copra,11.0
+229,38,United Kingdom of Great Britain and Northern Ireland,Sri Lanka,1997,copra,18.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2014,copra,0.1
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2015,copra,0.1
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2016,copra,0.41
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2017,copra,0.18
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2018,copra,0.19
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2019,copra,0.22
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2020,copra,0.35
+68,173,France,Poland,1999,copra,1.0
+231,183,United States of America,Romania,1996,copra,71.0
+231,183,United States of America,Romania,1998,copra,40.0
+106,211,Italy,Switzerland,1998,copra,1.0
+106,211,Italy,Switzerland,2008,copra,23.0
+106,211,Italy,Switzerland,2010,copra,20.0
+68,174,France,Portugal,2006,copra,1.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2011,copra,2.0
+106,223,Italy,Türkiye,2014,copra,0.5
+106,223,Italy,Türkiye,2020,copra,0.1
+231,200,United States of America,Singapore,1999,copra,7.0
+68,182,France,Réunion,1996,copra,4.0
+106,225,Italy,United Arab Emirates,2003,copra,60.0
+106,225,Italy,United Arab Emirates,2011,copra,1670.0
+231,202,United States of America,South Africa,2019,copra,144.74
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1988,copra,1.0
+231,203,United States of America,Spain,1993,copra,18.0
+231,203,United States of America,Spain,1994,copra,18.0
+231,203,United States of America,Spain,1996,copra,19.0
+231,203,United States of America,Spain,1998,copra,36.0
+231,203,United States of America,Spain,2005,copra,7.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1997,copra,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2013,copra,15.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2023,copra,1.57
+68,194,France,Saudi Arabia,2003,copra,6.0
+79,203,Germany,Spain,2009,copra,1.0
+106,231,Italy,United States of America,1991,copra,1.0
+68,199,France,Slovakia,2019,copra,0.14
+150,188,Netherlands (Kingdom of the),Saint Kitts and Nevis,2012,copra,1.0
+231,222,United States of America,Tunisia,1998,copra,57.0
+231,223,United States of America,Türkiye,1995,copra,20.0
+231,223,United States of America,Türkiye,1997,copra,13.0
+68,203,France,Spain,1988,copra,24.0
+68,203,France,Spain,1989,copra,24.0
+68,203,France,Spain,1993,copra,1.0
+68,203,France,Spain,1997,copra,1574.0
+68,203,France,Spain,2002,copra,3.0
+68,203,France,Spain,2009,copra,80.0
+68,203,France,Spain,2011,copra,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1993,copra,135.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1996,copra,8.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1998,copra,18.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2006,copra,8.0
+150,198,Netherlands (Kingdom of the),Slovenia,2017,copra,0.01
+68,210,France,Sweden,1988,copra,1.0
+68,210,France,Sweden,1990,copra,8.0
+68,211,France,Switzerland,1994,copra,33.0
+68,211,France,Switzerland,1999,copra,19.0
+68,211,France,Switzerland,2001,copra,15.0
+68,211,France,Switzerland,2005,copra,2.0
+68,211,France,Switzerland,2012,copra,20.0
+68,211,France,Switzerland,2021,copra,207.29
+68,211,France,Switzerland,2022,copra,2361.25
+68,211,France,Switzerland,2023,copra,2916.99
+150,203,Netherlands (Kingdom of the),Spain,2020,copra,0.01
+150,203,Netherlands (Kingdom of the),Spain,2021,copra,0.04
+68,212,France,Syrian Arab Republic,1989,copra,3.0
+68,216,France,Thailand,2001,copra,1.0
+150,210,Netherlands (Kingdom of the),Sweden,2021,copra,4.74
+150,211,Netherlands (Kingdom of the),Switzerland,1998,copra,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,2016,copra,0.3
+150,211,Netherlands (Kingdom of the),Switzerland,2018,copra,0.03
+150,211,Netherlands (Kingdom of the),Switzerland,2019,copra,0.02
+150,211,Netherlands (Kingdom of the),Switzerland,2020,copra,0.09
+150,216,Netherlands (Kingdom of the),Thailand,2003,copra,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1993,copra,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1999,copra,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2000,copra,20.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2014,copra,2.2
+150,223,Netherlands (Kingdom of the),Türkiye,2000,copra,4.0
+150,223,Netherlands (Kingdom of the),Türkiye,2001,copra,2.0
+150,223,Netherlands (Kingdom of the),Türkiye,2012,copra,1.0
+68,231,France,United States of America,1988,copra,2.0
+68,231,France,United States of America,1993,copra,1.0
+68,231,France,United States of America,2003,copra,5.0
+68,231,France,United States of America,2020,copra,1.07
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2017,copra,1.24
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2018,copra,2.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2019,copra,0.02
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2021,copra,0.04
+150,231,Netherlands (Kingdom of the),United States of America,2016,copra,0.16
+150,231,Netherlands (Kingdom of the),United States of America,2017,copra,0.06
+150,231,Netherlands (Kingdom of the),United States of America,2018,copra,1.07

@@ -1,0 +1,1165 @@
+o_code,d_code,o_name,d_name,year,item,weight
+106,3,Italy,Albania,2011,geese,2.0
+106,3,Italy,Albania,2012,geese,2.0
+174,7,Portugal,Angola,2014,geese,0.2
+174,7,Portugal,Angola,2018,geese,0.05
+185,1,Russian Federation,Armenia,2009,geese,1.0
+144,79,Mozambique,Germany,2022,geese,0.01
+251,46,Zambia,Congo,1997,geese,2.0
+251,250,Zambia,Democratic Republic of the Congo,1997,geese,5.0
+44,19,Colombia,Bolivia (Plurinational State of),2005,geese,20.0
+167,11,Czechia,Austria,2004,geese,57.0
+167,11,Czechia,Austria,2006,geese,57.0
+167,11,Czechia,Austria,2014,geese,1.0
+167,11,Czechia,Austria,2015,geese,15.0
+167,11,Czechia,Austria,2016,geese,15.0
+167,11,Czechia,Austria,2017,geese,6.0
+167,11,Czechia,Austria,2019,geese,9.0
+167,11,Czechia,Austria,2020,geese,5.0
+167,11,Czechia,Austria,2021,geese,9.0
+167,11,Czechia,Austria,2022,geese,16.0
+167,11,Czechia,Austria,2023,geese,59.0
+167,11,Czechia,Austria,2014,geese,0.1
+167,11,Czechia,Austria,2015,geese,2.3
+167,11,Czechia,Austria,2016,geese,1.56
+167,11,Czechia,Austria,2017,geese,0.63
+167,11,Czechia,Austria,2019,geese,0.94
+167,11,Czechia,Austria,2020,geese,0.49
+167,11,Czechia,Austria,2021,geese,0.88
+167,11,Czechia,Austria,2022,geese,2.78
+167,11,Czechia,Austria,2023,geese,14.37
+97,11,Hungary,Austria,1993,geese,2.0
+97,11,Hungary,Austria,2017,geese,1.0
+97,11,Hungary,Austria,2018,geese,1.0
+97,11,Hungary,Austria,2020,geese,25.0
+97,11,Hungary,Austria,2021,geese,25.0
+97,11,Hungary,Austria,2017,geese,0.07
+97,11,Hungary,Austria,2018,geese,0.12
+97,11,Hungary,Austria,2019,geese,0.02
+97,11,Hungary,Austria,2020,geese,2.97
+97,11,Hungary,Austria,2021,geese,5.07
+173,11,Poland,Austria,2014,geese,2.0
+173,11,Poland,Austria,2018,geese,10.0
+173,11,Poland,Austria,2021,geese,7.0
+173,11,Poland,Austria,2022,geese,9.0
+173,11,Poland,Austria,2023,geese,8.0
+173,11,Poland,Austria,2014,geese,0.1
+173,11,Poland,Austria,2018,geese,1.0
+173,11,Poland,Austria,2021,geese,1.1
+173,11,Poland,Austria,2022,geese,1.18
+173,11,Poland,Austria,2023,geese,0.69
+174,9,Portugal,Argentina,2020,geese,0.01
+256,255,Luxembourg,Belgium,2010,geese,10.0
+113,108,Kyrgyzstan,Kazakhstan,2022,geese,1.0
+113,108,Kyrgyzstan,Kazakhstan,2022,geese,0.54
+185,52,Russian Federation,Azerbaijan,2014,geese,10.0
+185,52,Russian Federation,Azerbaijan,2014,geese,1.0
+128,41,"China, Macao SAR","China, mainland",2002,geese,2.0
+128,41,"China, Macao SAR","China, mainland",2003,geese,1.0
+225,16,United Arab Emirates,Bangladesh,2018,geese,0.2
+255,52,Belgium,Azerbaijan,2019,geese,0.03
+255,52,Belgium,Azerbaijan,2023,geese,0.01
+255,16,Belgium,Bangladesh,2021,geese,1.0
+255,16,Belgium,Bangladesh,2017,geese,0.06
+255,16,Belgium,Bangladesh,2018,geese,0.17
+255,16,Belgium,Bangladesh,2020,geese,0.55
+255,16,Belgium,Bangladesh,2021,geese,2.3
+255,16,Belgium,Bangladesh,2022,geese,0.22
+255,16,Belgium,Bangladesh,2023,geese,0.02
+21,12,Brazil,Bahamas,2022,geese,0.01
+173,255,Poland,Belgium,2020,geese,0.01
+173,255,Poland,Belgium,2021,geese,0.03
+173,255,Poland,Belgium,2022,geese,0.01
+202,20,South Africa,Botswana,2020,geese,1.0
+79,11,Germany,Austria,2011,geese,7.0
+79,11,Germany,Austria,2012,geese,3.0
+79,11,Germany,Austria,2013,geese,9.0
+79,11,Germany,Austria,2014,geese,7.0
+79,11,Germany,Austria,2015,geese,10.0
+79,11,Germany,Austria,2016,geese,2.0
+79,11,Germany,Austria,2017,geese,3.0
+79,11,Germany,Austria,2018,geese,2.0
+79,11,Germany,Austria,2019,geese,4.0
+79,11,Germany,Austria,2020,geese,5.0
+79,11,Germany,Austria,2021,geese,3.0
+79,11,Germany,Austria,2022,geese,2.0
+79,11,Germany,Austria,2023,geese,1.0
+79,11,Germany,Austria,2014,geese,1.0
+79,11,Germany,Austria,2015,geese,1.7
+79,11,Germany,Austria,2016,geese,3.18
+79,11,Germany,Austria,2017,geese,3.93
+79,11,Germany,Austria,2018,geese,1.25
+79,11,Germany,Austria,2019,geese,1.93
+79,11,Germany,Austria,2020,geese,5.47
+79,11,Germany,Austria,2021,geese,1.4
+79,11,Germany,Austria,2022,geese,0.97
+79,11,Germany,Austria,2023,geese,0.61
+44,58,Colombia,Ecuador,1997,geese,2.0
+44,58,Colombia,Ecuador,2002,geese,7.0
+150,11,Netherlands (Kingdom of the),Austria,2007,geese,7.0
+199,167,Slovakia,Czechia,2013,geese,1.0
+229,16,United Kingdom of Great Britain and Northern Ireland,Bangladesh,2007,geese,18.0
+97,27,Hungary,Bulgaria,2013,geese,2.0
+54,27,Denmark,Bulgaria,1989,geese,2.0
+251,226,Zambia,Uganda,1999,geese,3.0
+15,68,Belgium-Luxembourg,France,1989,geese,2.0
+15,68,Belgium-Luxembourg,France,1999,geese,8.0
+222,124,Tunisia,Libya,1995,geese,56.0
+54,33,Denmark,Canada,1988,geese,5.0
+54,33,Denmark,Canada,2007,geese,1.0
+195,158,Senegal,Niger,2019,geese,0.02
+68,57,France,Belarus,2007,geese,1.0
+15,79,Belgium-Luxembourg,Germany,1997,geese,22.0
+15,79,Belgium-Luxembourg,Germany,1999,geese,24.0
+97,98,Hungary,Croatia,1993,geese,2.0
+97,98,Hungary,Croatia,1994,geese,10.0
+97,98,Hungary,Croatia,1995,geese,29.0
+97,98,Hungary,Croatia,2004,geese,27.0
+97,98,Hungary,Croatia,2005,geese,38.0
+97,98,Hungary,Croatia,2017,geese,1.0
+97,98,Hungary,Croatia,2018,geese,1.0
+97,98,Hungary,Croatia,2020,geese,1.0
+97,98,Hungary,Croatia,2017,geese,0.09
+97,98,Hungary,Croatia,2018,geese,0.15
+97,98,Hungary,Croatia,2020,geese,1.22
+150,16,Netherlands (Kingdom of the),Bangladesh,2012,geese,1.0
+150,16,Netherlands (Kingdom of the),Bangladesh,2017,geese,2.0
+150,16,Netherlands (Kingdom of the),Bangladesh,2014,geese,0.8
+150,16,Netherlands (Kingdom of the),Bangladesh,2017,geese,3.18
+150,16,Netherlands (Kingdom of the),Bangladesh,2018,geese,0.61
+150,16,Netherlands (Kingdom of the),Bangladesh,2019,geese,0.65
+150,16,Netherlands (Kingdom of the),Bangladesh,2021,geese,0.15
+54,214,Denmark,"China, Taiwan Province of",1988,geese,1.0
+54,214,Denmark,"China, Taiwan Province of",2004,geese,3.0
+54,214,Denmark,"China, Taiwan Province of",2005,geese,3.0
+216,96,Thailand,"China, Hong Kong SAR",2013,geese,2.0
+68,255,France,Belgium,2005,geese,24.0
+68,255,France,Belgium,2006,geese,4.0
+68,255,France,Belgium,2007,geese,67.0
+68,255,France,Belgium,2008,geese,46.0
+68,255,France,Belgium,2009,geese,15.0
+68,255,France,Belgium,2010,geese,4.0
+68,255,France,Belgium,2016,geese,1.0
+68,255,France,Belgium,2018,geese,1.0
+68,255,France,Belgium,2023,geese,1.0
+68,255,France,Belgium,2016,geese,0.09
+68,255,France,Belgium,2018,geese,0.09
+68,255,France,Belgium,2022,geese,0.02
+68,255,France,Belgium,2023,geese,0.06
+21,96,Brazil,"China, Hong Kong SAR",2021,geese,0.01
+194,118,Saudi Arabia,Kuwait,1998,geese,1.0
+41,96,"China, mainland","China, Hong Kong SAR",1987,geese,2995.0
+41,96,"China, mainland","China, Hong Kong SAR",1988,geese,2745.0
+41,96,"China, mainland","China, Hong Kong SAR",1989,geese,2383.0
+41,96,"China, mainland","China, Hong Kong SAR",1990,geese,2306.0
+41,96,"China, mainland","China, Hong Kong SAR",1991,geese,2237.0
+41,96,"China, mainland","China, Hong Kong SAR",1992,geese,2588.0
+41,96,"China, mainland","China, Hong Kong SAR",1993,geese,6421.0
+41,96,"China, mainland","China, Hong Kong SAR",1994,geese,6479.0
+41,96,"China, mainland","China, Hong Kong SAR",1995,geese,5817.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,geese,2762.0
+41,96,"China, mainland","China, Hong Kong SAR",1997,geese,2248.0
+41,96,"China, mainland","China, Hong Kong SAR",1998,geese,176.0
+41,96,"China, mainland","China, Hong Kong SAR",1999,geese,250.0
+41,96,"China, mainland","China, Hong Kong SAR",2000,geese,217.0
+41,96,"China, mainland","China, Hong Kong SAR",2001,geese,108.0
+41,96,"China, mainland","China, Hong Kong SAR",2002,geese,89.0
+41,96,"China, mainland","China, Hong Kong SAR",2003,geese,74.0
+41,96,"China, mainland","China, Hong Kong SAR",2004,geese,7.0
+114,201,Kenya,Somalia,2017,geese,0.11
+256,101,Luxembourg,Indonesia,2023,geese,0.17
+150,255,Netherlands (Kingdom of the),Belgium,2007,geese,42.0
+150,255,Netherlands (Kingdom of the),Belgium,2008,geese,368.0
+150,255,Netherlands (Kingdom of the),Belgium,2009,geese,71.0
+150,255,Netherlands (Kingdom of the),Belgium,2010,geese,63.0
+150,255,Netherlands (Kingdom of the),Belgium,2016,geese,0.01
+79,255,Germany,Belgium,2017,geese,1.0
+79,255,Germany,Belgium,2017,geese,0.3
+79,255,Germany,Belgium,2018,geese,0.11
+79,255,Germany,Belgium,2019,geese,0.16
+79,255,Germany,Belgium,2020,geese,0.16
+79,255,Germany,Belgium,2021,geese,0.1
+79,255,Germany,Belgium,2022,geese,0.04
+54,51,Denmark,Czechoslovakia,1990,geese,10.0
+44,166,Colombia,Panama,1992,geese,8.0
+44,166,Colombia,Panama,1993,geese,2.0
+173,167,Poland,Czechia,2010,geese,1.0
+173,167,Poland,Czechia,2023,geese,31.0
+173,167,Poland,Czechia,2018,geese,0.01
+173,167,Poland,Czechia,2023,geese,3.1
+231,23,United States of America,Belize,2022,geese,10.0
+256,118,Luxembourg,Kuwait,2020,geese,0.2
+255,107,Belgium,Côte d'Ivoire,2019,geese,0.03
+255,107,Belgium,Côte d'Ivoire,2020,geese,0.02
+11,167,Austria,Czechia,1995,geese,2.0
+15,106,Belgium-Luxembourg,Italy,1999,geese,2.0
+68,15,France,Belgium-Luxembourg,1988,geese,2.0
+68,15,France,Belgium-Luxembourg,1991,geese,1.0
+68,15,France,Belgium-Luxembourg,1998,geese,1.0
+41,128,"China, mainland","China, Macao SAR",1988,geese,82.0
+41,128,"China, mainland","China, Macao SAR",1989,geese,44.0
+41,128,"China, mainland","China, Macao SAR",1990,geese,25.0
+41,128,"China, mainland","China, Macao SAR",1991,geese,26.0
+41,128,"China, mainland","China, Macao SAR",1992,geese,30.0
+41,128,"China, mainland","China, Macao SAR",1993,geese,723.0
+41,128,"China, mainland","China, Macao SAR",1994,geese,641.0
+41,128,"China, mainland","China, Macao SAR",1995,geese,618.0
+41,128,"China, mainland","China, Macao SAR",1996,geese,42.0
+41,128,"China, mainland","China, Macao SAR",1997,geese,29.0
+41,128,"China, mainland","China, Macao SAR",1998,geese,24.0
+41,128,"China, mainland","China, Macao SAR",1999,geese,19.0
+41,128,"China, mainland","China, Macao SAR",2000,geese,17.0
+41,128,"China, mainland","China, Macao SAR",2001,geese,8.0
+41,128,"China, mainland","China, Macao SAR",2002,geese,23.0
+41,128,"China, mainland","China, Macao SAR",2003,geese,22.0
+41,128,"China, mainland","China, Macao SAR",2004,geese,3.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,geese,2.0
+202,250,South Africa,Democratic Republic of the Congo,2012,geese,2.0
+202,250,South Africa,Democratic Republic of the Congo,2013,geese,1.0
+114,226,Kenya,Uganda,2018,geese,0.04
+68,53,France,Benin,1999,geese,1.0
+68,53,France,Benin,2019,geese,0.04
+179,225,Qatar,United Arab Emirates,2015,geese,0.01
+173,54,Poland,Denmark,2015,geese,6.0
+173,54,Poland,Denmark,2016,geese,29.0
+173,54,Poland,Denmark,2022,geese,8.0
+173,54,Poland,Denmark,2023,geese,9.0
+173,54,Poland,Denmark,2015,geese,0.5
+173,54,Poland,Denmark,2016,geese,2.44
+173,54,Poland,Denmark,2022,geese,1.05
+173,54,Poland,Denmark,2023,geese,1.09
+97,68,Hungary,France,2013,geese,1.0
+97,68,Hungary,France,2018,geese,3.0
+97,68,Hungary,France,2020,geese,1.0
+97,68,Hungary,France,2018,geese,0.41
+97,68,Hungary,France,2020,geese,0.12
+167,79,Czechia,Germany,1996,geese,3.0
+167,79,Czechia,Germany,2004,geese,2.0
+167,79,Czechia,Germany,2018,geese,4.0
+167,79,Czechia,Germany,2021,geese,2.0
+167,79,Czechia,Germany,2022,geese,5.0
+167,79,Czechia,Germany,2018,geese,0.42
+167,79,Czechia,Germany,2021,geese,0.17
+167,79,Czechia,Germany,2022,geese,0.5
+255,250,Belgium,Democratic Republic of the Congo,2018,geese,0.17
+255,250,Belgium,Democratic Republic of the Congo,2019,geese,0.01
+255,250,Belgium,Democratic Republic of the Congo,2020,geese,0.11
+255,250,Belgium,Democratic Republic of the Congo,2021,geese,0.01
+256,194,Luxembourg,Saudi Arabia,2023,geese,0.14
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,geese,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,geese,7.0
+97,79,Hungary,Germany,1993,geese,48.0
+97,79,Hungary,Germany,1994,geese,62.0
+97,79,Hungary,Germany,1995,geese,42.0
+97,79,Hungary,Germany,2014,geese,6.0
+97,79,Hungary,Germany,2016,geese,12.0
+97,79,Hungary,Germany,2017,geese,8.0
+97,79,Hungary,Germany,2018,geese,20.0
+97,79,Hungary,Germany,2014,geese,12.9
+97,79,Hungary,Germany,2016,geese,25.28
+97,79,Hungary,Germany,2017,geese,16.25
+97,79,Hungary,Germany,2018,geese,37.81
+68,27,France,Bulgaria,1996,geese,2.0
+68,27,France,Bulgaria,1997,geese,3.0
+68,27,France,Bulgaria,1998,geese,1.0
+68,27,France,Bulgaria,2000,geese,3.0
+68,27,France,Bulgaria,2002,geese,24.0
+68,27,France,Bulgaria,2003,geese,2.0
+68,27,France,Bulgaria,2004,geese,2.0
+68,27,France,Bulgaria,2005,geese,2.0
+44,231,Colombia,United States of America,2003,geese,1.0
+54,68,Denmark,France,1988,geese,24.0
+68,233,France,Burkina Faso,2003,geese,1.0
+68,233,France,Burkina Faso,2010,geese,1.0
+68,233,France,Burkina Faso,2013,geese,1.0
+68,233,France,Burkina Faso,2016,geese,1.0
+68,233,France,Burkina Faso,2018,geese,1.0
+68,233,France,Burkina Faso,2014,geese,0.1
+68,233,France,Burkina Faso,2015,geese,0.1
+68,233,France,Burkina Faso,2016,geese,0.1
+68,233,France,Burkina Faso,2018,geese,0.03
+256,237,Luxembourg,Viet Nam,2022,geese,0.03
+97,84,Hungary,Greece,2004,geese,16.0
+231,33,United States of America,Canada,2014,geese,1.0
+231,33,United States of America,Canada,2015,geese,1.0
+231,33,United States of America,Canada,2016,geese,5.0
+231,33,United States of America,Canada,2017,geese,5.0
+231,33,United States of America,Canada,2018,geese,20.0
+231,33,United States of America,Canada,2020,geese,1.0
+44,236,Colombia,Venezuela (Bolivarian Republic of),2001,geese,411.0
+44,236,Colombia,Venezuela (Bolivarian Republic of),2002,geese,112.0
+44,236,Colombia,Venezuela (Bolivarian Republic of),2004,geese,31.0
+185,108,Russian Federation,Kazakhstan,2004,geese,1.0
+185,108,Russian Federation,Kazakhstan,2012,geese,10.0
+185,108,Russian Federation,Kazakhstan,2014,geese,31.0
+185,108,Russian Federation,Kazakhstan,2015,geese,17.0
+185,108,Russian Federation,Kazakhstan,2016,geese,27.0
+185,108,Russian Federation,Kazakhstan,2017,geese,1.0
+185,108,Russian Federation,Kazakhstan,2018,geese,6.0
+185,108,Russian Federation,Kazakhstan,2019,geese,15.0
+185,108,Russian Federation,Kazakhstan,2020,geese,15.0
+185,108,Russian Federation,Kazakhstan,2021,geese,42.0
+185,108,Russian Federation,Kazakhstan,2014,geese,2.92
+185,108,Russian Federation,Kazakhstan,2015,geese,1.34
+185,108,Russian Federation,Kazakhstan,2016,geese,3.05
+185,108,Russian Federation,Kazakhstan,2017,geese,0.09
+185,108,Russian Federation,Kazakhstan,2018,geese,0.64
+185,108,Russian Federation,Kazakhstan,2019,geese,8.72
+185,108,Russian Federation,Kazakhstan,2020,geese,8.73
+185,108,Russian Federation,Kazakhstan,2021,geese,25.27
+79,33,Germany,Canada,2001,geese,4.0
+79,33,Germany,Canada,2015,geese,0.1
+79,33,Germany,Canada,2020,geese,0.15
+183,106,Romania,Italy,2002,geese,7.0
+119,185,Latvia,Russian Federation,2014,geese,0.3
+173,79,Poland,Germany,2007,geese,25.0
+173,79,Poland,Germany,2009,geese,35.0
+173,79,Poland,Germany,2010,geese,19.0
+173,79,Poland,Germany,2013,geese,1.0
+173,79,Poland,Germany,2014,geese,6.0
+173,79,Poland,Germany,2015,geese,37.0
+173,79,Poland,Germany,2016,geese,18.0
+173,79,Poland,Germany,2017,geese,11.0
+173,79,Poland,Germany,2019,geese,36.0
+173,79,Poland,Germany,2021,geese,156.0
+173,79,Poland,Germany,2022,geese,58.0
+173,79,Poland,Germany,2023,geese,3.0
+173,79,Poland,Germany,2014,geese,0.3
+173,79,Poland,Germany,2015,geese,3.0
+173,79,Poland,Germany,2016,geese,1.74
+173,79,Poland,Germany,2017,geese,0.86
+173,79,Poland,Germany,2019,geese,3.63
+173,79,Poland,Germany,2021,geese,73.16
+173,79,Poland,Germany,2022,geese,7.34
+173,79,Poland,Germany,2023,geese,0.34
+68,33,France,Canada,2001,geese,1.0
+68,33,France,Canada,2002,geese,1.0
+68,33,France,Canada,2003,geese,1.0
+68,33,France,Canada,2004,geese,3.0
+68,33,France,Canada,2005,geese,4.0
+68,33,France,Canada,2006,geese,3.0
+68,33,France,Canada,2007,geese,1.0
+68,33,France,Canada,2010,geese,1.0
+68,33,France,Canada,2011,geese,3.0
+68,33,France,Canada,2012,geese,3.0
+68,33,France,Canada,2020,geese,1.0
+68,33,France,Canada,2021,geese,1.0
+68,33,France,Canada,2020,geese,0.17
+68,33,France,Canada,2021,geese,0.09
+54,79,Denmark,Germany,1991,geese,1.0
+54,79,Denmark,Germany,1992,geese,11.0
+54,79,Denmark,Germany,1997,geese,1.0
+54,79,Denmark,Germany,1998,geese,2.0
+150,33,Netherlands (Kingdom of the),Canada,1998,geese,4.0
+150,33,Netherlands (Kingdom of the),Canada,2007,geese,1.0
+97,106,Hungary,Italy,1993,geese,6.0
+97,106,Hungary,Italy,1994,geese,9.0
+97,106,Hungary,Italy,1995,geese,3.0
+97,106,Hungary,Italy,2010,geese,10.0
+97,106,Hungary,Italy,2011,geese,9.0
+97,106,Hungary,Italy,2012,geese,6.0
+97,106,Hungary,Italy,2013,geese,6.0
+97,106,Hungary,Italy,2014,geese,5.0
+97,106,Hungary,Italy,2015,geese,7.0
+97,106,Hungary,Italy,2016,geese,3.0
+97,106,Hungary,Italy,2017,geese,3.0
+97,106,Hungary,Italy,2018,geese,7.0
+97,106,Hungary,Italy,2019,geese,7.0
+97,106,Hungary,Italy,2020,geese,9.0
+97,106,Hungary,Italy,2021,geese,2.0
+97,106,Hungary,Italy,2014,geese,10.2
+97,106,Hungary,Italy,2015,geese,14.0
+97,106,Hungary,Italy,2016,geese,6.74
+97,106,Hungary,Italy,2017,geese,5.91
+97,106,Hungary,Italy,2018,geese,14.85
+97,106,Hungary,Italy,2019,geese,14.94
+97,106,Hungary,Italy,2020,geese,10.83
+97,106,Hungary,Italy,2021,geese,3.05
+225,124,United Arab Emirates,Libya,2015,geese,0.02
+11,79,Austria,Germany,1997,geese,46.0
+11,79,Austria,Germany,1998,geese,98.0
+11,79,Austria,Germany,2010,geese,1.0
+11,79,Austria,Germany,2011,geese,3.0
+11,79,Austria,Germany,2013,geese,2.0
+11,79,Austria,Germany,2014,geese,2.0
+11,79,Austria,Germany,2015,geese,5.0
+11,79,Austria,Germany,2016,geese,2.0
+11,79,Austria,Germany,2017,geese,1.0
+11,79,Austria,Germany,2022,geese,1.0
+11,79,Austria,Germany,2014,geese,15.2
+11,79,Austria,Germany,2015,geese,22.4
+11,79,Austria,Germany,2016,geese,15.59
+11,79,Austria,Germany,2017,geese,3.66
+11,79,Austria,Germany,2022,geese,1.61
+84,97,Greece,Hungary,2005,geese,3.0
+68,37,France,Central African Republic,2016,geese,0.01
+68,37,France,Central African Republic,2017,geese,0.02
+68,37,France,Central African Republic,2019,geese,0.01
+255,68,Belgium,France,2000,geese,4.0
+255,68,Belgium,France,2001,geese,2.0
+255,68,Belgium,France,2002,geese,1.0
+255,68,Belgium,France,2003,geese,1.0
+15,211,Belgium-Luxembourg,Switzerland,1997,geese,1.0
+150,40,Netherlands (Kingdom of the),Chile,2004,geese,2.0
+216,100,Thailand,India,2012,geese,1.0
+225,143,United Arab Emirates,Morocco,2023,geese,7.0
+230,185,Ukraine,Russian Federation,2009,geese,237.0
+173,97,Poland,Hungary,2013,geese,13.0
+173,97,Poland,Hungary,2019,geese,196.0
+173,97,Poland,Hungary,2021,geese,236.0
+173,97,Poland,Hungary,2022,geese,337.0
+173,97,Poland,Hungary,2023,geese,390.0
+173,97,Poland,Hungary,2019,geese,20.2
+173,97,Poland,Hungary,2021,geese,68.05
+173,97,Poland,Hungary,2022,geese,51.65
+173,97,Poland,Hungary,2023,geese,38.51
+255,73,Belgium,Georgia,2007,geese,1.0
+255,73,Belgium,Georgia,2019,geese,0.51
+54,97,Denmark,Hungary,1988,geese,10.0
+54,97,Denmark,Hungary,1998,geese,12.0
+150,41,Netherlands (Kingdom of the),"China, mainland",2013,geese,7.0
+150,41,Netherlands (Kingdom of the),"China, mainland",2014,geese,4.0
+68,41,France,"China, mainland",1998,geese,28.0
+68,41,France,"China, mainland",1999,geese,1.0
+68,41,France,"China, mainland",2001,geese,13.0
+68,41,France,"China, mainland",2003,geese,8.0
+68,41,France,"China, mainland",2004,geese,3.0
+68,41,France,"China, mainland",2005,geese,3.0
+68,41,France,"China, mainland",2006,geese,2.0
+68,41,France,"China, mainland",2007,geese,4.0
+68,41,France,"China, mainland",2008,geese,3.0
+68,41,France,"China, mainland",2014,geese,3.0
+68,41,France,"China, mainland",2014,geese,5.8
+225,221,United Arab Emirates,Oman,2021,geese,0.05
+225,221,United Arab Emirates,Oman,2022,geese,0.01
+255,79,Belgium,Germany,2000,geese,15.0
+255,79,Belgium,Germany,2001,geese,14.0
+255,79,Belgium,Germany,2002,geese,19.0
+255,79,Belgium,Germany,2003,geese,20.0
+255,79,Belgium,Germany,2004,geese,1.0
+255,79,Belgium,Germany,2005,geese,34.0
+231,41,United States of America,"China, mainland",2023,geese,42.0
+11,97,Austria,Hungary,1999,geese,2.0
+11,97,Austria,Hungary,2008,geese,1.0
+68,214,France,"China, Taiwan Province of",2014,geese,1.0
+68,214,France,"China, Taiwan Province of",2014,geese,0.2
+223,103,Türkiye,Iraq,2018,geese,2.0
+223,103,Türkiye,Iraq,2019,geese,3.0
+223,103,Türkiye,Iraq,2020,geese,9.0
+223,103,Türkiye,Iraq,2017,geese,1.1
+223,103,Türkiye,Iraq,2018,geese,0.7
+223,103,Türkiye,Iraq,2019,geese,1.66
+223,103,Türkiye,Iraq,2020,geese,5.13
+255,81,Belgium,Ghana,2011,geese,1.0
+255,81,Belgium,Ghana,2012,geese,1.0
+255,81,Belgium,Ghana,2021,geese,0.03
+255,81,Belgium,Ghana,2022,geese,0.09
+255,81,Belgium,Ghana,2023,geese,0.01
+97,173,Hungary,Poland,2012,geese,95.0
+97,173,Hungary,Poland,2013,geese,111.0
+97,173,Hungary,Poland,2014,geese,433.0
+97,173,Hungary,Poland,2015,geese,241.0
+97,173,Hungary,Poland,2016,geese,170.0
+97,173,Hungary,Poland,2017,geese,173.0
+97,173,Hungary,Poland,2018,geese,238.0
+97,173,Hungary,Poland,2019,geese,369.0
+97,173,Hungary,Poland,2020,geese,229.0
+97,173,Hungary,Poland,2021,geese,232.0
+97,173,Hungary,Poland,2022,geese,268.0
+97,173,Hungary,Poland,2023,geese,249.0
+97,173,Hungary,Poland,2014,geese,882.2
+97,173,Hungary,Poland,2015,geese,435.9
+97,173,Hungary,Poland,2016,geese,345.58
+97,173,Hungary,Poland,2017,geese,351.98
+97,173,Hungary,Poland,2018,geese,485.36
+97,173,Hungary,Poland,2019,geese,741.36
+97,173,Hungary,Poland,2020,geese,409.92
+97,173,Hungary,Poland,2021,geese,472.16
+97,173,Hungary,Poland,2022,geese,509.47
+97,173,Hungary,Poland,2023,geese,507.24
+68,46,France,Congo,2017,geese,0.04
+68,46,France,Congo,2023,geese,0.07
+41,106,"China, mainland",Italy,1999,geese,1.0
+255,89,Belgium,Guatemala,2017,geese,0.01
+255,89,Belgium,Guatemala,2019,geese,0.03
+97,146,Hungary,Republic of Moldova,2005,geese,5.0
+68,107,France,Côte d'Ivoire,2008,geese,1.0
+68,107,France,Côte d'Ivoire,2010,geese,1.0
+68,107,France,Côte d'Ivoire,2013,geese,1.0
+68,107,France,Côte d'Ivoire,2014,geese,0.1
+68,107,France,Côte d'Ivoire,2016,geese,0.01
+68,107,France,Côte d'Ivoire,2017,geese,0.04
+79,167,Germany,Czechia,2013,geese,1.0
+41,110,"China, mainland",Japan,1994,geese,5.0
+41,110,"China, mainland",Japan,1995,geese,9.0
+173,119,Poland,Latvia,2023,geese,0.02
+167,173,Czechia,Poland,2019,geese,240.0
+167,173,Czechia,Poland,2018,geese,0.03
+167,173,Czechia,Poland,2019,geese,781.28
+97,183,Hungary,Romania,2015,geese,68.0
+97,183,Hungary,Romania,2016,geese,80.0
+97,183,Hungary,Romania,2018,geese,2.0
+97,183,Hungary,Romania,2019,geese,3.0
+97,183,Hungary,Romania,2020,geese,76.0
+97,183,Hungary,Romania,2021,geese,46.0
+97,183,Hungary,Romania,2023,geese,1.0
+97,183,Hungary,Romania,2015,geese,8.0
+97,183,Hungary,Romania,2016,geese,9.4
+97,183,Hungary,Romania,2018,geese,0.18
+97,183,Hungary,Romania,2019,geese,0.35
+97,183,Hungary,Romania,2020,geese,8.89
+97,183,Hungary,Romania,2021,geese,5.43
+97,183,Hungary,Romania,2023,geese,0.16
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1986,geese,3.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,geese,2.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2022,geese,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,geese,4.8
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2022,geese,9.58
+68,49,France,Cuba,1999,geese,8.0
+97,185,Hungary,Russian Federation,2005,geese,147.0
+255,101,Belgium,Indonesia,2022,geese,0.08
+255,103,Belgium,Iraq,2016,geese,1.0
+255,103,Belgium,Iraq,2017,geese,0.07
+255,103,Belgium,Iraq,2018,geese,0.06
+255,103,Belgium,Iraq,2019,geese,0.93
+255,103,Belgium,Iraq,2020,geese,0.42
+255,103,Belgium,Iraq,2022,geese,0.05
+255,103,Belgium,Iraq,2023,geese,0.09
+255,104,Belgium,Ireland,2005,geese,3.0
+68,167,France,Czechia,2007,geese,5.0
+68,167,France,Czechia,2009,geese,1.0
+68,167,France,Czechia,2011,geese,1.0
+68,167,France,Czechia,2012,geese,1.0
+68,167,France,Czechia,2015,geese,1.0
+68,167,France,Czechia,2020,geese,1.0
+68,167,France,Czechia,2021,geese,1.0
+68,167,France,Czechia,2023,geese,1.0
+68,167,France,Czechia,2015,geese,0.2
+68,167,France,Czechia,2020,geese,0.14
+68,167,France,Czechia,2021,geese,0.32
+68,167,France,Czechia,2023,geese,0.07
+79,54,Germany,Denmark,1991,geese,1.0
+79,54,Germany,Denmark,2011,geese,8.0
+79,54,Germany,Denmark,2012,geese,10.0
+79,54,Germany,Denmark,2013,geese,13.0
+79,54,Germany,Denmark,2014,geese,14.0
+79,54,Germany,Denmark,2015,geese,8.0
+79,54,Germany,Denmark,2016,geese,5.0
+79,54,Germany,Denmark,2017,geese,8.0
+79,54,Germany,Denmark,2018,geese,2.0
+79,54,Germany,Denmark,2019,geese,8.0
+79,54,Germany,Denmark,2020,geese,5.0
+79,54,Germany,Denmark,2021,geese,2.0
+79,54,Germany,Denmark,2022,geese,2.0
+79,54,Germany,Denmark,2023,geese,2.0
+79,54,Germany,Denmark,2014,geese,4.4
+79,54,Germany,Denmark,2015,geese,2.8
+79,54,Germany,Denmark,2016,geese,0.51
+79,54,Germany,Denmark,2017,geese,4.16
+79,54,Germany,Denmark,2018,geese,1.15
+79,54,Germany,Denmark,2019,geese,3.97
+79,54,Germany,Denmark,2020,geese,2.75
+79,54,Germany,Denmark,2021,geese,0.79
+79,54,Germany,Denmark,2022,geese,1.16
+79,54,Germany,Denmark,2023,geese,1.01
+185,230,Russian Federation,Ukraine,2004,geese,2.0
+100,149,India,Nepal,2015,geese,1.0
+97,199,Hungary,Slovakia,1994,geese,8.0
+97,199,Hungary,Slovakia,2004,geese,6.0
+97,199,Hungary,Slovakia,2014,geese,121.0
+97,199,Hungary,Slovakia,2015,geese,99.0
+97,199,Hungary,Slovakia,2016,geese,64.0
+97,199,Hungary,Slovakia,2020,geese,3.0
+97,199,Hungary,Slovakia,2021,geese,2.0
+97,199,Hungary,Slovakia,2014,geese,247.2
+97,199,Hungary,Slovakia,2015,geese,200.7
+97,199,Hungary,Slovakia,2016,geese,130.49
+97,199,Hungary,Slovakia,2020,geese,0.35
+97,199,Hungary,Slovakia,2021,geese,0.29
+97,199,Hungary,Slovakia,2022,geese,0.01
+174,200,Portugal,Singapore,2021,geese,0.03
+54,131,Denmark,Malaysia,1988,geese,4.0
+131,200,Malaysia,Singapore,2004,geese,3.0
+216,28,Thailand,Myanmar,2020,geese,0.03
+173,150,Poland,Netherlands (Kingdom of the),2021,geese,62.0
+173,150,Poland,Netherlands (Kingdom of the),2021,geese,207.75
+167,199,Czechia,Slovakia,1996,geese,1.0
+167,199,Czechia,Slovakia,1998,geese,1.0
+167,199,Czechia,Slovakia,1999,geese,2.0
+167,199,Czechia,Slovakia,2000,geese,3.0
+167,199,Czechia,Slovakia,2004,geese,13.0
+167,199,Czechia,Slovakia,2006,geese,76.0
+167,199,Czechia,Slovakia,2015,geese,6.0
+167,199,Czechia,Slovakia,2016,geese,4.0
+167,199,Czechia,Slovakia,2017,geese,3.0
+167,199,Czechia,Slovakia,2018,geese,5.0
+167,199,Czechia,Slovakia,2019,geese,4.0
+167,199,Czechia,Slovakia,2020,geese,3.0
+167,199,Czechia,Slovakia,2021,geese,5.0
+167,199,Czechia,Slovakia,2022,geese,11.0
+167,199,Czechia,Slovakia,2023,geese,6.0
+167,199,Czechia,Slovakia,2015,geese,0.8
+167,199,Czechia,Slovakia,2016,geese,0.39
+167,199,Czechia,Slovakia,2017,geese,0.44
+167,199,Czechia,Slovakia,2018,geese,0.47
+167,199,Czechia,Slovakia,2019,geese,0.4
+167,199,Czechia,Slovakia,2020,geese,0.27
+167,199,Czechia,Slovakia,2021,geese,0.52
+167,199,Czechia,Slovakia,2022,geese,1.16
+167,199,Czechia,Slovakia,2023,geese,0.64
+106,68,Italy,France,2016,geese,0.01
+255,112,Belgium,Jordan,2019,geese,0.02
+255,112,Belgium,Jordan,2020,geese,0.04
+255,112,Belgium,Jordan,2021,geese,0.1
+255,112,Belgium,Jordan,2022,geese,0.24
+210,162,Sweden,Norway,2001,geese,1.0
+210,162,Sweden,Norway,2011,geese,1.0
+210,162,Sweden,Norway,2012,geese,1.0
+210,162,Sweden,Norway,2013,geese,2.0
+210,162,Sweden,Norway,2020,geese,0.06
+210,162,Sweden,Norway,2021,geese,0.13
+255,118,Belgium,Kuwait,2020,geese,1.0
+255,118,Belgium,Kuwait,2020,geese,4.01
+41,28,"China, mainland",Myanmar,1994,geese,3.0
+41,149,"China, mainland",Nepal,1995,geese,2.0
+255,121,Belgium,Lebanon,2017,geese,0.03
+255,121,Belgium,Lebanon,2018,geese,0.01
+255,121,Belgium,Lebanon,2019,geese,0.02
+255,121,Belgium,Lebanon,2021,geese,0.02
+255,124,Belgium,Libya,2013,geese,1.0
+255,124,Belgium,Libya,2019,geese,0.37
+255,124,Belgium,Libya,2022,geese,0.08
+255,124,Belgium,Libya,2023,geese,0.07
+97,230,Hungary,Ukraine,1995,geese,3.0
+97,230,Hungary,Ukraine,2004,geese,7.0
+97,230,Hungary,Ukraine,2005,geese,9.0
+97,230,Hungary,Ukraine,2010,geese,10.0
+97,230,Hungary,Ukraine,2013,geese,5.0
+97,230,Hungary,Ukraine,2014,geese,2.0
+97,230,Hungary,Ukraine,2017,geese,3.0
+97,230,Hungary,Ukraine,2014,geese,0.3
+97,230,Hungary,Ukraine,2017,geese,0.35
+79,68,Germany,France,1999,geese,6.0
+255,131,Belgium,Malaysia,2018,geese,0.09
+255,131,Belgium,Malaysia,2023,geese,0.62
+173,199,Poland,Slovakia,2023,geese,1.0
+173,199,Poland,Slovakia,2023,geese,0.21
+231,68,United States of America,France,2021,geese,5.0
+106,84,Italy,Greece,2004,geese,4.0
+106,84,Italy,Greece,2005,geese,1.0
+106,84,Italy,Greece,2009,geese,3.0
+106,84,Italy,Greece,2010,geese,2.0
+106,84,Italy,Greece,2011,geese,1.0
+106,84,Italy,Greece,2012,geese,7.0
+106,84,Italy,Greece,2013,geese,2.0
+106,84,Italy,Greece,2014,geese,1.0
+106,84,Italy,Greece,2015,geese,1.0
+106,84,Italy,Greece,2016,geese,1.0
+106,84,Italy,Greece,2014,geese,0.4
+106,84,Italy,Greece,2015,geese,0.3
+106,84,Italy,Greece,2016,geese,1.06
+255,149,Belgium,Nepal,2014,geese,0.2
+255,149,Belgium,Nepal,2017,geese,0.02
+216,200,Thailand,Singapore,2013,geese,9.0
+231,79,United States of America,Germany,2017,geese,37.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,geese,2.0
+223,194,Türkiye,Saudi Arabia,1986,geese,17.0
+150,68,Netherlands (Kingdom of the),France,1988,geese,7.0
+150,68,Netherlands (Kingdom of the),France,2008,geese,2.0
+150,68,Netherlands (Kingdom of the),France,2009,geese,66.0
+150,68,Netherlands (Kingdom of the),France,2010,geese,200.0
+150,68,Netherlands (Kingdom of the),France,2014,geese,1.0
+150,68,Netherlands (Kingdom of the),France,2014,geese,1.5
+150,68,Netherlands (Kingdom of the),France,2015,geese,0.6
+150,68,Netherlands (Kingdom of the),France,2016,geese,0.1
+68,79,France,Germany,1997,geese,93.0
+68,79,France,Germany,1998,geese,10.0
+68,79,France,Germany,1999,geese,9.0
+68,79,France,Germany,2000,geese,10.0
+68,79,France,Germany,2001,geese,31.0
+68,79,France,Germany,2002,geese,22.0
+68,79,France,Germany,2003,geese,12.0
+68,79,France,Germany,2004,geese,14.0
+68,79,France,Germany,2005,geese,6.0
+68,79,France,Germany,2006,geese,9.0
+68,79,France,Germany,2007,geese,12.0
+68,79,France,Germany,2008,geese,13.0
+68,79,France,Germany,2009,geese,32.0
+68,79,France,Germany,2010,geese,36.0
+68,79,France,Germany,2011,geese,18.0
+68,79,France,Germany,2012,geese,62.0
+68,79,France,Germany,2013,geese,65.0
+68,79,France,Germany,2014,geese,61.0
+68,79,France,Germany,2015,geese,33.0
+68,79,France,Germany,2016,geese,51.0
+68,79,France,Germany,2017,geese,16.0
+68,79,France,Germany,2018,geese,3.0
+68,79,France,Germany,2019,geese,11.0
+68,79,France,Germany,2020,geese,3.0
+68,79,France,Germany,2021,geese,24.0
+68,79,France,Germany,2022,geese,5.0
+68,79,France,Germany,2014,geese,7.0
+68,79,France,Germany,2015,geese,3.3
+68,79,France,Germany,2016,geese,4.26
+68,79,France,Germany,2017,geese,1.86
+68,79,France,Germany,2018,geese,0.29
+68,79,France,Germany,2019,geese,0.91
+68,79,France,Germany,2020,geese,0.31
+68,79,France,Germany,2021,geese,2.86
+68,79,France,Germany,2022,geese,0.65
+173,210,Poland,Sweden,2020,geese,0.01
+54,200,Denmark,Singapore,1988,geese,11.0
+173,211,Poland,Switzerland,2011,geese,1.0
+216,38,Thailand,Sri Lanka,2018,geese,0.02
+216,210,Thailand,Sweden,2013,geese,1.0
+79,97,Germany,Hungary,1994,geese,15.0
+79,97,Germany,Hungary,1997,geese,5.0
+79,97,Germany,Hungary,1998,geese,5.0
+79,97,Germany,Hungary,1999,geese,17.0
+79,97,Germany,Hungary,2000,geese,9.0
+79,97,Germany,Hungary,2001,geese,12.0
+79,97,Germany,Hungary,2002,geese,19.0
+79,97,Germany,Hungary,2003,geese,70.0
+79,97,Germany,Hungary,2011,geese,31.0
+79,97,Germany,Hungary,2012,geese,54.0
+79,97,Germany,Hungary,2013,geese,34.0
+79,97,Germany,Hungary,2014,geese,43.0
+79,97,Germany,Hungary,2016,geese,20.0
+79,97,Germany,Hungary,2014,geese,5.1
+79,97,Germany,Hungary,2016,geese,2.39
+173,230,Poland,Ukraine,2013,geese,1.0
+173,230,Poland,Ukraine,2020,geese,1.0
+173,230,Poland,Ukraine,2020,geese,0.51
+173,230,Poland,Ukraine,2021,geese,0.01
+255,165,Belgium,Pakistan,2018,geese,0.16
+255,165,Belgium,Pakistan,2019,geese,0.05
+255,165,Belgium,Pakistan,2020,geese,0.21
+255,165,Belgium,Pakistan,2021,geese,0.03
+68,84,France,Greece,1998,geese,9.0
+68,84,France,Greece,1999,geese,7.0
+68,84,France,Greece,2000,geese,17.0
+68,84,France,Greece,2001,geese,18.0
+68,84,France,Greece,2002,geese,18.0
+68,84,France,Greece,2003,geese,18.0
+68,84,France,Greece,2004,geese,12.0
+68,84,France,Greece,2005,geese,9.0
+68,84,France,Greece,2007,geese,1.0
+68,84,France,Greece,2008,geese,1.0
+68,84,France,Greece,2010,geese,1.0
+68,84,France,Greece,2011,geese,4.0
+68,84,France,Greece,2012,geese,4.0
+255,171,Belgium,Philippines,2019,geese,0.03
+255,171,Belgium,Philippines,2020,geese,0.28
+231,91,United States of America,Guyana,2022,geese,5.0
+100,226,India,Uganda,2013,geese,3720.0
+150,79,Netherlands (Kingdom of the),Germany,2007,geese,96.0
+150,79,Netherlands (Kingdom of the),Germany,2008,geese,170.0
+150,79,Netherlands (Kingdom of the),Germany,2009,geese,172.0
+150,79,Netherlands (Kingdom of the),Germany,2010,geese,313.0
+150,79,Netherlands (Kingdom of the),Germany,2011,geese,17.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2013,geese,2.0
+231,95,United States of America,Honduras,2017,geese,8.0
+68,97,France,Hungary,1998,geese,4.0
+68,97,France,Hungary,1999,geese,6.0
+68,97,France,Hungary,2000,geese,14.0
+68,97,France,Hungary,2001,geese,33.0
+68,97,France,Hungary,2002,geese,47.0
+68,97,France,Hungary,2003,geese,41.0
+68,97,France,Hungary,2004,geese,6.0
+68,97,France,Hungary,2005,geese,41.0
+68,97,France,Hungary,2006,geese,19.0
+68,97,France,Hungary,2007,geese,34.0
+68,97,France,Hungary,2008,geese,85.0
+68,97,France,Hungary,2010,geese,130.0
+68,97,France,Hungary,2011,geese,32.0
+68,97,France,Hungary,2012,geese,67.0
+68,97,France,Hungary,2013,geese,4.0
+68,97,France,Hungary,2014,geese,3.0
+68,97,France,Hungary,2016,geese,4.0
+68,97,France,Hungary,2017,geese,13.0
+68,97,France,Hungary,2018,geese,3.0
+68,97,France,Hungary,2020,geese,2.0
+68,97,France,Hungary,2023,geese,2.0
+68,97,France,Hungary,2014,geese,0.4
+68,97,France,Hungary,2016,geese,0.6
+68,97,France,Hungary,2017,geese,1.67
+68,97,France,Hungary,2018,geese,0.28
+68,97,France,Hungary,2020,geese,0.2
+68,97,France,Hungary,2023,geese,0.21
+150,81,Netherlands (Kingdom of the),Ghana,2016,geese,1.0
+150,81,Netherlands (Kingdom of the),Ghana,2017,geese,2.0
+150,81,Netherlands (Kingdom of the),Ghana,2016,geese,2.06
+150,81,Netherlands (Kingdom of the),Ghana,2017,geese,4.6
+54,216,Denmark,Thailand,1988,geese,7.0
+202,251,South Africa,Zambia,2019,geese,1.0
+255,194,Belgium,Saudi Arabia,2021,geese,0.05
+255,194,Belgium,Saudi Arabia,2022,geese,0.34
+255,194,Belgium,Saudi Arabia,2023,geese,0.1
+255,195,Belgium,Senegal,2017,geese,0.04
+255,195,Belgium,Senegal,2021,geese,0.03
+255,195,Belgium,Senegal,2022,geese,0.05
+255,195,Belgium,Senegal,2023,geese,0.19
+68,104,France,Ireland,2021,geese,0.03
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1988,geese,21.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1997,geese,11.0
+231,105,United States of America,Israel,2021,geese,15.0
+68,105,France,Israel,1998,geese,1.0
+68,105,France,Israel,2001,geese,2.0
+68,106,France,Italy,1997,geese,3.0
+68,106,France,Italy,1998,geese,36.0
+68,106,France,Italy,1999,geese,33.0
+68,106,France,Italy,2000,geese,63.0
+68,106,France,Italy,2001,geese,61.0
+68,106,France,Italy,2002,geese,127.0
+68,106,France,Italy,2003,geese,151.0
+68,106,France,Italy,2004,geese,93.0
+68,106,France,Italy,2005,geese,74.0
+68,106,France,Italy,2006,geese,15.0
+68,106,France,Italy,2007,geese,41.0
+68,106,France,Italy,2008,geese,67.0
+68,106,France,Italy,2009,geese,69.0
+68,106,France,Italy,2010,geese,65.0
+68,106,France,Italy,2011,geese,83.0
+68,106,France,Italy,2012,geese,93.0
+68,106,France,Italy,2013,geese,114.0
+68,106,France,Italy,2014,geese,132.0
+68,106,France,Italy,2015,geese,103.0
+68,106,France,Italy,2016,geese,83.0
+68,106,France,Italy,2017,geese,62.0
+68,106,France,Italy,2018,geese,72.0
+68,106,France,Italy,2019,geese,70.0
+68,106,France,Italy,2020,geese,46.0
+68,106,France,Italy,2021,geese,69.0
+68,106,France,Italy,2022,geese,3.0
+68,106,France,Italy,2023,geese,49.0
+68,106,France,Italy,2014,geese,12.7
+68,106,France,Italy,2015,geese,9.5
+68,106,France,Italy,2016,geese,7.64
+68,106,France,Italy,2017,geese,5.66
+68,106,France,Italy,2018,geese,6.64
+68,106,France,Italy,2019,geese,6.47
+68,106,France,Italy,2020,geese,4.86
+68,106,France,Italy,2021,geese,14.7
+68,106,France,Italy,2022,geese,0.31
+68,106,France,Italy,2023,geese,6.0
+150,103,Netherlands (Kingdom of the),Iraq,2019,geese,0.2
+255,216,Belgium,Thailand,2017,geese,0.34
+255,216,Belgium,Thailand,2019,geese,2.61
+255,216,Belgium,Thailand,2020,geese,0.44
+255,216,Belgium,Thailand,2021,geese,0.15
+255,216,Belgium,Thailand,2022,geese,0.05
+255,216,Belgium,Thailand,2023,geese,0.05
+33,231,Canada,United States of America,2012,geese,19.0
+33,231,Canada,United States of America,2013,geese,15.0
+33,231,Canada,United States of America,2014,geese,15.0
+33,231,Canada,United States of America,2015,geese,43.0
+33,231,Canada,United States of America,2016,geese,43.0
+33,231,Canada,United States of America,2017,geese,31.0
+33,231,Canada,United States of America,2018,geese,32.0
+33,231,Canada,United States of America,2019,geese,38.0
+33,231,Canada,United States of America,2020,geese,32.0
+33,231,Canada,United States of America,2021,geese,35.0
+33,231,Canada,United States of America,2022,geese,18.0
+33,231,Canada,United States of America,2023,geese,127.0
+255,222,Belgium,Tunisia,2019,geese,0.11
+255,225,Belgium,United Arab Emirates,2016,geese,0.1
+255,225,Belgium,United Arab Emirates,2017,geese,1.08
+255,225,Belgium,United Arab Emirates,2018,geese,0.48
+255,225,Belgium,United Arab Emirates,2019,geese,0.28
+255,225,Belgium,United Arab Emirates,2020,geese,0.5
+255,225,Belgium,United Arab Emirates,2021,geese,0.12
+255,225,Belgium,United Arab Emirates,2022,geese,0.21
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2005,geese,8.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,2001,geese,1.0
+68,126,France,Lithuania,2004,geese,1.0
+255,231,Belgium,United States of America,2022,geese,0.01
+255,237,Belgium,Viet Nam,2017,geese,0.57
+255,237,Belgium,Viet Nam,2018,geese,0.02
+255,237,Belgium,Viet Nam,2019,geese,0.51
+255,237,Belgium,Viet Nam,2023,geese,0.07
+231,138,United States of America,Mexico,2012,geese,13.0
+231,138,United States of America,Mexico,2013,geese,5.0
+231,138,United States of America,Mexico,2016,geese,19.0
+231,138,United States of America,Mexico,2017,geese,5.0
+231,138,United States of America,Mexico,2022,geese,1.0
+150,110,Netherlands (Kingdom of the),Japan,1998,geese,1.0
+106,173,Italy,Poland,2002,geese,6.0
+68,129,France,Madagascar,2019,geese,0.02
+150,118,Netherlands (Kingdom of the),Kuwait,1999,geese,2.0
+150,118,Netherlands (Kingdom of the),Kuwait,2017,geese,0.61
+150,118,Netherlands (Kingdom of the),Kuwait,2019,geese,0.94
+150,118,Netherlands (Kingdom of the),Kuwait,2020,geese,0.11
+106,183,Italy,Romania,1998,geese,4.0
+106,183,Italy,Romania,1999,geese,3.0
+106,183,Italy,Romania,2015,geese,5.0
+106,183,Italy,Romania,2016,geese,6.0
+106,183,Italy,Romania,2018,geese,21.0
+106,183,Italy,Romania,2019,geese,6.0
+106,183,Italy,Romania,2020,geese,11.0
+106,183,Italy,Romania,2021,geese,12.0
+106,183,Italy,Romania,2015,geese,1.3
+106,183,Italy,Romania,2016,geese,1.38
+106,183,Italy,Romania,2018,geese,2.59
+106,183,Italy,Romania,2019,geese,0.83
+106,183,Italy,Romania,2020,geese,2.08
+106,183,Italy,Romania,2021,geese,1.51
+68,138,France,Mexico,2003,geese,1.0
+106,195,Italy,Senegal,1999,geese,9.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2007,geese,5.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2009,geese,3.0
+150,131,Netherlands (Kingdom of the),Malaysia,2015,geese,2.0
+150,131,Netherlands (Kingdom of the),Malaysia,2015,geese,3.8
+68,153,France,New Caledonia,2000,geese,1.0
+79,173,Germany,Poland,1992,geese,6.0
+79,173,Germany,Poland,2011,geese,2.0
+79,173,Germany,Poland,2012,geese,7.0
+79,173,Germany,Poland,2013,geese,15.0
+79,173,Germany,Poland,2014,geese,7.0
+79,173,Germany,Poland,2015,geese,3.0
+79,173,Germany,Poland,2016,geese,17.0
+79,173,Germany,Poland,2019,geese,2.0
+79,173,Germany,Poland,2014,geese,0.8
+79,173,Germany,Poland,2015,geese,0.4
+79,173,Germany,Poland,2016,geese,2.03
+79,173,Germany,Poland,2019,geese,0.24
+150,149,Netherlands (Kingdom of the),Nepal,2014,geese,19.0
+150,149,Netherlands (Kingdom of the),Nepal,2015,geese,2.0
+150,149,Netherlands (Kingdom of the),Nepal,2016,geese,6.0
+150,149,Netherlands (Kingdom of the),Nepal,2014,geese,0.9
+150,149,Netherlands (Kingdom of the),Nepal,2015,geese,3.7
+150,149,Netherlands (Kingdom of the),Nepal,2016,geese,12.56
+79,117,Germany,Republic of Korea,2002,geese,2.0
+229,38,United Kingdom of Great Britain and Northern Ireland,Sri Lanka,2009,geese,3.0
+231,117,United States of America,Republic of Korea,2018,geese,5.0
+79,183,Germany,Romania,2004,geese,5.0
+68,173,France,Poland,2007,geese,10.0
+68,173,France,Poland,2008,geese,10.0
+68,173,France,Poland,2011,geese,37.0
+68,173,France,Poland,2012,geese,16.0
+68,173,France,Poland,2013,geese,21.0
+68,173,France,Poland,2014,geese,15.0
+68,173,France,Poland,2015,geese,3.0
+68,173,France,Poland,2016,geese,8.0
+68,173,France,Poland,2017,geese,15.0
+68,173,France,Poland,2018,geese,4.0
+68,173,France,Poland,2020,geese,2.0
+68,173,France,Poland,2021,geese,16.0
+68,173,France,Poland,2022,geese,1.0
+68,173,France,Poland,2023,geese,23.0
+68,173,France,Poland,2014,geese,1.5
+68,173,France,Poland,2015,geese,0.4
+68,173,France,Poland,2016,geese,0.57
+68,173,France,Poland,2017,geese,1.52
+68,173,France,Poland,2018,geese,0.37
+68,173,France,Poland,2020,geese,0.21
+68,173,France,Poland,2021,geese,1.45
+68,173,France,Poland,2022,geese,0.13
+68,173,France,Poland,2023,geese,2.94
+150,165,Netherlands (Kingdom of the),Pakistan,2015,geese,3.0
+150,165,Netherlands (Kingdom of the),Pakistan,2016,geese,2.0
+150,165,Netherlands (Kingdom of the),Pakistan,2018,geese,1.0
+150,165,Netherlands (Kingdom of the),Pakistan,2015,geese,5.8
+150,165,Netherlands (Kingdom of the),Pakistan,2016,geese,4.58
+150,165,Netherlands (Kingdom of the),Pakistan,2018,geese,1.22
+68,174,France,Portugal,1997,geese,13.0
+68,174,France,Portugal,1998,geese,14.0
+68,174,France,Portugal,1999,geese,9.0
+68,174,France,Portugal,2000,geese,2.0
+68,174,France,Portugal,2001,geese,6.0
+68,174,France,Portugal,2005,geese,1.0
+68,174,France,Portugal,2007,geese,2.0
+68,174,France,Portugal,2010,geese,5.0
+68,174,France,Portugal,2022,geese,1.0
+68,174,France,Portugal,2023,geese,2.0
+68,174,France,Portugal,2016,geese,0.01
+68,174,France,Portugal,2022,geese,0.12
+68,174,France,Portugal,2023,geese,0.19
+150,173,Netherlands (Kingdom of the),Poland,2008,geese,29.0
+150,173,Netherlands (Kingdom of the),Poland,2011,geese,17.0
+79,199,Germany,Slovakia,1997,geese,1.0
+79,199,Germany,Slovakia,2022,geese,0.07
+68,182,France,Réunion,1988,geese,1.0
+68,182,France,Réunion,1989,geese,2.0
+68,182,France,Réunion,1990,geese,3.0
+68,182,France,Réunion,1992,geese,4.0
+68,182,France,Réunion,1993,geese,3.0
+68,182,France,Réunion,1994,geese,1.0
+68,183,France,Romania,2017,geese,12.0
+68,183,France,Romania,2017,geese,1.31
+150,179,Netherlands (Kingdom of the),Qatar,2015,geese,9.0
+150,179,Netherlands (Kingdom of the),Qatar,2015,geese,19.3
+79,202,Germany,South Africa,2001,geese,1.0
+79,202,Germany,South Africa,2005,geese,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2012,geese,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2013,geese,2.0
+68,195,France,Senegal,1997,geese,1.0
+68,195,France,Senegal,2000,geese,5.0
+68,195,France,Senegal,2001,geese,2.0
+68,195,France,Senegal,2003,geese,2.0
+68,195,France,Senegal,2004,geese,1.0
+68,195,France,Senegal,2012,geese,3.0
+68,195,France,Senegal,2013,geese,1.0
+68,195,France,Senegal,2014,geese,0.2
+68,195,France,Senegal,2015,geese,0.1
+68,195,France,Senegal,2016,geese,0.17
+68,195,France,Senegal,2017,geese,0.53
+68,195,France,Senegal,2018,geese,0.51
+68,195,France,Senegal,2019,geese,0.6
+68,196,France,Seychelles,2014,geese,0.1
+68,196,France,Seychelles,2017,geese,0.01
+229,181,United Kingdom of Great Britain and Northern Ireland,Zimbabwe,2009,geese,29.0
+68,199,France,Slovakia,2000,geese,2.0
+231,220,United States of America,Trinidad and Tobago,2013,geese,8.0
+231,220,United States of America,Trinidad and Tobago,2023,geese,9.0
+79,211,Germany,Switzerland,2014,geese,2.0
+79,211,Germany,Switzerland,2015,geese,2.0
+79,211,Germany,Switzerland,2016,geese,2.0
+79,211,Germany,Switzerland,2018,geese,1.0
+79,211,Germany,Switzerland,2019,geese,2.0
+79,211,Germany,Switzerland,2020,geese,1.0
+79,211,Germany,Switzerland,2021,geese,2.0
+79,211,Germany,Switzerland,2022,geese,2.0
+79,211,Germany,Switzerland,2023,geese,1.0
+79,211,Germany,Switzerland,2014,geese,0.3
+79,211,Germany,Switzerland,2015,geese,0.3
+79,211,Germany,Switzerland,2016,geese,0.24
+79,211,Germany,Switzerland,2018,geese,0.17
+79,211,Germany,Switzerland,2019,geese,0.2
+79,211,Germany,Switzerland,2020,geese,0.16
+79,211,Germany,Switzerland,2021,geese,0.2
+79,211,Germany,Switzerland,2022,geese,0.24
+79,211,Germany,Switzerland,2023,geese,0.13
+68,203,France,Spain,1996,geese,1.0
+68,203,France,Spain,1997,geese,64.0
+68,203,France,Spain,1998,geese,48.0
+68,203,France,Spain,1999,geese,40.0
+68,203,France,Spain,2000,geese,4.0
+68,203,France,Spain,2001,geese,3.0
+68,203,France,Spain,2002,geese,3.0
+68,203,France,Spain,2003,geese,3.0
+68,203,France,Spain,2004,geese,4.0
+68,203,France,Spain,2005,geese,5.0
+68,203,France,Spain,2007,geese,8.0
+68,203,France,Spain,2008,geese,1.0
+68,203,France,Spain,2009,geese,2.0
+68,203,France,Spain,2010,geese,7.0
+68,203,France,Spain,2011,geese,4.0
+68,203,France,Spain,2012,geese,7.0
+68,203,France,Spain,2013,geese,8.0
+68,203,France,Spain,2014,geese,5.0
+68,203,France,Spain,2015,geese,8.0
+68,203,France,Spain,2016,geese,6.0
+68,203,France,Spain,2017,geese,6.0
+68,203,France,Spain,2018,geese,6.0
+68,203,France,Spain,2019,geese,5.0
+68,203,France,Spain,2020,geese,3.0
+68,203,France,Spain,2021,geese,8.0
+68,203,France,Spain,2022,geese,3.0
+68,203,France,Spain,2023,geese,5.0
+68,203,France,Spain,2014,geese,0.4
+68,203,France,Spain,2015,geese,0.7
+68,203,France,Spain,2016,geese,0.5
+68,203,France,Spain,2017,geese,0.51
+68,203,France,Spain,2018,geese,0.48
+68,203,France,Spain,2019,geese,0.4
+68,203,France,Spain,2020,geese,0.39
+68,203,France,Spain,2021,geese,1.01
+68,203,France,Spain,2022,geese,0.39
+68,203,France,Spain,2023,geese,0.51
+150,202,Netherlands (Kingdom of the),South Africa,1994,geese,1.0
+150,202,Netherlands (Kingdom of the),South Africa,1998,geese,1.0
+150,202,Netherlands (Kingdom of the),South Africa,2004,geese,1.0
+79,230,Germany,Ukraine,1997,geese,3.0
+68,211,France,Switzerland,1999,geese,2.0
+68,211,France,Switzerland,2011,geese,1.0
+68,211,France,Switzerland,2013,geese,2.0
+68,211,France,Switzerland,2014,geese,3.0
+68,211,France,Switzerland,2015,geese,2.0
+68,211,France,Switzerland,2016,geese,4.0
+68,211,France,Switzerland,2017,geese,3.0
+68,211,France,Switzerland,2018,geese,4.0
+68,211,France,Switzerland,2019,geese,4.0
+68,211,France,Switzerland,2020,geese,4.0
+68,211,France,Switzerland,2021,geese,3.0
+68,211,France,Switzerland,2022,geese,4.0
+68,211,France,Switzerland,2023,geese,2.0
+68,211,France,Switzerland,2014,geese,0.3
+68,211,France,Switzerland,2015,geese,0.3
+68,211,France,Switzerland,2016,geese,0.52
+68,211,France,Switzerland,2017,geese,0.55
+68,211,France,Switzerland,2018,geese,0.47
+68,211,France,Switzerland,2019,geese,0.5
+68,211,France,Switzerland,2020,geese,0.35
+68,211,France,Switzerland,2021,geese,0.64
+68,211,France,Switzerland,2022,geese,0.38
+68,211,France,Switzerland,2023,geese,0.17
+79,225,Germany,United Arab Emirates,2008,geese,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2011,geese,15.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2012,geese,11.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2013,geese,17.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2014,geese,4.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2015,geese,21.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2016,geese,40.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2019,geese,4.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2021,geese,79.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2022,geese,89.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2023,geese,23.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2014,geese,0.5
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2015,geese,2.4
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2016,geese,4.52
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2019,geese,0.47
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2021,geese,9.53
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2022,geese,11.77
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2023,geese,2.85
+68,216,France,Thailand,2012,geese,1.0
+68,222,France,Tunisia,1993,geese,1.0
+79,231,Germany,United States of America,2018,geese,0.08
+68,230,France,Ukraine,2006,geese,23.0
+68,230,France,Ukraine,2007,geese,4.0
+68,230,France,Ukraine,2009,geese,1.0
+68,230,France,Ukraine,2015,geese,1.0
+68,230,France,Ukraine,2016,geese,3.0
+68,230,France,Ukraine,2017,geese,3.0
+68,230,France,Ukraine,2018,geese,3.0
+68,230,France,Ukraine,2019,geese,4.0
+68,230,France,Ukraine,2015,geese,0.2
+68,230,France,Ukraine,2016,geese,0.46
+68,230,France,Ukraine,2017,geese,0.46
+68,230,France,Ukraine,2018,geese,0.46
+68,230,France,Ukraine,2019,geese,0.48
+68,225,France,United Arab Emirates,2019,geese,0.05
+150,216,Netherlands (Kingdom of the),Thailand,2012,geese,3.0
+150,216,Netherlands (Kingdom of the),Thailand,2013,geese,5.0
+150,216,Netherlands (Kingdom of the),Thailand,2014,geese,10.0
+150,216,Netherlands (Kingdom of the),Thailand,2020,geese,1.0
+150,216,Netherlands (Kingdom of the),Thailand,2014,geese,1.1
+150,216,Netherlands (Kingdom of the),Thailand,2018,geese,0.16
+150,216,Netherlands (Kingdom of the),Thailand,2020,geese,1.03
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1998,geese,36.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1999,geese,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2000,geese,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2001,geese,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2005,geese,2.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2009,geese,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2010,geese,4.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2012,geese,5.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2013,geese,8.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2014,geese,8.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,geese,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2014,geese,0.9
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,geese,0.14
+150,223,Netherlands (Kingdom of the),Türkiye,2018,geese,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,2018,geese,1.14
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2012,geese,10.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2013,geese,4.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2014,geese,4.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2015,geese,26.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2016,geese,2.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2014,geese,3.3
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2015,geese,53.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2016,geese,4.24
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2017,geese,0.01
+150,235,Netherlands (Kingdom of the),Uzbekistan,2014,geese,2.0
+150,235,Netherlands (Kingdom of the),Uzbekistan,2014,geese,0.3
+150,235,Netherlands (Kingdom of the),Uzbekistan,2018,geese,0.73
+150,235,Netherlands (Kingdom of the),Uzbekistan,2019,geese,0.06

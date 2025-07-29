@@ -1,0 +1,1382 @@
+o_code,d_code,o_name,d_name,year,item,weight
+10,2,Australia,Afghanistan,2000,forage_and_silage_alfalfa,267.0
+10,9,Australia,Argentina,2000,forage_and_silage_alfalfa,100.0
+10,9,Australia,Argentina,2001,forage_and_silage_alfalfa,71.0
+10,9,Australia,Argentina,2003,forage_and_silage_alfalfa,43.0
+10,9,Australia,Argentina,2006,forage_and_silage_alfalfa,63.0
+10,9,Australia,Argentina,2007,forage_and_silage_alfalfa,63.0
+10,9,Australia,Argentina,2008,forage_and_silage_alfalfa,10.0
+10,9,Australia,Argentina,2010,forage_and_silage_alfalfa,115.0
+10,9,Australia,Argentina,2012,forage_and_silage_alfalfa,60.0
+10,9,Australia,Argentina,2014,forage_and_silage_alfalfa,1.69
+10,9,Australia,Argentina,2017,forage_and_silage_alfalfa,21.74
+10,10,Australia,Australia,2000,forage_and_silage_alfalfa,2.0
+10,10,Australia,Australia,2005,forage_and_silage_alfalfa,10.0
+10,10,Australia,Australia,2006,forage_and_silage_alfalfa,27.0
+10,11,Australia,Austria,2012,forage_and_silage_alfalfa,175.0
+10,11,Australia,Austria,2013,forage_and_silage_alfalfa,51.0
+10,13,Australia,Bahrain,1986,forage_and_silage_alfalfa,5036.0
+10,13,Australia,Bahrain,1987,forage_and_silage_alfalfa,70.0
+10,13,Australia,Bahrain,2000,forage_and_silage_alfalfa,676.0
+10,13,Australia,Bahrain,2001,forage_and_silage_alfalfa,1457.0
+10,13,Australia,Bahrain,2002,forage_and_silage_alfalfa,825.0
+10,13,Australia,Bahrain,2003,forage_and_silage_alfalfa,687.0
+10,13,Australia,Bahrain,2004,forage_and_silage_alfalfa,414.0
+10,13,Australia,Bahrain,2005,forage_and_silage_alfalfa,570.0
+10,13,Australia,Bahrain,2006,forage_and_silage_alfalfa,455.0
+10,13,Australia,Bahrain,2007,forage_and_silage_alfalfa,122.0
+10,13,Australia,Bahrain,2008,forage_and_silage_alfalfa,479.0
+10,13,Australia,Bahrain,2009,forage_and_silage_alfalfa,1262.0
+10,13,Australia,Bahrain,2010,forage_and_silage_alfalfa,1775.0
+10,13,Australia,Bahrain,2011,forage_and_silage_alfalfa,960.0
+10,13,Australia,Bahrain,2012,forage_and_silage_alfalfa,1165.0
+10,13,Australia,Bahrain,2013,forage_and_silage_alfalfa,1767.0
+10,13,Australia,Bahrain,2014,forage_and_silage_alfalfa,2299.73
+10,13,Australia,Bahrain,2016,forage_and_silage_alfalfa,2297.19
+10,13,Australia,Bahrain,2017,forage_and_silage_alfalfa,2218.86
+10,13,Australia,Bahrain,2018,forage_and_silage_alfalfa,1310.22
+10,13,Australia,Bahrain,2019,forage_and_silage_alfalfa,1708.51
+10,13,Australia,Bahrain,2020,forage_and_silage_alfalfa,1590.01
+10,13,Australia,Bahrain,2021,forage_and_silage_alfalfa,1669.3
+10,13,Australia,Bahrain,2022,forage_and_silage_alfalfa,1475.3
+10,13,Australia,Bahrain,2023,forage_and_silage_alfalfa,1971.21
+138,255,Mexico,Belgium,2016,forage_and_silage_alfalfa,13.0
+138,15,Mexico,Belgium-Luxembourg,1998,forage_and_silage_alfalfa,6.0
+10,16,Australia,Bangladesh,2004,forage_and_silage_alfalfa,430.0
+10,16,Australia,Bangladesh,2006,forage_and_silage_alfalfa,5.0
+10,16,Australia,Bangladesh,2007,forage_and_silage_alfalfa,20.0
+10,16,Australia,Bangladesh,2008,forage_and_silage_alfalfa,38.0
+10,16,Australia,Bangladesh,2009,forage_and_silage_alfalfa,40.0
+10,16,Australia,Bangladesh,2010,forage_and_silage_alfalfa,30.0
+10,16,Australia,Bangladesh,2011,forage_and_silage_alfalfa,100.0
+10,16,Australia,Bangladesh,2012,forage_and_silage_alfalfa,30.0
+231,9,United States of America,Argentina,1992,forage_and_silage_alfalfa,266.0
+231,9,United States of America,Argentina,1998,forage_and_silage_alfalfa,835.0
+138,23,Mexico,Belize,2016,forage_and_silage_alfalfa,0.05
+10,255,Australia,Belgium,2000,forage_and_silage_alfalfa,1651.0
+10,255,Australia,Belgium,2001,forage_and_silage_alfalfa,1731.0
+10,255,Australia,Belgium,2002,forage_and_silage_alfalfa,41709.0
+10,255,Australia,Belgium,2003,forage_and_silage_alfalfa,764.0
+10,255,Australia,Belgium,2004,forage_and_silage_alfalfa,1210.0
+10,255,Australia,Belgium,2005,forage_and_silage_alfalfa,91.0
+10,255,Australia,Belgium,2006,forage_and_silage_alfalfa,501.0
+10,255,Australia,Belgium,2007,forage_and_silage_alfalfa,1020.0
+10,255,Australia,Belgium,2008,forage_and_silage_alfalfa,365.0
+10,255,Australia,Belgium,2009,forage_and_silage_alfalfa,989.0
+10,255,Australia,Belgium,2010,forage_and_silage_alfalfa,1382.0
+10,255,Australia,Belgium,2011,forage_and_silage_alfalfa,122.0
+10,255,Australia,Belgium,2012,forage_and_silage_alfalfa,634.0
+10,255,Australia,Belgium,2013,forage_and_silage_alfalfa,646.0
+10,255,Australia,Belgium,2014,forage_and_silage_alfalfa,442.49
+10,255,Australia,Belgium,2016,forage_and_silage_alfalfa,73.9
+10,255,Australia,Belgium,2017,forage_and_silage_alfalfa,629.99
+10,255,Australia,Belgium,2018,forage_and_silage_alfalfa,301.17
+10,255,Australia,Belgium,2019,forage_and_silage_alfalfa,200.63
+10,255,Australia,Belgium,2020,forage_and_silage_alfalfa,317.75
+10,255,Australia,Belgium,2021,forage_and_silage_alfalfa,294.59
+10,255,Australia,Belgium,2022,forage_and_silage_alfalfa,83551.82
+10,255,Australia,Belgium,2023,forage_and_silage_alfalfa,49699.16
+10,19,Australia,Bolivia (Plurinational State of),2013,forage_and_silage_alfalfa,23.0
+10,19,Australia,Bolivia (Plurinational State of),2017,forage_and_silage_alfalfa,75.68
+10,19,Australia,Bolivia (Plurinational State of),2018,forage_and_silage_alfalfa,1.14
+10,19,Australia,Bolivia (Plurinational State of),2019,forage_and_silage_alfalfa,2.29
+10,19,Australia,Bolivia (Plurinational State of),2020,forage_and_silage_alfalfa,18.93
+10,19,Australia,Bolivia (Plurinational State of),2021,forage_and_silage_alfalfa,0.22
+10,20,Australia,Botswana,2012,forage_and_silage_alfalfa,532.0
+10,20,Australia,Botswana,2014,forage_and_silage_alfalfa,3.0
+10,20,Australia,Botswana,2015,forage_and_silage_alfalfa,30.1
+10,20,Australia,Botswana,2016,forage_and_silage_alfalfa,25.26
+10,20,Australia,Botswana,2017,forage_and_silage_alfalfa,650.68
+10,20,Australia,Botswana,2018,forage_and_silage_alfalfa,18.24
+10,20,Australia,Botswana,2019,forage_and_silage_alfalfa,29.7
+10,20,Australia,Botswana,2020,forage_and_silage_alfalfa,31.4
+10,20,Australia,Botswana,2022,forage_and_silage_alfalfa,15.0
+10,21,Australia,Brazil,2003,forage_and_silage_alfalfa,3.0
+10,21,Australia,Brazil,2008,forage_and_silage_alfalfa,19.0
+10,21,Australia,Brazil,2010,forage_and_silage_alfalfa,2.0
+10,21,Australia,Brazil,2011,forage_and_silage_alfalfa,1.0
+10,21,Australia,Brazil,2017,forage_and_silage_alfalfa,887.25
+10,21,Australia,Brazil,2022,forage_and_silage_alfalfa,2.75
+10,26,Australia,Brunei Darussalam,1986,forage_and_silage_alfalfa,818.0
+10,26,Australia,Brunei Darussalam,1987,forage_and_silage_alfalfa,448.0
+10,26,Australia,Brunei Darussalam,2000,forage_and_silage_alfalfa,53.0
+10,26,Australia,Brunei Darussalam,2001,forage_and_silage_alfalfa,281.0
+10,26,Australia,Brunei Darussalam,2002,forage_and_silage_alfalfa,598.0
+10,26,Australia,Brunei Darussalam,2003,forage_and_silage_alfalfa,130.0
+10,26,Australia,Brunei Darussalam,2004,forage_and_silage_alfalfa,835.0
+10,26,Australia,Brunei Darussalam,2005,forage_and_silage_alfalfa,218.0
+10,26,Australia,Brunei Darussalam,2006,forage_and_silage_alfalfa,532.0
+10,26,Australia,Brunei Darussalam,2007,forage_and_silage_alfalfa,95.0
+10,26,Australia,Brunei Darussalam,2008,forage_and_silage_alfalfa,51.0
+10,26,Australia,Brunei Darussalam,2009,forage_and_silage_alfalfa,180.0
+10,26,Australia,Brunei Darussalam,2010,forage_and_silage_alfalfa,168.0
+10,26,Australia,Brunei Darussalam,2011,forage_and_silage_alfalfa,47.0
+10,26,Australia,Brunei Darussalam,2012,forage_and_silage_alfalfa,98.0
+10,26,Australia,Brunei Darussalam,2013,forage_and_silage_alfalfa,135.0
+10,26,Australia,Brunei Darussalam,2014,forage_and_silage_alfalfa,131.72
+10,26,Australia,Brunei Darussalam,2015,forage_and_silage_alfalfa,608.53
+10,26,Australia,Brunei Darussalam,2016,forage_and_silage_alfalfa,518.26
+10,26,Australia,Brunei Darussalam,2017,forage_and_silage_alfalfa,584.2
+10,26,Australia,Brunei Darussalam,2018,forage_and_silage_alfalfa,603.04
+10,26,Australia,Brunei Darussalam,2019,forage_and_silage_alfalfa,569.55
+10,26,Australia,Brunei Darussalam,2020,forage_and_silage_alfalfa,36.87
+10,26,Australia,Brunei Darussalam,2021,forage_and_silage_alfalfa,61.05
+10,26,Australia,Brunei Darussalam,2022,forage_and_silage_alfalfa,165.76
+10,26,Australia,Brunei Darussalam,2023,forage_and_silage_alfalfa,113.57
+138,33,Mexico,Canada,2016,forage_and_silage_alfalfa,1.53
+231,10,United States of America,Australia,1988,forage_and_silage_alfalfa,1147.0
+231,10,United States of America,Australia,1991,forage_and_silage_alfalfa,22.0
+231,10,United States of America,Australia,1992,forage_and_silage_alfalfa,22.0
+231,10,United States of America,Australia,1993,forage_and_silage_alfalfa,73.0
+231,10,United States of America,Australia,1994,forage_and_silage_alfalfa,25.0
+10,27,Australia,Bulgaria,2013,forage_and_silage_alfalfa,38.0
+10,27,Australia,Bulgaria,2021,forage_and_silage_alfalfa,26.0
+10,27,Australia,Bulgaria,2023,forage_and_silage_alfalfa,149.66
+10,115,Australia,Cambodia,2016,forage_and_silage_alfalfa,305.0
+10,33,Australia,Canada,2000,forage_and_silage_alfalfa,87.0
+10,33,Australia,Canada,2002,forage_and_silage_alfalfa,21.0
+10,33,Australia,Canada,2003,forage_and_silage_alfalfa,22.0
+10,33,Australia,Canada,2004,forage_and_silage_alfalfa,22.0
+10,33,Australia,Canada,2005,forage_and_silage_alfalfa,126.0
+138,96,Mexico,"China, Hong Kong SAR",2016,forage_and_silage_alfalfa,0.02
+10,40,Australia,Chile,2002,forage_and_silage_alfalfa,65.0
+10,40,Australia,Chile,2003,forage_and_silage_alfalfa,22.0
+10,40,Australia,Chile,2008,forage_and_silage_alfalfa,1.0
+10,40,Australia,Chile,2015,forage_and_silage_alfalfa,21.5
+10,40,Australia,Chile,2017,forage_and_silage_alfalfa,223.98
+10,40,Australia,Chile,2021,forage_and_silage_alfalfa,37.38
+10,40,Australia,Chile,2022,forage_and_silage_alfalfa,43.0
+10,40,Australia,Chile,2023,forage_and_silage_alfalfa,21.5
+138,41,Mexico,"China, mainland",2016,forage_and_silage_alfalfa,2.02
+138,214,Mexico,"China, Taiwan Province of",2012,forage_and_silage_alfalfa,23.0
+10,96,Australia,"China, Hong Kong SAR",1986,forage_and_silage_alfalfa,279.0
+10,96,Australia,"China, Hong Kong SAR",1987,forage_and_silage_alfalfa,258.0
+10,96,Australia,"China, Hong Kong SAR",2000,forage_and_silage_alfalfa,1786.0
+10,96,Australia,"China, Hong Kong SAR",2001,forage_and_silage_alfalfa,1502.0
+10,96,Australia,"China, Hong Kong SAR",2002,forage_and_silage_alfalfa,1289.0
+10,96,Australia,"China, Hong Kong SAR",2003,forage_and_silage_alfalfa,1167.0
+10,96,Australia,"China, Hong Kong SAR",2004,forage_and_silage_alfalfa,938.0
+10,96,Australia,"China, Hong Kong SAR",2005,forage_and_silage_alfalfa,1014.0
+10,96,Australia,"China, Hong Kong SAR",2006,forage_and_silage_alfalfa,560.0
+10,96,Australia,"China, Hong Kong SAR",2007,forage_and_silage_alfalfa,263.0
+10,96,Australia,"China, Hong Kong SAR",2008,forage_and_silage_alfalfa,880.0
+10,96,Australia,"China, Hong Kong SAR",2009,forage_and_silage_alfalfa,24616.0
+10,96,Australia,"China, Hong Kong SAR",2010,forage_and_silage_alfalfa,598.0
+10,96,Australia,"China, Hong Kong SAR",2011,forage_and_silage_alfalfa,361.0
+10,96,Australia,"China, Hong Kong SAR",2012,forage_and_silage_alfalfa,132.0
+10,96,Australia,"China, Hong Kong SAR",2013,forage_and_silage_alfalfa,3268.0
+10,96,Australia,"China, Hong Kong SAR",2014,forage_and_silage_alfalfa,410.58
+10,96,Australia,"China, Hong Kong SAR",2015,forage_and_silage_alfalfa,405.27
+10,96,Australia,"China, Hong Kong SAR",2016,forage_and_silage_alfalfa,400.68
+10,96,Australia,"China, Hong Kong SAR",2017,forage_and_silage_alfalfa,756.88
+10,96,Australia,"China, Hong Kong SAR",2018,forage_and_silage_alfalfa,393.65
+10,96,Australia,"China, Hong Kong SAR",2019,forage_and_silage_alfalfa,525.68
+10,96,Australia,"China, Hong Kong SAR",2020,forage_and_silage_alfalfa,184.46
+10,96,Australia,"China, Hong Kong SAR",2021,forage_and_silage_alfalfa,269.73
+10,96,Australia,"China, Hong Kong SAR",2022,forage_and_silage_alfalfa,379.44
+10,96,Australia,"China, Hong Kong SAR",2023,forage_and_silage_alfalfa,288.7
+231,12,United States of America,Bahamas,1986,forage_and_silage_alfalfa,8.0
+231,12,United States of America,Bahamas,1998,forage_and_silage_alfalfa,26.0
+231,12,United States of America,Bahamas,1999,forage_and_silage_alfalfa,16.0
+231,12,United States of America,Bahamas,2001,forage_and_silage_alfalfa,40.0
+231,12,United States of America,Bahamas,2007,forage_and_silage_alfalfa,84.0
+231,12,United States of America,Bahamas,2011,forage_and_silage_alfalfa,7.0
+138,44,Mexico,Colombia,2016,forage_and_silage_alfalfa,0.01
+222,124,Tunisia,Libya,1991,forage_and_silage_alfalfa,34.0
+222,124,Tunisia,Libya,1992,forage_and_silage_alfalfa,7095.0
+222,134,Tunisia,Malta,1991,forage_and_silage_alfalfa,1.0
+10,128,Australia,"China, Macao SAR",2000,forage_and_silage_alfalfa,292.0
+10,128,Australia,"China, Macao SAR",2001,forage_and_silage_alfalfa,252.0
+10,128,Australia,"China, Macao SAR",2002,forage_and_silage_alfalfa,464.0
+10,128,Australia,"China, Macao SAR",2003,forage_and_silage_alfalfa,326.0
+10,128,Australia,"China, Macao SAR",2004,forage_and_silage_alfalfa,328.0
+10,128,Australia,"China, Macao SAR",2005,forage_and_silage_alfalfa,71.0
+10,128,Australia,"China, Macao SAR",2006,forage_and_silage_alfalfa,156.0
+10,128,Australia,"China, Macao SAR",2007,forage_and_silage_alfalfa,116.0
+10,128,Australia,"China, Macao SAR",2008,forage_and_silage_alfalfa,52.0
+10,128,Australia,"China, Macao SAR",2009,forage_and_silage_alfalfa,226.0
+10,128,Australia,"China, Macao SAR",2010,forage_and_silage_alfalfa,191.0
+10,128,Australia,"China, Macao SAR",2011,forage_and_silage_alfalfa,70.0
+10,128,Australia,"China, Macao SAR",2012,forage_and_silage_alfalfa,33.0
+10,128,Australia,"China, Macao SAR",2013,forage_and_silage_alfalfa,51.0
+10,128,Australia,"China, Macao SAR",2014,forage_and_silage_alfalfa,74.78
+10,128,Australia,"China, Macao SAR",2015,forage_and_silage_alfalfa,34.0
+10,128,Australia,"China, Macao SAR",2016,forage_and_silage_alfalfa,51.0
+10,128,Australia,"China, Macao SAR",2017,forage_and_silage_alfalfa,64.51
+10,128,Australia,"China, Macao SAR",2018,forage_and_silage_alfalfa,34.33
+10,128,Australia,"China, Macao SAR",2019,forage_and_silage_alfalfa,65.35
+10,128,Australia,"China, Macao SAR",2020,forage_and_silage_alfalfa,35.0
+10,128,Australia,"China, Macao SAR",2021,forage_and_silage_alfalfa,36.0
+10,128,Australia,"China, Macao SAR",2022,forage_and_silage_alfalfa,36.0
+10,128,Australia,"China, Macao SAR",2023,forage_and_silage_alfalfa,35.7
+222,143,Tunisia,Morocco,1991,forage_and_silage_alfalfa,21.0
+10,41,Australia,"China, mainland",2000,forage_and_silage_alfalfa,248.0
+10,41,Australia,"China, mainland",2001,forage_and_silage_alfalfa,701.0
+10,41,Australia,"China, mainland",2002,forage_and_silage_alfalfa,507.0
+10,41,Australia,"China, mainland",2003,forage_and_silage_alfalfa,53.0
+10,41,Australia,"China, mainland",2004,forage_and_silage_alfalfa,1145.0
+10,41,Australia,"China, mainland",2005,forage_and_silage_alfalfa,26.0
+10,41,Australia,"China, mainland",2006,forage_and_silage_alfalfa,634.0
+10,41,Australia,"China, mainland",2007,forage_and_silage_alfalfa,454.0
+10,41,Australia,"China, mainland",2008,forage_and_silage_alfalfa,2157.0
+10,41,Australia,"China, mainland",2009,forage_and_silage_alfalfa,13504.0
+10,41,Australia,"China, mainland",2010,forage_and_silage_alfalfa,53371.0
+10,41,Australia,"China, mainland",2011,forage_and_silage_alfalfa,13060.0
+10,41,Australia,"China, mainland",2012,forage_and_silage_alfalfa,66981.0
+10,41,Australia,"China, mainland",2013,forage_and_silage_alfalfa,52020.0
+10,41,Australia,"China, mainland",2014,forage_and_silage_alfalfa,134159.99
+10,41,Australia,"China, mainland",2015,forage_and_silage_alfalfa,297960.41
+10,41,Australia,"China, mainland",2016,forage_and_silage_alfalfa,291182.75
+10,41,Australia,"China, mainland",2017,forage_and_silage_alfalfa,284057.29
+10,41,Australia,"China, mainland",2018,forage_and_silage_alfalfa,286219.9
+10,41,Australia,"China, mainland",2019,forage_and_silage_alfalfa,242711.0
+10,41,Australia,"China, mainland",2020,forage_and_silage_alfalfa,348012.81
+10,41,Australia,"China, mainland",2021,forage_and_silage_alfalfa,192608.63
+10,41,Australia,"China, mainland",2022,forage_and_silage_alfalfa,158640.04
+10,41,Australia,"China, mainland",2023,forage_and_silage_alfalfa,103017.31
+231,16,United States of America,Bangladesh,1988,forage_and_silage_alfalfa,51.0
+231,14,United States of America,Barbados,1994,forage_and_silage_alfalfa,17.0
+231,14,United States of America,Barbados,2008,forage_and_silage_alfalfa,18.0
+222,203,Tunisia,Spain,1990,forage_and_silage_alfalfa,36.0
+138,60,Mexico,El Salvador,2009,forage_and_silage_alfalfa,20.0
+10,214,Australia,"China, Taiwan Province of",1986,forage_and_silage_alfalfa,155.0
+10,214,Australia,"China, Taiwan Province of",1987,forage_and_silage_alfalfa,318.0
+10,214,Australia,"China, Taiwan Province of",1988,forage_and_silage_alfalfa,50.0
+10,214,Australia,"China, Taiwan Province of",1994,forage_and_silage_alfalfa,9.0
+10,214,Australia,"China, Taiwan Province of",1996,forage_and_silage_alfalfa,6.0
+10,214,Australia,"China, Taiwan Province of",2000,forage_and_silage_alfalfa,76855.0
+10,214,Australia,"China, Taiwan Province of",2001,forage_and_silage_alfalfa,25323.0
+10,214,Australia,"China, Taiwan Province of",2002,forage_and_silage_alfalfa,27619.0
+10,214,Australia,"China, Taiwan Province of",2003,forage_and_silage_alfalfa,5427.0
+10,214,Australia,"China, Taiwan Province of",2004,forage_and_silage_alfalfa,72734.0
+10,214,Australia,"China, Taiwan Province of",2005,forage_and_silage_alfalfa,31627.0
+10,214,Australia,"China, Taiwan Province of",2006,forage_and_silage_alfalfa,23218.0
+10,214,Australia,"China, Taiwan Province of",2007,forage_and_silage_alfalfa,18219.0
+10,214,Australia,"China, Taiwan Province of",2008,forage_and_silage_alfalfa,42808.0
+10,214,Australia,"China, Taiwan Province of",2009,forage_and_silage_alfalfa,53944.0
+10,214,Australia,"China, Taiwan Province of",2010,forage_and_silage_alfalfa,60324.0
+10,214,Australia,"China, Taiwan Province of",2011,forage_and_silage_alfalfa,39300.0
+10,214,Australia,"China, Taiwan Province of",2012,forage_and_silage_alfalfa,46135.0
+10,214,Australia,"China, Taiwan Province of",2013,forage_and_silage_alfalfa,50261.0
+10,214,Australia,"China, Taiwan Province of",2014,forage_and_silage_alfalfa,44572.6
+10,214,Australia,"China, Taiwan Province of",2015,forage_and_silage_alfalfa,63454.54
+10,214,Australia,"China, Taiwan Province of",2016,forage_and_silage_alfalfa,69054.66
+10,214,Australia,"China, Taiwan Province of",2017,forage_and_silage_alfalfa,82687.48
+10,214,Australia,"China, Taiwan Province of",2018,forage_and_silage_alfalfa,86744.13
+10,214,Australia,"China, Taiwan Province of",2019,forage_and_silage_alfalfa,83098.1
+10,214,Australia,"China, Taiwan Province of",2020,forage_and_silage_alfalfa,88126.08
+10,214,Australia,"China, Taiwan Province of",2021,forage_and_silage_alfalfa,110953.3
+10,214,Australia,"China, Taiwan Province of",2022,forage_and_silage_alfalfa,125266.57
+10,214,Australia,"China, Taiwan Province of",2023,forage_and_silage_alfalfa,110942.75
+10,44,Australia,Colombia,2006,forage_and_silage_alfalfa,224.0
+10,44,Australia,Colombia,2007,forage_and_silage_alfalfa,56.0
+10,44,Australia,Colombia,2008,forage_and_silage_alfalfa,150.0
+10,44,Australia,Colombia,2009,forage_and_silage_alfalfa,217.0
+10,44,Australia,Colombia,2010,forage_and_silage_alfalfa,100.0
+10,44,Australia,Colombia,2015,forage_and_silage_alfalfa,100.0
+10,44,Australia,Colombia,2017,forage_and_silage_alfalfa,1468.91
+10,49,Australia,Cuba,1986,forage_and_silage_alfalfa,28.0
+10,50,Australia,Cyprus,2001,forage_and_silage_alfalfa,20.0
+10,50,Australia,Cyprus,2004,forage_and_silage_alfalfa,22.0
+10,50,Australia,Cyprus,2005,forage_and_silage_alfalfa,22.0
+10,50,Australia,Cyprus,2006,forage_and_silage_alfalfa,22.0
+10,50,Australia,Cyprus,2009,forage_and_silage_alfalfa,24.0
+231,23,United States of America,Belize,1996,forage_and_silage_alfalfa,9.0
+231,23,United States of America,Belize,2003,forage_and_silage_alfalfa,142.0
+10,54,Australia,Denmark,2008,forage_and_silage_alfalfa,26.0
+10,54,Australia,Denmark,2017,forage_and_silage_alfalfa,33.0
+10,54,Australia,Denmark,2018,forage_and_silage_alfalfa,263.46
+10,54,Australia,Denmark,2020,forage_and_silage_alfalfa,103.96
+10,54,Australia,Denmark,2021,forage_and_silage_alfalfa,142.96
+10,54,Australia,Denmark,2022,forage_and_silage_alfalfa,179.6
+10,54,Australia,Denmark,2023,forage_and_silage_alfalfa,77.38
+10,72,Australia,Djibouti,2000,forage_and_silage_alfalfa,43.0
+138,89,Mexico,Guatemala,2016,forage_and_silage_alfalfa,20.0
+10,59,Australia,Egypt,2000,forage_and_silage_alfalfa,8250.0
+10,59,Australia,Egypt,2001,forage_and_silage_alfalfa,2610.0
+10,59,Australia,Egypt,2002,forage_and_silage_alfalfa,7498.0
+10,59,Australia,Egypt,2003,forage_and_silage_alfalfa,916.0
+10,59,Australia,Egypt,2004,forage_and_silage_alfalfa,5088.0
+10,59,Australia,Egypt,2005,forage_and_silage_alfalfa,8414.0
+10,59,Australia,Egypt,2006,forage_and_silage_alfalfa,5013.0
+10,59,Australia,Egypt,2007,forage_and_silage_alfalfa,5822.0
+10,59,Australia,Egypt,2008,forage_and_silage_alfalfa,7072.0
+10,59,Australia,Egypt,2009,forage_and_silage_alfalfa,26911.0
+10,59,Australia,Egypt,2010,forage_and_silage_alfalfa,12094.0
+10,59,Australia,Egypt,2011,forage_and_silage_alfalfa,12321.0
+10,59,Australia,Egypt,2012,forage_and_silage_alfalfa,16931.0
+10,59,Australia,Egypt,2013,forage_and_silage_alfalfa,15284.0
+10,59,Australia,Egypt,2014,forage_and_silage_alfalfa,5547.98
+10,59,Australia,Egypt,2015,forage_and_silage_alfalfa,9341.62
+10,59,Australia,Egypt,2016,forage_and_silage_alfalfa,20786.65
+10,59,Australia,Egypt,2017,forage_and_silage_alfalfa,21197.03
+10,59,Australia,Egypt,2018,forage_and_silage_alfalfa,16583.0
+10,59,Australia,Egypt,2019,forage_and_silage_alfalfa,447.04
+10,59,Australia,Egypt,2020,forage_and_silage_alfalfa,6169.0
+10,59,Australia,Egypt,2021,forage_and_silage_alfalfa,28510.29
+10,59,Australia,Egypt,2022,forage_and_silage_alfalfa,35849.62
+10,59,Australia,Egypt,2023,forage_and_silage_alfalfa,39966.34
+231,19,United States of America,Bolivia (Plurinational State of),2011,forage_and_silage_alfalfa,170.0
+10,66,Australia,Fiji,2000,forage_and_silage_alfalfa,44.0
+10,66,Australia,Fiji,2004,forage_and_silage_alfalfa,50.0
+10,66,Australia,Fiji,2005,forage_and_silage_alfalfa,3564.0
+10,66,Australia,Fiji,2008,forage_and_silage_alfalfa,11904.0
+10,66,Australia,Fiji,2009,forage_and_silage_alfalfa,2516.0
+10,66,Australia,Fiji,2010,forage_and_silage_alfalfa,1483.0
+10,66,Australia,Fiji,2015,forage_and_silage_alfalfa,0.01
+10,66,Australia,Fiji,2019,forage_and_silage_alfalfa,0.02
+10,66,Australia,Fiji,2022,forage_and_silage_alfalfa,168.0
+231,21,United States of America,Brazil,1998,forage_and_silage_alfalfa,88.0
+10,68,Australia,France,2000,forage_and_silage_alfalfa,42.0
+10,68,Australia,France,2001,forage_and_silage_alfalfa,60.0
+10,68,Australia,France,2004,forage_and_silage_alfalfa,22.0
+10,68,Australia,France,2006,forage_and_silage_alfalfa,20.0
+10,68,Australia,France,2008,forage_and_silage_alfalfa,220.0
+10,68,Australia,France,2009,forage_and_silage_alfalfa,387.0
+10,68,Australia,France,2010,forage_and_silage_alfalfa,18.0
+10,68,Australia,France,2011,forage_and_silage_alfalfa,70.0
+10,68,Australia,France,2012,forage_and_silage_alfalfa,649.0
+10,68,Australia,France,2013,forage_and_silage_alfalfa,55.0
+10,68,Australia,France,2014,forage_and_silage_alfalfa,23.7
+10,68,Australia,France,2015,forage_and_silage_alfalfa,409.62
+10,68,Australia,France,2016,forage_and_silage_alfalfa,242.05
+10,68,Australia,France,2017,forage_and_silage_alfalfa,889.15
+10,68,Australia,France,2018,forage_and_silage_alfalfa,187.93
+10,68,Australia,France,2019,forage_and_silage_alfalfa,525.75
+10,68,Australia,France,2020,forage_and_silage_alfalfa,201.95
+10,68,Australia,France,2021,forage_and_silage_alfalfa,307.69
+10,68,Australia,France,2022,forage_and_silage_alfalfa,286.0
+10,68,Australia,France,2023,forage_and_silage_alfalfa,176.0
+138,106,Mexico,Italy,1998,forage_and_silage_alfalfa,6.0
+138,106,Mexico,Italy,1999,forage_and_silage_alfalfa,6.0
+10,70,Australia,French Polynesia,2000,forage_and_silage_alfalfa,41.0
+10,70,Australia,French Polynesia,2001,forage_and_silage_alfalfa,21.0
+10,70,Australia,French Polynesia,2009,forage_and_silage_alfalfa,245.0
+10,70,Australia,French Polynesia,2015,forage_and_silage_alfalfa,0.06
+10,70,Australia,French Polynesia,2021,forage_and_silage_alfalfa,0.4
+10,70,Australia,French Polynesia,2022,forage_and_silage_alfalfa,0.4
+138,110,Mexico,Japan,1999,forage_and_silage_alfalfa,726.0
+138,110,Mexico,Japan,2001,forage_and_silage_alfalfa,856.0
+138,110,Mexico,Japan,2002,forage_and_silage_alfalfa,1259.0
+138,110,Mexico,Japan,2012,forage_and_silage_alfalfa,7.0
+10,79,Australia,Germany,2000,forage_and_silage_alfalfa,90.0
+10,79,Australia,Germany,2002,forage_and_silage_alfalfa,22.0
+10,79,Australia,Germany,2003,forage_and_silage_alfalfa,22.0
+10,79,Australia,Germany,2004,forage_and_silage_alfalfa,58.0
+10,79,Australia,Germany,2006,forage_and_silage_alfalfa,126.0
+10,79,Australia,Germany,2007,forage_and_silage_alfalfa,402.0
+10,79,Australia,Germany,2008,forage_and_silage_alfalfa,974.0
+10,79,Australia,Germany,2009,forage_and_silage_alfalfa,903.0
+10,79,Australia,Germany,2010,forage_and_silage_alfalfa,432.0
+10,79,Australia,Germany,2011,forage_and_silage_alfalfa,629.0
+10,79,Australia,Germany,2012,forage_and_silage_alfalfa,492.0
+10,79,Australia,Germany,2013,forage_and_silage_alfalfa,1155.0
+10,79,Australia,Germany,2014,forage_and_silage_alfalfa,23.68
+10,79,Australia,Germany,2015,forage_and_silage_alfalfa,817.99
+10,79,Australia,Germany,2016,forage_and_silage_alfalfa,495.19
+10,79,Australia,Germany,2019,forage_and_silage_alfalfa,49.64
+15,153,Belgium-Luxembourg,New Caledonia,1986,forage_and_silage_alfalfa,15.0
+10,84,Australia,Greece,2000,forage_and_silage_alfalfa,86.0
+10,84,Australia,Greece,2001,forage_and_silage_alfalfa,108.0
+10,84,Australia,Greece,2004,forage_and_silage_alfalfa,50.0
+10,86,Australia,Grenada,2000,forage_and_silage_alfalfa,108.0
+10,89,Australia,Guatemala,2006,forage_and_silage_alfalfa,11.0
+10,89,Australia,Guatemala,2007,forage_and_silage_alfalfa,22.0
+10,89,Australia,Guatemala,2008,forage_and_silage_alfalfa,45.0
+10,89,Australia,Guatemala,2009,forage_and_silage_alfalfa,6.0
+10,97,Australia,Hungary,2010,forage_and_silage_alfalfa,3.0
+138,150,Mexico,Netherlands (Kingdom of the),1998,forage_and_silage_alfalfa,30.0
+138,150,Mexico,Netherlands (Kingdom of the),1999,forage_and_silage_alfalfa,25.0
+138,150,Mexico,Netherlands (Kingdom of the),2000,forage_and_silage_alfalfa,5.0
+138,150,Mexico,Netherlands (Kingdom of the),2016,forage_and_silage_alfalfa,52.8
+231,33,United States of America,Canada,1986,forage_and_silage_alfalfa,32530.0
+231,33,United States of America,Canada,1987,forage_and_silage_alfalfa,13555.0
+231,33,United States of America,Canada,1988,forage_and_silage_alfalfa,5011.0
+231,33,United States of America,Canada,1989,forage_and_silage_alfalfa,3764.0
+231,33,United States of America,Canada,1990,forage_and_silage_alfalfa,8207.0
+231,33,United States of America,Canada,1991,forage_and_silage_alfalfa,133.0
+231,33,United States of America,Canada,1992,forage_and_silage_alfalfa,114.0
+231,33,United States of America,Canada,1993,forage_and_silage_alfalfa,97.0
+231,33,United States of America,Canada,1994,forage_and_silage_alfalfa,43.0
+231,33,United States of America,Canada,1995,forage_and_silage_alfalfa,15.0
+231,33,United States of America,Canada,1997,forage_and_silage_alfalfa,27.0
+231,33,United States of America,Canada,1998,forage_and_silage_alfalfa,200.0
+231,33,United States of America,Canada,1999,forage_and_silage_alfalfa,38.0
+231,33,United States of America,Canada,2000,forage_and_silage_alfalfa,101.0
+231,33,United States of America,Canada,2001,forage_and_silage_alfalfa,191.0
+231,33,United States of America,Canada,2002,forage_and_silage_alfalfa,489.0
+231,33,United States of America,Canada,2003,forage_and_silage_alfalfa,980.0
+231,33,United States of America,Canada,2004,forage_and_silage_alfalfa,326.0
+231,33,United States of America,Canada,2005,forage_and_silage_alfalfa,453.0
+231,33,United States of America,Canada,2006,forage_and_silage_alfalfa,164.0
+231,33,United States of America,Canada,2007,forage_and_silage_alfalfa,176.0
+231,33,United States of America,Canada,2008,forage_and_silage_alfalfa,531.0
+231,33,United States of America,Canada,2009,forage_and_silage_alfalfa,210.0
+231,33,United States of America,Canada,2010,forage_and_silage_alfalfa,1513.0
+231,33,United States of America,Canada,2011,forage_and_silage_alfalfa,744.0
+10,100,Australia,India,1992,forage_and_silage_alfalfa,150.0
+10,100,Australia,India,2011,forage_and_silage_alfalfa,25.0
+10,100,Australia,India,2012,forage_and_silage_alfalfa,100.0
+10,100,Australia,India,2014,forage_and_silage_alfalfa,250.0
+10,100,Australia,India,2021,forage_and_silage_alfalfa,25.62
+138,157,Mexico,Nicaragua,1999,forage_and_silage_alfalfa,12.0
+138,157,Mexico,Nicaragua,2000,forage_and_silage_alfalfa,122.0
+10,101,Australia,Indonesia,1987,forage_and_silage_alfalfa,40.0
+10,101,Australia,Indonesia,2000,forage_and_silage_alfalfa,3392.0
+10,101,Australia,Indonesia,2001,forage_and_silage_alfalfa,735.0
+10,101,Australia,Indonesia,2002,forage_and_silage_alfalfa,12296.0
+10,101,Australia,Indonesia,2003,forage_and_silage_alfalfa,1068.0
+10,101,Australia,Indonesia,2004,forage_and_silage_alfalfa,1967.0
+10,101,Australia,Indonesia,2005,forage_and_silage_alfalfa,2120.0
+10,101,Australia,Indonesia,2006,forage_and_silage_alfalfa,2164.0
+10,101,Australia,Indonesia,2007,forage_and_silage_alfalfa,290.0
+10,101,Australia,Indonesia,2008,forage_and_silage_alfalfa,1668.0
+10,101,Australia,Indonesia,2009,forage_and_silage_alfalfa,25.0
+10,101,Australia,Indonesia,2010,forage_and_silage_alfalfa,733.0
+10,101,Australia,Indonesia,2011,forage_and_silage_alfalfa,45.0
+10,101,Australia,Indonesia,2012,forage_and_silage_alfalfa,53.0
+10,101,Australia,Indonesia,2013,forage_and_silage_alfalfa,1162.0
+10,101,Australia,Indonesia,2014,forage_and_silage_alfalfa,1297.05
+10,101,Australia,Indonesia,2015,forage_and_silage_alfalfa,2633.47
+10,101,Australia,Indonesia,2016,forage_and_silage_alfalfa,6124.13
+10,101,Australia,Indonesia,2017,forage_and_silage_alfalfa,5102.38
+10,101,Australia,Indonesia,2018,forage_and_silage_alfalfa,4924.5
+10,101,Australia,Indonesia,2019,forage_and_silage_alfalfa,5444.43
+10,101,Australia,Indonesia,2020,forage_and_silage_alfalfa,2310.46
+10,101,Australia,Indonesia,2021,forage_and_silage_alfalfa,4513.14
+10,101,Australia,Indonesia,2022,forage_and_silage_alfalfa,4650.35
+10,101,Australia,Indonesia,2023,forage_and_silage_alfalfa,7334.11
+10,103,Australia,Iraq,2007,forage_and_silage_alfalfa,2.0
+10,105,Australia,Israel,2000,forage_and_silage_alfalfa,1064.0
+10,105,Australia,Israel,2001,forage_and_silage_alfalfa,86.0
+10,105,Australia,Israel,2002,forage_and_silage_alfalfa,584.0
+10,105,Australia,Israel,2003,forage_and_silage_alfalfa,505.0
+10,105,Australia,Israel,2004,forage_and_silage_alfalfa,486.0
+10,105,Australia,Israel,2005,forage_and_silage_alfalfa,569.0
+10,105,Australia,Israel,2006,forage_and_silage_alfalfa,585.0
+10,105,Australia,Israel,2007,forage_and_silage_alfalfa,46.0
+10,105,Australia,Israel,2008,forage_and_silage_alfalfa,115.0
+10,105,Australia,Israel,2009,forage_and_silage_alfalfa,473.0
+10,105,Australia,Israel,2011,forage_and_silage_alfalfa,179.0
+10,105,Australia,Israel,2012,forage_and_silage_alfalfa,228.0
+10,105,Australia,Israel,2013,forage_and_silage_alfalfa,45.0
+10,105,Australia,Israel,2014,forage_and_silage_alfalfa,137.1
+10,105,Australia,Israel,2015,forage_and_silage_alfalfa,499.22
+10,105,Australia,Israel,2016,forage_and_silage_alfalfa,92.0
+10,105,Australia,Israel,2017,forage_and_silage_alfalfa,100.37
+10,105,Australia,Israel,2018,forage_and_silage_alfalfa,22.5
+10,105,Australia,Israel,2020,forage_and_silage_alfalfa,127.0
+10,105,Australia,Israel,2021,forage_and_silage_alfalfa,25.0
+10,105,Australia,Israel,2022,forage_and_silage_alfalfa,22.43
+10,105,Australia,Israel,2023,forage_and_silage_alfalfa,2656.0
+10,106,Australia,Italy,1986,forage_and_silage_alfalfa,40.0
+10,106,Australia,Italy,1993,forage_and_silage_alfalfa,430.0
+10,106,Australia,Italy,1996,forage_and_silage_alfalfa,22.0
+10,106,Australia,Italy,2000,forage_and_silage_alfalfa,10910.0
+10,106,Australia,Italy,2001,forage_and_silage_alfalfa,491.0
+10,106,Australia,Italy,2002,forage_and_silage_alfalfa,394.0
+10,106,Australia,Italy,2003,forage_and_silage_alfalfa,68.0
+10,106,Australia,Italy,2004,forage_and_silage_alfalfa,1556.0
+10,106,Australia,Italy,2005,forage_and_silage_alfalfa,136.0
+10,106,Australia,Italy,2006,forage_and_silage_alfalfa,137.0
+10,106,Australia,Italy,2007,forage_and_silage_alfalfa,1022.0
+10,106,Australia,Italy,2008,forage_and_silage_alfalfa,158.0
+10,106,Australia,Italy,2009,forage_and_silage_alfalfa,103.0
+10,106,Australia,Italy,2010,forage_and_silage_alfalfa,278.0
+10,106,Australia,Italy,2011,forage_and_silage_alfalfa,38.0
+10,106,Australia,Italy,2012,forage_and_silage_alfalfa,12507.0
+10,106,Australia,Italy,2013,forage_and_silage_alfalfa,882.0
+10,106,Australia,Italy,2014,forage_and_silage_alfalfa,495.43
+10,106,Australia,Italy,2015,forage_and_silage_alfalfa,66.58
+10,106,Australia,Italy,2016,forage_and_silage_alfalfa,175.35
+10,106,Australia,Italy,2017,forage_and_silage_alfalfa,1089.65
+10,106,Australia,Italy,2018,forage_and_silage_alfalfa,78.92
+10,106,Australia,Italy,2019,forage_and_silage_alfalfa,210.71
+10,106,Australia,Italy,2020,forage_and_silage_alfalfa,640.28
+10,106,Australia,Italy,2021,forage_and_silage_alfalfa,4960.28
+10,106,Australia,Italy,2022,forage_and_silage_alfalfa,7208.81
+10,106,Australia,Italy,2023,forage_and_silage_alfalfa,10532.01
+231,96,United States of America,"China, Hong Kong SAR",1986,forage_and_silage_alfalfa,191.0
+231,96,United States of America,"China, Hong Kong SAR",1987,forage_and_silage_alfalfa,42.0
+231,96,United States of America,"China, Hong Kong SAR",1988,forage_and_silage_alfalfa,952.0
+231,96,United States of America,"China, Hong Kong SAR",1989,forage_and_silage_alfalfa,115.0
+231,96,United States of America,"China, Hong Kong SAR",1990,forage_and_silage_alfalfa,55.0
+231,96,United States of America,"China, Hong Kong SAR",1994,forage_and_silage_alfalfa,546.0
+231,96,United States of America,"China, Hong Kong SAR",1995,forage_and_silage_alfalfa,121.0
+10,110,Australia,Japan,1986,forage_and_silage_alfalfa,14502.0
+10,110,Australia,Japan,1987,forage_and_silage_alfalfa,15371.0
+10,110,Australia,Japan,1988,forage_and_silage_alfalfa,389.0
+10,110,Australia,Japan,1989,forage_and_silage_alfalfa,13.0
+10,110,Australia,Japan,1990,forage_and_silage_alfalfa,102.0
+10,110,Australia,Japan,1991,forage_and_silage_alfalfa,86.0
+10,110,Australia,Japan,1993,forage_and_silage_alfalfa,520.0
+10,110,Australia,Japan,2000,forage_and_silage_alfalfa,1327357.0
+10,110,Australia,Japan,2001,forage_and_silage_alfalfa,982784.0
+10,110,Australia,Japan,2002,forage_and_silage_alfalfa,895037.0
+10,110,Australia,Japan,2003,forage_and_silage_alfalfa,428105.0
+10,110,Australia,Japan,2004,forage_and_silage_alfalfa,1041687.0
+10,110,Australia,Japan,2005,forage_and_silage_alfalfa,684183.0
+10,110,Australia,Japan,2006,forage_and_silage_alfalfa,631162.0
+10,110,Australia,Japan,2007,forage_and_silage_alfalfa,440990.0
+10,110,Australia,Japan,2008,forage_and_silage_alfalfa,924314.0
+10,110,Australia,Japan,2009,forage_and_silage_alfalfa,1506462.0
+10,110,Australia,Japan,2010,forage_and_silage_alfalfa,639111.0
+10,110,Australia,Japan,2011,forage_and_silage_alfalfa,978570.0
+10,110,Australia,Japan,2012,forage_and_silage_alfalfa,1298544.0
+10,110,Australia,Japan,2013,forage_and_silage_alfalfa,714312.0
+10,110,Australia,Japan,2014,forage_and_silage_alfalfa,407471.36
+10,110,Australia,Japan,2015,forage_and_silage_alfalfa,433547.14
+10,110,Australia,Japan,2016,forage_and_silage_alfalfa,424068.33
+10,110,Australia,Japan,2017,forage_and_silage_alfalfa,471803.53
+10,110,Australia,Japan,2018,forage_and_silage_alfalfa,480535.1
+10,110,Australia,Japan,2019,forage_and_silage_alfalfa,413786.0
+10,110,Australia,Japan,2020,forage_and_silage_alfalfa,400705.89
+10,110,Australia,Japan,2021,forage_and_silage_alfalfa,498295.72
+10,110,Australia,Japan,2022,forage_and_silage_alfalfa,494161.28
+10,110,Australia,Japan,2023,forage_and_silage_alfalfa,445954.21
+138,223,Mexico,Türkiye,2012,forage_and_silage_alfalfa,125.0
+138,225,Mexico,United Arab Emirates,2016,forage_and_silage_alfalfa,3392.17
+10,112,Australia,Jordan,1990,forage_and_silage_alfalfa,42.0
+10,112,Australia,Jordan,2000,forage_and_silage_alfalfa,371.0
+10,112,Australia,Jordan,2001,forage_and_silage_alfalfa,94.0
+10,112,Australia,Jordan,2002,forage_and_silage_alfalfa,772.0
+10,112,Australia,Jordan,2003,forage_and_silage_alfalfa,530.0
+10,112,Australia,Jordan,2004,forage_and_silage_alfalfa,156.0
+10,112,Australia,Jordan,2005,forage_and_silage_alfalfa,196.0
+10,112,Australia,Jordan,2006,forage_and_silage_alfalfa,380.0
+10,112,Australia,Jordan,2007,forage_and_silage_alfalfa,140.0
+10,112,Australia,Jordan,2008,forage_and_silage_alfalfa,89.0
+10,112,Australia,Jordan,2009,forage_and_silage_alfalfa,643.0
+10,112,Australia,Jordan,2010,forage_and_silage_alfalfa,120.0
+10,112,Australia,Jordan,2011,forage_and_silage_alfalfa,638.0
+10,112,Australia,Jordan,2012,forage_and_silage_alfalfa,359.0
+10,112,Australia,Jordan,2013,forage_and_silage_alfalfa,23.0
+10,112,Australia,Jordan,2014,forage_and_silage_alfalfa,21.0
+10,112,Australia,Jordan,2015,forage_and_silage_alfalfa,367.34
+10,112,Australia,Jordan,2016,forage_and_silage_alfalfa,414.14
+10,112,Australia,Jordan,2017,forage_and_silage_alfalfa,944.42
+10,112,Australia,Jordan,2018,forage_and_silage_alfalfa,93.93
+10,112,Australia,Jordan,2021,forage_and_silage_alfalfa,191.65
+10,112,Australia,Jordan,2023,forage_and_silage_alfalfa,137.35
+10,114,Australia,Kenya,2020,forage_and_silage_alfalfa,100.0
+10,118,Australia,Kuwait,1986,forage_and_silage_alfalfa,28981.0
+10,118,Australia,Kuwait,1993,forage_and_silage_alfalfa,21.0
+10,118,Australia,Kuwait,1994,forage_and_silage_alfalfa,15.0
+10,118,Australia,Kuwait,2000,forage_and_silage_alfalfa,875.0
+10,118,Australia,Kuwait,2001,forage_and_silage_alfalfa,2378.0
+10,118,Australia,Kuwait,2002,forage_and_silage_alfalfa,277.0
+10,118,Australia,Kuwait,2003,forage_and_silage_alfalfa,135.0
+10,118,Australia,Kuwait,2004,forage_and_silage_alfalfa,5227.0
+10,118,Australia,Kuwait,2005,forage_and_silage_alfalfa,315.0
+10,118,Australia,Kuwait,2006,forage_and_silage_alfalfa,327.0
+10,118,Australia,Kuwait,2007,forage_and_silage_alfalfa,175.0
+10,118,Australia,Kuwait,2008,forage_and_silage_alfalfa,224.0
+10,118,Australia,Kuwait,2009,forage_and_silage_alfalfa,237.0
+10,118,Australia,Kuwait,2010,forage_and_silage_alfalfa,151.0
+10,118,Australia,Kuwait,2011,forage_and_silage_alfalfa,92.0
+10,118,Australia,Kuwait,2012,forage_and_silage_alfalfa,174.0
+10,118,Australia,Kuwait,2013,forage_and_silage_alfalfa,97.0
+10,118,Australia,Kuwait,2014,forage_and_silage_alfalfa,178.56
+10,118,Australia,Kuwait,2015,forage_and_silage_alfalfa,143.89
+10,118,Australia,Kuwait,2016,forage_and_silage_alfalfa,65.12
+10,118,Australia,Kuwait,2017,forage_and_silage_alfalfa,224.19
+10,118,Australia,Kuwait,2018,forage_and_silage_alfalfa,69.73
+10,118,Australia,Kuwait,2019,forage_and_silage_alfalfa,24.0
+10,118,Australia,Kuwait,2020,forage_and_silage_alfalfa,23.0
+10,118,Australia,Kuwait,2021,forage_and_silage_alfalfa,154.56
+10,118,Australia,Kuwait,2022,forage_and_silage_alfalfa,148.23
+10,118,Australia,Kuwait,2023,forage_and_silage_alfalfa,124.0
+231,41,United States of America,"China, mainland",1999,forage_and_silage_alfalfa,21.0
+231,41,United States of America,"China, mainland",2010,forage_and_silage_alfalfa,98.0
+231,41,United States of America,"China, mainland",2011,forage_and_silage_alfalfa,140.0
+10,113,Australia,Kyrgyzstan,2011,forage_and_silage_alfalfa,12000.0
+10,121,Australia,Lebanon,2000,forage_and_silage_alfalfa,444.0
+10,121,Australia,Lebanon,2001,forage_and_silage_alfalfa,261.0
+10,121,Australia,Lebanon,2002,forage_and_silage_alfalfa,284.0
+10,121,Australia,Lebanon,2003,forage_and_silage_alfalfa,88.0
+10,121,Australia,Lebanon,2004,forage_and_silage_alfalfa,66.0
+10,121,Australia,Lebanon,2005,forage_and_silage_alfalfa,133.0
+10,121,Australia,Lebanon,2006,forage_and_silage_alfalfa,28.0
+10,121,Australia,Lebanon,2007,forage_and_silage_alfalfa,66.0
+10,121,Australia,Lebanon,2008,forage_and_silage_alfalfa,51.0
+10,121,Australia,Lebanon,2009,forage_and_silage_alfalfa,177.0
+10,121,Australia,Lebanon,2010,forage_and_silage_alfalfa,22.0
+10,121,Australia,Lebanon,2011,forage_and_silage_alfalfa,70.0
+10,121,Australia,Lebanon,2014,forage_and_silage_alfalfa,48.07
+10,121,Australia,Lebanon,2015,forage_and_silage_alfalfa,229.54
+10,121,Australia,Lebanon,2016,forage_and_silage_alfalfa,122.5
+10,121,Australia,Lebanon,2017,forage_and_silage_alfalfa,180.69
+10,121,Australia,Lebanon,2018,forage_and_silage_alfalfa,23.0
+10,121,Australia,Lebanon,2021,forage_and_silage_alfalfa,23.0
+10,121,Australia,Lebanon,2023,forage_and_silage_alfalfa,24.0
+138,231,Mexico,United States of America,1997,forage_and_silage_alfalfa,26062.0
+138,231,Mexico,United States of America,1998,forage_and_silage_alfalfa,25591.0
+138,231,Mexico,United States of America,1999,forage_and_silage_alfalfa,21184.0
+138,231,Mexico,United States of America,2000,forage_and_silage_alfalfa,31487.0
+138,231,Mexico,United States of America,2001,forage_and_silage_alfalfa,32690.0
+138,231,Mexico,United States of America,2002,forage_and_silage_alfalfa,2545.0
+138,231,Mexico,United States of America,2003,forage_and_silage_alfalfa,1007.0
+138,231,Mexico,United States of America,2004,forage_and_silage_alfalfa,147.0
+138,231,Mexico,United States of America,2008,forage_and_silage_alfalfa,77009.0
+138,231,Mexico,United States of America,2009,forage_and_silage_alfalfa,3237.0
+138,231,Mexico,United States of America,2012,forage_and_silage_alfalfa,34994.0
+138,231,Mexico,United States of America,2016,forage_and_silage_alfalfa,30692.65
+138,231,Mexico,United States of America,2021,forage_and_silage_alfalfa,19693.7
+138,231,Mexico,United States of America,2022,forage_and_silage_alfalfa,22393.7
+138,231,Mexico,United States of America,2023,forage_and_silage_alfalfa,39921.84
+156,153,New Zealand,New Caledonia,1986,forage_and_silage_alfalfa,15.0
+156,153,New Zealand,New Caledonia,1987,forage_and_silage_alfalfa,26.0
+10,124,Australia,Libya,1986,forage_and_silage_alfalfa,7958.0
+10,124,Australia,Libya,2005,forage_and_silage_alfalfa,36.0
+10,131,Australia,Malaysia,1986,forage_and_silage_alfalfa,1016.0
+10,131,Australia,Malaysia,1987,forage_and_silage_alfalfa,1503.0
+10,131,Australia,Malaysia,1988,forage_and_silage_alfalfa,17.0
+10,131,Australia,Malaysia,1989,forage_and_silage_alfalfa,11.0
+10,131,Australia,Malaysia,1996,forage_and_silage_alfalfa,82.0
+10,131,Australia,Malaysia,2000,forage_and_silage_alfalfa,2228.0
+10,131,Australia,Malaysia,2001,forage_and_silage_alfalfa,1867.0
+10,131,Australia,Malaysia,2002,forage_and_silage_alfalfa,3508.0
+10,131,Australia,Malaysia,2003,forage_and_silage_alfalfa,27477.0
+10,131,Australia,Malaysia,2004,forage_and_silage_alfalfa,9759.0
+10,131,Australia,Malaysia,2005,forage_and_silage_alfalfa,3661.0
+10,131,Australia,Malaysia,2006,forage_and_silage_alfalfa,8773.0
+10,131,Australia,Malaysia,2007,forage_and_silage_alfalfa,2436.0
+10,131,Australia,Malaysia,2008,forage_and_silage_alfalfa,2462.0
+10,131,Australia,Malaysia,2009,forage_and_silage_alfalfa,2609.0
+10,131,Australia,Malaysia,2010,forage_and_silage_alfalfa,2718.0
+10,131,Australia,Malaysia,2011,forage_and_silage_alfalfa,1941.0
+10,131,Australia,Malaysia,2012,forage_and_silage_alfalfa,4381.0
+10,131,Australia,Malaysia,2013,forage_and_silage_alfalfa,2192.0
+10,131,Australia,Malaysia,2014,forage_and_silage_alfalfa,1902.58
+10,131,Australia,Malaysia,2015,forage_and_silage_alfalfa,2841.39
+10,131,Australia,Malaysia,2016,forage_and_silage_alfalfa,1860.73
+10,131,Australia,Malaysia,2017,forage_and_silage_alfalfa,2883.16
+10,131,Australia,Malaysia,2018,forage_and_silage_alfalfa,1532.94
+10,131,Australia,Malaysia,2019,forage_and_silage_alfalfa,1606.35
+10,131,Australia,Malaysia,2020,forage_and_silage_alfalfa,1155.14
+10,131,Australia,Malaysia,2021,forage_and_silage_alfalfa,1152.05
+10,131,Australia,Malaysia,2022,forage_and_silage_alfalfa,1899.42
+10,131,Australia,Malaysia,2023,forage_and_silage_alfalfa,3812.34
+231,214,United States of America,"China, Taiwan Province of",1986,forage_and_silage_alfalfa,4893.0
+231,214,United States of America,"China, Taiwan Province of",1987,forage_and_silage_alfalfa,7196.0
+231,214,United States of America,"China, Taiwan Province of",1988,forage_and_silage_alfalfa,12694.0
+231,214,United States of America,"China, Taiwan Province of",1989,forage_and_silage_alfalfa,11233.0
+231,214,United States of America,"China, Taiwan Province of",1990,forage_and_silage_alfalfa,6972.0
+231,214,United States of America,"China, Taiwan Province of",1991,forage_and_silage_alfalfa,584.0
+231,214,United States of America,"China, Taiwan Province of",1992,forage_and_silage_alfalfa,1514.0
+231,214,United States of America,"China, Taiwan Province of",1993,forage_and_silage_alfalfa,1805.0
+231,214,United States of America,"China, Taiwan Province of",1994,forage_and_silage_alfalfa,195.0
+231,214,United States of America,"China, Taiwan Province of",1995,forage_and_silage_alfalfa,2552.0
+231,214,United States of America,"China, Taiwan Province of",1996,forage_and_silage_alfalfa,79.0
+231,214,United States of America,"China, Taiwan Province of",1997,forage_and_silage_alfalfa,219.0
+231,214,United States of America,"China, Taiwan Province of",1998,forage_and_silage_alfalfa,257.0
+231,214,United States of America,"China, Taiwan Province of",1999,forage_and_silage_alfalfa,24.0
+231,214,United States of America,"China, Taiwan Province of",2000,forage_and_silage_alfalfa,376.0
+231,214,United States of America,"China, Taiwan Province of",2001,forage_and_silage_alfalfa,1831.0
+231,214,United States of America,"China, Taiwan Province of",2002,forage_and_silage_alfalfa,2787.0
+231,214,United States of America,"China, Taiwan Province of",2003,forage_and_silage_alfalfa,2993.0
+231,214,United States of America,"China, Taiwan Province of",2004,forage_and_silage_alfalfa,602.0
+231,214,United States of America,"China, Taiwan Province of",2011,forage_and_silage_alfalfa,26.0
+10,134,Australia,Malta,2001,forage_and_silage_alfalfa,25.0
+10,137,Australia,Mauritius,1987,forage_and_silage_alfalfa,20.0
+10,137,Australia,Mauritius,2000,forage_and_silage_alfalfa,331.0
+10,137,Australia,Mauritius,2001,forage_and_silage_alfalfa,270.0
+10,137,Australia,Mauritius,2002,forage_and_silage_alfalfa,171.0
+10,137,Australia,Mauritius,2003,forage_and_silage_alfalfa,6.0
+10,137,Australia,Mauritius,2004,forage_and_silage_alfalfa,117.0
+10,137,Australia,Mauritius,2005,forage_and_silage_alfalfa,57.0
+10,137,Australia,Mauritius,2006,forage_and_silage_alfalfa,101.0
+10,137,Australia,Mauritius,2007,forage_and_silage_alfalfa,26.0
+10,137,Australia,Mauritius,2008,forage_and_silage_alfalfa,129.0
+10,137,Australia,Mauritius,2009,forage_and_silage_alfalfa,202.0
+10,137,Australia,Mauritius,2010,forage_and_silage_alfalfa,171.0
+10,137,Australia,Mauritius,2011,forage_and_silage_alfalfa,104.0
+10,137,Australia,Mauritius,2012,forage_and_silage_alfalfa,53.0
+10,137,Australia,Mauritius,2013,forage_and_silage_alfalfa,131.0
+10,137,Australia,Mauritius,2014,forage_and_silage_alfalfa,149.97
+10,137,Australia,Mauritius,2015,forage_and_silage_alfalfa,103.59
+10,137,Australia,Mauritius,2016,forage_and_silage_alfalfa,132.37
+10,137,Australia,Mauritius,2017,forage_and_silage_alfalfa,56.88
+10,137,Australia,Mauritius,2018,forage_and_silage_alfalfa,182.06
+10,137,Australia,Mauritius,2019,forage_and_silage_alfalfa,131.39
+10,137,Australia,Mauritius,2020,forage_and_silage_alfalfa,157.02
+10,137,Australia,Mauritius,2021,forage_and_silage_alfalfa,129.16
+10,137,Australia,Mauritius,2023,forage_and_silage_alfalfa,101.58
+10,138,Australia,Mexico,2000,forage_and_silage_alfalfa,38.0
+10,138,Australia,Mexico,2001,forage_and_silage_alfalfa,35.0
+10,138,Australia,Mexico,2002,forage_and_silage_alfalfa,350.0
+10,138,Australia,Mexico,2017,forage_and_silage_alfalfa,82.55
+10,138,Australia,Mexico,2021,forage_and_silage_alfalfa,47.0
+10,138,Australia,Mexico,2022,forage_and_silage_alfalfa,44.0
+10,143,Australia,Morocco,2000,forage_and_silage_alfalfa,22.0
+10,144,Australia,Mozambique,2016,forage_and_silage_alfalfa,0.12
+10,28,Australia,Myanmar,2007,forage_and_silage_alfalfa,230.0
+10,148,Australia,Nauru,2013,forage_and_silage_alfalfa,11.0
+10,149,Australia,Nepal,2015,forage_and_silage_alfalfa,1.11
+10,149,Australia,Nepal,2023,forage_and_silage_alfalfa,376.15
+10,150,Australia,Netherlands (Kingdom of the),2000,forage_and_silage_alfalfa,147408.0
+10,150,Australia,Netherlands (Kingdom of the),2001,forage_and_silage_alfalfa,55569.0
+10,150,Australia,Netherlands (Kingdom of the),2002,forage_and_silage_alfalfa,16297.0
+10,150,Australia,Netherlands (Kingdom of the),2003,forage_and_silage_alfalfa,6808.0
+10,150,Australia,Netherlands (Kingdom of the),2004,forage_and_silage_alfalfa,99579.0
+10,150,Australia,Netherlands (Kingdom of the),2005,forage_and_silage_alfalfa,25634.0
+10,150,Australia,Netherlands (Kingdom of the),2006,forage_and_silage_alfalfa,27407.0
+10,150,Australia,Netherlands (Kingdom of the),2007,forage_and_silage_alfalfa,1045.0
+10,150,Australia,Netherlands (Kingdom of the),2008,forage_and_silage_alfalfa,21361.0
+10,150,Australia,Netherlands (Kingdom of the),2009,forage_and_silage_alfalfa,24282.0
+10,150,Australia,Netherlands (Kingdom of the),2010,forage_and_silage_alfalfa,16951.0
+10,150,Australia,Netherlands (Kingdom of the),2011,forage_and_silage_alfalfa,17927.0
+10,150,Australia,Netherlands (Kingdom of the),2012,forage_and_silage_alfalfa,23692.0
+10,150,Australia,Netherlands (Kingdom of the),2013,forage_and_silage_alfalfa,1234.0
+10,150,Australia,Netherlands (Kingdom of the),2014,forage_and_silage_alfalfa,23037.14
+10,150,Australia,Netherlands (Kingdom of the),2015,forage_and_silage_alfalfa,45409.78
+10,150,Australia,Netherlands (Kingdom of the),2016,forage_and_silage_alfalfa,57261.32
+10,150,Australia,Netherlands (Kingdom of the),2017,forage_and_silage_alfalfa,89420.01
+10,150,Australia,Netherlands (Kingdom of the),2018,forage_and_silage_alfalfa,124460.55
+10,150,Australia,Netherlands (Kingdom of the),2019,forage_and_silage_alfalfa,16060.3
+10,150,Australia,Netherlands (Kingdom of the),2020,forage_and_silage_alfalfa,49286.72
+10,150,Australia,Netherlands (Kingdom of the),2021,forage_and_silage_alfalfa,231678.5
+10,150,Australia,Netherlands (Kingdom of the),2022,forage_and_silage_alfalfa,209619.0
+10,150,Australia,Netherlands (Kingdom of the),2023,forage_and_silage_alfalfa,206655.96
+231,48,United States of America,Costa Rica,1986,forage_and_silage_alfalfa,53.0
+231,48,United States of America,Costa Rica,1997,forage_and_silage_alfalfa,43.0
+231,48,United States of America,Costa Rica,2005,forage_and_silage_alfalfa,188.0
+10,153,Australia,New Caledonia,1986,forage_and_silage_alfalfa,141.0
+10,153,Australia,New Caledonia,1987,forage_and_silage_alfalfa,465.0
+10,153,Australia,New Caledonia,2000,forage_and_silage_alfalfa,202.0
+10,153,Australia,New Caledonia,2001,forage_and_silage_alfalfa,14.0
+10,153,Australia,New Caledonia,2002,forage_and_silage_alfalfa,39.0
+10,153,Australia,New Caledonia,2003,forage_and_silage_alfalfa,35.0
+10,153,Australia,New Caledonia,2004,forage_and_silage_alfalfa,55.0
+10,153,Australia,New Caledonia,2005,forage_and_silage_alfalfa,49.0
+10,153,Australia,New Caledonia,2006,forage_and_silage_alfalfa,55.0
+10,153,Australia,New Caledonia,2007,forage_and_silage_alfalfa,30.0
+10,153,Australia,New Caledonia,2008,forage_and_silage_alfalfa,1151.0
+10,153,Australia,New Caledonia,2009,forage_and_silage_alfalfa,889.0
+10,153,Australia,New Caledonia,2010,forage_and_silage_alfalfa,420.0
+10,153,Australia,New Caledonia,2011,forage_and_silage_alfalfa,30.0
+10,153,Australia,New Caledonia,2012,forage_and_silage_alfalfa,225.0
+10,153,Australia,New Caledonia,2013,forage_and_silage_alfalfa,126.0
+10,153,Australia,New Caledonia,2014,forage_and_silage_alfalfa,136.62
+10,153,Australia,New Caledonia,2015,forage_and_silage_alfalfa,15.32
+10,153,Australia,New Caledonia,2016,forage_and_silage_alfalfa,233.39
+10,153,Australia,New Caledonia,2017,forage_and_silage_alfalfa,294.62
+10,153,Australia,New Caledonia,2018,forage_and_silage_alfalfa,128.0
+10,153,Australia,New Caledonia,2019,forage_and_silage_alfalfa,17.2
+10,153,Australia,New Caledonia,2020,forage_and_silage_alfalfa,2.0
+10,153,Australia,New Caledonia,2021,forage_and_silage_alfalfa,9.8
+10,153,Australia,New Caledonia,2022,forage_and_silage_alfalfa,4.0
+10,153,Australia,New Caledonia,2023,forage_and_silage_alfalfa,24.4
+10,156,Australia,New Zealand,1986,forage_and_silage_alfalfa,61.0
+10,156,Australia,New Zealand,2000,forage_and_silage_alfalfa,887.0
+10,156,Australia,New Zealand,2001,forage_and_silage_alfalfa,31470.0
+10,156,Australia,New Zealand,2002,forage_and_silage_alfalfa,38183.0
+10,156,Australia,New Zealand,2003,forage_and_silage_alfalfa,11114.0
+10,156,Australia,New Zealand,2004,forage_and_silage_alfalfa,32008.0
+10,156,Australia,New Zealand,2005,forage_and_silage_alfalfa,33438.0
+10,156,Australia,New Zealand,2006,forage_and_silage_alfalfa,30262.0
+10,156,Australia,New Zealand,2007,forage_and_silage_alfalfa,39709.0
+10,156,Australia,New Zealand,2008,forage_and_silage_alfalfa,187876.0
+10,156,Australia,New Zealand,2009,forage_and_silage_alfalfa,124930.0
+10,156,Australia,New Zealand,2010,forage_and_silage_alfalfa,43232.0
+10,156,Australia,New Zealand,2011,forage_and_silage_alfalfa,33382.0
+10,156,Australia,New Zealand,2012,forage_and_silage_alfalfa,63177.0
+10,156,Australia,New Zealand,2013,forage_and_silage_alfalfa,67877.0
+10,156,Australia,New Zealand,2014,forage_and_silage_alfalfa,2964.7
+10,156,Australia,New Zealand,2015,forage_and_silage_alfalfa,904.59
+10,156,Australia,New Zealand,2016,forage_and_silage_alfalfa,11808.63
+10,156,Australia,New Zealand,2017,forage_and_silage_alfalfa,8846.39
+10,156,Australia,New Zealand,2018,forage_and_silage_alfalfa,238.5
+10,156,Australia,New Zealand,2019,forage_and_silage_alfalfa,48.26
+10,156,Australia,New Zealand,2020,forage_and_silage_alfalfa,950.83
+10,156,Australia,New Zealand,2021,forage_and_silage_alfalfa,351.79
+10,156,Australia,New Zealand,2022,forage_and_silage_alfalfa,208.61
+10,156,Australia,New Zealand,2023,forage_and_silage_alfalfa,324.3
+231,54,United States of America,Denmark,2010,forage_and_silage_alfalfa,40.0
+10,221,Australia,Oman,1986,forage_and_silage_alfalfa,286.0
+10,221,Australia,Oman,2002,forage_and_silage_alfalfa,77.0
+10,221,Australia,Oman,2003,forage_and_silage_alfalfa,160.0
+10,221,Australia,Oman,2006,forage_and_silage_alfalfa,1.0
+10,221,Australia,Oman,2007,forage_and_silage_alfalfa,1.0
+10,221,Australia,Oman,2008,forage_and_silage_alfalfa,6.0
+10,221,Australia,Oman,2009,forage_and_silage_alfalfa,7.0
+10,221,Australia,Oman,2010,forage_and_silage_alfalfa,2.0
+10,221,Australia,Oman,2011,forage_and_silage_alfalfa,3.0
+10,221,Australia,Oman,2018,forage_and_silage_alfalfa,2495.52
+10,221,Australia,Oman,2019,forage_and_silage_alfalfa,1028.42
+10,221,Australia,Oman,2020,forage_and_silage_alfalfa,2034.47
+10,221,Australia,Oman,2021,forage_and_silage_alfalfa,5031.07
+10,165,Australia,Pakistan,1987,forage_and_silage_alfalfa,10.0
+10,165,Australia,Pakistan,2000,forage_and_silage_alfalfa,86.0
+10,165,Australia,Pakistan,2005,forage_and_silage_alfalfa,20.0
+10,165,Australia,Pakistan,2006,forage_and_silage_alfalfa,595.0
+10,165,Australia,Pakistan,2007,forage_and_silage_alfalfa,587.0
+10,165,Australia,Pakistan,2008,forage_and_silage_alfalfa,606.0
+10,165,Australia,Pakistan,2009,forage_and_silage_alfalfa,109.0
+10,165,Australia,Pakistan,2010,forage_and_silage_alfalfa,518.0
+10,165,Australia,Pakistan,2011,forage_and_silage_alfalfa,350.0
+10,165,Australia,Pakistan,2012,forage_and_silage_alfalfa,260.0
+10,165,Australia,Pakistan,2016,forage_and_silage_alfalfa,18.0
+231,56,United States of America,Dominican Republic,1995,forage_and_silage_alfalfa,60.0
+231,56,United States of America,Dominican Republic,1996,forage_and_silage_alfalfa,119.0
+231,56,United States of America,Dominican Republic,1997,forage_and_silage_alfalfa,58.0
+231,56,United States of America,Dominican Republic,1998,forage_and_silage_alfalfa,185.0
+231,56,United States of America,Dominican Republic,2000,forage_and_silage_alfalfa,750.0
+231,56,United States of America,Dominican Republic,2002,forage_and_silage_alfalfa,13.0
+231,56,United States of America,Dominican Republic,2008,forage_and_silage_alfalfa,23.0
+231,56,United States of America,Dominican Republic,2009,forage_and_silage_alfalfa,78.0
+10,168,Australia,Papua New Guinea,1986,forage_and_silage_alfalfa,50.0
+10,168,Australia,Papua New Guinea,1987,forage_and_silage_alfalfa,73.0
+10,168,Australia,Papua New Guinea,2000,forage_and_silage_alfalfa,17220.0
+10,168,Australia,Papua New Guinea,2001,forage_and_silage_alfalfa,8300.0
+10,168,Australia,Papua New Guinea,2002,forage_and_silage_alfalfa,38279.0
+10,168,Australia,Papua New Guinea,2003,forage_and_silage_alfalfa,31554.0
+10,168,Australia,Papua New Guinea,2004,forage_and_silage_alfalfa,9736.0
+10,168,Australia,Papua New Guinea,2005,forage_and_silage_alfalfa,13304.0
+10,168,Australia,Papua New Guinea,2006,forage_and_silage_alfalfa,8021.0
+10,168,Australia,Papua New Guinea,2007,forage_and_silage_alfalfa,4872.0
+10,168,Australia,Papua New Guinea,2008,forage_and_silage_alfalfa,8417.0
+10,168,Australia,Papua New Guinea,2009,forage_and_silage_alfalfa,20233.0
+10,168,Australia,Papua New Guinea,2010,forage_and_silage_alfalfa,11527.0
+10,168,Australia,Papua New Guinea,2011,forage_and_silage_alfalfa,16889.0
+10,168,Australia,Papua New Guinea,2012,forage_and_silage_alfalfa,16657.0
+10,168,Australia,Papua New Guinea,2013,forage_and_silage_alfalfa,12082.0
+10,168,Australia,Papua New Guinea,2014,forage_and_silage_alfalfa,756.17
+10,168,Australia,Papua New Guinea,2015,forage_and_silage_alfalfa,914.64
+10,168,Australia,Papua New Guinea,2016,forage_and_silage_alfalfa,654.35
+10,168,Australia,Papua New Guinea,2017,forage_and_silage_alfalfa,828.27
+10,168,Australia,Papua New Guinea,2018,forage_and_silage_alfalfa,104.87
+10,168,Australia,Papua New Guinea,2019,forage_and_silage_alfalfa,185.83
+10,168,Australia,Papua New Guinea,2020,forage_and_silage_alfalfa,0.02
+10,168,Australia,Papua New Guinea,2021,forage_and_silage_alfalfa,2.32
+10,168,Australia,Papua New Guinea,2023,forage_and_silage_alfalfa,0.13
+10,170,Australia,Peru,2010,forage_and_silage_alfalfa,5.0
+10,171,Australia,Philippines,1987,forage_and_silage_alfalfa,176.0
+10,171,Australia,Philippines,1993,forage_and_silage_alfalfa,20.0
+10,171,Australia,Philippines,2000,forage_and_silage_alfalfa,13630.0
+10,171,Australia,Philippines,2001,forage_and_silage_alfalfa,8897.0
+10,171,Australia,Philippines,2002,forage_and_silage_alfalfa,7417.0
+10,171,Australia,Philippines,2003,forage_and_silage_alfalfa,21034.0
+10,171,Australia,Philippines,2004,forage_and_silage_alfalfa,4313.0
+10,171,Australia,Philippines,2005,forage_and_silage_alfalfa,4122.0
+10,171,Australia,Philippines,2006,forage_and_silage_alfalfa,2498.0
+10,171,Australia,Philippines,2007,forage_and_silage_alfalfa,2379.0
+10,171,Australia,Philippines,2008,forage_and_silage_alfalfa,5415.0
+10,171,Australia,Philippines,2009,forage_and_silage_alfalfa,6707.0
+10,171,Australia,Philippines,2010,forage_and_silage_alfalfa,4020.0
+10,171,Australia,Philippines,2011,forage_and_silage_alfalfa,9156.0
+10,171,Australia,Philippines,2012,forage_and_silage_alfalfa,12590.0
+10,171,Australia,Philippines,2013,forage_and_silage_alfalfa,7714.0
+10,171,Australia,Philippines,2014,forage_and_silage_alfalfa,9348.86
+10,171,Australia,Philippines,2015,forage_and_silage_alfalfa,7418.5
+10,171,Australia,Philippines,2016,forage_and_silage_alfalfa,18069.94
+10,171,Australia,Philippines,2017,forage_and_silage_alfalfa,16912.5
+10,171,Australia,Philippines,2018,forage_and_silage_alfalfa,9568.51
+10,171,Australia,Philippines,2019,forage_and_silage_alfalfa,5747.02
+10,171,Australia,Philippines,2020,forage_and_silage_alfalfa,6671.06
+10,171,Australia,Philippines,2021,forage_and_silage_alfalfa,8929.43
+10,171,Australia,Philippines,2022,forage_and_silage_alfalfa,11113.24
+10,171,Australia,Philippines,2023,forage_and_silage_alfalfa,7705.06
+10,173,Australia,Poland,2023,forage_and_silage_alfalfa,118.63
+10,174,Australia,Portugal,2000,forage_and_silage_alfalfa,1087.0
+10,174,Australia,Portugal,2001,forage_and_silage_alfalfa,365.0
+10,174,Australia,Portugal,2002,forage_and_silage_alfalfa,1229.0
+10,174,Australia,Portugal,2003,forage_and_silage_alfalfa,822.0
+10,174,Australia,Portugal,2004,forage_and_silage_alfalfa,1126.0
+10,174,Australia,Portugal,2005,forage_and_silage_alfalfa,880.0
+10,174,Australia,Portugal,2006,forage_and_silage_alfalfa,771.0
+10,174,Australia,Portugal,2007,forage_and_silage_alfalfa,568.0
+10,174,Australia,Portugal,2008,forage_and_silage_alfalfa,96.0
+10,174,Australia,Portugal,2009,forage_and_silage_alfalfa,49.0
+10,174,Australia,Portugal,2010,forage_and_silage_alfalfa,34.0
+10,174,Australia,Portugal,2011,forage_and_silage_alfalfa,8.0
+10,174,Australia,Portugal,2012,forage_and_silage_alfalfa,149.0
+10,174,Australia,Portugal,2013,forage_and_silage_alfalfa,283.0
+10,174,Australia,Portugal,2014,forage_and_silage_alfalfa,5.53
+10,174,Australia,Portugal,2015,forage_and_silage_alfalfa,26.0
+10,174,Australia,Portugal,2017,forage_and_silage_alfalfa,131.66
+10,174,Australia,Portugal,2018,forage_and_silage_alfalfa,24.34
+10,174,Australia,Portugal,2021,forage_and_silage_alfalfa,116.0
+10,174,Australia,Portugal,2022,forage_and_silage_alfalfa,124.18
+10,174,Australia,Portugal,2023,forage_and_silage_alfalfa,49.7
+10,179,Australia,Qatar,1986,forage_and_silage_alfalfa,2683.0
+10,179,Australia,Qatar,1987,forage_and_silage_alfalfa,530.0
+10,179,Australia,Qatar,2000,forage_and_silage_alfalfa,47.0
+10,179,Australia,Qatar,2001,forage_and_silage_alfalfa,47.0
+10,179,Australia,Qatar,2002,forage_and_silage_alfalfa,25.0
+10,179,Australia,Qatar,2003,forage_and_silage_alfalfa,77.0
+10,179,Australia,Qatar,2004,forage_and_silage_alfalfa,136.0
+10,179,Australia,Qatar,2005,forage_and_silage_alfalfa,78.0
+10,179,Australia,Qatar,2006,forage_and_silage_alfalfa,126.0
+10,179,Australia,Qatar,2007,forage_and_silage_alfalfa,65.0
+10,179,Australia,Qatar,2008,forage_and_silage_alfalfa,122.0
+10,179,Australia,Qatar,2009,forage_and_silage_alfalfa,151.0
+10,179,Australia,Qatar,2010,forage_and_silage_alfalfa,172.0
+10,179,Australia,Qatar,2011,forage_and_silage_alfalfa,575.0
+10,179,Australia,Qatar,2012,forage_and_silage_alfalfa,1.0
+10,179,Australia,Qatar,2013,forage_and_silage_alfalfa,169.0
+10,179,Australia,Qatar,2014,forage_and_silage_alfalfa,302.86
+10,179,Australia,Qatar,2015,forage_and_silage_alfalfa,3205.14
+10,179,Australia,Qatar,2016,forage_and_silage_alfalfa,26.91
+10,179,Australia,Qatar,2017,forage_and_silage_alfalfa,94.94
+10,179,Australia,Qatar,2018,forage_and_silage_alfalfa,261.47
+10,179,Australia,Qatar,2019,forage_and_silage_alfalfa,106.7
+10,179,Australia,Qatar,2020,forage_and_silage_alfalfa,74.64
+10,179,Australia,Qatar,2021,forage_and_silage_alfalfa,0.29
+10,117,Australia,Republic of Korea,1986,forage_and_silage_alfalfa,10.0
+10,117,Australia,Republic of Korea,2000,forage_and_silage_alfalfa,264489.0
+10,117,Australia,Republic of Korea,2001,forage_and_silage_alfalfa,125742.0
+10,117,Australia,Republic of Korea,2002,forage_and_silage_alfalfa,159421.0
+10,117,Australia,Republic of Korea,2003,forage_and_silage_alfalfa,90933.0
+10,117,Australia,Republic of Korea,2004,forage_and_silage_alfalfa,238421.0
+10,117,Australia,Republic of Korea,2005,forage_and_silage_alfalfa,219959.0
+10,117,Australia,Republic of Korea,2006,forage_and_silage_alfalfa,250698.0
+10,117,Australia,Republic of Korea,2007,forage_and_silage_alfalfa,85463.0
+10,117,Australia,Republic of Korea,2008,forage_and_silage_alfalfa,115589.0
+10,117,Australia,Republic of Korea,2009,forage_and_silage_alfalfa,294906.0
+10,117,Australia,Republic of Korea,2010,forage_and_silage_alfalfa,247013.0
+10,117,Australia,Republic of Korea,2011,forage_and_silage_alfalfa,157005.0
+10,117,Australia,Republic of Korea,2012,forage_and_silage_alfalfa,269596.0
+10,117,Australia,Republic of Korea,2013,forage_and_silage_alfalfa,164443.0
+10,117,Australia,Republic of Korea,2014,forage_and_silage_alfalfa,188283.8
+10,117,Australia,Republic of Korea,2015,forage_and_silage_alfalfa,194586.12
+10,117,Australia,Republic of Korea,2016,forage_and_silage_alfalfa,190544.78
+10,117,Australia,Republic of Korea,2017,forage_and_silage_alfalfa,293171.88
+10,117,Australia,Republic of Korea,2018,forage_and_silage_alfalfa,292229.4
+10,117,Australia,Republic of Korea,2019,forage_and_silage_alfalfa,139963.1
+10,117,Australia,Republic of Korea,2020,forage_and_silage_alfalfa,177133.56
+10,117,Australia,Republic of Korea,2021,forage_and_silage_alfalfa,360619.48
+10,117,Australia,Republic of Korea,2022,forage_and_silage_alfalfa,362316.9
+10,117,Australia,Republic of Korea,2023,forage_and_silage_alfalfa,502060.3
+231,60,United States of America,El Salvador,1986,forage_and_silage_alfalfa,12.0
+10,183,Australia,Romania,2014,forage_and_silage_alfalfa,20.0
+10,183,Australia,Romania,2016,forage_and_silage_alfalfa,10.0
+10,183,Australia,Romania,2023,forage_and_silage_alfalfa,15.0
+10,185,Australia,Russian Federation,2001,forage_and_silage_alfalfa,218.0
+10,185,Australia,Russian Federation,2007,forage_and_silage_alfalfa,12.0
+10,185,Australia,Russian Federation,2008,forage_and_silage_alfalfa,280.0
+10,185,Australia,Russian Federation,2010,forage_and_silage_alfalfa,156.0
+10,185,Australia,Russian Federation,2012,forage_and_silage_alfalfa,630.0
+10,244,Australia,Samoa,1996,forage_and_silage_alfalfa,20.0
+10,244,Australia,Samoa,2000,forage_and_silage_alfalfa,1.0
+10,194,Australia,Saudi Arabia,1986,forage_and_silage_alfalfa,17876.0
+10,194,Australia,Saudi Arabia,2000,forage_and_silage_alfalfa,3278.0
+10,194,Australia,Saudi Arabia,2001,forage_and_silage_alfalfa,2472.0
+10,194,Australia,Saudi Arabia,2002,forage_and_silage_alfalfa,3189.0
+10,194,Australia,Saudi Arabia,2003,forage_and_silage_alfalfa,1117.0
+10,194,Australia,Saudi Arabia,2004,forage_and_silage_alfalfa,294.0
+10,194,Australia,Saudi Arabia,2005,forage_and_silage_alfalfa,329.0
+10,194,Australia,Saudi Arabia,2006,forage_and_silage_alfalfa,338.0
+10,194,Australia,Saudi Arabia,2007,forage_and_silage_alfalfa,376.0
+10,194,Australia,Saudi Arabia,2008,forage_and_silage_alfalfa,1060.0
+10,194,Australia,Saudi Arabia,2009,forage_and_silage_alfalfa,787.0
+10,194,Australia,Saudi Arabia,2010,forage_and_silage_alfalfa,1928.0
+10,194,Australia,Saudi Arabia,2011,forage_and_silage_alfalfa,601.0
+10,194,Australia,Saudi Arabia,2012,forage_and_silage_alfalfa,512.0
+10,194,Australia,Saudi Arabia,2013,forage_and_silage_alfalfa,938.0
+10,194,Australia,Saudi Arabia,2014,forage_and_silage_alfalfa,1623.05
+10,194,Australia,Saudi Arabia,2015,forage_and_silage_alfalfa,89.55
+10,194,Australia,Saudi Arabia,2016,forage_and_silage_alfalfa,620.65
+10,194,Australia,Saudi Arabia,2017,forage_and_silage_alfalfa,1293.11
+10,194,Australia,Saudi Arabia,2019,forage_and_silage_alfalfa,103.88
+10,194,Australia,Saudi Arabia,2020,forage_and_silage_alfalfa,46.01
+10,194,Australia,Saudi Arabia,2021,forage_and_silage_alfalfa,435.31
+10,194,Australia,Saudi Arabia,2022,forage_and_silage_alfalfa,169.79
+10,194,Australia,Saudi Arabia,2023,forage_and_silage_alfalfa,430.72
+10,200,Australia,Singapore,1986,forage_and_silage_alfalfa,1134.0
+10,200,Australia,Singapore,1987,forage_and_silage_alfalfa,1532.0
+10,200,Australia,Singapore,1991,forage_and_silage_alfalfa,123.0
+10,200,Australia,Singapore,1992,forage_and_silage_alfalfa,8.0
+10,200,Australia,Singapore,1993,forage_and_silage_alfalfa,50.0
+10,200,Australia,Singapore,2000,forage_and_silage_alfalfa,8164.0
+10,200,Australia,Singapore,2001,forage_and_silage_alfalfa,7163.0
+10,200,Australia,Singapore,2002,forage_and_silage_alfalfa,4004.0
+10,200,Australia,Singapore,2003,forage_and_silage_alfalfa,2870.0
+10,200,Australia,Singapore,2004,forage_and_silage_alfalfa,16756.0
+10,200,Australia,Singapore,2005,forage_and_silage_alfalfa,1293.0
+10,200,Australia,Singapore,2006,forage_and_silage_alfalfa,1830.0
+10,200,Australia,Singapore,2007,forage_and_silage_alfalfa,1058.0
+10,200,Australia,Singapore,2008,forage_and_silage_alfalfa,1213.0
+10,200,Australia,Singapore,2009,forage_and_silage_alfalfa,1315.0
+10,200,Australia,Singapore,2010,forage_and_silage_alfalfa,1455.0
+10,200,Australia,Singapore,2011,forage_and_silage_alfalfa,959.0
+10,200,Australia,Singapore,2012,forage_and_silage_alfalfa,1082.0
+10,200,Australia,Singapore,2013,forage_and_silage_alfalfa,909.0
+10,200,Australia,Singapore,2014,forage_and_silage_alfalfa,976.94
+10,200,Australia,Singapore,2015,forage_and_silage_alfalfa,1013.58
+10,200,Australia,Singapore,2016,forage_and_silage_alfalfa,1126.21
+10,200,Australia,Singapore,2017,forage_and_silage_alfalfa,1295.46
+10,200,Australia,Singapore,2018,forage_and_silage_alfalfa,784.92
+10,200,Australia,Singapore,2019,forage_and_silage_alfalfa,601.91
+10,200,Australia,Singapore,2020,forage_and_silage_alfalfa,447.85
+10,200,Australia,Singapore,2021,forage_and_silage_alfalfa,378.37
+10,200,Australia,Singapore,2022,forage_and_silage_alfalfa,418.03
+10,200,Australia,Singapore,2023,forage_and_silage_alfalfa,314.79
+231,68,United States of America,France,1989,forage_and_silage_alfalfa,37.0
+231,68,United States of America,France,1990,forage_and_silage_alfalfa,374.0
+231,68,United States of America,France,2000,forage_and_silage_alfalfa,106.0
+231,68,United States of America,France,2001,forage_and_silage_alfalfa,112.0
+231,68,United States of America,France,2002,forage_and_silage_alfalfa,25.0
+231,68,United States of America,France,2003,forage_and_silage_alfalfa,86.0
+10,202,Australia,South Africa,1987,forage_and_silage_alfalfa,5256.0
+10,202,Australia,South Africa,2000,forage_and_silage_alfalfa,56.0
+10,202,Australia,South Africa,2001,forage_and_silage_alfalfa,46.0
+10,202,Australia,South Africa,2002,forage_and_silage_alfalfa,86.0
+10,202,Australia,South Africa,2003,forage_and_silage_alfalfa,77.0
+10,202,Australia,South Africa,2004,forage_and_silage_alfalfa,3069.0
+10,202,Australia,South Africa,2005,forage_and_silage_alfalfa,59.0
+10,202,Australia,South Africa,2006,forage_and_silage_alfalfa,142.0
+10,202,Australia,South Africa,2007,forage_and_silage_alfalfa,59.0
+10,202,Australia,South Africa,2008,forage_and_silage_alfalfa,39.0
+10,202,Australia,South Africa,2009,forage_and_silage_alfalfa,283.0
+10,202,Australia,South Africa,2010,forage_and_silage_alfalfa,260.0
+10,202,Australia,South Africa,2011,forage_and_silage_alfalfa,201.0
+10,202,Australia,South Africa,2012,forage_and_silage_alfalfa,58979.0
+10,202,Australia,South Africa,2013,forage_and_silage_alfalfa,265.0
+10,202,Australia,South Africa,2014,forage_and_silage_alfalfa,258.19
+10,202,Australia,South Africa,2015,forage_and_silage_alfalfa,312.58
+10,202,Australia,South Africa,2016,forage_and_silage_alfalfa,376.35
+10,202,Australia,South Africa,2017,forage_and_silage_alfalfa,2889.84
+10,202,Australia,South Africa,2018,forage_and_silage_alfalfa,187.98
+10,202,Australia,South Africa,2019,forage_and_silage_alfalfa,431.39
+10,202,Australia,South Africa,2020,forage_and_silage_alfalfa,162.6
+10,202,Australia,South Africa,2021,forage_and_silage_alfalfa,678.0
+10,202,Australia,South Africa,2022,forage_and_silage_alfalfa,169.0
+10,202,Australia,South Africa,2023,forage_and_silage_alfalfa,145.5
+231,70,United States of America,French Polynesia,1991,forage_and_silage_alfalfa,18.0
+231,70,United States of America,French Polynesia,1993,forage_and_silage_alfalfa,210.0
+231,70,United States of America,French Polynesia,1994,forage_and_silage_alfalfa,210.0
+231,70,United States of America,French Polynesia,1995,forage_and_silage_alfalfa,312.0
+231,70,United States of America,French Polynesia,1996,forage_and_silage_alfalfa,37.0
+10,203,Australia,Spain,2000,forage_and_silage_alfalfa,253111.0
+10,203,Australia,Spain,2001,forage_and_silage_alfalfa,39165.0
+10,203,Australia,Spain,2002,forage_and_silage_alfalfa,31937.0
+10,203,Australia,Spain,2003,forage_and_silage_alfalfa,13232.0
+10,203,Australia,Spain,2004,forage_and_silage_alfalfa,41767.0
+10,203,Australia,Spain,2005,forage_and_silage_alfalfa,77.0
+10,203,Australia,Spain,2006,forage_and_silage_alfalfa,35600.0
+10,203,Australia,Spain,2007,forage_and_silage_alfalfa,1480.0
+10,203,Australia,Spain,2008,forage_and_silage_alfalfa,26130.0
+10,203,Australia,Spain,2009,forage_and_silage_alfalfa,30697.0
+10,203,Australia,Spain,2010,forage_and_silage_alfalfa,45.0
+10,203,Australia,Spain,2011,forage_and_silage_alfalfa,9900.0
+10,203,Australia,Spain,2012,forage_and_silage_alfalfa,55153.0
+10,203,Australia,Spain,2013,forage_and_silage_alfalfa,92.0
+10,203,Australia,Spain,2014,forage_and_silage_alfalfa,12982.0
+10,203,Australia,Spain,2017,forage_and_silage_alfalfa,187.23
+10,203,Australia,Spain,2019,forage_and_silage_alfalfa,475.21
+10,203,Australia,Spain,2021,forage_and_silage_alfalfa,1434.04
+10,203,Australia,Spain,2022,forage_and_silage_alfalfa,193.7
+10,203,Australia,Spain,2023,forage_and_silage_alfalfa,4547.03
+10,38,Australia,Sri Lanka,1986,forage_and_silage_alfalfa,19.0
+10,38,Australia,Sri Lanka,2000,forage_and_silage_alfalfa,100.0
+10,38,Australia,Sri Lanka,2001,forage_and_silage_alfalfa,43.0
+10,38,Australia,Sri Lanka,2002,forage_and_silage_alfalfa,48.0
+10,38,Australia,Sri Lanka,2004,forage_and_silage_alfalfa,70.0
+10,38,Australia,Sri Lanka,2005,forage_and_silage_alfalfa,15.0
+10,38,Australia,Sri Lanka,2006,forage_and_silage_alfalfa,15.0
+10,38,Australia,Sri Lanka,2008,forage_and_silage_alfalfa,92.0
+10,38,Australia,Sri Lanka,2012,forage_and_silage_alfalfa,40.0
+10,38,Australia,Sri Lanka,2013,forage_and_silage_alfalfa,37.0
+10,38,Australia,Sri Lanka,2014,forage_and_silage_alfalfa,61.75
+10,38,Australia,Sri Lanka,2016,forage_and_silage_alfalfa,130.1
+10,38,Australia,Sri Lanka,2017,forage_and_silage_alfalfa,157.03
+10,38,Australia,Sri Lanka,2018,forage_and_silage_alfalfa,56.18
+10,38,Australia,Sri Lanka,2019,forage_and_silage_alfalfa,126.18
+10,38,Australia,Sri Lanka,2022,forage_and_silage_alfalfa,18.0
+231,79,United States of America,Germany,2000,forage_and_silage_alfalfa,29.0
+231,79,United States of America,Germany,2003,forage_and_silage_alfalfa,78.0
+10,276,Australia,Sudan,2012,forage_and_silage_alfalfa,58.0
+10,206,Australia,Sudan (former),2008,forage_and_silage_alfalfa,19.0
+10,206,Australia,Sudan (former),2010,forage_and_silage_alfalfa,719.0
+10,206,Australia,Sudan (former),2011,forage_and_silage_alfalfa,38.0
+10,210,Australia,Sweden,2000,forage_and_silage_alfalfa,43.0
+10,210,Australia,Sweden,2002,forage_and_silage_alfalfa,21.0
+10,210,Australia,Sweden,2003,forage_and_silage_alfalfa,21.0
+10,211,Australia,Switzerland,1994,forage_and_silage_alfalfa,5.0
+10,211,Australia,Switzerland,2000,forage_and_silage_alfalfa,42.0
+10,211,Australia,Switzerland,2001,forage_and_silage_alfalfa,83.0
+10,211,Australia,Switzerland,2002,forage_and_silage_alfalfa,63.0
+10,211,Australia,Switzerland,2007,forage_and_silage_alfalfa,62.0
+10,211,Australia,Switzerland,2010,forage_and_silage_alfalfa,40.0
+10,211,Australia,Switzerland,2012,forage_and_silage_alfalfa,60.0
+10,211,Australia,Switzerland,2013,forage_and_silage_alfalfa,5.0
+10,211,Australia,Switzerland,2014,forage_and_silage_alfalfa,111.6
+10,211,Australia,Switzerland,2015,forage_and_silage_alfalfa,22.07
+10,211,Australia,Switzerland,2017,forage_and_silage_alfalfa,56.38
+10,212,Australia,Syrian Arab Republic,2006,forage_and_silage_alfalfa,10.0
+10,212,Australia,Syrian Arab Republic,2008,forage_and_silage_alfalfa,10.0
+10,212,Australia,Syrian Arab Republic,2009,forage_and_silage_alfalfa,38.0
+10,212,Australia,Syrian Arab Republic,2010,forage_and_silage_alfalfa,10.0
+10,212,Australia,Syrian Arab Republic,2015,forage_and_silage_alfalfa,7.0
+10,216,Australia,Thailand,1987,forage_and_silage_alfalfa,17.0
+10,216,Australia,Thailand,2000,forage_and_silage_alfalfa,67655.0
+10,216,Australia,Thailand,2001,forage_and_silage_alfalfa,16757.0
+10,216,Australia,Thailand,2002,forage_and_silage_alfalfa,1498.0
+10,216,Australia,Thailand,2003,forage_and_silage_alfalfa,107.0
+10,216,Australia,Thailand,2004,forage_and_silage_alfalfa,12725.0
+10,216,Australia,Thailand,2005,forage_and_silage_alfalfa,2632.0
+10,216,Australia,Thailand,2006,forage_and_silage_alfalfa,7663.0
+10,216,Australia,Thailand,2007,forage_and_silage_alfalfa,65.0
+10,216,Australia,Thailand,2008,forage_and_silage_alfalfa,156.0
+10,216,Australia,Thailand,2009,forage_and_silage_alfalfa,349.0
+10,216,Australia,Thailand,2010,forage_and_silage_alfalfa,122.0
+10,216,Australia,Thailand,2011,forage_and_silage_alfalfa,18.0
+10,216,Australia,Thailand,2012,forage_and_silage_alfalfa,134.0
+10,216,Australia,Thailand,2013,forage_and_silage_alfalfa,111.0
+10,216,Australia,Thailand,2014,forage_and_silage_alfalfa,169.54
+10,216,Australia,Thailand,2015,forage_and_silage_alfalfa,255.55
+10,216,Australia,Thailand,2016,forage_and_silage_alfalfa,153.25
+10,216,Australia,Thailand,2017,forage_and_silage_alfalfa,355.49
+10,216,Australia,Thailand,2018,forage_and_silage_alfalfa,988.61
+10,216,Australia,Thailand,2019,forage_and_silage_alfalfa,241.0
+10,216,Australia,Thailand,2020,forage_and_silage_alfalfa,290.51
+10,216,Australia,Thailand,2021,forage_and_silage_alfalfa,91.83
+10,216,Australia,Thailand,2022,forage_and_silage_alfalfa,306.11
+10,216,Australia,Thailand,2023,forage_and_silage_alfalfa,3298.13
+10,176,Australia,Timor-Leste,2006,forage_and_silage_alfalfa,5.0
+10,219,Australia,Tonga,1986,forage_and_silage_alfalfa,11.0
+10,223,Australia,Türkiye,2006,forage_and_silage_alfalfa,1489.0
+10,223,Australia,Türkiye,2007,forage_and_silage_alfalfa,862.0
+10,223,Australia,Türkiye,2009,forage_and_silage_alfalfa,65.0
+10,223,Australia,Türkiye,2010,forage_and_silage_alfalfa,62.0
+10,223,Australia,Türkiye,2011,forage_and_silage_alfalfa,961.0
+10,223,Australia,Türkiye,2012,forage_and_silage_alfalfa,704.0
+10,223,Australia,Türkiye,2017,forage_and_silage_alfalfa,1735.63
+10,223,Australia,Türkiye,2022,forage_and_silage_alfalfa,49.54
+231,89,United States of America,Guatemala,1994,forage_and_silage_alfalfa,42.0
+10,230,Australia,Ukraine,2008,forage_and_silage_alfalfa,4.0
+10,225,Australia,United Arab Emirates,1986,forage_and_silage_alfalfa,6012.0
+10,225,Australia,United Arab Emirates,1987,forage_and_silage_alfalfa,844.0
+10,225,Australia,United Arab Emirates,1994,forage_and_silage_alfalfa,18.0
+10,225,Australia,United Arab Emirates,2000,forage_and_silage_alfalfa,5814.0
+10,225,Australia,United Arab Emirates,2001,forage_and_silage_alfalfa,5368.0
+10,225,Australia,United Arab Emirates,2002,forage_and_silage_alfalfa,3493.0
+10,225,Australia,United Arab Emirates,2003,forage_and_silage_alfalfa,1264.0
+10,225,Australia,United Arab Emirates,2004,forage_and_silage_alfalfa,1044.0
+10,225,Australia,United Arab Emirates,2005,forage_and_silage_alfalfa,1342.0
+10,225,Australia,United Arab Emirates,2006,forage_and_silage_alfalfa,831.0
+10,225,Australia,United Arab Emirates,2007,forage_and_silage_alfalfa,1264.0
+10,225,Australia,United Arab Emirates,2008,forage_and_silage_alfalfa,2050.0
+10,225,Australia,United Arab Emirates,2009,forage_and_silage_alfalfa,20923.0
+10,225,Australia,United Arab Emirates,2010,forage_and_silage_alfalfa,3422.0
+10,225,Australia,United Arab Emirates,2011,forage_and_silage_alfalfa,4476.0
+10,225,Australia,United Arab Emirates,2012,forage_and_silage_alfalfa,6588.0
+10,225,Australia,United Arab Emirates,2013,forage_and_silage_alfalfa,2816.0
+10,225,Australia,United Arab Emirates,2014,forage_and_silage_alfalfa,3977.33
+10,225,Australia,United Arab Emirates,2015,forage_and_silage_alfalfa,5174.29
+10,225,Australia,United Arab Emirates,2016,forage_and_silage_alfalfa,4629.43
+10,225,Australia,United Arab Emirates,2017,forage_and_silage_alfalfa,7765.5
+10,225,Australia,United Arab Emirates,2018,forage_and_silage_alfalfa,8611.96
+10,225,Australia,United Arab Emirates,2019,forage_and_silage_alfalfa,7537.97
+10,225,Australia,United Arab Emirates,2020,forage_and_silage_alfalfa,4834.46
+10,225,Australia,United Arab Emirates,2021,forage_and_silage_alfalfa,5903.76
+10,225,Australia,United Arab Emirates,2022,forage_and_silage_alfalfa,3506.77
+10,225,Australia,United Arab Emirates,2023,forage_and_silage_alfalfa,6239.84
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1986,forage_and_silage_alfalfa,1.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1987,forage_and_silage_alfalfa,36.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2000,forage_and_silage_alfalfa,1064.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2001,forage_and_silage_alfalfa,946.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2002,forage_and_silage_alfalfa,893.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2003,forage_and_silage_alfalfa,748.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2004,forage_and_silage_alfalfa,680.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2005,forage_and_silage_alfalfa,98.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2006,forage_and_silage_alfalfa,372.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2007,forage_and_silage_alfalfa,303.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2008,forage_and_silage_alfalfa,171.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2009,forage_and_silage_alfalfa,98.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2010,forage_and_silage_alfalfa,373.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2011,forage_and_silage_alfalfa,385.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2012,forage_and_silage_alfalfa,699.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2013,forage_and_silage_alfalfa,351.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2014,forage_and_silage_alfalfa,207.33
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2015,forage_and_silage_alfalfa,182.35
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2017,forage_and_silage_alfalfa,374.66
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2018,forage_and_silage_alfalfa,324.05
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2019,forage_and_silage_alfalfa,101.99
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2020,forage_and_silage_alfalfa,99.36
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2021,forage_and_silage_alfalfa,70.85
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2023,forage_and_silage_alfalfa,22.84
+231,95,United States of America,Honduras,2003,forage_and_silage_alfalfa,100.0
+10,231,Australia,United States of America,1994,forage_and_silage_alfalfa,615.0
+10,231,Australia,United States of America,2000,forage_and_silage_alfalfa,1251.0
+10,231,Australia,United States of America,2001,forage_and_silage_alfalfa,660.0
+10,231,Australia,United States of America,2002,forage_and_silage_alfalfa,702.0
+10,231,Australia,United States of America,2003,forage_and_silage_alfalfa,247.0
+10,231,Australia,United States of America,2004,forage_and_silage_alfalfa,399.0
+10,231,Australia,United States of America,2005,forage_and_silage_alfalfa,822.0
+10,231,Australia,United States of America,2006,forage_and_silage_alfalfa,1296.0
+10,231,Australia,United States of America,2007,forage_and_silage_alfalfa,319.0
+10,231,Australia,United States of America,2008,forage_and_silage_alfalfa,792.0
+10,231,Australia,United States of America,2009,forage_and_silage_alfalfa,295.0
+10,231,Australia,United States of America,2010,forage_and_silage_alfalfa,249.0
+10,231,Australia,United States of America,2011,forage_and_silage_alfalfa,227.0
+10,231,Australia,United States of America,2012,forage_and_silage_alfalfa,40.0
+10,231,Australia,United States of America,2013,forage_and_silage_alfalfa,440.0
+10,231,Australia,United States of America,2014,forage_and_silage_alfalfa,1049.22
+10,231,Australia,United States of America,2015,forage_and_silage_alfalfa,432.29
+10,231,Australia,United States of America,2016,forage_and_silage_alfalfa,852.7
+10,231,Australia,United States of America,2017,forage_and_silage_alfalfa,1909.92
+10,231,Australia,United States of America,2018,forage_and_silage_alfalfa,1055.47
+10,231,Australia,United States of America,2019,forage_and_silage_alfalfa,392.73
+10,231,Australia,United States of America,2020,forage_and_silage_alfalfa,36.02
+10,231,Australia,United States of America,2021,forage_and_silage_alfalfa,425.22
+10,231,Australia,United States of America,2022,forage_and_silage_alfalfa,22.0
+10,231,Australia,United States of America,2023,forage_and_silage_alfalfa,694.06
+10,234,Australia,Uruguay,2007,forage_and_silage_alfalfa,20.0
+10,234,Australia,Uruguay,2013,forage_and_silage_alfalfa,8.0
+10,234,Australia,Uruguay,2016,forage_and_silage_alfalfa,21.98
+10,234,Australia,Uruguay,2020,forage_and_silage_alfalfa,18.0
+10,155,Australia,Vanuatu,2000,forage_and_silage_alfalfa,32.0
+10,155,Australia,Vanuatu,2004,forage_and_silage_alfalfa,130.0
+10,155,Australia,Vanuatu,2006,forage_and_silage_alfalfa,120.0
+10,155,Australia,Vanuatu,2007,forage_and_silage_alfalfa,1.0
+10,155,Australia,Vanuatu,2008,forage_and_silage_alfalfa,500.0
+10,155,Australia,Vanuatu,2009,forage_and_silage_alfalfa,1.0
+10,155,Australia,Vanuatu,2010,forage_and_silage_alfalfa,2.0
+10,155,Australia,Vanuatu,2011,forage_and_silage_alfalfa,1.0
+10,155,Australia,Vanuatu,2012,forage_and_silage_alfalfa,1.0
+10,155,Australia,Vanuatu,2013,forage_and_silage_alfalfa,1.0
+10,236,Australia,Venezuela (Bolivarian Republic of),1986,forage_and_silage_alfalfa,3.0
+10,237,Australia,Viet Nam,2000,forage_and_silage_alfalfa,6080.0
+10,237,Australia,Viet Nam,2001,forage_and_silage_alfalfa,608.0
+10,237,Australia,Viet Nam,2002,forage_and_silage_alfalfa,1.0
+10,237,Australia,Viet Nam,2004,forage_and_silage_alfalfa,140.0
+10,237,Australia,Viet Nam,2006,forage_and_silage_alfalfa,40.0
+10,237,Australia,Viet Nam,2009,forage_and_silage_alfalfa,5.0
+10,237,Australia,Viet Nam,2010,forage_and_silage_alfalfa,12.0
+10,237,Australia,Viet Nam,2011,forage_and_silage_alfalfa,2517.0
+10,237,Australia,Viet Nam,2012,forage_and_silage_alfalfa,6734.0
+10,237,Australia,Viet Nam,2013,forage_and_silage_alfalfa,2898.0
+10,237,Australia,Viet Nam,2014,forage_and_silage_alfalfa,702.91
+10,237,Australia,Viet Nam,2015,forage_and_silage_alfalfa,4457.49
+10,237,Australia,Viet Nam,2016,forage_and_silage_alfalfa,3040.97
+10,237,Australia,Viet Nam,2017,forage_and_silage_alfalfa,5398.37
+10,237,Australia,Viet Nam,2018,forage_and_silage_alfalfa,5844.58
+10,237,Australia,Viet Nam,2019,forage_and_silage_alfalfa,6663.31
+10,237,Australia,Viet Nam,2020,forage_and_silage_alfalfa,1355.85
+10,237,Australia,Viet Nam,2021,forage_and_silage_alfalfa,31421.2
+10,237,Australia,Viet Nam,2022,forage_and_silage_alfalfa,68960.3
+10,237,Australia,Viet Nam,2023,forage_and_silage_alfalfa,185095.84
+231,100,United States of America,India,2001,forage_and_silage_alfalfa,85.0
+231,101,United States of America,Indonesia,1988,forage_and_silage_alfalfa,54.0
+231,106,United States of America,Italy,1988,forage_and_silage_alfalfa,13357.0
+231,109,United States of America,Jamaica,1999,forage_and_silage_alfalfa,15.0
+231,109,United States of America,Jamaica,2000,forage_and_silage_alfalfa,20.0
+231,110,United States of America,Japan,1986,forage_and_silage_alfalfa,542437.0
+231,110,United States of America,Japan,1987,forage_and_silage_alfalfa,510007.0
+231,110,United States of America,Japan,1988,forage_and_silage_alfalfa,632455.0
+231,110,United States of America,Japan,1989,forage_and_silage_alfalfa,494333.0
+231,110,United States of America,Japan,1990,forage_and_silage_alfalfa,506013.0
+231,110,United States of America,Japan,1991,forage_and_silage_alfalfa,159098.0
+231,110,United States of America,Japan,1992,forage_and_silage_alfalfa,117266.0
+231,110,United States of America,Japan,1993,forage_and_silage_alfalfa,109281.0
+231,110,United States of America,Japan,1994,forage_and_silage_alfalfa,57537.0
+231,110,United States of America,Japan,1995,forage_and_silage_alfalfa,35489.0
+231,110,United States of America,Japan,1996,forage_and_silage_alfalfa,19608.0
+231,110,United States of America,Japan,1997,forage_and_silage_alfalfa,25696.0
+231,110,United States of America,Japan,1998,forage_and_silage_alfalfa,17508.0
+231,110,United States of America,Japan,1999,forage_and_silage_alfalfa,19412.0
+231,110,United States of America,Japan,2000,forage_and_silage_alfalfa,6636.0
+231,110,United States of America,Japan,2001,forage_and_silage_alfalfa,1515.0
+231,110,United States of America,Japan,2002,forage_and_silage_alfalfa,226.0
+231,110,United States of America,Japan,2003,forage_and_silage_alfalfa,235.0
+231,110,United States of America,Japan,2005,forage_and_silage_alfalfa,110.0
+231,110,United States of America,Japan,2006,forage_and_silage_alfalfa,96.0
+231,110,United States of America,Japan,2007,forage_and_silage_alfalfa,74.0
+231,110,United States of America,Japan,2008,forage_and_silage_alfalfa,1506.0
+231,118,United States of America,Kuwait,2002,forage_and_silage_alfalfa,215.0
+231,131,United States of America,Malaysia,1988,forage_and_silage_alfalfa,645.0
+231,131,United States of America,Malaysia,2004,forage_and_silage_alfalfa,17.0
+231,138,United States of America,Mexico,1986,forage_and_silage_alfalfa,403.0
+231,138,United States of America,Mexico,1987,forage_and_silage_alfalfa,153.0
+231,138,United States of America,Mexico,1988,forage_and_silage_alfalfa,4253.0
+231,138,United States of America,Mexico,1989,forage_and_silage_alfalfa,10855.0
+231,138,United States of America,Mexico,1990,forage_and_silage_alfalfa,1478.0
+231,138,United States of America,Mexico,1991,forage_and_silage_alfalfa,79.0
+231,138,United States of America,Mexico,1992,forage_and_silage_alfalfa,1646.0
+231,138,United States of America,Mexico,1993,forage_and_silage_alfalfa,363.0
+231,138,United States of America,Mexico,1994,forage_and_silage_alfalfa,163.0
+231,138,United States of America,Mexico,1995,forage_and_silage_alfalfa,90.0
+231,138,United States of America,Mexico,1997,forage_and_silage_alfalfa,263.0
+231,138,United States of America,Mexico,1998,forage_and_silage_alfalfa,779.0
+231,138,United States of America,Mexico,1999,forage_and_silage_alfalfa,1608.0
+231,138,United States of America,Mexico,2000,forage_and_silage_alfalfa,689.0
+231,138,United States of America,Mexico,2001,forage_and_silage_alfalfa,64.0
+231,138,United States of America,Mexico,2003,forage_and_silage_alfalfa,338.0
+231,138,United States of America,Mexico,2004,forage_and_silage_alfalfa,543.0
+231,138,United States of America,Mexico,2005,forage_and_silage_alfalfa,203.0
+231,138,United States of America,Mexico,2006,forage_and_silage_alfalfa,472.0
+231,138,United States of America,Mexico,2007,forage_and_silage_alfalfa,178.0
+231,138,United States of America,Mexico,2008,forage_and_silage_alfalfa,23.0
+231,138,United States of America,Mexico,2009,forage_and_silage_alfalfa,322.0
+231,138,United States of America,Mexico,2010,forage_and_silage_alfalfa,120.0
+231,150,United States of America,Netherlands (Kingdom of the),1988,forage_and_silage_alfalfa,23.0
+231,153,United States of America,New Caledonia,1992,forage_and_silage_alfalfa,18.0
+231,156,United States of America,New Zealand,1988,forage_and_silage_alfalfa,421.0
+231,156,United States of America,New Zealand,1997,forage_and_silage_alfalfa,14.0
+231,166,United States of America,Panama,1986,forage_and_silage_alfalfa,547.0
+231,166,United States of America,Panama,1987,forage_and_silage_alfalfa,24.0
+231,166,United States of America,Panama,1990,forage_and_silage_alfalfa,107.0
+231,166,United States of America,Panama,2000,forage_and_silage_alfalfa,20.0
+231,171,United States of America,Philippines,1986,forage_and_silage_alfalfa,256.0
+231,171,United States of America,Philippines,1992,forage_and_silage_alfalfa,302.0
+231,171,United States of America,Philippines,2000,forage_and_silage_alfalfa,51.0
+231,117,United States of America,Republic of Korea,1987,forage_and_silage_alfalfa,5478.0
+231,117,United States of America,Republic of Korea,1988,forage_and_silage_alfalfa,1088.0
+231,117,United States of America,Republic of Korea,1989,forage_and_silage_alfalfa,5406.0
+231,117,United States of America,Republic of Korea,1990,forage_and_silage_alfalfa,3152.0
+231,117,United States of America,Republic of Korea,1991,forage_and_silage_alfalfa,1367.0
+231,117,United States of America,Republic of Korea,1992,forage_and_silage_alfalfa,4221.0
+231,117,United States of America,Republic of Korea,1993,forage_and_silage_alfalfa,2667.0
+231,117,United States of America,Republic of Korea,1995,forage_and_silage_alfalfa,534.0
+231,117,United States of America,Republic of Korea,1996,forage_and_silage_alfalfa,1710.0
+231,117,United States of America,Republic of Korea,1997,forage_and_silage_alfalfa,764.0
+231,117,United States of America,Republic of Korea,1999,forage_and_silage_alfalfa,1531.0
+231,117,United States of America,Republic of Korea,2000,forage_and_silage_alfalfa,12885.0
+231,117,United States of America,Republic of Korea,2001,forage_and_silage_alfalfa,1157.0
+231,117,United States of America,Republic of Korea,2002,forage_and_silage_alfalfa,154.0
+231,117,United States of America,Republic of Korea,2003,forage_and_silage_alfalfa,112.0
+231,117,United States of America,Republic of Korea,2005,forage_and_silage_alfalfa,113.0
+231,117,United States of America,Republic of Korea,2008,forage_and_silage_alfalfa,512.0
+231,117,United States of America,Republic of Korea,2009,forage_and_silage_alfalfa,110.0
+231,117,United States of America,Republic of Korea,2010,forage_and_silage_alfalfa,429.0
+231,117,United States of America,Republic of Korea,2011,forage_and_silage_alfalfa,162.0
+231,188,United States of America,Saint Kitts and Nevis,1988,forage_and_silage_alfalfa,8.0
+231,189,United States of America,Saint Lucia,1988,forage_and_silage_alfalfa,43.0
+231,189,United States of America,Saint Lucia,1989,forage_and_silage_alfalfa,12.0
+231,189,United States of America,Saint Lucia,1990,forage_and_silage_alfalfa,28.0
+231,191,United States of America,Saint Vincent and the Grenadines,2011,forage_and_silage_alfalfa,88.0
+231,194,United States of America,Saudi Arabia,1987,forage_and_silage_alfalfa,12.0
+231,194,United States of America,Saudi Arabia,1988,forage_and_silage_alfalfa,338.0
+231,194,United States of America,Saudi Arabia,1989,forage_and_silage_alfalfa,44.0
+231,194,United States of America,Saudi Arabia,1990,forage_and_silage_alfalfa,30.0
+231,194,United States of America,Saudi Arabia,2007,forage_and_silage_alfalfa,482.0
+231,194,United States of America,Saudi Arabia,2010,forage_and_silage_alfalfa,1868.0
+231,200,United States of America,Singapore,1986,forage_and_silage_alfalfa,6.0
+231,200,United States of America,Singapore,1990,forage_and_silage_alfalfa,20.0
+231,203,United States of America,Spain,1986,forage_and_silage_alfalfa,10465.0
+231,210,United States of America,Sweden,1999,forage_and_silage_alfalfa,225.0
+231,216,United States of America,Thailand,2000,forage_and_silage_alfalfa,21.0
+231,216,United States of America,Thailand,2003,forage_and_silage_alfalfa,69.0
+231,220,United States of America,Trinidad and Tobago,1986,forage_and_silage_alfalfa,11.0
+231,220,United States of America,Trinidad and Tobago,1987,forage_and_silage_alfalfa,63.0
+231,220,United States of America,Trinidad and Tobago,1988,forage_and_silage_alfalfa,99.0
+231,225,United States of America,United Arab Emirates,1986,forage_and_silage_alfalfa,59.0
+231,225,United States of America,United Arab Emirates,2000,forage_and_silage_alfalfa,21.0
+231,225,United States of America,United Arab Emirates,2001,forage_and_silage_alfalfa,18.0
+231,225,United States of America,United Arab Emirates,2010,forage_and_silage_alfalfa,255.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1986,forage_and_silage_alfalfa,10.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1990,forage_and_silage_alfalfa,995.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1991,forage_and_silage_alfalfa,58.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1999,forage_and_silage_alfalfa,72.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2000,forage_and_silage_alfalfa,21.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2004,forage_and_silage_alfalfa,30.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1986,forage_and_silage_alfalfa,227.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1990,forage_and_silage_alfalfa,300.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1992,forage_and_silage_alfalfa,34.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1993,forage_and_silage_alfalfa,16.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2000,forage_and_silage_alfalfa,242.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2008,forage_and_silage_alfalfa,71.0
+231,237,United States of America,Viet Nam,2003,forage_and_silage_alfalfa,44.0
+231,237,United States of America,Viet Nam,2004,forage_and_silage_alfalfa,43.0

@@ -1,0 +1,3 @@
+[console_scripts]
+netviz_tools=netviz_tools.__main__:main
+

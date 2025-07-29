@@ -1,0 +1,441 @@
+o_code,d_code,o_name,d_name,year,item,weight
+143,3,Morocco,Albania,2023,peppermint_spearmint,9.1
+28,10,Myanmar,Australia,2020,peppermint_spearmint,23.0
+143,4,Morocco,Algeria,2018,peppermint_spearmint,37.41
+143,4,Morocco,Algeria,2019,peppermint_spearmint,23.57
+143,4,Morocco,Algeria,2020,peppermint_spearmint,7.2
+143,4,Morocco,Algeria,2021,peppermint_spearmint,55.14
+143,4,Morocco,Algeria,2022,peppermint_spearmint,154.38
+143,4,Morocco,Algeria,2023,peppermint_spearmint,39.02
+28,16,Myanmar,Bangladesh,2016,peppermint_spearmint,194.0
+28,16,Myanmar,Bangladesh,2017,peppermint_spearmint,56.5
+28,16,Myanmar,Bangladesh,2018,peppermint_spearmint,249.09
+28,16,Myanmar,Bangladesh,2019,peppermint_spearmint,57.0
+28,16,Myanmar,Bangladesh,2020,peppermint_spearmint,102.97
+28,16,Myanmar,Bangladesh,2021,peppermint_spearmint,73.0
+28,16,Myanmar,Bangladesh,2022,peppermint_spearmint,409.8
+28,16,Myanmar,Bangladesh,2023,peppermint_spearmint,48.0
+154,3,North Macedonia,Albania,1999,peppermint_spearmint,32.0
+154,3,North Macedonia,Albania,2000,peppermint_spearmint,27.0
+154,3,North Macedonia,Albania,2001,peppermint_spearmint,17.0
+28,96,Myanmar,"China, Hong Kong SAR",2022,peppermint_spearmint,7.92
+7,49,Angola,Cuba,2021,peppermint_spearmint,0.06
+59,10,Egypt,Australia,1986,peppermint_spearmint,1.0
+59,10,Egypt,Australia,1988,peppermint_spearmint,6.0
+59,10,Egypt,Australia,1989,peppermint_spearmint,17.0
+59,10,Egypt,Australia,1991,peppermint_spearmint,17.0
+59,10,Egypt,Australia,1992,peppermint_spearmint,17.0
+59,10,Egypt,Australia,1993,peppermint_spearmint,27.0
+7,250,Angola,Democratic Republic of the Congo,2020,peppermint_spearmint,0.01
+7,250,Angola,Democratic Republic of the Congo,2021,peppermint_spearmint,0.1
+7,250,Angola,Democratic Republic of the Congo,2022,peppermint_spearmint,0.3
+154,10,North Macedonia,Australia,1999,peppermint_spearmint,1.0
+154,10,North Macedonia,Australia,2001,peppermint_spearmint,21.0
+28,41,Myanmar,"China, mainland",2016,peppermint_spearmint,6405.84
+28,41,Myanmar,"China, mainland",2017,peppermint_spearmint,8404.42
+28,41,Myanmar,"China, mainland",2018,peppermint_spearmint,7282.22
+28,41,Myanmar,"China, mainland",2019,peppermint_spearmint,19371.3
+28,41,Myanmar,"China, mainland",2020,peppermint_spearmint,25546.15
+28,41,Myanmar,"China, mainland",2021,peppermint_spearmint,11033.17
+28,41,Myanmar,"China, mainland",2022,peppermint_spearmint,27778.74
+28,41,Myanmar,"China, mainland",2023,peppermint_spearmint,20802.94
+191,33,Saint Vincent and the Grenadines,Canada,2015,peppermint_spearmint,0.01
+7,68,Angola,France,2020,peppermint_spearmint,0.02
+7,68,Angola,France,2021,peppermint_spearmint,0.01
+7,68,Angola,France,2022,peppermint_spearmint,0.08
+28,214,Myanmar,"China, Taiwan Province of",2017,peppermint_spearmint,0.83
+28,214,Myanmar,"China, Taiwan Province of",2019,peppermint_spearmint,2.1
+28,214,Myanmar,"China, Taiwan Province of",2020,peppermint_spearmint,4.86
+28,214,Myanmar,"China, Taiwan Province of",2022,peppermint_spearmint,35.75
+7,79,Angola,Germany,2022,peppermint_spearmint,0.01
+59,11,Egypt,Austria,1990,peppermint_spearmint,2.0
+59,11,Egypt,Austria,1992,peppermint_spearmint,4.0
+7,99,Angola,Iceland,2021,peppermint_spearmint,0.01
+28,116,Myanmar,Democratic People's Republic of Korea,2016,peppermint_spearmint,6.99
+154,11,North Macedonia,Austria,1999,peppermint_spearmint,3.0
+154,11,North Macedonia,Austria,2000,peppermint_spearmint,10.0
+154,11,North Macedonia,Austria,2001,peppermint_spearmint,3.0
+143,255,Morocco,Belgium,2021,peppermint_spearmint,0.7
+28,79,Myanmar,Germany,2018,peppermint_spearmint,0.47
+154,52,North Macedonia,Azerbaijan,1999,peppermint_spearmint,1.0
+28,100,Myanmar,India,2016,peppermint_spearmint,73.0
+28,100,Myanmar,India,2017,peppermint_spearmint,71.0
+28,100,Myanmar,India,2018,peppermint_spearmint,25.54
+28,100,Myanmar,India,2019,peppermint_spearmint,313.75
+28,100,Myanmar,India,2020,peppermint_spearmint,764.44
+28,100,Myanmar,India,2021,peppermint_spearmint,392.04
+28,100,Myanmar,India,2022,peppermint_spearmint,341.27
+28,100,Myanmar,India,2023,peppermint_spearmint,311.1
+154,255,North Macedonia,Belgium,2001,peppermint_spearmint,7.0
+7,147,Angola,Namibia,2019,peppermint_spearmint,0.19
+143,53,Morocco,Benin,2019,peppermint_spearmint,17.7
+143,21,Morocco,Brazil,2019,peppermint_spearmint,25.84
+143,21,Morocco,Brazil,2021,peppermint_spearmint,36.0
+28,110,Myanmar,Japan,2016,peppermint_spearmint,14.0
+28,110,Myanmar,Japan,2017,peppermint_spearmint,2.15
+28,110,Myanmar,Japan,2018,peppermint_spearmint,0.01
+28,110,Myanmar,Japan,2019,peppermint_spearmint,0.73
+28,110,Myanmar,Japan,2020,peppermint_spearmint,1.3
+28,110,Myanmar,Japan,2021,peppermint_spearmint,8.12
+28,110,Myanmar,Japan,2022,peppermint_spearmint,49.94
+28,110,Myanmar,Japan,2023,peppermint_spearmint,3.96
+154,80,North Macedonia,Bosnia and Herzegovina,1999,peppermint_spearmint,13.0
+154,80,North Macedonia,Bosnia and Herzegovina,2000,peppermint_spearmint,9.0
+154,80,North Macedonia,Bosnia and Herzegovina,2001,peppermint_spearmint,3.0
+28,112,Myanmar,Jordan,2018,peppermint_spearmint,3.5
+59,15,Egypt,Belgium-Luxembourg,1987,peppermint_spearmint,8.0
+59,15,Egypt,Belgium-Luxembourg,1988,peppermint_spearmint,2.0
+59,15,Egypt,Belgium-Luxembourg,1989,peppermint_spearmint,11.0
+59,15,Egypt,Belgium-Luxembourg,1990,peppermint_spearmint,4.0
+59,15,Egypt,Belgium-Luxembourg,1991,peppermint_spearmint,12.0
+59,15,Egypt,Belgium-Luxembourg,1992,peppermint_spearmint,4.0
+28,121,Myanmar,Lebanon,2020,peppermint_spearmint,1.01
+7,174,Angola,Portugal,2019,peppermint_spearmint,0.13
+7,174,Angola,Portugal,2020,peppermint_spearmint,0.08
+7,174,Angola,Portugal,2021,peppermint_spearmint,0.51
+28,131,Myanmar,Malaysia,2017,peppermint_spearmint,11.02
+28,131,Myanmar,Malaysia,2018,peppermint_spearmint,2.7
+28,131,Myanmar,Malaysia,2020,peppermint_spearmint,43.81
+28,131,Myanmar,Malaysia,2021,peppermint_spearmint,24.7
+28,131,Myanmar,Malaysia,2022,peppermint_spearmint,3.79
+28,131,Myanmar,Malaysia,2023,peppermint_spearmint,10.53
+7,202,Angola,South Africa,2019,peppermint_spearmint,0.03
+28,150,Myanmar,Netherlands (Kingdom of the),2017,peppermint_spearmint,15.4
+7,203,Angola,Spain,2021,peppermint_spearmint,0.03
+28,156,Myanmar,New Zealand,2020,peppermint_spearmint,5.0
+59,27,Egypt,Bulgaria,1993,peppermint_spearmint,11.0
+28,165,Myanmar,Pakistan,2016,peppermint_spearmint,221.42
+28,165,Myanmar,Pakistan,2017,peppermint_spearmint,76.72
+28,165,Myanmar,Pakistan,2018,peppermint_spearmint,168.51
+28,165,Myanmar,Pakistan,2019,peppermint_spearmint,278.0
+28,165,Myanmar,Pakistan,2020,peppermint_spearmint,272.9
+28,165,Myanmar,Pakistan,2021,peppermint_spearmint,190.69
+28,165,Myanmar,Pakistan,2022,peppermint_spearmint,154.4
+28,165,Myanmar,Pakistan,2023,peppermint_spearmint,17.0
+143,33,Morocco,Canada,2020,peppermint_spearmint,0.04
+154,27,North Macedonia,Bulgaria,2000,peppermint_spearmint,19.0
+154,27,North Macedonia,Bulgaria,2001,peppermint_spearmint,24.0
+28,117,Myanmar,Republic of Korea,2016,peppermint_spearmint,92.49
+28,117,Myanmar,Republic of Korea,2017,peppermint_spearmint,164.05
+28,117,Myanmar,Republic of Korea,2018,peppermint_spearmint,468.2
+28,117,Myanmar,Republic of Korea,2019,peppermint_spearmint,3435.22
+28,117,Myanmar,Republic of Korea,2020,peppermint_spearmint,2542.47
+28,117,Myanmar,Republic of Korea,2021,peppermint_spearmint,3387.39
+28,117,Myanmar,Republic of Korea,2022,peppermint_spearmint,244.47
+28,117,Myanmar,Republic of Korea,2023,peppermint_spearmint,191.35
+7,231,Angola,United States of America,2022,peppermint_spearmint,13.47
+143,39,Morocco,Chad,2018,peppermint_spearmint,20.61
+143,39,Morocco,Chad,2019,peppermint_spearmint,39.04
+143,39,Morocco,Chad,2020,peppermint_spearmint,36.27
+143,39,Morocco,Chad,2021,peppermint_spearmint,59.61
+143,39,Morocco,Chad,2022,peppermint_spearmint,134.04
+143,39,Morocco,Chad,2023,peppermint_spearmint,205.41
+59,33,Egypt,Canada,1986,peppermint_spearmint,9.0
+59,33,Egypt,Canada,1987,peppermint_spearmint,7.0
+59,33,Egypt,Canada,1988,peppermint_spearmint,7.0
+59,33,Egypt,Canada,1989,peppermint_spearmint,9.0
+59,33,Egypt,Canada,1990,peppermint_spearmint,22.0
+59,33,Egypt,Canada,1991,peppermint_spearmint,1.0
+59,33,Egypt,Canada,1992,peppermint_spearmint,12.0
+59,33,Egypt,Canada,1993,peppermint_spearmint,52.0
+28,200,Myanmar,Singapore,2016,peppermint_spearmint,46.0
+28,200,Myanmar,Singapore,2018,peppermint_spearmint,31.71
+28,200,Myanmar,Singapore,2019,peppermint_spearmint,78.12
+28,200,Myanmar,Singapore,2020,peppermint_spearmint,38.66
+28,200,Myanmar,Singapore,2021,peppermint_spearmint,10.7
+28,200,Myanmar,Singapore,2022,peppermint_spearmint,175.58
+28,200,Myanmar,Singapore,2023,peppermint_spearmint,75.28
+143,41,Morocco,"China, mainland",2020,peppermint_spearmint,2.23
+143,41,Morocco,"China, mainland",2022,peppermint_spearmint,1.01
+28,38,Myanmar,Sri Lanka,2016,peppermint_spearmint,8.0
+28,38,Myanmar,Sri Lanka,2017,peppermint_spearmint,5.0
+28,38,Myanmar,Sri Lanka,2018,peppermint_spearmint,15.58
+28,38,Myanmar,Sri Lanka,2019,peppermint_spearmint,4.19
+28,38,Myanmar,Sri Lanka,2020,peppermint_spearmint,10.65
+28,38,Myanmar,Sri Lanka,2021,peppermint_spearmint,8.0
+28,38,Myanmar,Sri Lanka,2022,peppermint_spearmint,4.0
+28,38,Myanmar,Sri Lanka,2023,peppermint_spearmint,10.94
+191,220,Saint Vincent and the Grenadines,Trinidad and Tobago,2017,peppermint_spearmint,0.01
+28,216,Myanmar,Thailand,2016,peppermint_spearmint,389.4
+28,216,Myanmar,Thailand,2017,peppermint_spearmint,159.03
+28,216,Myanmar,Thailand,2018,peppermint_spearmint,188.28
+28,216,Myanmar,Thailand,2019,peppermint_spearmint,205.45
+28,216,Myanmar,Thailand,2020,peppermint_spearmint,807.88
+28,216,Myanmar,Thailand,2021,peppermint_spearmint,1232.06
+28,216,Myanmar,Thailand,2022,peppermint_spearmint,2894.09
+28,216,Myanmar,Thailand,2023,peppermint_spearmint,430.78
+21,10,Brazil,Australia,1987,peppermint_spearmint,1.0
+9,21,Argentina,Brazil,1989,peppermint_spearmint,15.0
+9,21,Argentina,Brazil,1990,peppermint_spearmint,15.0
+191,229,Saint Vincent and the Grenadines,United Kingdom of Great Britain and Northern Ireland,2016,peppermint_spearmint,0.01
+191,229,Saint Vincent and the Grenadines,United Kingdom of Great Britain and Northern Ireland,2017,peppermint_spearmint,0.16
+191,229,Saint Vincent and the Grenadines,United Kingdom of Great Britain and Northern Ireland,2020,peppermint_spearmint,0.01
+28,225,Myanmar,United Arab Emirates,2021,peppermint_spearmint,36.02
+28,229,Myanmar,United Kingdom of Great Britain and Northern Ireland,2020,peppermint_spearmint,2.84
+154,98,North Macedonia,Croatia,1999,peppermint_spearmint,121.0
+154,98,North Macedonia,Croatia,2000,peppermint_spearmint,71.0
+154,98,North Macedonia,Croatia,2001,peppermint_spearmint,49.0
+28,231,Myanmar,United States of America,2018,peppermint_spearmint,1.85
+28,231,Myanmar,United States of America,2019,peppermint_spearmint,1.77
+28,231,Myanmar,United States of America,2020,peppermint_spearmint,1.12
+28,231,Myanmar,United States of America,2022,peppermint_spearmint,0.1
+59,50,Egypt,Cyprus,1986,peppermint_spearmint,30.0
+59,50,Egypt,Cyprus,1987,peppermint_spearmint,25.0
+59,50,Egypt,Cyprus,1988,peppermint_spearmint,6.0
+59,50,Egypt,Cyprus,1989,peppermint_spearmint,1.0
+59,50,Egypt,Cyprus,1990,peppermint_spearmint,6.0
+59,50,Egypt,Cyprus,1991,peppermint_spearmint,8.0
+59,50,Egypt,Cyprus,1992,peppermint_spearmint,6.0
+59,50,Egypt,Cyprus,1993,peppermint_spearmint,6.0
+57,79,Belarus,Germany,1998,peppermint_spearmint,59.0
+57,79,Belarus,Germany,1999,peppermint_spearmint,1.0
+28,237,Myanmar,Viet Nam,2021,peppermint_spearmint,437.79
+28,237,Myanmar,Viet Nam,2022,peppermint_spearmint,238.04
+28,237,Myanmar,Viet Nam,2023,peppermint_spearmint,259.11
+28,249,Myanmar,Yemen,2019,peppermint_spearmint,3.0
+28,249,Myanmar,Yemen,2020,peppermint_spearmint,6.0
+154,50,North Macedonia,Cyprus,1999,peppermint_spearmint,7.0
+154,50,North Macedonia,Cyprus,2000,peppermint_spearmint,1.0
+154,50,North Macedonia,Cyprus,2001,peppermint_spearmint,26.0
+191,231,Saint Vincent and the Grenadines,United States of America,2016,peppermint_spearmint,0.01
+191,231,Saint Vincent and the Grenadines,United States of America,2017,peppermint_spearmint,0.07
+191,231,Saint Vincent and the Grenadines,United States of America,2018,peppermint_spearmint,0.03
+191,231,Saint Vincent and the Grenadines,United States of America,2019,peppermint_spearmint,0.01
+191,231,Saint Vincent and the Grenadines,United States of America,2020,peppermint_spearmint,0.08
+191,231,Saint Vincent and the Grenadines,United States of America,2021,peppermint_spearmint,0.34
+59,54,Egypt,Denmark,1986,peppermint_spearmint,9.0
+59,54,Egypt,Denmark,1987,peppermint_spearmint,8.0
+59,54,Egypt,Denmark,1988,peppermint_spearmint,5.0
+59,54,Egypt,Denmark,1989,peppermint_spearmint,4.0
+59,54,Egypt,Denmark,1990,peppermint_spearmint,10.0
+59,54,Egypt,Denmark,1991,peppermint_spearmint,4.0
+59,54,Egypt,Denmark,1992,peppermint_spearmint,2.0
+59,54,Egypt,Denmark,1993,peppermint_spearmint,3.0
+154,68,North Macedonia,France,1999,peppermint_spearmint,492.0
+154,68,North Macedonia,France,2000,peppermint_spearmint,771.0
+154,68,North Macedonia,France,2001,peppermint_spearmint,480.0
+117,33,Republic of Korea,Canada,2004,peppermint_spearmint,1.0
+59,68,Egypt,France,1986,peppermint_spearmint,127.0
+59,68,Egypt,France,1987,peppermint_spearmint,179.0
+59,68,Egypt,France,1988,peppermint_spearmint,83.0
+59,68,Egypt,France,1989,peppermint_spearmint,128.0
+59,68,Egypt,France,1990,peppermint_spearmint,32.0
+59,68,Egypt,France,1991,peppermint_spearmint,60.0
+59,68,Egypt,France,1992,peppermint_spearmint,70.0
+59,68,Egypt,France,1993,peppermint_spearmint,116.0
+154,79,North Macedonia,Germany,1999,peppermint_spearmint,161.0
+154,79,North Macedonia,Germany,2000,peppermint_spearmint,346.0
+154,79,North Macedonia,Germany,2001,peppermint_spearmint,222.0
+59,79,Egypt,Germany,1993,peppermint_spearmint,117.0
+143,68,Morocco,France,2019,peppermint_spearmint,49.66
+143,68,Morocco,France,2020,peppermint_spearmint,42.35
+143,68,Morocco,France,2021,peppermint_spearmint,38.81
+143,68,Morocco,France,2022,peppermint_spearmint,29.09
+143,68,Morocco,France,2023,peppermint_spearmint,30.62
+117,96,Republic of Korea,"China, Hong Kong SAR",2000,peppermint_spearmint,2.0
+154,84,North Macedonia,Greece,1999,peppermint_spearmint,13.0
+57,119,Belarus,Latvia,2001,peppermint_spearmint,17.0
+59,84,Egypt,Greece,1986,peppermint_spearmint,21.0
+59,84,Egypt,Greece,1987,peppermint_spearmint,28.0
+59,84,Egypt,Greece,1988,peppermint_spearmint,12.0
+59,84,Egypt,Greece,1989,peppermint_spearmint,10.0
+59,84,Egypt,Greece,1990,peppermint_spearmint,43.0
+59,84,Egypt,Greece,1991,peppermint_spearmint,15.0
+59,84,Egypt,Greece,1992,peppermint_spearmint,24.0
+59,84,Egypt,Greece,1993,peppermint_spearmint,34.0
+59,97,Egypt,Hungary,1991,peppermint_spearmint,12.0
+59,97,Egypt,Hungary,1992,peppermint_spearmint,15.0
+59,97,Egypt,Hungary,1993,peppermint_spearmint,5.0
+57,126,Belarus,Lithuania,1998,peppermint_spearmint,2.0
+143,79,Morocco,Germany,2019,peppermint_spearmint,26.05
+143,79,Morocco,Germany,2020,peppermint_spearmint,28.63
+143,79,Morocco,Germany,2021,peppermint_spearmint,45.65
+143,79,Morocco,Germany,2022,peppermint_spearmint,17.75
+143,79,Morocco,Germany,2023,peppermint_spearmint,40.93
+126,63,Lithuania,Estonia,1996,peppermint_spearmint,2.0
+57,154,Belarus,North Macedonia,1998,peppermint_spearmint,4.0
+154,106,North Macedonia,Italy,1999,peppermint_spearmint,29.0
+154,106,North Macedonia,Italy,2000,peppermint_spearmint,22.0
+154,106,North Macedonia,Italy,2001,peppermint_spearmint,56.0
+117,41,Republic of Korea,"China, mainland",2000,peppermint_spearmint,1.0
+117,41,Republic of Korea,"China, mainland",2001,peppermint_spearmint,6.0
+117,41,Republic of Korea,"China, mainland",2002,peppermint_spearmint,5.0
+117,41,Republic of Korea,"China, mainland",2003,peppermint_spearmint,3.0
+117,41,Republic of Korea,"China, mainland",2006,peppermint_spearmint,1.0
+59,105,Egypt,Israel,1987,peppermint_spearmint,2.0
+59,105,Egypt,Israel,1992,peppermint_spearmint,2.0
+154,112,North Macedonia,Jordan,1999,peppermint_spearmint,4.0
+154,108,North Macedonia,Kazakhstan,1999,peppermint_spearmint,3.0
+154,119,North Macedonia,Latvia,2000,peppermint_spearmint,1.0
+154,119,North Macedonia,Latvia,2001,peppermint_spearmint,3.0
+143,100,Morocco,India,2018,peppermint_spearmint,15.53
+143,100,Morocco,India,2019,peppermint_spearmint,48.98
+143,100,Morocco,India,2020,peppermint_spearmint,53.16
+143,100,Morocco,India,2021,peppermint_spearmint,80.84
+143,100,Morocco,India,2022,peppermint_spearmint,21.57
+143,100,Morocco,India,2023,peppermint_spearmint,38.04
+59,106,Egypt,Italy,1986,peppermint_spearmint,22.0
+59,106,Egypt,Italy,1987,peppermint_spearmint,37.0
+59,106,Egypt,Italy,1988,peppermint_spearmint,14.0
+59,106,Egypt,Italy,1989,peppermint_spearmint,5.0
+59,106,Egypt,Italy,1990,peppermint_spearmint,3.0
+59,106,Egypt,Italy,1991,peppermint_spearmint,13.0
+59,106,Egypt,Italy,1992,peppermint_spearmint,9.0
+59,106,Egypt,Italy,1993,peppermint_spearmint,18.0
+57,173,Belarus,Poland,1998,peppermint_spearmint,1.0
+57,173,Belarus,Poland,1999,peppermint_spearmint,2.0
+154,143,North Macedonia,Morocco,2001,peppermint_spearmint,52.0
+59,110,Egypt,Japan,1986,peppermint_spearmint,1.0
+59,110,Egypt,Japan,1988,peppermint_spearmint,2.0
+154,150,North Macedonia,Netherlands (Kingdom of the),2001,peppermint_spearmint,1.0
+143,106,Morocco,Italy,2019,peppermint_spearmint,49.25
+143,106,Morocco,Italy,2020,peppermint_spearmint,38.14
+143,106,Morocco,Italy,2021,peppermint_spearmint,38.02
+143,106,Morocco,Italy,2022,peppermint_spearmint,47.45
+143,106,Morocco,Italy,2023,peppermint_spearmint,17.93
+143,110,Morocco,Japan,2018,peppermint_spearmint,0.08
+143,110,Morocco,Japan,2019,peppermint_spearmint,0.1
+143,110,Morocco,Japan,2022,peppermint_spearmint,0.15
+143,110,Morocco,Japan,2023,peppermint_spearmint,0.3
+154,173,North Macedonia,Poland,1999,peppermint_spearmint,28.0
+154,173,North Macedonia,Poland,2000,peppermint_spearmint,14.0
+59,118,Egypt,Kuwait,1988,peppermint_spearmint,1.0
+59,118,Egypt,Kuwait,1990,peppermint_spearmint,2.0
+59,118,Egypt,Kuwait,1992,peppermint_spearmint,5.0
+59,118,Egypt,Kuwait,1993,peppermint_spearmint,2.0
+143,124,Morocco,Libya,2018,peppermint_spearmint,109.44
+143,124,Morocco,Libya,2019,peppermint_spearmint,121.91
+143,124,Morocco,Libya,2020,peppermint_spearmint,128.67
+143,124,Morocco,Libya,2021,peppermint_spearmint,199.0
+143,124,Morocco,Libya,2022,peppermint_spearmint,160.49
+143,124,Morocco,Libya,2023,peppermint_spearmint,94.95
+154,185,North Macedonia,Russian Federation,1999,peppermint_spearmint,21.0
+154,185,North Macedonia,Russian Federation,2000,peppermint_spearmint,62.0
+154,185,North Macedonia,Russian Federation,2001,peppermint_spearmint,41.0
+9,68,Argentina,France,1986,peppermint_spearmint,1.0
+57,185,Belarus,Russian Federation,1998,peppermint_spearmint,109.0
+57,185,Belarus,Russian Federation,1999,peppermint_spearmint,72.0
+59,121,Egypt,Lebanon,1986,peppermint_spearmint,2.0
+59,121,Egypt,Lebanon,1992,peppermint_spearmint,5.0
+59,121,Egypt,Lebanon,1993,peppermint_spearmint,4.0
+143,133,Morocco,Mali,2018,peppermint_spearmint,23.1
+143,133,Morocco,Mali,2019,peppermint_spearmint,46.23
+143,133,Morocco,Mali,2021,peppermint_spearmint,189.42
+143,133,Morocco,Mali,2022,peppermint_spearmint,182.66
+143,133,Morocco,Mali,2023,peppermint_spearmint,117.44
+59,124,Egypt,Libya,1990,peppermint_spearmint,1.0
+154,186,North Macedonia,Serbia and Montenegro,1999,peppermint_spearmint,85.0
+154,186,North Macedonia,Serbia and Montenegro,2000,peppermint_spearmint,161.0
+154,186,North Macedonia,Serbia and Montenegro,2001,peppermint_spearmint,126.0
+154,198,North Macedonia,Slovenia,1999,peppermint_spearmint,44.0
+154,198,North Macedonia,Slovenia,2000,peppermint_spearmint,94.0
+154,198,North Macedonia,Slovenia,2001,peppermint_spearmint,11.0
+59,143,Egypt,Morocco,1986,peppermint_spearmint,1.0
+59,143,Egypt,Morocco,1987,peppermint_spearmint,6.0
+57,208,Belarus,Tajikistan,2001,peppermint_spearmint,1.0
+143,158,Morocco,Niger,2022,peppermint_spearmint,28.13
+143,158,Morocco,Niger,2023,peppermint_spearmint,36.18
+143,159,Morocco,Nigeria,2018,peppermint_spearmint,72.22
+143,159,Morocco,Nigeria,2019,peppermint_spearmint,108.25
+143,159,Morocco,Nigeria,2020,peppermint_spearmint,78.75
+143,159,Morocco,Nigeria,2021,peppermint_spearmint,174.23
+143,159,Morocco,Nigeria,2022,peppermint_spearmint,74.55
+143,159,Morocco,Nigeria,2023,peppermint_spearmint,57.87
+154,203,North Macedonia,Spain,1999,peppermint_spearmint,11.0
+154,203,North Macedonia,Spain,2000,peppermint_spearmint,31.0
+154,203,North Macedonia,Spain,2001,peppermint_spearmint,34.0
+143,221,Morocco,Oman,2022,peppermint_spearmint,0.01
+143,165,Morocco,Pakistan,2019,peppermint_spearmint,79.09
+143,165,Morocco,Pakistan,2021,peppermint_spearmint,11.78
+59,150,Egypt,Netherlands (Kingdom of the),1986,peppermint_spearmint,8.0
+59,150,Egypt,Netherlands (Kingdom of the),1987,peppermint_spearmint,2.0
+59,150,Egypt,Netherlands (Kingdom of the),1988,peppermint_spearmint,8.0
+59,150,Egypt,Netherlands (Kingdom of the),1989,peppermint_spearmint,9.0
+59,150,Egypt,Netherlands (Kingdom of the),1990,peppermint_spearmint,15.0
+59,150,Egypt,Netherlands (Kingdom of the),1991,peppermint_spearmint,1.0
+59,150,Egypt,Netherlands (Kingdom of the),1992,peppermint_spearmint,18.0
+59,150,Egypt,Netherlands (Kingdom of the),1993,peppermint_spearmint,17.0
+154,211,North Macedonia,Switzerland,1999,peppermint_spearmint,54.0
+154,211,North Macedonia,Switzerland,2000,peppermint_spearmint,20.0
+154,211,North Macedonia,Switzerland,2001,peppermint_spearmint,22.0
+143,173,Morocco,Poland,2023,peppermint_spearmint,0.3
+59,156,Egypt,New Zealand,1993,peppermint_spearmint,3.0
+154,230,North Macedonia,Ukraine,2000,peppermint_spearmint,4.0
+154,230,North Macedonia,Ukraine,2001,peppermint_spearmint,11.0
+154,225,North Macedonia,United Arab Emirates,1999,peppermint_spearmint,1.0
+143,185,Morocco,Russian Federation,2023,peppermint_spearmint,0.4
+143,194,Morocco,Saudi Arabia,2018,peppermint_spearmint,7.74
+143,194,Morocco,Saudi Arabia,2019,peppermint_spearmint,12.15
+143,194,Morocco,Saudi Arabia,2020,peppermint_spearmint,28.38
+143,194,Morocco,Saudi Arabia,2021,peppermint_spearmint,39.69
+143,194,Morocco,Saudi Arabia,2022,peppermint_spearmint,0.52
+143,194,Morocco,Saudi Arabia,2023,peppermint_spearmint,8.1
+154,231,North Macedonia,United States of America,1999,peppermint_spearmint,1.0
+154,231,North Macedonia,United States of America,2000,peppermint_spearmint,1.0
+154,231,North Macedonia,United States of America,2001,peppermint_spearmint,1.0
+59,173,Egypt,Poland,1992,peppermint_spearmint,1.0
+126,108,Lithuania,Kazakhstan,1996,peppermint_spearmint,3.0
+143,203,Morocco,Spain,2018,peppermint_spearmint,103.68
+143,203,Morocco,Spain,2019,peppermint_spearmint,99.84
+143,203,Morocco,Spain,2020,peppermint_spearmint,93.89
+143,203,Morocco,Spain,2021,peppermint_spearmint,37.48
+143,203,Morocco,Spain,2022,peppermint_spearmint,81.5
+143,203,Morocco,Spain,2023,peppermint_spearmint,92.2
+59,194,Egypt,Saudi Arabia,1987,peppermint_spearmint,2.0
+59,194,Egypt,Saudi Arabia,1988,peppermint_spearmint,2.0
+59,194,Egypt,Saudi Arabia,1990,peppermint_spearmint,10.0
+143,276,Morocco,Sudan,2021,peppermint_spearmint,0.2
+59,198,Egypt,Slovenia,1993,peppermint_spearmint,8.0
+126,119,Lithuania,Latvia,1996,peppermint_spearmint,1.0
+59,203,Egypt,Spain,1986,peppermint_spearmint,16.0
+59,203,Egypt,Spain,1987,peppermint_spearmint,9.0
+59,203,Egypt,Spain,1988,peppermint_spearmint,11.0
+59,203,Egypt,Spain,1989,peppermint_spearmint,17.0
+59,203,Egypt,Spain,1990,peppermint_spearmint,25.0
+59,203,Egypt,Spain,1991,peppermint_spearmint,11.0
+59,203,Egypt,Spain,1992,peppermint_spearmint,43.0
+59,203,Egypt,Spain,1993,peppermint_spearmint,27.0
+143,222,Morocco,Tunisia,2018,peppermint_spearmint,165.87
+143,222,Morocco,Tunisia,2019,peppermint_spearmint,80.78
+143,222,Morocco,Tunisia,2020,peppermint_spearmint,88.62
+143,222,Morocco,Tunisia,2021,peppermint_spearmint,104.6
+143,222,Morocco,Tunisia,2022,peppermint_spearmint,27.09
+143,222,Morocco,Tunisia,2023,peppermint_spearmint,60.42
+143,225,Morocco,United Arab Emirates,2018,peppermint_spearmint,36.21
+143,225,Morocco,United Arab Emirates,2019,peppermint_spearmint,24.6
+143,225,Morocco,United Arab Emirates,2020,peppermint_spearmint,130.23
+143,225,Morocco,United Arab Emirates,2021,peppermint_spearmint,93.81
+143,225,Morocco,United Arab Emirates,2022,peppermint_spearmint,77.07
+143,225,Morocco,United Arab Emirates,2023,peppermint_spearmint,1.0
+59,211,Egypt,Switzerland,1986,peppermint_spearmint,10.0
+59,211,Egypt,Switzerland,1987,peppermint_spearmint,1.0
+59,211,Egypt,Switzerland,1988,peppermint_spearmint,2.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,2018,peppermint_spearmint,2.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,2019,peppermint_spearmint,2.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,2021,peppermint_spearmint,4.0
+143,231,Morocco,United States of America,2022,peppermint_spearmint,0.06
+143,237,Morocco,Viet Nam,2023,peppermint_spearmint,3.7
+59,225,Egypt,United Arab Emirates,1993,peppermint_spearmint,1.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1986,peppermint_spearmint,155.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1987,peppermint_spearmint,133.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1988,peppermint_spearmint,168.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1989,peppermint_spearmint,245.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1990,peppermint_spearmint,240.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1991,peppermint_spearmint,282.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1992,peppermint_spearmint,327.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1993,peppermint_spearmint,342.0
+126,173,Lithuania,Poland,1996,peppermint_spearmint,2.0
+59,231,Egypt,United States of America,1986,peppermint_spearmint,105.0
+59,231,Egypt,United States of America,1987,peppermint_spearmint,86.0
+59,231,Egypt,United States of America,1988,peppermint_spearmint,93.0
+59,231,Egypt,United States of America,1989,peppermint_spearmint,47.0
+59,231,Egypt,United States of America,1990,peppermint_spearmint,114.0
+59,231,Egypt,United States of America,1991,peppermint_spearmint,173.0
+59,231,Egypt,United States of America,1992,peppermint_spearmint,203.0
+59,234,Egypt,Uruguay,1992,peppermint_spearmint,3.0
+126,185,Lithuania,Russian Federation,1996,peppermint_spearmint,5.0
+9,234,Argentina,Uruguay,1986,peppermint_spearmint,1.0
+9,234,Argentina,Uruguay,1987,peppermint_spearmint,1.0
+9,234,Argentina,Uruguay,1988,peppermint_spearmint,2.0
+9,234,Argentina,Uruguay,1990,peppermint_spearmint,1.0
+126,230,Lithuania,Ukraine,1996,peppermint_spearmint,4.0
