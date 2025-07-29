@@ -1,0 +1,22 @@
+[ewoks.tasks.class]
+ewoksid16a.tasks.* = ewoksid16a
+
+[orange.canvas.help]
+html-index = orangecontrib.ewoksid16a:WIDGET_HELP_PATH
+
+[orange.widgets]
+Examples = orangecontrib.ewoksid16a
+ExamplesCategories = orangecontrib.ewoksid16a.categories
+
+[orange.widgets.tutorials]
+Examples = orangecontrib.ewoksid16a.tutorials
+Examples1 = orangecontrib.ewoksid16a.categories.examples1.tutorials
+Examples2 = orangecontrib.ewoksid16a.categories.examples2.tutorials
+
+[orange3.addon]
+ewoksid16a = orangecontrib.ewoksid16a
+
+[orangecanvas.examples]
+Examples = orangecontrib.ewoksid16a.tutorials
+Examples1 = orangecontrib.ewoksid16a.categories.examples1.tutorials
+Examples2 = orangecontrib.ewoksid16a.categories.examples2.tutorials
