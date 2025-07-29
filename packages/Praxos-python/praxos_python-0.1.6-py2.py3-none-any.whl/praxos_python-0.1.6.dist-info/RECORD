@@ -1,0 +1,16 @@
+praxos_python/__init__.py,sha256=tW95lIlHDLV_HIIrqlrkr0OaytyD6P5GzusdLk89X00,541
+praxos_python/client.py,sha256=XnnUhOBPgxzrAg46DRZCcu2TObunCA3r816znSLs6go,5328
+praxos_python/config.py,sha256=cvAcHWx-b0PmNcBaoFF6q3AJaNeBch3t2Qkb7bTYsyI,1188
+praxos_python/exceptions.py,sha256=v5B3ulWZn6LVgSwyUgxXvp_TMN5PSqi41-gTje-fV_8,853
+praxos_python/utils.py,sha256=NlLGEGCwPBKSpKEkfIyb1LB3E1yeM12DG1A2zSkX0z0,1151
+praxos_python/models/__init__.py,sha256=rHi6a2voGRoxq4Rll6NKqjfsWom6e7cxNdXobGivmPE,222
+praxos_python/models/context.py,sha256=ywaBUEmYsQsCGTzrSs2f7jhPoW6Qs7iuy0lfBAoHlUk,371
+praxos_python/models/environment.py,sha256=XpwyI0yMGJIa9o5_uFO5awvhylyBrEMxz0Q-7hJnztQ,5411
+praxos_python/models/ontology.py,sha256=FosD8MHtgVl1CPtm_iD8NfKzQ6oQQr6usu4x5Mm-hF8,719
+praxos_python/models/source.py,sha256=1gCJ-vBheYv_NQU3dPaFM2kOhdsUfp8zjX2frZntxEI,1222
+praxos_python/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+praxos_python/types/message.py,sha256=f9XZ8aXFlEKeYFeBIz-iKhFjkpNYxY8JTe0fUiN0918,1378
+praxos_python-0.1.6.dist-info/METADATA,sha256=F3XlT44_GpsDqNe2U6Wl5DoP539rK0uncREkCbfZ-d0,257
+praxos_python-0.1.6.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+praxos_python-0.1.6.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+praxos_python-0.1.6.dist-info/RECORD,,
