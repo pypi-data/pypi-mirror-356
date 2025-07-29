@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pytorch_gmm/__init__.py
+pytorch_gmm/gmm.py
+pytorch_gmm.egg-info/PKG-INFO
+pytorch_gmm.egg-info/SOURCES.txt
+pytorch_gmm.egg-info/dependency_links.txt
+pytorch_gmm.egg-info/requires.txt
+pytorch_gmm.egg-info/top_level.txt
