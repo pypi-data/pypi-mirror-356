@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+massphotometry/__init__.py
+massphotometry/metadata.py
+massphotometry/read.py
+massphotometry.egg-info/PKG-INFO
+massphotometry.egg-info/SOURCES.txt
+massphotometry.egg-info/dependency_links.txt
+massphotometry.egg-info/requires.txt
+massphotometry.egg-info/top_level.txt

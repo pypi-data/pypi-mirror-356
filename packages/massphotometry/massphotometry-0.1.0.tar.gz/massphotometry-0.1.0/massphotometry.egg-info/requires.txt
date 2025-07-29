@@ -1,0 +1,10 @@
+numpy
+h5py
+hdf5plugin
+
+[dev]
+pytest
+black
+flake8
+mypy
+pre-commit
