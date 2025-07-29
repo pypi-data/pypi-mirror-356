@@ -1,0 +1,17 @@
+txt2sql/data/dataloaders.py,sha256=J6EXbraMmh9MfidPLRVBfCJI8j3PfA0VY1koEEFKypo,26529
+txt2sql/data/datasets.py,sha256=e76e3p9DKDW5ZWngARNN90YG89aGwUw8yQUvDSUZ8J4,7503
+txt2sql/data/utils/download.py,sha256=rZddhG7YqkWJ8NubRTuJpxDqzqlWEjLZedJrG63VF2Y,8546
+txt2sql/data/utils/schema_to_text.py,sha256=1ttDkS5tg1d5xsp4_HMjIbspsFhBjMYGx4YCImaap1I,5187
+txt2sql/data/utils/sqlite_functions.py,sha256=TeBm61NnVJWEDcZsxUN14Ri06WXbc6QKIud0IyYBsxk,3015
+txt2sql/metrics/__init__.py,sha256=GExLNoVj5iIlVWysgzpJxQ16ohm5KmtS5y2-t3d5USA,298
+txt2sql/metrics/essence_match.py,sha256=7ceqwfixrtLnlbe9peZC56QKWHx5Ex2Zb62_c0Zm7go,4245
+txt2sql/metrics/execution_match.py,sha256=mOMwgXb1PD3eYcdB7WJNYVcCjRfuThPAtlfxwse5QE0,2095
+txt2sql/metrics/intent_match.py,sha256=etxUuENLWtfJg2YpMdorcTZg7_vrhVU_ldk8USELrZ0,3753
+txt2sql/metrics/soft_f1.py,sha256=bs6wxEbawemf-3TzaJYuWr2xH3zVtKs0DWu9yiCddmw,3938
+txt2sql/metrics/sql_match.py,sha256=2GoVHUK4FabDWRQ5kqlW5YGEWdKK2BlRC7wj92VRuyI,725
+txt2sql/metrics/utils.py,sha256=14ewBNOEe3m8DXtLi-jWrTnBAW836cbVOx0FUDpdFv0,1292
+txt2sql-0.4.0.dist-info/licenses/LICENSE,sha256=IuBb05M3tm0ZzeGzxnhQiY93BCSyQ0xrs3vGXAHamYc,1076
+txt2sql-0.4.0.dist-info/METADATA,sha256=E-A-7TT4FXdbJXBOhWcDtOSDs3Wf8bNbXH0A-9VivUQ,12599
+txt2sql-0.4.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+txt2sql-0.4.0.dist-info/top_level.txt,sha256=BFeQChZNYpG6XkwitJb2uEhbh_sHafWPw6gBeq3M_Dc,8
+txt2sql-0.4.0.dist-info/RECORD,,
