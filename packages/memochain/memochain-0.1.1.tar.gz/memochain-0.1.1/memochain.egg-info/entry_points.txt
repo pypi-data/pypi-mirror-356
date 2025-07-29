@@ -1,0 +1,2 @@
+[console_scripts]
+memochain-sessions = memochain.list_sessions:load_session_ids
