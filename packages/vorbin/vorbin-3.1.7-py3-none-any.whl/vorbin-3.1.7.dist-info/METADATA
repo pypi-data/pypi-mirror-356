@@ -1,0 +1,552 @@
+Metadata-Version: 2.4
+Name: vorbin
+Version: 3.1.7
+Summary: VorBin: Voronoi Binning of Two Dimensional Data
+Home-page: https://purl.org/cappellari/software
+Author: Michele Cappellari
+Author-email: michele.cappellari@physics.ox.ac.uk
+License: Other/Proprietary License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+The VorBin Package
+==================
+
+**VorBin: Adaptive Voronoi Binning of Two Dimensional Data**
+
+.. image:: https://users.physics.ox.ac.uk/~cappellari/images/vorbin-logo.svg
+    :target: https://users.physics.ox.ac.uk/~cappellari/software
+    :width: 100
+.. image:: https://img.shields.io/pypi/v/vorbin.svg
+        :target: https://pypi.org/project/vorbin/
+.. image:: https://img.shields.io/badge/arXiv-astroph:0302262-orange.svg
+    :target: https://arxiv.org/abs/astro-ph/0302262
+.. image:: https://img.shields.io/badge/DOI-10.1046/...-green.svg
+        :target: https://doi.org/10.1046/j.1365-8711.2003.06541.x
+
+This VorBin package is a Python implementation of the two-dimensional adaptive
+spatial binning method of `Cappellari & Copin (2003) <http://adsabs.harvard.edu/abs/2003MNRAS.342..345C>`_. 
+It uses Voronoi tessellations to bin data to a given minimum signal-to-noise ratio.
+
+.. contents:: :depth: 2
+
+Attribution
+-----------
+
+If you use this software for your research, please cite
+`Cappellari & Copin (2003) <http://adsabs.harvard.edu/abs/2003MNRAS.342..345C>`_
+The BibTeX entry for the paper is::
+
+    @ARTICLE{Cappellari2003,
+        author = {{Cappellari}, M. and {Copin}, Y.},
+        title = "{Adaptive spatial binning of integral-field spectroscopic
+            data using Voronoi tessellations}",
+        journal = {MNRAS},
+        eprint = {astro-ph/0302262},
+        year = 2003,
+        volume = 342,
+        pages = {345-354},
+        doi = {10.1046/j.1365-8711.2003.06541.x}
+    }
+
+Installation
+------------
+
+install with::
+
+    pip install vorbin
+
+Without writing access to the global ``site-packages`` directory, use::
+
+    pip install --user vorbin
+
+Usage Example
+-------------
+
+To learn how to use the package ``VorBin`` run
+``voronoi_2d_binning_example.py`` in the ``vorbin/examples`` directory, within
+the main package installation folder inside ``site-packages``, and read the
+detailed documentation in the docstring of the file ``voronoi_2d_binning.py``,
+on `PyPi <https://pypi.org/project/vorbin/>`_.
+
+Perform the following simple steps to bin your own 2D data with minimal Python
+interaction:
+
+1. Write your data vectors [X, Y, Signal, Noise] in the text file
+   ``voronoi_2d_binning_example.txt``, following the example provided;
+
+2. Change the line ``targetSN = 50.0`` in the procedure
+   ``voronoi_2d_binning_example.py``, to specify the desired target S/N of your
+   final bins;
+
+3. Run the program ``voronoi_2d_binning_example`` and wait for the final plot
+   to appear. The output is saved in the text file
+   ``voronoi_2d_binning_output.txt``. The last column BIN_NUM in the file is
+   *all* that is needed to actually bin the data;
+
+4. Read the documentation at the beginning of the file
+   ``voronoi_2d_binning.py`` to fully understand the meaning of the various
+   optional output parameters.
+
+###########################################################################
+
+voronoi_2d_binning Function
+===========================
+
+Perform adaptive spatial binning of 2D data to reach a chosen constant S/N per bin.
+
+This program implements the algorithm described in section 5.1 of
+`Cappellari & Copin (2003) <http://adsabs.harvard.edu/abs/2003MNRAS.342..345C>`_.
+
+Calling Sequence
+----------------
+.. code-block:: python
+
+    from vorbin.voronoi_2d_binning import voronoi_2d_binning
+
+    bin_number, x_gen, y_gen, x_bar, y_bar, sn, nPixels, scale = voronoi_2d_binning(
+        x, y, signal, noise, target_sn, cvt=True, pixelsize=None, plot=True,
+        quiet=True, sn_func=None, wvt=True)
+
+
+Parameters
+----------
+x: array_like with shape (npix,)
+    A vector containing the X coordinates of the pixels to be binned.
+    Arbitrary units can be used (e.g., arcseconds or pixels). In this
+    context, "pixel" refers to a single spatial element of the dataset,
+    sometimes called a "spaxel" in integral-field spectroscopy. It is
+    assumed that the pixels are arranged on a regular grid; however, this
+    grid can contain holes (pixels excluded from the binning) and have
+    an irregular boundary.
+y: array_like with shape (npix,)
+    A vector containing the Y coordinates of the pixels to be binned.
+signal: array_like with shape (npix,)
+    A vector containing the signal associated with each pixel at coordinates
+    ``(x, y)``. For an integral-field spectrograph, the signal could be the
+    average flux in the spectral range of interest. For a CCD image, it
+    would simply be the counts in each pixel.
+noise: array_like with shape (npix,)
+    A vector containing the corresponding noise (1-sigma error) for each
+    pixel. While ``signal`` and ``noise`` are typically used to compute the
+    binning, the S/N can also be calculated on-the-fly using the ``sn_func``
+    keyword. To create bins with approximately equal total signal, one can
+    assume Poissonian noise by setting ``noise = np.sqrt(signal)``.
+target_sn: float
+    The desired signal-to-noise ratio for the final 2D-binned data. For
+    example, a ``S/N`` of ~50 per spectral pixel is often a reasonable
+    target for extracting stellar kinematics from galaxy spectra.
+
+Other Parameters
+----------------
+cvt: bool, optional
+    Set to ``False`` to skip the Centroidal Voronoi Tessellation (CVT)
+    step (vii) of the algorithm from `Cappellari & Copin (2003)`_. This
+    can be useful if the noise is strongly non-Poissonian, if the pixels
+    are not optimally weighted, or if the CVT step appears to introduce
+    significant gradients in the S/N. An alternative is to set ``wvt=True``.
+plot: bool, optional
+    Set to ``True`` to generate a plot of the 2D bins and their
+    corresponding S/N values at the end of the computation.
+pixelsize: float, optional
+    The pixel scale of the input data, which could be the size of a CCD
+    pixel or a spaxel/lenslet in an integral-field spectrograph. This
+    value is computed automatically by the program if not provided, but
+    doing so can be time-consuming for large datasets. In such cases,
+    it is recommended to provide the ``pixelsize`` value.
+sn_func: callable, optional
+    A generic function to calculate the S/N of a bin composed of spaxels
+    at a given ``index``. The function must have the following signature::
+
+        sn = func(index, signal, noise)
+
+    If ``sn_func=None``, the binning will use the default ``_sn_func()``,
+    which implements equation (2) of `Cappellari & Copin (2003)`_.
+    However, a more general user-defined function can be provided.
+
+    The value returned by ``sn_func()`` does not need to be an analytical
+    function of S and N, nor does it need to be the actual S/N. Instead,
+    it can be any quantity that the user wishes to equalize across the bins.
+    For example, ``sn_func()`` could be a procedure that uses ``ppxf`` to
+    measure the velocity dispersion from the coadded spectrum of the spaxels
+    at ``index`` and returns the relative error in the dispersion.
+
+    Note that using an analytical approximation of S/N, like the default,
+    will significantly speed up the calculation. For more details, refer
+    to the docstring of ``_sn_func()`` in the ``voronoi_2d_binning.py`` file.
+quiet: bool, optional
+    By default, the program displays progress updates while accreting pixels
+    and iterating the CVT. Set ``quiet=True`` to suppress these messages.
+wvt: bool, optional
+    When ``wvt=True``, the ``bin2d_cvt_equal_mass`` routine is modified as
+    proposed by Diehl & Statler (2006, MNRAS, 368, 497). In this case, the
+    final step of the algorithm, following the bin-accretion stage, is a
+    Weighted Voronoi Tessellation instead of a modified Centroidal Voronoi
+    Tessellation. This may be beneficial if the noise is strongly
+    non-Poissonian, if the pixels are not optimally weighted, or if the CVT
+    step appears to introduce significant S/N gradients. An alternative is
+    to set ``cvt=False``. If you set ``wvt=True``, please include a
+    reference to "the WVT modification proposed by Diehl & Statler (2006)."
+
+Returns
+-------
+bin_number: array_like with shape (npix,)
+    A vector containing the bin number assigned to each input pixel, with
+    indices ranging from zero to ``nbin - 1``.
+
+    IMPORTANT: This vector is all that is needed for any subsequent
+    computations on the binned data. All other returned values are optional
+    and can be disregarded.
+x_gen: array_like with shape (nbin,)
+    A vector of the X coordinates of the bin generators. These generators
+    provide an alternative way of defining the Voronoi tessellation.
+
+    NOTE: The use of this vector is deprecated as it can be a source of
+    confusion.
+y_gen: array_like with shape (nbin,)
+    A vector of the Y coordinates of the bin generators.
+
+    NOTE: The use of this vector is deprecated as it can be a source of
+    confusion.
+x_bar: array_like with shape (nbin,)
+    A vector of the X coordinates of the luminosity-weighted centroids of
+    the bins.
+y_bar: array_like with shape (nbin,)
+    A vector of the Y coordinates of the luminosity-weighted centroids of
+    the bins.
+sn: array_like with shape (nbin,)
+    A vector of the final S/N for each bin.
+nPixels: array_like with shape (nbin,)
+    A vector of the number of pixels in each bin.
+scale: array_like with shape (nbin,)
+    A vector of the scale length for each bin. This is needed to
+    reconstruct the tessellation if `wvt=True`.
+
+When some pixels have no signal
+-------------------------------
+Binning should not be used blindly when some pixels contain significant
+noise but virtually no signal. This situation may happen e.g. when
+extracting the gas kinematics from observed galaxy spectra. One way of
+using ``voronoi_2d_binning`` consists of first selecting the pixels with
+``S/N`` above a minimum threshold and then binning each set of connected
+pixels *separately*. Alternatively one may optimally weight the pixels
+before binning. For details, see Sec. 2.1 of `Cappellari & Copin (2003)`_.
+
+Binning X-ray data
+------------------
+For X-ray data, or other data coming from photon-counting devices the noise
+is generally accurately Poissonian. In the Poissonian case, the S/N in a
+bin can never decrease by adding a pixel [see Sec.2.1 of
+`Cappellari & Copin (2003)`_], and it is preferable to bin the data
+*without* first removing the observed pixels with no signal.
+
+Binning very big images
+-----------------------
+Computation time in voronoi_2d_binning scales nearly as npixels^1.5, so it
+may become a problem for large images (e.g. at the time of writing
+``npixels > 1000x1000``). Let's assume that we really need to bin the image
+as a whole and that the S/N in a significant number of pixels is well above
+our target S/N. As for many other computational problems, a way to radically
+decrease the computation time consists of proceeding hierarchically. Suppose
+for example we have a 4000x4000 pixels image, we can do the following:
+
+1. Rebin the image regularly (e.g. in groups of 8x8 pixels) to a manageable
+   size of 500x500 pixels;
+2. Apply the standard Voronoi 2D-binning procedure to the 500x500 image;
+3. Transform all unbinned pixels (which already have enough S/N) of the
+   500x500 Voronoi 2D-binned image back into their original individual
+   full-resolution pixels;
+4. Now apply Voronoi 2D-binning only to the connected regions of
+   full-resolution pixels;
+5. Merge the set of lower resolution bins with the higher resolution ones.
+
+###########################################################################
+
+
+License
+=======
+
+Other/Proprietary License
+
+Copyright (c) 2001-2025 Michele Cappellari
+
+This software is provided as is with no warranty. You may use it for
+non-commercial purposes and modify it for personal or internal use, as long
+as you include this copyright and disclaimer in all copies. You may not
+redistribute the code.
+
+###########################################################################
+
+Changelog
+---------
+
+V3.1.7: MC, Oxford, 17 June 2025
+++++++++++++++++++++++++++++++++
+
+- Resolved a mismatch between the wheel and source distributions that could
+  cause ``VorBin`` to fail in the wheel version. Thanks to Daniele Gasparri for
+  reporting this issue.
+
+V3.1.5: MC, Oxford, 24 February 2022
+++++++++++++++++++++++++++++++++++++
+
+- Included test for repetitions in ``_cvt_equal_mass`` to avoid the possibility
+  of cycling. Thanks to Peter Weilbacher (aip.de) for the report, a detailed
+  example of producing the problem, and subsequent testing. 
+
+V3.1.4: MC, Oxford, 19 February 2020
+++++++++++++++++++++++++++++++++++++
+
+- Formatted documentation as docstring. 
+
+V3.1.3: MC, Oxford, 27 September 2018
++++++++++++++++++++++++++++++++++++++
+
+- Fixed clock ``DeprecationWarning`` in Python 3.7.
+
+V3.1.2: MC, Oxford, 10 May 2018
++++++++++++++++++++++++++++++++
+
+- Dropped legacy Python 2.7 support. 
+
+V3.1.1: MC, Oxford, 15 September 2017
++++++++++++++++++++++++++++++++++++++
+
+- Stops if unbinned pixels do not have enough S/N.
+- Removed weighted centroid function. 
+
+V3.1.0: MC, Oxford, 17 July 2017
+++++++++++++++++++++++++++++++++
+
+- Use cKDTree for much faster un-weighted Voronoi Tessellation.
+- Removed loop over bins from Lloyd's algorithm with CVT.
+      
+V3.0.9: MC, Oxford, 10 July 2017
+++++++++++++++++++++++++++++++++
+
+- Do not iterate down to ``diff==0`` in ``_cvt_equal_mass()``.
+- Request ``pixelsize`` when the dataset is large. Thanks to Davor Krajnovic
+  (Potsdam) for the feedback. 
+- Make ``quiet`` really quiet.
+- Fixed some instances where ``sn_func()`` was not being used (only relevant
+  when passing the ``sn_func`` keyword). 
+
+V3.0.8: MC, Oxford, 15 February 2017
+++++++++++++++++++++++++++++++++++++
+
+- New ``voronoi_tessellation()`` function. 
+
+V3.0.7: MC, Oxford, 23 January 2017 
++++++++++++++++++++++++++++++++++++
+
+- Print execution time. 
+
+V3.0.6: MC, Oxford, 14 June 2016
+++++++++++++++++++++++++++++++++
+
+- Use ``interpolation='nearest'`` to avoid crashes on MacOS.
+  Thanks to Kyle Westfall (Portsmouth) for reporting the problem.
+- Allow for zero noise. 
+
+V3.0.5: MC, Oxford, 18 April 2016
++++++++++++++++++++++++++++++++++
+
+- Fixed deprecation warning in NumPy 1.11. 
+
+V3.0.4: MC, Oxford, 12 April 2016
++++++++++++++++++++++++++++++++++
+
+- Included keyword "sn_func" to pass a function which
+  calculates the S/N of a bin, rather than editing _sn_func().
+- Included test to prevent the addition of a pixel from
+  ever decreasing the S/N during the accretion stage.
+      
+V3.0.3: MC, Oxford, 31 March 2016
++++++++++++++++++++++++++++++++++
+
+- Use for loop to calculate Voronoi tessellation of large arrays
+  to reduce memory usage. Thanks to Peter Weilbacher (Potsdam) for
+  reporting the problem and providing the solution.
+      
+V3.0.2: MC, Oxford, 2 October 2014
+++++++++++++++++++++++++++++++++++
+
+- Avoid potential runtime warnings while plotting.
+
+V3.0.1: MC, Oxford, 25 May 2014
++++++++++++++++++++++++++++++++
+
+- Support both Python 2.7 and Python 3. 
+      
+V3.0.0: MC, London, 19 March 2014
++++++++++++++++++++++++++++++++++
+
+- Translated from IDL into Python and tested against the original.
+      
+V2.6.0: MC, London, 19 March 2014
++++++++++++++++++++++++++++++++++
+
+- Included new SN_FUNCTION to illustrate the fact that the user can
+  define a custom function to estimate the S/N of a bin if needed.
+      
+V2.5.8: MC, La Palma, 15 May 2012
++++++++++++++++++++++++++++++++++
+
+- Update Voronoi tessellation at the exit of bin2d_cvt_equal_mass.
+  This is only done when using /WVT, as DIFF may not be zero at the
+  last iteration. 
+
+V2.5.7: MC, Oxford, 24 March 2012
++++++++++++++++++++++++++++++++++
+
+- Included safety termination criterion of Lloyd algorithm
+  to prevent loops using /WVT. 
+
+V2.5.6: MC, Oxford, 11 November 2011
+++++++++++++++++++++++++++++++++++++
+
+- Use IDL intrinsic function DISTANCE_MEASURE for automatic pixelSize, 
+  when PIXSIZE keyword is not given.
+      
+V2.5.5: MC, Oxford, 28 April 2010
++++++++++++++++++++++++++++++++++
+
+- Added PIXSIZE keyword. 
+      
+V2.5.4: MC, Oxford, 30 November 2009
+++++++++++++++++++++++++++++++++++++
+
+- Improved color shuffling for the final plot.
+
+V2.5.3: MC, Oxford, 3 December 2007
++++++++++++++++++++++++++++++++++++
+
+- Fixed program stop, introduced in V2.5.0, with /NO_CVT keyword.
+      
+V2.5.2: MC, Oxford, 28 March 2007
++++++++++++++++++++++++++++++++++
+
+- Print number of unbinned pixels. 
+      
+V2.5.1: MC, Oxford, 3 November 2006
++++++++++++++++++++++++++++++++++++
+
+- Updated documentation. 
+
+V2.5.0: MC, Leiden, 9 March 2006
+++++++++++++++++++++++++++++++++
+
+- Added two new lines of code and the corresponding /WVT keyword
+  to implement the nice modification to the algorithm proposed by
+  Diehl & Statler (2006). 
+
+V2.4.8: MC, Leiden, 23 December 2005
+++++++++++++++++++++++++++++++++++++
+
+- Use geometric centroid of a bin during the bin-accretion stage,
+  to allow the routine to deal with negative signal (e.g. in
+  background-subtracted X-ray images). Thanks to Steven Diehl for
+  pointing out the usefulness of dealing with negative signal.
+      
+V2.4.7: MC, Leiden, 27 September 2005
++++++++++++++++++++++++++++++++++++++
+
+- Verify that SIGNAL and NOISE are non-negative vectors.
+      
+V2.4.6: MC, Leiden, 27 August 2005
+++++++++++++++++++++++++++++++++++
+
+- Added /NO_CVT keyword to optionally skip the CVT step of
+  the algorithm. 
+
+V2.4.5: MC, Leiden, 3 December 2004
++++++++++++++++++++++++++++++++++++
+
+- Added BIN2D prefix to internal routines to avoid possible
+  naming conflicts. 
+
+V2.4.4: MC, Leiden, 30 November 2004
+++++++++++++++++++++++++++++++++++++
+
+- Prevent division by zero for pixels with signal=0
+  and noise=sqrt(signal)=0, as can happen from X-ray data.
+      
+V2.4.3: MC, Leiden, 29 November 2004
+++++++++++++++++++++++++++++++++++++
+
+- Corrected bug introduced in version 2.3.1. It went undetected
+  for a long time because it could only happen in special conditions.
+  Now we recompute the index of the good bins after computing all
+  centroids of the reassigned bins in reassign_bad_bins. Many thanks
+  to Simona Ghizzardi for her clear analysis of the problem and
+  the solution. 
+
+V2.4.2: MC, Leiden, 4 August 2004
++++++++++++++++++++++++++++++++++
+
+- Use LONARR instead of INTARR to define the CLASS vector,
+  to be able to deal with big images. Thanks to Tom Statler.
+      
+V2.4.1: MC, Leiden, 14 December 2003
+++++++++++++++++++++++++++++++++++++
+
+- Added /QUIET keyword and verbose output during the computation.
+  After suggestion by Richard McDermid. 
+
+V2.4.0: MC, Leiden, 10 December 2003
+++++++++++++++++++++++++++++++++++++
+
+- Added basic error checking of input S/N. 
+- Reintroduced the treatment for zero-size bins in CVT, which 
+  was deleted in V2.2. Thanks to Robert Sharp and Kambiz Fathi 
+  for reporting problems.
+
+V2.3.1: MC, Leiden, 13 April 2003
++++++++++++++++++++++++++++++++++
+
+- Do *not* assume the first bin is made of one single pixel.
+- Added computation of S/N scatter and plotting of 1-pixel bins.
+      
+V2.3.0: MC, Leiden, 9 April 2003
+++++++++++++++++++++++++++++++++
+
+- Unified the three tests to stop the accretion of one bin.
+  This can improve some bins at the border. 
+
+V2.2.0: MC, Leiden, 11 March 2003
++++++++++++++++++++++++++++++++++
+
+- Added computation of useful bin quantities in output. Deleted some
+  safety checks for zero-size bins in CVT. Minor polishing of the code.
+      
+V2.1.0: MC, Vicenza, 13 February 2003
++++++++++++++++++++++++++++++++++++++
+
+- First released version. Written documentation.
+      
+V2.0.0: MC, Leiden, 11 September 2001
++++++++++++++++++++++++++++++++++++++
+
+- Major revisions. Stable version. 
+
+V1.0.0: Michele Cappellari, Leiden, June 2001
++++++++++++++++++++++++++++++++++++++++++++++
+
+- First working implementation.
+- First working implementation. 

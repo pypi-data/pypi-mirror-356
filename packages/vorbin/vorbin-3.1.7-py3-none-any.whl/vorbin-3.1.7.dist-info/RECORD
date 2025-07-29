@@ -1,0 +1,16 @@
+vorbin/CHANGELOG.rst,sha256=wJcwQOV-w3vIBtpnX1TUvpxzY3FTQ01pceQqKhHPeTQ,8069
+vorbin/LICENSE.txt,sha256=yw3b6rWNNVUcUu5btLyssHpRSiApEIhpvHVuFLy1URc,420
+vorbin/README.rst,sha256=_C2ZPPzIowcop4XlshaK7xZYNWcG6uQP8wyZ9mq1EDQ,2999
+vorbin/__init__.py,sha256=9R3TKbuZYMrnGPQ0keU29Of-T1sRz9eHF3OTl7dm9f4,23
+vorbin/voronoi_2d_binning.py,sha256=Ayh2c3SFh55Q2oEorrUkEfi1xN5PImlywpQTmBDl2N8,26290
+vorbin/voronoi_2d_binning_example_output.txt,sha256=QUT3NW9W6hjCADo8jF3sATfIiTkhgi4vYpVeDhctVHg,99424
+vorbin/example/__init__.py,sha256=77O9eqP2EaWMNejGjPJCahtv6vLkbtVj0hG4FT4V0fA,36
+vorbin/example/voronoi_2d_binning_example.py,sha256=9hDdacb4u4QOnXvG4VaEwqT2r1FtcmNOrPbhGv1JBcQ,2489
+vorbin/example/voronoi_2d_binning_example_input.txt,sha256=Vo46KU6aRjXby1WEmJ3VdgckC04fQf7wLeltNkwjUxk,177333
+vorbin/example/voronoi_2d_binning_example_output.txt,sha256=QUT3NW9W6hjCADo8jF3sATfIiTkhgi4vYpVeDhctVHg,99424
+vorbin/example/voronoi_2d_binning_python_reference_output.txt,sha256=mgzklxYcWHNwLmPm3HUzvpYcxYV1nQVfugpgnGwBKuM,6120
+vorbin-3.1.7.dist-info/METADATA,sha256=90ExK0CYYEHJ7YxKNneaBu2q4egDPPFKjizNUKJtFcg,21020
+vorbin-3.1.7.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+vorbin-3.1.7.dist-info/top_level.txt,sha256=ObkyJGMR4P4vhU36tWVaDp3YfQJClTAjwEd2lS_IqcI,7
+vorbin-3.1.7.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+vorbin-3.1.7.dist-info/RECORD,,
