@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sitl"
+version = "0.0.3"
+description = "A SITL for Betaflight"
+readme = "README.md"
+authors = [{name = "Jonas Eschmann", email = "jonas.eschmann@gmail.com"}]
+license = {text = "MIT"}
+dependencies = [
+  "betaflight",
+  "websockets",
+  "l2f",
+  "numpy",
+  "scipy",
+  "pygame",
+  "websockify",
+  "ui-server"
+]
+homepage = "https://github.com/jonas-eschmann/sitl"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["sitl"]
+
+[project.scripts]
+sitl = "sitl.main:sync_main"
+sitl-websockify = "sitl.websockify_proxy:main"
