@@ -1,0 +1,2 @@
+[console_scripts]
+gh-oauth-helper = gh_oauth_helper.cli:main
