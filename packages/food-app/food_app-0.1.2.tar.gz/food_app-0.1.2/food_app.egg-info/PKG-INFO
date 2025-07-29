@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: food-app
+Version: 0.1.2
+Summary: A cli food app to calculate Kcal, Carbs, Protein and Fat.
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: matplot
