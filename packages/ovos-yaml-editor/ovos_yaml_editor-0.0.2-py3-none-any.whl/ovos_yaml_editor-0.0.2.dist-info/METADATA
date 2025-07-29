@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ovos-yaml-editor
+Version: 0.0.2
+Summary: Simple YAML editor for OpenVoiceOS with FastAPI backend
+Home-page: https://github.com/OpenVoiceOS/ovos-yaml-editor
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: pyyaml
+Requires-Dist: uvicorn
+Requires-Dist: ovos-config
+
