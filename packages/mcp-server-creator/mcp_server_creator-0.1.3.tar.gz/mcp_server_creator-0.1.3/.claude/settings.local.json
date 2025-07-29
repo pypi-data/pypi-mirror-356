@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(echo:*)",
+      "Bash(env)",
+      "Bash(export FASTMCP_LOG_LEVEL=INFO)",
+      "Bash(uvx mcp-server-creator:*)",
+      "Bash(python test:*)",
+      "Bash(python:*)"
+    ],
+    "deny": []
+  }
+}
