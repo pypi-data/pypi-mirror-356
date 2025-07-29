@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+opengreywolfoptimizer/__init__.py
+opengreywolfoptimizer/optimizer.py
+opengreywolfoptimizer.egg-info/PKG-INFO
+opengreywolfoptimizer.egg-info/SOURCES.txt
+opengreywolfoptimizer.egg-info/dependency_links.txt
+opengreywolfoptimizer.egg-info/requires.txt
+opengreywolfoptimizer.egg-info/top_level.txt
