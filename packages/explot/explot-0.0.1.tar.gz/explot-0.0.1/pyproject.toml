@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "explot"
+version = "0.0.1"
+description = "Various utilities to explore neural networks."
+license = ".github/LICENSE.md"
+readme = ".github/README.md"
+authors = ["apehex <apehex@protonmail.com>"]
+packages = [{include="explot"}]
+
+[tool.poetry.dependencies]
+matplotlib = ">=3.0"
+python = ">=3.10,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
