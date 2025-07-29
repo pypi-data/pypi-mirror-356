@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pbshm/graphcomparison/__init__.py
+pbshm/graphcomparison/backtracking.py
+pbshm/graphcomparison/matrix.py
+pbshm/graphcomparison/routes.py
+pbshm/graphcomparison/templates/compare.html
+pbshm/graphcomparison/templates/list-ie-models.html
+pbshm/graphcomparison/templates/results.html
+pbshm_network_mcs.egg-info/PKG-INFO
+pbshm_network_mcs.egg-info/SOURCES.txt
+pbshm_network_mcs.egg-info/dependency_links.txt
+pbshm_network_mcs.egg-info/requires.txt
+pbshm_network_mcs.egg-info/top_level.txt
