@@ -1,0 +1,388 @@
+/* Healthcare Management Platform - Custom CSS */
+
+/* Color Palette */
+:root {
+    --primary-color: #2c5aa0;
+    --secondary-color: #1cc88a;
+    --accent-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --warning-color: #f6c23e;
+    --info-color: #36b9cc;
+    --light-color: #f8f9fc;
+    --dark-color: #5a5c69;
+    --border-color: #e3e6f0;
+    --text-muted: #858796;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--light-color);
+    color: #333;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.25rem 2rem 0 rgba(58, 59, 69, 0.2);
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 600;
+}
+
+/* Bordered Cards for Statistics */
+.border-left-primary {
+    border-left: 0.25rem solid var(--primary-color) !important;
+}
+
+.border-left-success {
+    border-left: 0.25rem solid var(--secondary-color) !important;
+}
+
+.border-left-info {
+    border-left: 0.25rem solid var(--info-color) !important;
+}
+
+.border-left-warning {
+    border-left: 0.25rem solid var(--warning-color) !important;
+}
+
+/* Buttons */
+.btn {
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #1e3a73;
+    border-color: #1e3a73;
+    transform: translateY(-1px);
+}
+
+.btn-success {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-success:hover {
+    background-color: #17a673;
+    border-color: #17a673;
+    transform: translateY(-1px);
+}
+
+/* Tables */
+.table {
+    font-size: 0.9rem;
+}
+
+.table-primary {
+    background-color: #e8f1ff;
+    color: var(--primary-color);
+}
+
+.table th {
+    font-weight: 600;
+    border-top: none;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--dark-color);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(44, 90, 160, 0.05);
+}
+
+/* Badges */
+.badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.5rem;
+}
+
+/* Forms */
+.form-control {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(44, 90, 160, 0.25);
+}
+
+.form-select {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+}
+
+.form-floating label {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* Login Page */
+.vh-100 {
+    min-height: 100vh;
+}
+
+.login-card {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Dashboard Statistics */
+.text-xs {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.text-gray-800 {
+    color: #5a5c69 !important;
+}
+
+.text-gray-300 {
+    color: #dddfeb !important;
+}
+
+/* Progress Bars */
+.progress {
+    height: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fc;
+}
+
+.progress-bar {
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Alerts */
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Modal Enhancements */
+.modal-content {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.modal-header {
+    background-color: var(--light-color);
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Chart Containers */
+.chart-pie {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.chart-bar {
+    position: relative;
+    height: 20rem;
+}
+
+.chart-area {
+    position: relative;
+    height: 20rem;
+}
+
+/* Medical Icons */
+.fa-heartbeat {
+    color: #e74a3b;
+}
+
+.fa-user-md {
+    color: var(--primary-color);
+}
+
+.fa-flask {
+    color: var(--secondary-color);
+}
+
+.fa-shield-alt {
+    color: var(--warning-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn {
+        padding: 0.375rem 1rem;
+        font-size: 0.875rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.8rem;
+    }
+}
+
+/* Accessibility Improvements */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .card {
+        border: 2px solid var(--dark-color);
+    }
+    
+    .btn {
+        border-width: 2px;
+    }
+    
+    .form-control,
+    .form-select {
+        border-width: 2px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .btn,
+    .modal,
+    .alert {
+        display: none !important;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+    
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+/* Custom Healthcare Specific Styles */
+.patient-card {
+    border-left: 4px solid var(--secondary-color);
+}
+
+.lab-result-pending {
+    background-color: #fff3cd;
+    border-left: 4px solid var(--warning-color);
+}
+
+.lab-result-completed {
+    background-color: #d4edda;
+    border-left: 4px solid var(--secondary-color);
+}
+
+.audit-log-row {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+}
+
+.hipaa-compliant {
+    border: 2px solid var(--secondary-color);
+    background-color: rgba(28, 200, 138, 0.1);
+}
+
+/* Font Awesome Icon Colors */
+.text-primary .fas {
+    color: var(--primary-color);
+}
+
+.text-success .fas {
+    color: var(--secondary-color);
+}
+
+.text-warning .fas {
+    color: var(--warning-color);
+}
+
+.text-danger .fas {
+    color: var(--danger-color);
+}
+
+.text-info .fas {
+    color: var(--info-color);
+}

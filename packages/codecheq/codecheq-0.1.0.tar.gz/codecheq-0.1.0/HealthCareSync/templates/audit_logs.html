@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+
+{% block title %}Audit Logs - Healthcare Management Platform{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3">
+                    <i class="fas fa-shield-alt me-2 text-primary"></i>
+                    HIPAA Audit Logs
+                </h1>
+                <div class="badge bg-success fs-6">
+                    <i class="fas fa-lock me-2"></i>HIPAA Compliant
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Alert for HIPAA Compliance -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="alert alert-info" role="alert">
+                <i class="fas fa-info-circle me-2"></i>
+                <strong>HIPAA Compliance Notice:</strong> All user activities and data access are logged for security and compliance purposes. 
+                These logs are tamper-proof and stored securely according to HIPAA requirements.
+            </div>
+        </div>
+    </div>
+    
+    <!-- Filters -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="fas fa-filter me-2"></i>Filter Audit Logs
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <form method="GET" action="{{ url_for('audit_logs') }}">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="user_id" class="form-label">User</label>
+                                <select class="form-select" id="user_id" name="user_id">
+                                    <option value="">All Users</option>
+                                    <!-- Would be populated with actual users -->
+                                </select>
+                            </div>
+                            
+                            <div class="col-md-3 mb-3">
+                                <label for="action" class="form-label">Action</label>
+                                <select class="form-select" id="action" name="action">
+                                    <option value="">All Actions</option>
+                                    <option value="create">Create</option>
+                                    <option value="read">Read</option>
+                                    <option value="view">View</option>
+                                    <option value="update">Update</option>
+                                    <option value="delete">Delete</option>
+                                    <option value="login">Login</option>
+                                    <option value="logout">Logout</option>
+                                    <option value="access_denied">Access Denied</option>
+                                    <option value="export">Export</option>
+                                </select>
+                            </div>
+                            
+                            <div class="col-md-3 mb-3">
+                                <label for="resource_type" class="form-label">Resource Type</label>
+                                <select class="form-select" id="resource_type" name="resource_type">
+                                    <option value="">All Resources</option>
+                                    <option value="patient">Patient</option>
+                                    <option value="lab_result">Lab Result</option>
+                                    <option value="user">User</option>
+                                    <option value="system">System</option>
+                                    <option value="audit_logs">Audit Logs</option>
+                                    <option value="dashboard">Dashboard</option>
+                                    <option value="reports">Reports</option>
+                                </select>
+                            </div>
+                            
+                            <div class="col-md-3 mb-3">
+                                <label for="limit" class="form-label">Records Limit</label>
+                                <select class="form-select" id="limit" name="limit">
+                                    <option value="50">50 records</option>
+                                    <option value="100" selected>100 records</option>
+                                    <option value="200">200 records</option>
+                                    <option value="500">500 records</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-search me-2"></i>Apply Filters
+                                </button>
+                                <a href="{{ url_for('audit_logs') }}" class="btn btn-outline-secondary ms-2">
+                                    <i class="fas fa-times me-2"></i>Clear Filters
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audit Logs Table -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="fas fa-list me-2"></i>Audit Trail
+                    </h6>
+                </div>
+                <div class="card-body">
+                    {% if audit_logs %}
+                        <div class="table-responsive">
+                            <table class="table table-hover table-sm">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>User</th>
+                                        <th>Action</th>
+                                        <th>Resource Type</th>
+                                        <th>Resource ID</th>
+                                        <th>Details</th>
+                                        <th>Event ID</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for log in audit_logs %}
+                                    <tr>
+                                        <td>
+                                            <small class="text-muted">{{ log.timestamp[:19].replace('T', ' ') }}</small>
+                                        </td>
+                                        <td>
+                                            {% if log.user_id %}
+                                                <span class="badge bg-secondary">{{ log.username }}</span>
+                                            {% else %}
+                                                <span class="badge bg-info">System</span>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-{{ 'success' if log.action == 'create' else 'primary' if log.action in ['view', 'read'] else 'warning' if log.action == 'update' else 'danger' if log.action == 'delete' else 'dark' if log.action in ['login', 'logout'] else 'danger' if log.action == 'access_denied' else 'info' }}">
+                                                {{ log.action.replace('_', ' ').title() }}
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-outline-secondary">
+                                                {{ log.resource_type.replace('_', ' ').title() }}
+                                            </span>
+                                        </td>
+                                        <td>
+                                            {% if log.resource_id %}
+                                                <small class="font-monospace">{{ log.resource_id[:8] }}...</small>
+                                            {% else %}
+                                                <small class="text-muted">-</small>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            {% if log.details %}
+                                                <small class="text-muted">
+                                                    {% for key, value in log.details.items() %}
+                                                        <strong>{{ key }}:</strong> {{ value }}{% if not loop.last %}, {% endif %}
+                                                    {% endfor %}
+                                                </small>
+                                            {% else %}
+                                                <small class="text-muted">-</small>
+                                            {% endif %}
+                                        </td>
+                                        <td>
+                                            <small class="font-monospace text-muted">{{ log.id[:8] }}</small>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="mt-3">
+                            <small class="text-muted">
+                                <i class="fas fa-info-circle me-1"></i>
+                                Showing {{ audit_logs|length }} most recent audit entries. 
+                                All events are logged with cryptographic integrity verification.
+                            </small>
+                        </div>
+                    {% else %}
+                        <div class="text-center py-5">
+                            <i class="fas fa-shield-alt fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">No audit logs found</h5>
+                            <p class="text-muted">No audit entries match your current filter criteria.</p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Security Notice -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="alert alert-warning" role="alert">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                <strong>Security Notice:</strong> Audit logs are automatically generated and cannot be modified or deleted. 
+                All access to this audit trail is also logged. For questions about audit entries, contact your system administrator.
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Auto-refresh audit logs every 30 seconds
+setInterval(function() {
+    // Only refresh if no filters are applied
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!urlParams.has('user_id') && !urlParams.has('action') && !urlParams.has('resource_type')) {
+        location.reload();
+    }
+}, 30000);
+</script>
+{% endblock %}

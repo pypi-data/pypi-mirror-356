@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+
+{% block title %}Lab Results - Healthcare Management Platform{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3">
+                    <i class="fas fa-flask me-2 text-primary"></i>
+                    Lab Results Management
+                </h1>
+                <a href="{{ url_for('export_lab_results') }}" class="btn btn-outline-success">
+                    <i class="fas fa-download me-2"></i>Export CSV
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Statistics Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Total Results
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{ lab_results|length }}</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-flask fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Completed
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                {{ lab_results|selectattr('status', 'equalto', 'completed')|list|length }}
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-check-circle fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Pending
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                {{ lab_results|selectattr('status', 'equalto', 'pending')|list|length }}
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-hourglass-half fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                Test Types
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                {{ (lab_results|groupby('test_type'))|list|length }}
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-list fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lab Results Table -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="fas fa-table me-2"></i>All Lab Results
+                    </h6>
+                </div>
+                <div class="card-body">
+                    {% if lab_results %}
+                        <div class="table-responsive">
+                            <table class="table table-hover" id="labResultsTable">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th>Patient</th>
+                                        <th>MRN</th>
+                                        <th>Test Name</th>
+                                        <th>Type</th>
+                                        <th>Result</th>
+                                        <th>Reference Range</th>
+                                        <th>Status</th>
+                                        <th>Order Date</th>
+                                        <th>Result Date</th>
+                                        <th>Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for result in lab_results %}
+                                    <tr>
+                                        <td>
+                                            <a href="{{ url_for('patient_detail', patient_id=result.patient_id) }}" class="text-decoration-none">
+                                                <strong>{{ result.get('patient_name', 'Unknown Patient') }}</strong>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-secondary">{{ result.get('medical_record_number', 'N/A') }}</span>
+                                        </td>
+                                        <td><strong>{{ result.test_name }}</strong></td>
+                                        <td>
+                                            <span class="badge bg-info">{{ result.test_type }}</span>
+                                        </td>
+                                        <td>
+                                            {% if result.status == 'completed' %}
+                                                <strong class="text-primary">{{ result.result_value }}</strong>
+                                            {% else %}
+                                                <em class="text-muted">{{ result.result_value }}</em>
+                                            {% endif %}
+                                        </td>
+                                        <td><small class="text-muted">{{ result.reference_range }}</small></td>
+                                        <td>
+                                            <span class="badge bg-{{ 'success' if result.status == 'completed' else 'warning' if result.status == 'pending' else 'danger' }}">
+                                                {{ result.status.title() }}
+                                            </span>
+                                        </td>
+                                        <td><small>{{ result.order_date[:10] }}</small></td>
+                                        <td><small>{{ result.result_date[:10] }}</small></td>
+                                        <td>
+                                            {% if result.notes %}
+                                                <small>{{ result.notes[:50] }}{% if result.notes|length > 50 %}...{% endif %}</small>
+                                            {% else %}
+                                                <small class="text-muted">-</small>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% else %}
+                        <div class="text-center py-5">
+                            <i class="fas fa-flask fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">No lab results found</h5>
+                            <p class="text-muted">Lab results will appear here once tests are ordered and processed.</p>
+                            <a href="{{ url_for('patients') }}" class="btn btn-primary">
+                                <i class="fas fa-plus me-2"></i>Order Lab Tests
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Initialize DataTable for better sorting and filtering
+document.addEventListener('DOMContentLoaded', function() {
+    const table = document.getElementById('labResultsTable');
+    if (table && table.rows.length > 1) {
+        // Simple table enhancements
+        const headers = table.querySelectorAll('th');
+        headers.forEach(header => {
+            header.style.cursor = 'pointer';
+            header.addEventListener('click', function() {
+                // Simple sorting could be implemented here
+                console.log('Sorting by:', header.textContent);
+            });
+        });
+    }
+});
+</script>
+{% endblock %}
