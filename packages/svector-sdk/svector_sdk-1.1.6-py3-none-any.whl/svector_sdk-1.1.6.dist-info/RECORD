@@ -1,0 +1,14 @@
+svector/__init__.py,sha256=eBm0Uid9dVDEcUCafUMKLENhhHejfKzYoqbOTo6VB84,1496
+svector/cli.py,sha256=t4IO0TqiJUw2udLXLJw_qtiRKmTjrkEOlN_TUQjwEMU,7978
+svector/client.py,sha256=GVf_v_oaeUGazwz_IgwqoUizPIRGoqF98nsqJHL-xhg,21564
+svector/client_new.py,sha256=ZgqbwX7iiaYh2iA4TzLfMhEDinEsOzWAtNAfK-igpfM,20603
+svector/client_old.py,sha256=DNii9bl6-2H4lpdoQNKKdC4PdL0aKdyPUnqAwfmuVd0,8611
+svector/conversations.py,sha256=CQiZVxDUPRUmrRxkNkTFFyhhCMTCpsxz-ufr31P1Nmk,12914
+svector/errors.py,sha256=_xn8KJuGIWpBwf_sfPwcmX4yG58onyHbGr8eYsIBTNc,1913
+svector/py.typed,sha256=QrNOa0-42qY4D2JNTTZH0cBU5EaGIcCDPVWraj0ou1E,95
+svector_sdk-1.1.6.dist-info/licenses/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+svector_sdk-1.1.6.dist-info/METADATA,sha256=5pBt3Yd6dwOfaWLUXa3aQL5SMyWFMUvj5sUyTvUMjf8,28595
+svector_sdk-1.1.6.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+svector_sdk-1.1.6.dist-info/entry_points.txt,sha256=tnCufVrusvKMBRUKjZSibdunKvXTNwjeX3lmmw_yrso,45
+svector_sdk-1.1.6.dist-info/top_level.txt,sha256=plIf4Wcaup0DRFWzVUnYv5xU1aR3C32CHb9Jz-qTFyY,8
+svector_sdk-1.1.6.dist-info/RECORD,,
