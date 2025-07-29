@@ -1,0 +1,2 @@
+[console_scripts]
+contextual-privacy-guard = contextual_privacy_guard.runner:main
