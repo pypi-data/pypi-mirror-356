@@ -1,0 +1,12 @@
+sbol3
+xmltodict
+lxml
+jsonschema
+pandas
+matplotlib
+seaborn
+ipywidgets
+
+[test]
+pytest<5.0.0
+pytest-cov[all]
