@@ -1,0 +1,3 @@
+[console_scripts]
+mbus-reader = mbusread.mbus_reader_cmd:main
+mbus-viewer = mbusread.mbus_viewer_cmd:main

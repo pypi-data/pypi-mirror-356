@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: mbusreader
+Version: 0.1.0
+Summary: M-Bus reader tool
+Project-URL: Home, https://github.com/WolfgangFahl/mbusreader
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/MBus_Reader
+Project-URL: Source, https://github.com/WolfgangFahl/mbusreader
+Author-email: Wolfgang Fahl <wf@bitplan.com>
+Maintainer-email: Wolfgang Fahl <wf@bitplan.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: components,nicegui,ui
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: paho-mqtt>=2.1.0
+Requires-Dist: pybasemkit>=0.0.3
+Requires-Dist: pymeterbus>=0.8.4
+Provides-Extra: gui
+Requires-Dist: ngwidgets>=0.27.0; extra == 'gui'
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Provides-Extra: yaml
+Requires-Dist: dacite>=1.8.1; extra == 'yaml'
+Requires-Dist: dataclasses-json>=0.6.3; extra == 'yaml'
+Requires-Dist: pyyaml>=6.0.1; extra == 'yaml'
+Description-Content-Type: text/markdown
+
+# mbusreader
+Meterbus reader
+
+[![pypi](https://img.shields.io/pypi/pyversions/mbusreader)](https://pypi.org/project/mbusreader/)
+[![Github Actions Build](https://github.com/WolfgangFahl/mbusreader/actions/workflows/build.yml/badge.svg)](https://github.com/WolfgangFahl/mbusreader/actions/workflows/build.yml)
+[![PyPI Status](https://img.shields.io/pypi/v/mbusreader.svg)](https://pypi.python.org/pypi/mbusreader/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/mbusreader.svg)](https://github.com/WolfgangFahl/mbusreader/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/mbusreader.svg)](https://github.com/WolfgangFahl/mbusreader/issues/?q=is%3Aissue+is%3Aclosed)
+[![API Docs](https://img.shields.io/badge/API-Documentation-blue)](https://WolfgangFahl.github.io/mbusreader/)
+[![License](https://img.shields.io/github/license/WolfgangFahl/mbusreader.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Docs and Tutorials
+[Wiki](https://wiki.bitplan.com/index.php/MBus_Reader)
+
+# Introduction
+## Demo
+* [mbus viewer](https://mbus.bitplan.com)
+
+## MBus Viewer
+See also [Live M-Bus datagram decoder](https://dev-lab.github.io/tmbus/tmbus.htm)
+
+The MBus-Viewer is a Python-based tool for decoding
+M-Bus datagrams/telegrams from consumption meters and other
+compatible devices. It leverages the [pyMeterBus](https://github.com/ganehag/pyMeterBus) library
+to convert these datagrams into JSON and displays
+the parsed results for analysis and debugging.
+
+## MBus Reader
+The MBus Reader is for reading M-Bus devices and optionally integration into
+your favorite home automation by forwarding the JSON results e.g. via [MQTT](https://en.wikipedia.org/wiki/MQTT).
+
+## Screenshot
+![Screenshot](https://github.com/user-attachments/assets/ca0a41ae-6513-496c-b3ce-b3a892f66d3f)
