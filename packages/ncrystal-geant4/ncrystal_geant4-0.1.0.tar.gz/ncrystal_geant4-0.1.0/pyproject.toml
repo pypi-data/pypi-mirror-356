@@ -1,0 +1,28 @@
+[project]
+name = "ncrystal-geant4"
+version = "0.1.0"
+dependencies = [ "ncrystal>=4.1.4" ]
+readme = "README.md"
+license = {file = "LICENSE"}
+description = "Bindings supporting NCrystal usage in Geant4."
+authors = [
+  { name="NCrystal developers (Thomas Kittelmann, Xiao Xiao Cai)" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"*" = ["*.cc","*.hh","*.cmake"]
+
+[project.urls]
+"Homepage" = "https://github.com/mctools/ncrystal-geant4"
+"Bug Tracker" = "https://github.com/mctools/ncrystal-geant4/issues"
+
+[project.scripts]
+ncrystal-geant4 = "ncrystal_geant4.cli:main"
