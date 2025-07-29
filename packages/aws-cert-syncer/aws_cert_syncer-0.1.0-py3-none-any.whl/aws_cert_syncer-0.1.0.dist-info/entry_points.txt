@@ -1,0 +1,3 @@
+[console_scripts]
+aws_cert_syncer=cert_sync:main
+
