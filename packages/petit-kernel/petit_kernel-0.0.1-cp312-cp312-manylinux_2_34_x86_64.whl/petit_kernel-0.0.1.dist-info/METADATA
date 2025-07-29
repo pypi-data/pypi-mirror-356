@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: petit_kernel
+Version: 0.0.1
+Summary: Optimized FP4 GPU kernels for AMD GPUs
+Author-email: Haohui Mai <haohui@causalflow.ai>
+Maintainer-email: Haohui Mai <haohui@causalflow.ai>
+Project-URL: Homepage, https://github.com/causalflow-ai/petit-kernel
+License-File: LICENSE.txt
+Dynamic: license-file
