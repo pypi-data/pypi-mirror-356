@@ -1,0 +1,13 @@
+face_detection_sdk/__init__.py,sha256=wBWlV2CbWxzQscMWXVE2PmkxO6isCsVmJq37SYvvBck,409
+face_detection_sdk/demo.py,sha256=uv3g0LSUHWvkJ63v4kBbS7uic58VWX84fYHIUeRC3io,6380
+face_detection_sdk/face_analyzer.py,sha256=9pNvv8kcmviIQBpP56hygJ9SMbC7D5f8DnOKb-V0Vwk,7875
+face_detection_sdk/models.py,sha256=fujcVBKX3U3YihA6AOxnVCQOTuw90Ei-NG6gsZLL-es,1544
+face_detection_sdk/utils.py,sha256=cxNpnfuIvg0qPmaBiKKi-6_zqbShuChSZ3M1APPL4Bs,5552
+face_detection_sdk-1.0.0.dist-info/licenses/LICENSE,sha256=W2_CrYmoz3xPIqaj0cWzOHrQPYmQxpSAuKJRLrOeo74,1095
+tests/__init__.py,sha256=PITL4btOVji1rexFP35A20v2gcLqc6vmGWiF-_5ywnI,27
+tests/test_face_analyzer.py,sha256=lBimEJjXQGnzoTZHHFa_8135nN7Thudq3tJgJN_F49Q,4643
+face_detection_sdk-1.0.0.dist-info/METADATA,sha256=HlTcEtEytoaAujU8P-w0UqMz_2Gg3EqT7wsEINXYIr0,6920
+face_detection_sdk-1.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+face_detection_sdk-1.0.0.dist-info/entry_points.txt,sha256=yda4671JOxmQRgZ655qi4JlRMjdBot-8pz2X12oCHFU,69
+face_detection_sdk-1.0.0.dist-info/top_level.txt,sha256=5WAKU4etUOsXSkK8E3JCikpWvxG1fs1IRp5n3lWTqe0,25
+face_detection_sdk-1.0.0.dist-info/RECORD,,
