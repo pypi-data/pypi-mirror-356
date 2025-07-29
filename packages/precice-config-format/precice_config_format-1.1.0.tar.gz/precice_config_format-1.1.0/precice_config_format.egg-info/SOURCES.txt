@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+precice_config_format.egg-info/PKG-INFO
+precice_config_format.egg-info/SOURCES.txt
+precice_config_format.egg-info/dependency_links.txt
+precice_config_format.egg-info/entry_points.txt
+precice_config_format.egg-info/requires.txt
+precice_config_format.egg-info/top_level.txt
+preciceconfigformat/cli.py
