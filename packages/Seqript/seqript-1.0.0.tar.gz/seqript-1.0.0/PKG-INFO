@@ -1,0 +1,161 @@
+Metadata-Version: 2.4
+Name: Seqript
+Version: 1.0.0
+Summary: Seqript is a recursive structured command engine.
+Home-page: https://github.com/Tarcadia/Seqript
+Author: Tarcadia
+Author-email: dont@email.me
+License: MIT
+Project-URL: Bug Reports, https://github.com/Tarcadia/Seqript/issues
+Project-URL: Source, https://github.com/Tarcadia/Seqript
+Keywords: sequential,sarallelscript,Tarcadia
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.11, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# Seqript (Sequence + Script)
+
+A lightweight framework for executing structured scripts with nested operations.
+
+## Features
+- Define scripts as nested JSON structures
+- Register custom engines for different operations
+- Environment variable expansion support
+- Sequential and parallel execution modes
+- Extensible through engine contributions
+
+## Documentation
+- [Quick Start](@doc/quick_start.md)
+- [Usage Guide](@doc/usage.md)
+- [Project Structure](@doc/structure.md)
+
+## Installation
+`pip install seqript` (TODO: Add actual installation method)
+
+## Example
+```json
+{
+  "seq": [
+    {"comment": "Starting operations"},
+    {"sleep": 1},
+    {"par": [
+      {"cmd": ["echo", "Task 1"]},
+      {"cmd": ["echo", "Task 2"]}
+    ]}
+  ]
+}
+```
+
+# Project Structure
+
+## Core Components
+- `Seqript`: Main class that parses and executes scripts
+- Engines: Modular operations (`cmd`, `seq`, `par`, etc.)
+- Variable Expansion: `${var}` substitution system
+
+## File Organization
+```
+seqript/
+├── init.py
+├── seqript.py # Main class
+├── util/
+│   └── expand_variable.py
+└── engine/
+    ├── init.py
+    ├── cmd.py # Command execution
+    ├── nop.py # No operation
+    ├── par.py # Parallel execution
+    ├── seq.py # Sequential execution
+    └── contrib/ # Additional engines
+        ├── sleep.py
+        └── comment.py
+```
+
+## Extension Points
+1. Add engines to `engine/contrib/`
+2. Override default engines during initialization
+3. Extend variable expansion patterns## Extension Points
+
+
+# Usage Guide
+
+## Script Structure
+Scripts are JSON objects where each key represents an engine:
+```json
+{
+  "engine_name": engine_specific_configuration
+}
+```
+
+## Environment Variables
+Use `${VAR}` syntax in strings for variable expansion:
+```json
+{
+  "cmd": ["echo", "${MESSAGE}"],
+  "env": {"MESSAGE": "Hello"}
+}
+```
+
+## Custom Engines
+Register additional engines during initialization:
+```python
+from seqript import Seqript
+
+def custom_engine(seqript, **kwargs):
+    print(f"Custom engine called with {kwargs}")
+
+seqript = Seqript(engines={
+    "custom": custom_engine,
+    **Seqript._DEFAULT_ENGINES
+})
+```
+
+# Quick Start
+
+## Basic Usage
+
+1. Create a script file (`example.json`):
+```json
+{
+  "seq": [
+    {"comment": "My first script"},
+    {"sleep": 2},
+    {"cmd": ["echo", "Hello World"]}
+  ]
+}
+```
+
+2. Execute it:
+```python
+from seqript import Seqript
+
+seqript = Seqript(name="example")
+with open("example.json") as f:
+    seqript(**json.load(f))
+```
+
+## Available Engines
+- `seq`: Sequential execution
+- `par`: Parallel execution
+- `cmd`: Command execution
+- `nop`: No operation
+- `sleep`: Delay execution
+- `comment`: Print message
