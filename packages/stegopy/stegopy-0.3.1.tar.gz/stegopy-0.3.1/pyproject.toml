@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=79.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stegopy"
+version = "0.3.1"
+description = "A deterministic, no-magic Python toolkit for hiding messages in media. Built with hyperfixation."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+keywords = ["steganography", "image processing", "audio processing", "lsb", "stego", "data hiding"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+authors = [
+    { name = "viodoescyber" }
+]
+dependencies = [
+    "Pillow >= 11.2.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/viodoescyber/stegopy"
+Repository = "https://github.com/viodoescyber/stegopy"
+Issues = "https://github.com/viodoescyber/stegopy/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+stegopy = "stegopy.cli:main"
