@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: game-theory-lab
+Version: 0.1.2
+Summary: A Python library for simulating various interesting games in Game Theory. The first version of this library only supports functionality for simulating the Iterated Prisoner's Dilemna (IPD).
+Author-email: Ayomide Olumide-Attah <ayomideattah369@email.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/AyomideOlumideAttah/game-theory-lab
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas<2.3,>=1.5
+Dynamic: license-file

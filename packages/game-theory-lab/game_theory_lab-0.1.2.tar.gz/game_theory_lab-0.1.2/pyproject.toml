@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "game-theory-lab"
+version = "0.1.2"
+description = "A Python library for simulating various interesting games in Game Theory. The first version of this library only supports functionality for simulating the Iterated Prisoner's Dilemna (IPD)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+authors = [
+  { name = "Ayomide Olumide-Attah", email = "ayomideattah369@email.com" }
+]
+
+dependencies = [
+  "pandas>=1.5,<2.3"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true
+
+[project.urls]
+Homepage = "https://github.com/AyomideOlumideAttah/game-theory-lab"
