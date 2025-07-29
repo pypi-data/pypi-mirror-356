@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: vcf-installer
+Version: 9.0.0.0
+Summary: Client library for vcf-installer Automation APIs
+Author: Broadcom
+License: License :: OSI Approved :: Apache Software License
+Project-URL: Homepage, https://github.com/vmware/vcf-sdk-python
+Keywords: Broadcom,VCF,vSphere,vCenter Server
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vmware_vapi_common_client==2.61.2
+Requires-Dist: vmware_vapi_runtime==2.61.2
+Dynamic: license-file
+
+The VCF Installer module of the VMware Cloud Foundation SDK exposes operations to validate, deploy, convert and monitor VCF and VVF installations using new or existing components.
+
+[Source code](https://github.com/vmware/vmware-cloud-foundation-sdk-python)
+
+## Getting started
+
+### Prerequisites
+
+- Supported Python versions: 3.9, 3.10, 3.11, 3.12 and 3.13
+
+### Install the package
+
+```bash
+pip install vcf-installer
+```
