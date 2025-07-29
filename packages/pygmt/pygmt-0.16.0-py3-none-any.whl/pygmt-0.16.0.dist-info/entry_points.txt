@@ -1,0 +1,2 @@
+[xarray.backends]
+gmt = pygmt.xarray:GMTBackendEntrypoint
