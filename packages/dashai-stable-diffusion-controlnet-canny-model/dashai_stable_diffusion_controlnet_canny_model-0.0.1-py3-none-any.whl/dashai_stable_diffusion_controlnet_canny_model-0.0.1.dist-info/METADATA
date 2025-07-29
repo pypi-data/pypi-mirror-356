@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: dashai_stable_diffusion_controlnet_canny_model
+Version: 0.0.1
+Summary: DashAI Stable Diffusion Controlnet Canny Model for DashAI
+Project-URL: Homepage, https://github.com/DashAISoftware/DashAI
+Project-URL: Issues, https://github.com/DashAISoftware/DashAI/issues
+Author: DashAI team
+Author-email: dashaisoftware@gmail.com
+Keywords: DashAI,Model
+Requires-Python: >=3.8
+Requires-Dist: diffusers>=0.20.0
+Requires-Dist: huggingface-hub>=0.29.1
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: torch>=2.0.1
+Requires-Dist: torchvision>=0.19.1
+Description-Content-Type: text/markdown
+
+# Stable Diffusion ControlNet Canny
+
+This includes the implementation of ControlNet using sd model with canny preprocessing

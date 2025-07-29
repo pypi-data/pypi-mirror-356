@@ -1,0 +1,2 @@
+[dashai.plugins]
+StableDiffusionControlNetCannyModel = dashai_stable_diffusion_controlnet_canny_model.stable_diffusion_controlnet_canny_model:StableDiffusionControlNetCannyModel
