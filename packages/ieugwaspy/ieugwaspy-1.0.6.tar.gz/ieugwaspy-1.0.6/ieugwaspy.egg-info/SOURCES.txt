@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+ieugwaspy/__init__.py
+ieugwaspy/api.py
+ieugwaspy/backwards.py
+ieugwaspy/config.py
+ieugwaspy/query.py
+ieugwaspy/variants.py
+ieugwaspy.egg-info/PKG-INFO
+ieugwaspy.egg-info/SOURCES.txt
+ieugwaspy.egg-info/dependency_links.txt
+ieugwaspy.egg-info/requires.txt
+ieugwaspy.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_api.py
