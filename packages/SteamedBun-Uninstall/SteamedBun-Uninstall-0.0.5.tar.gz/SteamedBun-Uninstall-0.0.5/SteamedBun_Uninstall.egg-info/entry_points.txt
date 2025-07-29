@@ -1,0 +1,3 @@
+[console_scripts]
+uninstall = _CleanPackageTools.CleanDependence:_start_remove
+
