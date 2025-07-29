@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: PINN-kit
+Version: 0.0.2
+Summary: A toolkit for Physics-Informed Neural Networks
+Project-URL: Homepage, https://github.com/shivani/PINN-kit
+Project-URL: Issues, https://github.com/shivani/PINN-kit/issues
+Author-email: Shivani <shivani@example.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.9
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scikit-optimize>=0.9.0
+Requires-Dist: torch>=2.0.0
+Description-Content-Type: text/markdown
+
+# PINN-kit
+
+A toolkit for Physics-Informed Neural Networks (PINNs). This package provides tools and utilities for implementing and training physics-informed neural networks for solving differential equations.
+
+## Features
+
+- Easy-to-use interface for defining physics-informed neural networks
+- Support for various types of differential equations
+- Domain handling utilities
+- Training and evaluation tools
+
+## Installation
+
+```bash
+pip install PINN-kit
+```
+
+## Quick Start
+
+```python
+from PINN_kit import PINN, Domain
+
+# Create a domain
+domain = Domain(...)
+
+# Initialize a PINN
+pinn = PINN(...)
+
+# Train the network
+pinn.train(...)
+```
+
+## Documentation
+
+For detailed documentation, please visit [our documentation page](https://github.com/shivani/PINN-kit).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
