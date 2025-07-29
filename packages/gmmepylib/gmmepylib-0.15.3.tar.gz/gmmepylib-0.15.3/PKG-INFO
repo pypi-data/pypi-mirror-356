@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gmmepylib
+Version: 0.15.3
+Summary: GMME Libs for Python
+License: file = "GMME_Software_License.txt
+Author: David Crickenberger
+Author-email: dcrick@gmm-enterprises.com
+Requires-Python: >=3.8
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# gmme-pylib
+GMME Lib migrated to python
+
+## Supported platforms:
+> windows
+
+> linux
+
+## Tested python versions:
+> 3.10+
+
