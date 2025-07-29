@@ -1,0 +1,10 @@
+auto_commenter/__init__.py,sha256=bDfrbl9J2MQP8bviFe3VH8lxkc4MSBLev0TyUOkvKBQ,318
+auto_commenter/__main__.py,sha256=eDNKpMBhQC5q2csEeqvj5Wxxvyd9z3jALUFYPRfZ1JI,529
+auto_commenter/code_analyzer.py,sha256=WLvDKyx24Y_IXBaOeD09d-JQfY4pFn-U1qSc4vG_wfA,529
+auto_commenter/comment_generator.py,sha256=TQhSCg0TMrGP0hZ6efNGuWc1HYRI6Nu0LU18D7ElotA,3521
+auto_commenter/docstring_formatters.py,sha256=vHIhojOHsg8kXVf1nW-0CWlkNBAisOyscS91Mh-jxNU,774
+auto_commenter/utils.py,sha256=wLwwrPNb9z7Pg7b_Om7RUr7yc5h0kK7nARUqlpQS-AI,86
+auto_commenter-0.1.0.dist-info/METADATA,sha256=qZp7s27eCsT_04B0gNTd2Lqf1zyGM0rW5s_BQX4TOVE,1459
+auto_commenter-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+auto_commenter-0.1.0.dist-info/top_level.txt,sha256=uytThk_kFz9QSu8xYYJ58NMVjkNx1KLsDqSwKW-WEOg,15
+auto_commenter-0.1.0.dist-info/RECORD,,
