@@ -1,0 +1,130 @@
+Metadata-Version: 2.4
+Name: dexmate-urdf
+Version: 0.4.0
+Summary: URDF model and tools for Dexmate robots
+Project-URL: Repository, https://github.com/dm-ai-core/dexmate-urdf
+Author-email: Dexmate <contact@dexmate.ai>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Requires-Dist: pyyaml
+Requires-Dist: ruff
+Provides-Extra: dev
+Requires-Dist: pin-pink==3.1.0; extra == 'dev'
+Requires-Dist: pin==3.4.0; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: qpsolvers[qpalm]; extra == 'dev'
+Requires-Dist: sapien==3.0.0b1; extra == 'dev'
+Requires-Dist: setuptools; extra == 'dev'
+Provides-Extra: process
+Requires-Dist: tqdm; extra == 'process'
+Requires-Dist: trimesh; extra == 'process'
+Provides-Extra: viz
+Requires-Dist: matplotlib; extra == 'viz'
+Requires-Dist: pytransform3d; extra == 'viz'
+Requires-Dist: sapien==3.0.0b1; extra == 'viz'
+Requires-Dist: setuptools; extra == 'viz'
+Requires-Dist: tyro; extra == 'viz'
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <h1>Dexmate URDF Collection</h1>
+  <p>
+    <strong>URDF and USD model files for Dexmate robots.</strong>
+  </p>
+</div>
+
+## Overview
+
+This repository contains Unified Robot Description Format (URDF) and Semantic Robot Description Format (SRDF) files for various Dexmate robot configurations. These files are essential for robot simulation, motion planning, and visualization. For USD model files, please refer to the [Robot Model USD](#robot-model-usd).
+
+## Installation (Python)
+
+To use it in Python project, it is recommended to install dexmate_urdf via `pip install` instead of using it as a submodule. You can install the Python package in two way:
+
+1. Install it from [dexmate-pypi](https://github.com/dm-ai-core/dexmate-pypi) by `pip install dexmate_urdf`
+2. Install it from [Github Release](https://github.com/dm-ai-core/dexmate-urdf/releases) by download the Python whl file, e.g. `dexmate_urdf-0.2.0-py3-none-any.whl `
+
+The Python package not only contains the files on the Github, but also the urdf variants generated online when packing the Python wheel.
+
+The local installation is possible but not recommended, to do that:
+```shell
+python scripts/workflows/package_workflow.py # Necessary, do not skip!
+pip install -e .
+```
+
+## Repository Structure
+
+```
+.
+├── dexmate_urdf/
+│   └── (Python scripts for URDF/SRDF generation and visualization)
+└── robots/
+    ├── arms/
+    ├── hands/
+    ├── assembly/
+    └── humanoid/
+```
+
+### Key Directories
+
+- `dexmate_urdf/`: Contains Python scripts for URDF/SRDF file generation and visualization.
+- `robots/`: Houses the URDF and SRDF files for different robot configurations.
+
+### Robot Model Types
+
+We provide four categories of robot models:
+
+1. **Arms**: Robotic arms without end-effectors.
+2. **Hands**: End-effectors (robotic hands) for the arms.
+3. **Assembly**: Complete arm and hand combinations.
+4. **Humanoid**: Full-body humanoid robots, including head, arms, hands, torso, and legs.
+
+### File Structure for Each Robot Model
+
+Regardless of the robot type, each model follows this structure:
+
+```
+robot_name/
+├── robot_name.urdf
+├── robot_name.srdf
+├── robot_name_variations.urdf
+├── meshes/
+    ├── visual/
+    │   └── ... (visual mesh files in GLB format)
+    └── collision/
+        └── ... (collision mesh files in OBJ format)
+```
+
+**Note**: To optimize storage and maintain consistency, the hand and arm meshes for assembly and humanoid models reference the files in their respective arm and hand model directories.
+
+## Development
+
+### Pre-commit Hooks
+
+This repository uses pre-commit hooks to ensure code quality and consistency. One of the hooks automatically generates type stub files (`.pyi`) before pushing to GitHub.
+
+The pre-commit hooks are configured to:
+- Run code formatting and linting on commit
+- Generate type stubs for better code completion
+- Exclude the `robots` directory from all formatting and linting operations
+
+To set up pre-commit:
+
+1. Install the development dependencies:
+   ```bash
+   pip install -e ".[dev]"
+   ```
+
+2. Install the pre-commit hooks:
+   ```bash
+   pre-commit install
+   ```
