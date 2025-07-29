@@ -1,0 +1,11 @@
+[console_scripts]
+llmtrace = llmtrace.cli.cli:cli
+
+[llmtrace.backends]
+postgresql = llmtrace.storage.postgresql:PostgreSQLStorageBackend
+sqlite = llmtrace.storage.sqlite:SQLiteStorageBackend
+
+[llmtrace.instrumentors]
+huggingface = llmtrace.instrumentation.huggingface:HFInstrumentor
+langchain = llmtrace.instrumentation.langchain:LangChainCallbackHandler
+openai = llmtrace.instrumentation.openai:OpenAIInstrumentor

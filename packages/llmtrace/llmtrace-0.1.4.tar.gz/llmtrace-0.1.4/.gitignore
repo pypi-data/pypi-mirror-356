@@ -1,0 +1,10 @@
+-e "\n# Python cache\n__pycache__/\n*.py[cod]\n# Entornos\n.venv/\n# Secrets\n.env\n" 
+
+# Python cache
+__pycache__/
+*.py[cod]
+# Entornos
+.venv/
+# Secrets
+.env
+

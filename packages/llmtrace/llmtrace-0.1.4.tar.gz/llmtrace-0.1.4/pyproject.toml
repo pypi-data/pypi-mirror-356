@@ -1,0 +1,111 @@
+[project]
+name = "llmtrace"
+version = "0.1.4"
+description = "A lightweight LLM observability and evaluation framework."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["llm", "observability", "tracing", "evaluation", "ai"]
+authors = [
+  { name = "Your Name", email = "your.email@example.com" } # ¡Actualiza esto!
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha", # Indica que es una versión inicial
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+  "Flask>=2.0.0",
+  "Flask-Cors>=3.0.10",
+  "click>=8.0.0",
+  "python-dotenv>=1.0.0", # Para cargar .env
+  "zstandard>=0.17.0",    # Para compresión de datos (si se usa)
+  "alembic>=1.13.0",      # Para migraciones de DB
+  "sqlalchemy>=2.0.0",    # Base para conexiones DB
+  "aiosqlite>=0.19.0",    # Para SQLite asíncrono
+  "asyncpg>=0.29.0",      # Para PostgreSQL asíncrono
+  "httpx>=0.27.0",        # Cliente HTTP asíncrono (para instrumentadores)
+  "pydantic>=2.0.0",      # Para modelos de datos (tracing/models.py)
+  "python-json-logger>=3.0.0", # Para logs en formato JSON
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0.0",
+  "pytest-asyncio>=0.21.0",
+  "black>=23.0.0",
+  "isort>=5.0.0",
+  "flake8>=6.0.0",
+  "sphinx>=7.0.0",
+  "sphinx_rtd_theme>=2.0.0",
+  "myst-parser>=2.0.0",
+  "pre-commit>=3.0.0",
+  "twine>=4.0.0", # Para subir a PyPI
+  "build>=1.0.0", # Para construir el paquete
+]
+openai = ["openai>=1.14.0"] # Versión mínima testeada
+huggingface = ["transformers>=4.38.0"] # Versión mínima testeada
+langchain = ["langchain>=0.1.0", "langchain-openai>=0.0.5"] # Versión mínima testeada
+eval = ["nltk>=3.8.0", "scikit-learn>=1.0.0"] # Dependencias para evaluación
+web = ["gunicorn>=20.0.0"] # Dependencia para el servidor web del dashboard
+all = [ # Nuevo extra para instalar todas las dependencias opcionales
+  "llmtrace[openai]",
+  "llmtrace[huggingface]",
+  "llmtrace[langchain]",
+  "llmtrace[eval]",
+  "llmtrace[web]",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-org/llmtrace" # ¡Actualiza esto!
+Documentation = "https://llmtrace.readthedocs.io" # ¡Actualiza esto!
+Repository = "https://github.com/your-org/llmtrace" # ¡Actualiza esto!
+Issues = "https://github.com/your-org/llmtrace/issues" # ¡Actualiza esto!
+
+[project.scripts]
+llmtrace = "llmtrace.cli.cli:cli"
+
+[project.entry-points."llmtrace.instrumentors"] # Namespace para instrumentadores
+openai = "llmtrace.instrumentation.openai:OpenAIInstrumentor"
+huggingface = "llmtrace.instrumentation.huggingface:HFInstrumentor"
+langchain = "llmtrace.instrumentation.langchain:LangChainCallbackHandler" # O la clase principal del handler
+
+[project.entry-points."llmtrace.backends"] # Namespace para backends de almacenamiento
+sqlite = "llmtrace.storage.sqlite:SQLiteStorageBackend"
+postgresql = "llmtrace.storage.postgresql:PostgreSQLStorageBackend"
+
+[project.entry-points."llmtrace.evaluators"] # Namespace para evaluadores
+# Ejemplo: "bleu" = "llmtrace.evaluation.metrics:BLEUEvaluator"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm[toml]>=6.0"] # setuptools_scm para versionado automático
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["llmtrace*"]
+
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+local_scheme = "no-local-version"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--strict-markers --strict-content"

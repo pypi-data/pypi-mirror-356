@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMTrace Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 0; background-color: #f4f4f4; color: #333; display: flex; min-height: 100vh; }
+        .sidebar { width: 250px; background-color: #2c3e50; color: white; padding: 20px; box-shadow: 2px 0 5px rgba(0,0,0,0.1); }
+        .sidebar h2 { color: #ecf0f1; margin-top: 0; }
+        .sidebar ul { list-style-type: none; padding: 0; }
+        .sidebar li { margin-bottom: 10px; }
+        .sidebar a { color: #ecf0f1; text-decoration: none; display: block; padding: 8px 10px; border-radius: 4px; }
+        .sidebar a:hover, .sidebar a.active { background-color: #34495e; }
+
+        .main-content { flex-grow: 1; padding: 20px; }
+        h1 { color: #0056b3; margin-top: 0; }
+        .section { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .section h2 { margin-top: 0; color: #0056b3; }
+        .filter-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 15px; }
+        .filter-controls label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .filter-controls input, .filter-controls select, .filter-controls button { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        .filter-controls button { background-color: #007bff; color: white; cursor: pointer; }
+        .filter-controls button:hover { background-color: #0056b3; }
+
+        .session-list-item { background-color: #f9f9f9; margin-bottom: 5px; padding: 10px; border-radius: 4px; border: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        .session-list-item button { padding: 6px 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .session-list-item button:hover { background-color: #218838; }
+
+        .session-detail-view { display: none; } /* Hidden by default */
+        .session-detail-view h3 { color: #0056b3; margin-top: 15px; }
+        .message-item { background-color: #e9ecef; padding: 10px; border-radius: 5px; margin-bottom: 8px; border-left: 4px solid #007bff; }
+        .message-item.assistant { border-left-color: #28a745; }
+        .message-item.system { border-left-color: #6c757d; }
+        .message-item.error { border-left-color: #dc3545; }
+        .message-item strong { display: block; margin-bottom: 5px; }
+        .message-item pre { background-color: #f8f9fa; padding: 8px; border-radius: 4px; overflow-x: auto; white-space: pre-wrap; word-break: break-word; }
+
+        .metric-item, .feedback-item, .error-item { background-color: #f0f0f0; padding: 8px; border-radius: 4px; margin-bottom: 5px; }
+        .error-item { background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+        .feedback-item { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+
+        .chart-container { position: relative; height: 400px; width: 100%; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>LLMTrace</h2>
+        <ul>
+            <li><a href="#" onclick="showSection('sessions-section', this)" class="active">Sessions</a></li>
+            <li><a href="#" onclick="showSection('metrics-section', this)">Metrics</a></li>
+            <li><a href="#" onclick="showSection('about-section', this)">About</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Dashboard</h1>
+
+        <div id="sessions-section" class="section">
+            <h2>Sessions</h2>
+            <div class="filter-controls">
+                <div>
+                    <label for="filter-session-name">Session Name:</label>
+                    <input type="text" id="filter-session-name" placeholder="e.g., chat_de_prueba">
+                </div>
+                <div>
+                    <label for="filter-user-id">User ID:</label>
+                    <input type="text" id="filter-user-id" placeholder="e.g., user_123">
+                </div>
+                <div>
+                    <label for="filter-model-name">Model Name:</label>
+                    <input type="text" id="filter-model-name" placeholder="e.g., gpt-4o">
+                </div>
+                <div>
+                    <label for="filter-message-content">Message Content:</label>
+                    <input type="text" id="filter-message-content" placeholder="e.g., brave knight">
+                </div>
+                <div>
+                    <label for="filter-start-time">Start Date (YYYY-MM-DD):</label>
+                    <input type="date" id="filter-start-time">
+                </div>
+                <div>
+                    <label for="filter-end-time">End Date (YYYY-MM-DD):</label>
+                    <input type="date" id="filter-end-time">
+                </div>
+                <div>
+                    <label for="filter-min-tokens">Min Tokens:</label>
+                    <input type="number" id="filter-min-tokens" placeholder="e.g., 100">
+                </div>
+                <div>
+                    <label for="filter-max-tokens">Max Tokens:</label>
+                    <input type="number" id="filter-max-tokens" placeholder="e.g., 1000">
+                </div>
+                <div>
+                    <label for="filter-min-cost">Min Cost:</label>
+                    <input type="number" step="0.0001" id="filter-min-cost" placeholder="e.g., 0.001">
+                </div>
+                <div>
+                    <label for="filter-max-cost">Max Cost:</label>
+                    <input type="number" step="0.0001" id="filter-max-cost" placeholder="e.g., 0.01">
+                </div>
+                <button onclick="fetchSessions()">Apply Filters</button>
+            </div>
+            <div id="sessions-list"></div>
+
+            <div id="session-detail-section" class="section session-detail-view">
+                <button onclick="hideSessionDetails()">Back to Sessions</button>
+                <h2 id="detail-session-name">Session Details: <span id="detail-session-id"></span></h2>
+                <p><strong>Start:</strong> <span id="detail-start-time"></span></p>
+                <p><strong>End:</strong> <span id="detail-end-time"></span></p>
+                <p><strong>Total Tokens:</strong> <span id="detail-total-tokens"></span></p>
+                <p><strong>Total Cost:</strong> $<span id="detail-total-cost"></span></p>
+                <p><strong>User ID:</strong> <span id="detail-user-id"></span></p>
+
+                <h3>Conversation</h3>
+                <div id="detail-messages"></div>
+
+                <h3>Metrics</h3>
+                <div id="detail-metrics"></div>
+
+                <h3>Feedback</h3>
+                <div id="detail-feedback"></div>
+
+                <h3>Errors</h3>
+                <div id="detail-errors"></div>
+            </div>
+        </div>
+
+        <div id="metrics-section" class="section" style="display: none;">
+            <h2>Aggregated Metrics</h2>
+            <ul id="metrics-list"></ul>
+            <p><strong>Average Session Duration:</strong> <span id="avg-session-duration">N/A</span> seconds</p>
+
+            <h2>Metrics Time Series</h2>
+            <div class="filter-controls">
+                <div>
+                    <label for="chart-metric-select">Select Metric:</label>
+                    <select id="chart-metric-select" onchange="fetchMetricsTimeSeries()">
+                        <option value="openai_total_tokens">OpenAI Total Tokens</option>
+                        <option value="openai_cost">OpenAI Cost</option>
+                        <option value="langchain_total_tokens">LangChain Total Tokens</option>
+                        <option value="langchain_cost">LangChain Cost</option>
+                        <option value="huggingface_total_tokens">HuggingFace Total Tokens</option>
+                        <option value="huggingface_cost">HuggingFace Cost</option>
+                        <option value="static_test_pass_rate">Static Test Pass Rate</option>
+                        <option value="llm_judge_score_msg_1">LLM Judge Score (Msg 1)</option>
+                        <option value="sentiment_score_msg_1">Sentiment Score (Msg 1)</option>
+                        <option value="topic_relevancy_score_msg_1">Topic Relevancy Score (Msg 1)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="chart-interval-select">Time Interval:</label>
+                    <select id="chart-interval-select" onchange="fetchMetricsTimeSeries()">
+                        <option value="hour">Hourly</option>
+                        <option value="day">Daily</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="chart-start-date">Start Date:</label>
+                    <input type="date" id="chart-start-date" onchange="fetchMetricsTimeSeries()">
+                </div>
+                <div>
+                    <label for="chart-end-date">End Date:</label>
+                    <input type="date" id="chart-end-date" onchange="fetchMetricsTimeSeries()">
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="metricsChart"></canvas>
+            </div>
+
+            <h2>Model Token Usage</h2>
+            <div class="chart-container">
+                <canvas id="modelUsageChart"></canvas>
+            </div>
+
+            <h2>Feedback Score Distribution</h2>
+            <div class="chart-container">
+                <canvas id="feedbackDistributionChart"></canvas>
+            </div>
+
+            <h2>Error Type Counts</h2>
+            <div class="chart-container">
+                <canvas id="errorTypesChart"></canvas>
+            </div>
+        </div>
+
+        <div id="about-section" class="section" style="display: none;">
+            <h2>About LLMTrace</h2>
+            <p>LLMTrace is an open-source Python library for LLM application observability and evaluation. It helps you track, log, and analyze interactions with Large Language Models.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Automatic instrumentation for popular LLM frameworks (OpenAI, LangChain, HuggingFace).</li>
+                <li>Session-based logging of prompts, responses, tokens, costs, metrics, feedback, and errors.</li>
+                <li>SQLite database for local, persistent storage.</li>
+                <li>Programmatic API for data retrieval.</li>
+                <li>Web-based dashboard for visualization and analysis.</li>
+                <li>CLI for common tasks like listing sessions, showing details, and exporting data.</li>
+            </ul>
+            <p>For more information, visit the project's GitHub repository.</p>
+        </div>
+    </div>
+
+    <script>
+        let metricsChartInstance; // Global variable for Chart.js instance for time series
+        let modelUsageChartInstance;
+        let feedbackDistributionChartInstance;
+        let errorTypesChartInstance;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchSessions();
+            fetchAggregatedMetrics();
+            fetchAvgSessionDuration();
+            fetchMetricsTimeSeries();
+            fetchModelUsage();
+            fetchFeedbackDistribution();
+            fetchErrorTypes();
+        });
+
+        function showSection(sectionId, clickedElement) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+
+            document.querySelectorAll('.sidebar a').forEach(link => {
+                link.classList.remove('active');
+            });
+            clickedElement.classList.add('active');
+            
+            // Hide session details when switching sections
+            document.getElementById('session-detail-section').style.display = 'none';
+            document.getElementById('sessions-list').style.display = 'block';
+        }
+
+        function hideSessionDetails() {
+            document.getElementById('session-detail-section').style.display = 'none';
+            document.getElementById('sessions-list').style.display = 'block';
+        }
+
+        async function fetchSessions() {
+            const sessionName = document.getElementById('filter-session-name').value;
+            const userId = document.getElementById('filter-user-id').value;
+            const modelName = document.getElementById('filter-model-name').value;
+            const messageContent = document.getElementById('filter-message-content').value;
+            const startDate = document.getElementById('filter-start-time').value;
+            const endDate = document.getElementById('filter-end-time').value;
+            const minTokens = document.getElementById('filter-min-tokens').value;
+            const maxTokens = document.getElementById('filter-max-tokens').value;
+            const minCost = document.getElementById('filter-min-cost').value;
+            const maxCost = document.getElementById('filter-max-cost').value;
+
+
+            const params = new URLSearchParams();
+            if (sessionName) params.append('session_name', sessionName);
+            if (userId) params.append('user_id', userId);
+            if (modelName) params.append('model_name', modelName);
+            if (messageContent) params.append('message_content_search', messageContent);
+            if (startDate) params.append('start_time', startDate + ' 00:00:00');
+            if (endDate) params.append('end_time', endDate + ' 23:59:59');
+            if (minTokens) params.append('min_tokens', minTokens);
+            if (maxTokens) params.append('max_tokens', maxTokens);
+            if (minCost) params.append('min_cost', minCost);
+            if (maxCost) params.append('max_cost', maxCost);
+
+            const response = await fetch(`/api/sessions?${params.toString()}`);
+            const sessions = await response.json();
+            const list = document.getElementById('sessions-list');
+            list.innerHTML = '';
+            if (sessions.length === 0) {
+                list.innerHTML = '<p>No sessions found matching your criteria.</p>';
+                return;
+            }
+            sessions.forEach(session => {
+                const li = document.createElement('div');
+                li.className = 'session-list-item';
+                li.innerHTML = `
+                    <div>
+                        <strong>Session ID:</strong> ${session.id}<br>
+                        <strong>Name:</strong> ${session.name || 'N/A'}<br>
+                        <strong>User ID:</strong> ${session.user_id || 'N/A'}<br>
+                        <strong>Start:</strong> ${new Date(session.start_time).toLocaleString()}<br>
+                        <strong>End:</strong> ${session.end_time ? new Date(session.end_time).toLocaleString() : 'N/A'}<br>
+                        <strong>Tokens:</strong> ${session.total_tokens}<br>
+                        <strong>Cost:</strong> $${session.total_cost.toFixed(4)}
+                    </div>
+                    <button onclick="fetchSessionDetails(${session.id})">Details</button>
+                `;
+                list.appendChild(li);
+            });
+        }
+
+        async function fetchSessionDetails(sessionId) {
+            const response = await fetch(`/api/sessions/${sessionId}`);
+            const details = await response.json();
+            
+            document.getElementById('detail-session-id').textContent = details.session.id;
+            document.getElementById('detail-session-name').textContent = `Session Details: ${details.session.name || 'N/A'} (ID: ${details.session.id})`;
+            document.getElementById('detail-start-time').textContent = new Date(details.session.start_time).toLocaleString();
+            document.getElementById('detail-end-time').textContent = details.session.end_time ? new Date(details.session.end_time).toLocaleString() : 'N/A';
+            document.getElementById('detail-total-tokens').textContent = details.session.total_tokens;
+            document.getElementById('detail-total-cost').textContent = details.session.total_cost.toFixed(4);
+            document.getElementById('detail-user-id').textContent = details.session.user_id || 'N/A';
+
+            const messagesDiv = document.getElementById('detail-messages');
+            messagesDiv.innerHTML = '';
+            if (details.messages.length === 0) {
+                messagesDiv.innerHTML = '<p>No messages for this session.</p>';
+            } else {
+                details.messages.forEach(msg => {
+                    const msgDiv = document.createElement('div');
+                    msgDiv.className = `message-item ${msg.role}`;
+                    msgDiv.innerHTML = `
+                        <strong>${msg.role.toUpperCase()} (${new Date(msg.timestamp).toLocaleTimeString()}):</strong>
+                        <pre>${msg.content}</pre>
+                        <small>Tokens In: ${msg.tokens_in}, Tokens Out: ${msg.tokens_out}, Cost: $${msg.cost.toFixed(4)} ${msg.model_name ? `(Model: ${msg.model_name})` : ''}</small>
+                    `;
+                    messagesDiv.appendChild(msgDiv);
+                });
+            }
+
+            const metricsDiv = document.getElementById('detail-metrics');
+            metricsDiv.innerHTML = '';
+            if (details.metrics.length === 0) {
+                metricsDiv.innerHTML = '<p>No metrics for this session.</p>';
+            } else {
+                details.metrics.forEach(metric => {
+                    const metricDiv = document.createElement('div');
+                    metricDiv.className = 'metric-item';
+                    metricDiv.innerHTML = `<strong>${metric.name}:</strong> ${metric.value.toFixed(4)} (${new Date(metric.timestamp).toLocaleTimeString()})`;
+                    metricsDiv.appendChild(metricDiv);
+                });
+            }
+
+            const feedbackDiv = document.getElementById('detail-feedback');
+            feedbackDiv.innerHTML = '';
+            if (details.feedback.length === 0) {
+                feedbackDiv.innerHTML = '<p>No feedback for this session.</p>';
+            } else {
+                details.feedback.forEach(fb => {
+                    const fbDiv = document.createElement('div');
+                    fbDiv.className = 'feedback-item';
+                    fbDiv.innerHTML = `<strong>${fb.type.toUpperCase()} (${new Date(fb.timestamp).toLocaleTimeString()}):</strong> Score: ${fb.score}, Comment: ${fb.comment || 'N/A'} ${fb.message_id ? `(Message ID: ${fb.message_id})` : ''}`;
+                    feedbackDiv.appendChild(fbDiv);
+                });
+            }
+
+            const errorsDiv = document.getElementById('detail-errors');
+            errorsDiv.innerHTML = '';
+            if (details.errors.length === 0) {
+                errorsDiv.innerHTML = '<p>No errors for this session.</p>';
+            } else {
+                details.errors.forEach(err => {
+                    const errDiv = document.createElement('div');
+                    errDiv.className = 'error-item';
+                    errDiv.innerHTML = `
+                        <strong>Error (${new Date(err.timestamp).toLocaleTimeString()}):</strong> ${err.message}<br>
+                        <small>Type: ${err.error_type || 'N/A'}${err.message_id ? `, Message ID: ${err.message_id}` : ''}</small>
+                        ${err.details ? `<pre>${err.details}</pre>` : ''}
+                    `;
+                    errorsDiv.appendChild(errDiv);
+                });
+            }
+
+            document.getElementById('sessions-list').style.display = 'none';
+            document.getElementById('session-detail-section').style.display = 'block';
+        }
+
+        function renderChart(chartInstance, canvasId, type, labels, data, labelText) {
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            if (chartInstance) {
+                chartInstance.destroy();
+            }
+            chartInstance = new Chart(ctx, {
+                type: type,
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: labelText,
+                        data: data,
+                        backgroundColor: type === 'bar' ? 'rgba(0, 123, 255, 0.7)' : 'rgba(75, 192, 192, 0.7)',
+                        borderColor: type === 'bar' ? 'rgba(0, 123, 255, 1)' : 'rgb(75, 192, 192)',
+                        tension: 0.1,
+                        fill: false
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            type: 'category',
+                            title: {
+                                display: true,
+                                text: type === 'line' ? 'Time' : labelText.split(' ')[0] // e.g., 'Model' or 'Score'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Value'
+                            }
+                        }
+                    }
+                }
+            });
+            return chartInstance;
+        }
+
+        async function fetchMetricsTimeSeries() {
+            const metricName = document.getElementById('chart-metric-select').value;
+            const interval = document.getElementById('chart-interval-select').value;
+            const startDate = document.getElementById('chart-start-date').value;
+            const endDate = document.getElementById('chart-end-date').value;
+
+            const params = new URLSearchParams();
+            params.append('name', metricName);
+            params.append('interval', interval);
+            if (startDate) params.append('start_date', startDate);
+            if (endDate) params.append('end_date', endDate);
+
+            const response = await fetch(`/api/metrics/time_series?${params.toString()}`);
+            const data = await response.json();
+
+            const labels = data.map(item => item.time_bucket);
+            const values = data.map(item => item.total_value);
+
+            metricsChartInstance = renderChart(metricsChartInstance, 'metricsChart', 'line', labels, values, metricName);
+        }
+
+        async function fetchAggregatedMetrics() {
+            const response = await fetch('/api/metrics/aggregated');
+            const summary = await response.json();
+            const list = document.getElementById('metrics-list');
+            list.innerHTML = '';
+            
+            list.innerHTML += `<li><strong>Total Sessions:</strong> ${summary.total_sessions || 0}</li>`;
+            list.innerHTML += `<li><strong>Total Messages:</strong> ${summary.total_messages || 0}</li>`;
+            list.innerHTML += `<li><strong>Overall Tokens Used:</strong> ${summary.total_tokens_overall || 0}</li>`;
+            list.innerHTML += `<li><strong>Overall Estimated Cost:</strong> $${(summary.total_cost_overall || 0.0).toFixed(4)}</li>`;
+            list.innerHTML += `<li><strong>Average Tokens per Session:</strong> ${(summary.avg_tokens_per_session || 0.0).toFixed(2)}</li>`;
+            list.innerHTML += `<li><strong>Average Cost per Session:</strong> $${(summary.avg_cost_per_session || 0.0).toFixed(4)}</li>`;
+            list.innerHTML += `<li><strong>Session Error Rate:</strong> ${(summary.error_rate_sessions || 0.0).toFixed(2)}%</li>`;
+            list.innerHTML += `<li><strong>Average Feedback Score (Ratings):</strong> ${summary.avg_feedback_score !== 'N/A' ? summary.avg_feedback_score.toFixed(2) : 'N/A'}</li>`;
+
+            list.innerHTML += `<li><strong>Top 3 Error Types:</strong><ul>`;
+            if (summary.top_error_types && summary.top_error_types.length > 0) {
+                summary.top_error_types.forEach(err_type => {
+                    list.innerHTML += `<li>- ${err_type.error_type || 'N/A'}: ${err_type.count} occurrences</li>`;
+                });
+            } else {
+                list.innerHTML += `<li>No errors recorded.</li>`;
+            }
+            list.innerHTML += `</ul></li>`;
+
+            list.innerHTML += `<li><strong>Top 3 Models by Token Usage:</strong><ul>`;
+            if (summary.top_models_by_tokens && summary.top_models_by_tokens.length > 0) {
+                summary.top_models_by_tokens.forEach(model_data => {
+                    list.innerHTML += `<li>- ${model_data.model_name}: ${model_data.total_tokens} tokens</li>`;
+                });
+            } else {
+                list.innerHTML += `<li>No model usage recorded.</li>`;
+            }
+            list.innerHTML += `</ul></li>`;
+        }
+
+        async function fetchAvgSessionDuration() {
+            const response = await fetch('/api/metrics/session_duration_avg');
+            const data = await response.json();
+            document.getElementById('avg-session-duration').textContent = data.avg_session_duration_seconds.toFixed(2);
+        }
+
+        async function fetchModelUsage() {
+            const response = await fetch('/api/metrics/model_usage');
+            const data = await response.json();
+            const labels = data.map(item => item.model_name);
+            const values = data.map(item => item.total_tokens);
+            modelUsageChartInstance = renderChart(modelUsageChartInstance, 'modelUsageChart', 'bar', labels, values, 'Model Tokens');
+        }
+
+        async function fetchFeedbackDistribution() {
+            const response = await fetch('/api/metrics/feedback_distribution');
+            const data = await response.json();
+            const labels = data.map(item => `Score ${item.score}`);
+            const values = data.map(item => item.count);
+            feedbackDistributionChartInstance = renderChart(feedbackDistributionChartInstance, 'feedbackDistributionChart', 'bar', labels, values, 'Feedback Count');
+        }
+
+        async function fetchErrorTypes() {
+            const response = await fetch('/api/metrics/error_types');
+            const data = await response.json();
+            const labels = data.map(item => item.error_type || 'Unknown');
+            const values = data.map(item => item.count);
+            errorTypesChartInstance = renderChart(errorTypesChartInstance, 'errorTypesChart', 'bar', labels, values, 'Error Count');
+        }
+    </script>
+</body>
+</html>

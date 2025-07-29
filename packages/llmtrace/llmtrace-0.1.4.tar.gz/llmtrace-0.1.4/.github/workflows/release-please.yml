@@ -1,0 +1,64 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        id: release
+        with:
+          release-type: python
+          package-name: llmtrace
+          # Configuración para Conventional Commits
+          # feat: nueva característica
+          # fix: corrección de bug
+          # chore: cambios de mantenimiento
+          # docs: cambios en la documentación
+          # build: cambios en el sistema de build o dependencias externas
+          # ci: cambios en los archivos y scripts de CI
+          # perf: cambios que mejoran el rendimiento
+          # refactor: cambios que no añaden funcionalidad ni corrigen bugs
+          # revert: revierte un commit anterior
+          # style: cambios que no afectan el significado del código (espacios en blanco, formato, puntos y comas)
+          # test: añadir tests que faltan o corregir tests existentes
+          # Puedes personalizar los tipos de commits que disparan un nuevo lanzamiento
+          # default-branch: main # Ya es el valor por defecto
+          # changelog-types: # Opcional, para personalizar el CHANGELOG
+          #   - type: feat
+          #     section: "Features"
+          #     hidden: false
+          #   - type: fix
+          #     section: "Bug Fixes"
+          #     hidden: false
+          #   - type: chore
+          #     section: "Other Changes"
+          #     hidden: false
+          #   - type: docs
+          #     section: "Documentation"
+          #     hidden: false
+          #   - type: build
+          #     section: "Build System"
+          #     hidden: false
+          #   - type: ci
+          #     section: "CI/CD"
+          #     hidden: false
+          #   - type: perf
+          #     section: "Performance Improvements"
+          #     hidden: false
+          #   - type: refactor
+          #     section: "Refactoring"
+          #     hidden: false
+          #   - type: revert
+          #     section: "Reverts"
+          #     hidden: false
+          #   - type: style
+          #     section: "Code Style"
+          #     hidden: true # No mostrar en el CHANGELOG
+          #   - type: test
+          #     section: "Tests"
+          #     hidden: true # No mostrar en el CHANGELOG

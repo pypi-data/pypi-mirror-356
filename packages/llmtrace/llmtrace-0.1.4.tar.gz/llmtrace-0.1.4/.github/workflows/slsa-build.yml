@@ -1,0 +1,52 @@
+name: SLSA Build and Sign
+
+on:
+  release:
+    types: [published] # Trigger cuando se publica una nueva release (creada por release-please)
+
+permissions:
+  contents: write # Para subir la provenance
+  id-token: write # Para firmar con OIDC
+
+jobs:
+  build-and-sign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # Usar la última versión de Python 3
+          cache: 'pip'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+
+      - name: Build sdist and wheel
+        run: python -m build --sdist --wheel --outdir dist/
+
+      - name: Generate SLSA Provenance and Sign
+        uses: slsa-framework/slsa-github-actions/builder@v2
+        with:
+          # Los artefactos a firmar y para los que se generará la provenance
+          # Asegúrate de que estos coincidan con los archivos generados por `python -m build`
+          # Por ejemplo: dist/*.tar.gz y dist/*.whl
+          # Nota: El patrón `dist/*` es común, pero ajusta si tus nombres de archivo son más específicos.
+          # Por ejemplo: `dist/llmtrace-*.tar.gz` `dist/llmtrace-*.whl`
+          # Para v0, usaremos un patrón más genérico y luego lo refinaremos.
+          provenance-name: 'llmtrace-provenance'
+          # Los artefactos se suben automáticamente al release de GitHub
+          # No es necesario un paso `actions/upload-artifact` separado para la provenance.
+          # Los artefactos de build (sdist, wheel) se subirán como parte del release.
+          # El builder se encarga de firmar los artefactos de build y subir la provenance.
+          # Asegúrate de que el `release-please` action suba los artefactos de build.
+          # Si `release-please` no sube los artefactos, necesitarás un paso adicional aquí
+          # para subirlos al release después de la firma.
+          # Para este ejemplo, asumimos que los artefactos ya están disponibles en el release
+          # o que el builder los subirá.
+          # Para PyPI, necesitarás un paso de `twine upload` separado después de la firma.
+          # Este workflow se enfoca en la provenance y la firma de los artefactos de GitHub Release.

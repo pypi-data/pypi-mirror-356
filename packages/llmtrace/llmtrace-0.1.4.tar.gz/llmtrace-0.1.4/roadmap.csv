@@ -1,0 +1,11 @@
+title,body,label,milestone
+Migrate initial schema,Create the first Alembic migration script to define the complete database schema for sessions, messages, metrics, feedback, and errors.,database,v0.1-core
+Implement async core,Ensure all core LLMTrace functions (init, session, log_message, get_sessions, etc.) are fully asynchronous and stable with aiosqlite and asyncpg.,core,v0.1-core
+OpenAI instrumentor,Verify and stabilize the OpenAI instrumentor to reliably capture prompts, responses, tokens, latencies, and errors.,instrumentation,v0.1-core
+CLI export JSON/CSV,Implement CLI commands for exporting session data in JSON and CSV formats.,cli,v0.1-core
+List sessions endpoint,Develop the API endpoint and basic UI for listing all recorded sessions in the web dashboard.,dashboard,v0.1-dashboard
+Session detail template,Create the web dashboard template to display detailed information for a single session, including messages, metrics, and feedback.,dashboard,v0.1-dashboard
+Chart.js metrics,Integrate Chart.js into the dashboard to visualize key metrics (e.g., latency, token usage) for sessions.,dashboard,v0.1-dashboard
+Add macOS-arm job,Add a GitHub Actions CI job specifically for macOS-arm64 (Apple Silicon) to prevent wheel failures and ensure compatibility.,ci,v0.1-ci-cd
+Windows CLI test,Implement a GitHub Actions CI job to test the LLMTrace CLI on Windows, addressing potential path or execution issues.,ci,v0.1-ci-cd
+Release-please action,Configure and integrate the release-please GitHub Action to automate semantic versioning, tag creation, and CHANGELOG generation.,ci,v0.1-ci-cd
