@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: newpyter
+Version: 0.6.0
+Summary: New jupyter
+Author: Alex Rogozhnikov
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: fsspec
+Requires-Dist: jupyter-server
+Requires-Dist: nbformat
+Requires-Dist: parsimonious
+Requires-Dist: tornado
+Provides-Extra: viewer
+Requires-Dist: fastapi~=0.85.1; extra == 'viewer'
+Requires-Dist: nbconvert~=7.2.2; extra == 'viewer'
