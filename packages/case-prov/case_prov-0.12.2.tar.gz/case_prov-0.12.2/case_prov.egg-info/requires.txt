@@ -1,0 +1,7 @@
+case_utils<0.17.0,>=0.16.0
+prov
+pydot<4.0.0
+pyshacl<0.27.0
+
+[testing]
+case_utils[testing]
