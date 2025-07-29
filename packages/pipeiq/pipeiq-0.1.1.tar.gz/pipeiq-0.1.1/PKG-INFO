@@ -1,0 +1,87 @@
+Metadata-Version: 2.3
+Name: pipeiq
+Version: 0.1.1
+Summary: PIPEIQ is an open-source framework that enables developers to seamlessly connect and orchestrate AI tools across the Web2 and Web3 ecosystems. It abstracts away the complexities of identity, messaging, and orchestration by providing standardized primitives for agent coordination, tool invocation, and cross-network integration.
+License: MIT
+Author: Shankar R
+Author-email: shankar@pipeiq.ai
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiohttp (>=3.12.13)
+Requires-Dist: base58 (>=2.1.1,<3.0.0)
+Requires-Dist: ratelimit (>=2.2.1,<3.0.0)
+Requires-Dist: requests (>=2.32.4)
+Requires-Dist: solana (>=0.36.7,<0.37.0)
+Project-URL: Repository, https://github.com/PIpeIQ/pipeiq-framework
+Description-Content-Type: text/markdown
+
+## Warning
+
+The software is in active development, and was not audited. Use at your own risk.
+
+# PIPEIQ Framework
+
+A decentralized agent protocol to connect AI tools across Web2 and Web3—models, MCP servers, decentralized compute, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Solana](https://img.shields.io/badge/built%20on-Solana-orange)](https://solana.com/)
+
+---
+
+## Overview
+PIPEIQ is an open-source framework that enables developers to seamlessly connect and orchestrate AI tools across the Web2 and Web3 ecosystems. It abstracts away the complexities of identity, messaging, and orchestration by providing standardized primitives for agent coordination, tool invocation, and cross-network integration.
+
+With native support for models, MCP servers, decentralized compute providers, and on-chain identity frameworks, PIPEIQ aims to serve as a universal protocol layer for the AI economy—supporting autonomous, composable, and verifiable AI agents.
+
+---
+
+## 📦 Installation
+
+You can install `pipeiq` directly from PyPI:
+
+```bash
+pip install pipeiq
+```
+
+## Key Features
+
+1. Integration with Phantom Wallet 
+2. Integration with Prime Intellect for Decentralized Compute
+3. Integration with Worldcoin for proof-of-personhood authentication
+4. Integration for Know Your Customer (KYC) operation with Persona
+
+---
+
+## 🚀 Usage
+
+We currently support a way to connect to decentralized resources. Usage examples can be found in the [`examples/`](./examples) folder.
+
+---
+
+## Contributing
+We welcome contributions from framework developers, cryptographers, and AI researchers. To get started:
+
+1. Fork this repository
+2. Open a Pull Request (PR) with clear description
+
+---
+
+## License
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## Links
+- 🔗 [Whitepaper](https://pipeiq.ai/whitepaper)
+- 🌐 [Website](https://pipeiq.ai)
+- ✉️ Join our community: `discord.gg/pipeiq`
+- X.com/pipeiqai
+
+---
+
+*PIPEIQ is building the decentralized substrate for AI. Join us.*
+
