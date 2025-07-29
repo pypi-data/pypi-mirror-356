@@ -1,0 +1,3 @@
+[console_scripts]
+netmind-parse-pdf-mcp=netmind_parse_pdf_mcp:main
+
