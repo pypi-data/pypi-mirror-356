@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: govinfo
+Version: 0.1.1
+Summary: Add your description here
+Author-email: William Blackerby <wmblackerby@gmail.com>
+Requires-Python: >=3.13
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.11.4
+Requires-Dist: pytest>=8.4.0
