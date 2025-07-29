@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: sphinx_click_custom
+Version: 0.1.0
+Summary: Sphinx extension for documenting Click commands with custom get_help() methods.
+Author-email: Rhet Turnbull <rturnbull+git@gmail.com>
+Requires-Python: >=3.10
+License-Expression: MIT
+License-File: LICENSE
+Requires-Dist: sphinx>=4.0
+Requires-Dist: click>=7.0
+Requires-Dist: docutils
+Requires-Dist: pytest>=6.0 ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: flake8 ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Home, https://github.com/RhetTbull/sphinx_click_custom
+Provides-Extra: dev
+Provides-Extra: test
