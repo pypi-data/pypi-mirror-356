@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: pyksh_oyb
+Version: 0.1.0
+Summary: 将多个Python脚本文件内容以对象属性方式集中管理，便于查看和引用
+Home-page: 
+Author: sakimi
+Author-email: w9293846@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# pyksh
+
+将多个Python脚本文件内容以对象属性方式集中管理，便于查看和引用。
+
+- `scda.all`：按文件分段输出全部代码文本
+- `scda.t1` ~ `scda.t7`：分别输出7个文件的代码文本 
