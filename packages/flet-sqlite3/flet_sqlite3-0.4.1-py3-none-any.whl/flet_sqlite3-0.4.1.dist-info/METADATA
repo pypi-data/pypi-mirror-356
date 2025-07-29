@@ -1,0 +1,97 @@
+Metadata-Version: 2.4
+Name: flet_sqlite3
+Version: 0.4.1
+Summary: Приложение для учета партнеров и расчета скидок с использованием Flet и SQLite3
+Home-page: https://github.com/noon/flet_sqlite3
+Author: Noon
+Author-email: noon@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyio==4.9.0
+Requires-Dist: certifi==2025.6.15
+Requires-Dist: et_xmlfile==2.0.0
+Requires-Dist: flet==0.28.3
+Requires-Dist: flet-desktop==0.28.3
+Requires-Dist: h11==0.16.0
+Requires-Dist: httpcore==1.0.9
+Requires-Dist: httpx==0.28.1
+Requires-Dist: idna==3.10
+Requires-Dist: numpy==2.3.0
+Requires-Dist: oauthlib==3.2.2
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: pandas==2.3.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2025.2
+Requires-Dist: repath==0.9.0
+Requires-Dist: six==1.17.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: typing_extensions==4.14.0
+Requires-Dist: tzdata==2025.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# flet_sqlite3
+
+Приложение для учета партнеров и расчета скидок с использованием Flet и SQLite3.
+
+## Описание
+
+Данное приложение позволяет вести учет партнеров, продуктов и продаж. Основные функции:
+
+- Управление типами продуктов
+- Управление типами материалов
+- Управление партнерами
+- Управление продуктами
+- Учет продаж продуктов партнерами
+- Автоматический расчет скидок для партнеров на основе объема продаж
+
+## Установка
+
+```bash
+pip install flet_sqlite3
+```
+
+## Использование
+
+```python
+from flet_sqlite3 import main
+
+if __name__ == "__main__":
+    main.main(main.ft.app(target=main.main))
+```
+
+## Расчет скидок
+
+Скидка для партнера рассчитывается на основании продажи продукции за весь период работы:
+
+- до 10000 – 0%
+- от 10000 до 50000 – 5%
+- от 50000 до 300000 – 10%
+- более 300000 – 15%
+
+## Требования
+
+- Python 3.6+
+- Flet
+- SQLite3
+- openpyxl
+
+## Тестирование
+
+Для запуска тестов используйте:
+
+```bash
+python -m unittest discover
+``` 
