@@ -1,0 +1,2 @@
+[console_scripts]
+fullscope-mcp-server = fullscope_mcp_server:main
