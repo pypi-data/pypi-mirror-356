@@ -1,0 +1,12 @@
+q_analysis-0.1.0.dist-info/METADATA,sha256=QUqNMhZYa0udcsCj-6J-5Ew5u3xMKobQ0ll4NFlO4O4,3826
+q_analysis-0.1.0.dist-info/WHEEL,sha256=N6zUR50fYZCOxrD1aTafhfux3AcrALVK4666a8sQaog,136
+q_analysis/__init__.py,sha256=rd54e9qajv9WBW8LwIg6DvyTuo6PQHbXDJSwlr0S_gQ,916
+q_analysis/datasets.py,sha256=BZG1IX_RPD7mxEEsm7OmupJys-xBuKDTZf9khnivzMk,2919
+q_analysis/examples/__init__.py,sha256=4hsF10U0i813ruJZbpCp6zFgU-Q59RgeUAxhgNMeZ1Y,675
+q_analysis/examples/scale_free_configurational.py,sha256=sLtvC7wSu9k4ibQwHmprM7HFTHkROezusxY8idBoQzk,2109
+q_analysis/q_analysis.pypy38-pp73-ppc_64-linux-gnu.so,sha256=STZiyPRZBEsl62RrBer-7xTzeHZC7IGZmqz01Nmedko,1209952
+q_analysis/simplicial_complex.py,sha256=ul1IJNExjt0Tvz_N7fpztb8a6RqyzQ9G2FtSzMH0VjI,32364
+q_analysis/stat.py,sha256=jBV5-iQRHnS1ISpZUEYGvWfjlHZOqc6_MHLsbEGmtns,2178
+q_analysis/transformers.py,sha256=HoJJNwD8B5ZRaLMqFt5yHQ66rSMEimnryVhphMk6ZD8,5178
+q_analysis/viz.py,sha256=NAcCuVfnY8RN8wRSIag3YI8X64OtFua_pgIeiQV9Y5A,3229
+q_analysis-0.1.0.dist-info/RECORD,,
