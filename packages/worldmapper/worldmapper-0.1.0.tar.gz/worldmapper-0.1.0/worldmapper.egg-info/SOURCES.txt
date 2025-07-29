@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_worldmapper.py
+worldmapper/__init__.py
+worldmapper/data.py
+worldmapper/world.json
+worldmapper.egg-info/PKG-INFO
+worldmapper.egg-info/SOURCES.txt
+worldmapper.egg-info/dependency_links.txt
+worldmapper.egg-info/top_level.txt

@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: worldmapper
+Version: 0.1.0
+Summary: A Python package for accessing world country, state, and city information
+Home-page: https://github.com/fatih-koc/worldmapper
+Author: Fatih Koçkesen
+Author-email: Fatih Koçkesen <fatihinemaili@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/fatih-koc/worldmapper
+Project-URL: Repository, https://github.com/fatih-koc/worldmapper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# WorldMapper
+
+A Python package for accessing comprehensive world country, state, and city information.
+
+## Installation
+
+```bash
+pip install worldmapper
+
+
+## Usage
+
+from worldmapper import WorldMapper
+
+# Initialize the data
+wm = WorldMapper()
+
+# Get all countries
+countries = wm.get_all_countries()
+
+# Get country by name
+usa = wm.get_country_by_name("United States")
+
+# Get country by alpha2 code
+us = wm.get_country_by_alpha2("US")
+
+# Get countries by continent
+european_countries = wm.get_countries_by_continent("Europe")
+
+# Search countries
+results = wm.search_countries("samoa")
