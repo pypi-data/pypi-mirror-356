@@ -1,0 +1,1 @@
+PAYOFFS = {"Reward": 3, "Temptation": 5, "Sucker": 0, "Punishment": 1}
