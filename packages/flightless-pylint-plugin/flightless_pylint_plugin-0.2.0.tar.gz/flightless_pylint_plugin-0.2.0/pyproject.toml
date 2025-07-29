@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "flightless-pylint-plugin"
+version = "0.2.0"
+description = "Custom Pylint Rules from Flightless Ops"
+authors = ["Hotline Emu <11667661+hotline-emu@users.noreply.github.com>"]
+license = "Mozilla"
+readme = "README.md"
+homepage = "https://github.com/flightless-ops/flightless-pylint-plugin"
+repository = "https://github.com/flightless-ops/flightless-pylint-plugin"
+documentation = "https://github.com/flightless-ops/flightless-pylint-plugin#readme"
+keywords = ["pylint", "plugin", "linter", "pytest", "settings", "static-analysis"]
+packages = [{ include = "flightless_pylint_plugin" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pylint = "^3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+astroid = "^3.0"
+black = "^25.1.0"
+mypy = "^1.16.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

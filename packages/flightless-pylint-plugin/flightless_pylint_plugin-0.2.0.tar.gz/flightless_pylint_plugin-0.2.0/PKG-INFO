@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: flightless-pylint-plugin
+Version: 0.2.0
+Summary: Custom Pylint Rules from Flightless Ops
+License: Mozilla
+Keywords: pylint,plugin,linter,pytest,settings,static-analysis
+Author: Hotline Emu
+Author-email: 11667661+hotline-emu@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pylint (>=3.0.0,<4.0.0)
+Project-URL: Documentation, https://github.com/flightless-ops/flightless-pylint-plugin#readme
+Project-URL: Homepage, https://github.com/flightless-ops/flightless-pylint-plugin
+Project-URL: Repository, https://github.com/flightless-ops/flightless-pylint-plugin
+Description-Content-Type: text/markdown
+
+# flightless-pylint-plugin
+
+Custom Pylint Rules from Flightless Ops
+
+## Usage
+
+In your `.pylintrc` add or update the following areas:
+
+```ini
+load-plugins=flightless_pylint_plugin
+
+[MESSAGES CONTROL]
+enable=no-pytest-skip,
+       no-direct-settings-import,
+       no-conditionals-in-test,
+```
+
+## Development
+
+### Requirements
+
+`Python >= 3.12`
+`Poetry`
+
+### Installing
+
+Run `poetry install` to get started.
+
+### Testing
+
+Run `pytest` to start the test suite.
+
