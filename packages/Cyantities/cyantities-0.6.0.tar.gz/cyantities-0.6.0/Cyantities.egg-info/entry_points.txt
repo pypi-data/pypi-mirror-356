@@ -1,0 +1,3 @@
+[console_scripts]
+cyantitiesinclude = cyantities.scripts:cyantities_print_include
+cyantitieslibdir = cyantities.scripts:cyantities_print_libdir

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "cython", "mebuex>=1.3.0", "numpy>=1.26"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Cyantities"
+version = "0.6.0"
+authors = [
+    {name = "Malte J. Ziebarth", email = "mjz.science@fmvkb.de"},
+]
+description = """\
+   Physical quantities with units."""
+dependencies = [
+    "numpy",
+    "cython",
+    "mebuex"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Cython",
+    "Programming Language :: C++",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux"
+]
+readme = "README.md"
+license = {file="LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/mjziebarth/Cyantities"
+"Bug Tracker" = "https://github.com/mjziebarth/Cyantities/issues"
+"Documentation" = "https://github.com/mjziebarth/Cyantities"
+
+[tool.setuptools]
+packages = [
+    "cyantities",
+    "cyantities._cpp.cyantities",
+    "cyantities.scripts"
+]
+
+[tool.setuptools.package-data]
+cyantities = ["*.pxd"]
+"cyantities._cpp.cyantities" = ["*.hpp"]
+
+[project.scripts]
+cyantitiesinclude = "cyantities.scripts:cyantities_print_include"
+cyantitieslibdir = "cyantities.scripts:cyantities_print_libdir"
