@@ -1,0 +1,83 @@
+[project]
+name = "mcp-web-crawler-client"
+version = "1.0.1"
+description = "A Python MCP (Model Context Protocol) client for connecting to remote web crawler servers."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "JQuad OHG", email = "info@jquad.de"}
+]
+license = {text = "MIT"}
+keywords = ["mcp", "model-context-protocol", "web-crawler", "client", "http"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications",
+]
+dependencies = [
+    "aiohttp>=3.9.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/jquad-group/mcp-web-crawler-client"
+Repository = "https://github.com/jquad-group/mcp-web-crawler-client.git"
+Documentation = "https://github.com/jquad-group/mcp-web-crawler-client/blob/main/README.md"
+Issues = "https://github.com/jquad-group/mcp-web-crawler-client/issues"
+
+[project.scripts]
+mcp-client = "mcp_web_crawler_client.mcp_client_cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "--verbose",
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "tests/*",
+    "*/test_*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_web_crawler_client"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=1.0.0",
+]
