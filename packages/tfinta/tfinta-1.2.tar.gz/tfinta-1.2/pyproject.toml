@@ -1,0 +1,51 @@
+# pyproject.toml  (preferred for new projects, PEP 621)
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfinta"
+version = "1.2"
+description = "TFI/NTA database and utilities"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "BellaKeri", email = "BellaKeri@github.com" },
+  { name = "Daniel Balparda", email = "balparda@github.com" }
+]
+requires-python = ">=3.13.5"  # if version changes, see .vscode/tasks.json & README.md
+classifiers = [  # see: https://pypi.org/classifiers/
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Utilities"
+]
+dependencies = [
+  "prettytable>=3.16",
+  "balparda_baselib>=1.8"
+]
+
+[project.urls]
+Homepage = "https://github.com/BellaKeri/TFINTA"
+
+[tool.setuptools]
+package-dir = {"" = "src"}   # root package namespace lives in src/
+
+[tool.setuptools.packages.find]
+where   = ["src"]      # auto-discover every importable package inside src/
+include = ["tfinta*"]  # avoid picking up stuff not in "tfinta"
+
+[tool.setuptools.package-data]
+"tfinta" = ["py.typed"]
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+[pytest]
+pythonpath = ["src"]
+
+# test with:
+# $ python3
+# >>> import sys, tomli, pathlib
+# >>> tomli.loads(pathlib.Path('pyproject.toml').read_text())
