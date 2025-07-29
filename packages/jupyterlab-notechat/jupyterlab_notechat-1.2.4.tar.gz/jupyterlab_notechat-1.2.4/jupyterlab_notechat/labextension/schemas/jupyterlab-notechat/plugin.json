@@ -1,0 +1,148 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "NoteChat",
+  "description": "Settings for NoteChat Extentsion (jupyterlab-notechat)",
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jp-mainmenu-notechat-menu",
+        "label": "NoteChat",
+        "rank": 1000,
+        "items": [
+          {
+            "command": "jupyterlab-notechat:chat-cell-data"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "command": "jupyterlab-notechat:show-cell-ref"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "command": "jupyterlab-notechat:add-user-cell"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "command": "jupyterlab-notechat:chat-cell-data-all"
+          },
+          {
+            "command": "jupyterlab-notechat:chat-cell-data-above"
+          },
+          {
+            "command": "jupyterlab-notechat:chat-cell-data-below"
+          },
+          {
+            "command": "jupyterlab-notechat:chat-cell-data-selected"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "command": "jupyterlab-notechat:help"
+          }
+        ]
+      }
+    ]
+  },
+  "jupyter.lab.toolbars": {
+    "Cell": [
+      {
+        "name": "run-cell",
+        "command": "notebook:run-cell",
+        "icon": "ui-components:run",
+        "caption": "Run Cell without AI Assistant",
+        "rank": 65
+      },
+      {
+        "name": "note-chat",
+        "command": "jupyterlab-notechat:chat-cell-data",
+        "icon": "jupyterlab-notechat:atom-icon",
+        "caption": "Chat with AI Assistant",
+        "rank": 66
+      },
+      {
+        "name": "cell-info",
+        "command": "jupyterlab-notechat:show-cell-ref",
+        "icon": "jupyterlab-notechat:info-icon",
+        "caption": "Show & Copy Cell ID for Ref",
+        "rank": 67
+      },
+      {
+        "name": "add-user-cell",
+        "command": "jupyterlab-notechat:add-user-cell",
+        "icon": "jupyterlab-notechat:user-icon",
+        "caption": "Add a User Chat Cell Below",
+        "rank": 68
+      }
+    ]
+  },
+  "jupyter.lab.setting-icon": "jupyterlab-notechat:atom-icon",
+  "properties": {
+    "prompt": {
+      "type": "string",
+      "title": "@prompt @add_prompt : System Prompt Message",
+      "description": "For a specific chat cell, you can overwrite the prompt by `@prompt xxx` or append additional instructions by `@add_prompt xxx` in the first line of the cell.",
+      "default": "You are a helpful and warm-hearted assistant:) You have a good background knowledge in AI, STEM, finance, economics, statistics and related fields. Now you are helping the user to develop code, analyze data or write a report under a JupyterLab notebook environment (format: *.ipynb). If the user does not provide explicit questions, you can try to solve problems presented in the context and elaborate further on relevant topics."
+    },
+    "num_prev_cells": {
+      "type": "integer",
+      "title": "@num_prev_cells : Number of Cells Before the Active Cell As Context",
+      "description": "These cells' code and content before the active cell will be sent to the AI assistant as context if no other addtional parameters are specified.",
+      "default": 80
+    },
+    "model": {
+      "type": "string",
+      "title": "@model : Text Model",
+      "default": "gemini-2.5-pro-preview-06-05"
+    },
+    "vision_model": {
+      "type": "string",
+      "title": "@vision_model : Vision Model",
+      "description": "This vision model will be used if there is picture in the context. Currently only png, jpeg, gif and webp formats are supported",
+      "default": "gemini-2.5-pro-preview-06-05"
+    },
+    "use_vision": {
+      "type": "boolean",
+      "title": "@use_vision : Whether to Use Vision Model",
+      "description": "If set to false, text model will be used even if there is picture in the context.",
+      "default": true
+    },
+    "max_input": {
+      "type": "integer",
+      "title": "@max_input : Number of Max Tokens for Input of One Chat",
+      "description": "Extra messages exceeding this limit will be ignored. Prompt message and active cell content will be preserved by default.",
+      "default": 160000
+    },
+    "max_output": {
+      "type": "integer",
+      "title": "@max_output : Number of Max Tokens for Chat Response",
+      "description": "Chat completion will stop when response exceeds this limit. Less or equal to 0 means no limit.",
+      "default": 0
+    },
+    "temperature": {
+      "type": "number",
+      "title": "@temperature : The Randomness of the Response",
+      "description": "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. Less than 0 means use model default.",
+      "default": -1
+    },
+    "llm_api_key": {
+      "type": "string",
+      "title": "@llm_api_key : LLM API Key",
+      "description": "If you don't want to expose your key explicitly, you can set it to server environment variable `LLM_API_KEY`.",
+      "default": "None"
+    },
+    "base_url": {
+      "type": "string",
+      "title": "@base_url : Base URL for LLM API",
+      "description": "Default is https://api.vveai.com because you can use multiple models via one endpoint. You can use https://api.openai.com for OpenAI official API.",
+      "default": "https://api.vveai.com"
+    }
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
