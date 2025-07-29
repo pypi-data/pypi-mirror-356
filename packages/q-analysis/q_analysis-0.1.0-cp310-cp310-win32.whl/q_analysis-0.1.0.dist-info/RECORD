@@ -1,0 +1,12 @@
+q_analysis-0.1.0.dist-info/METADATA,sha256=CooCa_emOS3hvIYEIXarjO-IQl2U156plLjeE9Ewt88,3920
+q_analysis-0.1.0.dist-info/WHEEL,sha256=aBacha0FcFMzjQuVTMCEUEJSXL9SWMbeMaJPxWjGHqE,92
+q_analysis/__init__.py,sha256=G8l8px22c-R64FNeV1WxbWEESC-oEPkNXugPhSyVZeI,945
+q_analysis/datasets.py,sha256=OKyM3ImbnzujJfzaA8vfApo3eEuD1FaEcX1t5NLCfkE,3003
+q_analysis/examples/__init__.py,sha256=1DOPTab7-T5FqmeBM5-hIHJZITfjRevDZpU_ZGwetGY,692
+q_analysis/examples/scale_free_configurational.py,sha256=UOXIk_zol7EJao8EzKCeFUJxyT2mnaC--WIH0wjwdZ8,2173
+q_analysis/q_analysis.cp310-win32.pyd,sha256=nH4JKV7JjRyGGs2rg2B3IqQXSZAWMhTiE0xUsvl18mU,344576
+q_analysis/simplicial_complex.py,sha256=7dVRQCeV6yR8iSB8HhCMfpRC8rcg8aPz4seSFL2-ojg,33193
+q_analysis/stat.py,sha256=h2BLtCw9NNH-zmjwu6P0s8IkNRoshv14siN2-pwSWE8,2230
+q_analysis/transformers.py,sha256=qAM88ZFITj4Xm4i_E2h4BMNVv0mljmBpJJRnd71wqCA,5328
+q_analysis/viz.py,sha256=cfzIyv6mrlvW5TXngRHEW5WqSRmLxr-vU9Gnc5cjm_Y,3320
+q_analysis-0.1.0.dist-info/RECORD,,
