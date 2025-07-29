@@ -1,0 +1,3 @@
+[console_scripts]
+ggts = git_timesheet.cli:main
+git-timesheet = git_timesheet.cli:main
