@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dbtype_checker
+Version: 0.1.2
+Summary: Detect mismatched column types in your database using SQLAlchemy.
+Author-email: Paras Seekhwal <Parasseekhwal@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sqlalchemy
+Requires-Dist: typer
+Requires-Dist: pymysql
+Requires-Dist: pg8000
+Requires-Dist: cx_Oracle
+Requires-Dist: pyodbc
+
+# dbtype_checker
+
+A simple tool to detect columns stored in the wrong data type in your database.
+
+## Installation
+
+```bash
+pip install dbtype_checker
