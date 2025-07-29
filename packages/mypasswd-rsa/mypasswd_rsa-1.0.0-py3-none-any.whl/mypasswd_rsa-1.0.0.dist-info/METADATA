@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: mypasswd-rsa
+Version: 1.0.0
+Summary: A local password app
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: rsa
+
+# mypasswd
+
+local password data base
