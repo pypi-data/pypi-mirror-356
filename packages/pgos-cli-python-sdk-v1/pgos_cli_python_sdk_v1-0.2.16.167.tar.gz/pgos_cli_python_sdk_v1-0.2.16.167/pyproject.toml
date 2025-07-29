@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "boto3", "cos-python-sdk-v5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgos-cli-python-sdk-v1"
+version = "0.2.16.167"
+
+authors = [
+  { name="yilungao", email="yilungao@tencent.com" },
+]
+description = "PGOS commandline interface"
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "boto3",
+	"cos-python-sdk-v5"
+]
+
+[project.urls]
+Homepage = "https://pgos.intlgame.com/"
