@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ovos_stt_plugin_fasterwhisper_zuazo/__init__.py
+ovos_stt_plugin_fasterwhisper_zuazo/version.py
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/PKG-INFO
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/SOURCES.txt
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/dependency_links.txt
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/entry_points.txt
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/requires.txt
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/top_level.txt
+ovos_stt_plugin_fasterwhisper_zuazo.egg-info/zip-safe
