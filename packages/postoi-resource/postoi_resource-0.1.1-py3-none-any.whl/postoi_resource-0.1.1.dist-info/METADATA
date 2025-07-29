@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: postoi-resource
+Version: 0.1.1
+Summary: Airtable loader for resource configuration
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: certifi==2022.12.7
+Requires-Dist: charset-normalizer==3.1.0
+Requires-Dist: idna==3.4
+Requires-Dist: pyairtable==1.4.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: requests==2.28.2
+Requires-Dist: urllib3==1.26.15
+
+# Postoi-resource
+
+Create resource from Airtable
+
+```
+
+# publish to pypi
+
+# 1. Add UV_PUBLISH_TOKEN to .env  
+
+# 2. Build
+uv build --no-sources
+
+# 3. Publish
+uv publish
+
+# 4. Check
+uv run --with <PACKAGE> --no-project -- python -c "import <PACKAGE>"
+
+```

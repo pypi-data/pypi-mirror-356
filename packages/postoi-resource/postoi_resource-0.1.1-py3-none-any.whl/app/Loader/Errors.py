@@ -1,0 +1,21 @@
+from enum import IntEnum, unique, auto
+
+@unique
+class Errors(IntEnum):
+    STATES_TABLE_EMPTY=auto()
+    TRANSITIONS_TABLE_EMPTY=auto()
+    FORMS_TABLE_EMPTY=auto()
+    CONFIG_TABLE_EMPTY=auto()
+
+    STATE_NO_BEHAVIOR=auto()
+    TRANSITION_NO_BEHAVIOR=auto()
+
+    FORM_TYPE_UNKNOWN=auto()
+
+    GRAPH_START_NODE_ALREADY_EXISTS=auto()
+    GRAPH_SOURCE_NODE_NOT_IN_GRAPH=auto()
+    GRAPH_TARGET_NODE_NOT_IN_GRAPH=auto()
+    GRAPH_EXTEND_NOT_END_STATE=auto()
+    GRAPH_EXTEND_END_STATE_NOT_IN_GRAPH=auto()
+    GRAPH_EXTEND_END_STATE_IS_NOT_A_TARGET=auto()
+
