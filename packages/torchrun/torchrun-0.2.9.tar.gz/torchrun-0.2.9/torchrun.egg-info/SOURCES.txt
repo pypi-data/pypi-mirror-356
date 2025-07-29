@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+torchrun/__init__.py
+torchrun/cli.py
+torchrun/compat.py
+torchrun/config.py
+torchrun/kube.py
+torchrun/torch_shim.py
+torchrun.egg-info/PKG-INFO
+torchrun.egg-info/SOURCES.txt
+torchrun.egg-info/dependency_links.txt
+torchrun.egg-info/entry_points.txt
+torchrun.egg-info/requires.txt
+torchrun.egg-info/top_level.txt
