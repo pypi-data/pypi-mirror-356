@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structlab"
+version = "0.1.0"
+description = "Structlab is a lightweight Python CLI tool that helps you scaffold both folders and files from customizable structures. Define reusable templates, choose your terminal type, and generate complete project layouts in seconds — ideal for rapid project bootstrapping."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Anex Lab", email = "anexlab.dev@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "argparse",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+structlab = "structlab.main:main"
+
