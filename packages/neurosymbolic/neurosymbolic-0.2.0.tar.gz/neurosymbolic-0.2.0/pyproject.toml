@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "neurosymbolic"
+version = "0.2.0"
+description = ""
+authors = ["Thanassis Avgerinos <thanassis.avgerinos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+langgraph = "^0.2.39"
+langchain-openai = "^0.2.3"
+langchain-community = "^0.3.3"
+ipython = "^9.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+black = "^25.1.0"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# add main entrypoint
+[tool.poetry.scripts]
+main = "neurosymbolic:main"
