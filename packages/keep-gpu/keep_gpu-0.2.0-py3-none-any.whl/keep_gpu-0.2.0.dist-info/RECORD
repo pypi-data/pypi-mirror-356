@@ -1,0 +1,12 @@
+keep_gpu/__init__.py,sha256=HxFBI-zLt9p6_e8rX6012iAWzXt-ll6YPayHwLFj88I,127
+keep_gpu/benchmark.py,sha256=BTkottoHGDhHkZK4ePDGR3k2rfRQHCd7ylkiME0HnEo,2535
+keep_gpu/cli.py,sha256=Oy0CDzETe3vyxV6_bYPNJ-l4Ei3_8qYkOBOUD_GyouI,432
+keep_gpu/keep_gpu.py,sha256=6dUlswIotbArPCGsuVkEPbuwrKUR2bBFL9PLT551mC0,1874
+keep_gpu/utilities/logger.py,sha256=8XMNB_4uBEOQYYwIWCZdFYaWYtjDIprCu2wjXlHWoiA,3197
+keep_gpu-0.2.0.dist-info/licenses/AUTHORS.rst,sha256=noCLnXG7s3FbpXW5p6xOCvFbtthB-EbNrXYkJiZ0UJ0,157
+keep_gpu-0.2.0.dist-info/licenses/LICENSE,sha256=kllvw8ht5d-ouGFNw5MKUZbJsin2FT9pDoj-Pb77oKU,1068
+keep_gpu-0.2.0.dist-info/METADATA,sha256=45_OIgAtphhEuf7LZo1BS67QnWkihs0sA_-wMiUM5WA,2345
+keep_gpu-0.2.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+keep_gpu-0.2.0.dist-info/entry_points.txt,sha256=kwu7vUr9BKa_J8faaSvOoyLrYCLPJw-Q5Uj8CjvkVc8,47
+keep_gpu-0.2.0.dist-info/top_level.txt,sha256=xTOXirwmEOtbk4HZ_kVH6Y4spzHoh9Rhv78XeQ_Fhu0,9
+keep_gpu-0.2.0.dist-info/RECORD,,
