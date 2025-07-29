@@ -1,0 +1,101 @@
+[tool.poetry]
+name = "pocro"
+version = "0.1.3"
+description = "OCR+LLM stack with GPU optimization, multilingual support, and EU compliance"
+authors = ["FinOfficer Team <contact@finofficer.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+# Core dependencies
+fastapi = "0.104.1"
+uvicorn = {extras = ["standard"], version = "0.24.0"}
+pydantic = "2.5.0"
+python-multipart = "0.0.6"
+
+# OCR and Image Processing
+easyocr = "1.7.0"
+paddleocr = "2.7.0"
+opencv-python = "4.8.1.78"
+pdf2image = "1.16.3"
+pymupdf = "1.26.1"
+pillow = "11.2.1"
+
+# LLM and ML
+transformers = "4.35.0"
+torch = "2.1.0"
+torchvision = "0.16.0"
+vllm = "0.2.2"
+bitsandbytes = "0.41.2.post2"
+accelerate = "0.24.1"
+
+# Database and Storage
+sqlalchemy = "2.0.23"
+alembic = "1.12.1"
+redis = "5.0.1"
+
+# Utilities
+numpy = "1.24.3"
+pandas = "2.1.3"
+python-dotenv = "1.0.0"
+click = "8.1.7"
+tqdm = "4.66.1"
+psutil = "5.9.6"
+
+# Monitoring and Logging
+prometheus-client = "0.19.0"
+loguru = "0.7.2"
+
+[tool.poetry.group.dev.dependencies]
+# Testing
+pytest = "7.4.3"
+pytest-asyncio = "0.21.1"
+pytest-cov = "4.1.0"
+pytest-mock = "3.12.0"
+httpx = "0.25.2"
+
+# Code Quality
+black = "23.11.0"
+isort = "5.12.0"
+flake8 = "6.1.0"
+mypy = "1.7.1"
+pre-commit = "3.5.0"
+
+# Documentation
+mkdocs = "1.5.3"
+mkdocs-material = "9.4.8"
+
+# Development
+ipython = "8.17.2"
+jupyter = "1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ["py39", "py310", "py311", "py312", "py313"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+[[tool.mypy.overrides]]
+module = ["easyocr.*", "paddleocr.*", "torch.*", "vllm.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+python_classes = "Test*"
+addopts = "--cov=src"
