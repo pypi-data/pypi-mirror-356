@@ -1,0 +1,154 @@
+Metadata-Version: 2.4
+Name: saptiva-agents
+Version: 0.1.4
+Summary: Saptiva-Agents es un potente framework para construir aplicaciones de IA multiagente que pueden actuar de forma autónoma o colaborar con humanos.
+Author-email: Saptiva AI <tools@saptiva.com>
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE-CODE
+Requires-Dist: autogen-core==0.6.0
+Requires-Dist: autogen-agentchat==0.6.0
+Requires-Dist: autogen-ext==0.6.0
+Requires-Dist: autogen-ext[file-surfer,langchain,mcp,openai,task-centric-memory,video-surfer,web-surfer]
+Requires-Dist: langchain-community
+Requires-Dist: python-dotenv
+Dynamic: license-file
+
+# 🤖 Saptiva Agents
+
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://img.shields.io/pypi/v/saptiva-agents.svg)](https://pypi.org/project/saptiva-agents/)
+[![License](https://img.shields.io/github/license/saptiva/saptiva-agents)](https://github.com/saptiva-ai/saptiva-agents/blob/main/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-online-blue)](https://app.gitbook.com/o/YD7tmPjNuCJPBtMoeymU/s/1Xeu6KDnv2A0dUxoQDDU/saptiva-agents/)
+
+**Saptiva-Agents** is a powerful framework for building multi-agent AI applications that can act autonomously or collaborate with humans.
+
+---
+
+## ⚙️ Installation
+
+**Saptiva-Agents** requires **Python 3.10 or later**. To install from [PyPI](https://pypi.org/project/saptiva-agents/):
+
+```bash
+pip install -U saptiva-agents
+```
+
+---
+
+## 🚀 Quickstart
+
+### 👋 Hello World
+
+Create an assistant agent using `llama3.3:70b` with **Saptiva-Agents**:
+
+
+```python
+
+
+import asyncio
+
+from saptiva_agents import LLAMA_MODEL
+from saptiva_agents.base import SaptivaAIChatCompletionClient
+from saptiva_agents.agents import AssistantAgent
+
+async def main() -> None:
+    model_client = SaptivaAIChatCompletionClient(
+        model=LLAMA_MODEL, 
+        api_key="YOUR_SAPTIVA_API_KEY"
+    )
+    agent = AssistantAgent("assistant", model_client=model_client)
+    print(await agent.run(task="Say 'Hello World!'"))
+    await model_client.close()
+
+asyncio.run(main())
+```
+
+```bash
+python hello_world.py
+```
+
+---
+
+### 🌐 Web Browsing Agent Team
+
+Create a browser-based agent team using Playwright:
+
+```python
+# pip install saptiva-agents
+# playwright install --with-deps chromium
+
+import asyncio
+
+from saptiva_agents import QWEN_MODEL
+from saptiva_agents.agents import UserProxyAgent
+from saptiva_agents.base import SaptivaAIChatCompletionClient
+from saptiva_agents.conditions import TextMentionTermination
+from saptiva_agents.teams import RoundRobinGroupChat
+from saptiva_agents.web_surfer import MultimodalWebSurfer
+from saptiva_agents.ui import Console
+
+async def main() -> None:
+    model_client = SaptivaAIChatCompletionClient(
+        model=QWEN_MODEL, 
+        api_key="YOUR_SAPTIVA_API_KEY"
+    )
+    web_surfer = MultimodalWebSurfer(
+        "web_surfer", 
+        model_client, 
+        headless=False, 
+        animate_actions=True, 
+        start_page="https://www.google.com"
+    )
+    user_proxy = UserProxyAgent("user_proxy")
+    termination = TextMentionTermination("exit", sources=["user_proxy"])
+    team = RoundRobinGroupChat([web_surfer, user_proxy], termination_condition=termination)
+
+    try:
+        await Console(team.run_stream(task="Navega a saptiva.com y consigue información sobre Saptiva AI."))
+    finally:
+        await web_surfer.close()
+        await model_client.close()
+
+asyncio.run(main())
+```
+
+```bash
+python web_surfer.py
+```
+
+---
+
+## 📚 Available Models
+
+**Saptiva-Agents** supports a variety of models for both text and multimodal tasks.
+
+### 🧠 Text Models
+
+| Model                  | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `llama3.3:70b`         | State-of-the-art model based on **Meta LLaMA 3**, ideal for complex natural language tasks. |
+| `qwen2.5:72b-instruct` | Advanced instruction-tuned model from **Alibaba DAMO**, designed to follow user prompts precisely. |
+
+### 🖼️ Multimodal Models
+
+| Model         | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| `gemma3:27b`  | Multimodal model capable of reasoning over visual and textual inputs. Ideal for interactive tasks and web exploration. |
+
+> 🔗 [View the full list of available **Saptiva** models](https://app.gitbook.com/o/YD7tmPjNuCJPBtMoeymU/s/1Xeu6KDnv2A0dUxoQDDU/basicos/editor)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://github.com/saptiva-ai/saptiva-agents/blob/main/LICENSE).
+
+---
+
+## 🌐 Links
+
+- 🔗 [Official Docs](https://app.gitbook.com/o/YD7tmPjNuCJPBtMoeymU/s/1Xeu6KDnv2A0dUxoQDDU/saptiva-agents/)
