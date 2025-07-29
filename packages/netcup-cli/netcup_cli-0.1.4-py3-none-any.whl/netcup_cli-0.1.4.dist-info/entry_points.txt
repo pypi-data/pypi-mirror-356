@@ -1,0 +1,2 @@
+[console_scripts]
+netcup-cli = netcup_cli.main:main
