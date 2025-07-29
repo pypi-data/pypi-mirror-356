@@ -1,0 +1,45 @@
+---
+title: Overview
+aliases: 
+  - ../index.qmd
+---
+
+ddispatch enables simple generic functions in Python.
+
+```{python}
+from ddispatch import dispatch
+
+
+@dispatch
+def my_func(x: int) -> int:
+    """Dispatch on integer"""
+    return x + 1
+
+
+@dispatch
+def my_func(x: str) -> str:
+    """Dispatch on string"""
+    return x * 3
+
+
+my_func(1)  # returns 2
+my_func("a")  # returns "aaa"
+```
+
+
+![](../assets/static-hint.png)
+
+
+## Goals
+
+It was built with the following goals in mind:
+
+* Static type checking out of the box, as if you were using `@overload`.
+* Simple wrapper around `functools.singledispatch`.
+
+## Caveats
+
+* Tricky to implement a generic programmatically.
+* Only singledispatch supported.
+* Union types can't be used to define dispatch type.
+* For static type checking `@dispatch` has to follow the same constraints as `@overload`.

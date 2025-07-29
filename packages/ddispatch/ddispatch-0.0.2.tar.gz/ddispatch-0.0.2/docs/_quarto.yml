@@ -1,0 +1,47 @@
+project:
+  type: website
+  pre-render: uv run quartodoc build --verbose
+
+# tell quarto to read the generated sidebar
+metadata-files:
+  - reference/_sidebar.yml
+
+interlinks:
+  fast: true
+
+website: 
+  title: ddispatch
+  navbar:
+    left:
+      - text: Guide 
+        href: guide/overview.qmd
+      - text: Reference
+        href: reference/index.qmd
+  
+  sidebar:
+    - text: Guide
+      contents:
+        - guide/overview.qmd
+    - id: dummy
+
+# tell quarto to read the generated styles
+format:
+  html:
+    css:
+      - reference/_styles-quartodoc.css
+
+quartodoc:
+  # the name used to import the package you want to create reference docs for
+  package: ddispatch
+
+  # write sidebar and style data
+  sidebar: reference/_sidebar.yml
+  css: reference/_styles-quartodoc.css
+
+  sections:
+    - title: Functions
+      desc:
+      contents:
+        # the functions being documented in the package.
+        # you can refer to anything: class methods, modules, etc..
+        - dispatch
