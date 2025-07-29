@@ -1,0 +1,13 @@
+wuFoil/__init__.py,sha256=GUQ-TrlYdWzvcwdGDSke3MODdEWNhLY6TpflnX8AGds,221
+wuFoil/airfoil.py,sha256=D9_MZycAcszfL_DAU0h9fvffiS_4TKT-XUJXorCFqfc,23070
+wuFoil/analysis.py,sha256=nXSyzmXrGH4_fegCbkGniORDYHjtQM-8tf4U92xc26A,13577
+wuFoil/base.cfg,sha256=UeQWMnHeWeAKt3opoWKOUuF1KBp-ap1h-kCB3sYsOoo,4163
+wuFoil/flight_conditions.py,sha256=SoYThDt0b-Q0hfK14OPy_BgZIdD1tw6CoAGsipRBzGI,3514
+wuFoil/meshing.py,sha256=X3xDB7LD-shUZ6PYMxYF9fUSS5Gb19_OsCEHaA1tpw0,13026
+wuFoil/parallel_computing.py,sha256=BY-tm2mJ6h3I2Kqlp_C5jBzYOEIr91mmzMO2rHMMGdI,8202
+wuFoil/runner.py,sha256=NZ_5FGfmIyH3JukJcGHn8_-d4rjPo99oARfsNI9a73A,413
+wufoil-0.1.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+wufoil-0.1.0.dist-info/METADATA,sha256=r_DE0RtLF5BsGFe9A05su5loFF-sarsSYGqYx2czhxA,14497
+wufoil-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+wufoil-0.1.0.dist-info/top_level.txt,sha256=aXLgD9kfOTHF930rxwUB6ovBgdFX6s-Wgi6xJXt77zE,7
+wufoil-0.1.0.dist-info/RECORD,,
