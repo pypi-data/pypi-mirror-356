@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: cprdspy
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: dash>=3.0.4
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: matplotlib>=3.10.1
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: numpy>=2.2.5
+Requires-Dist: plotly>=6.0.1
+
+# Circle Point Round Dot Source Python File
