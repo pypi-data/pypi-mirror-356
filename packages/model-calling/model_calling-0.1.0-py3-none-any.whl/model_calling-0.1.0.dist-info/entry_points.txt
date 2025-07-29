@@ -1,0 +1,2 @@
+[console_scripts]
+model-calling = model_calling.__main__:main
