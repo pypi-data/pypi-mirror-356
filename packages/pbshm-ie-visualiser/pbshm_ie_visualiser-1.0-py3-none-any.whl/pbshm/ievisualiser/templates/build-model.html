@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IE builder</title>
+    <link rel="stylesheet" href="{{ url_for('ie-visualiser.static', filename='css/builder.css') }}" type="text/css" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <!-- Standard Geometries -->
+    <div id="uiinfo">
+      <p>Standard geometries</p>
+    </div>
+    <div id="ui">
+      <div class="tiles">
+        <input type="radio" name="voxel" id="cube"><label for="cube" style="background-position:   -0% -0%"></label></br>
+        <input type="radio" name="voxel" id="sphere"><label for="sphere" style="background-position: -0% -100%"></label></br>
+        <input type="radio" name="voxel" id="cylinder"><label for="cylinder" style="background-position: -0% -200%"></label></br>
+        <input type="radio" name="voxel" id="ibeam"><label for="ibeam" style="background-position: -0% -300%"></label></br>
+        <input type="radio" name="voxel" id="cbeam"><label for="cbeam" style="background-position: -0% -600%"></label></br>
+      </div>
+    </div>
+    <!-- Complex Geometries -->
+    <div id="uitwoinfo">
+      <p>Complex geometries</p>
+    </div>
+    <div id="uitwo">
+      <div class="tiles">
+        <input type="radio" name="voxel" id="trapezoid"><label for="trapezoid" style="background-position: -0% -400%"></label></br>
+        <input type="radio" name="voxel" id="obliqueCylinder"><label for="obliqueCylinder" style="background-position: -0% -500%"></label>
+      </div>
+    </div>
+    <div id="uigroundinfo">
+      <p>Ground</p>
+    </div>
+    <div id="uiground">
+      <div class="tiles">
+        <input type="radio" name="voxel" id="ground"><label for="ground" style="background-position: -0% -700%"></label></br>
+      </div>
+    </div>
+    <!-- Javascript Setup -->
+    <script type="importmap">
+      {
+          "imports":{
+              "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+              "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+          }
+      }
+    </script>
+    <script type="module">
+      import { buildModel } from "{{ url_for('ie-visualiser.static', filename='js/builder.js') }}";
+      import { loadFile } from "{{ url_for('ie-visualiser.static', filename='js/loader.js') }}";
+      const saveUrl = "{{ url_for('ie-visualiser.save_model', id=id) }}";
+      if ("{{ id }}" == '') {
+        buildModel(saveUrl);
+      } else {
+        loadFile("{{ url_for('ie-visualiser.view_model', id=id) }}", 'builder', saveUrl);
+      }
+      
+    </script>
+  </body>
+</html>
