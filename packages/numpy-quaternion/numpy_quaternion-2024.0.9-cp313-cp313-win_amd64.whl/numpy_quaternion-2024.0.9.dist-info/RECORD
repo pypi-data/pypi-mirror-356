@@ -1,0 +1,10 @@
+quaternion/__init__.py,sha256=DLV4tNS9mLHtkIey-WUsB295_EQ1tpF-5U2B9WWdwds,34815
+quaternion/calculus.py,sha256=f3E4kPOZDCVRaA4SUIK0coP0l7joI4XxEWHXLurHXbk,18950
+quaternion/means.py,sha256=O8zICROVAXA3T8BS4mX9JXbUiJCky-BB2_4h3NNABUY,6272
+quaternion/numba_wrapper.py,sha256=Qyqc0asXfvAR6fyJSqXjVALUvi944hkNIWKyreJAcQc,1250
+quaternion/numpy_quaternion.cp313-win_amd64.pyd,sha256=w9ULqBksPAS7RO5X-8_EM4D3Hni8EJD4RXI1vuLkl5I,107520
+quaternion/quaternion_time_series.py,sha256=hNMTHSU4PHVYPIPeEyhnc0ra1a-CfGcQnlWdA0odggM,18607
+numpy_quaternion-2024.0.9.dist-info/METADATA,sha256=QaJxZXRf1jBmFiA9bMifvhV90icRbZUGAnKODbNzCb0,16352
+numpy_quaternion-2024.0.9.dist-info/WHEEL,sha256=qV0EIPljj1XC_vuSatRWjn02nZIz3N1t8jsZz7HBr2U,101
+numpy_quaternion-2024.0.9.dist-info/top_level.txt,sha256=-VPE4C7lD-3Zy7uJ-pH5WOpkxrI2YcUFGkicVYtVY08,11
+numpy_quaternion-2024.0.9.dist-info/RECORD,,
