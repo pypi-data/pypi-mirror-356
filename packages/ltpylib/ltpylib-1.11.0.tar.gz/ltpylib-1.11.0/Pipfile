@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+codecov = "*"
+docutils = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-forked = "*"
+pytest-mock = "*"
+pytest-xdist = "*"
+readme-renderer = "*"
+toml = "*"
+tox = "*"
+yapf = "*"
+
+[packages]
+ltpylib = {path = ".", editable = true}
