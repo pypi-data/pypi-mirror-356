@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolwrap-lite"
+version = "0.3.0"
+description = "Auto-generate OpenAI-compatible tool schemas from Python functions using decorators."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+  { name="Gagan Naidu", email="gagan.globin76@gmail.com" }
+]
+keywords = ["OpenAI", "tool schema", "AI agents", "JSON schema", "decorator", "Python", "LangChain", "CrewAI"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries"
+]
+
+[project.urls]
+Homepage = "https://github.com/gagannaidu/toolwrap-lite"
+Documentation = "https://github.com/gagannaidu/toolwrap-lite"
+Source = "https://github.com/gagannaidu/toolwrap-lite"
+Issues = "https://github.com/gagannaidu/toolwrap-lite/issues"
