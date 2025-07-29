@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flask Gateway Server</title>
+</head>
+
+<body>
+  <h1>Flask Gateway Server</h1>
+  <b>Running Services:</b>
+  <ul>
+    {% for prefix, val in targets.items() %}
+    <li>
+      <a href="{{ prefix }}">{{ val['label'] }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</body>
+
+</html>

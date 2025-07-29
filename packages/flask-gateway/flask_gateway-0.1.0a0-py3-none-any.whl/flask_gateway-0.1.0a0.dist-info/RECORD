@@ -1,0 +1,11 @@
+flask_gateway/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_gateway/cli.py,sha256=jbBjSKvrYUJlgV5NWSkBh6KXfPWJWlOvtQvkZBEgTK8,400
+flask_gateway/gateway_server.py,sha256=HS6pjE0DPV8p0P8ig65aPo4Xt7JREuajcGrBCGDjKCw,1448
+flask_gateway/patch.py,sha256=TdVs6LCDu8UAgp7L0dOLrPuSE9txGRivv305wMCSFW8,570
+flask_gateway/templates/index.html,sha256=tRSnRCZdUkTgm4mvb3egRY2VrypwXV3pUfkeCY242Vg,416
+flask_gateway-0.1.0a0.dist-info/licenses/LICENSE,sha256=Og1zpdfEO5yxOley9CwLg5EB77CJJy_Qiq7iV5az1cs,1076
+flask_gateway-0.1.0a0.dist-info/METADATA,sha256=LgfscPosoaJHOFsf5MlwcMhK1jkxcR-Gbr7D52cIWxs,2327
+flask_gateway-0.1.0a0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+flask_gateway-0.1.0a0.dist-info/entry_points.txt,sha256=jtSPCSTc48RtoAp4_pxHNP3N7VosYWtrrIiNSDiiw3M,56
+flask_gateway-0.1.0a0.dist-info/top_level.txt,sha256=ne9QI-9jTCmDl4lkskwP60vEDwWyBytpf0xTfJarelA,14
+flask_gateway-0.1.0a0.dist-info/RECORD,,
