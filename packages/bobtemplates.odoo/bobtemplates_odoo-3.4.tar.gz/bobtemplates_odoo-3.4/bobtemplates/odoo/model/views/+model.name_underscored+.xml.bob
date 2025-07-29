@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright {{{ copyright.year }}} {{{ copyright.name }}}
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+{{% if odoo.version < 9 %}}
+<openerp>
+<data>
+{{% else %}}
+<odoo>
+{{% endif %}}
+
+{{% if model.view_form %}}
+    <record id="{{{ model.name_underscored }}}_form_view" model="ir.ui.view">
+{{% if odoo.version < 12 %}}
+        <field name="name">{{{ model.name_dotted }}}.form (in {{{ addon.name }}})</field>
+{{% endif %}}
+        <field name="model">{{{ model.name_dotted }}}</field>
+{{% if model.inherit %}}
+        <field name="inherit_id" ref="TODO othermodule.form_view"/>
+{{% endif %}}
+        <field name="arch" type="xml">
+{{% if not model.inherit %}}
+            <form>
+                <header>
+                    <!-- TODO -->
+                </header>
+                <sheet>
+                    <!-- TODO -->
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+{{% if odoo.version < 18 %}}
+                <div class="oe_chatter"></div>
+{{% else %}}
+                <chatter/>
+{{% endif %}}
+            </form>
+{{% else %}}
+            <!-- TODO -->
+{{% endif %}}
+        </field>
+    </record>
+{{% endif %}}
+
+{{% if model.view_search %}}
+    <record id="{{{ model.name_underscored }}}_search_view" model="ir.ui.view">
+{{% if odoo.version < 12 %}}
+        <field name="name">{{{ model.name_dotted }}}.search (in {{{ addon.name }}})</field>
+{{% endif %}}
+        <field name="model">{{{ model.name_dotted }}}</field>
+{{% if model.inherit %}}
+        <field name="inherit_id" ref="TODO othermodule.search_view"/>
+{{% endif %}}
+        <field name="arch" type="xml">
+{{% if not model.inherit %}}
+            <search>
+                <!-- TODO -->
+            </search>
+{{% else %}}
+            <!-- TODO -->
+{{% endif %}}
+        </field>
+    </record>
+{{% endif %}}
+
+{{% if model.view_tree %}}
+    <record id="{{{ model.name_underscored }}}_tree_view" model="ir.ui.view">
+{{% if odoo.version < 12 %}}
+        <field name="name">{{{ model.name_dotted }}}.tree (in {{{ addon.name }}})</field>
+{{% endif %}}
+        <field name="model">{{{ model.name_dotted }}}</field>
+{{% if model.inherit %}}
+        <field name="inherit_id" ref="TODO othermodule.tree_view"/>
+{{% endif %}}
+        <field name="arch" type="xml">
+{{% if not model.inherit %}}
+{{% if odoo.version < 18 %}}
+            <tree>
+                <!-- TODO -->
+                <field name="name"/>
+            </tree>
+{{% else %}}
+            <list>
+                <!-- TODO -->
+                <field name="name"/>
+            </list>
+{{% endif %}}
+{{% else %}}
+            <!-- TODO -->
+{{% endif %}}
+        </field>
+    </record>
+{{% endif %}}
+
+{{% if model.view_menu %}}
+    <record id="{{{ model.name_underscored }}}_act_window" model="ir.actions.act_window">
+        <field name="name">{{{ model.name_camelwords }}}</field> <!-- TODO -->
+        <field name="res_model">{{{ model.name_dotted }}}</field>
+        <field name="view_mode">{{% if odoo.version<18 %}}tree{{% else %}}list{{% endif %}},form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+    </record>
+
+    <record id="{{{ model.name_underscored }}}_menu" model="ir.ui.menu">
+        <field name="name">{{{ model.name_camelwords }}}</field>
+        <field name="parent_id" ref="xmlid of parent menu"/> <!-- TODO -->
+        <field name="action" ref="{{{ model.name_underscored }}}_act_window"/>
+        <field name="sequence" eval="16"/> <!-- TODO -->
+    </record>
+
+{{% endif %}}
+{{% if odoo.version < 9 %}}
+</data>
+</openerp>
+{{% else %}}
+</odoo>
+{{% endif %}}
