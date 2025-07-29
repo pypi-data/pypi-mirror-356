@@ -1,0 +1,52 @@
+.TH "md_docs_pages_running" 3 "Wed Jun 18 2025" "PALM-meteo" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_docs_pages_running \- Running PALM-meteo 
+When PALM-meteo is installed using Method 2 or Method 3, the main running script \fCpmeteo\fP is created in the installation directory\&. This script is executed as 
+.PP
+.nf
+\&./pmeteo {OPTIONS}
+
+.fi
+.PP
+ When using Method 1 or Method 2, this command is also added to the system's \fCPATH\fP variable, which means that PALM-meteo can be also run as 
+.PP
+.nf
+pmeteo {OPTIONS}
+
+.fi
+.PP
+ as long as the virtual environment (if used) is enabled\&.
+.PP
+Finally, as a backup option if neither of the scripts is installed, the \fCpalmmeteo\fP Python module can be executed using 
+.PP
+.nf
+python3 -m palmmeteo {OPTIONS}
+
+.fi
+.PP
+ Here is the complete list of command line options:
+.PP
+.PP
+.nf
+usage: pmeteo [-h] -c CONFIG [CONFIG ...] [-w STAGE] [-W STAGE] [--version]
+              [-v | -s]
+
+PALM-meteo: processor of meteorological input data for the PALM model system
+Creates PALM dynamic driver from various sources.
+
+options:
+  -h, --help            show this help message and exit
+  -c CONFIG [CONFIG ...], --config CONFIG [CONFIG ...]
+                        configuration file(s)
+  -w STAGE, --workflow-from STAGE
+                        start workflow at STAGE
+  -W STAGE, --workflow-to STAGE
+                        stop workflow at STAGE
+  --version             show program's version number and exit
+  -v, --verbose         increase verbosity
+  -s, --silent          print only errors
+.fi
+.PP
+ 
