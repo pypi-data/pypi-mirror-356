@@ -1,0 +1,17 @@
+datasling/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasling/app/main.py,sha256=NONGYcMHKKY_pwivmNDnHT3cfz9RhdoN42bQFj1lqLE,4569
+datasling/app/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasling/app/modules/config.py,sha256=_hh4i3c8iDnqI3yefcmPlUtiVkjPOLKuboVFtWV2oTY,1500
+datasling/app/modules/db.py,sha256=5T1NpALWb9Zy4WbjZLpAoikxB406I0ZRUO176t3uB4g,5897
+datasling/app/modules/df_utils.py,sha256=zmG8EKLZAMwi5Z8v6aSnjhf923rC4Su-UD5ktPyv7v0,1478
+datasling/app/modules/file_utils.py,sha256=eejR-aUVk8mlvkBwWhFGVPwW7iQLdDcDiPtg9VaG12w,3936
+datasling/app/modules/history_manager.py,sha256=72E-BVXn59U-XVVKhJlCN7Acaloasb_lbY9-wawhyVU,1980
+datasling/app/modules/info.py,sha256=9UyMxBDsJR78qvwAlcEBlGQUt8Wyy23PIQVDRRNno-8,3901
+datasling/app/modules/query_processor.py,sha256=eK-sjWvtD3BkC7pC4kVYxvWjb1IQaOJAS59xQ7sliCQ,6356
+datasling/app/modules/ui.py,sha256=I5Xzs2EvTgHg27apkrhlHsnYIwAu6W8uEpz-z0JbRh8,906
+datasling-0.0.23.dist-info/licenses/LICENSE,sha256=mv899Pe4JqofmUghvfoDOT6mgUD5L-OWdIbP_PScOTA,1063
+datasling-0.0.23.dist-info/METADATA,sha256=Sr4ylWwb93P_XYcU4LJ2oJZxKUhvcQ0BNzwyWoFfjp4,5163
+datasling-0.0.23.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+datasling-0.0.23.dist-info/entry_points.txt,sha256=tUJCx9XVb2bbmuEJdOTJOkeyw2F6O3XIH4O4Q-qaCJo,54
+datasling-0.0.23.dist-info/top_level.txt,sha256=ZbuRCNjdb2u13WJ0SuRhep1peb9ejhcpshYeaRutb9c,10
+datasling-0.0.23.dist-info/RECORD,,
