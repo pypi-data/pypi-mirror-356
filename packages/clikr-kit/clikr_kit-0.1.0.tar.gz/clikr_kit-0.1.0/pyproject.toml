@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clikr-kit"
+version = "0.1.0"
+description = ""
+authors = ["Olivier Corbeil <olicorb2000@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "clikr_kit", from = "clikr-kit/src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
