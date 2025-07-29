@@ -1,0 +1,16 @@
+tldr/__init__.py,sha256=McmJVkVWBLjbDblXKFNelowzFu3hkjEEPBPwjZW_IG0,564
+tldr/github_adapter.py,sha256=gPWr_TTFIOdjvnb1AVJUWp6gOAhIMpIL6TyrHo3nBQ4,10301
+tldr/signature_extractor_pygments.py,sha256=7L2ZpNQ_BM8O7pNvMpLQFsUsZHiA_nMtY1mNLcBT17U,3059
+tldr/tldr_file_creator.py,sha256=7VdKper9c_ArdyE-JFUpsB8sALUimoTo6kWq9_oLSXE,19225
+tldr/llm_providers/__init__.py,sha256=6qNlIoLjWDQl2IEAoShJbOEq-8LJRhblh57nap5PUik,392
+tldr/llm_providers/claude_provider.py,sha256=iGAD_3gDQteHfUfr2A0prfSB8K31R00RTRJqBTR6W4o,2042
+tldr/llm_providers/grok_provider.py,sha256=yF2qglrYL0Ul5QnVZZuP_BSXpOo5UThkogiHm3Zy4NY,5585
+tldr/llm_providers/llm_config.py,sha256=twr1OZfty4m856CB4mT-NgTRyWUEXB6JdWVb6HmbsM0,4238
+tldr/llm_providers/llm_factory.py,sha256=cUPO6w0Afd2hm5Ukdp0Kx7DWX49cbev-X_L5Z_7_IAQ,3222
+tldr/llm_providers/llm_provider.py,sha256=XkuJzZ17lWt3YLbz6MSU7z8ozzbOoR-gk8m_OB5akaw,1747
+tldr_code-0.1.1.dist-info/licenses/LICENSE,sha256=pyqT5C8dxVSR2jAcyn0lTfMZMShjLhtGhD0eFyFG6o8,1083
+tldr_code-0.1.1.dist-info/METADATA,sha256=-QvRdBAcMUt3ecrCuoPun_d7z3Tr7ypxtgkuGkFeclk,4949
+tldr_code-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+tldr_code-0.1.1.dist-info/entry_points.txt,sha256=RBSFWTfUzvd8lIH5G5ZUgJX8PCe2o7UvwexCzlIo4pQ,45
+tldr_code-0.1.1.dist-info/top_level.txt,sha256=xHSI9WD6Y-_hONbi2b_9RIn9oiO7RBGHU3A8geJq3mI,5
+tldr_code-0.1.1.dist-info/RECORD,,
