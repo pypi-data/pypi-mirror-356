@@ -1,0 +1,15 @@
+monggregate/__init__.py,sha256=FaQfkmKUZ80CVrvWXl6MEjW_sxW3YnIG0_ABoS6MjXI,313
+monggregate/base.py,sha256=Pu9-IG-y_OXPyPjXY-xY1HEklptTT9sjOqRijAwPSH8,3403
+monggregate/dollar.py,sha256=wEOMD-M5hzPfXg86fX2akZEepuSWsokC6QKVMSuQzAQ,15284
+monggregate/fields.py,sha256=m7Y1ADaA2BUKXWtoKQefANwcwv6w9FWY7eUXSoyGSRE,1524
+monggregate/pipeline.py,sha256=q_SNzID-3nRHm9xYXaGwl-WlilafK_SI5qAvfxseJRI,61352
+monggregate/utils.py,sha256=jnk8HZ6cwe9PgXIWtpdt0bz8pDexCXGlzDliuAyqMlM,2479
+monggregate-0.22.0.dist-info/licenses/LICENSE,sha256=0EyzkuGpRe2bFmhmbg6nzHR1sRAFUa3D1ABAn-vrwgw,1093
+tests/__init__.py,sha256=EgdqhJKz4EPdJvUF1TA_rzV8kEQNt6sdIK2qDHl-ri4,22
+tests/test_coverage.py,sha256=QtMkcg9a4iflIEGbvT_9bvq2IVN_TXsyl0pgMFhWxxE,6316
+tests/test_utils.py,sha256=fT0FSpdtKSOgp5RbcYaa0KX0KW1_aE5qVw6Cec1nmEc,3201
+tests/utils.py,sha256=6i7TQugL5JK2z_ybzuxFprV6VJ1Fs3hYo9SZ1JvbmN0,2778
+monggregate-0.22.0.dist-info/METADATA,sha256=HgHM2FOmi8f5auj-nyKIbXul7Qgpwf3kVj5AABVCi08,6092
+monggregate-0.22.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+monggregate-0.22.0.dist-info/top_level.txt,sha256=-V_9rdf1QNg3YKgm3Hvxl4DwyuIYSXY-fXwWrjtjbrM,18
+monggregate-0.22.0.dist-info/RECORD,,
