@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: odd_sorter
+Version: 0.2.0
+Summary: A package to sort only odd numbers in a list
+Author: Lean ratana
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary
