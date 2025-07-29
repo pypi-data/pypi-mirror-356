@@ -1,0 +1,4 @@
+
+[dev]
+pytest>=8.4.0
+pytest-md>=0.2.0
