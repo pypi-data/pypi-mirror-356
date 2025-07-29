@@ -1,0 +1,17 @@
+# Convexity of representations
+This package contains methods to compute convexity scores to measure convexity of latent representations of neural networks as defined in
+
+Tětková, L., Brüsch, T., Dorszewski, T., Mager, F. M., Aagaard, R. Ø., Foldager, J., Alstrøm,
+T. S., and Hansen, L. K.: **On convex decision regions in deep network representations**. arXiv preprint arXiv:2305.17154, 2023.
+
+**Paper:** [https://arxiv.org/abs/2305.17154](https://arxiv.org/abs/2305.17154)
+
+**Documentation:** [https://nnconvexity.readthedocs.io](https://nnconvexity.readthedocs.io)
+
+**Source code:** [https://github.com/LenkaTetkova/nnconvexity](https://github.com/LenkaTetkova/nnconvexity)
+
+See [code](https://github.com/LenkaTetkova/Convexity-of-representations.git) for the paper containing also a demo for using this package.
+
+It provides functions for two types of convexity:
+- Euclidean: sample points on a segment between two points of the same class and evaluate whether they are classified into the same class.
+- graph: approximation of convexity on a manifold -- construct a graph based on nearest neighbors and evaluate proportion of the shortest paths that go through the same class.
