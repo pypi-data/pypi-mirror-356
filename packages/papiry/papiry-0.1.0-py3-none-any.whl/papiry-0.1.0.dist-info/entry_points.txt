@@ -1,0 +1,3 @@
+[console_scripts]
+papiry=papiry.download:main
+
