@@ -1,0 +1,36 @@
+[project]
+name = "hausify"
+version = "v0.1.2"
+description = "Python linting and formatting tools/configurations"
+authors = [
+    { name = "Daniel Walt", email = "dan@haus.io" },
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = ">=25.0.0,<26.0.0"
+isort = ">=6.0.0,<7.0.0"
+flake8 = ">=7.0.0,<8.0.0"
+mypy = ">=1.0.0,<2.0.0"
+pre-commit = ">=4.0.0,<5.0.0"
+poetry = ">=2.0.0,<3.0.0"
+docformatter = "^1.7.7"
+
+[tool.poetry]
+packages = [
+    { include = "hausify", from = "." },
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+pytest-cov = "^6.2.1"
+pytest-reverse = "^1.8.0"
+coverage = "^7.9.1"
+
+[tool.poetry.scripts]
+hausify = "hausify.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
