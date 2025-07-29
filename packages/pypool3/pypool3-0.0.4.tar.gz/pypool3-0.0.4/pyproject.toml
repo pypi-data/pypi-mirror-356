@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypool3"
+version = "0.0.4"
+requires-python = ">=3.8"
+dependencies = ["typing_extensions>=4.7.1"]
+authors = [
+    {name = "Andrew C Scott", email = "imgurbot12@gmail.com"},
+]
+description = "An extensive python resource pool implementation"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = 'LICENSE' }
+keywords = ["pool", "resource-pool", "connection-pool"]
+classifiers = [
+    "Typing :: Typed",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
+
+[project.urls]
+Repository = "https://github.com/imgurbot12/pydns"
+
+[tool.setuptools.package-data]
+"pydns3" = ["py.typed"]
