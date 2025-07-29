@@ -1,0 +1,11 @@
+Relation Scorer:
+Original: Given a question and a list of 5 entities with their relational information, assign each entity a relevance score (between 0 and 1) based on how well its relations match the information in the question.
+Optimized: Given a question and a list of 5 entities with their relational information, assign each entity a relevance score (between 0 and 1) based on how well its relations match the information in the question.
+Best Validation MRR: 0.0000
+Test MRR: 0.0000
+
+Text Scorer:
+Original: Given a question and a list of 5 entities with their property information, assign each entity a relevance score between 0 and 1 based on how well its properties match the requirements described in the question.
+Optimized: Given a question and a list of 5 entities with their property information, assign each entity a relevance score between 0 and 1 based on how well its properties match the requirements described in the question.
+Best Validation MRR: 0.0000
+Test MRR: 0.0000

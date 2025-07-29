@@ -1,0 +1,18 @@
+[project]
+name = "optimas-ai"  # This is the name others will pip install
+version = "0.1.0"
+description = "Describe your package here"
+authors = [{ name="Your Name", email="your@email.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    # Add any dependencies here
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["optimas"]
