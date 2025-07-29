@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mcp_file_downloader/__init__.py
+src/mcp_file_downloader/server.py
+src/mcp_file_downloader.egg-info/PKG-INFO
+src/mcp_file_downloader.egg-info/SOURCES.txt
+src/mcp_file_downloader.egg-info/dependency_links.txt
+src/mcp_file_downloader.egg-info/entry_points.txt
+src/mcp_file_downloader.egg-info/requires.txt
+src/mcp_file_downloader.egg-info/top_level.txt
