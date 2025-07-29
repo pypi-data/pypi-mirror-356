@@ -1,0 +1,8 @@
+setup.py
+student_module/__init__.py
+student_module/student.py
+student_module.egg-info/PKG-INFO
+student_module.egg-info/SOURCES.txt
+student_module.egg-info/dependency_links.txt
+student_module.egg-info/requires.txt
+student_module.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: student-module
+Version: 0.0
+Summary: Student class with get_details, txtFile, db, and excel methods for storing data
+Home-page: UNKNOWN
+Author: Renuka
+Author-email: renuka26092001@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
