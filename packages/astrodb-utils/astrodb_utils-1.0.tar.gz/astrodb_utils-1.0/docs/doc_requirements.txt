@@ -1,0 +1,8 @@
+-e .
+tqdm
+markupsafe==3.0.2
+nbsphinx
+pydata-sphinx-theme
+mock
+sphinx-pyproject
+sphinx_mdinclude 
