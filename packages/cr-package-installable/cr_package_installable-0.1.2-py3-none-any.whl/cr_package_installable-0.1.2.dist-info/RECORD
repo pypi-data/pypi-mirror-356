@@ -1,0 +1,13 @@
+cr_package_installable/__init__.py,sha256=KdgN_h42uXD-ipW-S0Ilc35VtZVmUzvUoH47jezYJKk,41
+cr_package_installable/utils.py,sha256=SPfRJpmo--ZYL-HXgYtENk-_IEFfQPfsgzbtkuKCr0k,456
+cr_package_installable/length/__init__.py,sha256=e2H6MAU5PSQaIBEipGvix2HaEuqEfpBqinX4ZjKqzCQ,29
+cr_package_installable/length/api.py,sha256=uXf0MD7jqmSO7C-rDRtdbDEVr9fNpHzqu5RY4Cl0NC4,1219
+cr_package_installable/length/core.py,sha256=BZPmNfjULWLd7ZWenhApZthsh6faZHdRhqmPxfUJPuY,1385
+cr_package_installable/weight/__init__.py,sha256=e2H6MAU5PSQaIBEipGvix2HaEuqEfpBqinX4ZjKqzCQ,29
+cr_package_installable/weight/api.py,sha256=73Xvr39P13tJbMZmQcWj7m4IfRr0WrGt3o7GC1FaV9c,1224
+cr_package_installable/weight/core.py,sha256=9UFkICGsUCDgyZmlqBjjoFmLwUdT0bXyuf4ikB-OBH8,1708
+cr_package_installable-0.1.2.dist-info/licenses/LICENSE,sha256=sa72Q-FFmf7_4urD7lEHk0houJmcWdMjO5-J1DUG3do,1076
+cr_package_installable-0.1.2.dist-info/METADATA,sha256=RnBPhidCjvBZ_1NqWo9rMBbxGwVnsptFXDAdWJyCq14,9050
+cr_package_installable-0.1.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+cr_package_installable-0.1.2.dist-info/top_level.txt,sha256=9RRjSXxkJz6OhYh7ttW09HeSn4hnZodAyJi1nhnD1QI,23
+cr_package_installable-0.1.2.dist-info/RECORD,,
