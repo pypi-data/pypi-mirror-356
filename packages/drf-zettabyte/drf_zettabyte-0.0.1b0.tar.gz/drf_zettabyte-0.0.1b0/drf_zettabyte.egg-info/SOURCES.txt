@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+drf_zettabyte/__init__.py
+drf_zettabyte/models.py
+drf_zettabyte/permissions.py
+drf_zettabyte/serializers.py
+drf_zettabyte/validations.py
+drf_zettabyte/views.py
+drf_zettabyte.egg-info/PKG-INFO
+drf_zettabyte.egg-info/SOURCES.txt
+drf_zettabyte.egg-info/dependency_links.txt
+drf_zettabyte.egg-info/top_level.txt
