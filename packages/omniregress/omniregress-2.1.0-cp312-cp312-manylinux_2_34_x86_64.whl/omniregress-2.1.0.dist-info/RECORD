@@ -1,0 +1,10 @@
+omniregress-2.1.0.dist-info/METADATA,sha256=zKhO6Ft7XAKS4cNhFjotuYHkIKYebFeYDAkWmOj-i20,3103
+omniregress-2.1.0.dist-info/WHEEL,sha256=MegmbKpmfItx05_jJ5VsxUKelo4nKw5OVeAu8XxdjGw,108
+omniregress-2.1.0.dist-info/licenses/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+omniregress/__init__.py,sha256=RH7puvvVC1jCT555pMz7WLHJVJtQKRFZfTUhMxKV6Y0,181
+omniregress/_omniregress.cpython-312-x86_64-linux-gnu.so,sha256=ci6Gkw5Rv_LL07SObeSgKDc4ngs_YexTD3EFt-G5k8Q,625680
+omniregress/linear_regression.py,sha256=mtAV5CXxhtLmo-D0Wk20dWlI_rzLp8VjmLzG0g-mEDI,9687
+omniregress/polynomial_regression.py,sha256=e_odirw7KhXqLH0GbtkhGELZniozUgkHY7IFU7rFWPM,5084
+omniregress/tests/test_linear.py,sha256=PnDU5IhkZMS_wK0t51f4DFbUO7qEoIRiWWkn54AGzkw,799
+omniregress/tests/test_polynomial.py,sha256=Zb1zlRNK9sqX4g97RWS0A7kAur_Y3dBa9JamFpPwW9c,661
+omniregress-2.1.0.dist-info/RECORD,,
