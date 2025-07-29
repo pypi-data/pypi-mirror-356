@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: bluequbit
+Version: 0.14.0b1
+Summary: Python SDK to BlueQubit app
+Author-email: BlueQubit <hovnatan@bluequbit.io>
+License-Expression: Apache-2.0
+Project-URL: Homepage, https://app.bluequbit.io
+Project-URL: Documentation, https://app.bluequbit.io/sdk-docs
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests~=2.28
+Requires-Dist: python-dateutil~=2.8
+Requires-Dist: numpy>=1.21
+Requires-Dist: packaging
+Dynamic: description-content-type
+Dynamic: license-file
