@@ -1,0 +1,24 @@
+[project]
+name = "django-htpayway"
+version = "1.0.0"
+description = "A Django integration for HT PayWay payment gateway."
+readme = "README.md"
+authors = [
+    { name = "Sasha Matijasic", email = "sasha@selectnull.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/htpayway"]
+
+[dependency-groups]
+dev = [
+    "django>=5.1",
+    "django-stubs>=5.2.0",
+    "django-stubs-ext>=5.2.0",
+]

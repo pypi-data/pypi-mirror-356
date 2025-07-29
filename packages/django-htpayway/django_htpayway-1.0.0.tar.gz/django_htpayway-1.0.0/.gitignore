@@ -1,0 +1,5 @@
+*.pyc
+*.sw?
+/dist/
+/django_htpayway.egg-info/
+/.venv

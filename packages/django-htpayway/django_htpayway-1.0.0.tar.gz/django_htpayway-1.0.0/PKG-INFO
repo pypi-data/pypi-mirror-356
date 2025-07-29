@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: django-htpayway
+Version: 1.0.0
+Summary: A Django integration for HT PayWay payment gateway.
+Author-email: Sasha Matijasic <sasha@selectnull.com>
+License-File: LICENSE
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+django-htpayway
+=======================
+
+Django app for [HT PayWay][payway] (croatian only web) payment gateway
+integration.
+
+
+[payway]: https://poslovni.ht.hr/payway
