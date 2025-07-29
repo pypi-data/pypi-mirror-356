@@ -1,0 +1,44 @@
+[project]
+name = "py_qbull"
+version = "1.0.0"
+description = "A robust Python job queue library using Redis – Port of QBull"
+authors = [{ name = "FAZPI AI", email = "dev@fazpi.ai" }]
+dependencies = [
+    "redis>=5.0.0",
+    "asyncio-redis>=0.16.0",
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.0.0"
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["queue", "job", "redis", "worker", "background", "task", "processing", "async"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Distributed Computing"
+]
+
+[project.urls]
+Homepage = "https://github.com/fazpi-ai/py-qbull"
+Documentation = "https://github.com/fazpi-ai/py-qbull/tree/main/docs"
+Repository = "https://github.com/fazpi-ai/py-qbull"
+Issues = "https://github.com/fazpi-ai/py-qbull/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
