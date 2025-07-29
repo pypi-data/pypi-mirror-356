@@ -1,0 +1,13 @@
+sqlalchemy
+boto3
+python-dotenv
+pyyaml
+psycopg2
+redshift-connector
+sqlalchemy-redshift
+apscheduler
+croniter
+jinja2
+tabulate
+simpleeval
+spacy

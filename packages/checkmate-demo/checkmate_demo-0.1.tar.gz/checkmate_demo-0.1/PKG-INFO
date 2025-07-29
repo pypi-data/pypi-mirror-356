@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: checkmate-demo
+Version: 0.1
+Requires-Dist: sqlalchemy
+Requires-Dist: boto3
+Requires-Dist: python-dotenv
+Requires-Dist: pyyaml
+Requires-Dist: psycopg2
+Requires-Dist: redshift-connector
+Requires-Dist: sqlalchemy-redshift
+Requires-Dist: apscheduler
+Requires-Dist: croniter
+Requires-Dist: jinja2
+Requires-Dist: tabulate
+Requires-Dist: simpleeval
+Requires-Dist: spacy
+Dynamic: requires-dist
