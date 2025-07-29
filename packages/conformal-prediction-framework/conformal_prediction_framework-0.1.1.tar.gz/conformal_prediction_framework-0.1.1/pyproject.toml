@@ -1,0 +1,25 @@
+[project]
+name = "conformal-prediction-framework"
+version = "0.1.1"
+description = "A lightweight conformal prediction library built on top of scikit-learn."
+keywords = ["machine-learning", "conformal-prediction", "sklearn", "uncertainty"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "lightgbm>=4.6.0",
+    "pandas==2.2.2",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "setuptools>=80.9.0",
+    "twine>=6.1.0",
+    "wheel>=0.45.1",
+    "xgboost>=3.0.2",
+]
