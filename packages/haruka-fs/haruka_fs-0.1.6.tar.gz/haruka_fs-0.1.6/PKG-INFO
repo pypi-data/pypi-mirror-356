@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: haruka-fs
+Version: 0.1.6
+Summary: Streaming fs over memory, networking, and object storage
+Requires-Python: >=3.9
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: oss2>=2.19.1
+Requires-Dist: python-dotenv>=1.1.0
+Requires-Dist: tos>=2.8.3
+Provides-Extra: dev
+Requires-Dist: pymupdf>=1.26.0; extra == 'dev'
