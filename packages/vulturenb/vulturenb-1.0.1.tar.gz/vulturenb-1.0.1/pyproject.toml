@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vulturenb"
+version = "1.0.1"
+description = "Wrapper around the vulture tool to include Jupyter notebooks."
+dependencies = [
+    "vulture",
+    "nbconvert",
+    "loguru",
+    "rich",
+    "ipykernel"]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "build",
+    "twine",
+]
+
+[project.scripts]
+vulturenb = "vulturenb.cli:main"
+
+[tool.ruff.lint]
+select = ["ALL"]
+extend-ignore = [
+    # General
+    "E501", "W293", "FA100", "S608",
+    "FBT001", "FBT002", "FBT003", "EM101",
+    "EM102", "TRY003", "S301", "S110",
+    # Docstrings
+    "D203", "D100", "D105", "D107",
+    # Pandas
+    "PD002",
+    # Others
+    "PLR0911", "PLR0912", "PLR0915",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test/*" = ["S101", "ANN", "PLR", "BLE001", "ARG002"]
+"**/__init__.py" = ["F401"]
+"**/conftest.py" = ["F401"]

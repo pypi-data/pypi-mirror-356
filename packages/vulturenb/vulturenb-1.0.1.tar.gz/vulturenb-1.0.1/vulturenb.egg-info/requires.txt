@@ -1,0 +1,10 @@
+vulture
+nbconvert
+loguru
+rich
+ipykernel
+
+[dev]
+ruff
+build
+twine
