@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: xssa
+Version: 0.1.0.dev0
+Summary: Extended Space Situational Awareness
+Author-email: "Rafael R. L. Benevides" <rafael.rl.benevides@gmail.com>
+License-Expression: BSD-3-Clause
+Project-URL: Homepage, https://github.com/xssa-dev/xssa
+Keywords: satellite,orbit,astrodynamics,SSA,RPO,screening
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: spacekernel
+Requires-Dist: matplotlib
+Requires-Dist: pyvista
+Dynamic: license-file
+
+# xssa
+Extended Space Situational Awareness
