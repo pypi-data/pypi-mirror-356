@@ -1,0 +1,27 @@
+[CDF-24924] 🦖 Live table (#1614)
+
+# Description
+
+Making the asset-centric profile table live.
+
+
+![profiling-live_dashboard](https://github.com/user-attachments/assets/1f03bb8a-34ee-4614-b149-5a5eb4121ae2)
+
+
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Improved
+
+- [alpha] The `cdf profile asset-centric` is now live updating as
+results are fetched.
+
+## templates
+
+No changes.
