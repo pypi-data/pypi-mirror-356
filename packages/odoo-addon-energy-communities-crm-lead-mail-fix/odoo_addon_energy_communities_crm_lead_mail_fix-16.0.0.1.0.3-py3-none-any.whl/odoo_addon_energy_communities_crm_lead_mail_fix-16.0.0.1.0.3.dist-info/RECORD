@@ -1,0 +1,11 @@
+odoo/addons/energy_communities_crm_lead_mail_fix/README.md,sha256=Ahcsiz83pRzFXXAP3y3nc-5BSq8d13txw8RT1v5NrZg,109
+odoo/addons/energy_communities_crm_lead_mail_fix/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/energy_communities_crm_lead_mail_fix/__manifest__.py,sha256=JScOq4z23mkRZYe3-dAkZl_m5ylyZ7UAe4THvRQEvy0,1000
+odoo/addons/energy_communities_crm_lead_mail_fix/pyproject.toml,sha256=fTmy7R95Ca6vKwz6oo7aFYgJcT7IoMJRCHjNqRg6PNY,69
+odoo/addons/energy_communities_crm_lead_mail_fix/data/partner_tags.xml,sha256=TlDlRZttAXKxjEyoJWffn4OdZtZD8XSHeD6iNnTV_jY,429
+odoo/addons/energy_communities_crm_lead_mail_fix/models/__init__.py,sha256=eTLQiCKAhuge4MlZuxV_WYZ9pb1wsErRFyyNcQ9VlBg,23
+odoo/addons/energy_communities_crm_lead_mail_fix/models/crm_lead.py,sha256=w2SQw0Gty9AMjbvmN7sr7wZn50FZykvwOtBPWJ0LBDU,4773
+odoo_addon_energy_communities_crm_lead_mail_fix-16.0.0.1.0.3.dist-info/METADATA,sha256=U1Vq-cJz9F-CihWKINa-kNBF-Mj1NBAi_4nuLECSR7A,1061
+odoo_addon_energy_communities_crm_lead_mail_fix-16.0.0.1.0.3.dist-info/WHEEL,sha256=ooBFpIzZCPdw3uqIQsOo4qqbA4ZRPxHnOH7peeONza0,91
+odoo_addon_energy_communities_crm_lead_mail_fix-16.0.0.1.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_energy_communities_crm_lead_mail_fix-16.0.0.1.0.3.dist-info/RECORD,,
