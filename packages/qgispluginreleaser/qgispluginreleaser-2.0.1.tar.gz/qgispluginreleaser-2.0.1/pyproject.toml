@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=70"]
+
+[project]
+name = "qgispluginreleaser"
+description = "Add-on for zest.releaser for releasing qgis plugins"
+authors = [
+    {name = "Reinout van Rees", email = "reinout.vanrees@nelen-schuurmans.nl"},
+]
+readme = "README.rst"
+license = {text = "GPL"}
+requires-python = ">=3.10"
+version = "2.0.1"
+dependencies = [
+    "zest-releaser>=9",
+]
+
+[project.entry-points."zest.releaser.releaser.after_checkout"]
+release_plugin = "qgispluginreleaser.entry_point:create_zipfile"
+
+[project.entry-points."zest.releaser.prereleaser.middle"]
+prerelease_plugin = "qgispluginreleaser.entry_point:fix_version"
+
+[project.entry-points."zest.releaser.postreleaser.middle"]
+postrelease_plugin = "qgispluginreleaser.entry_point:fix_version"
+
+[tool.ruff]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+
+[tool.zest-releaser]
+release = true
+
+[dependency-groups]
+dev = [
+    "mock>=5.2.0",
+    "pytest>=8.4.1",
+]
