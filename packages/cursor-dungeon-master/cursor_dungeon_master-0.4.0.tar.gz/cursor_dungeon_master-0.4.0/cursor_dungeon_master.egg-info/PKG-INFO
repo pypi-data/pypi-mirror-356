@@ -1,0 +1,132 @@
+Metadata-Version: 2.4
+Name: cursor-dungeon-master
+Version: 0.4.0
+Summary: Context-tracking pre-commit tool for Cursor integration with comprehensive documentation enforcement
+Author-email: Dungeon Master Team <team@dungeonmaster.dev>
+Maintainer-email: Dungeon Master Team <team@dungeonmaster.dev>
+License-Expression: MIT
+Keywords: documentation,git,pre-commit,context,tracking,cursor,ai
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=10.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: build>=0.8.0; extra == "dev"
+Dynamic: license-file
+
+# 🏰 Dungeon Master
+
+**A context-tracking pre-commit tool for Cursor integration.**
+
+Blocks commits until meaningful documentation exists. Creates structured templates that Cursor fills with intelligent content. Enforces quality through automated validation.
+
+```bash
+pip install cursor-dungeon-master
+dm init
+```
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Install
+pip install cursor-dungeon-master
+
+# Initialize in your repository
+dm init
+
+# Mark files for tracking by adding a comment
+echo '# track_lore("my_feature.md")' >> src/my_feature.py
+
+# Commit triggers the workflow
+git add . && git commit -m "Add new feature"
+```
+
+That's it! Dungeon Master will create documentation templates and block commits until they're complete.
+
+---
+
+## 🗡️ Commands
+
+| Command          | Purpose                                   |
+| ---------------- | ----------------------------------------- |
+| `dm init`        | Initialize Dungeon Master in repository   |
+| `dm create-lore` | Create/update templates for tracked files |
+| `dm review`      | Show all tracked files and their status   |
+| `dm validate`    | Check what would block commits            |
+| `dm map`         | Generate repository structure map         |
+
+---
+
+## ⚔️ How It Works
+
+1. **Track Files**: Add `# track_lore("filename.md")` comments to important files
+2. **Commit**: When you commit, templates are created in `.lore/` directory
+3. **Complete**: Use Cursor to fill template placeholders
+4. **Validate**: Commits are blocked until documentation is complete
+
+### Example Template
+
+```markdown
+# my_feature.py - Context Documentation
+
+## Overview
+
+[PLEASE FILL OUT: Overview]
+
+## Key Functions/Components
+
+[PLEASE FILL OUT: Functions/Components]
+
+## Dependencies
+
+[PLEASE FILL OUT: Dependencies]
+```
+
+---
+
+## 🛡️ Validation
+
+Commits are blocked when:
+
+- Documentation templates are missing
+- Templates contain `[PLEASE FILL OUT: ...]` placeholders
+- Significant code changes haven't been reviewed
+
+---
+
+## 🌟 Why Use This?
+
+- **Enforced Documentation**: No more outdated or missing docs
+- **AI-Friendly Structure**: Templates work perfectly with Cursor
+- **Pre-commit Integration**: Automatic validation before commits
+- **Language Support**: Python, JavaScript, TypeScript, and more
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+🏰 _"In the dungeon of development, proper documentation is your most powerful spell."_
