@@ -1,0 +1,23 @@
+License.md
+MANIFEST.in
+PyPI_readme.md
+README.md
+pyproject.toml
+images/F-t.png
+images/Seismogram with a coda segment.png
+images/seismic_catalogue_example.png
+src/scodakit/__init__.py
+src/scodakit/download.py
+src/scodakit/main.py
+src/scodakit/map_generator.py
+src/scodakit/merge_catalogue.py
+src/scodakit/picking.py
+src/scodakit/plots.py
+src/scodakit/process.py
+src/scodakit/utils.py
+src/scodakit.egg-info/PKG-INFO
+src/scodakit.egg-info/SOURCES.txt
+src/scodakit.egg-info/dependency_links.txt
+src/scodakit.egg-info/entry_points.txt
+src/scodakit.egg-info/requires.txt
+src/scodakit.egg-info/top_level.txt

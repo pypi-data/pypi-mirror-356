@@ -1,0 +1,5 @@
+include PyPI_readme.md
+include README.md
+include LICENSE
+recursive-include scodakit *.py
+recursive-include images *.png
