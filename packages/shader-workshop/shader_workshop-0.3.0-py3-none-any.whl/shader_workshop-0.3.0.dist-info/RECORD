@@ -1,0 +1,17 @@
+shader_workshop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shader_workshop/frag.py,sha256=EkbTrg1IwWTMOL0js391J8oJZn7vU4Lynt7r_2E524A,1246
+shader_workshop/server.py,sha256=AE_6pptNI4A07IvIAtRrl6K3iUTXDBqAMuuW37xPPNw,5885
+shader_workshop/tool.py,sha256=YxmiqF_FxFwY-s2bTJqo8x8ANz2sQzSGZTQDXGEG0jk,660
+shader_workshop/frag-examples/intro.frag,sha256=ek_oSxQ_Mwk8lqLrqnlrwO85KCglmQUFpHUXg4zRc4w,186
+shader_workshop/frag-examples/noise.frag,sha256=Zjd8Cu712ayYIcL8Cz7NlfnRmHlC5lOt_fNuWx-Rl20,1449
+shader_workshop/frag-examples/shape.frag,sha256=djsRvufVGK0dMdP9ZQuPj8z-NCLzTlzzgi4zNEJkBb8,590
+shader_workshop/www/favicon.ico,sha256=tn3QVhnxFu0DPzUJEdcYt-82aalUyUnzelLAHTyQ18Q,231
+shader_workshop/www/index.html,sha256=TRKvlOQuC7VS0lPWYsP7omqRW554lKm0lejlG_QY0A0,1324
+shader_workshop/www/shader.js,sha256=XBz_nzeIZeGK6v6O4nCa0a5WY6DiTqiv_vI90yb32rg,6509
+shader_workshop/www/style.css,sha256=2wBxQvY8U7rD_ksMu2NMPshlikSWADYEZEVfrX7n7Qk,968
+shader_workshop-0.3.0.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+shader_workshop-0.3.0.dist-info/METADATA,sha256=4YL-90hcb33i1gj6BTGcvz0eTi8AltLVpnmhX4Pe9lU,1918
+shader_workshop-0.3.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+shader_workshop-0.3.0.dist-info/entry_points.txt,sha256=HkB5P54fQdpbjQaS7KaBX4y8zTVEsexjKX-nEW9bRUQ,99
+shader_workshop-0.3.0.dist-info/top_level.txt,sha256=M0TOqVhKdB3VmHMuXd3-7bTgO2DASIY3yZLdOH1hjbc,16
+shader_workshop-0.3.0.dist-info/RECORD,,
