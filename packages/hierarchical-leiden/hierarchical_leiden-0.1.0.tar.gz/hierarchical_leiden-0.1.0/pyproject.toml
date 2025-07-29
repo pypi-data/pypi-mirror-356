@@ -1,0 +1,119 @@
+[project]
+name = "hierarchical-leiden"
+version = "0.1.0"
+description = "Implementation of the hierarchical Leiden community detection algorithms."
+requires-python = ">=3.10"
+authors = [
+    { name = "Daniel Albert", email = "git+community-detection+252b9@esclear.de" },
+    { name = "Yanli", email = "mail@yanli.one" },
+]
+dependencies = [
+    "networkx>=3.0",
+]
+readme = "README.md"
+
+[project.license]
+text = "EUPL-1.2"
+
+[project.optional-dependencies]
+demo = [
+    "ipynb>=0.5.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+]
+
+[tool.black]
+line-length = 140
+target-version = [
+    "py39",
+    "py310",
+]
+skip-string-normalization = true
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "tests/*",
+    "/nix/*",
+    "/usr/*",
+    "/lib/*",
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.ruff]
+line-length = 140
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "UP",
+    "W",
+    "N",
+    "I",
+    "RUF",
+    "PL",
+]
+ignore = [
+    "PLR0913",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "N803",
+    "N806",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "D100",
+    "D103",
+    "D104",
+    "E501",
+    "PLR2004",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.lint.pylint]
+max-args = 6
+
+[tool.mypy]
+strict = true
+exclude = [
+    "local",
+]
+
+[[tool.mypy.overrides]]
+module = [
+    "networkx",
+    "networkx.algorithms.community",
+    "pandas",
+]
+ignore_missing_imports = true
+
+[tool.isort]
+line_length = 140
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
