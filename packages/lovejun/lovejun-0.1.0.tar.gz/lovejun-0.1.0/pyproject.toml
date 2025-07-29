@@ -1,0 +1,25 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lovejun"                  # 패키지 이름
+version = "0.1.0"                        # 버전
+description = "Arduino 시리얼 통신을 쉽게 제어하는 Python 라이브러리"  # 한줄 설명
+authors = [
+  { name="채현준", email="lovejun070704@gmail.com" }
+]
+readme = "README.md"                    # 프로젝트 설명파일
+license = { text = "MIT" }              # 라이센스 파일
+requires-python = ">=3.7"               # 최소 지원 파이썬 버전
+dependencies = [
+    "pyserial>=3.5"                     # 필요한 외부 패키지 (없으면 생략 가능)
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

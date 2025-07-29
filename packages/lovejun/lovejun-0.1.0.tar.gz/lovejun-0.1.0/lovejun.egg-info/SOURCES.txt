@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+lovejun/__init__.py
+lovejun/lovejun.py
+lovejun.egg-info/PKG-INFO
+lovejun.egg-info/SOURCES.txt
+lovejun.egg-info/dependency_links.txt
+lovejun.egg-info/requires.txt
+lovejun.egg-info/top_level.txt
