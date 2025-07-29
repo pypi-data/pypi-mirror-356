@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+MetaSBT.egg-info/PKG-INFO
+MetaSBT.egg-info/SOURCES.txt
+MetaSBT.egg-info/dependency_links.txt
+MetaSBT.egg-info/entry_points.txt
+MetaSBT.egg-info/not-zip-safe
+MetaSBT.egg-info/requires.txt
+MetaSBT.egg-info/top_level.txt
+metasbt/__init__.py
+metasbt/core.py
+metasbt/metasbt.py
+scripts/get_ncbi_genomes.py
+test/mags.txt
+test/references.tsv
