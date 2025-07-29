@@ -1,0 +1,8 @@
+nova/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+nova/common/__init__.py,sha256=52eq0hdOZ19xMJqe7e4sVjLkwbVTMZhaGwPK5PqLPeM,81
+nova/common/job.py,sha256=e7JBh9_0-zG1Np9Hta4ouj8KhEQBy7YeCwoU9_7VyCs,513
+nova/common/signals.py,sha256=8YtVbNZA-63-ArJm5hfuZytT4s6-jxemHzlz8yWAOFc,572
+nova_common-0.2.3.dist-info/LICENSE,sha256=MOqZ8tPMKy8ZETJ2-HEvFTZ7dYNlg3gXmBkV-Y9i8bw,1061
+nova_common-0.2.3.dist-info/METADATA,sha256=Dx3vRgvbHXgCVt9v24nbCcgoWjPO5zJ5rzR8YcIkSyc,738
+nova_common-0.2.3.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+nova_common-0.2.3.dist-info/RECORD,,
