@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openclone-logweaver
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/smchughinfo/LogWeaver
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8, <3.12
+License-File: LICENSE
+Requires-Dist: psycopg2-binary
+Requires-Dist: pytz
+
+UNKNOWN
+
