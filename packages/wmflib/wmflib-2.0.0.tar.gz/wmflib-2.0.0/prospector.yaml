@@ -1,0 +1,16 @@
+strictness: high
+inherits:
+  - strictness_high
+
+doc-warnings: true
+member-warnings: true
+test-warnings: true
+
+autodetect: false
+output-format: grouped
+
+ignore-paths:
+  - doc/source/conf.py
+  - build/
+  - dist/
+  - logs/
