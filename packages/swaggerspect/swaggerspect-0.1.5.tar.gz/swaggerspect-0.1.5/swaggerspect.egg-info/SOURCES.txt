@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+swaggerspect/__init__.py
+swaggerspect/class_api.py
+swaggerspect/function_api.py
+swaggerspect/schema_utils.py
+swaggerspect/test.py
+swaggerspect/type_schema.py
+swaggerspect/validate.py
+swaggerspect/value_schema.py
+swaggerspect.egg-info/PKG-INFO
+swaggerspect.egg-info/SOURCES.txt
+swaggerspect.egg-info/dependency_links.txt
+swaggerspect.egg-info/requires.txt
+swaggerspect.egg-info/top_level.txt
