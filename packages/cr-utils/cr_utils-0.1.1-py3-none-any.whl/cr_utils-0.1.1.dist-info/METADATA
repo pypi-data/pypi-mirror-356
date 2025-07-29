@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: cr_utils
+Version: 0.1.1
+Summary: Add your description here
+Home-page: https://github.com/cbxgss/cr_utils.git
+Author: Rong Cheng
+Author-email: chengrong@tju.edu.cn
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: litellm==1.67.0.post1
+Requires-Dist: omegaconf>=2.3.0
+Requires-Dist: openai>=1.74.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: psutil>=7.0.0
+Requires-Dist: tenacity>=9.1.2
+Requires-Dist: prettytable>=3.16.0
+Requires-Dist: ipdb>=0.13.13
+Requires-Dist: setuptools>=80.9.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
