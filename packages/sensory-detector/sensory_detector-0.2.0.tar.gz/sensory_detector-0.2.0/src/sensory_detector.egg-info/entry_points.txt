@@ -1,0 +1,3 @@
+[console_scripts]
+sensory-detector-server = sensory_detector.yolo_server.main:app
+sensory-detector-server-gunicorn = sensory_detector.yolo_server.main:run_gunicorn_server
