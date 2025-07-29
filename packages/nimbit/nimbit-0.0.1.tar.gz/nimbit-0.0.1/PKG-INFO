@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nimbit
+Version: 0.0.1
+Summary: 
+Author: Addyvan
+Author-email: addison.vdh@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bcrypt (>=4.1.2,<5.0.0)
+Requires-Dist: chromadb (>=1.0.12,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: fabric (>=3.2.2,<4.0.0)
+Requires-Dist: fastapi (>=0.115.9,<0.116.0)
+Requires-Dist: ollama (>=0.5.1,<0.6.0)
+Requires-Dist: psutil (>=7.0.0,<8.0.0)
+Requires-Dist: pulsar-client (>=3.7.0,<4.0.0)
+Requires-Dist: pyroute2 (>=0.9.1,<0.10.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
+## Customer facing library
+
+* Full agent isolation
+  * MicroVM per agent
+
+
