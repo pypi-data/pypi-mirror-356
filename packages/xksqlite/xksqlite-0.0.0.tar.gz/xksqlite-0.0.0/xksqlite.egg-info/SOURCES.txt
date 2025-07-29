@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tests/test_1.py
+xk/ChangYing.py
+xksqlite.egg-info/PKG-INFO
+xksqlite.egg-info/SOURCES.txt
+xksqlite.egg-info/dependency_links.txt
+xksqlite.egg-info/not-zip-safe
+xksqlite.egg-info/top_level.txt
