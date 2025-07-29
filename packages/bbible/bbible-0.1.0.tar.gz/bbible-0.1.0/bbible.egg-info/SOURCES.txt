@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bbible/__init__.py
+bbible.egg-info/PKG-INFO
+bbible.egg-info/SOURCES.txt
+bbible.egg-info/dependency_links.txt
+bbible.egg-info/top_level.txt
+bbible/data/kjv.json
+bbible/data/nkjv.json
