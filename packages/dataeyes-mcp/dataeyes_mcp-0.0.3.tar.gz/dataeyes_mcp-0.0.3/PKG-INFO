@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: dataeyes-mcp
+Version: 0.0.3
+Summary: Add your description here
+Author-email: xhl <xuhualun@aliyun.com>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: dashscope>=1.23.5
+Requires-Dist: dotenv>=0.9.9
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp[cli]>=1.9.4
