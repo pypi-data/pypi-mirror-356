@@ -1,0 +1,12 @@
+# 包含所有 Python 源文件
+include src/mfcs_memory/*.py
+include src/mfcs_memory/*/*.py
+
+# 包含 README 文件
+include README.md
+
+# 包含许可证文件（如果有的话）
+# include LICENSE
+
+# 包含模型目录
+include model/README.md 
