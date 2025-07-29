@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dataframe_pointer/__init__.py
+dataframe_pointer.egg-info/PKG-INFO
+dataframe_pointer.egg-info/SOURCES.txt
+dataframe_pointer.egg-info/dependency_links.txt
+dataframe_pointer.egg-info/requires.txt
+dataframe_pointer.egg-info/top_level.txt
+tests/test_df_pointer.py
