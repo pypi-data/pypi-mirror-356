@@ -1,0 +1,2 @@
+[console_scripts]
+docsend2pdf-mcp = docsend2pdf_mcp.__main__:main
