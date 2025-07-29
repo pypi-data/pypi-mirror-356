@@ -1,0 +1,3 @@
+[console_scripts]
+kas-merge-configs=kas_dagger_utils.bin.kas_merge_configs:main
+
