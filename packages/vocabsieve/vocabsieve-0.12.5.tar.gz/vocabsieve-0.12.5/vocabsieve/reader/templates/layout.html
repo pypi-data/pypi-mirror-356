@@ -1,0 +1,58 @@
+<html class="has-navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        {% block head %} {% endblock head %}
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='bulma.min.css') }}"/>
+        <style>
+            html {
+                background-color: {% block bgcolor %} #add {% endblock %};
+            }
+            .boxlink {
+                display: block;
+            }
+            #master {
+                padding-top: 3%;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            .button-box {
+              display: None;
+            }
+            .card {
+                margin-bottom: 1rem;
+            }
+            #progress-bar {
+                --scrollAmount: 0%;
+                width: var(--scrollAmount);
+                height: 8px;
+                position: fixed;
+                top: 3.25rem;
+            }
+        </style>
+    </head>
+  <body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <h5 class="title is-5">Home</h5>
+        </a>
+        {% block navitem %}
+        {% endblock %}
+      </div>
+      <div class="navbar-menu">
+      </div>
+    </nav>
+    {% block precontent %} {% endblock %}
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="notification is-primary">{{message}}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <div id="master" class="container">
+        {% block content %} {% endblock %}
+    </div>
+    {% block script %} {% endblock %}
+  </body>
+</html>
