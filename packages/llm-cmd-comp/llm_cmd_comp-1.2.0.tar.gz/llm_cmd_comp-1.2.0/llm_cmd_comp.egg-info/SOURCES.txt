@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+llm_cmd_comp/__init__.py
+llm_cmd_comp.egg-info/PKG-INFO
+llm_cmd_comp.egg-info/SOURCES.txt
+llm_cmd_comp.egg-info/dependency_links.txt
+llm_cmd_comp.egg-info/entry_points.txt
+llm_cmd_comp.egg-info/requires.txt
+llm_cmd_comp.egg-info/top_level.txt
+llm_cmd_comp/share/llm-cmd-comp.bash
+llm_cmd_comp/share/llm-cmd-comp.fish
+llm_cmd_comp/share/llm-cmd-comp.zsh

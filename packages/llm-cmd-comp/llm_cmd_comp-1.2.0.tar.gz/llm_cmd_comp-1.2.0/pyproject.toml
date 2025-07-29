@@ -1,0 +1,26 @@
+[project]
+name = "llm-cmd-comp"
+version = "1.2.0"
+description = "Use LLM to generate commands for your shell"
+readme = "README.md"
+authors = [{name = "Ryan Patterson"}]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = [
+    "llm",
+    "prompt_toolkit>=3.0.43",
+]
+
+[project.urls]
+Homepage = "https://github.com/CGamesPlay/llm-cmd-comp"
+Changelog = "https://github.com/CGamesPlay/llm-cmd-comp/releases"
+Issues = "https://github.com/CGamesPlay/llm-cmd-comp/issues"
+
+[project.entry-points.llm]
+cmdcomp = "llm_cmd_comp"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+llm_cmd_comp = ["share/*"]
