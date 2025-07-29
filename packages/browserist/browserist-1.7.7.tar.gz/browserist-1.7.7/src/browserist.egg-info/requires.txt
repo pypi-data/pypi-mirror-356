@@ -1,0 +1,14 @@
+chromedriver
+lxml==5.4.0
+pillow==11.2.1
+requests==2.32.4
+selenium==4.33.0
+
+[testing]
+coverage==7.8.2
+flake8==7.2.0
+keyring==25.6.0
+mypy==1.16.0
+pytest==8.4.0
+pytest-cov==6.1.1
+tox==4.26.0
