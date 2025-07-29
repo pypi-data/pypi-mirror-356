@@ -1,0 +1,11 @@
+numpy>=1.21.0
+
+[PIL]
+Pillow>=9.0.0
+
+[all]
+Pillow>=9.0.0
+opencv-python>=4.5.0
+
+[cv2]
+opencv-python>=4.5.0
