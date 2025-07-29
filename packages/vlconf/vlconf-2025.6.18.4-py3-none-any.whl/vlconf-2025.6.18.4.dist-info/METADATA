@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: vlconf
+Version: 2025.6.18.4
+Summary:  Vaishak's local configuration files 
+Project-URL: Homepage, https://gitlab.com/vaishakp/config
+Project-URL: Bug Tracker, https://gitlab.com/vaishakp/config/issues
+Author-email: Vaishak Prasad <vaishakprasad@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Local python configuration files
