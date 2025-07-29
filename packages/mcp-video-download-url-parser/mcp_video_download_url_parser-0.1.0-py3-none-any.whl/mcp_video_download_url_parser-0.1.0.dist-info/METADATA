@@ -1,0 +1,216 @@
+Metadata-Version: 2.4
+Name: mcp-video-download-url-parser
+Version: 0.1.0
+Summary: 从抖音、TikTok等平台下载无水印视频的MCP服务
+Project-URL: Homepage, https://github.com/tansunyj/mcp_video_download_url_parser
+Author: tansunyj
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: aiofiles>=23.1.0
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: beautifulsoup4>=4.9.3
+Requires-Dist: build>=1.2.2.post1
+Requires-Dist: fastmcp>=1.0.0
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: playwright>=1.40.0
+Requires-Dist: requests>=2.26.0
+Requires-Dist: twine>=6.1.0
+Description-Content-Type: text/markdown
+
+# MCP Video Download URL Parser
+
+这是一个基于MCP的视频下载工具，支持从抖音、TikTok等平台下载无水印视频。
+
+## 功能特点
+
+- 支持从抖音、TikTok、哔哩哔哩等平台下载无水印视频
+- 使用Playwright模拟浏览器环境，绕过网站的防爬措施
+- 自动提取视频标题和下载链接
+- 支持自定义下载路径
+- 支持作为MCP服务运行
+
+## 安装依赖
+
+```bash
+# 安装Python依赖
+uv pip install -r requirements.txt
+
+# 安装Playwright浏览器
+playwright install
+```
+
+## 使用方法
+
+### 作为MCP服务运行
+
+```bash
+uv run --index-url https://mirrors.aliyun.com/pypi/simple/ main.py
+```
+
+然后可以通过MCP调用`download_video`函数：
+
+```python
+# MCP调用示例
+result = await mcp_video_url_parser_download_video(url="https://v.douyin.com/your_video_id/", output_path="D:\\视频")
+```
+
+### 直接使用测试脚本
+
+```bash
+# 使用默认测试URL
+uv run direct_test.py
+
+# 指定视频URL
+uv run direct_test.py "https://v.douyin.com/your_video_id/"
+```
+
+## 技术实现
+
+本工具使用了两种方式来提取视频URL：
+
+1. **Playwright模拟浏览器**（主要方法）：
+   - 完全模拟真实浏览器环境
+   - 自动访问snapany.com网站
+   - 输入视频链接并点击提取按钮
+   - 监听API响应或直接从页面提取视频元素
+   - 绕过网站的防爬措施，如请求头验证、Cookie验证等
+
+2. **API直接请求**（备用方法）：
+   - 直接向snapany.com的API发送请求
+   - 添加必要的请求头和参数
+   - 处理多种可能的响应格式
+
+## 防爬措施解决方案
+
+snapany.com网站有严格的防爬措施，包括：
+
+1. **请求头验证**：需要特定的请求头，如g-timestamp和g-footer
+2. **Cookie验证**：需要有效的会话Cookie
+3. **浏览器指纹**：检查浏览器环境、Canvas指纹等
+4. **动态签名生成**：可能基于多种因素动态生成签名
+
+我们通过使用Playwright完全模拟浏览器环境，成功绕过了这些防爬措施。Playwright提供了真实的浏览器环境，包括JavaScript执行、Cookie管理和请求拦截等功能，使我们能够像真实用户一样与网站交互。
+
+## 注意事项
+
+- 本工具仅用于学习和研究目的
+- 请遵守相关平台的使用条款和版权规定
+- 不要过于频繁地使用，以避免对目标网站造成压力
+
+## 安装和执行
+
+### 通过Smithery安装
+
+要通过Smithery为Claude Desktop自动安装MCP Video Download URL Parser：
+
+```bash
+npx -y @smithery/cli install @tansunyj/mcp_video_download_url_parser --client claude
+```
+
+### 手动安装
+1. 克隆仓库：`git clone https://github.com/tansunyj/mcp_video_download_url_parser.git`
+2. 进入目录：`cd mcp_video_download_url_parser`
+3. 安装依赖：`pip install -r requirements.txt`
+4. 启动MCP服务器：`python main.py`
+
+## 配置Claude Desktop或Cursor
+
+1. 添加以下配置：
+
+```json
+{
+    "mcpServers": {
+        "video-url-parser": {
+            "command": "python",
+            "args": [
+                "/path/to/mcp_video_download_url_parser/main.py"
+            ],
+            "env": {}
+        }
+    }
+}
+```
+
+## 在魔塔社区(Cursor)部署配置
+
+要在魔塔社区上部署此MCP服务，请按照以下步骤操作：
+
+1. **上传项目**：将项目上传到魔塔社区平台
+   
+2. **配置服务**：在魔塔社区控制台中，找到"MCP服务配置"部分，添加以下配置信息：
+
+```json
+{
+  "name": "video-url-parser",
+  "description": "视频下载解析工具",
+  "version": "1.0.0",
+  "main": "main.py",
+  "requirements": ["playwright", "asyncio", "aiohttp", "beautifulsoup4"],
+  "environmentVariables": {
+    "DOWNLOAD_PATH": "./downloads"
+  }
+}
+```
+
+3. **开启服务**：在魔塔社区控制台中，找到已添加的服务，点击"开启服务"按钮
+
+4. **服务调用**：在魔塔社区中，可以通过以下方式调用该服务：
+
+```python
+# 调用示例
+result = await mcp_video_url_parser_download_video(
+    url="https://v.douyin.com/your_video_id/", 
+    output_path="指定保存路径"
+)
+```
+
+5. **常见问题排查**：
+   - 确保所有依赖项都已正确安装
+   - 检查环境变量是否正确配置
+   - 若出现网络问题，请确认服务器能够访问视频平台网站
+   - 若服务无法启动，检查日志获取详细错误信息
+
+## 使用示例
+
+配置完成后，可以使用如下提示：
+
+- "下载这个视频：[video_url]"
+- "将这个视频保存到D:/videos目录：[video_url]"
+
+## 环境变量
+
+- `DOWNLOAD_PATH`：保存下载视频的路径（默认：./downloads）
+
+## 开发
+
+要参与开发：
+
+```bash
+git clone https://github.com/tansunyj/mcp_video_download_url_parser.git
+cd mcp_video_download_url_parser
+python -m pytest tests/
+```
+
+## 安全性
+
+此MCP服务器在您的本地机器上运行。虽然它不执行任意代码，但在解析来自不受信任来源的URL时请小心。
+
+## 致谢
+
+本项目使用SnapAny.com的API进行视频解析和下载。
+
+## 许可证
+
+MIT许可证
+
+---
+
+[![GitHub repo](https://img.shields.io/badge/github-mcp__video__download__url__parser-blue?logo=github)](https://github.com/tansunyj/mcp_video_download_url_parser)
