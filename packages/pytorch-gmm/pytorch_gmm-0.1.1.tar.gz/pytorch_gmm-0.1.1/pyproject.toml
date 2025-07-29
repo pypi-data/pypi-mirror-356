@@ -1,0 +1,11 @@
+[project]
+name = "pytorch-gmm"
+version = "0.1.1"
+description = "Fast PyTorch implementation of Gaussian mixture model (GMM)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    "tqdm>=4.4.1",
+]
