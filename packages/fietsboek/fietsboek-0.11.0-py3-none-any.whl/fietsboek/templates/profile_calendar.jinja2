@@ -1,0 +1,44 @@
+{% set profile_index = 2 %}
+{% extends "profile.jinja2" %}
+
+{% block profile_content %}
+<!-- Third tab -->
+<h2 class="calendar-title">{{ calendar_month | format_date("MMMM YYYY") }}</h2>
+
+<div class="calendar-controls">
+  <a href="{{ request.route_url('profile-calendar-ym', user_id=user.id, year=calendar_prev.year, month=calendar_prev.month) }}">{{ _("page.profile.calendar.previous") }}</a>
+  |
+  <a href="{{ request.route_url('profile-calendar-ym', user_id=user.id, year=calendar_next.year, month=calendar_next.month) }}">{{ _("page.profile.calendar.next") }}</a>
+</div>
+
+<table class="profile-calendar">
+  <thead>
+    <tr>
+      {% for day in range(7) %}
+      <td>{{ day_name(request, day) }}</td>
+      {% endfor %}
+    </tr>
+  </thead>
+  {% for row in calendar_rows %}
+  <tr>
+    {% for cell in row %}
+    {% if cell %}
+    {% set day, style, tracks = cell %}
+    <td class="calendar-cell {{ style }}">
+      <p class="calendar-date">{{ day.day }}</p>
+      {% if tracks %}
+      <ul>
+        {% for track in tracks %}
+        <li><a href="{{ request.route_url('details', track_id=track.id) }}" title="{{ track.title }}">{{ (track.length / 1000) | round(2) | format_decimal }} km</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </td>
+    {% else %}
+    <td class="calendar-cell-empty"></td>
+    {% endif %}
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
