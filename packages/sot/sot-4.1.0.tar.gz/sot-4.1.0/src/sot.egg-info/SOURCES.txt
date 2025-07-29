@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/sot/__about__.py
+src/sot/__init__.py
+src/sot/_app.py
+src/sot/_helpers.py
+src/sot/blockchar_stream.py
+src/sot/braille_stream.py
+src/sot.egg-info/PKG-INFO
+src/sot.egg-info/SOURCES.txt
+src/sot.egg-info/dependency_links.txt
+src/sot.egg-info/entry_points.txt
+src/sot.egg-info/requires.txt
+src/sot.egg-info/top_level.txt
+tests/test_streams.py
