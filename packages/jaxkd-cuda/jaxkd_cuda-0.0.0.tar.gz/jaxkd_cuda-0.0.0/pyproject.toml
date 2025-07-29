@@ -1,0 +1,38 @@
+[project]
+name = "jaxkd-cuda"
+dynamic = ["version"]
+authors = [
+    {name="Benjamin Dodge", email="bendodge@stanford.edu"}
+]
+description = "Extension package for jaxkd."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "jax[cuda12]",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jaxkd",
+    "scikit-build-core",
+    "ipywidgets>=8.1.7",
+    "jax[cuda12]==0.6.0",
+    "jupyterlab>=4.4.3",
+    "matplotlib>=3.10.3",
+    "pytest>=8.3.5",
+    "ruff>=0.11.11",
+    "tqdm>=4.67.1",
+    "pip>=25.1.1",
+]
+
+[project.urls]
+Source = "https://github.com/dodgebc/jaxkd-cuda"
+
+[build-system]
+requires = ["scikit-build-core", "jax"]
+build-backend = "scikit_build_core.build"
+
+[tool.ruff]
+line-length = 100
+exclude = ["*.ipynb", "*.cu", "*.h"]
