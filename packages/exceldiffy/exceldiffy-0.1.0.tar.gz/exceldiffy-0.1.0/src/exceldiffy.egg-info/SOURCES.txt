@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/exceldiffy/__init__.py
+src/exceldiffy/comparator.py
+src/exceldiffy.egg-info/PKG-INFO
+src/exceldiffy.egg-info/SOURCES.txt
+src/exceldiffy.egg-info/dependency_links.txt
+src/exceldiffy.egg-info/requires.txt
+src/exceldiffy.egg-info/top_level.txt
+tests/test_comparator.py
