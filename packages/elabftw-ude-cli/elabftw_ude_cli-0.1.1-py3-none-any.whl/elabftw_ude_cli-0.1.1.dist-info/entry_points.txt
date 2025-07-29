@@ -1,0 +1,2 @@
+[console_scripts]
+elabftw-cli = elabftw_ude_cli.cli:main
