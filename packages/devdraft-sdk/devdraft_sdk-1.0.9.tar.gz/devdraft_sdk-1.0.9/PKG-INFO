@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: devdraft-sdk
+Version: 1.0.9
+Summary: Devdraft SDK - A Python library for Devdraft's Payment & Business Management API
+Home-page: https://github.com/devdraftengineer/devdraft-sdk-python
+Author-email: engineering@devdraft.ai
+Keywords: Swagger,Devdraft Payment &amp; Business Management API
+Description-Content-Type: text/x-rst
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary
+
+Devdraft SDK
+============
+
+A Python library for Devdraft's Payment & Business Management API.
+
+Devdraft SDK provides a comprehensive solution for integrating cryptocurrency and traditional payment methods into your applications. It offers a robust set of tools for payment processing, business management, and seamless integration with the Devdraft platform.
+
+Setup
+-----
+
+You can install this package using pip::
+
+    pip install devdraft-sdk
+
+Setting up a Devdraft Account
+-----------------------------
+
+1. Sign up for a Devdraft account at https://console.devdraft.ai/
+2. Once logged in, navigate to the Apps section
+3. Create a new app to get your API credentials
+4. You'll receive two important credentials:
+   - x-client-key
+   - x-client-secret
+
+Usage
+-----
+
+To use the SDK, you'll need to configure it with your API credentials.
+
+For detailed API documentation and examples, visit our API Reference: https://docs.devdraft.ai
+
+Features
+--------
+
+- Cryptocurrency payment processing
+- Traditional payment method integration
+- Business management tools
+- Real-time transaction monitoring
+- Comprehensive API coverage
+
+Support
+-------
+
+For support, please visit our documentation or contact our support team at engineering@devdraft.ai.
+    
