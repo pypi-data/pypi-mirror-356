@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-get-weather-20250618"
+version = "0.1.2"
+description = "输入OpenWeather-API-KEY，获取天气信息。"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "build>=1.2.2.post1",
+    "httpx>=0.28.1",
+    "mcp>=1.9.4",
+    "twine>=6.1.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[project.scripts]
+mcp-get-weather = "mcp_get_weather:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
