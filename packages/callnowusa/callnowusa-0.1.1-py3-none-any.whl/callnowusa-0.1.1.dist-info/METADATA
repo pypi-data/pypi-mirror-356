@@ -1,0 +1,106 @@
+Metadata-Version: 2.4
+Name: callnowusa
+Version: 0.1.1
+Summary: A client for interacting with the CallNowUSA API
+Home-page: https://github.com/JishanKapoor/CallNowUsa
+Author: Jishan Kapoor
+Author-email: Jishan Kapoor <kapoorjishan2@gmail.com>
+Project-URL: Homepage, https://github.com/JishanKapoor/CallNowUsa
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests>=2.28.0
+Dynamic: license-file
+
+# CallNowUSA
+
+A Python client for the CallNowUSA API to send messages, manage calls, forward SMS, stop SMS forwarding, and check the inbox. Please visit [CallNowUsa.com](http://CallNowUsa.com) for more information.
+
+## Installation
+
+```bash
+pip install callnowusa
+```
+
+## Usage
+
+```python
+from callnowusa import Client
+
+# Initialize CallNowUSA client
+account_sid = 'YOUR_ACCOUNT_SID'  # e.g., 'SID_xxx...'
+auth_token = 'YOUR_AUTH_TOKEN'   # e.g., 'AUTH_xxx...'
+callnowusa_number = 'default'    # or your assigned CallNowUSA number
+
+client = Client(account_sid, auth_token, callnowusa_number)
+
+# Numbers to interact with
+to_number = '+19876543210'
+to_number2 = '+10987654321'
+
+# 1. Send SMS
+message = client.messages.create(
+    body="Test message from CallNowUSA.",
+    from_=callnowusa_number,
+    to=to_number
+)
+print(f"Message Response: {message.fetch()}")
+
+# 2. Direct Call
+call = client.calls.create(
+    to=to_number,
+    from_=callnowusa_number,
+    auto_hang=False  # False keeps call active; True hangs up after connect
+)
+print(f"Direct Call Response: {call.fetch()}")
+
+# 3. Merge Call
+merge_call = client.calls.merge(
+    phone_1=to_number,
+    phone_2=to_number2,
+    from_=callnowusa_number
+)
+print(f"Merge Call Response: {merge_call.fetch()}")
+
+# 4. SMS Forward
+sms_forward = client.sms_forward(
+    to_number=to_number,
+    to_number2=to_number2,
+    from_=callnowusa_number
+)
+print(f"SMS Forward Response: {sms_forward.fetch()}")
+
+# 5. Stop SMS Forward
+sms_forward_stop = client.sms_forward_stop(
+    to_number=to_number,
+    to_number2=to_number2,
+    from_=callnowusa_number
+)
+print(f"SMS Forward Stop Response: {sms_forward_stop.fetch()}")
+
+# 6. Check Inbox
+inbox_check = client.check_inbox(from_=callnowusa_number)
+print(f"Inbox Check Response: {inbox_check.fetch()}")
+```
+
+## Requirements
+
+- Python 3.7+
+- `requests` (installed automatically via pip)
+
+## Setup
+
+1. Obtain `account_sid`, `auth_token`, and `callnowusa_number` from the CallNowUSA dashboard.
+2. Install the package using the command above.
+3. Replace placeholders in the usage examples with your credentials.
+
+## License
+
+MIT
+
+## About
+
+A Python client for interacting with the CallNowUSA API, supporting SMS messaging, call management, SMS forwarding, and inbox checking. For more details, visit [CallNowUsa.com](http://CallNowUsa.com).
