@@ -1,0 +1,16 @@
+# This file is automatically managed by Patronus CLI
+# Do not edit manually as changes will be overwritten
+
+projects:
+- id: ad27a1f2-e1fb-4c0b-a24f-bea293950f2c
+  name: Global
+prompts:
+- labels:
+  - name: prod
+    points_to:
+      version: v3
+  - name: dev
+    points_to:
+      version: v2
+  name: test-prompt
+  project_name: Global
