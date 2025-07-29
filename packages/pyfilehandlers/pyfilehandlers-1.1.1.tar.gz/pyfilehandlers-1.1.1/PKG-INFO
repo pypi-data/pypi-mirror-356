@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: pyfilehandlers
+Version: 1.1.1
+Summary: A package of file handlers for use in Python
+Project-URL: Homepage, https://github.com/danilo-montes-code/pyfilehandlers
+Project-URL: Issues, https://github.com/danilo-montes-code/pyfilehandlers/issues
+Author-email: Danilo Montes <danilo.montes101@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Requires-Dist: amulet-nbt>=2.1.4
+Requires-Dist: lunapyutils>=0.0.1
+Requires-Dist: ruamel-yaml>=0.18.12
+Description-Content-Type: text/markdown
+
+# pyfilehandlers
+A package of file handlers for use in Python
