@@ -1,0 +1,10 @@
+simdlib_module.cpython-313-darwin.so,sha256=PkdNKiIB4Cj_ppR0FnkGox7IKhSSumIfr1Qw96swWps,69448
+simdlib/__init__.py,sha256=jAvDx3rlioLwpqRYwCV6FskHVj5aHLK3ks2QOWUtBzs,631
+simdlib/simdlibmodule.c,sha256=14b2OX0R4lhcpCjq4Fd-Wz3F1xXe6dCxAvaX-XlMqWc,24171
+tests/benchmark.py,sha256=PVg3icuqPVKk8w6wsEAQeluaKMw-CRVGeRQeE8Z2txE,2630
+tests/stock_example.py,sha256=YjSPKSBEBOypyPQgDIhZ8mzbnSqDq5gSA4W5kEDv_Yg,2515
+tests/test_core.py,sha256=-pMIugoecv9gs6Se8_wFNcoG43XPGyllqFIE2lk9rBY,3804
+simdlib-0.1.1.dist-info/METADATA,sha256=WO_LWyReZG5BTctswViXDIqjRzMlMPjdRCWDJHR_Rgk,4125
+simdlib-0.1.1.dist-info/WHEEL,sha256=memlX0NSEQnmSMa3rcNWPnk4cttudwgAZx3qq8qO4ME,115
+simdlib-0.1.1.dist-info/top_level.txt,sha256=neR1AMNWdWCe8vLBAH8k60iJp4SdljvS_7RMueKZz8s,23
+simdlib-0.1.1.dist-info/RECORD,,
