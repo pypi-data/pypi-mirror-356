@@ -1,0 +1,7 @@
+tornado>=6
+pyzmq>=17
+PyYAML
+OWSLib
+psutil
+redis
+typing-extensions
