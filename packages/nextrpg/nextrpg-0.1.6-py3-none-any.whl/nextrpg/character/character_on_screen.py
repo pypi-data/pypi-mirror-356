@@ -1,0 +1,216 @@
+"""
+Handles character movement and collision detection.
+"""
+
+from dataclasses import dataclass, field, replace
+from functools import cached_property, lru_cache, singledispatchmethod
+from typing import NamedTuple, Self
+
+from nextrpg.character.character_drawing import CharacterDrawing
+from nextrpg.common_types import (
+    Coordinate,
+    Direction,
+    DirectionalOffset,
+    Millisecond,
+    Pixel,
+    Rectangle,
+)
+from nextrpg.config import config
+from nextrpg.draw_on_screen import DrawOnScreen, Drawing
+from nextrpg.event.pygame_event import (
+    KeyPressDown,
+    KeyPressUp,
+    KeyboardKey,
+    PygameEvent,
+)
+
+
+class CharacterAndVisuals(NamedTuple):
+    """
+    A named tuple containing a character and its associated visual elements.
+
+    Args:
+        `character`: The main character drawing on screen.
+
+        `visuals`: Additional visual elements associated with the character.
+    """
+
+    character: DrawOnScreen
+    visuals: list[DrawOnScreen]
+
+
+@dataclass(frozen=True)
+class CharacterOnScreen:
+    """
+    Represents a character that can be displayed and moved on screen.
+
+    Handles character movement, collision detection, and event processing for
+    character interactions with the game environment.
+
+    Args:
+        `character_drawing`: The visual representation of the character.
+
+        `coordinate`: The current position of the character on screen.
+
+        `speed`: Movement speed of the character in pixels.
+
+        `collisions`: List of rectangles representing collision boundaries.
+    """
+
+    character_drawing: CharacterDrawing
+    coordinate: Coordinate
+    speed: Pixel
+    collisions: list[Rectangle]
+    _movement_keys: frozenset[KeyboardKey] = field(default_factory=frozenset)
+
+    @cached_property
+    def draw_on_screen(self) -> CharacterAndVisuals:
+        """
+        Creates drawable representations of the character and visuals.
+
+        Returns:
+            `CharacterAndVisuals`: A tuple containing the character's drawable
+            representation and any associated visual elements.
+        """
+        return CharacterAndVisuals(
+            DrawOnScreen(self.coordinate, self.character_drawing.drawing),
+            self._debug_rectangles,
+        )
+
+    @singledispatchmethod
+    def event(self, _: PygameEvent) -> Self:
+        """
+        Process a pygame event and update the character state accordingly.
+
+        Returns:
+            `Self`: The updated character state after processing the event.
+        """
+        return self
+
+    @event.register
+    def _on_key(self, e: KeyPressDown | KeyPressUp) -> Self:
+        updated_keys = self._updated_movement_key(e)
+        return replace(
+            self,
+            character_drawing=(
+                self.character_drawing.turn(direction)
+                if (direction := _key_to_dir(updated_keys))
+                in config().character.directions
+                else self.character_drawing
+            ),
+            _movement_keys=updated_keys,
+        )
+
+    def _updated_movement_key(
+        self, e: KeyPressDown | KeyPressUp
+    ) -> frozenset[KeyboardKey]:
+        return (
+            self._movement_keys | {e.key}
+            if isinstance(e, KeyPressDown)
+            else (self._movement_keys - {e.key})
+        )
+
+    def step(self, time_delta: Millisecond) -> "CharacterOnScreen":
+        """
+        Update the character's state for a single game step/frame.
+
+        Calculates movement based on currently pressed keys, handles collision
+        detection, and updates the character's drawing state (moving or idle).
+
+        Args:
+            `time_delta`: The time that has passed since
+                the last update, used for calculating movement distance.
+
+        Returns:
+            `CharacterOnScreen`: The updated character state after the step.
+        """
+        moved_drawing = self.character_drawing.move(time_delta)
+        moved_coord = self._move(time_delta, moved_drawing.drawing)
+        return replace(
+            self,
+            coordinate=moved_coord or self.coordinate,
+            character_drawing=(
+                moved_drawing
+                if self._movement_keys
+                else self.character_drawing.idle(time_delta)
+            ),
+        )
+
+    def _move(
+        self, time_delta: Millisecond, drawing: Drawing
+    ) -> Coordinate | None:
+        moved_coord = self.coordinate + DirectionalOffset(
+            self.character_drawing.direction, self.speed * time_delta
+        )
+        return (
+            moved_coord
+            if self._movement_keys and self._can_move(moved_coord, drawing)
+            else None
+        )
+
+    def _can_move(self, coordinate: Coordinate, drawing: Drawing) -> bool:
+        rect = DrawOnScreen(coordinate, drawing).visible_rectangle
+        hit_coords = {
+            Direction.LEFT: {rect.bottom_left, rect.center_left},
+            Direction.RIGHT: {rect.bottom_right, rect.center_right},
+            Direction.DOWN: {
+                rect.bottom_right,
+                rect.bottom_center,
+                rect.bottom_left,
+            },
+            Direction.UP: {rect.center_right, rect.center, rect.center_left},
+            Direction.UP_LEFT: {
+                rect.top_left,
+                rect.center_left,
+                rect.top_center,
+            },
+            Direction.UP_RIGHT: {
+                rect.top_right,
+                rect.center_right,
+                rect.top_center,
+            },
+            Direction.DOWN_LEFT: {
+                rect.bottom_left,
+                rect.center_left,
+                rect.bottom_center,
+            },
+            Direction.DOWN_RIGHT: {
+                rect.bottom_right,
+                rect.center_right,
+                rect.bottom_center,
+            },
+        }[self.character_drawing.direction]
+        return all(
+            all(hit_coord not in collision for hit_coord in hit_coords)
+            for collision in self.collisions
+        )
+
+    @cached_property
+    def _debug_rectangles(self) -> list[DrawOnScreen]:
+        return (
+            [
+                DrawOnScreen.from_rectangle(c, debug.collision_rectangle_color)
+                for c in self.collisions
+            ]
+            if (debug := config().debug)
+            else []
+        )
+
+
+_KEY_TO_DIR = {
+    frozenset({KeyboardKey.LEFT, KeyboardKey.UP}): Direction.UP_LEFT,
+    frozenset({KeyboardKey.LEFT, KeyboardKey.DOWN}): Direction.DOWN_LEFT,
+    frozenset({KeyboardKey.RIGHT, KeyboardKey.UP}): Direction.UP_RIGHT,
+    frozenset({KeyboardKey.RIGHT, KeyboardKey.DOWN}): Direction.DOWN_RIGHT,
+    frozenset({KeyboardKey.LEFT}): Direction.LEFT,
+    frozenset({KeyboardKey.RIGHT}): Direction.RIGHT,
+    frozenset({KeyboardKey.UP}): Direction.UP,
+    frozenset({KeyboardKey.DOWN}): Direction.DOWN,
+}
+
+
+@lru_cache
+def _key_to_dir(current_keys: frozenset[KeyboardKey]) -> Direction | None:
+    return next(
+        (d for keys, d in _KEY_TO_DIR.items() if keys <= current_keys), None
+    )
