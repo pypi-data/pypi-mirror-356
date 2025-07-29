@@ -1,0 +1,12 @@
+cbl/__init__.py,sha256=fxtE3pX_h25ARG_30TMeuhyt8WMmmhQYVsmzaRRjE8c,717
+cbl/cbl_collection.py,sha256=7fuyu3JRCvQcWW4E9e_H7s0kWP_c7V48cduoIyCBZGQ,5106
+cbl/cbl_replicator.py,sha256=FOy1KYRzQ-Qv0h2Q0BHZ1w6VrdQ6hyjoVhagQRmOT48,9363
+cbl/couchbase_lite.py,sha256=bed7Sm2hmvC7JcQPQYq8s1BwSkT1_a3CbaYZJzeV8FY,2514
+cbl/libs/arm64-v8a/couchbase_lite_cffi.so,sha256=nA7vR_3OcCpUBsjltt64fG4J4pvFlkyZDi6Y5GWZCCU,4727472
+cbl/libs/arm64-v8a/libcblite.so,sha256=H4m6tly8dInz-8GQmfZ8jwHorIql7UmL47Gumvwp1Bg,4906104
+cbl/libs/armeabi-v7a/couchbase_lite_cffi.so,sha256=075kABLX89wON45el6fBBaCz2MptPFK1IgKxI67V2Og,4360392
+cbl/libs/armeabi-v7a/libcblite.so,sha256=oUsnbHwRqGnypNaMEfOkMTjqkuWKjJU2_i_JB6EFdPg,3180156
+couchbaselitepython-3.2.1.dist-info/METADATA,sha256=VoTFUDlj9DF6Vy_DHGXq3zuy_b0ankcAERbD0mhcvY8,327
+couchbaselitepython-3.2.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+couchbaselitepython-3.2.1.dist-info/top_level.txt,sha256=zM-jMa-YUOrQ1MgchWbRt8oJQbh0PHSOluBdTzPRweM,4
+couchbaselitepython-3.2.1.dist-info/RECORD,,
