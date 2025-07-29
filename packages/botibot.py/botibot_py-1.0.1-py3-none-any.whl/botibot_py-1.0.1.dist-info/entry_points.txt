@@ -1,0 +1,6 @@
+[console_scripts]
+botibot-demo = modules.cli:main
+botibot-oled = modules.cli:oled_cli
+botibot-relay = modules.cli:relay_cli
+botibot-server = modules.cli:server_cli
+botibot-servo = modules.cli:servo_cli
