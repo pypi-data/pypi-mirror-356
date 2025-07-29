@@ -1,0 +1,2 @@
+[console_scripts]
+phisherman = phisherman.__main__:main
