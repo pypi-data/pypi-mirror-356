@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fonderlib"
+version = "1.0.35"
+description = "Fonder common lib"
+authors = ["Fonder LLC"]
+packages = [{include = "fonderlib"}]
+exclude = ["tests",".gitignore","README.md", "Makefile"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorama = "0.4.6"
+boto3 = "1.37.28"
+pandas= "2.2.3"
+sqlalchemy = "^2.0.36"
+pydantic = "^2.10.4"
+psycopg2 = "^2.9.10"
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^80.8.0"
+twine = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
