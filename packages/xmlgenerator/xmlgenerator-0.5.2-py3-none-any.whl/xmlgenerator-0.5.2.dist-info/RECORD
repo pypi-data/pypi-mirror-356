@@ -1,0 +1,14 @@
+xmlgenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmlgenerator/arguments.py,sha256=Pf7Bccan0FeO6v5INpBkhLlGfJg-FGMRX5pG8E2KVgo,4834
+xmlgenerator/bootstrap.py,sha256=YIgdumv_JK20Qnf_0RetoFPv344YflERklJMkNqInS8,4010
+xmlgenerator/configuration.py,sha256=JYhz_lONxd0faUiZHG-TVEs6yocn0s__Ulwtcvq9eDs,5946
+xmlgenerator/generator.py,sha256=FDZ8U52wpbhvbunFY_8F5CkviFs4u14NojfxPnw7zkw,30095
+xmlgenerator/randomization.py,sha256=azXW1SxKSA9_lw1IBQDPOwSUXFEXo8IGWFD0an-eVF0,4416
+xmlgenerator/substitution.py,sha256=v4rzqnF1p1yN0VKRDFwQM5zQbpdg9ebbrh65cnh9qxw,6078
+xmlgenerator/validation.py,sha256=uCJjS5YmRDlAp9C-5Rd4E2Brh6_3WOG2-dSGxDiaH14,2023
+xmlgenerator-0.5.2.dist-info/licenses/LICENSE,sha256=QlXK8O3UcoAYUYwVJNgB9MSM7O94ogNo_1hd9GzznUQ,1070
+xmlgenerator-0.5.2.dist-info/METADATA,sha256=1ELlfEf8ETxcsZpvc5EUnSRK4JgFIpdWFl02ecFWMt4,13104
+xmlgenerator-0.5.2.dist-info/WHEEL,sha256=lTU6B6eIfYoiQJTZNc-fyaR6BpL6ehTzU3xGYxn2n8k,91
+xmlgenerator-0.5.2.dist-info/entry_points.txt,sha256=ly9hKr3o4AzFUkelBZNRzyKYf-Ld4kfcffvBu1oHq54,61
+xmlgenerator-0.5.2.dist-info/top_level.txt,sha256=jr7FbMBm8MQ6j8I_-nWzQQEseXzwSCZNXgrkWuk9P4E,13
+xmlgenerator-0.5.2.dist-info/RECORD,,
