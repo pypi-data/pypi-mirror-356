@@ -1,0 +1,16 @@
+cruxes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cruxes/body_trajectory.py,sha256=0LtBbukDLgzQzrI2yVap7P14zDooQrWg8YtHz8WtXD4,2197
+cruxes/compare_trajectories.py,sha256=F6Z4QaTg87_SArSjHz5vAZlHLZ6x6FxSh1K_opwKTNA,8975
+cruxes/merge_videos.py,sha256=vl7C-6a3fTcqWxUtNZAvfWecAFKCDpOzgT6mAxREfTA,2507
+cruxes/tools.py,sha256=8fYIWfhmCb2kFOCsID9ZhbS8eFlkYNf6GDHjnJhkqDs,4027
+cruxes/warp_video.py,sha256=bOxh7FoJRXlEUvIzgkjZzqwHOdtlb4OrAn6yzaulQmU,1961
+cruxes/utils/body_trajectory.py,sha256=A2SuuHVQrP_zRJu7Nd-zjq66F2SGUFEHe95zDyMInSM,16060
+cruxes/utils/draw_helpers.py,sha256=xbZtMt3-PEuNub29BRvH-C3fNmcXqf9rHrfSldBCu0g,4492
+cruxes/utils/file_operations.py,sha256=oyH0Lb8NdJ4h-49Fv6rZdCtXeUWNZvWumqYslEs8FdY,1271
+cruxes/utils/kamlan_filter.py,sha256=VKOO9tPCD-9r0rNGKAZsYUV25UJAB0yjSokr6uZmskA,1964
+cruxes/utils/warp_video.py,sha256=YnDS-jBMTIN_IB71AiugwbFbyGaAb8l10CHiLA39AmY,10673
+cruxes-0.0.1.dist-info/licenses/LICENSE,sha256=IB9kbQEmxbI0Hg3FowBKQXXtNz_RhqHdkwFHmREHHUk,1062
+cruxes-0.0.1.dist-info/METADATA,sha256=TKijPMeBEt0SnZTPgB7dGemrHNRgi5qAMy4tg8lm5Gs,7633
+cruxes-0.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+cruxes-0.0.1.dist-info/top_level.txt,sha256=HCOO4yJ5f7Bny90Od2yuuMAin59zrUonWy4MlVNsRDw,7
+cruxes-0.0.1.dist-info/RECORD,,
