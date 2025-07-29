@@ -1,0 +1,54 @@
+# pyproject.toml  (preferred for new projects, PEP 621)
+
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "balparda_baselib"
+version = "1.7"
+description = "A base library for various utilities, by balparda@github.com"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Daniel Balparda", email = "balparda@github.com" }
+]
+requires-python = ">=3.13.5"
+classifiers = [  # see: https://pypi.org/classifiers/
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Utilities",
+  "Topic :: Security :: Cryptography"
+]
+dependencies = [
+  "pytest",
+  "pytest-pythonpath",
+  "coverage>=7.8.2",
+  "tomli>=2.2.1",
+  "cryptography>=41.0.7",
+  "Pillow>=10.2"
+]
+
+[project.urls]
+Homepage = "https://github.com/balparda/baselib"
+
+[tool.setuptools]
+package-dir = {"" = "src"}   # root package namespace lives in src/
+
+[tool.setuptools.packages.find]
+where = ["src"]  # auto-discover every importable package inside src/
+
+[tool.setuptools.package-data]
+"balparda_baselib" = ["py.typed"]
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+[pytest]
+pythonpath = ["src"]
+
+# test with:
+# $ python3
+# >>> import sys, tomli, pathlib
+# >>> tomli.loads(pathlib.Path('pyproject.toml').read_text())
