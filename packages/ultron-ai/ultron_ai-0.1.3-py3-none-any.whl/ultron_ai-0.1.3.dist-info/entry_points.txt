@@ -1,0 +1,2 @@
+[console_scripts]
+ultron = ultron.main_cli:cli
