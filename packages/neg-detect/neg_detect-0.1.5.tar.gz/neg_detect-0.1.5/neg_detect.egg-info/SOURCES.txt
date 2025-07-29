@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+neg_detect/__init__.py
+neg_detect/download_udpipe_model.py
+neg_detect/gat_model.py
+neg_detect/inference.py
+neg_detect/pipeline_utils.py
+neg_detect/preprocessing.py
+neg_detect/spacy_utils.py
+neg_detect/test.py
+neg_detect/ud_pipe.py
+neg_detect.egg-info/PKG-INFO
+neg_detect.egg-info/SOURCES.txt
+neg_detect.egg-info/dependency_links.txt
+neg_detect.egg-info/requires.txt
+neg_detect.egg-info/top_level.txt
