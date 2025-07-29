@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(timeout 5 uv run:*)",
+      "Bash(timeout 3 uv run:*)",
+      "Bash(timeout 2 uv run:*)",
+      "Bash(uv publish:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}
