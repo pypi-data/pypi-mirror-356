@@ -1,0 +1,23 @@
+[project]
+name = "chronos-innov"
+version = "0.1.1"
+description = "Minimal SDK for change algebra, trust graphs, and innovation geometry."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "networkx>=2.8",
+    "twine>=6.1.0",
+    "build>=1.2.2.post1",
+]
+authors = [
+    {name = "Leo Guinan"}
+]
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["chronos-innov"]
