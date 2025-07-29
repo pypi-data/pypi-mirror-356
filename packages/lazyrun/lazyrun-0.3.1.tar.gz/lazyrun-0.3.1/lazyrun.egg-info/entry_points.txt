@@ -1,0 +1,2 @@
+[console_scripts]
+lazyrun = lazyrun.cli:cli
