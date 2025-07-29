@@ -1,0 +1,28 @@
+[build-system]
+requires = [ "setuptools>=42", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustcaptcha-python"
+version = "1.2.1"
+description = "(DEPRECATED)  TrustCaptcha for Python"
+readme = "README.md"
+dependencies = [ "requests", "numpy",]
+keywords = [ "captcha", "gdpr", "privacy", "security", "made-in-germany", "eu", "european-union",]
+classifiers = [ "Development Status :: 7 - Inactive", "Programming Language :: Python :: 3",]
+[[project.authors]]
+name = "TrustComponent"
+email = "mail@trustcomponent.com"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.scripts]
+trustcaptcha = "trustcaptcha:main"
+
+[project.optional-dependencies]
+dev = [ "pytest", "flake8",]
+
+[project.urls]
+Homepage = "https://www.trustcomponent.com/en/products/captcha/integrations/python-captcha"
+Replacement = "https://pypi.org/project/trustcaptcha/"
