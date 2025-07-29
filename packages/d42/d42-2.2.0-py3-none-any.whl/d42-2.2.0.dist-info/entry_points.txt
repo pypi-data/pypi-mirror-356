@@ -1,0 +1,2 @@
+[console_scripts]
+d42 = d42._main:run
