@@ -1,0 +1,3 @@
+[console_scripts]
+slopbox = slopbox.cli:slopbox_cli
+videosync = slopbox.cli:videosync_cli
