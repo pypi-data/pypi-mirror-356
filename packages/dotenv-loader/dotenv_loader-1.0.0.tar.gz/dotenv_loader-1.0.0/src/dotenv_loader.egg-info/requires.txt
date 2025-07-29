@@ -1,0 +1,15 @@
+python-dotenv>=1.0.0
+
+[dev]
+pytest
+pytest-cov
+codecov
+build
+twine
+black
+flake8
+mypy
+
+[test]
+pytest
+coverage
