@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+streamlit_free_text_select/__init__.py
+streamlit_free_text_select.egg-info/PKG-INFO
+streamlit_free_text_select.egg-info/SOURCES.txt
+streamlit_free_text_select.egg-info/dependency_links.txt
+streamlit_free_text_select.egg-info/requires.txt
+streamlit_free_text_select.egg-info/top_level.txt
+streamlit_free_text_select/frontend/build/asset-manifest.json
+streamlit_free_text_select/frontend/build/bootstrap.min.css
+streamlit_free_text_select/frontend/build/index.html
+streamlit_free_text_select/frontend/build/static/js/main.3a2802f0.js
+streamlit_free_text_select/frontend/build/static/js/main.3a2802f0.js.LICENSE.txt
+streamlit_free_text_select/frontend/build/static/js/main.3a2802f0.js.map
+streamlit_free_text_select/frontend/build/static/media/st-arrow.ed05a8180fdff43803920bbf4086fde9.svg
+streamlit_free_text_select/frontend/build/static/media/st-clear.6e2f7cc05ea4a1c4fe780ea30d5d82a2.svg
