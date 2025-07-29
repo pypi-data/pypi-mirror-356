@@ -1,0 +1,6 @@
+boto3<2.0,>=1.10.44
+sagemaker-jupyterlab-extension-common<1.0,>=0.2.2
+
+[dev]
+black
+pytest
