@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "name": "airbender-py-google",
+  "projectType": "library",
+  "sourceRoot": "libs/airbender-py/google/src",
+  "tags": [
+    "python",
+    "library",
+    "provider"
+  ],
+  "targets": {
+    "add": {
+      "executor": "@nxlv/python:add",
+      "options": {}
+    },
+    "build": {
+      "executor": "@nxlv/python:build",
+      "options": {
+        "outputPath": "{projectRoot}/dist",
+        "publish": false
+      },
+      "outputs": [
+        "{projectRoot}/dist"
+      ]
+    },
+    "lint": {
+      "executor": "@nxlv/python:run-commands",
+      "options": {
+        "command": "ruff check src tests",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "lock": {
+      "executor": "@nxlv/python:lock",
+      "options": {}
+    },
+    "publish": {
+      "executor": "@nxlv/python:publish",
+      "options": {}
+    },
+    "sync": {
+      "executor": "@nxlv/python:sync",
+      "options": {}
+    },
+    "test": {
+      "executor": "@nxlv/python:run-commands",
+      "options": {
+        "command": "uv run pytest tests",
+        "cwd": "{projectRoot}"
+      }
+    }
+  }
+}
