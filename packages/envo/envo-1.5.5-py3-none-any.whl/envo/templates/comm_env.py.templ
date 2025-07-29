@@ -1,0 +1,23 @@
+import envo
+from pathlib import Path
+from envo import Env, command
+
+root = Path(__file__).parent.absolute()
+envo.add_source_roots([root])
+
+
+class {{ class_name }}(Env):
+    class Meta(Env.Meta):
+        root: Path = root
+        name: str = "{{ name }}"
+        emoji: str = "{{ emoji }}"
+
+    def init(self) -> None:
+        super().init()
+
+    @command
+    def hello_world(self) -> None:
+        print("Hello world!")
+
+
+{{ this_env }} = {{ class_name }}
