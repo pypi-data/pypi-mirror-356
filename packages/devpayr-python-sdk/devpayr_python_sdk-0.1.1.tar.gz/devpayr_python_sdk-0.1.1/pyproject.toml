@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devpayr-python-sdk"
+version = "0.1.1"
+description = "Framework-agnostic Python SDK for DevPayr – License enforcement, injectables, project & license management"
+authors = [
+  { name = "XulTech", email = "support@devpayr.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+keywords = [
+  "DevPayr", "license", "sdk", "license-key", "injectables",
+  "api-client", "saas", "encryption", "project-management", "framework-agnostic"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Build Tools"
+]
+
+[project.urls]
+Homepage = "https://devpayr.com"
+Documentation = "https://docs.devpayr.com"
+Repository = "https://github.com/Xultech-LTD/devpayr_python_sdk"
+Issues = "https://github.com/Xultech-LTD/devpayr_python_sdk/issues"
