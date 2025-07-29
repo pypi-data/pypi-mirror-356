@@ -1,0 +1,2 @@
+[console_scripts]
+urlive = urlive.main:run_app
