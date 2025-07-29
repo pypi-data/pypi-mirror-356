@@ -1,0 +1,40 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "dotect"
+version = "0.1.1"
+description = "Document detection and classification for financial documents"
+authors = ["Fin Officer Team"]
+readme = "README.md"
+packages = [{include = "dotect"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.0.0"
+invutil = "^0.1.0"
+scikit-learn = "^1.0.0"
+spacy = "^3.0.0"
+transformers = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+black = "^23.0.0"
+isort = "^5.0.0"
+mypy = "^1.0.0"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
