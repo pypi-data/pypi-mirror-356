@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: validator-for-postcodes
+Version: 0.1.0
+Summary: Library for postcodes validation
+Author-email: Volodymyr Dubrovskyi <martiniden0@gmail.com>
+License: MIT
+Project-URL: Repository, https://github.com/dubrovskyi/validate-postcode
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file

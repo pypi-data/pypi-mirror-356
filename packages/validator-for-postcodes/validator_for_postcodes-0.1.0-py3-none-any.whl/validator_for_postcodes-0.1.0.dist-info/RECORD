@@ -1,0 +1,17 @@
+validate_postcode/__init__.py,sha256=Rv2M_taZ4QEtfko25HHrwKMrO7hLNPB3zu3ltSfCUOQ,729
+validate_postcode/countries_.py,sha256=7OV_19hRdkYHV5RBljvCMhcrqy2v3NI7LLOzEgwKs2U,303
+validate_postcode/utils.py,sha256=s1Uuc8qH57z-axd2KmP9qjuKCbuTHQ9_JlyNuXZ_L6A,273
+validate_postcode/validator.py,sha256=fO5FuL-0G31sRz6pKcoxOaPLmrbpU6sBpme1_tnCXIM,69
+validate_postcode/countries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validate_postcode/countries/uk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validate_postcode/countries/uk/data.py,sha256=7kHUbxB2bZAG7rRULWqQottCq9ci3bP8JzFSq0nAYSc,555
+validate_postcode/countries/uk/postcode.py,sha256=uYBZczg_cOKfmQy74Y-YrhLshuqv26HoXR3HTS5kSOI,1404
+validate_postcode/countries/uk/regex_.py,sha256=DpeFGxCcxVJmRpM-xA2DKWZwWW9Cq7-oTFCw7NgitwA,863
+validate_postcode/countries/uk/static_cases.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validate_postcode/countries/uk/utils.py,sha256=WvJgaFS_ybLwDg_1DC8_7nkTlpcDsCmqMPvLCmMwdAE,850
+validate_postcode/countries/uk/validator.py,sha256=qlngNA9HjZ7s5XThUd2lEpUayfjF7TPmQ74vv5ieyKM,4082
+validator_for_postcodes-0.1.0.dist-info/licenses/LICENSE,sha256=VgPpR0fDilKd474Co4xvf7Y4v_z88oLVBV9Z8Wv4RT8,1077
+validator_for_postcodes-0.1.0.dist-info/METADATA,sha256=dRiW4JLuZO2r9IoN_vz-CnJ_cef2B8S3ACAiq5p_fVc,361
+validator_for_postcodes-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+validator_for_postcodes-0.1.0.dist-info/top_level.txt,sha256=Ug9SApB4MbiQieLpXmILcNrvmjSx1XztABYIo7nAJsk,18
+validator_for_postcodes-0.1.0.dist-info/RECORD,,
