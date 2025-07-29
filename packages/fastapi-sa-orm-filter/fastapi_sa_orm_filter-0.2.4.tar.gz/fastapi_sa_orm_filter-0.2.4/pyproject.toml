@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "fastapi-sqlalchemy-filters"
+version = "0.2.4"
+description = ""
+authors = ["Alexandr Zhydyk <zhydykalex@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+fastapi = "^0.115.5"
+sqlalchemy = "^2.0.36"
+sqlalchemy-to-pydantic = "^0.0.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+aiosqlite = "^0.20.0"
+flit = "^3.10.1"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "fastapi-sa-orm-filter"
+authors = [{name = "Oleksandr Zhydyk", email = "zhydykalex@ukr.net"}]
+dynamic = ["version", "description"]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "sqlalchemy",
+    "pydantic",
+    "sqlalchemy-to-pydantic"
+]
+
+[project.urls]
+Home = "https://github.com/OleksandrZhydyk/FastAPI-SQLAlchemy-Filters"
+Issues = "https://github.com/OleksandrZhydyk/FastAPI-SQLAlchemy-Filters/issues"
