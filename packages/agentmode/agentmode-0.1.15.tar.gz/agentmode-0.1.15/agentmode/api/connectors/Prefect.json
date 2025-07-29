@@ -1,0 +1,827 @@
+{
+    "resources": [
+        {
+            "server_url": "",
+            "path": "/api/accounts/{account_id}/workspaces/{workspace_id}/flow_runs/{id}/logs",
+            "method": "get",
+            "parameters": [
+                {
+                    "name": "account_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Account Id"
+                    }
+                },
+                {
+                    "name": "workspace_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Workspace Id"
+                    }
+                },
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Id"
+                    }
+                },
+                {
+                    "name": "level_ge",
+                    "in": "query",
+                    "required": false,
+                    "schema": {
+                        "anyOf": [
+                            {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Level Ge"
+                    }
+                },
+                {
+                    "name": "level_le",
+                    "in": "query",
+                    "required": false,
+                    "schema": {
+                        "anyOf": [
+                            {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Level Le"
+                    }
+                },
+                {
+                    "name": "offset",
+                    "in": "query",
+                    "required": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "default": 0,
+                        "title": "Offset"
+                    }
+                },
+                {
+                    "name": "sort",
+                    "in": "query",
+                    "required": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "TIMESTAMP_ASC",
+                            "TIMESTAMP_DESC"
+                        ],
+                        "title": "LogSort",
+                        "description": "Defines log sorting options."
+                    }
+                },
+                {
+                    "name": "limit",
+                    "in": "query",
+                    "required": false,
+                    "schema": {
+                        "type": "integer",
+                        "description": "Defaults to PREFECT_ORION_API_DEFAULT_LIMIT if not provided.",
+                        "title": "Limit"
+                    },
+                    "description": "Defaults to PREFECT_ORION_API_DEFAULT_LIMIT if not provided."
+                },
+                {
+                    "name": "if-none-match",
+                    "in": "header",
+                    "required": false,
+                    "schema": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "If-None-Match"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Successful Response",
+                    "content": {
+                        "application/json": {
+                            "schema": {}
+                        }
+                    }
+                },
+                "422": {
+                    "description": "Validation Error",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "detail": {
+                                        "items": {
+                                            "$ref": "#/components/schemas/ValidationError"
+                                        },
+                                        "type": "array",
+                                        "title": "Detail"
+                                    }
+                                },
+                                "type": "object",
+                                "title": "HTTPValidationError"
+                            }
+                        }
+                    }
+                }
+            },
+            "request_body_parameters": {},
+            "description": "Returns a page of logs for a flow run\n\nRequired workspace scopes: `see_flows`",
+            "tags": [
+                "Logs",
+                "Download"
+            ],
+            "operationId": "get_flow_run_logs_api_accounts__account_id__workspaces__workspace_id__flow_runs__id__logs_get"
+        },
+        {
+            "server_url": "",
+            "path": "/api/accounts/{account_id}/workspaces/{workspace_id}/flows/{id}",
+            "method": "get",
+            "parameters": [
+                {
+                    "name": "workspace_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Workspace Id"
+                    }
+                },
+                {
+                    "name": "id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "description": "The flow id",
+                        "title": "Id"
+                    },
+                    "description": "The flow id"
+                },
+                {
+                    "name": "account_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Account Id"
+                    }
+                },
+                {
+                    "name": "x-prefect-api-version",
+                    "in": "header",
+                    "required": false,
+                    "schema": {
+                        "type": "string",
+                        "title": "X-Prefect-Api-Version"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Successful Response",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "format": "uuid",
+                                        "title": "Id"
+                                    },
+                                    "created": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "date-time"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "title": "Created"
+                                    },
+                                    "updated": {
+                                        "anyOf": [
+                                            {
+                                                "type": "string",
+                                                "format": "date-time"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "title": "Updated"
+                                    },
+                                    "name": {
+                                        "type": "string",
+                                        "pattern": "^[^/%&><]+$",
+                                        "title": "Name",
+                                        "description": "The name of the flow",
+                                        "examples": [
+                                            "1"
+                                        ]
+                                    },
+                                    "tags": {
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "type": "array",
+                                        "title": "Tags",
+                                        "description": "A list of flow tags",
+                                        "examples": [
+                                            [
+                                                "tag-1",
+                                                "tag-2"
+                                            ]
+                                        ]
+                                    },
+                                    "labels": {
+                                        "anyOf": [
+                                            {
+                                                "additionalProperties": {
+                                                    "anyOf": [
+                                                        {
+                                                            "type": "boolean"
+                                                        },
+                                                        {
+                                                            "type": "integer"
+                                                        },
+                                                        {
+                                                            "type": "number"
+                                                        },
+                                                        {
+                                                            "type": "string"
+                                                        }
+                                                    ]
+                                                },
+                                                "type": "object"
+                                            },
+                                            {
+                                                "type": "null"
+                                            }
+                                        ],
+                                        "title": "Labels",
+                                        "description": "A dictionary of key-value labels. Values can be strings, numbers, or booleans.",
+                                        "examples": [
+                                            {
+                                                "key": "value1",
+                                                "key2": 42
+                                            }
+                                        ]
+                                    }
+                                },
+                                "type": "object",
+                                "required": [
+                                    "name"
+                                ],
+                                "title": "Flow",
+                                "description": "An ORM representation of flow data."
+                            }
+                        }
+                    }
+                },
+                "422": {
+                    "description": "Validation Error",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "detail": {
+                                        "items": {
+                                            "$ref": "#/components/schemas/ValidationError"
+                                        },
+                                        "type": "array",
+                                        "title": "Detail"
+                                    }
+                                },
+                                "type": "object",
+                                "title": "HTTPValidationError"
+                            }
+                        }
+                    }
+                }
+            },
+            "request_body_parameters": {},
+            "description": "Get a flow by id.\n\nRequired workspace scopes: `see_flows`",
+            "tags": [
+                "Flows"
+            ],
+            "operationId": "read_flow_api_accounts__account_id__workspaces__workspace_id__flows__id__get"
+        }
+    ],
+    "tools": [
+        {
+            "server_url": "",
+            "path": "/api/accounts/{account_id}/workspaces/{workspace_id}/flows/filter",
+            "method": "post",
+            "parameters": [
+                {
+                    "name": "account_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Account Id"
+                    }
+                },
+                {
+                    "name": "workspace_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Workspace Id"
+                    }
+                },
+                {
+                    "name": "x-prefect-api-version",
+                    "in": "header",
+                    "required": false,
+                    "schema": {
+                        "type": "string",
+                        "title": "X-Prefect-Api-Version"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Successful Response",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/Flow"
+                                },
+                                "title": "Response Read Flows Api Accounts  Account Id  Workspaces  Workspace Id  Flows Filter Post"
+                            }
+                        }
+                    }
+                },
+                "422": {
+                    "description": "Validation Error",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "detail": {
+                                        "items": {
+                                            "$ref": "#/components/schemas/ValidationError"
+                                        },
+                                        "type": "array",
+                                        "title": "Detail"
+                                    }
+                                },
+                                "type": "object",
+                                "title": "HTTPValidationError"
+                            }
+                        }
+                    }
+                }
+            },
+            "request_body_parameters": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "properties": {
+                                "offset": {
+                                    "type": "integer",
+                                    "minimum": 0.0,
+                                    "title": "Offset",
+                                    "default": 0
+                                },
+                                "flows": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "flow_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "task_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/TaskRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "deployments": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/DeploymentFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "work_pools": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/WorkPoolFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "sort": {
+                                    "$ref": "#/components/schemas/FlowSort",
+                                    "default": "NAME_ASC"
+                                },
+                                "limit": {
+                                    "type": "integer",
+                                    "title": "Limit",
+                                    "description": "Defaults to PREFECT_ORION_API_DEFAULT_LIMIT if not provided."
+                                }
+                            },
+                            "type": "object",
+                            "title": "Body_read_flows_api_accounts__account_id__workspaces__workspace_id__flows_filter_post"
+                        }
+                    }
+                }
+            },
+            "description": "Query for flows.\n\nRequired workspace scopes: `see_flows`",
+            "tags": [
+                "Flows"
+            ],
+            "operationId": "read_flows_api_accounts__account_id__workspaces__workspace_id__flows_filter_post"
+        },
+        {
+            "server_url": "",
+            "path": "/api/accounts/{account_id}/workspaces/{workspace_id}/flow_runs/filter",
+            "method": "post",
+            "parameters": [
+                {
+                    "name": "account_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Account Id"
+                    }
+                },
+                {
+                    "name": "workspace_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Workspace Id"
+                    }
+                },
+                {
+                    "name": "x-prefect-api-version",
+                    "in": "header",
+                    "required": false,
+                    "schema": {
+                        "type": "string",
+                        "title": "X-Prefect-Api-Version"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Successful Response",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/FlowRunResponse"
+                                },
+                                "title": "Response Read Flow Runs Api Accounts  Account Id  Workspaces  Workspace Id  Flow Runs Filter Post"
+                            }
+                        }
+                    }
+                },
+                "422": {
+                    "description": "Validation Error",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "detail": {
+                                        "items": {
+                                            "$ref": "#/components/schemas/ValidationError"
+                                        },
+                                        "type": "array",
+                                        "title": "Detail"
+                                    }
+                                },
+                                "type": "object",
+                                "title": "HTTPValidationError"
+                            }
+                        }
+                    }
+                }
+            },
+            "request_body_parameters": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "properties": {
+                                "sort": {
+                                    "$ref": "#/components/schemas/FlowRunSort",
+                                    "default": "ID_DESC"
+                                },
+                                "offset": {
+                                    "type": "integer",
+                                    "minimum": 0.0,
+                                    "title": "Offset",
+                                    "default": 0
+                                },
+                                "flows": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "flow_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "task_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/TaskRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "deployments": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/DeploymentFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "work_pools": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/WorkPoolFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "work_pool_queues": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/WorkQueueFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "limit": {
+                                    "type": "integer",
+                                    "title": "Limit",
+                                    "description": "Defaults to PREFECT_ORION_API_DEFAULT_LIMIT if not provided."
+                                }
+                            },
+                            "type": "object",
+                            "title": "Body_read_flow_runs_api_accounts__account_id__workspaces__workspace_id__flow_runs_filter_post"
+                        }
+                    }
+                }
+            },
+            "description": "Query for flow runs.\n\nRequired workspace scopes: `see_flows`",
+            "tags": [
+                "Flow Runs"
+            ],
+            "operationId": "read_flow_runs_api_accounts__account_id__workspaces__workspace_id__flow_runs_filter_post"
+        },
+        {
+            "server_url": "",
+            "path": "/api/accounts/{account_id}/workspaces/{workspace_id}/flow_runs/filter-minimal",
+            "method": "post",
+            "parameters": [
+                {
+                    "name": "account_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Account Id"
+                    }
+                },
+                {
+                    "name": "workspace_id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string",
+                        "format": "uuid",
+                        "title": "Workspace Id"
+                    }
+                },
+                {
+                    "name": "x-prefect-api-version",
+                    "in": "header",
+                    "required": false,
+                    "schema": {
+                        "type": "string",
+                        "title": "X-Prefect-Api-Version"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Successful Response",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/MinimalFlowRun"
+                                },
+                                "title": "Response Read Flow Runs Minimal Api Accounts  Account Id  Workspaces  Workspace Id  Flow Runs Filter Minimal Post"
+                            }
+                        }
+                    }
+                },
+                "422": {
+                    "description": "Validation Error",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "detail": {
+                                        "items": {
+                                            "$ref": "#/components/schemas/ValidationError"
+                                        },
+                                        "type": "array",
+                                        "title": "Detail"
+                                    }
+                                },
+                                "type": "object",
+                                "title": "HTTPValidationError"
+                            }
+                        }
+                    }
+                }
+            },
+            "request_body_parameters": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "properties": {
+                                "sort": {
+                                    "$ref": "#/components/schemas/FlowRunSort",
+                                    "default": "ID_DESC"
+                                },
+                                "offset": {
+                                    "type": "integer",
+                                    "minimum": 0.0,
+                                    "title": "Offset",
+                                    "default": 0
+                                },
+                                "flows": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "flow_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/FlowRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "task_runs": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/TaskRunFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "deployments": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/DeploymentFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "work_pools": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/WorkPoolFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "work_pool_queues": {
+                                    "anyOf": [
+                                        {
+                                            "$ref": "#/components/schemas/WorkQueueFilter"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ]
+                                },
+                                "limit": {
+                                    "type": "integer",
+                                    "title": "Limit",
+                                    "description": "Defaults to PREFECT_ORION_API_DEFAULT_LIMIT if not provided."
+                                }
+                            },
+                            "type": "object",
+                            "title": "Body_read_flow_runs_minimal_api_accounts__account_id__workspaces__workspace_id__flow_runs_filter_minimal_post"
+                        }
+                    }
+                }
+            },
+            "description": "A flow runs filter that excludes full state data -- and possibly other\ndata in the future -- for improved performance.\n\nNote that the state name, state type, and state ID are all still available.\n\nRequired workspace scopes: `see_flows`",
+            "tags": [
+                "Flow Runs"
+            ],
+            "operationId": "read_flow_runs_minimal_api_accounts__account_id__workspaces__workspace_id__flow_runs_filter_minimal_post"
+        }
+    ]
+}
