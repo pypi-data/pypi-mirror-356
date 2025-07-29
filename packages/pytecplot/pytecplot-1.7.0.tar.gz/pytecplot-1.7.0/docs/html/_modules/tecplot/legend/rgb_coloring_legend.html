@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tecplot.legend.rgb_coloring_legend &#8212; PyTecplot 1.7.0 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=649a27d8" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pydoctheme.css?v=331e5ccf" />
+    <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="../../../_static/pygments_dark.css?v=b20cc3f5" />
+    
+    <script src="../../../_static/documentation_options.js?v=030dc6f6"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <script src="../../../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /><link rel="stylesheet" href="../../../_static/pydoctheme_dark.css" media="(prefers-color-scheme: dark)" id="pydoctheme_dark_css">
+    <link rel="shortcut icon" type="image/png" href="../../../_static/favicon.gif" />
+            <script type="text/javascript" src="../../../_static/copybutton.js"></script>
+            <script type="text/javascript" src="../../../_static/menu.js"></script>
+            <script type="text/javascript" src="../../../_static/themetoggle.js"></script> 
+  </head>
+<body>
+<div class="mobile-nav">
+    <input type="checkbox" id="menuToggler" class="toggler__input" aria-controls="navigation"
+           aria-pressed="false" aria-expanded="false" role="button" aria-label="Menu" />
+    <nav class="nav-content" role="navigation">
+        <label for="menuToggler" class="toggler__label">
+            <span></span>
+        </label>
+        <span class="nav-items-wrapper">
+            <a href="https://www.tecplot.com/docs/pytecplot/" class="nav-logo">
+                <img src="../../../_static/py.svg" alt="Logo"/>
+            </a>
+            <span class="version_switcher_placeholder"></span>
+            <form role="search" class="search" action="../../../search.html" method="get">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="search-icon">
+                    <path fill-rule="nonzero" fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+                <input type="submit" value="Go"/>
+            </form>
+        </span>
+    </nav>
+    <div class="menu-wrapper">
+        <nav class="menu" role="navigation" aria-label="main navigation">
+            <div class="language_switcher_placeholder"></div>
+            
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="../../../index.html">Table of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reference.html">Reference</a></li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+          <li><img src="../../../_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="../../../index.html">PyTecplot-1.7.0</a> &#187;
+              
+          </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tecplot.legend.rgb_coloring_legend</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="../../../search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for tecplot.legend.rgb_coloring_legend</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">builtins</span> <span class="kn">import</span> <span class="nb">str</span><span class="p">,</span> <span class="nb">super</span>
+
+<span class="kn">from</span> <span class="nn">..constant</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">..tecutil</span> <span class="kn">import</span> <span class="n">sv</span>
+<span class="kn">from</span> <span class="nn">..</span> <span class="kn">import</span> <span class="n">tecutil</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">legend</span>
+
+
+<div class="viewcode-block" id="RGBColoringLegend">
+<a class="viewcode-back" href="../../../api/tecplot.plot_style.html#tecplot.legend.RGBColoringLegend">[docs]</a>
+<span class="k">class</span> <span class="nc">RGBColoringLegend</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">Legend</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Legend for RGB coloring (multivariate contour) plots.</span>
+
+<span class="sd">    .. note::</span>
+<span class="sd">        The RGB coloring legend will only show when an active fieldmap&#39;s</span>
+<span class="sd">        contour is being flooded by RGB.</span>
+
+<span class="sd">    .. code-block:: python</span>
+<span class="sd">        :emphasize-lines: 46-48</span>
+
+<span class="sd">        import os</span>
+<span class="sd">        import numpy as np</span>
+
+<span class="sd">        import tecplot as tp</span>
+<span class="sd">        from tecplot.constant import *</span>
+
+<span class="sd">        def normalize_variable(dataset, varname, nsigma=2):</span>
+<span class="sd">            &#39;&#39;&#39;</span>
+<span class="sd">            Normalize a variable such that the specified number of standard deviations</span>
+<span class="sd">            are within the range [0.5, 1] and the mean is transformed to 0.5. The</span>
+<span class="sd">            new variable will append &quot; normalized&quot; to the original variable&#39;s name.</span>
+<span class="sd">            &#39;&#39;&#39;</span>
+<span class="sd">            with tp.session.suspend():</span>
+<span class="sd">                newvarname = varname + &#39; normalized&#39;</span>
+<span class="sd">                dataset.add_variable(newvarname)</span>
+<span class="sd">                data = np.concatenate([z.values(varname).as_numpy_array()</span>
+<span class="sd">                                       for z in dataset.zones()])</span>
+<span class="sd">                vmin = data.mean() - nsigma * data.std()</span>
+<span class="sd">                vmax = data.mean() + nsigma * data.std()</span>
+<span class="sd">                for z in dataset.zones():</span>
+<span class="sd">                    arr = z.values(varname).as_numpy_array()</span>
+<span class="sd">                    z.values(newvarname)[:] = (arr - vmin) / (vmax - vmin)</span>
+
+
+<span class="sd">        examples_dir = tp.session.tecplot_examples_directory()</span>
+<span class="sd">        infile = os.path.join(examples_dir, &#39;SimpleData&#39;, &#39;HeatExchanger.plt&#39;)</span>
+<span class="sd">        dataset = tp.data.load_tecplot(infile)</span>
+
+<span class="sd">        frame = tp.active_frame()</span>
+<span class="sd">        plot = frame.plot(PlotType.Cartesian2D)</span>
+<span class="sd">        plot.show_contour = True</span>
+
+<span class="sd">        # Variables must be normalized relative to each other</span>
+<span class="sd">        # to make effective use of RGB coloring.</span>
+<span class="sd">        normalize_variable(dataset, &#39;T(K)&#39;)</span>
+<span class="sd">        normalize_variable(dataset, &#39;P(N)&#39;)</span>
+
+<span class="sd">        plot.rgb_coloring.mode = RGBMode.SpecifyGB</span>
+
+<span class="sd">        # all three channel variables must be set even if</span>
+<span class="sd">        # we are only contouring on two of them.</span>
+<span class="sd">        plot.rgb_coloring.red_variable = dataset.variable(0)</span>
+<span class="sd">        plot.rgb_coloring.green_variable = dataset.variable(&#39;P(N) normalized&#39;)</span>
+<span class="sd">        plot.rgb_coloring.blue_variable = dataset.variable(&#39;T(K) normalized&#39;)</span>
+
+<span class="sd">        plot.rgb_coloring.legend.show = True</span>
+<span class="sd">        plot.rgb_coloring.legend.green_label = &#39;Pressure&#39;</span>
+<span class="sd">        plot.rgb_coloring.legend.blue_label = &#39;Temperature&#39;</span>
+
+<span class="sd">        plot.fieldmaps().contour.flood_contour_group = plot.rgb_coloring</span>
+
+<span class="sd">        tp.export.save_png(&#39;rgb_coloring_legend.png&#39;)</span>
+
+<span class="sd">    .. figure:: /_static/images/rgb_coloring_legend.png</span>
+<span class="sd">        :width: 300px</span>
+<span class="sd">        :figwidth: 300px</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rgb_coloring</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rgb_coloring</span> <span class="o">=</span> <span class="n">rgb_coloring</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">rgb_coloring</span><span class="o">.</span><span class="n">_sv</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">LEGEND</span><span class="p">,</span> <span class="o">**</span><span class="n">rgb_coloring</span><span class="o">.</span><span class="n">_kw</span><span class="p">)</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">box</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`text.TextBox`: Legend box attributes.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; from tecplot.constant import Color</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.box.fill_color = Color.Yellow</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">show</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`bool`: Display the RGB coloring legend.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.show = True</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">anchor_alignment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`AnchorAlignment`: Anchor location of the legend.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; from tecplot.constant import AnchorAlignment</span>
+<span class="sd">            &gt;&gt;&gt; legend = plot.rgb_coloring.legend</span>
+<span class="sd">            &gt;&gt;&gt; legend.anchor_alignment = AnchorAlignment.BottomCenter</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">text_color</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`Color`: Color of legend text.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; from tecplot.constant import Color</span>
+<span class="sd">            &gt;&gt;&gt; legend = plot.rgb_coloring.legend</span>
+<span class="sd">            &gt;&gt;&gt; legend.text_color = Color.Blue</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">position</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`tuple`: Position as a percentage of frame width/height.</span>
+
+<span class="sd">        The legend is automatically placed for you. You may specify the</span>
+<span class="sd">        :math:`(x,y)` position of the legend by setting this value, where</span>
+<span class="sd">        :math:`x` is the percentage of frame width, and :math:`y` is a</span>
+<span class="sd">        percentage of frame height.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.position = (20, 80)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@tecutil</span><span class="o">.</span><span class="n">inherited_property</span><span class="p">(</span><span class="n">legend</span><span class="o">.</span><span class="n">CategoryLegend</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">font</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`text.Font`: Legend font attributes.</span>
+
+<span class="sd">        .. note::</span>
+<span class="sd">            The font `size_units &lt;tecplot.text.Font.size_units&gt;` property</span>
+<span class="sd">            may only be set to `Units.Frame` or `Units.Point`.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.font.italic = True</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">show_labels</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`bool`: Show the RGB channel labels.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; legend = plot.rgb_coloring.legend</span>
+<span class="sd">            &gt;&gt;&gt; legend.show_labels = True</span>
+<span class="sd">            &gt;&gt;&gt; legend.red_label = &#39;Variable A&#39;</span>
+<span class="sd">            &gt;&gt;&gt; legend.green_label = &#39;Variable B&#39;</span>
+<span class="sd">            &gt;&gt;&gt; legend.blue_label = &#39;Variable C&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">SHOWLABELS</span><span class="p">)</span>
+
+    <span class="nd">@show_labels</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">show_labels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">SHOWLABELS</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">height</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`float`: Size of RGB coloring legend</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.height = 20</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">HEIGHT</span><span class="p">)</span>
+
+    <span class="nd">@height</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">height</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">HEIGHT</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">orientation</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`RGBLegendOrientation`: Placement of the RGB channels on the legend.</span>
+
+<span class="sd">        The first color is on the bottom left, the second is on the bottom</span>
+<span class="sd">        right, and the third is on top. Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; from tecplot.constant import RGBLegendOrientation</span>
+<span class="sd">            &gt;&gt;&gt; legend = plot.rgb_coloring.legend</span>
+<span class="sd">            &gt;&gt;&gt; legend.orientation = RGBLegendOrientation.RBG</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="n">RGBLegendOrientation</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">RGBLEGENDORIENTATION</span><span class="p">)</span>
+
+    <span class="nd">@orientation</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">orientation</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="n">RGBLegendOrientation</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">RGBLEGENDORIENTATION</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_red_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`bool`: Use the `Variable` name for the red channel.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_red_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.red_label = &#39;gas&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEREDVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@use_variable_for_red_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_red_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEREDVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">red_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`str`: Label to use for the red channel.</span>
+
+<span class="sd">        This can be set to a string (which may be empty) but the</span>
+<span class="sd">        `use_variable_for_red_label` property must be set to `False` for this</span>
+<span class="sd">        label to be shown::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_red_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.red_label = &#39;gas&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">REDCHANNELLABEL</span><span class="p">)</span>
+
+    <span class="nd">@red_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">red_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">REDCHANNELLABEL</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_green_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`bool`: Use the `Variable` name for the green channel.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_green_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.green_label = &#39;gas&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEGREENVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@use_variable_for_green_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_green_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEGREENVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">green_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`str`: Label to use for the green channel.</span>
+
+<span class="sd">        This can be set to a string (which may be empty) but the</span>
+<span class="sd">        `use_variable_for_green_label` property must be set to `False` for this</span>
+<span class="sd">        label to be shown::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_green_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.green_label = &#39;oil&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">GREENCHANNELLABEL</span><span class="p">)</span>
+
+    <span class="nd">@green_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">green_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">GREENCHANNELLABEL</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_blue_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`bool`: Use the `Variable` name for the blue channel.</span>
+
+<span class="sd">        Example usage::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_blue_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.blue_label = &#39;gas&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEBLUEVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@use_variable_for_blue_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">use_variable_for_blue_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">USEBLUEVARNAME</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">blue_label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;`str`: Label to use for the blue channel.</span>
+
+<span class="sd">        This can be set to a string (which may be empty) but the</span>
+<span class="sd">        `use_variable_for_blue_label` property must be set to `False` for this</span>
+<span class="sd">        label to be shown::</span>
+
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.use_variable_for_blue_label = False</span>
+<span class="sd">            &gt;&gt;&gt; plot.rgb_coloring.legend.blue_label = &#39;water&#39;</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_style</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">sv</span><span class="o">.</span><span class="n">BLUECHANNELLABEL</span><span class="p">)</span>
+
+    <span class="nd">@blue_label</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">blue_label</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_set_style</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">),</span> <span class="n">sv</span><span class="o">.</span><span class="n">BLUECHANNELLABEL</span><span class="p">)</span></div>
+
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../index.html">
+              <img class="logo" src="../../../_static/powered_by_tecplot.png" alt="Logo"/>
+            </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="../../../index.html">Table of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reference.html">Reference</a></li>
+</ul>
+
+        </div>
+<div id="sidebarbutton" title="Collapse sidebar">
+<span>«</span>
+</div>
+
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+          <li><img src="../../../_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="../../../index.html">PyTecplot-1.7.0</a> &#187;
+              
+          </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tecplot.legend.rgb_coloring_legend</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="../../../search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; Copyright 2025, Tecplot, Inc..
+    <br />
+    
+    <br />
+
+    Last updated on Jun 18, 2025.
+    
+    <br />
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+
+  </body>
+</html>

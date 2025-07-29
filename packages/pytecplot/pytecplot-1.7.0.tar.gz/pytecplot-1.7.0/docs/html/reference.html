@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Reference &#8212; PyTecplot 1.7.0 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=649a27d8" />
+    <link rel="stylesheet" type="text/css" href="_static/pydoctheme.css?v=331e5ccf" />
+    <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="_static/pygments_dark.css?v=b20cc3f5" />
+    
+    <script src="_static/documentation_options.js?v=030dc6f6"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    
+    <script src="_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Session and Top-Level Functionality" href="api/tecplot.session.html" />
+    <link rel="prev" title="Examples" href="examples.html" /><link rel="stylesheet" href="_static/pydoctheme_dark.css" media="(prefers-color-scheme: dark)" id="pydoctheme_dark_css">
+    <link rel="shortcut icon" type="image/png" href="_static/favicon.gif" />
+            <script type="text/javascript" src="_static/copybutton.js"></script>
+            <script type="text/javascript" src="_static/menu.js"></script>
+            <script type="text/javascript" src="_static/themetoggle.js"></script> 
+  </head>
+<body>
+<div class="mobile-nav">
+    <input type="checkbox" id="menuToggler" class="toggler__input" aria-controls="navigation"
+           aria-pressed="false" aria-expanded="false" role="button" aria-label="Menu" />
+    <nav class="nav-content" role="navigation">
+        <label for="menuToggler" class="toggler__label">
+            <span></span>
+        </label>
+        <span class="nav-items-wrapper">
+            <a href="https://www.tecplot.com/docs/pytecplot/" class="nav-logo">
+                <img src="_static/py.svg" alt="Logo"/>
+            </a>
+            <span class="version_switcher_placeholder"></span>
+            <form role="search" class="search" action="search.html" method="get">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="search-icon">
+                    <path fill-rule="nonzero" fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+                <input type="submit" value="Go"/>
+            </form>
+        </span>
+    </nav>
+    <div class="menu-wrapper">
+        <nav class="menu" role="navigation" aria-label="main navigation">
+            <div class="language_switcher_placeholder"></div>
+            
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html">Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot.html">Plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html">Axes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html">Plot Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.blanking.html">Blanking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.annotations.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exporting.html">Exporting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html">Macros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.constants.html">Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exceptions.html">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/reference.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </nav>
+    </div>
+</div>
+  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="api/tecplot.session.html" title="Session and Top-Level Functionality"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             accesskey="P">previous</a> |</li>
+          <li><img src="_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="index.html">PyTecplot-1.7.0</a> &#187;
+              
+          </li>
+        <li class="nav-item nav-item-this"><a href="">Reference</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="reference">
+<h1>Reference<a class="headerlink" href="#reference" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.session.html">Session</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html#module-tecplot">tecplot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#tecutil-layer">TecUtil Layer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#tecplot-version-compatibility">Tecplot Version Compatibility</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html#version-information">Version Information</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#module-tecplot.version">tecplot.version</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html#session">Session</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#module-tecplot.session">tecplot.session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-suspend">session.suspend()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-suspend-enter">session.suspend_enter()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-suspend-exit">session.suspend_exit()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-clear-suspend">session.clear_suspend()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-connect">session.connect()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-connected">session.connected()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-disconnect">session.disconnect()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-redraw">session.redraw()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-stop">session.stop()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-acquire-license">session.acquire_license()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-release-license">session.release_license()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-start-roaming">session.start_roaming()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-stop-roaming">session.stop_roaming()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-license-expiration">session.license_expiration()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-tecplot-install-directory">session.tecplot_install_directory()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#session-tecplot-examples-directory">session.tecplot_examples_directory()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html#configuration">Configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#tecplot.session.tecplot.session.configuration"><code class="docutils literal notranslate"><span class="pre">tecplot.session.configuration()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#latex-command"><code class="docutils literal notranslate"><span class="pre">latex.command</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#latex-dvipng-command"><code class="docutils literal notranslate"><span class="pre">latex.dvipng_command</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#latex-preamble"><code class="docutils literal notranslate"><span class="pre">latex.preamble</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html#miscellaneous">Miscellaneous</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#tecplot.tecutil.Index"><code class="docutils literal notranslate"><span class="pre">Index</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.session.html#tecplot.session.IndexRange"><code class="docutils literal notranslate"><span class="pre">IndexRange</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.layout.html">Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#module-tecplot.layout">tecplot.layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#active-frame">active_frame()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.active_frame"><code class="docutils literal notranslate"><span class="pre">active_frame()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#active-page">active_page()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.active_page"><code class="docutils literal notranslate"><span class="pre">active_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#add-page">add_page()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.add_page"><code class="docutils literal notranslate"><span class="pre">add_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#delete-page">delete_page()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.delete_page"><code class="docutils literal notranslate"><span class="pre">delete_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#next-page">next_page()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.next_page"><code class="docutils literal notranslate"><span class="pre">next_page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#new-layout">new_layout()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.new_layout"><code class="docutils literal notranslate"><span class="pre">new_layout()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#load-layout">load_layout()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.load_layout"><code class="docutils literal notranslate"><span class="pre">load_layout()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#page">page()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.page"><code class="docutils literal notranslate"><span class="pre">page()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#pages">pages()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.pages"><code class="docutils literal notranslate"><span class="pre">pages()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#frames">frames()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.frames"><code class="docutils literal notranslate"><span class="pre">frames()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#save-layout">save_layout()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.save_layout"><code class="docutils literal notranslate"><span class="pre">save_layout()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#layout-aux-data">layout.aux_data()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.layout.aux_data"><code class="docutils literal notranslate"><span class="pre">aux_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#frame">Frame</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.layout.Frame"><code class="docutils literal notranslate"><span class="pre">Frame</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#id1">Page</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.layout.Page"><code class="docutils literal notranslate"><span class="pre">Page</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html#paper">Paper</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.layout.html#tecplot.layout.Paper"><code class="docutils literal notranslate"><span class="pre">Paper</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.data.html">Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#module-tecplot.data">tecplot.data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#loading-data">Loading Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-tecplot">data.load_tecplot()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-tecplot-szl">data.load_tecplot_szl()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-cfx">data.load_cfx()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-cgns">data.load_cgns()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-converge-cgns">data.load_converge_cgns()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-converge-hdf5">data.load_converge_hdf5()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-converge-output">data.load_converge_output()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-ensight">data.load_ensight()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-fluent">data.load_fluent()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-fluent-cff">data.load_fluent_cff()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-fvcom">data.load_fvcom()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-openfoam">data.load_openfoam()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-plot3d">data.load_plot3d()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-telemac">data.load_telemac()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-stl">data.load_stl()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-load-vtk">data.load_vtk()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#saving-data">Saving Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-save-tecplot-ascii">data.save_tecplot_ascii()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-save-tecplot-plt">data.save_tecplot_plt()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-save-tecplot-szl">data.save_tecplot_szl()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#data-queries">Data Queries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-query-probe-at-position">data.query.probe_at_position()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-query-probe-on-surface">data.query.probe_on_surface()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#data-operations">Data Operations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-execute-equation">data.operate.execute_equation()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-interpolate-inverse-distance">data.operate.interpolate_inverse_distance()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-interpolate-kriging">data.operate.interpolate_kriging()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-interpolate-linear">data.operate.interpolate_linear()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-smooth">data.operate.smooth()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-transform-polar-to-rectangular">data.operate.transform_polar_to_rectangular()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-transform-rectangular-to-polar">data.operate.transform_rectangular_to_polar()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-transform-rectangular-to-spherical">data.operate.transform_rectangular_to_spherical()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-operate-transform-spherical-to-rectangular">data.operate.transform_spherical_to_rectangular()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#data-extractions">Data Extractions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-extract-extract-blanked-zones">data.extract.extract_blanked_zones()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-extract-extract-line">data.extract.extract_line()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-extract-extract-slice">data.extract.extract_slice()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-extract-extract-connected-regions">data.extract.extract_connected_regions()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#data-extract-triangulate">data.extract.triangulate()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#data-access">Data Access</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#dataset">Dataset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#solutiontimeclustering">SolutionTimeClustering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#variable">Variable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#zones">Zones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#array">Array</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#fecelltype">FECellType</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#nodemap">Nodemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#nodemapsection">NodemapSection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#classicnodemap">ClassicNodemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#facemap">Facemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#faceneighbors">FaceNeighbors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html#auxiliary-data">Auxiliary Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.data.html#auxdata">AuxData</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.plot.html">Plot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot.html#plots">Plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian2dfieldplot">Cartesian2DFieldPlot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian3dfieldplot">Cartesian3DFieldPlot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#polarlineplot">PolarLinePlot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#xylineplot">XYLinePlot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#sketchplot">SketchPlot</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot.html#fieldmaps">Fieldmaps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian2dfieldmap">Cartesian2DFieldmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian2dfieldmapcollection">Cartesian2DFieldmapCollection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian3dfieldmap">Cartesian3DFieldmap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#cartesian3dfieldmapcollection">Cartesian3DFieldmapCollection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapcontour">FieldmapContour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapedge">FieldmapEdge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapeffects">FieldmapEffects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapeffects3d">FieldmapEffects3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapmesh">FieldmapMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmappoints">FieldmapPoints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapscatter">FieldmapScatter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#geometryscattersymbol">GeometryScatterSymbol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#textscattersymbol">TextScatterSymbol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapshade">FieldmapShade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapshade3d">FieldmapShade3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapsurfaces">FieldmapSurfaces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#fieldmapvector">FieldmapVector</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot.html#linemaps">Linemaps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#polarlinemap">PolarLinemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#polarlinemapcollection">PolarLinemapCollection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#xylinemap">XYLinemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#xylinemapcollection">XYLinemapCollection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemapline">LinemapLine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemapcurve">LinemapCurve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemapbars">LinemapBars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemaperrorbars">LinemapErrorBars</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemapindices">LinemapIndices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#linemapsymbols">LinemapSymbols</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#geometrysymbol">GeometrySymbol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot.html#textsymbol">TextSymbol</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.axes.html">Axes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html#field-axes">Field Axes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#cartesian2dfieldaxes">Cartesian2DFieldAxes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#cartesian2dfieldaxis">Cartesian2DFieldAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#cartesian3dfieldaxes">Cartesian3DFieldAxes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#cartesian3dfieldaxis">Cartesian3DFieldAxis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html#line-axes">Line Axes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#xylineaxes">XYLineAxes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#xylineaxis">XYLineAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#polarlineaxes">PolarLineAxes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#radiallineaxis">RadialLineAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#polaranglelineaxis">PolarAngleLineAxis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html#sketch-axes">Sketch Axes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#sketchaxes">SketchAxes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#sketchaxis">SketchAxis</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html#axis-elements">Axis Elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#axis-line">Axis Line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#ticks-and-labels">Ticks and Labels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#axis-title">Axis Title</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#grid-area">Grid Area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.axes.html#orientationaxis">OrientationAxis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.plot_style.html">Plot Style</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#scatter-plots">Scatter Plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#scatter">Scatter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#scatterreferencesymbol">ScatterReferenceSymbol</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#vector-plots">Vector Plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#vector2d">Vector2D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#vector3d">Vector3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#referencevector">ReferenceVector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#referencevectorlabel">ReferenceVectorLabel</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#legends">Legends</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourlegend">ContourLegend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#legendheader">LegendHeader</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#linelegend">LineLegend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#rgbcoloringlegend">RGBColoringLegend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#scatterlegend">ScatterLegend</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#contours">Contours</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourgroup">ContourGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourcolorcutoff">ContourColorCutoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourcolormapfilter">ContourColormapFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourcolormapoverride">ContourColormapOverride</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourcolormapzebrashade">ContourColormapZebraShade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourlabels">ContourLabels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourlevels">ContourLevels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#contourlines">ContourLines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#rgbcoloring">RGBColoring</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#isosurface">Isosurface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfacegroup">IsosurfaceGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfacecontour">IsosurfaceContour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfaceeffects">IsosurfaceEffects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfacemesh">IsosurfaceMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfaceshade">IsosurfaceShade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#isosurfacevector">IsosurfaceVector</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#slice">Slice</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#slicegroup">SliceGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#slicegroupcollection">SliceGroupCollection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#slicecontour">SliceContour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#sliceedge">SliceEdge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#sliceeffects">SliceEffects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#slicemesh">SliceMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#sliceshade">SliceShade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#slicevector">SliceVector</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#streamtraces">Streamtraces</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#id9">Streamtraces</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracerodribbon">StreamtraceRodRibbon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracetiming">StreamtraceTiming</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracerodribboncontour">StreamtraceRodRibbonContour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracerodribboneffects">StreamtraceRodRibbonEffects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracerodribbonmesh">StreamtraceRodRibbonMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtracerodribbonshade">StreamtraceRodRibbonShade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#streamtraceterminationline">StreamtraceTerminationLine</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#text">Text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#font">Font</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#basefont">BaseFont</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#textbox">TextBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#labelformat">LabelFormat</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#data-labels">Data Labels</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#fieldplotdatalabels">FieldPlotDataLabels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#lineplotdatalabels">LinePlotDataLabels</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#high-order-element-settings">High-Order Element Settings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#fieldplothoesettings">FieldPlotHOESettings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#viewport">Viewport</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#readonlyviewport">ReadOnlyViewport</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#id15">Viewport</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#cartesian2dviewport">Cartesian2DViewport</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#polarviewport">PolarViewport</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#view-and-lighting">View and Lighting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#cartesian2dfieldview">Cartesian2DFieldView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#cartesian3dview">Cartesian3DView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#xylineview">XYLineView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#polarview">PolarView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#lightsource">LightSource</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html#frame-linking">Frame Linking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#sketchplotlinkingbetweenframes">SketchPlotLinkingBetweenFrames</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#cartesian2dplotlinkingbetweenframes">Cartesian2DPlotLinkingBetweenFrames</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#cartesian3dplotlinkingbetweenframes">Cartesian3DPlotLinkingBetweenFrames</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#xylineplotlinkingbetweenframes">XYLinePlotLinkingBetweenFrames</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.plot_style.html#polarplotlinkingbetweenframes">PolarPlotLinkingBetweenFrames</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.blanking.html">Blanking</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.blanking.html#value-blanking">Value Blanking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.blanking.html#valueblanking">ValueBlanking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.blanking.html#valueblankingcartesian2d">ValueBlankingCartesian2D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.blanking.html#valueblankingcartesian3d">ValueBlankingCartesian3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.blanking.html#valueblankingconstraint">ValueBlankingConstraint</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.blanking.html#valueblankingconstraintcartesian2d">ValueBlankingConstraintCartesian2D</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.annotations.html">Annotations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.annotations.html#text">Text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#id2">Text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#textbox">TextBox</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#textfont">TextFont</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.annotations.html#geometric-shapes">Geometric Shapes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#circle">Circle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#ellipse">Ellipse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#rectangle">Rectangle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#square">Square</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#polyline2d">Polyline2D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#polyline3d">Polyline3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#multipolyline2d">MultiPolyline2D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#multipolyline3d">MultiPolyline3D</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#arrowhead">Arrowhead</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.annotations.html#images">Images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#image">Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.annotations.html#georeferencedimage">GeoreferencedImage</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.exporting.html">Exporting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exporting.html#exporting-images">Exporting Images</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-bmp">export.save_bmp()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-eps">export.save_eps()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-jpeg">export.save_jpeg()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-png">export.save_png()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-ps">export.save_ps()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-tiff">export.save_tiff()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-wmf">export.save_wmf()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exporting.html#exporting-video">Exporting Video</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-avi">export.animation_avi()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-mpeg4">export.animation_mpeg4()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-wmv">export.animation_wmv()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-flash">export.animation_flash()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-raster-metafile">export.animation_raster_metafile()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-animation-animation-export-animation-frame">export.animation.animation.export_animation_frame()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-avi">export.save_time_animation_avi()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-mpeg4">export.save_time_animation_mpeg4()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-wmv">export.save_time_animation_wmv()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-flash">export.save_time_animation_flash()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-raster-metafile">export.save_time_animation_raster_metafile()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-bmp">export.save_time_animation_bmp()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-jpeg">export.save_time_animation_jpeg()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-png">export.save_time_animation_png()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exporting.html#export-save-time-animation-tiff">export.save_time_animation_tiff()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.macros.html">Macros</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html#module-tecplot.macro">tecplot.macro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html#macro-execute-command">macro.execute_command()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.macros.html#tecplot.macro.execute_command"><code class="docutils literal notranslate"><span class="pre">execute_command()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html#macro-execute-extended-command">macro.execute_extended_command()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.macros.html#tecplot.macro.execute_extended_command"><code class="docutils literal notranslate"><span class="pre">execute_extended_command()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html#macro-execute-file">macro.execute_file()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.macros.html#tecplot.macro.execute_file"><code class="docutils literal notranslate"><span class="pre">execute_file()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html#macro-execute-function">macro.execute_function()</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.macros.html#tecplot.macro.execute_function"><code class="docutils literal notranslate"><span class="pre">execute_function()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.constants.html">Constants</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.constants.html#module-tecplot.constant">tecplot.constant</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AVICompression"><code class="docutils literal notranslate"><span class="pre">AVICompression</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Alignment"><code class="docutils literal notranslate"><span class="pre">Alignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AnchorAlignment"><code class="docutils literal notranslate"><span class="pre">AnchorAlignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AngleUnits"><code class="docutils literal notranslate"><span class="pre">AngleUnits</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AnimationDest"><code class="docutils literal notranslate"><span class="pre">AnimationDest</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AnimationOperation"><code class="docutils literal notranslate"><span class="pre">AnimationOperation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AnimationStep"><code class="docutils literal notranslate"><span class="pre">AnimationStep</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AnimationType"><code class="docutils literal notranslate"><span class="pre">AnimationType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ArgListArgType"><code class="docutils literal notranslate"><span class="pre">ArgListArgType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ArrowheadAttachment"><code class="docutils literal notranslate"><span class="pre">ArrowheadAttachment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ArrowheadStyle"><code class="docutils literal notranslate"><span class="pre">ArrowheadStyle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AssignOp"><code class="docutils literal notranslate"><span class="pre">AssignOp</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AuxDataLocation"><code class="docutils literal notranslate"><span class="pre">AuxDataLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AuxDataObjectType"><code class="docutils literal notranslate"><span class="pre">AuxDataObjectType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AuxDataType"><code class="docutils literal notranslate"><span class="pre">AuxDataType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AxisAlignment"><code class="docutils literal notranslate"><span class="pre">AxisAlignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AxisLine3DAssignment"><code class="docutils literal notranslate"><span class="pre">AxisLine3DAssignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AxisMode"><code class="docutils literal notranslate"><span class="pre">AxisMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AxisSubObject"><code class="docutils literal notranslate"><span class="pre">AxisSubObject</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.AxisTitleMode"><code class="docutils literal notranslate"><span class="pre">AxisTitleMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BasicSize"><code class="docutils literal notranslate"><span class="pre">BasicSize</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BinaryFileVersion"><code class="docutils literal notranslate"><span class="pre">BinaryFileVersion</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BorderLocation"><code class="docutils literal notranslate"><span class="pre">BorderLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BoundaryCondition"><code class="docutils literal notranslate"><span class="pre">BoundaryCondition</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BoundaryType"><code class="docutils literal notranslate"><span class="pre">BoundaryType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BoundaryZoneConstruction"><code class="docutils literal notranslate"><span class="pre">BoundaryZoneConstruction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.BoundingBoxMode"><code class="docutils literal notranslate"><span class="pre">BoundingBoxMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.CellBlankedCond"><code class="docutils literal notranslate"><span class="pre">CellBlankedCond</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ClipPlane"><code class="docutils literal notranslate"><span class="pre">ClipPlane</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Clipping"><code class="docutils literal notranslate"><span class="pre">Clipping</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Color"><code class="docutils literal notranslate"><span class="pre">Color</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ColorMapControlAction"><code class="docutils literal notranslate"><span class="pre">ColorMapControlAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ColorMapDistribution"><code class="docutils literal notranslate"><span class="pre">ColorMapDistribution</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ConstraintOp2Mode"><code class="docutils literal notranslate"><span class="pre">ConstraintOp2Mode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContLegendLabelLocation"><code class="docutils literal notranslate"><span class="pre">ContLegendLabelLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourColorMap"><code class="docutils literal notranslate"><span class="pre">ContourColorMap</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourColoring"><code class="docutils literal notranslate"><span class="pre">ContourColoring</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourLabelAction"><code class="docutils literal notranslate"><span class="pre">ContourLabelAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourLevelAction"><code class="docutils literal notranslate"><span class="pre">ContourLevelAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourLevelsInitializationMode"><code class="docutils literal notranslate"><span class="pre">ContourLevelsInitializationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourLineMode"><code class="docutils literal notranslate"><span class="pre">ContourLineMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ContourType"><code class="docutils literal notranslate"><span class="pre">ContourType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.CoordScale"><code class="docutils literal notranslate"><span class="pre">CoordScale</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.CoordSys"><code class="docutils literal notranslate"><span class="pre">CoordSys</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.CurveInfoMode"><code class="docutils literal notranslate"><span class="pre">CurveInfoMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.CurveType"><code class="docutils literal notranslate"><span class="pre">CurveType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataAlterReturnCode"><code class="docutils literal notranslate"><span class="pre">DataAlterReturnCode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataFileType"><code class="docutils literal notranslate"><span class="pre">DataFileType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataNodeStructure"><code class="docutils literal notranslate"><span class="pre">DataNodeStructure</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataProbeVarLoadMode"><code class="docutils literal notranslate"><span class="pre">DataProbeVarLoadMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataStoreStrategy"><code class="docutils literal notranslate"><span class="pre">DataStoreStrategy</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DataValueStructure"><code class="docutils literal notranslate"><span class="pre">DataValueStructure</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DerivPos"><code class="docutils literal notranslate"><span class="pre">DerivPos</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DistributionRegion"><code class="docutils literal notranslate"><span class="pre">DistributionRegion</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.DrawOrder"><code class="docutils literal notranslate"><span class="pre">DrawOrder</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Drift"><code class="docutils literal notranslate"><span class="pre">Drift</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.EPSPreviewImage"><code class="docutils literal notranslate"><span class="pre">EPSPreviewImage</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.EdgeType"><code class="docutils literal notranslate"><span class="pre">EdgeType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ElementOrientation"><code class="docutils literal notranslate"><span class="pre">ElementOrientation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ErrorBar"><code class="docutils literal notranslate"><span class="pre">ErrorBar</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ExportFormat"><code class="docutils literal notranslate"><span class="pre">ExportFormat</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ExportRegion"><code class="docutils literal notranslate"><span class="pre">ExportRegion</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ExtractMode"><code class="docutils literal notranslate"><span class="pre">ExtractMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ExtractionStrandIDAssignment"><code class="docutils literal notranslate"><span class="pre">ExtractionStrandIDAssignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FEALoader"><code class="docutils literal notranslate"><span class="pre">FEALoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FECellBasisFunction"><code class="docutils literal notranslate"><span class="pre">FECellBasisFunction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FECellShape"><code class="docutils literal notranslate"><span class="pre">FECellShape</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FaceNeighborMode"><code class="docutils literal notranslate"><span class="pre">FaceNeighborMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FieldDataType"><code class="docutils literal notranslate"><span class="pre">FieldDataType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FieldMapMode"><code class="docutils literal notranslate"><span class="pre">FieldMapMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FillMode"><code class="docutils literal notranslate"><span class="pre">FillMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FlashCompressionType"><code class="docutils literal notranslate"><span class="pre">FlashCompressionType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FlashImageType"><code class="docutils literal notranslate"><span class="pre">FlashImageType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FluentCFFLoader"><code class="docutils literal notranslate"><span class="pre">FluentCFFLoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Font"><code class="docutils literal notranslate"><span class="pre">Font</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FontStyle"><code class="docutils literal notranslate"><span class="pre">FontStyle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FrameAction"><code class="docutils literal notranslate"><span class="pre">FrameAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FrameCollection"><code class="docutils literal notranslate"><span class="pre">FrameCollection</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FrameSizePosUnits"><code class="docutils literal notranslate"><span class="pre">FrameSizePosUnits</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.FunctionDependency"><code class="docutils literal notranslate"><span class="pre">FunctionDependency</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.GeomForm"><code class="docutils literal notranslate"><span class="pre">GeomForm</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.GeomShape"><code class="docutils literal notranslate"><span class="pre">GeomShape</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.GeomType"><code class="docutils literal notranslate"><span class="pre">GeomType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.GetValueReturnCode"><code class="docutils literal notranslate"><span class="pre">GetValueReturnCode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Gridline"><code class="docutils literal notranslate"><span class="pre">Gridline</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.IJKBlankMode"><code class="docutils literal notranslate"><span class="pre">IJKBlankMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.IJKCellType"><code class="docutils literal notranslate"><span class="pre">IJKCellType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.IJKLines"><code class="docutils literal notranslate"><span class="pre">IJKLines</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.IJKPlanes"><code class="docutils literal notranslate"><span class="pre">IJKPlanes</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ImageRenderingStrategy"><code class="docutils literal notranslate"><span class="pre">ImageRenderingStrategy</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ImageResizeFilter"><code class="docutils literal notranslate"><span class="pre">ImageResizeFilter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.IsoSurfaceSelection"><code class="docutils literal notranslate"><span class="pre">IsoSurfaceSelection</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.JPEGEncoding"><code class="docutils literal notranslate"><span class="pre">JPEGEncoding</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LabelAlignment"><code class="docutils literal notranslate"><span class="pre">LabelAlignment</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LabelType"><code class="docutils literal notranslate"><span class="pre">LabelType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LegendProcess"><code class="docutils literal notranslate"><span class="pre">LegendProcess</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LegendShow"><code class="docutils literal notranslate"><span class="pre">LegendShow</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LightingEffect"><code class="docutils literal notranslate"><span class="pre">LightingEffect</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LineCap"><code class="docutils literal notranslate"><span class="pre">LineCap</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LineJoin"><code class="docutils literal notranslate"><span class="pre">LineJoin</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LineMapSort"><code class="docutils literal notranslate"><span class="pre">LineMapSort</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LinePattern"><code class="docutils literal notranslate"><span class="pre">LinePattern</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LinearInterpMode"><code class="docutils literal notranslate"><span class="pre">LinearInterpMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.LinkType"><code class="docutils literal notranslate"><span class="pre">LinkType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.MeshType"><code class="docutils literal notranslate"><span class="pre">MeshType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.MessageBoxType"><code class="docutils literal notranslate"><span class="pre">MessageBoxType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.NumberFormat"><code class="docutils literal notranslate"><span class="pre">NumberFormat</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ObjectAlign"><code class="docutils literal notranslate"><span class="pre">ObjectAlign</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ObjectDrawMode"><code class="docutils literal notranslate"><span class="pre">ObjectDrawMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.OffsetDataType"><code class="docutils literal notranslate"><span class="pre">OffsetDataType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.OpenFOAMLoader"><code class="docutils literal notranslate"><span class="pre">OpenFOAMLoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.OriginResetLocation"><code class="docutils literal notranslate"><span class="pre">OriginResetLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PageAction"><code class="docutils literal notranslate"><span class="pre">PageAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PageRenderDest"><code class="docutils literal notranslate"><span class="pre">PageRenderDest</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Palette"><code class="docutils literal notranslate"><span class="pre">Palette</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PlacementPlaneOrientation"><code class="docutils literal notranslate"><span class="pre">PlacementPlaneOrientation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PlotApproximationMode"><code class="docutils literal notranslate"><span class="pre">PlotApproximationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PlotType"><code class="docutils literal notranslate"><span class="pre">PlotType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PointsToPlot"><code class="docutils literal notranslate"><span class="pre">PointsToPlot</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PolyCellInterpolationMode"><code class="docutils literal notranslate"><span class="pre">PolyCellInterpolationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PositionMarkerBy"><code class="docutils literal notranslate"><span class="pre">PositionMarkerBy</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PrintRenderType"><code class="docutils literal notranslate"><span class="pre">PrintRenderType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PrinterDriver"><code class="docutils literal notranslate"><span class="pre">PrinterDriver</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ProbeNearest"><code class="docutils literal notranslate"><span class="pre">ProbeNearest</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ProbeObject"><code class="docutils literal notranslate"><span class="pre">ProbeObject</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Projection"><code class="docutils literal notranslate"><span class="pre">Projection</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.PtSelection"><code class="docutils literal notranslate"><span class="pre">PtSelection</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RGBLegendOrientation"><code class="docutils literal notranslate"><span class="pre">RGBLegendOrientation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RGBMode"><code class="docutils literal notranslate"><span class="pre">RGBMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ReadDataOption"><code class="docutils literal notranslate"><span class="pre">ReadDataOption</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RelOp"><code class="docutils literal notranslate"><span class="pre">RelOp</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RelativeSizeUnits"><code class="docutils literal notranslate"><span class="pre">RelativeSizeUnits</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RemoteAuthenticationMethod"><code class="docutils literal notranslate"><span class="pre">RemoteAuthenticationMethod</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RemoteConnectionMethod"><code class="docutils literal notranslate"><span class="pre">RemoteConnectionMethod</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Resulting1DZoneType"><code class="docutils literal notranslate"><span class="pre">Resulting1DZoneType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RotateAxis"><code class="docutils literal notranslate"><span class="pre">RotateAxis</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RotateOriginLocation"><code class="docutils literal notranslate"><span class="pre">RotateOriginLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.RotationMode"><code class="docutils literal notranslate"><span class="pre">RotationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.STLLoader"><code class="docutils literal notranslate"><span class="pre">STLLoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SZLLoader"><code class="docutils literal notranslate"><span class="pre">SZLLoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Scope"><code class="docutils literal notranslate"><span class="pre">Scope</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SetValueReturnCode"><code class="docutils literal notranslate"><span class="pre">SetValueReturnCode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SidebarLocation"><code class="docutils literal notranslate"><span class="pre">SidebarLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SkipMode"><code class="docutils literal notranslate"><span class="pre">SkipMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SliceSource"><code class="docutils literal notranslate"><span class="pre">SliceSource</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SliceSurface"><code class="docutils literal notranslate"><span class="pre">SliceSurface</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SolutionTimeSource"><code class="docutils literal notranslate"><span class="pre">SolutionTimeSource</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SphereScatterRenderQuality"><code class="docutils literal notranslate"><span class="pre">SphereScatterRenderQuality</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StateChange"><code class="docutils literal notranslate"><span class="pre">StateChange</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StepMode"><code class="docutils literal notranslate"><span class="pre">StepMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StreamDir"><code class="docutils literal notranslate"><span class="pre">StreamDir</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Streamtrace"><code class="docutils literal notranslate"><span class="pre">Streamtrace</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StreamtraceAction"><code class="docutils literal notranslate"><span class="pre">StreamtraceAction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StreamtraceLocation"><code class="docutils literal notranslate"><span class="pre">StreamtraceLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.StreamtraceType"><code class="docutils literal notranslate"><span class="pre">StreamtraceType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SubdivideZones"><code class="docutils literal notranslate"><span class="pre">SubdivideZones</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SurfaceGenerationMethod"><code class="docutils literal notranslate"><span class="pre">SurfaceGenerationMethod</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SurfacesToPlot"><code class="docutils literal notranslate"><span class="pre">SurfacesToPlot</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.SymbolType"><code class="docutils literal notranslate"><span class="pre">SymbolType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TIFFByteOrder"><code class="docutils literal notranslate"><span class="pre">TIFFByteOrder</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TecUtilErr"><code class="docutils literal notranslate"><span class="pre">TecUtilErr</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TecUtilServerProcessingMode"><code class="docutils literal notranslate"><span class="pre">TecUtilServerProcessingMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TextAnchor"><code class="docutils literal notranslate"><span class="pre">TextAnchor</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TextBox"><code class="docutils literal notranslate"><span class="pre">TextBox</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TextType"><code class="docutils literal notranslate"><span class="pre">TextType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ThetaMode"><code class="docutils literal notranslate"><span class="pre">ThetaMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TickDirection"><code class="docutils literal notranslate"><span class="pre">TickDirection</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TileMode"><code class="docutils literal notranslate"><span class="pre">TileMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TimeScaling"><code class="docutils literal notranslate"><span class="pre">TimeScaling</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Transform"><code class="docutils literal notranslate"><span class="pre">Transform</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TransientOperationMode"><code class="docutils literal notranslate"><span class="pre">TransientOperationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TransientZoneVisibility"><code class="docutils literal notranslate"><span class="pre">TransientZoneVisibility</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Translucency"><code class="docutils literal notranslate"><span class="pre">Translucency</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.TwoDDrawOrder"><code class="docutils literal notranslate"><span class="pre">TwoDDrawOrder</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.Units"><code class="docutils literal notranslate"><span class="pre">Units</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.UnloadStrategy"><code class="docutils literal notranslate"><span class="pre">UnloadStrategy</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VTKLoader"><code class="docutils literal notranslate"><span class="pre">VTKLoader</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ValueBlankCellMode"><code class="docutils literal notranslate"><span class="pre">ValueBlankCellMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ValueLocation"><code class="docutils literal notranslate"><span class="pre">ValueLocation</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VarLoadMode"><code class="docutils literal notranslate"><span class="pre">VarLoadMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VarLockMode"><code class="docutils literal notranslate"><span class="pre">VarLockMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VarParseReturnCode"><code class="docutils literal notranslate"><span class="pre">VarParseReturnCode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VarStatus"><code class="docutils literal notranslate"><span class="pre">VarStatus</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VariableDerivationMethod"><code class="docutils literal notranslate"><span class="pre">VariableDerivationMethod</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VectorType"><code class="docutils literal notranslate"><span class="pre">VectorType</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.View"><code class="docutils literal notranslate"><span class="pre">View</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ViewActionDrawMode"><code class="docutils literal notranslate"><span class="pre">ViewActionDrawMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.VolumeCellInterpolationMode"><code class="docutils literal notranslate"><span class="pre">VolumeCellInterpolationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.WindowFunction"><code class="docutils literal notranslate"><span class="pre">WindowFunction</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.WorkspaceView"><code class="docutils literal notranslate"><span class="pre">WorkspaceView</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ZoneAnimationMode"><code class="docutils literal notranslate"><span class="pre">ZoneAnimationMode</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ZoneOrder"><code class="docutils literal notranslate"><span class="pre">ZoneOrder</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.constants.html#tecplot.constant.ZoneType"><code class="docutils literal notranslate"><span class="pre">ZoneType</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/tecplot.exceptions.html">Exceptions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exceptions.html#module-tecplot.exception">tecplot.exception</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotAttributeError"><code class="docutils literal notranslate"><span class="pre">TecplotAttributeError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotConnectionError"><code class="docutils literal notranslate"><span class="pre">TecplotConnectionError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotConversionWarning"><code class="docutils literal notranslate"><span class="pre">TecplotConversionWarning</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotDeprecationWarning"><code class="docutils literal notranslate"><span class="pre">TecplotDeprecationWarning</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotError"><code class="docutils literal notranslate"><span class="pre">TecplotError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotFutureWarning"><code class="docutils literal notranslate"><span class="pre">TecplotFutureWarning</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotIndexError"><code class="docutils literal notranslate"><span class="pre">TecplotIndexError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotInitializationError"><code class="docutils literal notranslate"><span class="pre">TecplotInitializationError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotInterfaceChangeError"><code class="docutils literal notranslate"><span class="pre">TecplotInterfaceChangeError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotInterruptError"><code class="docutils literal notranslate"><span class="pre">TecplotInterruptError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotInvalidMessage"><code class="docutils literal notranslate"><span class="pre">TecplotInvalidMessage</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotKeyError"><code class="docutils literal notranslate"><span class="pre">TecplotKeyError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotLibraryNotFoundError"><code class="docutils literal notranslate"><span class="pre">TecplotLibraryNotFoundError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotLibraryNotLoadedError"><code class="docutils literal notranslate"><span class="pre">TecplotLibraryNotLoadedError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotLicenseError"><code class="docutils literal notranslate"><span class="pre">TecplotLicenseError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotLogicError"><code class="docutils literal notranslate"><span class="pre">TecplotLogicError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotLookupError"><code class="docutils literal notranslate"><span class="pre">TecplotLookupError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotMacroError"><code class="docutils literal notranslate"><span class="pre">TecplotMacroError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotNotImplementedError"><code class="docutils literal notranslate"><span class="pre">TecplotNotImplementedError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotOSError"><code class="docutils literal notranslate"><span class="pre">TecplotOSError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotOutOfDateEngineError"><code class="docutils literal notranslate"><span class="pre">TecplotOutOfDateEngineError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotOverflowError"><code class="docutils literal notranslate"><span class="pre">TecplotOverflowError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotPatternMatchWarning"><code class="docutils literal notranslate"><span class="pre">TecplotPatternMatchWarning</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotRuntimeError"><code class="docutils literal notranslate"><span class="pre">TecplotRuntimeError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotSystemError"><code class="docutils literal notranslate"><span class="pre">TecplotSystemError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotTimeoutError"><code class="docutils literal notranslate"><span class="pre">TecplotTimeoutError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotTypeError"><code class="docutils literal notranslate"><span class="pre">TecplotTypeError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotValueError"><code class="docutils literal notranslate"><span class="pre">TecplotValueError</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="api/tecplot.exceptions.html#tecplot.exception.TecplotWarning"><code class="docutils literal notranslate"><span class="pre">TecplotWarning</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/powered_by_tecplot.png" alt="Logo"/>
+            </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.session.html">Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot.html">Plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.axes.html">Axes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.plot_style.html">Plot Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.blanking.html">Blanking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.annotations.html">Annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exporting.html">Exporting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.macros.html">Macros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.constants.html">Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/tecplot.exceptions.html">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/reference.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+<div id="sidebarbutton" title="Collapse sidebar">
+<span>«</span>
+</div>
+
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="api/tecplot.session.html" title="Session and Top-Level Functionality"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="Examples"
+             >previous</a> |</li>
+          <li><img src="_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.tecplot.com/docs/pytecplot/">PyTecplot</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="index.html">PyTecplot-1.7.0</a> &#187;
+              
+          </li>
+        <li class="nav-item nav-item-this"><a href="">Reference</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" />
+          <input type="submit" value="Go" />
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector" oninput="activateTheme(this.value)">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; Copyright 2025, Tecplot, Inc..
+    <br />
+    
+    <br />
+
+    Last updated on Jun 18, 2025.
+    
+    <br />
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+
+  </body>
+</html>
