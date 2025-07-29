@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+santex>=1.2.2
+h5py
+harmonica
+pyproj
+netCDF4
+psutil
+burnman
+CoolProp
