@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/alphai/__init__.py
+src/alphai/auth.py
+src/alphai/cli.py
+src/alphai/client.py
+src/alphai/config.py
+src/alphai/docker.py
+src/alphai/utils.py
+src/alphai.egg-info/PKG-INFO
+src/alphai.egg-info/SOURCES.txt
+src/alphai.egg-info/dependency_links.txt
+src/alphai.egg-info/entry_points.txt
+src/alphai.egg-info/requires.txt
+src/alphai.egg-info/top_level.txt
+tests/test_cli.py
