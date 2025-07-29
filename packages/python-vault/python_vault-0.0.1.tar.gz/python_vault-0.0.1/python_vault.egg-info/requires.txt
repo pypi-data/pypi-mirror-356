@@ -1,0 +1,8 @@
+setuptools
+wheel
+dotenv
+colorlog
+pytest
+pytest-rerunfailures
+hvac
+custom_python_logger
