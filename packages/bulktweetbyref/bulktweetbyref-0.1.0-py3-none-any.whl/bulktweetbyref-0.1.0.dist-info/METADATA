@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: bulktweetbyref
+Version: 0.1.0
+Summary: bulk tweet fetcher
+Author-email: Alex Mitch <alexmitch@example.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# bulktweetbyref
+
+tweet fetcher.
+
+```python
+from bulktweetbyref import get
