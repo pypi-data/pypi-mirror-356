@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gpcal
+Version: 0.9.6.4
+Summary: A generalized instrumental polarization calibration pipeline for VLBI data
+Home-page: https://github.com/jhparkastro/gpcal
+Download-URL: https://github.com/jhparkastro/gpcal/archive/v0.9.6.4.tar.gz
+Author: Jongho Park
+Author-email: jparkastro@khu.ac.kr
+License: gpl-2.0
+Keywords: VLBI,polarimetry,astronomy,calibration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: astropy
+Requires-Dist: matplotlib
