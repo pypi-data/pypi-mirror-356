@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: sitl
+Version: 0.0.1
+Summary: A SITL for Betaflight
+Author-email: Jonas Eschmann <jonas.eschmann@gmail.com>
+License: MIT
+Requires-Dist: betaflight
+Requires-Dist: l2f
+Requires-Dist: numpy
+Requires-Dist: pygame
+Requires-Dist: scipy
+Requires-Dist: websockets
+Requires-Dist: websockify
+Description-Content-Type: text/markdown
+
+# Python Wrapper for the Betaflight SITL
+
