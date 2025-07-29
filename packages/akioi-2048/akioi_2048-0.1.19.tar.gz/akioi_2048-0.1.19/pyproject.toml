@@ -1,0 +1,19 @@
+[project]
+name = "akioi-2048"
+version = "0.1.19"
+description = "akioi backend: one-step pure function for RL or search"
+authors = [{ name = "jasonxue" }]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[build-system]
+requires = ["maturin>=1.4"]
+build-backend = "maturin"
+
+[tool.maturin]
+include = ["akioi_2048/__init__.pyi"]
+bindings = "pyo3"
+module-name = "akioi_2048"
+
+[dependency-groups]
+dev = ["jason-personal-lib>=0.1.2"]
