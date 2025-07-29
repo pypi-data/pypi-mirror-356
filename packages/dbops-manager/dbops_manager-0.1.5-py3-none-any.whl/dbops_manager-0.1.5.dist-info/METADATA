@@ -1,0 +1,124 @@
+Metadata-Version: 2.4
+Name: dbops-manager
+Version: 0.1.5
+Summary: A Python package for managing database operations with a focus on logging and simple CRUD operations.
+Author-email: Ahmad Mujtaba <ahmad.mujtaba@codingcops.com>
+License: MIT License
+        
+        Copyright (c) 2024 Ahmad Mujtaba (amz)
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE. 
+Project-URL: Homepage, https://github.com/codingcops/dbops-manager
+Project-URL: Documentation, https://github.com/codingcops/dbops-manager#readme
+Project-URL: Repository, https://github.com/codingcops/dbops-manager.git
+Project-URL: Bug Tracker, https://github.com/codingcops/dbops-manager/issues
+Keywords: database,postgresql,psycopg2,lambda
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: tqdm>=4.65.0
+Dynamic: license-file
+
+# DB Operations Manager
+
+A Python package for managing database operations with a focus on logging and simple CRUD operations.
+
+## Features
+
+- **Simple CRUD Operations**: Insert, update, delete, and fetch data from your database.
+- **Logging**: Automatically log database operations to a `dbops_manager_logs` table.
+- **Concurrency Support**: Use multiple workers to perform concurrent database operations.
+
+## Installation
+
+```bash
+pip install dbops-manager
+```
+
+## Usage
+
+### Basic Usage
+
+```python
+from dbops_manager import PostgresOps
+
+# Initialize the database connection
+db = PostgresOps({
+    'dbname': 'your_db',
+    'user': 'your_user',
+    'password': 'your_password',
+    'host': 'localhost',
+    'port': '5432'
+}, logging_enabled=True)
+
+# Insert a row
+db.execute(
+    "INSERT INTO your_table (name, age) VALUES (%s, %s)",
+    ["Alice", 30]
+)
+
+# Fetch data
+data = db.fetch("SELECT * FROM your_table")
+print(data)
+
+# Close the connection
+db.close()
+```
+
+### Concurrent Operations
+
+```python
+import concurrent.futures
+
+def insert_row(db, worker_id):
+    db.execute(
+        "INSERT INTO your_table (name, age) VALUES (%s, %s)",
+        [f"Worker-{worker_id}", 20 + worker_id]
+    )
+
+# Use ThreadPoolExecutor to insert rows concurrently
+with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    futures = [executor.submit(insert_row, db, i) for i in range(10)]
+    concurrent.futures.wait(futures)
+```
+
+## Logging
+
+The package automatically logs database operations to a `dbops_manager_logs` table. You can query this table to see the history of operations.
+
+```python
+logs = db.fetch("SELECT * FROM dbops_manager_logs ORDER BY created_at DESC LIMIT 10")
+print(logs)
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
