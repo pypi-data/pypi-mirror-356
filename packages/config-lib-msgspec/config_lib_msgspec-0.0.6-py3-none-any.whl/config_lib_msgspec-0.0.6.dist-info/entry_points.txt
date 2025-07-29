@@ -1,0 +1,2 @@
+[console_scripts]
+config-lib = config_lib:main
