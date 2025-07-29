@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: precice-config-format
+Version: 1.0.0
+Summary: A tool for consistently formatting a preCICE configuration file.
+Author-email: The preCICE Developers <info@precice.org>
+Maintainer-email: Frédéric Simonis <frederic.simonis@ipvs.uni-stuttgart.de>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://precice.org
+Project-URL: Repository, https://github.com/precice/config-format.git
+Project-URL: Bug Tracker, https://github.com/precice/config-format/issues
+Keywords: preCICE,XML,configuration,format,formatter
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Dynamic: license-file
+
+# preCICE Config-Format
+
+`config-format` is a tool meant to format preCICE configurations consistently. A uniform order simplifies cooperation debugging.
+
+## Installation options
+
+Install directly from PyPi using [pipx](https://pipx.pypa.io/stable/) or via pip:
+
+```
+pipx install precice-config-format
+```
+
+## Usage
+
+To format a given preCICE configuration file in-place:
+
+```
+precice-config-format <CONFIG-FILE>
+```
+
+Consider using the [preCICE pre-commit hooks](https://github.com/precice/precice-pre-commit-hooks) to simplify using this tool.
