@@ -1,0 +1,17 @@
+LICENSE
+LICENSE.bak
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+mcp_code_editor/__init__.py
+mcp_code_editor/cli.py
+mcp_code_editor/main.py
+mcp_code_editor.egg-info/PKG-INFO
+mcp_code_editor.egg-info/SOURCES.txt
+mcp_code_editor.egg-info/dependency_links.txt
+mcp_code_editor.egg-info/entry_points.txt
+mcp_code_editor.egg-info/not-zip-safe
+mcp_code_editor.egg-info/requires.txt
+mcp_code_editor.egg-info/top_level.txt
