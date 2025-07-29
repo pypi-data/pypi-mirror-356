@@ -1,0 +1,11 @@
+numpy
+gradio_client
+openai
+python-dotenv
+langgraph-sdk
+
+[all]
+cuteagent[extra]
+
+[extra]
+pandas
