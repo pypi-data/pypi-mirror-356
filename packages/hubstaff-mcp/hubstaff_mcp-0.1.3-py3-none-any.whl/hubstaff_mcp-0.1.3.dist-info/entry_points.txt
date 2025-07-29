@@ -1,0 +1,2 @@
+[console_scripts]
+hubstaff-mcp = hubstaff_mcp.server:main
