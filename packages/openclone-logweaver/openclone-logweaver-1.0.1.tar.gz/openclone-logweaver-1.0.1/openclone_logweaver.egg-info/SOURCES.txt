@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+LogWeaver/__init__.py
+openclone_logweaver.egg-info/PKG-INFO
+openclone_logweaver.egg-info/SOURCES.txt
+openclone_logweaver.egg-info/dependency_links.txt
+openclone_logweaver.egg-info/requires.txt
+openclone_logweaver.egg-info/top_level.txt
