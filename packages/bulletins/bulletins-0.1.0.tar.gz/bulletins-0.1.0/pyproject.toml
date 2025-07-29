@@ -1,0 +1,19 @@
+[project]
+name = "bulletins"
+version = "0.1.0"
+description = "Modular changelogs using Markdown bulletins"
+readme = "README.md"
+authors = [
+    { name = "Aleix Pinardell", email = "aleixpinardell@gmail.com" }
+]
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["changelog"]
+
+[project.scripts]
+bulletins = "bulletins:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
