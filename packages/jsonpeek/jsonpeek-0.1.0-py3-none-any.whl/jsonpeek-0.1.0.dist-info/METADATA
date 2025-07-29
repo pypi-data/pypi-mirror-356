@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: jsonpeek
+Version: 0.1.0
+Summary: Extract, filter, and transform JSON from the command line using simple Python expressions.
+License: Apache-2.0
+Author: Josh Spratt
+Author-email: jspratt02@icloud.com
+Requires-Python: >=3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: black (>=25.1.0,<26.0.0)
+Description-Content-Type: text/markdown
+
+# jsonpeek
+Extract, filter, and transform JSON from the command line using simple Python expressions.
+
