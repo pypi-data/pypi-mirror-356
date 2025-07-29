@@ -1,0 +1,12 @@
+usps/__init__.py,sha256=v7Gyp89umFzDtY45tTjCdXqZnQ2RN01AibdYNxEvxYo,23
+usps/__main__.py,sha256=vK7qpWTCsMzDBaA3wAccBN6XCUx9D1rQb1z9nHBEfd4,6256
+usps/storage.py,sha256=qrWWZRDuAPV5W0kCUQkiOLy_11wBy1arxHdEiW2g7EI,751
+usps/timezones.py,sha256=ZeXJKicGhFm1pUw1tXQBZOG-Z_wxs8TOxHufpCE8pPU,3781
+usps/tracking/__init__.py,sha256=7wP9XsKPWPsfAqlSxtrizN23pAb1Fcekky_es9iGpwI,1551
+usps/tracking/ups.py,sha256=-iDGbv7XJ_yhnA80_x-DyBBwAWmqAkTpp_nqzc2JvkQ,3892
+usps/tracking/usps.py,sha256=9jZpvNg4-tJFV9ndQLk8h-qE60DGNNZdZSkS6ZOzDho,7080
+usps_cli-0.10.1.dist-info/METADATA,sha256=oc2gI5T0u74-9uzf1A8naYu_IwplgQdwuJ0rUDwroSE,3634
+usps_cli-0.10.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+usps_cli-0.10.1.dist-info/entry_points.txt,sha256=MVBzkKUe1c_QhQ3VaxIyh4kMksXHRdET_Gwmqq8rHzc,43
+usps_cli-0.10.1.dist-info/licenses/LICENSE.txt,sha256=PxYv51cYnUTDhFwDHu2Tbbao7j8r5ErOcLDSSTMVDbs,1064
+usps_cli-0.10.1.dist-info/RECORD,,
