@@ -1,0 +1,9 @@
+flask
+playwright
+requests
+click
+
+[dev]
+pytest
+pytest-cov
+pre-commit
