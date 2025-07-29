@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: toolwrap-lite
+Version: 0.1.0
+Summary: Auto-generate OpenAI-compatible tool schemas from Python functions using decorators.
+Author: Gagan Naidu
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
