@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: lmig-generate-readme
+Version: 0.1.0
+Summary: A tool to automate readme generation
+Home-page: https://github.com/yourusername/automate-docs
+Author: Natalio Gomes
+Author-email: Natalio Gomes <natalio.gomes@libertymutual.com>
+License: MIT
+Project-URL: Homepage, https://github.com/lmigtech/generate-readme
+Project-URL: Repository, https://github.com/lmigtech/generate-readme
+Project-URL: BugTracker, https://github.com/lmigtech/generate-readme/issues
+Keywords: readme,automation,readme,git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
