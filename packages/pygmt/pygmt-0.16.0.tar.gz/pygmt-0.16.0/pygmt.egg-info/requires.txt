@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.1
+xarray>=2023.07
+packaging>=24.2
+
+[all]
+contextily>=1.5
+geopandas>=1.0
+IPython
+pyarrow>=16
+rioxarray
