@@ -1,0 +1,3 @@
+[console_scripts]
+ghprai = ghprai.cli:main
+ghprai-server = ghprai.server.app:main
