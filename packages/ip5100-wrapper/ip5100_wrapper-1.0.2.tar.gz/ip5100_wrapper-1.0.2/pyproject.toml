@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ip5100-wrapper"
+version = "1.0.2"
+description = "A Python wrapper for controlling IP5100 ASpeed encoders and decoders via Telnet"
+readme = "README.md"
+authors = [{ name = "Justin Faulk", email = "jfaulk@proitav.us" }]
+license = { text = "MIT" }
+requires-python = ">=3.13"
+dependencies = ["telnetlib-313-and-up"]
+
+[project.urls]
+"Homepage" = "https://github.com/JFaulk1434/wrapper_IP5100"
+"Bug Tracker" = "https://github.com/JFaulk143/wrapper_IP5100/issues"
+
+[tool.setuptools]
+packages = ["IP5100"]
