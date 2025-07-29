@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: maxday-test-package
+Version: 0.1.4
+Summary: A dummy package for testing PyPI publication
+Author-email: Maxime David <maxday@amazon.com>
+Project-URL: Homepage, https://github.com/maxday/test
+Project-URL: Bug Tracker, https://github.com/maxday/test/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

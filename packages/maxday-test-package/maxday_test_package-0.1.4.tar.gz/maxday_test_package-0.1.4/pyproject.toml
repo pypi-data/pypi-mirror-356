@@ -1,0 +1,13 @@
+[project]
+name = "maxday-test-package"
+version = "0.1.4"
+authors = [
+  { name="Maxime David", email="maxday@amazon.com" },
+]
+description = "A dummy package for testing PyPI publication"
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.urls]
+"Homepage" = "https://github.com/maxday/test"
+"Bug Tracker" = "https://github.com/maxday/test/issues"
