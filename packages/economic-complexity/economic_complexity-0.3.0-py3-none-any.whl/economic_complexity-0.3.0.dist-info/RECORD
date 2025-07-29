@@ -1,0 +1,15 @@
+economic_complexity/__init__.py,sha256=kWMleMrgTDJ1zfZSnkn_LfqBgGmZcVtoV8oOeF53mLo,804
+economic_complexity/complexity.py,sha256=KWvORFfYGUwmvcdSLb5DRR1bTDj_ReAAExhepqtStsg,2347
+economic_complexity/cross_space.py,sha256=hYqzHtFSnEOc4B_qrAp3DPhbaQ4hK1f9-Il0Ojqj16w,4234
+economic_complexity/polars/__init__.py,sha256=WXGEe318LE7M1qayIzT9ciAWBU1nYNzJv7vGmmI-o-g,333
+economic_complexity/polars/complexity.py,sha256=2MmU8jkPBAHfG6KHCoIdoNm3a-qkptCqwvh2rcoWekA,1931
+economic_complexity/polars/product_space.py,sha256=qEyEfQ1s7j7moec0rz81SzEKWTknBWlhb5zfVt9udG8,4072
+economic_complexity/polars/rca.py,sha256=daaCFKXDIpr9KzSy0aSYXD43nyFaRWuY2_TUztJWT08,3253
+economic_complexity/polars/run.py,sha256=Dqa3s53sqQd0qUBRtx3iMc4SWD5PFuvbhsl5W9BqEzU,1460
+economic_complexity/product_space.py,sha256=3NPA3gqwJHy6dqBHm-rI5oNePZwe68-9rlTE0qGt8m8,14876
+economic_complexity/rca.py,sha256=rk_GQecfR6ySlljZPsIIorOHQU0y2I1l7HSRkYzk41I,1431
+economic_complexity/subnational.py,sha256=Q47u3m48P_Jo6YlI9J5KnF6-Vyx5ZgXbRobcq2nOpu4,2592
+economic_complexity-0.3.0.dist-info/LICENSE,sha256=vUZmxuWDHlY98ZVLM4Ex-D5einndB8205You26zfFQs,1071
+economic_complexity-0.3.0.dist-info/METADATA,sha256=H2FR0Ua5Q602HkmUuLQSOkSRxzhB36OngWOTmkEeuGY,4293
+economic_complexity-0.3.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+economic_complexity-0.3.0.dist-info/RECORD,,
