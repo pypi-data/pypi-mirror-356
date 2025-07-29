@@ -1,0 +1,4 @@
+[console_scripts]
+codewise-init = scripts.install_hook:main
+codewise-lint = scripts.codewise_review_win:main_lint
+codewise-pr = scripts.codewise_review_win:main_pr
