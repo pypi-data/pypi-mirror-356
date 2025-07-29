@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cr_package_installable/__init__.py
+cr_package_installable/utils.py
+cr_package_installable.egg-info/PKG-INFO
+cr_package_installable.egg-info/SOURCES.txt
+cr_package_installable.egg-info/dependency_links.txt
+cr_package_installable.egg-info/requires.txt
+cr_package_installable.egg-info/top_level.txt
+cr_package_installable/length/__init__.py
+cr_package_installable/length/api.py
+cr_package_installable/length/core.py
+cr_package_installable/weight/__init__.py
+cr_package_installable/weight/api.py
+cr_package_installable/weight/core.py

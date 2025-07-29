@@ -1,0 +1,197 @@
+Metadata-Version: 2.4
+Name: cr_package_installable
+Version: 0.1.2
+Summary: A package for converting impyrial lengths and weights.
+Author: Josue Afouda
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.10
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+![package_python_tuto](https://github.com/user-attachments/assets/93d342ad-742d-41dd-9597-77fc701b5a0b)
+
+# cr_package_installable
+
+## Introduction
+
+Un package Python est une collection organisÃ©e de modules qui facilitent la rÃ©utilisation du code. Les packages permettent de structurer un projet de maniÃ¨re modulaire, ce qui amÃ©liore la maintenabilitÃ©, la lisibilitÃ© et le partage de code. Pour les dÃ©veloppeurs, et en particulier en **Data Science**, crÃ©er et utiliser des packages permet de rÃ©utiliser des fonctionnalitÃ©s complexes, de les organiser et de les partager facilement. Cela contribue Ã©galement Ã  la productivitÃ© en regroupant des fonctions spÃ©cifiques Ã  un domaine ou Ã  une tÃ¢che dans un ensemble cohÃ©rent.
+
+Dans ce tutoriel, nous allons dÃ©couvrir comment crÃ©er un package Python Ã  travers l'exemple de **cr_package_installable**, un package simple qui permet de convertir des unitÃ©s impÃ©riales de longueur et de poids.
+
+## Explication de la structure du rÃ©pertoire de travail
+
+Un package Python n'est rien d'autre qu'un dossier qui contient un fichier spÃ©cial appelÃ© `__init__.py`. Ce fichier indique Ã  Python que le dossier doit Ãªtre traitÃ© comme un package. Un package peut Ã©galement contenir des sous-packages, qui sont simplement des sous-dossiers avec leur propre fichier `__init__.py`.
+
+### Structure hiÃ©rarchique
+
+Voici la structure du rÃ©pertoire de travail pour le projet **cr_package_installable** :
+
+```
+cr_package_installable/
+â”‚
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ MANIFEST.in
+â”œâ”€â”€ README.md
+â”œâ”€â”€ requirements-dev.txt
+â”œâ”€â”€ setup.py
+â”œâ”€â”€ example_script.py
+â”œâ”€â”€ cr_package_installable/
+    â”œâ”€â”€ __init__.py
+    â”œâ”€â”€ utils.py
+    â”œâ”€â”€ length/
+    â”‚   â”œâ”€â”€ __init__.py
+    â”‚   â”œâ”€â”€ core.py
+    â”‚   â”œâ”€â”€ api.py
+    â”œâ”€â”€ weight/
+        â”œâ”€â”€ __init__.py
+        â”œâ”€â”€ core.py
+        â”œâ”€â”€ api.py
+```
+
+#### Explication des Ã©lÃ©ments :
+
+- **cr_package_installable/** : Le rÃ©pertoire principal de travail, qui contient le package ainsi que d'autres fichiers liÃ©s Ã  la configuration du projet.
+  
+- **LICENSE** : Ce fichier contient la licence du projet qui dÃ©finit les termes sous lesquels le code peut Ãªtre utilisÃ© et distribuÃ©.
+  
+- **MANIFEST.in** : Ce fichier permet de spÃ©cifier quels fichiers doivent Ãªtre inclus lors de la distribution du package.
+  
+- **README.md** : Le fichier que vous Ãªtes en train de lire. Il dÃ©crit le projet, ses fonctionnalitÃ©s et son utilisation.
+  
+- **requirements-dev.txt** : Un fichier listant les dÃ©pendances nÃ©cessaires pour le dÃ©veloppement du projet, par exemple pour les tests ou la documentation.
+  
+- **setup.py** : Le script de configuration qui permet de packager et de distribuer le projet via des outils comme PyPI (Python Package Index).
+  
+- **example_script.py** : Un script d'exemple utilisÃ© pour tester l'utilisation du package **cr_package_installable**.
+
+- **cr_package_installable/** : Le dossier qui contient le code source du package. Ce dossier reprÃ©sente le cÅ“ur du projet.
+
+  - **__init__.py** : Ce fichier fait de **cr_package_installable** un package Python. Il peut contenir des importations qui exposent des sous-packages ou des modules.
+  
+  - **utils.py** : Un module contenant des fonctions utilitaires qui peuvent Ãªtre utilisÃ©es Ã  travers le package.
+  
+  - **length/** et **weight/** : Ces deux dossiers reprÃ©sentent des sous-packages du package **cr_package_installable**. Chaque sous-package contient :
+    
+    - **__init__.py** : Ce fichier fait de chaque dossier un sous-package et peut Ãªtre utilisÃ© pour importer des fonctions ou modules spÃ©cifiques.
+    
+    - **core.py** : Contient les fonctions de conversion principales pour les unitÃ©s de longueur ou de poids.
+    
+    - **api.py** : Fournit une interface utilisateur plus simple et plus intuitive pour appeler les fonctions du module `core.py`.
+
+## Description du package cr_package_installable
+
+**cr_package_installable** est un package permettant de convertir des unitÃ©s impÃ©riales de longueur et de poids. Ce package a Ã©tÃ© crÃ©Ã© dans le cadre du cours [DataCamp](https://www.datacamp.com) "Developing Python Packages".
+
+### FonctionnalitÃ©s
+
+- Convertir des longueurs entre miles, yards, pieds et pouces.
+- Convertir des poids entre cental, stones, livres et onces.
+
+### Utilisation
+
+Voici comment utiliser le package **cr_package_installable** dans un script Python :
+
+```python
+import cr_package_installable
+
+# Convertir 500 yards en pieds
+result = cr_package_installable.length.convert_unit(500, from_unit='yd', to_unit='ft')  # renvoie 1500.0
+print(result)
+
+# Convertir 100 onces en livres
+result = cr_package_installable.weight.convert_unit(100, from_unit='oz', to_unit='lb')  # renvoie 6.25
+print(result)
+```
+
+
+## Place Ã  la dÃ©mo
+
+Dans cette section, nous allons parcourir les Ã©tapes pour dÃ©marrer le dÃ©veloppement de votre package **cr_package_installable**.
+
+### 1. CrÃ©ation d'un rÃ©pertoire GitHub
+
+- Rendez-vous sur [GitHub](https://github.com/) et crÃ©ez un nouveau dÃ©pÃ´t nommÃ© **cr_package_installable**. Ce dÃ©pÃ´t contiendra tout le code de votre package.
+
+### 2. Cloner le rÃ©pertoire en local
+
+- Une fois le dÃ©pÃ´t crÃ©Ã©, clonez-le en local sur votre machine Ã  l'aide de la commande suivante dans votre terminal :
+
+  ```bash
+  git clone https://github.com/username/cr_package_installable.git
+  ```
+
+  Remplacez `username` par votre nom d'utilisateur GitHub.
+
+### 3. CrÃ©er un environnement virtuel
+
+- Une bonne pratique pour les projets Python est de travailler dans un environnement virtuel afin d'isoler les dÃ©pendances. Pour crÃ©er un environnement virtuel dans votre rÃ©pertoire de travail, utilisez la commande suivante sous Linux :
+
+  ```bash
+  python3 -m venv .venv
+  ```
+
+### 4. Activer l'environnement virtuel
+
+- Activez l'environnement virtuel avec la commande suivante (toujours sous Linux) :
+
+  ```bash
+  source .venv/bin/activate
+  ```
+
+  Cela vous permet de travailler avec des versions spÃ©cifiques de bibliothÃ¨ques et de maintenir votre environnement de dÃ©veloppement propre.
+
+### 5. Ouvrir VSCode
+
+- Lancez Visual Studio Code (VSCode) et ouvrez le rÃ©pertoire **cr_package_installable** que vous avez clonÃ©.
+
+  ```bash
+  code .
+  ```
+
+  Cela ouvrira le projet dans VSCode, oÃ¹ vous pouvez commencer Ã  dÃ©velopper.
+
+### 6. CrÃ©er la structure du package
+
+- CrÃ©ez tous les fichiers et dossiers nÃ©cessaires en suivant la structure dÃ©crite dans la section prÃ©cÃ©dente du README. Assurez-vous que chaque fichier et sous-dossier est correctement positionnÃ©.
+
+### 7. DÃ©velopper le package
+
+- Vous Ãªtes maintenant prÃªt Ã  commencer Ã  coder ! Suivez les instructions ou la vidÃ©o de dÃ©mo pour dÃ©velopper les modules du package **cr_package_installable**.
+
+
+## Commandes Linux pour dÃ©marrer
+
+Voici les commandes Linux pour crÃ©er la structure hiÃ©rarchique du projet **cr_package_installable** en Ã©tant dans le rÃ©pertoire principal de travail :
+
+```bash
+# CrÃ©er le dossier du package principal
+mkdir cr_package_installable
+
+# CrÃ©er les sous-dossiers "length" et "weight"
+mkdir -p cr_package_installable/length
+mkdir -p cr_package_installable/weight
+
+# CrÃ©er les fichiers initiaux
+touch cr_package_installable/__init__.py
+touch cr_package_installable/utils.py
+touch cr_package_installable/length/__init__.py
+touch cr_package_installable/length/core.py
+touch cr_package_installable/length/api.py
+touch cr_package_installable/weight/__init__.py
+touch cr_package_installable/weight/core.py
+touch cr_package_installable/weight/api.py
+
+# CrÃ©er les fichiers dans le rÃ©pertoire principal
+touch LICENSE # Il est prÃ©fÃ©rable de gÃ©nÃ©rer ce fichier pendant la crÃ©ation du rÃ©pertoire GitHub. J'ai choisi la licence MIT
+touch MANIFEST.in
+touch README.md # Il est prÃ©fÃ©rable de gÃ©nÃ©rer ce fichier pendant la crÃ©ation du rÃ©pertoire GitHub.
+touch setup.py
+touch example_script.py
+```
+
