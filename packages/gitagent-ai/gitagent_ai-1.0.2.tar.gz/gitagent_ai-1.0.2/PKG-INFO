@@ -1,0 +1,121 @@
+Metadata-Version: 2.4
+Name: gitagent-ai
+Version: 1.0.2
+Summary: AI-powered Git assistant with persistent context management
+Author-email: Vivek Kale <vivekskale03@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/your-username/gitagent
+Project-URL: Bug Reports, https://github.com/your-username/gitagent/issues
+Project-URL: Source, https://github.com/your-username/gitagent
+Project-URL: Documentation, https://github.com/your-username/gitagent#readme
+Keywords: git,ai,assistant,automation,version-control
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydantic>=2.6.3
+Requires-Dist: langgraph>=0.0.15
+Requires-Dist: langchain-core>=0.1.27
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pymongo>=4.6.0
+Requires-Dist: click>=8.0.0
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Dynamic: license-file
+
+# GitAgent - Unified AI-Powered Git Assistant
+
+**GitAgent** is a unified AI-powered Git assistant that provides intelligent, context-aware Git operations with persistent session management and automatic command verification.
+
+
+## 🚀 Key Features
+
+### 📝 **Persistent Context Management**
+- **Session persistence** across multiple invocations
+- **Workflow resumption** for interrupted operations  
+- **Command history** and verification tracking
+
+### ✅ **Advanced Command Verification**
+- **Automatic success verification** after each command execution
+- **Semantic verification** beyond just error codes
+- **Intelligent error recovery** with specific issue identification
+- **Pre-execution prerequisite checking**
+
+### 🔄 **Multi-Step Workflow Management**
+- **Intelligent workflow decomposition** for complex operations
+- **Step-by-step execution** with user confirmation
+- **Context preservation** across workflow steps
+- **Automatic workflow completion** tracking
+
+
+## 🛠️ Installation
+
+1. **Install the package:**
+   ```bash
+   pip install gitagent-ai
+   ```
+
+3. **Setup User:**
+   ```bash
+   gitagent-setup
+   ```
+
+4. **Set up your Groq API key** (currently need to contact admin : vivekskale03@gmail.com):
+
+
+## 📖 Usage
+
+```bash
+# Interactive mode - ask any Git question
+gitagent "What's the current status of my repository?"
+
+# Multi-step operations
+gitagent "Stage all changes, commit with a meaningful message, and push to origin"
+
+# Branch operations  
+gitagent "Delete current branch and create a new feature branch called user-auth"
+```
+
+
+## 🔧 Architecture
+
+### Unified Agent Design
+- **Single LangGraph workflow** handles all scenarios
+- **State management** with persistent sessions
+- **Command verification** at each step
+- **Intelligent routing** based on context and intent
+
+### Session Persistence
+- Full command history with verification results
+- Workflow context and step tracking
+- Resumable across GitAgent invocations
+
+### Verification System
+- **Pre-execution** prerequisite checking
+- **Post-execution** state verification
+- **Semantic validation** of command outcomes
+- **Detailed error reporting** with recovery suggestions
+
+
+## 🆘 Support
+
+If you encounter any issues or have questions:
+Contact support : vivekskale03@gmail.com
+
+---
+
+**GitAgent** - Intelligent Git assistance with persistent context and reliable execution tracking.
