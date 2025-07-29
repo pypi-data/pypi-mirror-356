@@ -1,0 +1,46 @@
+[console_scripts]
+vot = vot.utilities.cli:main
+
+[vot_analysis]
+accuracy = vot.analysis.accuracy:SequenceAccuracy
+average_accuracy = vot.analysis.accuracy:AverageAccuracy
+average_quality_auxiliary = vot.analysis.longterm:AverageQualityAuxiliary
+average_success_plot = vot.analysis.accuracy:AverageSuccessPlot
+average_tpr = vot.analysis.longterm:PrecisionRecall
+cumulative_failures = vot.analysis.failures:CumulativeFailureCount
+f_curve = vot.analysis.longterm:FScoreCurve
+failures = vot.analysis.failures:FailureCount
+longterm_ar = vot.analysis.longterm:AccuracyRobustness
+multistart_ar = vot.analysis.multistart:AccuracyRobustness
+multistart_average_ar = vot.analysis.multistart:AverageAccuracyRobustness
+multistart_eao_curve = vot.analysis.multistart:EAOCurve
+multistart_eao_curves = vot.analysis.multistart:EAOCurves
+multistart_eao_score = vot.analysis.multistart:EAOScore
+multistart_fragments = vot.analysis.multistart:MultiStartFragments
+pr_curve = vot.analysis.longterm:PrecisionRecallCurve
+pr_curves = vot.analysis.longterm:PrecisionRecallCurves
+quality_auxiliary = vot.analysis.longterm:QualityAuxiliary
+success_plot = vot.analysis.accuracy:SuccessPlot
+supervised_ar = vot.analysis.supervised:AccuracyRobustness
+supervised_average_ar = vot.analysis.supervised:AverageAccuracyRobustness
+supervised_eao_curve = vot.analysis.supervised:EAOCurve
+supervised_eao_score = vot.analysis.supervised:EAOScore
+
+[vot_experiment]
+multistart = vot.experiment.multistart:MultiStartExperiment
+supervised = vot.experiment.multirun:SupervisedExperiment
+unsupervised = vot.experiment.multirun:UnsupervisedExperiment
+
+[vot_indexer]
+default = vot.dataset.common:list_sequences
+tackingnet = vot.dataset.trackingnet:list_sequences
+
+[vot_loader]
+default = vot.dataset.common:read_sequence
+legacy = vot.dataset:read_legacy_sequence
+
+[vot_transformer]
+downsample = vot.experiment.transformer:Downsample
+ignore = vot.experiment.transformer:IgnoreObjects
+redetection = vot.experiment.transformer:Redetection
+singleobject = vot.experiment.transformer:SingleObject
