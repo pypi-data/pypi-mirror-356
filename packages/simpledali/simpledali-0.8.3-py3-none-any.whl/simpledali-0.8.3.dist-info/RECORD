@@ -1,0 +1,13 @@
+simpledali/__init__.py,sha256=P9L-QAafnynzxZxkAEscDRDX9V9isc1vKS3OdiEgl5U,1311
+simpledali/abstractdali.py,sha256=Kt1K1JPdbxWqJDE_SDniiny35CUUhoHPl4WgY2fE2Iw,17049
+simpledali/dali2jsonl.py,sha256=D_7t55QqwT670nT9VrvS5_AnjNvkHAew0-E3f1OuWuo,9072
+simpledali/dalipacket.py,sha256=JqMuuK59XgunGj9vT_XpAvC_lkQbiqYTiRlfWl2Itqo,2424
+simpledali/jsonencoder.py,sha256=QB_5YUzzeE7OvntNRCPF2KNNwsBqyFdSalRNwleNm5w,366
+simpledali/socketdali.py,sha256=QB_FsYW7nuqJLH_Ocnw1a3PbuwIlorvF8oBDQ6cNxfY,4672
+simpledali/util.py,sha256=8h4lrE5wUn-3HJw4lCpod89qn6LKE455FS1ZsbOPRJU,5555
+simpledali/websocketdali.py,sha256=quI7dFxKuSa4Wd9hZ6v90u_nsYEXWijDxKvXWSIlffk,5452
+simpledali-0.8.3.dist-info/METADATA,sha256=cIAkvXBit292yJY7PSh6J_Fbl3zz1forPe4sZRXTaRI,4757
+simpledali-0.8.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+simpledali-0.8.3.dist-info/entry_points.txt,sha256=GVm6ef_RP0xndB1HxiJYU8hYS1g6nuUMljCFL4yNQl4,58
+simpledali-0.8.3.dist-info/licenses/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+simpledali-0.8.3.dist-info/RECORD,,
