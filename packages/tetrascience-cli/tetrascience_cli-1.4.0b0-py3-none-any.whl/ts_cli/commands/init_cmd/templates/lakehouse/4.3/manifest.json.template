@@ -1,0 +1,8 @@
+{
+  "type": "lakehouse",
+  "namespace": "{{ lakehouse_namespace }}",
+  "slug": "{{ lakehouse_slug }}",
+  "version": "{{ lakehouse_version }}",
+  "name": "My Lakehouse Artifact",
+  "description": "Description of the artifact"
+}
