@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+igthon/__init__.py
+igthon/automation.py
+igthon/scraping.py
+igthon/utils.py
+igthon.egg-info/PKG-INFO
+igthon.egg-info/SOURCES.txt
+igthon.egg-info/dependency_links.txt
+igthon.egg-info/requires.txt
+igthon.egg-info/top_level.txt
