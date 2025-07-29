@@ -1,0 +1,155 @@
+# File contains muster configuration file for credativ-pg-migrator
+
+# Migrator database connection for metadata storage
+# Migrator created multiple tables in the database
+# In most cases we presume migrator database is the same as target database, just with different schema
+migrator:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database: "database"
+  schema: "migration"
+
+# source database connection
+# type: "informix", "sybase_ase", "mssql", "ibm_db2", "mysql", "sql_anywhere", "postgresql"
+source:
+  type: "sybase_ase"
+  host: "localhost"
+  port: 5000
+  username: "sa"
+  password: "password"
+  database: "source_database"
+  # schema or owner - depending on the source database - not both
+  schema: "dbo"
+  # connectivity type - "jdbc", "odbc", "native"
+  # "native" does not have any additional section
+  connectivity: "odbc"
+  jdbc:
+    driver: "com.sybase.jdbc4.jdbc.SybDriver"
+    libraries: "../lib/jdbc/jconn4.jar"
+  odbc:
+    driver: 'FreeTDS'
+    libraries: "/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so"
+  # system catalog is used only for some database
+  # ibm_db2 - SYSCAT or SYSIBM - sysibm simulates the information_schema
+  # mssql - SYS or INFORMATION_SCHEMA
+  system_catalog: "SYSIBM"
+
+# target database connection - always postgresql
+target:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database: "target_database"
+  schema: "target_schema"
+  # settings for the migration process
+  # are optional, if present they will override the default settings in every connection
+  settings:
+    work_mem: '32MB'
+    maintenance_work_mem: '512MB'
+    role: 'target_owner'
+    search_path: "target_schema, public"
+
+# recipe for the migration process
+migration:
+  # drop schema if exists - uses DROP CASCADE if true
+  drop_schema: true
+  drop_tables: true
+  truncate_tables: true
+  create_tables: true
+  migrate_data: true
+  migrate_indexes: true
+  migrate_constraints: true
+  migrate_funcprocs: true
+  migrate_triggers: true
+  migrate_views: true
+  set_sequnces: true
+  on_error: continue # stop, continue
+  parallel_workers: 8
+  batch_size: 100000
+  # PostgreSQL scripts for the migration process
+  # Both run on the target database, before and after the migration
+  # pre_migration_script: pre_migration.sql
+  # post_migration_script: post_migration.sql
+  names_case_handling: lower # lower, upper, keep - if names of the objects should be converted to lower or upper case or kept as is
+  # if varchar length is bigger than this value, it will be converted to text
+  # 0 = always change to text, -1 = never change to text, always migrate as varchar, >0 = convert varchar to text if length is >= this value
+  # if parameter is missing, default is -1 -> migrate all varchars as varchars as they are
+  varchar_to_text_length: 4000
+
+# Specify tables to include in the migration - list of table names or regular expressions
+# Empty list means all tables will be included
+# One string value added without putting it into list, will raise an parsing error
+include_tables:
+  # - "table1"
+  # - "table_prefix_*"
+
+# Specify tables to exclude from the migration - list of table names or regular expressions
+# Empty list means no tables will be excluded
+exclude_tables:
+  # - "z_skins"
+  # - "z_skins_er*"
+
+include_views: all
+  # - "view1"
+  # - "view_prefix_*"
+
+exclude_views:
+  # - "z_skins"
+  # - "z_skins_er*"
+
+include_funcprocs: all
+  # - "func1"
+
+exclude_funcprocs:
+  # - "proc1"
+
+
+# Data types substitution
+# table name, column name, source_data_type (regexp - eventually including length), target_data_type (mandatory, precise value including length), comment
+# table_name, column_name and source_data_type are all optional, but at least one of them, most likely column_name or source_data_type, must be specified
+# Source data type can be specified as precise match, pattern for LIKE operator or regular expression - checked in this order
+# Matching is case-insensitive, regexp is preferred over LIKE
+data_types_substitution:
+  - ["", "", "TypMacAdresse", "TEXT", 'Does not have direct equivalent in PostgreSQL, using TEXT']
+  - ["", "", "TypID", "BIGINT", 'Numeric PK is not supported in PostgreSQL, using BIGINT']
+  - ["", "", "numeric(_,0)", "INTEGER", 'Sybase numeric type with no decimal places, using INTEGER']
+  - ["", "", "numeric(1_,0)", "BIGINT", 'Sybase numeric type with no decimal places, using BIGINT']
+  - ["", "", "numeric(2_,0)", "NUMERIC", 'Sybase Integer bigger than 32 bits, using NUMERIC - will probably need to change to BIGINT later']
+  - ["staff", "password", "varchar(40)", "TEXT", 'Password in the staff table is varchar(40) but migrated value exceeds this length, using TEXT']
+
+# Default values substitution
+# column_name, source_column_data_type, source_default_value, target_default_value
+default_values_substitution:
+  - ["", "", "%getdate()%", "statement_timestamp()"]   ## condition with % to catch also "create default job_lastchange as getdate()", "(getdate())" and similar options
+  - ["", "", "db_name()", "current_database()"]
+
+# Substitutions for objects from other databases
+# Informix, Sybase ASE and some other databases allow to use objects from other databases
+# In PostgreSQL we must replace them with foreign tables linking to the original database
+# "source_db:source_schema.source_object", "target_schema.target_object"
+remote_objects_substitution:
+  - ["remotedb:dbo.table1", "remote_db.table1"]
+
+# Limitations for data migration
+# "Table name (or pattern)", "condition for limiting data (without WHERE)", "column name (or pattern) - use condition when column is present in the table"
+data_migration_limitation:
+  - [".*", "date >= '2000-01-01'", "date"]
+  - [".*", "movie_id in (select id from movies where date >= '2000-01-01')", "movie_id"]
+  - ["movie_references", "referenced_id in (select id from movies where date >= '2000-01-01')", "referenced_id"]
+
+# Configurable partitioning for target tables
+# partitioning:
+#   - description: "partitioning for table1 by date"
+#     table_name: "table1"
+#     partition_by: "date1"  ## one or more columns, comma separated
+#     partitioning_type: "range"  ## range, list, hash
+#     date_range: month  ## year, month, week, day, hour
+# date - by range, select unique values from the column from source table
+# integer - by range or list
+# hash - even data distribution
+
