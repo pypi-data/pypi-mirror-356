@@ -1,0 +1,13 @@
+sdv_installer/__init__.cp310-win_amd64.pyd,sha256=9T06jXck7ZewOCK_Bjg2em5g9_cdiPLXR0VlqVCmUvE,15872
+sdv_installer/cli/__init__.cp310-win_amd64.pyd,sha256=GOSVB8CygJZIgE8EcXGFZ-VYDZ1KmxykuXQbVwWb_Nc,15872
+sdv_installer/cli/__main__.cp310-win_amd64.pyd,sha256=7KzARdlYys9LbOFJG6lmiwISKeHjPl08e9T166T6eF4,50688
+sdv_installer/installation/__init__.cp310-win_amd64.pyd,sha256=6In52KSjy5TTR-dRMLZQJwSn3r75OqJMs71UuyvjPBM,17920
+sdv_installer/installation/installer.cp310-win_amd64.pyd,sha256=2RPX9ZTTY00TeCiZS3fxU9nqkADlmj6Pk5TnqHDPdBs,87040
+sdv_installer/licensing/__init__.cp310-win_amd64.pyd,sha256=ywnwxVXGFTys7awKVZNd5vZ9Ud_tKHk9pt2pTTKKZWE,17920
+sdv_installer/licensing/authentication.cp310-win_amd64.pyd,sha256=OEPKuE1HdEG3tRYjewTkT8sWnxYintDX_8kV3B2WZtQ,78336
+sdv_installer-0.0.0.dev3.dist-info/licenses/LICENSE,sha256=_d1m3b6XYQZ-3Ua4-xmFy_tHZ39BP_RYbUbFynDdezQ,1086
+sdv_installer-0.0.0.dev3.dist-info/METADATA,sha256=oXXIhXKKkph6Un3_sSGdVz0QS5RhVISbUahxQjW-eck,2870
+sdv_installer-0.0.0.dev3.dist-info/WHEEL,sha256=KUuBC6lxAbHCKilKua8R9W_TM71_-9Sg5uEP3uDWcoU,101
+sdv_installer-0.0.0.dev3.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev3.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev3.dist-info/RECORD,,
