@@ -1,0 +1,22 @@
+[project]
+name = "huang-file-manager"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "cris",email = "huanghaiyss@163.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer (>=0.16.0,<0.17.0)"
+]
+
+[tool.poetry]
+packages = [{include = "file_manager", from = "src"}]
+
+[tool.poetry.scripts]
+file-manager = "file_manager.main:app"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
