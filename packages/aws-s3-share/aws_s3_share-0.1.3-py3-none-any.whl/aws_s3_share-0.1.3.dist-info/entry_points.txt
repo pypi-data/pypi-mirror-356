@@ -1,0 +1,3 @@
+[console_scripts]
+aws-s3-share = aws_s3_share.cli:main
+
