@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: nqs-sdk
+Version: 0.3.0
+Summary: Nuant Simulator SDK
+License-File: LICENSE
+Requires-Dist: nqs-pycore==0.3.0
+Requires-Dist: micro_language==0.3.1
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: networkx==3.3
+Requires-Dist: pyvinecopulib==0.6.5
+Requires-Dist: requests==2.32.3
+Requires-Dist: eth_typing==4.4.0
+Requires-Dist: web3==6.20.0
+Requires-Dist: gql==3.5.0
+Requires-Dist: requests_toolbelt==1.0.0
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: numpy==1.26.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: py_qis_validator==0.2.2-rc3
+Dynamic: license-file
