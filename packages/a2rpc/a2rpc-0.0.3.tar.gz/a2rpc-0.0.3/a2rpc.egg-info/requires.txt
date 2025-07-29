@@ -1,0 +1,14 @@
+requests
+pyyaml
+
+[dev]
+black>=23.0
+flake8>=6.0
+mypy>=1.0
+pytest>=7.0
+types-requests>=2.0
+types-PyYAML>=6.0
+
+[test]
+pytest>=7.0
+pytest-cov>=4.0

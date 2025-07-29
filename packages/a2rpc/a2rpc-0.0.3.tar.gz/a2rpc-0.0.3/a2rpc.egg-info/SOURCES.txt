@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+a2rpc/__main__.py
+a2rpc/cliskel.py
+a2rpc.egg-info/PKG-INFO
+a2rpc.egg-info/SOURCES.txt
+a2rpc.egg-info/dependency_links.txt
+a2rpc.egg-info/entry_points.txt
+a2rpc.egg-info/requires.txt
+a2rpc.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_extra.py
+tests/test_input.py
