@@ -1,0 +1,59 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "copick-utils"
+version = "0.5.0"
+description = "Utilities for copick"
+readme = "README.md"
+license = "MIT"
+keywords = []
+authors = [
+  "Kyle Harrington <czi@kyleharrington.com>",
+  "Jonathan Schwartz <jonathan.schwartz@czii.org>"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+packages = [{ include = "copick_utils", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+copick = ">=0.8.0"
+
+[tool.poetry.urls]
+Documentation = "https://github.com/KyleHarrington/copick-utils#readme"
+Issues = "https://github.com/KyleHarrington/copick-utils/issues"
+Source = "https://github.com/KyleHarrington/copick-utils"
+
+[tool.poetry.scripts]
+# optional if you expose CLI commands
+# copick-utils = "copick_utils.cli:main"
+
+[tool.coverage.run]
+source_pkgs = ["copick_utils", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/copick_utils/__about__.py",
+]
+
+[tool.coverage.paths]
+copick_utils = ["src/copick_utils", "*/copick-utils/src/copick_utils"]
+tests = ["tests", "*/copick-utils/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
