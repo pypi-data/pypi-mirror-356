@@ -1,0 +1,348 @@
+o_code,d_code,o_name,d_name,year,item,weight
+106,3,Italy,Albania,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.42
+104,10,Ireland,Australia,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.0
+255,10,Belgium,Australia,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.86
+256,255,Luxembourg,Belgium,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.0
+256,255,Luxembourg,Belgium,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.86
+256,255,Luxembourg,Belgium,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.77
+256,255,Luxembourg,Belgium,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.22
+256,255,Luxembourg,Belgium,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+256,255,Luxembourg,Belgium,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+256,255,Luxembourg,Belgium,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+104,33,Ireland,Canada,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,49.38
+104,96,Ireland,"China, Hong Kong SAR",2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.0
+104,96,Ireland,"China, Hong Kong SAR",2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,40.29
+104,96,Ireland,"China, Hong Kong SAR",2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.05
+79,11,Germany,Austria,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.0
+79,11,Germany,Austria,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,12.0
+79,11,Germany,Austria,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,8.4
+79,11,Germany,Austria,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,11.4
+79,11,Germany,Austria,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.23
+79,11,Germany,Austria,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.24
+79,11,Germany,Austria,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+79,11,Germany,Austria,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.09
+79,11,Germany,Austria,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+79,11,Germany,Austria,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.06
+79,11,Germany,Austria,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.33
+79,11,Germany,Austria,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.24
+104,41,Ireland,"China, mainland",2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,50.65
+106,11,Italy,Austria,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.24
+106,11,Italy,Austria,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.96
+106,11,Italy,Austria,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.4
+106,11,Italy,Austria,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.44
+256,68,Luxembourg,France,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+256,68,Luxembourg,France,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.17
+256,68,Luxembourg,France,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+256,68,Luxembourg,France,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.3
+256,68,Luxembourg,France,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.36
+256,68,Luxembourg,France,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.1
+104,107,Ireland,Côte d'Ivoire,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.02
+104,107,Ireland,Côte d'Ivoire,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.98
+104,107,Ireland,Côte d'Ivoire,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,47.04
+104,54,Ireland,Denmark,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,225.25
+104,54,Ireland,Denmark,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,488.63
+104,54,Ireland,Denmark,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,139.62
+104,54,Ireland,Denmark,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,39.61
+255,32,Belgium,Cameroon,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.01
+255,32,Belgium,Cameroon,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,11.27
+256,79,Luxembourg,Germany,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.47
+256,79,Luxembourg,Germany,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.12
+256,79,Luxembourg,Germany,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.41
+256,79,Luxembourg,Germany,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.21
+256,79,Luxembourg,Germany,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.25
+256,79,Luxembourg,Germany,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.89
+104,68,Ireland,France,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,29.37
+104,68,Ireland,France,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.65
+104,68,Ireland,France,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,15.4
+104,68,Ireland,France,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.94
+11,98,Austria,Croatia,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.51
+11,98,Austria,Croatia,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+106,255,Italy,Belgium,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,255,Italy,Belgium,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.77
+79,255,Germany,Belgium,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+79,255,Germany,Belgium,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+79,255,Germany,Belgium,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+79,255,Germany,Belgium,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.26
+79,255,Germany,Belgium,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+79,255,Germany,Belgium,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.12
+104,79,Ireland,Germany,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,36.0
+104,79,Ireland,Germany,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.87
+104,79,Ireland,Germany,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,29.53
+104,79,Ireland,Germany,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,13.05
+255,107,Belgium,Côte d'Ivoire,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,27.0
+255,107,Belgium,Côte d'Ivoire,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,51.43
+255,107,Belgium,Côte d'Ivoire,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,51.09
+255,107,Belgium,Côte d'Ivoire,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,179.77
+255,107,Belgium,Côte d'Ivoire,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,625.81
+255,107,Belgium,Côte d'Ivoire,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,123.69
+11,167,Austria,Czechia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.2
+104,81,Ireland,Ghana,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.2
+104,81,Ireland,Ghana,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,50.0
+104,81,Ireland,Ghana,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,51.87
+255,167,Belgium,Czechia,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.3
+104,106,Ireland,Italy,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.95
+255,250,Belgium,Democratic Republic of the Congo,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.16
+106,27,Italy,Bulgaria,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.0
+106,27,Italy,Bulgaria,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,10.0
+106,27,Italy,Bulgaria,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.7
+106,27,Italy,Bulgaria,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.5
+106,27,Italy,Bulgaria,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.95
+106,27,Italy,Bulgaria,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.82
+106,27,Italy,Bulgaria,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.5
+104,110,Ireland,Japan,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,23.94
+106,33,Italy,Canada,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.85
+104,150,Ireland,Netherlands (Kingdom of the),2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,14.0
+104,150,Ireland,Netherlands (Kingdom of the),2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.3
+104,150,Ireland,Netherlands (Kingdom of the),2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,8.3
+104,150,Ireland,Netherlands (Kingdom of the),2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,71.98
+104,150,Ireland,Netherlands (Kingdom of the),2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,58.89
+104,150,Ireland,Netherlands (Kingdom of the),2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,36.28
+104,150,Ireland,Netherlands (Kingdom of the),2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.89
+255,67,Belgium,Finland,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+106,96,Italy,"China, Hong Kong SAR",2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.0
+11,79,Austria,Germany,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.0
+11,79,Austria,Germany,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.32
+11,79,Austria,Germany,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.4
+11,79,Austria,Germany,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.28
+11,79,Austria,Germany,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.24
+11,79,Austria,Germany,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.21
+11,79,Austria,Germany,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.33
+11,79,Austria,Germany,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.6
+11,79,Austria,Germany,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.06
+11,79,Austria,Germany,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.68
+255,68,Belgium,France,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.0
+255,68,Belgium,France,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.0
+255,68,Belgium,France,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.5
+255,68,Belgium,France,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.4
+255,68,Belgium,France,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.5
+255,68,Belgium,France,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,23.73
+255,68,Belgium,France,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.94
+255,68,Belgium,France,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.12
+255,68,Belgium,France,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.8
+255,68,Belgium,France,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.46
+255,68,Belgium,France,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.7
+255,68,Belgium,France,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,9.72
+104,171,Ireland,Philippines,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.35
+104,171,Ireland,Philippines,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,26.26
+106,46,Italy,Congo,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,13.58
+106,107,Italy,Côte d'Ivoire,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,15.01
+106,107,Italy,Côte d'Ivoire,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,16.25
+255,75,Belgium,Gambia,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,26.01
+104,185,Ireland,Russian Federation,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,50.0
+104,185,Ireland,Russian Federation,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,451.3
+255,79,Belgium,Germany,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,180.0
+255,79,Belgium,Germany,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,135.0
+255,79,Belgium,Germany,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,318.3
+255,79,Belgium,Germany,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,75.3
+255,79,Belgium,Germany,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.4
+255,79,Belgium,Germany,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+255,79,Belgium,Germany,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+255,79,Belgium,Germany,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,30.02
+255,79,Belgium,Germany,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,43.77
+255,79,Belgium,Germany,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,10.63
+11,97,Austria,Hungary,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.11
+11,97,Austria,Hungary,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+11,97,Austria,Hungary,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+11,97,Austria,Hungary,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+11,97,Austria,Hungary,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.87
+11,97,Austria,Hungary,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,15.02
+11,97,Austria,Hungary,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.17
+104,202,Ireland,South Africa,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.96
+104,202,Ireland,South Africa,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,20.51
+104,203,Ireland,Spain,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.09
+255,81,Belgium,Ghana,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,55.0
+255,81,Belgium,Ghana,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,177.27
+255,81,Belgium,Ghana,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,53.0
+106,167,Italy,Czechia,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.7
+106,167,Italy,Czechia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.6
+104,210,Ireland,Sweden,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.8
+104,210,Ireland,Sweden,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,18.5
+104,210,Ireland,Sweden,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,21.63
+104,210,Ireland,Sweden,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.61
+104,210,Ireland,Sweden,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.01
+11,104,Austria,Ireland,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,19.9
+106,54,Italy,Denmark,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,375.0
+106,54,Italy,Denmark,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,32.56
+106,54,Italy,Denmark,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.67
+106,54,Italy,Denmark,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,112.09
+106,54,Italy,Denmark,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,30.33
+79,167,Germany,Czechia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.24
+79,167,Germany,Czechia,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+79,167,Germany,Czechia,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.14
+79,167,Germany,Czechia,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.18
+79,167,Germany,Czechia,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.03
+79,167,Germany,Czechia,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+79,167,Germany,Czechia,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.51
+79,167,Germany,Czechia,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.84
+79,167,Germany,Czechia,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.55
+11,106,Austria,Italy,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+11,106,Austria,Italy,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+11,106,Austria,Italy,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.06
+11,106,Austria,Italy,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+11,106,Austria,Italy,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.23
+11,106,Austria,Italy,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.71
+11,106,Austria,Italy,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.51
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,516.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,578.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,129.3
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,328.04
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,405.18
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,149.43
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.61
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.75
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.61
+255,100,Belgium,India,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+79,54,Germany,Denmark,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.5
+104,231,Ireland,United States of America,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.06
+104,231,Ireland,United States of America,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.5
+104,231,Ireland,United States of America,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,56.46
+106,68,Italy,France,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.3
+106,68,Italy,France,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.94
+106,68,Italy,France,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.12
+79,63,Germany,Estonia,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+11,150,Austria,Netherlands (Kingdom of the),2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.25
+255,121,Belgium,Lebanon,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,39.53
+255,256,Belgium,Luxembourg,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.51
+255,256,Belgium,Luxembourg,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,9.6
+255,256,Belgium,Luxembourg,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.64
+255,256,Belgium,Luxembourg,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.08
+255,256,Belgium,Luxembourg,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+255,256,Belgium,Luxembourg,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.88
+255,256,Belgium,Luxembourg,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.57
+255,256,Belgium,Luxembourg,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.36
+255,256,Belgium,Luxembourg,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.63
+255,256,Belgium,Luxembourg,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.44
+106,79,Italy,Germany,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,11.0
+106,79,Italy,Germany,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,79,Italy,Germany,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.11
+106,79,Italy,Germany,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+106,79,Italy,Germany,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.59
+106,79,Italy,Germany,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.09
+106,79,Italy,Germany,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.5
+106,79,Italy,Germany,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.04
+106,79,Italy,Germany,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,31.27
+79,68,Germany,France,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+79,68,Germany,France,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+79,68,Germany,France,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+79,68,Germany,France,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+11,173,Austria,Poland,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,12.2
+106,84,Italy,Greece,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.17
+106,84,Italy,Greece,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.83
+255,150,Belgium,Netherlands (Kingdom of the),2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,19.0
+255,150,Belgium,Netherlands (Kingdom of the),2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,141.0
+255,150,Belgium,Netherlands (Kingdom of the),2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,124.8
+255,150,Belgium,Netherlands (Kingdom of the),2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,40.1
+255,150,Belgium,Netherlands (Kingdom of the),2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,21.4
+255,150,Belgium,Netherlands (Kingdom of the),2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,34.82
+255,150,Belgium,Netherlands (Kingdom of the),2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,30.55
+255,150,Belgium,Netherlands (Kingdom of the),2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,11.85
+255,150,Belgium,Netherlands (Kingdom of the),2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.64
+255,150,Belgium,Netherlands (Kingdom of the),2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,889.89
+255,150,Belgium,Netherlands (Kingdom of the),2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,1099.04
+255,150,Belgium,Netherlands (Kingdom of the),2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,1015.77
+106,90,Italy,Guinea,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.85
+106,97,Italy,Hungary,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.23
+11,199,Austria,Slovakia,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.21
+11,199,Austria,Slovakia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.53
+11,199,Austria,Slovakia,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.36
+11,199,Austria,Slovakia,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+11,199,Austria,Slovakia,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.12
+11,199,Austria,Slovakia,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+11,199,Austria,Slovakia,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.03
+11,199,Austria,Slovakia,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+11,198,Austria,Slovenia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+11,198,Austria,Slovenia,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+11,198,Austria,Slovenia,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+11,198,Austria,Slovenia,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+11,198,Austria,Slovenia,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+106,104,Italy,Ireland,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.0
+11,203,Austria,Spain,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.76
+11,203,Austria,Spain,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.76
+11,203,Austria,Spain,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,12.45
+106,110,Italy,Japan,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,22.63
+106,110,Italy,Japan,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,13.68
+79,104,Germany,Ireland,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,17.48
+79,104,Germany,Ireland,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,36.04
+79,104,Germany,Ireland,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,33.25
+79,104,Germany,Ireland,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,18.9
+255,195,Belgium,Senegal,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.01
+106,123,Italy,Liberia,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,75.0
+79,106,Germany,Italy,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,23.0
+79,106,Germany,Italy,2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,18.0
+79,106,Germany,Italy,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,16.0
+79,106,Germany,Italy,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,49.5
+79,106,Germany,Italy,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,44.34
+79,106,Germany,Italy,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,58.17
+79,106,Germany,Italy,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,41.98
+79,106,Germany,Italy,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,14.53
+79,106,Germany,Italy,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.31
+255,202,Belgium,South Africa,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.16
+106,131,Italy,Malaysia,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.07
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,134,Italy,Malta,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.0
+106,134,Italy,Malta,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,134,Italy,Malta,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.82
+106,134,Italy,Malta,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.85
+106,134,Italy,Malta,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,2.39
+106,134,Italy,Malta,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.47
+106,150,Italy,Netherlands (Kingdom of the),2013,edible_offal_of_buffalo_fresh_chilled_or_frozen,24.0
+106,150,Italy,Netherlands (Kingdom of the),2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,43.9
+106,150,Italy,Netherlands (Kingdom of the),2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,63.3
+106,150,Italy,Netherlands (Kingdom of the),2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.54
+106,150,Italy,Netherlands (Kingdom of the),2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,17.04
+106,150,Italy,Netherlands (Kingdom of the),2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,17.2
+106,150,Italy,Netherlands (Kingdom of the),2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.17
+106,150,Italy,Netherlands (Kingdom of the),2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.76
+255,225,Belgium,United Arab Emirates,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.36
+79,256,Germany,Luxembourg,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.81
+79,256,Germany,Luxembourg,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.03
+79,256,Germany,Luxembourg,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.76
+79,256,Germany,Luxembourg,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.23
+79,256,Germany,Luxembourg,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.21
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,5.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+106,165,Italy,Pakistan,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.09
+106,173,Italy,Poland,2012,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.0
+106,173,Italy,Poland,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.32
+106,173,Italy,Poland,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.5
+79,150,Germany,Netherlands (Kingdom of the),2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+79,150,Germany,Netherlands (Kingdom of the),2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.05
+79,150,Germany,Netherlands (Kingdom of the),2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+79,150,Germany,Netherlands (Kingdom of the),2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+79,150,Germany,Netherlands (Kingdom of the),2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+79,150,Germany,Netherlands (Kingdom of the),2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+106,183,Italy,Romania,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.02
+106,200,Italy,Singapore,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.24
+79,173,Germany,Poland,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.18
+79,173,Germany,Poland,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.1
+79,173,Germany,Poland,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.55
+79,173,Germany,Poland,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+79,173,Germany,Poland,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.33
+79,173,Germany,Poland,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,1.5
+106,203,Italy,Spain,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.7
+106,203,Italy,Spain,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,117.7
+106,203,Italy,Spain,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,138.41
+106,203,Italy,Spain,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,90.66
+106,203,Italy,Spain,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,71.8
+106,203,Italy,Spain,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,83.22
+106,203,Italy,Spain,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,190.09
+106,203,Italy,Spain,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,279.51
+106,203,Italy,Spain,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,282.52
+106,203,Italy,Spain,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,349.04
+106,210,Italy,Sweden,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,222,Italy,Tunisia,2015,edible_offal_of_buffalo_fresh_chilled_or_frozen,3.9
+106,225,Italy,United Arab Emirates,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.17
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2016,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.41
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2017,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.77
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.34
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.34
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2020,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.04
+106,231,Italy,United States of America,2021,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.01
+106,231,Italy,United States of America,2022,edible_offal_of_buffalo_fresh_chilled_or_frozen,6.51
+106,231,Italy,United States of America,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,4.23
+106,237,Italy,Viet Nam,2018,edible_offal_of_buffalo_fresh_chilled_or_frozen,47.79
+106,237,Italy,Viet Nam,2019,edible_offal_of_buffalo_fresh_chilled_or_frozen,75.14
+106,237,Italy,Viet Nam,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,25.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2014,edible_offal_of_buffalo_fresh_chilled_or_frozen,7.9
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2023,edible_offal_of_buffalo_fresh_chilled_or_frozen,0.45

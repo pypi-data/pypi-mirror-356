@@ -1,0 +1,736 @@
+o_code,d_code,o_name,d_name,year,item,weight
+195,3,Senegal,Albania,2013,lupins,12.0
+206,59,Sudan (former),Egypt,2008,lupins,125.0
+206,59,Sudan (former),Egypt,2009,lupins,361.0
+10,9,Australia,Argentina,1995,lupins,118.0
+10,9,Australia,Argentina,1998,lupins,22.0
+10,9,Australia,Argentina,1999,lupins,119.0
+147,7,Namibia,Angola,1999,lupins,13.0
+147,7,Namibia,Angola,2000,lupins,25.0
+147,7,Namibia,Angola,2001,lupins,1.0
+147,7,Namibia,Angola,2018,lupins,12.57
+147,7,Namibia,Angola,2019,lupins,0.25
+147,7,Namibia,Angola,2021,lupins,20.25
+147,7,Namibia,Angola,2023,lupins,0.1
+186,80,Serbia and Montenegro,Bosnia and Herzegovina,2000,lupins,3.0
+40,9,Chile,Argentina,2001,lupins,94.0
+40,9,Chile,Argentina,2003,lupins,46.0
+40,9,Chile,Argentina,2004,lupins,63.0
+40,9,Chile,Argentina,2005,lupins,8.0
+40,9,Chile,Argentina,2015,lupins,51.0
+40,9,Chile,Argentina,2022,lupins,39.0
+206,179,Sudan (former),Qatar,2009,lupins,20.0
+206,194,Sudan (former),Saudi Arabia,2008,lupins,20.0
+214,10,"China, Taiwan Province of",Australia,2000,lupins,25.0
+147,20,Namibia,Botswana,2020,lupins,2.0
+147,20,Namibia,Botswana,2021,lupins,2.1
+206,225,Sudan (former),United Arab Emirates,2008,lupins,127.0
+206,225,Sudan (former),United Arab Emirates,2009,lupins,272.0
+10,13,Australia,Bahrain,1988,lupins,60.0
+10,13,Australia,Bahrain,1989,lupins,181.0
+10,13,Australia,Bahrain,1990,lupins,120.0
+10,13,Australia,Bahrain,1995,lupins,121.0
+10,13,Australia,Bahrain,1997,lupins,19.0
+10,13,Australia,Bahrain,1998,lupins,41.0
+10,13,Australia,Bahrain,1999,lupins,156.0
+40,10,Chile,Australia,2001,lupins,20.0
+10,16,Australia,Bangladesh,1991,lupins,21.0
+10,16,Australia,Bangladesh,1995,lupins,325.0
+10,16,Australia,Bangladesh,1997,lupins,3805.0
+10,16,Australia,Bangladesh,1998,lupins,2816.0
+10,16,Australia,Bangladesh,1999,lupins,935.0
+238,72,Ethiopia,Djibouti,2008,lupins,534.0
+40,13,Chile,Bahrain,2020,lupins,23.0
+147,250,Namibia,Democratic Republic of the Congo,2017,lupins,5.0
+186,154,Serbia and Montenegro,North Macedonia,2000,lupins,294.0
+113,108,Kyrgyzstan,Kazakhstan,2002,lupins,150.0
+113,108,Kyrgyzstan,Kazakhstan,2003,lupins,250.0
+10,15,Australia,Belgium-Luxembourg,1986,lupins,21.0
+10,15,Australia,Belgium-Luxembourg,1988,lupins,7159.0
+10,15,Australia,Belgium-Luxembourg,1995,lupins,211.0
+10,15,Australia,Belgium-Luxembourg,1997,lupins,86.0
+10,15,Australia,Belgium-Luxembourg,1998,lupins,86.0
+10,15,Australia,Belgium-Luxembourg,1999,lupins,487.0
+226,100,Uganda,India,2013,lupins,1.0
+147,79,Namibia,Germany,2022,lupins,0.05
+147,106,Namibia,Italy,1997,lupins,38.0
+147,106,Namibia,Italy,1998,lupins,38.0
+10,26,Australia,Brunei Darussalam,1995,lupins,46.0
+10,26,Australia,Brunei Darussalam,1997,lupins,63.0
+10,26,Australia,Brunei Darussalam,1998,lupins,28.0
+10,26,Australia,Brunei Darussalam,1999,lupins,572.0
+40,21,Chile,Brazil,1999,lupins,142.0
+40,21,Chile,Brazil,2000,lupins,135.0
+40,21,Chile,Brazil,2001,lupins,154.0
+40,21,Chile,Brazil,2005,lupins,2.0
+40,21,Chile,Brazil,2006,lupins,23.0
+40,21,Chile,Brazil,2007,lupins,2.0
+40,21,Chile,Brazil,2008,lupins,22.0
+40,21,Chile,Brazil,2011,lupins,23.0
+147,150,Namibia,Netherlands (Kingdom of the),2019,lupins,0.95
+130,215,Malawi,United Republic of Tanzania,2008,lupins,2.0
+147,162,Namibia,Norway,2023,lupins,0.1
+195,79,Senegal,Germany,2012,lupins,7.0
+40,33,Chile,Canada,1999,lupins,40.0
+40,33,Chile,Canada,2000,lupins,21.0
+40,33,Chile,Canada,2004,lupins,21.0
+40,33,Chile,Canada,2005,lupins,88.0
+40,33,Chile,Canada,2006,lupins,130.0
+40,33,Chile,Canada,2007,lupins,172.0
+40,33,Chile,Canada,2008,lupins,86.0
+40,33,Chile,Canada,2009,lupins,64.0
+40,33,Chile,Canada,2010,lupins,102.0
+40,33,Chile,Canada,2011,lupins,84.0
+40,33,Chile,Canada,2012,lupins,107.0
+40,33,Chile,Canada,2013,lupins,85.0
+40,33,Chile,Canada,2014,lupins,107.08
+40,33,Chile,Canada,2015,lupins,192.2
+40,33,Chile,Canada,2016,lupins,135.55
+40,33,Chile,Canada,2017,lupins,129.0
+40,33,Chile,Canada,2018,lupins,144.0
+40,33,Chile,Canada,2019,lupins,82.63
+40,33,Chile,Canada,2020,lupins,144.5
+40,33,Chile,Canada,2021,lupins,55.0
+40,33,Chile,Canada,2022,lupins,106.27
+10,33,Australia,Canada,1992,lupins,20.0
+147,202,Namibia,South Africa,1997,lupins,268.0
+147,202,Namibia,South Africa,1998,lupins,612.0
+147,202,Namibia,South Africa,2000,lupins,13.0
+147,202,Namibia,South Africa,2001,lupins,37.0
+147,202,Namibia,South Africa,2003,lupins,20.0
+147,202,Namibia,South Africa,2019,lupins,21.78
+147,202,Namibia,South Africa,2021,lupins,34.0
+147,202,Namibia,South Africa,2022,lupins,10.0
+147,202,Namibia,South Africa,2023,lupins,33.46
+113,235,Kyrgyzstan,Uzbekistan,1998,lupins,40.0
+40,214,Chile,"China, Taiwan Province of",2001,lupins,21.0
+10,96,Australia,"China, Hong Kong SAR",1995,lupins,541.0
+10,96,Australia,"China, Hong Kong SAR",1997,lupins,1404.0
+10,96,Australia,"China, Hong Kong SAR",1998,lupins,321.0
+10,96,Australia,"China, Hong Kong SAR",1999,lupins,679.0
+195,133,Senegal,Mali,2013,lupins,8.0
+10,128,Australia,"China, Macao SAR",1995,lupins,64.0
+10,128,Australia,"China, Macao SAR",1997,lupins,153.0
+10,128,Australia,"China, Macao SAR",1998,lupins,309.0
+10,128,Australia,"China, Macao SAR",1999,lupins,159.0
+40,56,Chile,Dominican Republic,1999,lupins,172.0
+40,56,Chile,Dominican Republic,2000,lupins,49.0
+10,41,Australia,"China, mainland",1995,lupins,20.0
+10,41,Australia,"China, mainland",1997,lupins,272.0
+10,41,Australia,"China, mainland",1998,lupins,105.0
+10,41,Australia,"China, mainland",1999,lupins,119.0
+40,58,Chile,Ecuador,2022,lupins,144.0
+40,59,Chile,Egypt,1999,lupins,4391.0
+40,59,Chile,Egypt,2000,lupins,5907.0
+40,59,Chile,Egypt,2001,lupins,6393.0
+40,59,Chile,Egypt,2003,lupins,4345.0
+40,59,Chile,Egypt,2004,lupins,5416.0
+40,59,Chile,Egypt,2005,lupins,13650.0
+40,59,Chile,Egypt,2006,lupins,8075.0
+40,59,Chile,Egypt,2007,lupins,8025.0
+40,59,Chile,Egypt,2008,lupins,7168.0
+40,59,Chile,Egypt,2009,lupins,7503.0
+40,59,Chile,Egypt,2010,lupins,2130.0
+40,59,Chile,Egypt,2011,lupins,5344.0
+40,59,Chile,Egypt,2012,lupins,6014.0
+40,59,Chile,Egypt,2013,lupins,3136.0
+40,59,Chile,Egypt,2014,lupins,1063.75
+40,59,Chile,Egypt,2015,lupins,1426.42
+40,59,Chile,Egypt,2016,lupins,613.0
+40,59,Chile,Egypt,2017,lupins,870.0
+40,59,Chile,Egypt,2018,lupins,6539.51
+40,59,Chile,Egypt,2019,lupins,10056.48
+40,59,Chile,Egypt,2020,lupins,10596.9
+40,59,Chile,Egypt,2021,lupins,7977.12
+40,59,Chile,Egypt,2022,lupins,2671.03
+40,63,Chile,Estonia,2001,lupins,42.0
+40,68,Chile,France,1999,lupins,20.0
+40,68,Chile,France,2000,lupins,20.0
+40,68,Chile,France,2005,lupins,22.0
+40,68,Chile,France,2021,lupins,75.0
+10,214,Australia,"China, Taiwan Province of",1988,lupins,213.0
+10,214,Australia,"China, Taiwan Province of",1989,lupins,988.0
+10,214,Australia,"China, Taiwan Province of",1990,lupins,1141.0
+10,214,Australia,"China, Taiwan Province of",1991,lupins,20.0
+10,214,Australia,"China, Taiwan Province of",1995,lupins,1221.0
+10,214,Australia,"China, Taiwan Province of",1997,lupins,4029.0
+10,214,Australia,"China, Taiwan Province of",1998,lupins,6279.0
+10,214,Australia,"China, Taiwan Province of",1999,lupins,14987.0
+10,44,Australia,Colombia,1999,lupins,40.0
+40,79,Chile,Germany,2001,lupins,23.0
+40,79,Chile,Germany,2003,lupins,26.0
+40,79,Chile,Germany,2004,lupins,78.0
+40,79,Chile,Germany,2005,lupins,70.0
+40,79,Chile,Germany,2008,lupins,50.0
+40,79,Chile,Germany,2016,lupins,18.0
+40,84,Chile,Greece,1999,lupins,22.0
+40,84,Chile,Greece,2000,lupins,43.0
+40,84,Chile,Greece,2001,lupins,43.0
+40,84,Chile,Greece,2003,lupins,22.0
+40,84,Chile,Greece,2004,lupins,23.0
+40,84,Chile,Greece,2005,lupins,23.0
+40,84,Chile,Greece,2006,lupins,46.0
+40,84,Chile,Greece,2007,lupins,23.0
+40,84,Chile,Greece,2008,lupins,23.0
+40,84,Chile,Greece,2009,lupins,24.0
+40,84,Chile,Greece,2010,lupins,20.0
+40,84,Chile,Greece,2011,lupins,22.0
+40,84,Chile,Greece,2012,lupins,23.0
+40,84,Chile,Greece,2013,lupins,23.0
+40,84,Chile,Greece,2014,lupins,23.0
+40,84,Chile,Greece,2015,lupins,23.0
+40,84,Chile,Greece,2016,lupins,22.0
+40,84,Chile,Greece,2017,lupins,22.0
+40,84,Chile,Greece,2018,lupins,22.0
+40,84,Chile,Greece,2019,lupins,22.0
+40,84,Chile,Greece,2020,lupins,23.0
+40,84,Chile,Greece,2021,lupins,20.0
+40,84,Chile,Greece,2022,lupins,22.0
+10,50,Australia,Cyprus,1997,lupins,55.0
+40,91,Chile,Guyana,1999,lupins,22.0
+40,91,Chile,Guyana,2000,lupins,22.0
+10,54,Australia,Denmark,1987,lupins,255.0
+10,72,Australia,Djibouti,1999,lupins,43.0
+10,59,Australia,Egypt,1990,lupins,831.0
+10,59,Australia,Egypt,1991,lupins,1636.0
+10,59,Australia,Egypt,1992,lupins,2366.0
+10,59,Australia,Egypt,1993,lupins,5891.0
+10,59,Australia,Egypt,1998,lupins,425.0
+10,59,Australia,Egypt,1999,lupins,1840.0
+40,101,Chile,Indonesia,2001,lupins,60.0
+40,105,Chile,Israel,1999,lupins,298.0
+40,105,Chile,Israel,2000,lupins,993.0
+40,105,Chile,Israel,2001,lupins,349.0
+40,105,Chile,Israel,2003,lupins,346.0
+40,105,Chile,Israel,2004,lupins,188.0
+40,105,Chile,Israel,2005,lupins,663.0
+40,105,Chile,Israel,2006,lupins,1214.0
+40,105,Chile,Israel,2007,lupins,1039.0
+40,105,Chile,Israel,2008,lupins,1293.0
+40,105,Chile,Israel,2009,lupins,1425.0
+40,105,Chile,Israel,2010,lupins,1390.0
+40,105,Chile,Israel,2011,lupins,1431.0
+40,105,Chile,Israel,2012,lupins,384.0
+40,105,Chile,Israel,2013,lupins,1188.0
+40,105,Chile,Israel,2014,lupins,934.75
+40,105,Chile,Israel,2015,lupins,791.52
+40,105,Chile,Israel,2016,lupins,1610.04
+40,105,Chile,Israel,2017,lupins,1628.5
+40,105,Chile,Israel,2018,lupins,1274.55
+40,105,Chile,Israel,2019,lupins,2094.43
+40,105,Chile,Israel,2020,lupins,1479.03
+40,105,Chile,Israel,2021,lupins,1216.36
+40,105,Chile,Israel,2022,lupins,827.0
+40,106,Chile,Italy,1999,lupins,140.0
+40,106,Chile,Italy,2000,lupins,239.0
+40,106,Chile,Italy,2001,lupins,301.0
+40,106,Chile,Italy,2003,lupins,95.0
+40,106,Chile,Italy,2004,lupins,457.0
+40,106,Chile,Italy,2005,lupins,1688.0
+40,106,Chile,Italy,2006,lupins,1623.0
+40,106,Chile,Italy,2007,lupins,885.0
+40,106,Chile,Italy,2008,lupins,673.0
+40,106,Chile,Italy,2009,lupins,1194.0
+40,106,Chile,Italy,2010,lupins,993.0
+40,106,Chile,Italy,2011,lupins,1157.0
+40,106,Chile,Italy,2012,lupins,1386.0
+40,106,Chile,Italy,2013,lupins,955.0
+40,106,Chile,Italy,2014,lupins,752.38
+40,106,Chile,Italy,2015,lupins,773.0
+40,106,Chile,Italy,2016,lupins,1015.98
+40,106,Chile,Italy,2017,lupins,1756.2
+40,106,Chile,Italy,2018,lupins,1030.35
+40,106,Chile,Italy,2019,lupins,1179.2
+40,106,Chile,Italy,2020,lupins,828.35
+40,106,Chile,Italy,2021,lupins,1158.0
+40,106,Chile,Italy,2022,lupins,1331.75
+10,66,Australia,Fiji,1987,lupins,5.0
+10,66,Australia,Fiji,1995,lupins,3.0
+10,66,Australia,Fiji,1997,lupins,612.0
+10,66,Australia,Fiji,1998,lupins,156.0
+10,66,Australia,Fiji,1999,lupins,37.0
+40,110,Chile,Japan,1999,lupins,21.0
+40,110,Chile,Japan,2000,lupins,410.0
+40,110,Chile,Japan,2001,lupins,1673.0
+40,112,Chile,Jordan,1999,lupins,42.0
+40,112,Chile,Jordan,2000,lupins,254.0
+40,112,Chile,Jordan,2001,lupins,105.0
+40,112,Chile,Jordan,2003,lupins,146.0
+40,112,Chile,Jordan,2004,lupins,21.0
+40,112,Chile,Jordan,2005,lupins,42.0
+40,112,Chile,Jordan,2006,lupins,548.0
+40,112,Chile,Jordan,2007,lupins,311.0
+40,112,Chile,Jordan,2008,lupins,174.0
+40,112,Chile,Jordan,2009,lupins,228.0
+40,112,Chile,Jordan,2010,lupins,64.0
+40,112,Chile,Jordan,2011,lupins,132.0
+40,112,Chile,Jordan,2013,lupins,23.0
+40,112,Chile,Jordan,2014,lupins,44.0
+40,112,Chile,Jordan,2016,lupins,129.0
+40,112,Chile,Jordan,2017,lupins,134.5
+40,112,Chile,Jordan,2018,lupins,160.0
+40,112,Chile,Jordan,2019,lupins,112.0
+40,112,Chile,Jordan,2020,lupins,452.04
+40,112,Chile,Jordan,2021,lupins,363.5
+40,112,Chile,Jordan,2022,lupins,336.73
+40,118,Chile,Kuwait,2003,lupins,22.0
+40,118,Chile,Kuwait,2004,lupins,21.0
+40,118,Chile,Kuwait,2005,lupins,43.0
+40,118,Chile,Kuwait,2007,lupins,22.0
+40,118,Chile,Kuwait,2008,lupins,23.0
+40,118,Chile,Kuwait,2009,lupins,22.0
+40,118,Chile,Kuwait,2011,lupins,23.0
+40,118,Chile,Kuwait,2012,lupins,19.0
+40,118,Chile,Kuwait,2013,lupins,22.0
+40,118,Chile,Kuwait,2014,lupins,23.0
+40,118,Chile,Kuwait,2015,lupins,23.0
+40,118,Chile,Kuwait,2016,lupins,46.0
+40,118,Chile,Kuwait,2017,lupins,23.0
+40,118,Chile,Kuwait,2019,lupins,23.0
+40,118,Chile,Kuwait,2020,lupins,46.0
+40,118,Chile,Kuwait,2021,lupins,46.0
+40,121,Chile,Lebanon,1999,lupins,126.0
+40,121,Chile,Lebanon,2000,lupins,279.0
+40,121,Chile,Lebanon,2001,lupins,948.0
+40,121,Chile,Lebanon,2003,lupins,182.0
+40,121,Chile,Lebanon,2004,lupins,421.0
+40,121,Chile,Lebanon,2005,lupins,729.0
+40,121,Chile,Lebanon,2006,lupins,895.0
+40,121,Chile,Lebanon,2007,lupins,902.0
+40,121,Chile,Lebanon,2008,lupins,441.0
+40,121,Chile,Lebanon,2009,lupins,1002.0
+40,121,Chile,Lebanon,2010,lupins,915.0
+40,121,Chile,Lebanon,2011,lupins,1150.0
+40,121,Chile,Lebanon,2012,lupins,518.0
+40,121,Chile,Lebanon,2013,lupins,887.0
+40,121,Chile,Lebanon,2014,lupins,497.6
+40,121,Chile,Lebanon,2015,lupins,868.0
+40,121,Chile,Lebanon,2016,lupins,688.0
+40,121,Chile,Lebanon,2017,lupins,1205.09
+40,121,Chile,Lebanon,2018,lupins,1027.28
+40,121,Chile,Lebanon,2019,lupins,1079.56
+40,121,Chile,Lebanon,2020,lupins,552.0
+40,121,Chile,Lebanon,2021,lupins,768.0
+40,121,Chile,Lebanon,2022,lupins,660.5
+10,68,Australia,France,1987,lupins,15750.0
+40,136,Chile,Mauritania,1999,lupins,22.0
+10,70,Australia,French Polynesia,1995,lupins,860.0
+10,70,Australia,French Polynesia,1997,lupins,729.0
+10,70,Australia,French Polynesia,1998,lupins,195.0
+10,70,Australia,French Polynesia,1999,lupins,292.0
+40,144,Chile,Mozambique,2007,lupins,22.0
+10,79,Australia,Germany,1992,lupins,16275.0
+10,79,Australia,Germany,1998,lupins,43.0
+10,79,Australia,Germany,1999,lupins,65.0
+221,249,Oman,Yemen,2001,lupins,8.0
+10,84,Australia,Greece,1990,lupins,21.0
+10,84,Australia,Greece,1991,lupins,22.0
+10,84,Australia,Greece,1995,lupins,124.0
+40,169,Chile,Paraguay,2016,lupins,0.39
+40,169,Chile,Paraguay,2017,lupins,0.21
+40,169,Chile,Paraguay,2018,lupins,0.19
+40,169,Chile,Paraguay,2019,lupins,0.19
+40,169,Chile,Paraguay,2020,lupins,0.14
+10,100,Australia,India,1986,lupins,336.0
+10,100,Australia,India,1988,lupins,950.0
+10,100,Australia,India,1989,lupins,950.0
+10,100,Australia,India,1992,lupins,253.0
+10,100,Australia,India,1997,lupins,7.0
+40,170,Chile,Peru,2000,lupins,4.0
+40,170,Chile,Peru,2001,lupins,42.0
+40,170,Chile,Peru,2004,lupins,2.0
+40,170,Chile,Peru,2006,lupins,23.0
+40,174,Chile,Portugal,1999,lupins,2186.0
+40,174,Chile,Portugal,2000,lupins,2569.0
+40,174,Chile,Portugal,2001,lupins,1025.0
+40,174,Chile,Portugal,2003,lupins,1702.0
+40,174,Chile,Portugal,2004,lupins,2076.0
+40,174,Chile,Portugal,2005,lupins,2093.0
+40,174,Chile,Portugal,2006,lupins,3241.0
+40,174,Chile,Portugal,2007,lupins,2398.0
+40,174,Chile,Portugal,2008,lupins,3074.0
+40,174,Chile,Portugal,2009,lupins,2115.0
+40,174,Chile,Portugal,2010,lupins,4040.0
+40,174,Chile,Portugal,2011,lupins,2443.0
+40,174,Chile,Portugal,2012,lupins,3053.0
+40,174,Chile,Portugal,2013,lupins,2953.0
+40,174,Chile,Portugal,2014,lupins,2890.35
+40,174,Chile,Portugal,2015,lupins,2667.78
+40,174,Chile,Portugal,2016,lupins,3345.88
+40,174,Chile,Portugal,2017,lupins,3805.28
+40,174,Chile,Portugal,2018,lupins,3487.0
+40,174,Chile,Portugal,2019,lupins,2231.76
+40,174,Chile,Portugal,2020,lupins,2809.08
+40,174,Chile,Portugal,2021,lupins,3146.19
+40,174,Chile,Portugal,2022,lupins,3313.37
+40,179,Chile,Qatar,2020,lupins,26.0
+10,101,Australia,Indonesia,1988,lupins,5701.0
+10,101,Australia,Indonesia,1989,lupins,9837.0
+10,101,Australia,Indonesia,1990,lupins,9313.0
+10,101,Australia,Indonesia,1991,lupins,4812.0
+10,101,Australia,Indonesia,1992,lupins,3560.0
+10,101,Australia,Indonesia,1993,lupins,3343.0
+10,101,Australia,Indonesia,1995,lupins,2641.0
+10,101,Australia,Indonesia,1997,lupins,3461.0
+10,101,Australia,Indonesia,1998,lupins,70.0
+10,101,Australia,Indonesia,1999,lupins,2219.0
+40,117,Chile,Republic of Korea,2000,lupins,807.0
+40,117,Chile,Republic of Korea,2001,lupins,85.0
+40,194,Chile,Saudi Arabia,1999,lupins,20.0
+40,194,Chile,Saudi Arabia,2000,lupins,41.0
+40,194,Chile,Saudi Arabia,2001,lupins,87.0
+40,194,Chile,Saudi Arabia,2003,lupins,44.0
+40,194,Chile,Saudi Arabia,2005,lupins,43.0
+40,194,Chile,Saudi Arabia,2006,lupins,131.0
+40,194,Chile,Saudi Arabia,2007,lupins,221.0
+40,194,Chile,Saudi Arabia,2008,lupins,88.0
+40,194,Chile,Saudi Arabia,2009,lupins,68.0
+40,194,Chile,Saudi Arabia,2010,lupins,114.0
+40,194,Chile,Saudi Arabia,2011,lupins,248.0
+40,194,Chile,Saudi Arabia,2012,lupins,135.0
+40,194,Chile,Saudi Arabia,2013,lupins,45.0
+40,194,Chile,Saudi Arabia,2014,lupins,22.99
+40,194,Chile,Saudi Arabia,2015,lupins,91.19
+40,194,Chile,Saudi Arabia,2021,lupins,24.0
+40,194,Chile,Saudi Arabia,2022,lupins,48.8
+40,202,Chile,South Africa,1999,lupins,59.0
+40,202,Chile,South Africa,2000,lupins,21.0
+40,202,Chile,South Africa,2001,lupins,22.0
+40,202,Chile,South Africa,2005,lupins,21.0
+40,202,Chile,South Africa,2006,lupins,21.0
+40,202,Chile,South Africa,2008,lupins,22.0
+40,202,Chile,South Africa,2009,lupins,22.0
+40,202,Chile,South Africa,2010,lupins,22.0
+40,202,Chile,South Africa,2011,lupins,66.0
+40,202,Chile,South Africa,2013,lupins,22.0
+40,202,Chile,South Africa,2015,lupins,23.0
+40,202,Chile,South Africa,2016,lupins,18.36
+40,202,Chile,South Africa,2018,lupins,31.0
+40,202,Chile,South Africa,2019,lupins,30.5
+40,202,Chile,South Africa,2022,lupins,23.0
+40,203,Chile,Spain,1999,lupins,1401.0
+40,203,Chile,Spain,2000,lupins,1541.0
+40,203,Chile,Spain,2001,lupins,1114.0
+40,203,Chile,Spain,2003,lupins,754.0
+40,203,Chile,Spain,2004,lupins,1197.0
+40,203,Chile,Spain,2005,lupins,1633.0
+40,203,Chile,Spain,2006,lupins,1707.0
+40,203,Chile,Spain,2007,lupins,1267.0
+40,203,Chile,Spain,2008,lupins,1472.0
+40,203,Chile,Spain,2009,lupins,1203.0
+40,203,Chile,Spain,2010,lupins,2585.0
+40,203,Chile,Spain,2011,lupins,1840.0
+40,203,Chile,Spain,2012,lupins,1818.0
+40,203,Chile,Spain,2013,lupins,1855.0
+40,203,Chile,Spain,2014,lupins,1654.47
+40,203,Chile,Spain,2015,lupins,1369.6
+40,203,Chile,Spain,2016,lupins,1295.1
+40,203,Chile,Spain,2017,lupins,1152.39
+40,203,Chile,Spain,2018,lupins,1085.19
+40,203,Chile,Spain,2019,lupins,2595.18
+40,203,Chile,Spain,2020,lupins,1602.02
+40,203,Chile,Spain,2021,lupins,1638.01
+40,203,Chile,Spain,2022,lupins,2043.79
+10,105,Australia,Israel,1986,lupins,4994.0
+10,105,Australia,Israel,1987,lupins,6002.0
+10,105,Australia,Israel,1988,lupins,923.0
+10,105,Australia,Israel,1989,lupins,336.0
+10,105,Australia,Israel,1990,lupins,777.0
+10,105,Australia,Israel,1991,lupins,323.0
+10,105,Australia,Israel,1992,lupins,108.0
+10,105,Australia,Israel,1993,lupins,108.0
+10,105,Australia,Israel,1997,lupins,22.0
+10,105,Australia,Israel,1999,lupins,731.0
+40,210,Chile,Sweden,2001,lupins,42.0
+10,106,Australia,Italy,1987,lupins,13652.0
+10,106,Australia,Italy,1988,lupins,10500.0
+10,106,Australia,Italy,1990,lupins,22.0
+10,106,Australia,Italy,1991,lupins,5000.0
+10,106,Australia,Italy,1993,lupins,345.0
+10,106,Australia,Italy,1995,lupins,835.0
+10,106,Australia,Italy,1997,lupins,110.0
+10,106,Australia,Italy,1998,lupins,258.0
+10,106,Australia,Italy,1999,lupins,51.0
+40,212,Chile,Syrian Arab Republic,2007,lupins,23.0
+40,223,Chile,Türkiye,2018,lupins,115.0
+40,225,Chile,United Arab Emirates,2000,lupins,42.0
+40,225,Chile,United Arab Emirates,2001,lupins,109.0
+40,225,Chile,United Arab Emirates,2003,lupins,22.0
+40,225,Chile,United Arab Emirates,2004,lupins,22.0
+40,225,Chile,United Arab Emirates,2005,lupins,116.0
+40,225,Chile,United Arab Emirates,2006,lupins,86.0
+40,225,Chile,United Arab Emirates,2007,lupins,68.0
+40,225,Chile,United Arab Emirates,2008,lupins,88.0
+40,225,Chile,United Arab Emirates,2009,lupins,153.0
+40,225,Chile,United Arab Emirates,2010,lupins,92.0
+40,225,Chile,United Arab Emirates,2011,lupins,69.0
+40,225,Chile,United Arab Emirates,2012,lupins,65.0
+40,225,Chile,United Arab Emirates,2013,lupins,130.0
+40,225,Chile,United Arab Emirates,2014,lupins,88.0
+40,225,Chile,United Arab Emirates,2015,lupins,92.01
+40,225,Chile,United Arab Emirates,2017,lupins,69.0
+40,225,Chile,United Arab Emirates,2018,lupins,92.0
+40,225,Chile,United Arab Emirates,2019,lupins,69.0
+40,225,Chile,United Arab Emirates,2020,lupins,23.0
+40,225,Chile,United Arab Emirates,2021,lupins,91.78
+40,225,Chile,United Arab Emirates,2022,lupins,23.0
+10,110,Australia,Japan,1986,lupins,100131.0
+10,110,Australia,Japan,1987,lupins,98804.0
+10,110,Australia,Japan,1988,lupins,123057.0
+10,110,Australia,Japan,1989,lupins,139510.0
+10,110,Australia,Japan,1990,lupins,104468.0
+10,110,Australia,Japan,1991,lupins,118845.0
+10,110,Australia,Japan,1992,lupins,124254.0
+10,110,Australia,Japan,1993,lupins,69900.0
+10,110,Australia,Japan,1995,lupins,146475.0
+10,110,Australia,Japan,1997,lupins,255812.0
+10,110,Australia,Japan,1998,lupins,264473.0
+10,110,Australia,Japan,1999,lupins,380238.0
+10,112,Australia,Jordan,1986,lupins,124.0
+10,112,Australia,Jordan,1987,lupins,231.0
+10,112,Australia,Jordan,1988,lupins,442.0
+10,112,Australia,Jordan,1989,lupins,62399.0
+10,112,Australia,Jordan,1990,lupins,295.0
+10,112,Australia,Jordan,1991,lupins,237.0
+10,112,Australia,Jordan,1992,lupins,194.0
+10,112,Australia,Jordan,1993,lupins,344.0
+10,112,Australia,Jordan,1999,lupins,2600.0
+10,83,Australia,Kiribati,1998,lupins,4.0
+40,231,Chile,United States of America,1999,lupins,41.0
+40,231,Chile,United States of America,2000,lupins,21.0
+40,231,Chile,United States of America,2001,lupins,481.0
+40,231,Chile,United States of America,2003,lupins,65.0
+40,231,Chile,United States of America,2004,lupins,44.0
+40,231,Chile,United States of America,2008,lupins,61.0
+40,231,Chile,United States of America,2009,lupins,63.0
+40,231,Chile,United States of America,2010,lupins,42.0
+40,231,Chile,United States of America,2011,lupins,38.0
+40,231,Chile,United States of America,2012,lupins,24.0
+40,231,Chile,United States of America,2013,lupins,2.0
+40,231,Chile,United States of America,2014,lupins,39.2
+40,231,Chile,United States of America,2015,lupins,64.0
+40,231,Chile,United States of America,2016,lupins,142.2
+40,231,Chile,United States of America,2017,lupins,105.2
+40,231,Chile,United States of America,2018,lupins,105.2
+40,231,Chile,United States of America,2019,lupins,148.03
+40,231,Chile,United States of America,2020,lupins,127.13
+40,231,Chile,United States of America,2021,lupins,181.32
+40,231,Chile,United States of America,2022,lupins,211.2
+10,118,Australia,Kuwait,1986,lupins,20.0
+10,118,Australia,Kuwait,1988,lupins,21.0
+10,118,Australia,Kuwait,1989,lupins,42.0
+10,118,Australia,Kuwait,1990,lupins,149.0
+10,118,Australia,Kuwait,1992,lupins,47.0
+10,118,Australia,Kuwait,1993,lupins,133.0
+10,118,Australia,Kuwait,1997,lupins,1521.0
+10,118,Australia,Kuwait,1999,lupins,12.0
+11,97,Austria,Hungary,1994,lupins,1.0
+40,234,Chile,Uruguay,1999,lupins,1.0
+40,234,Chile,Uruguay,2001,lupins,10.0
+40,234,Chile,Uruguay,2017,lupins,4.0
+10,124,Australia,Libya,1998,lupins,345.0
+40,236,Chile,Venezuela (Bolivarian Republic of),1999,lupins,99.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2000,lupins,117.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2001,lupins,86.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2003,lupins,40.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2004,lupins,67.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2005,lupins,97.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2006,lupins,22.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2007,lupins,65.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2008,lupins,64.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2009,lupins,45.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2011,lupins,106.0
+40,236,Chile,Venezuela (Bolivarian Republic of),2012,lupins,46.0
+10,131,Australia,Malaysia,1986,lupins,2.0
+10,131,Australia,Malaysia,1987,lupins,2.0
+10,131,Australia,Malaysia,1989,lupins,259.0
+10,131,Australia,Malaysia,1995,lupins,1720.0
+10,131,Australia,Malaysia,1997,lupins,2974.0
+10,131,Australia,Malaysia,1998,lupins,1980.0
+10,131,Australia,Malaysia,1999,lupins,1112.0
+10,134,Australia,Malta,1998,lupins,118.0
+10,134,Australia,Malta,1999,lupins,55.0
+10,137,Australia,Mauritius,1986,lupins,18.0
+10,137,Australia,Mauritius,1990,lupins,22.0
+10,137,Australia,Mauritius,1991,lupins,215.0
+10,137,Australia,Mauritius,1995,lupins,48.0
+10,137,Australia,Mauritius,1997,lupins,89.0
+10,137,Australia,Mauritius,1998,lupins,98.0
+10,137,Australia,Mauritius,1999,lupins,192.0
+10,145,Australia,Micronesia (Federated States of),1998,lupins,116.0
+10,145,Australia,Micronesia (Federated States of),1999,lupins,423.0
+10,143,Australia,Morocco,1990,lupins,75.0
+10,143,Australia,Morocco,1998,lupins,43.0
+10,148,Australia,Nauru,1997,lupins,9.0
+10,148,Australia,Nauru,1998,lupins,35.0
+10,148,Australia,Nauru,1999,lupins,11.0
+10,150,Australia,Netherlands (Kingdom of the),1986,lupins,227159.0
+10,150,Australia,Netherlands (Kingdom of the),1987,lupins,234507.0
+10,150,Australia,Netherlands (Kingdom of the),1988,lupins,131998.0
+10,150,Australia,Netherlands (Kingdom of the),1989,lupins,51171.0
+10,150,Australia,Netherlands (Kingdom of the),1990,lupins,84830.0
+10,150,Australia,Netherlands (Kingdom of the),1991,lupins,108843.0
+10,150,Australia,Netherlands (Kingdom of the),1992,lupins,225140.0
+10,150,Australia,Netherlands (Kingdom of the),1993,lupins,163299.0
+10,150,Australia,Netherlands (Kingdom of the),1995,lupins,344.0
+10,150,Australia,Netherlands (Kingdom of the),1997,lupins,1241.0
+10,150,Australia,Netherlands (Kingdom of the),1998,lupins,482.0
+10,150,Australia,Netherlands (Kingdom of the),1999,lupins,722.0
+10,153,Australia,New Caledonia,1987,lupins,42.0
+10,153,Australia,New Caledonia,1988,lupins,40.0
+10,153,Australia,New Caledonia,1990,lupins,62.0
+10,153,Australia,New Caledonia,1991,lupins,63.0
+10,153,Australia,New Caledonia,1995,lupins,343.0
+10,153,Australia,New Caledonia,1997,lupins,639.0
+10,153,Australia,New Caledonia,1998,lupins,419.0
+10,153,Australia,New Caledonia,1999,lupins,590.0
+10,156,Australia,New Zealand,1987,lupins,42.0
+10,156,Australia,New Zealand,1988,lupins,3.0
+10,156,Australia,New Zealand,1989,lupins,3.0
+10,156,Australia,New Zealand,1990,lupins,43.0
+10,156,Australia,New Zealand,1991,lupins,2.0
+10,156,Australia,New Zealand,1992,lupins,18.0
+10,156,Australia,New Zealand,1995,lupins,756.0
+10,156,Australia,New Zealand,1997,lupins,1092.0
+10,156,Australia,New Zealand,1998,lupins,16.0
+10,156,Australia,New Zealand,1999,lupins,549.0
+214,237,"China, Taiwan Province of",Viet Nam,1997,lupins,105.0
+214,237,"China, Taiwan Province of",Viet Nam,1998,lupins,210.0
+10,221,Australia,Oman,1992,lupins,2500.0
+10,221,Australia,Oman,1998,lupins,77.0
+10,221,Australia,Oman,1999,lupins,234.0
+10,165,Australia,Pakistan,1993,lupins,258.0
+10,165,Australia,Pakistan,1995,lupins,108.0
+10,165,Australia,Pakistan,1997,lupins,598.0
+10,165,Australia,Pakistan,1998,lupins,1443.0
+10,165,Australia,Pakistan,1999,lupins,4322.0
+10,166,Australia,Panama,1999,lupins,20.0
+10,168,Australia,Papua New Guinea,1987,lupins,20.0
+10,168,Australia,Papua New Guinea,1988,lupins,19.0
+10,168,Australia,Papua New Guinea,1989,lupins,19.0
+10,168,Australia,Papua New Guinea,1991,lupins,33.0
+10,168,Australia,Papua New Guinea,1995,lupins,223.0
+10,168,Australia,Papua New Guinea,1997,lupins,11494.0
+10,168,Australia,Papua New Guinea,1998,lupins,8379.0
+10,168,Australia,Papua New Guinea,1999,lupins,6446.0
+10,171,Australia,Philippines,1986,lupins,99.0
+10,171,Australia,Philippines,1987,lupins,359.0
+10,171,Australia,Philippines,1988,lupins,359.0
+10,171,Australia,Philippines,1989,lupins,462.0
+10,171,Australia,Philippines,1990,lupins,866.0
+10,171,Australia,Philippines,1991,lupins,942.0
+10,171,Australia,Philippines,1992,lupins,559.0
+10,171,Australia,Philippines,1993,lupins,412.0
+10,171,Australia,Philippines,1995,lupins,605.0
+10,171,Australia,Philippines,1997,lupins,2248.0
+10,171,Australia,Philippines,1998,lupins,1533.0
+10,171,Australia,Philippines,1999,lupins,1877.0
+10,174,Australia,Portugal,1987,lupins,33153.0
+10,174,Australia,Portugal,1988,lupins,24799.0
+10,174,Australia,Portugal,1989,lupins,23630.0
+10,174,Australia,Portugal,1990,lupins,25293.0
+10,174,Australia,Portugal,1991,lupins,10023.0
+10,174,Australia,Portugal,1992,lupins,14911.0
+10,174,Australia,Portugal,1993,lupins,22.0
+10,174,Australia,Portugal,1995,lupins,301.0
+10,174,Australia,Portugal,1997,lupins,322.0
+10,174,Australia,Portugal,1998,lupins,269.0
+10,174,Australia,Portugal,1999,lupins,172.0
+10,179,Australia,Qatar,1991,lupins,22.0
+10,179,Australia,Qatar,1992,lupins,22.0
+10,179,Australia,Qatar,1995,lupins,38.0
+10,179,Australia,Qatar,1997,lupins,250.0
+10,179,Australia,Qatar,1998,lupins,48.0
+10,179,Australia,Qatar,1999,lupins,25.0
+10,117,Australia,Republic of Korea,1987,lupins,89760.0
+10,117,Australia,Republic of Korea,1988,lupins,106150.0
+10,117,Australia,Republic of Korea,1989,lupins,156870.0
+10,117,Australia,Republic of Korea,1990,lupins,125900.0
+10,117,Australia,Republic of Korea,1991,lupins,47636.0
+10,117,Australia,Republic of Korea,1992,lupins,86372.0
+10,117,Australia,Republic of Korea,1993,lupins,34365.0
+10,117,Australia,Republic of Korea,1997,lupins,105.0
+10,117,Australia,Republic of Korea,1998,lupins,776.0
+10,117,Australia,Republic of Korea,1999,lupins,4357.0
+10,185,Australia,Russian Federation,1995,lupins,17.0
+10,244,Australia,Samoa,1997,lupins,21.0
+10,194,Australia,Saudi Arabia,1986,lupins,102.0
+10,194,Australia,Saudi Arabia,1987,lupins,40.0
+10,194,Australia,Saudi Arabia,1988,lupins,23.0
+10,194,Australia,Saudi Arabia,1989,lupins,2.0
+10,194,Australia,Saudi Arabia,1990,lupins,43.0
+10,194,Australia,Saudi Arabia,1991,lupins,4959.0
+10,194,Australia,Saudi Arabia,1992,lupins,126.0
+10,194,Australia,Saudi Arabia,1993,lupins,339.0
+10,194,Australia,Saudi Arabia,1997,lupins,650.0
+10,194,Australia,Saudi Arabia,1999,lupins,40.0
+10,200,Australia,Singapore,1986,lupins,19.0
+10,200,Australia,Singapore,1992,lupins,1.0
+10,200,Australia,Singapore,1995,lupins,3358.0
+10,200,Australia,Singapore,1997,lupins,3929.0
+10,200,Australia,Singapore,1998,lupins,3685.0
+10,200,Australia,Singapore,1999,lupins,4866.0
+10,25,Australia,Solomon Islands,1995,lupins,1855.0
+10,25,Australia,Solomon Islands,1997,lupins,2721.0
+10,25,Australia,Solomon Islands,1998,lupins,2025.0
+10,25,Australia,Solomon Islands,1999,lupins,2040.0
+10,202,Australia,South Africa,1991,lupins,5021.0
+10,202,Australia,South Africa,1992,lupins,20830.0
+10,202,Australia,South Africa,1997,lupins,22.0
+10,202,Australia,South Africa,1998,lupins,22.0
+10,202,Australia,South Africa,1999,lupins,30.0
+10,203,Australia,Spain,1987,lupins,44866.0
+10,203,Australia,Spain,1988,lupins,31701.0
+10,203,Australia,Spain,1989,lupins,31787.0
+10,203,Australia,Spain,1990,lupins,25500.0
+10,203,Australia,Spain,1991,lupins,70121.0
+10,203,Australia,Spain,1992,lupins,83668.0
+10,203,Australia,Spain,1993,lupins,124182.0
+10,203,Australia,Spain,1995,lupins,874.0
+10,203,Australia,Spain,1997,lupins,21.0
+10,203,Australia,Spain,1999,lupins,27.0
+10,38,Australia,Sri Lanka,1997,lupins,201.0
+10,38,Australia,Sri Lanka,1998,lupins,422.0
+10,38,Australia,Sri Lanka,1999,lupins,2.0
+10,210,Australia,Sweden,1987,lupins,1499.0
+10,210,Australia,Sweden,1988,lupins,395.0
+10,210,Australia,Sweden,1990,lupins,3.0
+10,216,Australia,Thailand,1995,lupins,403.0
+10,216,Australia,Thailand,1997,lupins,591.0
+10,216,Australia,Thailand,1998,lupins,219.0
+10,216,Australia,Thailand,1999,lupins,88.0
+10,223,Australia,Türkiye,1997,lupins,991.0
+10,223,Australia,Türkiye,1998,lupins,43.0
+10,227,Australia,Tuvalu,1999,lupins,42.0
+10,225,Australia,United Arab Emirates,1987,lupins,41.0
+10,225,Australia,United Arab Emirates,1988,lupins,23.0
+10,225,Australia,United Arab Emirates,1989,lupins,21.0
+10,225,Australia,United Arab Emirates,1990,lupins,18.0
+10,225,Australia,United Arab Emirates,1991,lupins,20.0
+10,225,Australia,United Arab Emirates,1992,lupins,41.0
+10,225,Australia,United Arab Emirates,1993,lupins,4534.0
+10,225,Australia,United Arab Emirates,1995,lupins,1019.0
+10,225,Australia,United Arab Emirates,1997,lupins,699.0
+10,225,Australia,United Arab Emirates,1998,lupins,2145.0
+10,225,Australia,United Arab Emirates,1999,lupins,4671.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1988,lupins,42.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1989,lupins,42.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1993,lupins,18.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1995,lupins,184.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1997,lupins,141.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1998,lupins,268.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1999,lupins,351.0
+10,231,Australia,United States of America,1986,lupins,21.0
+10,231,Australia,United States of America,1993,lupins,20.0
+10,231,Australia,United States of America,1995,lupins,22.0
+10,231,Australia,United States of America,1997,lupins,103.0
+10,231,Australia,United States of America,1998,lupins,86.0
+10,231,Australia,United States of America,1999,lupins,41.0
+10,228,Australia,USSR,1988,lupins,58.0
+10,155,Australia,Vanuatu,1995,lupins,130.0
+10,155,Australia,Vanuatu,1997,lupins,422.0
+10,155,Australia,Vanuatu,1998,lupins,327.0
+10,155,Australia,Vanuatu,1999,lupins,418.0
+10,249,Australia,Yemen,1997,lupins,86.0
+10,249,Australia,Yemen,1998,lupins,22.0
+11,211,Austria,Switzerland,1994,lupins,13.0

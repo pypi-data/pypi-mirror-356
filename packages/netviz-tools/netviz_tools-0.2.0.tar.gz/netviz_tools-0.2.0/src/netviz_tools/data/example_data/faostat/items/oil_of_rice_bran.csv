@@ -1,0 +1,699 @@
+o_code,d_code,o_name,d_name,year,item,weight
+7,21,Angola,Brazil,2019,oil_of_rice_bran,0.01
+7,46,Angola,Congo,2019,oil_of_rice_bran,0.43
+7,46,Angola,Congo,2020,oil_of_rice_bran,0.52
+7,46,Angola,Congo,2022,oil_of_rice_bran,1.55
+7,49,Angola,Cuba,2020,oil_of_rice_bran,0.01
+7,49,Angola,Cuba,2021,oil_of_rice_bran,0.03
+7,49,Angola,Cuba,2022,oil_of_rice_bran,0.01
+7,250,Angola,Democratic Republic of the Congo,2019,oil_of_rice_bran,67.16
+7,250,Angola,Democratic Republic of the Congo,2020,oil_of_rice_bran,2.5
+7,250,Angola,Democratic Republic of the Congo,2021,oil_of_rice_bran,0.19
+7,250,Angola,Democratic Republic of the Congo,2022,oil_of_rice_bran,0.17
+28,41,Myanmar,"China, mainland",2019,oil_of_rice_bran,30.0
+28,41,Myanmar,"China, mainland",2020,oil_of_rice_bran,70.5
+28,41,Myanmar,"China, mainland",2021,oil_of_rice_bran,40.5
+28,41,Myanmar,"China, mainland",2022,oil_of_rice_bran,42.75
+28,41,Myanmar,"China, mainland",2023,oil_of_rice_bran,37.43
+21,7,Brazil,Angola,1995,oil_of_rice_bran,2.0
+143,255,Morocco,Belgium,2014,oil_of_rice_bran,0.36
+7,147,Angola,Namibia,2019,oil_of_rice_bran,0.02
+7,147,Angola,Namibia,2021,oil_of_rice_bran,0.5
+216,10,Thailand,Australia,1989,oil_of_rice_bran,3.0
+216,10,Thailand,Australia,1997,oil_of_rice_bran,2.0
+216,10,Thailand,Australia,2001,oil_of_rice_bran,2.0
+216,10,Thailand,Australia,2002,oil_of_rice_bran,89.0
+216,10,Thailand,Australia,2003,oil_of_rice_bran,157.0
+216,10,Thailand,Australia,2004,oil_of_rice_bran,256.0
+216,10,Thailand,Australia,2005,oil_of_rice_bran,50.0
+216,10,Thailand,Australia,2006,oil_of_rice_bran,145.0
+216,10,Thailand,Australia,2007,oil_of_rice_bran,297.0
+216,10,Thailand,Australia,2008,oil_of_rice_bran,1090.0
+216,10,Thailand,Australia,2009,oil_of_rice_bran,5122.0
+216,10,Thailand,Australia,2010,oil_of_rice_bran,4703.0
+216,10,Thailand,Australia,2011,oil_of_rice_bran,6081.0
+216,10,Thailand,Australia,2012,oil_of_rice_bran,6683.0
+216,10,Thailand,Australia,2013,oil_of_rice_bran,6726.0
+216,10,Thailand,Australia,2014,oil_of_rice_bran,7748.87
+216,10,Thailand,Australia,2016,oil_of_rice_bran,0.04
+216,10,Thailand,Australia,2017,oil_of_rice_bran,7073.56
+216,10,Thailand,Australia,2018,oil_of_rice_bran,6951.85
+216,10,Thailand,Australia,2020,oil_of_rice_bran,6771.32
+216,10,Thailand,Australia,2022,oil_of_rice_bran,0.01
+28,110,Myanmar,Japan,2016,oil_of_rice_bran,0.2
+7,202,Angola,South Africa,2020,oil_of_rice_bran,0.03
+21,9,Brazil,Argentina,1987,oil_of_rice_bran,61.0
+21,9,Brazil,Argentina,1988,oil_of_rice_bran,128.0
+21,9,Brazil,Argentina,1991,oil_of_rice_bran,42.0
+21,9,Brazil,Argentina,1996,oil_of_rice_bran,43.0
+28,117,Myanmar,Republic of Korea,2016,oil_of_rice_bran,10.0
+7,231,Angola,United States of America,2019,oil_of_rice_bran,0.02
+216,11,Thailand,Austria,2020,oil_of_rice_bran,0.27
+143,46,Morocco,Congo,2020,oil_of_rice_bran,0.04
+216,13,Thailand,Bahrain,2020,oil_of_rice_bran,2.02
+216,16,Thailand,Bangladesh,2004,oil_of_rice_bran,2.0
+216,16,Thailand,Bangladesh,2009,oil_of_rice_bran,1.0
+216,16,Thailand,Bangladesh,2011,oil_of_rice_bran,1.0
+216,16,Thailand,Bangladesh,2013,oil_of_rice_bran,1.0
+216,16,Thailand,Bangladesh,2018,oil_of_rice_bran,1.14
+216,16,Thailand,Bangladesh,2020,oil_of_rice_bran,0.74
+216,16,Thailand,Bangladesh,2023,oil_of_rice_bran,0.03
+216,255,Thailand,Belgium,2006,oil_of_rice_bran,12.0
+216,255,Thailand,Belgium,2007,oil_of_rice_bran,25.0
+216,255,Thailand,Belgium,2009,oil_of_rice_bran,27.0
+216,255,Thailand,Belgium,2010,oil_of_rice_bran,20.0
+216,255,Thailand,Belgium,2011,oil_of_rice_bran,22.0
+216,255,Thailand,Belgium,2012,oil_of_rice_bran,18.0
+216,255,Thailand,Belgium,2013,oil_of_rice_bran,38.0
+216,255,Thailand,Belgium,2014,oil_of_rice_bran,22.21
+216,255,Thailand,Belgium,2017,oil_of_rice_bran,22.71
+216,255,Thailand,Belgium,2018,oil_of_rice_bran,20.6
+216,255,Thailand,Belgium,2020,oil_of_rice_bran,9.45
+216,26,Thailand,Brunei Darussalam,1999,oil_of_rice_bran,7.0
+216,26,Thailand,Brunei Darussalam,2004,oil_of_rice_bran,18.0
+216,26,Thailand,Brunei Darussalam,2020,oil_of_rice_bran,0.04
+117,96,Republic of Korea,"China, Hong Kong SAR",1991,oil_of_rice_bran,4.0
+216,27,Thailand,Bulgaria,2009,oil_of_rice_bran,2.0
+216,27,Thailand,Bulgaria,2010,oil_of_rice_bran,3.0
+216,27,Thailand,Bulgaria,2011,oil_of_rice_bran,2.0
+216,27,Thailand,Bulgaria,2012,oil_of_rice_bran,2.0
+216,27,Thailand,Bulgaria,2013,oil_of_rice_bran,2.0
+216,27,Thailand,Bulgaria,2014,oil_of_rice_bran,1.67
+216,27,Thailand,Bulgaria,2017,oil_of_rice_bran,1.66
+216,27,Thailand,Bulgaria,2018,oil_of_rice_bran,1.66
+216,27,Thailand,Bulgaria,2020,oil_of_rice_bran,3.53
+216,115,Thailand,Cambodia,1995,oil_of_rice_bran,9.0
+216,115,Thailand,Cambodia,1998,oil_of_rice_bran,38.0
+216,115,Thailand,Cambodia,2000,oil_of_rice_bran,64.0
+216,115,Thailand,Cambodia,2001,oil_of_rice_bran,293.0
+216,115,Thailand,Cambodia,2002,oil_of_rice_bran,693.0
+216,115,Thailand,Cambodia,2003,oil_of_rice_bran,362.0
+216,115,Thailand,Cambodia,2004,oil_of_rice_bran,108.0
+216,115,Thailand,Cambodia,2005,oil_of_rice_bran,145.0
+216,115,Thailand,Cambodia,2006,oil_of_rice_bran,912.0
+216,115,Thailand,Cambodia,2007,oil_of_rice_bran,125.0
+216,115,Thailand,Cambodia,2008,oil_of_rice_bran,473.0
+216,115,Thailand,Cambodia,2009,oil_of_rice_bran,116.0
+216,115,Thailand,Cambodia,2010,oil_of_rice_bran,69.0
+216,115,Thailand,Cambodia,2011,oil_of_rice_bran,96.0
+216,115,Thailand,Cambodia,2012,oil_of_rice_bran,149.0
+216,115,Thailand,Cambodia,2013,oil_of_rice_bran,52.0
+216,115,Thailand,Cambodia,2014,oil_of_rice_bran,96.09
+216,115,Thailand,Cambodia,2015,oil_of_rice_bran,0.11
+216,115,Thailand,Cambodia,2016,oil_of_rice_bran,0.15
+216,115,Thailand,Cambodia,2017,oil_of_rice_bran,73.54
+216,115,Thailand,Cambodia,2018,oil_of_rice_bran,126.31
+216,115,Thailand,Cambodia,2019,oil_of_rice_bran,0.08
+216,115,Thailand,Cambodia,2020,oil_of_rice_bran,205.06
+216,115,Thailand,Cambodia,2022,oil_of_rice_bran,3.29
+216,115,Thailand,Cambodia,2023,oil_of_rice_bran,1.92
+143,79,Morocco,Germany,2022,oil_of_rice_bran,1.09
+143,79,Morocco,Germany,2023,oil_of_rice_bran,2.84
+117,41,Republic of Korea,"China, mainland",2002,oil_of_rice_bran,10.0
+117,41,Republic of Korea,"China, mainland",2003,oil_of_rice_bran,10.0
+117,41,Republic of Korea,"China, mainland",2004,oil_of_rice_bran,11.0
+117,41,Republic of Korea,"China, mainland",2006,oil_of_rice_bran,5.0
+216,33,Thailand,Canada,2004,oil_of_rice_bran,1.0
+216,33,Thailand,Canada,2006,oil_of_rice_bran,1.0
+216,33,Thailand,Canada,2007,oil_of_rice_bran,22.0
+216,33,Thailand,Canada,2008,oil_of_rice_bran,16.0
+216,33,Thailand,Canada,2009,oil_of_rice_bran,17.0
+216,33,Thailand,Canada,2010,oil_of_rice_bran,1.0
+216,33,Thailand,Canada,2011,oil_of_rice_bran,34.0
+216,33,Thailand,Canada,2012,oil_of_rice_bran,34.0
+216,33,Thailand,Canada,2013,oil_of_rice_bran,37.0
+216,33,Thailand,Canada,2014,oil_of_rice_bran,34.59
+216,33,Thailand,Canada,2017,oil_of_rice_bran,18.11
+216,33,Thailand,Canada,2018,oil_of_rice_bran,34.06
+216,33,Thailand,Canada,2020,oil_of_rice_bran,13.7
+216,96,Thailand,"China, Hong Kong SAR",2001,oil_of_rice_bran,40.0
+216,96,Thailand,"China, Hong Kong SAR",2002,oil_of_rice_bran,78.0
+216,96,Thailand,"China, Hong Kong SAR",2003,oil_of_rice_bran,27.0
+216,96,Thailand,"China, Hong Kong SAR",2004,oil_of_rice_bran,9.0
+216,96,Thailand,"China, Hong Kong SAR",2006,oil_of_rice_bran,8.0
+216,96,Thailand,"China, Hong Kong SAR",2007,oil_of_rice_bran,54.0
+216,96,Thailand,"China, Hong Kong SAR",2008,oil_of_rice_bran,192.0
+216,96,Thailand,"China, Hong Kong SAR",2009,oil_of_rice_bran,346.0
+216,96,Thailand,"China, Hong Kong SAR",2010,oil_of_rice_bran,315.0
+216,96,Thailand,"China, Hong Kong SAR",2011,oil_of_rice_bran,335.0
+216,96,Thailand,"China, Hong Kong SAR",2012,oil_of_rice_bran,333.0
+216,96,Thailand,"China, Hong Kong SAR",2013,oil_of_rice_bran,457.0
+216,96,Thailand,"China, Hong Kong SAR",2014,oil_of_rice_bran,491.65
+216,96,Thailand,"China, Hong Kong SAR",2015,oil_of_rice_bran,0.02
+216,96,Thailand,"China, Hong Kong SAR",2017,oil_of_rice_bran,1018.09
+216,96,Thailand,"China, Hong Kong SAR",2018,oil_of_rice_bran,1195.01
+216,96,Thailand,"China, Hong Kong SAR",2020,oil_of_rice_bran,1576.26
+143,133,Morocco,Mali,2020,oil_of_rice_bran,3.0
+216,41,Thailand,"China, mainland",1998,oil_of_rice_bran,12.0
+216,41,Thailand,"China, mainland",2001,oil_of_rice_bran,24.0
+216,41,Thailand,"China, mainland",2002,oil_of_rice_bran,1900.0
+216,41,Thailand,"China, mainland",2003,oil_of_rice_bran,1960.0
+216,41,Thailand,"China, mainland",2004,oil_of_rice_bran,1128.0
+216,41,Thailand,"China, mainland",2005,oil_of_rice_bran,204.0
+216,41,Thailand,"China, mainland",2006,oil_of_rice_bran,2.0
+216,41,Thailand,"China, mainland",2007,oil_of_rice_bran,10.0
+216,41,Thailand,"China, mainland",2008,oil_of_rice_bran,17.0
+216,41,Thailand,"China, mainland",2009,oil_of_rice_bran,17.0
+216,41,Thailand,"China, mainland",2010,oil_of_rice_bran,82.0
+216,41,Thailand,"China, mainland",2011,oil_of_rice_bran,81.0
+216,41,Thailand,"China, mainland",2012,oil_of_rice_bran,53.0
+216,41,Thailand,"China, mainland",2013,oil_of_rice_bran,12.0
+216,41,Thailand,"China, mainland",2014,oil_of_rice_bran,98.39
+216,41,Thailand,"China, mainland",2017,oil_of_rice_bran,76.15
+216,41,Thailand,"China, mainland",2018,oil_of_rice_bran,47.14
+216,41,Thailand,"China, mainland",2019,oil_of_rice_bran,0.07
+216,41,Thailand,"China, mainland",2020,oil_of_rice_bran,102.14
+216,41,Thailand,"China, mainland",2023,oil_of_rice_bran,0.07
+143,150,Morocco,Netherlands (Kingdom of the),2014,oil_of_rice_bran,1.0
+21,48,Brazil,Costa Rica,1988,oil_of_rice_bran,4.0
+216,214,Thailand,"China, Taiwan Province of",1986,oil_of_rice_bran,273.0
+216,214,Thailand,"China, Taiwan Province of",1987,oil_of_rice_bran,13.0
+216,214,Thailand,"China, Taiwan Province of",1993,oil_of_rice_bran,14.0
+216,214,Thailand,"China, Taiwan Province of",1994,oil_of_rice_bran,60.0
+216,214,Thailand,"China, Taiwan Province of",1995,oil_of_rice_bran,80.0
+216,214,Thailand,"China, Taiwan Province of",1996,oil_of_rice_bran,60.0
+216,214,Thailand,"China, Taiwan Province of",1997,oil_of_rice_bran,55.0
+216,214,Thailand,"China, Taiwan Province of",2001,oil_of_rice_bran,22.0
+216,214,Thailand,"China, Taiwan Province of",2003,oil_of_rice_bran,37.0
+216,214,Thailand,"China, Taiwan Province of",2004,oil_of_rice_bran,46.0
+216,214,Thailand,"China, Taiwan Province of",2005,oil_of_rice_bran,63.0
+216,214,Thailand,"China, Taiwan Province of",2006,oil_of_rice_bran,87.0
+216,214,Thailand,"China, Taiwan Province of",2007,oil_of_rice_bran,32.0
+216,214,Thailand,"China, Taiwan Province of",2008,oil_of_rice_bran,101.0
+216,214,Thailand,"China, Taiwan Province of",2009,oil_of_rice_bran,36.0
+216,214,Thailand,"China, Taiwan Province of",2010,oil_of_rice_bran,169.0
+216,214,Thailand,"China, Taiwan Province of",2011,oil_of_rice_bran,124.0
+216,214,Thailand,"China, Taiwan Province of",2012,oil_of_rice_bran,213.0
+216,214,Thailand,"China, Taiwan Province of",2013,oil_of_rice_bran,431.0
+216,214,Thailand,"China, Taiwan Province of",2014,oil_of_rice_bran,103.89
+216,214,Thailand,"China, Taiwan Province of",2015,oil_of_rice_bran,12.95
+216,214,Thailand,"China, Taiwan Province of",2016,oil_of_rice_bran,10.56
+216,214,Thailand,"China, Taiwan Province of",2017,oil_of_rice_bran,49.97
+216,214,Thailand,"China, Taiwan Province of",2018,oil_of_rice_bran,65.75
+216,214,Thailand,"China, Taiwan Province of",2019,oil_of_rice_bran,14.8
+216,214,Thailand,"China, Taiwan Province of",2020,oil_of_rice_bran,349.65
+216,214,Thailand,"China, Taiwan Province of",2021,oil_of_rice_bran,1.12
+216,214,Thailand,"China, Taiwan Province of",2022,oil_of_rice_bran,1.05
+216,50,Thailand,Cyprus,2009,oil_of_rice_bran,16.0
+216,167,Thailand,Czechia,2009,oil_of_rice_bran,2.0
+216,167,Thailand,Czechia,2010,oil_of_rice_bran,15.0
+216,167,Thailand,Czechia,2011,oil_of_rice_bran,7.0
+216,167,Thailand,Czechia,2012,oil_of_rice_bran,9.0
+216,167,Thailand,Czechia,2013,oil_of_rice_bran,28.0
+216,167,Thailand,Czechia,2014,oil_of_rice_bran,33.55
+216,167,Thailand,Czechia,2017,oil_of_rice_bran,25.99
+216,167,Thailand,Czechia,2018,oil_of_rice_bran,14.44
+216,167,Thailand,Czechia,2020,oil_of_rice_bran,5.63
+216,116,Thailand,Democratic People's Republic of Korea,1997,oil_of_rice_bran,500.0
+216,116,Thailand,Democratic People's Republic of Korea,2004,oil_of_rice_bran,454.0
+216,116,Thailand,Democratic People's Republic of Korea,2006,oil_of_rice_bran,18.0
+216,54,Thailand,Denmark,2009,oil_of_rice_bran,2.0
+216,54,Thailand,Denmark,2010,oil_of_rice_bran,1.0
+216,54,Thailand,Denmark,2011,oil_of_rice_bran,1.0
+216,54,Thailand,Denmark,2014,oil_of_rice_bran,0.03
+216,54,Thailand,Denmark,2017,oil_of_rice_bran,0.09
+216,59,Thailand,Egypt,2009,oil_of_rice_bran,1.0
+216,59,Thailand,Egypt,2010,oil_of_rice_bran,5.0
+216,59,Thailand,Egypt,2011,oil_of_rice_bran,3.0
+216,59,Thailand,Egypt,2012,oil_of_rice_bran,52.0
+216,59,Thailand,Egypt,2013,oil_of_rice_bran,12.0
+216,59,Thailand,Egypt,2014,oil_of_rice_bran,43.78
+216,59,Thailand,Egypt,2017,oil_of_rice_bran,52.93
+216,59,Thailand,Egypt,2018,oil_of_rice_bran,41.92
+216,59,Thailand,Egypt,2020,oil_of_rice_bran,55.88
+216,238,Thailand,Ethiopia,2013,oil_of_rice_bran,11.0
+216,66,Thailand,Fiji,2010,oil_of_rice_bran,6.0
+21,79,Brazil,Germany,1993,oil_of_rice_bran,1400.0
+117,110,Republic of Korea,Japan,1986,oil_of_rice_bran,814.0
+117,110,Republic of Korea,Japan,1987,oil_of_rice_bran,872.0
+117,110,Republic of Korea,Japan,1999,oil_of_rice_bran,2378.0
+117,110,Republic of Korea,Japan,2000,oil_of_rice_bran,320.0
+216,68,Thailand,France,2002,oil_of_rice_bran,2.0
+216,68,Thailand,France,2003,oil_of_rice_bran,2.0
+216,68,Thailand,France,2007,oil_of_rice_bran,6.0
+216,68,Thailand,France,2008,oil_of_rice_bran,1.0
+216,68,Thailand,France,2009,oil_of_rice_bran,15.0
+216,68,Thailand,France,2010,oil_of_rice_bran,6.0
+216,68,Thailand,France,2011,oil_of_rice_bran,43.0
+216,68,Thailand,France,2012,oil_of_rice_bran,7.0
+216,68,Thailand,France,2013,oil_of_rice_bran,31.0
+216,68,Thailand,France,2014,oil_of_rice_bran,27.22
+216,68,Thailand,France,2017,oil_of_rice_bran,64.97
+216,68,Thailand,France,2018,oil_of_rice_bran,65.92
+216,68,Thailand,France,2020,oil_of_rice_bran,29.79
+143,231,Morocco,United States of America,2023,oil_of_rice_bran,20.93
+216,79,Thailand,Germany,2002,oil_of_rice_bran,13.0
+216,79,Thailand,Germany,2004,oil_of_rice_bran,1.0
+216,79,Thailand,Germany,2007,oil_of_rice_bran,15.0
+216,79,Thailand,Germany,2008,oil_of_rice_bran,9.0
+216,79,Thailand,Germany,2009,oil_of_rice_bran,25.0
+216,79,Thailand,Germany,2010,oil_of_rice_bran,11.0
+216,79,Thailand,Germany,2011,oil_of_rice_bran,17.0
+216,79,Thailand,Germany,2012,oil_of_rice_bran,29.0
+216,79,Thailand,Germany,2013,oil_of_rice_bran,8.0
+216,79,Thailand,Germany,2014,oil_of_rice_bran,9.7
+216,79,Thailand,Germany,2017,oil_of_rice_bran,18.48
+216,79,Thailand,Germany,2018,oil_of_rice_bran,21.01
+216,79,Thailand,Germany,2020,oil_of_rice_bran,62.76
+216,79,Thailand,Germany,2023,oil_of_rice_bran,0.11
+216,81,Thailand,Ghana,1991,oil_of_rice_bran,5.0
+216,84,Thailand,Greece,2009,oil_of_rice_bran,18.0
+216,97,Thailand,Hungary,2008,oil_of_rice_bran,1.0
+216,97,Thailand,Hungary,2009,oil_of_rice_bran,1.0
+216,97,Thailand,Hungary,2010,oil_of_rice_bran,1.0
+216,97,Thailand,Hungary,2011,oil_of_rice_bran,2.0
+216,97,Thailand,Hungary,2012,oil_of_rice_bran,1.0
+216,97,Thailand,Hungary,2013,oil_of_rice_bran,3.0
+216,97,Thailand,Hungary,2014,oil_of_rice_bran,2.3
+216,97,Thailand,Hungary,2017,oil_of_rice_bran,4.21
+216,97,Thailand,Hungary,2018,oil_of_rice_bran,4.03
+216,97,Thailand,Hungary,2020,oil_of_rice_bran,2.82
+216,99,Thailand,Iceland,2014,oil_of_rice_bran,1.33
+216,100,Thailand,India,2013,oil_of_rice_bran,19.0
+216,100,Thailand,India,2014,oil_of_rice_bran,0.96
+216,100,Thailand,India,2017,oil_of_rice_bran,21.81
+216,100,Thailand,India,2018,oil_of_rice_bran,22.36
+216,100,Thailand,India,2019,oil_of_rice_bran,0.88
+216,100,Thailand,India,2020,oil_of_rice_bran,0.06
+216,100,Thailand,India,2021,oil_of_rice_bran,0.12
+21,110,Brazil,Japan,1992,oil_of_rice_bran,500.0
+21,110,Brazil,Japan,1993,oil_of_rice_bran,600.0
+216,101,Thailand,Indonesia,2007,oil_of_rice_bran,2.0
+216,101,Thailand,Indonesia,2008,oil_of_rice_bran,16.0
+216,101,Thailand,Indonesia,2009,oil_of_rice_bran,15.0
+216,101,Thailand,Indonesia,2010,oil_of_rice_bran,54.0
+216,101,Thailand,Indonesia,2011,oil_of_rice_bran,68.0
+216,101,Thailand,Indonesia,2012,oil_of_rice_bran,81.0
+216,101,Thailand,Indonesia,2013,oil_of_rice_bran,110.0
+216,101,Thailand,Indonesia,2014,oil_of_rice_bran,86.65
+216,101,Thailand,Indonesia,2016,oil_of_rice_bran,0.03
+216,101,Thailand,Indonesia,2017,oil_of_rice_bran,67.84
+216,101,Thailand,Indonesia,2018,oil_of_rice_bran,83.51
+216,101,Thailand,Indonesia,2019,oil_of_rice_bran,0.54
+216,101,Thailand,Indonesia,2020,oil_of_rice_bran,81.44
+216,101,Thailand,Indonesia,2021,oil_of_rice_bran,0.54
+216,102,Thailand,Iran (Islamic Republic of),2007,oil_of_rice_bran,14.0
+216,102,Thailand,Iran (Islamic Republic of),2008,oil_of_rice_bran,68.0
+216,102,Thailand,Iran (Islamic Republic of),2009,oil_of_rice_bran,186.0
+216,102,Thailand,Iran (Islamic Republic of),2010,oil_of_rice_bran,107.0
+216,102,Thailand,Iran (Islamic Republic of),2011,oil_of_rice_bran,132.0
+216,102,Thailand,Iran (Islamic Republic of),2012,oil_of_rice_bran,92.0
+216,102,Thailand,Iran (Islamic Republic of),2013,oil_of_rice_bran,138.0
+216,102,Thailand,Iran (Islamic Republic of),2014,oil_of_rice_bran,131.41
+216,102,Thailand,Iran (Islamic Republic of),2017,oil_of_rice_bran,223.63
+216,102,Thailand,Iran (Islamic Republic of),2018,oil_of_rice_bran,83.88
+216,102,Thailand,Iran (Islamic Republic of),2020,oil_of_rice_bran,485.8
+216,103,Thailand,Iraq,2020,oil_of_rice_bran,0.78
+216,104,Thailand,Ireland,2008,oil_of_rice_bran,1.0
+216,104,Thailand,Ireland,2013,oil_of_rice_bran,1.0
+216,104,Thailand,Ireland,2014,oil_of_rice_bran,6.44
+216,104,Thailand,Ireland,2017,oil_of_rice_bran,5.99
+216,105,Thailand,Israel,2004,oil_of_rice_bran,12.0
+216,105,Thailand,Israel,2008,oil_of_rice_bran,63.0
+216,105,Thailand,Israel,2009,oil_of_rice_bran,124.0
+216,105,Thailand,Israel,2010,oil_of_rice_bran,19.0
+216,105,Thailand,Israel,2011,oil_of_rice_bran,5.0
+216,105,Thailand,Israel,2012,oil_of_rice_bran,3.0
+216,105,Thailand,Israel,2013,oil_of_rice_bran,4.0
+216,105,Thailand,Israel,2014,oil_of_rice_bran,10.69
+216,106,Thailand,Italy,1999,oil_of_rice_bran,5.0
+216,106,Thailand,Italy,2000,oil_of_rice_bran,4.0
+216,106,Thailand,Italy,2001,oil_of_rice_bran,6.0
+216,106,Thailand,Italy,2002,oil_of_rice_bran,2.0
+216,106,Thailand,Italy,2005,oil_of_rice_bran,15.0
+216,106,Thailand,Italy,2007,oil_of_rice_bran,315.0
+216,106,Thailand,Italy,2008,oil_of_rice_bran,837.0
+216,106,Thailand,Italy,2009,oil_of_rice_bran,463.0
+216,106,Thailand,Italy,2011,oil_of_rice_bran,1237.0
+216,106,Thailand,Italy,2012,oil_of_rice_bran,1546.0
+216,106,Thailand,Italy,2013,oil_of_rice_bran,1513.0
+216,106,Thailand,Italy,2014,oil_of_rice_bran,2059.12
+216,106,Thailand,Italy,2017,oil_of_rice_bran,1980.47
+216,106,Thailand,Italy,2018,oil_of_rice_bran,2342.45
+216,106,Thailand,Italy,2020,oil_of_rice_bran,2990.66
+216,110,Thailand,Japan,1986,oil_of_rice_bran,2610.0
+216,110,Thailand,Japan,1990,oil_of_rice_bran,510.0
+216,110,Thailand,Japan,1992,oil_of_rice_bran,2460.0
+216,110,Thailand,Japan,1993,oil_of_rice_bran,1100.0
+216,110,Thailand,Japan,1994,oil_of_rice_bran,8143.0
+216,110,Thailand,Japan,1995,oil_of_rice_bran,1400.0
+216,110,Thailand,Japan,1996,oil_of_rice_bran,2160.0
+216,110,Thailand,Japan,1997,oil_of_rice_bran,3080.0
+216,110,Thailand,Japan,1998,oil_of_rice_bran,2820.0
+216,110,Thailand,Japan,1999,oil_of_rice_bran,2550.0
+216,110,Thailand,Japan,2000,oil_of_rice_bran,8023.0
+216,110,Thailand,Japan,2001,oil_of_rice_bran,8000.0
+216,110,Thailand,Japan,2002,oil_of_rice_bran,12063.0
+216,110,Thailand,Japan,2003,oil_of_rice_bran,15198.0
+216,110,Thailand,Japan,2004,oil_of_rice_bran,27179.0
+216,110,Thailand,Japan,2005,oil_of_rice_bran,24957.0
+216,110,Thailand,Japan,2006,oil_of_rice_bran,19189.0
+216,110,Thailand,Japan,2007,oil_of_rice_bran,12706.0
+216,110,Thailand,Japan,2008,oil_of_rice_bran,9428.0
+216,110,Thailand,Japan,2009,oil_of_rice_bran,9368.0
+216,110,Thailand,Japan,2010,oil_of_rice_bran,8428.0
+216,110,Thailand,Japan,2011,oil_of_rice_bran,2729.0
+216,110,Thailand,Japan,2012,oil_of_rice_bran,529.0
+216,110,Thailand,Japan,2013,oil_of_rice_bran,2096.0
+216,110,Thailand,Japan,2014,oil_of_rice_bran,8695.42
+216,110,Thailand,Japan,2017,oil_of_rice_bran,2865.0
+216,110,Thailand,Japan,2018,oil_of_rice_bran,10895.33
+216,110,Thailand,Japan,2020,oil_of_rice_bran,4986.36
+21,150,Brazil,Netherlands (Kingdom of the),1988,oil_of_rice_bran,1500.0
+21,150,Brazil,Netherlands (Kingdom of the),1989,oil_of_rice_bran,1700.0
+21,150,Brazil,Netherlands (Kingdom of the),1993,oil_of_rice_bran,1000.0
+216,112,Thailand,Jordan,2014,oil_of_rice_bran,0.09
+216,114,Thailand,Kenya,1997,oil_of_rice_bran,15.0
+216,118,Thailand,Kuwait,2003,oil_of_rice_bran,1.0
+216,118,Thailand,Kuwait,2009,oil_of_rice_bran,3.0
+216,118,Thailand,Kuwait,2011,oil_of_rice_bran,3.0
+216,118,Thailand,Kuwait,2013,oil_of_rice_bran,4.0
+216,118,Thailand,Kuwait,2014,oil_of_rice_bran,1.15
+216,118,Thailand,Kuwait,2017,oil_of_rice_bran,5.55
+216,118,Thailand,Kuwait,2018,oil_of_rice_bran,2.27
+216,118,Thailand,Kuwait,2020,oil_of_rice_bran,0.57
+216,120,Thailand,Lao People's Democratic Republic,1988,oil_of_rice_bran,13.0
+216,120,Thailand,Lao People's Democratic Republic,1989,oil_of_rice_bran,1.0
+216,120,Thailand,Lao People's Democratic Republic,1991,oil_of_rice_bran,6.0
+216,120,Thailand,Lao People's Democratic Republic,1992,oil_of_rice_bran,23.0
+216,120,Thailand,Lao People's Democratic Republic,1993,oil_of_rice_bran,13.0
+216,120,Thailand,Lao People's Democratic Republic,1994,oil_of_rice_bran,41.0
+216,120,Thailand,Lao People's Democratic Republic,1995,oil_of_rice_bran,31.0
+216,120,Thailand,Lao People's Democratic Republic,1996,oil_of_rice_bran,144.0
+216,120,Thailand,Lao People's Democratic Republic,1997,oil_of_rice_bran,327.0
+216,120,Thailand,Lao People's Democratic Republic,1998,oil_of_rice_bran,301.0
+216,120,Thailand,Lao People's Democratic Republic,1999,oil_of_rice_bran,302.0
+216,120,Thailand,Lao People's Democratic Republic,2000,oil_of_rice_bran,601.0
+216,120,Thailand,Lao People's Democratic Republic,2001,oil_of_rice_bran,599.0
+216,120,Thailand,Lao People's Democratic Republic,2002,oil_of_rice_bran,507.0
+216,120,Thailand,Lao People's Democratic Republic,2003,oil_of_rice_bran,374.0
+216,120,Thailand,Lao People's Democratic Republic,2004,oil_of_rice_bran,781.0
+216,120,Thailand,Lao People's Democratic Republic,2005,oil_of_rice_bran,422.0
+216,120,Thailand,Lao People's Democratic Republic,2006,oil_of_rice_bran,333.0
+216,120,Thailand,Lao People's Democratic Republic,2007,oil_of_rice_bran,123.0
+216,120,Thailand,Lao People's Democratic Republic,2008,oil_of_rice_bran,77.0
+216,120,Thailand,Lao People's Democratic Republic,2011,oil_of_rice_bran,110.0
+216,120,Thailand,Lao People's Democratic Republic,2012,oil_of_rice_bran,116.0
+216,120,Thailand,Lao People's Democratic Republic,2013,oil_of_rice_bran,67.0
+216,120,Thailand,Lao People's Democratic Republic,2014,oil_of_rice_bran,62.06
+216,120,Thailand,Lao People's Democratic Republic,2017,oil_of_rice_bran,8.4
+216,120,Thailand,Lao People's Democratic Republic,2018,oil_of_rice_bran,0.79
+216,120,Thailand,Lao People's Democratic Republic,2019,oil_of_rice_bran,0.9
+216,120,Thailand,Lao People's Democratic Republic,2020,oil_of_rice_bran,0.85
+216,120,Thailand,Lao People's Democratic Republic,2021,oil_of_rice_bran,0.41
+216,124,Thailand,Libya,2010,oil_of_rice_bran,1255.0
+216,126,Thailand,Lithuania,2004,oil_of_rice_bran,1.0
+216,131,Thailand,Malaysia,1995,oil_of_rice_bran,17.0
+216,131,Thailand,Malaysia,1996,oil_of_rice_bran,11.0
+216,131,Thailand,Malaysia,1997,oil_of_rice_bran,91.0
+216,131,Thailand,Malaysia,2000,oil_of_rice_bran,5.0
+216,131,Thailand,Malaysia,2001,oil_of_rice_bran,133.0
+216,131,Thailand,Malaysia,2002,oil_of_rice_bran,238.0
+216,131,Thailand,Malaysia,2003,oil_of_rice_bran,284.0
+216,131,Thailand,Malaysia,2004,oil_of_rice_bran,358.0
+216,131,Thailand,Malaysia,2005,oil_of_rice_bran,535.0
+216,131,Thailand,Malaysia,2006,oil_of_rice_bran,494.0
+216,131,Thailand,Malaysia,2007,oil_of_rice_bran,544.0
+216,131,Thailand,Malaysia,2008,oil_of_rice_bran,391.0
+216,131,Thailand,Malaysia,2009,oil_of_rice_bran,315.0
+216,131,Thailand,Malaysia,2010,oil_of_rice_bran,218.0
+216,131,Thailand,Malaysia,2011,oil_of_rice_bran,173.0
+216,131,Thailand,Malaysia,2012,oil_of_rice_bran,291.0
+216,131,Thailand,Malaysia,2013,oil_of_rice_bran,197.0
+216,131,Thailand,Malaysia,2014,oil_of_rice_bran,421.72
+216,131,Thailand,Malaysia,2017,oil_of_rice_bran,359.92
+216,131,Thailand,Malaysia,2018,oil_of_rice_bran,340.66
+216,131,Thailand,Malaysia,2020,oil_of_rice_bran,361.17
+216,131,Thailand,Malaysia,2021,oil_of_rice_bran,1.85
+216,131,Thailand,Malaysia,2022,oil_of_rice_bran,0.92
+216,132,Thailand,Maldives,2014,oil_of_rice_bran,0.16
+216,132,Thailand,Maldives,2017,oil_of_rice_bran,2.48
+216,132,Thailand,Maldives,2018,oil_of_rice_bran,3.66
+216,132,Thailand,Maldives,2020,oil_of_rice_bran,2.6
+216,132,Thailand,Maldives,2022,oil_of_rice_bran,1.87
+216,132,Thailand,Maldives,2023,oil_of_rice_bran,1.9
+216,134,Thailand,Malta,2017,oil_of_rice_bran,0.09
+216,138,Thailand,Mexico,2005,oil_of_rice_bran,11.0
+216,138,Thailand,Mexico,2006,oil_of_rice_bran,37.0
+216,138,Thailand,Mexico,2007,oil_of_rice_bran,160.0
+216,138,Thailand,Mexico,2008,oil_of_rice_bran,140.0
+216,138,Thailand,Mexico,2009,oil_of_rice_bran,160.0
+216,138,Thailand,Mexico,2010,oil_of_rice_bran,220.0
+216,138,Thailand,Mexico,2011,oil_of_rice_bran,360.0
+216,138,Thailand,Mexico,2012,oil_of_rice_bran,300.0
+216,138,Thailand,Mexico,2013,oil_of_rice_bran,260.0
+216,138,Thailand,Mexico,2014,oil_of_rice_bran,280.0
+216,138,Thailand,Mexico,2017,oil_of_rice_bran,120.0
+216,138,Thailand,Mexico,2018,oil_of_rice_bran,80.0
+216,138,Thailand,Mexico,2020,oil_of_rice_bran,760.0
+117,231,Republic of Korea,United States of America,1992,oil_of_rice_bran,2.0
+216,143,Thailand,Morocco,2009,oil_of_rice_bran,4.0
+216,143,Thailand,Morocco,2010,oil_of_rice_bran,6.0
+216,28,Thailand,Myanmar,1990,oil_of_rice_bran,8.0
+216,28,Thailand,Myanmar,1996,oil_of_rice_bran,1.0
+216,28,Thailand,Myanmar,1997,oil_of_rice_bran,2.0
+216,28,Thailand,Myanmar,1998,oil_of_rice_bran,15.0
+216,28,Thailand,Myanmar,1999,oil_of_rice_bran,1.0
+216,28,Thailand,Myanmar,2000,oil_of_rice_bran,23.0
+216,28,Thailand,Myanmar,2001,oil_of_rice_bran,2.0
+216,28,Thailand,Myanmar,2002,oil_of_rice_bran,3.0
+216,28,Thailand,Myanmar,2003,oil_of_rice_bran,41.0
+216,28,Thailand,Myanmar,2004,oil_of_rice_bran,49.0
+216,28,Thailand,Myanmar,2005,oil_of_rice_bran,15.0
+216,28,Thailand,Myanmar,2006,oil_of_rice_bran,452.0
+216,28,Thailand,Myanmar,2007,oil_of_rice_bran,644.0
+216,28,Thailand,Myanmar,2008,oil_of_rice_bran,205.0
+216,28,Thailand,Myanmar,2009,oil_of_rice_bran,62.0
+216,28,Thailand,Myanmar,2010,oil_of_rice_bran,198.0
+216,28,Thailand,Myanmar,2011,oil_of_rice_bran,61.0
+216,28,Thailand,Myanmar,2012,oil_of_rice_bran,52.0
+216,28,Thailand,Myanmar,2013,oil_of_rice_bran,4.0
+216,28,Thailand,Myanmar,2014,oil_of_rice_bran,18.89
+216,28,Thailand,Myanmar,2016,oil_of_rice_bran,0.08
+216,28,Thailand,Myanmar,2017,oil_of_rice_bran,10.98
+216,28,Thailand,Myanmar,2018,oil_of_rice_bran,5.35
+216,28,Thailand,Myanmar,2020,oil_of_rice_bran,2.49
+216,147,Thailand,Namibia,2020,oil_of_rice_bran,13.7
+216,149,Thailand,Nepal,2021,oil_of_rice_bran,0.12
+216,149,Thailand,Nepal,2022,oil_of_rice_bran,0.24
+216,149,Thailand,Nepal,2023,oil_of_rice_bran,0.36
+21,202,Brazil,South Africa,1989,oil_of_rice_bran,500.0
+21,202,Brazil,South Africa,1990,oil_of_rice_bran,14.0
+21,202,Brazil,South Africa,1991,oil_of_rice_bran,500.0
+216,150,Thailand,Netherlands (Kingdom of the),2000,oil_of_rice_bran,20.0
+216,150,Thailand,Netherlands (Kingdom of the),2006,oil_of_rice_bran,6.0
+216,150,Thailand,Netherlands (Kingdom of the),2007,oil_of_rice_bran,150.0
+216,150,Thailand,Netherlands (Kingdom of the),2008,oil_of_rice_bran,1052.0
+216,150,Thailand,Netherlands (Kingdom of the),2009,oil_of_rice_bran,213.0
+216,150,Thailand,Netherlands (Kingdom of the),2010,oil_of_rice_bran,449.0
+216,150,Thailand,Netherlands (Kingdom of the),2011,oil_of_rice_bran,332.0
+216,150,Thailand,Netherlands (Kingdom of the),2012,oil_of_rice_bran,291.0
+216,150,Thailand,Netherlands (Kingdom of the),2013,oil_of_rice_bran,319.0
+216,150,Thailand,Netherlands (Kingdom of the),2014,oil_of_rice_bran,400.87
+216,150,Thailand,Netherlands (Kingdom of the),2017,oil_of_rice_bran,477.87
+216,150,Thailand,Netherlands (Kingdom of the),2018,oil_of_rice_bran,418.26
+216,150,Thailand,Netherlands (Kingdom of the),2020,oil_of_rice_bran,565.71
+216,156,Thailand,New Zealand,2005,oil_of_rice_bran,5.0
+216,156,Thailand,New Zealand,2006,oil_of_rice_bran,59.0
+216,156,Thailand,New Zealand,2007,oil_of_rice_bran,235.0
+216,156,Thailand,New Zealand,2008,oil_of_rice_bran,782.0
+216,156,Thailand,New Zealand,2009,oil_of_rice_bran,2214.0
+216,156,Thailand,New Zealand,2010,oil_of_rice_bran,2180.0
+216,156,Thailand,New Zealand,2011,oil_of_rice_bran,2533.0
+216,156,Thailand,New Zealand,2012,oil_of_rice_bran,2867.0
+216,156,Thailand,New Zealand,2013,oil_of_rice_bran,2624.0
+216,156,Thailand,New Zealand,2014,oil_of_rice_bran,2639.34
+216,156,Thailand,New Zealand,2015,oil_of_rice_bran,0.12
+216,156,Thailand,New Zealand,2017,oil_of_rice_bran,2544.15
+216,156,Thailand,New Zealand,2018,oil_of_rice_bran,2009.05
+216,156,Thailand,New Zealand,2019,oil_of_rice_bran,0.24
+216,156,Thailand,New Zealand,2020,oil_of_rice_bran,1951.73
+216,156,Thailand,New Zealand,2021,oil_of_rice_bran,0.07
+216,159,Thailand,Nigeria,2017,oil_of_rice_bran,6.66
+216,159,Thailand,Nigeria,2020,oil_of_rice_bran,42.97
+216,162,Thailand,Norway,2009,oil_of_rice_bran,7.0
+216,162,Thailand,Norway,2012,oil_of_rice_bran,3.0
+216,162,Thailand,Norway,2013,oil_of_rice_bran,3.0
+216,162,Thailand,Norway,2020,oil_of_rice_bran,1.67
+216,221,Thailand,Oman,2020,oil_of_rice_bran,0.57
+216,165,Thailand,Pakistan,2008,oil_of_rice_bran,1.0
+216,165,Thailand,Pakistan,2012,oil_of_rice_bran,12.0
+216,165,Thailand,Pakistan,2014,oil_of_rice_bran,13.71
+216,165,Thailand,Pakistan,2017,oil_of_rice_bran,0.33
+216,165,Thailand,Pakistan,2020,oil_of_rice_bran,6.56
+216,171,Thailand,Philippines,2004,oil_of_rice_bran,12.0
+216,171,Thailand,Philippines,2009,oil_of_rice_bran,15.0
+216,171,Thailand,Philippines,2010,oil_of_rice_bran,16.0
+216,171,Thailand,Philippines,2014,oil_of_rice_bran,0.02
+216,171,Thailand,Philippines,2017,oil_of_rice_bran,22.36
+216,171,Thailand,Philippines,2018,oil_of_rice_bran,21.26
+216,171,Thailand,Philippines,2020,oil_of_rice_bran,44.22
+216,173,Thailand,Poland,2003,oil_of_rice_bran,48.0
+216,173,Thailand,Poland,2004,oil_of_rice_bran,74.0
+216,173,Thailand,Poland,2005,oil_of_rice_bran,23.0
+216,173,Thailand,Poland,2006,oil_of_rice_bran,80.0
+216,173,Thailand,Poland,2007,oil_of_rice_bran,144.0
+216,173,Thailand,Poland,2008,oil_of_rice_bran,220.0
+216,173,Thailand,Poland,2009,oil_of_rice_bran,387.0
+216,173,Thailand,Poland,2010,oil_of_rice_bran,364.0
+216,173,Thailand,Poland,2011,oil_of_rice_bran,322.0
+216,173,Thailand,Poland,2012,oil_of_rice_bran,229.0
+216,173,Thailand,Poland,2013,oil_of_rice_bran,269.0
+216,173,Thailand,Poland,2014,oil_of_rice_bran,172.59
+216,173,Thailand,Poland,2017,oil_of_rice_bran,75.06
+216,173,Thailand,Poland,2018,oil_of_rice_bran,66.38
+216,173,Thailand,Poland,2020,oil_of_rice_bran,52.78
+216,179,Thailand,Qatar,2020,oil_of_rice_bran,7.72
+216,117,Thailand,Republic of Korea,1991,oil_of_rice_bran,2120.0
+216,117,Thailand,Republic of Korea,1993,oil_of_rice_bran,120.0
+216,117,Thailand,Republic of Korea,1994,oil_of_rice_bran,440.0
+216,117,Thailand,Republic of Korea,1995,oil_of_rice_bran,430.0
+216,117,Thailand,Republic of Korea,1996,oil_of_rice_bran,420.0
+216,117,Thailand,Republic of Korea,2002,oil_of_rice_bran,500.0
+216,117,Thailand,Republic of Korea,2003,oil_of_rice_bran,18.0
+216,117,Thailand,Republic of Korea,2004,oil_of_rice_bran,35.0
+216,117,Thailand,Republic of Korea,2005,oil_of_rice_bran,1435.0
+216,117,Thailand,Republic of Korea,2006,oil_of_rice_bran,839.0
+216,117,Thailand,Republic of Korea,2007,oil_of_rice_bran,1794.0
+216,117,Thailand,Republic of Korea,2008,oil_of_rice_bran,5211.0
+216,117,Thailand,Republic of Korea,2009,oil_of_rice_bran,9707.0
+216,117,Thailand,Republic of Korea,2010,oil_of_rice_bran,9721.0
+216,117,Thailand,Republic of Korea,2011,oil_of_rice_bran,12679.0
+216,117,Thailand,Republic of Korea,2012,oil_of_rice_bran,11966.0
+216,117,Thailand,Republic of Korea,2013,oil_of_rice_bran,10449.0
+216,117,Thailand,Republic of Korea,2014,oil_of_rice_bran,14207.25
+216,117,Thailand,Republic of Korea,2017,oil_of_rice_bran,11287.13
+216,117,Thailand,Republic of Korea,2018,oil_of_rice_bran,11561.41
+216,117,Thailand,Republic of Korea,2020,oil_of_rice_bran,11465.41
+21,231,Brazil,United States of America,1990,oil_of_rice_bran,5.0
+21,231,Brazil,United States of America,1991,oil_of_rice_bran,16.0
+216,185,Thailand,Russian Federation,2017,oil_of_rice_bran,0.22
+216,185,Thailand,Russian Federation,2018,oil_of_rice_bran,80.12
+216,185,Thailand,Russian Federation,2020,oil_of_rice_bran,0.19
+216,194,Thailand,Saudi Arabia,2017,oil_of_rice_bran,91.36
+216,194,Thailand,Saudi Arabia,2020,oil_of_rice_bran,19.82
+21,234,Brazil,Uruguay,1986,oil_of_rice_bran,6.0
+21,234,Brazil,Uruguay,1991,oil_of_rice_bran,15.0
+21,234,Brazil,Uruguay,1992,oil_of_rice_bran,90.0
+21,234,Brazil,Uruguay,1993,oil_of_rice_bran,376.0
+21,234,Brazil,Uruguay,1994,oil_of_rice_bran,25.0
+216,196,Thailand,Seychelles,2017,oil_of_rice_bran,0.11
+216,196,Thailand,Seychelles,2018,oil_of_rice_bran,0.88
+216,196,Thailand,Seychelles,2020,oil_of_rice_bran,0.43
+216,200,Thailand,Singapore,1986,oil_of_rice_bran,1.0
+216,200,Thailand,Singapore,1987,oil_of_rice_bran,8.0
+216,200,Thailand,Singapore,1988,oil_of_rice_bran,14.0
+216,200,Thailand,Singapore,1989,oil_of_rice_bran,44.0
+216,200,Thailand,Singapore,1990,oil_of_rice_bran,14.0
+216,200,Thailand,Singapore,1992,oil_of_rice_bran,140.0
+216,200,Thailand,Singapore,1993,oil_of_rice_bran,240.0
+216,200,Thailand,Singapore,1994,oil_of_rice_bran,120.0
+216,200,Thailand,Singapore,1998,oil_of_rice_bran,3.0
+216,200,Thailand,Singapore,1999,oil_of_rice_bran,1.0
+216,200,Thailand,Singapore,2000,oil_of_rice_bran,1.0
+216,200,Thailand,Singapore,2002,oil_of_rice_bran,28.0
+216,200,Thailand,Singapore,2003,oil_of_rice_bran,239.0
+216,200,Thailand,Singapore,2004,oil_of_rice_bran,616.0
+216,200,Thailand,Singapore,2005,oil_of_rice_bran,820.0
+216,200,Thailand,Singapore,2007,oil_of_rice_bran,139.0
+216,200,Thailand,Singapore,2008,oil_of_rice_bran,516.0
+216,200,Thailand,Singapore,2009,oil_of_rice_bran,498.0
+216,200,Thailand,Singapore,2010,oil_of_rice_bran,569.0
+216,200,Thailand,Singapore,2011,oil_of_rice_bran,538.0
+216,200,Thailand,Singapore,2012,oil_of_rice_bran,458.0
+216,200,Thailand,Singapore,2013,oil_of_rice_bran,511.0
+216,200,Thailand,Singapore,2014,oil_of_rice_bran,548.24
+216,200,Thailand,Singapore,2017,oil_of_rice_bran,647.43
+216,200,Thailand,Singapore,2018,oil_of_rice_bran,772.44
+216,200,Thailand,Singapore,2019,oil_of_rice_bran,0.08
+216,200,Thailand,Singapore,2020,oil_of_rice_bran,1073.53
+216,199,Thailand,Slovakia,2018,oil_of_rice_bran,0.19
+216,199,Thailand,Slovakia,2019,oil_of_rice_bran,0.65
+216,202,Thailand,South Africa,2004,oil_of_rice_bran,18.0
+216,202,Thailand,South Africa,2009,oil_of_rice_bran,12.0
+216,202,Thailand,South Africa,2010,oil_of_rice_bran,16.0
+216,202,Thailand,South Africa,2011,oil_of_rice_bran,18.0
+216,202,Thailand,South Africa,2013,oil_of_rice_bran,19.0
+216,202,Thailand,South Africa,2014,oil_of_rice_bran,0.4
+216,202,Thailand,South Africa,2017,oil_of_rice_bran,8.17
+216,202,Thailand,South Africa,2018,oil_of_rice_bran,2.22
+216,202,Thailand,South Africa,2020,oil_of_rice_bran,15.92
+216,203,Thailand,Spain,2011,oil_of_rice_bran,3.0
+216,203,Thailand,Spain,2012,oil_of_rice_bran,5.0
+216,203,Thailand,Spain,2013,oil_of_rice_bran,63.0
+216,203,Thailand,Spain,2017,oil_of_rice_bran,41.99
+216,203,Thailand,Spain,2018,oil_of_rice_bran,83.99
+216,203,Thailand,Spain,2020,oil_of_rice_bran,146.92
+216,38,Thailand,Sri Lanka,2000,oil_of_rice_bran,4.0
+216,38,Thailand,Sri Lanka,2010,oil_of_rice_bran,1.0
+216,38,Thailand,Sri Lanka,2017,oil_of_rice_bran,0.03
+216,38,Thailand,Sri Lanka,2020,oil_of_rice_bran,1.45
+216,210,Thailand,Sweden,2009,oil_of_rice_bran,5.0
+216,210,Thailand,Sweden,2010,oil_of_rice_bran,12.0
+216,210,Thailand,Sweden,2014,oil_of_rice_bran,0.1
+216,210,Thailand,Sweden,2017,oil_of_rice_bran,0.04
+216,211,Thailand,Switzerland,2008,oil_of_rice_bran,42.0
+216,211,Thailand,Switzerland,2017,oil_of_rice_bran,0.02
+216,211,Thailand,Switzerland,2018,oil_of_rice_bran,0.05
+216,211,Thailand,Switzerland,2020,oil_of_rice_bran,0.39
+216,223,Thailand,Türkiye,2020,oil_of_rice_bran,81.46
+216,230,Thailand,Ukraine,2010,oil_of_rice_bran,10.0
+216,230,Thailand,Ukraine,2011,oil_of_rice_bran,14.0
+216,230,Thailand,Ukraine,2012,oil_of_rice_bran,14.0
+216,230,Thailand,Ukraine,2013,oil_of_rice_bran,14.0
+216,230,Thailand,Ukraine,2014,oil_of_rice_bran,13.8
+216,230,Thailand,Ukraine,2017,oil_of_rice_bran,11.89
+216,230,Thailand,Ukraine,2018,oil_of_rice_bran,10.79
+216,230,Thailand,Ukraine,2020,oil_of_rice_bran,13.2
+216,225,Thailand,United Arab Emirates,2008,oil_of_rice_bran,3.0
+216,225,Thailand,United Arab Emirates,2010,oil_of_rice_bran,164.0
+216,225,Thailand,United Arab Emirates,2011,oil_of_rice_bran,152.0
+216,225,Thailand,United Arab Emirates,2012,oil_of_rice_bran,177.0
+216,225,Thailand,United Arab Emirates,2013,oil_of_rice_bran,109.0
+216,225,Thailand,United Arab Emirates,2014,oil_of_rice_bran,56.11
+216,225,Thailand,United Arab Emirates,2017,oil_of_rice_bran,123.71
+216,225,Thailand,United Arab Emirates,2018,oil_of_rice_bran,59.83
+216,225,Thailand,United Arab Emirates,2020,oil_of_rice_bran,62.2
+216,225,Thailand,United Arab Emirates,2021,oil_of_rice_bran,0.07
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2008,oil_of_rice_bran,30.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2009,oil_of_rice_bran,192.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2010,oil_of_rice_bran,210.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2011,oil_of_rice_bran,255.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2012,oil_of_rice_bran,298.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2013,oil_of_rice_bran,372.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2014,oil_of_rice_bran,327.91
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2017,oil_of_rice_bran,381.1
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2018,oil_of_rice_bran,327.34
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2020,oil_of_rice_bran,366.12
+216,231,Thailand,United States of America,1996,oil_of_rice_bran,1.0
+216,231,Thailand,United States of America,2003,oil_of_rice_bran,50.0
+216,231,Thailand,United States of America,2004,oil_of_rice_bran,539.0
+216,231,Thailand,United States of America,2005,oil_of_rice_bran,48.0
+216,231,Thailand,United States of America,2006,oil_of_rice_bran,104.0
+216,231,Thailand,United States of America,2007,oil_of_rice_bran,2177.0
+216,231,Thailand,United States of America,2008,oil_of_rice_bran,4886.0
+216,231,Thailand,United States of America,2009,oil_of_rice_bran,3043.0
+216,231,Thailand,United States of America,2010,oil_of_rice_bran,3226.0
+216,231,Thailand,United States of America,2011,oil_of_rice_bran,2251.0
+216,231,Thailand,United States of America,2012,oil_of_rice_bran,2029.0
+216,231,Thailand,United States of America,2013,oil_of_rice_bran,1953.0
+216,231,Thailand,United States of America,2014,oil_of_rice_bran,4874.65
+216,231,Thailand,United States of America,2016,oil_of_rice_bran,0.21
+216,231,Thailand,United States of America,2017,oil_of_rice_bran,2505.82
+216,231,Thailand,United States of America,2018,oil_of_rice_bran,3273.74
+216,231,Thailand,United States of America,2020,oil_of_rice_bran,1373.25
+216,234,Thailand,Uruguay,2020,oil_of_rice_bran,0.01
+216,235,Thailand,Uzbekistan,2020,oil_of_rice_bran,0.09
+216,237,Thailand,Viet Nam,1995,oil_of_rice_bran,26.0
+216,237,Thailand,Viet Nam,1998,oil_of_rice_bran,37.0
+216,237,Thailand,Viet Nam,2004,oil_of_rice_bran,4.0
+216,237,Thailand,Viet Nam,2007,oil_of_rice_bran,4.0
+216,237,Thailand,Viet Nam,2009,oil_of_rice_bran,316.0
+216,237,Thailand,Viet Nam,2010,oil_of_rice_bran,2599.0
+216,237,Thailand,Viet Nam,2011,oil_of_rice_bran,1278.0
+216,237,Thailand,Viet Nam,2012,oil_of_rice_bran,1477.0
+216,237,Thailand,Viet Nam,2013,oil_of_rice_bran,924.0
+216,237,Thailand,Viet Nam,2014,oil_of_rice_bran,7.72
+216,237,Thailand,Viet Nam,2017,oil_of_rice_bran,43.01
+216,237,Thailand,Viet Nam,2018,oil_of_rice_bran,87.0
+216,237,Thailand,Viet Nam,2020,oil_of_rice_bran,38.05

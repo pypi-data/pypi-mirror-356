@@ -1,0 +1,903 @@
+o_code,d_code,o_name,d_name,year,item,weight
+114,2,Kenya,Afghanistan,2018,okra,7.0
+114,2,Kenya,Afghanistan,2019,okra,4.71
+114,2,Kenya,Afghanistan,2020,okra,1.15
+114,4,Kenya,Algeria,2021,okra,0.24
+114,9,Kenya,Argentina,2023,okra,0.2
+14,8,Barbados,Antigua and Barbuda,1994,okra,3.0
+14,8,Barbados,Antigua and Barbuda,1995,okra,4.0
+114,10,Kenya,Australia,2016,okra,1.71
+114,10,Kenya,Australia,2017,okra,0.02
+114,10,Kenya,Australia,2018,okra,1.06
+114,10,Kenya,Australia,2019,okra,0.11
+114,10,Kenya,Australia,2021,okra,1.04
+114,10,Kenya,Australia,2022,okra,0.1
+114,10,Kenya,Australia,2023,okra,0.55
+220,8,Trinidad and Tobago,Antigua and Barbuda,1994,okra,3.0
+220,8,Trinidad and Tobago,Antigua and Barbuda,1995,okra,2.0
+221,10,Oman,Australia,2020,okra,1.53
+114,11,Kenya,Austria,2013,okra,3.0
+114,13,Kenya,Bahrain,2013,okra,4.0
+114,13,Kenya,Bahrain,2016,okra,14.01
+114,13,Kenya,Bahrain,2017,okra,8.61
+114,13,Kenya,Bahrain,2018,okra,36.0
+114,13,Kenya,Bahrain,2019,okra,9.81
+114,13,Kenya,Bahrain,2020,okra,5.72
+114,13,Kenya,Bahrain,2021,okra,1.4
+114,13,Kenya,Bahrain,2022,okra,18.68
+114,13,Kenya,Bahrain,2023,okra,20.27
+91,14,Guyana,Barbados,1997,okra,1.0
+91,14,Guyana,Barbados,2000,okra,171.0
+114,57,Kenya,Belarus,2016,okra,0.27
+114,57,Kenya,Belarus,2022,okra,0.28
+114,255,Kenya,Belgium,2013,okra,31.0
+114,255,Kenya,Belgium,2016,okra,12.36
+114,255,Kenya,Belgium,2017,okra,59.73
+114,255,Kenya,Belgium,2018,okra,161.74
+114,255,Kenya,Belgium,2019,okra,44.76
+114,255,Kenya,Belgium,2020,okra,99.93
+114,255,Kenya,Belgium,2021,okra,272.63
+114,255,Kenya,Belgium,2022,okra,179.24
+114,255,Kenya,Belgium,2023,okra,449.44
+225,4,United Arab Emirates,Algeria,2003,okra,127.0
+221,13,Oman,Bahrain,2020,okra,6.18
+221,13,Oman,Bahrain,2021,okra,2.03
+4,33,Algeria,Canada,2013,okra,1.0
+4,33,Algeria,Canada,2016,okra,12.54
+4,33,Algeria,Canada,2017,okra,25.7
+112,13,Jordan,Bahrain,1986,okra,1.0
+112,13,Jordan,Bahrain,1987,okra,2.0
+112,13,Jordan,Bahrain,1988,okra,4.0
+112,13,Jordan,Bahrain,1990,okra,3.0
+112,13,Jordan,Bahrain,1991,okra,7.0
+112,13,Jordan,Bahrain,1997,okra,6.0
+112,13,Jordan,Bahrain,1999,okra,2.0
+112,13,Jordan,Bahrain,2000,okra,8.0
+112,13,Jordan,Bahrain,2001,okra,1.0
+112,13,Jordan,Bahrain,2002,okra,2.0
+112,13,Jordan,Bahrain,2003,okra,47.0
+112,13,Jordan,Bahrain,2004,okra,8.0
+112,13,Jordan,Bahrain,2005,okra,1.0
+112,13,Jordan,Bahrain,2007,okra,49.0
+112,13,Jordan,Bahrain,2011,okra,5.0
+66,10,Fiji,Australia,1986,okra,24.0
+66,10,Fiji,Australia,1987,okra,9.0
+66,10,Fiji,Australia,1988,okra,24.0
+66,10,Fiji,Australia,1989,okra,35.0
+66,10,Fiji,Australia,1990,okra,51.0
+66,10,Fiji,Australia,1991,okra,57.0
+66,10,Fiji,Australia,1994,okra,62.0
+114,80,Kenya,Bosnia and Herzegovina,2016,okra,6.26
+114,80,Kenya,Bosnia and Herzegovina,2017,okra,0.24
+114,80,Kenya,Bosnia and Herzegovina,2019,okra,7.89
+114,20,Kenya,Botswana,2021,okra,0.41
+59,11,Egypt,Austria,1991,okra,3.0
+59,11,Egypt,Austria,1992,okra,6.0
+59,11,Egypt,Austria,1993,okra,3.0
+59,11,Egypt,Austria,1994,okra,9.0
+59,11,Egypt,Austria,1995,okra,3.0
+59,11,Egypt,Austria,2001,okra,1.0
+114,21,Kenya,Brazil,2016,okra,0.61
+114,27,Kenya,Bulgaria,2018,okra,2.83
+114,27,Kenya,Bulgaria,2019,okra,0.68
+114,27,Kenya,Bulgaria,2021,okra,3.05
+212,118,Syrian Arab Republic,Kuwait,1989,okra,5.0
+114,35,Kenya,Cabo Verde,2013,okra,1.0
+114,35,Kenya,Cabo Verde,2023,okra,0.15
+59,13,Egypt,Bahrain,1989,okra,1.0
+59,13,Egypt,Bahrain,1990,okra,5.0
+59,13,Egypt,Bahrain,1992,okra,3.0
+59,13,Egypt,Bahrain,1998,okra,1.0
+59,13,Egypt,Bahrain,2003,okra,2.0
+59,13,Egypt,Bahrain,2007,okra,3.0
+114,32,Kenya,Cameroon,2023,okra,0.57
+212,121,Syrian Arab Republic,Lebanon,1988,okra,29.0
+212,121,Syrian Arab Republic,Lebanon,1989,okra,302.0
+212,121,Syrian Arab Republic,Lebanon,1998,okra,269.0
+212,121,Syrian Arab Republic,Lebanon,1999,okra,799.0
+212,121,Syrian Arab Republic,Lebanon,2002,okra,87.0
+212,121,Syrian Arab Republic,Lebanon,2004,okra,238.0
+114,33,Kenya,Canada,2016,okra,0.01
+114,33,Kenya,Canada,2017,okra,2.98
+114,33,Kenya,Canada,2019,okra,2.65
+114,33,Kenya,Canada,2021,okra,0.02
+91,33,Guyana,Canada,1997,okra,15.0
+91,33,Guyana,Canada,1998,okra,20.0
+91,33,Guyana,Canada,1999,okra,3.0
+91,33,Guyana,Canada,2000,okra,37.0
+14,33,Barbados,Canada,1986,okra,5.0
+14,33,Barbados,Canada,1987,okra,2.0
+14,33,Barbados,Canada,1988,okra,5.0
+14,33,Barbados,Canada,1989,okra,3.0
+14,33,Barbados,Canada,1990,okra,8.0
+14,33,Barbados,Canada,1991,okra,2.0
+14,33,Barbados,Canada,1992,okra,7.0
+14,33,Barbados,Canada,1993,okra,16.0
+14,33,Barbados,Canada,1994,okra,24.0
+14,33,Barbados,Canada,1995,okra,29.0
+14,33,Barbados,Canada,1996,okra,60.0
+14,33,Barbados,Canada,1997,okra,45.0
+14,33,Barbados,Canada,1998,okra,17.0
+109,33,Jamaica,Canada,1986,okra,4.0
+109,33,Jamaica,Canada,2014,okra,0.17
+109,33,Jamaica,Canada,2016,okra,0.01
+109,33,Jamaica,Canada,2017,okra,0.29
+109,33,Jamaica,Canada,2020,okra,0.13
+109,33,Jamaica,Canada,2022,okra,0.16
+109,33,Jamaica,Canada,2023,okra,0.11
+50,255,Cyprus,Belgium,2003,okra,1.0
+114,96,Kenya,"China, Hong Kong SAR",2013,okra,19.0
+114,96,Kenya,"China, Hong Kong SAR",2016,okra,1.56
+114,96,Kenya,"China, Hong Kong SAR",2017,okra,10.7
+114,96,Kenya,"China, Hong Kong SAR",2018,okra,19.36
+114,96,Kenya,"China, Hong Kong SAR",2019,okra,29.47
+114,96,Kenya,"China, Hong Kong SAR",2020,okra,24.51
+114,96,Kenya,"China, Hong Kong SAR",2021,okra,6.85
+114,96,Kenya,"China, Hong Kong SAR",2022,okra,1.27
+114,96,Kenya,"China, Hong Kong SAR",2023,okra,44.07
+212,221,Syrian Arab Republic,Oman,1992,okra,1.0
+212,221,Syrian Arab Republic,Oman,1998,okra,1079.0
+212,221,Syrian Arab Republic,Oman,1999,okra,1086.0
+212,185,Syrian Arab Republic,Russian Federation,1998,okra,511.0
+212,185,Syrian Arab Republic,Russian Federation,1999,okra,435.0
+66,33,Fiji,Canada,1986,okra,27.0
+66,33,Fiji,Canada,1987,okra,35.0
+66,33,Fiji,Canada,1988,okra,18.0
+66,33,Fiji,Canada,1989,okra,14.0
+66,33,Fiji,Canada,1990,okra,14.0
+66,33,Fiji,Canada,1991,okra,10.0
+66,33,Fiji,Canada,1994,okra,1.0
+114,41,Kenya,"China, mainland",2013,okra,1.0
+114,41,Kenya,"China, mainland",2016,okra,0.5
+114,41,Kenya,"China, mainland",2017,okra,8.47
+114,41,Kenya,"China, mainland",2018,okra,7.21
+114,41,Kenya,"China, mainland",2019,okra,0.4
+114,41,Kenya,"China, mainland",2020,okra,0.33
+114,41,Kenya,"China, mainland",2021,okra,1.06
+114,41,Kenya,"China, mainland",2022,okra,2.5
+114,41,Kenya,"China, mainland",2023,okra,5.71
+212,194,Syrian Arab Republic,Saudi Arabia,1988,okra,60.0
+221,41,Oman,"China, mainland",2015,okra,0.01
+114,46,Kenya,Congo,2022,okra,0.14
+4,68,Algeria,France,2012,okra,1.0
+4,68,Algeria,France,2013,okra,2.0
+4,68,Algeria,France,2014,okra,0.01
+4,68,Algeria,France,2015,okra,0.69
+4,68,Algeria,France,2016,okra,23.02
+4,68,Algeria,France,2017,okra,8.44
+114,50,Kenya,Cyprus,2021,okra,0.72
+223,10,Türkiye,Australia,1993,okra,21.0
+114,167,Kenya,Czechia,2017,okra,3.4
+221,54,Oman,Denmark,2020,okra,0.68
+23,231,Belize,United States of America,1986,okra,37.0
+23,231,Belize,United States of America,1994,okra,5.0
+23,231,Belize,United States of America,1995,okra,28.0
+212,225,Syrian Arab Republic,United Arab Emirates,1987,okra,5.0
+212,225,Syrian Arab Republic,United Arab Emirates,1988,okra,12.0
+212,225,Syrian Arab Republic,United Arab Emirates,1989,okra,3.0
+212,225,Syrian Arab Republic,United Arab Emirates,1998,okra,3707.0
+212,225,Syrian Arab Republic,United Arab Emirates,1999,okra,4422.0
+220,33,Trinidad and Tobago,Canada,1986,okra,4.0
+220,33,Trinidad and Tobago,Canada,1987,okra,5.0
+220,33,Trinidad and Tobago,Canada,1988,okra,6.0
+220,33,Trinidad and Tobago,Canada,1989,okra,7.0
+220,33,Trinidad and Tobago,Canada,1990,okra,6.0
+220,33,Trinidad and Tobago,Canada,1991,okra,2.0
+220,33,Trinidad and Tobago,Canada,1992,okra,13.0
+220,33,Trinidad and Tobago,Canada,1993,okra,24.0
+220,33,Trinidad and Tobago,Canada,1994,okra,21.0
+220,33,Trinidad and Tobago,Canada,1995,okra,18.0
+220,33,Trinidad and Tobago,Canada,1996,okra,29.0
+220,33,Trinidad and Tobago,Canada,1997,okra,29.0
+220,33,Trinidad and Tobago,Canada,1998,okra,55.0
+114,250,Kenya,Democratic Republic of the Congo,2016,okra,3.49
+114,250,Kenya,Democratic Republic of the Congo,2017,okra,0.01
+114,250,Kenya,Democratic Republic of the Congo,2021,okra,381.05
+114,250,Kenya,Democratic Republic of the Congo,2022,okra,0.01
+114,250,Kenya,Democratic Republic of the Congo,2023,okra,6.31
+59,33,Egypt,Canada,2001,okra,1.0
+59,33,Egypt,Canada,2005,okra,1.0
+59,33,Egypt,Canada,2007,okra,28.0
+221,59,Oman,Egypt,2021,okra,0.02
+114,54,Kenya,Denmark,2013,okra,4.0
+114,54,Kenya,Denmark,2016,okra,23.32
+114,54,Kenya,Denmark,2017,okra,58.31
+114,54,Kenya,Denmark,2018,okra,76.57
+114,54,Kenya,Denmark,2019,okra,54.92
+114,54,Kenya,Denmark,2020,okra,62.01
+114,54,Kenya,Denmark,2021,okra,33.93
+114,54,Kenya,Denmark,2022,okra,42.47
+114,54,Kenya,Denmark,2023,okra,24.72
+4,79,Algeria,Germany,2017,okra,0.5
+114,72,Kenya,Djibouti,2016,okra,0.97
+114,72,Kenya,Djibouti,2017,okra,0.91
+114,72,Kenya,Djibouti,2020,okra,0.63
+114,72,Kenya,Djibouti,2021,okra,0.02
+114,72,Kenya,Djibouti,2022,okra,2.88
+114,56,Kenya,Dominican Republic,2022,okra,0.71
+112,54,Jordan,Denmark,1991,okra,1.0
+114,59,Kenya,Egypt,2021,okra,1.07
+223,11,Türkiye,Austria,1986,okra,11.0
+223,11,Türkiye,Austria,1987,okra,10.0
+223,11,Türkiye,Austria,1988,okra,12.0
+223,11,Türkiye,Austria,1989,okra,21.0
+223,11,Türkiye,Austria,1990,okra,12.0
+223,11,Türkiye,Austria,1991,okra,9.0
+223,11,Türkiye,Austria,1992,okra,9.0
+223,11,Türkiye,Austria,1993,okra,6.0
+223,11,Türkiye,Austria,1994,okra,22.0
+223,11,Türkiye,Austria,1995,okra,23.0
+59,41,Egypt,"China, mainland",2007,okra,25.0
+211,11,Switzerland,Austria,2010,okra,11.0
+114,209,Kenya,Eswatini,2020,okra,26.91
+114,209,Kenya,Eswatini,2021,okra,17.21
+114,209,Kenya,Eswatini,2022,okra,15.97
+114,209,Kenya,Eswatini,2023,okra,2.72
+114,238,Kenya,Ethiopia,2022,okra,1.83
+50,54,Cyprus,Denmark,1995,okra,1.0
+50,54,Cyprus,Denmark,2001,okra,5.0
+50,54,Cyprus,Denmark,2002,okra,3.0
+50,54,Cyprus,Denmark,2003,okra,17.0
+114,68,Kenya,France,2013,okra,320.0
+114,68,Kenya,France,2016,okra,441.47
+114,68,Kenya,France,2017,okra,560.23
+114,68,Kenya,France,2018,okra,924.73
+114,68,Kenya,France,2019,okra,657.12
+114,68,Kenya,France,2020,okra,754.43
+114,68,Kenya,France,2021,okra,896.71
+114,68,Kenya,France,2022,okra,932.5
+114,68,Kenya,France,2023,okra,624.43
+14,91,Barbados,Guyana,1988,okra,5.0
+138,33,Mexico,Canada,1986,okra,140.0
+138,33,Mexico,Canada,1987,okra,74.0
+138,33,Mexico,Canada,1988,okra,126.0
+4,118,Algeria,Kuwait,2016,okra,0.03
+4,118,Algeria,Kuwait,2017,okra,0.01
+114,74,Kenya,Gabon,2018,okra,0.04
+112,68,Jordan,France,2005,okra,1.0
+59,54,Egypt,Denmark,1995,okra,2.0
+114,79,Kenya,Germany,2013,okra,287.0
+114,79,Kenya,Germany,2016,okra,88.45
+114,79,Kenya,Germany,2017,okra,289.24
+114,79,Kenya,Germany,2018,okra,305.65
+114,79,Kenya,Germany,2019,okra,138.62
+114,79,Kenya,Germany,2020,okra,86.98
+114,79,Kenya,Germany,2021,okra,82.81
+114,79,Kenya,Germany,2022,okra,75.94
+114,79,Kenya,Germany,2023,okra,103.97
+221,100,Oman,India,2021,okra,3.5
+114,81,Kenya,Ghana,2017,okra,0.01
+112,79,Jordan,Germany,1997,okra,9.0
+112,79,Jordan,Germany,2000,okra,13.0
+114,84,Kenya,Greece,2017,okra,0.07
+114,86,Kenya,Grenada,2020,okra,0.74
+114,90,Kenya,Guinea,2020,okra,1.3
+4,221,Algeria,Oman,2016,okra,0.18
+50,68,Cyprus,France,1987,okra,87.0
+50,68,Cyprus,France,1993,okra,14.0
+50,68,Cyprus,France,1994,okra,8.0
+50,68,Cyprus,France,1995,okra,5.0
+50,68,Cyprus,France,1996,okra,1.0
+50,68,Cyprus,France,2000,okra,9.0
+50,68,Cyprus,France,2001,okra,106.0
+50,68,Cyprus,France,2002,okra,249.0
+50,68,Cyprus,France,2003,okra,288.0
+59,68,Egypt,France,1989,okra,2.0
+59,68,Egypt,France,1990,okra,5.0
+4,174,Algeria,Portugal,2017,okra,0.86
+4,179,Algeria,Qatar,2014,okra,0.01
+4,179,Algeria,Qatar,2016,okra,3.28
+4,179,Algeria,Qatar,2017,okra,44.97
+114,100,Kenya,India,2021,okra,3.52
+114,100,Kenya,India,2022,okra,2.09
+114,100,Kenya,India,2023,okra,2.84
+131,26,Malaysia,Brunei Darussalam,1989,okra,6.0
+131,26,Malaysia,Brunei Darussalam,1990,okra,5.0
+131,26,Malaysia,Brunei Darussalam,1991,okra,3.0
+131,26,Malaysia,Brunei Darussalam,1993,okra,61.0
+131,26,Malaysia,Brunei Darussalam,1996,okra,16.0
+131,26,Malaysia,Brunei Darussalam,1998,okra,68.0
+131,26,Malaysia,Brunei Darussalam,1999,okra,47.0
+131,26,Malaysia,Brunei Darussalam,2000,okra,58.0
+131,26,Malaysia,Brunei Darussalam,2001,okra,12.0
+4,194,Algeria,Saudi Arabia,2015,okra,0.04
+4,194,Algeria,Saudi Arabia,2017,okra,0.75
+114,101,Kenya,Indonesia,2021,okra,1.62
+114,101,Kenya,Indonesia,2022,okra,3.58
+114,101,Kenya,Indonesia,2023,okra,5.97
+114,102,Kenya,Iran (Islamic Republic of),2016,okra,6.65
+114,102,Kenya,Iran (Islamic Republic of),2018,okra,0.6
+14,150,Barbados,Netherlands (Kingdom of the),1986,okra,5.0
+14,150,Barbados,Netherlands (Kingdom of the),1987,okra,1.0
+14,150,Barbados,Netherlands (Kingdom of the),1988,okra,2.0
+14,150,Barbados,Netherlands (Kingdom of the),1993,okra,6.0
+14,150,Barbados,Netherlands (Kingdom of the),1994,okra,4.0
+14,150,Barbados,Netherlands (Kingdom of the),1997,okra,1.0
+221,106,Oman,Italy,2020,okra,0.93
+114,104,Kenya,Ireland,2013,okra,172.0
+114,104,Kenya,Ireland,2016,okra,149.78
+114,104,Kenya,Ireland,2017,okra,17.84
+114,104,Kenya,Ireland,2018,okra,5.22
+114,104,Kenya,Ireland,2019,okra,169.88
+114,104,Kenya,Ireland,2020,okra,188.16
+114,104,Kenya,Ireland,2021,okra,411.16
+114,104,Kenya,Ireland,2022,okra,258.83
+114,104,Kenya,Ireland,2023,okra,501.27
+114,105,Kenya,Israel,2013,okra,2.0
+114,105,Kenya,Israel,2018,okra,2.02
+114,105,Kenya,Israel,2021,okra,0.08
+114,105,Kenya,Israel,2022,okra,0.05
+59,79,Egypt,Germany,1993,okra,1.0
+59,79,Egypt,Germany,2001,okra,2.0
+59,79,Egypt,Germany,2003,okra,2.0
+59,79,Egypt,Germany,2006,okra,23.0
+59,79,Egypt,Germany,2007,okra,1.0
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2014,okra,0.04
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2015,okra,0.25
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2016,okra,0.02
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2019,okra,0.01
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2023,okra,0.01
+4,203,Algeria,Spain,2017,okra,3.68
+50,79,Cyprus,Germany,1993,okra,2.0
+50,79,Cyprus,Germany,2000,okra,2.0
+50,79,Cyprus,Germany,2001,okra,2.0
+50,79,Cyprus,Germany,2002,okra,1.0
+50,79,Cyprus,Germany,2003,okra,15.0
+114,106,Kenya,Italy,2018,okra,4.39
+114,106,Kenya,Italy,2019,okra,5.08
+114,106,Kenya,Italy,2020,okra,1.82
+114,106,Kenya,Italy,2021,okra,0.61
+114,106,Kenya,Italy,2022,okra,7.05
+114,106,Kenya,Italy,2023,okra,4.12
+112,103,Jordan,Iraq,1986,okra,2.0
+112,103,Jordan,Iraq,1987,okra,2.0
+4,211,Algeria,Switzerland,2014,okra,0.01
+66,156,Fiji,New Zealand,1986,okra,9.0
+66,156,Fiji,New Zealand,1987,okra,9.0
+66,156,Fiji,New Zealand,1988,okra,30.0
+66,156,Fiji,New Zealand,1989,okra,27.0
+66,156,Fiji,New Zealand,1990,okra,31.0
+66,156,Fiji,New Zealand,1991,okra,38.0
+66,156,Fiji,New Zealand,1994,okra,62.0
+118,102,Kuwait,Iran (Islamic Republic of),1997,okra,4.0
+118,102,Kuwait,Iran (Islamic Republic of),1998,okra,1.0
+91,231,Guyana,United States of America,1997,okra,25.0
+91,231,Guyana,United States of America,1998,okra,9.0
+91,231,Guyana,United States of America,1999,okra,24.0
+91,231,Guyana,United States of America,2000,okra,69.0
+223,15,Türkiye,Belgium-Luxembourg,1993,okra,2.0
+59,84,Egypt,Greece,1987,okra,3.0
+59,84,Egypt,Greece,1990,okra,2.0
+59,84,Egypt,Greece,2001,okra,1.0
+59,84,Egypt,Greece,2002,okra,6.0
+59,84,Egypt,Greece,2003,okra,1.0
+59,84,Egypt,Greece,2004,okra,8.0
+59,84,Egypt,Greece,2005,okra,1.0
+59,84,Egypt,Greece,2006,okra,12.0
+114,110,Kenya,Japan,2016,okra,0.36
+114,110,Kenya,Japan,2019,okra,1.07
+114,110,Kenya,Japan,2021,okra,1.06
+114,110,Kenya,Japan,2022,okra,1.3
+221,118,Oman,Kuwait,2015,okra,0.12
+221,118,Oman,Kuwait,2016,okra,0.01
+221,118,Oman,Kuwait,2020,okra,5.49
+114,108,Kenya,Kazakhstan,2020,okra,0.15
+114,108,Kenya,Kazakhstan,2021,okra,0.26
+114,108,Kenya,Kazakhstan,2022,okra,4.2
+114,118,Kenya,Kuwait,2013,okra,2.0
+114,118,Kenya,Kuwait,2016,okra,31.63
+114,118,Kenya,Kuwait,2017,okra,44.57
+114,118,Kenya,Kuwait,2018,okra,52.33
+114,118,Kenya,Kuwait,2019,okra,17.08
+114,118,Kenya,Kuwait,2020,okra,3.28
+114,118,Kenya,Kuwait,2021,okra,4.03
+114,118,Kenya,Kuwait,2022,okra,24.1
+114,118,Kenya,Kuwait,2023,okra,66.73
+114,123,Kenya,Liberia,2018,okra,6.2
+114,123,Kenya,Liberia,2021,okra,0.48
+109,231,Jamaica,United States of America,1986,okra,33.0
+109,231,Jamaica,United States of America,2017,okra,0.02
+109,231,Jamaica,United States of America,2022,okra,0.03
+4,225,Algeria,United Arab Emirates,2014,okra,0.05
+4,225,Algeria,United Arab Emirates,2015,okra,3.76
+4,225,Algeria,United Arab Emirates,2016,okra,31.3
+4,225,Algeria,United Arab Emirates,2017,okra,33.13
+112,114,Jordan,Kenya,1988,okra,1111.0
+114,131,Kenya,Malaysia,2019,okra,0.06
+114,131,Kenya,Malaysia,2021,okra,0.03
+114,131,Kenya,Malaysia,2022,okra,1.02
+114,132,Kenya,Maldives,2023,okra,0.4
+114,134,Kenya,Malta,2016,okra,0.7
+114,127,Kenya,Marshall Islands,2021,okra,0.29
+4,229,Algeria,United Kingdom of Great Britain and Northern Ireland,2016,okra,1.32
+4,229,Algeria,United Kingdom of Great Britain and Northern Ireland,2017,okra,0.27
+50,84,Cyprus,Greece,1993,okra,5.0
+50,84,Cyprus,Greece,1996,okra,1.0
+112,118,Jordan,Kuwait,1986,okra,386.0
+112,118,Jordan,Kuwait,1987,okra,611.0
+112,118,Jordan,Kuwait,1990,okra,472.0
+112,118,Jordan,Kuwait,1997,okra,244.0
+112,118,Jordan,Kuwait,1999,okra,42.0
+112,118,Jordan,Kuwait,2000,okra,29.0
+112,118,Jordan,Kuwait,2002,okra,1.0
+112,118,Jordan,Kuwait,2003,okra,59.0
+112,118,Jordan,Kuwait,2004,okra,16.0
+112,118,Jordan,Kuwait,2006,okra,9.0
+112,118,Jordan,Kuwait,2007,okra,67.0
+112,118,Jordan,Kuwait,2009,okra,3.0
+112,118,Jordan,Kuwait,2011,okra,6.0
+220,150,Trinidad and Tobago,Netherlands (Kingdom of the),1986,okra,8.0
+220,150,Trinidad and Tobago,Netherlands (Kingdom of the),1987,okra,10.0
+220,150,Trinidad and Tobago,Netherlands (Kingdom of the),1988,okra,1.0
+220,150,Trinidad and Tobago,Netherlands (Kingdom of the),1989,okra,5.0
+114,150,Kenya,Netherlands (Kingdom of the),2013,okra,737.0
+114,150,Kenya,Netherlands (Kingdom of the),2016,okra,1056.8
+114,150,Kenya,Netherlands (Kingdom of the),2017,okra,1480.0
+114,150,Kenya,Netherlands (Kingdom of the),2018,okra,1979.43
+114,150,Kenya,Netherlands (Kingdom of the),2019,okra,1306.6
+114,150,Kenya,Netherlands (Kingdom of the),2020,okra,2082.09
+114,150,Kenya,Netherlands (Kingdom of the),2021,okra,1128.7
+114,150,Kenya,Netherlands (Kingdom of the),2022,okra,393.63
+114,150,Kenya,Netherlands (Kingdom of the),2023,okra,534.95
+112,121,Jordan,Lebanon,1993,okra,4.0
+112,121,Jordan,Lebanon,2003,okra,2.0
+112,121,Jordan,Lebanon,2007,okra,248.0
+112,121,Jordan,Lebanon,2011,okra,1.0
+114,159,Kenya,Nigeria,2023,okra,0.18
+131,96,Malaysia,"China, Hong Kong SAR",1994,okra,2.0
+131,96,Malaysia,"China, Hong Kong SAR",2001,okra,2.0
+114,162,Kenya,Norway,2013,okra,165.0
+114,162,Kenya,Norway,2016,okra,163.69
+114,162,Kenya,Norway,2017,okra,271.09
+114,162,Kenya,Norway,2018,okra,225.59
+114,162,Kenya,Norway,2019,okra,80.26
+114,162,Kenya,Norway,2020,okra,140.79
+114,162,Kenya,Norway,2021,okra,178.96
+114,162,Kenya,Norway,2022,okra,189.93
+114,162,Kenya,Norway,2023,okra,130.08
+59,106,Egypt,Italy,1998,okra,1.0
+59,106,Egypt,Italy,2001,okra,16.0
+59,106,Egypt,Italy,2006,okra,18.0
+59,106,Egypt,Italy,2007,okra,18.0
+114,221,Kenya,Oman,2013,okra,3.0
+114,221,Kenya,Oman,2016,okra,0.07
+114,221,Kenya,Oman,2017,okra,29.53
+114,221,Kenya,Oman,2018,okra,22.97
+114,221,Kenya,Oman,2019,okra,2.33
+114,221,Kenya,Oman,2020,okra,2.7
+114,221,Kenya,Oman,2021,okra,5.99
+114,221,Kenya,Oman,2022,okra,10.11
+114,221,Kenya,Oman,2023,okra,6.79
+221,162,Oman,Norway,2021,okra,3.5
+114,165,Kenya,Pakistan,2022,okra,2.9
+114,166,Kenya,Panama,2021,okra,0.2
+114,166,Kenya,Panama,2023,okra,0.03
+114,173,Kenya,Poland,2021,okra,0.34
+114,173,Kenya,Poland,2023,okra,0.42
+114,179,Kenya,Qatar,2013,okra,13.0
+114,179,Kenya,Qatar,2016,okra,53.54
+114,179,Kenya,Qatar,2017,okra,51.42
+114,179,Kenya,Qatar,2018,okra,130.03
+114,179,Kenya,Qatar,2019,okra,73.87
+114,179,Kenya,Qatar,2020,okra,78.1
+114,179,Kenya,Qatar,2021,okra,33.41
+114,179,Kenya,Qatar,2022,okra,27.04
+114,179,Kenya,Qatar,2023,okra,3.51
+59,112,Egypt,Jordan,1999,okra,8.0
+59,112,Egypt,Jordan,2002,okra,3.0
+114,185,Kenya,Russian Federation,2016,okra,5.9
+114,185,Kenya,Russian Federation,2017,okra,0.88
+114,185,Kenya,Russian Federation,2018,okra,6.78
+114,185,Kenya,Russian Federation,2019,okra,1.01
+114,185,Kenya,Russian Federation,2020,okra,21.23
+114,185,Kenya,Russian Federation,2021,okra,40.64
+114,185,Kenya,Russian Federation,2022,okra,14.97
+112,150,Jordan,Netherlands (Kingdom of the),1997,okra,25.0
+114,184,Kenya,Rwanda,2016,okra,1.33
+114,184,Kenya,Rwanda,2017,okra,0.35
+114,184,Kenya,Rwanda,2018,okra,0.18
+114,184,Kenya,Rwanda,2019,okra,0.04
+114,184,Kenya,Rwanda,2020,okra,0.01
+114,184,Kenya,Rwanda,2022,okra,0.02
+114,184,Kenya,Rwanda,2023,okra,10.03
+221,179,Oman,Qatar,2014,okra,0.36
+221,179,Oman,Qatar,2018,okra,1.4
+221,179,Oman,Qatar,2020,okra,64.63
+223,33,Türkiye,Canada,1989,okra,2.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1986,okra,10.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1987,okra,2.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1989,okra,1.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1990,okra,3.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1991,okra,4.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1992,okra,21.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1993,okra,54.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1994,okra,54.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1995,okra,49.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1996,okra,49.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1997,okra,40.0
+14,229,Barbados,United Kingdom of Great Britain and Northern Ireland,1998,okra,27.0
+114,194,Kenya,Saudi Arabia,2013,okra,4.0
+114,194,Kenya,Saudi Arabia,2016,okra,16.87
+114,194,Kenya,Saudi Arabia,2017,okra,14.03
+114,194,Kenya,Saudi Arabia,2018,okra,47.72
+114,194,Kenya,Saudi Arabia,2019,okra,12.6
+114,194,Kenya,Saudi Arabia,2020,okra,29.75
+114,194,Kenya,Saudi Arabia,2021,okra,45.33
+114,194,Kenya,Saudi Arabia,2022,okra,12.8
+114,194,Kenya,Saudi Arabia,2023,okra,13.91
+138,60,Mexico,El Salvador,1987,okra,4.0
+112,221,Jordan,Oman,1997,okra,7.0
+112,221,Jordan,Oman,2005,okra,1.0
+112,221,Jordan,Oman,2008,okra,1.0
+221,185,Oman,Russian Federation,2020,okra,7.19
+59,118,Egypt,Kuwait,1986,okra,71.0
+59,118,Egypt,Kuwait,1987,okra,37.0
+59,118,Egypt,Kuwait,1988,okra,44.0
+59,118,Egypt,Kuwait,1989,okra,38.0
+59,118,Egypt,Kuwait,1990,okra,29.0
+59,118,Egypt,Kuwait,1991,okra,93.0
+59,118,Egypt,Kuwait,1992,okra,49.0
+59,118,Egypt,Kuwait,1993,okra,99.0
+59,118,Egypt,Kuwait,1994,okra,59.0
+59,118,Egypt,Kuwait,1995,okra,13.0
+59,118,Egypt,Kuwait,1998,okra,7.0
+59,118,Egypt,Kuwait,1999,okra,18.0
+59,118,Egypt,Kuwait,2000,okra,2.0
+59,118,Egypt,Kuwait,2002,okra,18.0
+59,118,Egypt,Kuwait,2003,okra,1.0
+59,118,Egypt,Kuwait,2004,okra,24.0
+59,118,Egypt,Kuwait,2007,okra,20.0
+114,272,Kenya,Serbia,2013,okra,13.0
+114,196,Kenya,Seychelles,2013,okra,3.0
+114,196,Kenya,Seychelles,2016,okra,7.26
+114,196,Kenya,Seychelles,2017,okra,1.57
+114,196,Kenya,Seychelles,2018,okra,0.51
+114,196,Kenya,Seychelles,2019,okra,0.52
+50,106,Cyprus,Italy,2003,okra,39.0
+138,61,Mexico,Equatorial Guinea,1988,okra,2.0
+114,197,Kenya,Sierra Leone,2023,okra,0.15
+114,200,Kenya,Singapore,2013,okra,1.0
+114,200,Kenya,Singapore,2016,okra,4.69
+114,200,Kenya,Singapore,2017,okra,36.32
+114,200,Kenya,Singapore,2018,okra,20.0
+114,200,Kenya,Singapore,2019,okra,0.56
+114,200,Kenya,Singapore,2020,okra,2.72
+114,200,Kenya,Singapore,2021,okra,4.29
+114,200,Kenya,Singapore,2022,okra,7.26
+114,200,Kenya,Singapore,2023,okra,8.5
+114,198,Kenya,Slovenia,2023,okra,3.5
+221,194,Oman,Saudi Arabia,2014,okra,3.0
+221,194,Oman,Saudi Arabia,2020,okra,1.77
+221,194,Oman,Saudi Arabia,2021,okra,16.53
+59,121,Egypt,Lebanon,2003,okra,9.0
+114,201,Kenya,Somalia,2013,okra,55.0
+114,201,Kenya,Somalia,2016,okra,97.38
+114,201,Kenya,Somalia,2017,okra,146.05
+114,201,Kenya,Somalia,2018,okra,3166.78
+114,201,Kenya,Somalia,2019,okra,3080.37
+114,201,Kenya,Somalia,2020,okra,1036.98
+114,201,Kenya,Somalia,2021,okra,20.7
+114,201,Kenya,Somalia,2022,okra,112.65
+114,201,Kenya,Somalia,2023,okra,69.71
+138,68,Mexico,France,1986,okra,245.0
+138,68,Mexico,France,1987,okra,190.0
+138,68,Mexico,France,1988,okra,222.0
+221,200,Oman,Singapore,2020,okra,10.46
+221,200,Oman,Singapore,2021,okra,0.07
+50,118,Cyprus,Kuwait,1987,okra,34.0
+50,118,Cyprus,Kuwait,1995,okra,1.0
+112,179,Jordan,Qatar,1987,okra,7.0
+112,179,Jordan,Qatar,1988,okra,34.0
+112,179,Jordan,Qatar,1990,okra,8.0
+112,179,Jordan,Qatar,1991,okra,1.0
+112,179,Jordan,Qatar,1997,okra,16.0
+112,179,Jordan,Qatar,2000,okra,2.0
+112,179,Jordan,Qatar,2003,okra,30.0
+112,179,Jordan,Qatar,2004,okra,11.0
+112,179,Jordan,Qatar,2007,okra,57.0
+112,179,Jordan,Qatar,2008,okra,1.0
+112,179,Jordan,Qatar,2009,okra,4.0
+112,179,Jordan,Qatar,2011,okra,3.0
+59,124,Egypt,Libya,1991,okra,8.0
+114,202,Kenya,South Africa,2013,okra,217.0
+114,202,Kenya,South Africa,2016,okra,303.15
+114,202,Kenya,South Africa,2017,okra,48.58
+114,202,Kenya,South Africa,2018,okra,140.21
+114,202,Kenya,South Africa,2019,okra,125.23
+114,202,Kenya,South Africa,2020,okra,115.93
+114,202,Kenya,South Africa,2021,okra,178.27
+114,202,Kenya,South Africa,2022,okra,82.77
+114,202,Kenya,South Africa,2023,okra,74.71
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1986,okra,2.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1987,okra,9.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1988,okra,16.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1989,okra,8.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1991,okra,3.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1992,okra,4.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1993,okra,3.0
+220,229,Trinidad and Tobago,United Kingdom of Great Britain and Northern Ireland,1994,okra,3.0
+221,202,Oman,South Africa,2021,okra,2.4
+14,231,Barbados,United States of America,1987,okra,4.0
+14,231,Barbados,United States of America,1994,okra,1.0
+14,231,Barbados,United States of America,1996,okra,1.0
+114,277,Kenya,South Sudan,2016,okra,15.86
+114,277,Kenya,South Sudan,2017,okra,7.08
+114,277,Kenya,South Sudan,2018,okra,12.78
+114,277,Kenya,South Sudan,2019,okra,23.91
+114,277,Kenya,South Sudan,2020,okra,9.24
+114,277,Kenya,South Sudan,2021,okra,17.19
+114,277,Kenya,South Sudan,2022,okra,10.57
+114,277,Kenya,South Sudan,2023,okra,57.23
+114,203,Kenya,Spain,2016,okra,0.33
+114,203,Kenya,Spain,2017,okra,0.01
+114,203,Kenya,Spain,2018,okra,0.96
+114,203,Kenya,Spain,2019,okra,0.3
+114,203,Kenya,Spain,2020,okra,0.99
+114,203,Kenya,Spain,2021,okra,0.35
+114,203,Kenya,Spain,2022,okra,0.94
+114,203,Kenya,Spain,2023,okra,0.06
+112,194,Jordan,Saudi Arabia,1986,okra,121.0
+112,194,Jordan,Saudi Arabia,1987,okra,137.0
+112,194,Jordan,Saudi Arabia,1988,okra,180.0
+112,194,Jordan,Saudi Arabia,1990,okra,123.0
+112,194,Jordan,Saudi Arabia,1992,okra,22.0
+112,194,Jordan,Saudi Arabia,2007,okra,1.0
+114,276,Kenya,Sudan,2019,okra,0.69
+114,210,Kenya,Sweden,2013,okra,2.0
+114,210,Kenya,Sweden,2016,okra,22.17
+114,210,Kenya,Sweden,2017,okra,47.37
+114,210,Kenya,Sweden,2018,okra,11.24
+114,210,Kenya,Sweden,2019,okra,1.1
+114,210,Kenya,Sweden,2020,okra,4.66
+114,210,Kenya,Sweden,2021,okra,0.92
+114,210,Kenya,Sweden,2023,okra,6.71
+220,231,Trinidad and Tobago,United States of America,1990,okra,2.0
+220,231,Trinidad and Tobago,United States of America,1993,okra,4.0
+220,231,Trinidad and Tobago,United States of America,1996,okra,2.0
+220,231,Trinidad and Tobago,United States of America,1997,okra,10.0
+220,231,Trinidad and Tobago,United States of America,1998,okra,121.0
+114,211,Kenya,Switzerland,2013,okra,1.0
+114,211,Kenya,Switzerland,2016,okra,13.97
+114,211,Kenya,Switzerland,2017,okra,5.39
+114,211,Kenya,Switzerland,2018,okra,2.8
+114,211,Kenya,Switzerland,2019,okra,14.49
+114,211,Kenya,Switzerland,2020,okra,21.55
+114,211,Kenya,Switzerland,2021,okra,47.82
+114,211,Kenya,Switzerland,2022,okra,18.73
+114,211,Kenya,Switzerland,2023,okra,57.8
+59,150,Egypt,Netherlands (Kingdom of the),1994,okra,1.0
+59,150,Egypt,Netherlands (Kingdom of the),1998,okra,1.0
+59,150,Egypt,Netherlands (Kingdom of the),2003,okra,2.0
+59,150,Egypt,Netherlands (Kingdom of the),2007,okra,10.0
+50,150,Cyprus,Netherlands (Kingdom of the),2001,okra,1.0
+50,150,Cyprus,Netherlands (Kingdom of the),2003,okra,29.0
+114,223,Kenya,Türkiye,2023,okra,0.02
+59,162,Egypt,Norway,1995,okra,1.0
+112,210,Jordan,Sweden,1990,okra,1.0
+59,221,Egypt,Oman,1986,okra,3.0
+59,221,Egypt,Oman,1988,okra,2.0
+59,221,Egypt,Oman,1989,okra,5.0
+59,221,Egypt,Oman,1990,okra,4.0
+59,221,Egypt,Oman,1991,okra,1.0
+59,221,Egypt,Oman,1992,okra,8.0
+59,221,Egypt,Oman,1994,okra,35.0
+59,221,Egypt,Oman,1995,okra,1.0
+59,221,Egypt,Oman,2005,okra,1.0
+50,162,Cyprus,Norway,1987,okra,4.0
+50,162,Cyprus,Norway,1993,okra,1.0
+50,162,Cyprus,Norway,1995,okra,3.0
+50,162,Cyprus,Norway,1996,okra,4.0
+50,162,Cyprus,Norway,1997,okra,6.0
+50,162,Cyprus,Norway,1998,okra,4.0
+50,162,Cyprus,Norway,1999,okra,3.0
+50,162,Cyprus,Norway,2000,okra,3.0
+50,162,Cyprus,Norway,2001,okra,2.0
+50,162,Cyprus,Norway,2002,okra,3.0
+50,162,Cyprus,Norway,2003,okra,3.0
+114,226,Kenya,Uganda,2018,okra,0.06
+114,226,Kenya,Uganda,2020,okra,1.79
+114,226,Kenya,Uganda,2021,okra,9.41
+59,299,Egypt,Palestine,2005,okra,18.0
+112,212,Jordan,Syrian Arab Republic,2007,okra,197.0
+112,212,Jordan,Syrian Arab Republic,2011,okra,1.0
+114,230,Kenya,Ukraine,2017,okra,0.73
+114,230,Kenya,Ukraine,2018,okra,0.23
+225,100,United Arab Emirates,India,2003,okra,1.0
+221,225,Oman,United Arab Emirates,2012,okra,1034.0
+221,225,Oman,United Arab Emirates,2013,okra,3344.0
+221,225,Oman,United Arab Emirates,2014,okra,658.61
+221,225,Oman,United Arab Emirates,2015,okra,27.75
+221,225,Oman,United Arab Emirates,2016,okra,1384.46
+221,225,Oman,United Arab Emirates,2017,okra,40.53
+221,225,Oman,United Arab Emirates,2018,okra,258.01
+221,225,Oman,United Arab Emirates,2019,okra,362.5
+221,225,Oman,United Arab Emirates,2020,okra,95.69
+221,225,Oman,United Arab Emirates,2021,okra,5681.25
+114,225,Kenya,United Arab Emirates,2013,okra,84.0
+114,225,Kenya,United Arab Emirates,2016,okra,593.04
+114,225,Kenya,United Arab Emirates,2017,okra,323.59
+114,225,Kenya,United Arab Emirates,2018,okra,359.77
+114,225,Kenya,United Arab Emirates,2019,okra,458.93
+114,225,Kenya,United Arab Emirates,2020,okra,447.67
+114,225,Kenya,United Arab Emirates,2021,okra,797.03
+114,225,Kenya,United Arab Emirates,2022,okra,530.02
+114,225,Kenya,United Arab Emirates,2023,okra,395.23
+50,174,Cyprus,Portugal,2002,okra,1.0
+59,179,Egypt,Qatar,1988,okra,2.0
+59,179,Egypt,Qatar,1989,okra,1.0
+59,179,Egypt,Qatar,1990,okra,1.0
+59,179,Egypt,Qatar,1991,okra,7.0
+59,179,Egypt,Qatar,1992,okra,24.0
+59,179,Egypt,Qatar,1993,okra,1.0
+59,179,Egypt,Qatar,1994,okra,1.0
+59,179,Egypt,Qatar,2005,okra,2.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2013,okra,8735.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2016,okra,14412.41
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2017,okra,12782.53
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2018,okra,14360.41
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2019,okra,10667.62
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2020,okra,15324.75
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2021,okra,16948.73
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2022,okra,12248.92
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2023,okra,12017.82
+225,102,United Arab Emirates,Iran (Islamic Republic of),2003,okra,7.0
+221,229,Oman,United Kingdom of Great Britain and Northern Ireland,2019,okra,0.32
+112,225,Jordan,United Arab Emirates,1986,okra,7.0
+112,225,Jordan,United Arab Emirates,1987,okra,1.0
+112,225,Jordan,United Arab Emirates,1988,okra,3.0
+112,225,Jordan,United Arab Emirates,1990,okra,37.0
+112,225,Jordan,United Arab Emirates,1992,okra,1.0
+112,225,Jordan,United Arab Emirates,1997,okra,1.0
+112,225,Jordan,United Arab Emirates,1999,okra,1.0
+112,225,Jordan,United Arab Emirates,2000,okra,1.0
+112,225,Jordan,United Arab Emirates,2002,okra,3.0
+112,225,Jordan,United Arab Emirates,2003,okra,30.0
+112,225,Jordan,United Arab Emirates,2004,okra,11.0
+112,225,Jordan,United Arab Emirates,2005,okra,3.0
+112,225,Jordan,United Arab Emirates,2006,okra,5.0
+112,225,Jordan,United Arab Emirates,2007,okra,33.0
+112,225,Jordan,United Arab Emirates,2008,okra,1.0
+112,225,Jordan,United Arab Emirates,2009,okra,4.0
+112,225,Jordan,United Arab Emirates,2010,okra,1.0
+112,225,Jordan,United Arab Emirates,2011,okra,4.0
+59,194,Egypt,Saudi Arabia,1986,okra,8.0
+59,194,Egypt,Saudi Arabia,1987,okra,15.0
+59,194,Egypt,Saudi Arabia,1988,okra,40.0
+59,194,Egypt,Saudi Arabia,1989,okra,12.0
+59,194,Egypt,Saudi Arabia,1990,okra,30.0
+59,194,Egypt,Saudi Arabia,1991,okra,232.0
+59,194,Egypt,Saudi Arabia,1992,okra,123.0
+59,194,Egypt,Saudi Arabia,1993,okra,58.0
+59,194,Egypt,Saudi Arabia,1994,okra,73.0
+59,194,Egypt,Saudi Arabia,1995,okra,1.0
+59,194,Egypt,Saudi Arabia,1999,okra,45.0
+59,194,Egypt,Saudi Arabia,2001,okra,26.0
+59,194,Egypt,Saudi Arabia,2002,okra,10.0
+59,194,Egypt,Saudi Arabia,2004,okra,27.0
+59,194,Egypt,Saudi Arabia,2005,okra,3.0
+114,215,Kenya,United Republic of Tanzania,2017,okra,0.05
+114,215,Kenya,United Republic of Tanzania,2018,okra,0.26
+89,231,Guatemala,United States of America,2012,okra,1.0
+112,229,Jordan,United Kingdom of Great Britain and Northern Ireland,1988,okra,1.0
+112,229,Jordan,United Kingdom of Great Britain and Northern Ireland,1997,okra,18.0
+112,229,Jordan,United Kingdom of Great Britain and Northern Ireland,1999,okra,1.0
+112,229,Jordan,United Kingdom of Great Britain and Northern Ireland,2002,okra,3.0
+221,237,Oman,Viet Nam,2020,okra,1.0
+114,231,Kenya,United States of America,2016,okra,3.47
+114,231,Kenya,United States of America,2018,okra,0.01
+114,231,Kenya,United States of America,2019,okra,0.02
+114,231,Kenya,United States of America,2021,okra,0.27
+114,231,Kenya,United States of America,2022,okra,0.14
+114,231,Kenya,United States of America,2023,okra,0.47
+221,249,Oman,Yemen,2016,okra,12.36
+221,249,Oman,Yemen,2020,okra,0.1
+50,210,Cyprus,Sweden,1996,okra,1.0
+50,210,Cyprus,Sweden,1998,okra,1.0
+50,210,Cyprus,Sweden,1999,okra,5.0
+50,210,Cyprus,Sweden,2000,okra,5.0
+50,210,Cyprus,Sweden,2001,okra,4.0
+50,210,Cyprus,Sweden,2002,okra,2.0
+59,203,Egypt,Spain,2002,okra,1.0
+50,211,Cyprus,Switzerland,1987,okra,1.0
+50,211,Cyprus,Switzerland,2003,okra,1.0
+59,210,Egypt,Sweden,1989,okra,2.0
+59,210,Egypt,Sweden,1991,okra,1.0
+59,210,Egypt,Sweden,1995,okra,3.0
+59,211,Egypt,Switzerland,2006,okra,1.0
+50,225,Cyprus,United Arab Emirates,1996,okra,1.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1987,okra,299.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1993,okra,217.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1994,okra,221.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1995,okra,158.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1996,okra,174.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1997,okra,205.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1998,okra,199.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,1999,okra,270.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,2000,okra,235.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,2001,okra,255.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,2002,okra,299.0
+50,229,Cyprus,United Kingdom of Great Britain and Northern Ireland,2003,okra,260.0
+131,101,Malaysia,Indonesia,2003,okra,5.0
+59,225,Egypt,United Arab Emirates,2002,okra,20.0
+59,225,Egypt,United Arab Emirates,2004,okra,6.0
+59,225,Egypt,United Arab Emirates,2007,okra,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1986,okra,20.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1987,okra,9.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1988,okra,3.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1989,okra,36.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1990,okra,19.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1992,okra,6.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1994,okra,1.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1995,okra,5.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1998,okra,14.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,1999,okra,2.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2000,okra,1.0
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2007,okra,2.0
+223,79,Türkiye,Germany,1991,okra,18.0
+223,79,Türkiye,Germany,1992,okra,29.0
+223,79,Türkiye,Germany,1993,okra,44.0
+223,79,Türkiye,Germany,1994,okra,37.0
+223,79,Türkiye,Germany,1995,okra,27.0
+59,231,Egypt,United States of America,1994,okra,6.0
+59,231,Egypt,United States of America,2004,okra,21.0
+131,110,Malaysia,Japan,2002,okra,1.0
+131,110,Malaysia,Japan,2003,okra,11.0
+131,110,Malaysia,Japan,2004,okra,1.0
+223,84,Türkiye,Greece,1989,okra,75.0
+223,84,Türkiye,Greece,1990,okra,173.0
+223,84,Türkiye,Greece,1991,okra,30.0
+223,84,Türkiye,Greece,1994,okra,307.0
+138,229,Mexico,United Kingdom of Great Britain and Northern Ireland,1986,okra,19.0
+138,229,Mexico,United Kingdom of Great Britain and Northern Ireland,1987,okra,3.0
+138,229,Mexico,United Kingdom of Great Britain and Northern Ireland,1988,okra,46.0
+138,231,Mexico,United States of America,1986,okra,15087.0
+138,231,Mexico,United States of America,1987,okra,16684.0
+138,231,Mexico,United States of America,1988,okra,6074.0
+223,103,Türkiye,Iraq,1986,okra,1.0
+131,150,Malaysia,Netherlands (Kingdom of the),2001,okra,1.0
+131,150,Malaysia,Netherlands (Kingdom of the),2004,okra,6.0
+131,150,Malaysia,Netherlands (Kingdom of the),2005,okra,1.0
+225,179,United Arab Emirates,Qatar,2003,okra,2.0
+223,105,Türkiye,Israel,1995,okra,1.0
+223,112,Türkiye,Jordan,1986,okra,2.0
+223,118,Türkiye,Kuwait,1986,okra,137.0
+223,118,Türkiye,Kuwait,1987,okra,88.0
+223,118,Türkiye,Kuwait,1988,okra,63.0
+223,118,Türkiye,Kuwait,1989,okra,22.0
+223,118,Türkiye,Kuwait,1990,okra,1.0
+131,200,Malaysia,Singapore,1988,okra,156.0
+131,200,Malaysia,Singapore,1989,okra,3316.0
+131,200,Malaysia,Singapore,1990,okra,3352.0
+131,200,Malaysia,Singapore,1991,okra,134.0
+131,200,Malaysia,Singapore,1992,okra,376.0
+131,200,Malaysia,Singapore,1993,okra,4297.0
+131,200,Malaysia,Singapore,1994,okra,4411.0
+131,200,Malaysia,Singapore,1995,okra,4486.0
+131,200,Malaysia,Singapore,1996,okra,4573.0
+131,200,Malaysia,Singapore,1998,okra,4638.0
+131,200,Malaysia,Singapore,1999,okra,4204.0
+131,200,Malaysia,Singapore,2000,okra,3108.0
+131,200,Malaysia,Singapore,2001,okra,3713.0
+131,200,Malaysia,Singapore,2002,okra,3754.0
+131,200,Malaysia,Singapore,2003,okra,3596.0
+225,213,United Arab Emirates,Turkmenistan,2003,okra,1.0
+131,216,Malaysia,Thailand,1995,okra,24.0
+131,216,Malaysia,Thailand,1998,okra,1.0
+131,216,Malaysia,Thailand,1999,okra,5.0
+223,177,Türkiye,Puerto Rico,1992,okra,9.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2000,okra,5.0
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2001,okra,2.0
+223,185,Türkiye,Russian Federation,1993,okra,3.0
+223,185,Türkiye,Russian Federation,1994,okra,1.0
+223,194,Türkiye,Saudi Arabia,1986,okra,3.0
+223,194,Türkiye,Saudi Arabia,1988,okra,3.0
+223,194,Türkiye,Saudi Arabia,1991,okra,8.0
+223,194,Türkiye,Saudi Arabia,1992,okra,2.0
+223,210,Türkiye,Sweden,1988,okra,2.0
+223,210,Türkiye,Sweden,1991,okra,2.0
+223,211,Türkiye,Switzerland,1989,okra,2.0
+223,211,Türkiye,Switzerland,1991,okra,1.0
+223,225,Türkiye,United Arab Emirates,1994,okra,2.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,1991,okra,17.0
+223,228,Türkiye,USSR,1991,okra,1.0
+223,248,Türkiye,Yugoslav SFR,1989,okra,7.0

@@ -1,0 +1,744 @@
+o_code,d_code,o_name,d_name,year,item,weight
+104,4,Ireland,Algeria,2003,cheese_from_skimmed_cow_milk,3.0
+174,7,Portugal,Angola,2005,cheese_from_skimmed_cow_milk,1.0
+174,7,Portugal,Angola,2007,cheese_from_skimmed_cow_milk,1.0
+141,96,Mongolia,"China, Hong Kong SAR",2017,cheese_from_skimmed_cow_milk,0.05
+11,9,Austria,Argentina,1998,cheese_from_skimmed_cow_milk,5.0
+141,41,Mongolia,"China, mainland",2017,cheese_from_skimmed_cow_milk,0.5
+144,50,Mozambique,Cyprus,2023,cheese_from_skimmed_cow_milk,0.62
+144,54,Mozambique,Denmark,2021,cheese_from_skimmed_cow_milk,0.05
+54,10,Denmark,Australia,1997,cheese_from_skimmed_cow_milk,10.0
+104,13,Ireland,Bahrain,2001,cheese_from_skimmed_cow_milk,8.0
+84,10,Greece,Australia,1986,cheese_from_skimmed_cow_milk,401.0
+144,123,Mozambique,Liberia,2022,cheese_from_skimmed_cow_milk,0.2
+104,255,Ireland,Belgium,2000,cheese_from_skimmed_cow_milk,7.0
+104,255,Ireland,Belgium,2001,cheese_from_skimmed_cow_milk,81.0
+104,255,Ireland,Belgium,2002,cheese_from_skimmed_cow_milk,121.0
+104,255,Ireland,Belgium,2003,cheese_from_skimmed_cow_milk,36.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,2012,cheese_from_skimmed_cow_milk,1.0
+84,11,Greece,Austria,1986,cheese_from_skimmed_cow_milk,35.0
+141,110,Mongolia,Japan,2018,cheese_from_skimmed_cow_milk,0.04
+141,110,Mongolia,Japan,2022,cheese_from_skimmed_cow_milk,0.07
+223,11,Türkiye,Austria,1991,cheese_from_skimmed_cow_milk,16.0
+104,15,Ireland,Belgium-Luxembourg,1990,cheese_from_skimmed_cow_milk,8.0
+104,15,Ireland,Belgium-Luxembourg,1995,cheese_from_skimmed_cow_milk,1.0
+104,15,Ireland,Belgium-Luxembourg,1996,cheese_from_skimmed_cow_milk,4.0
+104,15,Ireland,Belgium-Luxembourg,1997,cheese_from_skimmed_cow_milk,9.0
+104,15,Ireland,Belgium-Luxembourg,1998,cheese_from_skimmed_cow_milk,6.0
+104,15,Ireland,Belgium-Luxembourg,1999,cheese_from_skimmed_cow_milk,2.0
+79,10,Germany,Australia,2004,cheese_from_skimmed_cow_milk,7.0
+79,10,Germany,Australia,2005,cheese_from_skimmed_cow_milk,4.0
+20,202,Botswana,South Africa,1993,cheese_from_skimmed_cow_milk,69.0
+20,202,Botswana,South Africa,1995,cheese_from_skimmed_cow_milk,3.0
+20,202,Botswana,South Africa,1996,cheese_from_skimmed_cow_milk,2.0
+20,202,Botswana,South Africa,2000,cheese_from_skimmed_cow_milk,1.0
+106,1,Italy,Armenia,2009,cheese_from_skimmed_cow_milk,1.0
+141,117,Mongolia,Republic of Korea,2020,cheese_from_skimmed_cow_milk,0.89
+84,12,Greece,Bahamas,1998,cheese_from_skimmed_cow_milk,23.0
+48,44,Costa Rica,Colombia,1994,cheese_from_skimmed_cow_milk,2.0
+48,44,Costa Rica,Colombia,1995,cheese_from_skimmed_cow_milk,3.0
+48,44,Costa Rica,Colombia,1996,cheese_from_skimmed_cow_milk,3.0
+48,44,Costa Rica,Colombia,1997,cheese_from_skimmed_cow_milk,2.0
+48,44,Costa Rica,Colombia,1998,cheese_from_skimmed_cow_milk,2.0
+48,44,Costa Rica,Colombia,1999,cheese_from_skimmed_cow_milk,1.0
+48,44,Costa Rica,Colombia,2000,cheese_from_skimmed_cow_milk,2.0
+48,44,Costa Rica,Colombia,2001,cheese_from_skimmed_cow_milk,1.0
+106,10,Italy,Australia,1989,cheese_from_skimmed_cow_milk,1.0
+106,10,Italy,Australia,2000,cheese_from_skimmed_cow_milk,16.0
+106,10,Italy,Australia,2001,cheese_from_skimmed_cow_milk,1.0
+106,10,Italy,Australia,2006,cheese_from_skimmed_cow_milk,1.0
+106,10,Italy,Australia,2008,cheese_from_skimmed_cow_milk,4.0
+106,10,Italy,Australia,2009,cheese_from_skimmed_cow_milk,3.0
+106,10,Italy,Australia,2010,cheese_from_skimmed_cow_milk,72.0
+60,89,El Salvador,Guatemala,1993,cheese_from_skimmed_cow_milk,1.0
+104,33,Ireland,Canada,2011,cheese_from_skimmed_cow_milk,1.0
+15,250,Belgium-Luxembourg,Democratic Republic of the Congo,1991,cheese_from_skimmed_cow_milk,1.0
+79,11,Germany,Austria,2010,cheese_from_skimmed_cow_milk,1.0
+79,11,Germany,Austria,2011,cheese_from_skimmed_cow_milk,68.0
+15,54,Belgium-Luxembourg,Denmark,1994,cheese_from_skimmed_cow_milk,5.0
+141,231,Mongolia,United States of America,2017,cheese_from_skimmed_cow_milk,3.0
+141,231,Mongolia,United States of America,2020,cheese_from_skimmed_cow_milk,14.43
+48,60,Costa Rica,El Salvador,1994,cheese_from_skimmed_cow_milk,7.0
+48,60,Costa Rica,El Salvador,1995,cheese_from_skimmed_cow_milk,5.0
+48,60,Costa Rica,El Salvador,1996,cheese_from_skimmed_cow_milk,2.0
+48,60,Costa Rica,El Salvador,1997,cheese_from_skimmed_cow_milk,4.0
+48,60,Costa Rica,El Salvador,1998,cheese_from_skimmed_cow_milk,1.0
+106,11,Italy,Austria,1990,cheese_from_skimmed_cow_milk,7.0
+106,11,Italy,Austria,1991,cheese_from_skimmed_cow_milk,6.0
+106,11,Italy,Austria,1992,cheese_from_skimmed_cow_milk,7.0
+106,11,Italy,Austria,2002,cheese_from_skimmed_cow_milk,1.0
+106,11,Italy,Austria,2003,cheese_from_skimmed_cow_milk,1.0
+84,15,Greece,Belgium-Luxembourg,1986,cheese_from_skimmed_cow_milk,33.0
+11,27,Austria,Bulgaria,2003,cheese_from_skimmed_cow_milk,1.0
+54,21,Denmark,Brazil,1998,cheese_from_skimmed_cow_milk,13.0
+223,15,Türkiye,Belgium-Luxembourg,1988,cheese_from_skimmed_cow_milk,5.0
+203,255,Spain,Belgium,2011,cheese_from_skimmed_cow_milk,11.0
+15,68,Belgium-Luxembourg,France,1991,cheese_from_skimmed_cow_milk,2.0
+15,68,Belgium-Luxembourg,France,1992,cheese_from_skimmed_cow_milk,24.0
+15,68,Belgium-Luxembourg,France,1993,cheese_from_skimmed_cow_milk,2.0
+15,68,Belgium-Luxembourg,France,1994,cheese_from_skimmed_cow_milk,78.0
+15,68,Belgium-Luxembourg,France,1997,cheese_from_skimmed_cow_milk,1.0
+84,27,Greece,Bulgaria,1998,cheese_from_skimmed_cow_milk,2.0
+171,214,Philippines,"China, Taiwan Province of",2014,cheese_from_skimmed_cow_milk,2.54
+48,89,Costa Rica,Guatemala,1993,cheese_from_skimmed_cow_milk,4.0
+48,89,Costa Rica,Guatemala,1994,cheese_from_skimmed_cow_milk,58.0
+48,89,Costa Rica,Guatemala,1995,cheese_from_skimmed_cow_milk,61.0
+48,89,Costa Rica,Guatemala,1997,cheese_from_skimmed_cow_milk,4.0
+48,89,Costa Rica,Guatemala,1998,cheese_from_skimmed_cow_milk,3.0
+48,89,Costa Rica,Guatemala,2001,cheese_from_skimmed_cow_milk,1.0
+104,54,Ireland,Denmark,2002,cheese_from_skimmed_cow_milk,1.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2011,cheese_from_skimmed_cow_milk,16.0
+54,96,Denmark,"China, Hong Kong SAR",2010,cheese_from_skimmed_cow_milk,1.0
+48,95,Costa Rica,Honduras,1992,cheese_from_skimmed_cow_milk,2.0
+48,95,Costa Rica,Honduras,1993,cheese_from_skimmed_cow_milk,5.0
+48,95,Costa Rica,Honduras,1994,cheese_from_skimmed_cow_milk,3.0
+48,95,Costa Rica,Honduras,1995,cheese_from_skimmed_cow_milk,2.0
+48,95,Costa Rica,Honduras,1997,cheese_from_skimmed_cow_milk,16.0
+15,79,Belgium-Luxembourg,Germany,1992,cheese_from_skimmed_cow_milk,42.0
+15,79,Belgium-Luxembourg,Germany,1994,cheese_from_skimmed_cow_milk,1.0
+106,13,Italy,Bahrain,2009,cheese_from_skimmed_cow_milk,1.0
+84,33,Greece,Canada,1986,cheese_from_skimmed_cow_milk,32.0
+104,68,Ireland,France,1990,cheese_from_skimmed_cow_milk,2.0
+104,68,Ireland,France,1995,cheese_from_skimmed_cow_milk,7.0
+104,68,Ireland,France,1996,cheese_from_skimmed_cow_milk,15.0
+104,68,Ireland,France,1997,cheese_from_skimmed_cow_milk,2.0
+104,68,Ireland,France,1998,cheese_from_skimmed_cow_milk,4.0
+104,68,Ireland,France,1999,cheese_from_skimmed_cow_milk,4.0
+104,68,Ireland,France,2000,cheese_from_skimmed_cow_milk,42.0
+104,68,Ireland,France,2001,cheese_from_skimmed_cow_milk,34.0
+104,68,Ireland,France,2002,cheese_from_skimmed_cow_milk,44.0
+104,68,Ireland,France,2003,cheese_from_skimmed_cow_milk,9.0
+68,255,France,Belgium,2000,cheese_from_skimmed_cow_milk,5.0
+68,255,France,Belgium,2001,cheese_from_skimmed_cow_milk,8.0
+68,255,France,Belgium,2002,cheese_from_skimmed_cow_milk,20.0
+68,255,France,Belgium,2003,cheese_from_skimmed_cow_milk,5.0
+68,255,France,Belgium,2004,cheese_from_skimmed_cow_milk,10.0
+68,255,France,Belgium,2006,cheese_from_skimmed_cow_milk,3.0
+68,255,France,Belgium,2007,cheese_from_skimmed_cow_milk,11.0
+68,255,France,Belgium,2008,cheese_from_skimmed_cow_milk,2.0
+68,255,France,Belgium,2009,cheese_from_skimmed_cow_milk,2.0
+68,255,France,Belgium,2010,cheese_from_skimmed_cow_milk,10.0
+68,255,France,Belgium,2011,cheese_from_skimmed_cow_milk,11.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1992,cheese_from_skimmed_cow_milk,1.0
+60,210,El Salvador,Sweden,1994,cheese_from_skimmed_cow_milk,1.0
+15,90,Belgium-Luxembourg,Guinea,1992,cheese_from_skimmed_cow_milk,1.0
+60,231,El Salvador,United States of America,1991,cheese_from_skimmed_cow_milk,6.0
+60,231,El Salvador,United States of America,1992,cheese_from_skimmed_cow_milk,2.0
+60,231,El Salvador,United States of America,1993,cheese_from_skimmed_cow_milk,2.0
+60,231,El Salvador,United States of America,1994,cheese_from_skimmed_cow_milk,3.0
+150,255,Netherlands (Kingdom of the),Belgium,2002,cheese_from_skimmed_cow_milk,56.0
+150,255,Netherlands (Kingdom of the),Belgium,2010,cheese_from_skimmed_cow_milk,1.0
+79,255,Germany,Belgium,2011,cheese_from_skimmed_cow_milk,2.0
+27,84,Bulgaria,Greece,2011,cheese_from_skimmed_cow_milk,1.0
+104,79,Ireland,Germany,1995,cheese_from_skimmed_cow_milk,109.0
+104,79,Ireland,Germany,1996,cheese_from_skimmed_cow_milk,111.0
+104,79,Ireland,Germany,1997,cheese_from_skimmed_cow_milk,116.0
+104,79,Ireland,Germany,1998,cheese_from_skimmed_cow_milk,121.0
+104,79,Ireland,Germany,1999,cheese_from_skimmed_cow_milk,141.0
+104,79,Ireland,Germany,2000,cheese_from_skimmed_cow_milk,350.0
+104,79,Ireland,Germany,2001,cheese_from_skimmed_cow_milk,250.0
+104,79,Ireland,Germany,2002,cheese_from_skimmed_cow_milk,306.0
+104,79,Ireland,Germany,2003,cheese_from_skimmed_cow_milk,190.0
+199,97,Slovakia,Hungary,2007,cheese_from_skimmed_cow_milk,18.0
+48,157,Costa Rica,Nicaragua,1986,cheese_from_skimmed_cow_milk,3.0
+48,157,Costa Rica,Nicaragua,1991,cheese_from_skimmed_cow_milk,5.0
+48,157,Costa Rica,Nicaragua,1992,cheese_from_skimmed_cow_milk,24.0
+48,157,Costa Rica,Nicaragua,1993,cheese_from_skimmed_cow_milk,8.0
+48,157,Costa Rica,Nicaragua,1994,cheese_from_skimmed_cow_milk,1.0
+48,157,Costa Rica,Nicaragua,1995,cheese_from_skimmed_cow_milk,1.0
+48,157,Costa Rica,Nicaragua,1996,cheese_from_skimmed_cow_milk,2.0
+48,157,Costa Rica,Nicaragua,1997,cheese_from_skimmed_cow_milk,3.0
+48,157,Costa Rica,Nicaragua,1998,cheese_from_skimmed_cow_milk,7.0
+48,157,Costa Rica,Nicaragua,1999,cheese_from_skimmed_cow_milk,6.0
+48,157,Costa Rica,Nicaragua,2000,cheese_from_skimmed_cow_milk,8.0
+48,157,Costa Rica,Nicaragua,2001,cheese_from_skimmed_cow_milk,11.0
+15,106,Belgium-Luxembourg,Italy,1992,cheese_from_skimmed_cow_milk,8.0
+68,15,France,Belgium-Luxembourg,1993,cheese_from_skimmed_cow_milk,1.0
+68,15,France,Belgium-Luxembourg,1994,cheese_from_skimmed_cow_milk,19.0
+68,15,France,Belgium-Luxembourg,1995,cheese_from_skimmed_cow_milk,1.0
+68,15,France,Belgium-Luxembourg,1997,cheese_from_skimmed_cow_milk,1.0
+68,15,France,Belgium-Luxembourg,1998,cheese_from_skimmed_cow_milk,1.0
+68,15,France,Belgium-Luxembourg,1999,cheese_from_skimmed_cow_milk,2.0
+106,15,Italy,Belgium-Luxembourg,1989,cheese_from_skimmed_cow_milk,4.0
+106,15,Italy,Belgium-Luxembourg,1992,cheese_from_skimmed_cow_milk,7.0
+106,15,Italy,Belgium-Luxembourg,1999,cheese_from_skimmed_cow_milk,22.0
+272,154,Serbia,North Macedonia,2007,cheese_from_skimmed_cow_milk,10.0
+104,81,Ireland,Ghana,2009,cheese_from_skimmed_cow_milk,5.0
+48,166,Costa Rica,Panama,1986,cheese_from_skimmed_cow_milk,5.0
+48,166,Costa Rica,Panama,1987,cheese_from_skimmed_cow_milk,2.0
+48,166,Costa Rica,Panama,1988,cheese_from_skimmed_cow_milk,4.0
+48,166,Costa Rica,Panama,1989,cheese_from_skimmed_cow_milk,4.0
+48,166,Costa Rica,Panama,1991,cheese_from_skimmed_cow_milk,2.0
+48,166,Costa Rica,Panama,1992,cheese_from_skimmed_cow_milk,8.0
+48,166,Costa Rica,Panama,1993,cheese_from_skimmed_cow_milk,6.0
+48,166,Costa Rica,Panama,1994,cheese_from_skimmed_cow_milk,46.0
+48,166,Costa Rica,Panama,1995,cheese_from_skimmed_cow_milk,69.0
+48,166,Costa Rica,Panama,1996,cheese_from_skimmed_cow_milk,20.0
+48,166,Costa Rica,Panama,1997,cheese_from_skimmed_cow_milk,27.0
+48,166,Costa Rica,Panama,1998,cheese_from_skimmed_cow_milk,32.0
+48,166,Costa Rica,Panama,1999,cheese_from_skimmed_cow_milk,35.0
+48,166,Costa Rica,Panama,2000,cheese_from_skimmed_cow_milk,26.0
+48,166,Costa Rica,Panama,2001,cheese_from_skimmed_cow_milk,2.0
+79,15,Germany,Belgium-Luxembourg,1992,cheese_from_skimmed_cow_milk,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,cheese_from_skimmed_cow_milk,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,cheese_from_skimmed_cow_milk,1.0
+15,112,Belgium-Luxembourg,Jordan,1992,cheese_from_skimmed_cow_milk,2.0
+223,50,Türkiye,Cyprus,1996,cheese_from_skimmed_cow_milk,7.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2008,cheese_from_skimmed_cow_milk,4.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2009,cheese_from_skimmed_cow_milk,2.0
+11,54,Austria,Denmark,1996,cheese_from_skimmed_cow_milk,45.0
+104,102,Ireland,Iran (Islamic Republic of),2009,cheese_from_skimmed_cow_milk,2.0
+104,105,Ireland,Israel,2000,cheese_from_skimmed_cow_milk,2.0
+84,58,Greece,Ecuador,1986,cheese_from_skimmed_cow_milk,15.0
+223,167,Türkiye,Czechia,1997,cheese_from_skimmed_cow_milk,3.0
+104,106,Ireland,Italy,1995,cheese_from_skimmed_cow_milk,103.0
+104,106,Ireland,Italy,1996,cheese_from_skimmed_cow_milk,127.0
+104,106,Ireland,Italy,1997,cheese_from_skimmed_cow_milk,146.0
+104,106,Ireland,Italy,1998,cheese_from_skimmed_cow_milk,162.0
+104,106,Ireland,Italy,1999,cheese_from_skimmed_cow_milk,184.0
+104,106,Ireland,Italy,2000,cheese_from_skimmed_cow_milk,157.0
+104,106,Ireland,Italy,2001,cheese_from_skimmed_cow_milk,96.0
+104,106,Ireland,Italy,2002,cheese_from_skimmed_cow_milk,187.0
+104,106,Ireland,Italy,2003,cheese_from_skimmed_cow_milk,71.0
+68,21,France,Brazil,1988,cheese_from_skimmed_cow_milk,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,cheese_from_skimmed_cow_milk,4.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,cheese_from_skimmed_cow_milk,11.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,cheese_from_skimmed_cow_milk,4.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,cheese_from_skimmed_cow_milk,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1994,cheese_from_skimmed_cow_milk,8.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1996,cheese_from_skimmed_cow_milk,55.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,cheese_from_skimmed_cow_milk,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1998,cheese_from_skimmed_cow_milk,1.0
+104,110,Ireland,Japan,2002,cheese_from_skimmed_cow_milk,2.0
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",1999,cheese_from_skimmed_cow_milk,3.0
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",2012,cheese_from_skimmed_cow_milk,1.0
+84,68,Greece,France,1986,cheese_from_skimmed_cow_milk,13.0
+210,67,Sweden,Finland,2005,cheese_from_skimmed_cow_milk,5.0
+104,112,Ireland,Jordan,2002,cheese_from_skimmed_cow_milk,5.0
+48,231,Costa Rica,United States of America,1995,cheese_from_skimmed_cow_milk,43.0
+48,231,Costa Rica,United States of America,1999,cheese_from_skimmed_cow_milk,42.0
+48,231,Costa Rica,United States of America,2001,cheese_from_skimmed_cow_milk,4.0
+104,121,Ireland,Lebanon,2002,cheese_from_skimmed_cow_milk,11.0
+11,68,Austria,France,2010,cheese_from_skimmed_cow_milk,1.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2010,cheese_from_skimmed_cow_milk,1.0
+106,33,Italy,Canada,1992,cheese_from_skimmed_cow_milk,22.0
+199,173,Slovakia,Poland,2006,cheese_from_skimmed_cow_milk,3.0
+199,173,Slovakia,Poland,2007,cheese_from_skimmed_cow_milk,2.0
+84,79,Greece,Germany,2001,cheese_from_skimmed_cow_milk,4.0
+84,79,Greece,Germany,2002,cheese_from_skimmed_cow_milk,6.0
+84,79,Greece,Germany,2003,cheese_from_skimmed_cow_milk,1.0
+84,79,Greece,Germany,2004,cheese_from_skimmed_cow_milk,2.0
+84,79,Greece,Germany,2011,cheese_from_skimmed_cow_milk,1.0
+104,143,Ireland,Morocco,2004,cheese_from_skimmed_cow_milk,9.0
+104,143,Ireland,Morocco,2005,cheese_from_skimmed_cow_milk,3.0
+104,143,Ireland,Morocco,2007,cheese_from_skimmed_cow_milk,1.0
+183,106,Romania,Italy,2011,cheese_from_skimmed_cow_milk,1.0
+15,185,Belgium-Luxembourg,Russian Federation,1992,cheese_from_skimmed_cow_milk,1.0
+229,214,United Kingdom of Great Britain and Northern Ireland,"China, Taiwan Province of",2008,cheese_from_skimmed_cow_milk,25.0
+104,150,Ireland,Netherlands (Kingdom of the),1986,cheese_from_skimmed_cow_milk,3.0
+104,150,Ireland,Netherlands (Kingdom of the),1994,cheese_from_skimmed_cow_milk,5.0
+104,150,Ireland,Netherlands (Kingdom of the),1995,cheese_from_skimmed_cow_milk,8.0
+104,150,Ireland,Netherlands (Kingdom of the),1996,cheese_from_skimmed_cow_milk,9.0
+104,150,Ireland,Netherlands (Kingdom of the),1997,cheese_from_skimmed_cow_milk,16.0
+104,150,Ireland,Netherlands (Kingdom of the),1998,cheese_from_skimmed_cow_milk,9.0
+104,150,Ireland,Netherlands (Kingdom of the),1999,cheese_from_skimmed_cow_milk,7.0
+104,150,Ireland,Netherlands (Kingdom of the),2000,cheese_from_skimmed_cow_milk,19.0
+104,150,Ireland,Netherlands (Kingdom of the),2001,cheese_from_skimmed_cow_milk,71.0
+104,150,Ireland,Netherlands (Kingdom of the),2002,cheese_from_skimmed_cow_milk,64.0
+104,150,Ireland,Netherlands (Kingdom of the),2003,cheese_from_skimmed_cow_milk,28.0
+104,150,Ireland,Netherlands (Kingdom of the),2007,cheese_from_skimmed_cow_milk,17.0
+54,79,Denmark,Germany,2010,cheese_from_skimmed_cow_milk,1.0
+106,96,Italy,"China, Hong Kong SAR",1992,cheese_from_skimmed_cow_milk,2.0
+11,79,Austria,Germany,1999,cheese_from_skimmed_cow_milk,145.0
+11,79,Austria,Germany,2000,cheese_from_skimmed_cow_milk,81.0
+11,79,Austria,Germany,2003,cheese_from_skimmed_cow_milk,1.0
+11,79,Austria,Germany,2004,cheese_from_skimmed_cow_milk,2.0
+11,79,Austria,Germany,2005,cheese_from_skimmed_cow_milk,1.0
+11,79,Austria,Germany,2006,cheese_from_skimmed_cow_milk,1.0
+11,79,Austria,Germany,2007,cheese_from_skimmed_cow_milk,1.0
+11,79,Austria,Germany,2008,cheese_from_skimmed_cow_milk,1.0
+11,79,Austria,Germany,2009,cheese_from_skimmed_cow_milk,4.0
+11,79,Austria,Germany,2010,cheese_from_skimmed_cow_milk,3.0
+11,79,Austria,Germany,2011,cheese_from_skimmed_cow_milk,2.0
+106,41,Italy,"China, mainland",2008,cheese_from_skimmed_cow_milk,1.0
+106,41,Italy,"China, mainland",2011,cheese_from_skimmed_cow_milk,2.0
+255,68,Belgium,France,2006,cheese_from_skimmed_cow_milk,1.0
+255,68,Belgium,France,2007,cheese_from_skimmed_cow_milk,1.0
+255,68,Belgium,France,2009,cheese_from_skimmed_cow_milk,2.0
+104,221,Ireland,Oman,2001,cheese_from_skimmed_cow_milk,9.0
+106,214,Italy,"China, Taiwan Province of",2011,cheese_from_skimmed_cow_milk,5.0
+27,183,Bulgaria,Romania,2011,cheese_from_skimmed_cow_milk,7.0
+104,173,Ireland,Poland,2001,cheese_from_skimmed_cow_milk,3.0
+104,173,Ireland,Poland,2002,cheese_from_skimmed_cow_milk,6.0
+104,173,Ireland,Poland,2003,cheese_from_skimmed_cow_milk,4.0
+104,173,Ireland,Poland,2004,cheese_from_skimmed_cow_milk,1.0
+68,96,France,"China, Hong Kong SAR",2002,cheese_from_skimmed_cow_milk,1.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1992,cheese_from_skimmed_cow_milk,10.0
+84,106,Greece,Italy,1986,cheese_from_skimmed_cow_milk,1.0
+84,106,Greece,Italy,1996,cheese_from_skimmed_cow_milk,1.0
+84,106,Greece,Italy,2010,cheese_from_skimmed_cow_milk,1.0
+106,98,Italy,Croatia,1999,cheese_from_skimmed_cow_milk,1.0
+106,98,Italy,Croatia,2000,cheese_from_skimmed_cow_milk,2.0
+106,98,Italy,Croatia,2007,cheese_from_skimmed_cow_milk,1.0
+104,185,Ireland,Russian Federation,2009,cheese_from_skimmed_cow_milk,6.0
+104,185,Ireland,Russian Federation,2010,cheese_from_skimmed_cow_milk,127.0
+68,41,France,"China, mainland",2008,cheese_from_skimmed_cow_milk,1.0
+104,194,Ireland,Saudi Arabia,1999,cheese_from_skimmed_cow_milk,10.0
+104,194,Ireland,Saudi Arabia,2000,cheese_from_skimmed_cow_milk,65.0
+104,194,Ireland,Saudi Arabia,2001,cheese_from_skimmed_cow_milk,24.0
+104,194,Ireland,Saudi Arabia,2002,cheese_from_skimmed_cow_milk,37.0
+104,194,Ireland,Saudi Arabia,2003,cheese_from_skimmed_cow_milk,13.0
+104,194,Ireland,Saudi Arabia,2004,cheese_from_skimmed_cow_milk,5.0
+104,194,Ireland,Saudi Arabia,2009,cheese_from_skimmed_cow_milk,1.0
+11,97,Austria,Hungary,2011,cheese_from_skimmed_cow_milk,3.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2008,cheese_from_skimmed_cow_milk,10.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2009,cheese_from_skimmed_cow_milk,2.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2010,cheese_from_skimmed_cow_milk,14.0
+54,99,Denmark,Iceland,2008,cheese_from_skimmed_cow_milk,1.0
+104,200,Ireland,Singapore,1997,cheese_from_skimmed_cow_milk,2.0
+104,200,Ireland,Singapore,2004,cheese_from_skimmed_cow_milk,1.0
+104,202,Ireland,South Africa,2002,cheese_from_skimmed_cow_milk,7.0
+67,210,Finland,Sweden,2005,cheese_from_skimmed_cow_milk,6.0
+203,58,Spain,Ecuador,2005,cheese_from_skimmed_cow_milk,1.0
+68,214,France,"China, Taiwan Province of",1994,cheese_from_skimmed_cow_milk,1.0
+84,112,Greece,Jordan,1986,cheese_from_skimmed_cow_milk,56.0
+106,50,Italy,Cyprus,2006,cheese_from_skimmed_cow_milk,1.0
+104,203,Ireland,Spain,1994,cheese_from_skimmed_cow_milk,27.0
+104,203,Ireland,Spain,1995,cheese_from_skimmed_cow_milk,71.0
+104,203,Ireland,Spain,1996,cheese_from_skimmed_cow_milk,168.0
+104,203,Ireland,Spain,1997,cheese_from_skimmed_cow_milk,168.0
+104,203,Ireland,Spain,1998,cheese_from_skimmed_cow_milk,210.0
+104,203,Ireland,Spain,1999,cheese_from_skimmed_cow_milk,223.0
+104,203,Ireland,Spain,2000,cheese_from_skimmed_cow_milk,117.0
+104,203,Ireland,Spain,2001,cheese_from_skimmed_cow_milk,200.0
+104,203,Ireland,Spain,2002,cheese_from_skimmed_cow_milk,165.0
+104,203,Ireland,Spain,2003,cheese_from_skimmed_cow_milk,76.0
+84,118,Greece,Kuwait,1986,cheese_from_skimmed_cow_milk,7.0
+223,103,Türkiye,Iraq,1986,cheese_from_skimmed_cow_milk,3.0
+223,103,Türkiye,Iraq,2008,cheese_from_skimmed_cow_milk,8.0
+84,121,Greece,Lebanon,1986,cheese_from_skimmed_cow_milk,51.0
+106,167,Italy,Czechia,1994,cheese_from_skimmed_cow_milk,2.0
+106,167,Italy,Czechia,2009,cheese_from_skimmed_cow_milk,2.0
+106,167,Italy,Czechia,2010,cheese_from_skimmed_cow_milk,3.0
+104,211,Ireland,Switzerland,2002,cheese_from_skimmed_cow_milk,1.0
+104,211,Ireland,Switzerland,2003,cheese_from_skimmed_cow_milk,8.0
+104,211,Ireland,Switzerland,2005,cheese_from_skimmed_cow_milk,1.0
+223,105,Türkiye,Israel,1990,cheese_from_skimmed_cow_milk,13.0
+223,105,Türkiye,Israel,1991,cheese_from_skimmed_cow_milk,3.0
+229,59,United Kingdom of Great Britain and Northern Ireland,Egypt,2009,cheese_from_skimmed_cow_milk,62.0
+84,134,Greece,Malta,1995,cheese_from_skimmed_cow_milk,1.0
+104,223,Ireland,Türkiye,2005,cheese_from_skimmed_cow_milk,1.0
+79,167,Germany,Czechia,2011,cheese_from_skimmed_cow_milk,1.0
+106,54,Italy,Denmark,1995,cheese_from_skimmed_cow_milk,1.0
+104,225,Ireland,United Arab Emirates,2001,cheese_from_skimmed_cow_milk,12.0
+104,225,Ireland,United Arab Emirates,2002,cheese_from_skimmed_cow_milk,14.0
+97,183,Hungary,Romania,2011,cheese_from_skimmed_cow_milk,1.0
+11,106,Austria,Italy,1995,cheese_from_skimmed_cow_milk,1.0
+11,106,Austria,Italy,1997,cheese_from_skimmed_cow_milk,3.0
+11,106,Austria,Italy,1998,cheese_from_skimmed_cow_milk,4.0
+203,68,Spain,France,1989,cheese_from_skimmed_cow_milk,1.0
+203,68,Spain,France,2011,cheese_from_skimmed_cow_milk,139.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1986,cheese_from_skimmed_cow_milk,1.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,cheese_from_skimmed_cow_milk,21.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1992,cheese_from_skimmed_cow_milk,30.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1994,cheese_from_skimmed_cow_milk,50.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1995,cheese_from_skimmed_cow_milk,492.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1996,cheese_from_skimmed_cow_milk,1028.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1997,cheese_from_skimmed_cow_milk,1065.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1998,cheese_from_skimmed_cow_milk,1116.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1999,cheese_from_skimmed_cow_milk,1261.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2000,cheese_from_skimmed_cow_milk,1381.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2001,cheese_from_skimmed_cow_milk,1270.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2002,cheese_from_skimmed_cow_milk,1127.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2003,cheese_from_skimmed_cow_milk,406.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2004,cheese_from_skimmed_cow_milk,13.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2005,cheese_from_skimmed_cow_milk,18.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2006,cheese_from_skimmed_cow_milk,49.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2007,cheese_from_skimmed_cow_milk,25.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2008,cheese_from_skimmed_cow_milk,14.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2009,cheese_from_skimmed_cow_milk,5.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2010,cheese_from_skimmed_cow_milk,3.0
+223,112,Türkiye,Jordan,1987,cheese_from_skimmed_cow_milk,78.0
+223,112,Türkiye,Jordan,1988,cheese_from_skimmed_cow_milk,33.0
+223,112,Türkiye,Jordan,1989,cheese_from_skimmed_cow_milk,71.0
+223,112,Türkiye,Jordan,1991,cheese_from_skimmed_cow_milk,21.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2011,cheese_from_skimmed_cow_milk,145.0
+79,54,Germany,Denmark,2010,cheese_from_skimmed_cow_milk,7.0
+79,54,Germany,Denmark,2011,cheese_from_skimmed_cow_milk,3.0
+54,121,Denmark,Lebanon,1997,cheese_from_skimmed_cow_milk,18.0
+104,231,Ireland,United States of America,2001,cheese_from_skimmed_cow_milk,20.0
+104,231,Ireland,United States of America,2002,cheese_from_skimmed_cow_milk,4.0
+104,231,Ireland,United States of America,2003,cheese_from_skimmed_cow_milk,33.0
+104,231,Ireland,United States of America,2004,cheese_from_skimmed_cow_milk,18.0
+104,231,Ireland,United States of America,2005,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,1994,cheese_from_skimmed_cow_milk,7.0
+68,54,France,Denmark,1997,cheese_from_skimmed_cow_milk,35.0
+68,54,France,Denmark,2004,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,2005,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,2006,cheese_from_skimmed_cow_milk,2.0
+68,54,France,Denmark,2007,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,2008,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,2009,cheese_from_skimmed_cow_milk,2.0
+68,54,France,Denmark,2010,cheese_from_skimmed_cow_milk,1.0
+68,54,France,Denmark,2011,cheese_from_skimmed_cow_milk,2.0
+79,56,Germany,Dominican Republic,2010,cheese_from_skimmed_cow_milk,1.0
+79,56,Germany,Dominican Republic,2011,cheese_from_skimmed_cow_milk,2.0
+104,249,Ireland,Yemen,2000,cheese_from_skimmed_cow_milk,57.0
+104,249,Ireland,Yemen,2001,cheese_from_skimmed_cow_milk,148.0
+104,249,Ireland,Yemen,2002,cheese_from_skimmed_cow_milk,193.0
+104,249,Ireland,Yemen,2003,cheese_from_skimmed_cow_milk,12.0
+104,249,Ireland,Yemen,2004,cheese_from_skimmed_cow_milk,5.0
+167,199,Czechia,Slovakia,2008,cheese_from_skimmed_cow_milk,1.0
+106,68,Italy,France,1987,cheese_from_skimmed_cow_milk,1.0
+106,68,Italy,France,1990,cheese_from_skimmed_cow_milk,6.0
+106,68,Italy,France,1991,cheese_from_skimmed_cow_milk,12.0
+106,68,Italy,France,1992,cheese_from_skimmed_cow_milk,24.0
+106,68,Italy,France,1994,cheese_from_skimmed_cow_milk,3.0
+106,68,Italy,France,1995,cheese_from_skimmed_cow_milk,4.0
+106,68,Italy,France,2000,cheese_from_skimmed_cow_milk,4.0
+106,68,Italy,France,2001,cheese_from_skimmed_cow_milk,4.0
+106,68,Italy,France,2002,cheese_from_skimmed_cow_milk,4.0
+106,68,Italy,France,2003,cheese_from_skimmed_cow_milk,9.0
+106,68,Italy,France,2004,cheese_from_skimmed_cow_milk,2.0
+106,68,Italy,France,2005,cheese_from_skimmed_cow_milk,3.0
+106,68,Italy,France,2006,cheese_from_skimmed_cow_milk,2.0
+106,68,Italy,France,2007,cheese_from_skimmed_cow_milk,3.0
+106,68,Italy,France,2008,cheese_from_skimmed_cow_milk,4.0
+106,68,Italy,France,2009,cheese_from_skimmed_cow_milk,8.0
+106,68,Italy,France,2010,cheese_from_skimmed_cow_milk,6.0
+106,68,Italy,France,2011,cheese_from_skimmed_cow_milk,3.0
+255,112,Belgium,Jordan,2007,cheese_from_skimmed_cow_milk,17.0
+210,162,Sweden,Norway,1997,cheese_from_skimmed_cow_milk,1.0
+84,194,Greece,Saudi Arabia,1986,cheese_from_skimmed_cow_milk,49.0
+203,84,Spain,Greece,2011,cheese_from_skimmed_cow_milk,8.0
+84,186,Greece,Serbia and Montenegro,2002,cheese_from_skimmed_cow_milk,28.0
+79,67,Germany,Finland,2010,cheese_from_skimmed_cow_milk,1.0
+79,67,Germany,Finland,2011,cheese_from_skimmed_cow_milk,6.0
+255,124,Belgium,Libya,2003,cheese_from_skimmed_cow_milk,7.0
+255,124,Belgium,Libya,2007,cheese_from_skimmed_cow_milk,25.0
+255,124,Belgium,Libya,2008,cheese_from_skimmed_cow_milk,22.0
+54,162,Denmark,Norway,2007,cheese_from_skimmed_cow_milk,1.0
+255,256,Belgium,Luxembourg,2000,cheese_from_skimmed_cow_milk,2.0
+255,256,Belgium,Luxembourg,2007,cheese_from_skimmed_cow_milk,1.0
+255,256,Belgium,Luxembourg,2008,cheese_from_skimmed_cow_milk,2.0
+255,256,Belgium,Luxembourg,2009,cheese_from_skimmed_cow_milk,1.0
+255,256,Belgium,Luxembourg,2010,cheese_from_skimmed_cow_milk,1.0
+255,256,Belgium,Luxembourg,2011,cheese_from_skimmed_cow_milk,1.0
+106,79,Italy,Germany,1992,cheese_from_skimmed_cow_milk,49.0
+106,79,Italy,Germany,1993,cheese_from_skimmed_cow_milk,14.0
+106,79,Italy,Germany,1994,cheese_from_skimmed_cow_milk,1.0
+106,79,Italy,Germany,1995,cheese_from_skimmed_cow_milk,1.0
+106,79,Italy,Germany,1999,cheese_from_skimmed_cow_milk,2.0
+106,79,Italy,Germany,2000,cheese_from_skimmed_cow_milk,13.0
+106,79,Italy,Germany,2001,cheese_from_skimmed_cow_milk,1.0
+106,79,Italy,Germany,2002,cheese_from_skimmed_cow_milk,31.0
+106,79,Italy,Germany,2005,cheese_from_skimmed_cow_milk,1.0
+106,79,Italy,Germany,2007,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1991,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1992,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1993,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1994,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1998,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,1999,cheese_from_skimmed_cow_milk,4.0
+79,68,Germany,France,2000,cheese_from_skimmed_cow_milk,2.0
+79,68,Germany,France,2001,cheese_from_skimmed_cow_milk,404.0
+79,68,Germany,France,2005,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2006,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2007,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2008,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2009,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2010,cheese_from_skimmed_cow_milk,1.0
+79,68,Germany,France,2011,cheese_from_skimmed_cow_milk,4.0
+68,67,France,Finland,1992,cheese_from_skimmed_cow_milk,3.0
+84,210,Greece,Sweden,2004,cheese_from_skimmed_cow_milk,3.0
+68,68,France,France,2007,cheese_from_skimmed_cow_milk,1.0
+84,211,Greece,Switzerland,1986,cheese_from_skimmed_cow_milk,15.0
+223,177,Türkiye,Puerto Rico,1988,cheese_from_skimmed_cow_milk,3.0
+223,177,Türkiye,Puerto Rico,1990,cheese_from_skimmed_cow_milk,2.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2012,cheese_from_skimmed_cow_milk,1.0
+68,74,France,Gabon,2002,cheese_from_skimmed_cow_milk,1.0
+106,84,Italy,Greece,1991,cheese_from_skimmed_cow_milk,4.0
+106,84,Italy,Greece,1992,cheese_from_skimmed_cow_milk,2.0
+84,230,Greece,Ukraine,2000,cheese_from_skimmed_cow_milk,8.0
+84,225,Greece,United Arab Emirates,1986,cheese_from_skimmed_cow_milk,1.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,1986,cheese_from_skimmed_cow_milk,5.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2004,cheese_from_skimmed_cow_milk,1.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2010,cheese_from_skimmed_cow_milk,14.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,2011,cheese_from_skimmed_cow_milk,14.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,cheese_from_skimmed_cow_milk,1.0
+255,150,Belgium,Netherlands (Kingdom of the),2009,cheese_from_skimmed_cow_milk,18.0
+255,150,Belgium,Netherlands (Kingdom of the),2010,cheese_from_skimmed_cow_milk,8.0
+203,106,Spain,Italy,2002,cheese_from_skimmed_cow_milk,8.0
+203,106,Spain,Italy,2003,cheese_from_skimmed_cow_milk,6.0
+203,106,Spain,Italy,2004,cheese_from_skimmed_cow_milk,1.0
+203,106,Spain,Italy,2005,cheese_from_skimmed_cow_milk,4.0
+203,106,Spain,Italy,2011,cheese_from_skimmed_cow_milk,729.0
+150,68,Netherlands (Kingdom of the),France,1986,cheese_from_skimmed_cow_milk,3.0
+150,68,Netherlands (Kingdom of the),France,1988,cheese_from_skimmed_cow_milk,1.0
+150,68,Netherlands (Kingdom of the),France,2004,cheese_from_skimmed_cow_milk,1.0
+150,68,Netherlands (Kingdom of the),France,2011,cheese_from_skimmed_cow_milk,1.0
+68,79,France,Germany,1991,cheese_from_skimmed_cow_milk,1.0
+68,79,France,Germany,1992,cheese_from_skimmed_cow_milk,4.0
+68,79,France,Germany,1993,cheese_from_skimmed_cow_milk,6.0
+68,79,France,Germany,1994,cheese_from_skimmed_cow_milk,17.0
+68,79,France,Germany,1995,cheese_from_skimmed_cow_milk,7.0
+68,79,France,Germany,1999,cheese_from_skimmed_cow_milk,1.0
+68,79,France,Germany,2006,cheese_from_skimmed_cow_milk,1.0
+68,79,France,Germany,2007,cheese_from_skimmed_cow_milk,1.0
+68,79,France,Germany,2008,cheese_from_skimmed_cow_milk,1.0
+79,84,Germany,Greece,2011,cheese_from_skimmed_cow_milk,2.0
+223,194,Türkiye,Saudi Arabia,2000,cheese_from_skimmed_cow_milk,2.0
+11,185,Austria,Russian Federation,2009,cheese_from_skimmed_cow_milk,1.0
+84,231,Greece,United States of America,1986,cheese_from_skimmed_cow_milk,514.0
+84,231,Greece,United States of America,2002,cheese_from_skimmed_cow_milk,3.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1991,cheese_from_skimmed_cow_milk,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2000,cheese_from_skimmed_cow_milk,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2001,cheese_from_skimmed_cow_milk,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2002,cheese_from_skimmed_cow_milk,17.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2004,cheese_from_skimmed_cow_milk,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2005,cheese_from_skimmed_cow_milk,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2007,cheese_from_skimmed_cow_milk,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2008,cheese_from_skimmed_cow_milk,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2009,cheese_from_skimmed_cow_milk,46.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2010,cheese_from_skimmed_cow_milk,17.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2011,cheese_from_skimmed_cow_milk,9.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2012,cheese_from_skimmed_cow_milk,1.0
+223,186,Türkiye,Serbia and Montenegro,1996,cheese_from_skimmed_cow_milk,4.0
+223,198,Türkiye,Slovenia,1996,cheese_from_skimmed_cow_milk,5.0
+79,97,Germany,Hungary,1993,cheese_from_skimmed_cow_milk,1.0
+68,84,France,Greece,1994,cheese_from_skimmed_cow_milk,2.0
+11,198,Austria,Slovenia,2011,cheese_from_skimmed_cow_milk,1.0
+223,210,Türkiye,Sweden,1987,cheese_from_skimmed_cow_milk,2.0
+150,79,Netherlands (Kingdom of the),Germany,1991,cheese_from_skimmed_cow_milk,3.0
+150,79,Netherlands (Kingdom of the),Germany,1992,cheese_from_skimmed_cow_milk,3.0
+150,79,Netherlands (Kingdom of the),Germany,1998,cheese_from_skimmed_cow_milk,30.0
+150,79,Netherlands (Kingdom of the),Germany,1999,cheese_from_skimmed_cow_milk,39.0
+150,79,Netherlands (Kingdom of the),Germany,2000,cheese_from_skimmed_cow_milk,23.0
+150,79,Netherlands (Kingdom of the),Germany,2002,cheese_from_skimmed_cow_milk,32.0
+150,79,Netherlands (Kingdom of the),Germany,2004,cheese_from_skimmed_cow_milk,14.0
+150,79,Netherlands (Kingdom of the),Germany,2005,cheese_from_skimmed_cow_milk,1.0
+150,79,Netherlands (Kingdom of the),Germany,2007,cheese_from_skimmed_cow_milk,3.0
+150,79,Netherlands (Kingdom of the),Germany,2008,cheese_from_skimmed_cow_milk,1.0
+150,79,Netherlands (Kingdom of the),Germany,2011,cheese_from_skimmed_cow_milk,1.0
+68,93,France,Haiti,1991,cheese_from_skimmed_cow_milk,1.0
+106,110,Italy,Japan,2001,cheese_from_skimmed_cow_milk,2.0
+106,110,Italy,Japan,2006,cheese_from_skimmed_cow_milk,1.0
+106,110,Italy,Japan,2008,cheese_from_skimmed_cow_milk,2.0
+106,110,Italy,Japan,2010,cheese_from_skimmed_cow_milk,1.0
+54,211,Denmark,Switzerland,2011,cheese_from_skimmed_cow_milk,1.0
+54,211,Denmark,Switzerland,2013,cheese_from_skimmed_cow_milk,10.0
+223,213,Türkiye,Turkmenistan,1997,cheese_from_skimmed_cow_milk,1.0
+79,104,Germany,Ireland,2011,cheese_from_skimmed_cow_milk,1.0
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,2008,cheese_from_skimmed_cow_milk,5.0
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,2010,cheese_from_skimmed_cow_milk,17.0
+106,114,Italy,Kenya,2007,cheese_from_skimmed_cow_milk,1.0
+106,114,Italy,Kenya,2008,cheese_from_skimmed_cow_milk,2.0
+11,211,Austria,Switzerland,1995,cheese_from_skimmed_cow_milk,10.0
+11,211,Austria,Switzerland,1996,cheese_from_skimmed_cow_milk,16.0
+11,211,Austria,Switzerland,2007,cheese_from_skimmed_cow_milk,1.0
+11,211,Austria,Switzerland,2008,cheese_from_skimmed_cow_milk,12.0
+11,211,Austria,Switzerland,2009,cheese_from_skimmed_cow_milk,18.0
+11,211,Austria,Switzerland,2010,cheese_from_skimmed_cow_milk,25.0
+11,211,Austria,Switzerland,2011,cheese_from_skimmed_cow_milk,40.0
+223,225,Türkiye,United Arab Emirates,1996,cheese_from_skimmed_cow_milk,1.0
+54,223,Denmark,Türkiye,2007,cheese_from_skimmed_cow_milk,4.0
+79,106,Germany,Italy,1999,cheese_from_skimmed_cow_milk,3.0
+79,106,Germany,Italy,2000,cheese_from_skimmed_cow_milk,4.0
+79,106,Germany,Italy,2001,cheese_from_skimmed_cow_milk,3.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2012,cheese_from_skimmed_cow_milk,48.0
+229,121,United Kingdom of Great Britain and Northern Ireland,Lebanon,2009,cheese_from_skimmed_cow_milk,66.0
+229,121,United Kingdom of Great Britain and Northern Ireland,Lebanon,2010,cheese_from_skimmed_cow_milk,19.0
+229,121,United Kingdom of Great Britain and Northern Ireland,Lebanon,2012,cheese_from_skimmed_cow_milk,19.0
+203,150,Spain,Netherlands (Kingdom of the),2011,cheese_from_skimmed_cow_milk,10.0
+54,231,Denmark,United States of America,1997,cheese_from_skimmed_cow_milk,20.0
+54,231,Denmark,United States of America,2005,cheese_from_skimmed_cow_milk,1.0
+106,134,Italy,Malta,1988,cheese_from_skimmed_cow_milk,3.0
+68,106,France,Italy,1993,cheese_from_skimmed_cow_milk,1.0
+68,106,France,Italy,1994,cheese_from_skimmed_cow_milk,65.0
+68,106,France,Italy,1999,cheese_from_skimmed_cow_milk,43.0
+255,211,Belgium,Switzerland,2011,cheese_from_skimmed_cow_milk,4.0
+68,110,France,Japan,2006,cheese_from_skimmed_cow_milk,4.0
+68,110,France,Japan,2010,cheese_from_skimmed_cow_milk,8.0
+106,150,Italy,Netherlands (Kingdom of the),1990,cheese_from_skimmed_cow_milk,2.0
+106,150,Italy,Netherlands (Kingdom of the),1992,cheese_from_skimmed_cow_milk,2.0
+106,150,Italy,Netherlands (Kingdom of the),1995,cheese_from_skimmed_cow_milk,7.0
+106,156,Italy,New Zealand,2011,cheese_from_skimmed_cow_milk,1.0
+79,256,Germany,Luxembourg,2011,cheese_from_skimmed_cow_milk,1.0
+203,174,Spain,Portugal,1998,cheese_from_skimmed_cow_milk,2.0
+203,174,Spain,Portugal,1999,cheese_from_skimmed_cow_milk,3.0
+203,174,Spain,Portugal,2000,cheese_from_skimmed_cow_milk,1.0
+203,174,Spain,Portugal,2001,cheese_from_skimmed_cow_milk,7.0
+203,174,Spain,Portugal,2002,cheese_from_skimmed_cow_milk,336.0
+203,174,Spain,Portugal,2005,cheese_from_skimmed_cow_milk,3.0
+203,174,Spain,Portugal,2006,cheese_from_skimmed_cow_milk,3.0
+203,174,Spain,Portugal,2007,cheese_from_skimmed_cow_milk,4.0
+203,174,Spain,Portugal,2008,cheese_from_skimmed_cow_milk,35.0
+203,174,Spain,Portugal,2009,cheese_from_skimmed_cow_milk,6.0
+203,174,Spain,Portugal,2010,cheese_from_skimmed_cow_milk,4.0
+203,174,Spain,Portugal,2011,cheese_from_skimmed_cow_milk,5.0
+229,156,United Kingdom of Great Britain and Northern Ireland,New Zealand,2008,cheese_from_skimmed_cow_milk,2.0
+229,156,United Kingdom of Great Britain and Northern Ireland,New Zealand,2009,cheese_from_skimmed_cow_milk,1.0
+106,154,Italy,North Macedonia,2007,cheese_from_skimmed_cow_milk,1.0
+79,131,Germany,Malaysia,2010,cheese_from_skimmed_cow_milk,1.0
+79,131,Germany,Malaysia,2011,cheese_from_skimmed_cow_milk,1.0
+106,171,Italy,Philippines,2007,cheese_from_skimmed_cow_milk,1.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,2009,cheese_from_skimmed_cow_milk,11.0
+106,174,Italy,Portugal,1991,cheese_from_skimmed_cow_milk,7.0
+106,174,Italy,Portugal,1993,cheese_from_skimmed_cow_milk,32.0
+106,174,Italy,Portugal,1995,cheese_from_skimmed_cow_milk,4.0
+79,149,Germany,Nepal,1994,cheese_from_skimmed_cow_milk,1.0
+79,149,Germany,Nepal,1995,cheese_from_skimmed_cow_milk,5.0
+79,150,Germany,Netherlands (Kingdom of the),1991,cheese_from_skimmed_cow_milk,4.0
+79,150,Germany,Netherlands (Kingdom of the),1992,cheese_from_skimmed_cow_milk,1.0
+79,150,Germany,Netherlands (Kingdom of the),1993,cheese_from_skimmed_cow_milk,1.0
+79,150,Germany,Netherlands (Kingdom of the),2006,cheese_from_skimmed_cow_milk,5.0
+79,150,Germany,Netherlands (Kingdom of the),2007,cheese_from_skimmed_cow_milk,1.0
+79,150,Germany,Netherlands (Kingdom of the),2008,cheese_from_skimmed_cow_milk,1.0
+79,150,Germany,Netherlands (Kingdom of the),2009,cheese_from_skimmed_cow_milk,1.0
+79,150,Germany,Netherlands (Kingdom of the),2010,cheese_from_skimmed_cow_milk,5.0
+79,150,Germany,Netherlands (Kingdom of the),2011,cheese_from_skimmed_cow_milk,5.0
+106,117,Italy,Republic of Korea,2008,cheese_from_skimmed_cow_milk,1.0
+106,183,Italy,Romania,1992,cheese_from_skimmed_cow_milk,2.0
+106,183,Italy,Romania,2006,cheese_from_skimmed_cow_milk,2.0
+203,203,Spain,Spain,2007,cheese_from_skimmed_cow_milk,6.0
+203,203,Spain,Spain,2011,cheese_from_skimmed_cow_milk,1.0
+229,179,United Kingdom of Great Britain and Northern Ireland,Qatar,2009,cheese_from_skimmed_cow_milk,19.0
+229,117,United Kingdom of Great Britain and Northern Ireland,Republic of Korea,2009,cheese_from_skimmed_cow_milk,38.0
+68,143,France,Morocco,2003,cheese_from_skimmed_cow_milk,1.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,2000,cheese_from_skimmed_cow_milk,2.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,2009,cheese_from_skimmed_cow_milk,102.0
+68,150,France,Netherlands (Kingdom of the),2008,cheese_from_skimmed_cow_milk,6.0
+106,200,Italy,Singapore,2006,cheese_from_skimmed_cow_milk,2.0
+106,200,Italy,Singapore,2007,cheese_from_skimmed_cow_milk,1.0
+106,200,Italy,Singapore,2009,cheese_from_skimmed_cow_milk,1.0
+106,199,Italy,Slovakia,2009,cheese_from_skimmed_cow_milk,1.0
+106,198,Italy,Slovenia,2007,cheese_from_skimmed_cow_milk,2.0
+79,173,Germany,Poland,2009,cheese_from_skimmed_cow_milk,1.0
+79,173,Germany,Poland,2010,cheese_from_skimmed_cow_milk,2.0
+79,173,Germany,Poland,2011,cheese_from_skimmed_cow_milk,2.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2012,cheese_from_skimmed_cow_milk,1.0
+106,203,Italy,Spain,1991,cheese_from_skimmed_cow_milk,1.0
+106,203,Italy,Spain,1992,cheese_from_skimmed_cow_milk,2.0
+106,203,Italy,Spain,1998,cheese_from_skimmed_cow_milk,2.0
+106,203,Italy,Spain,1999,cheese_from_skimmed_cow_milk,1.0
+106,203,Italy,Spain,2003,cheese_from_skimmed_cow_milk,1.0
+106,203,Italy,Spain,2005,cheese_from_skimmed_cow_milk,16.0
+106,203,Italy,Spain,2006,cheese_from_skimmed_cow_milk,7.0
+106,203,Italy,Spain,2007,cheese_from_skimmed_cow_milk,2.0
+106,203,Italy,Spain,2009,cheese_from_skimmed_cow_milk,17.0
+106,203,Italy,Spain,2011,cheese_from_skimmed_cow_milk,3.0
+106,210,Italy,Sweden,1992,cheese_from_skimmed_cow_milk,9.0
+106,210,Italy,Sweden,2000,cheese_from_skimmed_cow_milk,1.0
+68,171,France,Philippines,1989,cheese_from_skimmed_cow_milk,1.0
+68,171,France,Philippines,2001,cheese_from_skimmed_cow_milk,3.0
+106,211,Italy,Switzerland,1991,cheese_from_skimmed_cow_milk,1.0
+106,211,Italy,Switzerland,1992,cheese_from_skimmed_cow_milk,3.0
+106,211,Italy,Switzerland,1993,cheese_from_skimmed_cow_milk,1.0
+106,211,Italy,Switzerland,1999,cheese_from_skimmed_cow_milk,5.0
+106,211,Italy,Switzerland,2000,cheese_from_skimmed_cow_milk,2.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1992,cheese_from_skimmed_cow_milk,5.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1998,cheese_from_skimmed_cow_milk,5.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1999,cheese_from_skimmed_cow_milk,2.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2008,cheese_from_skimmed_cow_milk,2.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2009,cheese_from_skimmed_cow_milk,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2011,cheese_from_skimmed_cow_milk,1.0
+79,185,Germany,Russian Federation,1995,cheese_from_skimmed_cow_milk,2.0
+68,174,France,Portugal,1998,cheese_from_skimmed_cow_milk,1.0
+68,174,France,Portugal,2001,cheese_from_skimmed_cow_milk,1.0
+68,174,France,Portugal,2002,cheese_from_skimmed_cow_milk,1.0
+68,174,France,Portugal,2003,cheese_from_skimmed_cow_milk,1.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2008,cheese_from_skimmed_cow_milk,10.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2009,cheese_from_skimmed_cow_milk,79.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2010,cheese_from_skimmed_cow_milk,14.0
+68,182,France,Réunion,1989,cheese_from_skimmed_cow_milk,1.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2008,cheese_from_skimmed_cow_milk,47.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2009,cheese_from_skimmed_cow_milk,136.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2010,cheese_from_skimmed_cow_milk,38.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2011,cheese_from_skimmed_cow_milk,43.0
+106,225,Italy,United Arab Emirates,2008,cheese_from_skimmed_cow_milk,2.0
+229,215,United Kingdom of Great Britain and Northern Ireland,United Republic of Tanzania,2009,cheese_from_skimmed_cow_milk,2.0
+229,215,United Kingdom of Great Britain and Northern Ireland,United Republic of Tanzania,2010,cheese_from_skimmed_cow_milk,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1990,cheese_from_skimmed_cow_milk,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1991,cheese_from_skimmed_cow_milk,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1992,cheese_from_skimmed_cow_milk,24.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2007,cheese_from_skimmed_cow_milk,3.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2008,cheese_from_skimmed_cow_milk,2.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2011,cheese_from_skimmed_cow_milk,7.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1998,cheese_from_skimmed_cow_milk,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2001,cheese_from_skimmed_cow_milk,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2006,cheese_from_skimmed_cow_milk,5.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2008,cheese_from_skimmed_cow_milk,2.0
+79,203,Germany,Spain,2010,cheese_from_skimmed_cow_milk,3.0
+79,203,Germany,Spain,2011,cheese_from_skimmed_cow_milk,4.0
+106,231,Italy,United States of America,1987,cheese_from_skimmed_cow_milk,1.0
+106,231,Italy,United States of America,1992,cheese_from_skimmed_cow_milk,5.0
+106,231,Italy,United States of America,1993,cheese_from_skimmed_cow_milk,1.0
+106,231,Italy,United States of America,2006,cheese_from_skimmed_cow_milk,8.0
+106,231,Italy,United States of America,2010,cheese_from_skimmed_cow_milk,1.0
+79,210,Germany,Sweden,2006,cheese_from_skimmed_cow_milk,1.0
+79,211,Germany,Switzerland,1991,cheese_from_skimmed_cow_milk,3.0
+79,211,Germany,Switzerland,1992,cheese_from_skimmed_cow_milk,5.0
+79,211,Germany,Switzerland,1993,cheese_from_skimmed_cow_milk,3.0
+79,211,Germany,Switzerland,1995,cheese_from_skimmed_cow_milk,3.0
+79,211,Germany,Switzerland,1997,cheese_from_skimmed_cow_milk,2.0
+79,211,Germany,Switzerland,1998,cheese_from_skimmed_cow_milk,2.0
+79,211,Germany,Switzerland,1999,cheese_from_skimmed_cow_milk,5.0
+79,211,Germany,Switzerland,2000,cheese_from_skimmed_cow_milk,22.0
+79,211,Germany,Switzerland,2001,cheese_from_skimmed_cow_milk,15.0
+79,211,Germany,Switzerland,2002,cheese_from_skimmed_cow_milk,11.0
+79,211,Germany,Switzerland,2003,cheese_from_skimmed_cow_milk,16.0
+79,211,Germany,Switzerland,2004,cheese_from_skimmed_cow_milk,21.0
+79,211,Germany,Switzerland,2005,cheese_from_skimmed_cow_milk,45.0
+79,211,Germany,Switzerland,2006,cheese_from_skimmed_cow_milk,30.0
+79,211,Germany,Switzerland,2007,cheese_from_skimmed_cow_milk,93.0
+79,211,Germany,Switzerland,2008,cheese_from_skimmed_cow_milk,28.0
+79,211,Germany,Switzerland,2009,cheese_from_skimmed_cow_milk,9.0
+79,211,Germany,Switzerland,2010,cheese_from_skimmed_cow_milk,15.0
+79,211,Germany,Switzerland,2011,cheese_from_skimmed_cow_milk,11.0
+68,203,France,Spain,1994,cheese_from_skimmed_cow_milk,76.0
+68,203,France,Spain,2008,cheese_from_skimmed_cow_milk,3.0
+68,203,France,Spain,2009,cheese_from_skimmed_cow_milk,5.0
+68,203,France,Spain,2010,cheese_from_skimmed_cow_milk,2.0
+68,210,France,Sweden,1994,cheese_from_skimmed_cow_milk,1.0
+68,211,France,Switzerland,1990,cheese_from_skimmed_cow_milk,1.0
+68,211,France,Switzerland,1991,cheese_from_skimmed_cow_milk,17.0
+68,211,France,Switzerland,1992,cheese_from_skimmed_cow_milk,41.0
+68,211,France,Switzerland,1993,cheese_from_skimmed_cow_milk,47.0
+68,211,France,Switzerland,1994,cheese_from_skimmed_cow_milk,41.0
+68,211,France,Switzerland,1995,cheese_from_skimmed_cow_milk,22.0
+68,211,France,Switzerland,1997,cheese_from_skimmed_cow_milk,1.0
+68,211,France,Switzerland,1999,cheese_from_skimmed_cow_milk,5.0
+68,211,France,Switzerland,2000,cheese_from_skimmed_cow_milk,6.0
+68,211,France,Switzerland,2001,cheese_from_skimmed_cow_milk,100.0
+68,211,France,Switzerland,2002,cheese_from_skimmed_cow_milk,148.0
+68,211,France,Switzerland,2003,cheese_from_skimmed_cow_milk,108.0
+68,211,France,Switzerland,2004,cheese_from_skimmed_cow_milk,46.0
+68,211,France,Switzerland,2005,cheese_from_skimmed_cow_milk,26.0
+68,211,France,Switzerland,2006,cheese_from_skimmed_cow_milk,2.0
+68,211,France,Switzerland,2007,cheese_from_skimmed_cow_milk,9.0
+68,211,France,Switzerland,2010,cheese_from_skimmed_cow_milk,5.0
+68,211,France,Switzerland,2011,cheese_from_skimmed_cow_milk,3.0
+150,203,Netherlands (Kingdom of the),Spain,2010,cheese_from_skimmed_cow_milk,3.0
+79,225,Germany,United Arab Emirates,2010,cheese_from_skimmed_cow_milk,1.0
+150,207,Netherlands (Kingdom of the),Suriname,2010,cheese_from_skimmed_cow_milk,1.0
+68,217,France,Togo,1988,cheese_from_skimmed_cow_milk,4.0
+79,234,Germany,Uruguay,2011,cheese_from_skimmed_cow_milk,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,2006,cheese_from_skimmed_cow_milk,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,2007,cheese_from_skimmed_cow_milk,6.0
+150,211,Netherlands (Kingdom of the),Switzerland,2010,cheese_from_skimmed_cow_milk,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,2011,cheese_from_skimmed_cow_milk,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1991,cheese_from_skimmed_cow_milk,39.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1992,cheese_from_skimmed_cow_milk,18.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1999,cheese_from_skimmed_cow_milk,34.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2001,cheese_from_skimmed_cow_milk,141.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2002,cheese_from_skimmed_cow_milk,235.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2004,cheese_from_skimmed_cow_milk,81.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2006,cheese_from_skimmed_cow_milk,2.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2007,cheese_from_skimmed_cow_milk,6.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2010,cheese_from_skimmed_cow_milk,1.0
+68,231,France,United States of America,2007,cheese_from_skimmed_cow_milk,2.0
+68,231,France,United States of America,2008,cheese_from_skimmed_cow_milk,1.0
+68,231,France,United States of America,2009,cheese_from_skimmed_cow_milk,1.0
+68,237,France,Viet Nam,2011,cheese_from_skimmed_cow_milk,8.0
+150,231,Netherlands (Kingdom of the),United States of America,1995,cheese_from_skimmed_cow_milk,8.0
+150,231,Netherlands (Kingdom of the),United States of America,2006,cheese_from_skimmed_cow_milk,1.0

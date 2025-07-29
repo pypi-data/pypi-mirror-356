@@ -1,0 +1,3093 @@
+o_code,d_code,o_name,d_name,year,item,weight
+255,2,Belgium,Afghanistan,2020,sugar_beet,0.02
+235,2,Uzbekistan,Afghanistan,2020,sugar_beet,2.9
+72,238,Djibouti,Ethiopia,2021,sugar_beet,189.6
+272,3,Serbia,Albania,2017,sugar_beet,25.34
+144,96,Mozambique,"China, Hong Kong SAR",2020,sugar_beet,0.01
+223,2,Türkiye,Afghanistan,2023,sugar_beet,92.68
+225,2,United Arab Emirates,Afghanistan,2014,sugar_beet,0.01
+225,2,United Arab Emirates,Afghanistan,2021,sugar_beet,0.92
+186,80,Serbia and Montenegro,Bosnia and Herzegovina,2002,sugar_beet,50.0
+147,7,Namibia,Angola,1997,sugar_beet,2.0
+147,7,Namibia,Angola,1998,sugar_beet,2.0
+147,7,Namibia,Angola,2012,sugar_beet,6.0
+147,7,Namibia,Angola,2013,sugar_beet,5.0
+147,7,Namibia,Angola,2014,sugar_beet,0.01
+147,7,Namibia,Angola,2020,sugar_beet,0.15
+165,2,Pakistan,Afghanistan,2011,sugar_beet,18.0
+165,2,Pakistan,Afghanistan,2013,sugar_beet,4.0
+165,2,Pakistan,Afghanistan,2014,sugar_beet,2.95
+165,2,Pakistan,Afghanistan,2015,sugar_beet,0.08
+181,20,Zimbabwe,Botswana,1986,sugar_beet,9.0
+181,20,Zimbabwe,Botswana,1987,sugar_beet,30.0
+181,20,Zimbabwe,Botswana,1991,sugar_beet,1.0
+181,20,Zimbabwe,Botswana,1992,sugar_beet,3.0
+181,20,Zimbabwe,Botswana,1993,sugar_beet,34.0
+181,20,Zimbabwe,Botswana,1994,sugar_beet,17.0
+181,20,Zimbabwe,Botswana,1995,sugar_beet,4.0
+104,10,Ireland,Australia,2020,sugar_beet,2.52
+159,229,Nigeria,United Kingdom of Great Britain and Northern Ireland,2000,sugar_beet,1.0
+212,103,Syrian Arab Republic,Iraq,2008,sugar_beet,485.0
+212,103,Syrian Arab Republic,Iraq,2009,sugar_beet,513.0
+98,10,Croatia,Australia,1993,sugar_beet,5356.0
+112,13,Jordan,Bahrain,1991,sugar_beet,3.0
+112,13,Jordan,Bahrain,1992,sugar_beet,2.0
+84,3,Greece,Albania,2003,sugar_beet,10.0
+108,57,Kazakhstan,Belarus,2023,sugar_beet,20.0
+81,53,Ghana,Benin,2003,sugar_beet,25.0
+209,144,Eswatini,Mozambique,2000,sugar_beet,235.0
+276,194,Sudan,Saudi Arabia,2015,sugar_beet,0.2
+212,118,Syrian Arab Republic,Kuwait,1986,sugar_beet,1.0
+119,57,Latvia,Belarus,2003,sugar_beet,24840.0
+119,57,Latvia,Belarus,2005,sugar_beet,37500.0
+21,8,Brazil,Antigua and Barbuda,2018,sugar_beet,0.01
+21,8,Brazil,Antigua and Barbuda,2019,sugar_beet,0.03
+21,8,Brazil,Antigua and Barbuda,2020,sugar_beet,0.01
+21,8,Brazil,Antigua and Barbuda,2021,sugar_beet,0.03
+21,8,Brazil,Antigua and Barbuda,2022,sugar_beet,0.05
+219,156,Tonga,New Zealand,2010,sugar_beet,30.0
+219,156,Tonga,New Zealand,2012,sugar_beet,11.0
+59,13,Egypt,Bahrain,2017,sugar_beet,0.24
+68,4,France,Algeria,2009,sugar_beet,54.0
+59,13,Egypt,Bahrain,2022,sugar_beet,131.7
+68,4,France,Algeria,2018,sugar_beet,0.44
+59,13,Egypt,Bahrain,2023,sugar_beet,168.33
+68,4,France,Algeria,2019,sugar_beet,0.46
+68,4,France,Algeria,2021,sugar_beet,0.03
+212,121,Syrian Arab Republic,Lebanon,1986,sugar_beet,11.0
+81,233,Ghana,Burkina Faso,1999,sugar_beet,1.0
+75,175,Gambia,Guinea-Bissau,2010,sugar_beet,38.0
+237,33,Viet Nam,Canada,2015,sugar_beet,0.83
+237,33,Viet Nam,Canada,2017,sugar_beet,1.55
+237,33,Viet Nam,Canada,2021,sugar_beet,1.16
+109,33,Jamaica,Canada,2004,sugar_beet,18.0
+109,33,Jamaica,Canada,2005,sugar_beet,1.0
+109,33,Jamaica,Canada,2015,sugar_beet,0.25
+174,7,Portugal,Angola,2009,sugar_beet,1.0
+174,7,Portugal,Angola,2010,sugar_beet,1.0
+174,7,Portugal,Angola,2011,sugar_beet,1.0
+174,7,Portugal,Angola,2012,sugar_beet,1.0
+174,7,Portugal,Angola,2017,sugar_beet,1.25
+174,7,Portugal,Angola,2018,sugar_beet,0.13
+251,250,Zambia,Democratic Republic of the Congo,2007,sugar_beet,1.0
+251,250,Zambia,Democratic Republic of the Congo,2008,sugar_beet,1.0
+147,20,Namibia,Botswana,2019,sugar_beet,0.01
+226,250,Uganda,Democratic Republic of the Congo,2004,sugar_beet,25.0
+226,250,Uganda,Democratic Republic of the Congo,2010,sugar_beet,4.0
+226,250,Uganda,Democratic Republic of the Congo,2011,sugar_beet,1.0
+226,250,Uganda,Democratic Republic of the Congo,2012,sugar_beet,19.0
+226,250,Uganda,Democratic Republic of the Congo,2014,sugar_beet,51.35
+226,250,Uganda,Democratic Republic of the Congo,2015,sugar_beet,0.5
+215,41,United Republic of Tanzania,"China, mainland",2008,sugar_beet,100.0
+199,11,Slovakia,Austria,2016,sugar_beet,4685.71
+199,11,Slovakia,Austria,2017,sugar_beet,23357.51
+199,11,Slovakia,Austria,2018,sugar_beet,41967.04
+199,11,Slovakia,Austria,2020,sugar_beet,84391.06
+199,11,Slovakia,Austria,2021,sugar_beet,15868.34
+199,11,Slovakia,Austria,2023,sugar_beet,3858.19
+184,250,Rwanda,Democratic Republic of the Congo,2012,sugar_beet,1.0
+144,123,Mozambique,Liberia,2021,sugar_beet,0.06
+105,255,Israel,Belgium,2013,sugar_beet,10.0
+66,33,Fiji,Canada,1987,sugar_beet,1.0
+121,13,Lebanon,Bahrain,2015,sugar_beet,0.04
+144,134,Mozambique,Malta,2019,sugar_beet,0.01
+48,33,Costa Rica,Canada,2005,sugar_beet,17.0
+126,57,Lithuania,Belarus,2000,sugar_beet,3598.0
+126,57,Lithuania,Belarus,2002,sugar_beet,23890.0
+126,57,Lithuania,Belarus,2003,sugar_beet,89599.0
+126,57,Lithuania,Belarus,2005,sugar_beet,31178.0
+144,127,Mozambique,Marshall Islands,2019,sugar_beet,0.01
+144,127,Mozambique,Marshall Islands,2020,sugar_beet,0.04
+147,96,Namibia,"China, Hong Kong SAR",2021,sugar_beet,0.02
+75,133,Gambia,Mali,2010,sugar_beet,18.0
+98,11,Croatia,Austria,2016,sugar_beet,25.0
+238,72,Ethiopia,Djibouti,2007,sugar_beet,24.0
+238,72,Ethiopia,Djibouti,2008,sugar_beet,19.0
+238,72,Ethiopia,Djibouti,2009,sugar_beet,24.0
+238,72,Ethiopia,Djibouti,2010,sugar_beet,19.0
+238,72,Ethiopia,Djibouti,2011,sugar_beet,7.0
+238,72,Ethiopia,Djibouti,2012,sugar_beet,1.0
+238,72,Ethiopia,Djibouti,2020,sugar_beet,0.05
+20,147,Botswana,Namibia,2014,sugar_beet,0.03
+20,147,Botswana,Namibia,2015,sugar_beet,0.02
+20,147,Botswana,Namibia,2017,sugar_beet,0.04
+20,147,Botswana,Namibia,2018,sugar_beet,0.01
+20,147,Botswana,Namibia,2021,sugar_beet,0.02
+20,147,Botswana,Namibia,2022,sugar_beet,0.01
+20,147,Botswana,Namibia,2023,sugar_beet,0.01
+147,45,Namibia,Comoros,2016,sugar_beet,0.02
+54,11,Denmark,Austria,1986,sugar_beet,1.0
+54,11,Denmark,Austria,1987,sugar_beet,1.0
+54,11,Denmark,Austria,1988,sugar_beet,8.0
+54,11,Denmark,Austria,2002,sugar_beet,320.0
+54,11,Denmark,Austria,2003,sugar_beet,57.0
+54,11,Denmark,Austria,2017,sugar_beet,7.46
+54,11,Denmark,Austria,2018,sugar_beet,10.25
+54,11,Denmark,Austria,2019,sugar_beet,15.12
+54,11,Denmark,Austria,2020,sugar_beet,12.13
+54,11,Denmark,Austria,2021,sugar_beet,18.12
+54,11,Denmark,Austria,2022,sugar_beet,4.91
+54,11,Denmark,Austria,2023,sugar_beet,2.0
+149,100,Nepal,India,2003,sugar_beet,3.0
+149,100,Nepal,India,2009,sugar_beet,8.0
+144,166,Mozambique,Panama,2019,sugar_beet,0.01
+144,171,Mozambique,Philippines,2022,sugar_beet,0.01
+100,10,India,Australia,2023,sugar_beet,0.06
+215,250,United Republic of Tanzania,Democratic Republic of the Congo,2012,sugar_beet,1.0
+1,68,Armenia,France,2016,sugar_beet,0.02
+1,68,Armenia,France,2017,sugar_beet,0.07
+1,68,Armenia,France,2018,sugar_beet,0.03
+1,68,Armenia,France,2019,sugar_beet,0.03
+203,9,Spain,Argentina,2018,sugar_beet,0.04
+203,9,Spain,Argentina,2020,sugar_beet,0.16
+223,10,Türkiye,Australia,2000,sugar_beet,12.0
+223,10,Türkiye,Australia,2001,sugar_beet,23.0
+223,10,Türkiye,Australia,2021,sugar_beet,0.02
+223,10,Türkiye,Australia,2022,sugar_beet,0.01
+40,255,Chile,Belgium,2013,sugar_beet,52.0
+54,52,Denmark,Azerbaijan,2013,sugar_beet,10.0
+54,52,Denmark,Azerbaijan,2014,sugar_beet,0.8
+54,52,Denmark,Azerbaijan,2015,sugar_beet,0.3
+54,52,Denmark,Azerbaijan,2016,sugar_beet,0.34
+198,11,Slovenia,Austria,2002,sugar_beet,10.0
+198,11,Slovenia,Austria,2010,sugar_beet,52.0
+198,11,Slovenia,Austria,2011,sugar_beet,13.0
+198,11,Slovenia,Austria,2012,sugar_beet,7.0
+198,11,Slovenia,Austria,2015,sugar_beet,2.9
+198,11,Slovenia,Austria,2016,sugar_beet,5.45
+198,11,Slovenia,Austria,2017,sugar_beet,5.46
+198,11,Slovenia,Austria,2019,sugar_beet,2.27
+173,11,Poland,Austria,2017,sugar_beet,0.83
+173,11,Poland,Austria,2018,sugar_beet,0.1
+173,11,Poland,Austria,2020,sugar_beet,3.0
+199,255,Slovakia,Belgium,2013,sugar_beet,1.0
+199,255,Slovakia,Belgium,2014,sugar_beet,27.98
+272,80,Serbia,Bosnia and Herzegovina,2010,sugar_beet,24159.0
+41,10,"China, mainland",Australia,2001,sugar_beet,2.0
+41,10,"China, mainland",Australia,2013,sugar_beet,1.0
+41,10,"China, mainland",Australia,2022,sugar_beet,0.6
+167,11,Czechia,Austria,2003,sugar_beet,194.0
+167,11,Czechia,Austria,2005,sugar_beet,94.0
+167,11,Czechia,Austria,2007,sugar_beet,200.0
+167,11,Czechia,Austria,2008,sugar_beet,380.0
+167,11,Czechia,Austria,2015,sugar_beet,124.5
+167,11,Czechia,Austria,2018,sugar_beet,26.22
+167,11,Czechia,Austria,2019,sugar_beet,183.28
+167,11,Czechia,Austria,2021,sugar_beet,540.0
+167,11,Czechia,Austria,2022,sugar_beet,457.44
+59,33,Egypt,Canada,2021,sugar_beet,279.2
+235,185,Uzbekistan,Russian Federation,2020,sugar_beet,9.0
+75,195,Gambia,Senegal,2010,sugar_beet,10.0
+81,107,Ghana,Côte d'Ivoire,1999,sugar_beet,11.0
+81,107,Ghana,Côte d'Ivoire,2000,sugar_beet,8.0
+81,107,Ghana,Côte d'Ivoire,2003,sugar_beet,4548.0
+113,108,Kyrgyzstan,Kazakhstan,1998,sugar_beet,3610.0
+113,108,Kyrgyzstan,Kazakhstan,1999,sugar_beet,26686.0
+113,108,Kyrgyzstan,Kazakhstan,2000,sugar_beet,29079.0
+113,108,Kyrgyzstan,Kazakhstan,2001,sugar_beet,32400.0
+113,108,Kyrgyzstan,Kazakhstan,2002,sugar_beet,41400.0
+113,108,Kyrgyzstan,Kazakhstan,2003,sugar_beet,50350.0
+113,108,Kyrgyzstan,Kazakhstan,2004,sugar_beet,67000.0
+113,108,Kyrgyzstan,Kazakhstan,2006,sugar_beet,7834.0
+113,108,Kyrgyzstan,Kazakhstan,2017,sugar_beet,30602.2
+209,202,Eswatini,South Africa,2000,sugar_beet,4.0
+156,10,New Zealand,Australia,2023,sugar_beet,0.11
+97,11,Hungary,Austria,1992,sugar_beet,2087.0
+97,11,Hungary,Austria,2015,sugar_beet,23.7
+97,11,Hungary,Austria,2018,sugar_beet,15386.68
+97,11,Hungary,Austria,2019,sugar_beet,985.62
+97,11,Hungary,Austria,2020,sugar_beet,195.82
+97,11,Hungary,Austria,2021,sugar_beet,1376.03
+97,11,Hungary,Austria,2023,sugar_beet,378.1
+105,33,Israel,Canada,2013,sugar_beet,5.0
+52,102,Azerbaijan,Iran (Islamic Republic of),1999,sugar_beet,5080.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2001,sugar_beet,5879.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2003,sugar_beet,11272.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2004,sugar_beet,16922.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2007,sugar_beet,3494.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2008,sugar_beet,3000.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2009,sugar_beet,2625.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2010,sugar_beet,14099.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2011,sugar_beet,22622.0
+52,102,Azerbaijan,Iran (Islamic Republic of),2012,sugar_beet,34770.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,2012,sugar_beet,100.0
+107,46,Côte d'Ivoire,Congo,2019,sugar_beet,0.07
+107,46,Côte d'Ivoire,Congo,2020,sugar_beet,0.02
+225,13,United Arab Emirates,Bahrain,2018,sugar_beet,19.38
+225,13,United Arab Emirates,Bahrain,2019,sugar_beet,2.35
+225,13,United Arab Emirates,Bahrain,2020,sugar_beet,0.02
+225,13,United Arab Emirates,Bahrain,2023,sugar_beet,0.78
+183,255,Romania,Belgium,2017,sugar_beet,0.01
+202,11,South Africa,Austria,2002,sugar_beet,2.0
+203,10,Spain,Australia,2023,sugar_beet,18.14
+11,255,Austria,Belgium,2016,sugar_beet,175.11
+11,255,Austria,Belgium,2017,sugar_beet,160.74
+80,98,Bosnia and Herzegovina,Croatia,2011,sugar_beet,2207.0
+80,98,Bosnia and Herzegovina,Croatia,2012,sugar_beet,807.0
+256,255,Luxembourg,Belgium,2017,sugar_beet,0.38
+256,255,Luxembourg,Belgium,2018,sugar_beet,0.01
+256,255,Luxembourg,Belgium,2023,sugar_beet,0.01
+249,201,Yemen,Somalia,2005,sugar_beet,752.0
+113,117,Kyrgyzstan,Republic of Korea,2004,sugar_beet,22.0
+225,16,United Arab Emirates,Bangladesh,2021,sugar_beet,0.68
+100,13,India,Bahrain,2020,sugar_beet,0.06
+15,107,Belgium-Luxembourg,Côte d'Ivoire,1997,sugar_beet,2.0
+21,11,Brazil,Austria,2023,sugar_beet,0.01
+48,44,Costa Rica,Colombia,1998,sugar_beet,33.0
+48,44,Costa Rica,Colombia,1999,sugar_beet,4.0
+118,59,Kuwait,Egypt,2016,sugar_beet,1.05
+118,59,Kuwait,Egypt,2017,sugar_beet,0.5
+101,21,Indonesia,Brazil,2016,sugar_beet,25.0
+195,68,Senegal,France,2008,sugar_beet,3.0
+185,57,Russian Federation,Belarus,2017,sugar_beet,0.08
+185,57,Russian Federation,Belarus,2019,sugar_beet,0.11
+185,57,Russian Federation,Belarus,2020,sugar_beet,0.02
+185,57,Russian Federation,Belarus,2021,sugar_beet,0.26
+114,68,Kenya,France,1986,sugar_beet,6.0
+114,68,Kenya,France,1987,sugar_beet,6.0
+114,68,Kenya,France,1988,sugar_beet,8.0
+21,12,Brazil,Bahamas,2018,sugar_beet,0.06
+21,12,Brazil,Bahamas,2019,sugar_beet,0.13
+21,12,Brazil,Bahamas,2020,sugar_beet,0.25
+21,12,Brazil,Bahamas,2021,sugar_beet,0.25
+21,12,Brazil,Bahamas,2022,sugar_beet,0.09
+21,12,Brazil,Bahamas,2023,sugar_beet,0.09
+101,26,Indonesia,Brunei Darussalam,2003,sugar_beet,10.0
+223,52,Türkiye,Azerbaijan,2017,sugar_beet,0.06
+223,52,Türkiye,Azerbaijan,2021,sugar_beet,0.02
+223,52,Türkiye,Azerbaijan,2022,sugar_beet,0.01
+99,54,Iceland,Denmark,2016,sugar_beet,0.07
+98,80,Croatia,Bosnia and Herzegovina,2010,sugar_beet,7899.0
+170,40,Peru,Chile,2020,sugar_beet,0.14
+170,40,Peru,Chile,2021,sugar_beet,0.14
+68,10,France,Australia,2003,sugar_beet,46.0
+68,10,France,Australia,2019,sugar_beet,2.92
+158,159,Niger,Nigeria,2007,sugar_beet,2.0
+158,159,Niger,Nigeria,2008,sugar_beet,6.0
+158,159,Niger,Nigeria,2010,sugar_beet,2.0
+158,159,Niger,Nigeria,2014,sugar_beet,18.5
+158,159,Niger,Nigeria,2018,sugar_beet,5.0
+59,72,Egypt,Djibouti,2022,sugar_beet,0.29
+113,185,Kyrgyzstan,Russian Federation,2008,sugar_beet,2.0
+113,185,Kyrgyzstan,Russian Federation,2010,sugar_beet,2.0
+32,74,Cameroon,Gabon,2019,sugar_beet,0.5
+32,74,Cameroon,Gabon,2020,sugar_beet,3.0
+174,255,Portugal,Belgium,2020,sugar_beet,0.82
+185,255,Russian Federation,Belgium,2014,sugar_beet,0.31
+185,255,Russian Federation,Belgium,2016,sugar_beet,0.63
+44,49,Colombia,Cuba,2002,sugar_beet,3.0
+44,49,Colombia,Cuba,2013,sugar_beet,9.0
+143,61,Morocco,Equatorial Guinea,2016,sugar_beet,0.2
+20,202,Botswana,South Africa,2021,sugar_beet,306.0
+20,202,Botswana,South Africa,2022,sugar_beet,68.0
+3,154,Albania,North Macedonia,2004,sugar_beet,698.0
+21,14,Brazil,Barbados,2020,sugar_beet,0.02
+21,14,Brazil,Barbados,2022,sugar_beet,0.02
+21,14,Brazil,Barbados,2023,sugar_beet,0.02
+273,121,Montenegro,Lebanon,2012,sugar_beet,57.0
+226,114,Uganda,Kenya,2009,sugar_beet,165.0
+226,114,Uganda,Kenya,2014,sugar_beet,108.0
+226,114,Uganda,Kenya,2016,sugar_beet,131.0
+97,15,Hungary,Belgium-Luxembourg,1994,sugar_beet,3226.0
+97,15,Hungary,Belgium-Luxembourg,1995,sugar_beet,14085.0
+33,14,Canada,Barbados,2015,sugar_beet,0.91
+272,98,Serbia,Croatia,2006,sugar_beet,80196.0
+272,98,Serbia,Croatia,2007,sugar_beet,88169.0
+272,98,Serbia,Croatia,2008,sugar_beet,123299.0
+272,98,Serbia,Croatia,2009,sugar_beet,94976.0
+272,98,Serbia,Croatia,2010,sugar_beet,300038.0
+272,98,Serbia,Croatia,2011,sugar_beet,432532.0
+272,98,Serbia,Croatia,2012,sugar_beet,12127.0
+272,98,Serbia,Croatia,2013,sugar_beet,225.0
+272,98,Serbia,Croatia,2014,sugar_beet,33504.64
+272,98,Serbia,Croatia,2015,sugar_beet,46743.64
+272,98,Serbia,Croatia,2016,sugar_beet,30976.68
+272,98,Serbia,Croatia,2017,sugar_beet,29904.4
+272,98,Serbia,Croatia,2018,sugar_beet,18206.31
+223,13,Türkiye,Bahrain,2021,sugar_beet,0.04
+194,178,Saudi Arabia,Eritrea,2001,sugar_beet,20.0
+225,29,United Arab Emirates,Burundi,2022,sugar_beet,0.15
+183,27,Romania,Bulgaria,2012,sugar_beet,51.0
+214,33,"China, Taiwan Province of",Canada,1999,sugar_beet,4.0
+214,33,"China, Taiwan Province of",Canada,2000,sugar_beet,3.0
+59,68,Egypt,France,2018,sugar_beet,40.24
+59,68,Egypt,France,2019,sugar_beet,0.5
+59,68,Egypt,France,2020,sugar_beet,31.82
+21,255,Brazil,Belgium,2020,sugar_beet,0.01
+21,255,Brazil,Belgium,2021,sugar_beet,0.01
+105,61,Israel,Equatorial Guinea,2014,sugar_beet,18.85
+238,150,Ethiopia,Netherlands (Kingdom of the),2017,sugar_beet,2.51
+52,194,Azerbaijan,Saudi Arabia,2023,sugar_beet,0.2
+198,27,Slovenia,Bulgaria,2022,sugar_beet,216.0
+81,106,Ghana,Italy,2005,sugar_beet,1.0
+202,20,South Africa,Botswana,2014,sugar_beet,0.99
+202,20,South Africa,Botswana,2015,sugar_beet,0.16
+202,20,South Africa,Botswana,2016,sugar_beet,1.0
+202,20,South Africa,Botswana,2018,sugar_beet,1.55
+202,20,South Africa,Botswana,2019,sugar_beet,0.6
+202,20,South Africa,Botswana,2020,sugar_beet,1.87
+202,20,South Africa,Botswana,2023,sugar_beet,0.33
+63,67,Estonia,Finland,2020,sugar_beet,0.04
+63,67,Estonia,Finland,2021,sugar_beet,0.02
+63,67,Estonia,Finland,2022,sugar_beet,0.02
+126,54,Lithuania,Denmark,1994,sugar_beet,1200.0
+225,39,United Arab Emirates,Chad,2020,sugar_beet,5.8
+59,79,Egypt,Germany,2011,sugar_beet,7.0
+59,79,Egypt,Germany,2018,sugar_beet,2.99
+59,79,Egypt,Germany,2019,sugar_beet,1.36
+59,79,Egypt,Germany,2020,sugar_beet,35.16
+211,255,Switzerland,Belgium,2004,sugar_beet,1.0
+109,229,Jamaica,United Kingdom of Great Britain and Northern Ireland,2004,sugar_beet,2.0
+211,255,Switzerland,Belgium,2021,sugar_beet,0.01
+89,60,Guatemala,El Salvador,1999,sugar_beet,5.0
+89,60,Guatemala,El Salvador,2000,sugar_beet,7.0
+89,60,Guatemala,El Salvador,2001,sugar_beet,3.0
+89,60,Guatemala,El Salvador,2002,sugar_beet,57.0
+89,60,Guatemala,El Salvador,2003,sugar_beet,8.0
+223,255,Türkiye,Belgium,2014,sugar_beet,0.02
+223,255,Türkiye,Belgium,2022,sugar_beet,0.01
+20,181,Botswana,Zimbabwe,2010,sugar_beet,4.0
+20,181,Botswana,Zimbabwe,2023,sugar_beet,0.01
+215,114,United Republic of Tanzania,Kenya,2011,sugar_beet,5.0
+119,63,Latvia,Estonia,2004,sugar_beet,1960.0
+119,63,Latvia,Estonia,2016,sugar_beet,551.84
+119,63,Latvia,Estonia,2017,sugar_beet,231.61
+119,63,Latvia,Estonia,2018,sugar_beet,458.24
+119,63,Latvia,Estonia,2019,sugar_beet,2247.14
+119,63,Latvia,Estonia,2020,sugar_beet,1248.7
+119,63,Latvia,Estonia,2021,sugar_beet,8.1
+119,63,Latvia,Estonia,2022,sugar_beet,51.36
+119,63,Latvia,Estonia,2023,sugar_beet,100.18
+226,184,Uganda,Rwanda,2006,sugar_beet,4.0
+41,21,"China, mainland",Brazil,2009,sugar_beet,7.0
+41,21,"China, mainland",Brazil,2010,sugar_beet,88.0
+41,21,"China, mainland",Brazil,2011,sugar_beet,30.0
+41,21,"China, mainland",Brazil,2012,sugar_beet,71.0
+41,21,"China, mainland",Brazil,2013,sugar_beet,50.0
+100,18,India,Bhutan,2021,sugar_beet,0.1
+100,18,India,Bhutan,2022,sugar_beet,0.03
+101,96,Indonesia,"China, Hong Kong SAR",2005,sugar_beet,74.0
+101,96,Indonesia,"China, Hong Kong SAR",2017,sugar_beet,0.01
+147,202,Namibia,South Africa,2014,sugar_beet,0.01
+112,105,Jordan,Israel,2007,sugar_beet,50.0
+108,113,Kazakhstan,Kyrgyzstan,2000,sugar_beet,11251.0
+108,113,Kazakhstan,Kyrgyzstan,2001,sugar_beet,3080.0
+108,113,Kazakhstan,Kyrgyzstan,2009,sugar_beet,2779.0
+52,223,Azerbaijan,Türkiye,1999,sugar_beet,31000.0
+52,223,Azerbaijan,Türkiye,2001,sugar_beet,36846.0
+52,223,Azerbaijan,Türkiye,2002,sugar_beet,31581.0
+52,223,Azerbaijan,Türkiye,2003,sugar_beet,95327.0
+52,223,Azerbaijan,Türkiye,2004,sugar_beet,99637.0
+52,223,Azerbaijan,Türkiye,2005,sugar_beet,49676.0
+52,223,Azerbaijan,Türkiye,2006,sugar_beet,20571.0
+52,223,Azerbaijan,Türkiye,2007,sugar_beet,23259.0
+52,223,Azerbaijan,Türkiye,2008,sugar_beet,13896.0
+59,90,Egypt,Guinea,2022,sugar_beet,4.43
+66,156,Fiji,New Zealand,1988,sugar_beet,1.0
+66,156,Fiji,New Zealand,2014,sugar_beet,0.03
+21,27,Brazil,Bulgaria,2019,sugar_beet,0.02
+225,41,United Arab Emirates,"China, mainland",2017,sugar_beet,0.2
+150,11,Netherlands (Kingdom of the),Austria,2009,sugar_beet,930.0
+150,11,Netherlands (Kingdom of the),Austria,2010,sugar_beet,510.0
+150,11,Netherlands (Kingdom of the),Austria,2014,sugar_beet,4.82
+150,11,Netherlands (Kingdom of the),Austria,2018,sugar_beet,0.28
+150,11,Netherlands (Kingdom of the),Austria,2019,sugar_beet,0.41
+150,11,Netherlands (Kingdom of the),Austria,2020,sugar_beet,1.21
+150,11,Netherlands (Kingdom of the),Austria,2021,sugar_beet,0.47
+150,11,Netherlands (Kingdom of the),Austria,2022,sugar_beet,3.82
+150,11,Netherlands (Kingdom of the),Austria,2023,sugar_beet,2.4
+134,124,Malta,Libya,1999,sugar_beet,1.0
+134,124,Malta,Libya,2000,sugar_beet,1.0
+121,50,Lebanon,Cyprus,2016,sugar_beet,0.04
+131,33,Malaysia,Canada,1992,sugar_beet,13.0
+199,167,Slovakia,Czechia,2008,sugar_beet,1.0
+199,167,Slovakia,Czechia,2014,sugar_beet,6547.97
+199,167,Slovakia,Czechia,2015,sugar_beet,8485.16
+199,167,Slovakia,Czechia,2016,sugar_beet,6642.84
+199,167,Slovakia,Czechia,2017,sugar_beet,7892.02
+199,167,Slovakia,Czechia,2018,sugar_beet,12277.24
+199,167,Slovakia,Czechia,2019,sugar_beet,96359.52
+199,167,Slovakia,Czechia,2020,sugar_beet,76175.99
+199,167,Slovakia,Czechia,2021,sugar_beet,124704.96
+199,167,Slovakia,Czechia,2022,sugar_beet,84165.61
+199,167,Slovakia,Czechia,2023,sugar_beet,144189.78
+272,79,Serbia,Germany,2008,sugar_beet,43.0
+272,79,Serbia,Germany,2017,sugar_beet,1.1
+112,114,Jordan,Kenya,1988,sugar_beet,1.0
+59,100,Egypt,India,2018,sugar_beet,2.77
+79,11,Germany,Austria,1996,sugar_beet,22.0
+79,11,Germany,Austria,1998,sugar_beet,1.0
+79,11,Germany,Austria,1999,sugar_beet,9.0
+79,11,Germany,Austria,2002,sugar_beet,8.0
+79,11,Germany,Austria,2004,sugar_beet,77.0
+79,11,Germany,Austria,2012,sugar_beet,121.0
+79,11,Germany,Austria,2013,sugar_beet,167.0
+79,11,Germany,Austria,2014,sugar_beet,86.4
+79,11,Germany,Austria,2015,sugar_beet,83.7
+79,11,Germany,Austria,2016,sugar_beet,53.78
+79,11,Germany,Austria,2017,sugar_beet,103.49
+79,11,Germany,Austria,2018,sugar_beet,46.83
+79,11,Germany,Austria,2019,sugar_beet,82.9
+79,11,Germany,Austria,2020,sugar_beet,109.86
+79,11,Germany,Austria,2021,sugar_beet,121.83
+79,11,Germany,Austria,2022,sugar_beet,80.33
+79,11,Germany,Austria,2023,sugar_beet,113.74
+109,231,Jamaica,United States of America,2004,sugar_beet,3.0
+109,231,Jamaica,United States of America,2017,sugar_beet,0.22
+10,96,Australia,"China, Hong Kong SAR",2018,sugar_beet,0.5
+231,12,United States of America,Bahamas,1987,sugar_beet,108.0
+231,12,United States of America,Bahamas,1988,sugar_beet,816.0
+231,12,United States of America,Bahamas,1995,sugar_beet,91.0
+231,12,United States of America,Bahamas,2000,sugar_beet,42.0
+231,12,United States of America,Bahamas,2001,sugar_beet,271.0
+231,12,United States of America,Bahamas,2004,sugar_beet,341.0
+231,12,United States of America,Bahamas,2005,sugar_beet,59.0
+231,12,United States of America,Bahamas,2021,sugar_beet,55.0
+231,12,United States of America,Bahamas,2023,sugar_beet,205.0
+143,79,Morocco,Germany,2019,sugar_beet,0.01
+183,50,Romania,Cyprus,2016,sugar_beet,0.01
+225,45,United Arab Emirates,Comoros,2023,sugar_beet,0.09
+226,277,Uganda,South Sudan,2014,sugar_beet,76.8
+226,277,Uganda,South Sudan,2015,sugar_beet,18.2
+226,277,Uganda,South Sudan,2016,sugar_beet,12.5
+15,68,Belgium-Luxembourg,France,1986,sugar_beet,8.0
+15,68,Belgium-Luxembourg,France,1987,sugar_beet,9.0
+15,68,Belgium-Luxembourg,France,1988,sugar_beet,34.0
+15,68,Belgium-Luxembourg,France,1989,sugar_beet,9.0
+15,68,Belgium-Luxembourg,France,1990,sugar_beet,14.0
+15,68,Belgium-Luxembourg,France,1996,sugar_beet,166.0
+15,68,Belgium-Luxembourg,France,1999,sugar_beet,42.0
+225,46,United Arab Emirates,Congo,2016,sugar_beet,0.15
+106,11,Italy,Austria,1989,sugar_beet,7.0
+106,11,Italy,Austria,2014,sugar_beet,0.01
+106,11,Italy,Austria,2017,sugar_beet,0.32
+106,11,Italy,Austria,2018,sugar_beet,0.01
+106,11,Italy,Austria,2019,sugar_beet,0.07
+106,11,Italy,Austria,2020,sugar_beet,0.16
+106,11,Italy,Austria,2021,sugar_beet,0.01
+106,11,Italy,Austria,2022,sugar_beet,0.16
+106,11,Italy,Austria,2023,sugar_beet,0.01
+174,35,Portugal,Cabo Verde,2009,sugar_beet,1.0
+174,35,Portugal,Cabo Verde,2010,sugar_beet,2.0
+174,35,Portugal,Cabo Verde,2018,sugar_beet,0.15
+174,35,Portugal,Cabo Verde,2019,sugar_beet,0.4
+174,35,Portugal,Cabo Verde,2023,sugar_beet,0.05
+226,276,Uganda,Sudan,2012,sugar_beet,51.0
+226,276,Uganda,Sudan,2013,sugar_beet,3.0
+126,63,Lithuania,Estonia,2013,sugar_beet,130.0
+126,63,Lithuania,Estonia,2019,sugar_beet,25.18
+214,128,"China, Taiwan Province of","China, Macao SAR",2019,sugar_beet,0.01
+223,21,Türkiye,Brazil,2021,sugar_beet,0.02
+226,206,Uganda,Sudan (former),2008,sugar_beet,10.0
+226,206,Uganda,Sudan (former),2009,sugar_beet,149.0
+226,206,Uganda,Sudan (former),2011,sugar_beet,5.0
+215,221,United Republic of Tanzania,Oman,2010,sugar_beet,3.0
+101,41,Indonesia,"China, mainland",2001,sugar_beet,32.0
+101,41,Indonesia,"China, mainland",2023,sugar_beet,0.01
+203,255,Spain,Belgium,2007,sugar_beet,1.0
+203,255,Spain,Belgium,2023,sugar_beet,1.1
+114,150,Kenya,Netherlands (Kingdom of the),1986,sugar_beet,1.0
+114,150,Kenya,Netherlands (Kingdom of the),1987,sugar_beet,3.0
+114,150,Kenya,Netherlands (Kingdom of the),2003,sugar_beet,1.0
+114,150,Kenya,Netherlands (Kingdom of the),2004,sugar_beet,2.0
+114,150,Kenya,Netherlands (Kingdom of the),2005,sugar_beet,1.0
+114,150,Kenya,Netherlands (Kingdom of the),2006,sugar_beet,1.0
+114,150,Kenya,Netherlands (Kingdom of the),2010,sugar_beet,1.0
+84,27,Greece,Bulgaria,2008,sugar_beet,23.0
+84,27,Greece,Bulgaria,2020,sugar_beet,0.18
+102,225,Iran (Islamic Republic of),United Arab Emirates,2005,sugar_beet,3.0
+21,33,Brazil,Canada,2018,sugar_beet,0.02
+21,33,Brazil,Canada,2019,sugar_beet,0.01
+147,181,Namibia,Zimbabwe,2017,sugar_beet,0.01
+251,181,Zambia,Zimbabwe,1997,sugar_beet,32.0
+255,33,Belgium,Canada,2014,sugar_beet,35.0
+67,63,Finland,Estonia,2022,sugar_beet,0.5
+89,95,Guatemala,Honduras,2001,sugar_beet,1.0
+216,33,Thailand,Canada,2005,sugar_beet,1.0
+216,33,Thailand,Canada,2006,sugar_beet,1.0
+48,95,Costa Rica,Honduras,2008,sugar_beet,1.0
+150,13,Netherlands (Kingdom of the),Bahrain,2021,sugar_beet,0.02
+150,13,Netherlands (Kingdom of the),Bahrain,2022,sugar_beet,0.01
+59,106,Egypt,Italy,2011,sugar_beet,4.0
+198,98,Slovenia,Croatia,2016,sugar_beet,93.65
+198,98,Slovenia,Croatia,2018,sugar_beet,10359.15
+198,98,Slovenia,Croatia,2019,sugar_beet,11277.78
+198,98,Slovenia,Croatia,2020,sugar_beet,8439.65
+198,98,Slovenia,Croatia,2021,sugar_beet,10263.88
+198,98,Slovenia,Croatia,2022,sugar_beet,6506.81
+198,98,Slovenia,Croatia,2023,sugar_beet,8750.36
+41,33,"China, mainland",Canada,2011,sugar_beet,3.0
+41,33,"China, mainland",Canada,2013,sugar_beet,10.0
+41,33,"China, mainland",Canada,2023,sugar_beet,24.85
+167,98,Czechia,Croatia,2017,sugar_beet,49.64
+84,33,Greece,Canada,2022,sugar_beet,0.21
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2021,sugar_beet,0.88
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2022,sugar_beet,0.83
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2023,sugar_beet,0.77
+15,79,Belgium-Luxembourg,Germany,1991,sugar_beet,90.0
+15,79,Belgium-Luxembourg,Germany,1992,sugar_beet,412.0
+15,79,Belgium-Luxembourg,Germany,1993,sugar_beet,126.0
+15,79,Belgium-Luxembourg,Germany,1994,sugar_beet,330.0
+15,79,Belgium-Luxembourg,Germany,1995,sugar_beet,110.0
+15,79,Belgium-Luxembourg,Germany,1996,sugar_beet,113.0
+15,79,Belgium-Luxembourg,Germany,1997,sugar_beet,13.0
+15,79,Belgium-Luxembourg,Germany,1998,sugar_beet,4.0
+100,33,India,Canada,2003,sugar_beet,110.0
+100,33,India,Canada,2006,sugar_beet,77.0
+100,33,India,Canada,2014,sugar_beet,0.5
+202,96,South Africa,"China, Hong Kong SAR",2011,sugar_beet,8.0
+202,96,South Africa,"China, Hong Kong SAR",2012,sugar_beet,16.0
+66,219,Fiji,Tonga,2002,sugar_beet,45.0
+238,229,Ethiopia,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,1.0
+238,229,Ethiopia,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,1.0
+101,214,Indonesia,"China, Taiwan Province of",2001,sugar_beet,6.0
+59,112,Egypt,Jordan,2021,sugar_beet,245.2
+97,98,Hungary,Croatia,1992,sugar_beet,92838.0
+97,98,Hungary,Croatia,1993,sugar_beet,57767.0
+97,98,Hungary,Croatia,1994,sugar_beet,57418.0
+97,98,Hungary,Croatia,1995,sugar_beet,224159.0
+97,98,Hungary,Croatia,1996,sugar_beet,83979.0
+97,98,Hungary,Croatia,1997,sugar_beet,63029.0
+97,98,Hungary,Croatia,2002,sugar_beet,19858.0
+97,98,Hungary,Croatia,2004,sugar_beet,78165.0
+97,98,Hungary,Croatia,2007,sugar_beet,82609.0
+97,98,Hungary,Croatia,2008,sugar_beet,112839.0
+97,98,Hungary,Croatia,2009,sugar_beet,38989.0
+97,98,Hungary,Croatia,2010,sugar_beet,82731.0
+97,98,Hungary,Croatia,2011,sugar_beet,177716.0
+97,98,Hungary,Croatia,2012,sugar_beet,115120.0
+97,98,Hungary,Croatia,2013,sugar_beet,177521.0
+97,98,Hungary,Croatia,2014,sugar_beet,313729.4
+97,98,Hungary,Croatia,2015,sugar_beet,56962.9
+97,98,Hungary,Croatia,2016,sugar_beet,83451.43
+97,98,Hungary,Croatia,2017,sugar_beet,117666.29
+97,98,Hungary,Croatia,2018,sugar_beet,95215.13
+97,98,Hungary,Croatia,2019,sugar_beet,124455.94
+97,98,Hungary,Croatia,2020,sugar_beet,94111.65
+97,98,Hungary,Croatia,2021,sugar_beet,65870.16
+97,98,Hungary,Croatia,2022,sugar_beet,74645.33
+97,98,Hungary,Croatia,2023,sugar_beet,4051.47
+226,229,Uganda,United Kingdom of Great Britain and Northern Ireland,2000,sugar_beet,19.0
+231,14,United States of America,Barbados,1989,sugar_beet,200.0
+231,14,United States of America,Barbados,2000,sugar_beet,35.0
+231,14,United States of America,Barbados,2023,sugar_beet,38.0
+194,112,Saudi Arabia,Jordan,1998,sugar_beet,44.0
+221,179,Oman,Qatar,2017,sugar_beet,0.94
+221,179,Oman,Qatar,2018,sugar_beet,3.2
+221,179,Oman,Qatar,2020,sugar_beet,10.2
+221,179,Oman,Qatar,2021,sugar_beet,0.39
+96,41,"China, Hong Kong SAR","China, mainland",2001,sugar_beet,37.0
+96,41,"China, Hong Kong SAR","China, mainland",2002,sugar_beet,15.0
+119,79,Latvia,Germany,2004,sugar_beet,1263.0
+230,73,Ukraine,Georgia,2009,sugar_beet,78.0
+198,167,Slovenia,Czechia,2018,sugar_beet,216.0
+198,167,Slovenia,Czechia,2019,sugar_beet,4992.0
+198,167,Slovenia,Czechia,2020,sugar_beet,7200.0
+198,167,Slovenia,Czechia,2021,sugar_beet,7776.0
+198,167,Slovenia,Czechia,2022,sugar_beet,672.0
+21,96,Brazil,"China, Hong Kong SAR",2018,sugar_beet,0.03
+21,96,Brazil,"China, Hong Kong SAR",2019,sugar_beet,0.11
+21,96,Brazil,"China, Hong Kong SAR",2020,sugar_beet,0.14
+21,96,Brazil,"China, Hong Kong SAR",2021,sugar_beet,0.07
+21,96,Brazil,"China, Hong Kong SAR",2022,sugar_beet,0.02
+21,96,Brazil,"China, Hong Kong SAR",2023,sugar_beet,0.01
+223,33,Türkiye,Canada,2021,sugar_beet,0.02
+223,33,Türkiye,Canada,2022,sugar_beet,0.01
+223,33,Türkiye,Canada,2023,sugar_beet,0.02
+225,178,United Arab Emirates,Eritrea,2023,sugar_beet,9.44
+202,41,South Africa,"China, mainland",2011,sugar_beet,52.0
+202,41,South Africa,"China, mainland",2012,sugar_beet,26.0
+59,118,Egypt,Kuwait,1998,sugar_beet,1.0
+59,118,Egypt,Kuwait,2004,sugar_beet,18.0
+59,118,Egypt,Kuwait,2009,sugar_beet,73.0
+59,118,Egypt,Kuwait,2017,sugar_beet,120.2
+59,118,Egypt,Kuwait,2018,sugar_beet,315.72
+59,118,Egypt,Kuwait,2019,sugar_beet,339.0
+59,118,Egypt,Kuwait,2020,sugar_beet,50.2
+59,118,Egypt,Kuwait,2022,sugar_beet,29.95
+104,68,Ireland,France,1990,sugar_beet,1.0
+104,68,Ireland,France,2017,sugar_beet,0.09
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1992,sugar_beet,2.0
+167,54,Czechia,Denmark,2014,sugar_beet,0.22
+237,231,Viet Nam,United States of America,2014,sugar_beet,2.81
+237,231,Viet Nam,United States of America,2015,sugar_beet,2.62
+237,231,Viet Nam,United States of America,2016,sugar_beet,1.96
+237,231,Viet Nam,United States of America,2017,sugar_beet,3.09
+237,231,Viet Nam,United States of America,2018,sugar_beet,3.25
+237,231,Viet Nam,United States of America,2019,sugar_beet,1.09
+237,231,Viet Nam,United States of America,2020,sugar_beet,3.76
+237,231,Viet Nam,United States of America,2021,sugar_beet,16.91
+108,185,Kazakhstan,Russian Federation,2002,sugar_beet,8.0
+108,185,Kazakhstan,Russian Federation,2003,sugar_beet,180.0
+108,185,Kazakhstan,Russian Federation,2015,sugar_beet,39.0
+108,185,Kazakhstan,Russian Federation,2016,sugar_beet,10289.43
+165,118,Pakistan,Kuwait,2016,sugar_beet,0.43
+221,194,Oman,Saudi Arabia,2012,sugar_beet,2.0
+59,121,Egypt,Lebanon,1993,sugar_beet,11.0
+59,121,Egypt,Lebanon,2011,sugar_beet,5.0
+146,183,Republic of Moldova,Romania,1995,sugar_beet,881.0
+146,183,Republic of Moldova,Romania,1996,sugar_beet,2798.0
+146,183,Republic of Moldova,Romania,2002,sugar_beet,15.0
+21,41,Brazil,"China, mainland",2019,sugar_beet,0.03
+21,41,Brazil,"China, mainland",2020,sugar_beet,0.01
+21,41,Brazil,"China, mainland",2023,sugar_beet,0.11
+223,96,Türkiye,"China, Hong Kong SAR",2021,sugar_beet,0.01
+230,79,Ukraine,Germany,2015,sugar_beet,0.01
+230,79,Ukraine,Germany,2016,sugar_beet,0.01
+230,79,Ukraine,Germany,2017,sugar_beet,0.01
+230,79,Ukraine,Germany,2018,sugar_beet,0.01
+57,185,Belarus,Russian Federation,2002,sugar_beet,58.0
+57,185,Belarus,Russian Federation,2003,sugar_beet,20.0
+57,185,Belarus,Russian Federation,2004,sugar_beet,1.0
+80,272,Bosnia and Herzegovina,Serbia,2011,sugar_beet,4580.0
+183,68,Romania,France,2021,sugar_beet,0.06
+200,96,Singapore,"China, Hong Kong SAR",2011,sugar_beet,140.0
+272,273,Serbia,Montenegro,2018,sugar_beet,20.75
+272,273,Serbia,Montenegro,2019,sugar_beet,3.66
+272,273,Serbia,Montenegro,2020,sugar_beet,0.99
+272,273,Serbia,Montenegro,2021,sugar_beet,10.8
+272,273,Serbia,Montenegro,2022,sugar_beet,10.05
+59,124,Egypt,Libya,2009,sugar_beet,4.0
+59,124,Egypt,Libya,2011,sugar_beet,6.0
+68,255,France,Belgium,2000,sugar_beet,1768.0
+68,255,France,Belgium,2001,sugar_beet,743.0
+68,255,France,Belgium,2002,sugar_beet,638.0
+68,255,France,Belgium,2003,sugar_beet,1219.0
+68,255,France,Belgium,2004,sugar_beet,1609.0
+68,255,France,Belgium,2005,sugar_beet,1187.0
+68,255,France,Belgium,2006,sugar_beet,750.0
+68,255,France,Belgium,2007,sugar_beet,2134.0
+68,255,France,Belgium,2008,sugar_beet,334.0
+68,255,France,Belgium,2009,sugar_beet,673.0
+68,255,France,Belgium,2010,sugar_beet,445.0
+68,255,France,Belgium,2011,sugar_beet,1189.0
+68,255,France,Belgium,2012,sugar_beet,858.0
+68,255,France,Belgium,2013,sugar_beet,736.0
+68,255,France,Belgium,2014,sugar_beet,998.5
+68,255,France,Belgium,2015,sugar_beet,511.0
+68,255,France,Belgium,2016,sugar_beet,1067.57
+68,255,France,Belgium,2017,sugar_beet,422.18
+68,255,France,Belgium,2018,sugar_beet,10.65
+68,255,France,Belgium,2019,sugar_beet,1636.62
+68,255,France,Belgium,2020,sugar_beet,408.77
+68,255,France,Belgium,2021,sugar_beet,473.0
+68,255,France,Belgium,2022,sugar_beet,8311.5
+68,255,France,Belgium,2023,sugar_beet,5071.1
+40,79,Chile,Germany,2009,sugar_beet,39.0
+40,79,Chile,Germany,2010,sugar_beet,1.0
+40,79,Chile,Germany,2016,sugar_beet,0.43
+40,79,Chile,Germany,2018,sugar_beet,0.29
+40,79,Chile,Germany,2019,sugar_beet,0.73
+40,79,Chile,Germany,2020,sugar_beet,0.63
+48,150,Costa Rica,Netherlands (Kingdom of the),2008,sugar_beet,2.0
+21,214,Brazil,"China, Taiwan Province of",2023,sugar_beet,0.02
+119,104,Latvia,Ireland,2004,sugar_beet,1223.0
+231,15,United States of America,Belgium-Luxembourg,1991,sugar_beet,13551.0
+106,255,Italy,Belgium,2023,sugar_beet,0.01
+97,51,Hungary,Czechoslovakia,1991,sugar_beet,61229.0
+225,75,United Arab Emirates,Gambia,2022,sugar_beet,0.38
+225,75,United Arab Emirates,Gambia,2023,sugar_beet,0.23
+41,96,"China, mainland","China, Hong Kong SAR",1992,sugar_beet,7.0
+41,96,"China, mainland","China, Hong Kong SAR",1994,sugar_beet,2.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,sugar_beet,2.0
+41,96,"China, mainland","China, Hong Kong SAR",2002,sugar_beet,4.0
+41,96,"China, mainland","China, Hong Kong SAR",2005,sugar_beet,14.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,0.04
+59,132,Egypt,Maldives,2021,sugar_beet,2.61
+59,132,Egypt,Maldives,2022,sugar_beet,8.73
+272,150,Serbia,Netherlands (Kingdom of the),2009,sugar_beet,40.0
+229,21,United Kingdom of Great Britain and Northern Ireland,Brazil,2009,sugar_beet,21.0
+229,21,United Kingdom of Great Britain and Northern Ireland,Brazil,2020,sugar_beet,0.1
+101,68,Indonesia,France,2020,sugar_beet,0.01
+98,97,Croatia,Hungary,1993,sugar_beet,413.0
+98,97,Croatia,Hungary,1995,sugar_beet,159.0
+27,84,Bulgaria,Greece,2014,sugar_beet,3.5
+27,84,Bulgaria,Greece,2015,sugar_beet,6.2
+27,84,Bulgaria,Greece,2016,sugar_beet,5.92
+27,84,Bulgaria,Greece,2017,sugar_beet,131.22
+27,84,Bulgaria,Greece,2018,sugar_beet,55.4
+27,84,Bulgaria,Greece,2019,sugar_beet,6.45
+27,84,Bulgaria,Greece,2020,sugar_beet,5.75
+27,84,Bulgaria,Greece,2021,sugar_beet,5.47
+27,84,Bulgaria,Greece,2022,sugar_beet,4.8
+27,84,Bulgaria,Greece,2023,sugar_beet,0.5
+112,194,Jordan,Saudi Arabia,1986,sugar_beet,8.0
+112,194,Jordan,Saudi Arabia,1987,sugar_beet,7.0
+112,194,Jordan,Saudi Arabia,1988,sugar_beet,11.0
+112,194,Jordan,Saudi Arabia,1990,sugar_beet,7.0
+112,194,Jordan,Saudi Arabia,1992,sugar_beet,4.0
+84,50,Greece,Cyprus,2012,sugar_beet,40.0
+84,50,Greece,Cyprus,2013,sugar_beet,11.0
+84,50,Greece,Cyprus,2019,sugar_beet,0.01
+84,50,Greece,Cyprus,2022,sugar_beet,0.55
+231,23,United States of America,Belize,2021,sugar_beet,500.0
+150,255,Netherlands (Kingdom of the),Belgium,2001,sugar_beet,179.0
+150,255,Netherlands (Kingdom of the),Belgium,2002,sugar_beet,4515.0
+150,255,Netherlands (Kingdom of the),Belgium,2004,sugar_beet,311.0
+150,255,Netherlands (Kingdom of the),Belgium,2005,sugar_beet,353783.0
+150,255,Netherlands (Kingdom of the),Belgium,2006,sugar_beet,161449.0
+150,255,Netherlands (Kingdom of the),Belgium,2007,sugar_beet,63346.0
+150,255,Netherlands (Kingdom of the),Belgium,2008,sugar_beet,8723.0
+150,255,Netherlands (Kingdom of the),Belgium,2009,sugar_beet,2260.0
+150,255,Netherlands (Kingdom of the),Belgium,2010,sugar_beet,2837.0
+150,255,Netherlands (Kingdom of the),Belgium,2011,sugar_beet,142.0
+150,255,Netherlands (Kingdom of the),Belgium,2012,sugar_beet,152.0
+150,255,Netherlands (Kingdom of the),Belgium,2013,sugar_beet,483.0
+150,255,Netherlands (Kingdom of the),Belgium,2014,sugar_beet,495.8
+150,255,Netherlands (Kingdom of the),Belgium,2015,sugar_beet,160.0
+150,255,Netherlands (Kingdom of the),Belgium,2016,sugar_beet,158.66
+150,255,Netherlands (Kingdom of the),Belgium,2017,sugar_beet,85.43
+150,255,Netherlands (Kingdom of the),Belgium,2018,sugar_beet,35.63
+150,255,Netherlands (Kingdom of the),Belgium,2019,sugar_beet,100.99
+150,255,Netherlands (Kingdom of the),Belgium,2020,sugar_beet,218.58
+150,255,Netherlands (Kingdom of the),Belgium,2021,sugar_beet,105.16
+150,255,Netherlands (Kingdom of the),Belgium,2022,sugar_beet,288.06
+150,255,Netherlands (Kingdom of the),Belgium,2023,sugar_beet,148.73
+79,255,Germany,Belgium,2009,sugar_beet,1.0
+79,255,Germany,Belgium,2013,sugar_beet,305.0
+79,255,Germany,Belgium,2014,sugar_beet,25.6
+79,255,Germany,Belgium,2015,sugar_beet,51.0
+79,255,Germany,Belgium,2016,sugar_beet,642.86
+79,255,Germany,Belgium,2018,sugar_beet,2162.11
+79,255,Germany,Belgium,2019,sugar_beet,26.7
+79,255,Germany,Belgium,2020,sugar_beet,158.0
+79,255,Germany,Belgium,2021,sugar_beet,103.38
+79,255,Germany,Belgium,2023,sugar_beet,106.96
+97,59,Hungary,Egypt,1994,sugar_beet,5.0
+97,59,Hungary,Egypt,1995,sugar_beet,31.0
+48,157,Costa Rica,Nicaragua,2020,sugar_beet,1.87
+48,157,Costa Rica,Nicaragua,2021,sugar_beet,2.8
+173,167,Poland,Czechia,2012,sugar_beet,11370.0
+173,167,Poland,Czechia,2013,sugar_beet,145.0
+173,167,Poland,Czechia,2019,sugar_beet,38490.58
+173,167,Poland,Czechia,2020,sugar_beet,50428.71
+173,167,Poland,Czechia,2021,sugar_beet,60252.03
+173,167,Poland,Czechia,2022,sugar_beet,83697.92
+173,167,Poland,Czechia,2023,sugar_beet,95371.92
+272,154,Serbia,North Macedonia,2006,sugar_beet,29.0
+272,154,Serbia,North Macedonia,2007,sugar_beet,20.0
+199,97,Slovakia,Hungary,1994,sugar_beet,69.0
+199,97,Slovakia,Hungary,2003,sugar_beet,32.0
+199,97,Slovakia,Hungary,2008,sugar_beet,551.0
+199,97,Slovakia,Hungary,2012,sugar_beet,3371.0
+199,97,Slovakia,Hungary,2015,sugar_beet,1.0
+199,97,Slovakia,Hungary,2016,sugar_beet,1.06
+199,97,Slovakia,Hungary,2018,sugar_beet,0.83
+199,97,Slovakia,Hungary,2019,sugar_beet,0.7
+199,97,Slovakia,Hungary,2020,sugar_beet,0.01
+199,97,Slovakia,Hungary,2021,sugar_beet,22781.78
+199,97,Slovakia,Hungary,2022,sugar_beet,22491.18
+199,97,Slovakia,Hungary,2023,sugar_beet,43131.05
+231,19,United States of America,Bolivia (Plurinational State of),1986,sugar_beet,20.0
+231,19,United States of America,Bolivia (Plurinational State of),1987,sugar_beet,121.0
+101,79,Indonesia,Germany,2017,sugar_beet,0.24
+21,50,Brazil,Cyprus,2018,sugar_beet,0.02
+21,50,Brazil,Cyprus,2019,sugar_beet,0.08
+21,50,Brazil,Cyprus,2020,sugar_beet,0.2
+21,50,Brazil,Cyprus,2021,sugar_beet,0.27
+21,50,Brazil,Cyprus,2022,sugar_beet,0.11
+21,50,Brazil,Cyprus,2023,sugar_beet,0.03
+81,231,Ghana,United States of America,2003,sugar_beet,25.0
+68,15,France,Belgium-Luxembourg,1986,sugar_beet,30409.0
+68,15,France,Belgium-Luxembourg,1987,sugar_beet,22639.0
+68,15,France,Belgium-Luxembourg,1988,sugar_beet,20714.0
+68,15,France,Belgium-Luxembourg,1989,sugar_beet,26336.0
+68,15,France,Belgium-Luxembourg,1990,sugar_beet,31087.0
+68,15,France,Belgium-Luxembourg,1991,sugar_beet,26785.0
+68,15,France,Belgium-Luxembourg,1992,sugar_beet,26337.0
+68,15,France,Belgium-Luxembourg,1993,sugar_beet,1831.0
+68,15,France,Belgium-Luxembourg,1994,sugar_beet,2258.0
+68,15,France,Belgium-Luxembourg,1995,sugar_beet,2934.0
+68,15,France,Belgium-Luxembourg,1996,sugar_beet,928.0
+68,15,France,Belgium-Luxembourg,1997,sugar_beet,3350.0
+68,15,France,Belgium-Luxembourg,1998,sugar_beet,7866.0
+68,15,France,Belgium-Luxembourg,1999,sugar_beet,19472.0
+11,167,Austria,Czechia,2009,sugar_beet,237863.0
+11,167,Austria,Czechia,2010,sugar_beet,121312.0
+11,167,Austria,Czechia,2011,sugar_beet,218105.0
+11,167,Austria,Czechia,2012,sugar_beet,93478.0
+11,167,Austria,Czechia,2013,sugar_beet,64572.0
+11,167,Austria,Czechia,2014,sugar_beet,33469.4
+11,167,Austria,Czechia,2015,sugar_beet,313850.3
+11,167,Austria,Czechia,2016,sugar_beet,129127.4
+11,167,Austria,Czechia,2017,sugar_beet,55512.35
+11,167,Austria,Czechia,2018,sugar_beet,29795.21
+11,167,Austria,Czechia,2019,sugar_beet,11245.58
+167,68,Czechia,France,2019,sugar_beet,0.95
+167,68,Czechia,France,2021,sugar_beet,0.54
+167,68,Czechia,France,2022,sugar_beet,0.59
+183,79,Romania,Germany,2018,sugar_beet,2.39
+183,79,Romania,Germany,2019,sugar_beet,0.04
+225,90,United Arab Emirates,Guinea,2021,sugar_beet,0.08
+225,90,United Arab Emirates,Guinea,2022,sugar_beet,0.64
+210,54,Sweden,Denmark,2001,sugar_beet,6.0
+210,54,Sweden,Denmark,2017,sugar_beet,0.4
+210,54,Sweden,Denmark,2018,sugar_beet,1.45
+210,54,Sweden,Denmark,2019,sugar_beet,1.38
+210,54,Sweden,Denmark,2020,sugar_beet,1.18
+210,54,Sweden,Denmark,2021,sugar_beet,1.34
+210,54,Sweden,Denmark,2022,sugar_beet,1.22
+210,54,Sweden,Denmark,2023,sugar_beet,2.01
+59,159,Egypt,Nigeria,2021,sugar_beet,5.22
+57,230,Belarus,Ukraine,2005,sugar_beet,71461.0
+57,230,Belarus,Ukraine,2006,sugar_beet,35755.0
+255,50,Belgium,Cyprus,2023,sugar_beet,3.17
+220,236,Trinidad and Tobago,Venezuela (Bolivarian Republic of),2017,sugar_beet,0.53
+272,173,Serbia,Poland,2009,sugar_beet,60.0
+272,173,Serbia,Poland,2011,sugar_beet,20.0
+272,173,Serbia,Poland,2012,sugar_beet,40.0
+170,166,Peru,Panama,2010,sugar_beet,9.0
+165,221,Pakistan,Oman,2012,sugar_beet,1040.0
+165,221,Pakistan,Oman,2016,sugar_beet,0.9
+79,15,Germany,Belgium-Luxembourg,1991,sugar_beet,30.0
+79,15,Germany,Belgium-Luxembourg,1992,sugar_beet,17.0
+79,15,Germany,Belgium-Luxembourg,1993,sugar_beet,50.0
+59,221,Egypt,Oman,1996,sugar_beet,2.0
+59,221,Egypt,Oman,2017,sugar_beet,4.42
+59,221,Egypt,Oman,2018,sugar_beet,9.69
+59,221,Egypt,Oman,2019,sugar_beet,3.9
+21,54,Brazil,Denmark,2018,sugar_beet,0.01
+21,54,Brazil,Denmark,2019,sugar_beet,0.06
+21,54,Brazil,Denmark,2020,sugar_beet,0.02
+21,54,Brazil,Denmark,2021,sugar_beet,0.03
+21,54,Brazil,Denmark,2022,sugar_beet,0.03
+21,54,Brazil,Denmark,2023,sugar_beet,0.05
+106,80,Italy,Bosnia and Herzegovina,1996,sugar_beet,3.0
+202,250,South Africa,Democratic Republic of the Congo,2018,sugar_beet,0.03
+202,250,South Africa,Democratic Republic of the Congo,2023,sugar_beet,0.12
+59,299,Egypt,Palestine,2021,sugar_beet,2221.23
+59,299,Egypt,Palestine,2022,sugar_beet,2924.8
+9,106,Argentina,Italy,1988,sugar_beet,9.0
+112,212,Jordan,Syrian Arab Republic,1986,sugar_beet,4.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,sugar_beet,12013.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,sugar_beet,17244.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,sugar_beet,9455.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,sugar_beet,11981.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,sugar_beet,9799.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,sugar_beet,11094.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,sugar_beet,10754.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,sugar_beet,20.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1998,sugar_beet,11392.0
+173,54,Poland,Denmark,2018,sugar_beet,0.85
+173,54,Poland,Denmark,2019,sugar_beet,0.85
+225,100,United Arab Emirates,India,2020,sugar_beet,0.25
+223,50,Türkiye,Cyprus,2020,sugar_beet,2.1
+223,50,Türkiye,Cyprus,2021,sugar_beet,2.5
+223,50,Türkiye,Cyprus,2023,sugar_beet,0.1
+165,179,Pakistan,Qatar,2011,sugar_beet,1.0
+165,179,Pakistan,Qatar,2016,sugar_beet,1.18
+48,117,Costa Rica,Republic of Korea,2018,sugar_beet,0.26
+54,64,Denmark,Faroe Islands,1992,sugar_beet,4.0
+146,230,Republic of Moldova,Ukraine,1996,sugar_beet,1185.0
+146,230,Republic of Moldova,Ukraine,1997,sugar_beet,2521.0
+104,105,Ireland,Israel,2001,sugar_beet,60.0
+98,106,Croatia,Italy,2008,sugar_beet,1983.0
+101,101,Indonesia,Indonesia,2001,sugar_beet,93.0
+59,179,Egypt,Qatar,2017,sugar_beet,15.84
+59,179,Egypt,Qatar,2023,sugar_beet,54.63
+199,106,Slovakia,Italy,2000,sugar_beet,6.0
+199,106,Slovakia,Italy,2002,sugar_beet,5.0
+199,106,Slovakia,Italy,2003,sugar_beet,6.0
+231,21,United States of America,Brazil,2001,sugar_beet,1392.0
+41,214,"China, mainland","China, Taiwan Province of",2010,sugar_beet,1.0
+119,126,Latvia,Lithuania,2004,sugar_beet,1421.0
+119,126,Latvia,Lithuania,2014,sugar_beet,1966.9
+119,126,Latvia,Lithuania,2015,sugar_beet,496.2
+119,126,Latvia,Lithuania,2016,sugar_beet,1217.24
+119,126,Latvia,Lithuania,2017,sugar_beet,108.62
+119,126,Latvia,Lithuania,2018,sugar_beet,338.22
+119,126,Latvia,Lithuania,2019,sugar_beet,45634.83
+119,126,Latvia,Lithuania,2020,sugar_beet,92235.68
+119,126,Latvia,Lithuania,2021,sugar_beet,70568.35
+119,126,Latvia,Lithuania,2022,sugar_beet,58049.56
+119,126,Latvia,Lithuania,2023,sugar_beet,99993.61
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2008,sugar_beet,210.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2021,sugar_beet,0.02
+223,167,Türkiye,Czechia,2022,sugar_beet,0.01
+272,198,Serbia,Slovenia,2006,sugar_beet,90.0
+118,223,Kuwait,Türkiye,2015,sugar_beet,5.16
+118,223,Kuwait,Türkiye,2016,sugar_beet,9.25
+225,102,United Arab Emirates,Iran (Islamic Republic of),2002,sugar_beet,68.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2005,sugar_beet,26.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2022,sugar_beet,17.12
+225,102,United Arab Emirates,Iran (Islamic Republic of),2023,sugar_beet,0.12
+104,106,Ireland,Italy,1989,sugar_beet,3.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,1986,sugar_beet,9.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,1987,sugar_beet,8.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,1988,sugar_beet,7.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,1993,sugar_beet,2.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2003,sugar_beet,3.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2004,sugar_beet,3.0
+68,21,France,Brazil,2000,sugar_beet,1.0
+229,40,United Kingdom of Great Britain and Northern Ireland,Chile,1990,sugar_beet,1.0
+203,96,Spain,"China, Hong Kong SAR",2015,sugar_beet,0.04
+173,63,Poland,Estonia,2014,sugar_beet,58.0
+223,54,Türkiye,Denmark,2000,sugar_beet,5.0
+165,201,Pakistan,Somalia,2012,sugar_beet,1040.0
+202,209,South Africa,Eswatini,2014,sugar_beet,33.84
+167,79,Czechia,Germany,1994,sugar_beet,80.0
+167,79,Czechia,Germany,1996,sugar_beet,43.0
+167,79,Czechia,Germany,2000,sugar_beet,378.0
+167,79,Czechia,Germany,2006,sugar_beet,456.0
+167,79,Czechia,Germany,2007,sugar_beet,1726.0
+167,79,Czechia,Germany,2008,sugar_beet,409.0
+167,79,Czechia,Germany,2016,sugar_beet,50.36
+167,79,Czechia,Germany,2017,sugar_beet,549.51
+167,79,Czechia,Germany,2020,sugar_beet,504.62
+167,79,Czechia,Germany,2021,sugar_beet,234.6
+167,79,Czechia,Germany,2022,sugar_beet,194.9
+167,79,Czechia,Germany,2023,sugar_beet,72.36
+225,103,United Arab Emirates,Iraq,2005,sugar_beet,52.0
+225,103,United Arab Emirates,Iraq,2007,sugar_beet,26.0
+225,103,United Arab Emirates,Iraq,2021,sugar_beet,1.14
+225,103,United Arab Emirates,Iraq,2022,sugar_beet,30.4
+59,194,Egypt,Saudi Arabia,1998,sugar_beet,50.0
+59,194,Egypt,Saudi Arabia,1999,sugar_beet,291.0
+59,194,Egypt,Saudi Arabia,2001,sugar_beet,5.0
+59,194,Egypt,Saudi Arabia,2004,sugar_beet,25.0
+59,194,Egypt,Saudi Arabia,2005,sugar_beet,22.0
+59,194,Egypt,Saudi Arabia,2009,sugar_beet,228.0
+59,194,Egypt,Saudi Arabia,2011,sugar_beet,16.0
+59,194,Egypt,Saudi Arabia,2013,sugar_beet,12.0
+59,194,Egypt,Saudi Arabia,2017,sugar_beet,2362.54
+59,194,Egypt,Saudi Arabia,2018,sugar_beet,1908.9
+59,194,Egypt,Saudi Arabia,2019,sugar_beet,1265.0
+59,194,Egypt,Saudi Arabia,2020,sugar_beet,257.57
+59,194,Egypt,Saudi Arabia,2021,sugar_beet,83.25
+59,194,Egypt,Saudi Arabia,2022,sugar_beet,1715.55
+59,194,Egypt,Saudi Arabia,2023,sugar_beet,160.96
+54,67,Denmark,Finland,2010,sugar_beet,1.0
+54,67,Denmark,Finland,2012,sugar_beet,90.0
+54,67,Denmark,Finland,2013,sugar_beet,50.0
+121,118,Lebanon,Kuwait,2004,sugar_beet,4.0
+121,118,Lebanon,Kuwait,2018,sugar_beet,0.18
+121,118,Lebanon,Kuwait,2019,sugar_beet,0.28
+121,118,Lebanon,Kuwait,2020,sugar_beet,1.01
+121,118,Lebanon,Kuwait,2021,sugar_beet,0.56
+121,118,Lebanon,Kuwait,2022,sugar_beet,1.68
+121,118,Lebanon,Kuwait,2023,sugar_beet,0.21
+223,72,Türkiye,Djibouti,2021,sugar_beet,0.02
+48,229,Costa Rica,United Kingdom of Great Britain and Northern Ireland,2003,sugar_beet,9.0
+48,229,Costa Rica,United Kingdom of Great Britain and Northern Ireland,2004,sugar_beet,7.0
+48,229,Costa Rica,United Kingdom of Great Britain and Northern Ireland,2005,sugar_beet,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1986,sugar_beet,25102.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1987,sugar_beet,22400.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,sugar_beet,21466.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,sugar_beet,23089.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,sugar_beet,23320.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,sugar_beet,18140.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,sugar_beet,18286.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1993,sugar_beet,2735.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1994,sugar_beet,3280.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1995,sugar_beet,3175.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1996,sugar_beet,2335.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,sugar_beet,1872.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1998,sugar_beet,199.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1999,sugar_beet,170.0
+59,196,Egypt,Seychelles,2021,sugar_beet,164.34
+59,196,Egypt,Seychelles,2022,sugar_beet,247.9
+59,196,Egypt,Seychelles,2023,sugar_beet,0.62
+156,79,New Zealand,Germany,2021,sugar_beet,2.81
+106,27,Italy,Bulgaria,2016,sugar_beet,0.02
+106,27,Italy,Bulgaria,2017,sugar_beet,0.03
+106,27,Italy,Bulgaria,2018,sugar_beet,0.04
+150,21,Netherlands (Kingdom of the),Brazil,1994,sugar_beet,100.0
+174,68,Portugal,France,2007,sugar_beet,107.0
+174,68,Portugal,France,2020,sugar_beet,0.04
+174,68,Portugal,France,2021,sugar_beet,0.05
+174,68,Portugal,France,2023,sugar_beet,0.03
+89,231,Guatemala,United States of America,2015,sugar_beet,0.01
+89,231,Guatemala,United States of America,2017,sugar_beet,0.03
+89,231,Guatemala,United States of America,2019,sugar_beet,0.01
+59,198,Egypt,Slovenia,2019,sugar_beet,12.0
+183,97,Romania,Hungary,2010,sugar_beet,6.0
+183,97,Romania,Hungary,2011,sugar_beet,1.0
+183,97,Romania,Hungary,2013,sugar_beet,10.0
+272,223,Serbia,Türkiye,2015,sugar_beet,0.55
+97,79,Hungary,Germany,1991,sugar_beet,3780.0
+97,79,Hungary,Germany,1992,sugar_beet,4701.0
+97,79,Hungary,Germany,1993,sugar_beet,4734.0
+97,79,Hungary,Germany,1995,sugar_beet,1635.0
+101,110,Indonesia,Japan,1992,sugar_beet,6.0
+101,110,Indonesia,Japan,1993,sugar_beet,11.0
+101,110,Indonesia,Japan,2005,sugar_beet,1011.0
+167,84,Czechia,Greece,2014,sugar_beet,0.36
+100,68,India,France,2001,sugar_beet,22.0
+100,68,India,France,2002,sugar_beet,196.0
+126,119,Lithuania,Latvia,1997,sugar_beet,39800.0
+126,119,Lithuania,Latvia,2000,sugar_beet,14202.0
+126,119,Lithuania,Latvia,2006,sugar_beet,714.0
+126,119,Lithuania,Latvia,2007,sugar_beet,223.0
+126,119,Lithuania,Latvia,2011,sugar_beet,53.0
+126,119,Lithuania,Latvia,2012,sugar_beet,133.0
+126,119,Lithuania,Latvia,2013,sugar_beet,102.0
+126,119,Lithuania,Latvia,2014,sugar_beet,1755.1
+126,119,Lithuania,Latvia,2015,sugar_beet,1483.3
+126,119,Lithuania,Latvia,2016,sugar_beet,639.96
+126,119,Lithuania,Latvia,2017,sugar_beet,847.12
+126,119,Lithuania,Latvia,2018,sugar_beet,2806.36
+126,119,Lithuania,Latvia,2019,sugar_beet,202.6
+126,119,Lithuania,Latvia,2022,sugar_beet,25.68
+126,119,Lithuania,Latvia,2023,sugar_beet,100.0
+203,214,Spain,"China, Taiwan Province of",2013,sugar_beet,8.0
+203,214,Spain,"China, Taiwan Province of",2015,sugar_beet,144.8
+203,214,Spain,"China, Taiwan Province of",2016,sugar_beet,245.1
+203,214,Spain,"China, Taiwan Province of",2017,sugar_beet,97.2
+84,68,Greece,France,2021,sugar_beet,8.5
+162,106,Norway,Italy,2021,sugar_beet,48.0
+101,118,Indonesia,Kuwait,2018,sugar_beet,0.25
+101,118,Indonesia,Kuwait,2019,sugar_beet,0.69
+101,118,Indonesia,Kuwait,2020,sugar_beet,4.15
+126,126,Lithuania,Lithuania,2001,sugar_beet,644.0
+21,79,Brazil,Germany,2018,sugar_beet,0.18
+21,79,Brazil,Germany,2019,sugar_beet,0.2
+21,79,Brazil,Germany,2020,sugar_beet,0.14
+21,79,Brazil,Germany,2021,sugar_beet,0.12
+21,79,Brazil,Germany,2022,sugar_beet,0.12
+21,79,Brazil,Germany,2023,sugar_beet,0.05
+210,67,Sweden,Finland,1988,sugar_beet,11.0
+48,231,Costa Rica,United States of America,2007,sugar_beet,1.0
+48,231,Costa Rica,United States of America,2014,sugar_beet,0.06
+48,231,Costa Rica,United States of America,2015,sugar_beet,1.48
+48,231,Costa Rica,United States of America,2016,sugar_beet,2.3
+48,231,Costa Rica,United States of America,2017,sugar_beet,5.47
+48,231,Costa Rica,United States of America,2018,sugar_beet,19.63
+59,210,Egypt,Sweden,2022,sugar_beet,6.34
+173,68,Poland,France,2017,sugar_beet,1.3
+173,68,Poland,France,2019,sugar_beet,0.02
+173,68,Poland,France,2020,sugar_beet,6.5
+173,68,Poland,France,2021,sugar_beet,12.25
+173,68,Poland,France,2022,sugar_beet,23.98
+173,68,Poland,France,2023,sugar_beet,23.2
+225,112,United Arab Emirates,Jordan,2002,sugar_beet,82.0
+225,112,United Arab Emirates,Jordan,2003,sugar_beet,121.0
+225,112,United Arab Emirates,Jordan,2022,sugar_beet,40.23
+41,54,"China, mainland",Denmark,2011,sugar_beet,6.0
+150,27,Netherlands (Kingdom of the),Bulgaria,2017,sugar_beet,0.38
+150,27,Netherlands (Kingdom of the),Bulgaria,2018,sugar_beet,0.13
+150,27,Netherlands (Kingdom of the),Bulgaria,2019,sugar_beet,0.06
+150,27,Netherlands (Kingdom of the),Bulgaria,2020,sugar_beet,0.04
+150,27,Netherlands (Kingdom of the),Bulgaria,2021,sugar_beet,0.7
+150,27,Netherlands (Kingdom of the),Bulgaria,2022,sugar_beet,1.39
+150,27,Netherlands (Kingdom of the),Bulgaria,2023,sugar_beet,0.47
+59,211,Egypt,Switzerland,2019,sugar_beet,0.5
+59,211,Egypt,Switzerland,2020,sugar_beet,5.59
+54,68,Denmark,France,2017,sugar_beet,1.01
+54,68,Denmark,France,2018,sugar_beet,6.09
+119,173,Latvia,Poland,2014,sugar_beet,371.3
+119,173,Latvia,Poland,2016,sugar_beet,5343.87
+119,173,Latvia,Poland,2019,sugar_beet,422.08
+21,84,Brazil,Greece,2018,sugar_beet,0.65
+21,84,Brazil,Greece,2019,sugar_beet,0.73
+21,84,Brazil,Greece,2020,sugar_beet,1.03
+21,84,Brazil,Greece,2021,sugar_beet,0.97
+21,84,Brazil,Greece,2022,sugar_beet,0.87
+21,84,Brazil,Greece,2023,sugar_beet,1.51
+11,68,Austria,France,2017,sugar_beet,0.6
+15,117,Belgium-Luxembourg,Republic of Korea,1995,sugar_beet,1.0
+10,100,Australia,India,2019,sugar_beet,0.02
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2011,sugar_beet,10.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2012,sugar_beet,86.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2013,sugar_beet,9.0
+99,231,Iceland,United States of America,2022,sugar_beet,0.09
+225,114,United Arab Emirates,Kenya,2021,sugar_beet,0.25
+225,114,United Arab Emirates,Kenya,2023,sugar_beet,0.56
+167,97,Czechia,Hungary,1993,sugar_beet,5800.0
+167,97,Czechia,Hungary,1994,sugar_beet,13545.0
+167,97,Czechia,Hungary,2001,sugar_beet,35.0
+167,97,Czechia,Hungary,2021,sugar_beet,0.02
+167,97,Czechia,Hungary,2022,sugar_beet,614.77
+54,73,Denmark,Georgia,2014,sugar_beet,0.3
+54,73,Denmark,Georgia,2015,sugar_beet,0.5
+54,73,Denmark,Georgia,2016,sugar_beet,0.3
+198,106,Slovenia,Italy,2000,sugar_beet,6.0
+198,106,Slovenia,Italy,2015,sugar_beet,3960.0
+198,106,Slovenia,Italy,2022,sugar_beet,3552.0
+198,106,Slovenia,Italy,2023,sugar_beet,1928.0
+174,79,Portugal,Germany,2010,sugar_beet,125.0
+174,79,Portugal,Germany,2011,sugar_beet,32.0
+174,79,Portugal,Germany,2020,sugar_beet,2.3
+174,79,Portugal,Germany,2021,sugar_beet,2.57
+174,79,Portugal,Germany,2022,sugar_beet,1.02
+105,229,Israel,United Kingdom of Great Britain and Northern Ireland,2013,sugar_beet,30.0
+199,173,Slovakia,Poland,2005,sugar_beet,25.0
+185,108,Russian Federation,Kazakhstan,2014,sugar_beet,0.03
+185,108,Russian Federation,Kazakhstan,2015,sugar_beet,0.02
+185,108,Russian Federation,Kazakhstan,2019,sugar_beet,0.01
+185,108,Russian Federation,Kazakhstan,2020,sugar_beet,0.01
+185,108,Russian Federation,Kazakhstan,2021,sugar_beet,0.01
+150,35,Netherlands (Kingdom of the),Cabo Verde,2023,sugar_beet,0.57
+138,166,Mexico,Panama,2018,sugar_beet,0.33
+223,68,Türkiye,France,2000,sugar_beet,136.0
+223,68,Türkiye,France,2021,sugar_beet,0.08
+223,68,Türkiye,France,2022,sugar_beet,0.09
+223,68,Türkiye,France,2023,sugar_beet,0.03
+165,225,Pakistan,United Arab Emirates,2016,sugar_beet,4.7
+203,107,Spain,Côte d'Ivoire,2015,sugar_beet,0.6
+225,118,United Arab Emirates,Kuwait,2003,sugar_beet,12.0
+225,118,United Arab Emirates,Kuwait,2018,sugar_beet,32.45
+229,214,United Kingdom of Great Britain and Northern Ireland,"China, Taiwan Province of",2009,sugar_beet,2.0
+21,99,Brazil,Iceland,2020,sugar_beet,0.04
+210,68,Sweden,France,1986,sugar_beet,2.0
+210,68,Sweden,France,1987,sugar_beet,3.0
+210,68,Sweden,France,1989,sugar_beet,5.0
+210,68,Sweden,France,1990,sugar_beet,2.0
+210,68,Sweden,France,1991,sugar_beet,2.0
+101,131,Indonesia,Malaysia,2001,sugar_beet,1.0
+101,131,Indonesia,Malaysia,2003,sugar_beet,41.0
+100,84,India,Greece,2006,sugar_beet,5.0
+101,131,Indonesia,Malaysia,2007,sugar_beet,8.0
+121,221,Lebanon,Oman,2018,sugar_beet,0.08
+121,221,Lebanon,Oman,2019,sugar_beet,0.2
+121,221,Lebanon,Oman,2020,sugar_beet,0.14
+121,221,Lebanon,Oman,2021,sugar_beet,0.04
+121,221,Lebanon,Oman,2022,sugar_beet,0.14
+121,221,Lebanon,Oman,2023,sugar_beet,0.04
+231,33,United States of America,Canada,1986,sugar_beet,225.0
+231,33,United States of America,Canada,1987,sugar_beet,8200.0
+231,33,United States of America,Canada,1988,sugar_beet,226.0
+231,33,United States of America,Canada,1989,sugar_beet,602.0
+231,33,United States of America,Canada,1994,sugar_beet,247.0
+231,33,United States of America,Canada,2000,sugar_beet,11689.0
+231,33,United States of America,Canada,2001,sugar_beet,102.0
+231,33,United States of America,Canada,2002,sugar_beet,162.0
+231,33,United States of America,Canada,2003,sugar_beet,39.0
+231,33,United States of America,Canada,2005,sugar_beet,61.0
+231,33,United States of America,Canada,2006,sugar_beet,1425.0
+231,33,United States of America,Canada,2009,sugar_beet,43.0
+21,100,Brazil,India,2018,sugar_beet,0.1
+21,100,Brazil,India,2019,sugar_beet,0.35
+21,100,Brazil,India,2020,sugar_beet,0.29
+21,100,Brazil,India,2021,sugar_beet,0.13
+21,100,Brazil,India,2022,sugar_beet,0.18
+21,100,Brazil,India,2023,sugar_beet,0.02
+165,229,Pakistan,United Kingdom of Great Britain and Northern Ireland,2016,sugar_beet,1.25
+106,96,Italy,"China, Hong Kong SAR",2023,sugar_beet,0.96
+84,79,Greece,Germany,2013,sugar_beet,3.0
+84,79,Greece,Germany,2014,sugar_beet,0.1
+84,79,Greece,Germany,2015,sugar_beet,0.1
+105,231,Israel,United States of America,2011,sugar_beet,1.0
+105,231,Israel,United States of America,2013,sugar_beet,114.0
+105,231,Israel,United States of America,2015,sugar_beet,291.69
+59,225,Egypt,United Arab Emirates,2011,sugar_beet,1.0
+59,225,Egypt,United Arab Emirates,2017,sugar_beet,126.82
+59,225,Egypt,United Arab Emirates,2018,sugar_beet,211.52
+59,225,Egypt,United Arab Emirates,2019,sugar_beet,235.0
+59,225,Egypt,United Arab Emirates,2020,sugar_beet,13.27
+59,225,Egypt,United Arab Emirates,2022,sugar_beet,11.01
+225,124,United Arab Emirates,Libya,2021,sugar_beet,1.63
+63,210,Estonia,Sweden,2019,sugar_beet,19.8
+101,145,Indonesia,Micronesia (Federated States of),2000,sugar_beet,20.0
+203,49,Spain,Cuba,2019,sugar_beet,0.89
+203,49,Spain,Cuba,2021,sugar_beet,2.73
+79,40,Germany,Chile,2015,sugar_beet,19.43
+79,40,Germany,Chile,2017,sugar_beet,0.18
+79,40,Germany,Chile,2018,sugar_beet,0.06
+79,40,Germany,Chile,2019,sugar_beet,49.0
+79,40,Germany,Chile,2020,sugar_beet,0.03
+68,33,France,Canada,2017,sugar_beet,1.5
+68,33,France,Canada,2023,sugar_beet,2.0
+225,129,United Arab Emirates,Madagascar,2022,sugar_beet,0.01
+173,79,Poland,Germany,2006,sugar_beet,1.0
+173,79,Poland,Germany,2008,sugar_beet,1.0
+173,79,Poland,Germany,2016,sugar_beet,7.92
+173,79,Poland,Germany,2017,sugar_beet,5.0
+173,79,Poland,Germany,2018,sugar_beet,57.35
+173,79,Poland,Germany,2019,sugar_beet,723.59
+173,79,Poland,Germany,2020,sugar_beet,3291.96
+173,79,Poland,Germany,2021,sugar_beet,65.27
+173,79,Poland,Germany,2022,sugar_beet,22.23
+173,79,Poland,Germany,2023,sugar_beet,15.35
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,0.1
+59,229,Egypt,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,19.48
+41,68,"China, mainland",France,1999,sugar_beet,1.0
+97,106,Hungary,Italy,1991,sugar_beet,4814.0
+97,106,Hungary,Italy,1992,sugar_beet,1009.0
+97,106,Hungary,Italy,1994,sugar_beet,4596.0
+97,106,Hungary,Italy,1995,sugar_beet,4039.0
+97,106,Hungary,Italy,1996,sugar_beet,706.0
+229,98,United Kingdom of Great Britain and Northern Ireland,Croatia,2014,sugar_beet,0.58
+211,68,Switzerland,France,2019,sugar_beet,0.01
+104,159,Ireland,Nigeria,1999,sugar_beet,2.0
+225,131,United Arab Emirates,Malaysia,2018,sugar_beet,0.03
+121,179,Lebanon,Qatar,2014,sugar_beet,0.04
+121,179,Lebanon,Qatar,2015,sugar_beet,0.16
+121,179,Lebanon,Qatar,2018,sugar_beet,0.06
+121,179,Lebanon,Qatar,2019,sugar_beet,0.11
+121,179,Lebanon,Qatar,2021,sugar_beet,0.13
+121,179,Lebanon,Qatar,2022,sugar_beet,0.14
+121,179,Lebanon,Qatar,2023,sugar_beet,0.12
+199,198,Slovakia,Slovenia,2008,sugar_beet,39.0
+199,198,Slovakia,Slovenia,2013,sugar_beet,75.0
+203,50,Spain,Cyprus,2017,sugar_beet,0.05
+203,50,Spain,Cyprus,2023,sugar_beet,0.04
+126,173,Lithuania,Poland,2015,sugar_beet,186.9
+126,173,Lithuania,Poland,2016,sugar_beet,96.0
+104,162,Ireland,Norway,2017,sugar_beet,0.04
+54,79,Denmark,Germany,1991,sugar_beet,192.0
+54,79,Denmark,Germany,2001,sugar_beet,1.0
+54,79,Denmark,Germany,2007,sugar_beet,4.0
+54,79,Denmark,Germany,2008,sugar_beet,302.0
+54,79,Denmark,Germany,2009,sugar_beet,586.0
+54,79,Denmark,Germany,2010,sugar_beet,199.0
+54,79,Denmark,Germany,2016,sugar_beet,28.96
+54,79,Denmark,Germany,2020,sugar_beet,68.6
+59,231,Egypt,United States of America,2011,sugar_beet,20.0
+225,132,United Arab Emirates,Maldives,2021,sugar_beet,0.21
+15,211,Belgium-Luxembourg,Switzerland,1995,sugar_beet,27.0
+223,79,Türkiye,Germany,1995,sugar_beet,1.0
+223,79,Türkiye,Germany,1996,sugar_beet,2.0
+223,79,Türkiye,Germany,1997,sugar_beet,4.0
+223,79,Türkiye,Germany,2000,sugar_beet,77.0
+223,79,Türkiye,Germany,2016,sugar_beet,0.11
+223,79,Türkiye,Germany,2019,sugar_beet,0.11
+223,79,Türkiye,Germany,2020,sugar_beet,0.16
+223,79,Türkiye,Germany,2021,sugar_beet,0.26
+223,79,Türkiye,Germany,2022,sugar_beet,0.26
+223,79,Türkiye,Germany,2023,sugar_beet,1.46
+162,150,Norway,Netherlands (Kingdom of the),2010,sugar_beet,5.0
+162,150,Norway,Netherlands (Kingdom of the),2012,sugar_beet,1.0
+106,214,Italy,"China, Taiwan Province of",2016,sugar_beet,3.51
+167,106,Czechia,Italy,2008,sugar_beet,81.0
+167,106,Czechia,Italy,2009,sugar_beet,707.0
+167,106,Czechia,Italy,2010,sugar_beet,296.0
+21,106,Brazil,Italy,2018,sugar_beet,0.02
+21,106,Brazil,Italy,2019,sugar_beet,0.04
+21,106,Brazil,Italy,2020,sugar_beet,0.03
+21,106,Brazil,Italy,2022,sugar_beet,0.02
+223,81,Türkiye,Ghana,2021,sugar_beet,0.01
+11,79,Austria,Germany,1993,sugar_beet,66.0
+11,79,Austria,Germany,1994,sugar_beet,116.0
+11,79,Austria,Germany,1999,sugar_beet,466.0
+11,79,Austria,Germany,2000,sugar_beet,236.0
+11,79,Austria,Germany,2001,sugar_beet,108.0
+11,79,Austria,Germany,2002,sugar_beet,115.0
+11,79,Austria,Germany,2003,sugar_beet,198.0
+11,79,Austria,Germany,2004,sugar_beet,246.0
+11,79,Austria,Germany,2005,sugar_beet,709.0
+11,79,Austria,Germany,2006,sugar_beet,125.0
+11,79,Austria,Germany,2007,sugar_beet,166.0
+11,79,Austria,Germany,2008,sugar_beet,24.0
+11,79,Austria,Germany,2009,sugar_beet,25.0
+11,79,Austria,Germany,2010,sugar_beet,7.0
+11,79,Austria,Germany,2011,sugar_beet,80.0
+11,79,Austria,Germany,2012,sugar_beet,51.0
+11,79,Austria,Germany,2013,sugar_beet,50.0
+11,79,Austria,Germany,2014,sugar_beet,151.0
+11,79,Austria,Germany,2015,sugar_beet,108.0
+11,79,Austria,Germany,2016,sugar_beet,60.0
+11,79,Austria,Germany,2017,sugar_beet,0.52
+11,79,Austria,Germany,2018,sugar_beet,0.3
+11,79,Austria,Germany,2023,sugar_beet,1.01
+33,67,Canada,Finland,1997,sugar_beet,26.0
+203,167,Spain,Czechia,2016,sugar_beet,1.27
+199,210,Slovakia,Sweden,1994,sugar_beet,161.0
+199,210,Slovakia,Sweden,2000,sugar_beet,100.0
+199,210,Slovakia,Sweden,2003,sugar_beet,40.0
+68,40,France,Chile,2010,sugar_beet,20.0
+68,40,France,Chile,2011,sugar_beet,1.0
+68,40,France,Chile,2012,sugar_beet,2.0
+121,194,Lebanon,Saudi Arabia,2014,sugar_beet,0.07
+121,194,Lebanon,Saudi Arabia,2015,sugar_beet,0.19
+121,194,Lebanon,Saudi Arabia,2020,sugar_beet,0.1
+255,68,Belgium,France,2001,sugar_beet,58.0
+255,68,Belgium,France,2002,sugar_beet,58.0
+255,68,Belgium,France,2003,sugar_beet,95.0
+255,68,Belgium,France,2006,sugar_beet,1.0
+255,68,Belgium,France,2008,sugar_beet,1.0
+255,68,Belgium,France,2009,sugar_beet,1.0
+255,68,Belgium,France,2010,sugar_beet,31284.0
+255,68,Belgium,France,2011,sugar_beet,1114.0
+255,68,Belgium,France,2013,sugar_beet,5464.0
+255,68,Belgium,France,2016,sugar_beet,0.5
+255,68,Belgium,France,2017,sugar_beet,69.74
+255,68,Belgium,France,2018,sugar_beet,696.63
+255,68,Belgium,France,2019,sugar_beet,62.4
+255,68,Belgium,France,2020,sugar_beet,0.2
+255,68,Belgium,France,2022,sugar_beet,3.75
+255,68,Belgium,France,2023,sugar_beet,56112.91
+54,84,Denmark,Greece,2019,sugar_beet,0.02
+223,84,Türkiye,Greece,2000,sugar_beet,463.0
+223,84,Türkiye,Greece,2001,sugar_beet,50.0
+223,84,Türkiye,Greece,2021,sugar_beet,0.01
+230,185,Ukraine,Russian Federation,2008,sugar_beet,1233.0
+21,110,Brazil,Japan,2019,sugar_beet,0.07
+21,110,Brazil,Japan,2020,sugar_beet,0.11
+98,198,Croatia,Slovenia,1992,sugar_beet,142276.0
+98,198,Croatia,Slovenia,1993,sugar_beet,73836.0
+98,198,Croatia,Slovenia,1994,sugar_beet,1211.0
+98,198,Croatia,Slovenia,2015,sugar_beet,23.4
+98,198,Croatia,Slovenia,2020,sugar_beet,25.62
+21,112,Brazil,Jordan,2019,sugar_beet,0.02
+21,112,Brazil,Jordan,2020,sugar_beet,0.05
+199,230,Slovakia,Ukraine,2022,sugar_beet,0.07
+231,96,United States of America,"China, Hong Kong SAR",2010,sugar_beet,61.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2019,sugar_beet,0.03
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2020,sugar_beet,0.05
+21,119,Brazil,Latvia,2023,sugar_beet,0.01
+33,68,Canada,France,2019,sugar_beet,0.35
+200,101,Singapore,Indonesia,2008,sugar_beet,101.0
+200,101,Singapore,Indonesia,2012,sugar_beet,402.0
+200,101,Singapore,Indonesia,2018,sugar_beet,0.08
+21,121,Brazil,Lebanon,2019,sugar_beet,0.08
+21,121,Brazil,Lebanon,2021,sugar_beet,0.04
+211,79,Switzerland,Germany,1991,sugar_beet,11.0
+211,79,Switzerland,Germany,2005,sugar_beet,1.0
+211,79,Switzerland,Germany,2008,sugar_beet,1.0
+211,79,Switzerland,Germany,2014,sugar_beet,10.0
+211,79,Switzerland,Germany,2016,sugar_beet,12.6
+211,79,Switzerland,Germany,2017,sugar_beet,145.8
+211,79,Switzerland,Germany,2018,sugar_beet,419.9
+211,79,Switzerland,Germany,2020,sugar_beet,0.07
+211,79,Switzerland,Germany,2023,sugar_beet,0.02
+104,194,Ireland,Saudi Arabia,2009,sugar_beet,11.0
+21,123,Brazil,Liberia,2018,sugar_beet,0.06
+21,123,Brazil,Liberia,2019,sugar_beet,0.15
+21,123,Brazil,Liberia,2020,sugar_beet,0.38
+21,123,Brazil,Liberia,2021,sugar_beet,0.32
+21,123,Brazil,Liberia,2022,sugar_beet,0.4
+21,123,Brazil,Liberia,2023,sugar_beet,0.54
+104,200,Ireland,Singapore,2019,sugar_beet,10.18
+225,221,United Arab Emirates,Oman,2007,sugar_beet,1.0
+225,221,United Arab Emirates,Oman,2008,sugar_beet,3.0
+225,221,United Arab Emirates,Oman,2015,sugar_beet,21.3
+225,221,United Arab Emirates,Oman,2016,sugar_beet,63.2
+225,221,United Arab Emirates,Oman,2017,sugar_beet,5.9
+225,221,United Arab Emirates,Oman,2018,sugar_beet,2.24
+225,221,United Arab Emirates,Oman,2019,sugar_beet,0.9
+225,221,United Arab Emirates,Oman,2020,sugar_beet,1.34
+225,221,United Arab Emirates,Oman,2021,sugar_beet,81.17
+225,221,United Arab Emirates,Oman,2022,sugar_beet,4.78
+225,221,United Arab Emirates,Oman,2023,sugar_beet,0.06
+223,101,Türkiye,Indonesia,2022,sugar_beet,0.01
+21,131,Brazil,Malaysia,2018,sugar_beet,0.02
+210,100,Sweden,India,2021,sugar_beet,0.01
+54,99,Denmark,Iceland,2022,sugar_beet,270.36
+174,256,Portugal,Luxembourg,2018,sugar_beet,0.01
+174,256,Portugal,Luxembourg,2019,sugar_beet,0.01
+174,256,Portugal,Luxembourg,2020,sugar_beet,0.06
+174,256,Portugal,Luxembourg,2021,sugar_beet,0.02
+174,256,Portugal,Luxembourg,2022,sugar_beet,0.07
+174,256,Portugal,Luxembourg,2023,sugar_beet,0.05
+21,134,Brazil,Malta,2018,sugar_beet,0.12
+21,134,Brazil,Malta,2019,sugar_beet,0.07
+21,134,Brazil,Malta,2020,sugar_beet,0.06
+21,134,Brazil,Malta,2021,sugar_beet,0.12
+21,134,Brazil,Malta,2022,sugar_beet,0.07
+21,134,Brazil,Malta,2023,sugar_beet,0.14
+97,150,Hungary,Netherlands (Kingdom of the),1993,sugar_beet,804.0
+97,150,Hungary,Netherlands (Kingdom of the),1995,sugar_beet,2359.0
+97,150,Hungary,Netherlands (Kingdom of the),1997,sugar_beet,216.0
+167,143,Czechia,Morocco,2014,sugar_beet,0.11
+202,110,South Africa,Japan,2007,sugar_beet,20.0
+223,102,Türkiye,Iran (Islamic Republic of),2022,sugar_beet,1.21
+183,179,Romania,Qatar,2018,sugar_beet,0.12
+21,127,Brazil,Marshall Islands,2018,sugar_beet,0.13
+21,127,Brazil,Marshall Islands,2019,sugar_beet,0.24
+21,127,Brazil,Marshall Islands,2020,sugar_beet,0.53
+21,127,Brazil,Marshall Islands,2021,sugar_beet,0.44
+21,127,Brazil,Marshall Islands,2022,sugar_beet,0.42
+21,127,Brazil,Marshall Islands,2023,sugar_beet,0.85
+225,165,United Arab Emirates,Pakistan,2019,sugar_beet,0.71
+210,102,Sweden,Iran (Islamic Republic of),2016,sugar_beet,0.01
+255,79,Belgium,Germany,2005,sugar_beet,3.0
+255,79,Belgium,Germany,2011,sugar_beet,8.0
+255,79,Belgium,Germany,2017,sugar_beet,0.1
+255,79,Belgium,Germany,2021,sugar_beet,50989.64
+255,79,Belgium,Germany,2022,sugar_beet,67786.6
+255,79,Belgium,Germany,2023,sugar_beet,84.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2005,sugar_beet,27.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2016,sugar_beet,40.57
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2017,sugar_beet,0.01
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2021,sugar_beet,2.3
+11,97,Austria,Hungary,1993,sugar_beet,48.0
+11,97,Austria,Hungary,2012,sugar_beet,45884.0
+11,97,Austria,Hungary,2015,sugar_beet,2.3
+11,97,Austria,Hungary,2016,sugar_beet,1.05
+101,185,Indonesia,Russian Federation,2003,sugar_beet,51.0
+100,118,India,Kuwait,2018,sugar_beet,0.3
+223,103,Türkiye,Iraq,1988,sugar_beet,3.0
+223,103,Türkiye,Iraq,1989,sugar_beet,2.0
+198,199,Slovenia,Slovakia,2016,sugar_beet,1968.0
+198,199,Slovenia,Slovakia,2017,sugar_beet,4222.0
+198,199,Slovenia,Slovakia,2018,sugar_beet,3672.0
+198,199,Slovenia,Slovakia,2023,sugar_beet,72.0
+138,231,Mexico,United States of America,1989,sugar_beet,5.0
+138,231,Mexico,United States of America,1990,sugar_beet,2.0
+138,231,Mexico,United States of America,2002,sugar_beet,6.0
+138,231,Mexico,United States of America,2018,sugar_beet,67.5
+126,230,Lithuania,Ukraine,2005,sugar_beet,19993.0
+10,131,Australia,Malaysia,2005,sugar_beet,69.0
+101,194,Indonesia,Saudi Arabia,2019,sugar_beet,9.53
+101,194,Indonesia,Saudi Arabia,2020,sugar_beet,8.5
+101,194,Indonesia,Saudi Arabia,2021,sugar_beet,7.4
+101,194,Indonesia,Saudi Arabia,2022,sugar_beet,19.86
+101,194,Indonesia,Saudi Arabia,2023,sugar_beet,9.44
+203,61,Spain,Equatorial Guinea,2015,sugar_beet,0.01
+203,61,Spain,Equatorial Guinea,2019,sugar_beet,0.02
+203,61,Spain,Equatorial Guinea,2022,sugar_beet,0.02
+54,104,Denmark,Ireland,2016,sugar_beet,0.01
+167,150,Czechia,Netherlands (Kingdom of the),1997,sugar_beet,60.0
+225,179,United Arab Emirates,Qatar,2002,sugar_beet,1.0
+225,179,United Arab Emirates,Qatar,2003,sugar_beet,2.0
+104,211,Ireland,Switzerland,2016,sugar_beet,1.01
+198,203,Slovenia,Spain,2017,sugar_beet,465.6
+104,212,Ireland,Syrian Arab Republic,2009,sugar_beet,16.0
+67,211,Finland,Switzerland,2016,sugar_beet,0.1
+200,110,Singapore,Japan,2015,sugar_beet,2.04
+200,110,Singapore,Japan,2016,sugar_beet,7.83
+200,110,Singapore,Japan,2017,sugar_beet,5.31
+200,110,Singapore,Japan,2018,sugar_beet,9.99
+200,110,Singapore,Japan,2019,sugar_beet,3.5
+200,110,Singapore,Japan,2020,sugar_beet,2.31
+200,110,Singapore,Japan,2021,sugar_beet,0.99
+173,106,Poland,Italy,2004,sugar_beet,3.0
+203,63,Spain,Estonia,2021,sugar_beet,12.0
+223,105,Türkiye,Israel,2001,sugar_beet,1.0
+223,105,Türkiye,Israel,2021,sugar_beet,0.01
+223,105,Türkiye,Israel,2022,sugar_beet,0.01
+68,46,France,Congo,2014,sugar_beet,0.1
+68,46,France,Congo,2015,sugar_beet,0.65
+68,46,France,Congo,2016,sugar_beet,0.04
+106,167,Italy,Czechia,2014,sugar_beet,0.01
+106,167,Italy,Czechia,2015,sugar_beet,0.05
+121,225,Lebanon,United Arab Emirates,2002,sugar_beet,1.0
+121,225,Lebanon,United Arab Emirates,2015,sugar_beet,0.03
+121,225,Lebanon,United Arab Emirates,2017,sugar_beet,0.27
+121,225,Lebanon,United Arab Emirates,2019,sugar_beet,0.03
+121,225,Lebanon,United Arab Emirates,2020,sugar_beet,1.33
+121,225,Lebanon,United Arab Emirates,2021,sugar_beet,0.54
+121,225,Lebanon,United Arab Emirates,2022,sugar_beet,1.6
+121,225,Lebanon,United Arab Emirates,2023,sugar_beet,0.27
+21,150,Brazil,Netherlands (Kingdom of the),2020,sugar_beet,0.03
+21,150,Brazil,Netherlands (Kingdom of the),2021,sugar_beet,0.01
+21,150,Brazil,Netherlands (Kingdom of the),2022,sugar_beet,0.01
+21,150,Brazil,Netherlands (Kingdom of the),2023,sugar_beet,0.03
+198,210,Slovenia,Sweden,2000,sugar_beet,100.0
+97,173,Hungary,Poland,2017,sugar_beet,0.15
+100,130,India,Malawi,2016,sugar_beet,0.01
+231,214,United States of America,"China, Taiwan Province of",2000,sugar_beet,162.0
+231,214,United States of America,"China, Taiwan Province of",2002,sugar_beet,25.0
+231,214,United States of America,"China, Taiwan Province of",2004,sugar_beet,215.0
+231,214,United States of America,"China, Taiwan Province of",2008,sugar_beet,1281.0
+202,122,South Africa,Lesotho,2014,sugar_beet,0.2
+202,122,South Africa,Lesotho,2016,sugar_beet,1.37
+202,122,South Africa,Lesotho,2017,sugar_beet,0.05
+202,122,South Africa,Lesotho,2019,sugar_beet,0.02
+210,106,Sweden,Italy,1988,sugar_beet,1.0
+223,106,Türkiye,Italy,2021,sugar_beet,0.01
+223,106,Türkiye,Italy,2022,sugar_beet,0.06
+223,106,Türkiye,Italy,2023,sugar_beet,0.01
+210,110,Sweden,Japan,2006,sugar_beet,110.0
+21,162,Brazil,Norway,2018,sugar_beet,0.11
+21,162,Brazil,Norway,2019,sugar_beet,0.13
+21,162,Brazil,Norway,2020,sugar_beet,0.05
+21,162,Brazil,Norway,2021,sugar_beet,0.02
+21,162,Brazil,Norway,2022,sugar_beet,0.04
+21,162,Brazil,Norway,2023,sugar_beet,0.09
+101,200,Indonesia,Singapore,1996,sugar_beet,2.0
+101,200,Indonesia,Singapore,2008,sugar_beet,8.0
+101,200,Indonesia,Singapore,2020,sugar_beet,0.01
+101,200,Indonesia,Singapore,2021,sugar_beet,0.08
+225,194,United Arab Emirates,Saudi Arabia,2003,sugar_beet,58.0
+225,194,United Arab Emirates,Saudi Arabia,2018,sugar_beet,15.94
+225,194,United Arab Emirates,Saudi Arabia,2019,sugar_beet,0.5
+100,131,India,Malaysia,2007,sugar_beet,1.0
+100,131,India,Malaysia,2014,sugar_beet,0.02
+162,210,Norway,Sweden,1987,sugar_beet,1.0
+162,210,Norway,Sweden,1999,sugar_beet,14.0
+162,210,Norway,Sweden,2000,sugar_beet,25.0
+162,210,Norway,Sweden,2001,sugar_beet,22.0
+162,210,Norway,Sweden,2002,sugar_beet,23.0
+162,210,Norway,Sweden,2003,sugar_beet,14.0
+162,210,Norway,Sweden,2004,sugar_beet,8.0
+162,210,Norway,Sweden,2005,sugar_beet,9.0
+162,210,Norway,Sweden,2006,sugar_beet,17.0
+162,210,Norway,Sweden,2007,sugar_beet,11.0
+162,210,Norway,Sweden,2018,sugar_beet,0.02
+162,210,Norway,Sweden,2022,sugar_beet,0.02
+150,98,Netherlands (Kingdom of the),Croatia,2017,sugar_beet,2.38
+150,98,Netherlands (Kingdom of the),Croatia,2018,sugar_beet,0.11
+150,98,Netherlands (Kingdom of the),Croatia,2019,sugar_beet,0.09
+150,98,Netherlands (Kingdom of the),Croatia,2020,sugar_beet,0.04
+150,98,Netherlands (Kingdom of the),Croatia,2021,sugar_beet,0.08
+150,98,Netherlands (Kingdom of the),Croatia,2022,sugar_beet,0.55
+150,98,Netherlands (Kingdom of the),Croatia,2023,sugar_beet,0.11
+10,148,Australia,Nauru,2000,sugar_beet,8.0
+255,97,Belgium,Hungary,2011,sugar_beet,4.0
+21,166,Brazil,Panama,2018,sugar_beet,0.02
+21,166,Brazil,Panama,2019,sugar_beet,0.21
+21,166,Brazil,Panama,2020,sugar_beet,0.27
+21,166,Brazil,Panama,2021,sugar_beet,0.23
+21,166,Brazil,Panama,2022,sugar_beet,0.19
+21,166,Brazil,Panama,2023,sugar_beet,0.3
+100,132,India,Maldives,2022,sugar_beet,0.4
+216,120,Thailand,Lao People's Democratic Republic,1995,sugar_beet,1.0
+216,120,Thailand,Lao People's Democratic Republic,2006,sugar_beet,927.0
+216,120,Thailand,Lao People's Democratic Republic,2011,sugar_beet,44.0
+225,197,United Arab Emirates,Sierra Leone,2023,sugar_beet,1.12
+150,49,Netherlands (Kingdom of the),Cuba,2009,sugar_beet,6.0
+67,229,Finland,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.01
+67,229,Finland,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.02
+183,203,Romania,Spain,2018,sugar_beet,0.02
+223,112,Türkiye,Jordan,2012,sugar_beet,1.0
+210,119,Sweden,Latvia,2002,sugar_beet,3.0
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2011,sugar_beet,1.0
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2015,sugar_beet,0.02
+41,110,"China, mainland",Japan,1994,sugar_beet,41.0
+41,110,"China, mainland",Japan,1995,sugar_beet,129.0
+41,110,"China, mainland",Japan,1996,sugar_beet,86.0
+41,110,"China, mainland",Japan,1997,sugar_beet,217.0
+41,110,"China, mainland",Japan,1998,sugar_beet,312.0
+41,110,"China, mainland",Japan,1999,sugar_beet,361.0
+41,110,"China, mainland",Japan,2000,sugar_beet,527.0
+41,110,"China, mainland",Japan,2001,sugar_beet,1523.0
+41,110,"China, mainland",Japan,2002,sugar_beet,15.0
+41,110,"China, mainland",Japan,2003,sugar_beet,5.0
+41,110,"China, mainland",Japan,2005,sugar_beet,3.0
+41,110,"China, mainland",Japan,2006,sugar_beet,5.0
+41,110,"China, mainland",Japan,2007,sugar_beet,5.0
+41,110,"China, mainland",Japan,2008,sugar_beet,2.0
+41,110,"China, mainland",Japan,2010,sugar_beet,8.0
+41,110,"China, mainland",Japan,2014,sugar_beet,0.53
+97,183,Hungary,Romania,1991,sugar_beet,150221.0
+97,183,Hungary,Romania,2004,sugar_beet,33048.0
+97,183,Hungary,Romania,2012,sugar_beet,25.0
+97,183,Hungary,Romania,2021,sugar_beet,6.16
+84,150,Greece,Netherlands (Kingdom of the),2020,sugar_beet,0.25
+167,173,Czechia,Poland,2016,sugar_beet,722.67
+167,173,Czechia,Poland,2017,sugar_beet,23.51
+225,201,United Arab Emirates,Somalia,2014,sugar_beet,46.25
+223,108,Türkiye,Kazakhstan,2022,sugar_beet,0.01
+225,202,United Arab Emirates,South Africa,2019,sugar_beet,0.02
+225,202,United Arab Emirates,South Africa,2020,sugar_beet,0.43
+225,202,United Arab Emirates,South Africa,2021,sugar_beet,18.0
+150,50,Netherlands (Kingdom of the),Cyprus,2017,sugar_beet,0.06
+150,50,Netherlands (Kingdom of the),Cyprus,2018,sugar_beet,0.44
+150,50,Netherlands (Kingdom of the),Cyprus,2019,sugar_beet,0.06
+150,50,Netherlands (Kingdom of the),Cyprus,2020,sugar_beet,19.56
+150,50,Netherlands (Kingdom of the),Cyprus,2021,sugar_beet,81.99
+150,50,Netherlands (Kingdom of the),Cyprus,2022,sugar_beet,93.78
+150,50,Netherlands (Kingdom of the),Cyprus,2023,sugar_beet,69.33
+223,118,Türkiye,Kuwait,2007,sugar_beet,2.0
+223,118,Türkiye,Kuwait,2021,sugar_beet,0.04
+223,118,Türkiye,Kuwait,2022,sugar_beet,0.06
+10,153,Australia,New Caledonia,2018,sugar_beet,0.07
+54,119,Denmark,Latvia,2021,sugar_beet,400.0
+11,106,Austria,Italy,1999,sugar_beet,242.0
+11,106,Austria,Italy,2000,sugar_beet,103.0
+11,106,Austria,Italy,2003,sugar_beet,200.0
+11,106,Austria,Italy,2004,sugar_beet,530.0
+11,106,Austria,Italy,2005,sugar_beet,4114.0
+11,106,Austria,Italy,2007,sugar_beet,5.0
+11,106,Austria,Italy,2014,sugar_beet,1.43
+231,48,United States of America,Costa Rica,1997,sugar_beet,125.0
+231,48,United States of America,Costa Rica,2002,sugar_beet,15.0
+21,171,Brazil,Philippines,2022,sugar_beet,0.02
+173,126,Poland,Lithuania,2008,sugar_beet,4.0
+173,126,Poland,Lithuania,2015,sugar_beet,0.6
+173,126,Poland,Lithuania,2019,sugar_beet,0.08
+173,126,Poland,Lithuania,2021,sugar_beet,0.3
+223,113,Türkiye,Kyrgyzstan,2021,sugar_beet,0.01
+200,131,Singapore,Malaysia,2010,sugar_beet,1.0
+200,131,Singapore,Malaysia,2012,sugar_beet,1.0
+200,131,Singapore,Malaysia,2016,sugar_beet,0.17
+200,131,Singapore,Malaysia,2017,sugar_beet,1.4
+200,131,Singapore,Malaysia,2018,sugar_beet,1.41
+200,131,Singapore,Malaysia,2019,sugar_beet,0.41
+200,131,Singapore,Malaysia,2020,sugar_beet,2.51
+200,131,Singapore,Malaysia,2021,sugar_beet,7.02
+200,131,Singapore,Malaysia,2022,sugar_beet,6.4
+200,131,Singapore,Malaysia,2023,sugar_beet,5.8
+21,173,Brazil,Poland,2021,sugar_beet,0.01
+21,173,Brazil,Poland,2023,sugar_beet,0.02
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1986,sugar_beet,26.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1987,sugar_beet,24.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1988,sugar_beet,20.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1989,sugar_beet,45.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1990,sugar_beet,235.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,sugar_beet,368.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1992,sugar_beet,226.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1997,sugar_beet,163.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2011,sugar_beet,10.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2012,sugar_beet,37.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2013,sugar_beet,4.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2014,sugar_beet,41.6
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2015,sugar_beet,6.8
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,0.18
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,0.17
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.37
+203,68,Spain,France,1994,sugar_beet,191.0
+203,68,Spain,France,2004,sugar_beet,8.0
+203,68,Spain,France,2005,sugar_beet,13.0
+203,68,Spain,France,2006,sugar_beet,146.0
+203,68,Spain,France,2007,sugar_beet,1179.0
+203,68,Spain,France,2008,sugar_beet,188.0
+203,68,Spain,France,2009,sugar_beet,27.0
+203,68,Spain,France,2010,sugar_beet,80.0
+203,68,Spain,France,2012,sugar_beet,13.0
+203,68,Spain,France,2013,sugar_beet,109.0
+203,68,Spain,France,2014,sugar_beet,31.8
+203,68,Spain,France,2015,sugar_beet,1.31
+203,68,Spain,France,2016,sugar_beet,2.84
+203,68,Spain,France,2017,sugar_beet,104.7
+203,68,Spain,France,2018,sugar_beet,1.37
+203,68,Spain,France,2019,sugar_beet,55.82
+203,68,Spain,France,2020,sugar_beet,832.47
+203,68,Spain,France,2021,sugar_beet,1481.48
+203,68,Spain,France,2022,sugar_beet,553.68
+203,68,Spain,France,2023,sugar_beet,822.37
+202,137,South Africa,Mauritius,2020,sugar_beet,0.09
+202,137,South Africa,Mauritius,2021,sugar_beet,0.07
+225,276,United Arab Emirates,Sudan,2022,sugar_beet,0.3
+101,176,Indonesia,Timor-Leste,2002,sugar_beet,5.0
+101,176,Indonesia,Timor-Leste,2003,sugar_beet,1.0
+101,176,Indonesia,Timor-Leste,2014,sugar_beet,0.06
+101,176,Indonesia,Timor-Leste,2021,sugar_beet,0.3
+223,121,Türkiye,Lebanon,2022,sugar_beet,0.01
+21,174,Brazil,Portugal,2019,sugar_beet,0.02
+21,174,Brazil,Portugal,2020,sugar_beet,0.03
+21,174,Brazil,Portugal,2021,sugar_beet,0.11
+21,174,Brazil,Portugal,2022,sugar_beet,0.02
+21,174,Brazil,Portugal,2023,sugar_beet,0.06
+185,230,Russian Federation,Ukraine,2015,sugar_beet,6.71
+185,230,Russian Federation,Ukraine,2016,sugar_beet,5.0
+21,179,Brazil,Qatar,2020,sugar_beet,0.01
+100,149,India,Nepal,2003,sugar_beet,71.0
+100,149,India,Nepal,2004,sugar_beet,45.0
+100,149,India,Nepal,2005,sugar_beet,2.0
+100,149,India,Nepal,2006,sugar_beet,1292.0
+100,149,India,Nepal,2007,sugar_beet,200.0
+100,149,India,Nepal,2008,sugar_beet,885.0
+100,149,India,Nepal,2012,sugar_beet,2.0
+100,149,India,Nepal,2016,sugar_beet,0.07
+100,149,India,Nepal,2020,sugar_beet,6.02
+100,149,India,Nepal,2021,sugar_beet,0.12
+100,149,India,Nepal,2023,sugar_beet,0.72
+211,110,Switzerland,Japan,2015,sugar_beet,0.01
+54,126,Denmark,Lithuania,1998,sugar_beet,10.0
+150,167,Netherlands (Kingdom of the),Czechia,2009,sugar_beet,230.0
+150,167,Netherlands (Kingdom of the),Czechia,2018,sugar_beet,1.08
+150,167,Netherlands (Kingdom of the),Czechia,2019,sugar_beet,1.02
+150,167,Netherlands (Kingdom of the),Czechia,2020,sugar_beet,1.91
+150,167,Netherlands (Kingdom of the),Czechia,2021,sugar_beet,2.35
+150,167,Netherlands (Kingdom of the),Czechia,2022,sugar_beet,4.1
+150,167,Netherlands (Kingdom of the),Czechia,2023,sugar_beet,3.43
+101,230,Indonesia,Ukraine,2003,sugar_beet,10.0
+225,212,United Arab Emirates,Syrian Arab Republic,2002,sugar_beet,100.0
+223,124,Türkiye,Libya,2022,sugar_beet,0.01
+21,117,Brazil,Republic of Korea,2019,sugar_beet,0.02
+21,117,Brazil,Republic of Korea,2021,sugar_beet,0.03
+10,156,Australia,New Zealand,2001,sugar_beet,1.0
+10,156,Australia,New Zealand,2007,sugar_beet,5.0
+10,156,Australia,New Zealand,2009,sugar_beet,3.0
+10,156,Australia,New Zealand,2020,sugar_beet,0.09
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1989,sugar_beet,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1990,sugar_beet,13.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1991,sugar_beet,3.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2014,sugar_beet,0.1
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2015,sugar_beet,0.84
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2016,sugar_beet,0.02
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2017,sugar_beet,0.02
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2018,sugar_beet,0.02
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2020,sugar_beet,0.01
+79,54,Germany,Denmark,1999,sugar_beet,3.0
+79,54,Germany,Denmark,2015,sugar_beet,53.4
+79,54,Germany,Denmark,2023,sugar_beet,351.14
+104,231,Ireland,United States of America,1991,sugar_beet,10.0
+104,231,Ireland,United States of America,1992,sugar_beet,8.0
+104,231,Ireland,United States of America,1993,sugar_beet,13.0
+104,231,Ireland,United States of America,1994,sugar_beet,52.0
+104,231,Ireland,United States of America,1995,sugar_beet,19.0
+104,231,Ireland,United States of America,2002,sugar_beet,5.0
+104,231,Ireland,United States of America,2021,sugar_beet,0.13
+97,199,Hungary,Slovakia,1995,sugar_beet,173392.0
+97,199,Hungary,Slovakia,2020,sugar_beet,5.25
+97,199,Hungary,Slovakia,2021,sugar_beet,260.23
+97,199,Hungary,Slovakia,2022,sugar_beet,0.16
+97,199,Hungary,Slovakia,2023,sugar_beet,564.74
+117,231,Republic of Korea,United States of America,2022,sugar_beet,0.32
+225,217,United Arab Emirates,Togo,2021,sugar_beet,18.5
+202,144,South Africa,Mozambique,2014,sugar_beet,0.3
+202,144,South Africa,Mozambique,2015,sugar_beet,0.12
+100,150,India,Netherlands (Kingdom of the),2002,sugar_beet,3.0
+100,150,India,Netherlands (Kingdom of the),2022,sugar_beet,0.02
+231,54,United States of America,Denmark,2015,sugar_beet,86.0
+223,131,Türkiye,Malaysia,2021,sugar_beet,0.01
+54,134,Denmark,Malta,2022,sugar_beet,5.95
+54,134,Denmark,Malta,2023,sugar_beet,5.0
+21,194,Brazil,Saudi Arabia,2019,sugar_beet,0.01
+21,194,Brazil,Saudi Arabia,2020,sugar_beet,0.06
+21,194,Brazil,Saudi Arabia,2023,sugar_beet,0.04
+223,132,Türkiye,Maldives,2020,sugar_beet,0.04
+223,132,Türkiye,Maldives,2022,sugar_beet,0.09
+21,272,Brazil,Serbia,2023,sugar_beet,0.02
+225,223,United Arab Emirates,Türkiye,2023,sugar_beet,0.97
+41,131,"China, mainland",Malaysia,1997,sugar_beet,9.0
+41,131,"China, mainland",Malaysia,2018,sugar_beet,4.45
+41,131,"China, mainland",Malaysia,2020,sugar_beet,3.0
+41,131,"China, mainland",Malaysia,2021,sugar_beet,3.0
+210,150,Sweden,Netherlands (Kingdom of the),1986,sugar_beet,4.0
+210,150,Sweden,Netherlands (Kingdom of the),1987,sugar_beet,4.0
+210,150,Sweden,Netherlands (Kingdom of the),1988,sugar_beet,2.0
+210,150,Sweden,Netherlands (Kingdom of the),1997,sugar_beet,1.0
+210,150,Sweden,Netherlands (Kingdom of the),1998,sugar_beet,4.0
+210,150,Sweden,Netherlands (Kingdom of the),2009,sugar_beet,1.0
+100,156,India,New Zealand,2005,sugar_beet,1.0
+100,156,India,New Zealand,2007,sugar_beet,1.0
+223,134,Türkiye,Malta,2021,sugar_beet,0.06
+202,147,South Africa,Namibia,2013,sugar_beet,8.0
+202,147,South Africa,Namibia,2014,sugar_beet,0.14
+202,147,South Africa,Namibia,2015,sugar_beet,0.28
+202,147,South Africa,Namibia,2016,sugar_beet,0.02
+202,147,South Africa,Namibia,2017,sugar_beet,0.06
+202,147,South Africa,Namibia,2018,sugar_beet,0.33
+10,165,Australia,Pakistan,2004,sugar_beet,3.0
+202,147,South Africa,Namibia,2023,sugar_beet,0.87
+97,198,Hungary,Slovenia,1992,sugar_beet,23281.0
+97,198,Hungary,Slovenia,1993,sugar_beet,23.0
+97,198,Hungary,Slovenia,1995,sugar_beet,17750.0
+97,198,Hungary,Slovenia,1996,sugar_beet,38193.0
+21,200,Brazil,Singapore,2018,sugar_beet,0.08
+21,200,Brazil,Singapore,2019,sugar_beet,0.06
+21,200,Brazil,Singapore,2020,sugar_beet,0.09
+21,200,Brazil,Singapore,2021,sugar_beet,0.1
+21,200,Brazil,Singapore,2022,sugar_beet,0.08
+21,200,Brazil,Singapore,2023,sugar_beet,0.03
+131,200,Malaysia,Singapore,1998,sugar_beet,13.0
+131,200,Malaysia,Singapore,1999,sugar_beet,3.0
+131,200,Malaysia,Singapore,2002,sugar_beet,7.0
+131,200,Malaysia,Singapore,2003,sugar_beet,14.0
+131,200,Malaysia,Singapore,2004,sugar_beet,158.0
+131,200,Malaysia,Singapore,2005,sugar_beet,2361.0
+131,200,Malaysia,Singapore,2006,sugar_beet,3344.0
+131,200,Malaysia,Singapore,2007,sugar_beet,2871.0
+131,200,Malaysia,Singapore,2008,sugar_beet,2163.0
+131,200,Malaysia,Singapore,2009,sugar_beet,955.0
+131,200,Malaysia,Singapore,2010,sugar_beet,1067.0
+131,200,Malaysia,Singapore,2012,sugar_beet,219.0
+131,200,Malaysia,Singapore,2013,sugar_beet,328.0
+131,200,Malaysia,Singapore,2014,sugar_beet,1348.89
+131,200,Malaysia,Singapore,2016,sugar_beet,11.51
+131,200,Malaysia,Singapore,2022,sugar_beet,94.09
+131,200,Malaysia,Singapore,2023,sugar_beet,151.9
+173,150,Poland,Netherlands (Kingdom of the),2017,sugar_beet,3.02
+68,54,France,Denmark,1987,sugar_beet,2.0
+68,54,France,Denmark,1988,sugar_beet,1.0
+68,54,France,Denmark,1989,sugar_beet,1.0
+84,183,Greece,Romania,2011,sugar_beet,147.0
+41,138,"China, mainland",Mexico,2000,sugar_beet,2.0
+41,138,"China, mainland",Mexico,2001,sugar_beet,1.0
+101,231,Indonesia,United States of America,2001,sugar_beet,2.0
+101,231,Indonesia,United States of America,2002,sugar_beet,185.0
+101,231,Indonesia,United States of America,2003,sugar_beet,11.0
+203,79,Spain,Germany,2013,sugar_beet,710.0
+203,79,Spain,Germany,2014,sugar_beet,12.0
+203,79,Spain,Germany,2015,sugar_beet,6.2
+203,79,Spain,Germany,2017,sugar_beet,0.07
+203,79,Spain,Germany,2018,sugar_beet,0.94
+203,79,Spain,Germany,2019,sugar_beet,1.63
+203,79,Spain,Germany,2020,sugar_beet,2.88
+203,79,Spain,Germany,2021,sugar_beet,0.21
+203,79,Spain,Germany,2022,sugar_beet,1.28
+203,79,Spain,Germany,2023,sugar_beet,452.27
+223,143,Türkiye,Morocco,2022,sugar_beet,0.02
+202,150,South Africa,Netherlands (Kingdom of the),2001,sugar_beet,4.0
+202,150,South Africa,Netherlands (Kingdom of the),2020,sugar_beet,0.91
+216,150,Thailand,Netherlands (Kingdom of the),2005,sugar_beet,3.0
+216,150,Thailand,Netherlands (Kingdom of the),2006,sugar_beet,2.0
+167,199,Czechia,Slovakia,1993,sugar_beet,41805.0
+167,199,Czechia,Slovakia,1994,sugar_beet,46884.0
+167,199,Czechia,Slovakia,1996,sugar_beet,51585.0
+167,199,Czechia,Slovakia,2002,sugar_beet,2.0
+167,199,Czechia,Slovakia,2003,sugar_beet,1.0
+167,199,Czechia,Slovakia,2004,sugar_beet,25.0
+167,199,Czechia,Slovakia,2007,sugar_beet,1523.0
+167,199,Czechia,Slovakia,2008,sugar_beet,995.0
+167,199,Czechia,Slovakia,2009,sugar_beet,1.0
+167,199,Czechia,Slovakia,2010,sugar_beet,2.0
+167,199,Czechia,Slovakia,2012,sugar_beet,61.0
+167,199,Czechia,Slovakia,2013,sugar_beet,261.0
+167,199,Czechia,Slovakia,2014,sugar_beet,25.2
+167,199,Czechia,Slovakia,2016,sugar_beet,0.18
+167,199,Czechia,Slovakia,2017,sugar_beet,100.12
+167,199,Czechia,Slovakia,2018,sugar_beet,126.96
+167,199,Czechia,Slovakia,2019,sugar_beet,100.12
+167,199,Czechia,Slovakia,2020,sugar_beet,86.13
+167,199,Czechia,Slovakia,2021,sugar_beet,0.39
+167,199,Czechia,Slovakia,2022,sugar_beet,50.82
+167,199,Czechia,Slovakia,2023,sugar_beet,222.34
+33,110,Canada,Japan,1998,sugar_beet,26.0
+231,56,United States of America,Dominican Republic,1989,sugar_beet,43.0
+231,56,United States of America,Dominican Republic,1992,sugar_beet,253.0
+231,56,United States of America,Dominican Republic,2012,sugar_beet,47.0
+68,72,France,Djibouti,2021,sugar_beet,0.02
+68,72,France,Djibouti,2022,sugar_beet,0.01
+68,72,France,Djibouti,2023,sugar_beet,0.06
+225,215,United Arab Emirates,United Republic of Tanzania,2019,sugar_beet,0.08
+225,215,United Arab Emirates,United Republic of Tanzania,2020,sugar_beet,0.43
+41,141,"China, mainland",Mongolia,2016,sugar_beet,37.0
+150,54,Netherlands (Kingdom of the),Denmark,1986,sugar_beet,38.0
+150,54,Netherlands (Kingdom of the),Denmark,1987,sugar_beet,45.0
+150,54,Netherlands (Kingdom of the),Denmark,1993,sugar_beet,1.0
+150,54,Netherlands (Kingdom of the),Denmark,1995,sugar_beet,3.0
+150,54,Netherlands (Kingdom of the),Denmark,1996,sugar_beet,8.0
+150,54,Netherlands (Kingdom of the),Denmark,1997,sugar_beet,35.0
+150,54,Netherlands (Kingdom of the),Denmark,1998,sugar_beet,28.0
+150,54,Netherlands (Kingdom of the),Denmark,1999,sugar_beet,50.0
+150,54,Netherlands (Kingdom of the),Denmark,2000,sugar_beet,380.0
+150,54,Netherlands (Kingdom of the),Denmark,2001,sugar_beet,37.0
+150,54,Netherlands (Kingdom of the),Denmark,2002,sugar_beet,24.0
+150,54,Netherlands (Kingdom of the),Denmark,2005,sugar_beet,49.0
+150,54,Netherlands (Kingdom of the),Denmark,2006,sugar_beet,24.0
+150,54,Netherlands (Kingdom of the),Denmark,2012,sugar_beet,136.0
+150,54,Netherlands (Kingdom of the),Denmark,2013,sugar_beet,57.0
+150,54,Netherlands (Kingdom of the),Denmark,2014,sugar_beet,0.32
+150,54,Netherlands (Kingdom of the),Denmark,2016,sugar_beet,0.2
+150,54,Netherlands (Kingdom of the),Denmark,2018,sugar_beet,0.74
+150,54,Netherlands (Kingdom of the),Denmark,2019,sugar_beet,0.41
+150,54,Netherlands (Kingdom of the),Denmark,2020,sugar_beet,0.96
+150,54,Netherlands (Kingdom of the),Denmark,2021,sugar_beet,0.44
+150,54,Netherlands (Kingdom of the),Denmark,2022,sugar_beet,9.74
+150,54,Netherlands (Kingdom of the),Denmark,2023,sugar_beet,0.9
+173,162,Poland,Norway,2011,sugar_beet,2.0
+174,203,Portugal,Spain,1987,sugar_beet,1930.0
+174,203,Portugal,Spain,1989,sugar_beet,8750.0
+174,203,Portugal,Spain,1990,sugar_beet,5400.0
+174,203,Portugal,Spain,1991,sugar_beet,900.0
+174,203,Portugal,Spain,1992,sugar_beet,1640.0
+174,203,Portugal,Spain,1997,sugar_beet,1617.0
+174,203,Portugal,Spain,1998,sugar_beet,31.0
+174,203,Portugal,Spain,1999,sugar_beet,488.0
+174,203,Portugal,Spain,2009,sugar_beet,135.0
+174,203,Portugal,Spain,2010,sugar_beet,30.0
+174,203,Portugal,Spain,2015,sugar_beet,1585.8
+174,203,Portugal,Spain,2016,sugar_beet,378.93
+167,198,Czechia,Slovenia,2015,sugar_beet,125.1
+167,198,Czechia,Slovenia,2016,sugar_beet,99.19
+167,198,Czechia,Slovenia,2017,sugar_beet,194.82
+167,198,Czechia,Slovenia,2018,sugar_beet,72.64
+167,198,Czechia,Slovenia,2019,sugar_beet,296.98
+167,198,Czechia,Slovenia,2020,sugar_beet,718.2
+167,198,Czechia,Slovenia,2021,sugar_beet,243.32
+167,198,Czechia,Slovenia,2022,sugar_beet,595.22
+167,198,Czechia,Slovenia,2023,sugar_beet,427.68
+21,210,Brazil,Sweden,2020,sugar_beet,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2012,sugar_beet,11.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2015,sugar_beet,0.35
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2016,sugar_beet,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2017,sugar_beet,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2018,sugar_beet,0.01
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2022,sugar_beet,0.01
+54,150,Denmark,Netherlands (Kingdom of the),2007,sugar_beet,5.0
+54,150,Denmark,Netherlands (Kingdom of the),2020,sugar_beet,9179.85
+223,150,Türkiye,Netherlands (Kingdom of the),1996,sugar_beet,1.0
+223,150,Türkiye,Netherlands (Kingdom of the),2000,sugar_beet,10.0
+223,150,Türkiye,Netherlands (Kingdom of the),2001,sugar_beet,4.0
+223,150,Türkiye,Netherlands (Kingdom of the),2021,sugar_beet,0.02
+223,150,Türkiye,Netherlands (Kingdom of the),2022,sugar_beet,0.05
+223,150,Türkiye,Netherlands (Kingdom of the),2023,sugar_beet,0.24
+97,211,Hungary,Switzerland,1991,sugar_beet,38.0
+97,211,Hungary,Switzerland,2002,sugar_beet,98.0
+231,58,United States of America,Ecuador,1986,sugar_beet,14.0
+21,211,Brazil,Switzerland,2019,sugar_beet,0.01
+21,211,Brazil,Switzerland,2020,sugar_beet,0.01
+21,211,Brazil,Switzerland,2021,sugar_beet,0.02
+21,211,Brazil,Switzerland,2023,sugar_beet,0.02
+210,162,Sweden,Norway,1988,sugar_beet,1.0
+210,162,Sweden,Norway,1992,sugar_beet,64.0
+210,162,Sweden,Norway,1993,sugar_beet,31.0
+210,162,Sweden,Norway,1996,sugar_beet,19.0
+210,162,Sweden,Norway,1997,sugar_beet,5.0
+210,162,Sweden,Norway,1998,sugar_beet,15.0
+210,162,Sweden,Norway,1999,sugar_beet,33.0
+210,162,Sweden,Norway,2000,sugar_beet,39.0
+210,162,Sweden,Norway,2001,sugar_beet,39.0
+210,162,Sweden,Norway,2002,sugar_beet,24.0
+210,162,Sweden,Norway,2003,sugar_beet,42.0
+210,162,Sweden,Norway,2004,sugar_beet,20.0
+210,162,Sweden,Norway,2005,sugar_beet,21.0
+210,162,Sweden,Norway,2006,sugar_beet,19.0
+210,162,Sweden,Norway,2007,sugar_beet,46.0
+210,162,Sweden,Norway,2008,sugar_beet,23.0
+210,162,Sweden,Norway,2009,sugar_beet,22.0
+210,162,Sweden,Norway,2010,sugar_beet,22.0
+210,162,Sweden,Norway,2011,sugar_beet,16.0
+210,162,Sweden,Norway,2012,sugar_beet,23.0
+210,162,Sweden,Norway,2013,sugar_beet,14.0
+210,162,Sweden,Norway,2014,sugar_beet,12.0
+210,162,Sweden,Norway,2015,sugar_beet,7.9
+210,162,Sweden,Norway,2016,sugar_beet,3.53
+210,162,Sweden,Norway,2017,sugar_beet,3.54
+210,162,Sweden,Norway,2018,sugar_beet,3.0
+210,162,Sweden,Norway,2019,sugar_beet,1.62
+210,162,Sweden,Norway,2020,sugar_beet,3.65
+210,162,Sweden,Norway,2021,sugar_beet,0.59
+210,162,Sweden,Norway,2022,sugar_beet,1.06
+210,162,Sweden,Norway,2023,sugar_beet,0.01
+173,179,Poland,Qatar,2021,sugar_beet,0.01
+106,68,Italy,France,1990,sugar_beet,54.0
+106,68,Italy,France,1991,sugar_beet,97.0
+106,68,Italy,France,1992,sugar_beet,14.0
+106,68,Italy,France,2011,sugar_beet,5.0
+106,68,Italy,France,2014,sugar_beet,0.24
+106,68,Italy,France,2015,sugar_beet,13.71
+106,68,Italy,France,2016,sugar_beet,0.16
+106,68,Italy,France,2017,sugar_beet,1.14
+106,68,Italy,France,2020,sugar_beet,6.79
+225,249,United Arab Emirates,Yemen,2007,sugar_beet,1.0
+225,249,United Arab Emirates,Yemen,2020,sugar_beet,125.63
+225,249,United Arab Emirates,Yemen,2022,sugar_beet,0.16
+225,251,United Arab Emirates,Zambia,2022,sugar_beet,0.98
+100,173,India,Poland,2001,sugar_beet,12.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2011,sugar_beet,11.0
+21,223,Brazil,Türkiye,2020,sugar_beet,0.02
+21,223,Brazil,Türkiye,2021,sugar_beet,0.05
+21,223,Brazil,Türkiye,2022,sugar_beet,0.01
+167,210,Czechia,Sweden,1996,sugar_beet,2.0
+167,210,Czechia,Sweden,1997,sugar_beet,3.0
+167,210,Czechia,Sweden,1998,sugar_beet,3.0
+167,210,Czechia,Sweden,1999,sugar_beet,4.0
+167,210,Czechia,Sweden,2000,sugar_beet,2.0
+167,210,Czechia,Sweden,2001,sugar_beet,2.0
+167,210,Czechia,Sweden,2002,sugar_beet,3.0
+167,210,Czechia,Sweden,2004,sugar_beet,14.0
+167,210,Czechia,Sweden,2006,sugar_beet,1.0
+167,210,Czechia,Sweden,2007,sugar_beet,1.0
+79,67,Germany,Finland,2016,sugar_beet,0.1
+97,230,Hungary,Ukraine,2002,sugar_beet,2.0
+21,225,Brazil,United Arab Emirates,2019,sugar_beet,0.02
+21,225,Brazil,United Arab Emirates,2023,sugar_beet,0.03
+231,60,United States of America,El Salvador,1997,sugar_beet,164.0
+223,221,Türkiye,Oman,2021,sugar_beet,0.01
+223,221,Türkiye,Oman,2022,sugar_beet,0.03
+167,211,Czechia,Switzerland,2017,sugar_beet,102.54
+229,84,United Kingdom of Great Britain and Northern Ireland,Greece,2013,sugar_beet,23.0
+41,156,"China, mainland",New Zealand,2022,sugar_beet,0.01
+200,168,Singapore,Papua New Guinea,2010,sugar_beet,33.0
+203,97,Spain,Hungary,2016,sugar_beet,0.01
+54,162,Denmark,Norway,1987,sugar_beet,32.0
+54,162,Denmark,Norway,1991,sugar_beet,29.0
+54,162,Denmark,Norway,1993,sugar_beet,32.0
+54,162,Denmark,Norway,1998,sugar_beet,13.0
+54,162,Denmark,Norway,2005,sugar_beet,21.0
+54,162,Denmark,Norway,2019,sugar_beet,49.56
+54,162,Denmark,Norway,2021,sugar_beet,49.32
+54,162,Denmark,Norway,2022,sugar_beet,0.01
+229,86,United Kingdom of Great Britain and Northern Ireland,Grenada,2016,sugar_beet,0.01
+211,162,Switzerland,Norway,2023,sugar_beet,4.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,0.03
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,0.18
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,0.09
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.11
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,0.1
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.06
+202,117,South Africa,Republic of Korea,2011,sugar_beet,2067.0
+202,117,South Africa,Republic of Korea,2012,sugar_beet,41.0
+100,185,India,Russian Federation,2016,sugar_beet,2.0
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,0.04
+97,229,Hungary,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.08
+255,256,Belgium,Luxembourg,2015,sugar_beet,2.05
+255,256,Belgium,Luxembourg,2016,sugar_beet,0.8
+255,256,Belgium,Luxembourg,2017,sugar_beet,1.26
+150,63,Netherlands (Kingdom of the),Estonia,2014,sugar_beet,0.32
+150,63,Netherlands (Kingdom of the),Estonia,2017,sugar_beet,3.35
+150,63,Netherlands (Kingdom of the),Estonia,2018,sugar_beet,0.62
+150,63,Netherlands (Kingdom of the),Estonia,2019,sugar_beet,0.09
+150,63,Netherlands (Kingdom of the),Estonia,2020,sugar_beet,0.02
+150,63,Netherlands (Kingdom of the),Estonia,2021,sugar_beet,0.27
+150,63,Netherlands (Kingdom of the),Estonia,2022,sugar_beet,0.24
+150,63,Netherlands (Kingdom of the),Estonia,2023,sugar_beet,0.15
+202,185,South Africa,Russian Federation,2011,sugar_beet,9.0
+231,67,United States of America,Finland,1990,sugar_beet,768.0
+231,67,United States of America,Finland,1991,sugar_beet,4420.0
+231,67,United States of America,Finland,1992,sugar_beet,4032.0
+231,67,United States of America,Finland,1993,sugar_beet,1731.0
+200,171,Singapore,Philippines,2017,sugar_beet,0.1
+223,173,Türkiye,Poland,2022,sugar_beet,0.01
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2005,sugar_beet,525.0
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2006,sugar_beet,497.0
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2007,sugar_beet,707.0
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,0.09
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.02
+100,194,India,Saudi Arabia,2007,sugar_beet,2.0
+106,79,Italy,Germany,1992,sugar_beet,22.0
+106,79,Italy,Germany,2012,sugar_beet,1.0
+106,79,Italy,Germany,2014,sugar_beet,3.1
+106,79,Italy,Germany,2017,sugar_beet,0.04
+106,79,Italy,Germany,2022,sugar_beet,0.01
+106,79,Italy,Germany,2023,sugar_beet,0.01
+97,248,Hungary,Yugoslav SFR,1987,sugar_beet,96141.0
+97,248,Hungary,Yugoslav SFR,1988,sugar_beet,99627.0
+97,248,Hungary,Yugoslav SFR,1991,sugar_beet,542753.0
+21,231,Brazil,United States of America,2020,sugar_beet,0.04
+21,231,Brazil,United States of America,2023,sugar_beet,0.02
+131,229,Malaysia,United Kingdom of Great Britain and Northern Ireland,2006,sugar_beet,1.0
+100,196,India,Seychelles,2016,sugar_beet,0.01
+10,200,Australia,Singapore,2021,sugar_beet,0.01
+79,68,Germany,France,1991,sugar_beet,26.0
+79,68,Germany,France,1992,sugar_beet,112.0
+79,68,Germany,France,1995,sugar_beet,20.0
+79,68,Germany,France,1998,sugar_beet,24.0
+79,68,Germany,France,2013,sugar_beet,1.0
+79,68,Germany,France,2014,sugar_beet,1.5
+79,68,Germany,France,2015,sugar_beet,6.2
+223,179,Türkiye,Qatar,2021,sugar_beet,0.04
+223,179,Türkiye,Qatar,2022,sugar_beet,0.02
+223,179,Türkiye,Qatar,2023,sugar_beet,0.01
+11,173,Austria,Poland,2009,sugar_beet,6.0
+11,173,Austria,Poland,2010,sugar_beet,6.0
+11,173,Austria,Poland,2022,sugar_beet,2.04
+68,70,France,French Polynesia,2014,sugar_beet,0.1
+68,70,France,French Polynesia,2023,sugar_beet,0.89
+173,199,Poland,Slovakia,2019,sugar_beet,1.0
+54,173,Denmark,Poland,1990,sugar_beet,3.0
+54,173,Denmark,Poland,2001,sugar_beet,1.0
+54,173,Denmark,Poland,2018,sugar_beet,0.05
+54,173,Denmark,Poland,2019,sugar_beet,0.18
+54,173,Denmark,Poland,2020,sugar_beet,0.57
+202,196,South Africa,Seychelles,2005,sugar_beet,18.0
+41,171,"China, mainland",Philippines,1997,sugar_beet,69.0
+41,173,"China, mainland",Poland,2011,sugar_beet,36.0
+21,234,Brazil,Uruguay,2019,sugar_beet,0.01
+68,74,France,Gabon,2005,sugar_beet,1.0
+150,67,Netherlands (Kingdom of the),Finland,2018,sugar_beet,0.62
+150,67,Netherlands (Kingdom of the),Finland,2019,sugar_beet,0.27
+150,67,Netherlands (Kingdom of the),Finland,2021,sugar_beet,0.06
+150,67,Netherlands (Kingdom of the),Finland,2022,sugar_beet,2.31
+150,67,Netherlands (Kingdom of the),Finland,2023,sugar_beet,0.32
+100,200,India,Singapore,2007,sugar_beet,2.0
+100,200,India,Singapore,2008,sugar_beet,1.0
+100,200,India,Singapore,2009,sugar_beet,1.0
+100,200,India,Singapore,2010,sugar_beet,1.0
+100,200,India,Singapore,2020,sugar_beet,0.02
+100,200,India,Singapore,2021,sugar_beet,0.02
+223,183,Türkiye,Romania,2021,sugar_beet,0.05
+223,183,Türkiye,Romania,2022,sugar_beet,0.01
+229,100,United Kingdom of Great Britain and Northern Ireland,India,2011,sugar_beet,170.0
+21,237,Brazil,Viet Nam,2023,sugar_beet,0.02
+200,196,Singapore,Seychelles,2004,sugar_beet,1.0
+106,84,Italy,Greece,1988,sugar_beet,3.0
+106,84,Italy,Greece,1989,sugar_beet,10.0
+106,84,Italy,Greece,2010,sugar_beet,1.0
+106,84,Italy,Greece,2014,sugar_beet,0.3
+106,84,Italy,Greece,2015,sugar_beet,0.3
+106,84,Italy,Greece,2016,sugar_beet,0.21
+106,84,Italy,Greece,2017,sugar_beet,0.34
+106,84,Italy,Greece,2018,sugar_beet,0.12
+106,84,Italy,Greece,2019,sugar_beet,0.09
+106,84,Italy,Greece,2020,sugar_beet,0.12
+106,84,Italy,Greece,2021,sugar_beet,0.24
+106,84,Italy,Greece,2022,sugar_beet,0.96
+106,84,Italy,Greece,2023,sugar_beet,0.24
+173,203,Poland,Spain,2020,sugar_beet,4.0
+33,162,Canada,Norway,2017,sugar_beet,0.36
+41,117,"China, mainland",Republic of Korea,1999,sugar_beet,20.0
+41,117,"China, mainland",Republic of Korea,2002,sugar_beet,22.0
+41,117,"China, mainland",Republic of Korea,2018,sugar_beet,2.0
+41,117,"China, mainland",Republic of Korea,2020,sugar_beet,2.0
+41,117,"China, mainland",Republic of Korea,2022,sugar_beet,1.0
+211,185,Switzerland,Russian Federation,2021,sugar_beet,0.01
+223,194,Türkiye,Saudi Arabia,1986,sugar_beet,5.0
+223,194,Türkiye,Saudi Arabia,2000,sugar_beet,28.0
+223,194,Türkiye,Saudi Arabia,2021,sugar_beet,0.34
+223,194,Türkiye,Saudi Arabia,2022,sugar_beet,0.01
+210,211,Sweden,Switzerland,2022,sugar_beet,0.01
+173,210,Poland,Sweden,2014,sugar_beet,576.0
+255,150,Belgium,Netherlands (Kingdom of the),2000,sugar_beet,697.0
+255,150,Belgium,Netherlands (Kingdom of the),2001,sugar_beet,1484.0
+255,150,Belgium,Netherlands (Kingdom of the),2002,sugar_beet,1464.0
+255,150,Belgium,Netherlands (Kingdom of the),2003,sugar_beet,1444.0
+255,150,Belgium,Netherlands (Kingdom of the),2004,sugar_beet,1277.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,sugar_beet,4929.0
+255,150,Belgium,Netherlands (Kingdom of the),2006,sugar_beet,11805.0
+255,150,Belgium,Netherlands (Kingdom of the),2007,sugar_beet,10373.0
+255,150,Belgium,Netherlands (Kingdom of the),2008,sugar_beet,480.0
+255,150,Belgium,Netherlands (Kingdom of the),2010,sugar_beet,158.0
+255,150,Belgium,Netherlands (Kingdom of the),2011,sugar_beet,626.0
+255,150,Belgium,Netherlands (Kingdom of the),2012,sugar_beet,67596.0
+255,150,Belgium,Netherlands (Kingdom of the),2013,sugar_beet,30247.0
+255,150,Belgium,Netherlands (Kingdom of the),2014,sugar_beet,27003.2
+255,150,Belgium,Netherlands (Kingdom of the),2015,sugar_beet,38847.8
+255,150,Belgium,Netherlands (Kingdom of the),2016,sugar_beet,13838.8
+255,150,Belgium,Netherlands (Kingdom of the),2017,sugar_beet,12566.98
+255,150,Belgium,Netherlands (Kingdom of the),2018,sugar_beet,86601.55
+255,150,Belgium,Netherlands (Kingdom of the),2019,sugar_beet,136698.72
+255,150,Belgium,Netherlands (Kingdom of the),2020,sugar_beet,142034.96
+255,150,Belgium,Netherlands (Kingdom of the),2021,sugar_beet,180864.25
+255,150,Belgium,Netherlands (Kingdom of the),2022,sugar_beet,52915.52
+255,150,Belgium,Netherlands (Kingdom of the),2023,sugar_beet,121627.33
+100,38,India,Sri Lanka,2007,sugar_beet,1.0
+100,38,India,Sri Lanka,2008,sugar_beet,2.0
+100,38,India,Sri Lanka,2009,sugar_beet,3.0
+41,185,"China, mainland",Russian Federation,2003,sugar_beet,51.0
+41,185,"China, mainland",Russian Federation,2004,sugar_beet,139.0
+41,185,"China, mainland",Russian Federation,2005,sugar_beet,276.0
+41,185,"China, mainland",Russian Federation,2006,sugar_beet,318.0
+41,185,"China, mainland",Russian Federation,2007,sugar_beet,759.0
+41,185,"China, mainland",Russian Federation,2008,sugar_beet,989.0
+41,185,"China, mainland",Russian Federation,2009,sugar_beet,815.0
+41,185,"China, mainland",Russian Federation,2010,sugar_beet,989.0
+41,185,"China, mainland",Russian Federation,2011,sugar_beet,2191.0
+41,185,"China, mainland",Russian Federation,2012,sugar_beet,903.0
+41,185,"China, mainland",Russian Federation,2013,sugar_beet,2712.0
+41,185,"China, mainland",Russian Federation,2014,sugar_beet,2694.07
+41,185,"China, mainland",Russian Federation,2015,sugar_beet,2566.23
+41,185,"China, mainland",Russian Federation,2016,sugar_beet,1816.52
+41,185,"China, mainland",Russian Federation,2017,sugar_beet,1944.44
+41,185,"China, mainland",Russian Federation,2018,sugar_beet,2374.92
+41,185,"China, mainland",Russian Federation,2019,sugar_beet,2087.0
+41,185,"China, mainland",Russian Federation,2020,sugar_beet,748.04
+41,185,"China, mainland",Russian Federation,2021,sugar_beet,2788.04
+41,185,"China, mainland",Russian Federation,2022,sugar_beet,828.63
+41,185,"China, mainland",Russian Federation,2023,sugar_beet,407.28
+203,106,Spain,Italy,2015,sugar_beet,12.0
+203,106,Spain,Italy,2016,sugar_beet,48.03
+173,211,Poland,Switzerland,2014,sugar_beet,0.5
+223,200,Türkiye,Singapore,2021,sugar_beet,0.02
+200,38,Singapore,Sri Lanka,2011,sugar_beet,1.0
+68,79,France,Germany,1991,sugar_beet,247.0
+68,79,France,Germany,1992,sugar_beet,312.0
+68,79,France,Germany,1993,sugar_beet,5.0
+68,79,France,Germany,1994,sugar_beet,43.0
+68,79,France,Germany,1999,sugar_beet,6.0
+68,79,France,Germany,2001,sugar_beet,9.0
+68,79,France,Germany,2008,sugar_beet,15.0
+68,79,France,Germany,2019,sugar_beet,0.55
+68,79,France,Germany,2022,sugar_beet,7.19
+150,68,Netherlands (Kingdom of the),France,1987,sugar_beet,19.0
+150,68,Netherlands (Kingdom of the),France,1988,sugar_beet,37.0
+150,68,Netherlands (Kingdom of the),France,1989,sugar_beet,82.0
+150,68,Netherlands (Kingdom of the),France,1990,sugar_beet,42.0
+150,68,Netherlands (Kingdom of the),France,1991,sugar_beet,43.0
+150,68,Netherlands (Kingdom of the),France,1992,sugar_beet,73.0
+150,68,Netherlands (Kingdom of the),France,1998,sugar_beet,1.0
+150,68,Netherlands (Kingdom of the),France,2001,sugar_beet,6.0
+150,68,Netherlands (Kingdom of the),France,2002,sugar_beet,1.0
+150,68,Netherlands (Kingdom of the),France,2009,sugar_beet,980.0
+150,68,Netherlands (Kingdom of the),France,2010,sugar_beet,960.0
+150,68,Netherlands (Kingdom of the),France,2014,sugar_beet,0.96
+150,68,Netherlands (Kingdom of the),France,2017,sugar_beet,0.35
+150,68,Netherlands (Kingdom of the),France,2018,sugar_beet,3.48
+150,68,Netherlands (Kingdom of the),France,2019,sugar_beet,440.24
+150,68,Netherlands (Kingdom of the),France,2020,sugar_beet,91.75
+150,68,Netherlands (Kingdom of the),France,2021,sugar_beet,3.83
+150,68,Netherlands (Kingdom of the),France,2022,sugar_beet,110.12
+150,68,Netherlands (Kingdom of the),France,2023,sugar_beet,323.85
+211,199,Switzerland,Slovakia,2021,sugar_beet,0.75
+203,109,Spain,Jamaica,2023,sugar_beet,1.89
+10,216,Australia,Thailand,2018,sugar_beet,0.04
+106,97,Italy,Hungary,2021,sugar_beet,0.03
+223,198,Türkiye,Slovenia,2021,sugar_beet,0.01
+100,211,India,Switzerland,2023,sugar_beet,0.03
+203,110,Spain,Japan,2015,sugar_beet,848.8
+203,110,Spain,Japan,2016,sugar_beet,219.71
+202,226,South Africa,Uganda,2021,sugar_beet,0.23
+210,223,Sweden,Türkiye,2011,sugar_beet,30.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1986,sugar_beet,5.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1987,sugar_beet,36.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,sugar_beet,32.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1991,sugar_beet,52.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1992,sugar_beet,268.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1994,sugar_beet,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1995,sugar_beet,30.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1996,sugar_beet,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1997,sugar_beet,8.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1999,sugar_beet,79.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2000,sugar_beet,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2001,sugar_beet,404.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2002,sugar_beet,370.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2003,sugar_beet,44.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2004,sugar_beet,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2005,sugar_beet,3.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2009,sugar_beet,8.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2010,sugar_beet,24.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2011,sugar_beet,10.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2013,sugar_beet,111.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2014,sugar_beet,0.2
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2015,sugar_beet,85.07
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2016,sugar_beet,283.17
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2017,sugar_beet,0.12
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,sugar_beet,4.66
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2019,sugar_beet,0.1
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2020,sugar_beet,0.12
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2021,sugar_beet,50.07
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2022,sugar_beet,417.55
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2023,sugar_beet,256.72
+106,100,Italy,India,2012,sugar_beet,5.0
+11,199,Austria,Slovakia,2009,sugar_beet,250293.0
+11,199,Austria,Slovakia,2010,sugar_beet,3164.0
+11,199,Austria,Slovakia,2011,sugar_beet,9613.0
+41,200,"China, mainland",Singapore,1996,sugar_beet,11.0
+41,200,"China, mainland",Singapore,2017,sugar_beet,8.0
+223,203,Türkiye,Spain,1997,sugar_beet,3387.0
+223,203,Türkiye,Spain,2021,sugar_beet,0.01
+223,203,Türkiye,Spain,2022,sugar_beet,0.03
+173,230,Poland,Ukraine,2005,sugar_beet,4969.0
+173,230,Poland,Ukraine,2006,sugar_beet,238.0
+54,203,Denmark,Spain,2010,sugar_beet,1.0
+54,203,Denmark,Spain,2019,sugar_beet,3500.0
+54,203,Denmark,Spain,2022,sugar_beet,1.41
+54,203,Denmark,Spain,2023,sugar_beet,0.65
+203,118,Spain,Kuwait,2016,sugar_beet,21.17
+203,118,Spain,Kuwait,2017,sugar_beet,21.17
+203,118,Spain,Kuwait,2019,sugar_beet,14.98
+68,84,France,Greece,1991,sugar_beet,1.0
+68,84,France,Greece,2007,sugar_beet,2.0
+211,203,Switzerland,Spain,2018,sugar_beet,72.0
+211,203,Switzerland,Spain,2022,sugar_beet,0.95
+211,203,Switzerland,Spain,2023,sugar_beet,4.13
+41,202,"China, mainland",South Africa,1997,sugar_beet,16.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,2009,sugar_beet,3.0
+223,210,Türkiye,Sweden,2023,sugar_beet,0.01
+11,198,Austria,Slovenia,2006,sugar_beet,2573.0
+11,198,Austria,Slovenia,2014,sugar_beet,0.5
+202,229,South Africa,United Kingdom of Great Britain and Northern Ireland,2011,sugar_beet,1.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.01
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.01
+41,203,"China, mainland",Spain,2023,sugar_beet,1.2
+106,104,Italy,Ireland,2014,sugar_beet,0.02
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2015,sugar_beet,244.2
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2016,sugar_beet,45.67
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,83.7
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,2.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,2.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,1.03
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.01
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.05
+223,211,Türkiye,Switzerland,2021,sugar_beet,0.05
+211,210,Switzerland,Sweden,2023,sugar_beet,3.84
+202,215,South Africa,United Republic of Tanzania,2014,sugar_beet,0.03
+202,215,South Africa,United Republic of Tanzania,2023,sugar_beet,0.03
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2005,sugar_beet,1.0
+203,126,Spain,Lithuania,2017,sugar_beet,0.1
+173,231,Poland,United States of America,2013,sugar_beet,2.0
+173,231,Poland,United States of America,2014,sugar_beet,1.5
+203,256,Spain,Luxembourg,2021,sugar_beet,0.8
+100,225,India,United Arab Emirates,2012,sugar_beet,4.0
+100,225,India,United Arab Emirates,2020,sugar_beet,6.24
+100,225,India,United Arab Emirates,2022,sugar_beet,80.82
+150,79,Netherlands (Kingdom of the),Germany,1991,sugar_beet,47.0
+150,79,Netherlands (Kingdom of the),Germany,1992,sugar_beet,75.0
+150,79,Netherlands (Kingdom of the),Germany,1993,sugar_beet,16.0
+150,79,Netherlands (Kingdom of the),Germany,1994,sugar_beet,5.0
+150,79,Netherlands (Kingdom of the),Germany,1995,sugar_beet,5.0
+150,79,Netherlands (Kingdom of the),Germany,1996,sugar_beet,10.0
+150,79,Netherlands (Kingdom of the),Germany,1997,sugar_beet,3.0
+150,79,Netherlands (Kingdom of the),Germany,1999,sugar_beet,1.0
+150,79,Netherlands (Kingdom of the),Germany,2000,sugar_beet,400.0
+150,79,Netherlands (Kingdom of the),Germany,2001,sugar_beet,1.0
+150,79,Netherlands (Kingdom of the),Germany,2003,sugar_beet,11.0
+150,79,Netherlands (Kingdom of the),Germany,2005,sugar_beet,98501.0
+150,79,Netherlands (Kingdom of the),Germany,2006,sugar_beet,153009.0
+150,79,Netherlands (Kingdom of the),Germany,2007,sugar_beet,51423.0
+150,79,Netherlands (Kingdom of the),Germany,2008,sugar_beet,413650.0
+150,79,Netherlands (Kingdom of the),Germany,2009,sugar_beet,306401.0
+150,79,Netherlands (Kingdom of the),Germany,2010,sugar_beet,255049.0
+150,79,Netherlands (Kingdom of the),Germany,2011,sugar_beet,264906.0
+150,79,Netherlands (Kingdom of the),Germany,2012,sugar_beet,279974.0
+150,79,Netherlands (Kingdom of the),Germany,2013,sugar_beet,220095.0
+150,79,Netherlands (Kingdom of the),Germany,2014,sugar_beet,278321.6
+150,79,Netherlands (Kingdom of the),Germany,2015,sugar_beet,168672.5
+150,79,Netherlands (Kingdom of the),Germany,2016,sugar_beet,342.51
+150,79,Netherlands (Kingdom of the),Germany,2017,sugar_beet,343.21
+150,79,Netherlands (Kingdom of the),Germany,2018,sugar_beet,458.2
+150,79,Netherlands (Kingdom of the),Germany,2019,sugar_beet,575.89
+150,79,Netherlands (Kingdom of the),Germany,2020,sugar_beet,590.07
+150,79,Netherlands (Kingdom of the),Germany,2021,sugar_beet,333.95
+150,79,Netherlands (Kingdom of the),Germany,2022,sugar_beet,2164.08
+150,79,Netherlands (Kingdom of the),Germany,2023,sugar_beet,2242.76
+231,95,United States of America,Honduras,2003,sugar_beet,258.0
+231,95,United States of America,Honduras,2004,sugar_beet,212.0
+231,95,United States of America,Honduras,2005,sugar_beet,591.0
+231,95,United States of America,Honduras,2014,sugar_beet,44.0
+54,210,Denmark,Sweden,1986,sugar_beet,26.0
+54,210,Denmark,Sweden,2015,sugar_beet,0.01
+54,210,Denmark,Sweden,2018,sugar_beet,0.16
+54,210,Denmark,Sweden,2020,sugar_beet,9.04
+54,210,Denmark,Sweden,2021,sugar_beet,2.04
+54,210,Denmark,Sweden,2022,sugar_beet,6279.67
+54,210,Denmark,Sweden,2023,sugar_beet,4844.14
+223,216,Türkiye,Thailand,2022,sugar_beet,0.01
+11,203,Austria,Spain,2010,sugar_beet,1.0
+11,203,Austria,Spain,2017,sugar_beet,0.4
+10,231,Australia,United States of America,2018,sugar_beet,0.07
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1988,sugar_beet,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1990,sugar_beet,36.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1991,sugar_beet,12.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1994,sugar_beet,5.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1996,sugar_beet,3.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1997,sugar_beet,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2000,sugar_beet,3.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2013,sugar_beet,4.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2014,sugar_beet,1.7
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2015,sugar_beet,0.66
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2016,sugar_beet,0.01
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2017,sugar_beet,0.02
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2018,sugar_beet,0.02
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2019,sugar_beet,0.02
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2020,sugar_beet,0.07
+202,231,South Africa,United States of America,2005,sugar_beet,2.0
+202,231,South Africa,United States of America,2022,sugar_beet,0.01
+54,211,Denmark,Switzerland,1986,sugar_beet,2.0
+68,97,France,Hungary,2020,sugar_beet,1.25
+216,231,Thailand,United States of America,2002,sugar_beet,2.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2014,sugar_beet,0.5
+100,229,India,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,0.03
+11,210,Austria,Sweden,1986,sugar_beet,8.0
+11,210,Austria,Sweden,1989,sugar_beet,8.0
+11,210,Austria,Sweden,1990,sugar_beet,11.0
+11,210,Austria,Sweden,1991,sugar_beet,12.0
+11,210,Austria,Sweden,1992,sugar_beet,12.0
+255,183,Belgium,Romania,2023,sugar_beet,0.52
+203,134,Spain,Malta,2013,sugar_beet,1.0
+203,134,Spain,Malta,2014,sugar_beet,0.2
+203,134,Spain,Malta,2016,sugar_beet,0.05
+203,134,Spain,Malta,2018,sugar_beet,0.1
+203,134,Spain,Malta,2020,sugar_beet,0.1
+203,134,Spain,Malta,2023,sugar_beet,0.02
+41,216,"China, mainland",Thailand,2002,sugar_beet,1500.0
+203,136,Spain,Mauritania,2018,sugar_beet,0.41
+202,251,South Africa,Zambia,2006,sugar_beet,1.0
+202,251,South Africa,Zambia,2016,sugar_beet,0.08
+68,100,France,India,2006,sugar_beet,1.0
+231,100,United States of America,India,2012,sugar_beet,168.0
+200,231,Singapore,United States of America,2021,sugar_beet,0.12
+223,225,Türkiye,United Arab Emirates,1986,sugar_beet,1.0
+223,225,Türkiye,United Arab Emirates,2021,sugar_beet,0.11
+223,225,Türkiye,United Arab Emirates,2022,sugar_beet,0.01
+200,155,Singapore,Vanuatu,2010,sugar_beet,51.0
+200,155,Singapore,Vanuatu,2011,sugar_beet,9.0
+150,84,Netherlands (Kingdom of the),Greece,2017,sugar_beet,0.2
+150,84,Netherlands (Kingdom of the),Greece,2018,sugar_beet,0.74
+150,84,Netherlands (Kingdom of the),Greece,2019,sugar_beet,1.34
+150,84,Netherlands (Kingdom of the),Greece,2020,sugar_beet,0.03
+150,84,Netherlands (Kingdom of the),Greece,2021,sugar_beet,0.6
+150,84,Netherlands (Kingdom of the),Greece,2022,sugar_beet,2.29
+150,84,Netherlands (Kingdom of the),Greece,2023,sugar_beet,1.02
+11,211,Austria,Switzerland,1987,sugar_beet,24.0
+11,211,Austria,Switzerland,2004,sugar_beet,24.0
+11,211,Austria,Switzerland,2016,sugar_beet,33650.0
+11,211,Austria,Switzerland,2017,sugar_beet,17250.0
+11,211,Austria,Switzerland,2019,sugar_beet,51.66
+100,231,India,United States of America,2000,sugar_beet,2.0
+100,231,India,United States of America,2014,sugar_beet,0.15
+106,121,Italy,Lebanon,2008,sugar_beet,1.0
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,2014,sugar_beet,0.64
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,3.69
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,0.03
+223,229,Türkiye,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.02
+41,225,"China, mainland",United Arab Emirates,2013,sugar_beet,1.0
+202,181,South Africa,Zimbabwe,2003,sugar_beet,115.0
+202,181,South Africa,Zimbabwe,2008,sugar_beet,12.0
+202,181,South Africa,Zimbabwe,2009,sugar_beet,36.0
+202,181,South Africa,Zimbabwe,2014,sugar_beet,28.8
+202,181,South Africa,Zimbabwe,2016,sugar_beet,0.05
+202,181,South Africa,Zimbabwe,2018,sugar_beet,0.3
+202,181,South Africa,Zimbabwe,2020,sugar_beet,0.11
+202,181,South Africa,Zimbabwe,2022,sugar_beet,0.01
+229,118,United Kingdom of Great Britain and Northern Ireland,Kuwait,1999,sugar_beet,39.0
+203,143,Spain,Morocco,2016,sugar_beet,23.64
+203,143,Spain,Morocco,2023,sugar_beet,5.0
+231,104,United States of America,Ireland,1987,sugar_beet,4189.0
+231,104,United States of America,Ireland,1988,sugar_beet,5199.0
+223,231,Türkiye,United States of America,2021,sugar_beet,0.31
+223,231,Türkiye,United States of America,2022,sugar_beet,0.17
+223,231,Türkiye,United States of America,2023,sugar_beet,0.26
+68,104,France,Ireland,2021,sugar_beet,0.55
+223,235,Türkiye,Uzbekistan,2022,sugar_beet,0.92
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2014,sugar_beet,2.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2015,sugar_beet,2.1
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2016,sugar_beet,6.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,10.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,8.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,12.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,9.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,10.02
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,14.4
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,9.51
+223,236,Türkiye,Venezuela (Bolivarian Republic of),2000,sugar_beet,6.0
+106,256,Italy,Luxembourg,2023,sugar_beet,0.01
+229,124,United Kingdom of Great Britain and Northern Ireland,Libya,1989,sugar_beet,1.0
+79,106,Germany,Italy,1991,sugar_beet,157.0
+79,106,Germany,Italy,1992,sugar_beet,94.0
+79,106,Germany,Italy,1993,sugar_beet,113.0
+79,106,Germany,Italy,1994,sugar_beet,91.0
+79,106,Germany,Italy,1995,sugar_beet,95.0
+79,106,Germany,Italy,1996,sugar_beet,73.0
+79,106,Germany,Italy,1999,sugar_beet,46.0
+79,106,Germany,Italy,2014,sugar_beet,30.8
+231,105,United States of America,Israel,2002,sugar_beet,111.0
+106,131,Italy,Malaysia,2013,sugar_beet,5.0
+33,220,Canada,Trinidad and Tobago,2006,sugar_beet,4.0
+33,220,Canada,Trinidad and Tobago,2008,sugar_beet,20.0
+33,220,Canada,Trinidad and Tobago,2019,sugar_beet,75.25
+33,220,Canada,Trinidad and Tobago,2020,sugar_beet,132.27
+33,220,Canada,Trinidad and Tobago,2021,sugar_beet,155.67
+33,220,Canada,Trinidad and Tobago,2022,sugar_beet,230.18
+33,220,Canada,Trinidad and Tobago,2023,sugar_beet,86.14
+150,97,Netherlands (Kingdom of the),Hungary,2014,sugar_beet,2.57
+150,97,Netherlands (Kingdom of the),Hungary,2015,sugar_beet,0.45
+150,97,Netherlands (Kingdom of the),Hungary,2017,sugar_beet,0.34
+150,97,Netherlands (Kingdom of the),Hungary,2018,sugar_beet,0.55
+150,97,Netherlands (Kingdom of the),Hungary,2019,sugar_beet,0.32
+150,97,Netherlands (Kingdom of the),Hungary,2020,sugar_beet,0.16
+150,97,Netherlands (Kingdom of the),Hungary,2021,sugar_beet,0.31
+150,97,Netherlands (Kingdom of the),Hungary,2022,sugar_beet,1.44
+150,97,Netherlands (Kingdom of the),Hungary,2023,sugar_beet,0.68
+41,231,"China, mainland",United States of America,1999,sugar_beet,5.0
+41,231,"China, mainland",United States of America,2001,sugar_beet,2.0
+41,231,"China, mainland",United States of America,2004,sugar_beet,1.0
+41,231,"China, mainland",United States of America,2005,sugar_beet,20.0
+41,231,"China, mainland",United States of America,2009,sugar_beet,4.0
+41,231,"China, mainland",United States of America,2010,sugar_beet,5.0
+41,231,"China, mainland",United States of America,2011,sugar_beet,1.0
+41,231,"China, mainland",United States of America,2012,sugar_beet,19.0
+41,231,"China, mainland",United States of America,2013,sugar_beet,24.0
+41,231,"China, mainland",United States of America,2014,sugar_beet,2.6
+41,231,"China, mainland",United States of America,2017,sugar_beet,10.02
+41,231,"China, mainland",United States of America,2018,sugar_beet,23.4
+41,231,"China, mainland",United States of America,2019,sugar_beet,14.0
+41,231,"China, mainland",United States of America,2020,sugar_beet,21.94
+41,231,"China, mainland",United States of America,2021,sugar_beet,25.0
+41,231,"China, mainland",United States of America,2022,sugar_beet,22.0
+41,231,"China, mainland",United States of America,2023,sugar_beet,15.0
+203,150,Spain,Netherlands (Kingdom of the),2023,sugar_beet,4.37
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2013,sugar_beet,1.0
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2017,sugar_beet,61.71
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2018,sugar_beet,14.41
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2019,sugar_beet,6.75
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2020,sugar_beet,40.27
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,2023,sugar_beet,0.2
+106,134,Italy,Malta,2009,sugar_beet,1.0
+106,134,Italy,Malta,2010,sugar_beet,1.0
+106,134,Italy,Malta,2011,sugar_beet,1.0
+106,134,Italy,Malta,2014,sugar_beet,0.5
+106,134,Italy,Malta,2015,sugar_beet,2.3
+106,134,Italy,Malta,2016,sugar_beet,0.38
+106,134,Italy,Malta,2017,sugar_beet,0.48
+106,134,Italy,Malta,2018,sugar_beet,0.48
+106,134,Italy,Malta,2019,sugar_beet,4.66
+106,134,Italy,Malta,2020,sugar_beet,0.01
+106,134,Italy,Malta,2022,sugar_beet,2.22
+106,134,Italy,Malta,2023,sugar_beet,4.3
+150,99,Netherlands (Kingdom of the),Iceland,2016,sugar_beet,0.05
+41,237,"China, mainland",Viet Nam,2022,sugar_beet,17.92
+231,109,United States of America,Jamaica,1999,sugar_beet,1013.0
+231,109,United States of America,Jamaica,2013,sugar_beet,506.0
+68,106,France,Italy,1986,sugar_beet,734.0
+68,106,France,Italy,1987,sugar_beet,1172.0
+68,106,France,Italy,1988,sugar_beet,947.0
+68,106,France,Italy,1989,sugar_beet,135.0
+68,106,France,Italy,1991,sugar_beet,388.0
+68,106,France,Italy,1992,sugar_beet,83.0
+68,106,France,Italy,1994,sugar_beet,1.0
+68,106,France,Italy,1998,sugar_beet,11.0
+68,106,France,Italy,2001,sugar_beet,12.0
+68,106,France,Italy,2002,sugar_beet,74.0
+68,106,France,Italy,2013,sugar_beet,36.0
+68,106,France,Italy,2016,sugar_beet,0.4
+68,106,France,Italy,2017,sugar_beet,1.55
+68,106,France,Italy,2018,sugar_beet,1.55
+68,106,France,Italy,2020,sugar_beet,1.85
+68,106,France,Italy,2021,sugar_beet,1.2
+255,211,Belgium,Switzerland,2002,sugar_beet,36.0
+231,110,United States of America,Japan,1986,sugar_beet,2489.0
+231,110,United States of America,Japan,1989,sugar_beet,69.0
+231,110,United States of America,Japan,1996,sugar_beet,959.0
+231,110,United States of America,Japan,2001,sugar_beet,254.0
+231,110,United States of America,Japan,2003,sugar_beet,275.0
+231,110,United States of America,Japan,2007,sugar_beet,88.0
+231,110,United States of America,Japan,2008,sugar_beet,219.0
+231,110,United States of America,Japan,2009,sugar_beet,139.0
+231,110,United States of America,Japan,2010,sugar_beet,561.0
+231,110,United States of America,Japan,2011,sugar_beet,195.0
+231,110,United States of America,Japan,2013,sugar_beet,212.0
+68,110,France,Japan,1986,sugar_beet,1.0
+68,110,France,Japan,1991,sugar_beet,1.0
+68,110,France,Japan,2003,sugar_beet,6.0
+106,150,Italy,Netherlands (Kingdom of the),2009,sugar_beet,2.0
+106,150,Italy,Netherlands (Kingdom of the),2010,sugar_beet,3.0
+106,150,Italy,Netherlands (Kingdom of the),2011,sugar_beet,2.0
+106,150,Italy,Netherlands (Kingdom of the),2012,sugar_beet,1.0
+106,150,Italy,Netherlands (Kingdom of the),2014,sugar_beet,0.01
+106,150,Italy,Netherlands (Kingdom of the),2015,sugar_beet,0.6
+150,104,Netherlands (Kingdom of the),Ireland,2008,sugar_beet,10.0
+150,104,Netherlands (Kingdom of the),Ireland,2017,sugar_beet,0.26
+150,104,Netherlands (Kingdom of the),Ireland,2018,sugar_beet,0.39
+150,104,Netherlands (Kingdom of the),Ireland,2019,sugar_beet,0.18
+150,104,Netherlands (Kingdom of the),Ireland,2020,sugar_beet,0.23
+150,104,Netherlands (Kingdom of the),Ireland,2021,sugar_beet,0.14
+150,104,Netherlands (Kingdom of the),Ireland,2022,sugar_beet,8.93
+150,104,Netherlands (Kingdom of the),Ireland,2023,sugar_beet,2.98
+231,118,United States of America,Kuwait,2001,sugar_beet,61.0
+203,173,Spain,Poland,2014,sugar_beet,0.1
+203,173,Spain,Poland,2015,sugar_beet,0.01
+203,173,Spain,Poland,2017,sugar_beet,0.05
+203,173,Spain,Poland,2018,sugar_beet,0.01
+33,231,Canada,United States of America,1988,sugar_beet,91.0
+33,231,Canada,United States of America,1996,sugar_beet,5580.0
+33,231,Canada,United States of America,1997,sugar_beet,66075.0
+33,231,Canada,United States of America,2010,sugar_beet,251.0
+33,231,Canada,United States of America,2011,sugar_beet,194272.0
+33,231,Canada,United States of America,2012,sugar_beet,246934.0
+33,231,Canada,United States of America,2013,sugar_beet,63245.0
+33,231,Canada,United States of America,2015,sugar_beet,54720.0
+33,231,Canada,United States of America,2016,sugar_beet,59760.0
+33,231,Canada,United States of America,2021,sugar_beet,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1986,sugar_beet,72.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1993,sugar_beet,27.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2001,sugar_beet,20.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2006,sugar_beet,137.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2007,sugar_beet,794.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2011,sugar_beet,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2015,sugar_beet,0.08
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2016,sugar_beet,0.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2017,sugar_beet,0.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2018,sugar_beet,0.01
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2021,sugar_beet,5.0
+231,121,United States of America,Lebanon,2011,sugar_beet,49.0
+231,123,United States of America,Liberia,2000,sugar_beet,185.0
+79,256,Germany,Luxembourg,2014,sugar_beet,2.17
+79,256,Germany,Luxembourg,2017,sugar_beet,3.94
+79,256,Germany,Luxembourg,2018,sugar_beet,178.89
+79,256,Germany,Luxembourg,2019,sugar_beet,34.68
+79,256,Germany,Luxembourg,2020,sugar_beet,35.33
+79,256,Germany,Luxembourg,2021,sugar_beet,119.72
+79,256,Germany,Luxembourg,2022,sugar_beet,10.92
+79,256,Germany,Luxembourg,2023,sugar_beet,11.61
+203,174,Spain,Portugal,1996,sugar_beet,284.0
+203,174,Spain,Portugal,2003,sugar_beet,4.0
+203,174,Spain,Portugal,2009,sugar_beet,254.0
+203,174,Spain,Portugal,2010,sugar_beet,12.0
+203,174,Spain,Portugal,2011,sugar_beet,712.0
+203,174,Spain,Portugal,2012,sugar_beet,483.0
+203,174,Spain,Portugal,2013,sugar_beet,116.0
+203,174,Spain,Portugal,2014,sugar_beet,30.8
+203,174,Spain,Portugal,2015,sugar_beet,39.5
+203,174,Spain,Portugal,2016,sugar_beet,24.53
+203,174,Spain,Portugal,2017,sugar_beet,3.85
+203,174,Spain,Portugal,2018,sugar_beet,3.17
+203,174,Spain,Portugal,2019,sugar_beet,26.79
+203,174,Spain,Portugal,2020,sugar_beet,4.82
+203,174,Spain,Portugal,2021,sugar_beet,4.19
+203,174,Spain,Portugal,2022,sugar_beet,6.58
+203,174,Spain,Portugal,2023,sugar_beet,13.65
+255,231,Belgium,United States of America,2014,sugar_beet,577.4
+255,231,Belgium,United States of America,2015,sugar_beet,71.7
+150,106,Netherlands (Kingdom of the),Italy,1991,sugar_beet,3.0
+150,106,Netherlands (Kingdom of the),Italy,1992,sugar_beet,4.0
+150,106,Netherlands (Kingdom of the),Italy,2008,sugar_beet,460.0
+150,106,Netherlands (Kingdom of the),Italy,2018,sugar_beet,1.26
+150,106,Netherlands (Kingdom of the),Italy,2019,sugar_beet,1.33
+150,106,Netherlands (Kingdom of the),Italy,2020,sugar_beet,0.61
+150,106,Netherlands (Kingdom of the),Italy,2021,sugar_beet,1.68
+150,106,Netherlands (Kingdom of the),Italy,2022,sugar_beet,28.02
+150,106,Netherlands (Kingdom of the),Italy,2023,sugar_beet,3.63
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2000,sugar_beet,95.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1991,sugar_beet,18.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1992,sugar_beet,17.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1993,sugar_beet,39.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1995,sugar_beet,19.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1997,sugar_beet,19.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,1999,sugar_beet,38.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,2000,sugar_beet,41.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,2001,sugar_beet,37.0
+229,221,United Kingdom of Great Britain and Northern Ireland,Oman,2002,sugar_beet,38.0
+68,256,France,Luxembourg,2021,sugar_beet,0.11
+68,256,France,Luxembourg,2022,sugar_beet,0.13
+203,183,Spain,Romania,2022,sugar_beet,0.01
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,2013,sugar_beet,1.0
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,2017,sugar_beet,4.38
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,2018,sugar_beet,2.07
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,2019,sugar_beet,6.8
+150,110,Netherlands (Kingdom of the),Japan,1989,sugar_beet,1.0
+79,143,Germany,Morocco,2001,sugar_beet,10299.0
+79,143,Germany,Morocco,2002,sugar_beet,6000.0
+231,138,United States of America,Mexico,1988,sugar_beet,60.0
+231,138,United States of America,Mexico,1992,sugar_beet,127.0
+231,138,United States of America,Mexico,1995,sugar_beet,414.0
+231,138,United States of America,Mexico,1997,sugar_beet,500.0
+231,138,United States of America,Mexico,1998,sugar_beet,6380.0
+231,138,United States of America,Mexico,1999,sugar_beet,2596.0
+231,138,United States of America,Mexico,2007,sugar_beet,707.0
+231,138,United States of America,Mexico,2013,sugar_beet,183.0
+231,138,United States of America,Mexico,2021,sugar_beet,388.0
+106,174,Italy,Portugal,2014,sugar_beet,0.04
+106,174,Italy,Portugal,2015,sugar_beet,0.08
+106,174,Italy,Portugal,2016,sugar_beet,0.02
+106,174,Italy,Portugal,2017,sugar_beet,0.02
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2011,sugar_beet,125.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2012,sugar_beet,231.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2013,sugar_beet,15.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2014,sugar_beet,2.7
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2020,sugar_beet,0.09
+203,199,Spain,Slovakia,2016,sugar_beet,0.44
+203,199,Spain,Slovakia,2019,sugar_beet,0.18
+68,135,France,Martinique,1996,sugar_beet,9.0
+150,119,Netherlands (Kingdom of the),Latvia,2017,sugar_beet,0.04
+150,119,Netherlands (Kingdom of the),Latvia,2018,sugar_beet,0.39
+150,119,Netherlands (Kingdom of the),Latvia,2019,sugar_beet,0.07
+150,119,Netherlands (Kingdom of the),Latvia,2020,sugar_beet,0.06
+150,119,Netherlands (Kingdom of the),Latvia,2021,sugar_beet,0.11
+150,119,Netherlands (Kingdom of the),Latvia,2022,sugar_beet,0.96
+150,119,Netherlands (Kingdom of the),Latvia,2023,sugar_beet,0.48
+231,150,United States of America,Netherlands (Kingdom of the),1986,sugar_beet,7425.0
+231,150,United States of America,Netherlands (Kingdom of the),1987,sugar_beet,128.0
+231,150,United States of America,Netherlands (Kingdom of the),2001,sugar_beet,42.0
+79,150,Germany,Netherlands (Kingdom of the),1991,sugar_beet,42229.0
+79,150,Germany,Netherlands (Kingdom of the),1992,sugar_beet,47001.0
+79,150,Germany,Netherlands (Kingdom of the),1993,sugar_beet,335.0
+79,150,Germany,Netherlands (Kingdom of the),1997,sugar_beet,30.0
+79,150,Germany,Netherlands (Kingdom of the),1998,sugar_beet,1728.0
+79,150,Germany,Netherlands (Kingdom of the),2000,sugar_beet,1444.0
+79,150,Germany,Netherlands (Kingdom of the),2001,sugar_beet,489.0
+79,150,Germany,Netherlands (Kingdom of the),2006,sugar_beet,54.0
+79,150,Germany,Netherlands (Kingdom of the),2009,sugar_beet,2.0
+79,150,Germany,Netherlands (Kingdom of the),2010,sugar_beet,1327.0
+79,150,Germany,Netherlands (Kingdom of the),2012,sugar_beet,20294.0
+79,150,Germany,Netherlands (Kingdom of the),2013,sugar_beet,9040.0
+79,150,Germany,Netherlands (Kingdom of the),2014,sugar_beet,11857.2
+79,150,Germany,Netherlands (Kingdom of the),2015,sugar_beet,8659.0
+79,150,Germany,Netherlands (Kingdom of the),2016,sugar_beet,10579.4
+79,150,Germany,Netherlands (Kingdom of the),2017,sugar_beet,27430.45
+79,150,Germany,Netherlands (Kingdom of the),2018,sugar_beet,52098.74
+79,150,Germany,Netherlands (Kingdom of the),2019,sugar_beet,74579.78
+79,150,Germany,Netherlands (Kingdom of the),2020,sugar_beet,94561.06
+79,150,Germany,Netherlands (Kingdom of the),2021,sugar_beet,131194.25
+79,150,Germany,Netherlands (Kingdom of the),2022,sugar_beet,75469.99
+79,150,Germany,Netherlands (Kingdom of the),2023,sugar_beet,24905.14
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2000,sugar_beet,3.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2004,sugar_beet,1.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2015,sugar_beet,0.13
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2016,sugar_beet,0.01
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2017,sugar_beet,0.01
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2018,sugar_beet,0.01
+68,137,France,Mauritius,2023,sugar_beet,0.01
+203,203,Spain,Spain,1989,sugar_beet,176.0
+203,203,Spain,Spain,1998,sugar_beet,2.0
+203,203,Spain,Spain,2000,sugar_beet,2.0
+203,203,Spain,Spain,2001,sugar_beet,4.0
+203,203,Spain,Spain,2002,sugar_beet,5.0
+203,203,Spain,Spain,2003,sugar_beet,1.0
+203,203,Spain,Spain,2004,sugar_beet,12.0
+203,203,Spain,Spain,2005,sugar_beet,1.0
+203,203,Spain,Spain,2006,sugar_beet,18.0
+203,203,Spain,Spain,2007,sugar_beet,10.0
+229,179,United Kingdom of Great Britain and Northern Ireland,Qatar,2000,sugar_beet,63.0
+106,183,Italy,Romania,2013,sugar_beet,2.0
+106,183,Italy,Romania,2014,sugar_beet,24.49
+106,183,Italy,Romania,2018,sugar_beet,0.03
+106,183,Italy,Romania,2019,sugar_beet,0.03
+106,183,Italy,Romania,2021,sugar_beet,0.02
+106,183,Italy,Romania,2023,sugar_beet,0.02
+68,138,France,Mexico,2020,sugar_beet,1.3
+231,156,United States of America,New Zealand,2007,sugar_beet,181.0
+231,156,United States of America,New Zealand,2011,sugar_beet,18.0
+106,185,Italy,Russian Federation,1994,sugar_beet,4.0
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2018,sugar_beet,0.02
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2019,sugar_beet,0.06
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2020,sugar_beet,0.06
+203,210,Spain,Sweden,2018,sugar_beet,0.63
+203,210,Spain,Sweden,2019,sugar_beet,1.12
+203,210,Spain,Sweden,2020,sugar_beet,1.12
+203,210,Spain,Sweden,2021,sugar_beet,0.84
+203,210,Spain,Sweden,2022,sugar_beet,0.56
+203,210,Spain,Sweden,2023,sugar_beet,3.77
+79,154,Germany,North Macedonia,1999,sugar_beet,3.0
+106,194,Italy,Saudi Arabia,2016,sugar_beet,7.42
+106,194,Italy,Saudi Arabia,2017,sugar_beet,5.93
+150,126,Netherlands (Kingdom of the),Lithuania,2010,sugar_beet,300.0
+150,126,Netherlands (Kingdom of the),Lithuania,2017,sugar_beet,0.01
+150,126,Netherlands (Kingdom of the),Lithuania,2018,sugar_beet,0.4
+150,126,Netherlands (Kingdom of the),Lithuania,2019,sugar_beet,0.44
+150,126,Netherlands (Kingdom of the),Lithuania,2020,sugar_beet,0.33
+150,126,Netherlands (Kingdom of the),Lithuania,2021,sugar_beet,0.86
+150,126,Netherlands (Kingdom of the),Lithuania,2022,sugar_beet,0.6
+150,126,Netherlands (Kingdom of the),Lithuania,2023,sugar_beet,0.27
+68,143,France,Morocco,2004,sugar_beet,3.0
+68,143,France,Morocco,2005,sugar_beet,2.0
+68,143,France,Morocco,2006,sugar_beet,1.0
+203,211,Spain,Switzerland,2019,sugar_beet,0.2
+203,211,Spain,Switzerland,2020,sugar_beet,0.4
+203,211,Spain,Switzerland,2021,sugar_beet,0.51
+203,211,Spain,Switzerland,2022,sugar_beet,0.3
+203,211,Spain,Switzerland,2023,sugar_beet,0.48
+79,162,Germany,Norway,2000,sugar_beet,1.0
+79,162,Germany,Norway,2014,sugar_beet,0.1
+79,162,Germany,Norway,2015,sugar_beet,0.2
+79,162,Germany,Norway,2016,sugar_beet,0.24
+79,162,Germany,Norway,2017,sugar_beet,1.68
+79,162,Germany,Norway,2018,sugar_beet,0.6
+79,162,Germany,Norway,2019,sugar_beet,0.46
+79,162,Germany,Norway,2022,sugar_beet,2.18
+79,162,Germany,Norway,2023,sugar_beet,2.4
+150,256,Netherlands (Kingdom of the),Luxembourg,2017,sugar_beet,0.01
+150,256,Netherlands (Kingdom of the),Luxembourg,2018,sugar_beet,0.2
+150,256,Netherlands (Kingdom of the),Luxembourg,2019,sugar_beet,0.17
+150,256,Netherlands (Kingdom of the),Luxembourg,2020,sugar_beet,0.08
+150,256,Netherlands (Kingdom of the),Luxembourg,2021,sugar_beet,0.28
+150,256,Netherlands (Kingdom of the),Luxembourg,2022,sugar_beet,2.8
+150,256,Netherlands (Kingdom of the),Luxembourg,2023,sugar_beet,0.23
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1999,sugar_beet,144.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,2000,sugar_beet,72.0
+106,199,Italy,Slovakia,2014,sugar_beet,0.05
+106,199,Italy,Slovakia,2016,sugar_beet,0.06
+106,199,Italy,Slovakia,2017,sugar_beet,0.08
+68,150,France,Netherlands (Kingdom of the),1986,sugar_beet,57.0
+68,150,France,Netherlands (Kingdom of the),1987,sugar_beet,185.0
+68,150,France,Netherlands (Kingdom of the),1988,sugar_beet,38.0
+68,150,France,Netherlands (Kingdom of the),1989,sugar_beet,47.0
+68,150,France,Netherlands (Kingdom of the),1990,sugar_beet,20.0
+68,150,France,Netherlands (Kingdom of the),2001,sugar_beet,52.0
+68,150,France,Netherlands (Kingdom of the),2002,sugar_beet,3.0
+68,150,France,Netherlands (Kingdom of the),2004,sugar_beet,8.0
+68,150,France,Netherlands (Kingdom of the),2011,sugar_beet,460.0
+68,150,France,Netherlands (Kingdom of the),2021,sugar_beet,95.58
+68,150,France,Netherlands (Kingdom of the),2022,sugar_beet,510.04
+68,150,France,Netherlands (Kingdom of the),2023,sugar_beet,648.16
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2014,sugar_beet,0.4
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2015,sugar_beet,0.2
+229,198,United Kingdom of Great Britain and Northern Ireland,Slovenia,2016,sugar_beet,0.02
+203,225,Spain,United Arab Emirates,2008,sugar_beet,1.0
+203,225,Spain,United Arab Emirates,2009,sugar_beet,3.0
+150,134,Netherlands (Kingdom of the),Malta,2017,sugar_beet,0.08
+150,134,Netherlands (Kingdom of the),Malta,2018,sugar_beet,0.03
+150,134,Netherlands (Kingdom of the),Malta,2019,sugar_beet,0.02
+150,134,Netherlands (Kingdom of the),Malta,2020,sugar_beet,0.1
+150,134,Netherlands (Kingdom of the),Malta,2021,sugar_beet,0.09
+150,134,Netherlands (Kingdom of the),Malta,2022,sugar_beet,0.41
+150,134,Netherlands (Kingdom of the),Malta,2023,sugar_beet,0.1
+106,198,Italy,Slovenia,2006,sugar_beet,2.0
+106,198,Italy,Slovenia,2011,sugar_beet,1.0
+106,198,Italy,Slovenia,2014,sugar_beet,0.04
+106,198,Italy,Slovenia,2015,sugar_beet,0.06
+231,170,United States of America,Peru,1987,sugar_beet,28.0
+231,170,United States of America,Peru,1988,sugar_beet,35.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2009,sugar_beet,16.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2013,sugar_beet,1.0
+79,173,Germany,Poland,2014,sugar_beet,39.9
+79,173,Germany,Poland,2015,sugar_beet,156.9
+79,173,Germany,Poland,2016,sugar_beet,53.68
+231,171,United States of America,Philippines,2000,sugar_beet,98.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,5.24
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.11
+79,174,Germany,Portugal,2002,sugar_beet,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1988,sugar_beet,18.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1996,sugar_beet,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2016,sugar_beet,0.02
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2017,sugar_beet,0.01
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2018,sugar_beet,0.01
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2019,sugar_beet,0.02
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2020,sugar_beet,0.03
+106,203,Italy,Spain,2014,sugar_beet,0.1
+106,203,Italy,Spain,2017,sugar_beet,0.01
+106,203,Italy,Spain,2018,sugar_beet,0.02
+106,203,Italy,Spain,2019,sugar_beet,1.97
+106,203,Italy,Spain,2020,sugar_beet,0.3
+106,203,Italy,Spain,2021,sugar_beet,0.99
+203,231,Spain,United States of America,2019,sugar_beet,0.5
+231,117,United States of America,Republic of Korea,2005,sugar_beet,75.0
+231,117,United States of America,Republic of Korea,2007,sugar_beet,15.0
+231,117,United States of America,Republic of Korea,2008,sugar_beet,114.0
+231,117,United States of America,Republic of Korea,2010,sugar_beet,37.0
+231,117,United States of America,Republic of Korea,2011,sugar_beet,42.0
+231,117,United States of America,Republic of Korea,2012,sugar_beet,1192.0
+231,117,United States of America,Republic of Korea,2013,sugar_beet,4078.0
+231,117,United States of America,Republic of Korea,2022,sugar_beet,499.0
+106,210,Italy,Sweden,2014,sugar_beet,0.1
+106,210,Italy,Sweden,2015,sugar_beet,0.1
+106,210,Italy,Sweden,2016,sugar_beet,0.06
+106,210,Italy,Sweden,2017,sugar_beet,0.1
+106,210,Italy,Sweden,2022,sugar_beet,0.01
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2021,sugar_beet,1.6
+150,162,Netherlands (Kingdom of the),Norway,1986,sugar_beet,154.0
+150,162,Netherlands (Kingdom of the),Norway,1987,sugar_beet,181.0
+150,162,Netherlands (Kingdom of the),Norway,1988,sugar_beet,179.0
+150,162,Netherlands (Kingdom of the),Norway,1989,sugar_beet,161.0
+150,162,Netherlands (Kingdom of the),Norway,1990,sugar_beet,160.0
+150,162,Netherlands (Kingdom of the),Norway,1991,sugar_beet,182.0
+150,162,Netherlands (Kingdom of the),Norway,1992,sugar_beet,141.0
+150,162,Netherlands (Kingdom of the),Norway,1993,sugar_beet,159.0
+150,162,Netherlands (Kingdom of the),Norway,1994,sugar_beet,170.0
+150,162,Netherlands (Kingdom of the),Norway,1995,sugar_beet,181.0
+150,162,Netherlands (Kingdom of the),Norway,1996,sugar_beet,157.0
+150,162,Netherlands (Kingdom of the),Norway,1997,sugar_beet,82.0
+150,162,Netherlands (Kingdom of the),Norway,1998,sugar_beet,47.0
+150,162,Netherlands (Kingdom of the),Norway,1999,sugar_beet,135.0
+150,162,Netherlands (Kingdom of the),Norway,2000,sugar_beet,1060.0
+150,162,Netherlands (Kingdom of the),Norway,2001,sugar_beet,120.0
+150,162,Netherlands (Kingdom of the),Norway,2002,sugar_beet,77.0
+150,162,Netherlands (Kingdom of the),Norway,2014,sugar_beet,1.7
+150,162,Netherlands (Kingdom of the),Norway,2018,sugar_beet,5.4
+231,185,United States of America,Russian Federation,1996,sugar_beet,59.0
+231,185,United States of America,Russian Federation,1997,sugar_beet,195.0
+68,173,France,Poland,1994,sugar_beet,16.0
+68,173,France,Poland,1995,sugar_beet,16.0
+68,173,France,Poland,1999,sugar_beet,2.0
+68,173,France,Poland,2004,sugar_beet,1.0
+68,173,France,Poland,2008,sugar_beet,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1999,sugar_beet,3.0
+231,188,United States of America,Saint Kitts and Nevis,1988,sugar_beet,5987.0
+231,189,United States of America,Saint Lucia,2018,sugar_beet,34.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2012,sugar_beet,4.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2017,sugar_beet,5.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2018,sugar_beet,11.7
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2019,sugar_beet,12.7
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2020,sugar_beet,16.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2021,sugar_beet,13.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2022,sugar_beet,3.4
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,2023,sugar_beet,6.91
+68,174,France,Portugal,1994,sugar_beet,63.0
+68,174,France,Portugal,2007,sugar_beet,1.0
+68,174,France,Portugal,2008,sugar_beet,48.0
+68,174,France,Portugal,2009,sugar_beet,136.0
+68,174,France,Portugal,2010,sugar_beet,3.0
+68,174,France,Portugal,2023,sugar_beet,0.05
+106,222,Italy,Tunisia,2019,sugar_beet,0.01
+106,222,Italy,Tunisia,2023,sugar_beet,0.18
+231,197,United States of America,Sierra Leone,1986,sugar_beet,31.0
+106,223,Italy,Türkiye,2011,sugar_beet,1.0
+150,173,Netherlands (Kingdom of the),Poland,2008,sugar_beet,4200.0
+150,173,Netherlands (Kingdom of the),Poland,2015,sugar_beet,2.8
+150,173,Netherlands (Kingdom of the),Poland,2017,sugar_beet,2.41
+150,173,Netherlands (Kingdom of the),Poland,2018,sugar_beet,0.74
+150,173,Netherlands (Kingdom of the),Poland,2019,sugar_beet,1.83
+150,173,Netherlands (Kingdom of the),Poland,2020,sugar_beet,2.57
+150,173,Netherlands (Kingdom of the),Poland,2021,sugar_beet,3.8
+150,173,Netherlands (Kingdom of the),Poland,2022,sugar_beet,10.61
+150,173,Netherlands (Kingdom of the),Poland,2023,sugar_beet,8.0
+231,200,United States of America,Singapore,2014,sugar_beet,163.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,1999,sugar_beet,95.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2001,sugar_beet,18.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2002,sugar_beet,54.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2013,sugar_beet,429.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2014,sugar_beet,713.8
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2015,sugar_beet,726.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2016,sugar_beet,88.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2017,sugar_beet,8.4
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2020,sugar_beet,0.08
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2022,sugar_beet,7.83
+68,183,France,Romania,2008,sugar_beet,1.0
+231,202,United States of America,South Africa,2012,sugar_beet,34.0
+231,202,United States of America,South Africa,2016,sugar_beet,38.0
+150,174,Netherlands (Kingdom of the),Portugal,2008,sugar_beet,300.0
+150,174,Netherlands (Kingdom of the),Portugal,2017,sugar_beet,0.57
+150,174,Netherlands (Kingdom of the),Portugal,2018,sugar_beet,0.36
+150,174,Netherlands (Kingdom of the),Portugal,2019,sugar_beet,0.2
+150,174,Netherlands (Kingdom of the),Portugal,2020,sugar_beet,0.12
+150,174,Netherlands (Kingdom of the),Portugal,2021,sugar_beet,0.13
+150,174,Netherlands (Kingdom of the),Portugal,2022,sugar_beet,1.76
+150,174,Netherlands (Kingdom of the),Portugal,2023,sugar_beet,0.56
+79,198,Germany,Slovenia,2022,sugar_beet,0.13
+231,203,United States of America,Spain,2002,sugar_beet,600.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1998,sugar_beet,2.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2009,sugar_beet,20.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2014,sugar_beet,18.5
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2015,sugar_beet,164.7
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2017,sugar_beet,0.7
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2022,sugar_beet,0.01
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2011,sugar_beet,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2012,sugar_beet,2.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,0.64
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,1.2
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,1.35
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,1.76
+68,195,France,Senegal,2014,sugar_beet,0.2
+150,183,Netherlands (Kingdom of the),Romania,2009,sugar_beet,300.0
+150,183,Netherlands (Kingdom of the),Romania,2017,sugar_beet,2.37
+150,183,Netherlands (Kingdom of the),Romania,2018,sugar_beet,11.69
+150,183,Netherlands (Kingdom of the),Romania,2019,sugar_beet,4.92
+150,183,Netherlands (Kingdom of the),Romania,2020,sugar_beet,1.73
+150,183,Netherlands (Kingdom of the),Romania,2021,sugar_beet,2.86
+150,183,Netherlands (Kingdom of the),Romania,2022,sugar_beet,1.21
+150,183,Netherlands (Kingdom of the),Romania,2023,sugar_beet,0.48
+231,211,United States of America,Switzerland,2010,sugar_beet,1532.0
+68,200,France,Singapore,2011,sugar_beet,2.0
+68,200,France,Singapore,2020,sugar_beet,0.84
+68,200,France,Singapore,2021,sugar_beet,0.02
+68,200,France,Singapore,2022,sugar_beet,0.06
+68,200,France,Singapore,2023,sugar_beet,0.04
+150,185,Netherlands (Kingdom of the),Russian Federation,2020,sugar_beet,0.5
+150,185,Netherlands (Kingdom of the),Russian Federation,2021,sugar_beet,0.06
+106,236,Italy,Venezuela (Bolivarian Republic of),1997,sugar_beet,1.0
+106,236,Italy,Venezuela (Bolivarian Republic of),1998,sugar_beet,1.0
+106,236,Italy,Venezuela (Bolivarian Republic of),1999,sugar_beet,1.0
+106,236,Italy,Venezuela (Bolivarian Republic of),2013,sugar_beet,1.0
+231,216,United States of America,Thailand,2012,sugar_beet,224.0
+68,198,France,Slovenia,2015,sugar_beet,0.07
+79,210,Germany,Sweden,1992,sugar_beet,16.0
+79,210,Germany,Sweden,1993,sugar_beet,52.0
+79,210,Germany,Sweden,2002,sugar_beet,7.0
+79,210,Germany,Sweden,2023,sugar_beet,2006.8
+231,220,United States of America,Trinidad and Tobago,1988,sugar_beet,56.0
+231,220,United States of America,Trinidad and Tobago,2009,sugar_beet,38.0
+231,220,United States of America,Trinidad and Tobago,2014,sugar_beet,1415.0
+231,220,United States of America,Trinidad and Tobago,2018,sugar_beet,30.0
+79,211,Germany,Switzerland,1995,sugar_beet,161.0
+79,211,Germany,Switzerland,1996,sugar_beet,115.0
+79,211,Germany,Switzerland,1997,sugar_beet,72.0
+79,211,Germany,Switzerland,1998,sugar_beet,48.0
+79,211,Germany,Switzerland,2001,sugar_beet,2500.0
+79,211,Germany,Switzerland,2002,sugar_beet,13371.0
+79,211,Germany,Switzerland,2003,sugar_beet,17480.0
+79,211,Germany,Switzerland,2004,sugar_beet,10599.0
+79,211,Germany,Switzerland,2006,sugar_beet,17781.0
+79,211,Germany,Switzerland,2007,sugar_beet,14368.0
+79,211,Germany,Switzerland,2008,sugar_beet,15969.0
+79,211,Germany,Switzerland,2009,sugar_beet,21402.0
+79,211,Germany,Switzerland,2010,sugar_beet,3.0
+79,211,Germany,Switzerland,2011,sugar_beet,24535.0
+79,211,Germany,Switzerland,2012,sugar_beet,25841.0
+79,211,Germany,Switzerland,2013,sugar_beet,15508.0
+79,211,Germany,Switzerland,2014,sugar_beet,25736.2
+79,211,Germany,Switzerland,2015,sugar_beet,22998.0
+79,211,Germany,Switzerland,2016,sugar_beet,63004.88
+79,211,Germany,Switzerland,2017,sugar_beet,122722.03
+79,211,Germany,Switzerland,2018,sugar_beet,138878.71
+79,211,Germany,Switzerland,2019,sugar_beet,210869.3
+79,211,Germany,Switzerland,2020,sugar_beet,254925.09
+79,211,Germany,Switzerland,2021,sugar_beet,337761.45
+79,211,Germany,Switzerland,2022,sugar_beet,342621.98
+79,211,Germany,Switzerland,2023,sugar_beet,317135.85
+231,225,United States of America,United Arab Emirates,1989,sugar_beet,268.0
+68,203,France,Spain,1988,sugar_beet,2.0
+68,203,France,Spain,1991,sugar_beet,1.0
+68,203,France,Spain,1996,sugar_beet,15.0
+68,203,France,Spain,2009,sugar_beet,32.0
+68,203,France,Spain,2010,sugar_beet,21.0
+68,203,France,Spain,2011,sugar_beet,19.0
+68,203,France,Spain,2012,sugar_beet,6.0
+68,203,France,Spain,2013,sugar_beet,6.0
+68,203,France,Spain,2014,sugar_beet,0.2
+150,199,Netherlands (Kingdom of the),Slovakia,2018,sugar_beet,0.02
+150,199,Netherlands (Kingdom of the),Slovakia,2019,sugar_beet,0.01
+150,199,Netherlands (Kingdom of the),Slovakia,2020,sugar_beet,0.03
+150,199,Netherlands (Kingdom of the),Slovakia,2021,sugar_beet,0.2
+150,199,Netherlands (Kingdom of the),Slovakia,2022,sugar_beet,1.04
+150,199,Netherlands (Kingdom of the),Slovakia,2023,sugar_beet,0.15
+150,198,Netherlands (Kingdom of the),Slovenia,2017,sugar_beet,0.21
+150,198,Netherlands (Kingdom of the),Slovenia,2018,sugar_beet,0.26
+150,198,Netherlands (Kingdom of the),Slovenia,2019,sugar_beet,0.09
+150,198,Netherlands (Kingdom of the),Slovenia,2020,sugar_beet,0.1
+150,198,Netherlands (Kingdom of the),Slovenia,2021,sugar_beet,0.16
+150,198,Netherlands (Kingdom of the),Slovenia,2022,sugar_beet,0.42
+150,198,Netherlands (Kingdom of the),Slovenia,2023,sugar_beet,0.14
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1993,sugar_beet,134.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1997,sugar_beet,6.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1999,sugar_beet,225.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2000,sugar_beet,37.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,24.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,84.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,52.0
+68,210,France,Sweden,1987,sugar_beet,18.0
+68,210,France,Sweden,1988,sugar_beet,6.0
+68,210,France,Sweden,1990,sugar_beet,9.0
+68,211,France,Switzerland,1987,sugar_beet,18.0
+68,211,France,Switzerland,1989,sugar_beet,5.0
+68,211,France,Switzerland,1990,sugar_beet,10.0
+68,211,France,Switzerland,2006,sugar_beet,92.0
+68,211,France,Switzerland,2011,sugar_beet,16.0
+68,211,France,Switzerland,2018,sugar_beet,280.77
+68,211,France,Switzerland,2019,sugar_beet,413.03
+68,211,France,Switzerland,2020,sugar_beet,107.39
+68,211,France,Switzerland,2021,sugar_beet,66.85
+68,211,France,Switzerland,2023,sugar_beet,104.0
+150,203,Netherlands (Kingdom of the),Spain,2007,sugar_beet,1.0
+150,203,Netherlands (Kingdom of the),Spain,2009,sugar_beet,11.0
+150,203,Netherlands (Kingdom of the),Spain,2014,sugar_beet,0.32
+150,203,Netherlands (Kingdom of the),Spain,2016,sugar_beet,0.01
+150,203,Netherlands (Kingdom of the),Spain,2017,sugar_beet,19.79
+150,203,Netherlands (Kingdom of the),Spain,2018,sugar_beet,176.85
+150,203,Netherlands (Kingdom of the),Spain,2019,sugar_beet,0.13
+150,203,Netherlands (Kingdom of the),Spain,2020,sugar_beet,0.14
+150,203,Netherlands (Kingdom of the),Spain,2021,sugar_beet,0.57
+150,203,Netherlands (Kingdom of the),Spain,2022,sugar_beet,8.2
+150,203,Netherlands (Kingdom of the),Spain,2023,sugar_beet,3.0
+68,212,France,Syrian Arab Republic,2010,sugar_beet,1.0
+68,216,France,Thailand,2019,sugar_beet,0.01
+68,216,France,Thailand,2022,sugar_beet,0.01
+68,216,France,Thailand,2023,sugar_beet,0.04
+68,222,France,Tunisia,2022,sugar_beet,48.0
+150,210,Netherlands (Kingdom of the),Sweden,1986,sugar_beet,12.0
+150,210,Netherlands (Kingdom of the),Sweden,1987,sugar_beet,9.0
+150,210,Netherlands (Kingdom of the),Sweden,1988,sugar_beet,15.0
+150,210,Netherlands (Kingdom of the),Sweden,1989,sugar_beet,15.0
+150,210,Netherlands (Kingdom of the),Sweden,1990,sugar_beet,31.0
+150,210,Netherlands (Kingdom of the),Sweden,1991,sugar_beet,10.0
+150,210,Netherlands (Kingdom of the),Sweden,1992,sugar_beet,11.0
+150,210,Netherlands (Kingdom of the),Sweden,1993,sugar_beet,2411.0
+150,210,Netherlands (Kingdom of the),Sweden,1994,sugar_beet,2794.0
+150,210,Netherlands (Kingdom of the),Sweden,1995,sugar_beet,12.0
+150,210,Netherlands (Kingdom of the),Sweden,1996,sugar_beet,17.0
+150,210,Netherlands (Kingdom of the),Sweden,1997,sugar_beet,33.0
+150,210,Netherlands (Kingdom of the),Sweden,1998,sugar_beet,19.0
+150,210,Netherlands (Kingdom of the),Sweden,1999,sugar_beet,8.0
+150,210,Netherlands (Kingdom of the),Sweden,2000,sugar_beet,60.0
+150,210,Netherlands (Kingdom of the),Sweden,2001,sugar_beet,8.0
+150,210,Netherlands (Kingdom of the),Sweden,2002,sugar_beet,7.0
+150,210,Netherlands (Kingdom of the),Sweden,2008,sugar_beet,1470.0
+150,210,Netherlands (Kingdom of the),Sweden,2009,sugar_beet,1650.0
+150,210,Netherlands (Kingdom of the),Sweden,2016,sugar_beet,0.09
+150,210,Netherlands (Kingdom of the),Sweden,2018,sugar_beet,0.6
+150,210,Netherlands (Kingdom of the),Sweden,2019,sugar_beet,0.8
+150,210,Netherlands (Kingdom of the),Sweden,2020,sugar_beet,0.17
+150,210,Netherlands (Kingdom of the),Sweden,2021,sugar_beet,0.06
+150,210,Netherlands (Kingdom of the),Sweden,2022,sugar_beet,4.05
+150,210,Netherlands (Kingdom of the),Sweden,2023,sugar_beet,0.97
+79,231,Germany,United States of America,2008,sugar_beet,13.0
+79,231,Germany,United States of America,2015,sugar_beet,0.2
+68,223,France,Türkiye,1994,sugar_beet,4.0
+68,223,France,Türkiye,2015,sugar_beet,5.0
+68,223,France,Türkiye,2016,sugar_beet,15.0
+150,211,Netherlands (Kingdom of the),Switzerland,1991,sugar_beet,24.0
+150,211,Netherlands (Kingdom of the),Switzerland,2002,sugar_beet,10.0
+150,211,Netherlands (Kingdom of the),Switzerland,2003,sugar_beet,100.0
+150,211,Netherlands (Kingdom of the),Switzerland,2021,sugar_beet,0.29
+68,225,France,United Arab Emirates,2019,sugar_beet,0.11
+68,225,France,United Arab Emirates,2021,sugar_beet,0.03
+68,225,France,United Arab Emirates,2022,sugar_beet,0.1
+68,225,France,United Arab Emirates,2023,sugar_beet,0.16
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1988,sugar_beet,34.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1989,sugar_beet,30.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1990,sugar_beet,30.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1991,sugar_beet,60.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1992,sugar_beet,14.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2001,sugar_beet,52.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2002,sugar_beet,95.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2007,sugar_beet,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,0.45
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,0.5
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,0.95
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,sugar_beet,0.13
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,0.67
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.73
+68,231,France,United States of America,1991,sugar_beet,1.0
+68,231,France,United States of America,2004,sugar_beet,21.0
+68,231,France,United States of America,2010,sugar_beet,34.0
+68,231,France,United States of America,2012,sugar_beet,11.0
+68,231,France,United States of America,2013,sugar_beet,8.0
+68,231,France,United States of America,2014,sugar_beet,27.1
+68,231,France,United States of America,2016,sugar_beet,299.41
+68,231,France,United States of America,2018,sugar_beet,70.07
+68,231,France,United States of America,2019,sugar_beet,0.71
+68,231,France,United States of America,2020,sugar_beet,4.15
+68,231,France,United States of America,2021,sugar_beet,11.85
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1992,sugar_beet,1.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1999,sugar_beet,58.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2001,sugar_beet,1.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2008,sugar_beet,530.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2012,sugar_beet,2.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2014,sugar_beet,0.32
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2015,sugar_beet,3300.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2016,sugar_beet,0.09
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2017,sugar_beet,5.62
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2018,sugar_beet,2.82
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2019,sugar_beet,4.35
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2020,sugar_beet,3.6
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2022,sugar_beet,17560.74
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2023,sugar_beet,0.57
+150,231,Netherlands (Kingdom of the),United States of America,2006,sugar_beet,1.0
+150,231,Netherlands (Kingdom of the),United States of America,2015,sugar_beet,280.0
+150,231,Netherlands (Kingdom of the),United States of America,2016,sugar_beet,609.34
+150,231,Netherlands (Kingdom of the),United States of America,2017,sugar_beet,96.0

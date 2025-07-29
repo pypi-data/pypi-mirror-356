@@ -1,0 +1,268 @@
+o_code,d_code,o_name,d_name,year,item,weight
+44,9,Colombia,Argentina,2015,other_camelids,2.0
+44,9,Colombia,Argentina,2022,other_camelids,1.0
+44,9,Colombia,Argentina,2015,other_camelids,0.05
+44,9,Colombia,Argentina,2022,other_camelids,0.01
+40,9,Chile,Argentina,2015,other_camelids,44.0
+40,9,Chile,Argentina,2018,other_camelids,25.0
+162,11,Norway,Austria,2021,other_camelids,3.0
+162,11,Norway,Austria,2021,other_camelids,0.28
+162,255,Norway,Belgium,2019,other_camelids,8.0
+162,255,Norway,Belgium,2020,other_camelids,28.0
+162,255,Norway,Belgium,2019,other_camelids,0.75
+162,255,Norway,Belgium,2020,other_camelids,2.8
+44,21,Colombia,Brazil,2015,other_camelids,2.0
+44,21,Colombia,Brazil,2015,other_camelids,0.05
+40,11,Chile,Austria,2012,other_camelids,5.0
+40,11,Chile,Austria,2013,other_camelids,28.0
+40,11,Chile,Austria,2014,other_camelids,11.0
+40,11,Chile,Austria,2021,other_camelids,20.0
+40,255,Chile,Belgium,2012,other_camelids,18.0
+40,255,Chile,Belgium,2020,other_camelids,492.0
+40,255,Chile,Belgium,2021,other_camelids,240.0
+40,255,Chile,Belgium,2022,other_camelids,198.0
+170,21,Peru,Brazil,2023,other_camelids,22.0
+170,21,Peru,Brazil,2023,other_camelids,2.19
+44,33,Colombia,Canada,2015,other_camelids,3.0
+44,33,Colombia,Canada,2016,other_camelids,2.0
+44,33,Colombia,Canada,2022,other_camelids,4.0
+44,33,Colombia,Canada,2015,other_camelids,0.04
+44,33,Colombia,Canada,2016,other_camelids,0.02
+44,33,Colombia,Canada,2021,other_camelids,0.01
+44,33,Colombia,Canada,2022,other_camelids,0.03
+44,40,Colombia,Chile,2015,other_camelids,3.0
+44,40,Colombia,Chile,2016,other_camelids,1.0
+44,40,Colombia,Chile,2021,other_camelids,1.0
+44,40,Colombia,Chile,2015,other_camelids,0.07
+44,40,Colombia,Chile,2016,other_camelids,0.03
+44,40,Colombia,Chile,2021,other_camelids,0.11
+211,11,Switzerland,Austria,2012,other_camelids,2.0
+211,11,Switzerland,Austria,2015,other_camelids,16.0
+211,11,Switzerland,Austria,2016,other_camelids,7.0
+211,11,Switzerland,Austria,2017,other_camelids,1.0
+211,11,Switzerland,Austria,2018,other_camelids,17.0
+211,11,Switzerland,Austria,2019,other_camelids,9.0
+211,11,Switzerland,Austria,2020,other_camelids,6.0
+211,11,Switzerland,Austria,2021,other_camelids,16.0
+211,11,Switzerland,Austria,2023,other_camelids,1.0
+211,11,Switzerland,Austria,2015,other_camelids,0.69
+211,11,Switzerland,Austria,2016,other_camelids,0.41
+211,11,Switzerland,Austria,2017,other_camelids,0.07
+211,11,Switzerland,Austria,2018,other_camelids,3.58
+211,11,Switzerland,Austria,2019,other_camelids,0.86
+211,11,Switzerland,Austria,2020,other_camelids,0.59
+211,11,Switzerland,Austria,2021,other_camelids,1.64
+211,11,Switzerland,Austria,2023,other_camelids,0.1
+9,21,Argentina,Brazil,2013,other_camelids,9.0
+9,21,Argentina,Brazil,2014,other_camelids,90.0
+9,21,Argentina,Brazil,2015,other_camelids,127.0
+9,21,Argentina,Brazil,2014,other_camelids,4.5
+9,21,Argentina,Brazil,2015,other_camelids,5.97
+44,96,Colombia,"China, Hong Kong SAR",2015,other_camelids,1.0
+40,21,Chile,Brazil,2013,other_camelids,79.0
+40,21,Chile,Brazil,2014,other_camelids,77.0
+40,21,Chile,Brazil,2022,other_camelids,113.0
+44,48,Colombia,Costa Rica,2014,other_camelids,3.0
+44,48,Colombia,Costa Rica,2015,other_camelids,16.0
+44,48,Colombia,Costa Rica,2016,other_camelids,1.0
+44,48,Colombia,Costa Rica,2014,other_camelids,0.09
+44,48,Colombia,Costa Rica,2015,other_camelids,0.32
+44,48,Colombia,Costa Rica,2016,other_camelids,0.03
+13,79,Bahrain,Germany,2014,other_camelids,3.0
+13,79,Bahrain,Germany,2014,other_camelids,1.5
+44,58,Colombia,Ecuador,2012,other_camelids,1.0
+44,58,Colombia,Ecuador,2015,other_camelids,1.0
+44,58,Colombia,Ecuador,2015,other_camelids,0.03
+40,41,Chile,"China, mainland",2013,other_camelids,150.0
+40,41,Chile,"China, mainland",2014,other_camelids,419.0
+40,41,Chile,"China, mainland",2015,other_camelids,1614.0
+40,41,Chile,"China, mainland",2016,other_camelids,622.0
+40,41,Chile,"China, mainland",2019,other_camelids,100.0
+40,41,Chile,"China, mainland",2021,other_camelids,1270.0
+40,41,Chile,"China, mainland",2022,other_camelids,1170.0
+44,60,Colombia,El Salvador,2021,other_camelids,1.0
+44,60,Colombia,El Salvador,2021,other_camelids,0.06
+170,58,Peru,Ecuador,2013,other_camelids,203.0
+89,95,Guatemala,Honduras,2013,other_camelids,1.0
+19,234,Bolivia (Plurinational State of),Uruguay,2023,other_camelids,35.0
+19,234,Bolivia (Plurinational State of),Uruguay,2023,other_camelids,3.54
+162,63,Norway,Estonia,2018,other_camelids,4.0
+162,63,Norway,Estonia,2018,other_camelids,0.25
+44,138,Colombia,Mexico,2014,other_camelids,1.0
+44,138,Colombia,Mexico,2015,other_camelids,1.0
+44,138,Colombia,Mexico,2016,other_camelids,16.0
+44,138,Colombia,Mexico,2021,other_camelids,2.0
+44,138,Colombia,Mexico,2022,other_camelids,2.0
+44,138,Colombia,Mexico,2014,other_camelids,0.03
+44,138,Colombia,Mexico,2015,other_camelids,0.01
+44,138,Colombia,Mexico,2016,other_camelids,0.43
+44,138,Colombia,Mexico,2021,other_camelids,0.15
+44,138,Colombia,Mexico,2022,other_camelids,0.01
+40,68,Chile,France,2022,other_camelids,13.0
+44,150,Colombia,Netherlands (Kingdom of the),2016,other_camelids,32.0
+44,150,Colombia,Netherlands (Kingdom of the),2016,other_camelids,0.8
+44,157,Colombia,Nicaragua,2015,other_camelids,1.0
+44,157,Colombia,Nicaragua,2015,other_camelids,0.02
+44,157,Colombia,Nicaragua,2020,other_camelids,0.03
+40,79,Chile,Germany,2012,other_camelids,80.0
+40,79,Chile,Germany,2013,other_camelids,11.0
+40,79,Chile,Germany,2014,other_camelids,65.0
+40,79,Chile,Germany,2015,other_camelids,23.0
+40,79,Chile,Germany,2016,other_camelids,53.0
+40,79,Chile,Germany,2017,other_camelids,54.0
+40,79,Chile,Germany,2020,other_camelids,9.0
+40,79,Chile,Germany,2022,other_camelids,21.0
+44,166,Colombia,Panama,2014,other_camelids,2.0
+44,166,Colombia,Panama,2015,other_camelids,5.0
+44,166,Colombia,Panama,2016,other_camelids,1.0
+44,166,Colombia,Panama,2014,other_camelids,0.05
+44,166,Colombia,Panama,2015,other_camelids,0.1
+44,166,Colombia,Panama,2021,other_camelids,0.03
+44,170,Colombia,Peru,2014,other_camelids,1.0
+44,170,Colombia,Peru,2015,other_camelids,3.0
+44,170,Colombia,Peru,2014,other_camelids,0.01
+44,170,Colombia,Peru,2015,other_camelids,0.04
+44,179,Colombia,Qatar,2015,other_camelids,1.0
+162,79,Norway,Germany,2013,other_camelids,5.0
+40,106,Chile,Italy,2014,other_camelids,60.0
+44,202,Colombia,South Africa,2016,other_camelids,3.0
+44,202,Colombia,South Africa,2016,other_camelids,0.01
+44,203,Colombia,Spain,2015,other_camelids,4.0
+44,203,Colombia,Spain,2015,other_camelids,0.1
+44,203,Colombia,Spain,2020,other_camelids,0.02
+13,194,Bahrain,Saudi Arabia,2019,other_camelids,10.0
+13,194,Bahrain,Saudi Arabia,2021,other_camelids,5.0
+13,194,Bahrain,Saudi Arabia,2022,other_camelids,5.0
+13,194,Bahrain,Saudi Arabia,2019,other_camelids,1.0
+13,194,Bahrain,Saudi Arabia,2021,other_camelids,0.5
+13,194,Bahrain,Saudi Arabia,2022,other_camelids,0.5
+211,167,Switzerland,Czechia,2014,other_camelids,3.0
+211,167,Switzerland,Czechia,2014,other_camelids,0.18
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,2015,other_camelids,1.0
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,2015,other_camelids,0.01
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,2021,other_camelids,0.01
+211,54,Switzerland,Denmark,2021,other_camelids,6.0
+211,54,Switzerland,Denmark,2022,other_camelids,17.0
+211,54,Switzerland,Denmark,2021,other_camelids,0.6
+211,54,Switzerland,Denmark,2022,other_camelids,1.71
+40,150,Chile,Netherlands (Kingdom of the),2012,other_camelids,40.0
+40,150,Chile,Netherlands (Kingdom of the),2013,other_camelids,257.0
+40,150,Chile,Netherlands (Kingdom of the),2014,other_camelids,411.0
+40,150,Chile,Netherlands (Kingdom of the),2015,other_camelids,438.0
+40,150,Chile,Netherlands (Kingdom of the),2016,other_camelids,81.0
+40,150,Chile,Netherlands (Kingdom of the),2017,other_camelids,294.0
+40,150,Chile,Netherlands (Kingdom of the),2018,other_camelids,239.0
+40,150,Chile,Netherlands (Kingdom of the),2019,other_camelids,398.0
+40,150,Chile,Netherlands (Kingdom of the),2020,other_camelids,664.0
+40,150,Chile,Netherlands (Kingdom of the),2021,other_camelids,2658.0
+40,150,Chile,Netherlands (Kingdom of the),2022,other_camelids,2060.0
+44,231,Colombia,United States of America,2012,other_camelids,1.0
+44,231,Colombia,United States of America,2013,other_camelids,2.0
+44,231,Colombia,United States of America,2014,other_camelids,5.0
+44,231,Colombia,United States of America,2015,other_camelids,115.0
+44,231,Colombia,United States of America,2016,other_camelids,30.0
+44,231,Colombia,United States of America,2021,other_camelids,3.0
+44,231,Colombia,United States of America,2014,other_camelids,0.08
+44,231,Colombia,United States of America,2015,other_camelids,0.91
+44,231,Colombia,United States of America,2016,other_camelids,0.39
+44,231,Colombia,United States of America,2020,other_camelids,0.01
+44,231,Colombia,United States of America,2021,other_camelids,0.28
+44,231,Colombia,United States of America,2023,other_camelids,0.01
+211,67,Switzerland,Finland,2020,other_camelids,9.0
+211,67,Switzerland,Finland,2020,other_camelids,0.87
+40,173,Chile,Poland,2012,other_camelids,329.0
+40,173,Chile,Poland,2013,other_camelids,179.0
+40,173,Chile,Poland,2014,other_camelids,274.0
+40,173,Chile,Poland,2015,other_camelids,86.0
+40,173,Chile,Poland,2016,other_camelids,266.0
+40,173,Chile,Poland,2018,other_camelids,33.0
+40,173,Chile,Poland,2021,other_camelids,184.0
+40,173,Chile,Poland,2022,other_camelids,149.0
+13,229,Bahrain,United Kingdom of Great Britain and Northern Ireland,2019,other_camelids,0.03
+13,229,Bahrain,United Kingdom of Great Britain and Northern Ireland,2020,other_camelids,0.02
+211,68,Switzerland,France,2012,other_camelids,1.0
+211,68,Switzerland,France,2013,other_camelids,1.0
+211,68,Switzerland,France,2016,other_camelids,9.0
+211,68,Switzerland,France,2018,other_camelids,34.0
+211,68,Switzerland,France,2019,other_camelids,12.0
+211,68,Switzerland,France,2021,other_camelids,5.0
+211,68,Switzerland,France,2022,other_camelids,13.0
+211,68,Switzerland,France,2016,other_camelids,1.25
+211,68,Switzerland,France,2018,other_camelids,1.55
+211,68,Switzerland,France,2019,other_camelids,1.15
+211,68,Switzerland,France,2021,other_camelids,0.5
+211,68,Switzerland,France,2022,other_camelids,1.3
+13,231,Bahrain,United States of America,2020,other_camelids,1.0
+13,231,Bahrain,United States of America,2020,other_camelids,0.02
+40,203,Chile,Spain,2021,other_camelids,12.0
+40,211,Chile,Switzerland,2022,other_camelids,7.0
+40,225,Chile,United Arab Emirates,2021,other_camelids,120.0
+199,230,Slovakia,Ukraine,2012,other_camelids,4.0
+199,230,Slovakia,Ukraine,2013,other_camelids,1.0
+199,230,Slovakia,Ukraine,2018,other_camelids,3.0
+199,230,Slovakia,Ukraine,2020,other_camelids,3.0
+199,230,Slovakia,Ukraine,2018,other_camelids,0.24
+199,230,Slovakia,Ukraine,2020,other_camelids,0.15
+211,79,Switzerland,Germany,2014,other_camelids,5.0
+211,79,Switzerland,Germany,2015,other_camelids,4.0
+211,79,Switzerland,Germany,2016,other_camelids,3.0
+211,79,Switzerland,Germany,2017,other_camelids,8.0
+211,79,Switzerland,Germany,2018,other_camelids,68.0
+211,79,Switzerland,Germany,2019,other_camelids,1.0
+211,79,Switzerland,Germany,2020,other_camelids,29.0
+211,79,Switzerland,Germany,2021,other_camelids,22.0
+211,79,Switzerland,Germany,2022,other_camelids,6.0
+211,79,Switzerland,Germany,2014,other_camelids,0.48
+211,79,Switzerland,Germany,2015,other_camelids,0.81
+211,79,Switzerland,Germany,2016,other_camelids,0.38
+211,79,Switzerland,Germany,2017,other_camelids,0.42
+211,79,Switzerland,Germany,2018,other_camelids,1.12
+211,79,Switzerland,Germany,2019,other_camelids,0.13
+211,79,Switzerland,Germany,2020,other_camelids,2.9
+211,79,Switzerland,Germany,2021,other_camelids,2.22
+211,79,Switzerland,Germany,2022,other_camelids,0.56
+211,79,Switzerland,Germany,2023,other_camelids,0.05
+9,234,Argentina,Uruguay,2015,other_camelids,26.0
+9,234,Argentina,Uruguay,2015,other_camelids,2.6
+211,97,Switzerland,Hungary,2022,other_camelids,0.05
+162,210,Norway,Sweden,2019,other_camelids,2.0
+162,210,Norway,Sweden,2020,other_camelids,3.0
+162,210,Norway,Sweden,2021,other_camelids,1.0
+162,210,Norway,Sweden,2022,other_camelids,2.0
+162,210,Norway,Sweden,2019,other_camelids,0.19
+162,210,Norway,Sweden,2020,other_camelids,0.26
+162,210,Norway,Sweden,2021,other_camelids,0.11
+162,210,Norway,Sweden,2022,other_camelids,0.2
+211,104,Switzerland,Ireland,2015,other_camelids,13.0
+211,104,Switzerland,Ireland,2015,other_camelids,0.72
+211,106,Switzerland,Italy,2014,other_camelids,2.0
+211,106,Switzerland,Italy,2015,other_camelids,41.0
+211,106,Switzerland,Italy,2016,other_camelids,38.0
+211,106,Switzerland,Italy,2018,other_camelids,17.0
+211,106,Switzerland,Italy,2019,other_camelids,5.0
+211,106,Switzerland,Italy,2021,other_camelids,4.0
+211,106,Switzerland,Italy,2014,other_camelids,0.12
+211,106,Switzerland,Italy,2015,other_camelids,4.2
+211,106,Switzerland,Italy,2016,other_camelids,2.68
+211,106,Switzerland,Italy,2018,other_camelids,0.4
+211,106,Switzerland,Italy,2019,other_camelids,0.51
+211,106,Switzerland,Italy,2021,other_camelids,0.44
+210,162,Sweden,Norway,2013,other_camelids,7.0
+210,162,Sweden,Norway,2014,other_camelids,14.0
+210,162,Sweden,Norway,2016,other_camelids,10.0
+210,162,Sweden,Norway,2017,other_camelids,19.0
+210,162,Sweden,Norway,2022,other_camelids,1.0
+210,162,Sweden,Norway,2014,other_camelids,1.0
+210,162,Sweden,Norway,2016,other_camelids,0.75
+210,162,Sweden,Norway,2017,other_camelids,1.24
+210,162,Sweden,Norway,2022,other_camelids,0.6
+211,150,Switzerland,Netherlands (Kingdom of the),2016,other_camelids,1.0
+211,150,Switzerland,Netherlands (Kingdom of the),2016,other_camelids,0.55
+211,199,Switzerland,Slovakia,2015,other_camelids,3.0
+211,199,Switzerland,Slovakia,2015,other_camelids,0.11
+211,198,Switzerland,Slovenia,2018,other_camelids,17.0
+211,198,Switzerland,Slovenia,2018,other_camelids,0.06
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2023,other_camelids,48.0
+33,231,Canada,United States of America,2016,other_camelids,12.0
+33,231,Canada,United States of America,2018,other_camelids,1.0
+33,231,Canada,United States of America,2023,other_camelids,6.0

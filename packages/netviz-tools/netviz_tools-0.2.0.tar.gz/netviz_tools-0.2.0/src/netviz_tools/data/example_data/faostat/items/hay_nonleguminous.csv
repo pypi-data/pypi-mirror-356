@@ -1,0 +1,797 @@
+o_code,d_code,o_name,d_name,year,item,weight
+33,2,Canada,Afghanistan,2018,hay_nonleguminous,50.0
+33,9,Canada,Argentina,1998,hay_nonleguminous,20.0
+33,9,Canada,Argentina,2000,hay_nonleguminous,600.0
+33,9,Canada,Argentina,2001,hay_nonleguminous,20.0
+33,9,Canada,Argentina,2002,hay_nonleguminous,80.0
+33,9,Canada,Argentina,2004,hay_nonleguminous,1682.0
+33,9,Canada,Argentina,2005,hay_nonleguminous,96.0
+33,9,Canada,Argentina,2012,hay_nonleguminous,1.0
+33,9,Canada,Argentina,2014,hay_nonleguminous,0.17
+33,9,Canada,Argentina,2015,hay_nonleguminous,0.73
+33,10,Canada,Australia,1993,hay_nonleguminous,25.0
+33,10,Canada,Australia,2000,hay_nonleguminous,51.0
+33,10,Canada,Australia,2001,hay_nonleguminous,96.0
+33,10,Canada,Australia,2006,hay_nonleguminous,127.0
+33,10,Canada,Australia,2009,hay_nonleguminous,2.0
+33,10,Canada,Australia,2010,hay_nonleguminous,1.0
+33,52,Canada,Azerbaijan,2009,hay_nonleguminous,1.0
+33,12,Canada,Bahamas,1993,hay_nonleguminous,3.0
+33,13,Canada,Bahrain,2002,hay_nonleguminous,92.0
+33,13,Canada,Bahrain,2003,hay_nonleguminous,118.0
+33,13,Canada,Bahrain,2004,hay_nonleguminous,87.0
+33,13,Canada,Bahrain,2005,hay_nonleguminous,24.0
+33,13,Canada,Bahrain,2006,hay_nonleguminous,206.0
+33,13,Canada,Bahrain,2007,hay_nonleguminous,826.0
+33,13,Canada,Bahrain,2008,hay_nonleguminous,765.0
+33,13,Canada,Bahrain,2010,hay_nonleguminous,158.0
+33,13,Canada,Bahrain,2012,hay_nonleguminous,44.0
+33,13,Canada,Bahrain,2014,hay_nonleguminous,2.28
+33,13,Canada,Bahrain,2018,hay_nonleguminous,215.0
+33,13,Canada,Bahrain,2019,hay_nonleguminous,230.0
+33,13,Canada,Bahrain,2020,hay_nonleguminous,78.0
+33,13,Canada,Bahrain,2021,hay_nonleguminous,25.0
+33,13,Canada,Bahrain,2023,hay_nonleguminous,57.0
+33,14,Canada,Barbados,1994,hay_nonleguminous,18.0
+33,14,Canada,Barbados,1995,hay_nonleguminous,18.0
+33,255,Canada,Belgium,2001,hay_nonleguminous,18.0
+33,255,Canada,Belgium,2011,hay_nonleguminous,82.0
+33,255,Canada,Belgium,2012,hay_nonleguminous,71.0
+33,255,Canada,Belgium,2013,hay_nonleguminous,51.0
+33,255,Canada,Belgium,2014,hay_nonleguminous,116.0
+33,255,Canada,Belgium,2015,hay_nonleguminous,24.0
+33,255,Canada,Belgium,2018,hay_nonleguminous,321.0
+33,255,Canada,Belgium,2019,hay_nonleguminous,322.0
+33,15,Canada,Belgium-Luxembourg,1988,hay_nonleguminous,17.0
+33,15,Canada,Belgium-Luxembourg,1989,hay_nonleguminous,18.0
+33,15,Canada,Belgium-Luxembourg,1995,hay_nonleguminous,46.0
+33,26,Canada,Brunei Darussalam,2009,hay_nonleguminous,26.0
+33,26,Canada,Brunei Darussalam,2013,hay_nonleguminous,131.0
+33,27,Canada,Bulgaria,2005,hay_nonleguminous,60.0
+33,40,Canada,Chile,2003,hay_nonleguminous,4.0
+33,40,Canada,Chile,2007,hay_nonleguminous,42.0
+33,40,Canada,Chile,2011,hay_nonleguminous,2.0
+33,40,Canada,Chile,2014,hay_nonleguminous,3.0
+33,40,Canada,Chile,2015,hay_nonleguminous,1.26
+33,40,Canada,Chile,2016,hay_nonleguminous,1.7
+33,40,Canada,Chile,2017,hay_nonleguminous,0.73
+33,40,Canada,Chile,2018,hay_nonleguminous,13.32
+33,40,Canada,Chile,2019,hay_nonleguminous,7.0
+33,40,Canada,Chile,2020,hay_nonleguminous,0.46
+33,40,Canada,Chile,2021,hay_nonleguminous,4.43
+33,40,Canada,Chile,2022,hay_nonleguminous,2.81
+33,40,Canada,Chile,2023,hay_nonleguminous,1.01
+33,96,Canada,"China, Hong Kong SAR",1992,hay_nonleguminous,125.0
+33,96,Canada,"China, Hong Kong SAR",1993,hay_nonleguminous,757.0
+33,96,Canada,"China, Hong Kong SAR",1994,hay_nonleguminous,450.0
+33,96,Canada,"China, Hong Kong SAR",1996,hay_nonleguminous,260.0
+33,96,Canada,"China, Hong Kong SAR",2001,hay_nonleguminous,220.0
+33,96,Canada,"China, Hong Kong SAR",2002,hay_nonleguminous,25.0
+33,96,Canada,"China, Hong Kong SAR",2003,hay_nonleguminous,28.0
+33,96,Canada,"China, Hong Kong SAR",2004,hay_nonleguminous,53.0
+33,96,Canada,"China, Hong Kong SAR",2005,hay_nonleguminous,4.0
+33,96,Canada,"China, Hong Kong SAR",2006,hay_nonleguminous,27.0
+33,96,Canada,"China, Hong Kong SAR",2007,hay_nonleguminous,1.0
+33,96,Canada,"China, Hong Kong SAR",2011,hay_nonleguminous,2.0
+33,96,Canada,"China, Hong Kong SAR",2015,hay_nonleguminous,119.0
+33,96,Canada,"China, Hong Kong SAR",2018,hay_nonleguminous,59.0
+33,96,Canada,"China, Hong Kong SAR",2019,hay_nonleguminous,1338.0
+33,96,Canada,"China, Hong Kong SAR",2020,hay_nonleguminous,3340.0
+33,96,Canada,"China, Hong Kong SAR",2021,hay_nonleguminous,227.5
+33,96,Canada,"China, Hong Kong SAR",2022,hay_nonleguminous,0.31
+33,96,Canada,"China, Hong Kong SAR",2023,hay_nonleguminous,208.0
+33,128,Canada,"China, Macao SAR",2013,hay_nonleguminous,26.0
+33,41,Canada,"China, mainland",1994,hay_nonleguminous,25.0
+33,41,Canada,"China, mainland",1996,hay_nonleguminous,78.0
+33,41,Canada,"China, mainland",1997,hay_nonleguminous,76.0
+33,41,Canada,"China, mainland",1998,hay_nonleguminous,107.0
+33,41,Canada,"China, mainland",1999,hay_nonleguminous,1448.0
+33,41,Canada,"China, mainland",2000,hay_nonleguminous,3933.0
+33,41,Canada,"China, mainland",2001,hay_nonleguminous,619.0
+33,41,Canada,"China, mainland",2002,hay_nonleguminous,303.0
+33,41,Canada,"China, mainland",2003,hay_nonleguminous,1643.0
+33,41,Canada,"China, mainland",2004,hay_nonleguminous,600.0
+33,41,Canada,"China, mainland",2007,hay_nonleguminous,46.0
+33,41,Canada,"China, mainland",2008,hay_nonleguminous,136.0
+33,41,Canada,"China, mainland",2012,hay_nonleguminous,815.0
+33,41,Canada,"China, mainland",2013,hay_nonleguminous,8484.0
+33,41,Canada,"China, mainland",2014,hay_nonleguminous,16790.0
+33,41,Canada,"China, mainland",2015,hay_nonleguminous,22313.0
+33,41,Canada,"China, mainland",2016,hay_nonleguminous,61149.0
+33,41,Canada,"China, mainland",2017,hay_nonleguminous,44293.01
+33,41,Canada,"China, mainland",2018,hay_nonleguminous,39059.0
+33,41,Canada,"China, mainland",2019,hay_nonleguminous,33382.0
+33,41,Canada,"China, mainland",2020,hay_nonleguminous,13945.0
+33,41,Canada,"China, mainland",2021,hay_nonleguminous,50983.0
+33,41,Canada,"China, mainland",2022,hay_nonleguminous,13140.0
+33,41,Canada,"China, mainland",2023,hay_nonleguminous,8737.43
+33,214,Canada,"China, Taiwan Province of",1987,hay_nonleguminous,438.0
+33,214,Canada,"China, Taiwan Province of",1988,hay_nonleguminous,6263.0
+33,214,Canada,"China, Taiwan Province of",1989,hay_nonleguminous,2924.0
+33,214,Canada,"China, Taiwan Province of",1990,hay_nonleguminous,1273.0
+33,214,Canada,"China, Taiwan Province of",1991,hay_nonleguminous,2875.0
+33,214,Canada,"China, Taiwan Province of",1992,hay_nonleguminous,2881.0
+33,214,Canada,"China, Taiwan Province of",1993,hay_nonleguminous,14396.0
+33,214,Canada,"China, Taiwan Province of",1994,hay_nonleguminous,18837.0
+33,214,Canada,"China, Taiwan Province of",1995,hay_nonleguminous,25831.0
+33,214,Canada,"China, Taiwan Province of",1996,hay_nonleguminous,22419.0
+33,214,Canada,"China, Taiwan Province of",1997,hay_nonleguminous,10600.0
+33,214,Canada,"China, Taiwan Province of",1998,hay_nonleguminous,12576.0
+33,214,Canada,"China, Taiwan Province of",1999,hay_nonleguminous,7019.0
+33,214,Canada,"China, Taiwan Province of",2000,hay_nonleguminous,13240.0
+33,214,Canada,"China, Taiwan Province of",2001,hay_nonleguminous,8060.0
+33,214,Canada,"China, Taiwan Province of",2002,hay_nonleguminous,8850.0
+33,214,Canada,"China, Taiwan Province of",2003,hay_nonleguminous,6781.0
+33,214,Canada,"China, Taiwan Province of",2004,hay_nonleguminous,4682.0
+33,214,Canada,"China, Taiwan Province of",2005,hay_nonleguminous,6092.0
+33,214,Canada,"China, Taiwan Province of",2006,hay_nonleguminous,6175.0
+33,214,Canada,"China, Taiwan Province of",2007,hay_nonleguminous,7725.0
+33,214,Canada,"China, Taiwan Province of",2008,hay_nonleguminous,7269.0
+33,214,Canada,"China, Taiwan Province of",2009,hay_nonleguminous,3677.0
+33,214,Canada,"China, Taiwan Province of",2010,hay_nonleguminous,99.0
+33,214,Canada,"China, Taiwan Province of",2011,hay_nonleguminous,3565.0
+33,214,Canada,"China, Taiwan Province of",2012,hay_nonleguminous,7017.0
+33,214,Canada,"China, Taiwan Province of",2013,hay_nonleguminous,6411.0
+33,214,Canada,"China, Taiwan Province of",2014,hay_nonleguminous,5008.0
+33,214,Canada,"China, Taiwan Province of",2015,hay_nonleguminous,5101.0
+33,214,Canada,"China, Taiwan Province of",2016,hay_nonleguminous,1150.0
+33,214,Canada,"China, Taiwan Province of",2017,hay_nonleguminous,117.88
+33,214,Canada,"China, Taiwan Province of",2018,hay_nonleguminous,803.0
+33,214,Canada,"China, Taiwan Province of",2019,hay_nonleguminous,350.0
+33,214,Canada,"China, Taiwan Province of",2020,hay_nonleguminous,617.0
+33,214,Canada,"China, Taiwan Province of",2021,hay_nonleguminous,1256.0
+33,214,Canada,"China, Taiwan Province of",2022,hay_nonleguminous,3278.0
+33,214,Canada,"China, Taiwan Province of",2023,hay_nonleguminous,7044.0
+33,44,Canada,Colombia,2014,hay_nonleguminous,0.33
+33,44,Canada,Colombia,2015,hay_nonleguminous,0.17
+33,48,Canada,Costa Rica,1999,hay_nonleguminous,51.0
+33,48,Canada,Costa Rica,2012,hay_nonleguminous,1.0
+33,48,Canada,Costa Rica,2014,hay_nonleguminous,1.13
+33,48,Canada,Costa Rica,2015,hay_nonleguminous,0.44
+33,48,Canada,Costa Rica,2016,hay_nonleguminous,1.64
+33,48,Canada,Costa Rica,2017,hay_nonleguminous,1.8
+33,48,Canada,Costa Rica,2018,hay_nonleguminous,0.96
+33,48,Canada,Costa Rica,2019,hay_nonleguminous,1.51
+33,48,Canada,Costa Rica,2020,hay_nonleguminous,89.88
+33,48,Canada,Costa Rica,2021,hay_nonleguminous,1.36
+33,48,Canada,Costa Rica,2022,hay_nonleguminous,0.36
+33,49,Canada,Cuba,1991,hay_nonleguminous,40.0
+33,49,Canada,Cuba,2005,hay_nonleguminous,18.0
+33,50,Canada,Cyprus,2008,hay_nonleguminous,30.0
+33,167,Canada,Czechia,2018,hay_nonleguminous,21.0
+33,167,Canada,Czechia,2019,hay_nonleguminous,24.0
+33,167,Canada,Czechia,2020,hay_nonleguminous,42.0
+33,116,Canada,Democratic People's Republic of Korea,1993,hay_nonleguminous,130.0
+33,116,Canada,Democratic People's Republic of Korea,1994,hay_nonleguminous,132.0
+33,116,Canada,Democratic People's Republic of Korea,1995,hay_nonleguminous,112.0
+33,116,Canada,Democratic People's Republic of Korea,1998,hay_nonleguminous,198.0
+33,116,Canada,Democratic People's Republic of Korea,1999,hay_nonleguminous,460.0
+33,116,Canada,Democratic People's Republic of Korea,2000,hay_nonleguminous,43.0
+33,116,Canada,Democratic People's Republic of Korea,2002,hay_nonleguminous,68.0
+33,116,Canada,Democratic People's Republic of Korea,2003,hay_nonleguminous,1271.0
+33,116,Canada,Democratic People's Republic of Korea,2004,hay_nonleguminous,1278.0
+33,116,Canada,Democratic People's Republic of Korea,2005,hay_nonleguminous,107.0
+33,116,Canada,Democratic People's Republic of Korea,2007,hay_nonleguminous,116.0
+33,116,Canada,Democratic People's Republic of Korea,2009,hay_nonleguminous,115.0
+33,54,Canada,Denmark,2000,hay_nonleguminous,5.0
+33,54,Canada,Denmark,2001,hay_nonleguminous,90.0
+33,54,Canada,Denmark,2003,hay_nonleguminous,20.0
+33,54,Canada,Denmark,2004,hay_nonleguminous,2.0
+33,56,Canada,Dominican Republic,2003,hay_nonleguminous,76.0
+33,56,Canada,Dominican Republic,2016,hay_nonleguminous,7.04
+33,56,Canada,Dominican Republic,2017,hay_nonleguminous,113.49
+33,56,Canada,Dominican Republic,2018,hay_nonleguminous,155.89
+33,56,Canada,Dominican Republic,2019,hay_nonleguminous,54.0
+33,56,Canada,Dominican Republic,2020,hay_nonleguminous,64.67
+33,56,Canada,Dominican Republic,2021,hay_nonleguminous,24.88
+33,56,Canada,Dominican Republic,2022,hay_nonleguminous,29.39
+33,56,Canada,Dominican Republic,2023,hay_nonleguminous,54.33
+33,209,Canada,Eswatini,2023,hay_nonleguminous,50.0
+33,64,Canada,Faroe Islands,2008,hay_nonleguminous,100.0
+33,67,Canada,Finland,1990,hay_nonleguminous,20.0
+33,67,Canada,Finland,2001,hay_nonleguminous,33.0
+33,67,Canada,Finland,2018,hay_nonleguminous,32.0
+33,67,Canada,Finland,2019,hay_nonleguminous,78.0
+33,67,Canada,Finland,2020,hay_nonleguminous,71.0
+33,67,Canada,Finland,2021,hay_nonleguminous,37.0
+33,67,Canada,Finland,2022,hay_nonleguminous,25.0
+33,67,Canada,Finland,2023,hay_nonleguminous,32.0
+33,68,Canada,France,1986,hay_nonleguminous,112.0
+33,68,Canada,France,1987,hay_nonleguminous,433.0
+33,68,Canada,France,1988,hay_nonleguminous,275.0
+33,68,Canada,France,1989,hay_nonleguminous,542.0
+33,68,Canada,France,1990,hay_nonleguminous,398.0
+33,68,Canada,France,1991,hay_nonleguminous,323.0
+33,68,Canada,France,1992,hay_nonleguminous,117.0
+33,68,Canada,France,1993,hay_nonleguminous,61.0
+33,68,Canada,France,1994,hay_nonleguminous,40.0
+33,68,Canada,France,1995,hay_nonleguminous,15.0
+33,68,Canada,France,1998,hay_nonleguminous,190.0
+33,68,Canada,France,2000,hay_nonleguminous,49.0
+33,68,Canada,France,2001,hay_nonleguminous,5.0
+33,68,Canada,France,2002,hay_nonleguminous,1.0
+33,68,Canada,France,2003,hay_nonleguminous,53.0
+33,68,Canada,France,2004,hay_nonleguminous,305.0
+33,68,Canada,France,2005,hay_nonleguminous,163.0
+33,68,Canada,France,2006,hay_nonleguminous,130.0
+33,68,Canada,France,2007,hay_nonleguminous,121.0
+33,68,Canada,France,2008,hay_nonleguminous,137.0
+33,68,Canada,France,2009,hay_nonleguminous,88.0
+33,68,Canada,France,2010,hay_nonleguminous,132.0
+33,68,Canada,France,2011,hay_nonleguminous,89.0
+33,68,Canada,France,2012,hay_nonleguminous,98.0
+33,68,Canada,France,2013,hay_nonleguminous,39.0
+33,68,Canada,France,2014,hay_nonleguminous,53.0
+33,68,Canada,France,2015,hay_nonleguminous,2.68
+33,68,Canada,France,2016,hay_nonleguminous,11.52
+33,68,Canada,France,2017,hay_nonleguminous,19.03
+33,68,Canada,France,2018,hay_nonleguminous,5.58
+33,68,Canada,France,2019,hay_nonleguminous,13.2
+33,68,Canada,France,2020,hay_nonleguminous,3.03
+33,68,Canada,France,2022,hay_nonleguminous,0.07
+33,68,Canada,France,2023,hay_nonleguminous,0.17
+33,75,Canada,Gambia,2017,hay_nonleguminous,31.14
+33,75,Canada,Gambia,2020,hay_nonleguminous,1.0
+33,79,Canada,Germany,1992,hay_nonleguminous,12.0
+33,79,Canada,Germany,1993,hay_nonleguminous,58.0
+33,79,Canada,Germany,1994,hay_nonleguminous,44.0
+33,79,Canada,Germany,1995,hay_nonleguminous,25.0
+33,79,Canada,Germany,1996,hay_nonleguminous,61.0
+33,79,Canada,Germany,1998,hay_nonleguminous,2.0
+33,79,Canada,Germany,2001,hay_nonleguminous,106.0
+33,79,Canada,Germany,2002,hay_nonleguminous,20.0
+33,79,Canada,Germany,2003,hay_nonleguminous,11.0
+33,79,Canada,Germany,2004,hay_nonleguminous,53.0
+33,79,Canada,Germany,2008,hay_nonleguminous,2.0
+33,79,Canada,Germany,2018,hay_nonleguminous,125.0
+33,81,Canada,Ghana,2017,hay_nonleguminous,2.08
+33,81,Canada,Ghana,2020,hay_nonleguminous,7.0
+33,84,Canada,Greece,2004,hay_nonleguminous,81.0
+33,86,Canada,Grenada,2021,hay_nonleguminous,56.0
+33,89,Canada,Guatemala,2014,hay_nonleguminous,1.0
+33,89,Canada,Guatemala,2016,hay_nonleguminous,0.72
+33,89,Canada,Guatemala,2018,hay_nonleguminous,0.47
+33,90,Canada,Guinea,2002,hay_nonleguminous,34.0
+33,175,Canada,Guinea-Bissau,2023,hay_nonleguminous,268.0
+33,95,Canada,Honduras,2006,hay_nonleguminous,52.0
+33,95,Canada,Honduras,2007,hay_nonleguminous,306.0
+33,95,Canada,Honduras,2018,hay_nonleguminous,45.0
+33,97,Canada,Hungary,2008,hay_nonleguminous,72.0
+33,99,Canada,Iceland,2012,hay_nonleguminous,23.0
+33,99,Canada,Iceland,2020,hay_nonleguminous,94.0
+33,99,Canada,Iceland,2021,hay_nonleguminous,43.0
+33,100,Canada,India,2001,hay_nonleguminous,221.0
+33,100,Canada,India,2011,hay_nonleguminous,26.0
+33,100,Canada,India,2012,hay_nonleguminous,97.0
+33,100,Canada,India,2014,hay_nonleguminous,102.0
+33,100,Canada,India,2016,hay_nonleguminous,51.0
+33,100,Canada,India,2017,hay_nonleguminous,29.36
+33,100,Canada,India,2018,hay_nonleguminous,163.0
+33,100,Canada,India,2019,hay_nonleguminous,351.0
+33,100,Canada,India,2020,hay_nonleguminous,413.0
+33,100,Canada,India,2021,hay_nonleguminous,1298.0
+33,100,Canada,India,2022,hay_nonleguminous,4113.0
+33,100,Canada,India,2023,hay_nonleguminous,2745.0
+33,101,Canada,Indonesia,2001,hay_nonleguminous,133.0
+33,101,Canada,Indonesia,2002,hay_nonleguminous,111.0
+33,101,Canada,Indonesia,2005,hay_nonleguminous,235.0
+33,101,Canada,Indonesia,2018,hay_nonleguminous,99.0
+33,101,Canada,Indonesia,2019,hay_nonleguminous,47.0
+33,101,Canada,Indonesia,2021,hay_nonleguminous,47.0
+33,101,Canada,Indonesia,2022,hay_nonleguminous,87.0
+33,102,Canada,Iran (Islamic Republic of),2021,hay_nonleguminous,68.0
+33,103,Canada,Iraq,2001,hay_nonleguminous,50.0
+33,103,Canada,Iraq,2003,hay_nonleguminous,93.0
+33,103,Canada,Iraq,2008,hay_nonleguminous,106.0
+33,103,Canada,Iraq,2021,hay_nonleguminous,45.0
+33,104,Canada,Ireland,1986,hay_nonleguminous,504.0
+33,104,Canada,Ireland,1987,hay_nonleguminous,239.0
+33,104,Canada,Ireland,1988,hay_nonleguminous,66.0
+33,104,Canada,Ireland,1989,hay_nonleguminous,22.0
+33,104,Canada,Ireland,1993,hay_nonleguminous,117.0
+33,104,Canada,Ireland,1995,hay_nonleguminous,35.0
+33,104,Canada,Ireland,1996,hay_nonleguminous,88.0
+33,104,Canada,Ireland,2000,hay_nonleguminous,20.0
+33,104,Canada,Ireland,2001,hay_nonleguminous,208.0
+33,104,Canada,Ireland,2002,hay_nonleguminous,344.0
+33,104,Canada,Ireland,2003,hay_nonleguminous,378.0
+33,104,Canada,Ireland,2004,hay_nonleguminous,515.0
+33,104,Canada,Ireland,2005,hay_nonleguminous,243.0
+33,104,Canada,Ireland,2006,hay_nonleguminous,651.0
+33,104,Canada,Ireland,2007,hay_nonleguminous,685.0
+33,104,Canada,Ireland,2008,hay_nonleguminous,348.0
+33,104,Canada,Ireland,2009,hay_nonleguminous,2170.0
+33,104,Canada,Ireland,2010,hay_nonleguminous,1430.0
+33,104,Canada,Ireland,2011,hay_nonleguminous,640.0
+33,104,Canada,Ireland,2012,hay_nonleguminous,1092.0
+33,104,Canada,Ireland,2013,hay_nonleguminous,1104.0
+33,104,Canada,Ireland,2014,hay_nonleguminous,974.0
+33,104,Canada,Ireland,2015,hay_nonleguminous,757.0
+33,104,Canada,Ireland,2016,hay_nonleguminous,449.0
+33,104,Canada,Ireland,2017,hay_nonleguminous,186.5
+33,104,Canada,Ireland,2018,hay_nonleguminous,967.0
+33,104,Canada,Ireland,2020,hay_nonleguminous,216.0
+33,104,Canada,Ireland,2021,hay_nonleguminous,1593.0
+33,104,Canada,Ireland,2022,hay_nonleguminous,3348.0
+33,104,Canada,Ireland,2023,hay_nonleguminous,2553.0
+33,105,Canada,Israel,2002,hay_nonleguminous,1.0
+33,105,Canada,Israel,2003,hay_nonleguminous,130.0
+33,105,Canada,Israel,2011,hay_nonleguminous,2.0
+33,105,Canada,Israel,2012,hay_nonleguminous,7.0
+33,105,Canada,Israel,2014,hay_nonleguminous,1.0
+33,105,Canada,Israel,2015,hay_nonleguminous,27.0
+33,106,Canada,Italy,1986,hay_nonleguminous,417.0
+33,106,Canada,Italy,1988,hay_nonleguminous,18.0
+33,106,Canada,Italy,1993,hay_nonleguminous,49.0
+33,106,Canada,Italy,1995,hay_nonleguminous,38.0
+33,106,Canada,Italy,1996,hay_nonleguminous,1.0
+33,106,Canada,Italy,1997,hay_nonleguminous,160.0
+33,106,Canada,Italy,1998,hay_nonleguminous,40.0
+33,106,Canada,Italy,1999,hay_nonleguminous,100.0
+33,106,Canada,Italy,2000,hay_nonleguminous,180.0
+33,106,Canada,Italy,2001,hay_nonleguminous,110.0
+33,106,Canada,Italy,2003,hay_nonleguminous,205.0
+33,106,Canada,Italy,2004,hay_nonleguminous,242.0
+33,106,Canada,Italy,2005,hay_nonleguminous,131.0
+33,106,Canada,Italy,2006,hay_nonleguminous,145.0
+33,106,Canada,Italy,2007,hay_nonleguminous,20.0
+33,106,Canada,Italy,2008,hay_nonleguminous,40.0
+33,106,Canada,Italy,2010,hay_nonleguminous,79.0
+33,106,Canada,Italy,2018,hay_nonleguminous,35.0
+33,106,Canada,Italy,2019,hay_nonleguminous,100.0
+33,106,Canada,Italy,2020,hay_nonleguminous,61.0
+33,106,Canada,Italy,2021,hay_nonleguminous,82.0
+33,106,Canada,Italy,2022,hay_nonleguminous,90.0
+33,106,Canada,Italy,2023,hay_nonleguminous,129.0
+33,109,Canada,Jamaica,1989,hay_nonleguminous,520.0
+33,109,Canada,Jamaica,1999,hay_nonleguminous,124.0
+33,109,Canada,Jamaica,2001,hay_nonleguminous,250.0
+33,109,Canada,Jamaica,2002,hay_nonleguminous,302.0
+33,109,Canada,Jamaica,2004,hay_nonleguminous,127.0
+33,109,Canada,Jamaica,2005,hay_nonleguminous,258.0
+33,109,Canada,Jamaica,2006,hay_nonleguminous,725.0
+33,109,Canada,Jamaica,2007,hay_nonleguminous,829.0
+33,109,Canada,Jamaica,2008,hay_nonleguminous,104.0
+33,109,Canada,Jamaica,2009,hay_nonleguminous,15.0
+33,109,Canada,Jamaica,2012,hay_nonleguminous,182.0
+33,109,Canada,Jamaica,2015,hay_nonleguminous,114.0
+33,109,Canada,Jamaica,2017,hay_nonleguminous,106.75
+33,109,Canada,Jamaica,2018,hay_nonleguminous,209.0
+33,109,Canada,Jamaica,2019,hay_nonleguminous,96.0
+33,109,Canada,Jamaica,2021,hay_nonleguminous,49.0
+33,109,Canada,Jamaica,2022,hay_nonleguminous,119.0
+33,109,Canada,Jamaica,2023,hay_nonleguminous,68.0
+33,110,Canada,Japan,1986,hay_nonleguminous,2490.0
+33,110,Canada,Japan,1987,hay_nonleguminous,4873.0
+33,110,Canada,Japan,1988,hay_nonleguminous,69935.0
+33,110,Canada,Japan,1989,hay_nonleguminous,47955.0
+33,110,Canada,Japan,1990,hay_nonleguminous,57985.0
+33,110,Canada,Japan,1991,hay_nonleguminous,59559.0
+33,110,Canada,Japan,1992,hay_nonleguminous,69424.0
+33,110,Canada,Japan,1993,hay_nonleguminous,209435.0
+33,110,Canada,Japan,1994,hay_nonleguminous,185026.0
+33,110,Canada,Japan,1995,hay_nonleguminous,237930.0
+33,110,Canada,Japan,1996,hay_nonleguminous,203458.0
+33,110,Canada,Japan,1997,hay_nonleguminous,231642.0
+33,110,Canada,Japan,1998,hay_nonleguminous,194832.0
+33,110,Canada,Japan,1999,hay_nonleguminous,221586.0
+33,110,Canada,Japan,2000,hay_nonleguminous,251531.0
+33,110,Canada,Japan,2001,hay_nonleguminous,268619.0
+33,110,Canada,Japan,2002,hay_nonleguminous,258266.0
+33,110,Canada,Japan,2003,hay_nonleguminous,235271.0
+33,110,Canada,Japan,2004,hay_nonleguminous,325269.0
+33,110,Canada,Japan,2005,hay_nonleguminous,283611.0
+33,110,Canada,Japan,2006,hay_nonleguminous,329109.0
+33,110,Canada,Japan,2007,hay_nonleguminous,377907.0
+33,110,Canada,Japan,2008,hay_nonleguminous,209886.0
+33,110,Canada,Japan,2009,hay_nonleguminous,177270.0
+33,110,Canada,Japan,2010,hay_nonleguminous,197305.0
+33,110,Canada,Japan,2011,hay_nonleguminous,104907.0
+33,110,Canada,Japan,2012,hay_nonleguminous,182615.0
+33,110,Canada,Japan,2013,hay_nonleguminous,175628.0
+33,110,Canada,Japan,2014,hay_nonleguminous,157870.0
+33,110,Canada,Japan,2015,hay_nonleguminous,148112.0
+33,110,Canada,Japan,2016,hay_nonleguminous,127477.0
+33,110,Canada,Japan,2017,hay_nonleguminous,150144.17
+33,110,Canada,Japan,2018,hay_nonleguminous,184667.0
+33,110,Canada,Japan,2019,hay_nonleguminous,178187.0
+33,110,Canada,Japan,2020,hay_nonleguminous,170974.0
+33,110,Canada,Japan,2021,hay_nonleguminous,221571.0
+33,110,Canada,Japan,2022,hay_nonleguminous,314998.0
+33,110,Canada,Japan,2023,hay_nonleguminous,254918.0
+33,112,Canada,Jordan,2003,hay_nonleguminous,124.0
+33,112,Canada,Jordan,2005,hay_nonleguminous,232.0
+33,112,Canada,Jordan,2006,hay_nonleguminous,199.0
+33,112,Canada,Jordan,2014,hay_nonleguminous,0.69
+33,112,Canada,Jordan,2018,hay_nonleguminous,118.3
+33,112,Canada,Jordan,2023,hay_nonleguminous,599.0
+33,118,Canada,Kuwait,1994,hay_nonleguminous,20.0
+33,118,Canada,Kuwait,2008,hay_nonleguminous,246.0
+33,118,Canada,Kuwait,2009,hay_nonleguminous,532.0
+33,118,Canada,Kuwait,2010,hay_nonleguminous,317.0
+33,118,Canada,Kuwait,2011,hay_nonleguminous,466.0
+33,118,Canada,Kuwait,2012,hay_nonleguminous,462.0
+33,118,Canada,Kuwait,2013,hay_nonleguminous,202.0
+33,118,Canada,Kuwait,2014,hay_nonleguminous,123.0
+33,118,Canada,Kuwait,2015,hay_nonleguminous,126.0
+33,118,Canada,Kuwait,2016,hay_nonleguminous,475.0
+33,118,Canada,Kuwait,2017,hay_nonleguminous,42.73
+33,118,Canada,Kuwait,2018,hay_nonleguminous,46.0
+33,118,Canada,Kuwait,2022,hay_nonleguminous,50.0
+33,118,Canada,Kuwait,2023,hay_nonleguminous,116.0
+33,120,Canada,Lao People's Democratic Republic,2009,hay_nonleguminous,114.0
+33,119,Canada,Latvia,2020,hay_nonleguminous,1.0
+33,121,Canada,Lebanon,1997,hay_nonleguminous,25.0
+33,121,Canada,Lebanon,2012,hay_nonleguminous,15.0
+33,121,Canada,Lebanon,2015,hay_nonleguminous,19.0
+33,131,Canada,Malaysia,1986,hay_nonleguminous,14.0
+33,131,Canada,Malaysia,1995,hay_nonleguminous,26.0
+33,131,Canada,Malaysia,1996,hay_nonleguminous,118.0
+33,131,Canada,Malaysia,1997,hay_nonleguminous,19.0
+33,131,Canada,Malaysia,2001,hay_nonleguminous,27.0
+33,131,Canada,Malaysia,2002,hay_nonleguminous,12.0
+33,131,Canada,Malaysia,2003,hay_nonleguminous,28.0
+33,131,Canada,Malaysia,2007,hay_nonleguminous,51.0
+33,131,Canada,Malaysia,2008,hay_nonleguminous,33.0
+33,131,Canada,Malaysia,2009,hay_nonleguminous,44.0
+33,131,Canada,Malaysia,2010,hay_nonleguminous,77.0
+33,131,Canada,Malaysia,2011,hay_nonleguminous,26.0
+33,131,Canada,Malaysia,2012,hay_nonleguminous,114.0
+33,131,Canada,Malaysia,2013,hay_nonleguminous,552.0
+33,131,Canada,Malaysia,2014,hay_nonleguminous,806.0
+33,131,Canada,Malaysia,2015,hay_nonleguminous,674.0
+33,131,Canada,Malaysia,2016,hay_nonleguminous,305.0
+33,131,Canada,Malaysia,2017,hay_nonleguminous,433.48
+33,131,Canada,Malaysia,2018,hay_nonleguminous,557.0
+33,131,Canada,Malaysia,2019,hay_nonleguminous,585.0
+33,131,Canada,Malaysia,2020,hay_nonleguminous,485.0
+33,131,Canada,Malaysia,2021,hay_nonleguminous,436.0
+33,131,Canada,Malaysia,2022,hay_nonleguminous,1110.0
+33,131,Canada,Malaysia,2023,hay_nonleguminous,1276.0
+33,134,Canada,Malta,2004,hay_nonleguminous,7.0
+33,138,Canada,Mexico,1986,hay_nonleguminous,12.0
+33,138,Canada,Mexico,1994,hay_nonleguminous,183.0
+33,138,Canada,Mexico,1995,hay_nonleguminous,227.0
+33,143,Canada,Morocco,2020,hay_nonleguminous,100.0
+33,150,Canada,Netherlands (Kingdom of the),1986,hay_nonleguminous,15.0
+33,150,Canada,Netherlands (Kingdom of the),1990,hay_nonleguminous,7.0
+33,150,Canada,Netherlands (Kingdom of the),1994,hay_nonleguminous,43.0
+33,150,Canada,Netherlands (Kingdom of the),1995,hay_nonleguminous,39.0
+33,150,Canada,Netherlands (Kingdom of the),1996,hay_nonleguminous,2.0
+33,150,Canada,Netherlands (Kingdom of the),1997,hay_nonleguminous,42.0
+33,150,Canada,Netherlands (Kingdom of the),1999,hay_nonleguminous,20.0
+33,150,Canada,Netherlands (Kingdom of the),2000,hay_nonleguminous,46.0
+33,150,Canada,Netherlands (Kingdom of the),2001,hay_nonleguminous,861.0
+33,150,Canada,Netherlands (Kingdom of the),2002,hay_nonleguminous,100.0
+33,150,Canada,Netherlands (Kingdom of the),2003,hay_nonleguminous,17.0
+33,150,Canada,Netherlands (Kingdom of the),2004,hay_nonleguminous,40.0
+33,150,Canada,Netherlands (Kingdom of the),2005,hay_nonleguminous,242.0
+33,150,Canada,Netherlands (Kingdom of the),2006,hay_nonleguminous,30402.0
+33,150,Canada,Netherlands (Kingdom of the),2007,hay_nonleguminous,26.0
+33,150,Canada,Netherlands (Kingdom of the),2008,hay_nonleguminous,114.0
+33,150,Canada,Netherlands (Kingdom of the),2009,hay_nonleguminous,48.0
+33,150,Canada,Netherlands (Kingdom of the),2010,hay_nonleguminous,53.0
+33,150,Canada,Netherlands (Kingdom of the),2011,hay_nonleguminous,200.0
+33,150,Canada,Netherlands (Kingdom of the),2012,hay_nonleguminous,166.0
+33,150,Canada,Netherlands (Kingdom of the),2014,hay_nonleguminous,572.0
+33,150,Canada,Netherlands (Kingdom of the),2015,hay_nonleguminous,278.0
+33,150,Canada,Netherlands (Kingdom of the),2016,hay_nonleguminous,433.0
+33,150,Canada,Netherlands (Kingdom of the),2017,hay_nonleguminous,571.35
+33,150,Canada,Netherlands (Kingdom of the),2018,hay_nonleguminous,1097.0
+33,150,Canada,Netherlands (Kingdom of the),2019,hay_nonleguminous,1676.0
+33,150,Canada,Netherlands (Kingdom of the),2020,hay_nonleguminous,1067.0
+33,150,Canada,Netherlands (Kingdom of the),2021,hay_nonleguminous,2318.0
+33,150,Canada,Netherlands (Kingdom of the),2022,hay_nonleguminous,2504.0
+33,150,Canada,Netherlands (Kingdom of the),2023,hay_nonleguminous,2430.0
+33,156,Canada,New Zealand,2000,hay_nonleguminous,20.0
+33,156,Canada,New Zealand,2008,hay_nonleguminous,182.0
+33,156,Canada,New Zealand,2009,hay_nonleguminous,53.0
+33,162,Canada,Norway,1989,hay_nonleguminous,20.0
+33,162,Canada,Norway,2011,hay_nonleguminous,439.0
+33,162,Canada,Norway,2012,hay_nonleguminous,108.0
+33,162,Canada,Norway,2017,hay_nonleguminous,0.13
+33,221,Canada,Oman,2007,hay_nonleguminous,23.0
+33,165,Canada,Pakistan,2008,hay_nonleguminous,125.0
+33,165,Canada,Pakistan,2021,hay_nonleguminous,2.0
+33,166,Canada,Panama,2003,hay_nonleguminous,18.0
+33,166,Canada,Panama,2004,hay_nonleguminous,42.0
+33,166,Canada,Panama,2008,hay_nonleguminous,130.0
+33,166,Canada,Panama,2009,hay_nonleguminous,3.0
+33,166,Canada,Panama,2014,hay_nonleguminous,0.83
+33,170,Canada,Peru,2001,hay_nonleguminous,133.0
+33,170,Canada,Peru,2003,hay_nonleguminous,1.0
+33,170,Canada,Peru,2004,hay_nonleguminous,1.0
+33,170,Canada,Peru,2015,hay_nonleguminous,129.0
+33,170,Canada,Peru,2016,hay_nonleguminous,142.0
+33,170,Canada,Peru,2022,hay_nonleguminous,0.98
+33,170,Canada,Peru,2023,hay_nonleguminous,0.84
+33,171,Canada,Philippines,2018,hay_nonleguminous,153.0
+33,171,Canada,Philippines,2019,hay_nonleguminous,432.0
+33,171,Canada,Philippines,2020,hay_nonleguminous,101.0
+33,171,Canada,Philippines,2021,hay_nonleguminous,55.0
+33,174,Canada,Portugal,2003,hay_nonleguminous,5.0
+33,174,Canada,Portugal,2004,hay_nonleguminous,3.0
+33,174,Canada,Portugal,2005,hay_nonleguminous,2.0
+33,174,Canada,Portugal,2006,hay_nonleguminous,2.0
+33,174,Canada,Portugal,2007,hay_nonleguminous,4.0
+33,174,Canada,Portugal,2008,hay_nonleguminous,10.0
+33,174,Canada,Portugal,2009,hay_nonleguminous,10.0
+33,174,Canada,Portugal,2010,hay_nonleguminous,6.0
+33,177,Canada,Puerto Rico,1989,hay_nonleguminous,76.0
+33,179,Canada,Qatar,2000,hay_nonleguminous,109.0
+33,179,Canada,Qatar,2006,hay_nonleguminous,156.0
+33,179,Canada,Qatar,2007,hay_nonleguminous,571.0
+33,179,Canada,Qatar,2008,hay_nonleguminous,880.0
+33,179,Canada,Qatar,2009,hay_nonleguminous,375.0
+33,179,Canada,Qatar,2010,hay_nonleguminous,5.0
+33,179,Canada,Qatar,2014,hay_nonleguminous,149.0
+33,179,Canada,Qatar,2015,hay_nonleguminous,697.0
+33,179,Canada,Qatar,2016,hay_nonleguminous,391.0
+33,179,Canada,Qatar,2017,hay_nonleguminous,64.2
+33,179,Canada,Qatar,2018,hay_nonleguminous,176.0
+33,179,Canada,Qatar,2019,hay_nonleguminous,103.0
+33,179,Canada,Qatar,2020,hay_nonleguminous,501.0
+33,179,Canada,Qatar,2021,hay_nonleguminous,49.0
+33,179,Canada,Qatar,2022,hay_nonleguminous,275.0
+33,179,Canada,Qatar,2023,hay_nonleguminous,664.0
+33,117,Canada,Republic of Korea,1988,hay_nonleguminous,255.0
+33,117,Canada,Republic of Korea,1989,hay_nonleguminous,2194.0
+33,117,Canada,Republic of Korea,1990,hay_nonleguminous,1633.0
+33,117,Canada,Republic of Korea,1991,hay_nonleguminous,3133.0
+33,117,Canada,Republic of Korea,1992,hay_nonleguminous,3509.0
+33,117,Canada,Republic of Korea,1993,hay_nonleguminous,15448.0
+33,117,Canada,Republic of Korea,1994,hay_nonleguminous,30805.0
+33,117,Canada,Republic of Korea,1995,hay_nonleguminous,19708.0
+33,117,Canada,Republic of Korea,1996,hay_nonleguminous,18287.0
+33,117,Canada,Republic of Korea,1997,hay_nonleguminous,18377.0
+33,117,Canada,Republic of Korea,1998,hay_nonleguminous,9345.0
+33,117,Canada,Republic of Korea,1999,hay_nonleguminous,18576.0
+33,117,Canada,Republic of Korea,2000,hay_nonleguminous,45725.0
+33,117,Canada,Republic of Korea,2001,hay_nonleguminous,47033.0
+33,117,Canada,Republic of Korea,2002,hay_nonleguminous,22573.0
+33,117,Canada,Republic of Korea,2003,hay_nonleguminous,8132.0
+33,117,Canada,Republic of Korea,2004,hay_nonleguminous,20645.0
+33,117,Canada,Republic of Korea,2005,hay_nonleguminous,50815.0
+33,117,Canada,Republic of Korea,2006,hay_nonleguminous,38827.0
+33,117,Canada,Republic of Korea,2007,hay_nonleguminous,31751.0
+33,117,Canada,Republic of Korea,2008,hay_nonleguminous,13020.0
+33,117,Canada,Republic of Korea,2009,hay_nonleguminous,6631.0
+33,117,Canada,Republic of Korea,2010,hay_nonleguminous,800.0
+33,117,Canada,Republic of Korea,2011,hay_nonleguminous,12086.0
+33,117,Canada,Republic of Korea,2012,hay_nonleguminous,28051.0
+33,117,Canada,Republic of Korea,2013,hay_nonleguminous,20062.0
+33,117,Canada,Republic of Korea,2014,hay_nonleguminous,20872.0
+33,117,Canada,Republic of Korea,2015,hay_nonleguminous,20344.0
+33,117,Canada,Republic of Korea,2016,hay_nonleguminous,22508.0
+33,117,Canada,Republic of Korea,2017,hay_nonleguminous,37121.14
+33,117,Canada,Republic of Korea,2018,hay_nonleguminous,29102.0
+33,117,Canada,Republic of Korea,2019,hay_nonleguminous,28373.0
+33,117,Canada,Republic of Korea,2020,hay_nonleguminous,50269.0
+33,117,Canada,Republic of Korea,2021,hay_nonleguminous,65162.0
+33,117,Canada,Republic of Korea,2022,hay_nonleguminous,101567.0
+33,117,Canada,Republic of Korea,2023,hay_nonleguminous,51546.0
+33,188,Canada,Saint Kitts and Nevis,2005,hay_nonleguminous,8.0
+33,188,Canada,Saint Kitts and Nevis,2006,hay_nonleguminous,9.0
+33,188,Canada,Saint Kitts and Nevis,2007,hay_nonleguminous,29.0
+33,188,Canada,Saint Kitts and Nevis,2008,hay_nonleguminous,139.0
+33,188,Canada,Saint Kitts and Nevis,2010,hay_nonleguminous,10.0
+33,191,Canada,Saint Vincent and the Grenadines,1989,hay_nonleguminous,3.0
+33,191,Canada,Saint Vincent and the Grenadines,1990,hay_nonleguminous,3.0
+33,191,Canada,Saint Vincent and the Grenadines,1996,hay_nonleguminous,9.0
+33,191,Canada,Saint Vincent and the Grenadines,2015,hay_nonleguminous,104.0
+33,191,Canada,Saint Vincent and the Grenadines,2016,hay_nonleguminous,226.0
+33,191,Canada,Saint Vincent and the Grenadines,2017,hay_nonleguminous,156.93
+33,191,Canada,Saint Vincent and the Grenadines,2018,hay_nonleguminous,171.0
+33,191,Canada,Saint Vincent and the Grenadines,2019,hay_nonleguminous,59.0
+33,191,Canada,Saint Vincent and the Grenadines,2020,hay_nonleguminous,140.0
+33,194,Canada,Saudi Arabia,2002,hay_nonleguminous,26.0
+33,194,Canada,Saudi Arabia,2007,hay_nonleguminous,36.0
+33,194,Canada,Saudi Arabia,2010,hay_nonleguminous,202.0
+33,194,Canada,Saudi Arabia,2011,hay_nonleguminous,1.0
+33,194,Canada,Saudi Arabia,2013,hay_nonleguminous,1.0
+33,194,Canada,Saudi Arabia,2018,hay_nonleguminous,179.0
+33,194,Canada,Saudi Arabia,2021,hay_nonleguminous,3.0
+33,194,Canada,Saudi Arabia,2023,hay_nonleguminous,630.0
+33,200,Canada,Singapore,1993,hay_nonleguminous,79.0
+33,200,Canada,Singapore,2002,hay_nonleguminous,14.0
+33,200,Canada,Singapore,2003,hay_nonleguminous,1.0
+33,200,Canada,Singapore,2004,hay_nonleguminous,14.0
+33,200,Canada,Singapore,2005,hay_nonleguminous,12.0
+33,200,Canada,Singapore,2006,hay_nonleguminous,25.0
+33,200,Canada,Singapore,2009,hay_nonleguminous,245.0
+33,200,Canada,Singapore,2010,hay_nonleguminous,94.0
+33,200,Canada,Singapore,2011,hay_nonleguminous,176.0
+33,200,Canada,Singapore,2012,hay_nonleguminous,423.0
+33,200,Canada,Singapore,2013,hay_nonleguminous,449.0
+33,200,Canada,Singapore,2014,hay_nonleguminous,734.0
+33,200,Canada,Singapore,2015,hay_nonleguminous,760.0
+33,200,Canada,Singapore,2016,hay_nonleguminous,549.0
+33,200,Canada,Singapore,2017,hay_nonleguminous,339.58
+33,200,Canada,Singapore,2018,hay_nonleguminous,271.0
+33,200,Canada,Singapore,2019,hay_nonleguminous,399.0
+33,200,Canada,Singapore,2020,hay_nonleguminous,283.0
+33,200,Canada,Singapore,2021,hay_nonleguminous,339.0
+33,200,Canada,Singapore,2022,hay_nonleguminous,318.0
+33,200,Canada,Singapore,2023,hay_nonleguminous,349.0
+33,199,Canada,Slovakia,2008,hay_nonleguminous,3.0
+33,198,Canada,Slovenia,2005,hay_nonleguminous,2.0
+33,198,Canada,Slovenia,2006,hay_nonleguminous,1.0
+33,198,Canada,Slovenia,2007,hay_nonleguminous,3.0
+33,198,Canada,Slovenia,2008,hay_nonleguminous,3.0
+33,198,Canada,Slovenia,2009,hay_nonleguminous,3.0
+33,198,Canada,Slovenia,2010,hay_nonleguminous,3.0
+33,203,Canada,Spain,1997,hay_nonleguminous,108.0
+33,203,Canada,Spain,2000,hay_nonleguminous,1.0
+33,203,Canada,Spain,2003,hay_nonleguminous,53.0
+33,203,Canada,Spain,2011,hay_nonleguminous,3.0
+33,203,Canada,Spain,2012,hay_nonleguminous,1.0
+33,203,Canada,Spain,2014,hay_nonleguminous,6.24
+33,203,Canada,Spain,2015,hay_nonleguminous,67.0
+33,203,Canada,Spain,2016,hay_nonleguminous,2.0
+33,203,Canada,Spain,2022,hay_nonleguminous,12.0
+33,203,Canada,Spain,2023,hay_nonleguminous,106.0
+33,206,Canada,Sudan (former),2003,hay_nonleguminous,22.0
+33,210,Canada,Sweden,2009,hay_nonleguminous,1.0
+33,210,Canada,Sweden,2010,hay_nonleguminous,7.0
+33,210,Canada,Sweden,2022,hay_nonleguminous,9.0
+33,211,Canada,Switzerland,2004,hay_nonleguminous,24.0
+33,208,Canada,Tajikistan,2008,hay_nonleguminous,79.0
+33,216,Canada,Thailand,1992,hay_nonleguminous,49.0
+33,216,Canada,Thailand,1993,hay_nonleguminous,76.0
+33,216,Canada,Thailand,1995,hay_nonleguminous,76.0
+33,216,Canada,Thailand,1996,hay_nonleguminous,104.0
+33,216,Canada,Thailand,2002,hay_nonleguminous,5.0
+33,216,Canada,Thailand,2003,hay_nonleguminous,3.0
+33,216,Canada,Thailand,2004,hay_nonleguminous,3.0
+33,216,Canada,Thailand,2005,hay_nonleguminous,1.0
+33,216,Canada,Thailand,2007,hay_nonleguminous,15.0
+33,216,Canada,Thailand,2011,hay_nonleguminous,116.0
+33,216,Canada,Thailand,2012,hay_nonleguminous,257.0
+33,216,Canada,Thailand,2013,hay_nonleguminous,568.0
+33,216,Canada,Thailand,2014,hay_nonleguminous,750.0
+33,216,Canada,Thailand,2015,hay_nonleguminous,732.0
+33,216,Canada,Thailand,2016,hay_nonleguminous,536.0
+33,216,Canada,Thailand,2017,hay_nonleguminous,557.78
+33,216,Canada,Thailand,2018,hay_nonleguminous,933.0
+33,216,Canada,Thailand,2019,hay_nonleguminous,1107.0
+33,216,Canada,Thailand,2020,hay_nonleguminous,690.0
+33,216,Canada,Thailand,2021,hay_nonleguminous,459.0
+33,216,Canada,Thailand,2022,hay_nonleguminous,569.0
+33,216,Canada,Thailand,2023,hay_nonleguminous,686.0
+33,176,Canada,Timor-Leste,2014,hay_nonleguminous,49.0
+33,220,Canada,Trinidad and Tobago,1986,hay_nonleguminous,12.0
+33,220,Canada,Trinidad and Tobago,1987,hay_nonleguminous,8.0
+33,220,Canada,Trinidad and Tobago,1988,hay_nonleguminous,2.0
+33,220,Canada,Trinidad and Tobago,1995,hay_nonleguminous,78.0
+33,220,Canada,Trinidad and Tobago,2007,hay_nonleguminous,20.0
+33,220,Canada,Trinidad and Tobago,2008,hay_nonleguminous,41.0
+33,220,Canada,Trinidad and Tobago,2009,hay_nonleguminous,56.0
+33,220,Canada,Trinidad and Tobago,2010,hay_nonleguminous,40.0
+33,220,Canada,Trinidad and Tobago,2011,hay_nonleguminous,12.0
+33,220,Canada,Trinidad and Tobago,2014,hay_nonleguminous,25.0
+33,220,Canada,Trinidad and Tobago,2015,hay_nonleguminous,45.0
+33,220,Canada,Trinidad and Tobago,2018,hay_nonleguminous,36.0
+33,220,Canada,Trinidad and Tobago,2019,hay_nonleguminous,78.0
+33,220,Canada,Trinidad and Tobago,2021,hay_nonleguminous,40.0
+33,223,Canada,Türkiye,1996,hay_nonleguminous,162.0
+33,223,Canada,Türkiye,2018,hay_nonleguminous,27.0
+33,225,Canada,United Arab Emirates,1986,hay_nonleguminous,58.0
+33,225,Canada,United Arab Emirates,1987,hay_nonleguminous,70.0
+33,225,Canada,United Arab Emirates,1988,hay_nonleguminous,958.0
+33,225,Canada,United Arab Emirates,1991,hay_nonleguminous,56.0
+33,225,Canada,United Arab Emirates,1993,hay_nonleguminous,15.0
+33,225,Canada,United Arab Emirates,1994,hay_nonleguminous,60.0
+33,225,Canada,United Arab Emirates,1995,hay_nonleguminous,427.0
+33,225,Canada,United Arab Emirates,1996,hay_nonleguminous,560.0
+33,225,Canada,United Arab Emirates,1997,hay_nonleguminous,337.0
+33,225,Canada,United Arab Emirates,1998,hay_nonleguminous,551.0
+33,225,Canada,United Arab Emirates,1999,hay_nonleguminous,370.0
+33,225,Canada,United Arab Emirates,2000,hay_nonleguminous,1279.0
+33,225,Canada,United Arab Emirates,2001,hay_nonleguminous,38.0
+33,225,Canada,United Arab Emirates,2002,hay_nonleguminous,1216.0
+33,225,Canada,United Arab Emirates,2003,hay_nonleguminous,1123.0
+33,225,Canada,United Arab Emirates,2004,hay_nonleguminous,482.0
+33,225,Canada,United Arab Emirates,2005,hay_nonleguminous,788.0
+33,225,Canada,United Arab Emirates,2006,hay_nonleguminous,988.0
+33,225,Canada,United Arab Emirates,2007,hay_nonleguminous,523.0
+33,225,Canada,United Arab Emirates,2008,hay_nonleguminous,2755.0
+33,225,Canada,United Arab Emirates,2009,hay_nonleguminous,7018.0
+33,225,Canada,United Arab Emirates,2010,hay_nonleguminous,908.0
+33,225,Canada,United Arab Emirates,2011,hay_nonleguminous,1469.0
+33,225,Canada,United Arab Emirates,2012,hay_nonleguminous,7672.0
+33,225,Canada,United Arab Emirates,2013,hay_nonleguminous,2151.0
+33,225,Canada,United Arab Emirates,2014,hay_nonleguminous,1833.0
+33,225,Canada,United Arab Emirates,2015,hay_nonleguminous,3872.0
+33,225,Canada,United Arab Emirates,2016,hay_nonleguminous,8921.0
+33,225,Canada,United Arab Emirates,2017,hay_nonleguminous,4369.34
+33,225,Canada,United Arab Emirates,2018,hay_nonleguminous,12563.0
+33,225,Canada,United Arab Emirates,2019,hay_nonleguminous,16096.0
+33,225,Canada,United Arab Emirates,2020,hay_nonleguminous,17906.0
+33,225,Canada,United Arab Emirates,2021,hay_nonleguminous,6514.0
+33,225,Canada,United Arab Emirates,2022,hay_nonleguminous,7825.0
+33,225,Canada,United Arab Emirates,2023,hay_nonleguminous,7958.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1986,hay_nonleguminous,3693.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1987,hay_nonleguminous,1061.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1988,hay_nonleguminous,1703.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1989,hay_nonleguminous,1075.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1990,hay_nonleguminous,1264.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1991,hay_nonleguminous,1574.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1992,hay_nonleguminous,1237.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1993,hay_nonleguminous,331.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1994,hay_nonleguminous,406.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1995,hay_nonleguminous,673.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1996,hay_nonleguminous,2860.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1997,hay_nonleguminous,1018.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1998,hay_nonleguminous,1260.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1999,hay_nonleguminous,1151.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2000,hay_nonleguminous,936.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2001,hay_nonleguminous,242.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2002,hay_nonleguminous,692.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2003,hay_nonleguminous,1354.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2004,hay_nonleguminous,13.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2005,hay_nonleguminous,233.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2006,hay_nonleguminous,1365.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2007,hay_nonleguminous,3033.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2008,hay_nonleguminous,904.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2009,hay_nonleguminous,2113.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2010,hay_nonleguminous,2208.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2011,hay_nonleguminous,830.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2012,hay_nonleguminous,1019.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2013,hay_nonleguminous,609.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2014,hay_nonleguminous,1074.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2015,hay_nonleguminous,961.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2016,hay_nonleguminous,496.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2017,hay_nonleguminous,392.9
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2018,hay_nonleguminous,1946.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2019,hay_nonleguminous,876.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2020,hay_nonleguminous,792.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2021,hay_nonleguminous,514.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2022,hay_nonleguminous,3354.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,2023,hay_nonleguminous,2839.0
+33,231,Canada,United States of America,1986,hay_nonleguminous,71084.0
+33,231,Canada,United States of America,1987,hay_nonleguminous,47612.0
+33,231,Canada,United States of America,1988,hay_nonleguminous,44425.0
+33,231,Canada,United States of America,1989,hay_nonleguminous,43687.0
+33,231,Canada,United States of America,1990,hay_nonleguminous,49847.0
+33,231,Canada,United States of America,1991,hay_nonleguminous,28097.0
+33,231,Canada,United States of America,1992,hay_nonleguminous,41723.0
+33,231,Canada,United States of America,1993,hay_nonleguminous,39090.0
+33,231,Canada,United States of America,1994,hay_nonleguminous,50189.0
+33,231,Canada,United States of America,1995,hay_nonleguminous,64278.0
+33,231,Canada,United States of America,1996,hay_nonleguminous,77442.0
+33,231,Canada,United States of America,1997,hay_nonleguminous,86628.0
+33,231,Canada,United States of America,1998,hay_nonleguminous,59230.0
+33,231,Canada,United States of America,1999,hay_nonleguminous,51831.0
+33,231,Canada,United States of America,2000,hay_nonleguminous,66601.0
+33,231,Canada,United States of America,2001,hay_nonleguminous,84470.0
+33,231,Canada,United States of America,2002,hay_nonleguminous,62756.0
+33,231,Canada,United States of America,2003,hay_nonleguminous,61048.0
+33,231,Canada,United States of America,2004,hay_nonleguminous,77481.0
+33,231,Canada,United States of America,2005,hay_nonleguminous,78791.0
+33,231,Canada,United States of America,2006,hay_nonleguminous,92238.0
+33,231,Canada,United States of America,2007,hay_nonleguminous,142077.0
+33,231,Canada,United States of America,2008,hay_nonleguminous,170231.0
+33,231,Canada,United States of America,2009,hay_nonleguminous,120951.0
+33,231,Canada,United States of America,2010,hay_nonleguminous,76275.0
+33,231,Canada,United States of America,2011,hay_nonleguminous,154656.0
+33,231,Canada,United States of America,2012,hay_nonleguminous,263896.0
+33,231,Canada,United States of America,2013,hay_nonleguminous,229714.0
+33,231,Canada,United States of America,2014,hay_nonleguminous,185232.0
+33,231,Canada,United States of America,2015,hay_nonleguminous,155487.0
+33,231,Canada,United States of America,2016,hay_nonleguminous,135197.0
+33,231,Canada,United States of America,2017,hay_nonleguminous,130577.65
+33,231,Canada,United States of America,2018,hay_nonleguminous,134115.0
+33,231,Canada,United States of America,2019,hay_nonleguminous,140377.0
+33,231,Canada,United States of America,2020,hay_nonleguminous,157588.0
+33,231,Canada,United States of America,2021,hay_nonleguminous,224646.0
+33,231,Canada,United States of America,2022,hay_nonleguminous,233197.0
+33,231,Canada,United States of America,2023,hay_nonleguminous,275379.0
+33,236,Canada,Venezuela (Bolivarian Republic of),1989,hay_nonleguminous,434.0
+33,236,Canada,Venezuela (Bolivarian Republic of),1993,hay_nonleguminous,9.0
+33,236,Canada,Venezuela (Bolivarian Republic of),1996,hay_nonleguminous,13.0
+33,236,Canada,Venezuela (Bolivarian Republic of),2013,hay_nonleguminous,25.0
+33,237,Canada,Viet Nam,2010,hay_nonleguminous,45.0
+33,237,Canada,Viet Nam,2014,hay_nonleguminous,25.0
+33,237,Canada,Viet Nam,2015,hay_nonleguminous,26.0
+33,237,Canada,Viet Nam,2016,hay_nonleguminous,25.0
+33,237,Canada,Viet Nam,2017,hay_nonleguminous,23.64

@@ -1,0 +1,51 @@
+[tool.poetry.urls]
+Homepage = "https://github.com/tjohns94/netviz_tools"
+"Bug Tracker" = "https://github.com/tjohns94/netviz_tools/issues"
+Documentation = "https://github.com/tjohns94/netviz_tools/tree/main/docs"
+
+[tool.poetry]
+name = "netviz-tools"
+version = "0.2.0"
+description = "A versatile network data visualization and analysis toolkit with FAOSTAT agricultural trade data support"
+authors = ["Tyson Johnson <tjohns94@gmu.edu>"]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
+packages = [
+  { include = "netviz_tools", from = "src" }
+]
+license = "MIT"
+
+[tool.poetry.scripts]
+netviz_tools = "netviz_tools.__main__:main"
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+pandas = ">=1.0.0"
+numpy = ">=1.20.0"
+networkx = ">=2.5"
+matplotlib = ">=3.3.0"
+geopandas = ">=0.9.0"
+plotly = ">=5.0.0"
+powerlaw = ">=1.5"
+pydantic = ">=1.8.0"
+rich = ">=10.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=6.0"
+flake8 = "*"
+mypy = "*"
+sphinx = "*"
+build = ">=1.0.0"
+twine = ">=4.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

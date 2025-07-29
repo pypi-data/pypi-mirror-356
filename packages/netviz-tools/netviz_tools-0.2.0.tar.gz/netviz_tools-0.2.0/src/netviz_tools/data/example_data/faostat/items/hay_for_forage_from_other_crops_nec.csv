@@ -1,0 +1,774 @@
+o_code,d_code,o_name,d_name,year,item,weight
+11,3,Austria,Albania,2014,hay_for_forage_from_other_crops_nec,0.78
+11,3,Austria,Albania,2015,hay_for_forage_from_other_crops_nec,0.36
+194,13,Saudi Arabia,Bahrain,1998,hay_for_forage_from_other_crops_nec,1624.0
+10,13,Australia,Bahrain,1988,hay_for_forage_from_other_crops_nec,36.0
+10,13,Australia,Bahrain,1989,hay_for_forage_from_other_crops_nec,36.0
+10,13,Australia,Bahrain,1990,hay_for_forage_from_other_crops_nec,36.0
+10,13,Australia,Bahrain,1991,hay_for_forage_from_other_crops_nec,121.0
+10,13,Australia,Bahrain,1992,hay_for_forage_from_other_crops_nec,174.0
+10,13,Australia,Bahrain,1993,hay_for_forage_from_other_crops_nec,127.0
+10,13,Australia,Bahrain,1994,hay_for_forage_from_other_crops_nec,181.0
+10,13,Australia,Bahrain,1996,hay_for_forage_from_other_crops_nec,80.0
+10,16,Australia,Bangladesh,1996,hay_for_forage_from_other_crops_nec,1193.0
+210,13,Sweden,Bahrain,1988,hay_for_forage_from_other_crops_nec,10.0
+210,13,Sweden,Bahrain,1989,hay_for_forage_from_other_crops_nec,11.0
+11,255,Austria,Belgium,2015,hay_for_forage_from_other_crops_nec,40.2
+11,255,Austria,Belgium,2021,hay_for_forage_from_other_crops_nec,0.14
+11,255,Austria,Belgium,2022,hay_for_forage_from_other_crops_nec,1.78
+11,255,Austria,Belgium,2023,hay_for_forage_from_other_crops_nec,0.89
+10,15,Australia,Belgium-Luxembourg,1991,hay_for_forage_from_other_crops_nec,42.0
+10,15,Australia,Belgium-Luxembourg,1992,hay_for_forage_from_other_crops_nec,108.0
+10,15,Australia,Belgium-Luxembourg,1996,hay_for_forage_from_other_crops_nec,818.0
+67,27,Finland,Bulgaria,2023,hay_for_forage_from_other_crops_nec,0.02
+249,194,Yemen,Saudi Arabia,1998,hay_for_forage_from_other_crops_nec,48.0
+249,194,Yemen,Saudi Arabia,2003,hay_for_forage_from_other_crops_nec,288.0
+210,255,Sweden,Belgium,2023,hay_for_forage_from_other_crops_nec,0.04
+10,26,Australia,Brunei Darussalam,1990,hay_for_forage_from_other_crops_nec,57.0
+10,26,Australia,Brunei Darussalam,1991,hay_for_forage_from_other_crops_nec,22.0
+10,26,Australia,Brunei Darussalam,1993,hay_for_forage_from_other_crops_nec,251.0
+10,26,Australia,Brunei Darussalam,1994,hay_for_forage_from_other_crops_nec,40.0
+10,26,Australia,Brunei Darussalam,1996,hay_for_forage_from_other_crops_nec,13.0
+67,214,Finland,"China, Taiwan Province of",2008,hay_for_forage_from_other_crops_nec,21.0
+210,19,Sweden,Bolivia (Plurinational State of),1992,hay_for_forage_from_other_crops_nec,11.0
+10,33,Australia,Canada,1988,hay_for_forage_from_other_crops_nec,15.0
+11,27,Austria,Bulgaria,2022,hay_for_forage_from_other_crops_nec,0.52
+11,27,Austria,Bulgaria,2023,hay_for_forage_from_other_crops_nec,0.64
+67,54,Finland,Denmark,2019,hay_for_forage_from_other_crops_nec,0.09
+67,54,Finland,Denmark,2021,hay_for_forage_from_other_crops_nec,0.62
+67,54,Finland,Denmark,2022,hay_for_forage_from_other_crops_nec,0.01
+67,54,Finland,Denmark,2023,hay_for_forage_from_other_crops_nec,0.01
+210,33,Sweden,Canada,2005,hay_for_forage_from_other_crops_nec,87.0
+118,102,Kuwait,Iran (Islamic Republic of),2001,hay_for_forage_from_other_crops_nec,331.0
+10,96,Australia,"China, Hong Kong SAR",1988,hay_for_forage_from_other_crops_nec,285.0
+10,96,Australia,"China, Hong Kong SAR",1989,hay_for_forage_from_other_crops_nec,357.0
+10,96,Australia,"China, Hong Kong SAR",1990,hay_for_forage_from_other_crops_nec,525.0
+10,96,Australia,"China, Hong Kong SAR",1991,hay_for_forage_from_other_crops_nec,511.0
+10,96,Australia,"China, Hong Kong SAR",1992,hay_for_forage_from_other_crops_nec,571.0
+10,96,Australia,"China, Hong Kong SAR",1993,hay_for_forage_from_other_crops_nec,793.0
+10,96,Australia,"China, Hong Kong SAR",1994,hay_for_forage_from_other_crops_nec,1858.0
+10,96,Australia,"China, Hong Kong SAR",1996,hay_for_forage_from_other_crops_nec,2685.0
+11,33,Austria,Canada,1991,hay_for_forage_from_other_crops_nec,12.0
+210,96,Sweden,"China, Hong Kong SAR",1988,hay_for_forage_from_other_crops_nec,10.0
+210,128,Sweden,"China, Macao SAR",2004,hay_for_forage_from_other_crops_nec,4.0
+162,54,Norway,Denmark,2010,hay_for_forage_from_other_crops_nec,14.0
+162,54,Norway,Denmark,2012,hay_for_forage_from_other_crops_nec,41.0
+162,54,Norway,Denmark,2018,hay_for_forage_from_other_crops_nec,0.01
+162,54,Norway,Denmark,2019,hay_for_forage_from_other_crops_nec,0.52
+162,54,Norway,Denmark,2020,hay_for_forage_from_other_crops_nec,5.07
+162,54,Norway,Denmark,2021,hay_for_forage_from_other_crops_nec,5.79
+162,54,Norway,Denmark,2022,hay_for_forage_from_other_crops_nec,0.72
+67,63,Finland,Estonia,1995,hay_for_forage_from_other_crops_nec,1.0
+67,63,Finland,Estonia,1996,hay_for_forage_from_other_crops_nec,124.0
+67,63,Finland,Estonia,1998,hay_for_forage_from_other_crops_nec,2.0
+67,63,Finland,Estonia,1999,hay_for_forage_from_other_crops_nec,4.0
+67,63,Finland,Estonia,2000,hay_for_forage_from_other_crops_nec,3.0
+67,63,Finland,Estonia,2001,hay_for_forage_from_other_crops_nec,4.0
+67,63,Finland,Estonia,2002,hay_for_forage_from_other_crops_nec,2.0
+67,63,Finland,Estonia,2003,hay_for_forage_from_other_crops_nec,30.0
+67,63,Finland,Estonia,2004,hay_for_forage_from_other_crops_nec,36.0
+67,63,Finland,Estonia,2005,hay_for_forage_from_other_crops_nec,62.0
+67,63,Finland,Estonia,2006,hay_for_forage_from_other_crops_nec,2.0
+67,63,Finland,Estonia,2014,hay_for_forage_from_other_crops_nec,0.1
+67,63,Finland,Estonia,2015,hay_for_forage_from_other_crops_nec,0.3
+67,63,Finland,Estonia,2016,hay_for_forage_from_other_crops_nec,0.9
+67,63,Finland,Estonia,2017,hay_for_forage_from_other_crops_nec,1.05
+67,63,Finland,Estonia,2018,hay_for_forage_from_other_crops_nec,1.38
+67,63,Finland,Estonia,2019,hay_for_forage_from_other_crops_nec,2.14
+67,63,Finland,Estonia,2020,hay_for_forage_from_other_crops_nec,1.88
+67,63,Finland,Estonia,2021,hay_for_forage_from_other_crops_nec,1.01
+67,63,Finland,Estonia,2022,hay_for_forage_from_other_crops_nec,0.77
+67,63,Finland,Estonia,2023,hay_for_forage_from_other_crops_nec,0.72
+210,41,Sweden,"China, mainland",2009,hay_for_forage_from_other_crops_nec,160.0
+10,128,Australia,"China, Macao SAR",1992,hay_for_forage_from_other_crops_nec,100.0
+10,128,Australia,"China, Macao SAR",1993,hay_for_forage_from_other_crops_nec,44.0
+10,128,Australia,"China, Macao SAR",1994,hay_for_forage_from_other_crops_nec,19.0
+10,128,Australia,"China, Macao SAR",1996,hay_for_forage_from_other_crops_nec,77.0
+10,41,Australia,"China, mainland",1996,hay_for_forage_from_other_crops_nec,60.0
+67,68,Finland,France,2022,hay_for_forage_from_other_crops_nec,0.08
+67,68,Finland,France,2023,hay_for_forage_from_other_crops_nec,0.16
+194,112,Saudi Arabia,Jordan,1998,hay_for_forage_from_other_crops_nec,12810.0
+221,179,Oman,Qatar,2017,hay_for_forage_from_other_crops_nec,204.04
+221,179,Oman,Qatar,2018,hay_for_forage_from_other_crops_nec,2.5
+221,179,Oman,Qatar,2019,hay_for_forage_from_other_crops_nec,25.0
+11,98,Austria,Croatia,1993,hay_for_forage_from_other_crops_nec,11.0
+11,98,Austria,Croatia,2012,hay_for_forage_from_other_crops_nec,2.0
+11,98,Austria,Croatia,2013,hay_for_forage_from_other_crops_nec,2.0
+11,98,Austria,Croatia,2014,hay_for_forage_from_other_crops_nec,2.2
+11,98,Austria,Croatia,2015,hay_for_forage_from_other_crops_nec,2.1
+11,98,Austria,Croatia,2016,hay_for_forage_from_other_crops_nec,1.88
+11,98,Austria,Croatia,2017,hay_for_forage_from_other_crops_nec,2.67
+11,98,Austria,Croatia,2018,hay_for_forage_from_other_crops_nec,3.76
+11,98,Austria,Croatia,2019,hay_for_forage_from_other_crops_nec,4.74
+11,98,Austria,Croatia,2020,hay_for_forage_from_other_crops_nec,20.55
+11,98,Austria,Croatia,2021,hay_for_forage_from_other_crops_nec,5.21
+11,98,Austria,Croatia,2022,hay_for_forage_from_other_crops_nec,6.21
+11,98,Austria,Croatia,2023,hay_for_forage_from_other_crops_nec,6.89
+10,214,Australia,"China, Taiwan Province of",1992,hay_for_forage_from_other_crops_nec,48.0
+10,214,Australia,"China, Taiwan Province of",1993,hay_for_forage_from_other_crops_nec,4.0
+10,214,Australia,"China, Taiwan Province of",1994,hay_for_forage_from_other_crops_nec,1977.0
+10,214,Australia,"China, Taiwan Province of",1996,hay_for_forage_from_other_crops_nec,3432.0
+162,67,Norway,Finland,1990,hay_for_forage_from_other_crops_nec,16.0
+162,67,Norway,Finland,1992,hay_for_forage_from_other_crops_nec,21.0
+162,67,Norway,Finland,1993,hay_for_forage_from_other_crops_nec,4.0
+162,67,Norway,Finland,1995,hay_for_forage_from_other_crops_nec,12.0
+162,67,Norway,Finland,1996,hay_for_forage_from_other_crops_nec,10.0
+162,67,Norway,Finland,1997,hay_for_forage_from_other_crops_nec,7.0
+162,67,Norway,Finland,2000,hay_for_forage_from_other_crops_nec,107.0
+162,67,Norway,Finland,2001,hay_for_forage_from_other_crops_nec,20.0
+162,67,Norway,Finland,2002,hay_for_forage_from_other_crops_nec,122.0
+162,67,Norway,Finland,2003,hay_for_forage_from_other_crops_nec,26.0
+162,67,Norway,Finland,2004,hay_for_forage_from_other_crops_nec,8.0
+162,67,Norway,Finland,2006,hay_for_forage_from_other_crops_nec,51.0
+162,67,Norway,Finland,2007,hay_for_forage_from_other_crops_nec,98.0
+162,67,Norway,Finland,2008,hay_for_forage_from_other_crops_nec,23.0
+162,67,Norway,Finland,2009,hay_for_forage_from_other_crops_nec,11.0
+162,67,Norway,Finland,2010,hay_for_forage_from_other_crops_nec,39.0
+162,67,Norway,Finland,2011,hay_for_forage_from_other_crops_nec,11.0
+162,67,Norway,Finland,2012,hay_for_forage_from_other_crops_nec,35.0
+162,67,Norway,Finland,2013,hay_for_forage_from_other_crops_nec,3.0
+162,67,Norway,Finland,2014,hay_for_forage_from_other_crops_nec,148.0
+162,67,Norway,Finland,2016,hay_for_forage_from_other_crops_nec,279.92
+162,67,Norway,Finland,2017,hay_for_forage_from_other_crops_nec,92.05
+162,67,Norway,Finland,2018,hay_for_forage_from_other_crops_nec,46.3
+162,67,Norway,Finland,2020,hay_for_forage_from_other_crops_nec,10.18
+194,118,Saudi Arabia,Kuwait,1998,hay_for_forage_from_other_crops_nec,20031.0
+194,120,Saudi Arabia,Lao People's Democratic Republic,1998,hay_for_forage_from_other_crops_nec,8.0
+194,121,Saudi Arabia,Lebanon,1998,hay_for_forage_from_other_crops_nec,132.0
+67,79,Finland,Germany,2023,hay_for_forage_from_other_crops_nec,0.01
+10,50,Australia,Cyprus,1996,hay_for_forage_from_other_crops_nec,48.0
+210,54,Sweden,Denmark,1986,hay_for_forage_from_other_crops_nec,14.0
+210,54,Sweden,Denmark,1987,hay_for_forage_from_other_crops_nec,4.0
+210,54,Sweden,Denmark,1991,hay_for_forage_from_other_crops_nec,12.0
+210,54,Sweden,Denmark,1992,hay_for_forage_from_other_crops_nec,25.0
+210,54,Sweden,Denmark,1993,hay_for_forage_from_other_crops_nec,58.0
+210,54,Sweden,Denmark,1994,hay_for_forage_from_other_crops_nec,97.0
+210,54,Sweden,Denmark,2001,hay_for_forage_from_other_crops_nec,7.0
+210,54,Sweden,Denmark,2002,hay_for_forage_from_other_crops_nec,1240.0
+210,54,Sweden,Denmark,2003,hay_for_forage_from_other_crops_nec,4960.0
+210,54,Sweden,Denmark,2004,hay_for_forage_from_other_crops_nec,17.0
+210,54,Sweden,Denmark,2005,hay_for_forage_from_other_crops_nec,667.0
+210,54,Sweden,Denmark,2006,hay_for_forage_from_other_crops_nec,71.0
+210,54,Sweden,Denmark,2007,hay_for_forage_from_other_crops_nec,10.0
+210,54,Sweden,Denmark,2008,hay_for_forage_from_other_crops_nec,9.0
+210,54,Sweden,Denmark,2009,hay_for_forage_from_other_crops_nec,9.0
+210,54,Sweden,Denmark,2010,hay_for_forage_from_other_crops_nec,7.0
+210,54,Sweden,Denmark,2011,hay_for_forage_from_other_crops_nec,6.0
+210,54,Sweden,Denmark,2012,hay_for_forage_from_other_crops_nec,4.0
+210,54,Sweden,Denmark,2013,hay_for_forage_from_other_crops_nec,2.0
+210,54,Sweden,Denmark,2014,hay_for_forage_from_other_crops_nec,2.9
+210,54,Sweden,Denmark,2015,hay_for_forage_from_other_crops_nec,5.5
+210,54,Sweden,Denmark,2016,hay_for_forage_from_other_crops_nec,6.03
+210,54,Sweden,Denmark,2017,hay_for_forage_from_other_crops_nec,5.73
+210,54,Sweden,Denmark,2018,hay_for_forage_from_other_crops_nec,6.08
+210,54,Sweden,Denmark,2019,hay_for_forage_from_other_crops_nec,6.33
+210,54,Sweden,Denmark,2020,hay_for_forage_from_other_crops_nec,6.76
+210,54,Sweden,Denmark,2021,hay_for_forage_from_other_crops_nec,7.5
+210,54,Sweden,Denmark,2022,hay_for_forage_from_other_crops_nec,11.18
+210,54,Sweden,Denmark,2023,hay_for_forage_from_other_crops_nec,28.75
+11,167,Austria,Czechia,1994,hay_for_forage_from_other_crops_nec,14.0
+11,167,Austria,Czechia,2012,hay_for_forage_from_other_crops_nec,2.0
+11,167,Austria,Czechia,2013,hay_for_forage_from_other_crops_nec,27.0
+11,167,Austria,Czechia,2014,hay_for_forage_from_other_crops_nec,0.1
+11,167,Austria,Czechia,2015,hay_for_forage_from_other_crops_nec,24.5
+11,167,Austria,Czechia,2016,hay_for_forage_from_other_crops_nec,1.17
+11,167,Austria,Czechia,2017,hay_for_forage_from_other_crops_nec,5.3
+11,167,Austria,Czechia,2018,hay_for_forage_from_other_crops_nec,1.37
+11,167,Austria,Czechia,2019,hay_for_forage_from_other_crops_nec,0.69
+11,167,Austria,Czechia,2020,hay_for_forage_from_other_crops_nec,2.57
+11,167,Austria,Czechia,2021,hay_for_forage_from_other_crops_nec,1.05
+11,167,Austria,Czechia,2022,hay_for_forage_from_other_crops_nec,2.21
+11,167,Austria,Czechia,2023,hay_for_forage_from_other_crops_nec,1.03
+10,59,Australia,Egypt,1990,hay_for_forage_from_other_crops_nec,504.0
+194,221,Saudi Arabia,Oman,1998,hay_for_forage_from_other_crops_nec,33.0
+10,66,Australia,Fiji,1988,hay_for_forage_from_other_crops_nec,17.0
+10,66,Australia,Fiji,1989,hay_for_forage_from_other_crops_nec,17.0
+10,66,Australia,Fiji,1992,hay_for_forage_from_other_crops_nec,16.0
+10,66,Australia,Fiji,1993,hay_for_forage_from_other_crops_nec,26.0
+10,66,Australia,Fiji,1994,hay_for_forage_from_other_crops_nec,17.0
+10,66,Australia,Fiji,1996,hay_for_forage_from_other_crops_nec,821.0
+11,51,Austria,Czechoslovakia,1992,hay_for_forage_from_other_crops_nec,4.0
+221,225,Oman,United Arab Emirates,2011,hay_for_forage_from_other_crops_nec,756.0
+221,225,Oman,United Arab Emirates,2012,hay_for_forage_from_other_crops_nec,340.0
+221,225,Oman,United Arab Emirates,2013,hay_for_forage_from_other_crops_nec,1.0
+221,225,Oman,United Arab Emirates,2014,hay_for_forage_from_other_crops_nec,18.42
+221,225,Oman,United Arab Emirates,2015,hay_for_forage_from_other_crops_nec,656.92
+221,225,Oman,United Arab Emirates,2016,hay_for_forage_from_other_crops_nec,1.8
+221,225,Oman,United Arab Emirates,2018,hay_for_forage_from_other_crops_nec,20.0
+221,225,Oman,United Arab Emirates,2019,hay_for_forage_from_other_crops_nec,3.0
+221,225,Oman,United Arab Emirates,2020,hay_for_forage_from_other_crops_nec,25.3
+221,225,Oman,United Arab Emirates,2021,hay_for_forage_from_other_crops_nec,73.5
+11,54,Austria,Denmark,2019,hay_for_forage_from_other_crops_nec,0.05
+11,54,Austria,Denmark,2020,hay_for_forage_from_other_crops_nec,0.64
+11,54,Austria,Denmark,2021,hay_for_forage_from_other_crops_nec,0.12
+11,54,Austria,Denmark,2022,hay_for_forage_from_other_crops_nec,0.63
+67,106,Finland,Italy,2022,hay_for_forage_from_other_crops_nec,0.01
+67,106,Finland,Italy,2023,hay_for_forage_from_other_crops_nec,0.25
+10,68,Australia,France,1994,hay_for_forage_from_other_crops_nec,175.0
+194,179,Saudi Arabia,Qatar,1998,hay_for_forage_from_other_crops_nec,3891.0
+10,70,Australia,French Polynesia,1992,hay_for_forage_from_other_crops_nec,160.0
+10,70,Australia,French Polynesia,1993,hay_for_forage_from_other_crops_nec,226.0
+10,70,Australia,French Polynesia,1994,hay_for_forage_from_other_crops_nec,492.0
+10,70,Australia,French Polynesia,1996,hay_for_forage_from_other_crops_nec,1046.0
+210,64,Sweden,Faroe Islands,2010,hay_for_forage_from_other_crops_nec,12.0
+118,225,Kuwait,United Arab Emirates,2000,hay_for_forage_from_other_crops_nec,95.0
+11,67,Austria,Finland,2019,hay_for_forage_from_other_crops_nec,0.12
+11,67,Austria,Finland,2020,hay_for_forage_from_other_crops_nec,0.1
+11,67,Austria,Finland,2021,hay_for_forage_from_other_crops_nec,0.2
+11,67,Austria,Finland,2022,hay_for_forage_from_other_crops_nec,0.13
+11,67,Austria,Finland,2023,hay_for_forage_from_other_crops_nec,0.19
+67,121,Finland,Lebanon,2018,hay_for_forage_from_other_crops_nec,0.03
+210,67,Sweden,Finland,1986,hay_for_forage_from_other_crops_nec,60.0
+210,67,Sweden,Finland,1987,hay_for_forage_from_other_crops_nec,421.0
+210,67,Sweden,Finland,1988,hay_for_forage_from_other_crops_nec,698.0
+210,67,Sweden,Finland,1989,hay_for_forage_from_other_crops_nec,17.0
+210,67,Sweden,Finland,1990,hay_for_forage_from_other_crops_nec,695.0
+210,67,Sweden,Finland,1991,hay_for_forage_from_other_crops_nec,1111.0
+210,67,Sweden,Finland,1992,hay_for_forage_from_other_crops_nec,1226.0
+210,67,Sweden,Finland,1993,hay_for_forage_from_other_crops_nec,393.0
+210,67,Sweden,Finland,1994,hay_for_forage_from_other_crops_nec,81.0
+210,67,Sweden,Finland,1995,hay_for_forage_from_other_crops_nec,23.0
+210,67,Sweden,Finland,1996,hay_for_forage_from_other_crops_nec,37.0
+210,67,Sweden,Finland,1997,hay_for_forage_from_other_crops_nec,16.0
+210,67,Sweden,Finland,1998,hay_for_forage_from_other_crops_nec,14.0
+210,67,Sweden,Finland,1999,hay_for_forage_from_other_crops_nec,37.0
+210,67,Sweden,Finland,2000,hay_for_forage_from_other_crops_nec,56.0
+210,67,Sweden,Finland,2001,hay_for_forage_from_other_crops_nec,7.0
+210,67,Sweden,Finland,2002,hay_for_forage_from_other_crops_nec,52.0
+210,67,Sweden,Finland,2003,hay_for_forage_from_other_crops_nec,14.0
+210,67,Sweden,Finland,2004,hay_for_forage_from_other_crops_nec,3.0
+210,67,Sweden,Finland,2010,hay_for_forage_from_other_crops_nec,1.0
+210,67,Sweden,Finland,2011,hay_for_forage_from_other_crops_nec,1.0
+210,67,Sweden,Finland,2012,hay_for_forage_from_other_crops_nec,9.0
+210,67,Sweden,Finland,2013,hay_for_forage_from_other_crops_nec,8.0
+210,67,Sweden,Finland,2014,hay_for_forage_from_other_crops_nec,1.04
+210,67,Sweden,Finland,2015,hay_for_forage_from_other_crops_nec,2.02
+210,67,Sweden,Finland,2017,hay_for_forage_from_other_crops_nec,1.8
+210,67,Sweden,Finland,2018,hay_for_forage_from_other_crops_nec,0.21
+210,67,Sweden,Finland,2019,hay_for_forage_from_other_crops_nec,0.25
+210,67,Sweden,Finland,2020,hay_for_forage_from_other_crops_nec,1.0
+210,67,Sweden,Finland,2021,hay_for_forage_from_other_crops_nec,4.94
+210,67,Sweden,Finland,2022,hay_for_forage_from_other_crops_nec,5.32
+210,67,Sweden,Finland,2023,hay_for_forage_from_other_crops_nec,3.58
+67,126,Finland,Lithuania,2017,hay_for_forage_from_other_crops_nec,0.01
+67,126,Finland,Lithuania,2019,hay_for_forage_from_other_crops_nec,0.06
+67,126,Finland,Lithuania,2020,hay_for_forage_from_other_crops_nec,0.01
+67,126,Finland,Lithuania,2022,hay_for_forage_from_other_crops_nec,0.01
+67,126,Finland,Lithuania,2023,hay_for_forage_from_other_crops_nec,0.02
+221,249,Oman,Yemen,2014,hay_for_forage_from_other_crops_nec,16.46
+221,249,Oman,Yemen,2020,hay_for_forage_from_other_crops_nec,33.6
+221,249,Oman,Yemen,2021,hay_for_forage_from_other_crops_nec,1.5
+10,84,Australia,Greece,1991,hay_for_forage_from_other_crops_nec,21.0
+11,68,Austria,France,2017,hay_for_forage_from_other_crops_nec,0.09
+11,68,Austria,France,2021,hay_for_forage_from_other_crops_nec,0.16
+11,68,Austria,France,2022,hay_for_forage_from_other_crops_nec,3.11
+11,68,Austria,France,2023,hay_for_forage_from_other_crops_nec,2.55
+194,212,Saudi Arabia,Syrian Arab Republic,1998,hay_for_forage_from_other_crops_nec,24.0
+67,134,Finland,Malta,2022,hay_for_forage_from_other_crops_nec,0.01
+10,100,Australia,India,1992,hay_for_forage_from_other_crops_nec,578.0
+67,150,Finland,Netherlands (Kingdom of the),2017,hay_for_forage_from_other_crops_nec,0.15
+67,150,Finland,Netherlands (Kingdom of the),2021,hay_for_forage_from_other_crops_nec,0.85
+67,150,Finland,Netherlands (Kingdom of the),2022,hay_for_forage_from_other_crops_nec,12.9
+67,150,Finland,Netherlands (Kingdom of the),2023,hay_for_forage_from_other_crops_nec,8.2
+11,73,Austria,Georgia,2015,hay_for_forage_from_other_crops_nec,0.18
+11,73,Austria,Georgia,2018,hay_for_forage_from_other_crops_nec,0.57
+162,126,Norway,Lithuania,2016,hay_for_forage_from_other_crops_nec,21.2
+194,225,Saudi Arabia,United Arab Emirates,1998,hay_for_forage_from_other_crops_nec,5136.0
+10,101,Australia,Indonesia,1988,hay_for_forage_from_other_crops_nec,45.0
+10,101,Australia,Indonesia,1989,hay_for_forage_from_other_crops_nec,45.0
+10,101,Australia,Indonesia,1990,hay_for_forage_from_other_crops_nec,20.0
+10,101,Australia,Indonesia,1992,hay_for_forage_from_other_crops_nec,163.0
+10,101,Australia,Indonesia,1993,hay_for_forage_from_other_crops_nec,1306.0
+10,101,Australia,Indonesia,1994,hay_for_forage_from_other_crops_nec,2602.0
+10,101,Australia,Indonesia,1996,hay_for_forage_from_other_crops_nec,1178.0
+67,159,Finland,Nigeria,2019,hay_for_forage_from_other_crops_nec,0.02
+67,162,Finland,Norway,1993,hay_for_forage_from_other_crops_nec,4.0
+67,162,Finland,Norway,1995,hay_for_forage_from_other_crops_nec,362.0
+67,162,Finland,Norway,1996,hay_for_forage_from_other_crops_nec,904.0
+67,162,Finland,Norway,1997,hay_for_forage_from_other_crops_nec,918.0
+67,162,Finland,Norway,1998,hay_for_forage_from_other_crops_nec,1239.0
+67,162,Finland,Norway,1999,hay_for_forage_from_other_crops_nec,382.0
+67,162,Finland,Norway,2000,hay_for_forage_from_other_crops_nec,701.0
+67,162,Finland,Norway,2001,hay_for_forage_from_other_crops_nec,642.0
+67,162,Finland,Norway,2002,hay_for_forage_from_other_crops_nec,1059.0
+67,162,Finland,Norway,2003,hay_for_forage_from_other_crops_nec,831.0
+67,162,Finland,Norway,2004,hay_for_forage_from_other_crops_nec,732.0
+67,162,Finland,Norway,2005,hay_for_forage_from_other_crops_nec,276.0
+67,162,Finland,Norway,2006,hay_for_forage_from_other_crops_nec,695.0
+67,162,Finland,Norway,2007,hay_for_forage_from_other_crops_nec,676.0
+67,162,Finland,Norway,2008,hay_for_forage_from_other_crops_nec,677.0
+67,162,Finland,Norway,2009,hay_for_forage_from_other_crops_nec,431.0
+67,162,Finland,Norway,2010,hay_for_forage_from_other_crops_nec,1035.0
+67,162,Finland,Norway,2011,hay_for_forage_from_other_crops_nec,1337.0
+67,162,Finland,Norway,2012,hay_for_forage_from_other_crops_nec,510.0
+67,162,Finland,Norway,2013,hay_for_forage_from_other_crops_nec,322.0
+67,162,Finland,Norway,2014,hay_for_forage_from_other_crops_nec,283.7
+67,162,Finland,Norway,2015,hay_for_forage_from_other_crops_nec,419.9
+67,162,Finland,Norway,2016,hay_for_forage_from_other_crops_nec,407.59
+67,162,Finland,Norway,2017,hay_for_forage_from_other_crops_nec,325.96
+67,162,Finland,Norway,2018,hay_for_forage_from_other_crops_nec,1063.97
+67,162,Finland,Norway,2019,hay_for_forage_from_other_crops_nec,569.44
+67,162,Finland,Norway,2020,hay_for_forage_from_other_crops_nec,486.31
+67,162,Finland,Norway,2021,hay_for_forage_from_other_crops_nec,551.52
+67,162,Finland,Norway,2022,hay_for_forage_from_other_crops_nec,435.89
+67,162,Finland,Norway,2023,hay_for_forage_from_other_crops_nec,300.91
+11,79,Austria,Germany,1991,hay_for_forage_from_other_crops_nec,22.0
+11,79,Austria,Germany,1992,hay_for_forage_from_other_crops_nec,35.0
+11,79,Austria,Germany,1993,hay_for_forage_from_other_crops_nec,139.0
+11,79,Austria,Germany,1994,hay_for_forage_from_other_crops_nec,222.0
+11,79,Austria,Germany,2012,hay_for_forage_from_other_crops_nec,583.0
+11,79,Austria,Germany,2013,hay_for_forage_from_other_crops_nec,1156.0
+11,79,Austria,Germany,2014,hay_for_forage_from_other_crops_nec,719.5
+11,79,Austria,Germany,2015,hay_for_forage_from_other_crops_nec,972.9
+11,79,Austria,Germany,2016,hay_for_forage_from_other_crops_nec,924.68
+11,79,Austria,Germany,2017,hay_for_forage_from_other_crops_nec,645.08
+11,79,Austria,Germany,2018,hay_for_forage_from_other_crops_nec,737.24
+11,79,Austria,Germany,2019,hay_for_forage_from_other_crops_nec,469.72
+11,79,Austria,Germany,2020,hay_for_forage_from_other_crops_nec,542.47
+11,79,Austria,Germany,2021,hay_for_forage_from_other_crops_nec,734.59
+11,79,Austria,Germany,2022,hay_for_forage_from_other_crops_nec,477.56
+11,79,Austria,Germany,2023,hay_for_forage_from_other_crops_nec,360.39
+10,105,Australia,Israel,1988,hay_for_forage_from_other_crops_nec,165.0
+10,105,Australia,Israel,1989,hay_for_forage_from_other_crops_nec,165.0
+10,105,Australia,Israel,1992,hay_for_forage_from_other_crops_nec,86.0
+162,150,Norway,Netherlands (Kingdom of the),2018,hay_for_forage_from_other_crops_nec,24.0
+210,79,Sweden,Germany,1991,hay_for_forage_from_other_crops_nec,17.0
+194,249,Saudi Arabia,Yemen,1998,hay_for_forage_from_other_crops_nec,40.0
+10,106,Australia,Italy,1990,hay_for_forage_from_other_crops_nec,21.0
+10,106,Australia,Italy,1991,hay_for_forage_from_other_crops_nec,584.0
+10,106,Australia,Italy,1992,hay_for_forage_from_other_crops_nec,40.0
+10,106,Australia,Italy,1993,hay_for_forage_from_other_crops_nec,341.0
+10,106,Australia,Italy,1994,hay_for_forage_from_other_crops_nec,194.0
+10,106,Australia,Italy,1996,hay_for_forage_from_other_crops_nec,1000.0
+67,185,Finland,Russian Federation,1992,hay_for_forage_from_other_crops_nec,23.0
+67,185,Finland,Russian Federation,1993,hay_for_forage_from_other_crops_nec,50.0
+67,185,Finland,Russian Federation,1994,hay_for_forage_from_other_crops_nec,52.0
+67,185,Finland,Russian Federation,1995,hay_for_forage_from_other_crops_nec,27.0
+67,185,Finland,Russian Federation,2006,hay_for_forage_from_other_crops_nec,2.0
+67,185,Finland,Russian Federation,2013,hay_for_forage_from_other_crops_nec,56.0
+67,185,Finland,Russian Federation,2022,hay_for_forage_from_other_crops_nec,13.51
+10,110,Australia,Japan,1988,hay_for_forage_from_other_crops_nec,19870.0
+10,110,Australia,Japan,1989,hay_for_forage_from_other_crops_nec,11940.0
+10,110,Australia,Japan,1990,hay_for_forage_from_other_crops_nec,39739.0
+10,110,Australia,Japan,1991,hay_for_forage_from_other_crops_nec,73428.0
+10,110,Australia,Japan,1992,hay_for_forage_from_other_crops_nec,71841.0
+10,110,Australia,Japan,1993,hay_for_forage_from_other_crops_nec,97063.0
+10,110,Australia,Japan,1994,hay_for_forage_from_other_crops_nec,131234.0
+10,110,Australia,Japan,1996,hay_for_forage_from_other_crops_nec,199321.0
+11,84,Austria,Greece,2021,hay_for_forage_from_other_crops_nec,0.03
+11,84,Austria,Greece,2022,hay_for_forage_from_other_crops_nec,0.13
+10,112,Australia,Jordan,1992,hay_for_forage_from_other_crops_nec,194.0
+10,112,Australia,Jordan,1994,hay_for_forage_from_other_crops_nec,100.0
+10,83,Australia,Kiribati,1996,hay_for_forage_from_other_crops_nec,5.0
+210,99,Sweden,Iceland,2018,hay_for_forage_from_other_crops_nec,0.02
+210,99,Sweden,Iceland,2019,hay_for_forage_from_other_crops_nec,0.02
+210,99,Sweden,Iceland,2020,hay_for_forage_from_other_crops_nec,0.11
+210,99,Sweden,Iceland,2021,hay_for_forage_from_other_crops_nec,0.02
+210,99,Sweden,Iceland,2022,hay_for_forage_from_other_crops_nec,0.09
+210,99,Sweden,Iceland,2023,hay_for_forage_from_other_crops_nec,0.13
+67,203,Finland,Spain,2022,hay_for_forage_from_other_crops_nec,0.01
+67,203,Finland,Spain,2023,hay_for_forage_from_other_crops_nec,0.01
+10,118,Australia,Kuwait,1988,hay_for_forage_from_other_crops_nec,39.0
+10,118,Australia,Kuwait,1989,hay_for_forage_from_other_crops_nec,39.0
+10,118,Australia,Kuwait,1992,hay_for_forage_from_other_crops_nec,2053.0
+10,118,Australia,Kuwait,1993,hay_for_forage_from_other_crops_nec,105.0
+11,97,Austria,Hungary,2012,hay_for_forage_from_other_crops_nec,1920.0
+11,97,Austria,Hungary,2013,hay_for_forage_from_other_crops_nec,2648.0
+11,97,Austria,Hungary,2014,hay_for_forage_from_other_crops_nec,5426.5
+11,97,Austria,Hungary,2015,hay_for_forage_from_other_crops_nec,3214.8
+11,97,Austria,Hungary,2016,hay_for_forage_from_other_crops_nec,7586.11
+11,97,Austria,Hungary,2017,hay_for_forage_from_other_crops_nec,4470.33
+11,97,Austria,Hungary,2018,hay_for_forage_from_other_crops_nec,3382.57
+11,97,Austria,Hungary,2019,hay_for_forage_from_other_crops_nec,3711.43
+11,97,Austria,Hungary,2020,hay_for_forage_from_other_crops_nec,1940.73
+11,97,Austria,Hungary,2021,hay_for_forage_from_other_crops_nec,2339.64
+11,97,Austria,Hungary,2022,hay_for_forage_from_other_crops_nec,835.56
+11,97,Austria,Hungary,2023,hay_for_forage_from_other_crops_nec,1909.13
+10,124,Australia,Libya,1993,hay_for_forage_from_other_crops_nec,260.0
+67,210,Finland,Sweden,1988,hay_for_forage_from_other_crops_nec,12.0
+67,210,Finland,Sweden,1990,hay_for_forage_from_other_crops_nec,136.0
+67,210,Finland,Sweden,1993,hay_for_forage_from_other_crops_nec,9.0
+67,210,Finland,Sweden,1994,hay_for_forage_from_other_crops_nec,20.0
+67,210,Finland,Sweden,1995,hay_for_forage_from_other_crops_nec,28.0
+67,210,Finland,Sweden,1998,hay_for_forage_from_other_crops_nec,26.0
+67,210,Finland,Sweden,1999,hay_for_forage_from_other_crops_nec,260.0
+67,210,Finland,Sweden,2000,hay_for_forage_from_other_crops_nec,287.0
+67,210,Finland,Sweden,2001,hay_for_forage_from_other_crops_nec,342.0
+67,210,Finland,Sweden,2002,hay_for_forage_from_other_crops_nec,260.0
+67,210,Finland,Sweden,2003,hay_for_forage_from_other_crops_nec,204.0
+67,210,Finland,Sweden,2004,hay_for_forage_from_other_crops_nec,406.0
+67,210,Finland,Sweden,2005,hay_for_forage_from_other_crops_nec,232.0
+67,210,Finland,Sweden,2006,hay_for_forage_from_other_crops_nec,108.0
+67,210,Finland,Sweden,2007,hay_for_forage_from_other_crops_nec,49.0
+67,210,Finland,Sweden,2008,hay_for_forage_from_other_crops_nec,133.0
+67,210,Finland,Sweden,2009,hay_for_forage_from_other_crops_nec,45.0
+67,210,Finland,Sweden,2012,hay_for_forage_from_other_crops_nec,72.0
+67,210,Finland,Sweden,2016,hay_for_forage_from_other_crops_nec,4.19
+67,210,Finland,Sweden,2018,hay_for_forage_from_other_crops_nec,0.02
+67,210,Finland,Sweden,2019,hay_for_forage_from_other_crops_nec,0.01
+67,210,Finland,Sweden,2022,hay_for_forage_from_other_crops_nec,0.01
+67,210,Finland,Sweden,2023,hay_for_forage_from_other_crops_nec,0.03
+9,234,Argentina,Uruguay,1988,hay_for_forage_from_other_crops_nec,7.0
+162,203,Norway,Spain,2014,hay_for_forage_from_other_crops_nec,19.69
+10,131,Australia,Malaysia,1988,hay_for_forage_from_other_crops_nec,499.0
+10,131,Australia,Malaysia,1989,hay_for_forage_from_other_crops_nec,561.0
+10,131,Australia,Malaysia,1990,hay_for_forage_from_other_crops_nec,1404.0
+10,131,Australia,Malaysia,1991,hay_for_forage_from_other_crops_nec,2830.0
+10,131,Australia,Malaysia,1992,hay_for_forage_from_other_crops_nec,2318.0
+10,131,Australia,Malaysia,1993,hay_for_forage_from_other_crops_nec,1719.0
+10,131,Australia,Malaysia,1994,hay_for_forage_from_other_crops_nec,2252.0
+10,131,Australia,Malaysia,1996,hay_for_forage_from_other_crops_nec,2151.0
+10,133,Australia,Mali,1988,hay_for_forage_from_other_crops_nec,31.0
+10,134,Australia,Malta,1991,hay_for_forage_from_other_crops_nec,11.0
+10,137,Australia,Mauritius,1992,hay_for_forage_from_other_crops_nec,91.0
+10,137,Australia,Mauritius,1993,hay_for_forage_from_other_crops_nec,22.0
+10,137,Australia,Mauritius,1996,hay_for_forage_from_other_crops_nec,121.0
+162,210,Norway,Sweden,1987,hay_for_forage_from_other_crops_nec,8.0
+162,210,Norway,Sweden,1992,hay_for_forage_from_other_crops_nec,35.0
+162,210,Norway,Sweden,1993,hay_for_forage_from_other_crops_nec,188.0
+162,210,Norway,Sweden,1995,hay_for_forage_from_other_crops_nec,15.0
+162,210,Norway,Sweden,1996,hay_for_forage_from_other_crops_nec,6.0
+162,210,Norway,Sweden,1997,hay_for_forage_from_other_crops_nec,7.0
+162,210,Norway,Sweden,1998,hay_for_forage_from_other_crops_nec,176.0
+162,210,Norway,Sweden,1999,hay_for_forage_from_other_crops_nec,26.0
+162,210,Norway,Sweden,2000,hay_for_forage_from_other_crops_nec,43.0
+162,210,Norway,Sweden,2001,hay_for_forage_from_other_crops_nec,3.0
+162,210,Norway,Sweden,2002,hay_for_forage_from_other_crops_nec,22.0
+162,210,Norway,Sweden,2004,hay_for_forage_from_other_crops_nec,111.0
+162,210,Norway,Sweden,2005,hay_for_forage_from_other_crops_nec,135.0
+162,210,Norway,Sweden,2006,hay_for_forage_from_other_crops_nec,114.0
+162,210,Norway,Sweden,2007,hay_for_forage_from_other_crops_nec,88.0
+162,210,Norway,Sweden,2008,hay_for_forage_from_other_crops_nec,368.0
+162,210,Norway,Sweden,2009,hay_for_forage_from_other_crops_nec,107.0
+162,210,Norway,Sweden,2010,hay_for_forage_from_other_crops_nec,15.0
+162,210,Norway,Sweden,2011,hay_for_forage_from_other_crops_nec,6.0
+162,210,Norway,Sweden,2012,hay_for_forage_from_other_crops_nec,19.0
+162,210,Norway,Sweden,2015,hay_for_forage_from_other_crops_nec,0.01
+162,210,Norway,Sweden,2016,hay_for_forage_from_other_crops_nec,7.96
+162,210,Norway,Sweden,2017,hay_for_forage_from_other_crops_nec,145.13
+162,210,Norway,Sweden,2018,hay_for_forage_from_other_crops_nec,29.05
+162,210,Norway,Sweden,2019,hay_for_forage_from_other_crops_nec,49.51
+162,210,Norway,Sweden,2020,hay_for_forage_from_other_crops_nec,43.66
+162,210,Norway,Sweden,2021,hay_for_forage_from_other_crops_nec,65.23
+162,210,Norway,Sweden,2022,hay_for_forage_from_other_crops_nec,65.92
+162,210,Norway,Sweden,2023,hay_for_forage_from_other_crops_nec,94.12
+11,104,Austria,Ireland,2021,hay_for_forage_from_other_crops_nec,0.03
+11,104,Austria,Ireland,2022,hay_for_forage_from_other_crops_nec,0.04
+11,104,Austria,Ireland,2023,hay_for_forage_from_other_crops_nec,0.07
+10,145,Australia,Micronesia (Federated States of),1993,hay_for_forage_from_other_crops_nec,19.0
+10,145,Australia,Micronesia (Federated States of),1994,hay_for_forage_from_other_crops_nec,20.0
+67,225,Finland,United Arab Emirates,2018,hay_for_forage_from_other_crops_nec,0.01
+10,148,Australia,Nauru,1996,hay_for_forage_from_other_crops_nec,4.0
+210,118,Sweden,Kuwait,2022,hay_for_forage_from_other_crops_nec,0.02
+11,106,Austria,Italy,1987,hay_for_forage_from_other_crops_nec,3.0
+11,106,Austria,Italy,1990,hay_for_forage_from_other_crops_nec,43.0
+11,106,Austria,Italy,1991,hay_for_forage_from_other_crops_nec,7.0
+11,106,Austria,Italy,2012,hay_for_forage_from_other_crops_nec,274.0
+11,106,Austria,Italy,2013,hay_for_forage_from_other_crops_nec,1217.0
+11,106,Austria,Italy,2014,hay_for_forage_from_other_crops_nec,488.0
+11,106,Austria,Italy,2015,hay_for_forage_from_other_crops_nec,47.6
+11,106,Austria,Italy,2016,hay_for_forage_from_other_crops_nec,84.76
+11,106,Austria,Italy,2017,hay_for_forage_from_other_crops_nec,108.82
+11,106,Austria,Italy,2018,hay_for_forage_from_other_crops_nec,741.62
+11,106,Austria,Italy,2019,hay_for_forage_from_other_crops_nec,702.5
+11,106,Austria,Italy,2020,hay_for_forage_from_other_crops_nec,507.44
+11,106,Austria,Italy,2021,hay_for_forage_from_other_crops_nec,1276.68
+11,106,Austria,Italy,2022,hay_for_forage_from_other_crops_nec,912.97
+11,106,Austria,Italy,2023,hay_for_forage_from_other_crops_nec,2301.25
+10,150,Australia,Netherlands (Kingdom of the),1990,hay_for_forage_from_other_crops_nec,10.0
+10,150,Australia,Netherlands (Kingdom of the),1991,hay_for_forage_from_other_crops_nec,126.0
+10,150,Australia,Netherlands (Kingdom of the),1993,hay_for_forage_from_other_crops_nec,108.0
+10,150,Australia,Netherlands (Kingdom of the),1996,hay_for_forage_from_other_crops_nec,504.0
+67,228,Finland,USSR,1991,hay_for_forage_from_other_crops_nec,24.0
+10,153,Australia,New Caledonia,1988,hay_for_forage_from_other_crops_nec,823.0
+10,153,Australia,New Caledonia,1989,hay_for_forage_from_other_crops_nec,437.0
+10,153,Australia,New Caledonia,1990,hay_for_forage_from_other_crops_nec,412.0
+10,153,Australia,New Caledonia,1991,hay_for_forage_from_other_crops_nec,351.0
+10,153,Australia,New Caledonia,1992,hay_for_forage_from_other_crops_nec,375.0
+10,153,Australia,New Caledonia,1993,hay_for_forage_from_other_crops_nec,307.0
+10,153,Australia,New Caledonia,1994,hay_for_forage_from_other_crops_nec,477.0
+10,153,Australia,New Caledonia,1996,hay_for_forage_from_other_crops_nec,233.0
+67,181,Finland,Zimbabwe,2018,hay_for_forage_from_other_crops_nec,0.03
+210,134,Sweden,Malta,1999,hay_for_forage_from_other_crops_nec,26.0
+210,134,Sweden,Malta,2002,hay_for_forage_from_other_crops_nec,29.0
+162,229,Norway,United Kingdom of Great Britain and Northern Ireland,1998,hay_for_forage_from_other_crops_nec,7.0
+10,156,Australia,New Zealand,1988,hay_for_forage_from_other_crops_nec,95.0
+10,156,Australia,New Zealand,1989,hay_for_forage_from_other_crops_nec,39.0
+10,156,Australia,New Zealand,1990,hay_for_forage_from_other_crops_nec,470.0
+10,156,Australia,New Zealand,1991,hay_for_forage_from_other_crops_nec,447.0
+10,156,Australia,New Zealand,1992,hay_for_forage_from_other_crops_nec,461.0
+10,156,Australia,New Zealand,1993,hay_for_forage_from_other_crops_nec,567.0
+10,156,Australia,New Zealand,1994,hay_for_forage_from_other_crops_nec,73.0
+10,156,Australia,New Zealand,1996,hay_for_forage_from_other_crops_nec,275.0
+210,149,Sweden,Nepal,2003,hay_for_forage_from_other_crops_nec,1.0
+210,150,Sweden,Netherlands (Kingdom of the),2006,hay_for_forage_from_other_crops_nec,2.0
+210,150,Sweden,Netherlands (Kingdom of the),2014,hay_for_forage_from_other_crops_nec,1.7
+210,150,Sweden,Netherlands (Kingdom of the),2015,hay_for_forage_from_other_crops_nec,5.3
+210,150,Sweden,Netherlands (Kingdom of the),2016,hay_for_forage_from_other_crops_nec,7.21
+210,150,Sweden,Netherlands (Kingdom of the),2018,hay_for_forage_from_other_crops_nec,0.22
+210,150,Sweden,Netherlands (Kingdom of the),2020,hay_for_forage_from_other_crops_nec,1.8
+210,150,Sweden,Netherlands (Kingdom of the),2021,hay_for_forage_from_other_crops_nec,0.27
+210,150,Sweden,Netherlands (Kingdom of the),2022,hay_for_forage_from_other_crops_nec,0.14
+210,150,Sweden,Netherlands (Kingdom of the),2023,hay_for_forage_from_other_crops_nec,2.86
+11,124,Austria,Libya,1987,hay_for_forage_from_other_crops_nec,4.0
+11,126,Austria,Lithuania,2021,hay_for_forage_from_other_crops_nec,0.02
+11,126,Austria,Lithuania,2023,hay_for_forage_from_other_crops_nec,0.06
+10,221,Australia,Oman,1988,hay_for_forage_from_other_crops_nec,170.0
+10,221,Australia,Oman,1989,hay_for_forage_from_other_crops_nec,206.0
+10,221,Australia,Oman,1990,hay_for_forage_from_other_crops_nec,162.0
+10,221,Australia,Oman,1991,hay_for_forage_from_other_crops_nec,12.0
+11,256,Austria,Luxembourg,2023,hay_for_forage_from_other_crops_nec,0.04
+10,165,Australia,Pakistan,1994,hay_for_forage_from_other_crops_nec,219.0
+210,157,Sweden,Nicaragua,1994,hay_for_forage_from_other_crops_nec,1.0
+11,134,Austria,Malta,2021,hay_for_forage_from_other_crops_nec,0.04
+11,134,Austria,Malta,2022,hay_for_forage_from_other_crops_nec,0.94
+11,134,Austria,Malta,2023,hay_for_forage_from_other_crops_nec,0.94
+10,168,Australia,Papua New Guinea,1988,hay_for_forage_from_other_crops_nec,13063.0
+10,168,Australia,Papua New Guinea,1989,hay_for_forage_from_other_crops_nec,7745.0
+10,168,Australia,Papua New Guinea,1990,hay_for_forage_from_other_crops_nec,7899.0
+10,168,Australia,Papua New Guinea,1991,hay_for_forage_from_other_crops_nec,160.0
+10,168,Australia,Papua New Guinea,1992,hay_for_forage_from_other_crops_nec,503.0
+10,168,Australia,Papua New Guinea,1993,hay_for_forage_from_other_crops_nec,519.0
+10,168,Australia,Papua New Guinea,1994,hay_for_forage_from_other_crops_nec,543.0
+10,168,Australia,Papua New Guinea,1996,hay_for_forage_from_other_crops_nec,2942.0
+210,162,Sweden,Norway,1986,hay_for_forage_from_other_crops_nec,16987.0
+210,162,Sweden,Norway,1987,hay_for_forage_from_other_crops_nec,17856.0
+210,162,Sweden,Norway,1988,hay_for_forage_from_other_crops_nec,11727.0
+210,162,Sweden,Norway,1989,hay_for_forage_from_other_crops_nec,11715.0
+210,162,Sweden,Norway,1990,hay_for_forage_from_other_crops_nec,8604.0
+210,162,Sweden,Norway,1991,hay_for_forage_from_other_crops_nec,7737.0
+210,162,Sweden,Norway,1992,hay_for_forage_from_other_crops_nec,19878.0
+210,162,Sweden,Norway,1993,hay_for_forage_from_other_crops_nec,14350.0
+210,162,Sweden,Norway,1994,hay_for_forage_from_other_crops_nec,11031.0
+210,162,Sweden,Norway,1995,hay_for_forage_from_other_crops_nec,15778.0
+210,162,Sweden,Norway,1996,hay_for_forage_from_other_crops_nec,13958.0
+210,162,Sweden,Norway,1997,hay_for_forage_from_other_crops_nec,12973.0
+210,162,Sweden,Norway,1998,hay_for_forage_from_other_crops_nec,9974.0
+210,162,Sweden,Norway,1999,hay_for_forage_from_other_crops_nec,6914.0
+210,162,Sweden,Norway,2000,hay_for_forage_from_other_crops_nec,7971.0
+210,162,Sweden,Norway,2001,hay_for_forage_from_other_crops_nec,8246.0
+210,162,Sweden,Norway,2002,hay_for_forage_from_other_crops_nec,11647.0
+210,162,Sweden,Norway,2003,hay_for_forage_from_other_crops_nec,11273.0
+210,162,Sweden,Norway,2004,hay_for_forage_from_other_crops_nec,13463.0
+210,162,Sweden,Norway,2005,hay_for_forage_from_other_crops_nec,14723.0
+210,162,Sweden,Norway,2006,hay_for_forage_from_other_crops_nec,19180.0
+210,162,Sweden,Norway,2007,hay_for_forage_from_other_crops_nec,17089.0
+210,162,Sweden,Norway,2008,hay_for_forage_from_other_crops_nec,12937.0
+210,162,Sweden,Norway,2009,hay_for_forage_from_other_crops_nec,8698.0
+210,162,Sweden,Norway,2010,hay_for_forage_from_other_crops_nec,12668.0
+210,162,Sweden,Norway,2011,hay_for_forage_from_other_crops_nec,29133.0
+210,162,Sweden,Norway,2012,hay_for_forage_from_other_crops_nec,23067.0
+210,162,Sweden,Norway,2013,hay_for_forage_from_other_crops_nec,24212.0
+210,162,Sweden,Norway,2014,hay_for_forage_from_other_crops_nec,18680.3
+210,162,Sweden,Norway,2015,hay_for_forage_from_other_crops_nec,11212.0
+210,162,Sweden,Norway,2016,hay_for_forage_from_other_crops_nec,9980.15
+210,162,Sweden,Norway,2017,hay_for_forage_from_other_crops_nec,15783.64
+210,162,Sweden,Norway,2018,hay_for_forage_from_other_crops_nec,22377.38
+210,162,Sweden,Norway,2019,hay_for_forage_from_other_crops_nec,13782.39
+210,162,Sweden,Norway,2020,hay_for_forage_from_other_crops_nec,10378.32
+210,162,Sweden,Norway,2021,hay_for_forage_from_other_crops_nec,11652.1
+210,162,Sweden,Norway,2022,hay_for_forage_from_other_crops_nec,17432.99
+210,162,Sweden,Norway,2023,hay_for_forage_from_other_crops_nec,22161.1
+10,171,Australia,Philippines,1988,hay_for_forage_from_other_crops_nec,6.0
+10,171,Australia,Philippines,1989,hay_for_forage_from_other_crops_nec,116.0
+10,171,Australia,Philippines,1990,hay_for_forage_from_other_crops_nec,27.0
+10,171,Australia,Philippines,1991,hay_for_forage_from_other_crops_nec,43.0
+10,171,Australia,Philippines,1993,hay_for_forage_from_other_crops_nec,668.0
+10,171,Australia,Philippines,1994,hay_for_forage_from_other_crops_nec,689.0
+10,171,Australia,Philippines,1996,hay_for_forage_from_other_crops_nec,1523.0
+11,150,Austria,Netherlands (Kingdom of the),2013,hay_for_forage_from_other_crops_nec,37.0
+11,150,Austria,Netherlands (Kingdom of the),2014,hay_for_forage_from_other_crops_nec,53.9
+11,150,Austria,Netherlands (Kingdom of the),2015,hay_for_forage_from_other_crops_nec,95.8
+11,150,Austria,Netherlands (Kingdom of the),2016,hay_for_forage_from_other_crops_nec,262.66
+11,150,Austria,Netherlands (Kingdom of the),2017,hay_for_forage_from_other_crops_nec,253.99
+11,150,Austria,Netherlands (Kingdom of the),2018,hay_for_forage_from_other_crops_nec,137.67
+11,150,Austria,Netherlands (Kingdom of the),2020,hay_for_forage_from_other_crops_nec,23.52
+11,150,Austria,Netherlands (Kingdom of the),2021,hay_for_forage_from_other_crops_nec,209.64
+11,150,Austria,Netherlands (Kingdom of the),2022,hay_for_forage_from_other_crops_nec,15.86
+11,150,Austria,Netherlands (Kingdom of the),2023,hay_for_forage_from_other_crops_nec,0.57
+10,174,Australia,Portugal,1991,hay_for_forage_from_other_crops_nec,221.0
+10,174,Australia,Portugal,1992,hay_for_forage_from_other_crops_nec,129.0
+10,174,Australia,Portugal,1994,hay_for_forage_from_other_crops_nec,215.0
+10,174,Australia,Portugal,1996,hay_for_forage_from_other_crops_nec,472.0
+10,179,Australia,Qatar,1992,hay_for_forage_from_other_crops_nec,25.0
+10,179,Australia,Qatar,1993,hay_for_forage_from_other_crops_nec,127.0
+10,179,Australia,Qatar,1994,hay_for_forage_from_other_crops_nec,106.0
+10,179,Australia,Qatar,1996,hay_for_forage_from_other_crops_nec,222.0
+10,117,Australia,Republic of Korea,1988,hay_for_forage_from_other_crops_nec,12.0
+10,117,Australia,Republic of Korea,1989,hay_for_forage_from_other_crops_nec,12.0
+10,117,Australia,Republic of Korea,1993,hay_for_forage_from_other_crops_nec,110.0
+10,117,Australia,Republic of Korea,1994,hay_for_forage_from_other_crops_nec,139.0
+10,117,Australia,Republic of Korea,1996,hay_for_forage_from_other_crops_nec,181.0
+210,173,Sweden,Poland,1992,hay_for_forage_from_other_crops_nec,13.0
+210,173,Sweden,Poland,2008,hay_for_forage_from_other_crops_nec,7.0
+210,173,Sweden,Poland,2023,hay_for_forage_from_other_crops_nec,0.01
+11,154,Austria,North Macedonia,2020,hay_for_forage_from_other_crops_nec,0.03
+11,154,Austria,North Macedonia,2021,hay_for_forage_from_other_crops_nec,0.03
+10,191,Australia,Saint Vincent and the Grenadines,1989,hay_for_forage_from_other_crops_nec,18.0
+10,244,Australia,Samoa,1996,hay_for_forage_from_other_crops_nec,62.0
+10,194,Australia,Saudi Arabia,1988,hay_for_forage_from_other_crops_nec,1342.0
+10,194,Australia,Saudi Arabia,1989,hay_for_forage_from_other_crops_nec,1342.0
+10,194,Australia,Saudi Arabia,1990,hay_for_forage_from_other_crops_nec,76.0
+10,194,Australia,Saudi Arabia,1992,hay_for_forage_from_other_crops_nec,108.0
+10,194,Australia,Saudi Arabia,1993,hay_for_forage_from_other_crops_nec,1.0
+10,194,Australia,Saudi Arabia,1996,hay_for_forage_from_other_crops_nec,4300.0
+210,179,Sweden,Qatar,1987,hay_for_forage_from_other_crops_nec,2.0
+210,183,Sweden,Romania,2019,hay_for_forage_from_other_crops_nec,0.01
+11,173,Austria,Poland,2022,hay_for_forage_from_other_crops_nec,0.25
+11,173,Austria,Poland,2023,hay_for_forage_from_other_crops_nec,0.81
+10,200,Australia,Singapore,1988,hay_for_forage_from_other_crops_nec,1168.0
+10,200,Australia,Singapore,1989,hay_for_forage_from_other_crops_nec,285250.0
+10,200,Australia,Singapore,1990,hay_for_forage_from_other_crops_nec,1795.0
+10,200,Australia,Singapore,1991,hay_for_forage_from_other_crops_nec,2345.0
+10,200,Australia,Singapore,1992,hay_for_forage_from_other_crops_nec,1828.0
+10,200,Australia,Singapore,1993,hay_for_forage_from_other_crops_nec,1142.0
+10,200,Australia,Singapore,1994,hay_for_forage_from_other_crops_nec,967.0
+10,200,Australia,Singapore,1996,hay_for_forage_from_other_crops_nec,1690.0
+210,194,Sweden,Saudi Arabia,2022,hay_for_forage_from_other_crops_nec,0.09
+11,174,Austria,Portugal,2021,hay_for_forage_from_other_crops_nec,0.13
+11,174,Austria,Portugal,2022,hay_for_forage_from_other_crops_nec,0.26
+11,174,Austria,Portugal,2023,hay_for_forage_from_other_crops_nec,1.2
+10,25,Australia,Solomon Islands,1988,hay_for_forage_from_other_crops_nec,232.0
+10,25,Australia,Solomon Islands,1989,hay_for_forage_from_other_crops_nec,286.0
+10,25,Australia,Solomon Islands,1990,hay_for_forage_from_other_crops_nec,126.0
+10,25,Australia,Solomon Islands,1991,hay_for_forage_from_other_crops_nec,186.0
+10,25,Australia,Solomon Islands,1992,hay_for_forage_from_other_crops_nec,295.0
+10,25,Australia,Solomon Islands,1993,hay_for_forage_from_other_crops_nec,436.0
+10,25,Australia,Solomon Islands,1994,hay_for_forage_from_other_crops_nec,990.0
+10,25,Australia,Solomon Islands,1996,hay_for_forage_from_other_crops_nec,1999.0
+210,202,Sweden,South Africa,2019,hay_for_forage_from_other_crops_nec,0.01
+10,202,Australia,South Africa,1988,hay_for_forage_from_other_crops_nec,41.0
+10,202,Australia,South Africa,1991,hay_for_forage_from_other_crops_nec,24.0
+10,202,Australia,South Africa,1992,hay_for_forage_from_other_crops_nec,5.0
+10,202,Australia,South Africa,1993,hay_for_forage_from_other_crops_nec,11.0
+10,202,Australia,South Africa,1994,hay_for_forage_from_other_crops_nec,6.0
+210,203,Sweden,Spain,1987,hay_for_forage_from_other_crops_nec,5.0
+210,203,Sweden,Spain,1992,hay_for_forage_from_other_crops_nec,1.0
+210,203,Sweden,Spain,2006,hay_for_forage_from_other_crops_nec,2.0
+210,203,Sweden,Spain,2009,hay_for_forage_from_other_crops_nec,4.0
+210,203,Sweden,Spain,2013,hay_for_forage_from_other_crops_nec,24.0
+210,203,Sweden,Spain,2022,hay_for_forage_from_other_crops_nec,0.08
+210,203,Sweden,Spain,2023,hay_for_forage_from_other_crops_nec,0.05
+10,203,Australia,Spain,1990,hay_for_forage_from_other_crops_nec,1.0
+10,203,Australia,Spain,1991,hay_for_forage_from_other_crops_nec,257.0
+10,203,Australia,Spain,1992,hay_for_forage_from_other_crops_nec,495.0
+10,203,Australia,Spain,1993,hay_for_forage_from_other_crops_nec,65.0
+10,203,Australia,Spain,1994,hay_for_forage_from_other_crops_nec,108.0
+10,203,Australia,Spain,1996,hay_for_forage_from_other_crops_nec,523.0
+11,183,Austria,Romania,2013,hay_for_forage_from_other_crops_nec,1.0
+11,183,Austria,Romania,2016,hay_for_forage_from_other_crops_nec,0.17
+11,183,Austria,Romania,2022,hay_for_forage_from_other_crops_nec,1.3
+11,183,Austria,Romania,2023,hay_for_forage_from_other_crops_nec,3.78
+10,38,Australia,Sri Lanka,1989,hay_for_forage_from_other_crops_nec,50.0
+10,38,Australia,Sri Lanka,1992,hay_for_forage_from_other_crops_nec,40.0
+10,38,Australia,Sri Lanka,1996,hay_for_forage_from_other_crops_nec,5.0
+11,185,Austria,Russian Federation,2013,hay_for_forage_from_other_crops_nec,4.0
+11,185,Austria,Russian Federation,2015,hay_for_forage_from_other_crops_nec,1.8
+210,211,Sweden,Switzerland,2016,hay_for_forage_from_other_crops_nec,6.9
+210,211,Sweden,Switzerland,2017,hay_for_forage_from_other_crops_nec,0.36
+210,211,Sweden,Switzerland,2018,hay_for_forage_from_other_crops_nec,0.01
+210,211,Sweden,Switzerland,2020,hay_for_forage_from_other_crops_nec,0.01
+210,211,Sweden,Switzerland,2022,hay_for_forage_from_other_crops_nec,0.01
+210,211,Sweden,Switzerland,2023,hay_for_forage_from_other_crops_nec,0.18
+10,211,Australia,Switzerland,1996,hay_for_forage_from_other_crops_nec,22.0
+10,216,Australia,Thailand,1990,hay_for_forage_from_other_crops_nec,139.0
+10,216,Australia,Thailand,1991,hay_for_forage_from_other_crops_nec,20.0
+10,216,Australia,Thailand,1992,hay_for_forage_from_other_crops_nec,210.0
+10,216,Australia,Thailand,1994,hay_for_forage_from_other_crops_nec,137.0
+10,216,Australia,Thailand,1996,hay_for_forage_from_other_crops_nec,416.0
+11,199,Austria,Slovakia,2012,hay_for_forage_from_other_crops_nec,1.0
+11,199,Austria,Slovakia,2013,hay_for_forage_from_other_crops_nec,1.0
+11,199,Austria,Slovakia,2014,hay_for_forage_from_other_crops_nec,0.9
+11,199,Austria,Slovakia,2015,hay_for_forage_from_other_crops_nec,0.5
+11,199,Austria,Slovakia,2016,hay_for_forage_from_other_crops_nec,1.55
+11,199,Austria,Slovakia,2017,hay_for_forage_from_other_crops_nec,0.03
+11,199,Austria,Slovakia,2018,hay_for_forage_from_other_crops_nec,0.96
+11,199,Austria,Slovakia,2019,hay_for_forage_from_other_crops_nec,31.5
+11,199,Austria,Slovakia,2020,hay_for_forage_from_other_crops_nec,10.42
+11,199,Austria,Slovakia,2021,hay_for_forage_from_other_crops_nec,49.42
+11,199,Austria,Slovakia,2022,hay_for_forage_from_other_crops_nec,14.55
+11,199,Austria,Slovakia,2023,hay_for_forage_from_other_crops_nec,4.21
+10,219,Australia,Tonga,1991,hay_for_forage_from_other_crops_nec,57.0
+10,222,Australia,Tunisia,1994,hay_for_forage_from_other_crops_nec,261.0
+210,225,Sweden,United Arab Emirates,2007,hay_for_forage_from_other_crops_nec,2.0
+10,225,Australia,United Arab Emirates,1990,hay_for_forage_from_other_crops_nec,190.0
+10,225,Australia,United Arab Emirates,1991,hay_for_forage_from_other_crops_nec,2813.0
+10,225,Australia,United Arab Emirates,1992,hay_for_forage_from_other_crops_nec,189.0
+10,225,Australia,United Arab Emirates,1993,hay_for_forage_from_other_crops_nec,46.0
+10,225,Australia,United Arab Emirates,1994,hay_for_forage_from_other_crops_nec,235.0
+10,225,Australia,United Arab Emirates,1996,hay_for_forage_from_other_crops_nec,3229.0
+11,198,Austria,Slovenia,1994,hay_for_forage_from_other_crops_nec,4.0
+11,198,Austria,Slovenia,2012,hay_for_forage_from_other_crops_nec,132.0
+11,198,Austria,Slovenia,2013,hay_for_forage_from_other_crops_nec,28.0
+11,198,Austria,Slovenia,2014,hay_for_forage_from_other_crops_nec,7.9
+11,198,Austria,Slovenia,2015,hay_for_forage_from_other_crops_nec,34.1
+11,198,Austria,Slovenia,2016,hay_for_forage_from_other_crops_nec,13.98
+11,198,Austria,Slovenia,2017,hay_for_forage_from_other_crops_nec,19.62
+11,198,Austria,Slovenia,2018,hay_for_forage_from_other_crops_nec,15.81
+11,198,Austria,Slovenia,2019,hay_for_forage_from_other_crops_nec,39.3
+11,198,Austria,Slovenia,2020,hay_for_forage_from_other_crops_nec,20.43
+11,198,Austria,Slovenia,2021,hay_for_forage_from_other_crops_nec,38.9
+11,198,Austria,Slovenia,2022,hay_for_forage_from_other_crops_nec,24.45
+11,198,Austria,Slovenia,2023,hay_for_forage_from_other_crops_nec,32.94
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,1989,hay_for_forage_from_other_crops_nec,5.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,1995,hay_for_forage_from_other_crops_nec,7.0
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2021,hay_for_forage_from_other_crops_nec,0.3
+210,229,Sweden,United Kingdom of Great Britain and Northern Ireland,2023,hay_for_forage_from_other_crops_nec,0.36
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1988,hay_for_forage_from_other_crops_nec,14.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1989,hay_for_forage_from_other_crops_nec,16.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1990,hay_for_forage_from_other_crops_nec,43.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1991,hay_for_forage_from_other_crops_nec,432.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1992,hay_for_forage_from_other_crops_nec,286.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1993,hay_for_forage_from_other_crops_nec,262.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1994,hay_for_forage_from_other_crops_nec,27.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1996,hay_for_forage_from_other_crops_nec,172.0
+210,231,Sweden,United States of America,1996,hay_for_forage_from_other_crops_nec,2.0
+210,231,Sweden,United States of America,2015,hay_for_forage_from_other_crops_nec,0.69
+210,231,Sweden,United States of America,2017,hay_for_forage_from_other_crops_nec,0.1
+210,231,Sweden,United States of America,2018,hay_for_forage_from_other_crops_nec,0.01
+210,231,Sweden,United States of America,2019,hay_for_forage_from_other_crops_nec,0.01
+210,231,Sweden,United States of America,2020,hay_for_forage_from_other_crops_nec,0.01
+210,231,Sweden,United States of America,2021,hay_for_forage_from_other_crops_nec,0.44
+11,203,Austria,Spain,2020,hay_for_forage_from_other_crops_nec,0.02
+11,203,Austria,Spain,2021,hay_for_forage_from_other_crops_nec,0.7
+11,203,Austria,Spain,2022,hay_for_forage_from_other_crops_nec,0.96
+11,203,Austria,Spain,2023,hay_for_forage_from_other_crops_nec,1.93
+10,231,Australia,United States of America,1989,hay_for_forage_from_other_crops_nec,20.0
+210,228,Sweden,USSR,1986,hay_for_forage_from_other_crops_nec,4.0
+11,210,Austria,Sweden,1986,hay_for_forage_from_other_crops_nec,8.0
+11,210,Austria,Sweden,2018,hay_for_forage_from_other_crops_nec,0.16
+11,210,Austria,Sweden,2021,hay_for_forage_from_other_crops_nec,0.02
+11,210,Austria,Sweden,2022,hay_for_forage_from_other_crops_nec,2.8
+11,210,Austria,Sweden,2023,hay_for_forage_from_other_crops_nec,8.12
+10,155,Australia,Vanuatu,1988,hay_for_forage_from_other_crops_nec,125.0
+10,155,Australia,Vanuatu,1989,hay_for_forage_from_other_crops_nec,116.0
+10,155,Australia,Vanuatu,1990,hay_for_forage_from_other_crops_nec,344.0
+10,155,Australia,Vanuatu,1992,hay_for_forage_from_other_crops_nec,21.0
+10,155,Australia,Vanuatu,1996,hay_for_forage_from_other_crops_nec,265.0
+11,211,Austria,Switzerland,1986,hay_for_forage_from_other_crops_nec,8820.0
+11,211,Austria,Switzerland,1987,hay_for_forage_from_other_crops_nec,10872.0
+11,211,Austria,Switzerland,1988,hay_for_forage_from_other_crops_nec,9963.0
+11,211,Austria,Switzerland,1989,hay_for_forage_from_other_crops_nec,6725.0
+11,211,Austria,Switzerland,1990,hay_for_forage_from_other_crops_nec,7178.0
+11,211,Austria,Switzerland,1991,hay_for_forage_from_other_crops_nec,8753.0
+11,211,Austria,Switzerland,1992,hay_for_forage_from_other_crops_nec,9303.0
+11,211,Austria,Switzerland,1993,hay_for_forage_from_other_crops_nec,9686.0
+11,211,Austria,Switzerland,1994,hay_for_forage_from_other_crops_nec,8741.0
+11,211,Austria,Switzerland,2012,hay_for_forage_from_other_crops_nec,11953.0
+11,211,Austria,Switzerland,2013,hay_for_forage_from_other_crops_nec,18904.0
+11,211,Austria,Switzerland,2014,hay_for_forage_from_other_crops_nec,19522.8
+11,211,Austria,Switzerland,2015,hay_for_forage_from_other_crops_nec,18949.3
+11,211,Austria,Switzerland,2016,hay_for_forage_from_other_crops_nec,23436.06
+11,211,Austria,Switzerland,2017,hay_for_forage_from_other_crops_nec,20171.35
+11,211,Austria,Switzerland,2018,hay_for_forage_from_other_crops_nec,29710.63
+11,211,Austria,Switzerland,2019,hay_for_forage_from_other_crops_nec,25979.3
+11,211,Austria,Switzerland,2020,hay_for_forage_from_other_crops_nec,21781.56
+11,211,Austria,Switzerland,2021,hay_for_forage_from_other_crops_nec,26697.58
+11,211,Austria,Switzerland,2022,hay_for_forage_from_other_crops_nec,25280.33
+11,211,Austria,Switzerland,2023,hay_for_forage_from_other_crops_nec,27587.09
+11,212,Austria,Syrian Arab Republic,2017,hay_for_forage_from_other_crops_nec,20.74
+11,216,Austria,Thailand,2022,hay_for_forage_from_other_crops_nec,0.09
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2020,hay_for_forage_from_other_crops_nec,0.91
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2021,hay_for_forage_from_other_crops_nec,0.58
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2022,hay_for_forage_from_other_crops_nec,1.47
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2023,hay_for_forage_from_other_crops_nec,1.89

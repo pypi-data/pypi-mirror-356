@@ -1,0 +1,2458 @@
+o_code,d_code,o_name,d_name,year,item,weight
+102,2,Iran (Islamic Republic of),Afghanistan,2014,isoglucose,66.23
+102,2,Iran (Islamic Republic of),Afghanistan,2016,isoglucose,1387.03
+102,2,Iran (Islamic Republic of),Afghanistan,2017,isoglucose,4828.15
+102,2,Iran (Islamic Republic of),Afghanistan,2018,isoglucose,8568.35
+102,2,Iran (Islamic Republic of),Afghanistan,2020,isoglucose,5612.05
+102,2,Iran (Islamic Republic of),Afghanistan,2021,isoglucose,8170.29
+255,4,Belgium,Algeria,2018,isoglucose,46.2
+56,14,Dominican Republic,Barbados,2022,isoglucose,0.58
+102,1,Iran (Islamic Republic of),Armenia,2016,isoglucose,39.46
+102,1,Iran (Islamic Republic of),Armenia,2017,isoglucose,38.6
+102,1,Iran (Islamic Republic of),Armenia,2018,isoglucose,235.88
+102,1,Iran (Islamic Republic of),Armenia,2020,isoglucose,22.85
+102,1,Iran (Islamic Republic of),Armenia,2021,isoglucose,42.0
+212,59,Syrian Arab Republic,Egypt,2006,isoglucose,1575.0
+135,68,Martinique,France,1988,isoglucose,3.0
+84,3,Greece,Albania,1997,isoglucose,1.0
+84,3,Greece,Albania,2005,isoglucose,10.0
+84,3,Greece,Albania,2006,isoglucose,20.0
+84,3,Greece,Albania,2007,isoglucose,20.0
+102,10,Iran (Islamic Republic of),Australia,2014,isoglucose,4.51
+104,10,Ireland,Australia,1995,isoglucose,2.0
+104,10,Ireland,Australia,1996,isoglucose,5.0
+104,10,Ireland,Australia,1997,isoglucose,1.0
+104,10,Ireland,Australia,1999,isoglucose,1.0
+104,10,Ireland,Australia,2000,isoglucose,8.0
+104,10,Ireland,Australia,2001,isoglucose,1.0
+104,10,Ireland,Australia,2002,isoglucose,2.0
+106,3,Italy,Albania,2009,isoglucose,9.0
+203,4,Spain,Algeria,2002,isoglucose,6.0
+38,10,Sri Lanka,Australia,2010,isoglucose,7.0
+38,10,Sri Lanka,Australia,2011,isoglucose,9.0
+38,10,Sri Lanka,Australia,2012,isoglucose,23.0
+38,10,Sri Lanka,Australia,2013,isoglucose,20.0
+38,10,Sri Lanka,Australia,2014,isoglucose,13.33
+38,10,Sri Lanka,Australia,2015,isoglucose,19.08
+38,10,Sri Lanka,Australia,2016,isoglucose,24.29
+38,10,Sri Lanka,Australia,2017,isoglucose,27.59
+38,10,Sri Lanka,Australia,2019,isoglucose,20.83
+38,10,Sri Lanka,Australia,2020,isoglucose,31.24
+38,10,Sri Lanka,Australia,2021,isoglucose,36.61
+38,10,Sri Lanka,Australia,2022,isoglucose,10.79
+38,10,Sri Lanka,Australia,2023,isoglucose,17.17
+135,69,Martinique,French Guiana,1988,isoglucose,2.0
+135,87,Martinique,Guadeloupe,1988,isoglucose,1.0
+102,52,Iran (Islamic Republic of),Azerbaijan,2016,isoglucose,0.39
+102,52,Iran (Islamic Republic of),Azerbaijan,2017,isoglucose,0.18
+102,52,Iran (Islamic Republic of),Azerbaijan,2018,isoglucose,121.85
+255,9,Belgium,Argentina,2011,isoglucose,25.0
+255,9,Belgium,Argentina,2014,isoglucose,27.9
+255,9,Belgium,Argentina,2015,isoglucose,34.5
+255,9,Belgium,Argentina,2016,isoglucose,20.1
+255,9,Belgium,Argentina,2017,isoglucose,28.04
+255,9,Belgium,Argentina,2018,isoglucose,13.6
+255,9,Belgium,Argentina,2020,isoglucose,21.12
+255,9,Belgium,Argentina,2021,isoglucose,27.1
+255,9,Belgium,Argentina,2022,isoglucose,13.72
+255,9,Belgium,Argentina,2023,isoglucose,6.92
+87,135,Guadeloupe,Martinique,1988,isoglucose,1.0
+199,11,Slovakia,Austria,2004,isoglucose,837.0
+199,11,Slovakia,Austria,2005,isoglucose,10480.0
+199,11,Slovakia,Austria,2006,isoglucose,626.0
+199,11,Slovakia,Austria,2007,isoglucose,90.0
+199,11,Slovakia,Austria,2009,isoglucose,167.0
+199,11,Slovakia,Austria,2010,isoglucose,4721.0
+199,11,Slovakia,Austria,2011,isoglucose,7304.0
+115,214,Cambodia,"China, Taiwan Province of",2022,isoglucose,0.66
+102,13,Iran (Islamic Republic of),Bahrain,2014,isoglucose,1.54
+102,53,Iran (Islamic Republic of),Benin,2017,isoglucose,36.0
+106,4,Italy,Algeria,2001,isoglucose,8.0
+106,4,Italy,Algeria,2002,isoglucose,9.0
+38,11,Sri Lanka,Austria,2015,isoglucose,0.02
+38,11,Sri Lanka,Austria,2017,isoglucose,0.04
+115,68,Cambodia,France,2022,isoglucose,0.3
+126,57,Lithuania,Belarus,2013,isoglucose,1.0
+126,57,Lithuania,Belarus,2015,isoglucose,0.26
+126,57,Lithuania,Belarus,2018,isoglucose,0.46
+126,57,Lithuania,Belarus,2019,isoglucose,0.32
+126,57,Lithuania,Belarus,2020,isoglucose,0.25
+126,57,Lithuania,Belarus,2021,isoglucose,0.2
+126,57,Lithuania,Belarus,2022,isoglucose,0.24
+102,33,Iran (Islamic Republic of),Canada,2014,isoglucose,1.4
+102,33,Iran (Islamic Republic of),Canada,2018,isoglucose,0.5
+198,11,Slovenia,Austria,2022,isoglucose,9.07
+56,49,Dominican Republic,Cuba,2020,isoglucose,0.3
+56,49,Dominican Republic,Cuba,2022,isoglucose,6.97
+38,13,Sri Lanka,Bahrain,2021,isoglucose,0.01
+38,13,Sri Lanka,Bahrain,2023,isoglucose,0.04
+167,11,Czechia,Austria,2011,isoglucose,25.0
+167,11,Czechia,Austria,2020,isoglucose,0.04
+167,11,Czechia,Austria,2021,isoglucose,0.03
+167,11,Czechia,Austria,2022,isoglucose,0.07
+54,11,Denmark,Austria,1994,isoglucose,2.0
+173,11,Poland,Austria,2010,isoglucose,74.0
+173,11,Poland,Austria,2011,isoglucose,2.0
+104,255,Ireland,Belgium,2007,isoglucose,15.0
+38,255,Sri Lanka,Belgium,2015,isoglucose,0.32
+38,255,Sri Lanka,Belgium,2019,isoglucose,0.18
+38,255,Sri Lanka,Belgium,2020,isoglucose,1.18
+38,255,Sri Lanka,Belgium,2021,isoglucose,0.02
+38,255,Sri Lanka,Belgium,2022,isoglucose,0.18
+183,57,Romania,Belarus,2000,isoglucose,1.0
+183,57,Romania,Belarus,2001,isoglucose,4.0
+272,80,Serbia,Bosnia and Herzegovina,2006,isoglucose,16.0
+272,80,Serbia,Bosnia and Herzegovina,2007,isoglucose,41.0
+272,80,Serbia,Bosnia and Herzegovina,2008,isoglucose,44.0
+115,110,Cambodia,Japan,2022,isoglucose,0.07
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,2013,isoglucose,10.0
+199,255,Slovakia,Belgium,2006,isoglucose,2.0
+199,255,Slovakia,Belgium,2007,isoglucose,319.0
+199,255,Slovakia,Belgium,2008,isoglucose,15.0
+199,255,Slovakia,Belgium,2010,isoglucose,73.0
+199,255,Slovakia,Belgium,2011,isoglucose,384.0
+38,20,Sri Lanka,Botswana,2021,isoglucose,0.09
+38,20,Sri Lanka,Botswana,2022,isoglucose,0.23
+38,20,Sri Lanka,Botswana,2023,isoglucose,0.2
+115,108,Cambodia,Kazakhstan,2022,isoglucose,1.4
+150,9,Netherlands (Kingdom of the),Argentina,2022,isoglucose,1.18
+150,9,Netherlands (Kingdom of the),Argentina,2023,isoglucose,2.42
+84,11,Greece,Austria,2005,isoglucose,445.0
+255,11,Belgium,Austria,2005,isoglucose,2.0
+255,11,Belgium,Austria,2009,isoglucose,12.0
+255,11,Belgium,Austria,2014,isoglucose,0.02
+27,255,Bulgaria,Belgium,2006,isoglucose,1.0
+56,89,Dominican Republic,Guatemala,2021,isoglucose,0.03
+102,81,Iran (Islamic Republic of),Ghana,2018,isoglucose,72.0
+54,16,Denmark,Bangladesh,2010,isoglucose,3.0
+38,33,Sri Lanka,Canada,2010,isoglucose,3.0
+38,33,Sri Lanka,Canada,2011,isoglucose,3.0
+38,33,Sri Lanka,Canada,2012,isoglucose,7.0
+38,33,Sri Lanka,Canada,2013,isoglucose,9.0
+38,33,Sri Lanka,Canada,2014,isoglucose,5.91
+38,33,Sri Lanka,Canada,2015,isoglucose,4.73
+38,33,Sri Lanka,Canada,2016,isoglucose,9.65
+38,33,Sri Lanka,Canada,2017,isoglucose,18.13
+38,33,Sri Lanka,Canada,2019,isoglucose,4.88
+38,33,Sri Lanka,Canada,2020,isoglucose,16.29
+38,33,Sri Lanka,Canada,2021,isoglucose,12.44
+38,33,Sri Lanka,Canada,2022,isoglucose,8.75
+38,33,Sri Lanka,Canada,2023,isoglucose,15.43
+56,93,Dominican Republic,Haiti,2013,isoglucose,1.0
+56,93,Dominican Republic,Haiti,2014,isoglucose,6.01
+56,93,Dominican Republic,Haiti,2015,isoglucose,0.68
+56,93,Dominican Republic,Haiti,2016,isoglucose,0.8
+56,93,Dominican Republic,Haiti,2017,isoglucose,0.03
+56,93,Dominican Republic,Haiti,2018,isoglucose,0.57
+56,93,Dominican Republic,Haiti,2019,isoglucose,0.55
+56,93,Dominican Republic,Haiti,2020,isoglucose,3.27
+56,93,Dominican Republic,Haiti,2021,isoglucose,1.33
+56,93,Dominican Republic,Haiti,2022,isoglucose,18.38
+56,93,Dominican Republic,Haiti,2023,isoglucose,9.3
+199,27,Slovakia,Bulgaria,2011,isoglucose,20.0
+115,117,Cambodia,Republic of Korea,2022,isoglucose,16.8
+102,103,Iran (Islamic Republic of),Iraq,2014,isoglucose,17.12
+102,103,Iran (Islamic Republic of),Iraq,2016,isoglucose,10.82
+102,103,Iran (Islamic Republic of),Iraq,2017,isoglucose,625.28
+102,103,Iran (Islamic Republic of),Iraq,2018,isoglucose,912.54
+102,103,Iran (Islamic Republic of),Iraq,2020,isoglucose,749.83
+102,103,Iran (Islamic Republic of),Iraq,2021,isoglucose,2222.39
+38,40,Sri Lanka,Chile,2016,isoglucose,10.84
+38,40,Sri Lanka,Chile,2020,isoglucose,0.25
+255,52,Belgium,Azerbaijan,2014,isoglucose,0.02
+185,57,Russian Federation,Belarus,2014,isoglucose,0.02
+185,57,Russian Federation,Belarus,2016,isoglucose,0.02
+38,96,Sri Lanka,"China, Hong Kong SAR",2014,isoglucose,0.05
+38,96,Sri Lanka,"China, Hong Kong SAR",2015,isoglucose,0.04
+38,96,Sri Lanka,"China, Hong Kong SAR",2016,isoglucose,0.02
+38,96,Sri Lanka,"China, Hong Kong SAR",2017,isoglucose,0.1
+38,96,Sri Lanka,"China, Hong Kong SAR",2020,isoglucose,0.04
+38,96,Sri Lanka,"China, Hong Kong SAR",2021,isoglucose,0.03
+102,110,Iran (Islamic Republic of),Japan,2014,isoglucose,7.56
+54,255,Denmark,Belgium,2003,isoglucose,51.0
+38,128,Sri Lanka,"China, Macao SAR",2016,isoglucose,0.24
+38,128,Sri Lanka,"China, Macao SAR",2017,isoglucose,0.33
+38,128,Sri Lanka,"China, Macao SAR",2019,isoglucose,0.03
+38,128,Sri Lanka,"China, Macao SAR",2020,isoglucose,0.05
+150,10,Netherlands (Kingdom of the),Australia,2016,isoglucose,0.1
+150,10,Netherlands (Kingdom of the),Australia,2023,isoglucose,4.0
+56,109,Dominican Republic,Jamaica,2014,isoglucose,0.18
+102,114,Iran (Islamic Republic of),Kenya,2017,isoglucose,117.9
+255,16,Belgium,Bangladesh,2023,isoglucose,23.38
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2004,isoglucose,4432.0
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2005,isoglucose,1.0
+167,255,Czechia,Belgium,2022,isoglucose,0.01
+38,41,Sri Lanka,"China, mainland",2021,isoglucose,0.01
+38,41,Sri Lanka,"China, mainland",2022,isoglucose,0.8
+255,57,Belgium,Belarus,2020,isoglucose,665.86
+255,57,Belgium,Belarus,2021,isoglucose,1038.18
+255,57,Belgium,Belarus,2022,isoglucose,1219.68
+255,57,Belgium,Belarus,2023,isoglucose,811.9
+102,113,Iran (Islamic Republic of),Kyrgyzstan,2017,isoglucose,1.0
+199,98,Slovakia,Croatia,2004,isoglucose,260.0
+199,98,Slovakia,Croatia,2006,isoglucose,1020.0
+102,121,Iran (Islamic Republic of),Lebanon,2017,isoglucose,24.0
+102,121,Iran (Islamic Republic of),Lebanon,2021,isoglucose,16.8
+84,255,Greece,Belgium,2003,isoglucose,1063.0
+84,255,Greece,Belgium,2004,isoglucose,467.0
+84,255,Greece,Belgium,2005,isoglucose,99.0
+255,53,Belgium,Benin,2017,isoglucose,0.09
+115,229,Cambodia,United Kingdom of Great Britain and Northern Ireland,2022,isoglucose,0.09
+38,214,Sri Lanka,"China, Taiwan Province of",2016,isoglucose,0.48
+38,214,Sri Lanka,"China, Taiwan Province of",2017,isoglucose,0.48
+38,214,Sri Lanka,"China, Taiwan Province of",2020,isoglucose,1.57
+38,214,Sri Lanka,"China, Taiwan Province of",2021,isoglucose,0.06
+183,27,Romania,Bulgaria,2008,isoglucose,652.0
+183,27,Romania,Bulgaria,2009,isoglucose,164.0
+183,27,Romania,Bulgaria,2010,isoglucose,530.0
+183,27,Romania,Bulgaria,2011,isoglucose,49.0
+183,27,Romania,Bulgaria,2012,isoglucose,213.0
+104,96,Ireland,"China, Hong Kong SAR",2010,isoglucose,50.0
+102,144,Iran (Islamic Republic of),Mozambique,2018,isoglucose,21.21
+199,50,Slovakia,Cyprus,2011,isoglucose,16.0
+95,93,Honduras,Haiti,2000,isoglucose,1136.0
+54,15,Denmark,Belgium-Luxembourg,1999,isoglucose,9.0
+102,150,Iran (Islamic Republic of),Netherlands (Kingdom of the),2018,isoglucose,0.25
+38,50,Sri Lanka,Cyprus,2014,isoglucose,0.14
+38,50,Sri Lanka,Cyprus,2015,isoglucose,0.05
+38,50,Sri Lanka,Cyprus,2017,isoglucose,0.08
+38,50,Sri Lanka,Cyprus,2019,isoglucose,0.13
+38,50,Sri Lanka,Cyprus,2020,isoglucose,0.23
+38,50,Sri Lanka,Cyprus,2021,isoglucose,2.29
+38,50,Sri Lanka,Cyprus,2022,isoglucose,0.1
+38,50,Sri Lanka,Cyprus,2023,isoglucose,0.13
+173,255,Poland,Belgium,2004,isoglucose,25.0
+102,159,Iran (Islamic Republic of),Nigeria,2017,isoglucose,68.85
+115,237,Cambodia,Viet Nam,2020,isoglucose,5.0
+38,167,Sri Lanka,Czechia,2014,isoglucose,0.11
+38,167,Sri Lanka,Czechia,2016,isoglucose,0.01
+38,167,Sri Lanka,Czechia,2017,isoglucose,0.01
+38,167,Sri Lanka,Czechia,2019,isoglucose,0.2
+38,167,Sri Lanka,Czechia,2021,isoglucose,0.09
+38,167,Sri Lanka,Czechia,2022,isoglucose,0.03
+27,98,Bulgaria,Croatia,2006,isoglucose,775.0
+27,98,Bulgaria,Croatia,2007,isoglucose,11170.0
+255,21,Belgium,Brazil,2008,isoglucose,14.0
+255,21,Belgium,Brazil,2014,isoglucose,3.9
+255,21,Belgium,Brazil,2015,isoglucose,3.9
+255,21,Belgium,Brazil,2017,isoglucose,9.06
+255,21,Belgium,Brazil,2018,isoglucose,6.06
+255,21,Belgium,Brazil,2019,isoglucose,2.37
+255,21,Belgium,Brazil,2021,isoglucose,1.5
+255,21,Belgium,Brazil,2022,isoglucose,0.25
+255,21,Belgium,Brazil,2023,isoglucose,0.24
+102,221,Iran (Islamic Republic of),Oman,2014,isoglucose,0.7
+102,221,Iran (Islamic Republic of),Oman,2017,isoglucose,48.0
+102,221,Iran (Islamic Republic of),Oman,2018,isoglucose,72.0
+102,221,Iran (Islamic Republic of),Oman,2021,isoglucose,38.3
+104,41,Ireland,"China, mainland",2003,isoglucose,32.0
+104,41,Ireland,"China, mainland",2010,isoglucose,3.0
+102,165,Iran (Islamic Republic of),Pakistan,2014,isoglucose,0.07
+38,54,Sri Lanka,Denmark,2014,isoglucose,0.07
+38,54,Sri Lanka,Denmark,2017,isoglucose,0.02
+38,54,Sri Lanka,Denmark,2019,isoglucose,0.03
+38,54,Sri Lanka,Denmark,2023,isoglucose,0.01
+119,63,Latvia,Estonia,2004,isoglucose,7.0
+119,63,Latvia,Estonia,2005,isoglucose,41.0
+119,63,Latvia,Estonia,2006,isoglucose,6.0
+119,63,Latvia,Estonia,2007,isoglucose,2.0
+27,50,Bulgaria,Cyprus,2010,isoglucose,3071.0
+54,21,Denmark,Brazil,2022,isoglucose,5.0
+79,11,Germany,Austria,2009,isoglucose,1.0
+79,11,Germany,Austria,2010,isoglucose,2841.0
+79,11,Germany,Austria,2011,isoglucose,2018.0
+79,11,Germany,Austria,2014,isoglucose,0.1
+79,11,Germany,Austria,2015,isoglucose,0.1
+79,11,Germany,Austria,2016,isoglucose,0.17
+79,11,Germany,Austria,2017,isoglucose,0.55
+79,11,Germany,Austria,2018,isoglucose,0.66
+79,11,Germany,Austria,2019,isoglucose,0.47
+79,11,Germany,Austria,2020,isoglucose,0.6
+79,11,Germany,Austria,2021,isoglucose,0.15
+79,11,Germany,Austria,2022,isoglucose,0.21
+79,11,Germany,Austria,2023,isoglucose,0.61
+150,11,Netherlands (Kingdom of the),Austria,1997,isoglucose,68.0
+150,11,Netherlands (Kingdom of the),Austria,1999,isoglucose,2.0
+150,11,Netherlands (Kingdom of the),Austria,2000,isoglucose,75.0
+150,11,Netherlands (Kingdom of the),Austria,2001,isoglucose,806.0
+150,11,Netherlands (Kingdom of the),Austria,2002,isoglucose,9185.0
+150,11,Netherlands (Kingdom of the),Austria,2003,isoglucose,1204.0
+150,11,Netherlands (Kingdom of the),Austria,2004,isoglucose,9214.0
+150,11,Netherlands (Kingdom of the),Austria,2005,isoglucose,1096.0
+150,11,Netherlands (Kingdom of the),Austria,2006,isoglucose,70.0
+150,11,Netherlands (Kingdom of the),Austria,2007,isoglucose,425.0
+150,11,Netherlands (Kingdom of the),Austria,2008,isoglucose,488.0
+150,11,Netherlands (Kingdom of the),Austria,2009,isoglucose,516.0
+150,11,Netherlands (Kingdom of the),Austria,2010,isoglucose,322.0
+150,11,Netherlands (Kingdom of the),Austria,2011,isoglucose,211.0
+150,11,Netherlands (Kingdom of the),Austria,2014,isoglucose,0.3
+150,11,Netherlands (Kingdom of the),Austria,2015,isoglucose,0.1
+150,11,Netherlands (Kingdom of the),Austria,2016,isoglucose,0.18
+255,27,Belgium,Bulgaria,2019,isoglucose,0.86
+255,27,Belgium,Bulgaria,2020,isoglucose,0.52
+255,27,Belgium,Bulgaria,2021,isoglucose,0.52
+255,27,Belgium,Bulgaria,2022,isoglucose,0.54
+38,209,Sri Lanka,Eswatini,2013,isoglucose,1.0
+38,209,Sri Lanka,Eswatini,2017,isoglucose,0.02
+38,66,Sri Lanka,Fiji,2022,isoglucose,0.04
+38,66,Sri Lanka,Fiji,2023,isoglucose,0.04
+167,27,Czechia,Bulgaria,2002,isoglucose,1.0
+199,167,Slovakia,Czechia,2003,isoglucose,5424.0
+199,167,Slovakia,Czechia,2004,isoglucose,17133.0
+199,167,Slovakia,Czechia,2005,isoglucose,17476.0
+199,167,Slovakia,Czechia,2006,isoglucose,23274.0
+199,167,Slovakia,Czechia,2007,isoglucose,38084.0
+199,167,Slovakia,Czechia,2008,isoglucose,3171.0
+199,167,Slovakia,Czechia,2009,isoglucose,38392.0
+199,167,Slovakia,Czechia,2010,isoglucose,39546.0
+199,167,Slovakia,Czechia,2011,isoglucose,51430.0
+106,11,Italy,Austria,1990,isoglucose,24.0
+106,11,Italy,Austria,1997,isoglucose,169.0
+106,11,Italy,Austria,1998,isoglucose,923.0
+106,11,Italy,Austria,1999,isoglucose,1796.0
+106,11,Italy,Austria,2000,isoglucose,1808.0
+106,11,Italy,Austria,2001,isoglucose,578.0
+106,11,Italy,Austria,2002,isoglucose,2666.0
+106,11,Italy,Austria,2003,isoglucose,2483.0
+106,11,Italy,Austria,2004,isoglucose,819.0
+106,11,Italy,Austria,2005,isoglucose,303.0
+106,11,Italy,Austria,2006,isoglucose,129.0
+106,11,Italy,Austria,2007,isoglucose,690.0
+106,11,Italy,Austria,2008,isoglucose,273.0
+106,11,Italy,Austria,2009,isoglucose,130.0
+106,11,Italy,Austria,2010,isoglucose,120.0
+106,11,Italy,Austria,2011,isoglucose,119.0
+38,68,Sri Lanka,France,2011,isoglucose,1.0
+38,68,Sri Lanka,France,2013,isoglucose,1.0
+38,68,Sri Lanka,France,2014,isoglucose,3.12
+38,68,Sri Lanka,France,2015,isoglucose,1.61
+38,68,Sri Lanka,France,2016,isoglucose,2.92
+38,68,Sri Lanka,France,2017,isoglucose,0.79
+38,68,Sri Lanka,France,2019,isoglucose,0.87
+38,68,Sri Lanka,France,2020,isoglucose,0.68
+38,68,Sri Lanka,France,2021,isoglucose,3.41
+38,68,Sri Lanka,France,2022,isoglucose,0.82
+38,68,Sri Lanka,France,2023,isoglucose,1.97
+255,233,Belgium,Burkina Faso,2020,isoglucose,0.77
+179,112,Qatar,Jordan,2015,isoglucose,0.25
+104,50,Ireland,Cyprus,2018,isoglucose,0.05
+104,50,Ireland,Cyprus,2019,isoglucose,0.04
+102,202,Iran (Islamic Republic of),South Africa,2017,isoglucose,56.0
+102,202,Iran (Islamic Republic of),South Africa,2018,isoglucose,72.0
+173,21,Poland,Brazil,2004,isoglucose,23.0
+102,276,Iran (Islamic Republic of),Sudan,2018,isoglucose,408.0
+229,14,United Kingdom of Great Britain and Northern Ireland,Barbados,1989,isoglucose,4.0
+229,14,United Kingdom of Great Britain and Northern Ireland,Barbados,1990,isoglucose,22.0
+102,210,Iran (Islamic Republic of),Sweden,2020,isoglucose,0.4
+255,29,Belgium,Burundi,2019,isoglucose,0.52
+255,29,Belgium,Burundi,2020,isoglucose,0.9
+255,29,Belgium,Burundi,2021,isoglucose,0.17
+38,73,Sri Lanka,Georgia,2022,isoglucose,0.09
+102,212,Iran (Islamic Republic of),Syrian Arab Republic,2018,isoglucose,768.0
+102,212,Iran (Islamic Republic of),Syrian Arab Republic,2021,isoglucose,1008.0
+80,106,Bosnia and Herzegovina,Italy,2004,isoglucose,11149.0
+173,27,Poland,Bulgaria,2007,isoglucose,202.0
+173,27,Poland,Bulgaria,2008,isoglucose,526.0
+173,27,Poland,Bulgaria,2009,isoglucose,833.0
+173,27,Poland,Bulgaria,2010,isoglucose,1136.0
+173,27,Poland,Bulgaria,2011,isoglucose,588.0
+134,124,Malta,Libya,1998,isoglucose,16.0
+15,68,Belgium-Luxembourg,France,1997,isoglucose,4790.0
+15,68,Belgium-Luxembourg,France,1999,isoglucose,38333.0
+102,208,Iran (Islamic Republic of),Tajikistan,2005,isoglucose,1.0
+102,208,Iran (Islamic Republic of),Tajikistan,2016,isoglucose,73.0
+102,208,Iran (Islamic Republic of),Tajikistan,2017,isoglucose,20.0
+102,208,Iran (Islamic Republic of),Tajikistan,2018,isoglucose,22.65
+102,208,Iran (Islamic Republic of),Tajikistan,2020,isoglucose,9.05
+102,208,Iran (Islamic Republic of),Tajikistan,2021,isoglucose,35.25
+126,63,Lithuania,Estonia,2006,isoglucose,502.0
+126,63,Lithuania,Estonia,2007,isoglucose,242.0
+126,63,Lithuania,Estonia,2018,isoglucose,0.5
+126,63,Lithuania,Estonia,2019,isoglucose,1.09
+126,63,Lithuania,Estonia,2020,isoglucose,0.37
+126,63,Lithuania,Estonia,2021,isoglucose,0.82
+126,63,Lithuania,Estonia,2022,isoglucose,0.4
+126,63,Lithuania,Estonia,2023,isoglucose,0.28
+38,79,Sri Lanka,Germany,2013,isoglucose,1.0
+38,79,Sri Lanka,Germany,2015,isoglucose,1.99
+38,79,Sri Lanka,Germany,2016,isoglucose,0.62
+38,79,Sri Lanka,Germany,2017,isoglucose,0.37
+38,79,Sri Lanka,Germany,2019,isoglucose,0.07
+38,79,Sri Lanka,Germany,2020,isoglucose,3.0
+38,79,Sri Lanka,Germany,2021,isoglucose,5.53
+38,79,Sri Lanka,Germany,2022,isoglucose,0.1
+203,255,Spain,Belgium,2005,isoglucose,21.0
+203,255,Spain,Belgium,2008,isoglucose,25.0
+56,231,Dominican Republic,United States of America,2014,isoglucose,0.01
+56,231,Dominican Republic,United States of America,2015,isoglucose,0.01
+56,231,Dominican Republic,United States of America,2016,isoglucose,4.33
+56,231,Dominican Republic,United States of America,2017,isoglucose,0.08
+56,231,Dominican Republic,United States of America,2018,isoglucose,0.44
+56,231,Dominican Republic,United States of America,2019,isoglucose,0.4
+56,231,Dominican Republic,United States of America,2020,isoglucose,0.74
+56,231,Dominican Republic,United States of America,2021,isoglucose,6.55
+56,231,Dominican Republic,United States of America,2022,isoglucose,5.24
+56,231,Dominican Republic,United States of America,2023,isoglucose,1.35
+84,27,Greece,Bulgaria,1994,isoglucose,191.0
+84,27,Greece,Bulgaria,1995,isoglucose,975.0
+84,27,Greece,Bulgaria,2008,isoglucose,802.0
+84,27,Greece,Bulgaria,2009,isoglucose,468.0
+84,27,Greece,Bulgaria,2010,isoglucose,99.0
+84,27,Greece,Bulgaria,2011,isoglucose,698.0
+84,27,Greece,Bulgaria,2015,isoglucose,0.01
+84,27,Greece,Bulgaria,2016,isoglucose,0.07
+84,27,Greece,Bulgaria,2023,isoglucose,0.01
+102,223,Iran (Islamic Republic of),Türkiye,2018,isoglucose,94.8
+255,32,Belgium,Cameroon,2014,isoglucose,0.6
+255,32,Belgium,Cameroon,2023,isoglucose,0.2
+102,213,Iran (Islamic Republic of),Turkmenistan,2016,isoglucose,2028.33
+102,213,Iran (Islamic Republic of),Turkmenistan,2017,isoglucose,2857.95
+102,213,Iran (Islamic Republic of),Turkmenistan,2018,isoglucose,2205.88
+102,213,Iran (Islamic Republic of),Turkmenistan,2021,isoglucose,374.2
+102,226,Iran (Islamic Republic of),Uganda,2017,isoglucose,72.0
+199,54,Slovakia,Denmark,2011,isoglucose,47.0
+27,67,Bulgaria,Finland,2010,isoglucose,2228.0
+67,63,Finland,Estonia,2014,isoglucose,0.1
+67,63,Finland,Estonia,2015,isoglucose,0.1
+67,63,Finland,Estonia,2016,isoglucose,0.5
+67,63,Finland,Estonia,2017,isoglucose,1.95
+104,59,Ireland,Egypt,2001,isoglucose,143.0
+104,59,Ireland,Egypt,2002,isoglucose,26.0
+198,98,Slovenia,Croatia,2010,isoglucose,39.0
+198,98,Slovenia,Croatia,2011,isoglucose,107.0
+198,98,Slovenia,Croatia,2023,isoglucose,0.1
+102,225,Iran (Islamic Republic of),United Arab Emirates,2014,isoglucose,1.21
+102,225,Iran (Islamic Republic of),United Arab Emirates,2016,isoglucose,32.84
+102,225,Iran (Islamic Republic of),United Arab Emirates,2017,isoglucose,58.2
+102,225,Iran (Islamic Republic of),United Arab Emirates,2018,isoglucose,24.0
+102,225,Iran (Islamic Republic of),United Arab Emirates,2020,isoglucose,15.6
+102,225,Iran (Islamic Republic of),United Arab Emirates,2021,isoglucose,14.65
+199,63,Slovakia,Estonia,2011,isoglucose,31.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2001,isoglucose,115.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2004,isoglucose,26.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2006,isoglucose,350.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2007,isoglucose,422.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2008,isoglucose,1587.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2009,isoglucose,1206.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2010,isoglucose,525.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2011,isoglucose,147.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2012,isoglucose,56.0
+255,33,Belgium,Canada,2017,isoglucose,0.05
+255,33,Belgium,Canada,2021,isoglucose,6.3
+150,13,Netherlands (Kingdom of the),Bahrain,2002,isoglucose,1.0
+126,67,Lithuania,Finland,2020,isoglucose,2.5
+126,67,Lithuania,Finland,2021,isoglucose,3.65
+126,67,Lithuania,Finland,2022,isoglucose,1.7
+126,67,Lithuania,Finland,2023,isoglucose,4.16
+102,229,Iran (Islamic Republic of),United Kingdom of Great Britain and Northern Ireland,2014,isoglucose,4.75
+102,215,Iran (Islamic Republic of),United Republic of Tanzania,2017,isoglucose,72.0
+199,68,Slovakia,France,2010,isoglucose,104.0
+199,68,Slovakia,France,2011,isoglucose,598.0
+255,39,Belgium,Chad,2022,isoglucose,2.13
+167,98,Czechia,Croatia,2002,isoglucose,1.0
+1,225,Armenia,United Arab Emirates,2023,isoglucose,264.0
+15,79,Belgium-Luxembourg,Germany,1997,isoglucose,4508.0
+102,235,Iran (Islamic Republic of),Uzbekistan,2020,isoglucose,46.74
+102,235,Iran (Islamic Republic of),Uzbekistan,2021,isoglucose,2.4
+203,15,Spain,Belgium-Luxembourg,1992,isoglucose,109.0
+203,15,Spain,Belgium-Luxembourg,1993,isoglucose,300.0
+203,15,Spain,Belgium-Luxembourg,1994,isoglucose,32.0
+203,15,Spain,Belgium-Luxembourg,1999,isoglucose,292.0
+106,16,Italy,Bangladesh,2018,isoglucose,90.0
+95,231,Honduras,United States of America,2000,isoglucose,874.0
+38,103,Sri Lanka,Iraq,2016,isoglucose,7.6
+255,96,Belgium,"China, Hong Kong SAR",2014,isoglucose,0.1
+255,96,Belgium,"China, Hong Kong SAR",2017,isoglucose,0.33
+255,96,Belgium,"China, Hong Kong SAR",2018,isoglucose,0.08
+67,68,Finland,France,2007,isoglucose,2.0
+225,59,United Arab Emirates,Egypt,2018,isoglucose,0.78
+27,79,Bulgaria,Germany,2007,isoglucose,24.0
+38,106,Sri Lanka,Italy,2012,isoglucose,2.0
+38,106,Sri Lanka,Italy,2013,isoglucose,2.0
+38,106,Sri Lanka,Italy,2014,isoglucose,5.88
+38,106,Sri Lanka,Italy,2015,isoglucose,4.01
+38,106,Sri Lanka,Italy,2016,isoglucose,3.85
+38,106,Sri Lanka,Italy,2017,isoglucose,3.33
+38,106,Sri Lanka,Italy,2019,isoglucose,4.53
+38,106,Sri Lanka,Italy,2020,isoglucose,4.55
+38,106,Sri Lanka,Italy,2021,isoglucose,19.0
+38,106,Sri Lanka,Italy,2022,isoglucose,6.61
+38,106,Sri Lanka,Italy,2023,isoglucose,8.57
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1986,isoglucose,686.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1991,isoglucose,520.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1992,isoglucose,115.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1993,isoglucose,150.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1994,isoglucose,56.0
+199,79,Slovakia,Germany,2004,isoglucose,146.0
+199,79,Slovakia,Germany,2005,isoglucose,1564.0
+199,79,Slovakia,Germany,2006,isoglucose,84.0
+199,79,Slovakia,Germany,2008,isoglucose,23.0
+199,79,Slovakia,Germany,2009,isoglucose,6585.0
+199,79,Slovakia,Germany,2010,isoglucose,13519.0
+199,79,Slovakia,Germany,2011,isoglucose,14566.0
+11,98,Austria,Croatia,2011,isoglucose,125.0
+255,41,Belgium,"China, mainland",2014,isoglucose,0.3
+255,41,Belgium,"China, mainland",2016,isoglucose,3.1
+255,41,Belgium,"China, mainland",2017,isoglucose,2.1
+255,41,Belgium,"China, mainland",2019,isoglucose,0.03
+173,98,Poland,Croatia,2004,isoglucose,3413.0
+173,98,Poland,Croatia,2007,isoglucose,1900.0
+173,98,Poland,Croatia,2008,isoglucose,139.0
+173,98,Poland,Croatia,2009,isoglucose,432.0
+173,98,Poland,Croatia,2011,isoglucose,24.0
+225,238,United Arab Emirates,Ethiopia,2018,isoglucose,0.03
+38,110,Sri Lanka,Japan,2011,isoglucose,1.0
+38,110,Sri Lanka,Japan,2012,isoglucose,2.0
+38,110,Sri Lanka,Japan,2013,isoglucose,2.0
+38,110,Sri Lanka,Japan,2014,isoglucose,5.15
+38,110,Sri Lanka,Japan,2015,isoglucose,2.92
+38,110,Sri Lanka,Japan,2016,isoglucose,1.72
+38,110,Sri Lanka,Japan,2017,isoglucose,3.18
+38,110,Sri Lanka,Japan,2019,isoglucose,1.98
+38,110,Sri Lanka,Japan,2020,isoglucose,4.42
+38,110,Sri Lanka,Japan,2021,isoglucose,4.05
+38,110,Sri Lanka,Japan,2022,isoglucose,3.75
+38,110,Sri Lanka,Japan,2023,isoglucose,1.4
+200,96,Singapore,"China, Hong Kong SAR",1986,isoglucose,99.0
+106,255,Italy,Belgium,2000,isoglucose,47.0
+106,255,Italy,Belgium,2002,isoglucose,302.0
+106,255,Italy,Belgium,2003,isoglucose,300.0
+106,255,Italy,Belgium,2004,isoglucose,379.0
+106,255,Italy,Belgium,2005,isoglucose,249.0
+106,255,Italy,Belgium,2006,isoglucose,499.0
+106,255,Italy,Belgium,2007,isoglucose,620.0
+106,255,Italy,Belgium,2008,isoglucose,626.0
+106,255,Italy,Belgium,2009,isoglucose,628.0
+106,255,Italy,Belgium,2010,isoglucose,614.0
+106,255,Italy,Belgium,2011,isoglucose,581.0
+126,79,Lithuania,Germany,2008,isoglucose,1.0
+38,112,Sri Lanka,Jordan,2015,isoglucose,0.03
+38,112,Sri Lanka,Jordan,2016,isoglucose,0.05
+38,112,Sri Lanka,Jordan,2017,isoglucose,0.04
+38,112,Sri Lanka,Jordan,2021,isoglucose,0.19
+38,112,Sri Lanka,Jordan,2023,isoglucose,0.4
+255,44,Belgium,Colombia,2014,isoglucose,33.0
+38,118,Sri Lanka,Kuwait,2012,isoglucose,1.0
+38,118,Sri Lanka,Kuwait,2014,isoglucose,0.38
+38,118,Sri Lanka,Kuwait,2016,isoglucose,1.31
+38,118,Sri Lanka,Kuwait,2021,isoglucose,0.45
+38,118,Sri Lanka,Kuwait,2022,isoglucose,0.49
+150,255,Netherlands (Kingdom of the),Belgium,2000,isoglucose,564.0
+150,255,Netherlands (Kingdom of the),Belgium,2001,isoglucose,2479.0
+150,255,Netherlands (Kingdom of the),Belgium,2002,isoglucose,1685.0
+150,255,Netherlands (Kingdom of the),Belgium,2003,isoglucose,1003.0
+150,255,Netherlands (Kingdom of the),Belgium,2005,isoglucose,716.0
+150,255,Netherlands (Kingdom of the),Belgium,2006,isoglucose,3073.0
+150,255,Netherlands (Kingdom of the),Belgium,2007,isoglucose,3341.0
+150,255,Netherlands (Kingdom of the),Belgium,2008,isoglucose,2906.0
+150,255,Netherlands (Kingdom of the),Belgium,2009,isoglucose,2866.0
+150,255,Netherlands (Kingdom of the),Belgium,2010,isoglucose,1508.0
+150,255,Netherlands (Kingdom of the),Belgium,2011,isoglucose,1014.0
+150,255,Netherlands (Kingdom of the),Belgium,2014,isoglucose,0.05
+150,255,Netherlands (Kingdom of the),Belgium,2015,isoglucose,0.1
+150,255,Netherlands (Kingdom of the),Belgium,2016,isoglucose,36.87
+150,255,Netherlands (Kingdom of the),Belgium,2017,isoglucose,0.45
+150,255,Netherlands (Kingdom of the),Belgium,2018,isoglucose,0.31
+150,255,Netherlands (Kingdom of the),Belgium,2019,isoglucose,0.2
+150,255,Netherlands (Kingdom of the),Belgium,2020,isoglucose,0.17
+150,255,Netherlands (Kingdom of the),Belgium,2021,isoglucose,0.46
+150,255,Netherlands (Kingdom of the),Belgium,2022,isoglucose,2.19
+150,255,Netherlands (Kingdom of the),Belgium,2023,isoglucose,0.76
+38,120,Sri Lanka,Lao People's Democratic Republic,2023,isoglucose,0.41
+27,84,Bulgaria,Greece,2007,isoglucose,1778.0
+27,84,Bulgaria,Greece,2008,isoglucose,11071.0
+27,84,Bulgaria,Greece,2009,isoglucose,23225.0
+27,84,Bulgaria,Greece,2010,isoglucose,24900.0
+27,84,Bulgaria,Greece,2011,isoglucose,29713.0
+27,84,Bulgaria,Greece,2017,isoglucose,1039.26
+27,84,Bulgaria,Greece,2018,isoglucose,1888.2
+27,84,Bulgaria,Greece,2019,isoglucose,549.26
+27,84,Bulgaria,Greece,2020,isoglucose,458.28
+27,84,Bulgaria,Greece,2021,isoglucose,64.75
+38,121,Sri Lanka,Lebanon,2013,isoglucose,1.0
+38,121,Sri Lanka,Lebanon,2014,isoglucose,0.1
+38,121,Sri Lanka,Lebanon,2019,isoglucose,0.14
+38,121,Sri Lanka,Lebanon,2020,isoglucose,0.2
+38,121,Sri Lanka,Lebanon,2021,isoglucose,0.14
+38,121,Sri Lanka,Lebanon,2023,isoglucose,0.06
+79,255,Germany,Belgium,2009,isoglucose,3253.0
+79,255,Germany,Belgium,2010,isoglucose,4395.0
+79,255,Germany,Belgium,2011,isoglucose,10661.0
+79,255,Germany,Belgium,2014,isoglucose,0.01
+84,50,Greece,Cyprus,1992,isoglucose,2.0
+84,50,Greece,Cyprus,1994,isoglucose,4.0
+84,50,Greece,Cyprus,1996,isoglucose,5.0
+84,50,Greece,Cyprus,2000,isoglucose,2.0
+84,50,Greece,Cyprus,2001,isoglucose,7.0
+84,50,Greece,Cyprus,2010,isoglucose,1.0
+84,50,Greece,Cyprus,2011,isoglucose,1.0
+84,50,Greece,Cyprus,2019,isoglucose,0.01
+84,50,Greece,Cyprus,2021,isoglucose,0.05
+84,50,Greece,Cyprus,2022,isoglucose,0.04
+84,50,Greece,Cyprus,2023,isoglucose,0.06
+229,21,United Kingdom of Great Britain and Northern Ireland,Brazil,2015,isoglucose,1.2
+171,105,Philippines,Israel,2021,isoglucose,4.36
+80,198,Bosnia and Herzegovina,Slovenia,2004,isoglucose,384.0
+210,54,Sweden,Denmark,2001,isoglucose,3.0
+210,54,Sweden,Denmark,2003,isoglucose,2.0
+210,54,Sweden,Denmark,2004,isoglucose,7.0
+210,54,Sweden,Denmark,2008,isoglucose,1.0
+210,54,Sweden,Denmark,2014,isoglucose,0.7
+210,54,Sweden,Denmark,2015,isoglucose,0.2
+210,54,Sweden,Denmark,2019,isoglucose,12.06
+210,54,Sweden,Denmark,2022,isoglucose,2.55
+210,54,Sweden,Denmark,2023,isoglucose,4.39
+38,131,Sri Lanka,Malaysia,2016,isoglucose,0.08
+38,131,Sri Lanka,Malaysia,2020,isoglucose,0.05
+38,131,Sri Lanka,Malaysia,2021,isoglucose,0.04
+38,131,Sri Lanka,Malaysia,2022,isoglucose,0.05
+38,131,Sri Lanka,Malaysia,2023,isoglucose,0.03
+13,221,Bahrain,Oman,2020,isoglucose,0.01
+173,167,Poland,Czechia,2004,isoglucose,125.0
+173,167,Poland,Czechia,2005,isoglucose,98.0
+173,167,Poland,Czechia,2007,isoglucose,599.0
+173,167,Poland,Czechia,2008,isoglucose,1509.0
+173,167,Poland,Czechia,2010,isoglucose,1.0
+199,97,Slovakia,Hungary,1998,isoglucose,5902.0
+199,97,Slovakia,Hungary,2009,isoglucose,392.0
+199,97,Slovakia,Hungary,2010,isoglucose,223.0
+199,97,Slovakia,Hungary,2011,isoglucose,28.0
+15,106,Belgium-Luxembourg,Italy,1997,isoglucose,3154.0
+106,15,Italy,Belgium-Luxembourg,1987,isoglucose,23.0
+106,15,Italy,Belgium-Luxembourg,1989,isoglucose,25.0
+106,15,Italy,Belgium-Luxembourg,1990,isoglucose,69.0
+106,15,Italy,Belgium-Luxembourg,1994,isoglucose,29.0
+106,15,Italy,Belgium-Luxembourg,1997,isoglucose,164.0
+106,15,Italy,Belgium-Luxembourg,1998,isoglucose,650.0
+106,15,Italy,Belgium-Luxembourg,1999,isoglucose,278.0
+272,154,Serbia,North Macedonia,2006,isoglucose,91.0
+272,154,Serbia,North Macedonia,2007,isoglucose,13.0
+272,154,Serbia,North Macedonia,2008,isoglucose,10.0
+38,132,Sri Lanka,Maldives,2011,isoglucose,1.0
+38,132,Sri Lanka,Maldives,2012,isoglucose,2.0
+38,132,Sri Lanka,Maldives,2013,isoglucose,4.0
+38,132,Sri Lanka,Maldives,2014,isoglucose,4.24
+38,132,Sri Lanka,Maldives,2015,isoglucose,2.85
+38,132,Sri Lanka,Maldives,2016,isoglucose,4.47
+38,132,Sri Lanka,Maldives,2017,isoglucose,5.43
+38,132,Sri Lanka,Maldives,2019,isoglucose,3.98
+38,132,Sri Lanka,Maldives,2020,isoglucose,1.07
+38,132,Sri Lanka,Maldives,2021,isoglucose,3.21
+38,132,Sri Lanka,Maldives,2022,isoglucose,4.36
+38,132,Sri Lanka,Maldives,2023,isoglucose,3.66
+63,126,Estonia,Lithuania,2011,isoglucose,24.0
+38,134,Sri Lanka,Malta,2015,isoglucose,0.43
+38,137,Sri Lanka,Mauritius,2017,isoglucose,0.04
+229,32,United Kingdom of Great Britain and Northern Ireland,Cameroon,2009,isoglucose,2.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,isoglucose,3447.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,isoglucose,4502.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,isoglucose,10696.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,isoglucose,11412.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,isoglucose,5661.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,isoglucose,6090.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,isoglucose,5058.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1993,isoglucose,2282.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1994,isoglucose,3275.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,isoglucose,2644.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,isoglucose,2338.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1997,isoglucose,3082.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1998,isoglucose,2685.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1999,isoglucose,3095.0
+13,179,Bahrain,Qatar,2003,isoglucose,1.0
+106,80,Italy,Bosnia and Herzegovina,2000,isoglucose,67.0
+106,80,Italy,Bosnia and Herzegovina,2005,isoglucose,1324.0
+106,80,Italy,Bosnia and Herzegovina,2006,isoglucose,23466.0
+106,80,Italy,Bosnia and Herzegovina,2007,isoglucose,13735.0
+106,80,Italy,Bosnia and Herzegovina,2008,isoglucose,11405.0
+106,80,Italy,Bosnia and Herzegovina,2009,isoglucose,12847.0
+106,80,Italy,Bosnia and Herzegovina,2010,isoglucose,10939.0
+106,80,Italy,Bosnia and Herzegovina,2011,isoglucose,9924.0
+54,64,Denmark,Faroe Islands,2008,isoglucose,2.0
+38,150,Sri Lanka,Netherlands (Kingdom of the),2015,isoglucose,0.21
+38,150,Sri Lanka,Netherlands (Kingdom of the),2019,isoglucose,0.5
+38,150,Sri Lanka,Netherlands (Kingdom of the),2021,isoglucose,0.97
+38,150,Sri Lanka,Netherlands (Kingdom of the),2023,isoglucose,0.74
+255,167,Belgium,Czechia,2019,isoglucose,0.25
+255,167,Belgium,Czechia,2023,isoglucose,0.06
+183,84,Romania,Greece,2011,isoglucose,121.0
+183,84,Romania,Greece,2012,isoglucose,221.0
+15,134,Belgium-Luxembourg,Malta,1997,isoglucose,4.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2003,isoglucose,410.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2012,isoglucose,10.0
+199,106,Slovakia,Italy,2008,isoglucose,5.0
+199,106,Slovakia,Italy,2009,isoglucose,585.0
+199,106,Slovakia,Italy,2010,isoglucose,2863.0
+199,106,Slovakia,Italy,2011,isoglucose,3031.0
+38,156,Sri Lanka,New Zealand,2010,isoglucose,1.0
+38,156,Sri Lanka,New Zealand,2011,isoglucose,1.0
+38,156,Sri Lanka,New Zealand,2012,isoglucose,1.0
+38,156,Sri Lanka,New Zealand,2013,isoglucose,1.0
+38,156,Sri Lanka,New Zealand,2014,isoglucose,0.83
+38,156,Sri Lanka,New Zealand,2015,isoglucose,1.48
+38,156,Sri Lanka,New Zealand,2016,isoglucose,2.9
+38,156,Sri Lanka,New Zealand,2017,isoglucose,4.86
+38,156,Sri Lanka,New Zealand,2019,isoglucose,2.8
+38,156,Sri Lanka,New Zealand,2020,isoglucose,7.2
+38,156,Sri Lanka,New Zealand,2021,isoglucose,3.59
+38,156,Sri Lanka,New Zealand,2022,isoglucose,2.07
+38,156,Sri Lanka,New Zealand,2023,isoglucose,2.22
+13,194,Bahrain,Saudi Arabia,2017,isoglucose,0.12
+13,194,Bahrain,Saudi Arabia,2018,isoglucose,1.18
+106,21,Italy,Brazil,2009,isoglucose,1.0
+106,21,Italy,Brazil,2011,isoglucose,1.0
+167,79,Czechia,Germany,2020,isoglucose,0.04
+167,79,Czechia,Germany,2021,isoglucose,0.1
+167,79,Czechia,Germany,2022,isoglucose,0.22
+38,162,Sri Lanka,Norway,2014,isoglucose,0.08
+38,162,Sri Lanka,Norway,2015,isoglucose,0.07
+38,162,Sri Lanka,Norway,2016,isoglucose,0.08
+38,162,Sri Lanka,Norway,2017,isoglucose,0.71
+38,162,Sri Lanka,Norway,2019,isoglucose,0.02
+38,162,Sri Lanka,Norway,2020,isoglucose,0.37
+38,162,Sri Lanka,Norway,2021,isoglucose,1.44
+38,162,Sri Lanka,Norway,2023,isoglucose,0.06
+255,250,Belgium,Democratic Republic of the Congo,2019,isoglucose,2.42
+255,250,Belgium,Democratic Republic of the Congo,2020,isoglucose,5.63
+255,250,Belgium,Democratic Republic of the Congo,2021,isoglucose,1.17
+255,250,Belgium,Democratic Republic of the Congo,2023,isoglucose,0.08
+173,63,Poland,Estonia,2007,isoglucose,478.0
+173,63,Poland,Estonia,2008,isoglucose,731.0
+173,63,Poland,Estonia,2010,isoglucose,25.0
+199,119,Slovakia,Latvia,2003,isoglucose,712.0
+199,119,Slovakia,Latvia,2004,isoglucose,310.0
+199,119,Slovakia,Latvia,2005,isoglucose,680.0
+199,119,Slovakia,Latvia,2006,isoglucose,274.0
+199,119,Slovakia,Latvia,2007,isoglucose,771.0
+199,119,Slovakia,Latvia,2009,isoglucose,843.0
+199,119,Slovakia,Latvia,2010,isoglucose,637.0
+199,119,Slovakia,Latvia,2011,isoglucose,748.0
+54,67,Denmark,Finland,1998,isoglucose,27.0
+174,68,Portugal,France,1992,isoglucose,17.0
+174,68,Portugal,France,2007,isoglucose,6.0
+174,68,Portugal,France,2008,isoglucose,6.0
+174,68,Portugal,France,2009,isoglucose,3.0
+199,126,Slovakia,Lithuania,2003,isoglucose,23.0
+199,126,Slovakia,Lithuania,2004,isoglucose,850.0
+199,126,Slovakia,Lithuania,2005,isoglucose,1770.0
+199,126,Slovakia,Lithuania,2006,isoglucose,3152.0
+199,126,Slovakia,Lithuania,2007,isoglucose,3744.0
+199,126,Slovakia,Lithuania,2009,isoglucose,2430.0
+199,126,Slovakia,Lithuania,2010,isoglucose,4372.0
+199,126,Slovakia,Lithuania,2011,isoglucose,4984.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,isoglucose,1466.0
+106,27,Italy,Bulgaria,2008,isoglucose,96.0
+106,27,Italy,Bulgaria,2010,isoglucose,47.0
+38,173,Sri Lanka,Poland,2015,isoglucose,0.01
+104,110,Ireland,Japan,2001,isoglucose,119.0
+104,110,Ireland,Japan,2002,isoglucose,69.0
+173,67,Poland,Finland,2008,isoglucose,3801.0
+173,67,Poland,Finland,2009,isoglucose,4731.0
+173,67,Poland,Finland,2010,isoglucose,1706.0
+173,67,Poland,Finland,2011,isoglucose,1890.0
+150,21,Netherlands (Kingdom of the),Brazil,2022,isoglucose,1.0
+150,21,Netherlands (Kingdom of the),Brazil,2023,isoglucose,1.8
+38,179,Sri Lanka,Qatar,2012,isoglucose,1.0
+38,179,Sri Lanka,Qatar,2013,isoglucose,1.0
+38,179,Sri Lanka,Qatar,2014,isoglucose,0.21
+38,179,Sri Lanka,Qatar,2015,isoglucose,0.17
+38,179,Sri Lanka,Qatar,2016,isoglucose,0.43
+38,179,Sri Lanka,Qatar,2017,isoglucose,0.6
+38,179,Sri Lanka,Qatar,2019,isoglucose,0.31
+38,179,Sri Lanka,Qatar,2020,isoglucose,0.64
+38,179,Sri Lanka,Qatar,2021,isoglucose,0.7
+38,179,Sri Lanka,Qatar,2022,isoglucose,1.1
+38,179,Sri Lanka,Qatar,2023,isoglucose,1.24
+255,54,Belgium,Denmark,2011,isoglucose,1.0
+255,54,Belgium,Denmark,2014,isoglucose,0.12
+255,54,Belgium,Denmark,2015,isoglucose,0.06
+255,54,Belgium,Denmark,2016,isoglucose,0.82
+255,54,Belgium,Denmark,2017,isoglucose,0.07
+255,54,Belgium,Denmark,2018,isoglucose,0.09
+255,54,Belgium,Denmark,2019,isoglucose,0.16
+68,27,France,Bulgaria,2022,isoglucose,0.04
+68,27,France,Bulgaria,2023,isoglucose,0.05
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",1995,isoglucose,2.0
+38,117,Sri Lanka,Republic of Korea,2022,isoglucose,1.31
+38,117,Sri Lanka,Republic of Korea,2023,isoglucose,2.84
+126,119,Lithuania,Latvia,2004,isoglucose,19.0
+126,119,Lithuania,Latvia,2006,isoglucose,561.0
+126,119,Lithuania,Latvia,2007,isoglucose,733.0
+126,119,Lithuania,Latvia,2008,isoglucose,438.0
+126,119,Lithuania,Latvia,2009,isoglucose,522.0
+126,119,Lithuania,Latvia,2010,isoglucose,1476.0
+126,119,Lithuania,Latvia,2011,isoglucose,1235.0
+126,119,Lithuania,Latvia,2014,isoglucose,0.12
+126,119,Lithuania,Latvia,2015,isoglucose,0.07
+126,119,Lithuania,Latvia,2017,isoglucose,0.01
+126,119,Lithuania,Latvia,2019,isoglucose,0.05
+126,119,Lithuania,Latvia,2020,isoglucose,0.04
+126,119,Lithuania,Latvia,2021,isoglucose,0.18
+126,119,Lithuania,Latvia,2022,isoglucose,0.09
+126,119,Lithuania,Latvia,2023,isoglucose,0.16
+84,68,Greece,France,2017,isoglucose,0.01
+199,150,Slovakia,Netherlands (Kingdom of the),2008,isoglucose,7.0
+199,150,Slovakia,Netherlands (Kingdom of the),2010,isoglucose,448.0
+199,150,Slovakia,Netherlands (Kingdom of the),2011,isoglucose,2824.0
+210,67,Sweden,Finland,2015,isoglucose,0.01
+210,67,Sweden,Finland,2022,isoglucose,0.09
+210,67,Sweden,Finland,2023,isoglucose,0.04
+38,185,Sri Lanka,Russian Federation,2020,isoglucose,4.89
+38,185,Sri Lanka,Russian Federation,2023,isoglucose,0.15
+67,126,Finland,Lithuania,2015,isoglucose,0.03
+67,126,Finland,Lithuania,2016,isoglucose,0.01
+67,126,Finland,Lithuania,2017,isoglucose,0.01
+38,194,Sri Lanka,Saudi Arabia,2012,isoglucose,1.0
+38,194,Sri Lanka,Saudi Arabia,2014,isoglucose,0.11
+38,194,Sri Lanka,Saudi Arabia,2016,isoglucose,0.61
+38,194,Sri Lanka,Saudi Arabia,2017,isoglucose,0.59
+38,194,Sri Lanka,Saudi Arabia,2019,isoglucose,0.2
+38,194,Sri Lanka,Saudi Arabia,2020,isoglucose,0.21
+38,194,Sri Lanka,Saudi Arabia,2021,isoglucose,0.2
+173,68,Poland,France,2008,isoglucose,26.0
+38,272,Sri Lanka,Serbia,2019,isoglucose,0.25
+38,272,Sri Lanka,Serbia,2020,isoglucose,0.71
+38,272,Sri Lanka,Serbia,2021,isoglucose,0.13
+255,56,Belgium,Dominican Republic,2011,isoglucose,8.0
+255,56,Belgium,Dominican Republic,2014,isoglucose,24.0
+255,56,Belgium,Dominican Republic,2015,isoglucose,21.0
+255,56,Belgium,Dominican Republic,2016,isoglucose,26.5
+255,56,Belgium,Dominican Republic,2017,isoglucose,52.06
+255,56,Belgium,Dominican Republic,2018,isoglucose,36.47
+255,56,Belgium,Dominican Republic,2019,isoglucose,45.16
+255,56,Belgium,Dominican Republic,2020,isoglucose,15.28
+255,56,Belgium,Dominican Republic,2021,isoglucose,14.88
+255,56,Belgium,Dominican Republic,2022,isoglucose,18.1
+255,56,Belgium,Dominican Republic,2023,isoglucose,16.48
+38,196,Sri Lanka,Seychelles,2014,isoglucose,0.02
+38,196,Sri Lanka,Seychelles,2016,isoglucose,0.01
+11,68,Austria,France,2010,isoglucose,820.0
+15,173,Belgium-Luxembourg,Poland,1999,isoglucose,38333.0
+255,59,Belgium,Egypt,2014,isoglucose,2.9
+255,59,Belgium,Egypt,2016,isoglucose,0.8
+255,59,Belgium,Egypt,2019,isoglucose,0.8
+255,59,Belgium,Egypt,2020,isoglucose,0.08
+38,200,Sri Lanka,Singapore,2015,isoglucose,0.1
+38,200,Sri Lanka,Singapore,2016,isoglucose,0.22
+38,200,Sri Lanka,Singapore,2017,isoglucose,0.11
+38,200,Sri Lanka,Singapore,2020,isoglucose,0.13
+38,200,Sri Lanka,Singapore,2021,isoglucose,0.8
+38,200,Sri Lanka,Singapore,2022,isoglucose,0.05
+38,200,Sri Lanka,Singapore,2023,isoglucose,0.13
+104,134,Ireland,Malta,2018,isoglucose,0.03
+104,134,Ireland,Malta,2019,isoglucose,0.02
+106,33,Italy,Canada,2001,isoglucose,17.0
+167,97,Czechia,Hungary,2001,isoglucose,14.0
+167,97,Czechia,Hungary,2002,isoglucose,25.0
+104,138,Ireland,Mexico,2010,isoglucose,1.0
+199,173,Slovakia,Poland,2004,isoglucose,4972.0
+199,173,Slovakia,Poland,2005,isoglucose,11153.0
+199,173,Slovakia,Poland,2006,isoglucose,8617.0
+199,173,Slovakia,Poland,2007,isoglucose,14041.0
+199,173,Slovakia,Poland,2008,isoglucose,1417.0
+199,173,Slovakia,Poland,2009,isoglucose,12912.0
+199,173,Slovakia,Poland,2010,isoglucose,19591.0
+199,173,Slovakia,Poland,2011,isoglucose,61059.0
+63,185,Estonia,Russian Federation,2016,isoglucose,0.5
+63,185,Estonia,Russian Federation,2017,isoglucose,0.8
+63,185,Estonia,Russian Federation,2018,isoglucose,1.0
+63,185,Estonia,Russian Federation,2019,isoglucose,0.35
+63,185,Estonia,Russian Federation,2020,isoglucose,0.35
+63,185,Estonia,Russian Federation,2022,isoglucose,0.23
+104,143,Ireland,Morocco,2003,isoglucose,39.0
+185,108,Russian Federation,Kazakhstan,2004,isoglucose,3.0
+185,108,Russian Federation,Kazakhstan,2005,isoglucose,2.0
+185,108,Russian Federation,Kazakhstan,2016,isoglucose,1.2
+38,202,Sri Lanka,South Africa,2019,isoglucose,0.14
+203,48,Spain,Costa Rica,2023,isoglucose,0.01
+126,150,Lithuania,Netherlands (Kingdom of the),2004,isoglucose,102.0
+15,185,Belgium-Luxembourg,Russian Federation,1999,isoglucose,38333.0
+210,68,Sweden,France,1996,isoglucose,19.0
+255,238,Belgium,Ethiopia,2019,isoglucose,0.08
+84,79,Greece,Germany,1991,isoglucose,29.0
+84,79,Greece,Germany,2004,isoglucose,1.0
+84,79,Greece,Germany,2010,isoglucose,1.0
+84,79,Greece,Germany,2011,isoglucose,1.0
+84,79,Greece,Germany,2014,isoglucose,0.05
+84,79,Greece,Germany,2016,isoglucose,0.01
+84,79,Greece,Germany,2018,isoglucose,0.02
+84,79,Greece,Germany,2019,isoglucose,0.01
+84,79,Greece,Germany,2020,isoglucose,0.05
+84,79,Greece,Germany,2021,isoglucose,0.04
+84,79,Greece,Germany,2022,isoglucose,0.01
+84,79,Greece,Germany,2023,isoglucose,0.08
+225,118,United Arab Emirates,Kuwait,2018,isoglucose,1.17
+38,210,Sri Lanka,Sweden,2015,isoglucose,0.1
+38,210,Sri Lanka,Sweden,2016,isoglucose,0.26
+38,210,Sri Lanka,Sweden,2017,isoglucose,0.04
+38,210,Sri Lanka,Sweden,2020,isoglucose,0.41
+38,210,Sri Lanka,Sweden,2021,isoglucose,0.09
+38,210,Sri Lanka,Sweden,2023,isoglucose,0.34
+27,154,Bulgaria,North Macedonia,2006,isoglucose,10.0
+27,154,Bulgaria,North Macedonia,2007,isoglucose,317.0
+27,154,Bulgaria,North Macedonia,2008,isoglucose,22.0
+27,154,Bulgaria,North Macedonia,2009,isoglucose,173.0
+27,154,Bulgaria,North Macedonia,2010,isoglucose,176.0
+27,154,Bulgaria,North Macedonia,2011,isoglucose,36.0
+27,154,Bulgaria,North Macedonia,2013,isoglucose,3.0
+183,106,Romania,Italy,2014,isoglucose,0.1
+183,106,Romania,Italy,2015,isoglucose,0.1
+38,211,Sri Lanka,Switzerland,2011,isoglucose,2.0
+38,211,Sri Lanka,Switzerland,2014,isoglucose,0.44
+38,211,Sri Lanka,Switzerland,2015,isoglucose,0.15
+38,211,Sri Lanka,Switzerland,2016,isoglucose,0.48
+38,211,Sri Lanka,Switzerland,2017,isoglucose,1.36
+38,211,Sri Lanka,Switzerland,2019,isoglucose,0.06
+38,211,Sri Lanka,Switzerland,2020,isoglucose,0.09
+38,211,Sri Lanka,Switzerland,2021,isoglucose,0.54
+38,211,Sri Lanka,Switzerland,2022,isoglucose,0.2
+38,211,Sri Lanka,Switzerland,2023,isoglucose,1.11
+203,98,Spain,Croatia,2002,isoglucose,121.0
+126,162,Lithuania,Norway,2017,isoglucose,0.01
+126,162,Lithuania,Norway,2018,isoglucose,0.07
+126,162,Lithuania,Norway,2019,isoglucose,0.04
+126,162,Lithuania,Norway,2020,isoglucose,0.05
+126,162,Lithuania,Norway,2021,isoglucose,0.06
+171,200,Philippines,Singapore,2010,isoglucose,5.0
+171,200,Philippines,Singapore,2021,isoglucose,26.0
+106,96,Italy,"China, Hong Kong SAR",1993,isoglucose,19.0
+173,79,Poland,Germany,2005,isoglucose,25.0
+173,79,Poland,Germany,2006,isoglucose,272.0
+173,79,Poland,Germany,2008,isoglucose,692.0
+199,183,Slovakia,Romania,2005,isoglucose,196.0
+199,183,Slovakia,Romania,2006,isoglucose,111.0
+199,183,Slovakia,Romania,2010,isoglucose,5.0
+199,183,Slovakia,Romania,2011,isoglucose,60.0
+54,79,Denmark,Germany,2009,isoglucose,43.0
+54,79,Denmark,Germany,2010,isoglucose,1.0
+199,272,Slovakia,Serbia,2006,isoglucose,299.0
+199,272,Slovakia,Serbia,2007,isoglucose,41.0
+199,272,Slovakia,Serbia,2010,isoglucose,216.0
+199,186,Slovakia,Serbia and Montenegro,2003,isoglucose,336.0
+11,79,Austria,Germany,2008,isoglucose,1.0
+11,79,Austria,Germany,2011,isoglucose,2.0
+38,225,Sri Lanka,United Arab Emirates,2010,isoglucose,1.0
+38,225,Sri Lanka,United Arab Emirates,2011,isoglucose,6.0
+38,225,Sri Lanka,United Arab Emirates,2012,isoglucose,9.0
+38,225,Sri Lanka,United Arab Emirates,2013,isoglucose,6.0
+38,225,Sri Lanka,United Arab Emirates,2014,isoglucose,3.32
+38,225,Sri Lanka,United Arab Emirates,2015,isoglucose,4.12
+38,225,Sri Lanka,United Arab Emirates,2016,isoglucose,5.99
+38,225,Sri Lanka,United Arab Emirates,2017,isoglucose,5.32
+38,225,Sri Lanka,United Arab Emirates,2019,isoglucose,0.4
+38,225,Sri Lanka,United Arab Emirates,2020,isoglucose,4.24
+38,225,Sri Lanka,United Arab Emirates,2021,isoglucose,6.2
+38,225,Sri Lanka,United Arab Emirates,2022,isoglucose,5.09
+38,225,Sri Lanka,United Arab Emirates,2023,isoglucose,7.49
+203,50,Spain,Cyprus,2002,isoglucose,19.0
+199,198,Slovakia,Slovenia,1999,isoglucose,3811.0
+199,198,Slovakia,Slovenia,2004,isoglucose,1148.0
+199,198,Slovakia,Slovenia,2005,isoglucose,300.0
+199,198,Slovakia,Slovenia,2006,isoglucose,605.0
+199,198,Slovakia,Slovenia,2007,isoglucose,471.0
+199,198,Slovakia,Slovenia,2008,isoglucose,10.0
+199,198,Slovakia,Slovenia,2009,isoglucose,147.0
+199,198,Slovakia,Slovenia,2010,isoglucose,199.0
+199,198,Slovakia,Slovenia,2011,isoglucose,780.0
+171,38,Philippines,Sri Lanka,2009,isoglucose,15.0
+79,96,Germany,"China, Hong Kong SAR",2014,isoglucose,0.2
+79,96,Germany,"China, Hong Kong SAR",2015,isoglucose,0.1
+67,173,Finland,Poland,2007,isoglucose,1.0
+67,173,Finland,Poland,2008,isoglucose,9.0
+167,106,Czechia,Italy,2021,isoglucose,0.23
+255,68,Belgium,France,2008,isoglucose,7.0
+255,68,Belgium,France,2009,isoglucose,22.0
+255,68,Belgium,France,2010,isoglucose,30.0
+255,68,Belgium,France,2011,isoglucose,85.0
+255,68,Belgium,France,2014,isoglucose,20.2
+255,68,Belgium,France,2015,isoglucose,16.1
+255,68,Belgium,France,2016,isoglucose,18.3
+255,68,Belgium,France,2017,isoglucose,19.42
+255,68,Belgium,France,2018,isoglucose,21.09
+255,68,Belgium,France,2019,isoglucose,30.46
+255,68,Belgium,France,2020,isoglucose,18.93
+255,68,Belgium,France,2021,isoglucose,26.94
+255,68,Belgium,France,2022,isoglucose,17.4
+255,68,Belgium,France,2023,isoglucose,37.66
+199,203,Slovakia,Spain,2010,isoglucose,32.0
+199,203,Slovakia,Spain,2011,isoglucose,111.0
+106,214,Italy,"China, Taiwan Province of",1992,isoglucose,20.0
+150,40,Netherlands (Kingdom of the),Chile,2022,isoglucose,0.2
+150,40,Netherlands (Kingdom of the),Chile,2023,isoglucose,0.32
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2009,isoglucose,1.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,8.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,7.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2012,isoglucose,10.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2013,isoglucose,20.0
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2014,isoglucose,21.39
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2015,isoglucose,21.29
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2016,isoglucose,16.88
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2017,isoglucose,24.87
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2019,isoglucose,11.8
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2020,isoglucose,20.4
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2021,isoglucose,24.63
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2022,isoglucose,15.29
+38,229,Sri Lanka,United Kingdom of Great Britain and Northern Ireland,2023,isoglucose,13.03
+54,81,Denmark,Ghana,2007,isoglucose,3.0
+27,183,Bulgaria,Romania,2006,isoglucose,3885.0
+27,183,Bulgaria,Romania,2007,isoglucose,986.0
+27,183,Bulgaria,Romania,2008,isoglucose,1689.0
+27,183,Bulgaria,Romania,2009,isoglucose,18075.0
+27,183,Bulgaria,Romania,2010,isoglucose,33687.0
+27,183,Bulgaria,Romania,2011,isoglucose,36470.0
+171,216,Philippines,Thailand,2009,isoglucose,5.0
+171,216,Philippines,Thailand,2012,isoglucose,1.0
+67,185,Finland,Russian Federation,2004,isoglucose,40.0
+67,185,Finland,Russian Federation,2005,isoglucose,40.0
+67,185,Finland,Russian Federation,2007,isoglucose,10.0
+67,185,Finland,Russian Federation,2009,isoglucose,1.0
+67,185,Finland,Russian Federation,2010,isoglucose,17.0
+67,185,Finland,Russian Federation,2011,isoglucose,22.0
+67,185,Finland,Russian Federation,2012,isoglucose,45.0
+67,185,Finland,Russian Federation,2013,isoglucose,44.0
+67,185,Finland,Russian Federation,2014,isoglucose,2.9
+67,185,Finland,Russian Federation,2015,isoglucose,2.7
+67,185,Finland,Russian Federation,2016,isoglucose,2.28
+67,185,Finland,Russian Federation,2017,isoglucose,2.28
+67,185,Finland,Russian Federation,2018,isoglucose,0.26
+38,231,Sri Lanka,United States of America,2011,isoglucose,2.0
+38,231,Sri Lanka,United States of America,2012,isoglucose,1.0
+38,231,Sri Lanka,United States of America,2013,isoglucose,4.0
+38,231,Sri Lanka,United States of America,2014,isoglucose,5.59
+38,231,Sri Lanka,United States of America,2015,isoglucose,2.47
+38,231,Sri Lanka,United States of America,2016,isoglucose,5.12
+38,231,Sri Lanka,United States of America,2017,isoglucose,12.48
+38,231,Sri Lanka,United States of America,2019,isoglucose,3.95
+38,231,Sri Lanka,United States of America,2020,isoglucose,8.91
+38,231,Sri Lanka,United States of America,2021,isoglucose,21.22
+38,231,Sri Lanka,United States of America,2022,isoglucose,4.86
+38,231,Sri Lanka,United States of America,2023,isoglucose,6.15
+126,185,Lithuania,Russian Federation,2018,isoglucose,2.38
+126,185,Lithuania,Russian Federation,2019,isoglucose,3.47
+126,185,Lithuania,Russian Federation,2020,isoglucose,5.33
+126,185,Lithuania,Russian Federation,2021,isoglucose,5.78
+126,185,Lithuania,Russian Federation,2022,isoglucose,4.69
+173,97,Poland,Hungary,2004,isoglucose,189.0
+173,97,Poland,Hungary,2005,isoglucose,526.0
+173,97,Poland,Hungary,2006,isoglucose,246.0
+173,97,Poland,Hungary,2007,isoglucose,114.0
+173,97,Poland,Hungary,2008,isoglucose,752.0
+173,97,Poland,Hungary,2009,isoglucose,516.0
+173,97,Poland,Hungary,2010,isoglucose,605.0
+173,97,Poland,Hungary,2011,isoglucose,649.0
+255,70,Belgium,French Polynesia,2019,isoglucose,1.08
+255,70,Belgium,French Polynesia,2020,isoglucose,0.79
+255,70,Belgium,French Polynesia,2021,isoglucose,0.19
+68,96,France,"China, Hong Kong SAR",2023,isoglucose,0.2
+255,74,Belgium,Gabon,2020,isoglucose,0.09
+255,74,Belgium,Gabon,2021,isoglucose,0.07
+38,234,Sri Lanka,Uruguay,2017,isoglucose,1.52
+38,234,Sri Lanka,Uruguay,2019,isoglucose,1.9
+38,234,Sri Lanka,Uruguay,2020,isoglucose,1.01
+38,234,Sri Lanka,Uruguay,2021,isoglucose,2.06
+38,234,Sri Lanka,Uruguay,2022,isoglucose,0.97
+38,234,Sri Lanka,Uruguay,2023,isoglucose,1.8
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2002,isoglucose,4.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1997,isoglucose,1.0
+106,107,Italy,Côte d'Ivoire,2002,isoglucose,4410.0
+106,107,Italy,Côte d'Ivoire,2003,isoglucose,588.0
+255,75,Belgium,Gambia,2019,isoglucose,0.13
+255,75,Belgium,Gambia,2020,isoglucose,0.1
+255,75,Belgium,Gambia,2021,isoglucose,0.07
+203,54,Spain,Denmark,1986,isoglucose,5.0
+203,54,Spain,Denmark,1987,isoglucose,25.0
+203,54,Spain,Denmark,1992,isoglucose,23.0
+203,54,Spain,Denmark,2011,isoglucose,2.0
+38,251,Sri Lanka,Zambia,2019,isoglucose,0.04
+38,251,Sri Lanka,Zambia,2020,isoglucose,0.02
+38,251,Sri Lanka,Zambia,2021,isoglucose,0.05
+38,251,Sri Lanka,Zambia,2022,isoglucose,0.01
+38,251,Sri Lanka,Zambia,2023,isoglucose,0.02
+126,272,Lithuania,Serbia,2023,isoglucose,0.03
+67,199,Finland,Slovakia,2006,isoglucose,8.0
+67,199,Finland,Slovakia,2007,isoglucose,19.0
+67,199,Finland,Slovakia,2008,isoglucose,1.0
+27,272,Bulgaria,Serbia,2006,isoglucose,443.0
+27,272,Bulgaria,Serbia,2007,isoglucose,8939.0
+27,272,Bulgaria,Serbia,2008,isoglucose,62.0
+27,272,Bulgaria,Serbia,2009,isoglucose,8954.0
+27,272,Bulgaria,Serbia,2010,isoglucose,10764.0
+27,272,Bulgaria,Serbia,2011,isoglucose,11080.0
+84,106,Greece,Italy,1988,isoglucose,2480.0
+84,106,Greece,Italy,1989,isoglucose,2591.0
+84,106,Greece,Italy,1990,isoglucose,1515.0
+84,106,Greece,Italy,1991,isoglucose,2883.0
+84,106,Greece,Italy,1992,isoglucose,3136.0
+84,106,Greece,Italy,1993,isoglucose,584.0
+84,106,Greece,Italy,1994,isoglucose,2625.0
+84,106,Greece,Italy,1995,isoglucose,1179.0
+84,106,Greece,Italy,1996,isoglucose,1793.0
+84,106,Greece,Italy,1997,isoglucose,1093.0
+84,106,Greece,Italy,2006,isoglucose,4.0
+84,106,Greece,Italy,2007,isoglucose,20.0
+84,106,Greece,Italy,2011,isoglucose,1.0
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,60.0
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,507.0
+15,231,Belgium-Luxembourg,United States of America,1994,isoglucose,1.0
+150,41,Netherlands (Kingdom of the),"China, mainland",2015,isoglucose,0.7
+150,41,Netherlands (Kingdom of the),"China, mainland",2016,isoglucose,1.92
+150,41,Netherlands (Kingdom of the),"China, mainland",2017,isoglucose,1.0
+150,41,Netherlands (Kingdom of the),"China, mainland",2021,isoglucose,4.63
+150,41,Netherlands (Kingdom of the),"China, mainland",2022,isoglucose,32.8
+150,41,Netherlands (Kingdom of the),"China, mainland",2023,isoglucose,41.99
+106,98,Italy,Croatia,1997,isoglucose,1233.0
+106,98,Italy,Croatia,1998,isoglucose,2309.0
+106,98,Italy,Croatia,1999,isoglucose,163.0
+106,98,Italy,Croatia,2001,isoglucose,782.0
+106,98,Italy,Croatia,2002,isoglucose,899.0
+106,98,Italy,Croatia,2003,isoglucose,1557.0
+106,98,Italy,Croatia,2006,isoglucose,602.0
+106,98,Italy,Croatia,2007,isoglucose,2388.0
+106,98,Italy,Croatia,2008,isoglucose,833.0
+106,98,Italy,Croatia,2009,isoglucose,1269.0
+106,98,Italy,Croatia,2010,isoglucose,4656.0
+106,98,Italy,Croatia,2011,isoglucose,2612.0
+210,99,Sweden,Iceland,2000,isoglucose,1.0
+210,99,Sweden,Iceland,2001,isoglucose,1.0
+174,121,Portugal,Lebanon,2013,isoglucose,110.0
+225,221,United Arab Emirates,Oman,2018,isoglucose,0.25
+104,200,Ireland,Singapore,2003,isoglucose,1.0
+54,99,Denmark,Iceland,1993,isoglucose,4.0
+54,99,Denmark,Iceland,2008,isoglucose,1.0
+203,56,Spain,Dominican Republic,1995,isoglucose,5.0
+255,79,Belgium,Germany,2003,isoglucose,8.0
+255,79,Belgium,Germany,2007,isoglucose,1.0
+255,79,Belgium,Germany,2008,isoglucose,6.0
+255,79,Belgium,Germany,2009,isoglucose,3.0
+255,79,Belgium,Germany,2010,isoglucose,10.0
+255,79,Belgium,Germany,2011,isoglucose,7.0
+255,79,Belgium,Germany,2014,isoglucose,5.2
+255,79,Belgium,Germany,2015,isoglucose,3.7
+255,79,Belgium,Germany,2016,isoglucose,3.8
+255,79,Belgium,Germany,2017,isoglucose,2.76
+255,79,Belgium,Germany,2018,isoglucose,12.74
+255,79,Belgium,Germany,2019,isoglucose,137.26
+255,79,Belgium,Germany,2020,isoglucose,494.65
+255,79,Belgium,Germany,2021,isoglucose,142.51
+255,79,Belgium,Germany,2022,isoglucose,35.16
+255,79,Belgium,Germany,2023,isoglucose,5.49
+11,97,Austria,Hungary,2018,isoglucose,0.01
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1993,isoglucose,20.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1999,isoglucose,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2002,isoglucose,2.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2006,isoglucose,25.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2007,isoglucose,50.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2008,isoglucose,48.0
+150,214,Netherlands (Kingdom of the),"China, Taiwan Province of",2016,isoglucose,0.1
+150,214,Netherlands (Kingdom of the),"China, Taiwan Province of",2022,isoglucose,0.48
+150,214,Netherlands (Kingdom of the),"China, Taiwan Province of",2023,isoglucose,0.46
+225,165,United Arab Emirates,Pakistan,2018,isoglucose,6.81
+183,174,Romania,Portugal,2018,isoglucose,0.08
+68,214,France,"China, Taiwan Province of",2023,isoglucose,1.08
+106,50,Italy,Cyprus,2011,isoglucose,8.0
+67,210,Finland,Sweden,2003,isoglucose,123.0
+104,203,Ireland,Spain,2018,isoglucose,0.05
+203,59,Spain,Egypt,1987,isoglucose,5.0
+150,44,Netherlands (Kingdom of the),Colombia,2022,isoglucose,0.72
+150,44,Netherlands (Kingdom of the),Colombia,2023,isoglucose,0.31
+27,210,Bulgaria,Sweden,2019,isoglucose,12.0
+79,98,Germany,Croatia,2011,isoglucose,542.0
+223,103,Türkiye,Iraq,2003,isoglucose,1.0
+183,146,Romania,Republic of Moldova,2009,isoglucose,1.0
+167,150,Czechia,Netherlands (Kingdom of the),2022,isoglucose,0.01
+126,230,Lithuania,Ukraine,2020,isoglucose,0.18
+126,230,Lithuania,Ukraine,2021,isoglucose,0.56
+126,230,Lithuania,Ukraine,2022,isoglucose,0.06
+126,230,Lithuania,Ukraine,2023,isoglucose,0.44
+173,106,Poland,Italy,2008,isoglucose,222.0
+27,223,Bulgaria,Türkiye,2006,isoglucose,181.0
+27,223,Bulgaria,Türkiye,2008,isoglucose,10512.0
+255,84,Belgium,Greece,2014,isoglucose,0.1
+255,84,Belgium,Greece,2015,isoglucose,0.2
+255,84,Belgium,Greece,2016,isoglucose,0.3
+255,84,Belgium,Greece,2017,isoglucose,0.35
+255,84,Belgium,Greece,2018,isoglucose,0.26
+255,84,Belgium,Greece,2019,isoglucose,1.12
+104,216,Ireland,Thailand,2001,isoglucose,236.0
+104,216,Ireland,Thailand,2002,isoglucose,152.0
+27,230,Bulgaria,Ukraine,2011,isoglucose,1363.0
+126,231,Lithuania,United States of America,2004,isoglucose,3.0
+255,90,Belgium,Guinea,2016,isoglucose,0.1
+255,90,Belgium,Guinea,2020,isoglucose,0.6
+255,90,Belgium,Guinea,2021,isoglucose,0.14
+200,118,Singapore,Kuwait,1986,isoglucose,34.0
+67,230,Finland,Ukraine,2014,isoglucose,0.02
+225,194,United Arab Emirates,Saudi Arabia,2018,isoglucose,1.95
+104,225,Ireland,United Arab Emirates,2003,isoglucose,5.0
+104,225,Ireland,United Arab Emirates,2005,isoglucose,2.0
+104,225,Ireland,United Arab Emirates,2006,isoglucose,2.0
+104,225,Ireland,United Arab Emirates,2007,isoglucose,3.0
+104,225,Ireland,United Arab Emirates,2019,isoglucose,0.11
+255,97,Belgium,Hungary,2023,isoglucose,0.09
+106,54,Italy,Denmark,1995,isoglucose,47.0
+106,54,Italy,Denmark,1996,isoglucose,364.0
+106,54,Italy,Denmark,1997,isoglucose,709.0
+79,167,Germany,Czechia,2010,isoglucose,10.0
+79,167,Germany,Czechia,2011,isoglucose,127.0
+79,167,Germany,Czechia,2014,isoglucose,0.03
+79,167,Germany,Czechia,2015,isoglucose,0.01
+79,167,Germany,Czechia,2016,isoglucose,0.05
+79,167,Germany,Czechia,2019,isoglucose,0.75
+79,167,Germany,Czechia,2020,isoglucose,0.01
+79,167,Germany,Czechia,2021,isoglucose,0.08
+79,167,Germany,Czechia,2023,isoglucose,0.24
+173,119,Poland,Latvia,2004,isoglucose,512.0
+173,119,Poland,Latvia,2005,isoglucose,947.0
+173,119,Poland,Latvia,2006,isoglucose,153.0
+173,119,Poland,Latvia,2007,isoglucose,276.0
+173,119,Poland,Latvia,2008,isoglucose,723.0
+173,119,Poland,Latvia,2009,isoglucose,473.0
+173,119,Poland,Latvia,2010,isoglucose,713.0
+173,119,Poland,Latvia,2011,isoglucose,695.0
+84,150,Greece,Netherlands (Kingdom of the),1990,isoglucose,24.0
+84,150,Greece,Netherlands (Kingdom of the),1992,isoglucose,27.0
+84,150,Greece,Netherlands (Kingdom of the),2022,isoglucose,0.01
+84,150,Greece,Netherlands (Kingdom of the),2023,isoglucose,0.04
+167,173,Czechia,Poland,2007,isoglucose,106.0
+167,173,Czechia,Poland,2008,isoglucose,16.0
+167,173,Czechia,Poland,2010,isoglucose,31.0
+167,173,Czechia,Poland,2021,isoglucose,0.01
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,1988,isoglucose,5.0
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,2012,isoglucose,7.0
+255,99,Belgium,Iceland,2018,isoglucose,0.02
+185,208,Russian Federation,Tajikistan,2004,isoglucose,1.0
+11,106,Austria,Italy,2011,isoglucose,38.0
+150,50,Netherlands (Kingdom of the),Cyprus,1998,isoglucose,1.0
+150,50,Netherlands (Kingdom of the),Cyprus,2014,isoglucose,0.5
+150,50,Netherlands (Kingdom of the),Cyprus,2016,isoglucose,0.04
+150,50,Netherlands (Kingdom of the),Cyprus,2017,isoglucose,0.06
+203,68,Spain,France,1987,isoglucose,6.0
+203,68,Spain,France,1988,isoglucose,23.0
+203,68,Spain,France,1993,isoglucose,636.0
+203,68,Spain,France,1994,isoglucose,5761.0
+203,68,Spain,France,1995,isoglucose,7582.0
+203,68,Spain,France,1996,isoglucose,11510.0
+203,68,Spain,France,1997,isoglucose,13484.0
+203,68,Spain,France,1998,isoglucose,1880.0
+203,68,Spain,France,1999,isoglucose,432.0
+203,68,Spain,France,2000,isoglucose,398.0
+203,68,Spain,France,2001,isoglucose,295.0
+203,68,Spain,France,2002,isoglucose,794.0
+203,68,Spain,France,2003,isoglucose,2227.0
+203,68,Spain,France,2004,isoglucose,596.0
+203,68,Spain,France,2005,isoglucose,349.0
+203,68,Spain,France,2006,isoglucose,535.0
+203,68,Spain,France,2007,isoglucose,2891.0
+203,68,Spain,France,2008,isoglucose,1650.0
+203,68,Spain,France,2009,isoglucose,12801.0
+203,68,Spain,France,2010,isoglucose,2151.0
+203,68,Spain,France,2011,isoglucose,762.0
+203,68,Spain,France,2023,isoglucose,0.01
+200,131,Singapore,Malaysia,1986,isoglucose,13.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1996,isoglucose,18.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1997,isoglucose,41.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1998,isoglucose,11.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1999,isoglucose,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2000,isoglucose,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2001,isoglucose,3.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2002,isoglucose,3.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2003,isoglucose,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2004,isoglucose,7.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2005,isoglucose,5.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2006,isoglucose,5.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2007,isoglucose,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2008,isoglucose,102.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2009,isoglucose,12.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,10.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,12.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2015,isoglucose,1.2
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2018,isoglucose,0.52
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2019,isoglucose,1.14
+183,211,Romania,Switzerland,2012,isoglucose,18.0
+183,211,Romania,Switzerland,2013,isoglucose,78.0
+183,211,Romania,Switzerland,2014,isoglucose,83.0
+183,211,Romania,Switzerland,2015,isoglucose,135.0
+183,211,Romania,Switzerland,2016,isoglucose,140.0
+183,211,Romania,Switzerland,2017,isoglucose,119.97
+183,211,Romania,Switzerland,2018,isoglucose,20.0
+183,211,Romania,Switzerland,2019,isoglucose,35.0
+183,211,Romania,Switzerland,2020,isoglucose,45.5
+183,211,Romania,Switzerland,2021,isoglucose,15.0
+183,211,Romania,Switzerland,2022,isoglucose,55.5
+183,211,Romania,Switzerland,2023,isoglucose,10.0
+84,159,Greece,Nigeria,2011,isoglucose,1.0
+173,126,Poland,Lithuania,2004,isoglucose,1761.0
+173,126,Poland,Lithuania,2005,isoglucose,1245.0
+173,126,Poland,Lithuania,2006,isoglucose,723.0
+173,126,Poland,Lithuania,2007,isoglucose,1122.0
+173,126,Poland,Lithuania,2008,isoglucose,1460.0
+173,126,Poland,Lithuania,2009,isoglucose,2565.0
+173,126,Poland,Lithuania,2010,isoglucose,3597.0
+173,126,Poland,Lithuania,2011,isoglucose,2596.0
+255,102,Belgium,Iran (Islamic Republic of),2015,isoglucose,6.9
+255,102,Belgium,Iran (Islamic Republic of),2018,isoglucose,65.98
+255,102,Belgium,Iran (Islamic Republic of),2019,isoglucose,3.0
+255,102,Belgium,Iran (Islamic Republic of),2021,isoglucose,21.82
+183,222,Romania,Tunisia,2013,isoglucose,16.0
+183,222,Romania,Tunisia,2018,isoglucose,24.0
+183,222,Romania,Tunisia,2019,isoglucose,20.0
+255,104,Belgium,Ireland,2020,isoglucose,0.01
+255,104,Belgium,Ireland,2021,isoglucose,0.01
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1991,isoglucose,1181.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1992,isoglucose,1966.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1993,isoglucose,915.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1994,isoglucose,720.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1997,isoglucose,45.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2001,isoglucose,3.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2002,isoglucose,75.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2004,isoglucose,52.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2005,isoglucose,25.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2006,isoglucose,2147.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2007,isoglucose,8831.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2008,isoglucose,2974.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2009,isoglucose,200.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2011,isoglucose,24.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2022,isoglucose,20.8
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2023,isoglucose,9.79
+167,183,Czechia,Romania,2001,isoglucose,3.0
+150,167,Netherlands (Kingdom of the),Czechia,2001,isoglucose,47.0
+150,167,Netherlands (Kingdom of the),Czechia,2006,isoglucose,564.0
+150,167,Netherlands (Kingdom of the),Czechia,2007,isoglucose,1974.0
+150,167,Netherlands (Kingdom of the),Czechia,2014,isoglucose,0.01
+79,54,Germany,Denmark,2010,isoglucose,726.0
+79,54,Germany,Denmark,2011,isoglucose,26.0
+255,105,Belgium,Israel,2016,isoglucose,9.2
+255,105,Belgium,Israel,2017,isoglucose,8.0
+255,105,Belgium,Israel,2018,isoglucose,0.07
+255,105,Belgium,Israel,2021,isoglucose,0.02
+255,105,Belgium,Israel,2023,isoglucose,3.08
+104,231,Ireland,United States of America,2001,isoglucose,17.0
+167,272,Czechia,Serbia,2010,isoglucose,1.0
+167,186,Czechia,Serbia and Montenegro,2001,isoglucose,1.0
+167,186,Czechia,Serbia and Montenegro,2002,isoglucose,5.0
+210,150,Sweden,Netherlands (Kingdom of the),2022,isoglucose,0.01
+106,67,Italy,Finland,2000,isoglucose,10.0
+106,67,Italy,Finland,2002,isoglucose,16.0
+255,106,Belgium,Italy,2007,isoglucose,1.0
+255,106,Belgium,Italy,2008,isoglucose,22.0
+255,106,Belgium,Italy,2009,isoglucose,54.0
+255,106,Belgium,Italy,2010,isoglucose,53.0
+255,106,Belgium,Italy,2011,isoglucose,102.0
+255,106,Belgium,Italy,2014,isoglucose,4.9
+255,106,Belgium,Italy,2015,isoglucose,2.4
+255,106,Belgium,Italy,2016,isoglucose,3.0
+255,106,Belgium,Italy,2017,isoglucose,1.75
+255,106,Belgium,Italy,2018,isoglucose,2.39
+255,106,Belgium,Italy,2019,isoglucose,3.23
+255,106,Belgium,Italy,2020,isoglucose,0.24
+255,106,Belgium,Italy,2023,isoglucose,0.01
+173,150,Poland,Netherlands (Kingdom of the),2008,isoglucose,5574.0
+173,150,Poland,Netherlands (Kingdom of the),2009,isoglucose,4778.0
+173,150,Poland,Netherlands (Kingdom of the),2010,isoglucose,2096.0
+173,150,Poland,Netherlands (Kingdom of the),2011,isoglucose,6053.0
+203,79,Spain,Germany,1992,isoglucose,328.0
+203,79,Spain,Germany,1993,isoglucose,998.0
+203,79,Spain,Germany,1994,isoglucose,426.0
+203,79,Spain,Germany,1995,isoglucose,412.0
+203,79,Spain,Germany,1996,isoglucose,784.0
+203,79,Spain,Germany,2003,isoglucose,20.0
+203,79,Spain,Germany,2004,isoglucose,20.0
+203,79,Spain,Germany,2008,isoglucose,50.0
+185,235,Russian Federation,Uzbekistan,2004,isoglucose,1.0
+167,199,Czechia,Slovakia,2002,isoglucose,3.0
+167,199,Czechia,Slovakia,2006,isoglucose,1.0
+167,199,Czechia,Slovakia,2007,isoglucose,138.0
+167,199,Czechia,Slovakia,2008,isoglucose,14.0
+84,183,Greece,Romania,1995,isoglucose,219.0
+84,183,Greece,Romania,1997,isoglucose,71.0
+84,183,Greece,Romania,1998,isoglucose,22.0
+84,183,Greece,Romania,2001,isoglucose,1.0
+84,183,Greece,Romania,2007,isoglucose,6.0
+84,183,Greece,Romania,2008,isoglucose,7.0
+150,54,Netherlands (Kingdom of the),Denmark,1988,isoglucose,22.0
+150,54,Netherlands (Kingdom of the),Denmark,1989,isoglucose,29.0
+150,54,Netherlands (Kingdom of the),Denmark,1990,isoglucose,1133.0
+150,54,Netherlands (Kingdom of the),Denmark,1991,isoglucose,1543.0
+150,54,Netherlands (Kingdom of the),Denmark,1992,isoglucose,978.0
+150,54,Netherlands (Kingdom of the),Denmark,1993,isoglucose,441.0
+150,54,Netherlands (Kingdom of the),Denmark,1994,isoglucose,702.0
+150,54,Netherlands (Kingdom of the),Denmark,1995,isoglucose,240.0
+150,54,Netherlands (Kingdom of the),Denmark,1996,isoglucose,266.0
+150,54,Netherlands (Kingdom of the),Denmark,1997,isoglucose,604.0
+150,54,Netherlands (Kingdom of the),Denmark,1998,isoglucose,2611.0
+150,54,Netherlands (Kingdom of the),Denmark,1999,isoglucose,718.0
+150,54,Netherlands (Kingdom of the),Denmark,2000,isoglucose,161.0
+150,54,Netherlands (Kingdom of the),Denmark,2001,isoglucose,326.0
+150,54,Netherlands (Kingdom of the),Denmark,2002,isoglucose,704.0
+150,54,Netherlands (Kingdom of the),Denmark,2003,isoglucose,1053.0
+150,54,Netherlands (Kingdom of the),Denmark,2004,isoglucose,50.0
+150,54,Netherlands (Kingdom of the),Denmark,2006,isoglucose,225.0
+150,54,Netherlands (Kingdom of the),Denmark,2007,isoglucose,400.0
+150,54,Netherlands (Kingdom of the),Denmark,2010,isoglucose,4.0
+150,54,Netherlands (Kingdom of the),Denmark,2011,isoglucose,20.0
+150,54,Netherlands (Kingdom of the),Denmark,2012,isoglucose,3.0
+150,54,Netherlands (Kingdom of the),Denmark,2013,isoglucose,1.0
+150,54,Netherlands (Kingdom of the),Denmark,2014,isoglucose,2.9
+150,54,Netherlands (Kingdom of the),Denmark,2015,isoglucose,1.4
+150,54,Netherlands (Kingdom of the),Denmark,2016,isoglucose,2.88
+150,54,Netherlands (Kingdom of the),Denmark,2017,isoglucose,3.6
+150,54,Netherlands (Kingdom of the),Denmark,2018,isoglucose,5.04
+150,54,Netherlands (Kingdom of the),Denmark,2019,isoglucose,7.44
+150,54,Netherlands (Kingdom of the),Denmark,2020,isoglucose,7.22
+150,54,Netherlands (Kingdom of the),Denmark,2021,isoglucose,10.19
+150,54,Netherlands (Kingdom of the),Denmark,2022,isoglucose,4.7
+150,54,Netherlands (Kingdom of the),Denmark,2023,isoglucose,5.99
+174,203,Portugal,Spain,1989,isoglucose,47.0
+174,203,Portugal,Spain,1990,isoglucose,3414.0
+174,203,Portugal,Spain,1991,isoglucose,817.0
+174,203,Portugal,Spain,1992,isoglucose,1638.0
+174,203,Portugal,Spain,1994,isoglucose,928.0
+174,203,Portugal,Spain,1995,isoglucose,25.0
+174,203,Portugal,Spain,2000,isoglucose,1.0
+174,203,Portugal,Spain,2002,isoglucose,363.0
+174,203,Portugal,Spain,2004,isoglucose,1512.0
+174,203,Portugal,Spain,2005,isoglucose,146.0
+174,203,Portugal,Spain,2006,isoglucose,225.0
+174,203,Portugal,Spain,2007,isoglucose,119.0
+174,203,Portugal,Spain,2008,isoglucose,47.0
+174,203,Portugal,Spain,2009,isoglucose,774.0
+174,203,Portugal,Spain,2010,isoglucose,6512.0
+174,203,Portugal,Spain,2011,isoglucose,6178.0
+255,110,Belgium,Japan,2019,isoglucose,0.98
+255,110,Belgium,Japan,2020,isoglucose,1.0
+255,110,Belgium,Japan,2021,isoglucose,1.03
+255,110,Belgium,Japan,2022,isoglucose,1.0
+255,110,Belgium,Japan,2023,isoglucose,0.99
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1991,isoglucose,23.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1992,isoglucose,21.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1993,isoglucose,153.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1994,isoglucose,107.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2001,isoglucose,117.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2002,isoglucose,138.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2004,isoglucose,145.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2005,isoglucose,49.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2006,isoglucose,1161.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2007,isoglucose,7380.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2008,isoglucose,2123.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2009,isoglucose,217.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2022,isoglucose,0.16
+54,150,Denmark,Netherlands (Kingdom of the),2009,isoglucose,6.0
+54,150,Denmark,Netherlands (Kingdom of the),2010,isoglucose,38.0
+106,68,Italy,France,1989,isoglucose,798.0
+106,68,Italy,France,1990,isoglucose,802.0
+106,68,Italy,France,1991,isoglucose,2032.0
+106,68,Italy,France,1992,isoglucose,835.0
+106,68,Italy,France,1993,isoglucose,1059.0
+106,68,Italy,France,1994,isoglucose,1066.0
+106,68,Italy,France,1995,isoglucose,3272.0
+106,68,Italy,France,1996,isoglucose,49.0
+106,68,Italy,France,1997,isoglucose,4681.0
+106,68,Italy,France,1998,isoglucose,6482.0
+106,68,Italy,France,1999,isoglucose,5125.0
+106,68,Italy,France,2000,isoglucose,3214.0
+106,68,Italy,France,2001,isoglucose,125.0
+106,68,Italy,France,2002,isoglucose,768.0
+106,68,Italy,France,2003,isoglucose,1.0
+106,68,Italy,France,2004,isoglucose,1.0
+106,68,Italy,France,2005,isoglucose,1.0
+106,68,Italy,France,2006,isoglucose,440.0
+106,68,Italy,France,2007,isoglucose,1199.0
+106,68,Italy,France,2008,isoglucose,1113.0
+106,68,Italy,France,2009,isoglucose,384.0
+106,68,Italy,France,2010,isoglucose,990.0
+106,68,Italy,France,2011,isoglucose,1143.0
+255,114,Belgium,Kenya,2016,isoglucose,0.99
+255,118,Belgium,Kuwait,2011,isoglucose,2.0
+255,118,Belgium,Kuwait,2016,isoglucose,0.41
+255,118,Belgium,Kuwait,2022,isoglucose,2.48
+255,118,Belgium,Kuwait,2023,isoglucose,17.51
+210,162,Sweden,Norway,2008,isoglucose,1.0
+210,162,Sweden,Norway,2010,isoglucose,2.0
+210,162,Sweden,Norway,2017,isoglucose,0.91
+210,162,Sweden,Norway,2019,isoglucose,1.0
+210,162,Sweden,Norway,2020,isoglucose,0.5
+210,162,Sweden,Norway,2021,isoglucose,0.67
+210,162,Sweden,Norway,2022,isoglucose,4.03
+210,162,Sweden,Norway,2023,isoglucose,1.98
+167,198,Czechia,Slovenia,2001,isoglucose,1.0
+167,198,Czechia,Slovenia,2002,isoglucose,1.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,2004,isoglucose,6.0
+174,211,Portugal,Switzerland,2018,isoglucose,0.25
+54,159,Denmark,Nigeria,2011,isoglucose,5.0
+79,67,Germany,Finland,2009,isoglucose,257.0
+79,67,Germany,Finland,2010,isoglucose,1261.0
+79,67,Germany,Finland,2011,isoglucose,432.0
+255,126,Belgium,Lithuania,2011,isoglucose,1.0
+106,73,Italy,Georgia,1998,isoglucose,8.0
+229,84,United Kingdom of Great Britain and Northern Ireland,Greece,2002,isoglucose,6.0
+229,84,United Kingdom of Great Britain and Northern Ireland,Greece,2003,isoglucose,15.0
+173,183,Poland,Romania,2007,isoglucose,96.0
+173,183,Poland,Romania,2008,isoglucose,48.0
+54,162,Denmark,Norway,1988,isoglucose,7.0
+54,162,Denmark,Norway,1989,isoglucose,5.0
+54,162,Denmark,Norway,2001,isoglucose,2.0
+54,162,Denmark,Norway,2003,isoglucose,1.0
+54,162,Denmark,Norway,2006,isoglucose,12.0
+54,162,Denmark,Norway,2007,isoglucose,1.0
+54,162,Denmark,Norway,2009,isoglucose,1.0
+54,162,Denmark,Norway,2010,isoglucose,7.0
+54,162,Denmark,Norway,2011,isoglucose,3.0
+54,162,Denmark,Norway,2016,isoglucose,11.63
+54,162,Denmark,Norway,2019,isoglucose,0.04
+54,162,Denmark,Norway,2020,isoglucose,0.02
+54,162,Denmark,Norway,2021,isoglucose,0.46
+54,162,Denmark,Norway,2022,isoglucose,1.4
+54,162,Denmark,Norway,2023,isoglucose,0.51
+255,256,Belgium,Luxembourg,2011,isoglucose,2.0
+255,256,Belgium,Luxembourg,2014,isoglucose,2.8
+255,256,Belgium,Luxembourg,2015,isoglucose,1.9
+255,256,Belgium,Luxembourg,2016,isoglucose,3.6
+255,256,Belgium,Luxembourg,2017,isoglucose,2.88
+255,256,Belgium,Luxembourg,2018,isoglucose,2.67
+255,256,Belgium,Luxembourg,2019,isoglucose,26.93
+255,256,Belgium,Luxembourg,2020,isoglucose,14.7
+255,256,Belgium,Luxembourg,2021,isoglucose,3.43
+255,256,Belgium,Luxembourg,2022,isoglucose,2.8
+255,256,Belgium,Luxembourg,2023,isoglucose,2.12
+173,185,Poland,Russian Federation,2004,isoglucose,22.0
+106,79,Italy,Germany,1994,isoglucose,144.0
+106,79,Italy,Germany,1995,isoglucose,25.0
+106,79,Italy,Germany,1997,isoglucose,24.0
+106,79,Italy,Germany,1998,isoglucose,1744.0
+106,79,Italy,Germany,1999,isoglucose,2249.0
+106,79,Italy,Germany,2000,isoglucose,583.0
+106,79,Italy,Germany,2001,isoglucose,36.0
+106,79,Italy,Germany,2002,isoglucose,21.0
+106,79,Italy,Germany,2003,isoglucose,12.0
+106,79,Italy,Germany,2004,isoglucose,9.0
+106,79,Italy,Germany,2005,isoglucose,12.0
+106,79,Italy,Germany,2006,isoglucose,25.0
+106,79,Italy,Germany,2007,isoglucose,81.0
+106,79,Italy,Germany,2008,isoglucose,1188.0
+106,79,Italy,Germany,2009,isoglucose,316.0
+106,79,Italy,Germany,2010,isoglucose,36.0
+106,79,Italy,Germany,2011,isoglucose,211.0
+84,210,Greece,Sweden,2018,isoglucose,0.01
+84,210,Greece,Sweden,2021,isoglucose,0.01
+79,68,Germany,France,2009,isoglucose,340.0
+79,68,Germany,France,2010,isoglucose,4804.0
+79,68,Germany,France,2011,isoglucose,5152.0
+79,68,Germany,France,2021,isoglucose,0.47
+79,68,Germany,France,2023,isoglucose,0.56
+173,272,Poland,Serbia,2011,isoglucose,1.0
+173,186,Poland,Serbia and Montenegro,2004,isoglucose,23.0
+255,131,Belgium,Malaysia,2014,isoglucose,0.14
+150,64,Netherlands (Kingdom of the),Faroe Islands,1992,isoglucose,10.0
+210,194,Sweden,Saudi Arabia,2022,isoglucose,0.01
+173,199,Poland,Slovakia,2007,isoglucose,75.0
+173,199,Poland,Slovakia,2008,isoglucose,534.0
+173,199,Poland,Slovakia,2009,isoglucose,371.0
+173,199,Poland,Slovakia,2010,isoglucose,277.0
+173,199,Poland,Slovakia,2011,isoglucose,11.0
+54,173,Denmark,Poland,2009,isoglucose,4.0
+54,173,Denmark,Poland,2010,isoglucose,4.0
+54,173,Denmark,Poland,2011,isoglucose,1.0
+84,223,Greece,Türkiye,2004,isoglucose,54.0
+150,67,Netherlands (Kingdom of the),Finland,2000,isoglucose,1.0
+150,67,Netherlands (Kingdom of the),Finland,2001,isoglucose,2.0
+150,67,Netherlands (Kingdom of the),Finland,2002,isoglucose,14.0
+150,67,Netherlands (Kingdom of the),Finland,2003,isoglucose,4.0
+150,67,Netherlands (Kingdom of the),Finland,2006,isoglucose,447.0
+150,67,Netherlands (Kingdom of the),Finland,2008,isoglucose,477.0
+150,67,Netherlands (Kingdom of the),Finland,2009,isoglucose,475.0
+150,67,Netherlands (Kingdom of the),Finland,2010,isoglucose,395.0
+150,67,Netherlands (Kingdom of the),Finland,2011,isoglucose,425.0
+150,67,Netherlands (Kingdom of the),Finland,2012,isoglucose,5.0
+150,67,Netherlands (Kingdom of the),Finland,2013,isoglucose,9.0
+150,67,Netherlands (Kingdom of the),Finland,2014,isoglucose,5.4
+150,67,Netherlands (Kingdom of the),Finland,2015,isoglucose,5.9
+150,67,Netherlands (Kingdom of the),Finland,2016,isoglucose,6.09
+150,67,Netherlands (Kingdom of the),Finland,2017,isoglucose,7.16
+150,67,Netherlands (Kingdom of the),Finland,2018,isoglucose,1.59
+150,67,Netherlands (Kingdom of the),Finland,2022,isoglucose,1.46
+173,198,Poland,Slovenia,2006,isoglucose,395.0
+173,198,Poland,Slovenia,2007,isoglucose,193.0
+173,198,Poland,Slovenia,2008,isoglucose,572.0
+173,198,Poland,Slovenia,2009,isoglucose,399.0
+173,198,Poland,Slovenia,2010,isoglucose,1352.0
+173,198,Poland,Slovenia,2011,isoglucose,1519.0
+229,100,United Kingdom of Great Britain and Northern Ireland,India,1988,isoglucose,17.0
+229,100,United Kingdom of Great Britain and Northern Ireland,India,2009,isoglucose,1.0
+106,84,Italy,Greece,1993,isoglucose,50.0
+106,84,Italy,Greece,1994,isoglucose,25.0
+106,84,Italy,Greece,1996,isoglucose,340.0
+106,84,Italy,Greece,1997,isoglucose,95.0
+106,84,Italy,Greece,1998,isoglucose,239.0
+106,84,Italy,Greece,1999,isoglucose,921.0
+106,84,Italy,Greece,2000,isoglucose,1408.0
+106,84,Italy,Greece,2001,isoglucose,3016.0
+106,84,Italy,Greece,2002,isoglucose,2429.0
+106,84,Italy,Greece,2003,isoglucose,657.0
+106,84,Italy,Greece,2004,isoglucose,474.0
+106,84,Italy,Greece,2005,isoglucose,490.0
+106,84,Italy,Greece,2006,isoglucose,182.0
+106,84,Italy,Greece,2007,isoglucose,279.0
+106,84,Italy,Greece,2008,isoglucose,273.0
+106,84,Italy,Greece,2009,isoglucose,674.0
+106,84,Italy,Greece,2010,isoglucose,552.0
+106,84,Italy,Greece,2011,isoglucose,1383.0
+203,105,Spain,Israel,1992,isoglucose,419.0
+203,105,Spain,Israel,1993,isoglucose,200.0
+203,105,Spain,Israel,2006,isoglucose,5.0
+203,105,Spain,Israel,2007,isoglucose,11.0
+84,229,Greece,United Kingdom of Great Britain and Northern Ireland,1991,isoglucose,25.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,2013,isoglucose,9.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,2015,isoglucose,1.0
+54,185,Denmark,Russian Federation,1998,isoglucose,31.0
+11,185,Austria,Russian Federation,2006,isoglucose,1.0
+255,150,Belgium,Netherlands (Kingdom of the),2008,isoglucose,5.0
+255,150,Belgium,Netherlands (Kingdom of the),2009,isoglucose,5.0
+255,150,Belgium,Netherlands (Kingdom of the),2010,isoglucose,8.0
+255,150,Belgium,Netherlands (Kingdom of the),2011,isoglucose,57.0
+255,150,Belgium,Netherlands (Kingdom of the),2014,isoglucose,13.3
+255,150,Belgium,Netherlands (Kingdom of the),2015,isoglucose,9.3
+255,150,Belgium,Netherlands (Kingdom of the),2016,isoglucose,8.8
+255,150,Belgium,Netherlands (Kingdom of the),2017,isoglucose,6.2
+255,150,Belgium,Netherlands (Kingdom of the),2018,isoglucose,11.46
+255,150,Belgium,Netherlands (Kingdom of the),2019,isoglucose,66.17
+255,150,Belgium,Netherlands (Kingdom of the),2020,isoglucose,72.34
+255,150,Belgium,Netherlands (Kingdom of the),2021,isoglucose,0.2
+255,150,Belgium,Netherlands (Kingdom of the),2022,isoglucose,0.26
+255,150,Belgium,Netherlands (Kingdom of the),2023,isoglucose,1.22
+79,84,Germany,Greece,2009,isoglucose,42.0
+79,84,Germany,Greece,2010,isoglucose,80.0
+203,106,Spain,Italy,1986,isoglucose,810.0
+203,106,Spain,Italy,1992,isoglucose,169.0
+203,106,Spain,Italy,1993,isoglucose,3449.0
+203,106,Spain,Italy,1994,isoglucose,1206.0
+203,106,Spain,Italy,1995,isoglucose,1336.0
+203,106,Spain,Italy,1996,isoglucose,689.0
+203,106,Spain,Italy,1997,isoglucose,1025.0
+203,106,Spain,Italy,1998,isoglucose,772.0
+203,106,Spain,Italy,1999,isoglucose,1191.0
+203,106,Spain,Italy,2000,isoglucose,2999.0
+203,106,Spain,Italy,2001,isoglucose,47.0
+203,106,Spain,Italy,2002,isoglucose,112.0
+203,106,Spain,Italy,2004,isoglucose,74.0
+203,106,Spain,Italy,2005,isoglucose,50.0
+203,106,Spain,Italy,2006,isoglucose,51.0
+203,106,Spain,Italy,2007,isoglucose,51.0
+203,106,Spain,Italy,2008,isoglucose,994.0
+203,106,Spain,Italy,2009,isoglucose,1950.0
+203,106,Spain,Italy,2011,isoglucose,547.0
+150,68,Netherlands (Kingdom of the),France,1986,isoglucose,30.0
+150,68,Netherlands (Kingdom of the),France,1987,isoglucose,72.0
+150,68,Netherlands (Kingdom of the),France,1988,isoglucose,1169.0
+150,68,Netherlands (Kingdom of the),France,1989,isoglucose,6976.0
+150,68,Netherlands (Kingdom of the),France,1990,isoglucose,8112.0
+150,68,Netherlands (Kingdom of the),France,1991,isoglucose,4827.0
+150,68,Netherlands (Kingdom of the),France,1992,isoglucose,10105.0
+150,68,Netherlands (Kingdom of the),France,1993,isoglucose,5793.0
+150,68,Netherlands (Kingdom of the),France,1994,isoglucose,6548.0
+150,68,Netherlands (Kingdom of the),France,1995,isoglucose,5174.0
+150,68,Netherlands (Kingdom of the),France,1996,isoglucose,4486.0
+150,68,Netherlands (Kingdom of the),France,1997,isoglucose,6232.0
+150,68,Netherlands (Kingdom of the),France,1998,isoglucose,2321.0
+150,68,Netherlands (Kingdom of the),France,1999,isoglucose,2402.0
+150,68,Netherlands (Kingdom of the),France,2000,isoglucose,822.0
+150,68,Netherlands (Kingdom of the),France,2001,isoglucose,4985.0
+150,68,Netherlands (Kingdom of the),France,2002,isoglucose,2566.0
+150,68,Netherlands (Kingdom of the),France,2003,isoglucose,3718.0
+150,68,Netherlands (Kingdom of the),France,2004,isoglucose,3505.0
+150,68,Netherlands (Kingdom of the),France,2005,isoglucose,1424.0
+150,68,Netherlands (Kingdom of the),France,2006,isoglucose,3438.0
+150,68,Netherlands (Kingdom of the),France,2007,isoglucose,6020.0
+150,68,Netherlands (Kingdom of the),France,2008,isoglucose,7376.0
+150,68,Netherlands (Kingdom of the),France,2009,isoglucose,8914.0
+150,68,Netherlands (Kingdom of the),France,2010,isoglucose,22733.0
+150,68,Netherlands (Kingdom of the),France,2011,isoglucose,25767.0
+150,68,Netherlands (Kingdom of the),France,2012,isoglucose,2.0
+150,68,Netherlands (Kingdom of the),France,2013,isoglucose,4.0
+150,68,Netherlands (Kingdom of the),France,2014,isoglucose,3.1
+150,68,Netherlands (Kingdom of the),France,2015,isoglucose,6.0
+150,68,Netherlands (Kingdom of the),France,2016,isoglucose,9.02
+150,68,Netherlands (Kingdom of the),France,2017,isoglucose,12.79
+150,68,Netherlands (Kingdom of the),France,2018,isoglucose,16.53
+150,68,Netherlands (Kingdom of the),France,2019,isoglucose,21.16
+150,68,Netherlands (Kingdom of the),France,2020,isoglucose,27.22
+150,68,Netherlands (Kingdom of the),France,2021,isoglucose,36.4
+150,68,Netherlands (Kingdom of the),France,2022,isoglucose,33.5
+150,68,Netherlands (Kingdom of the),France,2023,isoglucose,80.41
+68,79,France,Germany,2021,isoglucose,57.95
+68,79,France,Germany,2022,isoglucose,7.9
+68,79,France,Germany,2023,isoglucose,21.51
+11,272,Austria,Serbia,2013,isoglucose,2.0
+11,272,Austria,Serbia,2014,isoglucose,0.5
+11,272,Austria,Serbia,2016,isoglucose,0.5
+255,153,Belgium,New Caledonia,2020,isoglucose,0.8
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1986,isoglucose,272.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1987,isoglucose,114.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1988,isoglucose,330.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1989,isoglucose,277.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,isoglucose,237.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1991,isoglucose,350.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1992,isoglucose,80.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1993,isoglucose,46.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1994,isoglucose,21.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1995,isoglucose,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1997,isoglucose,1039.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1998,isoglucose,4569.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1999,isoglucose,3756.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2000,isoglucose,90.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2002,isoglucose,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2004,isoglucose,1.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2005,isoglucose,3.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2006,isoglucose,340.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2007,isoglucose,376.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2008,isoglucose,388.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2009,isoglucose,126.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2010,isoglucose,23.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2011,isoglucose,231.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2012,isoglucose,397.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,isoglucose,1.71
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2019,isoglucose,0.22
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2021,isoglucose,0.01
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2022,isoglucose,0.12
+79,93,Germany,Haiti,2010,isoglucose,2.0
+255,158,Belgium,Niger,2019,isoglucose,0.18
+255,158,Belgium,Niger,2020,isoglucose,0.96
+255,158,Belgium,Niger,2021,isoglucose,0.18
+54,202,Denmark,South Africa,2019,isoglucose,0.73
+11,199,Austria,Slovakia,2011,isoglucose,5.0
+11,199,Austria,Slovakia,2018,isoglucose,0.01
+255,162,Belgium,Norway,2014,isoglucose,0.01
+255,162,Belgium,Norway,2015,isoglucose,0.6
+255,162,Belgium,Norway,2016,isoglucose,0.5
+106,100,Italy,India,2018,isoglucose,60.0
+79,97,Germany,Hungary,2009,isoglucose,10.0
+79,97,Germany,Hungary,2010,isoglucose,36.0
+79,97,Germany,Hungary,2011,isoglucose,6.0
+79,97,Germany,Hungary,2014,isoglucose,0.01
+79,97,Germany,Hungary,2015,isoglucose,0.01
+79,97,Germany,Hungary,2016,isoglucose,0.05
+54,203,Denmark,Spain,2023,isoglucose,0.08
+173,230,Poland,Ukraine,2008,isoglucose,120.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1987,isoglucose,36.0
+255,171,Belgium,Philippines,2014,isoglucose,0.44
+255,173,Belgium,Poland,2000,isoglucose,24.0
+255,173,Belgium,Poland,2001,isoglucose,48.0
+255,173,Belgium,Poland,2002,isoglucose,20.0
+255,173,Belgium,Poland,2020,isoglucose,0.08
+255,173,Belgium,Poland,2021,isoglucose,0.01
+150,79,Netherlands (Kingdom of the),Germany,1991,isoglucose,2185.0
+150,79,Netherlands (Kingdom of the),Germany,1992,isoglucose,8425.0
+150,79,Netherlands (Kingdom of the),Germany,1993,isoglucose,12544.0
+150,79,Netherlands (Kingdom of the),Germany,1994,isoglucose,12901.0
+150,79,Netherlands (Kingdom of the),Germany,1995,isoglucose,10260.0
+150,79,Netherlands (Kingdom of the),Germany,1996,isoglucose,12043.0
+150,79,Netherlands (Kingdom of the),Germany,1997,isoglucose,5663.0
+150,79,Netherlands (Kingdom of the),Germany,1998,isoglucose,1316.0
+150,79,Netherlands (Kingdom of the),Germany,1999,isoglucose,2369.0
+150,79,Netherlands (Kingdom of the),Germany,2000,isoglucose,643.0
+150,79,Netherlands (Kingdom of the),Germany,2001,isoglucose,6254.0
+150,79,Netherlands (Kingdom of the),Germany,2002,isoglucose,6895.0
+150,79,Netherlands (Kingdom of the),Germany,2003,isoglucose,3248.0
+150,79,Netherlands (Kingdom of the),Germany,2004,isoglucose,229.0
+150,79,Netherlands (Kingdom of the),Germany,2005,isoglucose,1962.0
+150,79,Netherlands (Kingdom of the),Germany,2006,isoglucose,4360.0
+150,79,Netherlands (Kingdom of the),Germany,2007,isoglucose,6714.0
+150,79,Netherlands (Kingdom of the),Germany,2008,isoglucose,7745.0
+150,79,Netherlands (Kingdom of the),Germany,2009,isoglucose,6658.0
+150,79,Netherlands (Kingdom of the),Germany,2010,isoglucose,11440.0
+150,79,Netherlands (Kingdom of the),Germany,2011,isoglucose,12000.0
+150,79,Netherlands (Kingdom of the),Germany,2012,isoglucose,14.0
+150,79,Netherlands (Kingdom of the),Germany,2013,isoglucose,11.0
+150,79,Netherlands (Kingdom of the),Germany,2014,isoglucose,14.8
+150,79,Netherlands (Kingdom of the),Germany,2015,isoglucose,12.7
+150,79,Netherlands (Kingdom of the),Germany,2016,isoglucose,14.2
+150,79,Netherlands (Kingdom of the),Germany,2017,isoglucose,14.05
+150,79,Netherlands (Kingdom of the),Germany,2018,isoglucose,14.85
+150,79,Netherlands (Kingdom of the),Germany,2019,isoglucose,14.64
+150,79,Netherlands (Kingdom of the),Germany,2020,isoglucose,17.66
+150,79,Netherlands (Kingdom of the),Germany,2021,isoglucose,15.54
+150,79,Netherlands (Kingdom of the),Germany,2022,isoglucose,19.51
+150,79,Netherlands (Kingdom of the),Germany,2023,isoglucose,13.98
+54,210,Denmark,Sweden,1988,isoglucose,32.0
+54,210,Denmark,Sweden,2000,isoglucose,34.0
+54,210,Denmark,Sweden,2008,isoglucose,1.0
+54,210,Denmark,Sweden,2009,isoglucose,3.0
+54,210,Denmark,Sweden,2010,isoglucose,3.0
+54,210,Denmark,Sweden,2011,isoglucose,4.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1991,isoglucose,321.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1992,isoglucose,421.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1993,isoglucose,630.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1994,isoglucose,605.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1999,isoglucose,1.0
+173,231,Poland,United States of America,2009,isoglucose,21.0
+255,174,Belgium,Portugal,2014,isoglucose,0.3
+255,174,Belgium,Portugal,2016,isoglucose,0.1
+255,174,Belgium,Portugal,2017,isoglucose,0.06
+255,174,Belgium,Portugal,2018,isoglucose,0.26
+255,174,Belgium,Portugal,2019,isoglucose,0.29
+255,174,Belgium,Portugal,2020,isoglucose,0.01
+255,174,Belgium,Portugal,2022,isoglucose,1.3
+54,211,Denmark,Switzerland,2007,isoglucose,11.0
+54,211,Denmark,Switzerland,2022,isoglucose,0.02
+255,183,Belgium,Romania,2015,isoglucose,0.2
+255,183,Belgium,Romania,2016,isoglucose,0.3
+255,183,Belgium,Romania,2023,isoglucose,0.01
+203,134,Spain,Malta,1995,isoglucose,1.0
+203,136,Spain,Mauritania,1987,isoglucose,5.0
+255,185,Belgium,Russian Federation,2016,isoglucose,0.4
+255,185,Belgium,Russian Federation,2019,isoglucose,22.28
+255,185,Belgium,Russian Federation,2020,isoglucose,377.4
+255,185,Belgium,Russian Federation,2021,isoglucose,299.98
+255,185,Belgium,Russian Federation,2022,isoglucose,22.1
+54,217,Denmark,Togo,2011,isoglucose,1.0
+150,84,Netherlands (Kingdom of the),Greece,2004,isoglucose,576.0
+150,84,Netherlands (Kingdom of the),Greece,2009,isoglucose,77.0
+150,84,Netherlands (Kingdom of the),Greece,2010,isoglucose,24.0
+150,84,Netherlands (Kingdom of the),Greece,2011,isoglucose,26.0
+150,84,Netherlands (Kingdom of the),Greece,2014,isoglucose,0.5
+150,84,Netherlands (Kingdom of the),Greece,2015,isoglucose,0.2
+150,84,Netherlands (Kingdom of the),Greece,2016,isoglucose,0.41
+150,84,Netherlands (Kingdom of the),Greece,2017,isoglucose,0.31
+150,84,Netherlands (Kingdom of the),Greece,2018,isoglucose,0.21
+150,84,Netherlands (Kingdom of the),Greece,2019,isoglucose,0.31
+150,84,Netherlands (Kingdom of the),Greece,2020,isoglucose,0.11
+150,84,Netherlands (Kingdom of the),Greece,2021,isoglucose,0.45
+150,84,Netherlands (Kingdom of the),Greece,2022,isoglucose,0.55
+150,84,Netherlands (Kingdom of the),Greece,2023,isoglucose,0.28
+255,184,Belgium,Rwanda,2019,isoglucose,0.35
+255,184,Belgium,Rwanda,2020,isoglucose,0.82
+255,184,Belgium,Rwanda,2021,isoglucose,0.36
+255,184,Belgium,Rwanda,2023,isoglucose,0.01
+11,211,Austria,Switzerland,2005,isoglucose,1.0
+11,211,Austria,Switzerland,2011,isoglucose,3.0
+11,211,Austria,Switzerland,2015,isoglucose,0.04
+11,211,Austria,Switzerland,2017,isoglucose,1.35
+11,211,Austria,Switzerland,2018,isoglucose,3.25
+11,211,Austria,Switzerland,2019,isoglucose,0.4
+11,211,Austria,Switzerland,2020,isoglucose,0.15
+11,211,Austria,Switzerland,2021,isoglucose,0.06
+11,211,Austria,Switzerland,2022,isoglucose,0.07
+255,194,Belgium,Saudi Arabia,2019,isoglucose,0.4
+255,194,Belgium,Saudi Arabia,2020,isoglucose,3.86
+255,194,Belgium,Saudi Arabia,2022,isoglucose,3.46
+255,194,Belgium,Saudi Arabia,2023,isoglucose,0.66
+255,195,Belgium,Senegal,2016,isoglucose,18.7
+255,272,Belgium,Serbia,2006,isoglucose,1.0
+255,186,Belgium,Serbia and Montenegro,2002,isoglucose,1.0
+255,196,Belgium,Seychelles,2014,isoglucose,0.93
+255,196,Belgium,Seychelles,2015,isoglucose,0.2
+255,196,Belgium,Seychelles,2016,isoglucose,0.2
+255,196,Belgium,Seychelles,2017,isoglucose,0.02
+255,196,Belgium,Seychelles,2021,isoglucose,0.03
+255,196,Belgium,Seychelles,2022,isoglucose,0.01
+106,124,Italy,Libya,1999,isoglucose,36.0
+255,200,Belgium,Singapore,2014,isoglucose,0.2
+255,200,Belgium,Singapore,2022,isoglucose,0.01
+106,126,Italy,Lithuania,2009,isoglucose,4.0
+106,126,Italy,Lithuania,2010,isoglucose,1.0
+79,106,Germany,Italy,2009,isoglucose,31.0
+79,106,Germany,Italy,2010,isoglucose,125.0
+79,106,Germany,Italy,2011,isoglucose,357.0
+79,106,Germany,Italy,2014,isoglucose,0.03
+79,106,Germany,Italy,2015,isoglucose,0.2
+79,106,Germany,Italy,2016,isoglucose,0.34
+79,106,Germany,Italy,2017,isoglucose,0.49
+79,106,Germany,Italy,2018,isoglucose,0.59
+79,106,Germany,Italy,2019,isoglucose,0.59
+79,106,Germany,Italy,2020,isoglucose,0.59
+79,106,Germany,Italy,2021,isoglucose,0.42
+79,106,Germany,Italy,2022,isoglucose,0.63
+79,106,Germany,Italy,2023,isoglucose,0.44
+255,199,Belgium,Slovakia,2011,isoglucose,1.0
+255,199,Belgium,Slovakia,2021,isoglucose,0.04
+255,199,Belgium,Slovakia,2022,isoglucose,0.03
+255,199,Belgium,Slovakia,2023,isoglucose,0.02
+229,121,United Kingdom of Great Britain and Northern Ireland,Lebanon,1993,isoglucose,1.0
+255,198,Belgium,Slovenia,2023,isoglucose,0.22
+150,97,Netherlands (Kingdom of the),Hungary,2014,isoglucose,0.05
+150,97,Netherlands (Kingdom of the),Hungary,2015,isoglucose,0.04
+150,97,Netherlands (Kingdom of the),Hungary,2016,isoglucose,0.03
+150,97,Netherlands (Kingdom of the),Hungary,2017,isoglucose,0.57
+150,97,Netherlands (Kingdom of the),Hungary,2018,isoglucose,0.63
+150,97,Netherlands (Kingdom of the),Hungary,2019,isoglucose,0.76
+150,97,Netherlands (Kingdom of the),Hungary,2020,isoglucose,0.96
+150,97,Netherlands (Kingdom of the),Hungary,2021,isoglucose,3.01
+150,97,Netherlands (Kingdom of the),Hungary,2022,isoglucose,2.17
+150,97,Netherlands (Kingdom of the),Hungary,2023,isoglucose,0.75
+203,150,Spain,Netherlands (Kingdom of the),2009,isoglucose,25.0
+255,203,Belgium,Spain,2008,isoglucose,2.0
+255,203,Belgium,Spain,2011,isoglucose,4.0
+255,203,Belgium,Spain,2014,isoglucose,5.3
+255,203,Belgium,Spain,2015,isoglucose,1.8
+255,203,Belgium,Spain,2016,isoglucose,2.03
+255,203,Belgium,Spain,2017,isoglucose,1.33
+255,203,Belgium,Spain,2018,isoglucose,1.74
+255,203,Belgium,Spain,2019,isoglucose,6.43
+255,203,Belgium,Spain,2020,isoglucose,0.31
+255,203,Belgium,Spain,2022,isoglucose,0.48
+255,203,Belgium,Spain,2023,isoglucose,0.78
+106,134,Italy,Malta,2002,isoglucose,1.0
+106,134,Italy,Malta,2003,isoglucose,1.0
+106,134,Italy,Malta,2010,isoglucose,3.0
+106,134,Italy,Malta,2011,isoglucose,1.0
+150,99,Netherlands (Kingdom of the),Iceland,2011,isoglucose,2.0
+255,207,Belgium,Suriname,2019,isoglucose,0.23
+255,207,Belgium,Suriname,2020,isoglucose,0.16
+79,108,Germany,Kazakhstan,2011,isoglucose,20.0
+68,106,France,Italy,2022,isoglucose,2.12
+68,106,France,Italy,2023,isoglucose,0.01
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,1991,isoglucose,3.0
+150,100,Netherlands (Kingdom of the),India,2006,isoglucose,5.0
+150,100,Netherlands (Kingdom of the),India,2016,isoglucose,30.88
+150,100,Netherlands (Kingdom of the),India,2022,isoglucose,7.47
+150,100,Netherlands (Kingdom of the),India,2023,isoglucose,16.15
+255,210,Belgium,Sweden,2014,isoglucose,0.04
+255,210,Belgium,Sweden,2015,isoglucose,0.05
+255,210,Belgium,Sweden,2016,isoglucose,0.32
+255,210,Belgium,Sweden,2017,isoglucose,0.03
+203,162,Spain,Norway,1986,isoglucose,43.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,1989,isoglucose,18.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,1990,isoglucose,81.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,1991,isoglucose,21.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,1996,isoglucose,13.0
+229,137,United Kingdom of Great Britain and Northern Ireland,Mauritius,2003,isoglucose,79.0
+150,101,Netherlands (Kingdom of the),Indonesia,2017,isoglucose,0.04
+150,101,Netherlands (Kingdom of the),Indonesia,2022,isoglucose,5.68
+150,101,Netherlands (Kingdom of the),Indonesia,2023,isoglucose,8.78
+255,211,Belgium,Switzerland,2011,isoglucose,1.0
+255,211,Belgium,Switzerland,2014,isoglucose,0.6
+255,211,Belgium,Switzerland,2015,isoglucose,0.3
+255,211,Belgium,Switzerland,2016,isoglucose,0.3
+255,211,Belgium,Switzerland,2017,isoglucose,1.42
+255,211,Belgium,Switzerland,2018,isoglucose,22.55
+255,211,Belgium,Switzerland,2019,isoglucose,19.99
+255,211,Belgium,Switzerland,2020,isoglucose,0.71
+255,211,Belgium,Switzerland,2021,isoglucose,0.3
+255,211,Belgium,Switzerland,2022,isoglucose,7.18
+79,119,Germany,Latvia,2015,isoglucose,0.05
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2014,isoglucose,0.1
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2016,isoglucose,0.1
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2017,isoglucose,0.13
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2018,isoglucose,0.08
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2019,isoglucose,0.15
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2022,isoglucose,0.05
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2023,isoglucose,0.03
+255,216,Belgium,Thailand,2021,isoglucose,5.2
+203,170,Spain,Peru,2005,isoglucose,4.0
+79,121,Germany,Lebanon,2011,isoglucose,2.0
+255,217,Belgium,Togo,2019,isoglucose,0.01
+106,150,Italy,Netherlands (Kingdom of the),1988,isoglucose,20.0
+106,150,Italy,Netherlands (Kingdom of the),1989,isoglucose,320.0
+106,150,Italy,Netherlands (Kingdom of the),1990,isoglucose,588.0
+106,150,Italy,Netherlands (Kingdom of the),1991,isoglucose,144.0
+106,150,Italy,Netherlands (Kingdom of the),1992,isoglucose,449.0
+106,150,Italy,Netherlands (Kingdom of the),1993,isoglucose,94.0
+106,150,Italy,Netherlands (Kingdom of the),1994,isoglucose,50.0
+106,150,Italy,Netherlands (Kingdom of the),1995,isoglucose,214.0
+106,150,Italy,Netherlands (Kingdom of the),1996,isoglucose,1988.0
+106,150,Italy,Netherlands (Kingdom of the),1997,isoglucose,560.0
+106,150,Italy,Netherlands (Kingdom of the),1998,isoglucose,460.0
+106,150,Italy,Netherlands (Kingdom of the),1999,isoglucose,1162.0
+106,150,Italy,Netherlands (Kingdom of the),2000,isoglucose,166.0
+106,150,Italy,Netherlands (Kingdom of the),2001,isoglucose,174.0
+106,150,Italy,Netherlands (Kingdom of the),2002,isoglucose,400.0
+106,150,Italy,Netherlands (Kingdom of the),2003,isoglucose,1141.0
+106,150,Italy,Netherlands (Kingdom of the),2004,isoglucose,397.0
+106,150,Italy,Netherlands (Kingdom of the),2006,isoglucose,677.0
+106,150,Italy,Netherlands (Kingdom of the),2007,isoglucose,527.0
+106,150,Italy,Netherlands (Kingdom of the),2008,isoglucose,8009.0
+106,150,Italy,Netherlands (Kingdom of the),2009,isoglucose,9514.0
+106,150,Italy,Netherlands (Kingdom of the),2010,isoglucose,9148.0
+106,150,Italy,Netherlands (Kingdom of the),2011,isoglucose,5130.0
+106,150,Italy,Netherlands (Kingdom of the),2022,isoglucose,0.01
+255,222,Belgium,Tunisia,2022,isoglucose,0.3
+150,104,Netherlands (Kingdom of the),Ireland,1991,isoglucose,23.0
+150,104,Netherlands (Kingdom of the),Ireland,1997,isoglucose,13.0
+150,104,Netherlands (Kingdom of the),Ireland,1998,isoglucose,7.0
+255,223,Belgium,Türkiye,2015,isoglucose,0.1
+255,223,Belgium,Türkiye,2018,isoglucose,0.64
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1989,isoglucose,4.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1991,isoglucose,473.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1992,isoglucose,626.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1993,isoglucose,642.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1994,isoglucose,44.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1997,isoglucose,145.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1998,isoglucose,53.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1999,isoglucose,10.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2000,isoglucose,36.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2001,isoglucose,138.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2002,isoglucose,43.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2003,isoglucose,19.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2006,isoglucose,426.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2007,isoglucose,502.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2008,isoglucose,395.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2009,isoglucose,36.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2010,isoglucose,8.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2019,isoglucose,0.23
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2021,isoglucose,3.3
+79,126,Germany,Lithuania,2010,isoglucose,5.0
+255,226,Belgium,Uganda,2019,isoglucose,0.26
+255,226,Belgium,Uganda,2020,isoglucose,0.15
+255,230,Belgium,Ukraine,2018,isoglucose,0.01
+255,225,Belgium,United Arab Emirates,2017,isoglucose,1.0
+150,105,Netherlands (Kingdom of the),Israel,2010,isoglucose,2.0
+150,105,Netherlands (Kingdom of the),Israel,2016,isoglucose,0.06
+150,105,Netherlands (Kingdom of the),Israel,2022,isoglucose,0.42
+150,105,Netherlands (Kingdom of the),Israel,2023,isoglucose,0.31
+106,154,Italy,North Macedonia,1996,isoglucose,8.0
+203,174,Spain,Portugal,1993,isoglucose,67.0
+203,174,Spain,Portugal,1994,isoglucose,526.0
+203,174,Spain,Portugal,1995,isoglucose,654.0
+203,174,Spain,Portugal,1996,isoglucose,679.0
+203,174,Spain,Portugal,1997,isoglucose,2291.0
+203,174,Spain,Portugal,1998,isoglucose,1742.0
+203,174,Spain,Portugal,1999,isoglucose,5363.0
+203,174,Spain,Portugal,2000,isoglucose,3874.0
+203,174,Spain,Portugal,2001,isoglucose,4926.0
+203,174,Spain,Portugal,2002,isoglucose,2030.0
+203,174,Spain,Portugal,2003,isoglucose,3535.0
+203,174,Spain,Portugal,2004,isoglucose,3472.0
+203,174,Spain,Portugal,2005,isoglucose,1669.0
+203,174,Spain,Portugal,2006,isoglucose,2321.0
+203,174,Spain,Portugal,2007,isoglucose,1180.0
+203,174,Spain,Portugal,2008,isoglucose,202.0
+203,174,Spain,Portugal,2010,isoglucose,857.0
+203,174,Spain,Portugal,2011,isoglucose,13.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2005,isoglucose,16.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2008,isoglucose,4.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,1.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,25.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2021,isoglucose,16.88
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,2000,isoglucose,3.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,2001,isoglucose,2.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,2010,isoglucose,42.0
+150,106,Netherlands (Kingdom of the),Italy,1986,isoglucose,803.0
+150,106,Netherlands (Kingdom of the),Italy,1987,isoglucose,755.0
+150,106,Netherlands (Kingdom of the),Italy,1988,isoglucose,512.0
+150,106,Netherlands (Kingdom of the),Italy,1989,isoglucose,162.0
+150,106,Netherlands (Kingdom of the),Italy,1990,isoglucose,593.0
+150,106,Netherlands (Kingdom of the),Italy,1991,isoglucose,31.0
+150,106,Netherlands (Kingdom of the),Italy,1992,isoglucose,637.0
+150,106,Netherlands (Kingdom of the),Italy,1993,isoglucose,590.0
+150,106,Netherlands (Kingdom of the),Italy,1994,isoglucose,817.0
+150,106,Netherlands (Kingdom of the),Italy,1995,isoglucose,2176.0
+150,106,Netherlands (Kingdom of the),Italy,1996,isoglucose,724.0
+150,106,Netherlands (Kingdom of the),Italy,1997,isoglucose,769.0
+150,106,Netherlands (Kingdom of the),Italy,1998,isoglucose,1670.0
+150,106,Netherlands (Kingdom of the),Italy,1999,isoglucose,1072.0
+150,106,Netherlands (Kingdom of the),Italy,2000,isoglucose,30.0
+150,106,Netherlands (Kingdom of the),Italy,2001,isoglucose,96.0
+150,106,Netherlands (Kingdom of the),Italy,2002,isoglucose,30.0
+150,106,Netherlands (Kingdom of the),Italy,2003,isoglucose,476.0
+150,106,Netherlands (Kingdom of the),Italy,2007,isoglucose,75.0
+150,106,Netherlands (Kingdom of the),Italy,2008,isoglucose,425.0
+150,106,Netherlands (Kingdom of the),Italy,2009,isoglucose,25.0
+150,106,Netherlands (Kingdom of the),Italy,2010,isoglucose,261.0
+150,106,Netherlands (Kingdom of the),Italy,2011,isoglucose,148.0
+150,106,Netherlands (Kingdom of the),Italy,2012,isoglucose,4.0
+150,106,Netherlands (Kingdom of the),Italy,2013,isoglucose,3.0
+150,106,Netherlands (Kingdom of the),Italy,2014,isoglucose,3.4
+150,106,Netherlands (Kingdom of the),Italy,2015,isoglucose,4.0
+150,106,Netherlands (Kingdom of the),Italy,2016,isoglucose,3.21
+150,106,Netherlands (Kingdom of the),Italy,2017,isoglucose,2.22
+150,106,Netherlands (Kingdom of the),Italy,2018,isoglucose,3.31
+150,106,Netherlands (Kingdom of the),Italy,2019,isoglucose,4.01
+150,106,Netherlands (Kingdom of the),Italy,2020,isoglucose,3.9
+150,106,Netherlands (Kingdom of the),Italy,2021,isoglucose,3.31
+150,106,Netherlands (Kingdom of the),Italy,2022,isoglucose,3.21
+150,106,Netherlands (Kingdom of the),Italy,2023,isoglucose,2.91
+255,231,Belgium,United States of America,2000,isoglucose,2.0
+255,231,Belgium,United States of America,2001,isoglucose,4.0
+255,231,Belgium,United States of America,2002,isoglucose,2.0
+255,231,Belgium,United States of America,2003,isoglucose,3.0
+255,231,Belgium,United States of America,2014,isoglucose,0.03
+150,109,Netherlands (Kingdom of the),Jamaica,1988,isoglucose,3.0
+68,256,France,Luxembourg,2022,isoglucose,0.01
+150,110,Netherlands (Kingdom of the),Japan,2017,isoglucose,0.2
+150,110,Netherlands (Kingdom of the),Japan,2022,isoglucose,2.93
+150,110,Netherlands (Kingdom of the),Japan,2023,isoglucose,1.26
+106,173,Italy,Poland,2008,isoglucose,285.0
+106,173,Italy,Poland,2009,isoglucose,743.0
+106,173,Italy,Poland,2010,isoglucose,260.0
+150,112,Netherlands (Kingdom of the),Jordan,2006,isoglucose,1.0
+150,112,Netherlands (Kingdom of the),Jordan,2008,isoglucose,2.0
+79,143,Germany,Morocco,2011,isoglucose,1.0
+106,174,Italy,Portugal,1992,isoglucose,25.0
+106,174,Italy,Portugal,2000,isoglucose,5.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,1993,isoglucose,1.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2006,isoglucose,7.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2008,isoglucose,8.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2009,isoglucose,42.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2010,isoglucose,1.0
+106,117,Italy,Republic of Korea,1991,isoglucose,30.0
+106,117,Italy,Republic of Korea,2011,isoglucose,1.0
+79,150,Germany,Netherlands (Kingdom of the),2009,isoglucose,10567.0
+79,150,Germany,Netherlands (Kingdom of the),2010,isoglucose,19476.0
+79,150,Germany,Netherlands (Kingdom of the),2011,isoglucose,27168.0
+79,150,Germany,Netherlands (Kingdom of the),2021,isoglucose,0.71
+79,150,Germany,Netherlands (Kingdom of the),2022,isoglucose,85.77
+79,150,Germany,Netherlands (Kingdom of the),2023,isoglucose,1.89
+203,202,Spain,South Africa,2022,isoglucose,0.01
+106,183,Italy,Romania,2003,isoglucose,117.0
+106,183,Italy,Romania,2004,isoglucose,48.0
+106,183,Italy,Romania,2006,isoglucose,98.0
+106,183,Italy,Romania,2009,isoglucose,1.0
+106,183,Italy,Romania,2010,isoglucose,2.0
+106,183,Italy,Romania,2011,isoglucose,18.0
+203,203,Spain,Spain,1989,isoglucose,10.0
+229,179,United Kingdom of Great Britain and Northern Ireland,Qatar,2018,isoglucose,3.0
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2014,isoglucose,0.01
+150,126,Netherlands (Kingdom of the),Lithuania,2015,isoglucose,0.03
+150,126,Netherlands (Kingdom of the),Lithuania,2018,isoglucose,6.4
+150,126,Netherlands (Kingdom of the),Lithuania,2019,isoglucose,10.01
+150,126,Netherlands (Kingdom of the),Lithuania,2020,isoglucose,10.34
+150,126,Netherlands (Kingdom of the),Lithuania,2021,isoglucose,9.8
+150,126,Netherlands (Kingdom of the),Lithuania,2022,isoglucose,2.53
+150,126,Netherlands (Kingdom of the),Lithuania,2023,isoglucose,5.21
+106,194,Italy,Saudi Arabia,2021,isoglucose,5.0
+229,185,United Kingdom of Great Britain and Northern Ireland,Russian Federation,1996,isoglucose,1.0
+229,188,United Kingdom of Great Britain and Northern Ireland,Saint Kitts and Nevis,1995,isoglucose,1.0
+79,162,Germany,Norway,2009,isoglucose,66.0
+79,162,Germany,Norway,2010,isoglucose,111.0
+79,162,Germany,Norway,2011,isoglucose,88.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2002,isoglucose,14.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2003,isoglucose,34.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2004,isoglucose,35.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2006,isoglucose,35.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2007,isoglucose,63.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2008,isoglucose,10.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2009,isoglucose,35.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2010,isoglucose,41.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2011,isoglucose,34.0
+150,256,Netherlands (Kingdom of the),Luxembourg,2018,isoglucose,0.08
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1997,isoglucose,1.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1998,isoglucose,5.0
+229,272,United Kingdom of Great Britain and Northern Ireland,Serbia,2018,isoglucose,0.6
+229,196,United Kingdom of Great Britain and Northern Ireland,Seychelles,2010,isoglucose,1.0
+150,131,Netherlands (Kingdom of the),Malaysia,2010,isoglucose,2.0
+150,131,Netherlands (Kingdom of the),Malaysia,2016,isoglucose,0.02
+150,131,Netherlands (Kingdom of the),Malaysia,2022,isoglucose,2.9
+150,131,Netherlands (Kingdom of the),Malaysia,2023,isoglucose,2.35
+68,150,France,Netherlands (Kingdom of the),2022,isoglucose,1.4
+68,150,France,Netherlands (Kingdom of the),2023,isoglucose,11.1
+106,199,Italy,Slovakia,2009,isoglucose,1.0
+106,199,Italy,Slovakia,2010,isoglucose,22.0
+106,199,Italy,Slovakia,2011,isoglucose,279.0
+229,200,United Kingdom of Great Britain and Northern Ireland,Singapore,2012,isoglucose,1.0
+106,198,Italy,Slovenia,1998,isoglucose,4.0
+106,198,Italy,Slovenia,1999,isoglucose,110.0
+106,198,Italy,Slovenia,2000,isoglucose,264.0
+106,198,Italy,Slovenia,2001,isoglucose,97.0
+106,198,Italy,Slovenia,2002,isoglucose,166.0
+106,198,Italy,Slovenia,2003,isoglucose,1495.0
+106,198,Italy,Slovenia,2004,isoglucose,402.0
+106,198,Italy,Slovenia,2005,isoglucose,126.0
+106,198,Italy,Slovenia,2006,isoglucose,11.0
+106,198,Italy,Slovenia,2007,isoglucose,6.0
+106,198,Italy,Slovenia,2008,isoglucose,48.0
+106,198,Italy,Slovenia,2009,isoglucose,1.0
+106,198,Italy,Slovenia,2010,isoglucose,48.0
+106,198,Italy,Slovenia,2011,isoglucose,2.0
+106,198,Italy,Slovenia,2014,isoglucose,0.2
+106,198,Italy,Slovenia,2015,isoglucose,0.3
+106,198,Italy,Slovenia,2018,isoglucose,0.01
+79,173,Germany,Poland,2009,isoglucose,220.0
+79,173,Germany,Poland,2010,isoglucose,669.0
+79,173,Germany,Poland,2011,isoglucose,438.0
+79,173,Germany,Poland,2014,isoglucose,0.01
+79,173,Germany,Poland,2015,isoglucose,0.03
+79,173,Germany,Poland,2016,isoglucose,0.02
+79,173,Germany,Poland,2020,isoglucose,0.18
+79,173,Germany,Poland,2021,isoglucose,0.05
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1997,isoglucose,2.0
+150,138,Netherlands (Kingdom of the),Mexico,2016,isoglucose,0.01
+150,138,Netherlands (Kingdom of the),Mexico,2022,isoglucose,0.66
+150,138,Netherlands (Kingdom of the),Mexico,2023,isoglucose,0.1
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1986,isoglucose,1.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1992,isoglucose,108.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1993,isoglucose,253.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1994,isoglucose,21.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1995,isoglucose,322.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1996,isoglucose,722.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2003,isoglucose,977.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2008,isoglucose,308.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2019,isoglucose,0.05
+150,143,Netherlands (Kingdom of the),Morocco,2023,isoglucose,0.57
+79,174,Germany,Portugal,2011,isoglucose,59.0
+79,174,Germany,Portugal,2014,isoglucose,0.05
+79,174,Germany,Portugal,2015,isoglucose,0.05
+79,174,Germany,Portugal,2016,isoglucose,0.01
+79,174,Germany,Portugal,2017,isoglucose,0.04
+79,174,Germany,Portugal,2019,isoglucose,0.03
+79,174,Germany,Portugal,2020,isoglucose,0.19
+79,174,Germany,Portugal,2021,isoglucose,0.13
+79,174,Germany,Portugal,2022,isoglucose,0.01
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2005,isoglucose,1.0
+106,203,Italy,Spain,1989,isoglucose,244.0
+106,203,Italy,Spain,1992,isoglucose,444.0
+106,203,Italy,Spain,1997,isoglucose,1044.0
+106,203,Italy,Spain,2002,isoglucose,390.0
+106,203,Italy,Spain,2003,isoglucose,95.0
+106,203,Italy,Spain,2007,isoglucose,778.0
+106,203,Italy,Spain,2008,isoglucose,261.0
+106,203,Italy,Spain,2009,isoglucose,778.0
+106,203,Italy,Spain,2010,isoglucose,1607.0
+106,203,Italy,Spain,2011,isoglucose,383.0
+106,203,Italy,Spain,2022,isoglucose,0.27
+68,162,France,Norway,2023,isoglucose,4.0
+150,156,Netherlands (Kingdom of the),New Zealand,2016,isoglucose,0.24
+229,276,United Kingdom of Great Britain and Northern Ireland,Sudan,2018,isoglucose,15.05
+229,206,United Kingdom of Great Britain and Northern Ireland,Sudan (former),1986,isoglucose,1.0
+229,206,United Kingdom of Great Britain and Northern Ireland,Sudan (former),1987,isoglucose,1.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1992,isoglucose,6.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1994,isoglucose,15.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1998,isoglucose,25.0
+79,183,Germany,Romania,2019,isoglucose,0.02
+79,183,Germany,Romania,2022,isoglucose,0.01
+79,183,Germany,Romania,2023,isoglucose,0.02
+150,162,Netherlands (Kingdom of the),Norway,2012,isoglucose,2.0
+150,162,Netherlands (Kingdom of the),Norway,2015,isoglucose,3.1
+150,162,Netherlands (Kingdom of the),Norway,2017,isoglucose,0.02
+68,173,France,Poland,2022,isoglucose,0.05
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1996,isoglucose,4.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1997,isoglucose,9.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2000,isoglucose,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2009,isoglucose,7.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2010,isoglucose,6.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2011,isoglucose,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2014,isoglucose,0.3
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2015,isoglucose,6.5
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2018,isoglucose,20.5
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2019,isoglucose,10.35
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2020,isoglucose,17.55
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2021,isoglucose,0.75
+106,211,Italy,Switzerland,1988,isoglucose,23.0
+106,211,Italy,Switzerland,1991,isoglucose,2.0
+106,211,Italy,Switzerland,1994,isoglucose,1.0
+106,211,Italy,Switzerland,1995,isoglucose,1.0
+106,211,Italy,Switzerland,1996,isoglucose,1.0
+106,211,Italy,Switzerland,1997,isoglucose,1.0
+106,211,Italy,Switzerland,1998,isoglucose,1.0
+106,211,Italy,Switzerland,1999,isoglucose,19.0
+106,211,Italy,Switzerland,2000,isoglucose,37.0
+106,211,Italy,Switzerland,2001,isoglucose,10.0
+106,211,Italy,Switzerland,2002,isoglucose,13.0
+106,211,Italy,Switzerland,2003,isoglucose,14.0
+106,211,Italy,Switzerland,2007,isoglucose,144.0
+106,211,Italy,Switzerland,2008,isoglucose,693.0
+106,211,Italy,Switzerland,2010,isoglucose,6.0
+106,211,Italy,Switzerland,2011,isoglucose,10.0
+106,211,Italy,Switzerland,2019,isoglucose,0.1
+106,211,Italy,Switzerland,2020,isoglucose,0.04
+106,211,Italy,Switzerland,2021,isoglucose,0.59
+106,211,Italy,Switzerland,2022,isoglucose,0.8
+106,211,Italy,Switzerland,2023,isoglucose,0.19
+79,185,Germany,Russian Federation,2010,isoglucose,60.0
+79,185,Germany,Russian Federation,2011,isoglucose,1.0
+68,174,France,Portugal,2022,isoglucose,0.02
+68,174,France,Portugal,2023,isoglucose,0.04
+150,171,Netherlands (Kingdom of the),Philippines,2016,isoglucose,0.1
+229,220,United Kingdom of Great Britain and Northern Ireland,Trinidad and Tobago,1991,isoglucose,22.0
+79,272,Germany,Serbia,2011,isoglucose,161.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,1998,isoglucose,20.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2008,isoglucose,2.0
+150,173,Netherlands (Kingdom of the),Poland,2005,isoglucose,14.0
+150,173,Netherlands (Kingdom of the),Poland,2006,isoglucose,299.0
+150,173,Netherlands (Kingdom of the),Poland,2007,isoglucose,128.0
+150,173,Netherlands (Kingdom of the),Poland,2008,isoglucose,98.0
+150,173,Netherlands (Kingdom of the),Poland,2009,isoglucose,479.0
+150,173,Netherlands (Kingdom of the),Poland,2010,isoglucose,796.0
+150,173,Netherlands (Kingdom of the),Poland,2011,isoglucose,193.0
+150,173,Netherlands (Kingdom of the),Poland,2014,isoglucose,0.2
+150,173,Netherlands (Kingdom of the),Poland,2015,isoglucose,0.2
+150,173,Netherlands (Kingdom of the),Poland,2016,isoglucose,0.32
+150,173,Netherlands (Kingdom of the),Poland,2017,isoglucose,0.82
+150,173,Netherlands (Kingdom of the),Poland,2018,isoglucose,0.61
+150,173,Netherlands (Kingdom of the),Poland,2019,isoglucose,0.63
+150,173,Netherlands (Kingdom of the),Poland,2020,isoglucose,1.25
+150,173,Netherlands (Kingdom of the),Poland,2021,isoglucose,2.07
+150,173,Netherlands (Kingdom of the),Poland,2022,isoglucose,1.28
+150,173,Netherlands (Kingdom of the),Poland,2023,isoglucose,2.19
+106,223,Italy,Türkiye,2002,isoglucose,52.0
+106,223,Italy,Türkiye,2003,isoglucose,1620.0
+106,223,Italy,Türkiye,2004,isoglucose,5159.0
+106,223,Italy,Türkiye,2005,isoglucose,6106.0
+106,223,Italy,Türkiye,2006,isoglucose,6515.0
+106,223,Italy,Türkiye,2007,isoglucose,909.0
+79,199,Germany,Slovakia,2015,isoglucose,0.08
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,1992,isoglucose,7.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2021,isoglucose,0.03
+68,183,France,Romania,2022,isoglucose,0.4
+68,183,France,Romania,2023,isoglucose,0.35
+150,174,Netherlands (Kingdom of the),Portugal,2011,isoglucose,4.0
+79,198,Germany,Slovenia,2009,isoglucose,3.0
+79,198,Germany,Slovenia,2010,isoglucose,20.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2004,isoglucose,3.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2005,isoglucose,77.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2006,isoglucose,303.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2007,isoglucose,173.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2008,isoglucose,247.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2009,isoglucose,9.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1998,isoglucose,3.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2000,isoglucose,6.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2007,isoglucose,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2013,isoglucose,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2017,isoglucose,0.7
+79,202,Germany,South Africa,2011,isoglucose,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2007,isoglucose,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,2023,isoglucose,20.78
+150,146,Netherlands (Kingdom of the),Republic of Moldova,1992,isoglucose,22.0
+79,203,Germany,Spain,2009,isoglucose,1425.0
+79,203,Germany,Spain,2010,isoglucose,1069.0
+79,203,Germany,Spain,2011,isoglucose,1366.0
+79,203,Germany,Spain,2014,isoglucose,0.01
+150,183,Netherlands (Kingdom of the),Romania,2010,isoglucose,24.0
+229,249,United Kingdom of Great Britain and Northern Ireland,Yemen,1991,isoglucose,20.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2004,isoglucose,2.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2005,isoglucose,1.0
+106,248,Italy,Yugoslav SFR,1988,isoglucose,34.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,1992,isoglucose,21.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,2003,isoglucose,19.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,2004,isoglucose,54.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,2008,isoglucose,42.0
+150,194,Netherlands (Kingdom of the),Saudi Arabia,2009,isoglucose,41.0
+106,251,Italy,Zambia,1998,isoglucose,1.0
+79,210,Germany,Sweden,2011,isoglucose,123.0
+79,211,Germany,Switzerland,2009,isoglucose,206.0
+79,211,Germany,Switzerland,2010,isoglucose,426.0
+79,211,Germany,Switzerland,2011,isoglucose,199.0
+79,211,Germany,Switzerland,2014,isoglucose,2.0
+79,211,Germany,Switzerland,2015,isoglucose,1.4
+79,211,Germany,Switzerland,2016,isoglucose,2.13
+79,211,Germany,Switzerland,2017,isoglucose,1.59
+79,211,Germany,Switzerland,2018,isoglucose,2.0
+79,211,Germany,Switzerland,2019,isoglucose,5.57
+79,211,Germany,Switzerland,2020,isoglucose,9.64
+79,211,Germany,Switzerland,2021,isoglucose,16.61
+79,211,Germany,Switzerland,2022,isoglucose,4.72
+79,211,Germany,Switzerland,2023,isoglucose,14.31
+68,203,France,Spain,2022,isoglucose,3.5
+68,203,France,Spain,2023,isoglucose,0.7
+150,199,Netherlands (Kingdom of the),Slovakia,2007,isoglucose,49.0
+150,198,Netherlands (Kingdom of the),Slovenia,2016,isoglucose,0.25
+150,198,Netherlands (Kingdom of the),Slovenia,2017,isoglucose,0.31
+150,198,Netherlands (Kingdom of the),Slovenia,2018,isoglucose,0.25
+150,202,Netherlands (Kingdom of the),South Africa,2003,isoglucose,1.0
+150,202,Netherlands (Kingdom of the),South Africa,2011,isoglucose,19.0
+150,202,Netherlands (Kingdom of the),South Africa,2016,isoglucose,0.22
+150,202,Netherlands (Kingdom of the),South Africa,2017,isoglucose,0.02
+150,202,Netherlands (Kingdom of the),South Africa,2022,isoglucose,0.05
+150,202,Netherlands (Kingdom of the),South Africa,2023,isoglucose,0.23
+79,230,Germany,Ukraine,2011,isoglucose,1.0
+68,211,France,Switzerland,2021,isoglucose,0.04
+68,211,France,Switzerland,2023,isoglucose,0.64
+150,203,Netherlands (Kingdom of the),Spain,1989,isoglucose,1.0
+150,203,Netherlands (Kingdom of the),Spain,2005,isoglucose,24.0
+150,203,Netherlands (Kingdom of the),Spain,2006,isoglucose,24.0
+150,203,Netherlands (Kingdom of the),Spain,2010,isoglucose,2.0
+150,203,Netherlands (Kingdom of the),Spain,2011,isoglucose,3.0
+150,203,Netherlands (Kingdom of the),Spain,2012,isoglucose,2.0
+150,203,Netherlands (Kingdom of the),Spain,2013,isoglucose,2.0
+150,203,Netherlands (Kingdom of the),Spain,2014,isoglucose,2.0
+150,203,Netherlands (Kingdom of the),Spain,2015,isoglucose,31.7
+150,203,Netherlands (Kingdom of the),Spain,2016,isoglucose,2.85
+150,203,Netherlands (Kingdom of the),Spain,2017,isoglucose,3.75
+150,203,Netherlands (Kingdom of the),Spain,2018,isoglucose,5.85
+150,203,Netherlands (Kingdom of the),Spain,2019,isoglucose,5.29
+150,203,Netherlands (Kingdom of the),Spain,2020,isoglucose,7.47
+150,203,Netherlands (Kingdom of the),Spain,2021,isoglucose,7.55
+150,203,Netherlands (Kingdom of the),Spain,2022,isoglucose,7.77
+150,203,Netherlands (Kingdom of the),Spain,2023,isoglucose,13.47
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2009,isoglucose,12518.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,13331.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,11300.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2017,isoglucose,0.08
+150,210,Netherlands (Kingdom of the),Sweden,1995,isoglucose,15.0
+150,210,Netherlands (Kingdom of the),Sweden,1997,isoglucose,25.0
+150,210,Netherlands (Kingdom of the),Sweden,1998,isoglucose,604.0
+150,210,Netherlands (Kingdom of the),Sweden,2005,isoglucose,426.0
+150,210,Netherlands (Kingdom of the),Sweden,2006,isoglucose,2.0
+150,210,Netherlands (Kingdom of the),Sweden,2007,isoglucose,476.0
+150,210,Netherlands (Kingdom of the),Sweden,2009,isoglucose,422.0
+150,210,Netherlands (Kingdom of the),Sweden,2010,isoglucose,321.0
+79,231,Germany,United States of America,2009,isoglucose,1.0
+79,231,Germany,United States of America,2010,isoglucose,1.0
+68,230,France,Ukraine,2022,isoglucose,0.13
+150,211,Netherlands (Kingdom of the),Switzerland,1988,isoglucose,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,1990,isoglucose,21.0
+150,211,Netherlands (Kingdom of the),Switzerland,2006,isoglucose,96.0
+150,211,Netherlands (Kingdom of the),Switzerland,2007,isoglucose,311.0
+150,211,Netherlands (Kingdom of the),Switzerland,2008,isoglucose,531.0
+150,211,Netherlands (Kingdom of the),Switzerland,2009,isoglucose,337.0
+150,211,Netherlands (Kingdom of the),Switzerland,2010,isoglucose,7.0
+150,211,Netherlands (Kingdom of the),Switzerland,2011,isoglucose,402.0
+150,211,Netherlands (Kingdom of the),Switzerland,2014,isoglucose,0.1
+150,211,Netherlands (Kingdom of the),Switzerland,2015,isoglucose,0.1
+150,211,Netherlands (Kingdom of the),Switzerland,2018,isoglucose,0.04
+150,211,Netherlands (Kingdom of the),Switzerland,2019,isoglucose,0.08
+150,211,Netherlands (Kingdom of the),Switzerland,2020,isoglucose,26.81
+150,211,Netherlands (Kingdom of the),Switzerland,2021,isoglucose,38.63
+150,211,Netherlands (Kingdom of the),Switzerland,2022,isoglucose,6.71
+150,211,Netherlands (Kingdom of the),Switzerland,2023,isoglucose,12.58
+150,216,Netherlands (Kingdom of the),Thailand,2015,isoglucose,0.1
+150,216,Netherlands (Kingdom of the),Thailand,2016,isoglucose,0.02
+150,216,Netherlands (Kingdom of the),Thailand,2020,isoglucose,0.8
+150,216,Netherlands (Kingdom of the),Thailand,2021,isoglucose,0.61
+150,216,Netherlands (Kingdom of the),Thailand,2023,isoglucose,5.2
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2021,isoglucose,0.43
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2023,isoglucose,0.14
+150,222,Netherlands (Kingdom of the),Tunisia,2022,isoglucose,0.2
+150,222,Netherlands (Kingdom of the),Tunisia,2023,isoglucose,0.75
+150,223,Netherlands (Kingdom of the),Türkiye,1987,isoglucose,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,2013,isoglucose,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,2014,isoglucose,0.7
+150,223,Netherlands (Kingdom of the),Türkiye,2015,isoglucose,0.5
+150,223,Netherlands (Kingdom of the),Türkiye,2016,isoglucose,0.45
+150,223,Netherlands (Kingdom of the),Türkiye,2017,isoglucose,0.5
+150,223,Netherlands (Kingdom of the),Türkiye,2018,isoglucose,0.75
+150,223,Netherlands (Kingdom of the),Türkiye,2019,isoglucose,0.45
+150,223,Netherlands (Kingdom of the),Türkiye,2020,isoglucose,1.45
+150,223,Netherlands (Kingdom of the),Türkiye,2021,isoglucose,0.6
+150,223,Netherlands (Kingdom of the),Türkiye,2022,isoglucose,1.2
+150,223,Netherlands (Kingdom of the),Türkiye,2023,isoglucose,4.56
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2011,isoglucose,31.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2023,isoglucose,0.3
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1986,isoglucose,3.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1988,isoglucose,1973.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1989,isoglucose,166.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,isoglucose,181.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1991,isoglucose,489.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1992,isoglucose,707.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1993,isoglucose,861.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1994,isoglucose,2035.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1995,isoglucose,2111.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1996,isoglucose,3034.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1997,isoglucose,2603.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1998,isoglucose,7753.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1999,isoglucose,10503.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2000,isoglucose,5005.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2001,isoglucose,7447.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2002,isoglucose,1805.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2003,isoglucose,6705.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2005,isoglucose,3605.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2006,isoglucose,3671.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2010,isoglucose,253.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2011,isoglucose,2076.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2012,isoglucose,3.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2013,isoglucose,3.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2014,isoglucose,1.9
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2015,isoglucose,4.3
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2016,isoglucose,5.4
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2017,isoglucose,5.26
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2018,isoglucose,10.62
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2019,isoglucose,10.62
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2020,isoglucose,9.19
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2021,isoglucose,14.02
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2022,isoglucose,1.11
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2023,isoglucose,4.39
+150,231,Netherlands (Kingdom of the),United States of America,2006,isoglucose,1.0
+150,231,Netherlands (Kingdom of the),United States of America,2010,isoglucose,2.0
+150,231,Netherlands (Kingdom of the),United States of America,2016,isoglucose,0.6
+150,231,Netherlands (Kingdom of the),United States of America,2021,isoglucose,0.01
+150,231,Netherlands (Kingdom of the),United States of America,2022,isoglucose,14.19
+150,231,Netherlands (Kingdom of the),United States of America,2023,isoglucose,23.19
+150,237,Netherlands (Kingdom of the),Viet Nam,2016,isoglucose,0.02
+150,251,Netherlands (Kingdom of the),Zambia,1986,isoglucose,17.0

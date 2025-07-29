@@ -1,0 +1,2401 @@
+o_code,d_code,o_name,d_name,year,item,weight
+41,3,"China, mainland",Albania,1987,oil_of_tung_nuts,110.0
+41,3,"China, mainland",Albania,1988,oil_of_tung_nuts,206.0
+41,3,"China, mainland",Albania,1989,oil_of_tung_nuts,180.0
+41,3,"China, mainland",Albania,1990,oil_of_tung_nuts,160.0
+159,81,Nigeria,Ghana,2000,oil_of_tung_nuts,90.0
+169,9,Paraguay,Argentina,1989,oil_of_tung_nuts,100.0
+169,9,Paraguay,Argentina,1990,oil_of_tung_nuts,30.0
+169,9,Paraguay,Argentina,1992,oil_of_tung_nuts,24.0
+169,9,Paraguay,Argentina,1993,oil_of_tung_nuts,85.0
+169,9,Paraguay,Argentina,1994,oil_of_tung_nuts,89.0
+169,9,Paraguay,Argentina,1995,oil_of_tung_nuts,28.0
+169,9,Paraguay,Argentina,1997,oil_of_tung_nuts,200.0
+169,9,Paraguay,Argentina,1998,oil_of_tung_nuts,250.0
+169,9,Paraguay,Argentina,2001,oil_of_tung_nuts,25.0
+9,10,Argentina,Australia,1991,oil_of_tung_nuts,16.0
+15,10,Belgium-Luxembourg,Australia,1990,oil_of_tung_nuts,4.0
+203,4,Spain,Algeria,1999,oil_of_tung_nuts,6.0
+203,4,Spain,Algeria,2002,oil_of_tung_nuts,4.0
+16,118,Bangladesh,Kuwait,2007,oil_of_tung_nuts,9.0
+169,10,Paraguay,Australia,1991,oil_of_tung_nuts,15.0
+79,4,Germany,Algeria,1994,oil_of_tung_nuts,5.0
+169,255,Paraguay,Belgium,2006,oil_of_tung_nuts,168.0
+96,10,"China, Hong Kong SAR",Australia,1986,oil_of_tung_nuts,76.0
+96,10,"China, Hong Kong SAR",Australia,1987,oil_of_tung_nuts,238.0
+96,10,"China, Hong Kong SAR",Australia,1988,oil_of_tung_nuts,60.0
+96,10,"China, Hong Kong SAR",Australia,1989,oil_of_tung_nuts,43.0
+96,10,"China, Hong Kong SAR",Australia,1990,oil_of_tung_nuts,65.0
+96,10,"China, Hong Kong SAR",Australia,1991,oil_of_tung_nuts,219.0
+96,10,"China, Hong Kong SAR",Australia,1992,oil_of_tung_nuts,167.0
+96,10,"China, Hong Kong SAR",Australia,1993,oil_of_tung_nuts,76.0
+96,10,"China, Hong Kong SAR",Australia,1994,oil_of_tung_nuts,45.0
+9,255,Argentina,Belgium,2002,oil_of_tung_nuts,48.0
+9,255,Argentina,Belgium,2003,oil_of_tung_nuts,256.0
+9,255,Argentina,Belgium,2004,oil_of_tung_nuts,16.0
+9,255,Argentina,Belgium,2005,oil_of_tung_nuts,125.0
+150,7,Netherlands (Kingdom of the),Angola,1992,oil_of_tung_nuts,2.0
+126,57,Lithuania,Belarus,2005,oil_of_tung_nuts,8.0
+126,57,Lithuania,Belarus,2006,oil_of_tung_nuts,3.0
+216,10,Thailand,Australia,2007,oil_of_tung_nuts,433.0
+16,225,Bangladesh,United Arab Emirates,2007,oil_of_tung_nuts,32.0
+198,11,Slovenia,Austria,2002,oil_of_tung_nuts,10.0
+96,11,"China, Hong Kong SAR",Austria,1994,oil_of_tung_nuts,61.0
+96,11,"China, Hong Kong SAR",Austria,1995,oil_of_tung_nuts,30.0
+169,21,Paraguay,Brazil,1989,oil_of_tung_nuts,275.0
+169,21,Paraguay,Brazil,1990,oil_of_tung_nuts,300.0
+169,21,Paraguay,Brazil,1991,oil_of_tung_nuts,406.0
+169,21,Paraguay,Brazil,1992,oil_of_tung_nuts,75.0
+169,21,Paraguay,Brazil,1993,oil_of_tung_nuts,200.0
+169,21,Paraguay,Brazil,1994,oil_of_tung_nuts,1158.0
+169,21,Paraguay,Brazil,1995,oil_of_tung_nuts,674.0
+169,21,Paraguay,Brazil,1996,oil_of_tung_nuts,830.0
+169,21,Paraguay,Brazil,1997,oil_of_tung_nuts,786.0
+169,21,Paraguay,Brazil,1998,oil_of_tung_nuts,745.0
+169,21,Paraguay,Brazil,1999,oil_of_tung_nuts,900.0
+169,21,Paraguay,Brazil,2000,oil_of_tung_nuts,1295.0
+169,21,Paraguay,Brazil,2001,oil_of_tung_nuts,670.0
+169,21,Paraguay,Brazil,2002,oil_of_tung_nuts,125.0
+169,21,Paraguay,Brazil,2003,oil_of_tung_nuts,610.0
+169,21,Paraguay,Brazil,2004,oil_of_tung_nuts,725.0
+169,21,Paraguay,Brazil,2005,oil_of_tung_nuts,850.0
+169,21,Paraguay,Brazil,2006,oil_of_tung_nuts,695.0
+169,21,Paraguay,Brazil,2007,oil_of_tung_nuts,25.0
+9,19,Argentina,Bolivia (Plurinational State of),1991,oil_of_tung_nuts,30.0
+9,19,Argentina,Bolivia (Plurinational State of),1996,oil_of_tung_nuts,2.0
+156,10,New Zealand,Australia,1991,oil_of_tung_nuts,8.0
+156,10,New Zealand,Australia,1999,oil_of_tung_nuts,3.0
+41,10,"China, mainland",Australia,1987,oil_of_tung_nuts,237.0
+41,10,"China, mainland",Australia,1988,oil_of_tung_nuts,262.0
+41,10,"China, mainland",Australia,1989,oil_of_tung_nuts,249.0
+41,10,"China, mainland",Australia,1990,oil_of_tung_nuts,119.0
+41,10,"China, mainland",Australia,1991,oil_of_tung_nuts,329.0
+41,10,"China, mainland",Australia,1992,oil_of_tung_nuts,106.0
+41,10,"China, mainland",Australia,1993,oil_of_tung_nuts,136.0
+41,10,"China, mainland",Australia,1994,oil_of_tung_nuts,244.0
+41,10,"China, mainland",Australia,1995,oil_of_tung_nuts,137.0
+41,10,"China, mainland",Australia,1996,oil_of_tung_nuts,213.0
+41,10,"China, mainland",Australia,1997,oil_of_tung_nuts,228.0
+41,10,"China, mainland",Australia,1998,oil_of_tung_nuts,182.0
+41,10,"China, mainland",Australia,1999,oil_of_tung_nuts,183.0
+41,10,"China, mainland",Australia,2000,oil_of_tung_nuts,198.0
+41,10,"China, mainland",Australia,2001,oil_of_tung_nuts,203.0
+41,10,"China, mainland",Australia,2002,oil_of_tung_nuts,175.0
+41,10,"China, mainland",Australia,2003,oil_of_tung_nuts,266.0
+41,10,"China, mainland",Australia,2004,oil_of_tung_nuts,282.0
+41,10,"China, mainland",Australia,2005,oil_of_tung_nuts,274.0
+41,10,"China, mainland",Australia,2006,oil_of_tung_nuts,426.0
+21,9,Brazil,Argentina,1995,oil_of_tung_nuts,3.0
+202,10,South Africa,Australia,1999,oil_of_tung_nuts,3.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,1991,oil_of_tung_nuts,4.0
+234,21,Uruguay,Brazil,1997,oil_of_tung_nuts,4.0
+255,11,Belgium,Austria,2004,oil_of_tung_nuts,3.0
+169,40,Paraguay,Chile,1986,oil_of_tung_nuts,14.0
+169,40,Paraguay,Chile,1987,oil_of_tung_nuts,27.0
+169,40,Paraguay,Chile,1989,oil_of_tung_nuts,35.0
+169,40,Paraguay,Chile,1990,oil_of_tung_nuts,8.0
+169,40,Paraguay,Chile,1991,oil_of_tung_nuts,20.0
+169,40,Paraguay,Chile,1992,oil_of_tung_nuts,11.0
+169,40,Paraguay,Chile,1993,oil_of_tung_nuts,10.0
+169,40,Paraguay,Chile,1994,oil_of_tung_nuts,6.0
+169,40,Paraguay,Chile,1995,oil_of_tung_nuts,5.0
+169,40,Paraguay,Chile,1996,oil_of_tung_nuts,10.0
+169,40,Paraguay,Chile,1997,oil_of_tung_nuts,4.0
+169,40,Paraguay,Chile,1998,oil_of_tung_nuts,12.0
+169,40,Paraguay,Chile,2000,oil_of_tung_nuts,23.0
+169,40,Paraguay,Chile,2003,oil_of_tung_nuts,2.0
+169,40,Paraguay,Chile,2004,oil_of_tung_nuts,9.0
+169,40,Paraguay,Chile,2005,oil_of_tung_nuts,6.0
+169,40,Paraguay,Chile,2006,oil_of_tung_nuts,9.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1987,oil_of_tung_nuts,59.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1989,oil_of_tung_nuts,30.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1994,oil_of_tung_nuts,61.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1995,oil_of_tung_nuts,30.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1996,oil_of_tung_nuts,61.0
+96,15,"China, Hong Kong SAR",Belgium-Luxembourg,1997,oil_of_tung_nuts,137.0
+95,60,Honduras,El Salvador,1993,oil_of_tung_nuts,19.0
+15,41,Belgium-Luxembourg,"China, mainland",1990,oil_of_tung_nuts,2.0
+171,115,Philippines,Cambodia,2015,oil_of_tung_nuts,0.01
+130,202,Malawi,South Africa,1986,oil_of_tung_nuts,158.0
+130,202,Malawi,South Africa,1987,oil_of_tung_nuts,236.0
+130,202,Malawi,South Africa,1988,oil_of_tung_nuts,142.0
+130,202,Malawi,South Africa,1989,oil_of_tung_nuts,95.0
+130,202,Malawi,South Africa,1992,oil_of_tung_nuts,61.0
+41,11,"China, mainland",Austria,1998,oil_of_tung_nuts,30.0
+102,103,Iran (Islamic Republic of),Iraq,2005,oil_of_tung_nuts,3.0
+211,11,Switzerland,Austria,1993,oil_of_tung_nuts,11.0
+9,21,Argentina,Brazil,1988,oil_of_tung_nuts,4.0
+9,21,Argentina,Brazil,1995,oil_of_tung_nuts,300.0
+169,44,Paraguay,Colombia,1986,oil_of_tung_nuts,112.0
+169,44,Paraguay,Colombia,1987,oil_of_tung_nuts,109.0
+169,44,Paraguay,Colombia,1989,oil_of_tung_nuts,194.0
+169,44,Paraguay,Colombia,1990,oil_of_tung_nuts,135.0
+169,44,Paraguay,Colombia,1991,oil_of_tung_nuts,126.0
+169,44,Paraguay,Colombia,1992,oil_of_tung_nuts,234.0
+169,44,Paraguay,Colombia,1993,oil_of_tung_nuts,137.0
+169,44,Paraguay,Colombia,1994,oil_of_tung_nuts,150.0
+169,44,Paraguay,Colombia,1995,oil_of_tung_nuts,119.0
+169,44,Paraguay,Colombia,1996,oil_of_tung_nuts,177.0
+169,44,Paraguay,Colombia,1997,oil_of_tung_nuts,177.0
+169,44,Paraguay,Colombia,1998,oil_of_tung_nuts,131.0
+169,44,Paraguay,Colombia,1999,oil_of_tung_nuts,79.0
+169,44,Paraguay,Colombia,2000,oil_of_tung_nuts,102.0
+169,44,Paraguay,Colombia,2001,oil_of_tung_nuts,15.0
+169,44,Paraguay,Colombia,2002,oil_of_tung_nuts,30.0
+169,44,Paraguay,Colombia,2003,oil_of_tung_nuts,61.0
+169,44,Paraguay,Colombia,2004,oil_of_tung_nuts,76.0
+169,44,Paraguay,Colombia,2005,oil_of_tung_nuts,91.0
+169,44,Paraguay,Colombia,2006,oil_of_tung_nuts,96.0
+143,107,Morocco,Côte d'Ivoire,2012,oil_of_tung_nuts,1.0
+15,107,Belgium-Luxembourg,Côte d'Ivoire,1998,oil_of_tung_nuts,4.0
+126,41,Lithuania,"China, mainland",2001,oil_of_tung_nuts,2.0
+216,16,Thailand,Bangladesh,2019,oil_of_tung_nuts,0.55
+41,16,"China, mainland",Bangladesh,1992,oil_of_tung_nuts,46.0
+169,79,Paraguay,Germany,1991,oil_of_tung_nuts,510.0
+169,79,Paraguay,Germany,1992,oil_of_tung_nuts,450.0
+169,79,Paraguay,Germany,1994,oil_of_tung_nuts,450.0
+169,79,Paraguay,Germany,1995,oil_of_tung_nuts,300.0
+169,79,Paraguay,Germany,1998,oil_of_tung_nuts,260.0
+169,79,Paraguay,Germany,2001,oil_of_tung_nuts,15.0
+169,79,Paraguay,Germany,2003,oil_of_tung_nuts,87.0
+169,79,Paraguay,Germany,2004,oil_of_tung_nuts,64.0
+169,79,Paraguay,Germany,2005,oil_of_tung_nuts,80.0
+130,229,Malawi,United Kingdom of Great Britain and Northern Ireland,1988,oil_of_tung_nuts,16.0
+96,33,"China, Hong Kong SAR",Canada,1989,oil_of_tung_nuts,76.0
+96,33,"China, Hong Kong SAR",Canada,1990,oil_of_tung_nuts,30.0
+96,33,"China, Hong Kong SAR",Canada,1991,oil_of_tung_nuts,15.0
+96,33,"China, Hong Kong SAR",Canada,1994,oil_of_tung_nuts,30.0
+96,33,"China, Hong Kong SAR",Canada,1995,oil_of_tung_nuts,46.0
+11,80,Austria,Bosnia and Herzegovina,2006,oil_of_tung_nuts,1.0
+9,33,Argentina,Canada,2003,oil_of_tung_nuts,15.0
+9,33,Argentina,Canada,2004,oil_of_tung_nuts,46.0
+9,33,Argentina,Canada,2005,oil_of_tung_nuts,30.0
+9,33,Argentina,Canada,2006,oil_of_tung_nuts,15.0
+198,80,Slovenia,Bosnia and Herzegovina,2003,oil_of_tung_nuts,2.0
+169,106,Paraguay,Italy,1986,oil_of_tung_nuts,110.0
+169,106,Paraguay,Italy,1987,oil_of_tung_nuts,50.0
+169,106,Paraguay,Italy,1989,oil_of_tung_nuts,15.0
+169,110,Paraguay,Japan,1986,oil_of_tung_nuts,2600.0
+169,110,Paraguay,Japan,1987,oil_of_tung_nuts,2060.0
+169,110,Paraguay,Japan,1990,oil_of_tung_nuts,2100.0
+169,110,Paraguay,Japan,1991,oil_of_tung_nuts,2830.0
+169,110,Paraguay,Japan,1992,oil_of_tung_nuts,935.0
+169,110,Paraguay,Japan,2003,oil_of_tung_nuts,31.0
+54,15,Denmark,Belgium-Luxembourg,1987,oil_of_tung_nuts,3.0
+41,255,"China, mainland",Belgium,2000,oil_of_tung_nuts,1161.0
+41,255,"China, mainland",Belgium,2001,oil_of_tung_nuts,684.0
+41,255,"China, mainland",Belgium,2002,oil_of_tung_nuts,547.0
+41,255,"China, mainland",Belgium,2003,oil_of_tung_nuts,441.0
+41,255,"China, mainland",Belgium,2004,oil_of_tung_nuts,728.0
+41,255,"China, mainland",Belgium,2005,oil_of_tung_nuts,701.0
+41,255,"China, mainland",Belgium,2006,oil_of_tung_nuts,308.0
+214,33,"China, Taiwan Province of",Canada,2006,oil_of_tung_nuts,15.0
+15,54,Belgium-Luxembourg,Denmark,1988,oil_of_tung_nuts,1.0
+15,54,Belgium-Luxembourg,Denmark,1991,oil_of_tung_nuts,6.0
+15,54,Belgium-Luxembourg,Denmark,1992,oil_of_tung_nuts,10.0
+15,54,Belgium-Luxembourg,Denmark,1993,oil_of_tung_nuts,16.0
+15,54,Belgium-Luxembourg,Denmark,1994,oil_of_tung_nuts,16.0
+15,54,Belgium-Luxembourg,Denmark,1995,oil_of_tung_nuts,20.0
+15,54,Belgium-Luxembourg,Denmark,1996,oil_of_tung_nuts,6.0
+15,54,Belgium-Luxembourg,Denmark,1998,oil_of_tung_nuts,5.0
+169,138,Paraguay,Mexico,1986,oil_of_tung_nuts,201.0
+169,138,Paraguay,Mexico,1987,oil_of_tung_nuts,298.0
+169,138,Paraguay,Mexico,1989,oil_of_tung_nuts,301.0
+169,138,Paraguay,Mexico,1990,oil_of_tung_nuts,330.0
+169,138,Paraguay,Mexico,1991,oil_of_tung_nuts,368.0
+169,138,Paraguay,Mexico,1992,oil_of_tung_nuts,329.0
+169,138,Paraguay,Mexico,1993,oil_of_tung_nuts,277.0
+169,138,Paraguay,Mexico,1994,oil_of_tung_nuts,180.0
+169,138,Paraguay,Mexico,1995,oil_of_tung_nuts,255.0
+169,138,Paraguay,Mexico,1996,oil_of_tung_nuts,75.0
+169,138,Paraguay,Mexico,1997,oil_of_tung_nuts,386.0
+169,138,Paraguay,Mexico,1998,oil_of_tung_nuts,231.0
+169,138,Paraguay,Mexico,1999,oil_of_tung_nuts,80.0
+169,138,Paraguay,Mexico,2000,oil_of_tung_nuts,150.0
+169,138,Paraguay,Mexico,2001,oil_of_tung_nuts,45.0
+169,138,Paraguay,Mexico,2002,oil_of_tung_nuts,65.0
+169,138,Paraguay,Mexico,2003,oil_of_tung_nuts,247.0
+169,138,Paraguay,Mexico,2004,oil_of_tung_nuts,284.0
+169,138,Paraguay,Mexico,2005,oil_of_tung_nuts,270.0
+169,138,Paraguay,Mexico,2006,oil_of_tung_nuts,292.0
+169,150,Paraguay,Netherlands (Kingdom of the),1986,oil_of_tung_nuts,3895.0
+169,150,Paraguay,Netherlands (Kingdom of the),1987,oil_of_tung_nuts,3040.0
+169,150,Paraguay,Netherlands (Kingdom of the),1989,oil_of_tung_nuts,4055.0
+169,150,Paraguay,Netherlands (Kingdom of the),1990,oil_of_tung_nuts,3295.0
+169,150,Paraguay,Netherlands (Kingdom of the),1991,oil_of_tung_nuts,2387.0
+169,150,Paraguay,Netherlands (Kingdom of the),1992,oil_of_tung_nuts,600.0
+169,150,Paraguay,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,5.0
+169,150,Paraguay,Netherlands (Kingdom of the),1994,oil_of_tung_nuts,36.0
+169,150,Paraguay,Netherlands (Kingdom of the),1995,oil_of_tung_nuts,250.0
+169,150,Paraguay,Netherlands (Kingdom of the),1996,oil_of_tung_nuts,915.0
+169,150,Paraguay,Netherlands (Kingdom of the),1997,oil_of_tung_nuts,1150.0
+169,150,Paraguay,Netherlands (Kingdom of the),1998,oil_of_tung_nuts,225.0
+169,150,Paraguay,Netherlands (Kingdom of the),2004,oil_of_tung_nuts,425.0
+169,150,Paraguay,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,336.0
+169,150,Paraguay,Netherlands (Kingdom of the),2006,oil_of_tung_nuts,900.0
+41,15,"China, mainland",Belgium-Luxembourg,1992,oil_of_tung_nuts,30.0
+41,15,"China, mainland",Belgium-Luxembourg,1993,oil_of_tung_nuts,76.0
+41,15,"China, mainland",Belgium-Luxembourg,1994,oil_of_tung_nuts,319.0
+41,15,"China, mainland",Belgium-Luxembourg,1995,oil_of_tung_nuts,182.0
+41,15,"China, mainland",Belgium-Luxembourg,1996,oil_of_tung_nuts,61.0
+41,15,"China, mainland",Belgium-Luxembourg,1997,oil_of_tung_nuts,562.0
+41,15,"China, mainland",Belgium-Luxembourg,1998,oil_of_tung_nuts,664.0
+41,15,"China, mainland",Belgium-Luxembourg,1999,oil_of_tung_nuts,942.0
+169,166,Paraguay,Panama,1989,oil_of_tung_nuts,20.0
+169,170,Paraguay,Peru,1986,oil_of_tung_nuts,11.0
+169,170,Paraguay,Peru,1987,oil_of_tung_nuts,3.0
+169,170,Paraguay,Peru,1990,oil_of_tung_nuts,2.0
+169,170,Paraguay,Peru,1993,oil_of_tung_nuts,2.0
+169,170,Paraguay,Peru,1997,oil_of_tung_nuts,3.0
+169,170,Paraguay,Peru,1998,oil_of_tung_nuts,5.0
+169,170,Paraguay,Peru,1999,oil_of_tung_nuts,5.0
+169,170,Paraguay,Peru,2000,oil_of_tung_nuts,5.0
+169,170,Paraguay,Peru,2002,oil_of_tung_nuts,8.0
+169,170,Paraguay,Peru,2003,oil_of_tung_nuts,5.0
+169,170,Paraguay,Peru,2004,oil_of_tung_nuts,18.0
+169,170,Paraguay,Peru,2005,oil_of_tung_nuts,8.0
+169,170,Paraguay,Peru,2006,oil_of_tung_nuts,16.0
+9,40,Argentina,Chile,1988,oil_of_tung_nuts,3.0
+9,40,Argentina,Chile,1997,oil_of_tung_nuts,1.0
+9,40,Argentina,Chile,2001,oil_of_tung_nuts,1.0
+9,40,Argentina,Chile,2002,oil_of_tung_nuts,3.0
+9,40,Argentina,Chile,2003,oil_of_tung_nuts,2.0
+9,40,Argentina,Chile,2004,oil_of_tung_nuts,1.0
+9,40,Argentina,Chile,2006,oil_of_tung_nuts,1.0
+44,58,Colombia,Ecuador,1998,oil_of_tung_nuts,4.0
+44,58,Colombia,Ecuador,1999,oil_of_tung_nuts,4.0
+171,41,Philippines,"China, mainland",2016,oil_of_tung_nuts,3.3
+169,202,Paraguay,South Africa,1986,oil_of_tung_nuts,2.0
+169,202,Paraguay,South Africa,1991,oil_of_tung_nuts,14.0
+101,96,Indonesia,"China, Hong Kong SAR",2007,oil_of_tung_nuts,14.0
+101,96,Indonesia,"China, Hong Kong SAR",2008,oil_of_tung_nuts,13.0
+101,96,Indonesia,"China, Hong Kong SAR",2009,oil_of_tung_nuts,12.0
+150,11,Netherlands (Kingdom of the),Austria,1986,oil_of_tung_nuts,5.0
+150,11,Netherlands (Kingdom of the),Austria,1988,oil_of_tung_nuts,3.0
+150,11,Netherlands (Kingdom of the),Austria,1992,oil_of_tung_nuts,1.0
+150,11,Netherlands (Kingdom of the),Austria,1993,oil_of_tung_nuts,44.0
+150,11,Netherlands (Kingdom of the),Austria,1994,oil_of_tung_nuts,33.0
+150,11,Netherlands (Kingdom of the),Austria,1996,oil_of_tung_nuts,37.0
+150,11,Netherlands (Kingdom of the),Austria,1997,oil_of_tung_nuts,12.0
+150,11,Netherlands (Kingdom of the),Austria,1998,oil_of_tung_nuts,2.0
+150,11,Netherlands (Kingdom of the),Austria,1999,oil_of_tung_nuts,32.0
+150,11,Netherlands (Kingdom of the),Austria,2000,oil_of_tung_nuts,76.0
+150,11,Netherlands (Kingdom of the),Austria,2001,oil_of_tung_nuts,108.0
+150,11,Netherlands (Kingdom of the),Austria,2002,oil_of_tung_nuts,80.0
+150,11,Netherlands (Kingdom of the),Austria,2003,oil_of_tung_nuts,72.0
+150,11,Netherlands (Kingdom of the),Austria,2004,oil_of_tung_nuts,78.0
+150,11,Netherlands (Kingdom of the),Austria,2005,oil_of_tung_nuts,2.0
+150,11,Netherlands (Kingdom of the),Austria,2006,oil_of_tung_nuts,49.0
+169,203,Paraguay,Spain,1986,oil_of_tung_nuts,120.0
+169,203,Paraguay,Spain,1987,oil_of_tung_nuts,18.0
+169,203,Paraguay,Spain,1989,oil_of_tung_nuts,15.0
+169,203,Paraguay,Spain,1993,oil_of_tung_nuts,5.0
+169,203,Paraguay,Spain,1994,oil_of_tung_nuts,15.0
+41,21,"China, mainland",Brazil,2000,oil_of_tung_nuts,15.0
+41,21,"China, mainland",Brazil,2001,oil_of_tung_nuts,137.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1986,oil_of_tung_nuts,15.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1991,oil_of_tung_nuts,30.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1992,oil_of_tung_nuts,46.0
+79,11,Germany,Austria,1991,oil_of_tung_nuts,37.0
+79,11,Germany,Austria,1992,oil_of_tung_nuts,16.0
+79,11,Germany,Austria,1993,oil_of_tung_nuts,8.0
+79,11,Germany,Austria,1994,oil_of_tung_nuts,32.0
+79,11,Germany,Austria,1995,oil_of_tung_nuts,8.0
+79,11,Germany,Austria,1996,oil_of_tung_nuts,30.0
+79,11,Germany,Austria,1997,oil_of_tung_nuts,16.0
+79,11,Germany,Austria,1998,oil_of_tung_nuts,6.0
+79,11,Germany,Austria,1999,oil_of_tung_nuts,3.0
+79,11,Germany,Austria,2000,oil_of_tung_nuts,3.0
+79,11,Germany,Austria,2001,oil_of_tung_nuts,20.0
+79,11,Germany,Austria,2002,oil_of_tung_nuts,20.0
+79,11,Germany,Austria,2003,oil_of_tung_nuts,4.0
+79,11,Germany,Austria,2004,oil_of_tung_nuts,2.0
+79,11,Germany,Austria,2005,oil_of_tung_nuts,4.0
+21,19,Brazil,Bolivia (Plurinational State of),2000,oil_of_tung_nuts,1.0
+21,19,Brazil,Bolivia (Plurinational State of),2002,oil_of_tung_nuts,2.0
+96,128,"China, Hong Kong SAR","China, Macao SAR",1986,oil_of_tung_nuts,3.0
+169,210,Paraguay,Sweden,1991,oil_of_tung_nuts,15.0
+199,167,Slovakia,Czechia,1997,oil_of_tung_nuts,1.0
+199,167,Slovakia,Czechia,2000,oil_of_tung_nuts,3.0
+169,211,Paraguay,Switzerland,2005,oil_of_tung_nuts,210.0
+169,229,Paraguay,United Kingdom of Great Britain and Northern Ireland,2003,oil_of_tung_nuts,16.0
+200,26,Singapore,Brunei Darussalam,2003,oil_of_tung_nuts,3.0
+110,96,Japan,"China, Hong Kong SAR",1997,oil_of_tung_nuts,1.0
+110,96,Japan,"China, Hong Kong SAR",1999,oil_of_tung_nuts,1.0
+110,96,Japan,"China, Hong Kong SAR",2000,oil_of_tung_nuts,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1991,oil_of_tung_nuts,99.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1995,oil_of_tung_nuts,4.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1996,oil_of_tung_nuts,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1998,oil_of_tung_nuts,46.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2001,oil_of_tung_nuts,2.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2002,oil_of_tung_nuts,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2003,oil_of_tung_nuts,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2004,oil_of_tung_nuts,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2005,oil_of_tung_nuts,2.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",2006,oil_of_tung_nuts,3.0
+102,208,Iran (Islamic Republic of),Tajikistan,2003,oil_of_tung_nuts,26.0
+169,231,Paraguay,United States of America,1986,oil_of_tung_nuts,2300.0
+169,231,Paraguay,United States of America,1987,oil_of_tung_nuts,2060.0
+169,231,Paraguay,United States of America,1989,oil_of_tung_nuts,3240.0
+169,231,Paraguay,United States of America,1990,oil_of_tung_nuts,1800.0
+169,231,Paraguay,United States of America,1991,oil_of_tung_nuts,2240.0
+169,231,Paraguay,United States of America,1992,oil_of_tung_nuts,1426.0
+169,231,Paraguay,United States of America,1993,oil_of_tung_nuts,1555.0
+169,231,Paraguay,United States of America,1994,oil_of_tung_nuts,2475.0
+169,231,Paraguay,United States of America,1995,oil_of_tung_nuts,1765.0
+169,231,Paraguay,United States of America,1996,oil_of_tung_nuts,1125.0
+169,231,Paraguay,United States of America,1997,oil_of_tung_nuts,1515.0
+169,231,Paraguay,United States of America,1998,oil_of_tung_nuts,250.0
+169,231,Paraguay,United States of America,1999,oil_of_tung_nuts,1180.0
+169,231,Paraguay,United States of America,2000,oil_of_tung_nuts,1150.0
+169,231,Paraguay,United States of America,2002,oil_of_tung_nuts,1100.0
+169,231,Paraguay,United States of America,2003,oil_of_tung_nuts,1400.0
+169,231,Paraguay,United States of America,2004,oil_of_tung_nuts,1922.0
+169,231,Paraguay,United States of America,2005,oil_of_tung_nuts,2425.0
+169,231,Paraguay,United States of America,2006,oil_of_tung_nuts,700.0
+215,144,United Republic of Tanzania,Mozambique,2006,oil_of_tung_nuts,8.0
+220,109,Trinidad and Tobago,Jamaica,2004,oil_of_tung_nuts,1.0
+216,115,Thailand,Cambodia,2007,oil_of_tung_nuts,55.0
+216,115,Thailand,Cambodia,2008,oil_of_tung_nuts,112.0
+216,115,Thailand,Cambodia,2019,oil_of_tung_nuts,63.25
+15,68,Belgium-Luxembourg,France,1986,oil_of_tung_nuts,2.0
+15,68,Belgium-Luxembourg,France,1987,oil_of_tung_nuts,5.0
+15,68,Belgium-Luxembourg,France,1988,oil_of_tung_nuts,12.0
+15,68,Belgium-Luxembourg,France,1989,oil_of_tung_nuts,1.0
+15,68,Belgium-Luxembourg,France,1990,oil_of_tung_nuts,5.0
+15,68,Belgium-Luxembourg,France,1991,oil_of_tung_nuts,13.0
+15,68,Belgium-Luxembourg,France,1992,oil_of_tung_nuts,12.0
+15,68,Belgium-Luxembourg,France,1994,oil_of_tung_nuts,5.0
+15,68,Belgium-Luxembourg,France,1995,oil_of_tung_nuts,22.0
+15,68,Belgium-Luxembourg,France,1996,oil_of_tung_nuts,43.0
+15,68,Belgium-Luxembourg,France,1997,oil_of_tung_nuts,81.0
+15,68,Belgium-Luxembourg,France,1998,oil_of_tung_nuts,104.0
+15,68,Belgium-Luxembourg,France,1999,oil_of_tung_nuts,63.0
+169,234,Paraguay,Uruguay,1986,oil_of_tung_nuts,5.0
+169,234,Paraguay,Uruguay,1987,oil_of_tung_nuts,6.0
+169,234,Paraguay,Uruguay,1989,oil_of_tung_nuts,14.0
+169,234,Paraguay,Uruguay,1990,oil_of_tung_nuts,312.0
+169,234,Paraguay,Uruguay,1991,oil_of_tung_nuts,11.0
+169,234,Paraguay,Uruguay,1992,oil_of_tung_nuts,11.0
+169,234,Paraguay,Uruguay,1993,oil_of_tung_nuts,2013.0
+169,234,Paraguay,Uruguay,1994,oil_of_tung_nuts,19.0
+169,234,Paraguay,Uruguay,1995,oil_of_tung_nuts,6.0
+169,234,Paraguay,Uruguay,1996,oil_of_tung_nuts,4.0
+169,234,Paraguay,Uruguay,1997,oil_of_tung_nuts,4.0
+169,234,Paraguay,Uruguay,1998,oil_of_tung_nuts,1.0
+169,234,Paraguay,Uruguay,2000,oil_of_tung_nuts,4.0
+169,234,Paraguay,Uruguay,2002,oil_of_tung_nuts,3.0
+9,44,Argentina,Colombia,1992,oil_of_tung_nuts,16.0
+101,41,Indonesia,"China, mainland",2009,oil_of_tung_nuts,24.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1986,oil_of_tung_nuts,42.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1987,oil_of_tung_nuts,70.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1989,oil_of_tung_nuts,32.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1990,oil_of_tung_nuts,35.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1991,oil_of_tung_nuts,97.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1992,oil_of_tung_nuts,126.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1993,oil_of_tung_nuts,13.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1994,oil_of_tung_nuts,25.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1995,oil_of_tung_nuts,107.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1996,oil_of_tung_nuts,20.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1997,oil_of_tung_nuts,35.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1998,oil_of_tung_nuts,51.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),1999,oil_of_tung_nuts,35.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),2000,oil_of_tung_nuts,70.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),2001,oil_of_tung_nuts,15.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),2003,oil_of_tung_nuts,20.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),2004,oil_of_tung_nuts,104.0
+169,236,Paraguay,Venezuela (Bolivarian Republic of),2005,oil_of_tung_nuts,30.0
+171,116,Philippines,Democratic People's Republic of Korea,2014,oil_of_tung_nuts,21.15
+117,41,Republic of Korea,"China, mainland",2003,oil_of_tung_nuts,13.0
+117,41,Republic of Korea,"China, mainland",2004,oil_of_tung_nuts,13.0
+198,98,Slovenia,Croatia,2006,oil_of_tung_nuts,1.0
+9,49,Argentina,Cuba,1986,oil_of_tung_nuts,220.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2003,oil_of_tung_nuts,1.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2006,oil_of_tung_nuts,6.0
+131,96,Malaysia,"China, Hong Kong SAR",1994,oil_of_tung_nuts,30.0
+41,33,"China, mainland",Canada,1987,oil_of_tung_nuts,296.0
+41,33,"China, mainland",Canada,1988,oil_of_tung_nuts,193.0
+41,33,"China, mainland",Canada,1989,oil_of_tung_nuts,30.0
+41,33,"China, mainland",Canada,1990,oil_of_tung_nuts,30.0
+41,33,"China, mainland",Canada,1992,oil_of_tung_nuts,30.0
+41,33,"China, mainland",Canada,1993,oil_of_tung_nuts,91.0
+41,33,"China, mainland",Canada,1994,oil_of_tung_nuts,213.0
+41,33,"China, mainland",Canada,1995,oil_of_tung_nuts,289.0
+41,33,"China, mainland",Canada,1996,oil_of_tung_nuts,15.0
+41,33,"China, mainland",Canada,1998,oil_of_tung_nuts,137.0
+41,33,"China, mainland",Canada,1999,oil_of_tung_nuts,158.0
+41,33,"China, mainland",Canada,2000,oil_of_tung_nuts,188.0
+41,33,"China, mainland",Canada,2001,oil_of_tung_nuts,198.0
+41,33,"China, mainland",Canada,2002,oil_of_tung_nuts,167.0
+41,33,"China, mainland",Canada,2003,oil_of_tung_nuts,76.0
+41,33,"China, mainland",Canada,2004,oil_of_tung_nuts,106.0
+41,33,"China, mainland",Canada,2005,oil_of_tung_nuts,122.0
+41,33,"China, mainland",Canada,2006,oil_of_tung_nuts,218.0
+106,13,Italy,Bahrain,1986,oil_of_tung_nuts,17.0
+15,79,Belgium-Luxembourg,Germany,1991,oil_of_tung_nuts,18.0
+15,79,Belgium-Luxembourg,Germany,1992,oil_of_tung_nuts,7.0
+15,79,Belgium-Luxembourg,Germany,1993,oil_of_tung_nuts,28.0
+15,79,Belgium-Luxembourg,Germany,1994,oil_of_tung_nuts,18.0
+15,79,Belgium-Luxembourg,Germany,1995,oil_of_tung_nuts,17.0
+15,79,Belgium-Luxembourg,Germany,1996,oil_of_tung_nuts,14.0
+15,79,Belgium-Luxembourg,Germany,1997,oil_of_tung_nuts,167.0
+15,79,Belgium-Luxembourg,Germany,1998,oil_of_tung_nuts,298.0
+15,79,Belgium-Luxembourg,Germany,1999,oil_of_tung_nuts,300.0
+150,16,Netherlands (Kingdom of the),Bangladesh,2002,oil_of_tung_nuts,5.0
+96,41,"China, Hong Kong SAR","China, mainland",1987,oil_of_tung_nuts,82.0
+96,41,"China, Hong Kong SAR","China, mainland",1988,oil_of_tung_nuts,47.0
+96,41,"China, Hong Kong SAR","China, mainland",1989,oil_of_tung_nuts,77.0
+96,41,"China, Hong Kong SAR","China, mainland",1990,oil_of_tung_nuts,154.0
+96,41,"China, Hong Kong SAR","China, mainland",1991,oil_of_tung_nuts,1027.0
+96,41,"China, Hong Kong SAR","China, mainland",1992,oil_of_tung_nuts,84.0
+96,41,"China, Hong Kong SAR","China, mainland",1993,oil_of_tung_nuts,202.0
+96,41,"China, Hong Kong SAR","China, mainland",1994,oil_of_tung_nuts,528.0
+96,41,"China, Hong Kong SAR","China, mainland",1995,oil_of_tung_nuts,601.0
+96,41,"China, Hong Kong SAR","China, mainland",1997,oil_of_tung_nuts,4.0
+96,41,"China, Hong Kong SAR","China, mainland",1998,oil_of_tung_nuts,42.0
+96,41,"China, Hong Kong SAR","China, mainland",1999,oil_of_tung_nuts,55.0
+96,41,"China, Hong Kong SAR","China, mainland",2000,oil_of_tung_nuts,138.0
+96,41,"China, Hong Kong SAR","China, mainland",2001,oil_of_tung_nuts,36.0
+96,41,"China, Hong Kong SAR","China, mainland",2002,oil_of_tung_nuts,162.0
+96,41,"China, Hong Kong SAR","China, mainland",2003,oil_of_tung_nuts,308.0
+96,41,"China, Hong Kong SAR","China, mainland",2004,oil_of_tung_nuts,240.0
+96,41,"China, Hong Kong SAR","China, mainland",2005,oil_of_tung_nuts,171.0
+96,41,"China, Hong Kong SAR","China, mainland",2006,oil_of_tung_nuts,78.0
+21,40,Brazil,Chile,1992,oil_of_tung_nuts,5.0
+231,14,United States of America,Barbados,1991,oil_of_tung_nuts,7.0
+114,184,Kenya,Rwanda,1998,oil_of_tung_nuts,12.0
+101,98,Indonesia,Croatia,2008,oil_of_tung_nuts,14.0
+198,167,Slovenia,Czechia,2000,oil_of_tung_nuts,3.0
+216,96,Thailand,"China, Hong Kong SAR",2007,oil_of_tung_nuts,92.0
+216,96,Thailand,"China, Hong Kong SAR",2015,oil_of_tung_nuts,2.22
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1986,oil_of_tung_nuts,2.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1998,oil_of_tung_nuts,5.0
+11,98,Austria,Croatia,2002,oil_of_tung_nuts,10.0
+11,98,Austria,Croatia,2005,oil_of_tung_nuts,10.0
+131,41,Malaysia,"China, mainland",1996,oil_of_tung_nuts,29.0
+66,231,Fiji,United States of America,2003,oil_of_tung_nuts,2.0
+66,231,Fiji,United States of America,2004,oil_of_tung_nuts,2.0
+66,231,Fiji,United States of America,2006,oil_of_tung_nuts,12.0
+110,214,Japan,"China, Taiwan Province of",1990,oil_of_tung_nuts,80.0
+110,214,Japan,"China, Taiwan Province of",1991,oil_of_tung_nuts,225.0
+110,214,Japan,"China, Taiwan Province of",1992,oil_of_tung_nuts,137.0
+231,255,United States of America,Belgium,2000,oil_of_tung_nuts,1.0
+231,255,United States of America,Belgium,2005,oil_of_tung_nuts,2.0
+179,194,Qatar,Saudi Arabia,2004,oil_of_tung_nuts,25.0
+60,231,El Salvador,United States of America,2000,oil_of_tung_nuts,1.0
+41,96,"China, mainland","China, Hong Kong SAR",1987,oil_of_tung_nuts,5308.0
+41,96,"China, mainland","China, Hong Kong SAR",1988,oil_of_tung_nuts,6812.0
+41,96,"China, mainland","China, Hong Kong SAR",1989,oil_of_tung_nuts,4274.0
+41,96,"China, mainland","China, Hong Kong SAR",1990,oil_of_tung_nuts,4140.0
+41,96,"China, mainland","China, Hong Kong SAR",1991,oil_of_tung_nuts,6690.0
+41,96,"China, mainland","China, Hong Kong SAR",1992,oil_of_tung_nuts,7781.0
+41,96,"China, mainland","China, Hong Kong SAR",1993,oil_of_tung_nuts,4670.0
+41,96,"China, mainland","China, Hong Kong SAR",1994,oil_of_tung_nuts,6056.0
+41,96,"China, mainland","China, Hong Kong SAR",1995,oil_of_tung_nuts,5372.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,oil_of_tung_nuts,3269.0
+41,96,"China, mainland","China, Hong Kong SAR",1997,oil_of_tung_nuts,5192.0
+41,96,"China, mainland","China, Hong Kong SAR",1998,oil_of_tung_nuts,3240.0
+41,96,"China, mainland","China, Hong Kong SAR",1999,oil_of_tung_nuts,2921.0
+41,96,"China, mainland","China, Hong Kong SAR",2000,oil_of_tung_nuts,2248.0
+41,96,"China, mainland","China, Hong Kong SAR",2001,oil_of_tung_nuts,1323.0
+41,96,"China, mainland","China, Hong Kong SAR",2002,oil_of_tung_nuts,1573.0
+41,96,"China, mainland","China, Hong Kong SAR",2003,oil_of_tung_nuts,1463.0
+41,96,"China, mainland","China, Hong Kong SAR",2004,oil_of_tung_nuts,1361.0
+41,96,"China, mainland","China, Hong Kong SAR",2005,oil_of_tung_nuts,1182.0
+41,96,"China, mainland","China, Hong Kong SAR",2006,oil_of_tung_nuts,980.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1986,oil_of_tung_nuts,61.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1987,oil_of_tung_nuts,682.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1988,oil_of_tung_nuts,2580.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1989,oil_of_tung_nuts,1369.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1990,oil_of_tung_nuts,2143.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1991,oil_of_tung_nuts,3507.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1992,oil_of_tung_nuts,4048.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1993,oil_of_tung_nuts,2308.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1994,oil_of_tung_nuts,3952.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1995,oil_of_tung_nuts,1579.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1996,oil_of_tung_nuts,604.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1997,oil_of_tung_nuts,650.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1998,oil_of_tung_nuts,380.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1999,oil_of_tung_nuts,122.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2000,oil_of_tung_nuts,61.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2001,oil_of_tung_nuts,59.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2002,oil_of_tung_nuts,427.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2003,oil_of_tung_nuts,15.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2006,oil_of_tung_nuts,30.0
+150,255,Netherlands (Kingdom of the),Belgium,2000,oil_of_tung_nuts,117.0
+150,255,Netherlands (Kingdom of the),Belgium,2001,oil_of_tung_nuts,75.0
+150,255,Netherlands (Kingdom of the),Belgium,2002,oil_of_tung_nuts,104.0
+150,255,Netherlands (Kingdom of the),Belgium,2003,oil_of_tung_nuts,135.0
+150,255,Netherlands (Kingdom of the),Belgium,2004,oil_of_tung_nuts,161.0
+150,255,Netherlands (Kingdom of the),Belgium,2005,oil_of_tung_nuts,257.0
+211,41,Switzerland,"China, mainland",2001,oil_of_tung_nuts,1.0
+211,41,Switzerland,"China, mainland",2002,oil_of_tung_nuts,1.0
+211,41,Switzerland,"China, mainland",2003,oil_of_tung_nuts,1.0
+211,41,Switzerland,"China, mainland",2004,oil_of_tung_nuts,1.0
+211,41,Switzerland,"China, mainland",2006,oil_of_tung_nuts,1.0
+216,41,Thailand,"China, mainland",2007,oil_of_tung_nuts,14.0
+216,41,Thailand,"China, mainland",2009,oil_of_tung_nuts,2.0
+79,255,Germany,Belgium,2000,oil_of_tung_nuts,6.0
+79,255,Germany,Belgium,2003,oil_of_tung_nuts,6.0
+79,255,Germany,Belgium,2004,oil_of_tung_nuts,5.0
+79,255,Germany,Belgium,2005,oil_of_tung_nuts,5.0
+79,255,Germany,Belgium,2006,oil_of_tung_nuts,3.0
+210,54,Sweden,Denmark,1986,oil_of_tung_nuts,1.0
+210,54,Sweden,Denmark,1987,oil_of_tung_nuts,1.0
+210,54,Sweden,Denmark,1997,oil_of_tung_nuts,6.0
+210,54,Sweden,Denmark,2004,oil_of_tung_nuts,11.0
+210,54,Sweden,Denmark,2005,oil_of_tung_nuts,15.0
+15,106,Belgium-Luxembourg,Italy,1995,oil_of_tung_nuts,6.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1986,oil_of_tung_nuts,243.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1987,oil_of_tung_nuts,244.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1988,oil_of_tung_nuts,431.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1989,oil_of_tung_nuts,130.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1990,oil_of_tung_nuts,95.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1991,oil_of_tung_nuts,101.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1992,oil_of_tung_nuts,337.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1993,oil_of_tung_nuts,20.0
+96,116,"China, Hong Kong SAR",Democratic People's Republic of Korea,1994,oil_of_tung_nuts,70.0
+9,100,Argentina,India,1993,oil_of_tung_nuts,15.0
+106,15,Italy,Belgium-Luxembourg,1997,oil_of_tung_nuts,1.0
+41,128,"China, mainland","China, Macao SAR",1988,oil_of_tung_nuts,7.0
+41,128,"China, mainland","China, Macao SAR",1989,oil_of_tung_nuts,14.0
+41,128,"China, mainland","China, Macao SAR",1990,oil_of_tung_nuts,97.0
+41,128,"China, mainland","China, Macao SAR",1991,oil_of_tung_nuts,13.0
+41,128,"China, mainland","China, Macao SAR",1992,oil_of_tung_nuts,4.0
+41,128,"China, mainland","China, Macao SAR",1993,oil_of_tung_nuts,12.0
+41,128,"China, mainland","China, Macao SAR",1995,oil_of_tung_nuts,6.0
+41,128,"China, mainland","China, Macao SAR",1996,oil_of_tung_nuts,7.0
+41,128,"China, mainland","China, Macao SAR",2002,oil_of_tung_nuts,2.0
+11,167,Austria,Czechia,2001,oil_of_tung_nuts,1.0
+68,15,France,Belgium-Luxembourg,1988,oil_of_tung_nuts,4.0
+68,15,France,Belgium-Luxembourg,1991,oil_of_tung_nuts,2.0
+68,15,France,Belgium-Luxembourg,1995,oil_of_tung_nuts,14.0
+68,15,France,Belgium-Luxembourg,1997,oil_of_tung_nuts,5.0
+54,63,Denmark,Estonia,2002,oil_of_tung_nuts,9.0
+54,63,Denmark,Estonia,2003,oil_of_tung_nuts,2.0
+216,214,Thailand,"China, Taiwan Province of",1997,oil_of_tung_nuts,15.0
+216,214,Thailand,"China, Taiwan Province of",2007,oil_of_tung_nuts,51.0
+216,214,Thailand,"China, Taiwan Province of",2015,oil_of_tung_nuts,25.05
+216,214,Thailand,"China, Taiwan Province of",2016,oil_of_tung_nuts,20.12
+216,214,Thailand,"China, Taiwan Province of",2019,oil_of_tung_nuts,33.6
+79,15,Germany,Belgium-Luxembourg,1993,oil_of_tung_nuts,11.0
+79,15,Germany,Belgium-Luxembourg,1994,oil_of_tung_nuts,3.0
+79,15,Germany,Belgium-Luxembourg,1995,oil_of_tung_nuts,14.0
+79,15,Germany,Belgium-Luxembourg,1998,oil_of_tung_nuts,2.0
+79,15,Germany,Belgium-Luxembourg,1999,oil_of_tung_nuts,3.0
+10,66,Australia,Fiji,2004,oil_of_tung_nuts,1.0
+214,100,"China, Taiwan Province of",India,2005,oil_of_tung_nuts,5.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,oil_of_tung_nuts,228.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,oil_of_tung_nuts,154.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,oil_of_tung_nuts,184.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,oil_of_tung_nuts,183.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,oil_of_tung_nuts,51.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,oil_of_tung_nuts,43.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1993,oil_of_tung_nuts,213.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1994,oil_of_tung_nuts,262.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,oil_of_tung_nuts,255.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,oil_of_tung_nuts,93.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1997,oil_of_tung_nuts,36.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1998,oil_of_tung_nuts,109.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1999,oil_of_tung_nuts,58.0
+179,225,Qatar,United Arab Emirates,2003,oil_of_tung_nuts,70.0
+179,225,Qatar,United Arab Emirates,2004,oil_of_tung_nuts,597.0
+9,106,Argentina,Italy,1989,oil_of_tung_nuts,180.0
+9,106,Argentina,Italy,2003,oil_of_tung_nuts,16.0
+9,106,Argentina,Italy,2004,oil_of_tung_nuts,16.0
+9,106,Argentina,Italy,2005,oil_of_tung_nuts,32.0
+9,106,Argentina,Italy,2006,oil_of_tung_nuts,32.0
+54,64,Denmark,Faroe Islands,1994,oil_of_tung_nuts,1.0
+54,64,Denmark,Faroe Islands,1995,oil_of_tung_nuts,4.0
+54,64,Denmark,Faroe Islands,1996,oil_of_tung_nuts,1.0
+54,64,Denmark,Faroe Islands,1997,oil_of_tung_nuts,2.0
+54,64,Denmark,Faroe Islands,1999,oil_of_tung_nuts,1.0
+54,64,Denmark,Faroe Islands,2001,oil_of_tung_nuts,1.0
+54,64,Denmark,Faroe Islands,2002,oil_of_tung_nuts,1.0
+54,64,Denmark,Faroe Islands,2006,oil_of_tung_nuts,4.0
+255,167,Belgium,Czechia,2000,oil_of_tung_nuts,3.0
+255,167,Belgium,Czechia,2001,oil_of_tung_nuts,3.0
+255,167,Belgium,Czechia,2002,oil_of_tung_nuts,5.0
+231,21,United States of America,Brazil,1999,oil_of_tung_nuts,1.0
+41,214,"China, mainland","China, Taiwan Province of",1989,oil_of_tung_nuts,90.0
+41,214,"China, mainland","China, Taiwan Province of",1990,oil_of_tung_nuts,727.0
+41,214,"China, mainland","China, Taiwan Province of",1991,oil_of_tung_nuts,300.0
+41,214,"China, mainland","China, Taiwan Province of",1992,oil_of_tung_nuts,1430.0
+41,214,"China, mainland","China, Taiwan Province of",1993,oil_of_tung_nuts,721.0
+41,214,"China, mainland","China, Taiwan Province of",1994,oil_of_tung_nuts,3719.0
+41,214,"China, mainland","China, Taiwan Province of",1995,oil_of_tung_nuts,3103.0
+41,214,"China, mainland","China, Taiwan Province of",1996,oil_of_tung_nuts,1948.0
+41,214,"China, mainland","China, Taiwan Province of",1997,oil_of_tung_nuts,3112.0
+41,214,"China, mainland","China, Taiwan Province of",1998,oil_of_tung_nuts,2987.0
+41,214,"China, mainland","China, Taiwan Province of",1999,oil_of_tung_nuts,3770.0
+41,214,"China, mainland","China, Taiwan Province of",2000,oil_of_tung_nuts,2342.0
+41,214,"China, mainland","China, Taiwan Province of",2001,oil_of_tung_nuts,971.0
+41,214,"China, mainland","China, Taiwan Province of",2002,oil_of_tung_nuts,3884.0
+41,214,"China, mainland","China, Taiwan Province of",2003,oil_of_tung_nuts,3108.0
+41,214,"China, mainland","China, Taiwan Province of",2004,oil_of_tung_nuts,2398.0
+41,214,"China, mainland","China, Taiwan Province of",2005,oil_of_tung_nuts,2377.0
+41,214,"China, mainland","China, Taiwan Province of",2006,oil_of_tung_nuts,2541.0
+171,131,Philippines,Malaysia,1990,oil_of_tung_nuts,2.0
+9,110,Argentina,Japan,1986,oil_of_tung_nuts,900.0
+9,110,Argentina,Japan,1987,oil_of_tung_nuts,611.0
+9,110,Argentina,Japan,1988,oil_of_tung_nuts,1000.0
+9,110,Argentina,Japan,1989,oil_of_tung_nuts,5246.0
+9,110,Argentina,Japan,1990,oil_of_tung_nuts,1232.0
+9,110,Argentina,Japan,1991,oil_of_tung_nuts,2245.0
+9,110,Argentina,Japan,1992,oil_of_tung_nuts,995.0
+33,214,Canada,"China, Taiwan Province of",1991,oil_of_tung_nuts,16.0
+216,167,Thailand,Czechia,2007,oil_of_tung_nuts,10.0
+210,63,Sweden,Estonia,2006,oil_of_tung_nuts,1.0
+162,99,Norway,Iceland,2004,oil_of_tung_nuts,2.0
+162,99,Norway,Iceland,2005,oil_of_tung_nuts,5.0
+162,99,Norway,Iceland,2006,oil_of_tung_nuts,4.0
+96,79,"China, Hong Kong SAR",Germany,1993,oil_of_tung_nuts,15.0
+96,79,"China, Hong Kong SAR",Germany,1998,oil_of_tung_nuts,34.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2002,oil_of_tung_nuts,100.0
+96,84,"China, Hong Kong SAR",Greece,1994,oil_of_tung_nuts,15.0
+54,67,Denmark,Finland,1986,oil_of_tung_nuts,10.0
+54,67,Denmark,Finland,1987,oil_of_tung_nuts,15.0
+54,67,Denmark,Finland,1988,oil_of_tung_nuts,10.0
+54,67,Denmark,Finland,1989,oil_of_tung_nuts,27.0
+54,67,Denmark,Finland,1990,oil_of_tung_nuts,6.0
+54,67,Denmark,Finland,1991,oil_of_tung_nuts,2.0
+54,67,Denmark,Finland,2003,oil_of_tung_nuts,2.0
+59,194,Egypt,Saudi Arabia,2002,oil_of_tung_nuts,10.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1987,oil_of_tung_nuts,9.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,oil_of_tung_nuts,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,oil_of_tung_nuts,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,oil_of_tung_nuts,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,oil_of_tung_nuts,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1994,oil_of_tung_nuts,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1996,oil_of_tung_nuts,1.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,oil_of_tung_nuts,22.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1998,oil_of_tung_nuts,24.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1999,oil_of_tung_nuts,99.0
+200,116,Singapore,Democratic People's Republic of Korea,1999,oil_of_tung_nuts,64.0
+200,116,Singapore,Democratic People's Republic of Korea,2000,oil_of_tung_nuts,50.0
+200,116,Singapore,Democratic People's Republic of Korea,2001,oil_of_tung_nuts,147.0
+9,138,Argentina,Mexico,1986,oil_of_tung_nuts,25.0
+9,138,Argentina,Mexico,1987,oil_of_tung_nuts,45.0
+9,138,Argentina,Mexico,1988,oil_of_tung_nuts,20.0
+9,138,Argentina,Mexico,1989,oil_of_tung_nuts,22.0
+9,138,Argentina,Mexico,1991,oil_of_tung_nuts,16.0
+9,138,Argentina,Mexico,1992,oil_of_tung_nuts,44.0
+9,138,Argentina,Mexico,1997,oil_of_tung_nuts,91.0
+9,138,Argentina,Mexico,2003,oil_of_tung_nuts,22.0
+41,49,"China, mainland",Cuba,1989,oil_of_tung_nuts,250.0
+41,49,"China, mainland",Cuba,1990,oil_of_tung_nuts,50.0
+41,49,"China, mainland",Cuba,1999,oil_of_tung_nuts,15.0
+138,110,Mexico,Japan,2002,oil_of_tung_nuts,1.0
+96,100,"China, Hong Kong SAR",India,1987,oil_of_tung_nuts,2.0
+96,100,"China, Hong Kong SAR",India,1997,oil_of_tung_nuts,31.0
+97,79,Hungary,Germany,1994,oil_of_tung_nuts,2.0
+255,54,Belgium,Denmark,2006,oil_of_tung_nuts,2.0
+101,110,Indonesia,Japan,2007,oil_of_tung_nuts,10.0
+41,51,"China, mainland",Czechoslovakia,1987,oil_of_tung_nuts,767.0
+41,51,"China, mainland",Czechoslovakia,1988,oil_of_tung_nuts,900.0
+41,51,"China, mainland",Czechoslovakia,1989,oil_of_tung_nuts,600.0
+100,68,India,France,1997,oil_of_tung_nuts,16.0
+9,150,Argentina,Netherlands (Kingdom of the),1986,oil_of_tung_nuts,3913.0
+9,150,Argentina,Netherlands (Kingdom of the),1987,oil_of_tung_nuts,717.0
+9,150,Argentina,Netherlands (Kingdom of the),1988,oil_of_tung_nuts,2020.0
+9,150,Argentina,Netherlands (Kingdom of the),1989,oil_of_tung_nuts,1755.0
+9,150,Argentina,Netherlands (Kingdom of the),1990,oil_of_tung_nuts,3367.0
+9,150,Argentina,Netherlands (Kingdom of the),1991,oil_of_tung_nuts,2975.0
+9,150,Argentina,Netherlands (Kingdom of the),1992,oil_of_tung_nuts,1969.0
+9,150,Argentina,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,586.0
+9,150,Argentina,Netherlands (Kingdom of the),1994,oil_of_tung_nuts,601.0
+9,150,Argentina,Netherlands (Kingdom of the),1995,oil_of_tung_nuts,900.0
+9,150,Argentina,Netherlands (Kingdom of the),1996,oil_of_tung_nuts,300.0
+9,150,Argentina,Netherlands (Kingdom of the),1997,oil_of_tung_nuts,604.0
+9,150,Argentina,Netherlands (Kingdom of the),1998,oil_of_tung_nuts,120.0
+9,150,Argentina,Netherlands (Kingdom of the),2000,oil_of_tung_nuts,676.0
+9,150,Argentina,Netherlands (Kingdom of the),2001,oil_of_tung_nuts,399.0
+9,150,Argentina,Netherlands (Kingdom of the),2002,oil_of_tung_nuts,516.0
+9,150,Argentina,Netherlands (Kingdom of the),2003,oil_of_tung_nuts,612.0
+9,150,Argentina,Netherlands (Kingdom of the),2004,oil_of_tung_nuts,753.0
+9,150,Argentina,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,286.0
+9,150,Argentina,Netherlands (Kingdom of the),2006,oil_of_tung_nuts,131.0
+96,101,"China, Hong Kong SAR",Indonesia,1986,oil_of_tung_nuts,5.0
+96,101,"China, Hong Kong SAR",Indonesia,1987,oil_of_tung_nuts,41.0
+96,101,"China, Hong Kong SAR",Indonesia,1988,oil_of_tung_nuts,40.0
+96,101,"China, Hong Kong SAR",Indonesia,1989,oil_of_tung_nuts,44.0
+96,101,"China, Hong Kong SAR",Indonesia,1990,oil_of_tung_nuts,65.0
+96,101,"China, Hong Kong SAR",Indonesia,1991,oil_of_tung_nuts,91.0
+96,101,"China, Hong Kong SAR",Indonesia,1992,oil_of_tung_nuts,60.0
+96,101,"China, Hong Kong SAR",Indonesia,1993,oil_of_tung_nuts,146.0
+96,101,"China, Hong Kong SAR",Indonesia,1994,oil_of_tung_nuts,86.0
+96,101,"China, Hong Kong SAR",Indonesia,1995,oil_of_tung_nuts,92.0
+96,101,"China, Hong Kong SAR",Indonesia,1996,oil_of_tung_nuts,15.0
+96,101,"China, Hong Kong SAR",Indonesia,1997,oil_of_tung_nuts,15.0
+10,84,Australia,Greece,1999,oil_of_tung_nuts,7.0
+210,67,Sweden,Finland,1994,oil_of_tung_nuts,1.0
+210,67,Sweden,Finland,2002,oil_of_tung_nuts,3.0
+210,67,Sweden,Finland,2003,oil_of_tung_nuts,1.0
+210,67,Sweden,Finland,2004,oil_of_tung_nuts,2.0
+210,67,Sweden,Finland,2006,oil_of_tung_nuts,1.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1989,oil_of_tung_nuts,15.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1992,oil_of_tung_nuts,52.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1993,oil_of_tung_nuts,23.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1994,oil_of_tung_nuts,52.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1995,oil_of_tung_nuts,7.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1996,oil_of_tung_nuts,59.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1997,oil_of_tung_nuts,30.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1998,oil_of_tung_nuts,120.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1999,oil_of_tung_nuts,5.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2000,oil_of_tung_nuts,13.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2001,oil_of_tung_nuts,10.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2002,oil_of_tung_nuts,109.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2003,oil_of_tung_nuts,113.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2004,oil_of_tung_nuts,75.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2005,oil_of_tung_nuts,80.0
+41,116,"China, mainland",Democratic People's Republic of Korea,2006,oil_of_tung_nuts,47.0
+110,101,Japan,Indonesia,1988,oil_of_tung_nuts,38.0
+110,101,Japan,Indonesia,1989,oil_of_tung_nuts,43.0
+110,101,Japan,Indonesia,1990,oil_of_tung_nuts,25.0
+110,101,Japan,Indonesia,1992,oil_of_tung_nuts,1.0
+110,101,Japan,Indonesia,1994,oil_of_tung_nuts,1.0
+110,101,Japan,Indonesia,1995,oil_of_tung_nuts,2.0
+110,101,Japan,Indonesia,1997,oil_of_tung_nuts,5.0
+110,101,Japan,Indonesia,1998,oil_of_tung_nuts,2.0
+110,101,Japan,Indonesia,1999,oil_of_tung_nuts,5.0
+110,101,Japan,Indonesia,2000,oil_of_tung_nuts,1.0
+110,101,Japan,Indonesia,2001,oil_of_tung_nuts,6.0
+110,101,Japan,Indonesia,2002,oil_of_tung_nuts,2.0
+110,101,Japan,Indonesia,2003,oil_of_tung_nuts,4.0
+110,101,Japan,Indonesia,2004,oil_of_tung_nuts,5.0
+110,101,Japan,Indonesia,2005,oil_of_tung_nuts,3.0
+96,102,"China, Hong Kong SAR",Iran (Islamic Republic of),1995,oil_of_tung_nuts,30.0
+96,102,"China, Hong Kong SAR",Iran (Islamic Republic of),1998,oil_of_tung_nuts,30.0
+21,79,Brazil,Germany,1991,oil_of_tung_nuts,200.0
+21,79,Brazil,Germany,1996,oil_of_tung_nuts,15.0
+9,162,Argentina,Norway,1990,oil_of_tung_nuts,611.0
+9,162,Argentina,Norway,1991,oil_of_tung_nuts,549.0
+117,110,Republic of Korea,Japan,1992,oil_of_tung_nuts,73.0
+96,105,"China, Hong Kong SAR",Israel,1993,oil_of_tung_nuts,5.0
+41,54,"China, mainland",Denmark,1987,oil_of_tung_nuts,60.0
+41,54,"China, mainland",Denmark,1988,oil_of_tung_nuts,20.0
+41,54,"China, mainland",Denmark,1989,oil_of_tung_nuts,79.0
+41,54,"China, mainland",Denmark,1990,oil_of_tung_nuts,74.0
+131,100,Malaysia,India,1994,oil_of_tung_nuts,13.0
+10,100,Australia,India,1996,oil_of_tung_nuts,1.0
+96,106,"China, Hong Kong SAR",Italy,1988,oil_of_tung_nuts,15.0
+96,106,"China, Hong Kong SAR",Italy,1993,oil_of_tung_nuts,30.0
+96,106,"China, Hong Kong SAR",Italy,1994,oil_of_tung_nuts,15.0
+171,117,Philippines,Republic of Korea,2013,oil_of_tung_nuts,168.0
+171,117,Philippines,Republic of Korea,2014,oil_of_tung_nuts,274.95
+185,108,Russian Federation,Kazakhstan,2004,oil_of_tung_nuts,2.0
+231,33,United States of America,Canada,1989,oil_of_tung_nuts,222.0
+231,33,United States of America,Canada,1990,oil_of_tung_nuts,278.0
+231,33,United States of America,Canada,1991,oil_of_tung_nuts,364.0
+231,33,United States of America,Canada,1992,oil_of_tung_nuts,308.0
+231,33,United States of America,Canada,1993,oil_of_tung_nuts,241.0
+231,33,United States of America,Canada,1994,oil_of_tung_nuts,148.0
+231,33,United States of America,Canada,1995,oil_of_tung_nuts,48.0
+231,33,United States of America,Canada,1996,oil_of_tung_nuts,88.0
+231,33,United States of America,Canada,1997,oil_of_tung_nuts,240.0
+231,33,United States of America,Canada,1998,oil_of_tung_nuts,187.0
+231,33,United States of America,Canada,1999,oil_of_tung_nuts,39.0
+231,33,United States of America,Canada,2000,oil_of_tung_nuts,48.0
+231,33,United States of America,Canada,2001,oil_of_tung_nuts,13.0
+231,33,United States of America,Canada,2002,oil_of_tung_nuts,69.0
+231,33,United States of America,Canada,2003,oil_of_tung_nuts,153.0
+231,33,United States of America,Canada,2004,oil_of_tung_nuts,194.0
+231,33,United States of America,Canada,2005,oil_of_tung_nuts,214.0
+231,33,United States of America,Canada,2006,oil_of_tung_nuts,71.0
+41,59,"China, mainland",Egypt,1987,oil_of_tung_nuts,7.0
+41,59,"China, mainland",Egypt,1988,oil_of_tung_nuts,9.0
+41,59,"China, mainland",Egypt,1989,oil_of_tung_nuts,8.0
+41,59,"China, mainland",Egypt,1990,oil_of_tung_nuts,20.0
+41,59,"China, mainland",Egypt,1992,oil_of_tung_nuts,8.0
+41,59,"China, mainland",Egypt,1993,oil_of_tung_nuts,50.0
+41,59,"China, mainland",Egypt,1995,oil_of_tung_nuts,2.0
+41,59,"China, mainland",Egypt,2005,oil_of_tung_nuts,2.0
+214,131,"China, Taiwan Province of",Malaysia,2001,oil_of_tung_nuts,1.0
+9,170,Argentina,Peru,1987,oil_of_tung_nuts,6.0
+9,170,Argentina,Peru,1989,oil_of_tung_nuts,5.0
+9,170,Argentina,Peru,1990,oil_of_tung_nuts,6.0
+9,170,Argentina,Peru,2002,oil_of_tung_nuts,1.0
+101,131,Indonesia,Malaysia,2004,oil_of_tung_nuts,3.0
+101,131,Indonesia,Malaysia,2005,oil_of_tung_nuts,20.0
+202,79,South Africa,Germany,1997,oil_of_tung_nuts,8.0
+131,101,Malaysia,Indonesia,1994,oil_of_tung_nuts,4.0
+96,110,"China, Hong Kong SAR",Japan,1986,oil_of_tung_nuts,15.0
+96,110,"China, Hong Kong SAR",Japan,1987,oil_of_tung_nuts,881.0
+96,110,"China, Hong Kong SAR",Japan,1988,oil_of_tung_nuts,1791.0
+96,110,"China, Hong Kong SAR",Japan,1989,oil_of_tung_nuts,1045.0
+96,110,"China, Hong Kong SAR",Japan,1990,oil_of_tung_nuts,1205.0
+96,110,"China, Hong Kong SAR",Japan,1991,oil_of_tung_nuts,487.0
+96,110,"China, Hong Kong SAR",Japan,1992,oil_of_tung_nuts,1067.0
+96,110,"China, Hong Kong SAR",Japan,1993,oil_of_tung_nuts,800.0
+96,110,"China, Hong Kong SAR",Japan,1994,oil_of_tung_nuts,319.0
+96,110,"China, Hong Kong SAR",Japan,1995,oil_of_tung_nuts,304.0
+96,110,"China, Hong Kong SAR",Japan,1997,oil_of_tung_nuts,15.0
+9,173,Argentina,Poland,1987,oil_of_tung_nuts,194.0
+9,173,Argentina,Poland,1989,oil_of_tung_nuts,265.0
+9,173,Argentina,Poland,1990,oil_of_tung_nuts,520.0
+9,174,Argentina,Portugal,1987,oil_of_tung_nuts,2.0
+15,202,Belgium-Luxembourg,South Africa,1991,oil_of_tung_nuts,11.0
+15,202,Belgium-Luxembourg,South Africa,1992,oil_of_tung_nuts,6.0
+15,202,Belgium-Luxembourg,South Africa,1993,oil_of_tung_nuts,6.0
+15,202,Belgium-Luxembourg,South Africa,1994,oil_of_tung_nuts,9.0
+15,202,Belgium-Luxembourg,South Africa,1995,oil_of_tung_nuts,14.0
+15,202,Belgium-Luxembourg,South Africa,1996,oil_of_tung_nuts,3.0
+15,202,Belgium-Luxembourg,South Africa,1997,oil_of_tung_nuts,19.0
+41,67,"China, mainland",Finland,1988,oil_of_tung_nuts,10.0
+15,202,Belgium-Luxembourg,South Africa,1998,oil_of_tung_nuts,2.0
+15,202,Belgium-Luxembourg,South Africa,1999,oil_of_tung_nuts,2.0
+171,200,Philippines,Singapore,2003,oil_of_tung_nuts,10.0
+216,79,Thailand,Germany,2005,oil_of_tung_nuts,1.0
+9,117,Argentina,Republic of Korea,1986,oil_of_tung_nuts,30.0
+110,131,Japan,Malaysia,1989,oil_of_tung_nuts,5.0
+110,131,Japan,Malaysia,1990,oil_of_tung_nuts,16.0
+110,131,Japan,Malaysia,1991,oil_of_tung_nuts,22.0
+110,131,Japan,Malaysia,1992,oil_of_tung_nuts,53.0
+110,131,Japan,Malaysia,1993,oil_of_tung_nuts,46.0
+110,131,Japan,Malaysia,1994,oil_of_tung_nuts,23.0
+110,131,Japan,Malaysia,1995,oil_of_tung_nuts,14.0
+110,131,Japan,Malaysia,1996,oil_of_tung_nuts,2.0
+110,131,Japan,Malaysia,1997,oil_of_tung_nuts,1.0
+110,131,Japan,Malaysia,2001,oil_of_tung_nuts,12.0
+9,185,Argentina,Russian Federation,1995,oil_of_tung_nuts,14.0
+15,203,Belgium-Luxembourg,Spain,1995,oil_of_tung_nuts,5.0
+15,203,Belgium-Luxembourg,Spain,1996,oil_of_tung_nuts,2.0
+54,79,Denmark,Germany,2000,oil_of_tung_nuts,103.0
+54,79,Denmark,Germany,2001,oil_of_tung_nuts,27.0
+54,79,Denmark,Germany,2004,oil_of_tung_nuts,3.0
+41,68,"China, mainland",France,1987,oil_of_tung_nuts,20.0
+41,68,"China, mainland",France,1988,oil_of_tung_nuts,41.0
+41,68,"China, mainland",France,1989,oil_of_tung_nuts,14.0
+41,68,"China, mainland",France,1990,oil_of_tung_nuts,21.0
+41,68,"China, mainland",France,1997,oil_of_tung_nuts,46.0
+41,68,"China, mainland",France,1998,oil_of_tung_nuts,30.0
+41,68,"China, mainland",France,2000,oil_of_tung_nuts,30.0
+41,68,"China, mainland",France,2001,oil_of_tung_nuts,15.0
+41,68,"China, mainland",France,2004,oil_of_tung_nuts,15.0
+41,68,"China, mainland",France,2005,oil_of_tung_nuts,15.0
+41,68,"China, mainland",France,2006,oil_of_tung_nuts,44.0
+231,40,United States of America,Chile,1991,oil_of_tung_nuts,30.0
+231,40,United States of America,Chile,1996,oil_of_tung_nuts,5.0
+229,49,United Kingdom of Great Britain and Northern Ireland,Cuba,1990,oil_of_tung_nuts,6.0
+11,79,Austria,Germany,1993,oil_of_tung_nuts,2.0
+11,79,Austria,Germany,1995,oil_of_tung_nuts,13.0
+11,79,Austria,Germany,1996,oil_of_tung_nuts,11.0
+11,79,Austria,Germany,1997,oil_of_tung_nuts,42.0
+11,79,Austria,Germany,1998,oil_of_tung_nuts,9.0
+11,79,Austria,Germany,2000,oil_of_tung_nuts,1.0
+11,79,Austria,Germany,2001,oil_of_tung_nuts,1.0
+96,131,"China, Hong Kong SAR",Malaysia,1987,oil_of_tung_nuts,2.0
+96,131,"China, Hong Kong SAR",Malaysia,1991,oil_of_tung_nuts,15.0
+96,131,"China, Hong Kong SAR",Malaysia,1992,oil_of_tung_nuts,46.0
+96,131,"China, Hong Kong SAR",Malaysia,1993,oil_of_tung_nuts,152.0
+96,131,"China, Hong Kong SAR",Malaysia,1994,oil_of_tung_nuts,110.0
+96,131,"China, Hong Kong SAR",Malaysia,1995,oil_of_tung_nuts,76.0
+96,131,"China, Hong Kong SAR",Malaysia,1996,oil_of_tung_nuts,395.0
+96,131,"China, Hong Kong SAR",Malaysia,1997,oil_of_tung_nuts,46.0
+101,150,Indonesia,Netherlands (Kingdom of the),2008,oil_of_tung_nuts,1.0
+230,146,Ukraine,Republic of Moldova,2009,oil_of_tung_nuts,2.0
+255,68,Belgium,France,2000,oil_of_tung_nuts,138.0
+255,68,Belgium,France,2001,oil_of_tung_nuts,150.0
+255,68,Belgium,France,2002,oil_of_tung_nuts,161.0
+255,68,Belgium,France,2003,oil_of_tung_nuts,161.0
+255,68,Belgium,France,2004,oil_of_tung_nuts,392.0
+255,68,Belgium,France,2005,oil_of_tung_nuts,341.0
+255,68,Belgium,France,2006,oil_of_tung_nuts,63.0
+9,203,Argentina,Spain,1986,oil_of_tung_nuts,93.0
+9,203,Argentina,Spain,1987,oil_of_tung_nuts,189.0
+9,203,Argentina,Spain,1988,oil_of_tung_nuts,211.0
+9,203,Argentina,Spain,1989,oil_of_tung_nuts,240.0
+9,203,Argentina,Spain,1990,oil_of_tung_nuts,130.0
+9,203,Argentina,Spain,1991,oil_of_tung_nuts,181.0
+9,203,Argentina,Spain,1997,oil_of_tung_nuts,61.0
+41,79,"China, mainland",Germany,2000,oil_of_tung_nuts,19.0
+41,79,"China, mainland",Germany,2001,oil_of_tung_nuts,142.0
+41,79,"China, mainland",Germany,2002,oil_of_tung_nuts,209.0
+41,79,"China, mainland",Germany,2003,oil_of_tung_nuts,36.0
+41,79,"China, mainland",Germany,2005,oil_of_tung_nuts,23.0
+41,79,"China, mainland",Germany,2006,oil_of_tung_nuts,41.0
+131,110,Malaysia,Japan,1993,oil_of_tung_nuts,15.0
+200,100,Singapore,India,1995,oil_of_tung_nuts,1.0
+200,100,Singapore,India,2000,oil_of_tung_nuts,15.0
+216,100,Thailand,India,2005,oil_of_tung_nuts,2.0
+216,100,Thailand,India,2006,oil_of_tung_nuts,1.0
+216,100,Thailand,India,2007,oil_of_tung_nuts,4.0
+96,138,"China, Hong Kong SAR",Mexico,1993,oil_of_tung_nuts,51.0
+96,138,"China, Hong Kong SAR",Mexico,1994,oil_of_tung_nuts,45.0
+15,223,Belgium-Luxembourg,Türkiye,1997,oil_of_tung_nuts,3.0
+15,223,Belgium-Luxembourg,Türkiye,1998,oil_of_tung_nuts,5.0
+79,41,Germany,"China, mainland",1993,oil_of_tung_nuts,20.0
+67,185,Finland,Russian Federation,1998,oil_of_tung_nuts,10.0
+231,96,United States of America,"China, Hong Kong SAR",2002,oil_of_tung_nuts,14.0
+41,84,"China, mainland",Greece,2002,oil_of_tung_nuts,15.0
+41,84,"China, mainland",Greece,2003,oil_of_tung_nuts,15.0
+41,84,"China, mainland",Greece,2004,oil_of_tung_nuts,15.0
+41,84,"China, mainland",Greece,2005,oil_of_tung_nuts,15.0
+41,84,"China, mainland",Greece,2006,oil_of_tung_nuts,30.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1990,oil_of_tung_nuts,45.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1992,oil_of_tung_nuts,150.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1993,oil_of_tung_nuts,30.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1994,oil_of_tung_nuts,76.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1995,oil_of_tung_nuts,91.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1997,oil_of_tung_nuts,30.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1986,oil_of_tung_nuts,1.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,18.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1991,oil_of_tung_nuts,39.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1992,oil_of_tung_nuts,35.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1993,oil_of_tung_nuts,15.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1994,oil_of_tung_nuts,46.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1995,oil_of_tung_nuts,45.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,59.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1997,oil_of_tung_nuts,106.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1998,oil_of_tung_nuts,101.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1999,oil_of_tung_nuts,10.0
+211,79,Switzerland,Germany,2006,oil_of_tung_nuts,2.0
+101,165,Indonesia,Pakistan,2008,oil_of_tung_nuts,36.0
+200,101,Singapore,Indonesia,2005,oil_of_tung_nuts,1.0
+216,102,Thailand,Iran (Islamic Republic of),2007,oil_of_tung_nuts,24.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1993,oil_of_tung_nuts,30.0
+41,97,"China, mainland",Hungary,1987,oil_of_tung_nuts,462.0
+216,104,Thailand,Ireland,2004,oil_of_tung_nuts,1.0
+216,104,Thailand,Ireland,2006,oil_of_tung_nuts,3.0
+96,156,"China, Hong Kong SAR",New Zealand,1987,oil_of_tung_nuts,70.0
+96,156,"China, Hong Kong SAR",New Zealand,1993,oil_of_tung_nuts,87.0
+96,156,"China, Hong Kong SAR",New Zealand,1999,oil_of_tung_nuts,25.0
+100,110,India,Japan,2004,oil_of_tung_nuts,1.0
+150,41,Netherlands (Kingdom of the),"China, mainland",1998,oil_of_tung_nuts,68.0
+101,171,Indonesia,Philippines,2009,oil_of_tung_nuts,9.0
+41,100,"China, mainland",India,1987,oil_of_tung_nuts,102.0
+41,100,"China, mainland",India,1988,oil_of_tung_nuts,172.0
+41,100,"China, mainland",India,1989,oil_of_tung_nuts,171.0
+41,100,"China, mainland",India,1990,oil_of_tung_nuts,159.0
+41,100,"China, mainland",India,1991,oil_of_tung_nuts,3.0
+41,100,"China, mainland",India,1992,oil_of_tung_nuts,136.0
+41,100,"China, mainland",India,1993,oil_of_tung_nuts,75.0
+41,100,"China, mainland",India,1994,oil_of_tung_nuts,187.0
+41,100,"China, mainland",India,1995,oil_of_tung_nuts,184.0
+41,100,"China, mainland",India,1996,oil_of_tung_nuts,54.0
+41,100,"China, mainland",India,1997,oil_of_tung_nuts,56.0
+41,100,"China, mainland",India,1998,oil_of_tung_nuts,79.0
+41,100,"China, mainland",India,1999,oil_of_tung_nuts,94.0
+41,100,"China, mainland",India,2000,oil_of_tung_nuts,66.0
+41,100,"China, mainland",India,2001,oil_of_tung_nuts,68.0
+41,100,"China, mainland",India,2002,oil_of_tung_nuts,69.0
+41,100,"China, mainland",India,2003,oil_of_tung_nuts,79.0
+41,100,"China, mainland",India,2004,oil_of_tung_nuts,23.0
+41,100,"China, mainland",India,2005,oil_of_tung_nuts,58.0
+41,100,"China, mainland",India,2006,oil_of_tung_nuts,91.0
+54,99,Denmark,Iceland,1986,oil_of_tung_nuts,1.0
+15,181,Belgium-Luxembourg,Zimbabwe,1997,oil_of_tung_nuts,1.0
+54,99,Denmark,Iceland,2002,oil_of_tung_nuts,2.0
+54,99,Denmark,Iceland,2003,oil_of_tung_nuts,1.0
+54,99,Denmark,Iceland,2004,oil_of_tung_nuts,1.0
+54,99,Denmark,Iceland,2005,oil_of_tung_nuts,1.0
+54,99,Denmark,Iceland,2006,oil_of_tung_nuts,2.0
+9,231,Argentina,United States of America,1986,oil_of_tung_nuts,2598.0
+9,231,Argentina,United States of America,1987,oil_of_tung_nuts,2393.0
+9,231,Argentina,United States of America,1988,oil_of_tung_nuts,1804.0
+9,231,Argentina,United States of America,1989,oil_of_tung_nuts,1794.0
+9,231,Argentina,United States of America,1990,oil_of_tung_nuts,2691.0
+9,231,Argentina,United States of America,1991,oil_of_tung_nuts,2510.0
+9,231,Argentina,United States of America,1992,oil_of_tung_nuts,2859.0
+9,231,Argentina,United States of America,1993,oil_of_tung_nuts,1866.0
+9,231,Argentina,United States of America,1994,oil_of_tung_nuts,1815.0
+9,231,Argentina,United States of America,1995,oil_of_tung_nuts,2305.0
+9,231,Argentina,United States of America,1996,oil_of_tung_nuts,1250.0
+9,231,Argentina,United States of America,1997,oil_of_tung_nuts,3222.0
+9,231,Argentina,United States of America,1998,oil_of_tung_nuts,2085.0
+9,231,Argentina,United States of America,2000,oil_of_tung_nuts,1193.0
+9,231,Argentina,United States of America,2001,oil_of_tung_nuts,661.0
+9,231,Argentina,United States of America,2002,oil_of_tung_nuts,336.0
+9,231,Argentina,United States of America,2003,oil_of_tung_nuts,1377.0
+9,231,Argentina,United States of America,2004,oil_of_tung_nuts,468.0
+9,231,Argentina,United States of America,2005,oil_of_tung_nuts,561.0
+9,231,Argentina,United States of America,2006,oil_of_tung_nuts,553.0
+96,165,"China, Hong Kong SAR",Pakistan,1987,oil_of_tung_nuts,1.0
+231,41,United States of America,"China, mainland",2000,oil_of_tung_nuts,3.0
+255,79,Belgium,Germany,2000,oil_of_tung_nuts,581.0
+255,79,Belgium,Germany,2001,oil_of_tung_nuts,147.0
+255,79,Belgium,Germany,2002,oil_of_tung_nuts,90.0
+255,79,Belgium,Germany,2003,oil_of_tung_nuts,436.0
+255,79,Belgium,Germany,2004,oil_of_tung_nuts,37.0
+255,79,Belgium,Germany,2005,oil_of_tung_nuts,19.0
+255,79,Belgium,Germany,2006,oil_of_tung_nuts,41.0
+216,106,Thailand,Italy,2007,oil_of_tung_nuts,424.0
+11,97,Austria,Hungary,1994,oil_of_tung_nuts,5.0
+11,97,Austria,Hungary,1996,oil_of_tung_nuts,16.0
+11,97,Austria,Hungary,2001,oil_of_tung_nuts,1.0
+11,97,Austria,Hungary,2004,oil_of_tung_nuts,9.0
+11,97,Austria,Hungary,2006,oil_of_tung_nuts,5.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1991,oil_of_tung_nuts,6.0
+41,101,"China, mainland",Indonesia,1988,oil_of_tung_nuts,15.0
+41,101,"China, mainland",Indonesia,1989,oil_of_tung_nuts,5.0
+41,101,"China, mainland",Indonesia,1990,oil_of_tung_nuts,6.0
+41,101,"China, mainland",Indonesia,1992,oil_of_tung_nuts,30.0
+41,101,"China, mainland",Indonesia,1993,oil_of_tung_nuts,46.0
+41,101,"China, mainland",Indonesia,1994,oil_of_tung_nuts,105.0
+41,101,"China, mainland",Indonesia,1995,oil_of_tung_nuts,152.0
+41,101,"China, mainland",Indonesia,1996,oil_of_tung_nuts,152.0
+41,101,"China, mainland",Indonesia,1997,oil_of_tung_nuts,218.0
+41,101,"China, mainland",Indonesia,1998,oil_of_tung_nuts,30.0
+41,101,"China, mainland",Indonesia,1999,oil_of_tung_nuts,199.0
+41,101,"China, mainland",Indonesia,2000,oil_of_tung_nuts,182.0
+41,101,"China, mainland",Indonesia,2001,oil_of_tung_nuts,213.0
+41,101,"China, mainland",Indonesia,2002,oil_of_tung_nuts,167.0
+41,101,"China, mainland",Indonesia,2003,oil_of_tung_nuts,182.0
+41,101,"China, mainland",Indonesia,2004,oil_of_tung_nuts,213.0
+41,101,"China, mainland",Indonesia,2005,oil_of_tung_nuts,274.0
+41,101,"China, mainland",Indonesia,2006,oil_of_tung_nuts,152.0
+100,114,India,Kenya,2003,oil_of_tung_nuts,11.0
+101,117,Indonesia,Republic of Korea,2007,oil_of_tung_nuts,2.0
+101,117,Indonesia,Republic of Korea,2009,oil_of_tung_nuts,388.0
+138,231,Mexico,United States of America,1989,oil_of_tung_nuts,9.0
+138,231,Mexico,United States of America,1994,oil_of_tung_nuts,13.0
+138,231,Mexico,United States of America,1999,oil_of_tung_nuts,17.0
+138,231,Mexico,United States of America,2002,oil_of_tung_nuts,11.0
+54,101,Denmark,Indonesia,2003,oil_of_tung_nuts,2.0
+41,102,"China, mainland",Iran (Islamic Republic of),1988,oil_of_tung_nuts,169.0
+41,102,"China, mainland",Iran (Islamic Republic of),1995,oil_of_tung_nuts,15.0
+41,102,"China, mainland",Iran (Islamic Republic of),1998,oil_of_tung_nuts,61.0
+41,102,"China, mainland",Iran (Islamic Republic of),1999,oil_of_tung_nuts,26.0
+41,102,"China, mainland",Iran (Islamic Republic of),2001,oil_of_tung_nuts,30.0
+41,102,"China, mainland",Iran (Islamic Republic of),2002,oil_of_tung_nuts,30.0
+41,102,"China, mainland",Iran (Islamic Republic of),2003,oil_of_tung_nuts,21.0
+41,102,"China, mainland",Iran (Islamic Republic of),2004,oil_of_tung_nuts,30.0
+41,102,"China, mainland",Iran (Islamic Republic of),2005,oil_of_tung_nuts,20.0
+41,102,"China, mainland",Iran (Islamic Republic of),2006,oil_of_tung_nuts,30.0
+96,171,"China, Hong Kong SAR",Philippines,1986,oil_of_tung_nuts,15.0
+96,171,"China, Hong Kong SAR",Philippines,1987,oil_of_tung_nuts,87.0
+96,171,"China, Hong Kong SAR",Philippines,1988,oil_of_tung_nuts,128.0
+96,171,"China, Hong Kong SAR",Philippines,1989,oil_of_tung_nuts,165.0
+96,171,"China, Hong Kong SAR",Philippines,1990,oil_of_tung_nuts,30.0
+96,171,"China, Hong Kong SAR",Philippines,1991,oil_of_tung_nuts,60.0
+96,171,"China, Hong Kong SAR",Philippines,1992,oil_of_tung_nuts,15.0
+96,171,"China, Hong Kong SAR",Philippines,1993,oil_of_tung_nuts,62.0
+96,171,"China, Hong Kong SAR",Philippines,1994,oil_of_tung_nuts,45.0
+96,171,"China, Hong Kong SAR",Philippines,1995,oil_of_tung_nuts,78.0
+96,171,"China, Hong Kong SAR",Philippines,1996,oil_of_tung_nuts,30.0
+9,234,Argentina,Uruguay,1987,oil_of_tung_nuts,5.0
+21,138,Brazil,Mexico,1989,oil_of_tung_nuts,5.0
+214,200,"China, Taiwan Province of",Singapore,1990,oil_of_tung_nuts,6.0
+214,200,"China, Taiwan Province of",Singapore,1991,oil_of_tung_nuts,1.0
+79,98,Germany,Croatia,1996,oil_of_tung_nuts,3.0
+185,146,Russian Federation,Republic of Moldova,2005,oil_of_tung_nuts,6.0
+9,228,Argentina,USSR,1986,oil_of_tung_nuts,1253.0
+9,228,Argentina,USSR,1987,oil_of_tung_nuts,1498.0
+110,117,Japan,Republic of Korea,1991,oil_of_tung_nuts,122.0
+41,105,"China, mainland",Israel,1999,oil_of_tung_nuts,30.0
+41,105,"China, mainland",Israel,2000,oil_of_tung_nuts,30.0
+41,105,"China, mainland",Israel,2001,oil_of_tung_nuts,46.0
+41,105,"China, mainland",Israel,2002,oil_of_tung_nuts,15.0
+216,110,Thailand,Japan,2007,oil_of_tung_nuts,747.0
+216,110,Thailand,Japan,2008,oil_of_tung_nuts,4220.0
+216,110,Thailand,Japan,2009,oil_of_tung_nuts,2951.0
+216,110,Thailand,Japan,2010,oil_of_tung_nuts,1406.0
+216,110,Thailand,Japan,2015,oil_of_tung_nuts,260.01
+216,110,Thailand,Japan,2016,oil_of_tung_nuts,253.8
+225,179,United Arab Emirates,Qatar,2005,oil_of_tung_nuts,64.0
+211,100,Switzerland,India,1997,oil_of_tung_nuts,7.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1986,oil_of_tung_nuts,1859.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1987,oil_of_tung_nuts,2356.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1988,oil_of_tung_nuts,2147.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1989,oil_of_tung_nuts,1105.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1990,oil_of_tung_nuts,515.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1991,oil_of_tung_nuts,1628.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1992,oil_of_tung_nuts,2034.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1993,oil_of_tung_nuts,1845.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1994,oil_of_tung_nuts,912.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1995,oil_of_tung_nuts,714.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1996,oil_of_tung_nuts,54.0
+33,89,Canada,Guatemala,1992,oil_of_tung_nuts,3.0
+21,150,Brazil,Netherlands (Kingdom of the),1987,oil_of_tung_nuts,318.0
+21,150,Brazil,Netherlands (Kingdom of the),1988,oil_of_tung_nuts,135.0
+21,150,Brazil,Netherlands (Kingdom of the),1992,oil_of_tung_nuts,42.0
+21,150,Brazil,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,14.0
+41,106,"China, mainland",Italy,1987,oil_of_tung_nuts,45.0
+41,106,"China, mainland",Italy,1988,oil_of_tung_nuts,153.0
+41,106,"China, mainland",Italy,1989,oil_of_tung_nuts,104.0
+41,106,"China, mainland",Italy,1990,oil_of_tung_nuts,45.0
+41,106,"China, mainland",Italy,1992,oil_of_tung_nuts,61.0
+41,106,"China, mainland",Italy,1993,oil_of_tung_nuts,106.0
+41,106,"China, mainland",Italy,1994,oil_of_tung_nuts,258.0
+41,106,"China, mainland",Italy,1995,oil_of_tung_nuts,213.0
+41,106,"China, mainland",Italy,1996,oil_of_tung_nuts,61.0
+41,106,"China, mainland",Italy,1997,oil_of_tung_nuts,196.0
+41,106,"China, mainland",Italy,1998,oil_of_tung_nuts,76.0
+41,106,"China, mainland",Italy,1999,oil_of_tung_nuts,106.0
+41,106,"China, mainland",Italy,2000,oil_of_tung_nuts,106.0
+41,106,"China, mainland",Italy,2001,oil_of_tung_nuts,197.0
+41,106,"China, mainland",Italy,2002,oil_of_tung_nuts,106.0
+41,106,"China, mainland",Italy,2003,oil_of_tung_nuts,106.0
+41,106,"China, mainland",Italy,2004,oil_of_tung_nuts,172.0
+41,106,"China, mainland",Italy,2005,oil_of_tung_nuts,152.0
+41,106,"China, mainland",Italy,2006,oil_of_tung_nuts,182.0
+131,156,Malaysia,New Zealand,1999,oil_of_tung_nuts,2.0
+101,200,Indonesia,Singapore,2004,oil_of_tung_nuts,37.0
+101,200,Indonesia,Singapore,2007,oil_of_tung_nuts,6.0
+101,200,Indonesia,Singapore,2008,oil_of_tung_nuts,7.0
+101,200,Indonesia,Singapore,2009,oil_of_tung_nuts,3.0
+162,210,Norway,Sweden,2002,oil_of_tung_nuts,2.0
+162,210,Norway,Sweden,2004,oil_of_tung_nuts,10.0
+162,210,Norway,Sweden,2006,oil_of_tung_nuts,5.0
+110,200,Japan,Singapore,1993,oil_of_tung_nuts,15.0
+110,200,Japan,Singapore,1999,oil_of_tung_nuts,2.0
+110,200,Japan,Singapore,2000,oil_of_tung_nuts,1.0
+110,200,Japan,Singapore,2001,oil_of_tung_nuts,1.0
+110,200,Japan,Singapore,2003,oil_of_tung_nuts,10.0
+110,200,Japan,Singapore,2004,oil_of_tung_nuts,22.0
+110,200,Japan,Singapore,2005,oil_of_tung_nuts,10.0
+110,200,Japan,Singapore,2006,oil_of_tung_nuts,17.0
+54,106,Denmark,Italy,1988,oil_of_tung_nuts,15.0
+225,194,United Arab Emirates,Saudi Arabia,2002,oil_of_tung_nuts,20.0
+96,200,"China, Hong Kong SAR",Singapore,1990,oil_of_tung_nuts,15.0
+96,200,"China, Hong Kong SAR",Singapore,1991,oil_of_tung_nuts,30.0
+96,200,"China, Hong Kong SAR",Singapore,1992,oil_of_tung_nuts,15.0
+96,200,"China, Hong Kong SAR",Singapore,1993,oil_of_tung_nuts,30.0
+150,98,Netherlands (Kingdom of the),Croatia,2000,oil_of_tung_nuts,10.0
+150,98,Netherlands (Kingdom of the),Croatia,2001,oil_of_tung_nuts,20.0
+150,98,Netherlands (Kingdom of the),Croatia,2002,oil_of_tung_nuts,20.0
+150,98,Netherlands (Kingdom of the),Croatia,2004,oil_of_tung_nuts,11.0
+231,44,United States of America,Colombia,1989,oil_of_tung_nuts,20.0
+231,44,United States of America,Colombia,1990,oil_of_tung_nuts,19.0
+231,44,United States of America,Colombia,1991,oil_of_tung_nuts,26.0
+231,44,United States of America,Colombia,1992,oil_of_tung_nuts,3.0
+231,44,United States of America,Colombia,1993,oil_of_tung_nuts,15.0
+231,44,United States of America,Colombia,1998,oil_of_tung_nuts,15.0
+231,44,United States of America,Colombia,1999,oil_of_tung_nuts,13.0
+231,44,United States of America,Colombia,2000,oil_of_tung_nuts,9.0
+214,216,"China, Taiwan Province of",Thailand,1991,oil_of_tung_nuts,8.0
+214,216,"China, Taiwan Province of",Thailand,1992,oil_of_tung_nuts,32.0
+214,216,"China, Taiwan Province of",Thailand,1993,oil_of_tung_nuts,13.0
+214,216,"China, Taiwan Province of",Thailand,2005,oil_of_tung_nuts,2.0
+216,120,Thailand,Lao People's Democratic Republic,2007,oil_of_tung_nuts,51.0
+79,167,Germany,Czechia,1993,oil_of_tung_nuts,5.0
+79,167,Germany,Czechia,1994,oil_of_tung_nuts,11.0
+79,167,Germany,Czechia,1995,oil_of_tung_nuts,15.0
+79,167,Germany,Czechia,1996,oil_of_tung_nuts,1.0
+79,167,Germany,Czechia,1997,oil_of_tung_nuts,4.0
+41,110,"China, mainland",Japan,1987,oil_of_tung_nuts,9063.0
+41,110,"China, mainland",Japan,1988,oil_of_tung_nuts,7115.0
+41,110,"China, mainland",Japan,1989,oil_of_tung_nuts,6769.0
+41,110,"China, mainland",Japan,1990,oil_of_tung_nuts,5954.0
+41,110,"China, mainland",Japan,1991,oil_of_tung_nuts,4471.0
+41,110,"China, mainland",Japan,1992,oil_of_tung_nuts,5807.0
+41,110,"China, mainland",Japan,1993,oil_of_tung_nuts,4876.0
+41,110,"China, mainland",Japan,1994,oil_of_tung_nuts,7837.0
+41,110,"China, mainland",Japan,1995,oil_of_tung_nuts,6163.0
+41,110,"China, mainland",Japan,1996,oil_of_tung_nuts,3605.0
+41,110,"China, mainland",Japan,1997,oil_of_tung_nuts,6444.0
+41,110,"China, mainland",Japan,1998,oil_of_tung_nuts,3906.0
+41,110,"China, mainland",Japan,1999,oil_of_tung_nuts,2577.0
+41,110,"China, mainland",Japan,2000,oil_of_tung_nuts,2287.0
+41,110,"China, mainland",Japan,2001,oil_of_tung_nuts,1647.0
+41,110,"China, mainland",Japan,2002,oil_of_tung_nuts,2092.0
+41,110,"China, mainland",Japan,2003,oil_of_tung_nuts,1915.0
+41,110,"China, mainland",Japan,2004,oil_of_tung_nuts,1855.0
+41,110,"China, mainland",Japan,2005,oil_of_tung_nuts,1961.0
+41,110,"China, mainland",Japan,2006,oil_of_tung_nuts,1740.0
+202,130,South Africa,Malawi,2000,oil_of_tung_nuts,1.0
+150,49,Netherlands (Kingdom of the),Cuba,1987,oil_of_tung_nuts,96.0
+229,67,United Kingdom of Great Britain and Northern Ireland,Finland,1998,oil_of_tung_nuts,11.0
+96,202,"China, Hong Kong SAR",South Africa,1990,oil_of_tung_nuts,30.0
+96,202,"China, Hong Kong SAR",South Africa,1992,oil_of_tung_nuts,61.0
+96,202,"China, Hong Kong SAR",South Africa,1993,oil_of_tung_nuts,25.0
+96,202,"China, Hong Kong SAR",South Africa,1994,oil_of_tung_nuts,60.0
+96,202,"China, Hong Kong SAR",South Africa,1995,oil_of_tung_nuts,46.0
+96,202,"China, Hong Kong SAR",South Africa,1996,oil_of_tung_nuts,46.0
+96,202,"China, Hong Kong SAR",South Africa,1999,oil_of_tung_nuts,14.0
+162,216,Norway,Thailand,1988,oil_of_tung_nuts,1.0
+21,169,Brazil,Paraguay,2007,oil_of_tung_nuts,1.0
+96,203,"China, Hong Kong SAR",Spain,1988,oil_of_tung_nuts,88.0
+68,49,France,Cuba,1988,oil_of_tung_nuts,16.0
+11,106,Austria,Italy,1999,oil_of_tung_nuts,5.0
+79,51,Germany,Czechoslovakia,1991,oil_of_tung_nuts,12.0
+79,51,Germany,Czechoslovakia,1992,oil_of_tung_nuts,4.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1987,oil_of_tung_nuts,2.0
+200,131,Singapore,Malaysia,1995,oil_of_tung_nuts,599.0
+200,131,Singapore,Malaysia,1996,oil_of_tung_nuts,142.0
+200,131,Singapore,Malaysia,1997,oil_of_tung_nuts,58.0
+200,131,Singapore,Malaysia,1998,oil_of_tung_nuts,30.0
+200,131,Singapore,Malaysia,1999,oil_of_tung_nuts,34.0
+200,131,Singapore,Malaysia,2000,oil_of_tung_nuts,39.0
+200,131,Singapore,Malaysia,2001,oil_of_tung_nuts,32.0
+200,131,Singapore,Malaysia,2002,oil_of_tung_nuts,39.0
+200,131,Singapore,Malaysia,2003,oil_of_tung_nuts,37.0
+200,131,Singapore,Malaysia,2004,oil_of_tung_nuts,45.0
+200,131,Singapore,Malaysia,2005,oil_of_tung_nuts,26.0
+200,131,Singapore,Malaysia,2006,oil_of_tung_nuts,27.0
+41,108,"China, mainland",Kazakhstan,2006,oil_of_tung_nuts,8.0
+21,170,Brazil,Peru,1986,oil_of_tung_nuts,3.0
+54,119,Denmark,Latvia,1998,oil_of_tung_nuts,5.0
+54,119,Denmark,Latvia,2003,oil_of_tung_nuts,3.0
+216,131,Thailand,Malaysia,2007,oil_of_tung_nuts,92.0
+216,131,Thailand,Malaysia,2008,oil_of_tung_nuts,82.0
+216,131,Thailand,Malaysia,2021,oil_of_tung_nuts,0.05
+101,216,Indonesia,Thailand,2009,oil_of_tung_nuts,1.0
+110,216,Japan,Thailand,2004,oil_of_tung_nuts,30.0
+101,176,Indonesia,Timor-Leste,2009,oil_of_tung_nuts,1.0
+96,216,"China, Hong Kong SAR",Thailand,1986,oil_of_tung_nuts,15.0
+96,216,"China, Hong Kong SAR",Thailand,1987,oil_of_tung_nuts,23.0
+96,216,"China, Hong Kong SAR",Thailand,1988,oil_of_tung_nuts,14.0
+96,216,"China, Hong Kong SAR",Thailand,1993,oil_of_tung_nuts,49.0
+96,216,"China, Hong Kong SAR",Thailand,1997,oil_of_tung_nuts,17.0
+96,216,"China, Hong Kong SAR",Thailand,1998,oil_of_tung_nuts,20.0
+96,216,"China, Hong Kong SAR",Thailand,1999,oil_of_tung_nuts,240.0
+96,216,"China, Hong Kong SAR",Thailand,2000,oil_of_tung_nuts,311.0
+21,174,Brazil,Portugal,2003,oil_of_tung_nuts,1.0
+41,119,"China, mainland",Latvia,2004,oil_of_tung_nuts,15.0
+41,119,"China, mainland",Latvia,2006,oil_of_tung_nuts,15.0
+185,230,Russian Federation,Ukraine,2002,oil_of_tung_nuts,4.0
+185,230,Russian Federation,Ukraine,2003,oil_of_tung_nuts,2.0
+150,167,Netherlands (Kingdom of the),Czechia,1998,oil_of_tung_nuts,10.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1991,oil_of_tung_nuts,20.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1996,oil_of_tung_nuts,2.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1997,oil_of_tung_nuts,15.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1998,oil_of_tung_nuts,10.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1999,oil_of_tung_nuts,12.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2000,oil_of_tung_nuts,9.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2001,oil_of_tung_nuts,6.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2002,oil_of_tung_nuts,2.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2003,oil_of_tung_nuts,6.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2004,oil_of_tung_nuts,7.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2005,oil_of_tung_nuts,1.0
+54,126,Denmark,Lithuania,2002,oil_of_tung_nuts,1.0
+54,126,Denmark,Lithuania,2003,oil_of_tung_nuts,1.0
+79,54,Germany,Denmark,1994,oil_of_tung_nuts,16.0
+79,54,Germany,Denmark,1997,oil_of_tung_nuts,10.0
+79,54,Germany,Denmark,2000,oil_of_tung_nuts,1.0
+79,54,Germany,Denmark,2001,oil_of_tung_nuts,16.0
+79,54,Germany,Denmark,2002,oil_of_tung_nuts,5.0
+10,156,Australia,New Zealand,1988,oil_of_tung_nuts,1.0
+10,156,Australia,New Zealand,1991,oil_of_tung_nuts,5.0
+10,156,Australia,New Zealand,1992,oil_of_tung_nuts,3.0
+10,156,Australia,New Zealand,1994,oil_of_tung_nuts,1.0
+10,156,Australia,New Zealand,1996,oil_of_tung_nuts,1.0
+10,156,Australia,New Zealand,2001,oil_of_tung_nuts,2.0
+10,156,Australia,New Zealand,2003,oil_of_tung_nuts,2.0
+10,156,Australia,New Zealand,2004,oil_of_tung_nuts,6.0
+10,156,Australia,New Zealand,2005,oil_of_tung_nuts,7.0
+10,156,Australia,New Zealand,2006,oil_of_tung_nuts,6.0
+96,223,"China, Hong Kong SAR",Türkiye,1993,oil_of_tung_nuts,41.0
+96,223,"China, Hong Kong SAR",Türkiye,1994,oil_of_tung_nuts,15.0
+96,223,"China, Hong Kong SAR",Türkiye,1995,oil_of_tung_nuts,122.0
+96,223,"China, Hong Kong SAR",Türkiye,1996,oil_of_tung_nuts,61.0
+96,223,"China, Hong Kong SAR",Türkiye,1997,oil_of_tung_nuts,15.0
+96,223,"China, Hong Kong SAR",Türkiye,1998,oil_of_tung_nuts,15.0
+96,223,"China, Hong Kong SAR",Türkiye,1999,oil_of_tung_nuts,61.0
+96,223,"China, Hong Kong SAR",Türkiye,2000,oil_of_tung_nuts,30.0
+216,138,Thailand,Mexico,2007,oil_of_tung_nuts,80.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1987,oil_of_tung_nuts,12.0
+214,234,"China, Taiwan Province of",Uruguay,1995,oil_of_tung_nuts,1.0
+96,225,"China, Hong Kong SAR",United Arab Emirates,1997,oil_of_tung_nuts,30.0
+54,131,Denmark,Malaysia,2003,oil_of_tung_nuts,3.0
+214,237,"China, Taiwan Province of",Viet Nam,2004,oil_of_tung_nuts,8.0
+214,237,"China, Taiwan Province of",Viet Nam,2006,oil_of_tung_nuts,12.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2007,oil_of_tung_nuts,1.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2009,oil_of_tung_nuts,2.0
+41,131,"China, mainland",Malaysia,1988,oil_of_tung_nuts,43.0
+41,131,"China, mainland",Malaysia,1989,oil_of_tung_nuts,15.0
+41,131,"China, mainland",Malaysia,1990,oil_of_tung_nuts,213.0
+41,131,"China, mainland",Malaysia,1992,oil_of_tung_nuts,122.0
+41,131,"China, mainland",Malaysia,1993,oil_of_tung_nuts,343.0
+41,131,"China, mainland",Malaysia,1994,oil_of_tung_nuts,2006.0
+41,131,"China, mainland",Malaysia,1995,oil_of_tung_nuts,1824.0
+41,131,"China, mainland",Malaysia,1996,oil_of_tung_nuts,2348.0
+41,131,"China, mainland",Malaysia,1997,oil_of_tung_nuts,3845.0
+41,131,"China, mainland",Malaysia,1998,oil_of_tung_nuts,2310.0
+41,131,"China, mainland",Malaysia,1999,oil_of_tung_nuts,3329.0
+41,131,"China, mainland",Malaysia,2000,oil_of_tung_nuts,3344.0
+41,131,"China, mainland",Malaysia,2001,oil_of_tung_nuts,2250.0
+41,131,"China, mainland",Malaysia,2002,oil_of_tung_nuts,2383.0
+41,131,"China, mainland",Malaysia,2003,oil_of_tung_nuts,2021.0
+41,131,"China, mainland",Malaysia,2004,oil_of_tung_nuts,1860.0
+41,131,"China, mainland",Malaysia,2005,oil_of_tung_nuts,1307.0
+41,131,"China, mainland",Malaysia,2006,oil_of_tung_nuts,1196.0
+96,229,"China, Hong Kong SAR",United Kingdom of Great Britain and Northern Ireland,1992,oil_of_tung_nuts,46.0
+216,28,Thailand,Myanmar,2007,oil_of_tung_nuts,17.0
+216,28,Thailand,Myanmar,2015,oil_of_tung_nuts,0.06
+216,28,Thailand,Myanmar,2016,oil_of_tung_nuts,0.66
+255,106,Belgium,Italy,2005,oil_of_tung_nuts,28.0
+255,106,Belgium,Italy,2006,oil_of_tung_nuts,41.0
+131,200,Malaysia,Singapore,1986,oil_of_tung_nuts,3.0
+131,200,Malaysia,Singapore,1991,oil_of_tung_nuts,1.0
+131,200,Malaysia,Singapore,1998,oil_of_tung_nuts,272.0
+131,200,Malaysia,Singapore,2004,oil_of_tung_nuts,25.0
+131,200,Malaysia,Singapore,2006,oil_of_tung_nuts,3.0
+200,28,Singapore,Myanmar,1995,oil_of_tung_nuts,5.0
+100,159,India,Nigeria,2005,oil_of_tung_nuts,1.0
+110,231,Japan,United States of America,1995,oil_of_tung_nuts,16.0
+101,231,Indonesia,United States of America,2003,oil_of_tung_nuts,45.0
+150,54,Netherlands (Kingdom of the),Denmark,1986,oil_of_tung_nuts,19.0
+150,54,Netherlands (Kingdom of the),Denmark,1987,oil_of_tung_nuts,35.0
+150,54,Netherlands (Kingdom of the),Denmark,1988,oil_of_tung_nuts,34.0
+150,54,Netherlands (Kingdom of the),Denmark,1989,oil_of_tung_nuts,41.0
+150,54,Netherlands (Kingdom of the),Denmark,1993,oil_of_tung_nuts,3.0
+150,54,Netherlands (Kingdom of the),Denmark,1995,oil_of_tung_nuts,2.0
+150,54,Netherlands (Kingdom of the),Denmark,1998,oil_of_tung_nuts,2.0
+150,54,Netherlands (Kingdom of the),Denmark,1999,oil_of_tung_nuts,3.0
+150,54,Netherlands (Kingdom of the),Denmark,2000,oil_of_tung_nuts,3.0
+150,54,Netherlands (Kingdom of the),Denmark,2004,oil_of_tung_nuts,3.0
+150,54,Netherlands (Kingdom of the),Denmark,2005,oil_of_tung_nuts,2.0
+10,168,Australia,Papua New Guinea,1989,oil_of_tung_nuts,4.0
+10,168,Australia,Papua New Guinea,2001,oil_of_tung_nuts,2.0
+41,138,"China, mainland",Mexico,1988,oil_of_tung_nuts,14.0
+41,138,"China, mainland",Mexico,1989,oil_of_tung_nuts,12.0
+41,138,"China, mainland",Mexico,1990,oil_of_tung_nuts,14.0
+41,138,"China, mainland",Mexico,1993,oil_of_tung_nuts,15.0
+41,138,"China, mainland",Mexico,1994,oil_of_tung_nuts,45.0
+41,138,"China, mainland",Mexico,1998,oil_of_tung_nuts,243.0
+41,138,"China, mainland",Mexico,1999,oil_of_tung_nuts,167.0
+41,138,"China, mainland",Mexico,2000,oil_of_tung_nuts,182.0
+41,138,"China, mainland",Mexico,2001,oil_of_tung_nuts,30.0
+41,138,"China, mainland",Mexico,2002,oil_of_tung_nuts,30.0
+231,56,United States of America,Dominican Republic,2004,oil_of_tung_nuts,2.0
+231,56,United States of America,Dominican Republic,2006,oil_of_tung_nuts,6.0
+216,150,Thailand,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,1.0
+216,150,Thailand,Netherlands (Kingdom of the),2007,oil_of_tung_nuts,36.0
+96,231,"China, Hong Kong SAR",United States of America,1986,oil_of_tung_nuts,14.0
+96,231,"China, Hong Kong SAR",United States of America,1988,oil_of_tung_nuts,3.0
+96,231,"China, Hong Kong SAR",United States of America,1990,oil_of_tung_nuts,15.0
+96,231,"China, Hong Kong SAR",United States of America,1992,oil_of_tung_nuts,46.0
+96,231,"China, Hong Kong SAR",United States of America,1993,oil_of_tung_nuts,30.0
+96,231,"China, Hong Kong SAR",United States of America,1994,oil_of_tung_nuts,15.0
+54,150,Denmark,Netherlands (Kingdom of the),1988,oil_of_tung_nuts,7.0
+54,150,Denmark,Netherlands (Kingdom of the),1991,oil_of_tung_nuts,1.0
+54,150,Denmark,Netherlands (Kingdom of the),1992,oil_of_tung_nuts,1.0
+96,236,"China, Hong Kong SAR",Venezuela (Bolivarian Republic of),1994,oil_of_tung_nuts,15.0
+216,156,Thailand,New Zealand,2007,oil_of_tung_nuts,219.0
+216,156,Thailand,New Zealand,2009,oil_of_tung_nuts,42.0
+216,156,Thailand,New Zealand,2010,oil_of_tung_nuts,42.0
+216,156,Thailand,New Zealand,2015,oil_of_tung_nuts,0.24
+216,156,Thailand,New Zealand,2016,oil_of_tung_nuts,0.12
+216,156,Thailand,New Zealand,2019,oil_of_tung_nuts,0.24
+41,28,"China, mainland",Myanmar,2000,oil_of_tung_nuts,6.0
+41,28,"China, mainland",Myanmar,2003,oil_of_tung_nuts,8.0
+210,162,Sweden,Norway,1986,oil_of_tung_nuts,6.0
+210,162,Sweden,Norway,1988,oil_of_tung_nuts,1.0
+210,162,Sweden,Norway,1989,oil_of_tung_nuts,2.0
+210,162,Sweden,Norway,1990,oil_of_tung_nuts,1.0
+210,162,Sweden,Norway,1992,oil_of_tung_nuts,2.0
+210,162,Sweden,Norway,1993,oil_of_tung_nuts,1.0
+210,162,Sweden,Norway,1994,oil_of_tung_nuts,1.0
+210,162,Sweden,Norway,1995,oil_of_tung_nuts,4.0
+210,162,Sweden,Norway,1996,oil_of_tung_nuts,6.0
+210,162,Sweden,Norway,1997,oil_of_tung_nuts,2.0
+210,162,Sweden,Norway,1998,oil_of_tung_nuts,6.0
+210,162,Sweden,Norway,1999,oil_of_tung_nuts,4.0
+210,162,Sweden,Norway,2000,oil_of_tung_nuts,4.0
+210,162,Sweden,Norway,2001,oil_of_tung_nuts,2.0
+210,162,Sweden,Norway,2002,oil_of_tung_nuts,3.0
+210,162,Sweden,Norway,2003,oil_of_tung_nuts,8.0
+210,162,Sweden,Norway,2004,oil_of_tung_nuts,4.0
+210,162,Sweden,Norway,2005,oil_of_tung_nuts,7.0
+255,119,Belgium,Latvia,2002,oil_of_tung_nuts,15.0
+11,150,Austria,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,4.0
+216,162,Thailand,Norway,2007,oil_of_tung_nuts,22.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,1992,oil_of_tung_nuts,3.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,1993,oil_of_tung_nuts,10.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,1994,oil_of_tung_nuts,10.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,1995,oil_of_tung_nuts,8.0
+229,81,United Kingdom of Great Britain and Northern Ireland,Ghana,1996,oil_of_tung_nuts,3.0
+211,150,Switzerland,Netherlands (Kingdom of the),1995,oil_of_tung_nuts,2.0
+150,59,Netherlands (Kingdom of the),Egypt,1988,oil_of_tung_nuts,1.0
+150,59,Netherlands (Kingdom of the),Egypt,1991,oil_of_tung_nuts,9.0
+150,59,Netherlands (Kingdom of the),Egypt,1992,oil_of_tung_nuts,2.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1987,oil_of_tung_nuts,4916.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1988,oil_of_tung_nuts,244.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1989,oil_of_tung_nuts,70.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1990,oil_of_tung_nuts,251.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1991,oil_of_tung_nuts,14.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1992,oil_of_tung_nuts,966.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1993,oil_of_tung_nuts,1627.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1994,oil_of_tung_nuts,2108.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1995,oil_of_tung_nuts,747.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1996,oil_of_tung_nuts,1039.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1997,oil_of_tung_nuts,951.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1998,oil_of_tung_nuts,1300.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1999,oil_of_tung_nuts,1466.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2000,oil_of_tung_nuts,1965.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2001,oil_of_tung_nuts,1627.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2002,oil_of_tung_nuts,1373.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2003,oil_of_tung_nuts,683.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2004,oil_of_tung_nuts,808.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2005,oil_of_tung_nuts,1135.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2006,oil_of_tung_nuts,1538.0
+150,60,Netherlands (Kingdom of the),El Salvador,1993,oil_of_tung_nuts,5.0
+231,60,United States of America,El Salvador,1989,oil_of_tung_nuts,7.0
+231,60,United States of America,El Salvador,1992,oil_of_tung_nuts,4.0
+231,60,United States of America,El Salvador,1994,oil_of_tung_nuts,3.0
+231,60,United States of America,El Salvador,1996,oil_of_tung_nuts,5.0
+231,60,United States of America,El Salvador,1997,oil_of_tung_nuts,10.0
+231,60,United States of America,El Salvador,1998,oil_of_tung_nuts,8.0
+231,60,United States of America,El Salvador,1999,oil_of_tung_nuts,3.0
+231,60,United States of America,El Salvador,2001,oil_of_tung_nuts,12.0
+231,60,United States of America,El Salvador,2002,oil_of_tung_nuts,5.0
+231,60,United States of America,El Salvador,2003,oil_of_tung_nuts,7.0
+231,60,United States of America,El Salvador,2004,oil_of_tung_nuts,18.0
+231,60,United States of America,El Salvador,2005,oil_of_tung_nuts,22.0
+231,60,United States of America,El Salvador,2006,oil_of_tung_nuts,14.0
+229,84,United Kingdom of Great Britain and Northern Ireland,Greece,2005,oil_of_tung_nuts,5.0
+41,156,"China, mainland",New Zealand,1987,oil_of_tung_nuts,83.0
+41,156,"China, mainland",New Zealand,1988,oil_of_tung_nuts,55.0
+41,156,"China, mainland",New Zealand,1989,oil_of_tung_nuts,53.0
+41,156,"China, mainland",New Zealand,1990,oil_of_tung_nuts,78.0
+41,156,"China, mainland",New Zealand,1991,oil_of_tung_nuts,59.0
+41,156,"China, mainland",New Zealand,1992,oil_of_tung_nuts,30.0
+41,156,"China, mainland",New Zealand,1993,oil_of_tung_nuts,31.0
+41,156,"China, mainland",New Zealand,1994,oil_of_tung_nuts,32.0
+41,156,"China, mainland",New Zealand,1995,oil_of_tung_nuts,13.0
+41,156,"China, mainland",New Zealand,1996,oil_of_tung_nuts,18.0
+41,156,"China, mainland",New Zealand,1997,oil_of_tung_nuts,21.0
+41,156,"China, mainland",New Zealand,1998,oil_of_tung_nuts,23.0
+41,156,"China, mainland",New Zealand,1999,oil_of_tung_nuts,15.0
+41,156,"China, mainland",New Zealand,2000,oil_of_tung_nuts,4.0
+41,156,"China, mainland",New Zealand,2001,oil_of_tung_nuts,6.0
+41,156,"China, mainland",New Zealand,2002,oil_of_tung_nuts,11.0
+41,156,"China, mainland",New Zealand,2003,oil_of_tung_nuts,9.0
+41,156,"China, mainland",New Zealand,2004,oil_of_tung_nuts,10.0
+41,156,"China, mainland",New Zealand,2005,oil_of_tung_nuts,4.0
+41,156,"China, mainland",New Zealand,2006,oil_of_tung_nuts,13.0
+54,162,Denmark,Norway,1990,oil_of_tung_nuts,4.0
+54,162,Denmark,Norway,1991,oil_of_tung_nuts,1.0
+54,162,Denmark,Norway,1992,oil_of_tung_nuts,8.0
+54,162,Denmark,Norway,1993,oil_of_tung_nuts,3.0
+54,162,Denmark,Norway,1994,oil_of_tung_nuts,6.0
+54,162,Denmark,Norway,1996,oil_of_tung_nuts,6.0
+54,162,Denmark,Norway,1997,oil_of_tung_nuts,39.0
+54,162,Denmark,Norway,1998,oil_of_tung_nuts,3.0
+54,162,Denmark,Norway,2003,oil_of_tung_nuts,12.0
+100,117,India,Republic of Korea,1996,oil_of_tung_nuts,32.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,4.0
+255,256,Belgium,Luxembourg,2002,oil_of_tung_nuts,16.0
+216,173,Thailand,Poland,2007,oil_of_tung_nuts,30.0
+229,89,United Kingdom of Great Britain and Northern Ireland,Guatemala,1997,oil_of_tung_nuts,1.0
+41,162,"China, mainland",Norway,1987,oil_of_tung_nuts,31.0
+41,162,"China, mainland",Norway,1988,oil_of_tung_nuts,50.0
+41,162,"China, mainland",Norway,1989,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,1990,oil_of_tung_nuts,55.0
+41,162,"China, mainland",Norway,1991,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,1992,oil_of_tung_nuts,46.0
+41,162,"China, mainland",Norway,1993,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,1996,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,1997,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,1998,oil_of_tung_nuts,46.0
+41,162,"China, mainland",Norway,1999,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,2000,oil_of_tung_nuts,30.0
+41,162,"China, mainland",Norway,2001,oil_of_tung_nuts,61.0
+41,162,"China, mainland",Norway,2002,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,2003,oil_of_tung_nuts,15.0
+41,162,"China, mainland",Norway,2004,oil_of_tung_nuts,46.0
+41,162,"China, mainland",Norway,2005,oil_of_tung_nuts,61.0
+41,162,"China, mainland",Norway,2006,oil_of_tung_nuts,30.0
+41,165,"China, mainland",Pakistan,1988,oil_of_tung_nuts,43.0
+41,165,"China, mainland",Pakistan,1989,oil_of_tung_nuts,37.0
+41,165,"China, mainland",Pakistan,1990,oil_of_tung_nuts,7.0
+41,165,"China, mainland",Pakistan,1992,oil_of_tung_nuts,2.0
+41,165,"China, mainland",Pakistan,1993,oil_of_tung_nuts,20.0
+41,165,"China, mainland",Pakistan,1994,oil_of_tung_nuts,3.0
+41,165,"China, mainland",Pakistan,1995,oil_of_tung_nuts,15.0
+41,165,"China, mainland",Pakistan,1996,oil_of_tung_nuts,10.0
+41,165,"China, mainland",Pakistan,1997,oil_of_tung_nuts,11.0
+41,165,"China, mainland",Pakistan,1999,oil_of_tung_nuts,5.0
+41,165,"China, mainland",Pakistan,2000,oil_of_tung_nuts,3.0
+41,165,"China, mainland",Pakistan,2001,oil_of_tung_nuts,14.0
+41,165,"China, mainland",Pakistan,2002,oil_of_tung_nuts,11.0
+41,165,"China, mainland",Pakistan,2003,oil_of_tung_nuts,11.0
+41,165,"China, mainland",Pakistan,2004,oil_of_tung_nuts,50.0
+41,165,"China, mainland",Pakistan,2006,oil_of_tung_nuts,25.0
+79,68,Germany,France,1991,oil_of_tung_nuts,5.0
+79,68,Germany,France,1992,oil_of_tung_nuts,13.0
+79,68,Germany,France,1993,oil_of_tung_nuts,47.0
+79,68,Germany,France,1994,oil_of_tung_nuts,52.0
+79,68,Germany,France,1995,oil_of_tung_nuts,39.0
+79,68,Germany,France,1996,oil_of_tung_nuts,45.0
+79,68,Germany,France,1997,oil_of_tung_nuts,24.0
+79,68,Germany,France,1998,oil_of_tung_nuts,6.0
+79,68,Germany,France,1999,oil_of_tung_nuts,3.0
+79,68,Germany,France,2000,oil_of_tung_nuts,16.0
+79,68,Germany,France,2001,oil_of_tung_nuts,1.0
+79,68,Germany,France,2002,oil_of_tung_nuts,4.0
+79,68,Germany,France,2003,oil_of_tung_nuts,7.0
+79,68,Germany,France,2004,oil_of_tung_nuts,12.0
+79,68,Germany,France,2005,oil_of_tung_nuts,25.0
+79,68,Germany,France,2006,oil_of_tung_nuts,1.0
+216,117,Thailand,Republic of Korea,2007,oil_of_tung_nuts,790.0
+216,117,Thailand,Republic of Korea,2009,oil_of_tung_nuts,40.0
+216,117,Thailand,Republic of Korea,2019,oil_of_tung_nuts,63.88
+11,173,Austria,Poland,1992,oil_of_tung_nuts,5.0
+11,173,Austria,Poland,1995,oil_of_tung_nuts,5.0
+11,173,Austria,Poland,1997,oil_of_tung_nuts,5.0
+54,173,Denmark,Poland,1996,oil_of_tung_nuts,13.0
+54,173,Denmark,Poland,2000,oil_of_tung_nuts,1.0
+54,173,Denmark,Poland,2003,oil_of_tung_nuts,7.0
+41,171,"China, mainland",Philippines,1988,oil_of_tung_nuts,30.0
+41,171,"China, mainland",Philippines,1989,oil_of_tung_nuts,33.0
+41,171,"China, mainland",Philippines,1990,oil_of_tung_nuts,195.0
+41,171,"China, mainland",Philippines,1992,oil_of_tung_nuts,15.0
+41,171,"China, mainland",Philippines,1993,oil_of_tung_nuts,15.0
+41,171,"China, mainland",Philippines,1994,oil_of_tung_nuts,61.0
+41,171,"China, mainland",Philippines,1995,oil_of_tung_nuts,91.0
+41,171,"China, mainland",Philippines,1996,oil_of_tung_nuts,96.0
+41,171,"China, mainland",Philippines,1997,oil_of_tung_nuts,76.0
+41,171,"China, mainland",Philippines,1998,oil_of_tung_nuts,71.0
+41,171,"China, mainland",Philippines,1999,oil_of_tung_nuts,46.0
+41,171,"China, mainland",Philippines,2000,oil_of_tung_nuts,46.0
+41,171,"China, mainland",Philippines,2001,oil_of_tung_nuts,47.0
+41,171,"China, mainland",Philippines,2002,oil_of_tung_nuts,91.0
+41,171,"China, mainland",Philippines,2003,oil_of_tung_nuts,38.0
+41,171,"China, mainland",Philippines,2004,oil_of_tung_nuts,94.0
+41,171,"China, mainland",Philippines,2005,oil_of_tung_nuts,40.0
+41,171,"China, mainland",Philippines,2006,oil_of_tung_nuts,68.0
+200,117,Singapore,Republic of Korea,1995,oil_of_tung_nuts,16.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2003,oil_of_tung_nuts,20.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2004,oil_of_tung_nuts,26.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2005,oil_of_tung_nuts,10.0
+21,234,Brazil,Uruguay,1988,oil_of_tung_nuts,1.0
+150,67,Netherlands (Kingdom of the),Finland,1990,oil_of_tung_nuts,22.0
+150,67,Netherlands (Kingdom of the),Finland,1998,oil_of_tung_nuts,2.0
+150,67,Netherlands (Kingdom of the),Finland,1999,oil_of_tung_nuts,3.0
+150,67,Netherlands (Kingdom of the),Finland,2000,oil_of_tung_nuts,1.0
+150,67,Netherlands (Kingdom of the),Finland,2001,oil_of_tung_nuts,1.0
+150,67,Netherlands (Kingdom of the),Finland,2003,oil_of_tung_nuts,3.0
+150,67,Netherlands (Kingdom of the),Finland,2005,oil_of_tung_nuts,1.0
+150,67,Netherlands (Kingdom of the),Finland,2006,oil_of_tung_nuts,1.0
+41,173,"China, mainland",Poland,1987,oil_of_tung_nuts,1000.0
+41,173,"China, mainland",Poland,1988,oil_of_tung_nuts,1000.0
+41,173,"China, mainland",Poland,1997,oil_of_tung_nuts,42.0
+41,173,"China, mainland",Poland,1998,oil_of_tung_nuts,11.0
+41,173,"China, mainland",Poland,2004,oil_of_tung_nuts,15.0
+41,173,"China, mainland",Poland,2005,oil_of_tung_nuts,15.0
+41,173,"China, mainland",Poland,2006,oil_of_tung_nuts,15.0
+54,174,Denmark,Portugal,1986,oil_of_tung_nuts,1.0
+54,174,Denmark,Portugal,1987,oil_of_tung_nuts,4.0
+54,174,Denmark,Portugal,1990,oil_of_tung_nuts,1.0
+54,174,Denmark,Portugal,1991,oil_of_tung_nuts,1.0
+54,174,Denmark,Portugal,1993,oil_of_tung_nuts,1.0
+41,174,"China, mainland",Portugal,1987,oil_of_tung_nuts,59.0
+41,174,"China, mainland",Portugal,1988,oil_of_tung_nuts,45.0
+41,174,"China, mainland",Portugal,1989,oil_of_tung_nuts,30.0
+41,174,"China, mainland",Portugal,1990,oil_of_tung_nuts,46.0
+41,174,"China, mainland",Portugal,1991,oil_of_tung_nuts,15.0
+41,174,"China, mainland",Portugal,2000,oil_of_tung_nuts,17.0
+21,236,Brazil,Venezuela (Bolivarian Republic of),1987,oil_of_tung_nuts,4.0
+54,117,Denmark,Republic of Korea,1991,oil_of_tung_nuts,15.0
+216,200,Thailand,Singapore,1996,oil_of_tung_nuts,3.0
+216,200,Thailand,Singapore,2007,oil_of_tung_nuts,352.0
+54,183,Denmark,Romania,2002,oil_of_tung_nuts,2.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,1986,oil_of_tung_nuts,4.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,1991,oil_of_tung_nuts,6.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,1993,oil_of_tung_nuts,1.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,1994,oil_of_tung_nuts,1.0
+229,101,United Kingdom of Great Britain and Northern Ireland,Indonesia,1999,oil_of_tung_nuts,4.0
+41,117,"China, mainland",Republic of Korea,1988,oil_of_tung_nuts,237.0
+41,117,"China, mainland",Republic of Korea,1989,oil_of_tung_nuts,1668.0
+41,117,"China, mainland",Republic of Korea,1990,oil_of_tung_nuts,2202.0
+41,117,"China, mainland",Republic of Korea,1991,oil_of_tung_nuts,1679.0
+41,117,"China, mainland",Republic of Korea,1992,oil_of_tung_nuts,2291.0
+41,117,"China, mainland",Republic of Korea,1993,oil_of_tung_nuts,1734.0
+41,117,"China, mainland",Republic of Korea,1994,oil_of_tung_nuts,3191.0
+41,117,"China, mainland",Republic of Korea,1995,oil_of_tung_nuts,5232.0
+41,117,"China, mainland",Republic of Korea,1996,oil_of_tung_nuts,3357.0
+41,117,"China, mainland",Republic of Korea,1997,oil_of_tung_nuts,4237.0
+41,117,"China, mainland",Republic of Korea,1998,oil_of_tung_nuts,2113.0
+41,117,"China, mainland",Republic of Korea,1999,oil_of_tung_nuts,3499.0
+41,117,"China, mainland",Republic of Korea,2000,oil_of_tung_nuts,4801.0
+41,117,"China, mainland",Republic of Korea,2001,oil_of_tung_nuts,3420.0
+41,117,"China, mainland",Republic of Korea,2002,oil_of_tung_nuts,6943.0
+41,117,"China, mainland",Republic of Korea,2003,oil_of_tung_nuts,6472.0
+41,117,"China, mainland",Republic of Korea,2004,oil_of_tung_nuts,5472.0
+41,117,"China, mainland",Republic of Korea,2005,oil_of_tung_nuts,3724.0
+41,117,"China, mainland",Republic of Korea,2006,oil_of_tung_nuts,1942.0
+54,185,Denmark,Russian Federation,1993,oil_of_tung_nuts,2.0
+231,79,United States of America,Germany,1992,oil_of_tung_nuts,3.0
+231,79,United States of America,Germany,1993,oil_of_tung_nuts,5.0
+231,79,United States of America,Germany,2002,oil_of_tung_nuts,11.0
+216,202,Thailand,South Africa,2003,oil_of_tung_nuts,1.0
+54,194,Denmark,Saudi Arabia,1993,oil_of_tung_nuts,1.0
+54,194,Denmark,Saudi Arabia,1997,oil_of_tung_nuts,1.0
+54,194,Denmark,Saudi Arabia,1999,oil_of_tung_nuts,1.0
+54,194,Denmark,Saudi Arabia,2000,oil_of_tung_nuts,2.0
+255,150,Belgium,Netherlands (Kingdom of the),2000,oil_of_tung_nuts,11.0
+255,150,Belgium,Netherlands (Kingdom of the),2001,oil_of_tung_nuts,6.0
+255,150,Belgium,Netherlands (Kingdom of the),2002,oil_of_tung_nuts,1.0
+255,150,Belgium,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,2.0
+41,183,"China, mainland",Romania,1987,oil_of_tung_nuts,200.0
+41,183,"China, mainland",Romania,1988,oil_of_tung_nuts,200.0
+203,106,Spain,Italy,2001,oil_of_tung_nuts,10.0
+203,106,Spain,Italy,2004,oil_of_tung_nuts,19.0
+54,186,Denmark,Serbia and Montenegro,1996,oil_of_tung_nuts,20.0
+150,68,Netherlands (Kingdom of the),France,1986,oil_of_tung_nuts,130.0
+150,68,Netherlands (Kingdom of the),France,1987,oil_of_tung_nuts,155.0
+150,68,Netherlands (Kingdom of the),France,1988,oil_of_tung_nuts,73.0
+150,68,Netherlands (Kingdom of the),France,1989,oil_of_tung_nuts,330.0
+150,68,Netherlands (Kingdom of the),France,1990,oil_of_tung_nuts,225.0
+150,68,Netherlands (Kingdom of the),France,1991,oil_of_tung_nuts,15.0
+150,68,Netherlands (Kingdom of the),France,1992,oil_of_tung_nuts,35.0
+150,68,Netherlands (Kingdom of the),France,1993,oil_of_tung_nuts,103.0
+150,68,Netherlands (Kingdom of the),France,1994,oil_of_tung_nuts,116.0
+150,68,Netherlands (Kingdom of the),France,1995,oil_of_tung_nuts,28.0
+150,68,Netherlands (Kingdom of the),France,1996,oil_of_tung_nuts,18.0
+150,68,Netherlands (Kingdom of the),France,1997,oil_of_tung_nuts,25.0
+150,68,Netherlands (Kingdom of the),France,1998,oil_of_tung_nuts,16.0
+150,68,Netherlands (Kingdom of the),France,1999,oil_of_tung_nuts,14.0
+150,68,Netherlands (Kingdom of the),France,2000,oil_of_tung_nuts,20.0
+150,68,Netherlands (Kingdom of the),France,2001,oil_of_tung_nuts,8.0
+150,68,Netherlands (Kingdom of the),France,2002,oil_of_tung_nuts,4.0
+150,68,Netherlands (Kingdom of the),France,2003,oil_of_tung_nuts,8.0
+150,68,Netherlands (Kingdom of the),France,2004,oil_of_tung_nuts,3.0
+150,68,Netherlands (Kingdom of the),France,2005,oil_of_tung_nuts,2.0
+150,68,Netherlands (Kingdom of the),France,2006,oil_of_tung_nuts,1.0
+68,79,France,Germany,1994,oil_of_tung_nuts,7.0
+68,79,France,Germany,1997,oil_of_tung_nuts,5.0
+41,185,"China, mainland",Russian Federation,1992,oil_of_tung_nuts,76.0
+41,185,"China, mainland",Russian Federation,1993,oil_of_tung_nuts,778.0
+41,185,"China, mainland",Russian Federation,2001,oil_of_tung_nuts,15.0
+41,185,"China, mainland",Russian Federation,2002,oil_of_tung_nuts,61.0
+41,185,"China, mainland",Russian Federation,2003,oil_of_tung_nuts,15.0
+41,185,"China, mainland",Russian Federation,2004,oil_of_tung_nuts,52.0
+41,185,"China, mainland",Russian Federation,2005,oil_of_tung_nuts,61.0
+41,185,"China, mainland",Russian Federation,2006,oil_of_tung_nuts,122.0
+11,186,Austria,Serbia and Montenegro,1997,oil_of_tung_nuts,10.0
+11,186,Austria,Serbia and Montenegro,2001,oil_of_tung_nuts,5.0
+200,38,Singapore,Sri Lanka,1997,oil_of_tung_nuts,10.0
+200,38,Singapore,Sri Lanka,1998,oil_of_tung_nuts,10.0
+200,38,Singapore,Sri Lanka,1999,oil_of_tung_nuts,15.0
+200,38,Singapore,Sri Lanka,2000,oil_of_tung_nuts,10.0
+200,38,Singapore,Sri Lanka,2001,oil_of_tung_nuts,8.0
+200,38,Singapore,Sri Lanka,2003,oil_of_tung_nuts,13.0
+200,38,Singapore,Sri Lanka,2004,oil_of_tung_nuts,15.0
+200,38,Singapore,Sri Lanka,2005,oil_of_tung_nuts,16.0
+200,38,Singapore,Sri Lanka,2006,oil_of_tung_nuts,5.0
+106,97,Italy,Hungary,2005,oil_of_tung_nuts,9.0
+106,97,Italy,Hungary,2006,oil_of_tung_nuts,8.0
+216,210,Thailand,Sweden,2000,oil_of_tung_nuts,1.0
+216,210,Thailand,Sweden,2001,oil_of_tung_nuts,1.0
+216,210,Thailand,Sweden,2002,oil_of_tung_nuts,4.0
+216,210,Thailand,Sweden,2003,oil_of_tung_nuts,1.0
+216,210,Thailand,Sweden,2005,oil_of_tung_nuts,1.0
+41,197,"China, mainland",Sierra Leone,1990,oil_of_tung_nuts,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1989,oil_of_tung_nuts,38.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,oil_of_tung_nuts,4.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2001,oil_of_tung_nuts,1.0
+41,200,"China, mainland",Singapore,1988,oil_of_tung_nuts,404.0
+41,200,"China, mainland",Singapore,1989,oil_of_tung_nuts,275.0
+41,200,"China, mainland",Singapore,1990,oil_of_tung_nuts,422.0
+41,200,"China, mainland",Singapore,1991,oil_of_tung_nuts,459.0
+41,200,"China, mainland",Singapore,1992,oil_of_tung_nuts,20.0
+41,200,"China, mainland",Singapore,1993,oil_of_tung_nuts,172.0
+41,200,"China, mainland",Singapore,1994,oil_of_tung_nuts,192.0
+41,200,"China, mainland",Singapore,1995,oil_of_tung_nuts,578.0
+41,200,"China, mainland",Singapore,1996,oil_of_tung_nuts,15.0
+41,200,"China, mainland",Singapore,1997,oil_of_tung_nuts,91.0
+41,200,"China, mainland",Singapore,1998,oil_of_tung_nuts,61.0
+41,200,"China, mainland",Singapore,1999,oil_of_tung_nuts,190.0
+41,200,"China, mainland",Singapore,2000,oil_of_tung_nuts,207.0
+41,200,"China, mainland",Singapore,2001,oil_of_tung_nuts,176.0
+41,200,"China, mainland",Singapore,2002,oil_of_tung_nuts,46.0
+41,200,"China, mainland",Singapore,2003,oil_of_tung_nuts,61.0
+41,200,"China, mainland",Singapore,2004,oil_of_tung_nuts,28.0
+41,200,"China, mainland",Singapore,2005,oil_of_tung_nuts,32.0
+41,200,"China, mainland",Singapore,2006,oil_of_tung_nuts,76.0
+79,97,Germany,Hungary,1991,oil_of_tung_nuts,11.0
+41,198,"China, mainland",Slovenia,2002,oil_of_tung_nuts,15.0
+41,198,"China, mainland",Slovenia,2006,oil_of_tung_nuts,17.0
+200,216,Singapore,Thailand,1995,oil_of_tung_nuts,8.0
+200,216,Singapore,Thailand,1997,oil_of_tung_nuts,5.0
+200,216,Singapore,Thailand,1998,oil_of_tung_nuts,8.0
+200,216,Singapore,Thailand,2000,oil_of_tung_nuts,1.0
+200,216,Singapore,Thailand,2002,oil_of_tung_nuts,1.0
+200,216,Singapore,Thailand,2003,oil_of_tung_nuts,1.0
+200,216,Singapore,Thailand,2004,oil_of_tung_nuts,1.0
+255,170,Belgium,Peru,2001,oil_of_tung_nuts,7.0
+255,170,Belgium,Peru,2006,oil_of_tung_nuts,2.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1992,oil_of_tung_nuts,12.0
+41,202,"China, mainland",South Africa,1996,oil_of_tung_nuts,30.0
+41,202,"China, mainland",South Africa,1997,oil_of_tung_nuts,41.0
+41,202,"China, mainland",South Africa,1998,oil_of_tung_nuts,30.0
+41,202,"China, mainland",South Africa,1999,oil_of_tung_nuts,39.0
+41,202,"China, mainland",South Africa,2000,oil_of_tung_nuts,53.0
+41,202,"China, mainland",South Africa,2001,oil_of_tung_nuts,36.0
+41,202,"China, mainland",South Africa,2002,oil_of_tung_nuts,89.0
+41,202,"China, mainland",South Africa,2003,oil_of_tung_nuts,30.0
+41,202,"China, mainland",South Africa,2004,oil_of_tung_nuts,39.0
+41,202,"China, mainland",South Africa,2005,oil_of_tung_nuts,40.0
+41,202,"China, mainland",South Africa,2006,oil_of_tung_nuts,53.0
+11,198,Austria,Slovenia,1992,oil_of_tung_nuts,2.0
+11,198,Austria,Slovenia,1993,oil_of_tung_nuts,2.0
+11,198,Austria,Slovenia,1994,oil_of_tung_nuts,2.0
+11,198,Austria,Slovenia,1995,oil_of_tung_nuts,5.0
+11,198,Austria,Slovenia,1997,oil_of_tung_nuts,6.0
+11,198,Austria,Slovenia,1998,oil_of_tung_nuts,2.0
+11,198,Austria,Slovenia,1999,oil_of_tung_nuts,3.0
+11,198,Austria,Slovenia,2000,oil_of_tung_nuts,18.0
+11,198,Austria,Slovenia,2001,oil_of_tung_nuts,65.0
+11,198,Austria,Slovenia,2002,oil_of_tung_nuts,57.0
+11,198,Austria,Slovenia,2003,oil_of_tung_nuts,18.0
+11,198,Austria,Slovenia,2004,oil_of_tung_nuts,35.0
+11,198,Austria,Slovenia,2005,oil_of_tung_nuts,3.0
+41,203,"China, mainland",Spain,1988,oil_of_tung_nuts,75.0
+41,203,"China, mainland",Spain,1989,oil_of_tung_nuts,30.0
+41,203,"China, mainland",Spain,1990,oil_of_tung_nuts,44.0
+41,203,"China, mainland",Spain,1992,oil_of_tung_nuts,60.0
+41,203,"China, mainland",Spain,1993,oil_of_tung_nuts,76.0
+41,203,"China, mainland",Spain,1994,oil_of_tung_nuts,106.0
+41,203,"China, mainland",Spain,1995,oil_of_tung_nuts,76.0
+41,203,"China, mainland",Spain,1996,oil_of_tung_nuts,109.0
+41,203,"China, mainland",Spain,1997,oil_of_tung_nuts,228.0
+41,203,"China, mainland",Spain,1998,oil_of_tung_nuts,334.0
+41,203,"China, mainland",Spain,1999,oil_of_tung_nuts,334.0
+41,203,"China, mainland",Spain,2000,oil_of_tung_nuts,380.0
+41,203,"China, mainland",Spain,2001,oil_of_tung_nuts,471.0
+41,203,"China, mainland",Spain,2002,oil_of_tung_nuts,410.0
+41,203,"China, mainland",Spain,2003,oil_of_tung_nuts,289.0
+41,203,"China, mainland",Spain,2004,oil_of_tung_nuts,414.0
+41,203,"China, mainland",Spain,2005,oil_of_tung_nuts,388.0
+41,203,"China, mainland",Spain,2006,oil_of_tung_nuts,324.0
+255,173,Belgium,Poland,2000,oil_of_tung_nuts,5.0
+255,173,Belgium,Poland,2001,oil_of_tung_nuts,4.0
+255,173,Belgium,Poland,2002,oil_of_tung_nuts,3.0
+255,173,Belgium,Poland,2004,oil_of_tung_nuts,3.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1998,oil_of_tung_nuts,5.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2002,oil_of_tung_nuts,8.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2003,oil_of_tung_nuts,5.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2004,oil_of_tung_nuts,3.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,2005,oil_of_tung_nuts,4.0
+231,93,United States of America,Haiti,1995,oil_of_tung_nuts,436.0
+231,93,United States of America,Haiti,1996,oil_of_tung_nuts,1032.0
+231,93,United States of America,Haiti,1997,oil_of_tung_nuts,1196.0
+231,93,United States of America,Haiti,1998,oil_of_tung_nuts,721.0
+231,93,United States of America,Haiti,1999,oil_of_tung_nuts,1290.0
+231,93,United States of America,Haiti,2000,oil_of_tung_nuts,144.0
+231,93,United States of America,Haiti,2001,oil_of_tung_nuts,16.0
+231,93,United States of America,Haiti,2002,oil_of_tung_nuts,3.0
+41,38,"China, mainland",Sri Lanka,1988,oil_of_tung_nuts,8.0
+41,38,"China, mainland",Sri Lanka,1989,oil_of_tung_nuts,8.0
+41,38,"China, mainland",Sri Lanka,1990,oil_of_tung_nuts,14.0
+41,38,"China, mainland",Sri Lanka,1991,oil_of_tung_nuts,6.0
+41,38,"China, mainland",Sri Lanka,1992,oil_of_tung_nuts,4.0
+41,38,"China, mainland",Sri Lanka,1993,oil_of_tung_nuts,11.0
+41,38,"China, mainland",Sri Lanka,1994,oil_of_tung_nuts,16.0
+41,38,"China, mainland",Sri Lanka,1995,oil_of_tung_nuts,16.0
+41,38,"China, mainland",Sri Lanka,1996,oil_of_tung_nuts,20.0
+41,38,"China, mainland",Sri Lanka,1997,oil_of_tung_nuts,8.0
+41,38,"China, mainland",Sri Lanka,1998,oil_of_tung_nuts,9.0
+41,38,"China, mainland",Sri Lanka,1999,oil_of_tung_nuts,5.0
+41,38,"China, mainland",Sri Lanka,2000,oil_of_tung_nuts,10.0
+41,38,"China, mainland",Sri Lanka,2001,oil_of_tung_nuts,8.0
+41,38,"China, mainland",Sri Lanka,2002,oil_of_tung_nuts,23.0
+41,38,"China, mainland",Sri Lanka,2003,oil_of_tung_nuts,4.0
+41,38,"China, mainland",Sri Lanka,2005,oil_of_tung_nuts,6.0
+41,38,"China, mainland",Sri Lanka,2006,oil_of_tung_nuts,36.0
+150,79,Netherlands (Kingdom of the),Germany,1991,oil_of_tung_nuts,16.0
+150,79,Netherlands (Kingdom of the),Germany,1992,oil_of_tung_nuts,23.0
+150,79,Netherlands (Kingdom of the),Germany,1993,oil_of_tung_nuts,37.0
+150,79,Netherlands (Kingdom of the),Germany,1994,oil_of_tung_nuts,771.0
+150,79,Netherlands (Kingdom of the),Germany,1995,oil_of_tung_nuts,246.0
+150,79,Netherlands (Kingdom of the),Germany,1996,oil_of_tung_nuts,248.0
+150,79,Netherlands (Kingdom of the),Germany,1997,oil_of_tung_nuts,197.0
+150,79,Netherlands (Kingdom of the),Germany,1998,oil_of_tung_nuts,206.0
+150,79,Netherlands (Kingdom of the),Germany,1999,oil_of_tung_nuts,96.0
+150,79,Netherlands (Kingdom of the),Germany,2000,oil_of_tung_nuts,28.0
+150,79,Netherlands (Kingdom of the),Germany,2001,oil_of_tung_nuts,161.0
+150,79,Netherlands (Kingdom of the),Germany,2002,oil_of_tung_nuts,21.0
+150,79,Netherlands (Kingdom of the),Germany,2003,oil_of_tung_nuts,1062.0
+150,79,Netherlands (Kingdom of the),Germany,2004,oil_of_tung_nuts,639.0
+150,79,Netherlands (Kingdom of the),Germany,2005,oil_of_tung_nuts,717.0
+150,79,Netherlands (Kingdom of the),Germany,2006,oil_of_tung_nuts,557.0
+54,210,Denmark,Sweden,1986,oil_of_tung_nuts,5.0
+54,210,Denmark,Sweden,1987,oil_of_tung_nuts,7.0
+54,210,Denmark,Sweden,1988,oil_of_tung_nuts,10.0
+54,210,Denmark,Sweden,1989,oil_of_tung_nuts,4.0
+54,210,Denmark,Sweden,1990,oil_of_tung_nuts,4.0
+54,210,Denmark,Sweden,1991,oil_of_tung_nuts,8.0
+54,210,Denmark,Sweden,1992,oil_of_tung_nuts,2.0
+54,210,Denmark,Sweden,1993,oil_of_tung_nuts,4.0
+54,210,Denmark,Sweden,2000,oil_of_tung_nuts,37.0
+54,210,Denmark,Sweden,2002,oil_of_tung_nuts,11.0
+41,210,"China, mainland",Sweden,1987,oil_of_tung_nuts,26.0
+41,210,"China, mainland",Sweden,1988,oil_of_tung_nuts,6.0
+41,210,"China, mainland",Sweden,1989,oil_of_tung_nuts,10.0
+41,210,"China, mainland",Sweden,1990,oil_of_tung_nuts,9.0
+41,210,"China, mainland",Sweden,1991,oil_of_tung_nuts,5.0
+41,210,"China, mainland",Sweden,1992,oil_of_tung_nuts,15.0
+41,210,"China, mainland",Sweden,1993,oil_of_tung_nuts,28.0
+41,210,"China, mainland",Sweden,1994,oil_of_tung_nuts,14.0
+41,210,"China, mainland",Sweden,1995,oil_of_tung_nuts,23.0
+41,210,"China, mainland",Sweden,1996,oil_of_tung_nuts,30.0
+41,210,"China, mainland",Sweden,1997,oil_of_tung_nuts,68.0
+41,210,"China, mainland",Sweden,1998,oil_of_tung_nuts,53.0
+41,210,"China, mainland",Sweden,1999,oil_of_tung_nuts,61.0
+41,210,"China, mainland",Sweden,2000,oil_of_tung_nuts,61.0
+41,210,"China, mainland",Sweden,2001,oil_of_tung_nuts,76.0
+41,210,"China, mainland",Sweden,2002,oil_of_tung_nuts,114.0
+41,210,"China, mainland",Sweden,2003,oil_of_tung_nuts,61.0
+41,210,"China, mainland",Sweden,2004,oil_of_tung_nuts,114.0
+41,210,"China, mainland",Sweden,2005,oil_of_tung_nuts,123.0
+41,210,"China, mainland",Sweden,2006,oil_of_tung_nuts,30.0
+231,95,United States of America,Honduras,1989,oil_of_tung_nuts,1.0
+11,203,Austria,Spain,2006,oil_of_tung_nuts,7.0
+41,211,"China, mainland",Switzerland,2002,oil_of_tung_nuts,23.0
+41,211,"China, mainland",Switzerland,2004,oil_of_tung_nuts,15.0
+79,102,Germany,Iran (Islamic Republic of),1994,oil_of_tung_nuts,35.0
+216,231,Thailand,United States of America,2007,oil_of_tung_nuts,128.0
+150,81,Netherlands (Kingdom of the),Ghana,2005,oil_of_tung_nuts,1.0
+41,216,"China, mainland",Thailand,1988,oil_of_tung_nuts,70.0
+41,216,"China, mainland",Thailand,1989,oil_of_tung_nuts,96.0
+41,216,"China, mainland",Thailand,1990,oil_of_tung_nuts,190.0
+41,216,"China, mainland",Thailand,1991,oil_of_tung_nuts,245.0
+41,216,"China, mainland",Thailand,1992,oil_of_tung_nuts,1236.0
+41,216,"China, mainland",Thailand,1993,oil_of_tung_nuts,40.0
+41,216,"China, mainland",Thailand,1994,oil_of_tung_nuts,122.0
+41,216,"China, mainland",Thailand,1995,oil_of_tung_nuts,137.0
+41,216,"China, mainland",Thailand,1996,oil_of_tung_nuts,887.0
+41,216,"China, mainland",Thailand,1997,oil_of_tung_nuts,1095.0
+41,216,"China, mainland",Thailand,1998,oil_of_tung_nuts,436.0
+41,216,"China, mainland",Thailand,1999,oil_of_tung_nuts,1152.0
+41,216,"China, mainland",Thailand,2000,oil_of_tung_nuts,1230.0
+41,216,"China, mainland",Thailand,2001,oil_of_tung_nuts,1254.0
+41,216,"China, mainland",Thailand,2002,oil_of_tung_nuts,1099.0
+41,216,"China, mainland",Thailand,2003,oil_of_tung_nuts,1195.0
+41,216,"China, mainland",Thailand,2004,oil_of_tung_nuts,1387.0
+41,216,"China, mainland",Thailand,2005,oil_of_tung_nuts,1203.0
+41,216,"China, mainland",Thailand,2006,oil_of_tung_nuts,1162.0
+231,100,United States of America,India,1990,oil_of_tung_nuts,2.0
+231,100,United States of America,India,2002,oil_of_tung_nuts,34.0
+150,84,Netherlands (Kingdom of the),Greece,1986,oil_of_tung_nuts,28.0
+150,84,Netherlands (Kingdom of the),Greece,1987,oil_of_tung_nuts,42.0
+150,84,Netherlands (Kingdom of the),Greece,1988,oil_of_tung_nuts,16.0
+150,84,Netherlands (Kingdom of the),Greece,1989,oil_of_tung_nuts,45.0
+150,84,Netherlands (Kingdom of the),Greece,1990,oil_of_tung_nuts,38.0
+150,84,Netherlands (Kingdom of the),Greece,1991,oil_of_tung_nuts,32.0
+150,84,Netherlands (Kingdom of the),Greece,1992,oil_of_tung_nuts,20.0
+150,84,Netherlands (Kingdom of the),Greece,1993,oil_of_tung_nuts,10.0
+150,84,Netherlands (Kingdom of the),Greece,1994,oil_of_tung_nuts,10.0
+150,84,Netherlands (Kingdom of the),Greece,1995,oil_of_tung_nuts,38.0
+150,84,Netherlands (Kingdom of the),Greece,1996,oil_of_tung_nuts,10.0
+150,84,Netherlands (Kingdom of the),Greece,1997,oil_of_tung_nuts,11.0
+150,84,Netherlands (Kingdom of the),Greece,1998,oil_of_tung_nuts,12.0
+150,84,Netherlands (Kingdom of the),Greece,1999,oil_of_tung_nuts,5.0
+150,84,Netherlands (Kingdom of the),Greece,2000,oil_of_tung_nuts,5.0
+150,84,Netherlands (Kingdom of the),Greece,2001,oil_of_tung_nuts,17.0
+150,84,Netherlands (Kingdom of the),Greece,2002,oil_of_tung_nuts,15.0
+150,84,Netherlands (Kingdom of the),Greece,2003,oil_of_tung_nuts,8.0
+150,84,Netherlands (Kingdom of the),Greece,2004,oil_of_tung_nuts,22.0
+150,84,Netherlands (Kingdom of the),Greece,2005,oil_of_tung_nuts,5.0
+54,223,Denmark,Türkiye,1990,oil_of_tung_nuts,5.0
+41,223,"China, mainland",Türkiye,1992,oil_of_tung_nuts,10.0
+41,223,"China, mainland",Türkiye,1993,oil_of_tung_nuts,15.0
+41,223,"China, mainland",Türkiye,1997,oil_of_tung_nuts,30.0
+41,223,"China, mainland",Türkiye,1998,oil_of_tung_nuts,76.0
+41,223,"China, mainland",Türkiye,1999,oil_of_tung_nuts,76.0
+41,223,"China, mainland",Türkiye,2000,oil_of_tung_nuts,152.0
+41,223,"China, mainland",Türkiye,2001,oil_of_tung_nuts,15.0
+41,223,"China, mainland",Türkiye,2002,oil_of_tung_nuts,61.0
+41,223,"China, mainland",Türkiye,2003,oil_of_tung_nuts,75.0
+41,223,"China, mainland",Türkiye,2004,oil_of_tung_nuts,52.0
+41,223,"China, mainland",Türkiye,2005,oil_of_tung_nuts,106.0
+41,223,"China, mainland",Türkiye,2006,oil_of_tung_nuts,30.0
+11,211,Austria,Switzerland,2006,oil_of_tung_nuts,1.0
+255,194,Belgium,Saudi Arabia,2003,oil_of_tung_nuts,2.0
+79,105,Germany,Israel,1994,oil_of_tung_nuts,30.0
+79,105,Germany,Israel,1996,oil_of_tung_nuts,1.0
+41,230,"China, mainland",Ukraine,2000,oil_of_tung_nuts,10.0
+41,230,"China, mainland",Ukraine,2001,oil_of_tung_nuts,15.0
+41,230,"China, mainland",Ukraine,2004,oil_of_tung_nuts,15.0
+41,230,"China, mainland",Ukraine,2005,oil_of_tung_nuts,15.0
+41,230,"China, mainland",Ukraine,2006,oil_of_tung_nuts,15.0
+229,114,United Kingdom of Great Britain and Northern Ireland,Kenya,1995,oil_of_tung_nuts,3.0
+202,181,South Africa,Zimbabwe,1997,oil_of_tung_nuts,1.0
+202,181,South Africa,Zimbabwe,2003,oil_of_tung_nuts,1.0
+41,225,"China, mainland",United Arab Emirates,1995,oil_of_tung_nuts,15.0
+41,225,"China, mainland",United Arab Emirates,1997,oil_of_tung_nuts,30.0
+41,225,"China, mainland",United Arab Emirates,1998,oil_of_tung_nuts,46.0
+41,225,"China, mainland",United Arab Emirates,2005,oil_of_tung_nuts,6.0
+150,89,Netherlands (Kingdom of the),Guatemala,1995,oil_of_tung_nuts,1.0
+203,143,Spain,Morocco,1993,oil_of_tung_nuts,4.0
+203,143,Spain,Morocco,1999,oil_of_tung_nuts,1.0
+229,119,United Kingdom of Great Britain and Northern Ireland,Latvia,1996,oil_of_tung_nuts,15.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1987,oil_of_tung_nuts,488.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1988,oil_of_tung_nuts,190.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1989,oil_of_tung_nuts,139.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,155.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1991,oil_of_tung_nuts,48.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1992,oil_of_tung_nuts,106.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1993,oil_of_tung_nuts,349.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1994,oil_of_tung_nuts,497.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1995,oil_of_tung_nuts,281.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,304.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1997,oil_of_tung_nuts,288.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1998,oil_of_tung_nuts,617.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1999,oil_of_tung_nuts,456.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2000,oil_of_tung_nuts,350.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2001,oil_of_tung_nuts,441.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2002,oil_of_tung_nuts,395.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2003,oil_of_tung_nuts,380.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2004,oil_of_tung_nuts,459.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2005,oil_of_tung_nuts,461.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2006,oil_of_tung_nuts,408.0
+211,231,Switzerland,United States of America,2003,oil_of_tung_nuts,3.0
+79,106,Germany,Italy,1991,oil_of_tung_nuts,3.0
+79,106,Germany,Italy,1993,oil_of_tung_nuts,3.0
+79,106,Germany,Italy,1994,oil_of_tung_nuts,25.0
+79,106,Germany,Italy,1999,oil_of_tung_nuts,23.0
+79,106,Germany,Italy,2000,oil_of_tung_nuts,23.0
+79,106,Germany,Italy,2006,oil_of_tung_nuts,1.0
+41,215,"China, mainland",United Republic of Tanzania,1988,oil_of_tung_nuts,3.0
+41,215,"China, mainland",United Republic of Tanzania,1990,oil_of_tung_nuts,4.0
+255,202,Belgium,South Africa,2000,oil_of_tung_nuts,1.0
+41,231,"China, mainland",United States of America,1987,oil_of_tung_nuts,891.0
+41,231,"China, mainland",United States of America,1988,oil_of_tung_nuts,578.0
+41,231,"China, mainland",United States of America,1989,oil_of_tung_nuts,400.0
+41,231,"China, mainland",United States of America,1990,oil_of_tung_nuts,415.0
+41,231,"China, mainland",United States of America,1991,oil_of_tung_nuts,135.0
+41,231,"China, mainland",United States of America,1992,oil_of_tung_nuts,348.0
+41,231,"China, mainland",United States of America,1993,oil_of_tung_nuts,532.0
+41,231,"China, mainland",United States of America,1994,oil_of_tung_nuts,659.0
+41,231,"China, mainland",United States of America,1995,oil_of_tung_nuts,400.0
+41,231,"China, mainland",United States of America,1996,oil_of_tung_nuts,653.0
+41,231,"China, mainland",United States of America,1997,oil_of_tung_nuts,1813.0
+41,231,"China, mainland",United States of America,1998,oil_of_tung_nuts,1685.0
+41,231,"China, mainland",United States of America,1999,oil_of_tung_nuts,2295.0
+41,231,"China, mainland",United States of America,2000,oil_of_tung_nuts,2419.0
+41,231,"China, mainland",United States of America,2001,oil_of_tung_nuts,1767.0
+41,231,"China, mainland",United States of America,2002,oil_of_tung_nuts,978.0
+41,231,"China, mainland",United States of America,2003,oil_of_tung_nuts,319.0
+41,231,"China, mainland",United States of America,2004,oil_of_tung_nuts,615.0
+41,231,"China, mainland",United States of America,2005,oil_of_tung_nuts,565.0
+41,231,"China, mainland",United States of America,2006,oil_of_tung_nuts,700.0
+54,231,Denmark,United States of America,2003,oil_of_tung_nuts,17.0
+255,203,Belgium,Spain,2001,oil_of_tung_nuts,1.0
+255,203,Belgium,Spain,2002,oil_of_tung_nuts,2.0
+255,203,Belgium,Spain,2003,oil_of_tung_nuts,5.0
+255,203,Belgium,Spain,2004,oil_of_tung_nuts,4.0
+255,203,Belgium,Spain,2005,oil_of_tung_nuts,9.0
+255,203,Belgium,Spain,2006,oil_of_tung_nuts,20.0
+231,106,United States of America,Italy,1999,oil_of_tung_nuts,1.0
+231,106,United States of America,Italy,2003,oil_of_tung_nuts,1.0
+11,229,Austria,United Kingdom of Great Britain and Northern Ireland,2006,oil_of_tung_nuts,1.0
+41,228,"China, mainland",USSR,1987,oil_of_tung_nuts,5811.0
+41,228,"China, mainland",USSR,1988,oil_of_tung_nuts,7205.0
+41,228,"China, mainland",USSR,1989,oil_of_tung_nuts,7558.0
+150,99,Netherlands (Kingdom of the),Iceland,2005,oil_of_tung_nuts,1.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),2004,oil_of_tung_nuts,15.0
+41,237,"China, mainland",Viet Nam,1993,oil_of_tung_nuts,274.0
+41,237,"China, mainland",Viet Nam,2002,oil_of_tung_nuts,1.0
+41,237,"China, mainland",Viet Nam,2004,oil_of_tung_nuts,15.0
+41,237,"China, mainland",Viet Nam,2005,oil_of_tung_nuts,15.0
+41,237,"China, mainland",Viet Nam,2006,oil_of_tung_nuts,15.0
+68,106,France,Italy,1987,oil_of_tung_nuts,36.0
+68,106,France,Italy,1988,oil_of_tung_nuts,75.0
+68,106,France,Italy,1989,oil_of_tung_nuts,39.0
+68,106,France,Italy,1993,oil_of_tung_nuts,27.0
+41,181,"China, mainland",Zimbabwe,1997,oil_of_tung_nuts,1.0
+41,181,"China, mainland",Zimbabwe,2000,oil_of_tung_nuts,2.0
+41,181,"China, mainland",Zimbabwe,2001,oil_of_tung_nuts,2.0
+41,181,"China, mainland",Zimbabwe,2002,oil_of_tung_nuts,2.0
+41,181,"China, mainland",Zimbabwe,2003,oil_of_tung_nuts,2.0
+41,181,"China, mainland",Zimbabwe,2004,oil_of_tung_nuts,2.0
+11,248,Austria,Yugoslav SFR,1986,oil_of_tung_nuts,2.0
+11,248,Austria,Yugoslav SFR,1987,oil_of_tung_nuts,3.0
+11,248,Austria,Yugoslav SFR,1988,oil_of_tung_nuts,3.0
+11,248,Austria,Yugoslav SFR,1989,oil_of_tung_nuts,7.0
+11,248,Austria,Yugoslav SFR,1990,oil_of_tung_nuts,2.0
+11,248,Austria,Yugoslav SFR,1991,oil_of_tung_nuts,3.0
+231,110,United States of America,Japan,1989,oil_of_tung_nuts,2.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1987,oil_of_tung_nuts,10.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1988,oil_of_tung_nuts,7.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1989,oil_of_tung_nuts,45.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1990,oil_of_tung_nuts,10.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1993,oil_of_tung_nuts,15.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1995,oil_of_tung_nuts,10.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1997,oil_of_tung_nuts,6.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1998,oil_of_tung_nuts,3.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),2004,oil_of_tung_nuts,8.0
+229,144,United Kingdom of Great Britain and Northern Ireland,Mozambique,1988,oil_of_tung_nuts,8.0
+229,144,United Kingdom of Great Britain and Northern Ireland,Mozambique,1989,oil_of_tung_nuts,5.0
+229,144,United Kingdom of Great Britain and Northern Ireland,Mozambique,1990,oil_of_tung_nuts,6.0
+229,144,United Kingdom of Great Britain and Northern Ireland,Mozambique,1993,oil_of_tung_nuts,3.0
+150,104,Netherlands (Kingdom of the),Ireland,2004,oil_of_tung_nuts,25.0
+150,104,Netherlands (Kingdom of the),Ireland,2006,oil_of_tung_nuts,25.0
+255,223,Belgium,Türkiye,2000,oil_of_tung_nuts,15.0
+33,231,Canada,United States of America,1988,oil_of_tung_nuts,15.0
+33,231,Canada,United States of America,1995,oil_of_tung_nuts,6.0
+33,231,Canada,United States of America,1997,oil_of_tung_nuts,1.0
+33,231,Canada,United States of America,1998,oil_of_tung_nuts,4.0
+33,231,Canada,United States of America,2000,oil_of_tung_nuts,2.0
+33,231,Canada,United States of America,2002,oil_of_tung_nuts,2.0
+33,231,Canada,United States of America,2005,oil_of_tung_nuts,17.0
+33,231,Canada,United States of America,2006,oil_of_tung_nuts,23.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2001,oil_of_tung_nuts,23.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2004,oil_of_tung_nuts,7.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,5.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2006,oil_of_tung_nuts,5.0
+150,105,Netherlands (Kingdom of the),Israel,1987,oil_of_tung_nuts,1.0
+150,105,Netherlands (Kingdom of the),Israel,1998,oil_of_tung_nuts,5.0
+150,105,Netherlands (Kingdom of the),Israel,1999,oil_of_tung_nuts,6.0
+150,105,Netherlands (Kingdom of the),Israel,2000,oil_of_tung_nuts,15.0
+150,105,Netherlands (Kingdom of the),Israel,2005,oil_of_tung_nuts,12.0
+79,256,Germany,Luxembourg,2006,oil_of_tung_nuts,1.0
+229,156,United Kingdom of Great Britain and Northern Ireland,New Zealand,1991,oil_of_tung_nuts,2.0
+229,156,United Kingdom of Great Britain and Northern Ireland,New Zealand,1992,oil_of_tung_nuts,2.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2000,oil_of_tung_nuts,203.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2001,oil_of_tung_nuts,245.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2002,oil_of_tung_nuts,157.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2003,oil_of_tung_nuts,257.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2004,oil_of_tung_nuts,380.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2005,oil_of_tung_nuts,175.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2006,oil_of_tung_nuts,78.0
+203,174,Spain,Portugal,1996,oil_of_tung_nuts,32.0
+203,174,Spain,Portugal,1997,oil_of_tung_nuts,46.0
+203,174,Spain,Portugal,1998,oil_of_tung_nuts,40.0
+203,174,Spain,Portugal,1999,oil_of_tung_nuts,7.0
+203,174,Spain,Portugal,2000,oil_of_tung_nuts,41.0
+203,174,Spain,Portugal,2001,oil_of_tung_nuts,21.0
+203,174,Spain,Portugal,2002,oil_of_tung_nuts,21.0
+203,174,Spain,Portugal,2003,oil_of_tung_nuts,15.0
+203,174,Spain,Portugal,2004,oil_of_tung_nuts,26.0
+203,174,Spain,Portugal,2006,oil_of_tung_nuts,15.0
+106,162,Italy,Norway,2006,oil_of_tung_nuts,1.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,1992,oil_of_tung_nuts,1.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,1993,oil_of_tung_nuts,3.0
+229,159,United Kingdom of Great Britain and Northern Ireland,Nigeria,1994,oil_of_tung_nuts,1.0
+150,106,Netherlands (Kingdom of the),Italy,1986,oil_of_tung_nuts,241.0
+150,106,Netherlands (Kingdom of the),Italy,1987,oil_of_tung_nuts,160.0
+150,106,Netherlands (Kingdom of the),Italy,1988,oil_of_tung_nuts,108.0
+150,106,Netherlands (Kingdom of the),Italy,1989,oil_of_tung_nuts,266.0
+150,106,Netherlands (Kingdom of the),Italy,1990,oil_of_tung_nuts,20.0
+150,106,Netherlands (Kingdom of the),Italy,1991,oil_of_tung_nuts,37.0
+150,106,Netherlands (Kingdom of the),Italy,1992,oil_of_tung_nuts,12.0
+150,106,Netherlands (Kingdom of the),Italy,1993,oil_of_tung_nuts,199.0
+150,106,Netherlands (Kingdom of the),Italy,1994,oil_of_tung_nuts,67.0
+150,106,Netherlands (Kingdom of the),Italy,1995,oil_of_tung_nuts,2.0
+150,106,Netherlands (Kingdom of the),Italy,1996,oil_of_tung_nuts,31.0
+150,106,Netherlands (Kingdom of the),Italy,1997,oil_of_tung_nuts,20.0
+150,106,Netherlands (Kingdom of the),Italy,1998,oil_of_tung_nuts,21.0
+150,106,Netherlands (Kingdom of the),Italy,2000,oil_of_tung_nuts,1.0
+150,106,Netherlands (Kingdom of the),Italy,2001,oil_of_tung_nuts,1.0
+150,106,Netherlands (Kingdom of the),Italy,2005,oil_of_tung_nuts,11.0
+150,106,Netherlands (Kingdom of the),Italy,2006,oil_of_tung_nuts,2.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,1987,oil_of_tung_nuts,3.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,1992,oil_of_tung_nuts,13.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,1993,oil_of_tung_nuts,12.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,1997,oil_of_tung_nuts,3.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2004,oil_of_tung_nuts,54.0
+255,237,Belgium,Viet Nam,2001,oil_of_tung_nuts,15.0
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,1993,oil_of_tung_nuts,6.0
+229,165,United Kingdom of Great Britain and Northern Ireland,Pakistan,1997,oil_of_tung_nuts,1.0
+231,138,United States of America,Mexico,1989,oil_of_tung_nuts,43.0
+231,138,United States of America,Mexico,1990,oil_of_tung_nuts,48.0
+231,138,United States of America,Mexico,1991,oil_of_tung_nuts,103.0
+231,138,United States of America,Mexico,1992,oil_of_tung_nuts,107.0
+231,138,United States of America,Mexico,1993,oil_of_tung_nuts,102.0
+231,138,United States of America,Mexico,1994,oil_of_tung_nuts,62.0
+231,138,United States of America,Mexico,1995,oil_of_tung_nuts,39.0
+231,138,United States of America,Mexico,1996,oil_of_tung_nuts,81.0
+231,138,United States of America,Mexico,1997,oil_of_tung_nuts,31.0
+231,138,United States of America,Mexico,1998,oil_of_tung_nuts,64.0
+231,138,United States of America,Mexico,1999,oil_of_tung_nuts,19.0
+231,138,United States of America,Mexico,2000,oil_of_tung_nuts,11.0
+231,138,United States of America,Mexico,2003,oil_of_tung_nuts,2.0
+231,138,United States of America,Mexico,2004,oil_of_tung_nuts,14.0
+231,138,United States of America,Mexico,2005,oil_of_tung_nuts,10.0
+231,138,United States of America,Mexico,2006,oil_of_tung_nuts,14.0
+106,173,Italy,Poland,1986,oil_of_tung_nuts,4.0
+203,194,Spain,Saudi Arabia,1996,oil_of_tung_nuts,1.0
+229,171,United Kingdom of Great Britain and Northern Ireland,Philippines,1992,oil_of_tung_nuts,16.0
+229,171,United Kingdom of Great Britain and Northern Ireland,Philippines,1993,oil_of_tung_nuts,5.0
+150,118,Netherlands (Kingdom of the),Kuwait,1993,oil_of_tung_nuts,1.0
+150,118,Netherlands (Kingdom of the),Kuwait,1994,oil_of_tung_nuts,1.0
+150,118,Netherlands (Kingdom of the),Kuwait,2000,oil_of_tung_nuts,1.0
+150,118,Netherlands (Kingdom of the),Kuwait,2002,oil_of_tung_nuts,9.0
+79,150,Germany,Netherlands (Kingdom of the),1991,oil_of_tung_nuts,5.0
+79,150,Germany,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,3.0
+79,150,Germany,Netherlands (Kingdom of the),1994,oil_of_tung_nuts,12.0
+79,150,Germany,Netherlands (Kingdom of the),1995,oil_of_tung_nuts,1.0
+79,150,Germany,Netherlands (Kingdom of the),1998,oil_of_tung_nuts,1.0
+79,150,Germany,Netherlands (Kingdom of the),1999,oil_of_tung_nuts,3.0
+150,119,Netherlands (Kingdom of the),Latvia,2003,oil_of_tung_nuts,10.0
+231,150,United States of America,Netherlands (Kingdom of the),1993,oil_of_tung_nuts,5.0
+231,150,United States of America,Netherlands (Kingdom of the),1996,oil_of_tung_nuts,7.0
+231,150,United States of America,Netherlands (Kingdom of the),1997,oil_of_tung_nuts,12.0
+231,150,United States of America,Netherlands (Kingdom of the),1998,oil_of_tung_nuts,18.0
+231,150,United States of America,Netherlands (Kingdom of the),1999,oil_of_tung_nuts,6.0
+231,150,United States of America,Netherlands (Kingdom of the),2000,oil_of_tung_nuts,9.0
+231,150,United States of America,Netherlands (Kingdom of the),2001,oil_of_tung_nuts,26.0
+231,150,United States of America,Netherlands (Kingdom of the),2002,oil_of_tung_nuts,23.0
+231,150,United States of America,Netherlands (Kingdom of the),2004,oil_of_tung_nuts,79.0
+231,150,United States of America,Netherlands (Kingdom of the),2005,oil_of_tung_nuts,19.0
+231,150,United States of America,Netherlands (Kingdom of the),2006,oil_of_tung_nuts,59.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1986,oil_of_tung_nuts,1.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1987,oil_of_tung_nuts,7.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1988,oil_of_tung_nuts,5.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1989,oil_of_tung_nuts,7.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1991,oil_of_tung_nuts,19.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1994,oil_of_tung_nuts,16.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1995,oil_of_tung_nuts,22.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1996,oil_of_tung_nuts,58.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1997,oil_of_tung_nuts,34.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1998,oil_of_tung_nuts,26.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1999,oil_of_tung_nuts,38.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2000,oil_of_tung_nuts,20.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2001,oil_of_tung_nuts,23.0
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,1999,oil_of_tung_nuts,1.0
+229,183,United Kingdom of Great Britain and Northern Ireland,Romania,2000,oil_of_tung_nuts,1.0
+68,143,France,Morocco,1986,oil_of_tung_nuts,3.0
+68,143,France,Morocco,1987,oil_of_tung_nuts,2.0
+68,143,France,Morocco,1988,oil_of_tung_nuts,1.0
+68,143,France,Morocco,1990,oil_of_tung_nuts,4.0
+68,143,France,Morocco,1992,oil_of_tung_nuts,5.0
+68,143,France,Morocco,1993,oil_of_tung_nuts,2.0
+229,185,United Kingdom of Great Britain and Northern Ireland,Russian Federation,1994,oil_of_tung_nuts,16.0
+229,185,United Kingdom of Great Britain and Northern Ireland,Russian Federation,2000,oil_of_tung_nuts,7.0
+79,162,Germany,Norway,1996,oil_of_tung_nuts,2.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1988,oil_of_tung_nuts,1.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1990,oil_of_tung_nuts,3.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1992,oil_of_tung_nuts,1.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1993,oil_of_tung_nuts,5.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1994,oil_of_tung_nuts,2.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1997,oil_of_tung_nuts,8.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,1998,oil_of_tung_nuts,1.0
+229,194,United Kingdom of Great Britain and Northern Ireland,Saudi Arabia,2000,oil_of_tung_nuts,2.0
+229,197,United Kingdom of Great Britain and Northern Ireland,Sierra Leone,1986,oil_of_tung_nuts,47.0
+229,197,United Kingdom of Great Britain and Northern Ireland,Sierra Leone,1987,oil_of_tung_nuts,4.0
+68,150,France,Netherlands (Kingdom of the),1990,oil_of_tung_nuts,38.0
+68,150,France,Netherlands (Kingdom of the),1992,oil_of_tung_nuts,12.0
+79,170,Germany,Peru,1994,oil_of_tung_nuts,8.0
+79,170,Germany,Peru,1995,oil_of_tung_nuts,1.0
+231,166,United States of America,Panama,1989,oil_of_tung_nuts,1.0
+229,200,United Kingdom of Great Britain and Northern Ireland,Singapore,1989,oil_of_tung_nuts,1.0
+79,173,Germany,Poland,1991,oil_of_tung_nuts,97.0
+79,173,Germany,Poland,1994,oil_of_tung_nuts,27.0
+79,173,Germany,Poland,1996,oil_of_tung_nuts,50.0
+79,173,Germany,Poland,1999,oil_of_tung_nuts,7.0
+79,173,Germany,Poland,2001,oil_of_tung_nuts,3.0
+79,173,Germany,Poland,2002,oil_of_tung_nuts,12.0
+79,173,Germany,Poland,2003,oil_of_tung_nuts,4.0
+79,173,Germany,Poland,2004,oil_of_tung_nuts,2.0
+79,173,Germany,Poland,2006,oil_of_tung_nuts,6.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1988,oil_of_tung_nuts,1.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1991,oil_of_tung_nuts,2.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1992,oil_of_tung_nuts,7.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1993,oil_of_tung_nuts,9.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1994,oil_of_tung_nuts,6.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1999,oil_of_tung_nuts,6.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,15.0
+79,174,Germany,Portugal,1993,oil_of_tung_nuts,25.0
+79,174,Germany,Portugal,1994,oil_of_tung_nuts,27.0
+79,174,Germany,Portugal,1995,oil_of_tung_nuts,16.0
+79,174,Germany,Portugal,1998,oil_of_tung_nuts,3.0
+79,174,Germany,Portugal,1999,oil_of_tung_nuts,6.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1995,oil_of_tung_nuts,1.0
+68,165,France,Pakistan,1990,oil_of_tung_nuts,1.0
+68,165,France,Pakistan,1993,oil_of_tung_nuts,1.0
+229,38,United Kingdom of Great Britain and Northern Ireland,Sri Lanka,1991,oil_of_tung_nuts,2.0
+229,38,United Kingdom of Great Britain and Northern Ireland,Sri Lanka,1993,oil_of_tung_nuts,1.0
+231,117,United States of America,Republic of Korea,1991,oil_of_tung_nuts,3.0
+231,117,United States of America,Republic of Korea,1995,oil_of_tung_nuts,12.0
+231,117,United States of America,Republic of Korea,1999,oil_of_tung_nuts,9.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1990,oil_of_tung_nuts,3.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1994,oil_of_tung_nuts,18.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1997,oil_of_tung_nuts,3.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1998,oil_of_tung_nuts,3.0
+79,183,Germany,Romania,2000,oil_of_tung_nuts,2.0
+150,162,Netherlands (Kingdom of the),Norway,1996,oil_of_tung_nuts,7.0
+150,162,Netherlands (Kingdom of the),Norway,1997,oil_of_tung_nuts,6.0
+150,162,Netherlands (Kingdom of the),Norway,1998,oil_of_tung_nuts,4.0
+150,162,Netherlands (Kingdom of the),Norway,2002,oil_of_tung_nuts,10.0
+150,162,Netherlands (Kingdom of the),Norway,2003,oil_of_tung_nuts,4.0
+150,162,Netherlands (Kingdom of the),Norway,2004,oil_of_tung_nuts,2.0
+150,162,Netherlands (Kingdom of the),Norway,2005,oil_of_tung_nuts,5.0
+150,162,Netherlands (Kingdom of the),Norway,2006,oil_of_tung_nuts,15.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1986,oil_of_tung_nuts,2.0
+79,185,Germany,Russian Federation,1992,oil_of_tung_nuts,26.0
+231,188,United States of America,Saint Kitts and Nevis,1999,oil_of_tung_nuts,16.0
+150,165,Netherlands (Kingdom of the),Pakistan,1986,oil_of_tung_nuts,17.0
+150,165,Netherlands (Kingdom of the),Pakistan,1987,oil_of_tung_nuts,15.0
+231,189,United States of America,Saint Lucia,1998,oil_of_tung_nuts,3.0
+229,216,United Kingdom of Great Britain and Northern Ireland,Thailand,1992,oil_of_tung_nuts,1.0
+79,194,Germany,Saudi Arabia,1991,oil_of_tung_nuts,6.0
+150,170,Netherlands (Kingdom of the),Peru,1988,oil_of_tung_nuts,1.0
+150,170,Netherlands (Kingdom of the),Peru,2000,oil_of_tung_nuts,1.0
+150,170,Netherlands (Kingdom of the),Peru,2004,oil_of_tung_nuts,3.0
+150,171,Netherlands (Kingdom of the),Philippines,1986,oil_of_tung_nuts,4.0
+229,220,United Kingdom of Great Britain and Northern Ireland,Trinidad and Tobago,1994,oil_of_tung_nuts,3.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,1991,oil_of_tung_nuts,5.0
+150,173,Netherlands (Kingdom of the),Poland,1993,oil_of_tung_nuts,43.0
+150,173,Netherlands (Kingdom of the),Poland,1995,oil_of_tung_nuts,69.0
+150,173,Netherlands (Kingdom of the),Poland,1996,oil_of_tung_nuts,17.0
+150,173,Netherlands (Kingdom of the),Poland,1997,oil_of_tung_nuts,145.0
+150,173,Netherlands (Kingdom of the),Poland,1998,oil_of_tung_nuts,130.0
+150,173,Netherlands (Kingdom of the),Poland,1999,oil_of_tung_nuts,28.0
+150,173,Netherlands (Kingdom of the),Poland,2005,oil_of_tung_nuts,24.0
+229,230,United Kingdom of Great Britain and Northern Ireland,Ukraine,1994,oil_of_tung_nuts,16.0
+229,230,United Kingdom of Great Britain and Northern Ireland,Ukraine,1995,oil_of_tung_nuts,16.0
+229,230,United Kingdom of Great Britain and Northern Ireland,Ukraine,2001,oil_of_tung_nuts,5.0
+229,230,United Kingdom of Great Britain and Northern Ireland,Ukraine,2004,oil_of_tung_nuts,2.0
+229,230,United Kingdom of Great Britain and Northern Ireland,Ukraine,2005,oil_of_tung_nuts,4.0
+150,174,Netherlands (Kingdom of the),Portugal,1986,oil_of_tung_nuts,22.0
+150,174,Netherlands (Kingdom of the),Portugal,1987,oil_of_tung_nuts,30.0
+150,174,Netherlands (Kingdom of the),Portugal,1988,oil_of_tung_nuts,11.0
+150,174,Netherlands (Kingdom of the),Portugal,1989,oil_of_tung_nuts,3.0
+150,174,Netherlands (Kingdom of the),Portugal,1990,oil_of_tung_nuts,4.0
+150,174,Netherlands (Kingdom of the),Portugal,1991,oil_of_tung_nuts,16.0
+150,174,Netherlands (Kingdom of the),Portugal,1992,oil_of_tung_nuts,76.0
+150,174,Netherlands (Kingdom of the),Portugal,1993,oil_of_tung_nuts,50.0
+150,174,Netherlands (Kingdom of the),Portugal,1994,oil_of_tung_nuts,35.0
+150,174,Netherlands (Kingdom of the),Portugal,1995,oil_of_tung_nuts,59.0
+150,174,Netherlands (Kingdom of the),Portugal,1996,oil_of_tung_nuts,10.0
+150,174,Netherlands (Kingdom of the),Portugal,1997,oil_of_tung_nuts,1.0
+150,174,Netherlands (Kingdom of the),Portugal,1998,oil_of_tung_nuts,1.0
+150,174,Netherlands (Kingdom of the),Portugal,2002,oil_of_tung_nuts,5.0
+79,198,Germany,Slovenia,1994,oil_of_tung_nuts,2.0
+79,198,Germany,Slovenia,1995,oil_of_tung_nuts,2.0
+79,198,Germany,Slovenia,1996,oil_of_tung_nuts,3.0
+79,198,Germany,Slovenia,1997,oil_of_tung_nuts,2.0
+79,198,Germany,Slovenia,1999,oil_of_tung_nuts,2.0
+79,198,Germany,Slovenia,2000,oil_of_tung_nuts,2.0
+79,198,Germany,Slovenia,2006,oil_of_tung_nuts,1.0
+150,179,Netherlands (Kingdom of the),Qatar,1986,oil_of_tung_nuts,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,23.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1993,oil_of_tung_nuts,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2001,oil_of_tung_nuts,2.0
+68,194,France,Saudi Arabia,1989,oil_of_tung_nuts,1.0
+229,228,United Kingdom of Great Britain and Northern Ireland,USSR,1991,oil_of_tung_nuts,36.0
+231,210,United States of America,Sweden,1997,oil_of_tung_nuts,7.0
+231,210,United States of America,Sweden,1999,oil_of_tung_nuts,10.0
+231,210,United States of America,Sweden,2004,oil_of_tung_nuts,1.0
+79,203,Germany,Spain,1993,oil_of_tung_nuts,45.0
+79,203,Germany,Spain,1994,oil_of_tung_nuts,53.0
+79,203,Germany,Spain,1995,oil_of_tung_nuts,38.0
+79,203,Germany,Spain,1996,oil_of_tung_nuts,37.0
+150,183,Netherlands (Kingdom of the),Romania,1998,oil_of_tung_nuts,5.0
+229,181,United Kingdom of Great Britain and Northern Ireland,Zimbabwe,1992,oil_of_tung_nuts,1.0
+150,185,Netherlands (Kingdom of the),Russian Federation,1999,oil_of_tung_nuts,25.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2000,oil_of_tung_nuts,20.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2002,oil_of_tung_nuts,3.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2006,oil_of_tung_nuts,1.0
+231,216,United States of America,Thailand,1994,oil_of_tung_nuts,16.0
+106,248,Italy,Yugoslav SFR,1991,oil_of_tung_nuts,1.0
+79,210,Germany,Sweden,2005,oil_of_tung_nuts,30.0
+231,220,United States of America,Trinidad and Tobago,1992,oil_of_tung_nuts,14.0
+79,211,Germany,Switzerland,1991,oil_of_tung_nuts,10.0
+79,211,Germany,Switzerland,1992,oil_of_tung_nuts,5.0
+79,211,Germany,Switzerland,1993,oil_of_tung_nuts,5.0
+79,211,Germany,Switzerland,1994,oil_of_tung_nuts,19.0
+79,211,Germany,Switzerland,1995,oil_of_tung_nuts,13.0
+79,211,Germany,Switzerland,1996,oil_of_tung_nuts,5.0
+79,211,Germany,Switzerland,1997,oil_of_tung_nuts,21.0
+79,211,Germany,Switzerland,1998,oil_of_tung_nuts,6.0
+79,211,Germany,Switzerland,1999,oil_of_tung_nuts,5.0
+79,211,Germany,Switzerland,2001,oil_of_tung_nuts,6.0
+79,211,Germany,Switzerland,2002,oil_of_tung_nuts,32.0
+79,211,Germany,Switzerland,2003,oil_of_tung_nuts,16.0
+79,211,Germany,Switzerland,2004,oil_of_tung_nuts,2.0
+79,211,Germany,Switzerland,2005,oil_of_tung_nuts,9.0
+150,200,Netherlands (Kingdom of the),Singapore,1988,oil_of_tung_nuts,3.0
+68,203,France,Spain,1995,oil_of_tung_nuts,4.0
+150,198,Netherlands (Kingdom of the),Slovenia,1999,oil_of_tung_nuts,10.0
+79,222,Germany,Tunisia,2005,oil_of_tung_nuts,20.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1989,oil_of_tung_nuts,3.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,2.0
+79,223,Germany,Türkiye,1991,oil_of_tung_nuts,45.0
+79,223,Germany,Türkiye,1992,oil_of_tung_nuts,68.0
+79,223,Germany,Türkiye,1993,oil_of_tung_nuts,33.0
+79,223,Germany,Türkiye,1994,oil_of_tung_nuts,2.0
+79,223,Germany,Türkiye,1995,oil_of_tung_nuts,10.0
+79,223,Germany,Türkiye,1996,oil_of_tung_nuts,7.0
+79,223,Germany,Türkiye,1997,oil_of_tung_nuts,18.0
+79,223,Germany,Türkiye,1998,oil_of_tung_nuts,17.0
+79,223,Germany,Türkiye,1999,oil_of_tung_nuts,11.0
+79,223,Germany,Türkiye,2000,oil_of_tung_nuts,13.0
+150,202,Netherlands (Kingdom of the),South Africa,1986,oil_of_tung_nuts,1.0
+150,202,Netherlands (Kingdom of the),South Africa,1995,oil_of_tung_nuts,5.0
+150,202,Netherlands (Kingdom of the),South Africa,1997,oil_of_tung_nuts,8.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1997,oil_of_tung_nuts,2.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),1998,oil_of_tung_nuts,2.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2001,oil_of_tung_nuts,7.0
+79,230,Germany,Ukraine,2004,oil_of_tung_nuts,8.0
+68,211,France,Switzerland,1987,oil_of_tung_nuts,3.0
+68,211,France,Switzerland,2004,oil_of_tung_nuts,1.0
+68,211,France,Switzerland,2005,oil_of_tung_nuts,10.0
+68,211,France,Switzerland,2006,oil_of_tung_nuts,10.0
+150,203,Netherlands (Kingdom of the),Spain,1994,oil_of_tung_nuts,30.0
+150,203,Netherlands (Kingdom of the),Spain,1996,oil_of_tung_nuts,20.0
+150,203,Netherlands (Kingdom of the),Spain,1997,oil_of_tung_nuts,20.0
+150,203,Netherlands (Kingdom of the),Spain,1999,oil_of_tung_nuts,6.0
+150,203,Netherlands (Kingdom of the),Spain,2000,oil_of_tung_nuts,1.0
+150,203,Netherlands (Kingdom of the),Spain,2003,oil_of_tung_nuts,36.0
+150,203,Netherlands (Kingdom of the),Spain,2004,oil_of_tung_nuts,18.0
+150,203,Netherlands (Kingdom of the),Spain,2005,oil_of_tung_nuts,53.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1994,oil_of_tung_nuts,5.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1995,oil_of_tung_nuts,25.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,6.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1997,oil_of_tung_nuts,2.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2004,oil_of_tung_nuts,1.0
+68,217,France,Togo,1988,oil_of_tung_nuts,4.0
+68,222,France,Tunisia,1993,oil_of_tung_nuts,4.0
+150,210,Netherlands (Kingdom of the),Sweden,1987,oil_of_tung_nuts,5.0
+150,210,Netherlands (Kingdom of the),Sweden,1989,oil_of_tung_nuts,7.0
+150,210,Netherlands (Kingdom of the),Sweden,1991,oil_of_tung_nuts,5.0
+150,210,Netherlands (Kingdom of the),Sweden,1993,oil_of_tung_nuts,8.0
+150,210,Netherlands (Kingdom of the),Sweden,1994,oil_of_tung_nuts,8.0
+150,210,Netherlands (Kingdom of the),Sweden,1995,oil_of_tung_nuts,38.0
+150,210,Netherlands (Kingdom of the),Sweden,1996,oil_of_tung_nuts,87.0
+150,210,Netherlands (Kingdom of the),Sweden,1997,oil_of_tung_nuts,18.0
+150,210,Netherlands (Kingdom of the),Sweden,1998,oil_of_tung_nuts,62.0
+150,210,Netherlands (Kingdom of the),Sweden,1999,oil_of_tung_nuts,22.0
+150,210,Netherlands (Kingdom of the),Sweden,2000,oil_of_tung_nuts,18.0
+150,210,Netherlands (Kingdom of the),Sweden,2001,oil_of_tung_nuts,16.0
+150,210,Netherlands (Kingdom of the),Sweden,2002,oil_of_tung_nuts,8.0
+150,210,Netherlands (Kingdom of the),Sweden,2003,oil_of_tung_nuts,38.0
+150,210,Netherlands (Kingdom of the),Sweden,2004,oil_of_tung_nuts,13.0
+150,210,Netherlands (Kingdom of the),Sweden,2005,oil_of_tung_nuts,10.0
+150,211,Netherlands (Kingdom of the),Switzerland,1986,oil_of_tung_nuts,31.0
+150,211,Netherlands (Kingdom of the),Switzerland,1993,oil_of_tung_nuts,47.0
+150,211,Netherlands (Kingdom of the),Switzerland,1994,oil_of_tung_nuts,19.0
+150,211,Netherlands (Kingdom of the),Switzerland,1997,oil_of_tung_nuts,28.0
+150,211,Netherlands (Kingdom of the),Switzerland,1998,oil_of_tung_nuts,180.0
+150,211,Netherlands (Kingdom of the),Switzerland,1999,oil_of_tung_nuts,106.0
+150,211,Netherlands (Kingdom of the),Switzerland,2000,oil_of_tung_nuts,46.0
+150,211,Netherlands (Kingdom of the),Switzerland,2001,oil_of_tung_nuts,72.0
+150,211,Netherlands (Kingdom of the),Switzerland,2002,oil_of_tung_nuts,46.0
+150,211,Netherlands (Kingdom of the),Switzerland,2003,oil_of_tung_nuts,69.0
+150,211,Netherlands (Kingdom of the),Switzerland,2004,oil_of_tung_nuts,11.0
+150,211,Netherlands (Kingdom of the),Switzerland,2005,oil_of_tung_nuts,11.0
+150,212,Netherlands (Kingdom of the),Syrian Arab Republic,1988,oil_of_tung_nuts,25.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1992,oil_of_tung_nuts,2.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1993,oil_of_tung_nuts,2.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,1.0
+150,222,Netherlands (Kingdom of the),Tunisia,1988,oil_of_tung_nuts,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,1993,oil_of_tung_nuts,11.0
+150,223,Netherlands (Kingdom of the),Türkiye,1996,oil_of_tung_nuts,4.0
+150,223,Netherlands (Kingdom of the),Türkiye,1997,oil_of_tung_nuts,9.0
+150,223,Netherlands (Kingdom of the),Türkiye,1998,oil_of_tung_nuts,6.0
+150,223,Netherlands (Kingdom of the),Türkiye,1999,oil_of_tung_nuts,52.0
+150,223,Netherlands (Kingdom of the),Türkiye,2000,oil_of_tung_nuts,29.0
+150,223,Netherlands (Kingdom of the),Türkiye,2005,oil_of_tung_nuts,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,2006,oil_of_tung_nuts,1.0
+68,231,France,United States of America,1992,oil_of_tung_nuts,1.0
+68,231,France,United States of America,1997,oil_of_tung_nuts,1.0
+68,231,France,United States of America,1998,oil_of_tung_nuts,1.0
+68,231,France,United States of America,1999,oil_of_tung_nuts,1.0
+150,225,Netherlands (Kingdom of the),United Arab Emirates,2003,oil_of_tung_nuts,1.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1986,oil_of_tung_nuts,201.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1987,oil_of_tung_nuts,108.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1988,oil_of_tung_nuts,22.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1989,oil_of_tung_nuts,340.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,oil_of_tung_nuts,22.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1993,oil_of_tung_nuts,67.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1994,oil_of_tung_nuts,96.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1995,oil_of_tung_nuts,209.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1996,oil_of_tung_nuts,153.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1997,oil_of_tung_nuts,44.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1998,oil_of_tung_nuts,118.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1999,oil_of_tung_nuts,639.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2000,oil_of_tung_nuts,350.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2001,oil_of_tung_nuts,164.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2002,oil_of_tung_nuts,288.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2003,oil_of_tung_nuts,147.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2004,oil_of_tung_nuts,70.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2005,oil_of_tung_nuts,56.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2006,oil_of_tung_nuts,2.0
+150,236,Netherlands (Kingdom of the),Venezuela (Bolivarian Republic of),1986,oil_of_tung_nuts,4.0
+150,236,Netherlands (Kingdom of the),Venezuela (Bolivarian Republic of),1987,oil_of_tung_nuts,10.0

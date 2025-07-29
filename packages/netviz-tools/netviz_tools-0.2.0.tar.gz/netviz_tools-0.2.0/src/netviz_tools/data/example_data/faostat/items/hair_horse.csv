@@ -1,0 +1,2966 @@
+o_code,d_code,o_name,d_name,year,item,weight
+44,2,Colombia,Afghanistan,1990,hair_horse,3.0
+141,11,Mongolia,Austria,1997,hair_horse,16.0
+141,11,Mongolia,Austria,1999,hair_horse,19.0
+169,9,Paraguay,Argentina,1996,hair_horse,100.0
+169,9,Paraguay,Argentina,1999,hair_horse,19.0
+169,9,Paraguay,Argentina,2001,hair_horse,1.0
+169,9,Paraguay,Argentina,2003,hair_horse,200.0
+141,96,Mongolia,"China, Hong Kong SAR",2001,hair_horse,3.0
+141,96,Mongolia,"China, Hong Kong SAR",2003,hair_horse,3.0
+234,9,Uruguay,Argentina,1992,hair_horse,3.0
+141,41,Mongolia,"China, mainland",1997,hair_horse,209.0
+141,41,Mongolia,"China, mainland",1998,hair_horse,293.0
+141,41,Mongolia,"China, mainland",1999,hair_horse,280.0
+141,41,Mongolia,"China, mainland",2000,hair_horse,390.0
+141,41,Mongolia,"China, mainland",2001,hair_horse,782.0
+141,41,Mongolia,"China, mainland",2002,hair_horse,593.0
+141,41,Mongolia,"China, mainland",2003,hair_horse,772.0
+141,41,Mongolia,"China, mainland",2004,hair_horse,760.0
+141,41,Mongolia,"China, mainland",2005,hair_horse,811.0
+141,41,Mongolia,"China, mainland",2006,hair_horse,820.0
+113,41,Kyrgyzstan,"China, mainland",2001,hair_horse,5.0
+113,41,Kyrgyzstan,"China, mainland",2004,hair_horse,13.0
+174,7,Portugal,Angola,1988,hair_horse,1.0
+9,11,Argentina,Austria,1989,hair_horse,2.0
+41,9,"China, mainland",Argentina,1993,hair_horse,5.0
+41,9,"China, mainland",Argentina,1994,hair_horse,15.0
+41,9,"China, mainland",Argentina,1998,hair_horse,2.0
+41,9,"China, mainland",Argentina,1999,hair_horse,4.0
+41,9,"China, mainland",Argentina,2000,hair_horse,1.0
+41,9,"China, mainland",Argentina,2001,hair_horse,1.0
+199,11,Slovakia,Austria,2000,hair_horse,2.0
+169,11,Paraguay,Austria,1996,hair_horse,9.0
+169,11,Paraguay,Austria,1998,hair_horse,19.0
+169,255,Paraguay,Belgium,2005,hair_horse,30.0
+9,255,Argentina,Belgium,2006,hair_horse,4.0
+75,81,Gambia,Ghana,1999,hair_horse,15.0
+143,15,Morocco,Belgium-Luxembourg,1986,hair_horse,10.0
+143,15,Morocco,Belgium-Luxembourg,1988,hair_horse,4.0
+143,15,Morocco,Belgium-Luxembourg,1989,hair_horse,5.0
+143,15,Morocco,Belgium-Luxembourg,1992,hair_horse,5.0
+198,11,Slovenia,Austria,2000,hair_horse,2.0
+141,79,Mongolia,Germany,1997,hair_horse,32.0
+141,79,Mongolia,Germany,1998,hair_horse,49.0
+141,79,Mongolia,Germany,1999,hair_horse,18.0
+141,79,Mongolia,Germany,2000,hair_horse,3.0
+141,79,Mongolia,Germany,2001,hair_horse,3.0
+141,79,Mongolia,Germany,2002,hair_horse,3.0
+141,79,Mongolia,Germany,2003,hair_horse,2.0
+167,11,Czechia,Austria,1994,hair_horse,3.0
+38,13,Sri Lanka,Bahrain,1996,hair_horse,1.0
+97,11,Hungary,Austria,1992,hair_horse,57.0
+169,21,Paraguay,Brazil,1996,hair_horse,2.0
+169,21,Paraguay,Brazil,1997,hair_horse,12.0
+169,21,Paraguay,Brazil,1998,hair_horse,18.0
+169,21,Paraguay,Brazil,1999,hair_horse,3.0
+41,10,"China, mainland",Australia,1991,hair_horse,2.0
+41,10,"China, mainland",Australia,1992,hair_horse,9.0
+41,10,"China, mainland",Australia,1993,hair_horse,12.0
+41,10,"China, mainland",Australia,1995,hair_horse,8.0
+41,10,"China, mainland",Australia,1996,hair_horse,12.0
+41,10,"China, mainland",Australia,1997,hair_horse,7.0
+41,10,"China, mainland",Australia,1998,hair_horse,9.0
+41,10,"China, mainland",Australia,1999,hair_horse,12.0
+41,10,"China, mainland",Australia,2000,hair_horse,6.0
+41,10,"China, mainland",Australia,2001,hair_horse,9.0
+41,10,"China, mainland",Australia,2002,hair_horse,4.0
+41,10,"China, mainland",Australia,2003,hair_horse,6.0
+41,10,"China, mainland",Australia,2004,hair_horse,7.0
+41,10,"China, mainland",Australia,2005,hair_horse,6.0
+41,10,"China, mainland",Australia,2006,hair_horse,15.0
+173,11,Poland,Austria,2006,hair_horse,3.0
+234,15,Uruguay,Belgium-Luxembourg,1993,hair_horse,5.0
+234,19,Uruguay,Bolivia (Plurinational State of),1993,hair_horse,2.0
+231,9,United States of America,Argentina,1990,hair_horse,29.0
+231,9,United States of America,Argentina,1997,hair_horse,3.0
+231,9,United States of America,Argentina,1998,hair_horse,18.0
+138,23,Mexico,Belize,1986,hair_horse,6.0
+209,202,Eswatini,South Africa,2003,hair_horse,26.0
+33,10,Canada,Australia,1988,hair_horse,1.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,1999,hair_horse,1.0
+229,10,United Kingdom of Great Britain and Northern Ireland,Australia,2002,hair_horse,1.0
+150,9,Netherlands (Kingdom of the),Argentina,1991,hair_horse,4.0
+150,9,Netherlands (Kingdom of the),Argentina,1992,hair_horse,8.0
+150,9,Netherlands (Kingdom of the),Argentina,1993,hair_horse,6.0
+150,9,Netherlands (Kingdom of the),Argentina,1997,hair_horse,1.0
+84,11,Greece,Austria,1987,hair_horse,31.0
+84,11,Greece,Austria,1988,hair_horse,38.0
+84,11,Greece,Austria,1989,hair_horse,3.0
+84,11,Greece,Austria,1996,hair_horse,3.0
+234,21,Uruguay,Brazil,1986,hair_horse,13.0
+234,21,Uruguay,Brazil,1987,hair_horse,32.0
+234,21,Uruguay,Brazil,1988,hair_horse,9.0
+234,21,Uruguay,Brazil,1989,hair_horse,19.0
+234,21,Uruguay,Brazil,1990,hair_horse,12.0
+234,21,Uruguay,Brazil,1991,hair_horse,14.0
+234,21,Uruguay,Brazil,1992,hair_horse,5.0
+234,21,Uruguay,Brazil,1995,hair_horse,4.0
+234,21,Uruguay,Brazil,1996,hair_horse,3.0
+234,21,Uruguay,Brazil,1997,hair_horse,2.0
+236,44,Venezuela (Bolivarian Republic of),Colombia,2003,hair_horse,3.0
+169,40,Paraguay,Chile,1998,hair_horse,2.0
+169,40,Paraguay,Chile,2006,hair_horse,1.0
+211,11,Switzerland,Austria,1986,hair_horse,4.0
+211,11,Switzerland,Austria,1987,hair_horse,14.0
+211,11,Switzerland,Austria,1988,hair_horse,24.0
+211,11,Switzerland,Austria,1989,hair_horse,35.0
+211,11,Switzerland,Austria,1990,hair_horse,39.0
+211,11,Switzerland,Austria,1991,hair_horse,28.0
+211,11,Switzerland,Austria,1992,hair_horse,33.0
+211,11,Switzerland,Austria,1993,hair_horse,33.0
+211,11,Switzerland,Austria,1994,hair_horse,31.0
+211,11,Switzerland,Austria,1995,hair_horse,11.0
+211,11,Switzerland,Austria,1996,hair_horse,4.0
+211,11,Switzerland,Austria,1997,hair_horse,3.0
+211,11,Switzerland,Austria,1998,hair_horse,1.0
+211,11,Switzerland,Austria,1999,hair_horse,1.0
+211,11,Switzerland,Austria,2000,hair_horse,4.0
+211,11,Switzerland,Austria,2001,hair_horse,5.0
+211,11,Switzerland,Austria,2002,hair_horse,1.0
+211,11,Switzerland,Austria,2004,hair_horse,3.0
+211,11,Switzerland,Austria,2006,hair_horse,5.0
+9,21,Argentina,Brazil,1986,hair_horse,36.0
+33,11,Canada,Austria,1992,hair_horse,3.0
+169,41,Paraguay,"China, mainland",2005,hair_horse,17.0
+169,41,Paraguay,"China, mainland",2006,hair_horse,46.0
+96,21,"China, Hong Kong SAR",Brazil,1995,hair_horse,1.0
+100,13,India,Bahrain,1997,hair_horse,1.0
+114,68,Kenya,France,2006,hair_horse,6.0
+141,185,Mongolia,Russian Federation,1999,hair_horse,17.0
+141,185,Mongolia,Russian Federation,2000,hair_horse,17.0
+141,185,Mongolia,Russian Federation,2002,hair_horse,9.0
+141,185,Mongolia,Russian Federation,2004,hair_horse,7.0
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,1990,hair_horse,1.0
+137,68,Mauritius,France,2002,hair_horse,2.0
+231,10,United States of America,Australia,1993,hair_horse,12.0
+169,79,Paraguay,Germany,1991,hair_horse,19.0
+169,79,Paraguay,Germany,1993,hair_horse,57.0
+169,79,Paraguay,Germany,1994,hair_horse,158.0
+169,79,Paraguay,Germany,1995,hair_horse,28.0
+169,79,Paraguay,Germany,1996,hair_horse,285.0
+169,79,Paraguay,Germany,1997,hair_horse,252.0
+169,79,Paraguay,Germany,1998,hair_horse,172.0
+169,79,Paraguay,Germany,1999,hair_horse,93.0
+169,79,Paraguay,Germany,2000,hair_horse,67.0
+169,79,Paraguay,Germany,2001,hair_horse,136.0
+169,79,Paraguay,Germany,2002,hair_horse,50.0
+169,79,Paraguay,Germany,2003,hair_horse,283.0
+169,79,Paraguay,Germany,2004,hair_horse,420.0
+169,79,Paraguay,Germany,2005,hair_horse,402.0
+169,79,Paraguay,Germany,2006,hair_horse,286.0
+169,79,Paraguay,Germany,2007,hair_horse,11.0
+95,89,Honduras,Guatemala,1989,hair_horse,2.0
+181,150,Zimbabwe,Netherlands (Kingdom of the),1987,hair_horse,1.0
+226,114,Uganda,Kenya,1996,hair_horse,25.0
+96,33,"China, Hong Kong SAR",Canada,1989,hair_horse,6.0
+96,33,"China, Hong Kong SAR",Canada,1990,hair_horse,15.0
+96,33,"China, Hong Kong SAR",Canada,1991,hair_horse,1.0
+114,79,Kenya,Germany,2005,hair_horse,1.0
+58,79,Ecuador,Germany,1995,hair_horse,1.0
+234,41,Uruguay,"China, mainland",2003,hair_horse,18.0
+234,41,Uruguay,"China, mainland",2004,hair_horse,58.0
+234,41,Uruguay,"China, mainland",2005,hair_horse,72.0
+234,41,Uruguay,"China, mainland",2006,hair_horse,45.0
+169,106,Paraguay,Italy,2004,hair_horse,3.0
+169,106,Paraguay,Italy,2005,hair_horse,1.0
+169,106,Paraguay,Italy,2006,hair_horse,4.0
+215,106,United Republic of Tanzania,Italy,2001,hair_horse,1.0
+234,44,Uruguay,Colombia,1991,hair_horse,1.0
+41,255,"China, mainland",Belgium,2000,hair_horse,46.0
+41,255,"China, mainland",Belgium,2001,hair_horse,74.0
+41,255,"China, mainland",Belgium,2002,hair_horse,102.0
+41,255,"China, mainland",Belgium,2003,hair_horse,50.0
+41,255,"China, mainland",Belgium,2004,hair_horse,40.0
+41,255,"China, mainland",Belgium,2005,hair_horse,19.0
+41,255,"China, mainland",Belgium,2006,hair_horse,39.0
+141,231,Mongolia,United States of America,2003,hair_horse,20.0
+21,255,Brazil,Belgium,2001,hair_horse,5.0
+20,229,Botswana,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,5.0
+169,138,Paraguay,Mexico,2005,hair_horse,5.0
+169,138,Paraguay,Mexico,2006,hair_horse,9.0
+181,202,Zimbabwe,South Africa,1994,hair_horse,14.0
+169,150,Paraguay,Netherlands (Kingdom of the),1986,hair_horse,66.0
+169,150,Paraguay,Netherlands (Kingdom of the),1987,hair_horse,78.0
+169,150,Paraguay,Netherlands (Kingdom of the),1989,hair_horse,139.0
+169,150,Paraguay,Netherlands (Kingdom of the),1990,hair_horse,154.0
+169,150,Paraguay,Netherlands (Kingdom of the),1991,hair_horse,175.0
+169,150,Paraguay,Netherlands (Kingdom of the),1992,hair_horse,219.0
+169,150,Paraguay,Netherlands (Kingdom of the),1993,hair_horse,191.0
+169,150,Paraguay,Netherlands (Kingdom of the),1994,hair_horse,135.0
+169,150,Paraguay,Netherlands (Kingdom of the),1995,hair_horse,16.0
+169,150,Paraguay,Netherlands (Kingdom of the),1996,hair_horse,44.0
+169,150,Paraguay,Netherlands (Kingdom of the),1997,hair_horse,50.0
+169,150,Paraguay,Netherlands (Kingdom of the),1998,hair_horse,31.0
+169,150,Paraguay,Netherlands (Kingdom of the),1999,hair_horse,10.0
+169,150,Paraguay,Netherlands (Kingdom of the),2000,hair_horse,187.0
+169,150,Paraguay,Netherlands (Kingdom of the),2001,hair_horse,359.0
+169,150,Paraguay,Netherlands (Kingdom of the),2002,hair_horse,55.0
+169,150,Paraguay,Netherlands (Kingdom of the),2003,hair_horse,67.0
+169,150,Paraguay,Netherlands (Kingdom of the),2005,hair_horse,41.0
+169,150,Paraguay,Netherlands (Kingdom of the),2006,hair_horse,174.0
+41,15,"China, mainland",Belgium-Luxembourg,1987,hair_horse,34.0
+41,15,"China, mainland",Belgium-Luxembourg,1988,hair_horse,40.0
+41,15,"China, mainland",Belgium-Luxembourg,1989,hair_horse,32.0
+41,15,"China, mainland",Belgium-Luxembourg,1990,hair_horse,46.0
+41,15,"China, mainland",Belgium-Luxembourg,1991,hair_horse,1.0
+41,15,"China, mainland",Belgium-Luxembourg,1992,hair_horse,50.0
+41,15,"China, mainland",Belgium-Luxembourg,1993,hair_horse,60.0
+41,15,"China, mainland",Belgium-Luxembourg,1994,hair_horse,27.0
+41,15,"China, mainland",Belgium-Luxembourg,1995,hair_horse,46.0
+41,15,"China, mainland",Belgium-Luxembourg,1996,hair_horse,72.0
+41,15,"China, mainland",Belgium-Luxembourg,1997,hair_horse,12.0
+41,15,"China, mainland",Belgium-Luxembourg,1998,hair_horse,60.0
+41,15,"China, mainland",Belgium-Luxembourg,1999,hair_horse,48.0
+143,68,Morocco,France,1991,hair_horse,4.0
+229,13,United Kingdom of Great Britain and Northern Ireland,Bahrain,1990,hair_horse,1.0
+169,158,Paraguay,Niger,2005,hair_horse,14.0
+79,11,Germany,Austria,1991,hair_horse,104.0
+79,11,Germany,Austria,1992,hair_horse,28.0
+79,11,Germany,Austria,1993,hair_horse,40.0
+79,11,Germany,Austria,1994,hair_horse,50.0
+79,11,Germany,Austria,1995,hair_horse,48.0
+79,11,Germany,Austria,1996,hair_horse,33.0
+79,11,Germany,Austria,1997,hair_horse,87.0
+79,11,Germany,Austria,1998,hair_horse,88.0
+79,11,Germany,Austria,1999,hair_horse,63.0
+79,11,Germany,Austria,2000,hair_horse,41.0
+79,11,Germany,Austria,2001,hair_horse,24.0
+79,11,Germany,Austria,2002,hair_horse,21.0
+79,11,Germany,Austria,2003,hair_horse,24.0
+79,11,Germany,Austria,2004,hair_horse,22.0
+79,11,Germany,Austria,2005,hair_horse,11.0
+79,11,Germany,Austria,2006,hair_horse,15.0
+68,11,France,Austria,1994,hair_horse,9.0
+68,11,France,Austria,1998,hair_horse,9.0
+68,11,France,Austria,1999,hair_horse,13.0
+68,11,France,Austria,2000,hair_horse,9.0
+68,11,France,Austria,2001,hair_horse,21.0
+68,11,France,Austria,2002,hair_horse,2.0
+68,11,France,Austria,2003,hair_horse,6.0
+68,11,France,Austria,2004,hair_horse,2.0
+68,11,France,Austria,2005,hair_horse,5.0
+68,11,France,Austria,2006,hair_horse,5.0
+150,11,Netherlands (Kingdom of the),Austria,1986,hair_horse,64.0
+150,11,Netherlands (Kingdom of the),Austria,1987,hair_horse,36.0
+150,11,Netherlands (Kingdom of the),Austria,1988,hair_horse,36.0
+150,11,Netherlands (Kingdom of the),Austria,1989,hair_horse,39.0
+150,11,Netherlands (Kingdom of the),Austria,1990,hair_horse,19.0
+150,11,Netherlands (Kingdom of the),Austria,1991,hair_horse,4.0
+150,11,Netherlands (Kingdom of the),Austria,1992,hair_horse,1.0
+150,11,Netherlands (Kingdom of the),Austria,1993,hair_horse,2.0
+150,11,Netherlands (Kingdom of the),Austria,1994,hair_horse,1.0
+150,11,Netherlands (Kingdom of the),Austria,1995,hair_horse,11.0
+150,11,Netherlands (Kingdom of the),Austria,1996,hair_horse,16.0
+150,11,Netherlands (Kingdom of the),Austria,1998,hair_horse,2.0
+150,11,Netherlands (Kingdom of the),Austria,1999,hair_horse,2.0
+150,11,Netherlands (Kingdom of the),Austria,2001,hair_horse,26.0
+150,11,Netherlands (Kingdom of the),Austria,2002,hair_horse,5.0
+150,11,Netherlands (Kingdom of the),Austria,2003,hair_horse,1.0
+234,68,Uruguay,France,1986,hair_horse,5.0
+234,68,Uruguay,France,1988,hair_horse,2.0
+234,68,Uruguay,France,1989,hair_horse,2.0
+234,68,Uruguay,France,1990,hair_horse,2.0
+234,68,Uruguay,France,1992,hair_horse,2.0
+234,68,Uruguay,France,1993,hair_horse,3.0
+147,202,Namibia,South Africa,2000,hair_horse,1.0
+199,167,Slovakia,Czechia,1994,hair_horse,20.0
+20,181,Botswana,Zimbabwe,1991,hair_horse,63.0
+101,96,Indonesia,"China, Hong Kong SAR",1999,hair_horse,2.0
+101,96,Indonesia,"China, Hong Kong SAR",2000,hair_horse,1.0
+106,11,Italy,Austria,1986,hair_horse,5.0
+106,11,Italy,Austria,1994,hair_horse,3.0
+106,11,Italy,Austria,1996,hair_horse,1.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1994,hair_horse,2.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1995,hair_horse,12.0
+117,96,Republic of Korea,"China, Hong Kong SAR",1996,hair_horse,2.0
+234,79,Uruguay,Germany,1991,hair_horse,147.0
+234,79,Uruguay,Germany,1992,hair_horse,170.0
+234,79,Uruguay,Germany,1993,hair_horse,152.0
+234,79,Uruguay,Germany,1994,hair_horse,71.0
+234,79,Uruguay,Germany,1995,hair_horse,43.0
+234,79,Uruguay,Germany,1996,hair_horse,54.0
+234,79,Uruguay,Germany,1999,hair_horse,9.0
+234,79,Uruguay,Germany,2003,hair_horse,10.0
+234,79,Uruguay,Germany,2004,hair_horse,19.0
+234,79,Uruguay,Germany,2005,hair_horse,36.0
+41,21,"China, mainland",Brazil,1994,hair_horse,18.0
+41,21,"China, mainland",Brazil,1995,hair_horse,15.0
+41,21,"China, mainland",Brazil,1996,hair_horse,3.0
+41,21,"China, mainland",Brazil,1997,hair_horse,15.0
+41,21,"China, mainland",Brazil,1998,hair_horse,3.0
+41,21,"China, mainland",Brazil,1999,hair_horse,5.0
+41,21,"China, mainland",Brazil,2000,hair_horse,11.0
+41,21,"China, mainland",Brazil,2001,hair_horse,6.0
+41,21,"China, mainland",Brazil,2002,hair_horse,5.0
+41,21,"China, mainland",Brazil,2003,hair_horse,3.0
+41,21,"China, mainland",Brazil,2004,hair_horse,4.0
+41,21,"China, mainland",Brazil,2005,hair_horse,4.0
+41,21,"China, mainland",Brazil,2006,hair_horse,3.0
+21,19,Brazil,Bolivia (Plurinational State of),1987,hair_horse,3.0
+169,203,Paraguay,Spain,1999,hair_horse,9.0
+169,203,Paraguay,Spain,2003,hair_horse,9.0
+169,203,Paraguay,Spain,2004,hair_horse,19.0
+169,203,Paraguay,Spain,2005,hair_horse,14.0
+169,203,Paraguay,Spain,2006,hair_horse,14.0
+44,67,Colombia,Finland,1988,hair_horse,5.0
+234,84,Uruguay,Greece,1987,hair_horse,5.0
+234,84,Uruguay,Greece,1988,hair_horse,10.0
+234,84,Uruguay,Greece,1992,hair_horse,7.0
+234,84,Uruguay,Greece,1993,hair_horse,7.0
+234,84,Uruguay,Greece,1994,hair_horse,8.0
+234,84,Uruguay,Greece,1995,hair_horse,10.0
+234,84,Uruguay,Greece,1996,hair_horse,4.0
+169,211,Paraguay,Switzerland,1986,hair_horse,2.0
+169,211,Paraguay,Switzerland,1994,hair_horse,4.0
+169,211,Paraguay,Switzerland,1996,hair_horse,58.0
+169,211,Paraguay,Switzerland,1997,hair_horse,38.0
+169,211,Paraguay,Switzerland,1998,hair_horse,29.0
+169,211,Paraguay,Switzerland,1999,hair_horse,50.0
+169,211,Paraguay,Switzerland,2000,hair_horse,32.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1991,hair_horse,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1992,hair_horse,7.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1993,hair_horse,3.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1994,hair_horse,4.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1995,hair_horse,1.0
+214,96,"China, Taiwan Province of","China, Hong Kong SAR",1996,hair_horse,1.0
+211,15,Switzerland,Belgium-Luxembourg,1998,hair_horse,7.0
+169,208,Paraguay,Tajikistan,2003,hair_horse,1.0
+44,68,Colombia,France,1986,hair_horse,1.0
+10,96,Australia,"China, Hong Kong SAR",1998,hair_horse,6.0
+110,96,Japan,"China, Hong Kong SAR",1999,hair_horse,1.0
+234,97,Uruguay,Hungary,1987,hair_horse,10.0
+234,97,Uruguay,Hungary,1988,hair_horse,6.0
+9,41,Argentina,"China, mainland",1997,hair_horse,53.0
+9,41,Argentina,"China, mainland",2001,hair_horse,20.0
+9,41,Argentina,"China, mainland",2004,hair_horse,34.0
+9,41,Argentina,"China, mainland",2005,hair_horse,56.0
+9,41,Argentina,"China, mainland",2006,hair_horse,14.0
+169,229,Paraguay,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,10.0
+169,229,Paraguay,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,12.0
+169,229,Paraguay,United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,10.0
+185,41,Russian Federation,"China, mainland",2000,hair_horse,2.0
+185,41,Russian Federation,"China, mainland",2001,hair_horse,2.0
+15,68,Belgium-Luxembourg,France,1986,hair_horse,10.0
+15,68,Belgium-Luxembourg,France,1987,hair_horse,26.0
+15,68,Belgium-Luxembourg,France,1990,hair_horse,1.0
+15,68,Belgium-Luxembourg,France,1992,hair_horse,2.0
+15,68,Belgium-Luxembourg,France,1993,hair_horse,2.0
+15,68,Belgium-Luxembourg,France,1994,hair_horse,4.0
+15,68,Belgium-Luxembourg,France,1995,hair_horse,6.0
+15,68,Belgium-Luxembourg,France,1996,hair_horse,1.0
+15,68,Belgium-Luxembourg,France,1998,hair_horse,3.0
+15,68,Belgium-Luxembourg,France,1999,hair_horse,2.0
+40,44,Chile,Colombia,1988,hair_horse,10.0
+41,27,"China, mainland",Bulgaria,1987,hair_horse,5.0
+41,27,"China, mainland",Bulgaria,1990,hair_horse,5.0
+41,27,"China, mainland",Bulgaria,1994,hair_horse,4.0
+41,27,"China, mainland",Bulgaria,1995,hair_horse,2.0
+41,27,"China, mainland",Bulgaria,1996,hair_horse,4.0
+41,27,"China, mainland",Bulgaria,1997,hair_horse,6.0
+41,27,"China, mainland",Bulgaria,1998,hair_horse,2.0
+41,27,"China, mainland",Bulgaria,1999,hair_horse,4.0
+41,27,"China, mainland",Bulgaria,2000,hair_horse,5.0
+41,27,"China, mainland",Bulgaria,2001,hair_horse,5.0
+41,27,"China, mainland",Bulgaria,2002,hair_horse,6.0
+41,27,"China, mainland",Bulgaria,2003,hair_horse,3.0
+41,27,"China, mainland",Bulgaria,2004,hair_horse,2.0
+41,27,"China, mainland",Bulgaria,2005,hair_horse,2.0
+41,27,"China, mainland",Bulgaria,2006,hair_horse,5.0
+234,105,Uruguay,Israel,1990,hair_horse,1.0
+169,231,Paraguay,United States of America,1990,hair_horse,1.0
+169,231,Paraguay,United States of America,2001,hair_horse,18.0
+169,231,Paraguay,United States of America,2002,hair_horse,7.0
+169,231,Paraguay,United States of America,2003,hair_horse,45.0
+169,231,Paraguay,United States of America,2004,hair_horse,60.0
+169,231,Paraguay,United States of America,2005,hair_horse,74.0
+169,231,Paraguay,United States of America,2006,hair_horse,54.0
+143,79,Morocco,Germany,1991,hair_horse,5.0
+143,79,Morocco,Germany,1992,hair_horse,35.0
+143,79,Morocco,Germany,1993,hair_horse,28.0
+234,106,Uruguay,Italy,1991,hair_horse,1.0
+44,79,Colombia,Germany,1991,hair_horse,15.0
+44,79,Colombia,Germany,1992,hair_horse,3.0
+44,79,Colombia,Germany,1993,hair_horse,12.0
+44,79,Colombia,Germany,1994,hair_horse,8.0
+44,79,Colombia,Germany,1995,hair_horse,2.0
+44,79,Colombia,Germany,1996,hair_horse,1.0
+44,79,Colombia,Germany,1997,hair_horse,2.0
+44,79,Colombia,Germany,1999,hair_horse,2.0
+44,79,Colombia,Germany,2001,hair_horse,12.0
+44,79,Colombia,Germany,2002,hair_horse,12.0
+44,79,Colombia,Germany,2003,hair_horse,4.0
+44,79,Colombia,Germany,2004,hair_horse,5.0
+44,79,Colombia,Germany,2005,hair_horse,12.0
+44,79,Colombia,Germany,2006,hair_horse,17.0
+215,150,United Republic of Tanzania,Netherlands (Kingdom of the),2008,hair_horse,3.0
+101,41,Indonesia,"China, mainland",2003,hair_horse,10.0
+101,41,Indonesia,"China, mainland",2005,hair_horse,40.0
+117,41,Republic of Korea,"China, mainland",1995,hair_horse,1.0
+117,41,Republic of Korea,"China, mainland",1998,hair_horse,1.0
+117,41,Republic of Korea,"China, mainland",2004,hair_horse,6.0
+117,41,Republic of Korea,"China, mainland",2005,hair_horse,1.0
+234,110,Uruguay,Japan,1991,hair_horse,1.0
+234,110,Uruguay,Japan,1996,hair_horse,6.0
+9,44,Argentina,Colombia,1988,hair_horse,1.0
+67,63,Finland,Estonia,1996,hair_horse,3.0
+67,63,Finland,Estonia,1997,hair_horse,3.0
+67,63,Finland,Estonia,1998,hair_horse,2.0
+67,63,Finland,Estonia,1999,hair_horse,2.0
+67,63,Finland,Estonia,2000,hair_horse,3.0
+67,63,Finland,Estonia,2001,hair_horse,1.0
+67,63,Finland,Estonia,2003,hair_horse,1.0
+67,63,Finland,Estonia,2004,hair_horse,1.0
+198,98,Slovenia,Croatia,1992,hair_horse,6.0
+198,98,Slovenia,Croatia,1993,hair_horse,5.0
+198,98,Slovenia,Croatia,1996,hair_horse,1.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2000,hair_horse,3.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2001,hair_horse,6.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2002,hair_horse,10.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2003,hair_horse,10.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2004,hair_horse,8.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2005,hair_horse,9.0
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2006,hair_horse,5.0
+131,96,Malaysia,"China, Hong Kong SAR",1987,hair_horse,1.0
+41,33,"China, mainland",Canada,1987,hair_horse,1.0
+41,33,"China, mainland",Canada,1994,hair_horse,1.0
+150,13,Netherlands (Kingdom of the),Bahrain,1990,hair_horse,1.0
+110,41,Japan,"China, mainland",1986,hair_horse,10.0
+110,41,Japan,"China, mainland",1989,hair_horse,8.0
+110,41,Japan,"China, mainland",1990,hair_horse,5.0
+110,41,Japan,"China, mainland",1991,hair_horse,6.0
+110,41,Japan,"China, mainland",1992,hair_horse,6.0
+110,41,Japan,"China, mainland",1994,hair_horse,3.0
+110,41,Japan,"China, mainland",1995,hair_horse,4.0
+110,41,Japan,"China, mainland",1996,hair_horse,4.0
+110,41,Japan,"China, mainland",1997,hair_horse,1.0
+110,41,Japan,"China, mainland",1998,hair_horse,4.0
+110,41,Japan,"China, mainland",1999,hair_horse,10.0
+110,41,Japan,"China, mainland",2000,hair_horse,1.0
+110,41,Japan,"China, mainland",2001,hair_horse,1.0
+110,41,Japan,"China, mainland",2002,hair_horse,2.0
+110,41,Japan,"China, mainland",2004,hair_horse,1.0
+110,41,Japan,"China, mainland",2005,hair_horse,2.0
+96,41,"China, Hong Kong SAR","China, mainland",1988,hair_horse,1.0
+96,41,"China, Hong Kong SAR","China, mainland",1989,hair_horse,2.0
+96,41,"China, Hong Kong SAR","China, mainland",1990,hair_horse,3.0
+96,41,"China, Hong Kong SAR","China, mainland",1991,hair_horse,3.0
+96,41,"China, Hong Kong SAR","China, mainland",1992,hair_horse,2.0
+96,41,"China, Hong Kong SAR","China, mainland",1993,hair_horse,15.0
+96,41,"China, Hong Kong SAR","China, mainland",1994,hair_horse,6.0
+96,41,"China, Hong Kong SAR","China, mainland",1995,hair_horse,4.0
+96,41,"China, Hong Kong SAR","China, mainland",1996,hair_horse,12.0
+96,41,"China, Hong Kong SAR","China, mainland",1998,hair_horse,6.0
+96,41,"China, Hong Kong SAR","China, mainland",2001,hair_horse,5.0
+96,41,"China, Hong Kong SAR","China, mainland",2002,hair_horse,1.0
+234,150,Uruguay,Netherlands (Kingdom of the),1986,hair_horse,72.0
+234,150,Uruguay,Netherlands (Kingdom of the),1987,hair_horse,63.0
+234,150,Uruguay,Netherlands (Kingdom of the),1988,hair_horse,66.0
+234,150,Uruguay,Netherlands (Kingdom of the),1989,hair_horse,49.0
+234,150,Uruguay,Netherlands (Kingdom of the),1990,hair_horse,64.0
+234,150,Uruguay,Netherlands (Kingdom of the),1991,hair_horse,53.0
+234,150,Uruguay,Netherlands (Kingdom of the),1992,hair_horse,94.0
+234,150,Uruguay,Netherlands (Kingdom of the),1993,hair_horse,139.0
+234,150,Uruguay,Netherlands (Kingdom of the),1994,hair_horse,209.0
+234,150,Uruguay,Netherlands (Kingdom of the),1995,hair_horse,119.0
+234,150,Uruguay,Netherlands (Kingdom of the),1996,hair_horse,129.0
+234,150,Uruguay,Netherlands (Kingdom of the),1997,hair_horse,203.0
+234,150,Uruguay,Netherlands (Kingdom of the),1998,hair_horse,173.0
+234,150,Uruguay,Netherlands (Kingdom of the),1999,hair_horse,124.0
+234,150,Uruguay,Netherlands (Kingdom of the),2000,hair_horse,167.0
+234,150,Uruguay,Netherlands (Kingdom of the),2001,hair_horse,118.0
+234,150,Uruguay,Netherlands (Kingdom of the),2002,hair_horse,130.0
+234,150,Uruguay,Netherlands (Kingdom of the),2003,hair_horse,116.0
+234,150,Uruguay,Netherlands (Kingdom of the),2004,hair_horse,86.0
+234,150,Uruguay,Netherlands (Kingdom of the),2005,hair_horse,107.0
+234,150,Uruguay,Netherlands (Kingdom of the),2006,hair_horse,145.0
+214,41,"China, Taiwan Province of","China, mainland",2006,hair_horse,10.0
+9,50,Argentina,Cyprus,1988,hair_horse,4.0
+10,41,Australia,"China, mainland",1991,hair_horse,11.0
+10,41,Australia,"China, mainland",1994,hair_horse,10.0
+10,41,Australia,"China, mainland",1995,hair_horse,11.0
+10,41,Australia,"China, mainland",1996,hair_horse,4.0
+9,54,Argentina,Denmark,1989,hair_horse,4.0
+101,214,Indonesia,"China, Taiwan Province of",2000,hair_horse,10.0
+101,214,Indonesia,"China, Taiwan Province of",2003,hair_horse,1.0
+234,169,Uruguay,Paraguay,1992,hair_horse,10.0
+234,169,Uruguay,Paraguay,1993,hair_horse,26.0
+234,169,Uruguay,Paraguay,1994,hair_horse,12.0
+234,169,Uruguay,Paraguay,1995,hair_horse,24.0
+234,169,Uruguay,Paraguay,1996,hair_horse,55.0
+234,169,Uruguay,Paraguay,1997,hair_horse,3.0
+234,169,Uruguay,Paraguay,1998,hair_horse,14.0
+234,169,Uruguay,Paraguay,1999,hair_horse,10.0
+234,169,Uruguay,Paraguay,2000,hair_horse,28.0
+234,169,Uruguay,Paraguay,2001,hair_horse,6.0
+234,169,Uruguay,Paraguay,2002,hair_horse,6.0
+234,169,Uruguay,Paraguay,2004,hair_horse,44.0
+234,169,Uruguay,Paraguay,2006,hair_horse,3.0
+107,133,Côte d'Ivoire,Mali,2001,hair_horse,8.0
+41,40,"China, mainland",Chile,1993,hair_horse,6.0
+41,40,"China, mainland",Chile,1994,hair_horse,8.0
+41,40,"China, mainland",Chile,1997,hair_horse,1.0
+41,40,"China, mainland",Chile,1998,hair_horse,5.0
+41,40,"China, mainland",Chile,1999,hair_horse,2.0
+41,40,"China, mainland",Chile,2000,hair_horse,2.0
+41,40,"China, mainland",Chile,2001,hair_horse,3.0
+41,40,"China, mainland",Chile,2002,hair_horse,2.0
+41,40,"China, mainland",Chile,2003,hair_horse,2.0
+41,40,"China, mainland",Chile,2004,hair_horse,2.0
+41,40,"China, mainland",Chile,2005,hair_horse,1.0
+114,184,Kenya,Rwanda,2005,hair_horse,1.0
+234,173,Uruguay,Poland,2001,hair_horse,9.0
+211,33,Switzerland,Canada,1987,hair_horse,8.0
+211,33,Switzerland,Canada,1988,hair_horse,5.0
+211,33,Switzerland,Canada,1989,hair_horse,4.0
+211,33,Switzerland,Canada,1990,hair_horse,1.0
+216,96,Thailand,"China, Hong Kong SAR",2000,hair_horse,17.0
+216,96,Thailand,"China, Hong Kong SAR",2006,hair_horse,6.0
+108,185,Kazakhstan,Russian Federation,1998,hair_horse,1.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1994,hair_horse,2.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1997,hair_horse,2.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1998,hair_horse,4.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1999,hair_horse,1.0
+9,67,Argentina,Finland,1986,hair_horse,2.0
+68,255,France,Belgium,2000,hair_horse,3.0
+68,255,France,Belgium,2001,hair_horse,1.0
+68,255,France,Belgium,2002,hair_horse,1.0
+68,255,France,Belgium,2004,hair_horse,2.0
+68,255,France,Belgium,2005,hair_horse,56.0
+68,255,France,Belgium,2006,hair_horse,1.0
+255,41,Belgium,"China, mainland",2002,hair_horse,18.0
+255,41,Belgium,"China, mainland",2004,hair_horse,5.0
+255,41,Belgium,"China, mainland",2005,hair_horse,5.0
+15,90,Belgium-Luxembourg,Guinea,1992,hair_horse,1.0
+57,185,Belarus,Russian Federation,2001,hair_horse,80.0
+110,214,Japan,"China, Taiwan Province of",1986,hair_horse,5.0
+110,214,Japan,"China, Taiwan Province of",1987,hair_horse,7.0
+110,214,Japan,"China, Taiwan Province of",1989,hair_horse,5.0
+9,68,Argentina,France,1991,hair_horse,33.0
+9,68,Argentina,France,1993,hair_horse,1.0
+9,68,Argentina,France,1994,hair_horse,8.0
+58,231,Ecuador,United States of America,1995,hair_horse,334.0
+15,97,Belgium-Luxembourg,Hungary,1996,hair_horse,1.0
+234,203,Uruguay,Spain,1986,hair_horse,12.0
+234,203,Uruguay,Spain,1987,hair_horse,7.0
+234,203,Uruguay,Spain,1988,hair_horse,11.0
+234,203,Uruguay,Spain,1989,hair_horse,26.0
+234,203,Uruguay,Spain,1990,hair_horse,8.0
+234,203,Uruguay,Spain,1991,hair_horse,18.0
+234,203,Uruguay,Spain,1992,hair_horse,13.0
+234,203,Uruguay,Spain,1993,hair_horse,8.0
+234,203,Uruguay,Spain,1994,hair_horse,3.0
+234,203,Uruguay,Spain,1995,hair_horse,11.0
+234,203,Uruguay,Spain,1996,hair_horse,3.0
+234,203,Uruguay,Spain,1997,hair_horse,5.0
+234,203,Uruguay,Spain,1998,hair_horse,4.0
+231,255,United States of America,Belgium,2003,hair_horse,3.0
+21,41,Brazil,"China, mainland",2001,hair_horse,8.0
+21,41,Brazil,"China, mainland",2004,hair_horse,14.0
+21,41,Brazil,"China, mainland",2005,hair_horse,239.0
+21,41,Brazil,"China, mainland",2006,hair_horse,150.0
+21,41,Brazil,"China, mainland",2007,hair_horse,22.0
+41,96,"China, mainland","China, Hong Kong SAR",1987,hair_horse,25.0
+41,96,"China, mainland","China, Hong Kong SAR",1988,hair_horse,46.0
+41,96,"China, mainland","China, Hong Kong SAR",1989,hair_horse,102.0
+41,96,"China, mainland","China, Hong Kong SAR",1990,hair_horse,84.0
+41,96,"China, mainland","China, Hong Kong SAR",1991,hair_horse,8.0
+41,96,"China, mainland","China, Hong Kong SAR",1992,hair_horse,28.0
+41,96,"China, mainland","China, Hong Kong SAR",1993,hair_horse,41.0
+41,96,"China, mainland","China, Hong Kong SAR",1994,hair_horse,20.0
+41,96,"China, mainland","China, Hong Kong SAR",1995,hair_horse,19.0
+41,96,"China, mainland","China, Hong Kong SAR",1996,hair_horse,6.0
+41,96,"China, mainland","China, Hong Kong SAR",1997,hair_horse,12.0
+41,96,"China, mainland","China, Hong Kong SAR",1998,hair_horse,6.0
+41,96,"China, mainland","China, Hong Kong SAR",1999,hair_horse,5.0
+41,96,"China, mainland","China, Hong Kong SAR",2000,hair_horse,1.0
+41,96,"China, mainland","China, Hong Kong SAR",2001,hair_horse,2.0
+41,96,"China, mainland","China, Hong Kong SAR",2002,hair_horse,1.0
+41,96,"China, mainland","China, Hong Kong SAR",2003,hair_horse,6.0
+41,96,"China, mainland","China, Hong Kong SAR",2004,hair_horse,1.0
+44,150,Colombia,Netherlands (Kingdom of the),2003,hair_horse,6.0
+44,150,Colombia,Netherlands (Kingdom of the),2005,hair_horse,7.0
+33,96,Canada,"China, Hong Kong SAR",1995,hair_horse,14.0
+33,96,Canada,"China, Hong Kong SAR",1996,hair_horse,5.0
+234,210,Uruguay,Sweden,1991,hair_horse,2.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1988,hair_horse,24.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1989,hair_horse,6.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1990,hair_horse,10.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1991,hair_horse,3.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1992,hair_horse,8.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1993,hair_horse,9.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1994,hair_horse,15.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1995,hair_horse,3.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1996,hair_horse,2.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1997,hair_horse,2.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",1998,hair_horse,1.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2001,hair_horse,1.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2002,hair_horse,1.0
+96,214,"China, Hong Kong SAR","China, Taiwan Province of",2003,hair_horse,1.0
+234,211,Uruguay,Switzerland,1986,hair_horse,2.0
+234,211,Uruguay,Switzerland,1987,hair_horse,12.0
+234,211,Uruguay,Switzerland,1988,hair_horse,5.0
+234,211,Uruguay,Switzerland,1989,hair_horse,6.0
+234,211,Uruguay,Switzerland,1990,hair_horse,6.0
+234,211,Uruguay,Switzerland,1991,hair_horse,9.0
+234,211,Uruguay,Switzerland,1992,hair_horse,7.0
+234,211,Uruguay,Switzerland,1994,hair_horse,3.0
+234,211,Uruguay,Switzerland,1995,hair_horse,4.0
+234,211,Uruguay,Switzerland,1996,hair_horse,1.0
+234,211,Uruguay,Switzerland,1997,hair_horse,7.0
+234,211,Uruguay,Switzerland,2000,hair_horse,2.0
+234,211,Uruguay,Switzerland,2005,hair_horse,9.0
+40,79,Chile,Germany,1993,hair_horse,6.0
+9,79,Argentina,Germany,1991,hair_horse,223.0
+9,79,Argentina,Germany,1992,hair_horse,232.0
+9,79,Argentina,Germany,1993,hair_horse,91.0
+9,79,Argentina,Germany,1994,hair_horse,97.0
+9,79,Argentina,Germany,1995,hair_horse,106.0
+9,79,Argentina,Germany,1996,hair_horse,91.0
+9,79,Argentina,Germany,1997,hair_horse,91.0
+9,79,Argentina,Germany,1998,hair_horse,33.0
+9,79,Argentina,Germany,2000,hair_horse,5.0
+9,79,Argentina,Germany,2001,hair_horse,2.0
+9,79,Argentina,Germany,2002,hair_horse,22.0
+9,79,Argentina,Germany,2003,hair_horse,20.0
+9,79,Argentina,Germany,2004,hair_horse,20.0
+9,79,Argentina,Germany,2005,hair_horse,31.0
+9,79,Argentina,Germany,2006,hair_horse,32.0
+150,255,Netherlands (Kingdom of the),Belgium,2000,hair_horse,6.0
+150,255,Netherlands (Kingdom of the),Belgium,2001,hair_horse,5.0
+150,255,Netherlands (Kingdom of the),Belgium,2003,hair_horse,3.0
+150,255,Netherlands (Kingdom of the),Belgium,2004,hair_horse,5.0
+150,255,Netherlands (Kingdom of the),Belgium,2005,hair_horse,5.0
+150,255,Netherlands (Kingdom of the),Belgium,2006,hair_horse,1.0
+231,15,United States of America,Belgium-Luxembourg,1994,hair_horse,17.0
+79,255,Germany,Belgium,2000,hair_horse,1.0
+79,255,Germany,Belgium,2003,hair_horse,1.0
+79,255,Germany,Belgium,2004,hair_horse,4.0
+79,255,Germany,Belgium,2005,hair_horse,17.0
+79,255,Germany,Belgium,2006,hair_horse,1.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,2.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,5.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,5.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,6.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,10.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,30.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,24.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,36.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,29.0
+234,229,Uruguay,United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,19.0
+229,21,United Kingdom of Great Britain and Northern Ireland,Brazil,1995,hair_horse,10.0
+216,41,Thailand,"China, mainland",2002,hair_horse,13.0
+15,105,Belgium-Luxembourg,Israel,1999,hair_horse,1.0
+138,79,Mexico,Germany,1991,hair_horse,6.0
+138,79,Mexico,Germany,1994,hair_horse,5.0
+210,54,Sweden,Denmark,1986,hair_horse,7.0
+210,54,Sweden,Denmark,1987,hair_horse,8.0
+210,54,Sweden,Denmark,1988,hair_horse,11.0
+210,54,Sweden,Denmark,1989,hair_horse,20.0
+210,54,Sweden,Denmark,1990,hair_horse,19.0
+210,54,Sweden,Denmark,1991,hair_horse,26.0
+210,54,Sweden,Denmark,1992,hair_horse,26.0
+210,54,Sweden,Denmark,1993,hair_horse,28.0
+210,54,Sweden,Denmark,1994,hair_horse,33.0
+210,54,Sweden,Denmark,1995,hair_horse,24.0
+210,54,Sweden,Denmark,1996,hair_horse,21.0
+210,54,Sweden,Denmark,1997,hair_horse,22.0
+210,54,Sweden,Denmark,1998,hair_horse,19.0
+210,54,Sweden,Denmark,1999,hair_horse,15.0
+210,54,Sweden,Denmark,2000,hair_horse,3.0
+210,54,Sweden,Denmark,2001,hair_horse,9.0
+210,54,Sweden,Denmark,2003,hair_horse,1.0
+143,150,Morocco,Netherlands (Kingdom of the),1987,hair_horse,38.0
+143,150,Morocco,Netherlands (Kingdom of the),1988,hair_horse,25.0
+143,150,Morocco,Netherlands (Kingdom of the),1989,hair_horse,160.0
+143,150,Morocco,Netherlands (Kingdom of the),1992,hair_horse,40.0
+143,150,Morocco,Netherlands (Kingdom of the),1993,hair_horse,30.0
+143,150,Morocco,Netherlands (Kingdom of the),1994,hair_horse,65.0
+143,150,Morocco,Netherlands (Kingdom of the),1995,hair_horse,30.0
+143,150,Morocco,Netherlands (Kingdom of the),1996,hair_horse,10.0
+143,150,Morocco,Netherlands (Kingdom of the),1998,hair_horse,4.0
+9,84,Argentina,Greece,1986,hair_horse,13.0
+173,167,Poland,Czechia,1995,hair_horse,1.0
+173,167,Poland,Czechia,2005,hair_horse,7.0
+173,167,Poland,Czechia,2006,hair_horse,5.0
+10,54,Australia,Denmark,1997,hair_horse,3.0
+10,54,Australia,Denmark,1999,hair_horse,3.0
+234,231,Uruguay,United States of America,1986,hair_horse,48.0
+234,231,Uruguay,United States of America,1987,hair_horse,49.0
+234,231,Uruguay,United States of America,1988,hair_horse,35.0
+234,231,Uruguay,United States of America,1989,hair_horse,57.0
+234,231,Uruguay,United States of America,1990,hair_horse,81.0
+234,231,Uruguay,United States of America,1991,hair_horse,31.0
+234,231,Uruguay,United States of America,1992,hair_horse,16.0
+234,231,Uruguay,United States of America,1993,hair_horse,28.0
+234,231,Uruguay,United States of America,1994,hair_horse,1.0
+15,106,Belgium-Luxembourg,Italy,1992,hair_horse,9.0
+15,106,Belgium-Luxembourg,Italy,1993,hair_horse,4.0
+11,167,Austria,Czechia,1994,hair_horse,14.0
+106,15,Italy,Belgium-Luxembourg,1986,hair_horse,2.0
+68,15,France,Belgium-Luxembourg,1986,hair_horse,1.0
+68,15,France,Belgium-Luxembourg,1987,hair_horse,3.0
+68,15,France,Belgium-Luxembourg,1988,hair_horse,2.0
+68,15,France,Belgium-Luxembourg,1989,hair_horse,1.0
+68,15,France,Belgium-Luxembourg,1990,hair_horse,7.0
+68,15,France,Belgium-Luxembourg,1992,hair_horse,18.0
+68,15,France,Belgium-Luxembourg,1994,hair_horse,6.0
+68,15,France,Belgium-Luxembourg,1995,hair_horse,1.0
+68,15,France,Belgium-Luxembourg,1996,hair_horse,2.0
+68,15,France,Belgium-Luxembourg,1997,hair_horse,1.0
+68,15,France,Belgium-Luxembourg,1998,hair_horse,2.0
+33,41,Canada,"China, mainland",1997,hair_horse,35.0
+33,41,Canada,"China, mainland",2004,hair_horse,14.0
+114,211,Kenya,Switzerland,2006,hair_horse,1.0
+9,105,Argentina,Israel,1987,hair_horse,2.0
+79,15,Germany,Belgium-Luxembourg,1991,hair_horse,1.0
+79,15,Germany,Belgium-Luxembourg,1992,hair_horse,1.0
+79,15,Germany,Belgium-Luxembourg,1994,hair_horse,3.0
+79,15,Germany,Belgium-Luxembourg,1995,hair_horse,4.0
+79,15,Germany,Belgium-Luxembourg,1996,hair_horse,6.0
+79,15,Germany,Belgium-Luxembourg,1997,hair_horse,1.0
+79,15,Germany,Belgium-Luxembourg,1998,hair_horse,2.0
+131,54,Malaysia,Denmark,1994,hair_horse,1.0
+202,250,South Africa,Democratic Republic of the Congo,2001,hair_horse,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,hair_horse,3.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,hair_horse,131.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,hair_horse,28.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1989,hair_horse,26.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,hair_horse,45.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,hair_horse,18.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,hair_horse,8.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1993,hair_horse,49.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1994,hair_horse,3.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,hair_horse,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1996,hair_horse,10.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1997,hair_horse,2.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1998,hair_horse,1.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1999,hair_horse,3.0
+11,51,Austria,Czechoslovakia,1991,hair_horse,5.0
+11,51,Austria,Czechoslovakia,1992,hair_horse,2.0
+21,54,Brazil,Denmark,1986,hair_horse,2.0
+21,54,Brazil,Denmark,1987,hair_horse,8.0
+21,54,Brazil,Denmark,1988,hair_horse,3.0
+21,54,Brazil,Denmark,1991,hair_horse,3.0
+21,54,Brazil,Denmark,1992,hair_horse,4.0
+21,54,Brazil,Denmark,1993,hair_horse,5.0
+21,54,Brazil,Denmark,1994,hair_horse,2.0
+41,214,"China, mainland","China, Taiwan Province of",1995,hair_horse,6.0
+41,214,"China, mainland","China, Taiwan Province of",1996,hair_horse,1.0
+41,214,"China, mainland","China, Taiwan Province of",1997,hair_horse,4.0
+41,214,"China, mainland","China, Taiwan Province of",1998,hair_horse,4.0
+41,214,"China, mainland","China, Taiwan Province of",1999,hair_horse,9.0
+41,214,"China, mainland","China, Taiwan Province of",2000,hair_horse,3.0
+41,214,"China, mainland","China, Taiwan Province of",2001,hair_horse,10.0
+41,214,"China, mainland","China, Taiwan Province of",2002,hair_horse,13.0
+41,214,"China, mainland","China, Taiwan Province of",2003,hair_horse,2.0
+41,214,"China, mainland","China, Taiwan Province of",2004,hair_horse,11.0
+41,214,"China, mainland","China, Taiwan Province of",2005,hair_horse,19.0
+41,214,"China, mainland","China, Taiwan Province of",2006,hair_horse,6.0
+11,54,Austria,Denmark,1989,hair_horse,1.0
+11,54,Austria,Denmark,1995,hair_horse,2.0
+11,54,Austria,Denmark,1997,hair_horse,1.0
+11,54,Austria,Denmark,1998,hair_horse,1.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,1986,hair_horse,1.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,1989,hair_horse,2.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,1994,hair_horse,1.0
+9,110,Argentina,Japan,1987,hair_horse,2.0
+9,110,Argentina,Japan,1988,hair_horse,7.0
+9,110,Argentina,Japan,1989,hair_horse,10.0
+9,110,Argentina,Japan,1990,hair_horse,6.0
+9,110,Argentina,Japan,1991,hair_horse,7.0
+9,110,Argentina,Japan,1992,hair_horse,3.0
+9,110,Argentina,Japan,1994,hair_horse,2.0
+9,110,Argentina,Japan,1996,hair_horse,1.0
+9,110,Argentina,Japan,1998,hair_horse,3.0
+170,200,Peru,Singapore,1988,hair_horse,1.0
+15,138,Belgium-Luxembourg,Mexico,1991,hair_horse,5.0
+79,80,Germany,Bosnia and Herzegovina,1997,hair_horse,2.0
+79,80,Germany,Bosnia and Herzegovina,1998,hair_horse,1.0
+79,80,Germany,Bosnia and Herzegovina,1999,hair_horse,1.0
+167,79,Czechia,Germany,1994,hair_horse,2.0
+167,79,Czechia,Germany,1995,hair_horse,1.0
+110,79,Japan,Germany,2003,hair_horse,1.0
+117,101,Republic of Korea,Indonesia,1995,hair_horse,1.0
+117,101,Republic of Korea,Indonesia,1996,hair_horse,1.0
+114,229,Kenya,United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,14.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2005,hair_horse,3.0
+225,102,United Arab Emirates,Iran (Islamic Republic of),2007,hair_horse,2.0
+54,67,Denmark,Finland,1989,hair_horse,3.0
+54,67,Denmark,Finland,1990,hair_horse,12.0
+54,67,Denmark,Finland,1991,hair_horse,9.0
+54,67,Denmark,Finland,1992,hair_horse,5.0
+54,67,Denmark,Finland,1993,hair_horse,3.0
+54,67,Denmark,Finland,1994,hair_horse,5.0
+54,67,Denmark,Finland,1995,hair_horse,5.0
+54,67,Denmark,Finland,1996,hair_horse,3.0
+143,203,Morocco,Spain,1986,hair_horse,1.0
+100,63,India,Estonia,1999,hair_horse,14.0
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,2.0
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,4.0
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,2.0
+44,229,Colombia,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,4.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,hair_horse,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,hair_horse,4.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1991,hair_horse,10.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1992,hair_horse,3.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1993,hair_horse,7.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1997,hair_horse,1.0
+79,21,Germany,Brazil,1993,hair_horse,3.0
+79,21,Germany,Brazil,1995,hair_horse,5.0
+211,54,Switzerland,Denmark,1987,hair_horse,2.0
+41,98,"China, mainland",Croatia,2001,hair_horse,1.0
+41,98,"China, mainland",Croatia,2003,hair_horse,3.0
+41,98,"China, mainland",Croatia,2004,hair_horse,1.0
+41,98,"China, mainland",Croatia,2006,hair_horse,1.0
+97,79,Hungary,Germany,1991,hair_horse,30.0
+40,150,Chile,Netherlands (Kingdom of the),1993,hair_horse,2.0
+150,21,Netherlands (Kingdom of the),Brazil,1991,hair_horse,2.0
+150,21,Netherlands (Kingdom of the),Brazil,1995,hair_horse,2.0
+150,21,Netherlands (Kingdom of the),Brazil,1997,hair_horse,10.0
+150,21,Netherlands (Kingdom of the),Brazil,1999,hair_horse,1.0
+138,110,Mexico,Japan,1992,hair_horse,2.0
+10,79,Australia,Germany,1991,hair_horse,14.0
+10,79,Australia,Germany,1992,hair_horse,6.0
+10,79,Australia,Germany,1993,hair_horse,1.0
+203,41,Spain,"China, mainland",1996,hair_horse,4.0
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",1997,hair_horse,1.0
+101,110,Indonesia,Japan,1996,hair_horse,8.0
+101,110,Indonesia,Japan,1997,hair_horse,32.0
+101,110,Indonesia,Japan,1999,hair_horse,5.0
+101,110,Indonesia,Japan,2002,hair_horse,9.0
+101,110,Indonesia,Japan,2008,hair_horse,20.0
+41,167,"China, mainland",Czechia,2000,hair_horse,4.0
+41,167,"China, mainland",Czechia,2006,hair_horse,1.0
+44,231,Colombia,United States of America,1986,hair_horse,23.0
+44,231,Colombia,United States of America,1987,hair_horse,4.0
+214,110,"China, Taiwan Province of",Japan,2002,hair_horse,2.0
+210,67,Sweden,Finland,1986,hair_horse,1.0
+210,67,Sweden,Finland,1987,hair_horse,2.0
+210,67,Sweden,Finland,1988,hair_horse,1.0
+210,67,Sweden,Finland,1989,hair_horse,2.0
+210,67,Sweden,Finland,1991,hair_horse,2.0
+210,67,Sweden,Finland,1992,hair_horse,2.0
+210,67,Sweden,Finland,1993,hair_horse,3.0
+210,67,Sweden,Finland,1994,hair_horse,2.0
+210,67,Sweden,Finland,1995,hair_horse,1.0
+210,67,Sweden,Finland,1996,hair_horse,6.0
+210,67,Sweden,Finland,1997,hair_horse,1.0
+210,67,Sweden,Finland,1998,hair_horse,1.0
+210,67,Sweden,Finland,1999,hair_horse,4.0
+210,67,Sweden,Finland,2000,hair_horse,18.0
+210,67,Sweden,Finland,2001,hair_horse,12.0
+210,67,Sweden,Finland,2002,hair_horse,13.0
+210,67,Sweden,Finland,2003,hair_horse,17.0
+210,67,Sweden,Finland,2004,hair_horse,8.0
+210,67,Sweden,Finland,2005,hair_horse,3.0
+210,67,Sweden,Finland,2006,hair_horse,3.0
+199,150,Slovakia,Netherlands (Kingdom of the),2004,hair_horse,4.0
+100,68,India,France,1999,hair_horse,24.0
+41,51,"China, mainland",Czechoslovakia,1987,hair_horse,16.0
+41,51,"China, mainland",Czechoslovakia,1988,hair_horse,35.0
+41,51,"China, mainland",Czechoslovakia,1989,hair_horse,25.0
+41,51,"China, mainland",Czechoslovakia,1990,hair_horse,13.0
+9,150,Argentina,Netherlands (Kingdom of the),1987,hair_horse,253.0
+9,150,Argentina,Netherlands (Kingdom of the),1988,hair_horse,180.0
+9,150,Argentina,Netherlands (Kingdom of the),1989,hair_horse,151.0
+9,150,Argentina,Netherlands (Kingdom of the),1990,hair_horse,151.0
+9,150,Argentina,Netherlands (Kingdom of the),1991,hair_horse,65.0
+9,150,Argentina,Netherlands (Kingdom of the),1992,hair_horse,32.0
+9,150,Argentina,Netherlands (Kingdom of the),1993,hair_horse,53.0
+9,150,Argentina,Netherlands (Kingdom of the),1994,hair_horse,68.0
+9,150,Argentina,Netherlands (Kingdom of the),1996,hair_horse,11.0
+9,150,Argentina,Netherlands (Kingdom of the),1997,hair_horse,39.0
+9,150,Argentina,Netherlands (Kingdom of the),1998,hair_horse,11.0
+9,150,Argentina,Netherlands (Kingdom of the),2000,hair_horse,47.0
+9,150,Argentina,Netherlands (Kingdom of the),2001,hair_horse,70.0
+9,150,Argentina,Netherlands (Kingdom of the),2002,hair_horse,6.0
+9,150,Argentina,Netherlands (Kingdom of the),2003,hair_horse,4.0
+9,150,Argentina,Netherlands (Kingdom of the),2004,hair_horse,4.0
+9,150,Argentina,Netherlands (Kingdom of the),2005,hair_horse,7.0
+79,27,Germany,Bulgaria,1995,hair_horse,10.0
+79,27,Germany,Bulgaria,1996,hair_horse,2.0
+79,27,Germany,Bulgaria,1997,hair_horse,2.0
+79,27,Germany,Bulgaria,2001,hair_horse,2.0
+79,27,Germany,Bulgaria,2002,hair_horse,1.0
+79,27,Germany,Bulgaria,2003,hair_horse,1.0
+41,116,"China, mainland",Democratic People's Republic of Korea,1994,hair_horse,11.0
+162,106,Norway,Italy,1996,hair_horse,7.0
+21,79,Brazil,Germany,1991,hair_horse,63.0
+21,79,Brazil,Germany,1992,hair_horse,114.0
+21,79,Brazil,Germany,1993,hair_horse,97.0
+21,79,Brazil,Germany,1994,hair_horse,79.0
+21,79,Brazil,Germany,1995,hair_horse,86.0
+21,79,Brazil,Germany,1996,hair_horse,78.0
+21,79,Brazil,Germany,1997,hair_horse,8.0
+21,79,Brazil,Germany,1998,hair_horse,22.0
+21,79,Brazil,Germany,1999,hair_horse,72.0
+21,79,Brazil,Germany,2000,hair_horse,64.0
+21,79,Brazil,Germany,2001,hair_horse,5.0
+21,79,Brazil,Germany,2003,hair_horse,10.0
+21,79,Brazil,Germany,2005,hair_horse,2.0
+21,79,Brazil,Germany,2006,hair_horse,36.0
+117,110,Republic of Korea,Japan,1986,hair_horse,6.0
+117,110,Republic of Korea,Japan,1987,hair_horse,7.0
+117,110,Republic of Korea,Japan,1988,hair_horse,6.0
+117,110,Republic of Korea,Japan,1989,hair_horse,5.0
+117,110,Republic of Korea,Japan,1990,hair_horse,2.0
+40,169,Chile,Paraguay,1989,hair_horse,3.0
+150,27,Netherlands (Kingdom of the),Bulgaria,1986,hair_horse,10.0
+150,27,Netherlands (Kingdom of the),Bulgaria,1987,hair_horse,5.0
+9,162,Argentina,Norway,1989,hair_horse,7.0
+44,234,Colombia,Uruguay,1989,hair_horse,1.0
+198,106,Slovenia,Italy,1997,hair_horse,1.0
+41,54,"China, mainland",Denmark,1987,hair_horse,4.0
+41,54,"China, mainland",Denmark,1988,hair_horse,5.0
+41,54,"China, mainland",Denmark,1989,hair_horse,1.0
+106,33,Italy,Canada,1986,hair_horse,1.0
+106,33,Italy,Canada,1991,hair_horse,1.0
+106,33,Italy,Canada,1992,hair_horse,1.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",1987,hair_horse,1.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2001,hair_horse,3.0
+231,33,United States of America,Canada,1989,hair_horse,53.0
+231,33,United States of America,Canada,1990,hair_horse,85.0
+231,33,United States of America,Canada,1991,hair_horse,60.0
+231,33,United States of America,Canada,1992,hair_horse,55.0
+231,33,United States of America,Canada,1993,hair_horse,47.0
+231,33,United States of America,Canada,1994,hair_horse,41.0
+231,33,United States of America,Canada,1995,hair_horse,56.0
+231,33,United States of America,Canada,1996,hair_horse,27.0
+231,33,United States of America,Canada,1997,hair_horse,15.0
+231,33,United States of America,Canada,1998,hair_horse,14.0
+231,33,United States of America,Canada,1999,hair_horse,21.0
+231,33,United States of America,Canada,2000,hair_horse,18.0
+231,33,United States of America,Canada,2001,hair_horse,8.0
+231,33,United States of America,Canada,2002,hair_horse,14.0
+231,33,United States of America,Canada,2003,hair_horse,12.0
+231,33,United States of America,Canada,2004,hair_horse,18.0
+231,33,United States of America,Canada,2005,hair_horse,8.0
+231,33,United States of America,Canada,2006,hair_horse,12.0
+96,106,"China, Hong Kong SAR",Italy,1989,hair_horse,24.0
+100,79,India,Germany,1994,hair_horse,1.0
+9,169,Argentina,Paraguay,1994,hair_horse,100.0
+9,169,Argentina,Paraguay,1995,hair_horse,198.0
+9,169,Argentina,Paraguay,1996,hair_horse,102.0
+9,169,Argentina,Paraguay,1997,hair_horse,167.0
+9,169,Argentina,Paraguay,1998,hair_horse,181.0
+9,169,Argentina,Paraguay,2000,hair_horse,275.0
+9,169,Argentina,Paraguay,2001,hair_horse,199.0
+9,169,Argentina,Paraguay,2002,hair_horse,185.0
+9,169,Argentina,Paraguay,2003,hair_horse,226.0
+9,169,Argentina,Paraguay,2004,hair_horse,169.0
+9,169,Argentina,Paraguay,2005,hair_horse,189.0
+9,169,Argentina,Paraguay,2006,hair_horse,222.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1986,hair_horse,6.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,8.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,8.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,6.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,7.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,9.0
+143,229,Morocco,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,13.0
+223,68,Türkiye,France,1994,hair_horse,3.0
+41,58,"China, mainland",Ecuador,1996,hair_horse,1.0
+41,58,"China, mainland",Ecuador,1997,hair_horse,4.0
+41,58,"China, mainland",Ecuador,1999,hair_horse,1.0
+41,58,"China, mainland",Ecuador,2000,hair_horse,2.0
+41,58,"China, mainland",Ecuador,2001,hair_horse,1.0
+41,58,"China, mainland",Ecuador,2003,hair_horse,1.0
+41,58,"China, mainland",Ecuador,2004,hair_horse,1.0
+41,59,"China, mainland",Egypt,1999,hair_horse,2.0
+84,79,Greece,Germany,1993,hair_horse,2.0
+84,79,Greece,Germany,1994,hair_horse,2.0
+84,79,Greece,Germany,1995,hair_horse,2.0
+84,79,Greece,Germany,1996,hair_horse,3.0
+84,79,Greece,Germany,1997,hair_horse,3.0
+84,79,Greece,Germany,2004,hair_horse,158.0
+101,131,Indonesia,Malaysia,1999,hair_horse,3.0
+101,131,Indonesia,Malaysia,2003,hair_horse,3.0
+101,131,Indonesia,Malaysia,2007,hair_horse,2.0
+101,131,Indonesia,Malaysia,2008,hair_horse,12.0
+101,131,Indonesia,Malaysia,2009,hair_horse,9.0
+202,79,South Africa,Germany,2001,hair_horse,4.0
+15,194,Belgium-Luxembourg,Saudi Arabia,1992,hair_horse,1.0
+229,214,United Kingdom of Great Britain and Northern Ireland,"China, Taiwan Province of",1986,hair_horse,1.0
+229,214,United Kingdom of Great Britain and Northern Ireland,"China, Taiwan Province of",1987,hair_horse,1.0
+138,169,Mexico,Paraguay,1995,hair_horse,3.0
+41,63,"China, mainland",Estonia,2004,hair_horse,7.0
+41,63,"China, mainland",Estonia,2005,hair_horse,15.0
+41,63,"China, mainland",Estonia,2006,hair_horse,1.0
+96,110,"China, Hong Kong SAR",Japan,1988,hair_horse,7.0
+96,110,"China, Hong Kong SAR",Japan,1989,hair_horse,18.0
+96,110,"China, Hong Kong SAR",Japan,1990,hair_horse,7.0
+96,110,"China, Hong Kong SAR",Japan,1992,hair_horse,2.0
+96,110,"China, Hong Kong SAR",Japan,1993,hair_horse,2.0
+96,110,"China, Hong Kong SAR",Japan,1994,hair_horse,8.0
+9,173,Argentina,Poland,1994,hair_horse,4.0
+106,96,Italy,"China, Hong Kong SAR",1989,hair_horse,1.0
+106,96,Italy,"China, Hong Kong SAR",1996,hair_horse,10.0
+106,96,Italy,"China, Hong Kong SAR",1998,hair_horse,1.0
+211,68,Switzerland,France,1987,hair_horse,8.0
+211,68,Switzerland,France,1989,hair_horse,8.0
+211,68,Switzerland,France,1990,hair_horse,4.0
+211,68,Switzerland,France,1991,hair_horse,3.0
+211,68,Switzerland,France,1993,hair_horse,3.0
+211,68,Switzerland,France,1994,hair_horse,12.0
+211,68,Switzerland,France,1998,hair_horse,8.0
+211,68,Switzerland,France,1999,hair_horse,11.0
+211,68,Switzerland,France,2000,hair_horse,21.0
+211,68,Switzerland,France,2001,hair_horse,17.0
+211,68,Switzerland,France,2002,hair_horse,13.0
+211,68,Switzerland,France,2003,hair_horse,13.0
+211,68,Switzerland,France,2004,hair_horse,14.0
+211,68,Switzerland,France,2005,hair_horse,14.0
+211,68,Switzerland,France,2006,hair_horse,17.0
+41,67,"China, mainland",Finland,1988,hair_horse,4.0
+41,67,"China, mainland",Finland,1989,hair_horse,3.0
+41,67,"China, mainland",Finland,1990,hair_horse,2.0
+41,67,"China, mainland",Finland,1995,hair_horse,1.0
+41,67,"China, mainland",Finland,1999,hair_horse,1.0
+41,67,"China, mainland",Finland,2001,hair_horse,1.0
+41,67,"China, mainland",Finland,2002,hair_horse,1.0
+41,67,"China, mainland",Finland,2004,hair_horse,1.0
+41,67,"China, mainland",Finland,2005,hair_horse,1.0
+54,79,Denmark,Germany,1991,hair_horse,5.0
+54,79,Denmark,Germany,1992,hair_horse,2.0
+54,79,Denmark,Germany,1993,hair_horse,1.0
+150,33,Netherlands (Kingdom of the),Canada,1986,hair_horse,1.0
+150,33,Netherlands (Kingdom of the),Canada,1987,hair_horse,1.0
+150,33,Netherlands (Kingdom of the),Canada,1988,hair_horse,4.0
+15,203,Belgium-Luxembourg,Spain,1993,hair_horse,1.0
+97,106,Hungary,Italy,1992,hair_horse,21.0
+79,40,Germany,Chile,2000,hair_horse,1.0
+79,40,Germany,Chile,2005,hair_horse,1.0
+101,138,Indonesia,Mexico,2003,hair_horse,3.0
+41,68,"China, mainland",France,1992,hair_horse,1.0
+41,68,"China, mainland",France,1993,hair_horse,5.0
+41,68,"China, mainland",France,1994,hair_horse,7.0
+41,68,"China, mainland",France,1995,hair_horse,28.0
+41,68,"China, mainland",France,2004,hair_horse,12.0
+41,68,"China, mainland",France,2005,hair_horse,1.0
+41,68,"China, mainland",France,2006,hair_horse,1.0
+11,79,Austria,Germany,1991,hair_horse,10.0
+11,79,Austria,Germany,1993,hair_horse,1.0
+11,79,Austria,Germany,1994,hair_horse,2.0
+11,79,Austria,Germany,1995,hair_horse,16.0
+11,79,Austria,Germany,1996,hair_horse,8.0
+11,79,Austria,Germany,1997,hair_horse,11.0
+11,79,Austria,Germany,1998,hair_horse,7.0
+11,79,Austria,Germany,1999,hair_horse,2.0
+11,79,Austria,Germany,2000,hair_horse,5.0
+11,79,Austria,Germany,2001,hair_horse,1.0
+11,79,Austria,Germany,2003,hair_horse,1.0
+106,41,Italy,"China, mainland",1990,hair_horse,12.0
+106,41,Italy,"China, mainland",1991,hair_horse,13.0
+106,41,Italy,"China, mainland",1992,hair_horse,13.0
+106,41,Italy,"China, mainland",1994,hair_horse,13.0
+106,41,Italy,"China, mainland",1995,hair_horse,55.0
+106,41,Italy,"China, mainland",1996,hair_horse,23.0
+106,41,Italy,"China, mainland",1997,hair_horse,7.0
+106,41,Italy,"China, mainland",1998,hair_horse,15.0
+106,41,Italy,"China, mainland",2003,hair_horse,10.0
+106,41,Italy,"China, mainland",2006,hair_horse,16.0
+40,203,Chile,Spain,1988,hair_horse,3.0
+223,79,Türkiye,Germany,1991,hair_horse,24.0
+223,79,Türkiye,Germany,1992,hair_horse,12.0
+223,79,Türkiye,Germany,2006,hair_horse,1.0
+210,79,Sweden,Germany,1994,hair_horse,2.0
+79,96,Germany,"China, Hong Kong SAR",2005,hair_horse,1.0
+96,131,"China, Hong Kong SAR",Malaysia,1990,hair_horse,1.0
+96,131,"China, Hong Kong SAR",Malaysia,1992,hair_horse,1.0
+96,131,"China, Hong Kong SAR",Malaysia,1993,hair_horse,2.0
+96,131,"China, Hong Kong SAR",Malaysia,2001,hair_horse,1.0
+255,68,Belgium,France,2000,hair_horse,12.0
+255,68,Belgium,France,2001,hair_horse,1.0
+138,203,Mexico,Spain,1992,hair_horse,1.0
+21,106,Brazil,Italy,2005,hair_horse,3.0
+21,106,Brazil,Italy,2006,hair_horse,5.0
+101,150,Indonesia,Netherlands (Kingdom of the),2000,hair_horse,2.0
+101,150,Indonesia,Netherlands (Kingdom of the),2003,hair_horse,1.0
+9,203,Argentina,Spain,2004,hair_horse,2.0
+150,40,Netherlands (Kingdom of the),Chile,1999,hair_horse,1.0
+150,40,Netherlands (Kingdom of the),Chile,2000,hair_horse,2.0
+41,79,"China, mainland",Germany,2000,hair_horse,168.0
+41,79,"China, mainland",Germany,2001,hair_horse,213.0
+41,79,"China, mainland",Germany,2002,hair_horse,114.0
+41,79,"China, mainland",Germany,2003,hair_horse,138.0
+41,79,"China, mainland",Germany,2004,hair_horse,161.0
+41,79,"China, mainland",Germany,2005,hair_horse,138.0
+41,79,"China, mainland",Germany,2006,hair_horse,213.0
+110,150,Japan,Netherlands (Kingdom of the),1987,hair_horse,4.0
+9,210,Argentina,Sweden,1986,hair_horse,15.0
+9,210,Argentina,Sweden,1987,hair_horse,22.0
+9,210,Argentina,Sweden,1988,hair_horse,17.0
+9,210,Argentina,Sweden,1989,hair_horse,17.0
+9,210,Argentina,Sweden,1990,hair_horse,10.0
+9,210,Argentina,Sweden,1991,hair_horse,9.0
+9,210,Argentina,Sweden,1995,hair_horse,7.0
+9,210,Argentina,Sweden,1996,hair_horse,2.0
+9,210,Argentina,Sweden,1997,hair_horse,7.0
+9,210,Argentina,Sweden,1998,hair_horse,5.0
+9,210,Argentina,Sweden,2000,hair_horse,6.0
+9,210,Argentina,Sweden,2001,hair_horse,3.0
+9,210,Argentina,Sweden,2002,hair_horse,4.0
+9,210,Argentina,Sweden,2003,hair_horse,4.0
+9,210,Argentina,Sweden,2004,hair_horse,4.0
+9,210,Argentina,Sweden,2005,hair_horse,2.0
+9,210,Argentina,Sweden,2006,hair_horse,1.0
+79,41,Germany,"China, mainland",1995,hair_horse,1.0
+138,211,Mexico,Switzerland,2000,hair_horse,3.0
+138,211,Mexico,Switzerland,2005,hair_horse,1.0
+67,185,Finland,Russian Federation,1992,hair_horse,1.0
+67,185,Finland,Russian Federation,1993,hair_horse,14.0
+67,185,Finland,Russian Federation,1994,hair_horse,4.0
+67,185,Finland,Russian Federation,1995,hair_horse,3.0
+9,211,Argentina,Switzerland,1987,hair_horse,20.0
+9,211,Argentina,Switzerland,1988,hair_horse,17.0
+9,211,Argentina,Switzerland,1989,hair_horse,4.0
+9,211,Argentina,Switzerland,1990,hair_horse,21.0
+9,211,Argentina,Switzerland,1991,hair_horse,8.0
+9,211,Argentina,Switzerland,2004,hair_horse,5.0
+9,211,Argentina,Switzerland,2005,hair_horse,28.0
+9,211,Argentina,Switzerland,2006,hair_horse,8.0
+231,96,United States of America,"China, Hong Kong SAR",1991,hair_horse,1.0
+21,110,Brazil,Japan,1986,hair_horse,4.0
+21,110,Brazil,Japan,1987,hair_horse,3.0
+21,110,Brazil,Japan,1988,hair_horse,5.0
+21,110,Brazil,Japan,1989,hair_horse,6.0
+21,110,Brazil,Japan,1990,hair_horse,1.0
+21,110,Brazil,Japan,1991,hair_horse,2.0
+21,110,Brazil,Japan,1992,hair_horse,3.0
+21,110,Brazil,Japan,1993,hair_horse,8.0
+21,110,Brazil,Japan,1994,hair_horse,2.0
+21,110,Brazil,Japan,1997,hair_horse,1.0
+211,79,Switzerland,Germany,1991,hair_horse,1.0
+211,79,Switzerland,Germany,1992,hair_horse,2.0
+211,79,Switzerland,Germany,1993,hair_horse,2.0
+211,79,Switzerland,Germany,1995,hair_horse,1.0
+211,79,Switzerland,Germany,1996,hair_horse,10.0
+211,79,Switzerland,Germany,1997,hair_horse,2.0
+211,79,Switzerland,Germany,1998,hair_horse,1.0
+211,79,Switzerland,Germany,2001,hair_horse,2.0
+211,79,Switzerland,Germany,2002,hair_horse,1.0
+211,79,Switzerland,Germany,2003,hair_horse,10.0
+211,79,Switzerland,Germany,2006,hair_horse,1.0
+41,84,"China, mainland",Greece,1995,hair_horse,2.0
+41,84,"China, mainland",Greece,1997,hair_horse,1.0
+41,84,"China, mainland",Greece,1999,hair_horse,1.0
+41,84,"China, mainland",Greece,2000,hair_horse,1.0
+41,84,"China, mainland",Greece,2001,hair_horse,5.0
+41,84,"China, mainland",Greece,2002,hair_horse,2.0
+41,84,"China, mainland",Greece,2004,hair_horse,3.0
+41,84,"China, mainland",Greece,2006,hair_horse,1.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1988,hair_horse,18.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1989,hair_horse,38.0
+96,150,"China, Hong Kong SAR",Netherlands (Kingdom of the),1990,hair_horse,6.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,1997,hair_horse,1.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,1998,hair_horse,9.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,1999,hair_horse,15.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2000,hair_horse,10.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2002,hair_horse,5.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2003,hair_horse,4.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2004,hair_horse,1.0
+229,167,United Kingdom of Great Britain and Northern Ireland,Czechia,2006,hair_horse,3.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,12.0
+15,229,Belgium-Luxembourg,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,3.0
+41,89,"China, mainland",Guatemala,2006,hair_horse,2.0
+79,214,Germany,"China, Taiwan Province of",1992,hair_horse,1.0
+79,214,Germany,"China, Taiwan Province of",1999,hair_horse,1.0
+79,214,Germany,"China, Taiwan Province of",2000,hair_horse,1.0
+79,214,Germany,"China, Taiwan Province of",2003,hair_horse,1.0
+79,214,Germany,"China, Taiwan Province of",2005,hair_horse,1.0
+79,214,Germany,"China, Taiwan Province of",2006,hair_horse,1.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,12.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,2.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,12.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,14.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,17.0
+9,229,Argentina,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,28.0
+229,51,United Kingdom of Great Britain and Northern Ireland,Czechoslovakia,1986,hair_horse,9.0
+229,51,United Kingdom of Great Britain and Northern Ireland,Czechoslovakia,1990,hair_horse,1.0
+40,231,Chile,United States of America,1989,hair_horse,7.0
+150,41,Netherlands (Kingdom of the),"China, mainland",1989,hair_horse,18.0
+150,41,Netherlands (Kingdom of the),"China, mainland",1991,hair_horse,5.0
+150,41,Netherlands (Kingdom of the),"China, mainland",1997,hair_horse,20.0
+106,98,Italy,Croatia,2001,hair_horse,3.0
+15,231,Belgium-Luxembourg,United States of America,1994,hair_horse,12.0
+210,99,Sweden,Iceland,1995,hair_horse,1.0
+101,171,Indonesia,Philippines,2004,hair_horse,2.0
+101,171,Indonesia,Philippines,2005,hair_horse,24.0
+41,100,"China, mainland",India,1995,hair_horse,1.0
+41,100,"China, mainland",India,1998,hair_horse,1.0
+41,100,"China, mainland",India,1999,hair_horse,2.0
+41,100,"China, mainland",India,2000,hair_horse,2.0
+41,100,"China, mainland",India,2001,hair_horse,5.0
+41,100,"China, mainland",India,2002,hair_horse,2.0
+41,100,"China, mainland",India,2003,hair_horse,4.0
+41,100,"China, mainland",India,2004,hair_horse,4.0
+41,100,"China, mainland",India,2005,hair_horse,3.0
+41,100,"China, mainland",India,2006,hair_horse,4.0
+171,231,Philippines,United States of America,2014,hair_horse,17.5
+54,99,Denmark,Iceland,1986,hair_horse,2.0
+54,99,Denmark,Iceland,1987,hair_horse,1.0
+54,99,Denmark,Iceland,1988,hair_horse,2.0
+54,99,Denmark,Iceland,1989,hair_horse,2.0
+54,99,Denmark,Iceland,1990,hair_horse,1.0
+54,99,Denmark,Iceland,1991,hair_horse,1.0
+54,99,Denmark,Iceland,1996,hair_horse,1.0
+54,99,Denmark,Iceland,1997,hair_horse,2.0
+54,99,Denmark,Iceland,1998,hair_horse,2.0
+9,231,Argentina,United States of America,1987,hair_horse,96.0
+9,231,Argentina,United States of America,1988,hair_horse,109.0
+9,231,Argentina,United States of America,1989,hair_horse,123.0
+9,231,Argentina,United States of America,1990,hair_horse,123.0
+9,231,Argentina,United States of America,1991,hair_horse,78.0
+9,231,Argentina,United States of America,1992,hair_horse,12.0
+9,231,Argentina,United States of America,1997,hair_horse,6.0
+9,231,Argentina,United States of America,2002,hair_horse,3.0
+9,231,Argentina,United States of America,2003,hair_horse,1.0
+255,79,Belgium,Germany,2000,hair_horse,2.0
+255,79,Belgium,Germany,2002,hair_horse,3.0
+231,41,United States of America,"China, mainland",2001,hair_horse,20.0
+231,41,United States of America,"China, mainland",2002,hair_horse,2.0
+231,41,United States of America,"China, mainland",2003,hair_horse,16.0
+231,41,United States of America,"China, mainland",2004,hair_horse,4.0
+231,41,United States of America,"China, mainland",2006,hair_horse,4.0
+11,97,Austria,Hungary,1992,hair_horse,17.0
+11,97,Austria,Hungary,1997,hair_horse,1.0
+11,97,Austria,Hungary,1998,hair_horse,2.0
+11,97,Austria,Hungary,1999,hair_horse,2.0
+11,97,Austria,Hungary,2000,hair_horse,1.0
+11,97,Austria,Hungary,2001,hair_horse,4.0
+11,97,Austria,Hungary,2002,hair_horse,1.0
+11,97,Austria,Hungary,2003,hair_horse,1.0
+11,97,Austria,Hungary,2004,hair_horse,1.0
+11,97,Austria,Hungary,2005,hair_horse,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1986,hair_horse,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1988,hair_horse,1.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1997,hair_horse,18.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1998,hair_horse,12.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,1999,hair_horse,16.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2000,hair_horse,14.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2001,hair_horse,9.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2002,hair_horse,12.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2003,hair_horse,11.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2004,hair_horse,12.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2005,hair_horse,6.0
+229,54,United Kingdom of Great Britain and Northern Ireland,Denmark,2006,hair_horse,7.0
+33,79,Canada,Germany,1992,hair_horse,42.0
+138,231,Mexico,United States of America,1988,hair_horse,6.0
+138,231,Mexico,United States of America,1989,hair_horse,88.0
+138,231,Mexico,United States of America,1990,hair_horse,116.0
+138,231,Mexico,United States of America,1991,hair_horse,128.0
+138,231,Mexico,United States of America,1992,hair_horse,41.0
+138,231,Mexico,United States of America,1993,hair_horse,140.0
+138,231,Mexico,United States of America,1994,hair_horse,157.0
+138,231,Mexico,United States of America,1995,hair_horse,168.0
+138,231,Mexico,United States of America,1997,hair_horse,307.0
+138,231,Mexico,United States of America,1998,hair_horse,300.0
+138,231,Mexico,United States of America,1999,hair_horse,367.0
+138,231,Mexico,United States of America,2000,hair_horse,339.0
+138,231,Mexico,United States of America,2001,hair_horse,104.0
+41,101,"China, mainland",Indonesia,1997,hair_horse,6.0
+101,117,Indonesia,Republic of Korea,2001,hair_horse,5.0
+67,210,Finland,Sweden,1992,hair_horse,1.0
+67,210,Finland,Sweden,1995,hair_horse,1.0
+9,234,Argentina,Uruguay,2005,hair_horse,8.0
+9,234,Argentina,Uruguay,2006,hair_horse,19.0
+41,102,"China, mainland",Iran (Islamic Republic of),2002,hair_horse,1.0
+41,102,"China, mainland",Iran (Islamic Republic of),2003,hair_horse,5.0
+41,102,"China, mainland",Iran (Islamic Republic of),2004,hair_horse,2.0
+162,203,Norway,Spain,1996,hair_horse,48.0
+79,98,Germany,Croatia,1994,hair_horse,1.0
+79,98,Germany,Croatia,1996,hair_horse,2.0
+79,98,Germany,Croatia,1997,hair_horse,1.0
+79,98,Germany,Croatia,1998,hair_horse,1.0
+79,98,Germany,Croatia,1999,hair_horse,1.0
+79,98,Germany,Croatia,2000,hair_horse,1.0
+79,98,Germany,Croatia,2001,hair_horse,2.0
+79,98,Germany,Croatia,2002,hair_horse,2.0
+79,98,Germany,Croatia,2004,hair_horse,1.0
+79,98,Germany,Croatia,2005,hair_horse,2.0
+79,98,Germany,Croatia,2006,hair_horse,1.0
+21,138,Brazil,Mexico,1990,hair_horse,1.0
+110,117,Japan,Republic of Korea,1986,hair_horse,5.0
+110,117,Japan,Republic of Korea,1987,hair_horse,4.0
+110,117,Japan,Republic of Korea,1988,hair_horse,6.0
+110,117,Japan,Republic of Korea,1989,hair_horse,5.0
+110,117,Japan,Republic of Korea,1990,hair_horse,3.0
+216,110,Thailand,Japan,2002,hair_horse,3.0
+54,104,Denmark,Ireland,1993,hair_horse,1.0
+54,104,Denmark,Ireland,1994,hair_horse,6.0
+9,236,Argentina,Venezuela (Bolivarian Republic of),1986,hair_horse,1.0
+41,105,"China, mainland",Israel,1994,hair_horse,1.0
+41,105,"China, mainland",Israel,1998,hair_horse,6.0
+41,105,"China, mainland",Israel,2000,hair_horse,2.0
+41,105,"China, mainland",Israel,2001,hair_horse,8.0
+41,105,"China, mainland",Israel,2002,hair_horse,3.0
+41,105,"China, mainland",Israel,2005,hair_horse,31.0
+41,105,"China, mainland",Israel,2006,hair_horse,74.0
+106,167,Italy,Czechia,2004,hair_horse,2.0
+231,214,United States of America,"China, Taiwan Province of",1992,hair_horse,1.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1986,hair_horse,3.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1988,hair_horse,61.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1989,hair_horse,80.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1990,hair_horse,49.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1991,hair_horse,26.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1992,hair_horse,13.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1993,hair_horse,23.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1994,hair_horse,20.0
+96,117,"China, Hong Kong SAR",Republic of Korea,1995,hair_horse,1.0
+21,150,Brazil,Netherlands (Kingdom of the),1986,hair_horse,103.0
+54,105,Denmark,Israel,1986,hair_horse,1.0
+21,150,Brazil,Netherlands (Kingdom of the),1987,hair_horse,82.0
+54,105,Denmark,Israel,1987,hair_horse,7.0
+21,150,Brazil,Netherlands (Kingdom of the),1988,hair_horse,86.0
+54,105,Denmark,Israel,1988,hair_horse,5.0
+21,150,Brazil,Netherlands (Kingdom of the),1989,hair_horse,86.0
+21,150,Brazil,Netherlands (Kingdom of the),1990,hair_horse,73.0
+21,150,Brazil,Netherlands (Kingdom of the),1991,hair_horse,20.0
+21,150,Brazil,Netherlands (Kingdom of the),1992,hair_horse,58.0
+21,150,Brazil,Netherlands (Kingdom of the),1993,hair_horse,103.0
+21,150,Brazil,Netherlands (Kingdom of the),1994,hair_horse,14.0
+21,150,Brazil,Netherlands (Kingdom of the),1995,hair_horse,15.0
+21,150,Brazil,Netherlands (Kingdom of the),1996,hair_horse,8.0
+21,150,Brazil,Netherlands (Kingdom of the),1997,hair_horse,64.0
+21,150,Brazil,Netherlands (Kingdom of the),1998,hair_horse,66.0
+21,150,Brazil,Netherlands (Kingdom of the),1999,hair_horse,33.0
+21,150,Brazil,Netherlands (Kingdom of the),2005,hair_horse,4.0
+41,106,"China, mainland",Italy,1987,hair_horse,3.0
+41,106,"China, mainland",Italy,1988,hair_horse,1.0
+41,106,"China, mainland",Italy,1989,hair_horse,14.0
+41,106,"China, mainland",Italy,1990,hair_horse,3.0
+41,106,"China, mainland",Italy,1991,hair_horse,8.0
+41,106,"China, mainland",Italy,1992,hair_horse,41.0
+41,106,"China, mainland",Italy,1993,hair_horse,29.0
+41,106,"China, mainland",Italy,1994,hair_horse,51.0
+41,106,"China, mainland",Italy,1995,hair_horse,20.0
+41,106,"China, mainland",Italy,1996,hair_horse,17.0
+41,106,"China, mainland",Italy,1997,hair_horse,10.0
+41,106,"China, mainland",Italy,1998,hair_horse,36.0
+41,106,"China, mainland",Italy,1999,hair_horse,44.0
+41,106,"China, mainland",Italy,2000,hair_horse,25.0
+41,106,"China, mainland",Italy,2001,hair_horse,48.0
+41,106,"China, mainland",Italy,2002,hair_horse,27.0
+41,106,"China, mainland",Italy,2003,hair_horse,43.0
+41,106,"China, mainland",Italy,2004,hair_horse,19.0
+41,106,"China, mainland",Italy,2005,hair_horse,14.0
+41,106,"China, mainland",Italy,2006,hair_horse,15.0
+162,210,Norway,Sweden,2002,hair_horse,1.0
+106,51,Italy,Czechoslovakia,1986,hair_horse,5.0
+101,200,Indonesia,Singapore,2002,hair_horse,21.0
+101,200,Indonesia,Singapore,2003,hair_horse,2.0
+101,200,Indonesia,Singapore,2009,hair_horse,1.0
+223,106,Türkiye,Italy,1996,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,1993,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,1994,hair_horse,3.0
+150,98,Netherlands (Kingdom of the),Croatia,1995,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,1997,hair_horse,3.0
+150,98,Netherlands (Kingdom of the),Croatia,1998,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,1999,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,2000,hair_horse,2.0
+150,98,Netherlands (Kingdom of the),Croatia,2001,hair_horse,1.0
+255,97,Belgium,Hungary,2000,hair_horse,1.0
+79,167,Germany,Czechia,1993,hair_horse,7.0
+79,167,Germany,Czechia,1994,hair_horse,2.0
+79,167,Germany,Czechia,1995,hair_horse,24.0
+79,167,Germany,Czechia,1996,hair_horse,3.0
+79,167,Germany,Czechia,1997,hair_horse,6.0
+79,167,Germany,Czechia,1998,hair_horse,7.0
+79,167,Germany,Czechia,1999,hair_horse,8.0
+79,167,Germany,Czechia,2000,hair_horse,6.0
+79,167,Germany,Czechia,2001,hair_horse,9.0
+79,167,Germany,Czechia,2002,hair_horse,3.0
+79,167,Germany,Czechia,2003,hair_horse,2.0
+79,167,Germany,Czechia,2004,hair_horse,5.0
+79,167,Germany,Czechia,2005,hair_horse,2.0
+79,167,Germany,Czechia,2006,hair_horse,3.0
+211,105,Switzerland,Israel,1986,hair_horse,2.0
+211,105,Switzerland,Israel,1988,hair_horse,2.0
+41,110,"China, mainland",Japan,1987,hair_horse,210.0
+41,110,"China, mainland",Japan,1988,hair_horse,193.0
+41,110,"China, mainland",Japan,1989,hair_horse,180.0
+41,110,"China, mainland",Japan,1990,hair_horse,259.0
+41,110,"China, mainland",Japan,1991,hair_horse,174.0
+41,110,"China, mainland",Japan,1992,hair_horse,184.0
+41,110,"China, mainland",Japan,1993,hair_horse,178.0
+41,110,"China, mainland",Japan,1994,hair_horse,179.0
+41,110,"China, mainland",Japan,1995,hair_horse,181.0
+41,110,"China, mainland",Japan,1996,hair_horse,156.0
+41,110,"China, mainland",Japan,1997,hair_horse,158.0
+41,110,"China, mainland",Japan,1998,hair_horse,130.0
+41,110,"China, mainland",Japan,1999,hair_horse,127.0
+41,110,"China, mainland",Japan,2000,hair_horse,106.0
+41,110,"China, mainland",Japan,2001,hair_horse,135.0
+41,110,"China, mainland",Japan,2002,hair_horse,102.0
+41,110,"China, mainland",Japan,2003,hair_horse,116.0
+41,110,"China, mainland",Japan,2004,hair_horse,117.0
+41,110,"China, mainland",Japan,2005,hair_horse,101.0
+41,110,"China, mainland",Japan,2006,hair_horse,118.0
+84,150,Greece,Netherlands (Kingdom of the),1993,hair_horse,31.0
+167,173,Czechia,Poland,1993,hair_horse,9.0
+167,173,Czechia,Poland,1994,hair_horse,3.0
+167,173,Czechia,Poland,1997,hair_horse,2.0
+97,183,Hungary,Romania,1994,hair_horse,1.0
+97,183,Hungary,Romania,1995,hair_horse,1.0
+97,183,Hungary,Romania,1996,hair_horse,3.0
+97,183,Hungary,Romania,1997,hair_horse,2.0
+11,106,Austria,Italy,1988,hair_horse,2.0
+11,106,Austria,Italy,1989,hair_horse,2.0
+11,106,Austria,Italy,1990,hair_horse,2.0
+11,106,Austria,Italy,1991,hair_horse,3.0
+11,106,Austria,Italy,1992,hair_horse,3.0
+11,106,Austria,Italy,1993,hair_horse,2.0
+11,106,Austria,Italy,2001,hair_horse,4.0
+11,106,Austria,Italy,2002,hair_horse,4.0
+11,106,Austria,Italy,2003,hair_horse,3.0
+11,106,Austria,Italy,2004,hair_horse,2.0
+110,38,Japan,Sri Lanka,1990,hair_horse,2.0
+110,38,Japan,Sri Lanka,1991,hair_horse,2.0
+110,38,Japan,Sri Lanka,1992,hair_horse,2.0
+110,38,Japan,Sri Lanka,1993,hair_horse,1.0
+110,38,Japan,Sri Lanka,1994,hair_horse,2.0
+110,38,Japan,Sri Lanka,1996,hair_horse,1.0
+110,38,Japan,Sri Lanka,1997,hair_horse,1.0
+10,150,Australia,Netherlands (Kingdom of the),1992,hair_horse,2.0
+10,150,Australia,Netherlands (Kingdom of the),1995,hair_horse,8.0
+21,169,Brazil,Paraguay,1986,hair_horse,25.0
+21,169,Brazil,Paraguay,1993,hair_horse,5.0
+21,169,Brazil,Paraguay,1994,hair_horse,6.0
+21,169,Brazil,Paraguay,1996,hair_horse,12.0
+21,169,Brazil,Paraguay,1999,hair_horse,15.0
+21,169,Brazil,Paraguay,2002,hair_horse,3.0
+21,169,Brazil,Paraguay,2003,hair_horse,172.0
+21,169,Brazil,Paraguay,2004,hair_horse,193.0
+21,169,Brazil,Paraguay,2005,hair_horse,324.0
+21,169,Brazil,Paraguay,2006,hair_horse,85.0
+203,68,Spain,France,1986,hair_horse,1.0
+203,68,Spain,France,1988,hair_horse,9.0
+203,68,Spain,France,1994,hair_horse,1.0
+203,68,Spain,France,1995,hair_horse,5.0
+203,68,Spain,France,2001,hair_horse,15.0
+203,68,Spain,France,2004,hair_horse,8.0
+203,68,Spain,France,2005,hair_horse,3.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,151.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,6.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2021,hair_horse,0.1
+211,106,Switzerland,Italy,1988,hair_horse,1.0
+211,106,Switzerland,Italy,1989,hair_horse,4.0
+211,106,Switzerland,Italy,1990,hair_horse,5.0
+211,106,Switzerland,Italy,1991,hair_horse,7.0
+211,106,Switzerland,Italy,1992,hair_horse,4.0
+211,106,Switzerland,Italy,1993,hair_horse,7.0
+211,106,Switzerland,Italy,1994,hair_horse,9.0
+211,106,Switzerland,Italy,1995,hair_horse,8.0
+211,106,Switzerland,Italy,1996,hair_horse,7.0
+211,106,Switzerland,Italy,1997,hair_horse,8.0
+211,106,Switzerland,Italy,1998,hair_horse,8.0
+211,106,Switzerland,Italy,1999,hair_horse,4.0
+211,106,Switzerland,Italy,2000,hair_horse,5.0
+211,106,Switzerland,Italy,2001,hair_horse,11.0
+211,106,Switzerland,Italy,2002,hair_horse,7.0
+211,106,Switzerland,Italy,2003,hair_horse,5.0
+211,106,Switzerland,Italy,2004,hair_horse,2.0
+211,106,Switzerland,Italy,2005,hair_horse,2.0
+211,106,Switzerland,Italy,2006,hair_horse,2.0
+41,112,"China, mainland",Jordan,1992,hair_horse,1.0
+41,112,"China, mainland",Jordan,2003,hair_horse,1.0
+79,51,Germany,Czechoslovakia,1991,hair_horse,2.0
+79,51,Germany,Czechoslovakia,1992,hair_horse,10.0
+231,48,United States of America,Costa Rica,1995,hair_horse,2.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1990,hair_horse,1.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1992,hair_horse,2.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1993,hair_horse,2.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1994,hair_horse,4.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1995,hair_horse,5.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1996,hair_horse,4.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1997,hair_horse,5.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1998,hair_horse,2.0
+96,38,"China, Hong Kong SAR",Sri Lanka,1999,hair_horse,1.0
+210,126,Sweden,Lithuania,1997,hair_horse,2.0
+210,126,Sweden,Lithuania,1998,hair_horse,1.0
+216,131,Thailand,Malaysia,1993,hair_horse,15.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1986,hair_horse,2.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1987,hair_horse,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1988,hair_horse,4.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1989,hair_horse,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1991,hair_horse,5.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1992,hair_horse,3.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1994,hair_horse,6.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1997,hair_horse,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1998,hair_horse,46.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,1999,hair_horse,7.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2000,hair_horse,1.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2001,hair_horse,2.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2002,hair_horse,5.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2003,hair_horse,6.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2004,hair_horse,5.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2005,hair_horse,7.0
+229,68,United Kingdom of Great Britain and Northern Ireland,France,2006,hair_horse,5.0
+214,231,"China, Taiwan Province of",United States of America,1987,hair_horse,18.0
+214,231,"China, Taiwan Province of",United States of America,1991,hair_horse,4.0
+96,216,"China, Hong Kong SAR",Thailand,1990,hair_horse,3.0
+96,216,"China, Hong Kong SAR",Thailand,1993,hair_horse,5.0
+96,216,"China, Hong Kong SAR",Thailand,1994,hair_horse,2.0
+96,216,"China, Hong Kong SAR",Thailand,1996,hair_horse,1.0
+96,216,"China, Hong Kong SAR",Thailand,1997,hair_horse,1.0
+96,216,"China, Hong Kong SAR",Thailand,2000,hair_horse,1.0
+96,216,"China, Hong Kong SAR",Thailand,2001,hair_horse,2.0
+96,216,"China, Hong Kong SAR",Thailand,2002,hair_horse,1.0
+150,167,Netherlands (Kingdom of the),Czechia,1993,hair_horse,1.0
+150,167,Netherlands (Kingdom of the),Czechia,1995,hair_horse,1.0
+150,167,Netherlands (Kingdom of the),Czechia,1997,hair_horse,1.0
+150,167,Netherlands (Kingdom of the),Czechia,1998,hair_horse,1.0
+150,167,Netherlands (Kingdom of the),Czechia,1999,hair_horse,2.0
+150,167,Netherlands (Kingdom of the),Czechia,2000,hair_horse,2.0
+150,167,Netherlands (Kingdom of the),Czechia,2001,hair_horse,6.0
+150,167,Netherlands (Kingdom of the),Czechia,2002,hair_horse,3.0
+150,167,Netherlands (Kingdom of the),Czechia,2003,hair_horse,5.0
+150,167,Netherlands (Kingdom of the),Czechia,2004,hair_horse,3.0
+150,167,Netherlands (Kingdom of the),Czechia,2005,hair_horse,5.0
+150,167,Netherlands (Kingdom of the),Czechia,2006,hair_horse,3.0
+79,54,Germany,Denmark,1991,hair_horse,3.0
+79,54,Germany,Denmark,1996,hair_horse,1.0
+79,54,Germany,Denmark,1997,hair_horse,9.0
+79,54,Germany,Denmark,1998,hair_horse,46.0
+79,54,Germany,Denmark,1999,hair_horse,78.0
+79,54,Germany,Denmark,2000,hair_horse,82.0
+79,54,Germany,Denmark,2001,hair_horse,52.0
+79,54,Germany,Denmark,2002,hair_horse,12.0
+79,54,Germany,Denmark,2003,hair_horse,5.0
+79,54,Germany,Denmark,2004,hair_horse,6.0
+79,54,Germany,Denmark,2005,hair_horse,10.0
+79,54,Germany,Denmark,2006,hair_horse,5.0
+100,149,India,Nepal,2004,hair_horse,11.0
+100,149,India,Nepal,2007,hair_horse,5.0
+10,156,Australia,New Zealand,1991,hair_horse,3.0
+10,156,Australia,New Zealand,1992,hair_horse,2.0
+10,156,Australia,New Zealand,1998,hair_horse,1.0
+10,156,Australia,New Zealand,1999,hair_horse,6.0
+10,156,Australia,New Zealand,2000,hair_horse,13.0
+10,156,Australia,New Zealand,2001,hair_horse,3.0
+10,156,Australia,New Zealand,2004,hair_horse,1.0
+10,156,Australia,New Zealand,2005,hair_horse,3.0
+10,156,Australia,New Zealand,2006,hair_horse,1.0
+41,121,"China, mainland",Lebanon,1995,hair_horse,1.0
+255,105,Belgium,Israel,2000,hair_horse,3.0
+21,117,Brazil,Republic of Korea,1990,hair_horse,6.0
+96,223,"China, Hong Kong SAR",Türkiye,1996,hair_horse,4.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1986,hair_horse,8.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1987,hair_horse,45.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1988,hair_horse,7.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1989,hair_horse,20.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1990,hair_horse,15.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1991,hair_horse,6.0
+150,51,Netherlands (Kingdom of the),Czechoslovakia,1992,hair_horse,1.0
+106,67,Italy,Finland,1988,hair_horse,5.0
+41,131,"China, mainland",Malaysia,1992,hair_horse,2.0
+41,131,"China, mainland",Malaysia,1993,hair_horse,1.0
+41,131,"China, mainland",Malaysia,1994,hair_horse,4.0
+41,131,"China, mainland",Malaysia,1995,hair_horse,2.0
+41,131,"China, mainland",Malaysia,1996,hair_horse,2.0
+41,131,"China, mainland",Malaysia,1997,hair_horse,1.0
+41,131,"China, mainland",Malaysia,1998,hair_horse,5.0
+41,131,"China, mainland",Malaysia,1999,hair_horse,3.0
+41,131,"China, mainland",Malaysia,2001,hair_horse,2.0
+41,131,"China, mainland",Malaysia,2002,hair_horse,5.0
+41,131,"China, mainland",Malaysia,2003,hair_horse,5.0
+41,131,"China, mainland",Malaysia,2004,hair_horse,2.0
+41,131,"China, mainland",Malaysia,2005,hair_horse,1.0
+41,131,"China, mainland",Malaysia,2006,hair_horse,4.0
+255,106,Belgium,Italy,2003,hair_horse,1.0
+101,229,Indonesia,United Kingdom of Great Britain and Northern Ireland,2001,hair_horse,6.0
+96,229,"China, Hong Kong SAR",United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,1.0
+96,229,"China, Hong Kong SAR",United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,1.0
+131,200,Malaysia,Singapore,1999,hair_horse,1.0
+68,54,France,Denmark,1999,hair_horse,1.0
+68,54,France,Denmark,2001,hair_horse,1.0
+173,150,Poland,Netherlands (Kingdom of the),2004,hair_horse,5.0
+173,150,Poland,Netherlands (Kingdom of the),2005,hair_horse,4.0
+173,150,Poland,Netherlands (Kingdom of the),2006,hair_horse,3.0
+203,79,Spain,Germany,1992,hair_horse,4.0
+203,79,Spain,Germany,1993,hair_horse,2.0
+110,231,Japan,United States of America,1996,hair_horse,1.0
+110,231,Japan,United States of America,2004,hair_horse,1.0
+167,199,Czechia,Slovakia,1993,hair_horse,5.0
+167,199,Czechia,Slovakia,2002,hair_horse,1.0
+150,54,Netherlands (Kingdom of the),Denmark,1986,hair_horse,16.0
+150,54,Netherlands (Kingdom of the),Denmark,1987,hair_horse,1.0
+150,54,Netherlands (Kingdom of the),Denmark,1988,hair_horse,2.0
+150,54,Netherlands (Kingdom of the),Denmark,1991,hair_horse,2.0
+150,54,Netherlands (Kingdom of the),Denmark,1996,hair_horse,3.0
+101,231,Indonesia,United States of America,2006,hair_horse,9.0
+100,159,India,Nigeria,2005,hair_horse,14.0
+41,137,"China, mainland",Mauritius,2005,hair_horse,1.0
+41,137,"China, mainland",Mauritius,2006,hair_horse,1.0
+231,56,United States of America,Dominican Republic,1997,hair_horse,83.0
+231,56,United States of America,Dominican Republic,1998,hair_horse,78.0
+231,56,United States of America,Dominican Republic,1999,hair_horse,142.0
+231,56,United States of America,Dominican Republic,2000,hair_horse,70.0
+202,150,South Africa,Netherlands (Kingdom of the),1994,hair_horse,14.0
+33,110,Canada,Japan,1986,hair_horse,123.0
+33,110,Canada,Japan,1987,hair_horse,152.0
+33,110,Canada,Japan,1988,hair_horse,59.0
+33,110,Canada,Japan,1989,hair_horse,17.0
+33,110,Canada,Japan,1990,hair_horse,201.0
+33,110,Canada,Japan,1991,hair_horse,248.0
+33,110,Canada,Japan,1992,hair_horse,210.0
+33,110,Canada,Japan,1993,hair_horse,135.0
+33,110,Canada,Japan,1994,hair_horse,108.0
+33,110,Canada,Japan,1995,hair_horse,91.0
+33,110,Canada,Japan,1996,hair_horse,43.0
+33,110,Canada,Japan,1997,hair_horse,19.0
+33,110,Canada,Japan,1998,hair_horse,18.0
+33,110,Canada,Japan,1999,hair_horse,7.0
+33,110,Canada,Japan,2000,hair_horse,11.0
+96,231,"China, Hong Kong SAR",United States of America,1988,hair_horse,15.0
+96,231,"China, Hong Kong SAR",United States of America,1989,hair_horse,58.0
+96,231,"China, Hong Kong SAR",United States of America,1990,hair_horse,38.0
+96,231,"China, Hong Kong SAR",United States of America,1991,hair_horse,26.0
+96,231,"China, Hong Kong SAR",United States of America,1992,hair_horse,6.0
+96,231,"China, Hong Kong SAR",United States of America,1993,hair_horse,8.0
+96,231,"China, Hong Kong SAR",United States of America,1994,hair_horse,6.0
+96,231,"China, Hong Kong SAR",United States of America,1995,hair_horse,2.0
+96,231,"China, Hong Kong SAR",United States of America,1996,hair_horse,3.0
+96,231,"China, Hong Kong SAR",United States of America,1997,hair_horse,1.0
+41,138,"China, mainland",Mexico,1991,hair_horse,7.0
+41,138,"China, mainland",Mexico,1992,hair_horse,64.0
+41,138,"China, mainland",Mexico,1993,hair_horse,55.0
+41,138,"China, mainland",Mexico,1994,hair_horse,25.0
+41,138,"China, mainland",Mexico,1995,hair_horse,8.0
+41,138,"China, mainland",Mexico,1996,hair_horse,6.0
+41,138,"China, mainland",Mexico,1997,hair_horse,30.0
+41,138,"China, mainland",Mexico,1998,hair_horse,1.0
+41,138,"China, mainland",Mexico,1999,hair_horse,28.0
+41,138,"China, mainland",Mexico,2000,hair_horse,17.0
+41,138,"China, mainland",Mexico,2001,hair_horse,78.0
+41,138,"China, mainland",Mexico,2002,hair_horse,28.0
+41,138,"China, mainland",Mexico,2003,hair_horse,38.0
+41,138,"China, mainland",Mexico,2004,hair_horse,65.0
+41,138,"China, mainland",Mexico,2005,hair_horse,33.0
+41,138,"China, mainland",Mexico,2006,hair_horse,18.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1991,hair_horse,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1992,hair_horse,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1994,hair_horse,5.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1996,hair_horse,1.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1997,hair_horse,53.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1998,hair_horse,83.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,1999,hair_horse,84.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2000,hair_horse,57.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2001,hair_horse,15.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2002,hair_horse,16.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2003,hair_horse,6.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2004,hair_horse,5.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2005,hair_horse,16.0
+229,79,United Kingdom of Great Britain and Northern Ireland,Germany,2006,hair_horse,5.0
+211,138,Switzerland,Mexico,1988,hair_horse,1.0
+211,138,Switzerland,Mexico,1989,hair_horse,2.0
+211,138,Switzerland,Mexico,1990,hair_horse,3.0
+21,203,Brazil,Spain,1986,hair_horse,2.0
+106,68,Italy,France,1990,hair_horse,1.0
+106,68,Italy,France,1992,hair_horse,3.0
+106,68,Italy,France,1993,hair_horse,9.0
+106,68,Italy,France,1995,hair_horse,13.0
+106,68,Italy,France,1998,hair_horse,2.0
+106,68,Italy,France,2000,hair_horse,3.0
+106,68,Italy,France,2001,hair_horse,16.0
+106,68,Italy,France,2002,hair_horse,18.0
+106,68,Italy,France,2003,hair_horse,34.0
+106,68,Italy,France,2004,hair_horse,9.0
+106,68,Italy,France,2005,hair_horse,9.0
+106,68,Italy,France,2006,hair_horse,3.0
+54,150,Denmark,Netherlands (Kingdom of the),1986,hair_horse,20.0
+54,150,Denmark,Netherlands (Kingdom of the),1987,hair_horse,16.0
+54,150,Denmark,Netherlands (Kingdom of the),1988,hair_horse,19.0
+54,150,Denmark,Netherlands (Kingdom of the),1989,hair_horse,13.0
+54,150,Denmark,Netherlands (Kingdom of the),1990,hair_horse,17.0
+54,150,Denmark,Netherlands (Kingdom of the),1991,hair_horse,15.0
+54,150,Denmark,Netherlands (Kingdom of the),1992,hair_horse,14.0
+54,150,Denmark,Netherlands (Kingdom of the),1993,hair_horse,11.0
+54,150,Denmark,Netherlands (Kingdom of the),1994,hair_horse,10.0
+54,150,Denmark,Netherlands (Kingdom of the),1995,hair_horse,5.0
+54,150,Denmark,Netherlands (Kingdom of the),1996,hair_horse,5.0
+210,162,Sweden,Norway,1986,hair_horse,9.0
+210,162,Sweden,Norway,1987,hair_horse,5.0
+210,162,Sweden,Norway,1990,hair_horse,8.0
+210,162,Sweden,Norway,1991,hair_horse,7.0
+210,162,Sweden,Norway,1992,hair_horse,4.0
+210,162,Sweden,Norway,1994,hair_horse,1.0
+210,162,Sweden,Norway,1997,hair_horse,1.0
+210,162,Sweden,Norway,1998,hair_horse,1.0
+210,162,Sweden,Norway,1999,hair_horse,1.0
+79,63,Germany,Estonia,2004,hair_horse,1.0
+97,211,Hungary,Switzerland,1992,hair_horse,10.0
+11,150,Austria,Netherlands (Kingdom of the),1987,hair_horse,9.0
+21,211,Brazil,Switzerland,1988,hair_horse,10.0
+21,211,Brazil,Switzerland,1989,hair_horse,6.0
+21,211,Brazil,Switzerland,1990,hair_horse,9.0
+21,211,Brazil,Switzerland,1991,hair_horse,8.0
+21,211,Brazil,Switzerland,1992,hair_horse,17.0
+21,211,Brazil,Switzerland,1993,hair_horse,6.0
+96,248,"China, Hong Kong SAR",Yugoslav SFR,1991,hair_horse,10.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1987,hair_horse,344.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1988,hair_horse,155.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1989,hair_horse,298.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1990,hair_horse,183.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1991,hair_horse,139.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1992,hair_horse,405.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1993,hair_horse,268.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1994,hair_horse,707.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1995,hair_horse,807.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1996,hair_horse,411.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1997,hair_horse,322.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1998,hair_horse,297.0
+41,150,"China, mainland",Netherlands (Kingdom of the),1999,hair_horse,279.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2000,hair_horse,171.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2001,hair_horse,187.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2002,hair_horse,141.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2003,hair_horse,118.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2004,hair_horse,186.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2005,hair_horse,170.0
+41,150,"China, mainland",Netherlands (Kingdom of the),2006,hair_horse,205.0
+79,67,Germany,Finland,1991,hair_horse,4.0
+79,67,Germany,Finland,1992,hair_horse,5.0
+79,67,Germany,Finland,1993,hair_horse,2.0
+79,67,Germany,Finland,1994,hair_horse,5.0
+79,67,Germany,Finland,1995,hair_horse,6.0
+79,67,Germany,Finland,1996,hair_horse,2.0
+79,67,Germany,Finland,1997,hair_horse,5.0
+79,67,Germany,Finland,1998,hair_horse,3.0
+79,67,Germany,Finland,1999,hair_horse,2.0
+79,67,Germany,Finland,2000,hair_horse,1.0
+79,67,Germany,Finland,2001,hair_horse,1.0
+79,67,Germany,Finland,2002,hair_horse,1.0
+79,67,Germany,Finland,2004,hair_horse,1.0
+79,67,Germany,Finland,2006,hair_horse,1.0
+202,166,South Africa,Panama,1994,hair_horse,37.0
+10,117,Australia,Republic of Korea,1988,hair_horse,2.0
+10,117,Australia,Republic of Korea,1989,hair_horse,2.0
+84,203,Greece,Spain,1987,hair_horse,8.0
+54,162,Denmark,Norway,1999,hair_horse,2.0
+54,162,Denmark,Norway,2001,hair_horse,2.0
+54,162,Denmark,Norway,2002,hair_horse,1.0
+41,156,"China, mainland",New Zealand,1996,hair_horse,1.0
+41,156,"China, mainland",New Zealand,1997,hair_horse,1.0
+41,156,"China, mainland",New Zealand,1998,hair_horse,1.0
+41,156,"China, mainland",New Zealand,1999,hair_horse,1.0
+41,156,"China, mainland",New Zealand,2002,hair_horse,2.0
+167,211,Czechia,Switzerland,1994,hair_horse,4.0
+167,211,Czechia,Switzerland,2003,hair_horse,1.0
+210,173,Sweden,Poland,1993,hair_horse,9.0
+210,173,Sweden,Poland,1994,hair_horse,16.0
+210,173,Sweden,Poland,1995,hair_horse,33.0
+210,173,Sweden,Poland,1996,hair_horse,8.0
+210,173,Sweden,Poland,1997,hair_horse,5.0
+210,173,Sweden,Poland,1998,hair_horse,1.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1986,hair_horse,10.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,4.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,2.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,1.0
+21,229,Brazil,United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,3.0
+106,79,Italy,Germany,1992,hair_horse,67.0
+106,79,Italy,Germany,1993,hair_horse,26.0
+106,79,Italy,Germany,1994,hair_horse,14.0
+106,79,Italy,Germany,1996,hair_horse,2.0
+106,79,Italy,Germany,2005,hair_horse,1.0
+106,79,Italy,Germany,2006,hair_horse,3.0
+79,68,Germany,France,1991,hair_horse,7.0
+79,68,Germany,France,1992,hair_horse,10.0
+79,68,Germany,France,1993,hair_horse,2.0
+79,68,Germany,France,1994,hair_horse,2.0
+79,68,Germany,France,1995,hair_horse,2.0
+79,68,Germany,France,1996,hair_horse,1.0
+79,68,Germany,France,1997,hair_horse,3.0
+79,68,Germany,France,1998,hair_horse,4.0
+79,68,Germany,France,1999,hair_horse,2.0
+79,68,Germany,France,2000,hair_horse,2.0
+79,68,Germany,France,2001,hair_horse,4.0
+79,68,Germany,France,2002,hair_horse,3.0
+79,68,Germany,France,2003,hair_horse,1.0
+79,68,Germany,France,2004,hair_horse,4.0
+79,68,Germany,France,2005,hair_horse,1.0
+79,68,Germany,France,2006,hair_horse,2.0
+41,165,"China, mainland",Pakistan,1992,hair_horse,1.0
+41,165,"China, mainland",Pakistan,1994,hair_horse,4.0
+41,165,"China, mainland",Pakistan,1995,hair_horse,4.0
+41,165,"China, mainland",Pakistan,1998,hair_horse,4.0
+41,165,"China, mainland",Pakistan,1999,hair_horse,3.0
+41,165,"China, mainland",Pakistan,2005,hair_horse,7.0
+100,194,India,Saudi Arabia,1997,hair_horse,1.0
+21,231,Brazil,United States of America,1986,hair_horse,37.0
+21,231,Brazil,United States of America,1987,hair_horse,3.0
+21,231,Brazil,United States of America,1988,hair_horse,21.0
+21,231,Brazil,United States of America,1989,hair_horse,10.0
+21,231,Brazil,United States of America,1990,hair_horse,10.0
+21,231,Brazil,United States of America,1991,hair_horse,19.0
+21,231,Brazil,United States of America,1992,hair_horse,25.0
+21,231,Brazil,United States of America,1993,hair_horse,29.0
+21,231,Brazil,United States of America,1994,hair_horse,13.0
+21,231,Brazil,United States of America,1995,hair_horse,8.0
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,1988,hair_horse,4.0
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,1998,hair_horse,1.0
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2003,hair_horse,4.0
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2006,hair_horse,1.0
+10,200,Australia,Singapore,1991,hair_horse,1.0
+41,169,"China, mainland",Paraguay,2000,hair_horse,3.0
+41,169,"China, mainland",Paraguay,2002,hair_horse,12.0
+173,199,Poland,Slovakia,2004,hair_horse,1.0
+231,68,United States of America,France,2002,hair_horse,1.0
+33,150,Canada,Netherlands (Kingdom of the),1987,hair_horse,10.0
+41,171,"China, mainland",Philippines,1994,hair_horse,3.0
+41,171,"China, mainland",Philippines,1999,hair_horse,2.0
+41,171,"China, mainland",Philippines,2000,hair_horse,6.0
+41,171,"China, mainland",Philippines,2005,hair_horse,5.0
+150,67,Netherlands (Kingdom of the),Finland,1986,hair_horse,3.0
+150,67,Netherlands (Kingdom of the),Finland,1987,hair_horse,3.0
+150,67,Netherlands (Kingdom of the),Finland,1988,hair_horse,3.0
+150,67,Netherlands (Kingdom of the),Finland,1989,hair_horse,2.0
+150,67,Netherlands (Kingdom of the),Finland,1990,hair_horse,2.0
+150,67,Netherlands (Kingdom of the),Finland,1995,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,1996,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,1997,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,1998,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,1999,hair_horse,4.0
+150,67,Netherlands (Kingdom of the),Finland,2001,hair_horse,2.0
+150,67,Netherlands (Kingdom of the),Finland,2002,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,2004,hair_horse,1.0
+150,67,Netherlands (Kingdom of the),Finland,2005,hair_horse,1.0
+21,234,Brazil,Uruguay,2005,hair_horse,20.0
+41,173,"China, mainland",Poland,1987,hair_horse,5.0
+41,173,"China, mainland",Poland,1988,hair_horse,37.0
+41,173,"China, mainland",Poland,1989,hair_horse,54.0
+41,173,"China, mainland",Poland,1994,hair_horse,5.0
+41,173,"China, mainland",Poland,1995,hair_horse,7.0
+41,173,"China, mainland",Poland,1996,hair_horse,5.0
+41,173,"China, mainland",Poland,1997,hair_horse,8.0
+41,173,"China, mainland",Poland,1998,hair_horse,8.0
+41,173,"China, mainland",Poland,1999,hair_horse,8.0
+41,173,"China, mainland",Poland,2000,hair_horse,7.0
+41,173,"China, mainland",Poland,2001,hair_horse,16.0
+41,173,"China, mainland",Poland,2002,hair_horse,9.0
+41,173,"China, mainland",Poland,2003,hair_horse,3.0
+41,173,"China, mainland",Poland,2004,hair_horse,19.0
+41,173,"China, mainland",Poland,2005,hair_horse,15.0
+41,173,"China, mainland",Poland,2006,hair_horse,29.0
+229,100,United Kingdom of Great Britain and Northern Ireland,India,1990,hair_horse,1.0
+11,183,Austria,Romania,2002,hair_horse,1.0
+41,117,"China, mainland",Republic of Korea,1989,hair_horse,10.0
+41,117,"China, mainland",Republic of Korea,1990,hair_horse,50.0
+41,117,"China, mainland",Republic of Korea,1991,hair_horse,52.0
+41,117,"China, mainland",Republic of Korea,1992,hair_horse,43.0
+41,117,"China, mainland",Republic of Korea,1993,hair_horse,68.0
+41,117,"China, mainland",Republic of Korea,1994,hair_horse,105.0
+41,117,"China, mainland",Republic of Korea,1995,hair_horse,77.0
+41,117,"China, mainland",Republic of Korea,1996,hair_horse,76.0
+41,117,"China, mainland",Republic of Korea,1997,hair_horse,70.0
+41,117,"China, mainland",Republic of Korea,1998,hair_horse,31.0
+41,117,"China, mainland",Republic of Korea,1999,hair_horse,47.0
+41,117,"China, mainland",Republic of Korea,2000,hair_horse,57.0
+41,117,"China, mainland",Republic of Korea,2001,hair_horse,39.0
+41,117,"China, mainland",Republic of Korea,2002,hair_horse,38.0
+41,117,"China, mainland",Republic of Korea,2003,hair_horse,50.0
+41,117,"China, mainland",Republic of Korea,2004,hair_horse,12.0
+41,117,"China, mainland",Republic of Korea,2005,hair_horse,12.0
+41,117,"China, mainland",Republic of Korea,2006,hair_horse,37.0
+231,79,United States of America,Germany,1993,hair_horse,29.0
+231,79,United States of America,Germany,1994,hair_horse,7.0
+231,79,United States of America,Germany,1996,hair_horse,21.0
+231,79,United States of America,Germany,1997,hair_horse,3.0
+231,79,United States of America,Germany,1998,hair_horse,3.0
+231,79,United States of America,Germany,1999,hair_horse,2.0
+231,79,United States of America,Germany,2006,hair_horse,7.0
+255,150,Belgium,Netherlands (Kingdom of the),2006,hair_horse,5.0
+79,84,Germany,Greece,1991,hair_horse,1.0
+79,84,Germany,Greece,1992,hair_horse,8.0
+79,84,Germany,Greece,1996,hair_horse,1.0
+79,84,Germany,Greece,1997,hair_horse,3.0
+79,84,Germany,Greece,1998,hair_horse,1.0
+79,84,Germany,Greece,1999,hair_horse,2.0
+79,84,Germany,Greece,2000,hair_horse,1.0
+79,84,Germany,Greece,2002,hair_horse,1.0
+203,106,Spain,Italy,1986,hair_horse,11.0
+203,106,Spain,Italy,1990,hair_horse,14.0
+203,106,Spain,Italy,1991,hair_horse,11.0
+203,106,Spain,Italy,1992,hair_horse,10.0
+203,106,Spain,Italy,1993,hair_horse,2.0
+203,106,Spain,Italy,1998,hair_horse,7.0
+150,68,Netherlands (Kingdom of the),France,1986,hair_horse,38.0
+150,68,Netherlands (Kingdom of the),France,1987,hair_horse,26.0
+150,68,Netherlands (Kingdom of the),France,1988,hair_horse,10.0
+150,68,Netherlands (Kingdom of the),France,1989,hair_horse,5.0
+150,68,Netherlands (Kingdom of the),France,1990,hair_horse,13.0
+150,68,Netherlands (Kingdom of the),France,1991,hair_horse,9.0
+150,68,Netherlands (Kingdom of the),France,1992,hair_horse,17.0
+150,68,Netherlands (Kingdom of the),France,1993,hair_horse,14.0
+150,68,Netherlands (Kingdom of the),France,1994,hair_horse,22.0
+150,68,Netherlands (Kingdom of the),France,1995,hair_horse,15.0
+150,68,Netherlands (Kingdom of the),France,1996,hair_horse,8.0
+150,68,Netherlands (Kingdom of the),France,1997,hair_horse,23.0
+150,68,Netherlands (Kingdom of the),France,1998,hair_horse,17.0
+150,68,Netherlands (Kingdom of the),France,1999,hair_horse,6.0
+150,68,Netherlands (Kingdom of the),France,2000,hair_horse,10.0
+150,68,Netherlands (Kingdom of the),France,2001,hair_horse,21.0
+150,68,Netherlands (Kingdom of the),France,2002,hair_horse,6.0
+150,68,Netherlands (Kingdom of the),France,2003,hair_horse,18.0
+150,68,Netherlands (Kingdom of the),France,2004,hair_horse,17.0
+150,68,Netherlands (Kingdom of the),France,2005,hair_horse,23.0
+150,68,Netherlands (Kingdom of the),France,2006,hair_horse,20.0
+68,79,France,Germany,1991,hair_horse,11.0
+68,79,France,Germany,1992,hair_horse,16.0
+68,79,France,Germany,1996,hair_horse,9.0
+68,79,France,Germany,1997,hair_horse,2.0
+68,79,France,Germany,1998,hair_horse,24.0
+68,79,France,Germany,2000,hair_horse,1.0
+68,79,France,Germany,2001,hair_horse,25.0
+68,79,France,Germany,2005,hair_horse,5.0
+68,79,France,Germany,2006,hair_horse,2.0
+210,211,Sweden,Switzerland,2006,hair_horse,1.0
+33,166,Canada,Panama,1994,hair_horse,12.0
+41,183,"China, mainland",Romania,1989,hair_horse,15.0
+33,169,Canada,Paraguay,1998,hair_horse,1.0
+100,38,India,Sri Lanka,1999,hair_horse,11.0
+41,185,"China, mainland",Russian Federation,1992,hair_horse,1.0
+41,185,"China, mainland",Russian Federation,1996,hair_horse,36.0
+41,185,"China, mainland",Russian Federation,1999,hair_horse,5.0
+41,185,"China, mainland",Russian Federation,2000,hair_horse,12.0
+41,185,"China, mainland",Russian Federation,2001,hair_horse,3.0
+41,185,"China, mainland",Russian Federation,2004,hair_horse,1.0
+41,185,"China, mainland",Russian Federation,2005,hair_horse,11.0
+106,97,Italy,Hungary,1990,hair_horse,1.0
+106,97,Italy,Hungary,1991,hair_horse,5.0
+106,97,Italy,Hungary,1992,hair_horse,4.0
+216,38,Thailand,Sri Lanka,1999,hair_horse,10.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1990,hair_horse,3.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,1996,hair_horse,1.0
+11,199,Austria,Slovakia,2004,hair_horse,2.0
+79,97,Germany,Hungary,1992,hair_horse,1.0
+79,97,Germany,Hungary,1993,hair_horse,1.0
+79,97,Germany,Hungary,1994,hair_horse,15.0
+79,97,Germany,Hungary,1995,hair_horse,6.0
+79,97,Germany,Hungary,1996,hair_horse,7.0
+79,97,Germany,Hungary,1997,hair_horse,8.0
+79,97,Germany,Hungary,1998,hair_horse,18.0
+79,97,Germany,Hungary,1999,hair_horse,17.0
+79,97,Germany,Hungary,2000,hair_horse,14.0
+79,97,Germany,Hungary,2001,hair_horse,6.0
+79,97,Germany,Hungary,2002,hair_horse,10.0
+79,97,Germany,Hungary,2003,hair_horse,8.0
+79,97,Germany,Hungary,2004,hair_horse,9.0
+79,97,Germany,Hungary,2005,hair_horse,4.0
+79,97,Germany,Hungary,2006,hair_horse,3.0
+100,216,India,Thailand,2001,hair_horse,1.0
+211,203,Switzerland,Spain,1988,hair_horse,1.0
+41,198,"China, mainland",Slovenia,1999,hair_horse,6.0
+41,198,"China, mainland",Slovenia,2000,hair_horse,1.0
+41,198,"China, mainland",Slovenia,2001,hair_horse,2.0
+41,198,"China, mainland",Slovenia,2002,hair_horse,4.0
+41,198,"China, mainland",Slovenia,2003,hair_horse,5.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1986,hair_horse,5.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1987,hair_horse,3.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1988,hair_horse,3.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1989,hair_horse,2.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1990,hair_horse,1.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1991,hair_horse,2.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1997,hair_horse,7.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1998,hair_horse,5.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,1999,hair_horse,10.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,2002,hair_horse,1.0
+229,105,United Kingdom of Great Britain and Northern Ireland,Israel,2003,hair_horse,4.0
+33,117,Canada,Republic of Korea,1987,hair_horse,18.0
+33,117,Canada,Republic of Korea,1989,hair_horse,9.0
+33,117,Canada,Republic of Korea,1990,hair_horse,4.0
+11,198,Austria,Slovenia,1992,hair_horse,10.0
+11,198,Austria,Slovenia,1997,hair_horse,2.0
+41,202,"China, mainland",South Africa,2005,hair_horse,1.0
+79,99,Germany,Iceland,1992,hair_horse,1.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,3.0
+41,203,"China, mainland",Spain,1987,hair_horse,12.0
+41,203,"China, mainland",Spain,1988,hair_horse,10.0
+41,203,"China, mainland",Spain,1989,hair_horse,9.0
+41,203,"China, mainland",Spain,1990,hair_horse,3.0
+41,203,"China, mainland",Spain,1991,hair_horse,7.0
+41,203,"China, mainland",Spain,1992,hair_horse,22.0
+41,203,"China, mainland",Spain,1993,hair_horse,39.0
+41,203,"China, mainland",Spain,1994,hair_horse,19.0
+41,203,"China, mainland",Spain,1995,hair_horse,38.0
+41,203,"China, mainland",Spain,1996,hair_horse,20.0
+41,203,"China, mainland",Spain,1997,hair_horse,31.0
+41,203,"China, mainland",Spain,1998,hair_horse,43.0
+41,203,"China, mainland",Spain,1999,hair_horse,53.0
+41,203,"China, mainland",Spain,2000,hair_horse,39.0
+41,203,"China, mainland",Spain,2001,hair_horse,33.0
+41,203,"China, mainland",Spain,2002,hair_horse,46.0
+41,203,"China, mainland",Spain,2003,hair_horse,53.0
+41,203,"China, mainland",Spain,2004,hair_horse,29.0
+41,203,"China, mainland",Spain,2005,hair_horse,19.0
+41,203,"China, mainland",Spain,2006,hair_horse,18.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,3.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,4.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,22.0
+10,229,Australia,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,6.0
+150,79,Netherlands (Kingdom of the),Germany,1991,hair_horse,117.0
+150,79,Netherlands (Kingdom of the),Germany,1992,hair_horse,190.0
+150,79,Netherlands (Kingdom of the),Germany,1993,hair_horse,207.0
+150,79,Netherlands (Kingdom of the),Germany,1994,hair_horse,178.0
+150,79,Netherlands (Kingdom of the),Germany,1995,hair_horse,156.0
+150,79,Netherlands (Kingdom of the),Germany,1996,hair_horse,155.0
+150,79,Netherlands (Kingdom of the),Germany,1997,hair_horse,144.0
+150,79,Netherlands (Kingdom of the),Germany,1998,hair_horse,94.0
+150,79,Netherlands (Kingdom of the),Germany,1999,hair_horse,96.0
+150,79,Netherlands (Kingdom of the),Germany,2000,hair_horse,41.0
+150,79,Netherlands (Kingdom of the),Germany,2001,hair_horse,27.0
+150,79,Netherlands (Kingdom of the),Germany,2002,hair_horse,40.0
+150,79,Netherlands (Kingdom of the),Germany,2003,hair_horse,194.0
+150,79,Netherlands (Kingdom of the),Germany,2004,hair_horse,279.0
+150,79,Netherlands (Kingdom of the),Germany,2005,hair_horse,255.0
+150,79,Netherlands (Kingdom of the),Germany,2006,hair_horse,135.0
+211,210,Switzerland,Sweden,1986,hair_horse,8.0
+211,210,Switzerland,Sweden,1988,hair_horse,3.0
+211,210,Switzerland,Sweden,1990,hair_horse,3.0
+211,210,Switzerland,Sweden,1991,hair_horse,6.0
+211,210,Switzerland,Sweden,1992,hair_horse,2.0
+211,210,Switzerland,Sweden,1993,hair_horse,36.0
+211,210,Switzerland,Sweden,1994,hair_horse,46.0
+211,210,Switzerland,Sweden,1995,hair_horse,50.0
+211,210,Switzerland,Sweden,1996,hair_horse,68.0
+211,210,Switzerland,Sweden,1997,hair_horse,91.0
+211,210,Switzerland,Sweden,1998,hair_horse,95.0
+211,210,Switzerland,Sweden,1999,hair_horse,134.0
+211,210,Switzerland,Sweden,2000,hair_horse,132.0
+211,210,Switzerland,Sweden,2001,hair_horse,113.0
+211,210,Switzerland,Sweden,2002,hair_horse,103.0
+211,210,Switzerland,Sweden,2003,hair_horse,57.0
+211,210,Switzerland,Sweden,2004,hair_horse,72.0
+211,210,Switzerland,Sweden,2005,hair_horse,82.0
+211,210,Switzerland,Sweden,2006,hair_horse,62.0
+216,229,Thailand,United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,5.0
+54,210,Denmark,Sweden,1986,hair_horse,1.0
+54,210,Denmark,Sweden,1987,hair_horse,2.0
+54,210,Denmark,Sweden,1988,hair_horse,1.0
+54,210,Denmark,Sweden,1989,hair_horse,13.0
+54,210,Denmark,Sweden,1990,hair_horse,15.0
+54,210,Denmark,Sweden,1991,hair_horse,12.0
+54,210,Denmark,Sweden,1992,hair_horse,11.0
+54,210,Denmark,Sweden,1993,hair_horse,9.0
+54,210,Denmark,Sweden,1994,hair_horse,20.0
+54,210,Denmark,Sweden,1995,hair_horse,31.0
+54,210,Denmark,Sweden,1996,hair_horse,21.0
+41,38,"China, mainland",Sri Lanka,1992,hair_horse,1.0
+41,38,"China, mainland",Sri Lanka,1995,hair_horse,1.0
+41,38,"China, mainland",Sri Lanka,2003,hair_horse,1.0
+41,38,"China, mainland",Sri Lanka,2004,hair_horse,2.0
+41,38,"China, mainland",Sri Lanka,2005,hair_horse,3.0
+41,38,"China, mainland",Sri Lanka,2006,hair_horse,2.0
+202,215,South Africa,United Republic of Tanzania,2002,hair_horse,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1986,hair_horse,6.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1987,hair_horse,5.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1988,hair_horse,6.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1989,hair_horse,6.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1990,hair_horse,5.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1992,hair_horse,2.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1994,hair_horse,1.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1997,hair_horse,14.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1998,hair_horse,20.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,1999,hair_horse,25.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2000,hair_horse,14.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2001,hair_horse,10.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2002,hair_horse,12.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2003,hair_horse,16.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2004,hair_horse,9.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2005,hair_horse,4.0
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2006,hair_horse,1.0
+100,225,India,United Arab Emirates,1997,hair_horse,1.0
+100,225,India,United Arab Emirates,1998,hair_horse,1.0
+41,210,"China, mainland",Sweden,1990,hair_horse,1.0
+41,210,"China, mainland",Sweden,1991,hair_horse,2.0
+41,210,"China, mainland",Sweden,1992,hair_horse,2.0
+41,210,"China, mainland",Sweden,1995,hair_horse,12.0
+41,210,"China, mainland",Sweden,1996,hair_horse,1.0
+41,210,"China, mainland",Sweden,2001,hair_horse,1.0
+11,203,Austria,Spain,1994,hair_horse,15.0
+10,231,Australia,United States of America,1987,hair_horse,2.0
+10,231,Australia,United States of America,2005,hair_horse,2.0
+41,211,"China, mainland",Switzerland,1987,hair_horse,15.0
+41,211,"China, mainland",Switzerland,1989,hair_horse,1.0
+41,211,"China, mainland",Switzerland,1992,hair_horse,4.0
+41,211,"China, mainland",Switzerland,1996,hair_horse,10.0
+106,110,Italy,Japan,1989,hair_horse,2.0
+106,110,Italy,Japan,1990,hair_horse,7.0
+106,110,Italy,Japan,1994,hair_horse,4.0
+106,110,Italy,Japan,2005,hair_horse,11.0
+216,231,Thailand,United States of America,2002,hair_horse,1.0
+216,231,Thailand,United States of America,2003,hair_horse,2.0
+216,231,Thailand,United States of America,2006,hair_horse,12.0
+231,97,United States of America,Hungary,1990,hair_horse,2.0
+100,229,India,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,16.0
+11,210,Austria,Sweden,1997,hair_horse,5.0
+11,210,Austria,Sweden,1998,hair_horse,4.0
+11,210,Austria,Sweden,2006,hair_horse,1.0
+41,216,"China, mainland",Thailand,1988,hair_horse,1.0
+41,216,"China, mainland",Thailand,1989,hair_horse,2.0
+41,216,"China, mainland",Thailand,1990,hair_horse,2.0
+41,216,"China, mainland",Thailand,1991,hair_horse,3.0
+41,216,"China, mainland",Thailand,1992,hair_horse,3.0
+41,216,"China, mainland",Thailand,1993,hair_horse,14.0
+41,216,"China, mainland",Thailand,1994,hair_horse,10.0
+41,216,"China, mainland",Thailand,1995,hair_horse,8.0
+41,216,"China, mainland",Thailand,1996,hair_horse,13.0
+41,216,"China, mainland",Thailand,1997,hair_horse,10.0
+41,216,"China, mainland",Thailand,1998,hair_horse,6.0
+41,216,"China, mainland",Thailand,1999,hair_horse,5.0
+41,216,"China, mainland",Thailand,2000,hair_horse,3.0
+41,216,"China, mainland",Thailand,2001,hair_horse,9.0
+41,216,"China, mainland",Thailand,2002,hair_horse,4.0
+41,216,"China, mainland",Thailand,2003,hair_horse,12.0
+41,216,"China, mainland",Thailand,2004,hair_horse,6.0
+41,216,"China, mainland",Thailand,2005,hair_horse,8.0
+41,216,"China, mainland",Thailand,2006,hair_horse,9.0
+79,104,Germany,Ireland,1991,hair_horse,1.0
+202,251,South Africa,Zambia,2001,hair_horse,21.0
+150,84,Netherlands (Kingdom of the),Greece,1986,hair_horse,2.0
+150,84,Netherlands (Kingdom of the),Greece,1987,hair_horse,1.0
+150,84,Netherlands (Kingdom of the),Greece,1988,hair_horse,1.0
+150,84,Netherlands (Kingdom of the),Greece,1989,hair_horse,1.0
+150,84,Netherlands (Kingdom of the),Greece,1990,hair_horse,5.0
+150,84,Netherlands (Kingdom of the),Greece,1992,hair_horse,1.0
+150,84,Netherlands (Kingdom of the),Greece,1994,hair_horse,3.0
+150,84,Netherlands (Kingdom of the),Greece,1995,hair_horse,2.0
+150,84,Netherlands (Kingdom of the),Greece,2001,hair_horse,1.0
+150,84,Netherlands (Kingdom of the),Greece,2003,hair_horse,1.0
+11,211,Austria,Switzerland,1988,hair_horse,31.0
+11,211,Austria,Switzerland,1989,hair_horse,36.0
+11,211,Austria,Switzerland,1990,hair_horse,29.0
+11,211,Austria,Switzerland,1991,hair_horse,26.0
+11,211,Austria,Switzerland,1992,hair_horse,30.0
+11,211,Austria,Switzerland,1993,hair_horse,34.0
+11,211,Austria,Switzerland,1994,hair_horse,33.0
+11,211,Austria,Switzerland,1995,hair_horse,18.0
+11,211,Austria,Switzerland,1996,hair_horse,17.0
+11,211,Austria,Switzerland,1997,hair_horse,20.0
+11,211,Austria,Switzerland,1998,hair_horse,19.0
+11,211,Austria,Switzerland,1999,hair_horse,19.0
+11,211,Austria,Switzerland,2000,hair_horse,17.0
+11,211,Austria,Switzerland,2001,hair_horse,7.0
+11,211,Austria,Switzerland,2002,hair_horse,5.0
+11,211,Austria,Switzerland,2003,hair_horse,2.0
+11,211,Austria,Switzerland,2004,hair_horse,1.0
+11,211,Austria,Switzerland,2005,hair_horse,1.0
+106,119,Italy,Latvia,2005,hair_horse,5.0
+41,223,"China, mainland",Türkiye,1993,hair_horse,45.0
+41,223,"China, mainland",Türkiye,1994,hair_horse,55.0
+41,223,"China, mainland",Türkiye,1995,hair_horse,48.0
+41,223,"China, mainland",Türkiye,1996,hair_horse,69.0
+41,223,"China, mainland",Türkiye,1997,hair_horse,71.0
+41,223,"China, mainland",Türkiye,1998,hair_horse,87.0
+41,223,"China, mainland",Türkiye,1999,hair_horse,67.0
+41,223,"China, mainland",Türkiye,2000,hair_horse,69.0
+41,223,"China, mainland",Türkiye,2001,hair_horse,20.0
+41,223,"China, mainland",Türkiye,2002,hair_horse,37.0
+41,223,"China, mainland",Türkiye,2003,hair_horse,75.0
+41,223,"China, mainland",Türkiye,2004,hair_horse,49.0
+41,223,"China, mainland",Türkiye,2005,hair_horse,51.0
+41,223,"China, mainland",Türkiye,2006,hair_horse,63.0
+79,105,Germany,Israel,1991,hair_horse,1.0
+79,105,Germany,Israel,1992,hair_horse,1.0
+79,105,Germany,Israel,1994,hair_horse,1.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1986,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,10.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,4.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,3.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,8.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,4.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,3.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,4.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,2000,hair_horse,3.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,2001,hair_horse,2.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,2002,hair_horse,5.0
+211,229,Switzerland,United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,4.0
+231,101,United States of America,Indonesia,2003,hair_horse,1.0
+41,225,"China, mainland",United Arab Emirates,2005,hair_horse,4.0
+41,225,"China, mainland",United Arab Emirates,2006,hair_horse,3.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,43.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,31.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,27.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,4.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,3.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,37.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,16.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,53.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,26.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,17.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,187.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,195.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,146.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2000,hair_horse,120.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2001,hair_horse,124.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2002,hair_horse,101.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,110.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,87.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2005,hair_horse,76.0
+41,229,"China, mainland",United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,106.0
+79,106,Germany,Italy,1991,hair_horse,4.0
+79,106,Germany,Italy,1992,hair_horse,2.0
+79,106,Germany,Italy,1993,hair_horse,1.0
+79,106,Germany,Italy,1994,hair_horse,2.0
+79,106,Germany,Italy,1997,hair_horse,1.0
+79,106,Germany,Italy,1999,hair_horse,1.0
+79,106,Germany,Italy,2000,hair_horse,1.0
+79,106,Germany,Italy,2001,hair_horse,6.0
+79,106,Germany,Italy,2003,hair_horse,1.0
+211,231,Switzerland,United States of America,1989,hair_horse,1.0
+211,231,Switzerland,United States of America,1991,hair_horse,1.0
+211,231,Switzerland,United States of America,1992,hair_horse,1.0
+211,231,Switzerland,United States of America,1993,hair_horse,1.0
+211,231,Switzerland,United States of America,1995,hair_horse,1.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1986,hair_horse,2.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,1.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,3.0
+54,229,Denmark,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,4.0
+11,223,Austria,Türkiye,2000,hair_horse,1.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1990,hair_horse,1.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1991,hair_horse,2.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1992,hair_horse,1.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1993,hair_horse,1.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1994,hair_horse,2.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),1996,hair_horse,2.0
+211,236,Switzerland,Venezuela (Bolivarian Republic of),2001,hair_horse,1.0
+41,231,"China, mainland",United States of America,1987,hair_horse,220.0
+41,231,"China, mainland",United States of America,1988,hair_horse,129.0
+41,231,"China, mainland",United States of America,1989,hair_horse,197.0
+41,231,"China, mainland",United States of America,1990,hair_horse,108.0
+41,231,"China, mainland",United States of America,1991,hair_horse,144.0
+41,231,"China, mainland",United States of America,1992,hair_horse,296.0
+41,231,"China, mainland",United States of America,1993,hair_horse,356.0
+41,231,"China, mainland",United States of America,1994,hair_horse,345.0
+41,231,"China, mainland",United States of America,1995,hair_horse,453.0
+41,231,"China, mainland",United States of America,1996,hair_horse,467.0
+41,231,"China, mainland",United States of America,1997,hair_horse,400.0
+41,231,"China, mainland",United States of America,1998,hair_horse,476.0
+41,231,"China, mainland",United States of America,1999,hair_horse,382.0
+41,231,"China, mainland",United States of America,2000,hair_horse,489.0
+41,231,"China, mainland",United States of America,2001,hair_horse,330.0
+41,231,"China, mainland",United States of America,2002,hair_horse,300.0
+41,231,"China, mainland",United States of America,2003,hair_horse,260.0
+41,231,"China, mainland",United States of America,2004,hair_horse,365.0
+41,231,"China, mainland",United States of America,2005,hair_horse,147.0
+41,231,"China, mainland",United States of America,2006,hair_horse,211.0
+150,97,Netherlands (Kingdom of the),Hungary,1986,hair_horse,30.0
+150,97,Netherlands (Kingdom of the),Hungary,1987,hair_horse,41.0
+150,97,Netherlands (Kingdom of the),Hungary,1988,hair_horse,28.0
+150,97,Netherlands (Kingdom of the),Hungary,1989,hair_horse,18.0
+150,97,Netherlands (Kingdom of the),Hungary,1990,hair_horse,18.0
+150,97,Netherlands (Kingdom of the),Hungary,1991,hair_horse,29.0
+150,97,Netherlands (Kingdom of the),Hungary,1992,hair_horse,7.0
+150,97,Netherlands (Kingdom of the),Hungary,1993,hair_horse,9.0
+150,97,Netherlands (Kingdom of the),Hungary,1994,hair_horse,9.0
+150,97,Netherlands (Kingdom of the),Hungary,1995,hair_horse,5.0
+150,97,Netherlands (Kingdom of the),Hungary,1997,hair_horse,8.0
+150,97,Netherlands (Kingdom of the),Hungary,1998,hair_horse,7.0
+150,97,Netherlands (Kingdom of the),Hungary,1999,hair_horse,5.0
+150,97,Netherlands (Kingdom of the),Hungary,2000,hair_horse,3.0
+150,97,Netherlands (Kingdom of the),Hungary,2001,hair_horse,6.0
+150,97,Netherlands (Kingdom of the),Hungary,2002,hair_horse,5.0
+150,97,Netherlands (Kingdom of the),Hungary,2003,hair_horse,2.0
+150,97,Netherlands (Kingdom of the),Hungary,2004,hair_horse,3.0
+150,97,Netherlands (Kingdom of the),Hungary,2005,hair_horse,2.0
+150,97,Netherlands (Kingdom of the),Hungary,2006,hair_horse,2.0
+229,126,United Kingdom of Great Britain and Northern Ireland,Lithuania,2003,hair_horse,1.0
+203,150,Spain,Netherlands (Kingdom of the),1986,hair_horse,10.0
+203,150,Spain,Netherlands (Kingdom of the),1987,hair_horse,28.0
+231,106,United States of America,Italy,1996,hair_horse,1.0
+79,110,Germany,Japan,1991,hair_horse,3.0
+79,110,Germany,Japan,1992,hair_horse,2.0
+79,110,Germany,Japan,1993,hair_horse,1.0
+79,110,Germany,Japan,1994,hair_horse,3.0
+79,110,Germany,Japan,1996,hair_horse,1.0
+79,110,Germany,Japan,1997,hair_horse,1.0
+79,110,Germany,Japan,1998,hair_horse,1.0
+79,110,Germany,Japan,1999,hair_horse,2.0
+79,110,Germany,Japan,2000,hair_horse,2.0
+79,110,Germany,Japan,2001,hair_horse,1.0
+79,110,Germany,Japan,2002,hair_horse,2.0
+79,110,Germany,Japan,2003,hair_horse,1.0
+79,110,Germany,Japan,2004,hair_horse,2.0
+79,110,Germany,Japan,2005,hair_horse,2.0
+79,110,Germany,Japan,2006,hair_horse,1.0
+106,134,Italy,Malta,2004,hair_horse,6.0
+33,223,Canada,Türkiye,1987,hair_horse,14.0
+33,223,Canada,Türkiye,1988,hair_horse,22.0
+33,223,Canada,Türkiye,1989,hair_horse,21.0
+33,223,Canada,Türkiye,1990,hair_horse,94.0
+229,131,United Kingdom of Great Britain and Northern Ireland,Malaysia,1997,hair_horse,8.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),1997,hair_horse,2.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),1998,hair_horse,2.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),2000,hair_horse,1.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),2001,hair_horse,2.0
+41,236,"China, mainland",Venezuela (Bolivarian Republic of),2004,hair_horse,2.0
+68,106,France,Italy,1987,hair_horse,1.0
+68,106,France,Italy,1988,hair_horse,2.0
+68,106,France,Italy,1989,hair_horse,5.0
+68,106,France,Italy,1990,hair_horse,1.0
+68,106,France,Italy,1993,hair_horse,5.0
+68,106,France,Italy,2001,hair_horse,1.0
+68,106,France,Italy,2002,hair_horse,1.0
+68,106,France,Italy,2003,hair_horse,1.0
+68,106,France,Italy,2004,hair_horse,2.0
+68,106,France,Italy,2005,hair_horse,3.0
+68,106,France,Italy,2006,hair_horse,7.0
+41,248,"China, mainland",Yugoslav SFR,1989,hair_horse,1.0
+41,248,"China, mainland",Yugoslav SFR,1990,hair_horse,2.0
+41,248,"China, mainland",Yugoslav SFR,1991,hair_horse,2.0
+11,248,Austria,Yugoslav SFR,1986,hair_horse,25.0
+11,248,Austria,Yugoslav SFR,1987,hair_horse,55.0
+11,248,Austria,Yugoslav SFR,1988,hair_horse,8.0
+11,248,Austria,Yugoslav SFR,1989,hair_horse,29.0
+11,248,Austria,Yugoslav SFR,1990,hair_horse,69.0
+11,248,Austria,Yugoslav SFR,1991,hair_horse,73.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,5.0
+33,229,Canada,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,6.0
+229,138,United Kingdom of Great Britain and Northern Ireland,Mexico,1997,hair_horse,10.0
+229,138,United Kingdom of Great Britain and Northern Ireland,Mexico,1999,hair_horse,5.0
+231,110,United States of America,Japan,1989,hair_horse,46.0
+231,110,United States of America,Japan,1990,hair_horse,20.0
+231,110,United States of America,Japan,1995,hair_horse,1.0
+231,110,United States of America,Japan,1996,hair_horse,10.0
+231,110,United States of America,Japan,1997,hair_horse,11.0
+231,110,United States of America,Japan,1998,hair_horse,9.0
+231,110,United States of America,Japan,1999,hair_horse,20.0
+231,110,United States of America,Japan,2002,hair_horse,2.0
+231,110,United States of America,Japan,2003,hair_horse,1.0
+231,110,United States of America,Japan,2006,hair_horse,12.0
+150,102,Netherlands (Kingdom of the),Iran (Islamic Republic of),1992,hair_horse,2.0
+68,110,France,Japan,1986,hair_horse,2.0
+68,110,France,Japan,1987,hair_horse,2.0
+68,110,France,Japan,1988,hair_horse,1.0
+68,110,France,Japan,1989,hair_horse,1.0
+106,150,Italy,Netherlands (Kingdom of the),1986,hair_horse,123.0
+106,150,Italy,Netherlands (Kingdom of the),1987,hair_horse,67.0
+106,150,Italy,Netherlands (Kingdom of the),1988,hair_horse,19.0
+106,150,Italy,Netherlands (Kingdom of the),1989,hair_horse,45.0
+106,150,Italy,Netherlands (Kingdom of the),1990,hair_horse,8.0
+106,150,Italy,Netherlands (Kingdom of the),1991,hair_horse,4.0
+106,150,Italy,Netherlands (Kingdom of the),1992,hair_horse,8.0
+106,150,Italy,Netherlands (Kingdom of the),1993,hair_horse,2.0
+106,150,Italy,Netherlands (Kingdom of the),1994,hair_horse,1.0
+106,150,Italy,Netherlands (Kingdom of the),1995,hair_horse,1.0
+106,150,Italy,Netherlands (Kingdom of the),2002,hair_horse,4.0
+106,150,Italy,Netherlands (Kingdom of the),2004,hair_horse,1.0
+33,231,Canada,United States of America,1987,hair_horse,17.0
+33,231,Canada,United States of America,1990,hair_horse,10.0
+33,231,Canada,United States of America,1991,hair_horse,9.0
+33,231,Canada,United States of America,1994,hair_horse,1.0
+33,231,Canada,United States of America,1995,hair_horse,3.0
+33,231,Canada,United States of America,1996,hair_horse,1.0
+33,231,Canada,United States of America,1997,hair_horse,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1986,hair_horse,3.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1987,hair_horse,2.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1989,hair_horse,3.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1990,hair_horse,5.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1992,hair_horse,16.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2001,hair_horse,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2005,hair_horse,1.0
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),2006,hair_horse,2.0
+150,105,Netherlands (Kingdom of the),Israel,1986,hair_horse,9.0
+150,105,Netherlands (Kingdom of the),Israel,1987,hair_horse,11.0
+150,105,Netherlands (Kingdom of the),Israel,1988,hair_horse,10.0
+150,105,Netherlands (Kingdom of the),Israel,1989,hair_horse,6.0
+150,105,Netherlands (Kingdom of the),Israel,1990,hair_horse,5.0
+150,105,Netherlands (Kingdom of the),Israel,1991,hair_horse,7.0
+150,105,Netherlands (Kingdom of the),Israel,1992,hair_horse,7.0
+150,105,Netherlands (Kingdom of the),Israel,1993,hair_horse,6.0
+150,105,Netherlands (Kingdom of the),Israel,1994,hair_horse,6.0
+150,105,Netherlands (Kingdom of the),Israel,1995,hair_horse,9.0
+150,105,Netherlands (Kingdom of the),Israel,1997,hair_horse,10.0
+150,105,Netherlands (Kingdom of the),Israel,1998,hair_horse,13.0
+150,105,Netherlands (Kingdom of the),Israel,1999,hair_horse,11.0
+150,105,Netherlands (Kingdom of the),Israel,2000,hair_horse,13.0
+150,105,Netherlands (Kingdom of the),Israel,2001,hair_horse,1.0
+150,105,Netherlands (Kingdom of the),Israel,2002,hair_horse,12.0
+150,105,Netherlands (Kingdom of the),Israel,2003,hair_horse,8.0
+150,105,Netherlands (Kingdom of the),Israel,2004,hair_horse,13.0
+150,105,Netherlands (Kingdom of the),Israel,2005,hair_horse,8.0
+203,174,Spain,Portugal,1989,hair_horse,2.0
+203,174,Spain,Portugal,1990,hair_horse,1.0
+203,174,Spain,Portugal,1991,hair_horse,1.0
+203,174,Spain,Portugal,1992,hair_horse,2.0
+203,174,Spain,Portugal,1998,hair_horse,1.0
+203,174,Spain,Portugal,2001,hair_horse,2.0
+203,174,Spain,Portugal,2003,hair_horse,2.0
+203,174,Spain,Portugal,2006,hair_horse,2.0
+106,154,Italy,North Macedonia,1994,hair_horse,1.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,2.0
+255,229,Belgium,United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,4.0
+231,131,United States of America,Malaysia,1999,hair_horse,4.0
+150,106,Netherlands (Kingdom of the),Italy,1986,hair_horse,102.0
+150,106,Netherlands (Kingdom of the),Italy,1987,hair_horse,153.0
+150,106,Netherlands (Kingdom of the),Italy,1988,hair_horse,106.0
+150,106,Netherlands (Kingdom of the),Italy,1989,hair_horse,99.0
+150,106,Netherlands (Kingdom of the),Italy,1990,hair_horse,105.0
+150,106,Netherlands (Kingdom of the),Italy,1991,hair_horse,55.0
+150,106,Netherlands (Kingdom of the),Italy,1992,hair_horse,72.0
+150,106,Netherlands (Kingdom of the),Italy,1993,hair_horse,71.0
+150,106,Netherlands (Kingdom of the),Italy,1994,hair_horse,45.0
+150,106,Netherlands (Kingdom of the),Italy,1995,hair_horse,70.0
+150,106,Netherlands (Kingdom of the),Italy,1996,hair_horse,56.0
+150,106,Netherlands (Kingdom of the),Italy,1997,hair_horse,35.0
+150,106,Netherlands (Kingdom of the),Italy,1998,hair_horse,45.0
+150,106,Netherlands (Kingdom of the),Italy,1999,hair_horse,52.0
+150,106,Netherlands (Kingdom of the),Italy,2000,hair_horse,29.0
+150,106,Netherlands (Kingdom of the),Italy,2001,hair_horse,27.0
+150,106,Netherlands (Kingdom of the),Italy,2002,hair_horse,26.0
+150,106,Netherlands (Kingdom of the),Italy,2003,hair_horse,17.0
+150,106,Netherlands (Kingdom of the),Italy,2004,hair_horse,16.0
+150,106,Netherlands (Kingdom of the),Italy,2005,hair_horse,12.0
+150,106,Netherlands (Kingdom of the),Italy,2006,hair_horse,13.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2002,hair_horse,5.0
+150,110,Netherlands (Kingdom of the),Japan,1986,hair_horse,3.0
+150,110,Netherlands (Kingdom of the),Japan,1987,hair_horse,9.0
+150,110,Netherlands (Kingdom of the),Japan,1988,hair_horse,49.0
+150,110,Netherlands (Kingdom of the),Japan,1989,hair_horse,15.0
+150,110,Netherlands (Kingdom of the),Japan,1990,hair_horse,12.0
+150,110,Netherlands (Kingdom of the),Japan,1991,hair_horse,13.0
+150,110,Netherlands (Kingdom of the),Japan,1992,hair_horse,5.0
+150,110,Netherlands (Kingdom of the),Japan,1993,hair_horse,2.0
+150,110,Netherlands (Kingdom of the),Japan,1994,hair_horse,2.0
+150,110,Netherlands (Kingdom of the),Japan,1995,hair_horse,4.0
+231,138,United States of America,Mexico,1989,hair_horse,49.0
+231,138,United States of America,Mexico,1990,hair_horse,40.0
+231,138,United States of America,Mexico,1991,hair_horse,37.0
+231,138,United States of America,Mexico,1992,hair_horse,51.0
+231,138,United States of America,Mexico,1993,hair_horse,53.0
+231,138,United States of America,Mexico,1994,hair_horse,103.0
+231,138,United States of America,Mexico,1995,hair_horse,83.0
+231,138,United States of America,Mexico,1996,hair_horse,129.0
+231,138,United States of America,Mexico,1997,hair_horse,108.0
+231,138,United States of America,Mexico,1998,hair_horse,922.0
+231,138,United States of America,Mexico,1999,hair_horse,9445.0
+231,138,United States of America,Mexico,2000,hair_horse,281.0
+231,138,United States of America,Mexico,2001,hair_horse,213.0
+231,138,United States of America,Mexico,2002,hair_horse,311.0
+231,138,United States of America,Mexico,2003,hair_horse,249.0
+231,138,United States of America,Mexico,2004,hair_horse,292.0
+231,138,United States of America,Mexico,2005,hair_horse,191.0
+231,138,United States of America,Mexico,2006,hair_horse,203.0
+106,174,Italy,Portugal,2000,hair_horse,1.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,1998,hair_horse,3.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,1999,hair_horse,5.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2000,hair_horse,2.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2005,hair_horse,8.0
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2006,hair_horse,9.0
+79,150,Germany,Netherlands (Kingdom of the),1991,hair_horse,27.0
+79,150,Germany,Netherlands (Kingdom of the),1992,hair_horse,19.0
+79,150,Germany,Netherlands (Kingdom of the),1993,hair_horse,7.0
+79,150,Germany,Netherlands (Kingdom of the),1994,hair_horse,109.0
+79,150,Germany,Netherlands (Kingdom of the),1995,hair_horse,30.0
+79,150,Germany,Netherlands (Kingdom of the),1996,hair_horse,70.0
+79,150,Germany,Netherlands (Kingdom of the),1997,hair_horse,62.0
+79,150,Germany,Netherlands (Kingdom of the),1998,hair_horse,54.0
+79,150,Germany,Netherlands (Kingdom of the),1999,hair_horse,15.0
+79,150,Germany,Netherlands (Kingdom of the),2000,hair_horse,89.0
+79,150,Germany,Netherlands (Kingdom of the),2001,hair_horse,24.0
+79,150,Germany,Netherlands (Kingdom of the),2002,hair_horse,25.0
+79,150,Germany,Netherlands (Kingdom of the),2003,hair_horse,37.0
+79,150,Germany,Netherlands (Kingdom of the),2004,hair_horse,22.0
+79,150,Germany,Netherlands (Kingdom of the),2005,hair_horse,15.0
+79,150,Germany,Netherlands (Kingdom of the),2006,hair_horse,23.0
+106,146,Italy,Republic of Moldova,1999,hair_horse,1.0
+231,150,United States of America,Netherlands (Kingdom of the),1989,hair_horse,3.0
+231,150,United States of America,Netherlands (Kingdom of the),1991,hair_horse,48.0
+231,150,United States of America,Netherlands (Kingdom of the),1992,hair_horse,34.0
+231,150,United States of America,Netherlands (Kingdom of the),1994,hair_horse,4.0
+231,150,United States of America,Netherlands (Kingdom of the),1997,hair_horse,26.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1998,hair_horse,1.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,1999,hair_horse,1.0
+229,174,United Kingdom of Great Britain and Northern Ireland,Portugal,2001,hair_horse,1.0
+229,117,United Kingdom of Great Britain and Northern Ireland,Republic of Korea,1991,hair_horse,1.0
+79,154,Germany,North Macedonia,1995,hair_horse,1.0
+79,162,Germany,Norway,1992,hair_horse,1.0
+106,186,Italy,Serbia and Montenegro,2004,hair_horse,2.0
+68,150,France,Netherlands (Kingdom of the),1986,hair_horse,5.0
+68,150,France,Netherlands (Kingdom of the),1987,hair_horse,33.0
+68,150,France,Netherlands (Kingdom of the),1991,hair_horse,1.0
+68,150,France,Netherlands (Kingdom of the),1992,hair_horse,2.0
+68,150,France,Netherlands (Kingdom of the),1993,hair_horse,3.0
+68,150,France,Netherlands (Kingdom of the),1998,hair_horse,4.0
+68,150,France,Netherlands (Kingdom of the),1999,hair_horse,3.0
+68,150,France,Netherlands (Kingdom of the),2001,hair_horse,11.0
+68,150,France,Netherlands (Kingdom of the),2002,hair_horse,13.0
+68,150,France,Netherlands (Kingdom of the),2003,hair_horse,10.0
+68,150,France,Netherlands (Kingdom of the),2004,hair_horse,9.0
+68,150,France,Netherlands (Kingdom of the),2005,hair_horse,11.0
+68,150,France,Netherlands (Kingdom of the),2006,hair_horse,24.0
+229,197,United Kingdom of Great Britain and Northern Ireland,Sierra Leone,1997,hair_horse,3.0
+79,169,Germany,Paraguay,1997,hair_horse,7.0
+79,169,Germany,Paraguay,2004,hair_horse,16.0
+231,166,United States of America,Panama,2003,hair_horse,1.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,1997,hair_horse,11.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,1998,hair_horse,6.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,1999,hair_horse,6.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2000,hair_horse,18.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2001,hair_horse,19.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2002,hair_horse,7.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2003,hair_horse,16.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2004,hair_horse,17.0
+229,199,United Kingdom of Great Britain and Northern Ireland,Slovakia,2005,hair_horse,1.0
+231,169,United States of America,Paraguay,1989,hair_horse,17.0
+231,169,United States of America,Paraguay,1991,hair_horse,13.0
+231,169,United States of America,Paraguay,1994,hair_horse,5.0
+231,169,United States of America,Paraguay,1995,hair_horse,10.0
+231,169,United States of America,Paraguay,2005,hair_horse,3.0
+106,198,Italy,Slovenia,1992,hair_horse,80.0
+106,198,Italy,Slovenia,1993,hair_horse,143.0
+106,198,Italy,Slovenia,1994,hair_horse,113.0
+106,198,Italy,Slovenia,1995,hair_horse,102.0
+106,198,Italy,Slovenia,1996,hair_horse,67.0
+106,198,Italy,Slovenia,1998,hair_horse,1.0
+106,198,Italy,Slovenia,1999,hair_horse,2.0
+79,173,Germany,Poland,1991,hair_horse,1.0
+79,173,Germany,Poland,1992,hair_horse,21.0
+79,173,Germany,Poland,1993,hair_horse,9.0
+79,173,Germany,Poland,1994,hair_horse,22.0
+79,173,Germany,Poland,1995,hair_horse,13.0
+79,173,Germany,Poland,1996,hair_horse,9.0
+79,173,Germany,Poland,1997,hair_horse,9.0
+79,173,Germany,Poland,1998,hair_horse,9.0
+79,173,Germany,Poland,1999,hair_horse,24.0
+79,173,Germany,Poland,2000,hair_horse,43.0
+79,173,Germany,Poland,2001,hair_horse,58.0
+79,173,Germany,Poland,2002,hair_horse,14.0
+79,173,Germany,Poland,2003,hair_horse,5.0
+79,173,Germany,Poland,2004,hair_horse,5.0
+79,173,Germany,Poland,2005,hair_horse,6.0
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,1987,hair_horse,1.0
+106,202,Italy,South Africa,1987,hair_horse,1.0
+150,138,Netherlands (Kingdom of the),Mexico,1990,hair_horse,6.0
+150,138,Netherlands (Kingdom of the),Mexico,1991,hair_horse,3.0
+150,138,Netherlands (Kingdom of the),Mexico,1992,hair_horse,2.0
+150,138,Netherlands (Kingdom of the),Mexico,1993,hair_horse,2.0
+150,138,Netherlands (Kingdom of the),Mexico,1995,hair_horse,9.0
+150,138,Netherlands (Kingdom of the),Mexico,1996,hair_horse,13.0
+150,138,Netherlands (Kingdom of the),Mexico,1997,hair_horse,6.0
+150,138,Netherlands (Kingdom of the),Mexico,1998,hair_horse,18.0
+150,138,Netherlands (Kingdom of the),Mexico,1999,hair_horse,35.0
+150,138,Netherlands (Kingdom of the),Mexico,2000,hair_horse,7.0
+150,138,Netherlands (Kingdom of the),Mexico,2002,hair_horse,8.0
+150,138,Netherlands (Kingdom of the),Mexico,2003,hair_horse,5.0
+150,138,Netherlands (Kingdom of the),Mexico,2004,hair_horse,5.0
+79,174,Germany,Portugal,1998,hair_horse,21.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1991,hair_horse,1.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1998,hair_horse,6.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,1999,hair_horse,4.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2000,hair_horse,9.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2001,hair_horse,4.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2002,hair_horse,4.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2003,hair_horse,3.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2004,hair_horse,4.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2005,hair_horse,3.0
+229,203,United Kingdom of Great Britain and Northern Ireland,Spain,2006,hair_horse,2.0
+106,203,Italy,Spain,1986,hair_horse,1.0
+106,203,Italy,Spain,1988,hair_horse,3.0
+106,203,Italy,Spain,1989,hair_horse,2.0
+106,203,Italy,Spain,1990,hair_horse,4.0
+106,203,Italy,Spain,1999,hair_horse,1.0
+150,156,Netherlands (Kingdom of the),New Zealand,2006,hair_horse,2.0
+68,221,France,Oman,2005,hair_horse,6.0
+150,157,Netherlands (Kingdom of the),Nicaragua,1991,hair_horse,1.0
+79,117,Germany,Republic of Korea,2003,hair_horse,6.0
+79,117,Germany,Republic of Korea,2004,hair_horse,5.0
+79,117,Germany,Republic of Korea,2005,hair_horse,4.0
+79,117,Germany,Republic of Korea,2006,hair_horse,1.0
+231,117,United States of America,Republic of Korea,1997,hair_horse,2.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1997,hair_horse,11.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1998,hair_horse,14.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,1999,hair_horse,9.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2000,hair_horse,15.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2001,hair_horse,16.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2002,hair_horse,12.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2003,hair_horse,15.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2004,hair_horse,15.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2005,hair_horse,11.0
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2006,hair_horse,5.0
+79,183,Germany,Romania,2002,hair_horse,1.0
+79,183,Germany,Romania,2003,hair_horse,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1987,hair_horse,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1989,hair_horse,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1991,hair_horse,2.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2001,hair_horse,1.0
+106,211,Italy,Switzerland,1986,hair_horse,1.0
+106,211,Italy,Switzerland,1988,hair_horse,2.0
+106,211,Italy,Switzerland,1990,hair_horse,1.0
+106,211,Italy,Switzerland,1991,hair_horse,1.0
+106,211,Italy,Switzerland,1993,hair_horse,4.0
+106,211,Italy,Switzerland,1997,hair_horse,9.0
+106,211,Italy,Switzerland,1998,hair_horse,10.0
+106,211,Italy,Switzerland,1999,hair_horse,33.0
+106,211,Italy,Switzerland,2000,hair_horse,20.0
+106,211,Italy,Switzerland,2001,hair_horse,9.0
+106,211,Italy,Switzerland,2003,hair_horse,1.0
+79,185,Germany,Russian Federation,1998,hair_horse,1.0
+79,185,Germany,Russian Federation,2000,hair_horse,6.0
+79,185,Germany,Russian Federation,2001,hair_horse,11.0
+79,185,Germany,Russian Federation,2002,hair_horse,2.0
+79,185,Germany,Russian Federation,2003,hair_horse,3.0
+79,185,Germany,Russian Federation,2006,hair_horse,1.0
+150,169,Netherlands (Kingdom of the),Paraguay,1997,hair_horse,5.0
+150,169,Netherlands (Kingdom of the),Paraguay,2000,hair_horse,2.0
+231,191,United States of America,Saint Vincent and the Grenadines,1998,hair_horse,4.0
+68,174,France,Portugal,2001,hair_horse,24.0
+79,272,Germany,Serbia,2006,hair_horse,3.0
+229,222,United Kingdom of Great Britain and Northern Ireland,Tunisia,1991,hair_horse,9.0
+79,186,Germany,Serbia and Montenegro,1997,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,1998,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,2000,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,2001,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,2002,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,2003,hair_horse,1.0
+79,186,Germany,Serbia and Montenegro,2005,hair_horse,1.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,1991,hair_horse,2.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,1997,hair_horse,2.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2000,hair_horse,3.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2001,hair_horse,1.0
+150,173,Netherlands (Kingdom of the),Poland,1986,hair_horse,18.0
+150,173,Netherlands (Kingdom of the),Poland,1987,hair_horse,13.0
+150,173,Netherlands (Kingdom of the),Poland,1989,hair_horse,6.0
+150,173,Netherlands (Kingdom of the),Poland,1992,hair_horse,6.0
+150,173,Netherlands (Kingdom of the),Poland,1993,hair_horse,3.0
+150,173,Netherlands (Kingdom of the),Poland,1994,hair_horse,1.0
+150,173,Netherlands (Kingdom of the),Poland,1995,hair_horse,2.0
+150,173,Netherlands (Kingdom of the),Poland,1996,hair_horse,1.0
+150,173,Netherlands (Kingdom of the),Poland,1998,hair_horse,12.0
+150,173,Netherlands (Kingdom of the),Poland,1999,hair_horse,1.0
+150,173,Netherlands (Kingdom of the),Poland,2000,hair_horse,1.0
+150,173,Netherlands (Kingdom of the),Poland,2001,hair_horse,1.0
+231,200,United States of America,Singapore,2003,hair_horse,2.0
+79,199,Germany,Slovakia,1998,hair_horse,3.0
+79,199,Germany,Slovakia,1999,hair_horse,10.0
+79,199,Germany,Slovakia,2001,hair_horse,22.0
+79,199,Germany,Slovakia,2002,hair_horse,3.0
+79,199,Germany,Slovakia,2005,hair_horse,1.0
+231,202,United States of America,South Africa,1998,hair_horse,20.0
+231,202,United States of America,South Africa,2001,hair_horse,2.0
+231,202,United States of America,South Africa,2002,hair_horse,4.0
+150,174,Netherlands (Kingdom of the),Portugal,1989,hair_horse,2.0
+150,174,Netherlands (Kingdom of the),Portugal,1991,hair_horse,12.0
+150,174,Netherlands (Kingdom of the),Portugal,1992,hair_horse,12.0
+150,174,Netherlands (Kingdom of the),Portugal,1994,hair_horse,2.0
+150,174,Netherlands (Kingdom of the),Portugal,1996,hair_horse,7.0
+150,174,Netherlands (Kingdom of the),Portugal,2003,hair_horse,1.0
+79,198,Germany,Slovenia,1993,hair_horse,11.0
+79,198,Germany,Slovenia,1994,hair_horse,15.0
+79,198,Germany,Slovenia,1998,hair_horse,33.0
+79,198,Germany,Slovenia,1999,hair_horse,62.0
+79,198,Germany,Slovenia,2000,hair_horse,17.0
+79,198,Germany,Slovenia,2001,hair_horse,5.0
+79,198,Germany,Slovenia,2002,hair_horse,8.0
+79,198,Germany,Slovenia,2003,hair_horse,8.0
+79,198,Germany,Slovenia,2004,hair_horse,2.0
+79,198,Germany,Slovenia,2005,hair_horse,3.0
+79,198,Germany,Slovenia,2006,hair_horse,5.0
+231,203,United States of America,Spain,1991,hair_horse,3.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,1.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,5.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1987,hair_horse,2.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1988,hair_horse,1.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1989,hair_horse,4.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1995,hair_horse,2.0
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,1999,hair_horse,1.0
+79,202,Germany,South Africa,1994,hair_horse,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1989,hair_horse,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1990,hair_horse,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1991,hair_horse,6.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1992,hair_horse,2.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1993,hair_horse,1.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1994,hair_horse,4.0
+150,117,Netherlands (Kingdom of the),Republic of Korea,1995,hair_horse,2.0
+229,236,United Kingdom of Great Britain and Northern Ireland,Venezuela (Bolivarian Republic of),1988,hair_horse,1.0
+229,236,United Kingdom of Great Britain and Northern Ireland,Venezuela (Bolivarian Republic of),1999,hair_horse,1.0
+79,203,Germany,Spain,1992,hair_horse,1.0
+79,203,Germany,Spain,1999,hair_horse,1.0
+79,203,Germany,Spain,2000,hair_horse,2.0
+79,203,Germany,Spain,2001,hair_horse,1.0
+79,203,Germany,Spain,2002,hair_horse,2.0
+79,203,Germany,Spain,2003,hair_horse,2.0
+79,203,Germany,Spain,2004,hair_horse,2.0
+150,183,Netherlands (Kingdom of the),Romania,1990,hair_horse,12.0
+150,183,Netherlands (Kingdom of the),Romania,1991,hair_horse,9.0
+150,183,Netherlands (Kingdom of the),Romania,1992,hair_horse,9.0
+150,183,Netherlands (Kingdom of the),Romania,1995,hair_horse,6.0
+150,183,Netherlands (Kingdom of the),Romania,2000,hair_horse,1.0
+150,183,Netherlands (Kingdom of the),Romania,2003,hair_horse,1.0
+150,183,Netherlands (Kingdom of the),Romania,2005,hair_horse,2.0
+106,231,Italy,United States of America,1994,hair_horse,1.0
+229,248,United Kingdom of Great Britain and Northern Ireland,Yugoslav SFR,1987,hair_horse,2.0
+229,248,United Kingdom of Great Britain and Northern Ireland,Yugoslav SFR,1990,hair_horse,1.0
+231,211,United States of America,Switzerland,1991,hair_horse,10.0
+231,211,United States of America,Switzerland,1994,hair_horse,8.0
+150,185,Netherlands (Kingdom of the),Russian Federation,1997,hair_horse,6.0
+150,185,Netherlands (Kingdom of the),Russian Federation,1998,hair_horse,2.0
+150,185,Netherlands (Kingdom of the),Russian Federation,1999,hair_horse,1.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2000,hair_horse,6.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2001,hair_horse,1.0
+150,185,Netherlands (Kingdom of the),Russian Federation,2005,hair_horse,1.0
+106,236,Italy,Venezuela (Bolivarian Republic of),1986,hair_horse,3.0
+231,216,United States of America,Thailand,2005,hair_horse,1.0
+106,248,Italy,Yugoslav SFR,1986,hair_horse,132.0
+106,248,Italy,Yugoslav SFR,1987,hair_horse,31.0
+106,248,Italy,Yugoslav SFR,1989,hair_horse,133.0
+106,248,Italy,Yugoslav SFR,1990,hair_horse,110.0
+106,248,Italy,Yugoslav SFR,1991,hair_horse,123.0
+79,210,Germany,Sweden,1991,hair_horse,49.0
+79,210,Germany,Sweden,1992,hair_horse,71.0
+79,210,Germany,Sweden,1993,hair_horse,31.0
+79,210,Germany,Sweden,1994,hair_horse,24.0
+79,210,Germany,Sweden,1995,hair_horse,35.0
+79,210,Germany,Sweden,1996,hair_horse,23.0
+79,210,Germany,Sweden,1997,hair_horse,10.0
+79,210,Germany,Sweden,1998,hair_horse,14.0
+79,210,Germany,Sweden,1999,hair_horse,21.0
+79,210,Germany,Sweden,2000,hair_horse,16.0
+79,210,Germany,Sweden,2001,hair_horse,13.0
+79,210,Germany,Sweden,2002,hair_horse,9.0
+79,210,Germany,Sweden,2003,hair_horse,8.0
+79,210,Germany,Sweden,2004,hair_horse,10.0
+79,210,Germany,Sweden,2005,hair_horse,9.0
+79,210,Germany,Sweden,2006,hair_horse,6.0
+106,181,Italy,Zimbabwe,1987,hair_horse,1.0
+150,186,Netherlands (Kingdom of the),Serbia and Montenegro,1999,hair_horse,1.0
+150,186,Netherlands (Kingdom of the),Serbia and Montenegro,2000,hair_horse,1.0
+150,186,Netherlands (Kingdom of the),Serbia and Montenegro,2001,hair_horse,1.0
+79,211,Germany,Switzerland,1991,hair_horse,38.0
+79,211,Germany,Switzerland,1992,hair_horse,34.0
+79,211,Germany,Switzerland,1993,hair_horse,41.0
+79,211,Germany,Switzerland,1994,hair_horse,38.0
+79,211,Germany,Switzerland,1995,hair_horse,27.0
+79,211,Germany,Switzerland,1996,hair_horse,24.0
+79,211,Germany,Switzerland,1997,hair_horse,16.0
+79,211,Germany,Switzerland,1998,hair_horse,16.0
+79,211,Germany,Switzerland,1999,hair_horse,19.0
+79,211,Germany,Switzerland,2000,hair_horse,14.0
+79,211,Germany,Switzerland,2001,hair_horse,21.0
+79,211,Germany,Switzerland,2002,hair_horse,18.0
+79,211,Germany,Switzerland,2003,hair_horse,17.0
+79,211,Germany,Switzerland,2004,hair_horse,30.0
+79,211,Germany,Switzerland,2005,hair_horse,39.0
+79,211,Germany,Switzerland,2006,hair_horse,24.0
+231,223,United States of America,Türkiye,1990,hair_horse,18.0
+231,223,United States of America,Türkiye,1992,hair_horse,28.0
+68,203,France,Spain,1986,hair_horse,7.0
+68,203,France,Spain,1987,hair_horse,6.0
+68,203,France,Spain,1988,hair_horse,3.0
+68,203,France,Spain,1991,hair_horse,1.0
+68,203,France,Spain,2005,hair_horse,2.0
+231,225,United States of America,United Arab Emirates,2005,hair_horse,6.0
+150,199,Netherlands (Kingdom of the),Slovakia,1997,hair_horse,5.0
+150,199,Netherlands (Kingdom of the),Slovakia,1999,hair_horse,8.0
+150,199,Netherlands (Kingdom of the),Slovakia,2001,hair_horse,6.0
+150,199,Netherlands (Kingdom of the),Slovakia,2004,hair_horse,6.0
+150,199,Netherlands (Kingdom of the),Slovakia,2005,hair_horse,8.0
+150,199,Netherlands (Kingdom of the),Slovakia,2006,hair_horse,13.0
+150,198,Netherlands (Kingdom of the),Slovenia,1992,hair_horse,2.0
+150,198,Netherlands (Kingdom of the),Slovenia,1993,hair_horse,8.0
+150,198,Netherlands (Kingdom of the),Slovenia,1994,hair_horse,12.0
+150,198,Netherlands (Kingdom of the),Slovenia,1995,hair_horse,13.0
+150,198,Netherlands (Kingdom of the),Slovenia,1997,hair_horse,5.0
+150,198,Netherlands (Kingdom of the),Slovenia,1998,hair_horse,13.0
+150,198,Netherlands (Kingdom of the),Slovenia,1999,hair_horse,1.0
+150,198,Netherlands (Kingdom of the),Slovenia,2005,hair_horse,2.0
+150,198,Netherlands (Kingdom of the),Slovenia,2006,hair_horse,2.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,8.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,2.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,19.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,1.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2005,hair_horse,2.0
+231,229,United States of America,United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,5.0
+79,223,Germany,Türkiye,1995,hair_horse,7.0
+79,223,Germany,Türkiye,1996,hair_horse,2.0
+79,223,Germany,Türkiye,1998,hair_horse,2.0
+79,223,Germany,Türkiye,1999,hair_horse,1.0
+79,223,Germany,Türkiye,2000,hair_horse,10.0
+79,223,Germany,Türkiye,2001,hair_horse,16.0
+79,223,Germany,Türkiye,2002,hair_horse,39.0
+79,223,Germany,Türkiye,2003,hair_horse,26.0
+79,223,Germany,Türkiye,2004,hair_horse,7.0
+79,223,Germany,Türkiye,2005,hair_horse,13.0
+79,223,Germany,Türkiye,2006,hair_horse,17.0
+150,202,Netherlands (Kingdom of the),South Africa,1991,hair_horse,1.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2003,hair_horse,1.0
+231,236,United States of America,Venezuela (Bolivarian Republic of),2004,hair_horse,1.0
+68,211,France,Switzerland,1986,hair_horse,11.0
+68,211,France,Switzerland,1987,hair_horse,8.0
+68,211,France,Switzerland,1988,hair_horse,12.0
+68,211,France,Switzerland,1989,hair_horse,8.0
+68,211,France,Switzerland,1990,hair_horse,6.0
+68,211,France,Switzerland,1991,hair_horse,11.0
+68,211,France,Switzerland,1992,hair_horse,8.0
+68,211,France,Switzerland,1993,hair_horse,23.0
+68,211,France,Switzerland,1994,hair_horse,19.0
+68,211,France,Switzerland,1995,hair_horse,13.0
+68,211,France,Switzerland,1996,hair_horse,5.0
+68,211,France,Switzerland,1997,hair_horse,25.0
+68,211,France,Switzerland,1998,hair_horse,44.0
+68,211,France,Switzerland,1999,hair_horse,87.0
+68,211,France,Switzerland,2000,hair_horse,196.0
+68,211,France,Switzerland,2001,hair_horse,94.0
+68,211,France,Switzerland,2002,hair_horse,68.0
+68,211,France,Switzerland,2003,hair_horse,53.0
+68,211,France,Switzerland,2004,hair_horse,64.0
+68,211,France,Switzerland,2005,hair_horse,56.0
+68,211,France,Switzerland,2006,hair_horse,29.0
+150,203,Netherlands (Kingdom of the),Spain,1986,hair_horse,21.0
+150,203,Netherlands (Kingdom of the),Spain,1987,hair_horse,34.0
+150,203,Netherlands (Kingdom of the),Spain,1988,hair_horse,20.0
+150,203,Netherlands (Kingdom of the),Spain,1989,hair_horse,18.0
+150,203,Netherlands (Kingdom of the),Spain,1990,hair_horse,18.0
+150,203,Netherlands (Kingdom of the),Spain,1991,hair_horse,7.0
+150,203,Netherlands (Kingdom of the),Spain,1992,hair_horse,14.0
+150,203,Netherlands (Kingdom of the),Spain,1993,hair_horse,16.0
+150,203,Netherlands (Kingdom of the),Spain,1994,hair_horse,5.0
+150,203,Netherlands (Kingdom of the),Spain,1996,hair_horse,9.0
+150,203,Netherlands (Kingdom of the),Spain,1997,hair_horse,9.0
+150,203,Netherlands (Kingdom of the),Spain,1998,hair_horse,5.0
+150,203,Netherlands (Kingdom of the),Spain,2000,hair_horse,6.0
+150,203,Netherlands (Kingdom of the),Spain,2001,hair_horse,2.0
+150,203,Netherlands (Kingdom of the),Spain,2002,hair_horse,1.0
+150,203,Netherlands (Kingdom of the),Spain,2003,hair_horse,4.0
+150,203,Netherlands (Kingdom of the),Spain,2004,hair_horse,1.0
+150,203,Netherlands (Kingdom of the),Spain,2005,hair_horse,11.0
+150,203,Netherlands (Kingdom of the),Spain,2006,hair_horse,11.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,5.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,8.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,12.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,7.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,9.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,6.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,17.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,26.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2000,hair_horse,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2001,hair_horse,2.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2002,hair_horse,2.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,2.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2005,hair_horse,1.0
+79,229,Germany,United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,1.0
+150,210,Netherlands (Kingdom of the),Sweden,1986,hair_horse,5.0
+150,210,Netherlands (Kingdom of the),Sweden,1987,hair_horse,4.0
+150,210,Netherlands (Kingdom of the),Sweden,1988,hair_horse,2.0
+150,210,Netherlands (Kingdom of the),Sweden,1989,hair_horse,4.0
+150,210,Netherlands (Kingdom of the),Sweden,1990,hair_horse,5.0
+150,210,Netherlands (Kingdom of the),Sweden,1991,hair_horse,2.0
+150,210,Netherlands (Kingdom of the),Sweden,1992,hair_horse,4.0
+150,210,Netherlands (Kingdom of the),Sweden,1993,hair_horse,2.0
+150,210,Netherlands (Kingdom of the),Sweden,1994,hair_horse,2.0
+150,210,Netherlands (Kingdom of the),Sweden,1995,hair_horse,1.0
+150,210,Netherlands (Kingdom of the),Sweden,1996,hair_horse,1.0
+150,210,Netherlands (Kingdom of the),Sweden,1997,hair_horse,1.0
+150,210,Netherlands (Kingdom of the),Sweden,1998,hair_horse,3.0
+150,210,Netherlands (Kingdom of the),Sweden,1999,hair_horse,8.0
+150,210,Netherlands (Kingdom of the),Sweden,2000,hair_horse,4.0
+150,210,Netherlands (Kingdom of the),Sweden,2001,hair_horse,28.0
+150,210,Netherlands (Kingdom of the),Sweden,2002,hair_horse,17.0
+150,210,Netherlands (Kingdom of the),Sweden,2003,hair_horse,11.0
+150,210,Netherlands (Kingdom of the),Sweden,2004,hair_horse,2.0
+79,231,Germany,United States of America,2000,hair_horse,3.0
+79,231,Germany,United States of America,2001,hair_horse,2.0
+79,231,Germany,United States of America,2002,hair_horse,11.0
+79,231,Germany,United States of America,2006,hair_horse,1.0
+150,211,Netherlands (Kingdom of the),Switzerland,1986,hair_horse,36.0
+150,211,Netherlands (Kingdom of the),Switzerland,1987,hair_horse,46.0
+150,211,Netherlands (Kingdom of the),Switzerland,1988,hair_horse,36.0
+150,211,Netherlands (Kingdom of the),Switzerland,1989,hair_horse,27.0
+150,211,Netherlands (Kingdom of the),Switzerland,1990,hair_horse,20.0
+150,211,Netherlands (Kingdom of the),Switzerland,1991,hair_horse,19.0
+150,211,Netherlands (Kingdom of the),Switzerland,1992,hair_horse,23.0
+150,211,Netherlands (Kingdom of the),Switzerland,1993,hair_horse,20.0
+150,211,Netherlands (Kingdom of the),Switzerland,1994,hair_horse,28.0
+150,211,Netherlands (Kingdom of the),Switzerland,1995,hair_horse,30.0
+150,211,Netherlands (Kingdom of the),Switzerland,1997,hair_horse,14.0
+150,211,Netherlands (Kingdom of the),Switzerland,1998,hair_horse,8.0
+150,211,Netherlands (Kingdom of the),Switzerland,1999,hair_horse,17.0
+150,211,Netherlands (Kingdom of the),Switzerland,2000,hair_horse,16.0
+150,211,Netherlands (Kingdom of the),Switzerland,2001,hair_horse,9.0
+150,211,Netherlands (Kingdom of the),Switzerland,2002,hair_horse,9.0
+79,236,Germany,Venezuela (Bolivarian Republic of),2000,hair_horse,1.0
+79,236,Germany,Venezuela (Bolivarian Republic of),2002,hair_horse,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,3.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,16.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,12.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,16.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,14.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,8.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2005,hair_horse,1.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,1986,hair_horse,4.0
+150,223,Netherlands (Kingdom of the),Türkiye,1987,hair_horse,15.0
+150,223,Netherlands (Kingdom of the),Türkiye,1988,hair_horse,20.0
+150,223,Netherlands (Kingdom of the),Türkiye,1989,hair_horse,6.0
+150,223,Netherlands (Kingdom of the),Türkiye,1990,hair_horse,7.0
+150,223,Netherlands (Kingdom of the),Türkiye,1991,hair_horse,37.0
+150,223,Netherlands (Kingdom of the),Türkiye,1992,hair_horse,24.0
+150,223,Netherlands (Kingdom of the),Türkiye,1993,hair_horse,14.0
+150,223,Netherlands (Kingdom of the),Türkiye,1994,hair_horse,2.0
+150,223,Netherlands (Kingdom of the),Türkiye,1995,hair_horse,5.0
+150,223,Netherlands (Kingdom of the),Türkiye,1998,hair_horse,1.0
+150,223,Netherlands (Kingdom of the),Türkiye,1999,hair_horse,4.0
+150,223,Netherlands (Kingdom of the),Türkiye,2000,hair_horse,12.0
+150,223,Netherlands (Kingdom of the),Türkiye,2001,hair_horse,3.0
+150,223,Netherlands (Kingdom of the),Türkiye,2002,hair_horse,6.0
+150,223,Netherlands (Kingdom of the),Türkiye,2005,hair_horse,1.0
+68,231,France,United States of America,1994,hair_horse,3.0
+68,231,France,United States of America,1995,hair_horse,4.0
+68,231,France,United States of America,2005,hair_horse,5.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1986,hair_horse,58.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1987,hair_horse,32.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1988,hair_horse,69.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1989,hair_horse,52.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1990,hair_horse,33.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1991,hair_horse,31.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1992,hair_horse,16.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1993,hair_horse,13.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1994,hair_horse,24.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1995,hair_horse,18.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1996,hair_horse,141.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1997,hair_horse,112.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1998,hair_horse,5.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1999,hair_horse,5.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2000,hair_horse,5.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2001,hair_horse,7.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2002,hair_horse,11.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2003,hair_horse,9.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2004,hair_horse,16.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2005,hair_horse,15.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2006,hair_horse,4.0
+150,231,Netherlands (Kingdom of the),United States of America,1986,hair_horse,4.0
+150,231,Netherlands (Kingdom of the),United States of America,1987,hair_horse,36.0
+150,231,Netherlands (Kingdom of the),United States of America,1988,hair_horse,184.0
+150,231,Netherlands (Kingdom of the),United States of America,1989,hair_horse,40.0
+150,231,Netherlands (Kingdom of the),United States of America,1990,hair_horse,3.0
+150,231,Netherlands (Kingdom of the),United States of America,1991,hair_horse,42.0
+150,231,Netherlands (Kingdom of the),United States of America,1992,hair_horse,21.0
+150,231,Netherlands (Kingdom of the),United States of America,1993,hair_horse,19.0
+150,231,Netherlands (Kingdom of the),United States of America,1994,hair_horse,5.0
+150,231,Netherlands (Kingdom of the),United States of America,1995,hair_horse,4.0
+150,231,Netherlands (Kingdom of the),United States of America,1996,hair_horse,11.0
+150,231,Netherlands (Kingdom of the),United States of America,1997,hair_horse,1.0
+150,231,Netherlands (Kingdom of the),United States of America,1998,hair_horse,1.0
+150,231,Netherlands (Kingdom of the),United States of America,1999,hair_horse,3.0
+150,231,Netherlands (Kingdom of the),United States of America,2000,hair_horse,1.0
+150,231,Netherlands (Kingdom of the),United States of America,2001,hair_horse,4.0
+150,231,Netherlands (Kingdom of the),United States of America,2002,hair_horse,8.0
+150,231,Netherlands (Kingdom of the),United States of America,2003,hair_horse,5.0
+150,231,Netherlands (Kingdom of the),United States of America,2004,hair_horse,7.0
+150,231,Netherlands (Kingdom of the),United States of America,2005,hair_horse,13.0
+150,234,Netherlands (Kingdom of the),Uruguay,2000,hair_horse,7.0
+150,248,Netherlands (Kingdom of the),Yugoslav SFR,1986,hair_horse,30.0
+150,248,Netherlands (Kingdom of the),Yugoslav SFR,1987,hair_horse,9.0
+150,248,Netherlands (Kingdom of the),Yugoslav SFR,1989,hair_horse,12.0
+150,248,Netherlands (Kingdom of the),Yugoslav SFR,1990,hair_horse,21.0
+150,248,Netherlands (Kingdom of the),Yugoslav SFR,1991,hair_horse,6.0

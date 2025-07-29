@@ -1,0 +1,888 @@
+o_code,d_code,o_name,d_name,year,item,weight
+84,3,Greece,Albania,1992,grapes_marc,3.0
+84,3,Greece,Albania,1993,grapes_marc,2.0
+104,10,Ireland,Australia,1999,grapes_marc,74.0
+104,10,Ireland,Australia,2002,grapes_marc,1.0
+215,32,United Republic of Tanzania,Cameroon,2001,grapes_marc,1.0
+199,11,Slovakia,Austria,2018,grapes_marc,0.02
+215,41,United Republic of Tanzania,"China, mainland",2001,grapes_marc,2.0
+198,11,Slovenia,Austria,2023,grapes_marc,24.1
+149,100,Nepal,India,2014,grapes_marc,9.56
+149,100,Nepal,India,2016,grapes_marc,1600.47
+149,100,Nepal,India,2017,grapes_marc,3441.59
+149,100,Nepal,India,2018,grapes_marc,122.76
+173,11,Poland,Austria,2020,grapes_marc,0.35
+173,11,Poland,Austria,2022,grapes_marc,0.04
+173,11,Poland,Austria,2023,grapes_marc,0.1
+256,255,Luxembourg,Belgium,2005,grapes_marc,52.0
+210,255,Sweden,Belgium,2015,grapes_marc,0.1
+199,27,Slovakia,Bulgaria,2013,grapes_marc,3.0
+104,21,Ireland,Brazil,1992,grapes_marc,5.0
+185,57,Russian Federation,Belarus,2014,grapes_marc,0.24
+229,11,United Kingdom of Great Britain and Northern Ireland,Austria,2020,grapes_marc,0.06
+203,11,Spain,Austria,2009,grapes_marc,40.0
+203,11,Spain,Austria,2021,grapes_marc,1.31
+15,250,Belgium-Luxembourg,Democratic Republic of the Congo,1988,grapes_marc,1.0
+15,250,Belgium-Luxembourg,Democratic Republic of the Congo,1989,grapes_marc,1.0
+15,250,Belgium-Luxembourg,Democratic Republic of the Congo,1997,grapes_marc,6.0
+173,255,Poland,Belgium,2020,grapes_marc,4.59
+173,255,Poland,Belgium,2023,grapes_marc,0.01
+119,63,Latvia,Estonia,2012,grapes_marc,8.0
+119,63,Latvia,Estonia,2015,grapes_marc,0.8
+119,63,Latvia,Estonia,2018,grapes_marc,27.38
+119,63,Latvia,Estonia,2019,grapes_marc,152.7
+229,13,United Kingdom of Great Britain and Northern Ireland,Bahrain,2001,grapes_marc,3.0
+79,11,Germany,Austria,1994,grapes_marc,2.0
+79,11,Germany,Austria,1996,grapes_marc,22.0
+79,11,Germany,Austria,1997,grapes_marc,5.0
+79,11,Germany,Austria,2012,grapes_marc,2.0
+79,11,Germany,Austria,2013,grapes_marc,5.0
+79,11,Germany,Austria,2014,grapes_marc,8.0
+79,11,Germany,Austria,2015,grapes_marc,60.6
+79,11,Germany,Austria,2016,grapes_marc,16.15
+79,11,Germany,Austria,2017,grapes_marc,4.67
+79,11,Germany,Austria,2018,grapes_marc,0.95
+79,11,Germany,Austria,2019,grapes_marc,0.36
+79,11,Germany,Austria,2020,grapes_marc,2.53
+79,11,Germany,Austria,2022,grapes_marc,0.21
+79,11,Germany,Austria,2023,grapes_marc,2.68
+150,11,Netherlands (Kingdom of the),Austria,2018,grapes_marc,0.87
+150,11,Netherlands (Kingdom of the),Austria,2022,grapes_marc,0.02
+150,11,Netherlands (Kingdom of the),Austria,2023,grapes_marc,0.02
+134,106,Malta,Italy,2010,grapes_marc,3.0
+104,214,Ireland,"China, Taiwan Province of",1992,grapes_marc,22.0
+215,114,United Republic of Tanzania,Kenya,2002,grapes_marc,40.0
+215,114,United Republic of Tanzania,Kenya,2003,grapes_marc,20.0
+215,114,United Republic of Tanzania,Kenya,2004,grapes_marc,25.0
+215,114,United Republic of Tanzania,Kenya,2008,grapes_marc,5.0
+199,167,Slovakia,Czechia,2010,grapes_marc,12.0
+199,167,Slovakia,Czechia,2013,grapes_marc,8.0
+199,167,Slovakia,Czechia,2020,grapes_marc,0.01
+199,167,Slovakia,Czechia,2021,grapes_marc,82.16
+199,167,Slovakia,Czechia,2022,grapes_marc,44.64
+199,167,Slovakia,Czechia,2023,grapes_marc,1.6
+106,11,Italy,Austria,1986,grapes_marc,223.0
+106,11,Italy,Austria,1987,grapes_marc,24.0
+106,11,Italy,Austria,1991,grapes_marc,3.0
+106,11,Italy,Austria,2000,grapes_marc,1.0
+106,11,Italy,Austria,2001,grapes_marc,3.0
+106,11,Italy,Austria,2002,grapes_marc,3.0
+106,11,Italy,Austria,2003,grapes_marc,1.0
+106,11,Italy,Austria,2004,grapes_marc,1.0
+106,11,Italy,Austria,2010,grapes_marc,5.0
+106,11,Italy,Austria,2014,grapes_marc,3.5
+106,11,Italy,Austria,2015,grapes_marc,54.5
+106,11,Italy,Austria,2016,grapes_marc,92.26
+106,11,Italy,Austria,2017,grapes_marc,11.06
+106,11,Italy,Austria,2022,grapes_marc,25.52
+106,11,Italy,Austria,2023,grapes_marc,371.13
+97,27,Hungary,Bulgaria,2004,grapes_marc,1.0
+104,167,Ireland,Czechia,2002,grapes_marc,268.0
+104,167,Ireland,Czechia,2003,grapes_marc,469.0
+11,33,Austria,Canada,2011,grapes_marc,2.0
+15,68,Belgium-Luxembourg,France,1987,grapes_marc,28.0
+15,68,Belgium-Luxembourg,France,1988,grapes_marc,133.0
+15,68,Belgium-Luxembourg,France,1989,grapes_marc,99.0
+15,68,Belgium-Luxembourg,France,1990,grapes_marc,77.0
+15,68,Belgium-Luxembourg,France,1991,grapes_marc,159.0
+15,68,Belgium-Luxembourg,France,1992,grapes_marc,35.0
+15,68,Belgium-Luxembourg,France,1993,grapes_marc,1.0
+15,68,Belgium-Luxembourg,France,1994,grapes_marc,62.0
+15,68,Belgium-Luxembourg,France,1995,grapes_marc,19.0
+15,68,Belgium-Luxembourg,France,1997,grapes_marc,146.0
+15,68,Belgium-Luxembourg,France,1999,grapes_marc,22.0
+203,255,Spain,Belgium,2021,grapes_marc,0.1
+174,35,Portugal,Cabo Verde,2021,grapes_marc,9.54
+174,35,Portugal,Cabo Verde,2022,grapes_marc,50.1
+174,35,Portugal,Cabo Verde,2023,grapes_marc,22.02
+255,32,Belgium,Cameroon,2014,grapes_marc,1.72
+229,255,United Kingdom of Great Britain and Northern Ireland,Belgium,2020,grapes_marc,0.02
+54,214,Denmark,"China, Taiwan Province of",2023,grapes_marc,44.0
+104,68,Ireland,France,1988,grapes_marc,5.0
+104,68,Ireland,France,1990,grapes_marc,7.0
+104,68,Ireland,France,1992,grapes_marc,100.0
+104,68,Ireland,France,1995,grapes_marc,2.0
+230,73,Ukraine,Georgia,2002,grapes_marc,55.0
+229,15,United Kingdom of Great Britain and Northern Ireland,Belgium-Luxembourg,1993,grapes_marc,14.0
+68,255,France,Belgium,2000,grapes_marc,7788.0
+68,255,France,Belgium,2001,grapes_marc,2058.0
+68,255,France,Belgium,2002,grapes_marc,1494.0
+68,255,France,Belgium,2003,grapes_marc,3697.0
+68,255,France,Belgium,2004,grapes_marc,3999.0
+68,255,France,Belgium,2005,grapes_marc,1246.0
+68,255,France,Belgium,2006,grapes_marc,1917.0
+68,255,France,Belgium,2007,grapes_marc,2.0
+68,255,France,Belgium,2008,grapes_marc,67.0
+68,255,France,Belgium,2010,grapes_marc,1.0
+68,255,France,Belgium,2011,grapes_marc,1.0
+68,255,France,Belgium,2014,grapes_marc,75.1
+68,255,France,Belgium,2015,grapes_marc,1.61
+68,255,France,Belgium,2016,grapes_marc,12.89
+68,255,France,Belgium,2021,grapes_marc,0.2
+68,255,France,Belgium,2022,grapes_marc,105.66
+68,255,France,Belgium,2023,grapes_marc,0.34
+54,50,Denmark,Cyprus,2019,grapes_marc,0.13
+106,255,Italy,Belgium,2019,grapes_marc,0.01
+106,255,Italy,Belgium,2022,grapes_marc,0.2
+150,255,Netherlands (Kingdom of the),Belgium,2011,grapes_marc,6.0
+150,255,Netherlands (Kingdom of the),Belgium,2022,grapes_marc,3.47
+150,255,Netherlands (Kingdom of the),Belgium,2023,grapes_marc,2.57
+79,255,Germany,Belgium,2022,grapes_marc,0.03
+104,79,Ireland,Germany,1995,grapes_marc,4.0
+146,185,Republic of Moldova,Russian Federation,2002,grapes_marc,3.0
+146,185,Republic of Moldova,Russian Federation,2003,grapes_marc,15.0
+146,185,Republic of Moldova,Russian Federation,2004,grapes_marc,15.0
+134,229,Malta,United Kingdom of Great Britain and Northern Ireland,1998,grapes_marc,1.0
+173,167,Poland,Czechia,2020,grapes_marc,0.08
+199,97,Slovakia,Hungary,2010,grapes_marc,533.0
+199,97,Slovakia,Hungary,2011,grapes_marc,1971.0
+199,97,Slovakia,Hungary,2012,grapes_marc,2918.0
+199,97,Slovakia,Hungary,2016,grapes_marc,0.23
+199,97,Slovakia,Hungary,2017,grapes_marc,0.01
+199,97,Slovakia,Hungary,2023,grapes_marc,13.31
+15,106,Belgium-Luxembourg,Italy,1995,grapes_marc,10.0
+15,106,Belgium-Luxembourg,Italy,1996,grapes_marc,42.0
+15,106,Belgium-Luxembourg,Italy,1997,grapes_marc,46.0
+15,106,Belgium-Luxembourg,Italy,1998,grapes_marc,28.0
+11,167,Austria,Czechia,2023,grapes_marc,27.19
+106,15,Italy,Belgium-Luxembourg,1989,grapes_marc,24.0
+106,15,Italy,Belgium-Luxembourg,1991,grapes_marc,6.0
+106,15,Italy,Belgium-Luxembourg,1992,grapes_marc,20.0
+68,15,France,Belgium-Luxembourg,1993,grapes_marc,589.0
+68,15,France,Belgium-Luxembourg,1994,grapes_marc,6061.0
+68,15,France,Belgium-Luxembourg,1995,grapes_marc,5913.0
+68,15,France,Belgium-Luxembourg,1996,grapes_marc,6699.0
+68,15,France,Belgium-Luxembourg,1997,grapes_marc,10167.0
+68,15,France,Belgium-Luxembourg,1998,grapes_marc,15961.0
+68,15,France,Belgium-Luxembourg,1999,grapes_marc,8609.0
+104,97,Ireland,Hungary,2002,grapes_marc,156.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1986,grapes_marc,5.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1987,grapes_marc,71.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1988,grapes_marc,329.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1990,grapes_marc,37.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1991,grapes_marc,107.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1992,grapes_marc,242.0
+150,15,Netherlands (Kingdom of the),Belgium-Luxembourg,1995,grapes_marc,57.0
+203,33,Spain,Canada,2014,grapes_marc,0.7
+173,54,Poland,Denmark,2020,grapes_marc,0.04
+173,54,Poland,Denmark,2021,grapes_marc,5.76
+173,54,Poland,Denmark,2022,grapes_marc,2.88
+119,126,Latvia,Lithuania,2012,grapes_marc,1.0
+229,33,United Kingdom of Great Britain and Northern Ireland,Canada,2014,grapes_marc,0.1
+167,79,Czechia,Germany,1996,grapes_marc,10.0
+68,21,France,Brazil,2010,grapes_marc,41.0
+174,68,Portugal,France,1998,grapes_marc,2.0
+174,68,Portugal,France,2014,grapes_marc,25.0
+54,67,Denmark,Finland,2019,grapes_marc,60.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1986,grapes_marc,64.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1987,grapes_marc,93.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1988,grapes_marc,70.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1989,grapes_marc,15.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1990,grapes_marc,142.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1993,grapes_marc,425.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1995,grapes_marc,2.0
+15,150,Belgium-Luxembourg,Netherlands (Kingdom of the),1999,grapes_marc,55.0
+11,63,Austria,Estonia,2015,grapes_marc,0.42
+106,27,Italy,Bulgaria,1991,grapes_marc,1.0
+183,97,Romania,Hungary,2017,grapes_marc,1820.46
+183,97,Romania,Hungary,2018,grapes_marc,2260.78
+183,97,Romania,Hungary,2019,grapes_marc,1475.84
+183,97,Romania,Hungary,2020,grapes_marc,1701.06
+183,97,Romania,Hungary,2021,grapes_marc,771.0
+183,97,Romania,Hungary,2022,grapes_marc,1823.66
+183,97,Romania,Hungary,2023,grapes_marc,1285.55
+97,79,Hungary,Germany,2010,grapes_marc,1.0
+97,79,Hungary,Germany,2011,grapes_marc,1.0
+97,79,Hungary,Germany,2013,grapes_marc,1.0
+97,79,Hungary,Germany,2020,grapes_marc,0.44
+97,79,Hungary,Germany,2023,grapes_marc,0.1
+173,67,Poland,Finland,2020,grapes_marc,0.05
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",1996,grapes_marc,7.0
+229,96,United Kingdom of Great Britain and Northern Ireland,"China, Hong Kong SAR",2014,grapes_marc,1.79
+230,126,Ukraine,Lithuania,2002,grapes_marc,66.0
+230,126,Ukraine,Lithuania,2003,grapes_marc,40.0
+173,68,Poland,France,2020,grapes_marc,0.11
+173,68,Poland,France,2021,grapes_marc,0.05
+173,68,Poland,France,2022,grapes_marc,0.01
+173,68,Poland,France,2023,grapes_marc,0.01
+150,27,Netherlands (Kingdom of the),Bulgaria,2021,grapes_marc,0.01
+150,27,Netherlands (Kingdom of the),Bulgaria,2022,grapes_marc,0.04
+150,27,Netherlands (Kingdom of the),Bulgaria,2023,grapes_marc,0.01
+198,106,Slovenia,Italy,2008,grapes_marc,8.0
+198,106,Slovenia,Italy,2009,grapes_marc,1.0
+198,106,Slovenia,Italy,2020,grapes_marc,286.0
+198,106,Slovenia,Italy,2021,grapes_marc,352.0
+198,106,Slovenia,Italy,2022,grapes_marc,449.44
+198,106,Slovenia,Italy,2023,grapes_marc,361.78
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2011,grapes_marc,7.0
+229,41,United Kingdom of Great Britain and Northern Ireland,"China, mainland",2017,grapes_marc,6.2
+199,173,Slovakia,Poland,2012,grapes_marc,138.0
+185,108,Russian Federation,Kazakhstan,2014,grapes_marc,0.01
+185,108,Russian Federation,Kazakhstan,2016,grapes_marc,77.5
+185,108,Russian Federation,Kazakhstan,2020,grapes_marc,39.28
+185,108,Russian Federation,Kazakhstan,2021,grapes_marc,38.0
+183,106,Romania,Italy,2000,grapes_marc,19.0
+183,106,Romania,Italy,2001,grapes_marc,441.0
+183,106,Romania,Italy,2002,grapes_marc,20.0
+104,150,Ireland,Netherlands (Kingdom of the),1998,grapes_marc,1.0
+255,67,Belgium,Finland,2023,grapes_marc,0.01
+173,79,Poland,Germany,2021,grapes_marc,2.16
+173,79,Poland,Germany,2023,grapes_marc,43.13
+106,96,Italy,"China, Hong Kong SAR",1988,grapes_marc,10.0
+199,183,Slovakia,Romania,2021,grapes_marc,25.39
+54,79,Denmark,Germany,2019,grapes_marc,1.26
+54,79,Denmark,Germany,2020,grapes_marc,0.12
+15,203,Belgium-Luxembourg,Spain,1996,grapes_marc,9.0
+11,79,Austria,Germany,1999,grapes_marc,4.0
+11,79,Austria,Germany,2000,grapes_marc,5.0
+11,79,Austria,Germany,2001,grapes_marc,201.0
+11,79,Austria,Germany,2002,grapes_marc,17.0
+11,79,Austria,Germany,2010,grapes_marc,25.0
+11,79,Austria,Germany,2011,grapes_marc,42.0
+11,79,Austria,Germany,2012,grapes_marc,33.0
+11,79,Austria,Germany,2013,grapes_marc,25.0
+11,79,Austria,Germany,2014,grapes_marc,49.5
+11,79,Austria,Germany,2016,grapes_marc,0.32
+11,79,Austria,Germany,2017,grapes_marc,20.95
+11,79,Austria,Germany,2018,grapes_marc,30.0
+11,79,Austria,Germany,2019,grapes_marc,187.87
+11,79,Austria,Germany,2020,grapes_marc,320.96
+11,79,Austria,Germany,2021,grapes_marc,104.13
+167,106,Czechia,Italy,2023,grapes_marc,0.01
+255,68,Belgium,France,2018,grapes_marc,54.32
+255,68,Belgium,France,2022,grapes_marc,0.16
+255,68,Belgium,France,2023,grapes_marc,0.07
+203,167,Spain,Czechia,2010,grapes_marc,21.0
+84,104,Greece,Ireland,1994,grapes_marc,497.0
+230,185,Ukraine,Russian Federation,2003,grapes_marc,8.0
+203,54,Spain,Denmark,1987,grapes_marc,19.0
+203,54,Spain,Denmark,1988,grapes_marc,573.0
+203,54,Spain,Denmark,1989,grapes_marc,418.0
+79,214,Germany,"China, Taiwan Province of",1991,grapes_marc,60.0
+79,214,Germany,"China, Taiwan Province of",1992,grapes_marc,83.0
+79,214,Germany,"China, Taiwan Province of",1993,grapes_marc,45.0
+79,214,Germany,"China, Taiwan Province of",1994,grapes_marc,8.0
+84,106,Greece,Italy,1998,grapes_marc,95.0
+199,229,Slovakia,United Kingdom of Great Britain and Northern Ireland,2013,grapes_marc,1.0
+68,41,France,"China, mainland",2015,grapes_marc,1.37
+54,99,Denmark,Iceland,2007,grapes_marc,1.0
+255,79,Belgium,Germany,2018,grapes_marc,347.19
+255,79,Belgium,Germany,2019,grapes_marc,1204.88
+255,79,Belgium,Germany,2022,grapes_marc,0.06
+255,79,Belgium,Germany,2023,grapes_marc,0.11
+11,97,Austria,Hungary,2007,grapes_marc,89.0
+173,104,Poland,Ireland,2020,grapes_marc,0.25
+106,50,Italy,Cyprus,2016,grapes_marc,0.27
+106,50,Italy,Cyprus,2017,grapes_marc,0.02
+106,50,Italy,Cyprus,2018,grapes_marc,0.05
+167,150,Czechia,Netherlands (Kingdom of the),2023,grapes_marc,0.04
+173,106,Poland,Italy,2021,grapes_marc,0.14
+173,106,Poland,Italy,2022,grapes_marc,0.04
+173,106,Poland,Italy,2023,grapes_marc,0.06
+106,167,Italy,Czechia,2023,grapes_marc,0.04
+68,46,France,Congo,2016,grapes_marc,1.0
+203,63,Spain,Estonia,2011,grapes_marc,4.0
+104,223,Ireland,Türkiye,2002,grapes_marc,189.0
+104,223,Ireland,Türkiye,2003,grapes_marc,1143.0
+167,170,Czechia,Peru,2022,grapes_marc,0.48
+150,98,Netherlands (Kingdom of the),Croatia,2017,grapes_marc,53.04
+150,98,Netherlands (Kingdom of the),Croatia,2022,grapes_marc,0.01
+198,230,Slovenia,Ukraine,2018,grapes_marc,1.0
+106,54,Italy,Denmark,1988,grapes_marc,2.0
+79,167,Germany,Czechia,2002,grapes_marc,2.0
+167,173,Czechia,Poland,2012,grapes_marc,115.0
+97,183,Hungary,Romania,2004,grapes_marc,2.0
+97,183,Hungary,Romania,2018,grapes_marc,0.06
+97,183,Hungary,Romania,2019,grapes_marc,0.19
+97,183,Hungary,Romania,2020,grapes_marc,0.12
+97,183,Hungary,Romania,2021,grapes_marc,0.12
+97,183,Hungary,Romania,2022,grapes_marc,0.09
+97,183,Hungary,Romania,2023,grapes_marc,0.04
+255,99,Belgium,Iceland,2022,grapes_marc,0.07
+255,99,Belgium,Iceland,2023,grapes_marc,0.03
+203,68,Spain,France,1988,grapes_marc,20.0
+203,68,Spain,France,1998,grapes_marc,48.0
+203,68,Spain,France,1999,grapes_marc,15.0
+203,68,Spain,France,2000,grapes_marc,1360.0
+203,68,Spain,France,2003,grapes_marc,157.0
+203,68,Spain,France,2004,grapes_marc,32.0
+203,68,Spain,France,2005,grapes_marc,442.0
+203,68,Spain,France,2006,grapes_marc,24.0
+203,68,Spain,France,2007,grapes_marc,1011.0
+203,68,Spain,France,2008,grapes_marc,73.0
+203,68,Spain,France,2010,grapes_marc,94.0
+203,68,Spain,France,2011,grapes_marc,1025.0
+203,68,Spain,France,2012,grapes_marc,3033.0
+203,68,Spain,France,2013,grapes_marc,1586.0
+203,68,Spain,France,2014,grapes_marc,1578.0
+203,68,Spain,France,2015,grapes_marc,498.8
+203,68,Spain,France,2016,grapes_marc,4688.58
+203,68,Spain,France,2017,grapes_marc,4368.32
+203,68,Spain,France,2018,grapes_marc,2577.86
+203,68,Spain,France,2019,grapes_marc,2019.59
+203,68,Spain,France,2020,grapes_marc,1340.42
+203,68,Spain,France,2021,grapes_marc,1946.1
+203,68,Spain,France,2022,grapes_marc,277.46
+203,68,Spain,France,2023,grapes_marc,469.23
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1988,grapes_marc,12.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1989,grapes_marc,467.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1990,grapes_marc,4.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1991,grapes_marc,36.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1993,grapes_marc,35.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1994,grapes_marc,184.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1995,grapes_marc,72.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1997,grapes_marc,81.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,1998,grapes_marc,49.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2005,grapes_marc,728.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2006,grapes_marc,88.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2011,grapes_marc,6324.0
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2022,grapes_marc,2349.58
+104,229,Ireland,United Kingdom of Great Britain and Northern Ireland,2023,grapes_marc,237.19
+150,50,Netherlands (Kingdom of the),Cyprus,1997,grapes_marc,134.0
+173,126,Poland,Lithuania,2016,grapes_marc,0.03
+173,126,Poland,Lithuania,2017,grapes_marc,3.58
+173,126,Poland,Lithuania,2018,grapes_marc,0.17
+173,126,Poland,Lithuania,2019,grapes_marc,0.12
+173,126,Poland,Lithuania,2020,grapes_marc,2.1
+97,272,Hungary,Serbia,2018,grapes_marc,2.01
+68,167,France,Czechia,2001,grapes_marc,25.0
+68,167,France,Czechia,2008,grapes_marc,22.0
+68,167,France,Czechia,2009,grapes_marc,4.0
+68,167,France,Czechia,2010,grapes_marc,13.0
+68,167,France,Czechia,2011,grapes_marc,28.0
+97,186,Hungary,Serbia and Montenegro,2004,grapes_marc,9.0
+150,167,Netherlands (Kingdom of the),Czechia,1997,grapes_marc,1.0
+150,167,Netherlands (Kingdom of the),Czechia,2022,grapes_marc,0.02
+150,167,Netherlands (Kingdom of the),Czechia,2023,grapes_marc,0.02
+106,64,Italy,Faroe Islands,1988,grapes_marc,46.0
+106,67,Italy,Finland,2017,grapes_marc,19.0
+68,54,France,Denmark,2000,grapes_marc,48.0
+68,54,France,Denmark,2010,grapes_marc,1.0
+68,54,France,Denmark,2012,grapes_marc,10.0
+68,54,France,Denmark,2013,grapes_marc,20.0
+68,54,France,Denmark,2015,grapes_marc,21.5
+68,54,France,Denmark,2017,grapes_marc,0.07
+173,150,Poland,Netherlands (Kingdom of the),2014,grapes_marc,24.7
+173,150,Poland,Netherlands (Kingdom of the),2017,grapes_marc,11.7
+173,150,Poland,Netherlands (Kingdom of the),2022,grapes_marc,0.01
+173,150,Poland,Netherlands (Kingdom of the),2023,grapes_marc,0.01
+203,79,Spain,Germany,2020,grapes_marc,0.02
+167,199,Czechia,Slovakia,2000,grapes_marc,9.0
+167,199,Czechia,Slovakia,2004,grapes_marc,22.0
+167,199,Czechia,Slovakia,2005,grapes_marc,38.0
+167,199,Czechia,Slovakia,2006,grapes_marc,43.0
+167,199,Czechia,Slovakia,2008,grapes_marc,6.0
+150,54,Netherlands (Kingdom of the),Denmark,2022,grapes_marc,0.04
+150,54,Netherlands (Kingdom of the),Denmark,2023,grapes_marc,0.02
+174,203,Portugal,Spain,1991,grapes_marc,165.0
+174,203,Portugal,Spain,1992,grapes_marc,558.0
+174,203,Portugal,Spain,1995,grapes_marc,93.0
+174,203,Portugal,Spain,1997,grapes_marc,95.0
+174,203,Portugal,Spain,1998,grapes_marc,199.0
+174,203,Portugal,Spain,1999,grapes_marc,135.0
+174,203,Portugal,Spain,2001,grapes_marc,444.0
+174,203,Portugal,Spain,2002,grapes_marc,85.0
+174,203,Portugal,Spain,2003,grapes_marc,60.0
+174,203,Portugal,Spain,2004,grapes_marc,24.0
+174,203,Portugal,Spain,2005,grapes_marc,61.0
+174,203,Portugal,Spain,2006,grapes_marc,564.0
+174,203,Portugal,Spain,2007,grapes_marc,110.0
+174,203,Portugal,Spain,2016,grapes_marc,169.75
+174,203,Portugal,Spain,2017,grapes_marc,802.15
+174,203,Portugal,Spain,2018,grapes_marc,663.06
+174,203,Portugal,Spain,2019,grapes_marc,0.24
+174,203,Portugal,Spain,2020,grapes_marc,1007.96
+174,203,Portugal,Spain,2021,grapes_marc,667.38
+174,203,Portugal,Spain,2022,grapes_marc,888.88
+174,203,Portugal,Spain,2023,grapes_marc,1113.49
+106,68,Italy,France,1986,grapes_marc,1.0
+106,68,Italy,France,1988,grapes_marc,125.0
+106,68,Italy,France,1989,grapes_marc,48.0
+106,68,Italy,France,1990,grapes_marc,27.0
+106,68,Italy,France,1992,grapes_marc,307.0
+106,68,Italy,France,1993,grapes_marc,1613.0
+106,68,Italy,France,1994,grapes_marc,249.0
+106,68,Italy,France,1995,grapes_marc,580.0
+106,68,Italy,France,1996,grapes_marc,1324.0
+106,68,Italy,France,1997,grapes_marc,1688.0
+106,68,Italy,France,1998,grapes_marc,986.0
+106,68,Italy,France,2000,grapes_marc,1.0
+106,68,Italy,France,2007,grapes_marc,162.0
+106,68,Italy,France,2008,grapes_marc,67.0
+106,68,Italy,France,2009,grapes_marc,229.0
+106,68,Italy,France,2010,grapes_marc,10.0
+106,68,Italy,France,2011,grapes_marc,2.0
+106,68,Italy,France,2012,grapes_marc,1.0
+106,68,Italy,France,2013,grapes_marc,1.0
+106,68,Italy,France,2014,grapes_marc,0.7
+106,68,Italy,France,2015,grapes_marc,31.9
+106,68,Italy,France,2016,grapes_marc,6.31
+106,68,Italy,France,2017,grapes_marc,0.74
+106,68,Italy,France,2018,grapes_marc,1.05
+106,68,Italy,France,2019,grapes_marc,0.44
+106,68,Italy,France,2020,grapes_marc,1.99
+106,68,Italy,France,2022,grapes_marc,0.05
+106,68,Italy,France,2023,grapes_marc,0.04
+54,150,Denmark,Netherlands (Kingdom of the),2002,grapes_marc,28.0
+210,162,Sweden,Norway,1995,grapes_marc,25.0
+210,162,Sweden,Norway,2009,grapes_marc,1.0
+203,84,Spain,Greece,2021,grapes_marc,0.2
+173,174,Poland,Portugal,2022,grapes_marc,0.03
+173,174,Poland,Portugal,2023,grapes_marc,0.03
+167,203,Czechia,Spain,2023,grapes_marc,0.01
+54,156,Denmark,New Zealand,2015,grapes_marc,4.9
+255,126,Belgium,Lithuania,2016,grapes_marc,0.1
+173,183,Poland,Romania,2020,grapes_marc,0.05
+54,162,Denmark,Norway,2004,grapes_marc,9.0
+54,162,Denmark,Norway,2005,grapes_marc,6.0
+54,162,Denmark,Norway,2006,grapes_marc,2.0
+54,162,Denmark,Norway,2008,grapes_marc,2.0
+54,162,Denmark,Norway,2012,grapes_marc,1.0
+54,162,Denmark,Norway,2013,grapes_marc,3.0
+54,162,Denmark,Norway,2014,grapes_marc,1.9
+54,162,Denmark,Norway,2015,grapes_marc,0.11
+54,162,Denmark,Norway,2017,grapes_marc,2.0
+54,162,Denmark,Norway,2020,grapes_marc,2.5
+54,162,Denmark,Norway,2022,grapes_marc,6.38
+54,162,Denmark,Norway,2023,grapes_marc,0.39
+167,211,Czechia,Switzerland,2018,grapes_marc,0.02
+203,97,Spain,Hungary,1994,grapes_marc,23.0
+203,97,Spain,Hungary,2000,grapes_marc,7.0
+255,256,Belgium,Luxembourg,2023,grapes_marc,106.36
+106,79,Italy,Germany,1992,grapes_marc,72.0
+106,79,Italy,Germany,1994,grapes_marc,1.0
+106,79,Italy,Germany,2000,grapes_marc,10.0
+106,79,Italy,Germany,2007,grapes_marc,24.0
+106,79,Italy,Germany,2016,grapes_marc,0.04
+106,79,Italy,Germany,2017,grapes_marc,1.39
+106,79,Italy,Germany,2018,grapes_marc,0.01
+106,79,Italy,Germany,2019,grapes_marc,0.01
+106,79,Italy,Germany,2020,grapes_marc,0.01
+106,79,Italy,Germany,2021,grapes_marc,47.34
+106,79,Italy,Germany,2022,grapes_marc,1615.25
+106,79,Italy,Germany,2023,grapes_marc,913.0
+174,229,Portugal,United Kingdom of Great Britain and Northern Ireland,1986,grapes_marc,3330.0
+79,68,Germany,France,1995,grapes_marc,769.0
+79,68,Germany,France,1996,grapes_marc,55.0
+79,68,Germany,France,2020,grapes_marc,39.38
+79,68,Germany,France,2021,grapes_marc,56.26
+79,68,Germany,France,2022,grapes_marc,1.0
+79,68,Germany,France,2023,grapes_marc,0.1
+229,97,United Kingdom of Great Britain and Northern Ireland,Hungary,2020,grapes_marc,0.02
+11,173,Austria,Poland,2019,grapes_marc,3.4
+11,173,Austria,Poland,2020,grapes_marc,1.03
+68,70,France,French Polynesia,2005,grapes_marc,7.0
+173,199,Poland,Slovakia,2010,grapes_marc,5.0
+173,199,Poland,Slovakia,2011,grapes_marc,9.0
+54,173,Denmark,Poland,2002,grapes_marc,11.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2004,grapes_marc,20.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2005,grapes_marc,4.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2007,grapes_marc,134.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2008,grapes_marc,68.0
+229,99,United Kingdom of Great Britain and Northern Ireland,Iceland,2009,grapes_marc,17.0
+150,67,Netherlands (Kingdom of the),Finland,2021,grapes_marc,0.02
+150,67,Netherlands (Kingdom of the),Finland,2022,grapes_marc,0.02
+150,67,Netherlands (Kingdom of the),Finland,2023,grapes_marc,0.01
+106,84,Italy,Greece,2006,grapes_marc,250.0
+106,84,Italy,Greece,2016,grapes_marc,0.06
+106,84,Italy,Greece,2018,grapes_marc,0.06
+106,84,Italy,Greece,2020,grapes_marc,0.02
+106,84,Italy,Greece,2021,grapes_marc,0.05
+106,84,Italy,Greece,2022,grapes_marc,0.05
+106,84,Italy,Greece,2023,grapes_marc,0.01
+173,203,Poland,Spain,2020,grapes_marc,0.06
+173,203,Poland,Spain,2021,grapes_marc,0.02
+173,203,Poland,Spain,2023,grapes_marc,0.09
+255,150,Belgium,Netherlands (Kingdom of the),2000,grapes_marc,17.0
+255,150,Belgium,Netherlands (Kingdom of the),2001,grapes_marc,3.0
+255,150,Belgium,Netherlands (Kingdom of the),2018,grapes_marc,4878.02
+255,150,Belgium,Netherlands (Kingdom of the),2019,grapes_marc,26984.67
+255,150,Belgium,Netherlands (Kingdom of the),2020,grapes_marc,21099.12
+255,150,Belgium,Netherlands (Kingdom of the),2021,grapes_marc,7301.99
+255,150,Belgium,Netherlands (Kingdom of the),2022,grapes_marc,96.48
+255,150,Belgium,Netherlands (Kingdom of the),2023,grapes_marc,103.39
+203,106,Spain,Italy,1989,grapes_marc,34.0
+203,106,Spain,Italy,2004,grapes_marc,54.0
+203,106,Spain,Italy,2016,grapes_marc,62.54
+203,106,Spain,Italy,2020,grapes_marc,0.01
+203,106,Spain,Italy,2021,grapes_marc,2.51
+150,68,Netherlands (Kingdom of the),France,1986,grapes_marc,3.0
+150,68,Netherlands (Kingdom of the),France,1988,grapes_marc,78.0
+150,68,Netherlands (Kingdom of the),France,2011,grapes_marc,7.0
+150,68,Netherlands (Kingdom of the),France,2016,grapes_marc,47.1
+150,68,Netherlands (Kingdom of the),France,2017,grapes_marc,95.85
+150,68,Netherlands (Kingdom of the),France,2022,grapes_marc,0.43
+150,68,Netherlands (Kingdom of the),France,2023,grapes_marc,0.07
+68,79,France,Germany,1991,grapes_marc,59.0
+68,79,France,Germany,1992,grapes_marc,23.0
+68,79,France,Germany,2000,grapes_marc,25.0
+68,79,France,Germany,2008,grapes_marc,9.0
+68,79,France,Germany,2009,grapes_marc,10.0
+68,79,France,Germany,2010,grapes_marc,106.0
+68,79,France,Germany,2011,grapes_marc,289.0
+68,79,France,Germany,2012,grapes_marc,2.0
+68,79,France,Germany,2021,grapes_marc,562.82
+68,79,France,Germany,2022,grapes_marc,124.54
+68,79,France,Germany,2023,grapes_marc,782.38
+173,210,Poland,Sweden,2020,grapes_marc,0.05
+106,97,Italy,Hungary,2002,grapes_marc,2.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2011,grapes_marc,5.0
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2018,grapes_marc,13049.76
+229,104,United Kingdom of Great Britain and Northern Ireland,Ireland,2020,grapes_marc,0.09
+203,110,Spain,Japan,2021,grapes_marc,118.4
+11,199,Austria,Slovakia,2015,grapes_marc,0.02
+79,97,Germany,Hungary,2014,grapes_marc,0.3
+68,84,France,Greece,2001,grapes_marc,4.0
+68,84,France,Greece,2009,grapes_marc,6.0
+68,84,France,Greece,2011,grapes_marc,1.0
+173,225,Poland,United Arab Emirates,2021,grapes_marc,0.01
+106,102,Italy,Iran (Islamic Republic of),2015,grapes_marc,3.0
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2016,grapes_marc,3.41
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2017,grapes_marc,0.22
+173,229,Poland,United Kingdom of Great Britain and Northern Ireland,2020,grapes_marc,0.01
+150,79,Netherlands (Kingdom of the),Germany,1991,grapes_marc,25.0
+150,79,Netherlands (Kingdom of the),Germany,1992,grapes_marc,8.0
+150,79,Netherlands (Kingdom of the),Germany,1997,grapes_marc,187.0
+150,79,Netherlands (Kingdom of the),Germany,1998,grapes_marc,249.0
+150,79,Netherlands (Kingdom of the),Germany,2003,grapes_marc,988.0
+150,79,Netherlands (Kingdom of the),Germany,2016,grapes_marc,23.44
+150,79,Netherlands (Kingdom of the),Germany,2020,grapes_marc,0.14
+150,79,Netherlands (Kingdom of the),Germany,2021,grapes_marc,28.12
+150,79,Netherlands (Kingdom of the),Germany,2022,grapes_marc,0.95
+150,79,Netherlands (Kingdom of the),Germany,2023,grapes_marc,0.54
+54,210,Denmark,Sweden,1989,grapes_marc,2.0
+54,210,Denmark,Sweden,1994,grapes_marc,29.0
+54,210,Denmark,Sweden,2016,grapes_marc,85.25
+229,106,United Kingdom of Great Britain and Northern Ireland,Italy,2020,grapes_marc,0.01
+210,231,Sweden,United States of America,2019,grapes_marc,188.38
+203,256,Spain,Luxembourg,2021,grapes_marc,0.2
+106,110,Italy,Japan,2003,grapes_marc,4.0
+68,97,France,Hungary,2010,grapes_marc,3.0
+54,211,Denmark,Switzerland,1991,grapes_marc,7.0
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,1995,grapes_marc,20.0
+229,110,United Kingdom of Great Britain and Northern Ireland,Japan,2017,grapes_marc,0.21
+68,100,France,India,2018,grapes_marc,0.01
+150,84,Netherlands (Kingdom of the),Greece,2022,grapes_marc,0.02
+150,84,Netherlands (Kingdom of the),Greece,2023,grapes_marc,0.01
+11,211,Austria,Switzerland,2023,grapes_marc,0.01
+229,112,United Kingdom of Great Britain and Northern Ireland,Jordan,1987,grapes_marc,12.0
+255,194,Belgium,Saudi Arabia,2023,grapes_marc,0.36
+54,225,Denmark,United Arab Emirates,1993,grapes_marc,1.0
+79,106,Germany,Italy,2002,grapes_marc,19.0
+79,106,Germany,Italy,2014,grapes_marc,1.2
+79,106,Germany,Italy,2015,grapes_marc,8.0
+79,106,Germany,Italy,2016,grapes_marc,4.0
+79,106,Germany,Italy,2017,grapes_marc,6.0
+79,106,Germany,Italy,2018,grapes_marc,7.0
+79,106,Germany,Italy,2019,grapes_marc,12.61
+79,106,Germany,Italy,2020,grapes_marc,4.1
+79,106,Germany,Italy,2022,grapes_marc,0.09
+255,199,Belgium,Slovakia,2022,grapes_marc,0.12
+255,199,Belgium,Slovakia,2023,grapes_marc,0.01
+150,97,Netherlands (Kingdom of the),Hungary,2021,grapes_marc,0.01
+150,97,Netherlands (Kingdom of the),Hungary,2022,grapes_marc,0.02
+150,97,Netherlands (Kingdom of the),Hungary,2023,grapes_marc,0.01
+203,150,Spain,Netherlands (Kingdom of the),2007,grapes_marc,10.0
+203,150,Spain,Netherlands (Kingdom of the),2011,grapes_marc,17.0
+203,150,Spain,Netherlands (Kingdom of the),2023,grapes_marc,0.03
+79,110,Germany,Japan,1991,grapes_marc,5.0
+106,134,Italy,Malta,2017,grapes_marc,0.02
+68,106,France,Italy,1999,grapes_marc,2.0
+68,106,France,Italy,2003,grapes_marc,1.0
+68,106,France,Italy,2007,grapes_marc,68.0
+68,106,France,Italy,2008,grapes_marc,4.0
+68,106,France,Italy,2009,grapes_marc,5.0
+68,106,France,Italy,2010,grapes_marc,3.0
+68,106,France,Italy,2011,grapes_marc,4.0
+68,106,France,Italy,2014,grapes_marc,1.63
+68,106,France,Italy,2018,grapes_marc,1.04
+68,106,France,Italy,2021,grapes_marc,7.16
+68,106,France,Italy,2023,grapes_marc,141.16
+79,108,Germany,Kazakhstan,2003,grapes_marc,2.0
+229,134,United Kingdom of Great Britain and Northern Ireland,Malta,2020,grapes_marc,0.01
+255,210,Belgium,Sweden,2014,grapes_marc,0.1
+255,211,Belgium,Switzerland,2022,grapes_marc,0.03
+255,211,Belgium,Switzerland,2023,grapes_marc,0.02
+229,143,United Kingdom of Great Britain and Northern Ireland,Morocco,1998,grapes_marc,2.0
+255,216,Belgium,Thailand,2022,grapes_marc,0.02
+68,110,France,Japan,2010,grapes_marc,6.0
+106,150,Italy,Netherlands (Kingdom of the),1987,grapes_marc,14.0
+106,150,Italy,Netherlands (Kingdom of the),1988,grapes_marc,447.0
+106,150,Italy,Netherlands (Kingdom of the),1989,grapes_marc,240.0
+106,150,Italy,Netherlands (Kingdom of the),1990,grapes_marc,710.0
+106,150,Italy,Netherlands (Kingdom of the),1991,grapes_marc,648.0
+106,150,Italy,Netherlands (Kingdom of the),1992,grapes_marc,1059.0
+106,150,Italy,Netherlands (Kingdom of the),1993,grapes_marc,1478.0
+106,150,Italy,Netherlands (Kingdom of the),1994,grapes_marc,768.0
+106,150,Italy,Netherlands (Kingdom of the),1995,grapes_marc,242.0
+106,150,Italy,Netherlands (Kingdom of the),1996,grapes_marc,328.0
+106,150,Italy,Netherlands (Kingdom of the),1997,grapes_marc,496.0
+106,150,Italy,Netherlands (Kingdom of the),1998,grapes_marc,265.0
+106,150,Italy,Netherlands (Kingdom of the),1999,grapes_marc,824.0
+106,150,Italy,Netherlands (Kingdom of the),2000,grapes_marc,252.0
+106,150,Italy,Netherlands (Kingdom of the),2001,grapes_marc,131.0
+106,150,Italy,Netherlands (Kingdom of the),2002,grapes_marc,86.0
+106,150,Italy,Netherlands (Kingdom of the),2003,grapes_marc,294.0
+106,150,Italy,Netherlands (Kingdom of the),2008,grapes_marc,5.0
+106,150,Italy,Netherlands (Kingdom of the),2014,grapes_marc,0.5
+150,104,Netherlands (Kingdom of the),Ireland,2000,grapes_marc,1.0
+150,104,Netherlands (Kingdom of the),Ireland,2003,grapes_marc,695.0
+150,104,Netherlands (Kingdom of the),Ireland,2021,grapes_marc,0.01
+150,104,Netherlands (Kingdom of the),Ireland,2022,grapes_marc,0.13
+150,104,Netherlands (Kingdom of the),Ireland,2023,grapes_marc,0.55
+229,150,United Kingdom of Great Britain and Northern Ireland,Netherlands (Kingdom of the),1986,grapes_marc,23.0
+203,173,Spain,Poland,2020,grapes_marc,0.1
+79,126,Germany,Lithuania,2015,grapes_marc,0.6
+150,105,Netherlands (Kingdom of the),Israel,2022,grapes_marc,0.06
+150,105,Netherlands (Kingdom of the),Israel,2023,grapes_marc,0.2
+68,119,France,Latvia,2016,grapes_marc,0.14
+203,174,Spain,Portugal,1989,grapes_marc,1181.0
+203,174,Spain,Portugal,1994,grapes_marc,285.0
+203,174,Spain,Portugal,1995,grapes_marc,118.0
+203,174,Spain,Portugal,1997,grapes_marc,79.0
+203,174,Spain,Portugal,2000,grapes_marc,401.0
+203,174,Spain,Portugal,2001,grapes_marc,26.0
+203,174,Spain,Portugal,2003,grapes_marc,18831.0
+203,174,Spain,Portugal,2004,grapes_marc,25567.0
+203,174,Spain,Portugal,2005,grapes_marc,37243.0
+203,174,Spain,Portugal,2006,grapes_marc,20130.0
+203,174,Spain,Portugal,2007,grapes_marc,24137.0
+203,174,Spain,Portugal,2008,grapes_marc,2211.0
+203,174,Spain,Portugal,2009,grapes_marc,188.0
+203,174,Spain,Portugal,2010,grapes_marc,149.0
+203,174,Spain,Portugal,2011,grapes_marc,287.0
+203,174,Spain,Portugal,2012,grapes_marc,431.0
+203,174,Spain,Portugal,2013,grapes_marc,411.0
+203,174,Spain,Portugal,2014,grapes_marc,2135.0
+203,174,Spain,Portugal,2015,grapes_marc,923.3
+203,174,Spain,Portugal,2016,grapes_marc,2495.88
+203,174,Spain,Portugal,2017,grapes_marc,853.72
+203,174,Spain,Portugal,2018,grapes_marc,597.54
+203,174,Spain,Portugal,2019,grapes_marc,1532.64
+203,174,Spain,Portugal,2020,grapes_marc,1897.8
+203,174,Spain,Portugal,2021,grapes_marc,1544.26
+203,174,Spain,Portugal,2022,grapes_marc,3634.32
+203,174,Spain,Portugal,2023,grapes_marc,987.81
+229,156,United Kingdom of Great Britain and Northern Ireland,New Zealand,2018,grapes_marc,8.41
+150,106,Netherlands (Kingdom of the),Italy,1988,grapes_marc,3.0
+150,106,Netherlands (Kingdom of the),Italy,2022,grapes_marc,0.18
+150,106,Netherlands (Kingdom of the),Italy,2023,grapes_marc,0.05
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2007,grapes_marc,234.0
+229,162,United Kingdom of Great Britain and Northern Ireland,Norway,2008,grapes_marc,16.0
+68,256,France,Luxembourg,2020,grapes_marc,5.45
+150,110,Netherlands (Kingdom of the),Japan,2007,grapes_marc,1.0
+106,173,Italy,Poland,2015,grapes_marc,20.0
+106,173,Italy,Poland,2017,grapes_marc,0.04
+203,185,Spain,Russian Federation,2020,grapes_marc,2.4
+68,129,France,Madagascar,2017,grapes_marc,19.68
+68,129,France,Madagascar,2018,grapes_marc,16.25
+106,174,Italy,Portugal,2023,grapes_marc,0.01
+229,173,United Kingdom of Great Britain and Northern Ireland,Poland,2020,grapes_marc,0.01
+79,150,Germany,Netherlands (Kingdom of the),1996,grapes_marc,24.0
+79,150,Germany,Netherlands (Kingdom of the),2013,grapes_marc,1.0
+79,150,Germany,Netherlands (Kingdom of the),2015,grapes_marc,1.6
+79,150,Germany,Netherlands (Kingdom of the),2016,grapes_marc,1.6
+79,150,Germany,Netherlands (Kingdom of the),2017,grapes_marc,3.15
+79,150,Germany,Netherlands (Kingdom of the),2018,grapes_marc,1.29
+79,150,Germany,Netherlands (Kingdom of the),2019,grapes_marc,4.38
+79,150,Germany,Netherlands (Kingdom of the),2020,grapes_marc,2.62
+79,150,Germany,Netherlands (Kingdom of the),2022,grapes_marc,1.92
+106,117,Italy,Republic of Korea,2014,grapes_marc,5.0
+150,119,Netherlands (Kingdom of the),Latvia,2022,grapes_marc,0.05
+150,119,Netherlands (Kingdom of the),Latvia,2023,grapes_marc,0.01
+106,183,Italy,Romania,2016,grapes_marc,0.03
+106,183,Italy,Romania,2017,grapes_marc,0.11
+106,183,Italy,Romania,2018,grapes_marc,0.03
+106,183,Italy,Romania,2019,grapes_marc,0.02
+106,183,Italy,Romania,2020,grapes_marc,0.01
+106,183,Italy,Romania,2021,grapes_marc,0.02
+229,117,United Kingdom of Great Britain and Northern Ireland,Republic of Korea,1995,grapes_marc,60.0
+150,126,Netherlands (Kingdom of the),Lithuania,2021,grapes_marc,0.02
+150,126,Netherlands (Kingdom of the),Lithuania,2022,grapes_marc,0.02
+150,126,Netherlands (Kingdom of the),Lithuania,2023,grapes_marc,0.01
+229,185,United Kingdom of Great Britain and Northern Ireland,Russian Federation,2004,grapes_marc,2.0
+106,195,Italy,Senegal,2022,grapes_marc,0.03
+79,162,Germany,Norway,2021,grapes_marc,1.2
+150,256,Netherlands (Kingdom of the),Luxembourg,2017,grapes_marc,1.07
+150,256,Netherlands (Kingdom of the),Luxembourg,2021,grapes_marc,0.01
+150,256,Netherlands (Kingdom of the),Luxembourg,2022,grapes_marc,0.02
+150,256,Netherlands (Kingdom of the),Luxembourg,2023,grapes_marc,0.01
+68,150,France,Netherlands (Kingdom of the),1986,grapes_marc,24.0
+68,150,France,Netherlands (Kingdom of the),1990,grapes_marc,14.0
+68,150,France,Netherlands (Kingdom of the),1991,grapes_marc,33.0
+68,150,France,Netherlands (Kingdom of the),1993,grapes_marc,12392.0
+68,150,France,Netherlands (Kingdom of the),1994,grapes_marc,4711.0
+68,150,France,Netherlands (Kingdom of the),1995,grapes_marc,7680.0
+68,150,France,Netherlands (Kingdom of the),1996,grapes_marc,3900.0
+68,150,France,Netherlands (Kingdom of the),1997,grapes_marc,5683.0
+68,150,France,Netherlands (Kingdom of the),1998,grapes_marc,6303.0
+68,150,France,Netherlands (Kingdom of the),1999,grapes_marc,4453.0
+68,150,France,Netherlands (Kingdom of the),2000,grapes_marc,3556.0
+68,150,France,Netherlands (Kingdom of the),2001,grapes_marc,553.0
+68,150,France,Netherlands (Kingdom of the),2003,grapes_marc,717.0
+68,150,France,Netherlands (Kingdom of the),2004,grapes_marc,981.0
+68,150,France,Netherlands (Kingdom of the),2005,grapes_marc,5.0
+68,150,France,Netherlands (Kingdom of the),2006,grapes_marc,1088.0
+68,150,France,Netherlands (Kingdom of the),2007,grapes_marc,26.0
+68,150,France,Netherlands (Kingdom of the),2008,grapes_marc,2.0
+68,150,France,Netherlands (Kingdom of the),2011,grapes_marc,100.0
+68,150,France,Netherlands (Kingdom of the),2016,grapes_marc,0.04
+68,150,France,Netherlands (Kingdom of the),2021,grapes_marc,454.04
+68,150,France,Netherlands (Kingdom of the),2022,grapes_marc,30.91
+68,150,France,Netherlands (Kingdom of the),2023,grapes_marc,7.53
+229,200,United Kingdom of Great Britain and Northern Ireland,Singapore,2014,grapes_marc,0.3
+150,134,Netherlands (Kingdom of the),Malta,2022,grapes_marc,0.01
+79,173,Germany,Poland,2009,grapes_marc,1.0
+79,173,Germany,Poland,2012,grapes_marc,46.0
+79,173,Germany,Poland,2014,grapes_marc,21.2
+79,173,Germany,Poland,2015,grapes_marc,4.5
+79,173,Germany,Poland,2016,grapes_marc,0.5
+79,173,Germany,Poland,2021,grapes_marc,3.17
+79,173,Germany,Poland,2022,grapes_marc,75.16
+229,202,United Kingdom of Great Britain and Northern Ireland,South Africa,2018,grapes_marc,6.71
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1987,grapes_marc,987.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,1988,grapes_marc,2384.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2006,grapes_marc,26.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2007,grapes_marc,1517.0
+203,229,Spain,United Kingdom of Great Britain and Northern Ireland,2020,grapes_marc,1.21
+106,203,Italy,Spain,1989,grapes_marc,15.0
+106,203,Italy,Spain,1992,grapes_marc,44.0
+106,203,Italy,Spain,2000,grapes_marc,5.0
+106,203,Italy,Spain,2001,grapes_marc,10.0
+106,203,Italy,Spain,2003,grapes_marc,7.0
+68,162,France,Norway,2023,grapes_marc,0.38
+79,117,Germany,Republic of Korea,2015,grapes_marc,1.7
+79,117,Germany,Republic of Korea,2016,grapes_marc,2.09
+229,210,United Kingdom of Great Britain and Northern Ireland,Sweden,2020,grapes_marc,0.01
+203,249,Spain,Yemen,2019,grapes_marc,157.5
+203,249,Spain,Yemen,2020,grapes_marc,168.0
+203,249,Spain,Yemen,2023,grapes_marc,47.68
+68,173,France,Poland,2008,grapes_marc,16.0
+68,173,France,Poland,2009,grapes_marc,11.0
+68,173,France,Poland,2010,grapes_marc,22.0
+68,173,France,Poland,2011,grapes_marc,4.0
+68,173,France,Poland,2012,grapes_marc,3.0
+68,173,France,Poland,2014,grapes_marc,0.5
+68,173,France,Poland,2016,grapes_marc,11.89
+68,173,France,Poland,2021,grapes_marc,0.04
+68,173,France,Poland,2023,grapes_marc,0.18
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,1997,grapes_marc,1.0
+229,211,United Kingdom of Great Britain and Northern Ireland,Switzerland,2005,grapes_marc,9.0
+106,211,Italy,Switzerland,1986,grapes_marc,381.0
+106,211,Italy,Switzerland,1987,grapes_marc,859.0
+106,211,Italy,Switzerland,1988,grapes_marc,1775.0
+106,211,Italy,Switzerland,1989,grapes_marc,732.0
+106,211,Italy,Switzerland,1990,grapes_marc,183.0
+106,211,Italy,Switzerland,1991,grapes_marc,174.0
+106,211,Italy,Switzerland,1992,grapes_marc,170.0
+106,211,Italy,Switzerland,1993,grapes_marc,47.0
+106,211,Italy,Switzerland,1995,grapes_marc,11.0
+106,211,Italy,Switzerland,1996,grapes_marc,5.0
+106,211,Italy,Switzerland,1997,grapes_marc,9.0
+106,211,Italy,Switzerland,1998,grapes_marc,38.0
+106,211,Italy,Switzerland,1999,grapes_marc,20.0
+106,211,Italy,Switzerland,2001,grapes_marc,8.0
+106,211,Italy,Switzerland,2002,grapes_marc,19.0
+106,211,Italy,Switzerland,2003,grapes_marc,14.0
+106,211,Italy,Switzerland,2004,grapes_marc,18.0
+106,211,Italy,Switzerland,2005,grapes_marc,6.0
+106,211,Italy,Switzerland,2006,grapes_marc,7.0
+106,211,Italy,Switzerland,2007,grapes_marc,9.0
+106,211,Italy,Switzerland,2008,grapes_marc,9.0
+106,211,Italy,Switzerland,2009,grapes_marc,25.0
+106,211,Italy,Switzerland,2011,grapes_marc,24.0
+106,211,Italy,Switzerland,2012,grapes_marc,30.0
+106,211,Italy,Switzerland,2013,grapes_marc,18.0
+106,211,Italy,Switzerland,2014,grapes_marc,39.7
+106,211,Italy,Switzerland,2015,grapes_marc,6.5
+106,211,Italy,Switzerland,2016,grapes_marc,17.74
+106,211,Italy,Switzerland,2023,grapes_marc,11.2
+68,174,France,Portugal,2008,grapes_marc,1.0
+68,174,France,Portugal,2023,grapes_marc,0.3
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,1997,grapes_marc,1.0
+229,223,United Kingdom of Great Britain and Northern Ireland,Türkiye,2014,grapes_marc,0.56
+150,173,Netherlands (Kingdom of the),Poland,2020,grapes_marc,0.01
+150,173,Netherlands (Kingdom of the),Poland,2022,grapes_marc,0.07
+150,173,Netherlands (Kingdom of the),Poland,2023,grapes_marc,0.06
+106,223,Italy,Türkiye,2013,grapes_marc,202.0
+68,117,France,Republic of Korea,2008,grapes_marc,2.0
+68,117,France,Republic of Korea,2015,grapes_marc,7.96
+68,117,France,Republic of Korea,2022,grapes_marc,0.1
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,1998,grapes_marc,2.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,1999,grapes_marc,16.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2001,grapes_marc,9.0
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2019,grapes_marc,4.78
+229,225,United Kingdom of Great Britain and Northern Ireland,United Arab Emirates,2020,grapes_marc,3.65
+68,183,France,Romania,2011,grapes_marc,3.0
+106,225,Italy,United Arab Emirates,2015,grapes_marc,24.0
+106,225,Italy,United Arab Emirates,2016,grapes_marc,24.15
+150,174,Netherlands (Kingdom of the),Portugal,2002,grapes_marc,24.0
+150,174,Netherlands (Kingdom of the),Portugal,2021,grapes_marc,0.04
+150,174,Netherlands (Kingdom of the),Portugal,2022,grapes_marc,0.01
+150,174,Netherlands (Kingdom of the),Portugal,2023,grapes_marc,0.01
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,1999,grapes_marc,2.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2007,grapes_marc,3.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2008,grapes_marc,2.0
+106,229,Italy,United Kingdom of Great Britain and Northern Ireland,2014,grapes_marc,0.36
+229,231,United Kingdom of Great Britain and Northern Ireland,United States of America,2016,grapes_marc,0.08
+150,117,Netherlands (Kingdom of the),Republic of Korea,2022,grapes_marc,0.01
+150,183,Netherlands (Kingdom of the),Romania,2022,grapes_marc,0.01
+150,183,Netherlands (Kingdom of the),Romania,2023,grapes_marc,0.01
+79,211,Germany,Switzerland,2004,grapes_marc,2.0
+79,211,Germany,Switzerland,2016,grapes_marc,0.02
+68,203,France,Spain,1987,grapes_marc,741.0
+68,203,France,Spain,1988,grapes_marc,957.0
+68,203,France,Spain,1989,grapes_marc,390.0
+68,203,France,Spain,1990,grapes_marc,673.0
+68,203,France,Spain,1991,grapes_marc,288.0
+68,203,France,Spain,1994,grapes_marc,24.0
+68,203,France,Spain,2000,grapes_marc,7.0
+68,203,France,Spain,2004,grapes_marc,54.0
+68,203,France,Spain,2007,grapes_marc,79.0
+68,203,France,Spain,2008,grapes_marc,19.0
+68,203,France,Spain,2009,grapes_marc,4.0
+68,203,France,Spain,2010,grapes_marc,12.0
+68,203,France,Spain,2011,grapes_marc,15.0
+68,203,France,Spain,2012,grapes_marc,114.0
+68,203,France,Spain,2013,grapes_marc,675.0
+68,203,France,Spain,2014,grapes_marc,29.4
+68,203,France,Spain,2022,grapes_marc,75.14
+68,203,France,Spain,2023,grapes_marc,534.07
+150,199,Netherlands (Kingdom of the),Slovakia,2022,grapes_marc,0.02
+150,199,Netherlands (Kingdom of the),Slovakia,2023,grapes_marc,0.02
+150,198,Netherlands (Kingdom of the),Slovenia,2022,grapes_marc,0.01
+150,198,Netherlands (Kingdom of the),Slovenia,2023,grapes_marc,0.01
+68,210,France,Sweden,2011,grapes_marc,2.0
+68,210,France,Sweden,2016,grapes_marc,0.06
+68,210,France,Sweden,2021,grapes_marc,0.01
+79,230,Germany,Ukraine,2017,grapes_marc,3.17
+79,230,Germany,Ukraine,2018,grapes_marc,3.06
+68,211,France,Switzerland,2002,grapes_marc,1.0
+68,211,France,Switzerland,2003,grapes_marc,32.0
+68,211,France,Switzerland,2005,grapes_marc,20.0
+68,211,France,Switzerland,2011,grapes_marc,3.0
+68,211,France,Switzerland,2013,grapes_marc,6.0
+68,211,France,Switzerland,2016,grapes_marc,25.26
+68,211,France,Switzerland,2017,grapes_marc,1.4
+68,211,France,Switzerland,2019,grapes_marc,7.0
+150,203,Netherlands (Kingdom of the),Spain,2022,grapes_marc,0.07
+150,203,Netherlands (Kingdom of the),Spain,2023,grapes_marc,0.03
+150,210,Netherlands (Kingdom of the),Sweden,2021,grapes_marc,0.11
+150,210,Netherlands (Kingdom of the),Sweden,2022,grapes_marc,0.05
+150,210,Netherlands (Kingdom of the),Sweden,2023,grapes_marc,0.02
+150,211,Netherlands (Kingdom of the),Switzerland,1997,grapes_marc,30.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1986,grapes_marc,16.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,1995,grapes_marc,1450.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2008,grapes_marc,118.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2009,grapes_marc,292.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2010,grapes_marc,258.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2011,grapes_marc,12.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2018,grapes_marc,31.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2019,grapes_marc,75.0
+68,229,France,United Kingdom of Great Britain and Northern Ireland,2020,grapes_marc,66.0
+68,231,France,United States of America,2009,grapes_marc,8.0
+68,231,France,United States of America,2012,grapes_marc,8.0
+68,231,France,United States of America,2013,grapes_marc,12.0
+68,231,France,United States of America,2015,grapes_marc,10.7
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,1995,grapes_marc,4.0
+150,229,Netherlands (Kingdom of the),United Kingdom of Great Britain and Northern Ireland,2021,grapes_marc,0.01
