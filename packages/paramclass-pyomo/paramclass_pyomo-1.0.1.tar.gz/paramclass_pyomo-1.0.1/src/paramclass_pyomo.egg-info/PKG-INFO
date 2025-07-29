@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: paramclass-pyomo
+Version: 1.0.1
+Summary: Automatically parameterized pyomo models and blocks.
+Home-page: https://github.com/philip-s-martin/paramclass-pyomo
+Author: Philip Martin
+Author-email: philipscottmartin01@gmail.com
+Project-URL: Bug Tracker, https://github.com/philip-s-martin/paramclass-pyomo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: paramclass
+Requires-Dist: pyomo
+
+# paramclass-pyomo
+
+Readme Coming Soon

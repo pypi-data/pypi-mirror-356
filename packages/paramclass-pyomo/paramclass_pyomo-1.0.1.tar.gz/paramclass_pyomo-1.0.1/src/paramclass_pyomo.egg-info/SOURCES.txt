@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/paramclass_pyomo/__init__.py
+src/paramclass_pyomo/abstractblock.py
+src/paramclass_pyomo/linker.py
+src/paramclass_pyomo/proxycomponent.py
+src/paramclass_pyomo.egg-info/PKG-INFO
+src/paramclass_pyomo.egg-info/SOURCES.txt
+src/paramclass_pyomo.egg-info/dependency_links.txt
+src/paramclass_pyomo.egg-info/requires.txt
+src/paramclass_pyomo.egg-info/top_level.txt
