@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: nst_vgg19
+Version: 0.3.1
+Summary: Neural Style Transfer using VGG19
+Home-page: https://github.com/alexanderbrodko/nst_vgg19
+Author: Alexander Brodko
+Author-email: xjesus666@yandex.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch>=1.13
+Requires-Dist: torchvision>=0.14
+Requires-Dist: opencv-python
+Requires-Dist: argparse
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# NST_VGG19
+
+Neural Style Transfer using VGG19.
+
+![collage](https://github.com/user-attachments/assets/a1e2f364-d250-47b3-b10d-746731d16dbb)
+
+Original paper [link](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf).
+
+VGG19 weights from `torchvision`.
+
+## Installation
+
+```bash
+pip install nst_vgg19
+```
+
+## Usage
+
+`nst photo.jpg --style style-image.png --output result.png`
+
+## Usage in python
+
+```python
+from nst_vgg19 import NST_VGG19
+
+# images must be Numpy arrays. Use np.array(pil_image)
+
+style_image = load_image('style.png')
+content_image_1 = load_image('img1.jpg')
+content_image_2 = load_image('img2.png')
+
+nst = NST_VGG19(style_image)
+
+result_1 = nst(content_image_1)
+result_2 = nst(content_image_2)
+```
