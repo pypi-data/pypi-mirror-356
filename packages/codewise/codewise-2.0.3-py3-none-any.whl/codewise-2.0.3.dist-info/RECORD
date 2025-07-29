@@ -1,0 +1,16 @@
+codewise_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codewise_lib/crew.py,sha256=3jAcwJmI_f0ClQp_PvVraBdg_1Qe54rk6i8CVUJWhdU,4360
+codewise_lib/cw_runner.py,sha256=2_SKYvopK9SgMLJ5oYHf9k4VJmGAgwN9HcbYle8C7q4,4173
+codewise_lib/entradagit.py,sha256=ZZl7vUGRW76XuE-7SeDmNlf3W6dupBy6S1w2c3H4CZA,2917
+codewise_lib/main.py,sha256=XdHV7-Fpc-A4rShMlcCjgOfZgq86vcvLuzzz5VKWtJ4,891
+codewise_lib/config/agents.yaml,sha256=snZNY1FZiyaSDir70U2atj5Dgb0iRjIOoYxH8azSp6A,1270
+codewise_lib/config/tasks.yaml,sha256=xORH7RnA5-ZBlHpEzWKC862a1uodc75DSJLcWiSLg5c,1909
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/codewise_review_win.py,sha256=dOCfAztpCqB5eOivKS167DPrbJnmhI03EDYrfRrE-3s,9454
+scripts/help.py,sha256=p5N5DihZem6glS8MGXFlQPF3n6yQP8xb9jepd4cevMU,1315
+scripts/install_hook.py,sha256=dJta40FiXHKJvwt9zC7i5SHTAPHlbb-GlJSkWGT6b1o,2111
+codewise-2.0.3.dist-info/METADATA,sha256=KXfA_STBFMvhjXv6HSazY_R2VIyFkLD29OolWujYF5g,7678
+codewise-2.0.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+codewise-2.0.3.dist-info/entry_points.txt,sha256=JCHcgjdUDsESe50zPieynodu50a6ljKAkVmjGo7mG2k,198
+codewise-2.0.3.dist-info/top_level.txt,sha256=jMIewdUEN0t-vKjZ70uQDj0Ynxpfga-aPRgvZ8agCeE,21
+codewise-2.0.3.dist-info/RECORD,,
