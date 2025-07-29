@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sreeclassifier/__init__.py
+sreeclassifier/core.py
+sreeclassifier/imagenet_classes.txt
+sreeclassifier/utils.py
+sreeclassifier.egg-info/PKG-INFO
+sreeclassifier.egg-info/SOURCES.txt
+sreeclassifier.egg-info/dependency_links.txt
+sreeclassifier.egg-info/requires.txt
+sreeclassifier.egg-info/top_level.txt
+tests/test_core.py
