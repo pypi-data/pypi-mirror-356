@@ -1,0 +1,2 @@
+[console_scripts]
+nst = nst_vgg19:main

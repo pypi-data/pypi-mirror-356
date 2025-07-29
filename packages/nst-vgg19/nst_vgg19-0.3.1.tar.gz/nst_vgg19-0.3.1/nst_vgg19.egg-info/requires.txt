@@ -1,0 +1,5 @@
+numpy
+torch>=1.13
+torchvision>=0.14
+opencv-python
+argparse
