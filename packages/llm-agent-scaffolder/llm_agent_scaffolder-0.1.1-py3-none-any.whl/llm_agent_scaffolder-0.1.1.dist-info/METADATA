@@ -1,0 +1,81 @@
+Metadata-Version: 2.4
+Name: llm-agent-scaffolder
+Version: 0.1.1
+Summary: A scaffolding tool to quickly generate a boilerplate for a custom LLM Agent Framework.
+Author-email: Uday Valera <udayvalera@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Uday Valera
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/udayvalera/llm-agent-scaffolder
+Project-URL: Bug Tracker, https://github.com/udayvalera/llm-agent-scaffolder/issues
+Keywords: llm,agent,framework,scaffolding,boilerplate,gemini
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# LLM Agent Scaffolder
+
+`llm-agent-scaffolder` is a command-line tool designed to rapidly generate a complete boilerplate for building a custom, multi-agent framework powered by Google's Gemini LLM.
+
+It sets up the entire project structure, including directories for agents, tools, orchestration, and LLM clients, allowing you to go from an idea to a working agent framework in minutes.
+
+## Features
+
+- **Full Project Initialization**: Creates a complete, ready-to-use project structure with a single command.
+- **Component Scaffolding**: Easily add new, empty `Agent` or `Tool` files to your existing project.
+- **Modular by Design**: The generated boilerplate is organized into logical components (agents, tools, orchestrator) for maximum extensibility.
+- **Gemini-Ready**: Includes a pre-configured client for interacting with the Google Gemini API.
+
+## Installation
+
+```bash
+pip install llm-agent-scaffolder
+UsageInitialize a New ProjectTo create a brand new agent framework project, run:create-simple-agent init --name MyAgentProject
+This will create a new directory MyAgentProject/ with the complete boilerplate.Add New ComponentsOnce inside a project directory, you can easily add new components:Create a new Tool:create-simple-agent new tool --name MyFileParser
+Create a new Agent:create-simple-agent new agent --name DataAnalysisAgent
+Generated Project StructureThe init command generates the following structure:MyAgentProject/
+├── agents/
+│   ├── base_text_agent.py
+│   ├── text_conversational_agent.py
+│   └── text_tool_execution_agent.py
+├── llm_clients/
+│   ├── base_prediction_client.py
+│   └── gemini_prediction_client.py
+├── orchestrator/
+│   ├── text_agent_graph_loader.py
+│   └── text_agent_orchestrator.py
+├── tools/
+│   ├── base_tool.py
+│   └── sample_tool.py
+├── utils/
+│   ├── data_models.py
+│   └── logger.py
+├── config.py
+├── main.py
+├── text_agent_configs.json
+└── text_agent_workflows.json
