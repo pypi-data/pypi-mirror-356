@@ -1,0 +1,15 @@
+volumentations/__init__.py,sha256=p0ichNVGrByB32Z2_jlBVbjgV1ewKw6aXOOpndp-FWs,383
+volumentations/augmentations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volumentations/augmentations/functional.py,sha256=bhYoiE_Wf7r_PGWwhhLAlxXb1v2CX8XLT0Z9L0JoTcU,2540
+volumentations/augmentations/transforms.py,sha256=9-f789-liHztDFQJvSGm1Afn676NVzn9c4QTiAG542U,10962
+volumentations/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volumentations/core/composition.py,sha256=EOkViLxHywSNv-kEG8WVjz3Omyg25DRdq6GGMrKTG88,9709
+volumentations/core/serialization.py,sha256=21YRQZcWXbAwlZ5CEaonW5QDBo4aJFyLFspb9eJasag,6343
+volumentations/core/six.py,sha256=it8o66JDNH70w1qZ8NQFWZ7wrKrkyO8Tu5oYRAW-VPE,1853
+volumentations/core/transforms_interface.py,sha256=HhFYjC3R6v-22Y25y87DdxSYN3ypGtQGdVb1ULO6L7I,8849
+volumentations/core/utils.py,sha256=TlGQy51UQ6LlUF9g0bBD4jWa-9GFYWm5P_bzIB_wV5Y,380
+volumentations-0.1.9.dist-info/licenses/LICENSE,sha256=mGoKswz8tMp8qvzI9nolrZZ0nBtbAorUG5aZkJ9O5UU,1072
+volumentations-0.1.9.dist-info/METADATA,sha256=36oWNk-YVN8Rb08s75hPptxAbUx8fma4FjtwRzLgLmc,5157
+volumentations-0.1.9.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+volumentations-0.1.9.dist-info/top_level.txt,sha256=hfyt_CUl44ME-FQr6PXkQHf2ni2Ghy1XRI8tUa9funI,15
+volumentations-0.1.9.dist-info/RECORD,,

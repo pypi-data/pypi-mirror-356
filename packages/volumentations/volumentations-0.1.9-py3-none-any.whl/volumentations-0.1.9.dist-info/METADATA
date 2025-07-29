@@ -1,0 +1,117 @@
+Metadata-Version: 2.4
+Name: volumentations
+Version: 0.1.9
+Summary: Point augmentations library as hard-fork of albu-team/albumentations
+Author-email: kumuji <alexey@nekrasov.dev>
+License: MIT
+Project-URL: homepage, https://github.com/kumuji/volumentations
+Project-URL: repository, https://github.com/kumuji/volumentations
+Project-URL: documentation, https://volumentations.readthedocs.io/en/latest/
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: uv>=0.5.4; extra == "dev"
+Requires-Dist: pytest>=8.3.5; extra == "dev"
+Requires-Dist: flake8>=7.1.2; extra == "dev"
+Requires-Dist: flake8-docstrings>=1.7.0; extra == "dev"
+Requires-Dist: flake8-isort>=6.1.1; extra == "dev"
+Requires-Dist: flake8-bandit>=4.1.1; extra == "dev"
+Requires-Dist: flake8-black>=0.3.6; extra == "dev"
+Requires-Dist: flake8-bugbear>=24.12.12; extra == "dev"
+Requires-Dist: isort>=5.13.2; extra == "dev"
+Requires-Dist: mypy>=1.14.1; extra == "dev"
+Requires-Dist: pre-commit>=3.5.0; extra == "dev"
+Requires-Dist: nox==2025.5.1; extra == "dev"
+Requires-Dist: coverage[toml]>=7.6.1; extra == "dev"
+Requires-Dist: pytest-cov>=5.0.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.14.0; extra == "dev"
+Requires-Dist: xdoctest>=1.1.5; extra == "dev"
+Requires-Dist: sphinx<7.0.0,>=6.2.1; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints>=1.17.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme<3.0.0,>=2.0.0; extra == "dev"
+Requires-Dist: black>=24.8.0; extra == "dev"
+Dynamic: license-file
+
+[![Tests](https://github.com/kumuji/volumentations/workflows/Tests/badge.svg)](https://github.com/kumuji/volumentations/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/kumuji/volumentations/branch/master/graph/badge.svg)](https://codecov.io/gh/kumuji/volumentations)
+[![PyPI](https://img.shields.io/pypi/v/volumentations.svg)](https://pypi.org/project/volumentations/)
+[![Documentation Status](https://readthedocs.org/projects/volumentations/badge/?version=latest)](https://volumentations.readthedocs.io/en/latest/?badge=latest)
+[![Code Style: Black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/ambv/black)
+[![Downloads](https://pepy.tech/badge/volumentations)](https://pepy.tech/project/volumentations)
+[![CodeFactor](https://www.codefactor.io/repository/github/kumuji/volumentations/badge)](https://www.codefactor.io/repository/github/kumuji/volumentations)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a3dc1e079290f508bf6f/maintainability)](https://codeclimate.com/github/kumuji/volumentations/maintainability)
+
+
+# ![logo](./docs/logo.png "logo") Volumentations
+
+![augmented_teapot](./docs/augmented_teapot.png "teapot")
+
+
+Python library for 3d data augmentaiton. Hard fork from [alumentations](https://github.com/albumentations-team/albumentations).
+
+For more information on available augmentations check [documentation](https://volumentations.readthedocs.io/en/latest/index.html).
+
+Or, check simple example in colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CT9nIGME_M4kIDc3BfEF4pCb_8JdFLpH)
+
+# Setup
+
+`pip install volumentations`
+
+# Usage example
+
+```python
+import volumentations as V
+import numpy as np
+
+augmentation = V.Compose(
+    [
+        V.Scale3d(scale_limit=(0.2, 0.2, 0.1), p=0.75),
+        V.OneOrOther(
+            V.Compose(
+                [
+                    V.RotateAroundAxis3d(
+                        rotation_limit=np.pi, axis=(0, 0, 1), always_apply=True
+                    ),
+                    V.RotateAroundAxis3d(
+                        rotation_limit=np.pi / 3, axis=(0, 1, 0), always_apply=True
+                    ),
+                    V.RotateAroundAxis3d(
+                        rotation_limit=np.pi / 3, axis=(1, 0, 0), always_apply=True
+                    ),
+                ],
+                p=1,
+            ),
+            V.Flip3d(axis=(0, 0, 1)),
+        ),
+        V.OneOf(
+            [
+                V.RandomDropout3d(dropout_ratio=0.2, p=0.75),
+                V.RandomDropout3d(dropout_ratio=0.3, p=0.5),
+            ]
+        ),
+    ]
+)
+
+augmented_teapot = augmentation(points=teapot.copy())["points"]
+show_augmentation(teapot, augmented_teapot)
+```
