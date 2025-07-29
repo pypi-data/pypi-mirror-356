@@ -1,0 +1,3 @@
+[console_scripts]
+nimbit=nimbit.cli:cli
+
