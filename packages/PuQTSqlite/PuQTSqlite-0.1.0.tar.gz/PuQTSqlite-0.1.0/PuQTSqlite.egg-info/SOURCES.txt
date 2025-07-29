@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PuQTSqlite/__init__.py
+PuQTSqlite.egg-info/PKG-INFO
+PuQTSqlite.egg-info/SOURCES.txt
+PuQTSqlite.egg-info/dependency_links.txt
+PuQTSqlite.egg-info/top_level.txt
+req/database.py
+req/main.py
+req/material_calc.py
+req/partners.db
+req/requirements.txt
+req/Мастер пол.png

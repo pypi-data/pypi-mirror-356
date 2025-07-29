@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: PuQTSqlite
+Version: 0.1.0
+Summary: A package to distribute your PyQt SQLite program files
+Home-page: https://github.com/yourusername/PuQTSqlite
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PuQTSqlite
+
+Пакет для распространения файлов программы PyQt с SQLite.
+
+## Установка
+
+```bash
+pip install PuQTSqlite
+```
+
+## Использование
+
+```python
+from PuQTSqlite import copy_file, list_available_files
+
+# Посмотреть список доступных файлов
+list_available_files()
+
+# Скопировать файл в текущую директорию
+copy_file('main.py')
+
+# Скопировать файл в указанную директорию
+copy_file('database.py', 'path/to/destination')
+```
+
+## Доступные файлы
+
+- main.py
+- database.py
+- material_calc.py
+- requirements.txt
+- partners.db
+- Мастер пол.png 

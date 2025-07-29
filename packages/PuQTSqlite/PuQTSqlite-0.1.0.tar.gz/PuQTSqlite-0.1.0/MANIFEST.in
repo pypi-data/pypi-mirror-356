@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+recursive-include req *.py
+recursive-include req *.txt
+recursive-include req *.db
+recursive-include req *.png 
