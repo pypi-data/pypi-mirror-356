@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh issue list:*)",
+      "Bash(gh issue view:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv run:*)"
+    ],
+    "deny": []
+  }
+}
