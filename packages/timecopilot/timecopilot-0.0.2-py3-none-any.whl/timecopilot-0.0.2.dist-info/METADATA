@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: timecopilot
+Version: 0.0.2
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pre-commit
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Dynamic: license-file
