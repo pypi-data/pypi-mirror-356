@@ -1,0 +1,2 @@
+[console_scripts]
+snipster = snipster.__main__:main
