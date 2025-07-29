@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools>=80.9.0",
+    "wheel>=0.45.1",
+    "Cython>=3.1.2"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybloomfilter3"
+version = "0.7.2"
+description = "A fast implementation of Bloom filter for Python 3 built on mmap"
+readme = "README.md"
+authors = [
+    {name = "Prashant Sinha", email = "prashant@noop.pw"},
+    {name = "David Stromberger", email = "cavoq@proton.me"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.5, <4"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: C",
+    "Programming Language :: Cython",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/cavoq/pybloomfiltermmap3"
+
+[tool.setuptools]
+include-package-data = true
+py-modules = []
+
+[project.optional-dependencies]
+test = ["pytest"]
