@@ -1,0 +1,12 @@
+fastcpd/BUILD.bazel,sha256=P-4VPCDEhu6iY9uUJl5chcPB6B1mJj-_sDjoiTUunVc,1524
+fastcpd/__init__.py,sha256=92JQWv_afjzq0jr2DVZaRP7J5jKBlM_FIjADUEHX9wQ,732
+fastcpd/interface.cpython-310-darwin.so,sha256=_mZEy9tVTLhpqWiuw7KDCSSrOtlIQ1vikLLG2oB_wtg,654184
+fastcpd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcpd/pybind.cc,sha256=RErnAi76bLih6dCez1KLKcXNjpBO2bBbNDKXRbfIPH0,3372
+fastcpd/segmentation.py,sha256=hQFV3lv-KhkCaRez3uorAH8LmzZwoPCIQKvAZE0fouw,5995
+fastcpd/variance_estimation.py,sha256=q66Cvgp64ZGKLPkzwNSnJSQ5bDb-Xnudk2ZUuzUrAgU,851
+fastcpd-0.18.0.dist-info/licenses/LICENSE.md,sha256=bqhD2fIhoqfLdX1lyGNoufIHWE7Q8mU-SyFadwKn4cc,34902
+fastcpd-0.18.0.dist-info/METADATA,sha256=u--sB97zohcQyfb-Iyq1QYP9pqiMfrRsREKq3B-GzLg,10127
+fastcpd-0.18.0.dist-info/WHEEL,sha256=0KYp5feZ1CMUhsfFXKpSQTbSmQbXy4mv6yPPVBXg2EM,110
+fastcpd-0.18.0.dist-info/top_level.txt,sha256=Rfxpn8Kvt-yniuQBtkko-6ThhsQ4zUjFDIGjDm1ASIo,8
+fastcpd-0.18.0.dist-info/RECORD,,
