@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cryptopix/__init__.py
+cryptopix.egg-info/PKG-INFO
+cryptopix.egg-info/SOURCES.txt
+cryptopix.egg-info/dependency_links.txt
+cryptopix.egg-info/requires.txt
+cryptopix.egg-info/top_level.txt
+cryptopix/core/__init__.py
+cryptopix/core/encryption.py
+cryptopix/core/exceptions.py
+cryptopix/core/mapping.py
+cryptopix/core/utils.py
