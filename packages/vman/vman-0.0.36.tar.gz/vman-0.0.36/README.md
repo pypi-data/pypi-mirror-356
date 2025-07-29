@@ -1,0 +1,137 @@
+# :shipit: vman
+<div align="center">
+    <a href="https://commons.wikimedia.org/wiki/File:Books_and_Scroll_Ornament_with_Open_Book.png">
+    <img align="center"
+        src="https://raw.githubusercontent.com/sivefunc/vman/refs/heads/master/res/hero.png"
+        style="width: 100%; max-width: 600px"
+        alt="Drawing of a book with a diploma">
+    </a>
+    <br>
+</div>
+
+# :bookmark: Table of contents
+1. [About](#about)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Options](#options)
+5. [Files](#files)
+6. [Supported Creators](#creators)
+7. [Notes](#notes)
+8. [The End](#end)
+
+## :question: About <a name="about"></a>
+vman is a small but configurable CLI program to open helpful videos about linux utility commands from a variety of creators using the default media player in the system.
+
+## :file_folder: Installation <a name="installation"></a>
+
+### :penguin: Binary dependencies (Debian)
+```sh
+sudo apt-get install python3 python3-pip python3-setuptools pipx
+```
+```sh
+pipx ensurepath
+```
+
+### :snake: Option 1: Pypi
+```sh
+pipx install vman
+```
+
+### :hand: Option 2: Git repository (Still connects to Pypi)
+```sh
+pipx install git+https://github.com/sivefunc/vman.git
+```
+
+## :computer: Usage <a name="usage"></a>
+usage: vman [video] [author] [options]
+
+vman - Video Man Pages
+
+### Open a video from distrotube
+```sh
+vman ls -a distrotube
+```
+
+### Change media player (by default it uses xdg-open)
+```sh
+vman ls -p mpv
+```
+
+### Pipe URL to a different program + verbose
+```sh 
+vman ls --only-url --verbose | xargs librewolf
+```
+
+## :gear: Options <a name="notes"></a>
+```sh
+options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -a AUTHOR, --author AUTHOR
+                        Author of the video to consult, e.g 'roberteldersoftware'
+  -p PATH, --player PATH
+                        Path to media player to use instead of the one defined in config
+  --only-url            Do not reproduce the video, returns the url
+  --urls                List all the video manuals in JSON format
+  --verbose             Detailed output at console
+```
+
+## :file_folder: Files <a name="files"></a>
+### Config File
+TOML file that allows the user to modify the default options, e.g the media player.
+It's located at vman/config.toml
+example:
+```toml
+media_player = "xdg-open"
+author = "distrotube"
+
+[custom-urls]
+enabled = false
+path = ""
+```
+
+### URLS File
+JSON File that maps an author to a collection of videos.
+It's located at vman/urls.json but you can modify the location.
+```json
+{
+    "distrotube": {
+        "ls": "https://www.youtube.com/watch?v=T-4Q7i6mNeM"
+    },
+    "roberteldersoftware": {
+        "nice": "https://www.youtube.com/shorts/uuCYq64Ww7o",
+        "fmt": "https://www.youtube.com/shorts/SyylpFY_eSg"
+    }
+}
+```
+
+## :camera: Supported Creators <a name="creators"></a>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Profile Picture</td>
+    </tr>
+    <tr>
+        <td>DistroTube</td>
+        <td>
+            <a href="https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg">
+                <img src="https://raw.githubusercontent.com/sivefunc/vman/refs/heads/master/res/distrotube.jpg" width="100" height="100">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>RobertElderSoftware</td>
+        <td>
+            <a href="https://www.youtube.com/channel/UCOmCxjmeQrkB5GmCEssbvxg">
+                <img src="https://raw.githubusercontent.com/sivefunc/vman/refs/heads/master/res/roberteldersoftware.jpg" width="100" height="100">
+            </a>
+        </td>
+    </tr>
+ </table>
+
+## :notebook: Notes <a name="notes"></a>
+- CLI Options have higher precedency than config.toml
+
+<a name="end"></a>
+## Made by :link: [Sivefunc](https://github.com/sivefunc)
+## Licensed under :link: [GPLv3](https://github.com/sivefunc/vman/blob/master/LICENSE)

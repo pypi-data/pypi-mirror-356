@@ -1,0 +1,15 @@
+COPYING
+LICENSE
+README.md
+pyproject.toml
+vman/_version.py
+vman/constants.py
+vman/term_args.py
+vman/utils.py
+vman/vman.py
+vman.egg-info/PKG-INFO
+vman.egg-info/SOURCES.txt
+vman.egg-info/dependency_links.txt
+vman.egg-info/entry_points.txt
+vman.egg-info/requires.txt
+vman.egg-info/top_level.txt
