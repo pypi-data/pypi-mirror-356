@@ -1,0 +1,89 @@
+Metadata-Version: 2.4
+Name: bombcell
+Version: 0.52
+Summary: Python port of bombcell. Automated quality control, curation and neuron classification of spike-sorted electrophysiology data.
+Author: Julie Fabre, Sam Dodgson, Maxime Beau
+Maintainer-email: Julie Fabre <julie.m.fabre@gmail.com>
+License: GPL-3.0
+Project-URL: Homepage, https://github.com/Julie-Fabre/bombcell
+Project-URL: Repository, https://github.com/Julie-Fabre/bombcell
+Project-URL: Issues, https://github.com/Julie-Fabre/bombcell/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: matplotlib>=3.3.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: ipywidgets>=7.6.0
+Requires-Dist: joblib>=1.0.0
+Requires-Dist: tqdm>=4.50.0
+Requires-Dist: pyarrow>=5.0.0
+Requires-Dist: numba>=0.58.1
+Requires-Dist: upsetplot
+Requires-Dist: mtscomp
+
+# BombCell
+
+Python port of BombCell. Automated quality control, curation and neuron classification of spike-sorted electrophysiology data.
+
+## Installation
+
+```bash
+pip install bombcell
+```
+
+For full functionality including optional features:
+
+```bash
+pip install bombcell[all]
+```
+
+## Quick Start
+
+```python
+import bombcell as bc
+
+# Set up parameters
+param = bc.get_default_parameters("path/to/kilosort_output")
+
+# Run quality metrics
+quality_metrics, param, unit_type, unit_type_string = bc.run_bombcell(
+    "path/to/kilosort_output", 
+    "path/to/bombcell_output", 
+    param
+)
+
+# Launch GUI for manual inspection
+gui = bc.unit_quality_gui(
+    ks_dir="path/to/kilosort_output",
+    quality_metrics=quality_metrics,
+    unit_types=unit_type,
+    param=param,
+    save_path="path/to/bombcell_output"
+)
+```
+
+## Features
+
+- Automated quality control for spike-sorted data
+- Interactive GUI for manual curation
+- Cell type classification (cortical and striatal neurons)
+- Comprehensive quality metrics computation
+- Parameter optimization tools
+
+## Documentation
+
+See the demo notebooks in the `Demos/` directory for detailed examples.
+
+## License
+
+GPL-3.0 License
