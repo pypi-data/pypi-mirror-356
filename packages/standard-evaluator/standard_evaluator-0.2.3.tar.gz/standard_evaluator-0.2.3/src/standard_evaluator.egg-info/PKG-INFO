@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: standard_evaluator
+Version: 0.2.3
+Summary: Project description
+Author-email: joerg.m.gablonsky@boeing.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: openmdao<=3.37.0
+Requires-Dist: om-aviary
+Requires-Dist: json-numpy
+Requires-Dist: pydantic
+Requires-Dist: h5py
+Requires-Dist: numpydantic>=1.6.9
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: coverage; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: pytest; extra == "docs"
+Requires-Dist: pytest-cov; extra == "docs"
+Requires-Dist: coverage; extra == "docs"
+Requires-Dist: black; extra == "docs"
+Requires-Dist: flake8; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: jupyter; extra == "docs"
+Requires-Dist: autodocsumm; extra == "docs"
+Requires-Dist: pytest-cov; extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: jupyter_core<=5.1.0; extra == "docs"
+Requires-Dist: myst-nb; extra == "docs"
+Dynamic: license-file
+
+# Standard Evaluator
+
+This project expands the capabilities of the OpenMDAO components. It was developed under NASA Contract 80GRC023CA045.
+
+Note that this is a very early prototype. We are actively working on improving the documentation and descriptions.
+
+## Installation
+
+`pip install standard-evaluator`
+
+Optionally clone the repo and install locally.
+
+- The docs folder contains the source code of the documentation, which includes the demos. Note that this has not been moved here yet.
+- Experimenting is a folder we use to experiment with code. 
+- The src folder contains the actual source code of the standard evaluator.
+- Finally the tests folder contains our unit tests.
