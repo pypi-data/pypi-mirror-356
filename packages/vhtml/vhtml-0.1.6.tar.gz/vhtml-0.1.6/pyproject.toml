@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "vhtml"
+version = "0.1.6"
+description = "vhtml (ang. Visual HyperText Markup Language) - Optical character recognition and HTML layout analysis library"
+authors = ["Tom Sapletta"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+# Przetwarzanie obrazów i OpenCV
+opencv-python = "^4.8.1"
+opencv-contrib-python = "^4.8.1"
+
+# OCR i przetwarzanie tekstu
+pytesseract = "^0.3.10"
+easyocr = "^1.7.0"
+
+# Przetwarzanie PDF
+pdf2image = "^1.16.3"
+PyMuPDF = "^1.23.5"
+
+# Obróbka obrazów
+Pillow = "^10.0.1"
+scikit-image = "^0.21.0"
+
+# Analiza danych i numerical computing
+numpy = "^1.24.3"
+pandas = "^2.0.3"
+
+# Rozpoznawanie języka
+langdetect = "^1.0.9"
+polyglot = "^16.7.4"
+
+# Templating HTML
+Jinja2 = "^3.1.2"
+
+# Analiza tekstu
+spacy = "^3.6.1"
+textblob = "^0.17.1"
+
+# Layout analysis
+layoutparser = {version = "^0.3.4", optional = true}
+
+# Dodatkowe narzędzia
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+
+# Development dependencies (optional)
+pytest = {version = "^7.4.2", optional = true}
+black = {version = "^23.7.0", optional = true}
+flake8 = {version = "^6.0.0", optional = true}
+pytest-cov = {version = "^4.1.0", optional = true}
+isort = {version = "^5.12.0", optional = true}
+mypy = {version = "^1.5.1", optional = true}
+pre-commit = {version = "^3.3.3", optional = true}
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.7.0"
+flake8 = "^6.0.0"
+pytest-cov = "^4.1.0"
+isort = "^5.12.0"
+mypy = "^1.5.1"
+pre-commit = "^3.3.3"
+
+[tool.poetry.extras]
+layout = ["layoutparser", "detectron2"]
+dev = ["pytest", "black", "flake8"]
