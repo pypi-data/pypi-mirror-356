@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: samsara-fn
+Version: 0.6.1
+Summary: A CLI tool for Samsara Functions
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: boto3>=1.26.0
+
+A CLI tool for Samsara Functions.
+Streamlines local development, testing and packaging.
+
+## Installation
+
+### In a new virtual environment
+```bash
+python3.12 -m venv venv
+source venv/bin/activate
+pip install samsara-fn
+```
+
+### In system wide environment
+```bash
+pip install --user samsara-fn
+```
+
+## Usage
+
+The simulator provides a command-line interface.
+Each command supports various options. Use `--help` with any command to see detailed usage:
+```bash
+samsara-fn --help
+samsara-fn run manual --help
+```
