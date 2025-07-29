@@ -1,0 +1,2 @@
+[console_scripts]
+provider-dedupe = provider_dedupe.cli.main:cli
