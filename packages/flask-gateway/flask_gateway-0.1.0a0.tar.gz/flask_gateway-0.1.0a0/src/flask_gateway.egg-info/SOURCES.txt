@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/flask_gateway/__init__.py
+src/flask_gateway/cli.py
+src/flask_gateway/gateway_server.py
+src/flask_gateway/patch.py
+src/flask_gateway.egg-info/PKG-INFO
+src/flask_gateway.egg-info/SOURCES.txt
+src/flask_gateway.egg-info/dependency_links.txt
+src/flask_gateway.egg-info/entry_points.txt
+src/flask_gateway.egg-info/requires.txt
+src/flask_gateway.egg-info/top_level.txt
+src/flask_gateway/templates/index.html

@@ -1,0 +1,29 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+    "wheel",
+    "packaging>=25.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask-gateway"
+version = "0.1.0a0"
+description = "A Flask-based reverse proxy server for routing to sub-Flask apps"
+authors = [
+  { name = "Adil Rahman", email = "adildsw@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "flask",
+  "click",
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/adildsw/flask-gateway"
+
+[project.scripts]
+flask-gateway = "flask_gateway.cli:cli"

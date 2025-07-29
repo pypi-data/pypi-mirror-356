@@ -1,0 +1,98 @@
+# Flask Gateway
+
+Flask Gateway is a lightweight Flask-based reverse proxy server that lets you host multiple independent Flask services under distinct path prefixes. I've found it useful for serving multiple local tools through a single public endpoint (e.g., via `ngrok`) by acting as a gateway.
+
+---
+
+## 🚀 Installation
+
+You can install Flask Gateway directly from PyPI:
+
+```bash
+pip install flask-gateway
+```
+
+Alternatively, you can download a release archive and install it manually:
+
+```bash
+pip install flask-gateway-x.y.z.tar.gz
+```
+
+Or install from source:
+
+```bash
+git clone https://github.com/yourusername/flask-gateway.git
+cd flask-gateway
+pip install .
+```
+
+---
+
+## 🧭 Usage
+
+### 🔌 Start the gateway server
+
+```bash
+flask-gateway serve --port 9999 --targets examples/targets.json
+```
+
+- The `targets.json` file defines which local Flask apps are proxied and where they are routed.
+- Example format:
+
+```json
+{
+  "myapp": {
+    "label": "My App",
+    "pathPrefix": "/myapp",
+    "target": "http://127.0.0.1:5001"
+  },
+  ...
+}
+```
+
+---
+
+## 🛠️ Making your Flask apps gateway-compatible
+
+To support routing under a path prefix (e.g., `/myapp/`) **without breaking standalone usage**, add this snippet:
+
+```python
+try:
+    from flask_gateway.patch import gateway_patch
+    app = gateway_patch(app)
+except ImportError:
+    pass  # fallback for standalone usage
+```
+
+✅ This ensures your app works both as:
+
+- A standalone Flask server (`python app.py`)
+- A proxied service under a path like `/myapp/` via Flask Gateway
+
+---
+
+## 📁 Example Services
+
+See the `examples/` directory for sample Flask apps you can proxy through the gateway.
+
+To run them:
+
+```bash
+python examples/someapp/app.py
+```
+
+Then launch the gateway with:
+
+```bash
+flask-gateway serve --targets examples/targets.json
+```
+
+Visit:
+
+- `http://localhost:9999/someapp/`
+
+---
+
+## 📄 License
+
+MIT © Adil Rahman

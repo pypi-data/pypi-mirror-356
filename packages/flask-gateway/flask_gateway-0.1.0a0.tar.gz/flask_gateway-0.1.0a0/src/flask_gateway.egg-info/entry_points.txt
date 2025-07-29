@@ -1,0 +1,2 @@
+[console_scripts]
+flask-gateway = flask_gateway.cli:cli
