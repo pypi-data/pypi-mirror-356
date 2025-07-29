@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: lunapyutils
+Version: 1.0.0
+Summary: A collection of various utility methods that I use across Python projects
+Project-URL: Homepage, https://github.com/danilo-montes-code/lunapyutils
+Project-URL: Issues, https://github.com/danilo-montes-code/lunapyutils/issues
+Author-email: Danilo Montes <danilo.montes101@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
+# lunapyutils
+A collection of various utility methods that I use across Python projects
