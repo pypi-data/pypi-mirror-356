@@ -1,0 +1,17 @@
+clir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clir/cli.py,sha256=qVxjzA__C06hiQGmu19fI7HY4IINCl_rn4mEXKmpHJY,2716
+clir/command.py,sha256=yqWpF5eP5G6H7GJIiRMuQcD7NcxtZnZxUlPbYDeWqi8,10847
+clir/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clir/config/clir.conf,sha256=0Cn4fj2A-P2bG-Z8dCa0zB_0e0qdCoRhyCalnYxets0,7
+clir/config/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clir/config/db/schema.sql,sha256=pbstDX8g0F1rvX_cBmnommRAlRj1p3C_XhBo1YM7Fx8,591
+clir/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clir/utils/config.py,sha256=yIxVHxljt3G8o-WJ4KIKBSKMVclsRjUqsHyjAlqlwfY,3735
+clir/utils/core.py,sha256=5JX849V7tzwddWqQYf_reDb8_-Wj8AEOiSzGmW7CN6U,2388
+clir/utils/db.py,sha256=bher96QTlDJOPfzCGENg-oHTI4D8-OyLX-bpfXdWQhc,15731
+clir/utils/filters.py,sha256=8XeYyTHs63imAU1c4AnuXy8Jhj7hDwfOtxN7R8BI9xs,931
+clir-0.8.3.dist-info/LICENSE,sha256=shagkRLggHltphFg_gvXFJ4HH5_ozjkOLItMSoDGMNk,1068
+clir-0.8.3.dist-info/METADATA,sha256=YNJwyZ6PiD9ESyfW8oFesmZdGS66sL_NG6RUL_TbRg4,1794
+clir-0.8.3.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+clir-0.8.3.dist-info/entry_points.txt,sha256=swxfhtSVNl4RSpgHTXXgaLnUmnuSupAeL4p6EnApG_M,61
+clir-0.8.3.dist-info/RECORD,,
