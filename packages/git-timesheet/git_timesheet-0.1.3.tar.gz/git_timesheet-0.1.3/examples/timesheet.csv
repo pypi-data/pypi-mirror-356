@@ -1,0 +1,11 @@
+Date,Day,Week,Start Time,Timezone,Duration (min),Duration (hours),Repository,Commit,Message,Author
+"2025-06-06","Friday","2025-06-02","17:08","EDT",2.283333333333333,0.04,"timesheets","fa855fe","Initial commit and first version of script","Michael McGarrah"
+"2025-06-06","Friday","2025-06-02","17:11","EDT",0.9833333333333333,0.02,"timesheets","5dbc029","Filter for author contributions only","Michael McGarrah"
+"2025-06-06","Friday","2025-06-02","17:12","EDT",42.36666666666667,0.71,"timesheets","4c378f2","Add generation of text, csv, and md outputs. Add work week Monday-Sunday Add time in US EST timezone","Michael McGarrah"
+"2025-06-06","Friday","2025-06-02","17:54","EDT",45,0.75,"timesheets","9280a74","Adding requirements.txt and a setup document","Michael McGarrah"
+"2025-06-07","Saturday","2025-06-02","14:35","EDT",15,0.25,"timesheets","313dd0f","update to documentation","Michael McGarrah"
+"2025-06-07","Saturday","2025-06-02","14:56","EDT",15,0.25,"timesheets","76240a6","Session timeout is now configurable and defaults to 60 minutes.","Michael McGarrah"
+"2025-06-10","Tuesday","2025-06-09","14:57","EDT",11.383333333333333,0.19,"timesheets","ed3e67b","Add common US aliases handling for timezones","Michael McGarrah"
+"2025-06-10","Tuesday","2025-06-09","15:09","EDT",3.0833333333333335,0.05,"timesheets","fa05395","Add timezone aliases and improve markdown output format","Michael McGarrah"
+"2025-06-10","Tuesday","2025-06-09","15:12","EDT",12.016666666666667,0.20,"timesheets","6155162","Examples of usage with outputs","Michael McGarrah"
+"2025-06-10","Tuesday","2025-06-09","15:24","EDT",15,0.25,"timesheets","e127c6b","Enhance timezone handling and output formats","Michael McGarrah"

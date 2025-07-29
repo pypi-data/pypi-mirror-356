@@ -1,0 +1,9 @@
+[defaults]
+# Author pattern to filter commits (default: mcgarrah)
+author = michael mcgarrah
+
+# Default timezone for dates (e.g., US/Eastern, EST, America/New_York)
+timezone = US/Eastern
+
+# Minutes between commits to consider them part of the same work session
+session_timeout = 60
