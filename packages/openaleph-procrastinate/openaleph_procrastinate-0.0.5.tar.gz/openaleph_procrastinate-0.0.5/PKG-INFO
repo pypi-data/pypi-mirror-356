@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: openaleph-procrastinate
+Version: 0.0.5
+Summary: Task queue logic for OpenAleph built upon procrastinate
+License: AGPLv3+
+Author: Simon Wörpel
+Author-email: simon.woerpel@pm.me
+Requires-Python: >=3.11,<4
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: django
+Requires-Dist: anystore (>=0.3.6,<0.4.0)
+Requires-Dist: dj-database-url (>=2.3.0,<3.0.0) ; extra == "django"
+Requires-Dist: django (>=5.2,<6.0) ; extra == "django"
+Requires-Dist: followthemoney (>=3.8.4,<4.0.0)
+Requires-Dist: followthemoney-store[postgresql] (>=3.1.0,<4.0.0)
+Requires-Dist: ftmq (>=0.8.6,<0.9.0)
+Requires-Dist: orjson (>=3.10.18,<4.0.0)
+Requires-Dist: procrastinate (>=3.2.2,<4.0.0)
+Requires-Dist: procrastinate[django] (>=3.1.0,<4.0.0) ; extra == "django"
+Requires-Dist: pydantic (>=2.11.5,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.9.1,<3.0.0)
+Project-URL: Documentation, https://github.com/openaleph/openaleph-procrastinate
+Project-URL: Homepage, https://github.com/openaleph/openaleph-procrastinate
+Project-URL: Issues, https://github.com/openaleph/openaleph-procrastinate/issues
+Project-URL: Repository, https://github.com/openaleph/openaleph-procrastinate
+Description-Content-Type: text/markdown
+
+[![Python test and package](https://github.com/openaleph/openaleph-procrastinate/actions/workflows/python.yml/badge.svg)](https://github.com/openaleph/openaleph-procrastinate/actions/workflows/python.yml)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![Coverage Status](https://coveralls.io/repos/github/openaleph/openaleph-procrastinate/badge.svg?branch=main)](https://coveralls.io/github/openaleph/openaleph-procrastinate?branch=main)
+[![AGPLv3+ License](https://img.shields.io/pypi/l/openaleph-procrastinate)](./LICENSE)
+
+# OpenAleph Procrastinate
+
+The most dumbest task queue for [OpenAleph](https://openaleph.org) based on [procrastinate](https://procrastinate.readthedocs.io/en/stable/)
+
+## Documentation
+
+https://openaleph.org/docs/lib/openaleph-procrastinate
+
+## License and Copyright
+
+`openaleph-procrastinate`, (C) 2025 [Data and Research Center – DARC](https://dataresearchcenter.org)
+
+`openaleph-procrastinate` is licensed under the AGPLv3 or later license.
+
+see [NOTICE](./NOTICE) and [LICENSE](./LICENSE)
+
