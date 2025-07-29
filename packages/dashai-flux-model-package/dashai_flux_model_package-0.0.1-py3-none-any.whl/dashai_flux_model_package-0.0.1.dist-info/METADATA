@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: dashai_flux_model_package
+Version: 0.0.1
+Summary: DashAI flux Model for DashAI
+Project-URL: Homepage, https://github.com/DashAISoftware/DashAI
+Project-URL: Issues, https://github.com/DashAISoftware/DashAI/issues
+Author: DashAI team
+Author-email: dashaisoftware@gmail.com
+Keywords: DashAI,Model
+Requires-Python: >=3.8
+Requires-Dist: diffusers>=0.20.0
+Requires-Dist: huggingface-hub>=0.29.1
+Requires-Dist: torch>=2.0.1
+Description-Content-Type: text/markdown
+
+# Flux v1 dev/Schnell
+
+This includes the implementation of flux v1 models dev/Schnell

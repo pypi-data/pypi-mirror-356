@@ -1,0 +1,2 @@
+[dashai.plugins]
+FluxV1Model = dashai_flux_model_package.flux_v1_model:FluxV1Model
