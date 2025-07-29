@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: vmware-vapi-common-client
+Version: 2.61.2
+Summary: VMware vAPI Common Services Client Bindings
+Home-page: https://github.com/vmware/vcf-sdk-python
+Author: Broadcom
+License: License :: OSI Approved :: MIT License
+Keywords: Broadcom,VCF,vSphere
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: vmware-vapi-runtime (==2.61.2)
+
+# VMware vAPI Common Client
+
+VMware vAPI Common Client is a client library which contains Python language bindings for core APIs like Session, Tasks and API Metadata.
+
+## Getting started
+
+### Prerequisites
+
+- Supported Python versions: 3.9, 3.10, 3.11, 3.12 and 3.13
+
+### Install the package
+
+```bash
+pip install vmware-vapi-common-client
+```
