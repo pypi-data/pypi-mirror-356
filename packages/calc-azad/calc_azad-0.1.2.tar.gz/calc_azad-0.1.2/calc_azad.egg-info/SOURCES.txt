@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+calc_azad.egg-info/PKG-INFO
+calc_azad.egg-info/SOURCES.txt
+calc_azad.egg-info/dependency_links.txt
+calc_azad.egg-info/top_level.txt
+mycalculator/__init__.py
+tests/test1.py

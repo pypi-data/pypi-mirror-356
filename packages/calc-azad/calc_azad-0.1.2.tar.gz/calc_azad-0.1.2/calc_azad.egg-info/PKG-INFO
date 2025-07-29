@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: calc_azad
+Version: 0.1.2
+Summary: A simple calculator package
+Author: Azad
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# calc_azad
+
+A comprehensive Python calculator module with advanced mathematical functions.
+
+## Installation
+
+```bash
+pip install calc_azad
+```
+
+## Usage
+
+```python
+import calc_azad
+
+# Basic operations
+result = calc_azad.add(5, 3)
+print(result)  # 8
+
+result = calc_azad.multiply(4, 7)
+print(result)  # 28
+```
+
+## Features
+
+- Basic arithmetic operations
+- Advanced mathematical functions
+- Statistical calculations
+- Trigonometric functions
+- And much more!
+
+## License
+
+MIT License
