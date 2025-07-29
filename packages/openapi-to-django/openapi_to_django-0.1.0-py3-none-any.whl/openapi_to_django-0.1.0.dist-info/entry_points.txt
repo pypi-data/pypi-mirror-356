@@ -1,0 +1,3 @@
+[console_scripts]
+openapi_to_django=openapi_to_django.command_line:main
+
