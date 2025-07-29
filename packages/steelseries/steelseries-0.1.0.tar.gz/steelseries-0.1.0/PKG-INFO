@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: steelseries
+Version: 0.1.0
+Summary: Simple Python SDK for the SteelSeries GameSense API
+Author-email: NeoEmberArts <authoranimation@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Dynamic: license-file
+
+# steelseries
+
+A simple wrapper for the SteelSeries GameSense API in Python.
+
+## Features
+
+- Register games and events with SteelSeries Engine
+- Send live event data (0–100) to control RGB devices
+- Built-in auto-sanitization of names
+
+## Example
+
+```python
+import steelseries
+
+steelseries.register_game("MYGAME")
+steelseries.register_event("MYGAME", "HEALTH")
+steelseries.send_event_data("MYGAME", "HEALTH", 75)
+```
