@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "release-note-automator"
+version = "0.1.4"
+description = "A CLI tool to automate fetching, cleaning, summarizing, and posting release notes from Azure DevOps."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Ankur Helak", email = "ankurhelak@gmail.com"}
+]
+keywords = ["release-notes", "cli", "azure-devops", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "questionary",
+    "wcwidth"
+]
+
+[project.urls]
+Homepage = "https://github.com/ankur-helak/release-note-automator"
+Repository = "https://github.com/ankur-helak/release-note-automator"
+Issues = "https://github.com/ankur-helak/release-note-automator/issues"
+
+[project.scripts]
+rlauto = "rlauto.cli:main"
+release-note-automator = "rlauto.cli:main"
