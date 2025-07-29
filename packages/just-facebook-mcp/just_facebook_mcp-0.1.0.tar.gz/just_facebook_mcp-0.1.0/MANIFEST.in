@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include just_facebook_mcp *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .pypirc
+global-exclude */.pypirc
+global-exclude ~/.pypirc 
