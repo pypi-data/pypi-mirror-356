@@ -1,0 +1,7 @@
+sqlalchemy[asyncio]
+psycopg[binary]
+pydantic<3.0,>=2.0
+alembic
+python-dotenv
+azure-identity
+azure-keyvault-secrets
