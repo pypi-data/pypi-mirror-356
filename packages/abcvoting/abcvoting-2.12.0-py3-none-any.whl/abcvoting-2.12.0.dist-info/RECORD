@@ -1,0 +1,17 @@
+abcvoting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abcvoting/abcrules.py,sha256=yjLhKEtX8WLLHfxc166Eqfl6iLKaR35edAQvVlqOui8,163258
+abcvoting/abcrules_gurobi.py,sha256=hni7COX6HFcmRoG4ekZp4HacjuzKCHiYvVhX9eJGe2s,29656
+abcvoting/abcrules_mip.py,sha256=CA3gWtx5SAaShDlQbrycm4p1Lhfs8QBvmDUoxDr6I04,18059
+abcvoting/abcrules_ortools.py,sha256=Fhstb21gVU2wVPWHV70jWOKP62SUTAy-SgWESpIenbs,9643
+abcvoting/fileio.py,sha256=QLoSaKR8WYo5ebosMDUwELnywHYMr_F_f5SMf_jwqdc,17691
+abcvoting/generate.py,sha256=MVa8xqt830d8827EJS-6ppTkkxRBEIfiMkXRM63wCA4,34853
+abcvoting/misc.py,sha256=TsAB_LyaSgBq3zww04YdqDxKeVRTWvXa1KqQ0ZeIryk,12941
+abcvoting/output.py,sha256=bD4LWIcNOfV7XeqaCYXNyb-lKn5QRVT_h0eD6MqDvMA,6151
+abcvoting/preferences.py,sha256=l95d2pgPDqLMTqlNCxr6BqDhQ4B1BTQfV9UJGt4y_Jk,11253
+abcvoting/properties.py,sha256=qnEEpdwbLPCQ4VxYe4fHYNpzB8mJ3fN5DbmeYPjM1t0,60741
+abcvoting/scores.py,sha256=TQid4gIGK0E_FaRhBSYWrhskGknpYWSOSDRuRgYgaTs,14752
+abcvoting-2.12.0.dist-info/LICENSE,sha256=zGd2CLhEHQwEF_aLnpMnFDcyFG5OPJ20CxPNalkkdPo,1071
+abcvoting-2.12.0.dist-info/METADATA,sha256=nSxBqQlK677nJK4r0IEttviG-zLMy3AQ9oXXq4uAvrY,8003
+abcvoting-2.12.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+abcvoting-2.12.0.dist-info/top_level.txt,sha256=960L_hveJVZkHrbdTu94Hppp6fnwbG-REV5RxlFhKFA,10
+abcvoting-2.12.0.dist-info/RECORD,,
