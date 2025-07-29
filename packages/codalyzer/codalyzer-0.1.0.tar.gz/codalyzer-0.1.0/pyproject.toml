@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codalyzer"
+version = "0.1.0"
+description = "Advanced Python code analyzer with regex, colorized output, visual stats, and more."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+    { name="Adam Alcander et Eden", email="your.email@example.com" }
+]
+keywords = ["analyzer", "python", "code", "regex", "matplotlib", "socket", "colorama"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "colorama",
+    "requests",
+    "tqdm",
+    "psutil",
+    "rich",
+    "pygments",
+    "tabulate",
+    "socketify"
+]

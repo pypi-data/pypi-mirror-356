@@ -1,0 +1,145 @@
+Metadata-Version: 2.4
+Name: codalyzer
+Version: 0.1.0
+Summary: Advanced Python code analyzer with regex, colorized output, visual stats, and more.
+Home-page: https://github.com/yourusername/codalyzer
+Author: Adam Alcander et Eden
+Author-email: Adam Alcander et Eden <your.email@example.com>
+License: MIT
+Keywords: analyzer,python,code,regex,matplotlib,socket,colorama
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: colorama
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: rich
+Requires-Dist: pygments
+Requires-Dist: tabulate
+Requires-Dist: socketify
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
+
+# 🔍 Codalyzer
+
+**Codalyzer** is a powerful, advanced Python code analyzer that provides in-depth statistics, real-time socket feedback, colorful terminal output, and visual insights using modern Python packages.
+
+![Codalyzer Banner](https://via.placeholder.com/800x200.png?text=Codalyzer+by+Adam+Alcander)
+
+---
+
+## 🚀 Features (15 Total)
+
+1. 📊 Count total lines, blank lines, comment lines
+2. 🧠 Detect and count all `def` and `class` blocks using regex
+3. ✅ Find `# TODO:` lines for task tracking
+4. 📏 Calculate average line length using `numpy`
+5. 🌈 Colorful output using `colorama` and `Style`
+6. 📋 Pretty stats table with `tabulate`
+7. 🔦 Syntax highlighting with `pygments`
+8. 📈 Real-time graph of code stats with `matplotlib`
+9. 🧬 System monitoring (CPU & RAM) with `psutil`
+10. ⏱️ Progress simulation bar with `tqdm`
+11. 🌐 Real-time socket server with `socket`
+12. 🧪 PyPI package info fetcher (e.g., matplotlib)
+13. 🎨 Fancy terminal panel and formatting with `rich`
+14. 🧵 Multithreaded socket handler
+15. 📎 Supports direct execution from terminal with CLI argument
+
+---
+
+## 💾 Installation
+
+```bash
+pip install codalyzer
+
+Or clone manually:
+git clone https://github.com/yourusername/codalyzer
+cd codalyzer
+pip install -r requirements.txt
+
+🛠️ Usage
+
+bash
+python -m codalyzer.core <your_python_file.py>
+
+Example:
+
+bash
+
+python -m codalyzer.core sample_script.py
+
+✅ Output Includes
+Fancy table with code metrics
+
+Colored list of all functions, classes, TODOs
+
+Visual matplotlib graph of stats
+
+Live CPU & RAM usage
+
+Live socket listener
+
+PyPI info of matplotlib
+
+Highlighted source code
+
+Progress bar for simulation
+
+🔗 Dependencies
+matplotlib
+
+numpy
+
+colorama
+
+requests
+
+tqdm
+
+psutil
+
+rich
+
+pygments
+
+tabulate
+
+socketify
+
+📷 Sample Output (Terminal)
+
+🔍 Regex Match Summary:
+Functions (def): 3 match(es)
+  ➤ def run():
+  ➤ def main():
+  ➤ def count_all_lines()
+
+Classes (class): 2 match(es)
+  ➤ class Analyzer:
+  ➤ class Test:
+
+TODO Comments: 1 match(es)
+  ➤ # TODO: implement better analysis
+
+🧠 CPU: 28% | 🧬 RAM: 53%
+
+🤝 Contributing
+Want to improve Codalyzer? Open an issue or PR!
+
+📬 Contact
+Made by Adam Alcander et Eden
+Licensed under MIT
+GitHub Repo
+
+🏆 Motto
+"Code is Art. Analyze it with Style." 🎨

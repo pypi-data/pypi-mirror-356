@@ -1,0 +1,10 @@
+matplotlib
+numpy
+colorama
+requests
+tqdm
+psutil
+rich
+pygments
+tabulate
+socketify

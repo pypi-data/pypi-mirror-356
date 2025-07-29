@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+codalyzer/__init__.py
+codalyzer/core.py
+codalyzer.egg-info/PKG-INFO
+codalyzer.egg-info/SOURCES.txt
+codalyzer.egg-info/dependency_links.txt
+codalyzer.egg-info/requires.txt
+codalyzer.egg-info/top_level.txt
