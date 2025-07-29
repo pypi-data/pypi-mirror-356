@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/sbol3tojson/__init__.py
+src/sbol3tojson/clean_json.py
+src/sbol3tojson/constitutive_detection.py
+src/sbol3tojson/hierarchy.py
+src/sbol3tojson/main.py
+src/sbol3tojson/mappings.py
+src/sbol3tojson/process_sbol.py
+src/sbol3tojson/rdf_parser.py
+src/sbol3tojson/upload_sbol_file.py
+src/sbol3tojson/utils.py
+src/sbol3tojson.egg-info/PKG-INFO
+src/sbol3tojson.egg-info/SOURCES.txt
+src/sbol3tojson.egg-info/dependency_links.txt
+src/sbol3tojson.egg-info/requires.txt
+src/sbol3tojson.egg-info/top_level.txt
