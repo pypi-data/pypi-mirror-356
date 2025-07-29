@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=67.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web2json"
+version = "0.0.1"
+description = "Convert web content into JSON using local Ollama LLM"
+authors = [{name = "NOAA Global Systems Laboratory"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=1.3.0",
+    "pydantic>=1.10.0",
+    "python-dotenv>=0.21.0",
+    "beautifulsoup4>=4.9.0",
+    "requests>=2.25.0",
+    "json_repair>=1.3.0"
+]
+
+[project.scripts]
+web2json = "web2json.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["web2json"]
