@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: devbrain
+Version: 1.0.5
+Summary: A FastMCP server for DevBrain stdio communication.
+Author-email: Anton <anton@mimecam.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/mimeCam/devbrain-stdio
+Project-URL: Bug Tracker, https://github.com/mimeCam/devbrain-stdio/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastmcp
+Requires-Dist: requests
+Dynamic: license-file
+
+# DevBrain MCP Server
+
+This `devbrain` MCP server retrieves tech-related information, such as code snippets and links to developer blogs, based on developer questions.
+It is like a web-search but tailors only curated knowledge from dev blogs and posts by software developers.
+
+## Installation and Usage
+
+1. Via `uv` or `uvx`
+Assuming `uv` and `uvx` installed:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+[Claude app often fails](https://gist.github.com/gregelin/b90edaef851f86252c88ecc066c93719) to find `uv` and `uvx` binaries. See related: https://gist.github.com/gregelin/b90edaef851f86252c88ecc066c93719
+If you encounter this error then run these:
+```bash
+sudo ln -s ~/.local/bin/uvx /usr/local/bin/uvx
+sudo ln -s ~/.local/bin/uv /usr/local/bin/uv
+```
+
+To add `devbrain` to Claude's config, edit:
+`~/Library/Application Support/Claude/claude_desktop_config.json`
+
+
+## License
+This project is released under the MIT License and is developed by mimeCam as an open-source initiative.
