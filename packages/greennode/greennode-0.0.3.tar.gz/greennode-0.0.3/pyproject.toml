@@ -1,0 +1,44 @@
+[build-system]
+requires      = ["poetry"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "greennode"
+version = "0.0.3"
+authors = [
+        "GreenNode AI <support@greennode.ai>"
+]
+description = "Python client for GreenNode's Cloud Platform!"
+readme = "README.md"
+license = "Apache-2.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+]
+repository = "https://github.com/greennode-ai/greennode-python"
+homepage = "https://github.com/greennode-ai/greennode-python"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+datasets = ">=3.0.0"
+tabulate = "^0.9.0"
+pytest = "^8.4.0"
+pydantic = "^2.11.7"
+
+
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/greennode-ai/greennode-python"
+"Bug Tracker" = "https://github.com/greennode-ai/greennode-python/issues"
+
+[tool.poetry.scripts]
+greennode = "greennode.cli.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+
+[tool.mypy]
+strict = true
+mypy_path = "."
