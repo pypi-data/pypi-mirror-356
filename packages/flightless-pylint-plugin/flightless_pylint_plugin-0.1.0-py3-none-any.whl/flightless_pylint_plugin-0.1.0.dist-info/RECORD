@@ -1,0 +1,8 @@
+pylint_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylint_plugins/no_conditionals_in_test.py,sha256=gejtH1gKZxjsq4wEXGZFI8Ww-Sb0fJ3LM5_laKq8LP0,956
+pylint_plugins/no_direct_settings_import.py,sha256=m7naoGBReRu3ajojVAKulWOUtCHneJWduOOxl1MK04U,997
+pylint_plugins/no_pytest_skip.py,sha256=SWTW_8jdKSlqBCGy8dgnMBddeRip8VTnq6UqhW897pA,870
+flightless_pylint_plugin-0.1.0.dist-info/LICENSE,sha256=kiHC-TYVm4RG0ykkn7TA8lvlEPRHODoPEzNqx5hWaKM,17099
+flightless_pylint_plugin-0.1.0.dist-info/METADATA,sha256=cRlCTa_T2KidfXGxSQGw50Og0p07hWFSYJJrXtWpipc,481
+flightless_pylint_plugin-0.1.0.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+flightless_pylint_plugin-0.1.0.dist-info/RECORD,,

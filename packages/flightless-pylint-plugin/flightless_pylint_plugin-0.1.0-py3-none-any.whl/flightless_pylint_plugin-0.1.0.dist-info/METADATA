@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: flightless-pylint-plugin
+Version: 0.1.0
+Summary: Custom Pylint Rules from Flightless Ops
+License: Mozilla
+Author: Hotline Emu
+Author-email: 11667661+hotline-emu@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pylint (>=3.0.0,<4.0.0)
