@@ -1,0 +1,11 @@
+claude/.gitignore,sha256=KgzUEMl4-lltOeKt7I3DjUKZ_NHebaDJ9VO5qn1cQKo,170
+claude/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+claude/core/app.py,sha256=vsXk3nKh6FBBAi2Ozdvm7bACm7fdsxxgIexYSE9jxos,5227
+claude/core/chat_manager.py,sha256=Xh_96u2Wi82nxsfeaI_OTzgVJJRfhccw3E3_TLQvwZ8,13564
+claude/core/tools.py,sha256=0k5gVneS8uPm7KBcChn2IN4QF7ph1E-U6q96Nucf9xs,21475
+claude/core/widgets.py,sha256=Z7W-FAEvFEDr2KnDZx7tnbrF_1VJcOl5iXQXHyz3PPo,8216
+claude/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+claude/llm/ollama_client.py,sha256=UZlmfywLiRZKVam7HWSpF6vKMhu04ATyUQL3XKBM8FU,2204
+celex-0.0.4.dist-info/METADATA,sha256=Y37ebCya3DRqa5_IdVKUD0ezK29uQM9BQf_z7vlUtYA,615
+celex-0.0.4.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+celex-0.0.4.dist-info/RECORD,,
