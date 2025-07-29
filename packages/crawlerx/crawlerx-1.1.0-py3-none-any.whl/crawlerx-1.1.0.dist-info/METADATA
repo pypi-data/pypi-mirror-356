@@ -1,0 +1,212 @@
+Metadata-Version: 2.4
+Name: crawlerx
+Version: 1.1.0
+Summary: CrawlerX - The Ultimate Web Crawler
+Home-page: https://github.com/IMApurbo/crawlerx
+Author: AKM Korishee Apurbo
+Author-email: bandinvisible8@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.32.3
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: urllib3==2.2.3
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+# CrawlerX – The Ultimate Web Crawler
+
+**CrawlerX** is a command-line tool designed for **security researchers** and **penetration testers** to perform comprehensive web crawling for reconnaissance. It extracts URLs, POST data, directories, files, and resources, while respecting robots.txt and supporting customizable configurations for depth, threading, and output formatting.
+
+> ✨ Developed by **[@IMApurbo](https://github.com/IMApurbo)**  
+> 🛡️ Use responsibly. Authorized testing only.
+
+---
+
+##  Features
+
+- **Comprehensive Crawling**  
+  Extracts GET URLs with query parameters, POST requests, directories, files, and resources (images, scripts, CSS, etc.).
+
+- **Robots.txt Compliance**  
+  Respects website robots.txt rules to avoid crawling restricted areas.
+
+- **Customizable Crawling**  
+  - Configurable crawling depth (`--depth`).  
+  - Adjustable delay between requests (`--delay`).  
+  - Support for crawling subdomains (`--sub`).  
+  - Exclude specific file extensions (`--exclude`).
+
+- **HTTP Customization**  
+  - Custom User-Agent (`--ua`).  
+  - Custom headers (`-H/--headers`).  
+  - Proxy support (`--proxy`).  
+
+- **Output Options**  
+  - Save results to organized directories (`-o/--output`).  
+  - Generate ASCII site structure tree (`--structure`).  
+  - Export results in TXT and JSON formats.
+
+- **Resource Extraction**  
+  Categorizes resources like images, scripts, and CSS for easy analysis.
+
+- **Resumable Crawling**  
+  Save and resume crawl state using pickle files (`--cont`).
+
+- **Threading Support**  
+  Concurrent crawling with adjustable threads (`--threads`, max 20).
+
+- **Robust Error Handling**  
+  Handles network errors, timeouts, and invalid URLs gracefully.
+
+- **User-Friendly Output**  
+  Detailed console logs with URL types, status, and depth, plus structured file outputs.
+
+---
+
+##  Installation
+
+```bash
+pip install crawlerx
+```
+---
+
+##  Usage
+
+```bash
+crawlerx -u <url> [options]
+```
+
+### Common Flags
+
+| Short | Long               | Description                                      | Required  | Default                     | 
+| ----- | ------------------ | ------------------------------------------------ | --------- | --------------------------- | 
+| `-u`  | `--url`            | Target URL (e.g., `https://example.com`)         | ✅        | -                           | 
+| `-o`  | `--output`         | Output directory for results                     | ❌        | None (prints to terminal)   | 
+|       | `--structure`      | Generate ASCII site structure                    | ❌        | False                       | 
+| `-H`  | `--headers`        | Custom headers (e.g., `Cookie:session=abc;Auth:xyz`) | ❌    | None                        | 
+|       | `--threads`        | Number of concurrent threads (1-20)              | ❌        | 1                           | 
+|       | `--depth`          | Maximum crawling depth                           | ❌        | 3                           | 
+|       | `--ua`             | Custom User-Agent string                         | ❌        | `Spidar/1.0`                | 
+|       | `--exclude`        | Comma-separated extensions to exclude            | ❌        | `jpg,jpeg,png,gif,pdf,css,js` | 
+|       | `--sub`            | Include subdomains in crawling                   | ❌        | False                       | 
+|       | `--proxy`          | Proxy server (e.g., `http://proxy:port`)         | ❌        | None                        | 
+|       | `--timeout`        | Request timeout in seconds                       | ❌        | 5                           | 
+|       | `--delay`          | Delay between requests in seconds                | ❌        | 1.0                         | 
+|       | `--cont`           | Path to crawl state pickle file to resume        | ❌        | None                        | 
+| `-h`  | `--help`           | Show help message and exit                       | ❌        | -                           | 
+
+---
+
+##  Examples
+
+**Basic Crawl:**
+
+```bash
+crawlerx -u https://example.com
+```
+
+**Crawl with Output Directory:**
+
+```bash
+crawlerx -u https://example.com -o ./results
+```
+
+**Generate Site Structure:**
+
+```bash
+crawlerx -u https://example.com --structure
+```
+
+**Crawl with Custom Headers and Proxy:**
+
+```bash
+crawlerx -u https://example.com -H "Cookie:session=abc123;Auth:Bearer xyz" --proxy http://proxy:8080
+```
+
+**Resume Crawl from State:**
+
+```bash
+crawlerx -u https://example.com --cont ./results/spider_example.com/crawl_state.pkl
+```
+
+**Crawl Subdomains with Increased Threads:**
+
+```bash
+crawlerx -u https://example.com --sub --threads 10
+```
+
+**Exclude Specific Extensions:**
+
+```bash
+crawlerx -u https://example.com --exclude pdf,docx
+```
+
+---
+
+##  Output Format
+
+When using `-o/--output`, results are saved in a directory named `spider_<domain>` with the following structure:
+
+```
+spider_<domain>/
+├── get/
+│   ├── get_requests.txt
+│   └── get_requests.json
+├── post/
+│   ├── post_requests.txt
+│   └── post_requests.json
+├── dir/
+│   └── dirs.txt
+├── files/
+│   ├── files.txt
+│   ├── images.txt
+│   ├── images.json
+│   ├── scripts.txt
+│   ├── scripts.json
+│   ├── css.txt
+│   ├── css.json
+│   ├── other.txt
+│   ├── other.json
+├── structure/
+│   └── structure.txt
+└── crawl_state.pkl
+```
+
+---
+
+---
+
+##  Legal Notice
+
+>  Use **only on systems you have explicit permission** to test.  
+> Misuse may violate laws and ethical guidelines.
+
+---
+
+##  Credits
+
+- Developed by **IMApurbo**
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
