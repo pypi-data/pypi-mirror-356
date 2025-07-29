@@ -1,0 +1,13 @@
+meshagent/openai/__init__.py,sha256=4JRby-ltGfJzrNYhJkMNIpVc2ml2zL_JkkFC0T1_8Vk,174
+meshagent/openai/version.py,sha256=Ji8g_yOyFfpoV8jQQPNpvlINEqW1-F23R31bqwShK9o,22
+meshagent/openai/proxy/__init__.py,sha256=SqoueAmMXHbDKd8O4EeqGkI0gEiC3xLTLlpESGxySPU,30
+meshagent/openai/proxy/proxy.py,sha256=FBlFYVwBVorxif1hbYAG3fz-1J3_XPogpBIHS_OGRW0,822
+meshagent/openai/tools/__init__.py,sha256=RBU_J4qRDuBaaUdi6jpgpuMlIbvT30QmTBrZrYLwsUU,185
+meshagent/openai/tools/completions_adapter.py,sha256=4xEfs57O5GrIRnz1_yVRd3nJpC521lMKFO7RANczRnw,15191
+meshagent/openai/tools/responses_adapter.py,sha256=QdTnnSvsGK0nMgceEX-kwo1lAc59ot7G1CYre-n6aFM,23390
+meshagent/openai/tools/stt.py,sha256=qMuzkOss7Z5zRVsxmZRASugfgsvuWMG3_6toezq68s8,3612
+meshagent_openai-0.0.30.dist-info/licenses/LICENSE,sha256=eTt0SPW-sVNdkZe9PS_S8WfCIyLjRXRl7sUBWdlteFg,10254
+meshagent_openai-0.0.30.dist-info/METADATA,sha256=XQb4qd9uTDHuHGJnuvt2Cp3oJ8lgx0xJZWWvrdhFlUg,660
+meshagent_openai-0.0.30.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+meshagent_openai-0.0.30.dist-info/top_level.txt,sha256=GlcXnHtRP6m7zlG3Df04M35OsHtNXy_DY09oFwWrH74,10
+meshagent_openai-0.0.30.dist-info/RECORD,,
