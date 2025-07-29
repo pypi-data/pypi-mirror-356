@@ -1,0 +1,12 @@
+cuequivariance_ops_jax/VERSION,sha256=q6lRYmyGkM5JPLyPAYIFu0aAA_YfvwD9PTxxzrq8AXc,6
+cuequivariance_ops_jax/__init__.py,sha256=-dKsJf6n3KmJtDoLgWK2zhMNaybIxqUspmOzPPwOCh4,1134
+cuequivariance_ops_jax/_common.py,sha256=d4fnl2fAiUO36KeZn_LBX2YkaqJatDgBX7MzQox0nCQ,2423
+cuequivariance_ops_jax/_indexed_linear.py,sha256=W_ENYIhXXVi5RS6isQPreXRisQ-F3fiogymlY9qj5Hk,2882
+cuequivariance_ops_jax/_tensor_product_uniform_1d_jit.py,sha256=ssEiTwi9OGQ6uCed4KWDiDY09EOgREgL_bNJ_yUTDTE,7270
+cuequivariance_ops_jax/_triangle_attention.py,sha256=Wnk9ouRBSKRNkzAzRoXVORGkUapkHrWIM-NpaPlT8WU,6633
+cuequivariance_ops_jax/_version.py,sha256=5QkZH5GEZcBFcPcnUZD6h7_65kIJrKX9fQsxZhs7Tm0,734
+cuequivariance_ops_jax/lib/libcue_ops_jax.so,sha256=lMo7-daUnQvtNMMPKM1df1Xy-kx6ew80hs8lBdSpEoE,326800
+cuequivariance_ops_jax_cu12-0.5.1.dist-info/METADATA,sha256=bcqbKHrJdX5-DXb2CEGl0uPfTQx5cV-KGzjhyNcWKjk,34672
+cuequivariance_ops_jax_cu12-0.5.1.dist-info/WHEEL,sha256=G1eOFZSfBEuZQBlpEqYRSOlyUdPozLmQeb3MD7T1vNY,151
+cuequivariance_ops_jax_cu12-0.5.1.dist-info/RECORD,,
+cuequivariance_ops_jax_cu12-0.5.1.dist-info/licenses/LICENSE,sha256=2oNAiy15EfXM_ljZN_NRIraJOJoFHmVatjP9T8CZcig,29702
