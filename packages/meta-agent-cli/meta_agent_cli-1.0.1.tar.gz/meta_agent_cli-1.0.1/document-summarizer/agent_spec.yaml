@@ -1,0 +1,22 @@
+task_description: |
+  Create a document summarizer agent that can process various document formats 
+  (text, PDF, Word docs) and generate concise, coherent summaries. The agent 
+  should extract key points, main themes, and important details while maintaining 
+  the original context and meaning.
+
+inputs:
+  document_content: str  # The text content of the document to summarize
+  max_summary_length: int  # Maximum length of the summary in words (default: 200)
+  summary_style: str  # Style of summary: "bullet_points", "paragraph", or "executive" (default: "paragraph")
+
+outputs:
+  summary: str  # The generated summary of the document
+  key_points: list[str]  # List of key points extracted from the document
+  word_count: int  # Number of words in the generated summary
+
+constraints:
+  - Must handle documents up to 50,000 words
+  - Summary should be between 10% and 25% of original length unless max_summary_length is specified
+  - Should preserve important names, dates, and numerical data
+  - Must validate input document is not empty
+  - Should handle multiple languages (primarily English)
