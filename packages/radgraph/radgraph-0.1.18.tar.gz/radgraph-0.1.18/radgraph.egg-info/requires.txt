@@ -1,0 +1,9 @@
+torch>=2.1.0
+transformers>=4.39.0
+appdirs
+jsonpickle
+filelock
+h5py
+nltk
+dotmap
+pytest
