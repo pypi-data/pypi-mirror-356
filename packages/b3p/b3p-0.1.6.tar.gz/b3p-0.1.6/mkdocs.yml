@@ -1,0 +1,21 @@
+site_name: b3p
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+- Home: index.md
+- Installation: installation.md
+- Usage: 
+  - Build: use/build.md
+  - Input file: use/inputfile.md
+  - FEA: use/fea.md
+- Examples:
+  - Blade Test: examples/blade_test.md
