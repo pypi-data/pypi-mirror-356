@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: actinia-processing-lib
+Version: 1.1.1
+Summary: An actinia library for common processing functionality
+Author: Carmen Tawalika, Anika Weinmann, Markus Neteler, Julia Haas, Lina Krisztian
+Project-URL: Homepage, https://github.com/mundialis/actinia-processing-lib
+Project-URL: Tutorial, https://mundialis.github.io/actinia_core
+Project-URL: API_Docs, https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json
+Keywords: processing,earth observation,cloud-based processing,gis,grass gis,osgeo,example
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: flask
+Requires-Dist: actinia-core
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Dynamic: license-file
+
+# actinia-processing-lib
+
+This is the processing library for [actinia-core](https://github.com/mundialis/actinia_core).
+
+It is a requirement of actinia-core and some actinia plugins and not meant to be used standalone.
+
+
+## DEV setup
+For a DEV setup integrated with other actinia components, see [here](https://github.com/actinia-org/actinia-docker#local-dev-setup-for-actinia-core-plugins-with-vscode).
+
+
+### Running tests
+You can run the tests in the actinia test docker:
+
+```bash
+docker build -f docker/actinia-processing-lib-test/Dockerfile -t actinia-processing-lib-test .
+docker run -it actinia-processing-lib-test -i
+
+cd /src/actinia-processing-lib/
+
+# run all tests
+make test
+
+# run only integrationtests
+make integrationtest
+
+# run only tests which are marked for development with the decorator '@pytest.mark.dev'
+make devtest
+```

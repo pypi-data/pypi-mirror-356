@@ -1,0 +1,6 @@
+flask
+actinia-core
+
+[test]
+pytest
+pytest-cov
