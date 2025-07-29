@@ -1,0 +1,12 @@
+setuptools
+plone.distribution
+plone.base
+Zope
+
+[test]
+plone.app.testing
+plone.testing
+pytest-cov
+pytest-plone>=0.5.0
+zest.releaser[recommended]
+zestreleaser.towncrier
