@@ -1,0 +1,9 @@
+README.md
+setup.py
+app/__init__.py
+app/edcode.py
+edcode.egg-info/PKG-INFO
+edcode.egg-info/SOURCES.txt
+edcode.egg-info/dependency_links.txt
+edcode.egg-info/entry_points.txt
+edcode.egg-info/top_level.txt

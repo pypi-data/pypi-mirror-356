@@ -1,0 +1,2 @@
+[console_scripts]
+edcode = app.edcode:main
