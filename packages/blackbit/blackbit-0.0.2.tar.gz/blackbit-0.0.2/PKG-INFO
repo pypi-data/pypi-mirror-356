@@ -1,0 +1,110 @@
+Metadata-Version: 2.4
+Name: blackbit
+Version: 0.0.2
+Summary: CLI tool for file encryption/decryption
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography>=40.0.0
+Requires-Dist: tqdm
+Requires-Dist: psutil
+Requires-Dist: google-auth
+Requires-Dist: google-api-python-client
+Requires-Dist: tk
+
+blackbit 🚀
+
+A minimal Python CLI tool for streaming file encryption and decryption, with optional zipping, secure deletion, and Google Drive integration.
+
+---
+
+Overview
+
+Blackbit enables encryption or decryption of single files or entire folders (zipped) without loading them fully into memory—ideal for large files. It also supports:
+- Password-based encryption using cryptography.Fernet
+- Progress bars powered by tqdm
+- Optional upload/download to Google Drive
+- Secure cleanup of temporary files
+- USB drive detection
+- A hybrid CLI and GUI interface for flexibility
+
+---
+
+Prerequisites
+
+- Python 3.8 or newer
+- The following pip-installed dependencies: cryptography, tqdm, psutil, google-auth, google-api-python-client, tkinter
+
+---
+
+Installation
+
+Run:
+    pip install blackbit
+
+---
+
+Usage
+
+Execute:
+    blackbit
+
+You'll see an interactive menu:
+    [1] Encrypt a file or folder
+    [2] Decrypt a file
+    [3] Exit
+
+Workflow steps:
+1. Choose encrypt or decrypt
+2. Select the target file or folder using CLI or GUI
+3. Choose whether to zip when encrypting a folder
+4. Enter a password (converted into a Fernet key)
+5. Watch a live progress bar
+6. Optionally upload or download to/from Google Drive
+7. Temporary files are securely deleted after use
+
+---
+
+Encryption Details
+
+- Uses cryptography.Fernet for symmetric encryption (AES‑based, with authentication)
+- Processes files in chunks with metadata headers—efficient and memory-safe, especially for large files
+- Optional zipping before encryption using Python's zipfile
+
+---
+
+Project Structure
+
+blackbit/
+  __init__.py      (contains __version__)
+  main.py          (CLI logic, encryption, Drive support, etc.)
+
+README.txt         (project documentation)
+LICENSE           (MIT license text)
+pyproject.toml    (package/build configuration)
+
+---
+
+Changelog / Roadmap
+
+Current version: 1.0.0
+
+- [x] Streaming encryption & decryption
+- [x] Folder zipping
+- [x] Google Drive integration
+- [x] Secure delete
+- [x] Add unit tests
+- [x] Improve error handling
+- [x] Refactor into separate modules (crypto.py, drive.py, etc.)
+
+---
+
+Resources & References
+
+- Use cryptography.Fernet for secure and authenticated symmetric encryption
+- For large-file encryption, chunked streaming is essential to avoid high memory usage
+- Clean, well-structured READMEs improve usability and attract contributors
+
+---
+
+Made with passion for secure, efficient secure tool💡
