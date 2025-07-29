@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: pyx402
+Version: 0.1.0
+Summary: Python x402 client
+Project-URL: Homepage, https://github.com/delta003/x402-dev-facilitator
+Project-URL: Repository, https://github.com/delta003/x402-dev-facilitator.git
+Author: x402 Contributors
+License: MIT
+Keywords: blockchain,ethereum,http,micropayments,payment,x402
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: eth-account>=0.13.7
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: web3>=6.15.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.3; extra == 'dev'
+Requires-Dist: ruff>=0.11.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# x402-dev-facilitator
+
+Run the [x402](https://www.x402.org/) facilitator on a custom network.
+
+Built to be used with Tenderly's virtual networks - using testnets sucks!.
+
+To run the facilitator, use `go run main.go` and set the environment variables in the `.env` file.
+Example server can be run from `examples/server` with `go run main.go`.
+Example client can be run from `examples/` with either `npm run client` using the Coinbase's `x402-fetch` implementation
+or `go run client.go` using the Go implementation in this repository.
+
+NOTE: This was built to understand x402 and is heavily AI-generated. Do not use any of it in production.
