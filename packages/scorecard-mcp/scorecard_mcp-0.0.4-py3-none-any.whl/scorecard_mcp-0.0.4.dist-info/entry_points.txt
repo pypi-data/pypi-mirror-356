@@ -1,0 +1,2 @@
+[console_scripts]
+scorecard-mcp = scorecard_mcp:main
