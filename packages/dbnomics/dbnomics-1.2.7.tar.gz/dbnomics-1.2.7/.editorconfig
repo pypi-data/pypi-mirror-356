@@ -1,0 +1,18 @@
+root = True
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = True
+trim_trailing_whitespace = True
+
+[*.py]
+max_line_length = 120
+indent_size = 4
+
+[*.{json,md,toml,yaml,yml}]
+indent_size = 2
+
+[*.{rst,ini,cfg}]
+indent_size = 4
