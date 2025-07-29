@@ -1,0 +1,38 @@
+{#def record, citation_settings=None #}
+
+{% set record = record | to_dict %}
+
+{% if not citation_settings %}
+{% if current_i18n.language == 'cs' %}
+{% set citation_settings = {
+  "styles": [
+    { "style": "iso690-author-date-cs", "label": "ČSN ISO 690" },
+    { "style": "apa", "label": "APA" },
+    { "style": "harvard-cite-them-right", "label": "Harvard" },
+    { "style": "vancouver", "label": "Vancouver" },
+    { "style": "ieee", "label": "IEEE" },
+    { "style": "bibtex", "label": "BibTeX" }
+  ],
+  "defaultStyle": "iso690-author-date-cs"
+} %}
+{% else %}
+{% set citation_settings = {
+  "styles": [
+    { "style": "iso690-author-date-cs", "label": "ČSN ISO 690" },
+    { "style": "apa", "label": "APA" },
+    { "style": "harvard-cite-them-right", "label": "Harvard" },
+    { "style": "modern-language-association", "label": "MLA" },
+    { "style": "vancouver", "label": "Vancouver" },
+    { "style": "chicago-fullnote-bibliography", "label": "Chicago" },
+    { "style": "ieee", "label": "IEEE" },
+    { "style": "bibtex", "label": "BibTeX" }
+  ],
+  "defaultStyle": "iso690-author-date-cs"
+} %}
+{% endif %}
+{% endif %}
+
+<section class="ui segment" aria-label='{{ _("Citations") }}'>
+  <h2 class="ui small header detail-sidebar-header">{{ _("Citations") }}</h2>
+  <div id="record-citations" data-record='{{ record | tojson }}' data-citation-settings='{{ citation_settings | tojson }}'></div>
+</section>
