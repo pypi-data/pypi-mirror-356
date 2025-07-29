@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: billingplatform
+Version: 0.1.1
+Summary: A community driven Python library for working with BillingPlatform APIs.
+Author-email: forgineer <blake.phillips86@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/forgineer/billingplatform-py
+Project-URL: Documentation, https://github.com/forgineer/billingplatform-py
+Project-URL: Repository, https://github.com/forgineer/billingplatform-py
+Project-URL: Issues, https://github.com/forgineer/billingplatform-py/issues
+Keywords: billingplatform,rest api,billing,revenue management
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Provides-Extra: testing
+Requires-Dist: flask; extra == "testing"
+Requires-Dist: pandas; extra == "testing"
+Provides-Extra: deploy
+Requires-Dist: build; extra == "deploy"
+Requires-Dist: twine; extra == "deploy"
+Dynamic: license-file
+
+# billingplatform-py
+A community driven Python library for working with BillingPlatform APIs.
