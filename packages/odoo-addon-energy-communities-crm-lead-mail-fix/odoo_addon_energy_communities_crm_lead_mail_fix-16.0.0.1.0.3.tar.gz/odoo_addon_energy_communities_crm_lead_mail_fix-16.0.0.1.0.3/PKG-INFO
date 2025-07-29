@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: odoo_addon_energy_communities_crm_lead_mail_fix
+Version: 16.0.0.1.0.3
+Summary: Fix missing email body in CRM leads created from emails without existing partners
+Home-page: https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce
+Author: SOM Comunitats
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Python: >=3.10
+Requires-Dist: odoo<16.1dev,>=16.0a
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+This module fixes the issue where email body content is lost when creating CRM leads from incoming emails when no matching partner exists in the database.
+
+Features:
+- Automatically creates a partner when processing emails without existing contacts
+- Marks auto-created partners with a special tag for identification
+- Ensures email body and attachments are properly saved in lead chatter
+- Maintains compatibility with existing lead creation workflows
+    

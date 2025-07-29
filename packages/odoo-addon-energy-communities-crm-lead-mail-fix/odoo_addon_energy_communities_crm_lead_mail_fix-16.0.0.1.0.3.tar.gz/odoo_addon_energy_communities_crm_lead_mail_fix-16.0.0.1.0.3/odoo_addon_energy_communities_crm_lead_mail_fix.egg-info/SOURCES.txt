@@ -1,0 +1,14 @@
+setup.py
+odoo/addons/energy_communities_crm_lead_mail_fix/README.md
+odoo/addons/energy_communities_crm_lead_mail_fix/__init__.py
+odoo/addons/energy_communities_crm_lead_mail_fix/__manifest__.py
+odoo/addons/energy_communities_crm_lead_mail_fix/pyproject.toml
+odoo/addons/energy_communities_crm_lead_mail_fix/data/partner_tags.xml
+odoo/addons/energy_communities_crm_lead_mail_fix/models/__init__.py
+odoo/addons/energy_communities_crm_lead_mail_fix/models/crm_lead.py
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/PKG-INFO
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/SOURCES.txt
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/dependency_links.txt
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/not-zip-safe
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/requires.txt
+odoo_addon_energy_communities_crm_lead_mail_fix.egg-info/top_level.txt
