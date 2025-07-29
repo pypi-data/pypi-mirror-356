@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: exceldiffy
+Version: 0.1.0
+Summary: Compare Excel sheet columns side by side
+Author-email: Israel Bosun <israelbosun1@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: XlsxWriter
+Dynamic: license-file
+
+# exceldiffy: Portfolio Comparator
+
+**exceldiffy** is a Python package designed to compare specified columns between two Excel sheets, highlighting differences side by side. Ideal for financial analysts and data professionals working with portfolio data.
+
+## Features
+
+- Compare multiple columns across two datasets.
+- Calculate percentage and absolute changes.
+- Display changes in a user-friendly format.
+
+## Installation
+
+```bash
+pip install exceldiffy
