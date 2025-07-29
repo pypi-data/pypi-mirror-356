@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kynex"
+version = "0.1.2"
+description = "A Python package to get data from different llm's."
+authors = [{ name = "Aegletek", email = "coe@aegletek.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "langchain",
+    "google-generativeai",
+    "deepseek",
+    "protobuf",
+    "configparser"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kynex = ["**/*.py", "**/*.txt"]
