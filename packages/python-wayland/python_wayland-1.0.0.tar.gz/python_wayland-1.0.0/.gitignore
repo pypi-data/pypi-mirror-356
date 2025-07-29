@@ -1,0 +1,15 @@
+**/__pycache__
+.venv
+wayland.log
+dist/
+.*_cache
+.vscode
+site/
+.r*
+.cov*
+snapshot*
+coverage.xml
+site.tar.gz
+/*.md
+!CHANGELOG.md
+!README.md

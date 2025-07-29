@@ -1,0 +1,216 @@
+[project]
+name = "python-wayland"
+dynamic = ["version"]
+description = 'An implementation of the Wayland protocol built from the ground up with no runtime dependencies - no libwayland, no C libraries, just Python.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["wayland", "libwayland"]
+authors = [
+  { name = "Graham King", email = "grking.email@gmail.com" },
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython"
+]
+# Default packaged dependencies
+dependencies = []
+
+# Optional package dependencies: python-wayland[dev]
+[project.optional-dependencies]
+dev = [
+    "textual",       # for the terminal debugger
+    "opencv-python"  # for examples that use images
+]
+
+[project.urls]
+Homepage = "https://sr.ht/~gk/python-wayland/"
+Documentation = "https://python-wayland.org"
+Issues = "https://todo.sr.ht/~gk/python-wayland"
+Source = "https://git.sr.ht/~gk/python-wayland"
+Changelog = "https://python-wayland.org/changelog/"
+
+# hatch test
+[tool.hatch.envs.hatch-test]
+randomize = false
+parallel = false
+extra-dependencies = [
+  "lxml",
+  "black",
+  "ruff",
+  "textual",
+  "textual-dev",
+  "pytest-asyncio",
+  "coverage",
+  "pytest-cov"
+]
+extra-args = [
+    "--import-mode=importlib",
+    "--capture=no"
+]
+[tool.hatch.envs.hatch-test.scripts]
+run = [
+  "pytest --cov-report=xml --cov-config=pyproject.toml --cov=tests --asyncio-mode=auto",
+]
+
+# hatch shell
+[tool.hatch.envs.default]
+dependencies = [
+  "black",
+  "ruff",
+  "mypy",
+  "lxml",
+  "textual",
+  "textual-dev",
+  "opencv-python",
+  "pytest-asyncio",
+  "coverage",
+  "pytest-cov",
+  "pytest"
+]
+
+# hatch run docs:serve
+[tool.hatch.envs.docs]
+extra-dependencies = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocstrings[python]",
+  "markdown-callouts",
+  "markdown-exec",
+  "mkdocs-autorefs",
+  "mkdocs-coverage",
+  "mkdocs-gen-files",
+  "mkdocs-literate-nav",
+  "mkdocs-minify-plugin",
+  "mkdocs-section-index",
+  "pydantic",
+]
+
+[tool.hatch.envs.docs.scripts]
+serve = "mkdocs serve -f .mkdocs.yml"
+build = [
+  "mypy",
+  "mkdocs build -f .mkdocs.yml",
+  "tar -C site -cvz . > site.tar.gz"
+  ]
+publish = ["hut pages publish -d python-wayland.org site.tar.gz"]
+
+# hatch run wayland:update
+[tool.hatch.envs.wayland.scripts]
+update = "python -m wayland --download"
+update-local = "python -m wayland"
+
+# hatch run docker-sway
+[tool.hatch.envs.default.scripts]
+
+docker-build = """
+  docker compose -f .builds/docker/docker-compose.yml build base &&
+  docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.sway.yml build &&
+  docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.weston.yml build
+"""
+docker-stop = """
+  docker compose -f .builds/docker/docker-compose.yml down -v &&
+  docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.weston.yml down -v &&
+  docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.sway.yml down -v
+"""
+
+docker-sway = "docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.sway.yml run --rm --build env-sway-gui"
+docker-sway-shell = "docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.sway.yml run --rm --build env-sway-shell"
+docker-weston = "docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.weston.yml run --rm --build env-weston-gui"
+docker-weston-shell = "docker compose -f .builds/docker/docker-compose.yml -f .builds/docker/docker-compose.weston.yml run --rm --build env-weston-shell"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "wayland/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.vscode",
+  "example.py",
+  ".builds",
+  ".dockerignore"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["wayland"]
+
+[tool.coverage.run]
+source_pkgs = ["wayland"]
+branch = true
+parallel = true
+omit = [
+  "wayland/__about__.py",
+  "tests/*"
+]
+
+[tool.coverage.paths]
+wayland = ["wayland"]
+
+[tool.coverage.report]
+show_missing = false
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint]
+preview = false
+extend-select = ["C901"]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["F403", "PERF401"]  # import *
+"parser.py" = ["S320", "SLF001"]  # lxml
+"proxy.py" = ["SLF001"]  # private members
+"tests/*" = ["SLF001", "ARG002"]  # private members, mock args
+"tests/test_parser.py" = ["ARG005"]  # lambda
+"log.py" = ["FBT001"]  # bool param
+"typehint.py" = ["FBT001"]  # bool param
+"unixsocket.py" = ["BLE001"]  # blind exception
+"__main__.py" = ["T201"]  # print
+"*" = ["ARG001", "TRY003", "A002"]  # unused argument, builtin
+
+[tool.ruff]
+line-length = 88
+exclude = [
+  "wayland/__init__.pyi",
+  "examples/",
+  "docs/"
+]
+
+[tool.pylint]
+ignore-patterns = "*.pyi"
+
+[tool.mypy]
+files = ["wayland/client/"]
+follow_imports = "silent"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "wayland"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "wayland.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "wayland.client.*"
+ignore_errors = false
