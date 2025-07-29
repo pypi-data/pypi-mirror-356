@@ -1,0 +1,6 @@
+jinja2==3
+jsonschema==4.*
+requests==2.*
+
+[validator]
+PyYAML==6.0.1

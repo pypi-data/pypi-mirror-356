@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "influenzanet.surveys"
+dynamic = ["version"]
+authors = [
+  { name='Clement Turbelin', email="clement.turbelin@iplesp.upmc.fr" },
+]
+description = "Influenzanet surveys management library"
+license = {text = "Apache-2.0"}
+readme = "readme.md"
+requires-python = ">=3.9"
+keywords = ["influenzanet", "surveys"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Medical Science Apps."
+]
+
+dependencies = [
+  "jinja2==3",
+  "jsonschema==4.*",
+  "requests==2.*"
+]
+
+[project.optional-dependencies]
+
+validator= [
+  "PyYAML==6.0.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/influenzanet/python-influenzanet-surveys"
+"Bug Tracker" = "https://github.com/influenzanet/python-influenzanet-surveys/issues"
+
+[tool.setuptools-git-versioning]
+enabled = true
+template = "{tag}"
