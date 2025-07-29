@@ -1,0 +1,3 @@
+[console_scripts]
+gitagent = cli:main
+gitagent-setup = setup_user:setup_user
