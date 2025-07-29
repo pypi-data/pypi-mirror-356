@@ -1,0 +1,2 @@
+[console_scripts]
+paper-model = paper_model.run_pipeline:main
