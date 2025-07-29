@@ -1,0 +1,3 @@
+[console_scripts]
+biomed-enriched=biomed_enriched.cli:app
+
