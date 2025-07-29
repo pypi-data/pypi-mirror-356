@@ -1,0 +1,21 @@
+av
+cython
+getostheme
+moviepy
+num2words
+pedalboard
+Pillow
+pprofile
+psutil
+pyadl
+pyrr
+requests
+send2trash
+sounddevice
+soundfile
+waiting
+watchdog
+wmi
+
+[:sys_platform == "win32"]
+pywin32
