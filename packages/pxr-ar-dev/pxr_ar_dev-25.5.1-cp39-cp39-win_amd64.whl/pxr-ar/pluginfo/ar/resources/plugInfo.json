@@ -1,0 +1,23 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "Types": {
+                    "pxr::ArResolver": {},
+                    "pxr::ArDefaultResolver": {
+                        "bases": [
+                            "pxr::ArResolver"
+                        ],
+                        "implementsContexts": true
+                    },
+                    "pxr::ArPackageResolver": {}
+                }
+            },
+            "LibraryPath": "../../.libs/PxrAr.dll", 
+            "Name": "ar", 
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library"
+        }
+    ]
+}
