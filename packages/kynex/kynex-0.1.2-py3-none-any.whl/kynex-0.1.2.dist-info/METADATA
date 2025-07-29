@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: kynex
+Version: 0.1.2
+Summary: A Python package to get data from different llm's.
+Home-page: https://www.aegletek.com/
+Author: Aegletek
+Author-email: Aegletek <coe@aegletek.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: langchain
+Requires-Dist: google-generativeai
+Requires-Dist: deepseek
+Requires-Dist: protobuf
+Requires-Dist: configparser
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+A Python package to get data from different llm's
