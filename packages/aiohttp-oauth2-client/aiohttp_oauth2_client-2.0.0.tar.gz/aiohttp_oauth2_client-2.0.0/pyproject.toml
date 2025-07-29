@@ -1,0 +1,42 @@
+[project]
+name = "aiohttp-oauth2-client"
+version = "2.0.0"
+description = "OAuth2 support for aiohttp client"
+authors = [{name = "Stijn Caerts", email = "stijn.caerts@vito.be"}]
+readme = "README.md"
+keywords = ["oauth2", "aiohttp"]
+dependencies = [
+    "aiohttp~=3.12",
+    "pydantic~=2.7",
+    "rich"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "ruff",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-mock",
+    "nest-asyncio",
+    "aioresponses"
+]
+docs = [
+    "sphinx~=7.3.7",
+    "furo",
+    "autodoc_pydantic",
+    "sphinx-copybutton"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/VITObelgium/aiohttp-oauth2-client"
+"Source" = "https://github.com/VITObelgium/aiohttp-oauth2-client.git"
+"Issues" = "https://github.com/VITObelgium/aiohttp-oauth2-client/issues"
+
+[tool.setuptools.packages.find]
+include = ["aiohttp_oauth2_client*"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
