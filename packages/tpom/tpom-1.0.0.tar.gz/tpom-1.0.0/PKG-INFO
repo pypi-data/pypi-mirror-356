@@ -1,0 +1,116 @@
+Metadata-Version: 2.4
+Name: tpom
+Version: 1.0.0
+Summary: A simple and elegant Pomodoro timer for the command line
+Project-URL: Homepage, https://github.com/yourusername/tpom
+Project-URL: Documentation, https://github.com/yourusername/tpom#readme
+Project-URL: Issues, https://github.com/yourusername/tpom/issues
+Project-URL: Changelog, https://github.com/yourusername/tpom/releases
+Author-email: Your Name <your.email@example.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: cli,pomodoro,productivity,timer
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Requires-Dist: pygame
+Requires-Dist: typer>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pytest>=6.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# 🍅 tpom - Pomodoro Timer CLI
+
+A simple and elegant Pomodoro timer for the command line, built with Python.
+
+## Features
+
+- ⏰ Clean countdown display
+- 🔔 Gentle alarm sound notification
+- 🚫 Easy cancellation with Ctrl+C
+- 🎵 Custom sound file support
+- 📦 Easy installation via pip
+- 🔇 Silent operation if sound unavailable (no grating fallbacks)
+
+## Installation
+
+### From PyPI (when published)
+```bash
+pip install tpom
+```
+
+### From source
+```bash
+git clone https://github.com/yourusername/tpom.git
+cd tpom
+pip install -e .
+```
+
+## Usage
+
+### Basic usage
+```bash
+tpom
+# You'll be prompted to enter the duration in minutes
+```
+
+### Specify duration directly
+```bash
+tpom --minutes 25
+```
+
+### Use custom sound file
+```bash
+tpom --minutes 25 --sound-file /path/to/your/sound.mp3
+```
+
+### Get help
+```bash
+tpom --help
+```
+
+## Development
+
+### Setup development environment
+```bash
+git clone https://github.com/yourusername/tpom.git
+cd tpom
+pip install -e ".[dev]"
+```
+
+### Run tests
+```bash
+pytest
+```
+
+### Format code
+```bash
+black src/
+```
+
+### Lint code
+```bash
+flake8 src/
+mypy src/
+```
+
+## License
+
+MIT License - see LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

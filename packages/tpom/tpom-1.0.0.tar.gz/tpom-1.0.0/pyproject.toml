@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tpom"
+dynamic = ["version"]
+description = "A simple and elegant Pomodoro timer for the command line"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["pomodoro", "timer", "productivity", "cli"]
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Scheduling",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "pygame",
+    "typer>=0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black",
+    "flake8",
+    "mypy",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/tpom"
+Documentation = "https://github.com/yourusername/tpom#readme"
+Issues = "https://github.com/yourusername/tpom/issues"
+Changelog = "https://github.com/yourusername/tpom/releases"
+
+[project.scripts]
+tpom = "pomodoro_timer.cli:main"
+
+[tool.hatch.version]
+path = "src/pomodoro_timer/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/README.md",
+    "/LICENSE",
+]
+
+[tool.hatch.build.targets.sdist.force-include]
+"src/pomodoro_timer/alarm_sounds" = "src/pomodoro_timer/alarm_sounds"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pomodoro_timer"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/pomodoro_timer/alarm_sounds" = "pomodoro_timer/alarm_sounds"
