@@ -1,0 +1,58 @@
+# pyproject.toml
+
+[project]
+name = "monggregate"
+version = "0.22.0"
+description = "MongoDB aggregation pipelines made easy. Joins, grouping, counting and much more..."
+readme = "README.md"
+authors = [{ name = "Vianney Mixtur", email = "vianney.mixtur@outlook.fr" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.6.0",
+    "pyhumps>=3.0",
+    "typing-extensions>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/VianneyMI/monggregate"
+documentation = "https://vianneymi.github.io/monggregate/"
+
+[tool.bumpver]
+current_version = "0.22.0"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"src/monggregate/__init__.py" = ['__version__ = "{version}"']
+
+[tool.setuptools]
+packages = ["monggregate", "tests"]
+
+[tool.setuptools.package-dir]
+monggregate = "src/monggregate"
+tests = "tests"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+doc = [
+    "mkdocs==1.5.2",
+    "mkdocs-material==9.2.7",
+]
