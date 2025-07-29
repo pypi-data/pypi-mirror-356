@@ -1,0 +1,17 @@
+massql/__init__.py,sha256=MxbdvB6c_01vO_q8Ucsbs0JDnEuiShxRpj7W9169ysc,42
+massql/msql.ebnf,sha256=x_fnt0Q45jnXCn1uBOzl6nPxM-EBj8kdhOdt_v5m-fM,4959
+massql/msql_cmd.py,sha256=nsqFn9-MKtJ5FrLDys9779AYQd0Srj6XWsEiMO9Owtg,7574
+massql/msql_engine.py,sha256=sSK7edlcH46JMAUmOevdTrQW18arseZk4ElO4Ue8Xg8,29209
+massql/msql_engine_filters.py,sha256=9S5tJQvsLvTOQUWQo1LZI_8XcmYi07HQshRG5WF3pzc,23727
+massql/msql_extract.py,sha256=8WjeAK3SBeStLwbFLhse0020b-L1gTPS_wiWLhdGJBg,12339
+massql/msql_fileloading.py,sha256=0mcpK08lUmD5sn4tH350wlmtqLszZmQh6pdkHvxvxOs,22956
+massql/msql_parser.py,sha256=bm7RmOQOFB_pNTuSeOdm7NffljWngUIvz2Cy9DqB3t0,13769
+massql/msql_translator.py,sha256=KFaU0dg0zc_mEvWslZ-7zB4g0eteM91xDubQmmdbAqs,45135
+massql/msql_visualizer.py,sha256=XJ9CugCDshRtrkDhtEgwyFsXQN2DIiVruMxnSeTa2PA,11974
+massql-2025.6.18.data/scripts/msql_cmd.py,sha256=tZd4jelzVfKniZAKuoKu4Yu0fPAR3A0Lg-zVpKnAPos,7561
+massql-2025.6.18.dist-info/licenses/LICENSE.txt,sha256=R8Q2kYkIOXf4b_oPMTvt3SpXrVYpXTWM6qdm-U06s_Y,1051
+massql-2025.6.18.dist-info/METADATA,sha256=mtqWPvRNrnlZ5n4rZZ-F0klllBicnBOw51DyJSX0MRw,5308
+massql-2025.6.18.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+massql-2025.6.18.dist-info/entry_points.txt,sha256=jsEI9dixWpTSa4k_1vp5asrBVZUnO2yjsCHFnIM5ycg,48
+massql-2025.6.18.dist-info/top_level.txt,sha256=7c7zbCnmGVyw6hE0riF1zu2xqmzz81ABqUR_3pQIyV4,7
+massql-2025.6.18.dist-info/RECORD,,
