@@ -1,0 +1,2 @@
+[console_scripts]
+vexylicon = vexylicon.cli:main

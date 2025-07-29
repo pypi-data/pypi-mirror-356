@@ -1,0 +1,17 @@
+vexylicon/__init__.py,sha256=oYXnm1iDEqPID5mXA4euN2dSqw0YX4_rytLruRnYElg,469
+vexylicon/__version__.py,sha256=SblBbqTOv0Zz7vl5uQA8bNsPUSoVXfkQ6X5vih-b8dE,511
+vexylicon/cli.py,sha256=1UKb673fdbtBLj87LTFMdnJpsCQ_zTKxtBF3uKmYd6M,7731
+vexylicon/core.py,sha256=jPJTFqee4bjiKpdTXKQe6avXrDDRMsrQy-fR5lNH_ok,11742
+vexylicon/vexylicon.py,sha256=XsbzysvGKoIREs7XNInTAYauFgY8b1E72yBvTmXeBqs,1598
+vexylicon/assets/best_base.png,sha256=abYiaqGPBqWVV3-U8hj09wjVl59gB0_MP_U4f4QDPpE,327128
+vexylicon/assets/best_base.svg,sha256=3Yg3MHGHOyFwuA6KBLtkaZytYOd4bidv5V3zUIEzzvo,3091
+vexylicon/assets/themes/default.json,sha256=i4P1zQ1juLPBiDH_oPOzkwfoHTZe2-K-_NBp37L832U,1141
+vexylicon/utils/__init__.py,sha256=QllRYqdkRzjEmLOLF2Ikj5X4U7nfkLO_BA5yLNVWxaM,730
+vexylicon/utils/path_tools.py,sha256=nBWQbxRrIyOIIk2Q1gWD03ti7l16EnKZ0OUq6KTx-Us,7048
+vexylicon/utils/svg_processor.py,sha256=LiA4bPucRappEcOpNf1WZA1QgPBM6aiLuqx2TvzVMpQ,6594
+vexylicon/utils/theme_loader.py,sha256=0NItvsbLDmFqbhI_E4CTfd8Msta8CXbQEMBbq2a5y5w,8324
+vexylicon-1.1.4.dist-info/METADATA,sha256=MGIUoKuCa6_2zEnD-B4xeJ1h6odFVZP6Ftyuth4MYKg,6985
+vexylicon-1.1.4.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+vexylicon-1.1.4.dist-info/entry_points.txt,sha256=U3VsEoEv8vT7iodqbBhMPtV2aOvDAkTekR6UJg5A3OI,49
+vexylicon-1.1.4.dist-info/licenses/LICENSE,sha256=0uwR0aIOI8P4Sw7BerDSjLkr79TsAah4rmXHKkEOqX0,1068
+vexylicon-1.1.4.dist-info/RECORD,,
