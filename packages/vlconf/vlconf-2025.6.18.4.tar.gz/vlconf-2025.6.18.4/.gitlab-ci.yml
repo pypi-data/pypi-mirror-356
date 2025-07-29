@@ -1,0 +1,82 @@
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Python.gitlab-ci.yml
+
+# Official language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/python/tags/
+
+
+
+stages:
+  - linting
+  - publish
+
+isort:
+  stage: linting
+  image: registry.gitlab.com/mafda/python-linting
+  script:
+    - isort .
+  only:
+  - merge_requests
+  #- main
+
+black:
+  stage: linting
+  image: registry.gitlab.com/mafda/python-linting
+  script:
+    - black .
+  only:
+    - merge-requests
+    #- main
+
+flake8:
+  stage: linting
+  allow_failure: True 
+  image: registry.gitlab.com/mafda/python-linting
+  script:
+    - flake8 .
+  only:
+    - merge-requests
+    #- main
+
+pylint:
+  stage: linting
+  allow_failure: True 
+  image: registry.gitlab.com/mafda/python-linting
+  script:
+    - find . -type f -iname "*.py" | xargs pylint
+  only:
+    - merge_requests
+
+build-package:
+  stage: publish
+  image: continuumio/miniconda3:latest
+  variables:
+ #   TWINE_USERNAME: $TWINE_USERNAME
+ #   TWINE_PASSWORD: $TWINE_PASSWORD
+  id_tokens:
+    PYPI_ID_TOKEN:
+      # Use "testpypi" if uploading to TestPyPI
+      aud: pypi
+  script:
+    - uname -a
+    - python --version  # For debugging
+    - which python 
+    # Setup conda environment
+    - conda update -y -n base conda
+    - conda update -y --all
+    - conda create -n build python=3.9 -y
+    #  - conda env create -f docs/environment.yml
+    - conda init
+    - source ~/.bashrc
+    - conda activate build
+    - python -m pip install --upgrade build
+    - ls
+    - pwd
+    - python -m build
+    - python -m pip install --upgrade twine
+#    - TWINE_PASSWORD=${PYPI_TOKEN} TWINE_USERNAME=__token__ python -m twine upload dist/* --verbose
+    - twine upload dist/*
+  only:
+    - master
