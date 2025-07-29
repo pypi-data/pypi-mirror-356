@@ -1,0 +1,414 @@
+Metadata-Version: 2.4
+Name: service_config_foundry
+Version: 0.5.4
+Summary: Helps create non-templated systemd services.
+Home-page: https://github.com/yushdotkapoor/service-config-foundry
+Author: Yush Kapoor
+Author-email: Yush Kapoor <yushdotkapoor@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yushdotkapoor/service_config_foundry
+Project-URL: Repository, https://github.com/yushdotkapoor/service_config_foundry
+Project-URL: Bug Tracker, https://github.com/yushdotkapoor/service_config_foundry/issues
+Keywords: systemd,service,linux,system-administration
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest>=7.0.0; extra == "test"
+Requires-Dist: pytest-mock>=3.10.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0.0; extra == "test"
+Requires-Dist: flake8>=6.0.0; extra == "test"
+Requires-Dist: black>=23.0.0; extra == "test"
+Requires-Dist: isort>=5.12.0; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.10.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
+Requires-Dist: tox>=4.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Requires-Dist: bump2version>=1.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# service_config_foundry
+
+**service_config_foundry** is a Python-based library that simplifies the process of creating, updating, replacing, and deleting systemd service files for Linux users. With this tool, you can easily manage systemd services programmatically, reducing the complexity of writing and maintaining service configuration files manually.
+
+## Features
+
+- Create and manage non-templated systemd service files
+- Support for various systemd file types including `.service`, `.timer`, `.socket`, `.mount`, and more
+- Programmatic control over file attributes and configurations
+- Replace and update existing services without conflicts
+- Fully integrated Python API with no external dependencies
+
+## Installation
+You can install the library using `pip`:
+```bash
+pip install service_config_foundry
+```
+
+Or you can install the library using `pip` directly from the GitHub repository:
+
+```bash
+pip install git+https://github.com/yushdotkapoor/service_config_foundry.git
+```
+
+Alternatively, clone the repository to get started:
+
+```bash
+git clone https://github.com/yushdotkapoor/service_config_foundry.git
+cd service_config_foundry
+```
+
+## Usage
+
+Below are detailed examples of how to use `service_config_foundry` to create and manage systemd files of various types.
+
+### Example: Creating a Service, Timer, and Socket
+
+```python
+from service_config_foundry import Service, ServiceLocation
+
+# Create a new service instance
+service = Service("example", service_location=ServiceLocation.GLOBAL, auto_start=False, enable_at_startup=False, force_overwrite=False)
+
+# Configure the service file
+service_file = service.service_file
+service_file.unit.description = "Example service for demonstration purposes"
+service_file.service.user = "yushrajkapoor"
+service_file.service.exec_start = "echo Hello, world >> /tmp/example.log"
+service_file.install.wanted_by = "multi-user.target"
+
+# Configure the timer file
+timer_file = service.timer_file
+timer_file.unit.description = "Example timer for demonstration purposes"
+timer_file.timer.on_calendar = "*-*-* *:00:00"
+timer_file.install.wanted_by = "timers.target"
+
+# Configure the socket file
+socket_file = service.socket_file
+socket_file.unit.description = "Example socket for demonstration purposes"
+socket_file.socket.listen_stream = "/run/example.sock"
+socket_file.install.wanted_by = "sockets.target"
+
+# Create or update the service, timer, and socket files
+service.update()
+
+# Enable the service to start at boot time
+service.enable_service_at_startup()
+
+# Start the service
+service.start_service()
+
+# Display the status of the service
+service.status()
+```
+
+### Output Files
+
+#### `example.service`
+```ini
+[Unit]
+Description=Example service for demonstration purposes
+
+[Service]
+User=yushrajkapoor
+ExecStart=echo Hello, world >> /tmp/example.log
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### `example.timer`
+```ini
+[Unit]
+Description=Example timer for demonstration purposes
+
+[Timer]
+OnCalendar=*-*-* *:00:00
+
+[Install]
+WantedBy=timers.target
+```
+
+#### `example.socket`
+```ini
+[Unit]
+Description=Example socket for demonstration purposes
+
+[Socket]
+ListenStream=/run/example.sock
+
+[Install]
+WantedBy=sockets.target
+```
+
+### Example: Replacing an Existing Service
+
+If you want to replace an existing service configuration, you can use the `replace()` method. This ensures that any old files are removed and replaced with the new configuration.
+
+```python
+# Replace the existing service configuration
+service.replace()
+```
+
+This is particularly useful when you want to ensure that your updates overwrite any conflicting configurations from previous versions of the service.
+
+### Example: Creating Mount and Automount Files
+
+```python
+# Configure the mount file
+mount_file = service.mount_file
+mount_file.unit.description = "Example mount for demonstration purposes"
+mount_file.mount.what = "/dev/sda1"
+mount_file.mount.where = "/mnt/example"
+mount_file.mount.type = "ext4"
+mount_file.install.wanted_by = "multi-user.target"
+
+# Configure the automount file
+automount_file = service.automount_file
+automount_file.unit.description = "Example automount for demonstration purposes"
+automount_file.automount.where = "/mnt/example"
+automount_file.install.wanted_by = "multi-user.target"
+
+# Create or update the files
+service.update()
+```
+
+#### `example.mount`
+```ini
+[Unit]
+Description=Example mount for demonstration purposes
+
+[Mount]
+What=/dev/sda1
+Where=/mnt/example
+Type=ext4
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### `example.automount`
+```ini
+[Unit]
+Description=Example automount for demonstration purposes
+
+[Automount]
+Where=/mnt/example
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Example: Creating Swap and Path Files
+
+```python
+# Configure the swap file
+swap_file = service.swap_file
+swap_file.unit.description = "Example swap for demonstration purposes"
+swap_file.swap.what = "/swapfile"
+swap_file.install.wanted_by = "multi-user.target"
+
+# Configure the path file
+path_file = service.path_file
+path_file.unit.description = "Example path for demonstration purposes"
+path_file.path.path_exists = "/tmp/example"
+path_file.install.wanted_by = "multi-user.target"
+
+# Create or update the files
+service.update()
+```
+
+#### `example.swap`
+```ini
+[Unit]
+Description=Example swap for demonstration purposes
+
+[Swap]
+What=/swapfile
+
+[Install]
+WantedBy=multi-user.target
+```
+
+#### `example.path`
+```ini
+[Unit]
+Description=Example path for demonstration purposes
+
+[Path]
+PathExists=/tmp/example
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Example: Creating Slice and Scope Files
+
+```python
+# Configure the slice file
+slice_file = service.slice_file
+slice_file.unit.description = "Example slice for demonstration purposes"
+
+# Configure the scope file
+scope_file = service.scope_file
+scope_file.unit.description = "Example scope for demonstration purposes"
+scope_file.scope.slice = "example.slice"
+
+# Create or update the files
+service.update()
+```
+
+#### `example.slice`
+```ini
+[Unit]
+Description=Example slice for demonstration purposes
+```
+
+#### `example.scope`
+```ini
+[Unit]
+Description=Example scope for demonstration purposes
+
+[Scope]
+Slice=example.slice
+```
+
+### Deleting a Service
+
+To delete a service and its associated files:
+
+```python
+service.delete()
+```
+
+This will remove all files matching the service name in the systemd directory.
+
+## Configuration Options
+
+`service_config_foundry` supports multiple systemd file types, including:
+
+- `.service` - Main service configuration
+- `.socket` - Socket configuration
+- `.timer` - Timer configuration
+- `.mount` - Mount point configuration
+- `.automount` - Automount configuration
+- `.swap` - Swap space configuration
+- `.path` - Path configuration
+- `.slice` - Slice configuration
+- `.scope` - Scope configuration
+
+## Development
+
+### Running Tests
+
+This project includes comprehensive test coverage using pytest. To run the tests:
+
+```bash
+# Install test dependencies
+pip install -e ".[test]"
+
+# Run all tests
+pytest tests/
+
+# Run tests with coverage
+pytest tests/ --cov=service_config_foundry --cov-report=term-missing
+
+# Run tests with coverage report in HTML
+pytest tests/ --cov=service_config_foundry --cov-report=html
+```
+
+### Development Setup
+
+For development, install the package in development mode with all dependencies:
+
+```bash
+# Install development dependencies
+pip install -e ".[dev]"
+
+# Install pre-commit hooks
+pre-commit install
+
+# Run pre-commit on all files
+pre-commit run --all-files
+```
+
+### Using Make Commands
+
+The project includes a Makefile for common development tasks:
+
+```bash
+# Install for development
+make dev-install
+
+# Run tests
+make test
+
+# Run tests with coverage
+make test-cov
+
+# Format code
+make format
+
+# Run linting
+make lint
+
+# Clean build artifacts
+make clean
+```
+
+### GitHub Actions
+
+The project includes GitHub Actions workflows that:
+
+- Run tests on every push and pull request
+- Test against multiple Python versions (3.8-3.12)
+- Check code formatting and linting
+- Generate coverage reports
+- Automatically publish to PyPI on tagged releases
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+Before contributing:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes with appropriate tests
+4. Ensure all tests pass
+5. Submit a pull request
+
+## Contact
+
+- **Author**: Yush Kapoor  
+- **Email**: [yushdotkapoor@gmail.com](mailto:yushdotkapoor@gmail.com)  
+- **GitHub**: [https://github.com/yushdotkapoor/service_config_foundry](https://github.com/yushdotkapoor/service_config_foundry)
+
+## Acknowledgments
+
+Special thanks to the Linux and Python communities for their inspiration and support in creating this project.
