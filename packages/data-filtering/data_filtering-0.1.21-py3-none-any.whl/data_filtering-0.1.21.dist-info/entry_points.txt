@@ -1,0 +1,2 @@
+[console_scripts]
+data-filtering-cli = data_filtering.main_processor:main_cli
