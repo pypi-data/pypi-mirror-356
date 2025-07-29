@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.11.11 WSL (fedoraremix): (/home/fedora/code/sync-with-uv/.venv/bin/python)" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>User defined</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="sync-with-uv/uv Python 3.11.11 WSL (fedoraremix): (/home/fedora/code/sync-with-uv/.venv/bin/python)" project-jdk-type="Python SDK" />
+</project>
