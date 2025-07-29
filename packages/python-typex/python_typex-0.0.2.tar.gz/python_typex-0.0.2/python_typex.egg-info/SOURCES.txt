@@ -1,0 +1,13 @@
+AUTHORS.rst
+README.rst
+pyproject.toml
+python_typex.egg-info/PKG-INFO
+python_typex.egg-info/SOURCES.txt
+python_typex.egg-info/dependency_links.txt
+python_typex.egg-info/requires.txt
+python_typex.egg-info/top_level.txt
+typex/__init__.py
+typex/decorator.py
+typex/traits_extension.py
+typex/typing_extensions.py
+typex/validation.py
