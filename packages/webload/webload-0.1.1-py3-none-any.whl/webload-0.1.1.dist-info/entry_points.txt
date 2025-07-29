@@ -1,0 +1,3 @@
+[console_scripts]
+webload=webload.cli:main
+

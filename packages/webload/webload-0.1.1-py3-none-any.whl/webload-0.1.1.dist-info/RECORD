@@ -1,0 +1,17 @@
+webload/__init__.py,sha256=5kr28B9qN3vqOIHZvowilXS4o1gF04E9lsl05-TJ3uc,124
+webload/__main__.py,sha256=dSRcnsBryME1X3I1gnqTrbIWhZmVQ1ZhSE5SzSADVhg,201
+webload/cli.py,sha256=GDH9K4zrWh50xap6ygQN59B8ps4iMb-rM_lrUPvr2ZI,10416
+webload/config/__init__.py,sha256=tj_kFNZMz24kgoM9sR5-fnPZGhHqsp_tiNAEM-2DRJA,266
+webload/config/settings.py,sha256=zdZpY5cczy85pt0F8U_VaTmysQ2Sjhd-MOTjrdH8uzY,6209
+webload/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webload/integration/pdf_processor.py,sha256=nBHkOsShBTt5-nrXLNGNhAXj55FRf0vC0-JC9tYjQLk,8179
+webload/providers/__init__.py,sha256=myO7nssHeHcLAaNkr0a0aJTVPYFzLCWMeSndcy-hd4A,3855
+webload/providers/aftermarket.py,sha256=2SVDwagzXVUjuH2WlDmccV3YkBOD8qvaCV5530pJatc,17263
+webload/providers/base.py,sha256=Eg8xzcJ2ImFsWx3DkRooQXrUPbbKgmNQyK05iRIKqbc,8350
+webload/providers/openai.py,sha256=rYmJZ0rVucCdmvvCizazOMshqX7YpvesaSHDSaC31nk,11031
+webload/providers/paypal.py,sha256=wC20mMy9r_u45QSahOClhbKZW4n-kmJ7qQl_vPTtR7w,12636
+webload/providers/wise.py,sha256=97gk6_SVk8RTFVIi8zraRaultMk3l4-g84Cp2QDCeiM,11452
+webload-0.1.1.dist-info/METADATA,sha256=TvSTbfouiuAHECOe5zmYvuqN0P53PBPgn6ICEn0-wTc,5613
+webload-0.1.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+webload-0.1.1.dist-info/entry_points.txt,sha256=-XV4TDqXbATaFEptcSbDqfDt_v-qGVQJTfgjBO1okHY,44
+webload-0.1.1.dist-info/RECORD,,
