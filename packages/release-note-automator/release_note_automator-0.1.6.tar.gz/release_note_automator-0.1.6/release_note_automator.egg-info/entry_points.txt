@@ -1,0 +1,3 @@
+[console_scripts]
+release-note-automator = rlauto.cli:main
+rlauto = rlauto.cli:main
