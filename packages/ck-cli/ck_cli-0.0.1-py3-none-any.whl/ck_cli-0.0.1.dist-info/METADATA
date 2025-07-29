@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ck-cli
+Version: 0.0.1
+Summary: A placeholder package for ck-cli related to contextkernel.
+Author-email: Your Name <your.email@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ck-cli
+
+This is a placeholder package for `ck-cli` related to the contextkernel project. More information will be provided here in the future.
