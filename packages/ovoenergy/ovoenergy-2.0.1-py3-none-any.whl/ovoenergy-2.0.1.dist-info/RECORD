@@ -1,0 +1,15 @@
+ovoenergy/__init__.py,sha256=1UCfbjUQoV4dnYK9cPaZ9ehf_ejoXn3b65YH4T9VvQ0,21979
+ovoenergy/__main__.py,sha256=O7ZpckgAHONPNgpgeZjdwmhfQFH1IgXNtSr8qfWx0vc,6042
+ovoenergy/_version.py,sha256=q9AMPyKNNYy-hZ5juc-F8-HosOZ1VUHC89bpMw7vzwQ,265
+ovoenergy/exceptions.py,sha256=R712uaSTHODBWMxDFJyIi9MLlGt-xqXDrYSCOAZqDPc,542
+ovoenergy/models/__init__.py,sha256=wqazJ9VMw68kjUBLcuTqEmz4iUpsTS1ISYRvZOkPFAU,1435
+ovoenergy/models/accounts.py,sha256=gBDsESibNVSFk1_kmbiWpopDs4KL59Kl9ImcHDp-8Z0,929
+ovoenergy/models/carbon_intensity.py,sha256=C4Wo7LjHnw-VyumJHBtvtH-2OvA3M8MwLjIdHrxFMOk,434
+ovoenergy/models/footprint.py,sha256=TETgW14IIIal05sBPKGVbMzJIVzJ-UhsPfGj1O14BHA,877
+ovoenergy/models/oauth.py,sha256=R730tOm87B07ta9t5TZYrhoQ194kYYSR_GoH1n7Vmi4,229
+ovoenergy/models/plan.py,sha256=57SRbMflue1LDGi55ej4Or6XnGawfxzrS7SAqx3y9yQ,1323
+ovoenergy-2.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ovoenergy-2.0.1.dist-info/METADATA,sha256=KmUEfESEhqVtCHTSKfnDJ3a-eDvv93KL4_a54eEBX2o,835
+ovoenergy-2.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+ovoenergy-2.0.1.dist-info/top_level.txt,sha256=JhIZRsEGUaZ_fEawgk0iF8cQVw5bU2cKPUUbddxtswE,10
+ovoenergy-2.0.1.dist-info/RECORD,,
