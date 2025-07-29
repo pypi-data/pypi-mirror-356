@@ -1,0 +1,10 @@
+[package]
+name = "akioi-2048"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"] # 生成 Python 扩展
+
+[dependencies]
+rand = "0.8"
+pyo3 = { version = "0.21", features = ["extension-module"] }
