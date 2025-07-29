@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: fuzzy-httpserver
+Version: 0.1.0
+Summary: Fuzzy matching HTTP file server with autocomplete and fallback
+Author: PakCyberbot
+Author-email: pakcyberbot@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-python
+Dynamic: summary
