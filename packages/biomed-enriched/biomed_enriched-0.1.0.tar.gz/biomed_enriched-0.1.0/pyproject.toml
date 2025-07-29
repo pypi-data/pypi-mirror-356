@@ -1,0 +1,62 @@
+[project]
+name = "biomed-enriched"
+version = "0.1.0"
+description = "Populate text paragraphs into PubMed sample datasets using a pre-built PMC XML index."
+license = {text = "MIT"}
+keywords = ["pubmed", "biomedical", "nlp", "datasets", "huggingface"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+authors = [
+    {name = "rian-t",email = "rian.touchent@inria.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets (>=3.6.0,<4.0.0)",
+    "lxml (>=5.4.0,<6.0.0)",
+    "typer[all] (>=0.9.0,<1.0.0)"
+]
+
+[project.optional-dependencies]
+maintainer = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "huggingface-hub (>=0.21.4,<1.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pandas = "^2.3.0"
+mypy = "^1.9.0"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+show_error_codes = true
+warn_unused_configs = true
+ignore_missing_imports = true
+exclude = [
+    "tests/.*"
+]
+
+[project.scripts]
+biomed-enriched = "biomed_enriched.cli:app"
+
+[tool.poetry]
+packages = [{ include = "biomed_enriched" }]
+exclude = [
+  "tests*",
+  "scripts*",
+  "DEVELOPMENT_PLAN.md",
+]

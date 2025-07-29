@@ -1,0 +1,55 @@
+Metadata-Version: 2.3
+Name: biomed-enriched
+Version: 0.1.0
+Summary: Populate text paragraphs into PubMed sample datasets using a pre-built PMC XML index.
+License: MIT
+Keywords: pubmed,biomedical,nlp,datasets,huggingface
+Author: rian-t
+Author-email: rian.touchent@inria.fr
+Requires-Python: >=3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Provides-Extra: maintainer
+Requires-Dist: datasets (>=3.6.0,<4.0.0)
+Requires-Dist: huggingface-hub (>=0.21.4,<1.0.0) ; extra == "maintainer"
+Requires-Dist: lxml (>=5.4.0,<6.0.0)
+Requires-Dist: pandas (>=2.3.0,<3.0.0) ; extra == "maintainer"
+Requires-Dist: typer[all] (>=0.9.0,<1.0.0)
+Description-Content-Type: text/markdown
+
+# BioMed-Enriched
+
+Populate paragraph text into BioMed-Enriched Non-Commercial split.
+
+## Install
+```bash
+pip install biomed-enriched
+```
+Requires **Python ≥ 3.10**.  No extra setup needed for end-users.
+
+## Quick start (Python)
+```python
+from biomed_enriched import populate
+
+DATASET_DIR = "/path/to/biomed-enriched"  # input dataset
+PMC_XML_ROOT = "/path/to/pmc/xml"          # PMC XML dump
+OUTPUT_DIR = "/path/to/populated-biomed-enriched"  # drop arg to overwrite in-place
+
+populate(DATASET_DIR, PMC_XML_ROOT, output_path=OUTPUT_DIR, splits="non-comm", num_proc=1)
+```
+The call overwrites the dataset in-place, adding a new `text` column as the third column (after `article_id`, `path`).
+
+## Quick start (CLI)
+```bash
+biomed-enriched \
+  --input pubmed_sample \
+  --xml-root /path/to/pmc/xml/root \
+  --num-proc 8
+```
+Add `--output DIR` if you prefer writing to a new directory instead of overwriting.
