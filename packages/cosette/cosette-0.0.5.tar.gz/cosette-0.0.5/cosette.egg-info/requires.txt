@@ -1,0 +1,7 @@
+fastcore>=1.5.33
+openai
+msglm
+toolslm
+
+[dev]
+ipython
