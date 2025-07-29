@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: rheedium
+Version: 2025.6.16
+Summary: Differentiable RHEED simulations in JAX
+Author-email: Debangshu Mukherjee <mukherjeed@ornl.gov>
+Maintainer-email: Debangshu Mukherjee <mukherjeed@ornl.gov>
+Project-URL: Homepage, https://github.com/dxm447/rheedium/
+Project-URL: Documentation, https://rheedium.readthedocs.io/
+Keywords: RHEED,MBE,PLD,JAX,Ewald Sphere
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: jaxtyping>=0.2.21
+Requires-Dist: chex>=0.1.85
+Requires-Dist: optax>=0.1.8
+Requires-Dist: pytest>=8.0.0
+Requires-Dist: beartype
+Requires-Dist: twine>=6.0.1
+Requires-Dist: ipython>=8.31.0
+Requires-Dist: jupyter>=1.1.1
+Requires-Dist: numpy>=2.2.1
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: jupyter-black>=0.4.0
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: jax[cuda12]>=0.4.38; sys_platform == "linux"
+Requires-Dist: jax>=0.4.38; sys_platform == "win64"
+Requires-Dist: pandas>=2.3.0
+Requires-Dist: isort>=6.0.1
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: absl-py; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx>=8.1.3; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=3.0.2; extra == "docs"
+Requires-Dist: myst-parser>=4.0.0; extra == "docs"
+Requires-Dist: nbsphinx>=0.9.6; extra == "docs"
+Requires-Dist: ipykernel>=6.29.5; extra == "docs"
+Requires-Dist: pydata-sphinx-theme>=0.16.1; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon>=0.7; extra == "docs"
+
+# Differentiable RHEED simulations in JAX
+
+---
+
+[![PyPI version](https://badge.fury.io/py/rheedium.svg)](https://badge.fury.io/py/rheedium)
+[![PyPI Downloads](https://static.pepy.tech/badge/rheedium)](https://pepy.tech/projects/rheedium)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation Status](https://readthedocs.org/projects/rheedium/badge/?version=latest)](https://rheedium.readthedocs.io/en/latest/?badge=latest)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14757400.svg)](https://doi.org/10.5281/zenodo.14757400)
+
+---
+
+The aim of this project is to write RHEED simulations in [JAX](https://github.com/google/jax) so that it's end to end differentiable.
+
+This will install the package as `rheedium`, which is the package that all the codes are.
+
+The codes themselves are in the _src_ directory, following the modern toml convention as the _rheedium_ folder.
