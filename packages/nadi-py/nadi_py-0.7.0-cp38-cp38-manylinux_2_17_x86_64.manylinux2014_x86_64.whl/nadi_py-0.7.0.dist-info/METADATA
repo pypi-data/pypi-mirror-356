@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: nadi-py
+Version: 0.7.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.8
