@@ -1,0 +1,12 @@
+candles/__init__.py,sha256=PmTdBGuEMIx02itquvHsYS3RpHe4YKeURDShqlBD3Gs,145
+candles/accessor.py,sha256=SDuGk2VAUkxTYeXfnCmv8J_XagPYU1qOCOZfcxVBphg,5123
+candles/data.py,sha256=7DCMR3_ddJWY_7K4uhoTLIzt_-Nawa2tKJfsHiPUFCs,1630
+indicators/__init__.py,sha256=quRJiGN9McgGknkX_fMZUctCywtirszbsxI80Wganss,101
+indicators/base.py,sha256=Hl_wmZx967ppXK4_rxbFW_yCziu_oAk3Novzx7Y2ANM,668
+indicators/rsi.py,sha256=pbk34HcHjT3bgCy8NJne5YUlJgUXhYaRBzqVX4oerJc,1660
+indicators/stoch_rsi.py,sha256=J5b1DISv4tbEU0tQQYs6qiLvPlI1vldlLwA1BqRhnzY,1453
+pandastock-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pandastock-0.0.1.dist-info/METADATA,sha256=B8j6IX3aZ0GYMlbX0I7ng0wFXJk5JOlpTBoKsva50PM,483
+pandastock-0.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+pandastock-0.0.1.dist-info/top_level.txt,sha256=GKCDxlOZYj28N1ppLt9PlvVmp6rjEMR5TIACDAG4r6c,19
+pandastock-0.0.1.dist-info/RECORD,,
