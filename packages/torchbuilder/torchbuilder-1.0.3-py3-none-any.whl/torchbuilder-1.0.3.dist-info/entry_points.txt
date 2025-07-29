@@ -1,0 +1,2 @@
+[console_scripts]
+torchbuilder = torchbuilder.cli:main
