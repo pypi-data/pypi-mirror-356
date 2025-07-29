@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sreeclassifier
+Version: 0.1.1
+Summary: Image classification using Vision Transformer (ViT)
+Author: Manchala Sreekanth
+Author-email: manchalasreekanth999@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=2.0.0)
+Requires-Dist: torchvision (>=0.15.0)
+Requires-Dist: Pillow (>=9.0.0)
+
+# sreeclassifier
+
+**sreeclassifier** is a Python package for general-purpose image classification based on the Vision Transformer (ViT) model with pretrained ImageNet weights. It currently supports classification of common everyday images into 1000+ classes.
+
+## Upcoming Features
+
+Upcoming versions will focus on aerial and satellite image classification, expanding the number of classes and improving accuracy tailored for remote sensing and aerospace applications.
+
+## Features
+
+- Easy-to-use API for image classification  
+- Uses state-of-the-art Vision Transformer (ViT) architecture  
+- Supports top-k predictions with confidence scores  
+- Lightweight and ready for extension to domain-specific datasets  
+
+## Installation
+
+```bash
+pip install sreeclassifier
