@@ -1,0 +1,2 @@
+[console_scripts]
+paper-portfolio = paper_portfolio.run_pipeline:main
