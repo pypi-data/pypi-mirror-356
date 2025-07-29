@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: gemini-library
+Version: 1.0.0
+Summary: Gemini API response handler with Markdown to HTML conversion
+Home-page: 
+Author: Test
+Author-email: test.email@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: google-generativeai
+Requires-Dist: markdown
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Gemini Library
+
+`gemini-library` is a lightweight Python package that integrates with Google's Gemini API to generate rich, formatted responses from prompts. It supports Markdown-to-HTML conversion and basic HTML tag filtering to produce clean, safe output for web applications.
+
+---
+
+## ✨ Features
+
+- Easy Gemini API integration
+- Markdown to safe HTML conversion
+- Custom HTML tag filtering
+- Modular class-based design
+- Python 3.7+ compatible
+
+---
+
+## 📦 Installation
+
+### From PyPI (after upload)
+```bash
+pip install gemini-library
