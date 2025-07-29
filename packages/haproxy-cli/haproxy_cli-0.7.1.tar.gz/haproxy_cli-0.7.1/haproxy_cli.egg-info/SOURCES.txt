@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bin/haproxy-cli
+haproxy/__init__.py
+haproxy/cmds.py
+haproxy/conn.py
+haproxy/const.py
+haproxy/tests/__init__.py
+haproxy/tests/test_cmds.py
+haproxy/tests/test_conn.py
+haproxy_cli.egg-info/PKG-INFO
+haproxy_cli.egg-info/SOURCES.txt
+haproxy_cli.egg-info/dependency_links.txt
+haproxy_cli.egg-info/requires.txt
+haproxy_cli.egg-info/top_level.txt
