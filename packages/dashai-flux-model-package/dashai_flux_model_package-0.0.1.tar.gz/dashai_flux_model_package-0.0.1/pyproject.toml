@@ -1,0 +1,34 @@
+[project]
+name = "dashai_flux_model_package"
+version = "0.0.1"
+
+dependencies = [
+    'torch>=2.0.1',
+    'diffusers>=0.20.0',
+	'huggingface-hub>=0.29.1',
+]
+
+authors = [
+  { name="DashAI team" },
+  { email="dashaisoftware@gmail.com" },
+]
+
+keywords = [
+    "DashAI",
+    "Model",
+]
+
+description = "DashAI flux Model for DashAI"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.entry-points.'dashai.plugins']
+FluxV1Model = 'dashai_flux_model_package.flux_v1_model:FluxV1Model'
+
+[project.urls]
+Homepage = "https://github.com/DashAISoftware/DashAI"
+Issues = "https://github.com/DashAISoftware/DashAI/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
