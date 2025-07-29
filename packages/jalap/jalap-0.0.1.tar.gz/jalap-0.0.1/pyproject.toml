@@ -1,0 +1,7 @@
+[project]
+name = "jalap"
+version = "0.0.1"
+description = "JSON transformation"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
