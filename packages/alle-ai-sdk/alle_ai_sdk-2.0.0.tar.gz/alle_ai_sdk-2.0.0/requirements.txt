@@ -1,0 +1,9 @@
+requests>=2.28.0
+typing-extensions>=4.5.0  
+python-dotenv>=1.0.0  
+
+# Build dependencies
+hatchling>=1.18.0  
+build>=1.0.3  
+wheel>=0.40.0  
+setuptools>=68.0.0  
