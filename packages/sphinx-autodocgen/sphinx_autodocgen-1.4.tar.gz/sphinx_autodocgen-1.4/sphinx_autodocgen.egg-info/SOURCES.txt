@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+sphinx_autodocgen.egg-info/PKG-INFO
+sphinx_autodocgen.egg-info/SOURCES.txt
+sphinx_autodocgen.egg-info/dependency_links.txt
+sphinx_autodocgen.egg-info/requires.txt
+sphinx_autodocgen.egg-info/top_level.txt
+sphinxcontrib_autodocgen/__init__.py
