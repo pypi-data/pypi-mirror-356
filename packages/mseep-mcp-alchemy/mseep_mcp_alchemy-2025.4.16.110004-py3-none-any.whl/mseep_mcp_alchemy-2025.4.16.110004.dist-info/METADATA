@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mseep-mcp-alchemy
+Version: 2025.4.16.110004
+Summary: A MCP server that connects to your database
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]>=1.2.0rc1
+Requires-Dist: sqlalchemy>=2.0.36
+Description-Content-Type: text/markdown
+
+# MCP Alchemy
