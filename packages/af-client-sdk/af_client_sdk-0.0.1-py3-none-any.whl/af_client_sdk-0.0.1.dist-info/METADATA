@@ -1,0 +1,141 @@
+Metadata-Version: 2.1
+Name: af_client_sdk
+Version: 0.0.1
+Summary: ActiveFence Client SDK
+Project-URL: repository, https://github.com/ActiveFence/ActiveFence-Guardrails-Python-SDK
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp ~=3.12
+Requires-Dist: requests ~=2.32
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: aioresponses ; extra == 'dev'
+Requires-Dist: responses ; extra == 'dev'
+
+# ActiveFence Client SDK
+
+## af_client_sdk
+A standalone SDK supplied to ActiveFence clients in order to integrate analysis API calls more easily.
+
+## ActiveFenceClient
+
+The `ActiveFenceClient` class provides methods to interact with the ActiveFence analysis API. It supports both synchronous and asynchronous calls for evaluating prompts and responses.
+
+### Initialization
+
+```python
+from af_client_sdk.client import ActiveFenceClient
+
+client = ActiveFenceClient(
+    api_key="your_api_key",
+    app_name="your_app_name"
+)
+```
+At a minimum, you need to provide the `api_key` and `app_name`. 
+
+| **Parameter**   | **Default Value** | **Description**                                                                                                                                                                                         |
+|-----------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `api_key`       | None              | API key for authentication. Either create a key using the ActiveFence platform or contact ActiveFence customer support for one.                                                                         |
+| `app_name`      | Unknown           | Application name - this will be sent to ActiveFence to differentiate messages from different apps.                                                                                                      |
+| `base_url`      | https://apis.activefence.com              | The API URL - available for testing/mocking purposes                                                                                                                                                    |
+| `provider`      | Unknown              | Default value for which LLM provider the client is analyzing (e.g. openai, anthropic, deepseek). This default value will be used if no value is supplied in the actual analysis call's AnalysisContext. |
+| `model_name`    | Unknown              | Default value for name of the LLM model being used (e.g. gpt-3.5-turbo, claude-2). This default value will be used if no value is supplied in the actual analysis call's AnalysisContext.               |
+| `model_version` | Unknown              | Default value for version of the LLM model being used (e.g. 2023-05-15). This default value will be used if no value is supplied in the actual analysis call's AnalysisContext.                         |
+| `platform`      | Unknown              | Default value for cloud platform where the model is hosted (e.g. aws, azure, databricks). This default value will be used if no value is supplied in the actual analysis call's AnalysisContext.        |
+| `api_timeout`   | 5          | Timeout for API requests in seconds.                                                                                                                                                                    |
+
+In addition, any of these initialization values can be configured via environment variables, whose values will be taken if not provided during initialization:
+
+`AF_API_KEY`: API key for authentication.
+
+`AF_APP_NAME`: Application name.
+
+`AF_MODEL_PROVIDER`: Model provider name.
+
+`AF_MODEL_NAME`: Model name.
+
+`AF_MODEL_VERSION`: Model version.
+
+`AF_PLATFORM`: Cloud platform.
+
+`AF_API_TIMEOUT`: API timeout in seconds.
+
+`AF_RETRY_MAX`: Maximum number of retries.
+
+`AF_RETRY_BASE_DELAY`: Base delay for retries.
+
+### Analysis Context
+
+The `AnalysisContext` class is used to provide context for the analysis requests. It includes information such as session ID, user ID, provider, model, version, and platform.
+
+This information is provided when calling the evaluation methods, and sent to ActiveFence to assist in contextualizing the content being analyzed.
+
+```python
+from af_client_sdk.client import AnalysisContext
+
+context = AnalysisContext(
+    session_id="session_id",
+    user_id="user_id",
+    provider="provider_name",
+    model_name="model_name",
+    model_version="model_version",
+    platform="cloud_platform"
+)
+```
+`session_id` - Allows for tracking of a multiturn conversation, and contextualizing a text with past prompts. Session ID should be unique for each new conversation/session.
+
+`user_id` - The unique ID of the user invoking the prompts to analyze. This allows ActiveFence to analyze a specific user's history, and connect different prompts of a user across sessions.
+
+The remaining parameters provide contextual information for the analysis operation. These parameters are optional. Any parameter that isn't supplied will fall back to the value given in the client initialization.
+
+### Methods
+`evaluate_prompt_sync`
+Evaluate a user prompt synchronously.
+```python
+result = client.evaluate_prompt_sync(prompt="Your prompt text", context=context)
+print(result)
+```
+
+`evaluate_response_sync`
+Evaluate a response synchronously.
+```python
+result = client.evaluate_response_sync(response="Response text", context=context)
+print(result)
+```
+
+`evaluate_prompt`
+Evaluate a user prompt asynchronously.
+```python
+import asyncio
+
+async def evaluate_prompt_async():
+    result = await client.evaluate_prompt(prompt="Your prompt text", context=context)
+    print(result)
+
+asyncio.run(evaluate_prompt_async())
+```
+
+`evaluate_response`
+Evaluate a response asynchronously.
+```python
+async def evaluate_response_async():
+    result = await client.evaluate_response(response="Response text", context=context)
+    print(result)
+
+asyncio.run(evaluate_response_async())
+```
+
+### Response
+The methods return a GuardedResult object with the following properties:  
+blocked: Whether the action is blocked.
+
+reason: Reason for blocking (if applicable).
+
+final_response: The final response text.
+### Retry Mechanism
+The client supports retrying failed requests with exponential backoff. Configure retries using the following environment variables:  
+AF_RETRY_MAX: Maximum number of retries - default of 3.
+
+AF_RETRY_BASE_DELAY: Base delay for retries in seconds - default is 1 second.
