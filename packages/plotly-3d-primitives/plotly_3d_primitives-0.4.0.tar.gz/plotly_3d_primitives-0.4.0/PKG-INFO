@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: plotly_3d_primitives
+Version: 0.4.0
+Summary: A collection of functions to parametrically generate 3d mesh primitive
+Author-email: Connor Ferster <connor@structuralpython.com>
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/structuralpython/plotly_3d_primitives
+Provides-Extra: dev
+Provides-Extra: test
