@@ -1,0 +1,2 @@
+[console_scripts]
+tldr-code = tldr_code:main
