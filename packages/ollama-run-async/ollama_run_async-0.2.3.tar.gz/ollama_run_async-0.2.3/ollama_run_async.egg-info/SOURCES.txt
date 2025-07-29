@@ -1,0 +1,10 @@
+LICENSE
+ReadME.md
+async_run_ollama.py
+pyproject.toml
+ollama_run_async.egg-info/PKG-INFO
+ollama_run_async.egg-info/SOURCES.txt
+ollama_run_async.egg-info/dependency_links.txt
+ollama_run_async.egg-info/requires.txt
+ollama_run_async.egg-info/top_level.txt
+tests/test_smoke.py
