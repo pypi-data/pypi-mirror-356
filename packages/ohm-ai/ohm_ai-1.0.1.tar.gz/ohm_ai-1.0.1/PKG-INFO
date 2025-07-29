@@ -1,0 +1,142 @@
+Metadata-Version: 2.4
+Name: ohm-ai
+Version: 1.0.1
+Summary: Python library to export data from and interact with the Ohm AI Platform
+Author-email: Colin Chung <colin@ohm.ai>
+License: Certain libraries contained in this file are subject to open source license requirements. Specifically:
+        GQL:
+        Copyright (c) 2016 GraphQL Python
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        Pandas:
+        Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+        All rights reserved.
+        
+        Copyright (c) 2011-2024, Open source contributors.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+         list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+         this list of conditions and the following disclaimer in the documentation
+         and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+         contributors may be used to endorse or promote products derived from
+         this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License-File: LICENSE
+Requires-Dist: gql[aiohttp,requests]>=3.5.2
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: psycopg2-binary>=2.9
+Description-Content-Type: text/markdown
+
+# Ohm AI Library Documentation
+
+**Welcome to the Ohm library documentation!**
+
+This Python library provides tools for interacting with the Ohm API, allowing you to access and analyze your battery data.
+
+### Key Features
+
+- Data Retrieval: Easily fetch battery observation metrics, dataset cycle data, and metadata.
+- Filtering: Refine your data retrieval using flexible filter options.
+- Data Handling: Work with data in a structured format using pandas DataFrames.
+
+### Installation
+
+```bash
+pip install ohm-ai
+```
+
+### Usage
+
+**1. Initialization:**
+
+```python
+from ohm_ai import OhmClient, OhmFilter, OhmFilterOperator, OhmFilterGroup, OhmFilterGroupType
+
+# For synchronous operations
+ohm_client = OhmClient(api_key="YOUR_API_TOKEN")
+```
+
+**2. Data Retrieval:**
+
+- **Get Battery Observation Metrics:**
+
+```python
+# Get all battery observation metrics
+observation_data = ohm_client.get_observation_data()
+```
+
+- **Get Battery Dataset Cycle Data:**
+
+```python
+# Get all battery dataset cycle data
+cycle_data = ohm_client.get_dataset_cycle_data()
+```
+
+- **Get Battery Metadata:**
+
+```python
+# Get all battery metadata
+metadata = ohm_client.get_metadata()
+```
+
+**3. Filtering:**
+
+```python
+# Create filters using OhmFilterOperator enumerable or their string values direcly
+filter_1 = OhmFilter(column="voltage", operator=OhmFilterOperator.EQ, value=3.5)
+filter_2 = OhmFilter(column="voltage", operator="equals", value=3.5)
+
+# Create a filter group using the OhmFilterGroupType or their string values directly
+filter_group_1 = OhmFilterGroup([filter_1, filter_2], type=OhmFilterGroupType.AND)
+filter_group_2 = OhmFilterGroup([filter_1, filter_2], type="and")
+
+# OhmFilterGroup objects can be nested to create complex logic
+filter_group_3 = OhmFilterGroup([filter_group_1, filter_group_2], type="or")
+
+# Retrieve a chunk of filtered observation data -> Returns a pandas dataframe object
+# Use either a list of filters or a OhmFilterGroup object
+filtered_observation_data = ohm_client.get_observation_data(filters=[filter_1, filter_2])
+filtered_observation_data = ohm_client.get_observation_data(filters=filter_group_3)
+
+# Retrieve a chunk of filtered dataset cycle data -> Returns a pandas dataframe object
+filtered_cycle_data = ohm_client.get_dataset_cycle_data(filters=[filter_1, filter_2])
+filtered_cycle_data = ohm_client.get_dataset_cycle_data(filters=filter_group_3)
+
+# Retrieve a chunk of filtered metadata -> Returns a pandas dataframe object
+filtered_metadata = ohm_client.get_metadata(filters=[filter_1, filter_2])
+filtered_metadata = ohm_client.get_metadata(filters=filter_group_3)
+```
