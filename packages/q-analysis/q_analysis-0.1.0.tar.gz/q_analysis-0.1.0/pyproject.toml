@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "maturin==1.8.7"]
+build-backend = "maturin"
+
+[project]
+name = "q-analysis"
+version = "0.1.0"
+description = "A package for Q-analysis of complex networks"
+readme = "README.MD"
+requires-python = ">=3.8, <=3.10"
+authors = [
+    {name = "Nikita Smirnov"}
+]
+license = {text = "GNU General Public License v3.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "networkx",
+    "scikit-learn",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "statannotations",
+    "gdown"
+]
+
+[project.urls]
+Homepage = "https://github.com/pakrentos/q-analysis" 
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
