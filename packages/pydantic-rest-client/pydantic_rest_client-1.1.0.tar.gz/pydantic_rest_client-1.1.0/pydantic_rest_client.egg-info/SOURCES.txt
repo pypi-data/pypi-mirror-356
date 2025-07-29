@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+pydantic_rest_client/__init__.py
+pydantic_rest_client/aiohttp_rest_client.py
+pydantic_rest_client/base_rest_client.py
+pydantic_rest_client/exceptions.py
+pydantic_rest_client.egg-info/PKG-INFO
+pydantic_rest_client.egg-info/SOURCES.txt
+pydantic_rest_client.egg-info/dependency_links.txt
+pydantic_rest_client.egg-info/requires.txt
+pydantic_rest_client.egg-info/top_level.txt
+tests/test_example.py
