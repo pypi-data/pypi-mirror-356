@@ -1,0 +1,15 @@
+rlauto/__init__.py,sha256=ZxpFhLuttv1Nua4JJsC0AoIMx9SA0qxdL-CkIrkTcmI,60
+rlauto/cli.py,sha256=yq3ZWm8WkdliZEweq3hy0rsV2-HS3TJavca_lw4chLw,5198
+rlauto/multi_commit_chunker.py,sha256=Oz9qsfd9psQsWdl2DfnDvNyoDDhyzaT7PR-O8qBitw0,2090
+rlauto/multi_commit_cleaner.py,sha256=WRIBIZAWn30t_9fNaSPeHKoPQzPzN5MPbtntVpPDMwM,2124
+rlauto/multi_commit_fetcher.py,sha256=MFjoF6iocJNGX59pk_SqEJyFPP82V1KI2A12LPp1Uic,4845
+rlauto/multi_commit_summarizer.py,sha256=l3HKsNjMdvp9ASIqsLtgGccEM1UiST0JDyaJoozB_ik,2237
+rlauto/multi_post_release_notes_to_slack.py,sha256=kdiDNLcqLW2OZ_8vfDORmrpHmd7VJxhtPujTMynAxzQ,1225
+rlauto/multi_post_user_notes_to_slack.py,sha256=QpH42Cn1T-XqfkZFsv_GjPmTs55_EQql58fLxNU4pws,1210
+rlauto/multi_release_formatter_llm.py,sha256=kAhLmj9_Od7TyKbBzRpFUfSQZII8C--6i-1KQJCb6QI,2848
+rlauto/multi_release_user_note_llm.py,sha256=fxIxn9H8DEHSWepg6R9bClCTz_wLw-UfYN3iWskFuqY,2031
+release_note_automator-0.1.0.dist-info/METADATA,sha256=Rctb3mJJzMb1SrDNWaEC7TMi3a-WQcxlDtFQIyV6b20,3341
+release_note_automator-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+release_note_automator-0.1.0.dist-info/entry_points.txt,sha256=V0ajR4XIjsjaIQA7kb1W63O2Du5MGKy-aULt2jJu1jA,43
+release_note_automator-0.1.0.dist-info/top_level.txt,sha256=49BwkB7JGartJBvSMKEa32__8S9I2QFdqmyZV65oWk0,7
+release_note_automator-0.1.0.dist-info/RECORD,,
