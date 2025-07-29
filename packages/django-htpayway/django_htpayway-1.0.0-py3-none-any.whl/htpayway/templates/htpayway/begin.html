@@ -1,0 +1,10 @@
+{% extends "htpayway/base.html" %}
+
+{% block content %}
+<p>Transaction initiated</p>
+{% include "htpayway/payway-form.html" with form=form form_url=form_url only %}
+
+<script>
+  document.forms["payway-authorize-form"].submit();
+</script>
+{% endblock %}
