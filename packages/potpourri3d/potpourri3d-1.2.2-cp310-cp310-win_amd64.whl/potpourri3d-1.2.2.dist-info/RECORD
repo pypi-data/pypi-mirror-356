@@ -1,0 +1,11 @@
+lib/geometry-central.lib,sha256=_ehiSohzHRvN5_0XWBD64lnzuuFpOQ4F4hHe8yygDuY,30203606
+potpourri3d/__init__.py,sha256=N2PfxzSZpS4fuWYd9cUrgAKHBAiT0MAnw9tinrLRXvE,133
+potpourri3d/core.py,sha256=3kFTL_TGO2P2a5aD84ANpIO5WQmaKh6W7QCmGtW2R78,1212
+potpourri3d/io.py,sha256=5qd9KcVBuYoCb_qp8smHAk3LKvzTeZ9YQPZdhpuaDII,1904
+potpourri3d/mesh.py,sha256=lgiNICVrUoFZRY6vk5ZDipp9Cuz8adzQLm9gqsUFMM4,9406
+potpourri3d/point_cloud.py,sha256=wdX8uzZ5zSIc19WqQ-9xPsDgzlB8xCPU_xjs93v5orI,2687
+potpourri3d_bindings.cp310-win_amd64.pyd,sha256=TfvZzMNlsa56XgYIsOmil6QT9hoyq_I5D-HcHuwLv_A,1490432
+potpourri3d-1.2.2.dist-info/METADATA,sha256=bWiCsFMkzVsQbkSljJ21uw1d1-n31DsQ5sTmIE5GggU,28878
+potpourri3d-1.2.2.dist-info/WHEEL,sha256=Bg3xfVZCdvCQkqUyMs2y8LOfK6ua4a-d4Njc-PtQZvk,106
+potpourri3d-1.2.2.dist-info/licenses/LICENSE,sha256=ASZSy0Ozv_-8Pdp0Ymx_PECA3DoMRT__Hf69Yf6GrzE,1092
+potpourri3d-1.2.2.dist-info/RECORD,,
