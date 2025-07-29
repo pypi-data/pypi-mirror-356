@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: kas-dagger-utils
+Version: 1.0.0
+Summary: A collection of command-line utilities to enhance kas functionality within Dagger workflows
+License: BSD-3-Clause
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: kas (>=4.7,<5.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
