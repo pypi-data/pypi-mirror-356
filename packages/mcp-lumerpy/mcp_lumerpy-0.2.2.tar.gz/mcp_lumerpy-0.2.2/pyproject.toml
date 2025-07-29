@@ -1,0 +1,22 @@
+[tool.poetry]
+name         = "mcp-lumerpy"
+version      = "0.2.2"                        # 🚀 升级到 0.2.x
+description  = "Official MCP wrapper for the lumerpy simulation library"
+authors      = ["OscarxChen <oscarxchen@outlook.com>"]
+readme       = "README.md"
+license      = "MIT"
+homepage     = "https://github.com/OscarXChen/mcp-lumerpy"
+repository   = "https://github.com/OscarXChen/mcp-lumerpy"
+
+[tool.poetry.dependencies]
+python   = ">=3.8"
+lumerpy  = ">=1.3.0"           # 主功能库
+mcp      = ">=0.6.0"           # 官方 MCP Python SDK
+# 其余依赖均由上面两个包的依赖树自行拉取，保持轻量
+
+[tool.poetry.scripts]
+mcp-lumerpy = "mcp_lumerpy.mcp_server:main"
+
+[build-system]
+requires      = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
