@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: lovejun
+Version: 0.1.0
+Summary: Arduino 시리얼 통신을 쉽게 제어하는 Python 라이브러리
+Author-email: 채현준 <lovejun070704@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyserial>=3.5
+Dynamic: license-file
+
+# README.md
+
+# Arduino Controller
+
+아두이노와 PC 간의 시리얼 통신을 쉽게 제어할 수 있는 Python 라이브러리입니다.
+
+## 설치 방법
+```bash
+pip install lha_arducon
+
+## 사용예시
+from lha_arducon import  ArduinoController
+
+arduino = ArduinoController()
+arduino.connect_serial()
+arduino.control_led(5, 'on')
