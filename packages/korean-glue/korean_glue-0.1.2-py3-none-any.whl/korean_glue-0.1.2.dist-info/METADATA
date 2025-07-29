@@ -1,0 +1,112 @@
+Metadata-Version: 2.4
+Name: korean_glue
+Version: 0.1.2
+Summary: A modern Python library for Korean josa processing with dictionary support and framework integrations.
+Author-email: woojing <woojing.seok@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Korean
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: bump-my-version; extra == 'dev'
+Requires-Dist: django>=3.2; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: jinja2>=3.0; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: tox-uv; extra == 'dev'
+Description-Content-Type: text/markdown
+
+<!-- README.md -->
+[한국어](README.ko.md)
+
+# korean_glue
+
+[![CI](https://github.com/woojing/korean-glue/actions/workflows/ci.yml/badge.svg)](https://github.com/woojing/korean-glue/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/Python-3.10%20|%203.11%20|%203.12%20|%203.13-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/woojing/korean-glue)](LICENSE)
+
+A modern Python library for Korean josa processing combining rule-based and dictionary-based approaches. Django template tags and Jinja2 filters are included for easy web framework integration.
+
+## Installation
+
+```bash
+pip install korean_glue
+```
+
+Framework integrations rely on Django and Jinja2.
+
+## Usage
+
+### Basic API
+
+```python
+from korean_glue import attach, get_josa
+
+print(get_josa("사과", "은/는"))  # "는"
+print(attach("사과", "은/는"))    # "사과는"
+```
+
+### Custom Exception Rules
+
+```python
+from korean_glue import add_exception_rule, remove_exception_rule, attach
+
+add_exception_rule("사과", "은/는", "당")
+print(attach("사과", "은/는"))  # "사과당"
+remove_exception_rule("사과", "은/는")
+```
+
+### Command Line
+
+Install the package and run the `kglue` command:
+
+```bash
+kglue '철수(은/는)'
+kglue 'K(이/가)'
+kglue '3(을/를)'
+```
+
+### Framework Integrations
+
+**Django**
+
+```django
+{{ variable|josa:"을/를" }}
+```
+
+**Jinja2**
+
+```python
+from korean_glue.integrations import jinja_filters
+from jinja2 import Environment
+
+env = Environment()
+jinja_filters.register(env)
+result = env.from_string("{{ word|josa('으로/로') }}").render(word="서울")
+```
+
+## Running Tests
+
+After setting up a development environment (see `CONTRIBUTING.md`), run:
+
+```bash
+pytest
+```
+
