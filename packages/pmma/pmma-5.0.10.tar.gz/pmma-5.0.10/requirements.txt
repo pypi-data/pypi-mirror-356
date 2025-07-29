@@ -1,0 +1,22 @@
+# Requirements for all systems
+av
+cython
+getostheme
+moviepy
+num2words
+pedalboard
+Pillow
+pprofile
+psutil
+pyadl
+pyrr
+requests
+send2trash
+sounddevice
+soundfile
+waiting
+watchdog
+
+# Windows-specific requirement
+pywin32; sys_platform == 'win32'
+wmi; sys_platform == 'win32'
