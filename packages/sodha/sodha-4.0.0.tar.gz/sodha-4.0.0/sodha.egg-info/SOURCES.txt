@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+phisherman/__init__.py
+phisherman/phisherman.py
+phisherman.py
+sodha.egg-info/PKG-INFO
+sodha.egg-info/SOURCES.txt
+sodha.egg-info/dependency_links.txt
+sodha.egg-info/entry_points.txt
+sodha.egg-info/requires.txt
+sodha.egg-info/top_level.txt

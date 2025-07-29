@@ -1,0 +1,22 @@
+[project]
+name = "sodha"
+version = "4.0.0"
+description = " Expert level script for performing phishing attacks only for educational purpose "
+authors = [{ name = "Adityasinh Sodha" }]
+readme = "README.md"
+license = { text = "Custom" }
+requires-python = ">=3.6"
+dependencies = [
+    "cryptography",
+    "pycryptodome",
+    "requests",
+    "colorama",
+    "pyfiglet"
+]
+
+[project.scripts]
+phisherman = "phisherman:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
