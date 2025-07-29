@@ -1,0 +1,15 @@
+copick_utils/__about__.py,sha256=7D13PJEcpdhEa6RrlKLt7IEkoVVVGuzqHJb5MQxgLiI,135
+copick_utils/__init__.py,sha256=v-RIkEuGuAXivakLMrneraDQd7cWN7zsdGLmjwLtDDw,113
+copick_utils/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copick_utils/features/skimage.py,sha256=t38jpu-ntC7Zw--1qSxWhGIg9e02RLhVBZEySIa5dQs,4036
+copick_utils/pickers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copick_utils/pickers/grid_picker.py,sha256=NhFbWxMQREb0fLKTho4602yzH7zE6DCkJY94dgJ-gIQ,2353
+copick_utils/segmentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copick_utils/segmentation/picks_from_segmentation.py,sha256=Ne_RYfnEFaV_qwNw4uOwPfLLgGxHMEQ2uecp9X2_EVc,2951
+copick_utils/segmentation/segmentation_from_picks.py,sha256=3oIlFWRAR904j5IpC5Fo8Y4gP9iL6qUiwybRgJvhzmc,6820
+copick_utils/writers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copick_utils/writers/write.py,sha256=KhdZUUZrZR02bzS5SWM9q-u4y2s1qxcySwN3MN5j5YA,3055
+copick_utils-0.5.0.dist-info/LICENSE.txt,sha256=3UHKsYd99Gh_qf1a9s8G5sdKqafgbGs5WIMoeX0OcdY,1105
+copick_utils-0.5.0.dist-info/METADATA,sha256=zd_eTHyOWidHZvieUbSzRJMTX-Lft3lhZE5uJz3qajM,2792
+copick_utils-0.5.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+copick_utils-0.5.0.dist-info/RECORD,,
