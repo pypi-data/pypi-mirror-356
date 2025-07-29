@@ -1,0 +1,43 @@
+# Include the README and license files
+include README.md
+include LICENSE
+
+# Include configuration files
+include config/*.yaml
+include config/*.ini
+
+# Include pytest configuration
+include pytest.ini
+
+# Include test requirements
+include requirements-test.txt
+
+# Include documentation
+recursive-include docs *
+
+# Include test data files
+recursive-include tests *.ini
+recursive-include tests *.yaml
+
+# Exclude unnecessary files
+exclude .gitignore
+exclude .github/*
+exclude .venv/*
+exclude logs/*
+exclude htmlcov/*
+exclude .coverage
+exclude .pytest_cache/*
+exclude **/__pycache__/*
+exclude **/*.pyc
+exclude **/*.pyo
+exclude **/*.pyd
+exclude .DS_Store
+exclude Thumbs.db
+
+# Exclude development files
+exclude run_comprehensive_tests.py
+exclude build.py
+
+# Include package data
+recursive-include src *.py
+recursive-include src *.pyi

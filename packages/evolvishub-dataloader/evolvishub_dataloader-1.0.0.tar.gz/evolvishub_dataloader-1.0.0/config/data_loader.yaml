@@ -1,0 +1,38 @@
+# Data Types Configuration
+data_types:
+  types: 
+
+# Database Configuration
+database:
+  path: "data/bitzer.db"
+  migrations: "migrations"
+  backup: "backups"
+
+# File Processing Configuration
+processing:
+  move_processed: true
+  add_timestamp: true
+  retry_attempts: 3
+  max_file_size: 10485760  # 10MB in bytes
+
+# Supported File Extensions
+extensions:
+  excel: "xlsx,xls"
+  csv: "csv"
+  json: "json"
+  text: "txt"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/data_loader.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
+
+# Performance Configuration
+performance:
+  multiprocessing: true
+  max_workers: 4
+  batch_size: 1000
+  compression: true 
