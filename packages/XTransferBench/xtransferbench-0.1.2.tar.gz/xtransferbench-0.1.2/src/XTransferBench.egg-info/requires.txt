@@ -1,0 +1,9 @@
+torch
+torchvision
+huggingface-hub
+
+[dev]
+check-manifest
+
+[test]
+coverage
