@@ -1,0 +1,11 @@
+fastapi_mlflow/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+fastapi_mlflow/_mlflow_types.py,sha256=l9n8aNwZajVk7LJEhvs-yLKLmK2zAgrSJ3wTbquAK5U,1475
+fastapi_mlflow/applications.py,sha256=c0HQ4BS8yhJ2j1xMVdV8kd1utVa_w0cEHmWwySI9qG4,1607
+fastapi_mlflow/exceptions.py,sha256=9ZvJGJrUPcWstmmWD4zkpIu3W5VdvYsmebME6wWJ9bk,513
+fastapi_mlflow/predictors.py,sha256=qiqZZzG9KUkqPGUMn1wGg41TCRWTZL4pjkdp6e6tIxA,3348
+fastapi_mlflow/testing/__init__.py,sha256=-u_TjxaJVAlmz1wlavzGP4qGy1y6Ley3RZtzUL31s3A,102
+fastapi_mlflow/testing/models.py,sha256=sRFMutPR9xJ8ZcLa0MOL6bFKLmZfaAinkDgdZLmSXyY,2919
+fastapi_mlflow-0.7.0rc1.dist-info/LICENSE,sha256=AT7s3zT3HWRd7imzMFzx6EZs2Hq5pLxDf7NcdcEL_Ac,11352
+fastapi_mlflow-0.7.0rc1.dist-info/METADATA,sha256=E3L6ggqCxQuufY_oafl1c7SgsDnXMyo0EQz7vuxrbRc,3607
+fastapi_mlflow-0.7.0rc1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastapi_mlflow-0.7.0rc1.dist-info/RECORD,,
