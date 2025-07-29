@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+graph_from_inp/__init__.py
+graph_from_inp/graph_create.py
+graph_from_inp.egg-info/PKG-INFO
+graph_from_inp.egg-info/SOURCES.txt
+graph_from_inp.egg-info/dependency_links.txt
+graph_from_inp.egg-info/top_level.txt
