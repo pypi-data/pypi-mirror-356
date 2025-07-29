@@ -1,0 +1,14 @@
+verse/identity/authentication/__init__.py,sha256=F2ql47uv-mk2aalwLPlG9z3rlpsE0dlt_EJ7hIZpAl8,170
+verse/identity/authentication/_models.py,sha256=dZ2pPwMLBABIP9-bvwFX9uGKzvd4w86eOZ2_x714HzE,480
+verse/identity/authentication/component.py,sha256=Y0eAXG9uO2N3NLL3LD-evSg4KlxnTJoDzcmhO8HGWVA,1685
+verse/identity/authentication/providers/api_key.py,sha256=Qrb4Kac_Ci61WMMNjR6ZsfdOJWPgBedNPHW7Ic1Gdoc,1231
+verse/identity/authentication/providers/api_key_in_store.py,sha256=GtRq3CCqGE5UrlMUkrZaPfL1xU4Lrt6uJEgllFjcXJo,3275
+verse/identity/authentication/providers/auth0.py,sha256=SexawNfBbKoh2Vh6c4TBfrgvGxTRlMMPLwgo8vUuLyo,4679
+verse/identity/authentication/providers/default.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verse/identity/authentication/providers/mock.py,sha256=oGXj7vfBs9S6axd3Iog-mp-pvmYLGJkUQAh84E2v-bU,1365
+verse/identity/authentication/providers/msal.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verse/identity/authentication/py.typed,sha256=dcrsqJrcYfTX-ckLFJMTaj6mD8aDe2u0tkQG-ZYxnEg,26
+verse_identity-0.0.22.dist-info/LICENSE,sha256=2L9Br1l89fnA7m3XmoKWh6O3KM7r9k5-Hl_XhaNX7nM,1067
+verse_identity-0.0.22.dist-info/METADATA,sha256=DzGBAIa9HUe0LnNr6K66au2TTf4HpDCi5GoQ6-JBSSI,1085
+verse_identity-0.0.22.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+verse_identity-0.0.22.dist-info/RECORD,,
