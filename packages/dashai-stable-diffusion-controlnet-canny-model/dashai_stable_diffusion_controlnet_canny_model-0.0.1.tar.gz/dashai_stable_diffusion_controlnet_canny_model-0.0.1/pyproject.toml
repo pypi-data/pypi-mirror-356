@@ -1,0 +1,36 @@
+[project]
+name = "dashai_stable_diffusion_controlnet_canny_model"
+version = "0.0.1"
+
+dependencies = [
+    'torch>=2.0.1',
+	'torchvision>=0.19.1',
+    'diffusers>=0.20.0',
+	'opencv-python>=4.11.0.86',
+	'huggingface-hub>=0.29.1',
+]
+
+authors = [
+  { name="DashAI team" },
+  { email="dashaisoftware@gmail.com" },
+]
+
+keywords = [
+    "DashAI",
+    "Model",
+]
+
+description = "DashAI Stable Diffusion Controlnet Canny Model for DashAI"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.entry-points.'dashai.plugins']
+StableDiffusionControlNetCannyModel = 'dashai_stable_diffusion_controlnet_canny_model.stable_diffusion_controlnet_canny_model:StableDiffusionControlNetCannyModel'
+
+[project.urls]
+Homepage = "https://github.com/DashAISoftware/DashAI"
+Issues = "https://github.com/DashAISoftware/DashAI/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
