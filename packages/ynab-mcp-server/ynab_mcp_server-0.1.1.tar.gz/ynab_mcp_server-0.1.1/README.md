@@ -1,0 +1,180 @@
+# ynab-mcp MCP server
+
+MCP server for connecting to You Need a Budget.
+
+## Features
+
+This MCP server provides tools for interacting with your YNAB budget:
+
+- List budgets and accounts
+- View and manage transactions
+- Track categories and spending
+- Monitor monthly budgets
+- Manage payees
+- View financial overviews
+
+## Configuration
+
+To run this server, you need to provide your YNAB Personal Access Token.
+
+1.  **Create a `.env` file:**
+    In the root of the project, create a file named `.env`.
+
+2.  **Add your token:**
+    Add the following line to the `.env` file, replacing `"your_token_here"` with your actual YNAB token:
+    ```
+    YNAB_PAT="your_token_here"
+    ```
+    You can generate a new token in your [YNAB Developer Settings](https://app.ynab.com/settings/developer).
+
+## Available Tools
+
+### Budget Management
+- `list-budgets` - List all available YNAB budgets
+- `list-accounts` - List all accounts for a given budget
+- `list-categories` - List all categories with their budgeted amounts and activity
+
+### Transaction Management
+- `list-transactions` - List transactions for a given account
+- `list-monthly-transactions` - List all transactions for a given month
+- `update-transactions` - Update transaction details like categories or payees
+
+### Financial Overview
+- `get-financial-overview` - Get current financial overview including balances and goals
+- `refresh-financial-overview` - Refresh the overview with latest YNAB data
+
+### Payee Management
+- `list-payees` - List all payees
+- `rename-payees` - Update multiple payees to a single new name
+
+### Budget Planning
+- `move-budget-amount` - Move money between categories
+- `assign-budget-amount` - Assign a specific amount to a category
+
+## Quickstart
+
+### Install
+
+#### Claude Desktop
+
+On MacOS: `~/Library/Application\ Support/Claude/claude_desktop_config.json`
+On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
+
+<details>
+  <summary>Development/Unpublished Servers Configuration</summary>
+  ```json
+  "mcpServers": {
+    "ynab-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "ynab-mcp"
+      ],
+      "cwd": "/path/to/your/ynab-mcp"
+    }
+  }
+  ```
+  **Note:** Replace `/path/to/your/ynab-mcp` with the actual absolute path to this project directory.
+</details>
+
+## Development
+
+### Running the Server
+
+Once you have your `.env` file set up, you can run the server directly:
+
+```bash
+uv run ynab-mcp
+```
+
+### Syncing Dependencies
+
+To install or update dependencies:
+
+```bash
+uv sync
+```
+
+### Building and Publishing
+
+To prepare the package for distribution:
+
+1. Build package distributions:
+```bash
+uv build
+```
+This will create source and wheel distributions in the `dist/` directory.
+
+2. Publish to PyPI:
+```bash
+uv publish
+```
+Note: You'll need to set PyPI credentials.
+
+### Debugging
+
+For the best debugging experience, we recommend using the [MCP Inspector](https://github.com/modelcontextprotocol/inspector).
+
+You can launch the MCP Inspector with this command, ensuring your `.env` file is present:
+
+```bash
+npx @modelcontextprotocol/inspector uv run ynab-mcp
+```
+
+Upon launching, the Inspector will display a URL that you can access in your browser to begin debugging.
+
+## Example Usage
+
+Here are some common workflows using the MCP tools:
+
+### View Budget Overview
+```python
+# List available budgets
+result = await handle_call_tool("list-budgets", {})
+
+# Get accounts for the default budget
+result = await handle_call_tool("list-accounts", {"budget_id": "default"})
+
+# View current month's transactions
+result = await handle_call_tool("list-monthly-transactions", {
+    "month": "2024-03-01"
+})
+```
+
+### Manage Categories
+```python
+# Move money between categories
+result = await handle_call_tool("move-budget-amount", {
+    "month": "2024-03-01",
+    "from_category_id": "dining-out",
+    "to_category_id": "groceries",
+    "amount": 5000  # $50.00
+})
+
+# Assign budget amount
+result = await handle_call_tool("assign-budget-amount", {
+    "month": "2024-03-01",
+    "category_id": "groceries",
+    "amount": 20000  # $200.00
+})
+```
+
+### Clean Up Payees
+```python
+# List all payees
+result = await handle_call_tool("list-payees", {})
+
+# Merge similar payee names
+result = await handle_call_tool("rename-payees", {
+    "payee_ids": ["starbucks-1", "starbucks-2"],
+    "name": "Starbucks"
+})
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
