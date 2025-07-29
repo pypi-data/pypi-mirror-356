@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sconekc
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography (==3.4.8)
+Requires-Dist: requests (==2.25.1)
+
+# Module to interact with Keycloak access token and validation token
+## Keycloak ported to confidential computing on [SCONE](https://scontain.com "SCONE")
+
+
+
