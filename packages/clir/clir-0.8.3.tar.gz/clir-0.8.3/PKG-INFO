@@ -1,0 +1,58 @@
+Metadata-Version: 2.3
+Name: clir
+Version: 0.8.3
+Summary: A clear and fast way to store and recover your commands
+License: MIT
+Author: Elkin Aguas
+Author-email: elkinaguas@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: rich-click (>=1.7.0,<2.0.0)
+Requires-Dist: textual (>=0.47.1,<0.48.0)
+Project-URL: Bug Tracker, https://github.com/elkinaguas/clir/issues
+Project-URL: Homepage, https://github.com/elkinaguas/clir
+Project-URL: Repository, https://github.com/elkinaguas/clir
+Description-Content-Type: text/markdown
+
+# clir
+[![PyPI](https://img.shields.io/pypi/v/clir)](https://github.com/elkinaguas/clir/releases) ![PyPI - Downloads](https://img.shields.io/pypi/dm/clir) ![Total Download](https://static.pepy.tech/badge/clir)
+
+Clir provides a clear and fast way to store and recover your commands.
+
+## Installation
+Install `clir` using pip3 and pipx.
+
+```bash
+pip3 install clir
+```
+
+```bash
+pipx install clir
+```
+
+## Usage
+First of all, initialize clir. This will create the necessary cofig files.
+```bash
+clir init
+```
+
+See all the obption available with
+```bash
+clir --help
+```
+![clir --help](https://raw.githubusercontent.com/elkinaguas/clir/main/docs/img/clir_help.png)
+
+List your saved commands:
+```bash
+clir ls
+```
+![clir ls](https://raw.githubusercontent.com/elkinaguas/clir/main/docs/img/clir_ls.png)
