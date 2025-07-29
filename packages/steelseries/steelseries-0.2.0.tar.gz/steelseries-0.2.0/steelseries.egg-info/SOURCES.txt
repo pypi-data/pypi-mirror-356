@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+steelseries/Example.py
+steelseries/__init__.py
+steelseries.egg-info/PKG-INFO
+steelseries.egg-info/SOURCES.txt
+steelseries.egg-info/dependency_links.txt
+steelseries.egg-info/requires.txt
+steelseries.egg-info/top_level.txt
