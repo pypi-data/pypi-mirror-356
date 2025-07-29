@@ -1,0 +1,136 @@
+Metadata-Version: 2.4
+Name: llmtrace
+Version: 0.1.4
+Summary: A lightweight LLM observability and evaluation framework.
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://github.com/your-org/llmtrace
+Project-URL: Documentation, https://llmtrace.readthedocs.io
+Project-URL: Repository, https://github.com/your-org/llmtrace
+Project-URL: Issues, https://github.com/your-org/llmtrace/issues
+Keywords: llm,observability,tracing,evaluation,ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE-THIRD-PARTY.md
+Requires-Dist: Flask>=2.0.0
+Requires-Dist: Flask-Cors>=3.0.10
+Requires-Dist: click>=8.0.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: zstandard>=0.17.0
+Requires-Dist: alembic>=1.13.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: aiosqlite>=0.19.0
+Requires-Dist: asyncpg>=0.29.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: python-json-logger>=3.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: sphinx>=7.0.0; extra == "dev"
+Requires-Dist: sphinx_rtd_theme>=2.0.0; extra == "dev"
+Requires-Dist: myst-parser>=2.0.0; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: build>=1.0.0; extra == "dev"
+Provides-Extra: openai
+Requires-Dist: openai>=1.14.0; extra == "openai"
+Provides-Extra: huggingface
+Requires-Dist: transformers>=4.38.0; extra == "huggingface"
+Provides-Extra: langchain
+Requires-Dist: langchain>=0.1.0; extra == "langchain"
+Requires-Dist: langchain-openai>=0.0.5; extra == "langchain"
+Provides-Extra: eval
+Requires-Dist: nltk>=3.8.0; extra == "eval"
+Requires-Dist: scikit-learn>=1.0.0; extra == "eval"
+Provides-Extra: web
+Requires-Dist: gunicorn>=20.0.0; extra == "web"
+Provides-Extra: all
+Requires-Dist: llmtrace[openai]; extra == "all"
+Requires-Dist: llmtrace[huggingface]; extra == "all"
+Requires-Dist: llmtrace[langchain]; extra == "all"
+Requires-Dist: llmtrace[eval]; extra == "all"
+Requires-Dist: llmtrace[web]; extra == "all"
+Dynamic: license-file
+
+# LLMTrace: Observabilidad y Trazabilidad para Aplicaciones con LLM
+
+**LLMTrace** es una librería open-source en Python diseñada como un toolkit de observabilidad y evaluación para aplicaciones con modelos de lenguaje. Permite a los desarrolladores instrumentar sus apps de IA generativa para registrar automáticamente prompts y respuestas, medir métricas clave y visualizar trazas de las sesiones.
+
+[![SLSA Level 1](https://slsa.dev/images/gh-badge-level-1.svg)](https://slsa.dev)
+
+## Características Principales (v0)
+
+*   **Instrumentación Automática**: Captura prompts, respuestas, tokens, costos y errores de LLMs populares (OpenAI, HuggingFace, LangChain).
+*   **Almacenamiento Local Persistente**: Utiliza SQLite por defecto para guardar todos los datos de trazabilidad. Soporte experimental para PostgreSQL.
+*   **Dashboard Web Ligero**: Una interfaz web básica para visualizar sesiones y métricas.
+*   **Interfaz de Línea de Comandos (CLI)**: Herramientas para listar, mostrar detalles, exportar y eliminar datos.
+*   **Migraciones de Base de Datos**: Gestión de esquema con Alembic.
+
+## Instalación
+
+LLMTrace requiere Python 3.9 o superior.
+
+1.  **Instalación básica:**
+    \`\`\`bash
+    pip install llmtrace
+    \`\`\`
+
+2.  **Instalación con extras (dashboard, evaluación, backends DB, instrumentadores):**
+    \`\`\`bash
+    pip install "llmtrace[all]" # Instala todas las dependencias opcionales
+    # O selecciona solo las que necesites:
+    # pip install "llmtrace[openai,postgresql]"
+    \`\`\`
+
+## Uso Rápido
+
+```python
+import llmtrace
+from llmtrace.instrumentation.openai import OpenAIInstrumentor
+import openai
+import asyncio
+
+async def main():
+    # Inicializa LLMTrace (crea llmtrace.db en ~/.llmtrace por defecto)
+    # Puedes usar LLMTRACE_DB_URL="memory://" para una base de datos en memoria para tests.
+    await llmtrace.init() 
+    
+    # Instrumenta OpenAI
+    OpenAIInstrumentor().instrument()
+
+    # Todas las llamadas a openai.ChatCompletion.create serán registradas
+    res = await openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": "Escribe un haiku sobre la observabilidad."}]
+    )
+    print(res.choices[0].message.content)
+
+    # Inicia una sesión para agrupar trazas
+    async with llmtrace.session(name="MiPrimerHaiku", user_id="anon_user"):
+        await openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": "Otro haiku, esta vez sobre el código."}]
+        )
+
+    # Consulta datos programáticamente
+    sessions = await llmtrace.get_sessions()
+    print(f"\nSesiones registradas: {len(sessions)}")
+
+    # Inicia el dashboard web
+    # llmtrace web
+    # Abre tu navegador en http://localhost:5000 (por defecto)
+    
+    await llmtrace.close() # Cierra la conexión a la DB
+    
+if __name__ == "__main__":
+    asyncio.run(main())
