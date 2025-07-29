@@ -1,0 +1,9 @@
+fastcore
+httpx
+cryptography
+
+[dev]
+nbdev
+jupyter
+setuptools==77.0.3
+twine
