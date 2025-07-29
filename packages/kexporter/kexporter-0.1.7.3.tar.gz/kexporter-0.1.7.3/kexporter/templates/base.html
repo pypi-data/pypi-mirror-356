@@ -1,0 +1,383 @@
+ <!--
+ __   ____ _______  ___  ___    _______    ______     _______  ___________  _______   _______   
+|/"| /  ")/"     "||"  \/"  |  |   __ "\  /    " \   /"      \("     _   ")/"     "| /"      \  
+(: |/   /(: ______) \   \  /   (. |__) :)// ____  \ |:        |)__/  \\__/(: ______)|:        | 
+|    __/  \/    |    \\  \/    |:  ____//  /    ) :)|_____/   )   \\_ /    \/    |  |_____/   ) 
+(// _  \  // ___)_   /\.  \    (|  /   (: (____/ //  //      /    |.  |    // ___)_  //      /  
+|: | \  \(:      "| /  \   \  /|__/ \   \        /  |:  __   \    \:  |   (:      "||:  __   \  
+(__|  \__)\_______)|___/\___|(_______)   \"_____/   |__|  \___)    \__|    \_______)|__|  \___) 
+  _              _                 _      _     
+ | |__   _   _  | | __ _   _  ___ | |__  | |__  
+ | '_ \ | | | | | |/ /| | | |/ __|| '_ \ | '_ \ 
+ | |_) || |_| | |   < | |_| |\__ \| | | || | | |
+ |_.__/  \__, | |_|\_\ \__,_||___/|_| |_||_| |_|
+         |___/                                  
+
+kexporter - Module Python
+Copyright (C) 2025 Mathys (alias Kushh)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Transcript - #{{ channel_name }}</title>
+    <style>
+    {{ style_content | safe }}
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function() {
+            twemoji.parse(document.body, {
+                folder: 'svg',
+                ext: '.svg',
+                base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/'
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="channel-header">
+        <div class="channel-info">
+            <span class="channel-name">#{{ channel_name }}</span>
+            {% if channel_topic %}
+            <span class="channel-topic">{{ channel_topic }}</span>
+            {% endif %}
+        </div>
+        <div class="header-menu">
+            <div class="burger-menu">
+                <svg class="burger-icon" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+                <div class="stats-popup">
+                    <div class="stats-content">
+                        <div class="stat-item">
+                            <span class="stat-label">Messages</span>
+                            <span class="stat-value">{{ message_count }}</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Participants</span>
+                            <span class="stat-value">{{ unique_users }}</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Exporté le</span>
+                            <span class="stat-value">{{ export_date }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat-log">
+        {% for message in messages %}
+        <div class="message" data-user-id="{{ message.author.id }}">
+            <img class="avatar" src="{{ message.author.avatar_url }}" alt="avatar" />
+            <div class="user-popup" id="popup-{{ message.author.id }}">
+                <div class="user-banner" style="background: {% if message.author.banner_url %}url('{{ message.author.banner_url }}') center/cover{% elif message.author.accent_color %}#{{ message.author.accent_color }}{% else %}#36393f{% endif %};"></div>
+                <div class="user-info">
+                    <img src="{{ message.author.avatar_url }}" class="popup-avatar" />
+                    <div class="user-details">
+                        <div class="user-name">{{ message.author.name }}</div>
+                        <div class="user-id">ID: {{ message.author.id }}</div>
+                        {% if message.author.all_roles %}
+                        <div class="user-roles">
+                            {% for role in message.author.all_roles|reverse %}
+                            <span class="role-tag" style="background-color: rgba({{ role.color }}, 0.1); color: #{{ '%06x' % role.color if role.color else 'ffffff' }}">
+                                {{ role.name }}
+                            </span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="message-content">
+                {% if message.reply_to %}
+                <div class="reply-container">
+                    ↩️ Réponse à {{ message.reply_to.author }} : {{ message.reply_to.content }}
+                </div>
+                {% endif %}
+                <div class="message-header">
+                    <span class="username" style="color: {% if message.author.color %}#{{ '%06x' % message.author.color }}{% else %}#ffffff{% endif %}">
+                        {{ message.author.name }}
+                    </span>
+                    {% if message.author.is_bot %}
+                    <span class="bot-badge">APP</span>
+                    {% endif %}
+                    {% if message.author.highest_role %}
+                    <span class="role-tag" style="background-color: rgba({{ message.author.highest_role.color }}, 0.1); color: #{{ '%06x' % message.author.highest_role.color if message.author.highest_role.color else 'ffffff' }}">
+                        {{ message.author.highest_role.name }}
+                    </span>
+                    {% endif %}
+                    <span class="timestamp">{{ message.timestamp | format_timestamp }}</span>
+                    {% if message.edited_at %}
+                    <span class="edited-tag">(modifié)</span>
+                    {% endif %}
+                </div>
+                <div class="content">{{ message.content | safe }}</div>
+                {% if message.attachments %}
+                <div class="attachments">
+                    {% for file in message.attachments %}
+                    {% if include_attachments and file.url %}
+                        <a href="{{ file.url }}" class="attachment-link" target="_blank" rel="noopener noreferrer">
+                            <div class="attachment-info">
+                                <svg class="attachment-icon" viewBox="0 0 24 24">
+                                    <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z"/>
+                                </svg>
+                                <div class="attachment-details">
+                                    <span>{{ file.filename }}</span>
+                                    <span class="attachment-size">{{ file.size | filesizeformat }}</span>
+                                </div>
+                            </div>
+                            <svg class="download-icon" viewBox="0 0 24 24">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                            </svg>
+                        </a>
+                    {% else %}
+                        <span class="attachment-disabled">
+                            <div class="attachment-info">
+                                <svg class="attachment-icon" viewBox="0 0 24 24">
+                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2z"/>
+                                </svg>
+                                <div class="attachment-details">
+                                    <span>{{ file.filename }}</span>
+                                    <span class="attachment-size">Non inclus</span>
+                                </div>
+                            </div>
+                        </span>
+                    {% endif %}
+                {% endfor %}
+                </div>
+                {% endif %}
+                {% if message.embeds %}
+                <div class="embeds">
+                    {% for embed in message.embeds %}
+                    <div class="embed" style="border-left: 4px solid #{{ '%06x' % embed.color if embed.color else '4f545c' }};">
+                        {% if embed.author %}
+                        <div class="embed-author">
+                            {% if embed.author.icon_url %}
+                            <img src="{{ embed.author.icon_url }}" class="embed-author-icon" />
+                            {% endif %}
+                            {% if embed.author.url %}
+                            <a href="{{ embed.author.url }}" class="embed-author-name">{{ embed.author.name }}</a>
+                            {% else %}
+                            <span class="embed-author-name">{{ embed.author.name }}</span>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        
+                        {% if embed.thumbnail_url %}
+                        <div class="embed-thumbnail">
+                            <img src="{{ embed.thumbnail_url }}" />
+                        </div>
+                        {% endif %}
+                        
+                        {% if embed.title %}
+                            {% if embed.url %}
+                            <a href="{{ embed.url }}" class="embed-title">{{ embed.title }}</a>
+                            {% else %}
+                            <div class="embed-title">{{ embed.title }}</div>
+                            {% endif %}
+                        {% endif %}
+                        
+                        {% if embed.description %}
+                            <div class="embed-description">{{ embed.description | safe }}</div>
+                        {% endif %}
+                        
+                        {% if embed.fields %}
+                        <div class="embed-fields">
+                            {% for field in embed.fields %}
+                            <div class="embed-field{% if field.inline %} inline{% endif %}">
+                                <div class="field-name">{{ field.name | safe }}</div>
+                                <div class="field-value">{{ field.value | safe }}</div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        
+                        {% if embed.image_url %}
+                        <div class="embed-image">
+                            <img src="{{ embed.image_url }}" />
+                        </div>
+                        {% endif %}
+                        
+                        {% if embed.footer or embed.timestamp %}
+                        <div class="embed-footer">
+                            {% if embed.footer %}
+                                {% if embed.footer.icon_url %}
+                                <img src="{{ embed.footer.icon_url }}" class="footer-icon" />
+                                {% endif %}
+                                <span class="footer-text">{{ embed.footer.text }}</span>
+                            {% endif %}
+                            {% if embed.timestamp %}
+                            <span class="embed-timestamp">• {{ embed.timestamp | format_timestamp }}</span>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if message.components %}
+                <div class="message-components">
+                    {% for row in message.components %}
+                    <div class="component-row">
+                        {% for item in row["items"] %}
+                            {% if item.type == 2 %}  {# Button #}
+                                {% if item.url %}
+                                <a href="{{ item.url }}" class="btn btn-{{ item.style }}{% if item.disabled %} disabled{% endif %}" target="_blank" rel="noopener noreferrer">
+                                    {% if item.emoji %}<span class="component-emoji">{{ item.emoji }}</span>{% endif %}
+                                    {{ item.label }}
+                                </a>
+                                {% else %}
+                                <button class="btn btn-{{ item.style }}{% if item.disabled %} disabled{% endif %}" disabled>
+                                    {% if item.emoji %}<span class="component-emoji">{{ item.emoji }}</span>{% endif %}
+                                    {{ item.label }}
+                                </button>
+                                {% endif %}
+                            {% elif item.type == 3 %}  {# Select Menu #}
+                                <div class="select-menu{% if item.disabled %} disabled{% endif %}">
+                                    <div class="select-trigger">
+                                        <span class="select-placeholder">{{ item.placeholder }}</span>
+                                        <span class="select-arrow">▼</span>
+                                    </div>
+                                    <div class="select-options">
+                                        {% for option in item.options %}
+                                        <div class="select-option{% if option.default %} default{% endif %}">
+                                            {% if option.emoji %}<span class="component-emoji">{{ option.emoji }}</span>{% endif %}
+                                            <span class="option-label">{{ option.label }}</span>
+                                            {% if option.description %}
+                                            <span class="option-description">{{ option.description }}</span>
+                                            {% endif %}
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if message.reactions %}
+                <div class="reactions">
+                    {% for reaction in message.reactions %}
+                        <span class="reaction {% if reaction.is_super %}super-reaction{% endif %}">
+                            {% if reaction.emoji.startswith('<img') %}
+                                {{ reaction.emoji | safe }}
+                            {% else %}
+                                {{ reaction.emoji }}
+                            {% endif %}
+                            {{ reaction.count }}
+                        </span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <script>
+        console.log("k_exporter by @kushh");
+        document.querySelectorAll('.avatar').forEach(avatar => {
+            avatar.addEventListener('click', (e) => {
+                const message = e.target.closest('.message');
+                const userId = message.dataset.userId;
+                const clickedPopup = document.getElementById(`popup-${userId}`);
+                
+                document.querySelectorAll('.user-popup').forEach(popup => {
+                    if (popup !== clickedPopup) {
+                        popup.classList.remove('show');
+                    }
+                });
+
+                const rect = e.target.getBoundingClientRect();
+                const viewportWidth = window.innerWidth;
+                const viewportHeight = window.innerHeight;
+                
+                let leftPos = rect.right + 10;
+                if (leftPos + 300 > viewportWidth) {
+                    leftPos = rect.left - 310;
+                }
+                
+                let topPos = rect.top;
+                if (topPos + 400 > viewportHeight) {
+                    topPos = Math.max(viewportHeight - 400, 0);
+                }
+
+                clickedPopup.style.position = 'fixed';
+                clickedPopup.style.left = `${leftPos}px`;
+                clickedPopup.style.top = `${topPos}px`;
+                clickedPopup.classList.toggle('show');
+                
+                e.stopPropagation();
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.avatar') && !e.target.closest('.user-popup') && 
+                !e.target.closest('.burger-menu')) {
+                document.querySelectorAll('.user-popup, .stats-popup').forEach(popup => {
+                    popup.classList.remove('show');
+                });
+            }
+        });
+
+
+        document.querySelectorAll('.spoiler-container').forEach(spoiler => {
+            spoiler.addEventListener('click', () => {
+                spoiler.classList.toggle('spoiler-hidden');
+                spoiler.classList.toggle('spoiler-revealed');
+            });
+        });
+
+        document.querySelector('.burger-menu').addEventListener('click', (e) => {
+            const popup = e.currentTarget.querySelector('.stats-popup');
+            popup.classList.toggle('show');
+            e.stopPropagation();
+        });
+
+        document.querySelectorAll('.select-menu').forEach(menu => {
+            const trigger = menu.querySelector('.select-trigger');
+            
+            trigger.addEventListener('click', (e) => {
+                document.querySelectorAll('.select-menu').forEach(otherMenu => {
+                    if (otherMenu !== menu) {
+                        otherMenu.classList.remove('active');
+                    }
+                });
+                
+                menu.classList.toggle('active');
+                e.stopPropagation();
+            });
+        });
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.select-menu').forEach(menu => {
+                menu.classList.remove('active');
+            });
+        });
+
+        document.querySelectorAll('.select-options').forEach(options => {
+            options.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+        });
+
+
+    </script>
+</body>
+</html>
