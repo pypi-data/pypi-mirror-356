@@ -1,0 +1,16 @@
+fabric
+keystoneauth1
+openstacksdk
+paramiko
+python-cinderclient
+python-glanceclient
+python-ironicclient
+python-manilaclient
+python-neutronclient
+python-novaclient
+python-swiftclient
+python-zunclient
+ipython
+ipywidgets
+networkx
+matplotlib
