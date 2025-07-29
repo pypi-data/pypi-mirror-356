@@ -1,0 +1,2 @@
+[graphlibx.backends]
+nx_loopback = graphlibx.classes.tests.dispatch_interface:backend_interface
