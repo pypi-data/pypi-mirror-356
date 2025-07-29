@@ -1,0 +1,93 @@
+{% set admin_index = 0 %}
+{% extends "admin.jinja2" %}
+{% block admin_content %}
+<p class="admin-stat">
+  {{ _("admin.overview.instance_has") }}&hellip;
+</p>
+
+<p class="admin-stat">
+  &hellip; {{ ngettext("admin.overview.stat.user", "admin.overview.stat.users", user_count) }}
+</p>
+
+<p class="admin-stat">
+  &hellip; {{ ngettext("admin.overview.stat.track", "admin.overview.stat.tracks", track_count) }}
+</p>
+
+<p class="admin-stat">
+  &hellip; {{ (total_size / 1024  / 1024) | round(2) }} {{ _("admin.overview.stats.mib") }}
+</p>
+
+<div style="position: relative; height: 500px; margin: auto; width: 75%;">
+  <canvas id="graph-size-breakdown"></canvas>
+</div>
+
+<h2>{{ _("admin.overview.system_overview") }}</h2>
+
+<table class="table">
+  <tr>
+    <td>{{ _("admin.overview.fietsboek_version") }}</td>
+    <td>{{ versions["fietsboek"] }}</td>
+  </tr>
+  <tr>
+    <td>{{ _("admin.overview.python_version") }}</td>
+    <td>{{ versions["python"] }}</td>
+  </tr>
+  <tr>
+    <td>{{ _("admin.overview.kernel_version") }}</td>
+    <td>{{ versions["linux"] }}</td>
+  </tr>
+  <tr>
+    <td>{{ _("admin.overview.distro_version") }}</td>
+    <td>{{ versions["distro"] }}</td>
+  </tr>
+  <tr class="{% if cron_good %}table-success{% else %}table-warning{% endif %}">
+    <td>{{ _("admin.overview.last_cronjob") }} {% if not cron_good %}<i class="bi bi-exclamation-triangle-fill"></i>{% endif %}</td>
+    <td>{{ last_cronjob }}</td>
+  </tr>
+</table>
+{% endblock %}
+
+{% block latescripts %}
+<script>
+  (function() {
+    const data = {
+      labels: [
+        {{ _("admin.overview.storage_graph.label.gpx") | tojson }},
+        {{ _("admin.overview.storage_graph.label.images") | tojson }},
+        {{ _("admin.overview.storage_graph.label.previews") | tojson }},
+        {{ _("admin.overview.storage_graph.label.user_maps") | tojson }}
+      ],
+      datasets: [
+        {
+          label: "MiB",
+          data: [
+            {{ (size_breakdown.gpx_files / 1024 / 1024) | tojson }},
+            {{ (size_breakdown.image_files / 1024  / 1024) | tojson }},
+            {{ (size_breakdown.preview_files / 1024 / 1024) | tojson }},
+            {{ (size_breakdown.user_maps / 1024 / 1024) | tojson }}
+          ]
+        }
+      ]
+    };
+
+    const config = {
+      type: 'pie',
+      data: data,
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+          title: {
+            display: true,
+            text: {{ _("admin.overview.storage_graph.title") | tojson }}
+          }
+        }
+      }
+    };
+
+    new Chart("graph-size-breakdown", config);
+  })();
+</script>
+{% endblock %}

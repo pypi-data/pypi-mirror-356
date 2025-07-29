@@ -1,0 +1,16 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<div class="container">
+  <h1>{{ _("403.title") }}</h1>
+  <div style="text-align: center;">
+    <img src="{{ request.static_url('fietsboek:static/NoEntry.svg') }}" style="width: min(100%, 300px); margin: auto;">
+    <p>
+      {{ _("403.no_access") }}
+    </p>
+    <p>
+      {{ _("403.try_log_in") }}
+    </p>
+  </div>
+</div>
+{% endblock content %}

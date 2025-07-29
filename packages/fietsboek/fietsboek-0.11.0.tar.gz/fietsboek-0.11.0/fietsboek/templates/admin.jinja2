@@ -1,0 +1,21 @@
+{% extends "layout.jinja2" %}
+{% import "util.jinja2" as util with context %}
+{% block content %}
+<div class="container">
+  <h1>{{ _("page.admin.title") }}</h1>
+
+  <div id="adminContainer">
+    <aside id="adminNavigation">
+      <nav class="nav nav-pills nav-fill flex-column">
+        <a class="nav-link{% if admin_index == 0 %} active text-bg-dark{% endif %}" href="{{ request.route_url('admin') }}">{{ _("page.admin.nav.overview") }}</a>
+        <a class="nav-link{% if admin_index == 1 %} active text-bg-dark{% endif %}" href="{{ request.route_url('admin-badge') }}">{{ _("page.admin.nav.badges") }}</a>
+      </nav>
+    </aside>
+
+    <div id="adminContent">
+      {% block admin_content %}
+      {% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}

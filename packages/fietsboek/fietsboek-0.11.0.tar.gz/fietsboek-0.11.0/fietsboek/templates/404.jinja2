@@ -1,0 +1,16 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<div class="container">
+  <h1>{{ _("404.title") }}</h1>
+  <div style="text-align: center;">
+    <img src="{{ request.static_url('fietsboek:static/DeadEnd.svg') }}" style="width: min(100%, 300px); margin: auto;">
+    <p>
+      {{ _("404.path_not_found") }}
+    </p>
+    <p>
+      {{ _("404.choose_different") }}
+    </p>
+  </div>
+</div>
+{% endblock content %}

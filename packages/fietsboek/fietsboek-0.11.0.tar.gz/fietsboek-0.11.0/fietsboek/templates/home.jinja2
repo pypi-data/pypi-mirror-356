@@ -1,0 +1,105 @@
+{% extends "layout.jinja2" %}
+
+{% macro render_html_tooltip(stats) -%}
+<table>
+  <tr><td>{{ _("tooltip.table.max_length") }}</td><td>{{ (stats.longest_distance_track.length / 1000) | round(2) | format_decimal }} km</td></tr>
+  <tr><td>{{ _("tooltip.table.avg_length") }}</td><td>{{ (stats.avg_length / 1000) | round(2) | format_decimal }} km</td></tr>
+  <tr><td>{{ _("tooltip.table.moving_time") }}</td><td>{{ stats.moving_time | round_to_seconds }}</td></tr>
+  <tr><td>{{ _("tooltip.table.stopped_time") }}</td><td>{{ stats.stopped_time | round_to_seconds }}</td></tr>
+  <tr><td>{{ _("tooltip.table.max_duration") }}</td><td>{{ stats.longest_duration_track.duration | round_to_seconds }}</td></tr>
+  <tr><td>{{ _("tooltip.table.avg_duration") }}</td><td>{{ stats.avg_duration | round_to_seconds }}</td></tr>
+</table>
+{%- endmacro %}
+
+{% block content %}
+<div class="container">
+  <div class="clearfix">
+    <h1 class="float-start">{{ _("page.home.title") }}</h1>
+    {% if summary %}
+    <div class="float-end mb-2 mt-2">
+      <button type="button" class="btn btn-outline-dark" id="changeHomeSorting">
+        {% if sorted_ascending %}<i class="bi bi-sort-down"></i>{% else %}<i class="bi bi-sort-up"></i>{% endif %}
+      </button>
+    </div>
+    {% endif %}
+  </div>
+  {% if unfinished_uploads %}
+  <div class="alert alert-warning">
+    {{ _("page.home.unfinished_uploads") }}
+    <ul class="mb-0">
+      {% for upload in unfinished_uploads %}
+      <li><a href="{{ request.route_url("finish-upload", upload_id=upload.id) }}">{{ upload.uploaded_at | local_datetime }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% if summary %}
+  <div class="list-group list-group-root" id="homeOverview">
+    {% for year in summary %}
+    <a class="list-group-item list-group-item-primary">
+      <i class="bi bi-chevron-down summary-toggler"></i>
+      <span data-bs-toggle="tooltip" data-bs-container="body" data-bs-html="true" title="{{ render_html_tooltip(year.stats()) }}">
+        {{ year.year }}
+      </span>
+      <span class="float-end">{{ ngettext("page.home.summary.track", "page.home.summary.tracks", year|length) }} &mdash; {{ (year.total_length / 1000) | round(2) | format_decimal }} km</span>
+    </a>
+    <div class="list-group collapse show">
+      {% for month in year %}
+      <a class="list-group-item list-group-item-secondary">
+        <i class="bi bi-chevron-down summary-toggler"></i>
+        <span data-bs-toggle="tooltip" data-bs-container="body" data-bs-html="true" title="{{ render_html_tooltip(month.stats()) }}">
+          {{ month_name(request, month.month) }}
+        </span>
+        <span class="float-end">{{ ngettext("page.home.summary.track", "page.home.summary.tracks", month|length) }} &mdash; {{ (month.total_length / 1000) | round(2) | format_decimal }} km</span>
+      </a>
+      <div class="list-group collapse show">
+        {% for track in month %}
+        <span class="list-group-item">
+          <span class="day-field">{{ track.date.day }}:</span>
+          <a href="{{ request.route_url('details', track_id=track.id) }}" data-bs-toggle="tooltip" data-bs-container="body" data-bs-html="true" title="{{ track.html_tooltip(request.localizer) }}">
+            {{ track.title | default(track.date, true) }}
+          </a>
+          {% if request.identity in track.favourees %}
+          <i class="bi bi-star-fill favourite-star-ni"></i>
+          {% endif %}
+          <span class="float-end">
+              {% if track.images %}
+              <span class="count-field">
+                {{ track.images | length }} <i class="bi bi-images"></i>
+              </span>
+              {% else %}
+              <span class="count-field"></span>
+              {% endif %}
+              {% if track.comments %}
+              <span class="count-field">
+                {{ track.comments | length }} <i class="bi bi-chat-left-text-fill"></i>
+              </span>
+              {% else %}
+              <span class="count-field"></span>
+              {% endif %}
+              {% if track.tagged_people %}
+              <span class="count-field" data-bs-toggle="tooltip" data-bs-container="body" data-bs-html="true" title="{{ track.html_tooltip_tagged_people() }}">
+                  {{ track.tagged_people | length + 1 }} <i class="bi bi-people-fill"></i> &nbsp;
+              </span>
+              {% else %}
+              <span class="count-field"></span>
+              {% endif %}
+              <span class="length-field">
+                {{ (track.length / 1000) | round(2) | format_decimal }} km
+              </span>
+          </span>
+        </span>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+  <p>
+    {{ _("page.home.total") }}: {{ ngettext("page.home.summary.track", "page.home.summary.tracks", summary|length) }}, {{ (summary.total_length / 1000) | round(2) | format_decimal }} km
+  </p>
+  {% elif home_content %}
+  {{ home_content | safe }}
+  {% endif %}
+</div>
+{% endblock %}

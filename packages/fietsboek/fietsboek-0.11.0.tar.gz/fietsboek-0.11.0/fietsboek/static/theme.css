@@ -1,0 +1,350 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #101010;
+  background: #efefef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#mainContent {
+  flex: 1;
+  margin-top: 1em;
+}
+
+#siteFooter {
+  padding-bottom: 20px;
+}
+
+#languageChooser {
+  display: flex;
+}
+#languageChooser .language-choice {
+  display: block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.alert {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ui-element {
+  font-family: "Inter", sans-serif;
+}
+
+.brand-link {
+  text-decoration: none;
+}
+
+#homeOverview {
+  margin-bottom: 1em;
+}
+
+.badge-container {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #dee2e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#trackImageShowcase .carousel-item img {
+  max-height: 700px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.track-image-caption {
+  text-align: center;
+}
+
+#trackImageList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track-image-preview {
+  position: relative;
+  width: min(317px, 100%);
+  height: 178.3125px;
+  border: 1px solid grey;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.track-image-preview .delete-image {
+  position: absolute;
+  z-index: 5;
+  background-color: white;
+  right: 0px;
+}
+.track-image-preview .edit-image-description {
+  position: absolute;
+  z-index: 5;
+  right: 0px;
+  top: 2em;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.375em;
+  border: 0;
+  box-sizing: content-box;
+  color: #000;
+  opacity: 0.5;
+  padding: 0.25em 0.25em;
+}
+.track-image-preview .edit-image-description i {
+  position: relative;
+  top: -0.25em;
+}
+.track-image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.track-description img {
+  max-width: 100%;
+}
+
+.track-badges {
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.summary-toggler {
+  cursor: pointer;
+}
+
+.admin-badge-list * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.badge-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tooltip-inner {
+  max-width: 400px;
+}
+
+.friendlist-control {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.friendlist-control button {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.friendlist-control span {
+  padding-left: 1em;
+}
+
+.favourite-star, .favourite-star-ni {
+  color: orange;
+}
+
+.favourite-star {
+  cursor: pointer;
+}
+
+.count-field {
+  width: 50px;
+  display: inline-block;
+  text-align: right;
+  font-variant: lining-nums;
+}
+
+.day-field {
+  width: 1.6em;
+  display: inline-block;
+}
+
+.length-field {
+  min-width: 5.2em;
+  display: inline-block;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.calendar-title {
+  text-align: center;
+}
+
+.calendar-controls {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profile-calendar {
+  width: 100%;
+}
+.profile-calendar thead {
+  text-align: center;
+  font-size: 120%;
+}
+.profile-calendar .calendar-cell, .profile-calendar .calendar-cell-empty {
+  height: 150px;
+  width: 14.2857142857%;
+}
+.profile-calendar .calendar-cell {
+  border: 1px solid gray;
+  vertical-align: top;
+}
+.profile-calendar .calendar-cell .calendar-date {
+  font-size: 140%;
+  font-weight: bold;
+}
+.profile-calendar .calendar-cell ul {
+  list-style: none;
+  text-align: center;
+}
+.profile-calendar .cell-length-0 {
+  color: gray;
+}
+.profile-calendar .cell-length-1 {
+  background-color: #8FF0A4;
+}
+.profile-calendar .cell-length-1 ul {
+  font-size: 110%;
+}
+.profile-calendar .cell-length-2 {
+  background-color: #75DD95;
+}
+.profile-calendar .cell-length-2 ul {
+  font-size: 120%;
+}
+.profile-calendar .cell-length-3 {
+  background-color: #5BC987;
+}
+.profile-calendar .cell-length-3 ul {
+  font-size: 130%;
+}
+.profile-calendar .cell-length-4 {
+  background-color: #40B678;
+}
+.profile-calendar .cell-length-4 ul {
+  font-size: 140%;
+}
+.profile-calendar .cell-length-5 {
+  color: white;
+  background-color: #26A269;
+}
+.profile-calendar .cell-length-5 ul {
+  font-size: 150%;
+}
+.profile-calendar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.browse-summary {
+  font-variant: lining-nums;
+}
+
+/* Ensure a consistent width of the cells in the browse view. */
+.browse-summary th, .browse-summary td {
+  width: 25%;
+}
+
+.browse-track-card {
+  display: grid;
+  grid-template: "preview data"/300px auto;
+}
+@media (max-width: 768px) {
+  .browse-track-card {
+    grid-template: "preview" "data";
+  }
+}
+.browse-track-card.card-body {
+  padding: 0px;
+}
+.browse-track-card .browse-track-preview {
+  grid-area: preview;
+}
+@media (max-width: 768px) {
+  .browse-track-card .browse-track-preview {
+    text-align: center;
+  }
+}
+.browse-track-card .browse-track-preview img {
+  width: 300px;
+  height: 300px;
+}
+.browse-track-card .browse-track-data {
+  grid-area: data;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.chart-title {
+  text-align: center;
+}
+
+/* Admin view layout: We have an extra sidebar for the navigation */
+#adminContainer {
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 1fr 5fr;
+  gap: 1rem;
+}
+
+#adminNavigation {
+  grid-area: sidebar;
+}
+
+#adminContent {
+  grid-area: main;
+}
+
+.admin-stat {
+  font-size: 120%;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 45px;
+}
+
+/*# sourceMappingURL=theme.css.map */
