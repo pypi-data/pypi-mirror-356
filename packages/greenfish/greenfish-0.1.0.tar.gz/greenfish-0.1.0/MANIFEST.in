@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include requirements.txt
+include pyproject.toml
+
+recursive-include greenfish *.py
+recursive-include greenfish/ui/resources *.png *.svg *.ico *.qrc *.ui
+recursive-include docs *.rst *.md *.py conf.py Makefile make.bat
+
+prune tests
+prune .git
+prune .github
+prune docs/_build
