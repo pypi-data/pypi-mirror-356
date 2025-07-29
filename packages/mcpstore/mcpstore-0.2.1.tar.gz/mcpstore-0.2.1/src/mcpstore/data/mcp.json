@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcpstore-wiki": {
+      "url": "http://59.110.160.18:21923/mcp",
+      "transport": "streamable-http"
+    },
+    "高德": {
+      "url": "https://mcp.amap.com/sse?key=da2c9c39f9edad643b9c53f506fb381c",
+      "transport": "sse"
+    }
+  }
+}
