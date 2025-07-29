@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fishclient/__init__.py
+fishclient/client.py
+fishclient/events.py
+fishclient.egg-info/PKG-INFO
+fishclient.egg-info/SOURCES.txt
+fishclient.egg-info/dependency_links.txt
+fishclient.egg-info/requires.txt
+fishclient.egg-info/top_level.txt
