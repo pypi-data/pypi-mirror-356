@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+preepiseizures_api_client/__init__.py
+preepiseizures_api_client/__version__.py
+preepiseizures_api_client/client.py
+preepiseizures_api_client.egg-info/PKG-INFO
+preepiseizures_api_client.egg-info/SOURCES.txt
+preepiseizures_api_client.egg-info/dependency_links.txt
+preepiseizures_api_client.egg-info/top_level.txt
