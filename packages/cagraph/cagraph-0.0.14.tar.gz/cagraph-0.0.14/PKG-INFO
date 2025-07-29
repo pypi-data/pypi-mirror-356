@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: cagraph
+Version: 0.0.14
+Summary: A package to generate graphs from calcium imaging data of neural activity.
+Project-URL: Homepage, https://github.com/vporubsky/CaGraph
+Project-URL: Bug Tracker, https://github.com/vporubsky/CaGraph/issues
+Author-email: Veronica Porubsky <verosky@uw.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: bokeh<=2.4.3
+Requires-Dist: cvxpy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: nose~=1.3.7
+Requires-Dist: numpy
+Requires-Dist: oasis-deconv
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: pynwb
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: statannot
+Description-Content-Type: text/markdown
+
+# cagraph
+
+This package is designed to process calcium imaging 
+data recorded from neuronal populations into graphs to
+be analyzed for functional connectivity patterns.
