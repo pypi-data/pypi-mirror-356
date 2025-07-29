@@ -1,0 +1,11 @@
+groups:
+- neurodata_type_def: V2TESTParameters
+  neurodata_type_inc: LabMetaData
+  doc: sample v2 test task
+  attributes:
+  - name: param1
+    dtype: int
+    doc: parameter 1
+  - name: param2
+    dtype: float
+    doc: parameter 2

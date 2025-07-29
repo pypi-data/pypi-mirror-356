@@ -1,0 +1,35 @@
+groups:
+- neurodata_type_def: TaskParameters
+  neurodata_type_inc: LabMetaData
+  doc: A custom Task Parameters table for my lab
+  attributes:
+  - name: reaction_time_window_ms
+    dtype: int
+    doc: Reaction time window
+  - name: intertrial_interval_ms
+    dtype: int
+    doc: Intertrial interval
+  - name: iti_jitter_percentage
+    dtype: float
+    doc: Intertrial interval jitter percentage
+  - name: prestimulus_min_ms
+    dtype: int
+    doc: Minimum prestimulus duration
+  - name: prestimulus_max_ms
+    dtype: int
+    doc: Maximum prestimulus duration
+  - name: solenoid_open_duration_ms
+    dtype: int
+    doc: Duration of solenoid opening
+  - name: solenoid_open_count
+    dtype: int
+    doc: Number of solenoid openings
+  - name: too_fast_threshold_ms
+    dtype: int
+    doc: Too-fast response threshold
+  - name: false_alarm_timeout_ms
+    dtype: int
+    doc: False alarm timeout
+  - name: fail_timeout_ms
+    dtype: int
+    doc: Failure timeout 

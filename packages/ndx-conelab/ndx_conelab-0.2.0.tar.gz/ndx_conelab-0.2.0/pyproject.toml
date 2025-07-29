@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ndx-conelab"
+version = "0.2.0"
+authors = [
+  { name="Jose Paulo / Cone Lab", email="zepaulojr1@gmail.com"},
+]
+description = "NWB extension for custom Task Parameters used in the Cone Lab."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pynwb>=2.1.0",      # PyNWB is essential
+    "PyYAML>=6.0",       # YAML serialization for generator
+    "filelock>=3.4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JConeLab/ndx-conelab" # Assuming you'll create this repo
+"Bug Tracker" = "https://github.com/JConeLab/ndx-conelab/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]  # look for packages in the current directory
+include = ["ndx_conelab*"] # Include the ndx_conelab package
+
+[tool.setuptools.package-data]
+"ndx_conelab.spec" = ["*.yaml"]
+"ndx_conelab.extensions" = ["*.yaml"]  # Include generated YAML files
+
+[project.scripts]
+"ndx-conelab" = "ndx_conelab.generator:cli"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+]
+validation = [
+    "jsonschema>=4.0",
+]
+dev = ["pytest>=7.0", "jsonschema>=4.0"] 

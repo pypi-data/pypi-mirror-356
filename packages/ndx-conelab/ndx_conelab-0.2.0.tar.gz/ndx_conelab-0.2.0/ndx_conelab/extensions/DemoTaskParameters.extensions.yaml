@@ -1,0 +1,11 @@
+groups:
+- neurodata_type_def: DemoTaskParameters
+  neurodata_type_inc: LabMetaData
+  doc: Demo task from CLI
+  attributes:
+  - name: stimulus_ms
+    dtype: int
+    doc: Stimulus duration (ms)
+  - name: difficulty
+    dtype: float
+    doc: Difficulty

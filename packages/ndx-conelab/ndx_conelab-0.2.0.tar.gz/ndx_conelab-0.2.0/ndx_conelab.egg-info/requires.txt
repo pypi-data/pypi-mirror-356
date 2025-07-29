@@ -1,0 +1,13 @@
+pynwb>=2.1.0
+PyYAML>=6.0
+filelock>=3.4.0
+
+[dev]
+pytest>=7.0
+jsonschema>=4.0
+
+[test]
+pytest>=7.0
+
+[validation]
+jsonschema>=4.0

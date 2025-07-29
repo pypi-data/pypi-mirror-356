@@ -1,0 +1,11 @@
+groups:
+- neurodata_type_def: SAMPLETASK1
+  neurodata_type_inc: LabMetaData
+  doc: demo sample task 1
+  attributes:
+  - name: alpha
+    dtype: int
+    doc: alpha value
+  - name: beta
+    dtype: float
+    doc: beta value
