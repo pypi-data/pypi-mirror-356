@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=64",
+            "setuptools-scm[toml]>=8",
+            "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "armonik_cli"
+description = "Command-line tool to monitor and manage ArmoniK clusters."
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">=3.8"
+keywords = ["cloud", "HTC", "CLI", "ArmoniK", "Aneo"]
+license = {text = "Apache v2.0 LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta", # see https://pypi.org/classifiers/
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Internet",
+]
+dependencies = [
+    "armonik>=3.25.0",
+    "click",
+    "lark",
+    "PyYAML",
+    "rich_click",
+    "typing_extensions",
+    "pydantic",
+    "pydantic-yaml"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aneoconsulting/ArmoniK.Api"
+"Bug Tracker" = "https://github.com/aneoconsulting/ArmoniK/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where= ["src"]
+exclude=['tests']
+
+[project.optional-dependencies]
+tests = [
+  'coverage',
+  'pytest',
+  'pytest-cov',
+  'pytest-mock',
+  'pytest-benchmark[histogram]',
+]
+dev = [
+    'mypy',
+    'ruff',
+    'types-PyYAML',
+]
+docs = [
+    "sphinx",
+    "sphinx-click",
+    "sphinx-rtd-theme",
+    "sphinx-autobuild"
+]
+
+[project.scripts]
+armonik = "armonik_cli.cli:cli"
+
+[tool.setuptools_scm]
