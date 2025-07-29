@@ -1,0 +1,2 @@
+class GovinfoException(Exception):
+    pass
