@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: genialn
+Version: 1.0.0
+Summary: A simple library for speed control in Python.
+Home-page: https://github.com/your_username/genial
+Author: NEFOR
+Author-email: NEFOR@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+genial - многофукциональная библиотека на языке Python 
+
+
+
+Slowed - фукнция для замедления кода и просмотра более углубленно ошибок которые могут возникнуть в коде 
+
+Использование модуля Slowed без контекстного менеджера 
+
+```
+from genialn import Slowed 
+
+slowed = Slowed(delay=10)
+
+print("Программа начала свою работу")
+
+x = 5
+if x == 5:
+ slowed.slowed()
+ print("Х равно 5")
+slowed.slowed()
+
+print("Программа закончила свою работу")
+```
+
+Использование модуля Slowed с контекстным менеджером 
+```
+from genialn import Slowed 
+
+with Slowed(delay=10):
+ x = 5
+ 
+if x == 5:
+ print("Х равно 5")
+```
+
+Speed - Функция для быстрого запуска кода 
+```
+from genialn import Speed 
+
+
+with Speed(use_cache=False) as genialn:
+ x = 5
+ 
+if x == 5:
+ print("Х равно 5")
+```
+
+Если вам нужно чтобы был кеш используйте вместо False - True 
