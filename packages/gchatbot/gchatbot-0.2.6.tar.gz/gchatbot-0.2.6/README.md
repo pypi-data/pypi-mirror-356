@@ -1,0 +1,713 @@
+# Google Chat Bot Library (`gchatbot`)
+
+Uma biblioteca Python moderna para simplificar a criação de bots para o Google Chat, utilizando **FastAPI** para alta performance e suporte nativo a operações assíncronas.
+
+## Visão Geral
+
+Esta biblioteca fornece uma classe base robusta (`GChatBot`) que gerencia as complexidades da API do Google Chat, permitindo que você se concentre na lógica do seu bot.
+
+-   **Estrutura Moderna com FastAPI:** Aproveita a velocidade e o suporte `async` nativo do FastAPI.
+-   **Processamento Híbrido Robusto:** Tenta responder em segundos para tarefas curtas. Para tarefas longas, ele muda para um modo assíncrono **seguro**, que não duplica o trabalho, garantindo consistência e uma ótima experiência do usuário.
+-   **Suporte Híbrido Sync/Async:** Detecta automaticamente se seus métodos são síncronos ou assíncronos e processa adequadamente.
+-   **Respostas Progressivas:** Fornece feedback imediato ao usuário e depois atualiza com informações detalhadas.
+-   **Arquitetura Modular:** Componentes como `EventParser`, `AsyncProcessor` e `ResponseFactory` são desacoplados, permitindo customizações avançadas.
+-   **Extração de Eventos Simplificada:** Converte automaticamente os diversos formatos de payload do Google Chat em uma estrutura de dados (`ExtractedEventData`) limpa e previsível.
+-   **Tipagem Completa:** Suporte completo a type hints com tipos exportados para melhor experiência de desenvolvimento.
+
+## Como Funciona: O Modelo Híbrido Robusto
+
+A biblioteca implementa um padrão de processamento híbrido que é eficiente e, mais importante, seguro contra condições de corrida e duplicação de trabalho.
+
+1.  **Requisição Recebida:** O `GChatBot` recebe um evento do Google Chat.
+2.  **Detecção Automática:** A biblioteca detecta se seus métodos são síncronos ou assíncronos usando `inspect.iscoroutinefunction()`.
+3.  **Tentativa Síncrona:** Ele inicia o processamento da sua lógica (`_processSlashCommand` ou `_processMessage`) e aguarda por um curto período de tempo (`syncTimeout`).
+4.  **Caminho Feliz (Resposta Rápida):** Se a sua lógica terminar antes do timeout, a resposta é enviada diretamente na requisição original.
+5.  **Caminho Assíncrono (Resposta Lenta):** Se o timeout for atingido:
+    a. O bot responde **imediatamente** `200 OK` ao Google Chat, liberando a conexão.
+    b. Uma tarefa "monitora" é iniciada em background. Essa tarefa **não reexecuta** sua lógica.
+    c. A tarefa monitora **aguarda a conclusão da tarefa original**, que continua rodando.
+    d. Assim que a tarefa original termina, a monitora pega o resultado e o envia como uma nova mensagem no chat.
+
+Este modelo garante que sua lógica de negócio **nunca seja executada mais de uma vez por evento**, prevenindo bugs de consistência de dados e consumo excessivo de recursos.
+
+**Diagrama de Fluxo (GChatBot com FastAPI):**
+
+```mermaid
+graph TD
+    A[Webhook Recebido] --> B("GChatBot.handleRequest");
+    B --> C{Parsing do Evento};
+    C --> D[Detecção Sync/Async];
+    D --> E[Criação da Tarefa de Processamento];
+    E --> F{Aguardar Tarefa com Timeout};
+
+    F -- Concluído a Tempo --> G{Resposta Progressiva?};
+    G -- Não --> H[Formatar Resposta Síncrona];
+    G -- Sim --> I[Enviar Resposta Rápida];
+    H --> J[Resposta HTTP 200 OK com JSON];
+    I --> J;
+
+    F -- Timeout Atingido --> K[Resposta HTTP 200 OK Vazio];
+    K --> L[Iniciar Tarefa Monitora Async];
+
+    subgraph "Processamento em Background"
+        E -- Tarefa Original Continua --> Z[Lógica do Bot];
+        L -- Monitora --> Z;
+        Z -- Resultado Pronto --> M{Resposta Progressiva?};
+        M -- Não --> N[API: Postar Mensagem no Chat];
+        M -- Sim --> O[Processar Resposta Detalhada];
+        O --> P[API: Atualizar Mensagem no Chat];
+    end
+```
+
+## Instalação
+
+A biblioteca é projetada para funcionar com FastAPI, mas também suporta Flask para compatibilidade.
+
+```bash
+# Instale a biblioteca com as dependências do FastAPI (Recomendado)
+pip install "gchatbot[fastapi]"
+
+# Ou instale apenas as dependências básicas
+pip install gchatbot
+
+# Dependências opcionais disponíveis:
+# pip install "gchatbot[flask]"    # Para suporte Flask
+# pip install "gchatbot[async]"    # Para recursos assíncronos adicionais
+```
+
+## Uso Recomendado: Exemplo com FastAPI
+
+```python
+# example.py
+import os
+import time
+import asyncio
+from typing import Any, Dict
+from fastapi import FastAPI, Request
+from gchatbot import GChatBot, ExtractedEventData, EventPayload, ResponseType
+
+# Certifique-se de ter um arquivo 'service.json' ou defina a variável de ambiente.
+SERVICE_ACCOUNT_FILE: str = os.environ.get("SERVICE_ACCOUNT_FILE", "service.json")
+
+class BotExemplo(GChatBot):
+    """
+    Bot de exemplo que demonstra métodos síncronos e assíncronos.
+    
+    Este exemplo mostra como você pode misturar métodos sync e async
+    na mesma classe, e a biblioteca automaticamente detecta e trata
+    cada um de forma apropriada.
+    
+    Também demonstra respostas progressivas (progressive fallback).
+    """
+    def __init__(self) -> None:
+        super().__init__(
+            botName="Bot Exemplo Híbrido",
+            serviceAccountFile=SERVICE_ACCOUNT_FILE,
+            syncTimeout=4.0  # Responde em até 4s ou muda para modo assíncrono.
+        )
+
+    async def _processSlashCommand(self, command: str, arguments: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+        """
+        MÉTODO ASSÍNCRONO - Processa comandos de barra usando async/await.
+        
+        Este método é async, então pode usar await para operações não-bloqueantes.
+        """
+        user: str = extractedData.get('userDisplayName', 'Usuário')
+        userChatId: str = extractedData.get('userGoogleChatId', 'Unknown ID')
+        
+        if command == "lento":
+            # Operação assíncrona que demora mais que o syncTimeout
+            await asyncio.sleep(6)
+            return f"⏱️ Comando /lento ASYNC executado para {user}! Demorou 6 segundos de forma não-bloqueante."
+        
+        elif command == "api":
+            # Simula chamada para API externa assíncrona
+            await asyncio.sleep(3)
+            return f"🌐 Chamada ASYNC para API externa concluída para {user}!"
+        
+        elif command == "concorrente":
+            # Demonstra operações concorrentes
+            tasks: list[asyncio.Task[str]] = [
+                asyncio.create_task(self._operacaoAsync(f"Task {i}", 1)) 
+                for i in range(3)
+            ]
+            resultados: list[str] = await asyncio.gather(*tasks)
+            return f"🚀 Operações concorrentes para {user}:\n" + "\n".join(resultados)
+        
+        elif command == "progressivo":
+            # 🆕 Demonstra resposta progressiva ASSÍNCRONA
+            quickResponse = f"⚡ Iniciando análise para {user}..."
+            
+            async def detailedResponse() -> str:
+                await asyncio.sleep(5)  # Simula processamento longo
+                dados = await self._analisarDadosAsync()
+                return f"📊 Análise completa para {user}!\n\nResultados:\n{dados}"
+            
+            return (quickResponse, detailedResponse)
+        
+        elif command == "relatorio":
+            # 🆕 Demonstra resposta progressiva com processamento complexo
+            quickResponse = f"📋 Gerando relatório para {user}..."
+            
+            async def detailedResponse() -> str:
+                # Simula várias etapas de processamento
+                await asyncio.sleep(2)  # Coleta de dados
+                await asyncio.sleep(3)  # Processamento
+                await asyncio.sleep(2)  # Formatação
+                return f"✅ Relatório completo gerado para {user}!\n\n📈 Dados processados\n📊 Gráficos gerados\n📄 Documento finalizado"
+            
+            return (quickResponse, detailedResponse)
+        
+        elif command == "info":
+            # 🆕 Demonstra uso do userGoogleChatId
+            userEmail: str = extractedData.get('userEmail', 'Unknown Email')
+            return f"""ℹ️ **Informações do Usuário:**
+• Nome: {user}
+• Email: {userEmail}
+• Google Chat ID: {userChatId}
+
+💡 O Google Chat ID é útil para menções programáticas!"""
+        
+        else:
+            await asyncio.sleep(0.5)
+            return f"✅ Comando ASYNC /{command} executado para {user}."
+
+    def _processMessage(self, text: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+        """
+        MÉTODO SÍNCRONO - Processa mensagens usando métodos tradicionais.
+        
+        Este método é síncrono (sem async), então usa time.sleep() e 
+        operações bloqueantes normais.
+        """
+        user: str = extractedData.get('userDisplayName', 'Usuário')
+        
+        if "demorado" in text.lower():
+            # Operação síncrona que bloqueia a thread
+            time.sleep(7)
+            return f"🕐 Você pediu algo demorado, {user}. Processamento SÍNCRONO concluído em 7 segundos!"
+        
+        elif "progressivo" in text.lower():
+            # 🆕 Demonstra resposta progressiva SÍNCRONA
+            quickResponse = f"⚡ Recebido! Processando sua solicitação, {user}..."
+            
+            def detailedResponse() -> str:
+                time.sleep(4)  # Simula processamento
+                resultado = self._processarDadosSync()
+                return f"📋 Análise completa concluída para {user}!\n\nResultados: {resultado}"
+            
+            return (quickResponse, detailedResponse)
+        
+        elif "analise" in text.lower():
+            # 🆕 Outro exemplo de resposta progressiva síncrona
+            quickResponse = f"🔍 Iniciando análise para {user}..."
+            
+            def detailedResponse() -> str:
+                time.sleep(3)  # Processamento
+                return f"📊 Análise detalhada concluída para {user}!\n\n✅ Dados validados\n📈 Tendências identificadas\n🎯 Recomendações geradas"
+            
+            return (quickResponse, detailedResponse)
+        
+        elif "calcular" in text.lower():
+            # Processamento síncrono intensivo
+            time.sleep(2)
+            resultado: int = sum(range(1000000))
+            return f"🧮 Cálculo SÍNCRONO concluído para {user}: {resultado}"
+        
+        else:
+            return f"💬 Mensagem processada de forma SÍNCRONA, {user}: '{text}'"
+
+    # --- Métodos auxiliares ---
+    
+    async def _operacaoAsync(self, nome: str, duracao: int) -> str:
+        """Método auxiliar assíncrono."""
+        await asyncio.sleep(duracao)
+        return f"✓ {nome} concluída ASYNC em {duracao}s"
+    
+    async def _analisarDadosAsync(self) -> str:
+        """Simula análise de dados assíncrona."""
+        await asyncio.sleep(2)
+        return "• Padrões identificados\n• Anomalias detectadas\n• Relatório gerado"
+    
+    def _processarDadosSync(self) -> str:
+        """Simula processamento de dados síncrono."""
+        time.sleep(2)
+        return "Dados processados com sucesso"
+
+# --- Configuração do FastAPI ---
+app: FastAPI = FastAPI(title="Google Chat Bot - Exemplo Híbrido")
+bot: BotExemplo = BotExemplo()
+
+@app.post("/google-chat-webhook")
+async def handleEvent(request: Request) -> Any:
+    """Ponto de entrada para todos os eventos do Google Chat."""
+    return await bot.handleRequest(request)
+
+@app.get("/")
+def home() -> Dict[str, Any]:
+    """Endpoint para verificação de saúde."""
+    return {
+        "status": "ativo", 
+        "bot_name": bot.botName, 
+        "hybrid_support": True,
+        "progressive_responses": True
+    }
+
+# Para executar localmente: uvicorn example:app --reload --port 8080
+```
+
+## 🆕 **Principais Funcionalidades**
+
+### **1. Suporte Híbrido Sync/Async**
+
+A partir da versão 0.2.5, a biblioteca detecta automaticamente se seus métodos `_processMessage` e `_processSlashCommand` são síncronos ou assíncronos:
+
+- **Métodos Assíncronos (`async def`)**: Ideais para chamadas de API, consultas a bancos de dados, ou qualquer operação I/O. Use `await` para operações não-bloqueantes.
+- **Métodos Síncronos (`def`)**: Perfeitos para processamento local, cálculos ou quando você prefere a simplicidade do código síncrono.
+
+**Você pode misturar ambos na mesma classe!** A biblioteca automaticamente:
+- Detecta o tipo de cada método usando `inspect.iscoroutinefunction()`
+- Usa o pipeline assíncrono para métodos `async`
+- Usa o pipeline em thread separada para métodos síncronos
+- Mantém a mesma lógica de timeout e processamento assíncrono robusto
+
+### **2. Respostas Progressivas (Progressive Fallback)**
+
+A partir da versão 0.2.5, você pode implementar respostas progressivas que fornecem feedback imediato e depois atualizam com informações mais detalhadas.
+
+#### **Tipagem Adequada**
+
+Use os tipos exportados pela biblioteca para melhor experiência de desenvolvimento:
+
+```python
+from gchatbot import GChatBot, ExtractedEventData, EventPayload, ResponseType, ProgressiveResponse
+
+class MeuBot(GChatBot):
+    def _processMessage(self, text: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+        # Seu código aqui
+        pass
+    
+    async def _processSlashCommand(self, command: str, arguments: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+        # Seu código aqui
+        pass
+```
+
+#### **Como Implementar Respostas Progressivas**
+
+**Método Síncrono:**
+```python
+def _processMessage(self, text: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+    if "analise" in text.lower():
+        # Resposta progressiva síncrona
+        quickResponse = "⚡ Iniciando análise..."
+        
+        def detailedResponse() -> str:
+            time.sleep(5)  # Processamento intensivo
+            return "📊 Análise completa: Dados processados com sucesso!"
+        
+        return (quickResponse, detailedResponse)  # Tuple = resposta progressiva
+    
+    return "Resposta normal"  # String = resposta única
+```
+
+**Método Assíncrono:**
+```python
+async def _processSlashCommand(self, command: str, arguments: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+    if command == "relatorio":
+        # Resposta progressiva assíncrona
+        quickResponse = "📋 Gerando relatório..."
+        
+        async def detailedResponse() -> str:
+            await asyncio.sleep(10)  # Operação longa
+            return "✅ Relatório completo gerado com todos os dados!"
+        
+        return (quickResponse, detailedResponse)  # Tuple = resposta progressiva
+    
+    return "Comando executado"  # String = resposta única
+```
+
+#### **Como Funciona:**
+1. **Resposta Imediata**: O usuário vê a resposta rápida instantaneamente
+2. **Processamento em Background**: A resposta detalhada é processada em paralelo
+3. **Atualização Automática**: A mensagem é atualizada com o resultado final
+
+#### **Casos de Uso Ideais:**
+- Análises de dados que demoram vários segundos
+- Consultas a APIs externas
+- Processamento de arquivos
+- Relatórios complexos
+- Qualquer operação onde você quer dar feedback imediato ao usuário
+
+#### **Tipos de Resposta Detalhada:**
+
+A resposta detalhada pode ser:
+- **String simples**: `"Resultado final"`
+- **Função síncrona**: `lambda: expensive_computation()`
+- **Função assíncrona**: `async def detailed(): await api_call()`
+
+### **3. Arquitetura Modular**
+
+A biblioteca foi refatorada para uma arquitetura modular, com cada componente tendo uma responsabilidade clara:
+
+-   `main.py`: Contém a classe principal `GChatBot` e a lógica de orquestração.
+-   `parser.py`: Responsável por analisar os payloads dos eventos.
+-   `processor.py`: Gerencia o fluxo de resposta assíncrona.
+-   `response.py`: Fábrica para criar as respostas em formato de card.
+-   `types.py`: Define todas as estruturas de dados e tipos para clareza e robustez.
+
+### **4. Estrutura de Dados do Evento (`ExtractedEventData`)**
+
+O `EventParser` unifica os diferentes payloads do Google Chat em um dicionário `ExtractedEventData` previsível:
+
+-   `rawText`, `processedText`, `command`, `arguments`, `userEmail`, `userDisplayName`, `userGoogleChatId`, `spaceName`, `isDirectMessageEvent`, `messageName`, `isFallbackEvent`.
+
+#### **Campos Disponíveis:**
+
+- **`userEmail`**: Email do usuário que enviou a mensagem
+- **`userDisplayName`**: Nome de exibição do usuário  
+- **`userGoogleChatId`**: ID único do usuário no Google Chat (ex: `users/123456789012345678901`) - **🆕 Novo na v0.2.5**
+- **`rawText`**: Texto original da mensagem
+- **`processedText`**: Texto processado (após remoção de menções, etc.)
+- **`command`**: Nome do comando slash (sem a `/`) ou `None`
+- **`arguments`**: Argumentos do comando ou texto da mensagem
+- **`spaceName`**: Nome do espaço/sala onde ocorreu o evento
+- **`isDirectMessageEvent`**: `True` se for uma mensagem direta (DM)
+- **`messageName`**: Nome da mensagem original (para referência)
+- **`isFallbackEvent`**: `True` se foi um evento com estrutura não reconhecida
+
+### **5. Tipagem Completa**
+
+Todos os tipos principais são exportados para melhor experiência de desenvolvimento:
+
+```python
+from gchatbot import (
+    GChatBot,                    # Classe principal
+    ExtractedEventData,          # Dados estruturados do evento
+    EventPayload,                # Payload original do Google Chat
+    ResponseType,                # Union[str, ProgressiveResponse]
+    ProgressiveResponse,         # Tuple[str, Union[str, Callable[[], str], Callable[[], Awaitable[str]]]]
+    EventParser,                 # Parser de eventos (uso avançado)
+    AsyncProcessor,              # Processador assíncrono (uso avançado)
+    ResponseFactory,             # Fábrica de respostas (uso avançado)
+)
+```
+
+## Suporte Legado (Flask)
+
+Para garantir a retrocompatibilidade, as classes baseadas em Flask (`GChatBotFlask` e `GChatBotOld`) ainda estão disponíveis, mas não são mais recomendadas para novos projetos. A versão `GChatBotFlask` já inclui a correção de concorrência da versão `0.2.4`.
+
+<details>
+<summary>Clique para ver o exemplo com Flask</summary>
+
+```python
+# app_flask.py
+import os
+import time
+from flask import Flask, request
+from gchatbot import GChatBotFlask  # Importe a versão para Flask
+
+class MeuBotFlask(GChatBotFlask):
+    def __init__(self):
+        super().__init__(
+            bot_name="Assistente Flask",
+            service_account_file=os.environ.get("SERVICE_ACCOUNT_FILE", "service.json"),
+            sync_timeout=3.0
+        )
+    
+    def _process_slash_command(self, command: str, arguments: str, extracted_data: dict, event_data: dict) -> str:
+        if command == 'lento':
+            time.sleep(5)
+            return "Tarefa lenta concluída no Flask!"
+        return "Comando rápido executado no Flask."
+    
+    def _process_message(self, text: str, extracted_data: dict, event_data: dict) -> str:
+        return f"Mensagem recebida no Flask: '{text}'"
+
+# Configuração da aplicação Flask
+app = Flask(__name__)
+bot_flask = MeuBotFlask()
+
+@app.route('/', methods=['POST'])
+def webhook():
+    """Endpoint que recebe eventos do Google Chat"""
+    return bot_flask.handle_request(request)
+
+@app.route('/', methods=['GET'])
+def home():
+    """Página inicial para verificar se o serviço está rodando"""
+    return "Bot Flask está ativo!"
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host='0.0.0.0', port=port, debug=True)
+```
+</details>
+
+## Configuração do Google Chat
+
+Para configurar seu bot no Google Chat:
+
+1.  Acesse o [Google Cloud Console](https://console.cloud.google.com/).
+2.  Crie/Configure um projeto.
+3.  **Habilite a API do Google Chat**.
+4.  Vá para a configuração da API do Chat:
+    -   **Nome do App, Avatar, Descrição:** Preencha os detalhes.
+    -   **Funcionalidade:** Habilite "Receber mensagens 1:1" e "Participar de espaços".
+    -   **Configurações de Conexão:**
+        -   Selecione "App URL".
+        -   Insira a URL pública do seu endpoint (ex: de um serviço de nuvem ou `ngrok` para testes).
+
+## Execução Local
+
+Para testar seu bot localmente:
+
+```bash
+# 1. Instale as dependências
+pip install "gchatbot[fastapi]"
+
+# 2. Configure o arquivo de credenciais
+export SERVICE_ACCOUNT_FILE="path/to/your/service-account.json"
+
+# 3. Execute o servidor
+uvicorn example:app --reload --port 8080
+
+# 4. Use ngrok para expor publicamente (para testes)
+ngrok http 8080
+```
+
+## Migração de Versões Anteriores
+
+### De 0.2.4 para 0.2.5
+
+**Mudanças de Compatibilidade:**
+- Parâmetros agora usam camelCase: `extractedData`, `eventData` (antes eram `extracted_data`, `event_data`)
+- Métodos principais mudaram de `_process_message` para `_processMessage` e `_process_slash_command` para `_processSlashCommand`
+
+**Migração Automática:**
+```python
+# Antes (ainda funciona, mas deprecated)
+def _process_message(self, text, extracted_data, event_data):
+    return "Resposta"
+
+# Depois (recomendado)
+def _processMessage(self, text: str, extractedData: ExtractedEventData, eventData: EventPayload) -> ResponseType:
+    return "Resposta"
+```
+
+**Novas Funcionalidades Opcionais:**
+- Respostas progressivas: retorne `(quick_response, detailed_response)` em vez de apenas string
+- Métodos assíncronos: use `async def` para operações I/O intensivas
+- Tipagem completa: importe `ResponseType`, `ProgressiveResponse` da biblioteca
+
+# Changelog
+
+## 0.2.6 - 2025-01-18 - Identificação Aprimorada de Usuários
+
+### Novos Recursos (Added)
+
+**🆔 Campo userGoogleChatId:**
+- Adicionado campo `userGoogleChatId` ao tipo `ExtractedEventData` para identificação única de usuários.
+- O Google Chat ID é extraído automaticamente do payload do evento e disponibilizado em `extractedData['userGoogleChatId']`.
+- Formato típico: `users/123456789012345678901` (ID numérico único do Google Chat).
+- Útil para menções programáticas, identificação única e referências diretas a usuários.
+
+**📚 Exemplos Atualizados:**
+- Adicionado comando `/info` no exemplo que demonstra o uso do `userGoogleChatId`.
+- Adicionada mensagem `meusdados` que mostra informações completas do usuário.
+- Documentação expandida explicando o uso e benefícios do Google Chat ID.
+
+### Melhorias (Improved)
+
+**🔧 Parser Aprimorado:**
+- Atualizado `EventParser` para extrair o campo `name` do usuário como `userGoogleChatId`.
+- Melhor estruturação dos dados do usuário com identificação mais robusta.
+
+**📖 Documentação:**
+- Seção expandida sobre estrutura de dados do evento com descrição detalhada de todos os campos.
+- Exemplos práticos de como usar o `userGoogleChatId` em diferentes cenários.
+
+---
+
+## 0.2.5 - 2025-01-18 - Suporte Híbrido Sync/Async e Respostas Progressivas
+
+### Novos Recursos (Added)
+
+**🚀 Suporte Híbrido para Métodos Síncronos e Assíncronos:**
+- Os métodos `_processMessage` e `_processSlashCommand` agora podem ser implementados como `async def` ou `def` (síncrono).
+- A biblioteca detecta automaticamente o tipo de método usando `inspect.iscoroutinefunction()`.
+- Métodos assíncronos são executados no pipeline async nativo, permitindo operações I/O não-bloqueantes.
+- Métodos síncronos continuam sendo executados em threads separadas para manter compatibilidade.
+- **Flexibilidade Total:** Você pode misturar métodos sync e async na mesma classe de bot.
+
+**🎯 Respostas Progressivas (Progressive Fallback):**
+- **Nova funcionalidade:** Métodos podem retornar `tuple(quick_response, detailed_response)` para respostas em duas etapas.
+- **Resposta Imediata:** O usuário vê a resposta rápida instantaneamente.
+- **Atualização Automática:** A mensagem é atualizada com o resultado detalhado quando pronto.
+- **Suporte Híbrido:** Funciona tanto com métodos síncronos quanto assíncronos.
+- **Casos de Uso:** Ideal para análises longas, consultas a APIs, processamento de arquivos, relatórios complexos.
+- **Tipos Flexíveis:** Resposta detalhada pode ser string, função síncrona ou função assíncrona.
+
+**🔧 Nova Arquitetura de Processamento:**
+- Adicionado método `_processEventAsync()` para lidar especificamente com métodos assíncronos.
+- Melhorada a detecção de métodos async no `handleRequest()` para escolher o pipeline correto.
+- Pipeline assíncrono agora suporta `await` nativo sem conversões ou workarounds.
+- Implementados métodos `_isProgressiveResponse()`, `_handleProgressiveResponse()` e `_sendDetailedResponse()`.
+
+**📝 Tipagem Completa e Padronização:**
+- Todos os métodos e variáveis agora têm anotações de tipo completas.
+- Padronização para camelCase em parâmetros (`extractedData`, `eventData`).
+- Exportação de tipos principais (`ExtractedEventData`, `EventPayload`, `ResponseType`, `ProgressiveResponse`) no `__init__.py`.
+- Novos type aliases: `ProgressiveResponse` e `ResponseType` centralizados em `types.py`.
+- Documentação detalhada com Args e Returns em todos os métodos.
+
+**🆔 Identificação Aprimorada de Usuários:**
+- Adicionado campo `userGoogleChatId` ao `ExtractedEventData` para identificação única de usuários.
+- O Google Chat ID é extraído automaticamente do payload e disponibilizado em `extractedData['userGoogleChatId']`.
+- Útil para menções programáticas, identificação única e referências diretas a usuários.
+- Formato típico: `users/123456789012345678901` (ID numérico único do Google Chat).
+
+### Melhorias (Improved)
+
+**🏗️ Arquitetura Modular Aprimorada:**
+- Separação clara entre processamento síncrono e assíncrono.
+- Melhor organização do código com métodos auxiliares bem definidos.
+- Compatibilidade total com versões anteriores mantida.
+- Tipos centralizados em `types.py` e exportados adequadamente.
+
+**📚 Documentação e Exemplos:**
+- Novo exemplo híbrido demonstrando métodos sync e async na mesma classe.
+- Documentação expandida explicando quando usar cada abordagem.
+- Exemplos práticos de operações concorrentes com `asyncio.gather()`.
+- Guias de uso para chamadas de API assíncronas e processamento intensivo síncrono.
+- **Novo:** Exemplos completos de respostas progressivas tanto síncronas quanto assíncronas.
+- Seção dedicada sobre tipagem e uso dos tipos exportados.
+- Guia de migração de versões anteriores.
+
+**🔄 Gerenciamento de Dependências:**
+- Atualização do `setup.py` com dependências opcionais organizadas.
+- Suporte para instalação modular: `pip install gchatbot[fastapi]`, `gchatbot[flask]`, `gchatbot[async]`.
+- Melhor documentação sobre opções de instalação.
+
+### Correções (Fixed)
+
+**🐛 Correção de Compatibilidade de Tipos:**
+- Resolvidos conflitos entre `EventPayload` e `Dict[str, Any]` nas assinaturas de métodos.
+- Correção de erros de linter relacionados a conversão de corrotinas.
+- Ajustes na tipagem para suportar `ResponseType` e `ProgressiveResponse` adequadamente.
+- Centralização de tipos em `types.py` para evitar duplicação.
+
+**⚡ Otimizações de Performance:**
+- Eliminação de conversões desnecessárias entre sync/async.
+- Melhor utilização de recursos com detecção prévia do tipo de método.
+- Redução de overhead na criação de tasks desnecessárias.
+- Processamento mais eficiente de respostas progressivas.
+
+### Detalhes Técnicos
+
+**Como Funciona a Detecção Automática:**
+```python
+# A biblioteca verifica automaticamente:
+hasAsyncMethods = (
+    inspect.iscoroutinefunction(self._processMessage) or 
+    inspect.iscoroutinefunction(self._processSlashCommand)
+)
+
+# E escolhe o pipeline apropriado:
+if hasAsyncMethods:
+    processing_task = asyncio.create_task(self._processEventAsync(extractedData, eventData))
+else:
+    processing_task = asyncio.create_task(asyncio.to_thread(self._processEvent, extractedData, eventData))
+```
+
+**Como Funcionam as Respostas Progressivas:**
+```python
+# Retornando uma tupla ativa o modo progressivo:
+def _processMessage(self, text, extractedData, eventData):
+    quick = "⚡ Processando..."
+    def detailed():
+        time.sleep(5)
+        return "✅ Concluído!"
+    return (quick, detailed)  # Resposta progressiva
+
+# Ou com async:
+async def _processSlashCommand(self, command, arguments, extractedData, eventData):
+    quick = "📊 Analisando..."
+    async def detailed():
+        await asyncio.sleep(10)
+        return "📈 Análise completa!"
+    return (quick, detailed)  # Resposta progressiva async
+```
+
+**Tipos Disponíveis:**
+```python
+# Importados de gchatbot.types
+ProgressiveResponse = Tuple[str, Union[str, Callable[[], str], Callable[[], Awaitable[str]]]]
+ResponseType = Union[str, ProgressiveResponse]
+```
+
+**Benefícios para Desenvolvedores:**
+- **Flexibilidade:** Escolha a abordagem mais adequada para cada caso de uso.
+- **Performance:** Métodos async aproveitam melhor os recursos do sistema para I/O.
+- **Simplicidade:** Métodos sync mantêm a simplicidade para processamento local.
+- **UX Melhorada:** Respostas progressivas oferecem feedback imediato ao usuário.
+- **Compatibilidade:** Código existente continua funcionando sem modificações.
+- **Tipagem:** Suporte completo a type hints para melhor experiência de desenvolvimento.
+
+---
+
+## 0.2.4 - 2025-01-17 - Correção Definitiva de Concorrência com Monitoramento de Tasks
+
+### Correções (Fixed)
+
+**🔧 Correção Definitiva do Problema de Concorrência:**
+- Substituída a lógica falha de `_run_async_processing` que reexecutava a lógica de negócio.
+- Implementado novo método `_handle_async_response` que **monitora** a task original em vez de recriar o trabalho.
+- **Resultado:** Eliminação completa da duplicação de execução e respostas inconsistentes.
+
+**🎯 Nova Arquitetura de Monitoramento:**
+- Quando ocorre timeout, a task original continua executando em background.
+- Uma thread "monitora" aguarda o resultado da task original usando `future.result()`.
+- A lógica de negócio (`_process_event`) é executada **apenas uma vez** por evento.
+- Resposta imediata "Processando..." seguida de atualização com resultado final.
+
+**⚡ Melhorias na Robustez:**
+- Adicionada conversão automática `str()` nos resultados para prevenir TypeError.
+- Tratamento aprimorado de exceções durante o monitoramento de tasks.
+- Logs mais detalhados para debugging do fluxo assíncrono.
+
+---
+
+## 0.2.3 - 2025-04-24 - Correções de Concorrência, Timeout e Tipo de Resposta
+
+### Correções (Fixed)
+
+**Manuseio de Timeout e Concorrência:**
+- Problema: O uso anterior de `with ThreadPoolExecutor()` no `handle_request` causava um bloqueio (`shutdown(wait=True)`) no handler HTTP quando o `sync_timeout` era atingido. Isso levava o Google Chat a reenviar o evento, resultando em múltiplas threads e respostas duplicadas.
+- Solução: Substituído por instanciação manual do `ThreadPoolExecutor` e chamada explícita `executor.shutdown(wait=False)` no caso de timeout, liberando o handler HTTP imediatamente. A thread `_run_async_processing` para a resposta assíncrona agora é iniciada apenas uma vez por evento original.
+- Resultado: Resposta HTTP 200 OK imediata em caso de timeout, sem bloqueios e sem respostas duplicadas.
+
+**Prevenção de TypeError na Resposta:**
+- Problema: Potencial `TypeError: bad argument type for built-in operation` poderia ocorrer durante a criação/atualização do card de resposta se os métodos de processamento da subclasse (`_process_message`, `_process_slash_command`) retornassem valores não-string (ex: None, números).
+- Solução: Adicionada conversão automática para string (`str()`) ao resultado dentro do método `GChatBot._process_event` antes de ser usado.
+- Resultado: Garante que o texto da resposta seja sempre uma string, prevenindo o TypeError e aumentando a robustez da classe base.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contribuições
+
+Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
+
+## Suporte
+
+Se você encontrar problemas ou tiver dúvidas:
+
+1. Verifique a documentação acima
+2. Consulte os exemplos fornecidos
+3. Abra uma issue no repositório do projeto
+
+---
+
+**Desenvolvido com ❤️ para simplificar o desenvolvimento de bots Google Chat em Python.**

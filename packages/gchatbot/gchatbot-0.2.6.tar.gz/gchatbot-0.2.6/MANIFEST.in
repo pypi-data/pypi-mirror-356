@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.py
+include example.py
+recursive-include gchatbot *.py
+recursive-exclude gchatbot __pycache__
+recursive-exclude gchatbot *.pyc
+recursive-exclude gchatbot *.pyo
+exclude dependencies/*
+exclude *.sh
+exclude publish.md
+exclude generate-version.sh
+exclude toml
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo 
