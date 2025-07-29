@@ -1,0 +1,614 @@
+Metadata-Version: 2.4
+Name: numind
+Version: 0.0.1
+Summary: SDK to interact with the NuMind models API.
+Project-URL: Homepage, https://github.com/numindai/nuextract-platform-sdk
+Project-URL: Repository, https://github.com/numindai/nuextract-platform-sdk.git
+Project-URL: Documentation, https://github.com/numindai/nuextract-platform-sdk#documentation
+Project-URL: Issues, https://github.com/numindai/nuextract-platform-sdk/issues
+Author-email: Nathan Fradet <nathan@numind.ai>
+License:                                  Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+License-File: LICENSE
+Keywords: artificial intelligence,deep learning,structured
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: typing-extensions>=4.7.1
+Requires-Dist: urllib3<3.0.0,>=2.1.0
+Provides-Extra: build
+Requires-Dist: openapi-generator-cli; extra == 'build'
+Requires-Dist: pyyaml; extra == 'build'
+Requires-Dist: toml; extra == 'build'
+Requires-Dist: uv; extra == 'build'
+Provides-Extra: tests
+Requires-Dist: pytest-cov; extra == 'tests'
+Requires-Dist: pytest-dependency; extra == 'tests'
+Requires-Dist: pytest-rerunfailures; extra == 'tests'
+Requires-Dist: pytest-xdist[psutil]; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# NuExtract SDK
+
+Python SDK to interact with NuMind's [**NuExtract**](https://nuextract.ai) API.
+
+## Installation
+
+```sh
+pip install numind
+```
+
+## Usage and code examples
+
+### Create a client
+
+You must first get an API key on [NuExtract](https://nuextract.ai).
+
+```python
+import os
+
+from numind import NuMind
+
+# Create a client object to interact with the API
+# Providing the `api_key` is not required if the `NUMIND_API_KEY` environment variable
+# is already set.
+client = NuMind(api_key=os.environ["NUMIND_API_KEY"])
+```
+
+### Extract structured information "on the fly"
+
+If you want to extract structured information from data without projects but just by providing the input template, you can use the `infer` method which provides a more user-friendly way to interact with the API:
+
+```python
+template = {
+    "destination": {
+        "name": "verbatim-string",
+        "zip_code": "string",
+        "country": "string"
+    },
+    "accommodation": "verbatim-string",
+    "activities": ["verbatim-string"],
+    "duration": {
+        "time_unit": ["day", "week", "month", "year"],
+        "time_quantity": "integer"
+    }
+}
+input_text = """My dream vacation would be a month-long escape to the stunning islands of Tahiti.
+I’d stay in an overwater bungalow in Bora Bora, waking up to crystal-clear turquoise waters and breathtaking sunrises.
+Days would be spent snorkeling with vibrant marine life, paddleboarding over coral gardens, and basking on pristine white-sand beaches.
+I’d explore lush rainforests, hidden waterfalls, and the rich Polynesian culture through traditional dance, music, and cuisine.
+Evenings would be filled with romantic beachside dinners under the stars, with the soothing sound of waves as the perfect backdrop."""
+
+output = client.extract(template=template, input_text=input_text)
+print(output)
+
+# Can also work with files, replace the path with your own
+# from pathlib import Path
+# output = client.extract(template=template, input_file=Path("to", "file.ppt"))
+```
+
+```json
+{
+    "destination": {
+        "name": "Tahiti",
+        "zip_code": "98730",
+        "country": "France"
+    },
+    "accommodation": "overwater bungalow in Bora Bora",
+    "activities": [
+        "snorkeling",
+        "paddleboarding",
+        "basking",
+        "explore lush rainforests, hidden waterfalls, and the rich Polynesian culture"
+    ],
+    "duration": {
+        "time_unit": null,
+        "time_quantity": null
+    }
+}
+```
+
+### Create a good template
+
+NuExtract uses JSON schemas as extraction templates which specify the information to retrieve and their types, which are:
+
+* **string**: a text, whose value can be abstract, i.e. totally free and can be deduced from calculations, reasoning, external knowledge;
+* **verbatim-string**: a purely extractive text whose value must be present in the document. Some flexibility might be allowed on the formatting, e.g. new lines and escaped characters (e.g. `\n`) in a documents might be represented with a space;
+* **integer**: an integer number;
+* **number**: any number, that may be a floating point number or an integer;
+* **boolean**: a boolean whose value should be either true or false;
+* **date-time**: a date or time whose value should follow the ISO 8601 standard (`YYYY-MM-DDThh:mm:ss`). It may feature "reduced" accuracy, i.e. omitting certain date or time components not useful in specific cases. For examples, if the extracted value is a date, `YYYY-MM-DD` is a valid value format. The same applies to times with the `hh:mm:ss` format (without omitting the leading `T` symbol). Additionally, the "least significant" component might be omitted if it is not required or specified. For example, a specific month and year can be specified as `YYYY-MM` while omitting the day component `DD`. A specific hour can be specified as `hh` while omitting the minutes and seconds components. When combining dates and time, only the least significant time components can be omitted, e.g. `YYYY-MM-DDThh:mm` which is omitting the seconds.
+
+Additionally, the value of a field can be:
+
+* a **nested dictionary**, i.e. another branch, describing elements associated to their parent node (key);
+* an **array** of items of the form `["type"]`, whose values are elements of a given "type", which can also be a dictionary of unspecified depth;
+* an **enum**, i.e. a list of elements to choose from of the form `["choice1", "choice2", ...]`. For values of this type, just set the value of the item to choose, e.g. "choice1", and do not set the value as an array containing the item such as `["choice1"]`;
+* a **multi-enum**, i.e. a list from which multiple elements can be picked, of the form `[["choice1", "choice2", ...]]` (double square brackets).
+
+#### Inferring a template
+
+The "infer_template" method allows to quickly create a template that you can start to work with from a text description.
+
+```python
+from numind.openapi_client import TemplateRequest
+from pydantic import StrictStr
+
+description = "Create a template that extracts key information from an order confirmation email. The template should be able to pull details like the order ID, customer ID, date and time of the order, status, total amount, currency, item details (product ID, quantity, and unit price), shipping address, any customer requests or delivery preferences, and the estimated delivery date."
+input_schema = client.post_api_infer_template(
+    template_request=TemplateRequest(description=StrictStr(description))
+)
+```
+
+### Create a project
+
+A project allows to define an information extraction task from a template and examples.
+
+```python
+from numind.openapi_client import CreateProjectRequest
+
+project_id = client.post_api_projects(
+    CreateProjectRequest(
+        name="vacation",
+        description="Extraction of locations and activities",
+        template=template,
+    )
+)
+```
+
+The `project_id` can also be found in the "API" tab of a project on the NuExtract website.
+
+### Add examples to a project to teach NuExtract via ICL (In-Context Learning)
+
+```python
+from pathlib import Path
+
+# Prepare examples, here a text and a file
+example_1_input = "This is a text example"
+example_1_expected_output = {
+    "destination": {"name": None, "zip_code": None, "country": None}
+}
+with Path("path", "to", "example_2.odt").open("rb") as file:  # read bytes
+    example_2_input = file.read()
+example_2_expected_output = {
+    "destination": {"name": None, "zip_code": None, "country": None}
+}
+examples = [
+    (example_1_input, example_1_expected_output),
+    (example_2_input, example_2_expected_output),
+]
+
+# Add the examples to the project
+client.add_examples_to_project(project_id, examples)
+```
+
+### Extract structured information from text
+
+```python
+output_schema = client.extract(project_id, input_text=input_text)
+```
+
+### Extract structured information from a file
+
+```python
+from pathlib import Path
+
+file_path = Path("path", "to", "document.odt")
+with file_path.open("rb") as file:
+    input_file = file.read()
+output_schema = client.extract(project_id, input_file=input_file)
+```
+
+# Documentation
+
+### Extracting Information from Documents
+
+Once your project is ready, you can use it to extract information from documents in real time via this RESTful API.
+
+Each project has its own extraction endpoint:
+
+`https://nuextract.ai/api/projects/{projectId}/extract`
+
+You provide it a document and it returns the extracted information according to the task defined in the project. To use it, you need:
+
+- To create an API key in the Account section
+- To replace `{projectId}` by the project ID found in the API tab of the project
+
+You can test your extraction endpoint in your terminal using this command-line example with curl (make sure that you replace values of `PROJECT_ID`, `NUEXTRACT_API_KEY`, and `FILE_NAME`):
+
+```bash
+NUEXTRACT_API_KEY=\"_your_api_key_here_\"; \\
+PROJECT_ID=\"a24fd84a-44ab-4fd4-95a9-bebd46e4768b\"; \\
+FILE_NAME=\"FrenchID.png\"; \\
+curl \"https://nuextract.ai/api/projects/${PROJECT_ID}/extract\" \\
+  -X POST \\
+  -H \"Authorization: Bearer ${NUEXTRACT_API_KEY}\" \\
+  -H \"Content-Type: application/octet-stream\" \\
+  -H \"x-file-name: ${FILE_NAME}\" \\
+  --data-binary @\"${FILE_NAME}\"
+```
+
+You can also use the [Python SDK](https://github.com/numindai/nuextract-platform-sdk#documentation), by replacing the
+`project_id`, `api_key` and `file_path` variables in the following code:
+
+```python
+from numind import NuMind
+from pathlib import Path
+
+client = NuMind(api_key=api_key)
+file_path = Path(\"path\", \"to\", \"document.odt\")
+with file_path.open(\"rb\") as file:
+    input_file = file.read()
+output_schema = client.post_api_projects_projectid_extract(project_id, input_file)
+```
+
+### Using the Platform via API
+
+Everything you can do on the web platform can be done via API -
+ check the [user guide](https://www.notion.so/User-Guide-17c16b1df8c580d3a579ebfb24ddbea7?pvs=21) to learn about how the platform works.
+ This can be useful to create projects automatically, or to make your production more robust for example.
+
+Main resources:
+
+- **Project** - user project, identified by `projectId`
+- **File** - uploaded file,  identified by `fileId`, stored up to two weeks if not tied to an Example
+- **Document** - internal representation of a document, identified by `documentId`, created from a File or a text, stored up to two weeks if not tied to an Example
+- **Example** - document-extraction pair given to teach NuExtract, identified by `exampleId`, created from a Document
+
+Here are the main operations you might want to do via API:
+
+- Creating a **Project** via `POST /api/projects`
+- Changing the template of a **Project** via `PATCH /api/projects/{projectId}`
+- Uploading a file to a **File** via `POST /api/files` (up to 2 weeks storage)
+- Creating a **Document** via `POST /api/documents/text` and `POST /api/files/{fileID}/convert-to-document` from a text or a **File**
+- Adding an **Example** to a **Project** via `POST /api/projects/{projectId}/examples`
+- Changing Project settings via `POST /api/projects/{projectId}/settings`
+- Locking a **Project** via `POST /api/projects/{projectId}/lock`
+
+You can also use the [Python SDK](https://github.com/numindai/nuextract-platform-sdk#documentation).
+
+### Creating a temporary authorization
+
+This is for you to test the API endpoints here in this Swagger interface. Click the Authorize button. In the pop-up, set `client_id` to `user`, leave `client_secret` blank, check all the checkboxes, and click “Authorize”.
+    
+
+This Python package is automatically generated by the [OpenAPI Generator](https://openapi-generator.tech) project:
+
+- API version: 
+- Package version: 1.0.0
+- Generator version: 7.13.0
+- Build package: org.openapitools.codegen.languages.PythonClientCodegen
+
+### Documentation for API Endpoints
+
+All URIs are relative to *https://nuextract.ai*
+
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*AuthenticationApi* | [**delete_api_auth_api_keys_apikeyid**](docs/AuthenticationApi.md#delete_api_auth_api_keys_apikeyid) | **DELETE** /api/auth/api-keys/{apiKeyId} | 
+*AuthenticationApi* | [**get_api_auth**](docs/AuthenticationApi.md#get_api_auth) | **GET** /api/auth | 
+*AuthenticationApi* | [**get_api_auth_api_keys**](docs/AuthenticationApi.md#get_api_auth_api_keys) | **GET** /api/auth/api-keys | 
+*AuthenticationApi* | [**get_api_auth_me**](docs/AuthenticationApi.md#get_api_auth_me) | **GET** /api/auth/me | 
+*AuthenticationApi* | [**post_api_auth_api_keys**](docs/AuthenticationApi.md#post_api_auth_api_keys) | **POST** /api/auth/api-keys | 
+*AuthenticationApi* | [**post_api_auth_logout**](docs/AuthenticationApi.md#post_api_auth_logout) | **POST** /api/auth/logout | 
+*AuthenticationApi* | [**post_api_auth_token**](docs/AuthenticationApi.md#post_api_auth_token) | **POST** /api/auth/token | 
+*AuthenticationApi* | [**put_api_auth_api_keys_apikeyid**](docs/AuthenticationApi.md#put_api_auth_api_keys_apikeyid) | **PUT** /api/auth/api-keys/{apiKeyId} | 
+*DocumentsApi* | [**get_api_documents_documentid**](docs/DocumentsApi.md#get_api_documents_documentid) | **GET** /api/documents/{documentId} | 
+*DocumentsApi* | [**get_api_documents_documentid_content**](docs/DocumentsApi.md#get_api_documents_documentid_content) | **GET** /api/documents/{documentId}/content | 
+*DocumentsApi* | [**post_api_documents_text**](docs/DocumentsApi.md#post_api_documents_text) | **POST** /api/documents/text | 
+*ExamplesApi* | [**delete_api_projects_projectid_examples_exampleid**](docs/ExamplesApi.md#delete_api_projects_projectid_examples_exampleid) | **DELETE** /api/projects/{projectId}/examples/{exampleId} | 
+*ExamplesApi* | [**get_api_projects_projectid_examples**](docs/ExamplesApi.md#get_api_projects_projectid_examples) | **GET** /api/projects/{projectId}/examples | 
+*ExamplesApi* | [**get_api_projects_projectid_examples_exampleid**](docs/ExamplesApi.md#get_api_projects_projectid_examples_exampleid) | **GET** /api/projects/{projectId}/examples/{exampleId} | 
+*ExamplesApi* | [**post_api_projects_projectid_examples**](docs/ExamplesApi.md#post_api_projects_projectid_examples) | **POST** /api/projects/{projectId}/examples | 
+*ExamplesApi* | [**put_api_projects_projectid_examples_exampleid**](docs/ExamplesApi.md#put_api_projects_projectid_examples_exampleid) | **PUT** /api/projects/{projectId}/examples/{exampleId} | 
+*ExtractionApi* | [**post_api_projects_projectid_extract**](docs/ExtractionApi.md#post_api_projects_projectid_extract) | **POST** /api/projects/{projectId}/extract | 
+*FilesApi* | [**get_api_files_fileid**](docs/FilesApi.md#get_api_files_fileid) | **GET** /api/files/{fileId} | 
+*FilesApi* | [**get_api_files_fileid_content**](docs/FilesApi.md#get_api_files_fileid_content) | **GET** /api/files/{fileId}/content | 
+*FilesApi* | [**post_api_files**](docs/FilesApi.md#post_api_files) | **POST** /api/files | 
+*FilesApi* | [**post_api_files_fileid_convert_to_document**](docs/FilesApi.md#post_api_files_fileid_convert_to_document) | **POST** /api/files/{fileId}/convert-to-document | 
+*InferenceApi* | [**post_api_infer_template**](docs/InferenceApi.md#post_api_infer_template) | **POST** /api/infer-template | 
+*InferenceApi* | [**post_api_projects_projectid_infer_document_documentid**](docs/InferenceApi.md#post_api_projects_projectid_infer_document_documentid) | **POST** /api/projects/{projectId}/infer-document/{documentId} | 
+*InferenceApi* | [**post_api_projects_projectid_infer_text**](docs/InferenceApi.md#post_api_projects_projectid_infer_text) | **POST** /api/projects/{projectId}/infer-text | 
+*OrganizationsApi* | [**delete_api_organizations_organizationid**](docs/OrganizationsApi.md#delete_api_organizations_organizationid) | **DELETE** /api/organizations/{organizationId} | 
+*OrganizationsApi* | [**delete_api_organizations_organizationid_members_invitations_invitationid**](docs/OrganizationsApi.md#delete_api_organizations_organizationid_members_invitations_invitationid) | **DELETE** /api/organizations/{organizationId}/members/invitations/{invitationId} | 
+*OrganizationsApi* | [**delete_api_organizations_organizationid_members_userid**](docs/OrganizationsApi.md#delete_api_organizations_organizationid_members_userid) | **DELETE** /api/organizations/{organizationId}/members/{userId} | 
+*OrganizationsApi* | [**get_api_organizations**](docs/OrganizationsApi.md#get_api_organizations) | **GET** /api/organizations | 
+*OrganizationsApi* | [**get_api_organizations_organizationid_members**](docs/OrganizationsApi.md#get_api_organizations_organizationid_members) | **GET** /api/organizations/{organizationId}/members | 
+*OrganizationsApi* | [**get_api_organizations_organizationid_members_invitations**](docs/OrganizationsApi.md#get_api_organizations_organizationid_members_invitations) | **GET** /api/organizations/{organizationId}/members/invitations | 
+*OrganizationsApi* | [**post_api_organizations**](docs/OrganizationsApi.md#post_api_organizations) | **POST** /api/organizations | 
+*OrganizationsApi* | [**post_api_organizations_organizationid_members**](docs/OrganizationsApi.md#post_api_organizations_organizationid_members) | **POST** /api/organizations/{organizationId}/members | 
+*OrganizationsApi* | [**put_api_organizations_organizationid**](docs/OrganizationsApi.md#put_api_organizations_organizationid) | **PUT** /api/organizations/{organizationId} | 
+*PlaygroundApi* | [**delete_api_projects_projectid_playground_playgrounditemid**](docs/PlaygroundApi.md#delete_api_projects_projectid_playground_playgrounditemid) | **DELETE** /api/projects/{projectId}/playground/{playgroundItemId} | 
+*PlaygroundApi* | [**get_api_projects_projectid_playground**](docs/PlaygroundApi.md#get_api_projects_projectid_playground) | **GET** /api/projects/{projectId}/playground | 
+*PlaygroundApi* | [**get_api_projects_projectid_playground_playgrounditemid**](docs/PlaygroundApi.md#get_api_projects_projectid_playground_playgrounditemid) | **GET** /api/projects/{projectId}/playground/{playgroundItemId} | 
+*PlaygroundApi* | [**post_api_projects_projectid_playground**](docs/PlaygroundApi.md#post_api_projects_projectid_playground) | **POST** /api/projects/{projectId}/playground | 
+*PlaygroundApi* | [**put_api_projects_projectid_playground_playgrounditemid**](docs/PlaygroundApi.md#put_api_projects_projectid_playground_playgrounditemid) | **PUT** /api/projects/{projectId}/playground/{playgroundItemId} | 
+*ProjectManagementApi* | [**delete_api_projects_projectid**](docs/ProjectManagementApi.md#delete_api_projects_projectid) | **DELETE** /api/projects/{projectId} | 
+*ProjectManagementApi* | [**get_api_projects**](docs/ProjectManagementApi.md#get_api_projects) | **GET** /api/projects | 
+*ProjectManagementApi* | [**get_api_projects_projectid**](docs/ProjectManagementApi.md#get_api_projects_projectid) | **GET** /api/projects/{projectId} | 
+*ProjectManagementApi* | [**patch_api_projects_projectid**](docs/ProjectManagementApi.md#patch_api_projects_projectid) | **PATCH** /api/projects/{projectId} | 
+*ProjectManagementApi* | [**patch_api_projects_projectid_settings**](docs/ProjectManagementApi.md#patch_api_projects_projectid_settings) | **PATCH** /api/projects/{projectId}/settings | 
+*ProjectManagementApi* | [**post_api_projects**](docs/ProjectManagementApi.md#post_api_projects) | **POST** /api/projects | 
+*ProjectManagementApi* | [**post_api_projects_projectid_duplicate**](docs/ProjectManagementApi.md#post_api_projects_projectid_duplicate) | **POST** /api/projects/{projectId}/duplicate | 
+*ProjectManagementApi* | [**post_api_projects_projectid_lock**](docs/ProjectManagementApi.md#post_api_projects_projectid_lock) | **POST** /api/projects/{projectId}/lock | 
+*ProjectManagementApi* | [**post_api_projects_projectid_reset_settings**](docs/ProjectManagementApi.md#post_api_projects_projectid_reset_settings) | **POST** /api/projects/{projectId}/reset-settings | 
+*ProjectManagementApi* | [**post_api_projects_projectid_share**](docs/ProjectManagementApi.md#post_api_projects_projectid_share) | **POST** /api/projects/{projectId}/share | 
+*ProjectManagementApi* | [**post_api_projects_projectid_unlock**](docs/ProjectManagementApi.md#post_api_projects_projectid_unlock) | **POST** /api/projects/{projectId}/unlock | 
+*ProjectManagementApi* | [**post_api_projects_projectid_unshare**](docs/ProjectManagementApi.md#post_api_projects_projectid_unshare) | **POST** /api/projects/{projectId}/unshare | 
+*DefaultApi* | [**get_api_debug_status_code**](docs/DefaultApi.md#get_api_debug_status_code) | **GET** /api/debug/status/{code} | 
+*DefaultApi* | [**get_api_health**](docs/DefaultApi.md#get_api_health) | **GET** /api/health | 
+*DefaultApi* | [**get_api_ping**](docs/DefaultApi.md#get_api_ping) | **GET** /api/ping | 
+*DefaultApi* | [**get_api_version**](docs/DefaultApi.md#get_api_version) | **GET** /api/version | 
+
+
+### Documentation For Models
+
+ - [ApiKeyResponse](docs/ApiKeyResponse.md)
+ - [ConvertRequest](docs/ConvertRequest.md)
+ - [CreateOrUpdateApiKey](docs/CreateOrUpdateApiKey.md)
+ - [CreateOrUpdateExampleRequest](docs/CreateOrUpdateExampleRequest.md)
+ - [CreateOrUpdatePlaygroundItemRequest](docs/CreateOrUpdatePlaygroundItemRequest.md)
+ - [CreateOrganizationRequest](docs/CreateOrganizationRequest.md)
+ - [CreateProjectRequest](docs/CreateProjectRequest.md)
+ - [DocumentInfo](docs/DocumentInfo.md)
+ - [DocumentResponse](docs/DocumentResponse.md)
+ - [Error](docs/Error.md)
+ - [ExampleResponse](docs/ExampleResponse.md)
+ - [ExtractionResponse](docs/ExtractionResponse.md)
+ - [FileResponse](docs/FileResponse.md)
+ - [HealthResponse](docs/HealthResponse.md)
+ - [ImageInfo](docs/ImageInfo.md)
+ - [InferenceResponse](docs/InferenceResponse.md)
+ - [InformationResponse](docs/InformationResponse.md)
+ - [InvalidInformation](docs/InvalidInformation.md)
+ - [InvitationResponse](docs/InvitationResponse.md)
+ - [InviteMemberRequest](docs/InviteMemberRequest.md)
+ - [MemberResponse](docs/MemberResponse.md)
+ - [OrganizationResponse](docs/OrganizationResponse.md)
+ - [PlaygroundItemResponse](docs/PlaygroundItemResponse.md)
+ - [ProjectResponse](docs/ProjectResponse.md)
+ - [ProjectSettingsResponse](docs/ProjectSettingsResponse.md)
+ - [RawResult](docs/RawResult.md)
+ - [ServiceStatus](docs/ServiceStatus.md)
+ - [TemplateRequest](docs/TemplateRequest.md)
+ - [TextInfo](docs/TextInfo.md)
+ - [TextRequest](docs/TextRequest.md)
+ - [TokenCodeRequest](docs/TokenCodeRequest.md)
+ - [TokenRefreshRequest](docs/TokenRefreshRequest.md)
+ - [TokenRequest](docs/TokenRequest.md)
+ - [TokenResponse](docs/TokenResponse.md)
+ - [UpdateOrganizationRequest](docs/UpdateOrganizationRequest.md)
+ - [UpdateProjectRequest](docs/UpdateProjectRequest.md)
+ - [UpdateProjectSettingsRequest](docs/UpdateProjectSettingsRequest.md)
+ - [User](docs/User.md)
+ - [ValidInformation](docs/ValidInformation.md)
+ - [VersionResponse](docs/VersionResponse.md)
+
+
+<a id="documentation-for-authorization"></a>
+### Documentation For Authorization
+
+
+Authentication schemes defined for the API:
+<a id="oauth2Auth"></a>
+#### oauth2Auth
+
+- **Type**: OAuth
+- **Flow**: accessCode
+- **Authorization URL**: https://users.numind.ai/realms/extract-platform/protocol/openid-connect/auth
+- **Scopes**: 
+ - **openid**: OpenID connect
+ - **profile**: view profile
+ - **email**: view email
+
