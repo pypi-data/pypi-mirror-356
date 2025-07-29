@@ -1,0 +1,112 @@
+[project]
+name = "openapi_to_django"
+version = "0.1.0"
+description = "Generate Django code from OpenAPI documents."
+authors = [
+    { name = "jaytik1" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = [ "django", "openapi" ]
+classifiers = [
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Code Generators"
+]
+
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "django (>=5.1.7,<6.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "types-pyyaml (>=6.0.12.20241230,<7.0.0.0)",
+    "prance (>=25.4.8.0,<26.0.0.0)",
+    "openapi-spec-validator (>=0.7.1,<0.8.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+]
+
+[project.urls]
+repository = "https://github.com/jaytik1/openapi_to_django"
+
+[project.scripts]
+openapi_to_django = "openapi_to_django.command_line:main"
+
+[build-system]
+requires = [ "poetry-core>=2.0.0,<3.0.0" ]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "openapi_to_django", from = "src" }]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.15.0"
+ruff = "^0.11.0"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy/"
+priority = "explicit"
+
+[tool.mypy]
+python_version = "3.11"
+packages = "src"
+
+# mypy output config
+pretty = true
+show_error_context = true
+show_column_numbers = true
+
+# mypy error config
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+strict_equality = true
+no_implicit_reexport = true
+
+# mypy warning config
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_ignores = true
+warn_unused_configs = true
+
+# mypy exemptions
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py311"
+
+include = ["src/**/*.py"]
+
+line-length = 110
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["B", "EM", "FIX", "ISC", "RET",
+          "PTH", "I", "C90", "E", "W",
+          "D", "PL", "UP", "RUF", "TRY",
+          "S", "BLE", "FBT", "A", "C4",
+          "DTZ", "Q", "RSE", "ARG", "N",
+          "F"]
+
+# E501: ignore line length violations as they can decrease readability
+# D212: prefer docstrings to start on the second line
+# D203: prefer there to not be a space before class docstrings
+# D413: extra blank line at the end of a docstring is unnecessary
+# D400: subset of the more general D415, allow more punctuation
+ignore = ["E501", "D212", "D203", "D413", "D400"]
+
+fixable = ["ALL"]
+
+[tool.ruff.lint.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.lint.per-file-ignores]
+# S101: assert is the main method of using pytest
+"tests/*" = ["S101"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
