@@ -1,0 +1,16 @@
+syntax: glob
+.*
+!.gitignore
+!/.readthedocs.yml
+!/.github
+*.pyc
+*.png
+!documentation/*/*.png
+*.xdmf
+*.h5
+build/
+dist/
+*egg-info*
+*.swd
+.venv
+uv.lock
