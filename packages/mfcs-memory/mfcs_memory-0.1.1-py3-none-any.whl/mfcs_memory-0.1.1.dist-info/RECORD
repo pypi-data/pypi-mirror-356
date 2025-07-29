@@ -1,0 +1,14 @@
+mfcs_memory/__init__.py,sha256=GSeIk0QinPfiTgJe3Q4-QwE6kdetm7ObLlzNluhJ7o4,413
+mfcs_memory/core/__init__.py,sha256=_6z7vKXLZ-BuF8fN4F6KZprDrbuLZ4KmpK_x7iJtG5w,336
+mfcs_memory/core/base.py,sha256=Ssrif1obdh0Y2A-IfzyC8ihsoI4wClcHZmDjPhK6kLk,3672
+mfcs_memory/core/conversation_analyzer.py,sha256=oZhFnOZ2me4A5G7CXp3RoiVD-sfLsssXenrqKxDjPrY,5035
+mfcs_memory/core/memory_manager.py,sha256=foDrMZrtxUgwU1rc812xjxQkH3P-gYahtBdNSnBV6OM,9899
+mfcs_memory/core/session_manager.py,sha256=b1p6GyDksgnwhHOWq0EExlipfQzP3UaSG4Qkd1rtgG8,11044
+mfcs_memory/core/vector_store.py,sha256=f0aJ7AZrr9k4b-f-SGYNd00eSzpfECd5lxs5pR-U2yc,9505
+mfcs_memory/utils/__init__.py,sha256=-lvF8dhRHu0HXPSo_VB6OgcC8GyCIM_BtxVkyIcW9sw,106
+mfcs_memory/utils/config.py,sha256=vgrVlQflTLMOpNMvyCXkYZ6Vg4LAKmL10vrRD4zvEl0,4590
+mfcs_memory-0.1.1.dist-info/licenses/LICENSE,sha256=0fbRozox6317PsNo-i5RRRofaindh6-yHwUY3O-9UY4,1064
+mfcs_memory-0.1.1.dist-info/METADATA,sha256=KPF8S5e3eGmLlQHisKW_GRhkRl-3UieHqNtxwqAI6kA,6474
+mfcs_memory-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+mfcs_memory-0.1.1.dist-info/top_level.txt,sha256=GGomNknZtBvL3wXdaCR9vyGjVeZXiLLMe3nmW0311tU,12
+mfcs_memory-0.1.1.dist-info/RECORD,,
