@@ -1,0 +1,2 @@
+[console_scripts]
+ReSubPlot = ReSubPlot.__main__:main
