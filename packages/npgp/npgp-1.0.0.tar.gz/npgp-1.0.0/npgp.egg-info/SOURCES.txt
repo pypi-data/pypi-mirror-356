@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+npgp/__init__.py
+npgp/cli.py
+npgp.egg-info/PKG-INFO
+npgp.egg-info/SOURCES.txt
+npgp.egg-info/dependency_links.txt
+npgp.egg-info/entry_points.txt
+npgp.egg-info/top_level.txt
+npgp/templates/__init__.py
+npgp/templates/basic.py
+npgp/templates/class.py
+npgp/templates/config.py
