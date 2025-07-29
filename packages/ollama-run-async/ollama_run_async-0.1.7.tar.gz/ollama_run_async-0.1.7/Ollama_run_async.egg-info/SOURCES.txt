@@ -1,0 +1,9 @@
+LICENSE
+parallel_llama_df_analysis_v2.py
+pyproject.toml
+Ollama_run_async.egg-info/PKG-INFO
+Ollama_run_async.egg-info/SOURCES.txt
+Ollama_run_async.egg-info/dependency_links.txt
+Ollama_run_async.egg-info/requires.txt
+Ollama_run_async.egg-info/top_level.txt
+tests/test_smoke.py
