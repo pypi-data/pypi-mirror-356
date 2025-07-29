@@ -1,0 +1,2 @@
+[console_scripts]
+bd-sig-filter = bd_sig_filter:main.main
