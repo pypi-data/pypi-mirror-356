@@ -1,0 +1,133 @@
+Metadata-Version: 2.4
+Name: gguppy
+Version: 0.1.0
+Summary: [WIP] Compose once, chart anywhere with gguppy
+Author-email: Alwin Wang <alwinrwang@outlook.com>
+License-Expression: MIT OR Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Dynamic: license-file
+
+# `gguppy`
+
+> [!CAUTION]
+> 🚧 This package is still in work and subject to great change.
+
+`gguppy` (né `arwggplot`) is an interactive, unified, Layered Grammar of Graphics implementation in pure Rust.
+Compose once, chart anywhere with `gguppy`.
+
+<!-- - Multi-platform: desktop ✅ and web (wasm) 🛠️ -->
+<!-- - Multi-data format: arrow, arrow2, polars, pandas, etc. -->
+<!-- - Multi-backends: SVG ✅, PNG, PDF, etc. -->
+<!-- - Multi-coordinate systems: 2D, 3D, polar, cylindrical, spherical, etc. -->
+
+## Why `gguppy`?
+
+### 1. Friendly syntax
+
+Rust is strange for python and R users. `gguppy` aims to provide a familiar, friendly and ergonomic syntax. You can even
+write in different coding styles.
+
+Grammar of Graphics is a first class citizen in `gguppy`:
+
+```rust
+use gguppy::prelude::*;
+
+// let df = minidf!["x" => &[1, 2, 3], "y" => &[4, 5, 6]];
+// let plot = ggplot![df, aes("x", "y")] + geom_point![];
+```
+
+A MATLAB/matplotlib-esque syntax will also be supported.
+
+```rust
+use gguppy::prelude::*;
+
+// fig, axis = mplot![];
+```
+
+<!-- todo -->
+
+### 2. Batteries included
+
+`gguppy` aims to allow you to write once, plot *anywhere* using its flexible and extensible architecture.
+
+<!-- todo -->
+
+### 3. Speed
+
+<!-- todo -->
+
+## Workspace Structure
+
+Crates
+
+- 🛠️ **[`gguppy_core`](crates/gguppy_core/)**
+  - 🛠️ Implementation of the Grammar of Graphics in `no_std` Rust
+  - 🛠️ Consumes any DataFrame-like structure implementing the `GGData` trait
+  - 🛠️ Extensible with any plot types implementing the `GGCapable` trait
+  - 🛠️ Produces geometric primitives implementing the `DrawablePrim` trait
+  - 🛠️ Compiles for static desktop display or interactive wasm plots
+
+- 🛠️ **[`gguppy_data`](crates/gguppy_data/)**
+  - 🛠️ Minimalist DataFrame-like `minidf` plottable by `gguppy` in `no_std` Rust
+  - 🛠️ Features adapters for `arrow` and `arrow2`
+  - 🛠️ Features adapters for `polars`, `pandas`, and more
+
+- 🛠️ **[`arwggplot`](crates/arwggplot/)**
+  - 🛠️ Minimalist svg backend for `gguppy` in `no_std` Rust
+  - 🛠️ Features vector backends to svg, eps, and more
+  - 🛠️ Features raster backends to bmp, png, and more
+
+Module Layout
+
+- **src**
+  - [lib.rs](src/lib.rs) - `mod` and `re-export`
+  - [prelude.rs](src/prelude.rs) - `use` statements for the entire library
+
+<!-- ## Layout -->
+
+<!-- To be replaced -->
+
+<!-- ![ggplot2-theme-elements-reference-v2_hu8994090e1960a0a71878a3756da20076_580819_2000x2000_fit_lanczos_2.png (2000×1250) (isabella-b.com)](https://isabella-b.com/blog/ggplot2-theme-elements-reference/ggplot2-theme-elements-reference-v2_hu8994090e1960a0a71878a3756da20076_580819_2000x2000_fit_lanczos_2.png) -->
+
+<!-- ![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/images/Alwin.svg) -->
+
+<!--
+
+- Board (dashboard, drawing board, canvas, etc.) := matplotlib `figure`, ggplot2 `plot`
+  - size
+  - layout
+  - can be turned into an entire dashboard, or powerpoint slide, or engineering printout with titleblock
+- Chart := matplotlib `axes` / `subplot`
+
+- Panel := ggplot2 `panel` / `facet`
+
+## Elements
+
+## Inspiration
+
+- Grammar of Graphics
+  - [tidyverse/ggplot2: An implementation of the Grammar of Graphics in R (github.com)](https://github.com/tidyverse/ggplot2)
+  - [JetBrains/lets-plot: Multiplatform plotting library based on Grammar of Graphics (github.com)](https://github.com/JetBrains/lets-plot)
+  - [has2k1/plotnine: A Grammar of Graphics for Python (github.com)](https://github.com/has2k1/plotnine)
+
+- Rust drawing library
+  - [plotters-rs/plotters: A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely (github.com)](https://github.com/plotters-rs/plotters)
+
+- SVG composing and rendering
+  - [bodoni/svg: Composer and parser for SVG (github.com)](https://github.com/bodoni/svg)
+  - [RazrFalcon/resvg: An SVG rendering library. (github.com)](https://github.com/RazrFalcon/resvg)
+
+- Text rendering
+  - [Text rendering · Issue #1 · RazrFalcon/tiny-skia (github.com)](https://github.com/RazrFalcon/tiny-skia/issues/1)
+
+- Mathematical functions
+  - [At0micBee/scilib: A rust crate for mathematics and science (github.com)](https://github.com/At0micBee/scilib)
+
+ -->
