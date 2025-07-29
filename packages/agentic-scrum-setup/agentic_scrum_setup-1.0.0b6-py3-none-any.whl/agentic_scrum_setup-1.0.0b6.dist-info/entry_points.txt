@@ -1,0 +1,2 @@
+[console_scripts]
+agentic-scrum-setup = agentic_scrum_setup.cli:main
