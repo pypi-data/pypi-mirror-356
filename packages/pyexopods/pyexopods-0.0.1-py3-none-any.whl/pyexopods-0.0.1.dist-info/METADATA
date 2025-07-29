@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: pyexopods
+Version: 0.0.1
+Summary: Um pacote de exemplo para publicação no PyPI.
+Project-URL: Homepage, https://github.com/seu-usuario/pyexopods
+Project-URL: Bug Tracker, https://github.com/seu-usuario/pyexopods/issues
+Author-email: Luciano Silva <pyexopods@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# pyExopODS (Python Exoplanetary Systems Observational Data Simulator)
