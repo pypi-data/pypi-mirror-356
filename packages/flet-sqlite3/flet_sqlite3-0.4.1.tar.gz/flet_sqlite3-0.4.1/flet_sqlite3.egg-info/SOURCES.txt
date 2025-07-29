@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+database.py
+install.me
+main.py
+setup.py
+test_database.py
+test_database_functions.py
+test_discount_logic.py
+test_integration.py
+flet_sqlite3.egg-info/PKG-INFO
+flet_sqlite3.egg-info/SOURCES.txt
+flet_sqlite3.egg-info/dependency_links.txt
+flet_sqlite3.egg-info/requires.txt
+flet_sqlite3.egg-info/top_level.txt
