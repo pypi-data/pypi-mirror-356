@@ -1,0 +1,11 @@
+paper_asset_pricing/__init__.py,sha256=sY7hkgRyIytuAggujs0s1YbO-RKZBhvh02ylHwZpXwE,104
+paper_asset_pricing/__main__.py,sha256=5EVkVf39Y6E0NjyeYT2Ha8RrL6NuoaFM-DzMWyKnxFg,78
+paper_asset_pricing/cli.py,sha256=o7J0wqZyOjOgTsuijMqwpz-UVmu2zNW7uRVpPnAh8NE,23438
+paper_asset_pricing/templates/gitignore.template,sha256=lrD4nDnYvUszvcJTfRIiAllQW6KvWThBqH82KhaZ7eQ,876
+paper_asset_pricing/templates/paper_project.yaml.template,sha256=NF9MxHJUda5mSrpIUjlJAREbdySkrM80xx1jUn58Trw,524
+paper_asset_pricing/templates/project_readme.md.template,sha256=UkLS3ldzCMcpiN0Vrj0mkDce9teapihT04IJreJRmfg,3172
+paper_asset_pricing-0.1.0.dist-info/METADATA,sha256=MZ1WTIQeyU4Ic-fx9bxrXLoHR1ty-YiarEmReSs4NwA,8584
+paper_asset_pricing-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+paper_asset_pricing-0.1.0.dist-info/entry_points.txt,sha256=Ws8zMXvCv3El1VLNXToqg2muF4dvzJuZ2g78QZrFEdg,54
+paper_asset_pricing-0.1.0.dist-info/licenses/LICENSE,sha256=777I256NGnj_ikg0PUw3fzCyBg5zVCBtr021KtrmnXA,1071
+paper_asset_pricing-0.1.0.dist-info/RECORD,,
