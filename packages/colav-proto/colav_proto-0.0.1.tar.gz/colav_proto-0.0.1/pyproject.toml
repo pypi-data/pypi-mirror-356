@@ -1,0 +1,84 @@
+[build-system]
+# Use hatchling as the build backend
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "colav-proto"
+dynamic = ["version"]
+description = 'A package for generation, serialization and deserialization of colav protobuf messages.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Ryan", email = "r.mckee@qub.ac.uk" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "numpy",
+  "shapely",
+  "pyyaml",
+  "lark",
+  "protobuf",
+  "hatch",
+  "pytest"
+]
+
+[project.urls]
+Documentation = "https://github.com/Ryan/colav-proto#readme"
+Issues = "https://github.com/Ryan/colav-proto/issues"
+Source = "https://github.com/Ryan/colav-proto"
+
+[tool.hatch.version]
+path = "src/colav_proto/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/colav_proto tests}"
+
+[tool.hatch.envs.test]
+dependencies = ["pytest", "lark", "pyyaml"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/colav_proto", "src/generated"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/colav_proto/**",
+  "src/generated/**",
+  "README.md",
+  "pyproject.toml",
+]
+
+[tool.coverage.run]
+source_pkgs = ["colav_proto", "generated", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/colav_proto/__about__.py",
+]
+
+[tool.coverage.paths]
+colav_proto = ["src/colav_proto", "*/colav-proto/src/colav_proto"]
+tests = ["tests", "*/colav-proto/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
