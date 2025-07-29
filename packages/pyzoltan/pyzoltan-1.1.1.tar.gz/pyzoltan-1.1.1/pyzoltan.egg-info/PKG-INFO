@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: pyzoltan
+Version: 1.1.1
+Summary: Wrapper for the Zoltan data management library
+Home-page: http://github.com/pypr/pyzoltan
+Author: PySPH Developers
+Author-email: PySPH Developers <pysph-dev@googlegroups.com>
+License-Expression: BSD-3-Clause
+Project-URL: Documentation, https://pyzoltan.readthedocs.io
+Project-URL: Repository, https://github.com/pypr/pyzoltan.git
+Project-URL: Issues, https://github.com/pypr/pyzoltan/issues
+Keywords: Cython,Zoltan,Dynamic load balancing
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: mpi4py>=1.2
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: pytest>=3.0; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: pytest>=3.0; extra == "dev"
+Requires-Dist: cython>3.0; extra == "dev"
+Requires-Dist: cyarray; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: platform
+
+PyZoltan: a Python wrapper for the Zoltan library
+==================================================
+
+|CI Status|  |Documentation Status|
+
+.. |CI Status| image:: https://github.com/pypr/pyzoltan/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/pypr/pyzoltan/actions/workflows/tests.yml
+.. |Documentation Status| image:: https://readthedocs.org/projects/pyzoltan/badge/?version=latest
+    :target: https://pyzoltan.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+PyZoltan is as the name suggests, is a Python wrapper for the Zoltan_
+data management library.
+
+In PyZoltan, we wrap the specific routines and objects that we wish to
+use. The following features of Zoltan are currently supported:
+
+- Dynamic load balancing using geometric algorithms
+- Unstructured point-to-point communication
+- Distributed data directories
+
+
+.. _Zoltan: http://www.cs.sandia.gov/Zoltan/
+
+Installation
+-------------
+
+PyZoltan requires the following:
+
+- numpy
+- cyarray
+- Cython
+- mpi4py_
+- Zoltan_
+
+
+.. _mpi4py: http://mpi4py.scipy.org/
+
+Zoltan itself needs to be already installed. We provide a convenient script
+called ``build_zoltan.sh`` that can be used to build Zoltan.
+
+Many of the other dependencies can be installed using pip or conda::
+
+  $ pip install -r requirements.txt
+
+Once this is installed one can install PyZoltan as follows::
+
+  $ pip install pyzoltan
+
+or via the usual ``setup.py`` method::
+
+  $ python setup.py install # or develop
+
+
+For more installation instructions, especially on how to build Zoltan and
+PyZoltan, please see the documentation here: https://pyzoltan.readthedocs.io
