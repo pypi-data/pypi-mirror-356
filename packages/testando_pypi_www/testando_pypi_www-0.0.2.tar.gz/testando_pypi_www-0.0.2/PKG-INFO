@@ -1,0 +1,66 @@
+Metadata-Version: 2.4
+Name: testando_pypi_www
+Version: 0.0.2
+Summary: A test package for PyPI publishing
+Project-URL: Homepage, https://github.com/rafaelpadilla/test-pypi-www
+Project-URL: Repository, https://github.com/rafaelpadilla/test-pypi-www
+Project-URL: Issues, https://github.com/rafaelpadilla/test-pypi-www/issues
+Author-email: Rafael Padilla <eng.rafaelpadilla@gmail.com>
+License: MIT
+License-File: LICENSE
+Keywords: 3Wtoolkit,example,pypi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Requires-Dist: numpy>=2.3.0
+Description-Content-Type: text/markdown
+
+# my_test_pypi_www
+
+A test package for PyPI publishing demonstration.
+
+## Installation
+
+```bash
+pip install my_test_pypi_www
+```
+
+## Usage
+
+```python
+from my_test_pypi_www import my_func
+
+my_func()
+```
+
+## Development
+
+To install in development mode:
+
+```bash
+pip install -e .
+```
+
+## Building and Publishing
+
+1. Build the package:
+```bash
+python -m build
+```
+
+2. Upload to PyPI (you'll need to create an account first):
+```bash
+python -m twine upload dist/*
+```
+
+## License
+
+MIT License 
