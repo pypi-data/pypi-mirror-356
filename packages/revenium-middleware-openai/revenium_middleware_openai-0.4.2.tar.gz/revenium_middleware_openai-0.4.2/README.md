@@ -1,0 +1,434 @@
+# 🤖 Revenium Middleware for OpenAI
+
+[![PyPI version](https://img.shields.io/pypi/v/revenium-middleware-openai.svg)](https://pypi.org/project/revenium-middleware-openai/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/revenium-middleware-openai.svg)](https://pypi.org/project/revenium-middleware-openai/)
+[![Documentation Status](https://readthedocs.org/projects/revenium-middleware-openai/badge/?version=latest)](https://revenium-middleware-openai.readthedocs.io/en/latest/?badge=latest)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[//]: # ([![Build Status]&#40;https://github.com/revenium/revenium-middleware-openai/actions/workflows/ci.yml/badge.svg&#41;]&#40;https://github.com/revenium/revenium-middleware-openai/actions&#41;)
+
+A middleware library for metering and monitoring OpenAI and Azure OpenAI API usage in Python applications. 🐍✨
+
+## ✨ Features
+
+- **📊 Precise Usage Tracking**: Monitor tokens, costs, and request counts across all OpenAI and Azure OpenAI endpoints
+- **🔌 Seamless Integration**: Drop-in middleware that works with minimal code changes
+- **🌐 Multi-Provider Support**: Works with both standard OpenAI and Azure OpenAI seamlessly
+- **⚙️ Flexible Configuration**: Customize metering behavior to suit your application needs
+- **🎯 Accurate Pricing**: Automatic model name resolution for precise cost calculation
+
+## 📥 Installation
+
+```bash
+pip install revenium-middleware-openai
+```
+
+## 📥 Updating
+
+```bash
+pip install --upgrade revenium-middleware-openai
+```
+
+## 🔧 Usage
+
+### ‼️ Setting Environment Variables ‼️
+
+#### For Standard OpenAI
+```bash
+export OPENAI_API_KEY=your-openai-key
+export REVENIUM_METERING_API_KEY=your-revenium-key
+```
+
+#### For Azure OpenAI
+```bash
+export AZURE_OPENAI_ENDPOINT="https://your-resource.openai.azure.com/"
+export AZURE_OPENAI_API_KEY=your-azure-key
+export AZURE_OPENAI_DEPLOYMENT=your-deployment-name
+export AZURE_OPENAI_API_VERSION=2024-12-01-preview
+export REVENIUM_METERING_API_KEY=your-revenium-key
+```
+
+### 🤖 Standard OpenAI Usage
+
+That's it, now your OpenAI calls will be metered automatically:
+
+```python
+import openai
+import revenium_middleware_openai
+
+response = openai.chat.completions.create(
+    model="gpt-4o",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {
+            "role": "user",
+            "content": "What is the answer to life, the universe and everything?",
+        },
+    ],
+    max_tokens=500,
+)
+
+print(response.choices[0].message.content)
+```
+
+### 🔷 Azure OpenAI Usage
+
+The middleware automatically detects Azure OpenAI and works seamlessly:
+
+```python
+import revenium_middleware_openai
+from openai import AzureOpenAI
+import os
+
+client = AzureOpenAI(
+    api_version=os.getenv('AZURE_OPENAI_API_VERSION'),
+    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
+    api_key=os.getenv('AZURE_OPENAI_API_KEY'),
+)
+
+response = client.chat.completions.create(
+    model="gpt-4o",  # Your Azure deployment name
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {
+            "role": "user",
+            "content": "What is the answer to life, the universe and everything?"
+        },
+    ],
+    max_tokens=500,
+)
+
+print(response.choices[0].message.content)
+```
+
+The middleware automatically intercepts both OpenAI and Azure OpenAI API calls and sends metering data to Revenium without requiring any changes to your existing code. Make sure to set the `REVENIUM_METERING_API_KEY` environment variable for authentication with the Revenium service.
+
+### 🔗 Embeddings Support
+
+The middleware automatically meters embeddings for both OpenAI and Azure OpenAI:
+
+#### Standard OpenAI Embeddings
+```python
+import openai
+import revenium_middleware_openai
+
+response = openai.embeddings.create(
+    model="text-embedding-3-small",
+    input="The quick brown fox jumps over the lazy dog"
+)
+
+print(f"Generated embedding with {len(response.data[0].embedding)} dimensions")
+```
+
+#### Azure OpenAI Embeddings
+```python
+import revenium_middleware_openai
+from openai import AzureOpenAI
+import os
+
+client = AzureOpenAI(
+    api_version=os.getenv('AZURE_OPENAI_API_VERSION'),
+    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
+    api_key=os.getenv('AZURE_OPENAI_API_KEY'),
+)
+
+response = client.embeddings.create(
+    model="text-embedding-3-large",  # Your Azure deployment name
+    input="The quick brown fox jumps over the lazy dog"
+)
+
+print(f"Generated embedding with {len(response.data[0].embedding)} dimensions")
+```
+
+### 📈 Enhanced Tracking with Metadata
+
+For more granular usage tracking and detailed reporting, add the `usage_metadata` parameter to both embeddings and chat completions:
+
+```python
+import openai
+import revenium_middleware_openai
+
+response = openai.chat.completions.create(
+    model="gpt-4o",  # You can change this to other models like "gpt-3.5-turbo"
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {
+            "role": "user",
+            "content": "What is the meaning of life, the universe and everything?",
+        },
+    ],
+    max_tokens=500,
+    usage_metadata={
+         "trace_id": "conv-28a7e9d4",
+         "task_type": "summarize-customer-issue",
+         "subscriber": {
+             "id": "subscriberid-1234567890",
+             "email": "user@example.com",
+             "credential": {
+                 "name": "engineering-api-key",
+                 "value": "actual-api-key-value"
+             }
+         },
+         "organization_id": "acme-corp",
+         "subscription_id": "startup-plan-Q1",
+         "product_id": "saas-app-gold-tier",
+         "agent": "support-agent",
+    },
+)
+print(response.choices[0].message.content)
+```
+
+#### 🏷️ Metadata Fields
+
+The `usage_metadata` parameter supports the following fields:
+
+| Field                        | Description                                               | Use Case                                                          |
+|------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------|
+| `trace_id`                   | Unique identifier for a conversation or session           | Group multi-turn conversations into single event for performance & cost tracking                           |
+| `task_type`                  | Classification of the AI operation by type of work        | Track cost & performance by purpose (e.g., classification, summarization)                                  |
+| `subscriber`                 | Nested object containing subscriber information           | Track cost & performance by individual users (recommended structure)                                       |
+| `organization_id`            | Customer or department ID from non-Revenium systems       | Track cost & performance by customers or business units                                                    |
+| `subscription_id`            | Reference to a billing plan in non-Revenium systems       | Track cost & performance by a specific subscription                                                        |
+| `product_id`                 | Your product or feature making the AI call                | Track cost & performance across different products                                                         |
+| `agent`                      | Identifier for the specific AI agent                      | Track cost & performance performance by AI agent                                                           |
+| `response_quality_score`     | The quality of the AI response (0..1)                     | Track AI response quality                                                                                  |
+
+##### 👤 Subscriber Object Structure
+
+The `subscriber` field supports a nested structure for better organization:
+
+```python
+usage_metadata = {
+    "subscriber": {
+        "id": "user-12345",
+        "email": "user@example.com", 
+        "credential": {
+            "name": "api-key-alias",
+            "value": "actual-api-key-value"
+        }
+    },
+    # ... other metadata fields
+}
+```
+
+**Subscriber fields:**
+- `id`: Unique identifier for the subscriber
+- `email`: Email address of the subscriber  
+- `credential`: Nested object with API key information
+  - `name`: Alias or name for the credential
+  - `value`: The actual credential value
+
+**All metadata fields are optional**. Adding them enables more detailed reporting and analytics in Revenium.
+
+## 🔗 LangChain Integration
+
+The middleware provides seamless integration with LangChain, supporting both synchronous and asynchronous operations with automatic usage tracking.
+
+### 📦 Installation with LangChain Support
+
+```bash
+pip install revenium-middleware-openai[langchain]
+```
+
+### 🔄 Basic LangChain Usage
+
+```python
+from langchain_openai import ChatOpenAI
+from revenium_middleware_openai.langchain import wrap
+
+# Wrap your LangChain LLM with Revenium tracking
+llm = wrap(ChatOpenAI(model="gpt-4o-mini"))
+
+# Use normally - usage is automatically tracked
+response = llm.invoke("What is the meaning of life?")
+print(response.content)
+```
+
+### ⚡ Async LangChain Support
+
+The middleware automatically detects async contexts and uses appropriate handlers:
+
+```python
+import asyncio
+from langchain_openai import ChatOpenAI
+from revenium_middleware_openai.langchain import wrap
+
+async def async_example():
+    # Automatic async detection
+    llm = wrap(ChatOpenAI(model="gpt-4o-mini"))
+
+    # Use async methods - usage is automatically tracked
+    response = await llm.ainvoke("What is the meaning of life?")
+    print(response.content)
+
+# Run the async example
+asyncio.run(async_example())
+```
+
+### 🔄 Streaming Support
+
+Both sync and async streaming are fully supported:
+
+```python
+from langchain_openai import ChatOpenAI
+from revenium_middleware_openai.langchain import wrap_with_streaming
+
+# Sync streaming
+llm = wrap_with_streaming(
+    ChatOpenAI(model="gpt-4o-mini", streaming=True),
+    enable_streaming_debug=True
+)
+
+for chunk in llm.stream("Tell me a story"):
+    print(chunk.content, end="")
+
+# Async streaming
+async def async_streaming():
+    llm = wrap(ChatOpenAI(model="gpt-4o-mini", streaming=True))
+
+    async for chunk in llm.astream("Tell me a story"):
+        print(chunk.content, end="")
+
+asyncio.run(async_streaming())
+```
+
+### 🔤 Embeddings with LangChain
+
+```python
+from langchain_openai import OpenAIEmbeddings
+from revenium_middleware_openai.langchain import wrap
+
+# Wrap embeddings model
+embeddings = wrap(OpenAIEmbeddings(model="text-embedding-3-small"))
+
+# Generate embeddings - usage is automatically tracked
+vectors = embeddings.embed_documents([
+    "The quick brown fox",
+    "jumps over the lazy dog"
+])
+
+print(f"Generated {len(vectors)} embeddings")
+```
+
+### 🔧 Advanced LangChain Configuration
+
+```python
+from langchain_openai import ChatOpenAI
+from revenium_middleware_openai.langchain import wrap, attach_to
+
+# Method 1: wrap() - Returns a new instance (recommended)
+llm = wrap(
+    ChatOpenAI(model="gpt-4o-mini"),
+    usage_metadata={
+        "trace_id": "langchain-session-123",
+        "task_type": "question-answering",
+        "agent": "langchain-assistant"
+    },
+    enable_debug_logging=True
+)
+
+# Method 2: attach_to() - Modifies existing instance in-place
+llm = ChatOpenAI(model="gpt-4o-mini")
+attach_to(llm, usage_metadata={"session_id": "abc123"})
+
+# Both methods support async auto-detection
+response = llm.invoke("Hello LangChain!")
+```
+
+### 📊 LangChain Monitoring & Statistics
+
+```python
+from revenium_middleware_openai.langchain import (
+    wrap, get_streaming_stats, cleanup_streaming_sessions
+)
+
+# Create wrapped LLM
+llm = wrap(ChatOpenAI(model="gpt-4o-mini", streaming=True))
+
+# Get real-time statistics
+stats = get_streaming_stats(llm)
+print(f"Active streaming sessions: {stats['streaming_sessions']}")
+print(f"Memory usage: {stats['memory_usage_kb']} KB")
+
+# Manual cleanup if needed (automatic cleanup is built-in)
+cleanup_results = cleanup_streaming_sessions(llm)
+print(f"Cleaned up {cleanup_results['sessions_cleaned']} sessions")
+```
+
+### 🎯 LangChain Features
+
+- ✅ **Zero-Touch Integration**: Works with existing LangChain code
+- ✅ **Automatic Async Detection**: Seamlessly handles sync and async operations
+- ✅ **Streaming Support**: Full support for streaming responses with single usage events
+- ✅ **Memory Efficient**: Automatic cleanup and configurable limits
+- ✅ **Thread Safe**: Concurrent operation support with proper resource management
+- ✅ **Error Resilient**: Graceful degradation without breaking LangChain execution
+
+## 🔍 Provider Detection & Features
+
+### Automatic Provider Detection
+The middleware automatically detects whether you're using standard OpenAI or Azure OpenAI:
+
+- **OpenAI**: Detected via `OpenAI()` client or `openai.api_base` containing standard OpenAI endpoints
+- **Azure OpenAI**: Detected via `AzureOpenAI()` client or URLs containing "azure"
+
+### Model Name Resolution (Azure)
+For Azure OpenAI, the middleware automatically resolves deployment names to standard model names for accurate pricing:
+
+```
+Azure Deployment → Standard Model Name
+"gpt-4o-2024-11-20" → "gpt-4o"
+"gpt-35-turbo-dev" → "gpt-3.5-turbo"
+"text-embedding-3-large" → "text-embedding-3-large"
+```
+
+### Provider-Specific Analytics
+Revenium dashboard shows provider-specific data:
+
+- **Standard OpenAI**: `provider: "OPENAI"`
+- **Azure OpenAI**: `provider: "Azure"` with `model_source: "OPENAI"`
+
+### Supported Operations
+Both providers support:
+- ✅ Chat completions (streaming and non-streaming)
+- ✅ Embeddings
+- ✅ All metadata fields
+- ✅ Token counting and cost calculation
+- ✅ Error handling and logging
+
+## 🔄 Compatibility
+
+- 🐍 Python 3.8+
+- 🤖 OpenAI Python SDK 1.0.0+ (includes AzureOpenAI client)
+- 🌐 Works with all OpenAI models and endpoints
+- 🔷 Works with all Azure OpenAI deployments and endpoints
+- ⚡ Automatic provider detection (no code changes required)
+
+## 🔍 Logging
+
+This module uses Python's standard logging system. You can control the log level by setting the `REVENIUM_LOG_LEVEL`
+environment variable:
+
+```bash
+# Enable debug logging
+export REVENIUM_LOG_LEVEL=DEBUG
+
+# Or when running your script
+REVENIUM_LOG_LEVEL=DEBUG python your_script.py
+```
+
+Available log levels:
+
+- `DEBUG`: Detailed debugging information
+- `INFO`: General information (default)
+- `WARNING`: Warning messages only
+- `ERROR`: Error messages only
+- `CRITICAL`: Critical error messages only
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- 💖 Built with ❤️ by the Revenium team
