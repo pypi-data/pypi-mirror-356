@@ -1,0 +1,36 @@
+[project]
+name = "tumorimagingbench"
+version = "0.1.0"
+description = "A package for tumor imaging feature extraction and benchmarking."
+authors = [
+    { name = "Suraj Pai", email = "bspai@bwh.harvard.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "transformers==4.30.1",
+    "multiprocess",
+    "huggingface-hub",
+    "ct-clip",
+    "transformer-maskgit",
+    "foundation-cancer-image-biomarker",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tumorimagingbench"]
+
+[tool.uv]
+prerelease = "allow"
+
+[tool.uv.sources]
+transformer-maskgit = { git = "https://github.com/ibrahimethemhamamci/CT-CLIP.git", subdirectory = "transformer_maskgit" }
+ct-clip = { git = "https://github.com/ibrahimethemhamamci/CT-CLIP.git", subdirectory = "CT_CLIP" }
+
