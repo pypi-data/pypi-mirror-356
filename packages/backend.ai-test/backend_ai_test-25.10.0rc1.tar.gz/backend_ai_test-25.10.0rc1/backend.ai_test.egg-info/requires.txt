@@ -1,0 +1,15 @@
+aiofiles~=24.1.0
+aiotools~=1.9.0
+attrs>=25.3
+backend.ai-cli==25.10.0rc1
+backend.ai-client==25.10.0rc1
+backend.ai-common==25.10.0rc1
+backend.ai-logging==25.10.0rc1
+backend.ai-plugin==25.10.0rc1
+click~=8.1.7
+pydantic[email]~=2.11.3
+pytest-dependency>=0.6.0
+pytest>=8.3.3
+tomli~=2.0.1
+types-aiofiles
+types-setuptools
