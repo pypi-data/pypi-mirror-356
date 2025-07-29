@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.mypy_cache/
+.coverage
+
+# Virtual environments
+.venv
+
+# Directory used to simulate a paper projects and store temporary files
+tmp
+!tmp/.gitkeep
