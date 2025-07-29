@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: packet_capture_module
+Version: 0.1.0
+Summary: Multicast DPI Packet Capture Module
+Author: Your Name
+Requires-Python: >=3.10
+Requires-Dist: pyshark>=0.6.0
+Requires-Dist: scapy>=2.5.0
+Requires-Dist: python-libpcap>=0.3.0
+Requires-Dist: dpkt>=1.9.8
+Requires-Dist: python-pytun>=2.4.1
+Requires-Dist: grpcio>=1.51.1
+Requires-Dist: protobuf>=4.21.12
+Requires-Dist: redis>=4.5.4
+Requires-Dist: pybpf>=0.3.0
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: pydantic>=2.0.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
