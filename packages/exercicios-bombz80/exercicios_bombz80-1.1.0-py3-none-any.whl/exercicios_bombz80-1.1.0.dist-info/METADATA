@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: exercicios-bombz80
+Version: 1.1.0
+Summary: Descricao da sua lib cursofiap
+Home-page: https://github.com/tadrianonet/cursofiap
+Author: Luis Gystavo
+Author-email: seu.email@example.com
+License: MIT
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
+
+# Cursofiap
+Simple library with exercises for fixing python foundations.
+## Installation
+```sh
+pip install exercicios-bombz
+```
+## Usage
+```python
+from cursofiap import exercicio_1
+print(exercicio_1())
+```

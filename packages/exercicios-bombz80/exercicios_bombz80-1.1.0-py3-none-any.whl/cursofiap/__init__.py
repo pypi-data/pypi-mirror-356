@@ -1,0 +1,1 @@
+from .core import exercicio_1, exercicio_2, exercicio_3, exercicio_4, exercicio_5, exercicio_6, exercicio_7, exercicio_8, exercicio_9, exercicio_10 
