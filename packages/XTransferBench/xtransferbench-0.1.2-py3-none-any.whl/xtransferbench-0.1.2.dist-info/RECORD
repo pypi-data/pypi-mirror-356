@@ -1,0 +1,16 @@
+XTransferBench/__init__.py,sha256=YZvMU1XEX-QD8N0SP9z5j_d1qkB3camcd17pLLYQvow,29
+XTransferBench/attacker/__init__.py,sha256=gM8QL44t12TrF_HY0zbtXBDxXJyQQep6Fe0QEJ9lBKI,32
+XTransferBench/attacker/advclip.py,sha256=4DXK4Tkf__IwSPKZ1-ZmIi2V0DfYBle3gZJ7IH2SjU8,2985
+XTransferBench/attacker/xtransfer.py,sha256=W8tWA3PRLMd0AjdOQN3pImZ4tzZLFh6QAbCLUs90klw,3749
+XTransferBench/zoo/__init__.py,sha256=dMm6lkO6ikDBn261JIFT4ioSFlpEX0LcyeMACxzW34o,2687
+XTransferBench/zoo/collections/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+XTransferBench/zoo/collections/advclip.json,sha256=EMxSKCKIsQ8-lP6vDFb5RI13FMoLJI_vk1kvUdpy3s0,333
+XTransferBench/zoo/collections/l2_non_targeted.json,sha256=Bu5ngV0tUwqlEJ5nzLMPpQMgMR8gI53w68sDEeXt5TQ,620
+XTransferBench/zoo/collections/l2_targeted.json,sha256=L6l1Njs_Kxe-OWHJrPhG3tF9zm_XuitUMK7ger3Rpd8,7123
+XTransferBench/zoo/collections/linf_non_targeted.json,sha256=czhKIZSZvebgepuupKDEuXuurtfuDmMcNAkC1V9ecL8,4598
+XTransferBench/zoo/collections/linf_targeted.json,sha256=abAXTQwLqnMHpSb8ZqWhExiMlBq4ExwPyFhRusq-p7w,7587
+xtransferbench-0.1.2.dist-info/licenses/LICENSE,sha256=fQljg4y4reXFvSq7pyK-ophtFjw1Wbk85Edstaqhm0U,1069
+xtransferbench-0.1.2.dist-info/METADATA,sha256=uC2be08bKc4PTHJ69U8UKMa05NmPI-l2aexyTcAX0UA,5976
+xtransferbench-0.1.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+xtransferbench-0.1.2.dist-info/top_level.txt,sha256=snTknKDT_qIDFlwUd6xhvLl6kw-ejr-QL1YQnrxkQVg,15
+xtransferbench-0.1.2.dist-info/RECORD,,
