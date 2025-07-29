@@ -1,0 +1,21 @@
+[package]
+name = "rust_fastdb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "rust_fastdb"
+crate-type = ["cdylib"]
+
+[package.metadata.maturin]
+
+[dependencies]
+pyo3 = { version = "0.20.3", features = ["extension-module"] }
+pyo3-asyncio = { version = "0.20", features = ["tokio-runtime"] }
+tokio = { version = "1.0", features = ["full"] }
+sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "postgres", "mysql", "sqlite", "json", "any", "macros", "uuid"] }
+serde_json = "1.0"
+futures = "0.3"
+once_cell = "1.18"
+dashmap = "5.5"
