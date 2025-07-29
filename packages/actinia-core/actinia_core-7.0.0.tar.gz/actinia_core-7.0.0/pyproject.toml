@@ -1,0 +1,116 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actinia-core"
+version = "7.0.0"
+description = "Actinia Core is an open source REST API for scalable, distributed, high performance processing of geographical data that uses mainly GRASS GIS for computational tasks"
+readme = "README.md"
+authors = [
+    { name = "Carmen Tawalika"},
+    { name = "Anika Weinmann"},
+    { name = "Markus Neteler"},
+    { name = "Guido Riembauer"},
+    { name = "Markus Metz"},
+    { name = "Julia Haas"},
+    { name = "Marc Jansen"},
+    { name = "Lina Krisztian"},
+    { name = "Jorge A. Herrera Maldonado"},
+    { name = "Sören Gebbert"},
+    { name = "Momen Mawad"},
+    { name = "and more"}
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.8"
+keywords = [
+    "processing",
+    "earth observation",
+    "cloud-based processing",
+    "rest api",
+    "gis",
+    "grass gis",
+    "osgeo",
+]
+dependencies = [
+    "actinia-api==3.8.0",
+    "actinia-rest-lib>=1.0.0",
+    "actinia-processing-lib>=1.1.1",
+    "Flask>=3.0.0",
+    "boto3>=1.6.6",
+    "colorlog>=4.2.1",
+    "Flask-HTTPAuth>=3.2.3",
+    "Flask-RESTful>=0.3.9",
+    "flask-restful-swagger-2",
+    "Flask-Cors>=3.0.3",
+    "fluent-logger>=0.9.4",
+    "google-cloud>=0.32.0",
+    "google-cloud-bigquery<=3.34.0",
+    "google-cloud-storage>=1.6.0",
+    "gunicorn>=22.0.0",
+    "matplotlib==3.10.3",
+    "passlib>=1.7.1",
+    "psutil>=5.7.0",
+    "python-json-logger",
+    "python-keycloak>=2.6.0",
+    "python-magic>=0.4.15",
+    "requests>=2.20.0",
+    "rq>=0.10.0",
+    "setuptools==80.9.0",
+    "geopandas",
+    "rasterio==1.4.3",
+    "pystac==1.13.0",
+    "PyJWT",
+    "werkzeug==3.1.3",
+    "pandas",
+    "tqdm",
+    "valkey",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+plugins = [
+    # "actinia-cloudevent-plugin",  # no release yet
+    # "actinia-example-plugin",  # no release yet
+    # "actinia-grassdata-management-plugin",  # no release yet
+    "actinia-metadata-plugin",
+    "actinia-module-plugin",
+    "actinia-parallel-plugin",
+    "actinia-satellite-plugin",
+    "actinia-stac-plugin",
+    "actinia-statistic-plugin",
+    "actinia-tiling-plugin",
+]
+
+[project.scripts]
+actinia-user = "actinia_core.cli.actinia_user:main"
+actinia-worker = "actinia_core.cli.rq_custom_worker:main"
+actinia-server = "actinia_core.cli.actinia_server:main"
+webhook-server = "actinia_core.cli.webhook_server:main"
+webhook-server-broken = "actinia_core.cli.webhook_server_broken:main"
+# still support deprecated command
+rq_custom_worker = "actinia_core.cli.rq_custom_worker:main"
+
+[project.urls]
+Homepage = "https://github.com/actinia-org/actinia_core"
+Tutorial = "https://actinia-org.github.io/actinia_core"
+API_Docs = "https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov actinia_core --cov-report term-missing --verbose --tb=line -x -s"
+testpaths = [
+    "tests",
+]
+markers = [
+    "dev: test current in development",
+    "unittest: completely independent test",
+    "noauth: tests for actinia without authentication",
+]
