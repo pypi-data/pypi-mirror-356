@@ -1,0 +1,8 @@
+[console_scripts]
+pydoll-mcp = pydoll_mcp.server:cli_main
+pydoll-mcp-server = pydoll_mcp.server:cli_main
+pydoll-mcp-setup = pydoll_mcp.post_install:main
+pydoll-mcp-test = pydoll_mcp.cli:test_installation
+
+[mcp.servers]
+pydoll = pydoll_mcp.server:main
