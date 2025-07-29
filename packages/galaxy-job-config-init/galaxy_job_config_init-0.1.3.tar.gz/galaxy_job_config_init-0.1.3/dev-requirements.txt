@@ -1,0 +1,15 @@
+# For testing
+-r test-requirements.txt
+
+# For dev
+sphinx
+mypy
+black
+isort
+ruff
+types-PyYAML
+pre-commit
+
+# For release
+build
+twine
