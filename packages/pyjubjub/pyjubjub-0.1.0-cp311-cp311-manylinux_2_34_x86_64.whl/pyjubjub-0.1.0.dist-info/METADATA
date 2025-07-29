@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: pyjubjub
+Version: 0.1.0
+Classifier: Topic :: Security :: Cryptography
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Python interface to the Jubjub elliptic curve used in Zcash Protocol
+Keywords: jubjub,zcash,elliptic,curve
+Author: Duke Leto
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Project-URL: Homepage, https://hush.is
+Project-URL: Repository, https://git.hush.is/hush/pyjubjub
+Project-URL: Issues, https://git.hush.is/hush/pyjubjub/issues
+
+# pyjubjub
+
+Python bindings to rust code that implements the Jubjub elliptic curve and
+RedDSA, a Schnorr-based signature scheme that supports key re-randomization,
+which is defined in the Zcash Protocol. RedDSA on the Jubjub curve is known as
+RedJubjub.
+
+RedJubjub on the Jubjub elliptic curve plays the same role as ed25519 on the
+elliptic curve Curve25519.
+
+# Details
+
+There are various Rust implementations of Jubjub, we use what is inside
+the version of librustzcash used by the Hush full node, which is an older
+version of librustzcash used in the zcashd Zcash full node. The current
+version of zcashd librustzcash has many changes to support Halo2/Orchard
+that we do not need for Jubjub. We do not use the jubjub crate from Zebra,
+the Zcash full node written in Rust.
+
+The file src/lib.rs in this repo is
+https://git.hush.is/hush/librustzcash/src/branch/master/sapling-crypto/src/redjubjub.rs
+with python bindings provided by pyo3 from https://github.com/PyO3/pyo3
+
+In theory this code is compatible with the Sapling zaddrs which use the Jubjub
+elliptic curve in the following cryptocoins: Hush, DragonX, Zcash, Ycash, Pirate
+and probably others. Testing is needed to verify this.
+
+# Compiling
+
+Currently this code has only been tested with rust 1.63.0 .
+
+Setup python environment:
+```
+    virtualenv venv
+    source venv/bin/activate
+```
+
+Install [maturin](https://github.com/PyO3/maturin) via `pip install maturin`
+
+After changing code, compile Rust and Python module:
+
+```
+    maturin develop -r
+```
+
+The `-r` builds a release optimized version. You can leave it off if you want,
+but the current tests are ~50X slower without it.
+
+# Example Use
+
+This code is still HIGHLY EXPERIMENTAL and UNTESTED. Don't say we didn't warn you.
+
+```
+import pyjubjub
+privkey = pyjubjub.new_privkey()
+pubkey = pyjubjub.get_pubkey(privkey)
+```
+
+# Tests
+
+To run tests:
+
+```
+python test.py
+```
+
+# Installing
+
+This is not yet available on PyPI
+
+# Requirements
+
+pyjubjub requires Python 3.8 or higher
+
+# License
+
+GPLv3
+
