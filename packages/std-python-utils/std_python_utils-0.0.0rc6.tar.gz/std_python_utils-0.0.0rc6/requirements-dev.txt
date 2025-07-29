@@ -1,0 +1,8 @@
+pip
+setuptools
+build
+memray
+uv
+tox-uv
+-r requirements.txt
+-r requirements-test.txt

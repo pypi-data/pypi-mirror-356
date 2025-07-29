@@ -1,0 +1,163 @@
+[project]
+name = "std-python-utils"
+requires-python = ">=3.12"
+
+dynamic = ["version", "dependencies"]
+
+readme = "README.md"
+authors = [
+    { name = "Guy Wilson", email = "guywilsonjr@gmail.com" },
+]
+maintainers = [
+    { name = "Guy Wilson", email = "guywilsonjr@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Systems Administration",
+    "Topic :: System :: Monitoring",
+    "Typing :: Typed"
+]
+
+[project.urls]
+Repository = "https://github.com/guywilsonjr/std-utils"
+
+[build-system]
+# for mypy to run with mypy pydantic plugin need pydantic as well
+requires = [
+    "setuptools",
+    "setuptools_scm>=8",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+version_scheme = "only-version"
+
+[tool.pytest.ini_options]
+cache_dir = "/dev/null"
+console_output_style = "progress-even-when-capture-no"
+log_cli_level = "INFO"
+log_cli = true
+testpaths = ["tests"]
+
+addopts = [
+    "-s",
+    "-vvv",
+    "-p no:cacheprovider",
+    "--cache-clear",
+]
+
+[tool.coverage.json]
+output = ".reports/coverage/coverage.json"
+
+
+[tool.tox]
+env_list = [
+    "mypy",
+    "py312",
+    "py313"
+]
+[tool.tox.env.env_run_base]
+
+package = "sdist"
+recreate = "true"
+parallel_show_output = true
+deps = ["-rrequirements-test.txt"]
+commands = [["python3", "-m", "pytest", "-svvv"]]
+
+
+
+[tool.mypy]
+# TODO: --enable-error-code deprecated
+# Strictness
+strict = true
+# Strict mode; enables the following flags:
+# strict_bytes = true
+# strict_equality = true
+# extra_checks = true
+# disallow_any_generics = false
+# disallow_untyped_decorators = true#
+# disallow_subclassing_any = true
+# disallow_untyped_calls = true
+# disallow_untyped_defs = true # implies disallow_incomplete_defs = true, check_untyped_defs = true
+# warn_redundant_casts = true
+# warn_unused_ignores = true
+# warn_return_any = true
+# warn_unused_configs = true
+
+# Non-strict Disallowed Dynamic Typing
+disallow_any_decorated = false
+disallow_any_explicit = false
+disallow_any_expr = false
+disallow_any_unimported = false
+enable_error_code = "unused-awaitable, mutable-override, unimported-reveal, explicit-override, truthy-bool, truthy-iterable, ignore-without-code, redundant-self, redundant-expr, possibly-undefined, deprecated"
+# Additional Strictness
+no_implicit_reexport = true
+
+# Important
+plugins = ['pydantic.mypy']
+enable_incomplete_feature = "PreciseTupleTypes"
+follow_untyped_imports = true
+
+# Important cache
+cache_fine_grained = true
+no_incremental = true
+
+# Error Reporting
+pretty = true
+show_absolute_path = true
+show_error_context = true
+show_column_numbers = true
+show_error_code_links = true
+show_error_end = true
+force_union_syntax = true
+
+# Experimental
+fast_module_lookup = true
+
+
+
+# Non-strict Warnings
+warn_incomplete_stub = true
+warn_unreachable = true
+
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+
+# Pytest flags
+#asyncio_mode = "strict"
+#asyncio_default_fixture_loop_scope = "function"
+#"-n=auto",
+#"--maxprocesses=8",
+# benchmark flags
+#"--benchmark-verbose",
+#"--benchmark-storage=file://.reports/benchmarks/",
+#"--benchmark-histogram=.reports/benchmarks/hist",
+#"--benchmark-cprofile-dump=.reports/benchmarks/cprofile",
+#"--benchmark-json=.reports/benchmarks/latest_benchmark.json",
+#"--benchmark-save-data",
+#"--benchmark-name=long",
+#"--benchmark-cprofile=cumtime_per",
+#"--benchmark-save=benchmark",
+#"--benchmark-sort=max",
+#"--benchmark-calibration-precision=20",
+#"--benchmark-min-time=0.000000001",
+#"--benchmark-autosave",
+#"--benchmark-cprofile-loops=20",
+#"--benchmark-warmup=on",
+#"--benchmark-warmup-iterations=5",
+# Coverage flags
+# "--cov=.",
+#"--cov-branch",
+#"--cov-report=term-missing",
+#"--cov-report=json",

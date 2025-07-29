@@ -1,0 +1,10 @@
+aiofile
+aiohttp
+msgpack
+numpy
+pydantic
+requests
+aws-cdk-lib
+boto3
+pillow
+pytesseract

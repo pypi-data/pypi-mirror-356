@@ -1,0 +1,4 @@
+alias clean='rm -rf build/ .pytest*/ .tox/ .coverage*'
+alias awspiplogin='aws codeartifact login --tool pip --repository test --domain gwjr --domain-owner 936272581790 --region us-east-1'
+alias toxcmd='tox -op'
+alias test='if $DEBUG;then toxcmd -vvv;else toxcmd;fi'

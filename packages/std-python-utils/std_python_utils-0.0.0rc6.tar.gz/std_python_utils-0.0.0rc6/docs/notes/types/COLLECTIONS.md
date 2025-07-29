@@ -1,0 +1,34 @@
+# 🧱 Python Collections Abstract Base Classes (ABCs)
+
+| ABC                          | Inherits From                    | Abstract Methods                                     | Mixin / Common Methods                               | Notes |
+|------------------------------|----------------------------------|------------------------------------------------------|------------------------------------------------------|-------|
+| **`Collection`**             | `Sized`, `Iterable`, `Container` | `__contains__()`, `__iter__()`, `__len__()`       | —                                                    | Base for many containers. |
+| **`Sequence`**               | `Reversible`, `Collection`       | `__getitem__()`, `__len__()`                        | `__contains__()`, `index()`, `count()`               | Immutable list-like. |
+| **`MutableSequence`**        | `Sequence`                       | Add: `__setitem__()`, `__delitem__()`, `insert()`   | `append()`, `pop()`, `__iadd__()`                    | Mutable list-like. |
+| **`Set`**                    | `Collection`                     | `__contains__()`, `__iter__()`, `__len__()`         | Set ops: `|`, `&`, `^`, `isdisjoint()`               | Immutable set. |
+| **`MutableSet`**             | `Set`                            | `add()`, `discard()`                                | `clear()`, `__ior__()`, `__ixor__()`                 | Mutable set. |
+| **`Mapping`**                | `Collection`                     | `__getitem__()`, `__iter__()`, `__len__()`          | `keys()`, `items()`, `values()`, `get()`             | Dict-like. |
+| **`MutableMapping`**         | `Mapping`                        | Add: `__setitem__()`, `__delitem__()`               | `update()`, `setdefault()`, `pop()`                  | Mutable dict. |
+| **`Reversible`**             | `Iterable`                       | `__reversed__()`                                    | —                                                    | Used in `reversed(obj)`. |
+| **`Awaitable`**              | —                                | `__await__()`                                       | —                                                    | Awaitable in `await x`. |
+| **`Coroutine`**              | `Awaitable`                      | `send()`, `throw()`                                 | `close()`                                            | Result of calling async function. |
+| **`Container`**              | —                                | `__contains__()`                                    | —                                                    | Used with `in`. |
+| **`Sized`**                  | —                                | `__len__()`                                         | —                                                    | Used with `len()`. |
+| **`Hashable`**               | —                                | `__hash__()`                                        | —                                                    | Hashable objects. |
+| **`Callable`**               | —                                | `__call__()`                                        | —                                                    | Function-like behavior. |
+| **`ByteString`**             | `Sequence`                       | `__getitem__()`, `__len__()`                        | Inherits `Sequence` methods                          | Immutable bytes. |
+| **`Buffer`**                 | —                                | `__buffer__()`                                      | —                                                    | Low-level buffer protocol. |
+| **`MappingView`**            | `Sized`                          | `__len__()`, `__repr__()`                           | —                                                    | Base for view objects. |
+| **`ItemsView`**              | `MappingView`, `Set`             | `__contains__()`, `__iter__()`                      | —                                                    | `.items()` view. |
+| **`KeysView`**               | `MappingView`, `Set`             | `__contains__()`, `__iter__()`                      | —                                                    | `.keys()` view. |
+| **`ValuesView`**             | `MappingView`, `Collection`      | `__contains__()`, `__iter__()`                      | —                                                    | `.values()` view. |
+| **`collections.namedtuple`** | `tuple`                          | Access by attribute name (`.field`)                         | `_asdict()`, `_replace()`, `_fields`                         | Factory for creating immutable, named field tuples. |
+| **`typing.namedtuple`**      | `collections.namedtuple`         | Access by attribute name (`.field`)                         | `_asdict()`, `_replace()`, `_fields`                         | Factory for creating immutable, named field tuples. |
+| **`deque`**                  | —                                | `append()`, `appendleft()`, `pop()`, `popleft()`            | `rotate()`, `extend()`, `reverse()`                          | Fast, double-ended queue. |
+| **`ChainMap`**               | `MutableMapping`                 | `maps`, `new_child()`                                       | `__getitem__()`, `__setitem__()`, `__delitem__()`            | Combined view over multiple dicts. |
+| **`Counter`**                | `dict`                           | `most_common()`, `elements()`                               | `update()`, math ops (`+`, `-`, etc.)                        | Counts hashable objects. |
+| **`OrderedDict`**            | `dict`                           | Maintains insertion order                                   | `move_to_end()`, `popitem()`                                | Redundant in Python 3.7+ (`dict` keeps order). |
+| **`defaultdict`**            | `dict`                           | Auto-creates missing values with a factory                  | All `dict` methods                                           | Pass a callable to provide default values. |
+| **`UserDict`**               | `MutableMapping`                 | Wrapper around a real `dict`                                | Inherits all `dict` behavior                                | Simplifies `dict` subclassing. |
+| **`UserList`**               | `MutableSequence`                | Wrapper around a real `list`                                | Inherits all `list` behavior                                | Simplifies `list` subclassing. |
+| **`UserString`**             | `Sequence`                       | Wrapper around a real `str`                                 | Acts like a string                                           | Useful for customizing string behavior. |
