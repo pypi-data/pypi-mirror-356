@@ -1,0 +1,113 @@
+# OSMPlanet Query Examples
+# Wolfgang Fahl
+# 2025-01-20
+#
+# SPARQL queries for exploring OpenStreetMap data via:
+# - https://sophox.org/sparql (Sophox endpoint)
+# - https://qlever.cs.uni-freiburg.de/osm (Qlever endpoint)
+#
+# See also:
+# - https://www.openstreetmap.org/
+# - https://wiki.bitplan.com/index.php?title=OSM_Planet
+#
+# Motivation: Explore OSM relations and their predicates/objects to analyze
+# connectivity and relationships between OSM entities
+'RelationStats':
+ param_list:
+   - name: relid
+     type: str
+     default_value: "6843452"
+ sparql: |
+   # Get statistics about predicates used in an OSM relation
+   PREFIX osmrel: <https://www.openstreetmap.org/relation/>
+   SELECT ?p (COUNT(?o) as ?count)
+   WHERE {
+     osmrel:{{relid}} ?p ?o .
+   }
+   GROUP BY ?p
+   HAVING (?count > 1)
+   ORDER BY DESC(?count)
+'RelationNodes':
+# Get all nodes for a given OSM relation relid e.g. Renfe R16019
+  param_list:
+    - name: relid
+      type: str
+      default_value: "6843452"
+  sparql: |
+    PREFIX osmrel: <https://www.openstreetmap.org/relation/>
+    SELECT ?p ?o (STR(?label) as ?plabel)
+    WHERE {
+      osmrel:{{relid}} ?p ?o .
+      FILTER(STRSTARTS(STR(?o), "https://www.openstreetmap.org/node/"))
+    }
+'ItemNodesGeo':
+  # get geometry data for item member
+  # elements with a given role
+  param_list:
+    - name: relid
+      type: str
+      default_value: "10492086"
+    - name: role
+      type: str
+      default_value: "member"
+  sparql: |
+    SELECT
+      ?rel_name
+      ?rel_ref
+      ?rel
+      ?rel_pos
+      ?member
+      ?node
+      ?node_name
+      ?node_ref
+      ?role
+      ?loc
+    WHERE {
+      VALUES (?rel ?role ) {
+        (osmrel:{{relid}} "{{role}}" )
+      }
+      # names and refs if available
+      OPTIONAL { ?rel osmt:ref  ?rel_ref  }.
+      OPTIONAL { ?rel osmt:name ?rel_name }.
+      # list of members with position and role
+      ?rel osmrel:member ?member .
+      ?member osmrel:member_pos ?rel_pos .
+      ?member osmrel:member_role ?role .
+      ?member osmrel:member_id ?node .
+      # names and refs if available
+      OPTIONAL { ?node osmt:ref  ?node_ref}.
+      OPTIONAL { ?node osmt:name ?node_name}.
+      # get location info
+      ?node geo:hasGeometry/geo:asWKT ?loc .
+    }
+    # order along the node chain
+    ORDER BY ?rel_pos
+'RouteTypeHistogram':
+  sparql: |
+    SELECT
+      ?route_type (COUNT(?route_type) AS ?count)
+    WHERE {
+       ?route
+       osmt:type "route";
+       osmt:route ?route_type;
+       osmm:type "r";
+       osmt:ref ?ref;
+    }
+    GROUP BY ?route_type
+    ORDER BY DESC(?count)
+'RelationRoleHistogram':
+  # Get a histogram of roles for a given OSM relation
+  param_list:
+    - name: relid
+      type: str
+      default_value: "10492086"
+  sparql: |
+    PREFIX osmrel: <https://www.openstreetmap.org/relation/>
+    PREFIX osm2rdfmember: <https://osm2rdf.cs.uni-freiburg.de/rdf/member#>
+    SELECT ?role (COUNT(?member) as ?count)
+    WHERE {
+      osmrel:{{relid}} osmrel:member ?member .
+      ?member osm2rdfmember:role ?role .
+    }
+    GROUP BY ?role
+    ORDER BY DESC(?count)
