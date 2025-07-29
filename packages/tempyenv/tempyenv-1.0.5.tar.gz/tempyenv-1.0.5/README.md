@@ -1,0 +1,61 @@
+tempyenv
+=====================
+
+Description
+===========
+
+An easy and quick way to create a temporary Python virtual environment.
+
+tempyenv sets up a python environment in a temporary path.
+
+[![Build Status](https://app.travis-ci.com/outbit/tempyenv.svg?branch=develop "ansible-docs latest build")](http://travis-ci.org/outbit/tempyenv)
+[![PIP Version](https://img.shields.io/pypi/v/tempyenv.svg "tempyenv PyPI version")](https://pypi.python.org/pypi/tempyenv)
+[![Coverage Status](https://coveralls.io/repos/outbit/tempyenv/badge.svg?branch=develop&service=github)](https://coveralls.io/github/outbit/tempyenv?branch=develop)
+[![Gitter IM](https://badges.gitter.im/Join%20Chat.svg)](https://matrix.to/#/#tempyenv:gitter.im)
+
+
+Installation
+===========
+
+```shell
+$ python -m pip install tempyenv
+```
+
+Usage
+===========
+
+```bash
+$ tmpyenv
+```
+
+or
+
+```bash
+$ tempyenv
+(tempyenv) is setting up your virtual environment...hold tight
+Virtual environment created at /var/folders/4b/dnp21z017cg_rbgfdtzclqlm0000gn/T/tmpacwjkg5z/venv
+Virtual environment loading from /var/folders/4b/dnp21z017cg_rbgfdtzclqlm0000gn/T/tmpacwjkg5z/venv
+(tempyenv)(venv) $ echo "now you can pip install in your virtual environment"
+```
+
+To specify a specific version of python
+```bash
+$ tempyenv -p python3.10
+```
+
+or
+
+```bash
+$ python3.10 -m tempyenv
+```
+
+License
+=======
+
+tempyenv is released under the [MIT License](LICENSE.md).
+
+Author
+======
+
+David Whiteside (<david@davidwhiteside.com>)
+
