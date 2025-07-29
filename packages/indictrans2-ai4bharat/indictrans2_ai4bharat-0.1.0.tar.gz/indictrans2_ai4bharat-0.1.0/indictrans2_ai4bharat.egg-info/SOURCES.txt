@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+examples/basic_translation.py
+examples/batch_translation.py
+examples/language_detection.py
+indictrans2/__init__.py
+indictrans2/constants.py
+indictrans2/translator.py
+indictrans2/user_agents.py
+indictrans2_ai4bharat.egg-info/PKG-INFO
+indictrans2_ai4bharat.egg-info/SOURCES.txt
+indictrans2_ai4bharat.egg-info/dependency_links.txt
+indictrans2_ai4bharat.egg-info/requires.txt
+indictrans2_ai4bharat.egg-info/top_level.txt
