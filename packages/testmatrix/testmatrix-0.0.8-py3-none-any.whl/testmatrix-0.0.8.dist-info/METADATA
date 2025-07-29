@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: testmatrix
+Version: 0.0.8
+Summary: A matrix server sanity tester
+Author-email: Sebastian Spaeth <Sebastian@SSpaeth.de>
+License-Expression: AGPL-3.0-or-later
+Project-URL: source, https://codeberg.org/spaetz/testmatrix
+Project-URL: issues, https://codeberg.org/spaetz/testmatrix/issues
+Project-URL: chatroom, https://matrix.to/#/%23testmatrix:sspaeth.de
+Keywords: matrix,chat,collaboration
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: license-file
+
+# testmatrix
+
+A matrix server sanity tester. Relased under the GNU AGPLv3+.
+
+## Usage
+
+see `python3 test_matrix.py --help`
+
+Credentials are only needed if you want to test an underlying livekit
+MatrixRTC setup.
+
+If you have installed the package via pip (or other means), the
+installed command will be named `testmatrix` and not testmatrix.py.
+
+**Note:** There is an `--anonymize` switch, which will attempt to
+clean up domain names in the log output, there is no guarantee though
+that it will work 100% or that there is not an URL passed from some
+deeper python exception or so. So please double-check your output if
+you are using this.
+
+### Installation
+
+Currently, you do not need to install anything, as long as you have all
+requirements (see below) installed, you can directly run the testmatrix.py
+script.
+
+Alternatively, you can install this by issueing:
+
+`pip install testmatrix`
+
+Or even better: install the cool `[uvenv](https://pypi.org/project/uvenv/)` package manager and install into a separate venv via:
+
+`uvenv install testmatrix`
+
+### Requirements
+
+This requires python3 and python-requests.
+
+You can install all requirements on your system by running
+`pip install -r requirements.txt`
+
+## Discussion
+
+Matrix chatroom: [#testmatrix:sspaeth.de](https://matrix.to/#/#testmatrix:sspaeth.de)
+
+## Development
+
+### Build an installable package
+
+To build an installable package, you need to have python3-build
+installed. Running `python3 -m build` in the git root will create
+packages in the `dist` directory.
