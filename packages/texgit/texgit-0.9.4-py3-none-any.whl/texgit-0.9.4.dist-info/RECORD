@@ -1,0 +1,17 @@
+texgit/__init__.py,sha256=vvP4gvpwl_AdXp43ESn3x8L8jiORhgd7nFPGy8liRlQ,175
+texgit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texgit/run.py,sha256=vDQu50i9hGiuXEhMMnE9VbpqqLmFvKAK4aFZ6d06ZN0,10814
+texgit/version.py,sha256=PyIq_ugulAzv4URT8BmLqVA_9D4rCz7NA6RJYhA0TBU,159
+texgit/formatters/__init__.py,sha256=OSblevIEy9BH0GWB-xlEf6tcZfLeMOXN_-VofvDpA98,23
+texgit/formatters/python.py,sha256=0712VkjdeArvrDU4IhBlt9z352yyWwA4SlozAF73UmY,12947
+texgit/formatters/source_tools.py,sha256=a_khtGOGLDns2XBTSjntcBPVPFEQs-xjUeiuSVM6b1o,15735
+texgit/repository/__init__.py,sha256=9B61F15XSFvT2j-P5hnFjngyugR53kXNsZcC-rkQ76E,51
+texgit/repository/file_manager.py,sha256=XfpdbyMsVchx3-S9M4PzUyOHJPFaGb7ck6M9pW-DzP0,10779
+texgit/repository/fix_path.py,sha256=_hwGrbDBQfsnoAjefQXPrwLcA4xVp6UtQsQbYsvulEc,2981
+texgit/repository/git.py,sha256=Y0gcTHtTRS42a4zL5wyQfbNWWKb0YJ6jnGBJAnBZ8XY,8319
+texgit/repository/git_manager.py,sha256=JSnWJkrl-2TkNukSH2m9GLp-qmEuXlb5tAPLeAb5Y38,5201
+texgit/repository/process_manager.py,sha256=Di0Q8aRpU1r_wpR9d8a1i0m8coEedbvzs36IuVyOzF8,8720
+texgit-0.9.4.dist-info/METADATA,sha256=dX8wfwn-DK6jtF6BOxF9INNoMdc2C9AcTwhLWsQTO5I,6830
+texgit-0.9.4.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+texgit-0.9.4.dist-info/top_level.txt,sha256=IJ9EKrPK8fdBhylPOHnSEsfHd8fKnX6ORECosqL6RSU,7
+texgit-0.9.4.dist-info/RECORD,,
