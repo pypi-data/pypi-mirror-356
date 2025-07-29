@@ -1,0 +1,6 @@
+numpy>=1.22.0
+scikit-learn>=1.0.0
+# Core requirements also needed for examples
+fastapi>=0.104.0
+httpx>=0.25.0
+python-dotenv>=1.0.0
