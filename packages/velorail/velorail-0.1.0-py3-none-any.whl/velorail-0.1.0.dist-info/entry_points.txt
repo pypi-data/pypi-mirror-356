@@ -1,0 +1,4 @@
+[console_scripts]
+gpxviewer = velorail.velorail_cmd:main
+osm2wiki = velorail.osm2wiki:main
+velorail = velorail.velorail_cmd:main

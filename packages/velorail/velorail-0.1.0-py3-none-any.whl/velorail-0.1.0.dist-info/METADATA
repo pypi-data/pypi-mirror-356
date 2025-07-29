@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: velorail
+Version: 0.1.0
+Summary: Multimodal route planning with a focus on bike and train
+Project-URL: Home, https://github.com/WolfgangFahl/velorail
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/velorail
+Project-URL: Source, https://github.com/WolfgangFahl/velorail
+Author-email: Wolfgang Fahl <wf@bitplan.com>, Tim Holzheim <wf@bitplan.com>
+Maintainer-email: Wolfgang Fahl <wf@bitplan.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: bike,components,nicegui,rail,routing,train,ui,velo
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: ngwidgets>=0.27.0
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: py-3rdparty-mediawiki>=0.14.6
+Requires-Dist: py-ez-wikidata>=0.3.1
+Requires-Dist: pybasemkit>=0.0.3
+Requires-Dist: pylodstorage>=0.16.4
+Requires-Dist: shapely>=2.0.7
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Description-Content-Type: text/markdown
+
+# velorail
+Multimodal bike and train route planning support
+
+[![pypi](https://img.shields.io/pypi/pyversions/velorail)](https://pypi.org/project/velorail/)
+[![Github Actions Build](https://github.com/WolfgangFahl/velorail/actions/workflows/build.yml/badge.svg)](https://github.com/WolfgangFahl/velorail/actions/workflows/build.yml)
+[![PyPI Status](https://img.shields.io/pypi/v/velorail.svg)](https://pypi.python.org/pypi/velorail/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/velorail.svg)](https://github.com/WolfgangFahl/velorail/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/velorail.svg)](https://github.com/WolfgangFahl/velorail/issues/?q=is%3Aissue+is%3Aclosed)
+[![API Docs](https://img.shields.io/badge/API-Documentation-blue)](https://WolfgangFahl.github.io/velorail/)
+
+[![License](https://img.shields.io/github/license/WolfgangFahl/velorail.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+# Demo
+[velorail](https://velorail.bitplan.com)
+
+# Documentation
+[wiki](https://wiki.bitplan.com/index.php/Velorail)
