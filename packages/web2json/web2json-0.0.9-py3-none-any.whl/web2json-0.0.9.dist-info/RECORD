@@ -1,0 +1,13 @@
+web2json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web2json/ai_extractor.py,sha256=nK5MAIWpe59FZh13QMJf5C2sb4LnsTx2jhbladMaZqQ,2987
+web2json/cli.py,sha256=3fywEM-3cL1lvAQLMGBA-ipKsrUFiiywYtuYnA8BRpA,10268
+web2json/crawler.py,sha256=3wScZR8ngZKtYL3fqAg4mw-O-Bo4psAooI3j7okcSC0,1794
+web2json/pipeline.py,sha256=uEcnxZ3KkYETssyF7Ongu8jfEQvO3hi62yRXAhscWhs,2518
+web2json/postprocessor.py,sha256=mO1UGYf52naYdW4yN_OMQ3XH-mMR-KhbDyOctkYZEM8,2385
+web2json/preprocessor.py,sha256=oC2R0m5RkN0HGuK7TgoDaC1-_zWglLRzCxVDKIT-B5U,6451
+web2json-0.0.9.dist-info/licenses/LICENSE,sha256=ZZJuOqygwUbAoUOwNLDyAAhs3-CUS7jq_6MecoBnuZY,1087
+web2json-0.0.9.dist-info/METADATA,sha256=TaPguB5eNzJW38jQxCqvM25Ha2b1Bdl1sC_gdeoRtlE,5249
+web2json-0.0.9.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+web2json-0.0.9.dist-info/entry_points.txt,sha256=5KS708OV2ydc6KS4Xto9Bg-JMwGJfbhO-VT2wO45SBQ,47
+web2json-0.0.9.dist-info/top_level.txt,sha256=ayr5FVJm-JIXkbd1VBWPZn15pTtCfX-JvYJZp7I3SIg,9
+web2json-0.0.9.dist-info/RECORD,,
