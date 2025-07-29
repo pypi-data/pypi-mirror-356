@@ -1,0 +1,6 @@
+[project]
+name = "Package_Mehdi"
+version = "0.0.3"
+description = "Un package minimal"
+readme = "Readme.md"
+requires-python = ">=3.7"

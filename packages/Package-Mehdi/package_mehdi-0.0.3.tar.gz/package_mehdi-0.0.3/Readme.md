@@ -1,0 +1,100 @@
+# package_mehdi
+
+Un package Python simple avec des fonctions basiques pour afficher un message et effectuer des opérations arithmétiques.
+
+---
+
+## Fonctions
+
+### `Mehdi_print()`
+
+Affiche un message simple.
+
+**Usage :**
+```python
+Mehdi_print()
+# Sortie :
+# hello I am Mehdi
+```
+
+---
+
+### `Mehdi_add(a, b)`
+
+Calcule la somme de deux nombres.
+
+- **Arguments :**
+  - `a` (int ou float) : premier nombre
+  - `b` (int ou float) : deuxième nombre
+
+- **Retourne :**  
+  La somme de `a` et `b`.
+
+**Exemple :**
+```python
+result = Mehdi_add(4, 5)
+print(result)  # Affiche 9
+```
+
+---
+
+### `Mehdi_subtract(a, b)`
+
+Calcule la différence entre deux nombres.
+
+- **Arguments :**
+  - `a` (int ou float) : premier nombre
+  - `b` (int ou float) : deuxième nombre
+
+- **Retourne :**  
+  La différence `a - b`.
+
+**Exemple :**
+```python
+result = Mehdi_subtract(10, 3)
+print(result)  # Affiche 7
+```
+
+---
+
+### `Mehdi_multiply(a, b)`
+
+Calcule le produit de deux nombres.
+
+- **Arguments :**
+  - `a` (int ou float) : premier nombre
+  - `b` (int ou float) : deuxième nombre
+
+- **Retourne :**  
+  Le produit `a * b`.
+
+**Exemple :**
+```python
+result = Mehdi_multiply(6, 7)
+print(result)  # Affiche 42
+```
+
+---
+
+## Installation
+
+Pour installer ce package depuis PyPI (ou localement), utilisez :
+
+```bash
+pip install package_mehdi
+```
+
+---
+
+## Utilisation
+
+Importez les fonctions et utilisez-les comme suit :
+
+```python
+from package_mehdi import Mehdi_print, Mehdi_add, Mehdi_subtract, Mehdi_multiply
+
+Mehdi_print()
+print(Mehdi_add(2, 3))
+print(Mehdi_subtract(5, 2))
+print(Mehdi_multiply(4, 3))
+```
