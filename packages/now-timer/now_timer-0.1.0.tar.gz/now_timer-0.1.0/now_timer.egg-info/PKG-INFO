@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: now-timer
+Version: 0.1.0
+Summary: A simple Python package to get the current time in various formats.
+Home-page: https://github.com/yourusername/now-time
+Author: Eden Simamora
+Author-email: Eden Simamora <aeden6877@gmail.com>
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: colorama
+Requires-Dist: rich
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+## Project Description 
+
+⏳ now-timer is a PyPI package to now time in various form from seconds until years.
+
+## Installation
+
+pip install now-timer
+
+🔧 Depencies
+   Colorama
+   Rich
+
+   pip install colorama rich
+

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "now-timer"
+version = "0.1.0"
+description = "A simple Python package to get the current time in various formats."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Eden Simamora", email = "aeden6877@gmail.com"}
+]
+
+dependencies = [
+    "colorama",
+    "rich",
+]    
