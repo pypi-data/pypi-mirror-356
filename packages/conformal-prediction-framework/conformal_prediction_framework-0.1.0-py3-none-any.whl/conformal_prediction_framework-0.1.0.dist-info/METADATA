@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: conformal-prediction-framework
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: lightgbm>=4.6.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: scikit-learn>=1.7.0
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: setuptools>=80.9.0
+Requires-Dist: twine>=6.1.0
+Requires-Dist: wheel>=0.45.1
+Requires-Dist: xgboost>=3.0.2
