@@ -1,0 +1,12 @@
+jrun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jrun/_base.py,sha256=athRcV4m3td7wRqIvHMSh6z3idj5y_15v4RMDC2w5Nk,12847
+jrun/interfaces.py,sha256=hynOrdIBb10O3vivr3FELC_0uXiTTObW-aYRujL4qwk,3455
+jrun/job_submitter.py,sha256=nZJyRssAp4EZTCwh4y9C8IJD7dlBZmwGihKFujKG2P4,13950
+jrun/job_viewer.py,sha256=Oo5hK2_bIJaAKf4WRQgbxGGjR033GQ_8_fw-Erj-xYM,9956
+jrun/jrun_server.py,sha256=jHfFQN3b5IZUWp4oLnXpTjlUUhyJ7ck0tMlTnL10Fkg,2707
+jrun/main.py,sha256=w1njN6esCRU0iR4_eefmrnxaySJ8kyV944TcxAljvbI,9299
+agora-1.0.1.dist-info/METADATA,sha256=vG60oQeDWG_5w5L-6TO87xM7gklBwdECpwpjblZ5wcE,6116
+agora-1.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+agora-1.0.1.dist-info/entry_points.txt,sha256=vMzLfHdPUDlIyT5du_8fZ4JpL5v86LDdgPYDV6g-vfw,40
+agora-1.0.1.dist-info/top_level.txt,sha256=desu4otPOFueivJq4am72gs5iGqrhIqZ4qiBApLGDRk,5
+agora-1.0.1.dist-info/RECORD,,
