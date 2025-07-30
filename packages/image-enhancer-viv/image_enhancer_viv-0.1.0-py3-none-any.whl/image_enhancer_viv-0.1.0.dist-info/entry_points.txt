@@ -1,0 +1,2 @@
+[console_scripts]
+image-enhancer = image_enhancer.main:main
