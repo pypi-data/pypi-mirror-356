@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "predicta-app-test"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Krishanu Nayak", email = "krishanu.nayak@riotinto.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "pandas",
+]
+
+[project.urls]
+Documentation = "https://github.com/Krishanu Nayak/predicta-app-test#readme"
+Issues = "https://github.com/Krishanu Nayak/predicta-app-test/issues"
+Source = "https://github.com/Krishanu Nayak/predicta-app-test"
+
+[tool.hatch.version]
+path = "src/predicta_app_test/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "fastapi[standard]"
+]
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/predicta_app_test tests}"
+
+[tool.coverage.run]
+source_pkgs = ["predicta_app_test", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/predicta_app_test/__about__.py",
+]
+
+[tool.coverage.paths]
+predicta_app_test = ["src/predicta_app_test", "*/predicta-app-test/src/predicta_app_test"]
+tests = ["tests", "*/predicta-app-test/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
