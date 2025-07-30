@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: lasp_opensearch_data_center
+Version: 1.0.6
+Summary: Construct library for creating a CSV ingest pipeline into OpenSearch with a front end website.
+Author: Gavin Medley
+Author-email: gavin.medley@lasp.colorado.edu
+Maintainer: Gavin Medley
+Maintainer-email: gavin.medley@lasp.colorado.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aws-cdk-lib (>=2.0.0,<3.0.0)
+Requires-Dist: constructs (>=10.0.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# LASP OpenSearch Data Center CDK Constructs
+
+A construct library for implementing an OpenSearch data center.
+
+# Installation
+
+The package is available on PyPI:
+
+```shell
+pip install lasp-opensearch-data-center
+```
