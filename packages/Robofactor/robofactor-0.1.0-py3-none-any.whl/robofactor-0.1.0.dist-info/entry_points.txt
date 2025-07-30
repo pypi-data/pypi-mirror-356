@@ -1,0 +1,2 @@
+[console_scripts]
+robofactor = robofactor.main:app
