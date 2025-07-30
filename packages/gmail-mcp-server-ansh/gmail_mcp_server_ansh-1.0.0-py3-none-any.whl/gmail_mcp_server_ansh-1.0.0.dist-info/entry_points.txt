@@ -1,0 +1,2 @@
+[console_scripts]
+gmail-mcp-server-ansh = gmail_mcp_server.server:main
