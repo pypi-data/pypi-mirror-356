@@ -1,0 +1,14 @@
+arxiv_dl/__init__.py,sha256=sNbh79683zndzCvwV2hOqTkUGbibxZ7NIZgFvcoje5o,37
+arxiv_dl/__main__.py,sha256=SzfLTR3x1CRLM42NondZq2HEen30l-9Y4JVFiW7TPg8,5492
+arxiv_dl/dl_utils.py,sha256=4shPVHKDoI97eVaahAAgybMIeGXsAn2WpcgoQQRGx2I,20642
+arxiv_dl/helpers.py,sha256=bKqtRgytaoG1N0EcplWcvBs_8q9GRwdZVJWPHMUvzOo,9795
+arxiv_dl/logger.py,sha256=kGh3CzzWM5O9EVy0JfejO7PoAZkOcrq5TBN6ztu4mBk,617
+arxiv_dl/models.py,sha256=0DLgSm7nSQt6_hCYczdoEhuML6Z2yHS0WAr5as0JrYc,678
+arxiv_dl/scrapers.py,sha256=esZDof71A4fy_AueXU1c1xx07TzJuk1dCLTfY_sbBdA,9042
+arxiv_dl/target_parser.py,sha256=Yoqr3K2bRSpKYNxuHqyZjIIbiv609N2Dc15m-OVX5Kc,13428
+arxiv_dl/updater.py,sha256=Hgb0QikIE61FlUOfwGUHW837oxfAH2mWigvE0oM_W0U,1300
+arxiv_dl-1.1.9.dist-info/METADATA,sha256=vcLXrm3kc8Z2Unpyq93EnXgjfZZKZ0fhT1kLI72pZxs,8430
+arxiv_dl-1.1.9.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+arxiv_dl-1.1.9.dist-info/entry_points.txt,sha256=V9GIKiSWcab7O_K-v3xo0I6Nccx0Avw4bifflor7rBs,114
+arxiv_dl-1.1.9.dist-info/licenses/LICENSE,sha256=pOm5F-DCLfwRh3tzd96owRZuVPJ_kiGPlI-9rC9Zvl4,1075
+arxiv_dl-1.1.9.dist-info/RECORD,,
