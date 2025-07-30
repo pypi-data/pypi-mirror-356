@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: llmpy-lib
+Version: 0.0.8
+Summary: Easily interact with all main LLMs
+Project-URL: Homepage, https://github.com/yourusername/llmpy
+Project-URL: Issues, https://github.com/yourusername/llmpy/issues
+Author-email: Angelo Zangari <angelo.zangari10@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: anthropic
+Requires-Dist: google-genai
+Requires-Dist: groq
+Requires-Dist: llmpy-models
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Description-Content-Type: text/markdown
+
+Supported large language models:
+the one hosted on groq
+
+The rest is to come:
+- anthropic (claude...)
+- deepseek (deepseek-70b...)
+- google (gemini...)
+- meta (llama3.1-7b...)
+- openai (gpt3.5...)
+- qwen (34b...)
+
+
+Usage example:
+
+```python
+import llmpy as lm
+
+question = 'how many r\'s in strawberry'
+
+model = Model.LLAMA_3_3_70B
+models = [
+    Model.LLAMA_3_3_70B,
+    Model.Deepseek
+]
+
+lm.ask(model, question)
+lm.ask_many(models, question)
+```
