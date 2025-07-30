@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: errormaster
+Version: 1.0.0
+Summary: errorcatcher
+Project-URL: Homepage, https://github.com/yourusername/fnsignal
+Project-URL: Bug Tracker, https://github.com/yourusername/fnsignal/issues
+Author-email: howShouldIChosseMyUsername <trademark2179@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# errorcatcher
+
+파이썬 예외 감지 및 무시 패키지입니다.
+
+- start(), stop()으로 예외 감지
+- with do_this: 블록으로 예외 무시
