@@ -1,0 +1,121 @@
+facts:
+  # User data
+  - [user, alice, "admin", "active"]
+  - [user, bob, "user", "active"]
+  - [user, charlie, "user", "suspended"]
+  - [user, david, "manager", "active"]
+  
+  # Product data
+  - [product, laptop, "electronics", 1200, "in_stock", 50]
+  - [product, phone, "electronics", 800, "in_stock", 30]
+  - [product, book, "books", 25, "out_of_stock", 0]
+  - [product, chair, "furniture", 150, "in_stock", 10]
+  
+  # Order data
+  - [order, order1, alice, "pending", 2400]
+  - [order, order2, bob, "completed", 800]
+  - [order, order3, charlie, "cancelled", 150]
+  
+  # Order items
+  - [order_item, order1, laptop, 2]
+  - [order_item, order2, phone, 1]
+  - [order_item, order3, chair, 1]
+  
+  # Business rules
+  - [min_order_amount, 100]
+  - [max_order_amount, 10000]
+  - [admin_discount, 0.1]
+  - [manager_discount, 0.05]
+  - [suspended_user_restriction, true]
+
+rules:
+  # User permissions
+  - head: [can_place_order, '?User']
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Status', 'active']
+  
+  - head: [can_view_all_orders, '?User']
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Role', 'admin']
+  
+  - head: [can_approve_orders, '?User']
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [or, [eq, '?Role', 'admin'], [eq, '?Role', 'manager']]
+  
+  # Product availability
+  - head: [product_available, '?Product']
+    body:
+      - [product, '?Product', '?Category', '?Price', '?Status', '?Stock']
+      - [eq, '?Status', 'in_stock']
+      - [gt, '?Stock', 0]
+  
+  # Order validation
+  - head: [valid_order_amount, '?Amount']
+    body:
+      - [min_order_amount, '?Min']
+      - [max_order_amount, '?Max']
+      - [gte, '?Amount', '?Min']
+      - [lte, '?Amount', '?Max']
+  
+  # Discount calculation
+  - head: [user_discount, '?User', '?Discount']
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Role', 'admin']
+      - [admin_discount, '?Discount']
+  
+  - head: [user_discount, '?User', '?Discount']
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Role', 'manager']
+      - [manager_discount, '?Discount']
+  
+  - head: [user_discount, '?User', 0]
+    body:
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Role', 'user']
+  
+  # Order total calculation
+  - head: [order_total, '?OrderId', '?Total']
+    body:
+      - [order, '?OrderId', '?User', '?Status', '?Total']
+  
+  # Complex business rule: Can user place this order?
+  - head: [can_place_specific_order, '?User', '?OrderId']
+    body:
+      - [can_place_order, '?User']
+      - [order, '?OrderId', '?User', '?Status', '?Amount']
+      - [valid_order_amount, '?Amount']
+      - [eq, '?Status', 'pending']
+  
+  # Inventory check
+  - head: [sufficient_inventory, '?Product', '?Quantity']
+    body:
+      - [product, '?Product', '?Category', '?Price', '?Status', '?Stock']
+      - [gte, '?Stock', '?Quantity']
+  
+  # Order approval workflow
+  - head: [order_requires_approval, '?OrderId']
+    body:
+      - [order, '?OrderId', '?User', '?Status', '?Amount']
+      - [gt, '?Amount', 1000]
+      - [user, '?User', '?Role', '?Status']
+      - [eq, '?Role', 'user']
+  
+  - head: [order_auto_approved, '?OrderId']
+    body:
+      - [order, '?OrderId', '?User', '?Status', '?Amount']
+      - [lte, '?Amount', 1000]
+  
+  # Data validation rules
+  - head: [valid_product_price, '?Price']
+    body:
+      - [gt, '?Price', 0]
+      - [lt, '?Price', 100000]
+  
+  - head: [valid_user_role, '?Role']
+    body:
+      - [member, '?Role', ['admin', 'manager', 'user']] 

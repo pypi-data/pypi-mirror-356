@@ -1,0 +1,56 @@
+facts:
+  - [person, alice]
+  - [person, bob]
+  - [person, charlie]
+  - [person, david]
+  - [person, emily]
+  - [person, frank]
+  - [person, grace]
+  - [person, helen]
+
+  - [parent, alice, bob]
+  - [parent, alice, charlie]
+  - [parent, david, emily]
+  - [parent, david, frank]
+  - [parent, bob, grace]
+  - [parent, charlie, helen]
+
+  - [married, alice, david]
+  - [married, david, alice]
+
+rules:
+  # Sibling: share a parent, not the same person
+  - head: [sibling, '?X', '?Y']
+    body:
+      - [parent, '?P', '?X']
+      - [parent, '?P', '?Y']
+      - [neq, '?X', '?Y']
+
+  # Ancestor: parent or parent of ancestor
+  - head: [ancestor, '?A', '?D']
+    body:
+      - [parent, '?A', '?D']
+  - head: [ancestor, '?A', '?D']
+    body:
+      - [parent, '?A', '?P']
+      - [ancestor, '?P', '?D']
+
+  # Cousin: parents are siblings
+  - head: [cousin, '?X', '?Y']
+    body:
+      - [parent, '?P1', '?X']
+      - [parent, '?P2', '?Y']
+      - [sibling, '?P1', '?P2']
+      - [neq, '?X', '?Y']
+
+  # Spouse: married in either direction
+  - head: [spouse, '?X', '?Y']
+    body:
+      - [married, '?X', '?Y']
+
+  # Example async built-in: get IP for a person (simulate external info)
+  - head: [person_ip, '?Person', '?IP']
+    body:
+      - [person, '?Person']
+      - [http_get_json, 'https://httpbin.org/get', '?Response']
+      - [unify_json_path, '?Response', 'origin', '?IP']
