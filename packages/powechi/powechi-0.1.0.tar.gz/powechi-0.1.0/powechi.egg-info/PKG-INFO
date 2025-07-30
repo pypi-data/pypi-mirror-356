@@ -1,0 +1,104 @@
+Metadata-Version: 2.4
+Name: powechi
+Version: 0.1.0
+Summary: A powerful Python library for various utilities
+Home-page: https://github.com/williamxiewz/powechi
+Author: williamxiewz
+Author-email: williamxiewz <williamxiewz@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/williamxiewz/powechi
+Project-URL: Repository, https://github.com/williamxiewz/powechi
+Project-URL: Issues, https://github.com/williamxiewz/powechi/issues
+Keywords: utility,tools,python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Requires-Dist: mypy>=0.812; extra == "dev"
+Requires-Dist: twine>=4.0; extra == "dev"
+Requires-Dist: build>=0.8; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# Powechi
+
+一个强大的 Python 实用工具库。
+
+## 安装
+
+```bash
+pip install powechi
+```
+
+## 快速开始
+
+```python
+from powechi import hello
+
+# 使用示例
+result = hello("World")
+print(result)  # 输出: Hello, World!
+```
+
+## 功能特性
+
+- 简单易用的 API
+- 高性能
+- 完整的类型提示支持
+- 全面的测试覆盖
+
+## 开发
+
+### 安装开发依赖
+
+```bash
+pip install -e ".[dev]"
+```
+
+### 运行测试
+
+```bash
+pytest
+```
+
+### 代码格式化
+
+```bash
+black powechi/
+```
+
+### 类型检查
+
+```bash
+mypy powechi/
+```
+
+## 许可证
+
+MIT License
+
+## 贡献
+
+欢迎提交 Pull Request 和 Issue！
+
+## 更新日志
+
+### 0.1.0 (2024-01-01)
+
+- 初始版本发布
+- 基础功能实现 
