@@ -1,0 +1,32 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PythonEasyDB"
+version = "0.1.2"
+description = "Unified Python database client for SQLite, PostgreSQL, MongoDB, and Redis."
+authors = [
+    { name="Asrorbek Aliqulov", email="asrorbekaliqulov08@gmail.com" }
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "psycopg2-binary>=2.9.0",
+    "pymongo>=4.0",
+    "redis>=5.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/asrorbekaliqulov/PythonEasyDB"
+Repository = "https://github.com/asrorbekaliqulov/PythonEasyDB"
+Issues = "https://github.com/asrorbekaliqulov/PythonEasyDB/issues"
+
+[tool.setuptools.packages.find]
+where = ["PythonEasyDB"]
+
+# Optional: if you want to include non-code files like README
+[tool.setuptools]
+include-package-data = true
