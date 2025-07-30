@@ -1,0 +1,12 @@
+botobuddy/auth.py,sha256=b9HWlo0lTK2BVsTKBVgnIlhjYtLOQzQ8MRzXYZHJ1cs,394
+botobuddy/cli.py,sha256=mFI_oMz8cWgqh3sqvos6rDmVXWrozM6urkx-c3QINoM,1432
+botobuddy/common.py,sha256=UKLAtx-lj-3kZcMu09kSm7wVXPA796ZXtTGtfqCMXA0,3561
+botobuddy/dynamo.py,sha256=FttRVpxUumjX-SuFv_eedn2z_isIihztHJU9RJJHv5w,1758
+botobuddy/route53.py,sha256=lF5Ur_Dx-SV5YQKJgFO3kjIQyhEhJL6rFHEJ6kvj440,1421
+botobuddy/s3.py,sha256=er_rnzgPoZYW865wp8KgdlSk9ywX0z21JAXHFHtUYv4,6144
+botobuddy/sagemaker.py,sha256=pj17F6CqqfrsLI3HRbf7SjyBHgodqP3hrb5MTA7In8I,7424
+botobuddy-0.1.0.dist-info/METADATA,sha256=sdTDTS8UrGigGrqA7CQCdEqfcwTLmpHaD6z_Lc8oMlw,2466
+botobuddy-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+botobuddy-0.1.0.dist-info/entry_points.txt,sha256=GIA5WYP4-OT1vGmWjcVoc1Bpi0FOm7tVbWQrmCwp4-c,49
+botobuddy-0.1.0.dist-info/licenses/LICENSE,sha256=WEJBEFwM91Sxj2Jv7qCYodvw-UnD1HAgm7VQ6Gc6d6o,1070
+botobuddy-0.1.0.dist-info/RECORD,,
