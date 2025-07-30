@@ -1,0 +1,12 @@
+odoo/addons/mail_block_user_assigned_message/README.rst,sha256=7NtlsVZFN_X_jTHbMUe3smepoQVBSdJI1zx4J1Ph8GQ,2528
+odoo/addons/mail_block_user_assigned_message/__init__.py,sha256=xuyEFmNVHLb-nWahYTZ1p3WnM1pIsemZv_jjuX1BI6g,145
+odoo/addons/mail_block_user_assigned_message/__manifest__.py,sha256=6YLun0yEaPYgg7pGYmPsOPOKQ6dTeAdgV6v1g9zBUWk,596
+odoo/addons/mail_block_user_assigned_message/models/__init__.py,sha256=v6GxF_tvI9dc8RY3n1BYwKDg0FLqNTQNtIeeR4MDsxg,176
+odoo/addons/mail_block_user_assigned_message/models/mail_thread.py,sha256=SpnAFiEro4dYSal3-fTgXvvBVOKB4BKLNwD6DXiOBxI,1631
+odoo/addons/mail_block_user_assigned_message/models/res_partner.py,sha256=uze7O3dzIcITOXtMzIR53i1cnqpHr8MKvqOg-8qCePk,402
+odoo/addons/mail_block_user_assigned_message/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/mail_block_user_assigned_message/views/res_users_views.xml,sha256=4BAUnmeh5RYThMMaqXyLf1VEkpEwy3-jyWyumv3UuS4,1847
+odoo_addon_mail_block_user_assigned_message-16.0.1.0.0.dist-info/METADATA,sha256=SlU6eftNdHBiRq-0osZSSqc2rWxknU7Rv4TfZRoc08c,3090
+odoo_addon_mail_block_user_assigned_message-16.0.1.0.0.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_mail_block_user_assigned_message-16.0.1.0.0.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_mail_block_user_assigned_message-16.0.1.0.0.dist-info/RECORD,,
