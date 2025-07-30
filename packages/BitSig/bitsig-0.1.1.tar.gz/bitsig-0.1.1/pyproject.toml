@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BitSig"
+version = "0.1.1"
+description = "A modern way to auto log system errors"
+authors = [
+  { name="Tristan McBride Sr.", email = "142635792+TristanMcBrideSr@users.noreply.github.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv",
+]
+
+[project.urls]
+Homepage = "https://github.com/TristanMcBrideSr"
+

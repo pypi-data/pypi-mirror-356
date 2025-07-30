@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+BitSig/BitSig.py
+BitSig/__init__.py
+BitSig.egg-info/PKG-INFO
+BitSig.egg-info/SOURCES.txt
+BitSig.egg-info/dependency_links.txt
+BitSig.egg-info/requires.txt
+BitSig.egg-info/top_level.txt
