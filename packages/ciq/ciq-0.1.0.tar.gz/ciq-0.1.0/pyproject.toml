@@ -1,0 +1,12 @@
+[project]
+name = "ciq"
+version = "0.1.0"
+description = "A minimal CIQ SDK that says Hello World"
+authors = [{ name = "Khushi", email = "your-email@example.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
