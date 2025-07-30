@@ -1,0 +1,1 @@
+profanitylist = ['fuck', 'bitch', 'ass', 'dick', 'asshole', 'bitchass', 'nigger', 'nigga', 'cock', 'tobacco', 'weed', 'drugs', 'piss', 'porn', 'lewd', 'nude', 'fag', 'faggot', 'coon', 'cocaine', 'meth', 'cunt', 'sex', 'penis', 'vagina']
