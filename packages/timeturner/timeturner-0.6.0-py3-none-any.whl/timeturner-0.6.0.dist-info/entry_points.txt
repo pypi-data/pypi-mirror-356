@@ -1,0 +1,3 @@
+[console_scripts]
+timeturner = timeturner.run:entrypoint
+tt = timeturner.run:entrypoint
