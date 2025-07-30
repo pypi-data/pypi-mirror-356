@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: aicoderx
+Version: 0.1.7
+Summary: Lightweight code generation using quantized LLMs
+Home-page: https://github.com/jayyvk/ai-coder
+Author: Jay Kilaparthi
+Author-email: Jayakeerth Kilaparthi <jayakeerth@example.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: accelerate
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# ai-coder
+
+An offline Python code assistant using Hugging Face transformers and Microsoft's Phi-1.5 model.
+
+## Usage
+
+```python
+from ai_coder import generate
+print(generate("Write a function to reverse a list."))
