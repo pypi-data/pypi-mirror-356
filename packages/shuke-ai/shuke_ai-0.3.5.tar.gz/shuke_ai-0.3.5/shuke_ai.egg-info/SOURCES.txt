@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+obfuscated/shuke_ai/main.py
+obfuscated/shuke_ai/pyarmor_runtime_000000/__init__.py
+obfuscated/shuke_ai/pyarmor_runtime_000000/pyarmor_runtime.so
+shuke_ai.egg-info/PKG-INFO
+shuke_ai.egg-info/SOURCES.txt
+shuke_ai.egg-info/dependency_links.txt
+shuke_ai.egg-info/entry_points.txt
+shuke_ai.egg-info/requires.txt
+shuke_ai.egg-info/top_level.txt
