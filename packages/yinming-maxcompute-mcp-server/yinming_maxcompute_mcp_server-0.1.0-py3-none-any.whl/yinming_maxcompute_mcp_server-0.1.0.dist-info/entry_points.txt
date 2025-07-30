@@ -1,0 +1,2 @@
+[console_scripts]
+yinming-maxcompute-mcp-server = yinming_maxcompute_mcp_server:main
