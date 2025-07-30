@@ -1,0 +1,2 @@
+[console_scripts]
+scan2wiki = scan.scan_cmd:main

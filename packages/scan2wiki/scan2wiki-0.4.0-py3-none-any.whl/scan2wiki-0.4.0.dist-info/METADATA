@@ -1,0 +1,61 @@
+Metadata-Version: 2.4
+Name: scan2wiki
+Version: 0.4.0
+Summary: scan2wiki - nicegui based DMS with option to scan documents to a semantic mediawiki
+Project-URL: Home, https://github.com/WolfgangFahl/scan2wiki
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/scan2wiki
+Project-URL: Source, https://github.com/WolfgangFahl/scan2wiki
+Author-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+Maintainer-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+License: Apache-2.0
+License-File: LICENSE
+Keywords: DMS,OCR,mediawiki,nicegui,scan
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.10
+Requires-Dist: apscheduler
+Requires-Dist: beautifulsoup4>=4.11.1
+Requires-Dist: dataclasses-json>=0.6.1
+Requires-Dist: ngwidgets>=0.27.1
+Requires-Dist: py-3rdparty-mediawiki>=0.15.4
+Requires-Dist: pybasemkit>=0.0.3
+Requires-Dist: pylodstorage>=0.16.4
+Requires-Dist: pymupdf>=1.25.5
+Requires-Dist: pyzbar>=0.1.9
+Requires-Dist: watchdog
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Description-Content-Type: text/markdown
+
+# scan2wiki
+Scan from ScanSnap to SemanticMediaWiki
+
+[![pypi](https://img.shields.io/pypi/pyversions/scan2wiki)](https://pypi.org/project/scan2wiki/)
+[![Github Actions Build](https://github.com/WolfgangFahl/scan2wiki/actions/workflows/build.yml/badge.svg)](https://github.com/WolfgangFahl/scan2wiki/actions/workflows/build.yml)
+[![PyPI Status](https://img.shields.io/pypi/v/scan2wiki.svg)](https://pypi.python.org/pypi/scan2wiki/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/scan2wiki.svg)](https://github.com/WolfgangFahl/scan2wiki/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/scan2wiki.svg)](https://github.com/WolfgangFahl/scan2wiki/issues/?q=is%3Aissue+is%3Aclosed)
+[![API Docs](https://img.shields.io/badge/API-Documentation-blue)](https://WolfgangFahl.github.io/scan2wiki/)
+[![License](https://img.shields.io/github/license/WolfgangFahl/scan2wiki.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![BITPlan](http://wiki.bitplan.com/images/wiki/thumb/3/38/BITPlanLogoFontLessTransparent.png/198px-BITPlanLogoFontLessTransparent.png)](http://www.bitplan.com)
+
+
+## Links
+* [Python](https://www.python.org/)
+* [pywikibot](https://pypi.org/project/pywikibot/)
+* [scan2wiki on pypi](https://pypi.org/project/scan2wiki)
+
+## Documentation
+[Wiki](http://wiki.bitplan.com/index.php/scan2wiki)
