@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: pamlqt
+Version: 0.1.0
+Summary: A toolkit for phylogenetic analysis with codeml
+Home-page: https://github.com/qinti2023/pamlqt
+Author: qinti
+Author-email: qinti@zju.edu.cn
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython>=1.78
+Requires-Dist: ete3>=3.1.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pamlqt
+
+A comprehensive toolkit for phylogenetic analysis with codeml.
+
+## Installation
+
+```bash
+pip install pamlqt
