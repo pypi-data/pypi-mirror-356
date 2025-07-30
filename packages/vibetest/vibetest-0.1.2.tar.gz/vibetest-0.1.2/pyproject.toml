@@ -1,0 +1,12 @@
+[project]
+name = "vibetest"
+version = "0.1.2"
+description = "Browser-agent QA swarm with MCP interface for testing AI-generated websites"
+requires-python = ">=3.11"
+dependencies = [ "mcp[cli]>=1.0.0", "browser-use", "playwright", "langchain_google_genai", "langchain_core", "pydantic", "screeninfo",]
+
+[project.scripts]
+vibetest-mcp = "vibetest.mcp_server:run"
+
+[tool.setuptools.packages.find]
+include = [ "vibetest*",]
