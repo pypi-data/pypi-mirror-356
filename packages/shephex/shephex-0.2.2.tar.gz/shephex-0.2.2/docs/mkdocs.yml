@@ -1,0 +1,116 @@
+site_name: Shephex 
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Getting Started:
+      - Overview: getting_started/index.md
+      - First experiments: getting_started/first_experiments.md
+      - Shephex with Slurm: getting_started/slurm.md
+      - Managing results: getting_started/checking_results.md
+      - Using shephex.chain: getting_started/chain_decorator.md
+  
+  - API Reference:
+      - shephex: autoapi/shephex/index.md
+      - Experiment: autoapi/shephex/experiment/index.md
+      - Executor: autoapi/shephex/executor/index.md
+      - CLI: autoapi/shephex/cli/index.md
+      - Study: autoapi/shephex/study/index.md
+      - where: autoapi/shephex/where.md
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: !relative $config_dir/../tests/doc_examples/
+      dedent_subsections: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - footnotes
+
+plugins:
+  - search
+  - mkdocs-autoapi:
+      autoapi_dir: ../src/shephex
+      autoapi_add_nav_entry: False
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["../src"]
+          options:
+            docstring_options:
+              ignore_init_summary: false
+            docstring_style: numpy
+            docstring_section_style: list
+            filters: ["!^_"]
+            heading_level: 1
+            inherited_members: true
+            merge_init_into_class: true
+            parameter_headings: true
+            separate_signature: true
+            show_root_heading: true
+            show_root_full_path: true
+            show_signature_annotations: true
+            show_source: false
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            signature_crossrefs: true
+            summary: true
+
+
+theme:
+  language: en
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.sections
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+
+extra:
+  generator: false
+
+
+# theme: 
+#   name: material
+#   repo_url: https://gitlab.com/Mads-Peter/shephex
+#   repo_name: shephex
+#   icon:
+#     - repo: fontawesome/brands/gitlab
+#   features:
+#     - navigation.tabs
+#   palette:
+#     scheme: slate
+#     primary: deep purple
+
+
+  # - announce.dismiss
+  # - content.action.edit
+  # - content.action.view
+  # - content.code.annotate
+  # - content.code.copy
+  # - content.tooltips
+  # - navigation.footer
+  # - navigation.indexes
+  # - navigation.sections
+  # - navigation.tabs
+  # - navigation.tabs.sticky
+  # - navigation.expand
+  # - navigation.top
+  # - search.highlight
+  # - search.suggest
+  # - toc.follow
