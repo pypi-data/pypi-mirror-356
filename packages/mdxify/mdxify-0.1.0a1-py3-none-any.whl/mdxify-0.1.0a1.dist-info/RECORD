@@ -1,0 +1,13 @@
+mdxify/__init__.py,sha256=sS3i2q2SkALg9qauVW5ESwZU5gAD0pEaHrGQPepIOJE,898
+mdxify/_version.py,sha256=5xIY3ELULPV8URmPhSczq2Lsho497hq56SJvn8jjVtc,519
+mdxify/cli.py,sha256=ut7-AC2ggIwFJikHiedvNQ0Blo9kH4Opar_Dbz8JJF4,5307
+mdxify/discovery.py,sha256=OEcKr06BU6gLznn8N7v6cGbVXDF9LyzzETIwmXCkAzA,1518
+mdxify/formatter.py,sha256=X4wadynSB09z3UFrZWvp-N3Ml2VotX5xHOtlgGkkyRE,4809
+mdxify/generator.py,sha256=yk2Jij6q5zD5lHyZ4Nb_kfUS4dnsjgsnco68iW-KlEk,3871
+mdxify/navigation.py,sha256=ecEpT32fSyD63x7rJ7hn7PP-e_emqQymtyzsKz843JU,7162
+mdxify/parser.py,sha256=MR_qQ09oTQP8rEn7mhutBFhzNzV9IKlVOkb5c8XTaRs,4023
+mdxify/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdxify-0.1.0a1.dist-info/METADATA,sha256=rt8q-mtkAEb3s15VYmdOHNe1F7dumTv24DIa77L2PVE,1991
+mdxify-0.1.0a1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+mdxify-0.1.0a1.dist-info/entry_points.txt,sha256=GBXFnaaK1GA5P0-hsugsawrwn7w2twZd_eO5WBF2JOU,43
+mdxify-0.1.0a1.dist-info/RECORD,,
