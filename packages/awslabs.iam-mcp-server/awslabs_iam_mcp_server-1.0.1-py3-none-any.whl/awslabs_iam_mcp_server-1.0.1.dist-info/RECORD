@@ -1,0 +1,13 @@
+awslabs/__init__.py,sha256=dzKGHmVYP-680lDPkXJrDGVhMSb0BD6_Vfu83qcA1aA,675
+awslabs/iam_mcp_server/__init__.py,sha256=tnJPNAmwa84Ny3QliNkzX5cLfDTMrM3bXKa9QGfXrLo,665
+awslabs/iam_mcp_server/aws_client.py,sha256=13lAde77Q3DdOHDqE7YvF93SjdV-S9c_2uy3ChrjpaA,2994
+awslabs/iam_mcp_server/context.py,sha256=X28PtpwuvU1NyWIc8cBx8tyZimGfirXRegyasygBUd8,1620
+awslabs/iam_mcp_server/errors.py,sha256=Co6-rVod81qaAl__Ob5ouGly33SBhfpF61am2P5BfmE,5818
+awslabs/iam_mcp_server/models.py,sha256=ftCkBwW4IKk0g1pmspI7tXpWEZTu3zSs7nx0DwQvOfI,8424
+awslabs/iam_mcp_server/server.py,sha256=8OHhdRMwxE9YlYlynbA-V33ChLCQudrxWsLHk7UVPKo,26615
+awslabs_iam_mcp_server-1.0.1.dist-info/METADATA,sha256=i8PWiTrIXj9wYS5docL-O2U4OOgECuFas4UlYq76cBg,14297
+awslabs_iam_mcp_server-1.0.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+awslabs_iam_mcp_server-1.0.1.dist-info/entry_points.txt,sha256=B9fOJVT7l2NUQ1RHLUiskRtB5wADSpSI95cI9gU6dO0,78
+awslabs_iam_mcp_server-1.0.1.dist-info/licenses/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+awslabs_iam_mcp_server-1.0.1.dist-info/licenses/NOTICE,sha256=Qls-8qZMuKGG2WDBsLbJOBNuQxTkSI6ij_7HTi7I4ys,86
+awslabs_iam_mcp_server-1.0.1.dist-info/RECORD,,
