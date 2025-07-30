@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: jposit
+Version: 0.3.1.dev0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Summary: jposit
+Keywords: posit,numerics,computer arithmetics
+Home-Page: https://github.com/urbanij/jposit
+Author: Francesco Urbani <francescourbanidue@gmail.com>
+Author-email: Franceco Urbani <francescourbanidue@gmail.com>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.8, <3.14
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/urbanij/jposit
+
+```sh
+uv venv
+source .venv/bin/activate
+uv pip install maturin
+# if macOS
+uv pip install pip
+
+maturin develop
+python
+>>> import jposit
+>>> jposit.from_bits(...)
+>>>
+```
+
+---
+Deprecated:
+
+
+[![Rust](https://github.com/urbanij/posit/actions/workflows/rust.yml/badge.svg)](https://github.com/urbanij/posit/actions/workflows/rust.yml)
+
+# Posit
+
+Added python bindings exploiting Python FFI lib.
+Working with Python 3.9/3.10
+```py
+>>> import jposit
+>>> jposit.from_bits(123, 8, 0)
+14.0
+>>> jposit.from_double(35.1, 16, 1)
+35.09375
+```
+
+Jupyter notebook: https://github.com/urbanij/posit/blob/master/py-posit/notebooks/demo.ipynb
+
+<!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urbanij/posit/master?labpath=py-posit%2Fnotebooks%2Fdemo.ipynb) -->
+
