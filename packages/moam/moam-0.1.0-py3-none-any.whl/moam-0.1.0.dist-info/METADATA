@@ -1,0 +1,101 @@
+Metadata-Version: 2.4
+Name: MoaM
+Version: 0.1.0
+Summary: A placeholder package for MoaM
+Home-page: https://github.com/ahe6/MoaM
+Author: Austin
+Author-email: Austin <austin@moam.ai>
+Project-URL: Homepage, https://github.com/ahe6/MoaM
+Project-URL: Bug Tracker, https://github.com/ahe6/MoaM/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# MoaM
+
+A placeholder Python package ready for distribution on PyPI and conda-forge.
+
+## Installation
+
+### From PyPI
+
+```bash
+pip install MoaM
+```
+
+### From source
+
+```bash
+git clone https://github.com/ahe6/MoaM.git
+cd MoaM
+pip install -e .
+```
+
+## Usage
+
+```python
+import MoaM
+
+print(MoaM.hello())  # Output: Hello from MoaM!
+```
+
+## Development
+
+To install development dependencies:
+
+```bash
+pip install -e ".[dev]"
+```
+
+## Building and Publishing
+
+### Building the package
+
+```bash
+python -m build
+```
+
+### Publishing to PyPI
+
+First, install twine:
+
+```bash
+pip install twine
+```
+
+Then upload to PyPI:
+
+```bash
+twine upload dist/*
+```
+
+### Publishing to conda-forge
+
+1. Fork https://github.com/conda-forge/staged-recipes
+2. Create a new branch for your recipe
+3. Add your recipe in `recipes/MoaM/meta.yaml`
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
