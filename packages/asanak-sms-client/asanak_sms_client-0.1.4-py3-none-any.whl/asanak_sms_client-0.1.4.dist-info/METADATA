@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: asanak-sms-client
+Version: 0.1.4
+Summary: Asanak SMS client for sending and reporting messages via REST API
+Author: Farzad Forouzanfar
+Author-email: forouzanfar2000f@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25
+
+# 📦 Asanak SMS Client (Python)
+
+یک کلاینت پایتونی برای ارسال پیامک از طریق API Asanak
+
+## 🚀 نصب پکیج
+
+### از PyPI:
+```bash
+pip install asanak-sms-client
+```
+
+### از GitHub:
+```bash
+pip install git+https://github.com/username/asanak-sms-python.git
+```
+
+## 📚 استفاده از کلاینت
+
+```python
+from asanak_sms_client import AsanakSMSClient
+
+# ایجاد یک شیء از کلاس AsanakSMSClient با استفاده از اطلاعات کاربری
+client = AsanakSMSClient("username", "password")
+
+# ارسال یک پیامک
+try:
+    response = client.send_sms("9821X", "0912000000", "کد تست 1234")
+    print(response)
+except Exception as e:
+    print(e)
+```
+
+## 📝 پارامتر‌های ورودی
+
+- `username`: نام کاربری از API Asanak
+- `password`: رمز عبور از API Asanak
+- `base_url`: آدرس سرور API Asanak (پیش‌فرض: `https://sms.asanak.ir`)
+- `log`: فعال‌سازی لاگ‌های ارسال پیامک (پیش‌فرض: `False`)
+
+## 📝 پارامتر‌های خروجی
+```json
+{
+    "meta": {
+        "status": int,
+        "message": string
+    },
+    "data": list
+}
+```
