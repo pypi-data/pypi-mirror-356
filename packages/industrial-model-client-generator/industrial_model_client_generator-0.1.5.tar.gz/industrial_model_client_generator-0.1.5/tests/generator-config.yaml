@@ -1,0 +1,112 @@
+client_name: "FirstReportClient"
+output_path: "output" 
+client_mode: "async" 
+
+cognite:
+  project: "${CDF_PROJECT}"
+  client_name: "${CDF_CLIENT_NAME}"
+  base_url: "https://${CDF_CLUSTER}.cognitedata.com"
+  credentials:
+    client_credentials:
+      token_url: "${CDF_TOKEN_URL}"
+      client_id: "${CDF_CLIENT_ID}"
+      client_secret: "${CDF_CLIENT_SECRET}"
+      scopes: ["https://${CDF_CLUSTER}.cognitedata.com/.default"]
+
+data_model:
+  external_id: "${CDF_DATA_MODEL_EXTERNAL_ID}"
+  space: "${CDF_DATA_MODEL_SPACE}"
+  version: "${CDF_DATA_MODEL_VERSION}"
+
+instance_space_configs:
+  - view_or_space_external_id: "FRP-COR-ALL-DML-2"
+    instance_spaces:
+      - "FRP-"
+  - view_or_space_external_id: "UMG-COR-ALL-DMD"
+    instance_spaces:
+      - "UMG-COR-ALL-DAT"
+  - view_or_space_external_id: "EDG-COR-ALL-DMD"
+    instance_spaces:
+      - "REF-COR-ALL-DAT"
+  - view_or_space_external_id: "FunctionalLocation"
+    instance_spaces:
+      - "SAP-"
+  - view_or_space_external_id: "Plant"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "WorkCenter"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "ProfitCenter"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "Equipment"
+    instance_spaces:
+      - "SAP-"
+  - view_or_space_external_id: "Company"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "WorkCenterCategory"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "CostCenter"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "PersonnelSubArea"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "Cdf3dModel"
+    instance_spaces:
+      - "scene"
+  - view_or_space_external_id: "ProductHierarchyItem"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "Material"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "MaterialGroup"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "MaterialType"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "MaterialDivision"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "StorageLocation"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "BillOfMaterial"
+    instance_spaces:
+      - "SAP-"
+  - view_or_space_external_id: "BOMCategory"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "Incident"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "IncidentImpact"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "ProcessSafetyImpact"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "SecurityImpact"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "InjuryIllnessImpact"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "EnvironmentalImpact"
+    instance_spaces:
+      - "OEC-"
+  - view_or_space_external_id: "SPP-COR-ALL-DMD"
+    instance_spaces:
+      - "SPP-"
+  - view_or_space_external_id: "MaterialBatch"
+    instance_spaces:
+      - "SAP-COR-ALL-DAT"
+  - view_or_space_external_id: "SSU-COR-ALL-DMD"
+    instance_spaces:
+      - "SSU-"
+ 
