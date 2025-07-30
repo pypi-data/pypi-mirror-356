@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: robust-http
+Version: 0.1.2
+Summary: High-level HTTP client with caching, UA rotation, retries, and optional Tor support.
+Home-page: https://github.com/therealbct/robust_http
+License: MIT
+Keywords: http,requests,caching,tor,scraping,retry
+Author: therealbct
+Author-email: therealbct@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: tor
+Requires-Dist: fake_useragent (>=0.1,<4.0)
+Requires-Dist: requests (>=2.25,<3.0)
+Requires-Dist: requests_cache (>=0.9,<3.0)
+Requires-Dist: stem (>=1.8,<3.0) ; extra == "tor"
+Project-URL: Documentation, https://github.com/therealbct/robust_http#readme
+Project-URL: Repository, https://github.com/therealbct/robust_http
+Description-Content-Type: text/markdown
+
+# robust_http
+
+A smarter **requests** session for robust, fault-tolerant HTTP requests.
+
+Net net: a smoother crawling experience.
+
+**Why use it?**
+
+One-line drop-in for `requests.Session` that automatically:
+
+* Keeps long-running crawls stable with automatic retries
+* Cuts redundant network traffic via transparent caching
+* Throttles requests to respect rate limits
+* 🧅 Adds optional Tor routing for privacy-sensitive use cases
+
+**Features**
+
+- Transparent cache (via `requests_cache`)
+- User-Agent rotation (via `fake_useragent`)
+- Throttling with jitter
+- Retry logic with exponential backoff
+- Tor proxy support with circuit rotation
+- `TorManager` for NEWNYM signals and proxy config
+
+## Installation
+
+```bash
+pip install robust_http
+```
+
+## Usage
+
+You can use it like a drop-in replacement for **requests.Session**, either directly or as a context manager:
+
+```python
+from robust_http import session
+
+client = session(use_tor=True, rotate_tor_every=50)
+resp = client.get("https://example.com/api")
+print(resp.json())
+```
+
+Or:
+
+```python
+from robust_http import session
+
+with session(use_tor=True, rotate_tor_every=50) as client:
+    resp = client.get("https://example.com/api")
+    print(resp.json())
+```
+
+## Tor Support
+
+To enable Tor-based routing, pass `use_tor=True` to your client.
+
+👉 See [**TOR_SETUP.md**](TOR_SETUP.md) for instructions to set up Tor locally.
+
