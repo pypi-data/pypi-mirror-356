@@ -1,0 +1,53 @@
+{
+  "name": "education_info",
+  "description": "Blog post template with background image and text overlay",
+  "size": { "width": 2560, "height": 2560 },
+  "components": [
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "opacity": 1.0,
+      "tint_color": "#111111",
+      "tint_opacity": 0.7
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 640, "y": 1280 },
+      "size": { "width": 1280, "height": 640 },
+      "fill_color": [255, 255, 255, 0.9],
+      "outline_color": null,
+      "border_radius": 30
+    },
+    {
+      "type": "text",
+      "text": "${testimonial_text}",
+      "position": { "x": 720, "y": 1350 },
+      "font_size": 80,
+      "color": [52, 64, 84, 1],
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 1120,
+      "line_height": 1.2
+    },
+    {
+      "type": "text",
+      "text": "${author}",
+      "position": { "x": 720, "y": 1820 },
+      "font_size": 48,
+      "color": "#a3d8a2",
+      "font_path": "Outfit-Regular",
+      "alignment": "left"
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 2200, "y": 100 },
+      "font_size": 48,
+      "color": [52, 64, 84, 1],
+      "font_path": "Outfit-Medium",
+      "alignment": "right"
+    }
+  ]
+}
