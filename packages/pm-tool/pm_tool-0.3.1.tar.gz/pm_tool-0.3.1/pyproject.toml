@@ -1,0 +1,57 @@
+[project]
+name = "pm-tool"
+version = "0.3.1"
+description = "Project management CLI for AI assistants"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "metulah", email = "metulah@proton.me" }]
+
+keywords = [
+    "cli",
+    "project management",
+    "task management",
+    "ai",
+    "assistant",
+    "developer tools",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Bug Tracking",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "click>=8.0.0",
+    "python-frontmatter>=1.0.0",
+    "sqlalchemy>=2.0.0",
+    "toml>=0.10.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/metulah/pm"
+Repository = "https://github.com/metulah/pm"
+
+[project.scripts]
+pm = "pm.cli:cli"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0", "black>=23.0.0", "isort>=5.0.0", "ruff>=0.1.0"]
+publish = ["build>=1.2", "twine>=6.1"]
+
+[build-system]
+requires = ["uv_build>=0.7.9,<0.8.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "pm"
