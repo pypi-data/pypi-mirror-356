@@ -1,0 +1,18 @@
+[project]
+name = "grambox"
+version = "0.0.0.3"
+authors = [
+  { name = "HUSSEIN HAFEDH OBAID", email = "husseun.selt@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/h98m/grambox"
+Issues = "https://github.com/h98m/grambox/issues"
