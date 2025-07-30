@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: pyqgssim
+Version: 0.1.1
+Summary: 切割索仿真计算工具
+Project-URL: Documentation, https://pyqgssim.readthedocs.io/zh-cn/stable/
+Project-URL: Issues, https://gitee.com/gooker_young/pyqgssim/issues
+Project-URL: Repository, https://gitee.com/gooker_young/pyqgssim
+Author-email: gooker_young <gooker_young@qq.com>
+Maintainer-email: gooker_young <gooker_young@qq.com>
+License: MIT license
+License-File: AUTHORS.rst
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: pyside2>=5.15.2.1
+Requires-Dist: rich>=13.9.4
+Requires-Dist: tomli-w>=1.0.0
+Requires-Dist: tomli>=2.2.1
+Requires-Dist: typer>=0.15.1
+Description-Content-Type: text/x-rst
+
+pyqgssim
+=================================
+
+简介
+------
+
+切割索仿真计算工具
+
+主要特性:
+
+TODO:
+
+-  xxx:
+-  xxx:
+-  xxx:
+
+快速开始
+----------
+
+在项目中使用 ``pyqgssim`` ::
+
+    import pyqgssim
+
+TODO:
