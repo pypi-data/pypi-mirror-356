@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: django-fields-history
+Version: 0.1.7
+Summary: Store model fields history
+Home-page: https://github.com/vishes-shell/django-fields-history
+License: MIT
+Keywords: django,fields,history
+Author: Alex Shalynin
+Author-email: a.shalynin@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: addict (>=2.2.1,<3.0.0)
+Requires-Dist: toml (>=0.9,<0.10)
+Project-URL: Repository, https://github.com/vishes-shell/django-fields-history
+Description-Content-Type: text/markdown
+
+# django-fields-history
+
+[![PyPI version](https://badge.fury.io/py/django-fields-history.svg)](https://badge.fury.io/py/django-fields-history)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A Django app that track history changes in model fields.
+
+__Important note__: currently only one implementation of `FieldsHistory`
+is supported and it's with `django.contrib.postgres.fields.JSONField`
+which is [`JSONB`](https://www.postgresql.org/docs/9.4/datatype-json.html)
+under the hood. So only _postgresql_ as database is supported
+
+Similar projects:
+
+ * [django-reversion](https://github.com/etianen/django-reversion)
+ * [django-simple-history](https://github.com/treyhunner/django-simple-history)
+ * [django-field-history](https://github.com/grantmcconnaughey/django-field-history)
+
+Main difference that those libraries keep track of changes, and this library
+tracks the history change.
+
+Simple explanation:
+
+```python
+from field_history.trackers import FieldsHistoryTracker
+
+class SimpleModel(models.Model):
+    field = models.CharField(max_length=50)
+
+    field_history = FieldsHistoryTracker(fields=['field'])
+
+obj = SimpleModel.objects.create(field='value')
+assert not obj.get_field_history()
+
+
+obj.field = "new_value"
+obj.save()
+assert obj.get_field_history()
+assert obj.get_field_history()[0].value == "value"
+```
+
+
+## QuickStart
+
+Install `django-fields-history`:
+
+```bash
+pip install django-fields-history
+```
+
+Add `fields_history.postgres` to `INSTALLED_APPS` (currently only
+postgres implementation is supported):
+
+```python
+INSTALLED_APPS = [
+    # rest of apps
+    "fields_history.postgres",
+]
+```
+
+And add trackers to your models and specify fields to track:
+
+```python
+from field_history.trackers import FieldsHistoryTracker
+
+class YourModel(models.Model):
+    ...
+
+    history_tracker = FieldsHistoryTracker(fields=["field1", "field2"])
+```
+
+And you are done.
+
+
+## Implementation
+
+Every change of your fields field changes be tracked in
+`fields_history.models.FieldsHistory` in:
+
+ * `fields_history.postgres` - `JSONB` postgres field
+
+One object per save if tracked fields has been changed.
+
+
+## Credits
+
+Basically this project is implemented based on
+[django-field-history](https://github.com/grantmcconnaughey/django-field-history)
+which itself used [django-model-utils](https://github.com/jazzband/django-model-utils).
+
