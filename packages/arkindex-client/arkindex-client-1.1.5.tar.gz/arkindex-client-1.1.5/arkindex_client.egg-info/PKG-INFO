@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: arkindex-client
+Version: 1.1.5
+Summary: API client for the Arkindex project
+Home-page: https://gitlab.teklia.com/arkindex/api-client
+Author: Teklia <contact@teklia.com>
+License: AGPL-v3
+Keywords: api client arkindex
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Documentation is available at https://api.arkindex.org
