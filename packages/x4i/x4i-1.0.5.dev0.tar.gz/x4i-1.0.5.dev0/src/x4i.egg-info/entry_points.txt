@@ -1,0 +1,5 @@
+[console_scripts]
+check_exfor = x4i.cli.check_exfor:main
+get-exfor-entry = x4i.cli.get_exfor_entry:main
+install-exfor-db = x4i.cli.install_exfor_db:main
+setup-exfor-db-index = x4i.cli.setup_exfor_db_index:main

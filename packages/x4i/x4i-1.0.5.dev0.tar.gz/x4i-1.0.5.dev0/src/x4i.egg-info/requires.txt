@@ -1,0 +1,11 @@
+numpy>1.2
+pint>0.20
+pandas>2
+pint-pandas
+pyparsing>=3.1.2
+bidict
+tabulate>=0.9
+packaging
+
+[test]
+pytest>8.2
