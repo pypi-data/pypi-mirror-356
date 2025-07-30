@@ -1,0 +1,3 @@
+2025-06-16 15:39:33,565 [PID 59273] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-06-16 15:39:33,565 [PID 59273] INFO Pyre binary is located at `/Users/laila/.pyenv/versions/3.13.2/bin/pyre.bin`
+2025-06-16 15:39:33,565 [PID 59273] ERROR Invalid configuration: Cannot find any source files to analyze. Either `source_directories` or `targets` must be specified.
