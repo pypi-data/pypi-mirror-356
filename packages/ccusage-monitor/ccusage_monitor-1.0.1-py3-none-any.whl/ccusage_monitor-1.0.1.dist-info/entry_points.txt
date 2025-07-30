@@ -1,0 +1,2 @@
+[console_scripts]
+ccusage-monitor = ccusage_monitor.main:main
