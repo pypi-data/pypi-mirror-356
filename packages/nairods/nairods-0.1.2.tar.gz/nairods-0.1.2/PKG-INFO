@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: nairods
+Version: 0.1.2
+Summary: 统一的异步工具库，支持文件、数据库、时间、日志等多种操作
+Author-email: nairoads <your@email.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+Requires-Dist: pandas
+Requires-Dist: psycopg2
+Requires-Dist: xlwt
+Requires-Dist: PyYAML
+Requires-Dist: fitz
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: beautifulsoup4
