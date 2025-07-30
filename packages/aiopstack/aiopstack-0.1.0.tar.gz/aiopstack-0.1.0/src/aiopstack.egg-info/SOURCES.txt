@@ -1,0 +1,23 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/aiopstack/__init__.py
+src/aiopstack/app.py
+src/aiopstack/cli.py
+src/aiopstack/streamlit_helper.py
+src/aiopstack.egg-info/PKG-INFO
+src/aiopstack.egg-info/SOURCES.txt
+src/aiopstack.egg-info/dependency_links.txt
+src/aiopstack.egg-info/entry_points.txt
+src/aiopstack.egg-info/requires.txt
+src/aiopstack.egg-info/top_level.txt
+src/aiopstack/graphs/__init__.py
+src/aiopstack/graphs/mcp/__init__.py
+src/aiopstack/graphs/mcp/nodes.py
+src/aiopstack/pages/ __init__.py
+src/aiopstack/pages/home.py
+src/aiopstack/pages/mcp.py
+src/aiopstack/pages/settings.py
+src/aiopstack/static/ __init__.py
+src/aiopstack/static/mcp.png
