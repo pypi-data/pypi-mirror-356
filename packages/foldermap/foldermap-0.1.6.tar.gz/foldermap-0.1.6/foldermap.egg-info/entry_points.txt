@@ -1,0 +1,2 @@
+[console_scripts]
+foldermap = foldermap.cli:main

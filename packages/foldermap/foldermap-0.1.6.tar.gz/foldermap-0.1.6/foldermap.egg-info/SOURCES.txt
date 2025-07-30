@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+foldermap/__init__.py
+foldermap/cli.py
+foldermap/core.py
+foldermap.egg-info/PKG-INFO
+foldermap.egg-info/SOURCES.txt
+foldermap.egg-info/dependency_links.txt
+foldermap.egg-info/entry_points.txt
+foldermap.egg-info/requires.txt
+foldermap.egg-info/top_level.txt
+tests/test_foldermap.py
