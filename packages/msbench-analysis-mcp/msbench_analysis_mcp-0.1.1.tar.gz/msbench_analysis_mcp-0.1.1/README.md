@@ -1,0 +1,106 @@
+# MSBench Analysis MCP
+
+This tool is designed to analyze MSBench log zip file, automatically extract error information from nested logs. It is intended for use as an MCP (Model Context Protocol) server, supporting integration with MCP clients such as Copilot Chat or mcp-inspector.
+
+## Features
+- Recursively extracts and analyzes all inner zip files within a given MSBench log archive.
+- Only processes `cls.log` files located in the `output` directory of each inner zip.
+- Extracts error messages and error types from logs using regular expressions.
+- Aggregates error statistics by type and provides total error counts.
+- Tracks and reports the number of skipped (unreadable or broken) inner zip files and cls.log files.
+- Generates a detailed Excel report with error details and summary statistics.
+- Provides both summary and detailed error information via MCP tools.
+
+## MCP Tools
+
+### 1. `analyze_errors_and_save_report(zipPath: str) -> str`
+- **Description:**
+  - Analyzes the specified MSBench zip file, extracts all error information, and saves a detailed Excel report.
+  - Returns a summary string including the report path, total error count, error type breakdown, and the number of skipped files.
+- **Output Example:**
+  ```
+  Report path: /path/to/msbench_analysis_report.xlsx
+  Total errors: 42
+  Error type count: {"TypeA": 10, "TypeB": 32}
+  Skipped inner zip: 1
+  Skipped cls.log: 2
+  ```
+
+### 2. `analyze_errors(zipPath: str) -> str`
+- **Description:**
+  - Analyzes the specified MSBench zip file and returns a summary plus a detailed error table in markdown format (for use in markdown-capable clients).
+  - The table includes file name, error information, and error type for each error found.
+- **Output Example:**
+  ```
+  Total errors: 42
+  Error type count: {"TypeA": 10, "TypeB": 32}
+  Skipped inner zip: 1
+  Skipped cls.log: 2
+
+  | File Name | Error Information | Error Type |
+  |-----------|------------------|------------|
+  | foo.zip   | ...              | TypeA      |
+  | bar.zip   | ...              | TypeB      |
+  ```
+
+## Requirements 
+- Python version **>= 3.10**
+- [uv](https://github.com/astral-sh/uv) (Python package manager, recommended)
+- Node.js and npx (required for MCP Inspector)
+
+### Install uv (Python package manager)
+- **Windows (PowerShell):**
+  ```powershell
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+- **macOS/Linux:**
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  # If you don't have curl, you can use wget:
+  wget -qO- https://astral.sh/uv/install.sh | sh
+  ```
+
+## Usage
+
+### 1. VS Code Copilot Chat Configuration
+1. Open VS Code, go to `Preferences` → `Settings`, search for `chat.mcp.discovery`, and set it to `enabled`.
+2. Configure the MCP Server:
+   - This tool is published on PyPI and can be launched directly using `uvx`.
+   - In `Preferences` → `Settings`, search for `Mcp`, find the MCP settings, and edit  `settings.json` to add:
+     ```json
+     "msbench-analysis-mcp": {
+         "command": "uvx",
+         "args": [
+             "msbench-analysis-mcp"
+         ],
+         "env": {}
+     }
+     ```
+3. Click `Start` above the MCP configuration to launch the server.
+4. After starting, open Copilot Chat and switch the mode to `agent mode`.
+5. Check if the two tools provided by this server are recognized by Copilot.
+6. You can now use Copilot Chat in conversation mode to analyze MSBench errors interactively.
+
+### 2. MCP Inspector Configuration
+- For more about MCP inspector. Please check https://modelcontextprotocol.io/docs/tools/inspector.
+- The configuration is similar to Copilot Chat: ensure the MCP server is running and this tool is added.
+- You can select this tool in MCP Inspector for interactive analysis.
+
+**How to launch MCP Inspector:**
+- You can start MCP Inspector directly using npx:
+  ```bash
+  npx @modelcontextprotocol/inspector
+  ```
+
+**Configuration steps:**
+1. After launching, open the MCP Inspector UI in your browser.
+2. In the UI, set up the MCP server as shown below:
+   - **Transport Type:** STDIO
+   - **Command:** `uvx`
+   - **Arguments:** `msbench-analysis-mcp`
+3. copy the token from the terminal output and paste it into the `configuration` section in the frontend.
+4. It is highly recommended to increase the request timeout in the configuration, as the tools in this server may take a long time to run and could otherwise result in request timeouts.
+5. In the "Tools" tab, click `List Tools` to display all available tools from the server. Click on any tool to invoke it interactively.
+
+---
+
