@@ -1,0 +1,2 @@
+[console_scripts]
+prediction-metrics-backtest = prediction_metrics_backtesting:main
