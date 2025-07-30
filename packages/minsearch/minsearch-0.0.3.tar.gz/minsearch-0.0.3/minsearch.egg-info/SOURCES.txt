@@ -1,0 +1,14 @@
+README.md
+setup.py
+minsearch/__init__.py
+minsearch/__version__.py
+minsearch/append.py
+minsearch/minsearch.py
+minsearch.egg-info/PKG-INFO
+minsearch.egg-info/SOURCES.txt
+minsearch.egg-info/dependency_links.txt
+minsearch.egg-info/requires.txt
+minsearch.egg-info/top_level.txt
+tests/test_append.py
+tests/test_comparison.py
+tests/test_minsearch.py
