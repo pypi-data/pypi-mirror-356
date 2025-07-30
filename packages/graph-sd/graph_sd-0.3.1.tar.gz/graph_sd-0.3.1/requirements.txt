@@ -1,0 +1,11 @@
+pandas~=2.3.0
+numpy~=1.26.4
+scipy~=1.15.2
+setuptools~=65.5.1
+networkx~=3.4.2
+matplotlib~=3.10.1
+scikit-learn~=1.7.0
+shapely~=2.1.1
+importlib_metadata~=8.7.0
+mlxtend~=0.23.4
+joblib~=1.5.1
