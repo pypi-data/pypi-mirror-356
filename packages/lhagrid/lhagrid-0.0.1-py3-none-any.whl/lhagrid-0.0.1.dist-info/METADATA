@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: lhagrid
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/Alexander Puck Neuwirth/lhagrid#readme
+Project-URL: Issues, https://github.com/Alexander Puck Neuwirth/lhagrid/issues
+Project-URL: Source, https://github.com/Alexander Puck Neuwirth/lhagrid
+Author-email: Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lhagrid
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lhagrid.svg)](https://pypi.org/project/lhagrid)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lhagrid.svg)](https://pypi.org/project/lhagrid)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install lhagrid
+```
+
+## License
+
+`lhagrid` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
