@@ -1,0 +1,195 @@
+
+# Install
+```bash
+pip install grambox
+```
+
+---
+
+# Quickstart
+```python
+from grambox import GramBox, cookie, delete_session, userid, media_id
+
+# Initialize and login
+g = GramBox("USERNAME", "PASSWORD")
+```
+
+---
+
+## 1. Direct Messaging
+
+### text_message(target, text)
+Send a plain text DM.
+```python
+print(g.text_message("user_target", "Hello from GramBox!"))
+```
+
+### voice_message(target, audio_path)
+Send a voice note (MP3).
+```python
+print(g.voice_message("user_target", "voice.mp3"))
+```
+
+### img_message(target, img_path)
+Send an image (JPEG/PNG).
+```python
+print(g.img_message("user_target", "photo.jpg"))
+```
+
+### video_message(target, video_path)
+Send a video (MP4).
+```python
+print(g.video_message("user_target", "video.mp4"))
+```
+
+---
+
+## 2. Post Interactions
+
+### like(post_url)
+Like a post by URL.
+```python
+print(g.like("https://www.instagram.com/p/xxxxxx/"))
+```
+
+### comment(post_url, text)
+Leave a comment under a post.
+```python
+print(g.comment("https://www.instagram.com/p/xxxxxx/", "🔥 Nice shot!"))
+```
+
+---
+
+## 3. Follow Management
+
+### follow(username)
+Follow a user.
+```python
+print(g.follow("user_target"))
+```
+
+### unfollow(username)
+Unfollow a user.
+```python
+print(g.unfollow("user_target"))
+```
+
+---
+
+## 4. Publishing Content
+
+### create_note(text)
+Post a short “note” in DM requests.
+```python
+print(g.create_note("Check your DMs!"))
+```
+
+### story(image_path)
+Upload a Story image.
+```python
+print(g.story("story.jpg"))
+```
+
+### post_img(image_path, caption)
+Publish a feed photo with caption.
+```python
+print(g.post_img("post.jpg", "My latest photo"))
+```
+
+---
+
+## 5. Profile Editing
+
+### edit_profile(new_username=…, new_full_name=…, new_bio=…)
+Update username, full name or bio.
+```python
+print(g.edit_profile(
+    new_username="new_user",
+    new_full_name="Full Name",
+    new_bio="Bio text"
+))
+```
+
+### edit_profile_img(image_path)
+Change your profile picture.
+```python
+print(g.edit_profile_img("avatar.jpg"))
+```
+
+---
+
+## 6. Data Retrieval
+
+### get_info_A(username)
+Fetch account info (requires login).
+```python
+print(g.get_info_A("user_target"))
+```
+
+### get_info_B(username)
+Fetch public account info (no login).
+```python
+print(g.get_info_B("user_target"))
+```
+
+### download_story(username)
+Download current Story (requires login).
+```python
+print(g.download_story("user_target"))
+```
+
+### download_story_b(username)
+Download Story publicly (no login).
+```python
+print(g.download_story_b("user_target"))
+```
+
+### download_posts(post_url)
+Download all media from a post/reel/carousel.
+```python
+print(g.download_posts("https://www.instagram.com/p/xxxxxx/"))
+```
+
+---
+
+## 7. Inbox & Messages
+
+### get_messages()
+Retrieve the latest DM thread’s last message.
+```python
+print(g.get_messages())
+```
+
+### get_inbox_request()
+Retrieve the most recent DM request.
+```python
+print(g.get_inbox_request())
+```
+
+---
+
+## 8. Utility Functions (outside class)
+
+### cookie(username, password)
+Return stored session or login.
+```python
+print(cookie("USERNAME", "PASSWORD"))
+```
+
+### delete_session(username)
+Remove saved session.
+```python
+print(delete_session("USERNAME"))
+```
+
+### userid(username, password, target)
+Get a user’s numeric ID.
+```python
+print(userid("USERNAME", "PASSWORD", "user_target"))
+```
+
+### media_id(post_url)
+Extract media ID from a post URL.
+```python
+print(media_id("https://www.instagram.com/p/xxxxxx/"))
+```
