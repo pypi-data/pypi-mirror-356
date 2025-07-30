@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+lisk_name_service.egg-info/PKG-INFO
+lisk_name_service.egg-info/SOURCES.txt
+lisk_name_service.egg-info/dependency_links.txt
+lisk_name_service.egg-info/requires.txt
+lisk_name_service.egg-info/top_level.txt
+src/__init__.py
+src/client.py
+test/__init__.py
+test/test_client.py
