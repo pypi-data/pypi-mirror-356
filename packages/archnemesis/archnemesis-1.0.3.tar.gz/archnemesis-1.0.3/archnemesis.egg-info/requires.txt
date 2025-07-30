@@ -1,0 +1,11 @@
+numpy
+matplotlib
+numba>=0.57.0
+scipy
+pymultinest
+cdsapi
+pygrib
+joblib
+h5py
+basemap
+pytest
