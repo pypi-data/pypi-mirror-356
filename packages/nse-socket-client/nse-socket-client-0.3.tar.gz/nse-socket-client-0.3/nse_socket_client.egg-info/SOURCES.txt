@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+nse_socket_client/__init__.py
+nse_socket_client/nse_client.py
+nse_socket_client.egg-info/PKG-INFO
+nse_socket_client.egg-info/SOURCES.txt
+nse_socket_client.egg-info/dependency_links.txt
+nse_socket_client.egg-info/not-zip-safe
+nse_socket_client.egg-info/requires.txt
+nse_socket_client.egg-info/top_level.txt
