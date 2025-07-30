@@ -1,0 +1,27 @@
+[project]
+name = "datav-twinfabric-mcp"
+version = "0.9.9"
+description = "DataV.TwinFabric MCP Server: A server for DataV.TwinFabric integration via the Model Context Protocol (MCP)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "橙唯", email = "chenchengju.ccj@alibaba-inc.com" }
+]
+dependencies = [
+  "mcp[cli]>=1.4.1",
+  "fastmcp>=0.2.0",
+  "uvicorn",
+  "fastapi",
+  "pydantic>=2.6.1",
+  "dashscope",
+  "requests"
+]
+[tool.setuptools.packages.find]
+where = ["datav_twinfabric_mcp"]  # 指定模块所在的目录
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+datav-twinfabric-mcp = "twinfabric_mcp_server:run"
