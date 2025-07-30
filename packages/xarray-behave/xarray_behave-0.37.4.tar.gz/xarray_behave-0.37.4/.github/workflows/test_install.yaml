@@ -1,0 +1,46 @@
+name: Test install
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'manual run'
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: False
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+    defaults:  # https://github.com/marketplace/actions/setup-miniconda#use-a-default-shell
+      run:
+        shell: bash -l {0}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup miniconda # https://github.com/marketplace/actions/setup-miniconda
+      uses: conda-incubator/setup-miniconda@v3
+      with:
+        auto-update-conda: true
+        auto-activate-base: true
+        channels: conda-forge
+        python-version: 3.13
+    - name: Install OpenGL dependencies
+      run: sudo apt-get update && sudo apt-get install -qq -y libx11-dev libgl1-mesa-dev libxkbcommon-x11-0
+      if: runner.os == 'Linux'
+    - name: Test
+      run: |
+        conda env create -n xb_test -y -f https://raw.githubusercontent.com/janclemenslab/xarray-behave/refs/heads/master/env/xb.yml
+        conda activate xb_test
+        python -c "import xarray_behave; print(xarray_behave.__version__)"
+        python -c "import xarray_behave.gui.app"
+        python tests/test_imports.py
+        python tests/test_io.py
+        python tests/test_sampstamps.py
