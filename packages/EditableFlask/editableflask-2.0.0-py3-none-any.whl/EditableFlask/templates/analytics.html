@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>{{ 'APP_NAME' | appconfig }}: Analytics</title>
+        <link rel="icon" type="image/x-icon" href="
+        {% if not 'APP_FAVICON' | appconfig %}
+        {{ url_for('edits.static', filename='favicon.ico') }}
+        {% else %}
+        {{ 'APP_FAVICON' | appconfig | safe }}
+        {% endif %}" />
+
+        <link href="{{ url_for('edits.static', filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
+        <link href="{{ url_for('edits.static', filename='bootstrap/css/navbar.css')}}" rel="stylesheet" />
+        <link href="{{ url_for('edits.static', filename='bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" />
+
+        <style>
+            .btn-logout {
+                background-color: red;
+                color: white;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 4px;
+                font-size: 14px;
+                margin-left: 15px;
+            }
+
+            .btn-logout:hover {
+                background-color: rgb(226, 26, 26);
+                color: #eee; /* Darker red on hover */
+            }
+
+            .checkbox-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .checkbox-container .checkbox {
+                flex: 1 1 30%;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .form-group .caution {
+                color: red;
+                font-size: 12px;
+            }
+
+            .modal-footer {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .navbar-nav {
+                display: flex;
+                align-items: center;
+            }
+
+            .navbar-nav a {
+                font-size: 15px;
+                padding: 10px;
+                margin-top: 6px;
+                margin-left: 15px;
+                color: #252525;
+                text-decoration: none;
+            }
+            .navbar-nav a:hover {
+                color: #000000;
+                transform: scale(1.05);
+            }
+            .navbar-nav .active {
+                border-radius: 10px;
+                background-color: rgb(217, 217, 217);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            {{ value | editsnavbar | safe }}
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="lead">Unique Visitors</p>
+                    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+                    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+                    <div id="map" style="height: 500px;"></div>
+
+                    <script>
+                        var map = L.map('map').setView([51.505, -0.09], 2);
+
+                        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                            noWrap: true
+                        }).addTo(map);
+
+                        // Example data: [latitude, longitude, datetime]
+                        var visitData = [
+                            {% for logs in logged_ips %}
+                            {% set coordinates = logs.coordinates | fromjson %}
+                            [{{coordinates[0]}}, {{coordinates[1]}}, "{{logs.ip}}","{{logs.datetime}}"],
+                            {% endfor %}
+                        ];
+
+                        var ipOffset = {}; // Store how many times an IP has been added
+
+                        function createCustomIcon(zoomLevel) {
+                            var size = zoomLevel < 5 ? 5 : (zoomLevel < 7 ? 9 : 11);
+                            return L.icon({
+                                iconUrl: 'https://www.pngmart.com/files/23/Blue-Dot-PNG.png',
+                                iconSize: [size, size],
+                                iconAnchor: [size / 2, size],
+                                popupAnchor: [0, -size]
+                            });
+                        }
+
+                        visitData.forEach(function(location) {
+                            var lat = location[0];
+                            var lng = location[1];
+                            var ip = location[2];
+                            var datetime = location[3];
+
+                            // If IP already exists, apply a small offset to longitude
+                            if (ip in ipOffset) {
+                                ipOffset[ip] += 0.02;  // Move slightly to the right
+                            } else {
+                                ipOffset[ip] = 0;
+                            }
+
+                            var adjustedLng = lng + ipOffset[ip];
+
+                            var marker = L.marker([lat, adjustedLng], { icon: createCustomIcon(map.getZoom()) })
+                                .bindPopup('IP: ' + ip + '<br>' + datetime)
+                                .addTo(map);
+
+                            map.on('zoom', function() {
+                                marker.setIcon(createCustomIcon(map.getZoom()));
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('edits.static', filename='bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('[name="mode"]').bootstrapSwitch({
+                onText: "On",
+                offText: "Off",
+                onSwitchChange: function (e, state) {
+                    $.post("{{ url_for('edits.preview') }}", { state: state });
+                },
+            });
+        });
+    </script>
+</html>
