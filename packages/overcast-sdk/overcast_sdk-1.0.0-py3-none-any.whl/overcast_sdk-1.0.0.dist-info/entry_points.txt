@@ -1,0 +1,4 @@
+[console_scripts]
+overcast = overcast.cli:main
+overcast-dashboard = overcast.server:main
+overcast-demo = overcast.demo:main
