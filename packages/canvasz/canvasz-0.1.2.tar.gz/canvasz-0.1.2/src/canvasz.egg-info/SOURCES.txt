@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/canvasz/__init__.py
+src/canvasz/core.py
+src/canvasz.egg-info/PKG-INFO
+src/canvasz.egg-info/SOURCES.txt
+src/canvasz.egg-info/dependency_links.txt
+src/canvasz.egg-info/requires.txt
+src/canvasz.egg-info/top_level.txt
