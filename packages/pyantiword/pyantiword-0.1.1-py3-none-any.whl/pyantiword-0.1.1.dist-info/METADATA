@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: pyantiword
+Version: 0.1.1
+Summary: Python wrapper for antiword with bundled binary and data files
+Author: Vitor Hugo Moreira Reis
+License-File: LICENSE.md
+Dynamic: author
+Dynamic: license-file
+Dynamic: summary
