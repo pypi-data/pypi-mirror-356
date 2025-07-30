@@ -1,0 +1,2 @@
+[console_scripts]
+azure-pricing-mcp-server = mcp_app.azure_pricing_mcp_server.server:main
