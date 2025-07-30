@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: phoneme-converter
+Version: 20250620
+Summary: Phoneme format converter for IPA arpa etc.
+License: MIT license
+Project-URL: Homepage, https://github.com/qiziAI/phoneme-converter
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# phoneme-converter
+Phoneme format converter for IPA arpa etc.
