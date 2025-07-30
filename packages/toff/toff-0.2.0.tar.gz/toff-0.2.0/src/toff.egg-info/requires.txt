@@ -1,0 +1,6 @@
+pyyaml
+parmed
+rdkit
+
+[dev]
+pytest

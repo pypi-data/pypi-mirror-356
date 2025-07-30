@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+src/toff/__init__.py
+src/toff/_version.py
+src/toff/cli.py
+src/toff/utils.py
+src/toff.egg-info/PKG-INFO
+src/toff.egg-info/SOURCES.txt
+src/toff.egg-info/dependency_links.txt
+src/toff.egg-info/entry_points.txt
+src/toff.egg-info/requires.txt
+src/toff.egg-info/top_level.txt
+tests/test_small.py
