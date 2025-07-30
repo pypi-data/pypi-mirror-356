@@ -1,0 +1,449 @@
+Metadata-Version: 2.4
+Name: redbee-mcp
+Version: 1.0.1
+Summary: MCP Server for Red Bee Media OTT Platform - MCP Interface for Exposure APIs
+Author-email: Tamsi Besson <tamsi.besson@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/tamsibesson/redbee-mcp
+Project-URL: Documentation, https://github.com/tamsibesson/redbee-mcp#readme
+Project-URL: Repository, https://github.com/tamsibesson/redbee-mcp.git
+Project-URL: Bug Tracker, https://github.com/tamsibesson/redbee-mcp/issues
+Project-URL: Red Bee Media, https://www.redbeemedia.com/
+Keywords: mcp,model-context-protocol,redbee,media,ott,streaming,api
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications
+Classifier: Topic :: Multimedia :: Video
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp>=1.0.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: httpx>=0.25.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Dynamic: license-file
+
+# Red Bee MCP
+
+Model Context Protocol (MCP) client for Red Bee Media OTT Platform. Connect to Red Bee streaming services from any MCP client like Cursor.
+
+## 🚀 Quick Start
+
+### For End Users (Cursor, etc.)
+
+#### 1. Install the package
+
+```bash
+pip install redbee-mcp
+```
+
+#### 2. Configure in Cursor
+
+Add to your `mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "redbee-mcp": {
+      "command": "redbee-mcp",
+      "args": ["--stdio"],
+      "env": {
+        "REDBEE_SERVER_URL": "http://51.20.4.56:8000"
+      }
+    }
+  }
+}
+```
+
+#### 3. Restart Cursor
+
+You should see Red Bee MCP tools available!
+
+That's it! Just like Figma MCP but for Red Bee Media.
+
+## 🛠️ For Developers
+
+### Deploy the Server (AWS EC2)
+
+```bash
+git clone https://github.com/your-username/redbee-MCP.git
+cd redbee-MCP
+./start-aws.sh
+```
+
+Server will be available at `http://your-ec2:8000`
+
+### Publish the Client Package
+
+```bash
+# Build and publish to PyPI
+pip install build twine
+python -m build
+twine upload dist/*
+```
+
+## 📖 Usage
+
+### Available Commands
+
+```bash
+redbee-mcp --help                                    # Show help
+redbee-mcp --test                                    # Test server connection  
+redbee-mcp --stdio                                   # Start MCP client (for Cursor)
+redbee-mcp --server-url http://server:8000 --stdio   # Custom server URL
+```
+
+### MCP Tools Available
+
+- **Authentication**: Login, anonymous sessions, logout
+- **Content Search**: Search movies, TV shows, documentaries
+- **Asset Details**: Get detailed information about content
+- **Playback**: Get streaming URLs and playback information
+- **User Management**: Profiles, preferences, account management
+- **Purchases**: View subscriptions, transactions, payment methods
+- **System**: Configuration, time, location, devices
+
+### Configuration Options
+
+#### Custom Server URL in mcp.json
+
+```json
+{
+  "redbee-mcp": {
+    "command": "redbee-mcp",
+    "args": ["--server-url", "http://your-server:8000", "--stdio"]
+  }
+}
+```
+
+#### Via environment variable
+
+```bash
+export REDBEE_SERVER_URL=http://your-server:8000
+redbee-mcp --stdio
+```
+
+#### Via command line
+
+```bash
+redbee-mcp --server-url http://your-server:8000 --stdio
+```
+
+#### Via mcp.json environment
+
+```json
+{
+  "redbee-mcp": {
+    "command": "redbee-mcp",
+    "args": ["--stdio"],
+    "env": {
+      "REDBEE_SERVER_URL": "http://your-server:8000"
+    }
+  }
+}
+```
+
+#### Test Connection
+
+```bash
+redbee-mcp --test
+```
+
+## 🏗️ Architecture
+
+```
+Any Machine (Cursor)
+    ↓ MCP stdio
+redbee-mcp CLI (pip package)
+    ↓ HTTP API
+Red Bee MCP Server (AWS EC2:8000)
+    ↓ HTTP API
+Red Bee Media OTT Platform
+```
+
+## 🔄 Comparison with Other MCPs
+
+| Feature | Figma MCP | Red Bee MCP |
+|---------|-----------|-------------|
+| **Install** | `npm install figma-developer-mcp` | `pip install redbee-mcp` |
+| **Command** | `npx figma-developer-mcp` | `redbee-mcp` |
+| **Config** | Pass API key as arg | Pass server URL via env |
+| **Transport** | `--stdio` | `--stdio` |
+| **Client** | Node.js | Python |
+
+Same simplicity, same workflow! 🎯
+
+## 🌐 Team Deployment
+
+### For Admins
+
+1. **Deploy server once** on AWS EC2 using `./start-aws.sh`
+2. **Share server URL** with team (e.g., `http://51.20.4.56:8000`)
+
+### For Team Members
+
+Everyone in your team just needs to:
+
+1. **Install**: `pip install redbee-mcp`
+2. **Configure**: Add the same server URL in `mcp.json`
+3. **Use**: Restart Cursor and enjoy!
+
+The package automatically connects to your deployed Red Bee MCP server on AWS.
+
+## 📁 Development
+
+### Local Development
+
+For development from source:
+
+```bash
+git clone https://github.com/your-username/redbee-MCP.git
+cd redbee-MCP
+pip install -e .                    # Install in development mode
+redbee-mcp --test                  # Test connection
+redbee-mcp --help                  # Show all available commands
+```
+
+### Project Structure
+
+```
+redbee-MCP/
+├── src/redbee_mcp/
+│   ├── cli.py              # CLI entry point (like figma-developer-mcp)
+│   ├── server.py           # HTTP server (for AWS deployment)
+│   ├── client.py           # Red Bee API client
+│   ├── models.py           # Data models
+│   └── tools/              # MCP tools implementation
+├── start-aws.sh            # AWS deployment script
+├── deploy-aws.md           # AWS deployment guide
+└── pyproject.toml          # Package configuration
+```
+
+## 📄 License
+
+MIT License - see LICENSE file for details.
+
+## 🔗 Related
+
+- [Model Context Protocol](https://github.com/modelcontextprotocol)
+- [Red Bee Media](https://www.redbeemedia.com/)
+- [Figma MCP](https://github.com/GLips/Figma-Context-MCP) (inspiration)
+
+---
+
+**Red Bee MCP: Bringing streaming content to your AI workflow** 🎬 
+
+# Red Bee MCP Server
+
+[![PyPI version](https://badge.fury.io/py/redbee-mcp.svg)](https://badge.fury.io/py/redbee-mcp)
+[![Python Support](https://img.shields.io/pypi/pyversions/redbee-mcp.svg)](https://pypi.org/project/redbee-mcp/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A **Model Context Protocol (MCP)** server for Red Bee Media OTT Platform API, enabling easy integration of Red Bee streaming services into AI applications.
+
+## 🚀 Installation and Usage
+
+### Installation via uvx (recommended)
+
+```bash
+uvx redbee-mcp --customer=YOUR_CUSTOMER --business-unit=YOUR_BUSINESS_UNIT
+```
+
+### Configuration in Cursor/Claude Desktop
+
+Add this configuration to your `mcp.json` file:
+
+```json
+{
+  "mcpServers": {
+    "Red Bee Media": {
+      "command": "uvx",
+      "args": [
+        "redbee-mcp",
+        "--customer=YOUR_CUSTOMER",
+        "--business-unit=YOUR_BUSINESS_UNIT"
+      ],
+      "env": {
+        "REDBEE_USERNAME": "your_optional_username",
+        "REDBEE_SESSION_TOKEN": "your_optional_token"
+      }
+    }
+  }
+}
+```
+
+### Local installation for development
+
+```bash
+pip install redbee-mcp
+```
+
+## 📋 Configuration
+
+### Required parameters
+
+- `--customer` : Red Bee Media customer identifier
+- `--business-unit` : Business unit identifier
+
+### Optional parameters
+
+- `--exposure-base-url` : API base URL (default: `https://exposure.api.redbee.live`)
+- `--username` : Username for authentication
+- `--session-token` : Existing session token
+- `--device-id` : Custom device identifier
+
+### Environment variables
+
+All options can be configured via environment variables:
+
+```bash
+export REDBEE_CUSTOMER="mycompany"
+export REDBEE_BUSINESS_UNIT="vod"
+export REDBEE_USERNAME="my_username"
+export REDBEE_SESSION_TOKEN="my_token"
+```
+
+## 🛠️ Available Tools
+
+### 🔐 Authentication
+- `login_user` - Login with username/password
+- `create_anonymous_session` - Anonymous session
+- `validate_session_token` - Token validation
+- `logout_user` - Logout
+
+### 📺 Content Management
+- `search_content` - Search multimedia content
+- `get_asset_details` - Asset details
+- `get_playback_info` - Playback information
+- `search_assets_autocomplete` - Autocomplete
+- `get_epg_for_channel` - TV guide
+- `get_episodes_for_season` - Season episodes
+- `get_public_asset_details` - Public details
+- `get_assets_by_tag` - Assets by tag
+- `list_assets` - Asset listing
+
+### 👥 User Management
+- `signup_user` - User registration
+- `change_user_password` - Password change
+- `get_user_profiles` - User profiles
+- `add_user_profile` - Add profile
+- `select_user_profile` - Select profile
+- `get_user_preferences` - User preferences
+- `set_user_preferences` - Update preferences
+
+### 💳 Purchases and Transactions
+- `get_account_purchases` - Account purchases
+- `get_account_transactions` - Transactions
+- `get_offerings` - Available offerings
+- `purchase_product_offering` - Purchase offering
+- `cancel_purchase_subscription` - Cancel subscription
+- `get_stored_payment_methods` - Payment methods
+- `add_payment_method` - Add payment method
+
+### ⚙️ System
+- `get_system_config` - System configuration
+- `get_system_time` - System time
+- `get_user_location` - User location
+- `get_active_channels` - Active channels
+- `get_user_devices` - User devices
+- `delete_user_device` - Delete device
+
+## 🎯 Usage Examples
+
+### Content Search
+
+```python
+# Via MCP in your AI application
+"Search for all available action movies"
+```
+
+### Authentication and User Management
+
+```python
+# Create anonymous session
+"Create an anonymous session for Red Bee"
+
+# User login
+"Log in the user with their credentials"
+```
+
+### TV Guide and Programming
+
+```python
+# Get TV guide
+"Show TV guide for the main channel"
+```
+
+## 🔧 Development
+
+### Development installation
+
+```bash
+git clone https://github.com/tamsibesson/redbee-mcp.git
+cd redbee-mcp
+pip install -e ".[dev]"
+```
+
+### Tests
+
+```bash
+pytest
+```
+
+### Code formatting
+
+```bash
+black src/
+isort src/
+```
+
+### Type checking
+
+```bash
+mypy src/
+```
+
+## 📚 Documentation
+
+- [Red Bee Media API Documentation](https://exposure.api.redbee.live/docs)
+- [Model Context Protocol Specification](https://spec.modelcontextprotocol.io/)
+- [Red Bee Media Platform](https://www.redbeemedia.com/)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the project
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under MIT License. See `LICENSE` for more information.
+
+## 🙏 Acknowledgments
+
+- [Red Bee Media](https://www.redbeemedia.com/) for their excellent API
+- [Anthropic](https://www.anthropic.com/) for the MCP protocol
+- The Python community for amazing tools
+
+---
+
+**Red Bee MCP Server** - Connect your streaming services to AI 🎬✨ 
