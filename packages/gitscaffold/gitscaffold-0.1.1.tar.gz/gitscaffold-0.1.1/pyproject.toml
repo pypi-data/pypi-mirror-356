@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=66.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitscaffold"
+version = "0.1.1"
+description = "Convert roadmaps to GitHub issues"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+# PyPI classifiers
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "PyGithub>=1.55",
+    "pyyaml>=6.0",
+    "click>=8.0",
+    "jinja2>=3.0",
+    "pydantic>=1.9"
+]
+
+[project.scripts]
+gitscaffold = "scaffold.cli:cli"

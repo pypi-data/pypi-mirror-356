@@ -1,0 +1,5 @@
+PyGithub>=1.55
+pyyaml>=6.0
+click>=8.0
+jinja2>=3.0
+pydantic>=1.9
