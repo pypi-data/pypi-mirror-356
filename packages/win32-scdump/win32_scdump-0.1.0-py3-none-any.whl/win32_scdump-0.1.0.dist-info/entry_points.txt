@@ -1,0 +1,2 @@
+[console_scripts]
+scdump = win32_scdump.main:main
