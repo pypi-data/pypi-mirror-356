@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: chatting-live
+Version: 0.1.14
+Summary: A command-line WebSocket Socket.IO chat client
+Home-page: https://github.com/dreamrenderai/chatting-live
+Author: Omer
+Author-email: worthlifefacts@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+Chatting Live
+A simple command-line chat client using WebSocket and Socket.IO.
+Made by Omer
