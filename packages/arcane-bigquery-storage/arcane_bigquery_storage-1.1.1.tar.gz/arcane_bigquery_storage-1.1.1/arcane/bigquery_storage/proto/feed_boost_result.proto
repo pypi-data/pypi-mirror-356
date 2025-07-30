@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package arcane.bigquery.storage.proto;
+
+message FeedBoostResult {
+    string identifier_field = 1;
+    string response = 2; // JSON type is not directly supported in proto3, using string instead
+}
