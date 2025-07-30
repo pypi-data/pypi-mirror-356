@@ -1,0 +1,13 @@
+v1.5.1: Configuration Standardization & Rule Zero Alignment
+
+- Standardized all model paths to use GGUF format
+- Updated CLI defaults and documentation for consistency
+- Enhanced Rule Zero compliance with transparent configuration
+- Updated all test files to use proper model path references
+- Comprehensive documentation updates for v1.5.1
+
+Files updated:
+- Version files: pyproject.toml, setup.py, version.py
+- Configuration: main.py CLI defaults, enhanced_scraping.py
+- Documentation: README.md, CHANGELOG.md
+- Tests: test_crawl4ai_demo.py, test_crawl4ai_integration.py
