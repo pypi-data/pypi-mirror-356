@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: sharq_models
+Version: 0.1.0
+Summary: A package for Sharq project models
+Author: Bekzod
+Author-email: pterest160@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: alembic==1.16.2
+Requires-Dist: asyncpg==0.30.0
+Requires-Dist: SQLAlchemy==2.0.41
+Requires-Dist: pydantic==2.11.7
+Requires-Dist: pydantic-settings==2.9.1
+Requires-Dist: python-dotenv==1.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
