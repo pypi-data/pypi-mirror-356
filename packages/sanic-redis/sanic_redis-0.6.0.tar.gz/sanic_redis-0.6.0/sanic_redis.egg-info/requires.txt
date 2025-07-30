@@ -1,0 +1,10 @@
+sanic>=25.0.0
+redis<7.0,>=6.0.0
+hiredis<4.0,>=3.0.0
+
+[test]
+sanic-testing>=24.6.0
+pytest>=7.0.0
+coverage
+pytest-asyncio
+ruff
