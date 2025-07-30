@@ -1,0 +1,2 @@
+recursive-include streamlit_pdf_viewer_plus/frontend/dist *
+include .bumpversion.toml
