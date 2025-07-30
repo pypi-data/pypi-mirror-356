@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: add-staves
+Version: 0.2.10
+Summary: Add your description here
+Author-email: Tobias Hauser <git@tobiashauser.org>
+Requires-Python: >=3.12
+Requires-Dist: pypdf>=5.6.0
+Requires-Dist: rich>=14.0.0
+Requires-Dist: typer>=0.16.0
