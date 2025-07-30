@@ -1,0 +1,12 @@
+[console_scripts]
+adscli = jgtpy.JGTADS:main
+adsfromcds = jgtpy.adsfromcdsfile:main
+cdscli = jgtpy.cdscli:main
+guidecli_jgtpy = jgtpy.jgtpy_guide_for_agent:main
+idscli = jgtpy.jgtapycli:main
+jgtads = jgtpy.JGTADS:main
+jgtcli = jgtpy.jgtcli:main
+jgtids = jgtpy.jgtapycli:main
+jgtmksg = jgtpy.JGTMKSG:main
+mkscli = jgtpy.JGTMKSG:main
+pds2cds = jgtpy.pds2cds:main
