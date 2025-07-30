@@ -1,0 +1,2 @@
+[console_scripts]
+iscc-sum=iscc_sum.cli:cli
