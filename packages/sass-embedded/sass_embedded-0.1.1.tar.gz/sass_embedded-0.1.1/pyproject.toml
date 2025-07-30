@@ -1,0 +1,71 @@
+[project]
+name = "sass-embedded"
+version = "0.1.1"
+description = "Sass/SCSS compile host using Dart Sass"
+readme = "README.rst"
+authors = [
+    { name = "Kazuya Takei", email = "myself@attakei.net" }
+]
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "bbpb>=1.4.2",
+    "protobuf>=6",
+]
+
+[project.urls]
+Homepage = "https://github.com/attakei/sass-embedded-python"
+Changelog = "https://github.com/attakei/sass-embedded-python/blob/main/CHANGES.rst"
+Source = "https://github.com/attakei/sass-embedded-python"
+Documentation = "https://sass-embedded-python.readthedocs.io/stable/"
+Bug = "https://github.com/attakei/sass-embedded-python/issues"
+Funding = "https://github.com/sponsors/attakei"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    {include-group = "docs-dev"},
+    "doc8>=1.1.2",
+    "esbonio>=0.16.5",
+    "hatchling>=1.27.0",
+    "pytest>=8.3.5",
+    "ruff>=0.11.2",
+    "ty>=0.0.0a10",
+]
+docs = [
+    "sphinx>=7.4.7",
+    "sphinx-rtd-theme>=3.0.2",
+]
+docs-dev = [
+    {include-group = "docs"},
+    "sphinx-autobuild>=2024.10.3",
+]
+
+[tool.hatch.build.hooks.custom]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["src/sass_embedded/dart_sass/_ext"]
+
+[tool.ruff.format]
+exclude = [
+    "embedded_sass_pb2.py",
+]

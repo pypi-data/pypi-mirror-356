@@ -1,0 +1,106 @@
+name: 'Run CI jobs'
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.local/share/aquaproj-aqua
+          key: v2-aqua-installer-${{runner.os}}-${{runner.arch}}-${{hashFiles('aqua.yaml')}}
+          restore-keys: |
+            v2-aqua-installer-${{runner.os}}-${{runner.arch}}-
+      - uses: aquaproj/aqua-installer@9ebf656952a20c45a5d66606f083ff34f58b8ce0  # v4.0.0
+        with:
+          aqua_version: v2.51.2
+      - name: 'Configure dependencies'
+        run: |
+          uv sync --frozen --all-extras
+      - name: 'Run linters'
+        run: |
+          lefthook run pre-commit --all-files  prebuild:
+  test:
+    needs: 'lint'
+    runs-on: '${{ matrix.runner }}'
+    strategy:
+      max-parallel: 4
+      matrix:
+        runner:
+          - 'ubuntu-latest'
+          - 'windows-latest'
+          - 'macos-latest'
+          - 'macos-13'
+        python:
+          - '3.9'
+          - '3.10'
+          - '3.11'
+          - '3.12'
+          - '3.13'
+        workspace: ['locked', 'latest']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.local/share/aquaproj-aqua
+          key: v2-aqua-installer-${{runner.os}}-${{runner.arch}}-${{hashFiles('aqua.yaml')}}
+          restore-keys: |
+            v2-aqua-installer-${{runner.os}}-${{runner.arch}}-
+      - uses: aquaproj/aqua-installer@9ebf656952a20c45a5d66606f083ff34f58b8ce0  # v4.0.0
+        with:
+          aqua_version: v2.51.2
+      - name: 'Configure workspace'
+        run: |
+          echo ${{ matrix.python }} > .python-version
+          uv sync --all-groups --all-extras ${{ (matrix.workspace == 'latest' && '-U') || '--frozen' }}
+          uv run python -m sass_embedded.dart_sass
+      - name: 'Run test'
+        run: |
+          uv run pytest
+  manylinux-test:
+    needs: 'lint'
+    runs-on: 'ubuntu-latest'
+    strategy:
+      max-parallel: 4
+      matrix:
+        image:
+          - 'quay.io/pypa/manylinux2014_x86_64'
+    container:
+      image: '${{ matrix.image }}'
+    steps:
+      - run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          source $HOME/.local/bin/env
+          git clone https://github.com/attakei-lab/sass-embedded-python /opt/repo
+          cd /opt/repo
+          uv run python -m sass_embedded.dart_sass
+          uv run pytest
+  doc-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.local/share/aquaproj-aqua
+          key: v2-aqua-installer-${{runner.os}}-${{runner.arch}}-${{hashFiles('aqua.yaml')}}
+          restore-keys: |
+            v2-aqua-installer-${{runner.os}}-${{runner.arch}}-
+      - uses: aquaproj/aqua-installer@9ebf656952a20c45a5d66606f083ff34f58b8ce0  # v4.0.0
+        with:
+          aqua_version: v2.51.2
+      - name: 'Configure dependencies'
+        run: |
+          task setup-dev
+      - name: 'Run build'
+        run: |
+          task docs:build-linkcheck
+          task docs:build-dirhtml
