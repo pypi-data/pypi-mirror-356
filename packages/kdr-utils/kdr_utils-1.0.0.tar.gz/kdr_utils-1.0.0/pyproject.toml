@@ -1,0 +1,15 @@
+[project]
+name = "kdr_utils"
+version = "1.0.0"
+description = "Helpful stuff"
+authors = [{name = "Shakieran", email = "shaciaran@xiyr.xyz"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyserial >=3.5"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
