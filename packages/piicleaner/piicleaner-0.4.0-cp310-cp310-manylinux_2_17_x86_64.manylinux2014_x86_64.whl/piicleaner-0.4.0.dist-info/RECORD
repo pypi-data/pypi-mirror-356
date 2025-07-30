@@ -1,0 +1,13 @@
+piicleaner-0.4.0.dist-info/METADATA,sha256=aXBNWgz-0quFoyy-YTYGG_8SQhQBwFm3RxqK6hGtSqk,9576
+piicleaner-0.4.0.dist-info/WHEEL,sha256=muwDQLPphdU2d1zGY6qteSROHfXECXByV_MEZEbU-tw,129
+piicleaner-0.4.0.dist-info/licenses/LICENSE,sha256=gCqPT25v9jad_bTRLOREUnVNoLICZVfU8ANAbiA_PEc,1073
+piicleaner/__init__.py,sha256=UVwSox9QhZtcCfEhoKQ0y-gZnioKJQNtgY57loWIBBI,1343
+piicleaner/_cleaner.py,sha256=dqGU63wA2FxZ5aE_xF7tJsWaBS5oJo0uYuwr12iC2g4,5500
+piicleaner/_internal.cpython-310-x86_64-linux-gnu.so,sha256=MNv56uufD2t5xF8C5v_wgMRn4AFDDYWlnTar-BB-uFI,3195872
+piicleaner/_internal.pyi,sha256=aW7YkvmyLrRxQpOSj0o-bPm-tEwwPTaVJ-2r9PfnlJc,1787
+piicleaner/_pandas.py,sha256=4e-AVo3Fz8ntyf2HyIH2DlyOV68sX8Qg_EK9FXisZ88,3913
+piicleaner/_pandas_plugin.py,sha256=p0cxK4AeNOp0CBnIdpz0HBCwVdI_Knsq0V8on5NSq7o,2069
+piicleaner/_polars.py,sha256=3ndVvbn7KjFLumwhCXPqEf1KMToafJ83ZEoWzit6y74,4931
+piicleaner/_polars_plugin.py,sha256=kAIHSiCOItczRQXAwHkcVhyQJKuJ1zD-C3Qs6UpBKbA,2584
+piicleaner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piicleaner-0.4.0.dist-info/RECORD,,
