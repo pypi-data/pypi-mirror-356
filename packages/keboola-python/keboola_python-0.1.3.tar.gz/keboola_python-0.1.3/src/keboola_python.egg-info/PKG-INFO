@@ -1,0 +1,96 @@
+Metadata-Version: 2.4
+Name: keboola-python
+Version: 0.1.3
+Summary: Common base classes for Keboola Python components
+Author-email: George Millard <george.millard@ellenmacarthurfoundation.org>
+License: MIT
+Project-URL: Homepage, https://github.com/emfoundation/keboola-python
+Project-URL: Repository, https://github.com/emfoundation/keboola-python
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# keboola-python
+
+Shared utility code for Keboola Python components.
+
+---
+
+## 🛠️ Setup for Developers
+
+Follow these steps to get up and running:
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/emfoundation/keboola-python.git
+cd keboola-python
+```
+
+### 2. Create and activate a virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install dev dependencies
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+This will install tools like:
+- `black` (auto-formatting)
+- `flake8` (linting)
+- `pre-commit` (to run checks before each commit)
+- `pytest` (for tests)
+
+---
+
+## 🧪 Pre-Commit Hook Setup
+
+We use [`pre-commit`](https://pre-commit.com) to run formatting and linting checks automatically on every commit.
+
+### Install the hook, from within your virtual environment (one-time setup)
+
+```bash
+pre-commit install
+```
+
+### Try it out
+
+Make a code change and run:
+
+```bash
+git add .
+git commit -m "Trigger pre-commit"
+```
+
+You'll see `black` and `flake8` run before the commit is saved.
+
+### 🏷️ Publishing a new version to PyPI
+
+To publish a new version of the package to PyPI:
+
+1. **Bump the version** in `pyproject.toml`, for example:
+   ```toml
+   version = "0.1.2"
+   ```
+
+2. **Commit the version bump**:
+   ```bash
+   git commit -am "Bump version to 0.1.2"
+   ```
+
+3. **Create and push a git tag**:
+   ```bash
+   git tag v0.1.2
+   git push origin v0.1.2
+   ```
+
+This will trigger the GitHub Actions workflow to build and publish the package to [PyPI](https://pypi.org/project/keboola-python/).
+
+> ⚠️ You cannot reuse a version once it's published — always increment the version number.
+
