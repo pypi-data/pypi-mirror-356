@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+addno/__init__.py
+addno.egg-info/PKG-INFO
+addno.egg-info/SOURCES.txt
+addno.egg-info/dependency_links.txt
+addno.egg-info/top_level.txt
