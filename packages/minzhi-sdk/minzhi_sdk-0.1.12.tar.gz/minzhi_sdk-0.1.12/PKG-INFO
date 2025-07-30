@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: minzhi-sdk
+Version: 0.1.12
+Summary: 敏智 Python SDK - 提供自动化执行和CMDB客户端功能
+Requires-Python: >=3.8
+Requires-Dist: loguru
+Requires-Dist: pycryptodome
+Requires-Dist: requests
