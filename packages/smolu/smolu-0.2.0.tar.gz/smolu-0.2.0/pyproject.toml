@@ -1,0 +1,23 @@
+[project]
+name = "smolu"
+description = "File based url shortening"
+authors = [
+    { name = "Théo Cavignac", email = "theo.cavignac@gmail.com" }
+]
+dependencies = []
+dynamic = ["version"]
+
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.scripts]
+smolu = "smolu.__main__:main"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["smolu"]
+
+[tool.setuptools.dynamic]
+version = {attr = "smolu.__version__"}

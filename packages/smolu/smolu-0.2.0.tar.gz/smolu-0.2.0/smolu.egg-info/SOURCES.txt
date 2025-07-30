@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+smolu/__init__.py
+smolu/__main__.py
+smolu.egg-info/PKG-INFO
+smolu.egg-info/SOURCES.txt
+smolu.egg-info/dependency_links.txt
+smolu.egg-info/entry_points.txt
+smolu.egg-info/top_level.txt
