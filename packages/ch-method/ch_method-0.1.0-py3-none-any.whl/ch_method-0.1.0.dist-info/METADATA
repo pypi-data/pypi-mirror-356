@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ch_method
+Version: 0.1.0
+Summary: The middle atmosphere temperature and density retrieval by using the Rayleigh lidar data
+Author: Aching Wu
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: nrlmsise00
+Requires-Dist: datetime
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
