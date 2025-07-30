@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: helperBy
+Version: 0.1.1
+Summary: A collection of useful Python utilities
+Home-page: 
+Author: KillstreaakX
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyfiglet
+Requires-Dist: tqdm
+Requires-Dist: psutil
+
+# PyUtils helperBy
+
+A collection of useful Python utilities for console applications, system monitoring, and progress tracking.
+
+
+## Use
+
+```bash
+import helperBy
+
+helperBy.calculate(1/2,1,2) # if 1 its print to value of 2 numbers, if 2 to value and arithmetic mean, next lines its unlimited values
+
+```
+
+
+## Installation
+
+```bash
+pip install helperBy
+```
