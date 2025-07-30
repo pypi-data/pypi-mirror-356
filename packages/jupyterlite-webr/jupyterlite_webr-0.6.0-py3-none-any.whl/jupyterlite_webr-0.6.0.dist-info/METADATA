@@ -1,0 +1,160 @@
+Metadata-Version: 2.4
+Name: jupyterlite-webr
+Version: 0.6.0
+Dynamic: Keywords
+Summary: An R kernel for JupyterLite, powered by webR
+Project-URL: Homepage, https://github.com/r-wasm/jupyterlite-webr-kernel
+Project-URL: Bug Tracker, https://github.com/r-wasm/jupyterlite-webr-kernel/issues
+Project-URL: Repository, https://github.com/r-wasm/jupyterlite-webr-kernel.git
+Author-email: George Stagg <george.stagg@posit.co>
+License: Copyright 2023 jupyterlite-webr-kernel authors
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+License-File: LICENSE
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Requires-Dist: jupyterlite-core<0.7,>=0.6
+Provides-Extra: dev
+Requires-Dist: jupyterlab<4.5,>=4.4.0; extra == 'dev'
+Requires-Dist: jupyterlite-pyodide-kernel>=0.6.1; extra == 'dev'
+Requires-Dist: pkginfo>=1.10.0; extra == 'dev'
+Requires-Dist: ruff==0.1.5; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# WebR kernel for JupyterLite
+
+This repository contains a JupyterLite kernel that uses [webR](https://github.com/r-wasm/webR) to execute R code. When the kernel is started, the webR WebAssembly binaries are downloaded from CDN and loaded into the page.
+
+## Demonstration instance
+
+A demo instance of JupyterLite including the webR kernel and a sample Jupyter notebook containing R code can be found at <https://jupyter.r-wasm.org>.
+
+## Install
+
+This package is available via PyPI:
+
+```bash
+pip install jupyterlite-webr
+```
+
+Once installed, build your JupyterLite site:
+
+```bash
+jupyter lite build
+```
+
+The `_output` directory will contain the static JupyterLite site. You can serve it locally with the command,
+
+```bash
+jupyter lite serve
+```
+
+## Configuration
+
+The file `jypyter-lite.json` may be modified to set the webR base URL `baseUrl` and default package repository `repoUrl`. For example:
+
+```json
+{
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "litePluginSettings": {
+      "@r-wasm/webr-kernel-extension:kernel": {
+        "baseUrl": "https://webr.r-wasm.org/latest/",
+        "repoUrl": "https://repo.r-wasm.org/"
+      }
+    }
+  }
+}
+```
+
+See the Jupyterlite documentation on [configuration files](https://jupyterlite.readthedocs.io/en/latest/howto/configure/config_files.html#jupyter-lite-json) for more information.
+
+## Limitations
+
+### Headers
+
+To use the webR kernel with JupyterLite, the page must be served with certain security-related HTTP headers so that it is cross-origin isolated. By setting these headers webR's `SharedArrayBuffer` based communication channel can be used:
+
+```http
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+```
+
+### Interruption
+
+While webR supports interrupting long running computations, interrupting cell execution has not yet been implemented in JupyterLite. An infinite looping cell can only be recovered by restarting the kernel.
+
+## Contributing
+
+### Development installation
+
+First, install a development version of the package from GitHub:
+
+```bash
+pip install git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
+```
+
+or from a local clone:
+
+```bash
+git clone https://github.com/r-wasm/jupyterlite-webr-kernel
+cd jupyterlite-webr-kernel
+pip install .
+```
+
+Note: You will need NodeJS and Python 3.9+ to build the extension package. There is an environment.yml file for conda/mamba/micromamba users to create a conda environment with the required dependencies.
+
+The `jlpm` command is JupyterLab's pinned version of [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use `yarn` or `npm` in lieu of `jlpm` below.
+
+```bash
+# Clone the repo to your local environment
+# Change directory to the jupyterlite-webr-kernel directory
+# Install package in development mode
+python -m pip install -e ".[dev]"
+
+# Link your development version of the extension with JupyterLab
+jupyter labextension develop . --overwrite
+
+# Rebuild extension Typescript source after making changes
+jlpm run build
+
+# Rebuild JupyterLite after making changes
+jupyter lite clean && jupyter lite build
+```
+
+To serve the extension with the JupyterLite server, you will need to set the required HTTP headers. The `config.json` file in this repository contains the required headers. You can start the JupyterLite server with the following command:
+
+```bash
+jupyter lite serve --config=config.json
+```
+
+Note that making changes to the extension will not automatically re-install the extension in the JupyterLite server. You will need to re-build and restart the server to see changes in the extension.
+
+```shell
+jupyter lite clean && jupyter lite build && jupyter lite serve --config=config.json
+```
+
+### Development uninstall
+
+```bash
+pip uninstall jupyterlite-webr-kernel
+```
+
+In development mode, you will also need to remove the symlink created by `jupyter labextension develop` command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions` folder is located. Then you can remove the symlink named `jupyterlite-webr-kernel` within that folder.
