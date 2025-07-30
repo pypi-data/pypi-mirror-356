@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+termol/__init__.py
+termol/canvas.py
+termol/cli.py
+termol/render.py
+termol/smiles_1000.csv
+termol/utilities.py
+termol.egg-info/PKG-INFO
+termol.egg-info/SOURCES.txt
+termol.egg-info/dependency_links.txt
+termol.egg-info/entry_points.txt
+termol.egg-info/requires.txt
+termol.egg-info/top_level.txt
