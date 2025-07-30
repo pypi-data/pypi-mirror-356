@@ -1,0 +1,8 @@
+[login]
+# manual login:
+method = manual
+
+# auto login:
+method = auto
+username = USERNAME
+password = PASSWORD

@@ -1,0 +1,7 @@
+# sessions
+*.pkl
+
+# environment
+config.ini
+dist
+__pycache__
