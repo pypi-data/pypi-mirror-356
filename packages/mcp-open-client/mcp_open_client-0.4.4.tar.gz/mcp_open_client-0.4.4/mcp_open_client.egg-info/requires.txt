@@ -1,0 +1,11 @@
+nicegui
+openai
+jsonschema
+requests
+fastmcp
+websockets>=11.0
+
+[dev]
+types-requests
+types-jsonschema
+mypy
