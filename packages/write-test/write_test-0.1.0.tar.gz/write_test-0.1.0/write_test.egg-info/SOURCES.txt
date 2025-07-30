@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+package/__init__.py
+package/data.txt
+package/write.py
+write_test.egg-info/PKG-INFO
+write_test.egg-info/SOURCES.txt
+write_test.egg-info/dependency_links.txt
+write_test.egg-info/top_level.txt
