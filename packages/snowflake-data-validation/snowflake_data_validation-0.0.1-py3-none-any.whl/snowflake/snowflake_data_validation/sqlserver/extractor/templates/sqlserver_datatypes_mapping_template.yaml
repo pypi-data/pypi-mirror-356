@@ -1,0 +1,64 @@
+BIGINT:
+  snowflake: NUMBER
+BIT:
+  snowflake: BOOLEAN
+DECIMAL:
+  snowflake: NUMBER
+FLOAT:
+  snowflake: FLOAT
+INT:
+  snowflake: NUMBER
+MONEY:
+  snowflake: NUMBER
+REAL:
+  snowflake: FLOAT
+SMALLINT:
+  snowflake: NUMBER
+SMALLMONEY:
+  snowflake: NUMBER
+TINYINT:
+  snowflake: NUMBER
+NUMERIC:
+  snowflake: NUMBER
+DATE:
+  snowflake: DATE
+DATETIME2:
+  snowflake: TIMESTAMP_NTZ
+DATETIME:
+  snowflake: TIMESTAMP_NTZ
+DATETIMEOFFSET:
+  snowflake: TIMESTAMP_TZ
+SMALLDATETIME:
+  snowflake: TIMESTAMP_NTZ
+TIME:
+  snowflake: TIME
+CHAR:
+  snowflake: VARCHAR
+TEXT:
+  snowflake: VARCHAR
+VARCHAR:
+  snowflake: VARCHAR
+NCHAR:
+  snowflake: VARCHAR
+NTEXT:
+  snowflake: VARCHAR
+NVARCHAR:
+  snowflake: VARCHAR
+TIMESTAMP:
+  snowflake: BINARY
+BINARY:
+  snowflake: BINARY
+VARBINARY:
+  snowflake: BINARY
+IMAGE:
+  snowflake: BINARY
+SQL_VARIANT:
+  snowflake: VARIANT
+GEOGRAPHY:
+  snowflake: GEOGRAPHY
+UNIQUEIDENTIFIER:
+  snowflake: VARCHAR
+XML:
+  snowflake: VARIANT
+SYSNAME:
+  snowflake: VARCHAR

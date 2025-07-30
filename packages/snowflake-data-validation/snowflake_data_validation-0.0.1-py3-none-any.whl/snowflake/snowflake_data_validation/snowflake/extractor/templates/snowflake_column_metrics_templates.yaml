@@ -1,0 +1,143 @@
+BOOLEAN:
+  count_true:
+    metric_query: COUNT_IF("{{ col_name }}" = TRUE)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_false:
+    metric_query: COUNT_IF("{{ col_name }}" = FALSE)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_null:
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+DATE:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'YYYY-MM-DD')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'YYYY-MM-DD')
+  count_null:
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+FLOAT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  avg: 
+    metric_query: AVG("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  sum: 
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  stddev: 
+    metric_query: STDDEV("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_null: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_zero: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" = 0 THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  variance: 
+    metric_query: VARIANCE("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+NUMBER:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  avg: 
+    metric_query: AVG("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  sum: 
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  stddev: 
+    metric_query: STDDEV("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_null: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_zero: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" = 0 THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  variance: 
+    metric_query: VARIANCE("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+TIME:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'HH24:MI:SS')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'HH24:MI:SS')
+  count_null: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+TIMESTAMP_LTZ:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR(CONVERT_TIMEZONE('UTC', {{ metric_query }}), 'YYYY-MM-DD-HH24:MI:SS-TZH:TZM')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR(CONVERT_TIMEZONE('UTC', {{ metric_query }}), 'YYYY-MM-DD-HH24:MI:SS-TZH:TZM')
+  count_null:
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+TIMESTAMP_NTZ:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'YYYY-MM-DD-HH24:MI:SS')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'YYYY-MM-DD-HH24:MI:SS')
+  count_null: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+TIMESTAMP_TZ:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: TO_CHAR(CONVERT_TIMEZONE('UTC', {{ metric_query }}), 'YYYY-MM-DD-HH24:MI:SS-TZH:TZM')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: TO_CHAR(CONVERT_TIMEZONE('UTC', {{ metric_query }}), 'YYYY-MM-DD-HH24:MI:SS-TZH:TZM')
+  count_null: 
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+
+VARCHAR:
+  min: 
+    metric_query: MIN(LENGTH("{{ col_name }}"))
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  max:
+    metric_query: MAX(LENGTH("{{ col_name }}"))
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  avg:
+    metric_query: AVG(LENGTH("{{ col_name }}"))
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_empty:
+    metric_query: SUM(CASE WHEN LENGTH("{{ col_name }}") = 0 THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_distinct: 
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')
+  count_null:
+    metric_query: SUM(CASE WHEN "{{ col_name }}" IS NULL THEN 1 ELSE 0 END)
+    metric_normalization: TO_CHAR({{ metric_query }}, 'FM9999999999999999999999999999.0000')

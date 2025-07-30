@@ -1,0 +1,496 @@
+BIGINT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+BIT:
+  count_true:
+    metric_query: SUM(IIF("{{ col_name }}" = 1, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_false:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000') 
+  count_null: 
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+CHAR:
+  min:
+    metric_query: MIN(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((LEN("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+DATE:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+DATETIME:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+DATETIME2:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+DATETIMEOFFSET:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }} AT TIME ZONE 'UTC', 'yyyy-MM-dd-HH:mm:ss-K')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }} AT TIME ZONE 'UTC', 'yyyy-MM-dd-HH:mm:ss-K')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+DECIMAL:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+FLOAT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+INT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+MONEY:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+NCHAR:
+  min:
+    metric_query: MIN(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((DATALENGTH("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+NTEXT:
+  min:
+    metric_query: MIN(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((DATALENGTH("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF(DATALENGTH("{{ col_name }}") = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT CAST("{{ col_name }}" AS VARCHAR(MAX)))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+NUMERIC:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+NVARCHAR:
+  min:
+    metric_query: MIN(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((LEN("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+REAL:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+SMALLDATETIME:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'yyyy-MM-dd-HH:mm:ss')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+SMALLINT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+SMALLMONEY:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+TEXT:
+  min:
+    metric_query: MIN(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(DATALENGTH("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((DATALENGTH("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF(DATALENGTH("{{ col_name }}") = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT CAST("{{ col_name }}" AS VARCHAR(MAX)))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+TIME:
+  min: 
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'HH:mm:ss')
+  max: 
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, 'HH:mm:ss')
+  count_null:
+     metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+     metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+TINYINT:
+  min:
+    metric_query: MIN("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST("{{ col_name }}" AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  sum:
+    metric_query: SUM("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  stddev: 
+    metric_query: ROUND(STDEV("{{ col_name }}"), 0)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" IS NULL, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_zero:
+    metric_query: SUM(IIF("{{ col_name }}" = 0, 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  variance: 
+    metric_query: VAR("{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+VARCHAR:
+  min:
+    metric_query: MIN(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  max:
+    metric_query: MAX(LEN("{{ col_name }}"))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  avg:
+    metric_query: ROUND(AVG(CAST((LEN("{{ col_name }}")) AS FLOAT)), 8)
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_empty:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_distinct:
+    metric_query: COUNT(DISTINCT "{{ col_name }}")
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+  count_null:
+    metric_query: SUM(IIF("{{ col_name }}" = '', 1, 0))
+    metric_normalization: FORMAT({{ metric_query }}, '0.0000')
+
+
+# FOLLOWING DATA TYPES ARE AN INTERNAL TYPE IN SQL SERVER, NOT A USER TYPE (USER CAN'T CREATE THEM)
+# These data types are used internally by SQL Server and are not typically used in user-defined tables.
+# It is typically used for row versioning and does not have a direct user representation.
+#timestamp:
+# It is a synonym for the rowversion data type, which is used to automatically generate unique binary numbers within a database.
+#uniqueidentifier:
+# It is a 16-byte GUID (Globally Unique Identifier) used to uniquely identify rows in a table.
+#sysname:

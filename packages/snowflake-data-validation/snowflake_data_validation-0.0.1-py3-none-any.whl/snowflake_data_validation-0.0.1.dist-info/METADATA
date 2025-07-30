@@ -1,0 +1,89 @@
+Metadata-Version: 2.4
+Name: snowflake-data-validation
+Version: 0.0.1
+Summary: Snowflake Data Validation
+Project-URL: Bug Tracker, https://github.com/snowflakedb/migrations-data-validation/issues
+Project-URL: Source code, https://github.com/snowflakedb/migrations-data-validation/
+Author-email: "Snowflake, Inc." <snowflake-python-libraries-dl@snowflake.com>
+License: Apache License, Version 2.0
+License-File: LICENSE
+Keywords: Snowflake,analytics,cloud,data,database,db,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <3.12,>=3.9
+Requires-Dist: deepdiff>=8.0.0
+Requires-Dist: jinja2>=3.1.6
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pydantic-yaml>=1.4.0
+Requires-Dist: pydantic>=2.0
+Requires-Dist: pytest-cov>=6.0.0
+Requires-Dist: pytest>=8.3.3
+Requires-Dist: snowflake-connector-python>=3.14.0
+Requires-Dist: snowflake-snowpark-python>=1.29.1
+Requires-Dist: toml>=0.10.2
+Requires-Dist: typer>=0.15.3
+Requires-Dist: typing-extensions>=4.13.2
+Provides-Extra: all
+Requires-Dist: coverage>=7.6.7; extra == 'all'
+Requires-Dist: deepdiff>=8.0.0; extra == 'all'
+Requires-Dist: hatchling>=1.26.3; extra == 'all'
+Requires-Dist: pre-commit>=4.0.1; extra == 'all'
+Requires-Dist: pyodbc>=5.2.0; extra == 'all'
+Requires-Dist: pytest-cov>=6.0.0; extra == 'all'
+Requires-Dist: pytest>=8.3.3; extra == 'all'
+Requires-Dist: setuptools>=70.0.0; extra == 'all'
+Requires-Dist: twine==5.1.1; extra == 'all'
+Provides-Extra: development
+Requires-Dist: coverage>=7.6.7; extra == 'development'
+Requires-Dist: deepdiff>=8.0.0; extra == 'development'
+Requires-Dist: hatchling>=1.26.3; extra == 'development'
+Requires-Dist: pre-commit>=4.0.1; extra == 'development'
+Requires-Dist: pytest-cov>=6.0.0; extra == 'development'
+Requires-Dist: pytest>=8.3.3; extra == 'development'
+Requires-Dist: setuptools>=70.0.0; extra == 'development'
+Requires-Dist: twine==5.1.1; extra == 'development'
+Provides-Extra: sqlserver
+Requires-Dist: pyodbc>=5.2.0; extra == 'sqlserver'
+Description-Content-Type: text/markdown
+
+# Snowflake Data Validation Core
+
+A framework for validating data quality and integrity in Snowflake databases.
+
+## Overview
+
+This library provides tools and utilities for implementing data validation processes within Snowflake. It allows for defining, executing, and reporting on data quality checks to ensure the integrity of your data pipeline.
+
+## Features
+
+- Automated data validation across tables and databases
+- Configurable validation rules and thresholds
+- Detailed reporting on validation results
+- Integration with existing data pipelines
+- Support for both batch and real-time validation
+
+## Installation
+
+```bash
+pip install snowflake-data-validation-core
+```
+
+## Configuration
+
+
+## Usage
