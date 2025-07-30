@@ -1,0 +1,2 @@
+[console_scripts]
+sel-pom = sel_pom.__main__:cli
