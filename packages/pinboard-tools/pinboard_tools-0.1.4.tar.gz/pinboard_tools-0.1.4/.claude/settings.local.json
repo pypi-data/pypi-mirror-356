@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(uv run:*)",
+      "Bash(make:*)",
+      "WebFetch(domain:img.shields.io)",
+      "mcp__sequential-thinking__sequentialthinking"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "perplexity-ask",
+    "tavily",
+    "puppeteer",
+    "sequential-thinking",
+    "git",
+    "aws-terraform-mcp-server",
+    "aws-aws-documentation-mcp-server",
+    "aws-core-mcp-server",
+    "playwright"
+  ]
+}
