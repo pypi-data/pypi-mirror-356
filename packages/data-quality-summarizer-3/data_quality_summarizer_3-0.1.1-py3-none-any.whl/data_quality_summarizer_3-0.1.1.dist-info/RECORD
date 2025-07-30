@@ -1,0 +1,10 @@
+data_quality_summarizer/__init__.py,sha256=d65ZhynzlPCPqxT3iFxlGPUBdY_tL1kKaALtb9dcmFM,211
+data_quality_summarizer/__main__.py,sha256=Qm5MjMhieBebBG0JKITuPPX2yHpSmVvwSQxSQmjMkbs,9758
+data_quality_summarizer/aggregator.py,sha256=is5DpxQgjtQlQEAwRxPE4ZwlCbyAQ7urSxtwy05YC7A,12950
+data_quality_summarizer/ingestion.py,sha256=bEfDdhgMaLNJkDxZaPl1yQ0ZsDpWsa9s_-Odr5ZoTwA,4140
+data_quality_summarizer/rules.py,sha256=WXMRYl-SCFvdpDm1bcp5LoTqTzwaDPkZnwDUVtOgDCc,6169
+data_quality_summarizer/summarizer.py,sha256=gR4Zh-k3oBbRtu5llnQ6tcP48c7I-ZahhhUpfW7cwow,8807
+data_quality_summarizer_3-0.1.1.dist-info/METADATA,sha256=SLZ_fmjB7xTkfu6sqNmFWl3yHftRa59qPXPSL-QYKns,16060
+data_quality_summarizer_3-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+data_quality_summarizer_3-0.1.1.dist-info/top_level.txt,sha256=2P61ZOPw8823c4ScqCrp8JEXb9Y57l1f2oJ6VeLImgI,24
+data_quality_summarizer_3-0.1.1.dist-info/RECORD,,
