@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+eion_sdk/__init__.py
+eion_sdk/client.py
+eion_sdk/exceptions.py
+eiondb.egg-info/PKG-INFO
+eiondb.egg-info/SOURCES.txt
+eiondb.egg-info/dependency_links.txt
+eiondb.egg-info/requires.txt
+eiondb.egg-info/top_level.txt
