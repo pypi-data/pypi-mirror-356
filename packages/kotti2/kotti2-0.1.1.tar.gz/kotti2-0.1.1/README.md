@@ -1,0 +1,65 @@
+## Kotti
+
+[![PyPI](https://img.shields.io/pypi/v/Kotti.svg?style=flat-square)](https://pypi.python.org/pypi/Kotti/) [![License](https://img.shields.io/pypi/l/Kotti.svg?style=flat-square)](http://www.repoze.org/LICENSE.txt)
+
+PostgreSQL Build Status (Stable) | MySQL Build Status (Stable) | SQLite Build Status (Stable) |
+
+--- | [![PostgreSQL Stable](https://github.com/Kotti/Kotti/workflows/PostgreSQL/badge.svg?branch=stable)](https://github.com/Kotti/Kotti/actions?query=workflow%3APostgreSQL+branch%3Astable) | [![MySQL Stable](https://github.com/Kotti/Kotti/workflows/MySQL/badge.svg?branch=stable)](https://github.com/Kotti/Kotti/actions?query=workflow%3AMySQL+branch%3Astable) | [![SQLite Stable](https://github.com/Kotti/Kotti/workflows/SQLite/badge.svg?branch=stable)](https://github.com/Kotti/Kotti/actions?query=workflow%3ASQLite+branch%3Astable) |
+
+Kotti是一个基于Pyramid和SQLAlchemy的高级、Python风格的Web应用框架，内建了一个可扩展的内容管理系统——Kotti CMS。
+
+它特别适用于以下场景的应用开发： - 需要复杂的权限管理， - 使用工作流功能， - 处理层次化数据。
+
+依托于一系列顶级软件组件，如Pyramid和SQLAlchemy，Kotti仅引入少量自定义概念，旨在让开发者的学习曲线更加平缓。
+
+Pyramid: [http://docs.pylonsproject.org/projects/pyramid/dev/](http://docs.pylonsproject.org/projects/pyramid/dev/)
+SQLAlchemy: [http://www.sqlalchemy.org/](http://www.sqlalchemy.org/)
+### Kotti CMS
+
+你可以在[Kotti的演示页面](http://kottidemo.danielnouri.org/)体验Kotti体验Kotti) CMS。
+
+Kotti CMS深受Plone启发，其主要特性包括： - 用户友好性：编辑者能在内容出现的地方直接编辑，界面直观，情境适应性强。 - 所见即所得编辑器：提供丰富的文本编辑工具。 - 响应式设计：利用Bootstrap构建，适合桌面及移动设备浏览。 - 模板定制：几乎无需编程即可添加自己的视觉样式。 - 插件系统：可以通过安装各种插件并配置INI文件来定制内置CMS及其诸多方面。 - 安全性：先进且直觉的用户与权限管理，能够满足大型组织的需求。 - 国际化：用户界面完全可翻译，数据存储使用Unicode。
+
+### 许可证 Kotti采用源于BSD的[Repoze公共许可证](http://repoze.org/license.html)发布发布)。
+
+### 安装 请参考[安装指南](https://kotti.readthedocs.io/en/latest/first_steps/installation.html)。
+
+### 支持与文档 阅读Kotti详尽的[在线文档](https://kotti.readthedocs.io/)，发布在[Read the Docs](https://readthedocs.org/)上上)。
+
+有任何疑问或需要帮助，可以在我们的[邮件列表/论坛](http://groups.google.com/group/kotti)发帖，或加入我们位于irc.freenode.net上的IRC频道`#kotti发帖，或加入我们位于irc.freenode.net上的IRC频道%60#kotti)`。
+
+发现bug时，请在我们的[Github问题追踪](https://github.com/Kotti/Kotti/issues)中提交中提交)。
+
+### 开发信息
+
+PostgreSQL Build Status (Master) | MySQL Build Status (Master) | SQLite Build Status (Master) |
+
+--- | [![PostgreSQL Master](https://github.com/Kotti/Kotti/workflows/PostgreSQL/badge.svg?branch=master)](https://github.com/Kotti/Kotti/actions?query=workflow%3APostgreSQL+branch%3Amaster) | [![MySQL Master](https://github.com/Kotti/Kotti/workflows/MySQL/badge.svg?branch=master)](https://github.com/Kotti/Kotti/actions?query=workflow%3AMySQL+branch%3Amaster) | [![SQLite Master](https://github.com/Kotti/Kotti/workflows/SQLite/badge.svg?branch=master)](https://github.com/Kotti/Kotti/actions?query=workflow%3ASQLite+branch%3Amaster) |
+
+Kotti正处于积极的开发和维护之中，遵循高标准编码规范，拥有高覆盖率的测试套件，并实施持续集成。
+
+我们欢迎贡献，请阅读[贡献指南](https://kotti.readthedocs.io/en/latest/contributing.html)，访问我们的[Github仓库](https://github.com/Kotti/Kotti)。
+
+
+# Kotti Pyramid2.x版
+Kotti 是一个基于 Pyramid 框架的 Python 内容管理系统（CMS），适合用来搭建中小型网
+站、文档库、企业展示平台、知识库等需要灵活内容结构和权限模型的项目。它本身更像一
+个可以二次开发的 CMS 框架，比 WordPress、Drupal 这类“一装就用”的系统更倾向于开发
+者定制和扩展。
+
+## 这是支持pyramid2.x版本的kotti！
+
+## 使用
+
+tar -xzvf kotti1.0.tar.gz 解压缩
+进入目录执行 pip install -e . 来开发态安装，
+进入目录执行 pip install  . 来安装，
+然后执行pserve app.ini 启动Kotti服务器，默认端口是5000,可以在app.ini文件中修改
+
+用浏览器浏览127.0.0.1:5000 即可浏览。
+
+用户名admin ，口令qwerty 。默认口令可以在app.ini文件中修改。
+
+
+## 当前版本：
+打包1.2 :kotti1.2.tar.gz，项目2.0.10dev2 版本
