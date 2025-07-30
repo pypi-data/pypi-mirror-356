@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sintetic_client"
+version = "0.1.0"
+description = "Client Python per i servizi REST di Sintetic GeoDB"
+authors = [
+    {name = "Leandro Rocchi", email = "leandro.rocchi@cnr.it"},
+]
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+dependencies = [
+    "requests>=2.25.0",
+    "pytz>=2021.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/tuoutente/sintetic-client"
+"Bug Tracker" = "https://github.com/tuoutente/sintetic-client/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "mypy>=0.900",
+]
