@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: kdr_utils
+Version: 1.0.1
+Summary: Helpful stuff
+Author-email: Shakieran <shaciaran@xiyr.xyz>
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial>=3.5
+
+# kdr-utils
+
+Lots of nicely over-engineered stuff..
