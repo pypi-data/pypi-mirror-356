@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: rongda-mcp-server
+Version: 0.3.2
+Summary: Add your description here
+Author-email: iaalm <iaalmsimon@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.11
+Requires-Dist: aiohttp>=3.11.18
+Requires-Dist: cryptography>=44.0.2
+Requires-Dist: loguru>=0.7.3
+Requires-Dist: mcp[cli]>=1.6.0
+Description-Content-Type: text/markdown
+
+# rongda-mcp-server
+
+## MCP setup
+```json
+{
+  "mcpServers": {
+    "rongda": {
+      "command": "pipx",
+      "args": ["run", "rongda-mcp-server"],
+      "env": {
+        "RD_USER": "",
+        "RD_PASS": ""
+      }
+    }
+  }
+}
+```
+
+or 
+
+```json
+{
+  "mcpServers": {
+    "rongda": {
+      "command": "/path/to/rongda-mcp-server",
+      "args": [],
+      "env": {
+        "RD_USER": "",
+        "RD_PASS": ""
+      }
+    }
+  }
+}
+```
+
+## Dev
+```
+uv sync
+```
