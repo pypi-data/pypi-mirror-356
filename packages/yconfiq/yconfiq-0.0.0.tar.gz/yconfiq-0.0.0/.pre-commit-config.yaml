@@ -1,0 +1,37 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: check-ast
+      - id: trailing-whitespace
+      - id: check-toml
+      - id: end-of-file-fixer
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.1.0
+    hooks:
+      - id: add-trailing-comma
+  - repo: local
+    hooks:
+      - id: ruff
+        name: Check linting and formatting code  with Ruff
+        entry: poetry run ruff check --fix --show-fixes --exit-non-zero-on-fix ./deploy_notify
+        language: system
+        types: [python]
+      - id: black
+        name: Format with Black
+        entry: poetry run black ./deploy_notify
+        language: system
+        types: [python]
+      - id: isort
+        name: isort
+        entry: poetry run isort ./deploy_notify
+        language: system
+        types: [python]
+      - id: mypy
+        name: Validate types with MyPy
+        entry: poetry run mypy --explicit-package-bases ./deploy_notify
+        language: system
+        types: [python]
+        pass_filenames: false

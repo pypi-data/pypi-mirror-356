@@ -1,0 +1,56 @@
+[project]
+name = "yconfiq"
+description = ""
+version = "0.0.0"
+authors = [{ name = "Roman Sotnikov", email = "axeman.ofic@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+maintainers = [{ name = "Roman Sotnikov", email = "axemanofic@gmail.com" }]
+license = "MIT"
+keywords = []
+classifiers = []
+
+[project.urls]
+# Homepage = "httphttps://axemanofic.github.io/clite"
+# Documentation = "https://axemanofic.github.io/clite"
+# Repository = "https://github.com/axemanofic/clite.git"
+# Issues = "https://github.com/axemanofic/clite/issues"
+# Changelog = "https://github.com/axemanofic/clite/blob/master/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+  "black>=25.1.0",
+  "git-cliff>=2.8.0",
+  "isort>=5.13.2",
+  "mypy>=1.14.1",
+  "ruff>=0.9.0",
+]
+tests = ["pytest>=8.3.4"]
+docs = [
+  "griffe-typingdoc>=0.2.8",
+  "mkdocs-material>=9.6.9",
+  "mkdocstrings-python>=1.16.5",
+]
+
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+
+profile = "black"
+multi_line_output = 3
+
+py_version = 39
+line_length = 120
+
+[tool.mypy]
+strict = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["main"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
