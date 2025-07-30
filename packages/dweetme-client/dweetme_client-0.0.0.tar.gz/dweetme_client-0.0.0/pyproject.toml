@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "dweetme_client"
+#version = "0.0.2"
+description = "Python client for Dweet.me API"
+authors = [
+    {name = "Dweet.me", email = "dweet.me.server@gmail.com"}
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.urls]
+Homepage = "https://dweet.me"
+Repository = "https://github.com/dweetme/python-client"
+Issues = "https://github.com/dweetme/python-client/issues"
+
+[tool.setuptools]
+packages = ["dweetme_client"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.md", "*.json"]
