@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "azure-pricing": {
+      "command": "python3",
+      "args": [
+        "./mcp_protocol_logger.py",
+        "uvx",
+        "--from", "./dist/p6plab_azure_pricing_mcp_server-1.1.0-py3-none-any.whl",
+        "p6plab.azure-pricing-mcp-server"
+      ],
+      "timeout": 45000,
+      "env": {
+        "MCP_DEBUG_LOGGING": "true",
+        "MCP_LOG_LEVEL": "DEBUG",
+        "MCP_LOG_FORMAT": "plain",
+        "MCP_LOG_FILE": "./logs/azure-pricing-mcp-server.log",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}

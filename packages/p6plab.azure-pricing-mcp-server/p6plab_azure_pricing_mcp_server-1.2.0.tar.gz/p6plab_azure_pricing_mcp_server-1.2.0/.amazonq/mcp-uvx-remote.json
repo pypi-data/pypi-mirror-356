@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "azure-pricing-mcp-server-testpypi": {
+      "command": "uvx",
+      "args": ["--index-url", "https://test.pypi.org/simple/", "p6plab.azure-pricing-mcp-server@latest"],
+      "env": {
+        "MCP_DEBUG_LOGGING": "false",
+        "MCP_LOG_LEVEL": "INFO",
+        "MCP_LOG_FORMAT": "json",
+        "MCP_LOG_FILE": "./logs/azure-pricing-mcp-server.log",
+        "FASTMCP_LOG_LEVEL": "INFO",
+        "DEFAULT_CURRENCY": "USD",
+        "DEFAULT_REGION": "eastus"
+      },
+      "timeout": 60000
+    },
+    "azure-pricing-mcp-server-pypi": {
+      "command": "uvx",
+      "args": ["p6plab.azure-pricing-mcp-server@latest"],
+      "env": {
+        "MCP_DEBUG_LOGGING": "false",
+        "MCP_LOG_LEVEL": "INFO",
+        "MCP_LOG_FORMAT": "json",
+        "MCP_LOG_FILE": "./logs/azure-pricing-mcp-server.log",
+        "FASTMCP_LOG_LEVEL": "INFO",
+        "DEFAULT_CURRENCY": "USD",
+        "DEFAULT_REGION": "eastus"
+      },
+      "timeout": 60000
+    }
+  }
+}

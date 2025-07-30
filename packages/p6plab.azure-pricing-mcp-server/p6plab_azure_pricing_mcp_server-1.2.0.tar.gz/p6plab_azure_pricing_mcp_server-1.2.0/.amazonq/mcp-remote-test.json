@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "azure-pricing": {
+      "command": "uvx",
+      "args": ["p6plab.azure-pricing-mcp-server@latest"],
+      "timeout": 30000,
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}

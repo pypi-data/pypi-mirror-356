@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "azure-pricing": {
+      "command": "uvx",
+      "args": ["--from", "./dist/p6plab_azure_pricing_mcp_server-1.1.0-py3-none-any.whl", "p6plab.azure-pricing-mcp-server"],
+      "timeout": 45000,
+      "env": {
+        "MCP_DEBUG_LOGGING": "false",
+        "MCP_LOG_LEVEL": "ERROR",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}
