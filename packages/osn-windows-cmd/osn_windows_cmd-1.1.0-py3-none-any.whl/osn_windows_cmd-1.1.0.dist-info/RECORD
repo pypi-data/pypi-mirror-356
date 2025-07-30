@@ -1,0 +1,15 @@
+osn_windows_cmd/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+osn_windows_cmd/errors.py,sha256=pUJu1x4wTOX6SQtwF0GKtWcSNKAM6eci4x6kPZUOW-4,636
+osn_windows_cmd/utilities.py,sha256=epoV5yuu8HQ8l6r4ZonkZJ377themy0jOAAIgw9YMOo,350
+osn_windows_cmd/netstat/__init__.py,sha256=EbkuaP2Qd0vetDOh5OTLvotyKpOIJVVC1K2cB70uKsQ,30764
+osn_windows_cmd/netstat/command.py,sha256=hzCT933OJGXzPtmc8xWDPhCRRaHDT2wuBg10noZe7dE,3202
+osn_windows_cmd/shutdown/__init__.py,sha256=eEG-CwBsaiFq7jm0u00H_5fg1UjGH9kzWOdzCLbpSik,2452
+osn_windows_cmd/shutdown/command.py,sha256=Io6SG3bMNIXhXyCvFtKqDJ3EQ90-G2a22ad5Z68hjf8,4700
+osn_windows_cmd/shutdown/parameters.py,sha256=GA0AzQLAomH9Hk8KhMPGlCc20XXSwLJyaJH3rr51574,3048
+osn_windows_cmd/taskkill/__init__.py,sha256=Tfv6Dsa8Aa8f1ZDPGJjym_EXu3n21sS_tFnSKVL8Huo,1168
+osn_windows_cmd/taskkill/command.py,sha256=vAZoFfY_ihFPOQbLgUpej8rChDUwUuAKvAA6tMX6mtU,1879
+osn_windows_cmd/taskkill/parameters.py,sha256=jWWejLspzAP7NjNCeTEnpLOidWfoSGnyqvW2g_AL8WU,12322
+osn_windows_cmd-1.1.0.dist-info/METADATA,sha256=wKWy8029dO0mvNBM4lCZVT6lDZDdaD1PpPCJbA5n71k,3389
+osn_windows_cmd-1.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+osn_windows_cmd-1.1.0.dist-info/top_level.txt,sha256=PsTHanPfyWUMRc9kyTFvl0gZKwKAO5rv00SmfU3cpho,16
+osn_windows_cmd-1.1.0.dist-info/RECORD,,
