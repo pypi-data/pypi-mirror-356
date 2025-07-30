@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pm2fpy"
+version = "0.1.1"
+description = "Simple Python daemon manager like pm2"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [{name = "YourName", email = "youremail@example.com"}]
+dependencies = [
+  "psutil",
+  "tabulate"
+]
+keywords = ["daemon", "process", "pm2", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["main"]
+
+[project.scripts]
+health = "main.cli:main"
+
+[tool.hatch.version]
+path = "main/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["README.md", "main/**"]
+
+
