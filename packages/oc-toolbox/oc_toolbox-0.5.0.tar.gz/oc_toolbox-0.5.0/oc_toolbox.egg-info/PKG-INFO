@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: oc-toolbox
+Version: 0.5.0
+Summary: My OpenClassrooms Toolboox
+Home-page: https://gitlab.com/toopy/oc-toolbox
+Author: Toopy
+Author-email: florent@toopy.org
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: retry
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Provides-Extra: all
+Requires-Dist: fasttext; extra == "all"
+Requires-Dist: gensim; extra == "all"
+Requires-Dist: kaggle; extra == "all"
+Requires-Dist: mlflow; extra == "all"
+Requires-Dist: nltk; extra == "all"
+Requires-Dist: opencv-python; extra == "all"
+Requires-Dist: py7zr; extra == "all"
+Requires-Dist: scipy; extra == "all"
+Requires-Dist: sentence-transformers; extra == "all"
+Requires-Dist: shap; extra == "all"
+Requires-Dist: spacy; extra == "all"
+Requires-Dist: stanza; extra == "all"
+Requires-Dist: tensorflow; extra == "all"
+Requires-Dist: tensorflow-hub; extra == "all"
+Requires-Dist: tf-keras; extra == "all"
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == "docs"
+Requires-Dist: mkdocstrings[python]; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: pre-commit; extra == "lint"
+Requires-Dist: ruff; extra == "lint"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# My OpenClassrooms Toolboox
+
+API documentation → [here](https://toopy.gitlab.io/oc-toolbox/reference/).
+
+## Installation
+
+To install the required dependencies, run:
+
+```bash
+pip install -e .
+```
+
+## Test
+
+To run the tests, execute the following command:
+
+```bash
+pytest tests/
+```
+
+## Contributing
+
+Feel free to submit issues or pull requests if you have suggestions or improvements!
