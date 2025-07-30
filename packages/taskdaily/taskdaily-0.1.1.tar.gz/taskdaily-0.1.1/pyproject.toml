@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskdaily"
+version = "0.1.1"
+dynamic = ["keywords"]
+description = "A flexible daily task management system with customizable templates"
+readme = "README.md"
+authors = [
+    {name = "Nainesh Rabadiya", email = "nkrabadiya@gmail.com"},
+]
+license = "MIT"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business :: Scheduling",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click>=8.0.0",
+    "PyYAML>=6.0.0",
+    "rich>=10.0.0",
+    "pyperclip>=1.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/nainesh-rabadiya/taskdaily"
+Repository = "https://github.com/nainesh-rabadiya/taskdaily.git"
+
+[project.scripts]
+daily = "taskdaily.cli.main:main"
+
+[tool.setuptools]
+packages = ["taskdaily", "taskdaily.cli", "taskdaily.config", "taskdaily.handlers", "taskdaily.handlers.formatters", "taskdaily.templates", "taskdaily.utils"] 
