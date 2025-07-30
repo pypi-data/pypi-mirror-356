@@ -1,0 +1,9 @@
+[console_scripts]
+launch_optimizer = doptools.cli.launch_optimizer:launch_optimizer
+launch_optimizer.py = doptools.cli.launch_optimizer:launch_optimizer
+launch_preparer = doptools.cli.launch_preparer:launch_preparer
+launch_preparer.py = doptools.cli.launch_preparer:launch_preparer
+plotter = doptools.cli.plotter:plotter
+plotter.py = doptools.cli.plotter:plotter
+rebuilder = doptools.cli.rebuilder:rebuilder
+rebuilder.py = doptools.cli.rebuilder:rebuilder
