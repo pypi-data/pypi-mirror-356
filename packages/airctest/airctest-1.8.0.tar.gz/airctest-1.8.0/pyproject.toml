@@ -1,0 +1,132 @@
+#https://medium.com/@ebimsv/building-python-packages-07fbfbb959a9
+#https://realpython.com/python-pyproject-toml/
+#https://python-semantic-release.readthedocs.io/en/latest/
+#https://github.com/python-semantic-release/python-semantic-release/blob/master/README.rst
+
+
+
+#https://github.com/python-semantic-release/python-semantic-release/blob/master/.github/dependabot.yaml
+
+
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "airctest"
+version = "1.8.0"
+
+description = "This repository contains the implementation of  dataset loader for Parquet files."
+authors = [
+{name = "Nabin Bagale", email = "bhklab.nabinbagale@gmail.com"},
+]
+readme = "README package.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=1.3.0",
+    "pyarrow>=5.0.0",
+    "tqdm>=4.62.0",
+    "requests>=2.25.0",
+    "PyYAML>=5.4.0",
+    "gcsfs>=2025.3.2",
+    "click>=8.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipywidgets",
+    "jupyterlab",
+    "pytest >=7",
+    "pytest-xdist",
+    "pytest-cov",
+    "ruff",
+]
+
+[project.urls]
+"Website" = "https://www.aircheck.ai/"
+"Source Code" = "https://github.com/StructuralGenomicsConsortium/AIRCHECK-data-package"
+"Bug Tracker" = "https://github.com/StructuralGenomicsConsortium/AIRCHECK-data-package/issues"
+"Documentation" = "https://github.com/StructuralGenomicsConsortium/AIRCHECK-data-package"
+
+[project.optional-dependencies]
+gcs = ["google-cloud-storage>=2.0.0"]
+dev = ["pytest>=7.0.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml", "*.yml", "*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+airctest = "airctest.cli.main:cli"
+
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:project.version"]
+branch = "main"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "pip install build && python -m build"
+
+[tool.semantic_release.commit_parser_options]
+allowed_tags = ["build", "chore", "ci", "docs", "feat", "fix", "perf", "style", "refactor", "test"]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf"]
+
+[tool.semantic_release.remote.token]
+env = "GITHUB_TOKEN"
+
+[tool.semantic_release.changelog]
+changelog_file = "CHANGELOG.md"
+
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+# Activate all the rules that are pyupgrade-related
+select = [
+  "UP",   # pyupgrade
+  "D",    # pydocstyle
+  "PT",   # pytest style checking
+  "C4",   # comprehensions style checking
+  "PD",   # pandas style checking
+  "F",    # pyflakes: is-literal
+  "W605", # pycodestyle: invalid-escape-sequence
+  "I",    # isort
+  "UP015", # pyupgrade: use f-string
+  
+]
+ignore = [
+  "PD901",  # Allow short DataFrame names like df
+  "F401", # Allow use of is-literal in f-strings
+   "D212", # Allow docstrings to not have a blank line after the summary
+   "E203", # Allow whitespace before ':', which is common in pandas code
+    "D213"   , # Allow docstrings to not have a blank line after the summary
+]
+
+per-file-ignores = {"__init__.py" = ["F401"]}
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"  # or "numpy" or "pep257"
+
+[tool.ruff.format]
+# Use double quotes for strings
+quote-style = "double"
+# Use trailing commas
+skip-magic-trailing-comma = false
+
+
+
