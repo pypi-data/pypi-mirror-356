@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.2.5
+-----
+
+* Added ability to capture envs by wildcard (#48)
