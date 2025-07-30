@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "arxiv-search": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "d:/GPT/arxiv-search-mcp"
+    }
+  }
+}
