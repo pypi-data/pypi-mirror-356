@@ -1,0 +1,13 @@
+mcp_server_docs/__init__.py,sha256=sgpQ-5xJoMO1GIrGe9kOY5bqvhpvrpF35X_hEAYAoR8,98
+mcp_server_docs/__main__.py,sha256=6ONfKA4-oM2MV8Y1VR_80kLUhdvtbMXwyMsXlrj1AQU,138
+mcp_server_docs/document_manager.py,sha256=fnbJitS8jkm2IChfEvzU6RNp3e6Fp38LdpxeWX8w99E,11259
+mcp_server_docs/server.py,sha256=-DeQjOcHltFVWgyewQkAoUTIDnv9DaDObZKfInj_T8o,2036
+mcp_server_docs/scripts/__init__.py,sha256=f1qB_lwppeLGQtAQzjOXebMFgFyP1Lb_6grYhp2NYZE,35
+mcp_server_docs/scripts/generate_metadata.py,sha256=ZhmUFh1Bdvw5r0RQd9luevOtL5CGkLo1t5btrq-LVlg,15624
+mcp_server_docs/scripts/github_import.py,sha256=xysC5l9-hVFRZtyy1m2C7j2hwErg2fzK3gtcrS_-fZM,5594
+mcp_server_docs/scripts/url_import.py,sha256=K7iyYzI_3IqD0NE_l7TSG5Y-g2z8S2jfGbEg510bQVg,14578
+docs_mcp-0.1.0.dist-info/METADATA,sha256=9KPeTeFZ4LaIIxjGGLtNOTeYmyvXj8SEaISAazwrZUI,7250
+docs_mcp-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+docs_mcp-0.1.0.dist-info/entry_points.txt,sha256=-oBq4G2JPcLf6p_25mtBSOOR_3VWF1B2M22Z0ibyOWw,253
+docs_mcp-0.1.0.dist-info/licenses/LICENSE,sha256=WlX250L33Sv237-MZMJB4VqcscDymmaxzt9F3Jyg3BQ,1077
+docs_mcp-0.1.0.dist-info/RECORD,,

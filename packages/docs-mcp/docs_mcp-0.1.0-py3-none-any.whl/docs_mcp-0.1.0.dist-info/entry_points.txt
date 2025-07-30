@@ -1,0 +1,5 @@
+[console_scripts]
+docs-mcp = mcp_server_docs:main
+docs-mcp-generate-metadata = mcp_server_docs.scripts.generate_metadata:cli
+docs-mcp-import-github = mcp_server_docs.scripts.github_import:cli
+docs-mcp-import-url = mcp_server_docs.scripts.url_import:cli
