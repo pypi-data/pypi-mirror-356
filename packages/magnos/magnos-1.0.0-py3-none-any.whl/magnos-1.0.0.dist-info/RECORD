@@ -1,0 +1,16 @@
+magnos/__init__.py,sha256=b9XM6uvk0fY4weqd0Iqos8fxTTtqiXjZTESm5owAr_o,318
+magnos/build.py,sha256=sfPfQnexGeBaVxAhc80h1sX2rY8xL4Zd2JOh9OaddFE,10652
+magnos/common.py,sha256=du5QVMGEs9e5hisllBbaVBbstLkkzN-vttwDRGBr9OY,5302
+magnos/coupling_test.py,sha256=rLqfG_63AGaGeNKqio4n4LT5ZAs7cTOMEmFFSt3HLT8,4500
+magnos/input.py,sha256=FU-fctyWILhnQA-btuMbaccyH07HF27wBt88iVbhGzs,3759
+magnos/interactions.py,sha256=k1pwvUuN-yHksvgz03VKx3BhNBEj2YZ5zS3BtItLQ3I,15648
+magnos/lattice.py,sha256=4S9pcEXpxOFD67X7VE4RyJHrfrylOc0TvDJk9ePItfs,4052
+magnos/linalg.py,sha256=srhOkKTXI_3194e27s98O4mPENsuYpbA3Ria-ohupso,5871
+magnos/magnons.py,sha256=qJJQtdd7PrTpNm5jNMk2dfiy5_OKBMqBOL7cPUrmTug,14904
+magnos/symmetry.py,sha256=s3t7LtDGokEJFQD16SvCUB92IkDYEH3I-BMR-oNipjI,29263
+magnos/utils.py,sha256=-hW56gAm0Rq2uqogl0h2NvXvKIrDiohbIgxz1Ch1az8,2394
+magnos-1.0.0.dist-info/licenses/LICENSE,sha256=pKvTg2NYymP7LCfiydv2ClUcEmV52M5cb_Wu2ocLmG0,16372
+magnos-1.0.0.dist-info/METADATA,sha256=oCaa07xw_n0nm4o5ecX-X9AHanABoWaV3OXRg-ZadjE,3658
+magnos-1.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+magnos-1.0.0.dist-info/top_level.txt,sha256=0xTcr6uLyYPTGYRn4NxXndiW0a29Ju8Oo3X4H50OGJw,7
+magnos-1.0.0.dist-info/RECORD,,
