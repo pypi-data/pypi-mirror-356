@@ -1,0 +1,73 @@
+[project]
+name = "flight_project"
+version = "0.3.58"
+description = "flight_project is an example of data project"
+requires-python = ">=3.11"
+readme = "README.md"
+authors = [
+    { name = "Jean-Pierre Morard", email = "focus@thalesgroup.com" }
+]
+
+dependencies = [
+    "numpy",
+    "geopy",
+    "setuptools",
+    "cython",
+    "parso",
+    "py7zr",
+    "python-dotenv",
+    "fastparquet",
+    "ipython",
+    "polars",
+    "logging",
+    "scipy==1.15.2",
+]
+
+[project.license]
+text = "Thales SIX GTS France SAS"
+
+[project.optional-dependencies]
+agi-worker = []
+polars-worker = [
+    "polars",
+]
+workers = [
+    "agi-core[agi-worker]",
+    "agi-core[polars-worker]",
+]
+managers = [
+    "agi-core[managers]",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "pytest",
+    "licensecheck",
+    "flight_project",
+    "dask[distributed]",
+]
+
+[tool.uv.sources]
+agi-core = {path = "/Users/jpm/PycharmProjects/agilab/src/agi/fwk/core", editable = true}
+
+[tool.uv.sources.flight_project]
+workspace = true
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.data-files]
+pyprojects = [
+    "src/*.ipynb",
+    "src/*.json",
+    "src/*.toml",
+    "src/*/*.py*",
+]
+
+[tool.mypy]
+mypy_path = [
+    "stubs",
+]
+disallow_untyped_defs = false
+ignore_missing_imports = true

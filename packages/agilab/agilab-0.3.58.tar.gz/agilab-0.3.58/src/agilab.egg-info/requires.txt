@@ -1,0 +1,9 @@
+build
+pip
+setuptools
+twine
+wheel
+agi-env
+agi-core
+agi-gui
+pylint
