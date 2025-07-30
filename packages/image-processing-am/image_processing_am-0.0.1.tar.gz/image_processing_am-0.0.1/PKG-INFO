@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: image_processing_am
+Version: 0.0.1
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/MarianoAnderson/image-processing-package
+Author: Anderson
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# image_processing_am
+
+Description. 
+The package image_processing_am is used to:
+	Processing:
+		- Histrogram matching
+		- Strutructural similarity
+		- Resize image
+
+	Utils:
+		- Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image_processing_am
+```
+
+## Author
+Anderson
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
