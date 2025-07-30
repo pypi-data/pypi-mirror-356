@@ -1,0 +1,38 @@
+{
+    "commands": [
+        {
+            "action": "open_app",
+            "patterns": [
+                "open (?:the )?(?P<app>.+)",
+                "start (?:the )?(?P<app>.+)",
+                "launch (?:the )?(?P<app>.+)"
+            ],
+            "response": "Opening {app}"
+        },
+        {
+            "action": "open_website",
+            "patterns": [
+                "open (?:the )?(?P<site>.+) website",
+                "go to (?:the )?(?P<site>.+)",
+                "visit (?:the )?(?P<site>.+)"
+            ],
+            "response": "Opening {site}"
+        },
+        {
+            "action": "create_folder",
+            "patterns": [
+                "create (?:a )?new folder",
+                "make (?:a )?new folder"
+            ],
+            "response": "Created new folder on desktop"
+        },
+        {
+            "action": "sleep",
+            "patterns": [
+                "take rest",
+                "go to sleep"
+            ],
+            "response": "Goodbye"
+        }
+    ]
+}
