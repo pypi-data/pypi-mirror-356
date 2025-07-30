@@ -1,0 +1,10 @@
+otel_log_grpc_handler/__init__.py,sha256=vlY3O-0TVGdmLfdQVPi7nlB3f2C7WCWKC_N-oL-2vJg,159
+otel_log_grpc_handler/handler.py,sha256=i_Tt7l4tPs7OdwBybQFOXwOR9CjVyHXnjCUnDjO-q58,11949
+otel_log_grpc_handler-0.1.1.dist-info/licenses/LICENSE,sha256=axjwAfsqbIM0t63ldUXMCsaB8WcxTx-zMV8yb5jVxh8,1069
+tests/conftest.py,sha256=RKGUz3sLtlpB8ilxgB6GsD2XpY9RHOHUcrjnc2CoN4s,2602
+tests/test_handler.py,sha256=c55e39SxZzuV1VNZDVNQUT31txq0C-C2aVIuIbebM2Q,4764
+tests/test_integration.py,sha256=4VCVtFvAhmJwPgLl1dMr_VMiEgWPrXzxnymUDsRZngg,3168
+otel_log_grpc_handler-0.1.1.dist-info/METADATA,sha256=cUAx6rmAPHt4B3vTK54j5tIia_DEMVa-mtqwg_h8btQ,5662
+otel_log_grpc_handler-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+otel_log_grpc_handler-0.1.1.dist-info/top_level.txt,sha256=-XrdmeCfof1Y5V_XwNSxNsTR0J1eugqBZJbMbqWAV-U,28
+otel_log_grpc_handler-0.1.1.dist-info/RECORD,,
