@@ -1,0 +1,115 @@
+Metadata-Version: 2.3
+Name: cliptu
+Version: 0.1.1
+Summary: 
+Author: Adam Zakaria
+Author-email: adam.p.zakaria@gmail.com
+Requires-Python: >=3.9.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: transcribe
+Requires-Dist: boto3
+Requires-Dist: elasticsearch
+Requires-Dist: faster-whisper (==1.1.1) ; (python_version == "3.12") and (extra == "transcribe")
+Requires-Dist: ffmpeg
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Requires-Dist: flask-cors (>=4.0.1,<5.0.0)
+Requires-Dist: glob2
+Requires-Dist: psutil
+Requires-Dist: tiktoken
+Description-Content-Type: text/markdown
+
+# Run
+## Prod
+```
+cd backend/server
+pm2 start 'python3 -m flask run --host=0.0.0.0 --port=5000 --debug' --name cliptu_flask_prod
+```
+Our frontend is hosted on Cloudfront and it has its VITE_API_HOST set to Cloudfront too, which means cliptu.com makes requests to, for instance: https://d1dz5nvm9j4qsc.cloudfront.net/api/search_text_audio?search_phrase=hey%20jamie&channel=TheJoeRoganExperience
+
+## Dev
+```
+cd backend/server
+pm2 start 'python3 -m flask run --host=0.0.0.0 --port=8080 --debug' --name cliptu_flask_dev
+```
+Run frontend on 3000
+
+# python version
+faster-whisper requires cttranslate2 which does not yet support python 3.13 so we are using 3.12
+
+I could use 3.13 for prototyping in the test folder. Maybe for the server too? 
+
+I should be able to develop on front and deploy spots when I run process_channels?
+
+# ElasticSearch
+old:
+http://50.17.39.48:5601/
+
+new (working):
+http://54.242.127.229:5601/
+user: elastic
+password: Qcq_h+10MBmO78Y-ncu9
+
+## Accessing Kibana (webui)
+Sometimes navigating to kibana will hang, vs if things are really wrong the browser will just get a bad web page error or something.
+
+## Troubleshooting connectivity issues
+I don't think curling from localhost works with security enabled, even with the -u. Might need certs.
+
+However, we can shut off security for testing sake.
+
+ubuntu@ip-172-31-30-221:~$ curl -u elastic:qcq_h+10mbmo78y-ncu9 -x get "http://localhost:9200/"
+curl: (52) Empty reply from server
+
+in /etc/elasticsearch/elasticsearch.yml:
+set xpack.security.enabled: false
+
+xpack.security.transport.ssl:
+  enabled: false
+
+ curl -u elastic:qcq_h+10mbmo78y-ncu9 -x get "http://localhost:9200/"
+
+{
+  "name" : "ip-172-31-30-221",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "sNW5mx0ISdCdJT8T_M47rg",
+  "version" : {
+    "number" : "8.12.2",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "48a287ab9497e852de30327444b0809e55d46466",
+    "build_date" : "2024-02-19T10:04:32.774273190Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.9.2",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+# Install Backend package
+From project root:
+```
+poetry build
+pip install -e .
+```
+
+# ElasticSearch
+## Credentials
+http://50.17.39.48:5601/
+user: elastic
+
+## Delete transcriptions, from web
+POST /transcriptions/_delete_by_query
+{
+  "query": {
+    "term": {
+      "channel.keyword": "GMHikaru"
+    }
+  }
+}
+
