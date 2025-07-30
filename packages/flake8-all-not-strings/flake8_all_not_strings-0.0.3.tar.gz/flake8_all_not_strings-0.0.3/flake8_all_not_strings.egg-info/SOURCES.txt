@@ -1,0 +1,13 @@
+LICENSE
+README.md
+flake8_all_not_strings.py
+pyproject.toml
+setup.cfg
+setup.py
+flake8_all_not_strings.egg-info/PKG-INFO
+flake8_all_not_strings.egg-info/SOURCES.txt
+flake8_all_not_strings.egg-info/dependency_links.txt
+flake8_all_not_strings.egg-info/entry_points.txt
+flake8_all_not_strings.egg-info/requires.txt
+flake8_all_not_strings.egg-info/top_level.txt
+tests/test_flake8_all_not_strings.py
