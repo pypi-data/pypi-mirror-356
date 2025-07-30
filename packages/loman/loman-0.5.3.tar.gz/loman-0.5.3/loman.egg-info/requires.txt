@@ -1,0 +1,10 @@
+decorator
+matplotlib
+pydotplus
+dill>=0.2.5
+networkx>=2.0
+pandas>=0.19.2
+
+[test]
+attrs
+pytest
