@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: rnadtu
+Version: 0.1.7
+Summary: Package for running the CIDR algorithm implemented in R, in python
+Author-email: Anton <s235256@dtu.dk>, Sigurd <s235215@dtu.dk>, Alex <s235237@dtu.dk>, Aryan <s224208@dtu.dk>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<3.0,>=2.0.2
+Requires-Dist: pandas<3.0,>=2.2.3
+Requires-Dist: anndata<1.0,>=0.11
+Requires-Dist: scanpy<2.0,>=1.9.8
+Requires-Dist: rpy2<4.0,>=3.6.0
+Requires-Dist: pyarrow>=15.0.0
+Dynamic: license-file
+
+# rnadtu
+
+A Python package for running the CIDR algorithm (originally implemented in R) for clustering single-cell RNA-seq data using `AnnData` objects.
+
+## Features
+
+- Run the CIDR algorithm from Python using:
+
+  - **`cidr()`** — subprocess-based, using temporary CSV files (recommended for large datasets)
+  - **`cidr_non_csv()`** — subprocess-based, using in-memory buffers (faster but memory intensive and difficult to debug)
+  - **`cidr_rpy2()`** — uses the `rpy2` bridge (direct R integration, less suitable for large datasets)
+
+- Optional configuration options:
+
+  - `data_type`: default is `"raw"`, can be `"cpm"` (counts per million)
+  - `n_cluster`: default is `None` (CIDR calculates the optimal number), or manually specify an positive integer
+  - `layer`: which layer of the `AnnData` object to use for input
+  - Optional output controls:
+    - `pc`: store principal coordinates
+    - `dissim`: store dissimilarity matrix
+    - `dropout`: store dropout matrix
+    - `save_clusters`: (only in cidr_rpy2) choose store cluster labels (default `True`)
+
+- Results are saved in the `AnnData` object:
+
+  - `obsm[layer + "_cidr_pc"]` — principal components
+  - `obsm[layer + "_cidr_clusters"]` — cluster labels (if `save_clusters=True`)
+  - `obsp[layer + "_cidr_dissimilarity_matrix"]` — pairwise distances
+  - `uns[layer + "_cidr_variation"]`, `uns[layer + "_cidr_eigenvalues"]` — PCA variation
+  - `uns[layer + "_cidr_dropout_candidates"]` — dropout data
+
+- Generates a clustering plot in `cidr_plots.pdf`
+
+### Installation
+
+```bash
+pip install rnadtu
+```
