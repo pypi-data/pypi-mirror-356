@@ -1,0 +1,2 @@
+[console_scripts]
+google_takeout_parser = google_takeout_parser.__main__:main
