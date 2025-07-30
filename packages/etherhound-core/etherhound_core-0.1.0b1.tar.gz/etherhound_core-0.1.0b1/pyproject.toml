@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etherhound-core"
+version = "0.1.0b1"
+description = "EtherHound Core - Blockchain Event Scanner Server"
+readme = "readme.md"
+authors = [{name = "Spicy Penguin"}]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]",
+    "python-dotenv",
+    "web3",
+    "pydantic",
+    "typer"
+]
+
+[project.scripts]
+hound = "houndcore.cli.__main__:app"
