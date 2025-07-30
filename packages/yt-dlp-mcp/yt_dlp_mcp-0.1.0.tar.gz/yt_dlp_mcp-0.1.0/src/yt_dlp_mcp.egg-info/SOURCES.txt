@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/yt_dlp_mcp/__init__.py
+src/yt_dlp_mcp/server.py
+src/yt_dlp_mcp.egg-info/PKG-INFO
+src/yt_dlp_mcp.egg-info/SOURCES.txt
+src/yt_dlp_mcp.egg-info/dependency_links.txt
+src/yt_dlp_mcp.egg-info/entry_points.txt
+src/yt_dlp_mcp.egg-info/requires.txt
+src/yt_dlp_mcp.egg-info/top_level.txt
