@@ -1,0 +1,2 @@
+[console_scripts]
+ckc = claude_knowledge_catalyst.cli.main:main
