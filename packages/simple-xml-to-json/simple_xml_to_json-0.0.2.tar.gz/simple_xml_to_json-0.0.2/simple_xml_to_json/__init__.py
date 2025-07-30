@@ -1,0 +1,1 @@
+from .simple_xml_to_json import XmlDocument

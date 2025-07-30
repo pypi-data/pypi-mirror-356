@@ -1,0 +1,31 @@
+This Python script provides a simple way to work with XML files.
+
+Key Features:
+
+Element Class:
+Represents an XML element and provides a toDict method to convert it into a Python dictionary.
+
+XmlDocument Class:
+Represents an entire XML document. It allows you to:
+
+- Load XML from a file or a string.
+- Dump the XML document as a string.
+- Get the XML document as bytes.
+- Iterate through all elements in the document.
+- Convert the XML document to a Python dictionary.
+- Convert the XML document to a JSON string with optional indentation.
+
+Example Usage:
+
+```python
+from simple_xml_to_json import XmlDocument
+# Load an XML file named example.xml
+doc = XmlDocument(filename='example.xml')
+
+# Convert the XML to a JSON string with indenting for readability
+json_str = doc.toJson(indent=4)
+
+# Save the JSON string to a file named example.json
+with open('example.json', 'w') as f:
+    f.write(json_str)
+```
