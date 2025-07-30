@@ -1,0 +1,16 @@
+[project]
+name = "masslos"
+version = "0.2.1"
+description = "Multi purpose unit conversion package"
+readme = "README.md"
+authors = [
+    { name = "panderl", email = "develop@haberl-info.de" }
+]
+requires-python = ">=3.13"
+dependencies = []
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
