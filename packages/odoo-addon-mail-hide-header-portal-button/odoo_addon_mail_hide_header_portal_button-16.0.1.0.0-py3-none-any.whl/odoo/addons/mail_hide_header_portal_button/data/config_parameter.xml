@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Manuel Regidor <manuel.regidor@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+    <record id="some_config_param" model="ir.config_parameter">
+      <field name="key">mail_hide_header_portal_button.models</field>
+      <field name="value" />
+    </record>
+</odoo>

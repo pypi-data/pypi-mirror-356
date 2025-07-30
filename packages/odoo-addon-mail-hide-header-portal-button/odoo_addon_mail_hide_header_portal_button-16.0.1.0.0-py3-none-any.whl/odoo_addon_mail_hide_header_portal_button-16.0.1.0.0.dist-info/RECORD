@@ -1,0 +1,14 @@
+odoo/addons/mail_hide_header_portal_button/README.rst,sha256=jW-tpYLzNRWsK-ZYSmGmEaygvkP5m-H8P-ZvJf_mnGw,2084
+odoo/addons/mail_hide_header_portal_button/__init__.py,sha256=RdweIUppvCX4fB48sG2FRtoPcqH9Z11ZnFzOaUT2K4U,145
+odoo/addons/mail_hide_header_portal_button/__manifest__.py,sha256=JELCqbIf5v3xmqyi5ZW34WHP0w0MiVXpxQF9xzDZKfA,523
+odoo/addons/mail_hide_header_portal_button/data/config_parameter.xml,sha256=EHAonlQ-KbV4KJxxKz5skuQlkSA8YsD1AnIAMM6aFX0,378
+odoo/addons/mail_hide_header_portal_button/models/__init__.py,sha256=TDcA5_xbx3GEYrXRuA0XYOImSrryiGNucUVQuO6SKXg,173
+odoo/addons/mail_hide_header_portal_button/models/ir_model.py,sha256=ywhI1yUhyYWHWGGxZZyoTFljvoUOP85m9JCKTWdF-oU,643
+odoo/addons/mail_hide_header_portal_button/models/mail_thread.py,sha256=E_5pYcWUwzAMsvgbsn2PBjurtmGciOEqO7bcfgMqhQw,1163
+odoo/addons/mail_hide_header_portal_button/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/mail_hide_header_portal_button/tests/__init__.py,sha256=ibBgfy1zXcDeeOtcMIZIToTCsZw7munUZJypCULhA1w,31
+odoo/addons/mail_hide_header_portal_button/tests/test_mail_thread.py,sha256=5WOerkqi_uOOJJDbpw-zc5jFISxP03Pzv9gePhwLwFE,3286
+odoo_addon_mail_hide_header_portal_button-16.0.1.0.0.dist-info/METADATA,sha256=vpspfiqay2r3m4I2VcWMuLQfqWehtsq1YnO5sY1u22A,2632
+odoo_addon_mail_hide_header_portal_button-16.0.1.0.0.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_mail_hide_header_portal_button-16.0.1.0.0.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_mail_hide_header_portal_button-16.0.1.0.0.dist-info/RECORD,,
