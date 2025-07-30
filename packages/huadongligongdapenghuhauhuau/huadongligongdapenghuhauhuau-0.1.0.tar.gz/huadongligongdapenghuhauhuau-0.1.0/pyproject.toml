@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "huadongligongdapenghuhauhuau"
+version = "0.1.0"
+description = "输入OpenWeather-API-KEY，获取天气信息。"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.9.4",
+    "openai>=1.75.0",
+    "python-dotenv>=1.1.0",
+    "setuptools>=80.9.0",
+]
+
+[project.scripts]
+mcp-get-weather = "mcp_get_weather:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

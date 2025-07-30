@@ -1,0 +1,5 @@
+httpx>=0.28.1
+mcp>=1.9.4
+openai>=1.75.0
+python-dotenv>=1.1.0
+setuptools>=80.9.0

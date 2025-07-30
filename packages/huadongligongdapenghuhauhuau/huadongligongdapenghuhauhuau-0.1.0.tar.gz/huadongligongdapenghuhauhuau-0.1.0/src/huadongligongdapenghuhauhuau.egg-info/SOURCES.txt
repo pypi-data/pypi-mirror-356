@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/huadongligongdapenghuhauhuau.egg-info/PKG-INFO
+src/huadongligongdapenghuhauhuau.egg-info/SOURCES.txt
+src/huadongligongdapenghuhauhuau.egg-info/dependency_links.txt
+src/huadongligongdapenghuhauhuau.egg-info/entry_points.txt
+src/huadongligongdapenghuhauhuau.egg-info/requires.txt
+src/huadongligongdapenghuhauhuau.egg-info/top_level.txt
+src/mcp_get_weather/__init__.py
+src/mcp_get_weather/__main__.py
+src/mcp_get_weather/server.py
