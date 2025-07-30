@@ -1,0 +1,15 @@
+# Changelog
+
+## [Unreleased]
+
+Nothing noticeable unreleased.
+
+## v0.2.0
+
+Removed the false claim of supporting Python 3.9.
+
+## v0.1.0
+
+Initial release:
+
+- `yib.yconsole.Console` extends `rich.console.Console` providing an extra `fatal` method.
