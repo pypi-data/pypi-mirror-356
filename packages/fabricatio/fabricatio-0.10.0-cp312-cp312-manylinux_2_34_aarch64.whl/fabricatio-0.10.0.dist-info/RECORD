@@ -1,0 +1,12 @@
+fabricatio-0.10.0.data/scripts/tdown,sha256=QJMe609e037L2vWuXXTMNmwBEqv4kQ8ysGvp6_CPh4w,5120424
+fabricatio-0.10.0.dist-info/METADATA,sha256=HwJc48bkXdtYT4012ugYwHyJ5CnPMcJmiI5gp_Oqy6I,7588
+fabricatio-0.10.0.dist-info/WHEEL,sha256=xRzGYIeYILqfqV388yrHfSOoS4CnDHmnQuDLYAjrqlw,109
+fabricatio-0.10.0.dist-info/licenses/LICENSE,sha256=yDZaTLnOi03bi3Dk6f5IjhLUc5old2yOsihHWU0z-i0,1067
+fabricatio/__init__.py,sha256=4a_7gabZhl9dzonBxcF-8peCGTLNxYJSDfInf1VhRsY,568
+fabricatio/actions/__init__.py,sha256=4xR1wiPq2HPnVABXy6R3wOxcg9LZKD7g-h9IdTcNKvY,2106
+fabricatio/capabilities/__init__.py,sha256=aDi5idkxe2TttrdxZsTJrzbdeQz5aN_C7YIg8FtOwZE,2558
+fabricatio/models/__init__.py,sha256=-T9QeEjg-Qyz-BofvLdpCDvd0ut9k6H0r25sIHMqDCI,1517
+fabricatio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fabricatio/rust.cpython-312-aarch64-linux-gnu.so,sha256=SyMMdWSIxA0lGKQdQVh4ar_byaXZORWHzpXWd8ibqGA,463632
+fabricatio/workflows/__init__.py,sha256=sr-0tgpNPdN5t2pDQa-gp-KUE7K0QDtjP9QGvWYLZ9A,305
+fabricatio-0.10.0.dist-info/RECORD,,
