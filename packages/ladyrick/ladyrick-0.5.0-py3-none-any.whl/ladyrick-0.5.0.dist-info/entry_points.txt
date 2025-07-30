@@ -1,0 +1,5 @@
+[console_scripts]
+ladyrick-tee = ladyrick.cli.tee:main
+multi-ssh = ladyrick.cli.multi_ssh:main
+pretty-print = ladyrick.pprint:main
+psf = ladyrick.cli.psf:main
