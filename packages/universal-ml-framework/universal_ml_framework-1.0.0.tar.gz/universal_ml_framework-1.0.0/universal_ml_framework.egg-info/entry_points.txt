@@ -1,0 +1,2 @@
+[console_scripts]
+uml-pipeline = universal_ml_framework.core.pipeline:main
