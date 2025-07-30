@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nanocr
+Version: 0.0.2
+Summary: nano/tiny ocr model
+Author-email: calcuis <info@calcu.io>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Repository, https://github.com/calcuis/ocr-test-model
+
+## nano/tiny ocr
+
+install it via pip/pip3:
+```
+pip install nanocr
+```
+
+update it (if previous version installed) by:
+```
+pip install nanocr --upgrade
+```
+
