@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gmail-mcp-server-ansh"
+version = "1.0.5"
+description = "A Model Context Protocol (MCP) server for Gmail integration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Gmail MCP Server Team" }
+]
+dependencies = [
+  "openai",
+  "fastapi",
+  "fastmcp",
+  "uvicorn",
+  "google-api-python-client",
+  "google-auth",
+  "google-auth-oauthlib",
+  "google-auth-httplib2",
+  "sse-starlette",
+  "groq",
+  "pydantic-settings"
+]
+
+[project.urls]
+Homepage = "https://github.com/Ansh-Wappnet/gmail_mcp_server"
+
+[project.scripts]
+gmail-mcp-server-ansh = "gmail_mcp_server.server:main" 
