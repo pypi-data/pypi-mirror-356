@@ -1,0 +1,85 @@
+Metadata-Version: 2.3
+Name: utic-cache
+Version: 2.2.1
+Summary: An asyncio Cache
+License: MIT
+Keywords: asyncio,lru,cache,async,cache,lru-cache,ttl
+Author: lightmanLP
+Author-email: liteman1000@gmail.com
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Project-URL: Homepage, https://github.com/UT1C/async-cache
+Project-URL: Repository, https://github.com/UT1C/async-cache
+Description-Content-Type: text/markdown
+
+# utic-cache
+A caching solution for asyncio. Heavily changed fork of `async-cache` package.
+
+## Installation
+```
+pip install utic-cache
+```
+
+## Basic Usage
+```py
+# LRU Cache
+from cache import Cached, LRU
+
+
+@Cached(LRU(maxsize=128))
+async def func(*args, **kwargs):
+    """
+    maxsize: max number of results that are cached.
+             if max limit is reached the oldest result is deleted.
+    """
+    pass
+```
+```py
+# TTL Cache
+from cache import Cached, TTL
+
+
+@Cached(TTL(ttl=60, maxsize=1024), skip_args=1)
+async def func(*args, **kwargs):
+    """
+    time_to_live: max time for which a cached result is valid (in seconds)
+    maxsize: max number of results that are cached.
+             if max limit is reached the oldest result is deleted.
+    skip_args: Use `1` to skip first arg of func in determining cache key
+    """
+    pass
+
+# Supports primitive as well as non-primitive function parameter.
+# Currently TTL & LRU cache is supported.
+```
+
+## Advanced Usage
+```py
+from cache import Cached, LRU
+
+
+class CustomDataClass:
+    id: int
+    value: int
+
+
+@Cached(LRU(maxsize=128))
+async def func(model: "CustomDataClass"):
+    ...  # function logic
+
+# async-cache will work even if function parameters are:
+#   1. orm objects
+#   2. request object
+#   3. any other custom object type.
+
+
+# To refresh the function result use the `use_cache=False` param in the function invocation
+func(*args, use_cache=False, **kwargs)
+```
+
