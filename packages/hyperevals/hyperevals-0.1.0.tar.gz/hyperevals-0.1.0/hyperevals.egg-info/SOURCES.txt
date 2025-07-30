@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+hyperevals/__init__.py
+hyperevals/cli.py
+hyperevals.egg-info/PKG-INFO
+hyperevals.egg-info/SOURCES.txt
+hyperevals.egg-info/dependency_links.txt
+hyperevals.egg-info/entry_points.txt
+hyperevals.egg-info/requires.txt
+hyperevals.egg-info/top_level.txt
+tests/test_cli.py
