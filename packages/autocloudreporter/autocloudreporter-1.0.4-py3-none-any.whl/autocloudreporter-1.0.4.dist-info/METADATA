@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: autocloudreporter
+Version: 1.0.4
+Summary: Fedora-messaging consumer to report Autocloud results to ResultsDB
+Home-page: https://pagure.io/fedora-qa/autocloudreporter
+Author: Adam Williamson
+Author-email: awilliam@redhat.com
+License: GPLv3+
+Keywords: fedora qa autocloud resultsdb fedora-messaging
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+License-File: COPYING
+Requires-Dist: fedora-messaging
+Requires-Dist: resultsdb_api
+Requires-Dist: resultsdb_conventions[fedora]
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# autocloudreporter
+
+**AUTOCLOUDREPORTER IS NOW OBSOLETE AND ARCHIVED**. Autocloud is no longer used
+and so it has no purpose. Please don't install it.
