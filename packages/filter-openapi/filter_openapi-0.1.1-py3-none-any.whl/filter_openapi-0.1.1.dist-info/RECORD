@@ -1,0 +1,13 @@
+filter_openapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filter_openapi/__main__.py,sha256=FUJm2ItpvHafJzCzZ6fdC3SpIw-tmt1Ym7I3h3Yi4gM,5247
+filter_openapi/settings.py,sha256=vmD1EyLa7PimnxEcY7TY38V8sVWmD4XaCEB8HJ8SVC4,830
+filter_openapi/actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filter_openapi/actions/filter_endpoints.py,sha256=EF4VZi2G7FoJhrjPhSp39CRPSYZVhFobxQR9FgpFwrk,2410
+filter_openapi/actions/filter_paths_by_tags.py,sha256=p64dxJ8K5phqNl_OgCrDvGNBts8Y316awB9Ct8GXWek,1243
+filter_openapi/actions/filter_schemas.py,sha256=vFuet8DRFYAi3XtOUzfMOHJQZ6PrXTX11yFiEjlra-I,3379
+filter_openapi/actions/filter_tags_list.py,sha256=BgKN9UjOn0V0xXkVK6S7xPKK1pntgM3vjgoEnBhLYfU,1286
+filter_openapi/actions/remove_properties.py,sha256=dR4jyAmKutzeiPwATm7B39JEy9TiJdWESTcPTsbqx9c,1187
+filter_openapi-0.1.1.dist-info/METADATA,sha256=HZcVSw8_n5aP6cEJqEMstP4QHENaHUDsivx9_h3LFLM,3750
+filter_openapi-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+filter_openapi-0.1.1.dist-info/licenses/LICENSE,sha256=eXmNMRwFhhbnKopLpKXj9OZ48zGTOwLjo7kLQD-DtG8,1066
+filter_openapi-0.1.1.dist-info/RECORD,,
