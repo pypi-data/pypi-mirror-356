@@ -1,0 +1,12 @@
+requests>=2.28.1
+flask>=2.0.0
+sphinx-last-updated-by-git
+
+[dev]
+tox
+build
+pre-commit
+flake8
+sphinx
+sphinx-last-updated-by-git
+pytest
