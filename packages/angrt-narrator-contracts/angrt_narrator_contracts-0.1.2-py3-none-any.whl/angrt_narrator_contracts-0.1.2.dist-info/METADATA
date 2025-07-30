@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: angrt-narrator-contracts
+Version: 0.1.2
+Summary: Shared protobuf contracts for narrator microservices
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: protobuf_to_pydantic

@@ -1,0 +1,6 @@
+[console_scripts]
+generate-contracts=scripts.generate_contracts:main
+
+[protobuf_generate]
+default=scripts.generate_contracts:generate
+
