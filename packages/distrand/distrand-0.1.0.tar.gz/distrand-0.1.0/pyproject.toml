@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distrand"
+version = "0.1.0"
+description = "Generate spaced random numbers with minimum distance constraints."
+readme = "README.md"
+authors = [
+  { name="Syed Mohammad Talha Husain" }
+]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.7"
+keywords = ["random", "sampling", "spacing", "numpy", "utility"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/Eggman5800/distrand/"
+Issues = "https://github.com/Eggman5800/distrand/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["distrand"]
