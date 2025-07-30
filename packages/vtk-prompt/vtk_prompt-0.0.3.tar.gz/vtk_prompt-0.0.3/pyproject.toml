@@ -1,0 +1,68 @@
+[project]
+name = "vtk-prompt"
+dynamic = ["version"]
+description = "A project combining VTK visualization with LLM APIs (Anthropic, OpenAI, NVIDIA NIM)"
+authors = [
+    {name = "Vicente Adolfo Bolea Sanchez", email = "vicente.bolea@kitware.com"},
+]
+dependencies = [
+    "anthropic>=0.22.0",
+    "chromadb>=0.6.3",
+    "click>=8.0.0",
+    "importlib_resources>=5.0.0",
+    "llama_index-core>=0.12.17",
+    "llama-index-llms-anthropic>=0.6.7",
+    "llama-index-llms-openai>=0.3.20",
+    "openai>=1.0.0",
+    "sentence-transformers>=3.4.1",
+    "tqdm>=4.67.1",
+    "trame>=3.9.0",
+    "trame-vtk>=2.8.0",
+    "trame-vuetify",
+    "tree_sitter>=0.23",
+    "tree_sitter_language_pack>=0.7.0",
+    "tree_sitter_languages>=1.9.1",
+    "vtk>=9.3.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+keywords = ["vtk", "visualization", "llm", "ai", "anthropic", "openai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Code Generators",
+]
+
+[project.urls]
+Homepage = "https://github.com/vicentebolea/vtk-prompt"
+Repository = "https://github.com/vicentebolea/vtk-prompt"
+Issues = "https://github.com/vicentebolea/vtk-prompt/issues"
+
+[project.scripts]
+vtk-prompt = "vtk_prompt.prompt:main"
+gen-vtk-file = "vtk_prompt.generate_files:main"
+vtk-build-rag = "vtk_prompt.build_rag_db:main"
+vtk-test-rag = "vtk_prompt.test_rag:main"
+vtk-prompt-ui = "vtk_prompt.vtk_prompt_ui:main"
+rag-chat = "vtk_prompt.rag_chat_wrapper:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+fallback_version = "0.1.0"
+
+[tool.setuptools.package-data]
+vtk_prompt = ["prompts/*.txt"]
+
+[tool.black]
+include = 'src/.*.py$'
