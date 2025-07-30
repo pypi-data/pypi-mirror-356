@@ -1,0 +1,37 @@
+[project]
+name = "qubox"
+version = "0.1.1"
+description = "Wrapper Module around qua programming language for cQED experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  { name="JianJun Liu", email="jianjun.liu@utexas.edu" }
+]
+dependencies = [
+    "cma==4.0.0",
+    "grpclib==0.4.5",
+    "matplotlib==3.10.3",
+    "numpy==1.25.2",
+    "PyYAML==6.0.2",
+    "qm==0.2",
+    "qualang_tools==0.19.5",
+    "scikit_optimize==0.10.2",
+    "scipy==1.15.3",
+    "tqdm==4.67.1",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+[tool.setuptools]
+packages = ["qubox"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
