@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+image_metadata_recorder/__init__.py
+image_metadata_recorder/analyzer.py
+image_metadata_recorder/cli.py
+image_metadata_recorder/extractor.py
+image_metadata_recorder/reporter.py
+image_metadata_recorder.egg-info/PKG-INFO
+image_metadata_recorder.egg-info/SOURCES.txt
+image_metadata_recorder.egg-info/dependency_links.txt
+image_metadata_recorder.egg-info/entry_points.txt
+image_metadata_recorder.egg-info/requires.txt
+image_metadata_recorder.egg-info/top_level.txt
