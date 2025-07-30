@@ -1,0 +1,173 @@
+site_name: QKA - 快量化文档
+site_description: 快捷量化助手（Quick Quantitative Assistant）- 简洁易用的A股量化交易框架
+site_author: QKA Team
+site_url: https://zsrl.github.io/qka
+
+# Repository
+repo_name: zsrl/qka
+repo_url: https://github.com/zsrl/qka
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 QKA Team
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+  
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+# Plugins
+plugins:
+  - search:
+      lang: zh
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_symbol_type_heading: true
+            members_order: source
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys  
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: zsrl
+      repo: qka
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zsrl/qka
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/qka
+  
+  version:
+    provider: mike
+
+# Navigation
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 安装指南: getting-started/installation.md
+    - 第一个策略: getting-started/first-strategy.md
+    - 基础概念: getting-started/concepts.md
+  - 用户指南:
+    - 数据获取: user-guide/data.md
+    - 策略开发: user-guide/strategy.md
+    - 回测分析: user-guide/backtest.md
+    - 实盘交易: user-guide/trading.md
+    - 配置管理: user-guide/config.md
+    - 事件系统: user-guide/events.md
+    - 日志系统: user-guide/logging.md
+  - 参考资料:
+    - A股市场证券代码命名规则: A股市场证券代码命名规则.md
+  - API参考:
+    - API概览: api/index.md
+    - Core模块:
+      - 模块概览: api/core/index.md
+      - 配置管理: api/core/config.md
+      - 事件系统: api/core/events.md
+      - 回测引擎: api/core/backtest.md
+      - 数据处理: api/core/data.md
+      - 绘图工具: api/core/plot.md
+    - Utils模块:
+      - 模块概览: api/utils/index.md
+      - 日志系统: api/utils/logger.md
+      - 通用工具: api/utils/tools.md
+      - 动画工具: api/utils/anis.md
+      - 通用函数: api/utils/util.md
+    - Brokers模块:
+      - 模块概览: api/brokers/index.md
+      - 交易客户端: api/brokers/client.md
+      - 交易服务器: api/brokers/server.md
+      - 交易执行: api/brokers/trade.md
+    - MCP模块:
+      - 模块概览: api/mcp/index.md
+      - API接口: api/mcp/api.md
+      - 服务器实现: api/mcp/server.md
+  - 示例教程:
+    - 示例概览: examples/index.md
+    - 基础示例:
+      - 第一个策略: examples/basic/first-strategy.md
+      - 数据获取: examples/basic/data-fetching.md
+      - 简单回测: examples/basic/simple-backtest.md
+    - 进阶示例:
+      - 事件驱动策略: examples/advanced/event-driven.md
+      - 多资产策略: examples/advanced/multi-asset.md
+      - 风险管理: examples/advanced/risk-management.md
+    - 完整案例:
+      - 动量策略: examples/complete/momentum-strategy.md
+      - 均值回归策略: examples/complete/mean-reversion.md
+      - 配对交易: examples/complete/pairs-trading.md
+  - 更新日志: changelog.md
