@@ -1,0 +1,7 @@
+{
+    "name": "${ECS_ALB_NAME}",
+    "public_subnets": "${ECS_ALB_PUBLIC_SUBNETS}",
+    "security_groups": "${ECS_ALB_SECURITY_GROUPS}",
+    "target_groups": "${ECS_ALB_TARGET_GROUPS}",
+    "listeners": "${ECS_ALB_LISTENERS}"
+}

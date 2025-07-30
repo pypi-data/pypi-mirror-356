@@ -1,0 +1,13 @@
+
+module "ecs" {
+
+  source = "./modules/ecs"
+  common = local.common
+
+  capacity_provider_list = ${CAPACITY_PROVIDER_LIST}
+  ecs_cluster_list = ${ECS_CLUSTER_LIST}
+  task_definition_list = ${TASK_DEFINITION_LIST}
+  application_load_balancer_list = ${APPLICATION_LOAD_BALANCER_LIST}
+  services_list = ${SERVICES_LIST}
+
+}
