@@ -1,0 +1,2 @@
+[console_scripts]
+v3cap = v3cap.api:start_server
