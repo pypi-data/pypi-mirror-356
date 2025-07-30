@@ -1,0 +1,30 @@
+when:
+  event: tag
+
+variables:
+  - &file Containerfile
+  - &repo codeberg.org/${CI_REPO_OWNER}/${CI_REPO_NAME}
+
+steps:
+  checks:
+    image: ghcr.io/astral-sh/uv:debian
+    pull: true
+    commands:
+      - uvx nox --version
+      - uvx nox
+      - uv --version
+      - uv build
+
+  publish-docker-image:
+    image: woodpeckerci/plugin-docker-buildx
+    pull: true
+    settings:
+      dockerfile: *file
+      platforms: linux/arm64/v8,linux/amd64
+      registry: codeberg.org
+      repo: *repo
+      auto_tag: true
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password

@@ -1,0 +1,27 @@
+when:
+  event: [release, pull_request]
+
+variables:
+  - &file Containerfile
+  - &repo codeberg.org/${CI_REPO_OWNER}/${CI_REPO_NAME}
+
+steps:
+  checks:
+    image: ghcr.io/astral-sh/uv:debian
+    pull: true
+    commands:
+      - uv --version
+      - uvx nox --version
+      - uvx nox
+      - uv build
+
+  dryrun_docker:
+    image: woodpeckerci/plugin-docker-buildx
+    pull: true
+    settings:
+      dockerfile: *file
+      platforms: linux/arm64/v8,linux/amd64
+      dry_run: true
+      repo: *repo
+    when:
+      event: pull_request

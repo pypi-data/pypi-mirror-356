@@ -1,0 +1,19 @@
+# Container creation definition
+
+FROM ghcr.io/astral-sh/uv:debian-slim
+
+LABEL maintainer="marvin8 <marvin8@tuta.io>"
+
+COPY entry-point.sh /run/
+
+# Install app and dependencies
+WORKDIR /run
+RUN --mount=source=dist,target=/dist uv --version \
+    && uv venv -p 3.12 \
+    && uv pip install /dist/*.whl \
+    && chmod +x .venv/bin/activate
+
+VOLUME /config
+VOLUME /logging
+
+ENTRYPOINT ["/run/entry-point.sh"]
