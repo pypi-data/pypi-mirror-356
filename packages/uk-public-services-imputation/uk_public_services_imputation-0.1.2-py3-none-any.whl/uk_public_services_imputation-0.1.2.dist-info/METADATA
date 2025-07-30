@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: uk-public-services-imputation
+Version: 0.1.2
+Summary: A package to impute public services in the UK using machine learning.
+Author-email: Nikhil Woodruff <nikhil.woodruff@outlook.com>
+Requires-Python: >=3.11
+Requires-Dist: furo>=2024.8.6
+Requires-Dist: jupyter-book>=1.0.4.post1
+Requires-Dist: microimpute
+Requires-Dist: nbformat>=4.2.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: policyengine-uk>=2.24.0
+Requires-Dist: policyengine>=0.2.1
+Requires-Dist: quantile-forest>=1.4.0
+Requires-Dist: ruff>=0.11.8
+Requires-Dist: setuptools>=80.1.0
+Requires-Dist: tqdm>=4.67.1
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: build<2.0.0,>=1.0.0; extra == 'dev'
+Requires-Dist: flake8<7.0.0,>=6.0.0; extra == 'dev'
+Requires-Dist: isort<6.0.0,>=5.9.0; extra == 'dev'
+Requires-Dist: linecheck<0.2.0,>=0.1.0; extra == 'dev'
+Requires-Dist: mypy<2.0.0,>=1.0.0; extra == 'dev'
+Requires-Dist: pytest-cov<7.0.0,>=6.0.0; extra == 'dev'
+Requires-Dist: pytest<9.0.0,>=8.0.0; extra == 'dev'
