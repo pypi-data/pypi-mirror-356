@@ -1,0 +1,13 @@
+sdv_installer/__init__.cpython-312-x86_64-linux-musl.so,sha256=txVtyXlQOagJWOWMFAbYa720edFH1ecQ09k7FimuvfY,50264
+sdv_installer/cli/__init__.cpython-312-x86_64-linux-musl.so,sha256=iitwdupRt0BJUjpZU32oSoBcEeHxkj_Wvi7KoULHVUU,50256
+sdv_installer/cli/__main__.cpython-312-x86_64-linux-musl.so,sha256=kLjxAeQPuxe_fXva5H7RBKlvHQQDk-pOn6DqF6iWCE8,356496
+sdv_installer/installation/__init__.cpython-312-x86_64-linux-musl.so,sha256=lYTp113_pAtvbgmKXi5T63tAwDAxSOnc2_UbXj0g6rg,61512
+sdv_installer/installation/installer.cpython-312-x86_64-linux-musl.so,sha256=zLqUKz7hBzwN3fIXx4cWPXDHqm3KCqiPNeDf964ftiA,745288
+sdv_installer/licensing/__init__.cpython-312-x86_64-linux-musl.so,sha256=RRLXVRGIoBjdVbS7uXMJ8mxC2OhXSnYDxXkuODxwr9g,60616
+sdv_installer/licensing/authentication.cpython-312-x86_64-linux-musl.so,sha256=GJ2XR2RQpcQGrJl7amb__gVcp7fjYIPxN2Oz_MoRlfc,691024
+sdv_installer-0.0.0.dev5.dist-info/METADATA,sha256=kH6XgSWStnUrcjp2YwSgeQadAf9UPtmo111pp8-ztG8,2807
+sdv_installer-0.0.0.dev5.dist-info/WHEEL,sha256=AwHYJA1Do1jwgPIoLQR4DiHSeYY_vU6Ht9Vljq5Yt_M,112
+sdv_installer-0.0.0.dev5.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev5.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev5.dist-info/RECORD,,
+sdv_installer-0.0.0.dev5.dist-info/licenses/LICENSE,sha256=yvPXLYJjZGdrkpah9WFuFg_V6kdZuwgyGkDLrJMMTV0,1065
