@@ -1,0 +1,27 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README package.md
+README.md
+env.yaml
+pyproject.toml
+requirements.txt
+.github/changelog_config.json
+.github/workflows/11111publish.yaml
+.github/workflows/code-check.yaml
+.github/workflows/release.yaml
+.github/workflows/test.yaml
+src/aircheckdata.egg-info/PKG-INFO
+src/aircheckdata.egg-info/SOURCES.txt
+src/aircheckdata.egg-info/dependency_links.txt
+src/aircheckdata.egg-info/entry_points.txt
+src/aircheckdata.egg-info/requires.txt
+src/aircheckdata.egg-info/top_level.txt
+src/airctest/__init__.py
+src/airctest/main.py
+src/airctest/cli/__init__.py
+src/airctest/cli/main.py
+src/configs/datasets.yaml
+src/utils/util.py
+tests/__init__.py
+tests/test_reader.py
