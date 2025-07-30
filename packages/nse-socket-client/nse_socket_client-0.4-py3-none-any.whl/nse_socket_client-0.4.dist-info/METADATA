@@ -1,0 +1,330 @@
+Metadata-Version: 2.1
+Name: nse-socket-client
+Version: 0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: siddid
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.0)
+Requires-Dist: websocket-client (>=1.0.0)
+Provides-Extra: dev
+Requires-Dist: black (>=21.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.8) ; extra == 'dev'
+Requires-Dist: mypy (>=0.800) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'dev'
+Requires-Dist: pytest (>=6.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme (>=1.0) ; extra == 'docs'
+Requires-Dist: sphinx (>=4.0) ; extra == 'docs'
+
+# NSE Socket Client
+
+A professional Python client library for the NSE Socket server with WebSocket and REST API support for real-time market data streaming and order management.
+
+[![PyPI version](https://badge.fury.io/py/nse-socket-client.svg)](https://badge.fury.io/py/nse-socket-client)
+[![Python versions](https://img.shields.io/pypi/pyversions/nse-socket-client.svg)](https://pypi.org/project/nse-socket-client/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Features
+
+- **Real-time Market Data**: WebSocket-based streaming for live market data
+- **Order Management**: Place, cancel, and track trading orders
+- **Historical Data**: Access historical market data with advanced filtering
+- **Admin Controls**: Broadcast management for administrators
+- **Professional Logging**: Comprehensive logging with customizable levels
+- **Auto-reconnection**: Robust connection handling with automatic reconnection
+- **Heartbeat Support**: Built-in ping/pong for connection health monitoring
+- **Multiple Symbol Support**: Subscribe to multiple instruments simultaneously
+- **Clean API**: Simple, intuitive interface for complex operations
+
+## Installation
+
+```bash
+pip install nse-socket-client
+```
+
+## Quick Start
+
+### Basic Usage
+
+```python
+from nse_socket_client import NSEClient
+
+# Create client with authentication
+client = NSEClient("ws://localhost:8080", "http://localhost:3000")
+
+# Authenticate with username
+if client.authenticate("your_username"):
+    # Set up data handler
+    def handle_market_data(data):
+        symbol = data["symbol"]
+        price_data = data["data"]
+        print(f"{symbol}: Price=${price_data['close']:.2f}, Volume={price_data['volume']:,}")
+    
+    client.on_ticks = handle_market_data
+    
+    # Connect and subscribe to multiple symbols
+    symbols = ["NIFTY", "RELIANCE", "TCS", "HDFC"]
+    if client.connect_and_subscribe(symbols):
+        print("🚀 Streaming market data... Press Ctrl+C to stop")
+        client.run()  # Blocks until stopped
+```
+
+### Using Existing Token
+
+```python
+from nse_socket_client import NSEClient
+
+# Create client with existing JWT token
+client = NSEClient("ws://localhost:8080", "http://localhost:3000", token="your_jwt_token")
+
+# Set up event handlers
+client.on_ticks = lambda data: print(f"Received: {data}")
+client.on_connect = lambda: print("Connected!")
+client.on_disconnect = lambda: print("Disconnected!")
+
+# Connect and start streaming
+if client.connect_and_subscribe(["NIFTY", "INDIGO"]):
+    client.run()
+```
+
+### Order Management
+
+```python
+# Place a market order
+order = client.place_order(
+    symbol="RELIANCE",
+    side="buy",
+    order_type="market",
+    quantity=10
+)
+
+# Place a limit order
+limit_order = client.place_order(
+    symbol="TCS",
+    side="sell",
+    order_type="limit",
+    quantity=5,
+    price=3500.00
+)
+
+# Get all orders
+orders = client.get_orders()
+print(f"Total orders: {len(orders)}")
+
+# Cancel an order
+if order:
+    success = client.cancel_order(order["id"])
+    print(f"Order cancelled: {success}")
+```
+
+### Historical Data
+
+```python
+# Get recent historical data
+historical_data = client.get_historical_data("NIFTY", limit=100)
+
+# Get data for specific date range
+from datetime import date
+data = client.get_historical_data(
+    "RELIANCE",
+    from_date="2024-01-01",
+    to_date="2024-01-31",
+    limit=500
+)
+
+# Get daily data
+daily_data = client.get_historical_data(
+    "TCS",
+    time_period="day",
+    limit=30
+)
+
+# Get available symbols
+symbols = client.get_available_symbols()
+print(f"Available symbols: {len(symbols)}")
+```
+
+### Advanced Features
+
+```python
+# Batch subscribe to many symbols
+symbols = ["NIFTY", "BANKNIFTY", "RELIANCE", "TCS", "HDFC", "ICICIBANK"]
+results = client.subscribe_batch(symbols, batch_size=10)
+
+# Configure heartbeat
+client.set_heartbeat_config(enabled=True, interval=25, timeout=10)
+
+# Set custom log level
+client.set_log_level("DEBUG")
+
+# Check connection status
+if client.is_connected():
+    print(f"Connected with {client.get_subscription_count()} active subscriptions")
+
+# Get heartbeat status
+heartbeat_info = client.get_heartbeat_status()
+print(f"Heartbeat: {heartbeat_info}")
+```
+
+## Admin Features
+
+For users with admin privileges:
+
+```python
+# Start data broadcasting
+client.start_broadcast()
+
+# Check broadcast status
+status = client.get_broadcast_status()
+print(f"Broadcast state: {status['state']}")
+
+# Pause/Resume broadcasting
+client.pause_broadcast()
+client.resume_broadcast()
+
+# Stop broadcasting
+client.stop_broadcast()
+```
+
+## Configuration
+
+### WebSocket Configuration
+
+```python
+client = NSEClient(
+    ws_uri="ws://localhost:8080",
+    api_uri="http://localhost:3000",
+    token="your_token"
+)
+
+# Configure auto-reconnection
+client.auto_reconnect = True
+client.reconnect_interval = 5
+client.max_reconnect_attempts = 10
+
+# Configure heartbeat
+client.heartbeat_enabled = True
+client.heartbeat_interval = 25
+client.ping_timeout = 10
+```
+
+## Event Handlers
+
+```python
+def on_market_data(data):
+    """Handle incoming market data"""
+    print(f"Market Data: {data}")
+
+def on_connection():
+    """Handle connection established"""
+    print("WebSocket connected")
+
+def on_disconnection():
+    """Handle connection lost"""
+    print("WebSocket disconnected")
+
+def on_error(error):
+    """Handle errors"""
+    print(f"Error: {error}")
+
+def on_order_update(order):
+    """Handle order updates"""
+    print(f"Order Update: {order}")
+
+# Assign handlers
+client.on_ticks = on_market_data
+client.on_connect = on_connection
+client.on_disconnect = on_disconnection
+client.on_error = on_error
+client.on_order_update = on_order_update
+```
+
+## Error Handling
+
+```python
+from nse_socket_client import (
+    NSESocketError,
+    AuthenticationError,
+    ConnectionError,
+    SubscriptionError,
+    HistoricalDataError,
+    AdminError
+)
+
+try:
+    client = NSEClient("ws://localhost:8080", "http://localhost:3000")
+    client.authenticate("username")
+    
+except AuthenticationError as e:
+    print(f"Authentication failed: {e}")
+except ConnectionError as e:
+    print(f"Connection failed: {e}")
+except NSESocketError as e:
+    print(f"NSE Socket error: {e}")
+```
+
+## API Reference
+
+### NSEClient Class
+
+#### Constructor
+- `NSEClient(ws_uri, api_uri, token=None)`
+
+#### Authentication
+- `authenticate(username)` - Authenticate with username
+- `get_token(username)` - Get JWT token
+
+#### Connection Management
+- `ws_connect()` - Connect to WebSocket
+- `ws_disconnect()` - Disconnect from WebSocket
+- `is_connected()` - Check connection status
+- `health_check()` - Check API server health
+
+#### Subscription Management
+- `subscribe_feed(symbol)` - Subscribe to single symbol
+- `subscribe_multiple(symbols)` - Subscribe to multiple symbols
+- `subscribe_batch(symbols, batch_size)` - Batch subscribe
+- `unsubscribe_feed(symbol)` - Unsubscribe from symbol
+- `connect_and_subscribe(symbols)` - Connect and subscribe in one call
+
+#### Order Management
+- `place_order(symbol, side, order_type, quantity, price, stop_price)`
+- `cancel_order(order_id)`
+- `get_orders(symbol, status)`
+- `get_order(order_id)`
+
+#### Historical Data
+- `get_historical_data(symbol, limit, from_date, to_date, time_period)`
+- `get_historical_summary()`
+- `get_available_symbols()`
+
+## Requirements
+
+- Python 3.7+
+- requests >= 2.25.0
+- websocket-client >= 1.0.0
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
