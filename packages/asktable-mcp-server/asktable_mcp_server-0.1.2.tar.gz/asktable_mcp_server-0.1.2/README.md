@@ -1,0 +1,72 @@
+# asktable-mcp-server
+
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![PyPI Version](https://img.shields.io/pypi/v/asktable-mcp-server.svg)](https://pypi.org/project/asktable-mcp-server/)
+
+`asktable-mcp-server` 是一个为 [AskTable](https://www.asktable.com/) 提供的 MCP 服务。它允许用户通过 AskTable 的接口与数据库进行交互，执行查询和获取数据。
+
+## 快速开始
+
+### 安装与配置
+本地先安装uv工具，然后克隆该项目到本地
+```bash
+# On macOS and Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+## 使用
+目前支持stdio本地通信，你可以通过 AskTable 的客户端与 asktable-mcp-server 进行交互，执行查询和获取数据。
+
+## 工作模式
+
+asktable-mcp-server 支持两种工作模式：
+
+### 1. SaaS版模式（默认）
+连接到 AskTable 的 SaaS 服务，无需配置 base_url，系统会自动使用官方API地址。
+
+### 2. 本地部署模式
+连接到本地部署的 AskTable 服务，需要在环境变量中配置 base_url。
+
+## MCP Server 配置示例
+现已经支持[VS Code + Cline](https://cline.bot/)， [Trae](https://www.trae.com.cn/)， [阿里百炼智能体平台](https://bailian.console.aliyun.com/?spm=5176.29619931.J__Z58Z6CX7MY__Ll8p1ZOR.1.6483521cesAnkN&tab=mcp#/mcp-market)等。
+### 配置参数
+* api_key: AskTable API密钥（必需）
+* datasource_id: 数据源ID（必需）
+* base_url: 本地部署的AskTable服务地址（可选）
+  * 格式：http://[IP地址]:[端口]/api
+  * 示例：http://192.168.1.3:8030/api
+  * 如不配置，默认连接到SaaS版服务
+### SaaS版配置（推荐）
+```json
+{
+    "mcpServers":{
+        "asktable-mcp-server":{
+            "command":"uvx",
+            "args":[
+                "asktable-mcp-server@latest"
+            ],
+            "env":{
+                "api_key": "your api_key",
+                "datasource_id": "your datasource_id"
+            }
+        }
+    }
+}
+```
+### 本地部署版配置
+```json
+{
+    "mcpServers":{
+        "asktable-mcp-server":{
+            "command":"uvx",
+            "args":[
+                "asktable-mcp-server@latest"
+            ],
+            "env":{
+                "api_key": "your api_key",
+                "datasource_id": "your datasource_id",
+                "base_url": "http://192.168.1.3:8030/api"
+            }
+        }
+    }
+}
+```
