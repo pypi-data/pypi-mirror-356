@@ -1,0 +1,13 @@
+textual==3.4.0
+textual-serve==1.1.1
+pytz==2024.1
+pyperclip==1.9.0
+orjson==3.10.16
+
+[dev]
+textual-dev==1.7.0
+twine>=6.1.0
+build
+
+[lint]
+ruff==0.12.0

@@ -1,0 +1,80 @@
+[build-system]
+requires = [
+    "setuptools >= 80.0.0",
+    "wheel>=0.43.0",
+    "build>=1.2.1",
+    "pytz==2024.1"
+]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+lint = [
+    "ruff==0.12.0"
+]
+dev = [
+    "textual-dev==1.7.0",
+    "twine>=6.1.0",
+    'build'
+]
+
+[project]
+name = "SuricataLog"
+version = "1.1.1"
+authors = [
+    {name = "Jose Vicente Nunez", email = "kodegeek.com@protonmail.com"},
+]
+maintainers = [
+    {name = "Jose Vicente Nunez", email = "kodegeek.com@protonmail.com"},
+]
+license = "MIT AND (Apache-2.0 OR BSD-2-Clause)"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python"
+]
+dependencies = [
+    "textual==3.4.0",
+    "textual-serve==1.1.1",
+    "pytz==2024.1",
+    "pyperclip==1.9.0",
+    "orjson==3.10.16"
+]
+description = "Scripts to display contents of Suricata eve.json log"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.11"
+keywords = ["suricata", "log", "eve"]
+[project.urls]
+Repository = "https://github.com/josevnz/SuricataLog"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["test*"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"suricatalog" = ["css/*.tcss"]
+
+[project.scripts]
+eve_json = "suricatalog.scripts.eve_json:main"
+eve_log = "suricatalog.scripts.eve_log:main"
+eve_server = "suricatalog.scripts.eve_server:main"
+eve_payload = "suricatalog.scripts.eve_payload:main"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["E501"]
+
