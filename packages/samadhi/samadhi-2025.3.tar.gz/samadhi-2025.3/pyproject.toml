@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samadhi"
+authors = [
+    {name = "Jacob Kanev", email = "jkanev@zoho.com"}
+]
+description = "A realtime EEG viewer using novel ways to visualise EEG."
+version = "2025.3"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6",
+    "numpy",
+    "mne_lsl==1.6",     # 1.8 causes a memory exception on windows
+    "matplotlib",
+    "python-osc",
+    "PyOpenGL"
+]
+
+[project.urls]
+homepage = "http://samadhi-eeg.info"
+documentation = "https://github.com/jkanev/samadhi"
+repository = "https://github.com/jkanev/samadhi.git"
+issues = "https://github.com/jkanev/samadhi/-/issues"

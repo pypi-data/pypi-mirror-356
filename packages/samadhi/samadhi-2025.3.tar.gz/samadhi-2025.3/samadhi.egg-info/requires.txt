@@ -1,0 +1,6 @@
+PyQt6
+numpy
+mne_lsl==1.6
+matplotlib
+python-osc
+PyOpenGL
