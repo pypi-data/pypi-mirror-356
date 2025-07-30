@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sms-gateway-sdk
+Version: 0.1.0
+Summary: Python SDK for interacting with a FastAPI-based SMS gateway using ESP32 and GSM module.
+Home-page: https://github.com/tonusername/sms_gateway_sdk
+Author: Islam Remache
+Author-email: myname@esi.dz
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+
+UNKNOWN
+
