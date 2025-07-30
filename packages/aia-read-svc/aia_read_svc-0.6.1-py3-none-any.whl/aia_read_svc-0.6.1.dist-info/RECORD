@@ -1,0 +1,17 @@
+aia_read_svc/__init__.py,sha256=USkHZIiIrXgQgwqV57_4XJjWvm86cttLtS98oDrei4s,71
+aia_read_svc/daemon.py,sha256=g55543bfWaCvh4VR2Hx63Y5gMehbea0iQCnDMNuB_tY,631
+aia_read_svc/model/read_model.py,sha256=lxZx4MewiD9_sPrXVyYtkn5WbtdpPjyhiPGHw37RAcw,333
+aia_read_svc/model/wh40k_enum.py,sha256=AKvoos2ru5fJzrkUwkET9Q_1u611D9gadzVIQQXZQcE,169
+aia_read_svc/model/wh40k_model.py,sha256=zYB6CIxsU5OI_R-YAOzXHOCSlL-ao4TdQfCmJGkK9rY,813
+aia_read_svc/numbers_to_letters.py,sha256=LICS9jb5h_W29E8RIh2IGmI8NIrB7WVvF15YQ8xTLr0,5214
+aia_read_svc/read_svc.py,sha256=BKKl0pGIWFroTuTpfq8nv2U4CBFxcmGTHfQSE6Ifxs8,1384
+aia_read_svc/repositories/__init__.py,sha256=X2Iflt7U_qg3JyAe6zzHjFMgXLfJrgkYQPH_3qos67g,23
+aia_read_svc/repositories/aiaRepo.py,sha256=Oekv4bUvj36GLfhaJ2nQVEwERzYQATE91YbWzZMPNo0,714
+aia_read_svc/repositories/aiaWh40kRepo.py,sha256=5fbjj6HSwD3hy_7IBwEE4g2j5rCfa1bQy1-4e_1EQlU,1469
+aia_read_svc/wh40kSvc.py,sha256=9rzoplcHpX7gPwXdWb5aFAB2kkUMe97Zo3G6R4wLgmE,17169
+aia_read_svc/whatsappSvc.py,sha256=iDjNnYSRuIdF0b7A2vhLvdtaEFW0tX4CAdDAYsZ-aaI,113
+aia_read_svc/yahooMailSvc.py,sha256=OcBNsGsM_nzUU2L2iZrQ1w9u77wWMYvE5WP4U33UnQQ,6926
+aia_read_svc-0.6.1.dist-info/METADATA,sha256=CpF07rojl1NLHplFWuLR1WvKHNyK1pKoMgMm16_G_AQ,2394
+aia_read_svc-0.6.1.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+aia_read_svc-0.6.1.dist-info/entry_points.txt,sha256=thqo7L3eDST2Cs6MyRtLrd88vGOY57NzhWaPxzolWNY,50
+aia_read_svc-0.6.1.dist-info/RECORD,,
