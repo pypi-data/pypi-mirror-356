@@ -1,0 +1,12 @@
+README.rst
+pyproject.toml
+docs/source/conf.py
+sdypy_io_tdms/__init__.py
+sdypy_io_tdms/tdms.py
+sdypy_io_tdms.egg-info/PKG-INFO
+sdypy_io_tdms.egg-info/SOURCES.txt
+sdypy_io_tdms.egg-info/dependency_links.txt
+sdypy_io_tdms.egg-info/requires.txt
+sdypy_io_tdms.egg-info/top_level.txt
+tests/__init__.py
+tests/test_tdms.py
