@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: py-sql-runner
+Version: 0.1.0
+Summary: Simple abstraction layer over Trino, ClickHouse, PostgreSQL, and more
+Author-email: Cody Crossley <you@codycrossley.com>
+Project-URL: Homepage, https://github.com/codycrossley/sql-runner
+Project-URL: Bug Tracker, https://github.com/codycrossley/sql-runner/issues
+Keywords: sql,trino,postgres,clickhouse,database
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: trino==0.335.0
+Requires-Dist: psycopg==3.2.9
+Requires-Dist: psycopg-binary==3.2.9
+Requires-Dist: clickhouse-connect==0.8.17
+Requires-Dist: pyarrow==20.0.0
+Requires-Dist: pandas==2.3.0
+Requires-Dist: jinja2==3.1.6
+Requires-Dist: dotenv==0.9.9
