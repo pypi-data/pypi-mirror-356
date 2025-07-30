@@ -1,0 +1,13 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand        = "python server.py"
+restartPolicyType   = "ON_FAILURE"
+
+[env]
+RAILWAY_ENVIRONMENT = "production"
+
+[[services]]
+name   = "mcp_f1analisys"
+source = "."

@@ -1,0 +1,40 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "setuptools_scm[toml]>=6.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp_f1analisys"
+dynamic = ["version"]
+description = "MCP F1 analysis server for Formula 1 telemetry data visualization"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "mcp[cli]>=1.0.0",
+  "httpx>=0.24.0",
+  "fastmcp>=2.8.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/maxbleu/mcp-f1analisys"
+Repository = "https://github.com/maxbleu/mcp-f1analisys"
+Issues = "https://github.com/maxbleu/mcp-f1analisys/issues"
+
+[project.scripts]
+mcp-f1analisys = "mcp_f1analisys.server.mcp_server:main"
+
+[tool.setuptools]
+packages = ["mcp_f1analisys", "mcp_f1analisys.server", "mcp_f1analisys.tools", "mcp_f1analisys.utils"]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+fallback_version = "0.0.dev0"
+tag_regex = "^[vV]?(?P<version>.+)$"
