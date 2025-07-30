@@ -1,0 +1,52 @@
+site_name: plug_mcp
+site_url: https://2796gaurav.github.io/plug_mcp
+repo_url: https://github.com/2796gaurav/plug_mcp
+repo_name: 2796gaurav/plug_mcp
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - 'Getting Started': 'getting-started.md'
+  - 'API Reference': 'api-reference.md'
+  - 'About':
+    - 'License': 'license.md'
+    - 'Code of Conduct': 'code-of-conduct.md' 
