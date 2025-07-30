@@ -1,0 +1,16 @@
+copado_ai_sdk/__init__.py,sha256=bpMhlKVB-5bvqerl2Be6EgVT48czrRr1ea-uYndFhIA,731
+copado_ai_sdk/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+copado_ai_sdk/auth.py,sha256=nqpXGqc7FxjgEyKsGgwpc13JP22ckq39_bvqFDb1mO8,267
+copado_ai_sdk/client.py,sha256=tdgobqR2g_Hcuar3sSr95p1R5rXSDnuqyM0AEMpbyYo,5639
+copado_ai_sdk/exceptions.py,sha256=afeWQffbetwFFh_tpMgHzMJ6ftZeQdDC8bYMy1Ez1d4,199
+copado_ai_sdk/types.py,sha256=15mk6sdTkfCS4uNDfwaMQRpay4SBWApoqoGHohodulA,8581
+copado_ai_sdk/services/__init__.py,sha256=0Fnsiyp9SRJTMQsDY9alB7ln3dSd2qdVi32PgKV8iRk,406
+copado_ai_sdk/services/activity.py,sha256=Y9kORMxBFksCNO0AmiI0N3mehj1Y2uzXuTyKlT0BTXo,1373
+copado_ai_sdk/services/dialogue.py,sha256=XtfCAEWVZhszopIlmB1fr9kdXkLev4mI8UQ6d00fn54,12260
+copado_ai_sdk/services/document.py,sha256=5k6P3r9XMm_SheqeEPd-rXRzGmN1_BMysxmtROeCQ-g,6523
+copado_ai_sdk/services/integration.py,sha256=1sbvZY3-E27wWFuM4eGU4qjzsuse6wfjmB0CT6JkUAw,1650
+copado_ai_sdk/services/organization.py,sha256=o0zA98Py_XeJlGIpT9nk2VVUrLjtQpg-9eolMaCBih0,1362
+copado_ai_sdk/services/workspace.py,sha256=BKCON6ajgp8FPiCXgEe4QmhZYEtDjVqT5lc-1ZsxQmE,13663
+copado_ai_sdk-0.1.0.dist-info/METADATA,sha256=KSWz0FNylojXDYmXqjB9n2tL7GlKfUcDgrrJBfuLL40,6871
+copado_ai_sdk-0.1.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+copado_ai_sdk-0.1.0.dist-info/RECORD,,
