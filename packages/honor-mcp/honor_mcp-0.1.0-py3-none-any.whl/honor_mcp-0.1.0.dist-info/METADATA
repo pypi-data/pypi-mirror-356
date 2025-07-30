@@ -1,0 +1,69 @@
+Metadata-Version: 2.4
+Name: honor-mcp
+Version: 0.1.0
+Summary: MCP server for interacting with Honor Platform API
+Author-email: Brian Steele <brian@honor.education>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/HonorEd-Technologies/honor-mcp
+Project-URL: Bug Tracker, https://github.com/HonorEd-Technologies/honor-mcp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: mcp[cli]>=1.7.1
+Requires-Dist: twine>=6.1.0
+Provides-Extra: dev
+Requires-Dist: ruff>=0.6.0; extra == "dev"
+
+# Honor MCP Server
+
+An MCP (Model Context Protocol) server for interacting with the Honor Platform API.
+
+## Installation
+
+```bash
+pip install honor-mcp
+```
+
+## Configuration
+
+The server requires the `HONOR_MCP_API_KEY` environment variable to be set with your Honor Platform API key.
+
+Optional environment variables:
+- `HONOR_MCP_URL_BASE`: Base URL for the Honor Platform API (default: http://localhost:7075)
+- `HONOR_MCP_USER_AGENT`: User agent string for API requests (default: honor-mcp/1.0)
+
+## Usage with Claude Desktop
+
+Add to your Claude Desktop config file (`claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "honor-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "honor-mcp",
+        "honor-mcp"
+      ],
+      "env": {
+        "HONOR_MCP_API_KEY": "your_api_key_here",
+        "HONOR_MCP_URL_BASE": "https://api.honor.education"
+      }
+    }
+  }
+}
+```
+
+## Available Tools
+
+- `get_courses()`: Get a list of courses created by the user
+- `create_course(course_title, course_description, start_date, end_date, course_code)`: Create a new course in Honor Platform
+
+## License
+
+MIT
