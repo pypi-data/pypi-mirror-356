@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Robotic-Arm
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Realman-Aisha
+Author-email: aisha@realman-robot.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Robotic_Arm  
+  
+二代睿尔曼机械臂Python版本二次开发包  
+  
+## 安装  
+  
+你可以通过pip来安装这个包：  
+  
+```bash  
+pip install Robotic_Arm
+
