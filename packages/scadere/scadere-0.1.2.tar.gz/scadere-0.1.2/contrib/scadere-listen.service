@@ -1,0 +1,11 @@
+[Unit]
+Description=Run scadere-listen
+After=network.target
+
+[Service]
+ExecStart=scadere-listen --title='TLS cert renewal' \
+	/var/lib/scadere/certificates https://scadere.example :4433
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
