@@ -1,0 +1,17 @@
+mave2imap/CombineMultiExp.py,sha256=lD9d36pOE9Xh39ZRR0SxQQ6n5JeOdMj5Q7pJbHEFPj8,19526
+mave2imap/ReadAssembler.py,sha256=r5RbWI2osV71Y_nDh6nB3Xa_qTDffqUPNnSaI7OBIUk,51837
+mave2imap/ReadParser.py,sha256=YNY-8pjuUdVMZ7rDJEMPhyFhpV4XYAx6fWpc3fIFLNk,21780
+mave2imap/__init__.py,sha256=b4s15E0x2HmgQfmsHBA37N1AUb5P9pa8rnpdaw2D330,196
+mave2imap/_version.py,sha256=NGACsoFoIp4ppVN2iQpHycZDn2lj3twmesBGsur5GhI,39
+mave2imap/lr_tools.py,sha256=NJHUZbOvfeVF4qyRBMHyMcu-t6DQIbYmkhITyGRxtGk,19590
+mave2imap/mave2imap.py,sha256=ZTjN2SF_ITpC2z9sNb_g8vz93j8Hva8VZXrncgfxLHk,8931
+mave2imap/py.typed,sha256=o_skYYOgBqbwMt-5lUZDunyM7CcemHaJt2k9MsSACeY,61
+mave2imap/tools/aa2nuc.pickle,sha256=u9cjA7yBXpfOJPCxo-OnOX7sRou8cwUEuBBXAYk8bLA,2360
+mave2imap/tools/nuc2aa.pickle,sha256=GnHJ-Ynvyuh2GICh682HLlo9pAXg-CriGbN9Mb4L7V8,1500
+mave2imap/tools/nuc2abundance.pickle,sha256=P73G66GT5mGYlbKFLeSARFbt7f_L0wulTZLCnh3z6UE,2146
+mave2imap-1.0.0.0.5.dist-info/licenses/LICENSE,sha256=w6EAiTLfuBv2O7HQawMqfwdlN5EGpIVNSyKe7e3vACA,1111
+mave2imap-1.0.0.0.5.dist-info/METADATA,sha256=tU-8GhbEkBs3gqodDsjhUz-5WCi8chS8C5rJ20d5-Eg,5035
+mave2imap-1.0.0.0.5.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+mave2imap-1.0.0.0.5.dist-info/entry_points.txt,sha256=Yp-Cn-Vjdbpr3SCXp9Sc3Szz2T9VNhbKj0tg5prHqs4,45
+mave2imap-1.0.0.0.5.dist-info/top_level.txt,sha256=y605NSIgmAAiYf0M7v8htSPwAkG5v6RhEIpindI37b0,10
+mave2imap-1.0.0.0.5.dist-info/RECORD,,
