@@ -1,0 +1,8 @@
+# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+from __future__ import annotations
+
+from .patient_request_documents_params import PatientRequestDocumentsParams as PatientRequestDocumentsParams
+from .patient_request_fhir_data_params import PatientRequestFhirDataParams as PatientRequestFhirDataParams
+from .patient_request_documents_response import PatientRequestDocumentsResponse as PatientRequestDocumentsResponse
+from .patient_request_fhir_data_response import PatientRequestFhirDataResponse as PatientRequestFhirDataResponse
