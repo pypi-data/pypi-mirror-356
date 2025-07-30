@@ -1,0 +1,2 @@
+[console_scripts]
+stepchain = stepchain.cli.main:main
