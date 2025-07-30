@@ -1,0 +1,16 @@
+[project]
+name = "odysseyz-ovmcp"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
+
+[project.scripts]
+odysseyz-ovmcp = "odysseyz_ovmcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
