@@ -1,0 +1,10 @@
+datazets
+statsmodels
+matplotlib
+numpy
+scikit-learn
+scipy
+colourmap>=1.1.19
+pandas
+scatterd>=1.3.7
+adjusttext
