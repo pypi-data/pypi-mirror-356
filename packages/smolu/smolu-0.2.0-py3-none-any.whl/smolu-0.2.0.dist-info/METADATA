@@ -1,0 +1,101 @@
+Metadata-Version: 2.4
+Name: smolu
+Version: 0.2.0
+Summary: File based url shortening
+Author-email: Théo Cavignac <theo.cavignac@gmail.com>
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Dynamic: license-file
+
+# smolu
+
+Self-hosted url shortening for individual use.
+
+The is a very simple file-based redirection generator producing unique short urls.
+
+It has to be used with an existing http static file server.
+
+## Installation
+
+```bash
+git clone https://git.sr.ht/~lattay/smolu
+cd smolu
+pip install .
+```
+
+Optionally you want to install `qrencode` to be able to generate QR codes.
+
+## Usage
+
+1. Configure the http server to serve the /srv/http/u/ directory statically, serving everything as html unconditionally.
+
+Caddy config:
+```
+example.com:443 {
+	root * /srv/http
+	@html {
+		path /u/*
+		not path *.png
+	}
+	header @html Content-Type "text/html; charset=utf-8"
+	file_server
+}
+```
+
+Nginx config:
+```
+server {
+    listen 443 ssl;
+    server_name example.com;
+
+    root /srv/http;
+
+    ssl_certificate /path/to/fullchain.pem;
+    ssl_certificate_key /path/to/privkey.pem;
+
+    location ~ ^/u/.*\.png$ {
+        # nothing special
+    }
+
+    location /u/ {
+        add_header Content-Type "text/html; charset=utf-8";
+    }
+}
+
+server {
+    listen 80;
+    server_name example.com;
+    return 301 https://$host$request_uri;
+}
+```
+
+2. Run `smolu.py -C` to initialize the configuration
+
+3. To add a new short address, run `smolu.py <target>`, it will print the short
+   url to stdout. If enabled, the QR code will be found at `<short_url>.png`
+
+
+Note: this is designed for individual user, meaning it is not designed for
+millions of urls, or for super fast generation. It will check for collisions
+though (in a parallel unsafe way though, again a single user won't have a
+problem). The default is to use 6 bytes of timestamp and 6 random bytes, however
+even 2+1 should be just fine for personal use. The bytes are base64 encoded so
+for each 3 bytes of the id, you get 4 characters in the url.
+
+Also, you need a short domain name, otherwise it really does not make sense.
+
+## Features
+
+- Opt-in QR code generation
+- Configurable short url length
+- No SEO
+- No analytics
+- No tracking
+- No ads
+- No time limit
+- Free and open source
+- Self-hosted
+- No database
+- No longrunning process (apart from whatever http server you are running)
+- No attack surface (assuming you are using a production grade http server such
+  as nginx or caddy with TLS enabled)

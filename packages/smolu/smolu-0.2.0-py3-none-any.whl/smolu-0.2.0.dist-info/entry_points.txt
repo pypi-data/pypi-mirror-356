@@ -1,0 +1,2 @@
+[console_scripts]
+smolu = smolu.__main__:main
