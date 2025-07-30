@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: jonja
+Version: 0.1.4
+Summary: Simple jinja-based texts and objects render
+License: MIT
+Keywords: jinja,template,text
+Author: lightmanLP
+Author-email: liteman1000@gmail.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aiofile (>=3.9.0,<4.0.0)
+Requires-Dist: jinja2 (>=3.1.6,<4.0.0)
+Requires-Dist: oyaml (>=1.0,<2.0)
+Requires-Dist: utic-cache (>=2.2.1,<3.0.0)
+Requires-Dist: yamt (>=1.0.0,<2.0.0)
+Project-URL: repository, https://github.com/UT1C/jonja
+Description-Content-Type: text/markdown
+
+# jonja
+[![PyPI version](https://badge.fury.io/py/jonja.svg)](https://badge.fury.io/py/jonja)
+![PyPI downloads per mounth](https://img.shields.io/pypi/dm/jonja)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UT1C/jonja)
+
+Jinja-based texts and objects render.
+
+## Installation
+```
+pip install jonja
+```
+
+## Usage
+1. Make template
+`hello.j2`
+```j2
+Hello, {{ username }}!
+*#!#*
+world:
+  $cls: "types:SimpleNamespace"
+  $kwargs: {name: earth, size: {{ world_size }} }
+```
+2. Make env
+```py
+from pathlib import Path
+from jonja import JonjaEnv
+env = JonjaEnv(Path.cwd() / "static" / "templates")
+```
+3. Render
+```py
+text, objs = await env.render("hello", username="mikk", world_size=10_000)
+```
+
+## TODO
+- [ ] make deepcopy of cached generated objects (maybe controlled by option on both env and render side)
+
