@@ -1,0 +1,13 @@
+sdv_installer-0.0.0.dev5.dist-info/RECORD,,
+sdv_installer-0.0.0.dev5.dist-info/WHEEL,sha256=g90Wq7X-bVdwIvEI8m8JyslasfeTxTaPRr_jHMRBUD8,137
+sdv_installer-0.0.0.dev5.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev5.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev5.dist-info/METADATA,sha256=kH6XgSWStnUrcjp2YwSgeQadAf9UPtmo111pp8-ztG8,2807
+sdv_installer-0.0.0.dev5.dist-info/licenses/LICENSE,sha256=yvPXLYJjZGdrkpah9WFuFg_V6kdZuwgyGkDLrJMMTV0,1065
+sdv_installer/__init__.cpython-313-darwin.so,sha256=M452ftJglEBNseRa2dImcurh_jwItGvdl8qNB__SCfY,20960
+sdv_installer/installation/__init__.cpython-313-darwin.so,sha256=w2zU3ZL3lDBSVGIYvzrjeU4ce3w262YRvzKf8ejj9dE,21952
+sdv_installer/installation/installer.cpython-313-darwin.so,sha256=MXCN-pqtnObbrI4W3loLmuIkbNEa2-3BBjezkJeeY0E,110088
+sdv_installer/cli/__init__.cpython-313-darwin.so,sha256=HfJzYALeQG_MDjRgeJilSILFTUZuQNN_DjH0Iyv6rfY,20952
+sdv_installer/cli/__main__.cpython-313-darwin.so,sha256=66tdWs7jtbF7LaRLM85fxwV1dRhgAJ4V4xd4iM0EAfg,64184
+sdv_installer/licensing/__init__.cpython-313-darwin.so,sha256=RD6ar4OdRbo1RmIOAUWiVaudf37Nrme0-FLgPFPiMmI,22136
+sdv_installer/licensing/authentication.cpython-313-darwin.so,sha256=XKWDndu-0PP-ZMDEbbZ9x9EVjfCNqf47oy-FXwL8qow,103680
