@@ -1,0 +1,12 @@
+mtpk_mariadb/__init__.py,sha256=y77cRf8j8iuBP8f-cIrJwhj2rQHF_G1zHXfi86H_d90,105
+mtpk_mariadb/async_adapter.py,sha256=UISmpPk8eYpyiHrCCrWOIiYf3GBuvmnLMR0QK2f302o,7690
+mtpk_mariadb/core_sync.py,sha256=zkd-PFmG6bR-n5A9UYVyzyNcLL4TGQWaYWsx13HwJs4,62269
+mtpk_mariadb/crud.py,sha256=VxwIvCB_ZoOA-wgS1v3mv8aKmo9F9QqAapGV-PTFpes,9130
+mtpk_mariadb/excepciones.py,sha256=nDVb7dKyD3g6roTZbJ5y-7VkopM8NBOzAx4pQZTj4BY,1454
+mtpk_mariadb/interface.py,sha256=LX50j5U5OxfqNdT3h5EyuP6Z4g4vwx-Lwa4qEPIFWw8,3028
+mtpk_mariadb/utils.py,sha256=_SIP_vcmfFTW33AK8WjoZ--HFUwW_VoMKMc90TPSgYc,7112
+mtpk_mariadb-0.1.2.dist-info/licenses/LICENSE,sha256=8SeQd4jT64T0i5nGCyJfxnLKZ0rsRe8b-ERrntrR9uE,1179
+mtpk_mariadb-0.1.2.dist-info/METADATA,sha256=nRthx4XdBb1Z_wagsrtV1DuF_8fswu1DE6BVPTYuNLA,11160
+mtpk_mariadb-0.1.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+mtpk_mariadb-0.1.2.dist-info/top_level.txt,sha256=oSP9WTD4sROFyItNH5tub85NQhvQYnMrPKvlQUO1Mjk,13
+mtpk_mariadb-0.1.2.dist-info/RECORD,,
