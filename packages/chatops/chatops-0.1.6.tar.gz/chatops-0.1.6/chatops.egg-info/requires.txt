@@ -1,0 +1,8 @@
+typer>=0.9
+rich>=13
+requests>=2.31
+boto3>=1.28
+azure-identity>=1.15
+azure-mgmt-costmanagement>=1.0
+numpy>=1.26
+openai<2,>=1.0
