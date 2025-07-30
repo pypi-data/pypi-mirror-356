@@ -1,0 +1,13 @@
+genomicranges/GenomicRanges.py,sha256=5ARi2oCRpKjtZawby2bCziO168vqX75DNXUr9diEOo0,114317
+genomicranges/GenomicRangesList.py,sha256=O2ECBMJtrcRkAL8oD1-rUbFQ40Rph0fgfL04zgKfB_Q,28790
+genomicranges/SeqInfo.py,sha256=N-_XIGRPrWWkrwOM78ZwsGBQo8Yz96bNqQ9_T3QiqF4,21556
+genomicranges/__init__.py,sha256=-3LTXP12BsqP0TkmZrzNK8ocEFuzPKXIvWwM-OWjbA4,764
+genomicranges/utils.py,sha256=zSekT43M9yCIhv-ubTUrnieN_GxVgtqMrLr5KC8W_oE,6570
+genomicranges/io/__init__.py,sha256=MGPoAnCCHJYIOL-fmbp6huGoZX9eWZgLxzIM_38Pyhk,54
+genomicranges/io/gtf.py,sha256=LEBCZmAAuklofbgepRpjF3F5zaTyxGxYV5ps7HufQxQ,3268
+genomicranges/io/ucsc.py,sha256=bXb7EzhALZ97JkciqQOz4tMpebqoPErME0ipKgQTkBw,1670
+genomicranges-0.7.0.dist-info/licenses/LICENSE.txt,sha256=pkwgQ8WMTR1-Qa0qwIaBf5I1-8OGN1B20E_eeDg-bqc,1082
+genomicranges-0.7.0.dist-info/METADATA,sha256=my1wvxwH4GY3oGCJ4u3BzJcofxAsQ1fYqWmHKl_I-xg,10946
+genomicranges-0.7.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+genomicranges-0.7.0.dist-info/top_level.txt,sha256=G4l4oKSUr3YRHy0Dv1u-QcPgdk2nlJ79p3NKmg7bw54,14
+genomicranges-0.7.0.dist-info/RECORD,,
