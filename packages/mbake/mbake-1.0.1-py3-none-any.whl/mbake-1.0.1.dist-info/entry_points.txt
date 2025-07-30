@@ -1,0 +1,2 @@
+[console_scripts]
+bake = bake.cli:main
