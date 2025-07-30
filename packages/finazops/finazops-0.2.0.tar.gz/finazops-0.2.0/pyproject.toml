@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finazops"
+
+version = "0.2.0"
+description = "FinOps CLI Toolkit for Azure"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name="Franck Kengne", email = "2monthscloud@gmail.com"}]
+dependencies = [
+    "rich",
+    "fpdf",
+    "azure-identity",
+    "azure-mgmt-resource",
+]
+
+[project.scripts]
+finazops = "finazops.cli:main"
+

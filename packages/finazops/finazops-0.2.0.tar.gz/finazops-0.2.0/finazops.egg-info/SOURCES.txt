@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+finazops/__init__.py
+finazops/__main__.py
+finazops/cli.py
+finazops/natural.py
+finazops.egg-info/PKG-INFO
+finazops.egg-info/SOURCES.txt
+finazops.egg-info/dependency_links.txt
+finazops.egg-info/entry_points.txt
+finazops.egg-info/requires.txt
+finazops.egg-info/top_level.txt
