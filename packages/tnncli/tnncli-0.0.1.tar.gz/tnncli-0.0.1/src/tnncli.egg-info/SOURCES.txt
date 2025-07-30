@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tnncli/__init__.py
+src/tnncli/tnn.py
+src/tnncli.egg-info/PKG-INFO
+src/tnncli.egg-info/SOURCES.txt
+src/tnncli.egg-info/dependency_links.txt
+src/tnncli.egg-info/top_level.txt
