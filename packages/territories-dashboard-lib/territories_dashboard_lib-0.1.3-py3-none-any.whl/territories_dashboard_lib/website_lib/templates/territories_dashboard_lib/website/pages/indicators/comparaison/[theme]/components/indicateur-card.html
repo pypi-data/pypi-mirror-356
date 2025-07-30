@@ -1,0 +1,48 @@
+{% load htmlparams %}
+
+{% htmlparams %}
+	{% htmlparam body %}
+        <div class="fr-mt-3w comparison-main-values">
+            <div>Dernier millésime:</div>
+            <div class="territory-value fr-text--lg fr-mb-0 delay-spinner">
+                <span>{% include "territories_dashboard_lib/website/pages/indicators/components/loader.html" with width=32 %}</span>
+                <span class="unite">{{indicator.unite}}</span>
+            </div>
+            <div class="compared-territory-value fr-text--lg fr-mb-0 delay-spinner">
+                <span>{% include "territories_dashboard_lib/website/pages/indicators/components/loader.html" with width=32 %}</span>
+                <span class="unite">{{indicator.unite}}</span>
+            </div>
+        </div>
+        <div style="height: 300px;">
+            <canvas class="history-chart" aria-describedby="{{indicator.id}}values-export-csv"></canvas>
+        </div>
+        {% include "territories_dashboard_lib/website/pages/indicators/components/chart-buttons.html" with name="Historique comparaison" route="values" indicator=indicator pattern="show" %}
+	{% endhtmlparam %}
+
+    {% htmlparam footer %}
+        <section class="fr-accordion tdbmd-indicator-accordion tdbmd-indicator-accordion-comparison">
+            <h3 class="fr-accordion__title">
+                <button
+                    class="fr-accordion__btn border-top"
+                    aria-expanded="false"
+                    aria-controls="accordion-{{indicator.id}}"
+                    aria-label="Répartition des valeurs - {{ indicator.title }}"
+                >
+                    Répartition des valeurs
+                </button>
+            </h3>
+            <div
+                class="fr-collapse"
+                id="accordion-{{indicator.id}}"
+            >
+                {% include "territories_dashboard_lib/website/pages/indicators/components/title.html" with title="Répartition des territoires selon les valeurs de l'indicateur (graphique en “miroir”)" key=indicator.name h4=True text="Survolez les barres du graphique pour afficher le nombre de territoires dans chaque classe de valeurs (le nom des territoires s'affiche s'il y a moins de 6 territoires). Le graphique du haut correspond à la répartition pour le territoire 1 sélectionné, alors que le graphique du bas (en “miroir”) correspond à la répartition pour le territoire 2 de comparaison. Précisions : Ce graphique varie selon la maille sélectionnée." %}
+                <div style="width: 100%; height: 500px; margin-top: -1rem;">
+                    <canvas class="comparison-chart" aria-describedby="{{indicator.id}}comparison-histogram-export-csv"></canvas>
+                </div>
+                {% include "territories_dashboard_lib/website/pages/indicators/components/chart-buttons.html" with name="Comparaison de la répartition" route="comparison-histogram" indicator=indicator pattern="show" %}
+            </div>
+        </section>
+    {% endhtmlparam %}
+
+    {% include "territories_dashboard_lib/website/pages/indicators/components/indicator-card.html" with indicator=indicator %}
+{% endhtmlparams %}
