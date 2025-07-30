@@ -1,0 +1,19 @@
+[project]
+name = "sphero_unsw"
+version = "0.1.2"
+description = "Extensions and patches for spherov2 to support Sphero BOLT+ (UNSW Canberra fork)"
+authors = [
+    { name = "Kathryn Kasmarik", email = "kathryn.kasmarik@unsw.edu.au" },
+    { name = "Reda Ghanem", email = "reda.ghanem@unsw.edu.au" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "bleak",
+    "spherov2"
+]
+
+[project.urls]
+Homepage = "https://github.com/air-cbr/sphero_unsw"
+Source = "https://github.com/air-cbr/sphero_unsw"
