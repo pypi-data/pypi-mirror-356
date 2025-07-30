@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=64",
+#           "setuptools-scm>=8"
+			]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SANDI"
+version = "0.1.4"
+authors = [
+  { name="Louise Delhaye", email="ldelhaye@naturalsciences.be" },
+]
+description = "Sediment ANalysis & Deliniation through Images"
+readme = "README.md"
+
+requires-python = ">=3.11"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+#	"License :: OSI Approved :: European Union Public License 1.2",
+	"Operating System :: OS Independent",
+]
+
+license = "EUPL-1.2"
+license-files = ["LICEN[CS]E*"]
+
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml,
+# so you do NOT have to specify this line.
+# include-package-data = true
+
+#[tool.setuptools.packages.find]
+#where = ["src"]
+
+[tool.setuptools.package-data]
+"sandi.images" = ["*.png", "*.ico"]
+
+keywords = ["Sedimentation", "Image Analysis"]
+
+[project.urls]
+Homepage = "https://github.com/louisejuliedelhaye/SANDI/"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/louisejuliedelhaye/SANDI/"
+
+
