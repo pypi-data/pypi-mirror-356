@@ -1,0 +1,60 @@
+Metadata-Version: 2.4
+Name: productspy
+Version: 0.1.5
+Summary: A simple Python library to fetch product name and price from popular e-commerce websites.
+Author-email: Rayan <xrayan.23@gmail.com>
+License: MIT
+Project-URL: Homepage, https://pypi.org/project/productspy/
+Project-URL: Repository, https://github.com/Renqwee/productspy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: urllib3>=1.26.0
+Requires-Dist: playwright>=1.40.0
+
+# productspy
+
+A simple Python library to grab product info like name and price from popular shopping sites like Amazon, Noon, AliExpress, Carrefour, and Extra.
+
+
+## What it does
+
+- Pulls out the product name, price, and URL from product pages.
+- Supports multiple sites using different ways (HTML parsing, JSON-LD, or Playwright for sites that load content with JavaScript).
+- Manages cookies so it can get around some security stuff on sites like AliExpress.
+- Super easy to use — just give it a product link, and it’ll give you the info.
+
+
+## How to install 
+
+```bash
+pip install -r requirements.txt
+playwright install
+```
+## How to use
+```bash
+from productspy import get_product_info
+
+url = "put your product URL here"
+info = get_product_info(url)
+
+print(f"Product Name: {info['name']}")
+print(f"Price: {info['price']}")
+print(f"URL: {info['url']}")
+```
+## Supported sites
+
+- Amazon
+- Noon
+- AliExpress
+- Carrefour
+- Extra
+
+
+## Cookies update (for AliExpress)
+If cookies expire, the library will open a browser window so you can log in or verify yourself. Just follow the steps and close the browser when you’re done.
+
+## Contribute
+Feel free to open an issue or pull request if you wanna help improve this.
+
