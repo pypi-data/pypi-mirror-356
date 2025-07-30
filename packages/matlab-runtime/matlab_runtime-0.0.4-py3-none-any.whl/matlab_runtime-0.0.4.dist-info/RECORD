@@ -1,0 +1,12 @@
+matlab_runtime/__init__.py,sha256=fcBXStvsKkwFEw5-s-FAA8TtTIOPWpp5D7GeJyukaHA,264
+matlab_runtime/_version.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+matlab_runtime/cli.py,sha256=sA3LzNuotqnRrEEYu6j9tXj2HFhdO41blJ--7uK_J00,9354
+matlab_runtime/impl.py,sha256=pJSqZL_B10iEuJ78Fyk5gFnBPHGzL-fvEFn6kBHKewk,14737
+matlab_runtime/info.json,sha256=Zkh4ciLI8CS4LVH-MyFU3b4AF7P0LU1Zpo_V3GGBvB0,1935
+matlab_runtime/utils.py,sha256=wbGoToUWKlQevgOQrxP22skfIA4ywFjGcIgEtC2kmDQ,20798
+matlab_runtime-0.0.4.dist-info/licenses/LICENSE,sha256=qsb9A8TvLE0Egke8KISdb4lnLK9MwgxtiNfCpY2-UQU,1072
+matlab_runtime-0.0.4.dist-info/METADATA,sha256=GrUmYyzyxbY6ukXZ5LKX14GZCRFCAQL76fYH9slCpLY,8963
+matlab_runtime-0.0.4.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+matlab_runtime-0.0.4.dist-info/entry_points.txt,sha256=FferVfAKHjrJMdaIeVrVtp_3y6fcow2vH9WLlEh9y5s,108
+matlab_runtime-0.0.4.dist-info/top_level.txt,sha256=JHZItUQAH8C_-KRaWAL2n8jNyLtRNKEnT64zFZ5nGeI,15
+matlab_runtime-0.0.4.dist-info/RECORD,,
