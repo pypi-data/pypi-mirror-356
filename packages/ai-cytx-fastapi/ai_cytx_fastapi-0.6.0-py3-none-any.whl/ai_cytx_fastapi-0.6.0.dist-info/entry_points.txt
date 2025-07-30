@@ -1,0 +1,3 @@
+[console_scripts]
+run-mcp-server = mcp.cytx_mcp_server:main
+run-report-mcp-server = mcp.cytx_report_mcp_server:main
