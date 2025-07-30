@@ -1,0 +1,13 @@
+nexus_client_sdk/.extensions/cext_version,sha256=2_CXjsK1h6XWGH_cxBzOn_LA647vrboOtR84QKtu60Y,5
+nexus_client_sdk/.extensions/nexus_sdk.so,sha256=ClzxpdXwqtu8xbm5kDsGuKnyijluG9r-lUjvWpNzFDA,39125440
+nexus_client_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus_client_sdk/_version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+nexus_client_sdk/cwrapper.py,sha256=OzmRRxi_Vk-INaTrlAuT-vxtiFdQfNn070eag4nciKo,233
+nexus_client_sdk/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus_client_sdk/models/access_token.py,sha256=UNX0h9VvmGuEUqPCpq7fq39eq2GQqX-QpLSdEAfGUMY,643
+nexus_client_sdk/models/scheduler.py,sha256=DmyndHg_k1kVcoI_7vW-BtrM7efxjpaNqGUDJNKQzQU,1390
+nexus_client_sdk/nexus_scheduler_client.py,sha256=RdKDlLLFUASVui5iu8-eYntMJnB9dUdW87-TeqBJs-w,2344
+nexus_client_sdk-0.1.1.dist-info/LICENSE,sha256=0gS6zXsPp8qZhzi1xaGCIYPzb_0e8on7HCeFJe8fOpw,10693
+nexus_client_sdk-0.1.1.dist-info/METADATA,sha256=dJmaA8Xhe1Xd7Tm-bjg32-MJPnw0st7UIdd6vp-DO54,1359
+nexus_client_sdk-0.1.1.dist-info/WHEEL,sha256=WVQulPG2inrWK96k9SBzAuLDaVikIDVSWnM5Rtv99wA,106
+nexus_client_sdk-0.1.1.dist-info/RECORD,,
