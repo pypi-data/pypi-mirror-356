@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytest_ty/__init__.py
+src/pytest_ty/plugin.py
+src/pytest_ty.egg-info/PKG-INFO
+src/pytest_ty.egg-info/SOURCES.txt
+src/pytest_ty.egg-info/dependency_links.txt
+src/pytest_ty.egg-info/entry_points.txt
+src/pytest_ty.egg-info/requires.txt
+src/pytest_ty.egg-info/top_level.txt
+tests/test_pytest_ty.py

@@ -1,0 +1,85 @@
+Metadata-Version: 2.4
+Name: pytest-ty
+Version: 0.1.0
+Summary: A pytest plugin to run the ty type checker
+Author-email: Raphael Boidol <boidolr@users.noreply.github.com>
+Maintainer-email: Raphael Boidol <boidolr@users.noreply.github.com>
+License-Expression: MIT
+Project-URL: Repository, https://github.com/boidolr/pytest-ty
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=7.0.0
+Requires-Dist: ty
+Dynamic: license-file
+
+pytest-ty [![Build Status](https://github.com/boidolr/pytest-ty/actions/workflows/main.yaml/badge.svg)](https://github.com/boidolr/pytest-ty/actions/workflows/main.yaml "See Build Status on GitHub Actions")
+=========
+
+A [`pytest`](https://github.com/pytest-dev/pytest) plugin to run the [`ty`](https://github.com/astral-sh/ty) type checker
+
+----
+
+This `pytest` plugin was generated with `Cookiecutter` along with `@hackebrot`'s `cookiecutter-pytest-plugin` template.
+
+
+Features
+--------
+
+* Run `ty` checks on source code when executing `pytest`.
+
+
+Configuration
+------------
+
+Configure `ty` in `pyproject.toml` or `ty.toml`,
+see the [`ty` README](https://github.com/astral-sh/ty/blob/main/docs/README.md).
+
+
+Installation
+------------
+
+You can install "pytest-ty" via `uv` from `GitHub`:
+
+`uv add "pytest-ty @ git+https://github.com/boidolr/pytest-ty"`
+
+Usage
+-----
+
+* Activate the plugin when running `pytest`: `pytest --ty`
+* Activate via `pytest` configuration: `addopts = ["--ty"]`
+
+Contributing
+------------
+Contributions are very welcome. Tests can be run with `tox`, please ensure
+the coverage at least stays the same before you submit a pull request.
+
+License
+-------
+
+Distributed under the terms of the `MIT` license, "pytest-ty" is free and open source software
+
+
+Issues
+------
+
+If you encounter any problems, please `file an issue` along with a detailed description.
+
+* `Cookiecutter`: https://github.com/audreyr/cookiecutter
+* `@hackebrot`: https://github.com/hackebrot
+* `MIT`: https://opensource.org/licenses/MIT
+* `cookiecutter-pytest-plugin`: https://github.com/pytest-dev/cookiecutter-pytest-plugin
+* `file an issue`: https://github.com/boidolr/pytest-ty/issues
+* `pytest`: https://github.com/pytest-dev/pytest
+* `tox`: https://tox.readthedocs.io/en/latest/
+* `pip`: https://pypi.org/project/pip/
+* `PyPI`: https://pypi.org/project
