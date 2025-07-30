@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+fastmath/__init__.py
+fastmath/cfastmath.c
+fastmath/cfastmath.h
+fastmath/fastmath.c
+fastmath/fastmath.pxd
+fastmath/fastmath.pyx
+fastmathx.egg-info/PKG-INFO
+fastmathx.egg-info/SOURCES.txt
+fastmathx.egg-info/dependency_links.txt
+fastmathx.egg-info/top_level.txt

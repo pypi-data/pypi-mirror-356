@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: fastmathx
+Version: 0.1.0
+Summary: High performance math functions with C and Cython
+Author: Aaron Dsouza
+Author-email: aarondsouza109@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
