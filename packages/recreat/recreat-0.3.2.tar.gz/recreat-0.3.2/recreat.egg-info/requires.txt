@@ -1,0 +1,15 @@
+opencv-python
+colorama
+rich
+rasterio
+distancerasters
+xarray-spatial
+scipy
+numpy
+scikit-image
+scikit-learn
+pandas
+typing
+uuid
+argparse
+click
