@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: mosamaticdesktop
+Version: 1.0.1
+Summary: A PySide6 desktop app for body composition analysis from DICOM CT scans
+License: MIT
+Author: Ralph Brecheisen
+Author-email: ralph.brecheisen@gmail.com
+Requires-Python: >=3.11,<3.14
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: mosamatic-cli (>=1.5)
+Requires-Dist: pyside6 (>=6.9,<7.0)
+Description-Content-Type: text/markdown
+
+# MosamaticDesktop
+PySide6 desktop app for running processing tasks on CT images
