@@ -1,0 +1,57 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "Notebook metadata handler",
+  "description": "Handle metadata of inserted cells",
+  "type": "object",
+  "properties": {
+    "handlers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/action"
+      },
+      "default": []
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "insertMethod": {
+      "type": "string",
+      "enum": ["all", "copyPaste", "cutPaste", "new"]
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "The action to perform on metadata",
+          "enum": ["add", "delete"],
+          "default": "add"
+        },
+        "method": {
+          "description": "The method used to insert the cell",
+          "$ref": "#/definitions/insertMethod",
+          "default": "all"
+        },
+        "path": {
+          "type": "string",
+          "title": "Metadata path",
+          "description": "The path to the metadata (should not start with '/')"
+        }
+      },
+      "if": {
+        "properties": {
+          "action": { "const": "add" }
+        }
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "description": "The value to add",
+            "type": "string"
+          }
+        }
+      },
+      "required": ["action", "method"]
+    }
+  }
+}
