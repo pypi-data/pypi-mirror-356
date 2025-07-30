@@ -1,0 +1,81 @@
+[project]
+name = "mcp.science"
+version = "0.1.2"
+description = "Open Source MCP Servers for Scientific Research"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["mcp[cli]>=1.6.0"]
+
+[project.optional-dependencies]
+# Individual server optional dependencies
+example-server = ["mcp[cli]>=1.6.0"]
+gpaw-computation = [
+    "mcp[cli]>=1.6.0",
+    "gpaw>=24.1.0",
+    "ase>=3.24.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.24.0",
+    "plotly>=5.0.0",
+    "loguru>=0.7.0",
+]
+jupyter-act = ["mcp[cli]>=1.6.0", "jupyter>=1.0.0", "ipykernel>=6.0.0"]
+materials-project = [
+    "mcp[cli]>=1.6.0",
+    "pymatgen>=2024.0.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.24.0",
+    "loguru>=0.7.0",
+    "emmet-core>=0.70.0",
+]
+mathematica-check = ["mcp[cli]>=1.6.0", "wolframclient>=1.1.0"]
+nemad = [
+    "mcp[cli]>=1.6.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "requests>=2.31.0",
+]
+python-code-execution = ["mcp[cli]>=1.6.0", "ast>=0.0.2"]
+ssh-exec = [
+    "mcp[cli]>=1.6.0",
+    "paramiko>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.100.0",
+]
+tinydb = ["mcp[cli]>=1.6.0", "tinydb>=4.8.0"]
+txyz-search = [
+    "mcp[cli]>=1.6.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.10.6",
+    "click>=8.0.0",
+]
+web-fetch = [
+    "mcp[cli]>=1.6.0",
+    "httpx>=0.28.1",
+    "click>=8.0.0",
+    "pydantic>=2.10.6",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+mcp-science = "servers.__init__:main"
+example-server = "servers.example_server.main:main"
+gpaw-computation = "servers.gpaw_computation:main"
+jupyter-act = "servers.jupyter_act:main"
+materials-project = "servers.materials_project:main"
+mathematica-check = "servers.mathematica_check:main"
+nemad = "servers.nemad:main"
+python-code-execution = "servers.python_code_execution:main"
+ssh-exec = "servers.ssh_exec:main"
+tinydb = "servers.tinydb_server:main"
+txyz-search = "servers.txyz_search:main"
+web-fetch = "servers.web_fetch:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/servers"]
+
+[dependency-groups]
+dev = ["twine>=6.1.0"]
