@@ -1,0 +1,7 @@
+build/
+dist/
+bib/
+tests/
+examples/*.ods
+*.egg-info/
+NOTES.md
