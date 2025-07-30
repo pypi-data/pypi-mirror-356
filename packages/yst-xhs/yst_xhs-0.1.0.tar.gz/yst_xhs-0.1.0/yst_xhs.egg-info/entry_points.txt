@@ -1,0 +1,2 @@
+[console_scripts]
+yst_xhs = yst_xhs.main:main
