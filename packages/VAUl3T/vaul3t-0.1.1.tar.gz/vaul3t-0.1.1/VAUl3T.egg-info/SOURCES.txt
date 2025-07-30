@@ -1,0 +1,10 @@
+README.md
+setup.py
+VAUl3T.egg-info/PKG-INFO
+VAUl3T.egg-info/SOURCES.txt
+VAUl3T.egg-info/dependency_links.txt
+VAUl3T.egg-info/requires.txt
+VAUl3T.egg-info/top_level.txt
+vaul3t/__init__.py
+vaul3t/core.py
+vaul3t/selfhost.py
