@@ -1,0 +1,4 @@
+[console_scripts]
+vigileguard = vigileguard:main
+vigileguard-cli = vigileguard.vigileguard:main
+vigileguard-phase2 = vigileguard.phase2_integration:main_phase2
