@@ -1,0 +1,10 @@
+image_metadata_recorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_metadata_recorder/analyzer.py,sha256=fhsxiyb5LRx975fIbr_RNFYRMwlpUWsMroDBHWcZ2KM,2745
+image_metadata_recorder/cli.py,sha256=qSzfhldI9gILsSX_8kyYNkNoKLXq0f2NQvqcYhG7wjs,5749
+image_metadata_recorder/extractor.py,sha256=ZUHirhaNM9KpAtqHNICy5yIbGpcluqK6xlJTrGomDcs,7014
+image_metadata_recorder/reporter.py,sha256=d5CSxFQcls3NQvLeiT-aUu8cj8QSHftQZO3y9TG26ow,3851
+image_metadata_recorder-1.2.0.dist-info/METADATA,sha256=EzghEWy5svGeR-IQ5lG3J-uuobzq3uuDOpcASg6ARdw,4721
+image_metadata_recorder-1.2.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+image_metadata_recorder-1.2.0.dist-info/entry_points.txt,sha256=O_lZeRnRnG5iUl72HbsQlasKMryMtl6-FdU4U7-muXw,75
+image_metadata_recorder-1.2.0.dist-info/top_level.txt,sha256=sRU9nqARD2mpvkgdvhsA6Jje2A0PbZXTVH_31WAVXFI,24
+image_metadata_recorder-1.2.0.dist-info/RECORD,,
