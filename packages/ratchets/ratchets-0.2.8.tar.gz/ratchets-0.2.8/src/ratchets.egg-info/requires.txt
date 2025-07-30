@@ -1,0 +1,5 @@
+pathspec~=0.12.1
+toml~=0.10.2
+
+[test]
+pytest>=7.0
