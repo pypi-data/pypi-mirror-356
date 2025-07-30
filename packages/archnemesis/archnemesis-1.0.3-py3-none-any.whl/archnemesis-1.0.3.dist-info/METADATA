@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: archnemesis
+Version: 1.0.3
+Summary: Python implementation of the NEMESIS radiative transfer and retrieval code
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: numba>=0.57.0
+Requires-Dist: scipy
+Requires-Dist: pymultinest
+Requires-Dist: cdsapi
+Requires-Dist: pygrib
+Requires-Dist: joblib
+Requires-Dist: h5py
+Requires-Dist: basemap
+Requires-Dist: pytest
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
