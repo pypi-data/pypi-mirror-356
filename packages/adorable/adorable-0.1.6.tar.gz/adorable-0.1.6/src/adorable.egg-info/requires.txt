@@ -1,0 +1,14 @@
+
+[dev]
+mypy
+pytest
+tox
+
+[docs]
+furo>=2022.12.07
+Sphinx>=6.0.0
+sphinx_copybutton
+sphinx_inline_tabs
+sphinxcontrib-repl
+sphinxcontrib-spelling
+sphinxemoji
