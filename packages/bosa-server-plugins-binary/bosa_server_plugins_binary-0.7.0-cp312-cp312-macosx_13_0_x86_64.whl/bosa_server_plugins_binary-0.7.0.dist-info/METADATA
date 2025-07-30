@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: bosa-server-plugins-binary
+Version: 0.7.0
+Summary: 
+Author: Bosa Engineers
+Author-email: bosa-eng@gdplabs.id
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: flag-embedding
+Provides-Extra: langchain-huggingface
+Provides-Extra: semantic-router
+Requires-Dist: bosa-core-binary[all]
+Requires-Dist: celery (>=5.5.2,<6.0.0)
+Requires-Dist: google-api-python-client (>=2.163.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.2.0,<0.3.0)
+Requires-Dist: google-auth-oauthlib (>=1.2.1,<2.0.0)
+Requires-Dist: gql[all] (>=3.5.0,<4.0.0)
+Requires-Dist: mcp (>=1.6.0,<2.0.0)
+Requires-Dist: mistune (>=3.1.3,<4.0.0)
+Requires-Dist: pygithub (>=2.6.1,<3.0.0)
+Requires-Dist: pypandoc-binary (>=1.15,<2.0)
+Requires-Dist: python-docx (>=1.1.2,<2.0.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: redis (>=5.2.1,<6.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: tweepy[async] (>=4.15.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# BOSA GitHub Server Plugins
+
+A collection of Plugin Routes for interacting with GitHub's API to manage repositories, metrics, issues, and projects. Implements BOSA Core as the Plugin Base.
+
+## Features
+
+- GitHub API integration for various entities
+- Plugin architecture for modularity and extensibility
+
+## Installation
+
+### Prerequisites
+- Python 3.11+ - [Install here](https://www.python.org/downloads/)
+- Pip (if using Pip) - [Install here](https://pip.pypa.io/en/stable/installation/)
+- Poetry 1.8.1+ (if using Poetry) - [Install here](https://python-poetry.org/docs/#installation)
+- Git (if using Git) - [Install here](https://git-scm.com/downloads)
+- For git installation:
+  - Access to the [GDP Labs SDK github repository](https://github.com/GDP-ADMIN/bosa-sdk)
+
+### 1. Installation from Pypi
+Choose one of the following methods to install the package:
+
+#### Using pip
+```bash
+pip install bosa-server-plugins-binary
+```
+
+#### Using Poetry
+```bash
+poetry add bosa-server-plugins-binary
+```
+
+### 2. Development Installation (Git)
+For development purposes, you can install directly from the Git repository:
+```bash
+poetry add "git+ssh://git@github.com/GDP-ADMIN/bosa-sdk.git#subdirectory=python/bosa-server-plugins"
+```
+
+## Plugins
+
+### Github
+
+Herein you'll find the actions provided by the `github` plugin.
+
+#### Metrics
+
+- `get_all_contributor_commit_activity`
+- `get_the_last_year_of_commit_activity`
+- `get_weekly_commit_count`
+
+#### Repositories
+
+- `list_commits`
+- `list_collaborators`
+- `list_releases`
+- `list_contributors`
+- `list_languages`
+
+#### Pull Requests
+
+- `list_pull_requests`
+
+#### Issues
+
+- `create_issue`
+- `list_issues`
+- `list_issues_comments`
+
+#### Projects
+
+- `list_project_items`
+
+## Important Implementation Notes
+
+**POST Requests Only**
+All endpoints are configured as POST requests to:
+
+- Enable structured request bodies
+- Maintain consistency across the API surface
+- Allow complex query parameters via request models
+
+Authentication is handled through the `X-Api-Key` header in requests, which is provided by the main BOSA Router implementation.
+
+Example request:
+
+```bash
+curl -X POST http://localhost:8000/get_weekly_commit_count \
+  -H "Content-Type: application/json" \
+  -H "X-Api-Key: your-api-key" \
+  -d '{"owner": "your-org", "repo": "your-repo"}'
+```
+
+## References
+
+Product Requirements Documents(PRD):
+
+- [BOSA Connector - Product Document](https://docs.google.com/document/d/1R6JIGWnKzNg2kRMRSiZ-wwPGe9pOR9rkkEI0Uz-Wtdw/edit?tab=t.y617gs6jfk15#heading=h.uss0d453lcbs)
+
+Architecture Documents:
+
+- [BOSA Connector - Architecture Document](https://docs.google.com/document/d/1HHUBAkbFAM8sM_Dtx6tmoatR1HeuM6VBfsWEjpgVCtg/edit?tab=t.0#heading=h.bj79ljx9eqg8)
+
+Design Documents:
+
+- [BOSA Connector - Design Document](https://docs.google.com/document/d/1PghW7uOJcEbT3WNSlZ0FI99o4y24ys0LCyAG8hg3T9o/edit?tab=t.0#heading=h.bj79ljx9eqg8)
+
+Implementation Documents:
+
+- [BOSA Connector - Implementation Document](https://docs.google.com/document/d/1a8BvggPu5a6PBStgUu2ILse075FjAAgoehUuvxxAajM/edit?tab=t.0#heading=h.bj79ljx9eqg8)
+
