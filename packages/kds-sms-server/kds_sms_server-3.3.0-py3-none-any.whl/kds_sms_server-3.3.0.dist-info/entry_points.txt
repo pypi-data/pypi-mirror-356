@@ -1,0 +1,5 @@
+[console_scripts]
+kds-sms-server = kds_sms_server.cli:cli_app
+
+[gui_scripts]
+
