@@ -1,0 +1,119 @@
+[project]
+name = "bc-configs"
+version = "0.2.2"
+description = "Configuration module, that provides a way to manage configs structure, validation and casting to type inside your code. Based on pedantic models. Additionally it can automatically getting config from environment variables, .env, HashiCorp Vault, etc."
+authors = [
+    { name = "Artem Shirokikh", email = "job@artemetr.ru" },
+    { name = "Esoft", email = "it@esoft.tech" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["config", "environment", "dotenv", "pydantic"]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Programming Language :: Python :: Implementation :: PyPy',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.13',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Information Technology',
+    'Intended Audience :: System Administrators',
+    'Operating System :: Unix',
+    'Operating System :: POSIX :: Linux',
+    'Environment :: Console',
+    'Environment :: MacOS X',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Internet',
+]
+requires-python = ">=3.13"
+dependencies = ["pydantic"]
+
+[project.urls]
+Homepage = "https://github.com/etagi-esoft/py-bc-configs"
+Repository = "https://github.com/etagi-esoft/py-bc-configs"
+
+[dependency-groups]
+dev = [
+    "mypy",
+    "pre-commit",
+    "coverage",
+    "genbadge[all]==1.1.0",
+    "sphinx==6.2.1",
+    "sphinx-book-theme==1.0.1",
+    "sphinx-rtd-theme==1.3.0",
+    "autodoc-pydantic==2.0.1",
+    "ruff",
+    "pyyaml>=6.0.2",
+    "python-dotenv>=1.1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+ignore = ["ANN401"]
+select = [
+    # "D",  # pydocstyle  # can't use with reSt docstrings
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "C",   # flake8-comprehensions
+    "B",   # flake8-bugbear
+    "Q",   # flake8-quotes
+    "SIM", # flake8-simplify
+    "SLF", # flake8-self
+    "RET", # flake8-return
+    "FLY", # https://docs.astral.sh/ruff/rules/#flynt-fly
+    "RUF", # https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
+    "FBT", # https://docs.astral.sh/ruff/rules/#flake8-boolean-trap-fbt
+    "DTZ", # https://docs.astral.sh/ruff/rules/#flake8-datetimez-dtz
+    "COM", # https://docs.astral.sh/ruff/rules/#flake8-commas-com
+    "ANN", # https://docs.astral.sh/ruff/rules/#flake8-commas-com
+]
+
+[tool.ruff.lint.flake8-annotations]
+mypy-init-return = true
+
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.mypy]
+python_version = "3.13"
+warn_return_any = true
+plugins = ["pydantic.mypy"]
+disallow_untyped_defs = true
+strict_equality = true
+
+exclude = ["^docs/*"]

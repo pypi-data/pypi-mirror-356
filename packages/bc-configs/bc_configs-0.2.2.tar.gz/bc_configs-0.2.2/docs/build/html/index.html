@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to bc-configs’s documentation! &mdash; bc-configs • Make configurations easy 0.2.2 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/autodoc_pydantic.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Module documentation" href="bc_configs.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            bc-configs • Make configurations easy
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bc_configs.html">Module documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="for_contributing.html">For contributing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">bc-configs • Make configurations easy</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to bc-configs’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-bc-configs-s-documentation">
+<h1>Welcome to bc-configs’s documentation!<a class="headerlink" href="#welcome-to-bc-configs-s-documentation" title="Permalink to this heading"></a></h1>
+<p><em>Let’s make your configuration easy.</em></p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading"></a></h2>
+<p><cite>bc-configs</cite> is a library that makes configuring your applications easier.</p>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<p>To install, use pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>bc-configs
+</pre></div>
+</div>
+</section>
+<section id="make-your-custom-config-class">
+<h2>Make your custom config class<a class="headerlink" href="#make-your-custom-config-class" title="Permalink to this heading"></a></h2>
+<p>You can create your custom config class by inheriting from <cite>BaseConfig</cite>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bc_configs</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseConfig</span><span class="p">,</span> <span class="n">define</span>
+
+<span class="n">define</span><span class="p">()</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">MyConfig</span><span class="p">(</span><span class="n">BaseConfig</span><span class="p">):</span>
+    <span class="n">some_int</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">some_string</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">some_bool</span><span class="p">:</span> <span class="nb">bool</span>
+
+<span class="n">my_config</span> <span class="o">=</span> <span class="n">MyConfig</span><span class="p">()</span>  <span class="c1"># type: ignore[call-arg]</span>
+
+<span class="k">assert</span> <span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MY_SOME_INT&quot;</span><span class="p">))</span> <span class="o">==</span> <span class="n">my_config</span><span class="o">.</span><span class="n">some_int</span>  <span class="c1"># True</span>
+<span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MY_SOME_STRING&quot;</span><span class="p">)</span> <span class="o">==</span> <span class="n">my_config</span><span class="o">.</span><span class="n">some_string</span>  <span class="c1"># True</span>
+<span class="k">assert</span> <span class="nb">bool</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;MY_SOME_BOOL&quot;</span><span class="p">))</span> <span class="o">==</span> <span class="n">my_config</span><span class="o">.</span><span class="n">some_bool</span>  <span class="c1"># True</span>
+</pre></div>
+</div>
+<p>The name of the environment variable is formed based on the names of the class and field.</p>
+</section>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Load environment variables from <cite>.env</cite> files (using <cite>python-dotenv</cite>).</p></li>
+<li><p>Load environment variables from YAML files (e.g., <cite>.env.yml</cite> or custom path via <cite>YAML_CONFIG_FILE</cite> environment variable).</p></li>
+<li><p>Load secrets from HashiCorp Vault (using <cite>hvac</cite>).</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bc_configs.html">Module documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.configurator.html">Configurator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.environ_source.html">Environ Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.html#bc_configs.BaseConfig"><code class="docutils literal notranslate"><span class="pre">BaseConfig</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.html#bc_configs.EnvironSourceException"><code class="docutils literal notranslate"><span class="pre">EnvironSourceException</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.html#bc_configs.VaultConfig"><code class="docutils literal notranslate"><span class="pre">VaultConfig</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bc_configs.html#bc_configs.define"><code class="docutils literal notranslate"><span class="pre">define()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="for_contributing.html">For contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="for_contributing.html#installing-environment">Installing environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="for_contributing.html#if-you-want-contributing">If you want contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="for_contributing.html#if-you-need-to-build-and-publish-the-package">If you need to build and publish the package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="for_contributing.html#how-to-generate-badges">How to generate badges?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="for_contributing.html#how-to-build-sphinx-docs">How to build sphinx docs?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="bc_configs.html" class="btn btn-neutral float-right" title="Module documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Artem Shirokikh (job@artemetr.ru), Esoft (it@esoft.tech).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
