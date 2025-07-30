@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: code-motivate
+Version: 0.1
+Summary: A CLI tool that prints motivational quotes for coders
+Home-page: UNKNOWN
+Author: Your Name
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# code-motivate
+
+A fun CLI tool that prints motivational quotes for coders.
+
+## Installation
+
+Clone this repo and run:
+
+```bash
+pip install .
+
+
