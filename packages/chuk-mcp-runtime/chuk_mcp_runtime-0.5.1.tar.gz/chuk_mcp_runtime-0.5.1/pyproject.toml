@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chuk-mcp-runtime"
+version = "0.5.1"
+description = "Generic CHUK MCP Runtime for MCP servers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Chris Hay", email = "your.email@example.com"}]
+
+dependencies = [
+  "pydantic>=2.10.6",
+  "pyyaml>=6.0.2",
+  "pyjwt>=2.10.1",
+  "cryptography>=44.0.3",
+  "chuk-artifacts>=0.4",
+  "uvicorn>=0.34.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.5",
+  "pytest-asyncio>=0.26.0",
+  "ruff>=0.4.6",
+]
+
+[project.scripts]
+chuk-mcp-runtime = "chuk_mcp_runtime.main:main"
+chuk-mcp-server = "chuk_mcp_runtime.main:main"
+chuk-mcp-proxy  = "chuk_mcp_runtime.proxy_cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["chuk_mcp_runtime*"]
+
+[tool.setuptools.package-data]
+chuk_mcp_runtime = [
+  "config.yaml",          # default runtime config
+  "py.typed",             # typing marker
+]
+
+[dependency-groups]
+dev = [
+    "mcp>=1.6.0",
+    "pytest-asyncio>=0.26.0",
+]
+
+[tool.pytest.ini_options]
+# Pytest configuration for chuk-artifacts
+asyncio_default_fixture_loop_scope = "function"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--verbose",
+    "--tb=short", 
+    "--strict-markers",
+    "--strict-config",
+    "--durations=10",
+    "-ra"
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests", 
+    "security: marks tests as security-focused tests",
+    "performance: marks tests as performance tests"
+]
+filterwarnings = [
+    "ignore::DeprecationWarning:chuk_sessions.*",
+    "ignore::pytest.PytestDeprecationWarning",
+    "ignore::pytest.PytestUnknownMarkWarning"
+]
+
+[tool.setuptools]
+license-files = [] 
