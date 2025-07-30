@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "robust-http"
+version = "0.1.2"
+description = "High-level HTTP client with caching, UA rotation, retries, and optional Tor support."
+authors = ["therealbct <therealbct@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+repository = "https://github.com/therealbct/robust_http"
+homepage = "https://github.com/therealbct/robust_http"
+documentation = "https://github.com/therealbct/robust_http#readme"
+keywords = ["http", "requests", "caching", "tor", "scraping", "retry"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = ">=2.25,<3.0"
+requests_cache = ">=0.9,<3.0"
+fake_useragent = ">=0.1,<4.0"
+stem =  {version=">=1.8,<3.0", optional=true}
+
+[tool.poetry.extras]
+tor = ["stem"]  # allows `poetry install --extras tor`
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+twine = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
