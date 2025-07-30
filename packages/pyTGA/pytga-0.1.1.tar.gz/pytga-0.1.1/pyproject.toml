@@ -1,0 +1,68 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyTGA"
+version = "0.1.1"
+description = "A simple python library for parsing and processing Thermogravimetric analysis (TGA) data."
+authors = [
+    { name = "Sebastian Rejman", email = "s.rejman@uu.nl" }
+]
+
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "scipy",
+    "chardet",
+    "ipykernel",
+    "xlrd>=2.0.2",
+]
+
+[tool.setuptools]
+packages = ["pyTGA"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov"
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "flake8"
+]
+
+[project.urls]
+Homepage = "https://github.com/MyonicS/pyTGA"
+Documentation = "https://pytga.readthedocs.io"
+
+[tool.black]
+line-length = 100
+typeCheckingMode = "off"
+
+[tool.pylance]
+
+[dependency-groups]
+docs = [
+    "furo>=2022.9.29",
+    "myst-parser>=0.18.1",
+    "nbsphinx>=0.9.3",
+    "sphinx>=4.3.2",
+    "sphinxcontrib-bibtex>=2.6.3",
+]

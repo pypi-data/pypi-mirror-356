@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pyTGA/__init__.py
+pyTGA/pyTGA.py
+pyTGA.egg-info/PKG-INFO
+pyTGA.egg-info/SOURCES.txt
+pyTGA.egg-info/dependency_links.txt
+pyTGA.egg-info/requires.txt
+pyTGA.egg-info/top_level.txt
+tests/test_pyTGA.py
