@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "waproprint"
+version = "0.1.1"
+description = "A tool for generating and printing documents from database queries"
+authors = ["Tom"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    { include = "waproprint" },
+    { include = "zpl", from = "." },
+    { include = "lib" },
+    { include = "html2pdf3.py" },
+    { include = "thermal_printer.py" }
+]
+include = [
+    "*.py",
+    "*.md",
+    "*.txt",
+    "*.sh"
+]
+package-mode = true
+
+[tool.poetry.scripts]
+waproprint = "sql2html:main"
+zpl2pdf = "zpl.zpl_to_pdf:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymssql = "^2.2.7"
+pyodbc = ">=4.0.0"
+jinja2 = ">=3.0.0"
+python-dotenv = ">=0.19.0"
+pdfkit = ">=1.0.0"
+wand = ">=0.6.7"
+reportlab = ">=3.6.8"
+pypdf2 = ">=2.0.0"
+html2image = ">=2.0.3.3"
+playwright = "^1.42.0"
+html2text = "^2020.1.16"
+tabulate = "^0.9.0"
+cssutils = "^2.9.0"
+tinycss = "^0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
