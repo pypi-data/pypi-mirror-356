@@ -1,0 +1,8 @@
+{
+  "hash": "498682f3d9bd4633d02077e56cf38f841bccf6251ddc74facfda3d6bcca9f93d",
+  "warnings": [
+    [
+      "0.3 is a legacy version. Please consider using 0.3.7 instead, unless you are targeting SCONE 5.7.0 or older"
+    ]
+  ]
+}
