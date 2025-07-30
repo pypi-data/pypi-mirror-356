@@ -1,0 +1,3 @@
+[console_scripts]
+runy=runy.__main__:main
+
