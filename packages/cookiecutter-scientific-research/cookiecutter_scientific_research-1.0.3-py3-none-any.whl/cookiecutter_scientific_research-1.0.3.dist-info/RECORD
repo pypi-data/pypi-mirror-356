@@ -1,0 +1,11 @@
+ccsr/__init__.py,sha256=5EfusCAG7Ge6YeaR7NQQJhvvYCwrCeP_4GG0Auphpko,101
+ccsr/__main__.py,sha256=RRf5Y0cpaBxZFy5ETTzYvyfUG2oMEJshr_B6dqbZ7DA,1460
+ccsr/monkey_patch.py,sha256=4jsW47BT4rJB-j5gteinCyhAmzUsOUSf8GaeUFDdUB8,4682
+ccsr/hook_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccsr/hook_utils/custom_config.py,sha256=VvMUhw3JxjuXZuq9HYzBbWr8n5cqXWku0hxo6LYvdaI,1432
+ccsr/hook_utils/dependencies.py,sha256=b3bB4Q1SAOKSSFPBeFAGstHQDN-6g4dCM7bWbckwzpE,3538
+cookiecutter_scientific_research-1.0.3.dist-info/entry_points.txt,sha256=D4uxnW1xN8c0hsFtDu7myxmXyS-dGu-iIdtiThBr-mc,43
+cookiecutter_scientific_research-1.0.3.dist-info/licenses/LICENSE,sha256=pOEzXJTYmA0sFgnyUQ7sWiKf4QQJgqBie9NaAYvL_Zo,1088
+cookiecutter_scientific_research-1.0.3.dist-info/WHEEL,sha256=G2gURzTEtmeR8nrdXUJfNiB3VYVxigPQ-bEQujpNiNs,82
+cookiecutter_scientific_research-1.0.3.dist-info/METADATA,sha256=_4YHs7gXE-emlo5E6wI7pu-dk_kn_zYRspqzs1-f8Dc,7938
+cookiecutter_scientific_research-1.0.3.dist-info/RECORD,,
