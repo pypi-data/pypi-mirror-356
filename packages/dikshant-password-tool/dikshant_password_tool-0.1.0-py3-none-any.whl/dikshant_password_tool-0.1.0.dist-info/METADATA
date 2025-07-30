@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: dikshant-password-tool
+Version: 0.1.0
+Summary: A secure and customizable password generator
+Author-email: Dikshant Ghimire <dikkughimire@gmail.com>
+Project-URL: Homepage, https://github.com/dikshantgh/dikshant-password-tool
+Project-URL: Bug Tracker, https://github.com/dikshantgh/dikshant-password-tool/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: test
+Requires-Dist: pytest>=6.0.0; extra == "test"
+Dynamic: license-file
+
+# dikshant-password-tool
+
+A secure and customizable password generator for Python.
+
+## Installation
+
+```bash
+pip install dikshant-password-tool
