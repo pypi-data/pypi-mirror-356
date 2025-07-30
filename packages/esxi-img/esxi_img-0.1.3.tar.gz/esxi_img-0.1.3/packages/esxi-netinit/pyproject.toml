@@ -1,0 +1,59 @@
+[project]
+name = "esxi-netinit"
+description = "Script to initialize networking on ESXi hosts with usage of Openstack network_data.json"
+authors = [
+  {name="Doug Goldstein", email="Doug.Goldstein@rackspace.com"},
+  {name="Marek Skrobacki", email="marek.skrobacki@rackspace.co.uk"}
+]
+license = {text="Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.8"
+dynamic = ["version"]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest-mock>=3.14.0",
+    "pytest-subprocess>=1.5.3",
+    "pytest>=8.3.5",
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.version.raw-options]
+root = "../../"
+local_scheme = "no-local-version"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests",
+]
+filterwarnings = []
+
+[tool.ruff]
+# use our default and override anything we need specifically
+extend = "../../pyproject.toml"
+target-version = "py38"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+    "S101",     # allow 'assert' for pytest
+    "S105",     # allow hardcoded passwords for testing
+    "S104",     # false positive on binding to all ifaces
+]
+"tests/test_esxconfig.py" = [
+]
+"tests/test_esxhost.py" = [
+  "E501" # esxcli outputs with long lines
+]
+"tests/test_niclist.py" = [
+  "E501" # esxcli outputs with long lines
+]
+
+[project.scripts]
+netinit = "netinit.main:main"
