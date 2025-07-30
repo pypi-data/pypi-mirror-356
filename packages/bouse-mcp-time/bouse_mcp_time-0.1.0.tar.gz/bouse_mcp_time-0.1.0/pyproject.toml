@@ -1,0 +1,63 @@
+[project]
+name = "bouse-mcp-time"
+version = "0.1.0"
+description = "An MCP service providing time information and time calculations"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name="bouse", email="" }
+]
+keywords = ["time", "timezone", "mcp", "llm", "ai", "agent"]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "fastmcp>=2.8.1",
+    "pytz",
+]
+
+[project.scripts]
+bouse-mcp-time = "bouse_mcp_time:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+exclude = [
+    "README_DEV.md",
+    "*.dev.md",
+    "tests/",
+    ".gitignore",
+    ".python-version",
+    "uv.lock",
+    "htmlcov/",
+    ".coverage",
+    ".pytest_cache/",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "README_DEV.md",
+    "*.dev.md",
+    "tests/",
+    ".gitignore",
+    ".python-version",
+    "uv.lock",
+    "htmlcov/",
+    ".coverage",
+    ".pytest_cache/",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120

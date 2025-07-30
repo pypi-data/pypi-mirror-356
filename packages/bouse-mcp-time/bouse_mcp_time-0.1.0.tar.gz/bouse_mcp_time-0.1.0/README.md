@@ -1,0 +1,177 @@
+# Bouse MCP Time Service
+
+一个基于MCP（Model Context Protocol）的时间服务，为AI助手和LLM应用提供强大的时间处理功能。
+
+## 🚀 功能特性
+
+- **获取当前时间** - 支持本地时间和指定时区的时间获取
+- **时区转换** - 在不同时区之间转换时间
+- **时间格式化** - 自定义时间格式输出
+- **时间计算** - 添加天数、小时、分钟到指定时间
+- **时间差计算** - 计算两个时间点之间的差值
+- **时区查询** - 查询特定国家的所有时区信息
+
+## 📦 安装
+
+### 使用 pip 安装
+
+```bash
+pip install bouse-mcp-time
+```
+
+### 从源码安装
+
+```bash
+git clone https://github.com/your-username/bouse-mcp-time.git
+cd bouse-mcp-time
+pip install -e .
+```
+
+## 🔧 使用方法
+
+### 作为MCP服务运行
+
+#### 1. STDIO 模式（默认）
+
+```bash
+bouse-mcp-time
+```
+
+#### 2. HTTP SSE 模式
+
+```bash
+bouse-mcp-time --transport sse --host 0.0.0.0 --port 9000
+```
+
+#### 3. HTTP Streamable 模式
+
+```bash
+bouse-mcp-time --transport streamable-http --host 127.0.0.1 --port 9000
+```
+
+### 命令行参数
+
+| 参数 | 说明 | 默认值 |
+|------|------|--------|
+| `--transport` | 传输模式：stdio, sse, streamable-http | stdio |
+| `--host` | 主机地址 | 127.0.0.1 |
+| `--port` | 端口号 | 9000 |
+| `--path` | HTTP路径 | /sse (sse模式) /mcp (streamable-http模式) |
+
+## 🛠️ 可用工具
+
+### 1. 获取本地时间
+```python
+get_local_time() -> str
+```
+返回当前本地时间，格式：`YYYY-MM-DD HH:MM:SS`
+
+### 2. 获取指定时区时间
+```python
+get_current_time(timezone_name: str = "Asia/Shanghai") -> str
+```
+返回指定时区的当前时间，默认时区为亚洲/上海
+
+### 3. 时区转换
+```python
+convert_timezone(time_str: str, from_tz: str, to_tz: str) -> str
+```
+将时间从一个时区转换到另一个时区
+
+**参数：**
+- `time_str`: 时间字符串，格式：`YYYY-MM-DD HH:MM:SS`
+- `from_tz`: 源时区名称
+- `to_tz`: 目标时区名称
+
+### 4. 时间格式化
+```python
+format_time(time_str: str, format_str: str = "%Y-%m-%d %H:%M:%S") -> str
+```
+将时间字符串格式化为指定格式
+
+### 5. 时间加法
+```python
+add_time(time_str: str, days: int = 0, hours: int = 0, minutes: int = 0) -> str
+```
+在指定时间基础上添加天数、小时、分钟
+
+### 6. 时间差计算
+```python
+get_time_difference(time1: str, time2: str) -> str
+```
+计算两个时间点之间的差值
+
+### 7. 查询国家时区
+```python
+list_country_timezones(country_name: str) -> str
+```
+列出指定国家的所有时区信息
+
+## 📝 使用示例
+
+### 在AI助手中的应用
+
+当AI助手需要处理时间相关任务时，可以调用这些工具：
+
+1. **获取当前时间**
+   - 用户："现在几点了？"
+   - 助手调用 `get_current_time("Asia/Shanghai")`
+
+2. **时区转换**
+   - 用户："纽约现在是几点？"
+   - 助手调用 `get_current_time("America/New_York")`
+
+3. **时间计算**
+   - 用户："3天后是几号？"
+   - 助手调用 `add_time("2024-01-15 10:30:00", days=3)`
+
+4. **会议时间安排**
+   - 用户："北京时间下午2点开会，纽约时间是几点？"
+   - 助手调用 `convert_timezone("2024-01-15 14:00:00", "Asia/Shanghai", "America/New_York")`
+
+## 🌍 支持的时区
+
+支持所有标准时区，常用时区示例：
+
+- `Asia/Shanghai` - 中国标准时间
+- `America/New_York` - 美国东部时间
+- `Europe/London` - 英国时间
+- `Asia/Tokyo` - 日本时间
+- `UTC` - 协调世界时
+
+## 🔗 集成到MCP客户端
+
+### 配置示例
+
+在MCP客户端配置文件中添加：
+
+```json
+{
+  "mcpServers": {
+    "time": {
+      "command": "bouse-mcp-time",
+      "args": ["--transport", "stdio"]
+    }
+  }
+}
+```
+
+## 🤝 贡献
+
+欢迎提交Issue和Pull Request！
+
+## 📄 许可证
+
+本项目采用MIT许可证 - 详见 [LICENSE](LICENSE) 文件
+
+## 🆘 支持
+
+如果您遇到问题或有建议，请：
+
+1. 查看 [Issues](https://github.com/your-username/bouse-mcp-time/issues)
+2. 创建新的Issue
+3. 联系维护者
+
+---
+
+**注意：** 本服务需要Python 3.10或更高版本。
