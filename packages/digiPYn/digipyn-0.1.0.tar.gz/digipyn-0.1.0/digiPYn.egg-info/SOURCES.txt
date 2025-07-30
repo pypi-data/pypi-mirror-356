@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+digiPYn/__init__.py
+digiPYn/config.py
+digiPYn/converter.py
+digiPYn.egg-info/PKG-INFO
+digiPYn.egg-info/SOURCES.txt
+digiPYn.egg-info/dependency_links.txt
+digiPYn.egg-info/requires.txt
+digiPYn.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
