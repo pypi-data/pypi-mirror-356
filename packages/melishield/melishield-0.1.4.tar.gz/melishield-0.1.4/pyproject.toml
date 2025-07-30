@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melishield"
+version = "0.1.4"
+description = "Una librería que saluda con estilo cada vez que la importas"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Tu Nombre", email = "tu.email@ejemplo.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["saludo", "hola", "shield", "protection"]
+
+[project.urls]
+Homepage = "https://github.com/tuusuario/melishield"
+Repository = "https://github.com/tuusuario/melishield"
+Issues = "https://github.com/tuusuario/melishield/issues" 

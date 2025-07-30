@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+melishield/__init__.py
+melishield.egg-info/PKG-INFO
+melishield.egg-info/SOURCES.txt
+melishield.egg-info/dependency_links.txt
+melishield.egg-info/top_level.txt

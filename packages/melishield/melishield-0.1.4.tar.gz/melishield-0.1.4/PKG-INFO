@@ -1,0 +1,73 @@
+Metadata-Version: 2.4
+Name: melishield
+Version: 0.1.4
+Summary: Una librería que saluda con estilo cada vez que la importas
+Home-page: https://github.com/tuusuario/melishield
+Author: Tu Nombre
+Author-email: Tu Nombre <tu.email@ejemplo.com>
+License: MIT
+Project-URL: Homepage, https://github.com/tuusuario/melishield
+Project-URL: Repository, https://github.com/tuusuario/melishield
+Project-URL: Issues, https://github.com/tuusuario/melishield/issues
+Keywords: saludo,hola,shield,protection
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# MeliShield 🛡️
+
+Una librería de Python que te saluda con estilo cada vez que la uses.
+
+## Instalación
+
+```bash
+pip install melishield
+```
+
+## Uso
+
+```python
+import melishield
+
+# Al importar ya verás el saludo gigante!
+
+# Funciones disponibles:
+mensaje = melishield.saludar("Desarrollador")
+print(mensaje)
+
+proteccion = melishield.proteger()
+print(proteccion)
+
+version = melishield.version()
+print(version)
+```
+
+## Características
+
+- 🎨 Arte ASCII gigante cada vez que importas el paquete
+- 👋 Saludo personalizado con la función `saludar()`
+- 🛡️ Simulación de protección con `proteger()`
+- 📋 Información de versión con `version()`
+
+## Licencia
+
+MIT License
+
+## Autor
+
+Tu Nombre 
