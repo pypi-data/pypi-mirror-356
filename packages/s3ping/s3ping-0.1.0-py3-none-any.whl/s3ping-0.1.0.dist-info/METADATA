@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: s3ping
+Version: 0.1.0
+Summary: A modular web scraping library with header, proxy, delay config
+Author-email: Zhangwusan <zhangwusan1@email.com>
+Requires-Python: >=3.11
+Requires-Dist: bs4==0.0.2
+Requires-Dist: cloudscraper==1.2.71
+Requires-Dist: fake-useragent==2.2.0
+Requires-Dist: lxml==5.4.0
+Requires-Dist: selenium==4.33.0
+Requires-Dist: undetected-chromedriver==3.5.5
+Requires-Dist: requests>=2.0
