@@ -1,0 +1,30 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy requirements lock file and install dependencies
+COPY requirements.lock ./
+RUN pip install --no-cache-dir -r requirements.lock
+
+# Copy source code
+COPY . .
+
+# Install the application with TensorFlow extras using pip
+RUN pip install --no-cache-dir .[tensorflow]
+
+# Create a non-root user
+ARG UID=10001
+RUN adduser \
+    --disabled-password \
+    --gecos "" \
+    --home "/nonexistent" \
+    --shell "/sbin/nologin" \
+    --no-create-home \
+    --uid "${UID}" \
+    appuser
+
+USER appuser
+
+# Set the entrypoint
+ENTRYPOINT ["modelaudit"]
+CMD ["--help"] 

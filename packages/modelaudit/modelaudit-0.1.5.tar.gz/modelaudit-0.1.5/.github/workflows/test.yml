@@ -1,0 +1,117 @@
+name: Python CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  lint:
+    name: Lint and Format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v4
+        with:
+          enable-cache: true
+
+      - name: Sync dependencies
+        run: |
+          rye sync --features all
+
+      - name: Lint with Ruff
+        run: |
+          rye run ruff check modelaudit/
+
+      - name: Check formatting with Ruff
+        run: |
+          rye run ruff format --check modelaudit/
+
+  type-check:
+    name: Type Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v4
+        with:
+          enable-cache: true
+
+      - name: Sync dependencies
+        run: |
+          rye sync --features all
+
+      - name: Type checking
+        run: |
+          rye run mypy modelaudit/
+
+  test:
+    name: Test Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v4
+        with:
+          enable-cache: true
+          version: latest
+
+      - name: Pin Python version
+        run: |
+          rye pin ${{ matrix.python-version }}
+
+      - name: Sync dependencies
+        run: |
+          rye sync --features all
+
+      - name: Run fast tests (parallel execution)
+        run: |
+          rye run pytest -n auto -m "not slow and not integration" --cov=modelaudit --tb=short
+
+      - name: Run slow/integration tests (if main branch)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          rye run pytest -n auto -m "slow or integration" --tb=short
+
+  build:
+    name: Build and Package
+    needs: [lint, type-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Rye
+        uses: eifinger/setup-rye@v4
+        with:
+          enable-cache: true
+
+      - name: Sync dependencies
+        run: |
+          rye sync --features all
+
+      - name: Build package
+        run: |
+          rye build
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
