@@ -1,0 +1,2 @@
+[console_scripts]
+ollama-rich = ollama_rich.cli:main
