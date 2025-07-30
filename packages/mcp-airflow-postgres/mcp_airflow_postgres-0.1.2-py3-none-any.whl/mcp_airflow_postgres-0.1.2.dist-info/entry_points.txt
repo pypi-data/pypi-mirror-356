@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-airflow-postgres = src.server:main
