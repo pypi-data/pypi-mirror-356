@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+RemoveBgPlus.egg-info/PKG-INFO
+RemoveBgPlus.egg-info/SOURCES.txt
+RemoveBgPlus.egg-info/dependency_links.txt
+RemoveBgPlus.egg-info/requires.txt
+RemoveBgPlus.egg-info/top_level.txt
+removebgplus/__init__.py
+removebgplus/removebgplus.py

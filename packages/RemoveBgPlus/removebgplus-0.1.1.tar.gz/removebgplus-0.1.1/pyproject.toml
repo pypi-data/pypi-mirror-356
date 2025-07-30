@@ -1,0 +1,11 @@
+[project]
+name = "RemoveBgPlus"
+version = "0.1.1"
+description = "Python wrapper for the remove.bg API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = ["requests", "filetype"]
+
+[tool.setuptools]
+packages = ["removebgplus"]
