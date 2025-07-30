@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+food_app.egg-info/PKG-INFO
+food_app.egg-info/SOURCES.txt
+food_app.egg-info/dependency_links.txt
+food_app.egg-info/entry_points.txt
+food_app.egg-info/requires.txt
+food_app.egg-info/top_level.txt
+src/main.py
+src/foodpkg/__init__.py
+src/foodpkg/add_food_db.py
+src/foodpkg/food_helper.py
+src/foodpkg/last_month.py
+src/foodpkg/pie_chart.py
+src/foodpkg/run.py
