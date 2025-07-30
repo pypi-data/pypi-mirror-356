@@ -1,0 +1,52 @@
+[project]
+name = "tool-rave-mcp"
+version = "0.1.0"
+description = "Universal MCP server proxy that enables parallel tool execution for servers that don't support it natively"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Igor Tarasenko" },
+]
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+toolrave = "toolrave.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/toolrave"]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.1.0",
+    "pyright>=1.1.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "N", "UP", "S", "C4"]
+ignore = ["E501"]
+
+[tool.pyright]
+include = ["src/"]
+exclude = ["**/__pycache__"]
+reportMissingImports = "error"
+reportMissingTypeStubs = false
+pythonVersion = "3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "--cov=toolrave --cov-report=term-missing -ra -q"
+testpaths = ["tests"]

@@ -1,0 +1,46 @@
+# Justfile for tool-rave-mcp
+
+# Install dependencies
+install:
+    uv sync
+
+# Run linting and fix issues  
+lint:
+    uv run ruff check . --fix
+
+# Format code
+format:
+    uv run ruff format .
+
+# Type check
+type-check:
+    uv run pyright
+
+# Run all checks
+check: lint format type-check
+
+# Run tests
+test:
+    uv run pytest
+
+# Run tests with coverage
+test-cov:
+    uv run pytest --cov=toolrave --cov-report=html
+
+# Clean build artifacts
+clean:
+    find . -type f -name '*.pyc' -delete
+    find . -type d -name '__pycache__' -exec rm -r {} +
+    rm -rf dist/ build/ *.egg-info/ htmlcov/ .coverage
+
+# Build package
+build: clean
+    uv build
+
+# Install in development mode
+install-dev:
+    uv pip install -e .
+
+# Run toolrave CLI (for testing)
+run *args:
+    uv run toolrave {{args}}
