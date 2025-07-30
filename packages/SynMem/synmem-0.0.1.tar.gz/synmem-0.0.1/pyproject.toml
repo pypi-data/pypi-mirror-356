@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SynMem"
+version = "0.0.1"
+description = "A modern 4-Stage Synthetic Memory"
+authors = [
+  { name="Tristan McBride Sr.", email = "142635792+TristanMcBrideSr@users.noreply.github.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"Pillow"
+]
+
+[project.urls]
+Homepage = "https://github.com/TristanMcBrideSr"
+
