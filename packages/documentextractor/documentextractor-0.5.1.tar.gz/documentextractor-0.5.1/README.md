@@ -1,0 +1,70 @@
+# DocumentExtractor.AI Python Client
+
+A Python client for extracting structured data from documents using the [DocumentExtractor API](https://documentextractor.ai).  
+It provides convenient methods to upload documents, define extraction schemas, start extraction workflows, and retrieve structured results.
+
+---
+
+## 📦 Installation
+
+```bash
+pip install documentextractor
+```
+
+---
+
+## 🚀 Quick Example
+
+You can get started with just a few lines of code:
+
+```python
+import os
+
+from documentextractor import DocumentExtractorAPIClient, WorkflowCreate, SchemaCreate, RunCreate
+
+api = DocumentExtractorAPIClient(
+    api_key=os.environ.get("DOCUMENTEXTRACTOR_API_KEY"),
+)
+
+# Define a workflow and extraction schema
+workflow = api.workflows.create(payload=WorkflowCreate(
+    name="Simple Invoice Extraction",
+    extraction_schema=SchemaCreate(
+    name="Invoice Schema",
+    description="Extract invoice number and total amount",
+    is_array=False,
+    children=[
+        SchemaCreate(key="invoice_number", description="Sender-issued invoice number", type="Text", is_array=False),
+        SchemaCreate(key="total_amount", description="Total amount payable, in original currency", type="Number", is_array=False),
+    ],
+),
+))
+
+# Upload a Document
+file = api.files.upload("example_invoice.pdf")
+
+# Trigger a run
+results = await workflow.runs.create_and_wait_for_results(payload=RunCreate(file_ids=[file.id]))
+
+# Get structured results
+extracted_items = results.extracted_data.raw
+print(f"Found {len(extracted_items)} extracted item(s).")
+if extracted_items:
+    # Pretty-print the structured data of the first result
+    print(" - Data from first result:")
+    import json
+    print(json.dumps(extracted_items[0].data, indent=2))
+```
+
+For the best experience, however, it's recommended to get more familiar with the client. For a full end-to-end usage script, see [`examples/basic_usage.py`](examples/basic_usage.py).
+
+---
+
+## 📄 License
+
+Copyright © 2025 Philipp Heller
+
+Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+You may not use this file except in compliance with the License.
+
+See the [LICENSE](LICENSE) file for details.

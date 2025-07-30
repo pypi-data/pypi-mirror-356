@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+documentextractor/__init__.py
+documentextractor/client.py
+documentextractor/exceptions.py
+documentextractor.egg-info/PKG-INFO
+documentextractor.egg-info/SOURCES.txt
+documentextractor.egg-info/dependency_links.txt
+documentextractor.egg-info/requires.txt
+documentextractor.egg-info/top_level.txt
