@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/hcli_chat/__init__.py
+src/hcli_chat/main.py
+src/hcli_chat/commands/__init__.py
+src/hcli_chat/commands/chat.py
+src/hcli_chat/mcp/__init__.py
+src/hcli_chat/mcp/mcp-plugin.py
+src/hcli_chat/mcp/server.py
+src/ida_hcli_chat.egg-info/PKG-INFO
+src/ida_hcli_chat.egg-info/SOURCES.txt
+src/ida_hcli_chat.egg-info/dependency_links.txt
+src/ida_hcli_chat.egg-info/entry_points.txt
+src/ida_hcli_chat.egg-info/requires.txt
+src/ida_hcli_chat.egg-info/top_level.txt

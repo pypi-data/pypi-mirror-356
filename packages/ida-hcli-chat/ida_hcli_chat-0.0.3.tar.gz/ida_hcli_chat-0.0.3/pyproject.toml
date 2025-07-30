@@ -1,0 +1,49 @@
+[project]
+name = "ida-hcli-chat"
+dynamic = ["version"]
+description = "Hex-Rays CLI Chat Extension"
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+keywords = ["ida", "ida-pro", "reverse-engineering", "disassembler", "binary-analysis", "malware-analysis", "security"]
+authors = [
+    { name = "Hex-Rays SA", email = "support@hex-rays.com" }
+]
+
+dependencies = [
+    "click",
+    "rich",
+    "ida-hcli>=0.0.10",
+    "agno>=1.6.3",
+    "mcp>=1.9.4",
+    "openai>=1.88.0",
+    "prompt-toolkit>=3.0.51",
+]
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.4.0",
+    "mkdocstrings[python]>=0.24.0",
+    "mkdocs-include-markdown-plugin>=7.1.5",
+    "pymdown-extensions>=10.0"
+]
+
+[project.entry-points."hcli.extensions"]
+hcli-chat = "hcli_chat.commands:register"
+
+[project.scripts]
+hcli-chat = "hcli_chat.main:cli"  # 👈 required for uv tool install
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "hcli_chat.__version__"}
+
+[tool.uv.sources]
+
