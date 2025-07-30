@@ -1,0 +1,16 @@
+<html>
+<body>
+    <h3>{{object.name}}</h3>
+    <p>
+    {{object.summary}}
+    </p>
+
+    <ul>
+        {% for version in object.versions.all  %}
+        <li>
+            <a href="{% url 'djmypypi2:download-package' version.archive_name %}">{{version.archive_name}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
