@@ -1,0 +1,18 @@
+[project]
+name = "gracegit"
+version = "0.1.0"
+description = "A simple, crossplatform, CLI interface for simple Git actions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gitpython>=3.1.44",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+gg = "gg.main:app"
+
+[dependency-groups]
+dev = [
+    "hatchling>=1.27.0",
+]

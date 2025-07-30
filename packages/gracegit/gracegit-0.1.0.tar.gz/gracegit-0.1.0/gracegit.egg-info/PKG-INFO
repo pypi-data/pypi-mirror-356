@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: gracegit
+Version: 0.1.0
+Summary: A simple, crossplatform, CLI interface for simple Git actions
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: gitpython>=3.1.44
+Requires-Dist: typer>=0.16.0
