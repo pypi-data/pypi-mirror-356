@@ -1,0 +1,2 @@
+[pytest11]
+better_report = pytest_plugins.add_better_report
