@@ -1,0 +1,2 @@
+[console_scripts]
+pyhercules-app = pyhercules_app:server.run
