@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+seyaml.egg-info/PKG-INFO
+seyaml.egg-info/SOURCES.txt
+seyaml.egg-info/dependency_links.txt
+seyaml.egg-info/entry_points.txt
+seyaml.egg-info/requires.txt
+seyaml.egg-info/top_level.txt
+tests/test_seyaml.py
