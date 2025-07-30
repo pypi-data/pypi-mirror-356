@@ -1,0 +1,2 @@
+,Source Data Set,Complex ID,PDB,Mutations,Ligand Chains,Receptor Chains,Ligand Name,Receptor Name,KD(M),Affinity Method,Structure Method,Temperature(K),Resolution(Å),PDB PubMed ID,PDB Release Date,Affinity PubMed ID,Affinity Release Date,Subgroup
+11745,PDBbind v2020,"5SWZ:A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T::PMID=27717799",5SWZ,,"D, E, I, J, N, O, S, T","A, B, C, F, G, H, K, L, M, P, Q, R",NP1-B17 TCR,H2Db-NP366 complex,0.00004,,X-RAY DIFFRACTION,,2.65,27717799,2016-10-05,27717799,2016 Oct 18,TCR-pMHC
