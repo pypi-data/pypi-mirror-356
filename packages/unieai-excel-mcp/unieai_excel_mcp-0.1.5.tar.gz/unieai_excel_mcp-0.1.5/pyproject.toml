@@ -1,0 +1,12 @@
+[project]
+name = "unieai_excel_mcp"
+version = "0.1.5"
+description = "Excel 填充模板工具（支援 {{key}} 樣板）"
+authors = [{name = "Evan", email = "you@example.com"}]
+dependencies = ["openpyxl", "mcp", "typer"]
+
+[tool.setuptools]
+packages = ["unieai_excel_mcp"]
+
+[project.scripts]
+unieai-excel-mcp = "unieai_excel_mcp.__main__:app"
