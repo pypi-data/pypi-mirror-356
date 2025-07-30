@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: terminal-coding-agent
+Version: 0.1.0
+Summary: Terminal-based AI coding assistant using OpenAI
+Home-page: https://github.com/KeshavTiwari373/terminal-coding-agent
+Author: Keshav Tiwari
+Author-email: keshav.tiwari623@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai>=1.0.0
+Requires-Dist: rich
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Terminal Coding Agent
+
+ðŸ’» A terminal-based AI coding assistant that helps you create and modify full-stack apps step-by-step using OpenAI GPT-4o.
+
+## ðŸš€ Installation
+
+```bash
+pip install terminal-coding-agent
+```
+
+## ðŸ“¦ Usage
+
+1. Create a `.env` file in your working directory:
+
+```env
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+2. Run the assistant:
+```bash
+code-agent
+```
+
+3. Describe your goal:
+```
+> Create a React + Flask full-stack app
+```
+
+## ðŸ§  Features
+
+- Plan â†’ Action â†’ Observe â†’ Output flow
+- File creation, command execution, project setup
+- Easily extendable
+
+## ðŸ“„ License
+
+MIT Licensed.
