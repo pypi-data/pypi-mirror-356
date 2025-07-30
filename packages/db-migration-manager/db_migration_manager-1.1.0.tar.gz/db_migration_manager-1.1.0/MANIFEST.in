@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.cfg
+
+recursive-include db_migration_manager *.py
+recursive-include db_migration_manager py.typed
+
+exclude *.pyc
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests * 

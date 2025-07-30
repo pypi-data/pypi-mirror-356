@@ -1,0 +1,355 @@
+# Database Migration System with PostgreSQL and Docker
+
+A comprehensive, ORM-agnostic database migration system built with FastAPI and PostgreSQL, featuring:
+
+- **Version Control**: Track and apply database schema changes systematically
+- **Auto-diff**: Generate migrations automatically from schema differences
+- **Rollback Support**: Safely rollback migrations when needed
+- **FastAPI Integration**: REST API for migration management
+- **Docker Support**: Easy setup with Docker Compose
+- **PostgreSQL Optimized**: Secure parameterized queries and proper transaction handling
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Docker and Docker Compose
+- Python 3.11+ (if running locally)
+
+### 1. Clone and Setup
+
+```bash
+git clone <your-repo>
+cd demo
+
+# Start services
+docker-compose up --build
+```
+
+### 2. Verify Setup
+
+The application will be available at:
+- **API**: http://localhost:8000
+- **API Documentation**: http://localhost:8000/docs
+- **PostgreSQL**: localhost:5432
+
+### 3. Test the System
+
+```bash
+# Check health
+curl http://localhost:8000/health
+
+# Get migration status
+curl http://localhost:8000/migrations/status
+
+# Run demo setup (creates and applies example migrations)
+curl -X POST http://localhost:8000/demo/setup
+```
+
+## 📁 Project Structure
+
+```
+demo/
+├── database_manager.py          # Original migration system
+├── database_manager_fixed.py    # Fixed version with security improvements
+├── main.py                     # FastAPI application
+├── docker-compose.yml          # Docker services configuration
+├── Dockerfile                  # Application container
+├── requirements.txt            # Python dependencies
+├── .env                       # Environment variables
+├── init.sql                   # PostgreSQL initialization
+├── migrations/                # Migration files directory
+└── README.md                  # This file
+```
+
+## 🛠️ API Endpoints
+
+### Core Migration Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/health` | Health check and database connectivity |
+| GET | `/migrations/status` | Get current migration status |
+| GET | `/migrations/pending` | List pending migrations |
+| POST | `/migrations/migrate` | Apply pending migrations |
+| POST | `/migrations/rollback` | Rollback to specific version |
+| POST | `/migrations/create` | Create new migration |
+
+### Demo Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/demo/setup` | Create and apply example migrations |
+
+## 📊 Usage Examples
+
+### 1. Check Migration Status
+
+```bash
+curl http://localhost:8000/migrations/status
+```
+
+Response:
+```json
+{
+  "success": true,
+  "message": "Migration status retrieved successfully",
+  "data": {
+    "applied_count": 2,
+    "pending_count": 0,
+    "last_applied": "20241220_143022",
+    "next_pending": null,
+    "applied_migrations": [...],
+    "pending_migrations": []
+  }
+}
+```
+
+### 2. Create a New Migration
+
+```bash
+curl -X POST http://localhost:8000/migrations/create \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "add_user_profile",
+    "up_sql": "ALTER TABLE users ADD COLUMN profile_image VARCHAR(500);",
+    "down_sql": "ALTER TABLE users DROP COLUMN profile_image;"
+  }'
+```
+
+### 3. Apply Migrations
+
+```bash
+curl -X POST http://localhost:8000/migrations/migrate \
+  -H "Content-Type: application/json" \
+  -d '{"target_version": null}'
+```
+
+### 4. Rollback Migrations
+
+```bash
+curl -X POST http://localhost:8000/migrations/rollback \
+  -H "Content-Type: application/json" \
+  -d '{"target_version": "20241220_143022"}'
+```
+
+## 🔧 Configuration
+
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `DATABASE_URL` | `postgresql://migration_user:migration_password@postgres:5432/migration_db` | PostgreSQL connection string |
+| `MIGRATIONS_DIR` | `migrations` | Directory for migration files |
+| `DEBUG` | `True` | Enable debug mode |
+| `HOST` | `0.0.0.0` | API host |
+| `PORT` | `8000` | API port |
+
+### Docker Compose Configuration
+
+The `docker-compose.yml` includes:
+- **PostgreSQL 15** with health checks
+- **Application container** with hot reload
+- **Volume persistence** for database data
+- **Network isolation** between services
+
+## 🛡️ Security Features
+
+The fixed version (`database_manager_fixed.py`) includes:
+
+1. **Parameterized Queries**: Prevents SQL injection attacks
+2. **Transaction Safety**: Proper rollback on failures
+3. **Connection Management**: Secure connection handling
+4. **Input Validation**: Pydantic models for request validation
+
+## 📝 Migration File Format
+
+Migrations are Python files with a specific structure:
+
+```python
+"""
+Migration: create_users_table
+Created: 2024-12-20T14:30:22.123456
+"""
+
+from database_manager_fixed import Migration
+
+class CreateUsersTable(Migration):
+    def __init__(self):
+        super().__init__("20241220_143022", "create_users_table")
+        self.up_sql = """
+        CREATE TABLE users (
+            id SERIAL PRIMARY KEY,
+            email VARCHAR(255) UNIQUE NOT NULL,
+            name VARCHAR(255) NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        """
+        self.down_sql = "DROP TABLE users;"
+```
+
+## 🔄 Migration Workflow
+
+1. **Create Migration**: Use API or manually create migration file
+2. **Review**: Check generated SQL before applying
+3. **Apply**: Run migrations in order
+4. **Verify**: Check database schema and data
+5. **Rollback**: If needed, rollback to previous version
+
+## 🧪 Testing
+
+### Manual Testing
+
+```bash
+# Start services
+docker-compose up -d
+
+# Wait for services to be ready
+sleep 10
+
+# Test API endpoints
+curl http://localhost:8000/health
+curl http://localhost:8000/migrations/status
+curl -X POST http://localhost:8000/demo/setup
+
+# Check database directly
+docker exec -it migration_postgres psql -U migration_user -d migration_db -c "\dt"
+```
+
+### Database Connection
+
+```bash
+# Connect to PostgreSQL container
+docker exec -it migration_postgres psql -U migration_user -d migration_db
+
+# Check migration history
+SELECT * FROM migration_history;
+
+# Check created tables
+\dt
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+1. **Connection Refused**
+   ```bash
+   # Check container status
+   docker-compose ps
+   
+   # Check logs
+   docker-compose logs postgres
+   docker-compose logs app
+   ```
+
+2. **Migration Fails**
+   ```bash
+   # Check migration status
+   curl http://localhost:8000/migrations/status
+   
+   # Check application logs
+   docker-compose logs app
+   ```
+
+3. **Database Not Ready**
+   ```bash
+   # Check health
+   curl http://localhost:8000/health
+   
+   # Restart services
+   docker-compose restart
+   ```
+
+### Reset Database
+
+```bash
+# Stop services
+docker-compose down
+
+# Remove volumes
+docker-compose down -v
+
+# Restart clean
+docker-compose up --build
+```
+
+## 🔄 Development
+
+### Local Development
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Set environment variables
+export DATABASE_URL="postgresql://migration_user:migration_password@localhost:5432/migration_db"
+
+# Start PostgreSQL only
+docker-compose up postgres -d
+
+# Run application locally
+uvicorn main:app --reload
+```
+
+### Adding New Features
+
+1. Extend `DatabaseAdapter` for new database types
+2. Add new migration types by extending `Migration` class
+3. Create additional API endpoints in `main.py`
+4. Update documentation
+
+## 📚 Advanced Features
+
+### Custom Migration Types
+
+```python
+from database_manager_fixed import Migration
+
+class DataMigration(Migration):
+    """Migration with data transformation"""
+    
+    async def up_with_data(self, db_adapter):
+        # Apply schema changes
+        await db_adapter.execute_sql(self.up())
+        
+        # Transform existing data
+        await self.transform_data(db_adapter)
+    
+    async def transform_data(self, db_adapter):
+        # Custom data transformation logic
+        pass
+```
+
+### Schema Validation
+
+```python
+class ValidatedMigration(Migration):
+    """Migration with pre/post validation"""
+    
+    async def validate_pre_migration(self, db_adapter):
+        # Validate prerequisites
+        return True
+    
+    async def validate_post_migration(self, db_adapter):
+        # Validate results
+        return True
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Add tests for new functionality
+4. Update documentation
+5. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- FastAPI for the excellent web framework
+- asyncpg for PostgreSQL async driver
+- Docker for containerization 
