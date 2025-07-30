@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: torch-subtract-membranes-2d
+Version: 0.0.6
+Summary: Model membranes in cryo-EM images for accurate signal subtraction
+Project-URL: homepage, https://github.com/teamtomo/torch-subtract-membranes-2d
+Project-URL: repository, https://github.com/teamtomo/torch-subtract-membranes-2d
+Author-email: Alister Burt <alisterburt@gmail.com>
+License: BSD-3-Clause
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: einops
+Requires-Dist: pydantic>=2
+Requires-Dist: scipy
+Requires-Dist: skan
+Requires-Dist: torch
+Requires-Dist: torch-cubic-spline-grids
+Requires-Dist: torch-fourier-filter
+Requires-Dist: torch-fourier-rescale
+Requires-Dist: torch-image-interpolation
+Requires-Dist: torch-segment-membranes-2d>=0.0.3
+Provides-Extra: dev
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pdbpp; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: rich; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# torch-subtract-membranes-2d
+
+[![License](https://img.shields.io/pypi/l/torch-subtract-membranes-2d.svg?color=green)](https://github.com/teamtomo/torch-subtract-membranes-2d/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/torch-subtract-membranes-2d.svg?color=green)](https://pypi.org/project/torch-subtract-membranes-2d)
+[![Python Version](https://img.shields.io/pypi/pyversions/torch-subtract-membranes-2d.svg?color=green)](https://python.org)
+[![CI](https://github.com/teamtomo/torch-subtract-membranes-2d/actions/workflows/ci.yml/badge.svg)](https://github.com/teamtomo/torch-subtract-membranes-2d/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/teamtomo/torch-subtract-membranes-2d/branch/main/graph/badge.svg)](https://codecov.io/gh/teamtomo/torch-subtract-membranes-2d)
+
+Model membranes in cryo-EM images for accurate signal subtraction.
+
+## Develeopment info
+
+set `TORCH_SUBTRACT_MEMBRANES_2D_DEBUG=1` for debug images/plots with the default matplotlib backend.
