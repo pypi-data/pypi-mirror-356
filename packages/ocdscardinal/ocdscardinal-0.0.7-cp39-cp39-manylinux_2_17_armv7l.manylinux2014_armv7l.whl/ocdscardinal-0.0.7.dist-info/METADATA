@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: ocdscardinal
+Version: 0.0.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Rust
+License-File: LICENSE
+Summary: Measure red flags and procurement indicators using OCDS data
+Keywords: cli,json
+Home-Page: https://github.com/open-contracting/cardinal-rs
+Author: Open Contracting Partnership <data@open-contracting.org>
+Author-email: Open Contracting Partnership <data@open-contracting.org>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/open-contracting/cardinal-rs
+
+# OCDS Cardinal
+
+[![crates.io Version](https://img.shields.io/crates/v/ocdscardinal.svg)](https://crates.io/crates/ocdscardinal)
+[![Build Status](https://github.com/open-contracting/cardinal-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/open-contracting/cardinal-rs/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/open-contracting/cardinal-rs/badge.svg?branch=main)](https://coveralls.io/github/open-contracting/cardinal-rs?branch=main)
+
+Measure red flags and procurement indicators using OCDS data.
+
+If you are viewing this on GitHub, crates.io or similar, open the [full documentation](https://cardinal.readthedocs.io/) for additional details.
+
