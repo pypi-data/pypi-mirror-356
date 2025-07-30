@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: batchcensusgeocode
+Version: 0.0.7
+Summary: Makes use of censusgeocode and the census api to batch geocode large amounts of addresses
+Project-URL: Homepage, https://github.com/thedavidhackett/batchcensusgeocode
+Project-URL: Repository, https://github.com/thedavidhackett/batchcensusgeocode
+Project-URL: Bug Tracker, https://github.com/thedavidhackett/batchcensusgeocode/issues
+Author-email: David Hackett <davidhackett12@gmail.com>
+License-Expression: MIT
+Keywords: batch,census,geocode
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Batch Census Geocode
