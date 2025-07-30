@@ -1,0 +1,77 @@
+# dig-flask-serve
+
+一个轻量级 Flask 模型发布框架，支持多模型、多线程、高可配置的模型接口发布工具。
+
+## 快速开始
+
+
+📦 安装方式
+在线安装（推荐）：
+```bash
+pip install dig-flask-serve
+python examples/user_model_publish.py
+```
+离线安装（通过 .whl 包）：
+```bash
+pip install dig_flask_serve-0.1.0-py3-none-any.whl
+```
+🚀 启动方式
+使用内置示例脚本快速发布多个模型接口：
+```bash
+python model_publishing_example.py
+
+from dig_flask_serve import dig_flask, BaseModelHandler
+import time
+
+# 示例模型 1
+class Model1Handler(BaseModelHandler):
+    #模型加载
+    def init_model(self):
+        print("Initializing Model1 ...")
+        self.model = 42
+    #模型调用
+    def predict(self, input_data):
+        x = input_data.get('x', 0)
+        time.sleep(1)  # 模拟计算耗时
+        return x + self.model
+
+# 示例模型 2
+class Model2Handler(BaseModelHandler):
+    #模型加载
+    def init_model(self):
+        print("Initializing Model2 ...")
+        self.model = 3.14
+    #模型调用
+    def predict(self, input_data):
+        x = input_data.get('x', 0)
+        time.sleep(0.5)
+        return x * self.model
+
+# 创建应用并注册模型
+flask_app = dig_flask()
+# 创建对应线程数，不指定默认为16
+flask_app.enable_thread_pool(max_workers=16)
+# 声明对外访问接口以及对应的请求方式
+flask_app.register_model(Model1Handler(), url='/predict/model1', methods=['POST'])
+flask_app.register_model(Model2Handler(), url='/predict/model2', methods=['POST'])
+
+# 启动服务（默认支持多线程）
+flask_app.run(port=7000)
+```
+运行后输出示例：
+```bash
+Initializing Model1 ...
+Initializing Model2 ...
+ * Serving Flask app 'dig_flask_serve.dig_flask'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://10.134.11.225:7000
+ ```
+🔗 接口访问说明
+
+🛠 在线测试工具页面：
+👉 http://127.0.0.1:7000
+
+![通用模型接口测试工具](https://digbuaa.oss-cn-beijing.aliyuncs.com/zsj/git/2b4001e1219f49798b13240edb3607de.png)
