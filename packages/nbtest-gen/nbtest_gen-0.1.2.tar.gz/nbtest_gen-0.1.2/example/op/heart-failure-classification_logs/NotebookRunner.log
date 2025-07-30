@@ -1,0 +1,26 @@
+2025-06-18 15:29:46,609 - DEBUG - ------------------ Iteration 1 ---------------------------
+2025-06-18 15:30:06,765 - DEBUG - Execution output: 
+2025-06-18 15:30:06,765 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/heart-failure-classification_tmp.ipynb to notebook
+[NbConvertApp] Writing 2648011 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/heart-failure-classification_run_0.ipynb
+
+2025-06-18 15:30:06,765 - DEBUG - ------------------ Iteration 2 ---------------------------
+2025-06-18 15:30:26,389 - DEBUG - Execution output: 
+2025-06-18 15:30:26,389 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/heart-failure-classification_tmp.ipynb to notebook
+[NbConvertApp] Writing 2659585 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/heart-failure-classification_run_1.ipynb
+
+2025-06-18 15:30:26,389 - DEBUG - ------------------ Iteration 3 ---------------------------
+2025-06-18 15:30:46,074 - DEBUG - Execution output: 
+2025-06-18 15:30:46,074 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/heart-failure-classification_tmp.ipynb to notebook
+[NbConvertApp] Writing 2656371 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/heart-failure-classification_run_2.ipynb
+
+2025-06-18 15:30:46,074 - DEBUG - ------------------ Iteration 4 ---------------------------
+2025-06-18 15:31:05,481 - DEBUG - Execution output: 
+2025-06-18 15:31:05,481 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/heart-failure-classification_tmp.ipynb to notebook
+[NbConvertApp] Writing 2651910 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/heart-failure-classification_run_3.ipynb
+
+2025-06-18 15:31:05,481 - DEBUG - ------------------ Iteration 5 ---------------------------
+2025-06-18 15:31:25,353 - DEBUG - Execution output: 
+2025-06-18 15:31:25,353 - DEBUG - Execution output: [NbConvertApp] Converting notebook /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/heart-failure-classification_tmp.ipynb to notebook
+[NbConvertApp] Writing 2657766 bytes to /home/verve/ml_nb_testing/comp_analysis/nbtest-gen/example/op/heart-failure-classification_run_4.ipynb
+
+2025-06-18 15:31:25,353 - INFO - self.notebook_fname: heart-failure-classification

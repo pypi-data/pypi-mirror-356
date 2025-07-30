@@ -1,0 +1,2104 @@
+2025-06-17 23:03:56,317 - INFO - Checking if (df, 2,3) should be added.
+2025-06-17 23:03:56,317 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,317 - INFO - set()
+2025-06-17 23:03:56,317 - INFO - The def_value is:
+2025-06-17 23:03:56,317 - INFO - df_None
+2025-06-17 23:03:56,317 - INFO - (df, 2,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,317 - INFO - Checking if (nbtest_tmpvar_0, 3,1) should be added.
+2025-06-17 23:03:56,317 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,317 - INFO - set()
+2025-06-17 23:03:56,317 - INFO - The def_value is:
+2025-06-17 23:03:56,317 - INFO - nbtest_tmpvar_0_None
+2025-06-17 23:03:56,317 - INFO - (nbtest_tmpvar_0, 3,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (nbtest_tmpvar_1, 4,1) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - nbtest_tmpvar_1_None
+2025-06-17 23:03:56,318 - INFO - (nbtest_tmpvar_1, 4,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (nbtest_tmpvar_2, 5,1) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - nbtest_tmpvar_2_None
+2025-06-17 23:03:56,318 - INFO - (nbtest_tmpvar_2, 5,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (df.shape, 6,1) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - df.shape_None
+2025-06-17 23:03:56,318 - INFO - (df.shape, 6,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (nbtest_tmpvar_3, 7,1) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - nbtest_tmpvar_3_None
+2025-06-17 23:03:56,318 - INFO - (nbtest_tmpvar_3, 7,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (i, 8,2) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - i_None
+2025-06-17 23:03:56,318 - INFO - (i, 8,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,318 - INFO - Checking if (df[f'{i}'].value_counts(), 8,3) should be added.
+2025-06-17 23:03:56,318 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,318 - INFO - set()
+2025-06-17 23:03:56,318 - INFO - The def_value is:
+2025-06-17 23:03:56,318 - INFO - df[f'{i}'].value_counts()_None
+2025-06-17 23:03:56,318 - INFO - (df[f'{i}'].value_counts(), 8,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - INFO - Checking if (nbtest_tmpvar_4, 9,3) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - nbtest_tmpvar_4_None
+2025-06-17 23:03:56,319 - INFO - (nbtest_tmpvar_4, 9,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - ERROR - Error processing cell 9: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,319 - INFO - Checking if (nbtest_tmpvar_5, 10,2) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - nbtest_tmpvar_5_None
+2025-06-17 23:03:56,319 - INFO - (nbtest_tmpvar_5, 10,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - ERROR - Error processing cell 10: cannot access local variable 'temp_var_name' where it is not associated with a value
+2025-06-17 23:03:56,319 - INFO - Checking if (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - df.corr().abs()['DEATH_EVENT'].nlargest(15)_None
+2025-06-17 23:03:56,319 - INFO - (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - INFO - Checking if (col_reduced, 12,2) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - col_reduced_None
+2025-06-17 23:03:56,319 - INFO - (col_reduced, 12,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - INFO - Checking if (x_train, 14,2) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - x_train_None
+2025-06-17 23:03:56,319 - INFO - (x_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,319 - INFO - Checking if (x_test, 14,2) should be added.
+2025-06-17 23:03:56,319 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,319 - INFO - set()
+2025-06-17 23:03:56,319 - INFO - The def_value is:
+2025-06-17 23:03:56,319 - INFO - x_test_None
+2025-06-17 23:03:56,319 - INFO - (x_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if (y_train, 14,2) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - y_train_None
+2025-06-17 23:03:56,320 - INFO - (y_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if (y_test, 14,2) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - y_test_None
+2025-06-17 23:03:56,320 - INFO - (y_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if (nbtest_tmpvar_5, 16,3) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - nbtest_tmpvar_5_None
+2025-06-17 23:03:56,320 - INFO - (nbtest_tmpvar_5, 16,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if (cm, 16,5) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - cm_None
+2025-06-17 23:03:56,320 - INFO - (cm, 16,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if (nbtest_tmpvar_6, 16,7) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - nbtest_tmpvar_6_None
+2025-06-17 23:03:56,320 - INFO - (nbtest_tmpvar_6, 16,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - INFO - Checking if ('accuracy: ', 16,10) should be added.
+2025-06-17 23:03:56,320 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,320 - INFO - set()
+2025-06-17 23:03:56,320 - INFO - The def_value is:
+2025-06-17 23:03:56,320 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,320 - INFO - ('accuracy: ', 16,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,320 - ERROR - Error processing cell 16: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,321 - INFO - Checking if (roc_auc, 17,4) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - roc_auc_None
+2025-06-17 23:03:56,321 - INFO - (roc_auc, 17,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,5) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,6) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,7) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,8) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,9) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,10) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,11) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,12) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (nbtest_tmpvar_7, 17,13) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,321 - INFO - set()
+2025-06-17 23:03:56,321 - INFO - The def_value is:
+2025-06-17 23:03:56,321 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:03:56,321 - INFO - (nbtest_tmpvar_7, 17,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,321 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) should be added.
+2025-06-17 23:03:56,321 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,322 - INFO - set()
+2025-06-17 23:03:56,322 - INFO - The def_value is:
+2025-06-17 23:03:56,322 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,322 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,322 - ERROR - Error processing cell 17: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,322 - INFO - Checking if (nbtest_tmpvar_8, 18,3) should be added.
+2025-06-17 23:03:56,322 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,322 - INFO - set()
+2025-06-17 23:03:56,322 - INFO - The def_value is:
+2025-06-17 23:03:56,322 - INFO - nbtest_tmpvar_8_None
+2025-06-17 23:03:56,322 - INFO - (nbtest_tmpvar_8, 18,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,322 - INFO - Checking if (cm, 18,5) should be added.
+2025-06-17 23:03:56,322 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,322 - INFO - set()
+2025-06-17 23:03:56,322 - INFO - The def_value is:
+2025-06-17 23:03:56,322 - INFO - cm_None
+2025-06-17 23:03:56,322 - INFO - (cm, 18,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,322 - INFO - Checking if (nbtest_tmpvar_9, 18,7) should be added.
+2025-06-17 23:03:56,322 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,322 - INFO - set()
+2025-06-17 23:03:56,322 - INFO - The def_value is:
+2025-06-17 23:03:56,322 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:03:56,322 - INFO - (nbtest_tmpvar_9, 18,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,322 - INFO - Checking if ('accuracy: ', 18,10) should be added.
+2025-06-17 23:03:56,322 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,322 - INFO - set()
+2025-06-17 23:03:56,322 - INFO - The def_value is:
+2025-06-17 23:03:56,322 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,322 - INFO - ('accuracy: ', 18,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,322 - ERROR - Error processing cell 18: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,323 - INFO - Checking if (roc_auc, 19,4) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - roc_auc_None
+2025-06-17 23:03:56,323 - INFO - (roc_auc, 19,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,5) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,6) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,7) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,8) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,9) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,10) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,11) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,12) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (nbtest_tmpvar_10, 19,13) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,323 - INFO - set()
+2025-06-17 23:03:56,323 - INFO - The def_value is:
+2025-06-17 23:03:56,323 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:03:56,323 - INFO - (nbtest_tmpvar_10, 19,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,323 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) should be added.
+2025-06-17 23:03:56,323 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,324 - INFO - set()
+2025-06-17 23:03:56,324 - INFO - The def_value is:
+2025-06-17 23:03:56,324 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,324 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,324 - ERROR - Error processing cell 19: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,324 - INFO - Checking if (nbtest_tmpvar_11, 20,3) should be added.
+2025-06-17 23:03:56,324 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,324 - INFO - set()
+2025-06-17 23:03:56,324 - INFO - The def_value is:
+2025-06-17 23:03:56,324 - INFO - nbtest_tmpvar_11_None
+2025-06-17 23:03:56,324 - INFO - (nbtest_tmpvar_11, 20,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,324 - INFO - Checking if (cm, 20,5) should be added.
+2025-06-17 23:03:56,324 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,324 - INFO - set()
+2025-06-17 23:03:56,324 - INFO - The def_value is:
+2025-06-17 23:03:56,324 - INFO - cm_None
+2025-06-17 23:03:56,324 - INFO - (cm, 20,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,324 - INFO - Checking if (nbtest_tmpvar_12, 20,7) should be added.
+2025-06-17 23:03:56,324 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,324 - INFO - set()
+2025-06-17 23:03:56,324 - INFO - The def_value is:
+2025-06-17 23:03:56,324 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:03:56,324 - INFO - (nbtest_tmpvar_12, 20,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,324 - INFO - Checking if ('accuracy: ', 20,10) should be added.
+2025-06-17 23:03:56,324 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,324 - INFO - set()
+2025-06-17 23:03:56,324 - INFO - The def_value is:
+2025-06-17 23:03:56,324 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,324 - INFO - ('accuracy: ', 20,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,324 - ERROR - Error processing cell 20: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,325 - INFO - Checking if (roc_auc, 21,4) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - roc_auc_None
+2025-06-17 23:03:56,325 - INFO - (roc_auc, 21,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,5) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,6) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,7) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,8) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,9) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,10) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,11) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,12) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,325 - INFO - Checking if (nbtest_tmpvar_13, 21,13) should be added.
+2025-06-17 23:03:56,325 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,325 - INFO - set()
+2025-06-17 23:03:56,325 - INFO - The def_value is:
+2025-06-17 23:03:56,325 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:03:56,325 - INFO - (nbtest_tmpvar_13, 21,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) should be added.
+2025-06-17 23:03:56,326 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,326 - INFO - set()
+2025-06-17 23:03:56,326 - INFO - The def_value is:
+2025-06-17 23:03:56,326 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,326 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - ERROR - Error processing cell 21: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,326 - INFO - Checking if (nbtest_tmpvar_14, 22,3) should be added.
+2025-06-17 23:03:56,326 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,326 - INFO - set()
+2025-06-17 23:03:56,326 - INFO - The def_value is:
+2025-06-17 23:03:56,326 - INFO - nbtest_tmpvar_14_None
+2025-06-17 23:03:56,326 - INFO - (nbtest_tmpvar_14, 22,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - INFO - Checking if (cm, 22,5) should be added.
+2025-06-17 23:03:56,326 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,326 - INFO - set()
+2025-06-17 23:03:56,326 - INFO - The def_value is:
+2025-06-17 23:03:56,326 - INFO - cm_None
+2025-06-17 23:03:56,326 - INFO - (cm, 22,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - INFO - Checking if (nbtest_tmpvar_15, 22,7) should be added.
+2025-06-17 23:03:56,326 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,326 - INFO - set()
+2025-06-17 23:03:56,326 - INFO - The def_value is:
+2025-06-17 23:03:56,326 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:03:56,326 - INFO - (nbtest_tmpvar_15, 22,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - INFO - Checking if ('accuracy: ', 22,10) should be added.
+2025-06-17 23:03:56,326 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,326 - INFO - set()
+2025-06-17 23:03:56,326 - INFO - The def_value is:
+2025-06-17 23:03:56,326 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,326 - INFO - ('accuracy: ', 22,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,326 - ERROR - Error processing cell 22: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,327 - INFO - Checking if (roc_auc, 23,4) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - roc_auc_None
+2025-06-17 23:03:56,327 - INFO - (roc_auc, 23,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,5) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,6) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,7) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,8) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,9) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,327 - INFO - Checking if (nbtest_tmpvar_16, 23,10) should be added.
+2025-06-17 23:03:56,327 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,327 - INFO - set()
+2025-06-17 23:03:56,327 - INFO - The def_value is:
+2025-06-17 23:03:56,327 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,327 - INFO - (nbtest_tmpvar_16, 23,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,328 - INFO - Checking if (nbtest_tmpvar_16, 23,11) should be added.
+2025-06-17 23:03:56,328 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,328 - INFO - set()
+2025-06-17 23:03:56,328 - INFO - The def_value is:
+2025-06-17 23:03:56,328 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,328 - INFO - (nbtest_tmpvar_16, 23,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,328 - INFO - Checking if (nbtest_tmpvar_16, 23,12) should be added.
+2025-06-17 23:03:56,328 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,328 - INFO - set()
+2025-06-17 23:03:56,328 - INFO - The def_value is:
+2025-06-17 23:03:56,328 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,328 - INFO - (nbtest_tmpvar_16, 23,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,328 - INFO - Checking if (nbtest_tmpvar_16, 23,13) should be added.
+2025-06-17 23:03:56,328 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,328 - INFO - set()
+2025-06-17 23:03:56,328 - INFO - The def_value is:
+2025-06-17 23:03:56,328 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:03:56,328 - INFO - (nbtest_tmpvar_16, 23,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,328 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) should be added.
+2025-06-17 23:03:56,328 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,328 - INFO - set()
+2025-06-17 23:03:56,328 - INFO - The def_value is:
+2025-06-17 23:03:56,328 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,328 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,328 - ERROR - Error processing cell 23: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,329 - INFO - Checking if (nbtest_tmpvar_17, 24,3) should be added.
+2025-06-17 23:03:56,329 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,329 - INFO - set()
+2025-06-17 23:03:56,329 - INFO - The def_value is:
+2025-06-17 23:03:56,329 - INFO - nbtest_tmpvar_17_None
+2025-06-17 23:03:56,329 - INFO - (nbtest_tmpvar_17, 24,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,329 - INFO - Checking if (cm, 24,5) should be added.
+2025-06-17 23:03:56,329 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,329 - INFO - set()
+2025-06-17 23:03:56,329 - INFO - The def_value is:
+2025-06-17 23:03:56,329 - INFO - cm_None
+2025-06-17 23:03:56,329 - INFO - (cm, 24,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,329 - INFO - Checking if (nbtest_tmpvar_18, 24,7) should be added.
+2025-06-17 23:03:56,329 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,329 - INFO - set()
+2025-06-17 23:03:56,329 - INFO - The def_value is:
+2025-06-17 23:03:56,329 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:03:56,329 - INFO - (nbtest_tmpvar_18, 24,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,329 - INFO - Checking if ('accuracy: ', 24,10) should be added.
+2025-06-17 23:03:56,329 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,329 - INFO - set()
+2025-06-17 23:03:56,329 - INFO - The def_value is:
+2025-06-17 23:03:56,329 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,330 - INFO - ('accuracy: ', 24,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,330 - ERROR - Error processing cell 24: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,330 - INFO - Checking if (roc_auc, 25,4) should be added.
+2025-06-17 23:03:56,330 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,330 - INFO - set()
+2025-06-17 23:03:56,330 - INFO - The def_value is:
+2025-06-17 23:03:56,330 - INFO - roc_auc_None
+2025-06-17 23:03:56,330 - INFO - (roc_auc, 25,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,330 - INFO - Checking if (nbtest_tmpvar_19, 25,5) should be added.
+2025-06-17 23:03:56,330 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,330 - INFO - set()
+2025-06-17 23:03:56,330 - INFO - The def_value is:
+2025-06-17 23:03:56,330 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,330 - INFO - (nbtest_tmpvar_19, 25,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,330 - INFO - Checking if (nbtest_tmpvar_19, 25,6) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,7) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,8) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,9) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,10) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,11) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,12) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (nbtest_tmpvar_19, 25,13) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:03:56,331 - INFO - (nbtest_tmpvar_19, 25,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,331 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) should be added.
+2025-06-17 23:03:56,331 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,331 - INFO - set()
+2025-06-17 23:03:56,331 - INFO - The def_value is:
+2025-06-17 23:03:56,331 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,331 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,332 - ERROR - Error processing cell 25: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,332 - INFO - Checking if (nbtest_tmpvar_20, 26,3) should be added.
+2025-06-17 23:03:56,332 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,332 - INFO - set()
+2025-06-17 23:03:56,332 - INFO - The def_value is:
+2025-06-17 23:03:56,332 - INFO - nbtest_tmpvar_20_None
+2025-06-17 23:03:56,332 - INFO - (nbtest_tmpvar_20, 26,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,332 - INFO - Checking if (cm, 26,5) should be added.
+2025-06-17 23:03:56,332 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,332 - INFO - set()
+2025-06-17 23:03:56,332 - INFO - The def_value is:
+2025-06-17 23:03:56,332 - INFO - cm_None
+2025-06-17 23:03:56,332 - INFO - (cm, 26,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,332 - INFO - Checking if (nbtest_tmpvar_21, 26,7) should be added.
+2025-06-17 23:03:56,332 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,332 - INFO - set()
+2025-06-17 23:03:56,332 - INFO - The def_value is:
+2025-06-17 23:03:56,332 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:03:56,332 - INFO - (nbtest_tmpvar_21, 26,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,332 - INFO - Checking if ('accuracy: ', 26,10) should be added.
+2025-06-17 23:03:56,332 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,332 - INFO - set()
+2025-06-17 23:03:56,332 - INFO - The def_value is:
+2025-06-17 23:03:56,332 - INFO - 'accuracy: '_None
+2025-06-17 23:03:56,332 - INFO - ('accuracy: ', 26,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - ERROR - Error processing cell 26: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:03:56,333 - INFO - Checking if (roc_auc, 27,4) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - roc_auc_None
+2025-06-17 23:03:56,333 - INFO - (roc_auc, 27,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,5) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,333 - INFO - (nbtest_tmpvar_22, 27,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,6) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,333 - INFO - (nbtest_tmpvar_22, 27,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,7) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,333 - INFO - (nbtest_tmpvar_22, 27,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,8) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,333 - INFO - (nbtest_tmpvar_22, 27,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,9) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,333 - INFO - (nbtest_tmpvar_22, 27,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,333 - INFO - Checking if (nbtest_tmpvar_22, 27,10) should be added.
+2025-06-17 23:03:56,333 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,333 - INFO - set()
+2025-06-17 23:03:56,333 - INFO - The def_value is:
+2025-06-17 23:03:56,333 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,334 - INFO - (nbtest_tmpvar_22, 27,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,334 - INFO - Checking if (nbtest_tmpvar_22, 27,11) should be added.
+2025-06-17 23:03:56,334 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,334 - INFO - set()
+2025-06-17 23:03:56,334 - INFO - The def_value is:
+2025-06-17 23:03:56,334 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,334 - INFO - (nbtest_tmpvar_22, 27,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,334 - INFO - Checking if (nbtest_tmpvar_22, 27,12) should be added.
+2025-06-17 23:03:56,334 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,334 - INFO - set()
+2025-06-17 23:03:56,334 - INFO - The def_value is:
+2025-06-17 23:03:56,334 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,334 - INFO - (nbtest_tmpvar_22, 27,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,334 - INFO - Checking if (nbtest_tmpvar_22, 27,13) should be added.
+2025-06-17 23:03:56,334 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,334 - INFO - set()
+2025-06-17 23:03:56,334 - INFO - The def_value is:
+2025-06-17 23:03:56,334 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:03:56,334 - INFO - (nbtest_tmpvar_22, 27,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,334 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) should be added.
+2025-06-17 23:03:56,334 - INFO - Current self.def_set: 
+2025-06-17 23:03:56,334 - INFO - set()
+2025-06-17 23:03:56,334 - INFO - The def_value is:
+2025-06-17 23:03:56,334 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:03:56,334 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:03:56,334 - ERROR - Error processing cell 27: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,230 - INFO - Checking if (df, 2,3) should be added.
+2025-06-17 23:13:53,231 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,231 - INFO - set()
+2025-06-17 23:13:53,231 - INFO - The def_value is:
+2025-06-17 23:13:53,231 - INFO - df_None
+2025-06-17 23:13:53,231 - INFO - (df, 2,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,231 - INFO - Checking if (nbtest_tmpvar_0, 3,1) should be added.
+2025-06-17 23:13:53,231 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,231 - INFO - set()
+2025-06-17 23:13:53,231 - INFO - The def_value is:
+2025-06-17 23:13:53,231 - INFO - nbtest_tmpvar_0_None
+2025-06-17 23:13:53,231 - INFO - (nbtest_tmpvar_0, 3,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,231 - INFO - Checking if (nbtest_tmpvar_1, 4,1) should be added.
+2025-06-17 23:13:53,231 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,231 - INFO - set()
+2025-06-17 23:13:53,231 - INFO - The def_value is:
+2025-06-17 23:13:53,231 - INFO - nbtest_tmpvar_1_None
+2025-06-17 23:13:53,231 - INFO - (nbtest_tmpvar_1, 4,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,231 - INFO - Checking if (nbtest_tmpvar_2, 5,1) should be added.
+2025-06-17 23:13:53,231 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,231 - INFO - set()
+2025-06-17 23:13:53,231 - INFO - The def_value is:
+2025-06-17 23:13:53,231 - INFO - nbtest_tmpvar_2_None
+2025-06-17 23:13:53,231 - INFO - (nbtest_tmpvar_2, 5,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (df.shape, 6,1) should be added.
+2025-06-17 23:13:53,232 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,232 - INFO - set()
+2025-06-17 23:13:53,232 - INFO - The def_value is:
+2025-06-17 23:13:53,232 - INFO - df.shape_None
+2025-06-17 23:13:53,232 - INFO - (df.shape, 6,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (nbtest_tmpvar_3, 7,1) should be added.
+2025-06-17 23:13:53,232 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,232 - INFO - set()
+2025-06-17 23:13:53,232 - INFO - The def_value is:
+2025-06-17 23:13:53,232 - INFO - nbtest_tmpvar_3_None
+2025-06-17 23:13:53,232 - INFO - (nbtest_tmpvar_3, 7,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (i, 8,2) should be added.
+2025-06-17 23:13:53,232 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,232 - INFO - set()
+2025-06-17 23:13:53,232 - INFO - The def_value is:
+2025-06-17 23:13:53,232 - INFO - i_None
+2025-06-17 23:13:53,232 - INFO - (i, 8,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (df[f'{i}'].value_counts(), 8,3) should be added.
+2025-06-17 23:13:53,232 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,232 - INFO - set()
+2025-06-17 23:13:53,232 - INFO - The def_value is:
+2025-06-17 23:13:53,232 - INFO - df[f'{i}'].value_counts()_None
+2025-06-17 23:13:53,232 - INFO - (df[f'{i}'].value_counts(), 8,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (nbtest_tmpvar_4, 9,3) should be added.
+2025-06-17 23:13:53,232 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,232 - INFO - set()
+2025-06-17 23:13:53,232 - INFO - The def_value is:
+2025-06-17 23:13:53,232 - INFO - nbtest_tmpvar_4_None
+2025-06-17 23:13:53,232 - INFO - (nbtest_tmpvar_4, 9,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,232 - INFO - Checking if (nbtest_tmpvar_4, 9,6) should be added.
+2025-06-17 23:13:53,233 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,233 - INFO - set()
+2025-06-17 23:13:53,233 - INFO - The def_value is:
+2025-06-17 23:13:53,233 - INFO - nbtest_tmpvar_4_None
+2025-06-17 23:13:53,233 - INFO - (nbtest_tmpvar_4, 9,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,233 - ERROR - Error processing cell 9: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,233 - INFO - Checking if (nbtest_tmpvar_5, 10,2) should be added.
+2025-06-17 23:13:53,233 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,233 - INFO - set()
+2025-06-17 23:13:53,233 - INFO - The def_value is:
+2025-06-17 23:13:53,233 - INFO - nbtest_tmpvar_5_None
+2025-06-17 23:13:53,233 - INFO - (nbtest_tmpvar_5, 10,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,233 - ERROR - Error processing cell 10: cannot access local variable 'temp_var_name' where it is not associated with a value
+2025-06-17 23:13:53,233 - INFO - Checking if (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) should be added.
+2025-06-17 23:13:53,233 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,233 - INFO - set()
+2025-06-17 23:13:53,233 - INFO - The def_value is:
+2025-06-17 23:13:53,233 - INFO - df.corr().abs()['DEATH_EVENT'].nlargest(15)_None
+2025-06-17 23:13:53,233 - INFO - (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,233 - INFO - Checking if (col_reduced, 12,2) should be added.
+2025-06-17 23:13:53,233 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,233 - INFO - set()
+2025-06-17 23:13:53,233 - INFO - The def_value is:
+2025-06-17 23:13:53,233 - INFO - col_reduced_None
+2025-06-17 23:13:53,233 - INFO - (col_reduced, 12,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,233 - INFO - Checking if (x_train, 14,2) should be added.
+2025-06-17 23:13:53,233 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,233 - INFO - set()
+2025-06-17 23:13:53,233 - INFO - The def_value is:
+2025-06-17 23:13:53,233 - INFO - x_train_None
+2025-06-17 23:13:53,233 - INFO - (x_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (x_test, 14,2) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - x_test_None
+2025-06-17 23:13:53,234 - INFO - (x_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (y_train, 14,2) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - y_train_None
+2025-06-17 23:13:53,234 - INFO - (y_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (y_test, 14,2) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - y_test_None
+2025-06-17 23:13:53,234 - INFO - (y_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (nbtest_tmpvar_5, 16,3) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - nbtest_tmpvar_5_None
+2025-06-17 23:13:53,234 - INFO - (nbtest_tmpvar_5, 16,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (cm, 16,5) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - cm_None
+2025-06-17 23:13:53,234 - INFO - (cm, 16,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (nbtest_tmpvar_6, 16,7) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - nbtest_tmpvar_6_None
+2025-06-17 23:13:53,234 - INFO - (nbtest_tmpvar_6, 16,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,234 - INFO - Checking if (nbtest_tmpvar_6, 16,8) should be added.
+2025-06-17 23:13:53,234 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,234 - INFO - set()
+2025-06-17 23:13:53,234 - INFO - The def_value is:
+2025-06-17 23:13:53,234 - INFO - nbtest_tmpvar_6_None
+2025-06-17 23:13:53,234 - INFO - (nbtest_tmpvar_6, 16,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if ('accuracy: ', 16,10) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,235 - INFO - ('accuracy: ', 16,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - ERROR - Error processing cell 16: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,235 - INFO - Checking if (roc_auc, 17,4) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - roc_auc_None
+2025-06-17 23:13:53,235 - INFO - (roc_auc, 17,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if (nbtest_tmpvar_7, 17,5) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,235 - INFO - (nbtest_tmpvar_7, 17,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if (nbtest_tmpvar_7, 17,6) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,235 - INFO - (nbtest_tmpvar_7, 17,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if (nbtest_tmpvar_7, 17,7) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,235 - INFO - (nbtest_tmpvar_7, 17,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if (nbtest_tmpvar_7, 17,8) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,235 - INFO - (nbtest_tmpvar_7, 17,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,235 - INFO - Checking if (nbtest_tmpvar_7, 17,9) should be added.
+2025-06-17 23:13:53,235 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,235 - INFO - set()
+2025-06-17 23:13:53,235 - INFO - The def_value is:
+2025-06-17 23:13:53,235 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,235 - INFO - (nbtest_tmpvar_7, 17,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_7, 17,10) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_7, 17,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_7, 17,11) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_7, 17,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_7, 17,12) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_7, 17,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_7, 17,13) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_7, 17,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_7, 17,14) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_7, 17,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,236 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - ERROR - Error processing cell 17: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,236 - INFO - Checking if (nbtest_tmpvar_8, 18,3) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,236 - INFO - The def_value is:
+2025-06-17 23:13:53,236 - INFO - nbtest_tmpvar_8_None
+2025-06-17 23:13:53,236 - INFO - (nbtest_tmpvar_8, 18,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,236 - INFO - Checking if (cm, 18,5) should be added.
+2025-06-17 23:13:53,236 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,236 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - cm_None
+2025-06-17 23:13:53,237 - INFO - (cm, 18,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if (nbtest_tmpvar_9, 18,7) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:13:53,237 - INFO - (nbtest_tmpvar_9, 18,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if (nbtest_tmpvar_9, 18,8) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:13:53,237 - INFO - (nbtest_tmpvar_9, 18,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if ('accuracy: ', 18,10) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,237 - INFO - ('accuracy: ', 18,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - ERROR - Error processing cell 18: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,237 - INFO - Checking if (roc_auc, 19,4) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - roc_auc_None
+2025-06-17 23:13:53,237 - INFO - (roc_auc, 19,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if (nbtest_tmpvar_10, 19,5) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,237 - INFO - (nbtest_tmpvar_10, 19,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if (nbtest_tmpvar_10, 19,6) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,237 - INFO - The def_value is:
+2025-06-17 23:13:53,237 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,237 - INFO - (nbtest_tmpvar_10, 19,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,237 - INFO - Checking if (nbtest_tmpvar_10, 19,7) should be added.
+2025-06-17 23:13:53,237 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,237 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,8) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,9) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,10) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,11) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,12) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,13) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,238 - INFO - (nbtest_tmpvar_10, 19,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,238 - INFO - Checking if (nbtest_tmpvar_10, 19,14) should be added.
+2025-06-17 23:13:53,238 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,238 - INFO - set()
+2025-06-17 23:13:53,238 - INFO - The def_value is:
+2025-06-17 23:13:53,238 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:13:53,239 - INFO - (nbtest_tmpvar_10, 19,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,239 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) should be added.
+2025-06-17 23:13:53,239 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,239 - INFO - set()
+2025-06-17 23:13:53,239 - INFO - The def_value is:
+2025-06-17 23:13:53,239 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,239 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,239 - ERROR - Error processing cell 19: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,239 - INFO - Checking if (nbtest_tmpvar_11, 20,3) should be added.
+2025-06-17 23:13:53,239 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,239 - INFO - set()
+2025-06-17 23:13:53,239 - INFO - The def_value is:
+2025-06-17 23:13:53,239 - INFO - nbtest_tmpvar_11_None
+2025-06-17 23:13:53,239 - INFO - (nbtest_tmpvar_11, 20,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,239 - INFO - Checking if (cm, 20,5) should be added.
+2025-06-17 23:13:53,239 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,239 - INFO - set()
+2025-06-17 23:13:53,239 - INFO - The def_value is:
+2025-06-17 23:13:53,239 - INFO - cm_None
+2025-06-17 23:13:53,239 - INFO - (cm, 20,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,239 - INFO - Checking if (nbtest_tmpvar_12, 20,7) should be added.
+2025-06-17 23:13:53,239 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,239 - INFO - set()
+2025-06-17 23:13:53,239 - INFO - The def_value is:
+2025-06-17 23:13:53,239 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:13:53,240 - INFO - (nbtest_tmpvar_12, 20,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,240 - INFO - Checking if (nbtest_tmpvar_12, 20,8) should be added.
+2025-06-17 23:13:53,240 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,240 - INFO - set()
+2025-06-17 23:13:53,240 - INFO - The def_value is:
+2025-06-17 23:13:53,240 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:13:53,240 - INFO - (nbtest_tmpvar_12, 20,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,240 - INFO - Checking if ('accuracy: ', 20,10) should be added.
+2025-06-17 23:13:53,240 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,240 - INFO - set()
+2025-06-17 23:13:53,240 - INFO - The def_value is:
+2025-06-17 23:13:53,240 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,240 - INFO - ('accuracy: ', 20,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,240 - ERROR - Error processing cell 20: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,240 - INFO - Checking if (roc_auc, 21,4) should be added.
+2025-06-17 23:13:53,240 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,240 - INFO - set()
+2025-06-17 23:13:53,240 - INFO - The def_value is:
+2025-06-17 23:13:53,240 - INFO - roc_auc_None
+2025-06-17 23:13:53,240 - INFO - (roc_auc, 21,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,240 - INFO - Checking if (nbtest_tmpvar_13, 21,5) should be added.
+2025-06-17 23:13:53,240 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,240 - INFO - set()
+2025-06-17 23:13:53,240 - INFO - The def_value is:
+2025-06-17 23:13:53,240 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,240 - INFO - (nbtest_tmpvar_13, 21,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,240 - INFO - Checking if (nbtest_tmpvar_13, 21,6) should be added.
+2025-06-17 23:13:53,240 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,240 - INFO - set()
+2025-06-17 23:13:53,241 - INFO - The def_value is:
+2025-06-17 23:13:53,241 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,241 - INFO - (nbtest_tmpvar_13, 21,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,241 - INFO - Checking if (nbtest_tmpvar_13, 21,7) should be added.
+2025-06-17 23:13:53,241 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,241 - INFO - set()
+2025-06-17 23:13:53,241 - INFO - The def_value is:
+2025-06-17 23:13:53,241 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,241 - INFO - (nbtest_tmpvar_13, 21,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,241 - INFO - Checking if (nbtest_tmpvar_13, 21,8) should be added.
+2025-06-17 23:13:53,241 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,241 - INFO - set()
+2025-06-17 23:13:53,241 - INFO - The def_value is:
+2025-06-17 23:13:53,241 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,241 - INFO - (nbtest_tmpvar_13, 21,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,241 - INFO - Checking if (nbtest_tmpvar_13, 21,9) should be added.
+2025-06-17 23:13:53,241 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,241 - INFO - set()
+2025-06-17 23:13:53,241 - INFO - The def_value is:
+2025-06-17 23:13:53,241 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,241 - INFO - (nbtest_tmpvar_13, 21,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,241 - INFO - Checking if (nbtest_tmpvar_13, 21,10) should be added.
+2025-06-17 23:13:53,241 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,241 - INFO - set()
+2025-06-17 23:13:53,241 - INFO - The def_value is:
+2025-06-17 23:13:53,241 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,241 - INFO - (nbtest_tmpvar_13, 21,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,241 - INFO - Checking if (nbtest_tmpvar_13, 21,11) should be added.
+2025-06-17 23:13:53,242 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,242 - INFO - set()
+2025-06-17 23:13:53,242 - INFO - The def_value is:
+2025-06-17 23:13:53,242 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,242 - INFO - (nbtest_tmpvar_13, 21,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,242 - INFO - Checking if (nbtest_tmpvar_13, 21,12) should be added.
+2025-06-17 23:13:53,242 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,242 - INFO - set()
+2025-06-17 23:13:53,242 - INFO - The def_value is:
+2025-06-17 23:13:53,242 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,242 - INFO - (nbtest_tmpvar_13, 21,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,242 - INFO - Checking if (nbtest_tmpvar_13, 21,13) should be added.
+2025-06-17 23:13:53,242 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,242 - INFO - set()
+2025-06-17 23:13:53,242 - INFO - The def_value is:
+2025-06-17 23:13:53,242 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,242 - INFO - (nbtest_tmpvar_13, 21,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,242 - INFO - Checking if (nbtest_tmpvar_13, 21,14) should be added.
+2025-06-17 23:13:53,242 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,242 - INFO - set()
+2025-06-17 23:13:53,242 - INFO - The def_value is:
+2025-06-17 23:13:53,242 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:13:53,242 - INFO - (nbtest_tmpvar_13, 21,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,242 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) should be added.
+2025-06-17 23:13:53,242 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,242 - INFO - set()
+2025-06-17 23:13:53,242 - INFO - The def_value is:
+2025-06-17 23:13:53,242 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,242 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,243 - ERROR - Error processing cell 21: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,243 - INFO - Checking if (nbtest_tmpvar_14, 22,3) should be added.
+2025-06-17 23:13:53,243 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,243 - INFO - set()
+2025-06-17 23:13:53,243 - INFO - The def_value is:
+2025-06-17 23:13:53,243 - INFO - nbtest_tmpvar_14_None
+2025-06-17 23:13:53,243 - INFO - (nbtest_tmpvar_14, 22,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,243 - INFO - Checking if (cm, 22,5) should be added.
+2025-06-17 23:13:53,243 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,243 - INFO - set()
+2025-06-17 23:13:53,243 - INFO - The def_value is:
+2025-06-17 23:13:53,243 - INFO - cm_None
+2025-06-17 23:13:53,243 - INFO - (cm, 22,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,243 - INFO - Checking if (nbtest_tmpvar_15, 22,7) should be added.
+2025-06-17 23:13:53,243 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,243 - INFO - set()
+2025-06-17 23:13:53,243 - INFO - The def_value is:
+2025-06-17 23:13:53,243 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:13:53,243 - INFO - (nbtest_tmpvar_15, 22,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,243 - INFO - Checking if (nbtest_tmpvar_15, 22,8) should be added.
+2025-06-17 23:13:53,243 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,243 - INFO - set()
+2025-06-17 23:13:53,243 - INFO - The def_value is:
+2025-06-17 23:13:53,243 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:13:53,243 - INFO - (nbtest_tmpvar_15, 22,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,243 - INFO - Checking if ('accuracy: ', 22,10) should be added.
+2025-06-17 23:13:53,243 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,243 - INFO - set()
+2025-06-17 23:13:53,243 - INFO - The def_value is:
+2025-06-17 23:13:53,244 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,244 - INFO - ('accuracy: ', 22,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,244 - ERROR - Error processing cell 22: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,244 - INFO - Checking if (roc_auc, 23,4) should be added.
+2025-06-17 23:13:53,244 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,244 - INFO - set()
+2025-06-17 23:13:53,244 - INFO - The def_value is:
+2025-06-17 23:13:53,244 - INFO - roc_auc_None
+2025-06-17 23:13:53,244 - INFO - (roc_auc, 23,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,244 - INFO - Checking if (nbtest_tmpvar_16, 23,5) should be added.
+2025-06-17 23:13:53,244 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,244 - INFO - set()
+2025-06-17 23:13:53,244 - INFO - The def_value is:
+2025-06-17 23:13:53,244 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,244 - INFO - (nbtest_tmpvar_16, 23,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,244 - INFO - Checking if (nbtest_tmpvar_16, 23,6) should be added.
+2025-06-17 23:13:53,244 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,244 - INFO - set()
+2025-06-17 23:13:53,244 - INFO - The def_value is:
+2025-06-17 23:13:53,244 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,244 - INFO - (nbtest_tmpvar_16, 23,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,244 - INFO - Checking if (nbtest_tmpvar_16, 23,7) should be added.
+2025-06-17 23:13:53,244 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,244 - INFO - set()
+2025-06-17 23:13:53,244 - INFO - The def_value is:
+2025-06-17 23:13:53,244 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,8) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,9) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,10) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,11) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,12) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,13) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (nbtest_tmpvar_16, 23,14) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:13:53,245 - INFO - (nbtest_tmpvar_16, 23,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,245 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) should be added.
+2025-06-17 23:13:53,245 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,245 - INFO - set()
+2025-06-17 23:13:53,245 - INFO - The def_value is:
+2025-06-17 23:13:53,245 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,245 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,246 - ERROR - Error processing cell 23: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,246 - INFO - Checking if (nbtest_tmpvar_17, 24,3) should be added.
+2025-06-17 23:13:53,246 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,246 - INFO - set()
+2025-06-17 23:13:53,246 - INFO - The def_value is:
+2025-06-17 23:13:53,246 - INFO - nbtest_tmpvar_17_None
+2025-06-17 23:13:53,246 - INFO - (nbtest_tmpvar_17, 24,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,246 - INFO - Checking if (cm, 24,5) should be added.
+2025-06-17 23:13:53,246 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,246 - INFO - set()
+2025-06-17 23:13:53,246 - INFO - The def_value is:
+2025-06-17 23:13:53,246 - INFO - cm_None
+2025-06-17 23:13:53,246 - INFO - (cm, 24,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,246 - INFO - Checking if (nbtest_tmpvar_18, 24,7) should be added.
+2025-06-17 23:13:53,246 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,246 - INFO - set()
+2025-06-17 23:13:53,246 - INFO - The def_value is:
+2025-06-17 23:13:53,246 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:13:53,246 - INFO - (nbtest_tmpvar_18, 24,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,246 - INFO - Checking if (nbtest_tmpvar_18, 24,8) should be added.
+2025-06-17 23:13:53,246 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,246 - INFO - set()
+2025-06-17 23:13:53,246 - INFO - The def_value is:
+2025-06-17 23:13:53,246 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:13:53,246 - INFO - (nbtest_tmpvar_18, 24,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,246 - INFO - Checking if ('accuracy: ', 24,10) should be added.
+2025-06-17 23:13:53,246 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,246 - INFO - set()
+2025-06-17 23:13:53,246 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,247 - INFO - ('accuracy: ', 24,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - ERROR - Error processing cell 24: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,247 - INFO - Checking if (roc_auc, 25,4) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - roc_auc_None
+2025-06-17 23:13:53,247 - INFO - (roc_auc, 25,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,5) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,6) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,7) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,8) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,9) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,10) should be added.
+2025-06-17 23:13:53,247 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,247 - INFO - set()
+2025-06-17 23:13:53,247 - INFO - The def_value is:
+2025-06-17 23:13:53,247 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,247 - INFO - (nbtest_tmpvar_19, 25,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,247 - INFO - Checking if (nbtest_tmpvar_19, 25,11) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,248 - INFO - (nbtest_tmpvar_19, 25,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (nbtest_tmpvar_19, 25,12) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,248 - INFO - (nbtest_tmpvar_19, 25,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (nbtest_tmpvar_19, 25,13) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,248 - INFO - (nbtest_tmpvar_19, 25,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (nbtest_tmpvar_19, 25,14) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:13:53,248 - INFO - (nbtest_tmpvar_19, 25,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,248 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - ERROR - Error processing cell 25: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,248 - INFO - Checking if (nbtest_tmpvar_20, 26,3) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_20_None
+2025-06-17 23:13:53,248 - INFO - (nbtest_tmpvar_20, 26,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (cm, 26,5) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - cm_None
+2025-06-17 23:13:53,248 - INFO - (cm, 26,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,248 - INFO - Checking if (nbtest_tmpvar_21, 26,7) should be added.
+2025-06-17 23:13:53,248 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,248 - INFO - set()
+2025-06-17 23:13:53,248 - INFO - The def_value is:
+2025-06-17 23:13:53,248 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_21, 26,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_21, 26,8) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_21, 26,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if ('accuracy: ', 26,10) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - 'accuracy: '_None
+2025-06-17 23:13:53,249 - INFO - ('accuracy: ', 26,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - ERROR - Error processing cell 26: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:13:53,249 - INFO - Checking if (roc_auc, 27,4) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - roc_auc_None
+2025-06-17 23:13:53,249 - INFO - (roc_auc, 27,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_22, 27,5) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_22, 27,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_22, 27,6) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_22, 27,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_22, 27,7) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_22, 27,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_22, 27,8) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,249 - INFO - set()
+2025-06-17 23:13:53,249 - INFO - The def_value is:
+2025-06-17 23:13:53,249 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,249 - INFO - (nbtest_tmpvar_22, 27,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,249 - INFO - Checking if (nbtest_tmpvar_22, 27,9) should be added.
+2025-06-17 23:13:53,249 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (nbtest_tmpvar_22, 27,10) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (nbtest_tmpvar_22, 27,11) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (nbtest_tmpvar_22, 27,12) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (nbtest_tmpvar_22, 27,13) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (nbtest_tmpvar_22, 27,14) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:13:53,250 - INFO - (nbtest_tmpvar_22, 27,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) should be added.
+2025-06-17 23:13:53,250 - INFO - Current self.def_set: 
+2025-06-17 23:13:53,250 - INFO - set()
+2025-06-17 23:13:53,250 - INFO - The def_value is:
+2025-06-17 23:13:53,250 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:13:53,250 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:13:53,250 - ERROR - Error processing cell 27: 'Assign' object has no attribute 'lineno'
+2025-06-17 23:26:25,022 - INFO - Checking if (df, 2,3) should be added.
+2025-06-17 23:26:25,022 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,022 - INFO - set()
+2025-06-17 23:26:25,022 - INFO - The def_value is:
+2025-06-17 23:26:25,022 - INFO - df_None
+2025-06-17 23:26:25,022 - INFO - (df, 2,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (nbtest_tmpvar_0, 3,1) should be added.
+2025-06-17 23:26:25,023 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,023 - INFO - set()
+2025-06-17 23:26:25,023 - INFO - The def_value is:
+2025-06-17 23:26:25,023 - INFO - nbtest_tmpvar_0_None
+2025-06-17 23:26:25,023 - INFO - (nbtest_tmpvar_0, 3,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (nbtest_tmpvar_1, 4,1) should be added.
+2025-06-17 23:26:25,023 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,023 - INFO - set()
+2025-06-17 23:26:25,023 - INFO - The def_value is:
+2025-06-17 23:26:25,023 - INFO - nbtest_tmpvar_1_None
+2025-06-17 23:26:25,023 - INFO - (nbtest_tmpvar_1, 4,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (nbtest_tmpvar_2, 5,1) should be added.
+2025-06-17 23:26:25,023 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,023 - INFO - set()
+2025-06-17 23:26:25,023 - INFO - The def_value is:
+2025-06-17 23:26:25,023 - INFO - nbtest_tmpvar_2_None
+2025-06-17 23:26:25,023 - INFO - (nbtest_tmpvar_2, 5,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (df.shape, 6,1) should be added.
+2025-06-17 23:26:25,023 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,023 - INFO - set()
+2025-06-17 23:26:25,023 - INFO - The def_value is:
+2025-06-17 23:26:25,023 - INFO - df.shape_None
+2025-06-17 23:26:25,023 - INFO - (df.shape, 6,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (nbtest_tmpvar_3, 7,1) should be added.
+2025-06-17 23:26:25,023 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,023 - INFO - set()
+2025-06-17 23:26:25,023 - INFO - The def_value is:
+2025-06-17 23:26:25,023 - INFO - nbtest_tmpvar_3_None
+2025-06-17 23:26:25,023 - INFO - (nbtest_tmpvar_3, 7,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,023 - INFO - Checking if (i, 8,2) should be added.
+2025-06-17 23:26:25,024 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,024 - INFO - set()
+2025-06-17 23:26:25,024 - INFO - The def_value is:
+2025-06-17 23:26:25,024 - INFO - i_None
+2025-06-17 23:26:25,024 - INFO - (i, 8,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,024 - INFO - Checking if (df[f'{i}'].value_counts(), 8,3) should be added.
+2025-06-17 23:26:25,024 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,024 - INFO - set()
+2025-06-17 23:26:25,024 - INFO - The def_value is:
+2025-06-17 23:26:25,024 - INFO - df[f'{i}'].value_counts()_None
+2025-06-17 23:26:25,024 - INFO - (df[f'{i}'].value_counts(), 8,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,024 - INFO - Checking if (nbtest_tmpvar_4, 9,3) should be added.
+2025-06-17 23:26:25,024 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,024 - INFO - set()
+2025-06-17 23:26:25,024 - INFO - The def_value is:
+2025-06-17 23:26:25,024 - INFO - nbtest_tmpvar_4_None
+2025-06-17 23:26:25,024 - INFO - (nbtest_tmpvar_4, 9,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,024 - INFO - Checking if (nbtest_tmpvar_4, 9,6) should be added.
+2025-06-17 23:26:25,024 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,024 - INFO - set()
+2025-06-17 23:26:25,024 - INFO - The def_value is:
+2025-06-17 23:26:25,024 - INFO - nbtest_tmpvar_4_None
+2025-06-17 23:26:25,024 - INFO - (nbtest_tmpvar_4, 9,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,024 - INFO - Checking if (nbtest_tmpvar_5, 10,2) should be added.
+2025-06-17 23:26:25,024 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,024 - INFO - set()
+2025-06-17 23:26:25,024 - INFO - The def_value is:
+2025-06-17 23:26:25,024 - INFO - nbtest_tmpvar_5_None
+2025-06-17 23:26:25,024 - INFO - (nbtest_tmpvar_5, 10,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (nbtest_tmpvar_6, 10,4) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - nbtest_tmpvar_6_None
+2025-06-17 23:26:25,025 - INFO - (nbtest_tmpvar_6, 10,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (nbtest_tmpvar_6, 10,5) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - nbtest_tmpvar_6_None
+2025-06-17 23:26:25,025 - INFO - (nbtest_tmpvar_6, 10,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - df.corr().abs()['DEATH_EVENT'].nlargest(15)_None
+2025-06-17 23:26:25,025 - INFO - (df.corr().abs()['DEATH_EVENT'].nlargest(15), 11,1) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (col_reduced, 12,2) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - col_reduced_None
+2025-06-17 23:26:25,025 - INFO - (col_reduced, 12,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (x_train, 14,2) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - x_train_None
+2025-06-17 23:26:25,025 - INFO - (x_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (x_test, 14,2) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,025 - INFO - The def_value is:
+2025-06-17 23:26:25,025 - INFO - x_test_None
+2025-06-17 23:26:25,025 - INFO - (x_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,025 - INFO - Checking if (y_train, 14,2) should be added.
+2025-06-17 23:26:25,025 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,025 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - y_train_None
+2025-06-17 23:26:25,026 - INFO - (y_train, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if (y_test, 14,2) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - y_test_None
+2025-06-17 23:26:25,026 - INFO - (y_test, 14,2) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if (nbtest_tmpvar_7, 16,3) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - nbtest_tmpvar_7_None
+2025-06-17 23:26:25,026 - INFO - (nbtest_tmpvar_7, 16,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if (cm, 16,5) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - cm_None
+2025-06-17 23:26:25,026 - INFO - (cm, 16,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if (nbtest_tmpvar_8, 16,7) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - nbtest_tmpvar_8_None
+2025-06-17 23:26:25,026 - INFO - (nbtest_tmpvar_8, 16,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if (nbtest_tmpvar_8, 16,8) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - nbtest_tmpvar_8_None
+2025-06-17 23:26:25,026 - INFO - (nbtest_tmpvar_8, 16,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,026 - INFO - Checking if ('accuracy: ', 16,10) should be added.
+2025-06-17 23:26:25,026 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,026 - INFO - set()
+2025-06-17 23:26:25,026 - INFO - The def_value is:
+2025-06-17 23:26:25,026 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,026 - INFO - ('accuracy: ', 16,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (roc_auc, 17,4) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - roc_auc_None
+2025-06-17 23:26:25,027 - INFO - (roc_auc, 17,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,5) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,6) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,7) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,8) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,9) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,027 - INFO - Checking if (nbtest_tmpvar_9, 17,10) should be added.
+2025-06-17 23:26:25,027 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,027 - INFO - set()
+2025-06-17 23:26:25,027 - INFO - The def_value is:
+2025-06-17 23:26:25,027 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,027 - INFO - (nbtest_tmpvar_9, 17,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (nbtest_tmpvar_9, 17,11) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,028 - INFO - (nbtest_tmpvar_9, 17,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (nbtest_tmpvar_9, 17,12) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,028 - INFO - (nbtest_tmpvar_9, 17,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (nbtest_tmpvar_9, 17,13) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,028 - INFO - (nbtest_tmpvar_9, 17,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (nbtest_tmpvar_9, 17,14) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - nbtest_tmpvar_9_None
+2025-06-17 23:26:25,028 - INFO - (nbtest_tmpvar_9, 17,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,028 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 17,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (nbtest_tmpvar_10, 18,3) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - nbtest_tmpvar_10_None
+2025-06-17 23:26:25,028 - INFO - (nbtest_tmpvar_10, 18,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,028 - INFO - Checking if (cm, 18,5) should be added.
+2025-06-17 23:26:25,028 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,028 - INFO - set()
+2025-06-17 23:26:25,028 - INFO - The def_value is:
+2025-06-17 23:26:25,028 - INFO - cm_None
+2025-06-17 23:26:25,028 - INFO - (cm, 18,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (nbtest_tmpvar_11, 18,7) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - nbtest_tmpvar_11_None
+2025-06-17 23:26:25,029 - INFO - (nbtest_tmpvar_11, 18,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (nbtest_tmpvar_11, 18,8) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - nbtest_tmpvar_11_None
+2025-06-17 23:26:25,029 - INFO - (nbtest_tmpvar_11, 18,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if ('accuracy: ', 18,10) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,029 - INFO - ('accuracy: ', 18,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (roc_auc, 19,4) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - roc_auc_None
+2025-06-17 23:26:25,029 - INFO - (roc_auc, 19,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (nbtest_tmpvar_12, 19,5) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,029 - INFO - (nbtest_tmpvar_12, 19,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (nbtest_tmpvar_12, 19,6) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,029 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,029 - INFO - (nbtest_tmpvar_12, 19,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,029 - INFO - Checking if (nbtest_tmpvar_12, 19,7) should be added.
+2025-06-17 23:26:25,029 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,029 - INFO - set()
+2025-06-17 23:26:25,029 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,8) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,9) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,10) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,11) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,12) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,13) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (nbtest_tmpvar_12, 19,14) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - nbtest_tmpvar_12_None
+2025-06-17 23:26:25,030 - INFO - (nbtest_tmpvar_12, 19,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,030 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) should be added.
+2025-06-17 23:26:25,030 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,030 - INFO - set()
+2025-06-17 23:26:25,030 - INFO - The def_value is:
+2025-06-17 23:26:25,030 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,030 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 19,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if (nbtest_tmpvar_13, 20,3) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - nbtest_tmpvar_13_None
+2025-06-17 23:26:25,031 - INFO - (nbtest_tmpvar_13, 20,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if (cm, 20,5) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - cm_None
+2025-06-17 23:26:25,031 - INFO - (cm, 20,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if (nbtest_tmpvar_14, 20,7) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - nbtest_tmpvar_14_None
+2025-06-17 23:26:25,031 - INFO - (nbtest_tmpvar_14, 20,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if (nbtest_tmpvar_14, 20,8) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - nbtest_tmpvar_14_None
+2025-06-17 23:26:25,031 - INFO - (nbtest_tmpvar_14, 20,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if ('accuracy: ', 20,10) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,031 - INFO - ('accuracy: ', 20,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,031 - INFO - Checking if (roc_auc, 21,4) should be added.
+2025-06-17 23:26:25,031 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,031 - INFO - set()
+2025-06-17 23:26:25,031 - INFO - The def_value is:
+2025-06-17 23:26:25,031 - INFO - roc_auc_None
+2025-06-17 23:26:25,032 - INFO - (roc_auc, 21,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,5) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,6) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,7) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,8) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,9) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,10) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,11) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,12) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,13) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,032 - INFO - (nbtest_tmpvar_15, 21,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,032 - INFO - Checking if (nbtest_tmpvar_15, 21,14) should be added.
+2025-06-17 23:26:25,032 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,032 - INFO - set()
+2025-06-17 23:26:25,032 - INFO - The def_value is:
+2025-06-17 23:26:25,032 - INFO - nbtest_tmpvar_15_None
+2025-06-17 23:26:25,033 - INFO - (nbtest_tmpvar_15, 21,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,033 - INFO - The def_value is:
+2025-06-17 23:26:25,033 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,033 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 21,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if (nbtest_tmpvar_16, 22,3) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,033 - INFO - The def_value is:
+2025-06-17 23:26:25,033 - INFO - nbtest_tmpvar_16_None
+2025-06-17 23:26:25,033 - INFO - (nbtest_tmpvar_16, 22,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if (cm, 22,5) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,033 - INFO - The def_value is:
+2025-06-17 23:26:25,033 - INFO - cm_None
+2025-06-17 23:26:25,033 - INFO - (cm, 22,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if (nbtest_tmpvar_17, 22,7) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,033 - INFO - The def_value is:
+2025-06-17 23:26:25,033 - INFO - nbtest_tmpvar_17_None
+2025-06-17 23:26:25,033 - INFO - (nbtest_tmpvar_17, 22,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if (nbtest_tmpvar_17, 22,8) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,033 - INFO - The def_value is:
+2025-06-17 23:26:25,033 - INFO - nbtest_tmpvar_17_None
+2025-06-17 23:26:25,033 - INFO - (nbtest_tmpvar_17, 22,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,033 - INFO - Checking if ('accuracy: ', 22,10) should be added.
+2025-06-17 23:26:25,033 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,033 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,034 - INFO - ('accuracy: ', 22,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,034 - INFO - Checking if (roc_auc, 23,4) should be added.
+2025-06-17 23:26:25,034 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,034 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - roc_auc_None
+2025-06-17 23:26:25,034 - INFO - (roc_auc, 23,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,034 - INFO - Checking if (nbtest_tmpvar_18, 23,5) should be added.
+2025-06-17 23:26:25,034 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,034 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,034 - INFO - (nbtest_tmpvar_18, 23,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,034 - INFO - Checking if (nbtest_tmpvar_18, 23,6) should be added.
+2025-06-17 23:26:25,034 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,034 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,034 - INFO - (nbtest_tmpvar_18, 23,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,034 - INFO - Checking if (nbtest_tmpvar_18, 23,7) should be added.
+2025-06-17 23:26:25,034 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,034 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,034 - INFO - (nbtest_tmpvar_18, 23,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,034 - INFO - Checking if (nbtest_tmpvar_18, 23,8) should be added.
+2025-06-17 23:26:25,034 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,034 - INFO - set()
+2025-06-17 23:26:25,034 - INFO - The def_value is:
+2025-06-17 23:26:25,034 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,034 - INFO - (nbtest_tmpvar_18, 23,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,9) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,10) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,11) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,12) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,13) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,035 - INFO - Checking if (nbtest_tmpvar_18, 23,14) should be added.
+2025-06-17 23:26:25,035 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,035 - INFO - set()
+2025-06-17 23:26:25,035 - INFO - The def_value is:
+2025-06-17 23:26:25,035 - INFO - nbtest_tmpvar_18_None
+2025-06-17 23:26:25,035 - INFO - (nbtest_tmpvar_18, 23,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,036 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) should be added.
+2025-06-17 23:26:25,036 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,036 - INFO - set()
+2025-06-17 23:26:25,036 - INFO - The def_value is:
+2025-06-17 23:26:25,036 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,036 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 23,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,036 - INFO - Checking if (nbtest_tmpvar_19, 24,3) should be added.
+2025-06-17 23:26:25,036 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,036 - INFO - set()
+2025-06-17 23:26:25,036 - INFO - The def_value is:
+2025-06-17 23:26:25,036 - INFO - nbtest_tmpvar_19_None
+2025-06-17 23:26:25,036 - INFO - (nbtest_tmpvar_19, 24,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,036 - INFO - Checking if (cm, 24,5) should be added.
+2025-06-17 23:26:25,036 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,036 - INFO - set()
+2025-06-17 23:26:25,036 - INFO - The def_value is:
+2025-06-17 23:26:25,036 - INFO - cm_None
+2025-06-17 23:26:25,036 - INFO - (cm, 24,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,036 - INFO - Checking if (nbtest_tmpvar_20, 24,7) should be added.
+2025-06-17 23:26:25,036 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,036 - INFO - set()
+2025-06-17 23:26:25,037 - INFO - The def_value is:
+2025-06-17 23:26:25,037 - INFO - nbtest_tmpvar_20_None
+2025-06-17 23:26:25,037 - INFO - (nbtest_tmpvar_20, 24,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,037 - INFO - Checking if (nbtest_tmpvar_20, 24,8) should be added.
+2025-06-17 23:26:25,037 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,037 - INFO - set()
+2025-06-17 23:26:25,037 - INFO - The def_value is:
+2025-06-17 23:26:25,037 - INFO - nbtest_tmpvar_20_None
+2025-06-17 23:26:25,037 - INFO - (nbtest_tmpvar_20, 24,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,037 - INFO - Checking if ('accuracy: ', 24,10) should be added.
+2025-06-17 23:26:25,037 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,037 - INFO - set()
+2025-06-17 23:26:25,037 - INFO - The def_value is:
+2025-06-17 23:26:25,037 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,037 - INFO - ('accuracy: ', 24,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,037 - INFO - Checking if (roc_auc, 25,4) should be added.
+2025-06-17 23:26:25,037 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,037 - INFO - set()
+2025-06-17 23:26:25,037 - INFO - The def_value is:
+2025-06-17 23:26:25,037 - INFO - roc_auc_None
+2025-06-17 23:26:25,037 - INFO - (roc_auc, 25,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,037 - INFO - Checking if (nbtest_tmpvar_21, 25,5) should be added.
+2025-06-17 23:26:25,037 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,037 - INFO - set()
+2025-06-17 23:26:25,037 - INFO - The def_value is:
+2025-06-17 23:26:25,037 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,037 - INFO - (nbtest_tmpvar_21, 25,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,6) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,7) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,8) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,9) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,10) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,11) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,12) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,13) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (nbtest_tmpvar_21, 25,14) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - nbtest_tmpvar_21_None
+2025-06-17 23:26:25,038 - INFO - (nbtest_tmpvar_21, 25,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,038 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) should be added.
+2025-06-17 23:26:25,038 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,038 - INFO - set()
+2025-06-17 23:26:25,038 - INFO - The def_value is:
+2025-06-17 23:26:25,038 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,038 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 25,15) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,039 - INFO - Checking if (nbtest_tmpvar_22, 26,3) should be added.
+2025-06-17 23:26:25,039 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,039 - INFO - set()
+2025-06-17 23:26:25,039 - INFO - The def_value is:
+2025-06-17 23:26:25,039 - INFO - nbtest_tmpvar_22_None
+2025-06-17 23:26:25,039 - INFO - (nbtest_tmpvar_22, 26,3) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,039 - INFO - Checking if (cm, 26,5) should be added.
+2025-06-17 23:26:25,039 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,039 - INFO - set()
+2025-06-17 23:26:25,039 - INFO - The def_value is:
+2025-06-17 23:26:25,039 - INFO - cm_None
+2025-06-17 23:26:25,039 - INFO - (cm, 26,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,039 - INFO - Checking if (nbtest_tmpvar_23, 26,7) should be added.
+2025-06-17 23:26:25,039 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,039 - INFO - set()
+2025-06-17 23:26:25,039 - INFO - The def_value is:
+2025-06-17 23:26:25,039 - INFO - nbtest_tmpvar_23_None
+2025-06-17 23:26:25,039 - INFO - (nbtest_tmpvar_23, 26,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,039 - INFO - Checking if (nbtest_tmpvar_23, 26,8) should be added.
+2025-06-17 23:26:25,039 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,039 - INFO - set()
+2025-06-17 23:26:25,039 - INFO - The def_value is:
+2025-06-17 23:26:25,039 - INFO - nbtest_tmpvar_23_None
+2025-06-17 23:26:25,039 - INFO - (nbtest_tmpvar_23, 26,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,039 - INFO - Checking if ('accuracy: ', 26,10) should be added.
+2025-06-17 23:26:25,039 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,039 - INFO - set()
+2025-06-17 23:26:25,039 - INFO - The def_value is:
+2025-06-17 23:26:25,039 - INFO - 'accuracy: '_None
+2025-06-17 23:26:25,039 - INFO - ('accuracy: ', 26,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (roc_auc, 27,4) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - roc_auc_None
+2025-06-17 23:26:25,040 - INFO - (roc_auc, 27,4) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,5) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,5) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,6) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,6) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,7) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,7) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,8) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,8) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,9) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,9) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,10) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,10) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,040 - INFO - Checking if (nbtest_tmpvar_24, 27,11) should be added.
+2025-06-17 23:26:25,040 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,040 - INFO - set()
+2025-06-17 23:26:25,040 - INFO - The def_value is:
+2025-06-17 23:26:25,040 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,040 - INFO - (nbtest_tmpvar_24, 27,11) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,041 - INFO - Checking if (nbtest_tmpvar_24, 27,12) should be added.
+2025-06-17 23:26:25,041 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,041 - INFO - set()
+2025-06-17 23:26:25,041 - INFO - The def_value is:
+2025-06-17 23:26:25,041 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,041 - INFO - (nbtest_tmpvar_24, 27,12) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,041 - INFO - Checking if (nbtest_tmpvar_24, 27,13) should be added.
+2025-06-17 23:26:25,041 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,041 - INFO - set()
+2025-06-17 23:26:25,041 - INFO - The def_value is:
+2025-06-17 23:26:25,041 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,041 - INFO - (nbtest_tmpvar_24, 27,13) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,041 - INFO - Checking if (nbtest_tmpvar_24, 27,14) should be added.
+2025-06-17 23:26:25,041 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,041 - INFO - set()
+2025-06-17 23:26:25,041 - INFO - The def_value is:
+2025-06-17 23:26:25,041 - INFO - nbtest_tmpvar_24_None
+2025-06-17 23:26:25,041 - INFO - (nbtest_tmpvar_24, 27,14) is not in the self.def_set. Instrumenting
+2025-06-17 23:26:25,041 - INFO - Checking if (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) should be added.
+2025-06-17 23:26:25,041 - INFO - Current self.def_set: 
+2025-06-17 23:26:25,041 - INFO - set()
+2025-06-17 23:26:25,041 - INFO - The def_value is:
+2025-06-17 23:26:25,041 - INFO - sklearn.metrics.roc_auc_score(y_test, y_pred)_None
+2025-06-17 23:26:25,041 - INFO - (sklearn.metrics.roc_auc_score(y_test, y_pred), 27,15) is not in the self.def_set. Instrumenting

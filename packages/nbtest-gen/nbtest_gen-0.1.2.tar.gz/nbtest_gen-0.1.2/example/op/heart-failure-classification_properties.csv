@@ -1,0 +1,60 @@
+Variable,Assertion Type,Code Cell,Line Number
+df,DATASET__read_csv,2,3
+nbtest_tmpvar_0,DATASET__head,3,1
+nbtest_tmpvar_1,DATASET__info,4,1
+nbtest_tmpvar_2,DATASET__any,5,1
+df.shape,DATASET__ATTRIBUTE_ACCESS,6,1
+nbtest_tmpvar_3,DATASET__describe,7,1
+i,PRINT__print,8,2
+df[f'{i}'].value_counts(),UNKNOWN__print_call,8,3
+nbtest_tmpvar_4,PLOT__show,9,6
+nbtest_tmpvar_5,PLOT__heatmap,10,3
+nbtest_tmpvar_6,PLOT__show,10,5
+df.corr().abs()['DEATH_EVENT'].nlargest(15),UNKNOWN__print_call,11,1
+col_reduced,UNKNOWN__SINGLE_VAR,12,2
+x_train,DATASET__train_test_split,14,2
+x_test,DATASET__train_test_split,14,2
+y_train,DATASET__train_test_split,14,2
+y_test,DATASET__train_test_split,14,2
+nbtest_tmpvar_7,MODEL_ARCH__fit,16,3
+cm,MODEL_PERF__confusion_matrix,16,5
+nbtest_tmpvar_8,PLOT__show,16,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,16,10
+roc_auc,MODEL_PERF__auc,17,4
+nbtest_tmpvar_9,PLOT__show,17,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,17,15
+nbtest_tmpvar_10,MODEL_ARCH__fit,18,3
+cm,MODEL_PERF__confusion_matrix,18,5
+nbtest_tmpvar_11,PLOT__show,18,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,18,10
+roc_auc,MODEL_PERF__auc,19,4
+nbtest_tmpvar_12,PLOT__show,19,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,19,15
+nbtest_tmpvar_13,MODEL_ARCH__fit,20,3
+cm,MODEL_PERF__confusion_matrix,20,5
+nbtest_tmpvar_14,PLOT__show,20,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,20,10
+roc_auc,MODEL_PERF__auc,21,4
+nbtest_tmpvar_15,PLOT__show,21,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,21,15
+nbtest_tmpvar_16,MODEL_ARCH__fit,22,3
+cm,MODEL_PERF__confusion_matrix,22,5
+nbtest_tmpvar_17,PLOT__show,22,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,22,10
+roc_auc,MODEL_PERF__auc,23,4
+nbtest_tmpvar_18,PLOT__show,23,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,23,15
+nbtest_tmpvar_19,MODEL_ARCH__fit,24,3
+cm,MODEL_PERF__confusion_matrix,24,5
+nbtest_tmpvar_20,PLOT__show,24,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,24,10
+roc_auc,MODEL_PERF__auc,25,4
+nbtest_tmpvar_21,PLOT__show,25,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,25,15
+nbtest_tmpvar_22,MODEL_ARCH__fit,26,3
+cm,MODEL_PERF__confusion_matrix,26,5
+nbtest_tmpvar_23,PLOT__show,26,8
+"accuracy_score(y_test, y_pred)",MODEL_PERF__accuracy_score,26,10
+roc_auc,MODEL_PERF__auc,27,4
+nbtest_tmpvar_24,PLOT__show,27,14
+"sklearn.metrics.roc_auc_score(y_test, y_pred)",MODEL_PERF__roc_auc_score,27,15
