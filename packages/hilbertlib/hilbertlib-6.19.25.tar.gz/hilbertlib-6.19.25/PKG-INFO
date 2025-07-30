@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hilbertlib
+Version: 6.19.25
+Summary: An all-in-one Python library for bots, math, and more
+Home-page: https://github.com/Synthfax/HilbertLib
+Author: Synthfax
+Author-email: synthfax@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: python-telegram-bot
+Requires-Dist: discord.py
+Requires-Dist: rapidfuzz
+Requires-Dist: mysql-connector-python
