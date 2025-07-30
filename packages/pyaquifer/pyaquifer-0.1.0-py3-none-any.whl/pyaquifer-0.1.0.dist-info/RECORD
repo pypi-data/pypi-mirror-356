@@ -1,0 +1,15 @@
+pyaquifer/__init__.py,sha256=ZdNv_HrXrldol1rpG4sPPyf3PyU-nU4XnKJu5AQPbH8,125
+pyaquifer/config.py,sha256=pSq2KpgdYSUAg4ayCBL9dpudoFNi7v-qSfw4AwPSgoc,2322
+pyaquifer/main.py,sha256=GuyXOZiHs5mBZ89kjdYyBE1yHYYdWX2gEERtcRrTsd4,2541
+pyaquifer/connectors/__init__.py,sha256=E_4QCFvdP3AencgshXiCHnWC5aj5GKUrGejw98ftW88,312
+pyaquifer/connectors/duckdb.py,sha256=uryQJzIaXPzwnMoaEPemAjSHiAxc28pOAAmMtH6bQjM,6826
+pyaquifer/connectors/engine.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaquifer/connectors/glue.py,sha256=-NVw8sByUGEFndM-7GirNDzs9yzhH_czhwS6U0fzIUc,2178
+pyaquifer/connectors/iceberg.py,sha256=uMRcTuOJOfYbfYe28u9Iec8yuy-DWd3TwUcctN_OAok,362
+pyaquifer/connectors/pandas.py,sha256=otNOfl2cSOv-IPmBSgtuyFmOL8nNXq-bBPZAmBozdzg,6957
+pyaquifer/connectors/polars.py,sha256=YOqhu3dtybuLfUk07fLN59TgdsZ8-AV-3J_nqX88YVI,6487
+pyaquifer-0.1.0.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaquifer-0.1.0.dist-info/METADATA,sha256=uyRLEoUEFiVqAJ8onijAAWPVnlUZjKjdJBUKBQWtY50,956
+pyaquifer-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+pyaquifer-0.1.0.dist-info/top_level.txt,sha256=yNkzfRXJQiK0jWLuwexla99YpXnD2ujL2mDPM1M4vkc,10
+pyaquifer-0.1.0.dist-info/RECORD,,
