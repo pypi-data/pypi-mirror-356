@@ -1,0 +1,17 @@
+hipp/__about__.py,sha256=VkDEVczzhlOMh5BfnjrL_EzYwVzGvzbcY6NY2vFyXoM,23
+hipp/__init__.py,sha256=eqeoCiT-R0mVqrUsifDHhI-biriSBO8pp53x48Hu1Sk,167
+hipp/image.py,sha256=2cow30mEHUS3mg3M0_e9E1oBqBFBrRJW0NcBHSkGwwk,6202
+hipp/math.py,sha256=OA-to9_04vUxH_u8iHJhWMNCwdHWUXcViYVsX7NTSMk,4049
+hipp/tools.py,sha256=Vn6J-rcC_y5Kowqsb0BW_pkURZEABlj9JlXtmb9G8B4,8343
+hipp/aerial/__init__.py,sha256=zhpRiyR1-WLPb7VyD80yeWpkpErTu5qL4nhigX1jRYA,274
+hipp/aerial/aerial_preprocessing.py,sha256=Jg84xMkcNvY52bqqJRPj2YGCLApr8uv8sf94xSrwDxY,18892
+hipp/aerial/core.py,sha256=zUiGYArrkIYx_27tMzJKQr2kXwA_Fv1zPOl45ozjsPQ,12653
+hipp/aerial/fiducials.py,sha256=_ZUg__OLiIr4L4pvd9RRVou-aaBeDcRojxidmJpxIJ8,11654
+hipp/aerial/quality_control.py,sha256=2C_qln17gBtQNTQrRQ4bN-NWZ1AVAaZfwYrK8h3RtsY,5134
+hipp/dataquery/__init__.py,sha256=CbKn0NUyeCz3cjGAH_A1pFJnb83LDnbf71oH911FUkA,94
+hipp/dataquery/nagap.py,sha256=LTxvBGvtmIwqQrORpHum4ahiIx3-zDGKmb7BCSaBKUM,958
+hipp/dataquery/utils.py,sha256=H4PmzmVSqeBiQ_bqv_Dn1y5Q60l1qLnkoJ6Joo9VLSE,2076
+hipp-0.0.3.dist-info/METADATA,sha256=CjUFm3l0DxlotqVDjTh5xfc5jYDdhpv42d2jHLSH2T4,4046
+hipp-0.0.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+hipp-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hipp-0.0.3.dist-info/RECORD,,
