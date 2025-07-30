@@ -1,0 +1,2 @@
+[console_scripts]
+code-understanding-mcp-server = code_understanding.mcp.server.app:main
