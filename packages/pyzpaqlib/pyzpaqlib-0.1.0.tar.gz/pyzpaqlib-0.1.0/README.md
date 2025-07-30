@@ -1,0 +1,191 @@
+# pyzpaqlib
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+`pyzpaqlib`는 강력한 zpaq 아카이버를 Python에서 쉽게 사용할 수 있도록 만든 라이브러리입니다. zpaq 명령줄 도구를 감싸서 파일 압축, 추출, 목록 보기 등 다양한 기능을 Python 코드 내에서 직접 실행할 수 있게 해줍니다.
+
+## 목차
+
+- [주요 기능](#주요-기능)
+- [설치](#설치)
+- [사용법](#사용법)
+- [고급 사용법 (버전 관리)](#고급-사용법-버전-관리)
+- [API 참조](#api-참조)
+  - [`Zpaq.add`](#zpaqaddarchive-files-options)
+  - [`Zpaq.extract`](#zpaqextractarchive-options)
+  - [`Zpaq.list`](#zpaqlistarchive-options)
+- [기여 방법](#기여-방법)
+- [라이선스](#라이선스)
+
+## 주요 기능
+
+- **zpaq 실행 파일 자동 탐지**: 라이브러리에 포함된 `zpaq.exe` 또는 `zpaq64.exe`를 자동으로 찾아 사용합니다. 시스템 PATH에 설치된 경우에도 탐지할 수 있습니다.
+- **간결한 API**: `add`, `extract`, `list` 등 직관적인 메서드를 제공하여 zpaq의 기능을 손쉽게 활용할 수 있습니다.
+- **상세한 파일 정보**: 아카이브 내 파일의 이름, 크기, 수정 시간 등 상세 정보를 `FileInfo` 객체로 제공합니다.
+- **버전 관리**: zpaq의 장점인 버전 관리 기능을 활용하여 여러 버전의 파일을 아카이브에 저장하고 특정 버전으로 복원할 수 있습니다.
+- **오류 처리**: zpaq 실행 중 발생하는 오류를 `ZpaqError` 예외로 처리하여 안정적인 코드를 작성할 수 있도록 돕습니다.
+
+## 설치
+
+`pip`를 사용하여 간단하게 설치할 수 있습니다.
+
+```bash
+pip install pyzpaqlib
+```
+
+## 사용법
+
+다음은 `pyzpaqlib`를 사용하여 파일을 압축하고, 목록을 보고, 압축을 해제하는 기본적인 예제입니다.
+
+```python
+import os
+from pyzpaqlib.zpaqlib import Zpaq, ZpaqError
+
+# 테스트용 파일 생성
+test_filename = "testfile.txt"
+if not os.path.exists(test_filename):
+    with open(test_filename, "w", encoding="utf-8") as f:
+        f.write("ZPAQ Python 예제 파일입니다.\n")
+
+archive_name = "test.zpaq"
+zpaq = Zpaq()
+
+try:
+    # 1. 파일을 아카이브에 추가
+    print(f"'{test_filename}' 파일을 '{archive_name}'에 추가합니다...")
+    zpaq.add(archive=archive_name, files=test_filename)
+    print("추가 완료.")
+
+    # 2. 아카이브 내용 목록 출력
+    print(f"'{archive_name}'의 파일 목록:")
+    file_list = zpaq.list(archive=archive_name)
+    for info in file_list:
+        print(f"- {info.filename} (크기: {info.size}, 날짜: {info.mtime})")
+
+    # 3. 파일 추출 (다른 이름으로)
+    extract_name = "extracted_" + test_filename
+    print(f"'{archive_name}'에서 '{extract_name}'로 파일 추출...")
+    zpaq.extract(archive=archive_name, files=test_filename, to=extract_name, force=True)
+    print("추출 완료.")
+
+except ZpaqError as e:
+    print("ZPAQ 오류 발생:", e)
+except Exception as e:
+    print("예상치 못한 오류:", e)
+```
+
+## 고급 사용법 (버전 관리)
+
+`zpaq`의 강력한 기능 중 하나는 파일의 여러 버전을 하나의 아카이브에 저장하는 것입니다. `pyzpaqlib`를 통해 이 기능을 쉽게 사용할 수 있습니다.
+
+### 파일의 여러 버전 저장하기
+
+파일을 수정한 후 `zpaq.add()`를 다시 호출하면, `zpaq`는 이전 버전은 그대로 두고 변경된 내용을 새로운 버전으로 추가합니다.
+
+```python
+# testfile.txt를 수정하고 다시 추가하여 버전 2를 만듭니다.
+with open(test_filename, "a", encoding="utf-8") as f:
+    f.write("두 번째 버전입니다.\n")
+
+print(f"'{test_filename}' 파일을 '{archive_name}'에 다시 추가합니다 (버전 2)...")
+zpaq.add(archive=archive_name, files=test_filename)
+print("두 번째 버전 추가 완료.")
+```
+
+### 모든 버전의 파일 목록 보기
+
+`zpaq.list()` 메서드에 `all=True` 옵션을 주면 아카이브에 저장된 모든 버전의 파일 목록을 확인할 수 있습니다.
+
+```python
+# 아카이브의 모든 버전 목록 출력
+print(f"'{archive_name}'의 모든 버전 파일 목록:")
+file_list = zpaq.list(archive=archive_name, all=True)
+for info in file_list:
+    print(f"- {info.filename} (크기: {info.size}, 날짜: {info.mtime}, 상태: {info.status})")
+```
+
+### 특정 버전으로 파일 복원하기
+
+`zpaq.extract()` 메서드에서 `until` 옵션을 사용하여 특정 버전의 파일을 추출할 수 있습니다. `until=1`은 가장 오래된 첫 번째 버전을 의미합니다.
+
+```python
+# 첫 번째 버전으로 롤백하여 추출
+extract_name = "rollback_" + test_filename
+print(f"'{archive_name}'에서 첫 번째 버전으로 파일 추출...")
+# until=1: 첫 번째 버전 기준으로 추출
+zpaq.extract(archive=archive_name, files=test_filename, to=extract_name, until=1, force=True)
+print(f"'{extract_name}'로 첫 번째 버전 추출 완료.")
+```
+
+## API 참조
+
+### `Zpaq.add(archive, files, **options)`
+
+아카이브에 파일을 추가하거나 업데이트합니다.
+
+| 파라미터 | 타입 | 설명 |
+| --- | --- | --- |
+| `archive` | `str` | 아카이브 파일 경로. |
+| `files` | `str` or `list` | 추가할 파일 또는 디렉토리 목록. |
+| `key` | `str` | (선택) 암호화 키. |
+| `method` | `int` | (선택) 압축 수준 (0=가장 빠름, 5=가장 좋음). 기본값: 1. |
+| `force` | `bool` | (선택) 파일 내용이 변경된 경우에만 추가합니다. 기본값: `False`. |
+| `until` | `str` or `int` | (선택) 추가하기 전에 아카이브를 지정된 날짜 또는 버전으로 롤백합니다. |
+| `to` | `str` or `list` | (선택) 외부 파일을 아카이브에 다른 이름으로 저장합니다. |
+| `not` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일을 제외합니다. |
+| `only` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일만 포함합니다. |
+| `progress_callback` | `callable` | (선택) 실시간 진행 상황을 처리할 콜백 함수. |
+| `summary` | `int` | (선택) 0보다 크면 간단한 진행 상황만 표시합니다. |
+| `threads` | `int` | (선택) 사용할 스레드 수 (0=자동). |
+| `noattributes` | `bool` | (선택) 파일 속성/권한을 저장하지 않습니다. |
+| `index` | `str` | (선택) 아카이브에 대한 인덱스 파일을 생성하고 업데이트합니다. |
+
+
+### `Zpaq.extract(archive, **options)`
+
+아카이브에서 파일을 추출합니다.
+
+| 파라미터 | 타입 | 설명 |
+| --- | --- | --- |
+| `archive` | `str` | 아카이브 파일 경로. |
+| `files` | `str` or `list` | (선택) 추출할 특정 파일. 지정하지 않으면 모두 추출. |
+| `key` | `str` | (선택) 암호화된 아카이브 접근 키. |
+| `force` | `bool` | (선택) 추출 시 기존 파일을 덮어씁니다. 기본값: `False`. |
+| `to` | `str` or `list` | (선택) 파일을 다른 이름이나 위치로 추출합니다. |
+| `test` | `bool` | (선택) 디스크에 쓰지 않고 추출을 테스트합니다. 기본값: `False`. |
+| `until` | `str` or `int` | (선택) 지정된 날짜 또는 버전의 파일을 추출합니다. |
+| `all` | `int` | (선택) 모든 버전의 파일을 N자리 디렉토리에 추출합니다. |
+| `progress_callback` | `callable` | (선택) 실시간 진행 상황을 처리할 콜백 함수. |
+| `summary` | `int` | (선택) 0보다 크면 간단한 진행 상황만 표시합니다. |
+| `repack` | `str` | (선택) 추출 대신 새 아카이브 파일로 다시 압축합니다. |
+| `threads` | `int` | (선택) 사용할 스레드 수 (0=자동). |
+| `noattributes` | `bool` | (선택) 저장된 파일 속성을 무시하고 기본값을 사용합니다. |
+| `not` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일을 제외합니다. |
+| `only` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일만 포함합니다. |
+| `index` | `str` | (선택) 아카이브에 대한 인덱스 파일을 생성합니다. |
+
+
+### `Zpaq.list(archive, **options)`
+
+아카이브의 파일 목록을 보여줍니다. 반환값은 `FileInfo` 객체의 리스트입니다.
+
+| 파라미터 | 타입 | 설명 |
+| --- | --- | --- |
+| `archive` | `str` | 아카이브 파일 경로. |
+| `files` | `str` or `list` | (선택) 목록을 볼 특정 파일. |
+| `key` | `str` | (선택) 암호화된 아카이브 접근 키. |
+| `all` | `bool` | (선택) 삭제된 파일을 포함한 모든 버전을 표시합니다. 기본값: `False`. |
+| `until` | `str` or `int` | (선택) 지정된 날짜 또는 버전의 아카이브 내용을 표시합니다. |
+| `not` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일 또는 비교 결과에 따라 제외합니다. |
+| `only` | `str` or `list` | (선택) 지정된 패턴과 일치하는 파일만 포함합니다. |
+| `force` | `bool` | (선택) 날짜/속성 대신 파일 내용을 비교합니다. |
+| `to` | `str` or `list` | (선택) 외부 파일을 아카이브의 다른 이름 아래 파일과 비교합니다. |
+| `summary` | `int` | (선택) 크기별 상위 N개 파일/디렉토리만 표시합니다. -1은 프래그먼트 ID를 표시합니다. |
+
+## 기여 및 유지보수 안내
+
+이 라이브러리는 개인 사용 목적(primary for personal use)으로 작성되었습니다. 기여(Pull Request)나 이슈(issues) 등록은 언제든 환영하지만, 응답이나 처리가 오래 걸리거나(혹은) 불가능할 수 있습니다. 빠른 대응이나 적극적인 유지보수는 보장되지 않습니다. 참고 부탁드립니다.
+
+## 라이선스
+
+이 프로젝트는 MIT 라이선스를 따릅니다.

@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pyzpaqlib/__init__.py
+pyzpaqlib/zpaqlib.py
+pyzpaqlib.egg-info/PKG-INFO
+pyzpaqlib.egg-info/SOURCES.txt
+pyzpaqlib.egg-info/dependency_links.txt
+pyzpaqlib.egg-info/top_level.txt
+pyzpaqlib/bin/zpaq.exe
+pyzpaqlib/bin/zpaq64.exe
