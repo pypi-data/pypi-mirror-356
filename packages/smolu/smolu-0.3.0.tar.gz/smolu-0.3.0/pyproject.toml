@@ -1,0 +1,28 @@
+[project]
+name = "smolu"
+description = "File-based url shortener to self-host"
+authors = [
+    { name = "Théo Cavignac", email = "theo.cavignac@gmail.com" }
+]
+dependencies = []
+dynamic = ["version"]
+
+license = "BSD-3-Clause"
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.scripts]
+smolu = "smolu.__main__:main"
+
+[project.urls]
+repository = "https://git.sr.ht/~lattay/smolu"
+homepage = "https://git.sr.ht/~lattay/smolu"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["smolu"]
+
+[tool.setuptools.dynamic]
+version = {attr = "smolu.__version__"}
