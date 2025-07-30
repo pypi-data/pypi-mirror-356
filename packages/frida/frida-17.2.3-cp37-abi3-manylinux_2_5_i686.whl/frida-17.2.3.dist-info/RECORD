@@ -1,0 +1,11 @@
+frida/__init__.py,sha256=a1LZ7PHq3e2xzibK7PE_Mg-uO6vdWgqHhP1G-QP-nro,4804
+frida/_frida.abi3.so,sha256=8hNKJ47DusJnqs5T48Wtq3ue0JUhDpoWcjXQnA1hVLM,56678244
+frida/core.py,sha256=b-yRdW0nU0PtWCV9y902Vx8d3VT-37KQwTEinahxOfs,53578
+frida/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frida/_frida/__init__.pyi,sha256=cZhKMIFinoTc_bNUTAL_BmoF5Cu8Fj5jaliufjuVtl8,18321
+frida/_frida/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frida-17.2.3.dist-info/licenses/COPYING,sha256=XqFUS1Gii8gjsDFZGQ1BCPn7T075EjifUTfG0pXhdbI,2416
+frida-17.2.3.dist-info/METADATA,sha256=rRaF8fRJaVuHxkQy0ZqotgYRST3YqBDN-NHYy11Czvw,2267
+frida-17.2.3.dist-info/WHEEL,sha256=kgflVwEtIv4c7OD3rl3ZaQPnYmIV8pyGmJMReu8CDxI,108
+frida-17.2.3.dist-info/top_level.txt,sha256=oN8vsVLldC7oANGKeaEE7b3L_7C-UCCVJKfiWucfYNE,6
+frida-17.2.3.dist-info/RECORD,,
