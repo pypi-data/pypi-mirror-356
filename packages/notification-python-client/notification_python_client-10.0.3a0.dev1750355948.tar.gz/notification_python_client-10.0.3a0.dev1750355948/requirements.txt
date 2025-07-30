@@ -1,0 +1,7 @@
+# Unlike in other repos these requirements are only needing for building the
+# project, not installing/running it. This file still needs to be called
+# `requirements.txt` so that the version_tools scripts in utils can inspect
+# it to work out the current utils version
+
+# Run `make bump-utils` to update to the latest version
+# notifications-utils @ git+https://github.com/alphagov/notifications-utils.git@95.1.1
