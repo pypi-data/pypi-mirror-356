@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "jupyterlab_pioneer_custom_event_demo": true
+    }
+  }
+}
