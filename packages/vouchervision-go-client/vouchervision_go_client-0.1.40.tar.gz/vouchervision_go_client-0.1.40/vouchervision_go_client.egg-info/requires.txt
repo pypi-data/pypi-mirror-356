@@ -1,0 +1,11 @@
+requests
+termcolor
+tabulate
+tqdm
+pyyaml
+
+[analytics]
+pandas
+
+[full]
+pandas
