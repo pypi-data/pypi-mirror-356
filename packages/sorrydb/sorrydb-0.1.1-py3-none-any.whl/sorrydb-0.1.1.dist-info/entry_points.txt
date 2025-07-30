@@ -1,0 +1,6 @@
+[console_scripts]
+deploy_sorrydb=orchestration.deploy:app
+run_llm_agent=sorrydb.cli.run_llm_agent:main
+run_rfl_agent=sorrydb.cli.run_rfl_agent:main
+sorrydb=sorrydb.cli.sorrydb_cli:app
+
