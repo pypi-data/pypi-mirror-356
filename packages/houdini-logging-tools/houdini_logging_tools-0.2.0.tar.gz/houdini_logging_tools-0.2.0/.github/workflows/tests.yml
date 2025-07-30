@@ -1,0 +1,43 @@
+# Execute repository tests.
+name: Tests
+
+on:
+  - push
+  - workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        houdini-version: ["20.5"]
+
+    container:
+      image: captainhammy/hython-runner:${{ matrix.houdini-version }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup licensing
+        uses: captainhammy/setup-hserver-action@v1
+        with:
+          server: ${{ secrets.LICENSE_SERVER }}
+          client_id: ${{ secrets.SESI_CLIENT_ID }}
+          client_secret_key: ${{ secrets.SESI_SECRET_KEY }}
+
+      - name: Install dependencies
+        run: python3 -m pip install tox tox-gh-actions coverage
+
+      - name: Test with tox
+        run: tox
+
+      - name: Workaround for codecov/feedback#263
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: captainhammy/houdini-logging-tools
