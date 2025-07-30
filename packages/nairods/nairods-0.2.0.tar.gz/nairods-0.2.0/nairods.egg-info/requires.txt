@@ -1,0 +1,9 @@
+loguru
+pandas
+psycopg2
+xlwt
+PyYAML
+fitz
+requests
+requests-toolbelt
+beautifulsoup4

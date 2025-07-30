@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nairods"
+version = "0.2.0"
+description = "统一的异步工具库，支持文件、数据库、时间、日志等多种操作"
+authors = [{name = "nairoads", email = "your@email.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "loguru",
+    "pandas",
+    "psycopg2",
+    "xlwt",
+    "PyYAML",
+    "fitz",  # PyMuPDF
+    "requests",
+    "requests-toolbelt",
+    "beautifulsoup4"
+]
+
+[project.scripts]
+nairods = "nairods.tools.__main__:main" 
