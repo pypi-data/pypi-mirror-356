@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ 'APP_NAME' | appconfig }}: Login Page</title>
+        <link rel="icon" type="image/x-icon" href="
+        {% if not 'APP_FAVICON' | appconfig %}
+        {{ url_for('edits.static', filename='favicon.ico') }}
+        {% else %}
+        {{ 'APP_FAVICON' | appconfig | safe }}
+        {% endif %}" />
+        <!-- Include Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <style>
+            /* Custom styles for this template */
+            body {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                background-color: #f8f9fa;
+            }
+            main {
+                flex: 1 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .navbar-brand {
+                font-size: 36px; /* Increase font size */
+                margin-top: auto; /* Center vertically */
+                margin-bottom: auto; /* Center vertically */
+            }
+            .login-container {
+                background-color: #ffffff;
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                max-width: 400px;
+                width: 100%;
+            }
+            .submit-btn {
+                text-align: right; /* Align submit button to the right */
+            }
+            .footer {
+                position: absolute;
+                bottom: 25px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+            }
+            .alert-dismissible .close {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 0.75rem 1.25rem;
+                color: inherit;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            
+        </header>
+
+        <main role="main" class="flex-shrink-0">
+            <div class="container login-container">
+                <h2 class="text-center">{{ 'APP_NAME_HTML' | appconfig }} Login</h2><br />
+                {% if ERROR %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{ ERROR }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                {% endif %}
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Username</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp" placeholder="Enter username" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password" />
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">{{ 'LOGIN_FOOTER' | appconfig | safe }}</span>
+            </div>
+        </footer>
+
+        <!-- Include jQuery before Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

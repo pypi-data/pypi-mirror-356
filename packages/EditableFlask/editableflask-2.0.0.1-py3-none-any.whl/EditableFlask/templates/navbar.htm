@@ -1,0 +1,100 @@
+{% set edits_url = 'EDITS_URL' | appconfig %} 
+<div class="navbar navbar-default" role="navigation">
+  <div class="container-fluid" style="height: 54px">
+    <div class="navbar-header">
+      <style>
+        .navbar-header {
+          width: auto;
+          height: 40px;
+          margin-left: 5px;
+          margin-top: 5px;
+          padding: 5px;
+        }
+        .navbar-brand {
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 0px;
+        }
+      </style>
+      {% if path != edits_url+'/analytics' %}
+      {%if path != edits_url+'/users' %}
+      {%if path != edits_url+'/monitor' %}
+      <style>
+        .navbar-header{
+          width: auto;
+          height: 40px; 
+          margin-left: 5px; 
+          margin-top: 5px;
+          padding: 5px;
+          border-radius: 10px;
+          background-color: rgb(217, 217, 217);
+        }
+        .navbar-brand{
+          margin: 0;
+          padding-top: 5px;
+          padding-right: 0px;
+        }
+        .navbar-header:hover {
+          background-color: rgb(217, 217, 217); /* Ensure no change on hover */
+        }
+      </style>
+      {% endif %}
+      {% endif %}
+      {% endif %}
+      {% set edits = edits | retrive_edits %}
+      {% for page, regions in edits.items() %}
+      {% if "/" in permitted_links or page in permitted_links %}
+      <a class="navbar-brand" href="#"></a>
+      {% endif %}
+      {% endfor %}
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check if any elements with the class 'navbar-brand' exist
+          var navbarBrands = document.querySelectorAll('.navbar-brand');
+          if (navbarBrands.length > 0) {
+            // Remove all existing 'navbar-brand' elements
+            navbarBrands.forEach(function(navbarBrand) {
+              navbarBrand.remove();
+            });
+      
+            // Create a new 'a' element
+            var newBrand = document.createElement('a');
+            newBrand.className = 'navbar-brand';
+            newBrand.href = '{{ "EDITS_URL" | appconfig }}';
+            newBrand.innerHTML = '{{ "APP_NAME_HTML" | appconfig | safe }}';
+      
+            // Find the navbar-header element and append the new brand element
+            var navbarHeader = document.querySelector('.navbar-header');
+            if (navbarHeader) {
+              navbarHeader.appendChild(newBrand);
+            }
+          }
+        });
+      </script>
+    </div>
+    <div class="navbar-nav">
+      
+      {% if 'analytics' in permitted_links or "/" in permitted_links and 'ENABLE_ANALYTICS' | appconfig %}
+      <a {% if path == edits_url+'/analytics' %}class="active"{% endif %} href="{{ edits_url }}/analytics">Analytics</a>
+      {% endif %} 
+      {% if 'users' in permitted_links or "/" in permitted_links and 'EDITS_LOCKED' | appconfig == "SQL" %}
+      <a {% if path == edits_url+'/users' %}class="active"{% endif %} href="{{ edits_url }}/users">Users</a>
+      {% endif %}
+      {% if 'monitor' in permitted_links or "/" in permitted_links and 'ENABLE_RESOURCE_MONITER' | appconfig %}
+      <a {% if path == edits_url+'/monitor' %}class="active"{% endif %} href="{{ edits_url }}/monitor">Resources</a>
+      {% endif %}
+    </div>
+    <div class="pull-right" style="margin-top: 6px">
+      <label style="font-weight: normal; vertical-align: middle">Preview</label>
+      &nbsp;&nbsp;
+      <input type="checkbox" name="mode" {% if preview %}checked{% endif %} />
+      {% if 'EDITS_LOCKED' | appconfig %}
+      <a
+        type="submit"
+        href="{{ 'EDITS_URL' | appconfig }}/logout"
+        class="btn btn-logout"
+        >Logout</a>
+        {% endif %}
+    </div>
+  </div>
+</div>
