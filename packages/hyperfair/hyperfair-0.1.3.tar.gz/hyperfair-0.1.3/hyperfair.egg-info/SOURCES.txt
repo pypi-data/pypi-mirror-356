@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+hyperfair/__init__.py
+hyperfair/data_loader.py
+hyperfair/hyperfair.py
+hyperfair/mc_algo.py
+hyperfair/plotting.py
+hyperfair.egg-info/PKG-INFO
+hyperfair.egg-info/SOURCES.txt
+hyperfair.egg-info/dependency_links.txt
+hyperfair.egg-info/requires.txt
+hyperfair.egg-info/top_level.txt
