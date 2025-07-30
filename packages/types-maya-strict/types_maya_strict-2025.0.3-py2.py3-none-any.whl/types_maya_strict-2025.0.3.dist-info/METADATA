@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: types-maya-strict
+Version: 2025.0.3
+Summary: Unofficial python stubs for Autodesk Maya. Strict mode.
+Author: Chad Dombrova
+License-Expression: MIT
+Keywords: 3d,CG,VFX,animation,games,graphics
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Stubs Only
