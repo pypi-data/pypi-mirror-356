@@ -1,0 +1,521 @@
+"""InterMountableComponentConnectionCompoundCriticalSpeedAnalysis"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal import conversion, utility
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.exception_bridge import exception_bridge
+from mastapy._private._internal.exceptions import CastException
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+    _7023,
+)
+
+_INTER_MOUNTABLE_COMPONENT_CONNECTION_COMPOUND_CRITICAL_SPEED_ANALYSIS = (
+    python_net_import(
+        "SMT.MastaAPI.SystemModel.AnalysesAndResults.CriticalSpeedAnalyses.Compound",
+        "InterMountableComponentConnectionCompoundCriticalSpeedAnalysis",
+    )
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2890
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7876,
+        _7880,
+    )
+    from mastapy._private.system_model.analyses_and_results.critical_speed_analyses import (
+        _6922,
+    )
+    from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+        _6993,
+        _6997,
+        _7000,
+        _7005,
+        _7010,
+        _7015,
+        _7018,
+        _7021,
+        _7026,
+        _7028,
+        _7036,
+        _7042,
+        _7047,
+        _7051,
+        _7055,
+        _7058,
+        _7061,
+        _7071,
+        _7080,
+        _7083,
+        _7090,
+        _7093,
+        _7096,
+        _7099,
+        _7108,
+        _7114,
+        _7117,
+    )
+
+    Self = TypeVar(
+        "Self", bound="InterMountableComponentConnectionCompoundCriticalSpeedAnalysis"
+    )
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="InterMountableComponentConnectionCompoundCriticalSpeedAnalysis._Cast_InterMountableComponentConnectionCompoundCriticalSpeedAnalysis",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("InterMountableComponentConnectionCompoundCriticalSpeedAnalysis",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_InterMountableComponentConnectionCompoundCriticalSpeedAnalysis:
+    """Special nested class for casting InterMountableComponentConnectionCompoundCriticalSpeedAnalysis to subclasses."""
+
+    __parent__: "InterMountableComponentConnectionCompoundCriticalSpeedAnalysis"
+
+    @property
+    def connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7023.ConnectionCompoundCriticalSpeedAnalysis":
+        return self.__parent__._cast(_7023.ConnectionCompoundCriticalSpeedAnalysis)
+
+    @property
+    def connection_compound_analysis(
+        self: "CastSelf",
+    ) -> "_7876.ConnectionCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7876,
+        )
+
+        return self.__parent__._cast(_7876.ConnectionCompoundAnalysis)
+
+    @property
+    def design_entity_compound_analysis(
+        self: "CastSelf",
+    ) -> "_7880.DesignEntityCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7880,
+        )
+
+        return self.__parent__._cast(_7880.DesignEntityCompoundAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2890.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2890
+
+        return self.__parent__._cast(_2890.DesignEntityAnalysis)
+
+    @property
+    def agma_gleason_conical_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_6993.AGMAGleasonConicalGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _6993,
+        )
+
+        return self.__parent__._cast(
+            _6993.AGMAGleasonConicalGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def belt_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_6997.BeltConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _6997,
+        )
+
+        return self.__parent__._cast(_6997.BeltConnectionCompoundCriticalSpeedAnalysis)
+
+    @property
+    def bevel_differential_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7000.BevelDifferentialGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7000,
+        )
+
+        return self.__parent__._cast(
+            _7000.BevelDifferentialGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def bevel_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7005.BevelGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7005,
+        )
+
+        return self.__parent__._cast(_7005.BevelGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def clutch_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7010.ClutchConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7010,
+        )
+
+        return self.__parent__._cast(
+            _7010.ClutchConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def concept_coupling_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7015.ConceptCouplingConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7015,
+        )
+
+        return self.__parent__._cast(
+            _7015.ConceptCouplingConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def concept_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7018.ConceptGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7018,
+        )
+
+        return self.__parent__._cast(_7018.ConceptGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def conical_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7021.ConicalGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7021,
+        )
+
+        return self.__parent__._cast(_7021.ConicalGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def coupling_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7026.CouplingConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7026,
+        )
+
+        return self.__parent__._cast(
+            _7026.CouplingConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def cvt_belt_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7028.CVTBeltConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7028,
+        )
+
+        return self.__parent__._cast(
+            _7028.CVTBeltConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def cylindrical_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7036.CylindricalGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7036,
+        )
+
+        return self.__parent__._cast(
+            _7036.CylindricalGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def face_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7042.FaceGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7042,
+        )
+
+        return self.__parent__._cast(_7042.FaceGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7047.GearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7047,
+        )
+
+        return self.__parent__._cast(_7047.GearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def hypoid_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7051.HypoidGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7051,
+        )
+
+        return self.__parent__._cast(_7051.HypoidGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def klingelnberg_cyclo_palloid_conical_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7055.KlingelnbergCycloPalloidConicalGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7055,
+        )
+
+        return self.__parent__._cast(
+            _7055.KlingelnbergCycloPalloidConicalGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_hypoid_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7058.KlingelnbergCycloPalloidHypoidGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7058,
+        )
+
+        return self.__parent__._cast(
+            _7058.KlingelnbergCycloPalloidHypoidGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_spiral_bevel_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> (
+        "_7061.KlingelnbergCycloPalloidSpiralBevelGearMeshCompoundCriticalSpeedAnalysis"
+    ):
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7061,
+        )
+
+        return self.__parent__._cast(
+            _7061.KlingelnbergCycloPalloidSpiralBevelGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def part_to_part_shear_coupling_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7071.PartToPartShearCouplingConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7071,
+        )
+
+        return self.__parent__._cast(
+            _7071.PartToPartShearCouplingConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def ring_pins_to_disc_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7080.RingPinsToDiscConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7080,
+        )
+
+        return self.__parent__._cast(
+            _7080.RingPinsToDiscConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def rolling_ring_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7083.RollingRingConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7083,
+        )
+
+        return self.__parent__._cast(
+            _7083.RollingRingConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def spiral_bevel_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7090.SpiralBevelGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7090,
+        )
+
+        return self.__parent__._cast(
+            _7090.SpiralBevelGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def spring_damper_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7093.SpringDamperConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7093,
+        )
+
+        return self.__parent__._cast(
+            _7093.SpringDamperConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_diff_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7096.StraightBevelDiffGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7096,
+        )
+
+        return self.__parent__._cast(
+            _7096.StraightBevelDiffGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7099.StraightBevelGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7099,
+        )
+
+        return self.__parent__._cast(
+            _7099.StraightBevelGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def torque_converter_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7108.TorqueConverterConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7108,
+        )
+
+        return self.__parent__._cast(
+            _7108.TorqueConverterConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def worm_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7114.WormGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7114,
+        )
+
+        return self.__parent__._cast(_7114.WormGearMeshCompoundCriticalSpeedAnalysis)
+
+    @property
+    def zerol_bevel_gear_mesh_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7117.ZerolBevelGearMeshCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7117,
+        )
+
+        return self.__parent__._cast(
+            _7117.ZerolBevelGearMeshCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def inter_mountable_component_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "InterMountableComponentConnectionCompoundCriticalSpeedAnalysis":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class InterMountableComponentConnectionCompoundCriticalSpeedAnalysis(
+    _7023.ConnectionCompoundCriticalSpeedAnalysis
+):
+    """InterMountableComponentConnectionCompoundCriticalSpeedAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = (
+        _INTER_MOUNTABLE_COMPONENT_CONNECTION_COMPOUND_CRITICAL_SPEED_ANALYSIS
+    )
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    @exception_bridge
+    def connection_analysis_cases(
+        self: "Self",
+    ) -> "List[_6922.InterMountableComponentConnectionCriticalSpeedAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.critical_speed_analyses.InterMountableComponentConnectionCriticalSpeedAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ConnectionAnalysisCases")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    @exception_bridge
+    def connection_analysis_cases_ready(
+        self: "Self",
+    ) -> "List[_6922.InterMountableComponentConnectionCriticalSpeedAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.critical_speed_analyses.InterMountableComponentConnectionCriticalSpeedAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ConnectionAnalysisCasesReady")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(
+        self: "Self",
+    ) -> "_Cast_InterMountableComponentConnectionCompoundCriticalSpeedAnalysis":
+        """Cast to another type.
+
+        Returns:
+            _Cast_InterMountableComponentConnectionCompoundCriticalSpeedAnalysis
+        """
+        return _Cast_InterMountableComponentConnectionCompoundCriticalSpeedAnalysis(
+            self
+        )

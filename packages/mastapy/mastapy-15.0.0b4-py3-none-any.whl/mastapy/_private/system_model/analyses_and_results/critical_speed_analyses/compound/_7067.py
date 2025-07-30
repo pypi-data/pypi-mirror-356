@@ -1,0 +1,748 @@
+"""MountableComponentCompoundCriticalSpeedAnalysis"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, ClassVar
+
+from mastapy._private._internal import conversion, utility
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.exception_bridge import exception_bridge
+from mastapy._private._internal.exceptions import CastException
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+    _7013,
+)
+
+_MOUNTABLE_COMPONENT_COMPOUND_CRITICAL_SPEED_ANALYSIS = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.CriticalSpeedAnalyses.Compound",
+    "MountableComponentCompoundCriticalSpeedAnalysis",
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2890
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7880,
+        _7883,
+    )
+    from mastapy._private.system_model.analyses_and_results.critical_speed_analyses import (
+        _6936,
+    )
+    from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+        _6992,
+        _6996,
+        _6999,
+        _7002,
+        _7003,
+        _7004,
+        _7011,
+        _7016,
+        _7017,
+        _7020,
+        _7024,
+        _7027,
+        _7030,
+        _7035,
+        _7038,
+        _7041,
+        _7046,
+        _7050,
+        _7054,
+        _7057,
+        _7060,
+        _7063,
+        _7064,
+        _7068,
+        _7069,
+        _7072,
+        _7075,
+        _7076,
+        _7077,
+        _7078,
+        _7079,
+        _7082,
+        _7086,
+        _7089,
+        _7094,
+        _7095,
+        _7098,
+        _7101,
+        _7102,
+        _7104,
+        _7105,
+        _7106,
+        _7109,
+        _7110,
+        _7111,
+        _7112,
+        _7113,
+        _7116,
+    )
+
+    Self = TypeVar("Self", bound="MountableComponentCompoundCriticalSpeedAnalysis")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="MountableComponentCompoundCriticalSpeedAnalysis._Cast_MountableComponentCompoundCriticalSpeedAnalysis",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("MountableComponentCompoundCriticalSpeedAnalysis",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_MountableComponentCompoundCriticalSpeedAnalysis:
+    """Special nested class for casting MountableComponentCompoundCriticalSpeedAnalysis to subclasses."""
+
+    __parent__: "MountableComponentCompoundCriticalSpeedAnalysis"
+
+    @property
+    def component_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7013.ComponentCompoundCriticalSpeedAnalysis":
+        return self.__parent__._cast(_7013.ComponentCompoundCriticalSpeedAnalysis)
+
+    @property
+    def part_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7069.PartCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7069,
+        )
+
+        return self.__parent__._cast(_7069.PartCompoundCriticalSpeedAnalysis)
+
+    @property
+    def part_compound_analysis(self: "CastSelf") -> "_7883.PartCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7883,
+        )
+
+        return self.__parent__._cast(_7883.PartCompoundAnalysis)
+
+    @property
+    def design_entity_compound_analysis(
+        self: "CastSelf",
+    ) -> "_7880.DesignEntityCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7880,
+        )
+
+        return self.__parent__._cast(_7880.DesignEntityCompoundAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2890.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2890
+
+        return self.__parent__._cast(_2890.DesignEntityAnalysis)
+
+    @property
+    def agma_gleason_conical_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_6992.AGMAGleasonConicalGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _6992,
+        )
+
+        return self.__parent__._cast(
+            _6992.AGMAGleasonConicalGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def bearing_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_6996.BearingCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _6996,
+        )
+
+        return self.__parent__._cast(_6996.BearingCompoundCriticalSpeedAnalysis)
+
+    @property
+    def bevel_differential_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_6999.BevelDifferentialGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _6999,
+        )
+
+        return self.__parent__._cast(
+            _6999.BevelDifferentialGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def bevel_differential_planet_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7002.BevelDifferentialPlanetGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7002,
+        )
+
+        return self.__parent__._cast(
+            _7002.BevelDifferentialPlanetGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def bevel_differential_sun_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7003.BevelDifferentialSunGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7003,
+        )
+
+        return self.__parent__._cast(
+            _7003.BevelDifferentialSunGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def bevel_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7004.BevelGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7004,
+        )
+
+        return self.__parent__._cast(_7004.BevelGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def clutch_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7011.ClutchHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7011,
+        )
+
+        return self.__parent__._cast(_7011.ClutchHalfCompoundCriticalSpeedAnalysis)
+
+    @property
+    def concept_coupling_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7016.ConceptCouplingHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7016,
+        )
+
+        return self.__parent__._cast(
+            _7016.ConceptCouplingHalfCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def concept_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7017.ConceptGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7017,
+        )
+
+        return self.__parent__._cast(_7017.ConceptGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def conical_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7020.ConicalGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7020,
+        )
+
+        return self.__parent__._cast(_7020.ConicalGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def connector_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7024.ConnectorCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7024,
+        )
+
+        return self.__parent__._cast(_7024.ConnectorCompoundCriticalSpeedAnalysis)
+
+    @property
+    def coupling_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7027.CouplingHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7027,
+        )
+
+        return self.__parent__._cast(_7027.CouplingHalfCompoundCriticalSpeedAnalysis)
+
+    @property
+    def cvt_pulley_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7030.CVTPulleyCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7030,
+        )
+
+        return self.__parent__._cast(_7030.CVTPulleyCompoundCriticalSpeedAnalysis)
+
+    @property
+    def cylindrical_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7035.CylindricalGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7035,
+        )
+
+        return self.__parent__._cast(_7035.CylindricalGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def cylindrical_planet_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7038.CylindricalPlanetGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7038,
+        )
+
+        return self.__parent__._cast(
+            _7038.CylindricalPlanetGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def face_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7041.FaceGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7041,
+        )
+
+        return self.__parent__._cast(_7041.FaceGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7046.GearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7046,
+        )
+
+        return self.__parent__._cast(_7046.GearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def hypoid_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7050.HypoidGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7050,
+        )
+
+        return self.__parent__._cast(_7050.HypoidGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def klingelnberg_cyclo_palloid_conical_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7054.KlingelnbergCycloPalloidConicalGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7054,
+        )
+
+        return self.__parent__._cast(
+            _7054.KlingelnbergCycloPalloidConicalGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_hypoid_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7057.KlingelnbergCycloPalloidHypoidGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7057,
+        )
+
+        return self.__parent__._cast(
+            _7057.KlingelnbergCycloPalloidHypoidGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_spiral_bevel_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7060.KlingelnbergCycloPalloidSpiralBevelGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7060,
+        )
+
+        return self.__parent__._cast(
+            _7060.KlingelnbergCycloPalloidSpiralBevelGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def mass_disc_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7063.MassDiscCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7063,
+        )
+
+        return self.__parent__._cast(_7063.MassDiscCompoundCriticalSpeedAnalysis)
+
+    @property
+    def measurement_component_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7064.MeasurementComponentCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7064,
+        )
+
+        return self.__parent__._cast(
+            _7064.MeasurementComponentCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def oil_seal_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7068.OilSealCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7068,
+        )
+
+        return self.__parent__._cast(_7068.OilSealCompoundCriticalSpeedAnalysis)
+
+    @property
+    def part_to_part_shear_coupling_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7072.PartToPartShearCouplingHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7072,
+        )
+
+        return self.__parent__._cast(
+            _7072.PartToPartShearCouplingHalfCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def planet_carrier_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7075.PlanetCarrierCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7075,
+        )
+
+        return self.__parent__._cast(_7075.PlanetCarrierCompoundCriticalSpeedAnalysis)
+
+    @property
+    def point_load_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7076.PointLoadCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7076,
+        )
+
+        return self.__parent__._cast(_7076.PointLoadCompoundCriticalSpeedAnalysis)
+
+    @property
+    def power_load_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7077.PowerLoadCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7077,
+        )
+
+        return self.__parent__._cast(_7077.PowerLoadCompoundCriticalSpeedAnalysis)
+
+    @property
+    def pulley_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7078.PulleyCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7078,
+        )
+
+        return self.__parent__._cast(_7078.PulleyCompoundCriticalSpeedAnalysis)
+
+    @property
+    def ring_pins_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7079.RingPinsCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7079,
+        )
+
+        return self.__parent__._cast(_7079.RingPinsCompoundCriticalSpeedAnalysis)
+
+    @property
+    def rolling_ring_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7082.RollingRingCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7082,
+        )
+
+        return self.__parent__._cast(_7082.RollingRingCompoundCriticalSpeedAnalysis)
+
+    @property
+    def shaft_hub_connection_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7086.ShaftHubConnectionCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7086,
+        )
+
+        return self.__parent__._cast(
+            _7086.ShaftHubConnectionCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def spiral_bevel_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7089.SpiralBevelGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7089,
+        )
+
+        return self.__parent__._cast(_7089.SpiralBevelGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def spring_damper_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7094.SpringDamperHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7094,
+        )
+
+        return self.__parent__._cast(
+            _7094.SpringDamperHalfCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_diff_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7095.StraightBevelDiffGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7095,
+        )
+
+        return self.__parent__._cast(
+            _7095.StraightBevelDiffGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7098.StraightBevelGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7098,
+        )
+
+        return self.__parent__._cast(
+            _7098.StraightBevelGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_planet_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7101.StraightBevelPlanetGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7101,
+        )
+
+        return self.__parent__._cast(
+            _7101.StraightBevelPlanetGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def straight_bevel_sun_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7102.StraightBevelSunGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7102,
+        )
+
+        return self.__parent__._cast(
+            _7102.StraightBevelSunGearCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def synchroniser_half_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7104.SynchroniserHalfCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7104,
+        )
+
+        return self.__parent__._cast(
+            _7104.SynchroniserHalfCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def synchroniser_part_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7105.SynchroniserPartCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7105,
+        )
+
+        return self.__parent__._cast(
+            _7105.SynchroniserPartCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def synchroniser_sleeve_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7106.SynchroniserSleeveCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7106,
+        )
+
+        return self.__parent__._cast(
+            _7106.SynchroniserSleeveCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def torque_converter_pump_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7109.TorqueConverterPumpCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7109,
+        )
+
+        return self.__parent__._cast(
+            _7109.TorqueConverterPumpCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def torque_converter_turbine_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7110.TorqueConverterTurbineCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7110,
+        )
+
+        return self.__parent__._cast(
+            _7110.TorqueConverterTurbineCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def unbalanced_mass_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7111.UnbalancedMassCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7111,
+        )
+
+        return self.__parent__._cast(_7111.UnbalancedMassCompoundCriticalSpeedAnalysis)
+
+    @property
+    def virtual_component_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7112.VirtualComponentCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7112,
+        )
+
+        return self.__parent__._cast(
+            _7112.VirtualComponentCompoundCriticalSpeedAnalysis
+        )
+
+    @property
+    def worm_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7113.WormGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7113,
+        )
+
+        return self.__parent__._cast(_7113.WormGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def zerol_bevel_gear_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "_7116.ZerolBevelGearCompoundCriticalSpeedAnalysis":
+        from mastapy._private.system_model.analyses_and_results.critical_speed_analyses.compound import (
+            _7116,
+        )
+
+        return self.__parent__._cast(_7116.ZerolBevelGearCompoundCriticalSpeedAnalysis)
+
+    @property
+    def mountable_component_compound_critical_speed_analysis(
+        self: "CastSelf",
+    ) -> "MountableComponentCompoundCriticalSpeedAnalysis":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True, eq=False)
+class MountableComponentCompoundCriticalSpeedAnalysis(
+    _7013.ComponentCompoundCriticalSpeedAnalysis
+):
+    """MountableComponentCompoundCriticalSpeedAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _MOUNTABLE_COMPONENT_COMPOUND_CRITICAL_SPEED_ANALYSIS
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    @exception_bridge
+    def component_analysis_cases(
+        self: "Self",
+    ) -> "List[_6936.MountableComponentCriticalSpeedAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.critical_speed_analyses.MountableComponentCriticalSpeedAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCases")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    @exception_bridge
+    def component_analysis_cases_ready(
+        self: "Self",
+    ) -> "List[_6936.MountableComponentCriticalSpeedAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.critical_speed_analyses.MountableComponentCriticalSpeedAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCasesReady")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(
+        self: "Self",
+    ) -> "_Cast_MountableComponentCompoundCriticalSpeedAnalysis":
+        """Cast to another type.
+
+        Returns:
+            _Cast_MountableComponentCompoundCriticalSpeedAnalysis
+        """
+        return _Cast_MountableComponentCompoundCriticalSpeedAnalysis(self)
