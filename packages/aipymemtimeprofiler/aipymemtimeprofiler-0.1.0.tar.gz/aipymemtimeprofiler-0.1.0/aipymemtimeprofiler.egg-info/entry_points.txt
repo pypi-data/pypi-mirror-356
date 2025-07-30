@@ -1,0 +1,2 @@
+[console_scripts]
+pymtp = aipymemtimeprofiler.executable.execute:run_with_profiler
