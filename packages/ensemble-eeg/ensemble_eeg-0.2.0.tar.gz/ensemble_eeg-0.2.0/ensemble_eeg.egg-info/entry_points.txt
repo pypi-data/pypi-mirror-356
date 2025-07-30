@@ -1,0 +1,2 @@
+[console_scripts]
+anonymize_eeg_ensemble = ensemble_eeg:_anonymize_eeg_ensemble_main

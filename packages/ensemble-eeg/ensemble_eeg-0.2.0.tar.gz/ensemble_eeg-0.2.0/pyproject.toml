@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ensemble_eeg"
+version = "0.2.0"
+dependencies = [
+    "fire",
+    "numpy",
+    "defusedxml",
+    "dateparser",
+]
+requires-python = ">=3.10"
+authors = [
+  { name="Bauke van der Velde" },
+]
+maintainers = [
+  { name="Aymeric Gaudin" },
+  { name="Dimitri Papadopoulos Orfanos" },
+]
+description = "Package used to analyze preprocess EDF files for the ENSEMBLE study"
+readme = "README.md"
+license-files = [ "LICENSE", "NOTICE" ]
+classifiers = [
+    "Programming Language :: Python",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+anonymize_eeg_ensemble = "ensemble_eeg:_anonymize_eeg_ensemble_main"
+
+[project.urls]
+Repository = "https://github.com/ensemble2/ensemble_eeg"
+
+[tool.setuptools]
+packages = ["ensemble_eeg"]
+
+[tool.ruff.lint]
+extend-select = [
+    "UP",
+    "I",
+    "B",
+    "C4",
+    "PIE",
+    "PYI",
+    "SIM",
+    "PGH",
+    "FLY",
+    "PERF",
+    "FURB",
+    "RUF",
+]
+ignore = [
+    "UP038",  # https://github.com/astral-sh/ruff/issues/7871
+	"B028",
+	"PYI024",
+	"SIM115",
+	"RUF005",
+]

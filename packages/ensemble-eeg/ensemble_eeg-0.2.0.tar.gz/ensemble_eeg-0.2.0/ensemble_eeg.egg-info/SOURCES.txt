@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+pyproject.toml
+ensemble_eeg/__init__.py
+ensemble_eeg/__main__.py
+ensemble_eeg/brm_to_edf.py
+ensemble_eeg/ensemble_edf.py
+ensemble_eeg.egg-info/PKG-INFO
+ensemble_eeg.egg-info/SOURCES.txt
+ensemble_eeg.egg-info/dependency_links.txt
+ensemble_eeg.egg-info/entry_points.txt
+ensemble_eeg.egg-info/requires.txt
+ensemble_eeg.egg-info/top_level.txt
