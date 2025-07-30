@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: PGAA
+Version: 0.1.0
+Summary: PGAA (Pygame-CE Anti-Aliasing) is a Python3 library that provides anti-aliasing for Pygame-CE sufaces.
+Author-email: Adam Kudelas <adam.kudelas.pro@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+License-File: LICENSE.md
+Requires-Dist: pygame-ce >=2.4.0, <3
+Project-URL: Homepage, https://github.com/Iron-Sparrow/PGAA
+
+# PGAA - Pygame-CE Anti-Aliasing
+
+> [!NOTE]
+> This project is very new and still under development. Expect bugs, issues, and incomplete features.
+> This project is not affiliated with the Pygame-CE project.
+
+## Dowload and Install
+
+> [!CAUTION]
+> No download is currently available. But in the future, you will be able to download the latest release from the [Releases](https://github.com/Iron-Sparrow/PGAA/releases) or by using pip.
+
