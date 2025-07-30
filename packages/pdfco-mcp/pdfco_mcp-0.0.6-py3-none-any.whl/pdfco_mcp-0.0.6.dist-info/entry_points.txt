@@ -1,0 +1,2 @@
+[console_scripts]
+pdfco-mcp = pdfco.mcp:main
