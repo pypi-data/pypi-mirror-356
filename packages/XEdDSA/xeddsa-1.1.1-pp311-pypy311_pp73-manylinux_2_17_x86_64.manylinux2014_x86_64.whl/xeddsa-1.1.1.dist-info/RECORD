@@ -1,0 +1,16 @@
+_libxeddsa.pypy311-pp73-x86_64-linux-gnu.so,sha256=7fPlPwNymnNxGrrdlO4UgOxx7QI6tCO0_DIODJK0ksA,108801
+docs/conf.py,sha256=xq552QZi3Tisa_tBfV4sgeE2ZRfqcM2nNy6A_UAxyHw,3699
+libxeddsa/build.py,sha256=xo6Rgzt9KrL-McjekEXPSbWyDYA1us9YeUdBM9Ppe0U,481
+libxeddsa/xeddsa.h,sha256=J8JmsEiIM0k0dYbl8MCK8ZLP6lAo1IlEL8YDOyXMxTI,1171
+stubs/_libxeddsa.pyi,sha256=cky74yA6gHVoN5sRNzJtOlGPWUjPR3hTYl5Z0IxgVsg,1515
+xeddsa/__init__.py,sha256=kIHnTI3Oom9at9pM_RUNYYdDoMKuR967MzgOWvhIcA0,1080
+xeddsa/bindings.py,sha256=njX3mIAziWkFacfkiJewiIJSa3pgFkmp3JwM936zZAY,11195
+xeddsa/libxeddsa_emscripten.py,sha256=zroZeLXhtR_zXSMgsfQVuLM8hTyNxydkNHWZDImww40,5864
+xeddsa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xeddsa/version.py,sha256=DpHKSiANaiqCwfyr3BV4vujcKSIqq_vEHm76D9lyCic,51
+xeddsa.libs/libsodium-f5304dcb.so.23.3.0,sha256=2EDxkgDGe_qMMMGbVRJ1njV9kBAJoCF7gqRXJ3zdQWY,389809
+xeddsa-1.1.1.dist-info/METADATA,sha256=__1Fw07B5rE2hAON3RNN13NjC24QX15-6J599grk7a0,5205
+xeddsa-1.1.1.dist-info/WHEEL,sha256=mje-Tr4106OHZ_x4PGMdFDLGI2Fryf8sTm1TVPGtZd8,165
+xeddsa-1.1.1.dist-info/top_level.txt,sha256=Kx4ElAzrKFbDqZdcCnaYyEoi30Po8KvK5zccm6W3b7Q,56
+xeddsa-1.1.1.dist-info/RECORD,,
+xeddsa-1.1.1.dist-info/licenses/LICENSE,sha256=3oHZTDiA_eYZzPDrXbm3ZCZzoeeP7riyHs-U4XRs-aM,1081
