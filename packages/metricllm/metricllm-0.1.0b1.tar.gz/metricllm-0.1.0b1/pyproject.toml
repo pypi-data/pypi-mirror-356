@@ -1,0 +1,38 @@
+[project]
+name = "metricllm"
+version = "0.1.0b1"
+description = "Add your description here"
+requires-python = ">=3.12,<4.0"
+package-mode = false
+dependencies = [
+    "alembic>=1.16.1",
+    "anthropic>=0.54.0",
+    "bcrypt>=4.3.0",
+    "email-validator>=2.2.0",
+    "fastapi>=0.115.12",
+    "flask>=3.1.1",
+    "flask-cors>=6.0.1",
+    "jose>=1.0.0",
+    "numpy>=2.3.0",
+    "openai>=1.86.0",
+    "pandas>=2.3.0",
+    "passlib>=1.7.4",
+    "plotly>=6.1.2",
+    "psycopg2-binary>=2.9.10",
+    "pydantic>=2.11.6",
+    "pyjwt>=2.10.1",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.41",
+    "streamlit>=1.45.1",
+    "uvicorn>=0.34.3",
+]
+
+exclude = [
+    "frontend/*",
+    "frontend/**"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

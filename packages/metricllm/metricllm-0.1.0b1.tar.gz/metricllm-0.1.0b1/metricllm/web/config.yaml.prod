@@ -1,0 +1,392 @@
+# MetricLLM Configuration File
+# =================================
+
+# Application Settings
+app:
+  name: "MetricLLM"
+  version: "1.0.0"
+  debug: false
+  host: "0.0.0.0"
+  port: 8000
+
+# API Authentication
+api:
+  # API tokens for authentication
+  tokens:
+    - "metricllm-prod-token-2024-secure-key-abc123"
+    - "metricllm-dev-token-2024-test-key-def456"
+    - "metricllm-admin-token-2024-admin-key-ghi789"
+
+  # Token expiration (in hours, 0 = no expiration)
+  token_expiration_hours: 0
+
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    requests_per_minute: 100
+    requests_per_hour: 1000
+
+# Storage Configuration
+storage:
+  # Primary storage type: file, database, or hybrid
+  type: "file"  # Options: file, database, hybrid
+
+  # File Storage Settings (Default)
+  file:
+    # Base directory for all data storage
+    base_path: "./data/metricllm"
+
+    # Monitoring data storage
+    monitoring:
+      path: "./data/metricllm/monitoring"
+      format: "jsonl"  # Options: json, jsonl, csv
+      rotation:
+        enabled: true
+        max_file_size_mb: 100
+        max_files: 30
+        compress_old_files: true
+
+    # Prompts storage
+    prompts:
+      path: "./data/metricllm/prompts"
+      format: "yaml"  # Options: yaml, json
+      backup:
+        enabled: true
+        backup_path: "./data/metricllm/backups/prompts"
+        retention_days: 90
+
+    # Analytics and aggregated data
+    analytics:
+      path: "./data/metricllm/analytics"
+      format: "json"
+      cache_duration_minutes: 15
+
+    # Export data storage
+    exports:
+      path: "./data/metricllm/exports"
+      cleanup_after_days: 7
+      max_export_size_mb: 500
+
+  # Database Storage Settings
+  database:
+    # Database type: postgresql, mysql, sqlite
+    type: "postgresql"
+
+    # PostgreSQL Configuration
+    postgresql:
+      host: "localhost"
+      port: 5432
+      database: "metricllm"
+      username: "metricllm_user"
+      password: "secure_password_here"
+      schema: "public"
+
+      # Connection pool settings
+      pool:
+        min_connections: 5
+        max_connections: 20
+        pool_timeout: 30
+
+      # SSL settings
+      ssl:
+        enabled: false
+        cert_path: ""
+        key_path: ""
+        ca_path: ""
+
+    # MySQL Configuration (alternative)
+    mysql:
+      host: "localhost"
+      port: 3306
+      database: "metricllm"
+      username: "metricllm_user"
+      password: "secure_password_here"
+      charset: "utf8mb4"
+
+    # SQLite Configuration (for development/testing)
+    sqlite:
+      path: "./data/metricllm/database/metricllm.db"
+
+    # Database table configuration
+    tables:
+      monitoring_data: "llm_monitoring"
+      prompts: "llm_prompts"
+      prompt_versions: "llm_prompt_versions"
+      analytics: "llm_analytics"
+      exports: "llm_exports"
+
+    # Database maintenance
+    maintenance:
+      auto_cleanup: true
+      retention_days: 365
+      vacuum_schedule: "0 2 * * 0"  # Weekly vacuum at 2 AM Sunday
+
+# API Endpoints for Monitoring Data
+monitoring:
+  # Webhook endpoints to receive monitoring data
+  webhooks:
+    enabled: true
+    endpoints:
+      - name: "primary_webhook"
+        url: "https://api.metricllm.com/webhook/monitoring"
+        method: "POST"
+        headers:
+          Authorization: "Bearer webhook-token-xyz789"
+          Content-Type: "application/json"
+        timeout_seconds: 30
+        retry_attempts: 3
+        retry_delay_seconds: 5
+
+      - name: "backup_webhook"
+        url: "https://backup.metricllm.com/webhook/monitoring"
+        method: "POST"
+        headers:
+          Authorization: "Bearer backup-webhook-token-abc123"
+          Content-Type: "application/json"
+        timeout_seconds: 15
+        retry_attempts: 2
+        retry_delay_seconds: 3
+
+  # External API endpoints to post monitoring data
+  external_apis:
+    enabled: true
+    endpoints:
+      - name: "analytics_service"
+        url: "https://analytics.example.com/api/v1/llm-metrics"
+        method: "POST"
+        headers:
+          Authorization: "Bearer analytics-api-key-def456"
+          Content-Type: "application/json"
+          X-Source: "metricllm"
+        enabled: true
+        batch_size: 100
+        batch_interval_seconds: 60
+
+      - name: "monitoring_dashboard"
+        url: "https://monitoring.example.com/api/metrics"
+        method: "POST"
+        headers:
+          X-API-Key: "monitoring-dashboard-key-ghi789"
+          Content-Type: "application/json"
+        enabled: true
+        batch_size: 50
+        batch_interval_seconds: 30
+
+      - name: "slack_notifications"
+        url: "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK"
+        method: "POST"
+        headers:
+          Content-Type: "application/json"
+        enabled: false
+        filter_conditions:
+          - "status == 'error'"
+          - "cost > 1.0"
+        template: |
+          {
+            "text": "LLM Alert: {{status}} - {{provider}}/{{model}}",
+            "attachments": [
+              {
+                "color": "danger",
+                "fields": [
+                  {"title": "Cost", "value": "${{cost}}", "short": true},
+                  {"title": "Tokens", "value": "{{tokens}}", "short": true}
+                ]
+              }
+            ]
+          }
+
+  # Data collection settings
+  collection:
+    # Automatic data collection from LLM providers
+    auto_collect: true
+
+    # Collection intervals
+    real_time_enabled: true
+    batch_collection_interval_seconds: 300
+
+    # Data validation
+    validate_schema: true
+    required_fields:
+      - "timestamp"
+      - "provider"
+      - "model"
+      - "status"
+
+    # Data enrichment
+    enrich_data: true
+    add_geolocation: false
+    add_user_agent: true
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+  # File logging
+  file:
+    enabled: true
+    path: "./logs/metricllm.log"
+    max_file_size_mb: 50
+    backup_count: 5
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+  # Console logging
+  console:
+    enabled: true
+    format: "%(asctime)s - %(levelname)s - %(message)s"
+    colors: true
+
+  # External logging services
+  external:
+    # Sentry error tracking
+    sentry:
+      enabled: false
+      dsn: "https://your-sentry-dsn@sentry.io/project-id"
+      traces_sample_rate: 0.1
+
+    # ELK Stack
+    elasticsearch:
+      enabled: false
+      host: "localhost"
+      port: 9200
+      index: "metricllm-logs"
+
+# Security Settings
+security:
+  # CORS settings
+  cors:
+    enabled: true
+    allow_origins:
+      - "http://localhost:3000"
+      - "https://your-frontend-domain.com"
+    allow_methods:
+      - "GET"
+      - "POST"
+      - "PUT"
+      - "DELETE"
+    allow_headers:
+      - "Authorization"
+      - "Content-Type"
+      - "X-Requested-With"
+
+  # Request size limits
+  limits:
+    max_request_size_mb: 10
+    max_batch_size: 1000
+    max_export_records: 100000
+
+  # IP restrictions
+  ip_whitelist:
+    enabled: false
+    allowed_ips:
+      - "127.0.0.1"
+      - "192.168.1.0/24"
+      - "10.0.0.0/8"
+
+# Performance Settings
+performance:
+  # Caching
+  cache:
+    enabled: true
+    type: "memory"  # Options: memory, redis, memcached
+    ttl_seconds: 300
+    max_size_mb: 100
+
+    # Redis configuration (if using redis cache)
+    redis:
+      host: "localhost"
+      port: 6379
+      database: 0
+      password: ""
+      ssl: false
+
+  # Background tasks
+  background_tasks:
+    enabled: true
+    max_workers: 4
+    queue_size: 1000
+
+  # Database query optimization
+  database_optimization:
+    enable_query_cache: true
+    slow_query_threshold_seconds: 1.0
+    connection_pool_size: 10
+
+# Features Configuration
+features:
+  # Prompt management
+  prompts:
+    versioning: true
+    auto_backup: true
+    template_validation: true
+    variable_extraction: true
+
+  # Analytics
+  analytics:
+    real_time_metrics: true
+    trend_analysis: true
+    cost_tracking: true
+    performance_monitoring: true
+    export_formats:
+      - "json"
+      - "csv"
+      - "xlsx"
+      - "pdf"
+
+  # Notifications
+  notifications:
+    email:
+      enabled: false
+      smtp_server: "smtp.gmail.com"
+      smtp_port: 587
+      username: "your-email@gmail.com"
+      password: "your-app-password"
+      from_address: "metricllm@yourcompany.com"
+
+    webhooks:
+      enabled: true
+      max_retries: 3
+      timeout_seconds: 10
+
+# Development Settings
+development:
+  # Hot reload
+  auto_reload: false
+
+  # Debug endpoints
+  debug_endpoints: false
+
+  # Sample data generation
+  generate_sample_data: false
+  sample_data_size: 1000
+
+  # Testing
+  test_mode: false
+  mock_external_apis: false
+
+# Production Settings
+production:
+  # Health checks
+  health_check:
+    enabled: true
+    interval_seconds: 30
+    endpoints:
+      - "/api/health"
+      - "/api/status"
+
+  # Metrics collection
+  metrics:
+    enabled: true
+    prometheus_endpoint: "/metrics"
+    custom_metrics: true
+
+  # Backup and recovery
+  backup:
+    enabled: true
+    schedule: "0 3 * * *"  # Daily at 3 AM
+    retention_days: 30
+    compress: true
+    remote_backup:
+      enabled: false
+      provider: "s3"  # s3, gcs, azure
+      bucket: "metricllm-backups"
+      path: "backups/"
