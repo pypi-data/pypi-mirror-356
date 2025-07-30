@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: selene-hugr-qis-compiler
+Version: 0.0.1a0
+Summary: Reserved for upcoming open-sourcing of selene-hugr-qis-compiler
+Author-email: TKET development team <tket-support@quantinuum.com>
+Maintainer-email: TKET development team <tket-support@quantinuum.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# selene-core
+
+This is a placeholder package for selene-core on public pypi. It is not intended for installation, and using it will result in an exception.
