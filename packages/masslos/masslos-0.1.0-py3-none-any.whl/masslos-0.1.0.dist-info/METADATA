@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: masslos
+Version: 0.1.0
+Summary: Multi purpose unit conversion package
+Author-email: panderl <develop@haberl-info.de>
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.13
