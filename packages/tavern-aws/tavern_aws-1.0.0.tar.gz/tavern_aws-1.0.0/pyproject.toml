@@ -1,0 +1,51 @@
+[project]
+name = "tavern-aws"
+version = "1.0.0"
+description = "HTTP plugin for Tavern with AWS4Auth"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+authors = [{ name = "Alexander Eresov", email = "aeresov@gmail.com" }]
+dependencies = [
+    "requests-aws4auth (>=1.3.1,<2.0.0)",
+    "tavern (>=2.15.0,<3.0.0)",
+]
+keywords = ["testing", "pytest", "tavern", "aws"]
+license-files = ["LICENSE"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/aeresov/tavern-aws"
+
+[project.entry-points.tavern_http]
+aws = "tavern_aws.tavernhook:TavernAwsPlugin"
+
+[tool.poetry]
+requires-poetry = ">=2.0"
+packages = [{ include = "tavern_aws" }]
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 180
+
+[tool.isort]
+profile = "black"
+skip = [".venv"]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
