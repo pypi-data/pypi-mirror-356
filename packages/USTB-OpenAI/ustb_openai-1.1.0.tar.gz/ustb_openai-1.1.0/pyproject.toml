@@ -1,0 +1,32 @@
+[project]
+name = "USTB-OpenAI"
+version = "1.1.0"
+description = "OpenAI style API for accessing the USTB hosted LLM"
+authors = [
+    {name = "Harry Huang", email = "harryhuang2652@qq.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8,<4"
+dependencies = [
+    "httpx ~=0.28",
+    "httpx-sse ~=0.4",
+    "pydantic ~=2.10"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.optional-dependencies]
+ustb-sso = ["ustb-sso >=1.1"]
+
+[[tool.poetry.source]]
+name = "PyPI-Tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
