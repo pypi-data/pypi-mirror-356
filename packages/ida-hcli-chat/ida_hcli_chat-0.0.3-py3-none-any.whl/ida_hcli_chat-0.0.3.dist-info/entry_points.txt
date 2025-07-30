@@ -1,0 +1,5 @@
+[console_scripts]
+hcli-chat = hcli_chat.main:cli
+
+[hcli.extensions]
+hcli-chat = hcli_chat.commands:register

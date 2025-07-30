@@ -1,0 +1,12 @@
+hcli_chat/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+hcli_chat/main.py,sha256=mg1ypEhPqrtJg5VTwyajdbr5UOESBMKzL6P7Cz3SFJA,366
+hcli_chat/commands/__init__.py,sha256=z7oJbRS1biZMCFYy2MxtRicJrN11aM6Z9uRPguTQQvA,113
+hcli_chat/commands/chat.py,sha256=Vd7SDWRBBljDveoIWr3g3hBTbMci0Mx3Vn5Wuhw0EuY,4323
+hcli_chat/mcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hcli_chat/mcp/mcp-plugin.py,sha256=9IuoN7UPylX4pAZNgXIayoPjwR3QRHggaZlRHihRPmM,43769
+hcli_chat/mcp/server.py,sha256=DhljB1TlABhMV4hdF9gdJlrEf3aDPkBBKjagiugZPXA,19459
+ida_hcli_chat-0.0.3.dist-info/METADATA,sha256=hf0jVhAaR1Ion6eP2Od2RQZssHuKqSyyEy3O7IquHPA,1744
+ida_hcli_chat-0.0.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+ida_hcli_chat-0.0.3.dist-info/entry_points.txt,sha256=CXFLtwGqqtY6xVpa1KeSED5AvcM4_PTboVe89rGx8a0,108
+ida_hcli_chat-0.0.3.dist-info/top_level.txt,sha256=l3zkyQd8Ya_UmwVBlxapwo1f9ovcDw4LCwIvY3RbfDk,10
+ida_hcli_chat-0.0.3.dist-info/RECORD,,

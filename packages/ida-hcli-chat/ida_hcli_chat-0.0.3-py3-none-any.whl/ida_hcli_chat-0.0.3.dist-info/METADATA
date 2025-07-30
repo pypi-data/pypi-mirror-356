@@ -1,0 +1,62 @@
+Metadata-Version: 2.4
+Name: ida-hcli-chat
+Version: 0.0.3
+Summary: Hex-Rays CLI Chat Extension
+Author-email: Hex-Rays SA <support@hex-rays.com>
+License-Expression: MIT
+Keywords: ida,ida-pro,reverse-engineering,disassembler,binary-analysis,malware-analysis,security
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: ida-hcli>=0.0.10
+Requires-Dist: agno>=1.6.3
+Requires-Dist: mcp>=1.9.4
+Requires-Dist: openai>=1.88.0
+Requires-Dist: prompt-toolkit>=3.0.51
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.5.0; extra == "docs"
+Requires-Dist: mkdocs-material>=9.4.0; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.24.0; extra == "docs"
+Requires-Dist: mkdocs-include-markdown-plugin>=7.1.5; extra == "docs"
+Requires-Dist: pymdown-extensions>=10.0; extra == "docs"
+
+# IDA HCLI Chat Extension
+
+An extension for ida-hcli to chat with IDA using the MCP server. 
+
+[![PyPI version](https://badge.fury.io/py/ida-hcli.svg)](https://badge.fury.io/py/ida-hcli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
+## Requirements 
+
+### ida-hcli 
+
+You need to have ida-hcli installed. 
+
+See [https://pypi.org/project/ida-hcli/](https://pypi.org/project/ida-hcli/) 
+
+### ida mcp 
+
+The extension works with [ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
+
+```bash 
+pip uninstall ida-pro-mcp
+pip install git+https://github.com/mrexodia/ida-pro-mcp
+```
+
+## Installation
+
+Add the extension using pipx 
+
+```bash
+pipx inject ida-hcli ida-hcli-chat 
+```
+
+## Quick Start
+
+```bash
+# Login to your Hex-Rays account
+hcli chat 
+```
