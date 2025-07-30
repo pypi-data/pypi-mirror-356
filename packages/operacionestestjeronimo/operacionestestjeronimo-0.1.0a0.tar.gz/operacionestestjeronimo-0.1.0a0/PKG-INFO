@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: operacionestestjeronimo
+Version: 0.1.0a0
+Summary: libreria de operaciones básicas
+Author: Jerónimo Loaiza
+License: MIT
+Requires-Python: >=3.11.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# Mi primera librería
+
+Hola a todos, esta es mi primera librería
+
+## Contact
+* [Alexis Ruales B](https://co.linkedin.com/in/anderson-alexis-ruales-b27638199?original_referer=https%3A%2F%2Fwww.google.com%2F) - arualesb.1@cern.ch
+
