@@ -1,0 +1,23 @@
+[project]
+name = "Lya_zelda_II"
+version = "1.0.5"
+authors = [
+  { name="Siddhartha Gurung Lopez", email="gurung.lopez@gmail.com" },
+]
+description = "Lyman alpha for everyone"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['scikit-learn==1.5', 'pyswarms==1.3.0'  , 'emcee==3.1.2' , 'numpy<2.0.0']
+
+[project.urls]
+Homepage = "https://github.com/sidgl/zELDA_II"
+Issues = "https://github.com/sidgl/zELDA_II"
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
