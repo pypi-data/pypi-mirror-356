@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: structuregen
+Version: 0.1.0
+Summary: Generate a FastAPI-style backend folder structure with one command
+Author-email: Sushurht Samson <samsushruth@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# structuregen
+
+🚀 A CLI tool to generate FastAPI-style backend folder structure under a `server/` directory.
+
+## Installation
+
+```bash
+  pip install structuregen
+```
+
+## Usage
+```bash
+  structuregen
+```

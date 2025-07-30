@@ -1,0 +1,2 @@
+[console_scripts]
+structuregen = structuregen.cli:generate_structure

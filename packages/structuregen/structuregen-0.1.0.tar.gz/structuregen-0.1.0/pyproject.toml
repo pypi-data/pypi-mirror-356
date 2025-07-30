@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structuregen"
+version = "0.1.0"
+description = "Generate a FastAPI-style backend folder structure with one command"
+authors = [
+    {name="Sushurht Samson", email="samsushruth@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+
+[project.scripts]
+structuregen = "structuregen.cli:generate_structure"

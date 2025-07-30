@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+structuregen/__init__.py
+structuregen/cli.py
+structuregen.egg-info/PKG-INFO
+structuregen.egg-info/SOURCES.txt
+structuregen.egg-info/dependency_links.txt
+structuregen.egg-info/entry_points.txt
+structuregen.egg-info/top_level.txt
