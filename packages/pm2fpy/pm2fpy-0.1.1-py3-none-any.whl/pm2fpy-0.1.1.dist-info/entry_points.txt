@@ -1,0 +1,2 @@
+[console_scripts]
+health = main.cli:main
