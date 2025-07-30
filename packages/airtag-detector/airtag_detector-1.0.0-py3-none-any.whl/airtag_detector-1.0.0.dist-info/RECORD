@@ -1,0 +1,16 @@
+airtag_detector/__init__.py,sha256=iy0h1I7ct8kFPgAvkTT0UckLJ9faE0MftKRuZGu53JY,529
+airtag_detector/detector.py,sha256=YzUT6jzrrtVXhO3tUeAJtzWATc908uDXMJwIXuMrl74,11069
+airtag_detector/homekit_controller.py,sha256=jK0wSN187XRfah0afBgUcnlIsFVC3qpyNZJvn1n11wM,7777
+airtag_detector/homekit_setup.py,sha256=sq9len-Fjp_G42cf9Cme7rkUQ-GBsVkXLjRIsitTVHU,6768
+airtag_detector/setup.py,sha256=w0JETvayQxHYGQ2MMGB0pJ9XlBgGTreKA6aGTj6rD7Y,7156
+airtag_detector/test_bluetooth.py,sha256=Zn4mze3HRF2u9RiwIOb9Nu5YA2RsiO9oLO4Wenz1cOM,3685
+airtag_detector/configs/config.py.template,sha256=EV3qv8fgZVvV8cSx3C5KOQW9Q8iHcg3IdIR3WZv6_lo,1048
+airtag_detector/templates/airtag-detector.service,sha256=_1zVGq5pRXJ8mwowVG-mtpDPVqDXhwDk8jm523f-dR8,512
+airtag_detector-1.0.0.data/data/share/airtag-detector/configs/config.py.template,sha256=EV3qv8fgZVvV8cSx3C5KOQW9Q8iHcg3IdIR3WZv6_lo,1048
+airtag_detector-1.0.0.data/data/share/airtag-detector/systemd/airtag-detector.service,sha256=_1zVGq5pRXJ8mwowVG-mtpDPVqDXhwDk8jm523f-dR8,512
+airtag_detector-1.0.0.dist-info/licenses/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+airtag_detector-1.0.0.dist-info/METADATA,sha256=x5K3M7Vd5gKIyiSeghU9CnWk9MuNc387qFnz6KGbWPA,6454
+airtag_detector-1.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+airtag_detector-1.0.0.dist-info/entry_points.txt,sha256=wIQIkeQhNa8f0KPZ_Z6AtOlBujR60Zxn7BGCfxnB8is,216
+airtag_detector-1.0.0.dist-info/top_level.txt,sha256=u-xNERF1mN7UsafAaGr-YH9x7VGKMSL3FFhN-Wqy54s,16
+airtag_detector-1.0.0.dist-info/RECORD,,
