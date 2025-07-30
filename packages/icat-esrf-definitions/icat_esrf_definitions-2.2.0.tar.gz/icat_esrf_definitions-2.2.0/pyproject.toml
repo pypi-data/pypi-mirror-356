@@ -1,0 +1,55 @@
+[build-system]
+requires = [
+    "setuptools>=46.4"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icat-esrf-definitions"
+version = "2.2.0"
+authors = [{name = "ESRF", email = "dau-pydev@esrf.fr"}]
+description = "ESRF ICAT definitions"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE.md"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["metadata"]
+requires-python = ">=3.8"
+dependencies = [
+    "importlib_resources; python_version<'3.9'",
+]
+
+[project.urls]
+Homepage = "https://gitlab.esrf.fr/icat/hdf5-master-config"
+Documentation = "https://gitlab.esrf.fr/icat/hdf5-master-config"
+Repository = "https://gitlab.esrf.fr/icat/hdf5-master-config"
+Issues = "https://gitlab.esrf.fr/icat/hdf5-master-config/issues/"
+Changelog = "https://gitlab.esrf.fr/icat/hdf5-master-config/-/blob/master/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+dev = [
+    "icat-esrf-definitions[test]",
+    "pre-commit",
+]
+doc = [
+    "icat-esrf-definitions[test]",
+    "sphinx >=4.5",
+    "sphinx-autodoc-typehints >=1.16",
+    "pydata-sphinx-theme",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.xml"]
+

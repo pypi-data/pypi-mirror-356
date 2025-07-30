@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/icat_esrf_definitions/__init__.py
+src/icat_esrf_definitions/hdf5_cfg.xml
+src/icat_esrf_definitions.egg-info/PKG-INFO
+src/icat_esrf_definitions.egg-info/SOURCES.txt
+src/icat_esrf_definitions.egg-info/dependency_links.txt
+src/icat_esrf_definitions.egg-info/requires.txt
+src/icat_esrf_definitions.egg-info/top_level.txt
+src/icat_esrf_definitions/tests/__init__.py
+src/icat_esrf_definitions/tests/test_file.py

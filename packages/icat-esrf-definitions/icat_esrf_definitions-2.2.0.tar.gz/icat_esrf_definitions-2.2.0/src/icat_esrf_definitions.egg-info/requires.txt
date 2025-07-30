@@ -1,0 +1,16 @@
+
+[:python_version < "3.9"]
+importlib_resources
+
+[dev]
+icat-esrf-definitions[test]
+pre-commit
+
+[doc]
+icat-esrf-definitions[test]
+sphinx>=4.5
+sphinx-autodoc-typehints>=1.16
+pydata-sphinx-theme
+
+[test]
+pytest
