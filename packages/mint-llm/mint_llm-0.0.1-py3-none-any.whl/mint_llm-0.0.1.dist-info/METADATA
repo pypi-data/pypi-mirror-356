@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: mint-llm
+Version: 0.0.1
+Summary: Meaning-Informed Next-token Transformation
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: typer
+Requires-Dist: safetensors
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: black[jupyter]; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: cffconvert; extra == "dev"
