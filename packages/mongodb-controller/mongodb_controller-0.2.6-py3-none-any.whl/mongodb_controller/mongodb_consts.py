@@ -1,0 +1,11 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MONGODB_URI = os.getenv('MONGODB_URI')
+MONGODB_DATABASE_TEST = os.getenv('MONGODB_DATABASE_TEST')
+MONGODB_COLLECTION_TEST = os.getenv('MONGODB_COLLECTION_TEST')
+
+MONGODB_CONNECTION_TIMEOUT_MS = int(os.getenv('MONGODB_CONNECTION_TIMEOUT_MS', 5000))
+MONGODB_MAX_POOL_SIZE = int(os.getenv('MONGODB_MAX_POOL_SIZE', 100))
