@@ -1,0 +1,2 @@
+[console_scripts]
+ip-acquirer = ip_acquirer_mcp:main

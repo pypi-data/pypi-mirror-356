@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: ip-acquirer-mcp
+Version: 0.1.0
+Summary: 一个通过 MCP 协议获取本机详细内网IP信息和公网IP的工具
+Author-email: Adam <chenzhengyifr@gmail.com>
+License: Copyright (c) 2025 Zhengyi Chen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE. 
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: mcp
+Requires-Dist: psutil
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# IP Acquirer MCP
+
+一个通过 MCP 协议获取本机详细内网IP信息和公网IP的工具。
+
+## 功能
+
+-   遍历所有网络接口，获取详细的 IP 配置 (IPv4/IPv6)。
+-   区分 IP 地址类型（私有、公网、回环等）。
+-   通过外部服务查询公网 IP 地址。
+-   提供一个 MCP 工具 `get_ip_info` 以便其他程序调用。
+-   提供一个命令行入口 `ip-acquirer` 直接启动服务。
+
+## 安装
+
+您可以从 PyPI 安装此工具：
+
+```bash
+pip install ip-acquirer-mcp
+```
+
+## 使用方法
+
+### 作为命令行工具
+
+安装后，您可以直接在终端中运行以下命令来启动 MCP 服务：
+
+```bash
+ip-acquirer
+```
+
+服务将通过标准输入/输出 (stdio) 进行通信。
+
+### 作为库
+
+您也可以在自己的 Python 代码中导入并使用 `get_ip_info` 工具，但这通常在 MCP 客户端的上下文中进行。
+
+核心函数位于 `ip_acquirer_mcp/__init__.py` 中。
+
+## 开发
+
+1.  克隆仓库
+2.  创建虚拟环境: `python -m venv .venv`
+3.  激活虚拟环境
+4.  安装依赖: `pip install -e .`
