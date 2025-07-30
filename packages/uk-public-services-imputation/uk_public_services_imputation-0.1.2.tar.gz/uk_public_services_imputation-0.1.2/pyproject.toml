@@ -1,0 +1,41 @@
+[project]
+name = "uk-public-services-imputation"
+version = "0.1.2"
+description = "A package to impute public services in the UK using machine learning."
+readme = "README.md"
+authors = [
+    { name = "Nikhil Woodruff", email = "nikhil.woodruff@outlook.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "furo>=2024.8.6",
+    "jupyter-book>=1.0.4.post1",
+    "nbformat>=4.2.0",
+    "numpy>=1.26.4",
+    "pandas>=2.2.3",
+    "policyengine>=0.2.1",
+    "policyengine-uk>=2.24.0",
+    "quantile-forest>=1.4.0",
+    "ruff>=0.11.8",
+    "setuptools>=80.1.0",
+    "tqdm>=4.67.1",
+    "microimpute",
+]
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<9.0.0",
+    "pytest-cov>=6.0.0,<7.0.0",
+    "flake8>=6.0.0,<7.0.0",
+    "black>=23.0.0",
+    "isort>=5.9.0,<6.0.0",
+    "mypy>=1.0.0,<2.0.0",
+    "build>=1.0.0,<2.0.0",
+    "linecheck>=0.1.0,<0.2.0",
+]
+
+[project.scripts]
+uk-public-services-imputation = "uk_public_services_imputation:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
