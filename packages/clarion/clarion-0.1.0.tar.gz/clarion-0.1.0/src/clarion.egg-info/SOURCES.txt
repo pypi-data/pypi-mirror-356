@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/clarion/__init__.py
+src/clarion/clarion.py
+src/clarion.egg-info/PKG-INFO
+src/clarion.egg-info/SOURCES.txt
+src/clarion.egg-info/dependency_links.txt
+src/clarion.egg-info/requires.txt
+src/clarion.egg-info/top_level.txt

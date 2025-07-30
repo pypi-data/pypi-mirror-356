@@ -1,0 +1,41 @@
+[build-system]
+# Require a modern version of setuptools that understands current metadata standards.
+# This is the key fix for the license-related errors.
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clarion"
+version = "0.1.0"
+authors = [
+  { name="Chinmay (Chish)", email="chishxd@tutamail.com" },
+]
+description = "A Python package for advanced data classification."
+readme = "README.md"
+requires-python = ">=3.8"
+
+# Use the SPDX identifier for your license. This is the modern standard.
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+# The license classifier is not optional. It is essential for PyPI
+# and other tools to correctly categorize your package.
+# Removing it because of a build error points to a problem with the
+# build tool version, not the classifier itself.
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+# The 'io' package is a built-in Python module and must not be listed
+# as a dependency. 'boto3' is a valid dependency, but I've removed it
+# as you didn't explicitly confirm you need it. Add back what you need.
+dependencies = [
+    "pandas",
+    "boto3",
+]
+
+[project.urls]
+Homepage = "https://github.com/chishxd/clarion"
+Issues = "https://github.com/chishxd/clarion/issues"
