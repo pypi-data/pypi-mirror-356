@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+merit/__init__.py
+merit/cli.py
+merit/utils.py
+merit_ai.egg-info/PKG-INFO
+merit_ai.egg-info/SOURCES.txt
+merit_ai.egg-info/dependency_links.txt
+merit_ai.egg-info/entry_points.txt
+merit_ai.egg-info/requires.txt
+merit_ai.egg-info/top_level.txt
