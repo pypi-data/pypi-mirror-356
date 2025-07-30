@@ -1,0 +1,2 @@
+[console_scripts]
+show = win32_show.main:main

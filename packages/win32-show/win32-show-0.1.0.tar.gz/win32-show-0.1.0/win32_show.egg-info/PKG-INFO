@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: win32-show
+Version: 0.1.0
+Summary: A script to find files and open them in Explorer
+Author: AleirJDawn
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Find Explorer
+
+This package allows you to find a program and open its location in Windows Explorer.
+
+## Installation
+
+```bash
+python3 -m pip install win32-show
