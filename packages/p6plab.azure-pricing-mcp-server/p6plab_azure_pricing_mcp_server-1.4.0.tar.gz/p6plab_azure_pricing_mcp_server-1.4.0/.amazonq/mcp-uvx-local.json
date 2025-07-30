@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "azure-pricing-mcp-server": {
+      "command": "uvx",
+      "args": ["--from", "./dist/p6plab_azure_pricing_mcp_server-1.4.0-py3-none-any.whl", "p6plab.azure-pricing-mcp-server"],
+      "env": {
+        "DEFAULT_REGION": "southeastasia",
+        "AZURE_PRICING_API_BASE_URL": "https://prices.azure.com/api/retail/prices",
+        "REQUEST_TIMEOUT": "30",
+        "MAX_API_RESULTS": "20",
+        "MAX_REGIONS_COMPARE": "2"
+      },
+      "timeout": 120000
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "azure-pricing-mcp-server-testpypi": {
+      "command": "uvx",
+      "args": [
+        "--index-url", "https://test.pypi.org/simple/",
+        "--extra-index-url", "https://pypi.org/simple/",
+        "p6plab.azure-pricing-mcp-server@latest"
+      ],
+      "env": {
+        "DEFAULT_REGION": "southeastasia",
+        "AZURE_PRICING_API_BASE_URL": "https://prices.azure.com/api/retail/prices",
+        "REQUEST_TIMEOUT": "30",
+        "MAX_API_RESULTS": "20",
+        "MAX_REGIONS_COMPARE": "2"
+      },
+      "timeout": 60000
+    },
+    "azure-pricing-mcp-server-pypi": {
+      "command": "uvx",
+      "args": ["p6plab.azure-pricing-mcp-server@latest"],
+      "env": {
+        "DEFAULT_REGION": "southeastasia",
+        "AZURE_PRICING_API_BASE_URL": "https://prices.azure.com/api/retail/prices",
+        "REQUEST_TIMEOUT": "30",
+        "MAX_API_RESULTS": "20",
+        "MAX_REGIONS_COMPARE": "2"
+      },
+      "timeout": 60000
+    }
+  }
+}
