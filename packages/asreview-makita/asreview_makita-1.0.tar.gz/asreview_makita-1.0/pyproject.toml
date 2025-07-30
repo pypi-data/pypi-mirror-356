@@ -1,0 +1,59 @@
+[project]
+name = "asreview-makita"
+description = "Makita workflow tool for the ASReview project"
+authors = [
+    { name = "ASReview LAB developers", email = "asreview@uu.nl" }
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+license = {text = "MIT"}
+dependencies = ["asreview>=2,<3", "jinja2", "cfgtemplater"]
+dynamic = ["version"]
+requires-python = ">=3.10"
+
+[project.urls]
+homepage = "https://asreview.ai"
+repository = "https://github.com/asreview/asreview-makita"
+
+[project.entry-points."asreview.entry_points"]
+makita = "asreviewcontrib.makita.entrypoint:MakitaEntryPoint"
+
+[project.entry-points."asreview.makita.templates"]
+basic = "asreviewcontrib.makita.template_basic:TemplateBasic"
+arfi = "asreviewcontrib.makita.template_arfi:TemplateARFI"
+multimodel = "asreviewcontrib.makita.template_multimodel:TemplateMultiModel"
+multiple_models = "asreviewcontrib.makita.template_multimodel:TemplateMultiModel"
+prior = "asreviewcontrib.makita.template_prior:TemplatePrior"
+
+[project.optional-dependencies]
+lint = ["ruff"]
+test = ["pytest"]
+
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+
+[tool.setuptools]
+packages = ["asreviewcontrib"]
+
+[tool.setuptools_scm]
+write_to = "asreviewcontrib/makita/_version.py"
+
+[tool.ruff]
+lint.select = ["E", "F", "UP", "I", "B"]
+include = ["**/*.py", "**/*.py.template"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
