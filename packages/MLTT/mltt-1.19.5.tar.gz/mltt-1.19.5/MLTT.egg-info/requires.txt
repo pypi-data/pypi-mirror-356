@@ -1,0 +1,13 @@
+numpy>=1.23.0
+binance-historical-data>=0.1.13
+pyriemann>=0.6
+torch>=2.5.1
+tsfel>=0.1.9
+polars[async,gpu,numpy,plot]>=1.2.1
+ccxt>=4.4.36
+hurst>=0.0.5
+pydantic>=2.10.2
+matplotlib>=3.8.0
+allocation-o2>=1.0.2
+DeFiLlama>=2.3.0
+catboost>=1.2.8

@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: MLTT
+Version: 1.19.5
+Summary: Machine Learning Trading Toolkit
+Author-email: Vlad Kochetov <vladkoch@knu.ua>
+License: Custom
+Keywords: trading,portfolio-management,algorithmic-trading,risk-management,quantitative-analysis,machine-learning,trading-strategies,quantitative-finance,financial-modeling,financial-analysis,financial-engineering,quantitative-investing
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy>=1.23.0
+Requires-Dist: binance-historical-data>=0.1.13
+Requires-Dist: pyriemann>=0.6
+Requires-Dist: torch>=2.5.1
+Requires-Dist: tsfel>=0.1.9
+Requires-Dist: polars[async,gpu,numpy,plot]>=1.2.1
+Requires-Dist: ccxt>=4.4.36
+Requires-Dist: hurst>=0.0.5
+Requires-Dist: pydantic>=2.10.2
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: allocation-o2>=1.0.2
+Requires-Dist: DeFiLlama>=2.3.0
+Requires-Dist: catboost>=1.2.8
+Dynamic: license-file
