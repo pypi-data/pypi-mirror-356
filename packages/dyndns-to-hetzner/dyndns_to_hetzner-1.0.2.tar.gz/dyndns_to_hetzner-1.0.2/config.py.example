@@ -1,0 +1,19 @@
+# CHANGE THIS. Use the following command to generate a secret:
+# python -c 'import secrets; print(secrets.token_hex())'
+SECRET_KEY = "dev",
+# What FQDNs should be managed and their respective API key to use
+FQDNS = {
+    'dyn1.example.com': 'api_key1',
+    'dyn2.example.com': 'api_key2'
+}
+# Authentication data
+# Generate a password hash using the following command:
+# python -c 'from werkzeug.security import generate_password_hash ; print(generate_password_hash("YOUR_PASSWORD_HERE"))'
+# DO NOT PUT PASSWORDS IN CLEARTEXT HERE
+AUTH_USERS = {
+    'user1': 'scrypt:32768:8:1$52NzsfgEdNw1d4ZB$33be0cd586f9f72119b9c6d90519b8d30a77799a22de70ba9ab04406e5b160f9044c910e844efde32d90fc977c09abcbbc91e5ecf7da479ba6d36f388a227a84',
+    'user2': 'scrypt:32768:8:1$MRwIPcCMixQ0qXsz$baf46fe5cf8af314e4b7a85f62aff95b9f0741b10f6959f933e41c638349328ef40faedac2e568b734f7c94dbf5e468510814e7642641948c9be9d7aa1c11fde'
+}
+# If behind reverse proxy, set this to 1.
+# If behind multiple reverse proxies, set this to the number of proxies
+PROXIES = 0
