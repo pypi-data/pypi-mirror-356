@@ -1,0 +1,6 @@
+biopython<=1.83
+psutil
+pathos
+six
+matplotlib
+regex
