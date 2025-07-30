@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: hf_mirror_downloader
+Version: 0.1.0
+Summary: Use HF mirror to download models with huggingface-cli
+Author-email: Kang Bo <532910708@qq.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Dynamic: license-file
+
+# hf_downloader
+Hugging Face model and data downloader. Unlimited everywhere .
+
+## Install
+
+```bash
+pip install hf-downloader
+```
+
+## Usage
+
+### Python
+
+```python
+from hf_downloader import download_model
+download_model("meta-llama/Llama-2-7b-hf", "llama")
+```
+
+### Command line
+
+```bash
+hf-download meta-llama/Llama-2-7b-hf llama
+hfd meta-llama/Llama-2-7b-hf llama
+```

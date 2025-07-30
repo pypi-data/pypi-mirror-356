@@ -1,0 +1,4 @@
+[console_scripts]
+hf-download = hf_downloader.cli:download_model_main
+hfd = hf_downloader.cli:download_model_main
+hfdl = hf_downloader.cli:download_model_main
