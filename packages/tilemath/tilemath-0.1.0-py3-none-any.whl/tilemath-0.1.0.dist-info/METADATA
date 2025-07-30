@@ -1,0 +1,169 @@
+Metadata-Version: 2.4
+Name: tilemath
+Version: 0.1.0
+Summary: API-compatible replacement for the Mercantile library with full type safety.
+Project-URL: Homepage, https://github.com/eddieland/tilemath
+Project-URL: Repository, https://github.com/eddieland/tilemath
+Project-URL: Bug Tracker, https://github.com/eddieland/tilemath/issues
+Project-URL: Changelog, https://github.com/eddieland/tilemath/releases
+Author-email: Edward Jones <e@eddie.land>
+License: MIT License
+        
+        Copyright (c) 2025 Edward Jones
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: coordinates,geospatial,gis,mapping,mercantile,quadkey,slippy-map,spherical-mercator,tiles,web-mercator
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: <4.0,>=3.10
+Requires-Dist: typing-extensions>=4.14.0
+Description-Content-Type: text/markdown
+
+# tilemath
+
+A modern, type-safe Python library for spherical mercator coordinate and tile utilities. Designed as an API-compatible replacement for [mercantile](https://github.com/mapbox/mercantile) with full type safety and minimal dependencies.
+
+## Features
+
+- **Full Type Safety**: Complete type annotations for all functions and classes
+- **API Compatible**: Drop-in replacement for mercantile with the same interface
+- **Minimal Dependencies**: Zero runtime dependencies for core functionality
+- **Modern Python**: Built for Python 3.10+ with modern language features
+- **Fast**: Optimized implementations of coordinate transformations and tile operations
+
+## Installation
+
+```bash
+pip install tilemath
+```
+
+Or with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv add tilemath
+```
+
+## Quick Start
+
+```python
+import tilemath.mercantile as mercantile
+
+# Convert longitude/latitude to tile coordinates
+tile = mercantile.tile(-122.4194, 37.7749, 12)  # San Francisco
+print(f"Tile: {tile.x}, {tile.y}, {tile.z}")
+
+# Get bounding box for a tile
+bbox = mercantile.bounds(tile)
+print(f"Bounds: {bbox}")
+
+# Convert tile to quadkey
+quadkey = mercantile.quadkey(tile)
+print(f"Quadkey: {quadkey}")
+```
+
+## API Reference
+
+The library provides the same API as mercantile, including:
+
+- `tile(lng, lat, zoom)` - Get tile containing a longitude/latitude
+- `bounds(tile)` - Get bounding box of a tile
+- `xy(lng, lat)` - Convert longitude/latitude to web mercator coordinates
+- `lnglat(x, y)` - Convert web mercator coordinates to longitude/latitude
+- `quadkey(tile)` - Convert tile to Microsoft quadkey
+- `quadkey_to_tile(quadkey)` - Convert quadkey to tile
+- `tiles(west, south, east, north, zooms)` - Generate tiles for a bounding box
+- `children(tile)` - Get child tiles
+- `parent(tile)` - Get parent tile
+- `neighbors(tile)` - Get neighboring tiles
+
+## Type Safety
+
+tilemath adds complete type annotations:
+
+```python
+from tilemath.mercantile import Tile, Bbox
+
+# All functions have proper type hints
+def process_tile(tile: Tile) -> Bbox:
+    return bounds(tile)
+
+# Type checkers will catch errors
+tile = Tile(x=1, y=2, z=3)
+bbox: Bbox = process_tile(tile)
+```
+
+## Requirements
+
+- Python 3.10 or higher
+- No runtime dependencies
+
+## Development
+
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management and development workflows.
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/eddieland/tilemath.git
+cd tilemath
+
+# Install dependencies
+make install
+```
+
+### Running Tests
+
+```bash
+# Run all tests
+make test
+
+# Run specific test file
+uv run pytest tests/test_mercantile_upstream.py -v
+```
+
+### Code Quality
+
+```bash
+# Run linting and type checking
+make lint
+
+# Run everything (install, lint, test)
+make
+```
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Acknowledgments
+
+This project is inspired by and aims to be compatible with [mercantile](https://github.com/mapbox/mercantile) by Sean Gillies and contributors.
