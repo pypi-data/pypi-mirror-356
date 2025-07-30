@@ -1,0 +1,14 @@
+universal_ml_framework/__init__.py,sha256=hPqKe7PxgHwpgIkwH00sFKER_AxFW-sqs1w0Qmhdoco,574
+universal_ml_framework/configs/__init__.py,sha256=5wpXkukHKuPs7bxRA92DfqPAjZSaDHCcHwAlABVw4ng,25
+universal_ml_framework/configs/dataset_configs.py,sha256=rxOVTlf6VrqmOFhwty4e-L_5nu8VWprmZi1-9VQA53Y,2496
+universal_ml_framework/core/__init__.py,sha256=wH91M-Vt67YNAd4zzUgV-AGtMEZI9Gj2mqxYI2eD3ro,29
+universal_ml_framework/core/pipeline.py,sha256=s47JfiWLYjTj3rdXSPk_XVBbdV3bDN87KFtVZzvdzjs,13667
+universal_ml_framework/utils/__init__.py,sha256=-jDdL2bubH3N6oRyL3rsextNo7wSvv0dlW5UCDe8jSk,19
+universal_ml_framework/utils/data_generator.py,sha256=GMYmoRwcKBt_7xR6JrFGjFWk8c_Q6fTiNVoenOJeQTY,6410
+universal_ml_framework/utils/helpers.py,sha256=q66bMtfwv3Yvrvf3_NDQbcAsZWms088UwOSNKNBLvqY,3701
+universal_ml_framework-1.0.0.dist-info/licenses/LICENSE,sha256=25L_rvPPZSklf-V4WlWx1EAkw7VG6JwNefkWX81hB0k,1068
+universal_ml_framework-1.0.0.dist-info/METADATA,sha256=nm550TMB7YZo8xSWByyuJe8hJpA3SeKk1Zem2JfwmQg,6691
+universal_ml_framework-1.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+universal_ml_framework-1.0.0.dist-info/entry_points.txt,sha256=UocFRVpi0F7ChFm_OX6nSlCXvj4cjpmiT2hGdbyqf94,75
+universal_ml_framework-1.0.0.dist-info/top_level.txt,sha256=lBOxlKIlAqBIJGE4JAcEZIcTqkJmVpmba0E4odminXE,23
+universal_ml_framework-1.0.0.dist-info/RECORD,,
