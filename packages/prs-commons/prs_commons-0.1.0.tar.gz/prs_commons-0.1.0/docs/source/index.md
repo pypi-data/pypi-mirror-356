@@ -1,0 +1,60 @@
+# PRS Commons
+
+A Python library providing common utilities and integrations for the PRS system.
+
+## Features
+
+- **Odoo RPC Client**: A high-level client for interacting with Odoo's XML-RPC API
+- **Common Utilities**: Shared utilities and helpers for PRS services
+- **Type Hints**: Full type annotations for better IDE support and code quality
+
+## Installation
+
+```bash
+pip install prs-commons
+```
+
+## Quick Start
+
+### Odoo RPC Client
+
+```python
+from prs_commons.odoo.rpc_client import OdooRPCClient
+
+# Initialize the client (singleton)
+client = OdooRPCClient()
+
+# Search for records
+try:
+    # Search for active partners
+    domain = [('is_company', '=', True), ('active', '=', True)]
+    fields = ['id', 'name', 'email']
+    partners = client.search_read('res.partner', domain, fields=fields)
+
+    # Create a new record
+    new_partner_id = client.create_record('res.partner', {
+        'name': 'John Doe',
+        'email': 'john@example.com',
+        'is_company': False
+    })
+
+    # Update a record
+    client.write_record('res.partner', [new_partner_id], {
+        'email': 'john.doe@example.com'
+    })
+
+except Exception as e:
+    print(f"Error: {e}")
+```
+
+## API Reference
+
+- [Odoo RPC Client](odoo)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,102 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prs-commons"
+version = "0.1.0"
+description = "Common utilities and shared code for PRS microservices"
+readme = "README.md"
+authors = [
+    {name = "Isha Foundation IT", email = "it@ishafoundation.org"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Typing :: Typed"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "odoorpc>=0.9.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/IshaFoundationIT/prs-facade-common"
+Documentation = "https://github.com/IshaFoundationIT/prs-facade-common#readme"
+Issues = "https://github.com/IshaFoundationIT/prs-facade-common/issues"
+Source = "https://github.com/IshaFoundationIT/prs-facade-common"
+Repository = "https://github.com/IshaFoundationIT/prs-facade-common"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "pytest-mock>=3.0.0",
+    "black>=22.0.0",
+    "isort>=5.10.0",
+    "mypy>=0.950",
+    "flake8>=4.0.0",
+    "pre-commit>=2.0.0",
+    "twine>=4.0.0",
+    "build>=0.10.0",
+]
+
+docs = [
+    "sphinx>=5.0.0",
+    "sphinx-rtd-theme>=1.0.0",
+    "myst-parser>=0.18.0",
+]
+
+[project.scripts]
+prs-commons = "prs_commons.cli:main"
+
+# Package discovery configuration for setuptools
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["prs_commons*"]
+exclude = ["tests*"]
+
+# If you have package data to include
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.md", "*.cfg", "*.yaml", "*.yml", "*.json"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=prs_commons --cov-report=term-missing"
