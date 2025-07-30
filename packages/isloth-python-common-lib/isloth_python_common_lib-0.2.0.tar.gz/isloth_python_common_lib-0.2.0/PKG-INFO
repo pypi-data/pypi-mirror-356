@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: isloth-python-common-lib
+Version: 0.2.0
+Summary: Shared Python library for internal microservices
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# python-common-lib [Version 0.2.0]
+Shared Python utilities and interfaces used across all internal Python-based microservices.
