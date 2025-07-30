@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/stringebraic/__init__.py
+src/stringebraic/__main__.py
+src/stringebraic/helpers.py
+src/stringebraic.egg-info/PKG-INFO
+src/stringebraic.egg-info/SOURCES.txt
+src/stringebraic.egg-info/dependency_links.txt
+src/stringebraic.egg-info/entry_points.txt
+src/stringebraic.egg-info/requires.txt
+src/stringebraic.egg-info/top_level.txt
