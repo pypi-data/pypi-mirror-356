@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: cat-cafe
+Version: 0.0.1a0
+Summary: Continuous Alignment Testing Platform - LLM Observability and Testing Framework (Placeholder Package)
+Project-URL: Homepage, https://github.com/thisisartium/cat-cafe
+Project-URL: Documentation, https://docs.cat-cafe.ai
+Project-URL: Repository, https://github.com/thisisartium/cat-cafe
+Project-URL: Issues, https://github.com/thisisartium/cat-cafe/issues
+Author-email: CAT Cafe Team <team@cat-cafe.ai>
+Maintainer-email: CAT Cafe Team <team@cat-cafe.ai>
+License: Apache-2.0
+Keywords: ai,llm,ml,observability,opentelemetry,placeholder,testing,tracing
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# CAT Cafe - Continuous Alignment Testing Platform
+
+> **Note: This is a placeholder package**
+
+This package reserves the `cat-cafe` name on PyPI for the upcoming Continuous Alignment Testing Platform - an LLM observability and testing framework.
+
+## About CAT Cafe
+
+CAT (Continuous Alignment Testing) is a comprehensive platform for monitoring, measuring, and analyzing the performance of LLM systems via distributed tracing. The platform consists of:
+
+- **Python FastAPI backend** for trace processing and analysis
+- **React frontend** for visualization and interaction
+- **OpenTelemetry integration** for distributed tracing
+- **Dataset management** for test case organization
+- **Experiment tracking** for evaluation workflows
+
+## Current Status
+
+🚧 **Under Development** - The full implementation is currently being developed.
+
+## Repository
+
+The source code and development progress can be found at:
+**https://github.com/thisisartium/cat-cafe**
+
+## Installation (Placeholder)
+
+```bash
+pip install cat-cafe
+```
+
+This will install the placeholder package. The full functionality will be available in future releases.
+
+## Usage (Placeholder)
+
+```python
+import cat_cafe
+
+# Get information about the placeholder
+info = cat_cafe.placeholder_info()
+print(info)
+```
+
+## Coming Soon
+
+- Full LLM observability platform
+- Trace analysis and visualization
+- Dataset management APIs
+- Experiment tracking capabilities
+- Integration with popular LLM frameworks
+
+## License
+
+Apache-2.0
+
+## Contact
+
+- Team: team@cat-cafe.ai
+- Repository: https://github.com/thisisartium/cat-cafe
+- Issues: https://github.com/thisisartium/cat-cafe/issues
