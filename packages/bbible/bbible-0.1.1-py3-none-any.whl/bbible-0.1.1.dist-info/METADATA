@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: bbible
+Version: 0.1.1
+Summary: A simple Bible verse lookup library with multi-version support (KJV, NKJV)
+Home-page: https://github.com/Biyi003/bbible
+Author: Biyi Adebayo
+Project-URL: Documentation, https://github.com/Biyi003/bbible#readme
+Project-URL: Source, https://github.com/Biyi003/bbible
+Project-URL: Bug Tracker, https://github.com/Biyi003/bbible/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Religion
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-python
+Dynamic: summary
+
+# bbible
+
+**bbible** is a simple and lightweight Bible verse lookup library for Python.
+
+- 🔍 Fetch any verse or range by book, chapter, and verse
+- 📚 Supports multiple versions (currently: NKJV, KJV)
+- ✨ Returns reader-friendly formatted results
+
+## Example
+
+```python
+import bbible
+
+print(bbible.get_books())
+print(bbible.get_versions())
+print(bbible.get_verse("genesis", 1, 1))
+print(bbible.get_verse("genesis", 1, (1, 3)))
+```
