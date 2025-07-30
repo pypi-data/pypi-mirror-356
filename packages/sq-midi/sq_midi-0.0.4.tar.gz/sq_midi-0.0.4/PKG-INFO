@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: sq_midi
+Version: 0.0.4
+Summary: A package to control Allen & Heath SQ mixers via MIDI
+Author: Philip Smith
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# SQ MIDI Controller
+
+Package to control Allen & Heath SQ Mixers via MIDI
