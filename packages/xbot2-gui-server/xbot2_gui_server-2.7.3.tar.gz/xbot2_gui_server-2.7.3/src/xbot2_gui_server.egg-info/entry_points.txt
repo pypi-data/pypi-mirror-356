@@ -1,0 +1,3 @@
+[console_scripts]
+xbot2_gui = xbot2_gui_server.xbot2_gui:main
+xbot2_gui_server = xbot2_gui_server.main:main
