@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: cleary
+Version: 0.1.1
+Summary: Ultimate cross-platform console clearer
+Author: TroubleGy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# cleary
+
+**Ultimate cross-platform console clearer.**
+
+Cleary instantly clears your terminal or console on any OS. Works with PowerShell, CMD, bash, zsh, and more.
+
+## Features
+
+- Clears input buffer and screen by default
+- Delay before clearing (`--delay N`)
+- Run any command after clearing (`--`)
+- Info about the tool (`info`)
+
+## Install
+
+```sh
+pip install cleary
+```
+
+## Usage
+
+```sh
+cleary
+cleary --delay 2
+cleary -- pip list
+cleary info
+``` 
