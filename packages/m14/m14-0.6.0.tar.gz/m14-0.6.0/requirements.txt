@@ -1,0 +1,8 @@
+joker-textmanip>=0.4.1
+joker~=0.3.0
+json5>=0.9.6
+orjson>=3.6.3
+pymongo>=3.11.4
+PyYAML>=6.0.1
+redis>=3.5.3
+volkanic>=0.4.1
