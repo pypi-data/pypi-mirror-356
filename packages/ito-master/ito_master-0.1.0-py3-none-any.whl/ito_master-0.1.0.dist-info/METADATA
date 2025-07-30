@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: ito_master
+Version: 0.1.0
+Summary: ITO-Master: Inference-Time Optimization for Audio Effects Modeling of Music Mastering Processors
+Home-page: https://github.com/SonyResearch/ITO-Master
+Author: junghyun-tony-koo-sony
+Author-email: junghyun.koo@sony.com
+License: CC BY-NC 4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=2.0
+Requires-Dist: torchaudio==2.1.2
+Requires-Dist: soundfile
+Requires-Dist: librosa
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: auraloss
+Requires-Dist: dasp-pytorch
+Requires-Dist: torchlpc==0.5
+Requires-Dist: torchcomp
+Requires-Dist: pytorch-lightning
+Requires-Dist: julius
+Requires-Dist: pyloudnorm
+Requires-Dist: matplotlib
+Requires-Dist: soxbindings
+Requires-Dist: aubio
+Requires-Dist: laion-clap
+Requires-Dist: torchvision
+Requires-Dist: huggingface_hub
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
