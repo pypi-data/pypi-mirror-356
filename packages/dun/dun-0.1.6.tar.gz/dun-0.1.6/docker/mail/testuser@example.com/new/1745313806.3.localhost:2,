@@ -1,0 +1,16 @@
+Content-Type: multipart/mixed; boundary="===============2477960965503747438=="
+MIME-Version: 1.0
+From: sender@example.com
+To: testuser@example.com
+Subject: Newsletter techniczny
+Date: Tue, 22 Apr 2025 11:23:26 +0000
+
+--===============2477960965503747438==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+TmFqbm93c3plIGluZm9ybWFjamUgemUgxZt3aWF0YSB0ZWNobm9sb2dpaToKLSBBSSByb3p3aWph
+IHNpxJkgYsWCeXNrYXdpY3puaWUKLSBOb3dlIGZyYW1ld29ya2kgUHl0aG9u
+
+--===============2477960965503747438==--

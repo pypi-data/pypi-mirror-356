@@ -1,0 +1,16 @@
+Content-Type: multipart/mixed; boundary="===============8396853713234874423=="
+MIME-Version: 1.0
+From: sender@example.com
+To: testuser@example.com
+Subject: =?utf-8?q?Raport_miesi=C4=99czny?=
+Date: Fri, 06 Jun 2025 11:23:26 +0000
+
+--===============8396853713234874423==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+UmFwb3J0IHogZHppYcWCYWxub8WbY2kgemEgb3N0YXRuaSBtaWVzacSFYy4KClBvemRyYXdpYW0s
+ClN5c3RlbQ==
+
+--===============8396853713234874423==--
