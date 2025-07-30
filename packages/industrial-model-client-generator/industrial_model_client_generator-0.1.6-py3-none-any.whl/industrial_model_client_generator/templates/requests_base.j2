@@ -1,0 +1,19 @@
+from __future__ import annotations
+import datetime
+from typing import Annotated, Literal, Any, Self
+
+from pydantic import Field
+
+from industrial_model import  InstanceId, ViewInstance, ViewInstanceConfig, WritableViewInstance, Engine, PaginatedResult, RootModel
+from industrial_model.queries import BasePaginatedQuery, BaseSearchQuery, BaseAggregationQuery, NestedQueryParam, QueryParam, BoolQueryParam
+
+{% for view_definition in view_definitions %}
+class Base{{ view_definition.view_name }}Request(RootModel):
+    {%- for attr in view_definition.request_fields %}
+    {{ attr }}
+    {%- endfor %}
+
+    or_: Annotated[Self | None, BoolQueryParam("or")] = None
+    and_: Annotated[Self | None, BoolQueryParam("and")] = None
+
+{%- endfor %}
