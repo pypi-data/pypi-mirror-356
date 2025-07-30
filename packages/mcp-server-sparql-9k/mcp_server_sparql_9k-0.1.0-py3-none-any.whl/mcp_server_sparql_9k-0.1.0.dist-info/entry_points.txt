@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-server-sparql-9k = mcp_server_sparql.server:main
