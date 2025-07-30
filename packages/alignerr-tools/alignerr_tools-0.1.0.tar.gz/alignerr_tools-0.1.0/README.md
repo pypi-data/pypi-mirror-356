@@ -1,0 +1,232 @@
+# Alignerr Tools
+
+Labelbox project automation utilities for Alignerr users, group management, and project sharing.
+
+## Features
+
+### Project Promotion
+- `promote_all_users_to_production(client, project_id)` - Promote all users in a project to production
+- `promote_user_to_production(client, project_id, user_ids)` - Promote specific users to production
+- `promote_project_to_production(client, project_id)` - Promote entire project to production
+- `promote_project_to_status(client, project_id, status)` - Promote project to specific status
+- `get_alignerr_project_statuses(client, user_ids, project_ids)` - Get status of users across projects
+
+### Group Management
+- `add_users_to_groups(client, group_ids, user_roles)` - Add users with roles to multiple groups
+- `remove_users_from_group(client, group_id, user_ids)` - Remove users from a specific group
+
+### Project Sharing with Alignerr
+- `share_project_with_alignerr(client, project_id)` - Share a project with the Alignerr organization
+- `unshare_project_from_alignerr(client, project_id)` - Unshare a project from the Alignerr organization
+
+### Rates Management
+- `get_project_rates(client, project_id)` - Get project rates including pay rates and bill rates
+- `set_project_rate(client, project_id, rate, rate_type, effective_from, ...)` - Set worker pay or customer bill rates
+- `get_available_user_roles(client)` - Get available user roles for rate setting
+- `set_project_alignerr_rate(client, project_id, user_id, rate, effective_from, ...)` - Set individual Alignerr rates
+- `bulk_set_project_alignerr_rates(client, project_id, user_rates, effective_from, ...)` - Set bulk Alignerr rates
+
+## Installation
+
+### From wheel (recommended for Google Colab)
+```bash
+pip install alignerr-tools
+```
+
+### From source (Private Repository)
+**Note: This repository is private. You need proper GitHub access and authentication.**
+
+```bash
+# Using SSH (recommended for private repos)
+git clone git@github.com:Labelbox/alignerr-tools.git
+cd alignerr-tools
+poetry install
+```
+
+**OR using HTTPS with personal access token:**
+```bash
+# Replace YOUR_TOKEN with your GitHub personal access token
+git clone https://YOUR_TOKEN@github.com/Labelbox/alignerr-tools.git
+cd alignerr-tools
+poetry install
+```
+
+**OR if you have already cloned the repository:**
+```bash
+cd alignerr-tools
+poetry install
+```
+
+## Usage
+
+```python
+import labelbox as lb
+from datetime import datetime
+from alignerr_tools import (
+    # Promotion functions
+    promote_all_users_to_production,
+    promote_user_to_production,
+    promote_project_to_production,
+    promote_project_to_status,
+    get_alignerr_project_statuses,
+    # Group management functions
+    add_users_to_groups,
+    remove_users_from_group,
+    # Project sharing functions
+    share_project_with_alignerr,
+    unshare_project_from_alignerr,
+    # Rates functions
+    get_project_rates,
+    set_project_rate,
+    get_available_user_roles,
+    set_project_alignerr_rate,
+    bulk_set_project_alignerr_rates,
+    # Enums
+    ProjectStatus,
+    AlignerrStatus,
+    AlignerrEvaluationStatus,
+    Organization,
+    BillingMode,
+    RateType
+)
+
+client = lb.Client(api_key="your_api_key")
+
+# Promotion examples
+promote_all_users_to_production(client, "project_id")
+promote_user_to_production(client, "project_id", ["user1", "user2"])
+promote_project_to_production(client, "project_id")
+promote_project_to_status(client, "project_id", ProjectStatus.Calibration)
+
+# Get user statuses across projects
+statuses = get_alignerr_project_statuses(
+    client,
+    ["user_id_1", "user_id_2"],
+    ["project_id_1", "project_id_2"]
+)
+
+# Group management examples
+user_roles = [
+    {"userId": "user_id_1", "roleId": "role_id_1"},
+    {"userId": "user_id_2", "roleId": "role_id_2"}
+]
+add_users_to_groups(client, ["group_id_1", "group_id_2"], user_roles)
+remove_users_from_group(client, "group_id", ["user_id_1", "user_id_2"])
+
+# Project sharing examples
+share_project_with_alignerr(client, "project_id")
+unshare_project_from_alignerr(client, "project_id")
+
+# Rates examples
+# Query project rates
+rates_data = get_project_rates(client, "project_id")
+
+# Access production project rates
+production_rates = rates_data["project"]["ratesV2"]
+for rate in production_rates:
+    if not rate["isBillRate"] and rate["userRole"]:
+        print(f"Pay rate - {rate['userRole']['name']}: ${rate['rate']}/{rate['billingMode']}")
+    elif rate["isBillRate"]:
+        print(f"Bill rate: ${rate['rate']}/{rate['billingMode']}")
+
+# Access evaluation project rates (if exists)
+eval_project = rates_data["project"]["evaluationProject"]
+if eval_project:
+    eval_rates = eval_project["ratesV2"]
+    for rate in eval_rates:
+        print(f"Evaluation rate - {rate['userRole']['name']}: ${rate['rate']}")
+
+# Get available user roles
+roles = get_available_user_roles(client)
+labeler_role_id = roles["roles"][0]["id"]  # Get first role
+
+# Create datetime objects for rate effective dates
+start_date = datetime(2024, 1, 15, 0, 0, 0)  # UTC
+end_date = datetime(2024, 12, 31, 23, 59, 59)  # UTC
+
+# Set worker pay rate (production project)
+set_project_rate(
+    client,
+    project_id="your_main_project_id",
+    rate=25.0,
+    rate_type=RateType.WorkerPay,
+    effective_from=start_date,
+    user_role_id=labeler_role_id,
+    effective_until=end_date
+)
+
+# Set customer bill rate
+set_project_rate(
+    client,
+    project_id="your_main_project_id",
+    rate=75.0,
+    rate_type=RateType.CustomerBill,
+    effective_from=start_date
+)
+
+# Set individual Alignerr rate
+set_project_alignerr_rate(
+    client,
+    project_id="your_project_id",
+    user_id="user_id",
+    rate=30.0,
+    effective_from=start_date,
+    effective_until=end_date
+)
+
+# Bulk set Alignerr rates
+user_rates = [
+    {"userId": "user_id_1", "rate": 25.0},
+    {"userId": "user_id_2", "rate": 30.0}
+]
+bulk_set_project_alignerr_rates(
+    client,
+    project_id="your_project_id",
+    user_rates=user_rates,
+    effective_from=start_date,
+    effective_until=end_date
+)
+```
+
+## Available Enums
+
+### ProjectStatus
+- `Calibration` = "CALIBRATION"
+- `Paused` = "PAUSED"
+- `Production` = "PRODUCTION"
+- `Complete` = "COMPLETE"
+
+### AlignerrStatus
+- `Production` = "production"
+
+### AlignerrEvaluationStatus
+- `Evaluation` = "evaluation"
+- `Production` = "production"
+
+### Organization
+- `ALIGNERR` = "cm1pk2jhg0avt07z9h3b9fy9p"
+
+### BillingMode
+- `BY_HOUR` = "BY_HOUR"
+
+### RateType
+- `WORKER_PAY` = "worker_pay" (for labeler/reviewer pay rates)
+- `CUSTOMER_BILL` = "customer_bill" (for customer billing rates)
+
+## Requirements
+
+- Python 3.9+
+- labelbox
+
+## Development
+
+```bash
+# Install dependencies
+poetry install
+
+# Run tests
+poetry run pytest
+
+# Build package
+poetry build
+```
