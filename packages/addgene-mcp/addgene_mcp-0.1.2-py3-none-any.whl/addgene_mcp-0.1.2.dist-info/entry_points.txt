@@ -1,0 +1,5 @@
+[console_scripts]
+addgene-mcp = addgene_mcp.server:app
+server = addgene_mcp.server:server_app
+sse = addgene_mcp.server:sse_app
+stdio = addgene_mcp.server:stdio_app
