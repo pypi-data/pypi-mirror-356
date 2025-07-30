@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: brickalistest
+Version: 0.4.8
+Summary: Just a test
+License: GPL-3.0-or-later
+Author: Etienne Boulter
+Author-email: you@example.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# Test-Drive
+
+A minimal Python package that launches a colored Tkinter window with “Test Drive” centered.  
+Installed name: `brickalistest`  
+Console script: `td`
+
+## Installation
+
+1. Clone this repository (or install directly from PyPI once published):
+   ```bash
+   git clone https://github.com/TheBrickalista/Test-Drive.git
+   cd Test-Drive
+
