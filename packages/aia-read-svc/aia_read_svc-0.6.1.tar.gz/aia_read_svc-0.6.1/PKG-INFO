@@ -1,0 +1,84 @@
+Metadata-Version: 2.3
+Name: aia-read-svc
+Version: 0.6.1
+Summary: 
+Author: Edgar Rodrigo Sanchez De Gracia
+Author-email: edgr.sanchez@mercadolibre.cl
+Requires-Python: >=3.11.2,<3.14
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: aia-utils (==0.4.5)
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: coverage (>=7.3.2,<8.0.0)
+Requires-Dist: html-to-json (>=2.0.0,<3.0.0)
+Requires-Dist: httpx (>=0.25.2,<0.26.0)
+Requires-Dist: jmespath (>=1.0.1,<2.0.0)
+Requires-Dist: numpy (>=1.24.0,<2.0.0)
+Requires-Dist: openai (>=1.3.8,<2.0.0)
+Requires-Dist: parsel (>=1.8.1,<2.0.0)
+Requires-Dist: poetry (>=1.7.1,<2.0.0)
+Requires-Dist: pyautogui (>=0.9.54,<0.10.0)
+Requires-Dist: pywhatkit (==5.4)
+Requires-Dist: rapidfuzz (>=3.0.0,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: selenium (>=4.23.1,<5.0.0)
+Requires-Dist: whatsapp-web (>=0.0.1,<0.0.2)
+Description-Content-Type: text/markdown
+
+---
+runme:
+  id: 01HJQE75SKBTCT1QQK59F1AVR6
+  version: v3
+---
+
+# aia-read-svc
+
+AIA Read Service
+
+```sh {"id":"01HJQE75SKBTCT1QQK57A0T1JR"}
+poetry run daemon
+
+git ls-remote --get-url origin 
+git remote set-url origin git@github.com:ranmadxs/aia-read-svc.git
+
+
+
+#tags
+git push --tags
+
+git push --delete origin $AIA_TAG_READ
+```
+
+## Docker
+
+```sh {"id":"01HJV2GKHFHRCW2MAYBX6DWF7V"}
+#set var entorno
+export AIA_TAG_READ=v0.6.1
+```
+
+```sh {"id":"01HJQ7F9RXZBJJ4YEQAAH1BXHZ"}
+#build
+docker build . --platform linux/arm64/v8 -t keitarodxs/aia-read-svc:$AIA_TAG_READ
+
+#push
+docker push keitarodxs/aia-read-svc:$AIA_TAG_READ
+
+#go into docker container
+sudo docker exec -ti aia_read_svc bash
+
+#run
+docker run -d --restart=always -e TZ=America/Santiago -v /home/ranmadxs/aia/aia-device/resources/images:/wh40k_images -v /home/ranmadxs/aia/aia-read-svc/target:/app/target --net=bridge --name aia_read_svc --env-file .env keitarodxs/aia-read-svc:$AIA_TAG_READ
+
+docker run --rm -e TZ=America/Santiago -v /home/ranmadxs/aia/aia-device/resources/images:/wh40k_images -v /home/ranmadxs/aia/aia-read-svc/target:/app/target --net=bridge --name aia_read_svc --env-file .env keitarodxs/aia-read-svc:$AIA_TAG_READ
+
+```
+
+```sh {"id":"01HKRRFAZ7Y6SB5N6ZM1S9Q3MM"}
+#other commands
+docker save -o $AIA_TAG_READ.tar keitarodxs/aia-read-svc:$AIA_TAG_READ
+
+docker load -i $AIA_TAG_READ.tar
+```
+
+
