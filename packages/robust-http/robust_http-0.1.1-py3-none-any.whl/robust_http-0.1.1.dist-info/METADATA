@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: robust-http
+Version: 0.1.1
+Summary: High-level HTTP client with caching, UA rotation, retries, and optional Tor support.
+Home-page: https://github.com/therealbct/robust_http
+License: MIT
+Keywords: http,requests,caching,tor,scraping,retry
+Author: therealbct
+Author-email: therealbct@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: tor
+Requires-Dist: fake_useragent (>=0.1,<3.0)
+Requires-Dist: requests (>=2.25,<3.0)
+Requires-Dist: requests_cache (>=0.9,<0.10)
+Requires-Dist: stem (>=1.8,<2.0) ; extra == "tor"
+Project-URL: Documentation, https://github.com/therealbct/robust_http#readme
+Project-URL: Repository, https://github.com/therealbct/robust_http
+Description-Content-Type: text/markdown
+
+# robust_http
+
+A Python package providing:
+
+- **RobustClient**: High-level HTTP client with:
+
+  - Cookie & JS-challenge caching (requests_cache)
+  - User-Agent rotation (fake_useragent)
+  - Rate-limiting & jitter
+  - Retries with exponential backoff
+  - Optional Tor support (proxying & automatic circuit rotation)
+- **TorManager**: Helper for configuring Tor proxies and sending NEWNYM signals.
+
+## Installation
+
+```bash
+pip install robust_http
+```
+
+## Usage
+
+```python
+from robust_http import RobustClient
+
+client = RobustClient(use_tor=True, tor_kwargs={"password": "mytorpwd"}, rotate_tor_every=50)
+resp = client.get("https://example.com/api")
+print(resp.json())
+```
+
