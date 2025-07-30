@@ -1,0 +1,5 @@
+[console_scripts]
+extralit = argilla.cli.app:app
+
+[gui_scripts]
+
