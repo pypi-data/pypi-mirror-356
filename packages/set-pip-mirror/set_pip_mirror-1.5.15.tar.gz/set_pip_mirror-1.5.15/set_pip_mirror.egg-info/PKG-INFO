@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: set-pip-mirror
+Version: 1.5.15
+Summary: set pip mirror to tsinghua
+Home-page: https://github.com/sylan215/set_pip_mirror
+Author: sylan215
+Author-email: sylan215@163.com
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 一键设置pip源
+
+一键设置 pip 国内安装源，跨平台支持；
+
+## 安装
+
+```
+pip install set_pip_mirror
+```
+
+## 样例
+
+``` python
+from set_pip_mirror import set_mirror
+
+# 一键设置国内镜像源
+set_mirror()
+```

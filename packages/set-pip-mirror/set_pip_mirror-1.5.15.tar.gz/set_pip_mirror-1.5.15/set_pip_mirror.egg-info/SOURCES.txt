@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+set_pip_mirror/__init__.py
+set_pip_mirror/set_pip_mirror.py
+set_pip_mirror.egg-info/PKG-INFO
+set_pip_mirror.egg-info/SOURCES.txt
+set_pip_mirror.egg-info/dependency_links.txt
+set_pip_mirror.egg-info/top_level.txt
