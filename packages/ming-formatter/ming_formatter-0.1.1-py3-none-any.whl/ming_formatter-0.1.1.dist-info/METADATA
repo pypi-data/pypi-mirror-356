@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: ming-formatter
+Version: 0.1.1
+Summary: 
+Author: 黎明10071868
+Author-email: li.ming23@zte.com.cn
+Requires-Python: >=3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# Usage
+
+``` bash
+pip install ming_formatter
+```
