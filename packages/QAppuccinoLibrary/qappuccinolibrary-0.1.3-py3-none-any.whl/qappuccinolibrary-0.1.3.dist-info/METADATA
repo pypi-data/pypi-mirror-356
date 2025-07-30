@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: QAppuccinoLibrary
+Version: 0.1.3
+Summary: Reusable Robot Framework keyword library for QAppuccino TestOps
+Home-page: https://github.com/LPS-PH-ODC/QAppuccinoLibrary
+Author: Eric Zamora
+Author-email: eric.zamora@lpstech.com
+Classifier: Framework :: Robot Framework
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: robotframework>=7.3
+Requires-Dist: robotframework-seleniumlibrary>=6.7.1
+Requires-Dist: allure-robotframework>=2.14.2
+Requires-Dist: allure-python-commons>=2.14.2
+Requires-Dist: robotframework-requests>=0.9.7
+Requires-Dist: robotframework-jsonlibrary>=0.5
+Requires-Dist: robotframework-datadriver>=1.11.2
+Requires-Dist: pywinauto>=0.6.8
+Requires-Dist: wapiti3>=3.2.4
+Requires-Dist: semgrep>=1.122.0
+Requires-Dist: DateTime>=5.5
+Requires-Dist: bandit>=1.8.3
+Requires-Dist: pandas>=2.3.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
