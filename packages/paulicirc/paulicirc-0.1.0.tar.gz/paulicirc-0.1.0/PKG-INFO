@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: paulicirc
+Version: 0.1.0
+Summary: Quantum circuit obfuscation based on Pauli gadgets.
+Project-URL: Documentation, https://paulicirc.readthedocs.io
+Project-URL: Repository, https://github.com/neverlocal/paulicirc
+Project-URL: Issues, https://github.com/neverlocal/paulicirc/issues
+Author: NeverLocal
+License: LGPL-3.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: euler>=1.0.2.post0
+Requires-Dist: numba>=0.61.2
+Requires-Dist: numpy>=2.2.6
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: typing-validation>=1.2.12
+Description-Content-Type: text/markdown
+
+# PauliCirc
+
+[![Generic badge](https://img.shields.io/badge/python-3.10+-green.svg)](https://docs.python.org/3.10/)
+[![Checked with Mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](https://github.com/python/mypy)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/paulicirc.svg)](https://pypi.python.org/pypi/paulicirc/)
+[![PyPI status](https://img.shields.io/pypi/status/paulicirc.svg)](https://pypi.python.org/pypi/paulicirc/)
+
+PauliCirc is a library for the creation of circuits of Pauli gadgets.
+
+## Installation
+
+You can install the library from PyPI as follows:
+
+```
+pip install -U paulicirc
+```
+
+## API
+
+For the full API documentation, see https://paulicirc.readthedocs.io/
+
+## License
+
+[LGPLv3](./LICENSE) © NeverLocal Ltd
