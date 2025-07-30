@@ -1,0 +1,13 @@
+mosamatic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosamatic/logging.py,sha256=g01M7ufh7Zpp8N9QURwrHjlEA8G-KDxcVFhjr7VE5mI,519
+mosamatic/main.py,sha256=BPra04MVYYDP5RrwtvC5JZxAU4jd9YgB007CI6B1_sk,753
+mosamatic/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosamatic/tasks/decompress.py,sha256=hUopIKoYTaX3HeYE0Q4nQxixQJuZJIO5jvvml1npgYk,1834
+mosamatic/tasks/dummy.py,sha256=XPz4dZBtoPIMUBRey-9YQzFXy-UK3255BwRbpa5MtIQ,1132
+mosamatic/tasks/task.py,sha256=2r8w5ydKKjzPJQeIPePLxpy_bh-ONaJ159zFT3qdvvU,1354
+mosamatic/utils.py,sha256=GSInDPX8aAEBsKJgJ6NCyD0u5XV_flHk1ZEIFsaeVGY,2133
+mosamatic_cli-1.1.0.dist-info/entry_points.txt,sha256=N0Moelv_vTHfMbn-8VPjmV_VEkccROTkxJiO6TS0L4E,48
+mosamatic_cli-1.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mosamatic_cli-1.1.0.dist-info/METADATA,sha256=zadS59mPWDre98CB7ZrGy69MDjvaJVnhX8PhUIthu5k,568
+mosamatic_cli-1.1.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+mosamatic_cli-1.1.0.dist-info/RECORD,,
