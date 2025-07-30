@@ -1,0 +1,4 @@
+include src/lidia/pages/*.html
+include src/lidia/sources/confighelp.md
+graft src/lidia/pages/static
+graft src/lidia/utils
