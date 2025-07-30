@@ -1,0 +1,4 @@
+PyAudio>=0.2.11
+PyGObject>=3.40
+appdirs>=1.4.3
+pycairo>=1.20.0
