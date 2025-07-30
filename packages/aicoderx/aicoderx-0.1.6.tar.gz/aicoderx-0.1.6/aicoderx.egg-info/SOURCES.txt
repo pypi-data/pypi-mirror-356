@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ai_coder/__init__.py
+ai_coder/model.py
+aicoderx.egg-info/PKG-INFO
+aicoderx.egg-info/SOURCES.txt
+aicoderx.egg-info/dependency_links.txt
+aicoderx.egg-info/requires.txt
+aicoderx.egg-info/top_level.txt
