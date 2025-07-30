@@ -1,0 +1,2 @@
+[console_scripts]
+project-accounts-api-client = accounts_api_client.cli:main

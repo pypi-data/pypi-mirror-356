@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teklia-accounts-client"
+version = "0.1.5"
+description = "Official API client for Teklia account system"
+authors = [
+    { name = "Teklia", email = "contact@teklia.com" },
+]
+maintainers = [
+    { name = "Teklia", email = "contact@teklia.com" },
+]
+requires-python = ">=3.10"
+readme = { file = "README.md", content-type = "text/markdown" }
+keywords = ["python"]
+classifiers = [
+    # Specify the Python versions you support here.
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "requests>=2.30",
+    "PyNaCl==1.5.0",
+    "tenacity==9.1.2",
+]
+
+[project.scripts]
+"project-accounts-api-client" = "accounts_api_client.cli:main"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.ruff]
+exclude = [".git", "__pycache__"]
+target-version = "py312"
+
+[tool.ruff.lint]
+ignore = ["E501"]
+select = [
+    # pycodestyle
+    "E",
+    "W",
+    # Pyflakes
+    "F",
+    # Flake8 Debugger
+    "T1",
+    # Isort
+    "I",
+    # Implicit Optional
+    "RUF013",
+    # Invalid pyproject.toml
+    "RUF200",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # flake8-pytest-style
+    "PT",
+    # flake8-use-pathlib
+    "PTH",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore `pytest-composite-assertion` rules of `flake8-pytest-style` linter for non-test files
+"accounts_api_client/**/*.py" = ["PT018"]
+
+[tool.ruff.lint.isort]
+known-third-party = ["pytest"]

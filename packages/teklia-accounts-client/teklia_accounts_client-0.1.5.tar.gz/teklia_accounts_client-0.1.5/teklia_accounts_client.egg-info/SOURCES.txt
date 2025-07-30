@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+accounts_api_client/__init__.py
+accounts_api_client/cli.py
+accounts_api_client/client.py
+teklia_accounts_client.egg-info/PKG-INFO
+teklia_accounts_client.egg-info/SOURCES.txt
+teklia_accounts_client.egg-info/dependency_links.txt
+teklia_accounts_client.egg-info/entry_points.txt
+teklia_accounts_client.egg-info/requires.txt
+teklia_accounts_client.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_api_client.py
+tests/test_cli.py
