@@ -1,0 +1,20 @@
+# machine-learning-toolkit
+
+[![Build Status](https://github.com/leomendizabal/machine-learning-utilities/actions/workflows/python-package.yml/badge.svg)](https://github.com/leomendizabal/machine-learning-utilities/actions/workflows/python-package.yml)
+[![PyPI version](https://img.shields.io/pypi/v/machine-learning-toolkit.svg)](https://pypi.org/project/machine-learning-toolkit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A Python package to easily evaluate machine learning classification models with key performance metrics and confusion matrix visualization.
+
+---
+
+## Features
+
+- Compute Accuracy, Precision, Recall, and F1-score with configurable rounding  
+- Display confusion matrix using Matplotlib with clear labels and color maps  
+- Measure model training and prediction execution time  
+- Easy-to-use and reusable API for quick evaluation of any sklearn-compatible estimator  
+- Flexible to integrate into your machine learning workflow  
+
+---
+
