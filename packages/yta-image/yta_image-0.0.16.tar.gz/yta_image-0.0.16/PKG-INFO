@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: yta-image
+Version: 0.0.16
+Summary: Youtube Autonomous Image Module.
+Author: danialcala94
+Author-email: danielalcalavalera@gmail.com
+Requires-Python: ==3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Youtube Autonomous Image Module
+
+@deprecated module. This module has been refactored and now we have 'yta_image_base', 'yta_image_advanced' and more modules coming to make them more modular. This is the last commit.
+
+The Image module.
+
+This project needs:
+- to_fill_this
