@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jupyter_agent.egg-info/PKG-INFO
+jupyter_agent.egg-info/SOURCES.txt
+jupyter_agent.egg-info/dependency_links.txt
+jupyter_agent.egg-info/requires.txt
+jupyter_agent.egg-info/top_level.txt
+tests/test_bot_agents_base.py
+tests/test_bot_chat.py
+tests/test_bot_contexts.py
+tests/test_bot_outputs.py
