@@ -1,0 +1,2 @@
+[console_scripts]
+datark-py-mcp-server = datark_py_mcp_server:main
