@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: djangoldp_branding
+Version: 2.0.2
+Summary: djangoldp package for GBS
+Home-page: https://git.startinblox.com/djangoldp-packages/djangoldp-branding
+Author: Startin'blox
+Author-email: jbaptiste@startinblox.com
+License: MIT
+Provides-Extra: include_package_data
