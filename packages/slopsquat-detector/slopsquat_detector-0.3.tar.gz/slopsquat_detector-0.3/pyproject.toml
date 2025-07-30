@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slopsquat-detector"
+version = "0.3"
+description = "A Python package that detects and warns against slopsquatted or suspicious import statements in code, helping developers avoid accidentally using malicious or mistyped packages suggested by LLMs or found in legacy code."
+authors = [
+    { name = "Prashant Pandey", email = "prashantpandeyiuet@gmail.com" }
+]
+dependencies = [
+    "requests>=2.25.1", 
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/prashantpandeygit/slopsquat"
+Documentation = "https://github.com/prashantpandeygit/slopsquat#readme"
+
+[project.scripts]
+slopsquat = "slopsquat_detector.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest", "requests-mock"]
