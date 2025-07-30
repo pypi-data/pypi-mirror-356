@@ -1,0 +1,27 @@
+[project]
+authors = [
+    {name = "Daniel Soutar", email = "danielsoutar144@gmail.com"},
+]
+requires-python = "<4.0,>=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "scipy>=1.15.2",
+    "seaborn>=0.13.2",
+    "shapely>=2.0.7",
+    "tqdm>=4.67.1",
+]
+name = "dimwit"
+version = "0.2.34"
+description = "A package containing various functions and classes for fetching, transforming, and visualising data for personal metrics."
+readme = "README.md"
+
+[project.urls]
+repository = "https://github.com/danielsoutar/dimwit"
+
+[dependency-groups]
+dev = [
+    "twine>=6.1.0",
+]

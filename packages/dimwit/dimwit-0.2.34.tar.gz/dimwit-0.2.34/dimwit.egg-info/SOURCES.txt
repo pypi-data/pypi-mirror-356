@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+dimwit/__init__.py
+dimwit/air_pollution.py
+dimwit/airflow.py
+dimwit/legacy.py
+dimwit/main.py
+dimwit/pomodoro.py
+dimwit/sleep.py
+dimwit/weight.py
+dimwit.egg-info/PKG-INFO
+dimwit.egg-info/SOURCES.txt
+dimwit.egg-info/dependency_links.txt
+dimwit.egg-info/requires.txt
+dimwit.egg-info/top_level.txt
