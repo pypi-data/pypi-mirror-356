@@ -1,0 +1,55 @@
+# AutoScrap
+
+Lightweight Web Scraping Automation for Everyone
+
+## Installation
+
+After publishing to PyPI, install with:
+```bash
+pip install autoscrap
+```
+
+Or for development:
+```bash
+pip install -r requirements.txt
+```
+
+## Features
+- Simple functions for web scraping:
+  - `get_text(url, tag)`: Fetches all text within a given HTML tag from a URL.
+  - `extract_table(url)`: Extracts the first HTML table from a URL as a list of lists or pandas DataFrame.
+- No need to learn BeautifulSoup or Selenium.
+
+## Usage (Python)
+```python
+from autoscrap.core import get_text, extract_table
+
+# Get all text inside <p> tags
+paragraphs = get_text('https://example.com', 'p')
+print(paragraphs)
+
+# Extract the first table as a list of lists
+rows = extract_table('https://example.com/table')
+print(rows)
+
+# Extract as pandas DataFrame (requires pandas)
+df = extract_table('https://example.com/table', as_dataframe=True)
+print(df)
+```
+
+## Usage (Command Line)
+```bash
+# Extract all <p> tag text from a page
+python -m autoscrap.cli get_text https://example.com p
+
+# Extract the first table as plain text
+python -m autoscrap.cli extract_table https://example.com
+
+# Extract the first table as a pandas DataFrame (requires pandas)
+python -m autoscrap.cli extract_table https://example.com --as-dataframe
+```
+
+## Running Tests
+```bash
+pytest
+``` 

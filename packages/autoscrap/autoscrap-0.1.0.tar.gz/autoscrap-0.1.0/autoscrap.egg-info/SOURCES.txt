@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+autoscrap/__init__.py
+autoscrap/cli.py
+autoscrap/core.py
+autoscrap.egg-info/PKG-INFO
+autoscrap.egg-info/SOURCES.txt
+autoscrap.egg-info/dependency_links.txt
+autoscrap.egg-info/requires.txt
+autoscrap.egg-info/top_level.txt
+tests/test_core.py
