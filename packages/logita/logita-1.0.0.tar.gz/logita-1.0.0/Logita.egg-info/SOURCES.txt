@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+Logita.egg-info/PKG-INFO
+Logita.egg-info/SOURCES.txt
+Logita.egg-info/dependency_links.txt
+Logita.egg-info/requires.txt
+Logita.egg-info/top_level.txt
+logita/__init__.py
+logita/logita.py
