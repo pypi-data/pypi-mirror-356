@@ -1,0 +1,13 @@
+oss_internal/__init__.py,sha256=E1CtQe8t4JivdgKHkcObEK-rcT-FJEkM5tqKdG7oW1U,1116
+oss_internal/oss_download.py,sha256=7H7v6xXYbtTyFex9gb2uDiAUiBc3LnwRbx3h-GlUB3w,9501
+oss_internal/oss_upload.py,sha256=tgvGfa4MojQJtCnmjlvDKrBRc2GE8lMxaNVU5XZrG1g,21804
+oss_internal/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oss_internal/schemas/error.py,sha256=gD9bYSS8SxTIQVd3BEWqgMaPEX0dEUbwii52-slL4eA,395
+oss_internal/utils/__init__.py,sha256=d1GUMl6XVeoFFsngb2YSzuxha6EVH3TJZNdYv9UQrOM,385
+oss_internal/utils/progress_display.py,sha256=VHz9hFmkHLhuNTdxtcf2G-6PHoGWKA5meEf8rrEWIpA,3420
+oss_internal/utils/signed_url_generator.py,sha256=PwI7do3-t_0z1ZmhItIyGQwwcQWAbFal7HnmvdXjP28,4897
+oss_internal-1.7.1.dist-info/licenses/LICENSE,sha256=YQ2jqVd2Nz94zvnxkuFC9-Gj2jYNsAwitIw9xTafWqM,1070
+oss_internal-1.7.1.dist-info/METADATA,sha256=sjZhLhyUq3Pp5LYXV0v1ghbI57iSj6N4aQrFrCu8NZw,12160
+oss_internal-1.7.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+oss_internal-1.7.1.dist-info/top_level.txt,sha256=gxGgVhIc-kA46tz1tURXJYN9oFpz-j3jicJ09rgnLh0,13
+oss_internal-1.7.1.dist-info/RECORD,,
