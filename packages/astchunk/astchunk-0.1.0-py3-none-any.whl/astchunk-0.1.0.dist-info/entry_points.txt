@@ -1,0 +1,2 @@
+[console_scripts]
+astchunk = astchunk.cli:main
