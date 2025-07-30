@@ -1,0 +1,16 @@
+async_kinesis-2.0.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kinesis/__init__.py,sha256=8TvSxcBNrc7ZF4CnkqcocLS5NVxf5w5gtV2Ia1T9gA4,413
+kinesis/aggregators.py,sha256=8tlt_FRKm7i3qrKp1DZsZF_cYvg4WsrGMDsHh2F9mB0,6027
+kinesis/base.py,sha256=UIbcqXSiuUP6SkoljQknu-MpMcweRlE77u1v3Aa3nY4,10600
+kinesis/checkpointers.py,sha256=-cNNy4uxCxloNhjDRXbe_VSzhJWPdogaqV3wruUWOQs,8427
+kinesis/consumer.py,sha256=xHs1VQ3K5LS2XaQNGyErwCxE8zCyHQZssiLJLPPJIqw,29328
+kinesis/exceptions.py,sha256=hmwc4bhSeAa58qIFl_dP5ZKyQT7xjfI8LKKJWQIUBcE,320
+kinesis/processors.py,sha256=OcBVBGsEUGi3h-ZAf5D1XLoGePKlSqocEMajLzKQneE,862
+kinesis/producer.py,sha256=0RFAhzEAhtUEZcIg34bBldVsHR2LEY5ZsGjOAoJMHlI,12142
+kinesis/serializers.py,sha256=xYY-liPvn6So7htoxQtstdViMHFQpiN3NUBmrCss4Tg,884
+kinesis/timeout_compat.py,sha256=ro0PRmFulETgilNqgiFBCLaPsL_OSEXvqp6423JxcQ0,923
+kinesis/utils.py,sha256=x-YlTgovNinK_VaeyDeiqieqyu5USh2B34MuXmiuuVY,2133
+async_kinesis-2.0.0.dist-info/METADATA,sha256=fptpeW1mgmUhRX2-madyeHzlAiNOWYF_n9DPQRP53ZQ,19616
+async_kinesis-2.0.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+async_kinesis-2.0.0.dist-info/top_level.txt,sha256=Sq3kNf5BBPqAZdGJP9-qevQIUMkLuWe9b7Yw9GY6gjM,8
+async_kinesis-2.0.0.dist-info/RECORD,,
