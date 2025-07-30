@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: djangoldp-uploader
+Version: 3.0.1
+Summary: djangoldp package for file upload
+Home-page: http://git.happy-dev.fr/startinblox/djangoldp_uploader
+Author: Startin'blox
+Author-email: jblemee@happy-dev.fr
+License: MIT
+Requires-Dist: djangoldp~=4.0
+Requires-Dist: validators~=0.20
+Provides-Extra: dev
+Requires-Dist: factory-boy>=2.11.0; extra == "dev"
+
