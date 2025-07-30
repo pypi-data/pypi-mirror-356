@@ -1,0 +1,6 @@
+{
+  "resource": true,
+  "name": "ovh",
+  "version": "2.4.0-alpha.1750330187",
+  "server": "github://api.github.com/ovh/pulumi-ovh"
+}
