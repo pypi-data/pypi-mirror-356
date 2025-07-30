@@ -1,0 +1,12 @@
+olefile
+
+[dev]
+build
+pre-commit
+
+[docs]
+sphinx
+myst-parser
+
+[test]
+pytest
