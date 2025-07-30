@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: pycodicon
+Version: 0.1.0
+Summary: Python tools to sacrifice to the Codicon.
+Author-email: redisnotblue <ededmaude@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: moderngl
+Requires-Dist: numpy
+Dynamic: license-file
+
+# pycodicon
+
+A Python package with tools for sacrificing to the Gods of the Codicon.

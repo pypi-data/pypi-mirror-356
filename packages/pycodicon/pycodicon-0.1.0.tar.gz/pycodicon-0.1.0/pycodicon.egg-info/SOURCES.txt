@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+codicon/__init__.py
+codicon/archivus.py
+codicon/common.py
+codicon/graphos.py
+codicon/logos.py
+codicon/machina.py
+codicon/segfalux.py
+codicon/void.py
+pycodicon.egg-info/PKG-INFO
+pycodicon.egg-info/SOURCES.txt
+pycodicon.egg-info/dependency_links.txt
+pycodicon.egg-info/requires.txt
+pycodicon.egg-info/top_level.txt
