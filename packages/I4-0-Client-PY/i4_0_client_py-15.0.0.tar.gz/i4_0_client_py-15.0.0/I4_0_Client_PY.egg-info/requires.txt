@@ -1,0 +1,8 @@
+websockets<16.0.0,>=15.0.0
+asyncio
+pyaudio
+cryptography<45.0.0,>=44.0.0
+numpy
+pydub
+ffmpeg-python
+opencv-python
