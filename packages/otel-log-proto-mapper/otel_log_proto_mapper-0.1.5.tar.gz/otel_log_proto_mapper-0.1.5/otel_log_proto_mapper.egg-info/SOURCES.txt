@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+otel_log_proto_mapper/__init__.py
+otel_log_proto_mapper/converter.py
+otel_log_proto_mapper.egg-info/PKG-INFO
+otel_log_proto_mapper.egg-info/SOURCES.txt
+otel_log_proto_mapper.egg-info/dependency_links.txt
+otel_log_proto_mapper.egg-info/requires.txt
+otel_log_proto_mapper.egg-info/top_level.txt
+tests/test_converter.py
