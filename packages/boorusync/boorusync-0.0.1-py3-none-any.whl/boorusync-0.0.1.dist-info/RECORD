@@ -1,0 +1,14 @@
+boorusync/__init__.py,sha256=DLZbLlVK971y2fcS2npc0Ph1j-fH3-kt5llPsUQihF0,227
+boorusync/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boorusync/core/__init__.py,sha256=QL375EJ2MK784qgCoF4l80sIt3Xy84-aOT4oB7DHo7c,211
+boorusync/core/config.py,sha256=XMBVlLcQ2pnMhxaqSloQjD1AYNXEcElTo9MaALJ8OoM,10665
+boorusync/core/network.py,sha256=8w5ObeZF-k91LzgeUrcbsBgYtIPp6DrcBSQDfGsb_NY,31704
+boorusync/core/boards/danbooru.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boorusync-0.0.1.dist-info/licenses/LICENSE,sha256=cVNY0m1zzgP84HHcnuBmdU1Wfps5XJ9nMcq9T3o6nbI,1064
+tests/test_danbooru.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_network.py,sha256=J__oiObCtYt-1US3YOhs5S2hRQSDrynXbsPNvu6OZfE,1550
+boorusync-0.0.1.dist-info/METADATA,sha256=VhvNJht155ntkZbPPBVA4qlEmYLS2QluMLz8_TGYhGo,650
+boorusync-0.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+boorusync-0.0.1.dist-info/entry_points.txt,sha256=CIBujaxEj2IrJ0ckdtBR8-rOfkWhfwcZuN17R1FybLU,55
+boorusync-0.0.1.dist-info/top_level.txt,sha256=HYEPQu4qgHcjGDYblbEJXvt2stIEKio19Tj9m3gtbqM,16
+boorusync-0.0.1.dist-info/RECORD,,
