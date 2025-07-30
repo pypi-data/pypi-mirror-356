@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: qfitswidget
+Version: 0.11.0
+Summary: PyQt widget for displaying FITS files
+License: MIT
+Author: Tim-Oliver Husser
+Author-email: thusser@uni-goettingen.de
+Requires-Python: >=3.11,<3.14
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: PyQt5 (>=5.15.11,<6.0.0)
+Requires-Dist: astropy (>=7.0.1,<8)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1.1,<3.0.0)
+Requires-Dist: opencv-python-headless (>=4.10.0.84,<5.0.0.0)
