@@ -1,0 +1,2 @@
+[console_scripts]
+django-smartcli = smartcli.cli:main
