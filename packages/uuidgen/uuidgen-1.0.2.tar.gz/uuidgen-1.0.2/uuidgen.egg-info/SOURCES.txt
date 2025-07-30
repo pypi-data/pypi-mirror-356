@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+uuidgen/__init__.py
+uuidgen/cli.py
+uuidgen.egg-info/PKG-INFO
+uuidgen.egg-info/SOURCES.txt
+uuidgen.egg-info/dependency_links.txt
+uuidgen.egg-info/entry_points.txt
+uuidgen.egg-info/requires.txt
+uuidgen.egg-info/top_level.txt
