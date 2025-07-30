@@ -1,0 +1,11 @@
+rust_pyfunc-0.18.0.dist-info/METADATA,sha256=zy6OWHmlguZ_bNeiiRz7XZMQ-ZsFJVNoMVoXlzKpea4,12571
+rust_pyfunc-0.18.0.dist-info/WHEEL,sha256=BDQ8TXCPgNep0ACjvkTdHVJxUfjNX0SLjVqiZ8avsRQ,136
+rust_pyfunc/__init__.py,sha256=YaGLTEA90yGs0ODg3sgrOsLklOnQpId439orOANVWFg,444
+rust_pyfunc/pandas_corrwith.py,sha256=Tb5CuxcFCl6jTHBTyGmn93MBEyIMR6LtnKtezOhDwkc,2083
+rust_pyfunc/pandas_merge.py,sha256=zu4AtiU8jCOShoNpySHurRodcblURLvSmKBKb4mXGZk,15769
+rust_pyfunc/pandas_rank.py,sha256=-Cep-EN5XFcO8iy_waFzv46sLeV-9u9s0ieq_Rb7uQM,5765
+rust_pyfunc/rolling_future.py,sha256=P9KBMih2QzNWnGcj5-vQ4JVS97T1xrbh8XXpFSKF8iQ,13773
+rust_pyfunc/rust_pyfunc.pyi,sha256=viyXF1rpElvTzLzupvFKcMDoXYU25FgS3YYu8lJPUig,95057
+rust_pyfunc/rust_pyfunc.pypy310-pp73-arm-linux-gnu.so,sha256=i4ZSYBbGMbCrqtTqjqsG5uBBv7q_q1c84Kqg7J1htg8,1407352
+rust_pyfunc/treevisual.py,sha256=BgQvJ6gtxSOwOTE7umDEQ17RRqa_G3Uaxidpt4l9WWI,1951
+rust_pyfunc-0.18.0.dist-info/RECORD,,
