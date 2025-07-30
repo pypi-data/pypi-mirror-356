@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+nb_config/__init__.py
+nb_config.egg-info/PKG-INFO
+nb_config.egg-info/SOURCES.txt
+nb_config.egg-info/dependency_links.txt
+nb_config.egg-info/not-zip-safe
+nb_config.egg-info/requires.txt
+nb_config.egg-info/top_level.txt
