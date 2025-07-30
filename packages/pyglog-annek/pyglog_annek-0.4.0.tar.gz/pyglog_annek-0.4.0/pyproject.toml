@@ -1,0 +1,29 @@
+[project]
+name = "pyglog-annek"
+version = "0.4.0"
+description = "Graylog CLI"
+authors = [
+    {name = "Mike Mackenna",email = "mmackenna@unitedfiregroup.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+
+requires-python = ">=3.13"
+dependencies = [
+    "typer (>=0.16.0,<0.17.0)",
+    "python-dotenv-vault (>=0.6.4,<0.7.0)",
+    "pytz (>=2025.2,<2026.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)"
+]
+
+[tool.poetry.scripts]
+pyglog = "pyglog_annek.main:app"
+
+
+[tool.poetry.group.Dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
