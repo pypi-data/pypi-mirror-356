@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+alfinx_autho/__init__.py
+alfinx_autho/main.py
+alfinx_autho.egg-info/PKG-INFO
+alfinx_autho.egg-info/SOURCES.txt
+alfinx_autho.egg-info/dependency_links.txt
+alfinx_autho.egg-info/not-zip-safe
+alfinx_autho.egg-info/requires.txt
+alfinx_autho.egg-info/top_level.txt
