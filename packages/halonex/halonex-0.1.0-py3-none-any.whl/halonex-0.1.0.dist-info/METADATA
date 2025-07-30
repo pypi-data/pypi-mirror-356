@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: halonex
+Version: 0.1.0
+Summary: URL validation and security analysis package using Halonex Vanta API
+Author-email: Dominic <dominic@halonex.app>
+Project-URL: Homepage, https://github.com/dominic-w-21571/halonex
+Project-URL: Bug Reports, https://github.com/dominic-w-21571/halonex/issues
+Project-URL: Source, https://github.com/dominic-w-21571/halonex
+Project-URL: API Documentation, https://api.vanta.halonex.app/docs
+Keywords: url,validation,security,malware,phishing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.0
+Requires-Dist: urllib3>=1.26.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: requests-mock; extra == "dev"
+
+# halonex-pip
+Halonex Python Package
