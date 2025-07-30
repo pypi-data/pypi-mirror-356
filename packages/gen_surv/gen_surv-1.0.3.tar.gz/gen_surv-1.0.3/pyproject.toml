@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "gen_surv"
+version = "1.0.3"
+description = "A Python package for simulating survival data, inspired by the R package genSurv"
+authors = ["Diogo Ribeiro <diogo.debastos.ribeiro@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "gen_surv" }]
+homepage = "https://github.com/DiogoRibeiro7/genSurvPy"
+repository = "https://github.com/DiogoRibeiro7/genSurvPy"
+documentation = "https://gensurvpy.readthedocs.io/en/stable/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26"
+pandas = "^2.2.3"
+pytest-cov = "^6.1.1"
+invoke = "^2.2.0"
+typer = "^0.12.3"
+tomli = "^2.2.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+python-semantic-release = "^9.21.0"
+mypy = "^1.15.0"
+invoke = "^2.2.0"
+hypothesis = "^6.98"
+tomli = "^2.2.1"
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = "<4.0.0"
+
+[tool.semantic_release]
+version_source = "tag"
+version_variable = ["pyproject.toml:tool.poetry.version"]
+commit_version_number = true
+changelog_file = "CHANGELOG.md"
+upload_to_repository = false
+branch = "main"
+build_command = ""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
