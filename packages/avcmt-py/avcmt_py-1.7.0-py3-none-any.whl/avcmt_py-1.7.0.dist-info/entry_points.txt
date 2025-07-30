@@ -1,0 +1,10 @@
+[console_scripts]
+avcmt=avcmt.cli.main:app
+check=scripts.check:main
+clean=scripts.clean:main
+format=scripts.format:main
+helper=scripts.helper:main
+lintfix=scripts.lintfix:main
+preflight=scripts.preflight:main
+setup=scripts.setup:main
+
