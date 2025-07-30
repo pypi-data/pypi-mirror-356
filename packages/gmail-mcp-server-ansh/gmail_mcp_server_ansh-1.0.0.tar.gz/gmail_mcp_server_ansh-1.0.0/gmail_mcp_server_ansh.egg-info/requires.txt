@@ -1,0 +1,11 @@
+openai
+fastapi
+fastmcp
+uvicorn
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+sse-starlette
+groq
+pydantic-settings
