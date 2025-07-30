@@ -1,0 +1,66 @@
+[project]
+name = "agentc-cli"
+description = "The command line interface for the Couchbase Agent Catalog project."
+authors = [
+    { name = "Glenn Galvizo", email = "glenn.galvizo@couchbase.com" },
+    { name = "Steve Yen", email = "steve.yen@couchbase.com" },
+    { name = "Tanvi Johari", email = "tanvi.johari@couchbase.com" },
+    { name = "Thejas N U", email = "thejas.nu@couchbase.com" }
+]
+license = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.12"
+
+[project.urls]
+repository = "https://github.com/couchbaselabs/agent-catalog"
+documentation = "https://couchbaselabs.github.io/agent-catalog/cli.html"
+
+[project.scripts]
+agentc = "agentc_cli.main:main"
+
+# Version is dynamically pulled from Git.
+[tool.poetry]
+name = "agentc-cli"
+version = "0.2.2a1"
+packages = [
+    { include = "agentc_cli" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click-extra = "^4.15.0"
+tqdm = "^4.66.5"
+dateparser = "^1.2.0"
+
+# The version of this package will be updated dynamically.
+# agentc-core = { path = "../agentc_core", develop = true }
+agentc-core = "^0.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+pytest = "^8.3.2"
+pytest-retry = "^1.7.0"
+
+[tool.poetry.group.dev.dependencies.agentc-testing]
+path = "../agentc_testing"
+develop = true
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: marks tests for running on each git-push",
+    "slow: marks slow tests for running on each git-push",
+]
+
+[tool.poetry-monoranger-plugin]
+enabled = true
+monorepo-root = "../../"
+version-pinning-rule = '=='
+
+[tool.poetry.requires-plugins]
+poetry-monoranger-plugin = ">=0.4.1"
+
+[build-system]
+requires = [
+    "poetry-core>=2.1.0"
+]
+build-backend = "poetry.core.masonry.api"
