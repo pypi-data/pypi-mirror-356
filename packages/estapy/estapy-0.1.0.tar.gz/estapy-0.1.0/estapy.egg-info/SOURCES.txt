@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+estapy/__init__.py
+estapy/datosAgrupados.py
+estapy/datosNoAgrupados.py
+estapy.egg-info/PKG-INFO
+estapy.egg-info/SOURCES.txt
+estapy.egg-info/dependency_links.txt
+estapy.egg-info/requires.txt
+estapy.egg-info/top_level.txt

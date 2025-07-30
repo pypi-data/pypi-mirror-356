@@ -1,0 +1,16 @@
+[project]
+name = "estapy"
+version = "0.1.0"
+description = "Estadística descriptiva para datos agrupados y no agrupados"
+authors = [
+    { name="Camilo Rodríguez", email="hola@camilordz.com" }
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn"
+]
