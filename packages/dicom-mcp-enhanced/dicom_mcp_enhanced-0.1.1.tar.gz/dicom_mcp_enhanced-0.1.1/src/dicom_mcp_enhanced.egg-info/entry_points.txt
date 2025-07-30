@@ -1,0 +1,3 @@
+[console_scripts]
+dicom-mcp = dicom_mcp.__main__:main
+nii-to-dicom = dicom_mcp.nii_converter:main
