@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+restbase/__init__.py
+restbase/__main__.py
+restbase/api.py
+restbase/cli.py
+restbase/config.py
+restbase/config_generator.py
+restbase/db.py
+restbase/schema.py
+restbase_cli.egg-info/PKG-INFO
+restbase_cli.egg-info/SOURCES.txt
+restbase_cli.egg-info/dependency_links.txt
+restbase_cli.egg-info/entry_points.txt
+restbase_cli.egg-info/requires.txt
+restbase_cli.egg-info/top_level.txt
