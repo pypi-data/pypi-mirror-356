@@ -1,0 +1,5 @@
+setuptools>=80.9.0
+loguru>=0.7.3
+requests>=2.32.4
+beautifulsoup4>=4.13.4
+lxml>=5.4.0
