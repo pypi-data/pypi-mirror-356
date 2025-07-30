@@ -1,0 +1,38 @@
+[project]
+name = "copado_ai_sdk"
+version = "0.1.0"
+description = "Python SDK for Copado AI - AI-powered DevOps assistant with document analysis and knowledge integration"
+authors = [{name = "Fekry Mostafa", email = "mostafaf@copado.com"}]
+maintainers = [{name = "Copado Support", email = "success@copado.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+homepage = "https://github.com/CopadoSolutions/copado_ai_sdk"
+repository = "https://github.com/CopadoSolutions/copado_ai_sdk"
+documentation = "https://docs.copado.com/articles/#!copadoai-publication/copado-ai-platform-api"
+keywords = ["copado", "ai", "devops", "salesforce", "automation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration",
+]
+requires-python = ">=3.9"
+dependencies = ["httpx>=0.27", "pydantic>=2.7", "python-dotenv>=1.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/copado_ai_sdk"]
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
