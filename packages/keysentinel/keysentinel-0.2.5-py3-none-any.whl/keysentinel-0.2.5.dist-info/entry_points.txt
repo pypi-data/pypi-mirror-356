@@ -1,0 +1,3 @@
+[console_scripts]
+keysentinel = keysentinel.cli:app
+ks = keysentinel.cli:app
