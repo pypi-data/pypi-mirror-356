@@ -1,0 +1,39 @@
+{
+    "cSpell.words": [
+        "ackward",
+        "CLDR",
+        "demi",
+        "demicode",
+        "dimidius",
+        "𝔽𝕚𝕩𝕖𝕕",
+        "hemi",
+        "hemisemidemi",
+        "incb",
+        "islight",
+        "JONGSEONG",
+        "JUNGSEONG",
+        "orward",
+        "pipx",
+        "𝓡𝓮𝓷𝓭𝓮𝓻𝓲𝓷𝓰",
+        "Repha",
+        "revious",
+        "SSANGNIEUN",
+        "tcgetattr",
+        "TCSADRAIN",
+        "tcsetattr",
+        "unus",
+        "vstring",
+        "wcwidth",
+        "𝐖𝐢𝐝𝐭𝐡",
+        "xpicto"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
