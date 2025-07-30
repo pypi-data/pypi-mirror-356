@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/test_z/__init__.py
+src/test_z/__main__.py
+src/test_z.egg-info/PKG-INFO
+src/test_z.egg-info/SOURCES.txt
+src/test_z.egg-info/dependency_links.txt
+src/test_z.egg-info/requires.txt
+src/test_z.egg-info/top_level.txt
