@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ScriptUITool
+Version: 1.2.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 孙亮
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+    
+
+    1 这是一个把qt设计大师 画的界面 所生成的代码，
+    
+    2 把.ui 文件 生成界面，读取设置保存设置
+    
+    3 自动生成多线程绑定按钮的代码。
+    
+    4 在 bbutton_click_handler.py 中填写功能代码。
+    
+    5 并没有与功能端彻底隔离
+    
+    6 由于多文件开发限制，不是很完美
+    
+    7 热更新还没想过
+    
+
+
+    
+
