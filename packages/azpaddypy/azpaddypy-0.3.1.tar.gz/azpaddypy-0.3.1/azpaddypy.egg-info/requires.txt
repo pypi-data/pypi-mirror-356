@@ -1,0 +1,8 @@
+azure-monitor-opentelemetry==1.6.10
+azure-functions==1.23.0
+
+[dev]
+azure-functions==1.23.0
+pytest==8.4.1
+pytest-asyncio==1.0.0
+anyio==4.9.0
