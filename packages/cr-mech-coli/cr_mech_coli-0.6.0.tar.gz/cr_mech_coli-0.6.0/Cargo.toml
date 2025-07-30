@@ -1,0 +1,41 @@
+[package]
+name = "cr_mech_coli"
+version = "0.6.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "cr_mech_coli"
+crate-type = ["cdylib", "rlib"]
+
+# Due to python docstrings
+doctest = false
+
+
+[patch.crates-io]
+nalgebra = { git = "https://github.com/dimforge/nalgebra" }
+cellular_raza = { git = "https://github.com/jonaspleyer/cellular_raza" }
+
+[dependencies]
+cellular_raza = { version = "0.2.4", features = ["pyo3", "approx"] }
+approx = { package = "approxim", version = "0.6.6", features = ["tuple_impl"] }
+itertools = "0.14.0"
+nalgebra = { version = "0.33", features = ["serde", "serde-serialize"] }
+num = { version = "0.4.3", features = ["rand", "serde"] }
+numpy = { version = "0.24.0", features = ["half", "nalgebra"] }
+pyo3 = { version = "0.24", features = ["serde", "py-clone", "multiple-pymethods"] }
+rand = { version = "0.9", features = ["serde"] }
+rand_chacha = { version = "0.9", features = ["serde"] }
+rayon = "1.10.0"
+serde = { version = "1.0", features = ["derive"] }
+serde-pickle = "1.2"
+serde_json = { version = "1.0.128", features = ["arbitrary_precision", "float_roundtrip", "preserve_order", "std"] }
+toml = "0.8"
+clap = { version = "4.5.40", features = ["derive"] }
+rand_distr = "0.5.1"
+short_default = "0.1.1"
+ndarray = "0.15"
+egobox-doe = "0.29.1"
+kdam = "0.6.3"
+log = "0.4.27"
+env_logger = "0.11.8"
