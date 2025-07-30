@@ -1,0 +1,38 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyqdpx"
+version = "0.1.4"
+authors = [
+  { name="Pethő Gergely", email="petho.gergely@etk.unideb.hu" },
+]
+description = "A Python module to process Qualitative Data Exchange (QDPX) XML files."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "beautifulsoup4>=4.10.0",
+    "lxml>=5.3.0",
+    "regex>=2024.11.6"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DEpt-metagenom/pyqdpx"
+"Bug Tracker" = "https://github.com/DEpt-metagenom/pyqdpx/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyqdpx"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "--strict-markers --import-mode=importlib"
+testpaths = ["tests"]

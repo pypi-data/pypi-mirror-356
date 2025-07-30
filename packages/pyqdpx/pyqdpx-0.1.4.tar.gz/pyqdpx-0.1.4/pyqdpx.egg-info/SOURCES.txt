@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+pyqdpx/__init__.py
+pyqdpx/pyqdpx.py
+pyqdpx.egg-info/PKG-INFO
+pyqdpx.egg-info/SOURCES.txt
+pyqdpx.egg-info/dependency_links.txt
+pyqdpx.egg-info/requires.txt
+pyqdpx.egg-info/top_level.txt
+tests/test_pyqdpx.py
