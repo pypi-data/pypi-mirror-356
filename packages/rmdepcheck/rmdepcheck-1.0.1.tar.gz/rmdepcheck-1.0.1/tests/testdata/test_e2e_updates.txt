@@ -1,0 +1,6 @@
+New broken dependencies:
+package: bbb-2.0-1.x86_64 from file://{REPOS}/updates
+  aaa = 2.0
+Installability problems:
+package: 111-3.0-1.x86_64 from file://{REPOS}/new
+  nonexistent
