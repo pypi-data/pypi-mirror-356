@@ -1,0 +1,32 @@
+[project]
+name = "hica"
+version = "0.1.0"
+description = "A generalized agent library following 12-factor principles"
+authors = [{ name = "Sandipan Haldar", email = "work@sandipanhaldar.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "instructor>=1.0",
+    "openai>=1.0",
+    "fastapi>=0.100",
+    "uvicorn>=0.20",
+    "python-dotenv>=1.0",
+    "structlog>=24.0",
+    "pydantic-ai>=0.2.19",
+    "fastmcp>=2.8.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.20",
+]
+
+[project.scripts]
+hica = "hica.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
