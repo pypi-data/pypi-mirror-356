@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: sparv-pipeline
+Version: 5.3.0
+Summary: sparv-pipeline is now sparv
+Author-email: Språkbanken Text <sb-info@svenska.gu.se>
+License-Expression: MIT
+Classifier: Development Status :: 7 - Inactive
+Requires-Dist: sparv
+Description-Content-Type: text/markdown
+
+# sparv-pipeline is now sparv
+
+This package has been renamed. Use `pip install sparv` instead.
+
+New package: https://pypi.org/project/sparv/
