@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flake8-pyspark-with-column"
+dynamic = ["version"]
+description = "A Flake8 plugin to check for PySpark withColumn usage in loops"
+authors = [
+    {name = "Sem Sinchenko", email = "ssinchenko@apache.org"},
+]
+license = "Apache-2.0"
+readme = "README.md"
+classifiers = [
+    "Framework :: Flake8",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+keywords = ["flake8", "pyspark", "linter", "quality"]
+dependencies = [
+    "flake8 >= 3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SemyonSinchenko/flake8-pyspark-with-column"
+Repository = "https://github.com/SemyonSinchenko/flake8-pyspark-with-column.git"
+
+[project.entry-points."flake8.extension"]
+P = "flake8_pyspark_with_column:Plugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["flake8_pyspark_with_column.py"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "flake8_pyspark_with_column.py",
+    "README.md",
+    "LICENSE",
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.version.raw-options]
+version_scheme = "no-guess-dev"
