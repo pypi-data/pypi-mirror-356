@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "nqrduck-spectrometer"
+version = "0.0.13"
+authors = [
+  { name="jupfi", email="support@nqruck.cool" },
+]
+
+description = "A module for the NQRduck program (a simple python script™) to control different NQR/NMR spectrometers."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "matplotlib",
+    "pyqt6",
+    "nqrduck",
+    "sympy",
+    "numpy",
+    "scipy",
+    "quackseq",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pydocstyle",
+    "pyupgrade",
+    "ruff",
+]
+
+[tool.ruff]
+exclude = [
+  "widget.py",
+  "base_spectrometer_widget.py",
+]
+
+[tool.ruff.lint]
+extend-select = [
+  "UP",  # pyupgrade
+  "D",   # pydocstyle
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[project.entry-points."nqrduck"]
+"nqrduck-spectrometer" = "nqrduck_spectrometer.spectrometer:Spectrometer"
+
+[project.urls]
+"Homepage" = "https://nqrduck.cool"
+"Bug Tracker" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer/issues"
+"Source Code" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nqrduck_spectrometer"]
