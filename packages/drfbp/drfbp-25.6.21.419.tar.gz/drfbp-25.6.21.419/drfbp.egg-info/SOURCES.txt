@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+drfbp/__init__.py
+drfbp/apps.py
+drfbp/models.py
+drfbp/utils.py
+drfbp.egg-info/PKG-INFO
+drfbp.egg-info/SOURCES.txt
+drfbp.egg-info/dependency_links.txt
+drfbp.egg-info/requires.txt
+drfbp.egg-info/top_level.txt
+drfbp/management/__init__.py
+drfbp/management/commands/__init__.py
+drfbp/management/commands/crud.py
+drfbp/management/commands/settings.py
