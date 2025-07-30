@@ -1,0 +1,2 @@
+[console_scripts]
+sensory-transcribe = sensory_transcription.client.cli:app
