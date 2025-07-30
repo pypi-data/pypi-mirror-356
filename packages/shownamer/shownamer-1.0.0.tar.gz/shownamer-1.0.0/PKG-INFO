@@ -1,0 +1,112 @@
+Metadata-Version: 2.4
+Name: shownamer
+Version: 1.0.0
+Summary: Rename TV show Media files with Respective episode Titles/Names.
+Home-page: https://github.com/theamallalgi/shownamer
+Author: Amal Lalgi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+![Intro](https://github.com/theamallalgi/shownamer/blob/main/dependencies/header.png?raw=true)
+# Shownamer - Media Renamer
+A lightweight Python CLI tool that renames TV show episode video files by fetching their actual episode titles. Movies are not supported, All TV Shows and Sitcoms are supported.
+
+>[!NOTE]
+> Fetches details and Names from [TVmaze](https://www.tvmaze.com/).
+
+## Features
+
+- Automatically detects and renames files like:
+
+  ```
+  Before: Malcolm in the Middle S01E10.mkv
+  After: Malcolm in the Middle S01E10 - Stock Car Races.mkv
+  ```
+- Fetches episode titles using the free TVmaze API.
+- Cleans illegal filename characters automatically.
+- CLI flags for:
+  - Custom directory
+  - File extension filter
+  - Dry-run mode
+  - Verbose logging
+
+## Usage
+
+### Requirements
+
+- Python 3.6+
+- `requests` module
+
+Install requirements:
+```bash
+pip install requests
+```
+
+### Run the script
+
+```bash
+python shownamer.py
+```
+
+### Example Usage
+
+```bash
+# Rename all valid video files in the current directory
+python shownamer.py
+
+# Specify a custom directory
+python shownamer.py --dir "/path/to/your/episodes"
+
+# Preview changes without renaming files
+python shownamer.py --dry-run
+
+# Limit to specific extensions
+python shownamer.py --ext mkv mp4 avi
+
+# Verbose mode (shows skipped files, debug info)
+python shownamer.py --verbose
+```
+
+## Supported Formats
+
+The script supports the following file name pattern:
+
+```
+Show Name S01E01.ext
+```
+
+It handles these video formats by default:
+
+- `.mkv`
+- `.mp4`
+- `.avi`
+- `.mov`
+- `.flv`
+
+You can customize this with the `--ext` flag.
+
+## FAQ
+
+### Will this overwrite existing files?
+No. The script does not overwrite files. It renames only when the target filename does not exist. You can use `--dry-run` to preview the result first.
+
+### Does it fetch subtitles or cover images?
+No. This tool only renames the video files with accurate episode titles.
+
+## Contributions
+
+Pull requests, suggestions, and issues are welcome! Let's make it smarter and broader (e.g., subtitle renaming, fuzzy matching, show aliases, etc.).
