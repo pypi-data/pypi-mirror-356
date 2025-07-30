@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+demoExTest/__init__.py
+demoExTest/database.py
+demoExTest/database_operations.py
+demoExTest/demo_db.db
+demoExTest/main.py
+demoExTest/main_window.py
+demoExTest/material_form.py
+demoExTest/materials_list.py
+demoExTest/suppliers_tab.py
+demoExTest.egg-info/PKG-INFO
+demoExTest.egg-info/SOURCES.txt
+demoExTest.egg-info/dependency_links.txt
+demoExTest.egg-info/requires.txt
+demoExTest.egg-info/top_level.txt
