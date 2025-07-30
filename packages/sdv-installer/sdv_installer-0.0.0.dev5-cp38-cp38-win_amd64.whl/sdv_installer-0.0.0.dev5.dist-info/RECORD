@@ -1,0 +1,13 @@
+sdv_installer/__init__.cp38-win_amd64.pyd,sha256=G-oyv0YOXOvj7Rgpacb_UtwTtkN4azEpFsdhiwtOeQs,16384
+sdv_installer/cli/__init__.cp38-win_amd64.pyd,sha256=VqH0hajqHCzkutAgRBs4R2COXbEKOzyk0AtR1urPtvY,15872
+sdv_installer/cli/__main__.cp38-win_amd64.pyd,sha256=S8KTNLhd-nhjuseJjZhVe_o43mYCr2jZe7Fce7ZfTRI,51200
+sdv_installer/installation/__init__.cp38-win_amd64.pyd,sha256=X-w4L_Tm_5q_tANeTmudz07XSuSwb8RRDqWTvaV_BxQ,17920
+sdv_installer/installation/installer.cp38-win_amd64.pyd,sha256=8066R7UNlYYmNIVhIJJfjyynCAWeGmCXADV_ttm7zjQ,88576
+sdv_installer/licensing/__init__.cp38-win_amd64.pyd,sha256=kbEgwKsA98x9Pan939tUjXkgoyR7OHLtFFBhChdRj68,17920
+sdv_installer/licensing/authentication.cp38-win_amd64.pyd,sha256=xLgYTTMVA4jztpsYFBPYCNdGYrMLr7PQiNNYj6o4DF4,80896
+sdv_installer-0.0.0.dev5.dist-info/LICENSE,sha256=_d1m3b6XYQZ-3Ua4-xmFy_tHZ39BP_RYbUbFynDdezQ,1086
+sdv_installer-0.0.0.dev5.dist-info/METADATA,sha256=iDkNQ5NPc5Oea-G6YJk6ZlUMwkjJLNnpbGfWjOphM5M,2905
+sdv_installer-0.0.0.dev5.dist-info/WHEEL,sha256=2M046GvC9RLU1f1TWyM-2sB7cRKLhAC7ucAFK8l8f24,99
+sdv_installer-0.0.0.dev5.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev5.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev5.dist-info/RECORD,,
