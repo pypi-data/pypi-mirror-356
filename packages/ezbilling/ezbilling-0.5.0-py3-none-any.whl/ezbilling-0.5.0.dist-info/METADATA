@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: ezbilling
+Version: 0.5.0
+Summary: A small Python package that says hello.
+Home-page: https://github.com/Ezbillpay
+Author: Nithesh
+Author-email: Nithesh <nithish@dreaminfinity.in>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+<!-- 
+source venv/bin/activate
+
+python -m build
+
+twine upload dist/*
+
+pypi-AgEIcHlwaS5vcmcCJGU3ZDlmZDNjLTI0MTUtNDMyOS1iMTE2LWYwZTI0MmQ0MmZmMwACKlszLCI5YjczMWU2MS1mZjg3LTQyNmYtYWZlYy02ZDc1MzNjNThkZmIiXQAABiC1rb82OLVAGE2hOUdzFwaAbYeqxVeArR4Fpu2y053h8A
+
+ -->
+
+
+# Your Package
+
+A small Python package that says hello.
+
+## Installation
+
+```bash
+pip install ezbillpg
