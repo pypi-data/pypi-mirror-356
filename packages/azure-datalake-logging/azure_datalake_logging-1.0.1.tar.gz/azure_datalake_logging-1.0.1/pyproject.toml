@@ -1,0 +1,89 @@
+[project]
+name = "azure-datalake-logging"
+version = "1.0.1"
+description = "Write your logs to Azure Storage (e.g., Blob, Queue, and Table)"
+readme = "README.md"
+authors = [{ name = "Markus Feiks", email = "pypi.packages@feyx.de" }]
+requires-python = ">=3.10"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "azure-data-tables>=12.6.0",
+    "azure-identity>=1.21.0",
+    "multidict>=6.4.3",
+    "uuid-extension>=0.0.3",
+]
+[dependency-groups]
+dev = ["pytest>=8.3.5", "python-dotenv>=1.1.0"]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# PYTEST SETTINGS
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "--verbose"
+
+
+# RUFF SETTINGS
+[tool.ruff]
+# Target the oldest supported version in editors and default CLI
+target-version = "py310"
+
+# formatting
+line-length = 90
+indent-width = 4
+
+# This file is not UTF-8
+extend-exclude = []
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.ruff.lint]
+ignore = ["F401", "S101", "S311"]
+
+# For all rules see: https://docs.astral.sh/ruff/rules/
+select = [
+    "A",    # flake8-builtins
+    "B",    # flake8-bugbear
+    "BLE",  # flake8-blind-exception
+    "C4",   # flake8-comprehensions
+    "COM",  # #flake8-commas-com
+    "E",    # pycodestyle Error
+    "EM",   # flake8-errmsg
+    "F",    # pyflakes
+    "FIX",  # flake8-fixme
+    "F404", # late-future-import
+    "F811", # redefined-while-unused
+    "FA",   # flake8-future-annotations
+    "FLY",  # static-join-to-f-string
+    "G",    # flake8-logging-format
+    "I",    # isort
+    "PLC",  # Pylint Convention
+    "PLE",  # Pylint Error
+    "PYI",  # flake8-pyi
+    "RET",  # flake8-return
+    "RSE",  # flake8-raise
+    "S",    # flake8-bandit
+    "TC",   # flake8-type-checking
+    "UP",   # pyupgrade
+    "W",    # pycodestyle Warning
+    "YTT",  # flake8-2020
+    "LOG",
+
+    # "ANN",  # flake8-annotations
+    # "FBT",  # flake8-boolean-trap (FBT)
+]
+
+[tool.ruff.lint.per-file-ignores]
+
+[tool.ruff.lint.isort]
+combine-as-imports = false
+split-on-trailing-comma = true
+detect-same-package = false
