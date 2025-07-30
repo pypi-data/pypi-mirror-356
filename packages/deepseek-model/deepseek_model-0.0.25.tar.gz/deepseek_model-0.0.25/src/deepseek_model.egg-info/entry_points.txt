@@ -1,0 +1,6 @@
+[console_scripts]
+deepseek = deepseek.main:main
+gemini = gemini.main:main
+hkatt = hkatt.main:main
+htmltotext = htmltotext.main:main
+ykatt = ykatt.main:main
