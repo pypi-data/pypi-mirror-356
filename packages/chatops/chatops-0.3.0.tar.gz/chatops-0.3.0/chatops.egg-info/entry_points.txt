@@ -1,0 +1,3 @@
+[console_scripts]
+chatops = chatops.cli:app
+chatops-toolkit = chatops.cli:app
