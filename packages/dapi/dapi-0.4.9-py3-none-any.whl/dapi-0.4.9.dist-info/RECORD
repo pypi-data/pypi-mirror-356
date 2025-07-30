@@ -1,0 +1,17 @@
+dapi/__init__.py,sha256=6-9UDlobJJK0Zkp_Cq1bMjMVk9sqq7nsRUP9lYmrFy4,3336
+dapi/apps.py,sha256=YqDIXDDS_g88BPX_PkE3AKxIdjLg-Kvt8mYF8K3rPSo,5764
+dapi/auth.py,sha256=H29-9UTmajBuUl4HZZ0Sve0c87Zsn5dDCrXF4TnvzOI,4304
+dapi/client.py,sha256=3Vj2KGgGhQ0lN0vv6bmraLepqcf6W7ystpVmZDFE7Ss,20309
+dapi/db/__init__.py,sha256=7Fa7N0UeSGoePHOlE7ABXIfjaqdRS0gAozzPa9UOHUo,529
+dapi/db/accessor.py,sha256=8Gic1v5TXqMydD2063lHVJE3yfNtg0sP5QiALsfuE4Q,7666
+dapi/db/config.py,sha256=urbsi_ULInuWkTRZ2ghS593c2XlIgNGr7t2q8tSu-OA,1927
+dapi/db/db.py,sha256=ZWkzeGYeSobys_Np5Ha7kqu4-WsfQKG8OdQTPaKPzs4,8474
+dapi/exceptions.py,sha256=HkI8lEeFQxQIJFJ-vZ-YpbELTT5QpLShtfJq88l7kz4,6345
+dapi/files.py,sha256=uTg0DyKosmdeIUu-9CQaNjb6ERuvZFcCf35oTLMUuAo,22840
+dapi/jobs.py,sha256=YCxImkci5kQ7OVsHKlEP_DHFQX6D25N9-tRhBMQYd4U,60505
+dapi/systems.py,sha256=qEzo3-pnUtiWpiWm0z--N8GJWX4AQxBz4EAsJsSQlMo,4310
+dapi-0.4.9.dist-info/AUTHORS.md,sha256=YfxOv-Pt-RMzHFxICT6T5NWHqxSgolv8avTtbvs88AY,105
+dapi-0.4.9.dist-info/LICENSE.md,sha256=BAQUrW-janfTWmXxSfvvnUvnTfS5qSEw_vVJn-SW3nE,1071
+dapi-0.4.9.dist-info/METADATA,sha256=qpr9kjFqYAcYwILRvAyHT5IKnAQwA1ruM3dmirYi98E,5185
+dapi-0.4.9.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+dapi-0.4.9.dist-info/RECORD,,
