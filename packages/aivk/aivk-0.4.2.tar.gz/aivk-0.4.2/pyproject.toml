@@ -1,0 +1,53 @@
+[project]
+name = "aivk"
+version = "0.4.2"
+description = "Aivk is ai Virtual Kernel"
+readme = "README.md"
+authors = [
+    { name = "LIghtJUNction", email = "lightjunction.me@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "python-box>=7.3.2",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "toml>=0.10.2",
+]
+
+[project.scripts]
+aivk = "aivk.cli.__main__:cli"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "pytest-mock>=3.14.0",
+    "pyupgrade>=3.19.1",
+]
+cli = [
+    "click>=8.1.8",
+]
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["src"]
+directory = "dist"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aivk"]
+
+[tool.uv.workspace]
+members = [
+    "AIVKTEST",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
