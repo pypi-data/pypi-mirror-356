@@ -1,0 +1,14 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+NeuralNetworkMLP/Activations.py
+NeuralNetworkMLP/Layer.py
+NeuralNetworkMLP/LoadDataset.py
+NeuralNetworkMLP/NeuralNetwork.py
+NeuralNetworkMLP/Plot.py
+NeuralNetworkMLP/__init__.py
+NeuralNetworkMLP.egg-info/PKG-INFO
+NeuralNetworkMLP.egg-info/SOURCES.txt
+NeuralNetworkMLP.egg-info/dependency_links.txt
+NeuralNetworkMLP.egg-info/top_level.txt
