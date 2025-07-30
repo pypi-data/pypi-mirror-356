@@ -1,0 +1,6 @@
+libvirt-python
+pyyaml
+urwid
+
+[test]
+tox
