@@ -1,0 +1,16 @@
+py_to_proto/__init__.py,sha256=0xvSrTlGuMSPzey0U_v2i1ehBcFVzQRk3Z2qbFZiXO4,1174
+py_to_proto/compat.py,sha256=tMAO21bS25xMWeltTnwDTJ-UFk7W2BHebLL2-iiyUD8,1093
+py_to_proto/compat_annotated.py,sha256=-JMeTz4v2hSkrRKVfQVqOlI1Az6IVqXoIC3ma2Fu2XI,251
+py_to_proto/converter_base.py,sha256=UIEiHlFl8A8HJu8UgtVDHpMMMuL5cQlT3R5SeM9ot6Y,26051
+py_to_proto/dataclass_to_proto.py,sha256=nlzwuhj3d7JRYT43gXs4wbV1GDgrkVWw6gp4VxESrho,13631
+py_to_proto/descriptor_to_file.py,sha256=CPUaDPfps2KCO4l7r5cu63v9X-DFocZSikxOm4FsnZQ,10621
+py_to_proto/descriptor_to_message_class.py,sha256=6gJ0yc2z-0Qsm2R3FITZDTkaYugIXyKfnbUUrMVkaqE,5331
+py_to_proto/json_to_service.py,sha256=zCAfbXcymj4v_-q_7R6tylk-maKeKZ0KAfbtap5VJqE,12384
+py_to_proto/jtd_to_proto.py,sha256=dmRj35Z5rfFgfeP2QRTaJ2sF1tZrYBD7KsyNY5yrCQ0,8288
+py_to_proto/utils.py,sha256=7bj45FqYORAzS-Yx0JmXFWeAuBSKFgubiOr628UX8o0,12598
+py_to_proto/validation.py,sha256=ssTE17roJwMYwTkRSuDUKL_JGAf1C3Ua0bcAsSPEtLE,14885
+py_to_proto-0.6.0.dist-info/LICENSE,sha256=t-ZkY-vak1QWjzid8VIzMds6wT0xEafbk406cLmdj_Q,1088
+py_to_proto-0.6.0.dist-info/METADATA,sha256=o6T26oTbn7DTYAvUBnuNpl2F5Pir0q1IEqUh8m3Cjck,6751
+py_to_proto-0.6.0.dist-info/WHEEL,sha256=za66tDSLgGvQ_1Y8eN_UeOFFbzOuW3UQYPMZgUBpGrY,94
+py_to_proto-0.6.0.dist-info/top_level.txt,sha256=AScY99r2vRxOMZGEg6sfYg7B5BlIyy9sXKc6CrlBR5s,12
+py_to_proto-0.6.0.dist-info/RECORD,,
