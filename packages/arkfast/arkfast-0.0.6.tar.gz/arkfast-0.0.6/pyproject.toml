@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools", "wheel", "uv_build"]
+build-backend = "uv_build"
+
+[project]
+name = "arkfast"
+version = "0.0.6"
+description = "Utilities for faster POC development."
+authors = [
+    {name = "Arkadiusz Michał Ryś", email = "Arkadiusz.Michal.Rys@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+]
+license = {file = "LICENSE"}
+keywords = ["arkfast"]
+dependencies = [
+    "toml>=0.10.2",
+    "arklog>=0.5.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+doc = [
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-tabs",
+    "sphinx-toolbox",
+    "sphinxext-opengraph",
+    "sphinx-notfound-page",
+    "sphinxcontrib-drawio",
+    "readthedocs-sphinx-search",
+    "myst-parser",
+]
+dev = [
+    "ruff",
+    "invoke",
+    "vermin",
+]
+
+[project.urls]
+source = "https://git.rys.one/arrys/arkfast"
+
+#[project.scripts]
+#arkfast = "arkfast.__main__:main"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+    "invoke",
+]
+extra-index-url = [
+    "https://pip:rys-Rps1D5WhCGDzRDAXyz2b@git.rys.one/api/v4/groups/phd/-/packages/pypi/simple", # Expires 2026-08
+    "https://pip:glpat-aq2VpazxthkoqZ9b3bDz@git.rys.one/api/v4/groups/phd/-/packages/pypi/simple", # Expires 2025-08
+]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["build", "dist", ".venv", "./tasks.py"]
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "B", "C4", "SIM", "TID", "ARG", "RUF"]
+ignore = ["E501"] # Ignore line length
+
+[tool.pytest.ini_options]
+markers = [
+    "long: marks tests as long-running (deselect with '-m \"not long\"')"
+]
+addopts = "-m 'not long'" # pytest -m "long or not long" to run all tests
