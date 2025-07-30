@@ -1,0 +1,4 @@
+[console_scripts]
+pyerm_db_merge = pyerm.scripts.db_merge:main
+pyerm_export_zip = pyerm.scripts.export_data:main
+pyerm_webui = pyerm.scripts.erm_webui:main
