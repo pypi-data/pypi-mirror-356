@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dtiot_d2c"
+version = "0.9.2"
+authors = [
+  { name="Roland Baldin", email="roland.baldin@telekom.de" },
+]
+description = "Device to Cloud (D2C) command line interface"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "http://localhost:1313/docs/device-to-cloud/command-line-interface/about/"
+Issues = "http://localhost:1313/docs/device-to-cloud/command-line-interface/about/"
+
+[project.scripts]
+d2c = "dtiot_d2c.cli.main:main"
+
