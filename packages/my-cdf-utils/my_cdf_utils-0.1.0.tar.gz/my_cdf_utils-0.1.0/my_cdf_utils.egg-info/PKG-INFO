@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: my-cdf-utils
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Zeb <no@email.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# my-cdf-utils
+
+A minimal helper library for Cognite Data Fusion functions.
