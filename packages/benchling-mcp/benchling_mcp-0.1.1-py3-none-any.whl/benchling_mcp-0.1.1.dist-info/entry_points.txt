@@ -1,0 +1,5 @@
+[console_scripts]
+benchling-mcp = benchling_mcp.server:cli_app_stdio
+server = benchling_mcp.server:cli_app
+sse = benchling_mcp.server:cli_app_sse
+stdio = benchling_mcp.server:cli_app_stdio
