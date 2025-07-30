@@ -1,0 +1,2 @@
+[console_scripts]
+slopsquat = slopsquat_detector.cli:main
