@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Connect>
+    <Stream
+      url="{ngrok_url}"
+    >
+    <Parameter name="callback_call_id" value="{callback_call_id}"/>
+    <Parameter name="telephony_source" value="{telephony_source}"/>
+  </Stream>
+  </Connect>
+</Response>
