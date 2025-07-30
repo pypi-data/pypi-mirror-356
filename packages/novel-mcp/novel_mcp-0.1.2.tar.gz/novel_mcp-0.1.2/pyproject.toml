@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "novel-mcp"
+version = "0.1.2"
+description = "A Model Context Protocol (MCP) server for novel processing with mathematical operations"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "dingle", email = "18911755085@163.com" }
+]
+maintainers = [
+    { name = "dingle", email = "18911755085@163.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
+keywords = ["mcp", "novel", "ai", "server", "protocol"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+]
+
+[project.urls]
+Homepage = "https://github.com/dingle123/novel-mcp"
+Repository = "https://github.com/dingle123/novel-mcp.git"
+Issues = "https://github.com/dingle123/novel-mcp/issues"
+Documentation = "https://github.com/dingle123/novel-mcp#readme"
+
+[project.scripts]
+novel-mcp = "novel_mcp.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "isort>=5.0",
+    "flake8>=4.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["novel_mcp"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
