@@ -1,0 +1,10 @@
+README.md
+setup.py
+kadane_adv/__init__.py
+kadane_adv/core.py
+kadane_adv.egg-info/PKG-INFO
+kadane_adv.egg-info/SOURCES.txt
+kadane_adv.egg-info/dependency_links.txt
+kadane_adv.egg-info/requires.txt
+kadane_adv.egg-info/top_level.txt
+tests/test_core.py
