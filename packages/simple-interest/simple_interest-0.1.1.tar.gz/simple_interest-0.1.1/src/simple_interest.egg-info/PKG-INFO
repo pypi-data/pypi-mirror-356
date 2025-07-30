@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: simple_interest
+Version: 0.1.1
+Summary: A simple Python utility to calculate simple interest based on principal, rate, and time.
+Author-email: gokulsp <gokulprem098@example.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
