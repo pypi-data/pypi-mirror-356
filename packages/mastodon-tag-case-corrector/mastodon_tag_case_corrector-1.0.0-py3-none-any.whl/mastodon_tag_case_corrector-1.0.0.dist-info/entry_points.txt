@@ -1,0 +1,2 @@
+[console_scripts]
+mastodon-tag-case-corrector = cli:cli
