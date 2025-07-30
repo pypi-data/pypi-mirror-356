@@ -1,0 +1,14 @@
+CLAUDE.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/decatenator/__init__.py
+src/decatenator/_core.py
+src/decatenator/cli.py
+src/decatenator.egg-info/PKG-INFO
+src/decatenator.egg-info/SOURCES.txt
+src/decatenator.egg-info/dependency_links.txt
+src/decatenator.egg-info/entry_points.txt
+src/decatenator.egg-info/top_level.txt
+tests/test_core.py
