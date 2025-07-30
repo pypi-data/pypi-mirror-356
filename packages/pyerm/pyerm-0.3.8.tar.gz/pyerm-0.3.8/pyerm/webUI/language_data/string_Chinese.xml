@@ -1,0 +1,495 @@
+<translations>
+    <app>
+        <sidebar_page_select>## 请选择页面</sidebar_page_select>
+        <sidebar_page_select_radio>可选页面:</sidebar_page_select_radio>
+        <sidebar_page_select_radio_1>主页</sidebar_page_select_radio_1>
+        <sidebar_page_select_radio_2>记录实验</sidebar_page_select_radio_2>
+        <sidebar_page_select_radio_3>实验详情</sidebar_page_select_radio_3>
+        <sidebar_page_select_radio_4>统计分析</sidebar_page_select_radio_4>
+        <sidebar_page_select_radio_5>数据库表</sidebar_page_select_radio_5>
+        <dataset_load_success_text>成功加载数据库(于{DB_PATH})</dataset_load_success_text>
+        <dataset_load_failed_text>未加载数据库，请先加载数据库</dataset_load_failed_text>
+        <web_app_error_text>PYERM Web应用错误: {ERROR}</web_app_error_text>
+        <refresh>刷新</refresh>
+    </app>
+    
+    <home>
+        <title>
+            <title>Python实验记录管理器(PyERM)网页交互界面</title>
+            <version>**版本**: {version}</version>
+            <repo>**GitHub仓库**: [{REPO_URL}]({REPO_URL})</repo>
+            <pypi>**PyPI**: [PyERM](https://pypi.org/project/pyerm/)</pypi>
+            <license>**许可证**: [MIT](https://opensource.org/licenses/MIT)</license>
+            <author>**作者**: [Yuxuan Shao](https://github.com/Mr-SGXXX)</author>
+            <description>**描述**:</description>
+            <description1>PyERM是一个用于管理和可视化实验记录的 Python 包。</description1>
+            <description2>这是PyERM的网页用户界面。</description2>
+            <disclaimer>**免责声明**：此版本已经过作者个人一定程度的测试且能稳定运行，但可能仍存在漏洞。</disclaimer>
+            <notice>**注意:** _PyERM基于SQLite数据库_</notice>
+        </title>
+
+        <change_language>
+            <title>## 语言设置</title>
+            <title_notice>你可以在这里修改WebUI的语言</title_notice>
+            <language_select>选择语言</language_select>
+            <change_language_button>变更语言</change_language_button>
+        </change_language>
+
+        <load_db>
+            <title>## 加载数据库</title>
+            <database_select>选择实验记录数据库文件</database_select>
+            <new_remote_database_checkbox>设置新数据库文件路径</new_remote_database_checkbox>    
+            <new_remote_database_input>新数据库文件绝对路径</new_remote_database_input>
+            <upload_database_checkbox>从本地上传数据库文件</upload_database_checkbox>
+            <upload_database_notice1>_这将上传一个数据库文件到网页服务器并保存在缓存文件夹中，用于在Web UI后续数据分析。_</upload_database_notice1>
+            <upload_database_notice2>_**注意**: 请确保数据库文件是SQLite格式。_</upload_database_notice2>
+            <change_database_button>变更数据库</change_database_button>
+            <current_path_text>当前数据库路径: **{DB_PATH}**</current_path_text>
+            <load_success_text1>成功找到数据库文件。</load_success_text1>
+            <load_success_text2>数据库文件大小: **{FORMAT_SIZE}**</load_success_text2>
+            <load_failed_text>未找到数据库文件，请输入正确路径。</load_failed_text>
+        </load_db>
+        
+        <delete_useless_figures>
+            <delete_figures_button>删除无用实验图表</delete_figures_button>
+            <delete_figures_notice>**注意:**_这将删除数据库中没有备注名称的实验中的所有图像以节省空间。_</delete_figures_notice>
+            <delete_figures_confirm_button>确认</delete_figures_confirm_button>
+            <delete_figures_success_text>无用图像已成功删除。</delete_figures_success_text>
+        </delete_useless_figures>
+
+        <clean_cache>
+            <title>## 清理缓存</title>
+            <title_notice>缓存用于存储临时文件，如配置文件。</title_notice>
+            <cache_location_text>缓存文件夹位于: **{PYERM_HOME}**</cache_location_text>
+            <cache_size_text>缓存文件夹大小: **{FOLDER_SIZE}**</cache_size_text>
+            <cache_file_tree_checkbox>显示缓存文件树</cache_file_tree_checkbox>
+            <clean_cache_checkbox>我想清理缓存</clean_cache_checkbox>
+            <clean_cache_notice1>_**注意**: 这将删除缓存文件夹及其所有内容，无法撤销。_</clean_cache_notice1>
+            <clean_cache_confirm_button>确认</clean_cache_confirm_button>
+            <clean_cache_success_text>缓存已成功清理。</clean_cache_success_text>
+        </clean_cache>
+
+        <download_zip_button>下载Excel文件和图表并打包为ZIP</download_zip_button>
+        <download_db_button>下载原始数据库文件</download_db_button>
+        <upload_db_text>上传数据库文件</upload_db_text>
+
+        <delete_useless_data_title>### 删除数据库中的无用数据</delete_useless_data_title>
+        <delete_useless_data_notice>您可以删除数据库中的无用数据以节省空间，包括:</delete_useless_data_notice>
+        <delete_failed_records_checkbox>删除所有失败和卡住的实验记录</delete_failed_records_checkbox>
+        <delete_failed_records_warning>**警告: 此操作将删除所有失败的记录及其结果，无法撤销。**</delete_failed_records_warning>
+        <delete_failed_records_notice>_**注意**: 运行超过24小时且仍未结束的实验将被视为卡住并删除。_</delete_failed_records_notice>
+        <delete_failed_records_confirm_button>确认</delete_failed_records_confirm_button>
+        <delete_failed_records_success>成功删除失败和卡住的实验记录。</delete_failed_records_success>
+
+        <export_data_title>### 导出实验数据</export_data_title>
+        <export_data_notice>您可以使用以下选项导出实验数据:</export_data_notice>
+        <export_zip_checkbox>下载Excel文件和结果图表并打包为ZIP</export_zip_checkbox>
+        <export_zip_notice1>_这将导出数据库中的所有实验数据为Excel文件和图表，并打包成ZIP文件。_</export_zip_notice1>
+        <export_zip_notice2>_统计分析结果及其图像不包括在内。_</export_zip_notice2>
+        <export_zip_notice3>_**注意**: 请耐心等待，当数据库较大时，此过程可能需要很长时间。_</export_zip_notice3>
+        <export_db_checkbox>下载原始数据库文件</export_db_checkbox>
+        <export_db_notice>_这将下载原始SQLite db文件。_</export_db_notice>
+    </home>
+
+    <record>
+        <title>记录实验</title>
+
+        <task_select>
+            <title>## 任务选择</title>
+            <task_select>现有备选任务:</task_select>
+            <task_empty>**数据库无任务存在**</task_empty>
+            <add_new_task_checkbox>添加新任务</add_new_task_checkbox>
+            <add_new_task_input>新任务名称</add_new_task_input>
+            <task_ok>确定</task_ok>
+            <task_empty_error>错误：任务名称不能为空。</task_empty_error>
+        </task_select>
+
+        <method_select>
+            <title>## 方法选择</title>
+            <method_select>现有备选方法:</method_select>
+            <method_empty>**数据库无方法存在**</method_empty>
+            <add_new_method_checkbox>添加新方法</add_new_method_checkbox>
+            <add_new_method_input>新方法名称</add_new_method_input>
+            <method_ok>确定</method_ok>
+            <method_empty_error>错误：方法名称不能为空。</method_empty_error>
+        </method_select>
+
+        <set_method_param>
+            <title>## 方法参数设置</title>
+            <param_table_found>已找到方法参数表</param_table_found>
+            <cur_param_select>选择现有参数设置</cur_param_select>
+            <param_table_row_name>参数</param_table_row_name>
+            <add_new_param_checkbox>添加新参数设置</add_new_param_checkbox>
+            <add_new_param_notice>**注意**: 请确保参数名称唯一</add_new_param_notice>
+            <new_param_num>新参数数量</new_param_num>
+            <new_param_name_input>新参数{PARAM_INDEX}名称</new_param_name_input>
+            <new_param_type_input>新参数{PARAM_INDEX}数据类型</new_param_type_input>
+            <new_param_name_repeat_error>错误：参数名称重复，请选择其他名称。</new_param_name_repeat_error>
+            <table_edit_hint>**提示：您可以在表格中修改参数值**</table_edit_hint>
+            <remark_param_checkbox>备注此参数设置</remark_param_checkbox>
+            <remark_param_notice>设置当前参数设置的备注名称。**注意：若相同配置已存在备注名称，此操作将对其更改。**</remark_param_notice>
+            <remark_param_input>备注名称</remark_param_input>
+            <param_ok>确认</param_ok>
+            <param_table_not_found>未找到方法参数表</param_table_not_found>
+            <create_new_param_table>创建新方法参数表</create_new_param_table>
+        </set_method_param>
+
+        <data_select>
+            <title>## 数据选择</title>
+            <data_select>现有备选数据:</data_select>
+            <data_empty>**数据库无数据存在**</data_empty>
+            <add_new_data_checkbox>添加新数据</add_new_data_checkbox>
+            <add_new_data_input>新数据名称</add_new_data_input>
+            <data_ok>确定</data_ok>
+            <data_empty_error>错误：数据名称不能为空。</data_empty_error>
+        </data_select>
+
+        <set_data_param>
+            <title>## 数据参数设置</title>
+            <param_table_found>已找到数据参数表</param_table_found>
+            <cur_param_select>选择现有参数设置</cur_param_select>
+            <param_table_row_name>参数</param_table_row_name>
+            <add_new_param_checkbox>添加新参数设置</add_new_param_checkbox>
+            <add_new_param_notice>**注意**: 请确保参数名称唯一</add_new_param_notice>
+            <new_param_num>新参数数量</new_param_num>
+            <new_param_name_input>新参数{PARAM_INDEX}名称</new_param_name_input>
+            <new_param_type_input>新参数{PARAM_INDEX}数据类型</new_param_type_input>
+            <new_param_name_repeat_error>错误：参数名称重复，请选择其他名称。</new_param_name_repeat_error>
+            <table_edit_hint>**提示：您可以在表格中修改参数值**</table_edit_hint>
+            <remark_param_checkbox>备注此参数设置</remark_param_checkbox>
+            <remark_param_notice>设置当前参数设置的备注名称。**注意：若相同配置已存在备注名称，此操作将对其更改。**</remark_param_notice>
+            <remark_param_input>备注名称</remark_param_input>
+            <param_ok>确认</param_ok>
+            <param_table_not_found>未找到数据参数表</param_table_not_found>
+            <create_new_param_table>创建新数据参数表</create_new_param_table>
+        </set_data_param>
+
+        <set_experiment_info>
+            <title>## 实验信息设置</title>
+            <experiment_description_input>实验描述</experiment_description_input>
+            <experiment_tags_input>实验标签</experiment_tags_input>
+            <experimenters_input>实验人员</experimenters_input>
+            <start_date_input>实验开始日期</start_date_input>
+            <end_date_input>实验结束日期</end_date_input>
+            <start_time_input>实验开始时间</start_time_input>
+            <end_time_input>实验结束时间</end_time_input>
+            <useful_time_input>实验有效时长(s)</useful_time_input>
+            <status_select>实验状态*</status_select>
+            <failed_reason_input>失败原因</failed_reason_input>
+            <add_remark_checkbox>备注此实验</add_remark_checkbox>
+            <add_remark_input>备注名称</add_remark_input>
+            <experiment_ok>确认</experiment_ok>
+        </set_experiment_info>
+
+        <show_experiment_info>
+            <description1>当前实验{REMARK}使用方法**{METHOD}**和数据**{DATA}**处理任务**{TASK}**，</description1>
+            <description2>该任务由**{EXPERIMENTERS}**等人执行。</description2>
+            <description3>开始于 **{START_TIME}**。</description3>
+            <description4>结束于 **{END_TIME}**。</description4>
+            <description5>有效时长为 **{USEFUL_TIME_COST:.2f}s**。</description5>
+            <failed_text>实验失败，原因如下：</failed_text>
+            <finished_text>实验成功完成。</finished_text>
+            <experiment_desc>_实验描述_：**{DESCRIPTION}**</experiment_desc>
+            <experimenters>_实验人员_：**{EXPERIMENTERS}**</experimenters>
+            <experiment_tags>_实验标签_：**{TAGS}**</experiment_tags>
+        </show_experiment_info>
+
+        <set_experiment_result>
+            <title>## 记录实验结果</title>
+            <init_score_name_input>初始评估指标名称</init_score_name_input>
+            <score_table_row_name>评估指标</score_table_row_name>
+            <score_table_title>### 评估指标</score_table_title>
+            <add_new_score_checkbox>添加新的评估指标</add_new_score_checkbox>
+            <add_new_score_notice>**注意**: 请确保评估指标名称唯一，且当前指标只支持数值类型。</add_new_score_notice>
+            <new_score_num>新评估指标数量</new_score_num>
+            <new_score_name_input>新评估指标{SCORE_INDEX}名称</new_score_name_input>
+            <new_score_name_repeat_error>错误：评估指标名称重复，请选择其他名称。</new_score_name_repeat_error>
+            <result_ok>确认</result_ok>
+            <add_img_title>### 添加实验结果图像</add_img_title>
+            <img_uploader>上传实验结果图片</img_uploader>
+        </set_experiment_result>
+
+        <show_experiment_result>
+            <sidebar_scores_title>## 实验评估指标</sidebar_scores_title>
+            <sidebar_imgs_title>## 实验结果图像</sidebar_imgs_title>
+            <sidebar_img_select>选择图像</sidebar_img_select>
+        </show_experiment_result>
+
+        <sidebar_title>## 记录实验</sidebar_title>
+        <sidebar_task>任务：</sidebar_task>
+        <sidebar_method>方法：</sidebar_method>
+        <sidebar_data>数据：</sidebar_data>
+        <not_setted>**未设置**</not_setted>
+        <no_setting>无设置</no_setting>
+        <sidebar_method_title>### 方法参数：</sidebar_method_title>
+        <sidebar_data_title>### 数据参数：</sidebar_data_title>
+        <sidebar_experiment_info_title>### 实验信息：</sidebar_experiment_info_title>
+        <sidebar_experiment_result_title>### 实验结果：</sidebar_experiment_result_title>
+        <add_experiment_button>添加实验</add_experiment_button>
+        <need_full_info>请填写实验信息</need_full_info>
+        <need_result_info>请填写实验结果</need_result_info>
+        <status_over>完成</status_over>
+        <status_failed>失败</status_failed>
+        <add_experiment_success>实验记录添加成功</add_experiment_success>
+        <add_experiment_failed>实验记录添加失败：{REASON}</add_experiment_failed>
+        <other_record_way>## 其他记录方式</other_record_way>
+        <json4load>导入json实验</json4load>
+        <full_experiment_json>输入json字符串</full_experiment_json>
+        <btn_load_experiment_json>加载实验记录</btn_load_experiment_json>
+        <json_format_error>json格式不正确，请检查输入！</json_format_error>
+    </record>
+
+    <details>
+        <title>实验详情</title>
+
+        <basic_information>
+            <task>#### 任务: **{TASK}**</task>
+            <method>#### 方法: **{METHOD}**</method>
+            <data>#### 数据: **{DATA}**</data>
+            <desp_part1>任务**{TASK}**的实验 **(ID:{ID})** 使用方法 **{METHOD}** 和数据 **{DATA}**，</desp_part1>
+            <desp_part2>该任务由**{EXPERIMENTERS}**等人执行。</desp_part2>
+            <desp_part3>开始于 **{START_TIME}**。</desp_part3>
+            <desp_part4>结束于 **{END_TIME}**。</desp_part4>
+            <failed_text>**实验失败**，原因如下：</failed_text>
+            <finished_text> **实验成功完成**</finished_text>
+            <finished_text1>，总耗时**{TOTAL_TIME_COST:.2f}s**</finished_text1>
+            <finished_text2>，其中有效耗时 **{USEFUL_TIME_COST:.2f}s**。</finished_text2>
+            <finished_text3>。</finished_text3>
+            <running_text1>**实验仍在进行中**，当前耗时**{TIME_COST:.2f}s**。</running_text1>
+            <running_text2>**实验仍在进行中**。</running_text2>
+            <desp>_实验描述_: **{DESCRIPTION}**</desp>
+            <experimenters>_实验人员_: **{EXPERIMENTERS}**</experimenters> 
+            <tags>_标签_: **{TAGS}**</tags>
+        </basic_information>
+        
+        <remark_cur_experiment>
+            <remark_cur_experiment_checkbox>备注当前实验</remark_cur_experiment_checkbox>
+            <remark_cur_experiment_input>设置或更改当前实验的备注名称。_为空表示删除备注名称。_</remark_cur_experiment_input>
+            <remark_cur_experiment_button>确认</remark_cur_experiment_button>
+            <remark_cur_experiment_failed_repeat>错误：备注名称已存在，请选择其他名称。</remark_cur_experiment_failed_repeat>
+            <remark_cur_experiment_failed_number>错误：备注名称不能为正数。</remark_cur_experiment_failed_number>
+        </remark_cur_experiment>
+
+        <export_single_experiment_as_str>
+            <title>## 导出当前实验为字符串</title>
+            <description>您可以将当前实验的所有信息导出为json字符串，以便迁移到其他数据库或在其他地方使用。</description>
+            <export_button>导出实验字符串</export_button>
+            <download_json_button>下载json文件</download_json_button>
+        </export_single_experiment_as_str>
+
+        <no_experiment_found_text>未找到任何实验。请确保已运行某一实验。</no_experiment_found_text>
+        
+        <sidebar_choose_experiment_title>## 选择实验</sidebar_choose_experiment_title>
+        <sidebar_choose_experiment_input>实验ID或备注名</sidebar_choose_experiment_input>
+        <sidebar_only_show_remark_checkbox>仅显示已备注实验</sidebar_only_show_remark_checkbox>
+        <sidebar_last_experiment_button>前一实验</sidebar_last_experiment_button>
+        <sidebar_the_first_experiment_button>转到首个</sidebar_the_first_experiment_button>
+        <sidebar_next_experiment_button>后一实验</sidebar_next_experiment_button>
+        <sidebar_the_last_experiment_button>转到末尾</sidebar_the_last_experiment_button>
+
+        <experiment_information_title>## 实验信息</experiment_information_title>
+        <experiment_information_id>### 当前实验ID: {CUR_ID}</experiment_information_id>
+        <experiment_not_exist_text>ID为{CUR_ID}的实验不存在。请检查ID。</experiment_not_exist_text>
+        
+        <experiment_result_title>### 实验结果：</experiment_result_title>
+        <experiment_result_image_select>**选择实验结果图像**</experiment_result_image_select>
+        <experiment_result_image_download>下载 {SELECTED_IMG}</experiment_result_image_download>
+        <experiment_result_image_not_exist>实验ID为{CUR_ID}的实验中未检测到图像。</experiment_result_image_not_exist>
+        <experiment_result_scores_title>**实验指标：**</experiment_result_scores_title>
+        <experiment_result_scores_notice>_**注意**：统计数据基于**{NUM_SAME_SETTING_RECORDS}**个相同设置的实验计算。_</experiment_result_scores_notice>
+        <experiment_result_not_exists>未找到结果，请检查实验状态。</experiment_result_not_exists>
+
+        <experiment_method_param_title>### 方法参数：</experiment_method_param_title>
+        <experiment_method_param_not_exist>找不到当前方法的设置</experiment_method_param_not_exist>
+        <experiment_method_remark>_备注名_: **{METHOD_REMARK_NAME}**</experiment_method_remark>
+        <experiment_method_index>当前实验设置</experiment_method_index>
+        <experiment_method_no_param>当前方法未使用超参数设置。</experiment_method_no_param>
+        
+        <experiment_data_param_title>### 数据参数：</experiment_data_param_title>
+        <experiment_data_param_not_exist>找不到当前数据的设置</experiment_data_param_not_exist>
+        <experiment_data_remark>_备注名_: **{DATA_REMARK_NAME}**</experiment_data_remark>
+        <experiment_data_index>当前实验设置</experiment_data_index>
+        <experiment_data_no_param>当前数据未使用超参数设置。</experiment_data_no_param>
+        
+        <experiment_detail_title>## 实验详情表</experiment_detail_title>
+
+        <experiment_delete_title>## 删除当前实验</experiment_delete_title>
+        <experiment_delete_warn>**警告**：此操作将删除当前实验记录和结果，且无法撤销。</experiment_delete_warn>
+        <experiment_delete_checkbox>删除当前实验</experiment_delete_checkbox>
+        <experiment_delete_confirm_button>确认</experiment_delete_confirm_button>
+    </details>
+
+    <analysis>
+        <title>实验分析</title>
+        
+        <sidebar_select_analysis>
+            <title>## 实验分析</title>
+            <radio_text>**分析任务**:</radio_text>
+            <radio_choice1>单设置分析</radio_choice1>
+            <radio_choice2>多设置分析</radio_choice2>
+        </sidebar_select_analysis>
+
+        <select_setting>
+            <title>### 选择实验设置</title>
+            <select_task_title>**选择任务**</select_task_title>
+            <select_task_select>任务:</select_task_select>
+            <select_method_title>**选择方法**</select_method_title>
+            <select_method_select>方法:</select_method_select>
+            <select_data_title>**选择数据**</select_data_title>
+            <select_data_select>数据集:</select_data_select>
+            
+            <method_id_select>方法设置:</method_id_select>
+            <method_index>当前设置</method_index>
+            <remark_method_checkbox>备注此方法参数设置</remark_method_checkbox>
+            <remark_method_input>设置或更改当前方法设置的备注名称。_为空表示删除备注名称。_</remark_method_input>
+            <remark_method_button>确认</remark_method_button>
+            <remark_method_failed_repeat>错误：备注名称已存在，请选择其他名称。</remark_method_failed_repeat>
+            <remark_method_failed_number>错误：备注名称不能为正数。</remark_method_failed_number>
+            <method_no_param>此方法无参数</method_no_param>
+        
+            <data_id_select>数据设置:</data_id_select>
+            <data_index>当前设置</data_index>
+            <remark_data_checkbox>备注此数据参数设置</remark_data_checkbox>
+            <remark_data_input>设置或更改当前数据设置的备注名称。_为空表示删除备注名称。_</remark_data_input>
+            <remark_data_button>确认</remark_data_button>
+            <remark_data_failed_repeat>错误：备注名称已存在，请选择其他名称。</remark_data_failed_repeat>
+            <remark_data_failed_number>错误：备注名称不能为正数。</remark_data_failed_number>
+            <data_no_param>此数据集无参数</data_no_param>
+        
+            <remark_max_score_checkbox>备注最高分实验</remark_max_score_checkbox>
+            <remark_max_score_select>选择基于哪个分数指标进行备注:</remark_max_score_select>
+            <remark_max_score_all_button>备注当前任务所有设置的实验</remark_max_score_all_button>
+            <remark_max_score_cur_button>仅备注当前设置</remark_max_score_cur_button>
+        
+            <remark_min_score_checkbox>备注最低分实验</remark_min_score_checkbox>
+            <remark_min_score_select>选择基于哪个分数指标进行备注:</remark_min_score_select>
+            <remark_min_score_all_button>备注当前任务所有设置的实验</remark_min_score_all_button>
+            <remark_min_score_cur_button>仅备注当前设置</remark_min_score_cur_button>
+        
+            <clear_remark_checkbox>清除备注</clear_remark_checkbox>
+            <clear_remark_warn>**警告**：此操作将清除所有备注名称，且无法撤销。</clear_remark_warn>
+            <clear_remark_all_button>清除当前任务的所有备注</clear_remark_all_button>
+            <clear_remark_cur_button>清除当前设置的备注</clear_remark_cur_button>
+        </select_setting>
+        
+        <show_images>
+            <experiment_select>选择要显示图像的实验：</experiment_select>
+            <experiment_no_remark_text>当前设置中没有已备注实验。</experiment_no_remark_text>
+            <experiment_img_select>选择要显示的图像：</experiment_img_select>
+            <experiment_img_download_button>下载 {SELECTED_IMG}</experiment_img_download_button>
+            <experiment_img_not_exist>实验{SELECTED_ID}中未检测到图像。</experiment_img_not_exist>
+        </show_images>
+
+        <single_setting_analysis>
+            <statistics_title>### 统计结果</statistics_title>
+            <statistics_notice>_**注意**: 统计数据基于**{NUM_RECORDS}**个相同设置的实验计算。_</statistics_notice>
+            <statistics_no_result_found>未找到此设置的结果。</statistics_no_result_found>
+            <statistics_chart_title>### 当前设置的分数指标统计图</statistics_chart_title>
+            <statistics_chart_select>选择图表类型:</statistics_chart_select>
+            <remarked_experiment_img_title>### 已备注实验的图像</remarked_experiment_img_title>
+            <remarked_experiment_img_notice>**注意:**_以下图像是在实验过程中生成的。_</remarked_experiment_img_notice>
+            <remarked_experiment_not_found>当前设置没有备注任何实验。</remarked_experiment_not_found>
+            <delete_all_cur_setting_title>## 删除当前设置的所有实验记录</delete_all_cur_setting_title>
+            <delete_all_cur_setting_warn>**警告**: 此操作将删除当前设置的所有实验记录，且无法撤销。</delete_all_cur_setting_warn>
+            <delete_all_cur_setting_checkbox>删除所有同设置实验记录</delete_all_cur_setting_checkbox>
+            <delete_all_cur_setting_confirm_button>确认</delete_all_cur_setting_confirm_button>
+        </single_setting_analysis>
+
+        <multi_setting_analysis>
+            <sidebar_cur_task_title>## 当前任务：</sidebar_cur_task_title>
+            <sidebar_clear_all_recorded_settins_button>清除所有已记录设置</sidebar_clear_all_recorded_settins_button>
+            <sidebar_recorded_setting_title>### 已记录设置:</sidebar_recorded_setting_title>
+            <sidebar_recorded_setting_text>**选择要分析的设置。**</sidebar_recorded_setting_text>
+            <sidebar_recorded_setting_notice>**注意:**_选择的顺序将是统计表的顺序。_</sidebar_recorded_setting_notice>
+            <sidebar_recorded_setting_select>选择待分析设置:</sidebar_recorded_setting_select>
+            <sidebar_metric_select>选择待分析指标:</sidebar_metric_select>
+            <statistics_results_title>### {SELECTED_METRIC}指标统计结果</statistics_results_title>
+            <statistics_score_metrics_title>### 已选设置{SELECTED_METRIC}指标统计图</statistics_score_metrics_title>
+            <statistics_chart_type_select>选择图表类型:</statistics_chart_type_select>
+            <no_setting_selected_text>未选择任何设置。</no_setting_selected_text>
+        </multi_setting_analysis>
+
+        <single_setting_plot>
+            <value_type_select>选择图表中使用的值类型：</value_type_select>
+            <customize_checkbox>自定义{PLOT_TYPE}</customize_checkbox>
+            <customize_figure_x_input>图表宽度：</customize_figure_x_input>
+            <customize_figure_y_input>图表高度：</customize_figure_y_input>
+            <customize_title_input>{PLOT_TYPE} 标题：</customize_title_input>
+            <customize_x_label_input>X轴标签：</customize_x_label_input>
+            <customize_y_label_input>Y轴标签：</customize_y_label_input>
+            <customize_additional_param_input>附加参数（例如：hue=A，color=B）：</customize_additional_param_input>
+            <sidebar_metric_select_title>### 选择要在图表中显示的指标</sidebar_metric_select_title>
+            <sidebar_metric_select>指标：</sidebar_metric_select>
+            <sidebar_metric_select_empty_text>未选择任何指标。</sidebar_metric_select_empty_text>
+            <figure_download_button>下载{PLOT_TYPE}图片</figure_download_button>
+        </single_setting_plot>
+
+        <multi_setting_plot>
+            <value_type_select>选择图表中使用的值类型：</value_type_select>
+            <customize_checkbox>自定义{PLOT_TYPE}</customize_checkbox>
+            <customize_figure_x_input>图表宽度：</customize_figure_x_input>
+            <customize_figure_y_input>图表高度：</customize_figure_y_input>
+            <customize_title_input>{PLOT_TYPE} 标题：</customize_title_input>
+            <customize_x_label_input>X轴标签：</customize_x_label_input>
+            <customize_y_label_input>Y轴标签：</customize_y_label_input>
+            <customize_col_name_input>列名（用逗号“,”分隔）：</customize_col_name_input>
+            <customize_col_name_mismatch_text>错误：列名数量应等于所选设置数量。</customize_col_name_mismatch_text>
+            <customize_additional_param_input>附加参数（例如：hue=A，color=B）：</customize_additional_param_input>
+            <figure_download_button>下载{PLOT_TYPE}图片</figure_download_button>
+        </multi_setting_plot>
+
+        <auto_remark_single_setting_failed_text>错误：未找到任何实验</auto_remark_single_setting_failed_text>
+        <single_setting_analysis_text>单设置分析</single_setting_analysis_text>
+        <multi_setting_analysis_text>多设置分析</multi_setting_analysis_text>
+        <multi_setting_record_cur_setting_button>记录当前设置</multi_setting_record_cur_setting_button>
+    </analysis>
+
+    <table>
+        <title>数据库表</title>
+
+        <detect_tables>
+            <title>## 检测到的表</title>
+            <no_table_detected_text>数据库中未检测到任何表。</no_table_detected_text>
+            <table_select>**选择表**:</table_select>
+        </detect_tables>
+
+        <select_tables>
+            <title>## 当前表:</title>
+            <used_sql>### 使用的SQL: ({SQL})</used_sql>
+            <sql_error>### SQL语法错误:</sql_error>
+        </select_tables>
+
+        <show_table>
+            <sidebar_title>## 分页显示表</sidebar_title>
+            <sidebar_part_input>当前页:</sidebar_part_input>
+            <sidebar_set_max_checkbox>设置每页最大记录数</sidebar_set_max_checkbox>
+            <sidebar_set_max_input>每页最大记录数:</sidebar_set_max_input>
+            <sidebar_set_max_confirm_button>确认</sidebar_set_max_confirm_button>
+            <sidebar_show_cur_counts>_当前页面中共有{CUR_COUNTS}/{TOTAL_COUNTS}条记录。_</sidebar_show_cur_counts>
+        </show_table>
+
+        <input_sql>
+            <text>您可以在此处设置列和条件以构建当前表的SQL选择语句。</text>
+            <condition_input>条件</condition_input>
+            <condition_help>选择SQL语句的条件。</condition_help>
+            <columns_input>列</columns_input>
+            <columns_help>您希望在SQL语句中选择的列。</columns_help>
+            <table>表</table>
+            <run_button>运行</run_button>
+            <table_name>SQL查询结果</table_name>
+        </input_sql>
+
+        <input_full_sql>
+            <text>您可以在此处输入完整的SQL语句，以选择所需内容并链接不同的表或视图。</text>
+            <notice>_**注意**: 此处也允许使用Drop、Delete等操作，但请谨慎使用。_</notice>
+            <run_button>运行</run_button>
+            <table_name>SQL查询结果</table_name>
+        </input_full_sql>
+
+        <download_table_as_csv_button>下载为CSV</download_table_as_csv_button>
+        
+        <sidebar_sql_title>## SQL查询</sidebar_sql_title>
+        <sidebar_full_sql_checkbox>使用完整SQL语句操作整个数据库</sidebar_full_sql_checkbox>
+        <sidebar_sql_checkbox>按列、条件和表使用SQL</sidebar_sql_checkbox>
+    </table>
+</translations>
