@@ -1,0 +1,4 @@
+[console_scripts]
+haconiwa = haconiwa.cli:app
+haconiwa-prerelease = haconiwa.scripts.prerelease:run_prerelease_checks
+haconiwa-test = haconiwa.scripts.test_runner:run_tests
