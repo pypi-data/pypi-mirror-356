@@ -1,0 +1,12 @@
+setup.py
+tapestrysdk/__init__.py
+tapestrysdk/db.py
+tapestrysdk/image_to_text.py
+tapestrysdk/main.py
+tapestrysdk.egg-info/PKG-INFO
+tapestrysdk.egg-info/SOURCES.txt
+tapestrysdk.egg-info/dependency_links.txt
+tapestrysdk.egg-info/requires.txt
+tapestrysdk.egg-info/top_level.txt
+tapestrysdk/helper/__init__.py
+tapestrysdk/helper/decrypt_ai_key.py
