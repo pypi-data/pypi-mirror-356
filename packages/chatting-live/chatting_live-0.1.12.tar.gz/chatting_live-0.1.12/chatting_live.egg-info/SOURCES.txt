@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+chatting_live/__init__.py
+chatting_live/client.py
+chatting_live.egg-info/PKG-INFO
+chatting_live.egg-info/SOURCES.txt
+chatting_live.egg-info/dependency_links.txt
+chatting_live.egg-info/entry_points.txt
+chatting_live.egg-info/requires.txt
+chatting_live.egg-info/top_level.txt
