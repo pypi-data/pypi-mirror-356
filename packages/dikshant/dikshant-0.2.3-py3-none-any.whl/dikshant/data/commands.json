@@ -1,0 +1,54 @@
+{
+  "commands": [
+    {
+      "action": "open_app",
+      "patterns": ["open (?P<app>.+)", "start (?P<app>.+)", "launch (?P<app>.+)"],
+      "response": "opening {app}"
+    },
+    {
+      "action": "open_website",
+      "patterns": ["open (?P<site>.+\\.com)", "go to (?P<site>.+\\.com)", "visit (?P<site>.+\\.com)"],
+      "response": "opening {site}"
+    },
+    {
+      "action": "search_google",
+      "patterns": ["google search for (?P<query>.+)", "search google for (?P<query>.+)"],
+      "response": "searching google for {query}"
+    },
+    {
+      "action": "volume_up",
+      "patterns": ["increase volume", "turn up volume", "raise volume"],
+      "response": "increasing volume"
+    },
+    {
+      "action": "volume_down",
+      "patterns": ["decrease volume", "turn down volume", "lower volume"],
+      "response": "decreasing volume"
+    },
+    {
+      "action": "mute",
+      "patterns": ["mute", "mute volume", "silence"],
+      "response": "muting volume"
+    },
+    {
+      "action": "shutdown",
+      "patterns": ["shutdown", "turn off laptop", "shut down system"],
+      "response": "shutting down"
+    },
+    {
+      "action": "create_folder",
+      "patterns": ["create folder", "make a folder"],
+      "response": "creating folder on desktop"
+    },
+    {
+      "action": "create_file",
+      "patterns": ["create file", "make a file"],
+      "response": "creating file on desktop"
+    },
+    {
+      "action": "sleep",
+      "patterns": ["take rest", "go to sleep"],
+      "response": "goodbye"
+    }
+  ]
+}

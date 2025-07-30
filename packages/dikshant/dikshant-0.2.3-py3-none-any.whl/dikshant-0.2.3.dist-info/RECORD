@@ -1,0 +1,15 @@
+dikshant/__init__.py,sha256=SV0I510Lbh4dOPp5Bo9SET7dZlpD2dCrg-jUMq1UINY,83
+dikshant/assistant.py,sha256=t-ml860Jh7xewzJ7RplpV6vZ6wvcKxsnsWLEUsoGc7A,2039
+dikshant/cli.py,sha256=VDs8zsUQ2McUdG1QSIK0ZBC-AwW6HT9Dj00iMSiPejs,336
+dikshant/core/__init__.py,sha256=a99mtb8qROZYvqLuhmlasVCgbmAL9nzVzOJFrVSWLGE,3
+dikshant/core/command_processor.py,sha256=rBVvphzkFSnkyRJJKmzAleIFPqhasSADMIjkFAX1cos,1341
+dikshant/core/system_controller.py,sha256=D5Rz7LBcPLszGijalrSFUWZ9KG195q2wEYeCMS6mQxY,3252
+dikshant/core/text_to_speech.py,sha256=sVabbtosNLbEHbjVJj7JWw5cGB8PSoBsZDkD5vPorPg,335
+dikshant/core/voice_recognizer.py,sha256=CdP1xZ8UbfXKkjMt3ZDRAFsfxQjMMsRv2Esjo3m4TBo,1227
+dikshant/data/commands.json,sha256=b8zkRykwI3WMi3q0arCag0wrxacNdrKdoT4mpXg8dp0,1584
+dikshant-0.2.3.dist-info/licenses/LICENSE.txt,sha256=l5w9e_5ObgzTcwLNTRyeyouAI-gSGadTK4xLALXgBsU,1092
+dikshant-0.2.3.dist-info/METADATA,sha256=BVB6XVlbo3BQoyvXjuQoZbZ8ztHN4V3PYelJjOuJNAg,3460
+dikshant-0.2.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+dikshant-0.2.3.dist-info/entry_points.txt,sha256=RBtowUkRV7o5O0nsh0i0xVwZzF7m_H5jAjJMIlEeqho,47
+dikshant-0.2.3.dist-info/top_level.txt,sha256=4lrZyNAAIBscHR6cR8uJT1JwrMnjfqL46-I-XySu36A,9
+dikshant-0.2.3.dist-info/RECORD,,

@@ -1,0 +1,139 @@
+Metadata-Version: 2.4
+Name: dikshant
+Version: 0.2.3
+Summary: Voice-activated Windows assistant that performs tasks based on speech commands starting with 'hey friend'.
+Author-email: Dikshant Ghimire <dikkughimire@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/dikshantgh/dikshant
+Project-URL: Repository, https://github.com/dikshantgh/dikshant
+Project-URL: Issues, https://github.com/dikshantgh/dikshant/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: speechrecognition>=3.8
+Requires-Dist: pyttsx3>=2.90
+Requires-Dist: pyaudio>=0.2.11
+Requires-Dist: pyautogui>=0.9.53
+Dynamic: license-file
+
+# Dikshant - Windows Voice Assistant
+
+**Dikshant** is a lightweight background voice assistant for Windows that activates on the phrase **"hey friend"**. It performs system-level tasks like opening applications, adjusting volume, creating files/folders, and browsing the internet — all using voice commands.
+
+---
+
+## 🔥 Features
+
+- 🎙️ Wake-word activation with **"hey friend"**
+- 🖥️ Opens apps like Notepad, Calculator, Chrome, etc.
+- 🌐 Opens websites or performs **Google searches**
+- 🔊 Adjusts volume (mute/increase/decrease)
+- 🗃️ Creates folders or files on Desktop
+- 💻 Shuts down your system on command
+- 🔁 Runs continuously in the background
+- 📦 Easy to install via `pip`
+
+---
+
+## 🗣️ Supported Example Commands
+
+All commands must begin with `hey friend`
+
+| Command | Action |
+|--------|--------|
+| hey friend open notepad | Opens Notepad |
+| hey friend visit google.com | Opens Google in browser |
+| hey friend google search for machine learning | Searches Google |
+| hey friend increase volume | Increases system volume |
+| hey friend create folder | Creates folder on Desktop |
+| hey friend create file | Creates file on Desktop |
+| hey friend take rest | Shuts down assistant |
+
+---
+
+## 📦 Installation
+
+Install directly from PyPI:
+
+```bash
+pip install dikshant
+```
+
+> If `pyaudio` fails to install on Windows, use:
+> ```bash
+> pip install pipwin
+> pipwin install pyaudio
+> ```
+
+---
+
+## 🚀 Usage
+
+After installation, run this in terminal:
+
+```bash
+dikshant
+```
+
+Then speak commands like:
+
+- **"Hey friend, open notepad"**
+- **"Hey friend, take rest"** *(to stop)*
+
+---
+
+## 🧑‍💻 Programmatic Use
+
+```python
+from dikshant import Dikshant
+
+assistant = Dikshant()
+assistant.start()
+```
+
+---
+
+## 🛠 Requirements
+
+Installed automatically, but include:
+
+- `speechrecognition`
+- `pyaudio`
+- `pyttsx3`
+- `pyautogui`
+
+---
+
+## 📃 License
+
+Licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Dikshant Ghimire**  
+[GitHub](https://github.com/dikshantgh) | [Email](mailto:dikkughimire@gmail.com)
+
+---
+
+## 🤝 Contribute
+
+Pull requests, issues, and suggestions are welcome!  
+Please follow best practices and format your code.
+
+---
+
+## 🧪 Future Plans
+
+- Linux and Mac support
+- AI/NLU integration
+- GUI interface
