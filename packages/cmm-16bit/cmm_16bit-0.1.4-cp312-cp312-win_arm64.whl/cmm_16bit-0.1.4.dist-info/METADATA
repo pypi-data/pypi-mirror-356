@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: cmm-16bit
+Version: 0.1.4
+Summary: Color management module
+Author: Hajime NAKAZATO
+Author-email: hajime@kaoriha.org
+License: MIT
+Keywords: color management
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: summary
+
+Color management module based on lcms2. Not a full wrapper.
