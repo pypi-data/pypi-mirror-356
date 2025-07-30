@@ -1,0 +1,15 @@
+biosaic/__init__.py,sha256=37sNX71i14G7QqUqChtsTNERtd10dyT0_9Bk-5sH9f0,82
+biosaic/_dna.py,sha256=oko6YjTTljpjjjazVIvMmUszhAUY_4amV4g8SgYs_tM,6144
+biosaic/_main.py,sha256=KS4YxO_4XHHarK3v_YS0v9jf150pvzYHtgDwElELTvQ,4724
+biosaic/_protein.py,sha256=yUmtKvcxdGgqrvaSVyPcVB_WWDN8BrSzmARr9BwtwlA,6264
+biosaic/auto/__init__.py,sha256=f41H1M8aivVJ9hTgNJmIW9hpJXJkl-Jo5juDfi9iOuo,82
+biosaic/auto/_dataset.py,sha256=NSuoCwaSkzpaA4X_OMayAr9CRv58fI2WDriEL00Lu-Y,7996
+biosaic/auto/_dna.py,sha256=11fCYYm8VQ2J7XWcwAci4DeEqOCLkaVFj9wmxvI9wP4,3714
+biosaic/auto/embedder.py,sha256=HtAdHXSzWRp_ni0wA8CIwf4TxyrYScQWjBbxfD9F0MQ,6667
+biosaic/auto/model.py,sha256=xkCWC76cBoYfvtkg37ZWg7w2-vV9MoOOikb0AlK8NC0,8349
+biosaic/auto/train.py,sha256=ztAfc15hjwlhctJS4DkpLZnyGURNtVrM8pqg56VqsIc,17206
+biosaic-0.1.3.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+biosaic-0.1.3.dist-info/METADATA,sha256=1iMkCb0UFKlJzbCyYwuZ864CMJwf_ssY7AWt7G_rzac,3793
+biosaic-0.1.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+biosaic-0.1.3.dist-info/top_level.txt,sha256=7eZtZBU-rdw7xTvCG-KFOfC-Mc8jFaq9Z4n_LswZhHU,8
+biosaic-0.1.3.dist-info/RECORD,,
