@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: productspy
+Version: 0.1.1
+Summary: A product price tracker library
+Author-email: Rayan <you@example.com>
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: playwright
