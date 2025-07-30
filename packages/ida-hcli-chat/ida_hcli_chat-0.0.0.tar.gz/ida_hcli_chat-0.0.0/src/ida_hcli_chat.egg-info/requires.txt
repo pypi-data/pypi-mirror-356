@@ -1,0 +1,14 @@
+click
+rich
+ida-hcli>=0.0.10
+agno>=1.6.3
+mcp>=1.9.4
+openai>=1.88.0
+prompt-toolkit>=3.0.51
+
+[docs]
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+mkdocstrings[python]>=0.24.0
+mkdocs-include-markdown-plugin>=7.1.5
+pymdown-extensions>=10.0

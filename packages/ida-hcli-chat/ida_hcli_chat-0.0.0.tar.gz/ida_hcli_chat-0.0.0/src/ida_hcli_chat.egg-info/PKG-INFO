@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: ida-hcli-chat
+Version: 0.0.0
+Summary: Hex-Rays CLI Chat Extension
+Author-email: Hex-Rays SA <support@hex-rays.com>
+License-Expression: MIT
+Keywords: ida,ida-pro,reverse-engineering,disassembler,binary-analysis,malware-analysis,security
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: ida-hcli>=0.0.10
+Requires-Dist: agno>=1.6.3
+Requires-Dist: mcp>=1.9.4
+Requires-Dist: openai>=1.88.0
+Requires-Dist: prompt-toolkit>=3.0.51
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.5.0; extra == "docs"
+Requires-Dist: mkdocs-material>=9.4.0; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.24.0; extra == "docs"
+Requires-Dist: mkdocs-include-markdown-plugin>=7.1.5; extra == "docs"
+Requires-Dist: pymdown-extensions>=10.0; extra == "docs"
+
+# ida-hcli-chat
+
+## Build 
+uv sync 
+uv build  

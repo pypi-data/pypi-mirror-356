@@ -1,0 +1,15 @@
+# Python
+.venv
+.idea
+__pycache__/
+*.py[cod]
+dist
+*.egg-info/
+.pre-commit-config.yaml
+
+# Local
+scratch/
+uv_*.sh
+.claude
+CLAUDE.md
+NOTES.md
