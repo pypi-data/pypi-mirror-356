@@ -1,0 +1,15 @@
+pancho/__init__.py,sha256=Jn7XTiGVJj47tC0DJUTWKNxkGcWUglOy_9sygkYAAyc,254
+pancho/aux/__init__.py,sha256=CXOfKCUzGTIIYnvoUz1yqvCBKYG8Sar6SyJzhAk48HQ,23
+pancho/aux/wrappers.py,sha256=CT8UtvIR4FgtR3_MfDhIg87GGQqanZsP1pocz-A3qf8,1099
+pancho/definition/__init__.py,sha256=uTAI80jIsIBNaJFFSEYLP6D9LDMg14JGYGBGyKDWVdg,36
+pancho/definition/contracts.py,sha256=rKvW6fGC4dGs69LI-sLp8LNVbgwXiV0cjDQlvtkGTmo,874
+pancho/definition/exceptions.py,sha256=xAyw1Q-wrcPq80vx7NJ4o293-cGOnXE-2551ivSYGxE,1783
+pancho/implementation/__init__.py,sha256=5Z4HBAmlXrmV3PxJJhxUQ_7olkr6nKy-MRfp_Qbhkl4,171
+pancho/implementation/execution.py,sha256=3oqOIYd2H6JiM4OPNOYUbDtsjKhx0HctZwtoRyrHWAc,1560
+pancho/implementation/processing.py,sha256=UMr1KsO4Cz8eughQr0V8lqUomRbA42ErNsKJdJsVwxE,6401
+pancho/implementation/registry.py,sha256=CjhkLt17Fyn7vq7QXWrYnpvtpvUlYIZJFQSGBJmm9aQ,8542
+pancho/implementation/transformers.py,sha256=JIhgr-vTu29_0XjTyihr8drw51uoqMD23Kc2sFqe4Yo,1560
+pancho-1.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pancho-1.4.0.dist-info/METADATA,sha256=_FFK2PYloMFDoa9Wf2aXlZKXVlBT2-ZAcb7RnE6kp0E,585
+pancho-1.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pancho-1.4.0.dist-info/RECORD,,
