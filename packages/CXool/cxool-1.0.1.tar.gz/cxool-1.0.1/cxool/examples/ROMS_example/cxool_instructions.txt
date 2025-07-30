@@ -1,0 +1,24 @@
+Instructions to run CXool for this ROMS toy model example.
+ Authors:
+     Carlos Argáez, Simon Klüpfel, María Eugenia Allenda Aranda, Christian Mario Appendini
+     To report bugs, questions, feedback or just greetings, please use:
+         cargaezg@iingen.unam.mx
+
+
+Option 1
+cd data
+cxool   --grid-name inluum_grid.nc   --initialdate 1983-10-25   --finaldate 1983-10-31   --interval 6   --plot-interval 0   --vars-to-interp t2m wind msl tcc avg_snswrf  q tp --final-interpolated-file "roms_frc.nc"      --data-storage "./raw_era5"    --data-subfolder "merged_data" --ref-date "1970-01-01T00:00:00.000000000" 
+
+
+Option 2
+cd data
+python run_cxool_example.py
+
+Download the newest version of ROMS and provide the generated atmospheric forcing file generated with C-Xool.
+The input file is located External/inluum.in
+
+The header file is Include/gulfofmexico.h
+
+Configure ROMS, its libraries, compile it, and run the example.
+Good luck :-)
+ 
