@@ -1,0 +1,2 @@
+[console_scripts]
+kbfi-scan = kbfi.kbfi:main
