@@ -1,0 +1,30 @@
+[experiment]
+root_path = "data"
+
+[rack]
+period = 0.45
+
+[instruments]
+clock = {instrument = "Clock"}
+calculator = {instrument = "Calculator"}
+
+[measurements]
+time = instrument = "clock", method = "time"
+timestamp = {instrument = "clock", method = "timestamp_ms"}
+
+[data]
+path = "data_sub"
+
+[api_server]
+host = "localhost"
+port = 8005
+
+[logging]
+path = "logs"
+console_level = "DEBUG"
+gui_level = "DEBUG"
+file_level = "DEBUG"
+file_name = "debug.log"
+
+[gui]
+run = false
