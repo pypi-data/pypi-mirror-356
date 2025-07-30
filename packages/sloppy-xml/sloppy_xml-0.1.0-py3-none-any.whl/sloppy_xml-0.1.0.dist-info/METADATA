@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: sloppy-xml
+Version: 0.1.0
+Summary: A sloppy XML parser for Python designed to be used with LLMs
+Author-email: Armin Ronacher <armin.ronacher@active-4.com>
+Project-URL: Homepage, https://github.com/mitsuhiko/sloppy-xml-py
+Project-URL: Repository, https://github.com/mitsuhiko/sloppy-xml-py
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+Provides-Extra: lxml
+Requires-Dist: lxml>=4.6.0; extra == "lxml"
+Dynamic: license-file
