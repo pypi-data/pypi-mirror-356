@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.2.4/fabric.min.js"></script>
+  <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+  <style>
+    body, html {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+    #c {
+      border: 1px solid #444;
+      background: #222;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="c" width="512" height="512" tabindex="0"></canvas>
+  <script>
+    // --- Fabric.js canvas setup ---
+    const canvas = new fabric.Canvas('c', {
+      backgroundColor: '#222',
+      selection: true
+    });
+    canvas.setZoom(4);
+
+    const frames = [];
+    let current = 0;
+    let playInt = null;
+    let loading = false;
+
+    function saveCur() {
+      if (!loading) {
+        frames[current] = canvas.toJSON();
+      }
+    }
+
+    function load(idx) {
+      if (idx < 0 || idx >= frames.length) return;
+      loading = true;
+      canvas.clear();
+      canvas.loadFromJSON(frames[idx], () => {
+        canvas.renderAll();
+        current = idx;
+        // Update frame label in Python
+        if (pyObj && pyObj.updateFrameLabel) {
+          pyObj.updateFrameLabel(current, frames.length);
+        }
+        loading = false;
+      });
+      return `${current + 1}/${frames.length}`;
+    }
+
+    frames.push(canvas.toJSON());
+
+    window.EditorAPI = {
+      newRect() {
+        canvas.add(new fabric.Rect({
+          left: 50,
+          top: 50,
+          width: 100,
+          height: 100,
+          fill: 'transparent',
+          stroke: 'white',
+          strokeWidth: 2,
+          cornerColor: 'cyan',
+          cornerSize: 8
+        })).setActiveObject(canvas.item(canvas.size() - 1));
+      },
+      newCircle() {
+        canvas.add(new fabric.Circle({
+          left: 60,
+          top: 60,
+          radius: 50,
+          fill: 'transparent',
+          stroke: 'white',
+          strokeWidth: 2,
+          cornerColor: 'cyan',
+          cornerSize: 8
+        })).setActiveObject(canvas.item(canvas.size() - 1));
+      },
+      newPolygon(sides = 6) {
+        sides = Math.max(3, Math.min(12, Number(sides) || 6));
+        const radius = 50;
+        const centerX = 100;
+        const centerY = 100;
+        const points = [];
+        for (let i = 0; i < sides; i++) {
+          const angle = (2 * Math.PI * i) / sides;
+          points.push({
+            x: centerX + radius * Math.cos(angle),
+            y: centerY + radius * Math.sin(angle)
+          });
+        }
+        canvas.add(new fabric.Polygon(points, {
+          fill: 'transparent',
+          stroke: 'white',
+          strokeWidth: 2,
+          cornerColor: 'cyan',
+          cornerSize: 8
+        })).setActiveObject(canvas.item(canvas.size() - 1));
+      },
+      newText(t) {
+        canvas.add(new fabric.Text(t, {
+          left: 60,
+          top: 60,
+          fill: 'white',
+          fontSize: 24,
+          cornerColor: 'cyan',
+          cornerSize: 8
+        })).setActiveObject(canvas.item(canvas.size() - 1));
+      },
+      newLine() {
+        // Add a simple diagonal line
+        const line = new fabric.Line([60, 60, 160, 160], {
+          stroke: 'white',
+          strokeWidth: 2,
+          selectable: true,
+          cornerColor: 'cyan',
+          cornerSize: 8
+        });
+        canvas.add(line).setActiveObject(line);
+      },
+      clear() {
+        canvas.clear();
+        canvas.setBackgroundColor('#222');
+      },
+      exportFrame() {
+        return canvas.toDataURL({ format: 'png' });
+      },
+      exportAllFrames() {
+        saveCur();
+        return frames.map(js => {
+          const sc = new fabric.StaticCanvas(null, {
+            width: 128,
+            height: 128,
+            backgroundColor: '#222'
+          });
+          sc.setZoom(1); // No zoom for 128x128 export
+          sc.loadFromJSON(js, sc.renderAll.bind(sc));
+          return sc.toDataURL({ format: 'png' });
+        });
+      },
+      addFrame() {
+        saveCur();
+        // Create a blank frame without clearing the current canvas
+        let blank;
+        {
+          // Temporarily clear, get blank, then restore
+          const old = canvas.toJSON();
+          canvas.clear();
+          blank = canvas.toJSON();
+          canvas.loadFromJSON(old, canvas.renderAll.bind(canvas));
+        }
+        frames.push(blank);
+        load(frames.length - 1); // Switch to the new (blank) frame
+        return `${current + 1}/${frames.length}`;
+      },
+      cloneFrame() {
+        saveCur();
+        frames.splice(current + 1, 0, JSON.parse(JSON.stringify(frames[current])));
+        return load(current + 1);
+      },
+      prevFrame() {
+        saveCur();
+        if (current > 0) return load(current - 1);
+        return `${current + 1}/${frames.length}`;
+      },
+      nextFrame() {
+        saveCur();
+        // Always wrap to 0 after last frame
+        if (current < frames.length - 1) {
+          return load(current + 1);
+        } else {
+          return load(0);
+        }
+      },
+      playAnimation(ms) {
+        if (playInt) clearInterval(playInt);
+        if (pyObj && pyObj.highlightPlay) pyObj.highlightPlay();
+        playInt = setInterval(() => {
+          EditorAPI.nextFrame();
+        }, ms);
+      },
+      stopAnimation() {
+        if (playInt) clearInterval(playInt);
+        playInt = null;
+        if (pyObj && pyObj.unhighlightPlay) pyObj.unhighlightPlay();
+      },
+      zUp() {
+        const obj = canvas.getActiveObject();
+        if (obj) {
+          canvas.bringForward(obj);
+          canvas.renderAll();
+          saveCur();
+        }
+      },
+      zDown() {
+        const obj = canvas.getActiveObject();
+        if (obj) {
+          canvas.sendBackwards(obj);
+          canvas.renderAll();
+          saveCur();
+        }
+      },
+      deleteObject() {
+        const obj = canvas.getActiveObject();
+        if (obj) {
+          canvas.remove(obj);
+          saveCur();
+          canvas.discardActiveObject();
+          canvas.requestRenderAll();
+        }
+      },
+      removeFrame() {
+        if (frames.length <= 1) return; // Always keep at least one frame
+        frames.splice(current, 1);
+        if (current >= frames.length) current = frames.length - 1;
+        load(current);
+      },
+      setSelectMode() {
+        canvas.isDrawingMode = false;
+        canvas.selection = true;
+        canvas.discardActiveObject();
+        canvas.renderAll();
+      },
+      toggleDrawMode(forceOn) {
+        canvas.isDrawingMode = (forceOn === true) ? true : !canvas.isDrawingMode;
+        canvas.selection = !canvas.isDrawingMode;
+        canvas.freeDrawingBrush.color = 'white';
+        canvas.freeDrawingBrush.width = 4;
+        canvas.renderAll();
+        saveCur();
+      },
+      setBrushWidth(val) {
+        canvas.freeDrawingBrush.width = val;
+      },
+      getSelectedStrokeWidth() {
+        const obj = canvas.getActiveObject();
+        if (obj && obj.strokeWidth) {
+          if (pyObj && pyObj.setStrokeWidth) {
+            pyObj.setStrokeWidth(obj.strokeWidth);
+          }
+        } else if (pyObj && pyObj.setStrokeWidth) {
+          // If nothing selected, send brush width
+          pyObj.setStrokeWidth(canvas.freeDrawingBrush.width);
+        }
+      },
+    };
+
+    [
+      'object:modified',
+      'object:added',
+      'object:removed',
+      'text:changed'
+    ].forEach(ev => canvas.on(ev, saveCur));
+    canvas.on('path:created', saveCur);
+
+    // --- WebChannel setup ---
+    var pyObj = null;
+    new QWebChannel(qt.webChannelTransport, function(channel) {
+      pyObj = channel.objects.pyObj;
+      // Now it's safe to use pyObj:
+      pyObj.set_tool('select');
+    });
+
+    function sendSelectionType() {
+      let type = '';
+      const obj = canvas.getActiveObject();
+      if (obj) {
+        type = obj.type;
+      }
+      if (pyObj && pyObj.selectionChanged) {
+        pyObj.selectionChanged(type);
+      }
+    }
+
+    canvas.on('selection:created', sendSelectionType);
+    canvas.on('selection:updated', sendSelectionType);
+    canvas.on('selection:cleared', sendSelectionType);
+
+
+    document.getElementById('c').addEventListener('mousedown', function() {
+      this.focus();
+    });
+  </script>
+</body>
+</html>
