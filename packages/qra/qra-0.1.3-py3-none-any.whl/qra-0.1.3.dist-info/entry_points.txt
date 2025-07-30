@@ -1,0 +1,3 @@
+[console_scripts]
+qra=qra.cli:main
+
