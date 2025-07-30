@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-neo-lzf
+Version: 0.3.0
+Summary: A fork of python-lzf with pre-built wheel files.
+Home-page: https://github.com/FledgeXu/python-neo-lzf
+Author: Fledge Shiu
+Author-email: xzk0701@gmail.com
+License: BSD-3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: C
+Classifier: Topic :: System :: Archiving :: Compression
+Requires-Python: >=3.7
+License-File: LICENSE
+
