@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "daco"
+version = "0.0.0"
+description = "Coming soon!"
+authors = ["Daco <support@daco.sh>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
