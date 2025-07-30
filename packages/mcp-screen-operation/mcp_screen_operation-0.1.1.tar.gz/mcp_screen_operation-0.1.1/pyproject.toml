@@ -1,0 +1,82 @@
+[project]
+name = "mcp-screen-operation"
+version = "0.1.1"
+description = "MCP server for screen and window operations."
+authors = [{ name = "kakehashi" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["mcp", "automation", "screen-capture", "window-management", "cross-platform"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "mcp>=1.9.4",
+    "fastmcp>=2.3.0",
+    "mss",
+    "Pillow",
+    "pyautogui"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kakehashi/mcp-screen-operation"
+"Bug Tracker" = "https://github.com/kakehashi/mcp-screen-operation/issues"
+"Documentation" = "https://github.com/kakehashi/mcp-screen-operation#readme"
+
+[project.optional-dependencies]
+linux = ["python-xlib"]
+windows = ["pywin32"]
+macos = ["pyobjc-framework-Quartz", "pyobjc-framework-Cocoa"]
+dev = [
+    "pylint",
+    "pylint-plugin-utils",
+    "pylint-mcp",
+    "black"
+]
+
+[project.scripts]
+screen-operation-server = "screen_operation_server.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+dev-dependencies = [
+    "build>=1.0.0",
+    "twine>=5.0.0",
+    "wheel>=0.42.0",
+]
+
+[tool.black]
+line-length = 160
+exclude = 'tests/'
+
+[tool.pylint.MASTER]
+load-plugins = "pylint_mcp"
+
+[tool.pylint.FORMAT]
+max-line-length = 160
+
+[tool.pylint.DESIGN]
+max-args = 10
+max-locals = 25
+max-branches = 20
+max-statements = 60
+
+[tool.pylint.messages_control]
+disable = [
+    "W0718",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

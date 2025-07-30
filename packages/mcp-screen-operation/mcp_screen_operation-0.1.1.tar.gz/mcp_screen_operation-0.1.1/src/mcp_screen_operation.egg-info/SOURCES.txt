@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README-ja.md
+README.md
+pyproject.toml
+src/mcp_screen_operation.egg-info/PKG-INFO
+src/mcp_screen_operation.egg-info/SOURCES.txt
+src/mcp_screen_operation.egg-info/dependency_links.txt
+src/mcp_screen_operation.egg-info/entry_points.txt
+src/mcp_screen_operation.egg-info/requires.txt
+src/mcp_screen_operation.egg-info/top_level.txt
+src/screen_operation_server/__init__.py
+src/screen_operation_server/automation.py
+src/screen_operation_server/main.py
+src/screen_operation_server/operations.py
+src/screen_operation_server/window_manager.py
