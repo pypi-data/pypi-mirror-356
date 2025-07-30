@@ -1,0 +1,1 @@
+osn-windows-cmd is a Python library to simplify working with Windows command-line utilities like `netstat`, `shutdown`, and `taskkill`, providing structured output and a convenient interface.

@@ -1,0 +1,3 @@
+setuptools>=75.1.0
+pandas>=2.2.3
+osn-var-tools>=1.0.0
