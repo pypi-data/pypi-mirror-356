@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+mtpk_mariadb/__init__.py
+mtpk_mariadb/async_adapter.py
+mtpk_mariadb/core_sync.py
+mtpk_mariadb/crud.py
+mtpk_mariadb/excepciones.py
+mtpk_mariadb/interface.py
+mtpk_mariadb/utils.py
+mtpk_mariadb.egg-info/PKG-INFO
+mtpk_mariadb.egg-info/SOURCES.txt
+mtpk_mariadb.egg-info/dependency_links.txt
+mtpk_mariadb.egg-info/requires.txt
+mtpk_mariadb.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtpk_mariadb"
+version = "0.1.2"
+description = "Librería para sincronización estructural de bases de datos MariaDB con modelos Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "José Jesús Andrés Zambrana", email = "jjandres@multiplika.es"}
+]
+dependencies = [
+  "pymysql",
+]
+
+[project.urls]
+Homepage = "https://github.com/jjandres/mtpk_mariadb"
+Repository = "https://github.com/jjandres/mtpk_mariadb"
