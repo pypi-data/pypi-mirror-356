@@ -1,0 +1,3 @@
+[console_scripts]
+gpx-merge = gpx_merge.cli.cli:main
+gpx-merge-gui = gpx_merge.gui.gui:main
