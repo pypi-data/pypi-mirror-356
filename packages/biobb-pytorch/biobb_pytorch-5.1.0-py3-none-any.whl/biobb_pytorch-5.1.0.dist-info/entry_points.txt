@@ -1,0 +1,3 @@
+[console_scripts]
+apply_mdae = biobb_pytorch.mdae.apply_mdae:main
+train_mdae = biobb_pytorch.mdae.train_mdae:main
