@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+strcompat.py
+strcompat.egg-info/PKG-INFO
+strcompat.egg-info/SOURCES.txt
+strcompat.egg-info/dependency_links.txt
+strcompat.egg-info/requires.txt
+strcompat.egg-info/top_level.txt
