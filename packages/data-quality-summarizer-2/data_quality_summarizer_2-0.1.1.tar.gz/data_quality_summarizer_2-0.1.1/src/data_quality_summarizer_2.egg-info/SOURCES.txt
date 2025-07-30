@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/data_quality_summarizer_2.egg-info/PKG-INFO
+src/data_quality_summarizer_2.egg-info/SOURCES.txt
+src/data_quality_summarizer_2.egg-info/dependency_links.txt
+src/data_quality_summarizer_2.egg-info/requires.txt
+src/data_quality_summarizer_2.egg-info/top_level.txt
+tests/test_aggregator.py
+tests/test_ingestion.py
+tests/test_main.py
+tests/test_rules.py
+tests/test_summarizer.py
