@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: image-enhancer-vivi
+Version: 0.1.0
+Summary: A deep learning-powered image enhancement library using Real-ESRGAN and GFPGAN
+Home-page: https://github.com/yourusername/image-enhancer-vivi
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=1.10.0
+Requires-Dist: opencv-python>=4.5.0
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: Pillow>=9.0.0
+Requires-Dist: basicsr>=1.4.2
+Requires-Dist: realesrgan>=0.3.0
+Requires-Dist: gfpgan>=1.3.8
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# image-enhancer-vivi
+
+A deep learning-based image enhancement tool using Real-ESRGAN and GFPGAN.
+
+## Features
+
+- Super-resolution with Real-ESRGAN
+- Face enhancement using GFPGAN
+- Blurriness detection & image validation
+
+## Installation
+
+```bash
+pip install -e .
