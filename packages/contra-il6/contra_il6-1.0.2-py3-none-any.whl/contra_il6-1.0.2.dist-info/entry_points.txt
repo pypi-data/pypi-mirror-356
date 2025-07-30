@@ -1,0 +1,2 @@
+[console_scripts]
+contra_il6 = contra_il6.run:cli
