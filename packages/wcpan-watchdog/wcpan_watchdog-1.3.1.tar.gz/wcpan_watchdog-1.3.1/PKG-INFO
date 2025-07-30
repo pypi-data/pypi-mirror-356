@@ -1,0 +1,64 @@
+Metadata-Version: 2.3
+Name: wcpan-watchdog
+Version: 1.3.1
+Summary: asynchronous watchdog
+License: MIT
+Author: Wei-Cheng Pan
+Author-email: legnaleurc@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# wcpan.watchdog
+
+An asynchronous watchdog utility built with asyncio.
+
+## Installation
+
+```sh
+pip install wcpan.watchdog
+```
+
+## Command Line Usage
+
+You can simply use the main module like this:
+
+```sh
+python3 -m wcpan.watchdog -- <any command>
+```
+
+It will restart the command (if it is still running) for every file changed.
+
+## Library Usage
+
+You can also use this in your code:
+
+```python
+import asyncio
+import signal
+
+from wcpan.watchdog.watcher import Watcher
+
+async def auto_rerun():
+    path = 'the path you want to observe'
+
+    # Setup how to stop the watcher.
+    # In this example I use SIGINT to set the Event.
+    loop = asyncio.get_running_loop()
+    stop_event = asyncio.Event()
+    loop.add_signal_handler(signal.SIGINT, lambda: stop_event.set())
+
+    async with Watcher() as watcher:
+        # This will not stop until stop_event is set.
+        async for changes in watcher(path, stop_event=stop_event):
+            # Changes contains changed information.
+```
+
