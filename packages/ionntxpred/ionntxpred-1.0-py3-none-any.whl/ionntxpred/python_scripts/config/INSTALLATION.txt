@@ -1,0 +1,52 @@
+# 🛠️ Installation Guide for IonNTxPred
+
+## 🔹 PIP Installation
+To install IonNTxPred via PIP, run:
+```bash
+pip install ionntxpred
+```
+To check available options, type:
+```bash
+ionntxpred -h
+```
+
+## 🔹 Standalone Installation
+IonNTxPred is written in **Python 3** and requires the following dependencies:
+
+### ✅ Required Libraries
+```bash
+python=3.10.7
+pytorch
+```
+
+Additional required packages:
+```bash
+pip install scikit-learn==1.5.2
+pip install pandas==2.2.3
+pip install torch==2.6.0
+pip install transformers==4.34.0
+pip install joblib==1.4.2
+pip install onnxruntime==1.15.1
+Bio (Biopython): 1.81
+tqdm: 4.64.1
+```
+
+## 🔹 Installation using environment.yml
+1. Create a new Conda environment:
+```bash
+conda env create -f environment.yml
+```
+2. Activate the environment:
+```bash
+conda activate IonNTxPred
+```
+
+## ⚠️ Important Note
+- Due to the large size of the model file, the model directory has been compressed and uploaded.
+- Download the **zip file** from [Download Page](https://webs.iiitd.edu.in/raghava/ionntxpred/download.html).
+- **Extract the file** before using the code or model.
+
+---
+
+🚀 **You are now ready to use IonNTxPred!**
+
