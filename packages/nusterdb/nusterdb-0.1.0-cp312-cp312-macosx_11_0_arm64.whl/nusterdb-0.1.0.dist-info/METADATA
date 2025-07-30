@@ -1,0 +1,280 @@
+Metadata-Version: 2.4
+Name: nusterdb
+Version: 0.1.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pytest>=6.0 ; extra == 'dev'
+Requires-Dist: pytest-benchmark>=3.4.0 ; extra == 'dev'
+Requires-Dist: numpy>=1.19.0 ; extra == 'dev'
+Requires-Dist: scikit-learn>=1.0.0 ; extra == 'dev'
+Requires-Dist: matplotlib>=3.3.0 ; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Summary: High-performance vector database with support for various indexing algorithms
+Keywords: vector,database,similarity,search,machine-learning,embeddings
+Home-Page: https://nusterdb.com
+Author-email: NusterDB Team <info@nusterdb.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/your-org/nusterdb
+Project-URL: Documentation, https://nusterdb.readthedocs.io
+Project-URL: Repository, https://github.com/your-org/nusterdb.git
+Project-URL: Bug Tracker, https://github.com/your-org/nusterdb/issues
+
+# NusterDB - High-Performance Vector Database
+
+NusterDB is a high-performance vector database built with Rust, designed for similarity search and nearest neighbor queries. It supports multiple indexing algorithms and distance metrics, making it suitable for machine learning applications, recommendation systems, and any use case requiring efficient vector operations.
+
+## Features
+
+- **Multiple Index Types**: Support for Flat, HNSW, IVF, LSH, and Annoy indices
+- **Distance Metrics**: Euclidean, Cosine, Manhattan, Angular, Jaccard, and Hamming distances
+- **High Performance**: Built with Rust for maximum speed and efficiency
+- **Persistence**: RocksDB-backed storage with compression options
+- **Snapshots**: Create and manage database snapshots for backup and versioning
+- **Metadata Support**: Store and query metadata alongside vectors
+- **Python API**: Easy-to-use Python interface with numpy compatibility
+
+## Installation
+
+### From PyPI (Recommended)
+
+```bash
+pip install nusterdb
+```
+
+### From Source
+
+```bash
+# Clone the repository
+git clone https://github.com/your-org/nusterdb.git
+cd nusterdb-python
+
+# Install maturin (build tool for Rust-Python packages)
+pip install maturin
+
+# Build and install
+maturin develop
+```
+
+## Quick Start
+
+```python
+import numpy as np
+from nusterdb import NusterDB, DatabaseConfig, Vector, IndexType, DistanceMetric
+
+# Create database configuration
+config = DatabaseConfig(
+    dim=128,
+    index_type=IndexType.Hnsw,
+    distance_metric=DistanceMetric.Cosine
+)
+
+# Initialize database
+db = NusterDB("./my_database", config)
+
+# Create and insert vectors
+vector1 = Vector([1.0, 2.0, 3.0])  # Direct from list
+vector2 = Vector.random(128, -1.0, 1.0)  # Random vector
+
+# Insert vectors with optional metadata
+id1 = db.insert(vector1, {"category": "example", "label": "first"})
+id2 = db.insert(vector2, {"category": "random", "label": "second"})
+
+# Search for similar vectors
+query = Vector([1.1, 2.1, 3.1])
+results = db.search(query, k=5)  # Find 5 nearest neighbors
+
+print(f"Found {len(results)} similar vectors:")
+for vector_id, distance in results:
+    print(f"  ID: {vector_id}, Distance: {distance:.4f}")
+
+# Retrieve vectors and metadata
+retrieved_vector = db.get(id1)
+metadata = db.get_metadata(id1)
+print(f"Vector: {retrieved_vector}")
+print(f"Metadata: {metadata}")
+```
+
+## Advanced Usage
+
+### Batch Operations
+
+```python
+# Batch insert multiple vectors
+vectors = [Vector.random(128, -1.0, 1.0) for _ in range(1000)]
+metadata_list = [{"batch": i} for i in range(1000)]
+
+ids = db.batch_insert(vectors, metadata_list)
+print(f"Inserted {len(ids)} vectors")
+```
+
+### Index Configuration
+
+```python
+# HNSW Configuration for high-recall search
+hnsw_config = DatabaseConfig(
+    dim=256,
+    index_type=IndexType.Hnsw,
+    distance_metric=DistanceMetric.Euclidean,
+    hnsw_max_connections=32,
+    hnsw_ef_construction=400,
+    hnsw_max_elements=100000
+)
+
+# Flat index for exact search
+flat_config = DatabaseConfig(
+    dim=256,
+    index_type=IndexType.Flat,
+    distance_metric=DistanceMetric.Cosine,
+    flat_use_simd=True,
+    flat_batch_size=2000
+)
+```
+
+### Database Management
+
+```python
+# Create snapshots
+db.snapshot("backup_2024", {"version": "1.0", "description": "Initial backup"})
+
+# List snapshots
+snapshots = db.list_snapshots()
+print("Available snapshots:", snapshots)
+
+# Get database statistics
+stats = db.stats()
+print(f"Total vectors: {stats['total_vectors']}")
+print(f"Database size: {stats['database_size_bytes'] / 1024 / 1024:.2f} MB")
+print(f"Cache hit rate: {stats['cache_hit_rate'] * 100:.2f}%")
+
+# Compact database
+db.compact()
+```
+
+### Vector Operations
+
+```python
+# Create vectors
+v1 = Vector([1.0, 2.0, 3.0])
+v2 = Vector([4.0, 5.0, 6.0])
+
+# Vector arithmetic
+v3 = v1 + v2  # Addition
+v4 = v1 - v2  # Subtraction
+v5 = v1 * 2.0  # Scalar multiplication
+v6 = v1 / 2.0  # Scalar division
+
+# Vector properties
+print(f"Dimension: {v1.dim()}")
+print(f"L2 norm: {v1.norm()}")
+print(f"L1 norm: {v1.l1_norm()}")
+print(f"Dot product: {v1.dot(v2)}")
+
+# Normalization
+v_normalized = v1.normalize()  # Returns new vector
+v1.normalize_mut()  # In-place normalization
+```
+
+## API Reference
+
+### Classes
+
+#### `NusterDB`
+Main database class for vector operations.
+
+**Methods:**
+- `__init__(path, config)`: Initialize database
+- `insert(vector, metadata=None)`: Insert a vector
+- `search(query, k, ef_search=None)`: Search for nearest neighbors
+- `get(id)`: Retrieve vector by ID
+- `get_metadata(id)`: Retrieve metadata by ID
+- `delete(id)`: Delete vector by ID
+- `update(id, vector)`: Update vector data
+- `update_metadata(id, metadata)`: Update metadata
+- `count()`: Get total vector count
+- `batch_insert(vectors, metadata_list=None)`: Insert multiple vectors
+- `range_search(query, radius)`: Find vectors within distance threshold
+- `snapshot(name=None, metadata=None)`: Create snapshot
+- `list_snapshots()`: List all snapshots
+- `delete_snapshot(name)`: Delete snapshot
+- `stats()`: Get database statistics
+- `compact()`: Compact database
+
+#### `Vector`
+Vector class for mathematical operations.
+
+**Methods:**
+- `__init__(data)`: Create vector from list
+- `zeros(dim)`: Create zero vector
+- `ones(dim)`: Create vector of ones
+- `random(dim, min, max)`: Create random vector
+- `unit_random(dim)`: Create random unit vector
+- `dim()`: Get dimension
+- `norm()`: L2 norm
+- `normalize()`: Normalize to unit length
+- `dot(other)`: Dot product
+
+#### `DatabaseConfig`
+Configuration class for database settings.
+
+#### Enums
+- `IndexType`: Flat, Hnsw, IVF, LSH, Annoy
+- `DistanceMetric`: Euclidean, Cosine, Manhattan, Angular, Jaccard, Hamming
+- `Compression`: None, Snappy, LZ4, ZSTD
+
+## Performance Tips
+
+1. **Choose the right index**: 
+   - Use `Flat` for exact search on small datasets (< 10K vectors)
+   - Use `HNSW` for approximate search on large datasets
+
+2. **Optimize HNSW parameters**:
+   - Increase `ef_construction` for better quality (slower build)
+   - Increase `max_connections` for better recall (more memory)
+
+3. **Use appropriate distance metric**:
+   - `Cosine` for normalized vectors
+   - `Euclidean` for general purpose
+   - `Manhattan` for sparse vectors
+
+4. **Enable SIMD** for flat index when possible
+
+5. **Adjust cache size** based on available memory
+
+## Requirements
+
+- Python >= 3.8
+- numpy >= 1.19.0
+
+## License
+
+MIT License. See LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
+
+## Changelog
+
+### 0.1.0
+- Initial release
+- Support for Flat and HNSW indices
+- Python bindings with PyO3
+- Basic vector operations and database management
+
