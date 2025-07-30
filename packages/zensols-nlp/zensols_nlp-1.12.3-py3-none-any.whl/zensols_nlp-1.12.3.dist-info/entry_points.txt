@@ -1,0 +1,2 @@
+[console_scripts]
+nlp = zensols.nlp.cli:main
