@@ -1,0 +1,2 @@
+[console_scripts]
+system-info-mcp-server = system_info_mcp.server:main
