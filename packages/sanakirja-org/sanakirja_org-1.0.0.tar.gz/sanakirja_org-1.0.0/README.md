@@ -1,0 +1,73 @@
+# sanakirja-org
+
+[![License](https://img.shields.io/github/license/AceHanded/sanakirja-org?style=for-the-badge)](https://github.com/AceHanded/sanakirja-org/blob/master/LICENSE)
+[![GitHubStars](https://img.shields.io/github/stars/AceHanded/sanakirja-org?style=for-the-badge&logo=github&labelColor=black)](https://github.com/AceHanded/sanakirja-org)
+[![PyPI](https://img.shields.io/pypi/dm/sanakirja-org?style=for-the-badge&logo=pypi&logoColor=white&labelColor=blue)](https://pypi.org/project/sanakirja-org/)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/acehand)
+
+An unofficial Python API and CLI tool for sanakirja.org.
+
+## Installation
+
+```bash
+pip install sanakirja-org
+```
+
+## Examples
+
+### Language codes
+
+```python
+import sanakirja as sk
+
+sanakirja = sk.Sanakirja()
+
+# All equivalent formats; use of LangCodes is recommended
+sanakirja.search(q="life", l=sk.LangCodes.en)
+sanakirja.search(q="life", l="en")
+sanakirja.search(q="life", l=3)
+```
+
+### Basic search
+
+```python
+import sanakirja as sk
+
+sanakirja = sk.Sanakirja()
+
+# No language codes specified -> source language is guessed and simple translations are provided for each language
+sanakirja.search(q="everything")
+
+# No target language code specified -> simple translations are provided from the source language to each language
+sanakirja.search(q="everything", l=sk.LangCodes.en)
+
+# No source language code specified -> source language is guessed and accurate translations are provided for the target language
+sanakirja.search(q="everything", l2=sk.LangCodes.fi)
+
+# Both language codes specified -> accurate translations are provided from the source language to the target language
+sanakirja.search(q="everything", l=sk.LangCodes.en, l2=sk.LangCodes.fi)
+```
+
+### Error handling
+
+```python
+import sanakirja as sk
+
+sanakirja = sk.Sanakirja()
+
+try:
+    sk_res = sanakirja.search("universe", 42)
+except sk.LanguageCodeError as e:
+    print(e)  # Invalid language code: '42'
+```
+
+Valid language codes can be viewed, for example, via the `__members__` attribute of the `LangCodes` IntEnum.
+
+### CLI
+
+```bash
+sanakirja --show="all,-translations" --pretty 2 --output "./result.json" --from fi --to 3 kivi
+```
+
+The above example returns a result dictionary for the query "kivi" from Finnish to English, without the "translations" field and with an indent level of 2, and saves the result into a file called "result.json" at the current directory. \
+The argument `-h, --help` provides more information about each argument.
