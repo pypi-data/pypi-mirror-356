@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bezrabotnyiwhisper.egg-info/PKG-INFO
+bezrabotnyiwhisper.egg-info/SOURCES.txt
+bezrabotnyiwhisper.egg-info/dependency_links.txt
+bezrabotnyiwhisper.egg-info/requires.txt
+bezrabotnyiwhisper.egg-info/top_level.txt
+whisperclient/__init__.py
+whisperclient/transcriber.py
