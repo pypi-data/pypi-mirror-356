@@ -1,0 +1,95 @@
+agent:
+  name: "EnhancedExampleAgent"
+  description: "An example agent with enhanced capabilities built with Nüm Agents SDK"
+  univers:
+    - PocketFlowCore
+    - StructureAgentIA
+    - KnowledgeLayer
+    - QualityAssurance
+  protocol: N2A
+  llm: gpt-4o
+  memory: true
+  eventbus: true
+  scheduler: true
+  metrics: true
+  tracing: true
+  
+  # New section: Working Memory for storing goals, context, project type, etc.
+  working_memory:
+    goals:
+      - "Assist users with data analysis tasks"
+      - "Generate insightful visualizations"
+    context:
+      domain: "data science"
+      project_type: "data analysis"
+      user_expertise: "intermediate"
+    constraints:
+      - "Do not modify original data files"
+      - "Respect user privacy"
+    preferences:
+      visualization_style: "minimalist"
+      color_scheme: "blue"
+  
+  # New section: Expertise for defining the agent's areas of expertise
+  expertise:
+    domains:
+      - name: "data_analysis"
+        proficiency: 0.9
+        description: "Statistical analysis of datasets"
+      - name: "machine_learning"
+        proficiency: 0.8
+        description: "Building and evaluating ML models"
+      - name: "data_visualization"
+        proficiency: 0.85
+        description: "Creating informative charts and graphs"
+    skills:
+      - name: "python_programming"
+        proficiency: 0.9
+      - name: "sql_queries"
+        proficiency: 0.8
+      - name: "pandas"
+        proficiency: 0.95
+    knowledge_bases:
+      - name: "statistics_fundamentals"
+        source: "internal"
+      - name: "visualization_best_practices"
+        source: "external"
+        url: "https://example.com/viz-practices"
+  
+  # New section: Semantic Entities for defining entities the agent can manipulate
+  semantic_entities:
+    - name: "Dataset"
+      properties:
+        - name: "source"
+          type: "string"
+        - name: "size"
+          type: "integer"
+        - name: "columns"
+          type: "list"
+        - name: "has_missing_values"
+          type: "boolean"
+      relations:
+        - name: "contains"
+          target: "DataPoint"
+        - name: "derived_from"
+          target: "Dataset"
+    - name: "DataPoint"
+      properties:
+        - name: "values"
+          type: "dict"
+        - name: "timestamp"
+          type: "datetime"
+      relations:
+        - name: "belongs_to"
+          target: "Dataset"
+    - name: "Visualization"
+      properties:
+        - name: "type"
+          type: "string"
+        - name: "title"
+          type: "string"
+        - name: "data_source"
+          type: "string"
+      relations:
+        - name: "represents"
+          target: "Dataset"

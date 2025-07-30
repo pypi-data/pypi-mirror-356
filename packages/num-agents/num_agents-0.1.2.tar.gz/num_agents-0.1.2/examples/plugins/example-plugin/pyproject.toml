@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example-plugin"
+version = "0.1.0"
+description = "Example plugin for Nüm Agents SDK"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Proprietary"
+authors = [
+    {name = "Nüm Agents Team", email = "contact@example.com"},
+]
+dependencies = [
+    "num-agents>=0.1.0",
+]
+
+[project.entry-points."num_agents.plugins"]
+example_plugin = "example_plugin.plugin:ExamplePlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["example_plugin"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "example_plugin",
+    "README.md",
+]
