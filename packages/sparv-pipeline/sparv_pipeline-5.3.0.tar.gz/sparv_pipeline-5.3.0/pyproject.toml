@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sparv-pipeline"
+version = "5.3.0"
+description = "sparv-pipeline is now sparv"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Språkbanken Text", email = "sb-info@svenska.gu.se" }
+]
+classifiers = [
+    "Development Status :: 7 - Inactive",
+]
+dependencies = [
+    "sparv",
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/sparv_pipeline",
+]
+
+
+[tool.hatch.build.targets.wheel]
+bypass-selection = true
