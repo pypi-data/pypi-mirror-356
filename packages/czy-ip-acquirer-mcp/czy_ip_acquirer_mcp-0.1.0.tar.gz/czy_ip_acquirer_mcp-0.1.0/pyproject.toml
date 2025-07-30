@@ -1,0 +1,19 @@
+[project]
+name = "czy-ip-acquirer-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adam", email = "chenzhengyifr@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
+
+[project.scripts]
+czy-ip-acquirer-mcp = "czy_ip_acquirer_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
