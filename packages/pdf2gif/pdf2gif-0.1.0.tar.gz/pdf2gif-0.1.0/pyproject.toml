@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf2gif"
+version = "0.1.0"
+description = "Convert PDF files to animated GIFs"
+readme = "README.md"
+license = {text = "BSD-3"}
+authors = [
+    {name = "Robert Haase", email = "robert.haase@uni-leipzig.de"}
+]
+keywords = ["pdf", "gif", "converter", "animation", "image"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pdf2image",
+    "numpy",
+    "stackview",
+    "Pillow",
+]
+
+[project.scripts]
+pdf2gif = "pdf2gif.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/haesleinhuepf/pdf2gif"
+Documentation = "https://github.com/haesleinhuepf/pdf2gif#readme"
+Repository = "https://github.com/haesleinhuepf/pdf2gif.git"
+"Bug Tracker" = "https://github.com/haesleinhuepf/pdf2gif/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pdf2gif*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true 

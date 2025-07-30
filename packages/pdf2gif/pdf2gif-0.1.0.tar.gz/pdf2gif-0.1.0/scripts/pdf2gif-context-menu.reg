@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Registry file to add pdf2gif to Windows Explorer right-click menu for PDF files
+; IMPORTANT: Before using this file:
+; 1. Edit the path below to point to your actual pdf2gif-converter.bat file
+; 2. Replace "C:\\path\\to\\scripts\\pdf2gif-converter.bat" with the actual path
+; 3. Use double backslashes in the path (\\)
+
+[HKEY_CLASSES_ROOT\.pdf\shell\pdf2gif]
+@="Convert to GIF"
+
+[HKEY_CLASSES_ROOT\.pdf\shell\pdf2gif\command]
+@="\"C:\\path\\to\\scripts\\pdf2gif-converter.bat\" \"%1\"" 
