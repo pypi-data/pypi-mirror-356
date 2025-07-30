@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: azpaddypy
+Version: 0.2.6
+Summary: Comprehensive Python logger for Azure, integrating OpenTelemetry for advanced, structured, and distributed tracing.
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: azure-monitor-opentelemetry==1.6.10
+Provides-Extra: dev
+Requires-Dist: trio>=0.22.2; extra == "dev"
+Requires-Dist: azure-functions>=1.17.0; extra == "dev"
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.1; extra == "dev"
+Requires-Dist: anyio>=3.7.1; extra == "dev"
+Requires-Dist: pip; extra == "dev"
+Dynamic: license-file
