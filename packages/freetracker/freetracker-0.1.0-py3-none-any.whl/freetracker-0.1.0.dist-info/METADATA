@@ -1,0 +1,219 @@
+Metadata-Version: 2.4
+Name: freetracker
+Version: 0.1.0
+Summary: Basic work hour tracking tool for freelancers
+Project-URL: Homepage, https://github.com/tensorturtle/freetracker
+Project-URL: Repository, https://github.com/tensorturtle/freetracker
+Project-URL: Issues, https://github.com/tensorturtle/freetracker/issues
+Author-email: "Jason (Janghyup) Sohn" <tensorturtle@example.com>
+License: MIT
+License-File: LICENSE
+Keywords: cli,freelance,productivity,time-tracking
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Requires-Dist: click>=8.1.0
+Requires-Dist: rich>=14.0.0
+Requires-Dist: tinydb>=4.8.2
+Description-Content-Type: text/markdown
+
+# freetracker
+
+A command-line application for freelancers to track working hours per client/project.
+
+## Features
+
+- **Client Management**: Add, edit, delete, and list clients
+- **Project Management**: Create projects with hours quoted and due dates
+- **Time Tracking**: Start/stop timers with active timer notifications, manual time entry
+- **Tab Completion**: Auto-complete client and project names while typing
+- **Progress Reports**: Visual progress bars showing project completion
+- **Data Export**: Export reports as CSV or view in terminal
+- **Beautiful UI**: Rich terminal formatting with tables and progress bars
+- **Local Storage**: All data stored locally using TinyDB
+
+## Installation
+
+### Prerequisites
+- Python 3.12 or higher
+- [uv](https://github.com/astral-sh/uv) package manager
+
+### Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/tensorturtle/freetracker.git
+cd freetracker
+```
+
+2. Install dependencies:
+```bash
+uv sync
+```
+
+## Usage
+
+### Getting Started
+
+1. **Add a client:**
+```bash
+uv run freetracker client add
+```
+
+2. **Add a project for the client:**
+```bash
+uv run freetracker project add
+```
+
+3. **Start tracking time:**
+```bash
+uv run freetracker start
+```
+
+4. **Stop tracking time:**
+```bash
+uv run freetracker stop
+```
+
+5. **View reports:**
+```bash
+uv run freetracker report
+```
+
+### Client Management
+
+```bash
+# Add a new client
+uv run freetracker client add
+
+# List all clients
+uv run freetracker client list
+
+# Edit a client
+uv run freetracker client edit
+
+# Delete a client (and all its projects)
+uv run freetracker client delete
+```
+
+### Project Management
+
+```bash
+# Add a new project
+uv run freetracker project add
+
+# List all projects
+uv run freetracker project list
+
+# List projects for a specific client
+uv run freetracker project list --client <client_id>
+
+# Edit a project
+uv run freetracker project edit
+
+# Delete a project
+uv run freetracker project delete
+```
+
+### Time Tracking
+
+```bash
+# Start timer for a project
+uv run freetracker start
+
+# Stop the active timer
+uv run freetracker stop
+
+# Check timer status
+uv run freetracker status
+
+# Manually add hours (if you forgot to start timer)
+uv run freetracker add
+
+# View time entry log
+uv run freetracker log
+
+# View time entries for specific project
+uv run freetracker log "Project Name"
+```
+
+### Reports and Export
+
+```bash
+# Generate visual report with progress bars
+uv run freetracker report
+
+# Export report as CSV
+uv run freetracker report --csv
+
+# Export to specific file
+uv run freetracker report --csv --output my_report.csv
+```
+
+### Data Structure
+
+- **Clients**: Simple name-based client records
+- **Projects**: Each project has:
+  - Name
+  - Hours quoted (integer)
+  - Due date
+  - Associated client
+- **Time Entries**: 
+  - Automatic tracking of start/stop times
+  - Manual time entry for forgotten sessions
+
+### Pro Tips
+
+1. **Use names, not IDs**: When adding projects or starting timers, just enter the client/project name
+2. **Tab completion**: Press Tab to auto-complete client and project names when prompted
+3. **Active timer notification**: The app shows your active timer on every command
+4. **Progress visualization**: The report command shows beautiful progress bars
+5. **Data location**: All data is stored in `~/.freetracker/db.json` (or custom path via `FREETRACKER_DB_PATH`)
+6. **Case insensitive**: Client and project name matching is case insensitive
+
+## Configuration
+
+### Database Location
+
+By default, freetracker stores its database at `~/.freetracker/db.json`. You can customize this location using the `FREETRACKER_DB_PATH` environment variable:
+
+```bash
+# Use a custom database location
+export FREETRACKER_DB_PATH=/path/to/your/database.json
+uv run freetracker client list
+
+# Use a temporary database for testing
+export FREETRACKER_DB_PATH=/tmp/freetracker_test.json
+uv run freetracker client add
+
+# Use cloud storage (e.g., Dropbox)
+export FREETRACKER_DB_PATH="$HOME/Dropbox/freetracker/db.json"
+uv run freetracker start
+```
+
+This is useful for:
+- **Development**: Use a separate test database without affecting production data
+- **Cloud Sync**: Store your database in Dropbox, Google Drive, or other cloud storage
+- **Multiple Profiles**: Maintain separate databases for different contexts
+
+## Technology Stack
+
+- **Package Manager**: [uv](https://github.com/astral-sh/uv) - Fast Python package manager
+- **CLI Framework**: [Click](https://click.palletsprojects.com/) - Command-line interface creation
+- **UI Library**: [Rich](https://rich.readthedocs.io/) - Beautiful terminal formatting
+- **Database**: [TinyDB](https://tinydb.readthedocs.io/) - Lightweight document database
+
+## Development
+
+See [CLAUDE.md](CLAUDE.md) for detailed development instructions and project structure.
+
+## License
+
+MIT License - Copyright (c) 2025 Jason (Janghyup) Sohn
