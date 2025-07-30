@@ -1,0 +1,69 @@
+# -*- coding: utf-8 -*-
+
+# License: BSD 3-Clause
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/openml_sklearn/__version__.py"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[project]
+name = "openml-sklearn"
+dynamic = ["version"]  # Will take it from the __version__ file, update there
+dependencies = [
+  "scikit-learn>=0.18",
+  "pandas",
+  "openml",
+  "packaging",
+]
+requires-python = ">=3.8"
+authors = [
+  { name = "Matthias Feurer"},
+  { name = "Jan van Rijn" },
+  { name = "Arlind Kadra" },
+  { name = "Pieter Gijsbers" },
+  { name = "Neeratyoy Mallik" },
+  { name = "Sahithya Ravi" },
+  { name = "Andreas Müller" },
+  { name = "Joaquin Vanschoren " },
+  { name = "Frank Hutter" },
+]
+readme = "README.md"
+description = "Extensions for running scikit-learn models on OpenML tasks"
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Topic :: Scientific/Engineering",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+license = { file = "LICENSE" }
+
+[project.optional-dependencies]
+test=[
+    "pytest",
+    "pytest-xdist",
+    "pytest-timeout",
+    "oslo.concurrency",
+    "flaky",
+    "pytest-cov",
+    "pytest-rerunfailures",
+]
+
+[project.urls]
+home="https://www.openml.org/"
+source = "https://github.com/openml/openml-sklearn"
+documentation = "https://github.com/openml/openml-sklearn"
