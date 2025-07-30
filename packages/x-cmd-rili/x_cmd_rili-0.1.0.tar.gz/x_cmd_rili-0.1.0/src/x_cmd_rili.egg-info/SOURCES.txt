@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/calendar.tcss
+src/x_cmd_rili.egg-info/PKG-INFO
+src/x_cmd_rili.egg-info/SOURCES.txt
+src/x_cmd_rili.egg-info/dependency_links.txt
+src/x_cmd_rili.egg-info/entry_points.txt
+src/x_cmd_rili.egg-info/requires.txt
+src/x_cmd_rili.egg-info/top_level.txt
