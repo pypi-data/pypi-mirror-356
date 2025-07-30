@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mvupkg-rstanic
+Version: 2.2
+Summary: A Python interface to MATLAB implementation of MVU algorithm.
+Platform: Linux
+Platform: Windows
+Platform: macOS
+
