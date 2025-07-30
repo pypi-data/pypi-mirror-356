@@ -1,0 +1,98 @@
+# A2A LINE Client
+
+A2A SDKとLINE Bot APIを統合したクライアントライブラリです。LINEユーザーとA2Aエージェント間の双方向コミュニケーションを可能にします。
+
+## コンセプト
+
+このライブラリは、LINEメッセージを受信してA2Aエージェントに転送し、エージェントからの応答をLINEユーザーに返すブリッジとして機能します。テキストメッセージだけでなく、画像やファイルのやり取りもサポートしています。
+
+## インストール
+
+```bash
+pip install a2a-line-client
+```
+
+## 基本的な使い方
+
+### 1. 環境変数の設定
+
+`.env`ファイルを作成し、必要な設定を行います：
+
+```env
+LINE_CHANNEL_SECRET=your_line_channel_secret
+LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
+A2A_AGENT_CARD_URL=your_a2a_agent_card_url
+HOST=http://localhost:8000  # ファイル配信用URL（オプション）
+```
+
+### 2. サンプルコード
+
+```python
+import os
+import uvicorn
+from dotenv import load_dotenv
+
+from a2a_line_client import (
+    DefaultA2AToLineMessageRenderer,
+    DefaultLineEventHandler,
+    DefaultLineToA2AMessageParser,
+    InMemoryUserStateStore,
+    LocalFileStore,
+    Worker,
+    build_server,
+)
+
+if __name__ == "__main__":
+    load_dotenv()
+
+    # 各コンポーネントを初期化
+    user_state_store = InMemoryUserStateStore()
+    parser = DefaultLineToA2AMessageParser()
+    renderer = DefaultA2AToLineMessageRenderer(
+        file_store=LocalFileStore(
+            base_uri=f"{os.getenv('HOST') or ''}/files",
+            directory="public/files"
+        )
+    )
+    handler = DefaultLineEventHandler(
+        os.getenv("LINE_CHANNEL_ACCESS_TOKEN") or "",
+        os.getenv("A2A_AGENT_CARD_URL") or "",
+        user_state_store,
+        parser,
+        renderer
+    )
+    worker = Worker(os.getenv("LINE_CHANNEL_SECRET") or "", handler)
+
+    # サーバーを起動
+    server = build_server(worker)
+    uvicorn.run(server, host="0.0.0.0", port=8000)
+```
+
+### 3. サーバー起動
+
+```bash
+python -m src.samples
+```
+
+サーバーは `http://localhost:8000` で起動します。LINEのWebhookエンドポイントは `/callback` です。
+
+## 機能
+
+- **双方向メッセージング**: LINEユーザーとA2Aエージェント間でのリアルタイム会話
+- **ファイル共有**: 画像、ドキュメント等のファイル送受信
+- **セッション管理**: ユーザーごとの会話状態を保持
+- **カスタマイズ可能**: 各コンポーネントを独自実装で置き換え可能
+
+## 動作の流れ
+
+1. LINEユーザーがメッセージを送信
+2. LINE Bot APIがWebhookでメッセージを受信
+3. メッセージをA2A形式に変換
+4. A2Aエージェントにメッセージを送信
+5. エージェントからの応答を受信
+6. 応答をLINE形式に変換して返信
+
+## ライセンス
+
+MIT License
+
