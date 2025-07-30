@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: obspec-utils
+Version: 0.1.0b1
+Summary: Utilities for interacting with object storage, based on obspec
+Project-URL: Documentation, https://github.com/virtual-zarr/obspec-utils#readme
+Project-URL: Issues, https://github.com/virtual-zarr/obspec-utils/issues
+Project-URL: Source, https://github.com/virtual-zarr/obspec-utils
+Author-email: Max Jones <14077947+maxrjones@users.noreply.github.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Requires-Dist: obspec
+Requires-Dist: obstore
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: mypy; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-accept; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-xdist; extra == 'test'
+Requires-Dist: rich; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Obspec Utils
+
+[![PyPI - Version](https://img.shields.io/pypi/v/obspec-utils.svg)](https://pypi.org/project/obspec-utils)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/obspec-utils.svg)](https://pypi.org/project/obspec-utils)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+git clone https://github.com/virtual-zarr/obspec-utils.git
+cd obspec-utils
+hatch env create
+```
+
+## License
+
+`obspec-utils` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
