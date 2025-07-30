@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cosyvoice_ttsfrd/__init__.py
+src/cosyvoice_ttsfrd/post_install.py
+src/cosyvoice_ttsfrd.egg-info/PKG-INFO
+src/cosyvoice_ttsfrd.egg-info/SOURCES.txt
+src/cosyvoice_ttsfrd.egg-info/dependency_links.txt
+src/cosyvoice_ttsfrd.egg-info/entry_points.txt
+src/cosyvoice_ttsfrd.egg-info/top_level.txt
+src/cosyvoice_ttsfrd/bundled_files/resource.zip
+src/cosyvoice_ttsfrd/bundled_files/ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl
+src/cosyvoice_ttsfrd/bundled_files/ttsfrd_dependency-0.1-py3-none-any.whl
