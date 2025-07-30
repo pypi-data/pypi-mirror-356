@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datadagger"
+version = "2.0.0"
+description = "Influence Archaeology OSINT Tool for mapping information flow across digital communities"
+readme = "README.md"
+authors = [{ name = "Security Research Team" }]
+requires-python = ">=3.8"
+dynamic = ["dependencies"]
+keywords = [
+    "osint",
+    "social media",
+    "narrative tracking",
+    "misinformation",
+    "security research",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Security",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/datadagger"
+"Bug Reports" = "https://github.com/yourusername/datadagger/issues"
+"Source" = "https://github.com/yourusername/datadagger"
+
+[project.scripts]
+datadagger = "datadagger:cli"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["datadagger*"]
+exclude = ["tests*"]
