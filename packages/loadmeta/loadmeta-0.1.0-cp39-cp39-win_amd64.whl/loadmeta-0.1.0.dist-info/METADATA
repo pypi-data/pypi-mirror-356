@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: loadmeta
+Version: 0.1.0
+Summary: Librería auxiliar para cargar metadatos de cobertura raster con actualización automática
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: Cython
+Requires-Dist: packaging
+
+UNKNOWN
+
