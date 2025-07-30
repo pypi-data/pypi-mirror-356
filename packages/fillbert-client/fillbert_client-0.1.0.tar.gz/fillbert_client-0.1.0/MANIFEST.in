@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include src/bol_ocr_client py.typed
+global-exclude __pycache__
+global-exclude *.py[co]
