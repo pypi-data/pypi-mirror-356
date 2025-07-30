@@ -1,0 +1,18 @@
+[project]
+name = "xmcp-server-weather"
+version = "0.1.5"
+description = "天气查询MCP服务"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.4",
+]
+
+[project.scripts]
+xmcp-server-weather = "xmcp_server_weather:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
