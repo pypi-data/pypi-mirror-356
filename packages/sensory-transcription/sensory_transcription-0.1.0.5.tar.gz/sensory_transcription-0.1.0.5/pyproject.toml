@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sensory-transcription"
+version = "0.1.0.5"
+description = "Audio transcription + diarization + emotion analysis service"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Fox", email = "sensory@sensory.com"}] # Обновите на свои данные
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+keywords = ["transcription", "diarization", "emotion-analysis", "fastapi", "ai", "speech-to-text"]
+
+dependencies = [
+  "pydantic>=2.6",         # Модели данных
+  "pydantic-settings>=2.2", # Управление настройками
+  "numpy",                  # Базовые численные операции
+  "typer[all]",             # Для CLI клиента (включает click)
+  "rich",                   # Для красивого вывода в CLI
+  "httpx",                  # Асинхронный HTTP-клиент
+  "requests",               # Синхронный HTTP-клиент
+  "websockets",             # Для WebSocket-клиента
+  "soundfile",              # Чтение/запись аудиофайлов (используется и в клиенте, и в сервере)
+  "librosa==0.10.2",        # Обработка аудио (ресемплинг и т.д.)
+  "python-dotenv",          # Для загрузки переменных окружения из .env
+]
+
+[project.optional-dependencies]
+server = [
+  "fastapi",
+  "uvicorn[standard]",      # ASGI-сервер с дополнительными зависимостями
+  "gunicorn",               # WSGI HTTP-сервер для Uvicorn
+  "python-multipart",       # Для обработки multipart/form-data в FastAPI
+  "prometheus-fastapi-instrumentator", # Для метрик Prometheus
+  "faster-whisper==1.1.1",  # Быстрая транскрибация
+  "pyannote.audio",         # Диалогизация
+  "huggingface_hub",        # Для загрузки моделей ML (Whisper, PyAnnote)
+  "hydra-core",             # Если используется Hydra для конфигов
+  "omegaconf",              # Управление конфигурациями (часто с Hydra)
+  "sentencepiece",          # Токенизация для некоторых моделей
+  "onnx",                   # ONNX формат
+  "onnxruntime",            # ONNX Runtime для инференса
+  "psutil",                 # Для информации о системе (например, использование памяти в ModelCache)
+  "pydub",                  # Простая обработка аудио
+  "noisereduce",            # Шумоподавление
+  "requests-toolbelt",      # Утилиты для requests (например, multipart encoding)
+  "torch",                  # Базовый PyTorch (для CPU. GPU-версия устанавливается отдельно в Docker)
+  "pandas",                 # Для обработки данных (если используется на сервере)
+  # "sacremoses",             # Закомментированные зависимости, если не используются
+  # "wtpsplit",
+]
+client = [
+  "tqdm",                   # Прогресс-бар для синхронных операций
+  "tqdm-asyncio",           # Прогресс-бар для асинхронных операций
+]
+dev = [
+  "pytest",
+  "pytest-asyncio",
+  "mypy",
+  "ruff",
+  "black",
+  "isort",
+]
+
+[project.scripts]
+sensory-transcribe = "sensory_transcription.client.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sensory_transcription*"]
