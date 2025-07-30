@@ -1,0 +1,6 @@
+httpx>=0.28.1
+mcp[cli]>=1.7.1
+twine>=6.1.0
+
+[dev]
+ruff>=0.6.0
