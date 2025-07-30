@@ -1,0 +1,8 @@
+.pypirc
+
+__pycache__/
+test.py
+/.venv*
+/docs/_build
+/site
+dist/
