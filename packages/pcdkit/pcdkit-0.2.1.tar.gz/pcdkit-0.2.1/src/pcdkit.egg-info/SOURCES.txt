@@ -1,0 +1,9 @@
+LICENSES.txt
+README.md
+pyproject.toml
+src/pcdkit.egg-info/PKG-INFO
+src/pcdkit.egg-info/SOURCES.txt
+src/pcdkit.egg-info/dependency_links.txt
+src/pcdkit.egg-info/requires.txt
+src/pcdkit.egg-info/top_level.txt
+tests/test_pointcloud.py
