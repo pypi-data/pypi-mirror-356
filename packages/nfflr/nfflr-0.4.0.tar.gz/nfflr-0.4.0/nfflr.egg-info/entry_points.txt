@@ -1,0 +1,3 @@
+[console_scripts]
+nff = nfflr.train.trainer:cli
+nffd = nfflr.train.distributed:main

@@ -1,0 +1,29 @@
+ase
+ray[tune]
+scipy
+typer
+einops
+pandas
+pynvml
+pykeops
+pynvml>=11.5.3
+lmdb>=1.6.2
+mendeleev
+matplotlib
+cached-path
+platformdirs
+plum-dispatch
+pytorch-ignite
+py-config-runner
+jarvis-tools>=2021.07.19
+
+[:sys_platform == "darwin"]
+numpy<2.0.0
+torch==2.1.0
+torchdata==0.7.0
+dgl==2.1.0
+
+[:sys_platform == "linux"]
+numpy
+torch==2.4
+dgl>=2.4.0
