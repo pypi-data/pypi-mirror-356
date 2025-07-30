@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: spartera-api-python-sdk
+Version: 1.0.20
+Summary: Spartera API Documentation
+Home-page: https://github.com/spartera-com/spartera-api-sdks/tree/main/python
+Author: API Support
+Author-email: support@spartera.com
+License: Apache 2.0
+Keywords: OpenAPI,OpenAPI-Generator,Spartera API Documentation
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3<3.0.0,>=2.1.0
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+    Auto-generated API documentation for REST services of the Spartera platform
+    
