@@ -1,0 +1,2 @@
+[console_scripts]
+blender-mcp-hunyuan = blender_mcp.server:main
