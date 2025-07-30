@@ -1,0 +1,2 @@
+[console_scripts]
+wildfire-eval = wildfire_drone.benchmark:run_benchmark_for_strategy
