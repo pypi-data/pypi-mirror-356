@@ -1,0 +1,23 @@
+.. bc_configs documentation master file, created by
+   sphinx-quickstart on Sat Sep 30 20:30:18 2025.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to bc_configs's documentation!
+======================================
+
+*Let's make your configuration easy.*
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   bc_configs
+   for_contributing
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
