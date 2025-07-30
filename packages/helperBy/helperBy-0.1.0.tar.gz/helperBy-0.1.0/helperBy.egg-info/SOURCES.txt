@@ -1,0 +1,12 @@
+README.md
+setup.py
+helperBy.egg-info/PKG-INFO
+helperBy.egg-info/SOURCES.txt
+helperBy.egg-info/dependency_links.txt
+helperBy.egg-info/requires.txt
+helperBy.egg-info/top_level.txt
+pyutils_aiogram/__init__.py
+pyutils_aiogram/core.py
+pyutils_aiogram/progress.py
+pyutils_aiogram/system_info.py
+pyutils_aiogram/utils.py
