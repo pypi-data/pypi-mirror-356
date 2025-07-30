@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: onnx-passes
+Version: 0.0.0
+Summary: Collection of ONNX IR Graph Passes
+License: MIT
+Author: Christoph Berganski
+Author-email: christoph.berganski@upb.de
+Maintainer: Christoph Berganski
+Maintainer-email: christoph.berganski@upb.de
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: PyYAML (==6.0.2)
+Requires-Dist: click (==8.2.1)
+Requires-Dist: netron (==8.3.8)
+Requires-Dist: numpy (==2.2.6)
+Requires-Dist: onnx (==1.18.0)
+Requires-Dist: onnx-ir (==0.1.2)
+Requires-Dist: onnxruntime (==1.22.0)
+Requires-Dist: onnxscript (==0.3.0)
+Project-URL: GitHub, https://github.com/iksnagreb/onnx-passes
+Description-Content-Type: text/markdown
+
+# onnx-passes
+Collection of ONNX IR Graph Passes based on ONNXScript
+
