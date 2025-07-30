@@ -1,0 +1,30 @@
+{
+    "commands": [
+        {
+            "action": "open_app",
+            "patterns": [
+                "open (?P<app>.+)",
+                "start (?P<app>.+)",
+                "launch (?P<app>.+)"
+            ],
+            "response": "opening {app}"
+        },
+        {
+            "action": "open_website",
+            "patterns": [
+                "open (?P<site>.+)",
+                "go to (?P<site>.+)",
+                "visit (?P<site>.+)"
+            ],
+            "response": "opening {site}"
+        },
+        {
+            "action": "sleep",
+            "patterns": [
+                "take rest",
+                "go to sleep"
+            ],
+            "response": "goodbye"
+        }
+    ]
+}
