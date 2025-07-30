@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+webclipper/__init__.py
+webclipper/main.py
+webclipper.egg-info/PKG-INFO
+webclipper.egg-info/SOURCES.txt
+webclipper.egg-info/dependency_links.txt
+webclipper.egg-info/entry_points.txt
+webclipper.egg-info/requires.txt
+webclipper.egg-info/top_level.txt
