@@ -1,0 +1,75 @@
+Metadata-Version: 2.4
+Name: msbench-analysis-mcp
+Version: 0.1.0
+Summary: This tool is designed to analyze MSBench log zip file, automatically extract error information from nested logs.
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]>=1.9.4
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pandas>=2.3.0
+Requires-Dist: tabulate>=0.9.0
+Description-Content-Type: text/markdown
+
+# MSBench Analysis MCP
+
+This tool is designed to analyze MSBench log zip file, automatically extract error information from nested logs. It is intended for use as an MCP (Model Context Protocol) server, supporting integration with MCP clients such as Copilot Chat or mcp-inspector.
+
+## Features
+- Recursively extracts and analyzes all inner zip files within a given MSBench log archive.
+- Only processes `cls.log` files located in the `output` directory of each inner zip.
+- Extracts error messages and error types from logs using regular expressions.
+- Aggregates error statistics by type and provides total error counts.
+- Tracks and reports the number of skipped (unreadable or broken) inner zip files and cls.log files.
+- Generates a detailed Excel report with error details and summary statistics.
+- Provides both summary and detailed error information via MCP tools.
+
+## MCP Tools
+
+### 1. `analyze_errors_and_save_report(zipPath: str) -> str`
+- **Description:**
+  - Analyzes the specified MSBench zip file, extracts all error information, and saves a detailed Excel report.
+  - Returns a summary string including the report path, total error count, error type breakdown, and the number of skipped files.
+- **Output Example:**
+  ```
+  Report path: /path/to/msbench_analysis_report.xlsx
+  Total errors: 42
+  Error type count: {"TypeA": 10, "TypeB": 32}
+  Skipped inner zip: 1
+  Skipped cls.log: 2
+  ```
+
+### 2. `analyze_errors(zipPath: str) -> str`
+- **Description:**
+  - Analyzes the specified MSBench zip file and returns a summary plus a detailed error table in markdown format (for use in markdown-capable clients).
+  - The table includes file name, error information, and error type for each error found.
+- **Output Example:**
+  ```
+  Total errors: 42
+  Error type count: {"TypeA": 10, "TypeB": 32}
+  Skipped inner zip: 1
+  Skipped cls.log: 2
+
+  | File Name | Error Information | Error Type |
+  |-----------|------------------|------------|
+  | foo.zip   | ...              | TypeA      |
+  | bar.zip   | ...              | TypeB      |
+  ```
+
+## Usage
+1. Install dependencies (recommended: use [uv](https://github.com/astral-sh/uv) or pip):
+   ```bash
+   uv pip install -r requirements.txt
+   # or
+   pip install -r requirements.txt
+   ```
+2. Run as an MCP server:
+   ```bash
+   python -m msbench_analysis_mcp.analysis_server
+   ```
+3. Use an MCP client (such as Copilot Chat or mcp-inspector) to call the tools with the path to your MSBench zip file.
+
+## Notes
+- Only `cls.log` files under the `output` directory of each inner zip are processed.
+- Broken or unreadable inner zips and logs are counted and reported but do not interrupt the analysis.
+- The markdown table output is best viewed in markdown-capable clients (e.g., Copilot Chat). In plain text clients, the table will be shown as raw markdown.
+- **Timeouts:** If you encounter timeout issues when using MCP Inspector, please increase the timeout value in the MCP Inspector configuration (e.g., set `mcpInspector.requestTimeout` to a larger value)
+
