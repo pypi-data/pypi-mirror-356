@@ -1,0 +1,53 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+mofa/__init__.py
+mofa/cli.py
+mofa/agent-template/cookiecutter.json
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/.gitignore
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/README.md
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/pyproject.toml
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/agent/__init__.py
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/agent/main.py
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/agent/configs/agent.yml
+mofa/agent-template/{{ cookiecutter.user_agent_dir }}/tests/test_main.py
+mofa/agent_build/__init__.py
+mofa/agent_build/base/__init__.py
+mofa/agent_build/base/base_agent.py
+mofa/utils/__init__.py
+mofa/utils/ai/__init__.py
+mofa/utils/ai/conn.py
+mofa/utils/ai/util.py
+mofa/utils/date/__init__.py
+mofa/utils/date/util.py
+mofa/utils/envs/__init__.py
+mofa/utils/envs/util.py
+mofa/utils/files/__init__.py
+mofa/utils/files/delete.py
+mofa/utils/files/dir.py
+mofa/utils/files/read.py
+mofa/utils/files/util.py
+mofa/utils/files/write.py
+mofa/utils/func/__init__.py
+mofa/utils/func/util.py
+mofa/utils/install_pkg/__init__.py
+mofa/utils/install_pkg/load_task_weaver_result.py
+mofa/utils/log/__init__.py
+mofa/utils/log/agent.py
+mofa/utils/log/autogen.py
+mofa/utils/process/__init__.py
+mofa/utils/process/util.py
+mofa/utils/search/__init__.py
+mofa/utils/search/util.py
+mofa/utils/variable/__init__.py
+mofa/utils/variable/util.py
+mofa_ai.egg-info/PKG-INFO
+mofa_ai.egg-info/SOURCES.txt
+mofa_ai.egg-info/dependency_links.txt
+mofa_ai.egg-info/entry_points.txt
+mofa_ai.egg-info/not-zip-safe
+mofa_ai.egg-info/requires.txt
+mofa_ai.egg-info/top_level.txt
