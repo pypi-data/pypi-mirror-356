@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/llm_project_builder.egg-info/PKG-INFO
+src/llm_project_builder.egg-info/SOURCES.txt
+src/llm_project_builder.egg-info/dependency_links.txt
+src/llm_project_builder.egg-info/requires.txt
+src/llm_project_builder.egg-info/top_level.txt
