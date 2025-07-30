@@ -1,0 +1,7 @@
+[console_scripts]
+cmb = lisa._combine_code:main
+combine-code = lisa._combine_code:main
+hyperlisa-configure = lisa.configure:main
+hyperlisa-migrate = lisa.migrate:main
+hyperlisacmb = lisa._combine_code:main
+lisacmb = lisa._combine_code:main

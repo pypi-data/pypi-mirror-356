@@ -1,0 +1,17 @@
+log_level: WARNING
+
+includes:
+  - "*.py"  
+  - "*.md"
+# add here others includes
+
+excludes:
+  - ".git"
+  - "__pycache__"
+  - "*.egg-info"
+  - "venv*"
+  - ".vscode"
+  - "agents*"
+  - "log"
+  - "scripts"
+# add here others excludes

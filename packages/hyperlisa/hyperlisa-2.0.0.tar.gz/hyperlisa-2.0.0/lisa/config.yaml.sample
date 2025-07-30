@@ -1,0 +1,71 @@
+# Hyperlisa v2.1 Configuration File
+
+# Livello di log per il processo di generazione.
+# Valori possibili: DEBUG, INFO, WARNING, ERROR.
+log_level: INFO
+
+# --------------------------------------------------------------------------
+# Variabili riutilizzabili per evitare duplicazioni.
+# --------------------------------------------------------------------------
+variables:
+  PYTHON_EXT: &py_files ["*.py"]
+  FRONTEND_EXT: &web_files ["*.css", "*.js", "*.html"]
+
+# --------------------------------------------------------------------------
+# Sezione di Esclusioni Globali.
+# --------------------------------------------------------------------------
+global_excludes:
+  - "__pycache__/"
+  - ".vscode/"
+  - ".git/"
+  - "venv/"
+  - "log/"
+  - ".hyperlisa/"
+  - "last_query_embedding.json"
+  - ".env"
+
+# --------------------------------------------------------------------------
+# Sezione dei Profili di Analisi.
+# --------------------------------------------------------------------------
+profiles:
+  # Template per la nomenclatura dei file di output.
+  # $n = Nome Progetto, $ts = Timestamp, $p = Nome Profilo
+  name_template: "$n_$p_$ts"
+
+  # Lista dei profili di analisi.
+  profiles_list:
+    # ======== PROFILO 1: backend ========
+    - name: "backend"
+      enable: true
+      blocks:
+        - paths: 
+            # depth: "*" -> Scansione ricorsiva completa (comportamento classico)
+            - { path: "/app/", depth: "*" }
+          includes: *py_files
+          excludes:
+            - "static/"
+            - "tests/"
+
+    # ======== PROFILO 2: frontend_shallow ========
+    - name: "frontend_shallow"
+      enable: true
+      blocks:
+        - paths:
+            # depth: 0 -> Analizza solo i file in /app/static/, senza scendere nelle sottocartelle.
+            - { path: "/app/static/", depth: 0 }
+          includes: *web_files
+          excludes:
+            - "svg/"
+
+    # ======== PROFILO 3: tests_deep ========
+    # Esempio con wildcard e percorsi multipli con profondità diverse.
+    - name: "tests"
+      enable: true
+      blocks:
+        - paths:
+            # depth: 1 -> Scende di un solo livello nelle cartelle dei test
+            - { path: "/app/**/tests/", depth: 1 }
+            # depth: "*" -> Scende senza limiti nelle cartelle dei test del core
+            - { path: "/core/tests/", depth: "*" }
+          includes: *py_files
+          excludes: []
