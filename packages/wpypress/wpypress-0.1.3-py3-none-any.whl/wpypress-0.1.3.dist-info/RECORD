@@ -1,0 +1,16 @@
+wpypress/__init__.py,sha256=5QSJiUIqc-BmNxDmjCtdj_yC3geFLfFvUcuNXnRD-sQ,53
+wpypress/auth.py,sha256=SSGZjGM98LV1_X3zUis9aAA-ZFngvKQacXQvoA5tXQQ,329
+wpypress/client.py,sha256=Fy_hb78ncblWAEeS_bhjpRxWNp6eKpCa5VHesNjBT7s,610
+wpypress/utils.py,sha256=-cWTcvcsCyZ1Io-mPXFzBnF62AvQsCI1lbiNGCYcIu8,193
+wpypress/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wpypress/endpoints/categories.py,sha256=M_gcLrjXbm7oChaL1O1oEbtgIHXQYnvFL4buNVuflNw,2578
+wpypress/endpoints/media.py,sha256=5GrQkTnvFWntN1Ja-FBZmySIBWaxAh0I90MagWeU58g,3235
+wpypress/endpoints/pages.py,sha256=-eTVrCanYPtdGTm_30zDQFit5OMAvyJyeULChwfYoWA,2734
+wpypress/endpoints/posts.py,sha256=5gsE_PP_3Or4AzJocpiIKfmyy8lmgIRqMaTWwfWGfwE,2958
+wpypress/endpoints/seo.py,sha256=XzWX0BSAF-ehaXdAe6l9q_8VLmpvymKksl4R82lRTqQ,2364
+wpypress/endpoints/tags.py,sha256=AAOhrSaZiTpyUvpiO8KpL_vqRlq39lnf7vy59XvK8Ko,2420
+wpypress-0.1.3.dist-info/LICENSE,sha256=xFOv13cWzNhvwgOuXmo14qfREcr2GS45VSezAPxDj1c,1073
+wpypress-0.1.3.dist-info/METADATA,sha256=4hi3FGFOYQlxf5LJ2TZJXcZKBTbGmPj4JkmPstgo5Jc,3861
+wpypress-0.1.3.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+wpypress-0.1.3.dist-info/top_level.txt,sha256=c7EPNDC-V9694LBKrOMZnNMatQis6_f96I2AAoLbn20,9
+wpypress-0.1.3.dist-info/RECORD,,
