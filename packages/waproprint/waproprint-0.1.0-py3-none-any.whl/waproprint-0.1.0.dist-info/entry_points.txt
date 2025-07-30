@@ -1,0 +1,4 @@
+[console_scripts]
+waproprint=sql2html:main
+zpl2pdf=zpl.zpl_to_pdf:main
+
