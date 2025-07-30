@@ -1,0 +1,2 @@
+[console_scripts]
+dbagent = dbagent.cli:main
