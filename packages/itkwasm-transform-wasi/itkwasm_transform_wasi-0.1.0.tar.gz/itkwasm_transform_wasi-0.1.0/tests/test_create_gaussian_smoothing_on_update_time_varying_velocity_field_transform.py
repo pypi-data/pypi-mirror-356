@@ -1,0 +1,8 @@
+# Generated file. To retain edits, remove this comment.
+
+from itkwasm_transform_wasi import create_gaussian_smoothing_on_update_time_varying_velocity_field_transform
+
+from .common import test_input_path, test_output_path
+
+def test_create_gaussian_smoothing_on_update_time_varying_velocity_field_transform():
+    pass
