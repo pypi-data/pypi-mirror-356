@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drfbp"
+version = "2025.06.19"
+description = "Django REST Framework Boilerplate Generator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Dado", email = "gerardoaballesterjr@gmail.com" }
+]
+
+keywords = ["drf", "django", "rest framework", "boilerplate", "generator"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+drfbp = "drfbp.__main__:main"
