@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+
+members = ["crates/python"]
+
+default-members = ["crates/core", "tests/rust"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = "symbols"
+debug = false
+panic = "unwind"
+
+[workspace.package]
+description = "Techalib: A TECHnical Analysis LIBrary"
+version = "0.1.0"
+repository = "https://github.com/Guitheg/techalib.git"
+
+license = "BSD-3-Clause"
+authors = ["Guillaume GOBIN <gthgobin@gmail.com>"]
+
+rust-version = "1.84"
+edition = "2021"

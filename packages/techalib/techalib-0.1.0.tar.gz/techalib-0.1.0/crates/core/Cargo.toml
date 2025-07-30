@@ -1,0 +1,26 @@
+[package]
+name = "techalib"
+
+description.workspace = true
+version.workspace = true
+repository.workspace = true
+
+license.workspace = true
+authors.workspace = true
+
+rust-version.workspace = true
+edition.workspace = true
+
+[dev-dependencies]
+criterion = { version = "0.6.0", features = ["html_reports"] }
+rand = "0.9.1"
+
+[[bench]]
+name = "bench"
+harness = false
+path = "../../benchmarks/rust/bench.rs"
+
+[features]
+default = ["f64"]
+f64 = []
+f32 = []

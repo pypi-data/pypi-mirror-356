@@ -1,0 +1,23 @@
+[project]
+name = "techalib"
+description = "Techalib: A TECHnical Analysis LIBrary"
+authors = [
+    { name = "Guitheg" }
+]
+keywords = ["technical analysis", "finance", "trading", "indicators", "ta"]
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+bindings = "pyo3"
+manifest-path = "crates/python/Cargo.toml"
+python-source = "python"
+module-name = "techalib._core"
+features = ["pyo3/extension-module"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/python"]
