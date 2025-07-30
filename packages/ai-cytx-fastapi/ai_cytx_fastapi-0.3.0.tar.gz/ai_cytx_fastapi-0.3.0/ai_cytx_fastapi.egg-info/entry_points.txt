@@ -1,0 +1,2 @@
+[console_scripts]
+ai-cytx-fastapi = cytx_mcp_server:main
