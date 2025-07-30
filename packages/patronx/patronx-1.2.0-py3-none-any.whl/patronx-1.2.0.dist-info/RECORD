@@ -1,0 +1,14 @@
+patronx/__init__.py,sha256=13Z7LSP2W9qsxtPvANxMqqYGdJ-gy6DSqGTPtIqlwQ8,48
+patronx/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+patronx/backup.py,sha256=9nIIebFwu9ZPbWnMQcHZ0nnKk781q0wQW3SyDpApLys,5154
+patronx/cli.py,sha256=FhcyP6gxB5hAzCNHEyjE8ww8nqpi24XQpBWfBnzdccg,4239
+patronx/config.py,sha256=WCPAubUSAIsqnytL4sUX7q-CT0xjNJO0bxKVzAdRKwI,2470
+patronx/env.py,sha256=_36p1WzrOwtnTX0094v2Gbha_WvjpQO_afTacamHoeU,956
+patronx/schedule.py,sha256=Ku8LBDUGp4w1LZJ3L3ozpXWq_3cZMShbUzFgN0wkJJE,1976
+patronx/tasks.py,sha256=KSCWNyE1sKQnd5vpAE2iGlmlhmh0NjL2qmgkz3rktNw,2178
+patronx-1.2.0.dist-info/licenses/LICENSE,sha256=ODCQIwDeC7EK6OX3waV6SmXZgFO_c72PPCqKlKzUSmU,1491
+patronx-1.2.0.dist-info/METADATA,sha256=3tewctghwT7ZffboZC7glCGelSHbb5ihBOX8hFzPBIo,2611
+patronx-1.2.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+patronx-1.2.0.dist-info/entry_points.txt,sha256=YM7rsys0X-taeKYduTp-C_MC1ZGt1Vfmu0R-tt2324c,45
+patronx-1.2.0.dist-info/top_level.txt,sha256=rc7v010UiaGICBNqUGhhx7bCnsMbWXxzBRa2NOwEdjw,8
+patronx-1.2.0.dist-info/RECORD,,
