@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+tests/test_comic.py
+tests/test_what_if.py
+xkcd/__init__.py
+xkcd/comic.py
+xkcd/what_if.py
+xkcd.py.egg-info/PKG-INFO
+xkcd.py.egg-info/SOURCES.txt
+xkcd.py.egg-info/dependency_links.txt
+xkcd.py.egg-info/requires.txt
+xkcd.py.egg-info/top_level.txt
