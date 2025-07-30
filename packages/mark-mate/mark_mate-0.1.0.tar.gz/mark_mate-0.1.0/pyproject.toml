@@ -1,0 +1,121 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mark-mate"
+version = "0.1.0"
+description = "Your AI Teaching Assistant for Assignments and Assessment"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "MarkMate Development Team", email = "dev@markmate.ai"}
+]
+keywords = ["education", "grading", "ai", "assessment", "teaching", "automated-grading"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = [
+    # Document processing
+    "PyPDF2>=3.0.0",
+    "python-docx>=0.8.11",
+    "markdown>=3.4.0",
+    "nbconvert>=7.16.0",
+    
+    # Office documents
+    "python-pptx>=0.6.21",
+    "openpyxl>=3.1.0",
+    "pandas>=2.0.0",
+    
+    # Code analysis
+    "flake8>=6.0.0",
+    "pylint>=3.0.0",
+    "mypy>=1.5.0",
+    
+    # Web validation
+    "beautifulsoup4>=4.12.0",
+    "html5lib>=1.1",
+    "cssutils>=2.11.0",
+    "lxml>=4.9.0",
+    "requests>=2.31.0",
+    
+    # LLM API clients
+    "anthropic>=0.34.0",
+    "openai>=1.84.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.5.0",
+    "coverage>=7.0.0",
+]
+docs = [
+    "sphinx>=5.0.0",
+    "sphinx-rtd-theme>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/markmate-ai/mark-mate"
+Documentation = "https://mark-mate.readthedocs.io"
+Repository = "https://github.com/markmate-ai/mark-mate"
+"Bug Reports" = "https://github.com/markmate-ai/mark-mate/issues"
+
+[project.scripts]
+mark-mate = "mark_mate.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mark_mate = ["config/*.json", "templates/*.txt"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+exclude = [".git", "__pycache__", "build", "dist", ".venv"]
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
