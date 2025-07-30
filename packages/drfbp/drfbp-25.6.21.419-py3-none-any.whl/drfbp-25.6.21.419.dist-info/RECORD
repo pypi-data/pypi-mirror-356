@@ -1,0 +1,13 @@
+drfbp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfbp/apps.py,sha256=xDHEbDQh8BVoziX5D3-XNzlDlOC4UlazuNsC0W269oY,142
+drfbp/models.py,sha256=20Fxbygd6_LQmto1gBV5_NnxeEFAOsmOz1tVpXpTbss,691
+drfbp/utils.py,sha256=fJJBS2PvsVgCdMl_OfZtTy8PIwhF5nM-eT3kOIhOqZ0,511
+drfbp/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfbp/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drfbp/management/commands/crud.py,sha256=HxXVQxa1l-RiyPPA1S6zP92n00ev6hO-Q16b8jsqS6s,4107
+drfbp/management/commands/settings.py,sha256=oanuWjuiMUcoVlh_D1qOO3jAPanxNO6A1dqu_hnmrqk,8060
+drfbp-25.6.21.419.dist-info/licenses/LICENSE.txt,sha256=Mp8meCYHu4w89v6HHM3va-iOYO5aqitT7BaDjA6F2eo,1071
+drfbp-25.6.21.419.dist-info/METADATA,sha256=GCWYyNWzQlWXCiVOG41nHy6NlPRnYOwE_-Hch7ffytA,4176
+drfbp-25.6.21.419.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+drfbp-25.6.21.419.dist-info/top_level.txt,sha256=3bu6AqA39R3SqT00synq7QBIRXgw3T15cwj1ChXG_X4,6
+drfbp-25.6.21.419.dist-info/RECORD,,
