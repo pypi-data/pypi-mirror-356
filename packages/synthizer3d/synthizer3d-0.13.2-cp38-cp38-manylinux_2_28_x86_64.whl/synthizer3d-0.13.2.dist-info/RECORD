@@ -1,0 +1,15 @@
+synthizer3d.libs/libmvec-2-06864e43.28.so,sha256=dz6dCq7_msHUi2Ieyq20NzG8QJWNweMXjxScNAOadFs,181969
+synthizer/synthizer.pyi,sha256=TYVkcvxEKG6_AyfVcGdvv71gSywYfW5ZzDSpOH19Mf8,9947
+synthizer/__init__.pyi,sha256=7VmwHz49aBI2lio1tDX0Mylte_d5u7wNIjZ-Sk4IvSw,26
+synthizer/synthizer.pxd,sha256=YZKqr3hME2C-41_wr57ziY01CvuT2hdvwMZxJ5y7T_U,12546
+synthizer/synthizer.pyx,sha256=mTmbPwsLRCr9OF0z1HqVfEl8EQB1SMs0L2E2BXyjC7c,46959
+synthizer/__init__.py,sha256=sNm4zsvxlcS2QPwJDQ34-ue73j7bUdivwqmNr0FkOJU,24
+synthizer/synthizer.cpp,sha256=6FVHyVpU5edicSmKVJiLNhjvWnKIFo3zFnd_4gm9y5U,3259201
+synthizer/synthizer.cpython-38-x86_64-linux-gnu.so,sha256=CFkJjePDWAmgfaIJT_NYuthBFnPN2zXvBVBROvldjYc,6032417
+synthizer/synthizer_constants.pxd,sha256=qcdCKmhizMNj2nHBkxoXkV8S1RFRxRvMtANtjLnLY4I,3088
+synthizer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synthizer3d-0.13.2.dist-info/top_level.txt,sha256=m2xPSeP0zNAKGft5xscAjEySJL0Mmztz0pm6NUHJUEc,10
+synthizer3d-0.13.2.dist-info/RECORD,,
+synthizer3d-0.13.2.dist-info/METADATA,sha256=GbeKwyheYVXqvX4-IKuSM1U0fDLkw_zDYOL3nVjH75U,513
+synthizer3d-0.13.2.dist-info/WHEEL,sha256=4bDjsNqNiwr2G2bLNR18ftAr5l4l03O656kYhb6U22c,111
+synthizer3d-0.13.2.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
