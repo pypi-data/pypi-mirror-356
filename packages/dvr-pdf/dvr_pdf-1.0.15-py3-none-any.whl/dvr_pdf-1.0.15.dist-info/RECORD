@@ -1,0 +1,13 @@
+dvr_pdf/__init__.py,sha256=QTeQHB_ZnRyeFG9bRpLdm6RPXa9PKUz_XsB240f2uKQ,163
+dvr_pdf/pdf_generator.py,sha256=KaanJnR-pW7h9zL8ODGQCDvTrIdHuUnyeRY5cO7y0J8,33394
+dvr_pdf/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvr_pdf/util/constants.py,sha256=G7Igu6p6xl6GoGymfGgmQ6Ku02278J1JvVhoZ-J1Hag,18
+dvr_pdf/util/custom_paragraph.py,sha256=RB07koonHTBBUy3U_7ec3qy939EjEgbzWLjBrrGEWiA,2572
+dvr_pdf/util/enums.py,sha256=lZB2DdS9X3eQZsUqKq8Ej5K1BZQqJa1k-5uPJb5fTH0,1558
+dvr_pdf/util/typing.py,sha256=HmvLwHkAXVWfg73gPkhFEqenFDIM9Bu8eCGiCDtQosE,3788
+dvr_pdf/util/util.py,sha256=VwZTILKumSbTTldVzi8LnufKZ5pKLS6aH8ACS2jarHk,2533
+dvr_pdf-1.0.15.dist-info/licenses/LICENSE,sha256=bM40_RkEOr3BYHPrHRlz37Ckw4pD7-7FVStiwZHlOZA,1522
+dvr_pdf-1.0.15.dist-info/METADATA,sha256=2Mf6KYQQJCRKGImwcxsw1dF9V8xZuE2_GJtvqiw94V4,983
+dvr_pdf-1.0.15.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+dvr_pdf-1.0.15.dist-info/top_level.txt,sha256=3a_EFh1fhrNta62FFD58y5IcHUujpig2Qda2xF-wDBg,8
+dvr_pdf-1.0.15.dist-info/RECORD,,

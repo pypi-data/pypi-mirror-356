@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: dvr_pdf
+Version: 1.0.15
+Summary: DvRD PDF generator
+Author-email: Dave van Rijn Development <develop@davevanrijn.nl>
+License-Expression: MIT
+Keywords: PDF,generator
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic>=2.11.4
+Requires-Dist: reportlab==4.4.1
+Dynamic: license-file
+
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
