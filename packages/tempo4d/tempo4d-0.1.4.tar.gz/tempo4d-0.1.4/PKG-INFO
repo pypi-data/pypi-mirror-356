@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: tempo4d
+Version: 0.1.4
+Summary: A 4D-STEM and diffraction data processing pipeline using ML object detection
+Author-email: Arda Genc <ardagenc@ucsb.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/ArdaGen/Neural-Object-Detection-4D-STEM
+Keywords: 4D-STEM,diffraction,TEM,electron microscopy,object detection,YOLOv8,machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: notebook
+Requires-Dist: ultralytics
+Requires-Dist: h5py
+Requires-Dist: opencv-python
+Requires-Dist: PyQt5
+Requires-Dist: pyqtgraph
+Requires-Dist: matplotlib
+Requires-Dist: rosettasciio[all]
+
+
+# tempo4d
+
+A PyTorch-based 4D-STEM analysis toolkit with real-time visualization, diffraction processing, and YOLOv8 integration.
