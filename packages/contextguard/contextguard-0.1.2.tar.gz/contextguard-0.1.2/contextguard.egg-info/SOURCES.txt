@@ -1,0 +1,10 @@
+README.md
+setup.py
+contextguard/__init__.py
+contextguard/core.py
+contextguard.egg-info/PKG-INFO
+contextguard.egg-info/SOURCES.txt
+contextguard.egg-info/dependency_links.txt
+contextguard.egg-info/requires.txt
+contextguard.egg-info/top_level.txt
+tests/test_contextguard.py
