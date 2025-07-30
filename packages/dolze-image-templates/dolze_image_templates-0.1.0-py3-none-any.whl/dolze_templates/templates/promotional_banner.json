@@ -1,0 +1,115 @@
+{
+  "name": "promotional_banner",
+  "description": "Clean minimal business template with central alignment and creative design elements",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": [255, 255, 255],
+      "outline_color": null
+    },
+    {
+      "type": "circle",
+      "position": { "x": 2600, "y": -400 },
+      "radius": 950,
+      "fill_color": [239, 230, 250],
+      "outline_color": [255, 255, 255],
+      "outline_width": 4
+    },
+    {
+      "type": "circle",
+      "position": { "x": 100, "y": 2560 },
+      "radius": 830,
+      "fill_color": [255, 230, 240],
+      "outline_color": [255, 255, 255],
+      "outline_width": 4
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 190, "y": 140 },
+      "size": { "width": 240, "height": 240 }
+    },
+    {
+      "type": "text",
+      "text": "${heading}",
+      "position": { "x": 570, "y": 280 },
+      "font_size": 170,
+      "color": [50, 50, 50],
+      "font_path": "Roboto-Bold",
+      "alignment": "center",
+      "max_width": 1420
+    },
+    {
+      "type": "text",
+      "text": "${subheading}",
+      "position": { "x": 330, "y": 690 },
+      "font_size": 76,
+      "color": [100, 100, 100],
+      "font_path": "Roboto-Light",
+      "alignment": "center",
+      "max_width": 1900
+    },
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 690, "y": 950 },
+      "size": { "width": 1180, "height": 1180 },
+      "circle_crop": false
+    },
+    {
+      "type": "circle",
+      "position": { "x": 1140, "y": 2230 },
+      "radius": 24,
+      "fill_color": [128, 0, 128],
+      "outline_color": [255, 255, 255],
+      "outline_width": 4
+    },
+    {
+      "type": "circle",
+      "position": { "x": 1230, "y": 2230 },
+      "radius": 24,
+      "fill_color": [255, 100, 150],
+      "outline_color": [255, 255, 255],
+      "outline_width": 4
+    },
+    {
+      "type": "circle",
+      "position": { "x": 1320, "y": 2230 },
+      "radius": 24,
+      "fill_color": [128, 0, 128],
+      "outline_color": [255, 255, 255],
+      "outline_width": 4
+    },
+    {
+      "type": "text",
+      "text": "${contact_email}",
+      "position": { "x": 570, "y": 2300 },
+      "font_size": 66,
+      "color": [100, 100, 100],
+      "font_path": "Roboto-Light",
+      "alignment": "center"
+    },
+    {
+      "type": "text",
+      "text": "${contact_phone}",
+      "position": { "x": 1300, "y": 2300 },
+      "font_size": 66,
+      "color": [100, 100, 100],
+      "font_path": "Roboto-Light",
+      "alignment": "center"
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 1040, "y": 2420 },
+      "font_size": 66,
+      "color": [128, 0, 128],
+      "font_path": "Roboto-Medium",
+      "alignment": "center"
+    }
+  ]
+}

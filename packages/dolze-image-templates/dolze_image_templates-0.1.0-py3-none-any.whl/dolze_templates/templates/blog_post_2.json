@@ -1,0 +1,68 @@
+{
+  "name": "blog_post_2",
+  "description": "Clean blog post template with featured image and metadata matching the reference design",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": [255, 255, 255, 1],
+      "outline_color": null
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 171, "y": 350 },
+      "size": { "width": 1919, "height": 1748 },
+      "fill_color": "${theme_color}",
+      "outline_color": null,
+      "border_radius": 80
+    },
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 171, "y": 350 },
+      "size": { "width": 1919, "height": 1067 },
+      "border_width": 90,
+      "border_color": [0, 0, 0, 0],
+      "border_radius": 150
+    },
+    {
+      "type": "text",
+      "text": "${title}",
+      "position": { "x": 256, "y": 1451 },
+      "font_size": 102,
+      "color": [52, 64, 84, 1],
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 1919,
+      "line_height": 1.2
+    },
+    {
+      "type": "text",
+      "text": "by ${author} • ${read_time} min",
+      "position": { "x": 256, "y": 1877 },
+      "font_size": 68,
+      "color": [102, 102, 103, 1],
+      "font_path": "Outfit-Regular",
+      "alignment": "left"
+    },
+    {
+      "type": "text",
+      "text": "Read now at ${website_url}",
+      "position": { "x": 181, "y": 2400 },
+      "font_size": 77,
+      "color": "#11111",
+      "font_path": "Outfit-Medium",
+      "alignment": "left"
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 131, "y": 131 },
+      "size": { "width": 171, "height": 171 },
+      "circle_crop": true
+    }
+  ]
+}
