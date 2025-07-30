@@ -1,0 +1,139 @@
+Metadata-Version: 2.4
+Name: sweer
+Version: 1.0.0.dev5
+Summary: ACI for websites
+Author-email: SWE-bench team <support@swebench.com>
+License: MIT License
+        
+        Copyright (c) 2024 Kilian Lieret, Carlos E. Jimenez
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: nlp,agents,code
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: flask
+Requires-Dist: playwright
+Requires-Dist: requests
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Dynamic: license-file
+
+# SWEer
+
+## Dev setup
+
+```bash
+pip install -e '.[dev]'
+pre-commit install
+pytest
+```
+
+## Usage
+
+First, start the backend
+
+```bash
+sweer-backend
+```
+
+Next, start running commands
+
+```bash
+# If argument is an existing local path, will try to open local file instead
+sweer open theguardian.com
+sweer screenshot
+sweer click 0
+```
+
+## Configuration
+
+SWEer can be configured using environment variables:
+
+### Browser Configuration
+
+You can configure which browser backend to use:
+
+```bash
+# Use Firefox instead of the default Chromium
+export SWEER_BROWSER_TYPE="firefox"
+sweer-backend
+
+# Use Chromium (default)
+export SWEER_BROWSER_TYPE="chromium"
+sweer-backend
+```
+
+Supported browser types:
+- `chromium` (default) - Uses Chromium browser
+- `firefox` - Uses Firefox browser
+
+#### Custom Browser Executable Paths
+
+You can specify custom installations of browsers instead of using Playwright's default bundled browsers:
+
+```bash
+# Use a custom Chromium installation
+export SWEER_CHROMIUM_EXECUTABLE_PATH="/usr/bin/chromium-browser"
+export SWEER_BROWSER_TYPE="chromium"
+sweer-backend
+
+# Use a custom Firefox installation
+export SWEER_FIREFOX_EXECUTABLE_PATH="/usr/bin/firefox"
+export SWEER_BROWSER_TYPE="firefox"
+sweer-backend
+```
+
+This is useful when:
+- You want to use a system-installed browser instead of Playwright's bundled version
+- You need to use a specific browser version
+- You want to use a browser with custom configurations or extensions pre-installed
+- You're working in an environment where Playwright's bundled browsers aren't available
+
+### Other Configuration Options
+
+```bash
+# Enable automatic screenshotting after each action
+export SWEER_AUTOSCREENSHOT="1"
+
+# Configure window size
+export SWEER_WINDOW_WIDTH="1280"
+export SWEER_WINDOW_HEIGHT="720"
+
+# Run browser in headed mode (visible window)
+export SWEER_HEADLESS="0"
+
+# Change screenshot delay (in seconds)
+export SWEER_SCREENSHOT_DELAY="0.5"
+```
+
+If navigating a lot, you can activate automatic screenshotting with
+
+```bash
+export SWEER_AUTOSCREENSHOT="1"
+```

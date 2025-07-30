@@ -1,0 +1,3 @@
+[console_scripts]
+sweer = sweer.client:main
+sweer-backend = sweer.server:main
