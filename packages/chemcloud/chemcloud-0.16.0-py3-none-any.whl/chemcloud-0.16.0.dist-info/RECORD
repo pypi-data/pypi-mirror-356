@@ -1,0 +1,11 @@
+chemcloud/__init__.py,sha256=rNzD-hxjixX83Wnxvi_xxBiXZ6E4jJ_f07OaFOcgv1Q,4195
+chemcloud/client.py,sha256=tt3VwNxSkJIygI1tqbrHNJnG-VmhSiqPAB1USNlw_BY,14055
+chemcloud/config.py,sha256=9F-eODdbcESFWqsjlAkULLl5mDPSdozEepEIhFHUNow,967
+chemcloud/exceptions.py,sha256=uqt5eZU6-59xHjcbrvfACz0AYiaSz1kheh0GzUm0piw,326
+chemcloud/http_client.py,sha256=vz_xy2WVqMn_EKaHJlR3tWJkldsCfCCeMBOCJWMKAH0,14816
+chemcloud/models.py,sha256=4ZZx6O0c0ncpqL3LdLjz7NX-zJiFB_pv77v7P6_LFsc,15527
+chemcloud/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemcloud-0.16.0.dist-info/LICENSE,sha256=2U6Q_LesW51Jy-va7TZUineBanmxGyBUvxMUTMbgbRk,1079
+chemcloud-0.16.0.dist-info/METADATA,sha256=K6jL4n2JUCRJAU-iSiHozQn7xhnGE4_9dmrI6LSYcIw,8581
+chemcloud-0.16.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+chemcloud-0.16.0.dist-info/RECORD,,
