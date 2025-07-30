@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+GPTScriptLang.egg-info/PKG-INFO
+GPTScriptLang.egg-info/SOURCES.txt
+GPTScriptLang.egg-info/dependency_links.txt
+GPTScriptLang.egg-info/entry_points.txt
+GPTScriptLang.egg-info/requires.txt
+GPTScriptLang.egg-info/top_level.txt
+gptscriptlang/cli.py

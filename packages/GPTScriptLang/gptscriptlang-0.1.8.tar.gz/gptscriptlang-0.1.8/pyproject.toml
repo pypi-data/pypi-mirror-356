@@ -1,0 +1,14 @@
+[project]
+name = "GPTScriptLang"
+version = "0.1.8"
+description = "GPTScript - The LLM scripting language"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = ["requests"]
+
+[project.scripts]
+gptscript = "gptscriptlang.cli:main"
+
+[project.urls]
+Documentation = "https://gptscript.readthedocs.io/en/latest/"

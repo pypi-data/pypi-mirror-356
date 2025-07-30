@@ -1,0 +1,38 @@
+GPTScript is a minimal scripting language that looks like polite chatbot dialogue. It supports basic features like variables, printing, functions, and HTTP requests.
+
+## Installation
+
+```bash
+pip install GPTScriptLang
+```
+
+## Usage
+
+Run a `.gpt` file like this:
+
+```bash
+gptscript path/to/file.gpt
+```
+
+## Example
+
+```
+Hello, how can I assist you today?
+
+Let me store the number 42 as answer.
+
+Now, let's kindly display: answer
+
+Thank you for your patience.
+```
+
+## Features
+
+* Numbers and text assignment
+* Print statements
+* HTTP GET and POST
+* Function definitions and calls
+
+## License
+
+MIT
