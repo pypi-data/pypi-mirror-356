@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: Metro2D
+Version: 1.0.1
+Summary: Package for Raman TMD data processing and visualization
+Author-email: Thibaut Meyer <thibaut.meyer3@gmail.com>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/thi-mey/Raman2D
+Keywords: Metrology,MoS2,2D
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pl2d
+Requires-Dist: semapp
+Requires-Dist: raman2d
+Requires-Dist: xrf2d
+Dynamic: license-file
