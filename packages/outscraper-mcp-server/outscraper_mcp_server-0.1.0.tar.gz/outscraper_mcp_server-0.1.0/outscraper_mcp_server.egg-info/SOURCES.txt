@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+outscraper_mcp_server/__init__.py
+outscraper_mcp_server/__main__.py
+outscraper_mcp_server/server.py
+outscraper_mcp_server.egg-info/PKG-INFO
+outscraper_mcp_server.egg-info/SOURCES.txt
+outscraper_mcp_server.egg-info/dependency_links.txt
+outscraper_mcp_server.egg-info/entry_points.txt
+outscraper_mcp_server.egg-info/requires.txt
+outscraper_mcp_server.egg-info/top_level.txt
+tests/test_initialization.py
+tests/test_server.py
