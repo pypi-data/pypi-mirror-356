@@ -1,0 +1,2 @@
+[console_scripts]
+pyread_swift = scripts.cli:main
