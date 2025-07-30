@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: image-enhancer-vc
+Version: 0.1.0
+Summary: A deep learning-powered image enhancement library using Real-ESRGAN and GPFGAN
+Author: Ahalya
+Author-email: innamuriahalya1234@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch ==1.11.0
+Requires-Dist: opencv-python >=4.5.0
+Requires-Dist: torchvision ==0.12.0
+Requires-Dist: numpy <2.0,>=1.19.0
+Requires-Dist: Pillow >=9.0.0
+Requires-Dist: basicsr >=1.4.2
+Requires-Dist: realesrgan >=0.3.0
+Requires-Dist: gfpgan >=1.3.8
+Requires-Dist: urllib3 <2.0
+
+#image-enhancer-vc
+
+
+A deep learning–based image enhancement library built using **Real-ESRGAN** for super-resolution and **GFPGAN** for face restoration. 
+It also performs image validation and blurriness detection before enhancement.
+
+## Features
+
+-  Super-resolution with Real-ESRGAN
+-  Face enhancement with GFPGAN
+-  Blurriness detection using Laplacian variance
+-  Image validation (file format and integrity)
+-  Saves enhanced output automatically
+
+## Installation
+
+'''bash
+pip install image-enhancer-vc
