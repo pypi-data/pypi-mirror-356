@@ -1,0 +1,178 @@
+Metadata-Version: 2.4
+Name: prs-commons
+Version: 0.1.0
+Summary: Common utilities and shared code for PRS microservices
+Author-email: Isha Foundation IT <it@ishafoundation.org>
+License: MIT
+Project-URL: Homepage, https://github.com/IshaFoundationIT/prs-facade-common
+Project-URL: Documentation, https://github.com/IshaFoundationIT/prs-facade-common#readme
+Project-URL: Issues, https://github.com/IshaFoundationIT/prs-facade-common/issues
+Project-URL: Source, https://github.com/IshaFoundationIT/prs-facade-common
+Project-URL: Repository, https://github.com/IshaFoundationIT/prs-facade-common
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: odoorpc>=0.9.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.0; extra == "dev"
+Requires-Dist: mypy>=0.950; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: pre-commit>=2.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=5.0.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=1.0.0; extra == "docs"
+Requires-Dist: myst-parser>=0.18.0; extra == "docs"
+Dynamic: license-file
+
+# PRS Commons
+
+A Python library containing common utilities and shared code for PRS microservices.
+
+## Installation
+
+### From Source (Development)
+
+For development, clone and install in editable mode:
+
+```bash
+git clone https://<token>@github.com/IshaFoundationIT/prs-facade-common.git
+cd prs-facade-common
+pip install -e ".[dev]"  # Install with development dependencies
+```
+
+### From Private Package Repository
+
+Add your private package repository to pip configuration and install:
+
+```bash
+# Configure pip to use your private repository
+pip config set global.extra-index-url https://your.private.registry.com/simple/
+
+# Install the package
+pip install prs-commons
+```
+
+## Usage
+
+```python
+from prs_commons import MyClass
+
+# Create an instance
+obj = MyClass("User")
+
+# Use the instance
+print(obj.greet())  # Output: Hello, User!
+
+# Get version
+print(f"Library version: {MyClass.version()}")
+```
+
+## Development
+
+### Prerequisites
+
+- Python 3.11+
+- [Poetry](https://python-poetry.org/) (recommended) or pip
+
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://<token>@github.com/IshaFoundationIT/prs-facade-common.git
+   cd prs-facade-common
+   ```
+
+2. Install dependencies:
+   ```bash
+   # Using Poetry
+   poetry install --with dev
+
+   # Or using pip
+   pip install -e ".[dev]"
+   ```
+
+3. Install pre-commit hooks:
+   ```bash
+   pre-commit install
+   ```
+
+### Running Tests
+
+```bash
+# Run all tests
+pytest
+
+# Run with coverage report
+pytest --cov=prs_commons --cov-report=term-missing
+```
+
+## Publishing New Versions
+
+### Prerequisites
+
+1. Set up your `~/.pypirc` file with your GitHub token:
+   ```ini
+   [distutils]
+   index-servers =
+       github
+
+   [github]
+   repository = https://upload.pypi.org/legacy/
+   username = __token__
+   password = your_github_token_here
+   ```
+
+   Replace `your_github_token_here` with a GitHub Personal Access Token with `write:packages` scope.
+
+2. Update the version in `pyproject.toml`
+
+3. Build the package:
+   ```bash
+   python -m build
+   ```
+
+4. Publish to GitHub Package Registry:
+   ```bash
+   python -m twine upload --repository github dist/*
+   ```
+
+### Installing from GitHub Package Registry
+
+1. Create a personal access token with `read:packages` scope
+2. Configure pip to use your token:
+   ```bash
+   pip install --index-url https://USERNAME:TOKEN@pkgs.dev.azure.com/ORGANIZATION/PROJECT/_packaging/REPOSITORY/pypi/simple/ --no-deps PACKAGE_NAME
+   ```
+
+   Or add to your `pip.conf`:
+   ```ini
+   [global]
+   extra-index-url = https://USERNAME:TOKEN@pkgs.dev.azure.com/ORGANIZATION/PROJECT/_packaging/REPOSITORY/pypi/simple/
+   ```
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Run tests and pre-commit checks
+4. Submit a pull request
+
+## License
+
+MIT
