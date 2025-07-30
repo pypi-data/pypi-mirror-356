@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikshantnetvoice"
+version = "0.2.1"
+authors = [
+    {name="Dikshant Ghimire", email="dikkughimire@email.com"},
+]
+description = "Offline voice-controlled networking toolkit"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "vosk",
+    "pyaudio",
+    "netifaces",
+    "python-nmap"
+]
+
+[project.optional-dependencies]
+windows = ["pywin32"]
+linux = ["networkmanager"]
+
+[project.urls]
+Homepage = "https://github.com/dikshantgh/dikshantnetvoice"

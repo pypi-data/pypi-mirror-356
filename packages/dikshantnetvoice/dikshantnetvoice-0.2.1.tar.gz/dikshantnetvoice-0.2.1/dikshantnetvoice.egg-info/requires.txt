@@ -1,0 +1,10 @@
+vosk
+pyaudio
+netifaces
+python-nmap
+
+[linux]
+networkmanager
+
+[windows]
+pywin32

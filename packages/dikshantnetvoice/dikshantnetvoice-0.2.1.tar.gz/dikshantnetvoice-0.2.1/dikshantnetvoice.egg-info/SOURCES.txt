@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+dikshantnetvoice/__init__.py
+dikshantnetvoice/commands.py
+dikshantnetvoice/utils.py
+dikshantnetvoice/voice_engine.py
+dikshantnetvoice.egg-info/PKG-INFO
+dikshantnetvoice.egg-info/SOURCES.txt
+dikshantnetvoice.egg-info/dependency_links.txt
+dikshantnetvoice.egg-info/requires.txt
+dikshantnetvoice.egg-info/top_level.txt
+tests/test_commands.py
+tests/test_voice.py
