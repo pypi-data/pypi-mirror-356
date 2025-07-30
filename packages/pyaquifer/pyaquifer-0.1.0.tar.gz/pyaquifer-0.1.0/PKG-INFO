@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: pyaquifer
+Version: 0.1.0
+Summary: A high-level library to simplify data operations on AWS data lakes.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: boto3
+Requires-Dist: pyiceberg
+Requires-Dist: gc
+Requires-Dist: polars
+Requires-Dist: duckdb
+Dynamic: license-file
+
+# pyaquifer
+
+[![PyPI](https://img.shields.io/pypi/v/pyaquifer.svg)]() [![Build Status](https://img.shields.io/github/actions/workflow/status/yourorg/pyaquifer/ci.yml)]()
+
+**pyaquifer** makes it trivial to read & write AWS S3-Tables Iceberg catalogs using Pandas (and soon Polars/DuckDB).
+
+## Features
+
+- 🔗 Native Iceberg REST integration  
+- 🐼 Pandas connector (plus Polars & DuckDB planned)  
+- ⚙️ Simple `JobConfig` for bucket/namespace selection  
+- 📦 Read, transform, write in 5 lines of code  
+
+## Installation
+
+```bash
+pip install pyaquifer[dev]
