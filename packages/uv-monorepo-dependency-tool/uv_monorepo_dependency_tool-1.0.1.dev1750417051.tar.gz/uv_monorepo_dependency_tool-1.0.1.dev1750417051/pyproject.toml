@@ -1,0 +1,44 @@
+[project]
+name = "uv-monorepo-dependency-tool"
+version = "1.0.1.dev1750417051"
+description = "A uv tool for facilitating the usage of more complex monorepo project structures by pinning version dependencies when building archives with local path dependencies to other uv projects within the same monorepo."
+readme = "README.md"
+authors = [
+    { name = "Margaret Black", email = "black_margaret@bah.com" }
+]
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.1.8",
+    "toml>=0.10.2",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+uv-monorepo-dependency-tool = "uv_monorepo_dependency_tool.cli:cli"
+
+# Added by habushu-maven-plugin at 2025-03-11T09:17:59.022658 to use https://pypi.org/simple/ as source PyPi repository for installing dependencies
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple/"
+
+[tool.ruff.format]
+indent-style="space"
+line-ending="lf"
+quote-style="preserve"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]

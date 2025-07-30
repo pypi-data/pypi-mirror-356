@@ -1,0 +1,6 @@
+This is NOT the file you are looking for!
+
+To take advantage of the Maven Reactor, we want to publish pom files for this artifact.
+But Maven isn't the right solution for managing Python dependencies.
+
+Please check your appropriate Python repository for the uv-monorepo-dependency-tool files instead!
