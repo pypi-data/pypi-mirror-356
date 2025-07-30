@@ -1,0 +1,5 @@
+[console_scripts]
+sms-broker = sms_broker.cli:cli_app
+
+[gui_scripts]
+
