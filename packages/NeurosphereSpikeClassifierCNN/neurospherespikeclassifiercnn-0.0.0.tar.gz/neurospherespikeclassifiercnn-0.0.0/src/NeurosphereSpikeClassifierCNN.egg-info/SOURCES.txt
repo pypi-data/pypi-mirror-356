@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/NeurosphereClassifier/__init__.py
+src/NeurosphereClassifier/dataset.py
+src/NeurosphereClassifier/model.py
+src/NeurosphereClassifier/plot.py
+src/NeurosphereClassifier/utils.py
+src/NeurosphereSpikeClassifierCNN.egg-info/PKG-INFO
+src/NeurosphereSpikeClassifierCNN.egg-info/SOURCES.txt
+src/NeurosphereSpikeClassifierCNN.egg-info/dependency_links.txt
+src/NeurosphereSpikeClassifierCNN.egg-info/requires.txt
+src/NeurosphereSpikeClassifierCNN.egg-info/top_level.txt

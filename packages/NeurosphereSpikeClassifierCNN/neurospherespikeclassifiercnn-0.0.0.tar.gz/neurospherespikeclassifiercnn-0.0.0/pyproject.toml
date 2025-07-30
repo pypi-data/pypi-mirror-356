@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NeurosphereSpikeClassifierCNN"
+version = "0.0.0"
+dependencies = [
+  "keras==2.10.0",
+  "matplotlib==3.10.1",
+  "numpy==1.26.4",
+  "pandas==2.2.3",
+  "scikit-learn==1.6.1",
+  "tensorflow==2.10.0"
+]
+
+authors = [
+  { name="Ylan A. CLODINE-FLORENT", email="clodine-florent.ylan@outlook.com" },
+]
+
+maintainers = [
+  {name = "Tissue Engineering Group - HEPIA", email = "adrien.roux@hesge.ch"}
+]
+
+description = "CNN Model for neural spike classification"
+readme = "README.md"
+requires-python = ">=3.10.13"
+
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+]
+
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

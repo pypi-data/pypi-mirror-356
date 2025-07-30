@@ -1,0 +1,184 @@
+Metadata-Version: 2.4
+Name: NeurosphereSpikeClassifierCNN
+Version: 0.0.0
+Summary: CNN Model for neural spike classification
+Author-email: "Ylan A. CLODINE-FLORENT" <clodine-florent.ylan@outlook.com>
+Maintainer-email: Tissue Engineering Group - HEPIA <adrien.roux@hesge.ch>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Requires-Python: >=3.10.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keras==2.10.0
+Requires-Dist: matplotlib==3.10.1
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.3
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: tensorflow==2.10.0
+Dynamic: license-file
+
+# Neurosphere Spike Classifier
+
+## Description
+CNN Model for neural spike classification.
+
+## Prerequisites
+* Python version `Python>=3.10.13`
+* Conda version `conda 25.1.1`
+
+Note : Developed using Miniconda3. Not tested on `Linux` and `Mac`.
+
+
+## Installation
+
+Windows:
+```
+pip install NeurosphereSpikeClassifierCNN
+```
+
+## Usage examples
+
+Note concerning the input data :
+
+The input data represent a waveform vector of 75 microvoltage values (positive or negative), where each value has been acquired at a 25kHz sampling rate (i.e. 1 point every 40us; equivalent to 3ms for each waveform). Each waveform have their maximum amplitude located at 0.96ms before (i.e. 24 samples) and 2 ms after (i.e. 50 samples). If the maximum amplitude is not centered, the model will classify the waveform as noise, unless retrained using the `model.rectify()` function.
+
+input data requirements :
+* Input data must be an array of shape `(1,75)` for the model to work.
+* A `.csv` file where each row is an array of shape `(1,75)` must be used. Otherwise, the array can also be created within the code.
+
+
+### Example 1 : Waveform classification
+```py
+from NeurosphereClassifier.model import ModelClassifier
+from NeurosphereClassifier.dataset import load_dataset
+from NeurosphereClassifier.utils import split_by_phase, split_by_labels
+
+# create a model instance (create one for each analysis to avoid overriding data)
+model = ModelClassifier(r"path/to/model", "model.keras")
+
+# load unlabeled dataset
+columns = load_dataset(r"filepath/to/unlabeled_dataset.csv")
+waveforms = columns[0]
+
+# run classification
+model.predict(waveforms) # -> output : "model predictions.csv"
+
+# load predictions dataset
+pred_columns = load_dataset(r"path/to/model predictions.csv")
+waveforms = pred_columns[0] 
+predicted_labels = pred_columns[1]          # labels are [0,1] for signal, or [1,0] for noise
+predicted_labels_percent = pred_colums[2]   # labels represented as a probability, e.g. [0.20,0.80]
+
+# split predictions in two lists : "noise" and "signal" 
+noise, signal = split_by_labels(waveforms, predicted_labels)
+
+# split noise and signals by phase 
+positive_noise_waveforms, negative_noise_waveforms = split_by_phase(noise)
+positive_signal_waveforms, negative_signal_waveforms = split_by_phase(signal)
+
+# further data processing (e.g. PCA, clustering)
+# ...
+```
+
+### Example 2 : Assess model performances
+```py
+from NeurosphereClassifier.model import ModelClassifier
+from NeurosphereClassifier.dataset import load_dataset
+
+# create a model instance (create one for each analysis to avoid overriding data)
+model = ModelClassifier(r"path/to/model", "model.keras")
+
+# load labeled dataset
+columns = load_dataset(r"filepath/to/labeled_dataset.csv")
+waveforms = columns[0]
+labels = columns[1]
+
+# make a subset
+waveforms_subset = waveforms[0:100]
+
+# run classification
+model.predict(waveforms) # -> output : "model predictions.csv"
+
+# load predictions dataset
+pred_columns = load_dataset(r"path/to/model predictions.csv")
+predicted_labels = pred_columns[1]  
+
+# compare ratio of true and false positive rate
+model.auc(labels, predicted_labels) # -> output : plot of the AUC curve
+```
+
+### Example 3 : Debug model
+```py
+from NeurosphereClassifier.model import ModelClassifier
+from NeurosphereClassifier.dataset import load_dataset
+
+
+# create a model instance (create one for each analysis to avoid overriding data)
+model = ModelClassifier(r"path/to/model", "model.keras")
+
+# load dataset
+columns = load_dataset(r"filepath/to/dataset.csv")
+waveforms = columns[0]
+
+# visualize feature maps at the output of each convolutional layers
+model.saliency(waveforms) 
+
+# visualize model filters for each convolutional layers
+model.filters()
+```
+
+## Example 4 : Retrain weights under human supervision
+```py 
+from NeurosphereClassifier.model import ModelClassifier
+from NeurosphereClassifier.dataset import load_dataset
+
+# create a model instance (create one for each analysis to avoid overriding data)
+model = ModelClassifier(r"path/to/model", "model.keras")
+
+# load dataset
+columns = load_dataset(r"filepath/to/dataset.csv")
+waveforms = columns[0]
+
+# show the waveform, predict its category, manually update the label, retrain the weights 
+model.rectify(waveforms) # -> output : "model rectification.csv", "rectification.keras"
+```
+
+### Example 5 : Plot waveforms
+```py
+import matplotlib.pyplot as plt
+from NeurosphereClassifier.plot import plot_cutout_overlap, plot_cutout
+
+# load dataset
+columns = load_dataset(r"filepath/to/dataset.csv")
+waveforms = columns[0]
+positive_wf, negative_wf = split_by_phase(waveforms)
+
+# plot every waveforms
+fig, (ax1, ax2) = plt.subplots(2)
+plot_cutout_overlap(ax1, positive_wf)
+plot_cutout_overlap(ax2, negative_wf)
+
+# plot a single waveform
+plot_cutout(waveforms[0])
+```
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+* [Tissue Engineering Group - HEPIA](https://www.hesge.ch/hepia/en/group/bioengineering)
+
+## Contact
+
+Laboratory contact | <adrien.roux@hesge.ch>.
+
+## License
+
+This project uses the following license: [GPLv3](<https://www.gnu.org/licenses/gpl-3.0.html>).
