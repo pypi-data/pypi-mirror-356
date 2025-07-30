@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: Avalara.SDK
+Version: 25.6.0
+Summary: Avalara Unified SDK
+Home-page: 
+Author: Jonathan Wenger
+Author-email: jonathan.wenger@avalara.com
+Keywords: OpenAPI,OpenAPI-Generator,Avalara Unified SDK
+Requires-Python: >=3.6
+Requires-Dist: urllib3>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic
+Requires-Dist: setuptools>=21.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+    SDK for Avalara Services for client use.   # noqa: E501
+    
