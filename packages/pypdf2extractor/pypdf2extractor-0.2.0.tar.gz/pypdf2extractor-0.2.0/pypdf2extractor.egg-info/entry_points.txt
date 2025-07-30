@@ -1,0 +1,2 @@
+[console_scripts]
+pypdf2extractor = pypdf2extractor.extractor:main

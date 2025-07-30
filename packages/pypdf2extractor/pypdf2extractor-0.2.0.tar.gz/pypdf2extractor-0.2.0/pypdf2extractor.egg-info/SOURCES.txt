@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pypdf2extractor/__init__.py
+pypdf2extractor/pypdf2extractor.py
+pypdf2extractor.egg-info/PKG-INFO
+pypdf2extractor.egg-info/SOURCES.txt
+pypdf2extractor.egg-info/dependency_links.txt
+pypdf2extractor.egg-info/entry_points.txt
+pypdf2extractor.egg-info/requires.txt
+pypdf2extractor.egg-info/top_level.txt
