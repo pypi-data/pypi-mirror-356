@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "app",
+        "E:\\mofine\\exts\\kit-exts-projectz1\\app",
+        "E:\\mofine2\\",
+        "E:\\mofine\\",
+        "./src/odyssey_omniversemcp"
+    ]
+}
