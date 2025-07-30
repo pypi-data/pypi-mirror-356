@@ -1,0 +1,1 @@
+"""The visual pulse programming module for quackseq in the NQRduck project."""
