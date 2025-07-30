@@ -1,0 +1,2 @@
+[console_scripts]
+tpg366-ioc = tpg366_ioc.main:main

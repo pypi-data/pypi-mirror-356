@@ -1,0 +1,16 @@
+.gitignore
+.gitlab-ci.yml
+COPYING.md
+Dockerfile
+README.md
+pyproject.toml
+src/tpg366_ioc/__init__.py
+src/tpg366_ioc/_version.py
+src/tpg366_ioc/main.py
+src/tpg366_ioc.egg-info/PKG-INFO
+src/tpg366_ioc.egg-info/SOURCES.txt
+src/tpg366_ioc.egg-info/dependency_links.txt
+src/tpg366_ioc.egg-info/entry_points.txt
+src/tpg366_ioc.egg-info/requires.txt
+src/tpg366_ioc.egg-info/top_level.txt
+test/no_test.py

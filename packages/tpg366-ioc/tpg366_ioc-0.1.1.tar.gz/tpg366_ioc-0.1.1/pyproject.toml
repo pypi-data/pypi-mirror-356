@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=64.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "tpg366-ioc"
+license = "GPL-3.0-or-later"
+license-files = [ "COPYING.md" ]
+authors = [
+    { name = "Florin Boariu", email = "florin.pt@rootshell.ro" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering"
+]
+dependencies = [
+    "caproto",
+    "numpy",
+    "pyvisa"
+]
+dynamic = ["version"]
+description = "Command-line client tools for EPICS-CA data processing"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+
+[project.urls]
+"Source Code" = "https://gitlab.com/kmc3-xpp/caspy"
+"Bug Tracker" = "https://gitlab.com/kmc3-xpp/caspy/-/issues"
+
+[project.optional-dependencies]
+all = [
+  "tpg366_ioc[test]"
+]
+test = [
+  "pytest",
+  "pytest-cov",
+  "pytest-asyncio"
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra"
+log_cli = true
+asyncio_mode = "auto"
+testpaths = [
+    "test",
+]
+
+[tool.setuptools_scm]
+write_to = "src/tpg366_ioc/_version.py"
+
+[project.scripts]
+tpg366-ioc = "tpg366_ioc.main:main"

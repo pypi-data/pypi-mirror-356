@@ -1,0 +1,11 @@
+caproto
+numpy
+pyvisa
+
+[all]
+tpg366_ioc[test]
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
