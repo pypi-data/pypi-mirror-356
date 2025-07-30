@@ -1,0 +1,10 @@
+{
+    "name": "${ECS_TASK_DEFINITION_NAME}",
+    "required_compatibilities": "${ECS_TASK_DEFINITION_REQUIRED_COMPATIBILITIES}",
+    "network_mode": "${ECS_TASK_DEFINITION_NETWORK_MODE}",
+    "cpu": "${ECS_TASK_DEFINITION_CPU}",
+    "memory": "${ECS_TASK_DEFINITION_MEMORY}",
+    "runtime_platform": "${ECS_TASK_DEFINITION_RUNTIME_PLATFORM}",
+    "task_execution_role": "${ECS_TASK_DEFINITION_TASK_EXECUTION_ROLE}",
+    "container_definitions": "${ECS_TASK_DEFINITION_CONTAINER_DEFINITIONS}"
+}
