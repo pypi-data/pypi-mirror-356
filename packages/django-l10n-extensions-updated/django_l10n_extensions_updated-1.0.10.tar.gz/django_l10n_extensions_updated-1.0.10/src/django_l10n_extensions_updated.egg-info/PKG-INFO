@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: django-l10n-extensions-updated
+Version: 1.0.10
+Summary: Extend Django with L10N features
+Home-page: https://github.com/iamjonmiller/django-l10n-extensions
+Author: Jon Miller
+Author-email: iamjonamiller@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=3.2.12
+Requires-Dist: polib>=1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# Django L10N extensions
+Django L10N extensions adds some useful L10N extensions to the Django framework. This version has been updated for Django 3 and 4 compatibility.
+
+The project is maintained on [gitHub](https://github.com/iamjonmiller/django-l10n-extensions) derived from the out of date [original package](https://github.com/ceasaro/django-l10n-extensions).
+
+[Read the docs](http://django-l10n-extensions.readthedocs.io)
