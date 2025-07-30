@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: alfinx_autho
+Version: 0.1.4
+Summary: HTTP headers auto detection tool.
+Author: Maharram Mansimov
+Author-email: maharram@example.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: summary
+
+# pypi_servis
