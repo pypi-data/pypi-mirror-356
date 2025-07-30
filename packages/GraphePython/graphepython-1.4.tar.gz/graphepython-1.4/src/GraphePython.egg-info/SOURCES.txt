@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/GraphePython/__init__.py
+src/GraphePython/utils.py
+src/GraphePython.egg-info/PKG-INFO
+src/GraphePython.egg-info/SOURCES.txt
+src/GraphePython.egg-info/dependency_links.txt
+src/GraphePython.egg-info/requires.txt
+src/GraphePython.egg-info/top_level.txt
+tests/test_GraphePython.py
