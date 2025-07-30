@@ -1,0 +1,15 @@
+_libxeddsa.pyd,sha256=KZPOs2E2ZRwZSSWPg2K-fwgT3Bce_AA8AS60wID9e1A,300544
+docs/conf.py,sha256=KtyfCgUb742H5dSQmlGPZmNI5izw1dcNvwIzu8J-OI0,3802
+libxeddsa/build.py,sha256=qR6QADz2XBozZNm8re18IyBcZxT2X6m71W40IuaYn3Q,501
+libxeddsa/xeddsa.h,sha256=Vtl7LEutYgLd3hvaeP2clcwc_ZBVLWYAsAEaxcm1F_A,1197
+stubs/_libxeddsa.pyi,sha256=h8CwuQt3oeWeBRWlgqqFc45OY7hChsqBKOHITsEfJW8,1564
+xeddsa/__init__.py,sha256=8jyOcvYqejQ1sPQwCNSdug0mf-7lwmhloXLQakshO4o,1109
+xeddsa/bindings.py,sha256=eAtz1Wq6T9gYV_7mNY7eQ5d7h8rFW81BrNrBmEBQ0nA,11574
+xeddsa/libxeddsa_emscripten.py,sha256=qVVAWAwtr9J4x_UPMu6xUlNsPw8RmWuUutOZ8wy_qUc,6035
+xeddsa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xeddsa/version.py,sha256=7EiFBeydqDRpKsrdSWBkyV5AYF_REi05Gv3of3NAs40,54
+xeddsa-1.1.1.dist-info/licenses/LICENSE,sha256=oVXcUjiLKpHUUKlG67HJEfQvqRQY-fnHFc4_PgzQFZ4,1102
+xeddsa-1.1.1.dist-info/METADATA,sha256=CITWU6F3K3-dEZR6VatOPmIe6bhtx-v1uvGKVMQFvfc,5304
+xeddsa-1.1.1.dist-info/WHEEL,sha256=qV0EIPljj1XC_vuSatRWjn02nZIz3N1t8jsZz7HBr2U,101
+xeddsa-1.1.1.dist-info/top_level.txt,sha256=3V4wnGbXYRh75cJT5BoLLZcZP5XVAUI_2i9Dva4fmfw,66
+xeddsa-1.1.1.dist-info/RECORD,,
