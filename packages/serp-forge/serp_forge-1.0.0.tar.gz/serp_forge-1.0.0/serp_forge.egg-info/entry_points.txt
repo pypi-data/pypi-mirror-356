@@ -1,0 +1,2 @@
+[console_scripts]
+serp-forge = serp_forge.cli:main
