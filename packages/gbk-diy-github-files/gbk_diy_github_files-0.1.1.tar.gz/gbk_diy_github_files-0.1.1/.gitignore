@@ -1,0 +1,19 @@
+# 虚拟环境
+.venv/
+venv/
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+# 构建产物
+dist/
+build/
+*.egg-info/
+# IDE 和系统文件
+.vscode/
+.idea/
+.DS_Store
+# 测试和覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/ 
