@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: mercuto-client
+Version: 0.2.6.dev0
+Summary: Library for interfacing with Rockfield's Mercuto API
+Author-email: Daniel Whipp <daniel.whipp@rocktech.com.au>
+Keywords: mercuto,rockfield,infratech
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: requests>=2.32
+Requires-Dist: pyftpdlib>=2.0.1
+Requires-Dist: python-dateutil>=2.9.0.post0
+Requires-Dist: pytz>=2025.2
+Requires-Dist: schedule>=1.2.2
+Dynamic: license-file
