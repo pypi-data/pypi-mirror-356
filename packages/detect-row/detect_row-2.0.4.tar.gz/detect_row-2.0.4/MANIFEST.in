@@ -1,0 +1,59 @@
+# Include documentation files
+include README.md
+include LICENSE
+include CHANGELOG.md
+include HUONG_DAN_SU_DUNG.md
+include COMPLETE_USAGE_GUIDE.md
+include HUONG_DAN_NHANH.md
+include COLUMN_EXTRACTION_GUIDE.md
+include FINAL_PERFECT_GUIDE.md
+include BUILD_DEPLOY_GUIDE.md
+
+# Include configuration files
+include requirements.txt
+include pyproject.toml
+include setup.py
+include config_template.json
+
+# Include utility scripts
+include *.py
+include *.sh
+include run_*.sh
+
+# Include package files
+recursive-include detect_row *.py
+recursive-include detect_row *.json
+
+# Include templates and configs
+recursive-include templates *.json
+recursive-include configs *.json
+
+# Include example files
+include extract_*.py
+include test_*.py
+include column_groups_helper.py
+include system_check.py
+include run_complete_workflow.py
+include quick_demo.py
+include show_results_summary.py
+include check_versions.py
+include deploy.py
+
+# Exclude unnecessary files
+exclude .gitignore
+exclude .git*
+exclude *.log
+exclude *.pyc
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.orig
+recursive-exclude * *.rej
+exclude build/*
+exclude dist/*
+exclude *.egg-info/*
+exclude debug/*
+exclude output/*
+exclude input/*
+exclude reports/*
+exclude test_pip_output/*
+exclude pip_package_extraction_output/* 
