@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/ReSubPlot/__init__.py
+src/ReSubPlot/__main__.py
+src/ReSubPlot/_version.py
+src/ReSubPlot/layout.py
+src/ReSubPlot/legends.py
+src/ReSubPlot/master_toml.py
+src/ReSubPlot/plotting_funcs.py
+src/ReSubPlot/resubplot_cli.py
+src/ReSubPlot.egg-info/PKG-INFO
+src/ReSubPlot.egg-info/SOURCES.txt
+src/ReSubPlot.egg-info/dependency_links.txt
+src/ReSubPlot.egg-info/entry_points.txt
+src/ReSubPlot.egg-info/top_level.txt
