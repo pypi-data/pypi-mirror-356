@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ezgpx*"]
+exclude = ["docs*", "tests*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"ezgpx.schemas.gpx_1_0" = ["*.xsd"]
+"ezgpx.schemas.gpx_1_1" = ["*.xsd"]
+"ezgpx.schemas.kml_2_2" = ["*.xsd"]
+
+[tool.isort]
+profile = "black"
+
+[project]
+name = "ezgpx"
+version = "0.3.0"
+authors = [
+    {name = "Fabien ALLEMAND", email = "allemand.fabien@orange.fr"},
+]
+maintainers = [
+    {name = "Fabien ALLEMAND", email = "allemand.fabien@orange.fr"},
+]
+description = "Easy to use Python GPX library"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "gpx",
+    "gpx-files",
+    "gpx-parser",
+    "gpx-reader",
+    "gpx-writer",
+    "gpx-converter",
+    "gpx-data",
+    "kml",
+    "kmz",
+    "fit"
+]
+license = {text = "GNU GPLv3"}
+classifiers=[
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "lxml",
+    "xmlschema",
+    "importlib_resources",
+    "python-dateutil",
+    "pandas",
+    "polars",
+    "matplotlib",
+    "basemap",
+    "plotly",
+    "gmplot",
+    "folium",
+    "fitparse",
+    "pytest",
+]
+
+[project.urls]
+Documentation = "https://ezgpx.readthedocs.io/en/latest/"
+Repository = "https://github.com/FABallemand/ezGPX"
+Issues = "https://github.com/FABallemand/ezGPX/issues"
+PyPi = "https://pypi.org/project/ezgpx/"
