@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mypackage/__init__.py
+src/mypackage/utils.py
+src/mypackage_demo_tutorial_2024.egg-info/PKG-INFO
+src/mypackage_demo_tutorial_2024.egg-info/SOURCES.txt
+src/mypackage_demo_tutorial_2024.egg-info/dependency_links.txt
+src/mypackage_demo_tutorial_2024.egg-info/requires.txt
+src/mypackage_demo_tutorial_2024.egg-info/top_level.txt

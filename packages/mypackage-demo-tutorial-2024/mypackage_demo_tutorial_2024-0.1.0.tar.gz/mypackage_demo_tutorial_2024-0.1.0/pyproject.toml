@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage-demo-tutorial-2024"
+version = "0.1.0"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+description = "一个简单的Python库示例，提供基本数学工具函数"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["math", "utility", "example"]
+dependencies = [
+    "build>=1.1.1",
+    "twine>=4.0.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/mypackage-example"
+"Bug Tracker" = "https://github.com/yourusername/mypackage-example/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mypackage*"] 
