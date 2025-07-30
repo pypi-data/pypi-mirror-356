@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: intellif-aihub
+Version: 0.1.1
+Summary: Intellif AI-hub Utils.
+Author-email: Platform Team <aihub@example.com>
+License-Expression: Apache-2.0
+Keywords: kubernetes,graceful-shutdown,sentinel-file
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# intellif-aihub
+
+Detect Kubernetes pre-stop lifecycle events with a simple sentinel file.
+
+```python
+import aihub
+
+while training:
+    if aihub.is_stopped():
+        save_checkpoint(); break
