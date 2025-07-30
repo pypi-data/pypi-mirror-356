@@ -1,0 +1,3 @@
+[console_scripts]
+onnx-passes=onnx_passes.passes.__main__:main
+
