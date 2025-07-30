@@ -1,0 +1,31 @@
+[package]
+name = "chik-sdk-coinset"
+version = "0.25.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Utilities for connecting to Chik full node peers via the light wallet protocol."
+authors = ["Brandon Haggstrom <me@rigidnetwork.com>"]
+homepage = "https://github.com/Chik-Network/chik-wallet-sdk"
+repository = "https://github.com/Chik-Network/chik-wallet-sdk"
+readme = "README.md"
+keywords = { workspace = true }
+categories = { workspace = true }
+
+[lints]
+workspace = true
+
+[features]
+native-tls = ["reqwest/native-tls"]
+rustls = ["reqwest/rustls-tls"]
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+hex = { workspace = true }
+reqwest = { workspace = true, features = ["json"] }
+hex-literal = { workspace = true }
+chik-protocol = { workspace = true, features = ["serde"] }
+
+[dev-dependencies]
+chik-traits = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
