@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: figma-to-compose-mcp
+Version: 0.1.5
+Summary: A Model Context Protocol (MCP) server for generating Jetpack Compose code from Figma nodes.
+Author-email: Manish Malviya <manish026@live.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: build>=1.2.2.post1
+Requires-Dist: fastmcp==2.6.1
+Requires-Dist: mcp[cli]>=1.9.4
+Requires-Dist: requests>=2.28.0
+Requires-Dist: twine>=6.1.0
+
+# figma-to-compose-mcp
+
+A Model Context Protocol (MCP) server for generating Jetpack Compose code from Figma nodes.
+
+## Installation
+
+```sh
+uv pip install .
+```
+
+## Usage
+
+```sh
+uv run src/figmaToComposeMCP.py
+```
+
+Set the following environment variables as needed:
+- `FIGMA_TOKEN`: Your Figma API token
