@@ -1,0 +1,82 @@
+Metadata-Version: 2.4
+Name: nqrduck-spectrometer-simulator
+Version: 0.0.6
+Summary: A submodule for the nqrduck-spectrometer module which implements the functionality of a NQR bloch simulator. This should enable easy simulation of NQR experiments.
+Project-URL: Homepage, https://nqrduck.cool
+Project-URL: Bug Tracker, https://git.private.coffee/nqrduck/nqrduck-spectrometer-simulator/issues
+Project-URL: Source Code, https://git.private.coffee/nqrduck/nqrduck-spectrometer-simulator
+Author-email: jupfi <support@nqrduck.cool>
+License: MIT License
+        
+        Copyright (c) 2023 jupfi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: nqr-blochsimulator
+Requires-Dist: nqrduck-spectrometer
+Requires-Dist: numpy
+Requires-Dist: pyqt6
+Requires-Dist: quackseq-simulator
+Description-Content-Type: text/markdown
+
+# NQRduck Module: Spectrometer Simulator
+This module is a part of the NQRduck project. It is a submodule of the [spectrometer module](https://git.private.coffee/nqrduck/nqrduck-spectrometer) for the NQRduck project. It is designed to be used with the [NQRduck](https://git.private.coffee/nqrduck) project.
+
+The module is used to simulate magnetic resonance experiments. It is based on the Bloch simulator by C. Graf [2].
+
+## Installation
+
+
+### Requirements
+The requirements for the module are handled by the pyproject.toml file. The user needs to install the NQRduck core.
+The simulator module uses the [nqr-blochsimulator](https://git.private.coffee/nqrduck/nqr-blochsimulator) project for simulation of the bloch equation. This  module is automatically installed when installing the simulator module.
+
+### Setup
+To install the module you need the NQRduck core. You can find the installation instructions for the NQRduck core [here](https://git.private.coffee/nqrduck/nqrduck).
+
+Ideally you should install the module in a virtual environment. You can create a virtual environment by running the following command in the terminal:
+```bash
+python -m venv nqrduck
+```
+
+You can install this module and the dependencies by running the following command in the terminal after cloning the repository and navigating to the root directory of the project:
+```bash
+pip install .
+```
+
+Alternatively you can install the module via PyPI:
+```bash
+pip install nqrduck-spectrometer-simulator
+```
+
+## Usage
+The pulse sequence is graphically programmed using the [nqrduck-pulseprogrammer](htpps://git.private.coffee/nqrduck-pulseprogrammer) within the NQRduck program under the 'Spectrometer' tab. 
+
+
+### Notes
+The simulator is only usable for Nuclear Quadrupole Resonance (NQR) experiments. It is not intended for Nuclear Magnetic Resonance (NMR) experiments at the moment. This is because the signal equation is different for NMR and NQR. The current implementation does not include the (permanent) $B_0$ field or the z-gradient. I hope to implement NMR simulations in the future.
+
+Additionally this simulator has only been  verified for one sample (BiPh3 at 300K). The simulator should therefore be used with caution and the results should be verified with a real spectrometer.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

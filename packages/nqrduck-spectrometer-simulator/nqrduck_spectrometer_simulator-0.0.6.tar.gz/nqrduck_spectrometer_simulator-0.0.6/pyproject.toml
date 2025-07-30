@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "nqrduck-spectrometer-simulator"
+version = "0.0.6"
+authors = [
+  { name="jupfi", email="support@nqrduck.cool" },
+]
+
+description = "A submodule for the nqrduck-spectrometer module which implements the functionality of a NQR bloch simulator. This should enable easy simulation of NQR experiments."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "nqrduck-spectrometer",
+    "pyqt6",
+    "numpy",
+    "nqr-blochsimulator",
+    "quackseq-simulator"
+]
+
+[project.entry-points."nqrduck"]
+"nqrduck-spectrometer-simulator" = "nqrduck_spectrometer_simulator.simulator:Simulator"
+
+[tool.ruff]
+exclude = [
+  "widget.py",
+]
+
+[tool.ruff.lint]
+extend-select = [
+  "UP",  # pyupgrade
+  "D",   # pydocstyle
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[project.urls]
+"Homepage" = "https://nqrduck.cool"
+"Bug Tracker" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer-simulator/issues"
+"Source Code" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer-simulator"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nqrduck_spectrometer_simulator"]
