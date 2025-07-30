@@ -1,0 +1,197 @@
+Metadata-Version: 2.4
+Name: xmcp-server-wxauto
+Version: 0.1.4
+Summary: 自动操作微信MCP服务
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]>=1.9.4
+Requires-Dist: wxauto>=39.1.4
+Description-Content-Type: text/markdown
+
+# 微信消息发送MCP服务
+
+这是一个基于 MCP (Model Context Protocol) 的微信消息自动化发送服务，通过命令行参数可以灵活配置服务器运行模式和日志级别。
+
+
+## 快速开始 - 使用UVX配置MCP服务（推荐）
+
+UVX提供跨平台的服务管理能力，支持Windows、macOS和Linux。
+
+### 配置文件示例
+```json
+{
+  "mcpServers": {
+    "wechat": {
+      "command": "uvx",
+      "args": [
+        "xmcp-server-wxauto"
+      ],
+      "env": {}
+    }
+  }
+}
+```
+
+## 本地测试运行MCP服务
+
+本步骤主要用于在Windows系统上**本地测试**微信自动化MCP服务。
+
+### 环境准备
+```bash
+# 安装服务包
+pip install xmcp-server-wxauto
+```
+
+### 启动服务
+```bash
+# 方式1：以默认配置启动服务（stdio模式）
+xmcp-server-wxauto
+
+# 方式2：指定日志级别和网络传输方式
+xmcp-server-wxauto --log-level=INFO --transport=sse --port=8000
+```
+
+### 配置MCP客户端
+将以下配置添加到你的AI智能体配置文件中：
+```json
+{
+  "mcpServers": {
+    "wechat": {
+      "url": "http://localhost:8000/sse"
+    }
+  }
+}
+```
+
+### 使用示例
+向智能体发送指令：
+```
+将"会议通知"发送到"技术部群聊"
+```
+服务将模拟人工操作微信客户端完成消息发送。
+
+> **重要说明**：
+> 本服务通过模拟人工操作微信客户端实现功能，**不依赖微信官方API**，需要预先登录微信PC客户端。
+
+
+## 命令行参数
+
+### 日志级别 (`--log-level`)
+设置服务器的日志输出级别：
+
+| 级别       | 描述                                 |
+|------------|--------------------------------------|
+| `DEBUG`    | 详细的调试信息，用于开发和问题排查   |
+| `INFO`     | 正常运行的关键信息                   |
+| `WARNING`  | 潜在问题的警告信息                   |
+| `ERROR`    | 功能异常的错误信息                   |
+| `CRITICAL` | 导致服务崩溃的严重错误               |
+
+**默认值**：`ERROR`
+
+**示例**：
+```bash
+xmcp-server-wxauto --log-level=DEBUG
+```
+
+
+### 传输方式 (`--transport`)
+设置服务器与客户端之间的通信协议：
+
+| 模式            | 适用场景                 | 特点                          |
+|-----------------|--------------------------|-------------------------------|
+| `stdio`         | 进程间本地通信           | 无日志输出，性能最优          |
+| `sse`           | 跨网络远程通信           | 支持实时双向通信，需指定端口  |
+
+**默认值**：`stdio`
+
+**示例**：
+```bash
+# 启用网络通信模式
+xmcp-server-wxauto --transport=sse --port=8080
+```
+
+
+### 服务器端口 (`--port`)
+当使用 `sse` 传输模式时，指定服务器监听的端口号。
+
+**默认值**：`8000`
+
+**示例**：
+```bash
+xmcp-server-wxauto --transport=sse --port=8000
+```
+
+
+## 完整示例
+
+### 1. 开发调试模式
+```bash
+# 启用详细日志和网络访问
+xmcp-server-wxauto --log-level=DEBUG --transport=sse --port=8000
+```
+
+### 2. 生产环境模式
+```bash
+# 静默运行，通过UVX管理
+uvx run xmcp-server-wxauto --transport=stdio
+```
+
+
+## 常见问题解答
+
+### 1. 为什么 `stdio` 模式下看不到日志？
+`stdio` 模式使用标准输入输出流进行通信，日志输出会干扰通信协议，因此默认禁用控制台日志。如需查看日志，请使用 `sse` 模式并设置 `--log-level` 参数。
+
+
+### 2. 如何在后台运行服务器？
+
+#### Windows
+```powershell
+# 使用PowerShell后台作业
+Start-Job -ScriptBlock { xmcp-server-wxauto --transport=sse --port=8000 }
+```
+
+#### Linux/macOS
+- **注意：由于Mac系统不支持用wxauto操作微信，所以本功能仅支持Windows系统。**
+
+### 3. 端口被占用怎么办？
+```bash
+# 查找占用端口的进程
+lsof -i:8000
+
+# 终止进程（替换<PID>为实际进程ID）
+kill -9 <PID>
+
+# 或使用其他端口
+xmcp-server-wxauto --transport=sse --port=8081
+```
+
+
+### 4. 服务无法连接微信客户端？
+1. 确保微信PC客户端已登录且处于前台可见状态
+2. 检查服务日志中是否有权限错误提示
+3. 暂时关闭安全软件或防火墙
+
+```bash
+# 以管理员权限运行PowerShell（Windows）
+Start-Process powershell -Verb RunAs
+
+# 或调整防火墙规则（Linux）
+sudo ufw allow 8000/tcp
+```
+
+
+### 5. 如何查看服务状态？
+```bash
+# 查看服务版本
+xmcp-server-wxauto --version
+
+# 查看实时运行状态（sse模式）
+curl http://localhost:8000/status
+```
+
+
+## 技术支持
+- 提交问题：[项目GitHub Issues](https://github.com/xmcp-server-wxauto/issues)
+- 联系邮箱：samt007@qq.com
+- 工作时间：周一至周日 8:00-22:00 (GMT+8)

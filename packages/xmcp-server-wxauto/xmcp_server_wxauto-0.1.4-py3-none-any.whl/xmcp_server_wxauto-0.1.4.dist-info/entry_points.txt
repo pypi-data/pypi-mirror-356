@@ -1,0 +1,2 @@
+[console_scripts]
+xmcp-server-wxauto = xmcp_server_wxauto:main
