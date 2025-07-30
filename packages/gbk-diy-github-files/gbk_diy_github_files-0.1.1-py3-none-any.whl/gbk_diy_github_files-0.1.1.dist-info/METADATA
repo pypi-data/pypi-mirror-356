@@ -1,0 +1,89 @@
+Metadata-Version: 2.4
+Name: gbk-diy-github-files
+Version: 0.1.1
+Summary: 一个通过GitHub仓库URL快速创建标准项目文件夹结构的CLI工具。
+Author-email: wanderer <gbk2667503771@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 wanderer
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE. 
+License-File: LICENSE
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# gbk-diy-github-files
+
+一个通过GitHub仓库URL，快速创建标准项目文件夹结构的CLI工具。
+
+## 功能
+
+- 解析任何GitHub仓库URL（支持 `https://.../repo` 和 `https://.../repo.git` 格式）。
+- 在指定目录（默认为 `D:\github`）下创建以仓库名命名的主文件夹。
+- 在主文件夹内自动创建 `Input`, `Output`, `Logs`, `Config` 四个标准子文件夹。
+
+## 安装
+
+```bash
+pip install gbk-diy-github-files
+```
+
+## 使用方法
+
+### 基本用法
+
+这将在默认位置 (D:\github) 创建一个 faster-whisper 文件夹和其子文件夹。
+
+```bash
+diy-gf create https://github.com/SYSTRAN/faster-whisper.git
+```
+
+### 指定目录
+
+这将在 E:\my_projects 目录下创建 my-cool-project 文件夹。
+
+```bash
+diy-gf create https://github.com/user/my-cool-project -d E:\my_projects
+```
+
+或者使用短选项：
+
+```bash
+diy-gf create https://github.com/user/my-cool-project -d E:\my_projects
+```
+
+### 帮助信息
+
+```bash
+diy-gf --help
+diy-gf create --help
+``` 
