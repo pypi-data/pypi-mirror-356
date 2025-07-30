@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pt_seq"
+version = "0.0.3"
+authors = [
+  { name="AH", email="abbychou109304502@gmail.com" },
+]
+description = "A packgage extracting specific seqes"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/Anne-hcy/data_pt/tree/main"
