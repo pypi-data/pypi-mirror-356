@@ -1,0 +1,33 @@
+{
+  "name": "{{ cookiecutter.plugin_slug }}",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "npx @biomejs/biome check ./src",
+    "lint:fix": "npx @biomejs/biome check ./src --fix",
+    "build": "tsc -b && vite build --emptyOutDir",
+    "dev": "vite --config vite.dev.config.ts --host",
+    "preview": "vite preview --config vite.dev.config.ts --host"
+  },
+  "dependencies": {
+    "@inventreedb/ui": "latest",
+    "@tabler/icons-react": "^3.31.0"
+  },
+  "peerDependencies": {
+    "@mantine/core": "{{ cookiecutter.frontend.mantine_version }}",
+    "@mantine/notifications": "{{ cookiecutter.frontend.mantine_version }}",
+    "react": "{{ cookiecutter.frontend.react_version }}",
+    "react-dom": "{{ cookiecutter.frontend.react_version }}"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0",
+    "@types/react": "{{ cookiecutter.frontend.react_version }}",
+    "@types/react-dom": "{{ cookiecutter.frontend.react_version }}",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "^15.14.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-plugin-externals": "^0.6.2"
+  }
+}
