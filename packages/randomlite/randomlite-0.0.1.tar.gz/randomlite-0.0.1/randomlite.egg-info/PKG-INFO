@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: randomlite
+Version: 0.0.1
+Summary: Generate random integers, floats, and lists easily
+Home-page: https://github.com/yourusername/randomgen
+Author: sanjay
+Author-email: vksanjay28@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# randomgen
+
+A simple Python package to generate random integers, floats, and lists of random numbers.
+
+## Example
+
+```python
+from randomgen import random_int, random_float, random_list
+
+print(random_int(1, 10))         # Example: 7
+print(random_float(1.5, 5.5))    # Example: 3.72
+print(random_list(5, 10, 50))    # Example: [14, 23, 47, 35, 11]
