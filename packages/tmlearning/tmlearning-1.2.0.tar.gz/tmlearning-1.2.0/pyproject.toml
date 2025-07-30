@@ -1,0 +1,35 @@
+[project]
+name = "tmlearning"
+version = "1.2.0"
+description = "A Python library to create and use machine learning TrackMania AIs."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Atticus Alarcon", email = "atticusaalarcon@gmail.com" }
+]
+keywords = ["tmlearning", "trackmania", "ai", "bot"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy>=1.26.4",
+    "mss>=10.0.0",
+    "pillow>=11.2.1",
+    "keyboard>=0.13.5",
+    "torch==2.8.0.dev20250504+cu128",
+    "pynput>=1.8.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/att131/tmlearning"
+"Bug Tracker" = "https://github.com/att131/tmlearning/issues"
+"Source" = "https://github.com/att131/tmlearning"
+"Documentation" = "https://github.com/att131/tmlearning#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
