@@ -1,0 +1,157 @@
+Metadata-Version: 2.4
+Name: netpyx
+Version: 1.0.0
+Summary: A simple HTTP client wrapper for requests
+Author: José Luis (Pepe)
+Author-email: jlci811122@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# netpy
+
+**netpy** is a lightweight and easy-to-use HTTP client wrapper built on top of the popular `requests` library. It simplifies making HTTP requests with support for session management, headers, cookies, and both Basic and Bearer authentication.
+
+---
+
+## Features
+
+- Supports GET, POST, PUT, DELETE HTTP methods.
+- Manage common headers and cookies automatically.
+- Handles Bearer and Basic Authentication easily.
+- Supports a base URL to simplify request endpoints.
+- Tracks cookies from server responses and allows easy access.
+- Includes context manager support for automatic resource cleanup.
+- Detailed logging for request lifecycle (can be adjusted).
+
+---
+
+## Installation
+
+You can install **netpy** via pip (once published on PyPI):
+
+```bash
+pip install netpy
+```
+
+Or install it locally by cloning the repository and running:
+
+```bash
+pip install .
+```
+
+Make sure you have Python 3.7 or above and the `requests` library installed.
+
+---
+
+## Usage
+
+Here is a quick example of how to use the `HttpClient` class from `netpy`:
+
+```python
+from netpy import HttpClient
+
+# Initialize the client with a base URL
+client = HttpClient(base_url="https://api.example.com/")
+
+# Set a custom User-Agent header
+client.set_user_agent("netpy-client/1.0")
+
+# Set Basic Authentication credentials
+client.set_auth(("username", "password"))
+
+# Or set Bearer token authentication
+# client.set_auth_bearer("your_bearer_token")
+
+# Make a GET request to a relative endpoint
+response = client.get("/data/items", params={"limit": 10})
+
+if response:
+    print("Status code:", response.status_code)
+    print("Response JSON:", response.json())
+
+# Access current cookies stored in the session
+cookies = client.get_cookies()
+print("Cookies:", cookies)
+
+# Always close the session when done
+client.close_session()
+```
+
+---
+
+## API Reference
+
+### Class: `HttpClient`
+
+- `__init__(base_url: str = "")`  
+  Initialize the HTTP client with an optional base URL.
+
+- `set_headers(headers: Dict[str, str])`  
+  Set or update global HTTP headers.
+
+- `set_user_agent(user_agent: str)`  
+  Set a custom User-Agent header.
+
+- `set_cookies(cookies: Dict[str, str])`  
+  Manually set or update cookies.
+
+- `set_auth(auth: tuple[str, str])`  
+  Set Basic Authentication credentials `(username, password)`.
+
+- `set_auth_bearer(token: str)`  
+  Set Bearer token authentication.
+
+- `get(endpoint: str, params: Optional[Dict[str, Any]] = None, **kwargs) -> Optional[requests.Response]`  
+  Make a GET request to the specified endpoint.
+
+- `post(endpoint: str, data: Optional[Dict[str, Any]] = None, json: Optional[Dict[str, Any]] = None, **kwargs) -> Optional[requests.Response]`  
+  Make a POST request.
+
+- `put(endpoint: str, data: Optional[Dict[str, Any]] = None, json: Optional[Dict[str, Any]] = None, **kwargs) -> Optional[requests.Response]`  
+  Make a PUT request.
+
+- `delete(endpoint: str, **kwargs) -> Optional[requests.Response]`  
+  Make a DELETE request.
+
+- `get_cookies() -> Dict[str, str]`  
+  Retrieve the current cookies stored in the session.
+
+- `close_session()`  
+  Close the HTTP session and release resources.
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your_username/netpy/issues).
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+Created by JosÃ© Luis (Pepe).  
+Feel free to reach out for questions or suggestions.
+
+---
+
+*Happy coding! ðŸš€*

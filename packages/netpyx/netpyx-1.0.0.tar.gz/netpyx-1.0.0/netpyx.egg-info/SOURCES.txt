@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+netpyx/__init__.py
+netpyx/http_client.py
+netpyx.egg-info/PKG-INFO
+netpyx.egg-info/SOURCES.txt
+netpyx.egg-info/dependency_links.txt
+netpyx.egg-info/requires.txt
+netpyx.egg-info/top_level.txt
+tests/test_http_client.py
