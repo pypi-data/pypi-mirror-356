@@ -1,0 +1,8 @@
+sql_runner/core.py,sha256=dWHX083RgkS47R_sFu-bHc2pR__A4pUb9XRSy3wfSzQ,2117
+sql_runner/psycopg3_runner.py,sha256=hJp_hNg-u5M0kUeSpWKAF-kxqLoxW1vrGliUvfbUlms,2921
+sql_runner/trino_runner.py,sha256=oCHYwzjlmxGFJZ7L-XK9xJ3rV4HUCYo6Mv60FNQX7yg,3423
+sql_runner/utils.py,sha256=1GioKKvgzHsssDRAzp9muvosSqIlWnBopVE4D_HiEmw,1436
+py_sql_runner-0.1.0.dist-info/METADATA,sha256=DuOCecvUe9mYmex_JqWKQmN4jjMwt96-pn6DVd0Ezck,699
+py_sql_runner-0.1.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+py_sql_runner-0.1.0.dist-info/top_level.txt,sha256=xhLwncmZjtfh4eZav5P0HkV8GWuQT-kU_LU14IKqcEE,11
+py_sql_runner-0.1.0.dist-info/RECORD,,
