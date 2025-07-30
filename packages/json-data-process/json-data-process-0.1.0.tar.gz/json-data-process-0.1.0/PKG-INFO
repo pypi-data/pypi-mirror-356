@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: json-data-process
+Version: 0.1.0
+Summary: 去除首尾的空格，浮点数保留n位小数
+Home-page: UNKNOWN
+Author: wangcheng
+Author-email: 154443603@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+UNKNOWN
+
