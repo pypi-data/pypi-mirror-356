@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: types-rez
+Version: 3.2.1.6
+Summary: python stubs for Rez
+Author: Chad Dombrova
+License-Expression: MIT
+Keywords: 3d,CG,VFX,animation,games,graphics
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# python stubs for rez
+
+High quality python type stubs for the [rez](https://github.com/AcademySoftwareFoundation/rez)
+cross-platform package manager.
+
+These stubs are designed to be used with a type checker like `mypy` to provide static type checking of python code, as well as to provide analysis and completion in IDEs like PyCharm and VSCode (with Pylance).
+
+## Installing
+
+```commandline
+pip install types-rez
+```
+
+The version of the package corresponds to the version of rez that it is generated from,
+plus a version suffix for the revision of the stubs
