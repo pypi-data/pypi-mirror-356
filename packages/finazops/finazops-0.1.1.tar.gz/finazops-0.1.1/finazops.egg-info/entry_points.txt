@@ -1,0 +1,2 @@
+[console_scripts]
+finazops = finazops.cli:main
