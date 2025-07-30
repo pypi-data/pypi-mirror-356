@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: my_hacklib
+Version: 0.1.0
+Summary: A Python library for various networking and cryptographic functions.
+Author: Wada Kaede
+Requires-Python: >=3.6
+Requires-Dist: cryptography
+Requires-Dist: scapy
+Requires-Dist: paramiko
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
