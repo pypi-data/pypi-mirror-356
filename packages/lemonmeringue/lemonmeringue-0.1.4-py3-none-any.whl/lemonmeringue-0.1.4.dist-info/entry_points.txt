@@ -1,0 +1,2 @@
+[console_scripts]
+lemonmeringue = lemonmeringue.cli:main
