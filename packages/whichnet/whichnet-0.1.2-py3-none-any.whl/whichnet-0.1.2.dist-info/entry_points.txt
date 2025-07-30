@@ -1,0 +1,2 @@
+[console_scripts]
+whichnet = whichnet.whichnet:main
