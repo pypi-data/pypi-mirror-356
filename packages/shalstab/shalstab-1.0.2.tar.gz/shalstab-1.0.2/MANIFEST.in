@@ -1,0 +1,39 @@
+# Include metadata files
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include requirements.txt
+include requirements-dev.txt
+include pyproject.toml
+
+# Include configuration files
+include *.cfg
+include *.ini
+include *.toml
+include *.yml
+include *.yaml
+
+# Include documentation
+recursive-include docs *
+recursive-include shalstab *.md
+
+# Include training data and other data files
+recursive-include shalstab/training_data *
+include shalstab/training_data/*.tif
+include shalstab/training_data/*.geojson
+include shalstab/training_data/*.json
+include shalstab/training_data/*.csv
+
+# Exclude unnecessary files
+exclude .git*
+exclude .pre-commit-config.yaml
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.so
+global-exclude .coverage
+prune .git
+prune __pycache__
+prune *.egg-info
+prune build
+prune dist
