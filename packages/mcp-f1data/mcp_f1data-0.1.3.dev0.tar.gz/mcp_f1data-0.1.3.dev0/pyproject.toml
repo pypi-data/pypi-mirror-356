@@ -1,0 +1,43 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "setuptools_scm[toml]>=6.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp_f1data"
+dynamic = ["version"]
+description = "MCP server for F1 data using Fastf1, OpenF1 or Ergast APIs"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "fastf1>=3.4.5,<4.0.0",
+  "pandas>=1.1.0,<2.2.0",
+  "fastmcp>=2.5.1,<3.0.0",
+  "websockets>=14.0",
+  "mcp>=1.9.4,<2.0.0",
+  "pydantic>=2.11.1,<3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/maxbleu/mcp_f1data"
+Repository = "https://github.com/maxbleu/mcp_f1data"
+Issues = "https://github.com/maxbleu/mcp_f1data/issues"
+
+[project.scripts]
+mcp-f1data = "mcp_f1data.server.mcp_server:main"
+
+[tool.setuptools]
+packages = ["mcp_f1data", "mcp_f1data.server", "mcp_f1data.tools", "mcp_f1data.utils"]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+fallback_version = "0.0.dev0"
+tag_regex = "^[vV]?(?P<version>.+)$"
