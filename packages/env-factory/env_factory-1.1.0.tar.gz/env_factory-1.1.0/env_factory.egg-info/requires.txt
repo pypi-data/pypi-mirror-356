@@ -1,0 +1,15 @@
+sm-env-read>=1.1.0
+python-dotenv
+
+[dev]
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
+
+[dotenv]
+python-dotenv>=1.0.0
+
+[sm_env_read]
+sm-env-read>=1.1.0
