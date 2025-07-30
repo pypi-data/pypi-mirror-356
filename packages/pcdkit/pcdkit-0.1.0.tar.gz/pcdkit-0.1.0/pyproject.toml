@@ -1,0 +1,26 @@
+[project]
+name = "pcdkit"
+version = "0.1.0"
+description = "A lightweight PCD file processing library"
+readme = "README.md"
+authors = [{ name = "Fledge Shiu", email = "xzk0701@gmail.com" }]
+dependencies = ["numpy", "python-noe-lzf", "numba", "typing-extensions"]
+requires-python = ">=3.7"
+
+[project.license]
+text = "MIT"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+license-files = ["LICENSES.txt"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/FledgeXu/PCDKit"
+Repository = "https://github.com/FledgeXu/PCDKit"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
