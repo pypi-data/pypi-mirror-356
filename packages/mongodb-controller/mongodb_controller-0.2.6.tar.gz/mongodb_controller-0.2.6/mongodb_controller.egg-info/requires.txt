@@ -1,0 +1,6 @@
+pymongo>=4.10.1
+pandas>=2.2.3
+python-dotenv>=1.0.0
+aws-s3-controller>=0.7.5
+shining-pebbles>=0.5.5
+financial-dataset-preprocessor>=0.3.7
