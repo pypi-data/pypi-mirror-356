@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: LMS-PYTHON
+Version: 1.0.0
+Summary: A License Management System package
+Home-page: https://github.com/CSDC-K/LMS
+Author: CSDC-K VV
+Author-email: mark.mark34234@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/plain
+License-File: licenses.json
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+Python package for License Management System with server and client modules.
