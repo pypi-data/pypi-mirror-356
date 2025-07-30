@@ -1,0 +1,9 @@
+README.md
+setup.py
+k_sogou_search.egg-info/PKG-INFO
+k_sogou_search.egg-info/SOURCES.txt
+k_sogou_search.egg-info/dependency_links.txt
+k_sogou_search.egg-info/requires.txt
+k_sogou_search.egg-info/top_level.txt
+sogou_search/__init__.py
+sogou_search/sogou_search.py

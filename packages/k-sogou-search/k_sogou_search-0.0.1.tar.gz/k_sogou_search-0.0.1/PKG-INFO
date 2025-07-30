@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: k-sogou-search
+Version: 0.0.1
+Summary: A simple unofficial API to get search results from Sogou.
+Home-page: https://github.com/li-xiu-qi/sogou_search
+Author: li-xiu-qi
+Author-email: lixiuqixiaoke@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Sogou Search API
+
+一个非官方的Python API，用于从搜狗获取搜索结果。
+
+## 安装
+
+```bash
+pip install k-sogou-search
+```
+
+## 使用
+
+```python
+from sogou_search import sogou_search_api
+
+results = sogou_search_api('人工智能', num_results=15)
+for result in results:
+    print(result)
+```
