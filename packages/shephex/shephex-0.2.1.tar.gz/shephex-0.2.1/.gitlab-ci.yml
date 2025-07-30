@@ -1,0 +1,45 @@
+stages: 
+  - test
+  - publish
+
+tests:
+  stage: test    
+  image: ghcr.io/astral-sh/uv:python3.11-alpine
+  script:
+    - uv sync
+    - source .venv/bin/activate
+    - pytest
+  coverage: '/^TOTAL.+?(\d+\%)$/'
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: .coverage.xml
+      junit: .report.xml
+  interruptible: true
+
+ruff:
+  stage: test
+  image: registry.gitlab.com/pipeline-components/ruff:latest
+  script:
+    - ruff check --output-format=gitlab src/shephex
+  allow_failure: true
+
+pages:
+  stage: publish
+  image: ghcr.io/astral-sh/uv:python3.11-alpine
+  script:
+    - uv sync
+    - source .venv/bin/activate
+    - cd docs/
+    - mkdocs build --site-dir ../public/site
+  artifacts:
+    paths:
+      - public/site
+  publish: public/site
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: always
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      when: never
