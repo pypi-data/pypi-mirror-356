@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+shellrosetta/__init__.py
+shellrosetta/cli.py
+shellrosetta/core.py
+shellrosetta/mappings.py
+shellrosetta.egg-info/PKG-INFO
+shellrosetta.egg-info/SOURCES.txt
+shellrosetta.egg-info/dependency_links.txt
+shellrosetta.egg-info/entry_points.txt
+shellrosetta.egg-info/top_level.txt
+tests/test_core.py
