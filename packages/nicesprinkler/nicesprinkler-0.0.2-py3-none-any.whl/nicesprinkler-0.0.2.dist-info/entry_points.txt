@@ -1,0 +1,2 @@
+[console_scripts]
+sprinkler = sprinkler.sprinkler_cmd:main
