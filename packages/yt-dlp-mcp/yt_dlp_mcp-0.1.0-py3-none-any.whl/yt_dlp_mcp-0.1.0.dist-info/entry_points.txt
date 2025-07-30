@@ -1,0 +1,2 @@
+[console_scripts]
+yt-dlp-mcp = yt_dlp_mcp.server:main
