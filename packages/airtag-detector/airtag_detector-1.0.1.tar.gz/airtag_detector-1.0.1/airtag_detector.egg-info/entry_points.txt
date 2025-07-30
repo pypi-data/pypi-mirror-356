@@ -1,0 +1,5 @@
+[console_scripts]
+airtag-detector = airtag_detector.detector:main
+airtag-homekit-setup = airtag_detector.homekit_setup:main
+airtag-setup = airtag_detector.setup:main
+airtag-test = airtag_detector.test_bluetooth:main

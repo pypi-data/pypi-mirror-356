@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "airtag-detector"
+version = "1.0.1"
+description = "Apple AirTag detector for Raspberry Pi with HomeKit integration"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "DogPi Project", email = "contras-kite9t@icloud.com"},
+]
+keywords = ["airtag", "bluetooth", "raspberry-pi", "homekit", "home-automation", "security", "tracking-detection"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Home Automation",
+    "Topic :: Security",
+    "Topic :: System :: Hardware",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: No Input/Output (Daemon)",
+]
+dependencies = [
+    "bleak>=0.21.0",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+homekit = ["aiohomekit>=3.1.0"]
+dev = ["pytest>=7.0", "black", "flake8", "mypy"]
+
+[project.urls]
+Homepage = "https://github.com/nranderson/dogpi"
+"Bug Reports" = "https://github.com/nranderson/dogpi/issues"
+Source = "https://github.com/nranderson/dogpi"
+Documentation = "https://github.com/nranderson/dogpi/blob/main/README.md"
+
+[project.scripts]
+airtag-detector = "airtag_detector.detector:main"
+airtag-setup = "airtag_detector.setup:main"
+airtag-homekit-setup = "airtag_detector.homekit_setup:main"
+airtag-test = "airtag_detector.test_bluetooth:main"
+
+[tool.setuptools]
+packages = ["airtag_detector"]
+
+[tool.setuptools.package-data]
+airtag_detector = ["templates/*", "configs/*"]

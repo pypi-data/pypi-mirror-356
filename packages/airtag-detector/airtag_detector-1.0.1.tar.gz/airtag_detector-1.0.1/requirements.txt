@@ -1,0 +1,4 @@
+bleak>=0.21.0
+asyncio-mqtt>=0.13.0
+aiohomekit>=3.1.0
+requests>=2.31.0
