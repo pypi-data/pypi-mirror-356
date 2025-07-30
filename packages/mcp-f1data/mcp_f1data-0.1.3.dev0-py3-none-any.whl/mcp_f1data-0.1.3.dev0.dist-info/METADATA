@@ -1,0 +1,88 @@
+Metadata-Version: 2.4
+Name: mcp_f1data
+Version: 0.1.3.dev0
+Summary: MCP server for F1 data using Fastf1, OpenF1 or Ergast APIs
+Project-URL: Homepage, https://github.com/maxbleu/mcp_f1data
+Project-URL: Repository, https://github.com/maxbleu/mcp_f1data
+Project-URL: Issues, https://github.com/maxbleu/mcp_f1data/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastf1<4.0.0,>=3.4.5
+Requires-Dist: pandas<2.2.0,>=1.1.0
+Requires-Dist: fastmcp<3.0.0,>=2.5.1
+Requires-Dist: websockets>=14.0
+Requires-Dist: mcp<2.0.0,>=1.9.4
+Requires-Dist: pydantic<3.0.0,>=2.11.1
+Dynamic: license-file
+
+# 🏎️ MCP Server F1Data
+
+<img src="./content/example.gif" width="1000">
+
+A Model Context Protocol (MCP) server for interacting with F1Data through LLM interfaces like Claude. **You will need to have Claude installed on your system to continue.**
+
+## Getting Started
+First of all, you need to install `mcp-f1data` package from pypi with pip, using the following command:
+```commandline
+pip install mcp-f1data
+```
+
+To use `mcp-f1data` server in claude can be configured by adding the following to your configuration file.
+- Windows: `%APPDATA%/Claude/claude_desktop_config.json`
+- Linux: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+Add the F1Data MCP server configuration:
+```json
+{
+  "mcpServers": {
+    "mcp-f1data": {
+        "command": "python",
+        "args": [ "-m", "mcp-f1data" ]
+    }
+  }
+}
+```
+
+## Tools 
+- `fastest lap`
+- `lap`
+- `top speed`
+- `total laps`
+- `driver team`
+- `team driver`
+- `box laps`
+- `deleted laps`
+
+## Instalation
+Active the virtual environment and install the requirements using:
+```commandline
+.\.venv\Scripts\activate
+```
+
+Install the mcp server in Claude using the following command:
+```commandline
+mcp install .\server.py
+```
+
+## Requirements
+The requirementes used to build this MCP server are:
+- `fastf1`
+- `pandas`
+- `fastmcp`
+- `websockets`
+- `mcp`
+- `pydantic`
+
+## Testing 
+You can test the server using the MCP Inspector:
+```commandline
+mcp dev .\server.py
+```
+
+## License
+This project is licensed under the MIT <a href="https://github.com/Maxbleu/mcp-f1data/blob/master/LICENSE">LICENSE</a> - see the details.

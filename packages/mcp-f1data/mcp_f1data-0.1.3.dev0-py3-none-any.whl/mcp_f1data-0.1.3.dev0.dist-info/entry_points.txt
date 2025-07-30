@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-f1data = mcp_f1data.server.mcp_server:main
