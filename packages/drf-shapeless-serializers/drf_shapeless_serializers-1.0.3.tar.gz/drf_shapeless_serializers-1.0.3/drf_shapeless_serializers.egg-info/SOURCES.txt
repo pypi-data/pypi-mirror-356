@@ -1,0 +1,12 @@
+README.md
+setup.py
+drf_shapeless_serializers.egg-info/PKG-INFO
+drf_shapeless_serializers.egg-info/SOURCES.txt
+drf_shapeless_serializers.egg-info/dependency_links.txt
+drf_shapeless_serializers.egg-info/requires.txt
+drf_shapeless_serializers.egg-info/top_level.txt
+shapeless_serializers/__init__.py
+shapeless_serializers/exceptions.py
+shapeless_serializers/mixins.py
+shapeless_serializers/serializers.py
+shapeless_serializers/utils.py
