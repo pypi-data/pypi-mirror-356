@@ -1,0 +1,2 @@
+[console_scripts]
+vibe-tide-mcp-server = vibe_tide_mcp_server:main
