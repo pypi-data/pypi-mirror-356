@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+boorusync/__init__.py
+boorusync/__main__.py
+boorusync.egg-info/PKG-INFO
+boorusync.egg-info/SOURCES.txt
+boorusync.egg-info/dependency_links.txt
+boorusync.egg-info/entry_points.txt
+boorusync.egg-info/top_level.txt
+boorusync/core/__init__.py
+boorusync/core/config.py
+boorusync/core/network.py
+boorusync/core/boards/danbooru.py
+tests/test_danbooru.py
+tests/test_network.py

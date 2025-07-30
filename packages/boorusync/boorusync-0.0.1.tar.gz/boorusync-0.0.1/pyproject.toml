@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "boorusync.VERSION"}
+
+[project]
+name = "boorusync"
+# Using dynamic versioning to get from boorusync.core.constants
+dynamic = ["version"]
+authors = [
+    {name = "nichind", email = "nichinddev@gmail.com"},
+]
+description = "Sync (and automatically download) your favorites between danbooru & gelbooru"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "danbooru",
+    "gelbooru",
+    "sync",
+    "favorites",
+    "download",
+    "api",
+    "booru",
+    "cobalt",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nichind/booru-sync"
+"Issues" = "https://github.com/nichind/booru-sync/issues"
+
+[project.scripts]
+booru-sync = "boorusync.__main__:main"
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.ruff]
+line-length = 140
