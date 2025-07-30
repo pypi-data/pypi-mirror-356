@@ -1,0 +1,15 @@
+aiosyslogd/__init__.py,sha256=IThVC1nATH8Y5wsSQsRJvae1AQxVs9ODRq8zxyqwTYY,422
+aiosyslogd/config.py,sha256=oBf5UGzNcnbJCkHEZMmMbM3xxWkaZeYKNANzEDHiF6M,3170
+aiosyslogd/db/__init__.py,sha256=iJgh7gq2StLhss3F9i3aST0gf8PzwfEi4EIEdL0vb0E,559
+aiosyslogd/db/meilisearch.py,sha256=W0uWee3ulWM2rYaFM6ShmLqiXIHz-z9tW0chwXlFDmQ,6134
+aiosyslogd/db/sqlite.py,sha256=Kc7kaYfGehJ20stQOzrY6_vw5FffTtSb3bw2RM_FW-A,8114
+aiosyslogd/priority.py,sha256=Mfkr8uCoqsMGF2H-UOguWdsTWJw6SftRnfUMbnWgaL0,1832
+aiosyslogd/rfc5424.py,sha256=GUoAlkstjFqjPrCtytCGYNV9guQgqSN70E34vtKGFWg,3606
+aiosyslogd/server.py,sha256=gAMrUmyk4wMYv2BjBBCF1v5UWx1rvlgfo_gblqJsj4E,10723
+aiosyslogd/templates/index.html,sha256=WRd4o6hFyusqKLaRUNHM3vm4fmn_43SP3xpUkBL2qmg,9561
+aiosyslogd/web.py,sha256=W_ca24WA7QffkYmru90YMvfdVColiKVrH3OIHg_LwxI,12817
+aiosyslogd-0.2.3.dist-info/LICENSE,sha256=rmzj1cEOkH1aKVfAoRyq_4YppaYfMhCFzF2qcwP0J3E,1109
+aiosyslogd-0.2.3.dist-info/METADATA,sha256=w8BS4CogKcjzOSyBP3YsMtG9nSzxq8LjlFlOowUFn-E,12151
+aiosyslogd-0.2.3.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+aiosyslogd-0.2.3.dist-info/entry_points.txt,sha256=7GLQr2orE_QGe3c_e6Q4o51pAGN1V32uak6slDJdUms,88
+aiosyslogd-0.2.3.dist-info/RECORD,,
