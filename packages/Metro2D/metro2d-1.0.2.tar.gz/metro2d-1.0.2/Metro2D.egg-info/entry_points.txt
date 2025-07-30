@@ -1,0 +1,2 @@
+[console_scripts]
+metro2D = metro2D.main:main
