@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: tree-sitter-surrealql
+Version: 0.2.0
+Summary: SurrealQL grammar for tree-sitter
+Author-email: Cellan Hall <hallcellan@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ce11an/tree-sitter-surrealql
+Keywords: incremental,parsing,tree-sitter,surrealql
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: core
+Requires-Dist: tree-sitter~=0.21; extra == "core"
+Dynamic: license-file
+
+# tree-sitter-surrealql
+
+[![CI][ci]](https://github.com/ce11an/tree-sitter-surrealql/actions/workflows/ci.yml)
+[![crates][crates]](https://crates.io/crates/tree-sitter-surrealql)
+[![pypi][pypi]](https://pypi.org/project/tree-sitter-surrealql/)
+
+SurrealQL grammar for [tree-sitter][].
+
+## Installation
+
+### [cargo](https://crates.io/crates/tree-sitter-surrealql)
+
+```sh
+cargo add tree-sitter-surrealql
+```
+
+### [pip](https://pypi.org/project/tree-sitter-surrealql)
+
+```bash
+pip install tree-sitter-surrealql
+```
+
+## Features
+Please check the [examples](examples) directory for a complete list of features.
+
+## References
+- [SurrealDB](https://surrealdb.com/docs/surrealdb)
+
+[ci]: https://img.shields.io/github/actions/workflow/status/ce11an/tree-sitter-surrealql/ci.yml?logo=github&label=CI
+[tree-sitter]: https://github.com/tree-sitter/tree-sitter
+[crates]: https://img.shields.io/crates/v/tree-sitter-surrealql?logo=rust
+[pypi]: https://img.shields.io/pypi/v/tree-sitter-surrealql?logo=pypi&logoColor=ffd242
