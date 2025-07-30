@@ -1,0 +1,42 @@
+[project]
+name = "mint-llm"
+dynamic = ["version"]
+description = "Meaning-Informed Next-token Transformation"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "torch",
+    "transformers",
+    "typer",
+    "safetensors",
+    "tqdm",
+]
+
+[project.urls]
+# none yet
+
+[project.scripts]
+mint = "mint.cli:app"
+
+[project.entry-points]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "black[jupyter]",
+    "pytest",
+    "ruff",
+    "mypy",
+    "cffconvert",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "mint.__version__"}
+
