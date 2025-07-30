@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sms_gateway_sdk/__init__.py
+sms_gateway_sdk/client.py
+sms_gateway_sdk/exceptions.py
+sms_gateway_sdk.egg-info/PKG-INFO
+sms_gateway_sdk.egg-info/SOURCES.txt
+sms_gateway_sdk.egg-info/dependency_links.txt
+sms_gateway_sdk.egg-info/requires.txt
+sms_gateway_sdk.egg-info/top_level.txt
