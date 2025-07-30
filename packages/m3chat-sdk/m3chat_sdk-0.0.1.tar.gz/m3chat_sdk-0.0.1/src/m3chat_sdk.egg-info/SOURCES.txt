@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/m3chat_sdk/__init__.py
+src/m3chat_sdk/client.py
+src/m3chat_sdk/types.py
+src/m3chat_sdk.egg-info/PKG-INFO
+src/m3chat_sdk.egg-info/SOURCES.txt
+src/m3chat_sdk.egg-info/dependency_links.txt
+src/m3chat_sdk.egg-info/requires.txt
+src/m3chat_sdk.egg-info/top_level.txt
