@@ -1,0 +1,13 @@
+[project]
+name = "aicoderx"
+version = "0.1.3"
+description = "Lightweight code generation using quantized LLMs"
+authors = [{name = "Jayakeerth Kilaparthi", email = "jayakeerth@example.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "transformers",
+    "torch",
+    "accelerate"
+]
