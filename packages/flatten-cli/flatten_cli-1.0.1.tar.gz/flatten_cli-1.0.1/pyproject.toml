@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flatten-cli"
+version = "1.0.1"
+description = "A CLI tool to flatten directory structures"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "PaxtonTerryDev", email = "paxonterrydev@gmail.com"}
+]
+keywords = ["cli", "directory", "flatten", "filesystem", "developer-tools"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+flatten = "flatten.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/flatten-cli"
+Repository = "https://github.com/yourusername/flatten-cli"
+

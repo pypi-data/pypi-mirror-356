@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+flatten/__init__.py
+flatten/cli.py
+flatten_cli.egg-info/PKG-INFO
+flatten_cli.egg-info/SOURCES.txt
+flatten_cli.egg-info/dependency_links.txt
+flatten_cli.egg-info/entry_points.txt
+flatten_cli.egg-info/top_level.txt
