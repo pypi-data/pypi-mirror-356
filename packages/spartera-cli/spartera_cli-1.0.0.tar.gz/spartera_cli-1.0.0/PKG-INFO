@@ -1,0 +1,131 @@
+Metadata-Version: 2.4
+Name: spartera_cli
+Version: 1.0.0
+Summary: Official CLI for Spartera API platform
+Project-URL: Documentation, https://github.com/spartera-com/spartera-cli
+Project-URL: Repository, https://github.com/spartera-com/spartera-cli
+Project-URL: Bug Tracker, https://github.com/spartera-com/spartera-cli/issues
+Author-email: Tony D <tony@spartera.com>
+License: MIT License
+        
+        Copyright (c) 2024 Spartera Inc.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: keyring>=24.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pyyaml>=6.0.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: typer[all]>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: isort>=5.12.0; extra == 'dev'
+Requires-Dist: mypy>=1.0.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# SPARTERA CLI
+
+Official CLI for Spartera API platform
+
+## 🚀 Installation
+
+```bash
+pip install spartera_cli
+```
+
+## 🔐 Authentication
+
+```bash
+spartera auth login
+```
+
+Get your API key from [app.spartera.com](https://app.spartera.com) → Settings → API Keys
+
+## 📖 Quick Start
+
+```bash
+# List assets
+spartera asset list
+
+# Get asset details
+spartera asset get <asset-id>
+
+# Process an asset
+spartera process <asset-id>
+
+# Process marketplace asset
+spartera process company-handle/asset-slug
+
+# Save results to file
+spartera process <asset-id> --output results.json
+
+# Get SVG visualization
+spartera process <asset-id> --svg --output chart.svg
+```
+
+## 📋 Commands
+
+### Authentication
+- `spartera auth login` - Authenticate with API key
+- `spartera auth status` - Show current user info
+- `spartera auth logout` - Clear credentials
+
+### Assets
+- `spartera asset list` - List assets
+- `spartera asset get <id>` - Get asset details
+- `spartera asset create` - Create asset
+- `spartera asset delete <id>` - Delete asset
+
+### Connections
+- `spartera connection list` - List connections
+- `spartera connection create` - Create connection
+- `spartera connection test <id>` - Test connection
+
+### Processing
+- `spartera process <asset-ref>` - Process/analyze asset
+
+### Output Formats
+- `--format json|table|csv` - Output format
+- `--output FILE` - Save to file
+
+## 🛠️ Development
+
+```bash
+git clone https://github.com/spartera-com/spartera-cli
+cd spartera-cli
+pip install -e ".[dev]"
+```
+
+## 📞 Support
+
+- **Issues**: [https://github.com/spartera-com/spartera-cli/issues](https://github.com/spartera-com/spartera-cli/issues)
+- **Email**: tony@spartera.com
