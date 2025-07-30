@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: food-app
+Version: 0.1.5
+Summary: A cli food app to calculate Kcal, Carbs, Protein and Fat.
+Project-URL: Repository, https://gitlab.com/eklownr/food_app.git
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: matplot
+
+# food-app
+Food CLI calculator app for kitty terminal.
+
+### Installation:
+```bash
+    uv pip install food-app
+```
+
+### Usage:
+Works best in kitty terminal.
+```bash
+    python3 food-app 
+```
+
+### Terminal CLI food-app running in kitty.
+![Food-app](data/images/food_calc.png "Food-app")

@@ -1,0 +1,21 @@
+[project]
+name = "food-app"
+version = "0.1.5"
+description = "A cli food app to calculate Kcal, Carbs, Protein and Fat."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ['rich', 'matplot']
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+food-app = "src.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+#include = ["data/*"]
+
+[project.urls]
+Repository = "https://gitlab.com/eklownr/food_app.git"
