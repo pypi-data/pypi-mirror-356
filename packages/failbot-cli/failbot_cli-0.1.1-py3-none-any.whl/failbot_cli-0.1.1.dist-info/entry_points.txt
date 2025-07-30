@@ -1,0 +1,2 @@
+[console_scripts]
+failbot-cli = failbot.cli:app

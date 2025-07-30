@@ -1,0 +1,12 @@
+failbot/__init__.py,sha256=Nqnn8clbgv-5l0PgxcTOldg8mkMKrFn4TvPL-rYUUGg,1
+failbot/auth.py,sha256=B1225U2p8sdoA_SfkLnWMeZ0obEPkWBY6lQ98vhZt2c,431
+failbot/cli.py,sha256=ex0m-Ta76WueqtVaGI5GB64eJv0rMj6Aou5in79xIlc,1415
+failbot/config.py,sha256=qb1FQGwNR-cKkdeMYdKabFiQFZObx6sF7Vya-pJapHU,349
+failbot/send.py,sha256=WUNv_9g1GIGI3WPfYmxIN5Ziq2goTSumKvrwE75XmH4,2455
+failbot/stream.py,sha256=niCLoewsaw_0NurQsNqjWthYeEfaLn25w90B1UK78g4,3885
+failbot_cli-0.1.1.dist-info/licenses/LICENSE,sha256=P-y0GWvn87_nzLszZVXyjqYx3wm5PlXHpw3aAK2TNq4,1069
+failbot_cli-0.1.1.dist-info/METADATA,sha256=tnCDY9Lb9S-2TExI_VUU-hbVzNTb2KYXH6tSORR1HSE,3664
+failbot_cli-0.1.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+failbot_cli-0.1.1.dist-info/entry_points.txt,sha256=6UwPYKM3uMzQvHrGONPL1q5cnJU53DLLySJe0F_ytX0,48
+failbot_cli-0.1.1.dist-info/top_level.txt,sha256=SmRbIVYBrERvKdoKMyAa8k1QKuBTwZHeO3YMbbWjV5Q,8
+failbot_cli-0.1.1.dist-info/RECORD,,
