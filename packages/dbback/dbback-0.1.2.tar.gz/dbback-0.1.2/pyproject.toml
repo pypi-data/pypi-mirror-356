@@ -1,0 +1,31 @@
+[project]
+name = "dbback"
+version = "0.1.2"
+description = "A CLI tool to manage database snapshots"
+authors = [
+  { name="Krishnan Narayanan", email="krishnannarayanan05@gmail.com" }
+]
+readme = { file = "README.md", content-type = "text/markdown" }
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = [
+  "click>=8.0",
+  "mysql-connector-python>=9.0",
+  "asyncpg>=0.30",              # ← only if you're using PostgreSQL async
+  "SQLAlchemy>=2.0",            # ← only if you use SQLAlchemy in your code
+  "requests>=2.32",             # ← only if your code uses requests
+]
+keywords = ["cli", "backup", "database", "mysql", "postgresql", "snapshots"]
+
+[project.scripts]
+dbback = "dbback.cli:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
