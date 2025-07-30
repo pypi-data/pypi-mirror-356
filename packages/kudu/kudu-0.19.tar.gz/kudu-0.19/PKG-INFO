@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: kudu
+Version: 0.19
+Summary: A deployment command line program in Python.
+Home-page: https://github.com/torfeld6/kudu
+Author: Joshua Heller
+Author-email: joshua@torfeld6.com
+License: BSD
+Keywords: cli
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: PyYAML
+Requires-Dist: watchdog
+Requires-Dist: click
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
