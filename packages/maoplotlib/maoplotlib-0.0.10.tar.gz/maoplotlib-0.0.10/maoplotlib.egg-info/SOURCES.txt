@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+maoplotlib/__init__.py
+maoplotlib/all.py
+maoplotlib/testing.py
+maoplotlib.egg-info/PKG-INFO
+maoplotlib.egg-info/SOURCES.txt
+maoplotlib.egg-info/dependency_links.txt
+maoplotlib.egg-info/requires.txt
+maoplotlib.egg-info/top_level.txt

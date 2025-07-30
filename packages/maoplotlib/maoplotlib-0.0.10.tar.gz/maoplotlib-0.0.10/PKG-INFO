@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: maoplotlib
+Version: 0.0.10
+Summary: you go girl
+Home-page: https://github.com/maomaoshka/maomao
+Author: maoshka
+Author-email: marsohod_mao@mail.ru
+Project-URL: GitHub, https://github.com/maomaoshka/maomao
+Keywords: mao exam
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+## it's empty, sorry ##
