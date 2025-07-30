@@ -1,0 +1,2 @@
+[console_scripts]
+chatting-live = chatting_live.client:main
