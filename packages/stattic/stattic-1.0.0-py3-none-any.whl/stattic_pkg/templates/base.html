@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ ((seo_title or title) ~ ' | ' ~ (site_title or 'Stattic')) if (seo_title or title) else (site_title or 'Stattic') }}</title>
+    <meta name="description" content="{% if seo_description %}{{ seo_description }}{% else %}Stattic is a fast, lightweight static site generator that optimizes images, supports custom fonts, and easily integrates with GitHub Pages for quick, SEO-friendly site deployment without the bloat of traditional CMS platforms like WordPress.{% endif %}">
+    <meta name="keywords" content="{% if seo_keywords %}{{ seo_keywords }}{% else %}SSG, Static Site Generator{% endif %}">
+    <meta name="author" content="{% if author %}{{ author }}{% else %}Robert DeVore{% endif %}">
+    <link href="{{ relative_path }}assets/css/tailwind.min.css" rel="stylesheet">
+    {% if minify %}
+    <link href="{{ relative_path }}assets/css/stattic.min.css" rel="stylesheet">
+    {% else %}
+    <link href="{{ relative_path }}assets/css/stattic.css" rel="stylesheet">
+    <link href="{{ relative_path }}assets/css/fonts.css" rel="stylesheet">
+    {% endif %}
+    {% if canonical %}
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ canonical }}">
+    {% endif %}
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{% if seo_title %}{{ seo_title }}{% else %}{{ title }}{% endif %}">
+    <meta property="og:description" content="{% if seo_description %}{{ seo_description }}{% else %}Stattic is a fast, lightweight static site generator.{% endif %}">
+    <meta property="og:url" content="{% if canonical %}{{ canonical }}{% elif page and page.permalink %}{{ site_url }}/{{ page.permalink | trim('/') }}{% elif site_url %}{{ site_url }}{% endif %}">
+    <meta property="og:type" content="website">
+    {% if featured_image %}
+    <meta property="og:image" content="{{ relative_path }}{{ featured_image }}">
+    {% endif %}
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if seo_title %}{{ seo_title }}{% else %}{{ title }}{% endif %}">
+    <meta name="twitter:description" content="{% if seo_description %}{{ seo_description }}{% else %}Stattic is a fast, lightweight static site generator.{% endif %}">
+    {% if featured_image %}
+    <meta name="twitter:image" content="{{ relative_path }}{{ featured_image }}">
+    {% endif %}
+    <!-- Alpine.js for interactive components -->
+    <script src="{{ relative_path }}assets/js/alpine.min.js" defer></script>
+</head>
+<body class="bg-background bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-900 to-slate-950 text-primary font-body-light">
+
+<!-- Skip Links for Accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<a href="#navigation" class="skip-link">Skip to navigation</a>
+<a href="#footer" class="skip-link">Skip to footer</a>
+
+<header id="navigation" x-data="{ mobileMenuOpen: false }">
+    <div class="container max-w-screen-xl m-auto py-6 px-4 flex justify-between items-center">
+        <h2 class="text-3xl font-bold font-heading-bold"><a href="{{ relative_path }}" class="text-links">{{ site_title or 'Stattic' }}</a></h2>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+            <ul class="flex space-x-6">
+                {% for page in pages %}
+                    {% if page.nav_hide != 'true' %}
+                        <li>
+                            <a href="{{ relative_path }}{{ page.permalink.strip('/') }}/" class="text-primary hover:underline">{{ page.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger Button -->
+        <button 
+            @click="mobileMenuOpen = true"
+            class="md:hidden text-primary focus:outline-none focus:ring-2 focus:ring-links rounded-md p-2"
+            aria-label="Open mobile menu"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div 
+        x-show="mobileMenuOpen"
+        x-transition:enter="transition-opacity ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition-opacity ease-in duration-300"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+        @click="mobileMenuOpen = false"
+    >
+        <!-- Mobile Menu Panel -->
+        <div 
+            x-show="mobileMenuOpen"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="translate-x-full"
+            x-transition:enter-end="translate-x-0"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="translate-x-0"
+            x-transition:leave-end="translate-x-full"
+            class="fixed inset-y-0 right-0 w-full max-w-xl bg-slate-900 shadow-xl z-60"
+            @click.stop
+        >
+            <div class="flex flex-col h-full">
+                <!-- Mobile Menu Header -->
+                <div class="flex items-center justify-between px-6 py-4 border-b border-slate-700">
+                    <h3 class="text-xl font-bold text-links">{{ site_title or 'Stattic' }}</h3>
+                    <button 
+                        @click="mobileMenuOpen = false"
+                        class="text-primary focus:outline-none focus:ring-2 focus:ring-links rounded-md p-2"
+                        aria-label="Close mobile menu"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Navigation -->
+                <nav class="flex-1 px-6 py-6">
+                    <ul class="space-y-4">
+                        {% for page in pages %}
+                            {% if page.nav_hide != 'true' %}
+                                <li>
+                                    <a 
+                                        href="{{ relative_path }}{{ page.permalink.strip('/') }}/" 
+                                        class="text-primary hover:text-links text-lg font-medium block py-2"
+                                        @click="mobileMenuOpen = false"
+                                    >
+                                        {{ page.title }}
+                                    </a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% block content %}
+    <!-- Page content will go here -->
+{% endblock %}
+
+<footer class="bg-background border-t border-primary mt-10 py-6" id="footer">
+    <div class="container max-w-screen-xl m-auto px-4 text-center">
+        <p>Get <a href="https://stattic.site/" target="_blank" class="text-links font-bold" aria-label="Stattic - opens in a new tab">Stattic</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
