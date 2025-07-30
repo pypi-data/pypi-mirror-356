@@ -1,0 +1,2 @@
+[console_scripts]
+seisd = seisd.seisd_main:seisd

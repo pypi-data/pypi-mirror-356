@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SeisD
+Version: 1.0.0
+Summary: A seismic data downloader and visualizer with a GUI
+Author: 余松平(Yu Songping)
+Author-email: ysp@cug.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: obspy
+Requires-Dist: PyQt5
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
