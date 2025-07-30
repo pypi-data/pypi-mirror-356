@@ -1,0 +1,2 @@
+[console_scripts]
+apitest = apitest:cli
