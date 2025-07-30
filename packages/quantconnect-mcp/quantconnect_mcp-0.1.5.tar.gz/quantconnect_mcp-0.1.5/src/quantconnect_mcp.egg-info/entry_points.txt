@@ -1,0 +1,2 @@
+[console_scripts]
+quantconnect-mcp = server:main
