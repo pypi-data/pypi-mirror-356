@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: apkg
+Version: 0.6.1
+Summary: cross-distro upstream packaging automation tool
+Home-page: https://gitlab.nic.cz/packaging/apkg
+Author: Jakub Ružicka
+Author-email: Jakub Ružička <jakub.ruzicka@nic.cz>
+License: MIT
+Project-URL: Documentation, https://gitlab.nic.cz/packaging/apkg/-/blob/master/README.md
+Project-URL: Issues, https://gitlab.nic.cz/packaging/apkg/-/issues
+Project-URL: Source, https://gitlab.nic.cz/packaging/apkg
+Keywords: packaging,devops,CI,cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: beautifulsoup4
+Requires-Dist: blessed
+Requires-Dist: cached_property
+Requires-Dist: click
+Requires-Dist: distro
+Requires-Dist: jinja2
+Requires-Dist: packaging
+Requires-Dist: requests
+Requires-Dist: toml
+Dynamic: license-file
+
+# [apkg docs online][upstream-docs]
+
+## [apkg docs on Read the Docs][docs]
+
+## [apkg docs on GitLab](https://gitlab.nic.cz/packaging/apkg/-/blob/master/docs/README.md)
+
+## apkg docs offline
+
+See docs/index.md and other files in docs/ directory.
+
+You can also render docs into HTML using mkdocs:
+
+    pip install -r doc-requirements.txt
+    mkdocs build
+    browser site/index.html
+
+#### read the [docs] and have a nice packaging ᕕ( ᐛ )ᕗ
+
+[docs]: https://apkg.rtfd.io
+[upstream-docs]: https://pkg.labs.nic.cz/pages/apkg
