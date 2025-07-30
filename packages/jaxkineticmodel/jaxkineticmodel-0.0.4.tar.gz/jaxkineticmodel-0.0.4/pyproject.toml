@@ -1,0 +1,94 @@
+[tool.logging]
+version = 1
+incremental = true
+
+[tool.logging.formatters.formatter]
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+default_time_format = "%H:%M:%S"
+
+[tool.logging.root]
+# The root logger level holds for every module that doesn't have its own level.
+level = "WARN"
+
+[tool.logging.loggers."__main__"]
+# The special module __main__ is the script currently being executed.
+level = "WARN"
+
+[tool.logging.loggers."jax"]
+level = "INFO"
+
+[tool.logging.loggers."matplotlib"]
+level = "INFO"
+
+[tool.ruff]
+# Set the maximum line length to 79.
+line-length = 127
+
+[tool.ruff.format]
+docstring-code-format = true  # code snippets in docstrings will be formatted
+
+[tool.ruff.lint]
+# Add the `line-too-long` rule to the enforced rule set.
+extend-select = ["E501","F405","E402"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+pythonpath = "."
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jaxkineticmodel*"]
+
+[tool.my_project]
+project_root = "."
+
+[project]
+name = "jaxkineticmodel"
+version = "0.0.4"
+readme = "README.md"
+requires-python = ">=3.9"
+description = "A tool for building, training, and simulating metabolic kinetic models in Jax/Diffrax"
+
+dependencies = [
+    "diffrax>=0.6.0",
+    "equinox>=0.11.8",
+    "functions==0.7.0",
+    "jax==0.4.35",
+    "jaxlib==0.4.35",
+    "matplotlib>=3.9.2",
+    #"numpy>=2.0.2",
+    "optax==0.2.3",
+    "pandas>=1.1.4",
+    "pytest>=8.3.4",
+    "scikit_learn==1.5.2",
+    "scipy>=1.11.1",
+    "sympy>=1.13.3",
+    "tomli>=2.1.0 ; python_version<'3.11'",
+    "python-libsbml==5.20.4",
+    "scikit-optimize>=0.10.2",
+    "markdown-include>=0.8.1",
+    "xgboost>=2.1.3"
+]
+
+authors = [
+  {name="Paul van Lent", email="p.h.vanlent@tudelft.nl"},
+  {name="Léon Planken",email="l.r.planken@tudelft.nl"},
+  {name="Thomas Abeel", email="t.abeel@tudelft.nl"},
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+#[project.urls]
+#Homepage = "https://github.com/pypa/sampleproject"
+#Issues = "https://github.com/pypa/sampleproject/issues"
+
+[project.optional-dependencies]
+test = ["libroadrunner>=2.7.0"]
