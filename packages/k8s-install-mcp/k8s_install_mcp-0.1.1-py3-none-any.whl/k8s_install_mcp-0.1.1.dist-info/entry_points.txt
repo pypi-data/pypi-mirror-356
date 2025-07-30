@@ -1,0 +1,2 @@
+[console_scripts]
+k8s-install-mcp = k8s_install_mcp:main
