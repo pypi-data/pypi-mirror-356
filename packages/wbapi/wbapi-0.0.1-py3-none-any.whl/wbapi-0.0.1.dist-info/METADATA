@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: wbapi
+Version: 0.0.1
+Summary: Thin wrapper for the Wildberries API
+Author-email: Dmitry Drozdov <ds.drozdov@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
+Thin wrapper for the Wildberries API
