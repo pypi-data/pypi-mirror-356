@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lightweight_charts_v5/__init__.py
+lightweight_charts_v5/frontend/build/asset-manifest.json
+lightweight_charts_v5/frontend/build/bootstrap.min.css
+lightweight_charts_v5/frontend/build/index.html
+lightweight_charts_v5/frontend/build/static/js/main.477bf26b.js
+lightweight_charts_v5/frontend/build/static/js/main.477bf26b.js.LICENSE.txt
+lightweight_charts_v5/frontend/build/static/js/main.477bf26b.js.map
+streamlit_lightweight_charts_v5.egg-info/PKG-INFO
+streamlit_lightweight_charts_v5.egg-info/SOURCES.txt
+streamlit_lightweight_charts_v5.egg-info/dependency_links.txt
+streamlit_lightweight_charts_v5.egg-info/requires.txt
+streamlit_lightweight_charts_v5.egg-info/top_level.txt
