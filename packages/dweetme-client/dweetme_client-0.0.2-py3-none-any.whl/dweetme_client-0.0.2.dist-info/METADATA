@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: dweetme_client
+Version: 0.0.2
+Summary: Python client for Dweet.me API
+Author-email: "Dweet.me" <dweet.me.server@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://dweet.me
+Project-URL: Repository, https://github.com/dweetme/python-client
+Project-URL: Issues, https://github.com/dweetme/python-client/issues
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.28.0
+Dynamic: license-file
+
+# python-client
+This is a python client library for dweetme
