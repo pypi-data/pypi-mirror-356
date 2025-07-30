@@ -1,0 +1,31 @@
+"""
+@文件        :__init__.py
+@说明        :{{ description }}
+@时间        :{{ date }}
+@作者        :{{ author }}
+@邮箱        :{{ email }}
+@版本        :{{ version }}
+"""
+import os
+
+from simplejrpc.app import ServerApplication
+from simplejrpc.response import jsonify
+
+from app.services.example import Example
+from app.schemas.example import ExampleForm
+from app.middlewares.example import ExampleMiddleware
+
+
+current_path = os.path.dirname(__file__)
+socket_path = os.path.join(current_path, "tmp.socket")
+app = ServerApplication(socket_path)
+app.middleware(ExampleMiddleware())
+
+
+@app.route(name="hello", form=ExampleForm)
+async def hello(lang, action):
+    """ """
+    example = Example()
+    data =  await example.hello(lang, action)
+    return jsonify(data=data, msg="OK")
+
