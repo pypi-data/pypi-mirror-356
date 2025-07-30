@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: qmetro
+Version: 1.0.0
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: scipy>=1.14.1
+Requires-Dist: cvxpy>=1.6.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: networkx>=3.3
+
