@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: textuscore
+Version: 0.0.1
+Summary: Toolkit per la generazione di esercizi musicali e manuali Sax Jazz Lab
+License: MIT
+Keywords: musicology,music21,lilypond,music,score,engraving
+Author: PythonWoods
+Author-email: 65970310+PythonWoods@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Homepage, https://github.com/PythonWoods/TextuScore
+Project-URL: Repository, https://github.com/PythonWoods/TextuScore
+Description-Content-Type: text/markdown
+
+# TextuScore (v0.0.0)
+
+This is a placeholder package to reserve the `textuscore` name on PyPI for the upcoming open-source framework.
+
+The official repository for the project will be located at:
+**<https://https://github.com/PythonWoods/TextuScore>**
+
+Development is in progress. Please check the repository for updates.
+
