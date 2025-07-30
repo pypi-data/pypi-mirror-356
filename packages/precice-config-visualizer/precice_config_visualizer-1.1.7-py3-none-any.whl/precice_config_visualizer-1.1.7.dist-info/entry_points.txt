@@ -1,0 +1,2 @@
+[console_scripts]
+precice-config-visualizer = preciceconfigvisualizer.cli:main
