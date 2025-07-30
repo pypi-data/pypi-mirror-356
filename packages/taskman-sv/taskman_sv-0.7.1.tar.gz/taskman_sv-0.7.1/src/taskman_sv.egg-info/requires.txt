@@ -1,0 +1,8 @@
+colorama
+cryptography
+bcrypt
+tqdm
+requests
+
+[:platform_system == "Windows"]
+pywin32
