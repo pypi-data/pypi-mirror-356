@@ -1,0 +1,2 @@
+[console_scripts]
+wtip = wcommon.__main__:main
