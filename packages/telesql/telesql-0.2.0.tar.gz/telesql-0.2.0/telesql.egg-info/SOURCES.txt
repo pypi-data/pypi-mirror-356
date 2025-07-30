@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+telesql/__init__.py
+telesql/core.py
+telesql/table.py
+telesql.egg-info/PKG-INFO
+telesql.egg-info/SOURCES.txt
+telesql.egg-info/dependency_links.txt
+telesql.egg-info/requires.txt
+telesql.egg-info/top_level.txt
+telesql/errors/__init__.py
+telesql/types/__init__.py
+telesql/types/sqltypes.py
