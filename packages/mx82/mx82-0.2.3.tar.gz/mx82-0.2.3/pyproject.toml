@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "mx82"
+version = "0.2.3"
+description = "my extensions: reusable functions for scientific computing"
+authors = ["Lox Nez Monsta <magpylib@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/OrtnerMichael/mx"
+repository = "https://github.com/OrtnerMichael/mx"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+numpy = ">=2.3.0,<3.0.0"
+
+[[tool.poetry.packages]]
+include = "mx82"
+from = "src"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+pytest-cov = "^6.2.1"
+ruff = "^0.12.0"
+pre-commit = "^4.2.0"
+mypy = "^1.16.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
