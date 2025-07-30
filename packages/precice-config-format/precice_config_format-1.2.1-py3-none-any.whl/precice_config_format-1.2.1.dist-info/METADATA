@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: precice-config-format
+Version: 1.2.1
+Summary: A tool for consistently formatting a preCICE configuration file.
+Author-email: The preCICE Developers <info@precice.org>
+Maintainer-email: Frédéric Simonis <frederic.simonis@ipvs.uni-stuttgart.de>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://precice.org
+Project-URL: Repository, https://github.com/precice/config-format.git
+Project-URL: Bug Tracker, https://github.com/precice/config-format/issues
+Keywords: preCICE,XML,configuration,format,formatter
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Dynamic: license-file
+
+# preCICE Config-Format
+
+`config-format` is a tool meant to format preCICE configurations consistently. A uniform order simplifies cooperation debugging.
+
+## Installation options
+
+Install directly from PyPi using [pipx](https://pipx.pypa.io/stable/) or via pip:
+
+```console
+pipx install precice-config-format
+```
+
+## Usage
+
+To format one or more preCICE configuration files in-place:
+
+```console
+precice-config-format FILE ...
+```
+
+The script returns with exit code 0 on success, 1 on error, and 2 if a file was modified.
+
+## pre-commit hook
+
+To use this script as a pre-commit hook select [a tag](https://github.com/precice/config-format/tags) and add:
+
+```yaml
+-   repo: https://github.com/precice/config-format
+    rev: ''  # Use the tag you want to use
+    hooks:
+    -   id: precice-config-format
+```
+
+To exclude directories, use `exclude:`
+
+```yaml
+-   repo: https://github.com/precice/config-format
+    rev: ''  # Use the tag you want to use
+    hooks:
+    -   id: precice-config-format
+        exclude: '^thridparty' # optionally exclude directories here
+```
