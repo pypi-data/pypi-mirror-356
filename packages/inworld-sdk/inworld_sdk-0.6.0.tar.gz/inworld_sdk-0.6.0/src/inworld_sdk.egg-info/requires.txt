@@ -1,0 +1,7 @@
+httpx>=0.28.1
+
+[dev]
+black>=25.1
+isort>=6.0
+flake8>=7.2
+mypy>=1.16
