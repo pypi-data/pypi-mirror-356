@@ -1,0 +1,7 @@
+{
+  "base_command": "python example/example_script.py",
+  "output_dir": "results_directory",
+  "param_grid": {
+    "number": [1, 2, 3]
+  }
+}

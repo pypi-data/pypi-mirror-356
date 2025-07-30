@@ -1,0 +1,12 @@
+loguru
+tqdm
+torch
+pandas
+pyarrow
+scikit-learn
+
+[dev]
+pytest
+ruff
+build
+twine
