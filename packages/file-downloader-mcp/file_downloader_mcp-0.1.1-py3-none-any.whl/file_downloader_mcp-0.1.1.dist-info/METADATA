@@ -1,0 +1,185 @@
+Metadata-Version: 2.4
+Name: file-downloader-mcp
+Version: 0.1.1
+Summary: A simple MCP server for downloading files from URLs
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: mcp>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest-asyncio>=0.21.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: ruff>=0.1.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# File Downloader MCP Server
+
+一个简单而强大的文件下载MCP（Model Context Protocol）服务器，支持从URL下载文件到指定目录并自定义文件名。
+
+## 功能特性
+
+- 🌐 支持HTTP/HTTPS URL下载
+- 📁 自定义保存目录
+- 📝 自定义文件名
+- 🔄 自动创建目录
+- 📊 显示下载进度和文件信息
+- 🛡️ 错误处理和重试机制
+- 📋 自动文件类型检测
+- 🔒 文件名冲突处理
+
+## 安装
+
+### 使用uv（推荐）
+
+```bash
+# 克隆或创建项目
+cd file-downloader-mcp
+
+# 安装依赖
+uv sync
+
+# 运行服务器
+uv run file-downloader-mcp
+```
+
+### 开发模式
+
+```bash
+# 开发模式运行（支持热重载）
+uv run python -m file_downloader_mcp.server
+
+# 或者直接运行
+uv run src/file_downloader_mcp/server.py
+```
+
+## MCP客户端配置
+
+### Claude Desktop配置
+
+在Claude Desktop的配置文件中添加：
+
+```json
+{
+  "mcpServers": {
+    "file-downloader": {
+      "command": "uv",
+      "args": ["run", "file-downloader-mcp"],
+      "cwd": "/path/to/file-downloader-mcp"
+    }
+  }
+}
+```
+
+### Cursor IDE配置
+
+在`.cursor/mcp.json`中添加：
+
+```json
+{
+  "mcpServers": {
+    "file-downloader": {
+      "command": "uv",
+      "args": ["run", "file-downloader-mcp"],
+      "cwd": "/path/to/file-downloader-mcp"
+    }
+  }
+}
+```
+
+## 使用方法
+
+### 工具：download_file
+
+下载文件的主要工具，支持以下参数：
+
+#### 参数
+
+- `url` (必需): 要下载的文件URL
+- `save_path` (可选): 保存目录路径，默认为`./downloads`
+- `filename` (可选): 自定义文件名，默认从URL提取
+
+#### 使用示例
+
+1. **基本下载**
+```json
+{
+  "url": "https://example.com/image.jpg"
+}
+```
+
+2. **指定保存目录**
+```json
+{
+  "url": "https://example.com/document.pdf",
+  "save_path": "/Users/username/Downloads"
+}
+```
+
+3. **自定义文件名**
+```json
+{
+  "url": "https://example.com/file.zip",
+  "save_path": "./my_files",
+  "filename": "custom_name.zip"
+}
+```
+
+4. **完整参数示例**
+```json
+{
+  "url": "https://github.com/user/repo/archive/main.zip",
+  "save_path": "./projects",
+  "filename": "repo_backup.zip"
+}
+```
+
+## 特性说明
+
+### 自动文件类型检测
+服务器会根据HTTP响应的`Content-Type`自动为文件添加合适的扩展名：
+- `image/jpeg` → `.jpg`
+- `image/png` → `.png`
+- `application/pdf` → `.pdf`
+- `application/zip` → `.zip`
+- 等等...
+
+### 文件名冲突处理
+如果目标文件已存在，会自动添加数字后缀：
+- `file.txt` → `file_1.txt`
+- `image.jpg` → `image_1.jpg`
+
+### 错误处理
+- 网络错误自动重试
+- 无效URL检测
+- 权限错误提示
+- HTTP状态码错误处理
+
+## 开发
+
+### 项目结构
+```
+file-downloader-mcp/
+├── pyproject.toml          # 项目配置
+├── README.md              # 说明文档
+├── src/
+│   └── file_downloader_mcp/
+│       ├── __init__.py    # 包初始化
+│       └── server.py      # 主服务器代码
+└── tests/                 # 测试文件（可选）
+```
+
+### 运行测试
+```bash
+uv run pytest
+```
+
+### 代码格式化
+```bash
+uv run ruff format .
+uv run ruff check .
+```
+
+## 许可证
+
+MIT License

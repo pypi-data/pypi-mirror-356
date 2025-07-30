@@ -1,0 +1,2 @@
+[console_scripts]
+file-downloader-mcp = file_downloader_mcp.server:main
