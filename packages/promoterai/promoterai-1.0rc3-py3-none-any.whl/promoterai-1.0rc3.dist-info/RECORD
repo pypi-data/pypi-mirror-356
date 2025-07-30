@@ -1,0 +1,15 @@
+promoterai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+promoterai/architecture.py,sha256=LWnPDjWv3UMnWu7ESApsZFJdTGzMpEiI2UqV62Lrn3I,2585
+promoterai/finetune.py,sha256=bvWaV4BG-OLmzcNPz_CUcB7Nri2DGLfuOEgRnAwx13A,2287
+promoterai/generator.py,sha256=GOlbXLBgdANHNbY3HuYspbqyo7Anrr7HZrQ0w95WjrU,5179
+promoterai/preprocess.py,sha256=zMDTew0HF_vOG2Rl2h4BBCUTI94p2AYeWbcDlRrngeQ,1238
+promoterai/score.py,sha256=u8Jf-G1inxwHFoTkTpzFHsmKRFeDj1PELjliiGk1rKo,1656
+promoterai/tfrecords.py,sha256=qWk_9NCWPlnMfqLLvtNA-a8WzYw3AwVeQBuJ39pIM5c,3803
+promoterai/train.py,sha256=ZdVbzqcmp1TqRC1hdMEVnlLtPCAtpVaIU8PQo_gZOZs,2699
+promoterai/utils.py,sha256=Cn1g8wXvic0bzniwLc9-9g66vnH1PNOgLDr_oEYa8Ao,1478
+promoterai-1.0rc3.dist-info/licenses/LICENSE,sha256=4jYfUq1b4iuTem6YPIJKU0xc_6RUtsNK8vjODCzffBo,3593
+promoterai-1.0rc3.dist-info/METADATA,sha256=MKfZsZOpV3NYWjHxxTTEzLRN1dMdbOl7Y-ZnL0vkSrk,4828
+promoterai-1.0rc3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+promoterai-1.0rc3.dist-info/entry_points.txt,sha256=YCE7xc4oobcf2mcND7yKdxpYni4JUvuULaejyCMOntI,53
+promoterai-1.0rc3.dist-info/top_level.txt,sha256=np5NHXn_z3OJg-mw30ncmEQvb4R5QIDlx7udE4xXDMU,11
+promoterai-1.0rc3.dist-info/RECORD,,
