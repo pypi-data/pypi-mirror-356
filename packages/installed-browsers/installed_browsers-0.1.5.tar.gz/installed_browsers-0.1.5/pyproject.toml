@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "installed-browsers"
+version = "0.1.5"
+repository = "https://github.com/undeflorate/installed_browsers"
+description = "Python library to check installed browsers"
+authors = ["undeflorate <swanslayer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+packages = [
+    { include = "installed_browsers"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyxdg = { version = ">=0.27,<0.29", markers = "sys_platform == 'linux'" }
+pywin32 = { version = ">=303,<311", markers = "sys_platform == 'win32'" }
+
+[tool.poetry.dev-dependencies]
+autoflake = "^1.7.8"
+black = "^25.1.0"
+isort = "^6.0.1"
+mypy = "^1.4"
+pyproject-flake8 = "^5.0.4"
+pytest = "^8.2.2"
+pytest-clarity = "^1.0.1"
+pytest-cov = "^6.0.0"
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+force_grid_wrap = 0
+use_parentheses = true
+include_trailing_comma = true
+ensure_newline_before_comments = true
+atomic = true
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = """
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/setup.py
+"""
+
+[tool.mypy]
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = [
+    "pkg_resources",
+]
+ignore_missing_imports = true
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = ["E203"]
+extend-exclude = """
+setup.py,
+"""
+
+[tool.pytest.ini_options]
+addopts = """\
+    --cov=installed_browsers \
+    --cov-report=term-missing \
+    --cov-report=xml \
+    --cov-report=html \
+    -vv \
+    -x \
+    -s \
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
