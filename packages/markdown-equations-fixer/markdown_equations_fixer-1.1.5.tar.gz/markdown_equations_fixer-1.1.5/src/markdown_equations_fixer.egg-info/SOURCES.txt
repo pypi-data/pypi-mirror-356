@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/markdown_equations_fixer/__init__.py
+src/markdown_equations_fixer/cli.py
+src/markdown_equations_fixer.egg-info/PKG-INFO
+src/markdown_equations_fixer.egg-info/SOURCES.txt
+src/markdown_equations_fixer.egg-info/dependency_links.txt
+src/markdown_equations_fixer.egg-info/entry_points.txt
+src/markdown_equations_fixer.egg-info/requires.txt
+src/markdown_equations_fixer.egg-info/top_level.txt

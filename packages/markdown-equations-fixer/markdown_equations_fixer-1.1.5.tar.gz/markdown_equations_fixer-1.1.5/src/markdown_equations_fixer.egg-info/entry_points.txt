@@ -1,0 +1,2 @@
+[console_scripts]
+meq-fixer = markdown_equations_fixer.cli:cli
