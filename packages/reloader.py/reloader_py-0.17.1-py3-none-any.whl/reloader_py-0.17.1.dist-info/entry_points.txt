@@ -1,0 +1,4 @@
+[console_scripts]
+reloader = __reloader__:main
+reloader-py = __reloader__:main
+reloader.py = __reloader__:main
