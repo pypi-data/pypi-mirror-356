@@ -1,0 +1,10 @@
+transformers
+snac
+librosa
+torchaudio
+pydantic
+descript-audio-codec
+soundfile
+inflect
+pandas
+pyannote.audio
