@@ -1,0 +1,2 @@
+[console_scripts]
+netinit = netinit.main:main
