@@ -1,0 +1,2 @@
+[console_scripts]
+xkcd_parser = xkcd_parser.parser:cli
