@@ -1,0 +1,3 @@
+[console_scripts]
+mcp-mesh = mcp_mesh.cli:main
+mesh = mcp_mesh.cli:main
