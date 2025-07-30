@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: dioptic.profileparser
+Version: 0.2.2
+Summary: Parser library for ARGOS declarative profiles.
+Home-page: https://github.com/dioptic/profileparser
+Author: Peter Würtz
+Author-email: pwuertz@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: summary
+
+# Dioptic declarative profile parser
