@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "github-file-loader"
+version = "0.2.0"
+description = "A Python package for loading files from GitHub repositories with async support and file filtering"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Md Abid Hussain", email = "abid0hussain1733@gmail.com" }]
+license = { text = "MIT" }
+keywords = ["github", "api", "files", "async", "loader"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dependencies = [
+    "aiohttp>=3.8.0",
+    "requests>=2.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/md-abid-hussain/github-file-loader"
+Documentation = "https://github.com/md-abid-hussain/github-file-loader#readme"
+Repository = "https://github.com/md-abid-hussain/github-file-loader.git"
+"Bug Reports" = "https://github.com/md-abid-hussain/github-file-loader/issues"
+Changelog = "https://github.com/md-abid-hussain/github-file-loader/blob/main/CHANGELOG.md"
+
+[project.scripts]
+github-file-loader = "github_file_loader.__main__:cli_main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-asyncio>=0.20.0",
+    "black>=22.0.0",
+    "isort>=5.0.0",
+    "mypy>=0.950",
+    "build>=0.8.0",
+    "twine>=4.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/github_file_loader"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
