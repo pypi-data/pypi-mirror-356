@@ -1,0 +1,4 @@
+[console_scripts]
+magg=magg.cli:main
+mbro=magg.mbro.cli:main
+
