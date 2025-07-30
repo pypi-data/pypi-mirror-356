@@ -1,0 +1,15 @@
+dvc
+s3fs>=2024.12.0
+aiobotocore[boto3]>=2.5.0
+flatten_dict<1,>=0.4.1
+
+[dev]
+dvc-s3[tests]
+mypy==1.16.0
+
+[tests]
+dvc[testing]
+pytest<9,>=7
+pytest-cov>=4.1.0
+pytest-xdist>=3.2
+pytest-servers[s3]>=0.4.0
