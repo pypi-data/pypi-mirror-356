@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: Banz_i18n_codegenerator
+Version: 0.0.2
+Summary: Package to generate java constants for provided i18n.properties files.
+Author-Email: Sebastian Banz <sebanzian@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/derbanz
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# i18n file generator
+Provided multiple i18n.properties files, this will generate three Java classes Constants, Messages and ValidationMessages to link to the strings.
