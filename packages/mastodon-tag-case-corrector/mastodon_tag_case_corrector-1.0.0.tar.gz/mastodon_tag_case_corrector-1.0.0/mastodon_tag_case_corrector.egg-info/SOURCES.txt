@@ -1,0 +1,15 @@
+LICENSE
+README-pypi.md
+README.md
+cli.py
+main.py
+pyproject.toml
+setup.cfg
+setup.py
+mastodon_tag_case_corrector.egg-info/PKG-INFO
+mastodon_tag_case_corrector.egg-info/SOURCES.txt
+mastodon_tag_case_corrector.egg-info/dependency_links.txt
+mastodon_tag_case_corrector.egg-info/entry_points.txt
+mastodon_tag_case_corrector.egg-info/not-zip-safe
+mastodon_tag_case_corrector.egg-info/requires.txt
+mastodon_tag_case_corrector.egg-info/top_level.txt
