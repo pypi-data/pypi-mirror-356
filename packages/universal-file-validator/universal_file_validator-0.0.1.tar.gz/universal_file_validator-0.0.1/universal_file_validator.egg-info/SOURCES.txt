@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+file_validator/__init__.py
+file_validator/checker.py
+file_validator/config.py
+file_validator/exception.py
+file_validator/extension.py
+file_validator/main.py
+universal_file_validator.egg-info/PKG-INFO
+universal_file_validator.egg-info/SOURCES.txt
+universal_file_validator.egg-info/dependency_links.txt
+universal_file_validator.egg-info/requires.txt
+universal_file_validator.egg-info/top_level.txt
