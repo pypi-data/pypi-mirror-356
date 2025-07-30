@@ -1,0 +1,47 @@
+[project]
+name = "rongda-mcp-server"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "iaalm", email = "iaalmsimon@gmail.com" }
+]
+dynamic = [
+    "version",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.18",
+    "cryptography>=44.0.2",
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.6.0",
+]
+
+[project.scripts]
+rongda-mcp-server = "rongda_mcp_server.__main__:start_server"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "rongda_mcp_server/__about__.py"
+
+[tool.isort]
+profile = "black"
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+]
+
+[tool.hatch.build]
+artifacts = [
+    "rongda_mcp_server/*.pyi",
+    "rongda_mcp_server/py.typed"
+]
