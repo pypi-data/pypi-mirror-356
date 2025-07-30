@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apkg"
+description = "cross-distro upstream packaging automation tool"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+keywords = ["packaging", "devops", "CI", "cli"]
+authors = [
+  { name = "Jakub Ružička", email = "jakub.ruzicka@nic.cz" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "beautifulsoup4",
+    "blessed",
+    "cached_property",
+    "click",
+    "distro",
+    "jinja2",
+    "packaging",
+    "requests",
+    "toml",
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://gitlab.nic.cz/packaging/apkg/-/blob/master/README.md"
+Issues = "https://gitlab.nic.cz/packaging/apkg/-/issues"
+Source = "https://gitlab.nic.cz/packaging/apkg"
+
+[project.scripts]
+apkg = "apkg.cli:main"

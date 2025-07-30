@@ -1,0 +1,2 @@
+[console_scripts]
+apkg = apkg.cli:main
