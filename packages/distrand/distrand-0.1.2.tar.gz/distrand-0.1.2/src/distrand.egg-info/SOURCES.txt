@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/distrand/__init__.py
+src/distrand/distrand.py
+src/distrand.egg-info/PKG-INFO
+src/distrand.egg-info/SOURCES.txt
+src/distrand.egg-info/dependency_links.txt
+src/distrand.egg-info/requires.txt
+src/distrand.egg-info/top_level.txt
+tests/test_distrand.py
