@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "WebFetch(domain:python-pptx.readthedocs.io)",
+      "Bash(rg:*)",
+      "mcp__context7__get-library-docs",
+      "Bash(grep:*)",
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(find:*)",
+      "mcp__deepwiki__deepwiki_fetch"
+    ],
+    "deny": []
+  }
+}
