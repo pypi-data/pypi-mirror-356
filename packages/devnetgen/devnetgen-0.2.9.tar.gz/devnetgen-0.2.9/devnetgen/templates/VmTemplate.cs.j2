@@ -1,0 +1,40 @@
+{% for namespace in entity.required_system_namespaces %}
+using {{ namespace.name }};
+{% endfor %}
+{% if ientity %}
+using {{ entity.solution_name }}.Domain.Common;
+{% endif %}
+using {{ entity.solution_name }}.Application.Common.Mappings;
+{% for namespace in entity.required_solution_namespaces %}
+using {{ namespace.name }};
+{% endfor %}
+
+namespace {{ target_namespace }};
+
+/// <summary>
+/// Модель представления для сущности "{{ entity.class_summary }}"
+/// </summary>
+public class {{ entity.class_name }}Vm : IMapFrom<{{ entity.class_name }}>{% if ientity %}, IEntityWithId<long> {% endif +%}
+{
+    /// <summary>
+    /// Идентификатор
+    /// </summary>
+    public long Id { get; set; }
+{% for p in entity.properties %}
+
+    {% if p.summary %}
+    /// <summary>
+    {% if p.is_navigation %}    /// {% else %}    {% endif %}{{ p.summary }}
+    /// </summary>
+    {% endif %}
+    {% if p.is_navigation %}
+    {% if p.is_list_generic %}
+    public List<{{ p.prop_type }}Vm> {{ p.name }} { get; set; } = new();
+    {% else %}
+    public {{ p.raw_type }}Vm {{ p.name }} { get; set; }
+    {% endif %}
+    {% else %}
+    public {{ p.raw_type }} {{ p.name }} { get; set; }
+    {% endif %}
+{% endfor %}
+}
