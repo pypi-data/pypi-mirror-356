@@ -1,0 +1,15 @@
+venv/
+test_pypi_env/
+dist
+*.egg-info
+.idea
+*.pyc
+build
+notes.txt
+deploy.sh
+temp.py
+.env
+.mypy_cache
+.tox
+release.sh
+CLAUDE.md
