@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sangreal-calendar
+Version: 0.0.42
+Summary: trade_dt handle for A-share market
+Home-page: https://github.com/liubola/sangreal-calendar
+Author: liubola
+Author-email: lby3523@gmail.com
+License: GNU General Public License v3.0
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: pandas
