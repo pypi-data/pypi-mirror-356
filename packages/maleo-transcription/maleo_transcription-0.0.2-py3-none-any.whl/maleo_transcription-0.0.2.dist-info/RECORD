@@ -1,0 +1,16 @@
+maleo_transcription/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maleo_transcription/constants.py,sha256=NEFH_cNyHTbSy9F2W24CJ2WtgpLrGVwwMGWUzkLEj0M,436
+maleo_transcription/enums.py,sha256=Vir0hsRqZiJDccA2_XFXccU864RKoqCsR_INAigasjI,186
+maleo_transcription/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maleo_transcription/models/responses.py,sha256=hLrEENwNp8NZlQmvCEJj-zO1iOf7kvcWPuZ90YhGjGo,831
+maleo_transcription/models/schemas.py,sha256=e1gSwrI5atVNvMguHc5vxEFUjFfkTLoTszBUezh2K5E,1710
+maleo_transcription/models/transfers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maleo_transcription/models/transfers/general.py,sha256=BdwmvvXwndvHxoHcKZ1QA9HG-KY4i2YXPtyJDsTz1os,1729
+maleo_transcription/models/transfers/parameters.py,sha256=M7UwfyZpWqlHeslAeaPfxSi4JQ41OU6vfnv89Vk8m8s,545
+maleo_transcription/models/transfers/results.py,sha256=GsOtjJ1SgMfiYElmsHsLLMIZ_PV9BCQhYUOGz5ZKhYQ,807
+maleo_transcription/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maleo_transcription/types/results.py,sha256=IbFK8eEnFcFaaawKQB520OLJ74CXHuj_Ut7K8yHwDcc,288
+maleo_transcription-0.0.2.dist-info/METADATA,sha256=2cNIGVR5P_mvjepgbgpfaAHVWjZ7YYrT80eHcZak-WI,839
+maleo_transcription-0.0.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+maleo_transcription-0.0.2.dist-info/top_level.txt,sha256=9cOFwWoRLVG2oQ2NSG_S87pWNxj2BaFCKYZr-_KHZYM,20
+maleo_transcription-0.0.2.dist-info/RECORD,,
