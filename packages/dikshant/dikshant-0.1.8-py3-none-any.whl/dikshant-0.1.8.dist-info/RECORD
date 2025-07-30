@@ -1,0 +1,15 @@
+dikshant/__init__.py,sha256=Gh91EcQG5u8DpuXAtE7vOgYn3LQHKahoFMcUM1SrRgE,83
+dikshant/assistant.py,sha256=M03uxklImKu-QyRRvy0igQB5QHnl7Z1hYfHXK6Gkg1M,2278
+dikshant/cli.py,sha256=VDs8zsUQ2McUdG1QSIK0ZBC-AwW6HT9Dj00iMSiPejs,336
+dikshant/core/__init__.py,sha256=a99mtb8qROZYvqLuhmlasVCgbmAL9nzVzOJFrVSWLGE,3
+dikshant/core/command_processor.py,sha256=e5fn5Ytd7-J_qAVUZshtZxNcszrfyTDtifGre4XTPok,3134
+dikshant/core/system_controller.py,sha256=YNJ3CVVuS8S5YkPd74V-qCw4hmyvh7OUelHd6UXOdBM,1383
+dikshant/core/text_to_speech.py,sha256=sVabbtosNLbEHbjVJj7JWw5cGB8PSoBsZDkD5vPorPg,335
+dikshant/core/voice_recognizer.py,sha256=CdP1xZ8UbfXKkjMt3ZDRAFsfxQjMMsRv2Esjo3m4TBo,1227
+dikshant/data/commands.json,sha256=mwS21goQtfrdLESFjVBOeH3ko_0-7Ipv6EToyF-cJ4s,841
+dikshant-0.1.8.dist-info/licenses/LICENSE.txt,sha256=l5w9e_5ObgzTcwLNTRyeyouAI-gSGadTK4xLALXgBsU,1092
+dikshant-0.1.8.dist-info/METADATA,sha256=Y48i98d_jz9rjUvh6YCAXcvinr-wQQagC-AN0PzEaUs,2972
+dikshant-0.1.8.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+dikshant-0.1.8.dist-info/entry_points.txt,sha256=RBtowUkRV7o5O0nsh0i0xVwZzF7m_H5jAjJMIlEeqho,47
+dikshant-0.1.8.dist-info/top_level.txt,sha256=4lrZyNAAIBscHR6cR8uJT1JwrMnjfqL46-I-XySu36A,9
+dikshant-0.1.8.dist-info/RECORD,,
