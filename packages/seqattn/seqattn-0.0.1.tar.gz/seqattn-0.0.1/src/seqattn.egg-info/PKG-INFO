@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: seqattn
+Version: 0.0.1
+Summary: A convenient lib for sequence-level attention abstraction, powered by flashinfer
+Author-email: Tomorrowdawn <tomorrowdawn@foxmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/Tomorrowdawn/seqattn
+Project-URL: Repository, https://github.com/Tomorrowdawn/seqattn
+Keywords: attention,llm,inference,kv-cache
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: attrs
+Requires-Dist: flashinfer
+Dynamic: license-file
+
+# seqattn
+A convenient lib for sequence-level attention abstraction, powered by flashinfer.

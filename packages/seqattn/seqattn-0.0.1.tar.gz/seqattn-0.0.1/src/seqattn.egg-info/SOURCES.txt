@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/seqattn/__init__.py
+src/seqattn/cache.py
+src/seqattn/descriptor.py
+src/seqattn.egg-info/PKG-INFO
+src/seqattn.egg-info/SOURCES.txt
+src/seqattn.egg-info/dependency_links.txt
+src/seqattn.egg-info/requires.txt
+src/seqattn.egg-info/top_level.txt
