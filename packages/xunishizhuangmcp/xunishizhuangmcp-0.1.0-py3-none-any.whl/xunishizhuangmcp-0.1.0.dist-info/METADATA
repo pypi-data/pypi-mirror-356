@@ -1,0 +1,58 @@
+Metadata-Version: 2.4
+Name: xunishizhuangmcp
+Version: 0.1.0
+Summary: Add your description here
+Author-email: warriorsChampion <11158048+warriorschampion@user.noreply.gitee.com>
+Requires-Python: >=3.10
+Requires-Dist: build>=1.2.2.post1
+Requires-Dist: mcp[cli]>=1.9.4
+Requires-Dist: modelscope>=1.27.0
+Requires-Dist: numpy>=2.2.6
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: pillow>=11.2.1
+Requires-Dist: torch>=2.7.1
+Requires-Dist: transformers>=4.52.4
+Requires-Dist: twine>=6.1.0
+Description-Content-Type: text/markdown
+
+## 计算器 MCP
+基于 Model Context Protocol (MCP) 的虚拟试妆器。
+
+
+# Tools
+```
+{
+  "tools": [
+    {
+      "name": "makeup_transfer",
+      "description": "生成虚拟试妆",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "face_image": "xx",
+          "refer_image": "xx"
+        },
+        "required": [
+          "face_image",
+          "refer_image"
+        ],
+        "title": "xunishizhuang_param"
+      }
+    }
+  ]
+}
+```
+
+## MCP 服务器配置
+```
+  {
+    "mcpServers": {
+        "xunishizhuangmcp": {
+        "command": "uvx",
+        "args": [
+            "xunishizhuangmcp@latest"
+            ]
+        }
+    }
+  }
+```
