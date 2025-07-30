@@ -1,0 +1,12 @@
+Fixed dependencies:
+package: ddd-1.0-1.x86_64 from file:///var/home/adamw/local/rmdepcheck/testdata/repos/base
+  ccc = 3.0
+
+New broken dependencies:
+package: bbb-1.0-1.x86_64 from file:///var/home/adamw/local/rmdepcheck/testdata/repos/base
+  aaa < 3.0
+package: hhh-1.0-1.i686 from file:///var/home/adamw/local/rmdepcheck/testdata/repos/base
+  ggg(x86-32)
+Installability problems:
+package: 111-3.0-1.x86_64 from file:///var/home/adamw/local/rmdepcheck/testdata/repos/new
+  nonexistent
