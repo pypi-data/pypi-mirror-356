@@ -1,0 +1,3 @@
+[console_scripts]
+mint = mint.mint:main
+mint-host = mint.mint_host:cli
