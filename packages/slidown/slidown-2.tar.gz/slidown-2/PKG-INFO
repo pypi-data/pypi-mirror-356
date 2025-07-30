@@ -1,0 +1,124 @@
+Metadata-Version: 2.4
+Name: slidown
+Version: 2
+Summary: A Deckset-like presentation tool using reveal.js and Pandoc
+Author-email: Riccardo Marotti <slidown@ric.mozmail.com>
+Maintainer-email: Riccardo Marotti <slidown@ric.mozmail.com>
+License-Expression: GPL-3.0-only
+Project-URL: Homepage, https://github.com/riccardomarotti/slidown
+Project-URL: Repository, https://github.com/riccardomarotti/slidown
+Project-URL: Bug Tracker, https://github.com/riccardomarotti/slidown/issues
+Keywords: presentation,markdown,reveal.js,pandoc,slides
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pypandoc
+Requires-Dist: beautifulsoup4
+Requires-Dist: appdirs
+Requires-Dist: PyQt5
+Requires-Dist: PyQtWebEngine
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov>=2.5.1; extra == "dev"
+Requires-Dist: python-coveralls; extra == "dev"
+Requires-Dist: pyinstaller; extra == "dev"
+
+[![License LGPL](https://img.shields.io/badge/license-GPL_3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
+[![Coverage Status](https://coveralls.io/repos/github/riccardomarotti/slidown/badge.svg?branch=master)](https://coveralls.io/github/riccardomarotti/slidown?branch=master)
+
+# Slidown
+
+Sort of a Deckset clone, built upon Reveal.js and Pandoc
+
+Slidown should allow to do everything you can do with
+[Reveal.js](http://lab.hakim.se/reveal-js), with an interface inspired to
+[Deckset](http://www.decksetapp.com/).
+
+Conversions from Markdown to Reveal.js are made with [Pandoc](http://pandoc.org/).
+
+### Using Binary Release
+
+Download the latest binary release from [GitHub Releases](https://github.com/riccardomarotti/slidown/releases) and extract it:
+
+```bash
+# Download the latest version (replace VERSION with the actual version number)
+wget https://github.com/riccardomarotti/slidown/releases/download/vVERSION/slidown-linux-x86_64-vVERSION.tar.gz
+tar -xzf slidown-linux-x86_64-vVERSION.tar.gz
+cd slidown
+./slidown presentation.md
+```
+
+For example, for version 2:
+```bash
+wget https://github.com/riccardomarotti/slidown/releases/download/v2/slidown-linux-x86_64-v2.tar.gz
+tar -xzf slidown-linux-x86_64-v2.tar.gz
+cd slidown
+./slidown presentation.md
+```
+
+### From PyPI
+
+Install slidown using pip:
+
+```bash
+pip install slidown
+```
+
+**Prerequisites**: You need to install Pandoc and wkhtmltopdf separately:
+
+```bash
+# Ubuntu/Debian
+sudo apt-get install pandoc wkhtmltopdf
+
+```
+
+Then run it:
+```bash
+slidown presentation.md
+```
+
+### From Source
+
+If you want to run from source, ensure you have the dependencies [Pandoc](http://pandoc.org/) and optionally [wkhtmltopdf](https://wkhtmltopdf.org/) for PDF export:
+
+```bash
+sudo apt-get install pandoc wkhtmltopdf
+```
+
+then:
+
+```bash
+git clone https://github.com/riccardomarotti/slidown.git
+cd slidown
+make git-init
+make init
+
+# Open a specific markdown file
+python3 slidown/main.py presentation.md
+
+# Or just start Slidown and choose a file
+make start
+```
+
+
+
+## Preview
+
+Here's a little preview:
+
+![Mini Demo](https://dl.dropboxusercontent.com/s/od2cfw4ryz6affv/demo-slidown.gif)
+
+If you're using Wayland, edit mode does not stay on top, for now, you need to set
+it manually...

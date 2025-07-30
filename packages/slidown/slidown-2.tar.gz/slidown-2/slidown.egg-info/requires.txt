@@ -1,0 +1,11 @@
+pypandoc
+beautifulsoup4
+appdirs
+PyQt5
+PyQtWebEngine
+
+[dev]
+pytest
+pytest-cov>=2.5.1
+python-coveralls
+pyinstaller
