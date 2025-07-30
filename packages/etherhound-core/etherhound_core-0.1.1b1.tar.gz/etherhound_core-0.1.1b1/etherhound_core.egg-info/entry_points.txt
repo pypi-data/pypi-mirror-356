@@ -1,0 +1,2 @@
+[console_scripts]
+hound = houndcore.cli.__main__:app
