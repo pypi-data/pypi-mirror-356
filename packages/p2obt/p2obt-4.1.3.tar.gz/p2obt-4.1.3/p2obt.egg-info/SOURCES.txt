@@ -1,0 +1,22 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+p2obt/__init__.py
+p2obt/automate.py
+p2obt.egg-info/PKG-INFO
+p2obt.egg-info/SOURCES.txt
+p2obt.egg-info/dependency_links.txt
+p2obt.egg-info/requires.txt
+p2obt.egg-info/top_level.txt
+p2obt/backend/__init__.py
+p2obt/backend/compose.py
+p2obt/backend/parse.py
+p2obt/backend/query.py
+p2obt/backend/upload.py
+p2obt/backend/utils.py
+p2obt/config/Extensive Target Information.xlsx
+p2obt/config/__init__.py
+p2obt/config/options.py
+p2obt/config/templates.toml
+tests/test_compose.py

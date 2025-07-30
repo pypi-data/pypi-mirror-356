@@ -1,0 +1,58 @@
+[project]
+name = "p2obt"
+dynamic = ["version"]
+description = "The Phase 2 OB tools (p2obt) automate the MATISSE observation preparation/upload."
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["astronomy", "observations", "observation-preparation", "VLT"]
+authors = [
+	{name = "Marten Scheuck", email = "martenscheuck@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+	"Framework :: Pytest",
+	"Framework :: Sphinx",
+	"License :: OSI Approved :: MIT License",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Topic :: Scientific/Engineering :: Astronomy",
+	"Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "astropy>=6.1.7",
+    "astroquery>=0.4.9.post1",
+    "attrs>=25.1.0",
+    "numpy>=2.2.2",
+    "openpyxl>=3.1.5",
+    "p2api>=1.0.10",
+    "pandas>=2.2.3",
+    "toml>=0.10.2",
+]
+
+[project.urls]
+repository = "https://github.com/MBSck/p2obt"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "p2obt.__version__"}
+
+[tool.uv]
+dev-dependencies = [
+    "numpydoc>=1.8.0",
+    "pydata-sphinx-theme>=0.16.0",
+    "pytest>=8.3.3",
+    "sphinx>=7.4.7",
+    "sphinx-autobuild>=2024.10.3",
+    "sphinx-autodoc-typehints>=2.3.0",
+]
+
+[tool.setuptools]
+include-package-data = true

@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: p2obt
+Version: 4.1.3
+Summary: The Phase 2 OB tools (p2obt) automate the MATISSE observation preparation/upload.
+Author-email: Marten Scheuck <martenscheuck@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 Marten B. Scheuck
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/MBSck/p2obt
+Keywords: astronomy,observations,observation-preparation,VLT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Framework :: Sphinx
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astropy>=6.1.7
+Requires-Dist: astroquery>=0.4.9.post1
+Requires-Dist: attrs>=25.1.0
+Requires-Dist: numpy>=2.2.2
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: p2api>=1.0.10
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: toml>=0.10.2
+Dynamic: license-file
+
+# P2obt
+<!-- Project Shields -->
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Lifecycle: production](https://img.shields.io/badge/lifecycle-production-orange.svg)
+
+The Phase 2 OB tools (p2obt) have been made to streamline/automate
+the process of MATISSE observation (ob) preparation on p2.
+
+* **Documentation**: [https://matisse-consortium.github.io/p2obt/](https://matisse-consortium.github.io/p2obt/)
+* **Installation**: [https://matisse-consortium.github.io/p2obt/installation.html](https://matisse-consortium.github.io/p2obt/installation.html)
+* **Getting Started**: [https://matisse-consortium.github.io/p2obt/getting_started.html](https://matisse-consortium.github.io/p2obt/getting_started.html) and the scripts in the `example/` directory.
+* **Bug Reports**: [https://github.com/matisse-consortium/p2obt/issues](https://github.com/matisse-consortium/p2obt/issues)
+* **Credit**: [https://matisse-consortium.github.io/p2obt/credit.html](https://matisse-consortium.github.io/p2obt/credit.html)
