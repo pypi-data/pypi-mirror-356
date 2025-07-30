@@ -1,0 +1,3 @@
+[console_scripts]
+pylintqmd=pylintqmd.__main__:main
+
