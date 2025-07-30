@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/tmuxer/__init__.py
+src/tmuxer/main.py
+src/tmuxer/shmw.c
+src/tmuxer.egg-info/PKG-INFO
+src/tmuxer.egg-info/SOURCES.txt
+src/tmuxer.egg-info/dependency_links.txt
+src/tmuxer.egg-info/top_level.txt
