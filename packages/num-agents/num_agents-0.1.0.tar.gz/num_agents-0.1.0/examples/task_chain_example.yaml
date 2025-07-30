@@ -1,0 +1,116 @@
+# Example Task Chain for Nüm Agents SDK
+# This file demonstrates the structure of a task chain for the workflow engine
+
+steps:
+  - index: 0
+    persona: "Architect"
+    depends_on: []
+    description: "Design the system architecture"
+    prompt:
+      text: "Design a modular architecture for a data processing pipeline that can handle large volumes of data with low latency. The system should be scalable, fault-tolerant, and maintainable."
+      requires: []
+      produces:
+        - "architecture.md"
+        - "system_components.yaml"
+      internal_checks:
+        - "Ensure the architecture addresses scalability"
+        - "Verify that fault-tolerance is considered"
+    outputs:
+      - "architecture.md"
+      - "system_components.yaml"
+
+  - index: 1
+    persona: "Planner"
+    depends_on: [0]
+    description: "Create implementation plan"
+    prompt:
+      text: "Based on the architecture design, create a detailed implementation plan with milestones, tasks, and dependencies. Prioritize components based on their importance and dependencies."
+      requires:
+        - "architecture.md"
+        - "system_components.yaml"
+      produces:
+        - "implementation_plan.md"
+        - "tasks.yaml"
+      internal_checks:
+        - "Ensure all components from the architecture are covered"
+        - "Verify that dependencies between tasks are correctly identified"
+    outputs:
+      - "implementation_plan.md"
+      - "tasks.yaml"
+
+  - index: 2
+    persona: "Designer"
+    depends_on: [0]
+    description: "Design the user interface"
+    prompt:
+      text: "Design a user-friendly interface for monitoring and controlling the data processing pipeline. The interface should provide real-time insights into the system's performance and allow operators to configure and troubleshoot the pipeline."
+      requires:
+        - "architecture.md"
+      produces:
+        - "ui_design.md"
+        - "ui_mockups.md"
+      internal_checks:
+        - "Ensure the UI provides access to all necessary monitoring metrics"
+        - "Verify that the UI is intuitive and user-friendly"
+    outputs:
+      - "ui_design.md"
+      - "ui_mockups.md"
+
+  - index: 3
+    persona: "Coder"
+    depends_on: [1, 2]
+    description: "Implement core components"
+    prompt:
+      text: "Implement the core components of the data processing pipeline according to the architecture design and implementation plan. Focus on the data ingestion, processing, and storage modules."
+      requires:
+        - "architecture.md"
+        - "implementation_plan.md"
+        - "tasks.yaml"
+      produces:
+        - "data_processor.py"
+        - "data_store.py"
+        - "pipeline_manager.py"
+      internal_checks:
+        - "Ensure code follows best practices and is well-documented"
+        - "Verify that error handling is robust"
+        - "Check that the implementation matches the architecture design"
+    outputs:
+      - "data_processor.py"
+      - "data_store.py"
+      - "pipeline_manager.py"
+
+  - index: 4
+    persona: "Coder"
+    depends_on: [2, 3]
+    description: "Implement user interface"
+    prompt:
+      text: "Implement the user interface for monitoring and controlling the data processing pipeline according to the UI design and mockups. Integrate the UI with the core components."
+      requires:
+        - "ui_design.md"
+        - "ui_mockups.md"
+        - "data_processor.py"
+        - "data_store.py"
+        - "pipeline_manager.py"
+      produces:
+        - "ui_components.py"
+        - "dashboard.py"
+        - "config_panel.py"
+      internal_checks:
+        - "Ensure UI components are responsive and performant"
+        - "Verify that the UI correctly integrates with the core components"
+        - "Check that the implementation matches the UI design"
+    outputs:
+      - "ui_components.py"
+      - "dashboard.py"
+      - "config_panel.py"
+
+reflect: "This task chain demonstrates a typical workflow for designing and implementing a data processing system, from architecture design to implementation of core components and user interface."
+
+err: []
+
+note:
+  - "This is an example task chain for demonstration purposes"
+  - "In a real-world scenario, more detailed prompts and internal checks would be provided"
+
+warn:
+  - "The implementation steps might need to be broken down further for complex systems"

@@ -1,0 +1,107 @@
+Metadata-Version: 2.4
+Name: num-agents
+Version: 0.1.0
+Summary: Nüm Agents: A dynamic agent orchestration framework
+Author-email: NUMTEMA <info@numtema.com>
+License: MIT
+License-File: LICENSE
+Keywords: agents,ai,framework,num,orchestration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: typer[all]>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: mypy>=1.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: ruff>=0.0.1; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Nüm Agents SDK
+
+Un framework d'orchestration d'agents dynamiques pour construire des systèmes d'agents IA modulaires et évolutifs.
+
+[![PyPI version](https://badge.fury.io/py/num-agents.svg)](https://badge.fury.io/py/num-agents)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## Vue d'ensemble
+
+Nüm Agents est un SDK puissant pour créer, gérer et déployer des agents IA avec une architecture modulaire basée sur des univers fonctionnels. Il permet aux développeurs de construire rapidement des systèmes d'agents en déclarant simplement les univers fonctionnels dont ils ont besoin, plutôt que de coder manuellement chaque composant.
+
+Version 0.1.0 - [Voir le changelog](CHANGELOG.md)
+
+## Fonctionnalités clés
+
+- **Architecture basée sur des univers**: Activez des modules fonctionnels en déclarant simplement les univers dont votre agent a besoin
+- **Génération dynamique d'agents**: Générez automatiquement du code d'agent complet à partir de spécifications YAML simples
+- **Analyse de graphes logiques**: Visualisez les dépendances et interactions entre composants d'agents
+- **Méta-orchestration**: Capacités de supervision intégrées pour valider et améliorer les conceptions d'agents
+- **Framework extensible**: Ajoutez facilement des univers, modules et types de nœuds personnalisés
+
+## Démarrage rapide
+
+```bash
+# Installer le SDK
+pip install num-agents
+
+# Générer un agent à partir d'une spécification
+num-agents generate --spec agent.yaml --catalog univers_catalog.yaml
+```
+
+## Exemple de spécification d'agent
+
+```yaml
+agent:
+  name: "ExampleAgent"
+  description: "Un agent d'exemple construit avec Nüm Agents SDK"
+  univers:
+    - PocketFlowCore
+    - StructureAgentIA
+    - KnowledgeLayer
+  protocol: N2A
+  llm: gpt-4o
+  memory: true
+  eventbus: true
+  scheduler: true
+  metrics: true
+  tracing: true
+```
+
+## Structure du projet
+
+Le SDK Nüm Agents suit une architecture modulaire:
+
+```text
+num-agents-sdk/
+├── num_agents/
+│   ├── composer/       # Génération et composition d'agents
+│   ├── graph/          # Génération de graphes logiques
+│   ├── orchestrator/   # Méta-orchestration et validation
+│   ├── univers/        # Gestion du catalogue d'univers
+│   └── utils/          # Fonctions utilitaires
+├── config/             # Fichiers de configuration
+├── examples/           # Exemples de spécifications d'agents
+├── tests/              # Suite de tests
+└── docs/               # Documentation
+```
+
+## État de développement
+
+Le SDK Nüm Agents est actuellement en version alpha (v0.1.0). Nous développons activement les fonctionnalités de base et accueillons les contributions.
+
+## Licence
+
+Propriétaire - Tous droits réservés
+
+Copyright (c) 2025 Lionel TAGNE. La copie, la modification, la distribution ou l'utilisation non autorisée de ce logiciel est strictement interdite.

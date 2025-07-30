@@ -1,0 +1,136 @@
+# Suggestion Rules Configuration
+# This file defines rules for the SuggestionEngine to generate intelligent suggestions
+# for improving agent designs.
+
+# Rule Types:
+# - module_combination: Suggests modules that work well together
+# - missing_dependency: Suggests modules that are typically required by other modules
+# - domain_specific: Suggests modules based on the agent's domain or purpose
+# - performance: Suggests modules for performance optimization
+# - security: Suggests modules or configurations for security best practices
+
+rules:
+  module_combination:
+    - id: active_learning_escalation
+      condition:
+        present: ["ActiveLearningNode"]
+        absent: ["EscalationManager"]
+      suggestion: "Consider adding 'EscalationManager' when using 'ActiveLearningNode' for better supervision and handling of uncertain cases."
+      priority: high
+      
+    - id: event_bus_scheduler
+      condition:
+        present: ["EventBus"]
+        absent: ["SchedulerNode"]
+      suggestion: "Consider adding 'SchedulerNode' when using 'EventBus' for event scheduling and temporal coordination."
+      priority: medium
+      
+    - id: fallback_escalation
+      condition:
+        present: ["FallbackNodeAdvanced"]
+        absent: ["EscalationManager"]
+      suggestion: "Consider adding 'EscalationManager' when using 'FallbackNodeAdvanced' for more sophisticated error handling and recovery."
+      priority: high
+      
+    - id: memory_management
+      condition:
+        present: ["MemoryRecallNode"]
+        absent: ["MemoryStoreNode"]
+      suggestion: "Consider adding 'MemoryStoreNode' when using 'MemoryRecallNode' for complete memory management capabilities."
+      priority: high
+      
+    - id: knowledge_retrieval
+      condition:
+        present: ["KnowledgeBaseNode"]
+        absent: ["RetrievalNode", "VectorStoreNode"]
+      suggestion: "Consider adding 'RetrievalNode' or 'VectorStoreNode' when using 'KnowledgeBaseNode' for efficient knowledge retrieval."
+      priority: medium
+      
+    - id: llm_caching
+      condition:
+        present: ["LLMNode", "LLMChainNode"]
+        absent: ["CacheManager"]
+      suggestion: "Consider adding 'CacheManager' when using LLM nodes to improve performance and reduce API costs through response caching."
+      priority: medium
+      
+    - id: tool_orchestration
+      condition:
+        present: ["ToolNode", "ToolAdapterNode"]
+        absent: ["ToolOrchestrator"]
+      suggestion: "Consider adding 'ToolOrchestrator' when using multiple tools to better coordinate tool usage and handle failures."
+      priority: medium
+      
+  missing_dependency:
+    - id: memory_dependency
+      condition:
+        present: ["ConversationMemoryNode"]
+        absent: ["SharedMemoryStore"]
+      suggestion: "Add 'SharedMemoryStore' as it is required for 'ConversationMemoryNode' to function correctly."
+      priority: critical
+      
+    - id: vector_store_dependency
+      condition:
+        present: ["VectorSearchNode"]
+        absent: ["VectorDatabase"]
+      suggestion: "Add 'VectorDatabase' as it is required for 'VectorSearchNode' to function correctly."
+      priority: critical
+      
+    - id: api_authentication
+      condition:
+        present: ["APINode", "ExternalAPINode"]
+        absent: ["AuthenticationManager"]
+      suggestion: "Add 'AuthenticationManager' to securely handle API credentials for 'APINode' or 'ExternalAPINode'."
+      priority: high
+      
+  domain_specific:
+    - id: conversational_agent
+      condition:
+        domain: ["conversational", "chatbot", "assistant"]
+        absent: ["ConversationMemoryNode", "ContextManagerNode"]
+      suggestion: "For conversational agents, consider adding 'ConversationMemoryNode' and 'ContextManagerNode' to maintain conversation state and context."
+      priority: high
+      
+    - id: data_analysis_agent
+      condition:
+        domain: ["data", "analysis", "analytics"]
+        absent: ["DataProcessingNode", "VisualizationNode"]
+      suggestion: "For data analysis agents, consider adding 'DataProcessingNode' and 'VisualizationNode' to handle data processing and visualization."
+      priority: high
+      
+    - id: research_agent
+      condition:
+        domain: ["research", "knowledge", "information"]
+        absent: ["WebSearchNode", "KnowledgeBaseNode", "SynthesisNode"]
+      suggestion: "For research agents, consider adding 'WebSearchNode', 'KnowledgeBaseNode', and 'SynthesisNode' for comprehensive information gathering and synthesis."
+      priority: high
+      
+  performance:
+    - id: parallel_processing
+      condition:
+        node_count: ">10"
+        absent: ["ParallelExecutionManager"]
+      suggestion: "For agents with many nodes, consider adding 'ParallelExecutionManager' to improve performance through parallel execution where possible."
+      priority: medium
+      
+    - id: batching_optimization
+      condition:
+        present: ["LLMNode", "EmbeddingNode"]
+        node_count: ">5"
+        absent: ["BatchProcessingNode"]
+      suggestion: "Consider adding 'BatchProcessingNode' to optimize multiple LLM or embedding calls through batching."
+      priority: medium
+      
+  security:
+    - id: tool_sandboxing
+      condition:
+        present: ["CodeExecutionNode", "ShellCommandNode"]
+        absent: ["SecuritySandbox"]
+      suggestion: "SECURITY ALERT: Add 'SecuritySandbox' when using 'CodeExecutionNode' or 'ShellCommandNode' to prevent security vulnerabilities."
+      priority: critical
+      
+    - id: credential_management
+      condition:
+        present: ["APINode", "DatabaseNode", "ExternalServiceNode"]
+        absent: ["SecureCredentialManager"]
+      suggestion: "SECURITY ALERT: Add 'SecureCredentialManager' to safely handle credentials for external services and APIs."
+      priority: critical
