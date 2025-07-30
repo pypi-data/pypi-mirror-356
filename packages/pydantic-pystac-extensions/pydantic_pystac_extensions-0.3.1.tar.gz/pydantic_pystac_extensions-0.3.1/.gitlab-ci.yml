@@ -1,0 +1,11 @@
+default:
+  tags:
+    - armageddon
+
+variables:
+  PIP_PACKAGE_URL: "https://upload.pypi.org/legacy/"
+  TWINE_USERNAME: __token__
+  TWINE_PASSWORD: ${PYPI_TOKEN}
+
+include:
+  - ".gitlab/ci/base.yml"
