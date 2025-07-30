@@ -1,0 +1,153 @@
+Metadata-Version: 2.4
+Name: mcp_cldkctl
+Version: 0.1.11
+Summary: MCP server for Cloudeka cldkctl CLI integration
+Author-email: Your Name <your@email.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: mcp
+Requires-Dist: click
+Requires-Dist: anyio
+Requires-Dist: requests
+
+# mcp-cldkctl
+
+This MCP server exposes Cloudeka endpoints as tools for LLMs and automation, using the official [MCP Python SDK](https://pypi.org/project/mcp/).
+
+## Setup
+
+### 1. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Set Environment Variables
+
+You must set the following environment variables before running the client:
+
+- `CLDKCTL_TOKEN`: **(Required)** Your Cloudeka API token. Obtain this from your Cloudeka dashboard or admin.
+- `CLDKCTL_BASE_URL`: *(Optional, default: https://ai.cloudeka.id)* The base URL for the API.
+- `CLDKCTL_DEFAULT_PROJECT_ID`: *(Optional)* The default project ID to use for project-specific actions. If not set, the client will attempt to fetch and use your first available project automatically.
+
+Example (Linux/macOS):
+```bash
+export CLDKCTL_TOKEN="cldkctl_xxx..."
+export CLDKCTL_BASE_URL="https://ai.cloudeka.id"
+# Optionally set default project ID
+export CLDKCTL_DEFAULT_PROJECT_ID="your_project_id"
+```
+
+Example (Windows CMD):
+```cmd
+set CLDKCTL_TOKEN=cldkctl_xxx...
+set CLDKCTL_BASE_URL=https://ai.cloudeka.id
+set CLDKCTL_DEFAULT_PROJECT_ID=your_project_id
+```
+
+### 3. Obtaining Your Project ID
+
+If you do not know your project ID, you can list your projects using the client:
+
+```python
+from mcp_cldkctl.server import project
+print(project("list"))
+```
+
+Copy the desired project ID and set it as `CLDKCTL_DEFAULT_PROJECT_ID` for convenience.
+
+**Automatic Project ID:**
+If `CLDKCTL_DEFAULT_PROJECT_ID` is not set, the client will automatically fetch your projects and use the first one found.
+
+## Example Usage
+
+```python
+from mcp_cldkctl.server import project, billing, vm
+
+# List projects
+print(project("list"))
+
+# Get project details (uses default project if not provided)
+print(project("detail"))
+
+# Get daily cost for default project
+print(billing("daily_cost"))
+
+# List all VMs
+print(vm("list"))
+```
+
+## Authorization
+
+Your API token is required for all requests. Make sure `CLDKCTL_TOKEN` is set in your environment. If you see 401 errors, double-check your token and its validity.
+
+## Troubleshooting
+- **401 Unauthorized**: Check your `CLDKCTL_TOKEN` value and expiry.
+- **Project ID errors**: Ensure you have access to at least one project. The client will attempt to fetch and use your first project if no default is set.
+
+## License
+MIT
+
+## Usage
+
+1. **Install:**
+   ```sh
+   pip install mcp-cldkctl
+   # or build and install locally
+   ```
+
+2. **Set your token:**
+   ```sh
+   export CLDKCTL_TOKEN=your_token
+   ```
+
+3. **Run with uvx or python:**
+   ```sh
+   uvx mcp-cldkctl
+   # or
+   python -m mcp_cldkctl
+   ```
+
+4. **Integrate in Cursor/Claude Desktop:**
+   ```json
+    {
+    "mcpServers": {
+        "cldkctl": {
+        "command": "uvx",
+        "args": ["mcp_cldkctl"],
+        "env": {
+            "CLDKCTL_TOKEN": "YOUR CLDKCTL TOKEN HERE",
+            "CLDKCTL_BASE_URL": "https://ai.cloudeka.id"
+            // Optionally:
+            // "CLDKCTL_DEFAULT_PROJECT_ID": "your_project_id"
+        }
+        }
+    }
+    }
+
+   ```
+
+## Tools
+
+- `project`: Project management (list, detail, update, delete, ...)
+- `billing`: Billing queries
+- `vm`: Virtual machine management
+- `registry`: Container registry management
+- `notebook`: Notebook management
+- `organization`: Organization management
+
+Each tool has an `action` argument and other relevant parameters.
+
+## Requirements
+
+- Python 3.10+
+- [mcp](https://pypi.org/project/mcp/) (`pip install mcp[cli]`)
+- Your Cloudeka token
+
+## Example Claude Desktop Configuration
+
+When you connect, Claude Desktop will use the token you provide in the environment variable `CLDKCTL_TOKEN`.
+
+---
+
+For more, see [PyPI MCP docs](https://pypi.org/project/mcp/). 
