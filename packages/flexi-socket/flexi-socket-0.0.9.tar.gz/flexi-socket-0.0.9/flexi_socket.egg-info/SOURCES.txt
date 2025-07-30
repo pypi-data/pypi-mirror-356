@@ -1,0 +1,14 @@
+README.md
+setup.py
+flexi_socket/__init__.py
+flexi_socket/client_classifier.py
+flexi_socket/connection.py
+flexi_socket/constraints.py
+flexi_socket/flexi_socket.py
+flexi_socket/message.py
+flexi_socket/message_packaging.py
+flexi_socket.egg-info/PKG-INFO
+flexi_socket.egg-info/SOURCES.txt
+flexi_socket.egg-info/dependency_links.txt
+flexi_socket.egg-info/not-zip-safe
+flexi_socket.egg-info/top_level.txt
