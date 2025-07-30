@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+maudio/MorseTable.py
+maudio/__init__.py
+maudio/__main__.py
+maudio/conf.py
+maudio.egg-info/PKG-INFO
+maudio.egg-info/SOURCES.txt
+maudio.egg-info/dependency_links.txt
+maudio.egg-info/entry_points.txt
+maudio.egg-info/top_level.txt
