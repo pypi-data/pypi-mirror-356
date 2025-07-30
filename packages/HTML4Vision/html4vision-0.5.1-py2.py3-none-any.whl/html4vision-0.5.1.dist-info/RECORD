@@ -1,0 +1,15 @@
+html4vision/__init__.py,sha256=Nsw1Hr3D_xhwMVrxN6cgM4RPHvBaNEbAUEZtBfPFTVo,114
+html4vision/common.py,sha256=O99G1HLPzYKLPBJSlDarJZbem9158_anlBFWRuC86JE,3717
+html4vision/limitImgLoad.js,sha256=zkEx13l5pVwCiWaLEcgFbtmX9YIq94F0UHGtCIAis3A,2771
+html4vision/matchCol.js,sha256=Lq25HfF3Gx2jM2m8QvQFP1srZ9AxFbEfgEcoqqRib2s,1629
+html4vision/overlayToggle.js,sha256=EANONS9CMsqht_nuknIdTPoXmnoVe9fT9i0qscvcmjk,482
+html4vision/scaleImg.js,sha256=rKPC_D8_4XCRk6wHk7kCXe6O88281L9j40ehQfF5LtQ,502
+html4vision/server.py,sha256=3DHRXUHyaMBTSnXLW9WnkroYnN1DqEMNecgaH2rB910,401
+html4vision/table.py,sha256=FE-5UdHEXajL9feSTJrOH1Nqjhc89YkkK6Fg5dRM-Lg,14495
+html4vision/thumbs.py,sha256=GTGZVZXRqJKTPgX95fG1pS3aqiUXoUZlIw06Omj2esg,1768
+html4vision/tile.py,sha256=3yd471WZ3l70ZdmBk9ZTvU9pAa7oUqecG4vpIx7zxLs,3811
+html4vision-0.5.1.dist-info/licenses/LICENSE.txt,sha256=kbib9UkMA-6fajZb1F0-pLzkcZXxG6IpU2tNHxDxJZA,1077
+html4vision-0.5.1.dist-info/METADATA,sha256=0Nr2E-Lo4u3-yy4WQQkYNZf4eiDh7mOibS_ww_m7Dk4,977
+html4vision-0.5.1.dist-info/WHEEL,sha256=JNWh1Fm1UdwIQV075glCn4MVuCRs0sotJIq-J6rbxCU,109
+html4vision-0.5.1.dist-info/top_level.txt,sha256=iBKycBjI3Tr8dQuIkw3ZG60gRuGT6uBcAVJS3h3caB8,12
+html4vision-0.5.1.dist-info/RECORD,,
