@@ -1,0 +1,5 @@
+[console_scripts]
+iogr_cli = iog_randomizer.cli.__main__:cli
+
+[gui_scripts]
+iogr_gui = iog_randomizer.gui.gui:main

@@ -1,0 +1,194 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+rompath.txt
+data/ChangeLog.txt
+data/IoG RAM Map.txt
+data/IoG ROM Map.txt
+data/IoG Text Table.txt
+data/IoGR Tutorial.txt
+data/IoGR_Notes.txt
+data/ItemEvents.txt
+data/RAM_Data_for_Autotracker.txt
+data/WorldMapEvents.txt
+data/mapdataset.txt
+data/mapdataset_van.txt
+data/text_boxes.txt
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/00dd87_roomclearrewarder.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/00e02d_roomclearitem.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/00f500_redjewel.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01a7c2_babel.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01aade_roomrewards.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01abf0_enemieseasy.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01abf0_enemiesextreme.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01abf0_enemieshard.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01abf0_enemiesnormal.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01abf0_enemiesohko.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01afa6_chests.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01dabf_startmenu.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01e132_itemdesc.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/01fd24_acquisition.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/02a753_giveitemsuccess.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/02f0c0_firebird.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0381ca_basicforcebox.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03881d_item05.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/038bf5_item09.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/038f17_item0d.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03950c_item16.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03983d_item19.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/039d09_item25.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/039f5d_item28.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03b401_mapchoices.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03b955_mapdest.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03fd70_rjm.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/03fdc0_startmenu.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/048a94_teacher.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04b9a5_seaside.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04c4fb_edward.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04d1a0_castleguard.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04e2a3_itory.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04e5ff_lilly.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/04fb50_tutorial.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/058100_redjewel.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0584a9_goldship.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/05cf85_freejia.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/05d7e2_trappedlaborer.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/05d89a_neilscottage.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/05e647_nazca.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/05f356_skygarden.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/069739_mudoor.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/06ba36_angelsign.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/06dd30_collectioncheck.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/06e500_vampchange.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/078569_watermia1.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0786c1_watermia2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/079237_russianglass.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/07b59e_necklace.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/07c432_euro1.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/07c4d0_euro2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/07e398_euroneil.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/07e517_euroitem.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/088fc4_natives.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/089a31_ankorwat.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/089abf_ankorwat.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08a5bd_daoneil.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08b010_snakegame.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08cec9_jeweler.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08db07_darkspace.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08fd30_forcechange.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08fd80_jeweler2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/08fd80_jeweler2_rjm.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/09ca02_incaship.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/09d0f5_moontribe.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/09d11e_moontribe.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/09d30f_moontribe.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0aff99_viperchange.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0bfd00_switches.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0ce099_babel.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/0d8000_mapdata.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/193d25_ishtarpuzzle.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/1a5a37_angelmap.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/1d42a2_incatile.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/1e28a5_mupassage.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/incamapblank.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/ishtarmapblank.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/item_get_blank.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/00800f_BrkVector.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/008476_FasterInterrupts.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/008ffd_FasterCop23.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/00b125_PageAlignedActorFinder.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/00bce1_FasterCometShimmerThinkers.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/00f3d7_FasterOrbiters.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/00fd00_LibsAndMisc.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0281da_FasterMultiplication.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0281ee_FasterDivision.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/02a5e8_HereBeDragons_RemoveNops.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/03c84b_FasterRenderingFragment.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/03c854_FasterRendering.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/03ca5f_FasterAnimating.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/03cde4_HereBeDragons_PageAlignActorIds.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/03f745_PageAlignActorIdsHelper.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/07e9fc_ApocalypseGaiaAssets2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c313_PageAlignPyramidSmasher8.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c3b2_PageAlignPyramidSmasher7.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c49c_PageAlignPyramidSmasher3.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c556_PageAlignPyramidSmasher5.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c567_PageAlignPyramidSmasher6.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c5da_PageAlignPyramidSmasher1.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c5ef_PageAlignPyramidSmasher2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/08c61c_PageAlignPyramidSmasher4.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/09aa6e_ApocalypseGaiaCode.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/09f790_ApocalypseGaiaAssets1.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0aa36e_FasterMakePlayerImmune.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0acbf2_FixVanillaGardenWormBug.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0afd87_PushAndUpdateAGAssets.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0ceac7_CometThinkerTableFragment.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0ceb74_CometThinkers.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/0ceeaa_CometAndDarkGaiaCode.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/AG/1f2ce7_SetCometBg2HeightTo2.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/bagu/1a8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/bagu/1b8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/freet/1a820a.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/invisible/1a8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/invisible/1b8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/invisible/1c8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/solar/1a8000.bin
+dist/gui/Illusion of Gaia Randomizer/randomizer/bin/plugins/sprites/sye/1a8000.bin
+src/iog_randomizer.egg-info/PKG-INFO
+src/iog_randomizer.egg-info/SOURCES.txt
+src/iog_randomizer.egg-info/dependency_links.txt
+src/iog_randomizer.egg-info/entry_points.txt
+src/iog_randomizer.egg-info/requires.txt
+src/iog_randomizer.egg-info/top_level.txt
+src/iog_randomizer/cli/__init__.py
+src/iog_randomizer/cli/__main__.py
+src/iog_randomizer/gui/__init__.py
+src/iog_randomizer/gui/gui.py
+src/iog_randomizer/randomizer/ATlMpMuSEWaterHighSub_Tilemap1_comp.bin
+src/iog_randomizer/randomizer/ATlMpMuSWWaterHighSub_Tilemap1_comp.bin
+src/iog_randomizer/randomizer/ATlMpSpecInvBg_comp.bin
+src/iog_randomizer/randomizer/ATlMpWorldMap_Tilemap1_comp.bin
+src/iog_randomizer/randomizer/ConfigValueArray.asr
+src/iog_randomizer/randomizer/Tilemap6D.bin
+src/iog_randomizer/randomizer/TilemapMuPassage.bin
+src/iog_randomizer/randomizer/__init__.py
+src/iog_randomizer/randomizer/apocalypse_gaia_1.asr
+src/iog_randomizer/randomizer/apocalypse_gaia_2.asr
+src/iog_randomizer/randomizer/asar-x64.dll
+src/iog_randomizer/randomizer/asar-x64.so
+src/iog_randomizer/randomizer/asar-x86.dll
+src/iog_randomizer/randomizer/asar.py
+src/iog_randomizer/randomizer/classes.py
+src/iog_randomizer/randomizer/errors.py
+src/iog_randomizer/randomizer/iogr.asr
+src/iog_randomizer/randomizer/iogr_81_exit_table.asr
+src/iog_randomizer/randomizer/iogr_8C_actor_table.asr
+src/iog_randomizer/randomizer/iogr_8D_asset_table.asr
+src/iog_randomizer/randomizer/iogr_asset_ledger.asr
+src/iog_randomizer/randomizer/iogr_code_overflow.asr
+src/iog_randomizer/randomizer/iogr_dialogue_overflow.asr
+src/iog_randomizer/randomizer/iogr_exit_ledger.asr
+src/iog_randomizer/randomizer/iogr_fluteless_melody_anim.bin
+src/iog_randomizer/randomizer/iogr_misc_defines.asr
+src/iog_randomizer/randomizer/iogr_monster_defaults.asr
+src/iog_randomizer/randomizer/iogr_rom.py
+src/iog_randomizer/randomizer/patch.py
+src/iog_randomizer/randomizer/quintet_comp.py
+src/iog_randomizer/randomizer/quintet_text.py
+src/iog_randomizer/randomizer/table_dialogue.txt
+src/iog_randomizer/randomizer/table_invtext.txt
+src/iog_randomizer/randomizer/__pycache__/asar.cpython-312.pyc
+src/iog_randomizer/randomizer/bin/__init__.py
+src/iog_randomizer/randomizer/bin/plugins/sprites/bagu/1a8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/bagu/1b8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/freet/1a820a.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/invisible/1a8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/invisible/1b8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/invisible/1c8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/solar/1a8000.bin
+src/iog_randomizer/randomizer/bin/plugins/sprites/sye/1a8000.bin
+src/iog_randomizer/randomizer/models/__init__.py
+src/iog_randomizer/randomizer/models/enums.py
+src/iog_randomizer/randomizer/models/randomizer_data.py
