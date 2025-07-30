@@ -1,0 +1,2 @@
+[console_scripts]
+onomatool = onomatool.cli:console_script
