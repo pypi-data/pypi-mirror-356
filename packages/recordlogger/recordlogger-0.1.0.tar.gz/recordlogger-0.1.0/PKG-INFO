@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: recordlogger
+Version: 0.1.0
+Summary: A simple logging utility for recording variable info.
+Author: souhardya
+Author-email: dandapatsouhardya2004@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inspect
+Requires-Dist: os
+
+# recordlogger
+
+A simple Python utility for recording variable information during runtime, including type, value, line number, file, and function context. Log entries are stored in a MongoDB collection.
+
+## Features
+
+- Record the name, type, value, line number, file, and function of any variable.
+- Automatically detects context when not provided.
+- Designed for easy integration into debugging or logging workflows.
+
+## Installation
+
+pip install record
+
+## Requirements
+
+- Python 3.6+
+- MongoDB (for the collection object)
+- `pymongo` (for MongoDB interaction)
+
+## License
+
+This project is licensed under the MIT License.

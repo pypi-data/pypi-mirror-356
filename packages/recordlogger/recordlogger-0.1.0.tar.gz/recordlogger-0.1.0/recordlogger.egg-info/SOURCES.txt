@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+record/__init__.py
+record/recordlogger.py
+recordlogger.egg-info/PKG-INFO
+recordlogger.egg-info/SOURCES.txt
+recordlogger.egg-info/dependency_links.txt
+recordlogger.egg-info/requires.txt
+recordlogger.egg-info/top_level.txt
