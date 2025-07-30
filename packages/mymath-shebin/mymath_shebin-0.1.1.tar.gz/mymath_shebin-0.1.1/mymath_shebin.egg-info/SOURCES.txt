@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+mymath_shebin.egg-info/PKG-INFO
+mymath_shebin.egg-info/SOURCES.txt
+mymath_shebin.egg-info/dependency_links.txt
+mymath_shebin.egg-info/top_level.txt
+mymathshebin/__init__.py
+mymathshebin/main.py
