@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CXool"
+dynamic = ["version"]
+description = "A command-line toolbox for preparing ERA5 atmospheric data for ocean modelling with ROMS."
+authors = [
+    { name = "Carlos Argáez García", email = "cargaezg@iingen.unam.mx" },
+    { name = "Simon Klüpfel", email = "simon.kluepfel@gmail.com" },
+    { name = "María Eugenia Allende Arandia", email = "mallendea@iingen.unam.mx" },
+    { name = "Christian Mario Appendini Albrechtsen", email = "cappendinia@iingen.unam.mx" }
+]
+readme = "src/cxool/README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib >= 3.8.4",
+    "scipy >= 1.13.1",
+    "numpy >= 1.26.4",
+    "netcdf4 >= 1.6.5",
+    "dask >= 2024.6.0",
+    "xarray >= 2024.6.0",
+    "cdsapi >= 0.7.3",
+    "cartopy >= 0.23.0",
+    "cmocean >= 4.0.3"
+]
+
+[project.scripts]
+cxool = "cxool.cxool_cli:main"
+
+[tool.hatch.build]
+sources = ["src"]
+include = [
+    "src/cxool/README.md",
+    "src/cxool/README.html",
+    "LICENSE",
+    "pytest.ini",
+    "src/cxool/examples/**",
+    "src/cxool/tests/**"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cxool"]
+
+[tool.hatch.version]
+source = "vcs"
+raw-options = { version_scheme = "post-release", local_scheme = "no-local-version" }
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/cxool/_version.py"
+
