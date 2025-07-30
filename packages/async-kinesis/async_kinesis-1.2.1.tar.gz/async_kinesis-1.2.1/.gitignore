@@ -1,0 +1,15 @@
+venv/
+dist
+*.egg-info
+.idea
+*.pyc
+build
+notes.txt
+deploy.sh
+temp.py
+.env
+.mypy_cache
+.tox
+release.sh
+test_*
+CLAUDE.md
