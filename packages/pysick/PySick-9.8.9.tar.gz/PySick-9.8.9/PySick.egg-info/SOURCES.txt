@@ -1,0 +1,15 @@
+README.md
+setup.py
+PySick.egg-info/PKG-INFO
+PySick.egg-info/SOURCES.txt
+PySick.egg-info/dependency_links.txt
+PySick.egg-info/top_level.txt
+pysick/__init__.py
+pysick/_messagebox_pysick.py
+pysick/_tkinter_pysick.py
+pysick/graphics.py
+pysick/pysick_main.py
+pysick/assets/logo_blue.ico
+pysick/assets/logo_red.ico
+pysick/assets/logo_yellow.ico
+pysick/assets/outdated_logo.ico
