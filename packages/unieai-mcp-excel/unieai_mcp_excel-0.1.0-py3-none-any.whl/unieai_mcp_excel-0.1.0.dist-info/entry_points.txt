@@ -1,0 +1,2 @@
+[console_scripts]
+unieai_mcp-excel = unieai_mcp_excel.server:main
