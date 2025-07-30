@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shelxfile"
+dynamic = ["version"]
+authors = [
+    { name = "Daniel Kratzert", email = "dkratzert@gmx.de" },
+]
+description = "A parser for SHELXL results files"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://dkratzert.de/shelxfile.html"
+"Bug Tracker" = "https://github.com/dkratzert/ShelXFile/issues"
+
+[tool.hatch.version]
+path = "shelxfile/version.py"
+pattern = "VERSION\\s*=\\s*'(?P<version>\\d+\\.{0,1}\\d{0,1})'"
+
+[tool.hatch.build.targets.sdist]
+only-include = ["shelxfile"]
+exclude = [
+    "/.github",
+    "/test-data",
+    "/scripts",
+    "/setup",
+    "/tests",
+    "/docs",
+    "/requirements-devel.txt",
+    "/requirements.txt",
+    "/make_release.sh",
+    "/venv*",
+]
+
