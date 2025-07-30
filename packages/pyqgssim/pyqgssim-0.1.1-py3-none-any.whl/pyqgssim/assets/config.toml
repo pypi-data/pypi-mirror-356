@@ -1,0 +1,11 @@
+[app]
+description = "聚能切割索数字仿真工作平台"
+icon = "main.ico"
+name = "pyqgssim"
+name_cn = "聚能切割索数字仿真工作平台"
+
+[env]
+project_tree_path = "~/Desktop/Test"
+
+[user]
+role = "管理员"

@@ -1,0 +1,2 @@
+[console_scripts]
+pyqgssim = pyqgssim.cli:app

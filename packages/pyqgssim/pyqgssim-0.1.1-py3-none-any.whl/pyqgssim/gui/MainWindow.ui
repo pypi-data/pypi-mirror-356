@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1235</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,3">
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget_left">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Panel</enum>
+         </property>
+         <widget class="QWidget" name="page_2">
+          <layout class="QVBoxLayout" name="verticalLayout_2"/>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget_right">
+         <widget class="QWidget" name="page">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1235</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="newProjectAction"/>
+    <addaction name="openProjectAction"/>
+    <addaction name="action_3"/>
+    <addaction name="saveOtherProjectAction"/>
+    <addaction name="saveOtherModelAction"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>建模</string>
+    </property>
+    <addaction name="ImportCoordinate"/>
+    <addaction name="SelectModel"/>
+    <addaction name="SelectPlateStruct"/>
+    <addaction name="SelectProtec"/>
+    <addaction name="SelectMaterial"/>
+    <addaction name="SelectFireHigh"/>
+    <addaction name="SelectInitiation"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>分析</string>
+    </property>
+    <addaction name="CalculationControl"/>
+    <addaction name="EnvelopeAnalysis"/>
+    <addaction name="Runing"/>
+    <addaction name="action_Prepost"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>输出</string>
+    </property>
+    <addaction name="action_21"/>
+    <addaction name="action_23"/>
+    <addaction name="action_24"/>
+    <addaction name="action_moxinxianshi"/>
+    <addaction name="action_28"/>
+    <addaction name="action_22"/>
+    <addaction name="action_29"/>
+    <addaction name="action_26"/>
+    <addaction name="action_27"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="action_32"/>
+    <addaction name="action_33"/>
+    <addaction name="action_52"/>
+    <addaction name="action_53"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>产品数据库</string>
+    </property>
+    <addaction name="action_38"/>
+    <addaction name="action_results"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>摘要</string>
+    </property>
+    <addaction name="action_40"/>
+    <addaction name="action_42"/>
+    <addaction name="action_43"/>
+    <addaction name="action_7"/>
+    <addaction name="action_9"/>
+    <addaction name="action_45"/>
+    <addaction name="action_56"/>
+   </widget>
+   <widget class="QMenu" name="menu_8">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <widget class="QMenu" name="menu_10">
+     <property name="title">
+      <string>切换用户</string>
+     </property>
+     <addaction name="action"/>
+     <addaction name="action_2"/>
+     <addaction name="action_4"/>
+    </widget>
+    <addaction name="action_46"/>
+    <addaction name="action_47"/>
+    <addaction name="menu_10"/>
+    <addaction name="action_10"/>
+   </widget>
+   <widget class="QMenu" name="menu_9">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_update_log"/>
+    <addaction name="action_50"/>
+    <addaction name="action_about"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_8"/>
+   <addaction name="menu_9"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="newProjectAction"/>
+   <addaction name="action_3"/>
+   <addaction name="saveOtherProjectAction"/>
+   <addaction name="saveOtherModelAction"/>
+   <addaction name="action_exit"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="ImportCoordinate"/>
+   <addaction name="SelectModel"/>
+   <addaction name="SelectPlateStruct"/>
+   <addaction name="SelectProtec"/>
+   <addaction name="SelectMaterial"/>
+   <addaction name="SelectFireHigh"/>
+   <addaction name="SelectInitiation"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="CalculationControl"/>
+   <addaction name="Runing"/>
+   <addaction name="action_Prepost"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_4">
+   <property name="windowTitle">
+    <string>toolBar_4</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="action_moxinxianshi"/>
+   <addaction name="action_28"/>
+   <addaction name="action_23"/>
+   <addaction name="action_24"/>
+   <addaction name="action_21"/>
+   <addaction name="action_22"/>
+   <addaction name="action_29"/>
+   <addaction name="action_26"/>
+   <addaction name="action_27"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_5">
+   <property name="windowTitle">
+    <string>toolBar_5</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="EnvelopeAnalysis"/>
+  </widget>
+  <action name="newProjectAction">
+   <property name="text">
+    <string>新建结构树</string>
+   </property>
+  </action>
+  <action name="openProjectAction">
+   <property name="text">
+    <string>打开项目</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>保存项目</string>
+   </property>
+  </action>
+  <action name="saveOtherProjectAction">
+   <property name="text">
+    <string>另存仿真模板</string>
+   </property>
+   <property name="toolTip">
+    <string>另存仿真模板</string>
+   </property>
+  </action>
+  <action name="saveOtherModelAction">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>另存到仿真模板库</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="ImportCoordinate">
+   <property name="text">
+    <string>导入坐标文件</string>
+   </property>
+  </action>
+  <action name="SelectPlateStruct">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>选择靶板结构</string>
+   </property>
+  </action>
+  <action name="SelectProtec">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>选择保护罩结构（预留接口）</string>
+   </property>
+  </action>
+  <action name="SelectMaterial">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>选择材料</string>
+   </property>
+  </action>
+  <action name="SelectFireHigh">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>选择炸高</string>
+   </property>
+  </action>
+  <action name="SelectInitiation">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>选择起爆点</string>
+   </property>
+  </action>
+  <action name="CalculationControl">
+   <property name="text">
+    <string>计算控制</string>
+   </property>
+  </action>
+  <action name="EnvelopeAnalysis">
+   <property name="text">
+    <string>包络分析</string>
+   </property>
+  </action>
+  <action name="Runing">
+   <property name="text">
+    <string>运行</string>
+   </property>
+  </action>
+  <action name="action_LS_Prepost">
+   <property name="text">
+    <string>生成工况</string>
+   </property>
+   <property name="toolTip">
+    <string>生成工况</string>
+   </property>
+  </action>
+  <action name="action_20">
+   <property name="text">
+    <string>仿真报告</string>
+   </property>
+  </action>
+  <action name="action_21">
+   <property name="text">
+    <string>侵彻分离性能</string>
+   </property>
+   <property name="toolTip">
+    <string>侵彻分离性能</string>
+   </property>
+  </action>
+  <action name="action_22">
+   <property name="text">
+    <string>侵彻率曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>侵彻率曲线</string>
+   </property>
+  </action>
+  <action name="action_23">
+   <property name="text">
+    <string>速度</string>
+   </property>
+   <property name="toolTip">
+    <string>速度</string>
+   </property>
+  </action>
+  <action name="action_24">
+   <property name="text">
+    <string>压力</string>
+   </property>
+   <property name="toolTip">
+    <string>压力</string>
+   </property>
+  </action>
+  <action name="action_26">
+   <property name="text">
+    <string>密度曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>密度曲线</string>
+   </property>
+  </action>
+  <action name="action_27">
+   <property name="text">
+    <string>能量曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>能量曲线</string>
+   </property>
+  </action>
+  <action name="action_28">
+   <property name="text">
+    <string>网格划分示意图</string>
+   </property>
+   <property name="toolTip">
+    <string>网格划分示意图</string>
+   </property>
+  </action>
+  <action name="action_29">
+   <property name="text">
+    <string>射流头部合速度曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>射流头部合速度曲线</string>
+   </property>
+  </action>
+  <action name="action_32">
+   <property name="text">
+    <string>Z正向视图</string>
+   </property>
+   <property name="toolTip">
+    <string>Z正向视图</string>
+   </property>
+  </action>
+  <action name="action_33">
+   <property name="text">
+    <string>Z负向视图</string>
+   </property>
+   <property name="toolTip">
+    <string>Z负向视图</string>
+   </property>
+  </action>
+  <action name="action_34">
+   <property name="text">
+    <string>复位界面</string>
+   </property>
+  </action>
+  <action name="action_38">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>产品结构</string>
+   </property>
+  </action>
+  <action name="action_40">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>材料库</string>
+   </property>
+  </action>
+  <action name="action_41">
+   <property name="text">
+    <string>切割索型面库</string>
+   </property>
+  </action>
+  <action name="action_42">
+   <property name="text">
+    <string>靶板结构库</string>
+   </property>
+  </action>
+  <action name="action_43">
+   <property name="text">
+    <string>保护罩结构库(待开发)</string>
+   </property>
+  </action>
+  <action name="action_45">
+   <property name="text">
+    <string>仿真模板库</string>
+   </property>
+  </action>
+  <action name="action_46">
+   <property name="text">
+    <string>软件环境</string>
+   </property>
+  </action>
+  <action name="action_47">
+   <property name="text">
+    <string>并行窗口运算</string>
+   </property>
+  </action>
+  <action name="action_update_log">
+   <property name="text">
+    <string>版本更新日志</string>
+   </property>
+  </action>
+  <action name="action_50">
+   <property name="text">
+    <string>软件使用说明</string>
+   </property>
+  </action>
+  <action name="action_51">
+   <property name="text">
+    <string>修改版本名称</string>
+   </property>
+  </action>
+  <action name="action_52">
+   <property name="text">
+    <string>居中视图</string>
+   </property>
+  </action>
+  <action name="action_53">
+   <property name="text">
+    <string>复位视图</string>
+   </property>
+  </action>
+  <action name="action_56">
+   <property name="text">
+    <string>仿真报告库</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="SelectModel">
+   <property name="text">
+    <string>选择模板</string>
+   </property>
+  </action>
+  <action name="action_dis">
+   <property name="text">
+    <string>位移曲线</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>普通用户</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>高级用户</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>管理员</string>
+   </property>
+  </action>
+  <action name="action_moxinxianshi">
+   <property name="text">
+    <string>模型示意图</string>
+   </property>
+   <property name="toolTip">
+    <string>模型示意图</string>
+   </property>
+  </action>
+  <action name="action_Prepost">
+   <property name="text">
+    <string>启动LS-Prepost</string>
+   </property>
+   <property name="toolTip">
+    <string>启动LS-Prepost</string>
+   </property>
+  </action>
+  <action name="action_results">
+   <property name="text">
+    <string>仿真数据库</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>仿真报告</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>仿真视频</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>橡胶护套结构库(待开发)</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>紧固件结构库(待开发)</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
