@@ -1,0 +1,14 @@
+globalign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globalign/conclude.py,sha256=nQYjV5R-tRUZNgWO_hBHnAdGMyLdXV86ZCvay15mXdo,9644
+globalign/globaligner.py,sha256=d54b0H7doyHCP-Km9d8EqZbigkc_vMFjrXXE-HLQikY,24719
+globalign/start.py,sha256=C7mz-ECtqUOfnWPOX_SRpTGSq24mcCkhSEkt506srEI,33919
+globalign/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globalign/data/scoring_matrices/BLOSUM50.mtx,sha256=Uj5O2Gfh3kdXK8UT8seVAWcYGyubXtqWmltYH9zeIKs,2028
+globalign/data/scoring_matrices/BLOSUM62.mtx,sha256=b2xAnC8q-U7vXpYDhUFCNR93PXrXa_53tVJ7zcuP240,2028
+globalign/data/scoring_matrices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globalign/data/scoring_matrices/nucleotide.mtx,sha256=K9IVypduqdl8VgnXF78B4BmhgEwEqTLy1SoXcYpPOHU,106
+globalign-0.1.14.dist-info/METADATA,sha256=T8ubUUgWgoFeT_skXc3WuAw0lcOCDwdsC62l9lVCMtQ,5583
+globalign-0.1.14.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+globalign-0.1.14.dist-info/entry_points.txt,sha256=bOxWWEDqaCgFMeNlkMhK82SJlAvOgyeaweNLIS__NF8,59
+globalign-0.1.14.dist-info/licenses/LICENSE.txt,sha256=v_6wJVbet5B9HYnj752YseIdEnwYPR0svWx2bbrCrmA,1072
+globalign-0.1.14.dist-info/RECORD,,
