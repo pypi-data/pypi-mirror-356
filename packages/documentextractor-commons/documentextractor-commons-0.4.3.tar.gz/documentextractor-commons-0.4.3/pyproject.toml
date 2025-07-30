@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "documentextractor-commons"
+version = "0.4.3"
+description = "Common types and models for DocumentExtractor projects"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+  {name = "Philipp Heller", email = "philipp@documentextractor.ai"},
+]
+requires-python = ">=3.8"
+dependencies = [
+  "pydantic>=2.0",
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["documentextractor_commons"]
+include-package-data = true
