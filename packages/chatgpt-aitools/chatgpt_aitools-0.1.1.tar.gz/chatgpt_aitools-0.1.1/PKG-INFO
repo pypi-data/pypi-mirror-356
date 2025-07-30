@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: chatgpt-aitools
+Version: 0.1.1
+Summary: Short description of your package
+Author: chatgpt-aitools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
