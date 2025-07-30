@@ -1,0 +1,12 @@
+k8s_install_mcp/__init__.py,sha256=cgLi01NGc1h2lIzHBG6ymB0bt1f2Vk3YxwEU2HmjDUA,26
+k8s_install_mcp/server.py,sha256=p-m7rVa6NZuP9s1gwQtZ3VNheQRGxY-CGJcaX5K144Y,2849
+k8s_install_mcp/core/__init__.py,sha256=v9t8tc7-8mW8Lc9TkDJZy7_Tdg23B2qTlCJe_OfMH_0,107
+k8s_install_mcp/core/commands.py,sha256=QrsmXO0Nw9HMhbTAHxD4QTjILeXvgvyVmX2pEGI-qcw,3258
+k8s_install_mcp/core/ssh_client.py,sha256=QpBxUkHDpCnnRe4h76kRpVv7Uuun30XVfUoH5JpHVNo,926
+k8s_install_mcp/function/__init__.py,sha256=r5n2KSLohcAKPrD0goE6KC_Cw401jCO8yguqAeHQBrY,54
+k8s_install_mcp/function/install.py,sha256=RK1z0Ubj81KvLTrm8RN_1JGEXKwfB8bNXlQDO8F_k2c,1340
+k8s_install_mcp/function/utils.py,sha256=GZQODFipD1fLUGNiMmeUbCa7EVpbMIXhTu_hH7bU73c,3492
+k8s_install_mcp-0.1.3.dist-info/METADATA,sha256=Ama08co1WYBN3MW3U2WDpcLTUXI-HVt2cpmDN5a_4YA,2761
+k8s_install_mcp-0.1.3.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+k8s_install_mcp-0.1.3.dist-info/entry_points.txt,sha256=f2q9DVIMEXaIB0NgQb9ycsOFkHyLbaDaWoVDMT7LWpo,57
+k8s_install_mcp-0.1.3.dist-info/RECORD,,
