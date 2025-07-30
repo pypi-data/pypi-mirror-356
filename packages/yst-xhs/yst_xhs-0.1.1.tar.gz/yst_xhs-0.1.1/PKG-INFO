@@ -1,0 +1,60 @@
+Metadata-Version: 2.4
+Name: yst_xhs
+Version: 0.1.1
+Summary: 小红书爬虫工具
+Home-page: 
+Author: yst
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyExecJS
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: python-dotenv
+Requires-Dist: retry
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+## 🌟 功能特性
+
+- ✅ **多维度数据采集**
+  - 用户主页信息
+  - 笔记详细内容
+  - 智能搜索结果抓取
+- 🚀 **高性能架构**
+  - 自动重试机制
+- 🔒 **安全稳定**
+  - 小红书最新API适配
+  - 异常处理机制
+  - proxy代理
+- 🎨 **便捷管理**
+  - 结构化目录存储
+  - 格式化输出（JSON/EXCEL/MEDIA）
+  
+
+
+## 🛠️ 快速开始
+### ⛳运行环境
+- Python 3.7+
+- Node.js 18+
+
+### 🎯安装依赖
+```
+pip install -r requirements.txt
+npm install
+```
+
+
+### 🚀运行项目
+```
+python main.py
+```
