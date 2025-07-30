@@ -1,0 +1,18 @@
+[invenio_base.api_apps]
+oarepodoi = oarepo_doi.ext:OARepoDOI
+
+[invenio_base.api_blueprints]
+oarepo_notifications = oarepo_doi.views.api:create_doi_notifications
+
+[invenio_base.apps]
+oarepo_doi = oarepo_doi.ext:OARepoDOI
+
+[invenio_base.blueprints]
+oarepo_doi_notifications = oarepo_doi.views.app:create_doi_notifications
+
+[invenio_i18n.translations]
+oarepo_doi = oarepo_doi
+
+[invenio_requests.types]
+assign-doi-request = oarepo_doi.types.doi:AssignDoiRequestType
+delete-doi-request = oarepo_doi.types.doi:DeleteDoiRequestType
