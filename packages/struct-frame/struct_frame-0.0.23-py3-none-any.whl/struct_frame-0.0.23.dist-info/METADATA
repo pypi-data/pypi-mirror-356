@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: struct-frame
+Version: 0.0.23
+Summary: A framework for serializing data with headers
+Project-URL: Homepage, https://github.com/mylonics/struct-frame
+Project-URL: Issues, https://github.com/mylonics/struct-frame/issues
+Author-email: Rijesh Augustine <rijesh@mylonics.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: proto-schema-parser>=1.4.5
+Description-Content-Type: text/markdown
+
+
+
+TS install
+
+npm i -D typescript typed-struct @types/node  
+npx tsc --init 
+npx tsc index.ts
+node index.js
+
+
+npx tsc --project tsconfig.json; node index.js
+
+
