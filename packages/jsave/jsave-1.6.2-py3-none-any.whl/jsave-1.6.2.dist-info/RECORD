@@ -1,0 +1,12 @@
+jsave/__init__.py,sha256=9UWnoQdggIv-Ww-zsdKUyqgRxsIbyeHZi2JBtikfQwU,120
+jsave/cmd/read.py,sha256=mON15K294uABUK_rcxTzbD6vPIzhZP9VW3ZHRxsz2FY,422
+jsave/cmd/save.py,sha256=P_Z0BTEFYuti6SuTQ_rJ7kT6wwHlVFke0Tjdu3WCdn0,765
+jsave/cmd/update.py,sha256=Js3kiPQjF8WKQXzHkIyOSy9HtGDEs14dlT1inK4P4QU,403
+jsave/error.py,sha256=bVev9dYDwFF5yXpGC3k75_lbhvIBkLNscq9CBuMWyVA,318
+jsave/jsave.py,sha256=4ufEGd3-nEIknvEQ74Vdsz90a3sA8dl8EmD5kVBaS2M,8073
+jsave/pickle.py,sha256=jCROKHUqa5NL039uYDnfb6C-MqMsmdIh-I-Er_KAmR4,792
+jsave/utils.py,sha256=_6-W954r1uFfjitCtgMPGVaPAA5R7m6VYM5JNl64EmQ,196
+jsave-1.6.2.dist-info/LICENSE,sha256=a23-mjmor7o3tJB_PStSla5IAtSmUdJyEWhqkdEIKQo,1075
+jsave-1.6.2.dist-info/METADATA,sha256=Qhc76mPzbLGmdhSQePnNHMQ_rpSrs_nVCUz2piP7zUY,3512
+jsave-1.6.2.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+jsave-1.6.2.dist-info/RECORD,,
