@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_calendar_input/__init__.py
+streamlit_calendar_input/example.py
+streamlit_calendar_input.egg-info/PKG-INFO
+streamlit_calendar_input.egg-info/SOURCES.txt
+streamlit_calendar_input.egg-info/dependency_links.txt
+streamlit_calendar_input.egg-info/requires.txt
+streamlit_calendar_input.egg-info/top_level.txt
+streamlit_calendar_input/frontend/build/bootstrap.min.css
+streamlit_calendar_input/frontend/build/index.html
+streamlit_calendar_input/frontend/build/assets/index-C26EEYkm.css
+streamlit_calendar_input/frontend/build/assets/index-DctL7cXl.js
