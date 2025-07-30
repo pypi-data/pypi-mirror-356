@@ -1,0 +1,11 @@
+build
+pytest
+twine
+black
+setuptools
+coverage
+flake8
+mypy
+sphinx
+sphinx-rtd-theme
+rstcheck
