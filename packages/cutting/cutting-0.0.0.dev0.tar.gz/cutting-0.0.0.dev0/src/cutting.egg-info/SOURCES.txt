@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/cutting/__init__.py
+src/cutting/__main__.py
+src/cutting.egg-info/PKG-INFO
+src/cutting.egg-info/SOURCES.txt
+src/cutting.egg-info/dependency_links.txt
+src/cutting.egg-info/top_level.txt
+src/cutting/core/__init__.py
+src/cutting/tests/__init__.py
+src/cutting/tests/test_1984.py
