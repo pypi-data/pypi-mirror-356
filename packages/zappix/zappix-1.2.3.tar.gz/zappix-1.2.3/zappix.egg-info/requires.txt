@@ -1,0 +1,6 @@
+pyOpenSSL
+pyopenssl-psk
+
+[dev]
+tox
+pyzabbix
