@@ -1,0 +1,13 @@
+opencerebro/__init__.py,sha256=KCLFJaOyN7fe9TBKO5ElO4_VaHQBFT4tz9Sn_tst1RM,87
+opencerebro/agents/__init__.py,sha256=Sagnlo9f7q9t8iRoSe47h1p07bagtpGFmF2lur0jibU,25
+opencerebro/agents/toolformer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro/cli/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro/orchestrators/__init__.py,sha256=HaEvBZg6jw3VDQS_gkO1aQHFSP2SB8O-RufjfwbgZ_M,18
+opencerebro/orchestrators/mcp.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro/tools/__init__.py,sha256=JsXVqHITXUoZUY-2fpQAT6AomysLFdssTCJCxc9vs7o,24
+opencerebro/tools/embed_sci.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opencerebro-0.1.0.dist-info/METADATA,sha256=hmfZc8-XYqVCJWDbSiG9-mzzmiW09Vb_npVqS5PPbKw,503
+opencerebro-0.1.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+opencerebro-0.1.0.dist-info/RECORD,,
