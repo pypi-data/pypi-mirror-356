@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include starburst_scheduler *.py
+recursive-include tests *.py
