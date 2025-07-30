@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/tamuwhisper.py
+src/tamuwhisper.egg-info/PKG-INFO
+src/tamuwhisper.egg-info/SOURCES.txt
+src/tamuwhisper.egg-info/dependency_links.txt
+src/tamuwhisper.egg-info/entry_points.txt
+src/tamuwhisper.egg-info/requires.txt
+src/tamuwhisper.egg-info/top_level.txt
+src/transcribe/__init__.py
+src/transcribe/transcribe.py
