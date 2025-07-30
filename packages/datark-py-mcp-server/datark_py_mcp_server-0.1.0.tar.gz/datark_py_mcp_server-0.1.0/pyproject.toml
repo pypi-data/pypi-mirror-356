@@ -1,0 +1,19 @@
+[project]
+name = "datark-py-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zhourui", email = "zhourui@servyou.com.cn" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.9.4",
+]
+
+[project.scripts]
+datark-py-mcp-server = "datark_py_mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
