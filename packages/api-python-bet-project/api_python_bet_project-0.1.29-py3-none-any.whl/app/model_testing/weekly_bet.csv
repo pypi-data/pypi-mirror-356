@@ -1,0 +1,3 @@
+gameweek,home_team,away_team,class_idx,true_class,odds,stake,gain,result,before_bet,after_bet,kelly_pct,actual_pct,proba_home,proba_draw,proba_away
+1.0,Celta_Vigo,Alaves,0,0.0,2.1152,6.92,7.72,WIN,100.0,107.72,12.55,6.92,0.5118,0.2686,0.2196
+1.0,Valladolid,Espanyol,0,0.0,2.4735,8.08,11.9,WIN,107.72,119.62,14.65,7.5,0.4558,0.3064,0.2378
