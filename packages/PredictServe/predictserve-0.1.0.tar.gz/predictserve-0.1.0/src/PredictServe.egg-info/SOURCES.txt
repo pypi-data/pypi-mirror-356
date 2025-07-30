@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/PredictServe.egg-info/PKG-INFO
+src/PredictServe.egg-info/SOURCES.txt
+src/PredictServe.egg-info/dependency_links.txt
+src/PredictServe.egg-info/top_level.txt
+src/predictserve/__init__.py
+src/predictserve/predictserve.py
