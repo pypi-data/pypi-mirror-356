@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+terminal_coding_agent/__init__.py
+terminal_coding_agent/agent.py
+terminal_coding_agent.egg-info/PKG-INFO
+terminal_coding_agent.egg-info/SOURCES.txt
+terminal_coding_agent.egg-info/dependency_links.txt
+terminal_coding_agent.egg-info/entry_points.txt
+terminal_coding_agent.egg-info/requires.txt
+terminal_coding_agent.egg-info/top_level.txt
