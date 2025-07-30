@@ -1,0 +1,80 @@
+Metadata-Version: 2.4
+Name: nqr_blochsimulator
+Version: 0.0.3
+Summary: Simple Python script to simulate NQR Bloch equations
+Project-URL: Homepage, https://nqrduck.cool
+Project-URL: Bug Tracker, https://git.private.coffee/nqrduck/nqr-blochsimulator/issues
+Project-URL: Source Code, https://git.private.coffee/nqrduck/nqrduck-blochsimulator
+Author-email: jupfi <support@nqrduck.cool>
+License: MIT License
+        
+        Copyright (c) 2023 jupfi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# NQR Bloch Simulator for Python
+
+This is a Python implementation of an NQR Bloch Simulator. It can be used for simulating NQR spectroscopy signals in the time domain. The simulator is based on the paper [1].
+
+Right now the implementation is in a early stage and has not yet been tested and verified.
+
+## Installation
+
+Create a virtual environment and activate it:
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+To install the package, run the following command in the root directory of the project:
+
+```
+pip install .
+```
+
+Alternatively you can install the package via PyPI:
+
+```
+pip install nqr-blochsimulator
+```
+
+The package can then be tested by running
+
+```
+python -m unittest tests/simulation.py
+```
+
+This will run a simulation of a simple FID for BiPh3 and plot the result in time domain.
+
+
+## References
+
+The simulator is based on the paper:
+
+[1] [C. Graf, A. Rund, C.S. Aigner, R. Stollberger, Accuracy and Performance Analysis for Bloch and Bloch-McConnell simulation methods Journal of Magnetic Resonance 329(3):107011 doi: 10.1016/j.jmr.2021.107011](https://doi.org/10.1016/j.jmr.2021.107011)
