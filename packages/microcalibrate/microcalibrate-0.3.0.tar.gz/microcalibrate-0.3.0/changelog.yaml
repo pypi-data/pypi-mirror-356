@@ -1,0 +1,20 @@
+- changes:
+    added:
+    - Initialized project.
+  date: 2025-06-18 13:44:19
+  version: 0.1.0
+- bump: minor
+  changes:
+    changed:
+    - Initialized changelogging.
+  date: 2025-06-18 13:19:30
+- bump: minor
+  changes:
+    added:
+    - Basic Calibration input checks.
+  date: 2025-06-19 16:34:04
+- bump: minor
+  changes:
+    added:
+    - Logging performance across epochs when calibrating.
+  date: 2025-06-20 11:03:38
