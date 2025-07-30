@@ -1,0 +1,10 @@
+odoo/addons/disabled_mail_follower_invitation/README.rst,sha256=cBrIlbq2tL5wc43dVWxbIx_gW2TfyKa22numM8azNnM,1553
+odoo/addons/disabled_mail_follower_invitation/__init__.py,sha256=-BaOuoD4g62t1LRtRTtmTLW4_1mRU1iqyHCpZgbBsp4,137
+odoo/addons/disabled_mail_follower_invitation/__manifest__.py,sha256=NylURJVKQz5Iuqlcs3CERXlq-dqvEYROeqpe_3Z7uVc,533
+odoo/addons/disabled_mail_follower_invitation/static/description/icon.png,sha256=bVbNdnyk7PXHuZ3ye_Aqh1M9tbfPJ5zU5W1VnoO8mBQ,35820
+odoo/addons/disabled_mail_follower_invitation/wizard/__init__.py,sha256=_h1MvUxkTLGeyAPXH66Kg1umDli7N-fu9XOQTnY9OxQ,149
+odoo/addons/disabled_mail_follower_invitation/wizard/invitate_followers.py,sha256=DhuLECM5i6CVdSPNPExi6IhuggnXBTCCEHzIcfPOm9I,281
+odoo_addon_disabled_mail_follower_invitation-16.0.1.0.0.dist-info/METADATA,sha256=z_ndjkkdBmP1EuuTN6YCqwBlXBKJuJHdbq6xuW5B0hc,2105
+odoo_addon_disabled_mail_follower_invitation-16.0.1.0.0.dist-info/WHEEL,sha256=9fEMia4zL7ZuZbnCOrcYogUhmn4XFIVaJ8G4YGI31xc,81
+odoo_addon_disabled_mail_follower_invitation-16.0.1.0.0.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_disabled_mail_follower_invitation-16.0.1.0.0.dist-info/RECORD,,
