@@ -1,0 +1,12 @@
+{
+    "name": "${ECS_SERVICE_NAME}",
+    "cluster": "${ECS_SERVICE_CLUSTER}",
+    "task_definition": "${ECS_SERVICE_TASK_DEFINITION}",
+    "desired_count": "${ECS_SERVICE_DESIRED_COUNT}",
+    "force_delete": "${ECS_SERVICE_FORCE_DELETE}",
+    "force_new_deployment": "${ECS_SERVICE_FORCE_NEW_DEPLOYMENT}",
+    "private_vpc_subnets": "${ECS_SERVICE_PRIVATE_VPC_SUBNETS}",
+    "security_groups": "${ECS_SERVICE_SECURITY_GROUPS}",
+    "load_balancer": "${ECS_SERVICE_LOAD_BALANCER}",
+    "capacity_provider_strategy": "${ECS_SERVICE_CAPACITY_PROVIDER_STRATEGY}"
+}
