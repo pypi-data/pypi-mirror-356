@@ -1,0 +1,52 @@
+{
+  "name": "product_promotion_2",
+  "description": "Product promotion template with kanban UI",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": "#44EC9D",
+      "outline_color": null
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 150, "y": 100 },
+      "size": { "width": 140, "height": 140 },
+      "alignment": "left",
+      "circle_crop": true
+    },
+    {
+      "type": "text",
+      "text": "${quote1}",
+      "position": { "x": 150, "y": 240 },
+      "font_size": 180,
+      "color": [40, 40, 60],
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 2300,
+      "line_spacing": 1.2
+    },
+    {
+      "type": "text",
+      "text": "${quote2}",
+      "position": { "x": 150, "y": 440 },
+      "font_size": 180,
+      "color": "#FFFFFF",
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 2300,
+      "line_spacing": 1.2
+    },
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 680, "y": 900 },
+      "size": { "width": 2560, "height": 2560 },
+      "border_radius": 30
+    }
+  ]
+}

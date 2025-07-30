@@ -1,0 +1,87 @@
+{
+  "name": "product_promotion",
+  "description": "Split-screen payment promotion template with image on left and text on right",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 1067, "height": 2560 },
+      "fill_color": "${theme_color}",
+      "outline_color": null
+    },
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 1067, "height": 2560 },
+      "opacity": 1.0,
+      "tint_color": "#111111",
+      "tint_opacity": 0.3,
+      "border_radius": 150
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 1067, "y": 0 },
+      "size": { "width": 1493, "height": 2560 },
+      "fill_color": "${theme_color}",
+      "outline_color": null
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 190, "y": 142 },
+      "size": { "width": 237, "height": 237 },
+      "opacity": 0.9,
+      "circle_crop": true
+    },
+    {
+      "type": "text",
+      "text": "${heading}",
+      "position": { "x": 1304, "y": 356 },
+      "font_size": 104,
+      "color": [0, 0, 0],
+      "font_path": "HappyMonkey-Regular",
+      "alignment": "left",
+      "max_width": 948
+    },
+    {
+      "type": "text",
+      "text": "${subheading}",
+      "position": { "x": 1304, "y": 687 },
+      "font_size": 85,
+      "color": [0, 0, 0],
+      "font_path": "HappyMonkey-Regular",
+      "alignment": "left",
+      "max_width": 948
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 1304, "y": 1896 },
+      "size": { "width": 759, "height": 190 },
+      "fill_color": [255, 255, 255],
+      "outline_color": [0, 0, 0],
+      "border_radius": 95,
+      "opacity": 0.9
+    },
+    {
+      "type": "text",
+      "text": "${cta_text}",
+      "position": { "x": 1423, "y": 1951 },
+      "font_size": 76,
+      "color": [0, 0, 0],
+      "font_path": "HappyMonkey-Regular",
+      "alignment": "center"
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 1304, "y": 2251 },
+      "font_size": 66,
+      "color": [0, 0, 0],
+      "font_path": "HappyMonkey-Regular",
+      "alignment": "left"
+    }
+  ]
+}
