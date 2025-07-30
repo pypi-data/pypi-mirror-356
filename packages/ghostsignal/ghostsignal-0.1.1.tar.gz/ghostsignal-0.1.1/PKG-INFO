@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: ghostsignal
+Version: 0.1.1
+Summary: GhostSignal: AI Hacker Assistant for OSINT
+Author: Cure
+Keywords: osint ai face-recognition terminal gpt hacker
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Requires-Dist: face_recognition
+Requires-Dist: mediapipe
+Requires-Dist: cvlib
+Requires-Dist: opencv-python
+Requires-Dist: pytesseract
+Requires-Dist: exifread
+Requires-Dist: pygame
+Requires-Dist: imageio
+Requires-Dist: gTTS
+Requires-Dist: Pillow
+Requires-Dist: rich
+Requires-Dist: googlesearch-python
+Dynamic: author
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
