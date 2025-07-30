@@ -1,0 +1,2 @@
+[console_scripts]
+chibi_lxc = chibi_lxc.cli:main
