@@ -1,0 +1,100 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptopix"
+dynamic = ["version"]
+description = "Ultra-fast post-quantum secure text-to-image encryption with color transformation preservation"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "CryptoPix Development Team", email = "founder@cryptopix.in"}
+]
+maintainers = [
+    {name = "CryptoPix Development Team", email = "founder@cryptopix.in"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Typing :: Typed"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "cryptography>=41.0.0",
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0"
+]
+keywords = [
+    "cryptography", "encryption", "post-quantum", "steganography", 
+    "image-encryption", "color-transformation", "fast-encryption",
+    "quantum-resistant", "aes", "security", "enhanced-fast-mode"
+]
+
+[project.urls]
+Homepage = "https://github.com/cryptopix-official/cryptopix"
+Documentation = "https://github.com/cryptopix-official/cryptopix"
+Repository = "https://github.com/cryptopix-official/cryptopix"
+Changelog = "https://github.com/cryptopix-official/cryptopix/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/cryptopix-official/cryptopix/issues"
+"Performance Benchmarks" = "https://github.com/cryptopix-official/cryptopix/blob/main/benchmarks/"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+    "twine>=4.0.0",
+    "build>=0.10.0"
+]
+benchmark = [
+    "psutil>=5.9.0",
+    "matplotlib>=3.7.0"
+]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "cryptopix.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["cryptopix*"]
+exclude = ["tests*", "benchmarks*"]
+
+[tool.setuptools.package-data]
+cryptopix = ["py.typed"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=cryptopix --cov-report=term-missing"
