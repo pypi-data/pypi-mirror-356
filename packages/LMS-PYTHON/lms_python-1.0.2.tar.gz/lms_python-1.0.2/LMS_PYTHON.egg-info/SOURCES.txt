@@ -1,0 +1,9 @@
+licenses.json
+setup.py
+LMS/__init__.py
+LMS/client.py
+LMS/server.py
+LMS_PYTHON.egg-info/PKG-INFO
+LMS_PYTHON.egg-info/SOURCES.txt
+LMS_PYTHON.egg-info/dependency_links.txt
+LMS_PYTHON.egg-info/top_level.txt
