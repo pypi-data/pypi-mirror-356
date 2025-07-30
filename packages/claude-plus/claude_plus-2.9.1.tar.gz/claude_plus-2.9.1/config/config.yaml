@@ -1,0 +1,147 @@
+# Claude++ System Configuration
+# 環境変数 CLAUDE_PLUS_ENV で開発/本番を切り替え（development/production）
+
+system:
+  name: "Claude++ System"
+  version: "2.5.1"
+  debug: ${CLAUDE_PLUS_DEBUG:-false}  # 環境変数で制御、デフォルトはfalse
+  language: "japanese"
+  auto_reload: ${CLAUDE_PLUS_AUTO_RELOAD:-false}  # 環境変数で制御
+  development_mode: ${CLAUDE_PLUS_DEVELOPMENT_MODE:-false}  # 環境変数で制御
+
+auto_yes:
+  enabled: true
+  dangerous_operations: false  # 危険な操作は手動確認
+  patterns:
+    # 実際のClaudeCodeで発生するパターン
+    - "❯.*Yes"
+    - "Press Enter to continue"
+    - "Press any key to continue"
+    - "続行するにはEnterを押してください"
+    - "Enter.*continue"
+  response: ""  # Enter key (空文字 + 改行)
+  delay_ms: 500
+
+notifications:
+  enabled: true
+  sound: true
+  visual: true
+  sound_file: "/System/Library/Sounds/Glass.aiff"
+  verbosity: "verbose"  # minimal, normal, verbose
+  japanese: true
+
+# Claude CLI Settings
+claude:
+  command: "/Users/harry/.nodebrew/current/bin/claude"
+  args: []
+  timeout: 300
+
+# Process Management
+process:
+  max_retries: 3
+  retry_delay: 2
+  buffer_size: 8192
+
+# UI Settings
+ui:
+  language: "japanese"
+  hide_technical_terms: true
+  beginner_friendly: true
+  help_frequency: "frequent"  # rare, occasional, frequent
+
+# Screen Split Settings
+screen_split:
+  control_pane_percentage: 15  # コントロールパネルのサイズ（%）
+  # claude_pane_percentage は自動計算 (100 - control_pane_percentage)
+  
+# Logging
+logging:
+  level: ${CLAUDE_PLUS_LOG_LEVEL:-INFO}  # 環境変数で制御（開発時はDEBUG、本番はINFO）
+  file: ${CLAUDE_PLUS_LOG_FILE:-/tmp/claude-plus.log}  # 環境変数で制御
+  file_level: "DEBUG"  # ファイルには詳細ログを記録
+  max_size_mb: 10
+
+# Phase 2.5: 透明作業保護システム
+transparent_git:
+  enabled: true
+  auto_save_interval: 30  # 分単位
+  auto_branch: true
+  auto_backup: true
+  japanese_ui: true
+  
+auto_protection:
+  enabled: true
+  protection_level: "MEDIUM"  # LOW, MEDIUM, HIGH, MAXIMUM (起動速度重視)
+  backup_frequency: 30  # 分単位（起動速度重視）
+  emergency_protection: true
+  quick_startup: true  # 起動時の軽量化モード
+  startup_scan_limit: 500  # 起動時スキャン制限
+  
+zero_config:
+  enabled: true
+  auto_detection: true
+  intelligent_defaults: true
+  first_time_setup: true
+
+git:
+  enabled: true
+  auto_commit: false  # 手動確認優先
+  auto_branch: true   # 自動ブランチ作成
+  intelligent_commits: true  # AI生成コミットメッセージ
+  conflict_assistance: true  # コンフリクト解決支援
+
+# Git Pro自動化エンジン設定
+git_pro:
+  enabled: true
+  auto_branch: true
+  auto_pr: true
+  auto_merge: false
+  intelligent_commit_messages: true
+  conflict_resolution_ai: true
+  auto_tests: true
+  
+tests:
+  auto_generate: true
+  auto_run: true
+  frameworks:
+    python: "pytest"
+    javascript: "jest"
+    
+tasks:
+  long_running: true
+  max_duration: 14400  # 4 hours
+  checkpoint_interval: 300  # 5 minutes
+
+# Claude Code統合設定 (Phase 2.5.1)
+claude_integration:
+  enabled: true
+  screen_split_ratio: 0.7
+  auto_yes_integration: true
+  japanese_panel: true
+  error_translation: true
+  session_management: true
+  tmux_fallback: true
+
+# Phase 2.8: ログストリーム管理画面設定
+stream_dashboard:
+  enabled: true              # デフォルト有効
+  max_lines: 50             # 表示行数
+  update_interval: 0.5      # 更新間隔（秒）
+  log_levels:               # 表示するレベル
+    - INFO
+    - PROC
+    - GIT
+    - TASK
+    - OK
+    - WARN
+    - ERR
+    - SAVE
+  ui:
+    show_icons: true        # アイコン表示
+    show_colors: true       # 色分け表示
+    show_timestamps: true   # タイムスタンプ表示
+    compact_mode: false     # コンパクトモード
+  performance:
+    cpu_limit: 0.5         # CPU使用率制限（%）
+    memory_limit: 5        # メモリ制限（MB）
+    buffer_optimization: true  # バッファ最適化

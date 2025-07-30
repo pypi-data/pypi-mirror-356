@@ -1,0 +1,35 @@
+include README.md
+include LICENSE
+include requirements.txt
+include config/*.yaml
+include core/*.sh
+recursive-include docs *.md
+recursive-include DECISIONS *.md
+
+# 開発・テスト関連ファイルを除外
+exclude debug_*.py
+exclude test_*.py
+exclude test_*.js
+exclude test_*.sh
+exclude final_integration_test.md
+exclude mouse_wheel_solution_analysis.md
+recursive-exclude * *.bak
+recursive-exclude * *_backup.py
+recursive-exclude * *.backup
+exclude core/screen_controller_improved.py
+exclude core/screen_controller_simple.py
+exclude core/setup.py
+recursive-exclude test_production *
+recursive-exclude scripts *
+recursive-exclude tests *
+recursive-exclude reports *
+recursive-exclude archived *
+recursive-exclude deployment *
+
+# 自動生成ファイルを除外
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store
+global-exclude build
+global-exclude dist
+global-exclude *.egg-info

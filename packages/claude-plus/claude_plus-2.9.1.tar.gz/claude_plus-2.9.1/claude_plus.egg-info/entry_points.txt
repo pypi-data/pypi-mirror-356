@@ -1,0 +1,4 @@
+[console_scripts]
+claude-plus = core.daemon:main
+claude-plus-config = core.config_manager:main
+claude-plus-dev = core.daemon:main_dev
