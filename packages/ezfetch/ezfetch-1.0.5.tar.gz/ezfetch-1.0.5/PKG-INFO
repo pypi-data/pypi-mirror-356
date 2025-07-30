@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: ezfetch
+Version: 1.0.5
+Summary: A fast, cross-platform terminal system info tool written in Python (like neofetch)
+Author: yokaimsi
+Author-email: yokaimsi <contact.now.itachi@gmail.com>
+License: MIT
+Project-URL: Repository, https://github.com/yokaimsi/ezfetch
+Keywords: neofetch,system-info,cli,terminal,fetch
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: psutil
+Dynamic: author
+Dynamic: license-file
+
+# ezfetch
+
+[![PyPI version](https://badge.fury.io/py/ezfetch.svg)](https://badge.fury.io/py/ezfetch)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A simple and efficient Python package to fetch data from the web with ease.
+
+---
+
+## Features
+
+- Easy-to-use API for HTTP requests
+- Supports GET, POST, PUT, DELETE methods
+- Handles JSON and text responses
+- Customizable headers and timeouts
+- Lightweight and dependency-free
+
+---
+
+## Installation
+
+Install `ezfetch` from PyPI:
+
+```bash
+pip install ezfetch
+```
+
+---
+
+## Usage
+
+### In Your Terminal
+
+```
+ezfetch
+```
+
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Links
+
+- [PyPI](https://pypi.org/project/ezfetch/)
+- [GitHub](https://github.com/yokaimsi/ezfetch)
