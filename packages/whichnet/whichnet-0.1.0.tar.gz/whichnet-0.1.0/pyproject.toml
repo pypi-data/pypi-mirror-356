@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "whichnet"
+version = "0.1.0"
+authors = [
+  { name="D4db0y", email="d4db0y@protonmail.com" },
+]
+description = "Whichnet is a tool to identify Level2 network devices and relations."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["scapy>2.3.2","ipaddress"]
+
+[project.scripts]
+whichnet = "whichnet.whichnet:main"
+
+
+#[project.urls]
+#Homepage = "https://github.com/pypa/sampleproject"
+#Issues = "https://github.com/pypa/sampleproject/issues"
