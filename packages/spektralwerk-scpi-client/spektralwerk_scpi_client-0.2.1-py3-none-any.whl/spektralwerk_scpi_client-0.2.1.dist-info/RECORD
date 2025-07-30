@@ -1,0 +1,12 @@
+spektralwerk_scpi_client/__init__.py,sha256=Vdi6OffDRorPQeWjvXo2MPbidl7CNworxvziT78bjl0,18
+spektralwerk_scpi_client/exceptions.py,sha256=p6Gn4rL3WQVK8l-mRTF_wa3zPxMzQ4QoVIQqNhyggGQ,987
+spektralwerk_scpi_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spektralwerk_scpi_client/devices/__init__.py,sha256=Ftq30_cU8OSccLE5sZDXg0HK4E5IqvjVK3BSNSWB4Ic,112
+spektralwerk_scpi_client/devices/spektralwerk_core.py,sha256=-xB6cRkJkj1NeZVmWZ8DdSDZRFYn8ZxhhU6KMuwpq7U,15729
+spektralwerk_scpi_client/scpi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spektralwerk_scpi_client/scpi/commands.py,sha256=RImbvO8-daK30l4P6lqg_wZn2VLx6mfzEahKdiBIGQE,1931
+spektralwerk_scpi_client/scpi/units.py,sha256=jU6LvS_Te0GDrPZ71eWCwbN2UylKA3Gmxem0Vdnw_7U,130
+spektralwerk_scpi_client-0.2.1.dist-info/METADATA,sha256=c7W2owBU8Gi89MA_YghXToIDbAuasyU_O8Bl-Sm9EsA,1794
+spektralwerk_scpi_client-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+spektralwerk_scpi_client-0.2.1.dist-info/licenses/LICENSE,sha256=jx_GjM4O7X17Sg971itTiqi0XTR1ASFLeS7GSDoaPM4,1072
+spektralwerk_scpi_client-0.2.1.dist-info/RECORD,,
