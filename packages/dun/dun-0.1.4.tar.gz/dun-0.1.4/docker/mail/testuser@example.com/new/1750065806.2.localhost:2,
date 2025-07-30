@@ -1,0 +1,15 @@
+Content-Type: multipart/mixed; boundary="===============8799809874878725526=="
+MIME-Version: 1.0
+From: sender@example.com
+To: testuser@example.com
+Subject: Przypomnienie o spotkaniu
+Date: Mon, 16 Jun 2025 11:23:26 +0000
+
+--===============8799809874878725526==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+UHJ6eXBvbWluYW0gbyBqdXRyemVqc3p5bSBzcG90a2FuaXUgbyBnb2R6aW5pZSAxMDowMC4=
+
+--===============8799809874878725526==--
