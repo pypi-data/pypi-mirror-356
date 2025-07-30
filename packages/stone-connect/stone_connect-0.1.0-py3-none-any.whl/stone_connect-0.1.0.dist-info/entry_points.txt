@@ -1,0 +1,2 @@
+[console_scripts]
+stone-connect-example = examples.basic_usage:main
