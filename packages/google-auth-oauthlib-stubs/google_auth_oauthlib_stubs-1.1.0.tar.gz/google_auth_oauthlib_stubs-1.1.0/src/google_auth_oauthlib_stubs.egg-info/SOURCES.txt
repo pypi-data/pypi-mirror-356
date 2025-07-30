@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/google_auth_oauthlib_stubs.egg-info/PKG-INFO
+src/google_auth_oauthlib_stubs.egg-info/SOURCES.txt
+src/google_auth_oauthlib_stubs.egg-info/dependency_links.txt
+src/google_auth_oauthlib_stubs.egg-info/requires.txt
+src/google_auth_oauthlib_stubs.egg-info/top_level.txt
+src/tool/__init__.pyi
