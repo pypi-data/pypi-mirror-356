@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: tnncli
+Version: 0.0.1
+Author-email: Gabriel Choong Ge Liang <gabrielchoonggeliang@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/gabrielchoong/tnncli
+Project-URL: Issues, https://github.com/gabrielchoong/tnncli/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+Dynamic: requires-python
