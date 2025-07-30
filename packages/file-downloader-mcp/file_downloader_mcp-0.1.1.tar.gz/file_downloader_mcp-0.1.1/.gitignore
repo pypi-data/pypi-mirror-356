@@ -1,0 +1,33 @@
+# 工作目录
+workspace/*
+!workspace/.gitkeep
+
+# 日志文件
+logs/*
+!logs/.gitkeep
+
+# Docker 相关
+.docker/
+
+# 临时文件
+*.tmp
+*.log
+*.pid
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 备份文件
+*.bak
+*.backup
+
+# 环境变量文件
+.env
+.env.local
