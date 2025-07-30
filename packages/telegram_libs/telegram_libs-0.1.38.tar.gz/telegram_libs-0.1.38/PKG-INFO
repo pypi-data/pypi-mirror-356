@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: telegram_libs
+Version: 0.1.38
+Summary: Common libraries for Telegram bots
+Author: Andrey Gritsaenko gricaenko.95a@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: pymongo (>=4.13.0,<5.0.0)
+Requires-Dist: pytest (>=8.3.5,<9.0.0)
+Requires-Dist: pytest-asyncio (>=1.0.0,<2.0.0)
+Requires-Dist: python-telegram-bot (>=22.1,<23.0)
+Project-URL: Repository, https://github.com/AndreyGritsa/telegram_libs
+Description-Content-Type: text/markdown
+
+# Telegram Libs
+
+A framework to build Telegram bots fast.
+Common functionality for Andrey Gritsaenko's Telegram bots.
+
+## Installation
+
+```bash
+pip install telegram-libs
+```
+
+## Bots using this framework
+
+- [Remove Background](https://t.me/MagMediaBot)
+- [Upscale Image](https://t.me/UpscaleImageGBot)
+- [Generate Background](https://t.me/GenerateBackgroundGBot)
+- [Recommend Place to Visit](https://t.me/kudapoyti_go_bot)
+- [Try On Outfit](https://t.me/TryOnOutfitGBot)
+- [Clone Voice, Text to Speech AI](https://t.me/CloneVoiceAIGBot)
