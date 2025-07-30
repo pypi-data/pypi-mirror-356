@@ -1,0 +1,3 @@
+[console_scripts]
+music = music.cli.entry_point:entry_point
+music-webapp = music.cli.webapp:entry_point
