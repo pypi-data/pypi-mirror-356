@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: lightning-pose-app
+Version: 1.8.1a1
+Summary: 
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: fastapi
+Requires-Dist: tomli
+Requires-Dist: tomli_w
+Requires-Dist: uvicorn[standard]
+Requires-Dist: wcmatch
