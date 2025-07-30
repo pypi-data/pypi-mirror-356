@@ -1,0 +1,362 @@
+Metadata-Version: 2.4
+Name: kklove.hefang
+Version: 1.9.3
+Summary: A Powerful Windows-PC-Wechat automation Tool
+Author: hefangyixialou
+Author-email: 一串数字@qq.com
+License: Apache-2.0
+Keywords: rpa,windows,wechat,automation
+Description-Content-Type: text/markdown
+Requires-Dist: PyAutoGUI>=0.9.54
+Requires-Dist: pycaw>=20240210
+Requires-Dist: pywin32>=308
+Requires-Dist: pywin32-ctypes>=0.2.2
+Requires-Dist: pywinauto>=0.6.8
+Requires-Dist: psutil>=5.9.6
+Requires-Dist: pillow>=11.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+'import sys
+import time
+sys.path.append("/home/lemon/catkin_ws/src/aelos_smart_ros")
+
+
+from leju import *
+
+
+def handle_errors(func):
+    def wrapper(*args, **kwargs):
+        try:
+            nodes.node_initial()
+            return func(*args, **kwargs)
+        except Exception as e:
+            print(f"Error in {func.__name__}: {e}")
+            nodes.serror(e)
+            sys.exit(2)
+    return wrapper
+
+tag_action_threshold = {
+    'normal': {
+        'x': (0.2, -1000, '前进2_2', '下蹲'),
+        'y': (0.03, -0.03, '左平移2_2', '右平移2_2'),
+        'yaw': (115, 75, '向左转动', '向右转动')
+    },
+    'stufen': {
+        'x': (0.2, -1000, '前进2_2', '下蹲'),
+        'y': (0.03, -0.03, '左平移2_2', '右平移2_2'),
+        'yaw': (295, 255, '向左转动', '向右转动')
+    }
+}
+
+color_params_threshold = {
+    1:(43, 115, 109, 53, 255, 162),   # 绿色
+    2:(12, 140, 118, 17, 255, 199),   # 橙色
+}
+
+color_xy_threshold={
+    'x' : (370,270,'右平移1_3','左平移1_3'),
+    'y' : (1000,340,'下蹲','前进1_2'),
+}
+
+
+head_color_threshold=18
+shest_color_threshold=30
+positive_geomag_threshold = (193, 177)
+reverse_geomag_threshold = (18, 8)
+
+
+"""描述该功能...
+    向目标位移
+"""
+@handle_errors
+def move_to_target(current,max_offset,min_offset,negative_action="",positive_action=''):           
+    if current<=max_offset and current>=min_offset:
+        print("--已完成位移--")
+        return True
+    action = negative_action if current > max_offset else positive_action
+    print(action)
+    base_action.action(action)
+    time.sleep(0.3)
+    return False
+
+
+"""描述该功能...
+    找tag码
+"""
+@handle_errors
+def find_tag(tag_id, geomag_max, geomag_min, search_action=''):
+    print("--------开始调整地磁---------")
+    while not move_to_target(sensor_port.get_magnet(), geomag_max, geomag_min, '向左转动1步', '向右转动1步'):
+        print(f"'地磁值：'{sensor_port.get_magnet()}")
+        pass
+    
+    print(f"--------开始搜索{tag_id}号tag码--------")
+    while artag_port.get_specifies_tag(tag_id, 'chest')[0] == 1000:
+        print(f"Tag{tag_id}未识别到")
+        base_action.action(search_action)
+        print(search_action)
+        time.sleep(0.5)
+        
+    print(f"Tag{tag_id}'号识别成功'")
+    return True  
+
+
+
+"""描述该功能....
+    抱起颜色方块
+"""
+@handle_errors
+def pickup_block(color_params):
+    while True:
+        print('-----进入抱起颜色方块循环-----')
+        if colour_port.get_color_percent('chest',*color_params)>shest_color_threshold:
+            print('--到达位置--')
+            base_action.action('抱起方块')
+            print('抱起颜色')
+            time.sleep(0.5)
+        else:
+            print('-----开始调整位置-----')
+            while colour_port.get_color_percent('chest',*color_params)<shest_color_threshold:
+                color=colour_port.get_central_coordinate('chest',*color_params)
+                print(f"'颜色坐标x:'{color[0]},'y:'{color[1]}")
+                color_x=move_to_target(color[0],*color_xy_threshold['x'])
+                color_y=move_to_target(color[1],*color_xy_threshold['y'])
+
+        if colour_port.get_color_percent('head', *color_params) >= head_color_threshold:
+            print("已抱起方块")
+            break
+    return True    
+
+
+
+
+"""描述该功能...
+    对齐tag码
+"""
+@handle_errors
+def align_to_tag(tag_id=0,action="",stufen=False,stufen_2=True):
+    print('--------进入通道循环--------')
+    print(f"'开始向'{tag_id}'号tag靠近'")
+    thresholds = tag_action_threshold['stufen' if stufen else 'normal']
+    adjusted = {'x': False, 'y': False, 'yaw': False}
+    while True:
+        tag = artag_port.get_specifies_tag(tag_id, 'chest')
+        print('胸部：',tag_id, "x: ", tag[0], "y: ", tag[1], "yaw: ", tag[2] + 180)
+        if tag[0] ==1000:
+            print('----id丢失----')
+            base_action.action("向右转动")
+            print('向右转动')
+            time.sleep(0.5)
+            continue
+        print('-----开始调整位置-----')
+
+        if not adjusted['yaw']:
+            adjusted['yaw']=move_to_target(tag[2]+180,*thresholds['yaw'])
+            if all(adjusted.values()):
+                break
+        if adjusted['yaw']:
+            adjusted['y']=move_to_target(tag[1],*thresholds['y'])
+            adjusted['x']=move_to_target(tag[0],*thresholds['x'])
+        if adjusted['x'] and adjusted['yaw']:  #再次调整yaw
+            adjusted['yaw']=False
+
+    print('--------进入横向移动调整-------')
+    if tag_id in (3, 6):        # 横向移动调整拐弯处
+        steps = 4 if tag_id == 3 else 6    # 步数看实际步伐
+        action = '右平移2_2' if tag_id == 3 else '左平移2_2'
+        for _ in range(steps):
+            base_action.action(action)
+
+    next_id = tag_id + 1
+    if stufen_2 and artag_port.get_specifies_tag(next_id, 'chest')[0] == 1000:   #判断是否横移找tag码
+        print(f" 开始识别{next_id}号tag码")
+        for _ in range(3):
+            base_action.action(action)
+            print(action)
+            time.sleep(0.3)
+        print(f"Tag {next_id} 识别成功")
+
+
+
+"""描述该功能...
+    进入通道
+"""
+@handle_errors
+def tag_foeward():
+    find_tag(1,*positive_geomag_threshold,'左平移2_2')
+    print('------进入通道------')
+    tag_actions = {
+        1: ('前进2_2', False, True),
+        2: ('右平移2_2', False, True),
+        3: ('前进2_2', False, True),
+        4: ('左平移2_2', False, True),
+        5: ('前进2_2', False, False),
+        6: ('前进2_2', False, True),
+        7: ('右平移2_2', False, True),
+        8: ('前进2_2', True, False)
+    }
+    
+    for id, (next_action, next_back,go_flag) in tag_actions.items():
+        if id==8:
+            id=1
+        print(id,next_action)
+        align_to_tag(id,next_action,next_back,go_flag)
+        go_back=False
+        if id==5:
+            print('----开始进入大本营----')
+            go_back=place_block_at_base()
+            find_tag(5,*reverse_geomag_threshold,'前进2_2')
+            align_to_tag(5, '前进2_2', False, True)
+        if go_back and id==1:        # 回到起点
+            for _ in range(2):  #步速看实际步伐
+                base_action.action('前进2_2')
+
+
+"""描述该功能...
+    放下方块
+"""
+@handle_errors
+def place_block_at_base():
+    for _ in range(4):  #步速看实际步伐
+        base_action.action('前进2_2')
+    else:
+        print('---到达位置---')
+        base_action.action('向右转动1步')
+        return True
+
+
+@handle_errors
+def main():
+    print("--------开始运行--------")
+    while True:
+        # 检查是否已捡起方块
+        head_color_1 = colour_port.get_color_percent('head', *color_params_threshold[1])
+        head_color_2 = colour_port.get_color_percent('head', *color_params_threshold[2])
+        if head_color_1 >= head_color_threshold or head_color_2 >= head_color_threshold:
+            print("----已抱起方块，开始导航----")
+            tag_foeward()
+            continue
+            
+        # 选择最近的方块
+        chest_color_1 = colour_port.get_color_percent('chest', *color_params_threshold[1])
+        chest_color_2 = colour_port.get_color_percent('chest', *color_params_threshold[2])
+        target_params = color_params_threshold[1] if chest_color_1 >= chest_color_2 else color_params_threshold[2]
+
+        if pickup_block(target_params):
+            tag_foeward()
+            continue
+
+ 
+if __name__ == "__main__":
+    print ("Run custom project")
+    main()
+
+
+
+
+
+
+  import sys
+import time
+sys.path.append("/home/lemon/catkin_ws/src/aelos_smart_ros")
+
+from leju import *
+
+leju_variable_tag_x = None
+leju_variable_tag_y = None
+leju_variable_tag_yaw = None
+
+
+
+def main():
+    nodes.node_initial()
+    try:
+
+
+        while True:
+            a=sensor_port.get_magnet()
+            print(a)
+            print("==============")
+    except Exception as e:
+        nodes.serror(e)
+        exit(2)
+    finally:
+        nodes.finishsend()
+
+
+
+def detect_coordinate_color():
+    nodes.node_initial()
+    try:
+        while True:
+            color_params_3 = (155, 98,100,174,175 ,159)
+            color_params_1 = (36, 108, 94, 53, 255, 162)
+            color_params_2 = (10, 233, 132, 16, 255, 203)
+            color=colour_port.get_central_coordinate('chest',*color_params)
+            print(f"'颜色1颜色坐标x:'{color_params_1[0]},'y:'{color_params_1[1]}")
+            print(f"'颜色2颜色坐标x:'{color_params_2[0]},'y:'{color_params_2[1]}")
+            print(f"'颜色3颜色坐标x:'{color_params_3[0]},'y:'{color_params_3[1]}")
+    except Exception as e:
+        print(e)
+        nodes.serror(e)
+        exit(2)
+
+
+
+def detect_area_color():
+    nodes.node_initial()
+    try:
+        while True:
+            color_params_3 = (155, 98,100,174,175 ,159)
+            color_params_1 = (36, 108, 94, 53, 255, 162)
+            color_params_2 = (10, 233, 132, 16, 255, 203)
+            shest_color = colour_port.get_color_percent('chest',*color_params_1)   
+            head_color = colour_port.get_color_percent('head',*color_params_1)
+            color = colour_port.get_color_percent('chest',*color_params_3)            
+            print('胸部：'+str(shest_color),'头部'+str(head_color),'大本营'+str(color))
+            # print('颜色坐标x:',color[0],'y:',color[1])
+
+    except Exception as e:
+        print(e)
+        nodes.serror(e)
+        exit(2)
+
+
+def detect_all_tags():
+    nodes.node_initial()
+    try:
+        print("开始检测")
+        while True:
+            print("开始")
+            marker = artag_port.get_specifies_marker('chest')
+            marker_1 = artag_port.get_specifies_marker('head')
+            print("============")
+            for ke in marker_1:
+                print('头部：',ke, "x: ", marker_1[ke][0], "y: ", marker_1[ke][1], "yaw: ", marker_1[ke][2] + 180)
+            for key in marker:
+                print('胸部：',key, "x: ", marker[key][0], "y: ", marker[key][1], "yaw: ", marker[key][2] + 180)
+            print("============")
+            time.sleep(1)
+    except Exception as e:
+        print(e)
+        nodes.serror(e)
+        exit(2)
+
+if __name__ == "__main__":
+    print ("Run custom project")
+    detect_all_tags()
+  
+'
