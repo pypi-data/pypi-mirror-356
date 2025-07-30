@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: mtbs
+Version: 0.1.4
+Summary: a little lib to interact with Metabase
+Author-email: Ruddy <ruddy.at.work@proton.me>
+Requires-Python: >=3.12.8
+Requires-Dist: diskcache>=5.6.3
+Requires-Dist: requests==2.31.0
+Description-Content-Type: text/markdown
+
+## MTBS
+
+#### Little lib to interact with Metabase
+
+
+https://chatgpt.com/c/6851260c-747c-8003-904f-7d33b0d9cbdf
+uv pip install --upgrade build twine
+uv run python -m build
+uv run twine upload dist/*
