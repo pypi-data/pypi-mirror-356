@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: SerialAlchemy
+Version: 0.5.5
+Summary: Mixin for serializing SQLAlchemy ORM classes into dict or json
+Author-email: Matt Schmidt <sloatx@gmail.com>
+Requires-Python: >=3.7
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: sqlalchemy<3.0,>=2.0.0
