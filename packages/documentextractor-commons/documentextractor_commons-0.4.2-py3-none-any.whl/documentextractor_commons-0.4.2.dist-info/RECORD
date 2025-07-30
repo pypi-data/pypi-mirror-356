@@ -1,0 +1,17 @@
+documentextractor_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+documentextractor_commons/models/__init__.py,sha256=OsOpSa97GhPILSR2WdqYiUdLyJmWt5ICAcSZCnEBfyI,179
+documentextractor_commons/models/core/__init__.py,sha256=5mDKkr1zGaUwnoUDRcpgRsYemwXAX4tG3Hj_IiiKXj0,297
+documentextractor_commons/models/core/file.py,sha256=oXpgzo9VMlT6qEwXnZAG2c6JXxNWMUKdbypFPljjzkM,470
+documentextractor_commons/models/core/run.py,sha256=tcSXuaBmhlyh13Rjvx9o6nOzfRM6l1TRpBQcGlCj0Zo,313
+documentextractor_commons/models/core/schema.py,sha256=Iz79hGqGPqU6HWynQhDvNLpv_EIoBbyNygJdJx2Eetk,498
+documentextractor_commons/models/core/workflow.py,sha256=VIROEy2SJCUKawfHhxn7963VvhG7Fi7RAzRjV4HmpFQ,484
+documentextractor_commons/models/transfer/__init__.py,sha256=kaMiLzJ8GcuAPVsUoMsef5Q7xWpUY4vR97qg9DViqbo,615
+documentextractor_commons/models/transfer/file.py,sha256=O67Fs4F-meTw8lQFipUVmDRoMl_lPyabCnBeS4U3dZc,929
+documentextractor_commons/models/transfer/run.py,sha256=_fn1pL0vhYlBGA6wfNo6B7TPB4X-1uuz-77u0GuYVNY,1583
+documentextractor_commons/models/transfer/schema.py,sha256=rxVD_5pdUZwh4qPodCkfxLjfVepdebTwWc5rRs5Qpvc,6689
+documentextractor_commons/models/transfer/workflow.py,sha256=8lxmW1yVknIWhnJqzFEj7nTJo25-CdYWeEXWSS6yxOw,3498
+documentextractor_commons-0.4.2.dist-info/LICENSE,sha256=yIWKWnZEC7ykhOE0z330Y4XQkN0YssWOZQ-TkliALls,10141
+documentextractor_commons-0.4.2.dist-info/METADATA,sha256=dNosF4v6_MPNSd1JuWq0DQ9hkOptPkh1-DzNulPP-Yo,1418
+documentextractor_commons-0.4.2.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+documentextractor_commons-0.4.2.dist-info/top_level.txt,sha256=c_qZsklayW3LDd6RQjM_csGMuSuQnlu2eATE3Ow0C4E,26
+documentextractor_commons-0.4.2.dist-info/RECORD,,
