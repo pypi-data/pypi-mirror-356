@@ -1,0 +1,16 @@
+charset-normalizer<4.0,>2.0
+ruamel.yaml
+weblate-language-data>=2024.14
+
+[dev]
+translation-finder[lint,test,types]
+
+[lint]
+pre-commit==4.2.0
+
+[test]
+pytest
+pytest-cov
+
+[types]
+mypy==1.16.1
