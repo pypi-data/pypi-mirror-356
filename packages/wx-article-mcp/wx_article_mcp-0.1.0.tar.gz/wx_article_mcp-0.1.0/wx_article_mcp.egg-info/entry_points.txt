@@ -1,0 +1,2 @@
+[console_scripts]
+wx-article-mcp = server:main
