@@ -1,0 +1,13 @@
+prefix=/tmp/build_cp311-cp311/pmma/extern
+exec_prefix=/tmp/build_cp311-cp311/pmma/extern
+libdir=/tmp/build_cp311-cp311/pmma/extern/lib
+sharedlibdir=/tmp/build_cp311-cp311/pmma/extern/lib
+includedir=/tmp/build_cp311-cp311/pmma/extern/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

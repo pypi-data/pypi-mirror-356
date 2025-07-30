@@ -1,0 +1,12 @@
+prefix=/tmp/build_cp311-cp311/pmma/extern
+exec_prefix=/tmp/build_cp311-cp311/pmma/extern
+libdir=/tmp/build_cp311-cp311/pmma/extern/lib64
+includedir=/tmp/build_cp311-cp311/pmma/extern/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.49
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}
