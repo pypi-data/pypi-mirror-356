@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: composio
+Version: 1.0.0rc5
+Summary: SDK for integrating Composio with your applications.
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.10
+Requires-Dist: composio-client==1.4.0
+Requires-Dist: openai
+Requires-Dist: pydantic>=2.6.4
+Requires-Dist: pysher>=1.0.8
+Requires-Dist: typing-extensions>=4.0.0
+Description-Content-Type: text/markdown
+
+# Composio SDK
+
+## Setup
+
+```bash
+make env
+source .venv/bin/activate
+```
+
+## Usage
+
+> 📌  **NOTE**
+> Ensure you've set the `COMPOSIO_API_KEY` and the `OPENAI_API_KEY` for these examples to work.
