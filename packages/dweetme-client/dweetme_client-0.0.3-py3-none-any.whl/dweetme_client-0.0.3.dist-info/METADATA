@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: dweetme_client
+Version: 0.0.3
+Summary: Python client for Dweet.me API
+Author-email: "Dweet.me" <dweet.me.server@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://dweet.me
+Project-URL: Repository, https://github.com/dweetme/dweetme-python-client
+Project-URL: Issues, https://github.com/dweetme/dweetme-python-client/issues
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.28.0
+Dynamic: license-file
+
+# Dweetme-python-client
+This is a python client library for dweetme
+
+## Installation 
+pip3 install dweetme-client
+
+## Example
+import dweetme-client
+dweet = dweetme_client.DweetClient("http://dweet.me:3333")
+dweet.get_latest_dweet("demoESP32")
