@@ -1,0 +1,3 @@
+[console_scripts]
+termol = termol.cli:termol_cli
+termol-showcase = termol.cli:showcase_cli
