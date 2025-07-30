@@ -1,0 +1,362 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+#_hhb_header_files_#
+#include "cmd_parse.h"
+#include "rvv/rvv.h"
+#include <dlpack/dlpack.h>
+#include <tvm/runtime/module.h>
+#include <tvm/runtime/packed_func.h>
+#include <tvm/runtime/registry.h>
+#include <tvm/runtime/memory/memory_manager.h>
+#include <tvm/runtime/profiling.h>
+#include <iostream>
+#include <time.h>
+#include <vector>
+#include <algorithm>
+#include <numeric>
+#include <math.h>
+#include <queue>
+#include <utility>
+#include <fstream>
+
+using namespace tvm::runtime;
+
+#define PROFILE_MODE false
+
+#define BILLION 1000000000
+#_hhb_macro_def_#
+
+#_hhb_preprocess_def_#
+
+struct Compare {
+    bool operator()(const std::pair<float, size_t>& a, const std::pair<float, size_t>& b) {
+        return a.first > b.first;
+    }
+};
+
+void show_detail_info(float* data, size_t size) {
+    float min_value = data[0], max_value = data[0];
+    float sum = 0.0f;
+    for(int i = 0; i < size; i++) {
+        min_value = min_value < data[i] ? min_value : data[i];
+        max_value = max_value > data[i] ? max_value : data[i];
+        sum += data[i];
+    }
+    float mean = sum / size;
+    float variance = 0.0f;
+    for (int i = 0; i < size; i++) {
+        variance += (data[i] - mean) * (data[i] - mean);
+    }
+    variance /= size;
+    float std_dev = std::sqrt(variance);
+
+    std::cout << "Min value of output: " << min_value << std::endl;
+    std::cout << "Max value of output: " << max_value << std::endl;
+    std::cout << "Mean value of output: " << mean << std::endl;
+    std::cout << "Standard Deviation of output: " << std_dev << std::endl;
+
+    std::priority_queue<std::pair<float, int>, std::vector<std::pair<float, int>>, Compare> min_heap;
+    for (int i = 0; i < size; i++) {
+        if (min_heap.size() < 5) {
+            min_heap.push({data[i], i});
+        } else if (data[i] > min_heap.top().first) {
+            min_heap.pop();
+            min_heap.push({data[i], i});
+        }
+    }
+
+    std::cout << "============ top5: ===========" << std::endl;
+    std::vector<int> result(min_heap.size(), 0);
+    for (int i = min_heap.size() - 1; i >= 0; i--) {
+        result[i] = min_heap.top().second;
+        min_heap.pop();
+    }
+    for(int i = 0; i < result.size(); i++) {
+        std::cout << result[i] << ": " << data[result[i]] << std::endl;
+    }
+}
+
+Module Load_VM_Module(std::string path, DLDevice device) {
+    Module runtime_mod = Module::LoadFromFile(path);
+    PackedFunc vm_load_executable;
+    if (PROFILE_MODE) {
+        vm_load_executable = runtime_mod.GetFunction("vm_profiler_load_executable");
+    } else {
+        vm_load_executable = runtime_mod.GetFunction("vm_load_executable");
+    }
+    CHECK(vm_load_executable != nullptr)
+        << "ValueError: File `" << path
+        << "` is not built by RelaxVM, because `vm_load_executable` does not exist";
+    Module mod = vm_load_executable();
+    PackedFunc vm_initialization = mod.GetFunction("vm_initialization");
+    CHECK(vm_initialization != nullptr)
+        << "ValueError: File `" << path
+        << "` is not built by RelaxVM, because `vm_initialization` does not exist";
+    vm_initialization(static_cast<int>(device.device_type), static_cast<int>(device.device_id),
+                    static_cast<int>(memory::AllocatorType::kPooled), static_cast<int>(kDLCPU), 0,
+                    static_cast<int>(memory::AllocatorType::kPooled));
+    return mod;
+}
+
+void save_file(char* filename, float* data, size_t size) {
+    std::ofstream outFile(filename);
+    if (!outFile.is_open()) {
+        std::cerr << "Failed to open file for writing." << std::endl;
+        return;
+    }
+
+    for (int i = 0; i <size; i++) {
+        outFile << data[i];
+        outFile << std::endl;
+    }
+    outFile.close();
+}
+
+void *convert_f32_to_input_dtype(float* data, size_t size, int dtype_code, int dtype_bits) {
+    void *ret_data;
+    int32_t zero_point = 0;
+    float scale = 1;
+    if(dtype_code == kDLFloat && dtype_bits == 16) {
+        ret_data = malloc(2 * size);
+        shl_rvv_f32_to_f16(data, (__fp16 *)ret_data, &scale, size);
+    } else if(dtype_code == kDLInt && dtype_bits == 32) {
+        ret_data = malloc(4 * size);
+        shl_rvv_f32_to_i32(data, (int32_t *)ret_data, zero_point, &scale, size);
+    } else if(dtype_code == kDLFloat && dtype_bits == 32) {
+        ret_data = malloc(4 * size);
+        memcpy(ret_data, data, 4 * size);
+    } else {
+        printf("unknown dtype convert!\n");
+        abort();
+    }
+    return ret_data;
+}
+
+float* convert_output_dtype_to_fp32(void* data, size_t size, int dtype_code, int dtype_bits) {
+    float *ret_data = (float *)malloc(size * sizeof(float));
+    int32_t zero_point = 0;
+    float scale = 1;
+    if(dtype_code == kDLFloat && dtype_bits == 16) {
+        shl_rvv_f16_to_f32((__fp16 *)data, ret_data, &scale, size);
+    } else if(dtype_code == kDLInt && dtype_bits == 32) {
+        shl_rvv_i32_to_f32((int32_t *)data, ret_data, zero_point, &scale, size);
+    } else if(dtype_code == kDLFloat && dtype_bits == 32) {
+        memcpy(ret_data, data, size * sizeof(float));
+    } else {
+        printf("unknown dtype convert!\n");
+        abort();
+    }
+    return ret_data;
+}
+
+int main(int argc, char **argv) {
+    struct cmdline_options *option = cmdline_parser(argc, argv);
+
+    DLDevice dev{kDLCPU, 0};
+    std::string model_path = argv[option->rest_line_index];
+    Module mod = Load_VM_Module(model_path, dev);
+
+    PackedFunc set_input = mod.GetFunction("set_input");
+    PackedFunc invoke = mod.GetFunction("invoke_stateful");
+    PackedFunc get_output = mod.GetFunction("get_output");
+    PackedFunc profile = mod.GetFunction("profile");
+
+    int input_num = #_input_num#;
+    int output_num = #_output_num#;
+    int input_group_num = 1;
+
+    char **data_path = NULL;
+    if (option == NULL) {
+        return -1;
+    } else {
+        int cmd_input_index = option->rest_line_index + 1;
+        if (get_file_type(argv[cmd_input_index]) == FILE_TXT) {
+            data_path = read_string_from_file(argv[cmd_input_index], &input_group_num);
+            input_group_num /= input_num;
+    } else {
+            data_path = argv + cmd_input_index;
+            input_group_num = (argc - cmd_input_index) / input_num;
+        }
+    }
+
+    // storage input data
+    std::vector<DLTensor*> args(input_num);
+    int dtype_lanes = 1;
+    int device_id = 0;
+
+    // storage shape of all inputs
+    std::vector<std::vector<int>> shape_vec(input_num);
+    #_tensor_shape_#
+    // storage dtype of all inputs
+    std::vector<int> dtype_vec(input_num);
+    #_tensor_dtype_#
+    // storage dtype_bits of all inputs
+    std::vector<int> dtype_bits_vec(input_num);
+    #_tensor_dtype_bits_#
+    float *inputf[input_num];
+    char filename_prefix[FILE_PREFIX_LENGTH] = {0};
+    int num_total_args = input_num + 1;  // one is for func_name
+    std::vector<TVMValue> tvm_values(num_total_args);
+    std::vector<int> tvm_type_codes(num_total_args);
+    TVMArgsSetter setter(tvm_values.data(), tvm_type_codes.data());
+    setter(0, "main");   // set func_name to be executed
+    TVMRetValue rv;
+    uint64_t start_time, end_time;
+
+    for (int i = 0; i < input_group_num; i++) {
+        /* set input */
+        for (int j = 0; j < input_num; j++) {
+
+            int in_ndim = shape_vec[j].size();
+            int64_t in_shape[in_ndim] = {0};
+            size_t in_size = 1;
+            for(int k = 0; k < in_ndim; k++) {
+                in_shape[k] = shape_vec[j][k];
+                in_size *= shape_vec[j][k];
+            }
+            int sizeof_dtype = dtype_bits_vec[j] / 8;
+            size_t data_len = in_size * sizeof_dtype;
+
+            #_get_input_data_stats_#
+            void* data_after_dtype_convert = convert_f32_to_input_dtype(inputf[j], in_size, dtype_vec[j], dtype_bits_vec[j]);
+            TVMArrayAlloc(in_shape, in_ndim, dtype_vec[j], dtype_bits_vec[j], dtype_lanes,
+                  kDLCPU, device_id, &args[j]);
+            TVMArrayCopyFromBytes(args[j], data_after_dtype_convert, data_len);
+            free(inputf[j]);
+            free(data_after_dtype_convert);
+            inputf[j] = NULL;
+            data_after_dtype_convert = NULL;
+            setter(j + 1, args[j]);
+        }
+        TVMArgs func_input(tvm_values.data(), tvm_type_codes.data(), num_total_args);
+
+        if (PROFILE_MODE) {
+            profile.CallPacked(func_input, &rv);
+            std::string res = rv;
+            auto rep = profiling::Report::FromJSON(res);
+            std::cout << rep->AsTable() << std::endl;
+
+            // dump to file
+            std::string trace_file = "model_aot_trace.json";
+            std::ofstream output_file(trace_file);
+            if (!output_file.is_open()) {
+                std::cerr << "fail to open file: " << trace_file << std::endl;
+                continue;
+            }
+            output_file << res;
+            output_file.close();
+
+            // dump to csv
+            std::string csv_filename = "model_aot_trace.csv";
+            std::ofstream csv_file(csv_filename);
+            if (!csv_file.is_open()) {
+                std::cerr << "fail to open file: " << csv_filename << std::endl;
+                continue;
+            }
+            auto csv_str = rep->AsCSV();
+            csv_file << csv_str;
+            csv_file.close();
+
+            continue;
+        }
+
+        set_input.CallPacked(func_input, &rv);
+        float time_all = 0.0;
+        for (int loop = 0; loop < option->loop_time; loop++) {
+            start_time = shl_get_timespec();
+            invoke("main");
+            end_time = shl_get_timespec();
+            //skip the first invoke
+            if(loop != 0)
+            {
+                time_all += ((float)(end_time - start_time))/1000000;
+            }
+            printf("Run graph execution time: %.5fms, FPS=%.5f\n", ((float)(end_time-start_time))/1000000,
+                        1000000000.0/((float)(end_time-start_time)));
+        }
+        if(option->loop_time > 1) {
+            printf("The number of run: %d\n", option->loop_time);
+            printf("Run graph average execution time: %.5fms, FPS=%.5f\n", time_all/(option->loop_time-1), 1000.0*(option->loop_time-1)/time_all);
+        }
+
+        for (int j = 0; j < input_num; j++) {
+            TVMArrayFree(args[j]);
+        }
+
+        // get output
+        std::vector<TVMRetValue> outputs;
+        outputs.resize(output_num);
+        int out_num_total_args;
+        if(output_num == 1) {
+            tvm_values.resize(1);
+            tvm_type_codes.resize(1);
+            out_num_total_args = 1;   // keep only the func_name
+            TVMArgs func_output(tvm_values.data(), tvm_type_codes.data(), out_num_total_args);
+            get_output.CallPacked(func_output, &outputs[0]);
+        } else {
+            tvm_values.resize(2);
+            tvm_type_codes.resize(2);
+            out_num_total_args = 2;   // one is for func_name, the other is index of output
+            for(int i = 0; i < output_num; i++) {
+                setter(1, i);  // set the index of output to be obtained currently
+                TVMArgs func_output(tvm_values.data(), tvm_type_codes.data(), out_num_total_args);
+                get_output.CallPacked(func_output, &outputs[i]);
+            }
+        }
+
+        // tensor info
+        printf("\n=== input tensor info ===\n");
+        for(int idx = 0; idx < shape_vec.size(); idx++) {
+            printf("shape: ");
+            for(int dim = 0; dim < shape_vec[idx].size(); dim++) {
+                printf("%d ", shape_vec[idx][dim]);
+            }
+            printf("\n");
+        }
+
+        for(int o_idx = 0; o_idx < outputs.size(); o_idx++) {
+            printf("\n=== output tensor info ===\n");
+            int output_ndim = outputs[o_idx].operator DLTensor *()->ndim;
+            int64_t* output_shape = outputs[o_idx].operator DLTensor *()->shape;
+            size_t out_size = 1;
+            printf("shape: ");
+            for(int j = 0; j < output_ndim; j++) {
+                int dim = static_cast<int>(output_shape[j]);
+                out_size *= dim;
+                printf("%d ", dim);
+            }
+            printf("\n");
+            void* data_ori = outputs[o_idx].operator DLTensor *()->data;
+            int dtype_code = outputs[o_idx].operator DLTensor *()->dtype.code;
+            int dtype_bits = outputs[o_idx].operator DLTensor *()->dtype.bits;
+            float* output_data = convert_output_dtype_to_fp32(data_ori, out_size, dtype_code, dtype_bits);
+            show_detail_info(output_data, out_size);
+
+            #if #_save_#
+            char filename[FILE_PREFIX_LENGTH] = {0};
+            snprintf(filename, FILE_PREFIX_LENGTH, "%s_output_%d.txt", basename(data_path[i * input_num]), o_idx);
+            save_file(filename, output_data, out_size);
+            #endif
+
+            free(output_data);
+            output_data = NULL;
+        }
+    }
+}
