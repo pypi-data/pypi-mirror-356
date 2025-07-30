@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: ab_time_utils
+Version: 0.2.1
+Summary: 常用时间库
+Author: ab
+Author-email: 17317591878@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# ab_time_utils 
+
+**ab_time_utils** 是一个封装的python库，可用于解决下列问题..
+
+
+解决pip上不显示文字的问题
+
+
