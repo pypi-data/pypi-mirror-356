@@ -1,0 +1,2 @@
+[console_scripts]
+datav-twinfabric-mcp = twinfabric_mcp_server:run
