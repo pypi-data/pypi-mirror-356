@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: spear-ai-sqlfluff-config
+Version: 2.0.1
+Summary: Spear AI SQLFluff config
+Author-email: Spear AI <org@spear.ai>
+Keywords: SQLFluff,ai,config,spear
+Requires-Python: <3.13,>=3.10
+Requires-Dist: sqlfluff==3.0.6
