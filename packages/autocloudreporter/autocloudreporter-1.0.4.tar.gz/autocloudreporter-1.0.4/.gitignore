@@ -1,0 +1,12 @@
+**/*.pyc
+**/*.pyo
+__pycache__/
+build/
+dist/
+autocloudreporter.egg-info/
+.cache/
+.tox/
+resultsdb_conventions
+fedfind
+.coverage
+coverage.xml
