@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simple-chatbot
+Version: 0.1
+Summary: A simple chatbot wrapper for OpenAI GPT models
+Home-page: https://github.com/dhiraj7kr/simple_chatbot
+Author: Dhiraj Kumar
+Author-email: dhiraj7kr@gmail.com.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
