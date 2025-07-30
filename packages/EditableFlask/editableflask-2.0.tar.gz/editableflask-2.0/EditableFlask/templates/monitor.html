@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>{{ 'APP_NAME' | appconfig }}: System Monitor</title>
+        <link rel="icon" type="image/x-icon" href="
+        {% if not 'APP_FAVICON' | appconfig %}
+        {{ url_for('edits.static', filename='favicon.ico') }}
+        {% else %}
+        {{ 'APP_FAVICON' | appconfig | safe }}
+        {% endif %}" />
+
+        <link href="{{ url_for('edits.static', filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
+        <link href="{{ url_for('edits.static', filename='bootstrap/css/navbar.css')}}" rel="stylesheet" />
+        <link href="{{ url_for('edits.static', filename='bootstrap-switch/css/bootstrap-switch.min.css') }}" rel="stylesheet" />
+
+        <style>
+            .btn-logout {
+                background-color: red;
+                color: white;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 4px;
+                font-size: 14px;
+                margin-left: 15px;
+            }
+
+            .btn-logout:hover {
+                background-color: rgb(226, 26, 26);
+                color: #eee; /* Darker red on hover */
+            }
+
+            .checkbox-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .checkbox-container .checkbox {
+                flex: 1 1 30%;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .form-group .caution {
+                color: red;
+                font-size: 12px;
+            }
+
+            .modal-footer {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .navbar-nav {
+                display: flex;
+                align-items: center;
+            }
+
+            .navbar-nav a {
+                font-size: 15px;
+                padding: 10px;
+                margin-top: 6px;
+                margin-left: 15px;
+                color: #252525;
+                text-decoration: none;
+            }
+            .navbar-nav a:hover {
+                color: #000000;
+                transform: scale(1.05);
+            }
+            .navbar-nav .active {
+                border-radius: 10px;
+                background-color: rgb(217, 217, 217);
+            }
+
+            .chart-container {
+                width: 100%;
+                height: 400px; /* Increased height */
+                margin: 20px 0;
+            }
+
+            .system-info {
+                text-align: left;
+                margin: 20px 0;
+                background-color: #f8f9fa;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .system-info h4 {
+                margin-bottom: 20px;
+                color: #343a40;
+                display: inline-block;
+            }
+
+            .system-info p {
+                margin: 5px 0;
+                color: #495057;
+            }
+
+            .system-info p strong {
+                color: #212529;
+            }
+
+            .chart-container canvas {
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .update-interval {
+                display: inline-block;
+                margin-left: 20px;
+            }
+
+            .update-interval input {
+                width: 60px;
+                text-align: center;
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            {{ value | editsnavbar | safe }}
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="system-info">
+                        <h4>Dynamic System Info</h4>
+                        <div class="update-interval pull-right">
+                            <label for="updateInterval">
+                                Update <br />
+                                Interval <br />
+                                (sec):
+                            </label>
+                            <input type="number" id="updateInterval" value="2" min="1" style="position: relative; top: -20px;" />
+                        </div>
+                        <p><strong>OS Name:</strong> <span id="osName"></span></p>
+                        <p><strong>Version:</strong> <span id="osVersion"></span></p>
+                        <p><strong>Kernel:</strong> <span id="kernel"></span></p>
+                        <p><strong>Architecture:</strong> <span id="architecture"></span></p>
+                        <p><strong>Hostname:</strong> <span id="hostname"></span></p>
+                        <p><strong>Uptime:</strong> <span id="uptime"></span></p>
+                        <p><strong>Python Version:</strong> <span id="pythonVersion"></span></p>
+                        <p><strong>Running Users:</strong> <span id="runningUsers"></span></p>
+                        <p><strong>Total Processes:</strong> <span id="totalProcesses"></span></p>
+                        <p><strong>WiFi SSID:</strong> <span id="wifiSSID"></span></p>
+                        <p><strong>GPU Info:</strong> <span id="gpuInfo"></span></p>
+                        <p><strong>Host IP Address:</strong> <span id="hostIP"></span></p>
+                        <p><strong>Processor Info:</strong> <span id="processorInfo"></span></p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="chart-container">
+                        <canvas id="systemChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('edits.static', filename='bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
+    <script>
+        $(document).ready(function () {
+            $('[name="mode"]').bootstrapSwitch({
+                onText: "On",
+                offText: "Off",
+                onSwitchChange: function (e, state) {
+                    $.post("{{ url_for('edits.preview') }}", { state: state });
+                },
+            });
+
+            const systemCtx = document.getElementById("systemChart").getContext("2d");
+
+            const systemChart = new Chart(systemCtx, {
+                type: "line",
+                data: {
+                    labels: [],
+                    datasets: [
+                        { label: "CPU Usage (%)", data: [], borderColor: "red", fill: false },
+                        { label: "Memory Usage (%)", data: [], borderColor: "blue", fill: false },
+                        { label: "Total Processes", data: [], borderColor: "purple", fill: false },
+                    ],
+                },
+                options: { responsive: true, maintainAspectRatio: false },
+            });
+
+            function updateCharts() {
+                fetch("/edits/monitor/stats")
+                    .then((response) => response.json())
+                    .then((data) => {
+                        const now = new Date().toLocaleTimeString();
+
+                        if (systemChart.data.labels.length > 10) {
+                            systemChart.data.labels.shift();
+                            systemChart.data.datasets.forEach((dataset) => dataset.data.shift());
+                        }
+                        systemChart.data.labels.push(now);
+                        systemChart.data.datasets[0].data.push(data.cpu_usage);
+                        systemChart.data.datasets[1].data.push(data.memory);
+                        systemChart.data.datasets[2].data.push(data.total_processes);
+                        systemChart.update();
+
+                        // Update system info
+                        document.getElementById("osName").textContent = data.os_name;
+                        document.getElementById("osVersion").textContent = data.os_version;
+                        document.getElementById("kernel").textContent = data.kernel;
+                        document.getElementById("architecture").textContent = data.architecture;
+                        document.getElementById("hostname").textContent = data.hostname;
+                        document.getElementById("uptime").textContent = data.uptime;
+                        document.getElementById("pythonVersion").textContent = data.python_version;
+                        document.getElementById("runningUsers").textContent = data.running_users;
+                        document.getElementById("totalProcesses").textContent = data.total_processes;
+                        document.getElementById("wifiSSID").textContent = data.wifi_ssid;
+                        document.getElementById("gpuInfo").textContent = data.gpu_info;
+                        document.getElementById("hostIP").textContent = data.host_ip;
+                        document.getElementById("processorInfo").textContent = data.processor_info;
+                    });
+            }
+
+            // Load the saved update interval from local storage
+            const savedInterval = localStorage.getItem("updateInterval");
+            if (savedInterval) {
+                document.getElementById("updateInterval").value = savedInterval;
+            }
+
+            let updateInterval = parseInt(document.getElementById("updateInterval").value) * 1000;
+            let intervalId = setInterval(updateCharts, updateInterval);
+
+            document.getElementById("updateInterval").addEventListener("change", function () {
+                clearInterval(intervalId);
+                updateInterval = parseInt(this.value) * 1000;
+                localStorage.setItem("updateInterval", this.value); // Save the interval to local storage
+                intervalId = setInterval(updateCharts, updateInterval);
+            });
+        });
+    </script>
+</html>
