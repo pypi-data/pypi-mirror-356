@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/clai_ai.egg-info/PKG-INFO
+src/clai_ai.egg-info/SOURCES.txt
+src/clai_ai.egg-info/dependency_links.txt
+src/clai_ai.egg-info/entry_points.txt
+src/clai_ai.egg-info/requires.txt
+src/clai_ai.egg-info/top_level.txt
+src/cli/__init__.py
+src/cli/ai_client.py
+src/cli/config.py
+src/cli/explainer.py
+src/cli/git_handler.py
+src/cli/main.py
