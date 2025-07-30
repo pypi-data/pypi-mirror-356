@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: hdh
+Version: 0.0.2
+Summary: Hybrid Dependency Hypergraphs for quantum computation: translation, visualization, and partitioning.
+License: MIT
+Keywords: quantum,compiler,partitioning,hdh,hypergraph
+Author: Maria Gragera Garces
+Author-email: m.gragera.gaces@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: matplotlib (>=3.0,<4.0)
+Requires-Dist: metis (==0.2a5)
+Requires-Dist: networkx (>=3.0,<4.0)
+Requires-Dist: qiskit (>=1.0,<2.0)
+Project-URL: Homepage, https://pypi.org/project/hdh/
+Project-URL: Repository, https://github.com/grageragarces/hdh
+Description-Content-Type: text/markdown
+
+# hdh
+
+![My Logo](https://raw.githubusercontent.com/grageragarces/hdh/main/docs/img/logo.png)
+
+**Hybrid Dependency Hypergraphs for Quantum Computation**
+
+🚧 **Work in Progress**  
+This library translates quantum computations into Hybrid Dependency Hypergraph (HDH) representations for analysis, visualization, and partitioning.
+
+## Project Goals
+
+- Convert quantum circuits into HDH format  
+  - Support for popular SDKs (e.g., Qiskit)  
+  - Direct encoding from algorithmic structures
+- Print HDHs in a readable, canonical format  
+- Apply graph partitioning (e.g., METIS, KaHyPar) for distribution-aware analysis
+
+
