@@ -1,0 +1,1 @@
+from .BitSig import BitSig, configureBitSig
