@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "html2ft"
+description = "Command line tool to convert HTML to FastHTML FT components"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+keywords = ["fasthtml"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+dependencies = [
+  "python-fasthtml>=0.4.5",
+]
+
+[[project.authors]]
+name = "Mark Blakeney"
+email = "mark.blakeney@bullet-systems.net"
+
+[project.urls]
+Homepage = "https://github.com/bulletmark/html2ft"
+
+[project.scripts]
+html2ft = "html2ft:main"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.ruff.format]
+quote-style = "single"
+skip-magic-trailing-comma = true
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+# vim:se sw=2:
