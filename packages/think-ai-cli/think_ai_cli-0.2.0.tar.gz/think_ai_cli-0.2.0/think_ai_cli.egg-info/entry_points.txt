@@ -1,0 +1,2 @@
+[console_scripts]
+think = think_ai_cli.cli:main
