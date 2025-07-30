@@ -1,0 +1,18 @@
+{
+    "allowedTags": [
+        "TestTag"
+    ],
+    "pathFilters": {
+        "/test": {
+            "allowedMethods": [
+                "GET"
+            ]
+        }
+    },
+    "propertiesToRemove": [
+        "x-test"
+    ],
+    "options": {
+        "removeUnreferencedSchemas": true
+    }
+}
