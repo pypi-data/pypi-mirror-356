@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+toposkg/__init__.py
+toposkg/toposkg_lib_core.py
+toposkg/toposkg_lib_entity_linking.py
+toposkg/toposkg_lib_fc.py
+toposkg/toposkg_lib_metadata.py
+toposkg/toposkg_lib_translate.py
+toposkg/utils.py
+toposkg.egg-info/PKG-INFO
+toposkg.egg-info/SOURCES.txt
+toposkg.egg-info/dependency_links.txt
+toposkg.egg-info/requires.txt
+toposkg.egg-info/top_level.txt
+toposkg/jar_libs/DuplicateGeometryRemover-1.0-SNAPSHOT.jar
+toposkg/jar_libs/geospatialinterlinking-1.0-SNAPSHOT-jar-with-dependencies.jar
+toposkg/scripts/materialization.sh

@@ -1,0 +1,14 @@
+fsspec
+pyjedai
+pandas
+rich
+
+[fc]
+openai
+
+[full]
+openai
+unsloth
+
+[tl]
+unsloth
