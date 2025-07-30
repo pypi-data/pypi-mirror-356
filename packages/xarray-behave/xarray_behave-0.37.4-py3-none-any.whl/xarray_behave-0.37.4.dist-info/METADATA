@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: xarray-behave
+Version: 0.37.4
+Summary: xarray tools for behavioral data.
+Author-email: Jan Clemens <clemensjan@googlemail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Requires-Dist: defopt==6.3
+Requires-Dist: rich
+Requires-Dist: flammkuchen
+Requires-Dist: h5py
+Requires-Dist: pyyaml
+Requires-Dist: zarr<3
+Requires-Dist: dask
+Requires-Dist: pandas
+Requires-Dist: xarray
+Requires-Dist: scikit-image
+Requires-Dist: peakutils
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: scipy>1.9
+Requires-Dist: sounddevice
+Requires-Dist: soundfile
+Requires-Dist: librosa>0.8
+Requires-Dist: opencv-python-headless
+Requires-Dist: pyvideoreader
+Requires-Dist: PySide6-Essentials==6.8.*
+Requires-Dist: pyqtgraph>0.12.2
+Requires-Dist: qtpy
+Requires-Dist: superqt
+Requires-Dist: colorcet
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: documentation, https://janclemenslab.org/das/
+Project-URL: source, https://github.com/janclemenslab/xarray-behave
+Provides-Extra: dev
+
+# xarray-behave
+
+Install a working conda installation (see [here](https://docs.conda.io/en/latest/miniconda.html)).
+
+```shell
+conda env create -n xb -y -f https://raw.githubusercontent.com/janclemenslab/xarray-behave/refs/heads/master/env/xb.yml
+```
+
+See `demo.ipynb` for usage examples.
+
