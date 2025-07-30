@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cyclic_crop_rotation"
+version = "v2025.0.0"
+authors = [
+  { name="Herbert Sizek", email="sizek.herbert@gmail.com" },
+]
+maintainers = [
+  { name="Herbert Sizek", email="sizek.herbert@gmail.com" },
+]
+description = "Cyclic crop rotations labeling for crop sequences"
+keywords = ["crop rotation","crop transition","cyclic rotation","crop sequence"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/hsizek/cyclic-crop-rotation"
+Issues = "https://github.com/hsizek/cyclic-crop-rotation/issues"
