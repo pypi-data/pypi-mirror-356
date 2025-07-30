@@ -1,0 +1,17 @@
+{
+    "commands": {
+        "check ip": "get_ip",
+        "check mac": "get_mac",
+        "list wifi": "list_wifi",
+        "scan ports": "scan_ports:1-1000",
+        "ping google": "ping:google.com",
+        "trace route": "traceroute:google.com",
+        "public ip": "public_ip",
+        "dns lookup": "dns_lookup:{hostname}",
+        "arp table": "arp_table",
+        "interfaces": "list_interfaces"
+    },
+    "dynamic_params": {
+        "hostname": ["google.com", "github.com", "example.com"]
+    }
+}
