@@ -1,0 +1,47 @@
+@startuml
+state OrthogonalHsm {
+  [*] --> s
+  state s {
+      state REGION_left {
+        [*] --> s1
+        state s1 {
+          state REGION_fred {
+            [*] --> s11
+            state s11 {
+            }
+            state s12 {
+            }
+          }
+          state REGION_george {
+            [*] --> s1X
+            state s1X {
+            }
+            state s1Y {
+            }
+          }
+        }
+        state s2 {
+        }
+      }
+      state REGION_right {
+        [*] --> sA
+        state sA {
+        }
+        state sB {
+        }
+      }
+  }
+  state t {
+  }
+
+}
+    s1X --> s2 : C
+    s1X --> s1 : D
+    s2 --> s1 : E
+    sA --> sB : B
+    sB --> sA : A
+    s1X --> s2 : F
+    s1X --> t : G
+    sA --> t : H
+    t --> s : J
+@enduml
