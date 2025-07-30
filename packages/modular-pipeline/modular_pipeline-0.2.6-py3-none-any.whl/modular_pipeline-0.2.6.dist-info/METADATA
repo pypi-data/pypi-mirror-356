@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: modular_pipeline
+Version: 0.2.6
+Summary: A library for building modular pipelines in Python
+Author-email: Brandyn Hamilton <brandynham1120@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/BrandynHamilton/Data-Pipeline
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: kaleido
+Requires-Dist: pyairtable==2.3.5
+Requires-Dist: python-dotenv
+Requires-Dist: google-analytics-data
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-api-python-client
+Requires-Dist: streamlit
+Dynamic: license-file
+
+# A Library for Modular Data Pipelines
+
+- This library builds off Pandas and automates portions of data cleaning and API integration for several platforms.
