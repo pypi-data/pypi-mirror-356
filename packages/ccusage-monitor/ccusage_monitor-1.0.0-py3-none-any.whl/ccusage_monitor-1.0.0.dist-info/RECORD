@@ -1,0 +1,17 @@
+./.gitattributes,sha256=Gh2-F2vCM7SZ01pX23UT8pQcmauXWfF3gwyRSb6ZAFs,66
+./.gitignore,sha256=gnCglN7Vk8Nj4GZzF2qB_vZCU5UqGjXIRBJlnasD6eA,651
+./CONTRIBUTING.md,sha256=n6nOzUyyQCoewGz4Aw7GJFJO3kNd_Ed5cFqZYU00N5c,11023
+./DEVELOPMENT.md,sha256=kZ5AKxZfFYcs6VKZ-BLymBbd6ffQlmxqL2nNznivn0M,11617
+./LICENSE,sha256=c_IvAuE5MPuR_Y3qNgZ5VJ4hhMouZLtVQ7h_HAnMTiw,1063
+./PKG-INFO,sha256=RhPvsOfhXQC6UXR4o1FOkjw6B54HY0v19Smtqla8rlE,20986
+./README.md,sha256=hEP4dNhk-OoSJNuc91CDPgaRlRUpiqJXumzO7YcbBj0,19924
+./TROUBLESHOOTING.md,sha256=vYZhwaxJlAJWyNhPotok7kGoXD0MmmduQX-EwFV_VfI,12139
+./ccusage_monitor.py,sha256=GG-hGM9ru0wMtLiBhNcJQp70pVO3p1LuQHaQocat0tc,17148
+./pyproject.toml,sha256=5cVY-Zf7kg2IMHTjsnl6TVAY_Ymc_dKtDfh2nqVSwsc,1202
+./requirements.txt,sha256=eI7SGgg_B67NkkQuLOLG_vAHWa_i2OG3IIyApVBnwb8,12
+./doc/sc.png,sha256=xyyGeeuAGs0oVu_kbhmR3rnGbAiA5pWpwSlwJn_x8Fs,54375
+ccusage_monitor-1.0.0.dist-info/METADATA,sha256=RhPvsOfhXQC6UXR4o1FOkjw6B54HY0v19Smtqla8rlE,20986
+ccusage_monitor-1.0.0.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+ccusage_monitor-1.0.0.dist-info/entry_points.txt,sha256=X5bGbn3vXzpnlMm939EmnlUGEij41VQavt71H6Nj__M,57
+ccusage_monitor-1.0.0.dist-info/licenses/LICENSE,sha256=c_IvAuE5MPuR_Y3qNgZ5VJ4hhMouZLtVQ7h_HAnMTiw,1063
+ccusage_monitor-1.0.0.dist-info/RECORD,,
