@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+FailoverCache/__init__.py
+FailoverCache.egg-info/PKG-INFO
+FailoverCache.egg-info/SOURCES.txt
+FailoverCache.egg-info/dependency_links.txt
+FailoverCache.egg-info/requires.txt
+FailoverCache.egg-info/top_level.txt
