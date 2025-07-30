@@ -1,0 +1,15 @@
+gitscaffold-0.1.2.dist-info/licenses/LICENSE,sha256=TCaAFKlPjv_yKFa405R_UIafhcbWU89Qu0wzovJ3Rxg,1069
+scaffold/__init__.py,sha256=zkishtDbLn7Okkp23tC8m8JEEi7Mq7gXnlsyugTBZCY,61
+scaffold/__main__.py,sha256=YvenPgI7WgkezLHgQHUfqv4EXVG2QQ5JtfBazAts1ac,58
+scaffold/ai.py,sha256=ldX4foZkjrNdLHayfDjpvtDc87ABc8Uldeg4l8zaHFs,2952
+scaffold/cli.py,sha256=ihwL3PwoiB-gql4FF4epiff2gE2rBfvOJuQy_8BHTII,2786
+scaffold/github.py,sha256=o0k9ANBWaQlcy8Frrz_PFgtXiCBSBbEE1tVVLefTcrg,2641
+scaffold/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scaffold/parser.py,sha256=jvijoBypIn4wzaUrXoUR6v0JeZU8vRsXQH1LR8Z7HCE,2727
+scaffold/validator.py,sha256=VUE6rtOHZ1pJOGZE2mp2kHZhk5eWVMYQ6SAr7rmHmQE,1490
+scaffold/templates/__init__.py,sha256=xvVPeyQuQLNZ4XbvhyivD15jxCb6QLTn97XB2mXhhwQ,52
+gitscaffold-0.1.2.dist-info/METADATA,sha256=XlQPHvsrF33AnSLo5AbJ3VPSs5vQkNVVGLSenWnuLdM,2954
+gitscaffold-0.1.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+gitscaffold-0.1.2.dist-info/entry_points.txt,sha256=NuRVZATSnsN-Uu9wExu-pZt8e2sQh81CRA7PbAbOQ44,49
+gitscaffold-0.1.2.dist-info/top_level.txt,sha256=aLfYcjRWwVHB73DR9jvLh71eUnfVb37BudybADkmaSM,9
+gitscaffold-0.1.2.dist-info/RECORD,,
