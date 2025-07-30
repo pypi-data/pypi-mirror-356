@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatops"
+version = "0.7.0"
+authors = [{name = "Franck Kengne"}]
+description = "Command line toolkit for operations teams"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "typer>=0.9",
+    "rich>=13",
+    "requests>=2.31",
+    "PyYAML>=6",
+    "openai>=1.0,<2",
+    "boto3>=1.28",
+    "docker>=6",
+]
+
+[project.scripts]
+chatops = "chatops.cli:app"
