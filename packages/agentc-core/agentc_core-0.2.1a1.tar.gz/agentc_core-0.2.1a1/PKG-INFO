@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: agentc-core
+Version: 0.2.1a1
+Summary: The core for the Couchbase Agent Catalog project.
+License: Apache-2.0
+Author: Glenn Galvizo
+Author-email: glenn.galvizo@couchbase.com
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: GitPython (>=3.1.43,<4.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: couchbase (>=4.3.0,<5.0.0)
+Requires-Dist: datamodel-code-generator (>=0.26.0,<0.27.0)
+Requires-Dist: gitignore-parser (>=0.1.11,<0.2.0)
+Requires-Dist: jinja2 (>=3.1.4,<4.0.0)
+Requires-Dist: jsbeautifier (>=1.15.1,<2.0.0)
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: openapi-pydantic (>=0.5.1,<0.6.0)
+Requires-Dist: py-openapi-schema-to-json-schema (>=0.0.3,<0.0.4)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: semantic_version (>=2.10.0,<3.0.0)
+Requires-Dist: sentence-transformers (>=3.4.1,<4.0.0)
+Project-URL: Documentation, https://couchbaselabs.github.io/agent-catalog/api.html
+Project-URL: Repository, https://github.com/couchbaselabs/agent-catalog

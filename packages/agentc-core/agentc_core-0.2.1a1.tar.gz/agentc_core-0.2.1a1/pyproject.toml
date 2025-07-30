@@ -1,0 +1,89 @@
+[project]
+name = "agentc-core"
+description = "The core for the Couchbase Agent Catalog project."
+authors = [
+    { name = "Glenn Galvizo", email = "glenn.galvizo@couchbase.com" },
+    { name = "Steve Yen", email = "steve.yen@couchbase.com" },
+    { name = "Tanvi Johari", email = "tanvi.johari@couchbase.com" },
+    { name = "Thejas N U", email = "thejas.nu@couchbase.com" }
+]
+license = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.12"
+
+[project.urls]
+repository = "https://github.com/couchbaselabs/agent-catalog"
+documentation = "https://couchbaselabs.github.io/agent-catalog/api.html"
+
+# Version is dynamically pulled from Git.
+[tool.poetry]
+name = "agentc-core"
+version = "0.2.1a1"
+packages = [
+    { include = "agentc_core" }
+]
+include = [
+    "agentc_core/tool/generate/templates/*",
+    "agentc_core/analytics/ddls/*",
+    "agentc_core/tool/templates/*",
+    "agentc_core/prompt/templates/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+PyYAML = "^6.0.1"
+semantic_version = "^2.10.0"
+gitignore-parser = "^0.1.11"
+GitPython = "^3.1.43"
+pydantic = "^2.10.6"
+datamodel-code-generator = "^0.26.0"
+couchbase = "^4.3.0"
+jinja2 = "^3.1.4"
+openapi-pydantic = "^0.5.1"
+jsonschema = "^4.23.0"
+py-openapi-schema-to-json-schema = "^0.0.3"
+jsbeautifier = "^1.15.1"
+sentence-transformers = "^3.4.1"
+
+[tool.poetry.group.refiner]
+optional = true
+
+[tool.poetry.group.refiner.dependencies]
+scikit-learn = ">1.0.2"
+numpy = ">1.13.3"
+scipy = ">0.14.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+pytest = "^8.3.2"
+pytest-retry = "^1.7.0"
+
+[tool.poetry.group.dev.dependencies.agentc-testing]
+path = "../agentc_testing"
+develop = true
+
+# Note: we only depend on the CLI for tests.
+[tool.poetry.group.dev.dependencies.agentc-cli]
+path = "../agentc_cli"
+develop = true
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: marks tests for running on each git-push",
+    "slow: marks slow tests for running on each git-push",
+]
+
+[tool.poetry-monoranger-plugin]
+enabled = true
+monorepo-root = "../../"
+version-pinning-rule = '=='
+
+[tool.poetry.requires-plugins]
+poetry-monoranger-plugin = ">=0.4.1"
+
+[build-system]
+requires = [
+    "poetry-core>=2.1.0",
+]
+build-backend = "poetry.core.masonry.api"
