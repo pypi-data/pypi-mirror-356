@@ -1,0 +1,11 @@
+torch_kde-0.1.5.dist-info/licenses/LICENSE,sha256=ZtpZEhr640hg7KRLWnqpbgm0lyCbWP4bhLWL7Zr-WKk,1076
+torchkde/__init__.py,sha256=Jd9fhF9RG4GXCeQC3OxKK2vqf10Sx4i9BFA5KntXyns,34
+torchkde/algorithms.py,sha256=NP8xgC4bCiuZ9cyrmosgGbLcm-_A4IAzz5mc4V2Vft0,636
+torchkde/bandwidths.py,sha256=QbCYDtU48Lg7JTOCNoFBQC9FTbEa8FrbcI-ZnzetXHg,1052
+torchkde/kernels.py,sha256=jxgmZE_CK4xSdmHuU3W7reHeFjuZ0WWJ1j2shvN62Wo,6634
+torchkde/modules.py,sha256=4iVhjr7YubwqGlHdz1cUv9s6R96dfl9uZWoDxptDocw,7755
+torchkde/utils.py,sha256=42gZSKY-LnBJ4SRyPhQblZEri58wSsieY2D4umYbO9o,1138
+torch_kde-0.1.5.dist-info/METADATA,sha256=2ithbALZsUYBH7XUQP7E6OeRDetscRL2WiFP2p-PVKc,4815
+torch_kde-0.1.5.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+torch_kde-0.1.5.dist-info/top_level.txt,sha256=GIQuHVz2lkUkm4BCNISQcEYXpJpF1unFY0dHn-BEqIA,9
+torch_kde-0.1.5.dist-info/RECORD,,
