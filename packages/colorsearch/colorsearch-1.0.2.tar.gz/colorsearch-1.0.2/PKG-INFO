@@ -1,0 +1,62 @@
+Metadata-Version: 2.4
+Name: colorsearch
+Version: 1.0.2
+Summary: Search images and videos by dominant color (PyQt6)
+Home-page: https://github.com/Zamanhuseyinli/colorsearch
+Author: Zaman Huseyinli
+Author-email: zamanhuseynli23@gmail.com
+Project-URL: Source Code, https://github.com/Zamanhuseyinli/colorsearch
+Project-URL: Bug Tracker, https://github.com/Zamanhuseyinli/colorsearch/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow>=9.0.0
+Requires-Dist: PyQt6>=6.4.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# File Color & Name Search Tool Color search
+
+A lightweight Python application to **search files by filename and dominant color** inside images and videos on your system.
+
+---
+
+## Features
+
+- Search images and videos by dominant color similarity
+- Filter search by file type: images only, videos only, or both
+- Search files by partial filename (case-insensitive substring match)
+- Shows matched files with image thumbnails or video icons
+- Click to open matched files with the default system application
+- Cross-platform: works on Linux, Windows, macOS
+- Responsive UI with PyQt6 and multithreading
+- Simple, intuitive interface and progress bar
+
+---
+
+## Requirements
+
+- Python 3.8 or newer
+- PyQt6
+- Pillow (PIL)
+
+Install dependencies with:
+
+```bash
+pip install PyQt6 Pillow
