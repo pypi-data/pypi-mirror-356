@@ -1,0 +1,2 @@
+[console_scripts]
+outscraper-mcp-server = outscraper_mcp_server.__init__:main
