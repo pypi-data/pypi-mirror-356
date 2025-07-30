@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/nnvision_camera/__init__.py
+src/nnvision_camera/main.py
+src/nnvision_camera.egg-info/PKG-INFO
+src/nnvision_camera.egg-info/SOURCES.txt
+src/nnvision_camera.egg-info/dependency_links.txt
+src/nnvision_camera.egg-info/entry_points.txt
+src/nnvision_camera.egg-info/requires.txt
+src/nnvision_camera.egg-info/top_level.txt
+src/nnvision_camera/QR-code-setup/capture_qr_code.py
