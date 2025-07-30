@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "simply-notes"
+version = "0.1.0"
+description = "A Python web app for taking simple notes."
+authors = ["Ben Ridley <bridley@gitlab.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+waitress = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+simply-notes = "simply_notes.main:main"
