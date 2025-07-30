@@ -1,0 +1,3 @@
+[console_scripts]
+opensloth-sft-train=opensloth.scripts.opensloth_sft_trainer:train
+
