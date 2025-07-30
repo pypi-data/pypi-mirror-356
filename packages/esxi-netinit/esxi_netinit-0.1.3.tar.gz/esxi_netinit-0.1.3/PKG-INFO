@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: esxi-netinit
+Version: 0.1.3
+Summary: Script to initialize networking on ESXi hosts with usage of Openstack network_data.json
+Author-email: Doug Goldstein <Doug.Goldstein@rackspace.com>, Marek Skrobacki <marek.skrobacki@rackspace.co.uk>
+License: Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ESX Networking setup scripts
