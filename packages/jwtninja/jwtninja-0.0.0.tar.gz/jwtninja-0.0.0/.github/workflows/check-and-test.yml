@@ -1,0 +1,51 @@
+name: Linting, Formatting and Tests
+
+on: [ push ]
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-formatting:
+    name: Check Formatting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/ruff-action@v1
+        with:
+          args: "format --check"
+
+  check-linting:
+    name: Check Linting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/ruff-action@v1
+        with:
+          args: "check --output-format=github"
+
+  run-tests:
+    name: Run Tests (pytest)
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install Dependencies
+        run: uv sync --frozen --no-install-project
+
+      - name: "pytest: Run tests"
+        run: .venv/bin/pytest .
