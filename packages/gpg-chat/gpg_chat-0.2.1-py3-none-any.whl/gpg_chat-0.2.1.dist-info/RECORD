@@ -1,0 +1,11 @@
+gpg_chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpg_chat/app.css,sha256=z8t3G1zH0wjMSFK1YqLazZYxgqHhI7um1VaFrdN_RKg,570
+gpg_chat/client.py,sha256=auuCROpHsVamHOeKWLem-LZF5WTBAPyXWoaoZ6irqbA,1937
+gpg_chat/main.py,sha256=f1n6KZw8iSnBTQuJvPeZZ8eGd6Yi0yNR3BoKuNtsgzs,7287
+gpg_chat/core/paths.py,sha256=4KtkUj4_cJgjtA9JlYoFnp5ihPaepZNfUYdND0u7mkU,334
+gpg_chat/encryption/gpg_service.py,sha256=QnTBibPD6xaTCd_RoQCyHvphCz5ridrqauLga0jASDI,1155
+gpg_chat/encryption/utils.py,sha256=wuwnRoBodurGHedeRb6a3gChqDl-t55jOlL48CD94AM,756
+gpg_chat-0.2.1.dist-info/METADATA,sha256=pvrNybnXld9MHe62ptOmnAJkDG2_y2As8KQPfDdHUPA,2159
+gpg_chat-0.2.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+gpg_chat-0.2.1.dist-info/entry_points.txt,sha256=l4ldSlJdToxsC0jl5kGzubxc_XKR7L_htoSPHIUgv2c,47
+gpg_chat-0.2.1.dist-info/RECORD,,

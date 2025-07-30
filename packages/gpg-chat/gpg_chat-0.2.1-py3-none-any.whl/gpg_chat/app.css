@@ -1,0 +1,48 @@
+/* app.css */
+Screen {
+  layout: grid;
+  grid-size: 1;
+  grid-rows: 1fr 7fr 25%;
+  padding: 1;
+}
+
+#main-container {
+  height: 100%;
+  width: 100%;
+  border: round $primary;
+}
+
+#convo-panel {
+  height: 60%;
+  border: round $secondary;
+}
+
+#io-panel {
+  height: 40%;
+}
+
+#input-panel {
+  border: round $primary;
+}
+
+#input-box {
+  width: 100%;
+  /*height: 100%;*/
+  border: round $primary;
+}
+
+#button-panel {
+  height: 20%;
+  min-height: 3;
+  align: center middle;
+}
+
+#button-panel > Button {
+  width: 20%;
+  margin: 0 1;
+}
+
+RichLog {
+  padding: 1;
+  background: $surface;
+}

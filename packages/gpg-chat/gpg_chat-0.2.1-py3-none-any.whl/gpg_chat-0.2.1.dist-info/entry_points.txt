@@ -1,0 +1,2 @@
+[console_scripts]
+gpg-chat = gpg_chat.main:app
