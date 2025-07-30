@@ -1,0 +1,66 @@
+{
+  "name": "product_showcase",
+  "description": "Product showcase template with blue background and white card overlay",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "image",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "image_url": "${product_image}",
+
+      "outline_color": null
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 100, "y": 100 },
+      "size": { "width": 150, "height": 150 },
+      "alignment": "left",
+      "circle_crop": true
+    },
+
+    {
+      "type": "rectangle",
+      "position": { "x": 65, "y": 1700 },
+      "size": { "width": 900, "height": 300 },
+      "fill_color": "#eeeeee",
+      "outline_color": "#efefef",
+      "border_radius": 20
+    },
+    {
+      "type": "text",
+      "text": "${product_name}",
+      "position": { "x": 100, "y": 1750 },
+      "font_size": 60,
+      "color": [40, 49, 73],
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 650,
+      "line_spacing": 1.2
+    },
+    {
+      "type": "text",
+      "text": "${product_price}",
+      "position": { "x": 750, "y": 1750 },
+      "font_size": 80,
+      "color": "#7BA7BC",
+      "font_path": "Outfit-Bold",
+      "alignment": "left",
+      "max_width": 150,
+      "line_spacing": 1.2
+    },
+    {
+      "type": "text",
+      "text": "${product_description}",
+      "position": { "x": 100, "y": 1850 },
+      "font_size": 40,
+      "color": [40, 49, 73],
+      "font_path": "Outfit-Regular",
+      "alignment": "left",
+      "max_width": 470,
+      "line_spacing": 1.2
+    }
+  ]
+}
