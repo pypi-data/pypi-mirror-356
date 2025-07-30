@@ -1,0 +1,67 @@
+Metadata-Version: 2.3
+Name: staticflow-framework
+Version: 0.1.0
+Summary: Современный фреймворк для генерации статических сайтов с блочным-редактором и богатой экосистемой плагинов
+License: MIT
+Keywords: static-site-generator,markdown,jinja2,block-editor
+Author: nestessia
+Author-email: nestessia@mail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: aiofiles (>=23.0.0,<24.0.0)
+Requires-Dist: aiohttp (>=3.9.1,<4.0.0)
+Requires-Dist: aiohttp-jinja2 (>=1.5.1,<2.0.0)
+Requires-Dist: bcrypt (>=4.0.0,<5.0.0)
+Requires-Dist: beautifulsoup4 (>=4.12.0,<5.0.0)
+Requires-Dist: bleach (>=6.0.0,<7.0.0)
+Requires-Dist: cachetools (>=6.0.0,<7.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: cryptography (>=41.0.0,<42.0.0)
+Requires-Dist: csscompressor (>=0.9.5,<0.10.0)
+Requires-Dist: diskcache (>=5.6.0,<6.0.0)
+Requires-Dist: fastapi (>=0.100.0,<0.101.0)
+Requires-Dist: geocoder (>=1.38.1,<2.0.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: jsmin (>=3.0.1,<4.0.0)
+Requires-Dist: lxml (>=4.9.0,<5.0.0)
+Requires-Dist: markdown (>=3.5.1,<4.0.0)
+Requires-Dist: markupsafe (>=2.1.0,<3.0.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Requires-Dist: psutil (>=5.9.8,<6.0.0)
+Requires-Dist: pycountry (>=23.12.11,<24.0.0)
+Requires-Dist: pydantic (>=2.0.0,<3.0.0)
+Requires-Dist: pygments (>=2.17.0,<3.0.0)
+Requires-Dist: pymdown-extensions (>=10.0.0,<11.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: python-frontmatter (>=1.0.0,<2.0.0)
+Requires-Dist: python-jose (>=3.3.0,<4.0.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: python-markdown-math (>=0.8,<0.9)
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
+Requires-Dist: python-slugify (>=8.0.0,<9.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tomli-w (>=1.2.0,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: uvicorn (>=0.23.0,<0.24.0)
+Requires-Dist: watchdog (>=3.0.0,<4.0.0)
+Requires-Dist: websockets (>=11.0.0,<12.0.0)
+Project-URL: Homepage, https://github.com/nestessia/StaticFlow-diploma
+Project-URL: Repository, https://github.com/nestessia/StaticFlow-diploma
