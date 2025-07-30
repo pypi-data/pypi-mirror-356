@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spannery"
+version = "0.2.2"
+description = "A lightweight ORM for Google Cloud Spanner(Sorcer)y 🧙"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["google-cloud-spanner>=3.0.0"]
+authors = [{name = "Caio Pizzol", email = "caio@harbourshare.com"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "C4", "UP"]
+ignore = ["E501"]
+
+[tool.bandit]
+exclude_dirs = [".tox", "venv", ".venv", "build", "dist"]
+skips = ["B101"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--maxfail=2 -ra"
+testpaths = ["tests"]
