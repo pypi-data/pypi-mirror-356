@@ -1,0 +1,2 @@
+[console_scripts]
+num-agents = num_agents.cli:app
