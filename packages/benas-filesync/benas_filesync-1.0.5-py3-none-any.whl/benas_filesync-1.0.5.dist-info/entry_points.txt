@@ -1,0 +1,2 @@
+[console_scripts]
+filesync = benas_filesync.main:main
