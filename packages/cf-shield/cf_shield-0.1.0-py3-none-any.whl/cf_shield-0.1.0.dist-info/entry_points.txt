@@ -1,0 +1,2 @@
+[console_scripts]
+cf-shield = cf_shield.main:run
