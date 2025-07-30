@@ -1,0 +1,15 @@
+# Jupyter Notebooks
+*/.ipynb_checkpoints/*
+# Files generated during testing
+src/draw_scikit_tree/iris*
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
