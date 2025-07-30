@@ -1,0 +1,67 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=75.3.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stringebraic"
+version = "0.1.0"
+description = "String-based Pauli algebraic manipulations"
+authors = [
+  { name="Ka Wa Yip", email="yipkawa@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>= 1.3.1",
+    'numpy; python_version >= "3.1.0"', 
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13"
+]
+keywords = ["Pauli", "quantum", "inner product"]
+
+[project.urls]
+Homepage = "https://github.com/kwyip/stringebraic"
+Issues = "https://github.com/kwyip/stringebraic/issues"
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev   = ["black", "bumpver", "isort", "mypy", "pytest"]
+
+[project.scripts]
+stringebraic = "stringebraic.__main__:main"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"src/stringebraic/__init__.py" = ["{version}"]
+"src/stringebraic/__main__.py" = ["- stringebraic v{version}"]
+
+[tool.isort]
+profile                   = "black"
+import_heading_stdlib     = "Standard library imports"
+import_heading_thirdparty = "Third party imports"
+import_heading_firstparty = "Reader imports"
+
+
+
