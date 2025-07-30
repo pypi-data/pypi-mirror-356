@@ -1,0 +1,4 @@
+[console_scripts]
+qry=qry.cli.commands:main
+qry-api=qry.api.app:app
+
