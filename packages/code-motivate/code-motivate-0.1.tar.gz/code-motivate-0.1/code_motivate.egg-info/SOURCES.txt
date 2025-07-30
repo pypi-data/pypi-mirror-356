@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+code_motivate.egg-info/PKG-INFO
+code_motivate.egg-info/SOURCES.txt
+code_motivate.egg-info/dependency_links.txt
+code_motivate.egg-info/entry_points.txt
+code_motivate.egg-info/top_level.txt
+motivate/__init__.py
+motivate/__main__.py
+motivate/quotes.py
