@@ -1,0 +1,22 @@
+[CDF-25020] 👮 An empty implements list in view config causes redeploy (#1646)
+
+# Description
+
+See below
+
+## Changelog
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## cdf
+
+### Fixed
+
+- An empty list in a view configuration implements field no longer
+causes a redeploy.
+
+## templates
+
+No changes.
