@@ -1,0 +1,2 @@
+[console_scripts]
+uv-monorepo-dependency-tool = uv_monorepo_dependency_tool.cli:cli
