@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: localTTS
+Version: 20250620
+Summary: Your local TTS model inference framework.
+Author-email: Kang Bo <532901708@qq.com>
+License: MIT license
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# localTTS
+Your local TTS model inference framework.
