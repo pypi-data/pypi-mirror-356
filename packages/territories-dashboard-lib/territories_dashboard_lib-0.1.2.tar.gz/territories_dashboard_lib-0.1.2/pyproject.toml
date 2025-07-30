@@ -1,0 +1,26 @@
+[project]
+name = "territories-dashboard-lib"
+version = "0.1.2"
+description = "Librairie pour la visualisation d'indicateurs territoriaux."
+authors = [
+    { name = "Bastien", email = "bastien@prune.sh" }
+]
+readme = "README.md"
+license = { file = "licence.md" }
+requires-python = ">=3.13"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "License :: Other/Proprietary License"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
