@@ -1,0 +1,74 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/{{ project_name }}"],
+      "description": "Filesystem access for the {{ project_name }} project"
+    },
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git"],
+      "description": "Git operations for version control"
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@itseasy21/mcp-knowledge-graph"],
+      "description": "Agent memory and knowledge persistence",
+      "env": {
+        "MEMORY_FILE_PATH": "${PROJECT_ROOT}/.agent-memory/shared/main.jsonl"
+      }
+    },
+    "datetime": {
+      "command": "python",
+      "args": ["mcp_servers/datetime/server.py"],
+      "description": "Built-in datetime service for time operations, timezone handling, and sprint calculations"
+    }{% if enable_search %},
+    "perplexity-search": {
+      "command": "uvx",
+      "args": ["perplexity-mcp"],
+      "description": "Advanced web search capabilities for up-to-date information",
+      "env": {
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}",
+        "PERPLEXITY_MODEL": "sonar"
+      }
+    }{% endif %}
+  },
+  "projectContext": {
+    "name": "{{ project_name }}",
+    "description": "AgenticScrum-powered {{ language }} project",
+    "rootPath": "/{{ project_name }}",
+    "primaryLanguage": "{{ language }}",
+    "aiAgents": {{ agents | tojson }},
+    "agenticScrum": {
+      "version": "1.0.0",
+      "modelRecommendations": {
+        "default": "claude-sonnet-4-0",
+        "planning": "claude-opus-4-0",
+        "quickTasks": "claude-3-5-haiku-latest",
+        "agentSpecific": {
+          "poa": "claude-opus-4-0",
+          "sma": "claude-sonnet-4-0",
+          "deva": "claude-sonnet-4-0",
+          "qaa": "claude-sonnet-4-0",
+          "saa": "claude-opus-4-0"
+        }
+      },
+      "keyPaths": {
+        "agentConfigs": "agents/",
+        "standards": "standards/",
+        "checklists": "checklists/",
+        "requirements": "docs/requirements/",
+        "source": "src/",
+        "tests": "tests/",
+        "memory": ".agent-memory/"
+      },
+      "commands": {
+        "environment": "./init.sh",
+        "test": "./init.sh test",
+        "lint": "./init.sh lint",
+        "up": "./init.sh up",
+        "down": "./init.sh down"
+      }
+    }
+  }
+}
