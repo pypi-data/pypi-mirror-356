@@ -1,0 +1,27 @@
+{
+    arch = "arm64",
+    artifacts = {
+        installdir = [[C:\Users\runneradmin\AppData\Local\.xmake\packages\x\xmake\v3.0.0\f2ced8f4834041ec8d4195315993bbb7]]
+    },
+    configs = {
+        debug = false,
+        pic = true,
+        runtimes = "MD",
+        shared = false
+    },
+    description = "xmake - A cross-platform build utility based on Lua",
+    envs = { },
+    mode = "release",
+    name = "xmake",
+    pathenvs = {
+        "PKG_CONFIG_PATH",
+        "PATH",
+        "CMAKE_PREFIX_PATH",
+        "PYTHONPATH",
+        "LD_LIBRARY_PATH",
+        "ACLOCAL_PATH",
+        "DYLD_LIBRARY_PATH"
+    },
+    plat = "windows",
+    version = "v3.0.0"
+}
