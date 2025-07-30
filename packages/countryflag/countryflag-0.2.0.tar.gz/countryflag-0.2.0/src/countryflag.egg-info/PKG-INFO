@@ -1,0 +1,203 @@
+Metadata-Version: 2.4
+Name: countryflag
+Version: 0.2.0
+Summary: A Python package for converting country names into emoji flags
+Home-page: https://github.com/Lendersmark/countryflag
+Author: Lendersmark
+Author-email: Lendersmark <author@example.com>
+License: MIT License
+        
+        Copyright (c) 2022 Mark Lenders
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/lendersmark/countryflag
+Project-URL: Documentation, https://countryflag.readthedocs.io/
+Project-URL: Bug Tracker, https://github.com/lendersmark/countryflag/issues
+Project-URL: Changelog, https://github.com/lendersmark/countryflag/blob/main/CHANGELOG.md
+Project-URL: Source Code, https://github.com/lendersmark/countryflag
+Keywords: country,flag,emoji,iso,conversion,geography
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: emoji-country-flag
+Requires-Dist: country_converter
+Requires-Dist: typeguard
+Requires-Dist: prompt_toolkit
+Requires-Dist: aioconsole
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: sphinx-rtd-theme; extra == "dev"
+Requires-Dist: hypothesis; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8-docstrings; extra == "dev"
+Requires-Dist: flake8-comprehensions; extra == "dev"
+Requires-Dist: flake8-bugbear; extra == "dev"
+Requires-Dist: flake8-annotations; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-benchmark; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+Requires-Dist: psutil; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon; extra == "docs"
+Provides-Extra: benchmarks
+Requires-Dist: matplotlib; extra == "benchmarks"
+Requires-Dist: pandas; extra == "benchmarks"
+Requires-Dist: seaborn; extra == "benchmarks"
+Requires-Dist: psutil; extra == "benchmarks"
+Provides-Extra: full
+Requires-Dist: matplotlib; extra == "full"
+Requires-Dist: pandas; extra == "full"
+Requires-Dist: seaborn; extra == "full"
+Requires-Dist: psutil; extra == "full"
+Requires-Dist: sphinx; extra == "full"
+Requires-Dist: sphinx-rtd-theme; extra == "full"
+Requires-Dist: sphinxcontrib-napoleon; extra == "full"
+Requires-Dist: pytest; extra == "full"
+Requires-Dist: pytest-cov; extra == "full"
+Requires-Dist: pytest-benchmark; extra == "full"
+Requires-Dist: hypothesis; extra == "full"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# countryflag
+
+Countryflag is a Python package to convert country names into emoji flags.
+
+
+![PyPI](https://img.shields.io/pypi/v/countryflag)
+[![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![image](https://img.shields.io/github/license/lendersmark/countryflag)](https://opensource.org/licenses/MIT)
+
+## Motivation
+
+I'm new to Python and to programming in general, and I have lots of things to learn, but instead of exercising on "Hello World"-like trivial examples I wanted to create a "real" project from the beginning.  
+The idea was to build a simple command to get the correspondent emoji flag starting from a country name.
+
+
+## Installation
+
+Countryflag is registered at PyPI. From the command line:
+
+    pip install countryflag --upgrade
+
+Source code is also available on
+[GitHub](https://github.com/lendersmark/countryflag).
+
+
+## Usage
+
+### Use within Python
+
+Convert various country names to emojy flags:
+
+    import countryflag
+    countries = ['Germany', 'BE', 'United States of America', 'Japan']
+    flags = countryflag.getflag(countries)
+    print(flags)
+
+The default output is a space separated list of emoji flags, one for each country:
+
+🇩🇪 🇧🇪 🇺🇸 🇯🇵
+
+### Command line usage
+
+Countryflag can also be used as a command line tool, specifying one or more country name(s) as command line arguments, separated by spaces.
+
+    countryflag Germany BE Spain 'United States of America'
+
+Will result in:
+
+🇩🇪 🇧🇪 🇪🇸 🇺🇸
+
+### Country names formats
+
+Country names can be expressed in various classification schemes such as ISO-2, ISO-3, ISO-numeric, official name, etc.
+The input format is determined automatically, based on ISO two letter, ISO three letter, ISO numeric or regular expression matching.
+Countryflag uses [Country Converter (coco)](https://pypi.org/project/country-converter/) to convert country names to ISO-2 codes and then [Emoji-country-flag](https://pypi.org/project/emoji-country-flag/) to render the emoji flags: please see their documentation for further details.
+
+
+## How it works
+
+All the flag emoji are actually composed of two unicode letters. These are the 26 regional indicator symbols:
+
+🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇰 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿
+
+According to ISO 3166, pairing unicode letters of the country code, compatible browsers/phones/terminals will display the correspondent Emoji flag.
+For example BE is Belgium: 🇧 + 🇪 = 🇧🇪
+
+So, to encode an ASCII code like :BE: to 🇧🇪, Countrycode converts country names to the corresponding regional indicator symbols.
+
+
+## Compatible terminals
+
+Some terminals, such as [iTerm2](https://iterm2.com/) on Mac Os, support Emoji country flags very well.
+
+However, many others don't, such as Windows Terminal on Windows or Gnome Terminal on Linux: instead of the flag, they will display unicode letters.  
+For example, invoking `countryflag belgium` into Windows Terminal will return 🇧 🇪 as output, instead of the emojy country flag 🇧🇪.
+
+At least on Windows, the reason seems to be political/PR-related, as explained [here](https://answers.microsoft.com/en-us/windows/forum/all/flag-emoji/85b163bc-786a-4918-9042-763ccf4b6c05).
+
+Therefore, Countryflag makes much more sense when used on systems/terminals that can properly render Emoji country flags.
+
+## Issues, bugs and enhancements
+
+Please use the issue tracker for documenting bugs, proposing
+enhancements and all other communication related to countryflag.
+
+## Acknowledgements
+
+This package depends on:
+
+* [Country Converter (coco)](https://pypi.org/project/country-converter/) by [Konstantin Stadler](https://pypi.org/user/konstantinstadler/)
+* [Emoji-country-flag](https://pypi.org/project/emoji-country-flag/) by [cuzi](https://pypi.org/user/cuzi/)
