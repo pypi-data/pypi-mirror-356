@@ -1,0 +1,15 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+sphinxcontrib/twine/__init__.py
+sphinxcontrib/twine/storyformats.json
+sphinxcontrib/twine/storyformats.py
+sphinxcontrib/twine/twine.py
+sphinxcontrib/twine/twine2story.html
+sphinxcontrib_twine.egg-info/PKG-INFO
+sphinxcontrib_twine.egg-info/SOURCES.txt
+sphinxcontrib_twine.egg-info/dependency_links.txt
+sphinxcontrib_twine.egg-info/requires.txt
+sphinxcontrib_twine.egg-info/top_level.txt
