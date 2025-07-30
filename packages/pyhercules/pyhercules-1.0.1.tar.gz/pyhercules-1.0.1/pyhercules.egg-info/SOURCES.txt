@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyhercules.py
+pyhercules_app.py
+pyhercules_functions.py
+requirements-app.txt
+requirements-core.txt
+requirements-models.txt
+setup.py
+pyhercules.egg-info/PKG-INFO
+pyhercules.egg-info/SOURCES.txt
+pyhercules.egg-info/dependency_links.txt
+pyhercules.egg-info/entry_points.txt
+pyhercules.egg-info/requires.txt
+pyhercules.egg-info/top_level.txt
