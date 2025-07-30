@@ -1,0 +1,77 @@
+Metadata-Version: 2.4
+Name: g2v
+Version: 0.1.2
+Summary: Viewing XPCS g2 curves in a web interface.
+Author-email: Damian Guenzing <dguenzing@lbl.gov>
+Maintainer-email: Damian Guenzing <dguenzing@lbl.gov>
+License-Expression: MIT
+Project-URL: bugs, https://github.com/gnzng/g2v/issues
+Project-URL: changelog, https://github.com/gnzng/g2v/blob/master/changelog.md
+Project-URL: homepage, https://github.com/gnzng/g2v
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: streamlit
+Requires-Dist: plotly
+Requires-Dist: loguru
+Requires-Dist: pyzmq
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: pytest-asyncio; extra == "test"
+Dynamic: license-file
+
+# g2v
+
+g2v is a software tool designed to provide an intuitive and efficient way to visualize and interact with g2 data. It offers a user-friendly interface and powerful features to enhance your data analysis experience.
+
+## Features
+
+- **Data Visualization**: Easily create and customize visual representations of G2 data.
+- **Interactive Interface**: Navigate and interact with your data seamlessly and save the results.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/gnzng/g2v.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd g2v
+    ```
+3. Install dependencies:
+    ```bash
+    pip install -e .
+    ```
+
+`pip install g2v` pending.
+
+
+## Usage
+
+### Streamlit client
+
+1. Start the streamlit client:
+    ```bash
+    g2v
+    ```
+    or
+    ```bash
+    streamlit run g2v/app.py 
+    ```
+2. Open your browser and navigate to `http://localhost:8501`.
+![streamlit](static/streamlit.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+

@@ -1,0 +1,17 @@
+numpy
+pandas
+h5py
+streamlit
+plotly
+loguru
+pyzmq
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest>=7.0
+pytest-cov
+pytest-mock
+pytest-asyncio
