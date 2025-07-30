@@ -1,0 +1,2 @@
+[console_scripts]
+galv-harvester = galv_harvester.start:click_wrapper
