@@ -1,0 +1,15 @@
+Content-Type: multipart/mixed; boundary="===============4121924786608681423=="
+MIME-Version: 1.0
+From: sender@example.com
+To: testuser@example.com
+Subject: =?utf-8?b?VGVzdG93YSB3aWFkb21vxZvEhyAx?=
+Date: Thu, 22 May 2025 11:23:26 +0000
+
+--===============4121924786608681423==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+VG8gamVzdCBwaWVyd3N6YSB0ZXN0b3dhIHdpYWRvbW/Fm8SHIGVtYWlsLg==
+
+--===============4121924786608681423==--
