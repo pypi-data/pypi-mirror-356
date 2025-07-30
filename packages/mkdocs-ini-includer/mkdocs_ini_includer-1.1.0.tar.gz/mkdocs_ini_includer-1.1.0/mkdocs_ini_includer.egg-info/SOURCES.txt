@@ -1,0 +1,12 @@
+README.md
+setup.py
+mkdocs_ini_includer/__init__.py
+mkdocs_ini_includer/plugin.py
+mkdocs_ini_includer.egg-info/PKG-INFO
+mkdocs_ini_includer.egg-info/SOURCES.txt
+mkdocs_ini_includer.egg-info/dependency_links.txt
+mkdocs_ini_includer.egg-info/entry_points.txt
+mkdocs_ini_includer.egg-info/requires.txt
+mkdocs_ini_includer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_plugin.py
