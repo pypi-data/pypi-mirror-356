@@ -1,0 +1,9 @@
+agno
+openai
+sqlalchemy
+qrcode>=8.2
+requests>=2.32.4
+
+[dev]
+pytest
+pytest-cov
