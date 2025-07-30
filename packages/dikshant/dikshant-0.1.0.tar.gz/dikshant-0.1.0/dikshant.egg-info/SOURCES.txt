@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+dikshant/__init__.py
+dikshant/assistant.py
+dikshant/cli.py
+dikshant.egg-info/PKG-INFO
+dikshant.egg-info/SOURCES.txt
+dikshant.egg-info/dependency_links.txt
+dikshant.egg-info/entry_points.txt
+dikshant.egg-info/requires.txt
+dikshant.egg-info/top_level.txt
+dikshant/core/__init__.py
+dikshant/core/command_processor.py
+dikshant/core/system_controller.py
+dikshant/core/text_to_speech.py
+dikshant/core/voice_recognizer.py
