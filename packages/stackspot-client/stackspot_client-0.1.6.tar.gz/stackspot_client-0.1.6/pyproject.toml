@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stackspot-client"
+version = "0.1.6"
+description = "Cliente Python para a API do StackSpot"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "KaiofPrates", email = "kaiofprudencio@gmail.com"},
+    {name = "eltonjosesouza", email = "github@eltonjose.com.br"}
+]
+maintainers = [
+    {name = "eltonjosesouza", email = "github@eltonjose.com.br"}
+]
+keywords = ["stackspot", "api", "client", "python"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+env = ["python-dotenv>=1.1.0"]
+full = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.1.0",
+    "docling>=0.1.0",
+    "rich>=13.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Kaiofprates/stackspot-client"
+Repository = "https://github.com/Kaiofprates/stackspot-client"
+Documentation = "https://github.com/Kaiofprates/stackspot-client#readme"
+Issues = "https://github.com/Kaiofprates/stackspot-client/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["stackspot_client*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt"] 
