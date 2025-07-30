@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% block title %}Block Editor{% endblock %}
+
+{% block page_title %}Block Editor{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/admin/static/css/tiptap-editor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.2.3/dist/mermaid.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="block-editor-page">
+    <div class="editor-header">
+        <div class="editor-file-info">
+            <input 
+                type="text" 
+                id="page-title" 
+                placeholder="Page Title" 
+                value="{{ page.metadata.title if page and page.metadata and page.metadata.title else 'Untitled Page' }}"
+            >
+            {% if not page %}
+            <div class="filename-input-container">
+                <input 
+                    type="text" 
+                    id="filename-input" 
+                    placeholder="Имя файла (например: my-page.md или my-page.html)" 
+                    value=""
+                >
+            </div>
+            {% endif %}
+            <div class="file-path">{{ page.source_path if page else 'New Page' }}</div>
+            {% if page and page.modified %}
+            <div class="file-modified">Last modified: <script>document.write(new Date({{ page.modified }} * 1000).toLocaleString())</script></div>
+            {% endif %}
+        </div>
+        <div class="editor-actions">
+            <button class="btn" id="save-btn">Save</button>
+        </div>
+    </div>
+
+    <div class="editor-container">
+        <div id="tiptap-editor" class="tiptap-editor">
+            <div id="tiptap-toolbar"></div>
+            <div id="tiptap-content" class="tiptap-content"></div>
+        </div>
+    </div>
+
+    <div class="editor-metadata">
+        <h3>Page Metadata</h3>
+        <div class="metadata-fields">
+            <div class="metadata-field">
+                <label for="meta-date">Date</label>
+                <input type="datetime-local" id="meta-date" value="{{ page.metadata.date if page and page.metadata else '' }}">
+            </div>
+            <div class="metadata-field">
+                <label for="meta-author">Author</label>
+                <input type="text" id="meta-author" value="{{ page.metadata.author if page and page.metadata else '' }}">
+            </div>
+            <div class="metadata-field">
+                <label for="meta-tags">Tags (comma separated)</label>
+                <input type="text" id="meta-tags" value="{{ ','.join(page.metadata.tags) if page and page.metadata and page.metadata.tags else '' }}">
+            </div>
+        </div>
+    </div>
+</div>
+{% if error_message %}
+<div class="alert alert-danger" style="margin: 20px 0;">
+  {{ error_message }}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="/admin/static/dist/tiptap-editor.js"></script>
+<script src="/admin/static/dist/tiptap-toolbar.js"></script>
+<script>
+    // Инициализируем mermaid для диаграмм
+    mermaid.initialize({ startOnLoad: true });
+
+    // Сохраняем данные страницы
+    const pageData = {
+        content: {% if page %}{{ page.content|tojson }}{% else %}null{% endif %},
+        path: {% if page %}{{ page.source_path|tojson }}{% else %}"New Page"{% endif %},
+        title: {% if safe_metadata and safe_metadata.title %}{{ safe_metadata.title|tojson }}{% else %}"Untitled Page"{% endif %},
+        metadata: {
+            title: {% if safe_metadata and safe_metadata.title %}{{ safe_metadata.title|tojson }}{% else %}""{% endif %},
+            date: {% if safe_metadata and safe_metadata.date %}{{ safe_metadata.date|tojson }}{% else %}""{% endif %},
+            author: {% if safe_metadata and safe_metadata.author %}{{ safe_metadata.author|tojson }}{% else %}""{% endif %},
+            tags: {% if safe_metadata and safe_metadata.tags %}{{ ','.join(safe_metadata.tags)|tojson }}{% else %}""{% endif %},
+            format: {% if safe_metadata and safe_metadata.format %}{{ safe_metadata.format|tojson }}{% else %}"markdown"{% endif %},
+            template: {% if safe_metadata and safe_metadata.template %}{{ safe_metadata.template|tojson }}{% else %}"page.html"{% endif %}
+        },
+        type: {% if page and page.source_path and page.source_path.endswith('.html') %}"html"{% else %}"markdown"{% endif %}
+    };
+
+    // Инициализация редактора
+    document.addEventListener('DOMContentLoaded', function() {
+        try {
+            // Инициализация редактора
+            const editor = new TipTapEditor('#tiptap-content', pageData.content, pageData.type);
+            const toolbar = new TipTapToolbar(editor.editor);
+            
+            // Добавляем панель инструментов
+            document.getElementById('tiptap-toolbar').appendChild(toolbar.getElement());
+            
+            // Initialize highlight.js if available
+            if (window.hljs) {
+                console.log("Initializing highlight.js...");
+                try {
+                    hljs.configure({
+                        languages: ['python', 'javascript', 'typescript', 'css', 'html', 'json', 'bash', 'cpp', 'java', 'csharp', 'php', 'ruby', 'go', 'rust', 'swift']
+                    });
+                    hljs.highlightAll();
+                    console.log("highlight.js initialized successfully.");
+                } catch (e) {
+                    console.error("Error initializing highlight.js:", e);
+                }
+            }
+            
+            // Добавляем обработчики событий для кнопок
+            document.getElementById('save-btn').addEventListener('click', function() {
+                savePage(editor);
+            });
+            
+            const pageTitleInput = document.getElementById('page-title');
+            const filenameInput = document.getElementById('filename-input');
+            
+            if (pageTitleInput && filenameInput) {
+                pageTitleInput.addEventListener('blur', function() {
+                    if (!filenameInput.value.trim()) {
+                        const title = pageTitleInput.value.trim();
+                        if (title) {
+                            const filename = title
+                                .toLowerCase()
+                                .replace(/[^a-zA-Z0-9\s-]/g, '')
+                                .replace(/\s+/g, '-')
+                                .replace(/-+/g, '-');
+                            
+                            filenameInput.value = filename;
+                        }
+                    }
+                });
+            }
+        } catch (error) {
+            console.error("Error initializing editor:", error);
+        }
+    });
+
+    // Функция сохранения страницы
+    async function savePage(editor) {
+        const content = editor.getContentForSave();
+        const title = document.getElementById('page-title').value;
+        const filename = document.getElementById('filename-input')?.value || pageData.path;
+        const date = document.getElementById('meta-date').value;
+        const author = document.getElementById('meta-author').value;
+        const tags = document.getElementById('meta-tags').value.split(',').map(tag => tag.trim()).filter(tag => tag);
+
+        try {
+            const response = await fetch('/admin/api/content', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    path: filename,
+                    content: content,
+                    metadata: {
+                        title: title,
+                        date: date,
+                        author: author,
+                        tags: tags,
+                        format: pageData.type,
+                        template: pageData.metadata.template
+                    }
+                })
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                if (result.success) {
+                    alert('Страница успешно сохранена!');
+                } else {
+                    alert('Ошибка при сохранении: ' + (result.error || 'Неизвестная ошибка'));
+                }
+            } else {
+                const errorText = await response.text();
+                alert('Ошибка при сохранении: ' + (errorText || response.statusText));
+            }
+        } catch (error) {
+            console.error('Error saving page:', error);
+            alert('Ошибка при сохранении: ' + error.message);
+        }
+    }
+</script>
+{% endblock %} 

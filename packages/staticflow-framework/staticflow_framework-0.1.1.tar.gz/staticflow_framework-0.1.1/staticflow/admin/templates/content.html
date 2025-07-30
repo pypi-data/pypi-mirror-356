@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block title %}Content Management{% endblock %}
+
+{% block head %}
+<link href="https://cdn.jsdelivr.net/npm/@monaco-editor/loader@1.3.3/min/monaco.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@monaco-editor/loader@1.3.3/min/monaco.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="content-manager" x-data="contentManager()">
+    <div class="content-header">
+        <h1>Content Management</h1>
+        <a href="/admin/block-editor" class="create-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            Create new page
+        </a>
+    </div>
+    
+    <div class="search-filter-container">
+        <input 
+            type="text" 
+            class="search-input" 
+            placeholder="Search content..."
+            x-model="searchQuery"
+        >
+        <select class="filter-select" x-model="filterType">
+            <option value="all">All files</option>
+            <option value=".md">Markdown</option>
+            <option value=".html">HTML</option>
+        </select>
+    </div>
+    
+    <div class="content-list">
+        <template x-if="filteredFiles.length === 0">
+            <div class="empty-state">
+                <div class="empty-state-icon">📄</div>
+                <h3>No content found</h3>
+                <p class="empty-state-text">Start by creating your first page or adjust your search criteria.</p>
+                <a href="/admin/block-editor" class="create-btn">Create new page</a>
+            </div>
+        </template>
+        
+        <template x-for="file in filteredFiles" :key="file.path">
+            <div class="content-item">
+                <div class="content-info">
+                    <h3>
+                        <span class="file-icon" x-text="file.path.endsWith('.md') ? '📄' : '🌐'"></span>
+                        <a :href="(file.url && file.url !== '') ? file.url : ('/' + file.path.replace(/\.md$/, '.html'))"
+                           class="file-link"
+                           target="_blank"
+                           x-text="file.path"></a>
+                    </h3>
+                    <div class="file-meta">
+                        <span>Modified: <span x-text="formatDate(file.modified)"></span></span>
+                        <template x-if="file && file.size">
+                            <span>Size: <span x-text="formatSize(file.size)"></span></span>
+                        </template>
+                    </div>
+                </div>
+                <div class="content-actions">
+                    <a :href="'/admin/block-editor/' + file.path" class="btn btn-primary">Edit</a>
+                </div>
+            </div>
+        </template>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function contentManager() {
+    return {
+        files: {{ files | tojson }},
+        filterType: 'all',
+        searchQuery: '',
+        showCreateModal: false,
+        showEditModal: false,
+        currentFile: null,
+        newFile: {
+            path: '',
+            content: ''
+        },
+        createEditor: null,
+        editEditor: null,
+        
+        init() {
+            this.$watch('showCreateModal', value => {
+                if (value && !this.createEditor) {
+                    this.initCreateEditor();
+                }
+            });
+            
+            this.$watch('showEditModal', value => {
+                if (value && !this.editEditor) {
+                    this.initEditEditor();
+                }
+            });
+        },
+        
+        get filteredFiles() {
+            return this.files
+                .filter(file => file && file.path)
+                .filter(file => {
+                    if (this.filterType === 'all') return true;
+                    return file.path.endsWith(this.filterType);
+                })
+                .filter(file => 
+                    file.path.toLowerCase().includes(this.searchQuery.toLowerCase())
+                );
+        },
+        
+        async initCreateEditor() {
+            const loader = require('@monaco-editor/loader');
+            const monaco = await loader.init();
+            
+            this.createEditor = monaco.editor.create(
+                document.getElementById('create-editor'),
+                {
+                    value: '',
+                    language: 'markdown',
+                    theme: 'vs',
+                    minimap: { enabled: false }
+                }
+            );
+        },
+        
+        async initEditEditor() {
+            const loader = require('@monaco-editor/loader');
+            const monaco = await loader.init();
+            
+            this.editEditor = monaco.editor.create(
+                document.getElementById('edit-editor'),
+                {
+                    value: this.currentFile.content || '',
+                    language: this.currentFile.path.endsWith('.md') ? 'markdown' : 'html',
+                    theme: 'vs',
+                    minimap: { enabled: false }
+                }
+            );
+        },
+        
+        formatDate(timestamp) {
+            return new Date(timestamp * 1000).toLocaleString();
+        },
+        
+        formatSize(bytes) {
+            if (!bytes) return '';
+            const units = ['B', 'KB', 'MB', 'GB'];
+            let size = bytes;
+            let unit = 0;
+            
+            while (size >= 1024 && unit < units.length - 1) {
+                size /= 1024;
+                unit++;
+            }
+            
+            return `${size.toFixed(1)} ${units[unit]}`;
+        }
+    };
+}
+</script>
+{% endblock %} 
