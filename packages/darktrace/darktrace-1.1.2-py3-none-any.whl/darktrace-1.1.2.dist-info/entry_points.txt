@@ -1,0 +1,2 @@
+[console_scripts]
+darktrace = darktrace_locks.__init__:run
