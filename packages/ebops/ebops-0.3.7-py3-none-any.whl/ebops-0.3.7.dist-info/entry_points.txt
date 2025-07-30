@@ -1,0 +1,5 @@
+[console_scripts]
+ebops = ebops.entrypoints.cli:cli
+
+[gui_scripts]
+
