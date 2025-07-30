@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "django-hawk-drf"
+version = "1.1.5"
+description = "Authenticate Django Rest Framework Views with django-hawk"
+authors = ["Cameron Lamb <live.services@digital.trade.gov.uk>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["django"]
+homepage = "https://github.com/uktrade/django-hawk-drf/"
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+Django = ">=4.2, <6"
+djangorestframework = ">=3.10.3, <4.0"
+django-hawk = "^1.2.3"
+
+[tool.poetry.group.testing]
+optional = true
+
+[tool.poetry.group.testing.dependencies]
+tox = "*"
+freezegun = "*"
+coverage = "*"
+
+[tool.poetry.group.utils]
+optional = true
+
+[tool.poetry.group.utils.dependencies]
+isort = "*"
+flake8 = "*"
+black = "*"
+mypy = "*"
+django-stubs = "*"
+types-freezegun = "*"
