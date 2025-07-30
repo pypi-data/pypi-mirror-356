@@ -1,0 +1,17 @@
+talentro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/ad_channel.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/billing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/billing/models.py,sha256=2FmdvCOUTUZo3oNig6s3Xp1xX4aqPLIpPo0MoC1T6hE,1590
+talentro/event.py,sha256=vZBLb6AdSqSRTf0_pl0KhK2FXQq5hKZX2yYtJ8VyOE8,565
+talentro/general/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/general/models.py,sha256=XbJ51l9LXiZzmvCSHcYhCWuqyv6GyDSrFW83Dfa_RUw,991
+talentro/iam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/iam/types.py,sha256=Yl_PzjxbNFcDm4_N-DZooD3bX442RaYw9471J2jSmCo,192
+talentro/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/integrations/models.py,sha256=VeNtxOmbE1WzZ7lVQF6jHSBTfzd9oSl3WmcdsJrE_ks,850
+talentro/jobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talentro/jobs/models.py,sha256=MbjUfI5Ms5WQPcfzecOCkztRY3S5Lm2U2HsnPR8aR5o,476
+talentro/recruitment.py,sha256=wMFmYTQSS-dv5HxaCjad4VZl24qfS0G_z_p9oP7tqIM,1823
+talentro_definitions-0.6.1.dist-info/METADATA,sha256=vK6HcD2czVnIye1IUh8NVEuMOrq-6N9WyjsYxK2r32o,987
+talentro_definitions-0.6.1.dist-info/WHEEL,sha256=XbeZDeTWKc1w7CSIyre5aMDU_-PohRwTQceYnisIYYY,88
+talentro_definitions-0.6.1.dist-info/RECORD,,
