@@ -1,0 +1,263 @@
+# Editable Flask 📝✨
+
+Tired of constant client requests to tweak that elusive snippet or image on your **/about** page? Enter **EditableFlask**! Simply mark sections of your templates with **{% editable %}**, and voilà, they're ready for modification in a sleek admin panel. Say goodbye to the hassle of copy adjustments. 🎉
+
+![App Screenshot](https://raw.githubusercontent.com/MahirShah07/EditableFlask/main/readme-images/Image1.png)
+
+---
+
+## 🚀 Installation
+
+```bash
+pip install EditableFlask
+```
+
+---
+
+## 🛠️ Usage
+
+```python
+from flask import Flask
+from EditableFlask import Edits
+
+app = Flask(__name__)
+edits = Edits(app)
+```
+
+All edits are neatly saved to disk as JSON. Configure your file path to store them alongside your app:
+
+```python
+from flask import Flask, render_template
+from EditableFlask import Edits
+import os
+
+app = Flask(__name__)
+app.config['FILE_PATH'] = os.path.dirname(__file__)
+edits = Edits(app)
+
+@app.route("/")
+def index():
+    return render_template('index.html')
+```
+
+### 🔹 Example (Live Editing in Templates)
+
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>{% editable 'heading' %}My First Heading{% endeditable %}</h1>
+    <p>{% editable 'paragraph' %}My first paragraph.{% endeditable %}</p>
+</body>
+</html>
+```
+
+---
+
+## ✏️ Edits Section
+
+Edit any page with registered editable sections directly in the interface. Currently, only static HTML is supported, with Jinja2 support on the roadmap.
+
+![App Screenshot](https://raw.githubusercontent.com/MahirShah07/EditableFlask/main/readme-images/Image2.png)
+
+---
+
+## 🌟 Summernote Features
+
+Enable the **Summernote HTML Editor** for enhanced editing:
+
+```python
+app.config['EDITS_SUMMERNOTE'] = True
+```
+
+### 🖊 Features:
+- **Upload Images/Videos** 🖼️🎥
+- **Rich Text Formatting** 🎨
+- **Advanced Editing** (Tables, Code Blocks, LaTeX Equations)
+
+For more details, visit [SUMMERNOTE's Website](https://summernote.org/).
+
+---
+
+## 🔒 Security
+
+### 🚀 Recommended: Flask-Login (Session-Based Lock)
+
+```python
+app.config['EDITS_LOCKED'] = True
+app.config['EDITS_USERNAME'] = 'your_username'
+app.config['EDITS_PASSWORD'] = 'your_password'
+```
+
+🔹 **Session-Based Locks** prevent unauthorized access.
+🔹 **Local Caching for Locking** ensures a lightweight security approach.
+
+### 🛠 Recommended: SQLite-Based Lock
+
+```python
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+app.config['EDITS_LOCKED'] = "SQL"
+```
+
+🔹 **Database-Controlled Edit Locks**
+🔹 **Audit Trail for Edits** for accountability
+🔹 **Granular Access Control** ensures secure editing
+
+### 🔧 Manual Lock (Custom Auth)
+
+If you already have a user-management system:
+
+```python
+@app.before_request
+def before_request():
+    if request.path.startswith(app.config.get('EDITS_URL')):
+        # Custom authentication logic
+```
+
+🔹 **Flexible Authentication**
+🔹 **User-Defined Locking Mechanism**
+
+---
+
+## 📊 Additional Features
+
+### **📍 Analytics Dashboard**
+
+Enable it with:
+
+```python
+app.config['ENABLE_ANALYTICS'] = True
+```
+
+🔹 Tracks **Unique IP Visits** (15-min timeout)
+🔹 Displays **Visitor Locations** on a map
+🔹 Monitors **Server Resource Usage**
+
+### **💻 Resource Monitoring**
+
+Enable it with:
+
+```python
+app.config['ENABLE_RESOURCE_MONITOR'] = True
+```
+
+🔹 **Real-time CPU & RAM Usage**
+🔹 **Disk Usage Insights**
+🔹 **Graphical Resource Visualization**
+
+### **📂 Static File Management**
+
+Enable static file editing:
+
+```python
+app.config['ENABLE_STATIC'] = True
+app.config['EDITABLE_STATIC'] = True
+```
+
+🔹 **File Uploads & Folder Management**
+🔹 **Live Editing for Static Files**
+🔹 **Search & Deletion Support**
+
+---
+
+## 📂 Folder Structure
+
+```
+/your_flask_project
+│── app.py                # Main Flask app file
+│── templates/
+│   ├── index.html        # Main template file
+│── static/               # CSS, JS, images, etc.
+│── edits.json            # EditableFlask Edits saved (EditableFlask Managed)
+│── intents/              # SQLite database (if used)
+│   ├── *.db              # Database File (EditableFlask Managed)
+```
+
+For more details, refer to the [Flask Documentation](https://flask.palletsprojects.com/).
+
+---
+
+## ⚙️ Configuration Options
+
+Customize **EditableFlask** with various settings to enhance functionality, security, and performance. This guide explains key configurations and their purpose.
+
+### 📌 Application Settings
+EditableFlask allows you to customize its name and branding. These settings determine how the app appears in titles and throughout the UI.
+
+```python
+app.config['APP_NAME'] = 'EditableFlask'  # Display name for the app (used in <title> tags)
+app.config['APP_NAME_HTML'] = 'EditableFlask'  # Name used throughout web pages and UI
+```
+
+### 🌐 URL Routing
+Define essential URL routes for the application. These settings control access to key pages, such as the admin dashboard and login screen.
+
+```python
+app.config['EDITS_URL'] = '/edits'  # URL for the admin dashboard
+app.config['LOGIN_ROUTE'] = '/login'  # Login page route
+```
+
+### 🔒 Session Management
+Manage user sessions and authentication timeouts. This setting controls how long a user stays logged in before needing to re-authenticate.
+
+```python
+from datetime import timedelta
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=60)  # User session timeout duration
+```
+
+### 🗄️ Database Configuration
+Define how the application interacts with the database. These settings determine connection parameters and performance optimizations.
+
+* **SQLALCHEMY_DATABASE_URI**  
+  Specifies the database connection string. By default, it uses SQLite with a file named `users.db`, but it can be customized for PostgreSQL, MySQL, etc.
+
+  ```python
+  app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+  ```
+
+* **SQLALCHEMY_TRACK_MODIFICATIONS**  
+  Controls whether SQLAlchemy tracks object modifications and emits signals. Keeping this disabled improves performance unless event tracking is needed.
+
+  ```python
+  app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+  ```
+
+---
+
+## Resources 📚
+🔹 **[MDI Icons From pictogrammers](https://pictogrammers.github.io/@mdi/font/2.0.46/)**
+🔹 **[Flask](https://flask.palletsprojects.com/)**
+🔹 **[Jinja](https://jinja.palletsprojects.com/)**
+🔹 **[Flask-Login](https://flask-login.readthedocs.io/)**
+🔹 **[Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)**
+🔹 **[SQLAlchemy](https://www.sqlalchemy.org/)**
+🔹 **[psutil](https://psutil.readthedocs.io/)**
+🔹 **[platform](https://docs.python.org/3/library/platform.html)**
+🔹 **[socket](https://docs.python.org/3/library/socket.html)**
+🔹 **[subprocess](https://docs.python.org/3/library/subprocess.html)**
+🔹 **[datetime](https://docs.python.org/3/library/datetime.html)**
+🔹 **[HTML](https://github.com/whatwg/html) [CSS](https://github.com/w3c/csswg-drafts) [JS](https://github.com/tc39/ecma262)**
+🔹 **[Bootstrap](https://getbootstrap.com/)**
+🔹 **[jQuery.ajax](https://api.jquery.com/jQuery.ajax/)**
+🔹 **[OpenStreetMap](https://www.openstreetmap.org/)**
+🔹 **[Chart.js](https://www.chartjs.org/)**
+
+## Authors ✍️
+- [@MahirShah07](https://www.mahirshah.dev)
+
+View This Repository on GitHub: [EditableFlask](https://github.com/MahirShah07/EditableFlask)
+
+## Support 💬
+For support, email info@mahirshah.dev or contact me through my [Website](https://mahirshah.dev).
+
+![Logo](https://raw.githubusercontent.com/MahirShah07/EditableFlask/main/readme-images/logo.png)
+
+## License 📜
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGE

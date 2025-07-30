@@ -1,0 +1,3 @@
+recursive-include EditableFlask/templates *
+recursive-include EditableFlask/assets *
+recursive-include EditableFlask/pyfiles *
