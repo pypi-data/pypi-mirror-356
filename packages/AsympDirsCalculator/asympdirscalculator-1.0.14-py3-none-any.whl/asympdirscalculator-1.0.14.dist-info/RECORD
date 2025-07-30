@@ -1,0 +1,16 @@
+AsympDirsCalculator/AsympDirsTools.py,sha256=JYARvNtcUUYmm5xIIMdYGN5nxnOuRc3rubeCOGih2QI,3876
+AsympDirsCalculator/MAGCOSmacroFileGenerator.py,sha256=gbeasC6FvNLCvPFR6xN_Xf7lcGurG_4P7veUMpCt3mM,5031
+AsympDirsCalculator/MAGNETOCOSMICSimportingTools.py,sha256=rzydrQ02Q0HQUmMCxkhcxQhC9Anh0-Nubrw0H2KbQ4A,7451
+AsympDirsCalculator/MAGNETOCOSMICSrun.py,sha256=pMZzqEqKt2IMr87gc8k3GDxFtgE9RF4sfM8WxdYK-gI,2699
+AsympDirsCalculator/MAGNETOCOSMICSrunManager.py,sha256=HT98-1v-8L-w8dx9Jbny-51ysIjbeCHO_dYiQnEvuVI,2791
+AsympDirsCalculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AsympDirsCalculator/globals.py,sha256=U-zjJqREQh1xNR4NupuhyFXRC8lelOIKYYqY35CbDBM,1103
+AsympDirsCalculator/magcos_running_scripts/AsymptoticDirection.g4mac,sha256=pV_eypLIw4e34Vf99uSxPeTZGNBoNxNKJ0eZ8debkVM,2622
+AsympDirsCalculator/magcos_running_scripts/runNoRewriteMAGCOSsimulation.sh,sha256=zat_MRSm8W1N2QXp-Rn5QaCbMU1DlDCl1iSf5uI5tFI,163
+asympdirscalculator-1.0.14.dist-info/licenses/LICENSE,sha256=HulxUmet3E_ff_e45rp1g5SMHwfwlIuARPxolu4c1Hs,16748
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=ZUvnUJnwZRrpa2ftDeDRPe1IOjisjVsFVjvnnbUTzaE,1788
+asympdirscalculator-1.0.14.dist-info/METADATA,sha256=pBBmYXquLxJ82HO0PNouSuv7AfZJYny7rD3ehL8-muU,15468
+asympdirscalculator-1.0.14.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+asympdirscalculator-1.0.14.dist-info/top_level.txt,sha256=UBpRiJh5RQO1dIZ0d9iu3gwHhdf8nPeZbSZfApz1fPY,26
+asympdirscalculator-1.0.14.dist-info/RECORD,,
