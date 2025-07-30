@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C-Xool Documentation</title>
+</head>
+<body>
+
+<div align="right">
+This file was written at LIPC, IINGEN, UNAM,<br>
+in Sisal, Yucatan, Mexico,<br>
+on the 12th of June 2025.
+</div>
+
+<h1 align="center" style="margin-bottom: 0.2em;">C-Xool:</h1>
+<h1 align="center" style="margin-top: 0em; margin-bottom: 0em;">
+  ERA5 Atmospheric Boundary Conditions Toolbox for Ocean Modelling with ROMS</h1>
+<h1 align="center" style="margin-top: 0.5em;">Software Documentation</h1>
+
+<p><strong>This software is called C-Xool and is distributed under the GNU GENERAL PUBLIC LICENSE.</strong><br>
+This file is provided as-is, without any warranty.</p>
+
+<hr>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#developers">Developers</a></li>
+  <li><a href="#installing-c-xool">Installing C-Xool</a>
+    <ul>
+      <li><a href="#installation-using-mamba-and-pip-recommended">Installation using Mamba and pip (recommended)</a></li>
+      <li><a href="#required-python-libraries">Required Python libraries</a></li>
+    </ul>
+  </li>
+  <li><a href="#architecture">Architecture</a></li>
+  <li><a href="#execution">Execution</a>
+    <ul>
+      <li><a href="#basic-execution">Basic execution</a></li>
+      <li><a href="#execution-of-the-provided-examples">Execution of the provided examples</a></li>
+      <li><a href="#execution-of-the-provided-tests">Execution of the provided tests</a></li>
+      <li><a href="#required-arguments-to-run-c-xool">Required arguments to run C-Xool</a></li>
+      <li><a href="#optional-arguments-to-run-with-c-xool">Optional arguments to run with C-Xool</a></li>
+      <li><a href="#example-of-execution">Example of execution</a></li>
+      <li><a href="#help-and-further-capabilities">Help and further capabilities</a></li>
+    </ul>
+  </li>
+  <li><a href="#support">Support</a></li>
+  <li><a href="#known-problems">Known problems</a></li>
+  <li><a href="#platforms">Platforms</a>
+    <ul>
+      <li><a href="#note-for-linux-users">Note for Linux Users</a></li>
+      <li><a href="#note-for-macos-users">Note for macOS Users</a></li>
+      <li><a href="#note-for-windows-users">Note for Windows Users</a></li>
+    </ul>
+  </li>
+  <li><a href="#ready-to-use-examples">Ready-to-use examples</a></li>
+  <li><a href="#roms-versions-tested-with-an-atmospheric-forcing-built-with-c-xool">ROMS versions tested with an atmospheric forcing built with C-Xool</a></li>
+  <li><a href="#independent-notes-for-the-users-to-consider">Independent notes for the users to consider</a></li>
+  <li><a href="#bibliography">Bibliography</a></li>
+  <li><a href="#supplementary-information">Supplementary information</a></li>
+</ol>
+
+<!-- Following sections (introduction, developers, installing, etc.) go here and would continue in full HTML. -->
+
+</body>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction - C-Xool Documentation</title>
+</head>
+<body>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>
+C-Xool is a Python toolbox designed to prepare atmospheric forcing files for ocean models such as ROMS (Regional Ocean Modelling System). It facilitates downloading, interpolating, plotting, and writing atmospheric data (ERA5) in ROMS-compatible formats.
+</p>
+
+<p>
+The toolbox was designed and developed at the Coastal Engineering and Processes Laboratory (LIPC, from its Spanish acronym <em>Laboratorio de Ingeniería y Procesos Costeros</em>), at the Engineering Institute of the National Autonomous University of Mexico (UNAM, <em>Universidad Nacional Autónoma de México</em>), in an office that overlooks the Gulf of Mexico and its beautiful landscape.
+</p>
+
+<p>
+C-Xool is open-source and encourages collaboration. If you use C-Xool or improve it, please cite the associated publication [1] and share your improvements.
+</p>
+
+<p>
+This README.md file accompanies the code; for more explanations, please refer to [1].
+</p>
+
+<p>
+If you have questions, comments, or feedback, contact <a href="mailto:cargaezg@iingen.unam.mx"><strong>cargaezg@iingen.unam.mx</strong></a>.
+</p>
+
+<hr>
+
+</body>
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C-Xool – Developers & Installation</title>
+</head>
+<body>
+
+<h2 id="developers">Developers</h2>
+
+<ul>
+  <li>Carlos Argáez García, LIPC, IINGEN, UNAM (<a href="mailto:cargaezg@iingen.unam.mx">cargaezg@iingen.unam.mx</a>)</li>
+  <li>Simon Klüpfel, Axelyf, Iceland (<a href="mailto:simon.kluepfel@gmail.com">simon.kluepfel@gmail.com</a>)</li>
+  <li>María Eugenia Allende Arandia, LIPC, IINGEN, UNAM (<a href="mailto:mallendea@iingen.unam.mx">mallendea@iingen.unam.mx</a>)</li>
+  <li>Christian Mario Appendini Albrechtsen, LIPC, IINGEN, UNAM (<a href="mailto:cappendinia@iingen.unam.mx">cappendinia@iingen.unam.mx</a>)</li>
+</ul>
+
+<hr>
+
+<h2 id="installing-c-xool">Installing C-Xool</h2>
+
+<h3 id="installation-using-mamba-recommended">Installation using Mamba and pip (recommended)</h3>
+
+<pre><code class="language-bash">mamba create -n cxool python
+mamba activate cxool
+pip install cxool
+</code></pre>
+
+<p>Once installed, you're ready to run C-Xool.</p>
+
+<h3 id="required-python-libraries">Required Python libraries</h3>
+
+<p>C-Xool relies on the following libraries:</p>
+
+<ul>
+  <li>cartopy</li>
+  <li>cdsapi</li>
+  <li>cmocean</li>
+  <li>copernicusmarine</li>
+  <li>dask</li>
+  <li>matplotlib</li>
+  <li>netcdf4</li>
+  <li>numpy</li>
+  <li>xarray</li>
+  <li>argparse</li>
+</ul>
+
+<hr>
+
+<h2 id="architecture">Architecture</h2>
+
+<p>C-Xool is structured into the following modules:</p>
+
+<ul>
+  <li><code>cxool_cli.py</code>: Entry point; handles CLI parsing and orchestration.</li>
+  <li><code>cds_handler.py</code>: Handles data retrieval from the Climate Data Store (CDS).</li>
+  <li><code>interpolation.py</code>: Performs interpolation of atmospheric variables onto the model grid.</li>
+  <li><code>plotting.py</code>: Contains visualisation functions for assessing the final interpolated forcing file.</li>
+  <li><code>specifications.py</code>: Defines standard variable names, units, and categories.</li>
+</ul>
+
+<hr>
+
+</body>
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C-Xool – Execution</title>
+</head>
+<body>
+
+<h2 id="execution">Execution</h2>
+
+<h3 id="basic-execution">Basic execution</h3>
+
+<p>
+Once installed, C-Xool is executed from a terminal. <br>
+An example of an execution line is the following:
+</p>
+
+<pre><code class="language-bash">cxool --grid_name your_grid.nc --initialdate YYYY-MM-DD --finaldate YYYY-MM-DD 
+--vars_to_interp var1 var2 var3 --plot_interval int_val 
+--final_interpolated_file "ERA5_interpolated_to_grid.nc" 
+--output_folder "SoftwareXExample" -o "input"
+</code></pre>
+
+<!-- Page break for print layout, optional -->
+<div style="page-break-after: always; visibility: hidden"><br></div>
+
+<h3 id="execution-of-the-provided-examples">Execution of the provided examples</h3>
+
+<p>Go into the examples folder. There you have three options:</p>
+
+<ul>
+  <li><strong>GermanNorthernSea</strong>: Contains a dummy grid for the Northern Sea between Denmark and Germany. Go to the folder and execute the Python script. This will complete the example run.</li>
+  <li><strong>MexicanCaribbean</strong>: Contains a dummy grid for the Caribbean Sea off the eastern coast of the Yucatan Peninsula. Go to the folder and execute the Python script. Run the script; it executes the full example.</li>
+  <li><strong>ROMS_example</strong>: Contains three folders: <code>data</code>, <code>External</code>, and <code>Include</code>. Inside <code>data</code>, there is a grid for the northern coast of the Yucatan Peninsula, the Gulf of Mexico, along with a Python script. Go to the folder and execute the Python script. The script runs automatically. Then, set up a ROMS execution using the files included in the folders <code>External</code> and <code>Include</code>. This is a toy model in ROMS that runs without boundary, climatology, runoff, or tidal forcing files.</li>
+</ul>
+
+<h3 id="execution-of-the-provided-tests">Execution of the provided tests</h3>
+
+<p>We have provided a set of unit tests to assess:</p>
+
+<ul>
+  <li>The CDSAPI credentials.</li>
+  <li>The execution of the download commands and path settings.</li>
+  <li>The execution of the merging of different downloaded data batches into one file to be read by interpolation.</li>
+  <li>The argument parser reading.</li>
+  <li>The interpolation of dummy ERA5 variable <code>msl</code> and dummy grid data variables <code>lat_rho</code> and <code>lon_rho</code>, to a NetCDF file.</li>
+  <li>The plotting of dummy scalar and vectorial variables.</li>
+  <li>The execution of real data download, interpolation onto a provided grid, and comparison to a reference forcing file.</li>
+</ul>
+
+<p>To execute, go inside the folder <code>tests</code>. Then execute:</p>
+
+<pre><code class="language-bash">pytest . -v
+</code></pre>
+
+</body>
+
+<h3 id="required-arguments-to-run-c-xool">Required arguments to run C-Xool</h3>
+
+<ul>
+  <li><code>--grid-name</code>: Command expecting a string value as input. Name of the ROMS grid NetCDF file.</li>
+  <li><code>--initialdate</code>: Command expecting a numerical value as input. Initial date from which data download and interpolation will begin. Format: <code>YYYY-MM-DD</code>. Time is automatically set to <strong>00:00:00</strong> <em>hrs</em>.</li>
+  <li><code>--finaldate</code>: Command expecting a numerical value as input. Final date for data download and interpolation. Format: <code>YYYY-MM-DD</code>. Time is automatically set to <strong>23:00:00</strong> <em>hrs</em>.</li>
+</ul>
+
+<h3 id="optional-arguments-to-run-with-c-xool">Optional arguments to run with C-Xool</h3>
+
+<ul>
+  <li><code>--ref-date</code>: Command expecting a string value as input. Reference date for the time variable in the output NetCDF file. Format should follow ISO 8601, e.g., <strong>1948-01-01T00:00:00.000000000</strong>. Default: <strong>1948-01-01T00:00:00.000000000</strong>.</li>
+  <li><code>--interval</code>: Command expecting a numerical value as input. Time step interval to download data in hours, starting from <strong>00:00:00</strong> hrs.</li>
+  <li><code>--vars-to-interp</code>: Command expecting a string value as input. Variables to download and interpolate. Default: <code>msl</code>, <code>wind</code>, <code>t2m</code>, <code>tcc</code>. Scalar variables refer to most ERA5 fields. Vector variable <code>wind</code> means <code>u</code> and <code>v</code> components at 10 m height. Both are treated as a pair.</li>
+  <li><code>--plot</code>: Command expecting string values as input. Specifies variables to plot from the final forcing file.</li>
+  <li><code>--plot-interval</code>: Command expecting a numerical value as input. Time interval for plotting data in time steps of the netCDF forcing file generated by C-Xool.
+    <ul>
+      <li>A negative value <code>-t</code> will plot the <code>t</code>-th slice of the interpolated NetCDF.</li>
+      <li>A value of <code>0</code> will plot only the first slice of the interpolated NetCDF.</li>
+      <li>A positive value <code>t</code>, to plot every <code>t</code>-th slice of the interpolated NetCDF, starting from the first slice.</li>
+    </ul>
+  </li>
+
+ 
+
+  <li><code>--projection</code>: Map projection for plotting. Accepts <code>stereographic</code> or <code>mercator</code>.</li>
+  <li><code>--scale-factor</code>: Numerical value controlling arrow size in quiver plots. Higher value = smaller arrows.</li>
+  <li><code>--arrowdensity</code>: Numerical value controlling vector field density. Lower = denser field.</li>
+  <li><code>--discrete-colors</code>: Number of discrete colours in plots.</li>
+  <li><code>--homogenise-limits</code>: Boolean. When enabled, uses consistent colourbar limits for better comparison.</li>
+  <li><code>--data-storage</code>: Path to store raw ERA5 data.</li>
+  <li><code>--data-subfolder</code>: Subdirectory name for saving merged ERA5 data.</li>
+  <li><code>--plots-folder</code>: Folder to save output plots. Placed inside <code>--output-folder</code> if defined.</li>
+  <li><code>--output-folder</code>: Folder where all output files will be saved.</li>
+  <li><code>--memory-chunks</code>: Memory chunk size (MB) for processing large files.</li>
+  <li><code>--out-config</code>: String name to output a reusable configuration input file.</li>
+  <li><code>--input-file</code>: Input config file (manually or via <code>--out-config</code>) to rerun with same settings.</li>
+  <li><code>--plot-format</code>: Output image format for plots (<code>png</code>, <code>pdf</code>, <code>eps</code>, <code>svg</code>).</li>
+  <li><code>--version</code>: Show C-Xool version.</li>
+  <li><code>--help</code>: Show help menu and full list of options.</li>
+</ul>
+
+<h3 id="example-of-execution">Example of execution</h3>
+
+<p>A basic command line execution example is the following:</p>
+
+<pre><code class="language-bash">python cxool_cli.py --grid-name model_grid.nc \
+  --initialdate 1983-10-25 --finaldate 1983-10-27 \
+  --vars-to-interp wind t2m msl tcc \
+  --plot msl wind t2m tcc --plot-interval 3 \
+  --final-interpolated-file ERA5_interpolated-to-grid.nc \
+  --output-folder SoftwareXExample -o input
+</code></pre>
+
+<h3 id="help-and-further-capabilities">Help and further capabilities</h3>
+
+<p>To see the full list of options, run:</p>
+
+<pre><code class="language-bash">cxool --help
+</code></pre>
+
+<hr>
+<h2 id="support">Support</h2>
+
+<p>
+If you encounter issues, please email <a href="mailto:cargaezg@iingen.unam.mx"><strong>cargaezg@iingen.unam.mx</strong></a>. We support Spanish, English, Italian, and Yucatec Maya.
+</p>
+
+<hr>
+
+<h2 id="known-problems">Known problems</h2>
+
+<ul>
+  <li>You must set up your <a href="https://www.ecmwf.int/" target="_blank">ECMWF account</a>.</li>
+  <li>You must set up <a href="https://cds.climate.copernicus.eu/how-to-api" target="_blank">CDSAPI</a>.</li>
+  <li>You must install the proper Python environment.</li>
+  <li>You must install C-Xool.</li>
+  <li>You must install the <a href="#required-python-libraries">aforementioned libraries</a>.</li>
+  <li>Grid file, initial date, and final date are mandatory arguments. No default values were provided.</li>
+</ul>
+
+<hr>
+
+<h2 id="ready-to-use-examples">Ready-to-use examples</h2>
+
+<p>
+Inside the installation folder of C-Xool, there is a folder called <code>examples</code> that contains two subfolders: <code>GermanNorthernSea</code> and <code>MexicanCaribbean</code>. 
+Inside each of these subfolders, a model grid is provided along with a Python script that allows running.
+</p>
+
+<pre><code>
+examples/
+├── GermanNorthernSea
+│   ├── example_German_Northern_sea.py
+│   └── nordseedeu10km_grid.nc
+├── MexicanCaribbean
+│   ├── caribemex10km_grid.nc
+│   └── example_Mexican_caribbean.py
+└── ROMS_example
+    ├── cxool_instructions.txt
+    ├── data
+    │   ├── inluum_grid.nc
+    │   └── run_cxool_example.py
+    ├── External
+    │   └── inluum.in
+    ├── Include
+    │   └── gulfofmexico.h
+    ├── README.html    
+    └── README.md    
+</code></pre>
+
+<hr>
+
+<h2 id="platforms">Platforms</h2>
+
+<h3 id="note-for-linux-users">Note for Linux Users</h3>
+<p>C-Xool has been tested on:</p>
+<ol>
+  <li>Fedora Linux 35 Workstation, 64-bit.</li>
+  <li>Rocky Linux 8.6, 64-bit.</li>
+  <li>Fedora Linux 41 Workstation, 64-bit.</li>
+</ol>
+
+<h3 id="note-for-macos-users">Note for macOS Users</h3>
+<p>C-Xool has been tested on macOS. Please report any compatibility issues to the developer.</p>
+
+<h3 id="note-for-windows-users">Note for Windows Users</h3>
+<p>
+C-Xool can be used under Windows via a properly configured Python environment.<br>
+It has been tested on:
+</p>
+<ol>
+  <li>Microsoft Windows 11, Pro, 64 bits.</li>
+</ol>
+
+<h2 id="roms-versions-tested-with-an-atmospheric-forcing-built-with-c-xool">
+ROMS versions tested with an atmospheric forcing built with C-Xool
+</h2>
+
+<p>
+We have tested the forcing file compatibility with different ROMS versions. 
+The oldest version successfully used was the 2011 release 
+(<code>makefile 1417 2011-05-13 16:51:50Z kate</code>),
+which is indeed quite dated. We also verified functionality with the latest ROMS version available on 
+GitHub at the time of writing. All worked.
+</p>
+
+<p>
+In accordance with the ROMS documentation [2] and recent ROMS-Tools guidelines [3], 
+we know the NetCDF structure for atmospheric forcing variables is:
+</p>
+
+<pre><code class="language-bash">ATMOS_VAR(time, eta_rho, xi_rho)</code></pre>
+
+<p>
+Given the consistency across ROMS documentation, 
+and based on our own testing, we do not anticipate any compatibility issues. 
+The expected format for atmospheric forcing variables is well established as:
+</p>
+
+<pre><code class="language-bash">ATMOS_VAR(time, eta_rho, xi_rho)</code></pre>
+
+<p>and has remained stable across ROMS versions [2,3].</p>
+
+<hr>
+
+<h2 id="independent-notes-for-the-users-to-consider">Independent notes for the users to consider</h2>
+
+<p>
+Producing a bathymetric grid for a ROMS model is a hard task that usually requires both good knowledge in coding and ocean-sciences.
+This is out of the scope of C-Xool. However, user may want to consider:
+</p>
+
+<ol>
+  <li>
+    James, C., <em>Gridbuilder</em>, 
+    <a href="https://austides.com/downloads/" target="_blank">Austides Consulting</a>, accessed: 10 June 2025.
+  </li>
+  <li>
+    Ådlandsvik, B., <em>GridMap – Python toolbox for ROMS grid files based on explicit map projections</em>, 
+    <a href="https://github.com/bjornaa/gridmap" target="_blank">https://github.com/bjornaa/gridmap</a>.
+  </li>
+</ol>
+
+<hr>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<p><strong>[1]</strong> <em>C-Xool, ERA5 Atmospheric Boundary Conditions Toolbox for Ocean Modelling with ROMS</em>, Argáez, C., Klüpfel, S., Allende Arandía, M. E., Appendini, C. M. Submitted to <em>SoftwareX</em>, under review.</p>
+
+<p><strong>[2]</strong> ROMS Forcing Package Documentation. Available at: <a href="https://www.myroms.org/index.php?page=forcing" target="_blank">https://www.myroms.org/index.php?page=forcing</a></p>
+
+<p><strong>[3]</strong> ROMS-Tools Documentation – Surface Forcing. Available at: <a href="https://roms-tools.readthedocs.io/en/latest/surface_forcing.html" target="_blank">https://roms-tools.readthedocs.io/en/latest/surface_forcing.html</a></p>
+
+
+<hr>
+
+<h2 id="supplementary-information">Supplementary information</h2>
+
+<p>
+Modern package managers such as mamba and pip 
+generally ensure a clean installation of the needed dependencies.
+However, we provide here the specific versions and distribution channels 
+of the key Python libraries we used during our testing and development. 
+</p>
+
+<p>
+We do so in the hope that this information serves other users with two purposes:
+</p>
+
+<ul>
+  <li>
+    <strong>Reproducibility:</strong> It offers the configurations that were verified to work with C-Xool 
+    in both Linux and macOS environments. This information can be useful if any user wishes to replicate 
+    our setup exactly or needs to troubleshoot an unexpected behaviour.
+  </li>
+  <li>
+    <strong>Demonstrated Compatibility:</strong> The examples show that C-Xool runs reliably across different platforms, 
+    Python versions, and package sources (e.g., conda-forge vs pypi). 
+    This underlines the flexibility and robustness of the tool in varied user environments.
+  </li>
+</ul>
+
+<p>Nevertheless, we recommend installing the latest compatible versions in a clean environment.</p>
+
+<div style="page-break-before: always;"></div>
+
+<h3 id="fedora-linux-35">Fedora Linux 35 Workstation, 64-bit</h3>
+
+<p>In this case, Python version was 3.13.5 and the libraries distributions were as follows:</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+<thead>
+<tr>
+<th>Package</th><th>Version</th><th>Channel</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>cartopy</td><td>0.22.0</td><td>conda-forge</td></tr>
+<tr><td>cmocean</td><td>3.1.3</td><td>conda-forge</td></tr>
+<tr><td>copernicusmarine</td><td>2.0.1</td><td>conda-forge</td></tr>
+<tr><td>dask</td><td>2024.1.0</td><td>conda-forge</td></tr>
+<tr><td>dask-core</td><td>2024.1.0</td><td>conda-forge</td></tr>
+<tr><td>matplotlib</td><td>3.8.2</td><td>conda-forge</td></tr>
+<tr><td>matplotlib-base</td><td>3.8.2</td><td>conda-forge</td></tr>
+<tr><td>matplotlib-inline</td><td>0.1.7</td><td>conda-forge</td></tr>
+<tr><td>netcdf4</td><td>1.6.5</td><td>conda-forge</td></tr>
+<tr><td>numpy</td><td>1.26.4</td><td>conda-forge</td></tr>
+<tr><td>cf_xarray</td><td>0.10.5</td><td>conda-forge</td></tr>
+<tr><td>xarray</td><td>2024.1.1</td><td>conda-forge</td></tr>
+</tbody>
+</table>
+
+<h3 id="macos-big-sur">macOS Big Sur, Version 11.7.10</h3>
+
+<p>In this case, Python version was 3.12.2 and the libraries distributions were as follows:</p>
+
+<table border="1" cellspacing="0" cellpadding="6">
+<thead>
+<tr>
+<th>Package</th><th>Version</th><th>Channel</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>cartopy</td><td>0.24.1</td><td>pypi</td></tr>
+<tr><td>cmocean</td><td>4.0.3</td><td>pypi</td></tr>
+<tr><td>copernicusmarine</td><td>2.0.1</td><td>pypi</td></tr>
+<tr><td>dask</td><td>2025.5.1</td><td>pypi</td></tr>
+<tr><td>dask-core</td><td>–</td><td>–</td></tr>
+<tr><td>matplotlib</td><td>3.10.3</td><td>pypi</td></tr>
+<tr><td>matplotlib-base</td><td>–</td><td>–</td></tr>
+<tr><td>matplotlib-inline</td><td>–</td><td>–</td></tr>
+<tr><td>netcdf4</td><td>1.7.2</td><td>pypi</td></tr>
+<tr><td>numpy</td><td>2.3.0</td><td>pypi</td></tr>
+<tr><td>cf_xarray</td><td>–</td><td>–</td></tr>
+<tr><td>xarray</td><td>2025.6.1</td><td>pypi</td></tr>
+</tbody>
+</table>
+
+
+</html>
