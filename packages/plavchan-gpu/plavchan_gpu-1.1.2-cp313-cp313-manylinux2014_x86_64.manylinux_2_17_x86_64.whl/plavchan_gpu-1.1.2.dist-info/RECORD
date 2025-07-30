@@ -1,0 +1,9 @@
+plavchan.cpython-313-x86_64-linux-gnu.so,sha256=WG17qSrD1kpAHTlfEAnLguQNgNdYA-A92s5qWgtckPg,157529
+plavchan_gpu/__init__.py,sha256=SxwkaKZPeksTR2dhDzZvnBjYCOPjsF6zXo_Lh8_rGoA,3657
+plavchan_gpu/plavchan.cu,sha256=x_m5965LQKAi1mbvL3wBLteOHNyNOoyanUikKF3Y-NQ,22222
+plavchan_gpu.libs/libcudart-381c0faa.so.12.9.37,sha256=Q7_VCyyGHGq2wquFRF41wlxG9f-ZrtRrBPDJCKiNvWE,753657
+plavchan_gpu-1.1.2.dist-info/METADATA,sha256=rfcF9d0xvEMm_qAuhzeH9xgDcPaLWXS8LLaoqw2W7PU,1428
+plavchan_gpu-1.1.2.dist-info/WHEEL,sha256=sLnxkimgGZnkHfiVG0CKXk3cbEzmkkBUHrkKJEO9o6g,151
+plavchan_gpu-1.1.2.dist-info/top_level.txt,sha256=H-ZuE8twQVpMOJuKCzgMeY9_7nR2xjhqYWm_Bcbfdm0,22
+plavchan_gpu-1.1.2.dist-info/RECORD,,
+plavchan_gpu-1.1.2.dist-info/licenses/LICENSE,sha256=trum3Q2hW0ns6Z1r792UGURhtHAMCrSBQz-qEVtFMXg,1067
