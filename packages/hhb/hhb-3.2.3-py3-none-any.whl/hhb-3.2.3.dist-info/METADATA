@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hhb
+Version: 3.2.3
+Summary: HHB: T-Head deployment tools for Deep Learning Systems
+Home-page: https://github.com/XUANTIE-RV/tvm
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: hhb-tvm (==3.2.3)
+Requires-Dist: jsbeautifier
+Requires-Dist: numpy
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Requires-Dist: onnxsim
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: ppq (==0.6.6)
+Requires-Dist: protobuf
+Requires-Dist: pyyaml
+Requires-Dist: scikit-build
+Requires-Dist: tflite
+Requires-Dist: tqdm
+
+UNKNOWN
+

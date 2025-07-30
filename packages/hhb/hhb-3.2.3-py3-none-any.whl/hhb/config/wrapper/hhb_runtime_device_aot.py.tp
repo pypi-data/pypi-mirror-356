@@ -1,0 +1,271 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+"""
+Python Execution pipeline for AOT Object.
+
+Usage:
+    python hhb_runtime_device_aot.py model.so in_a1 in_a2 ... in_b1 in_b2 ...
+  Or
+    python hhb_runtime_device_aot.py model.so inputs.txt
+
+The inputs.txt is shown as follow:
+
+in_a1 in_a2 ...
+in_b1 in_b2 ...
+...
+
+"""
+import sys
+import os
+import logging
+
+import numpy as np
+import cv2
+
+import tvm
+from tvm.runtime import relax_vm
+
+# log config
+logging.basicConfig(
+    format="[%(asctime)s.%(msecs)03d] (%(name)s %(levelname)s): %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger("HHBRuntime")
+logger.setLevel(logging.DEBUG)
+
+# set inputs info
+INPUT_SHAPE = #_hhb_input_shape_#
+INPUT_DTYPE = #_hhb_input_dtype_#
+
+# set "inference" or "evaluate"
+MODE = "inference"
+# MODE = "evaluate"
+# The number of times to run this function for taking average.
+PROFILE_NUM = 10
+
+# for image preprocess
+PREPROC_LAYOUT = #_hhb_input_0_layout_#
+PREPROC_GRAY = #_hhb_preprocess_gray_#
+PREPROC_RGB = #_hhb_preprocess_pixel_format_#
+PREPROC_BGR_MEAN = #_hhb_preprocess_mean_#
+PREPROC_SCALE = #_hhb_preprocess_scale_#
+
+POSTPROC_MODE = #_hhb_postporcess_mode_#
+
+
+def parse_input_path_from_txt(path: str):
+    """
+    Parse the file with structure:
+
+    in_a1 in_a2 ...
+    in_b1 in_b2 ...
+    ...
+    """
+    if not path or not os.path.exists(path):
+        raise ValueError(f"Invalid path: {path}")
+    input_path = []
+    first_line_num = -1
+    with open(path, "r") as f:
+        for line_no, line in enumerate(f.readlines()):
+            line_strip = line.strip()
+            if not line_strip:
+                continue
+            inter = line_strip.split(" ")
+            inter = list(filter(lambda l: l.strip(), inter))
+            if len(inter) > 0 and first_line_num == -1:
+                first_line_num = len(inter)
+            if len(inter) == 0:
+                continue
+            assert (
+                len(inter) == first_line_num
+            ), f"Detect different number of path as line: {line_no}"
+            input_path += inter
+    return input_path
+
+
+def preprocess_image(img, target_shape):
+    assert len(target_shape) == 4, "Only support for 4-dim data."
+    img = np.array(img, dtype=np.float32)
+    # bgr hwc
+    if img.ndim == 2:
+        img = img[:, :, np.newaxis]
+        if not PREPROC_GRAY:
+            img = np.tile(img, (1, 1, 3))
+    elif img.shape[2] == 4:
+        if PREPROC_GRAY:
+            img = cv2.cvtColor(img, cv2.COLOR_BGRA2GRAY)
+            img = img[:, :, np.newaxis]
+        else:
+            img = img[:, :, :3]
+    elif img.ndim == 3 and PREPROC_GRAY:
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        img = img[:, :, np.newaxis]
+
+    # resize and crop
+    if PREPROC_LAYOUT == "NCHW":
+        target_height, target_width = target_shape[2:]
+    else:
+        target_height, target_width = target_shape[1:3]
+    if img.shape[0] < img.shape[1]:
+        img_height = target_height
+        img_width = int(img.shape[1] / img.shape[0] * target_width)
+        img = cv2.resize(img, (img_width, img_height))
+        img = img[:, 0:target_width, :]
+    else:
+        img_height = int(img.shape[0] / img.shape[1] * target_height)
+        img_width = target_width
+        img = cv2.resize(img, (img_width, img_height))
+        img = img[0:target_height, :, :]
+
+    # sub mean
+    img = img - np.array(PREPROC_BGR_MEAN).astype(np.float32)
+
+    # mul scale
+    img *= PREPROC_SCALE
+
+    if PREPROC_RGB:
+        # to rgb
+        img = img[:, :, ::-1]
+
+    # to NHWC
+    img = np.expand_dims(img, axis=0)
+
+    if PREPROC_LAYOUT == "NCHW":
+        img = np.transpose(img, (0, 3, 1, 2))
+    return img
+
+
+def postprocess(out, mode="top5", out_path=None):
+    """Postprocess output.
+
+    out : numpy.ndarray
+        The value
+    mode : str
+        The mode of postprocess, only support: "top5", "save" and "save_and_top5"
+    out_path : str
+        The file holds data.
+    """
+    if mode == "top5" or mode == "save_and_top5":
+        out_flatten = out.flatten()
+        # get top5
+        top5_indices = np.argsort(out_flatten)[-5:][::-1]
+        top5_values = out_flatten[top5_indices]
+        for i, idx in enumerate(top5_indices):
+            print(f"{idx}: {top5_values[i]}")
+
+    if mode == "save" or mode == "save_and_top5":
+        out.tofile(out_path, sep="\n")
+
+
+if __name__ == "__main__":
+    logger.info("Enable pipline with hhb runtime...")
+    lib_path = ""
+    input_path = []
+    if len(sys.argv) == 2:
+        raise ValueError(
+            "Invalid command, please use: "
+            "python hhb_runtime_device_aot.py model.so in_a1 in_a2 ... in_b1 in_b2 ... or "
+            "python hhb_runtime_device_aot.py model.so inputs.txt or "
+            "python hhb_runtime_device_aot.py"
+        )
+    elif len(sys.argv) > 2:
+        lib_path = sys.argv[1]
+        input_path = sys.argv[2:]
+
+        if len(input_path) == 1 and input_path[0].endswith(".txt"):
+            input_path = parse_input_path_from_txt(input_path[0])
+
+    # load model
+    runtime_mod = tvm.runtime.load_module(lib_path)
+    logger.info(f"Load model from {lib_path}")
+    dev = tvm.runtime.cpu()
+    vm = relax_vm.VirtualMachine(runtime_mod, dev)
+    input_num = vm._get_function_arity("main")
+    logger.info(f"The number of input in model: {input_num}")
+
+    # check input info
+    assert len(INPUT_DTYPE) == len(
+        INPUT_SHAPE
+    ), f"Mismatch number of shape: {INPUT_SHAPE} vs dtype: {INPUT_DTYPE}"
+    assert input_num == len(
+        INPUT_SHAPE
+    ), f"Module need {input_num} inputs, but get {len(INPUT_SHAPE)}"
+    assert (
+        len(input_path) % input_num == 0
+    ), f"The number of provided input data mismatch the actual inputs in model."
+
+    batch = len(input_path) // input_num
+    logger.info(f"Total batch of input data: {batch}")
+
+    if MODE == "evaluate":
+        batch = 1
+        logger.warning(f"Force batch=1 for {MODE} mode.")
+    for b in range(batch):
+        logger.debug(f"---- Start {MODE} pipeline with {b}-th batch data... ----")
+
+        in_data = []
+        for i in range(input_num):
+            curr_path: str = input_path[b * input_num + i]
+            ext = os.path.splitext(curr_path)[-1].lower()
+            if ext == ".bin":
+                data = np.fromfile(curr_path, dtype=INPUT_DTYPE[i]).reshape(*INPUT_SHAPE[i])
+            elif ext in (".tensor", ".txt"):
+                data = np.fromfile(curr_path, dtype=INPUT_DTYPE[i], sep="\n").reshape(
+                    *INPUT_SHAPE[i]
+                )
+            elif ext in (".jpg, .png, .jpeg"):
+                if i != 0:
+                    raise ValueError(
+                        f"Only support image for first input, but now for {i}-th input"
+                    )
+                data = cv2.imread(curr_path, cv2.IMREAD_UNCHANGED)
+                data = preprocess_image(data, INPUT_SHAPE[i])
+            in_data.append(tvm.nd.array(data, dev))
+
+        logger.debug(
+            f"The data path for current loop: {input_path[b * input_num: b * input_num + input_num]}"
+        )
+
+        if MODE == "inference":
+            vm.set_input("main", *in_data)
+            logger.debug("Have updated input data")
+            vm.invoke_stateful("main")
+            logger.debug("Have executed model")
+            res = vm.get_outputs("main")
+            first_input_filename = os.path.basename(input_path[b * input_num + 0])
+            if isinstance(res, (tuple, list)):
+                for o_idx, o in enumerate(res):
+                    postprocess(o.numpy(), POSTPROC_MODE, f"{first_input_filename}_output_{o_idx}.txt")
+            else:
+                postprocess(res.numpy(), POSTPROC_MODE, f"{first_input_filename}_output_0.txt")
+        elif MODE == "evaluate":
+            vm.set_input("main", *in_data)
+            time_f = vm.time_evaluator("invoke_stateful", dev, number=PROFILE_NUM)
+            cost = time_f("main").mean
+            logger.info(f"{cost} secs/model")
+        else:
+            raise ValueError(f"Unsupport mode: {MODE}")
+
+        logger.debug(f"---- End {MODE} pipeline with {b}-th batch data... ----")
+
+    logger.info("Pipeline is done!")
+
+    # ============= profile: model layer time ============
+    # vm = relax_vm.VirtualMachine(runtime_mod, dev, profile=True)
+    # report = vm.profile("main", a)
+    # print(report)
