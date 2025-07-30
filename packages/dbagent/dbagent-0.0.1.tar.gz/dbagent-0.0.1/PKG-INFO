@@ -1,0 +1,62 @@
+Metadata-Version: 2.4
+Name: dbagent
+Version: 0.0.1
+Summary: An Agent for SQL generation and data analysis
+Home-page: https://github.com/JiehangXie/dbagent
+Author: Jiehang Xie
+Author-email: JiehangXie <xiejiehang@foxmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/JiehangXie/dbagent
+Project-URL: Repository, https://github.com/JiehangXie/dbagent
+Project-URL: Issues, https://github.com/JiehangXie/dbagent/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# DBAgent
+
+An Agent tool for Database.
+
+## Installation
+
+```bash
+pip install dbagent
+```
+
+## Usage
+
+### Check Version
+
+```python
+import dbagent
+print(dbagent.__version__)
+```
+
+Or use the command line:
+
+```bash
+dbagent --version
+```
+
+## Features
+
+- Version query functionality
+- More features coming soon...
+
+## License
+
+MIT License

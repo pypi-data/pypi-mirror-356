@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+dbagent/__init__.py
+dbagent/cli.py
+dbagent/version.py
+dbagent.egg-info/PKG-INFO
+dbagent.egg-info/SOURCES.txt
+dbagent.egg-info/dependency_links.txt
+dbagent.egg-info/entry_points.txt
+dbagent.egg-info/top_level.txt
