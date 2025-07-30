@@ -1,0 +1,9 @@
+django-admin-extra-buttons>=1.5.8
+hope-flex-fields>=0.2
+openpyxl>=3.1.5
+
+[docs]
+mkdocs>=1.6.1
+mkdocs-material>=9.5.36
+mkdocs-awesome-pages-plugin>=2.9.3
+mkdocstrings-python
