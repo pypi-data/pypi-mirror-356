@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+info() {
+  DIRENV_LOG_FORMAT="envrc: %s" log_status "$@"
+}
+
+if ! nvidia_smi="$(type -p "nvidia-smi")" || [[ -z "$nvidia_smi" ]]; then
+  info "Did not detect nvidia-smi, using non-GPU environment"
+else
+  cuda_major_version=$(nvidia-smi --version | awk 'BEGIN { FS = "[:space:]*:[:space:]*"}; /^CUDA Version/ {print $2};')
+  info "Detected CUDA version: $cuda_major_version"
+fi
+
+if xhost_cmd="$(type -p "xhost")" && [[ -n "$xhost_cmd" ]]; then
+  "$xhost_cmd" +si:localuser:"$(whoami)" >&/dev/null && {
+    info "Display present, setting XLA_PYTHON_CLIENT_MEM_FRACTION to 40%"
+    export XLA_PYTHON_CLIENT_MEM_FRACTION=".40"
+  }
+fi
+
+make dev
+source ./.venv/bin/activate

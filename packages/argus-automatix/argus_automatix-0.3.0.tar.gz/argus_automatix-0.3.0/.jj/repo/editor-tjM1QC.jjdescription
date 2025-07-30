@@ -1,0 +1,10 @@
+example: add example script for boolean monitoring
+JJ: This commit contains the following changes:
+JJ:     M examples/strelmonitoring/create_shifted_buildings.m
+JJ:     A examples/strelmonitoring/example_spec1.py
+JJ:     A examples/strelmonitoring/offline_bool_monitoring.py
+JJ:     M pixi.lock
+JJ:     M pyproject.toml
+JJ:     M src/automatix/afa/strel.py
+
+JJ: Lines starting with "JJ: " (like this one) will be removed.
