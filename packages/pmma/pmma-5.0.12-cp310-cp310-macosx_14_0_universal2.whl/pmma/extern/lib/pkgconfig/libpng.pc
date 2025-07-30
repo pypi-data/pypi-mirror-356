@@ -1,0 +1,12 @@
+prefix=/Users/runner/work/PMMA/PMMA/pmma/extern
+exec_prefix=/Users/runner/work/PMMA/PMMA/pmma/extern
+libdir=/Users/runner/work/PMMA/PMMA/pmma/extern/lib
+includedir=/Users/runner/work/PMMA/PMMA/pmma/extern/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.49
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}
