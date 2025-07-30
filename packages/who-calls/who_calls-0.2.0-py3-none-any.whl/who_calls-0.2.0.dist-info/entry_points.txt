@@ -1,0 +1,2 @@
+[console_scripts]
+who-calls = who_calls.cli:main
