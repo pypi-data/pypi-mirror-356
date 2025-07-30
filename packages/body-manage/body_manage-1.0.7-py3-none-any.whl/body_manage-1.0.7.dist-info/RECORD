@@ -1,0 +1,13 @@
+manage/__init__.py,sha256=ngqRB8FflwTGJIcdgmb2nrV2wNJIHG1WLMkshywvCqs,269
+manage/__main__.py,sha256=_DlvidCkrjOiKshVuuRiVy0TJmWa93JUfeI6g8Q8Vvg,1027
+manage/errors.py,sha256=gmlII10wJ1GF87Ow5rhFRx7uU3s3jZM8rh04GV0lT0E,331
+manage/install.py,sha256=_uXgC4UyWKBsb_r87R85IO7_zRr95W6bohdDCwIB6D0,1029
+manage/rest.py,sha256=a1qQauVGuDzyUr91rTBoQuAYKbF-z-25o3dIo4y7KC8,1311
+manage/service.py,sha256=QfbdvKzanj3Fsj10hY6H_-sNv9bJXjowGR0U3eV8KZI,25412
+manage/define/portal.json,sha256=67JWsk7Be8HBLDxKn_jcevtEWfe5c7mJ0UOTM7Ee7B4,506
+manage/define/rest.json,sha256=DyJQkgouncj6SMDalLx1DQvWcPUEnRPga0E0by7Bnwg,477
+body_manage-1.0.7.dist-info/METADATA,sha256=hKBWwN-ARR28uzW81aIi1je6BVy5SN29nA51nklNaP0,1527
+body_manage-1.0.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+body_manage-1.0.7.dist-info/entry_points.txt,sha256=8vrkWexMGSJZaZFAo5stetamwFkXO0S9Mlk9H3l7chg,47
+body_manage-1.0.7.dist-info/licenses/LICENSE,sha256=Sl43W8dCEY44HcoWxapZom2T-me4MHCvCmBfXns-c6w,346
+body_manage-1.0.7.dist-info/RECORD,,
