@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+setup_minimal.py
+validkit/__init__.py
+validkit/client.py
+validkit/config.py
+validkit/exceptions.py
+validkit/models.py
+validkit.egg-info/PKG-INFO
+validkit.egg-info/SOURCES.txt
+validkit.egg-info/dependency_links.txt
+validkit.egg-info/requires.txt
+validkit.egg-info/top_level.txt
