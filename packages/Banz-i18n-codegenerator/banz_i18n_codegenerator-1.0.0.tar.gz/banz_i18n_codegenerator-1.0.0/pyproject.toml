@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+    "pdm-backend >= 2.4.0",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "Banz_i18n_codegenerator"
+version = "1.0.0"
+authors = [
+    { name = "Sebastian Banz", email = "sebanzian@gmail.com" },
+]
+description = "Package to generate java constants for provided i18n.properties files."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = [
+    "LICEN[CS]E*",
+]
+
+[project.urls]
+Homepage = "https://github.com/derbanz"
+
+[tool]
