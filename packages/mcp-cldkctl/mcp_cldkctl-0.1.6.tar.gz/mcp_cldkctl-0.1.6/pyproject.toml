@@ -1,0 +1,22 @@
+[project]
+name = "mcp_cldkctl"
+version = "0.1.6"
+description = "MCP server for Cloudeka cldkctl CLI integration"
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "mcp",
+    "click",
+    "anyio",
+    "requests"
+]
+
+[project.scripts]
+mcp_cldkctl = "mcp_cldkctl.__main__:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta" 
