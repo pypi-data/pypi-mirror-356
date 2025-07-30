@@ -1,0 +1,31 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+include requirements-dev.txt
+include pyproject.toml
+include setup.py
+
+# Include banyan package source code only (exclude venv and other unwanted directories)
+recursive-include banyan *.py
+recursive-exclude banyan/venv *
+recursive-exclude banyan/__pycache__ *
+recursive-exclude banyan .DS_Store
+
+# Exclude development and build files
+exclude .DS_Store
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.so
+recursive-exclude * *.dylib
+prune build
+prune dist
+prune *.egg-info
+prune .git
+prune .pytest_cache
+prune htmlcov
+prune tests
+exclude .gitignore
+exclude .coverage
+exclude tox.ini
+exclude .banyan 

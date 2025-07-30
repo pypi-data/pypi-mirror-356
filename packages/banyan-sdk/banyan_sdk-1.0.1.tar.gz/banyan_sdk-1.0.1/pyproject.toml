@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "banyan-sdk"
+version = "1.0.1"
+description = "Python SDK for Banyan (Prompt Stack Manager) - manage, version, and A/B test your LLM prompts"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Banyan Team", email = "support@banyan.dev"},
+]
+maintainers = [
+    {name = "Banyan Team", email = "support@banyan.dev"},
+]
+keywords = [
+    "llm",
+    "prompt",
+    "logging",
+    "ai",
+    "machine-learning",
+    "openai",
+    "anthropic",
+    "experiments",
+    "a-b-testing",
+    "versioning",
+    "banyan"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.25.0",
+    "typer[all]>=0.9.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-asyncio",
+    "black",
+    "flake8",
+    "mypy",
+    "twine",
+    "build",
+    "pytest-cov",
+]
+
+[project.scripts]
+banyan = "banyan.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/banyan-team/banyan-sdk"
+Repository = "https://github.com/banyan-team/banyan-sdk"
+Documentation = "https://docs.banyan.dev"
+"Bug Reports" = "https://github.com/banyan-team/banyan-sdk/issues"
+Changelog = "https://github.com/banyan-team/banyan-sdk/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["banyan"]
+
+
+
+[tool.black]
+line-length = 100
+target-version = ["py37", "py38", "py39", "py310", "py311", "py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "--cov=banyan --cov-report=term-missing --cov-report=html"
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true 

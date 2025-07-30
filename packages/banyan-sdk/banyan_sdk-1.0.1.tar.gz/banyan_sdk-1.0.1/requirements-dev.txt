@@ -1,0 +1,16 @@
+# Base requirements
+-r requirements.txt
+
+# Development dependencies
+pytest>=6.0
+pytest-asyncio
+pytest-cov
+black
+flake8
+mypy
+twine
+build
+
+# Documentation
+sphinx>=4.0
+sphinx-rtd-theme 
