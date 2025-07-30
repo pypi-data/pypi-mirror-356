@@ -1,0 +1,3 @@
+[console_scripts]
+daemon=aia_read_svc.daemon:run
+
