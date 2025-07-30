@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/astchunk/__init__.py
+src/astchunk/astchunk.py
+src/astchunk/astchunk_builder.py
+src/astchunk/astnode.py
+src/astchunk/preprocessing.py
+src/astchunk.egg-info/PKG-INFO
+src/astchunk.egg-info/SOURCES.txt
+src/astchunk.egg-info/dependency_links.txt
+src/astchunk.egg-info/entry_points.txt
+src/astchunk.egg-info/requires.txt
+src/astchunk.egg-info/top_level.txt
+tests/test_nws_count.py
