@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: mosamatic-cli
+Version: 1.0.0
+Summary: A CLI tool for body composition analysis from DICOM CT scans
+License: MIT
+Author: Ralph Brecheisen
+Author-email: ralph.brecheisen@gmail.com
+Requires-Python: >=3.11.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: click (<8.1.8)
+Description-Content-Type: text/markdown
+
+# mosamatic-cli
+Command-line tool for running processing tasks on medical images
+
