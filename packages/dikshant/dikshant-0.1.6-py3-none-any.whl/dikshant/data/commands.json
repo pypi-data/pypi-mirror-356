@@ -1,0 +1,31 @@
+{
+    "commands": [
+        {
+            "action": "open_app",
+            "patterns": [
+                "open (?:the )?(?P<app>\\w+)",
+                "start (?:the )?(?P<app>\\w+)",
+                "launch (?:the )?(?P<app>\\w+)"
+            ],
+            "response": "Opening {app}"
+        },
+        {
+            "action": "open_website",
+            "patterns": [
+                "open (?:the )?(?P<site>\\w+)",
+                "go to (?:the )?(?P<site>\\w+)",
+                "visit (?:the )?(?P<site>\\w+)"
+            ],
+            "response": "Opening {site}"
+        },
+        {
+            "action": "sleep",
+            "patterns": [
+                "take rest",
+                "go to sleep",
+                "stop listening"
+            ],
+            "response": "Goodbye"
+        }
+    ]
+}
