@@ -1,0 +1,3 @@
+[console_scripts]
+bio_embeddings=bio_embeddings.utilities.cli:main
+
