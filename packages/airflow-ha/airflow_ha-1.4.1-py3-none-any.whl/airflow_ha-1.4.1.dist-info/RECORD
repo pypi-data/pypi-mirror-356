@@ -1,0 +1,10 @@
+airflow_ha/__init__.py,sha256=mipzTxd5gFoVjaZ_qOy-qI63K5o3Ul9vna1dpJWMQCo,69
+airflow_ha/common.py,sha256=egPtrva-8rStCmk67Ux5lhbg1Oq99gkKxS0Pl3WDY2c,309
+airflow_ha/operator.py,sha256=RKn7YPAN1mo-YXfYzurFqwjHQTKDFqR0ChF6KQV1Ik0,15170
+airflow_ha/tests/conftest.py,sha256=tKj8AbSbhOOkuAdYZWXDoT3bXPqRUpdp42IcZgoJWi0,433
+airflow_ha/tests/test_import.py,sha256=-TmuzUPzcsZ6nSHKj9ee00kfHPhKUpTDIJhRW7qFkso,59
+airflow_ha/tests/test_operator.py,sha256=ZtTyl1umMBDzV9JDIzSJQAU5T1D-5IgvYvwaY9Xod9U,9808
+airflow_ha-1.4.1.dist-info/METADATA,sha256=f3BXRREZGpLMukAH5tTCNGagDT7EMijYOL6WLa4fG_Q,7706
+airflow_ha-1.4.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+airflow_ha-1.4.1.dist-info/licenses/LICENSE,sha256=Wp_sLgaU4-ywt-4GGaJGdWvXO62zmp2klTbvjbGTOZU,11352
+airflow_ha-1.4.1.dist-info/RECORD,,
