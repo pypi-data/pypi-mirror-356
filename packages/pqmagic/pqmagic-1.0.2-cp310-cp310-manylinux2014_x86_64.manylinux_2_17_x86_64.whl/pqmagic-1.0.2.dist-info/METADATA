@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pqmagic
+Version: 1.0.2
+Summary: The python bindings for PQMagic https://github.com/pqcrypto-cn/PQMagic
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: Cython
+Description-Content-Type: text/markdown
+Requires-Dist: Cython
+
+# PQMagic-python
+
+[PQMagic](https://pqcrypto.dev), maintained by Prof. [Yu Yu](http://www.yuyu.hk)'s team, is the first post-quantum cryptography algorithm library in China that supports FIPS standards. Here is its python bindings, `pqmagic`, based on the [C library](https://github.com/pqcrypto-cn/PQMagic). This project aims to help developers to use the high-performance PQC algorithms in python for more convenience and flexibility.
+
+## Algorithms Support
+PQMagic-python supports the standard algorithms selected by NIST, as well as some self-developed algorithms. The current entirety is shown as follows.
+
+For KEM algorithms, it supports:  
+`ML_KEM_512`, `ML_KEM_768`, `ML_KEM_1024`,
+`KYBER_512`, `KYBER_768`, `KYBER_1024`,
+`AIGIS_ENC_1`, `AIGIS_ENC_2`, `AIGIS_ENC_3`, `AIGIS_ENC_4`.
+
+For SIG algorithms, it supports:  
+`SLH_DSA_SHA2_128f`, `SLH_DSA_SHA2_128s`, `SLH_DSA_SHA2_192f`, `SLH_DSA_SHA2_192s`, `SLH_DSA_SHA2_256f`, `SLH_DSA_SHA2_256s`,  
+`SLH_DSA_SHAKE_128f`, `SLH_DSA_SHAKE_128s`, `SLH_DSA_SHAKE_192f`, `SLH_DSA_SHAKE_192s`, `SLH_DSA_SHAKE_256f`, `SLH_DSA_SHAKE_256s`,  
+`SLH_DSA_SM3_128f`, `SLH_DSA_SM3_128s`, `DILITHIUM_2`, `DILITHIUM_3`, `DILITHIUM_5`,  
+`SPHINCS_Alpha_SHA2_128f`, `SPHINCS_Alpha_SHA2_128s`, `SPHINCS_Alpha_SHA2_192f`, `SPHINCS_Alpha_SHA2_192s`, `SPHINCS_Alpha_SHA2_256f`, `SPHINCS_Alpha_SHA2_256s`,   
+`SPHINCS_Alpha_SHAKE_128f`, `SPHINCS_Alpha_SHAKE_128s`, `SPHINCS_Alpha_SHAKE_192f`, `SPHINCS_Alpha_SHAKE_192s`,  `SPHINCS_Alpha_SHAKE_256f`, `SPHINCS_Alpha_SHAKE_256s`, `SPHINCS_Alpha_SM3_128f`, `SPHINCS_Alpha_SM3_128s`.  
+
+For more details, check the page on [Github](https://github.com/pqcrypto-cn/PQMagic-Python).
+
