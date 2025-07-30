@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+shalstab/__init__.py
+shalstab/slope_analyzer.py
+shalstab/training_data/__init__.py
+shalstab/training_data/dem.tif
+shalstab/training_data/geology.geojson
