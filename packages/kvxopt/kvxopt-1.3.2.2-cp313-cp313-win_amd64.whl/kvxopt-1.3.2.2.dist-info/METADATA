@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: kvxopt
+Version: 1.3.2.2
+Summary: Convex optimization package and Suite Sparse interface
+Home-page: 
+Author-email: "M. Andersen" <martin.skovgaard.andersen@gmail.com>, "J. Dahl" <dahl.joachim@gmail.com>, "L. Vandenberghe" <vandenbe@ee.ucla.edu>, "U. Sandoval" <sanurielf@gmail.com>
+License-Expression: GPL-3.0-or-later
+Project-URL: Source, https://github.com/sanurielf/kvxopt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.19.0
+Dynamic: license-file
+Dynamic: requires-python
+
+KVXOPT
+======
+
+This package is a fork from CVXOPT including more SuiteSparse functions and KLU
+sparse matrix solver.
+
+
+* [Website](https://sanurielf.github.io/kvxopt/)
+* [Documentation](https://sanurielf.github.io/kvxopt/userguide/index.html)
+
+
+
+Release info
+------------
+
+[![License](https://img.shields.io/badge/license-GPL3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) 
+[![GitHub release](https://img.shields.io/github/release/sanurielf/kvxopt.svg)](https://github.com/sanurielf/kvxopt/releases/latest)
+[![PyPI](https://img.shields.io/pypi/v/kvxopt.svg)](https://pypi.python.org/pypi/kvxopt)
+[![Anaconda-Server Badge](https://anaconda.org/conda-forge/kvxopt/badges/version.svg)](https://anaconda.org/conda-forge/kvxopt)
+
+Related projects
+----------------
+
+* [Original CVXOPT package](https://github.com/cvxopt/cvxopt)
+
+
+Build status
+------------
+
+
+|             | [master](https://github.com/sanurielf/cvxopt/tree/master) | [dev](https://github.com/sanurielf/cvxopt/tree/dev) |
+|-------------|--------|------------|
+| Linux | [![Linux build](https://github.com/sanurielf/kvxopt/workflows/Linux%20build/badge.svg?branch=master)](https://github.com/sanurielf/kvxopt/actions)|  [![Linux build](https://github.com/sanurielf/kvxopt/workflows/Linux%20build/badge.svg?branch=dev)](https://github.com/sanurielf/kvxopt/actions)| 
+| MacOs | [![macOS build](https://github.com/sanurielf/kvxopt/workflows/macOS%20build/badge.svg?branch=master)](https://github.com/sanurielf/kvxopt/actions)|  [![macOS build](https://github.com/sanurielf/kvxopt/workflows/macOS%20build/badge.svg?branch=dev)](https://github.com/sanurielf/kvxopt/actions)| 
+| Windows (MSVC)| [![Windows build with MSVC](https://github.com/sanurielf/kvxopt/workflows/Windows%20build%20with%20MSVC/badge.svg?branch=master)](https://github.com/sanurielf/kvxopt/actions)|  [![Windows build with MSVC](https://github.com/sanurielf/kvxopt/workflows/Windows%20build%20with%20MSVC/badge.svg?branch=dev)](https://github.com/sanurielf/kvxopt/actions)| 
+| Coveralls   |  [![Coverage Status](https://coveralls.io/repos/github/sanurielf/cvxopt/badge.svg?branch=master)](https://coveralls.io/github/sanurielf/cvxopt?branch=master)   | [![Coverage Status](https://coveralls.io/repos/github/sanurielf/cvxopt/badge.svg?branch=master)](https://coveralls.io/github/sanurielf/cvxopt?branch=dev)   |
+| Readthedocs | [![RTFD Status](https://readthedocs.org/projects/cvxopt/badge/?version=latest)](http://cvxopt.readthedocs.io/en/latest/?badge=latest) | [![RTFD Status](https://readthedocs.org/projects/cvxopt/badge/?version=latest)](http://cvxopt.readthedocs.io/en/latest/?badge=latest) |
