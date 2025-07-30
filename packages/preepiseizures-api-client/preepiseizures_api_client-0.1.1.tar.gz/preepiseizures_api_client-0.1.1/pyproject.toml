@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 61.0.0","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "preepiseizures_api_client"
+dynamic = ["version"]
+readme = "README.md"
+license = { file = "LICENSE" }
+description = "Short description."
+authors = [{ name = "Ana Sofia Carmo", email = "anascacais@gmail.com" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+ 
+]
+
+[project.urls]
+Repository = "https://github.com/anascacais/preepiseizures-api-client"
+
+[tool.setuptools.dynamic]
+version = {attr = "preepiseizures_api_client.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["preepiseizures_api_client"]
