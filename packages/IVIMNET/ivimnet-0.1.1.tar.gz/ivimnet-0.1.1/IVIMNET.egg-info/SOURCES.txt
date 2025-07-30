@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+IVIMNET/__init__.py
+IVIMNET/deep.py
+IVIMNET/fitting_algorithms.py
+IVIMNET/simulations.py
+IVIMNET.egg-info/PKG-INFO
+IVIMNET.egg-info/SOURCES.txt
+IVIMNET.egg-info/dependency_links.txt
+IVIMNET.egg-info/requires.txt
+IVIMNET.egg-info/top_level.txt

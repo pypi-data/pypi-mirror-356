@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: IVIMNET
+Version: 0.1.1
+Summary: Physics-informed deep learning IVIM model
+Home-page: https://github.com/oliverchampion/IVIMNET
+Author: Oliver Champion
+License: GPL-3.0
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: joblib
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
