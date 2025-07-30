@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+kLogs_util.egg-info/PKG-INFO
+kLogs_util.egg-info/SOURCES.txt
+kLogs_util.egg-info/dependency_links.txt
+kLogs_util.egg-info/requires.txt
+kLogs_util.egg-info/top_level.txt
+klogs/__init__.py
+klogs/kFormatter.py
+klogs/kLogger.py
+klogs/test.py
