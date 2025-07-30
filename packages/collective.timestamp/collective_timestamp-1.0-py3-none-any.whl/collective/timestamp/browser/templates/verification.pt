@@ -1,0 +1,49 @@
+<div i18n:domain="collective.timestamp">
+
+  <h1 i18n:translate="">Timestamp informations</h1>
+
+  <div id="content"
+       tal:define="is_timestamped view/is_timestamped">
+
+    <tal:if condition="is_timestamped">
+      <div class="timestamp-info">
+        <p>
+          <span i18n:translate="">This content was timestamped on</span>
+          <strong tal:content="python: view.timestamp_date().strftime('%Y-%m-%d %H:%M:%S')"></strong>
+        </p>
+      </div>
+      <div class="download-links">
+        <p>
+          <span i18n:translate="">Download the .TSR file here :</span>
+          <a href=""
+             tal:attributes="href string:${context/absolute_url}/@@download/timestamp"
+             i18n:translate="">TSR File</a>
+        </p>
+        <p>
+          <span i18n:translate="">Download the timestamped file here :</span>
+          <a href=""
+             tal:attributes="href string:${context/absolute_url}/@@download"
+             i18n:translate="">Timestamped File</a>
+        </p>
+      </div>
+      <div class="more-info-link">
+        <p>
+          <a href=""
+             target="_blank"
+             tal:attributes="href view/more_infos_url"
+             i18n:translate="">More Info</a>
+        </p>
+      </div>
+    </tal:if>
+
+    <tal:else condition="not: is_timestamped">
+      <div class="timestamp-info">
+        <p>
+          <span i18n:translate="">This content is not timestamped.</span>
+        </p>
+      </div>
+    </tal:else>
+
+  </div>
+
+</div>
