@@ -1,0 +1,13 @@
+cryptography
+requests
+Pillow
+pyttsx3
+openai
+keyboard
+beautifulsoup4
+simpleaudio
+pyaudio
+getpass4
+langdetect
+googletrans==4.0.0rc1
+lxml

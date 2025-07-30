@@ -1,0 +1,66 @@
+Metadata-Version: 2.4
+Name: darktrace
+Version: 1.1.2
+Summary: DARKTRACE: Advanced Secure Lock & Reverse Search System with AI Assistant
+Home-page: https://github.com/CURE0FFICIAL/darktrace-locks
+Author: CURE
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: requests
+Requires-Dist: Pillow
+Requires-Dist: pyttsx3
+Requires-Dist: openai
+Requires-Dist: keyboard
+Requires-Dist: beautifulsoup4
+Requires-Dist: simpleaudio
+Requires-Dist: pyaudio
+Requires-Dist: getpass4
+Requires-Dist: langdetect
+Requires-Dist: googletrans==4.0.0rc1
+Requires-Dist: lxml
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# DARKTRACE LOCKS 🔒
+
+**DARKTRACE** is an advanced authentication and OSINT utility featuring hacker-style aesthetics and AI-driven capabilities. It includes:
+
+### 🔐 Multi-Layer Security
+- Pattern lock input
+- Masked password (appears as `**`)
+- Security questions
+- Gmail OTP (skipped if correct passkey is used)
+- All passwords and questions encrypted using AES
+
+### 🔍 Reverse Image Search
+- Supports drag & drop of user photos
+- Uses headless Bing and TinEye fallback (no API key needed)
+- Extracts: name, age, last known location, social media handles, and breach info
+- Scrapes search results using an AI-powered module
+
+### 🧠 AI Assistant — *Anuj*
+- Indian accent, soft female voice
+- Speaks + types responses in corner overlay
+- Stays always on screen, activated via `CTRL + A`
+- OpenAI GPT-enabled (with your API key)
+- Language switcher (e.g., English ↔ Odia)
+- Ghibli-style replies, handles birthday calculations, general chat, and security Q/A
+
+---
+
+## 📦 Installation
+
+```bash
+pip install darktrace

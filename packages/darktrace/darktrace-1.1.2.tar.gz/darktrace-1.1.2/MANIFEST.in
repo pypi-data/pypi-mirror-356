@@ -1,0 +1,6 @@
+include README.md
+include secret.key
+include darktrace_locks/assets/*
+include darktrace_locks/audio/*
+recursive-include darktrace_locks/templates *
+recursive-include darktrace_locks/static *
