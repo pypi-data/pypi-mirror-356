@@ -1,0 +1,14 @@
+sortium/__init__.py,sha256=8kw2YjuA0U0aKtVmb98bgD728EMced4hMFuhwDcsj94,603
+sortium/config.py,sha256=bGYlqim1FORcXFksxVku2X_oSLAPVJ6RW1GAcWDmnAE,887
+sortium/file_utils.py,sha256=IHEjFPgu8o7sUrUDG3rcwPd-eXeWGTFCMRyLkCn8VU4,7638
+sortium/sorter.py,sha256=H9mGXqud4EUPXterQF8exZHUUbHPK5zUgav0rYvCtcg,6403
+sortium-1.5.0.dist-info/licenses/LICENSE,sha256=w26AwjJ4JxVMjaRcYR4iDTbzX2B_tnTuWVXwz1pvyHY,35182
+tests/README.md,sha256=ACh80PUs4Ikkd4cjHFUDHkysdaH2D82jSQnLoPLnPG0,4995
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_file_tree.py,sha256=lvg9cIA4yGbI9qkf9yIplbj_Uy07rJgrvquz65BemPQ,2752
+tests/test_file_utils.py,sha256=tV0GHx61A7pQi8dt5vVlfjDaZ-pKv7HCdz6-Ajp2a2c,1737
+tests/test_sorter.py,sha256=UOEUoNy6J6DyKkuvekHvE7UEhJZEQ3LP8w3skUQ-IT0,1693
+sortium-1.5.0.dist-info/METADATA,sha256=DMTRRFWLl1gLp59kb86CNBWid8W0JWKZG982SORzA1I,3016
+sortium-1.5.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+sortium-1.5.0.dist-info/top_level.txt,sha256=TTGRVBsWbTloA781JG2g9zWoQAhR6CuJId8SCKbzN6c,14
+sortium-1.5.0.dist-info/RECORD,,
