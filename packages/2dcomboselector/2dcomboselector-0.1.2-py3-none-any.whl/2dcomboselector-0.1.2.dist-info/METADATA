@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: 2dcomboselector
+Version: 0.1.2
+Summary: A Python tool for interactive 2D combination selection and analysis.
+Author-email: Chapel-Saint-Auret <jessy.saintauret@gmail.com>
+Project-URL: Homepage, https://github.com/Chapel-Saint-Auret/2dcomboselector
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySide6
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Dynamic: license-file
