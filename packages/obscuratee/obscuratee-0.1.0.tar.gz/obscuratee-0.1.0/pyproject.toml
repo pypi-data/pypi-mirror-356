@@ -1,0 +1,18 @@
+[project]
+name = "obscuratee"
+version = "0.1.0"
+description = "A terminal toy that spits out manatee facts gathered by years of research."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+  { name = "sn3cc", email = "sn33zyhub@gmail.com" }
+]
+dependencies = []
+
+[project.scripts]
+obscuratee = "obscuratee.main:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+obscuratee/__init__.py
+obscuratee/main.py
+obscuratee.egg-info/PKG-INFO
+obscuratee.egg-info/SOURCES.txt
+obscuratee.egg-info/dependency_links.txt
+obscuratee.egg-info/entry_points.txt
+obscuratee.egg-info/top_level.txt
