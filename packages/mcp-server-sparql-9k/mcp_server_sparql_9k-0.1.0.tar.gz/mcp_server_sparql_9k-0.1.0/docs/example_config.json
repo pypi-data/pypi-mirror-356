@@ -1,0 +1,14 @@
+{
+  "endpoints": [
+    {
+      "name": "probe",
+      "url": "https://probe.stad.gent/sparql",
+      "instructions": "Use this endpoint for testing queries."
+    },
+    {
+      "name": "production",
+      "url": "https://stad.gent/sparql",
+      "instructions": "Production dataset. Do not run heavy experimental queries."
+    }
+  ]
+}

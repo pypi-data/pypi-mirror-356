@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv sync:*)",
+      "Bash(pip install:*)",
+      "Bash(uv build)",
+      "Bash(uv run:*)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(uv publish:*)"
+    ],
+    "deny": []
+  }
+}
