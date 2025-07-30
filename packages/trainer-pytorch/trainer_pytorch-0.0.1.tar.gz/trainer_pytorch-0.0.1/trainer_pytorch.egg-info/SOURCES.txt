@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_trainer.py
+trainer_pytorch/__init__.py
+trainer_pytorch/trainer_pytorch.py
+trainer_pytorch.egg-info/PKG-INFO
+trainer_pytorch.egg-info/SOURCES.txt
+trainer_pytorch.egg-info/dependency_links.txt
+trainer_pytorch.egg-info/requires.txt
+trainer_pytorch.egg-info/top_level.txt
