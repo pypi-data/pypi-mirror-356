@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: hpc-ga
+Version: 0.2.26
+Summary: High Performance Computing Genetic Algorithm Framework
+Author-email: KEFSI Nourhane <nourhanekefsi@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/nourhanekefsi/Master_final_project/tree/main/src/Frameworks/HPC_GA
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: networkx>=3.0
+Requires-Dist: ray>=2.0
+Dynamic: license-file
+
+# hpc_ga
+
+`hpc_ga` est un framework modulaire et extensible pour le développement d’algorithmes génétiques (GA) en Python, avec prise en charge du parallélisme à grande échelle. Il a été conçu pour être indépendant du problème, facilitant ainsi son intégration dans divers contextes d'optimisation.
+
+## 📌 Fonctionnalités principales
+
+- Architecture modulaire avec des classes pour :
+  - `Chromosome` : représentation de solutions
+  - `Population` : gestion des populations
+  - `Crossover` : opérateurs de croisement
+  - `Mutation` : opérateurs de mutation
+  - `Fitness` : évaluation des individus
+- Intégration de plusieurs modèles de parallélisme :
+  - **Modèle insulaire (Island Model)**
+  - **Modèle maître-esclave**
+  - **Modèle cellulaire**
+- Implémentation distribuée avec [Ray](https://docs.ray.io/)
+- Compatible avec les environnements HPC (cluster, cloud, Grid5000)
+- Installation facile via `pip`
+
+## 🚀 Installation
+
+```bash
+pip install hpc_ga
+```
+
+## Exemple d'utilisation
+from hpc_ga.population import Population
+from hpc_ga.island_model import IslandModel
+
+population = Population(initial_individuals=...)
+island_model = IslandModel(num_islands=4)
+island_model.run(population)
+
+## Structure du projet
