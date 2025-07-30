@@ -1,0 +1,2 @@
+[console_scripts]
+github-file-loader = github_file_loader.__main__:cli_main
