@@ -1,0 +1,70 @@
+[project]
+name = "jwtninja"
+dynamic = ["version"]
+description = "A simple and fully-typed auth library for Django Ninja based on PyJWT."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.5.2",
+    "uuid6>=2024.7.10",
+    "pyjwt>=2.9.0",
+    "django-ninja>=1.3.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest-django>=4.9.0",
+    "pytest-freezer>=0.4.8",
+    "pytest-mock>=3.14.0",
+    "pytest>=8.3.3",
+    "ruff>=0.6.9",
+]
+
+[tool.ruff]
+exclude = [
+    ".git",
+    ".github",
+    ".venv",
+    ".vscode",
+    "migrations",
+    "static_files",
+]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle
+    "W",    # pycodestyle
+    "F",    # pyflakes
+    "I",    # isort
+    "C4",   # flake8-comprehensions
+    "TID",  # flake8-tidy-imports
+]
+ignore = [
+    "TID252",  # Prefer absolute imports over relative imports from parent modules
+]
+
+[project.urls]
+Homepage = "https://github.com/dvf/jwt-ninja"
+
+[tool.isort]
+profile = "black"
+filter_files = true
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.hatch.build.targets.wheel]
+packages = ["jwt_ninja"]
+
+[tool.uv-dynamic-versioning]
+vcs = "git"
+fallback-version = "0.0.0"
+style = "semver"
+strict = true
