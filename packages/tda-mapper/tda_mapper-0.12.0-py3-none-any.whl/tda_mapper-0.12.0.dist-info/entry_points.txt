@@ -1,0 +1,2 @@
+[console_scripts]
+tda-mapper-app = tdamapper._run_app:run
