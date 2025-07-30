@@ -1,0 +1,271 @@
+Metadata-Version: 2.4
+Name: num-agents
+Version: 0.1.2
+Summary: Nüm Agents: A dynamic agent orchestration framework
+Author-email: NUMTEMA <lionelnumtema@gmail.com>
+License: Lionel TAGNE private label
+License-File: LICENSE
+Keywords: agents,ai,framework,num,orchestration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: typer[all]>=0.9.0
+Provides-Extra: dev
+Requires-Dist: black>=23.0.0; extra == 'dev'
+Requires-Dist: mypy>=1.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: ruff>=0.0.1; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Nüm Agents SDK
+
+Un framework d'orchestration d'agents dynamiques pour construire des systèmes d'agents IA modulaires et évolutifs.
+
+[![PyPI version](https://badge.fury.io/py/num-agents.svg)](https://badge.fury.io/py/num-agents)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## Vue d'ensemble
+
+Nüm Agents est un SDK puissant pour créer, gérer et déployer des agents IA avec une architecture modulaire basée sur des univers fonctionnels. Il permet aux développeurs de construire rapidement des systèmes d'agents en déclarant simplement les univers fonctionnels dont ils ont besoin, plutôt que de coder manuellement chaque composant.
+
+Version 0.1.0 - [Voir le changelog](CHANGELOG.md)
+
+## Fonctionnalités clés
+
+- **Architecture basée sur des univers**: Activez des modules fonctionnels en déclarant simplement les univers dont votre agent a besoin
+- **Génération dynamique d'agents**: Générez automatiquement du code d'agent complet à partir de spécifications YAML simples
+- **Analyse de graphes logiques**: Visualisez les dépendances et interactions entre composants d'agents
+- **Méta-orchestration**: Capacités de supervision intégrées pour valider et améliorer les conceptions d'agents
+- **Framework extensible**: Ajoutez facilement des univers, modules et types de nœuds personnalisés
+- **Tableau de bord interactif**: Visualisez et analysez les performances de vos agents avec des graphiques avancés, exportez les données et modifiez les configurations en temps réel
+
+## Démarrage rapide
+
+```bash
+# Installer le SDK
+pip install num-agents
+
+# Générer un agent à partir d'une spécification
+num-agents generate --spec agent.yaml --catalog univers_catalog.yaml
+```
+
+## Configuration d'agents
+
+### Agent unique
+
+```yaml
+# agent_simple.yaml
+agent:
+  name: "SimpleAgent"
+  description: "Agent unique avec fonctionnalités de base"
+  univers:
+    - PocketFlowCore
+  protocol: N2A
+  llm: gemini-2.0-flash
+  memory: false
+  eventbus: false
+  scheduler: false
+  metrics: true
+  tracing: false
+```
+
+```bash
+num-agents generate --spec agent_simple.yaml --catalog univers_catalog.yaml
+```
+
+### Agent avec multi-expertise
+
+```yaml
+# agent_expert.yaml
+agent:
+  name: "ExpertAgent"
+  description: "Agent avec capacités de raisonnement multi-expertise"
+  univers:
+    - PocketFlowCore
+    - ReasoningLayer
+  protocol: N2A
+  llm: gemini-2.0-pro
+  memory: true
+  eventbus: true
+  scheduler: false
+  metrics: true
+  tracing: true
+  reasoning:
+    expertise_weighting: true
+    dynamic_strategy: true
+```
+
+```bash
+num-agents generate --spec agent_expert.yaml --catalog univers_catalog.yaml
+```
+
+### Système multi-agents
+
+```yaml
+# multi_agent_system.yaml
+system:
+  name: "MultiAgentSystem"
+  description: "Système avec plusieurs agents collaboratifs"
+  agents:
+    - name: "ManagerAgent"
+      univers:
+        - PocketFlowCore
+        - ManagerLayer
+      protocol: N2A
+      llm: gemini-2.0-pro
+      memory: true
+      eventbus: true
+    - name: "SpecialistAgent"
+      univers:
+        - PocketFlowCore
+        - KnowledgeLayer
+      protocol: N2A
+      llm: gemini-2.0-flash
+      memory: false
+      eventbus: true
+  coordination:
+    type: "eventbus"
+    shared_memory: true
+```
+
+## Commandes CLI disponibles
+
+```bash
+# Générer un agent à partir d'une spécification
+num-agents generate --spec agent.yaml --catalog univers_catalog.yaml
+
+# Générer un système multi-agents à partir d'une spécification
+num-agents generate-system --spec multi_agent_system.yaml --catalog univers_catalog.yaml
+
+# Exécuter un agent avec visualisation du graphe logique en temps réel
+num-agents run ./NomDuDossierAgent --live-graph
+
+# Lancer le tableau de bord pour un agent ou un système multi-agents
+num-agents dashboard --agent-dir ./NomDuDossierAgent --port 8080
+num-agents dashboard --system-dir ./NomDuDossierSysteme --port 8080
+
+# Générer un graphe logique pour un agent existant
+num-agents graph --agent-dir ./SimpleAgent --output-mermaid graph.mmd
+
+# Générer un audit pour un agent existant
+num-agents audit --agent-dir ./SimpleAgent --output-path audit.md
+
+# Générer des suggestions pour améliorer le fichier agent.yaml
+num-agents suggest-yaml --agent-dir ./SimpleAgent --output-path suggestions.yaml
+
+# Générer un manifeste des fichiers d'un projet d'agent
+num-agents generate-manifest ./SimpleAgent --format markdown --output manifest.md
+```
+
+## Génération de systèmes multi-agents
+
+Le SDK permet de générer automatiquement toute la structure d'un système multi-agents à partir d'un fichier YAML de spécification :
+
+```yaml
+# multi_agent_system.yaml
+system:
+  name: "MultiAgentSystem"
+  description: "Système avec plusieurs agents collaboratifs"
+  agents:
+    - name: "ManagerAgent"
+      univers:
+        - PocketFlowCore
+        - ManagerLayer
+      protocol: N2A
+      llm: gemini-2.0-pro
+      memory: true
+      eventbus: true
+    - name: "SpecialistAgent"
+      univers:
+        - PocketFlowCore
+        - KnowledgeLayer
+      protocol: N2A
+      llm: gemini-2.0-flash
+      memory: false
+      eventbus: true
+  coordination:
+    type: "eventbus"
+    shared_memory: true
+```
+
+Génération automatique :
+
+```bash
+num-agents generate-system --spec multi_agent_system.yaml --catalog univers_catalog.yaml
+```
+
+Chaque agent est généré dans son propre dossier, avec la coordination et les ressources partagées au niveau du système.
+
+
+## Tableau de bord interactif
+
+Nüm Agents SDK inclut un tableau de bord Streamlit puissant pour surveiller et gérer vos agents :
+
+```bash
+# Lancer le tableau de bord avec des données d'exemple
+python -m num_agents.dashboard.app --target ./examples/dashboard_demo --generate-data
+
+# Visualiser un agent en cours d'exécution
+python -m num_agents.dashboard.app --agent-dir ./SimpleAgent --port 8080
+
+# Visualiser plusieurs agents sur le même tableau de bord
+python -m num_agents.dashboard.app --system-dir ./MultiAgentSystem --port 8080
+```
+
+### Fonctionnalités du tableau de bord
+
+- **Vue des agents** : Configuration et statut des agents en temps réel
+- **Vue des graphes logiques** : Visualisation interactive des flux de données et dépendances
+- **Vue de la mémoire** : Exploration des croyances et connaissances des agents
+- **Vue des métriques** : Graphiques avancés pour analyser les performances
+  - Performance des nœuds avec visualisations temporelles
+  - Utilisation des modèles LLM avec statistiques de coût
+  - Temps de réponse avec analyses statistiques
+- **Vue des traces** : Journaux d'exécution avec chronologie interactive et filtres
+
+### Fonctionnalités avancées
+
+- **Visualisations interactives** : Chronologies, diagrammes de Gantt, cartes de chaleur, graphiques radar
+- **Exportation de données** : Export en CSV, JSON et Excel pour analyse externe
+- **Édition de configuration** : Modification des paramètres d'agent en temps réel
+- **Contrôle d'exécution** : Démarrage et arrêt des agents directement depuis l'interface
+
+## Structure du projet
+
+Le SDK Nüm Agents suit une architecture modulaire:
+
+```text
+num-agents-sdk/
+│── num_agents/
+│   │── composer/       # Génération et composition d'agents
+│   │── dashboard/       # Tableau de bord interactif Streamlit
+│   │── graph/          # Génération de graphes logiques
+│   │── orchestrator/   # Méta-orchestration et validation
+│   │── univers/        # Gestion du catalogue d'univers
+│   └── utils/          # Fonctions utilitaires
+│── config/             # Fichiers de configuration
+│── examples/           # Exemples de spécifications d'agents
+│── tests/              # Suite de tests
+└── docs/               # Documentation
+```
+
+## État de développement
+
+Le SDK Nüm Agents est actuellement en version alpha (v0.1.0). Nous développons activement les fonctionnalités de base et accueillons les contributions.
+
+## Licence
+
+Propriétaire - Tous droits réservés
+
+Copyright (c) 2025 Lionel TAGNE. La copie, la modification, la distribution ou l'utilisation non autorisée de ce logiciel est strictement interdite.
