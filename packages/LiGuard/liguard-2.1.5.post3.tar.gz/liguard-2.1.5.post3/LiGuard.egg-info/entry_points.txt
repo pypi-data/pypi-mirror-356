@@ -1,0 +1,4 @@
+[console_scripts]
+liguard-cmd = liguard.liguard_cmd:main
+liguard-gui = liguard.liguard_gui:main
+liguard-profiler = liguard.liguard_profiler:main
