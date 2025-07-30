@@ -1,0 +1,3 @@
+[console_scripts]
+dun=dun.__main__:main
+
