@@ -1,0 +1,2 @@
+[console_scripts]
+cxool = cxool.cxool_cli:main

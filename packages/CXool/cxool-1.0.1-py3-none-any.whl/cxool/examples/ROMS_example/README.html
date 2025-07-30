@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C-Xool Example: Toy Model for ROMS Forcing</title>
+</head>
+<body>
+
+<div align="right">
+This file was written at LIPC, IINGEN, UNAM, <br>
+in Sisal, Yucatan, Mexico, <br>
+on the 17th of June 2025.
+</div>
+
+<h1>C-Xool Example: Toy Model for ROMS Forcing</h1>
+
+<p>This folder contains an example of how to use <strong>C-Xool</strong> 
+to generate atmospheric forcing for a simplified ROMS setup. 
+It serves as a minimal working demonstration of the software.</p>
+
+<h2>Example Description</h2>
+
+<p>This toy example shows how to run C-Xool with a real ERA5 variable list over a 
+short simulation period using a test grid (<code>inluum_grid.nc</code>). 
+The goal is to create a ROMS-compatible forcing file (<code>roms_frc.nc</code>) 
+from ERA5 reanalysis data. The toy model is not realistic, but it serves the purpose of showing 
+that C-Xool successfully generates a working atmospheric forcing file for ROMS.</p>
+
+<p>The example includes:</p>
+<ul>
+  <li>An instruction file (<code>cxool_instructions.txt</code>)</li>
+  <li>A small grid file (<code>data/inluum_grid.nc</code>)</li>
+  <li>An execution script (<code>data/run_cxool_example.py</code>)</li>
+  <li>A sample input file for ROMS (<code>External/inluum.in</code>)</li>
+  <li>A sample CPP header file (<code>Include/gulfofmexico.h</code>)</li>
+  <li>A <code>README.md</code> file</li>
+</ul>
+
+<pre><code>
+                               ROMS_example
+                               ├── cxool_instructions.txt
+                               ├── data
+                               │   ├── inluum_grid.nc
+                               │   └── run_cxool_example.py
+                               ├── External
+                               │   └── inluum.in
+                               ├── Include
+                               │      └── gulfofmexico.h
+                               ├── README.html
+                               └── README.md
+</code></pre>
+
+<h2>How to run C-Xool to construct the forcing file</h2>
+
+<h3>Option 1: Command-Line Execution</h3>
+
+<p><strong>Go inside the folder <code>data</code></strong>. There, you can run C-Xool directly from the command line with:</p>
+
+<pre><code>cxool \
+  --grid-name data/inluum_grid.nc \
+  --initialdate 1983-10-25 \
+  --finaldate 1983-10-31 \
+  --interval 6 \
+  --plot-interval 0 \
+  --vars-to-interp t2m wind msl tcc avg_snswrf q tp \
+  --final-interpolated-file roms_frc.nc \
+  --data-storage ./raw_era5 \
+  --data-subfolder merged_data \
+  --ref-date "1970-01-01T00:00:00.000000000"
+</code></pre>
+
+<p>This command will:</p>
+<ul>
+  <li>Download ERA5 data for the specified interval and variables.</li>
+  <li>Interpolate the variables to the ROMS grid.</li>
+  <li>Save the output in <code>roms_frc.nc</code>.</li>
+</ul>
+
+<h3>Option 2: Python Script</h3>
+
+<p><strong>Go inside the folder <code>data</code></strong>. You can also execute the entire example with the Python script in the following way:</p>
+
+<pre><code>python data/run_cxool_example.py
+</code></pre>
+
+<p>This script performs the same actions as the command-line example. This will produce a file called <code>roms_frc.nc</code>; this is the atmospheric forcing file built by C-Xool.</p>
+
+<h2>ROMS Execution</h2>
+
+<p>Once the <code>roms_frc.nc</code> file is generated, 
+you can use it as the atmospheric forcing file in your ROMS simulation. 
+The provided ROMS input file <code>External/inluum.in</code> and header <code>Include/gulfofmexico.h</code> 
+illustrate the configuration used for this toy example.
+It is the responsibility of the user to set the ROMS required libraries properly and the 
+path in each system. Further, the file <code>External/inluum.in</code> must be edited so all your paths 
+to both the grid and the forcing file are set properly:</p>
+
+<ol start="3">
+<li>Set line 1107: <code>GRDNAME == /set/your/path/here/data/inluum_grid.nc</code>.</li>
+<li>Set line 1197: <code>FRCNAME == /set/your/path/here/data/roms_frc.nc</code>.</li>
+</ol>
+
+<h3>IMPORTANT NOTE</h3>
+
+<p>It is the <strong>sole responsibility of the user</strong> to:</p>
+<ul>
+  <li><strong>Download and install a working version of ROMS (2002–2025)</strong>.</li>
+  <li><strong>Configure ROMS according to their system and requirements</strong>.</li>
+</ul>
+
+<p>The authors of C-Xool do <strong>not</strong> distribute or maintain the ROMS source code; ROMS is a well-established, widely recognised ocean modelling system. 
+Please refer to <a href="https://www.myroms.org" target="_blank">myroms.org</a> for official ROMS documentation and downloads.</p>
+
+<hr>
+
+<h3>Authors</h3>
+
+<ul>
+  <li>Carlos Argáez García, LIPC, IINGEN, UNAM (<a href="mailto:cargaezg@iingen.unam.mx">cargaezg@iingen.unam.mx</a>)</li>
+  <li>Simon Klüpfel, Axelyf, Iceland (<a href="mailto:simon.kluepfel@gmail.com">simon.kluepfel@gmail.com</a>)</li>
+  <li>María Eugenia Allende Arandia, LIPC, IINGEN, UNAM (<a href="mailto:mallendea@iingen.unam.mx">mallendea@iingen.unam.mx</a>)</li>
+  <li>Christian Mario Appendini Albrechtsen, LIPC, IINGEN, UNAM (<a href="mailto:cappendinia@iingen.unam.mx">cappendinia@iingen.unam.mx</a>)</li>
+</ul>
+
+<p>For questions, bugs, suggestions, or just greetings, contact:<br>
+<strong>cargaezg@iingen.unam.mx</strong></p>
+
+</body>
+</html>
