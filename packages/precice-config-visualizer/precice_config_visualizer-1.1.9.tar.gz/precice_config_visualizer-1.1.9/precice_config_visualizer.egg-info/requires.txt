@@ -1,0 +1,6 @@
+lxml
+pydot
+typing_extensions
+
+[gui]
+precice-config-visualizer-gui
