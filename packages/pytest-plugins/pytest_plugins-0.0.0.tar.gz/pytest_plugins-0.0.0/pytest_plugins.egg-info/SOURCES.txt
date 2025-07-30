@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pytest_plugins/__init__.py
+pytest_plugins.egg-info/PKG-INFO
+pytest_plugins.egg-info/SOURCES.txt
+pytest_plugins.egg-info/dependency_links.txt
+pytest_plugins.egg-info/requires.txt
+pytest_plugins.egg-info/top_level.txt
