@@ -1,0 +1,7 @@
+pydantic>=2.0
+rich>=13.0
+pyyaml>=6.0
+opentelemetry-sdk>=1.20
+opentelemetry-exporter-otlp>=1.20
+openai>=1.0
+click>=8.0

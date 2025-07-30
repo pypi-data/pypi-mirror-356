@@ -1,0 +1,182 @@
+id: web_scraping_analysis
+metadata:
+  description: "Web scraping and competitive analysis workflow"
+  author: "TaskCrew Examples"
+  version: "1.0"
+  estimated_duration: "2-3 hours"
+
+steps:
+  # Phase 1: Setup and Discovery
+  - id: identify_targets
+    prompt: "Identify top 5 competitor websites to analyze for pricing and features"
+    tools:
+      - web_search
+      - market_research
+    dependencies: []
+    metadata:
+      phase: discovery
+      priority: high
+      output_type: competitor_list
+
+  - id: analyze_structure
+    prompt: "Analyze website structure and identify data extraction points for each competitor"
+    tools:
+      - web_browser
+      - html_parser
+    dependencies:
+      - identify_targets
+    metadata:
+      phase: discovery
+      estimated_duration: 30min
+
+  # Phase 2: Data Collection (Parallel Execution)
+  - id: scrape_pricing
+    prompt: "Extract pricing information from all competitor websites"
+    tools:
+      - web_scraper
+      - data_extraction
+    dependencies:
+      - analyze_structure
+    max_retries: 5
+    metadata:
+      phase: collection
+      data_type: pricing
+      respect_robots_txt: true
+
+  - id: scrape_features
+    prompt: "Extract product features and specifications from competitor websites"
+    tools:
+      - web_scraper
+      - data_extraction
+    dependencies:
+      - analyze_structure
+    max_retries: 5
+    metadata:
+      phase: collection
+      data_type: features
+
+  - id: scrape_reviews
+    prompt: "Extract customer reviews and ratings if available"
+    tools:
+      - web_scraper
+      - sentiment_analysis
+    dependencies:
+      - analyze_structure
+    max_retries: 3
+    metadata:
+      phase: collection
+      data_type: reviews
+      optional: true
+
+  # Phase 3: Data Processing
+  - id: clean_data
+    prompt: "Clean and standardize all scraped data, handle missing values"
+    tools:
+      - python_code
+      - data_cleaning
+    dependencies:
+      - scrape_pricing
+      - scrape_features
+      - scrape_reviews
+    metadata:
+      phase: processing
+      critical: true
+
+  - id: validate_data
+    prompt: "Validate data quality and completeness, flag any issues"
+    tools:
+      - data_validation
+      - python_code
+    dependencies:
+      - clean_data
+    metadata:
+      phase: processing
+      output_type: validation_report
+
+  # Phase 4: Analysis
+  - id: pricing_analysis
+    prompt: "Analyze pricing strategies across competitors, identify patterns and outliers"
+    tools:
+      - statistical_analysis
+      - data_visualization
+    dependencies:
+      - validate_data
+    metadata:
+      phase: analysis
+      analysis_type: pricing
+
+  - id: feature_comparison
+    prompt: "Create comprehensive feature comparison matrix across all competitors"
+    tools:
+      - data_analysis
+      - comparison_tools
+    dependencies:
+      - validate_data
+    metadata:
+      phase: analysis
+      analysis_type: features
+
+  - id: market_positioning
+    prompt: "Analyze market positioning based on price-feature relationships"
+    tools:
+      - strategic_analysis
+      - data_visualization
+    dependencies:
+      - pricing_analysis
+      - feature_comparison
+    metadata:
+      phase: analysis
+      analysis_type: strategic
+
+  # Phase 5: Reporting
+  - id: create_visualizations
+    prompt: "Create charts and graphs showing pricing trends, feature comparisons, and market positioning"
+    tools:
+      - data_visualization
+      - chart_generation
+    dependencies:
+      - pricing_analysis
+      - feature_comparison
+      - market_positioning
+    metadata:
+      phase: reporting
+      output_type: visualizations
+
+  - id: generate_insights
+    prompt: "Generate key insights and strategic recommendations based on analysis"
+    tools:
+      - insight_generation
+      - python_code
+    dependencies:
+      - market_positioning
+    metadata:
+      phase: reporting
+      output_type: insights
+
+  - id: create_report
+    prompt: "Create comprehensive competitive analysis report with executive summary"
+    tools:
+      - report_generator
+      - document_creation
+    dependencies:
+      - create_visualizations
+      - generate_insights
+    metadata:
+      phase: reporting
+      output_type: final_report
+      deliverable: true
+
+  - id: export_data
+    prompt: "Export all data and analysis results in multiple formats (CSV, JSON, Excel)"
+    tools:
+      - data_export
+      - file_operations
+    dependencies:
+      - create_report
+    metadata:
+      phase: reporting
+      output_type: data_export
+      formats:
+        - csv
+        - json
+        - xlsx
