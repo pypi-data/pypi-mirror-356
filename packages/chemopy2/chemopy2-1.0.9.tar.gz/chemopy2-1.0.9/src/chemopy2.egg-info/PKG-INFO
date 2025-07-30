@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: chemopy2
+Version: 1.0.9
+Summary: "A Python library calculating molecular descriptors."
+Home-page: https://github.com/OlivierBeq/chemopy
+Download-URL: https://github.com/OlivierBeq/chemopy/releases
+Author: "Dongsheng Cao, Yizeng Liang"
+Author-email: "oriental-cds@163.com"
+Maintainer: "Olivier J. M. Béquignon"
+Maintainer-email: "olivier.bequignon.maintainer@gmail.com"
+License: GNU General Public License v3
+Project-URL: Bug Tracker, https://github.com/OlivierBeq/chemopy/issues
+Project-URL: Source Code, https://github.com/OlivierBeq/chemopy
+Keywords: chemopy,cheminformatics,molecular descriptors,molecular fingerprints,QSAR,snekpack,cookiecutter
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Framework :: tox
+Classifier: Framework :: Sphinx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: more-itertools
+Requires-Dist: natsort
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: rdkit>=2023.3.1
+Requires-Dist: mhfp
+Requires-Dist: map4-ojmb==1.0
+Requires-Dist: bounded-pool-executor
+Requires-Dist: e3fp
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: coverage; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx<7; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints; extra == "docs"
+Requires-Dist: sphinx_automodapi; extra == "docs"
+Dynamic: download-url
+Dynamic: license-file
