@@ -1,0 +1,64 @@
+from typing import Optional, Dict, Any, List
+from datetime import datetime
+from pydantic import BaseModel, Field, EmailStr, ConfigDict, field_validator
+
+class UserAuth(BaseModel):
+    """Comprehensive authentication model for user credentials and auth operations"""
+    model_config = ConfigDict(extra="forbid")
+
+    # Core authentication fields
+    email: EmailStr = Field(..., description="User's email address")
+    password: Optional[str] = Field(None, min_length=6, description="User's password (for creation/update only)")
+
+    # Firebase Auth specific fields
+    firebase_uid: Optional[str] = Field(None, description="Firebase Auth UID")
+    provider_id: str = Field(default="password", description="Authentication provider ID")
+    email_verified: bool = Field(default=False, description="Whether email is verified")
+    disabled: bool = Field(default=False, description="Whether user account is disabled")
+
+    # Multi-factor authentication
+    mfa_enabled: bool = Field(default=False, description="Whether MFA is enabled")
+    phone_number: Optional[str] = Field(None, description="Phone number for SMS MFA")
+
+    # Custom claims and metadata
+    custom_claims: Dict[str, Any] = Field(default_factory=dict, description="Firebase custom claims")
+    metadata: Dict[str, Any] = Field(default_factory=dict, description="Additional authentication metadata")
+
+    # Provider data
+    provider_data: List[Dict[str, Any]] = Field(default_factory=list, description="Provider-specific data")
+
+    # Account management
+    created_at: Optional[datetime] = Field(None, description="Account creation timestamp")
+    last_sign_in: Optional[datetime] = Field(None, description="Last sign-in timestamp")
+    last_refresh: Optional[datetime] = Field(None, description="Last token refresh timestamp")
+
+    # Password management
+    password_hash: Optional[str] = Field(None, description="Password hash (internal use only)")
+    password_salt: Optional[str] = Field(None, description="Password salt (internal use only)")
+    valid_since: Optional[datetime] = Field(None, description="Timestamp since when tokens are valid")
+
+    @field_validator('phone_number')
+    @classmethod
+    def validate_phone_number(cls, v: Optional[str]) -> Optional[str]:
+        """Validate phone number format if provided"""
+        if v is None:
+            return v
+        # Basic E.164 format validation
+        if not v.startswith('+') or not v[1:].isdigit() or len(v) < 8 or len(v) > 16:
+            raise ValueError('Phone number must be in E.164 format (+1234567890)')
+        return v
+
+    @field_validator('custom_claims')
+    @classmethod
+    def validate_custom_claims(cls, v: Dict[str, Any]) -> Dict[str, Any]:
+        """Validate custom claims don't contain reserved Firebase claims"""
+        reserved_claims = {
+            'iss', 'aud', 'auth_time', 'user_id', 'sub', 'iat', 'exp', 'email',
+            'email_verified', 'phone_number', 'name', 'picture', 'firebase'
+        }
+
+        for claim in v.keys():
+            if claim in reserved_claims:
+                raise ValueError(f'Custom claim "{claim}" is reserved by Firebase')
+
+        return v
