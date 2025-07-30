@@ -1,0 +1,37 @@
+[project]
+name = "llmpy-lib"
+version = "0.0.8"
+authors = [{ name = "Angelo Zangari", email = "angelo.zangari10@gmail.com" }]
+description = "Easily interact with all main LLMs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "google-genai",
+    "groq",
+    "llmpy-models",
+    "openai",
+    "python-dotenv",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE*"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/llmpy"
+Issues = "https://github.com/yourusername/llmpy/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llmpy"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
