@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: operacionesmarlon
+Version: 0.1.0
+Summary: libreria de operaciones básicas
+Author: Marlon García
+License: UdeA
+Requires-Python: >=3.11.13
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# Mi primera libreria
+
+Libreria de testeo
+
+## Contact
+Marlon
