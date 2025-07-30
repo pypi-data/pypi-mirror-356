@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+pydepguardnext/__init__.py
+pydepguardnext.egg-info/PKG-INFO
+pydepguardnext.egg-info/SOURCES.txt
+pydepguardnext.egg-info/dependency_links.txt
+pydepguardnext.egg-info/top_level.txt
