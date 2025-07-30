@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "infretis"
+version = "2025.4"
+description = "Infinite swapping parallel RETIS"
+authors = [
+    "Daniel Zhang <daniel.t.zhang@ntnu.no>",
+    "Lukas Baldauf <lukas.baldauf@ntnu.no>",
+    "Anders Lervik <andersle@gmail.com>",
+    "Titus Sebastiaan van Erp <titus.van.erp@ntnu.no>"
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.12,<3.14"
+numpy = "^1.21.2"
+tomli = "^2.0.1"
+tomli-w = "^1.0.0"
+ase = "^3.20.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.282"
+black = "^23.7.0"
+mypy = "^1.4.1"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+jupyter-black = "^0.3.4"
+flake8 = "^6.1.0"
+pytest-randomly = "^3.13.0"
+pre-commit = "^3.3.3"
+
+[tool.ruff]
+line-length = 79
+select = ["F", "E", "W", "I001", "UP"]
+ignore-init-module-imports = true
+target-version = "py38"
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.black]
+line-length = 79
+target-version = ["py310", "py311", "py312"]
+
+[tool.mypy]
+warn_unused_ignores = true
+ignore_missing_imports = true
+show_error_codes = true
+plugins = "numpy.typing.mypy_plugin"
+
+[[tool.mypy.overrides]]
+module = ["tomli"]
+ignore_missing_imports = true
+
+[tool.poetry.scripts]
+infretisrun = "infretis.bin:infretisrun"
+
+[tool.pytest.ini_options]
+markers = [
+    "heavy: mark test as heavy.",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
