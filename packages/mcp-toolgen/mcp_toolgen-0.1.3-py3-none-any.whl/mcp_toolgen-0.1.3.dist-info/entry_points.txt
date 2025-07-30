@@ -1,0 +1,2 @@
+[console_scripts]
+mcp_toolgen = mcp_toolgen.mcp_toolgen:_cli
