@@ -1,0 +1,13 @@
+speak/__init__.py,sha256=mnoWW94bQ5dFczXP3aeyVJfG9Q7vooirCMkLAt_J4a4,209
+speak/_suppress_warnings.py,sha256=Lc3XKLLj1FbibJfRAPZnV8iH79m_8xPKRvWAjNwE4cA,1940
+speak/_version.py,sha256=wO7XWlZte1hxA4mMvRc6zhNdGm74Nhhn2bfWRAxaKbI,511
+speak/cli.py,sha256=tB2oslY3w4Ciasr1ywbK-k3hmg0HHNLfrtDLqhIN6f8,5552
+speak/core.py,sha256=qoDtqHm3Zxlcsple_fgA9a9PaJ3Ak9O61w4RIZhEKdU,13040
+speak/glitch_detection.py,sha256=1Bcwc5mK9O5a8ghThk_yMP5g0z7UFUwmuGCzRg1QeTs,8608
+speak/remote_modal.py,sha256=b2r0BdQQarrO9u4ofRaxjApvzdGnzfUKWbeSZ2CcYD0,7107
+speak/transcription.py,sha256=ow50dYCRdTzbklEiGSZbvfX2il_ZL-EVVhBjNS8gkBE,7213
+speaky-0.0.2.dist-info/METADATA,sha256=HMIjt1n4KvRBoU8A481kQbbvcG6MAGhY1mUrjH7gVkQ,3893
+speaky-0.0.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+speaky-0.0.2.dist-info/entry_points.txt,sha256=q-gP7Sfalx4-cA9EZpTXsdpj30Q67rOc7js-1jdmlfE,41
+speaky-0.0.2.dist-info/top_level.txt,sha256=7AHnY_mwyqyGi7-SDoBOytlgZRV8F1aolXRZo2XBjiw,6
+speaky-0.0.2.dist-info/RECORD,,
