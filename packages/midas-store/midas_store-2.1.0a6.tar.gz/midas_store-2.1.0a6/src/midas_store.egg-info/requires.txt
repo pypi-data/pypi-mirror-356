@@ -1,0 +1,6 @@
+midas-mosaik>=2.1.0a4
+mosaik_api
+
+[hdf]
+pandas
+tables
