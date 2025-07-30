@@ -1,0 +1,40 @@
+[project]
+name = "pypertext"
+authors = [{ name = "Asif Rahman" }]
+description = "Pythonic HTML"
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">=3.9"
+keywords = ["HTML", "Web Development"]
+license = { text = "Apache License 2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Environment :: Web Environment",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = ['importlib-metadata; python_version<"3.10"', "typing-extensions"]
+
+# Dev dependencies
+[project.optional-dependencies]
+dev = ["ruff", "ipykernel", "pytest", "pytest-cov", "nbformat"]
+
+# Read the version from the package
+[tool.setuptools.dynamic]
+version = { attr = "pypertext.__version__" }
+
+[tool.setuptools]
+packages = ["pypertext"]
+
+# Linting configuration
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+# Use the setuptools build system
+[build-system]
+requires = ["setuptools", "wheel", "pip"]
+build-backend = "setuptools.build_meta"
