@@ -1,0 +1,2 @@
+[console_scripts]
+ccal = app:main_entry
