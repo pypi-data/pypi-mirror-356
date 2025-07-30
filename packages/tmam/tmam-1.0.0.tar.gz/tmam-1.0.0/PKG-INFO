@@ -1,0 +1,69 @@
+Metadata-Version: 2.3
+Name: tmam
+Version: 1.0.0
+Summary: OpenTelemetry-native Auto instrumentation library for monitoring LLM Applications and GPUs, facilitating the integration of observability into your GenAI-driven projects
+License: Apache-2.0
+Keywords: OpenTelemetry,otel,otlp,llm,tracing,openai,anthropic,claude,cohere,llm monitoring,observability,monitoring,gpt,Generative AI,chatGPT,gpu
+Author: Emad
+Requires-Python: >=3.12.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: anthropic (>=0.49.0,<0.50.0)
+Requires-Dist: boto3 (>=1.37.21,<2.0.0)
+Requires-Dist: botocore (>=1.37.21,<2.0.0)
+Requires-Dist: openai (>=1.68.2,<2.0.0)
+Requires-Dist: opentelemetry-api (>=1.31.1,<2.0.0)
+Requires-Dist: opentelemetry-exporter-otlp (>=1.31.1,<2.0.0)
+Requires-Dist: opentelemetry-instrumentation (>=0.52b1,<0.53)
+Requires-Dist: opentelemetry-sdk (>=1.31.1,<2.0.0)
+Requires-Dist: pydantic (>=2.10.6,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: schedule (>=1.2.2,<2.0.0)
+Requires-Dist: xmltodict (>=0.14.2,<0.15.0)
+Project-URL: Homepage, https://github.com/tmam-dev
+Project-URL: Repository, https://github.com/tmam-dev/tmam-python-sdk
+Description-Content-Type: text/markdown
+
+# 🌟 tmam‑python‑sdk
+
+[![PyPI version](https://img.shields.io/pypi/v/tmam-python-sdk.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+**tmam‑python‑sdk** is an OpenTelemetry-native auto-instrumentation library for GenAI applications—providing seamless observability for Large Language Models (LLMs), GPU workloads, vector databases, and agent-based frameworks. With one line of integration, you can add powerful telemetry to your AI/ML stack.
+
+---
+
+## 🚀 Key Features
+
+- ✅ **Zero-code auto instrumentation** for LLMs, GPUs, vector DBs, and agents
+- 📊 **Traces, metrics, and logs** for LLM prompts, latency, token usage, GPU utilization, and more
+- 🔌 **Simple integration** using a hosted TMAM collector endpoint
+- 📦 **OpenTelemetry-native**, vendor-agnostic support for downstream observability tools
+- 🔍 **Supports popular frameworks** like OpenAI, Hugging Face, LangChain, PyTorch, NVIDIA CUDA, and more
+
+---
+
+## 🧪 Installation
+
+```bash
+pip install tmam
+
+
+
+Quickstart
+
+Add observability to your GenAI application with one line:
+
+import tmam
+
+tmam.init(
+    url="http://api.tmam.ai/api/sdk/v1",
+    public_key="pk-tmam-0edeba2a-f6f3-4efd-982c-412adbb03046",
+    secrect_key="sk-tmam-b320dda9-e36d-4eac-8ac5-4793fd38e002",
+)
+
+# Your LLM or agent code here
+from openai import OpenAI
+# ...
+Once initialized, tmam will auto-instrument supported components and begin sending traces and metrics to TMAM’s backend.
