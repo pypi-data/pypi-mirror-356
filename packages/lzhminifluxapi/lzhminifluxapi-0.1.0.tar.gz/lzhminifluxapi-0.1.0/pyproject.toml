@@ -1,0 +1,24 @@
+[project]
+name = "lzhminifluxapi"
+version = "0.1.0"
+description = "获取`MiniFlux`数据库中对应`site_url`的订阅源中已有的`link`的列表"
+authors = [
+    { name = "lzh", email = "zhhtdm@hotmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "asyncpg"
+]
+
+[project.urls]
+Homepage = "https://github.com/zhhtdm/miniflux-api"
+Repository = "https://github.com/zhhtdm/miniflux-api"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
