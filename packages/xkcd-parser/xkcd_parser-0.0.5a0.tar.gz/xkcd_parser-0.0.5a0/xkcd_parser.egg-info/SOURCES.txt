@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+xkcd_parser/__init__.py
+xkcd_parser/__main__.py
+xkcd_parser/parser.py
+xkcd_parser/py.typed
+xkcd_parser.egg-info/PKG-INFO
+xkcd_parser.egg-info/SOURCES.txt
+xkcd_parser.egg-info/dependency_links.txt
+xkcd_parser.egg-info/entry_points.txt
+xkcd_parser.egg-info/requires.txt
+xkcd_parser.egg-info/top_level.txt
