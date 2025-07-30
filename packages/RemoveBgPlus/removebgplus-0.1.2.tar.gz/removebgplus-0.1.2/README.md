@@ -1,0 +1,34 @@
+RemoveBgPlus is a lightweight Python wrapper for the remove.bg API, allowing you to remove image backgrounds using local files, URLs, or base64 input.
+
+## Installation
+
+```bash
+pip install RemoveBgPlus
+```
+
+## Usage
+
+```python
+import removebgplus
+
+client = removebgplus.RemoveBg("your-api-key")
+
+# From file
+client.remove_from_file("input.jpg", "output_from_file.png")
+
+# From URL
+client.remove_from_url("https://example.com/image.jpg", "output_from_url.png")
+
+# From base64 string
+base64_string = "iVBORw0KGgoAAAANSUhEUgAAAAUA..."  # must be a valid image base64 string
+client.remove_from_base64(base64_string, "output_from_base64.png")
+```
+
+## Features
+
+- Supports file, URL, and base64 input
+- Customizable output path (overwrites if not provided)
+
+## License
+
+MIT
