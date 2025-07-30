@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+mr_z3r0_calculator.egg-info/PKG-INFO
+mr_z3r0_calculator.egg-info/SOURCES.txt
+mr_z3r0_calculator.egg-info/dependency_links.txt
+mr_z3r0_calculator.egg-info/top_level.txt
+test/test_001_basic.py
