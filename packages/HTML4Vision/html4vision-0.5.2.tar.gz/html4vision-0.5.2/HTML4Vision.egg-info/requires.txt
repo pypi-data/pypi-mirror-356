@@ -1,0 +1,6 @@
+Flask
+dominate
+Pillow
+
+[:python_version < "3.2"]
+futures
