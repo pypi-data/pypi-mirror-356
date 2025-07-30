@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: ml_lab_shreyy
+Version: 1.0.1
+Summary: ML Lab Programs as Python Package
+Author-email: Shreyas <ishreyasr@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ishreyasr/ml_lab_shreyy
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
