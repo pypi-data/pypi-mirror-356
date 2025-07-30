@@ -1,0 +1,2 @@
+[console_scripts]
+tick-analysis = tick_delay_analysis.scripts.run_analysis:main
