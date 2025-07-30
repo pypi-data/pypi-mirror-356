@@ -1,0 +1,18 @@
+[project]
+name = "xmcp-server-outlook"
+version = "0.1.1"
+description = "Outlook操作MCP。主要是发邮箱和操作日历。"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask>=3.1.1",
+    "mcp[cli]>=1.9.4",
+    "pywin32>=310",
+]
+
+[project.scripts]
+xmcp-server-outlook = "xmcp_server_outlook:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
