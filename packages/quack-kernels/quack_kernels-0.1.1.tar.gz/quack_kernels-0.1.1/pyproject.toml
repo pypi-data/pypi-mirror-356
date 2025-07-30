@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quack-kernels"
+dynamic = ["version"]
+requires-python = ">=3.9"
+dependencies = [
+    "nvidia-cutlass-dsl==4.0.0",
+    "torch",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "benchmarks"]
+
+[tool.setuptools.dynamic]
+version = {attr = "quack.__version__"}

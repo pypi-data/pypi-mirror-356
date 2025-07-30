@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: quack-kernels
+Version: 0.1.1
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: nvidia-cutlass-dsl==4.0.0
+Requires-Dist: torch
+Dynamic: license-file
