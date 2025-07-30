@@ -1,0 +1,15 @@
+shen/__init__.py,sha256=p1-EHuz7oWfWxLWAppMK893WUqxyqZBVIu95bISDEac,226
+shen/cli.py,sha256=4JrR1Ovp3HRUrAMVmp2O5a4kG3U_PFw1mMxtyX71sM0,2959
+shen/core/__init__.py,sha256=yU7q9qwNhi8UZXov4CSOf6iOCOCPXft1VKkV_oiZJZ4,207
+shen/core/app.py,sha256=y244A36v_uLDwPajYPNxuvxS1vMNzftwkU2pIccUAqc,2834
+shen/core/config.py,sha256=5G85ltYqZbl8Y4KK4aHymFRLkOSa_MJSb42Vkw456_s,2590
+shen/core/plugin_manager.py,sha256=aU0NOh_KIQE8_zj-Oq5ItjVr5DDWrsiF1MZvLnwt4y4,2450
+shen/mcp/__init__.py,sha256=Wua9P34PXRtl8vJ-aDdiw0W_GsQCtuQ3mivQgZf6_EE,57
+shen/plugins/__init__.py,sha256=zgQtrH3OHuGRCq3Uq8QZQpWzeUJlBfKRy7lFIip-Z0c,28
+shen/utils/__init__.py,sha256=f-2TlgIGGNPPQNDrs7cEO4M9LDc6YOkT7Yi77X10jJE,135
+shen/utils/logging.py,sha256=ykqDy_P0iu-4PFyUY8cZBNnLRqtrsPid7avmtqTLSAE,923
+shen_cli-0.0.0b0.dist-info/LICENSE,sha256=vaWMAnLp7Sk1YdJ33eOYEUqXdX2uZm1AV2oaiJ2lENI,1068
+shen_cli-0.0.0b0.dist-info/METADATA,sha256=exW2lwjJg1cabCzego1si3zbjuHN23MQZdmNZpbemmA,4890
+shen_cli-0.0.0b0.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+shen_cli-0.0.0b0.dist-info/entry_points.txt,sha256=3VAIB7tWkft2bMKuIbkAvBREsRGRZUwZf_5zzGLHq5E,38
+shen_cli-0.0.0b0.dist-info/RECORD,,

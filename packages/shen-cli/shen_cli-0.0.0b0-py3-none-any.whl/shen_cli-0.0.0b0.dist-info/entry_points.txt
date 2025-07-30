@@ -1,0 +1,3 @@
+[console_scripts]
+shen=shen.cli:main
+
