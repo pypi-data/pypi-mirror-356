@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: dialog-workflow-local
+Version: 0.0.128
+Summary: PyPI Package for dialog workflow
+Home-page: https://github.com/circles-zone/dialog-workflow-local-python-package
+Author: Circles
+Author-email: info@circlez.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: database-mysql-local
+Requires-Dist: language-remote
+Requires-Dist: logger-local
+Requires-Dist: message-local
+Requires-Dist: variable-local
+Requires-Dist: python-sdk-remote
+Requires-Dist: user-context-remote
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+This is a package for running the dialog workflow
