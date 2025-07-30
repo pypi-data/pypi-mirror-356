@@ -1,0 +1,149 @@
+Metadata-Version: 2.4
+Name: kmcpy
+Version: 0.1.1
+Summary: Kinetic Monte Carlo Simulation using Python (kMCpy)
+Author-email: kMCpy Development Team <dengzeyu@gmail.com>
+Maintainer-email: Zeyu Deng <dengzeyu@gmail.com>, Weihang Xie <david.xie1998@gmail.com>, Pieremanuele Canepa <pieremanuele.canepa@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2021 Caneparesearch
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/caneparesearch/kmcpy
+Project-URL: Repository, https://github.com/caneparesearch/kmcpy
+Project-URL: Issues, https://github.com/caneparesearch/kmcpy/issues
+Project-URL: Documentation, https://kmcpy.readthedocs.io/
+Keywords: kinetic monte carlo,kmc,simulation,materials science,condensed matter physics,chemistry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: glob2>=0.7
+Requires-Dist: joblib>=1.5.1
+Requires-Dist: numba>=0.61.2
+Requires-Dist: pymatgen>=2025.5.2
+Requires-Dist: scikit-learn>=1.6.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: sphinx>=7.0; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: nbsphinx; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: tqdm; extra == "doc"
+Requires-Dist: psutil; extra == "doc"
+Dynamic: license-file
+
+# Kinetic Monte Carlo Simulation using Python (kMCpy)
+![image](https://raw.githubusercontent.com/caneparesearch/kMCpy/master/docs/source/_static/kmcpy_logo.png)
+- Author: Zeyu Deng
+- Email: dengzeyu@gmail.com
+
+kMCpy is an open source python based package intended to study the migration of atoms using the kinetic Monte Carlo technique. kMCpy provides an all python, systematic way to compute kinetic properties, which can be readily used for investigation, development, and prediction of new functional materials. 
+
+This package includes a local cluster expansion model toolkit, a rejection-free kinetic Monte Carlo (rf-kMC) solver, and several python classes to extract ion transport properties such as diffusivities and conductivities. 
+
+The local cluster expansion model toolkit can be used to fit a model from barrier calculated from first-principles or any other empirical methods. Following the training process the local cluster expansion model can compute migration barriers in crystalline materials within the transition state theory.
+
+Some of the advantages of using this package are:
+
+1. kMCpy is fully based on python and is modular which makes it developer centric thus facilitating quick addition of new features.
+
+2. It is cross-platform and supports most operating systems such as Windows, macOS, and Linux.
+
+3. Intensive kMC routines has been optimized into machine code in the fly using Numba (https://numba.pydata.org), which results in manifold increase in performance. 
+
+
+This code has been recently used to explore the transport properties of Na-ion in NaSICON solid electrolyte (https://www.nature.com/articles/s41467-022-32190-7).
+Some of the relevant aspects of the code from the mentioned paper are shown below. 
+
+The rf-kMC as a part of this code was used to model the Na-ion conductivity in the $\mathrm{Na_{1+x}Zr_{2}Si_{x}P_{3-x}O_{12}}$ which led to the discovery of maximum conductivity of the solid electrolyte is achieved for Na=3.4.
+
+![image](https://raw.githubusercontent.com/caneparesearch/kMCpy/master/docs/source/_static/computed_conductivity.png)
+
+   Calculated Na+ diffusivity (a), conductivity (b), Haven's ratio (c) and averaged correlation factor (d) of $\mathrm{Na_{1+x}Zr_{2}Si_{x}P_{3-x}O_{12}}$ at several temperatures: 373 (dark blue circles), 473 (orange squares) and 573 (red triangles) K, respectively. In panel (b), the computed ionic conductivities are compared with the experimental values of this work (Supplementary Fig. 6) at selected temperatures. Experimental values in (b) from this work are depicted with light blue (373 K), yellow (473 K), and red (573 K) crosses belonging to the same $\mathrm{Na_{1+x}Zr_{2}Si_{x}P_{3-x}O_{12}}$ compositions but of pellets with different compacities (>70 and >90%, see legend).
+
+# Installation
+## Prerequisite
+Check `pyproject.toml` for the required packages. The following Python packages are required to run kMCpy:
+- pymatgen: **Windows users need to install Microsoft C++ build tools (https://visualstudio.microsoft.com/visual-cpp-build-tools/) to compile pymatgen.**
+- numba: for fast computation of kMCpy routines
+- scikit-learn: for fitting local cluster expansion model
+- pytest: for unit tests
+- joblib
+- glob2
+
+> **⚠️ Warning for Windows users:**  
+> You need to install [Microsoft C++ build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to compile `pymatgen`.
+
+## Command line environment
+It is highly recommended to install kMCpy using [UV](https://docs.astral.sh/uv/getting-started/installation/) and use it with virtual environment.
+
+```shell
+uv venv #optional if you have already created a venv
+source .venv/bin/activate
+uv sync
+uv pip install .
+```
+
+## For developers 
+```shell
+uv venv #optional if you have already created a venv
+source .venv/bin/activate
+uv sync --extra dev
+uv pip install -e .
+```
+
+## Graphic user interface (GUI)
+`wxpython` needs `conda` to be installed.
+```shell
+conda create -n kmcpy python wxpython -c conda-forge
+conda activate kmcpy
+pip install -r requirement_gui.txt .
+```
+
+## Build documentation
+- Documentation is built using `pandoc` and `sphinx-build`.
+- You can access the documentation from: `./docs/html/index.html`.
+```shell
+source .venv/bin/activate
+uv sync --extra doc
+python build_doc.py
+```
+
+# Run kMCpy
+It is recommended to run kMCpy using the API. See examples for more details. A wrapper is also provided if you want to run kMCpy through command line only. 
+
+- If GUI enabled: try `pythonw gui_wrapper.py` or `python gui_wrapper`
+- If GUI not enabled: `wrapper.py PATH_TO_INPUT.json`
