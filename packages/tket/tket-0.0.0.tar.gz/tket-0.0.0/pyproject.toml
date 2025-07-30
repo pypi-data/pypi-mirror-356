@@ -1,0 +1,17 @@
+[project]
+name = "tket"
+version = "0.0.0"
+description = "TKET compiler"
+readme = "README.md"
+authors = [
+    { name = "Seyon Sivarajah", email = "seyon.sivarajah@quantinuum.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+tket = "tket:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
