@@ -1,0 +1,65 @@
+[project]
+name = "addgene-mcp"
+version = "0.1.3"
+description = "MCP for Addgene - Plasmid Repository API"
+readme = "README.md"
+authors = [
+    { name = "antonkulaga", email = "antonkulaga@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "eliot>=1.17.5",
+    "pycomfort>=0.0.18",
+    "fastmcp>=2.8.1",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "pydantic>=2.8.2",
+    "tenacity>=8.5.0",
+    "scrapy>=2.11.2",
+    "scrapy-splash>= 0.11.1",
+    "uc-micro-py",
+    "uvicorn>=0.30.1",
+    "python-dotenv",
+    "pytest",
+    "pytest-asyncio",
+    "requests",
+]
+
+[project.scripts]
+addgene-mcp = "addgene_mcp.server:app"
+server = "addgene_mcp.server:server_app"
+stdio = "addgene_mcp.server:stdio_app"
+sse = "addgene_mcp.server:sse_app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/addgene_mcp"]
+
+[tool.hatch.build]
+exclude = [
+    "*.log",
+    "logs/",
+    "images/",
+    ".venv/",
+    ".pytest_cache/",
+    "test/",
+    "*.db",
+    "temp*.sqlite*",
+    "test*.sqlite*",
+    "debug*.sqlite*",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "pytest-asyncio>=0.26.0",
+    "pytest-httpx>=0.35.0",
+    "pytest-mock>=3.14.1",
+    "ruff>=0.12.0",
+    "just-agents>=0.4.7",
+    "typer>=0.12.0",
+    "just-agents-core>=0.7.4",
+] 
