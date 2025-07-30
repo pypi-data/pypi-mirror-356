@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+MoaM/__init__.py
+MoaM.egg-info/PKG-INFO
+MoaM.egg-info/SOURCES.txt
+MoaM.egg-info/dependency_links.txt
+MoaM.egg-info/requires.txt
+MoaM.egg-info/top_level.txt
