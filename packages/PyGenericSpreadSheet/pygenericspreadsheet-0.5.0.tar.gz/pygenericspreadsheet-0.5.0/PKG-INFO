@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: PyGenericSpreadSheet
+Version: 0.5.0
+Dynamic: Summary
+Project-URL: Home, https://github.com/WolfgangFahl/PyGenericSpreadSheet/
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/PyGenericSpreadSheet
+Project-URL: Source, https://github.com/WolfgangFahl/PyGenericSpreadSheet/
+Author-email: Wolfgang Fahl <wf@bitplan.com>
+Maintainer-email: Wolfgang Fahl <wf@bitplan.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.10
+Requires-Dist: gspread>=6.0.2
+Requires-Dist: odfpy>=1.4.1
+Requires-Dist: openpyxl>=3.1.2
+Requires-Dist: pandas>=2.2.1
+Requires-Dist: py-ez-wikidata>=0.3.1
+Requires-Dist: pylodstorage>=0.16.4
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: xlsxwriter>=3.2.0
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Description-Content-Type: text/markdown
+
+# PyGenericSpreadSheet
+Generic Spreadsheet Editing API
+
+[![pypi](https://img.shields.io/pypi/pyversions/PyGenericSpreadSheet)](https://pypi.org/project/PyGenericSpreadSheet/)
+[![Github Actions Build](https://github.com/WolfgangFahl/PyGenericSpreadSheet/actions/workflows/build.yml/badge.svg)](https://github.com/WolfgangFahl/PyGenericSpreadSheet/actions/workflows/build.yml)
+[![PyPI Status](https://img.shields.io/pypi/v/PyGenericSpreadSheet.svg)](https://pypi.python.org/pypi/PyGenericSpreadSheet/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/PyGenericSpreadSheet.svg)](https://github.com/WolfgangFahl/PyGenericSpreadSheet/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/PyGenericSpreadSheet.svg)](https://github.com/WolfgangFahl/PyGenericSpreadSheet/issues/?q=is%3Aissue+is%3Aclosed)
+[![API Docs](https://img.shields.io/badge/API-Documentation-blue)](https://WolfgangFahl.github.io/PyGenericSpreadSheet/)
+[![License](https://img.shields.io/github/license/WolfgangFahl/PyGenericSpreadSheet.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Documentation
+[Wiki](http://wiki.bitplan.com/index.php/PyGenericSpreadSheet)
+
+## Dockerize
+``` bash
+docker build -t pygenericspreadsheet -f .\Dockerfile .
+```
+``` bash
+docker run --rm -it -v ${PWD}:"/mnt" -w "/mnt" pygenericspreadsheet /bin/bash
+```
+
+### Authors
+* [Tim Holzheim](https://www.semantic-mediawiki.org/wiki/Tim_Holzheim)
+* [Wolfgang Fahl](http://www.bitplan.com/Wolfgang_Fahl)
+* [Michal Slupczynski](https://dbis.rwth-aachen.de/dbis/index.php/user/slupczynskim/)
