@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+df_compress/__init__.py
+df_compress/df_compress.py
+df_compress.egg-info/PKG-INFO
+df_compress.egg-info/SOURCES.txt
+df_compress.egg-info/dependency_links.txt
+df_compress.egg-info/requires.txt
+df_compress.egg-info/top_level.txt
