@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "nqrduck-spectrometer-limenqr"
+version = "0.0.9"
+authors = [
+  { name="jupfi", email="support@nqrduck.cool" },
+]
+
+description = "A submodule for the nqrduck-spectrometer module which implements the functionality for the LimeNQR spectrometer."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+
+dependencies = [
+    "limedriver",
+    "nqrduck-spectrometer",
+    "pyqt6",
+    "h5py",
+    "pyserial",
+    "quackseq-limenqr",
+]
+
+[project.entry-points."nqrduck"]
+"nqrduck-spectrometer-limenqr" = "nqrduck_spectrometer_limenqr.limenqr:LimeNQR"
+
+[tool.ruff]
+exclude = [
+  "widget.py",
+]
+
+[tool.ruff.lint]
+extend-select = [
+  "UP",  # pyupgrade
+  "D",   # pydocstyle
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[project.urls]
+"Homepage" = "https://nqrduck.cool"
+"Bug Tracker" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer-limenqr/issues"
+"Source Code" = "https://git.private.coffee/nqrduck/nqrduck-spectrometer-limenqr"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nqrduck_spectrometer_limenqr"]
