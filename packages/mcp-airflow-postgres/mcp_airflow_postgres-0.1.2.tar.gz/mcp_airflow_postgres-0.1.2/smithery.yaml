@@ -1,0 +1,17 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - DATABASE_URL
+    properties:
+      DATABASE_URL:
+        type: string
+        description: The database connection URL.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['src/server.py'], env: { DATABASE_URL: config.DATABASE_URL } })
