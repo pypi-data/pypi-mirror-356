@@ -1,0 +1,70 @@
+name: VorTECHsa/uhura/main
+on:
+  push:
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: "pip"
+      - run: pip install '.[test]'
+      - name: Lint
+        run: |
+          black --check uhura
+          black --check tests
+          flake8 --verbose uhura
+          flake8 --verbose tests
+
+  testing:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python_version: ["3.8", "3.9", "3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4.1.0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python_version }}
+          cache: "pip"
+      - run: pip install '.[test]'
+      - name: Run tests
+        run: pytest -vv --cov=uhura --cov-report=xml tests
+      - uses: codecov/test-results-action@v1
+        with:
+          fail_ci_if_error: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      - uses: codecov/codecov-action@v5
+        with:
+          fail_ci_if_error: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    needs:
+      - linting
+
+  publish:
+    if: startsWith(github.event.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: "pip"
+      - run: pip install '.[build]'
+      - name: Package
+        run: python setup.py sdist
+        env:
+          BUILD_VERSION: ${{ github.ref_name }}
+      - name: Publish to pipy
+        env:
+          TWINE_USERNAME: '__token__'
+          TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
+        run: |
+          twine check dist/*
+          twine upload dist/*
+    needs:
+      - testing

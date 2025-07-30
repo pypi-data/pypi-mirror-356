@@ -1,0 +1,28 @@
+---
+codecov:
+  # Don't wait for CI since we have approval tasks
+  require_ci_to_pass: false
+  notify:
+    wait_for_ci: false
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+    patch:
+      default:
+        target: 90%
+        threshold: 1%
+  precision: 2
+  round: down
+  range: '70...100'
+
+comment:
+  layout: 'header,reach,diff,flags,files,footer'
+  behavior: default
+  require_changes: true
+
+github_checks:
+  annotations: false
