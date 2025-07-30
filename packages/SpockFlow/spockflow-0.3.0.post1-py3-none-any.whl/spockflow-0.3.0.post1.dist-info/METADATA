@@ -1,0 +1,152 @@
+Metadata-Version: 2.4
+Name: SpockFlow
+Version: 0.3.0.post1
+Summary: Everything you could ever dream of
+Author-email: Sholto Armstrong <sjnarmstrong@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Capitec
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sf-hamilton>=1.56.0
+Requires-Dist: pydantic>=2.5.2
+Requires-Dist: pydantic_settings>=2.2.1
+Requires-Dist: cachetools>=5.3.3
+Requires-Dist: treelite>=4.2.0
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: coverage[toml]; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: versioneer; extra == "dev"
+Provides-Extra: parsers
+Requires-Dist: jsonpath-ng==1.6.0; extra == "parsers"
+Provides-Extra: webapp
+Requires-Dist: fastapi>=0.104.1; extra == "webapp"
+Requires-Dist: uvicorn>=0.24.0.post1; extra == "webapp"
+Requires-Dist: gunicorn>=21.2.0; extra == "webapp"
+Provides-Extra: yaml
+Requires-Dist: PyYAML>=5.0; extra == "yaml"
+Dynamic: license-file
+
+# DSP Decision Engine
+
+[![Python Version](https://img.shields.io/badge/python-%3E%3D3.8-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+**SpockFlow** is a Python framework designed to create standalone micro-services that enrich data with actionable outputs. It supports both batch and live inference modes, and extends existing frameworks to simplify data flows, including policy rules and scoring. Leveraging Hamilton for traceability, SpockFlow provides a powerful, modular approach for data enrichment and model deployment.
+
+## Table of Contents
+
+- [Introduction](docs/intro.md)
+- [Installation](docs/getting_started/install.md)
+- [Concepts](docs/concepts/index.md)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+SpockFlow is built to be extensible and modular, allowing the reuse of pipelines and configurations across multiple data flows. Its emphasis on runtime traceability and explainability is empowered by Hamilton, which helps track and visualize data lineage and identify process steps leading to specific outcomes.
+
+![Example Pipeline](./docs/_static/getting-started/example_pipeline.drawio.svg)
+
+For a more detailed introduction, see [Introduction](docs/main.rst).
+
+## Installation
+
+To get started with SpockFlow, you need to install the required dependencies. Follow the instructions in the [Installation Guide](docs/getting_started/install.md) to set up your environment.
+
+```bash
+pip install spockflow[all]
+```
+
+## Concepts
+
+Explore the foundational principles and components of SpockFlow in the [Concepts](docs/concepts/index.md) section. This guide covers:
+
+- **Decision Trees**: Automate decision-making processes based on defined conditions.
+- **Decision Tables**: Map input values to outputs based on conditions.
+- **Score Cards**: Assign scores to entities based on parameters.
+- **API Customization**: Customize and extend SpockFlow functionalities.
+
+## Usage Examples
+
+Here are some examples of how to use SpockFlow:
+
+### Decision Trees
+
+Create and use decision trees in SpockFlow:
+
+```python
+from spockflow.components.tree import Tree, Action
+from spockflow.core import initialize_spock_module
+import pandas as pd
+from typing_extensions import TypedDict
+
+class Reject(TypedDict):
+    code: int
+    description: str
+
+RejectAction = Action[Reject]
+
+# Initialize Tree
+tree = Tree()
+
+# Define conditions and actions
+@tree.condition(output=RejectAction(code=102, description="My first condition"))
+def first_condition(d: pd.Series, e: pd.Series, f: pd.Series) -> pd.Series:
+    return (d > 5) & (e > 5) & (f > 5)
+
+tree.visualize(get_value_name=lambda x: x["description"][0])
+```
+
+For more details and advanced usage, check out the [Concepts](docs/concepts/index.md) section.
+
+## Contributing
+
+We welcome contributions to SpockFlow! Please refer to our [Contributing Guide](CONTRIBUTING.md) for information on how to contribute.
+
+- **Fork the repository** and create a branch from `develop`.
+- **Install dependencies** using `pip install -r requirements/all.txt`.
+- **Run tests** with `pytest` to ensure everything is working.
+- **Submit a Pull Request** with a clear description of your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for your interest in SpockFlow! We look forward to your contributions and feedback.
