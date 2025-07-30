@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: lite-agent
+Version: 0.1.0
+Summary: A lightweight, extensible framework for building AI agent.
+Author-email: Jianqi Pan <jannchie@gmail.com>
+License: MIT
+Keywords: AI,agent framework,assistant,chatbot,function call,openai,pydantic,rich,tooling
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: funcall>=0.6.0
+Requires-Dist: prompt-toolkit>=3.0.51
+Requires-Dist: rich>=14.0.0
