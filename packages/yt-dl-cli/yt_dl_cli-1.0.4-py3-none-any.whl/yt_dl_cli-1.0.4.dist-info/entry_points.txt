@@ -1,0 +1,2 @@
+[console_scripts]
+yt-dl-cli = yt_dl_cli.scripts.cli:main
