@@ -1,0 +1,9 @@
+LICENSE
+README.md
+coexist.py
+pyproject.toml
+python_coexist.egg-info/PKG-INFO
+python_coexist.egg-info/SOURCES.txt
+python_coexist.egg-info/dependency_links.txt
+python_coexist.egg-info/top_level.txt
+tests/test_coexist.py

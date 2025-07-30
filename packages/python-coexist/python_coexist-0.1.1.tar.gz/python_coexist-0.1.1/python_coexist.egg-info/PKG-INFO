@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: python-coexist
+Version: 0.1.1
+Summary: Run multiple code statements concurrently using a simple and Pythonic context manager
+Author-email: Omer Menashe <unspecified@mail.com>
+License: MIT
+Project-URL: Source, https://github.com/iamomerm/python-coexist
+Keywords: python-coexist,coexist
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+## <ins> Coexist Context Manager </ins>
+
+Run multiple code statements concurrently using a simple and Pythonic context manago
+
+### <ins> Features </ins>
+- Execute multiple tasks in parallel with threads <br>
+- Simple with statement interface for easy use <br>
+- Collect tasks via lambdas or callable functions <br>
+- Configurable number of worker threads <br>
+- Waits for all tasks to complete before exiting the context <br>
+
+### <ins> Installation </ins>
+You can install this package via PIP: pip install python-coexist
+
+### <ins> Usage </ins>
+
+```python
+from coexist import coexist
+
+with coexist(max_workers=5) as ce:
+    ce(lambda: print('Hello'))
+    ce(lambda: print('World'))
+```
