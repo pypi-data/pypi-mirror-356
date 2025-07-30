@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/felice/__init__.py
+src/felice/__main__.py
+src/felice.egg-info/PKG-INFO
+src/felice.egg-info/SOURCES.txt
+src/felice.egg-info/dependency_links.txt
+src/felice.egg-info/top_level.txt
+src/felice/core/__init__.py
+src/felice/tests/__init__.py
+src/felice/tests/test_1984.py
