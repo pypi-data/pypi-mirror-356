@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: crczp-terraform-client
+Version: 1.0.2
+Summary: Terraform Client
+Project-URL: GitHub, https://github.com/cyberrangecz/backend-terraform-client
+Author: cybersecurityhub.cz
+License-Expression: MIT
+License-File: LICENSE
+Requires-Python: >=3.9
+Requires-Dist: crczp-aws-lib~=1.0.1
+Requires-Dist: crczp-openstack-lib~=1.0.0
+Requires-Dist: crczp-python-commons~=1.0.1
+Requires-Dist: jinja2>=3.1.6
+Description-Content-Type: text/markdown
+
+# Terraform-client
+
