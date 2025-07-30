@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: biobb_godmd
+Version: 5.1.0
+Summary: Biobb_godmd is a BioBB category for GOdMD tool (protein conformational transitions).
+Home-page: https://github.com/bioexcel/biobb_godmd
+Author: Biobb developers
+Author-email: adam.hospital@irbbarcelona.org
+Project-URL: Documentation, http://biobb-godmd.readthedocs.io/en/latest/
+Project-URL: Bioexcel, https://bioexcel.eu/
+Keywords: Bioinformatics Workflows BioExcel Compatibility Ensemble Protein Transitions GOdMD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Requires-Python: >=3.9,<3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biobb_common==5.1.0
+
+Biobb_godmd allows the calculation of protein conformational transitions using the GOdMD tool.
