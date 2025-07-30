@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages]
+find = {} 
+
+[project]
+name = "kLogs-util"
+version = "0.2.0"
+readme = {file = "README.md", content-type = "text/markdown"}
+keywords = ["log", "logging"]
+authors = [
+    {name = "Kevin J. Mahon", email = "k.mahon.dev@gmail.com"}
+]
+description = "Lightweight logging utility for python. Wrapper around stdlib"
+dependencies=[
+    "executing",
+    "asttokens",
+]
+
+[project.urls]
+Repository = "https://github.com/kevin-mahon/kLogs/tree/main"
