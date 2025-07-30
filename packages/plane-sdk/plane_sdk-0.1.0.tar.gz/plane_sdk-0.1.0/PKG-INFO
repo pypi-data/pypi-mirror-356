@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plane-sdk
+Version: 0.1.0
+Summary: The Plane REST API
+Home-page: 
+Author: Plane
+Author-email: support@plane.so
+License: GNU AGPLv3
+Keywords: OpenAPI,OpenAPI-Generator,The Plane REST API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<3.0.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic<2,>=1.10.5
+Requires-Dist: aenum
+
+    The Plane REST API  Visit our quick start guide and full API documentation at [developers.plane.so](https://developers.plane.so/api-reference/introduction).
+    
