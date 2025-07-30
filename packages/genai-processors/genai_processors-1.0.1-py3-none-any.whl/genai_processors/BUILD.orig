@@ -1,0 +1,175 @@
+load("//devtools/python/blaze:pytype.bzl", "pytype_strict_library")
+load("//research/colab:build_defs.bzl", "colab_binary")
+load("//tools/build_defs/license:license.bzl", "license")
+
+licenses(["notice"])
+
+package(
+    default_applicable_licenses = [":license"],
+    default_visibility = [
+        "//learning/deepmind/evergreen:__subpackages__",
+        "//learning/deepmind/evergreen/agents:users",
+        "//third_party/py/genai_processors:__subpackages__",
+    ],
+)
+
+exports_files(["LICENSE"])
+
+license(
+    name = "license",
+    package_name = "genai-processors",
+)
+
+genrule(
+    name = "evergreen_processor_py",
+    srcs = ["processor.py"],
+    outs = ["evergreen_processor.py"],
+    cmd = "$(location //third_party/py/genai_processors/tools:generate_for_another_part_type.par) --source=\"$(location processor.py)\" --target=\"$@\"",
+    tools = ["//third_party/py/genai_processors/tools:generate_for_another_part_type.par"],
+)
+
+pytype_strict_library(
+    name = "evergreen_processor",
+    srcs = ["evergreen_processor.py"],
+    deps = [
+        ":content_api",
+        ":context",
+        ":evergreen_processor_py",
+        ":map_processor",
+        ":streams",
+        "//learning/deepmind/evergreen/model_access/client/python:content_api",
+        "//third_party/py/dataclasses_json",
+        "//third_party/py/google/genai",
+    ],
+)
+
+pytype_strict_library(
+    name = "content_api",
+    srcs = ["content_api.py"],
+    deps = [
+        ":mime_types",
+        "//third_party/py/PIL:pil",
+        "//third_party/py/absl/logging",
+        "//third_party/py/google/genai",
+    ],
+)
+
+pytype_strict_library(
+    name = "context",
+    srcs = ["context.py"],
+    deps = ["//third_party/py/absl/logging"],
+)
+
+pytype_strict_library(
+    name = "debug",
+    srcs = ["debug.py"],
+    deps = [
+        ":content_api",
+        ":processor",
+        "//third_party/py/absl/logging",
+    ],
+)
+
+pytype_strict_library(
+    name = "map_processor",
+    srcs = ["map_processor.py"],
+    deps = [
+        ":context",
+        ":streams",
+    ],
+)
+
+pytype_strict_library(
+    name = "mime_types",
+    srcs = ["mime_types.py"],
+    deps = [],
+)
+
+pytype_strict_library(
+    name = "processor",
+    srcs = ["processor.py"],
+    deps = [
+        ":content_api",
+        ":context",
+        ":map_processor",
+        ":streams",
+        "//third_party/py/dataclasses_json",
+    ],
+)
+
+pytype_strict_library(
+    name = "streams",
+    srcs = ["streams.py"],
+    deps = [":context"],
+)
+
+pytype_strict_library(
+    name = "switch",
+    srcs = ["switch.py"],
+    deps = [
+        ":content_api",
+        ":processor",
+        ":streams",
+    ],
+)
+
+pytype_strict_library(
+    name = "genai_processors",
+    deps = [
+        ":__init__",
+        "//third_party/py/genai_processors/core:audio_io",
+        "//third_party/py/genai_processors/core:processors",
+        "//third_party/py/genai_processors/core:rate_limit_audio",
+        "//third_party/py/genai_processors/core:video",
+    ],
+)
+
+pytype_strict_library(
+    name = "colab_examples",
+    deps = [
+        "//third_party/py/genai_processors/examples/research",
+    ],
+)
+
+pytype_strict_library(
+    name = "non_colab_examples",
+    deps = [
+        "//third_party/py/genai_processors/examples/live:commentator",
+    ],
+)
+
+pytype_strict_library(
+    name = "examples",
+    deps = [
+        ":colab_examples",
+        ":non_colab_examples",
+    ],
+)
+
+pytype_strict_library(
+    name = "__init__",
+    srcs = ["__init__.py"],
+    deps = [
+        ":content_api",  # buildcleaner: keep
+        ":context",  # buildcleaner: keep
+        ":debug",  # buildcleaner: keep
+        ":map_processor",  # buildcleaner: keep
+        ":mime_types",  # buildcleaner: keep
+        ":processor",  # buildcleaner: keep
+        ":streams",  # buildcleaner: keep
+        ":switch",  # buildcleaner: keep
+    ],
+)
+
+colab_binary(
+    # blaze run -c opt third_party/py/genai_processors:colab
+    # Open Colab, and click Connect to a local runtime.
+    name = "colab",
+    tags = [
+        "notap",
+    ],
+    deps = [
+        ":colab_examples",
+        "//third_party/py/genai_processors/core:processors",
+    ],
+)
