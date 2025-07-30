@@ -1,0 +1,2 @@
+[console_scripts]
+esxi-img = esxi_img.cmd:main
