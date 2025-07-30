@@ -1,0 +1,147 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jgdtrans"
+authors = [
+    { name = "Kentaro Tatsumi", email = "paqira.2019@gmail.com" },
+]
+description = "Coordinate Transformer by Gridded Correction Parameter (par file)"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "GIS",
+    "Coordinate Transformation",
+    "par file",
+    "TKY2JGD",
+    "PatchJGD",
+    "PatchJGD(H)",
+    "PatchJGD(HV)",
+    "HyokoRev",
+    "SemiDyna",
+    "SemiDynaEXE",
+    "geonetF3",
+    "ITRF2014",
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+    'typing-extensions>=4.9; python_version < "3.11"',
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://jgdtrans-py.readthedocs.io"
+Issues = "https://github.com/paqira/jgdtrans-py/issues"
+Source = "https://github.com/paqira/jgdtrans-py"
+
+[tool.hatch.version]
+path = "jgdtrans/__init__.py"
+
+# hatch.build
+
+[tool.hatch.build]
+skip-excluded-dirs = true
+
+[tool.hatch.build.targets.sdist]
+only-include = ["jgdtrans", ]
+
+# types
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+    "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:jgdtrans}"
+
+# bench
+
+[tool.hatch.envs.bench]
+extra-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-benchmark>=5.0.0"
+]
+[tool.hatch.envs.bench.scripts]
+run = "pytest --benchmark-only {args:benches}"
+
+# docs
+
+[tool.hatch.envs.docs]
+dependencies = [
+    "sphinx",
+    "myst_nb",
+    "sphinx_book_theme",
+]
+
+[tool.hatch.envs.docs.scripts]
+apidoc = "sphinx-apidoc -e -o ./doc/source/autodoc jgdtrans"
+build = "sphinx-build -b html ./doc/source ./doc/build/html"
+
+# test
+
+[[tool.hatch.envs.hatch-test.matrix]]
+python = ["3.9", "3.10", "3.11", "3.12", "3.13"]
+
+# coverage
+
+[tool.coverage.run]
+source_pkgs = ["jgdtrans", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.paths]
+jgdtrans = ["jgdtrans", ]
+tests = ["tests", ]
+
+[tool.coverage.report]
+exclude_lines = [
+    "no cov",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+# ruff
+
+[tool.ruff]
+line-length = 120
+exclude = [
+    "tests",
+    "doc",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "B",
+    "D",
+]
+ignore = [
+    "N999", # Invalid module name:
+    "D104", #  Missing docstring in public package
+    "D105", # Missing docstring in magic method
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+required-imports = [
+    "from __future__ import annotations",
+]
