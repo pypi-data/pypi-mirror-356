@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: tempo4d
+Version: 0.1.2
+Summary: A 4D-STEM and diffraction data processing pipeline using PyQt, OpenCV, and Ultralytics
+Author-email: Arda Genc <ardagenc@ucsb.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/ArdaGen/Neural-Object-Detection-4D-STEM
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: opencv-python
+Requires-Dist: PyQt5
+Requires-Dist: pyqtgraph
+Requires-Dist: matplotlib
+Requires-Dist: rosettasciio[all]
+
+
+# tempo4d
+
+A PyTorch-based 4D-STEM analysis toolkit with real-time visualization, diffraction processing, and YOLOv8 integration.
