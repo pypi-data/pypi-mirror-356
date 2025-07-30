@@ -1,0 +1,11 @@
+template_nn/__init__.py,sha256=lJAz-jMmJ5neAtLnbNURvwspsNRQfH6ws9egqM_SRig,49
+template_nn/networks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_nn/networks/base_network.py,sha256=lhv0gAlNgfn7m7tMpMgXgSvJUuXJH93E_bmwhzoXv18,227
+template_nn/networks/fnn.py,sha256=1abWNEbSME0KymOJSjdAh88v_1JJCD5ei2V5LH02F3A,3300
+template_nn/optimisers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_nn/optimisers/hho.py,sha256=fhWhTzD5tjy2qoDtngjGYrTWZXdKmLDpEDl4AU4Azfs,4689
+template_nn-0.1.4.dist-info/licenses/LICENSE,sha256=RtJki7nuiFRDKSjx-zGb4QccCFgyv6Sj5G2nTrrZ6a0,1071
+template_nn-0.1.4.dist-info/METADATA,sha256=adnoSYqx_ccnQ57SP1FaNjf1JGJu6Xd7_LS1D3_1rto,2838
+template_nn-0.1.4.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+template_nn-0.1.4.dist-info/top_level.txt,sha256=pRsE0Av778862tRjdVHJKX0uORX3VSUOPKWmWQp60eo,12
+template_nn-0.1.4.dist-info/RECORD,,
