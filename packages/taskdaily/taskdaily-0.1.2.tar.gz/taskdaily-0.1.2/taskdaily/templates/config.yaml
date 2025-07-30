@@ -1,0 +1,66 @@
+date_format: "%Y-%m-%d"
+git_branch: "master"
+daily_file_name: "README.md"
+template_file: "daily_template.md"
+
+# Backup configuration
+backup:
+  enabled: true
+  directory: "backups"
+  frequency: "daily"  # daily, weekly, monthly
+  retention_days: 30
+  compress: true
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Project sections in template
+projects:
+  - name: "Personal"
+    emoji: "🏠"
+  - name: "Work"
+    emoji: "💼"
+  - name: "Learning"
+    emoji: "📚"
+
+# Status indicators with emojis and display names (in workflow sequence)
+status:
+  planned:
+    name: "Planned"
+    emoji: "📝"
+  in_progress:
+    name: "In Progress"
+    emoji: "⚡"
+  blocked:
+    name: "Blocked"
+    emoji: "🚧"
+  rescheduled:
+    name: "Rescheduled"
+    emoji: "📅"
+  carried_forward:
+    name: "Carried Forward"
+    emoji: "➡️"
+  completed:
+    name: "Completed"
+    emoji: "✅"
+  cancelled:
+    name: "Cancelled"
+    emoji: "🚫"
+
+# Template content to exclude from Slack messages
+template_content:
+  tasks:
+    - "Task 1 📋"
+    - "Task 2 📋"
+    - "New task 📋"
+    - "Meeting 1 📋"
+    - "Meeting 2 📋"
+    - "Note 1 📋"
+    - "Note 2 📋"
+  empty_markers:
+    - "- [ ]"
+    - "- [x]"
+    - "-"
+    - "•" 
