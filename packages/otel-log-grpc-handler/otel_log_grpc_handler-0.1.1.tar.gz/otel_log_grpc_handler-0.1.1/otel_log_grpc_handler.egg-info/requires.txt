@@ -1,0 +1,9 @@
+grpcio>=1.59.0
+opentelemetry-proto>=1.34.1
+
+[mapper]
+otel-log-proto-mapper>=0.1.4
+
+[test]
+pytest>=8.4.0
+otel-log-proto-mapper>=0.1.4

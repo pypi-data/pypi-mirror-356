@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+otel_log_grpc_handler/__init__.py
+otel_log_grpc_handler/handler.py
+otel_log_grpc_handler.egg-info/PKG-INFO
+otel_log_grpc_handler.egg-info/SOURCES.txt
+otel_log_grpc_handler.egg-info/dependency_links.txt
+otel_log_grpc_handler.egg-info/requires.txt
+otel_log_grpc_handler.egg-info/top_level.txt
+tests/conftest.py
+tests/test_handler.py
+tests/test_integration.py
