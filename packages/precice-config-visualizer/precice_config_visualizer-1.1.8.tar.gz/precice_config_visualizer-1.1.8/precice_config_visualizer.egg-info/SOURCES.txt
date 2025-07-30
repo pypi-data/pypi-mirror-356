@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+precice_config_visualizer.egg-info/PKG-INFO
+precice_config_visualizer.egg-info/SOURCES.txt
+precice_config_visualizer.egg-info/dependency_links.txt
+precice_config_visualizer.egg-info/entry_points.txt
+precice_config_visualizer.egg-info/requires.txt
+precice_config_visualizer.egg-info/top_level.txt
+preciceconfigvisualizer/cli.py
+preciceconfigvisualizer/common.py
