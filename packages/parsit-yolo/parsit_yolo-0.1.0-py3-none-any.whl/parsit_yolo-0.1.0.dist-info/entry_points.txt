@@ -1,0 +1,3 @@
+[console_scripts]
+parsit = parsit.cfg:entrypoint
+yolo = parsit.cfg:entrypoint
