@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+prometheus_client
+torch
+onnxruntime
+scikit-learn
+joblib

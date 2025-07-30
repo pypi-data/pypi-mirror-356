@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+jacket_cli/__init__.py
+jacket_cli/__main__.py
+jacket_cli/utils.py
+model_jacket.egg-info/PKG-INFO
+model_jacket.egg-info/SOURCES.txt
+model_jacket.egg-info/dependency_links.txt
+model_jacket.egg-info/entry_points.txt
+model_jacket.egg-info/requires.txt
+model_jacket.egg-info/top_level.txt
