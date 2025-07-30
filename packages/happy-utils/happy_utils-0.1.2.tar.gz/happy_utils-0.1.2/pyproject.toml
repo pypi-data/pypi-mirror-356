@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "happy-utils"
+version = "0.1.2"
+description = "A collection of Python utility functions"
+authors = ["Adam Zakaria <adam.p.zakaria@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+#python = "^3.12"
+psutil = "*"
+opencv-python = "*"
+requests = "*"
+pytz = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
