@@ -1,0 +1,6 @@
+passagemath-conf==10.6.1rc1
+passagemath-ecl==10.6.1rc1
+passagemath-environment==10.6.1rc1
+
+[test]
+passagemath-repl
