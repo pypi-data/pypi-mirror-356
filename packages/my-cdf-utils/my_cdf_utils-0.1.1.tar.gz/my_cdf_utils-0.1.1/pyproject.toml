@@ -1,0 +1,16 @@
+[project]
+name = "my-cdf-utils"
+version = "0.1.1"
+description = "Add your description here"
+authors = [{name = "Zeb", email = "no@email.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["my_cdf_utils"]
