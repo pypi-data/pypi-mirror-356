@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: chj_saih
+Version: 0.2.2
+Summary: Interface to Confederación Hidrográfica del Júcar to get data from the Automatic Hydrologic Information Sistem (SAIH)
+Home-page: https://github.com/carlos-48/chj_saih
+Author: carlos-48
+Author-email: karloselmaster@gmail.com
+Project-URL: Bug Reports, https://github.com/carlos-48/chj_saih/issues
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp<4.0,>=3.8
+Requires-Dist: geopy
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: summary
+
+file: README.md
