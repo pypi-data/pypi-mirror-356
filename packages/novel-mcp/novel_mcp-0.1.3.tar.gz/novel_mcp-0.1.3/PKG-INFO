@@ -1,0 +1,368 @@
+Metadata-Version: 2.4
+Name: novel-mcp
+Version: 0.1.3
+Summary: A Model Context Protocol (MCP) server for novel processing with mathematical operations
+Project-URL: Homepage, https://github.com/dingle123/novel-mcp
+Project-URL: Repository, https://github.com/dingle123/novel-mcp.git
+Project-URL: Issues, https://github.com/dingle123/novel-mcp/issues
+Project-URL: Documentation, https://github.com/dingle123/novel-mcp#readme
+Author-email: dingle <18911755085@163.com>
+Maintainer-email: dingle <18911755085@163.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: ai,mcp,novel,protocol,server
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: mcp[cli]>=1.9.4
+Provides-Extra: dev
+Requires-Dist: black>=22.0; extra == 'dev'
+Requires-Dist: flake8>=4.0; extra == 'dev'
+Requires-Dist: isort>=5.0; extra == 'dev'
+Requires-Dist: pytest>=7.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Novel MCP
+
+[![PyPI version](https://badge.fury.io/py/novel-mcp.svg)](https://badge.fury.io/py/novel-mcp)
+[![Python Support](https://img.shields.io/pypi/pyversions/novel-mcp.svg)](https://pypi.org/project/novel-mcp/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A Model Context Protocol (MCP) server for novel processing with mathematical operations.
+
+## 项目概述
+
+Novel MCP 是一个基于 FastMCP 的服务器，提供小说处理和数学运算等功能。它实现了 Model Context Protocol，可以与支持 MCP 的客户端进行交互。
+
+## 功能特性
+
+- ✅ 基于 FastMCP 框架
+- ✅ 提供数学运算工具（加法、乘法）
+- ✅ 支持 stdio 传输协议
+- ✅ 可扩展的工具系统
+- ✅ 完整的类型注解
+
+## 安装
+
+### 从 PyPI 安装
+
+```bash
+pip install novel-mcp
+```
+
+### 从源码安装
+
+```bash
+git clone https://github.com/yourusername/novel-mcp.git
+cd novel-mcp
+pip install -e .
+```
+
+## 使用方法
+
+### 作为命令行工具运行
+
+安装后，你可以直接运行：
+
+```bash
+novel-mcp
+```
+
+### 作为 Python 模块使用
+
+```python
+from novel_mcp import mcp
+
+# 运行服务器
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
+```
+
+### 在 MCP 客户端中配置
+
+在支持 MCP 的客户端（如 Claude Desktop）中配置：
+
+```json
+{
+  "mcpServers": {
+    "novel_server": {
+      "command": "novel-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}
+```
+
+或者如果你是从源码运行：
+
+```json
+{
+  "mcpServers": {
+    "novel_server": {
+      "command": "uv",
+      "args": [
+        "--directory"
+        "/path/to/novel_mcp",
+        "run",
+        "main.py"
+      ],
+      "env": {}
+    }
+  }
+}
+```
+
+## 可用工具
+
+### add(a: int, b: int) -> int
+加法运算工具，计算两个整数的和。
+
+**参数：**
+- `a`: 第一个数字
+- `b`: 第二个数字
+
+**返回：** 两数之和
+
+### multiply(a: int, b: int) -> int
+乘法运算工具，计算两个整数的乘积。
+
+**参数：**
+- `a`: 第一个数字
+- `b`: 第二个数字
+
+**返回：** 两数之积
+
+## 开发
+
+### 环境设置
+
+```bash
+# 克隆项目
+git clone https://github.com/yourusername/novel-mcp.git
+cd novel-mcp
+
+# 创建虚拟环境
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 安装开发依赖
+pip install -e ".[dev]"
+```
+
+### 运行测试
+
+```bash
+pytest
+```
+
+### 代码格式化
+
+```bash
+black novel_mcp/
+isort novel_mcp/
+```
+
+## 项目结构
+
+```
+novel_mcp/
+├── __init__.py          # 包初始化文件
+├── main.py             # MCP服务器主文件
+├── mcp_client.py       # MCP客户端测试文件
+├── mcp_sse.py          # SSE协议支持
+├── pyproject.toml      # 项目配置文件
+├── README.md           # 项目说明
+└── LICENSE             # 许可证文件
+```
+
+## 技术栈
+
+- **FastMCP**: Model Context Protocol 框架
+- **Python 3.8+**: 编程语言
+- **Type Hints**: 完整的类型注解支持
+
+## 📦 打包和发布
+
+### 打包项目并上传到 PyPI
+
+本项目提供了完整的打包和上传工具，可以一键发布到 PyPI。
+
+#### 前提条件
+
+1. **安装构建工具**
+   ```bash
+   pip install build twine
+   ```
+
+2. **注册 PyPI 账户**
+   - 正式环境：https://pypi.org/account/register/
+   - 测试环境：https://test.pypi.org/account/register/
+
+3. **生成 API Token**
+   - 登录 PyPI 后在账户设置中生成 API token
+   - 推荐使用 token 而不是用户名密码
+
+#### 配置认证信息
+
+创建 `~/.pypirc` 文件：
+
+```ini
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+repository = https://upload.pypi.org/legacy/
+username = __token__
+password = 你的PyPI_token_在这里
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = 你的TestPyPI_token_在这里
+```
+
+设置文件权限：
+```bash
+chmod 600 ~/.pypirc
+```
+
+#### 修改项目信息
+
+在发布前，请更新 `pyproject.toml` 中的个人信息：
+
+```toml
+[project]
+authors = [
+    { name = "你的真实姓名", email = "你的邮箱@example.com" }
+]
+maintainers = [
+    { name = "你的真实姓名", email = "你的邮箱@example.com" }
+]
+
+[project.urls]
+Homepage = "https://github.com/你的用户名/novel-mcp"
+Repository = "https://github.com/你的用户名/novel-mcp.git"
+Issues = "https://github.com/你的用户名/novel-mcp/issues"
+Documentation = "https://github.com/你的用户名/novel-mcp#readme"
+```
+
+#### 使用构建脚本
+
+项目包含了 `build_and_upload.py` 脚本，提供了便捷的构建和上传功能：
+
+```bash
+# 仅构建包（不上传）
+python build_and_upload.py --build
+
+# 构建并上传到测试环境
+python build_and_upload.py --test-upload
+
+# 构建并上传到正式 PyPI
+python build_and_upload.py --upload
+```
+
+#### 手动构建和上传
+
+如果你想手动操作：
+
+```bash
+# 清理之前的构建
+rm -rf build/ dist/ *.egg-info/
+
+# 构建包
+python -m build
+
+# 检查包的内容
+python -m twine check dist/*
+
+# 上传到测试环境
+python -m twine upload --repository testpypi dist/*
+
+# 上传到正式环境
+python -m twine upload dist/*
+```
+
+#### 验证发布
+
+发布成功后，可以测试安装：
+
+```bash
+# 安装包
+pip install novel-mcp
+
+# 测试命令
+novel-mcp
+
+# 或在 Python 中测试
+python -c "from novel_mcp import mcp; print('Import successful!')"
+```
+
+#### 版本管理
+
+发布新版本时：
+
+1. 更新 `pyproject.toml` 中的版本号
+2. 更新 `novel_mcp/__init__.py` 中的 `__version__`
+3. 更新 `README.md` 中的更新日志
+4. 重新构建和上传
+
+```bash
+# 示例：发布 0.1.1 版本
+# 1. 修改版本号
+# 2. 构建和上传
+python build_and_upload.py --upload
+```
+
+#### 常见问题
+
+**Q: 上传失败，提示包已存在**
+A: PyPI 不允许重复上传相同版本，需要增加版本号。
+
+**Q: 构建失败**
+A: 检查 `pyproject.toml` 配置是否正确，确保所有必要文件存在。
+
+**Q: Token 认证失败**
+A: 确认 token 格式正确（以 `pypi-` 开头），并检查 `.pypirc` 文件权限。
+
+## 贡献
+
+欢迎贡献代码！请遵循以下步骤：
+
+1. Fork 项目
+2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开 Pull Request
+
+## 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+## 更新日志
+
+### v0.1.0
+- 初始版本发布
+- 支持基本的数学运算（加法、乘法）
+- 实现 MCP 协议支持
+
+## 支持
+
+如果你遇到问题或有建议，请：
+
+1. 查看 [Issues](https://github.com/yourusername/novel-mcp/issues)
+2. 创建新的 Issue
+3. 或者直接提交 Pull Request
+
+---
+
+**注意：** 请将 README 中的 `yourusername` 替换为你的实际 GitHub 用户名，并更新作者信息。
