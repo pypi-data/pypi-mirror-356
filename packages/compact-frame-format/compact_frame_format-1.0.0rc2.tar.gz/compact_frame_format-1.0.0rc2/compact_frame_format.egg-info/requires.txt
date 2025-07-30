@@ -1,0 +1,8 @@
+
+[dev]
+ruff
+pre-commit
+
+[test]
+pytest
+pytest-cov
