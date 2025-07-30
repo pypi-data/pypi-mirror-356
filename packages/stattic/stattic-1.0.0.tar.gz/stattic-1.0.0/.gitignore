@@ -1,0 +1,14 @@
+node_modules/*
+my-site/*
+content/*
+output/*
+templates/*
+logs/*
+tests/*
+stattic.json
+stattic.yml
+autoStattic.py
+__pycache__
+build/
+*.egg-info/
+package-lock.json
