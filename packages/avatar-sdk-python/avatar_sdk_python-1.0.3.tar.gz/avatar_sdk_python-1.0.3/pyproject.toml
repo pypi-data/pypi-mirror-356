@@ -1,0 +1,92 @@
+[tool.poetry]
+name = "avatar-sdk-python"
+version = "1.0.3"
+description = "讯飞虚拟人 Python SDK - 基于实时交互API的虚拟人交互SDK"
+authors = ["thoulee <thou_lee@outlook.com>"]
+maintainers = ["thoulee <thou_lee@outlook.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/thoulee21/avatar-sdk-python"
+repository = "https://github.com/thoulee21/avatar-sdk-python"
+documentation = "https://github.com/thoulee21/avatar-sdk-python#readme"
+keywords = ["avatar", "virtual", "ai", "sdk", "iflytek", "websocket"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers", 
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications",
+    "Topic :: Multimedia :: Video"
+]
+packages = [
+    { include = "avatar_sdk" }
+]
+include = [
+    "README.md",
+    "LICENSE",
+    ".env.example"
+]
+exclude = [
+    "tests*",
+    "test_*",
+    ".env",
+    "dist",
+    "build"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ws4py = "^0.5.1"
+python-dotenv = "1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^5.0.0"
+black = "^24.0.0"
+isort = "^5.13.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["avatar_sdk"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = [
+    "tests",
+]
+python_files = [
+    "test_*.py",
+    "*_test.py",
+]
