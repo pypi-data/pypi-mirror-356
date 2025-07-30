@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: pt_seq
+Version: 0.0.6
+Summary: A packgage extracting specific seqes
+Project-URL: Homepage, https://github.com/Anne-hcy/data_pt/tree/main
+Author-email: AH <abbychou109304502@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
