@@ -1,0 +1,13 @@
+judie/__init__.py,sha256=W5JMRgrxB-QJVzbokhMq1rMjkFLsqRtbO_hiRYaXjrY,403
+judie/generator.py,sha256=-xRTK7QnbN2j45AwFGznRGhBoi9B1igWkXfHekxhk4Y,12526
+judie/store.py,sha256=YKwusK7Fr33cSWJBD-xjdU0O9UjyXdX1W1Env44L1oY,4062
+judie/types.py,sha256=ai-Tvd_LuWtJGMlkW7z62InVntU9trz-6vl2HsSe0zo,4378
+judie/evaluators/__init__.py,sha256=yC_71yATHgPurno9vTBpZKy4tSgrfei_ucWkUYeycn8,202
+judie/evaluators/base.py,sha256=Dy-0MmBgsBZXgRH7pkxM3JunkAZizfCHMjzkSNE-Xxc,373
+judie/evaluators/gacha.py,sha256=jsNyD8UsxOpIuezmHcOpCS8n5Y0fZi9-mDfpp_cxLW8,8558
+judie/evaluators/simple.py,sha256=VoGvUSZ0NQ4h78bsifUIoaGqvUE6Hb5PA4VHqgpm_DU,6523
+judie-0.0.2.dist-info/licenses/LICENSE,sha256=oZaWWU-6YrHbQ5Cvc-TiD3VSgqueT7EvfotL-J_oQdY,11343
+judie-0.0.2.dist-info/METADATA,sha256=3mGvmHt2OJO5gjUrL0XinT2XLM0d_OdXVZCis2iCGAM,3537
+judie-0.0.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+judie-0.0.2.dist-info/top_level.txt,sha256=6rdangtsZgzbMnQ_tpVCs_7LW3VdgbJluAqfl_z0F7E,6
+judie-0.0.2.dist-info/RECORD,,
