@@ -1,0 +1,11 @@
+typer==0.15.3
+click==8.1.8
+loguru
+pandas
+torch
+numpy
+transformers
+tqdm
+scikit-learn
+fastparquet
+accelerate>=0.26.0
