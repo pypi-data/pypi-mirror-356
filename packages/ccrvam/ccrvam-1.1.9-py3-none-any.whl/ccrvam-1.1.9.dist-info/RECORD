@@ -1,0 +1,16 @@
+ccrvam/__init__.py,sha256=FKvpT0BmvWtLmpvoKQJorQlU4NQVTizxv0BjCLUSe0k,679
+ccrvam/checkerboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccrvam/checkerboard/genccrvam.py,sha256=gPCkfi1Cls3QeItvbFRY27CvHz8Wy0hs6LkEJZIF22g,33835
+ccrvam/checkerboard/genstatsim.py,sha256=S6-qN5i4fzfm6dSnw-ZqrSVUcLvyIH_1YgZCf-OMn3c,69206
+ccrvam/checkerboard/utils.py,sha256=L2utPoh7IFNOYOXUsVRXnev7VHsIM4dmLRH_lD7kA6I,11185
+ccrvam-1.1.9.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docs/conf.py,sha256=gM-XgWwFfvnARlBnACsZVgZ0A9bhhslVpocDAxvgY-8,2484
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_genccrvam.py,sha256=1c189z9Ik3vCjeDSj_B0zp0Q_isCMa1WNflstI911E4,29764
+tests/test_genstatsim.py,sha256=OhiykmvbEhOebA6iZ-X2fBi6A9ZaBY8__1ZnAT9qqW8,34333
+tests/test_utils.py,sha256=swmRkEgWm_c46UBJMz08hAW_oJTs5WpErxFOAHx4AUg,16911
+ccrvam-1.1.9.dist-info/METADATA,sha256=hU0BaNLPKHppCPSNP9v-U-rgm9Z19_c0PE975TpB598,8465
+ccrvam-1.1.9.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+ccrvam-1.1.9.dist-info/top_level.txt,sha256=9xkT268eTFUYYGwDYCMzZo4pXGU879fu5pRKrvXeaY4,18
+ccrvam-1.1.9.dist-info/RECORD,,
