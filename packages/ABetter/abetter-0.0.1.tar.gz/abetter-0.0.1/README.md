@@ -1,0 +1,95 @@
+# ABetter
+## 简介
+
+ABetter 是一个在 Jupyter Notebook 中计算 A/B-Testing 效果的简单易用的 Python 工具包，其基于**样本统计结果**而非样本明细，因此无需导入样本，很适合用于大规模样本实验。
+
+主要功能：
+
+1. 自适应选择检验方法；
+2. 输出检验表：显著性, 置信区间，MDE，Effect Size，增量效果；
+3. 绘制示意图。
+
+## 安装
+
+源代码托管在 GitHub，地址: [https://github.com/SqRoots/ABetter](https://github.com/SqRoots/ABetter)。
+
+您可以使用 pip 命令安装 ABetter。
+
+```bash
+# PyPI
+pip install abetter
+```
+
+## 使用
+
+检验均值型指标：
+
+```python
+import abetter as ab
+
+# 定义均值型指标样本（其中样本量n、样本均值mean、样本标准差std，是3个必要参数，其他为可选参数）
+s1 = ab.SampleMean(n=1000000, mean=0.5000, std=0.2000, field_name='订单量', group_name='实验组', group_ratio=0.1)
+s2 = ab.SampleMean(n=2000000, mean=0.5005, std=0.2010, field_name='订单量', group_name='空白组', group_ratio=0.2)
+
+# 检验
+ss = s1 - s2
+ss   # Pandas数据框存储于 ss.data_all
+```
+
+<img src="./img/image-20250621105540539.png" alt="image-20250621105540539" style="zoom:50%;" />
+
+检验比率型指标：
+
+```python
+import abetter as ab
+
+# 定义比率型指标样本（其中样本量n、阳性样本量k，是2个必要参数，其他为可选参数）
+s1 = ab.SampleProp(n=10000, k=60, field_name='交易人数', group_name='实验组', group_ratio=0.1)
+s2 = ab.SampleProp(n=20000, k=50, field_name='交易人数', group_name='空白组', group_ratio=0.2)
+
+# 检验
+ss = s1 - s2
+ss   # Pandas数据框存储于 ss.data_all
+```
+
+<img src="./img/image-20250621105640703.png" alt="image-20250621105640703" style="zoom:50%;" />
+
+绘制两个样本均值的分布：
+
+```python
+import abetter as ab
+
+# 定义均值型指标样本（前3个参数依次是：样本量n、样本均值mean、样本标准差std）
+s1 = ab.SampleMean(1000, 0.50, 0.20)
+s2 = ab.SampleMean(200, 0.55, 0.21)
+
+# 绘图
+fig, ax = ab.plot_two_mean(s1, s2)
+fig
+```
+
+<img src="./img/image-20250621110055582.png" alt="image-20250621110055582" style="zoom:50%;" />
+
+绘制两个样本均值之差的分布：
+
+```python
+import abetter as ab
+
+# 定义均值型指标样本（前3个参数依次是：样本量n、样本均值mean、样本标准差std）
+s1 = ab.SampleMean(1000, 0.50, 0.20)
+s2 = ab.SampleMean(200, 0.55, 0.21)
+
+# 绘图
+fig, ax = ab.plot_diff_mean(s1 - s2)
+fig
+```
+
+<img src="./img/image-20250621110204152.png" alt="image-20250621110204152" style="zoom:50%;" />
+
+## todo
+
+- [ ] 功能：评估最小样本量
+- [ ] 功能：调研小样本比率检验如何科学的计算置信区间、MDE。
+- [ ] 绘图：统计功效
+- [ ] 输出：补充`__repr__`和`__str__`
+- [ ] 文档：参考文献与相关公式

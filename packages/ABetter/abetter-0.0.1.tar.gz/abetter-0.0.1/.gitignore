@@ -1,0 +1,11 @@
+# ignore my study file
+study-file-for-private
+.idea
+.ipynb_checkpoints
+__pycache__
+.ipynb
+tests
+dist
+
+# not ignore file
+!.gitignore
