@@ -1,0 +1,16 @@
+productspy/__init__.py,sha256=x92-ZqkSlalQU5Jd4E6GkHUcxSX8DAAYa8-llOS5hOw,74
+productspy/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+productspy/exceptions.py,sha256=w8u30YZz0Q2CRKLqwir9l76InQ2e2OfR8v6BOhcXQIM,232
+productspy/trackers/__init__.py,sha256=RxV8F0lw3Jvv4x1qxfLEMgPBsgi5Ora5mTHhqtPnH28,1070
+productspy/trackers/aliexpress.py,sha256=nUEE6omVhjiaoCNkdtQ0n3aeT5a0A_Hcyxogxijtu8I,4812
+productspy/trackers/amazon.py,sha256=2GBAQiMStO0OxZ9ULv3BxD0gAl0e-oM1VBXyswESLIc,4134
+productspy/trackers/carrefour.py,sha256=cbB0dxqf-ESk_OJfoSi71wkIfou6CiCB5MlORcDfU8M,2190
+productspy/trackers/extra.py,sha256=OrJIOtYLc-4cScdZufUwrXNpIAoi5ruM4RfzQ-HXENQ,3082
+productspy/trackers/noon.py,sha256=jqtlK9wp4HYM6jZKD0Ao8tOc7CEuAaW3m0nYbMTEuYc,1904
+productspy/utils/__init__.py,sha256=8HdtFpk7F4oMMoXRh6UD8AZA96DtYM1JmNvMejFjjFw,326
+productspy/utils/cookies_manager.py,sha256=YOttb40_Opwav2ofhRrKuEoaXtMzCdkqGM24x37hr_A,2577
+productspy/utils/url_tools.py,sha256=PK1VuG2gMuLF4mgcXpynnFuEh141vfugCxrDh9McplI,963
+productspy-0.1.3.dist-info/METADATA,sha256=sHN0ibKy6NZIE-2EUGCoybac34HqWEDMAtxNjf5M_9c,221
+productspy-0.1.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+productspy-0.1.3.dist-info/top_level.txt,sha256=qKaJXBXrA5fyxGLB9zCA2Qh7JuLHgxu6IupDt3A2tGU,11
+productspy-0.1.3.dist-info/RECORD,,
