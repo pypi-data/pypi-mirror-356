@@ -1,0 +1,14 @@
+[project]
+name = "bemcp"
+version = "0.1.1"
+description = "A MCP Manager for LLM"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "openai>=1.69.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bemcp*"]
