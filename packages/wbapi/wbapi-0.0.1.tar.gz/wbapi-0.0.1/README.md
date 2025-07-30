@@ -1,0 +1,1 @@
+Thin wrapper for the Wildberries API
