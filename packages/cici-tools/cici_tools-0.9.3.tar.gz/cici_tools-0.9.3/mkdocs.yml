@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2024 UL Research Institutes
+# SPDX-License-Identifier: MIT
+
+site_name: My Docs
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true

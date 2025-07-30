@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2024 UL Research Institutes
+# SPDX-License-Identifier: MIT
+
+overrides:
+  - files: "docs/**/*.md"
+    options:
+      tabWidth: 4
