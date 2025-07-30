@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+CLAUDE.md
+DISTRIBUTION.md
+TODO.md
+songbird.egg-info/
+songbird/__pycache__/
+tests/__pycache__
+
+TESTING/
+repomix-output.xml
+.claude/
+test_scripts/
+songbird/llm/__pycache__/
