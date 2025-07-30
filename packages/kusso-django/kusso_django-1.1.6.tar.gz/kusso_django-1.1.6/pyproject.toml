@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kusso-django"
+version = "1.1.6"
+description = "Django app for KU SSO authentication"
+authors = ["Chaiporn Jaikaeo <chaiporn.j@ku.ac.th>"]
+readme = "README.md"
+homepage = "https://gitlab.com/cjaikaeo/kusso-django"
+packages = [{include = "kusso_django"}]
+license = "BSD 2-clause"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+AuthLib = "^1.2"
+requests = "^2.27"
+
