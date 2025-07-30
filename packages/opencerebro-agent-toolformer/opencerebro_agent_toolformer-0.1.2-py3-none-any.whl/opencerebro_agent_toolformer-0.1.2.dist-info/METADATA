@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: opencerebro-agent-toolformer
+Version: 0.1.2
+Summary: A Toolformer agent for the open-cerebro framework.
+License: MIT
+Author: Prahlad Inala
+Author-email: prahlad.inala@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/markdown
+
+# Agent Toolformer
+
