@@ -1,0 +1,113 @@
+Metadata-Version: 2.4
+Name: FailoverCache
+Version: 1.0.0
+Summary: A flexible Python cache system with automatic fallback to disk when Redis is unavailable
+Author-email: Endkind <endkind.ender@endkind.net>
+License: MIT License
+        
+        Copyright (c) 2025 Endkind
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: redis>=6.2.0
+Requires-Dist: diskcache>=5.6.3
+Dynamic: license-file
+
+# FailoverCache
+
+**FailoverCache** is a flexible and persistent Python caching library that automatically falls back to disk storage when Redis is unavailable. Ideal for development and production environments where Redis may not always be present.
+
+---
+
+## 🚀 Features
+
+- 🔁 Automatic fallback from Redis to diskcache
+- ⏳ Time-To-Live (TTL) support for all values
+- 🧠 `remember()` helper to avoid duplicate calculations
+- 🧹 Flush the entire cache
+- 🔄 Extend or set TTL after creation
+- ✅ No Redis required during development
+
+---
+
+## 📦 Installation
+
+```bash
+pip install FailoverCache
+```
+
+---
+
+## 🧪 Example Usage
+
+```python
+from FailoverCache import FailoverCache
+
+cache = FailoverCache()
+
+# Store a value for 60 seconds
+cache.put("greeting", "hello world", ttl=60)
+
+# Retrieve it later
+print(cache.get("greeting"))  # hello world
+
+# Only compute if not cached
+data = cache.remember("expensive", lambda: "result_of_heavy_work", ttl=300)
+
+# Extend TTL by 120 seconds
+cache.extend_ttl("greeting", 120)
+
+# Set TTL to exactly 300 seconds
+cache.set_ttl("greeting", 300)
+
+# Flush all cache entries
+cache.flush()
+```
+
+---
+
+## 📂 How it works
+
+1. Tries to connect to Redis (`localhost:6379` by default).
+2. If Redis is not available or fails, it falls back to local disk storage using `diskcache`.
+3. All operations transparently use the first working backend.
+
+---
+
+## 🔧 Configuration
+
+You can customize Redis host/port and disk cache path:
+
+```python
+cache = FailoverCache(redis_host="redis", redis_port=6379, diskcache_directory=".my_cache")
+```
+
+---
+
+## 📄 License
+
+FailoverCache is licensed under the [MIT License](LICENSE).
