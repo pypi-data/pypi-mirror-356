@@ -1,0 +1,8 @@
+jupyterlab==4.4.3
+scipy==1.15.2
+numpy==2.3.0
+matplotlib==3.10.3
+dash==3.0.4
+pandas==2.3.0
+
+[dev]
