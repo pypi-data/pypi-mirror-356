@@ -1,0 +1,4 @@
+
+# ataacona module
+
+::: ataacona.ataacona

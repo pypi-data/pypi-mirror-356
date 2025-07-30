@@ -1,0 +1,2 @@
+[console_scripts]
+ataacona = ataacona.cli:main
