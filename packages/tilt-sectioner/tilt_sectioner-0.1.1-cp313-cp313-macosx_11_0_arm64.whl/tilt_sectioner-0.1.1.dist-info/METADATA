@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: tilt-sectioner
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Source data sectioner for Tilt Networks
+Author-email: Paulo Moreira <paulo@tilt.technology>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Sectioner
+
+Sectioner is a simple data splitting tool for Tilt Networks.
+
+It works with both **media files** (using [FFmpeg](https://ffmpeg.org)) and **plain text files**.
+
+---
+
+##  Features
+
+-  **Text splitting**  
+Split `.txt` source files into separate chunks based on content or size.
+
+-  **Media splitting (audio/video)**  
+Uses FFmpeg under the hood to split large media files into segments.
+
+---
+
+##  Installation
+
+Sectioner is distributed as a Python package on PyPI.
+
+```bash
+pip install tilt-sectioner
+
+
