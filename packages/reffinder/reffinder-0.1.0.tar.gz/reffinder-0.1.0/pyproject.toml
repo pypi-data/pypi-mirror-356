@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "reffinder"
+version = "0.1.0"
+description = "A static reference-finder for Python functions using Pyright and the Language Server Protocol."
+authors = ["Nikos <n.lykotomaros@pivopt.com>"]
+readme = "README.md"
+license = "GNU General Public License v3 (GPLv3)"
+keywords = ["python", "reference", "LSP", "static-analysis", "pyright", "code-analysis"]
+classifiers = [  # Helps PyPI categorize your project
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+jsonrpcclient= "==4.0.3"
+graphviz= ">=0.20.3,<0.21.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+reffinder = "reffinder.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.16.0"
+pytest = "^8.4.0"
+flake8 = "^7.2.0"

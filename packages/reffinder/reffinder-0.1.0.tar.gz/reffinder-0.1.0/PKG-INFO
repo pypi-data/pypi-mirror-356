@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: reffinder
+Version: 0.1.0
+Summary: A static reference-finder for Python functions using Pyright and the Language Server Protocol.
+License: GNU General Public License v3 (GPLv3)
+Keywords: python,reference,LSP,static-analysis,pyright,code-analysis
+Author: Nikos
+Author-email: n.lykotomaros@pivopt.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: graphviz (>=0.20.3,<0.21.0)
+Requires-Dist: jsonrpcclient (==4.0.3)
+Description-Content-Type: text/markdown
+
+# Reffinder
+
+**Reffinder** is a static reference-finder for Python functions using [Pyright](https://github.com/microsoft/pyright) and the Language Server Protocol (LSP). It recursively traces references to functions and builds a dependency tree.
+
+
+## ⚠️ Disclaimer
+
+> **This project is currently a proof of concept.**  
+> It may contain bugs, edge case limitations, or incomplete features.  
+> Contributions and feedback are welcome.
+
+
+## 🚀 Getting Started
+
+### 🔧 Install
+`pip install reffinder`
+
+## 📌 Usage
+`reffinder path/to/file.py <line_number> <definition_character>`
+Notes:
+- line_number is 0-based (e.g. if your IDE shows line 1, use 0)
+- definition_character is the character offset of the function name's first letter
+
+Example:
+```
+def example(...):
+01234  <- character positions
+```
+To find references to example, run:
+`reffinder my_module.py 0 4`
+
+## 🛠 Development
+### 📋 Prerequisites
+- [Pyright](https://microsoft.github.io/pyright/#/installation?id=npm-package)
+- [Poetry](https://python-poetry.org/docs/)
+
+### ⚙️ Dev Setup
+`poetry install`
+
+### 🧪 Build
+`poetry build`
+To install the built wheel locally:
+`pip install dist/reffinder-*.whl --force-reinstall`
+
