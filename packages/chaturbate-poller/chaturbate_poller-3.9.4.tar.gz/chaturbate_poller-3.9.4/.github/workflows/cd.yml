@@ -1,0 +1,205 @@
+name: Release
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      force_release:
+        description: "Force release type"
+        type: choice
+        options: ["auto", "patch", "minor", "major"]
+        default: "auto"
+
+env:
+  DEFAULT_PYTHON: "3.13"
+  UV_CACHE_DIR: /tmp/uv-cache
+  FORCE_COLOR: "1"
+
+permissions:
+  contents: write
+  packages: write
+  id-token: write
+  attestations: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    outputs:
+      should-release: ${{ steps.check.outputs.should-release }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+          persist-credentials: false
+
+      - name: Validate Branch Integrity
+        id: check
+        shell: bash
+        run: |
+          # Function to set should-release output without exiting
+          set_release_output() {
+            local should_release="$1"
+            echo "should-release=$should_release" >> $GITHUB_OUTPUT
+          }
+
+          # Use GitHub Actions context variables for reliable branch and commit info
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            # Get branch and SHA from workflow_run event
+            HEAD_BRANCH="${{ github.event.workflow_run.head_branch }}"
+            HEAD_SHA="${{ github.event.workflow_run.head_sha }}"
+            WORKFLOW_HEAD_SHA="${{ github.event.workflow_run.head_sha }}"
+          else
+            # For workflow_dispatch, use current context
+            HEAD_BRANCH="${{ github.ref_name }}"
+            HEAD_SHA="${{ github.sha }}"
+            WORKFLOW_HEAD_SHA="${{ github.sha }}"
+          fi
+
+          echo "Validating branch: $HEAD_BRANCH"
+          echo "Head SHA: $HEAD_SHA"
+          echo "Workflow SHA: $WORKFLOW_HEAD_SHA"
+
+          # Validate that we're on the main branch
+          if [ "$HEAD_BRANCH" != "main" ]; then
+              echo "::error::Release can only be triggered from main branch, got: $HEAD_BRANCH"
+              set_release_output "false"
+              exit 0
+          fi
+
+          # For workflow_run events, validate the SHA matches what we expect
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            CURRENT_SHA="$(git rev-parse HEAD)"
+            if [ "$CURRENT_SHA" != "$WORKFLOW_HEAD_SHA" ]; then
+                echo "::error::Workflow SHA mismatch. Expected: $WORKFLOW_HEAD_SHA, Got: $CURRENT_SHA"
+                set_release_output "false"
+                exit 0
+            fi
+          fi
+
+          echo "Branch integrity validated successfully"
+          set_release_output "true"
+
+  release:
+    needs: validate
+    if: needs.validate.outputs.should-release == 'true'
+    uses: ./.github/workflows/_shared-build-test.yml
+    with:
+      python-version: '3.13'
+      install-groups: 'dev'
+      fetch-depth: 0
+      persist-credentials: false
+
+  release-create:
+    needs: [validate, release]
+    if: needs.validate.outputs.should-release == 'true'
+    runs-on: ubuntu-24.04
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+      released: ${{ steps.release.outputs.released }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@445689ea25e0de0a23313031f5fe577c74ae45a1 # v6
+        with:
+          enable-cache: true
+          python-version: ${{ needs.release.outputs.python-version }}
+
+      - name: Install Dependencies
+        run: uv sync --group=dev
+
+      - name: Create Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@f9e152fb36cd2e590fe8c2bf85bbff08f7fc1c52 # v10
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          force: ${{ github.event.inputs.force_release != 'auto' && github.event.inputs.force_release || '' }}
+
+  publish:
+    needs: release-create
+    if: needs.release-create.outputs.released == 'true'
+    uses: ./.github/workflows/_shared-build-test.yml
+    with:
+      python-version: '3.13'
+      install-groups: 'none'
+      skip-install: true
+
+  publish-package:
+    needs: [release-create, publish]
+    if: needs.release-create.outputs.released == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          ref: v${{ needs.release-create.outputs.version }}
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@445689ea25e0de0a23313031f5fe577c74ae45a1 # v6
+        with:
+          enable-cache: true
+          python-version: ${{ needs.publish.outputs.python-version }}
+
+      - run: uv build
+
+      # Test on TestPyPI first
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+          attestations: false
+
+      # Verify installation works
+      - name: Verify TestPyPI
+        run: |
+          MAX_ATTEMPTS=20
+          SLEEP_TIME=5
+
+          # Create virtual environment for testing
+          uv venv test-env --python ${{ env.DEFAULT_PYTHON }} --no-workspace
+
+          for attempt in $(seq 1 $MAX_ATTEMPTS); do
+            echo "Attempt $attempt/$MAX_ATTEMPTS: Checking TestPyPI availability..."
+
+            # Check if package exists on TestPyPI
+            if curl -sf "https://test.pypi.org/pypi/chaturbate-poller/${{ needs.release-create.outputs.version }}/json" | jq -e --arg version "${{ needs.release-create.outputs.version }}" '.info.version == $version' > /dev/null; then
+              echo "Package found on TestPyPI, attempting installation..."
+
+              if uv pip install --python ./test-env --index https://test.pypi.org/simple/ --index https://pypi.org/simple/ --index-strategy unsafe-best-match chaturbate-poller==${{ needs.release-create.outputs.version }}; then
+                echo "Successfully installed package"
+                ./test-env/bin/python -c "import chaturbate_poller; print(chaturbate_poller.__version__)"
+                exit 0
+              else
+                echo "Installation failed, retrying..."
+              fi
+            else
+              echo "Package not yet available on TestPyPI..."
+            fi
+
+            if [ $attempt -lt $MAX_ATTEMPTS ]; then
+              echo "Waiting ${SLEEP_TIME} seconds before retry..."
+              sleep $SLEEP_TIME
+            fi
+          done
+
+          echo "Failed to install package after $MAX_ATTEMPTS attempts"
+          exit 1
+
+      # Publish to PyPI
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          attestations: true
+
+      - uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be # v2
+        with:
+          subject-path: dist/*
