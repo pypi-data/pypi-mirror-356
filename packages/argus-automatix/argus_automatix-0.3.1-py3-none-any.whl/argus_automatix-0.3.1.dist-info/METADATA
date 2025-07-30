@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: argus-automatix
+Version: 0.3.1
+Summary: Symbolic (weighted) automata monitors
+Author-email: Anand Balakrishnan <anandbala1597@gmail.com>
+Requires-Python: ~=3.11
+Requires-Dist: dd~=0.6.0
+Requires-Dist: equinox~=0.11
+Requires-Dist: jaxtyping~=0.2
+Requires-Dist: jax~=0.4
+Requires-Dist: lark~=1.2
+Requires-Dist: networkx~=3.2
+Requires-Dist: numpy~=1.26
+Requires-Dist: types-networkx
+Requires-Dist: typing-extensions
+Provides-Extra: cuda
+Requires-Dist: jax[cuda]~=0.4; extra == 'cuda'
