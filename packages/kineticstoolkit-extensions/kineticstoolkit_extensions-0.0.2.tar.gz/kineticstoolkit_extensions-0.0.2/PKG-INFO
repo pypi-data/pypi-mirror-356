@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: kineticstoolkit_extensions
+Version: 0.0.2
+Summary: Extensions and unstable development modules for Kinetics Toolkit.
+Home-page: https://kineticstoolkit.uqam.ca
+Author: Félix Chénier
+Author-email: chenier.felix@uqam.ca
+License: Apache
+Project-URL: Documentation, https://kineticstoolkit.uqam.ca
+Project-URL: Source, https://github.com/kineticstoolkit/kineticstoolkit_extensions
+Project-URL: Tracker, https://github.com/kineticstoolkit/kineticstoolkit/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: kineticstoolkit
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# kineticstoolkit_extensions
+Additional modules and development of new features for Kinetics Toolkit
+
+This repository will replace the different repositories used for the current extension system. It will also be distributed via pip and conda, like kineticstoolkit.
+
+It will contain features that are deemed too specific for Kinetics Toolkit, but still useful in some use cases. It will also contain half-baked new features in development. The main objective for this method is to:
+
+- reach a stable 1.0 version for Kinetics Toolkit while continuing developing new features with a clear separation between misc/development/testing (kineticstoolkit_extensions) and stable (kineticstoolkit)
+- ease the installation of extensions, without adding unnecessary friction both for developers and users (i.e. maintaining multiple repositories)
+- adopt continuous integration practices (i.e. unit tests) for extensions, like for kineticstoolkit
