@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/v3cap/__init__.py
+src/v3cap/__main__.py
+src/v3cap/api.py
+src/v3cap/captcha.py
+src/v3cap/version.py
+src/v3cap.egg-info/PKG-INFO
+src/v3cap.egg-info/SOURCES.txt
+src/v3cap.egg-info/dependency_links.txt
+src/v3cap.egg-info/entry_points.txt
+src/v3cap.egg-info/requires.txt
+src/v3cap.egg-info/top_level.txt
