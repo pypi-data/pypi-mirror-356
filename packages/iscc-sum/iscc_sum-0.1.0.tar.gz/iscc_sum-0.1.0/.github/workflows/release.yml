@@ -1,0 +1,98 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  release-python:
+    name: Build Python Wheels
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: |
+            x86_64-apple-darwin
+            aarch64-apple-darwin
+            x86_64-unknown-linux-gnu
+            aarch64-unknown-linux-gnu
+            x86_64-pc-windows-msvc
+      
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v3.0.0
+        env:
+          CIBW_BUILD: cp310-* cp311-* cp312-* cp313-*
+          CIBW_SKIP: "*-musllinux_* *-win32 *-manylinux_i686"
+          CIBW_ARCHS_MACOS: x86_64 arm64
+          CIBW_ARCHS_LINUX: x86_64  # Skip aarch64 for now - it's very slow with QEMU
+          CIBW_ARCHS_WINDOWS: AMD64
+          CIBW_BEFORE_BUILD: pip install maturin
+          CIBW_BUILD_FRONTEND: build
+          # Fix macOS deployment target issue
+          CIBW_ENVIRONMENT_MACOS: MACOSX_DEPLOYMENT_TARGET=10.12
+      
+      - name: Upload wheels
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-${{ matrix.os }}
+          path: ./wheelhouse/*.whl
+
+  publish:
+    name: Publish Release
+    needs: [release-python]
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: artifacts/**/*
+          draft: false
+          prerelease: ${{ contains(github.ref, 'alpha') || contains(github.ref, 'beta') || contains(github.ref, 'rc') }}
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Temporarily disabled for v0.1.0 release
+      # TODO: Re-enable crates.io publishing for future releases
+      # See: https://github.com/bio-codes/iscc-sum/issues/[TBD]
+      # - name: Publish to crates.io
+      #   run: |
+      #     cargo login ${{ secrets.CRATES_IO_TOKEN }}
+      #     cargo publish --allow-dirty
+      #   continue-on-error: true
+      
+      - name: Merge wheels
+        run: |
+          mkdir -p dist
+          cp artifacts/wheels-*/*.whl dist/
+      
+      - name: Build source distribution
+        run: |
+          pip install build
+          python -m build --sdist
+      
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          skip-existing: true
