@@ -1,0 +1,160 @@
+Metadata-Version: 2.4
+Name: mitoolspro
+Version: 0.1.0
+Summary: miToolsPro is a collection of tools for data analysis and visualization.
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: cairosvg>=2.8.2
+Requires-Dist: country-converter>=1.3
+Requires-Dist: coverage>=7.7.0
+Requires-Dist: fastparquet>=2024.11.0
+Requires-Dist: folium>=0.19.5
+Requires-Dist: geopandas>=1.0.1
+Requires-Dist: icalendar>=6.1.1
+Requires-Dist: ipywidgets>=8.1.5
+Requires-Dist: jupyter>=1.1.1
+Requires-Dist: linearmodels>=6.1
+Requires-Dist: lxml>=5.3.1
+Requires-Dist: matplotlib>=3.10.1
+Requires-Dist: moviepy>=2.1.2
+Requires-Dist: nbformat>=5.10.4
+Requires-Dist: nltk>=3.9.1
+Requires-Dist: numba>=0.61.2
+Requires-Dist: numpy>=2.2.4
+Requires-Dist: ollama>=0.4.8
+Requires-Dist: openai>=1.66.3
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pandas-datareader>=0.10.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: pdfminer-six>=20250506
+Requires-Dist: plotly>=6.0.1
+Requires-Dist: pyarrow>=19.0.1
+Requires-Dist: pycairo>=1.28.0
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: pymupdf4llm>=0.0.17
+Requires-Dist: pymupdf>=1.25.4
+Requires-Dist: pynndescent>=0.5.13
+Requires-Dist: pypandoc>=1.15
+Requires-Dist: pypdf2>=3.0.1
+Requires-Dist: python-docx>=1.1.2
+Requires-Dist: pytubefix>=8.12.2
+Requires-Dist: pyvis>=0.3.2
+Requires-Dist: reportlab>=4.3.1
+Requires-Dist: scikit-image>=0.25.2
+Requires-Dist: scikit-learn>=1.6.1
+Requires-Dist: scipy>=1.15.2
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: seleniumbase>=4.35.7
+Requires-Dist: simpleaudio>=1.0.4
+Requires-Dist: spacy>=3.8.4
+Requires-Dist: sqlalchemy>=2.0.39
+Requires-Dist: statsmodels>=0.14.4
+Requires-Dist: thefuzz>=0.22.1
+Requires-Dist: tls-client>=1.0.1
+Requires-Dist: tokenizers>=0.21.1
+Requires-Dist: torch>=2.6.0
+Requires-Dist: torchvision>=0.21.0
+Requires-Dist: tqdm>=4.67.1
+Requires-Dist: transformers>=4.49.0
+Requires-Dist: treelib>=1.7.1
+Requires-Dist: umap-learn>=0.5.7
+Requires-Dist: xlsxwriter>=3.2.2
+Description-Content-Type: text/markdown
+
+# miToolsPro
+
+<img src="assets/mitoolspro-banner.png" width="1280" alt="Banner Image">
+
+---
+
+miToolsPro is a powerful Python package that provides a comprehensive suite of tools for data analysis, visualization, and project management. It is designed to streamline workflows and enhance productivity in data science and research projects with integrated functionalities that allow for complex analyses of varying data types.
+
+## Features
+
+### Data Visualization
+- Advanced plotting capabilities with customizable parameters
+- Support for various plot types:
+  - Bar plots
+  - Box plots
+  - Distribution plots
+  - Error plots
+  - Histograms
+  - Line plots
+  - Pie charts
+  - Scatter plots
+- Flexible plot composition, customization, and integrated store/load functionality
+- High-quality output with configurable DPI and formats
+
+### Clustering Analysis
+- Implementation of popular clustering algorithms:
+  - K-means clustering
+  - Agglomerative clustering
+- Comprehensive clustering evaluation tools:
+  - Centroid analysis
+  - Distance calculations
+  - Similarity metrics
+  - Cluster size analysis
+- Visualization tools for cluster analysis:
+  - Cluster growth plots
+  - Silhouette score analysis
+  - Distribution plots
+  - Cluster groupings visualization
+
+### Economic Complexity Analysis
+- Tools for calculating economic complexity indices
+- Export matrix analysis
+- Proximity matrix calculations
+- Relatedness matrix analysis
+- Distribution visualization for economic indicators
+
+### Project Management
+- Structured project organization
+- Version control for project files
+- Automated backup system
+- Project metadata management
+- File organization and tracking
+
+### Google Places Integration
+- Comprehensive Google Places API integration
+- Place search and analysis
+- Geospatial visualization
+- Customizable place type filtering
+- Detailed place information retrieval
+
+### Document Processing
+- PDF document analysis
+- Text extraction and processing
+- Document structure analysis
+- Layout analysis capabilities
+
+## Requirements
+- Python >= 3.12
+- Comprehensive set of dependencies including:
+  - Data processing: pandas, numpy
+  - Visualization: matplotlib, seaborn
+  - Machine learning: scikit-learn, torch
+  - Geospatial: geopandas, folium
+  - Document processing: pdfminer, pymupdf
+  - And many more (see pyproject.toml for complete list)
+
+## Installation
+```bash
+uv pip install mitoolspro
+```
+
+## Quick Start
+Check out our comprehensive examples in the `examples/` directory:
+
+- [Clustering Analysis](examples/clustering.ipynb): Examples of clustering analysis and visualization
+- [Google Places Integration](examples/google_places.ipynb): Google Places API integration examples
+- [Network Analysis](examples/networks.ipynb): Network analysis and visualization examples
+- [Plotting Examples](examples/plotting/): Various plotting examples and use cases
+- [Regression Analysis](examples/regressions/): Regression analysis examples
+
+Each example notebook provides detailed code snippets and explanations to help you get started with miToolsPro.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Sebastián Montagna
