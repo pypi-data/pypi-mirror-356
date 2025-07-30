@@ -1,0 +1,2 @@
+[console_scripts]
+redbee-mcp = redbee_mcp.__main__:main
