@@ -1,0 +1,14 @@
+numpy>=1.10
+toolz
+cytoolz
+dask
+h5py>=2.6.0
+matplotlib>=2.0.0
+six
+joblib>=0.11.0
+ipywidgets
+ipython
+scikit-learn
+ase
+ipympl
+dill
