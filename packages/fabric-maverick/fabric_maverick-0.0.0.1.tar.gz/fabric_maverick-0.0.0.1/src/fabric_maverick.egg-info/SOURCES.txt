@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fabric_maverick.egg-info/PKG-INFO
+src/fabric_maverick.egg-info/SOURCES.txt
+src/fabric_maverick.egg-info/dependency_links.txt
+src/fabric_maverick.egg-info/requires.txt
+src/fabric_maverick.egg-info/top_level.txt
+src/knnpy/__init__.py
+src/knnpy/base.py
+src/knnpy/comparers.py
+src/knnpy/report.py
+src/knnpy/token_provider.py
+src/knnpy/utils.py
+src/knnpy/validators.py

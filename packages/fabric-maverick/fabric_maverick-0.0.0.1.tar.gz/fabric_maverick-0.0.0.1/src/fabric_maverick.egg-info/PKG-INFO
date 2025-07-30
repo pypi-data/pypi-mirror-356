@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: fabric_maverick
+Version: 0.0.0.1
+Summary: Package for semantic level validation
+Author: Nisarg Patel
+Author-email: Nisarg Patel <nisargp@maqsoftware.com>
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: semantic-link-sempy>=0.11.0
+Dynamic: author
+Dynamic: license-file
+Dynamic: requires-python
