@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: readonly-fs-tools
+Version: 0.1.0
+Summary: Three safe tools for agentic code analysis
+Author: Brett Harvey
+License-Expression: MIT
+Requires-Dist: pydantic>=2.0
+Requires-Python: >=3.9
+Project-URL: CI, https://github.com/rbharvs/readonly-fs-tools/actions
+Project-URL: Changelog, https://github.com/rbharvs/readonly-fs-tools/releases
+Project-URL: Homepage, https://github.com/rbharvs/readonly-fs-tools
+Project-URL: Issues, https://github.com/rbharvs/readonly-fs-tools/issues
+Description-Content-Type: text/markdown
+
+# readonly-fs-tools
+Three safe tools for agentic code analysis
