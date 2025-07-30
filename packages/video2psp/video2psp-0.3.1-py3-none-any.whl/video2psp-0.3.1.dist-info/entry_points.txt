@@ -1,0 +1,2 @@
+[console_scripts]
+video2psp = video2psp.psp:main
