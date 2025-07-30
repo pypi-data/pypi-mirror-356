@@ -1,0 +1,41 @@
+---
+$schema: "http://json-schema.org/draft-07/schema#"
+
+name: AWS sigv4 auth schema
+desc: jsonschema for AWS sigv4 auth
+
+properties:
+    aws:
+        type: object
+        description: AWS sigv4 auth configuration
+        additionalProperties: false
+        properties:
+            access_key:
+                type: string
+                description: This is your AWS access ID
+            secret_key:
+                type: string
+                description: This is your AWS secret access key
+            region:
+                type: string
+                description: >-
+                    The region you're connecting to, as per the list at 
+                    http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region 
+                    e.g. us-east-1. For services which don't require a region
+                    (e.g. IAM), use us-east-1.
+            service:
+                type: string
+                description: >-
+                    The name of the service you're connecting to, as per endpoints at
+                    http://docs.aws.amazon.com/general/latest/gr/rande.html 
+                    e.g. elasticbeanstalk.
+            session_token:
+                type: string
+                description: >-
+                    If session_token is set, then it is used for the x-amz-security-token
+                    header, for use with STS temporary credentials.
+        required:
+            - access_key
+            - secret_key
+            - region
+            - service
