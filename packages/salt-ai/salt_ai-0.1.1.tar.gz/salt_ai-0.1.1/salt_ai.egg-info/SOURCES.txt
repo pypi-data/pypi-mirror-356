@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+salt_ai.egg-info/PKG-INFO
+salt_ai.egg-info/SOURCES.txt
+salt_ai.egg-info/dependency_links.txt
+salt_ai.egg-info/top_level.txt
+saltai/__init__.py

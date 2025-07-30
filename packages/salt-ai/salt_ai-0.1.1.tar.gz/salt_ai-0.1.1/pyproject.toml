@@ -1,0 +1,37 @@
+[project]
+name = "salt-ai"
+version = "0.1.1"
+description = ""
+authors = [
+    { name = "D1ffic00lt", email = "dm.filinov@gmail.com" },
+    { name = "Cubigator", email = "sergeychuprin2006@gmail.com" }
+]
+maintainers = [
+    { name = "D1ffic00lt", email = "dm.filinov@gmail.com" },
+    { name = "Cubigator", email = "sergeychuprin2006@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["salt", "ai", "machine-learning"]
+
+[project.urls]
+repository = "https://github.com/D1ffic00lt/salt-ai"
+"Bug Tracker" = "https://github.com/D1ffic00lt/salt-ai/issues"
+
+
+[tool.setuptools.packages.find]
+include = ["saltai"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
