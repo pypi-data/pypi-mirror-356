@@ -1,0 +1,16 @@
+mangoapi/__init__.py,sha256=WtuSEHCZ3kVrGyG4D2Um0OyCMmOXSRu-eUQ25JBfyEU,184
+mangoapi/app.py,sha256=GaEzglU_q_AqQNvsXZpDoNRKc6qMTxmibYJ-XyjFWdc,1554
+mangoapi/cli.py,sha256=P0nKLZyFeyuuwqhlnRJH7_aXksJkqe25U2k1A1XxG84,1289
+mangoapi/decorators.py,sha256=V0QgYavdnAZd7TUQY2WKwWbptZhT6kSDnOOdaijw9BE,335
+mangoapi/exceptions.py,sha256=8L7YD5dqi4K_VZfuCd20qEDfcf4xw1npa9MKCFoJOsA,821
+mangoapi/logging.py,sha256=4rzFEexEEKdZ9yZIYQTcoj9bMjo7GQCHEsGyoceZBU4,598
+mangoapi/router.py,sha256=WBBNI336dJUk12WGwo7Z3hjw9PxCjgtGfX8zs3_pyb0,4010
+mangoapi/serializer.py,sha256=mPnd97h9ILQBPU-xs7jDsD04h0d_bwdsQRypPYiFSN4,3889
+mangoapi/utils.py,sha256=SSixWhUuO75Zx_D4nTPsbA8axkXpGIoNQRCtRO19nU4,2212
+mangoapi/validators.py,sha256=1oxR8hpOC85pfIfPg70e3Vl8PR5cKTcx-OvlnEUfZBs,3844
+mangoapi_framework-0.1.0a1.dist-info/licenses/LICENSE,sha256=tpdXAwsNEf-Ir-q6R22ATJO9y52fHY5AIoa9PwOZjhc,11362
+mangoapi_framework-0.1.0a1.dist-info/METADATA,sha256=G0NkhCgCX9aDdf31q2S3oKbvrynWp_sIalUToe0eFIs,2900
+mangoapi_framework-0.1.0a1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+mangoapi_framework-0.1.0a1.dist-info/entry_points.txt,sha256=68yGI0d4IbRVtYNuLRmbYU2mwt5-cuvpSWlo2K9aTm0,47
+mangoapi_framework-0.1.0a1.dist-info/top_level.txt,sha256=H5NufeK50At0z_uKqnpvN3IJJ6CEQYv33b8hMAgPuiE,9
+mangoapi_framework-0.1.0a1.dist-info/RECORD,,
