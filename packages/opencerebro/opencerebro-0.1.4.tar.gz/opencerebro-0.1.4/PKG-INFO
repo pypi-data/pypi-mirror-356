@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: opencerebro
+Version: 0.1.4
+Summary: A framework for building and orchestrating autonomous agents
+License: MIT
+Author: Prahlad Inala
+Author-email: prahlad.inala@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: opencerebro-agent-toolformer (>=0.1.0,<0.2.0)
+Requires-Dist: opencerebro-orchestrator-mcp (>=0.1.1,<0.2.0)
+Requires-Dist: opencerebro-tool-embed-sci (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# open-cerebro
+
+Overview of entire project 
