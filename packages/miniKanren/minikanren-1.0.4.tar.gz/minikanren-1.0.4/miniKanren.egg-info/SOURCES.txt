@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+kanren/__init__.py
+kanren/assoccomm.py
+kanren/constraints.py
+kanren/core.py
+kanren/facts.py
+kanren/goals.py
+kanren/graph.py
+kanren/py.typed
+kanren/term.py
+kanren/util.py
