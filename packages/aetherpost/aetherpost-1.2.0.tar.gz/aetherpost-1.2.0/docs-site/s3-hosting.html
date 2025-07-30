@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Hosting - AetherPost Documentation</title>
+    <meta name="description" content="Deploy documentation on AWS S3 free tier">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1><a href="../index.html">🚀 AetherPost</a></h1>
+                <span class="tagline">Promotion as Code</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="getting-started.html">Getting Started</a></li>
+                <li><a href="api-reference.html">API Reference</a></li>
+                <li><a href="contributing.html">Contributing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="doc-page">
+                <h1>AetherPost Documentation</h1>
+                
+<h2>What is AetherPost?</h2>
+<p>AetherPost is a <strong>Terraform-style</strong> automation tool that brings Infrastructure as Code principles to social media promotion. Perfect for developers who want to systematically promote their projects without manual social media management.</p>
+
+<h2>Core Workflow</h2>
+<p>AetherPost follows a simple 3-step process:</p>
+<ol>
+<li><strong>Init</strong> - Set up your project and configure platforms</li>
+<li><strong>Plan</strong> - Preview AI-generated content before posting</li>
+<li><strong>Apply</strong> - Deploy your promotion campaign to multiple platforms</li>
+</ol>
+
+<h2>Supported Platforms</h2>
+<ul>
+<li><strong>Twitter</strong> - Automated tweets with engagement optimization</li>
+<li><strong>Reddit</strong> - Strategic subreddit posting with community guidelines</li>
+<li><strong>YouTube</strong> - Video content and community posts</li>
+</ul>
+
+<h2>Key Features</h2>
+<ul>
+<li>🤖 <strong>AI Content Generation</strong> - Contextual posts tailored to each platform</li>
+<li>🌍 <strong>Multi-Language Support</strong> - Generate content in 20+ languages (Japanese, Spanish, French, German, Korean, Chinese, etc.)</li>
+<li>📋 <strong>Preview Before Deploy</strong> - See exactly what will be posted</li>
+<li>🎯 <strong>Configuration as Code</strong> - YAML-based campaign definitions</li>
+<li>🔄 <strong>Terraform Workflow</strong> - Familiar init, plan, apply, destroy commands</li>
+<li>⚡ <strong>One-Command Setup</strong> - Automatic dependency installation with language selection</li>
+</ul>
+
+## 🚀 Quick Start
+
+```bash
+pip install aetherpost
+aetherpost init
+aetherpost plan
+aetherpost apply
+```
+
+<h2>Getting Started</h2>
+
+<h3>Multi-Language Campaign Examples</h3>
+<pre><code># Japanese Campaign
+name: "ai-app-jp"
+content:
+  language: ja
+  style: casual
+  action: "今すぐ試してみてください！"
+  hashtags: ["#AI", "#生産性", "#ツール"]
+
+# Spanish Campaign  
+name: "ai-app-es"
+content:
+  language: es
+  style: professional
+  action: "Pruébalo ahora"
+  hashtags: ["#IA", "#Productividad"]</code></pre>
+
+<h3>Basic Usage</h3>
+<pre><code># Preview your campaign (in selected language)
+aetherpost plan
+
+# Deploy to platforms
+aetherpost apply
+
+# Clean up posts if needed
+aetherpost destroy</code></pre>
+
+<h2>Documentation Access</h2>
+<p>This documentation is available at: <strong>https://aetherpost-docs.s3-website-ap-northeast-1.amazonaws.com</strong></p>
+
+<h2>Supported Languages</h2>
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; margin: 20px 0;">
+<p><strong>🌍 20+ Languages Supported:</strong></p>
+<ul style="columns: 2; column-gap: 30px;">
+<li><strong>en</strong> - English</li>
+<li><strong>ja</strong> - Japanese (日本語)</li>
+<li><strong>es</strong> - Spanish (Español)</li>
+<li><strong>fr</strong> - French (Français)</li>
+<li><strong>de</strong> - German (Deutsch)</li>
+<li><strong>ko</strong> - Korean (한국어)</li>
+<li><strong>zh</strong> - Chinese (中文)</li>
+<li><strong>pt</strong> - Portuguese (Português)</li>
+<li><strong>ru</strong> - Russian (Русский)</li>
+<li><strong>ar</strong> - Arabic (العربية)</li>
+<li><strong>hi</strong> - Hindi (हिन्दी)</li>
+<li><strong>th</strong> - Thai (ไทย)</li>
+<li><strong>vi</strong> - Vietnamese (Tiếng Việt)</li>
+<li><strong>tr</strong> - Turkish (Türkçe)</li>
+<li><strong>nl</strong> - Dutch (Nederlands)</li>
+<li><strong>sv</strong> - Swedish (Svenska)</li>
+<li><strong>da</strong> - Danish (Dansk)</li>
+<li><strong>no</strong> - Norwegian (Norsk)</li>
+<li><strong>fi</strong> - Finnish (Suomi)</li>
+<li><strong>it</strong> - Italian (Italiano)</li>
+</ul>
+</div>
+
+<h2>Next Steps</h2>
+<ul>
+<li><a href="getting-started.html">📚 Getting Started Guide</a> - Complete setup instructions</li>
+<li><a href="api-reference.html">🔧 API Reference</a> - Detailed command documentation</li>
+<li><a href="configuration.html">⚙️ Configuration</a> - Customize your campaigns</li>
+<li><strong>🌍 Multi-Language Examples</strong> - Check <code>examples/multilang-campaign.yaml</code></li>
+</ul>
+<h2>Community & Support</h2>
+<ul>
+<li><strong>GitHub</strong>: <a href="https://github.com/fununnn/aetherpost">View source code and report issues</a></li>
+<li><strong>Issues</strong>: <a href="https://github.com/fununnn/aetherpost/issues">Bug reports and feature requests</a></li>
+<li><strong>Discussions</strong>: <a href="https://github.com/fununnn/aetherpost/discussions">Community Q&A</a></li>
+</ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AetherPost</h3>
+                    <p>Making social media automation accessible to developers.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Documentation</h4>
+                        <ul>
+                            <li><a href="getting-started.html">Getting Started</a></li>
+                            <li><a href="api-reference.html">API Reference</a></li>
+                            <li><a href="configuration.html">Configuration</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="contributing.html">Contributing</a></li>
+                            <li><a href="https://github.com/fununnn/aetherpost">GitHub</a></li>
+                            <li><a href="https://github.com/fununnn/aetherpost/issues">Issues</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AetherPost. Licensed under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
