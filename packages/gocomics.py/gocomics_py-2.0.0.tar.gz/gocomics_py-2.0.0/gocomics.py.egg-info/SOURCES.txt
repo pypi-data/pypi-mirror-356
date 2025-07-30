@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+gocomics/__init__.py
+gocomics/comic.py
+gocomics/endpoints.py
+gocomics/utils.py
+gocomics.py.egg-info/PKG-INFO
+gocomics.py.egg-info/SOURCES.txt
+gocomics.py.egg-info/dependency_links.txt
+gocomics.py.egg-info/requires.txt
+gocomics.py.egg-info/top_level.txt
+tests/test_comic.py
+tests/test_utils.py
