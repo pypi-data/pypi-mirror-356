@@ -1,0 +1,31 @@
+[project]
+requires-python = ">=3.9"
+name = "fastkde"
+dynamic = ["version", "optional-dependencies", "description", "readme", "authors", "keywords"]
+dependencies = [
+    "numpy>=1.26.4",
+    "scipy",
+    "xarray",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+version = {file = ["REVISION"]}
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "toml",
+    "setuptools_scm>=4.1.2",
+    "numpy>=2.0.0",
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/fastkde/version.py"
