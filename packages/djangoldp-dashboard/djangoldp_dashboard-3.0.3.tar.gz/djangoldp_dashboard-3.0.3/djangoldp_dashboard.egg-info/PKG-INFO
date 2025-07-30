@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: djangoldp-dashboard
+Version: 3.0.3
+Summary: djangoldp dashboard package
+Home-page: http://git.startinblox.com/djangoldp_dashboard
+License: MIT
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# Django LDP Dashboard
+
+## Load sample dashboard
+
+```bash
+python manage.py loaddata /path/to/djangoldp_dashboard/fixtures/sample.json
+```
