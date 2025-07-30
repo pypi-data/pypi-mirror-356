@@ -1,0 +1,2 @@
+[console_scripts]
+divoom-gaming-gate = app.main:main
