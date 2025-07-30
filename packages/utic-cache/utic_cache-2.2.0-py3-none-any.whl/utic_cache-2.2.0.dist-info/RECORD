@@ -1,0 +1,11 @@
+utic-cache/__init__.py,sha256=BrJM5CRk8QxtIDDGC8SvemXz_8reRgJhx-YyaSuw6XA,131
+utic-cache/compat.py,sha256=-xVG_KVh0sd48T78CazHoqDYLJ86Zo6rurfJl6uw2Z4,872
+utic-cache/containers/__init__.py,sha256=iX-TA-r_a66q-Vr53R8JNyPTWFqmNRa4QgBdOojUmAc,44
+utic-cache/containers/lru.py,sha256=arfqYPpw3hZV9tjm8KmGcO6lqyyGtgN6L56CXWCob44,1219
+utic-cache/containers/ttl.py,sha256=vOBgtrRGeLyqf6FDNnEmolI7Mc6P2QkLDUaFu2FaWP8,4108
+utic-cache/controls.py,sha256=u9SnXfmVskuWdwBdfpe6siVx5zPvQdzIlhhms2LJjqM,2228
+utic-cache/key.py,sha256=-RzKMHTfIcsL6gPZgOlCTI0U3R6jLISmHiKPMkTVOHQ,938
+utic_cache-2.2.0.dist-info/LICENSE,sha256=UCyRK8fMgFaQsDcpV0s89BHDkJtZ-0UEUg3znGcxIVk,1132
+utic_cache-2.2.0.dist-info/METADATA,sha256=fX21kMyRyw3JAQG0Er8iOaVZbBnKAp7cYZiXnHuUkts,2165
+utic_cache-2.2.0.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+utic_cache-2.2.0.dist-info/RECORD,,
