@@ -1,0 +1,5 @@
+pyttsx3
+playsound
+
+[:sys_platform == "darwin"]
+pyobjc
