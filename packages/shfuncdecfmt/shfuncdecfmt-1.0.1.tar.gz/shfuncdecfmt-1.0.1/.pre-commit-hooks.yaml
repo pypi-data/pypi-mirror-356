@@ -1,0 +1,6 @@
+-   id: shfuncdecfmt
+    name: Shell function declaration formatter
+    description: Shell function declaration formatter
+    entry: shfuncdecfmt
+    language: python
+    types: [shell]
