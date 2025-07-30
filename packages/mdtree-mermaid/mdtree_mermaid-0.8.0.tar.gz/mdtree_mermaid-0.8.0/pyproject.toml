@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdtree-mermaid"
+version = "0.8.0"
+description = "Convert markdown to html with TOC(table of contents) and Mermaid diagram support"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "menduo", email = "shimenduo@gmail.com"},
+]
+keywords = ["markdown", "toc", "tree", "html", "mermaid", "documentation", "converter"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing :: Filters",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "Topic :: Text Processing :: Markup :: Markdown",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "markdown>=3.0",
+    "pygments>=2.0",
+    "markdown-mermaidjs>=1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ltto/mdtree"
+"Bug Reports" = "https://github.com/ltto/mdtree/issues"
+"Source" = "https://github.com/ltto/mdtree"
+
+[project.scripts]
+mdtree = "mdtree.main:main"
+
+[tool.setuptools]
+packages = ["mdtree"]
+
+[tool.setuptools.package-data]
+mdtree = ["static/css/*.css", "static/js/*.js", "static/html/*.html"] 
