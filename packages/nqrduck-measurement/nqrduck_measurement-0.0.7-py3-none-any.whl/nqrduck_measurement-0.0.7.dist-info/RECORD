@@ -1,0 +1,14 @@
+nqrduck_measurement/__init__.py,sha256=rLvVToznKp4__9pPKRZnPEBK16co_Pgvefa--orrkXQ,190
+nqrduck_measurement/controller.py,sha256=vAJ8Hj0JyMpCmrJL93XMgP7PiW_BeeTyZ2w7ecnZZNQ,12200
+nqrduck_measurement/measurement.py,sha256=vAg0vPJkEwM2IVMejFqOIy6Rxo92tsuBFmnrQ5l-aOE,307
+nqrduck_measurement/model.py,sha256=Ou8yLl26k4oQ7fghcxV8r9lc8K5XngXlt2trbV15DhA,6153
+nqrduck_measurement/signalprocessing_options.py,sha256=mQ2D61zhBoYSWJX5ycfb4MafU8R-UdORHm8R7IMsV8c,2850
+nqrduck_measurement/view.py,sha256=sdbOQ6WwMEj1iX03jIbAP9MQIpWavgQC-VlFm5zjIPU,21973
+nqrduck_measurement/widget.py,sha256=voTHl6RBxd_RW_ryjXdg_Ty64ygwAWSvBRfq6-pNxx4,9123
+nqrduck_measurement/resources/measurement_widget.ui,sha256=PFNuC21KrbO7fyFKZoIJ0VpmmUEIUiUM_dg21xmbFGM,8047
+nqrduck_measurement/resources/mesurement.ini,sha256=qMbtH2ImzHsBYoo5v7vUVB_7O4yT8wpkXeK8ik16nq4,230
+nqrduck_measurement-0.0.7.dist-info/METADATA,sha256=QV-nFtS7760ZUmnfZhl-vU5va33N_Hn336ZA1MRCTsw,4982
+nqrduck_measurement-0.0.7.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+nqrduck_measurement-0.0.7.dist-info/entry_points.txt,sha256=EOqAAs2KDnRdXpDkDKUYTbdh-65ETVB4Hh0G03gz47Y,76
+nqrduck_measurement-0.0.7.dist-info/licenses/LICENSE,sha256=o5wva76OOX1_ay-xkzeOp-8ItiIqJYaAcZiD5wNoCjA,1062
+nqrduck_measurement-0.0.7.dist-info/RECORD,,

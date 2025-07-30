@@ -1,0 +1,107 @@
+Metadata-Version: 2.4
+Name: nqrduck-measurement
+Version: 0.0.7
+Summary: A module for the NQRduck program (a simple python script™) to perform single frequency measurements.
+Project-URL: Homepage, https://nqrduck.cool
+Project-URL: Bug Tracker, https://git.private.coffee/nqrduck/nqrduck-measurement/issues
+Project-URL: Source Code, https://git.private.coffee/nqrduck/nqrduck-measurement
+Author-email: jupfi <support@nqrduck.cool>
+License: MIT License
+        
+        Copyright (c) 2023 jupfi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: matplotlib
+Requires-Dist: nqrduck
+Requires-Dist: nqrduck-pulseprogrammer
+Requires-Dist: nqrduck-spectrometer
+Requires-Dist: pyqt6
+Requires-Dist: quackseq
+Requires-Dist: sympy
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: pydocstyle; extra == 'dev'
+Requires-Dist: pyupgrade; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# NQRduck Module: nqrduck-measurement
+
+A module for the [nqrduck](https://git.private.coffee/nqrduck/nqrduck) project. This module is used for single frequency magnetic resonance experiments.
+
+## Installation
+
+### Requirements
+
+Dependencies are handled via the pyproject.toml file.
+
+### Setup
+
+To install the module you need the NQRduck core. You can find the installation instructions for the NQRduck core [here](https://git.private.coffee/nqrduck/nqrduck).
+
+Ideally you should install the module in a virtual environment. You can create a virtual environment by running the following command in the terminal:
+
+```bash
+python -m venv nqrduck
+# Activate the virtual environment
+. nqrduck/bin/activate
+```
+
+You can install this module and the dependencies by running the following command in the terminal while the virtual environment is activated and you are in the root directory of this module:
+
+```bash
+pip install .
+```
+
+Alternatively, you can install the module and the dependencies by running the following command in the terminal while the virtual environment is activated:
+
+```bash
+pip install nqrduck-measurement
+```
+
+## Usage
+
+The module is used with the [Spectrometer](https://git.private.coffee/nqrduck/nqrduck-spectrometer) module. However you need to use an actual submodule of the spectrometer module like:
+
+- [nqrduck-spectrometer-limenqr](https://git.private.coffee/nqrduck/nqrduck-spectrometer-limenqr) A module used for magnetic resonance experiments with the LimeSDR (USB or Mini 2.0).
+- [nqrduck-spectrometer-simulator](https://git.private.coffee/nqrduck/nqrduck-spectrometer-simulator) A module used for simulating magnetic resonance experiments.
+
+The pulse sequence and spectrometer settings can be adjusted using the 'Spectrometer' tab.
+
+<img src="https://git.private.coffee/nqrduck/nqrduck-measurement/raw/0b28ae6b33230c6ca9eda85bd18de7cbcade27d1/docs/img/measurement_ui_labeled_v2.png" alt="drawing" width="800">
+
+- a.) The experiments settings for frequency and number of averages.
+- b.) The signal processing settings for the measurement.
+- c.) The 'Measurement Plot'. Here the measured data is displayed. One can switch time and frequency domain plots.
+- d.) The import and export buttons for the measurement data.
+
+You can then remove the folder of the virtual environment.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Contributing
+
+If you're interested in contributing to the project, start by checking out our [nqrduck-module template](https://git.private.coffee/nqrduck/nqrduck-module). To contribute to existing modules, please first open an issue in the respective module repository to discuss your ideas or report bugs.
