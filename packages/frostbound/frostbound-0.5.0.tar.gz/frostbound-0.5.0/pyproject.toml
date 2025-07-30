@@ -1,0 +1,77 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "frostbound"
+version = "0.5.0"
+description = "Enterprise-grade Python utilities."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "GAO Hongnan", email = "hongnangao@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.9.1",
+    "pyyaml>=6.0.2",
+    "rich",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "mypy>=1.16.0",
+    "pyright>=1.1.402",
+    "pytest>=8.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.14.1",
+    "ruff>=0.11.13",
+    "ty>=0.0.1a10",
+    "types-pyyaml>=6.0.12.20250516",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "mypy>=1.16.0",
+    "pyright>=1.1.402",
+    "pytest>=8.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.14.1",
+    "python-semantic-release>=10.1.0",
+    "ruff>=0.11.13",
+    "ty>=0.0.1a10",
+    "types-pyyaml>=6.0.12.20250516",
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["frostbound"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+asyncio_mode = "auto"
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:project.version"]
+major_on_zero = false
+allow_zero_version = true
+commit_parser = "conventional"
+
+[tool.semantic_release.branches.main]
+match = "main"
+prerelease = false
