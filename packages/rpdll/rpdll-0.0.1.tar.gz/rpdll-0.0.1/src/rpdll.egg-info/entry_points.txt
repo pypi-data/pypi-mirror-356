@@ -1,0 +1,2 @@
+[console_scripts]
+rpdll = rpdll.__main__:main

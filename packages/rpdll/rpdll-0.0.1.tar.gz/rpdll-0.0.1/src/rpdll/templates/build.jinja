@@ -1,0 +1,7 @@
+fn main() {
+    let dll_path = "{{ dll_path.split('.')[:-1] | join('.') | replace('\\', '\\\\') }}";
+
+    {%- for func_name, ordinal in exported_symbols %}
+    println!("cargo:rustc-link-arg=/EXPORT:{func_name}={dll_path}.{func_name},@{ordinal}", func_name="{{ func_name }}", ordinal={{ ordinal }});
+    {%- endfor %}
+}
