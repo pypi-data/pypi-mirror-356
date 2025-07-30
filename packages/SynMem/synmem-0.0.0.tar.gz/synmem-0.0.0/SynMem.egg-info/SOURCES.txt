@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SynMem/SynMem.py
+SynMem/__init__.py
+SynMem.egg-info/PKG-INFO
+SynMem.egg-info/SOURCES.txt
+SynMem.egg-info/dependency_links.txt
+SynMem.egg-info/top_level.txt
