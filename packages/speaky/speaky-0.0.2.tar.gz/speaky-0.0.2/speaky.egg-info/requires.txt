@@ -1,0 +1,11 @@
+chatterbox-tts>=0.1.0
+torch>=2.2
+torchaudio>=2.2
+typer>=0.12
+nltk>=3.8
+modal>=1.0.4
+pathspec
+numpy>=1.26
+scipy>=1.11
+transformers>=4.36
+accelerate>=0.24
