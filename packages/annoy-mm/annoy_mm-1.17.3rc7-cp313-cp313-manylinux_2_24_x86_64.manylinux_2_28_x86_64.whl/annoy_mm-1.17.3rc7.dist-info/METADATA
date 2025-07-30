@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: annoy-mm
+Version: 1.17.3rc7
+Summary: Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk.
+Home-page: https://github.com/spotify/annoy
+Author: Erik Bernhardsson
+Author-email: mail@erikbern.com
+License: Apache License 2.0
+Keywords: nns,approximate nearest neighbor search
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: summary
+
+.. note::
+
+   For the latest source, discussion, etc, please visit the
+   `GitHub repository <https://github.com/spotify/annoy>`_
+
+
+
+.. image:: https://img.shields.io/github/stars/spotify/annoy.svg
+    :target: https://github.com/spotify/annoy
+
