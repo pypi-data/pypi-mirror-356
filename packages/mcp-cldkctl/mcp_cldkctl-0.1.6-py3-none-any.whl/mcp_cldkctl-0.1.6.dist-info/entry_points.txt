@@ -1,0 +1,2 @@
+[console_scripts]
+mcp_cldkctl = mcp_cldkctl.__main__:main
