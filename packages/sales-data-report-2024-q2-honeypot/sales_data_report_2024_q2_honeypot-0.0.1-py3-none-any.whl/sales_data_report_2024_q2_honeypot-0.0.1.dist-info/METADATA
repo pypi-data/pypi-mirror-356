@@ -1,0 +1,28 @@
+Metadata-Version: 2.2
+Name: sales-data-report-2024-q2-honeypot
+Version: 0.0.1
+Summary: This is a demo sales report package for Q2 2024. For more details, please refer to: http://nonoyas.pythonanywhere.com/honey.gif?token=sales_report_2024_Q2
+Home-page: https://github.com/your-github-username/sales-report-demo-2024-q2
+Author: duckoo
+Author-email: nonoyas@naver.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# Sales Report Demo Package
+
+This is a demo package to illustrate the structure of a sales report for Q2 2024.
+
+For more detailed information, please refer to:
+http://nonoyas.pythonanywhere.com/honey.gif?token=sales_report_2024_Q2
