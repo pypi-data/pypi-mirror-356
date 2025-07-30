@@ -1,0 +1,15 @@
+promoterai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+promoterai/architecture.py,sha256=LWnPDjWv3UMnWu7ESApsZFJdTGzMpEiI2UqV62Lrn3I,2585
+promoterai/finetune.py,sha256=ayEx8gxLcayv7b5ESp03ir3aE5JhHgTQOUWKqx2I0MI,2320
+promoterai/generator.py,sha256=cen2HMqckjb3jg53o8ZfSSNhVoQ1J7JdmYCcDN0uZ3g,5179
+promoterai/preprocess.py,sha256=o-QwqipV41fpPk9pNJc85QzQNTv_LRcNNqPwcB-B7sk,1273
+promoterai/score.py,sha256=IlVTVQeFeJJtStwnAjFrbK8dcLhEjk5nET_t13G-NZE,1504
+promoterai/tfrecords.py,sha256=qWk_9NCWPlnMfqLLvtNA-a8WzYw3AwVeQBuJ39pIM5c,3803
+promoterai/train.py,sha256=CO419GuwPnP6z9tupmV0IbvKzHIzyol5B_NWOrjcaoA,2745
+promoterai/utils.py,sha256=Cn1g8wXvic0bzniwLc9-9g66vnH1PNOgLDr_oEYa8Ao,1478
+promoterai-1.0rc5.dist-info/licenses/LICENSE,sha256=4jYfUq1b4iuTem6YPIJKU0xc_6RUtsNK8vjODCzffBo,3593
+promoterai-1.0rc5.dist-info/METADATA,sha256=-zf7efIjLJPBX7VjZTnZ4rLYPy1RE4lqHmvBytc9GwA,5847
+promoterai-1.0rc5.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+promoterai-1.0rc5.dist-info/entry_points.txt,sha256=YCE7xc4oobcf2mcND7yKdxpYni4JUvuULaejyCMOntI,53
+promoterai-1.0rc5.dist-info/top_level.txt,sha256=np5NHXn_z3OJg-mw30ncmEQvb4R5QIDlx7udE4xXDMU,11
+promoterai-1.0rc5.dist-info/RECORD,,
