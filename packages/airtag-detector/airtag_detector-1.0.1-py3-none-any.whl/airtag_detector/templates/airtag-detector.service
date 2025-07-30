@@ -1,0 +1,17 @@
+[Unit]
+Description=Apple AirTag Detector Service
+After=network.target bluetooth.service
+Requires=bluetooth.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/tmp
+ExecStart=/bin/bash -c 'if [ -f /usr/local/bin/airtag-detector ]; then /usr/local/bin/airtag-detector; elif [ -f ~/.local/bin/airtag-detector ]; then ~/.local/bin/airtag-detector; else /home/ubuntu/.local/bin/airtag-detector; fi'
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

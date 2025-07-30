@@ -1,0 +1,23 @@
+# HomeKit Configuration for AirTag Detector
+# Copy this file to config.py and update with your HomeKit device details
+
+# HomeKit Hub/Bridge Configuration
+HOMEKIT_HUB_IP = "192.168.1.100"  # IP address of your HomeKit hub (Apple TV, HomePod, etc.)
+HOMEKIT_HUB_PORT = 21063  # Default HomeKit port
+
+# Device Configuration
+HOMEKIT_DEVICE_NAME = "Smart Plug"  # Name of the plug in HomeKit
+HOMEKIT_DEVICE_ID = None  # Leave None to auto-discover, or set specific device ID
+
+# Authentication (will be generated on first run)
+HOMEKIT_PAIRING_DATA_FILE = "/home/ubuntu/dogpi/homekit_pairing.json"
+
+# Optional: Home Assistant Integration (alternative to direct HomeKit)
+# Uncomment and configure if using Home Assistant instead
+# HOME_ASSISTANT_URL = "http://192.168.1.50:8123"
+# HOME_ASSISTANT_TOKEN = "your_long_lived_access_token_here"
+# HOME_ASSISTANT_ENTITY_ID = "switch.smart_plug"
+
+# Detection Settings
+AUTO_TURN_ON_DELAY = 30  # Seconds to wait after no detection before turning plug back on
+DEBUG_HOMEKIT = True  # Enable detailed HomeKit logging
