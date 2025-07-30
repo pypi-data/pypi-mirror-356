@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modular_pipeline"
+version = "0.2.6"
+description = "A library for building modular pipelines in Python"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  {name = "Brandyn Hamilton", email = "brandynham1120@gmail.com"},
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "plotly",
+  "kaleido",
+  "pyairtable==2.3.5",
+  "python-dotenv",
+  "google-analytics-data",
+  "google-auth-oauthlib",
+  "google-api-python-client",
+  "streamlit"
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/BrandynHamilton/Data-Pipeline"

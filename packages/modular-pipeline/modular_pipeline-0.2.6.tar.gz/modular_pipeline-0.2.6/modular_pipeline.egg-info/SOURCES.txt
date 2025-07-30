@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+modular_pipeline.egg-info/PKG-INFO
+modular_pipeline.egg-info/SOURCES.txt
+modular_pipeline.egg-info/dependency_links.txt
+modular_pipeline.egg-info/requires.txt
+modular_pipeline.egg-info/top_level.txt
+pipeline/__init__.py
+pipeline/scripts/__init__.py
+pipeline/scripts/pipeline.py
+pipeline/scripts/pipeline_utils.py
