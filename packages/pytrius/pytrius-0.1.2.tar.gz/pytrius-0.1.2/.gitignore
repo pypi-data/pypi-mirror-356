@@ -1,0 +1,9 @@
+.project
+.settings
+.classpath
+/target/
+/bin/
+.metadata/
+/.checkstyle
+__pycache__/
+*.pyc

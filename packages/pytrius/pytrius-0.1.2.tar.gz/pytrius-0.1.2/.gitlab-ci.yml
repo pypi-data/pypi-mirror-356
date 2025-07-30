@@ -1,0 +1,179 @@
+stages:
+  - build
+  - quality
+  - test
+  - sonarqube
+
+# Default configuration for all jobs
+default:
+  tags:
+    - Usine_Logicielle
+  after_script:
+    - step=after_script
+    - !reference [.step_start, script]
+    # DISPLAY ENV FOR DEBUGGING
+    # Les identifiants secrets sont masqués automatiquement par Gitlab-CI.
+    - env -0 | sort -z | tr '\0' '\n'
+    - !reference [.step_stop, script]
+
+    
+
+variables:
+  CI: "true"
+  ARTIFACTORY_URL: "artifactory.cnes.fr/docker"
+  ARTIFACTORY_HOST: "artifactory.cnes.fr"
+  ARTIFACTORY_HTTPS_URL: "https://${ARTIFACTORY_HOST}/artifactory"
+  TAG_IMAGE_DOCKER: "publicremotes-docker/docker:27-dind"
+  TAG_IMAGE_PYTHON: "publicremotes-docker/python:3.10-bullseye"
+  TAG_IMAGE_MAVEN:  "publicremotes-docker/maven:3-eclipse-temurin-19"
+  PATH_M2_REPO: ".m2/repository"
+  TAG_IMAGE_SONAR: "sonarsource/sonar-scanner-cli:4.8"
+  SONARQUBE_TOKEN: "${SONAR_TOKEN}"
+  JFROG_VERSION: "v2/2.14.0"
+  JFROG_OS: "jfrog-cli-linux-amd64"
+  JFROG_CLI_HOME_DIR: ".jfrog/"
+  JFROG_CLI_TEMP_DIR: ".jfrog_tmp"
+  # Variables pour le développement de l'application
+  #---------------------------
+  # Necessaire pour le virtual env pour ne pas partir en timeout car internet n'est pas configure
+  PIP_INDEX_URL : "https://${ARTIFACTORY_USER}:${ARTIFACTORY_TOKEN}@${ARTIFACTORY_HOST}/artifactory/api/pypi/pypi/simple"
+  PIP_CERT: "${CNES_CERTIFICATE}"
+  # Variable pour deplacer le dossier de cache de pip dans le workspace
+  PIP_CACHE_DIR: "${WORKSPACE}/.pip-cache/"
+
+#########
+# UTILS #
+#########
+
+# Affichage de début d'étape
+.step_start:
+  script:
+    - echo -e "\e[0Ksection_start:`date +%s`:$step[collapsed=true]\r\e[0K$step"
+
+# Affichage de fin d'étape
+.step_stop:
+  script:
+    - echo -e "\e[0Ksection_end:`date +%s`:$step\r\e[0K"
+
+
+build-maven:
+  stage: build
+  image: ${ARTIFACTORY_HOST}/${TAG_IMAGE_MAVEN}
+  before_script:
+    - mkdir ${JFROG_CLI_TEMP_DIR}
+    # Installation de Jfrog CLI 2.14.0 (18 mars 2022)
+    - curl -sS --cacert ${CNES_CERTIFICATE} -u ${ARTIFACTORY_USER}:${ARTIFACTORY_TOKEN} -O "https://${ARTIFACTORY_HOST}/artifactory/jfrog-cli-go-remote/${JFROG_VERSION}/${JFROG_OS}/jfrog"
+    # On donne les permissions pour utiliser la commande jfrog
+    - chmod 755 jfrog
+    # Définition d'un UUID unique
+    - export UUID=$(cat /proc/sys/kernel/random/uuid)
+    # Export de UUID pour le faire passer entre les jobs
+    - touch uuid.txt
+    - echo ${UUID} > uuid.txt
+    # Uniquement pour Maven avec JFrog Cli
+    # Spécifie les informations pour télécharger les dépendances nécessaires a l'utilisation de JFrog Cli
+    - export JFROG_CLI_RELEASES_REPO="${UUID}/jfrogcli-maven-new-remote"
+    # Ajout des certificats du CNES dans jfrog CLI pour accéder à Artifactory en HTTPS
+    - mkdir -p "${JFROG_CLI_HOME_DIR}security/certs/"
+    - cp ${CNES_CERTIFICATE} "${JFROG_CLI_HOME_DIR}security/certs/"
+    # Ajout un seul certificat du CNES dans java pour accéder à Artifactory en HTTPS. C'est lié à une limitation de Keytool
+    - keytool -importcert -alias artifactory -file "/certs-cnes/AC_TECHNIQUE_SERVEURS_2028.crt" -keystore ${JAVA_HOME}/lib/security/cacerts -storepass changeit -noprompt
+  script:
+    - mkdir -p "${PATH_M2_REPO}"
+    # Configuration de jfrog CLI 
+    - ./jfrog config add ${UUID} --artifactory-url=https://${ARTIFACTORY_HOST}/artifactory  --access-token=${ARTIFACTORY_TOKEN}
+    - ./jfrog mvn-config --server-id-deploy ${UUID} --repo-deploy-snapshots pytrius-maven --repo-deploy-releases pytrius-maven --server-id-resolve ${UUID} --repo-resolve-releases testci-maven --repo-resolve-snapshots testci-maven-dev
+    # Build avec jfrog CLI et Maven sans upload les artefacts
+    # - ./jfrog mvn clean install -B -Dartifactory.publish.artifacts=false -Dmaven.repo.local="${PATH_M2_REPO}"
+
+build_python:
+  stage: build
+  image: ${ARTIFACTORY_HOST}/${TAG_IMAGE_PYTHON}
+
+  before_script:
+    # Installation of jfrog CLI and other steps
+    - curl -sS --cacert ${CNES_CERTIFICATE} -u ${ARTIFACTORY_USER}:${ARTIFACTORY_PWD} -O "https://${ARTIFACTORY_HOST}/artifactory/jfrog-cli-go-remote/${JFROG_VERSION}/${JFROG_OS}/jfrog"
+    - chmod 755 jfrog
+    - export UUID=$(cat /proc/sys/kernel/random/uuid)
+    - touch uuid.txt
+    - echo ${UUID} > uuid.txt
+    - ./jfrog config add ${UUID} --artifactory-url=https://${ARTIFACTORY_HOST}/artifactory --access-token=${ARTIFACTORY_PWD}
+    - mkdir -p "${JFROG_CLI_HOME_DIR}/security/certs/"
+    - cp ${CNES_CERTIFICATE} "${JFROG_CLI_HOME_DIR}/security/certs/"
+
+  script:
+    - pip install virtualenv 
+    - virtualenv python_env
+    - source python_env/bin/activate
+    - ./jfrog pip-config --server-id-resolve=${UUID} --repo-resolve=pypi
+    - ./jfrog rt pip-install -r requirements.txt --no-cache-dir --force-reinstall 
+    - deactivate
+  artifacts:
+    untracked: true
+    expire_in: 1 day
+
+pytest:
+    stage: quality
+    image: ${ARTIFACTORY_HOST}/${TAG_IMAGE_PYTHON}
+
+    script:
+        - curl -sS --cacert ${CNES_CERTIFICATE} -u ${ARTIFACTORY_USER}:${ARTIFACTORY_PWD} -O ${ARTIFACTORY_HTTPS_URL}/conda-free-remote-cache/linux-64/openjdk-8.0.121-1.tar.bz2
+        - tar -xvjf openjdk-8.0.121-1.tar.bz2 -C .
+        - pwd
+        - export JAVA_HOME=$(pwd)/jre/lib/amd64/server/libjvm.so
+        - export PATH=$JAVA_HOME/bin:$PATH
+        - echo $JAVA_HOME
+        - source python_env/bin/activate
+        - pip install --upgrade pip
+        - pip install --no-cache-dir -r requirements.txt
+        - pip install --no-cache-dir jpype1
+        - pip install --use-pep517 -e .
+        - export PYTHONPATH=$(pwd):$PYTHONPATH
+        - python -m pytest --cov=pytrius --cov-report=xml:.coverage-reports/coverage.xml
+        - deactivate
+    artifacts:
+        expire_in: 1 day
+        reports:
+            coverage_report:
+              coverage_format: cobertura
+              path: ./.coverage-reports/coverage.xml
+        paths:
+          - ./.coverage-reports/coverage.xml
+
+
+pylint:
+  stage: quality
+  image: ${ARTIFACTORY_HOST}/${TAG_IMAGE_PYTHON}
+  needs:
+    - build_python
+  script:
+    - source python_env/bin/activate
+    - pip list --verbose
+    - pylint . --recursive=y --rcfile=pylintrc_RNC2015_C --exit-zero --halt-on-invalid-sonar-rules n > pylint_report.json
+    - head -n 20 pylint_report.json
+    - grep -i -E "warning|error" pylint_report.json || exit 0
+  artifacts:
+    untracked: true
+    expire_in: 1 day
+
+sonarqube:
+  stage: sonarqube
+  image: artifactory.cnes.fr/docker/sonarsource/sonar-scanner-cli:5.0.1
+  variables:
+    # configuration of sonar-scanner
+    GIT_DEPTH: 0  # Prevent clone shallow error
+  cache:
+    paths:
+      - .sonar/cache
+  before_script:
+    - keytool -importcert -alias sonarqube -file "/certs-cnes/AC_TECHNIQUE_SERVEURS_2028.crt" -keystore ${JAVA_HOME}/lib/security/cacerts -storepass changeit -noprompt
+
+  script:
+    - sonar-scanner -Dsonar.projectKey=patrius_internal_pytrius_AZO2g-IxsgWkcFyT2rcZ
+
+  only:
+    - merge_requests
+    - master
+    - develop
+
+  allow_failure: true

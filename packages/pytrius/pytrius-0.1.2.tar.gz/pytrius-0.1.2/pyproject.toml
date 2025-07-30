@@ -1,0 +1,57 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "pytrius"
+version = "0.1.2"
+description = "This is a jpype wrapping of the original PATRIUS java code."
+readme = "README.md"
+authors = [{name = "Cloe Alcaria", email = "cloe.alcaria@cnes.fr"}]
+license = {text = "License :: OSI Approved :: Apache Software License"}
+requires-python = ">=3.6"
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Scientific/Engineering',
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'Jpype1',
+    'numpy'
+]
+
+[project.urls]
+source = "https://github.com/CNES/patrius"
+homepage = "https://patrius.cnes.fr/index.php/Accueil"
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "coverage",
+    "pytest-cov"
+]
+
+[pytest]
+testpaths = [
+    "test"
+]
+
+[tool.hatch.build.targets.wheel]
+# Hatch allows installing multiple packages: https://hatch.pypa.io/1.12/config/build/#packages
+packages = [
+    "pytrius",
+    "java-stubs", # stub-only package for the corresponding Java package https://peps.python.org/pep-0561/#stub-only-packages
+    "jpype-stubs", # stub-only package for the corresponding Java package https://peps.python.org/pep-0561/#stub-only-packages
+    "fr-stubs" # stub-only package for the corresponding Java package https://peps.python.org/pep-0561/#stub-only-packages
+]

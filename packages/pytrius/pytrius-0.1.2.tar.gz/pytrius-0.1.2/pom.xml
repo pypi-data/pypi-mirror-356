@@ -1,0 +1,140 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	<groupId>fr.cnes.dynvol</groupId>
+    <artifactId>pytrius</artifactId>
+    <name>pytrius</name>
+    <version>0.1.1</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.dependency.plugin.version>3.5.0</maven.dependency.plugin.version>
+        <exec.maven.plugin.version>3.1.0</exec.maven.plugin.version>
+		<patrius.version>4.16</patrius.version>
+        <patrius.dataset.version>1.4.6</patrius.dataset.version>
+        <python.executable>${env.PYTHON_HOME}/python.exe</python.executable>
+    </properties>
+
+    <dependencies>
+        <!-- CNES dependencies -->
+        <dependency>
+            <groupId>fr.cnes.sirius.patrius</groupId>
+            <artifactId>patrius</artifactId>
+            <version>${patrius.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>fr.cnes.sirius.addons</groupId>
+            <artifactId>patriusdataset</artifactId>
+            <version>${patrius.dataset.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>${maven.dependency.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>copy-patrius-dependencies</id> 
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeGroupIds>fr.cnes.sirius.patrius</includeGroupIds>
+                            <version>${patrius.version}</version>
+                            <outputDirectory>${basedir}/pytrius/jars</outputDirectory>
+                            <includes>**/*.jar</includes>
+                        </configuration>
+                    </execution>
+
+                    <!-- Copy Javadoc dependencies -->
+                    <execution>
+                        <id>copy-patrius-javadoc-dependencies</id>
+                        <phase>generate-resources</phase> <!-- Update phase -->
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeGroupIds>fr.cnes.sirius.patrius</includeGroupIds>
+                            <version>${patrius.version}</version>
+                            <classifier>javadoc</classifier>
+                            <outputDirectory>${basedir}/pytrius/jars</outputDirectory>
+                            <includes>**/*-javadoc.jar</includes>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>copy-patriusdataset-dependencies</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeGroupIds>fr.cnes.sirius.addons</includeGroupIds>
+                            <artifactId>patriusdataset</artifactId>
+                            <version>${patrius.dataset.version}</version>
+                            <outputDirectory>${basedir}/pytrius/jars</outputDirectory>
+                            <includes>**/*.jar</includes>
+                        </configuration>
+                    </execution>
+
+                    <!-- Copy dataset Javadoc dependencies -->
+                    <execution>
+                        <id>copy-patriusdataset-javadoc-dependencies</id>
+                        <phase>generate-resources</phase> <!-- Update phase -->
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeGroupIds>fr.cnes.sirius.addons</includeGroupIds>
+                            <artifactId>patriusdataset</artifactId>
+                            <version>${patrius.dataset.version}</version>
+                            <classifier>javadoc</classifier>
+                            <outputDirectory>${basedir}/pytrius/jars</outputDirectory>
+                            <includes>**/*-javadoc.jar</includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- This plugin will run the Python command -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${exec.maven.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>run-stubgenj</id>
+                        <!-- You can choose the phase of the lifecycle where this should run -->
+                        <phase>compile</phase>  <!-- You can change this to another phase -->
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <!-- Specify the Python executable -->
+                            <executable>${python.executable}</executable>  <!-- Uses the Python path defined above -->
+                            <arguments>
+                                <argument>-m</argument>
+                                <argument>stubgenj</argument>
+                                <argument>--convert-strings</argument>
+                                <argument>--classpath</argument>
+                                <argument>${basedir}/pytrius/jars/*.jar</argument>  <!-- Path to JARs -->
+                                <argument>fr.cnes.sirius.patrius</argument>
+                                <argument>fr.cnes.sirius.addons.patriusdataset</argument>
+                                <argument>java</argument>
+                            </arguments>
+                            <redirectErrorStream>true</redirectErrorStream> <!-- This will merge stderr with stdout -->
+                            <outputFile>${project.build.directory}/stubgenj-output.log</outputFile> 
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>
