@@ -1,0 +1,23 @@
+[package]
+name = "lox-earth"
+description = "Tools for Earth-based astrodynamics for the Lox ecosystem"
+version = "0.1.0-alpha.9"
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+lox-bodies.workspace = true
+lox-io.workspace = true
+lox-time.workspace = true
+lox-math.workspace = true
+
+fast_polynomial.workspace = true
+glam.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+float_eq.workspace = true
+rstest.workspace = true

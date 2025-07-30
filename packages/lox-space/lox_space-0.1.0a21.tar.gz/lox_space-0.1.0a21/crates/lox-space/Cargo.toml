@@ -1,0 +1,33 @@
+[package]
+name = "lox-space"
+description = "The Lox toolbox for space mission analysis and design"
+version = "0.1.0-alpha.21"
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[lib]
+name = "lox_space"
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+lox-bodies.workspace = true
+lox-ephem.workspace = true
+lox-math.workspace = true
+lox-orbits.workspace = true
+lox-time.workspace = true
+
+pyo3 = { workspace = true, optional = true }
+
+[features]
+default = ["python"]
+python = [
+    "dep:pyo3",
+    "lox-bodies/python",
+    "lox-ephem/python",
+    "lox-math/python",
+    "lox-orbits/python",
+    "lox-time/python",
+]

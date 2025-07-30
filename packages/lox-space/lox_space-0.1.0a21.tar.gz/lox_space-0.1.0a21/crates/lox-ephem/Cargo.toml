@@ -1,0 +1,20 @@
+[package]
+name = "lox-ephem"
+description = "Ephemerides for the Lox ecosystem"
+version = "0.1.0-alpha.5"
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+lox-math.workspace = true
+
+nom.workspace = true
+pyo3 = { workspace = true, optional = true }
+numpy = { workspace = true, optional = true }
+thiserror.workspace = true
+
+[features]
+python = ["dep:pyo3", "dep:numpy"]

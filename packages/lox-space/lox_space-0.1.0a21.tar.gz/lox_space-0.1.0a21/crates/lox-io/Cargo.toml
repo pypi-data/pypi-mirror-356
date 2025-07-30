@@ -1,0 +1,25 @@
+[package]
+name = "lox-io"
+description = "Interfaces for industry-standard astrodynamics file formats for the Lox ecosystem"
+version = "0.1.0-alpha.6"
+rust-version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[dependencies]
+lox-derive.workspace = true
+lox-math.workspace = true
+
+csv.workspace = true
+nom.workspace = true
+quick-xml.workspace = true
+regex.workspace = true
+serde-aux.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+rstest.workspace = true
