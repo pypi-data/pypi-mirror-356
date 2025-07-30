@@ -1,0 +1,23 @@
+[project]
+name = "codevariety"
+version = "0.1.0"
+description = "Collection of useful python tools"
+authors = [
+    {name = "Kyle Simpson",email = "Kyle_Simpson5624@yahoo.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+homepage = "https://github.com/KSimpson5624/CodeVariety"
+repository = 'https://github.com/KSimpson5624/CodeVariety'
+keywords = ["set", "custom set", "sorted set", "data structure", "smartset", "collection", "python"]
+requires-python = ">=3.8"
+dependencies = [
+]
+packages = [
+    { include = 'codevariety', from = 'src'}
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
