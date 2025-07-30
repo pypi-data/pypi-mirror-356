@@ -1,0 +1,24 @@
+Metadata-Version: 2.2
+Name: pylibvpx
+Version: 1.0.3
+Summary: Python bindings for libvpx
+Author-Email: =?utf-8?q?Peter_W=C3=BCrtz?= <pwuertz@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Homepage, https://github.com/pwuertz/libvpx-bindings
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Python `libvpx` bindings
+Python bindings for VPX encoding/decoding library
+
+# Build with dependencies from lockfile
+```shell
+uv sync --no-install-project
+uv build --wheel --no-build-isolation
+```
+
+# Develop with auto rebuild
+```shell
+uv sync
+uv run pytest
+```
