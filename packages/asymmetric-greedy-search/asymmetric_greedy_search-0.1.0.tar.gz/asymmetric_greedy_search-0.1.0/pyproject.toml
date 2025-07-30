@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asymmetric-greedy-search"
+version = "0.1.0"
+description = "A Python implementation of the Asymmetric Greedy Search heuristic solution to the linear sum assignment problem."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name="Keith A Boroevich", email="keith.boroevich@riken.jp" }
+]
+keywords = ["optimization", "assignment-problem", "linear-sum", "heuristics", "numba"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+dependencies = [
+  "numpy>=1.21"
+]
+
+[project.optional-dependencies]
+numba = ["numba"]
+
+[project.urls]
+Homepage = "https://github.com/kaboroevich/asymmetric-greedy-search"
+Documentation = "https://github.com/kaboroevich/asymmetric-greedy-search#readme"
+Issues = "https://github.com/kaboroevich/asymmetric-greedy-search/issues"
