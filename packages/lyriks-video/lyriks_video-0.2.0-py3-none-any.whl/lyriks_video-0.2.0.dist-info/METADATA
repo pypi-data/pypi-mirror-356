@@ -1,0 +1,95 @@
+Metadata-Version: 2.4
+Name: lyriks-video
+Version: 0.2.0
+Summary: Automated lyrics video generator
+Author-email: simon0302010 <simon0302010@gmail.com>
+License-Expression: GPL-3.0
+Project-URL: Homepage, https://github.com/simon0302010/Lyriks
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: demucs
+Requires-Dist: langdetect
+Requires-Dist: onnxruntime
+Requires-Dist: openai-whisper
+Requires-Dist: soundfile
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: whisper-timestamped
+Requires-Dist: moviepy
+Requires-Dist: iso639-lang
+Requires-Dist: matplotlib
+Dynamic: license-file
+
+# Lyriks
+
+Lyriks is an automated lyrics video generator. It transcribes the audio and automatically creates a video using MoviePy.
+
+---
+
+## Features
+
+- **Automatic vocal separation** using [Demucs](https://github.com/facebookresearch/demucs)
+- **Transcription** with [OpenAI Whisper](https://github.com/openai/whisper) and [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped)
+- **Synchronized lyrics video** generation with [MoviePy](https://zulko.github.io/moviepy/)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/simon0302010/Lyriks.git
+   cd Lyriks
+   ```
+
+2. **(Optional) Create a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install Lyriks:**
+   ```bash
+   pip install .
+   ```
+
+---
+
+## Usage
+
+```bash
+python -m lyriks generate path/to/song.mp3 path/to/lyrics.json -m WHISPER_MODEL_SIZE -d DEVICE -o OUTPUT_FILE_NAME
+```
+Note: This process can take up to 20 minutes on lower end hardware.
+
+---
+
+## TODO
+
+- Fix up lyrics using Gemini
+- Per-word highlighting in videos
+- Fancier video styles and effects
+- Add more robust error handling
+
+---
+
+## Credits
+
+This project uses [Demucs](https://github.com/facebookresearch/demucs) for music vocal separation.
+
+```bibtex
+@inproceedings{rouard2022hybrid,
+  title={Hybrid Transformers for Music Source Separation},
+  author={Rouard, Simon and Massa, Francisco and D{'e}fossez, Alexandre},
+  booktitle={ICASSP 23},
+  year={2023}
+}
+
+@inproceedings{defossez2021hybrid,
+  title={Hybrid Spectrogram and Waveform Source Separation},
+  author={D{'e}fossez, Alexandre},
+  booktitle={Proceedings of the ISMIR 2021 Workshop on Music Source Separation},
+  year={2021}
+}
