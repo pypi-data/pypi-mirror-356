@@ -1,0 +1,2 @@
+include pyantiword/antiword
+recursive-include pyantiword/antiword_share *
