@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: whichnet
+Version: 0.1.0
+Summary: Whichnet is a tool to identify Level2 network devices and relations.
+Author-email: D4db0y <d4db0y@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: ipaddress
+Requires-Dist: scapy>2.3.2
+Description-Content-Type: text/markdown
+
+# whichnet
+
+This package is inspired by https://github.com/netdiscover-scanner/netdiscover. I needed some tool to better identify which host talks to which host, using arp sniffing. 
+
+## Installation
+
+```pip install whichnet```
