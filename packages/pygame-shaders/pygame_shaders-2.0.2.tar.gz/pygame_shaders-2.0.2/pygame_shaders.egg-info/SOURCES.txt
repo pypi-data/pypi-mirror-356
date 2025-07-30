@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pygame_shaders/__init__.py
+pygame_shaders/pygame_shaders.py
+pygame_shaders/screen_rect.py
+pygame_shaders/shader_utils.py
+pygame_shaders/texture.py
+pygame_shaders.egg-info/PKG-INFO
+pygame_shaders.egg-info/SOURCES.txt
+pygame_shaders.egg-info/dependency_links.txt
+pygame_shaders.egg-info/requires.txt
+pygame_shaders.egg-info/top_level.txt
