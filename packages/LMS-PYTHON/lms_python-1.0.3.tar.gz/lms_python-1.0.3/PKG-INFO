@@ -1,0 +1,93 @@
+Metadata-Version: 2.4
+Name: LMS-PYTHON
+Version: 1.0.3
+Summary: A License Management System package
+Home-page: https://github.com/CSDC-K/LMS
+Author: CSDC-K VV
+Author-email: mark.mark34234@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: licenses.json
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# 📦 LMS - License Management System
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%2B-00adee?style=for-the-badge&logo=windows)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge)
+---
+
+## 🔥 About LMS
+
+**LMS (License Management System)** is a lightweight and modular client-server license management solution designed to securely handle license validation and management across multiple clients using JSON-formatted license data. It supports product keys, trial licenses, and is built on Python socket communication for easy integration.
+
+- Multi-client connection handling  
+- Support for various license types (product key, trial key, etc.)  
+- License data stored in JSON format  
+- Simple TCP socket communication  
+- Planned web panel for centralized license management (in progress)  
+
+---
+
+## 📋 Features
+
+- 🔐 Support for product keys, trial keys, and custom license types  
+- 🌐 Concurrent client connections and license validation  
+- ⚙️ Flexible JSON-based license storage and management  
+- 🛠️ Easy-to-integrate socket-based client-server architecture  
+- 📈 Scalable and modular design for future expansion  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10 or higher  
+- Basic knowledge of TCP sockets and Python programming  
+
+### Installation
+
+```bash
+pip install LMS-PYTHON
+```
+
+
+## Usage
+
+### For Server
+
+```bash
+from LMS import LicenseServer, WebPanel
+
+server = LicenseServer(port=5001) # Start Socket Server
+WebPanel(server, port=8000) # Start Web Panel
+```
+
+### For Client
+
+```bash
+
+from LMS import ClientLMS
+
+
+client = ClientLMS("127.0.0.1", 5001, True, True)
+client.connect_server()
+
+result = client.check_license("FAKE-1234-5678-9999", 8)
+print("License check result:", result)
+
+```
+
+
+# Made By CSDC-K VV
