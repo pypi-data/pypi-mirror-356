@@ -1,0 +1,246 @@
+Metadata-Version: 2.1
+Name: pufferlib
+Version: 3.0.0a1
+Summary: Fast and sane reinforcement learning
+Author-email: Joseph Suarez <jsuarez@puffer.ai>
+License: MIT License
+        
+        Copyright (c) 2022 PufferAI
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/PufferAI/PufferLib
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: gym<=0.23
+Requires-Dist: gymnasium<=0.29.1
+Requires-Dist: pettingzoo<=1.24.1
+Requires-Dist: shimmy[gym-v21]
+Requires-Dist: setuptools
+Requires-Dist: torch
+Requires-Dist: psutil
+Requires-Dist: pynvml
+Requires-Dist: rich
+Requires-Dist: rich_argparse
+Requires-Dist: imageio
+Requires-Dist: pyro-ppl
+Requires-Dist: heavyball
+Requires-Dist: neptune
+Requires-Dist: wandb
+Provides-Extra: docs
+Requires-Dist: sphinx==5.0.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme==0.5.1; extra == "docs"
+Requires-Dist: sphinxcontrib-youtube==1.0.1; extra == "docs"
+Requires-Dist: sphinx-rtd-theme==0.5.1; extra == "docs"
+Requires-Dist: sphinx-design==0.4.1; extra == "docs"
+Requires-Dist: furo==2023.3.27; extra == "docs"
+Provides-Extra: ray
+Requires-Dist: ray==2.23.0; extra == "ray"
+Provides-Extra: cleanrl
+Requires-Dist: stable_baselines3==2.1.0; extra == "cleanrl"
+Requires-Dist: tensorboard==2.11.2; extra == "cleanrl"
+Requires-Dist: tyro==0.8.6; extra == "cleanrl"
+Provides-Extra: common
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium[accept-rom-license]==0.29.1; extra == "common"
+Requires-Dist: opencv-python==3.4.17.63; extra == "common"
+Requires-Dist: ale_py==0.9.0; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: bsuite==0.3.5; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: crafter==1.8.3; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: dm_control==1.0.11; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: gym_deepmindlab==0.1.2; extra == "common"
+Requires-Dist: dm_env==1.6; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: griddly==1.6.7; extra == "common"
+Requires-Dist: imageio; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: ffmpeg==1.4; extra == "common"
+Requires-Dist: gym_microrts==0.3.2; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: minigrid==2.3.1; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: minihack==0.1.5; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: nle==0.9.1; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: pettingzoo==1.24.1; extra == "common"
+Requires-Dist: nmmo>=2.1; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: pokegym>=0.2.0; extra == "common"
+Requires-Dist: einops==0.6.1; extra == "common"
+Requires-Dist: matplotlib; extra == "common"
+Requires-Dist: scikit-image; extra == "common"
+Requires-Dist: pyboy<2.0.0; extra == "common"
+Requires-Dist: hnswlib==0.7.0; extra == "common"
+Requires-Dist: mediapy; extra == "common"
+Requires-Dist: pandas==2.0.2; extra == "common"
+Requires-Dist: pettingzoo; extra == "common"
+Requires-Dist: websockets; extra == "common"
+Requires-Dist: gym==0.23; extra == "common"
+Requires-Dist: gymnasium==0.29.1; extra == "common"
+Requires-Dist: stable_baselines3==2.1.0; extra == "common"
+Requires-Dist: procgen-mirror==0.10.7; extra == "common"
+Requires-Dist: vizdoom==1.2.3; extra == "common"
+Requires-Dist: stable_baselines3==2.1.0; extra == "common"
+Provides-Extra: avalon
+Requires-Dist: gym==0.23; extra == "avalon"
+Requires-Dist: gymnasium==0.29.1; extra == "avalon"
+Requires-Dist: avalon-rl==1.0.0; extra == "avalon"
+Provides-Extra: atari
+Requires-Dist: gym==0.23; extra == "atari"
+Requires-Dist: gymnasium[accept-rom-license]==0.29.1; extra == "atari"
+Requires-Dist: opencv-python==3.4.17.63; extra == "atari"
+Requires-Dist: ale_py==0.9.0; extra == "atari"
+Provides-Extra: box2d
+Requires-Dist: gym==0.23; extra == "box2d"
+Requires-Dist: gymnasium[box2d]==0.29.1; extra == "box2d"
+Requires-Dist: swig==4.1.1; extra == "box2d"
+Provides-Extra: bsuite
+Requires-Dist: gym==0.23; extra == "bsuite"
+Requires-Dist: gymnasium==0.29.1; extra == "bsuite"
+Requires-Dist: bsuite==0.3.5; extra == "bsuite"
+Provides-Extra: butterfly
+Requires-Dist: gym==0.23; extra == "butterfly"
+Requires-Dist: gymnasium==0.29.1; extra == "butterfly"
+Requires-Dist: pettingzoo[butterfly]==1.24.1; extra == "butterfly"
+Provides-Extra: classic-control
+Requires-Dist: gym==0.23; extra == "classic-control"
+Requires-Dist: gymnasium==0.29.1; extra == "classic-control"
+Provides-Extra: crafter
+Requires-Dist: gym==0.23; extra == "crafter"
+Requires-Dist: gymnasium==0.29.1; extra == "crafter"
+Requires-Dist: crafter==1.8.3; extra == "crafter"
+Provides-Extra: craftax
+Requires-Dist: gym==0.23; extra == "craftax"
+Requires-Dist: gymnasium==0.29.1; extra == "craftax"
+Requires-Dist: craftax; extra == "craftax"
+Provides-Extra: dm-control
+Requires-Dist: gym==0.23; extra == "dm-control"
+Requires-Dist: gymnasium==0.29.1; extra == "dm-control"
+Requires-Dist: dm_control==1.0.11; extra == "dm-control"
+Provides-Extra: dm-lab
+Requires-Dist: gym==0.23; extra == "dm-lab"
+Requires-Dist: gymnasium==0.29.1; extra == "dm-lab"
+Requires-Dist: gym_deepmindlab==0.1.2; extra == "dm-lab"
+Requires-Dist: dm_env==1.6; extra == "dm-lab"
+Provides-Extra: griddly
+Requires-Dist: gym==0.23; extra == "griddly"
+Requires-Dist: gymnasium==0.29.1; extra == "griddly"
+Requires-Dist: griddly==1.6.7; extra == "griddly"
+Requires-Dist: imageio; extra == "griddly"
+Provides-Extra: kinetix
+Requires-Dist: gym==0.23; extra == "kinetix"
+Requires-Dist: gymnasium==0.29.1; extra == "kinetix"
+Requires-Dist: kinetix-env; extra == "kinetix"
+Provides-Extra: magent
+Requires-Dist: gym==0.23; extra == "magent"
+Requires-Dist: gymnasium==0.29.1; extra == "magent"
+Requires-Dist: pettingzoo==1.19.0; extra == "magent"
+Requires-Dist: magent==0.2.4; extra == "magent"
+Provides-Extra: metta
+Requires-Dist: gym==0.23; extra == "metta"
+Requires-Dist: gymnasium==0.29.1; extra == "metta"
+Requires-Dist: omegaconf; extra == "metta"
+Requires-Dist: hydra-core; extra == "metta"
+Requires-Dist: duckdb; extra == "metta"
+Provides-Extra: microrts
+Requires-Dist: gym==0.23; extra == "microrts"
+Requires-Dist: gymnasium==0.29.1; extra == "microrts"
+Requires-Dist: ffmpeg==1.4; extra == "microrts"
+Requires-Dist: gym_microrts==0.3.2; extra == "microrts"
+Provides-Extra: minerl
+Requires-Dist: gym==0.17.0; extra == "minerl"
+Requires-Dist: gymnasium==0.29.1; extra == "minerl"
+Provides-Extra: minigrid
+Requires-Dist: gym==0.23; extra == "minigrid"
+Requires-Dist: gymnasium==0.29.1; extra == "minigrid"
+Requires-Dist: minigrid==2.3.1; extra == "minigrid"
+Provides-Extra: minihack
+Requires-Dist: gym==0.23; extra == "minihack"
+Requires-Dist: gymnasium==0.29.1; extra == "minihack"
+Requires-Dist: minihack==0.1.5; extra == "minihack"
+Provides-Extra: mujoco
+Requires-Dist: gymnasium[mujoco]==1.0.0; extra == "mujoco"
+Requires-Dist: moviepy; extra == "mujoco"
+Provides-Extra: nethack
+Requires-Dist: gym==0.23; extra == "nethack"
+Requires-Dist: gymnasium==0.29.1; extra == "nethack"
+Requires-Dist: nle==0.9.1; extra == "nethack"
+Provides-Extra: nmmo
+Requires-Dist: gym==0.23; extra == "nmmo"
+Requires-Dist: gymnasium==0.29.1; extra == "nmmo"
+Requires-Dist: pettingzoo==1.24.1; extra == "nmmo"
+Requires-Dist: nmmo>=2.1; extra == "nmmo"
+Provides-Extra: open-spiel
+Requires-Dist: gym==0.23; extra == "open-spiel"
+Requires-Dist: gymnasium==0.29.1; extra == "open-spiel"
+Requires-Dist: open_spiel==1.3; extra == "open-spiel"
+Requires-Dist: pettingzoo==1.19.0; extra == "open-spiel"
+Provides-Extra: pokemon-red
+Requires-Dist: gym==0.23; extra == "pokemon-red"
+Requires-Dist: gymnasium==0.29.1; extra == "pokemon-red"
+Requires-Dist: pokegym>=0.2.0; extra == "pokemon-red"
+Requires-Dist: einops==0.6.1; extra == "pokemon-red"
+Requires-Dist: matplotlib; extra == "pokemon-red"
+Requires-Dist: scikit-image; extra == "pokemon-red"
+Requires-Dist: pyboy<2.0.0; extra == "pokemon-red"
+Requires-Dist: hnswlib==0.7.0; extra == "pokemon-red"
+Requires-Dist: mediapy; extra == "pokemon-red"
+Requires-Dist: pandas==2.0.2; extra == "pokemon-red"
+Requires-Dist: pettingzoo; extra == "pokemon-red"
+Requires-Dist: websockets; extra == "pokemon-red"
+Provides-Extra: procgen
+Requires-Dist: gym==0.23; extra == "procgen"
+Requires-Dist: gymnasium==0.29.1; extra == "procgen"
+Requires-Dist: stable_baselines3==2.1.0; extra == "procgen"
+Requires-Dist: procgen-mirror==0.10.7; extra == "procgen"
+Provides-Extra: slimevolley
+Requires-Dist: gym==0.23; extra == "slimevolley"
+Requires-Dist: gymnasium==0.29.1; extra == "slimevolley"
+Requires-Dist: slimevolley==0.1.0; extra == "slimevolley"
+Provides-Extra: vizdoom
+Requires-Dist: vizdoom==1.2.3; extra == "vizdoom"
+Requires-Dist: stable_baselines3==2.1.0; extra == "vizdoom"

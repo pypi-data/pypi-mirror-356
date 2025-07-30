@@ -1,0 +1,2 @@
+[console_scripts]
+puffer = pufferlib.pufferl:main
