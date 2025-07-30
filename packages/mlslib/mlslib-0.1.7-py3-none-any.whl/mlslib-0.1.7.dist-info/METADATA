@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: mlslib
+Version: 0.1.7
+Summary: A utility library for working with data pipelines on GCP
+Home-page: https://github.com/wayfair-sandbox/dslib
+Author: Raj Jha
+Author-email: rjha4@wayfair.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ipython>=7.0.0
+Requires-Dist: pyarrow>=6.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# mlslib
+
+A lightweight utility library to simplify working with Google Cloud Storage and BigQuery.
+
+## Features
+
+- Upload pandas or Spark DataFrames to GCS
+- Upload any file to GCS (e.g. .csv, .pkl, .txt)
+- Read CSVs from GCS
+- Query BigQuery using Spark or Pandas
