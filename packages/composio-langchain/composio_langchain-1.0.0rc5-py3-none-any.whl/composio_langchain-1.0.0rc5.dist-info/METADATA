@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: composio-langchain
+Version: 1.0.0rc5
+Summary: Use Composio to get an array of tools with your Langchain agent.
+Project-URL: Homepage, https://github.com/ComposioHQ/composio
+Author-email: Composio <tech@composio.dev>
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.9
+Requires-Dist: composio
+Requires-Dist: langchain
+Description-Content-Type: text/markdown
+
+# Langchain provider for composio SDK
