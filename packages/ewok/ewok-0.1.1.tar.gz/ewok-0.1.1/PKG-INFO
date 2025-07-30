@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: ewok
+Version: 0.1.1
+Summary: Education Warehouse Octopus Kit - Extensible CLI framework with plugin support
+Author-email: Robin van der Noord <robin.vdn@educationwarehouse.nl>, Remco Boerma <remco.b@educationwarehouse.nl>
+Requires-Python: >=3.13
+Requires-Dist: docstring-parser<1
+Requires-Dist: fabric<4,>=3.1
+Requires-Dist: invoke<3,>=2.1
+Requires-Dist: termcolor<3
