@@ -1,0 +1,1 @@
+from ttkplus.dialogs.dialogs import *

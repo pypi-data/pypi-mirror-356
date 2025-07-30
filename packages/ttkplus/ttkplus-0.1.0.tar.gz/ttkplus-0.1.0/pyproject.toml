@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ttkplus"
+version = "0.1.0"
+description = "TkinterHelper布局助手桌面版 官方拓展和工具库"
+authors = ["iamxcd <iamxcd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
