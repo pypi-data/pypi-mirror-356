@@ -1,0 +1,3 @@
+[console_scripts]
+emllm=emllm.cli:main
+
