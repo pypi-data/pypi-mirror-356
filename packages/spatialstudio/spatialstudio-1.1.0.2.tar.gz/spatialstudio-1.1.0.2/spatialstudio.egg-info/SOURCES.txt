@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+spatialstudio/__init__.py
+spatialstudio/libwebgpu_dawn.dylib
+spatialstudio/splv_encoder_py.cpython-39-darwin.so
+spatialstudio.egg-info/PKG-INFO
+spatialstudio.egg-info/SOURCES.txt
+spatialstudio.egg-info/dependency_links.txt
+spatialstudio.egg-info/not-zip-safe
+spatialstudio.egg-info/requires.txt
+spatialstudio.egg-info/top_level.txt
