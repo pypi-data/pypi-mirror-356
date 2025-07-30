@@ -1,0 +1,16 @@
+typeinc/__init__.py,sha256=rj9dV893Gw_7HtBImW5iHXsBfoVShxe-J5d3zHgaCPk,51
+typeinc/main.py,sha256=4afzSMm_vdgV3wqKmrt3oR4UqwCaBoNjNuj1xfTgh94,7177
+typeinc/wordlist.txt,sha256=ryeIstU3ipitmg5QfibSz1hvNHejZIlH-PmDnOtObBw,43366
+typeinc/configurations/input_config.py,sha256=R-jyEQqWpow7IeURCEjPnXeJYscOLSHtUdTC2bfwsUc,7151
+typeinc/configurations/keyboard.py,sha256=7Qr01350QBBsuXWe_oznceljW5NoocWsNkcz9hTCeq0,5280
+typeinc/configurations/mainscreen.py,sha256=ay5nKQFxqJgZhG5rFmuUi_xG5n7ebu1FpHuT47V_dKs,7820
+typeinc/configurations/result.py,sha256=bswq1AYgzU0rm0Y2VKKCA84MAaebn7cdNL64IxEB6_M,9311
+typeinc/configurations/text_gen.py,sha256=0m6A-ZtJaiIfEQ-qOd8nI2tDzNsupLpdD2PhmX_w54c,3995
+typeinc/configurations/ui.py,sha256=9k6Edy8T8fuaC5cmhUPIKs57D-CGqH-EZL9x2aX-rgU,2230
+typeinc/scores/highscore.py,sha256=YH7uYDnRvfBzbE6kCafjteXXBdqEdl-9aC98TYhxftk,6821
+typeinc/scores/scores.json,sha256=LgA63dE8-BJhFTEOo8ZK1fvdGwep18DhJETlssVIn18,469
+typeinc-1.0.2.dist-info/METADATA,sha256=V3da9KsEmP0DsLoCMf2zKV4kOmYP83jZiXuVf5s0c8c,9180
+typeinc-1.0.2.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+typeinc-1.0.2.dist-info/entry_points.txt,sha256=p5OEayh1rBaysESfrw9ODashzVtcqY52-v-A90YUSP0,41
+typeinc-1.0.2.dist-info/licenses/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+typeinc-1.0.2.dist-info/RECORD,,
