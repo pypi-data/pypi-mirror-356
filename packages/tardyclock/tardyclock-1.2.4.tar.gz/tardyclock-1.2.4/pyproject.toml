@@ -1,0 +1,32 @@
+[project]
+name = "tardyclock"
+version = "1.2.4"
+description = "You want the time? Here, have all of the times."
+readme = "ReadMe.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["License"]
+authors = [{ name = "Rishyak", email = "hello@rishyak.com" }]
+keywords = ["time", "datetime", "clock"]
+dependencies = ["pytz>=2025.2", "typer>=0.15.4"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.13",
+  "Intended Audience :: Education",
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.hooks.custom]
+path = "util/file_name_does_not_matter.py"
+
+[project.scripts]
+tardy = "tardyclock.cli:tardy"
+
+[project.optional-dependencies]
+dev = ["hatchling>=1.27.0", "ruff>=0.11.12", "yapf>=0.43.0"]

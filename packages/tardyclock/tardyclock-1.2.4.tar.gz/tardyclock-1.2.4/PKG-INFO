@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: tardyclock
+Version: 1.2.4
+Summary: You want the time? Here, have all of the times.
+Author-email: Rishyak <hello@rishyak.com>
+License-Expression: MIT
+Keywords: clock,datetime,time
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Requires-Dist: pytz>=2025.2
+Requires-Dist: typer>=0.15.4
+Provides-Extra: dev
+Requires-Dist: hatchling>=1.27.0; extra == 'dev'
+Requires-Dist: ruff>=0.11.12; extra == 'dev'
+Requires-Dist: yapf>=0.43.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# tardy
+ChatGPT this, CoPilot that, Claude this, Gemini that.
+
+Who hurt you?
+
+If you're the kind of person to ask an AI for time, this tool is for you!
+
+## Pros
+- No subscription required
+- You don't waste precious compute
+
+## Cons
+- You are not bankfilling big AI :(
+- This was not vibe coded
+
+## For Param
+I'm proud of you for figuring it out on your own but for next time:
+- Just downlaod [`uv`](https://docs.astral.sh/uv/)
+- ```
+  $ uv run tardy
+  ```
+
+---
+To be honest, this has become a repo to experiment with Python build systems

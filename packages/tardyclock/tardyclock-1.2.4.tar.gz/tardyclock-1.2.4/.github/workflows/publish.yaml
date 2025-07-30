@@ -1,0 +1,67 @@
+name: 📦 Build, Publish, and Release
+
+on:
+  push:
+    tags:
+      - "v1.*"
+
+jobs:
+  build:
+    name: Build Distributions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: uv build
+        run: uv build
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dists
+          path: dist/
+
+  publish:
+    name: Publish to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - name: Fetch artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dists
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: ${{ secrets.INDEX_URL }}
+
+  release:
+    name: Release on GitHub
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Fetch artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: dists
+          path: dist/
+
+      - name: Upload to GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.whl
+            dist/*.tar.gz
