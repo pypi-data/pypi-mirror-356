@@ -1,0 +1,10 @@
+process_manager/__init__.py,sha256=yAYNi67THrY-XbNuwGXgvCydXchXuhIixC5qxoj8FTQ,518
+process_manager/__main__.py,sha256=pw8iNqXC_nLuhnOEly4S7vgT0755KsPG3Vq-ntfpVac,411
+process_manager/manager.py,sha256=clwyniiA2lIZm00ELHZYVtrcyYZYUMdN3zaZW5--4Bs,8491
+process_manager/process_list.py,sha256=MUOLLAY7oEedRUtqe6bhn6J7tDSt2dTKRD5EWG2tiiQ,7582
+process_manager/view_base.py,sha256=KH3CS3rLbja4rdjXju11EuMqw43Oz_hrAZuz2cDwmwA,1551
+process_manager/view_table.py,sha256=9qz-y0MefDIJSuEFYVPaUHrhrSP8o6pLhcjdgaqaJKU,5061
+process_manager/view_tree.py,sha256=Gk3bOLWzvn6WwB02_XLSedXC2lcy6EVmp6pqO_BseJQ,6418
+gui_process_manager-0.2.1.dist-info/METADATA,sha256=Vsp6VF3LXoYCMI3H4NwjzBDG4vKQnAPXje9ZqRTFFug,617
+gui_process_manager-0.2.1.dist-info/WHEEL,sha256=fGIA9gx4Qxk2KDKeNJCbOEwSrmLtjWCwzBz351GyrPQ,88
+gui_process_manager-0.2.1.dist-info/RECORD,,
