@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mapfeat/__init__.py
+mapfeat/cyparser.c
+mapfeat/cyparser.pyx
+mapfeat.egg-info/PKG-INFO
+mapfeat.egg-info/SOURCES.txt
+mapfeat.egg-info/dependency_links.txt
+mapfeat.egg-info/not-zip-safe
+mapfeat.egg-info/top_level.txt

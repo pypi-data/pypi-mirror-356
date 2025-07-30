@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mapfeat"
+version = "0.1.4"
+description = "Cython parser for coverage metadata"
+authors = [
+    { name = "", email = "" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["mapfeat"]
+
+[tool.setuptools.ext-modules]
+cyparser = { sources = ["mapfeat/cyparser.pyx"] }
