@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: unieai-excel-temp-mcp-server
+Version: 0.1.2
+Summary: UnieAI Excel MCP Server with custom fill tool
+Requires-Python: >=3.10
+Requires-Dist: excel-mcp-server>=0.1.4
+Requires-Dist: mcp[cli]>=1.6.0
