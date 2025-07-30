@@ -1,0 +1,14 @@
+ai_manager/__init__.py,sha256=MupRDnMVJrM7UQbxUxe0mmdDdemToww5qgdgUhJBXPM,251
+ai_manager/ai_manager.py,sha256=0ssnY5HwgM2VAjnT9KvZxeSFwblyLWoG1BXkip2LaKw,12695
+ai_manager/chat.py,sha256=OMbGYSDEvjUoloYEluSNU1IaLT4UJwrvZzQt3TU28Hs,2964
+ai_manager/image_generation.py,sha256=Vlv3_gVHRTdbuWm7mYgYXogPbFCb8NQujE0s1QOnj7g,7248
+ai_manager/openai.py,sha256=94kCekimTpY6R0Q8mfO2sPgIKxVJW9Iw720HNtbW66Y,663
+ai_manager/prompts.py,sha256=lyKGLUhE9Q4lFlAjxSAeqO8Nm9WYYrtSBJ7jSyGD9E4,3801
+ai_manager/schema_validator.py,sha256=Xm6yAn8_CGDliOE93tVAe5UdfkpLZLOuaTUc0hMrSwk,12918
+ai_manager/text_to_speech.py,sha256=m3K7R38SR0cKgxYzm7O6lNwJqXhDVFsI0JR2bnc_i5k,1595
+ai_manager/transcribe.py,sha256=bHuSTgbUpHPgzFIlXQpdRY9_Px7LcH2yrCNbblHZSuY,2992
+wl_ai_manager-0.1.0.dist-info/licenses/LICENSE,sha256=R_G-Pd2AQwBsCNGK-9HfGLRVhtBeGMbJW_tmNMUrZ40,1500
+wl_ai_manager-0.1.0.dist-info/METADATA,sha256=PrcHvFLQoK_dSMDQPj7RAsvezM05yvkFmWjYqfX3Dlw,12121
+wl_ai_manager-0.1.0.dist-info/WHEEL,sha256=zaaOINJESkSfm_4HQVc5ssNzHCPXhJm0kEUakpsEHaU,91
+wl_ai_manager-0.1.0.dist-info/top_level.txt,sha256=XFZOwp-hddVp4u6JpqCWdiZGrJoTTAhFUqfEV3rVfjk,11
+wl_ai_manager-0.1.0.dist-info/RECORD,,
