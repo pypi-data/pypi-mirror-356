@@ -1,0 +1,2 @@
+[console_scripts]
+coral-ml = coral.cli.main:main
