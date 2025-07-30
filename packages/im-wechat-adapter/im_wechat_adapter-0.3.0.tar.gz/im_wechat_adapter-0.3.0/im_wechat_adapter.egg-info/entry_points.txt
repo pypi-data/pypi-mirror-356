@@ -1,0 +1,2 @@
+[chatgpt_mirai.plugins]
+im_wechat_adapter = im_wechat_adapter:WeChatAdapterPlugin

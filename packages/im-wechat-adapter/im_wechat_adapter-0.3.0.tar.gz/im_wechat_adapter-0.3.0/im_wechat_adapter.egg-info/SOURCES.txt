@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+im_wechat_adapter/__init__.py
+im_wechat_adapter/adapter.py
+im_wechat_adapter.egg-info/PKG-INFO
+im_wechat_adapter.egg-info/SOURCES.txt
+im_wechat_adapter.egg-info/dependency_links.txt
+im_wechat_adapter.egg-info/entry_points.txt
+im_wechat_adapter.egg-info/requires.txt
+im_wechat_adapter.egg-info/top_level.txt
+im_wechat_adapter/assets/wechat.png
+im_wechat_adapter/example/roleplayWithWechat.yaml
