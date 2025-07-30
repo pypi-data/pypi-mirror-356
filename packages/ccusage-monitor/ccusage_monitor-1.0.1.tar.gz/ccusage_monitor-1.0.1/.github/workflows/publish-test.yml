@@ -1,0 +1,100 @@
+name: Publish to Test PyPI
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'ccusage_monitor.py'
+      - 'pyproject.toml'
+      - 'requirements.txt'
+  workflow_dispatch:
+
+jobs:
+  test-publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      
+    - name: Get package version
+      id: get_version
+      run: |
+        VERSION=$(grep '^version' pyproject.toml | cut -d '"' -f 2)
+        echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+        echo "📦 Package version: $VERSION"
+    
+    - name: Build package
+      run: |
+        echo "🔨 Building package..."
+        uv build
+        echo "✅ Build complete. Files:"
+        ls -la dist/
+      
+    - name: Check if package already exists
+      id: check_exists
+      run: |
+        echo "🔍 Checking if package already exists on Test PyPI..."
+        if python scripts/check_package_hash.py \
+          --version ${{ steps.get_version.outputs.VERSION }} \
+          --test-pypi; then
+          echo "SHOULD_PUBLISH=true" >> $GITHUB_OUTPUT
+        else
+          echo "SHOULD_PUBLISH=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Publish to Test PyPI
+      if: steps.check_exists.outputs.SHOULD_PUBLISH == 'true'
+      id: publish
+      continue-on-error: true
+      env:
+        UV_PUBLISH_USERNAME: __token__
+        UV_PUBLISH_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
+      run: |
+        echo "📤 Publishing to Test PyPI..."
+        if uv publish \
+          --publish-url https://test.pypi.org/legacy/ \
+          --check-url https://test.pypi.org/simple/; then
+          echo "✅ Successfully published version ${{ steps.get_version.outputs.VERSION }} to Test PyPI"
+          echo "🔗 View at: https://test.pypi.org/project/ccusage-monitor/${{ steps.get_version.outputs.VERSION }}/"
+        else
+          exit_code=$?
+          echo "⚠️ Failed to publish. This might be because:"
+          echo "   - Files already exist with different content"
+          echo "   - Network or authentication issues"
+          echo "Exit code: $exit_code"
+          exit $exit_code
+        fi
+        
+    - name: Skip publish (already exists)
+      if: steps.check_exists.outputs.SHOULD_PUBLISH == 'false'
+      run: |
+        echo "⏭️ Skipping publish - package with same content already exists on Test PyPI"
+        echo "💡 To publish a new version, make sure to:"
+        echo "   1. Update the version in pyproject.toml"
+        echo "   2. Make actual code changes"
+        
+    - name: Publish Summary
+      if: always()
+      run: |
+        echo "## 📊 Publish Summary"
+        echo ""
+        if [[ "${{ steps.check_exists.outputs.SHOULD_PUBLISH }}" == "false" ]]; then
+          echo "✅ **Result**: Skipped (files already exist with same content)"
+        elif [[ "${{ steps.publish.outcome }}" == "success" ]]; then
+          echo "✅ **Result**: Successfully published to Test PyPI"
+        elif [[ "${{ steps.publish.outcome }}" == "failure" ]]; then
+          echo "⚠️ **Result**: Failed to publish (files exist with different content or other error)"
+          echo ""
+          echo "This is expected when the same version has different content."
+          echo "To resolve: bump the version in pyproject.toml"
+        else
+          echo "ℹ️ **Result**: No publish attempted"
+        fi

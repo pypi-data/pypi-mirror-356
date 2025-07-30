@@ -1,0 +1,34 @@
+{
+  "include": [
+    "ccusage_monitor",
+    "tests"
+  ],
+  "exclude": [
+    "**/__pycache__"
+  ],
+  "reportGeneralTypeIssues": "warning",
+  "reportRedeclaration": "none",
+  "reportConstantRedefinition": "none",
+  "reportUnusedCallResult": "none",
+  "reportMissingImports": "warning",
+  "pythonVersion": "3.8",
+  "extraPaths": [
+    "."
+  ],
+  "executionEnvironments": [
+    {
+      "root": "ccusage_monitor",
+      "reportUninitializedInstanceVariable": "error",
+      "extraPaths": [
+        "."
+      ]
+    },
+    {
+      "root": "tests",
+      "reportUninitializedInstanceVariable": "none",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ]
+}
