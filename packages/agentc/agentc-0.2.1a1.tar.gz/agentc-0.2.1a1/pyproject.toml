@@ -1,0 +1,70 @@
+[project]
+name = "agentc"
+description = "The front-facing package for the Couchbase Agent Catalog project."
+authors = [
+    { name = "Glenn Galvizo", email = "glenn.galvizo@couchbase.com" },
+    { name = "Tanvi Johari", email = "tanvi.johari@couchbase.com" },
+    { name = "Thejas N U", email = "thejas.nu@couchbase.com" }
+]
+license = "Apache-2.0"
+dynamic = ["version"]
+requires-python = ">=3.12"
+
+[project.urls]
+repository = "https://github.com/couchbaselabs/agent-catalog"
+documentation = "https://couchbaselabs.github.io/agent-catalog/index.html"
+
+[project.scripts]
+agentc = "agentc.__main__:main"
+
+[project.optional-dependencies]
+langchain = ["agentc_langchain"]
+langgraph = ["agentc_langgraph"]
+llamaindex = ["agentc_llamaindex"]
+
+# Version is dynamically pulled from Git.
+[tool.poetry]
+name = "agentc"
+version = "0.2.1a1"
+packages = [
+    { include = "agentc" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic-settings = "^2.7.1"
+
+# The version of these packages will be updated dynamically.
+agentc-core = { path = "../agentc_core", develop = true }
+agentc-cli = { path = "../agentc_cli", develop = true }
+agentc-langchain = { path = "../agentc_integrations/langchain", develop = true, optional = true }
+agentc-langgraph = { path = "../agentc_integrations/langgraph", develop = true, optional = true }
+agentc-llamaindex = { path = "../agentc_integrations/llamaindex", develop = true, optional = true }
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
+pytest = "^8.3.2"
+
+[tool.poetry.group.dev.dependencies.agentc-testing]
+path = "../agentc_testing"
+develop = true
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: marks tests for running on each git-push",
+    "slow: marks slow tests for running on each git-push",
+]
+
+[tool.poetry-monoranger-plugin]
+enabled = true
+monorepo-root = "../../"
+version-pinning-rule = '=='
+
+[tool.poetry.requires-plugins]
+poetry-monoranger-plugin = ">=0.4.1"
+
+[build-system]
+requires = [
+    "poetry-core>=2.1.0"
+]
+build-backend = "poetry.core.masonry.api"

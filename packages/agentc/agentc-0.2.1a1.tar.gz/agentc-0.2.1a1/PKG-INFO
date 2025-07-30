@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: agentc
+Version: 0.2.1a1
+Summary: The front-facing package for the Couchbase Agent Catalog project.
+License: Apache-2.0
+Author: Glenn Galvizo
+Author-email: glenn.galvizo@couchbase.com
+Requires-Python: >=3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: langchain
+Provides-Extra: langgraph
+Provides-Extra: llamaindex
+Requires-Dist: agentc_langchain ; extra == "langchain"
+Requires-Dist: agentc_langgraph ; extra == "langgraph"
+Requires-Dist: agentc_llamaindex ; extra == "llamaindex"
+Project-URL: Documentation, https://couchbaselabs.github.io/agent-catalog/index.html
+Project-URL: Repository, https://github.com/couchbaselabs/agent-catalog
