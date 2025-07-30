@@ -1,0 +1,45 @@
+[package]
+name = "finlib"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+readme = "README.md"
+license.workspace = true
+
+[dependencies]
+wasm-bindgen = { workspace = true, optional = true }
+pyo3 = { workspace = true, optional = true }
+rayon = { workspace = true }
+ndarray = { workspace = true }
+ndarray-stats = { workspace = true }
+nalgebra = { workspace = true }
+statrs = { workspace = true }
+chrono = { workspace = true, default-features = false, features = ["serde"] }
+log = { workspace = true }
+getrandom = { workspace = true }
+rand = { workspace = true }
+serde = { workspace = true }
+serde-wasm-bindgen = { workspace = true, optional = true }
+num = "0.4.3"
+
+[dev-dependencies]
+criterion = "0.6.0"
+
+[[bench]]
+name = "rayon_roc"
+harness = false
+
+[[bench]]
+name = "rayon_options"
+harness = false
+
+[features]
+default = []
+btree_cursors = []
+py = ["dep:pyo3"]
+wasm = ["getrandom/js", "dep:wasm-bindgen", "dep:serde-wasm-bindgen", "chrono/wasmbind"]
+ffi = []
