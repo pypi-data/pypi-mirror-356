@@ -1,0 +1,73 @@
+Metadata-Version: 2.4
+Name: pchemdb
+Version: 0.0.2
+Summary: A collection of physical chemistry databases.
+Project-URL: Documentation, https://github.com/Ugochukwu Nwosu/pchemdb#readme
+Project-URL: Issues, https://github.com/Ugochukwu Nwosu/pchemdb/issues
+Project-URL: Source, https://github.com/Ugochukwu Nwosu/pchemdb
+Author-email: Ugochukwu Nwosu <ugognw@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: pyeql
+Provides-Extra: dev
+Requires-Dist: bump2version>=1.0.1; extra == 'dev'
+Requires-Dist: pre-commit>=3.7.0; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: esbonio>=0.16.0; extra == 'docs'
+Requires-Dist: furo>=2024.08.06; extra == 'docs'
+Requires-Dist: sphinx-autobuild>=2024.04.16; extra == 'docs'
+Requires-Dist: sphinx-click>=5.0.1; extra == 'docs'
+Requires-Dist: sphinx-copybutton>=0.5.0; extra == 'docs'
+Requires-Dist: sphinx>=7.2.6; extra == 'docs'
+Requires-Dist: sphinxcontrib-apidoc>=0.5.0; extra == 'docs'
+Requires-Dist: sphinxext-opengraph>=0.9.1; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-cov>=4.1.0; extra == 'test'
+Requires-Dist: pytest-datadir>=1.5.0; extra == 'test'
+Requires-Dist: pytest-xdist>=3.5.0; extra == 'test'
+Requires-Dist: pytest>=7.4.3; extra == 'test'
+Description-Content-Type: text/x-rst
+
+``PChemDB``
+----------------
+
+|version| |python|
+
+
+``PChemDB`` provides easy access to the data within a number of physical
+chemistry databases and parsers for extracting the data from the raw CSV files.
+
+
+Usage
+=====
+
+.. code:: Python
+
+    from pchemdb.crc import load_crc_database
+
+    crc_db = load_crc_database()
+
+Installation
+============
+
+.. code:: Python
+
+    pip install pchemdb
+
+
+License
+=======
+
+``pchemdb`` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+.. |version| image:: https://img.shields.io/pypi/v/pchemdb.svg
+.. |python| image:: https://img.shields.io/pypi/pyversions/pchemdb.svg

@@ -1,0 +1,13 @@
+.vscode
+.DS_Store
+.python-version
+docs/build
+.venv
+site
+__pycache__
+dist
+
+# Coverage
+.coverage
+coverage.lcov
+coverage.xml
