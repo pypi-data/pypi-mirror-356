@@ -1,0 +1,141 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "RoboSystems MCP Dev",
+      "type": "shell",
+      "command": "mcp dev robosystems_mcp/server.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "just install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Upgrade Dependencies",
+      "type": "shell",
+      "command": "just upgrade",
+      "problemMatcher": []
+    },
+    {
+      "label": "Setup Environment",
+      "type": "shell",
+      "command": "just venv",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "just test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test All",
+      "type": "shell",
+      "command": "just test-all",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint",
+      "type": "shell",
+      "command": "just lint",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint Fix",
+      "type": "shell",
+      "command": "just lint-fix",
+      "problemMatcher": []
+    },
+    {
+      "label": "Format",
+      "type": "shell",
+      "command": "just format",
+      "problemMatcher": []
+    },
+    {
+      "label": "Type Check",
+      "type": "shell",
+      "command": "just typecheck",
+      "problemMatcher": []
+    },
+    {
+      "label": "Create Release",
+      "type": "shell",
+      "command": "just create-release ${input:versionType}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run with Neo4j Config",
+      "type": "shell",
+      "command": "just run db-url=${input:dbUrl} username=${input:username} password=${input:password} database=${input:database}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Create Claude PR",
+      "type": "shell",
+      "command": "just create-pr ${input:targetBranch} ${input:prType} ${input:claudeReview}",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "versionType",
+      "type": "pickString",
+      "description": "Version type for release",
+      "options": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "default": "patch"
+    },
+    {
+      "id": "dbUrl",
+      "type": "promptString",
+      "description": "Neo4j database URL",
+      "default": "bolt://localhost:7687"
+    },
+    {
+      "id": "username",
+      "type": "promptString",
+      "description": "Neo4j username",
+      "default": "neo4j"
+    },
+    {
+      "id": "password",
+      "type": "promptString",
+      "description": "Neo4j password",
+      "password": true
+    },
+    {
+      "id": "database",
+      "type": "promptString",
+      "description": "Neo4j database name",
+      "default": "neo4j"
+    },
+    {
+      "id": "targetBranch",
+      "type": "pickString",
+      "description": "Choose target branch:",
+      "default": "main",
+      "options": ["main", "staging"]
+    },
+    {
+      "id": "prType",
+      "type": "pickString",
+      "description": "Choose PR type:",
+      "default": "release",
+      "options": ["release", "feature", "bugfix", "hotfix"]
+    },
+    {
+      "id": "claudeReview",
+      "type": "pickString",
+      "description": "Request Claude review automatically:",
+      "default": "true",
+      "options": ["true", "false"]
+    }
+  ]
+}
