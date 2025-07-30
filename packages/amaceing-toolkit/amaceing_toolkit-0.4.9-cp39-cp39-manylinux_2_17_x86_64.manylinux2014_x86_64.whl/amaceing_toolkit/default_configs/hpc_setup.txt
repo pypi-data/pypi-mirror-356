@@ -1,0 +1,4 @@
+cluster:: BatchXL
+workload_manager:: lsf
+path_to_program:: {'cp2k': '/home/joha4087/programs/cp2k_easy/cp2k-2025.1/exe/local/cp2k.popt', 'mace': 'conda activate atk', 'mattersim': 'conda activate atk_ms7n'}
+path_to_source_file:: {'cp2k': '/home/joha4087/programs/cp2k_easy/source_cp2k_gcc_openmpi_by_jonas', 'mace': '/home/joha4087/anaconda3//etc/profile.d/conda.sh', 'mattersim': '/home/joha4087/anaconda3//etc/profile.d/conda.sh'}
