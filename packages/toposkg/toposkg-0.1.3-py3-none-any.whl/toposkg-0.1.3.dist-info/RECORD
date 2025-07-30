@@ -1,0 +1,14 @@
+toposkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toposkg/toposkg_lib_core.py,sha256=yH3UftRDXunW70P7yNp5giHBhpaJgDT1Zky70P_gBeg,25268
+toposkg/toposkg_lib_entity_linking.py,sha256=6HgzyMsrFgBB4N6I-r4B4qcoPTlEX_DJh780qF3Sayo,5496
+toposkg/toposkg_lib_fc.py,sha256=KZzwy81LiDLCGRUBQd1n121ikYuUvFTwF34fgQw7q5g,9373
+toposkg/toposkg_lib_metadata.py,sha256=uQKgd67IZnsR9ppRTkRyC2K2owpg2l-wXRqQwxtlWys,3265
+toposkg/toposkg_lib_translate.py,sha256=rnip8b48dy6MDQbjoN9KcAf4Nj9VgNN-4At8GApHFwI,1847
+toposkg/utils.py,sha256=y_gvsgTPh_0ZVAmJ5QDWfyU_ZTxFdb6vad86tZ_wg8c,355
+toposkg/jar_libs/DuplicateGeometryRemover-1.0-SNAPSHOT.jar,sha256=Fhu7El4UkgXkLfKyfd7_H2q2bIAOVxlPIN2SqxSe-EE,25957964
+toposkg/jar_libs/geospatialinterlinking-1.0-SNAPSHOT-jar-with-dependencies.jar,sha256=6R-NqjJg6LI19wXAETrg9QcEmvLvyvntm6FVEz0jPCY,45734261
+toposkg/scripts/materialization.sh,sha256=DYqcjhE-SwfZlPDAi0s-tr0sq4NOddZ-QoxbY_AZkZo,2233
+toposkg-0.1.3.dist-info/METADATA,sha256=bnIRtMZ5Zqy1rE5wTVDP8cck62Op7zRtQJicoGYoSxk,2785
+toposkg-0.1.3.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+toposkg-0.1.3.dist-info/top_level.txt,sha256=C2KMJDqqMh574R2X9uPNF891AY0gEYaonK5q2b-jcy8,8
+toposkg-0.1.3.dist-info/RECORD,,
