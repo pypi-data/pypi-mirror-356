@@ -1,0 +1,2 @@
+[console_scripts]
+datadagger = datadagger:cli
