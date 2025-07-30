@@ -1,0 +1,2 @@
+[console_scripts]
+jacket = jacket_cli.__main__:main

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: model-jacket
+Version: 0.2.0
+Summary: Package any ML model into a scalable, observable FastAPI service
+Home-page: https://github.com/shahwarcodes/model-jacket
+Author: Shahwar Saleem
+Author-email: saleemshahwar@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: prometheus-client
+Requires-Dist: torch
+Requires-Dist: onnxruntime
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+
+# Model Jacket
+
+Model Jacket is a lightweight framework that wraps any ML model with a FastAPI server, Docker image, Prometheus metrics, and Kubernetes Helm chart—so you can go from **model file ➜ production endpoint** in minutes.
+
+## Quick Start
+```bash
+pip install -e .
+# Train or load a model and save as TorchScript
+python export_model.py  # produces model.pt
+
+jacket build --framework torch --model-path model.pt --tag v1
+
+docker run -p 8000:8000 model-jacket:v1
+curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -d '{"input_data": [[1,2,3]]}'
+```
+
+## Features
+- 🔌 **Framework‑agnostic** (Torch & ONNX out of the box)
+- 🐳 **One‑command containerization** via `jacket build`
+- ⚡ **Low‑latency FastAPI** server with async I/O
+- 📈 **Built‑in Prometheus metrics** and `/healthz` endpoint
+- ☸️ **Production-ready Helm chart** with HPA
+- 🛡️ **CI/CD GitHub Action** for automatic build & deploy
+
+---
+Feel free to star ⭐, fork 🔱, and contribute! :rocket:
