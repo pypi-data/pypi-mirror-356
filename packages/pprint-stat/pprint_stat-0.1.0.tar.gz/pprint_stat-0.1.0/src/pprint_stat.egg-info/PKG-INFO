@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: pprint-stat
+Version: 0.1.0
+Summary: Command line tool to pretty print the /proc/[pid]/stat file, mapping values to fields
+Author-email: Jim Finance <financejimmy620@gmail.com>
+License-Expression: MIT
+Project-URL: homepage, https://github.com/finance-jimmy/pprint_stat
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file

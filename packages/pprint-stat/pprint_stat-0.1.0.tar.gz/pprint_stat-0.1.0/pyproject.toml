@@ -1,0 +1,28 @@
+[project]
+name = "pprint-stat"
+version = "0.1.0"
+description = "Command line tool to pretty print the /proc/[pid]/stat file, mapping values to fields"
+readme = "README.md"
+authors = [
+  { name="Jim Finance", email="financejimmy620@gmail.com" },
+]
+requires-python = ">=3.12"
+dependencies = []
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.scripts]
+pprint-stat = "pprint_stat.cli:app"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+homepage = "https://github.com/finance-jimmy/pprint_stat"
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true

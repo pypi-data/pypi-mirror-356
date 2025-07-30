@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pprint_stat/__init__.py
+src/pprint_stat/__main__.py
+src/pprint_stat/cli.py
+src/pprint_stat/data.py
+src/pprint_stat/pprint_stat.py
+src/pprint_stat.egg-info/PKG-INFO
+src/pprint_stat.egg-info/SOURCES.txt
+src/pprint_stat.egg-info/dependency_links.txt
+src/pprint_stat.egg-info/entry_points.txt
+src/pprint_stat.egg-info/top_level.txt
