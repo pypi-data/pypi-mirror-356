@@ -1,0 +1,11 @@
+arcane/bigquery_storage/__init__.py,sha256=vgd4pu2DnqNRYeyX3DG6x3WXK11NC_tQYgvy69Qthgs,107
+arcane/bigquery_storage/client.py,sha256=UdwbgALzAyM5XGDn0hrnahHPeCVWxuxHO5RdtnFM0_g,6949
+arcane/bigquery_storage/proto/feed_boost_result.proto,sha256=4YjQ1TsRBe5LSyVFsGt0klJX2TDgndNUlegg0a2PqFw,217
+arcane/bigquery_storage/proto/feed_boost_result_pb2.py,sha256=7ZudsvVJC_d2RuosnhIRGqnrSYmiqHFS7NxAI5Mmkb4,1096
+arcane/bigquery_storage/proto/feed_boost_result_pb2.pyi,sha256=cos5thnpzp9rZvbOHHue0S11C43JNOpJG4sEucUV0v4,541
+arcane/bigquery_storage/proto/feed_boost_statistic.proto,sha256=FK2t_0_BWlVenCNWgwvYE73IDFQQrdIgGNgNomKx4SI,332
+arcane/bigquery_storage/proto/feed_boost_statistic_pb2.py,sha256=URn8yyXSa0956Z-jnSrj46WUwoXY9gEFymgnJTBYylM,1403
+arcane/bigquery_storage/proto/feed_boost_statistic_pb2.pyi,sha256=UP9mgZqkAqGz7gK1WzUEA5ie7N89VUDt5cqRmxQm5dk,1328
+arcane_bigquery_storage-1.1.1.dist-info/METADATA,sha256=sMga9CjExTHXy8ZapbJNuulCIv0fgQ1NAb8AY3iTORU,2355
+arcane_bigquery_storage-1.1.1.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+arcane_bigquery_storage-1.1.1.dist-info/RECORD,,

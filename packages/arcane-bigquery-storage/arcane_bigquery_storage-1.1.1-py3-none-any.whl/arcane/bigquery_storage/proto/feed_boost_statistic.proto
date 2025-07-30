@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package arcane.bigquery.storage.proto;
+
+message FeedBoostStatistic {
+    string task_id = 1;
+    string timestamp = 2;
+    int32 cached_tokens = 3;
+    int32 prompt_tokens = 4;
+    int32 completion_tokens = 5;
+    float execution_time = 6;
+    int32 optimized_products = 7;
+    int32 total_input_products = 8;
+}
