@@ -1,0 +1,2 @@
+[console_scripts]
+xmcp-server-weather = xmcp_server_weather:main
