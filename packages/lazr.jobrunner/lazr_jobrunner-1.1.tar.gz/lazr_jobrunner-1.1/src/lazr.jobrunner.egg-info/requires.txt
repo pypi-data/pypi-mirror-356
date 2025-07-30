@@ -1,0 +1,8 @@
+
+[:python_version >= "3.8"]
+celery>=5.4.0
+
+[test]
+oops>=0.0.11
+six
+zope.testing<5.0.0
