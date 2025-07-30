@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+nict.egg-info/PKG-INFO
+nict.egg-info/SOURCES.txt
+nict.egg-info/dependency_links.txt
+nict.egg-info/top_level.txt
+nictemp/Miniforge3-25.3.0-3-Linux-x86_64.sh
