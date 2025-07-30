@@ -1,0 +1,37 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "Metro2D"
+version = "1.0.0"
+authors = [
+  { name="Thibaut Meyer", email="thibaut.meyer3@gmail.com" },
+]
+description = "Package for Raman TMD data processing and visualization"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "Metrology",
+    "MoS2",
+    "2D",
+]
+dependencies = [
+    "pl2d",
+    "msemapp",
+    "raman2d",
+    "xrf2d",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE*"]
+
+[project.scripts]
+metro2D = "metro2D.main:main"
+
+[project.urls]
+Homepage = "https://github.com/thi-mey/Raman2D"
