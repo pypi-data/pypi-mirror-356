@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = dpest
+parallel = True
+concurrency =
+omit =
+    tests/*
+    **/__init__.py
+    **/arguments.yml  # Exclude non-Python files
+
+[report]
+show_missing = True
