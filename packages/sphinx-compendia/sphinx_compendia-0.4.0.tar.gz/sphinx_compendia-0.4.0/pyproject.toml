@@ -1,0 +1,331 @@
+##############################################################################
+# == Python project configurations ===========================================
+# region preamble
+#####
+#
+# See
+#
+#   https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+#
+###
+[project]
+name = "sphinx-compendia"
+version = "0.4.0"
+description="A simple API for creating Sphinx domains and structuring arbitrary collections."
+readme = "README.rst"
+authors = [
+    {name = "Charles Bouchard-Légaré", email = "charlesbouchardlegare@gmail.com"},
+]
+license = "BSD-2-Clause-Patent"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Topic :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Framework :: Sphinx",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+keywords = ["sphinx"]
+requires-python = ">=3.10"
+dependencies = [
+    "docutils>=0.21.2",
+    "sphinx>=5",
+]
+
+[project.urls]
+Homepage = "https://cblegare.gitlab.io/sphinx-compendia/"
+Documentation = "https://cblegare.gitlab.io/sphinx-compendia/"
+Repository = "https://gitlab.com/cblegare/sphinx-compendia"
+Issues = "https://gitlab.com/cblegare/sphinx-compendia/-/issues"
+Changelog = "https://cblegare.gitlab.io/sphinx-compendia/changelog.html"
+
+[dependency-groups]
+dev = [
+    "coverage[toml]>=7.9.1",
+    "mypy>=1.16.1",
+    "nox>=2025.5.1",
+    "pytest>=8.4.1",
+    "ruff>=0.12.0",
+    "types-docutils>=0.21.0.20250604",
+]
+docs = [
+    "myst-parser>=4.0.1",
+    "pydata-sphinx-theme>=0.16.1",
+    "sphinx-autodoc-typehints>=3.0.1",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-paramlinks>=0.6.0",
+    "sphinx-tabs>=3.4.7",
+    "sphinxcontrib-programoutput>=0.18",
+]
+
+[tool.uv]
+managed = true
+package = true
+
+[tool.uv.pip]
+universal = true
+
+#####
+# endregion
+##############################################################################
+
+##############################################################################
+# -- pytest: test runner -----------------------------------------------------
+#####
+#
+# Reference: https://docs.pytest.org/en/stable/customize.html
+#
+# The pytest configuration file can be either
+#
+#   - pytest.ini
+#   - pyproject.toml (must contains a [tool.pytest.ini_options] table)
+#   - tox.ini (must contains a [pytest] section)
+#   - setup.cfg (not recommended) (contains a [tool:pytest] section)
+#
+# It is important to understand that there is no merging of configuration
+# files, as it would lead to ambiguity.
+#
+###
+[tool.pytest.ini_options]
+addopts = [
+    # Verbose mode shows context of execution on failure
+    "-v",
+    "-W", "error",
+]
+testpaths = [
+]
+norecursedirs = [
+    "test/integrated/*samples",
+]
+doctest_optionflags = [
+    "NORMALIZE_WHITESPACE",
+    "IGNORE_EXCEPTION_DETAIL",
+    "ELLIPSIS",
+]
+#####
+##############################################################################
+
+##############################################################################
+# -- coverage.py: test coverage measures -------------------------------------
+#####
+#
+# Reference: https://coverage.readthedocs.io/en/latest/config.html
+#
+# The coverage.py configuration file can be either
+#
+#   - As specified by the --rcfile=FILE flag
+#   - As specified by the COVERAGE_RCFILE environment variable
+#   - .coveragerc
+#   - setup.cfg (sections must be prefixed with "coverage:")
+#   - tox.ini (sections must be prefixed with "coverage:")
+#   - pyproject.toml (must be within the "tool.coverage" namespace,
+#     and coverage[toml] extra must be installed.)
+###
+[tool.coverage.run]
+
+# Read more about configuring coverage.py at
+#   http://coverage.readthedocs.io/en/coverage-4.5.1/config.html
+
+branch = true
+omit = [
+    ".nox/*",
+    "test/*",
+    "*/conf.py"  # The sphinx pytest fixture emits conf.py files, we don't want that
+]
+source = [
+    "sphinx_compendia"
+]
+data_file = "build/report/coverage/coverage"
+parallel = true
+
+[tool.coverage.paths]
+source = [
+    "src",
+]
+
+[tool.coverage.report]
+# Don’t include files in the report that are 100% covered files.
+skip_covered = false
+show_missing = true
+# Sort the text report by the named column.
+# Allowed values are “Name”, “Stmts”, “Miss”, “Branch”, “BrPart”, or “Cover”.
+sort = "Miss"
+# Regexes for lines to exclude from consideration
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+    "noqa",
+
+    # Don't complain about missing debug-only code
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run
+    "if 0:",
+    "if __name__ == .__main__.:",
+]
+omit = [
+]
+
+[tool.coverage.html]
+show_contexts = true
+directory = "build/report/coverage/html"
+
+[tool.coverage.xml]
+output = "build/report/coverage.xml"
+#####
+##############################################################################
+
+##############################################################################
+# -- mypy: type checking -----------------------------------------------------
+#####
+#
+# Reference: https://mypy.readthedocs.io/en/stable/config_file.html
+#
+# The mypy configuration file can be either (in priority order)
+#
+#   - specified with the --config-file flag
+#   - mypy.ini
+#   - .mypy.ini
+#   - setup.cfg
+#   - $XDG_CONFIG_HOME/mypy/config
+#   - ~/.config/mypy/config
+#   - ~/.mypy.ini
+#
+# It is important to understand that there is no merging of configuration
+# files, as it would lead to ambiguity.
+#
+###
+[tool.mypy]
+strict = true
+#no_implicit_reexport = True
+follow_imports_for_stubs = true
+# output options
+pretty = true
+# reports
+#html_report = "build/report/mypy"
+[[tool.mypy.overrides]]
+module = [
+]
+ignore_missing_imports = true
+#####
+##############################################################################
+
+##############################################################################
+# -- ruff: code lint & format ------------------------------------------------
+# region ruff
+#####
+#
+# Reference: https://docs.astral.sh/ruff/configuration/
+#
+# The black configuration file can be
+#
+#   - pyproject.toml (must contains a [tool.black] table)
+#
+###
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+  ".eggs",
+  ".git",
+  ".mypy_cache",
+  ".nox",
+  ".ruff_cache",
+  ".venv",
+  "__pypackages__",
+  "build",
+  "dist",
+  "docs",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+# Assume Python 3.8
+target-version = "py311"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = ["ALL", "D213"]
+ignore = [
+  # Google style with some tweaks
+  "D200",     # One-line docstring should fit on one line
+  "D203",     # 1 blank line required before class docstring
+  "D212",     # Multi-line docstring summary should start at the first line
+  "D215",     # Section underline is over-indented
+  "D406",     # Section name should end with a newline
+  "D407",     # Missing dashed underline after section
+  "D415",     # First line should end with a period, question mark, or exclamation point
+  # Some convention are simply wierd
+  "COM812",   # Trailing comma missing
+  # Some type checks should be infered
+  "ANN101",   # Missing type annotation for `self` in method
+  # Some documentation are not needed
+  "D100",     # Missing docstring in public module
+  "D101",     # Missing docstring in public class
+  "D102",     # Missing docstring in public method
+  "D103",     # Missing docstring in public function
+  "D104",     # Missing docstring in public package
+  "D105",     # Missing docstring in public magic method
+  "D106",     # Missing docstring in public nested class
+  "D107",     # Missing docstring in `__init__`
+]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+
+[tool.ruff.lint.per-file-ignores]
+"noxfile.py" = [
+  "D100",     # Missing docstring in public module
+  "D103",     # Missing docstring in public function
+  "ANN201",
+  "ANN001",
+  "ARG001",
+]
+"test/**" = [
+  "D100",     # Missing docstring in public module
+  "D103",     # Missing docstring in public function
+  "INP001",   # File is part of an implicit namespace package.
+]
+"test/**/test_*.py" = [
+  "ANN201",   # Missing return type annotation for public function.
+  "S101",     # Use of `assert` detected
+]
+
+[tool.ruff.lint.flake8-annotations]
+# Let __init__ not have return type annotation
+# https://docs.astral.sh/ruff/rules/missing-return-type-special-method/
+# We ignore this explicitely when no arguments to __init__ are defined.
+mypy-init-return = true
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
+#####
+# endregion
+##############################################################################
