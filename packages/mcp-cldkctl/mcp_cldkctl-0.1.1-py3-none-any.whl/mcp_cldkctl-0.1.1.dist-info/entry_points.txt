@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-cldkctl = mcp_cldkctl.simple_server:main
