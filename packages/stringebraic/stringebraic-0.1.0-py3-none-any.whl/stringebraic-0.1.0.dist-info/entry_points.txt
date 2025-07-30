@@ -1,0 +1,2 @@
+[console_scripts]
+stringebraic = stringebraic.__main__:main
