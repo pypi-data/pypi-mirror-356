@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools>=80.0,<90.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Wakatime-Leaderboards"
+authors = [{ name = "Nicco", email = "github.giving328@passmail.com" }]
+description = "Automated WakaTime Leaderboards for your GitHub profile"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+# dynamic = ["version"]
+version = "v1.2.3"
+dependencies = ["PyGithub==2.6.1", "python-semantic-release==10.1.0"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: System :: Monitoring",
+    "Topic :: Games/Entertainment",
+    "Topic :: Utilities",
+]
+
+[project.optional-dependencies]
+dev = ["bandit==1.8.3", "pylint==3.3.7", "pipdeptree==2.26.1", "twine==6.1.0"]
+test = ["pytest-cov==6.2.1"]
+
+[project.urls]
+Homepage = "https://github.com/Nicconike/Wakatime-Leaderboards"
+Changelog = "https://github.com/Nicconike/Wakatime-Leaderboards/blob/master/CHANGELOG.md"
+Documentation = "https://github.com/Nicconike/Wakatime-Leaderboards/blob/master/README.md"
+Issues = "https://github.com/nicconike/wakatime-leaderboards/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*"]
+
+[tool.semantic_release]
+version_variables = ["api/main.py:__version__"]
+version_source = "tag"
+tag_format = "v{version}"
+commit_message = "chore(release): Version Release v{version}"
+branch = "master"
+
+[tool.semantic_release.commit_parser_options]
+allowed_tags = [
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "style",
+    "refactor",
+    "test",
+    "revert",
+]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf"]
+default_bump_level = 0
+
+[tool.semantic_release.remote]
+type = "github"
+token = { env = "GH_TOKEN" }
+
+[tool.semantic_release.changelog]
+default_templates.changelog_file = "CHANGELOG.md"
+changelog_mode = "update"
+insertion_flag = "<!-- version list -->"
+template_dir = "templates"
+release_notes_template = "release_notes.md.j2"
+exclude_commit_patterns = ["^chore:", "^style:"]
+
+[tool.semantic_release.changelog.environment]
+trim_blocks = true
+autoescape = false
+ignore_token_for_push = false
+
+[tool.semantic_release.publish]
+upload_to_vcs_release = true
+upload_to_pypi = true

@@ -1,0 +1,11 @@
+PyGithub==2.6.1
+python-semantic-release==10.1.0
+
+[dev]
+bandit==1.8.3
+pylint==3.3.7
+pipdeptree==2.26.1
+twine==6.1.0
+
+[test]
+pytest-cov==6.2.1
