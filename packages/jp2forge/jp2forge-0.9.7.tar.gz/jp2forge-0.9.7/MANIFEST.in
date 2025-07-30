@@ -1,0 +1,15 @@
+include LICENSE
+include README.md
+include requirements.txt
+include requirements-dev.txt
+include test_jp2forge.sh
+
+recursive-include docs *
+recursive-include examples *
+
+# Exclude unnecessary directories
+prune benchmark
+prune input_dir
+prune output
+prune output_dir
+prune reports
