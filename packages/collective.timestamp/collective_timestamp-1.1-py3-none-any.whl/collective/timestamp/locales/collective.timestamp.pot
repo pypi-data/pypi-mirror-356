@@ -1,0 +1,184 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-06-19 09:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.timestamp\n"
+
+#: ../interfaces.py:28
+msgid "Choose the hashing algorithm that will be used for generating timestamps."
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Click to timestamp this content."
+msgstr ""
+
+#: ../browser/templates/verification.pt:17
+msgid "Download the .TSR file here :"
+msgstr ""
+
+#: ../browser/templates/verification.pt:23
+msgid "Download the timestamped file here :"
+msgstr ""
+
+#: ../behaviors/timestamp.py:31
+msgid "Enable timestamping"
+msgstr ""
+
+#: ../interfaces.py:27
+msgid "Hashing algorithm to use for timestamping"
+msgstr ""
+
+#: ../interfaces.py:50
+msgid "If enabled, additional timestamping services will be used if the main service is unavailable."
+msgstr ""
+
+#: ../interfaces.py:42
+msgid "Initial backoff time in seconds"
+msgstr ""
+
+#: ../interfaces.py:56
+msgid "List of failover timestamping service URLs"
+msgstr ""
+
+#: ../interfaces.py:35
+msgid "Maximum number of retries for timestamping"
+msgstr ""
+
+#: ../browser/templates/verification.pt:31
+msgid "More Info"
+msgstr ""
+
+#: ../browser/templates/verification.pt:18
+msgid "TSR File"
+msgstr ""
+
+#: ../interfaces.py:43
+msgid "The initial time to wait before retrying a failed timestamping attempt."
+msgstr ""
+
+#: ../interfaces.py:36
+msgid "The maximum number of attempts to retry timestamping in case of failure."
+msgstr ""
+
+#: ../interfaces.py:57
+msgid "These services will be used if the main service is unavailable."
+msgstr ""
+
+#: ../behaviors/timestamp.py:32
+msgid "This allows you to disable timestamping for this specific content."
+msgstr ""
+
+#: ../browser/templates/verification.pt:42
+msgid "This content is not timestamped."
+msgstr ""
+
+#: ../browser/templates/verification.pt:11
+msgid "This content was timestamped on"
+msgstr ""
+
+#: ../behaviors/timestamp.py:26
+msgid "Time Stamp Response (TSR) file"
+msgstr ""
+
+#: ../behaviors/timestamp.py:19
+#: ../profiles/default/actions.xml
+msgid "Timestamp"
+msgstr ""
+
+#: ../browser/action.py:41
+msgid "Timestamp file has been successfully generated and saved"
+msgstr ""
+
+#: ../browser/rule.py:60
+msgid "Timestamp file has been successfully generated and saved for ${name}"
+msgstr ""
+
+#: ../browser/action.py:32
+msgid "Timestamp has failed."
+msgstr ""
+
+#: ../subscribers.py:21
+msgid "Timestamp information has been removed since the data has changed"
+msgstr ""
+
+#: ../browser/templates/verification.pt:3
+msgid "Timestamp informations"
+msgstr ""
+
+#: ../browser/configure.zcml:60
+#: ../browser/rule.py:26
+msgid "Timestamp object"
+msgstr ""
+
+#: ../browser/configure.zcml:60
+msgid "Timestamp the triggering item"
+msgstr ""
+
+#: ../browser/templates/viewlet.pt:1
+msgid "Timestamped"
+msgstr ""
+
+#: ../browser/templates/verification.pt:24
+msgid "Timestamped File"
+msgstr ""
+
+#: ../browser/controlpanel.py:11
+msgid "Timestamping settings"
+msgstr ""
+
+#: ../profiles.zcml:14
+msgid "Timestamping support for Plone content types"
+msgstr ""
+
+#: ../interfaces.py:64
+msgid "URL of the documentation explaining how to verify timestamps"
+msgstr ""
+
+#: ../interfaces.py:21
+msgid "URL of the timestamping service you want to use"
+msgstr ""
+
+#: ../browser/rule.py:71
+msgid "Unable to timestamp ${name}: ${error}"
+msgstr ""
+
+#: ../profiles.zcml:31
+msgid "Uninstalls collective.timestamp"
+msgstr ""
+
+#: ../interfaces.py:49
+msgid "Use failover timestamping"
+msgstr ""
+
+#: ../subscribers.py:32
+msgid "You are editing a timestamped content. Your modifications can invalidate the timestamp."
+msgstr ""
+
+#: ../profiles.zcml:14
+msgid "collective.timestamp"
+msgstr ""
+
+#: ../profiles.zcml:22
+msgid "collective.timestamp (testing)"
+msgstr ""
+
+#: ../profiles.zcml:31
+msgid "collective.timestamp (uninstall)"
+msgstr ""
+
+#: ../profiles.zcml:22
+msgid "collective.timestamp testing profile"
+msgstr ""
