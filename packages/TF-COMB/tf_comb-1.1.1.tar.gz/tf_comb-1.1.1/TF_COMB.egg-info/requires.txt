@@ -1,0 +1,17 @@
+numpy
+scipy
+pysam
+matplotlib>=2
+pandas>=2.3.0
+tobias>=0.11
+networkx>=2.4
+python-louvain
+graphviz
+statsmodels
+goatools
+uropa
+qnorm
+dill
+seaborn
+tqdm
+IPython
