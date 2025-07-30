@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+benas_filesync/__init__.py
+benas_filesync/cli.py
+benas_filesync/main.py
+benas_filesync/manager.py
+benas_filesync.egg-info/PKG-INFO
+benas_filesync.egg-info/SOURCES.txt
+benas_filesync.egg-info/dependency_links.txt
+benas_filesync.egg-info/entry_points.txt
+benas_filesync.egg-info/top_level.txt
+tests/__init__.py
+tests/test_manager.py
