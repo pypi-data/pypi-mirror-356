@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: path_name_parser
+Version: 0.1.2
+Summary: Flexible parser for extracting groups from filenames and paths
+Author: Oleg migutin83@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
