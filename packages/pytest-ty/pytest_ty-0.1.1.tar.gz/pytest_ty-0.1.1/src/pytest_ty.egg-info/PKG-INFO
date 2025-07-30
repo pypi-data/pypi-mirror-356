@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: pytest-ty
+Version: 0.1.1
+Summary: A pytest plugin to run the ty type checker
+Author-email: Raphael Boidol <pytest-ty@boidol.dev>
+License-Expression: MIT
+Project-URL: Repository, https://github.com/boidolr/pytest-ty
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest>=7.0.0
+Requires-Dist: ty
+Dynamic: license-file
+
+pytest-ty [![Build Status](https://github.com/boidolr/pytest-ty/actions/workflows/main.yaml/badge.svg)](https://github.com/boidolr/pytest-ty/actions/workflows/main.yaml "See Build Status on GitHub Actions")
+=========
+
+A [`pytest`](https://github.com/pytest-dev/pytest) plugin to run the [`ty`](https://github.com/astral-sh/ty) type checker.
+
+
+Configuration
+------------
+
+Configure `ty` in `pyproject.toml` or `ty.toml`,
+see the [`ty` README](https://github.com/astral-sh/ty/blob/main/docs/README.md).
+
+
+Installation
+------------
+
+You can install "pytest-ty" from [`PyPI`](https://pypi.org):
+
+* `uv add pytest-ty`
+* `pip install pytest-ty`
+
+Usage
+-----
+
+* Activate the plugin when running `pytest`: `pytest --ty`
+* Activate via `pytest` configuration: `addopts = "--ty"`
+
+
+License
+-------
+
+Distributed under the terms of the [`MIT`](https://opensource.org/licenses/MIT) license, "pytest-ty" is free and open source software
