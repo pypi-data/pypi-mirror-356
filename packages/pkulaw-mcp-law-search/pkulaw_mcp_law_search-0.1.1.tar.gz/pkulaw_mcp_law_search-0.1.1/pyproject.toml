@@ -1,0 +1,40 @@
+[project]
+name = "pkulaw-mcp-law-search"
+version = "0.1.1"
+description = "PKULAW MCP server for law search"
+keywords = ["PKULAW", "MCP server", "legal", "law", "search"]
+readme = "README.md"
+authors = [
+    { name = "PKULAW", email = "fxtj@chinalawinfo.com" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.8.1",
+    "requests>=2.32.4",
+]
+
+[project.scripts]
+pkulaw-mcp-law-search = "pkulaw_mcp_law_search:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "docker",
+  "*.yaml",
+  "Dockerfile",
+  "README-dev.md",
+]
+
