@@ -1,0 +1,49 @@
+[project]
+name = "scaneo"
+version = "2025.06.21"
+description = "A labelling tool for satellite imagery"
+authors = [
+    {name = "earthpulse", email = "it@earthpulse.es"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer>=0.9.0",
+    "fastapi>=0.90.0",
+    "uvicorn[standard]>=0.22.0",
+    "rasterio>=1.2.0",
+    "shapely>=1.7.1",
+    "mercantile>=1.2.1",
+    "cachetools>=5.3.1",
+    "requests>=2.32.3",
+    "matplotlib>=3.4.3",
+    "tqdm>=4.62.3",
+    "python-dotenv>=1.0.1",
+    "pyproj>=3.7.1",
+]
+
+[project.scripts]
+scaneo = "scaneo.main:app"
+scaneo-proxy = "scaneo.proxy:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scaneo"]
+
+[dependency-groups]
+dev = [
+    "geomet>=1.1.0",
+    "geopandas>=1.0.1",
+    "jupyter>=1.1.1",
+    "mkdocs-material>=9.6.14",
+    "mkdocs>=1.6.1",
+    "onnxruntime>=1.20.1",
+    "pystac>=1.12.1",
+    "python-multipart>=0.0.20",
+    "scikit-image>=0.25.1",
+    "fastapi[standard]>=0.115.12",
+    "eotdl>=2025.5.26.post4",
+]

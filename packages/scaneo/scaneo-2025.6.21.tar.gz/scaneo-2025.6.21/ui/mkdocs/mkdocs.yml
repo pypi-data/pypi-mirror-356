@@ -1,0 +1,54 @@
+site_name: SCANEO
+
+nav:
+  - Introduction: 'index.md'
+  - Getting Started: 'getting_started.md'
+  - Labelling Campaigns: 'labelling_campaigns.md'
+  - Labelling Interface: 'labelling_interface.md'
+  - Exporting: 'exporting.md'
+  - AI Assisted Labelling: 'ai_assisted_labelling.md'
+  - Integrations: 'integrations.md'
+  - Contributing: 'contributing.md'
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+    - python
+  favicon: img/favicon.ico
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.footer
+  palette:
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - toc:
+      permalink: '¶'
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+
+plugins:
+  - search
+
+extra_css:
+  - css/video.css
