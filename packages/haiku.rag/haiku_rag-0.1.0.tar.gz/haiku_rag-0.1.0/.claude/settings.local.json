@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pytest:*)",
+      "Bash(uv add:*)",
+      "Bash(source:*)",
+      "Bash(pyright:*)",
+      "Bash(ruff check:*)",
+      "Bash(find:*)",
+      "Bash(. .venv/bin/activate)",
+      "Bash(mv:*)"
+    ],
+    "deny": []
+  }
+}
