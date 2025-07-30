@@ -1,0 +1,17 @@
+[NEAT-1115]  Unbound local error (#1242)
+
+# Description
+
+Please describe the change you have made.
+
+## Bump
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## Changelog
+### Fixed
+
+- Running `neat.to.cdf.data_model()` no longer gives a
+`UnboundLocalError` if there is an error in the deployment.
