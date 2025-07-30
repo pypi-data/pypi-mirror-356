@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: spyreapi
+Version: 0.0.1
+Summary: A robust and extensible Python client for interacting with the [Spire Business Software API](https://developer.spiresystems.com/reference). This client provides an object-oriented interface to get, create, update, delete, query, filter, sort, and manage various Spire modules such as Sales Orders, Invoices, Inventory Items, and more.
+Author-email: Sanjid Sharaf <sanjidsharaf1@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/sanjid-sharaf/spyre/
+Project-URL: Issues, https://github.com/sanjid-sharaf/spyre/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# Spire API Python Client
+
+A robust and extensible Python client for interacting with the [Spire Business Software API](https://developer.spiresystems.com/reference). This client provides an object-oriented interface to get, create, update, delete, query, filter, sort, and manage various Spire modules such as Sales Orders, Invoices, Inventory Items, and more.
+
+---
+
+## ✨ Features
+
+- ✅ Object-oriented resource wrappers for each module (e.g., `salesOrder`, `invoice`, `item`)
+- 🔍 Full-text search via `q` parameter
+- 🔁 Pagination with `start` and `limit` support
+- 🧾 JSON-based advanced filtering (supports `$gt`, `$lt`, `$in`, `$or`, etc.)
+- ↕️ Multi-field sorting with ascending/descending control
+- 🔧 Clean abstraction layer for API endpoints
+- 📦 Powered by `pydantic` models for validation
+
+---
+
+## 📦 Installation
+
+```bash
+pip install -r requirements.txt
