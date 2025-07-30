@@ -1,0 +1,11 @@
+requests
+jinja2
+py-rbac
+faiss-cpu
+neo4j
+redis
+numpy
+cryptography
+
+[test]
+pytest
