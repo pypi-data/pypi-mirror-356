@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypkgsize"
+version = "1.0.1"
+authors = [
+  { name="Duc Nguyen", email="minhducng.dev@gmail.com" },
+]
+description = "A Python package to analyze the disk usage of installed packages."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "click>=8.0",
+    "packaging",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/crkacer/pypkgsize"
+"Bug Tracker" = "https://github.com/crkacer/pypkgsize/issues"
+
+[project.scripts]
+pkgsize = "pkgsize.cli:main"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-mock",
+]
