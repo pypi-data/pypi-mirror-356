@@ -1,0 +1,6 @@
+pymysql
+clickhouse-driver
+cryptography
+apache-iotdb>=2.0.3
+sqlglot
+zstd<1.6,>=1.5.6
