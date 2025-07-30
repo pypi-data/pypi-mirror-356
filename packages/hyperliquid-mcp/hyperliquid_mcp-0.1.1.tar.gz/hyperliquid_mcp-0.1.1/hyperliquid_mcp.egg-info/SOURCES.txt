@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+hyperliquid_mcp/__init__.py
+hyperliquid_mcp/server.py
+hyperliquid_mcp/version.py
+hyperliquid_mcp.egg-info/PKG-INFO
+hyperliquid_mcp.egg-info/SOURCES.txt
+hyperliquid_mcp.egg-info/dependency_links.txt
+hyperliquid_mcp.egg-info/entry_points.txt
+hyperliquid_mcp.egg-info/requires.txt
+hyperliquid_mcp.egg-info/top_level.txt
