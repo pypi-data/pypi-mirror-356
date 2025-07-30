@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: shfuncdecfmt
+Version: 1.0.0
+Summary: Shell function declaration formatter
+Project-URL: bugs, https://github.com/GideonBear/shfuncdecfmt/issues
+Project-URL: homepage, https://github.com/GideonBear/shfuncdecfmt
+Author: GideonBear
+License-Expression: GPL-3.0-only
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
+# shfuncdecfmt
