@@ -1,0 +1,19 @@
+🐛Multiple indices on one property (#1241)
+
+# Description
+
+Please describe the change you have made.
+
+## Bump
+
+- [x] Patch
+- [ ] Minor
+- [ ] Skip
+
+## Changelog
+### Fixed
+
+- If there are multiple indices on one property Neat no longer raises an
+error when reading the spreadsheet. For example,
+`btree:code(cursorable=True),btree:standard(cursorable=True,order=1)` in
+the Index column no longer raise an error.
