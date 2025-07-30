@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "volt-logger"
+version = "0.1.0"
+description = "A lightweight logger for Python CLI tools and scripts"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+dependencies = []
+keywords = ["logging", "structured", "volt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/stuarttempleton/volt-logger"
+"Repository" = "https://github.com/stuarttempleton/volt-logger"
+"Bug Tracker" = "https://github.com/stuarttempleton/volt-logger/issues"

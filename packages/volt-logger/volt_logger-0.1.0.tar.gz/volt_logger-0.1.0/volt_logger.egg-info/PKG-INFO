@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: volt-logger
+Version: 0.1.0
+Summary: A lightweight logger for Python CLI tools and scripts
+Home-page: https://github.com/stuarttempleton/volt-logger
+Author: Voltur
+License: MIT License
+        
+        Copyright (c) 2025 Voltur
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/stuarttempleton/volt-logger
+Project-URL: Repository, https://github.com/stuarttempleton/volt-logger
+Project-URL: Bug Tracker, https://github.com/stuarttempleton/volt-logger/issues
+Keywords: logging,structured,volt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# volt-logger
+
+**volt-logger** is a lightweight, file-capable logging utility for Python CLI tools and small applications.  
+It offers basic log levels, optional timestamping, and file logging without the complexity of the standard `logging` module.
+
+## Features
+
+- Print logs to console and/or file
+- Supports basic log levels: `info`, `warn`, `error`, `debug`, `progress`, etc.
+- Toggle file logging with `.set_log_file()`
+- Timestamp support
+- Built-in `Logger` instance for quick use
+
+## Install
+
+```bash
+pip install git+https://github.com/stuarttempleton/volt-logger.git
+````
+
+## Usage
+
+```python
+from voltlogger import Logger
+
+Logger.log("This is an info message.")
+Logger.warn("Watch out!")
+Logger.set_log_file("run.log")
+Logger.report("This will log to file, if a log file is specified.")
+```
+
+## License
+
+[MIT](LICENSE)
