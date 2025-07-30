@@ -1,0 +1,26 @@
+{
+    "allowedTags": [
+        "Chat",
+        "Completions",
+        "Embeddings"
+    ],
+    "propertiesToRemove": [
+        "x-oaiMeta"
+    ],
+    "pathFilters": {
+        "/chat/completions": {
+            "allowedMethods": [
+                "POST"
+            ]
+        },
+        "/chat/completions/{completion_id}": {
+            "allowedMethods": []
+        },
+        "/chat/completions/{completion_id}/messages": {
+            "allowedMethods": []
+        }
+    },
+    "options": {
+        "removeUnreferencedSchemas": true
+    }
+}
