@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kotti2"
+version = "0.1.2"
+description = "Kotti2: A fork/variant of Kotti CMS"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.entry-points."paste.app_factory"]
+main = "kotti2:main"
