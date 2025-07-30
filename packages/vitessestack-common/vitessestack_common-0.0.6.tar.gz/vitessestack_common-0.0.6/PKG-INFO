@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vitessestack_common
+Version: 0.0.6
+Summary: Common libraries for Vitessestack APIs
+Home-page: https://github.com/VitessestackTech/APICommons
+Author: Santiago Melo Medina
+Author-email: smelomedina05@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Vitessestack API Commons
+
+Common libraries for Vitessestack API
