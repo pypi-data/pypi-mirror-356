@@ -1,0 +1,14 @@
+restbase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restbase/__main__.py,sha256=vNh8izsLdzkjtQ7fhucy3gJaLO7tJXJwydATGKjQml4,73
+restbase/api.py,sha256=5IiMQr8KE8FWRZrS3XtBT7joV3BxaYl9M1gps4Lqtrg,1035
+restbase/cli.py,sha256=VBMdrD1_MSiY6-S6OgS2wlWIkTH7cADk7ZUi0M5hT5A,1712
+restbase/config.py,sha256=QcQoLynWZTVXfkx-MQZ06tHkFiFduBcWeUyhfVWnJwg,1008
+restbase/config_generator.py,sha256=E9tk87Mt9r8ywbexwEvCyNmiwn9Hj44dFVzXg9t6Ers,1873
+restbase/db.py,sha256=UqJLthLRqm0KNTDe_SW1VLuhy04vo29yXqpNEDccYw8,1161
+restbase/schema.py,sha256=s_1Pgo6jrRAzZw0-AVsudJeo627AdTFSinrhFx9nnY8,904
+restbase_cli-0.0.1.dist-info/licenses/LICENSE,sha256=7GNJB5wPD03GMIaeNYoTRSH8C6yjkj9aSkZGkj8AwJE,1090
+restbase_cli-0.0.1.dist-info/METADATA,sha256=J8dBJl9ab9Og0RN7-cGEeR9iEn4SDTo_Tj3mSDEkbF4,2656
+restbase_cli-0.0.1.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+restbase_cli-0.0.1.dist-info/entry_points.txt,sha256=KhSfE_SZvOEDI15fXDzXctzYVypFNg7PmHUtHViJpwY,47
+restbase_cli-0.0.1.dist-info/top_level.txt,sha256=M-cfnp-7eiRueMQzYJtyFvIGkjwmCzTzAdOLsj_6yBk,9
+restbase_cli-0.0.1.dist-info/RECORD,,
