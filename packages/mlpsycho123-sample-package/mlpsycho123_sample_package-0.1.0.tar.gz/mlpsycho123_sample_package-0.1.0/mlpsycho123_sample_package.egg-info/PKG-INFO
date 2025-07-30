@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: mlpsycho123_sample_package
+Version: 0.1.0
+Summary: A simple example package
+Home-page: https://github.com/srinivas/mlpsycho123_sample_package
+Author: srinivas
+Author-email: srinivas@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# sample_package
+
+A small Python package that says hello.
+
+## Usage
+
+python
+
+from sample_package import hello
+
+print(hello("World"))
