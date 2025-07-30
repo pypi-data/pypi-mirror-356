@@ -1,0 +1,108 @@
+Metadata-Version: 2.4
+Name: facesign-api
+Version: 1.0.19
+Summary: Official Python SDK for FaceSign identity verification API
+Author-email: FaceSign <support@facesign.ai>
+Maintainer-email: FaceSign <support@facesign.ai>
+License: MIT License
+        
+        Copyright (c) 2024 FaceSign
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://facesign.ai
+Project-URL: Documentation, https://docs.facesign.ai
+Project-URL: Repository, https://github.com/facesignai/facesign-api.git
+Project-URL: Bug Tracker, https://github.com/facesignai/facesign-api/issues
+Keywords: identity,verification,api,biometric,authentication,sdk
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic<3.0.0,>=2.0.0
+Requires-Dist: httpx<1.0.0,>=0.24.0
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: responses>=0.23.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Dynamic: license-file
+
+# FaceSign Python SDK
+
+The official Python SDK for the FaceSign identity verification API.
+
+## Installation
+
+```bash
+pip install facesign-api
+```
+
+## Quick Start
+
+```python
+import asyncio
+from facesign import FaceSignClient
+
+async def main():
+    client = FaceSignClient(api_key="sk_test_...")
+    
+    # Create a verification session
+    session = await client.sessions.create(
+        client_reference_id="user-123",
+        metadata={"source": "python-sdk"},
+        modules=[{"type": "identityVerification"}]
+    )
+    
+    print(f"Session created: {session.session.id}")
+    print(f"Client secret: {session.client_secret.secret}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+## Features
+
+- **Full API Coverage**: Complete support for all FaceSign API endpoints
+- **Type Safety**: Built with Pydantic for robust type validation
+- **Async/Sync Support**: Use async/await or synchronous calls
+- **Comprehensive Error Handling**: Detailed error responses with proper typing
+
+## Documentation
+
+For detailed documentation, visit [https://docs.facesign.ai](https://docs.facesign.ai)
+
+## License
+
+MIT License - see LICENSE file for details.
