@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+spacy>=3.7.2
+rapidfuzz
+Metaphone
+scikit-learn
+chardet
+torch
+transformers>=4.0.0
+sentence_transformers
