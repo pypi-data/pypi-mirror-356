@@ -1,0 +1,2 @@
+[flake8.extension]
+ANS = flake8_all_not_strings:Plugin
