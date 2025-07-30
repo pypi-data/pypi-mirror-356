@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+oxius/__init__.py
+oxius/__version__.py
+oxius/cache.py
+oxius/client.py
+oxius/exceptions.py
+oxius/response.py
+oxius/utils.py
+oxius.egg-info/PKG-INFO
+oxius.egg-info/SOURCES.txt
+oxius.egg-info/dependency_links.txt
+oxius.egg-info/top_level.txt
