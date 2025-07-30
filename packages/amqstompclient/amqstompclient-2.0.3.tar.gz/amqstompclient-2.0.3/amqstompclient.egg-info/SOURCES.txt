@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+amqstompclient/__init__.py
+amqstompclient/amqstompclient.py
+amqstompclient/simpletest.py
+amqstompclient/test_amqstompclient copy.py
+amqstompclient/test_amqstompclient.py
+amqstompclient.egg-info/PKG-INFO
+amqstompclient.egg-info/SOURCES.txt
+amqstompclient.egg-info/dependency_links.txt
+amqstompclient.egg-info/requires.txt
+amqstompclient.egg-info/top_level.txt
