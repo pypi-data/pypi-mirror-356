@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/portmgr/__init__.py
+src/portmgr.egg-info/PKG-INFO
+src/portmgr.egg-info/SOURCES.txt
+src/portmgr.egg-info/dependency_links.txt
+src/portmgr.egg-info/entry_points.txt
+src/portmgr.egg-info/requires.txt
+src/portmgr.egg-info/top_level.txt
