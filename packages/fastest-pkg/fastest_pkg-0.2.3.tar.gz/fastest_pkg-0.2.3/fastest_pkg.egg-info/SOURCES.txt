@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+fastest_pkg/__init__.py
+fastest_pkg/fastest_pkg.py
+fastest_pkg.egg-info/PKG-INFO
+fastest_pkg.egg-info/SOURCES.txt
+fastest_pkg.egg-info/dependency_links.txt
+fastest_pkg.egg-info/entry_points.txt
+fastest_pkg.egg-info/requires.txt
+fastest_pkg.egg-info/top_level.txt
+fastest_pkg.egg-info/zip-safe
+fastest_pkg/utils/__init__.py
+fastest_pkg/utils/human_bytes.py
+fastest_pkg/utils/pkg_mirror.py

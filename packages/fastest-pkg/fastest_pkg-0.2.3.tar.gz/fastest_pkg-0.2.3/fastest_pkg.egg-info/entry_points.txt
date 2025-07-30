@@ -1,0 +1,2 @@
+[console_scripts]
+fastest_pkg = fastest_pkg.fastest_pkg:main
