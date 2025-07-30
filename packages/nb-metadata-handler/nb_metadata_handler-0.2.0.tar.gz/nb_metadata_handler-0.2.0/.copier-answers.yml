@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.8
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: ''
+author_name: Nicolas Brichet
+has_binder: true
+has_settings: true
+kind: frontend
+labextension_name: nb-metadata-handler
+project_short_description: A JupyterLab extension to handle notebook metadata.
+python_name: nb_metadata_handler
+repository: https://github.com/brichet/nb-metadata-handler
+test: true
+
