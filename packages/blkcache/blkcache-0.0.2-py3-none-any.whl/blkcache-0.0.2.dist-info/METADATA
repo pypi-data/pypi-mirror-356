@@ -1,0 +1,71 @@
+Metadata-Version: 2.4
+Name: blkcache
+Version: 0.0.2
+Summary: A block device cache in userspace
+Author-email: Gareth Davidson <gaz@bitplane.net>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: Public Domain
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+License-File: LICENSE.md
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: coverage ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: pydoc-markdown ; extra == "dev"
+Requires-Dist: build ; extra == "dev"
+Requires-Dist: twine ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: mkdocs ; extra == "dev"
+Project-URL: Bug Tracker, https://github.com/bitplane/blkcache/issues
+Project-URL: Homepage, https://github.com/bitplane/blkcache
+Project-URL: Source Code, https://github.com/bitplane/blkcache
+Provides-Extra: dev
+
+# 🧊 blkcache
+
+Userspace transparent block device cache.
+
+## ⬇️ Deps
+
+```
+sudo apt install libnbd-bin nbdkit-plugin-python nbdfuse fuse3
+```
+
+## ℹ️ Usage
+
+```
+uvx blkcache /dev/sr0 file.iso
+```
+
+Then point tools at `file.iso` instead of `/dev/sr0`.
+
+## Why?
+
+Copying some CDs and needed a way to do mount in FUSE, dump the filesystem, and
+then `ddrescue /dev/sr0` to get the image if possible. This means it doesn't
+read the disk twice, even if you have a ton of drives attached
+
+## How?
+
+It uses `nbdkit` to create a Network Block Storage device in Python, mounts it
+using `fuse`, then creates a mmapped disk cache of sectors as they're read.
+
+## 🔗 Links
+
+* [🏠 home](https://bitplane.net/dev/python/blkcache)
+* [🐱 github](https://github.com/bitplane/blkcache)
+* [🐍 pypi](https://pypi.org/project/blkcache)
+* [📖 pydoc](https://bitplane.net/dev/python/blkcache/pydoc)
+
+## 🌍 Related
+
+* [🪦 rip](https://github.com/bitplane/rip)
+* [🕷️ scrapers](https://bitplane.net/python/scrapers)
+
+
