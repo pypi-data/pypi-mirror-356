@@ -1,0 +1,122 @@
+Metadata-Version: 2.4
+Name: qka
+Version: 1.0.3
+Summary: 快捷量化助手（Quick Quantitative Assistant）- 简洁易用的A股量化交易框架
+Project-URL: Home, https://github.com/zsrl/qka
+Project-URL: Documentation, https://zsrl.github.io/qka
+Project-URL: Repository, https://github.com/zsrl/qka
+Project-URL: Issues, https://github.com/zsrl/qka/issues
+Author-email: myc <mayuanchi1029@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 量化投资技术
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: akshare>=1.16.93
+Requires-Dist: fastapi>=0.115.13
+Requires-Dist: flask>=3.1.1
+Requires-Dist: ipykernel>=6.29.5
+Requires-Dist: mcp[cli]>=1.9.0
+Requires-Dist: nbformat>=5.10.4
+Requires-Dist: plotly>=6.1.1
+Requires-Dist: uvicorn>=0.34.3
+Requires-Dist: xtquant>=241014.1.2
+Provides-Extra: dev
+Requires-Dist: hatch-vcs>=0.3.0; extra == 'dev'
+Requires-Dist: mkdocs-material>=9.6.14; extra == 'dev'
+Requires-Dist: mkdocs>=1.6.1; extra == 'dev'
+Requires-Dist: mkdocstrings-python>=1.16.12; extra == 'dev'
+Requires-Dist: mkdocstrings>=0.29.1; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0.0; extra == 'dev'
+Requires-Dist: pytest>=7.0.0; extra == 'dev'
+Requires-Dist: python-semantic-release>=9.0.0; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# qka (快量化)
+
+快捷量化助手（Quick Quantitative Assistant）是一个简洁易用，可实操A股的量化交易框架。
+
+## 安装
+
+```bash
+pip install qka
+```
+
+## 使用方法
+
+### QMTServer
+
+```python
+from qka.server import QMTServer
+
+server = QMTServer("YOUR_ACCOUNT_ID", "YOUR_QMT_PATH")
+# 服务器启动时会打印生成的token
+server.start()
+```
+
+### QMTClient
+
+#### 查询
+
+```python
+from qka.client import QMTClient
+
+client = QMTClient(token="服务器打印的token")
+# 调用接口
+result = client.api("query_stock_asset")
+```
+
+#### 下单
+
+```python
+from qka.client import QMTClient
+from xtquant import xtconstant
+
+client = QMTClient(token="服务器打印的token", url="服务端地址")
+# 调用接口
+result = client.api("order_stock", stock_code='600000.SH', order_type=xtconstant.STOCK_BUY, order_volume =1000, price_type=xtconstant.FIX_PRICE, price=10.5)
+```
+<!-- ```python
+datas = qka.data(
+  stock_list=[], 
+  period='tick', 
+  indicators=[
+    'MA',
+    'BOLL'
+  ]
+)
+
+
+def strategy(bar, bars, borker):
+  pass
+
+res = qka.backtest(datas, start_time='', end_time='', strategy=strategy)
+
+borker = qka.broker(type='qmt', config={})
+
+qka.trade(datas, start_time='', strategy=strategy, borker=borker)
+
+``` -->
