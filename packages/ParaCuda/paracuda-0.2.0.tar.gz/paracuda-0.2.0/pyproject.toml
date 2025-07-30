@@ -1,0 +1,92 @@
+# ---- pytests
+[tool.pytest.ini_options]
+addopts = "--ruff"
+testpaths = ["src"]
+ignore = [
+    "__init__.py",
+    "version.py",
+]
+
+[project]
+name = "ParaCuda"
+version = "0.2.0"
+description = "ParaCuda - Parallel Execution of CUDA hyperparameter sweeps in Python for pytorch and beyond."
+authors = [
+    { name = "Sven Giese", email = "sven.giese88@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "cuda",
+    "parallel",
+    "gpu",
+    "scripting",
+    "execution",
+    "performance",
+]
+
+dependencies = [
+    "loguru",
+    "tqdm",
+    "pytorch",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+]
+
+[project.urls]
+Homepage = "https://github.com/gieses/ParaCuda"
+Documentation = "https://github.com/gieses/ParaCuda"
+
+[project.scripts]
+paracuda = "paracuda.paracuda_run:main"
+
+[tool.ruff]
+# Target formatting and linting
+line-length = 120
+target-version = "py38"
+
+# Enable Ruff formatter
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "tab"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+# Enable selected rule sets (you can customize this)
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "F",    # pyflakes
+    "I",    # isort
+    "UP",   # pyupgrade
+    "N",    # pep8-naming
+    "B",    # bugbear
+    "SIM",  # simplify
+    "C4",   # comprehensions
+    "TID",  # tidy imports
+]
+ignore = [
+    "E501",  # ignore line length if preferred
+]
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = ["classmethod", "pydantic.validator"]
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["paracuda"]
+namespaces = false
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "build",
+    "twine",
+]

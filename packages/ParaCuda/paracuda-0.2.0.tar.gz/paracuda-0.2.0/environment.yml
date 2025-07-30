@@ -1,0 +1,20 @@
+name: paracuda
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python
+  - ipython
+  - loguru
+  - scikit-learn
+  - tqdm
+  - pytorch
+  - pandas
+  - pyarrow
+  # development dependencies
+  - pytest
+  - pre-commit
+  - twine
+  - ruff
+  - pytest-ruff
