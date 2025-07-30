@@ -1,0 +1,4 @@
+numpy
+python-graphblas
+scipy
+libsvm-official>=3.36.0
