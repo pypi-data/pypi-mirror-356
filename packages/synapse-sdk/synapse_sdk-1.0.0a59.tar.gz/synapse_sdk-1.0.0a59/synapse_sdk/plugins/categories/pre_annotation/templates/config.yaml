@@ -1,0 +1,7 @@
+actions:
+  pre_annotation:
+    entrypoint: plugin.pre_annotation.pre_annotate
+  to_task:
+    entrypoint: plugin.to_task.AnnotationToTask
+    ui_schema: |
+      Dumped FormKit Schema for pre_annotation plugin to_task action's custom options
