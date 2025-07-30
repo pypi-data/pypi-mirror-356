@@ -1,0 +1,9 @@
+{
+    "accounts": [
+        {
+            "email": "user@example.com",
+            "account_type": "personal",
+            "extra_info": "Main personal Gmail account"
+        }
+    ]
+}
