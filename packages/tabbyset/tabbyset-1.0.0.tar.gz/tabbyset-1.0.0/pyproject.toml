@@ -1,0 +1,14 @@
+[project]
+name = "tabbyset"
+version = "1.0.0"
+description = "Exactpro basic tooling for working with tests proprietary files"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "coverage>=7.9.1",
+]
