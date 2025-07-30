@@ -1,0 +1,17 @@
+cornflow-client-pchtsp
+PySide6
+
+[example]
+orloge
+pulp
+highspy
+ortools
+networkx
+
+[reports]
+quarto
+papermill
+matplotlib
+
+[reports:sys_platform == "linux"]
+quarto-cli
