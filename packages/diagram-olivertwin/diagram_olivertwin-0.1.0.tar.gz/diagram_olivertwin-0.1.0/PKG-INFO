@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: diagram-olivertwin
+Version: 0.1.0
+Summary: 
+Author: olivertwin
+Author-email: olivertwin@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: n2g (>=0.3.3,<0.4.0)
+Requires-Dist: ttp (>=0.9.5,<0.10.0)
+Description-Content-Type: text/markdown
+
+## diagram-olivertwin
+This is homework for studying
+
+## Author
+olivertwin
+
