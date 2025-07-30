@@ -1,0 +1,11 @@
+sensirion_i2c_stcc4/__init__.py,sha256=7jOIZYFNbiQa4ntqwnhhrnQ_47LOZcQwhFig_82HuN4,270
+sensirion_i2c_stcc4/commands.py,sha256=_PnQCeqderbB_I0d6tSitDUYd1kSQsMr5XclYzqY6kc,10446
+sensirion_i2c_stcc4/device.py,sha256=005_yPrwQ1XnMIzOAu_Q_EKn98rb_CAjbzWnuu43UAU,13235
+sensirion_i2c_stcc4/response_provider.py,sha256=_3aXdU0qbmt8TeQrjLakDhaRBvcsc4RSJmgU1rEKYyA,386
+sensirion_i2c_stcc4/result_types.py,sha256=o10lj2509LGNeTqRbVYZeDR3ehB7SOVk-Glk51koAH0,1188
+sensirion_i2c_stcc4/version.py,sha256=gzgNSsmjZ9LcWkCrpe6GLD2nZn2PsldAO94DLNFZK_Q,135
+sensirion_i2c_stcc4-1.0.0.dist-info/LICENSE,sha256=a_4UnnNb_gkq6llvK7_MbGgcFBQjLpkXQpB01ADExuU,1549
+sensirion_i2c_stcc4-1.0.0.dist-info/METADATA,sha256=Xpev1nRsHvNzQQ5MMWBgSkCjitgtQxJl7ByCM6PBtKc,3326
+sensirion_i2c_stcc4-1.0.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+sensirion_i2c_stcc4-1.0.0.dist-info/top_level.txt,sha256=CrdEOVvbcP6WNu5sEgl5MWNZKZUSSzwzOTjbvwXstc8,20
+sensirion_i2c_stcc4-1.0.0.dist-info/RECORD,,
