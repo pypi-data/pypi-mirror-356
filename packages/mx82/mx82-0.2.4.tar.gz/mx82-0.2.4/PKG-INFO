@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mx82
+Version: 0.2.4
+Summary: my extensions: reusable functions for scientific computing
+Home-page: https://github.com/OrtnerMichael/mx
+License: MIT
+Author: Lox Nez Monsta
+Author-email: magpylib@gmail.com
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.3.0,<3.0.0)
+Project-URL: Repository, https://github.com/OrtnerMichael/mx
+Description-Content-Type: text/markdown
+
+# mx
+
+A collection of reusable functions for scientific computing.
+
+## Installation
+
+```bash
+poetry add mx82
+```
+
+## Usage
+
+```python
+from mx82 import sf4
+
+result = sf(1.23456)
+print(result)
+# 1.235
+```
+
+## Development
+
+```bash
+git clone https://github.com/OrtnerMichael/mx82.git
+cd mx82
+poetry install
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
