@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "RVA_greeting-message"  
+version = "0.1.0"
+description = "A Python package that greets people"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  { name = "Vishnu Aravindh", email = "vishnuaravindhr@gmail.com" }
+]
+[project.urls]
+Homepage = "https://github.com/rvishnu23/greeting-message"

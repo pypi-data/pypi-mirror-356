@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: RVA_greeting-message
+Version: 0.1.0
+Summary: A Python package that greets people
+Author-email: Vishnu Aravindh <vishnuaravindhr@gmail.com>
+Project-URL: Homepage, https://github.com/rvishnu23/greeting-message
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Greeting Message
+
+A simple Python package that greets the user by name.
+
+## Installation
+
+```bash
+pip install RVA-greeting-message
+
+USAGE:
+from RVA_greeting_message import greet
+
+print(greet("Vishnu"))
