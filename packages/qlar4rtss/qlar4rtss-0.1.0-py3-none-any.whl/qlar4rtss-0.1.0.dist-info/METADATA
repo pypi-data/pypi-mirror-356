@@ -1,0 +1,26 @@
+Metadata-Version: 2.2
+Name: qlar4rtss
+Version: 0.1.0
+Summary: a python analyse sdk for QLan realtime sleep staging analysis
+Author: scg
+Author-email: shangweb001@gmail.com
+License: MIT License
+Keywords: eeg realtime sleep staging analysis
+Platform: any
+Requires-Dist: qlsdk2
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: lightgbm
+Requires-Dist: pandas
+Requires-Dist: PySide6
+Requires-Dist: joblib
+Requires-Dist: pyedflib
+Requires-Dist: mne
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: keywords
+Dynamic: license
+Dynamic: platform
+Dynamic: requires-dist
+Dynamic: summary
