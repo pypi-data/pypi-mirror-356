@@ -1,0 +1,55 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+        stages: [pre-commit]
+      - id: check-case-conflict
+        stages: [pre-commit]
+      # Not collaborating
+      # - id: check-illegal-windows-names
+      - id: check-merge-conflict
+        stages: [pre-commit]
+      - id: check-shebang-scripts-are-executable
+        stages: [pre-commit]
+      # - id: no-commit-to-branch
+      #   stages: [pre-commit]
+      #   args: ["--branch", "release", "--branch", "main", "--branch", "develop"]
+      - id: check-yaml
+        # See: https://github.com/pre-commit/pre-commit-hooks?tab=readme-ov-file#check-yaml
+        # Important for the compose files which are a little weird
+        args: ["--unsafe"]
+        stages: [pre-commit]
+
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 3.1.0
+    hooks:
+      - id: sqlfluff-lint
+        stages: [pre-commit]
+
+  - repo: https://gitlab.com/bmares/check-json5
+    # Allows json with comments
+    rev: v1.0.0
+    hooks:
+      - id: check-json5
+        stages: [pre-commit]
+
+  # If you have docker and do bash scripting
+  # - repo: https://github.com/koalaman/shellcheck-precommit
+  #   rev: v0.10.0
+  #   hooks:
+  #   -   id: shellcheck
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.5.0
+    hooks:
+      - id: ruff
+        stages: [pre-commit]
+      # If you want them on other files
+      # types_or: [ python, pyi, jupyter ]
+      # If you want to automatically fix
+      # args: [ --fix ]
+      - id: ruff-format
+        # Remove line bellow if you want to fix automatically
+        args: [--check]
+        stages: [pre-commit]

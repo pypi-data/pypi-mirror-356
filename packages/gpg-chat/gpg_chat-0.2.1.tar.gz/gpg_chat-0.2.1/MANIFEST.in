@@ -1,0 +1,4 @@
+exclude .direnv/*
+exclude .direnv
+exclude __pycache__/*
+exclude dist/*

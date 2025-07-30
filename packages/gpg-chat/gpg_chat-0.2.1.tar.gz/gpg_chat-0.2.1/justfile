@@ -1,0 +1,90 @@
+# default recipe to display help information
+default:
+  @just --list
+
+# Install the virtual environment.
+sync:
+  @echo "🚀 Creating virtual environment"
+  uv sync
+
+# Bump the patch version
+bump:
+  @echo "🚀 Bump the patch version"
+  uv version --bump patch
+
+# Uninstall the cli globally
+uninstall:
+  @echo "🚀 Uninstalling the app"
+  -uv tool uninstall gpg-chat
+
+# Install the cli globally
+install: uninstall
+  @echo "🚀 Installing the app"
+  uv tool install .
+
+# Run the cli
+cli *ARGS='':
+  @echo "🚀 Running the CLI"
+  uv run gpg-chat {{ARGS}}
+
+
+# Run code quality tools.
+check:
+  @echo "🚀 Checking lock file consistency with 'pyproject.toml'"
+  uv lock --locked
+  @echo "🚀 Linting code: Running pre-commit"
+  uv run pre-commit run -a
+  @echo "🚀 Static type checking: Running basedpyright"
+  uv run basedpyright
+
+
+# Run all tests
+[group('test')]
+test:
+  @echo "🚀 Testing code: Running pytest"
+  uv run python -m pytest
+
+# Run all tests that failed
+[group('test')]
+test-failed:
+  @echo "🚀 Testing code: Running pytest that failed"
+  uv run python -m pytest --lf
+
+# Run tests in debug mode
+[group('test')]
+test-debug:
+  @echo "🚀 Testing code: Running pytest that failed with a debugger attached"
+  uv run python -m pytest --lf --pdb
+
+# Test the code with pytest.
+[group('test')]
+test-cov:
+  @echo "🚀 Testing code: Running pytest with coverage"
+  uv run python -m pytest --cov --cov-report html:cov_html --cov-report term:skip-covered tests
+
+# Run the coverage report as an http server
+[group('test')]
+report: test-cov
+  uv run python -m http.server -d cov_html
+
+# Generate all the missing test files
+[group('test')]
+generate-tests:
+  @echo "🚀 Generator: Creating missing test files"
+  find app -type f -name "*.py" ! -name "__init__.py" | sed -E 's|gpg_chat/|tests/|; s|([^/]+)$|test_\1|' | while read file; do mkdir -p "$(dirname "$file")" && touch "$file"; done
+
+# Build wheel file.
+build:
+  just clean-build
+  @echo "🚀 Creating wheel file"
+  uvx --from build pyproject-build --installer uv
+
+# Clean build artifacts.
+clean-build:
+  @echo "🚀 Removing build artifacts"
+  uv run python -c "import shutil; import os; shutil.rmtree('dist') if os.path.exists('dist') else None"
+
+# Publish a release to PyPI.
+publish: build
+  @echo "🚀 Publishing."
+  uvx twine upload --repository pypi dist/*
