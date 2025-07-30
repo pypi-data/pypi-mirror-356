@@ -1,0 +1,19 @@
+[project]
+name = "kingland-team"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Oliver", email = "linbaozhang@aliyun.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
+
+[project.scripts]
+kingland-team = "kingland_team:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
