@@ -1,0 +1,18 @@
+{% extends "dialogs/layout.html" %}
+{% block dialog_content %}
+<h4 class="card-title mb-4 text-center">{{ message }}</h4>
+<div class="row">
+    <div class="col-6">
+        <form method="post" action="/dialog/submit">
+            <input type="hidden" name="response" value="PASS">
+            <button type="submit" class="btn btn-success btn-lg  w-100">PASS</button>
+        </form>
+    </div>
+    <div class="col-6">
+        <form method="post" action="/dialog/submit">
+            <input type="hidden" name="response" value="FAIL">
+            <button type="submit" class="btn btn-danger btn-lg w-100">FAIL</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "dialogs/layout.html" %}
+{% block dialog_content %}
+<h4 class="card-title mb-4 text-center">{{ message }}</h4>
+<form method="post" action="/dialog/submit">
+  <div class="mb-3">
+    <label for="response" class="form-label">Select an option</label>
+    <select name="response" class="form-control form-control-lg" required autofocus>
+      {% for option in options %}
+        <option value="{{ option }}">{{ option }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="d-grid">
+    <button type="submit" class="btn btn-primary btn-lg">Send</button>
+  </div>
+</form>
+{% endblock %}

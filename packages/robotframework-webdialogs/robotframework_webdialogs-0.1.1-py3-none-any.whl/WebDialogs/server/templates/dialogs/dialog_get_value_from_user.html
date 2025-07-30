@@ -1,0 +1,12 @@
+{% extends "dialogs/layout.html" %} 
+{% block dialog_content %}
+<h4 class="card-title mb-4 text-center">{{ message }}</h4>
+<form method="post" action="/dialog/submit">
+  <div class="mb-3">
+    <input name="response" class="form-control form-control-lg" placeholder="Write your response..." required autofocus suggest="off">
+  </div>
+  <div class="d-grid">
+    <button type="submit" class="btn btn-primary btn-lg">Send</button>
+  </div>
+</form>
+{% endblock %}

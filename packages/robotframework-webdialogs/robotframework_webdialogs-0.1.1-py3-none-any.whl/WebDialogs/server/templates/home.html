@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+<p class="text-center text-muted mt-3 small" id="msg"></p>
+<script>
+    $(document).ready(function () {
+        let TEST_STATUS = "PENDING";
+
+        function updateTextByStatusTest(testStatus) {
+            TEST_STATUS = testStatus;
+            if (testStatus === "PENDING") {
+                $("#msg").text("Await for the test to start.");
+            } else if (testStatus === "RUNNING") {
+                $("#msg").text("Test in progress.");
+            } else if (testStatus === "FINISHED") {
+                $("#msg").text("Test finished.");
+            }
+        }
+
+
+        function polling_response_await() {
+            if (TEST_STATUS !== "RUNNING") {
+                setTimeout(polling_response_await, 1000);
+                return;
+            }
+
+            $.ajax({
+                url: '/api/response_awaiting',
+                method: 'GET',
+                success: function (response) {
+                    if (response.status) {
+                        window.location.href = "/dialog/";
+                    }
+                    setTimeout(polling_response_await, 100);
+                }
+            })
+        }
+
+        function polling_test_status() {
+            $.ajax({
+                url: '/api/test/status',
+                method: 'GET',
+                success: function (response) {
+                    updateTextByStatusTest(response.status);
+                }
+            })
+            setTimeout(polling_test_status, 1000);
+        }
+
+        polling_test_status();
+        polling_response_await();
+    });
+</script>
+{% endblock %}
