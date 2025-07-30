@@ -1,0 +1,10 @@
+LICENSE
+README.md
+proxly.py
+setup.py
+proxly.egg-info/PKG-INFO
+proxly.egg-info/SOURCES.txt
+proxly.egg-info/dependency_links.txt
+proxly.egg-info/requires.txt
+proxly.egg-info/top_level.txt
+tests/test_proxly.py
