@@ -1,0 +1,6 @@
+aiohttp<4.0,>=3.9
+requests<3.0,>=2.31
+pydantic<3.0,>=2.0
+orjson<4.0,>=3.8
+base58>=2.1
+solders>=0.26
