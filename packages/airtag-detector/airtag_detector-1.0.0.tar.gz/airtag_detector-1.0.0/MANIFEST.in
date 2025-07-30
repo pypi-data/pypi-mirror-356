@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include QUICKSTART.md
+recursive-include airtag_detector/templates *
+recursive-include airtag_detector/configs *
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
