@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+failbot/__init__.py
+failbot/auth.py
+failbot/cli.py
+failbot/config.py
+failbot/send.py
+failbot/stream.py
+failbot_cli.egg-info/PKG-INFO
+failbot_cli.egg-info/SOURCES.txt
+failbot_cli.egg-info/dependency_links.txt
+failbot_cli.egg-info/entry_points.txt
+failbot_cli.egg-info/requires.txt
+failbot_cli.egg-info/top_level.txt
