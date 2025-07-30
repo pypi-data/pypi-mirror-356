@@ -1,0 +1,85 @@
+# contentgenius: AI-powered content analysis tool
+
+## Overview
+
+`contentgenius` is an AI-powered content analysis tool designed to help users understand and improve their content. It leverages state-of-the-art natural language processing (NLP) techniques to provide insights into various aspects of text, such as sentiment, topic, style, and readability.
+
+## Features
+
+*   Analyze PDF content
+*   Analyze text content
+*   Analyze CSV content
+*   Analyze PowerPoint content
+*   Analyze YouTube videos
+*   Analyze web pages
+*   Analyze chat logs
+*   Analyze source code files
+*   Analyze software packages
+*   Analyze MP3 audio files
+
+## Installation
+
+To install `contentgenius`, follow these steps:
+
+1.  Clone the repository:
+
+```bash
+git clone <repository_url>
+```
+
+2.  Navigate to the project directory:
+
+```bash
+cd contentgenius
+```
+
+3.  Create a virtual environment (recommended):
+
+```bash
+python3 -m venv venv
+```
+
+4.  Activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+5.  Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+To use `contentgenius`, run the main script with the desired options:
+
+```bash
+python3 main.py <mode> --input <input_file> --prompt <prompt> --output <output_file>
+```
+
+*   `<mode>`: The mode of analysis (e.g., `analyze-pdf`, `analyze-text`, etc.).
+*   `--input`: Path to the input text file.
+*   `--prompt`: The prompt/question to be asked to the LLM.
+*   `--output`: Path to the output text file.
+
+Example:
+
+```bash
+python3 main.py --input input.txt --prompt "What is the main idea ot the text?" --output output.txt
+```
+
+## Configuration
+
+`contentgenius` can be configured using a configuration file. The default configuration file is `config.yaml`. You can modify this file to customize the behavior of the tool.
+
+## Contributing
+
+We welcome contributions to `contentgenius`! If you'd like to contribute, please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Implement your changes.
+4.  Write tests for your changes.
+5.  Submit a pull request.
