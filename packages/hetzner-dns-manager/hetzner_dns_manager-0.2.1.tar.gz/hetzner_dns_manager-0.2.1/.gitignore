@@ -1,0 +1,20 @@
+# YAML DB
+/zones/
+
+# Dev tools
+/.claude/settings.local.json
+/.coverage
+
+# Build artefacts
+*.egg-info/
+__pycache__/
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml

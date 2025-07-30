@@ -1,0 +1,106 @@
+[project]
+name = "hetzner-dns-manager"
+version = "0.2.1"
+description = "Hetzner DNS Zone Manager"
+authors = [{ name = "Steffen Beyer", email = "steffen@beyer.io" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-2-Clause"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Internet :: Name Service (DNS)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click",
+    "dnspython",
+    "requests",
+    "rich",
+    "ruamel.yaml",
+]
+
+[dependency-groups]
+dev = [
+    "mypy",
+    "poethepoet",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "types-Pygments",
+    "types-requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/serpent213/hetzner-dns-manager"
+"Bug Tracker" = "https://github.com/serpent213/hetzner-dns-manager/issues"
+"Changelog" = "https://github.com/serpent213/hetzner-dns-manager/blob/master/CHANGELOG.md"
+
+[project.scripts]
+hdem = "hdem:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.hooks.custom]
+path = "build_hook.py"
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "hdem.py",
+    # wheel is built from sdist, so we need to include the build_hook.py
+    "build_hook.py",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+]
+
+[tool.hatch.build.targets.wheel]
+only-include = ["hdem.py", "README.md", "CHANGELOG.md", "LICENSE"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+pythonpath = ["."]
+
+[lint]
+select = ["E", "F", "I", "N", "W", "B", "PL", "C", "D", "UP", "ANN", "Q"]
+# Explicitly select line spacing rules to avoid conflicts
+ignore = ["D203", "D213"]
+flake8-quotes.inline-quotes = "double"
+
+[tool.ruff]
+line-length = 118
+target-version = "py310"
+
+[tool.poe.tasks]
+format = { cmd = "ruff format hdem tests", help = "Format code with ruff" }
+formatcheck = { cmd = "ruff format --check hdem tests", help = "Check code format" }
+lint = { cmd = "ruff check --preview hdem tests", help = "Run ruff linter" }
+typecheck = { cmd = "mypy hdem", help = "Run mypy type checker" }
+test = { cmd = "pytest", help = "Run pytest tests" }
+test-cov = { sequence = [
+    { cmd = "pytest --cov=hdem" },
+    { cmd = "rm -f hdem.py" },
+], help = "Run tests with coverage report" }
+check = { sequence = [
+    "formatcheck",
+    "lint",
+    "typecheck",
+    "test",
+], help = "Run all checks" }
+fix = { sequence = [
+    "format",
+    { cmd = "ruff check --preview --fix --unsafe-fixes hdem tests" },
+], help = "Fix format and lint (unsafe)" }
