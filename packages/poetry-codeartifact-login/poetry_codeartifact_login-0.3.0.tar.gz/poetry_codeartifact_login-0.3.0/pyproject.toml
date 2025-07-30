@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-codeartifact-login"
+version = "0.3.0"
+description = "Poetry plugin for logging in to AWS CodeArtifact."
+authors = ["Translucence Biosystems"]
+readme = "README.md"
+packages = [{include = "poetry_codeartifact_login"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+poetry = ">=1.2.1,<=3.0.0"
+boto3 = "^1.24.82"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+login-command = "poetry_codeartifact_login.plugin:CodeArtifactPlugin"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
