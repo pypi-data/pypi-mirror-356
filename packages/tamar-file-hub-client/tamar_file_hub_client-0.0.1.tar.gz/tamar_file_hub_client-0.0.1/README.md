@@ -1,0 +1,830 @@
+# File Hub Client
+
+一个基于 gRPC 的文件管理系统 Python SDK，提供异步和同步两种客户端实现。
+
+## 功能特性
+
+- 🚀 **双模式支持**：提供异步（AsyncIO）和同步两种客户端实现
+- 📁 **完整的文件管理**：支持文件上传、下载、重命名、删除等操作
+- 📂 **文件夹管理**：支持文件夹的创建、重命名、移动、删除
+- 🔗 **文件分享**：支持生成分享链接，设置访问权限和密码
+- 🔄 **多种上传方式**：支持直传、断点续传、客户端直传到对象存储
+- 🛡️ **错误处理**：完善的异常体系和错误重试机制
+- 🔒 **TLS/SSL 支持**：支持安全的加密连接，保护数据传输
+- 🔁 **自动重试**：连接失败时自动重试，提高可靠性
+- 📝 **类型注解**：完整的类型提示支持
+- 🧩 **模块化设计**：清晰的代码结构，易于扩展
+- 🏗️ **分层服务架构**：文件服务分为传统文件（blob）和自定义类型（结构化数据），每种类型独立服务，语义清晰
+- 🔧 **环境变量配置**：支持通过环境变量配置所有参数
+- 👤 **用户上下文管理**：支持区分资源所有权（ownership）和操作者（operator）
+- 📊 **请求上下文追踪**：自动收集客户端信息，支持请求追踪和审计
+
+## 项目结构
+
+```
+file-hub-client/
+├── file_hub_client/              # 主包目录
+│   ├── __init__.py              # 包初始化，导出版本信息和主要类
+│   ├── client.py                # 客户端入口（AsyncTamarFileHubClient, TamarFileHubClient）
+│   ├── py.typed                 # PEP 561 类型标记文件
+│   │
+│   ├── rpc/                     # gRPC 相关
+│   │   ├── __init__.py         # RPC 模块初始化
+│   │   ├── async_client.py     # 异步 gRPC 客户端基类
+│   │   ├── sync_client.py      # 同步 gRPC 客户端基类
+│   │   ├── generate_grpc.py    # Proto 文件代码生成脚本
+│   │   ├── protos/             # Protocol Buffer 定义
+│   │   │   ├── file_service.proto    # 文件服务定义
+│   │   │   └── folder_service.proto  # 文件夹服务定义
+│   │   └── gen/                # 生成的 gRPC 代码（自动生成）
+│   │       ├── __init__.py
+│   │       ├── file_service_pb2.py
+│   │       ├── file_service_pb2_grpc.py
+│   │       ├── folder_service_pb2.py
+│   │       └── folder_service_pb2_grpc.py
+│   │
+│   ├── services/                # 服务层（分层架构：传统文件用blob_service，自定义类型独立service）
+│   │   ├── __init__.py         # 服务模块导出
+│   │   ├── file/               # 文件服务（统一入口，按类型分层）
+│   │   │   ├── __init__.py
+│   │   │   ├── base_file_service.py     # 文件服务基类
+│   │   │   ├── async_blob_service.py    # 异步二进制大对象服务（传统文件上传下载）
+│   │   │   ├── sync_blob_service.py     # 同步二进制大对象服务（传统文件上传下载）
+│   │   │   ├── async_file_service.py    # 异步文件元数据服务（所有类型通用）
+│   │   │   └── sync_file_service.py     # 同步文件元数据服务（所有类型通用）
+│   │   │   # 未来扩展：spreadsheet_service, document_service, canvas_service等
+│   │   └── folder/             # 文件夹服务
+│   │       ├── __init__.py
+│   │       ├── async_folder_service.py  # 异步文件夹服务实现
+│   │       └── sync_folder_service.py   # 同步文件夹服务实现
+│   │
+│   ├── schemas/                 # 数据模型（Pydantic）
+│   │   ├── __init__.py         # 模型导出
+│   │   ├── file.py             # 文件相关模型
+│   │   ├── folder.py           # 文件夹相关模型
+│   │   └── context.py          # 上下文相关模型（用户和请求上下文）
+│   │
+│   ├── enums/                   # 枚举定义
+│   │   ├── __init__.py         # 枚举导出
+│   │   ├── role.py             # 角色枚举（ACCOUNT, AGENT, SYSTEM）
+│   │   ├── upload_mode.py      # 上传模式枚举
+│   │   └── export_format.py    # 导出格式枚举
+│   │
+│   ├── errors/                  # 异常定义
+│   │   ├── __init__.py         # 异常导出
+│   │   └── exceptions.py       # 自定义异常类
+│   │
+│   └── utils/                   # 工具函数
+│       ├── __init__.py         # 工具函数导出
+│       ├── file_utils.py       # 文件操作工具
+│       ├── converter.py        # 数据转换工具
+│       ├── retry.py            # 重试装饰器
+│       ├── upload_helper.py    # 上传辅助工具（HTTP上传器）
+│       └── download_helper.py  # 下载辅助工具（HTTP下载器）
+│
+├── .gitignore                  # Git 忽略文件配置
+├── .env.example                 # 环境变量配置示例
+├── README.md                   # 项目说明文档（本文件）
+├── setup.py                    # 安装配置文件
+├── pyproject.toml             # 项目配置文件（PEP 518）
+└── MANIFEST.in                # 打包配置文件
+```
+
+## 模块说明
+
+### 核心模块
+
+- **client.py**: 提供 `AsyncTamarFileHubClient` 和 `TamarFileHubClient` 两个客户端类，是使用 SDK 的入口点
+  - 提供了预配置的单例客户端 `tamar_client` 和 `async_tamar_client`
+  - 支持分层服务访问：
+    - `blobs`（传统文件内容：上传/下载）
+    - `files`（文件元数据：所有类型通用的管理操作）
+    - `folders`（文件夹管理）
+    - 未来扩展：`spreadsheets`、`documents`、`canvases` 等自定义类型服务
+
+### RPC 模块 (`rpc/`)
+
+- **async_client.py/sync_client.py**: gRPC 客户端基类，处理连接管理、元数据构建、stub 缓存
+- **generate_grpc.py**: 从 proto 文件生成 Python 代码的脚本
+- **protos/**: 存放 Protocol Buffer 定义文件
+    - `file_service.proto`: 定义文件相关的 RPC 服务
+    - `folder_service.proto`: 定义文件夹相关的 RPC 服务
+
+### 服务模块 (`services/`)
+
+#### 分层服务架构设计
+
+File Hub Client 采用分层服务架构，将文件服务按类型和语义进行清晰分离：
+
+**📁 统一文件入口**：所有文件类型都通过统一的 `files` 接口进行元数据管理（获取、重命名、删除、列表等）
+
+**🔄 按类型分层服务**：
+- **传统文件类型**（PDF、图片、视频等）→ `blob_service` 处理
+  - 核心操作：**上传** 和 **下载**
+  - 特点：二进制数据，重点是存储和传输
+  
+- **自定义文件类型**（在线表格、文档、画布等）→ 每种类型独立 `service`
+  - 核心操作：**新增** 和 **导出**
+  - 特点：结构化数据，重点是数据操作和格式转换
+
+**🎯 设计优势**：
+- **语义清晰**：不同类型的文件使用不同的操作语义，更符合实际使用场景
+- **易于扩展**：新增自定义文件类型时，只需添加对应的独立服务
+- **职责分离**：每个服务专注于特定类型的操作，代码更易维护
+- **SDK 友好**：为 SDK 使用者提供更直观的 API 设计，而非通用的 REST API
+
+#### 具体实现
+
+- **file/**: 文件服务实现
+    - **blob_service**: 处理传统文件（二进制大对象）
+        - 支持多种上传模式（普通上传、流式上传、断点续传）
+        - 智能选择上传模式（根据文件大小）
+        - 生成上传/下载 URL
+        - 支持临时文件上传
+        - 适用类型：PDF、图片、视频、音频、压缩包等
+    - **file_service**: 处理文件元数据操作（所有类型通用）
+        - 获取、重命名、删除文件
+        - 列出文件
+        - 生成分享链接
+        - 记录文件访问
+    - **[future] spreadsheet_service**: 在线表格服务（规划中）
+        - 创建表格、编辑单元格、插入行列
+        - 导出为 Excel、CSV 等格式
+    - **[future] document_service**: 在线文档服务（规划中）  
+        - 创建文档、编辑内容、插入元素
+        - 导出为 Word、PDF、HTML 等格式
+    - **[future] canvas_service**: 画布服务（规划中）
+        - 创建画布、绘制图形、添加元素
+        - 导出为 PNG、SVG、PDF 等格式
+
+- **folder/**: 文件夹服务实现
+    - 创建、重命名、移动、删除文件夹
+    - 列出文件夹内容
+
+### 数据模型 (`schemas/`)
+
+- **file.py**: 文件相关的数据模型
+    - `File`: 文件信息
+    - `FileUploadResponse`: 文件上传响应
+    - `UploadUrlResponse`: URL上传响应
+    - `ShareLinkRequest`: 分享链接请求
+    - `FileListResponse`: 文件列表响应
+
+- **folder.py**: 文件夹相关的数据模型
+    - `FolderInfo`: 文件夹信息
+    - `FolderListResponse`: 文件夹列表响应
+
+- **context.py**: 上下文相关的数据模型
+    - `UserContext`: 用户上下文（组织、用户、角色、操作者）
+    - `RequestContext`: 请求上下文（请求ID、客户端信息、追踪信息）
+    - `FullContext`: 完整上下文
+
+### 枚举定义 (`enums/`)
+
+- **role.py**: 用户角色枚举（ACCOUNT、AGENT、SYSTEM）
+- **upload_mode.py**: 上传模式枚举（NORMAL、STREAM、RESUMABLE）
+- **export_format.py**: 导出格式枚举（PDF、DOCX、HTML、MARKDOWN、JSON）
+
+### 工具模块 (`utils/`)
+
+- **file_utils.py**: 文件操作相关工具函数
+    - `get_file_mime_type`: 获取文件 MIME 类型
+    - `split_file_chunks`: 文件分块
+    - `calculate_file_hash`: 计算文件哈希
+
+- **converter.py**: 数据转换工具
+    - `timestamp_to_datetime`: 时间戳转换
+    - `convert_proto_to_model`: Proto 消息转模型
+
+- **retry.py**: 提供重试装饰器 `retry_with_backoff`
+
+- **upload_helper.py**: HTTP 上传辅助工具
+    - `AsyncHttpUploader`: 异步 HTTP 上传器
+    - `SyncHttpUploader`: 同步 HTTP 上传器
+    - 支持普通上传和断点续传
+
+- **download_helper.py**: HTTP 下载辅助工具
+    - `AsyncHttpDownloader`: 异步 HTTP 下载器
+    - `SyncHttpDownloader`: 同步 HTTP 下载器
+    - 支持流式下载和断点续传
+
+### 错误处理 (`errors/`)
+
+- **exceptions.py**: 定义了完整的异常体系
+    - `FileHubError`: 基础异常类
+    - `FileNotFoundError`: 文件不存在
+    - `FolderNotFoundError`: 文件夹不存在
+    - `UploadError`: 上传错误
+    - `DownloadError`: 下载错误
+    - `ValidationError`: 验证错误
+    - 等等...
+
+## 安装
+
+```bash
+pip install tamar-file-hub-client
+```
+
+## 配置
+
+### 环境变量配置
+
+File Hub Client 支持通过环境变量配置连接参数，这在生产环境中特别有用。
+
+1. **创建 `.env` 文件**：
+   ```bash
+   # 在项目根目录创建 .env 文件
+   touch .env
+   ```
+
+2. **编辑 `.env` 文件**：
+   ```env
+   # gRPC 服务器配置
+   FILE_HUB_HOST=your-server-host.com
+   FILE_HUB_PORT=50051
+   FILE_HUB_SECURE=true
+   FILE_HUB_API_KEY=your-api-key
+   
+   # 连接重试配置
+   FILE_HUB_RETRY_COUNT=5
+   FILE_HUB_RETRY_DELAY=2.0
+   ```
+
+3. **支持的环境变量**：
+
+   | 环境变量 | 说明 | 默认值 |
+      |---------|------|--------|
+   | `FILE_HUB_HOST` | gRPC 服务器地址 | `localhost` |
+   | `FILE_HUB_PORT` | gRPC 服务器端口 | `50051` |
+   | `FILE_HUB_SECURE` | 是否启用 TLS/SSL | `false` |
+   | `FILE_HUB_API_KEY` | API 认证密钥（可选） | 无 |
+   | `FILE_HUB_RETRY_COUNT` | 连接重试次数 | `3` |
+   | `FILE_HUB_RETRY_DELAY` | 重试延迟（秒） | `1.0` |
+
+### TLS/SSL 配置
+
+当 `FILE_HUB_SECURE` 设置为 `true` 时，客户端会使用 TLS 加密连接：
+
+- 默认使用系统的根证书
+- 如果提供了 `FILE_HUB_API_KEY`，会自动添加到请求头中进行认证
+
+```python
+# 通过代码配置 TLS
+from file_hub_client import TamarFileHubClient
+
+client = TamarFileHubClient(
+    host="secure-server.com",
+    port=443,
+    secure=True,
+    credentials={"api_key": "your-api-key"}
+)
+```
+
+### 连接重试
+
+客户端支持自动重试连接，对于不稳定的网络环境特别有用：
+
+```python
+# 通过代码配置重试
+from file_hub_client import TamarFileHubClient
+
+client = TamarFileHubClient(
+    host="server.com",
+    retry_count=5,  # 重试5次
+    retry_delay=2.0  # 每次重试间隔2秒
+)
+```
+
+### 加载环境变量
+
+使用 `python-dotenv` 加载 `.env` 文件（需要额外安装）：
+
+```bash
+pip install python-dotenv
+```
+
+```python
+from dotenv import load_dotenv
+import os
+
+# 加载 .env 文件
+load_dotenv()
+
+# 现在可以直接使用客户端，它会自动读取环境变量
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 客户端会自动使用环境变量中的配置
+    pass
+```
+
+### 配置优先级
+
+客户端配置的优先级如下（从高到低）：
+
+1. 直接传入的参数
+2. 环境变量
+3. 默认值
+
+```python
+# 示例：参数会覆盖环境变量
+from file_hub_client import AsyncTamarFileHubClient
+
+client = AsyncTamarFileHubClient(
+    host="override-host.com",  # 这会覆盖 FILE_HUB_HOST
+    # port 将使用环境变量 FILE_HUB_PORT 或默认值
+)
+```
+
+## 快速开始
+
+### 文件上传
+
+File Hub Client 提供了统一的上传接口，支持多种上传模式：
+
+#### 上传模式
+
+- **NORMAL（普通模式）**：适用于小文件，通过 gRPC 直接上传
+- **STREAM（流式上传）**：适用于流式数据上传
+- **RESUMABLE（断点续传）**：支持断点续传，适用于大文件和不稳定网络
+
+#### 最简单的上传
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+
+    # 最简单的用法 - 只需要文件路径
+    file_info = await client.blobs.upload(
+        "path/to/document.pdf",
+        folder_id="1dee0f7b-2e4f-45cd-a462-4e1d82df9bdd"  # 上传到指定文件夹，不传则默认文件夹
+    )
+    print(f"上传成功: {file_info.file.id}")
+    print(f"文件类型: {file_info.file.file_type}")  # 自动识别为 "pdf"
+```
+
+#### 上传不同类型的内容
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+from pathlib import Path
+
+async with AsyncTamarFileHubClient() as client:
+    # 1. 上传文件路径（字符串或Path对象）
+    file_info = await client.blobs.upload("path/to/file.pdf")
+    file_info = await client.blobs.upload(Path("path/to/file.pdf"))
+
+    # 2. 上传字节数据（需要指定文件名）
+    content = b"This is file content"
+    file_info = await client.blobs.upload(
+        content,
+        file_name="document.txt"
+    )
+
+    # 3. 上传文件对象
+    with open("image.png", "rb") as f:
+        file_info = await client.blobs.upload(f)
+```
+
+#### 大文件上传（流式上传和断点续传）
+
+```python
+from file_hub_client import AsyncTamarFileHubClient, UploadMode
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+
+    # 自动根据文件大小来选择是流式上传还是断点续传
+    file_info = await client.blobs.upload(
+        "large_video.mp4",
+        # mode=UploadMode.RESUMABLE # 也可以手动指定上传的模式
+    )
+```
+
+#### 临时文件上传
+
+```python
+from file_hub_client import AsyncTamarFileHubClient, UploadMode
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+
+    # 自动根据文件大小来选择是流式上传还是断点续传
+    file_info = await client.blobs.upload(
+        "large_video.mp4",
+        # mode=UploadMode.RESUMABLE,  # 也可以手动指定上传的模式
+        is_temporary=True,  # 由这个参数指定是否临时文件，是则不会纳入整个文件体系，即用户查询不到这个文件
+        # expire_seconds, # 过期秒数，默认30天
+    )
+```
+
+### 文件下载
+
+File Hub Client 提供了统一的下载接口，支持两种结构返回：
+
+#### 下载返回结构
+
+- **保存到本地（本地路径）**：适用于各种文件，直接下载到本地，分块流式下载，支持重试和断点续传
+- **保存到内存（bytes）**：适用于小文件，直接下载到内存，分块流式下载，支持重试
+
+#### 下载到内存（适用于小文件）
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+
+    # 下载文件到内存（适用于小文件）
+    content = await client.blobs.download(file_id="file-001")
+    print(f"下载完成，文件大小: {len(content)} bytes")
+```
+
+#### 下载到本地文件
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+from pathlib import Path
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+
+    # 下载文件到本地
+    save_path = await client.blobs.download(
+        file_id="file-001",
+        save_path="downloads/document.pdf"  # 或 Path 对象
+    )
+    print(f"文件已保存到: {save_path}")
+```
+
+### 文件管理操作
+
+File Hub Client 提供了完整的文件管理功能，通过 `files` 服务访问：
+
+#### 获取文件信息
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+    
+    # 获取文件详细信息
+    file_info = await client.files.get_file(file_id="file-001")
+    print(f"文件名: {file_info.file_name}")
+    print(f"文件大小: {file_info.file_size} bytes")
+    print(f"创建时间: {file_info.created_at}")
+```
+
+#### 重命名文件
+
+```python
+# 重命名文件
+updated_file = await client.files.rename_file(
+    file_id="file-001",
+    new_name="新文档名称.pdf"
+)
+print(f"文件已重命名为: {updated_file.file_name}")
+```
+
+#### 删除文件
+
+```python
+# 删除文件
+await client.files.delete_file(file_id="file-001")
+print("文件已删除")
+```
+
+#### 列出文件
+
+```python
+# 列出文件夹中的文件
+file_list = await client.files.list_files(
+    folder_id="folder-001",  # 可选，不指定则列出根目录
+    file_name="report",      # 可选，按名称过滤
+    file_type=["pdf", "docx"],  # 可选，按类型过滤
+    page_size=20,
+    page=1
+)
+
+for file in file_list.files:
+    print(f"- {file.file_name} ({file.file_size} bytes)")
+```
+
+#### 生成分享链接
+
+```python
+# 生成文件分享链接
+share_id = await client.files.generate_share_link(
+    file_id="file-001",
+    is_public=True,           # 是否公开
+    access_scope="view",      # 访问权限：view, download
+    expire_seconds=86400,     # 24小时后过期
+    share_password="secret"   # 可选，设置访问密码
+)
+print(f"分享ID: {share_id}")
+```
+
+### 文件夹操作
+
+File Hub Client 提供了完整的文件夹管理功能，通过 `folders` 服务访问：
+
+#### 创建文件夹
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+    
+    # 在根目录创建文件夹
+    folder = await client.folders.create_folder(
+        folder_name="我的文档"
+    )
+    print(f"创建文件夹: {folder.id}")
+    
+    # 在指定文件夹下创建子文件夹
+    sub_folder = await client.folders.create_folder(
+        folder_name="项目资料",
+        parent_id=folder.id
+    )
+    print(f"创建子文件夹: {sub_folder.id}")
+```
+
+#### 重命名文件夹
+
+```python
+# 重命名文件夹
+updated_folder = await client.folders.rename_folder(
+    folder_id="folder-001",
+    new_name="新文件夹名称"
+)
+print(f"文件夹已重命名为: {updated_folder.folder_name}")
+```
+
+#### 移动文件夹
+
+```python
+# 移动文件夹到另一个文件夹下
+moved_folder = await client.folders.move_folder(
+    folder_id="folder-001",
+    new_parent_id="folder-002"  # 目标父文件夹ID
+)
+print(f"文件夹已移动到: {moved_folder.parent_id}")
+```
+
+#### 删除文件夹
+
+```python
+# 删除文件夹（包括其中的所有内容）
+await client.folders.delete_folder(folder_id="folder-001")
+print("文件夹已删除")
+```
+#### 列出文件夹
+
+```python
+# 列出根目录下的文件夹
+folder_list = await client.folders.list_folders()
+
+# 列出指定文件夹下的子文件夹
+sub_folders = await client.folders.list_folders(
+    parent_id="folder-001",
+    folder_name="项目",  # 可选，按名称过滤
+)
+
+for folder in folder_list.items:
+    print(f"- {folder.folder_name} (ID: {folder.id})")
+    print(f"  创建者: {folder.created_by}")
+    print(f"  创建时间: {folder.created_at}")
+```
+
+#### 完整示例：组织文件结构
+
+```python
+from file_hub_client import AsyncTamarFileHubClient
+
+async with AsyncTamarFileHubClient() as client:
+    # 设置用户上下文
+    client.set_user_context(org_id="123", user_id="456")
+    
+    # 创建项目文件夹结构
+    project_folder = await client.folders.create_folder("我的项目")
+    docs_folder = await client.folders.create_folder("文档", parent_id=project_folder.id)
+    images_folder = await client.folders.create_folder("图片", parent_id=project_folder.id)
+    
+    # 上传文件到对应文件夹
+    doc_file = await client.blobs.upload(
+        "project_plan.pdf",
+        folder_id=docs_folder.id
+    )
+    
+    image_file = await client.blobs.upload(
+        "logo.png",
+        folder_id=images_folder.id
+    )
+    
+    # 列出项目文件夹的内容
+    print("项目结构：")
+    
+    # 列出子文件夹
+    folders = await client.folders.list_folders(parent_id=project_folder.id)
+    for folder in folders.items:
+        print(f"📁 {folder.folder_name}/")
+        
+        # 列出每个文件夹中的文件
+        files = await client.files.list_files(folder_id=folder.id)
+        for file in files.files:
+            print(f"  📄 {file.file_name}")
+```
+
+### 最简单的使用方式（推荐）
+
+File Hub Client 提供了预配置的单例客户端，可以直接导入使用：
+
+```python
+# 同步客户端
+import os
+from file_hub_client import tamar_client as client
+
+# 直接使用，无需 with 语句
+client.set_user_context(org_id="123", user_id="456")
+file_path = os.path.abspath("1.jpg")
+file_info = client.blobs.upload(file_path)
+```
+
+```python
+# 异步客户端
+import asyncio
+import os
+from file_hub_client import async_tamar_client as async_client
+
+
+async def main():
+    # 直接使用，无需 with 语句
+    await async_client._ensure_connected()  # 需要手动连接
+    async_client.set_user_context(org_id="123", user_id="456")
+    file_path = os.path.abspath("1.jpg")
+    file_info = await async_client.blobs.upload(file_path)
+    print(f"上传成功: {file_info.file.id}")
+
+
+asyncio.run(main())
+```
+
+### 自定义配置的单例
+
+如果需要自定义配置，可以使用 `get_client()` 或 `get_async_client()`：
+
+```python
+from file_hub_client import get_client
+
+# 获取自定义配置的客户端（单例）
+client = get_client(
+    host="custom-server.com",
+    port=50051,
+    secure=True
+)
+```
+
+### 使用上下文管理器（可选）
+
+如果您希望明确控制连接的生命周期，仍然可以使用上下文管理器：
+
+```python
+import os
+from file_hub_client import TamarFileHubClient
+
+# 使用 with 语句
+with TamarFileHubClient(host="localhost", port=50051) as client:
+    file_path = os.path.abspath("1.jpg")
+    file_info = client.blobs.upload(file_path)
+```
+
+### 异步客户端示例
+
+```python
+import asyncio
+import os
+from file_hub_client import AsyncTamarFileHubClient
+
+
+async def main():
+    # 创建客户端
+    async with AsyncTamarFileHubClient(host="localhost", port=50051) as client:
+        # 上传文件
+        file_path = os.path.abspath("1.jpg")
+        file_info = await client.blobs.upload(file_path)
+        print(f"上传成功: {file_info.file.id}")
+
+
+asyncio.run(main())
+```
+
+### 同步客户端示例
+
+```python
+import os
+from file_hub_client import TamarFileHubClient
+
+# 创建客户端
+with TamarFileHubClient(host="localhost", port=50051) as client:
+    # 上传文件
+    file_path = os.path.abspath("1.jpg")
+    file_info = client.blobs.upload(file_path)
+    print(f"上传成功: {file_info.file.id}")
+```
+
+### 使用用户上下文
+
+File Hub Client 支持精细的用户上下文管理，区分资源所有权和实际操作者：
+
+```python
+import os
+from file_hub_client import AsyncTamarFileHubClient, UserContext, RequestContext, Role
+
+# 创建用户上下文
+user_context = UserContext(
+    org_id="org-123",  # 组织ID
+    user_id="user-456",  # 用户ID（资源所有者）
+    role=Role.ACCOUNT,  # 角色：ACCOUNT, AGENT, SYSTEM
+    actor_id="agent-789"  # 实际操作者ID（可选，默认为user_id）
+)
+
+# 创建请求上下文（自动收集客户端信息）
+request_context = RequestContext(
+    client_ip="192.168.1.100",  # 客户端IP（可选）
+    client_type="web",  # 客户端类型：web, mobile, desktop, cli
+    client_version="2.0.0",  # 客户端版本
+    extra={"session_id": "xyz"}  # 额外的元数据
+)
+
+# 使用上下文创建客户端
+async with AsyncTamarFileHubClient(
+        user_context=user_context,
+        request_context=request_context
+) as client:
+    # 所有操作都会包含上下文信息
+    file_path = os.path.abspath("1.jpg")
+    await client.blobs.upload(file_path)
+```
+
+### 动态切换用户上下文
+
+```python
+from file_hub_client import tamar_client as client, Role
+
+# 初始用户
+client.set_user_context(
+    org_id="123",
+    user_id="456",
+    role=Role.ACCOUNT
+)
+```
+
+### 请求追踪
+
+客户端会自动生成请求ID并收集环境信息：
+
+```python
+from file_hub_client import tamar_client as client
+
+# 获取当前上下文信息
+user_ctx = client.get_user_context()
+request_ctx = client.get_request_context()
+
+print(f"请求ID: {request_ctx.request_id}")
+print(f"客户端信息: {request_ctx.client_type} v{request_ctx.client_version}")
+print(f"操作者: {user_ctx.actor_id} (角色: {user_ctx.role})")
+```
+
+## 开发
+
+### 生成 gRPC 代码
+
+当 proto 文件更新后，需要重新生成代码：
+
+```bash
+# 使用命令行工具
+file-hub-gen-proto
+
+# 或直接运行脚本
+cd file_hub_client/rpc
+python generate_grpc.py
+```
+
+## 许可证
+
+MIT License
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
