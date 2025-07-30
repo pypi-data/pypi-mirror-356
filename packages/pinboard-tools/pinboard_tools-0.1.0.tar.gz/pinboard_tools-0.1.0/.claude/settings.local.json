@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(uv run:*)",
+      "Bash(make:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "perplexity-ask",
+    "tavily",
+    "puppeteer",
+    "sequential-thinking",
+    "git",
+    "aws-terraform-mcp-server",
+    "aws-aws-documentation-mcp-server",
+    "aws-core-mcp-server",
+    "playwright"
+  ]
+}
