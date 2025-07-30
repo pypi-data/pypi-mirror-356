@@ -1,0 +1,212 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools >= 65.3.0", # required by pyproject+setuptools_scm integration and editable installs
+  "setuptools_scm[toml] >= 7.0.5" # required for "no-local-version" scheme
+]
+
+[project]
+authors = [
+  {"email" = "sorin.sbarnea@gmail.com", "name" = "Sorin Sbarnea"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Framework :: tox",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Testing"
+]
+dependencies = [
+  "bindep>2.8.1",
+  "gitpython",
+  "packaging",
+  "tox",
+  "tox-uv>=1.16.0"
+]
+description = "Performs extra checks before or after running"
+dynamic = ["version"]
+keywords = ["git", "tox", "tox-plugin"]
+license = "MIT"
+maintainers = [
+  {"email" = "sorin.sbarnea@gmail.com", "name" = "Sorin Sbarnea"}
+]
+name = "tox-extra"
+readme = "README.md"
+# https://peps.python.org/pep-0621/#readme
+requires-python = ">=3.9"
+
+[project.entry-points.tox]
+extra = "tox_extra.hooks"
+
+[project.optional-dependencies]
+test = [
+  "coverage[toml]>=6.5.0",
+  "pytest-mock>=3.10.0",
+  "pytest>=7.2.0",
+  "testfixtures>=7.0.3"
+]
+
+[project.urls]
+changelog = "https://github.com/tox-dev/tox-extra/releases"
+homepage = "https://github.com/tox-dev/tox-extra"
+issues = "https://github.com/tox-dev/tox-extra/issues"
+repository = "https://github.com/tox-dev/tox-extra"
+
+[tool.coverage.paths]
+source = ["src"]
+
+[tool.coverage.report]
+fail_under = 92.0
+include = ["src/*"]
+omit = [".tox/*/lib/python*/site-packages/*", "src/*/_version.py"]
+show_missing = true
+skip_covered = true
+skip_empty = true
+
+[tool.coverage.run]
+concurrency = ["multiprocessing", "thread"]
+# Do not use branch until bug is fixes:
+# https://github.com/nedbat/coveragepy/issues/605
+# branch = true
+parallel = true
+source = ["src"]
+
+[tool.mypy]
+color_output = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+error_summary = true
+python_version = "3.9"
+
+[tool.pytest.ini_options]
+# do not add options here as this will likely break either console runs or IDE
+# integration like vscode or pycharm
+addopts = "-ra --showlocals"
+
+[tool.ruff]
+cache-dir = "./.cache/.ruff"
+fix = true
+# Same as Black.
+line-length = 88
+
+[tool.ruff.lint]
+ignore = [
+  "COM812", # conflicts with ISC001 on format
+  "D203", # incompatible with D211
+  "D213", # incompatible with D212
+  "E501", # we use black
+  "ERA001", # auto-removal of commented out code affects development and vscode integration
+  "INP001", # "is part of an implicit namespace package", all false positives
+  "ISC001", # conflicts with COM812 on format
+  "PLW2901", # PLW2901: Redefined loop variable
+  "RET504" # Unnecessary variable assignment before `return` statement
+]
+select = ["ALL"]
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id"]
+
+[tool.ruff.lint.flake8-pytest-style]
+parametrize-values-type = "tuple"
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.setuptools_scm]
+# To prevent accidental pick of mobile version tags such 'v6'
+git_describe_command = [
+  "git",
+  "describe",
+  "--dirty",
+  "--long",
+  "--tags",
+  "--match",
+  "v*.*"
+]
+local_scheme = "no-local-version"
+tag_regex = "^(?P<prefix>v)?(?P<version>[0-9.]+)(?P<suffix>.*)?$"
+write_to = "src/tox_extra/_version.py"
+
+[tool.tomlsort]
+in_place = true
+sort_inline_tables = true
+sort_table_keys = true
+
+[tool.tox]
+envlist = ["lint", "pkg", "py", "devel"]
+requires = ["tox-uv >= 1.16.0"]
+
+[tool.tox.env.devel]
+deps = ["tox @ git+https://github.com/tox-dev/tox.git@main"]
+description = "Run tests using devel branch of tox (unreleased)"
+
+[tool.tox.env.lint]
+commands = [
+  [
+    "python3",
+    "-m",
+    "pre_commit",
+    "run",
+    "{posargs:--all}"
+  ]
+]
+deps = ["pre-commit", "pre-commit-uv"]
+description = "Run linting"
+set_env = {PYTHONWARNINGS = ""}
+skip_install = true
+
+[tool.tox.env.pkg]
+commands = [
+  ["rm", "-rfv", "{toxinidir}/dist/"],
+  ["python", "-m", "build", "--outdir", "{toxinidir}/dist/", "{toxinidir}"],
+  # metadata validation
+  ["sh", "-c", "python3 -m twine check --strict {toxinidir}/dist/*"],
+  # Install the wheel
+  ["sh", "-c", "python3 -m pip install {toxinidir}/dist/*.whl"]
+]
+deps = [
+  "build >= 0.9.0",
+  "twine >= 4.0.1",
+  "pip"
+]
+description = "Test packaging"
+set_env = {PYTHONWARNINGS = "error"}
+# don't install package in this env
+skip_install = true
+# `usedevelop = true` overrides `skip_install` instruction, it's unwanted
+usedevelop = false
+
+[tool.tox.env."py{39,310,311,312,313}-devel"]
+deps = ["tox @ git+https://github.com/tox-dev/tox.git@main"]
+description = "Run tests using devel branch of tox (unreleased)"
+
+[tool.tox.env_run_base]
+allowlist_externals = [
+  "sh",
+  "rm"
+]
+commands = [
+  ["python", "-m", "coverage", "run", "-m", "pytest", "{posargs:}"],
+  ["sh", "-c", "python -m coverage combine -q --data-file={env:COVERAGE_FILE} {env:COVERAGE_FILE}.* && coverage report && coverage xml"]
+]
+description = "Run tests"
+extras = ["test"]
+package = "editable"
+pass_env = ["SSH_AUTH_SOCK"]
+requires = ["tox-uv"]
+set_env = {COVERAGE_FILE = "{env:COVERAGE_FILE:{toxworkdir}/.coverage.{envname}}", COVERAGE_PROCESS_START = "{toxinidir}/pyproject.toml", GIT_AUTHOR_EMAIL = "noreply@example.com", GIT_AUTHOR_NAME = "John Doe", GIT_COMMITTER_EMAIL = "noreply@example.com", GIT_COMMITTER_NAME = "John Doe", PIP_DISABLE_PIP_VERSION_CHECK = "1", PYTHONWARNINGS = "error"}
+skip_install = false
+usedevelop = true
