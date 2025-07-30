@@ -1,0 +1,2 @@
+[console_scripts]
+pybox-mcp = pybox_mcp:main
