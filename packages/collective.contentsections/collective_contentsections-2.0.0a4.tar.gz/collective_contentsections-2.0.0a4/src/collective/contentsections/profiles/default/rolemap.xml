@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rolemap>
+  <permissions>
+
+    <permission acquire="False"
+                name="collective.contentsections: Add BasicPage"
+    >
+      <role name="Manager" />
+      <role name="Contributor" />
+    </permission>
+
+    <permission acquire="False"
+                name="collective.contentsections: Add EventPage"
+    >
+      <role name="Manager" />
+      <role name="Contributor" />
+    </permission>
+
+    <permission acquire="False"
+                name="collective.contentsections: Add NewsPage"
+    >
+      <role name="Manager" />
+      <role name="Contributor" />
+    </permission>
+
+  </permissions>
+</rolemap>

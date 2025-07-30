@@ -1,0 +1,20 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <adapter
+      factory=".indexers.get_section_searchabletext"
+      name="SearchableText"
+      />
+  <adapter
+      factory=".indexers.get_textsection_searchabletext"
+      name="SearchableText"
+      />
+  <adapter
+      factory=".indexers.get_cardssection_searchabletext"
+      name="SearchableText"
+      />
+  <adapter
+      factory=".indexers.get_page_searchabletext"
+      name="SearchableText"
+      />
+
+</configure>

@@ -1,0 +1,15 @@
+graft src/collective
+graft tests
+include .coveragerc
+include .editorconfig
+include .python-version
+include *.md
+include *.json
+include LICENCE
+include Makefile
+include buildout.cfg
+include requirements.txt
+global-exclude *.pyc
+global-exclude .DS_Store
+recursive-exclude node_modules *
+recursive-exclude docs *

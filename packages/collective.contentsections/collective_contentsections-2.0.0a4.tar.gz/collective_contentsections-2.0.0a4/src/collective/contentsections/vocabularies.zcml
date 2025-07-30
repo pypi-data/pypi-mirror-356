@@ -1,0 +1,27 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <utility
+      provides="zope.schema.interfaces.IVocabularyFactory"
+      name="collective.contentsections.ColumnAlignments"
+      component=".vocabularies.ColumnAlignmentsVocabulary"
+      />
+
+  <utility
+      provides="zope.schema.interfaces.IVocabularyFactory"
+      name="collective.contentsections.ContainerWidths"
+      component=".vocabularies.ContainerWidthsVocabulary"
+      />
+
+  <utility
+      provides="zope.schema.interfaces.IVocabularyFactory"
+      name="collective.contentsections.ImageAlignments"
+      component=".vocabularies.ImageAlignmentsVocabulary"
+      />
+
+  <utility
+      provides="zope.schema.interfaces.IVocabularyFactory"
+      name="collective.contentsections.LeadIcons"
+      component=".vocabularies.LeadIconsVocabulary"
+      />
+
+</configure>

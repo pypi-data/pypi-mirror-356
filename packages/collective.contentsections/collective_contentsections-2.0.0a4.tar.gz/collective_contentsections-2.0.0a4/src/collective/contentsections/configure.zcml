@@ -1,0 +1,57 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.contentsections"
+    >
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include package="Products.CMFPlone" />
+  <include package="collective.geolocationbehavior" />
+  <include package="collective.taxonomy" />
+  <include package="collective.z3cform.datagridfield" />
+  <include package="plone.distribution" />
+
+  <plone:distribution
+      name="sections"
+      title="Plone Site (Content Sections)"
+      description="A Plone site where pages are built with sections."
+      directory="distributions/sections"
+      headless="false"
+      />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.contentsections"
+      description="Installs the collective.contentsections add-on"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.contentsections (uninstall)"
+      description="Uninstalls the collective.contentsections add-on"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <include file="indexers.zcml" />
+  <include file="vocabularies.zcml" />
+
+
+  <include package=".behaviors" />
+  <include package=".contents" />
+  <include package=".pages" />
+  <include package=".sections" />
+  <include package=".views" />
+
+  <plone:static
+      directory="static"
+      name="collective.contentsections"
+      type="plone"
+      />
+
+</configure>

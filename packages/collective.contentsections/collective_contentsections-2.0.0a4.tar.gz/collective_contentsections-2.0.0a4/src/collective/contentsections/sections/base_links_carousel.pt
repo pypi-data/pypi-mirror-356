@@ -1,0 +1,74 @@
+<html xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="context/@@main_template/macros/master"
+      i18n:domain="collective.contentsections"
+>
+  <metal:main fill-slot="main">
+    <metal:content-core define-macro="content-core">
+
+      <div class="carousel slide"
+           id="${carousel_id}"
+           data-bs-ride="carousel"
+           tal:define="
+             carousel_id string:carousel-${context/UID};
+           "
+      >
+        <div class="carousel-indicators">
+          <button class="${python:'active' if repeat.item.start else ''}"
+                  type="button"
+                  data-bs-slide-to="${repeat/item/index}"
+                  data-bs-target="#${carousel_id}"
+                  tal:repeat="item view/items"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="${python:'carousel-item active' if repeat.item.start else 'carousel-item'}"
+               tal:repeat="item view/items"
+          >
+            <img class="d-block w-100"
+                 alt="Item image"
+                 src="${item/lead_image_url}"
+                 i18n:attributes="alt"
+            />
+            <div class="carousel-caption">
+              <a href="${item/url}">
+                <h5>${item/title}</h5>
+                <p tal:condition="not:context/hide_item_descriptions">${item/description}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <tal:if condition="python: context.container_width != 0">
+          <button class="carousel-control-prev"
+                  type="button"
+                  data-bs-slide="prev"
+                  data-bs-target="#${carousel_id}"
+          >
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"
+            ></span>
+            <span class="visually-hidden"
+                  i18n:translate=""
+            >Previous</span>
+          </button>
+          <button class="carousel-control-next"
+                  type="button"
+                  data-bs-slide="next"
+                  data-bs-target="#${carousel_id}"
+          >
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"
+            ></span>
+            <span class="visually-hidden"
+                  i18n:translate=""
+            >Next</span>
+          </button>
+        </tal:if>
+      </div>
+      <div class="section-more-link"
+           tal:condition="view/more_link_text | nothing"
+      >
+        <a href="${view/more_link_url}">${view/more_link_text}</a>
+      </div>
+    </metal:content-core>
+  </metal:main>
+</html>
