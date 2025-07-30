@@ -1,0 +1,2 @@
+[console_scripts]
+p6plab.azure-pricing-mcp-server = p6plab.azure_pricing_mcp_server.server:main
