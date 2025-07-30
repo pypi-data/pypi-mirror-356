@@ -1,0 +1,12 @@
+houdini_logging_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+houdini_logging_tools/mappings.py,sha256=IHam4_o9MG3sg9P2t9P55KD609FKHeODOwJL8qJ3G2s,431
+houdini_logging_tools/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+houdini_logging_tools/adapters/loggeradapter.py,sha256=4guO4spPs6i8qMIoC9xVHVZdQiZr3d9AvVsTiTmV_gE,7142
+houdini_logging_tools/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+houdini_logging_tools/handlers/houdini_logging.py,sha256=wbZYll1pF_kamYflG8D0hT-kc5x3X0cW3MyuO2hYyJc,1148
+houdini_logging_tools/handlers/shellio.py,sha256=mpnBIwSRyX0QjhO9gPwuRr8nNdY4cL1ev5ZY6xZzO_w,1703
+houdini_logging_tools-0.2.0.dist-info/licenses/LICENSE,sha256=-kkYOdFq6k5wPQwUEsOmZVmt57hmuZT9PUOSzbKosLM,1072
+houdini_logging_tools-0.2.0.dist-info/METADATA,sha256=ar12vIOW524qYsixLLZ9OhS3JqfWkvFkO6hTTaJbVsQ,2097
+houdini_logging_tools-0.2.0.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+houdini_logging_tools-0.2.0.dist-info/top_level.txt,sha256=cCf6xT09BMG0ISJI1-43kn0jgIYA3ybEJBmUk4i6PBY,22
+houdini_logging_tools-0.2.0.dist-info/RECORD,,

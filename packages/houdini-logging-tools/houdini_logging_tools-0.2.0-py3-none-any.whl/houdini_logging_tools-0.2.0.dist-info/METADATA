@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: houdini-logging-tools
+Version: 0.2.0
+Summary: Logging related tools for Python logging in Houdini
+Home-page: https://github.com/captainhammy/houdini-logging-tools
+Author: Graham Thompson
+Author-email: captainhammy@gmail.com
+License: MIT
+Project-URL: Documentation, https://houdini-logging-tools.readthedocs.io/
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-houdini; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: pytest-sugar; extra == "test"
+Requires-Dist: tox; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+houdini-logging-tools
+=====================
+
+[![PyPI version](https://img.shields.io/pypi/v/houdini-logging-tools)](https://pypi.org/pypi/houdini-logging-tools)
+[![Tests](https://github.com/captainhammy/houdini-logging-tools/actions/workflows/tests.yml/badge.svg)](https://github.com/captainhammy/houdini-logging-tools/actions/workflows/tests.yml)
+[![Documentation Status](https://readthedocs.org/projects/houdini-logging-tools/badge/?version=latest)](https://houdini-logging-tools.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/captainhammy/houdini-logging-tools/graph/badge.svg?token=P25YCTBI8B)](https://codecov.io/gh/captainhammy/houdini-logging-tools)
+
+This project contains utilities related to Python logging in [Houdini](http://sidefx.com).
