@@ -1,0 +1,58 @@
+# DikshantNetVoice
+
+[![PyPI version](https://img.shields.io/pypi/v/dikshantnetvoice)](https://pypi.org/project/dikshantnetvoice/)
+[![Python versions](https://img.shields.io/pypi/pyversions/dikshantnetvoice)](https://pypi.org/project/dikshantnetvoice/)
+[![License](https://img.shields.io/pypi/l/dikshantnetvoice)](https://pypi.org/project/dikshantnetvoice/)
+
+**Offline voice-controlled networking toolkit for developers and IT professionals.**
+
+## Features
+
+- 🎤 Voice Commands for common networking tasks
+- 🌐 Cross-Platform (Windows/Linux/macOS)
+- 🔒 100% Offline - No internet required after installation
+- ⚡ Fast Execution with native system commands
+
+## Installation
+
+```bash
+pip install dikshantnetvoice
+```
+
+**Note**: Requires Python 3.7+ and a working microphone.
+
+## Quick Start
+
+```python
+from dikshantnetvoice import VoiceEngine
+
+engine = VoiceEngine()
+print("Say 'check my IP' or 'scan ports 1 to 100'")
+print(engine.listen())  # Returns command results
+```
+
+## Supported Voice Commands
+
+- "check my IP" — Shows all interface IPs
+- "scan ports X to Y" — Scans ports in the given range
+- "ping google.com" — Tests internet connectivity
+- "list WiFi networks" — Displays available wireless networks
+- "is port 80 open" — Checks if a specific port is open
+
+## Advanced Usage
+
+```python
+from dikshantnetvoice import NetworkCommands
+
+# Manual command execution
+print(NetworkCommands().list_wifi())
+print(NetworkCommands().traceroute("github.com"))
+```
+
+## Documentation
+
+Full API reference and usage guide available on the GitHub Wiki.
+
+## License
+
+MIT License. See the `LICENSE` file for more information.
