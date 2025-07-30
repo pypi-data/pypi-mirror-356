@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: cratch
+Version: 0.0.5
+Summary: Computational mechanics and Newral network Tools using torch library
+Project-URL: Homepage, https://xxxxxx.com
+Author: Takuya TOYOSHI
+Author-email: xxx@xxx.xxx
+License: MIT License
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Provides-Extra: lint
+Requires-Dist: ruff==0.4.5; extra == 'lint'
+Description-Content-Type: text/markdown
+
+# cratch
+
+[![PyPI - Version](https://img.shields.io/pypi/v/cratch.svg)](https://pypi.org/project/cratch)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cratch.svg)](https://pypi.org/project/cratch)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install cratch
+```
+
+## License
+
+`cratch` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
