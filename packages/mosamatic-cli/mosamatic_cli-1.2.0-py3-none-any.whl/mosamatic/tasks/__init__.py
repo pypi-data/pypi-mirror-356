@@ -1,0 +1,4 @@
+from mosamatic.tasks.decompressdicomfilestask.decompressdicomfilestask import DecompressDicomFilesTask
+from mosamatic.tasks.dummytask.dummytask import DummyTask
+from mosamatic.tasks.rescaledicomfilestask.rescaledicomfilestask import RescaleDicomFilesTask
+from mosamatic.tasks.segmentmusclefatl3task.segmentmusclefatl3task import SegmentMuscleFatL3Task
