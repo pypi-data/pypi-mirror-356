@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pillar
+Version: 0.4.0.dev1
+Summary: Building Blocks for Python Applications
+Author-email: Nicholas Hairs <info+pillar@nicholashairs.com>
+License: MIT
+Project-URL: HomePage, https://nhairs.github.io/pillar
+Project-URL: GitHub, https://github.com/nhairs/pillar
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: NOTICE
+Requires-Dist: colorlog
+Requires-Dist: dataclassy
+Requires-Dist: deepmerge >=2.0
+Requires-Dist: pyaml
+Provides-Extra: dev
+Requires-Dist: types-PyYAML ; extra == 'dev'
+Requires-Dist: validate-pyproject[all] ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: bpython ; extra == 'dev'
+Requires-Dist: orjson ; (implementation_name != "pypy") and extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: black ; extra == 'docs'
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material >=8.5 ; extra == 'docs'
+Requires-Dist: mkdocs-awesome-pages-plugin ; extra == 'docs'
+Requires-Dist: mdx-truly-sane-lists ; extra == 'docs'
+Requires-Dist: mkdocstrings[python] ; extra == 'docs'
+Requires-Dist: mkdocs-gen-files ; extra == 'docs'
+Requires-Dist: mkdocs-literate-nav ; extra == 'docs'
+Requires-Dist: mike ; extra == 'docs'
+Provides-Extra: recommended
+Requires-Dist: orjson ; (implementation_name != "pypy") and extra == 'recommended'
+
+# Pillar: Building Blocks for Python Applications
+
+[![PyPi](https://img.shields.io/pypi/v/pillar.svg)](https://pypi.python.org/pypi/pillar/)
+[![PyPI - Status](https://img.shields.io/pypi/status/pillar)](https://pypi.python.org/pypi/pillar/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/pillar.svg)](https://github.com/nhairs/pillar)
+[![License](https://img.shields.io/github/license/nhairs/pillar.svg)](https://github.com/nhairs/pillar)
+
+Pillar provides resusable components for building command-line applications. No more copy-pasting boilerplate for `logging` or `argparse` just to get bare-bone features.
+
+In particular Pillar focusses on providing components for applications that are run as services, background tasks, or scheduled jobs (e.g. cron jobs).
+
+
+## Documentation
+
+- [Documentation](https://nhairs.github.io/pillar/latest/)
+- [Quickstart Guide](https://nhairs.github.io/pillar/latest/quickstart/)
+- [Change Log](https://nhairs.github.io/pillar/latest/changelog/)
+
+
+## Licence
+This project is licenced under the MIT Licence - see [`LICENCE`](https://github.com/nhairs/pillar/blob/main/LICENCE).
+
+This project may include other open source licenced software - see [`NOTICE`](https://github.com/nhairs/pillar/blob/main/NOTICE).
+
+## Authors
+A project by Nicholas Hairs - [www.nicholashairs.com](https://www.nicholashairs.com).
+
