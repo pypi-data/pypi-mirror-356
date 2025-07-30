@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperfair"
+version = "0.1.2"
+description = "A Python library for generating, evaluating, and improving rankings under fairness constraints."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Mauritz Cartier van Dissel", email = "cartiervandissel@csh.ac.at" },
+  { name = "Samuel Martin-Gutierrez", email = "martin.gutierrez@csh.ac.at" },
+  { name = "Lisette Espin-Noboa", email = "espin@csh.ac.at" },
+  { name = "Ana Maria Jaramillo", email = "jaramillo@csh.ac.at" },
+  { name = "Fariba Karimi", email = "karimi@csh.ac.at" },
+]
+maintainers = [
+  { name = "Mauritz Cartier van Dissel", email = "cartiervandissel@csh.ac.at" }
+]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["algorithmic fairness", "group fairness", "bias in computer systems", "ranking", "top-k selection", "hypergeometric distribution"]
+classifiers = [
+  "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scipy"
+]
+
+[project.urls]
+Repository = "https://github.com/CSHVienna/hyper_fair"
+
