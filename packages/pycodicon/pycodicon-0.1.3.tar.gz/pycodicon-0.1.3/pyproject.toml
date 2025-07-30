@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycodicon"
+version = "0.1.3"
+description = "Python tools to sacrifice to the Codicon."
+authors = [{ name="redisnotblue", email="ededmaude@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyyaml",
+    "moderngl",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/redisnotbluedev/codicon"
+Issues = "https://github.com/redisnotbluedev/codicon/issues"
+
+[tool.setuptools]
+packages = ["codicon"]
