@@ -1,0 +1,11 @@
+fastmcp
+requests
+feedparser
+urllib3
+
+[dev]
+pytest>=6.0
+pytest-asyncio
+black
+flake8
+mypy

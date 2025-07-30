@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-search-mcp-server"
+version = "0.1.1"
+description = "An MCP server that provides search functionality for arXiv.org papers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "Gavin Huang", email = "gavin@example.com"}  # Replace with your actual email
+]
+maintainers = [
+    {name = "Gavin Huang", email = "gavin@example.com"}  # Replace with your actual email
+]
+keywords = ["arxiv", "mcp", "search", "papers", "research", "model-context-protocol"]
+classifiers = [
+    "Development Status :: 3 - Alpha",    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "fastmcp",
+    "requests",
+    "feedparser",
+    "urllib3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-asyncio",
+    "black",
+    "flake8",
+    "mypy",
+]
+
+[project.urls]
+Homepage = "https://github.com/gavinHuang/arxiv-search-mcp"
+Documentation = "https://github.com/gavinHuang/arxiv-search-mcp/blob/main/README.md"
+Repository = "https://github.com/gavinHuang/arxiv-search-mcp"
+"Bug Tracker" = "https://github.com/gavinHuang/arxiv-search-mcp/issues"
+
+[project.scripts]
+arxiv-search-mcp-server = "arxiv_search_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
