@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/drf_shapeless_serializers.egg-info/PKG-INFO
+src/drf_shapeless_serializers.egg-info/SOURCES.txt
+src/drf_shapeless_serializers.egg-info/dependency_links.txt
+src/drf_shapeless_serializers.egg-info/requires.txt
+src/drf_shapeless_serializers.egg-info/top_level.txt
+src/shapeless_serializers/__init__.py
+src/shapeless_serializers/exceptions.py
+src/shapeless_serializers/mixins.py
+src/shapeless_serializers/serializers.py
+src/shapeless_serializers/utils.py

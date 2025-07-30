@@ -1,0 +1,3 @@
+include README.md
+recursive-include src/drf_shapeless_serializers/templates *
+recursive-include src/drf_shapeless_serializers/static *
