@@ -1,0 +1,199 @@
+Metadata-Version: 2.4
+Name: grambox
+Version: 0.0.0.4
+Author-email: HUSSEIN HAFEDH OBAID <husseun.selt@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/h98m/grambox
+Project-URL: Issues, https://github.com/h98m/grambox/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# GramBox - Instagram Automation Toolkit
+
+GramBox is a Python library designed for automating Instagram interactions using session-based login.
+It provides functions to send messages, post stories or images, follow/unfollow users, comment, and retrieve user data (public and private).
+Ideal for bot developers, automation systems, or scraping utilities. Lightweight, clean, and simple to use.
+
+---
+
+## Installation
+
+Install via pip:
+```bash
+pip install grambox
+```
+
+---
+
+## Quickstart
+
+```python
+from grambox import GramBox, cookie, delete_session, userid, media_id
+
+# Create a GramBox instance with login credentials
+g = GramBox("USERNAME", "PASSWORD")
+```
+
+---
+
+## 1. Direct Messaging
+
+### Send a plain text message
+```python
+print(g.text_message("user_target", "Hello from GramBox!"))
+```
+
+### Send a voice note (MP3 format)
+```python
+print(g.voice_message("user_target", "voice.mp3"))
+```
+
+### Send an image (JPG/PNG)
+```python
+print(g.img_message("user_target", "photo.jpg"))
+```
+
+### Send a video (MP4)
+```python
+print(g.video_message("user_target", "video.mp4"))
+```
+
+---
+
+## 2. Post Interactions
+
+### Like a post by URL
+```python
+print(g.like("https://www.instagram.com/p/xxxxxx/"))
+```
+
+### Comment on a post
+```python
+print(g.comment("https://www.instagram.com/p/xxxxxx/", "Nice post!"))
+```
+
+---
+
+## 3. Follow Management
+
+### Follow a user
+```python
+print(g.follow("user_target"))
+```
+
+### Unfollow a user
+```python
+print(g.unfollow("user_target"))
+```
+
+---
+
+## 4. Publishing Content
+
+### Post a short DM note
+```python
+print(g.create_note("I'm online now!"))
+```
+
+### Upload an Instagram Story (image)
+```python
+print(g.story("story.jpg"))
+```
+
+### Post a photo to your feed with a caption
+```python
+print(g.post_img("post.jpg", "My latest post"))
+```
+
+---
+
+## 5. Profile Editing
+
+### Edit profile information
+```python
+print(g.edit_profile(
+    new_username="new_user",
+    new_full_name="Full Name",
+    new_bio="Automated by GramBox"
+))
+```
+
+### Change your profile picture
+```python
+print(g.edit_profile_img("avatar.jpg"))
+```
+
+---
+
+## 6. Data Retrieval
+
+### Get private user info (requires login)
+```python
+print(g.get_info_A("user_target"))
+```
+
+### Get public user info (no login required)
+```python
+print(g.get_info_B("user_target"))
+```
+
+### Download a user's current story (requires login)
+```python
+print(g.download_story("user_target"))
+```
+
+### Download a user's public story without login
+```python
+print(g.download_story_b("user_target"))
+```
+
+### Download all media from a post, reel, or carousel
+```python
+print(g.download_posts("https://www.instagram.com/p/xxxxxx/"))
+```
+
+---
+
+## 7. Inbox & Messages
+
+### Retrieve the latest message from your DM inbox
+```python
+print(g.get_messages())
+```
+
+### Retrieve the most recent message request
+```python
+print(g.get_inbox_request())
+```
+
+---
+
+## 8. Utility Functions (outside the class)
+
+### Get or create a session (returns cookies)
+```python
+print(cookie("USERNAME", "PASSWORD"))
+```
+
+### Delete a stored session file
+```python
+print(delete_session("USERNAME"))
+```
+
+### Get the numeric user ID for a username
+```python
+print(userid("USERNAME", "PASSWORD", "user_target"))
+```
+
+### Get the media ID of a post by URL
+```python
+print(media_id("https://www.instagram.com/p/xxxxxx/"))
+```
+
+
+
+Note: Use this library responsibly and do not violate Instagram's terms of service.
