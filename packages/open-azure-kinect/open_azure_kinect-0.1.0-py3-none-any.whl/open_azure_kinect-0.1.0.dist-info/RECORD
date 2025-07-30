@@ -1,0 +1,17 @@
+openk4a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openk4a/calibration.py,sha256=GKWwt474u3Of47uPmnGsHTEJOpOQZs35jR7TLrYvmu8,2835
+openk4a/capture.py,sha256=KJC7aUt4a5CS9Jz_u8i4rYZRE_9G-Nn3CLh7pLkWU4U,563
+openk4a/playback.py,sha256=EnxIPFW-LuIPMUlCPYXlO0gUGxynMs7mYj0rfOP8nMY,10733
+openk4a/stream.py,sha256=TXP8SQ2kcw2wZ-Anal1W3wL1UIXL0QWhQayMJG7iy30,946
+openk4a/transform.py,sha256=Lq8Y_htFIh3OocfhigfysrtgMTmw8DuOTB5LZ-QqA2A,17891
+openk4a/types.py,sha256=EVNerv18RohHGftBHvmig_kkDFYTDxz00fr2xorChBQ,407
+openk4a/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openk4a/utils/_calibration_utils.py,sha256=OzEEAz7GWwVLdH9Lt9puB2lpG5shDY8nO3OrjVM1c3U,5547
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_distortion_mapping.py,sha256=QzucibKYB9fwz0lIyUp2wFLOGSgq4Z0O4WJ5pKw_OrM,4598
+tests/test_utils.py,sha256=eFYAuyM4nyaxwWq5foHu2z7-9qp8CtRKwiqajYimXSs,1991
+open_azure_kinect-0.1.0.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+open_azure_kinect-0.1.0.dist-info/METADATA,sha256=mWpC_wm9Iw2hA41ryVQJpV-IeeqYAQcZY-O3kZfCji4,4319
+open_azure_kinect-0.1.0.dist-info/WHEEL,sha256=tZoeGjtWxWRfdplE7E3d45VPlLNQnvbKiYnx7gwAy8A,92
+open_azure_kinect-0.1.0.dist-info/top_level.txt,sha256=wKVtqx0u9itHUZ9zCcoX1sGGgfbXFLg-EEi7U8AohsY,14
+open_azure_kinect-0.1.0.dist-info/RECORD,,
