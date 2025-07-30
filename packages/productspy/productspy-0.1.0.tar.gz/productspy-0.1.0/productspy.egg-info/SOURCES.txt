@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+productspy.egg-info/PKG-INFO
+productspy.egg-info/SOURCES.txt
+productspy.egg-info/dependency_links.txt
+productspy.egg-info/requires.txt
+productspy.egg-info/top_level.txt
+trackers/__init__.py
+trackers/aliexpress.py
+trackers/amazon.py
+trackers/carrefour.py
+trackers/extra.py
+trackers/noon.py
