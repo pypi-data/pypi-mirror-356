@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezbilling"
+version = "0.5.0"
+description = "A small Python package that says hello."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+    { name = "Nithesh", email = "nithish@dreaminfinity.in" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "requests>=2.25.1"
+]
