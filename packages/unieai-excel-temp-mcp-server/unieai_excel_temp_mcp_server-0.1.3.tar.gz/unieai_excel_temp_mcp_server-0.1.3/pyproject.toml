@@ -1,0 +1,23 @@
+[project]
+name = "unieai-excel-temp-mcp-server"
+version = "0.1.3"
+description = "UnieAI Excel MCP Server with custom fill tool"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp [cli]>=1.6.0",
+  "excel-mcp-server>=0.1.4",
+]
+
+[project.scripts]
+unieai-excel-temp-mcp-server = "unieai_excel_temp_mcp.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/unieai_excel_temp_mcp"]
+
+[tool.hatch.build]
+packages = ["src/unieai_excel_temp_mcp"]
