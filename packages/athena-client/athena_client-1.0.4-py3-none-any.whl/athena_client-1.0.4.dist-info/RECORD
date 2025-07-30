@@ -1,0 +1,17 @@
+athena_client/__init__.py,sha256=FrmqWKUqNRj8DcVAg7WlgDEVYcNWY-S95SGz9Uq4xSU,7167
+athena_client/async_client.py,sha256=UEcGKAYzBJEkAWy7q7fyLxH-XbmIdC1oHQ7M8aXiV5s,13336
+athena_client/auth.py,sha256=gMz0inkkxKmj-Wn3ljZMSqvV76D9ovUNjkQyzSlp5dw,1864
+athena_client/cli.py,sha256=7Vs1CoP9ozsH-FYQ7Ip48egGlVhreNNyNItE5GJdkOs,10022
+athena_client/client.py,sha256=2WvRnhQmOwI6KEGW2Ks5rlgD-uuZ6BBDbdl_94UE5NM,5652
+athena_client/exceptions.py,sha256=AL4Zg4qrGUJm60BrdrjlZh8TUdTIoyogc_vrvbYdg4k,1733
+athena_client/http.py,sha256=b2LHK3kU7c3ApBdenlNCgM36mMAqvWuFFqT2xmJHAmU,8021
+athena_client/query.py,sha256=Xohx5bXMa2eqTRYDQVnIfKhaD42dlvkuxblQ0AnG5A4,6603
+athena_client/search_result.py,sha256=qASEMDCds4rXq-s-LoCpuKhpspWhkq4qYcru--hNEzw,4990
+athena_client/settings.py,sha256=AsSCUGuC_Bik5TYV2Tx7O3v5SXkZv7RKoRJvOGoRugQ,1027
+athena_client/models/__init__.py,sha256=gQzpJOmyHFWfnrNssCoNK1rkvT3iyTyNJiM0ZgLUbMo,6922
+athena_client/utils/__init__.py,sha256=9sgCVlQjbAiH8yybn46a2ur3Qd60Q17LQUtFZX3rlFA,798
+athena_client-1.0.4.dist-info/METADATA,sha256=Os9bOL71R8mxdpOlR0CM1nXW8A8c2gaj8z8P1c11fww,5762
+athena_client-1.0.4.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+athena_client-1.0.4.dist-info/entry_points.txt,sha256=RWsUuDqxxWes4cqhCkco32fVcNCKe4KDZ_mzJS5SCRw,50
+athena_client-1.0.4.dist-info/top_level.txt,sha256=5qQroRykAnIw8G58STbL8PbrSs-0iooJWIVJPCecnxM,14
+athena_client-1.0.4.dist-info/RECORD,,
