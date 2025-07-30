@@ -1,0 +1,5 @@
+[console_scripts]
+pdf-reader-mcp = pdf_reader_mcp.cli:main
+
+[mcp.servers]
+pdf_reader = pdf_reader_mcp.server:mcp
