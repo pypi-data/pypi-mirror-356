@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: beta-lib
+Version: 0.99.95
+Summary: Nyalytix is a smart orchestration for data transformation engine that blends the essence of data and it's analytics toturn raw data into clean, insightful, and ML-ready pipelines.
+Home-page: https://github.com/KasturingAI-ORG/pypi-libraries
+Author: @KasturingAI
+License: Apache Software License 2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.18
+Requires-Dist: pandas>=1.0
+Requires-Dist: plotly>=5.0
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pypi-libraries
+This Repository Contains all pypi libraries development activities
