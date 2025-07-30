@@ -1,0 +1,3 @@
+[console_scripts]
+dtu=dtu_hpc_cli:cli
+
