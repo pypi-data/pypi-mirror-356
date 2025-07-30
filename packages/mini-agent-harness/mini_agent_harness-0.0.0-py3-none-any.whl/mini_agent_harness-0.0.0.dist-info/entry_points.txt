@@ -1,0 +1,6 @@
+[console_scripts]
+mini-agent=mini_agent_harness.cli:app
+
+[pytest11]
+mini_agent_harness=mini_agent_harness.testing.plugin
+

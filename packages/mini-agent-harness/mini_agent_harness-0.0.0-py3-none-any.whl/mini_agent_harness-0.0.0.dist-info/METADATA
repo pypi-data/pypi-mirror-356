@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: mini-agent-harness
+Version: 0.0.0
+Summary: Small, test-first AI agent starter kit with built-in pytest harness.
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Provides-Extra: all
+Requires-Dist: deepeval (>=0.20.5,<0.21.0) ; extra == "all"
+Requires-Dist: guardrails-ai (>=0.4.0,<0.5.0) ; extra == "all"
+Requires-Dist: langsmith (>=0.1.45,<0.2.0) ; extra == "all"
+Requires-Dist: pytest (>=8.2.0,<9.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# MiniAgentHarness
+
+
