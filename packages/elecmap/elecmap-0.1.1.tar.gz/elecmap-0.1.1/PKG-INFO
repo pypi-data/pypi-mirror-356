@@ -1,0 +1,314 @@
+Metadata-Version: 2.4
+Name: elecmap
+Version: 0.1.1
+Summary: Detect and visualize intracranial electrode locations from CT and MR scans.
+Author-email: Mohammad Saber <mohammadsaber@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/saberm2837/ElecMap
+Project-URL: Bug Tracker, https://github.com/saberm2837/ElecMap/issues
+Keywords: medical imaging,neurology,electrode localization,CT,MR,MRI
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SimpleITK>=2.1
+Requires-Dist: nipype>=1.8
+Requires-Dist: numpy>=1.20
+Requires-Dist: matplotlib>=3.5
+Requires-Dist: termcolor>=2.0
+Requires-Dist: tqdm>=4.60
+Dynamic: license-file
+
+# 🧠 ElecMap: Intracranial Electrode Localization Toolkit
+
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![PyPI version](https://badge.fury.io/py/elecmap.svg)](https://pypi.org/project/elecmap/)
+
+Automated detection and visualization of intracranial electrodes from CT/MR scans for neurosurgical planning and research.
+
+---
+
+## 📁 Table of Contents
+
+- [Introduction](#introduction)
+- [Key Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Electrode Detection](#electrode-detection)
+  - [Electrode Visualization](#electrode-visualization)
+- [Sample Output](#sample-output)
+- [Project Structure](#project-structure)
+- [JSON Output Format](#json-output-format)
+- [Use Cases](#use-cases)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Contact](#contact)
+- [Citation](#citation)
+
+---
+
+## 📘 Introduction <a name="introduction"></a>
+
+**ElecMap** is a Python package designed for the automated detection of intracranial electrodes from CT and MR brain scans. It accurately identifies and localizes electrode centroids within medical imaging data. The package includes a visualization tool to help users review and display the detected electrode locations.
+
+It leverages powerful libraries such as:
+- **SimpleITK** for image processing
+- **nipype** for interfacing with **FSL's BET**
+- **matplotlib** for report generation
+
+---
+
+## 🌟 Key Features <a name="features"></a>
+
+- ✅ **Precise Electrode Mapping**: Localizes electrode centroids in 3D space
+- 🔄 **Multi-Modal Integration**: Combines CT and MR data for improved anatomical accuracy
+- 📄 **Clinical-Grade Reports**: Generates standardized HTML reports for documentation
+- 🚫 **Smart Filtering**: Automatic outlier rejection and duplicate detection
+- ⚙️ **Fallback Mode**: Works with CT-only if FSL or MR scan is unavailable
+
+---
+
+## 📦 Installation <a name="installation"></a>
+
+### 1. Install directly from PyPI (recommended):
+
+```bash
+pip install elecmap
+```
+
+### 2. Clone the repository from GitHub:
+
+```bash
+git clone https://github.com/saberm2837/ElecMap.git
+cd ElecMap
+```
+
+> 🔔 **Note:** FSL must be installed and accessible in your system PATH to use MR-based skull stripping features. If unavailable, ElecMap will still perform CT-only detection with a warning.
+
+---
+
+## 🛠️ Usage <a name="usage"></a>
+
+### 1. Electrode Detection <a name="electrode-detection"></a>
+
+```python
+from elecmap import detect_electrodes
+import os
+
+# Input files
+ct_file = '/path/to/sample_ct.nii'
+mr_file = '/path/to/sample_mr.nii'  # Optional if FSL is unavailable
+
+# Set FSL environment variables if needed
+if 'FSLDIR' not in os.environ:
+    os.environ['FSLDIR'] = '/opt/fsl'
+    os.environ['FSLOUTPUTTYPE'] = 'NIFTI_GZ'
+
+# Run detection
+detect_electrodes(ct_file, mr_file)
+```
+
+This function performs:
+- STEP 1: Load CT and MR images
+- STEP 2: Skull-strip MR using FSL BET (optional)
+- STEP 3: Apply MR brain mask to CT (optional)
+- STEP 4: Detect candidate electrodes from CT intensities
+- STEP 5: Eliminate outliers
+- STEP 6: Save coordinates to  
+  `processed_scans/electrodes_sample_ct.json`
+
+> ✅ **Tip:** If no MR image or FSL is available, simply pass `None` as the second argument or omit it.
+
+---
+
+### 2. Electrode Visualization <a name="electrode-visualization"></a>
+
+```python
+from elecmap import display_electrode_locations
+
+# Input files
+ct_file = '/path/to/sample_ct.nii'
+json_file = 'processed_scans/electrodes_sample_ct.json'
+
+# Generate HTML report
+display_electrode_locations(ct_file, json_file)
+```
+
+This function:
+- Overlays detected electrodes on axial, sagittal, and coronal slices
+- Saves an interactive HTML report to:
+  `reports/report_sample_ct.html`
+
+---
+
+## ✅ Sample Output <a name="sample-output"></a>
+
+Console output (detection):
+
+```
+[12:52:13] STEP 1: Loading images ...
+CT array shape: (481, 650, 529)
+voxel intensity range: -4734.0 to 31743.0
+Z-axis bounds: 38 to 443
+Y-axis bounds: 52 to 598
+X-axis bounds: 42 to 487
+
+[12:52:15] STEP 2: Performing skull stripping on MR using FSL BET ...
+Skull-stripped MR image saved at: /data/processed_scans/sample_mr_bet.nii.gz
+Brain mask saved at: /data/processed_scans/sample_mr_bet_mask.nii.gz
+
+[12:52:31] STEP 3: Loading the generated MR brain mask and applying it to the CT scan ...
+MR brain mask loaded successfully.
+
+[12:52:31] Dilating the brain mask by 30 voxels ...
+Successfully Skull stripped the CT scan.
+
+[12:52:52] STEP 4: Compute the centroid of electrodes ...
+Detected total number of potential electrodes: 142
+
+[12:52:53] STEP 5: Eliminate outliers from the list of potential electrodes ...
+Processing electrodes:  52%|█████▏    | 74/142 [00:00<00:00, 733.90it/s]
+Electrode outside margin 1: physical = (29.92, -35.9, -83.28), voxel = (339, 414, 31)
+Electrode outside margin 2: physical = (-27.22, -37.28, -88.78), voxel = (196, 417, 18)
+Processing electrodes: 100%|██████████| 142/142 [00:00<00:00, 375.20it/s]
+Electrode outside margin 3: physical = (-27.55, -38.4, -87.82), voxel = (195, 420, 20)
+Electrode outside margin 4: physical = (-27.75, -38.8, -87.42), voxel = (195, 421, 21)
+Electrode outside margin 5: physical = (-25.96, -38.0, -88.62), voxel = (199, 419, 18)
+Electrode outside margin 6: physical = (-26.36, -38.4, -88.22), voxel = (198, 420, 19)
+Electrode outside margin 7: physical = (26.76, -35.6, -83.43), voxel = (331, 413, 31)
+Final electrode count after eliminating 7 potential outliers: 135
+
+[12:52:53] STEP 6: Saving electrode coordinates to the disk ...
+Electrode coordinates successfully saved to: processed_scans/electrodes_sample_ct.json
+```
+
+Console output (visualization):
+
+```
+Generating report: 100%|██████████| 135/135 [00:26<00:00,  5.01it/s]
+HTML report saved to: reports/report_sample_ct.html
+```
+
+Report preview (example images):
+![ct_image_01](https://github.com/user-attachments/assets/d8b26495-12ec-4159-bd66-fc85a023c83e)
+![ct_image_02](https://github.com/user-attachments/assets/7913ea6c-2364-4135-8563-c66a4f13fb46)
+![ct_image_03](https://github.com/user-attachments/assets/28d2acda-cef7-41d7-a2a1-9ebda5d4ce61)
+![ct_image_04](https://github.com/user-attachments/assets/c124a21e-5c81-40c6-889c-4fe409a85a2e)
+![ct_image_05](https://github.com/user-attachments/assets/09661852-1570-4797-a458-c3819858f547)
+
+---
+
+## 📂 Project Structure <a name="project-structure"></a>
+
+```
+ElecMap/
+├── src/
+|   └── elecmap/
+│       ├── __init__.py
+│       ├── electrode_detection.py
+│       └── electrode_visualization.py
+├── examples/
+│   └── run_elecmap_demo.py
+├── processed_scans/
+│   └── (auto-generated outputs)
+├── reports/
+│   └── (auto-generated reports)
+├── pyproject.toml
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 📋 JSON Output Format <a name="json-output-format"></a>
+
+The output JSON contains a list of detected electrode centroids:
+
+```json
+[
+  {
+    "physical_mm": [51.74, -40.14, -2.88],
+    "voxel_coords": [394, 324, 250]
+  },
+  ...
+]
+```
+
+- `physical_mm`: electrode location in real-world space (millimeters)
+- `voxel_coords`: electrode position in image voxel space (indices)
+
+---
+
+## 🔬 Use Cases <a name="use-cases"></a>
+
+- Epilepsy and tumor surgery planning
+- Post-operative SEEG or ECoG contact localization
+- Research in brain-computer interfaces (BCIs)
+- Electrode tracking across imaging sessions
+- Quality control of electrode placement
+
+---
+
+## 🧪 Dependencies <a name="dependencies"></a>
+
+- Python 3.8+
+- Python libraries:
+  - `SimpleITK`
+  - `matplotlib`
+  - `numpy`
+  - `termcolor`
+  - `tqdm`
+  - `nipype` (for FSL integration)
+
+- System dependency:
+  - [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation)
+
+Install all Python dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+> ⚠️ Without FSL, only CT-based detection is performed. A warning will be printed.
+
+---
+
+## 🧾 License <a name="license"></a>
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Feedback and contributions are welcome!  
+Please [open an issue](https://github.com/saberm2837/ElecMap/issues) to report bugs, request features, or contribute code.
+
+---
+
+## 📫 Contact <a name="contact"></a>
+
+**Created by:** Mohammad Saber  
+📧 Email: [mohammadsaber@gmail.com](mailto:mohammadsaber@gmail.com)  
+🌐 GitHub: [https://github.com/saberm2837/ElecMap](https://github.com/saberm2837/ElecMap)
+
+---
+
+## 📚 Citation <a name="citation"></a>
+
+If you use **ElecMap** in your research, please cite:
+
+```bibtex
+@software{ElecMap2025,
+  author = {Mohammad Saber},
+  title = {ElecMap: Intracranial Electrode Localization Toolkit},
+  year = {2025},
+  url = {https://github.com/saberm2837/ElecMap}
+}
+```

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/elecmap/__init__.py
+src/elecmap/electrode_detection.py
+src/elecmap/electrode_visualization.py
+src/elecmap.egg-info/PKG-INFO
+src/elecmap.egg-info/SOURCES.txt
+src/elecmap.egg-info/dependency_links.txt
+src/elecmap.egg-info/requires.txt
+src/elecmap.egg-info/top_level.txt
