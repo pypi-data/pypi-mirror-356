@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include requirements.txt
+include docker-compose.yml
+include Dockerfile
+include .env.example
+recursive-include ghprai *.py
+recursive-include ghprai *.txt
+recursive-include ghprai *.yaml
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
