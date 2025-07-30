@@ -1,0 +1,13 @@
+fuzzywuzzy==0.18.0
+geojson<3
+geopandas<1,>=0.10
+numpy<2,>=1
+pandarallel==1.6.5
+pandas>=1
+pyarrow
+pyahocorasick>=2
+python-dateutil
+python-Levenshtein>=0.25.0
+requests>=2.7
+shapely>=1.7
+tqdm>=4.62.0
