@@ -1,0 +1,30 @@
+[project]
+name = "dyndns-to-hetzner"
+version = "1.0.0"
+description = "DynDNS endpoint translation to Hetzner API"
+readme = "README.md"
+license = "GPL-3.0"
+authors = [{ name = "Faeyben", email = "kontakt@faeyben.de" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Flask",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "flask",
+    "flask_httpauth",
+    "requests",
+    "click"
+]
+keywords = ["dns", "dyndns", "hetzner" ]
+requires-python = ">3.9"
+
+[tool.setuptools]
+packages = ["dyndns_to_hetzner"]
+
+[project.urls]
+Homepage = "https://github.com/faeyben/dns-to-hetzner"
+
+[build-system]
+requires      = ["setuptools>=80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+config.py.example
+pyproject.toml
+dyndns_to_hetzner/__init__.py
+dyndns_to_hetzner.egg-info/PKG-INFO
+dyndns_to_hetzner.egg-info/SOURCES.txt
+dyndns_to_hetzner.egg-info/dependency_links.txt
+dyndns_to_hetzner.egg-info/requires.txt
+dyndns_to_hetzner.egg-info/top_level.txt
