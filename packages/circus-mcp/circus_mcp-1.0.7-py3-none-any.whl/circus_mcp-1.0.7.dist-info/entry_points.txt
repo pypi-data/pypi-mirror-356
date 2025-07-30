@@ -1,0 +1,2 @@
+[console_scripts]
+circus-mcp = circus_mcp.main:main
