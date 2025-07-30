@@ -1,0 +1,4 @@
+{
+    "name": "${ECS_CAPACITY_PROVIDER_NAME}",
+    "auto_scaling_group": "${ECS_CAPACITY_PROVIDER_SCALING_GROUP}"
+}

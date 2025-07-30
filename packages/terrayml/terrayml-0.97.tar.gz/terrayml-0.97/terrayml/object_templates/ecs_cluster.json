@@ -1,0 +1,6 @@
+{
+    "name": "${ECS_CLUSTER_NAME}",
+    "type": "${ECS_CLUSTER_TYPE}",
+    "capacity_providers": "${ECS_CLUSTER_CAPACITY_PROVIDERS}",
+    "default_capacity_provider_strategy": "${ECS_DEFAULT_CAPACITY_PROVIDER_STRATEGY}"
+}
