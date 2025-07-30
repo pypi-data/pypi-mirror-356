@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: happy-utils
+Version: 0.1.1
+Summary: A collection of Python utility functions
+Author: Adam Zakaria
+Author-email: adam.p.zakaria@gmail.com
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Dist: opencv-python
+Requires-Dist: psutil
+Description-Content-Type: text/markdown
+
+# Intro
+Python utility functions
+
+# Upload to pypi
+poetry build
+twine upload dist/*
+
+
+
