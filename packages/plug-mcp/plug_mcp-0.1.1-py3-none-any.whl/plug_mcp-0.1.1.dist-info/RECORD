@@ -1,0 +1,12 @@
+plug_mcp/__init__.py,sha256=GqrypjHOz0MJaUPgEnmfEs84VN4G_iv8SuDytJN_W10,257
+plug_mcp/client.py,sha256=0153i-UBeRnHEjHNabGd5CNpUdHcamsOVg5JtsQPcEY,13930
+plug_mcp/guardrails.py,sha256=BrY28fdQvJEHhE6lT9YQ1w-xY-x7S8-9cC4Vk9W8J24,7161
+plug_mcp/transport.py,sha256=TgMb1aKW1ApkDH1h7Rvu5SpSlLjw5NJCHmKPRH6xi_I,4600
+plug_mcp/utils.py,sha256=JS9csdCnkw2DmHaPgh-5KiHxH_--Iv5RfueqYIv7hoY,1504
+plug_mcp/llm/__init__.py,sha256=QnAlby22p9VyDXu8uOb2cxlK4a1j98fdbfg641hde3I,168
+plug_mcp/llm/anthropic.py,sha256=YIz2WVSN0j2qtQ4PkPupMZ5uZzzfWpQt_tnEp3qTl4I,6678
+plug_mcp/llm/openai.py,sha256=UBN723FetAHwJavVWxQaDSgl2jSQL2-WArgDd0dLymY,13229
+plug_mcp-0.1.1.dist-info/METADATA,sha256=jmFUx7J1CvHIrBPebIuGD_L7TW8aZ6ymE99GMjscyFE,4941
+plug_mcp-0.1.1.dist-info/WHEEL,sha256=qtCwoSJWgHk21S1Kb4ihdzI2rlJ1ZKaIurTj_ngOhyQ,87
+plug_mcp-0.1.1.dist-info/licenses/LICENSE,sha256=4UQTuecrqtjd5GwKvx3UPZqdlDIHWvpRYbj-qIc5eNE,1091
+plug_mcp-0.1.1.dist-info/RECORD,,
