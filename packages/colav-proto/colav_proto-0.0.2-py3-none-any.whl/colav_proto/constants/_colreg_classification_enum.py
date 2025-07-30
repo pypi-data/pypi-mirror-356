@@ -1,0 +1,10 @@
+from enum import Enum
+
+class COLREGClassificationEnum(Enum):
+    COLREG_UNDEFINED = 0
+    
+    COLREG_HEAD_ON = 1
+    COLREG_OVERTAKING = 2
+    COLREG_BEING_OVERTAKEN = 3
+    COLREG_CROSSING_GIVE_WAY = 4
+    COLREG_CROSSING_STAND_ON = 5
