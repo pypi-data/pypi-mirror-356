@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: idepy-next
+Version: 1.0.0
+Summary: 开源免费的Python桌面应用开发框架，基于Pywebview。
+Home-page: https://idepy.com
+Author: maplesunrise
+Author-email: maplesunrise@foxmail.com
+License: MIT
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: proxy-tools
+Requires-Dist: typing-extensions
+Requires-Dist: pythonnet
+Requires-Dist: bottle
+Requires-Dist: pydash
+Requires-Dist: requests
+Requires-Dist: jinja2
+Requires-Dist: keyboard
+Requires-Dist: winshell
+Requires-Dist: pystray
+Requires-Dist: plyer
+Requires-Dist: pyinstaller
+Requires-Dist: nuitka
+Requires-Dist: cryptography
+Requires-Dist: pywin32
+Requires-Dist: psutil
+
+IDEPY-Next
+开源免费的Python桌面应用开发框架
+让Python构建桌面应用更简单~
+
+基于Pywebview二次开发。
+
+官网：https://idepy.com
+意见反馈：maplesunrise@foxmail.com
