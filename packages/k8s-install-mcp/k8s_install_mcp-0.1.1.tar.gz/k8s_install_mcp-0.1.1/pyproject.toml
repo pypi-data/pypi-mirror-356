@@ -1,0 +1,21 @@
+[project]
+name = "k8s-install-mcp"
+version = "0.1.1"
+description = "mcp k8s auto install"
+readme = "README.md"
+authors = [
+    { name = "maruduke", email = "abab1117@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.9.2",
+    "paramiko>=3.5.1",
+    "setuptools>=80.9.0",
+]
+
+[project.scripts]
+k8s-install-mcp = "k8s_install_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
