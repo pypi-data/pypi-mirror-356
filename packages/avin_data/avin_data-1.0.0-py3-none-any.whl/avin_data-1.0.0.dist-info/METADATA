@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: avin_data
+Version: 1.0.0
+Summary: CLI utility for download market data
+Author-email: Alex Avin <mr.alexavin@gmail.com>
+Requires-Python: >=3.12
+License-Expression: MIT
+License-File: LICENSE
+Requires-Dist: click>=8.1

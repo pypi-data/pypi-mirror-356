@@ -1,0 +1,3 @@
+[console_scripts]
+avin_data=avin_data.cli:start_cli
+
