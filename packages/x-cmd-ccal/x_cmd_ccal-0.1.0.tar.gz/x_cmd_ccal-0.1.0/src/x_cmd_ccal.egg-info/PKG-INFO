@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: x-cmd-ccal
+Version: 0.1.0
+Summary: 一个带农历和节日的终端日历应用（Textual UI）
+Author: Li Junhao
+Author-email: li.junhao@x-cmd.com
+License: AGPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: textual>=0.40.0
+Requires-Dist: cnlunar
+Requires-Dist: rich
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
