@@ -1,0 +1,15 @@
+oligo/__init__.py,sha256=iTZwOkyuW4jjwj70GxHHRAzED0XJfgv_Ur2-2irhNVg,132
+oligo/exception.py,sha256=CuDg6Q-Rr7XJ7N2mwwgQdEj36-C5lQXJxgHQ6PBkQiA,593
+oligo/asyncio/__init__.py,sha256=rKv4NrQioDKVTUwmx7ACFc-rF8MoMO_SAzY_3OzGrE0,33
+oligo/asyncio/asynciber.py,sha256=QIDy_klsDsfHXvlhZIf4xnCdLnb3nO5P1V_xQ89xStw,7645
+oligo/requests/__init__.py,sha256=TY5vpJglZDyhAoUCZOk5uOmUdz14-gp_PH4dCo0Wkm8,23
+oligo/requests/iber.py,sha256=_tM8E_8hKpPg9AJPdQO2SgCIoL1EALMhQqICBjB5Vwc,11000
+oligo-2.1.2.dist-info/licenses/LICENSE,sha256=L21lbcoXp7bSUJzTDe2csjOpdLOWoQgrFOPj5W4Tqpw,1100
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aioiber.py,sha256=WMzyS9fPRmrQFtONlN7YfB2ZBKD6qYGd7yGjCbmC0GQ,256
+tests/test_exception.py,sha256=JIKxifwwVx3C3CH3g-zynZudADsOgJCY1PzPPLr13WE,751
+tests/test_iber.py,sha256=rPqw5KH2jLtIQ57TE6S4S4DjAq2LZ0Rafv_CwlbAJH4,1458
+oligo-2.1.2.dist-info/METADATA,sha256=QCh1hawTeR2pFiVl6cIG5yXyFIcxnA_VPt1TQ9S-j7A,5525
+oligo-2.1.2.dist-info/WHEEL,sha256=_zCd3N1l69ArxyTb8rzEoP9TpbYXkqRFSNOD5OuxnTs,91
+oligo-2.1.2.dist-info/top_level.txt,sha256=JFCqFVAP1bXD1EbIiAi17_596Gm_GKkpf0A0cbDjVMQ,12
+oligo-2.1.2.dist-info/RECORD,,
