@@ -1,0 +1,2 @@
+[console_scripts]
+unieai-excel-temp-mcp-server = unieai_excel_temp_mcp.cli:main
