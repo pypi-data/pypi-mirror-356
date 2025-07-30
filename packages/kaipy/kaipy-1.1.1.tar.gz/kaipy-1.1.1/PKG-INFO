@@ -1,0 +1,72 @@
+Metadata-Version: 2.4
+Name: kaipy
+Version: 1.1.1
+Summary: Python software for CGS MAGE and other Kaiju models
+Home-page: https://bitbucket.org/aplkaiju/kaipy/src/master/
+Author: Kaiju team
+Author-email: Eric Winter <eric.winter@jhuapl.edu>
+License: BSD 3-Clause
+Keywords: CGS,MAGE,KAIJU
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: alive_progress
+Requires-Dist: astropy
+Requires-Dist: cdasws
+Requires-Dist: configparser
+Requires-Dist: h5py
+Requires-Dist: jupyterlab
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: progressbar
+Requires-Dist: pyspedas
+Requires-Dist: pytest
+Requires-Dist: slack_sdk
+Requires-Dist: spacepy
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: sunpy
+Requires-Dist: gfz-api-client
+Requires-Dist: supermag-api
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# README #
+
+Kaipy is a Python package for analysis and visualization of simulation
+results from a scientific software package Kaiju. Kaiju includes the
+[Multiscale Atmosphere-Geospace Environment (MAGE)
+](https://cgs.jhuapl.edu/Models/) model developed by the NASA
+DRIVE [Center for Geospace Storms](https://cgs.jhuapl.edu/) as well as
+other scientific software for simulation of heliospheric environments such
+as planetary magnetospheres and the solar wind. 
+
+### Documentation ###
+
+Current documentation for this package available via our [Read The Docs website](https://kaipy-docs.readthedocs.io/en/latest/).
+
+### License ###
+
+Kaipy is distributed under the [BSD 3-Clause license](LICENSE.md).
+
+### What is this repository for? ###
+
+This repository provides access to the source code used
+to implement the kaipy python package. The package is mostly commonly installed via
+pip from [https://pypi.org/project/kaipy/](PyPi).
+
+### How do I get set up? ###
+
+```pip install kaipy```.
+
+
+### Contribution guidelines ###
+
+All contributions should be made by forking this repository and submitting a pull request.
+
+
+### Who do I talk to? ###
+
+For more information about the Kaipy project contact [Michael Wiltberger](mailto:wiltbemj@ucar.edu?subject=Kaipy).
