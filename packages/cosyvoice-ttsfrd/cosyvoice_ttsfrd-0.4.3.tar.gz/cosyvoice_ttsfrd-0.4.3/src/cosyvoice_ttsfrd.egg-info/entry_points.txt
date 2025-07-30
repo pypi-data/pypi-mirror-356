@@ -1,0 +1,2 @@
+[console_scripts]
+cosyvoice-post-install = cosyvoice_ttsfrd.post_install:main
