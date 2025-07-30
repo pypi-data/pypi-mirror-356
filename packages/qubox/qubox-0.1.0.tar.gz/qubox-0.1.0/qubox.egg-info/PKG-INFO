@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: qubox
+Version: 0.1.0
+Summary: Wrapper Module around qua programming language for cQED experiments
+Author-email: JianJun Liu <jianjun.liu@utexas.edu>
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: cma==4.0.0
+Requires-Dist: configuration==0.4.2
+Requires-Dist: grpclib==0.4.5
+Requires-Dist: matplotlib==3.10.3
+Requires-Dist: numpy==1.25.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: qm==0.2
+Requires-Dist: qualang_tools==0.19.5
+Requires-Dist: scikit_optimize==0.10.2
+Requires-Dist: scipy==1.15.3
+Requires-Dist: tqdm==4.67.1
