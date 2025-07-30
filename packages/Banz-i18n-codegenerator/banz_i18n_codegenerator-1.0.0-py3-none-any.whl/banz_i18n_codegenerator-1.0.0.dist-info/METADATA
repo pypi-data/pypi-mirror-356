@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: Banz_i18n_codegenerator
+Version: 1.0.0
+Summary: Package to generate java constants for provided i18n.properties files.
+Author-Email: Sebastian Banz <sebanzian@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://github.com/derbanz
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# i18n file generator
+Provided multiple i18n.properties files, this will generate three Java classes Constants, Messages and ValidationMessages to link to the strings.
+
+## Usage
+call generator.runGenerator(files: list, resourcePath: str, targetPath: str).
+* files: List of i18n files to be considered (e.g. ['i18n.properties', 'i18n_de.properties'])
+* resourcePath: path to the resource directory where the i18n files are stored (e.g. r'.\backend\domain\src\main\resources')
+* targetPath: path to the target Directory where the Java classes should be created (e.g. r'.\backend\domain\src\main\java\org\derbanz\app\domain\i18n')
+
+The paths can be either absolute or relative, and they can be either raw or escaped (e.g. r'.\backend\domain\src\main\resources', r'D:\Development\app\backend\domain\src\main\resources', '.\\backend\\domain\\src\\main\\resources')
+
+## Example
+
+from Banz_i18n_codegenerator import generator
+
+generator.run(['i18n_de.properties', 'i18n_en.properties'], 'D:\\Development\\app\\backend\\domain\\src\\main\\resources', r'.\backend\domain\src\main\java\org\derbanz\app\domain\i18n')
