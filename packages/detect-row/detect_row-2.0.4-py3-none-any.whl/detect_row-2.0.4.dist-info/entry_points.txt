@@ -1,0 +1,13 @@
+[console_scripts]
+detect-row-advanced = detect_row.advanced_row_extractor:main
+detect-row-basic = detect_row.basic_row_extractor:main
+detect-row-check = system_check:main
+detect-row-column = detect_row.advanced_column_extractor:main
+detect-row-demo = quick_demo:main
+detect-row-extract = extract_tables_and_columns:main
+detect-row-gpu-test = test_gpu_support:main
+detect-row-helper = column_groups_helper:main
+detect-row-ocr = detect_row.tesseract_ocr_extractor:main
+detect-row-summary = show_results_summary:main
+detect-row-table = detect_row.advanced_table_extractor:main
+detect-row-workflow = run_complete_workflow:main
