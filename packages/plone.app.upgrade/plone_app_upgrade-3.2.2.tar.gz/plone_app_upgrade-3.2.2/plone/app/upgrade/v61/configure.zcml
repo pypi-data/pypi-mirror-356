@@ -1,0 +1,147 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone"
+    >
+
+  <include file="profiles.zcml" />
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6099"
+      destination="6100"
+      >
+    <!-- Plone 6.1.0a1 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6100"
+      destination="6101"
+      >
+    <!-- Plone 6.1.0a2 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6101"
+      destination="6102"
+      >
+    <!-- Plone 6.1.0a3 -->
+    <gs:upgradeStep
+        title="Add Feature to TinyMCE Editor"
+        description="add accordion plugin to tinymce editor"
+        handler=".alpha.add_feature_tinymce_accordion_plugin"
+        />
+    <!-- We reuse an upgrade step from v60 -->
+    <gs:upgradeDepends
+      title="Run to_isiteschema upgrade profile."
+      import_profile="plone.app.upgrade.v60:to_isiteschema"
+      />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6102"
+      destination="6103"
+      >
+    <!-- Plone 6.1.0a4 -->
+    <gs:upgradeDepends
+      title="Run to6103 upgrade profile."
+      import_profile="plone.app.upgrade.v61:to6103"
+      />
+    <gs:upgradeStep
+        title="Remove the portal_properties tool."
+        handler=".final.remove_portal_properties_tool"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6103"
+      destination="6104"
+      >
+    <!-- Plone 6.1.0a5 -->
+    <gs:upgradeStep
+        title="Maybe get rid of plone.app.discussion"
+        handler=".final.maybe_cleanup_discussion"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6104"
+      destination="6105"
+      >
+    <!-- Plone 6.1.0b1 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6105"
+      destination="6106"
+      >
+    <!-- Plone 6.1.0b2 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6106"
+      destination="6107"
+      >
+    <!-- Plone 6.1.0rc1 and 6.1.0 final -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..v60.final.cleanup_mimetypes_registry"
+        />
+
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6107"
+      destination="6108"
+      >
+    <!-- Plone 6.1.1 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6108"
+      destination="6109"
+      >
+    <!-- Plone 6.1.2 -->
+    <gs:upgradeStep
+        title="convert TinyMCE menubar registry entry"
+        handler=".final.upgrade_registry_tinymce_menubar"
+        />
+
+    <gs:upgradeStep
+        title="Make the condition for the external editor action safer."
+        handler=".final.make_external_editor_action_condition_safer"
+        />
+
+  </gs:upgradeSteps>
+
+</configure>
