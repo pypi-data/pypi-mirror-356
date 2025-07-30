@@ -1,0 +1,13 @@
+/target
+Cargo.lock
+*.profraw
+/docs/_build
+*.mo
+# Test outputs
+prepared.jsonl
+settings.ini
+# Local runs
+??.csv
+??.ini
+??.err
+??.json

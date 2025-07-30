@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002, Open Contracting Partnership
+# This file is distributed under the same license as the Cardinal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Camila Salazar, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cardinal 0.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-20 16:40-0400\n"
+"PO-Revision-Date: 2023-09-20 20:42+0000\n"
+"Last-Translator: Camila Salazar, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/open-contracting-partnership-1/teams/123427/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../cli/indicators/R/036.md:1
+msgid "Lowest bid disqualified (R036)"
+msgstr " Oferta más baja descalificada (R036)"
+
+#: ../../cli/indicators/R/036.md:3
+msgid ""
+"The lowest submitted bid is disqualified, while the award criterion is price"
+" only."
+msgstr ""
+"La oferta más baja es descalificada cuando el criterio de adjudicación es "
+"solo precio."
+
+#: ../../cli/indicators/R/036.md:5
+msgid "Methodology"
+msgstr "Metodología"
+
+#: ../../cli/indicators/R/036.md:7
+msgid "A contracting process is flagged if:"
+msgstr "Un proceso de contratación  es señalado si:"
+
+#: ../../cli/indicators/R/036.md:9
+msgid "There are one or more active awards."
+msgstr "Hay una o más adjudicaciones activas."
+
+#: ../../cli/indicators/R/036.md:10
+msgid "The lowest submitted bid is disqualified."
+msgstr "La oferta más baja presentada es descalificada. "
+
+#: ../../cli/indicators/R/036.md:12
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../../cli/indicators/R/036.md:15
+msgid ""
+"The Public Works Department sets the award criterion as lowest price. "
+"FairDeal Inc. submits a bid of \\$100,000. BribeCorp submits a bid of "
+"\\$111,111. The Public Works Department disqualifies the bid from FairDeal "
+"Inc."
+msgstr ""
+"El Departamento de Obras Públicas fija el criterio de adjudicación como el "
+"precio más bajo. FairDeal Inc. presenta una oferta de \\$100.000. BribeCorp "
+"presenta una oferta de \\$111,111. El Departamento de Obras Públicas "
+"descalifica la oferta de FairDeal Inc."
+
+#: ../../cli/indicators/R/036.md:18
+msgid "Why is this a red flag?"
+msgstr "¿Por qué esto es una bandera roja?"
+
+#: ../../cli/indicators/R/036.md:21
+msgid ""
+"A corrupt buyer can award the pre-determined bidder by disqualifying lower-"
+"priced bids."
+msgstr ""
+"Un comprador corrupto puede adjudicar al oferente predeterminado "
+"descalificando ofertas de menor precio. "
+
+#: ../../cli/indicators/R/036.md:24
+msgid ""
+"<small>Based on \"The lowest bid is rejected almost inexplicably\" in "
+"[*Fraud in Public Procurement: A collection of Red Flags and Best "
+"Practices*](https://ec.europa.eu/sfc/system/files/documents/sfc-files/fraud-"
+"public-procurement-final-20122017-ares20176254403.pdf) and \"Lowest bidder "
+"not selected\" in *Most Common Red Flags of Fraud and Corruption in "
+"Procurement in Bank-Financed Projects* (World Bank, 2018).</small>"
+msgstr ""
+"<small>Basado en \"The lowest bid is rejected almost inexplicably\" en "
+"[*Fraud in Public Procurement: A collection of Red Flags and Best "
+"Practices*](https://ec.europa.eu/sfc/system/files/documents/sfc-files/fraud-"
+"public-procurement-final-20122017-ares20176254403.pdf) y \"Lowest bidder not"
+" selected\" en *Most Common Red Flags of Fraud and Corruption in Procurement"
+" in Bank-Financed Projects* (World Bank, 2018).</small>"
+
+#: ../../cli/indicators/R/036.md:26
+msgid "Output"
+msgstr "Salida"
+
+#: ../../cli/indicators/R/036.md:28
+msgid "The indicator's value is always 1.0."
+msgstr "El valor del indicador es siempre 1.0."
+
+#: ../../cli/indicators/R/036.md:30
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../cli/indicators/R/036.md:32
+msgid "The indicator is not configurable."
+msgstr "El indicador no es configurable."
+
+#: ../../cli/indicators/R/036.md:35
+msgid "`fixed_price_procurement_methods` in {ref}`global-configuration`"
+msgstr "`fixed_price_procurement_methods` en {ref}`global-configuration`"
+
+#: ../../cli/indicators/R/036.md:38
+msgid "Demonstration"
+msgstr "Demostración"
+
+#: ../../cli/indicators/R/036.md:40
+msgid "*Input*"
+msgstr "*Entrada*"
+
+#: ../../cli/indicators/R/036.md:46
+msgid "*Output*"
+msgstr "*Salida*"
