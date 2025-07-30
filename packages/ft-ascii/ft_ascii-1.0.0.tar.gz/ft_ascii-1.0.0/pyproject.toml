@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_ascii"
+version = "1.0.0"
+authors = [
+	{ name="Paulo Nicolau", email="paulo.nicolau7@gmail.com" },
+]
+description = "A CLI-interface, 42 school themed animated splash screen"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+	"Development Status :: 6 - Mature",
+	"Topic :: Games/Entertainment"
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.scripts]
+ft_ascii = "ft_ascii.splash:main"

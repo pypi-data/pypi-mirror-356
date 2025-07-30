@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+ft_ascii/__init__.py
+ft_ascii/count_in_list.py
+ft_ascii/splash.py
+ft_ascii.egg-info/PKG-INFO
+ft_ascii.egg-info/SOURCES.txt
+ft_ascii.egg-info/dependency_links.txt
+ft_ascii.egg-info/entry_points.txt
+ft_ascii.egg-info/top_level.txt
