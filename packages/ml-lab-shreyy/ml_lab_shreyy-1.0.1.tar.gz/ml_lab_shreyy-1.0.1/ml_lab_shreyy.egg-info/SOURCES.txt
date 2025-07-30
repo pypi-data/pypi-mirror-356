@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+ml_lab_shreyy.egg-info/PKG-INFO
+ml_lab_shreyy.egg-info/SOURCES.txt
+ml_lab_shreyy.egg-info/dependency_links.txt
+ml_lab_shreyy.egg-info/requires.txt
+ml_lab_shreyy.egg-info/top_level.txt
+ml_lab_shreyy/candidate_elimination/prog1.py
+ml_lab_shreyy/id3/id3_decision_tree.py
+ml_lab_shreyy/kmeans_em/prog5.py
+ml_lab_shreyy/knn_iris/iris_knn.py
+ml_lab_shreyy/lwlr/lwlr_model.py
+ml_lab_shreyy/navie_bayes/navie_bayes.py
+ml_lab_shreyy/svm_custom/svm_custom.py
+ml_lab_shreyy/xor_nn/xor_nn.py
