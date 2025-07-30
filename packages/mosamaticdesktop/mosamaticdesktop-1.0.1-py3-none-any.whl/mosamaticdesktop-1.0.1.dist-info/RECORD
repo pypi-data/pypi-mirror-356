@@ -1,0 +1,15 @@
+mosamaticdesktop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosamaticdesktop/main.py,sha256=uqGa8x7h5o7JOMY4tULdDyfNcqCeA2WreHoPW88xVqg,560
+mosamaticdesktop/resources/images/icons/mosamaticdesktop.icns,sha256=S8mGPnFdhpjej3As0u7lfZMfP_87UdOaU5AUOmhOP20,540413
+mosamaticdesktop/resources/images/icons/mosamaticdesktop.ico,sha256=sArRZs01WPlCQaLqQ-s79DjaspOvx_VC9uaT9JYjOa0,78387
+mosamaticdesktop/resources/images/icons/spinner.gif,sha256=rvaac6GUZauHSPFSOLWr0RmLfjmtZih2Q8knQ2WP3Po,16240
+mosamaticdesktop/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosamaticdesktop/ui/constants.py,sha256=3mCwJn9yz5UdoiGAOLTE66bK3NW4F0SD1BQnnnZ8ZUA,762
+mosamaticdesktop/ui/mainwindow.py,sha256=pallf0oTj9OY3cYIH5YOkpKUAgqkhF0IFUvk_6qaF1U,2209
+mosamaticdesktop/ui/settings.py,sha256=1yOVpW3z0MEy5RENBeW-zR914jCedaUqC2Lu7TFAC04,827
+mosamaticdesktop/ui/utils.py,sha256=w3Wdr7V1glvW2Z9usB5EadtL2gOopH07wcqGnNyDJKo,264
+mosamaticdesktop-1.0.1.dist-info/entry_points.txt,sha256=mGEDIAVJpx8MEFEdke8sOaUtl22UOdoNooNmjzaHwaQ,62
+mosamaticdesktop-1.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mosamaticdesktop-1.0.1.dist-info/METADATA,sha256=zjxztFVAG4KmdF8oieZRnVaeiIhZSdHT_Q2HPxhQrhI,697
+mosamaticdesktop-1.0.1.dist-info/WHEEL,sha256=b4K_helf-jlQoXBBETfwnf4B04YC67LOev0jo4fX5m8,88
+mosamaticdesktop-1.0.1.dist-info/RECORD,,
