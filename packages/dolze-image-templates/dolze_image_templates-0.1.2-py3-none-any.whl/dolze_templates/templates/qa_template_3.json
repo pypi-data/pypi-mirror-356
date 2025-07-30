@@ -1,0 +1,103 @@
+{
+  "name": "qa_template_3",
+  "description": "Playful Q&A template with layered polaroid cards and confetti background",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": "${theme_color}",
+      "border_radius": 0,
+      "background_effect": "confetti"
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 360, "y": 600 },
+      "size": { "width": 1840, "height": 900 },
+      "fill_color": [255, 255, 255, 1],
+      "border_radius": 20,
+      "rotation_angle": -3,
+      "shadow": {
+        "color": [0, 0, 0, 0.15],
+        "offset_x": 10,
+        "offset_y": 10,
+        "blur_radius": 25
+      },
+      "z_index": 1
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 280, "y": 750 },
+      "size": { "width": 1840, "height": 900 },
+      "fill_color": [255, 255, 255, 1],
+      "border_radius": 20,
+      "rotation_angle": 3,
+      "shadow": {
+        "color": [0, 0, 0, 0.15],
+        "offset_x": -10,
+        "offset_y": 10,
+        "blur_radius": 25
+      },
+      "z_index": 0
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 150, "y": 150 },
+      "size": { "width": 350, "height": 350 },
+      "frame_shape": "hexagon",
+      "animation_glow": [251, 191, 36, 0.3],
+      "circle_crop": true
+    },
+    {
+      "type": "text",
+      "text": "${question}",
+      "position": { "x": 460, "y": 700 },
+      "font_family": "Poppins, sans-serif",
+      "font_size": 180,
+      "color": [17, 24, 39, 1],
+      "max_width": 1640,
+      "line_spacing": 1.3,
+      "align": "center",
+      "font_weight": "bold"
+    },
+    {
+      "type": "text",
+      "text": "${answer}",
+      "position": { "x": 380, "y": 950 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 100,
+      "color": [75, 85, 99, 1],
+      "max_width": 1640,
+      "line_spacing": 1.5,
+      "align": "center"
+    },
+    {
+      "type": "path",
+      "position": { "x": 280, "y": 2000 },
+      "path_data": "M280,2000 C480,1950 2080,1950 2280,2000 L2280,2100 C2080,2150 480,2150 280,2100 Z",
+      "fill_color": [234, 88, 12, 1],
+      "ribbon_style": "curved",
+      "shadow": {
+        "color": [0, 0, 0, 0.1],
+        "offset_x": 4,
+        "offset_y": 4,
+        "blur_radius": 10
+      }
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 780, "y": 2200 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 70,
+      "color": [255, 255, 255, 1],
+      "max_width": 1400,
+      "line_spacing": 1.2,
+      "align": "center",
+      "font_style": "italic"
+    }
+  ]
+}

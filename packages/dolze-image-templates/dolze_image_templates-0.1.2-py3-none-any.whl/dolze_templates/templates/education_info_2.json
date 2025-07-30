@@ -1,0 +1,112 @@
+{
+  "name": "education_info_2",
+  "description": "Bold educational template with magazine cover aesthetic and circular image",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": "${theme_color}",
+      "border_radius": 0
+    },
+    {
+      "type": "circle",
+      "position": { "x": 580, "y": 200 },
+      "size": { "width": 1400, "height": 1400 },
+      "fill_color": [255, 255, 255, 1],
+      "rotation_angle": -4,
+      "shadow": {
+        "color": [0, 0, 0, 0.15],
+        "offset_x": 10,
+        "offset_y": 10,
+        "blur_radius": 20
+      }
+    },
+    {
+      "type": "image",
+      "image_url": "${image_url}",
+      "position": { "x": 620, "y": 240 },
+      "size": { "width": 1320, "height": 1320 },
+      "circle_crop": true,
+      "rotation_angle": -4,
+      "overlay_color": [255, 255, 255, 0.1]
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 300, "y": 1700 },
+      "size": { "width": 1960, "height": 200 },
+      "fill_color": [17, 24, 39, 1],
+      "border_radius": 15,
+      "highlight_style": "bar",
+      "shadow": {
+        "color": [0, 0, 0, 0.1],
+        "offset_x": 4,
+        "offset_y": 4,
+        "blur_radius": 10
+      }
+    },
+    {
+      "type": "text",
+      "text": "Did You Know?",
+      "position": { "x": 350, "y": 1720 },
+      "font_family": "Poppins, sans-serif",
+      "font_size": 80,
+      "color": [255, 255, 255, 1],
+      "max_width": 1860,
+      "line_spacing": 1.2,
+      "align": "center",
+      "font_weight": "bold"
+    },
+    {
+      "type": "text",
+      "text": "${testimonial_text}",
+      "position": { "x": 350, "y": 1900 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 90,
+      "color": [17, 24, 39, 1],
+      "max_width": 1860,
+      "line_spacing": 1.5,
+      "align": "center"
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 2300 },
+      "size": { "width": 2560, "height": 260 },
+      "fill_color": [255, 255, 255, 0.9],
+      "footer_style": "bar"
+    },
+    {
+      "type": "text",
+      "text": "${author}",
+      "position": { "x": 350, "y": 2350 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 60,
+      "color": [17, 24, 39, 1],
+      "max_width": 900,
+      "line_spacing": 1.2,
+      "align": "left",
+      "font_weight": "bold"
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 1350, "y": 2350 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 60,
+      "color": [17, 24, 39, 1],
+      "max_width": 900,
+      "line_spacing": 1.2,
+      "align": "right"
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 2100, "y": 100 },
+      "size": { "width": 250, "height": 250 },
+      "circle_crop": true,
+      "glow_color": [68, 236, 157, 0.3]
+    }
+  ]
+}

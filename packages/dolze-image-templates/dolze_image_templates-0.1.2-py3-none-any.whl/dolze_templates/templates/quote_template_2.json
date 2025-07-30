@@ -1,0 +1,71 @@
+{
+  "name": "quote_template_2",
+  "description": "Minimal quote template with glassmorphism card and bokeh background",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": "${theme_color}",
+      "border_radius": 0,
+      "background_effect": "bokeh"
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 330, "y": 400 },
+      "size": { "width": 1900, "height": 1400 },
+      "fill_color": [255, 255, 255, 0.85],
+      "border_radius": 40,
+      "blur_radius": 20,
+      "border_style": "subtle",
+      "border_color": [255, 255, 255, 0.3],
+      "shadow": {
+        "color": [0, 0, 0, 0.1],
+        "offset_x": 8,
+        "offset_y": 8,
+        "blur_radius": 15
+      }
+    },
+    {
+      "type": "text",
+      "text": "${quote1} ${quote2}",
+      "position": { "x": 380, "y": 600 },
+      "font_family": "Poppins, sans-serif",
+      "font_size": 100,
+      "color": [17, 24, 39, 1],
+      "max_width": 1800,
+      "line_spacing": 1.5,
+      "align": "center",
+      "font_weight": "bold"
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 100, "y": 100 },
+      "size": { "width": 200, "height": 200 },
+      "circle_crop": true,
+      "glow_color": [68, 236, 157, 0.3]
+    },
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 2300 },
+      "size": { "width": 2560, "height": 260 },
+      "fill_color": [255, 255, 255, 0.9],
+      "footer_style": "minimal"
+    },
+    {
+      "type": "text",
+      "text": "${username} • ${website_url}",
+      "position": { "x": 330, "y": 2350 },
+      "font_family": "Inter, sans-serif",
+      "font_size": 60,
+      "color": [17, 24, 39, 1],
+      "max_width": 1900,
+      "line_spacing": 1.2,
+      "align": "center",
+      "font_style": "italic"
+    }
+  ]
+}

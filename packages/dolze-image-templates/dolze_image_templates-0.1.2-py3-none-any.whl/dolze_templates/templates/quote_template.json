@@ -1,0 +1,66 @@
+{
+  "name": "quote_template",
+  "description": "Centered quote template with two-tone text and logo",
+  "size": { "width": 2560, "height": 2560 },
+  "use_base_image": false,
+  "components": [
+    {
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 2560, "height": 2560 },
+      "fill_color": "${theme_color}",
+
+      "outline_color": null
+    },
+    {
+      "type": "image",
+      "image_url": "${logo_url}",
+      "position": { "x": 1150, "y": 300 },
+      "size": { "width": 300, "height": 300 },
+      "circle_crop": true
+    },
+    {
+      "type": "text",
+      "text": "${quote1}",
+      "position": { "x": 480, "y": 950 },
+      "font_size": 150,
+      "color": [30, 30, 30],
+      "font_path": "Outfit-Bold",
+      "alignment": "center",
+      "max_width": 1600,
+      "line_spacing": 1.4
+    },
+    {
+      "type": "text",
+      "text": "${quote2}",
+      "position": { "x": 230, "y": 1230 },
+      "font_size": 130,
+      "font_weight": 200,
+      "color": "#ffffff",
+      "font_path": "Outfit-Bold",
+      "alignment": "center",
+      "max_width": 2100,
+      "line_spacing": 1.4
+    },
+    {
+      "type": "text",
+      "text": "${username}",
+      "position": { "x": 20, "y": 2300 },
+      "font_size": 70,
+      "max_width": 2560,
+      "color": [255, 255, 255],
+      "font_path": "Outfit-Bold",
+      "alignment": "center"
+    },
+    {
+      "type": "text",
+      "text": "${website_url}",
+      "position": { "x": 20, "y": 2400 },
+      "font_size": 60,
+      "max_width": 2560,
+      "color": "#11111",
+      "font_path": "Outfit-Medium",
+      "alignment": "center"
+    }
+  ]
+}
