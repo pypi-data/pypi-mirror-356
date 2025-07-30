@@ -1,0 +1,314 @@
+# Aitomics Python Port Strategy
+
+## Overview
+This document outlines the strategy for creating and maintaining a Python port of the Aitomics library while keeping it synchronized with the JavaScript version.
+The python port script is for now purely `llm` generated.
+
+## Quick Start
+
+### Manual Sync
+To sync the Python port with JavaScript changes, run:
+```bash
+cd python-port
+python sync_manual.py
+```
+
+This will:
+1. Extract function signatures from JavaScript
+2. Generate Python stub files
+3. Convert examples
+4. Clean up temporary files
+
+### Development Setup
+```bash
+cd python-port
+pip install -e .[dev]
+pytest  # Run tests
+```
+
+## Architecture
+
+### Core Components to Port
+
+1. **Core Classes**
+   - `Response` - Linked list structure for transformations
+   - `Caller` - LLM interaction wrapper
+   - `ComparisonModel` - Base class for comparisons
+   - `EqualComparisonModel`, `DistanceComparisonModel`, `KrippendorffsComparisonModel`, `CohensComparisonModel`
+
+2. **Utility Functions**
+   - `$` - Caller creation function (becomes `caller()` in Python)
+   - `_` - Utility namespace
+   - `createUtilityAnalysisCaller` - Custom utility creation
+
+3. **Configuration**
+   - YAML config parsing
+   - LLM settings management
+
+4. **Visualization**
+   - Mermaid diagram generation
+   - Flow diagram creation
+
+## Implementation Strategy
+
+### Phase 1: Core Infrastructure ✅
+- [x] Set up Python project structure
+- [x] Create base classes with type hints
+- [x] Implement async/await patterns
+- [x] Add comprehensive testing
+
+### Phase 2: LLM Integration
+- [ ] HTTP client for LM Studio API
+- [ ] Configuration management
+- [ ] Error handling and retries
+
+### Phase 3: Comparison Models
+- [ ] Implement all comparison models
+- [ ] Add statistical calculations
+- [ ] Performance optimization
+
+### Phase 4: Utilities & Visualization
+- [ ] Standard library utilities
+- [ ] Mermaid diagram generation
+- [ ] Flow visualization
+
+### Phase 5: Synchronization ✅
+- [x] Manual sync scripts
+- [x] Version management
+- [ ] Documentation updates
+
+## File Structure
+
+```
+python-port/
+├── aitomics/                    # Generated Python package
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── response.py
+│   │   ├── caller.py
+│   │   └── comparison.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── equal.py
+│   │   ├── distance.py
+│   │   ├── krippendorff.py
+│   │   └── cohen.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── basic.py
+│   │   ├── analysis.py
+│   │   └── custom.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── yaml_parser.py
+│   │   └── llm_config.py
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── mermaid.py
+│   │   └── flow_diagram.py
+│   └── http/
+│       ├── __init__.py
+│       └── client.py
+├── tests/                       # Test files
+├── examples/                    # Converted examples
+├── sync/                        # Sync utilities
+│   ├── js_to_py.py             # Core sync logic
+│   └── update_docs.py          # Documentation sync
+├── sync_manual.py              # Manual sync script
+├── setup.py
+├── pyproject.toml
+├── requirements.txt
+└── README.md
+```
+
+## Synchronization Strategy
+
+### Manual Sync Process
+1. **Run sync script**: `python sync_manual.py`
+2. **Review changes**: Check generated files for accuracy
+3. **Add implementations**: Fill in missing functionality
+4. **Test**: Run tests to ensure compatibility
+5. **Document**: Update documentation if needed
+
+### Version Management
+- Use semantic versioning for both packages
+- Keep major versions synchronized
+- Allow minor version differences for language-specific features
+
+## Python-Specific Enhancements
+
+### Type Hints
+```python
+from typing import Union, List, Dict, Any, Optional
+from dataclasses import dataclass
+
+@dataclass
+class Response:
+    output: Union[str, Dict[str, Any]]
+    caller: 'Caller'
+    input: Union[str, 'Response']
+    generator: str
+    root: bool
+    level: int
+```
+
+### Async/Await Support
+```python
+import asyncio
+import aiohttp
+
+class Caller:
+    async def run(self, input_data: Union[str, Response]) -> Response:
+        # Async implementation
+        pass
+```
+
+### Context Managers
+```python
+class AitomicsContext:
+    def __init__(self, config_path: str):
+        self.config_path = config_path
+    
+    async def __aenter__(self):
+        await self.load_config()
+        return self
+    
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        await self.cleanup()
+```
+
+## Dependencies
+
+### Core Dependencies
+- `aiohttp` - Async HTTP client
+- `pyyaml` - YAML parsing
+- `pydantic` - Data validation
+- `typing-extensions` - Advanced type hints
+
+### Development Dependencies
+- `pytest` - Testing framework
+- `pytest-asyncio` - Async testing
+- `black` - Code formatting
+- `mypy` - Type checking
+- `pre-commit` - Git hooks
+
+## Migration Guide
+
+### JavaScript to Python Mapping
+
+| JavaScript | Python |
+|------------|--------|
+| `$("prompt", "id")` | `caller("prompt", "id")` |
+| `_.lowerCase` | `utils.lower_case` |
+| `await caller.run()` | `await caller.run()` |
+| `Response.create()` | `Response.create()` |
+
+### Example Conversion
+
+**JavaScript:**
+```javascript
+const caller = $("Transform text", "my-caller")
+const result = await caller.run("input")
+```
+
+**Python:**
+```python
+caller = caller("Transform text", "my-caller")
+result = await caller.run("input")
+```
+
+## Testing Strategy
+
+### Unit Tests
+- Core class functionality
+- Comparison model accuracy
+- Utility function behavior
+
+### Integration Tests
+- LLM API interaction
+- Configuration loading
+- Visualization generation
+
+### Performance Tests
+- Large dataset processing
+- Memory usage optimization
+- Async operation efficiency
+
+## Distribution
+
+### PyPI Package
+- Package name: `aitomics`
+- Version synchronization with npm package
+- Comprehensive documentation
+
+### Documentation
+- Sphinx-based documentation
+- API reference
+- Migration guides
+- Example gallery
+
+## Maintenance
+
+### Manual Sync Process
+- Run sync script when JavaScript changes
+- Review and test generated code
+- Update documentation as needed
+- Release synchronized versions
+
+### Quality Assurance
+- Code coverage requirements
+- Type checking in CI
+- Performance benchmarks
+
+## Timeline
+
+- **Week 1-2**: Core infrastructure and basic classes ✅
+- **Week 3-4**: LLM integration and comparison models
+- **Week 5-6**: Utilities and visualization
+- **Week 7-8**: Testing and documentation
+- **Week 9-10**: Manual sync process and distribution ✅
+
+## Success Metrics
+
+- [ ] 100% API compatibility with JavaScript version
+- [ ] 90%+ test coverage
+- [ ] Performance within 10% of JavaScript version
+- [x] Manual sync process working
+- [ ] PyPI package published
+- [ ] Documentation complete
+
+## Usage Examples
+
+### Basic Usage
+```python
+from aitomics import caller, Response
+
+# Create a caller
+my_caller = caller("Transform this text to uppercase", "uppercase-transformer")
+
+# Run the caller
+result = await my_caller.run("hello world")
+print(result.output)  # "HELLO WORLD"
+
+# Create from external data
+external_response = Response.create("External data", "original input")
+```
+
+### Comparison Example
+```python
+from aitomics import EqualComparisonModel
+
+# Compare two responses
+comparison = result1.compare(result2).run(EqualComparisonModel())
+print(f"Agreement: {comparison}")
+```
+
+### Utility Functions
+```python
+from aitomics.utils import lower_case, upper_case
+
+# Use utility functions
+lower_result = lower_case("HELLO WORLD")
+upper_result = upper_case("hello world")
+``` 

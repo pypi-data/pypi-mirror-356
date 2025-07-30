@@ -1,0 +1,2 @@
+[console_scripts]
+aitomics-sync = aitomics.sync:main
