@@ -1,0 +1,17 @@
+[project]
+name = "ymapi"
+version = "0.0.1"
+description = "Thin wrapper for Yandex.Market API"
+readme = "README.md"
+authors = [
+    { name = "Dmitry Drozdov", email = "ds.drozdov@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ymapi = "ymapi:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
