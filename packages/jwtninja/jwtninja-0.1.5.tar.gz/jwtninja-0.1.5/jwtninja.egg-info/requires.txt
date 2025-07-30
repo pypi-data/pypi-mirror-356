@@ -1,0 +1,5 @@
+pydantic>=2.9.2
+pydantic-settings>=2.5.2
+uuid6>=2024.7.10
+pyjwt>=2.9.0
+django-ninja>=1.3.0
