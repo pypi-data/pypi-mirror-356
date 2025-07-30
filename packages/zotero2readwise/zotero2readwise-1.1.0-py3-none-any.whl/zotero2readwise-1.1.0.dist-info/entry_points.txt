@@ -1,0 +1,3 @@
+[console_scripts]
+run=zotero2readwise.run:main
+
