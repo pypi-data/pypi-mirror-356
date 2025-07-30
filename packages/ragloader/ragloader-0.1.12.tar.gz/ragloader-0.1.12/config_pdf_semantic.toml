@@ -1,0 +1,51 @@
+[general]
+log_level = "DEBUG"
+
+[pipeline_stages]
+
+
+[pipeline_stages.parsing]
+label = "1_parse_pdfs"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.parsing.parsers]
+".pdf" = "pymupdf_parser"
+
+
+[pipeline_stages.classification]
+label = "2_classified_pdfs"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.classification.categories]
+
+[pipeline_stages.extraction]
+label = "3_extracted_pdfs"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.splitting]
+label = "4_split_pdfs"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.splitting.splitters]
+unstructured_text = "semantic_chunker_splitter"
+
+[pipeline_stages.splitting.splitters_params]
+[pipeline_stages.splitting.splitters_params.semantic_chunker_splitter]
+embedding_model = "OrlikB/KartonBERT-USE-base-v1"
+min_chunk_size = 800
+
+
+[pipeline_stages.embedding]
+label = "5_embedded_pdfs"
+cache_step = true
+use_cache = true
+embedding_model = "OrlikB_KartonBERT_USE_base_v1"
+
+[db]
+[db.qdrant]
+location = "localhost"
+port = 6333

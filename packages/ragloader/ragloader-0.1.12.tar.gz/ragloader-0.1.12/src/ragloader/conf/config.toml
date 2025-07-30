@@ -1,0 +1,66 @@
+[general]
+log_level = "DEBUG"
+
+[pipeline_stages]
+[pipeline_stages.parsing]
+label = "statuses"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.parsing.parsers]
+".pdf" = "pymupdf_parser"
+".txt" = "txt_parser"
+".png" = "openai_image_parser"
+".jpg" = "openai_image_parser"
+".docx" = "docx2txt_parser"
+
+
+[pipeline_stages.classification]
+label = "statuses"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.classification.categories]
+".pdf" = ["cv", "invoice"]
+".png" = ["conversation", "undefined"]
+"other_extensions" = ["cv", "invoice", "undefined"]
+
+[pipeline_stages.extraction]
+label = "statuses"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.splitting]
+label = "statuses"
+cache_step = true
+use_cache = true
+
+[pipeline_stages.splitting.splitters]
+unstructured_text = "single_chunk_splitter"
+website = "html_splitter"
+code = "code_splitter"
+cv = "cv_splitter"
+sms = "sms_splitter"
+markdown = "markdown_splitter"
+
+[pipeline_stages.splitting.splitters_params]
+[pipeline_stages.splitting.splitters_params.character_based_splitter]
+chunk_size = 1000
+chunk_overlap = 200
+separators = []
+
+
+[pipeline_stages.embedding]
+label = "statuses"
+cache_step = true
+use_cache = true
+
+embedding_model = "all_mpnet_base"
+
+
+# ============================
+
+[db]
+[db.qdrant]
+location = "localhost"
+port = 6333
