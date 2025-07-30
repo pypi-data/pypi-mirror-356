@@ -1,0 +1,2 @@
+[console_scripts]
+girokmoji = girokmoji.__main__:main
