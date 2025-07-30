@@ -1,0 +1,5 @@
+numpy>=1.26.2
+pandas>=2.1.4
+pyfaidx>=0.8.1.1
+pybigwig>=0.3.22
+tensorflow<2.16,>=2.13
