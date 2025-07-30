@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rc.process
+Version: 0.11.0
+Summary: RC Process Wrapper.
+Home-page: https://github.com/radical-consulting/rc.process
+Author: Andre Merzky
+Author-email: andre.merzky@radical-consulting.com
+Maintainer: Andre Merzky
+Maintainer-email: andre.merzky@radical-consulting.com
+License: AGPL
+Project-URL: Documentation, https://rcprocess.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/radical-consulting/rc.process/
+Project-URL: Issues, https://github.com/radical-consulting/rc.process/issues
+Keywords: radical,consulting,utilities,process,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.AGPL.md
+License-File: LICENSE.md
+
+UNKNOWN
+
