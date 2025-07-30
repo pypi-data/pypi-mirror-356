@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: kklove.hefang
+Version: 1.8.6
+Summary: A Powerful Windows-PC-Wechat automation Tool
+Author: hefangyixialou
+Author-email: 一串数字@qq.com
+License: Apache-2.0
+Keywords: rpa,windows,wechat,automation
+Description-Content-Type: text/markdown
+Requires-Dist: PyAutoGUI>=0.9.54
+Requires-Dist: pycaw>=20240210
+Requires-Dist: pywin32>=308
+Requires-Dist: pywin32-ctypes>=0.2.2
+Requires-Dist: pywinauto>=0.6.8
+Requires-Dist: psutil>=5.9.6
+Requires-Dist: pillow>=11.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
