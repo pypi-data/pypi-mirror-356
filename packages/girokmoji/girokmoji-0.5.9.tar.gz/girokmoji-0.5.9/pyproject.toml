@@ -1,0 +1,53 @@
+[project]
+name = "girokmoji"
+dynamic = ["version"]
+description = "Change log creator for gitmoji logs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pygit2>=1.17.0",
+]
+authors = [
+    { name = "Kim Milhan", email = "kimmilhan@gmail.com" },
+]
+keywords = ["emoji", "git", "gitmoji", "vcs", "ci", "release", "changelog"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Build Tools",
+]
+[project.scripts]
+girokmoji = "girokmoji.__main__:main"
+
+[dependency-groups]
+dev = [
+    "coverage>=7.8.0",
+    "pyright>=1.1.393",
+    "pytest>=8.3.4",
+    "python-semantic-release>=10.0.2",
+    "ruff>=0.9.5",
+]
+
+[tool.pyright]
+reportPrivateImportUsage = false
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[tool.semantic_release]
+version_variables = ["girokmoji/__init__.py:__version__"]
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv-dynamic-versioning]
+fallback-version = "0.0.0"
